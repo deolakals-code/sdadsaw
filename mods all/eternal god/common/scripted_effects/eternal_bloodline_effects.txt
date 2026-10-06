@@ -141,7 +141,7 @@ eternal_holy_maiden_call = {
 			save_scope_as = holy_ally
 			scope:war = { add_attacker = scope:holy_ally }
 			add_opinion = { target = scope:attacker modifier = eternal_charmed_opinion }
-			add_character_modifier = { modifier = eternal_holy_fervor_modifier }
+			add_character_modifier = { modifier = eternal_holy_fervor_modifier years = 3 }
 			spawn_army = {
 				name = event_troop_default_name
 				levies = 2000

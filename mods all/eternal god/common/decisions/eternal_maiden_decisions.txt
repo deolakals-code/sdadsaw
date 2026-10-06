@@ -4,6 +4,7 @@
 	selection_tooltip = eternal_divine_mandate_decision_tooltip
 	decision_group_type = eternal_court
 	sort_order = 96
+	cooldown = { years = 2 }
 	is_shown = { has_trait = holy_maiden }
 	effect = { trigger_event = eternal_maiden.0001 }
 	ai_potential = { always = no }
@@ -16,6 +17,7 @@ eternal_holy_absolution_decision = {
 	selection_tooltip = eternal_holy_absolution_decision_tooltip
 	decision_group_type = eternal_shadow
 	sort_order = 97
+	cooldown = { years = 1 }
 	is_shown = { has_trait = holy_maiden }
 	is_valid = { piety >= 200 }
 	effect = { trigger_event = eternal_maiden.0002 }
