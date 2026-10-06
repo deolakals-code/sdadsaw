@@ -21,5 +21,16 @@ holy_maiden_events_yearly = {
 		100 = eternal_maiden.0107
 		100 = eternal_maiden.0108
 		100 = eternal_maiden.0109
+		# 2/4 clergy, heresy and the head of faith
+		100 = eternal_maiden.0200
+		100 = eternal_maiden.0201
+		100 = eternal_maiden.0202
+		100 = eternal_maiden.0203
+		100 = eternal_maiden.0204
+		100 = eternal_maiden.0205
+		100 = eternal_maiden.0206
+		100 = eternal_maiden.0207
+		100 = eternal_maiden.0208
+		100 = eternal_maiden.0209
 	}
 }
