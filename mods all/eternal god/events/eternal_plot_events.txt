@@ -16,8 +16,6 @@ eternal_plot.0101 = {
 	}
 	option = {
 		name = eternal_plot.0101.b
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		set_variable = { name = eternal_m_heirs_style value = 2 }
 		eternal_plot_begin = yes
 		trigger_event = { id = eternal_plot.0102 days = 15 }
@@ -288,8 +286,6 @@ eternal_plot.0201 = {
 	}
 	option = {
 		name = eternal_plot.0201.b
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		set_variable = { name = eternal_m_parent_style value = 2 }
 		eternal_plot_begin = yes
 		trigger_event = { id = eternal_plot.0202 days = 15 }
@@ -470,8 +466,6 @@ eternal_plot.0301 = {
 	}
 	option = {
 		name = eternal_plot.0301.b
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		set_variable = { name = eternal_m_bastard_style value = 2 }
 		eternal_plot_begin = yes
 		trigger_event = { id = eternal_plot.0302 days = 15 }
@@ -676,8 +670,6 @@ eternal_plot.0401 = {
 	}
 	option = {
 		name = eternal_plot.0401.b
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		set_variable = { name = eternal_m_forgotten_style value = 2 }
 		eternal_plot_begin = yes
 		trigger_event = { id = eternal_plot.0402 days = 15 }
@@ -894,8 +886,6 @@ eternal_plot.0501 = {
 	}
 	option = {
 		name = eternal_plot.0501.b
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		set_variable = { name = eternal_m_spouse_style value = 2 }
 		eternal_plot_begin = yes
 		trigger_event = { id = eternal_plot.0502 days = 15 }
@@ -1076,8 +1066,6 @@ eternal_plot.0601 = {
 	}
 	option = {
 		name = eternal_plot.0601.b
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		set_variable = { name = eternal_m_feast_style value = 2 }
 		eternal_plot_begin = yes
 		trigger_event = { id = eternal_plot.0602 days = 15 }
@@ -1258,8 +1246,6 @@ eternal_plot.0701 = {
 	}
 	option = {
 		name = eternal_plot.0701.b
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		set_variable = { name = eternal_m_ward_style value = 2 }
 		eternal_plot_begin = yes
 		trigger_event = { id = eternal_plot.0702 days = 15 }
@@ -1452,8 +1438,6 @@ eternal_plot.0801 = {
 	}
 	option = {
 		name = eternal_plot.0801.b
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		set_variable = { name = eternal_m_mediate_style value = 2 }
 		eternal_plot_begin = yes
 		trigger_event = { id = eternal_plot.0802 days = 15 }
@@ -1622,8 +1606,6 @@ eternal_plot.0901 = {
 	}
 	option = {
 		name = eternal_plot.0901.b
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		set_variable = { name = eternal_m_lull_style value = 2 }
 		eternal_plot_begin = yes
 		trigger_event = { id = eternal_plot.0902 days = 15 }
@@ -1756,8 +1738,6 @@ eternal_plot.1101 = {
 	}
 	option = {
 		name = eternal_plot.1101.b
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		set_variable = { name = eternal_m_faith_style value = 2 }
 		eternal_plot_begin = yes
 		trigger_event = { id = eternal_plot.1102 days = 15 }
@@ -1926,8 +1906,6 @@ eternal_plot.1201 = {
 	}
 	option = {
 		name = eternal_plot.1201.b
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		set_variable = { name = eternal_m_market_style value = 2 }
 		eternal_plot_begin = yes
 		trigger_event = { id = eternal_plot.1202 days = 15 }
@@ -2277,8 +2255,6 @@ eternal_plot.1401 = {
 	}
 	option = {
 		name = eternal_plot.1401.b
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		set_variable = { name = eternal_m_counsel_style value = 2 }
 		eternal_plot_begin = yes
 		trigger_event = { id = eternal_plot.1402 days = 15 }
@@ -2447,8 +2423,6 @@ eternal_plot.1501 = {
 	}
 	option = {
 		name = eternal_plot.1501.b
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		set_variable = { name = eternal_m_puppet_style value = 2 }
 		eternal_plot_begin = yes
 		trigger_event = { id = eternal_plot.1502 days = 15 }
@@ -2659,8 +2633,6 @@ eternal_plot.1601 = {
 	}
 	option = {
 		name = eternal_plot.1601.b
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		set_variable = { name = eternal_m_praise_style value = 2 }
 		eternal_plot_begin = yes
 		trigger_event = { id = eternal_plot.1602 days = 30 }
@@ -3051,8 +3023,6 @@ eternal_plot.9000 = {
 	}
 	option = {
 		name = eternal_plot.9000.b
-		trigger = { gold >= 400 }
-		remove_short_term_gold = 400
 		set_variable = { name = eternal_suspicion value = 50 }
 	}
 	option = {
@@ -3071,8 +3041,6 @@ eternal_plot.1001 = {
 	left_portrait = { character = root animation = personality_rational }
 	option = {
 		name = eternal_plot.1001.a
-		trigger = { gold >= 150 }
-		remove_short_term_gold = 150
 		eternal_machinations_every_county = { MODIFIER = eternal_gratitude_county_modifier YEARS = 3 }
 		eternal_add_suspicion = { A = -15 B = -8 }
 	}
@@ -3084,8 +3052,6 @@ eternal_plot.1001 = {
 	}
 	option = {
 		name = eternal_plot.1001.c
-		trigger = { gold >= 300 }
-		remove_short_term_gold = 300
 		eternal_machinations_every_county = { MODIFIER = eternal_gratitude_county_modifier YEARS = 6 }
 		add_prestige = 250
 		eternal_add_suspicion = { A = -25 B = -12 }
@@ -3118,8 +3084,6 @@ eternal_plot.1701 = {
 	option = { name = eternal_plot.1701.a }
 	option = {
 		name = eternal_plot.1701.b
-		trigger = { gold >= 50 }
-		remove_short_term_gold = 50
 		eternal_add_suspicion = { A = -10 B = -5 }
 	}
 }
@@ -3139,8 +3103,7 @@ eternal_plot.1801 = {
 	}
 	option = {
 		name = eternal_plot.1801.a
-		trigger = { exists = scope:cand gold >= 200 }
-		remove_short_term_gold = 200
+		trigger = { exists = scope:cand }
 		set_variable = { name = eternal_shadow_agent value = scope:cand }
 		add_hook = { type = favor_hook target = scope:cand }
 	}
@@ -3163,8 +3126,6 @@ eternal_plot.1901 = {
 	left_portrait = { character = root animation = personality_rational }
 	option = {
 		name = eternal_plot.1901.a
-		trigger = { gold >= 200 }
-		remove_short_term_gold = 200
 		add_character_modifier = { modifier = eternal_gracious_queen_modifier years = 3 }
 		eternal_add_suspicion = { A = -20 B = -10 }
 	}

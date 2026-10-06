@@ -37,7 +37,6 @@ eternal_maiden.0002 = {
 
 	option = {
 		name = eternal_maiden.0002.a
-		add_piety = -200
 		remove_trait = kinslayer_1
 		remove_trait = kinslayer_2
 		remove_trait = kinslayer_3
@@ -45,7 +44,6 @@ eternal_maiden.0002 = {
 	}
 	option = {
 		name = eternal_maiden.0002.b
-		add_piety = -100
 		eternal_add_suspicion = { A = -15 B = -8 }
 	}
 }

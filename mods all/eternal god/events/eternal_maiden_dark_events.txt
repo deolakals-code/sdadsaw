@@ -102,8 +102,6 @@ eternal_maiden.0402 = {
 
 	option = {
 		name = eternal_maiden.0402.b
-		trigger = { gold >= 150 }
-		remove_short_term_gold = 150
 		add_dread = 50
 		eternal_add_suspicion = { A = 8 B = 4 }
 	}
@@ -179,7 +177,6 @@ eternal_maiden.0404 = {
 
 	option = {
 		name = eternal_maiden.0404.b
-		add_piety = -100
 		eternal_add_suspicion = { A = -10 B = -5 }
 	}
 
@@ -342,7 +339,6 @@ eternal_maiden.0408 = {
 	option = {
 		name = eternal_maiden.0408.b
 		add_gold = 200
-		add_piety = -100
 	}
 
 	option = {

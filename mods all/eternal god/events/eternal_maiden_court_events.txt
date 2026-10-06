@@ -194,8 +194,6 @@ eternal_maiden.0304 = {
 
 	option = {
 		name = eternal_maiden.0304.a
-		trigger = { gold >= 50 }
-		remove_short_term_gold = 50
 		scope:maiden_speaker = { add_opinion = { target = root modifier = eternal_maiden_devoted_opinion } }
 	}
 
@@ -231,8 +229,6 @@ eternal_maiden.0305 = {
 
 	option = {
 		name = eternal_maiden.0305.a
-		trigger = { gold >= 150 }
-		remove_short_term_gold = 150
 		add_prestige = 250
 	}
 
@@ -317,8 +313,6 @@ eternal_maiden.0307 = {
 
 	option = {
 		name = eternal_maiden.0307.a
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		add_piety = 200
 	}
 

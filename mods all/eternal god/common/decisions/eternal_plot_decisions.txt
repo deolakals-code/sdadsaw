@@ -4,7 +4,7 @@
 	selection_tooltip = eternal_mercy_decision_tooltip
 	decision_group_type = eternal_court
 	sort_order = 91
-	cooldown = { years = 1 }
+	cooldown = { days = 90 }
 	is_shown = { has_trait = eternal_bloodline }
 	is_valid_showing_failures_only = { is_available_allow_travelling = yes }
 	effect = { trigger_event = eternal_plot.1001 }
@@ -31,7 +31,7 @@ eternal_appoint_agent_decision = {
 	selection_tooltip = eternal_appoint_agent_decision_tooltip
 	decision_group_type = eternal_shadow
 	sort_order = 93
-	cooldown = { years = 3 }
+	cooldown = { days = 90 }
 	is_shown = { has_trait = eternal_bloodline }
 	is_valid = {
 		custom_description = {
@@ -72,7 +72,7 @@ eternal_gracious_court_decision = {
 	selection_tooltip = eternal_gracious_court_decision_tooltip
 	decision_group_type = eternal_court
 	sort_order = 94
-	cooldown = { years = 1 }
+	cooldown = { days = 90 }
 	is_shown = { has_trait = eternal_bloodline }
 	effect = { trigger_event = eternal_plot.1901 }
 	ai_potential = { always = no }

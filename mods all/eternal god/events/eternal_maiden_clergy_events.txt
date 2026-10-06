@@ -111,8 +111,6 @@ eternal_maiden.0202 = {
 
 	option = {
 		name = eternal_maiden.0202.c
-		trigger = { gold >= 150 }
-		remove_short_term_gold = 150
 		add_piety = 250
 	}
 }
@@ -143,8 +141,6 @@ eternal_maiden.0203 = {
 
 	option = {
 		name = eternal_maiden.0203.b
-		trigger = { gold >= 200 }
-		remove_short_term_gold = 200
 		add_piety = 150
 	}
 
@@ -189,7 +185,6 @@ eternal_maiden.0204 = {
 
 	option = {
 		name = eternal_maiden.0204.c
-		add_piety = -100
 		eternal_add_suspicion = { A = -30 B = -15 }
 	}
 }
@@ -250,8 +245,6 @@ eternal_maiden.0206 = {
 
 	option = {
 		name = eternal_maiden.0206.a
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		add_piety = 150
 		add_character_modifier = { modifier = eternal_maiden_beloved_modifier years = 3 }
 	}
@@ -346,7 +339,6 @@ eternal_maiden.0208 = {
 	option = {
 		name = eternal_maiden.0208.c
 		add_prestige = 300
-		add_piety = -100
 	}
 }
 
@@ -396,8 +388,6 @@ eternal_maiden.0209 = {
 
 	option = {
 		name = eternal_maiden.0209.c
-		trigger = { gold >= 100 }
-		remove_short_term_gold = 100
 		scope:maiden_speaker = { add_opinion = { target = root modifier = eternal_maiden_devoted_opinion } }
 	}
 }
