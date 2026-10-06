@@ -1,0 +1,18 @@
+﻿# Gold the Holy Maiden plunders from a defeated enemy: grows with the size of the enemy realm.
+eternal_war_spoils_gold = {
+	value = 300
+	add = {
+		value = scope:defender.realm_size
+		multiply = 40
+		max = 3000
+	}
+}
+
+eternal_war_spoils_gold_small = {
+	value = 100
+	add = {
+		value = scope:defender.realm_size
+		multiply = 10
+		max = 800
+	}
+}

@@ -189,6 +189,11 @@
 	}
 
 	on_victory = {
+		scope:attacker = {
+			add_gold = eternal_war_spoils_gold
+			add_prestige = 250
+			add_piety = 150
+		}
 		scope:attacker = { trigger_event = { id = eternal_holywar.0005 days = 3 } }
 		pam_notify_holy_war_instigator_effect_win = yes
 
@@ -294,7 +299,6 @@
 		scope:attacker = { fp1_remember_recent_conquest_victory_effect = yes }
 
 		# EP3: note gold gained from military assistance/join war contracts and their war contribution threshold
-		laamp_as_mercenary_payout_tooltip_effect = yes
 
 		#Mandalas gain or lose piety/devotion depending on Decree
 		mandala_war_victory_effects = yes
@@ -305,6 +309,10 @@
 	}
 
 	on_white_peace = {
+		scope:attacker = {
+			add_gold = eternal_war_spoils_gold_small
+			add_prestige = 75
+		}
 		scope:attacker = { trigger_event = { id = eternal_holywar.0006 days = 3 } }
 		pam_notify_holy_war_instigator_effect_draw = yes
 		scope:attacker = { show_pow_release_message_effect = yes }
@@ -336,7 +344,6 @@
 		}
 
 		# EP3: note gold gained from military assistance/join war contracts and their war contribution threshold
-		laamp_as_mercenary_payout_tooltip_effect = yes
 	}
 
 	on_defeat_desc = {
@@ -423,7 +430,6 @@
 		on_lost_aggression_war_discontent_loss = yes
 
 		# EP3: note gold gained from military assistance/join war contracts and their war contribution threshold
-		laamp_as_mercenary_payout_tooltip_effect = yes
 
 		#Mandalas gain or lose piety/devotion depending on Decree
 		mandala_war_defeat_effects = yes
