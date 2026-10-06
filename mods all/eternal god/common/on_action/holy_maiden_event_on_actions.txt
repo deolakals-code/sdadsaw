@@ -32,5 +32,16 @@ holy_maiden_events_yearly = {
 		100 = eternal_maiden.0207
 		100 = eternal_maiden.0208
 		100 = eternal_maiden.0209
+		# 3/4 the court and its rivals
+		100 = eternal_maiden.0300
+		100 = eternal_maiden.0301
+		100 = eternal_maiden.0302
+		100 = eternal_maiden.0303
+		100 = eternal_maiden.0304
+		100 = eternal_maiden.0305
+		100 = eternal_maiden.0306
+		100 = eternal_maiden.0307
+		100 = eternal_maiden.0308
+		100 = eternal_maiden.0309
 	}
 }

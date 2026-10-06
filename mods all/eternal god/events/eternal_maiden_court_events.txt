@@ -1,0 +1,425 @@
+﻿namespace = eternal_maiden
+
+# Holy Maiden 3/4: the court and its rivals (0300-0309). Fired from holy_maiden_events_yearly.
+
+# The Jealous Rival
+eternal_maiden.0300 = {
+	type = character_event
+	title = eternal_maiden.0300.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:maiden_speaker = { is_female = yes } }
+				desc = eternal_maiden.0300.desc_f
+			}
+			desc = eternal_maiden.0300.desc_m
+		}
+	}
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_rational }
+	right_portrait = { character = scope:maiden_speaker animation = idle }
+
+	trigger = {
+		has_trait = holy_maiden
+		any_courtier = { is_adult = yes is_imprisoned = no }
+		NOT = { has_character_flag = eternal_maiden_0300_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0300_cd years = 15 }
+		random_courtier = {
+			limit = { is_adult = yes is_imprisoned = no }
+			save_scope_as = maiden_speaker
+		}
+	}
+
+	option = {
+		name = eternal_maiden.0300.a
+		add_dread = 20
+		scope:maiden_speaker = { add_opinion = { target = root modifier = eternal_maiden_shamed_opinion } }
+	}
+
+	option = {
+		name = eternal_maiden.0300.b
+		add_piety = 100
+		scope:maiden_speaker = { add_opinion = { target = root modifier = eternal_maiden_devoted_opinion } }
+	}
+
+	option = {
+		name = eternal_maiden.0300.c
+		add_prestige = 100
+		eternal_add_suspicion = { A = 6 B = 3 }
+		scope:maiden_speaker = { add_opinion = { target = root modifier = eternal_maiden_shamed_opinion } }
+	}
+}
+
+# A Prince's Proposal
+eternal_maiden.0301 = {
+	type = character_event
+	title = eternal_maiden.0301.t
+	desc = eternal_maiden.0301.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0301_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0301_cd years = 15 }
+	}
+
+	option = {
+		name = eternal_maiden.0301.a
+		add_piety = 150
+	}
+
+	option = {
+		name = eternal_maiden.0301.b
+		add_gold = 150
+		eternal_add_suspicion = { A = 3 B = 1 }
+	}
+
+	option = {
+		name = eternal_maiden.0301.c
+		add_prestige = 150
+	}
+}
+
+# The Court Painter
+eternal_maiden.0302 = {
+	type = character_event
+	title = eternal_maiden.0302.t
+	desc = eternal_maiden.0302.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_zealous }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0302_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0302_cd years = 15 }
+	}
+
+	option = {
+		name = eternal_maiden.0302.a
+		add_piety = 100
+		add_prestige = 100
+	}
+
+	option = {
+		name = eternal_maiden.0302.b
+		add_stress = -20
+	}
+
+	option = {
+		name = eternal_maiden.0302.c
+		add_dread = 15
+	}
+}
+
+# The Envoy Who Would Not Kneel
+eternal_maiden.0303 = {
+	type = character_event
+	title = eternal_maiden.0303.t
+	desc = eternal_maiden.0303.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0303_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0303_cd years = 15 }
+	}
+
+	option = {
+		name = eternal_maiden.0303.a
+		add_dread = 25
+		add_prestige = 100
+	}
+
+	option = {
+		name = eternal_maiden.0303.b
+		add_prestige = 150
+	}
+
+	option = {
+		name = eternal_maiden.0303.c
+		add_dread = 40
+		stress_impact = { compassionate = minor_stress_impact_gain }
+	}
+}
+
+# The Physician's Warning
+eternal_maiden.0304 = {
+	type = character_event
+	title = eternal_maiden.0304.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:maiden_speaker = { is_female = yes } }
+				desc = eternal_maiden.0304.desc_f
+			}
+			desc = eternal_maiden.0304.desc_m
+		}
+	}
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_rational }
+	right_portrait = { character = scope:maiden_speaker animation = fear }
+
+	trigger = {
+		has_trait = holy_maiden
+		any_courtier = { is_adult = yes is_imprisoned = no }
+		NOT = { has_character_flag = eternal_maiden_0304_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0304_cd years = 15 }
+		random_courtier = {
+			limit = { is_adult = yes is_imprisoned = no }
+			save_scope_as = maiden_speaker
+		}
+	}
+
+	option = {
+		name = eternal_maiden.0304.a
+		trigger = { gold >= 50 }
+		remove_short_term_gold = 50
+		scope:maiden_speaker = { add_opinion = { target = root modifier = eternal_maiden_devoted_opinion } }
+	}
+
+	option = {
+		name = eternal_maiden.0304.b
+		add_dread = 20
+		scope:maiden_speaker = { add_opinion = { target = root modifier = eternal_maiden_shamed_opinion } }
+	}
+
+	option = {
+		name = eternal_maiden.0304.c
+		add_hook = { type = favor_hook target = scope:maiden_speaker }
+	}
+}
+
+# The Feast of the Veil
+eternal_maiden.0305 = {
+	type = character_event
+	title = eternal_maiden.0305.t
+	desc = eternal_maiden.0305.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0305_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0305_cd years = 15 }
+	}
+
+	option = {
+		name = eternal_maiden.0305.a
+		trigger = { gold >= 150 }
+		remove_short_term_gold = 150
+		add_prestige = 250
+	}
+
+	option = {
+		name = eternal_maiden.0305.b
+		add_piety = 150
+	}
+
+	option = {
+		name = eternal_maiden.0305.c
+		add_dread = 20
+		eternal_add_suspicion = { A = 10 B = 5 }
+	}
+}
+
+# The Spy Unmasked
+eternal_maiden.0306 = {
+	type = character_event
+	title = eternal_maiden.0306.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:maiden_speaker = { is_female = yes } }
+				desc = eternal_maiden.0306.desc_f
+			}
+			desc = eternal_maiden.0306.desc_m
+		}
+	}
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_vengeful }
+	right_portrait = { character = scope:maiden_speaker animation = fear }
+
+	trigger = {
+		has_trait = holy_maiden
+		any_courtier = { is_adult = yes is_imprisoned = no }
+		NOT = { has_character_flag = eternal_maiden_0306_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0306_cd years = 15 }
+		random_courtier = {
+			limit = { is_adult = yes is_imprisoned = no }
+			save_scope_as = maiden_speaker
+		}
+	}
+
+	option = {
+		name = eternal_maiden.0306.a
+		add_hook = { type = favor_hook target = scope:maiden_speaker }
+	}
+
+	option = {
+		name = eternal_maiden.0306.b
+		add_dread = 30
+		scope:maiden_speaker = { add_opinion = { target = root modifier = eternal_maiden_shamed_opinion } }
+	}
+
+	option = {
+		name = eternal_maiden.0306.c
+		eternal_add_suspicion = { A = -10 B = -5 }
+	}
+}
+
+# The Widows' Petition
+eternal_maiden.0307 = {
+	type = character_event
+	title = eternal_maiden.0307.t
+	desc = eternal_maiden.0307.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_zealous }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0307_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0307_cd years = 15 }
+	}
+
+	option = {
+		name = eternal_maiden.0307.a
+		trigger = { gold >= 100 }
+		remove_short_term_gold = 100
+		add_piety = 200
+	}
+
+	option = {
+		name = eternal_maiden.0307.b
+		add_prestige = 25
+	}
+
+	option = {
+		name = eternal_maiden.0307.c
+		add_gold = 100
+		stress_impact = { compassionate = medium_stress_impact_gain }
+	}
+}
+
+# A Knight's Vow
+eternal_maiden.0308 = {
+	type = character_event
+	title = eternal_maiden.0308.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:maiden_speaker = { is_female = yes } }
+				desc = eternal_maiden.0308.desc_f
+			}
+			desc = eternal_maiden.0308.desc_m
+		}
+	}
+	theme = war
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+	right_portrait = { character = scope:maiden_speaker animation = personality_bold }
+
+	trigger = {
+		has_trait = holy_maiden
+		any_courtier = { is_adult = yes is_imprisoned = no }
+		NOT = { has_character_flag = eternal_maiden_0308_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0308_cd years = 15 }
+		random_courtier = {
+			limit = { is_adult = yes is_imprisoned = no }
+			save_scope_as = maiden_speaker
+		}
+	}
+
+	option = {
+		name = eternal_maiden.0308.a
+		scope:maiden_speaker = { add_opinion = { target = root modifier = eternal_maiden_devoted_opinion } }
+		add_prestige = 100
+	}
+
+	option = {
+		name = eternal_maiden.0308.b
+		add_dread = 15
+		scope:maiden_speaker = { add_opinion = { target = root modifier = eternal_maiden_devoted_opinion } }
+	}
+
+	option = {
+		name = eternal_maiden.0308.c
+		add_piety = 50
+	}
+}
+
+# The Spouse's Question
+eternal_maiden.0309 = {
+	type = character_event
+	title = eternal_maiden.0309.t
+	desc = eternal_maiden.0309.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_rational }
+	right_portrait = { character = scope:maiden_spouse animation = idle }
+
+	trigger = {
+		has_trait = holy_maiden
+		exists = primary_spouse
+		NOT = { has_character_flag = eternal_maiden_0309_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0309_cd years = 15 }
+		primary_spouse = { save_scope_as = maiden_spouse }
+	}
+
+	option = {
+		name = eternal_maiden.0309.a
+		add_stress = -20
+		scope:maiden_spouse = { add_opinion = { target = root modifier = eternal_maiden_devoted_opinion } }
+	}
+
+	option = {
+		name = eternal_maiden.0309.b
+		eternal_add_suspicion = { A = 3 B = 1 }
+		add_prestige = 50
+	}
+
+	option = {
+		name = eternal_maiden.0309.c
+		add_dread = 20
+		scope:maiden_spouse = { add_opinion = { target = root modifier = eternal_maiden_shamed_opinion } }
+	}
+}
