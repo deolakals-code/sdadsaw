@@ -49,7 +49,7 @@ eternal_plot.0102 = {
 		if = {
 			limit = { var:eternal_m_heirs_style = 1 }
 			random_list = {
-			99 = { save_scope_value_as = { name = plot_ok value = yes } }
+			1000 = { save_scope_value_as = { name = plot_ok value = yes } }
 			1 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -60,7 +60,7 @@ eternal_plot.0102 = {
 		else_if = {
 			limit = { var:eternal_m_heirs_style = 2 }
 		random_list = {
-			95 = { save_scope_value_as = { name = plot_ok value = yes } }
+			600 = { save_scope_value_as = { name = plot_ok value = yes } }
 			5 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -70,7 +70,7 @@ eternal_plot.0102 = {
 		}
 		else = {
 		random_list = {
-			85 = { save_scope_value_as = { name = plot_ok value = yes } }
+			400 = { save_scope_value_as = { name = plot_ok value = yes } }
 			15 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -106,8 +106,8 @@ eternal_plot.0102 = {
 						set_variable = { name = eternal_m_heirs_v value = scope:ha }
 					}
 				}
-				set_variable = { name = eternal_m_heirs_k value = 27 }
-				set_variable = { name = eternal_m_heirs_nk value = 73 }
+				set_variable = { name = eternal_m_heirs_k value = 80 }
+				set_variable = { name = eternal_m_heirs_nk value = 20 }
 				trigger_event = { id = eternal_plot.9501 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = heirs } }
@@ -135,8 +135,8 @@ eternal_plot.0102 = {
 						set_variable = { name = eternal_m_heirs_v value = scope:ha }
 					}
 				}
-				set_variable = { name = eternal_m_heirs_k value = 45 }
-				set_variable = { name = eternal_m_heirs_nk value = 55 }
+				set_variable = { name = eternal_m_heirs_k value = 88 }
+				set_variable = { name = eternal_m_heirs_nk value = 12 }
 				trigger_event = { id = eternal_plot.9501 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = heirs } }
@@ -163,8 +163,8 @@ eternal_plot.0102 = {
 						set_variable = { name = eternal_m_heirs_v value = scope:ha }
 					}
 				}
-				set_variable = { name = eternal_m_heirs_k value = 72 }
-				set_variable = { name = eternal_m_heirs_nk value = 28 }
+				set_variable = { name = eternal_m_heirs_k value = 94 }
+				set_variable = { name = eternal_m_heirs_nk value = 6 }
 				trigger_event = { id = eternal_plot.9501 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = heirs } }
@@ -197,8 +197,8 @@ eternal_plot.0102 = {
 						set_variable = { name = eternal_m_heirs_v value = scope:ha }
 					}
 				}
-				set_variable = { name = eternal_m_heirs_k value = 18 }
-				set_variable = { name = eternal_m_heirs_nk value = 82 }
+				set_variable = { name = eternal_m_heirs_k value = 80 }
+				set_variable = { name = eternal_m_heirs_nk value = 20 }
 				trigger_event = { id = eternal_plot.9501 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = heirs } }
@@ -226,8 +226,8 @@ eternal_plot.0102 = {
 						set_variable = { name = eternal_m_heirs_v value = scope:ha }
 					}
 				}
-				set_variable = { name = eternal_m_heirs_k value = 27 }
-				set_variable = { name = eternal_m_heirs_nk value = 73 }
+				set_variable = { name = eternal_m_heirs_k value = 80 }
+				set_variable = { name = eternal_m_heirs_nk value = 20 }
 				trigger_event = { id = eternal_plot.9501 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = heirs } }
@@ -254,8 +254,8 @@ eternal_plot.0102 = {
 						set_variable = { name = eternal_m_heirs_v value = scope:ha }
 					}
 				}
-				set_variable = { name = eternal_m_heirs_k value = 45 }
-				set_variable = { name = eternal_m_heirs_nk value = 55 }
+				set_variable = { name = eternal_m_heirs_k value = 88 }
+				set_variable = { name = eternal_m_heirs_nk value = 12 }
 				trigger_event = { id = eternal_plot.9501 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = heirs } }
@@ -321,7 +321,7 @@ eternal_plot.0202 = {
 		if = {
 			limit = { var:eternal_m_parent_style = 1 }
 			random_list = {
-			99 = { save_scope_value_as = { name = plot_ok value = yes } }
+			1000 = { save_scope_value_as = { name = plot_ok value = yes } }
 			1 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -332,7 +332,7 @@ eternal_plot.0202 = {
 		else_if = {
 			limit = { var:eternal_m_parent_style = 2 }
 		random_list = {
-			95 = { save_scope_value_as = { name = plot_ok value = yes } }
+			600 = { save_scope_value_as = { name = plot_ok value = yes } }
 			5 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -342,7 +342,7 @@ eternal_plot.0202 = {
 		}
 		else = {
 		random_list = {
-			85 = { save_scope_value_as = { name = plot_ok value = yes } }
+			400 = { save_scope_value_as = { name = plot_ok value = yes } }
 			15 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -363,8 +363,8 @@ eternal_plot.0202 = {
 				scope:ha = { add_opinion = { target = scope:t modifier = eternal_slandered_opinion } }
 				set_variable = { name = eternal_m_parent_a value = scope:ha }
 				set_variable = { name = eternal_m_parent_v value = scope:t }
-				set_variable = { name = eternal_m_parent_k value = 18 }
-				set_variable = { name = eternal_m_parent_nk value = 82 }
+				set_variable = { name = eternal_m_parent_k value = 80 }
+				set_variable = { name = eternal_m_parent_nk value = 20 }
 				trigger_event = { id = eternal_plot.9502 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = parent } }
@@ -377,8 +377,8 @@ eternal_plot.0202 = {
 				scope:ha = { add_opinion = { target = scope:t modifier = eternal_slandered_opinion } }
 				set_variable = { name = eternal_m_parent_a value = scope:ha }
 				set_variable = { name = eternal_m_parent_v value = scope:t }
-				set_variable = { name = eternal_m_parent_k value = 30 }
-				set_variable = { name = eternal_m_parent_nk value = 70 }
+				set_variable = { name = eternal_m_parent_k value = 88 }
+				set_variable = { name = eternal_m_parent_nk value = 12 }
 				trigger_event = { id = eternal_plot.9502 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = parent } }
@@ -390,8 +390,8 @@ eternal_plot.0202 = {
 				scope:ha = { add_opinion = { target = scope:t modifier = eternal_slandered_opinion } }
 				set_variable = { name = eternal_m_parent_a value = scope:ha }
 				set_variable = { name = eternal_m_parent_v value = scope:t }
-				set_variable = { name = eternal_m_parent_k value = 48 }
-				set_variable = { name = eternal_m_parent_nk value = 52 }
+				set_variable = { name = eternal_m_parent_k value = 88 }
+				set_variable = { name = eternal_m_parent_nk value = 12 }
 				trigger_event = { id = eternal_plot.9502 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = parent } }
@@ -409,8 +409,8 @@ eternal_plot.0202 = {
 				scope:ha = { add_opinion = { target = scope:t modifier = eternal_slandered_opinion } }
 				set_variable = { name = eternal_m_parent_a value = scope:ha }
 				set_variable = { name = eternal_m_parent_v value = scope:t }
-				set_variable = { name = eternal_m_parent_k value = 12 }
-				set_variable = { name = eternal_m_parent_nk value = 88 }
+				set_variable = { name = eternal_m_parent_k value = 80 }
+				set_variable = { name = eternal_m_parent_nk value = 20 }
 				trigger_event = { id = eternal_plot.9502 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = parent } }
@@ -423,8 +423,8 @@ eternal_plot.0202 = {
 				scope:ha = { add_opinion = { target = scope:t modifier = eternal_slandered_opinion } }
 				set_variable = { name = eternal_m_parent_a value = scope:ha }
 				set_variable = { name = eternal_m_parent_v value = scope:t }
-				set_variable = { name = eternal_m_parent_k value = 18 }
-				set_variable = { name = eternal_m_parent_nk value = 82 }
+				set_variable = { name = eternal_m_parent_k value = 80 }
+				set_variable = { name = eternal_m_parent_nk value = 20 }
 				trigger_event = { id = eternal_plot.9502 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = parent } }
@@ -436,8 +436,8 @@ eternal_plot.0202 = {
 				scope:ha = { add_opinion = { target = scope:t modifier = eternal_slandered_opinion } }
 				set_variable = { name = eternal_m_parent_a value = scope:ha }
 				set_variable = { name = eternal_m_parent_v value = scope:t }
-				set_variable = { name = eternal_m_parent_k value = 30 }
-				set_variable = { name = eternal_m_parent_nk value = 70 }
+				set_variable = { name = eternal_m_parent_k value = 88 }
+				set_variable = { name = eternal_m_parent_nk value = 12 }
 				trigger_event = { id = eternal_plot.9502 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = parent } }
@@ -503,7 +503,7 @@ eternal_plot.0302 = {
 		if = {
 			limit = { var:eternal_m_bastard_style = 1 }
 			random_list = {
-			99 = { save_scope_value_as = { name = plot_ok value = yes } }
+			1000 = { save_scope_value_as = { name = plot_ok value = yes } }
 			1 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -514,7 +514,7 @@ eternal_plot.0302 = {
 		else_if = {
 			limit = { var:eternal_m_bastard_style = 2 }
 		random_list = {
-			95 = { save_scope_value_as = { name = plot_ok value = yes } }
+			600 = { save_scope_value_as = { name = plot_ok value = yes } }
 			5 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -524,7 +524,7 @@ eternal_plot.0302 = {
 		}
 		else = {
 		random_list = {
-			85 = { save_scope_value_as = { name = plot_ok value = yes } }
+			400 = { save_scope_value_as = { name = plot_ok value = yes } }
 			15 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -544,13 +544,13 @@ eternal_plot.0302 = {
 				limit = { exists = scope:ha }
 				scope:t = { add_opinion = { target = scope:ha modifier = eternal_slandered_opinion } }
 				random_list = {
-					33 = {
+					80 = {
 						scope:ha = {
 							add_trait = bastard
 							add_opinion = { target = scope:t modifier = eternal_slandered_opinion }
 						}
 					}
-					67 = { }
+					20 = { }
 				}
 			}
 			eternal_plan_finish = { K = bastard }
@@ -562,13 +562,71 @@ eternal_plot.0302 = {
 				limit = { exists = scope:ha }
 				scope:t = { add_opinion = { target = scope:ha modifier = eternal_slandered_opinion } }
 				random_list = {
-					55 = {
+					88 = {
 						scope:ha = {
 							add_trait = bastard
 							add_opinion = { target = scope:t modifier = eternal_slandered_opinion }
 						}
 					}
-					45 = { }
+					12 = { }
+				}
+			}
+			eternal_plan_finish = { K = bastard }
+		}
+		else = {
+			scope:t = { primary_heir ?= { save_scope_as = ha } }
+			if = {
+				limit = { exists = scope:ha }
+				scope:t = { add_opinion = { target = scope:ha modifier = eternal_slandered_opinion } }
+				random_list = {
+					95 = {
+						scope:ha = {
+							add_trait = bastard
+							add_opinion = { target = scope:t modifier = eternal_slandered_opinion }
+						}
+					}
+					5 = { }
+				}
+			}
+			eternal_plan_finish = { K = bastard }
+		}
+		eternal_add_suspicion = { A = 12 B = 6 }
+	}
+	option = {
+		name = eternal_plot.0302.b
+		trigger = { scope:plot_ok = yes }
+		if = {
+			limit = { var:eternal_m_bastard_style = 1 }
+			scope:t = { primary_heir ?= { save_scope_as = ha } }
+			if = {
+				limit = { exists = scope:ha }
+				scope:t = { add_opinion = { target = scope:ha modifier = eternal_slandered_opinion } }
+				random_list = {
+					80 = {
+						scope:ha = {
+							add_trait = bastard
+							add_opinion = { target = scope:t modifier = eternal_slandered_opinion }
+						}
+					}
+					20 = { }
+				}
+			}
+			eternal_plan_finish = { K = bastard }
+		}
+		else_if = {
+			limit = { var:eternal_m_bastard_style = 2 }
+			scope:t = { primary_heir ?= { save_scope_as = ha } }
+			if = {
+				limit = { exists = scope:ha }
+				scope:t = { add_opinion = { target = scope:ha modifier = eternal_slandered_opinion } }
+				random_list = {
+					80 = {
+						scope:ha = {
+							add_trait = bastard
+							add_opinion = { target = scope:t modifier = eternal_slandered_opinion }
+						}
+					}
+					20 = { }
 				}
 			}
 			eternal_plan_finish = { K = bastard }
@@ -586,64 +644,6 @@ eternal_plot.0302 = {
 						}
 					}
 					12 = { }
-				}
-			}
-			eternal_plan_finish = { K = bastard }
-		}
-		eternal_add_suspicion = { A = 12 B = 6 }
-	}
-	option = {
-		name = eternal_plot.0302.b
-		trigger = { scope:plot_ok = yes }
-		if = {
-			limit = { var:eternal_m_bastard_style = 1 }
-			scope:t = { primary_heir ?= { save_scope_as = ha } }
-			if = {
-				limit = { exists = scope:ha }
-				scope:t = { add_opinion = { target = scope:ha modifier = eternal_slandered_opinion } }
-				random_list = {
-					22 = {
-						scope:ha = {
-							add_trait = bastard
-							add_opinion = { target = scope:t modifier = eternal_slandered_opinion }
-						}
-					}
-					78 = { }
-				}
-			}
-			eternal_plan_finish = { K = bastard }
-		}
-		else_if = {
-			limit = { var:eternal_m_bastard_style = 2 }
-			scope:t = { primary_heir ?= { save_scope_as = ha } }
-			if = {
-				limit = { exists = scope:ha }
-				scope:t = { add_opinion = { target = scope:ha modifier = eternal_slandered_opinion } }
-				random_list = {
-					33 = {
-						scope:ha = {
-							add_trait = bastard
-							add_opinion = { target = scope:t modifier = eternal_slandered_opinion }
-						}
-					}
-					67 = { }
-				}
-			}
-			eternal_plan_finish = { K = bastard }
-		}
-		else = {
-			scope:t = { primary_heir ?= { save_scope_as = ha } }
-			if = {
-				limit = { exists = scope:ha }
-				scope:t = { add_opinion = { target = scope:ha modifier = eternal_slandered_opinion } }
-				random_list = {
-					55 = {
-						scope:ha = {
-							add_trait = bastard
-							add_opinion = { target = scope:t modifier = eternal_slandered_opinion }
-						}
-					}
-					45 = { }
 				}
 			}
 			eternal_plan_finish = { K = bastard }
@@ -709,7 +709,7 @@ eternal_plot.0402 = {
 		if = {
 			limit = { var:eternal_m_forgotten_style = 1 }
 			random_list = {
-			99 = { save_scope_value_as = { name = plot_ok value = yes } }
+			1000 = { save_scope_value_as = { name = plot_ok value = yes } }
 			1 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -720,7 +720,7 @@ eternal_plot.0402 = {
 		else_if = {
 			limit = { var:eternal_m_forgotten_style = 2 }
 		random_list = {
-			95 = { save_scope_value_as = { name = plot_ok value = yes } }
+			600 = { save_scope_value_as = { name = plot_ok value = yes } }
 			5 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -730,7 +730,7 @@ eternal_plot.0402 = {
 		}
 		else = {
 		random_list = {
-			85 = { save_scope_value_as = { name = plot_ok value = yes } }
+			400 = { save_scope_value_as = { name = plot_ok value = yes } }
 			15 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -927,7 +927,7 @@ eternal_plot.0502 = {
 		if = {
 			limit = { var:eternal_m_spouse_style = 1 }
 			random_list = {
-			99 = { save_scope_value_as = { name = plot_ok value = yes } }
+			1000 = { save_scope_value_as = { name = plot_ok value = yes } }
 			1 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -938,7 +938,7 @@ eternal_plot.0502 = {
 		else_if = {
 			limit = { var:eternal_m_spouse_style = 2 }
 		random_list = {
-			95 = { save_scope_value_as = { name = plot_ok value = yes } }
+			600 = { save_scope_value_as = { name = plot_ok value = yes } }
 			5 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -948,7 +948,7 @@ eternal_plot.0502 = {
 		}
 		else = {
 		random_list = {
-			85 = { save_scope_value_as = { name = plot_ok value = yes } }
+			400 = { save_scope_value_as = { name = plot_ok value = yes } }
 			15 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -969,8 +969,8 @@ eternal_plot.0502 = {
 				scope:sp = { add_opinion = { target = scope:t modifier = eternal_slandered_opinion } }
 				set_variable = { name = eternal_m_spouse_a value = scope:sp }
 				set_variable = { name = eternal_m_spouse_v value = scope:t }
-				set_variable = { name = eternal_m_spouse_k value = 15 }
-				set_variable = { name = eternal_m_spouse_nk value = 85 }
+				set_variable = { name = eternal_m_spouse_k value = 80 }
+				set_variable = { name = eternal_m_spouse_nk value = 20 }
 				trigger_event = { id = eternal_plot.9503 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = spouse } }
@@ -983,8 +983,8 @@ eternal_plot.0502 = {
 				scope:sp = { add_opinion = { target = scope:t modifier = eternal_slandered_opinion } }
 				set_variable = { name = eternal_m_spouse_a value = scope:sp }
 				set_variable = { name = eternal_m_spouse_v value = scope:t }
-				set_variable = { name = eternal_m_spouse_k value = 25 }
-				set_variable = { name = eternal_m_spouse_nk value = 75 }
+				set_variable = { name = eternal_m_spouse_k value = 80 }
+				set_variable = { name = eternal_m_spouse_nk value = 20 }
 				trigger_event = { id = eternal_plot.9503 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = spouse } }
@@ -996,8 +996,8 @@ eternal_plot.0502 = {
 				scope:sp = { add_opinion = { target = scope:t modifier = eternal_slandered_opinion } }
 				set_variable = { name = eternal_m_spouse_a value = scope:sp }
 				set_variable = { name = eternal_m_spouse_v value = scope:t }
-				set_variable = { name = eternal_m_spouse_k value = 40 }
-				set_variable = { name = eternal_m_spouse_nk value = 60 }
+				set_variable = { name = eternal_m_spouse_k value = 88 }
+				set_variable = { name = eternal_m_spouse_nk value = 12 }
 				trigger_event = { id = eternal_plot.9503 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = spouse } }
@@ -1015,8 +1015,8 @@ eternal_plot.0502 = {
 				scope:sp = { add_opinion = { target = scope:t modifier = eternal_slandered_opinion } }
 				set_variable = { name = eternal_m_spouse_a value = scope:sp }
 				set_variable = { name = eternal_m_spouse_v value = scope:t }
-				set_variable = { name = eternal_m_spouse_k value = 10 }
-				set_variable = { name = eternal_m_spouse_nk value = 90 }
+				set_variable = { name = eternal_m_spouse_k value = 80 }
+				set_variable = { name = eternal_m_spouse_nk value = 20 }
 				trigger_event = { id = eternal_plot.9503 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = spouse } }
@@ -1029,8 +1029,8 @@ eternal_plot.0502 = {
 				scope:sp = { add_opinion = { target = scope:t modifier = eternal_slandered_opinion } }
 				set_variable = { name = eternal_m_spouse_a value = scope:sp }
 				set_variable = { name = eternal_m_spouse_v value = scope:t }
-				set_variable = { name = eternal_m_spouse_k value = 15 }
-				set_variable = { name = eternal_m_spouse_nk value = 85 }
+				set_variable = { name = eternal_m_spouse_k value = 80 }
+				set_variable = { name = eternal_m_spouse_nk value = 20 }
 				trigger_event = { id = eternal_plot.9503 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = spouse } }
@@ -1042,8 +1042,8 @@ eternal_plot.0502 = {
 				scope:sp = { add_opinion = { target = scope:t modifier = eternal_slandered_opinion } }
 				set_variable = { name = eternal_m_spouse_a value = scope:sp }
 				set_variable = { name = eternal_m_spouse_v value = scope:t }
-				set_variable = { name = eternal_m_spouse_k value = 25 }
-				set_variable = { name = eternal_m_spouse_nk value = 75 }
+				set_variable = { name = eternal_m_spouse_k value = 80 }
+				set_variable = { name = eternal_m_spouse_nk value = 20 }
 				trigger_event = { id = eternal_plot.9503 days = 30 }
 			}
 			else = { eternal_plan_finish = { K = spouse } }
@@ -1109,7 +1109,7 @@ eternal_plot.0602 = {
 		if = {
 			limit = { var:eternal_m_feast_style = 1 }
 			random_list = {
-			99 = { save_scope_value_as = { name = plot_ok value = yes } }
+			1000 = { save_scope_value_as = { name = plot_ok value = yes } }
 			1 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1120,7 +1120,7 @@ eternal_plot.0602 = {
 		else_if = {
 			limit = { var:eternal_m_feast_style = 2 }
 		random_list = {
-			95 = { save_scope_value_as = { name = plot_ok value = yes } }
+			600 = { save_scope_value_as = { name = plot_ok value = yes } }
 			5 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1130,7 +1130,7 @@ eternal_plot.0602 = {
 		}
 		else = {
 		random_list = {
-			85 = { save_scope_value_as = { name = plot_ok value = yes } }
+			400 = { save_scope_value_as = { name = plot_ok value = yes } }
 			15 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1148,7 +1148,7 @@ eternal_plot.0602 = {
 			scope:t = {
 				every_vassal = {
 					random = {
-						chance = 45
+						chance = 80
 						save_scope_as = vv
 						root = { add_hook = { type = favor_hook target = scope:vv } }
 						add_opinion = { target = root modifier = eternal_charmed_opinion }
@@ -1162,7 +1162,7 @@ eternal_plot.0602 = {
 			scope:t = {
 				every_vassal = {
 					random = {
-						chance = 75
+						chance = 90
 						save_scope_as = vv
 						root = { add_hook = { type = favor_hook target = scope:vv } }
 						add_opinion = { target = root modifier = eternal_charmed_opinion }
@@ -1194,7 +1194,7 @@ eternal_plot.0602 = {
 			scope:t = {
 				every_vassal = {
 					random = {
-						chance = 30
+						chance = 80
 						save_scope_as = vv
 						root = { add_hook = { type = favor_hook target = scope:vv } }
 						add_opinion = { target = root modifier = eternal_charmed_opinion }
@@ -1208,7 +1208,7 @@ eternal_plot.0602 = {
 			scope:t = {
 				every_vassal = {
 					random = {
-						chance = 45
+						chance = 80
 						save_scope_as = vv
 						root = { add_hook = { type = favor_hook target = scope:vv } }
 						add_opinion = { target = root modifier = eternal_charmed_opinion }
@@ -1221,7 +1221,7 @@ eternal_plot.0602 = {
 			scope:t = {
 				every_vassal = {
 					random = {
-						chance = 75
+						chance = 90
 						save_scope_as = vv
 						root = { add_hook = { type = favor_hook target = scope:vv } }
 						add_opinion = { target = root modifier = eternal_charmed_opinion }
@@ -1291,7 +1291,7 @@ eternal_plot.0702 = {
 		if = {
 			limit = { var:eternal_m_ward_style = 1 }
 			random_list = {
-			99 = { save_scope_value_as = { name = plot_ok value = yes } }
+			1000 = { save_scope_value_as = { name = plot_ok value = yes } }
 			1 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1302,7 +1302,7 @@ eternal_plot.0702 = {
 		else_if = {
 			limit = { var:eternal_m_ward_style = 2 }
 		random_list = {
-			95 = { save_scope_value_as = { name = plot_ok value = yes } }
+			600 = { save_scope_value_as = { name = plot_ok value = yes } }
 			5 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1312,7 +1312,7 @@ eternal_plot.0702 = {
 		}
 		else = {
 		random_list = {
-			85 = { save_scope_value_as = { name = plot_ok value = yes } }
+			400 = { save_scope_value_as = { name = plot_ok value = yes } }
 			15 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1485,7 +1485,7 @@ eternal_plot.0802 = {
 		if = {
 			limit = { var:eternal_m_mediate_style = 1 }
 			random_list = {
-			99 = { save_scope_value_as = { name = plot_ok value = yes } }
+			1000 = { save_scope_value_as = { name = plot_ok value = yes } }
 			1 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1496,7 +1496,7 @@ eternal_plot.0802 = {
 		else_if = {
 			limit = { var:eternal_m_mediate_style = 2 }
 		random_list = {
-			95 = { save_scope_value_as = { name = plot_ok value = yes } }
+			600 = { save_scope_value_as = { name = plot_ok value = yes } }
 			5 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1506,7 +1506,7 @@ eternal_plot.0802 = {
 		}
 		else = {
 		random_list = {
-			85 = { save_scope_value_as = { name = plot_ok value = yes } }
+			400 = { save_scope_value_as = { name = plot_ok value = yes } }
 			15 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1655,7 +1655,7 @@ eternal_plot.0902 = {
 		if = {
 			limit = { var:eternal_m_lull_style = 1 }
 			random_list = {
-			99 = { save_scope_value_as = { name = plot_ok value = yes } }
+			1000 = { save_scope_value_as = { name = plot_ok value = yes } }
 			1 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1666,7 +1666,7 @@ eternal_plot.0902 = {
 		else_if = {
 			limit = { var:eternal_m_lull_style = 2 }
 		random_list = {
-			95 = { save_scope_value_as = { name = plot_ok value = yes } }
+			600 = { save_scope_value_as = { name = plot_ok value = yes } }
 			5 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1676,7 +1676,7 @@ eternal_plot.0902 = {
 		}
 		else = {
 		random_list = {
-			85 = { save_scope_value_as = { name = plot_ok value = yes } }
+			400 = { save_scope_value_as = { name = plot_ok value = yes } }
 			15 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1789,7 +1789,7 @@ eternal_plot.1102 = {
 		if = {
 			limit = { var:eternal_m_faith_style = 1 }
 			random_list = {
-			99 = { save_scope_value_as = { name = plot_ok value = yes } }
+			1000 = { save_scope_value_as = { name = plot_ok value = yes } }
 			1 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1800,7 +1800,7 @@ eternal_plot.1102 = {
 		else_if = {
 			limit = { var:eternal_m_faith_style = 2 }
 		random_list = {
-			95 = { save_scope_value_as = { name = plot_ok value = yes } }
+			600 = { save_scope_value_as = { name = plot_ok value = yes } }
 			5 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1810,7 +1810,7 @@ eternal_plot.1102 = {
 		}
 		else = {
 		random_list = {
-			85 = { save_scope_value_as = { name = plot_ok value = yes } }
+			400 = { save_scope_value_as = { name = plot_ok value = yes } }
 			15 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1959,7 +1959,7 @@ eternal_plot.1202 = {
 		if = {
 			limit = { var:eternal_m_market_style = 1 }
 			random_list = {
-			99 = { save_scope_value_as = { name = plot_ok value = yes } }
+			1000 = { save_scope_value_as = { name = plot_ok value = yes } }
 			1 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1970,7 +1970,7 @@ eternal_plot.1202 = {
 		else_if = {
 			limit = { var:eternal_m_market_style = 2 }
 		random_list = {
-			95 = { save_scope_value_as = { name = plot_ok value = yes } }
+			600 = { save_scope_value_as = { name = plot_ok value = yes } }
 			5 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -1980,7 +1980,7 @@ eternal_plot.1202 = {
 		}
 		else = {
 		random_list = {
-			85 = { save_scope_value_as = { name = plot_ok value = yes } }
+			400 = { save_scope_value_as = { name = plot_ok value = yes } }
 			15 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -2120,7 +2120,7 @@ eternal_plot.1302 = {
 	immediate = {
 		var:eternal_m_wolf_target ?= { save_scope_as = t }
 		random_list = {
-			99 = { save_scope_value_as = { name = plot_ok value = yes } }
+			1000 = { save_scope_value_as = { name = plot_ok value = yes } }
 			1 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -2310,7 +2310,7 @@ eternal_plot.1402 = {
 		if = {
 			limit = { var:eternal_m_counsel_style = 1 }
 			random_list = {
-			99 = { save_scope_value_as = { name = plot_ok value = yes } }
+			1000 = { save_scope_value_as = { name = plot_ok value = yes } }
 			1 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -2321,7 +2321,7 @@ eternal_plot.1402 = {
 		else_if = {
 			limit = { var:eternal_m_counsel_style = 2 }
 		random_list = {
-			95 = { save_scope_value_as = { name = plot_ok value = yes } }
+			600 = { save_scope_value_as = { name = plot_ok value = yes } }
 			5 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -2331,7 +2331,7 @@ eternal_plot.1402 = {
 		}
 		else = {
 		random_list = {
-			85 = { save_scope_value_as = { name = plot_ok value = yes } }
+			400 = { save_scope_value_as = { name = plot_ok value = yes } }
 			15 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -2480,7 +2480,7 @@ eternal_plot.1502 = {
 		if = {
 			limit = { var:eternal_m_puppet_style = 1 }
 			random_list = {
-			99 = { save_scope_value_as = { name = plot_ok value = yes } }
+			1000 = { save_scope_value_as = { name = plot_ok value = yes } }
 			1 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -2491,7 +2491,7 @@ eternal_plot.1502 = {
 		else_if = {
 			limit = { var:eternal_m_puppet_style = 2 }
 		random_list = {
-			95 = { save_scope_value_as = { name = plot_ok value = yes } }
+			600 = { save_scope_value_as = { name = plot_ok value = yes } }
 			5 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -2501,7 +2501,7 @@ eternal_plot.1502 = {
 		}
 		else = {
 		random_list = {
-			85 = { save_scope_value_as = { name = plot_ok value = yes } }
+			400 = { save_scope_value_as = { name = plot_ok value = yes } }
 			15 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -2692,7 +2692,7 @@ eternal_plot.1602 = {
 		if = {
 			limit = { var:eternal_m_praise_style = 1 }
 			random_list = {
-			99 = { save_scope_value_as = { name = plot_ok value = yes } }
+			1000 = { save_scope_value_as = { name = plot_ok value = yes } }
 			1 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -2703,7 +2703,7 @@ eternal_plot.1602 = {
 		else_if = {
 			limit = { var:eternal_m_praise_style = 2 }
 		random_list = {
-			95 = { save_scope_value_as = { name = plot_ok value = yes } }
+			600 = { save_scope_value_as = { name = plot_ok value = yes } }
 			5 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -2713,7 +2713,7 @@ eternal_plot.1602 = {
 		}
 		else = {
 		random_list = {
-			85 = { save_scope_value_as = { name = plot_ok value = yes } }
+			400 = { save_scope_value_as = { name = plot_ok value = yes } }
 			15 = {
 				modifier = { add = 15 has_variable = eternal_suspicion var:eternal_suspicion >= 40 }
 				modifier = { add = 25 has_variable = eternal_suspicion var:eternal_suspicion >= 70 }
@@ -2877,8 +2877,8 @@ eternal_plot.9501 = {
 	option = {
 		name = eternal_plot.9501.c
 		trigger = { scope:bloodshed = no }
-		set_variable = { name = eternal_m_heirs_k value = 60 }
-		set_variable = { name = eternal_m_heirs_nk value = 40 }
+		set_variable = { name = eternal_m_heirs_k value = 94 }
+		set_variable = { name = eternal_m_heirs_nk value = 6 }
 		eternal_add_suspicion = { A = 8 B = 4 }
 		trigger_event = { id = eternal_plot.9501 days = 20 }
 	}
@@ -2947,8 +2947,8 @@ eternal_plot.9502 = {
 	option = {
 		name = eternal_plot.9502.c
 		trigger = { scope:bloodshed = no }
-		set_variable = { name = eternal_m_parent_k value = 60 }
-		set_variable = { name = eternal_m_parent_nk value = 40 }
+		set_variable = { name = eternal_m_parent_k value = 94 }
+		set_variable = { name = eternal_m_parent_nk value = 6 }
 		eternal_add_suspicion = { A = 8 B = 4 }
 		trigger_event = { id = eternal_plot.9502 days = 20 }
 	}
@@ -3017,8 +3017,8 @@ eternal_plot.9503 = {
 	option = {
 		name = eternal_plot.9503.c
 		trigger = { scope:bloodshed = no }
-		set_variable = { name = eternal_m_spouse_k value = 60 }
-		set_variable = { name = eternal_m_spouse_nk value = 40 }
+		set_variable = { name = eternal_m_spouse_k value = 94 }
+		set_variable = { name = eternal_m_spouse_nk value = 6 }
 		eternal_add_suspicion = { A = 8 B = 4 }
 		trigger_event = { id = eternal_plot.9503 days = 20 }
 	}
