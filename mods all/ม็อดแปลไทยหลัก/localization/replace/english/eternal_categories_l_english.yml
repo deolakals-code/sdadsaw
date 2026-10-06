@@ -1,0 +1,9 @@
+﻿l_english:
+ ETERNAL_FAMILY_ACTIONS: "เงา: สายโลหิต"
+ ETERNAL_REALM_ACTIONS: "เงา: แว่นแคว้น"
+ ETERNAL_CHARM_ACTIONS: "เงา: เสน่หา"
+ interaction_category_eternal_family: "เงา: สายโลหิต"
+ interaction_category_eternal_realm: "เงา: แว่นแคว้น"
+ interaction_category_eternal_charm: "เงา: เสน่หา"
+ decision_group_type_eternal_shadow: "แผนการแห่งเงา"
+ decision_group_type_eternal_court: "ราชสำนักนิรันดร์"
