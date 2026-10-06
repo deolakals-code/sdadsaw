@@ -1,0 +1,33 @@
+﻿yearly_playable_pulse = {
+	on_actions = { eternal_tyrant_yearly }
+}
+
+# Rare yearly tyrant events for the Eternal Bloodline
+eternal_tyrant_yearly = {
+	trigger = {
+		has_trait = eternal_bloodline
+		is_ruler = yes
+		is_adult = yes
+	}
+	random_events = {
+		chance_of_no_event = 85
+		100 = eternal_tyrant.0001
+		100 = eternal_tyrant.0002
+		100 = eternal_tyrant.0003
+		100 = eternal_tyrant.0004
+		100 = eternal_tyrant.0005
+		100 = eternal_tyrant.0006
+	}
+}
+
+# Fired from eternal_plan_finish when a plot ends
+eternal_tyrant_after_plot = {
+	trigger = { has_trait = eternal_bloodline }
+	random_events = {
+		100 = eternal_tyrant.0101
+		100 = eternal_tyrant.0102
+		100 = eternal_tyrant.0103
+		100 = eternal_tyrant.0104
+		300 = eternal_tyrant.0105
+	}
+}

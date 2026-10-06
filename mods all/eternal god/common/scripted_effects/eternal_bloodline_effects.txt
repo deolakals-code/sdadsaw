@@ -82,6 +82,10 @@ eternal_plan_finish = {
 		set_variable = { name = eternal_plans_done value = 0 }
 	}
 	change_variable = { name = eternal_plans_done add = 1 }
+	random = {
+		chance = 25
+		trigger_event = { on_action = eternal_tyrant_after_plot days = { 20 60 } }
+	}
 }
 
 eternal_add_suspicion = {
