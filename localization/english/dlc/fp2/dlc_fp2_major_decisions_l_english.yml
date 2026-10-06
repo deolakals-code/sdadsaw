@@ -1,0 +1,6 @@
+﻿l_english: 
+ secure_mediterranean_decision:0 "สร้างอำนาจเหนือทะเลเมดิเตอร์เรเนียน"
+ secure_mediterranean_decision_confirm:0 "ทะเลนี้เป็นของข้า!"
+ secure_mediterranean_decision.a:1 "ปลดล็อก #italic การพิชิตทะเลเมดิเตอร์เรเนียน#! [casus_belli|E] ซึ่งอนุญาตให้ท่านพิชิตเคาน์ตีใดๆ ตามแนวชายฝั่งทะเลเมดิเตอร์เรเนียนตลอดระยะเวลาของตัวปรับ แต่ง [house|E] ในขณะที่ท่านควบคุม [mediterranean_title.GetName]"
+ secure_mediterranean_decision.involved_notif:0 "[mediterranean_conqueror.GetPrimaryTitle.GetBaseName] สร้างอำนาจเหนือทะเลเมดิเตอร์เรเนียน"
+ secure_mediterranean_decision.involved_notif_desc:0 "ตระกูล [mediterranean_house.GetName] ได้รวมเกาะ [mallorca.GetNameNoTier], [sardinas.GetNameNoTier] และ [sicily.GetNameNoTier] เป็นหนึ่งเดียว ประกาศตนเป็นเจ้าของเหนือทะเลเมดิเตอร์เรเนียน และสร้าง [casus_belli|E] ที่ถูกต้องตามกฎหมายต่อเคาน์ตีชายฝั่งทะเลเมดิเตอร์เรเนียนของท่าน"

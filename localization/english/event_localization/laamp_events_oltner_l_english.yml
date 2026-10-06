@@ -1,0 +1,9 @@
+﻿l_english: 
+ ep3_laamp_flavor_oltner.3001.t: "หัวใจของผู้ติดตาม"
+ ep3_laamp_flavor_oltner.3001.desc: ""ท่าน [ROOT.Char.GetTitledFirstNameNoTooltip], [entourage_to_marry_2.Custom2('RelationToMeShort', SCOPE.sC('root_char'))] ของข้าพเจ้า, ข้าพเจ้าได้พบกับ [marriage_material.GetWomanMan] ผู้ [marriage_material.Custom('RandomPositiveShallowAdjective')] ที่สุด ณ [ROOT.Char.GetCurrentLocation.GetName] แห่งนี้..." [entourage_to_marry_2.GetFirstNameNicknamed] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('entourage_to_marry_2'))] ของข้าพเจ้า เอ่ยตะกุกตะกักขณะกล่าวกับข้าพเจ้า\n\n"ครอบครัวของ [marriage_material.GetHerHis|U] ไม่ยอมให้เรา แต่งงานกันหากข้าพเจ้าไม่จ่ายสินสอดก้อนโต!" [entourage_to_marry_2.GetSheHe|U] พูดติดอ่างอย่างเศร้าสร้อย "ได้โปรด, ช่วยข้าพเจ้าด้วย""
+ ep3_laamp_flavor_oltner.0001.a: "...ด้วยพระนามแห่ง [ROOT.Char.GetFaith.HighGodName] [entourage_to_marry_2.GetWomanMan] เอ๋ย, เจ้าก็ร่ำรวย — จ่ายเองสิ!"
+ ep3_laamp_flavor_oltner.0001.b: "แน่นอน ข้าจะช่วย!"
+ ep3_laamp_flavor_oltner.0001.c: "ลองดูว่า [marriage_material.GetSheHe] ยินยอมจะหนีตามเจ้าไปหรือไม่..."
+ ep3_laamp_flavor_oltner.0001.c.success: "[marriage_material.GetFirstName] เข้าร่วมกับเจ้า"
+ ep3_laamp_flavor_oltner.0001.c.failure: "[marriage_material.GetFirstName] ไม่ได้รู้สึกประทับใจ"
+ ep3_laamp_flavor_oltner.0001.d: "ไม่ใช่ปัญหาของข้า"

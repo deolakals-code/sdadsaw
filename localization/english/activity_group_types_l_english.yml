@@ -1,0 +1,7 @@
+﻿l_english: 
+ activity_group_type_activities: "กิจกรรม"
+ activity_group_type_grand: "กิจกรรมใหญ่"
+ activity_group_type_unavailable: "กิจกรรมที่ไม่สามารถทำได้"
+ activity_group_type_debug: "กิจกรรมดีบัก"
+ activity_group_type_joinable: "กิจกรรมที่เข้าร่วมได้"
+ activity_group_type_invitations: "คำเชิญเข้าร่วมกิจกรรม"

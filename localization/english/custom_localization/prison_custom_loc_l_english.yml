@@ -1,0 +1,23 @@
+﻿l_english: 
+ #PrisonType
+ prisontype_dungeon:0 "คุกใต้ดิน"
+ prisontype_house_arrest:0 "การกักบริเวณในบ้าน"
+ #PrisonTypeCell
+ prisontypecell_dungeon_cell:0 "ห้องขังใต้ดิน"
+ prisontypecell_house_arrest:0 "การกักบริเวณในบ้าน"
+ #PrisonContentsSingular
+ prison_contents_racking:0 "การทรมานด้วยเครื่องดึง"
+ prison_contents_flaying:0 "การถลกหนัง"
+ prison_contents_fruit_throwing:0 "การปาผลไม้เน่าใส่"
+ prison_contents_crusted_blood:0 "คราบเลือดแห้งกรัง"
+ prison_contents_impaling:0 "การเสียบประจาน"
+ prison_contents_foot_roasting:0 "การย่างเท้า"
+ prison_contents_whipping:0 "การเฆี่ยนตี"
+ prison_contents_mold:0 "เชื้อราในข้าวต้ม"
+ #PrisonContentsPlural
+ prison_contents_rat_droppings:0 "มูลหนู"
+ prison_contents_rabid_dogs:0 "สุนัขบ้า"
+ prison_contents_missed_meals:0 "การอดอาหาร"
+ prison_contents_screaming_lunatics:0 "คนบ้าคลั่งกรีดร้อง"
+ 
+

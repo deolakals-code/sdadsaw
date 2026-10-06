@@ -1,0 +1,11 @@
+﻿l_english: 
+ perk_interaction.0002.t:0 "สิทธิ์เรียกร้องเหนือดินแดนของข้า!"
+ perk_interaction.0002.same_faith:0 "ด้วยเหตุผลอันไม่อาจหยั่งถึง เหล่า [actor.GetFaith.AltPriestTermPlural] ได้รับรองสิทธิ์เรียกร้องอันไร้มูลความจริงโดยสิ้นเชิงของ [actor.GetTitledFirstNamePossessive] เหนือ [target.GetName]!"
+ perk_interaction.0002.other_faith:0 "เหล่านักบวชจอมปลอมแห่งศรัทธา [actor.GetFaith.GetAdjective] ได้ประกาศสนับสนุนสิทธิ์เรียกร้องอันไร้มูลความจริงโดยสิ้นเชิงของ [actor.GetTitledFirstNamePossessive] เหนือ [target.GetName] อย่างเปิดเผย!"
+ perk_interaction.0002.a:1 "ข้าจะแสดงให้ [actor.GetHerHim] เห็นเมื่อถึงเวลา..."
+
+ perk_interaction.0102.actor_toast.t:0 "การประลองของท่านกับ [recipient.GetFirstNameNoTooltip] ถูกยกเลิกแล้ว"
+ perk_interaction.0102.recipient_toast.t:0 "การประลองของท่านกับ [actor.GetFirstNameNoTooltip] ถูกยกเลิกแล้ว"
+ perk_interaction.0102.bout_invalidated.tt:0 "สถานการณ์ที่เปลี่ยนแปลงไปบังคับให้ท่านต้องยกเลิก"
+ perk_interaction.0101.victor_toast.t:0 "ท่านมีชัยเหนือ [sc_loser.GetFirstNameNoTooltip]"
+ perk_interaction.0101.loser_toast.t:0 "ท่านพ่ายแพ้ต่อ [sc_victor.GetFirstNameNoTooltip]"

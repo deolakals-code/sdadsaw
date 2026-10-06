@@ -1,0 +1,18 @@
+﻿l_english: 
+ child_examination_success_chance: "ระดับคะแนนสอบ"
+ child_examination_success_chance_passing: "$child_examination_success_chance$: ผ่าน"
+ child_examination_success_chance_good: "$child_examination_success_chance$: ดี"
+ child_examination_success_chance_high: "$child_examination_success_chance$: สูง"
+
+ examination_success_increase_miniscule_tt: "คะแนนสอบ: #P +[THIS.Char.MakeScope.ScriptValue('examination_success_increase_miniscule_value')]#!"
+
+ examination_success_increase_minor_tt: "คะแนนสอบ: #P +[THIS.Char.MakeScope.ScriptValue('examination_success_increase_minor_value')]#!"
+ examination_success_increase_medium_tt: "คะแนนสอบ: #P +[THIS.Char.MakeScope.ScriptValue('examination_success_increase_medium_value')]#!"
+ examination_success_increase_major_tt: "คะแนนสอบ: #P +[THIS.Char.MakeScope.ScriptValue('examination_success_increase_major_value')]#!"
+ examination_success_increase_massive_tt: "คะแนนสอบ: #P +[THIS.Char.MakeScope.ScriptValue('examination_success_increase_massive_value')]#!"
+
+ passed_child_exam_modifier: "ผ่านการสอบวัดความรู้เยาวชน"
+ played_it_safe_modifier: "เลือกทางปลอดภัย"
+ correct_answers_modifier: "คำตอบที่ถูกต้อง"
+ age_modifier: "อายุ"
+ curious_modifier: "อยากรู้อยากเห็น"

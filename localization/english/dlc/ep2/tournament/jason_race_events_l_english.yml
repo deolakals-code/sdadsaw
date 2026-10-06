@@ -1,0 +1,53 @@
+﻿l_english: 
+
+#HORSE RACES
+ jason_race_events.1.t:0 "เจตจำนงของฝูงชน"
+ jason_race_events.1.desc:0 "จากทะเลผู้คนที่เฝ้าดูการแข่งขัน เหล่าสามัญชนต่างโห่ร้องตะโกน เหล่านักรบพเนจรเปล่งเสียงด่าทอ คำพูดสองแง่สองง่ามอันหยาบคาย ท่ามกลางพวกเขา พวกเราเหล่าขุนนางหัวเราะแห้งๆ เรามองไปยังทหารองครักษ์ของเรา"
+
+ jason_race_events.1.desc.guest_local_anger:0 "\n\nเสียงตะโกนเรียก "[host.GetTitledFirstName]!" ดังขึ้น พร้อมกับคำอย่าง “#EMP [host.Custom('GetCrime')|U]!#!” ผู้ที่โกรธเกรี้ยวที่สุดคือคนท้องถิ่น: ใน [ROOT.Char.GetCurrentLocation.GetName] [host.GetFirstNameNoTooltip] อยู่ท่ามกลางผู้คนที่เกลียดชัง[host.GetHerHim]\n\nเมื่อมองไปทั่วฝูงชน ข้าเห็นก้อนหิน มีด และอาวุธสงคราม"
+
+ jason_race_events.1.desc.host_local_anger:0 "\n\nเสียงตะโกนเรียก "[ROOT.Char.GetTitledFirstName]!" ดังขึ้น พร้อมกับคำอย่าง “#EMP [ROOT.Char.Custom('GetCrime')|U]!#!” ผู้ที่โกรธเกรี้ยวที่สุดล้วนเป็นคนท้องถิ่น — ใน [ROOT.Char.GetCurrentLocation.GetName] ข้าอยู่ท่ามกลางผู้คนที่เกลียดชังข้า\n\nเมื่อมองไปทั่วฝูงชน ข้าเห็นก้อนหิน มีด และอาวุธสงคราม"
+
+ jason_race_events.1.desc.rowdy_fans:0 "\n\nความตื่นเต้นของการแข่งขันมักดึงดูดพวกเลวร้ายที่สุดในอาณาจักรมาเป็นจำนวนมหาศาล และปลุกปั่นพวกเขาด้วยคำสัญญาเรื่องการเมามายและการพนัน \n\nบางครั้ง ในวันที่โชคไม่ดี ความสุขสำราญตามปกติก็ไม่เพียงพอ: มีเพียงเลือดเท่านั้นที่จะสนองความต้องการได้"
+
+ jason_race_events.1.desc.end:0 "\n\nนี่กำลังจะกลายเป็นการจลาจล"
+
+ jason_race_events.1.a:0 "มีเพียงข้าเท่านั้นที่สามารถ ทำให้ฝูงชนสงบลงได้"
+ jason_race_events.1.a.tt:0 "ด้วยคำพูดเกลี้ยกล่อมที่เหมาะสม ข้าจะดึงความสนใจของพวกเขากลับมาที่การแข่งขันได้"
+ jason_race_events.1.a.tt.win:0 "คำพูดของท่าน ทำให้ผู้คนสงบลง"
+ jason_race_events.1.a.tt.race:1 "การแข่งขันดำเนินต่อไปโดยไม่มีการหยุดชะงัก"
+ jason_race_events.1.a.tt.lose:0 "ท่านล้มเหลวในการป้องกันการจลาจล"
+
+ jason_race_events.1.b:0 "ตีไล่ความกล้าของพวกมันเสีย $knights$!"
+ jason_race_events.1.b.tt:0 "และเมื่อเราเช็ดเลือดออกจากตาแล้ว เราก็สามารถกลับมาแข่งต่อได้!"
+
+ jason_race_events.1.c:0 "บางทีฝูงชนอาจต้องการแรงกระตุ้นเล็กน้อย..."
+ jason_race_events.1.c.tt:0 "ไปเลย $knights$ ของข้า — เริ่มต้นความรุนแรงที่ทำลายล้างอย่างแท้จริง!"
+ jason_race_events.1.c.tt.win:0 "$knights$ ของท่านปราบปรามฝูงชนได้"
+ jason_race_events.1.c.tt.lose:0 "ผู้บังคับบัญชาของท่านก่อให้เกิดการจลาจลที่น่าสะพรึงกลัว"
+ jason_race_events.1.c.tt.lose_knights:0 "$knight_culture_player_plural$ บางส่วนของท่าน [GetTrait('wounded_1').GetName( GetNullCharacter )]"
+
+ jason_race_events.1.d:0 "ข้าต้องออกไปจากที่นี่ #EMP เดี๋ยวนี้#!."
+ jason_race_events.1.d.tt:0 "ใครจะรู้? บางทีทุกอย่างอาจจะคลี่คลายไปในทางที่ดี"
+
+ jason_race_events.1.d.tt.win:0 "ความไม่สงบถูกควบคุมไว้ได้"
+ jason_race_events.1.d.tt.lose:0 "ความรุนแรงของฝูงชนลุกลามไปทั่วแผ่นดิน"
+
+ jason_race_events.1.d.tt.leave:0 "ท่านและคณะผู้ติดตามถอนตัวไปยังที่ปลอดภัย"
+
+ contest_wound_attendees_effect:0 "ผู้เข้าร่วม $activity_tournament$ จำนวนมาก [GetTrait('wounded_1').GetName( GetNullCharacter )]"
+
+ contest_wound_non_root_attendees_effect:0 "ผู้เข้าร่วม $activity_tournament$ คนอื่นๆ จำนวนมาก [GetTrait('wounded_1').GetName( GetNullCharacter )]"
+
+
+ jason_race_events.2.t:0 "การเข้าโค้งอันฉับไว"
+ jason_race_events.2.desc:1 "ม้าควบตะบึงไปตามลู่ ร่างที่กำลังวิ่งถูกบดบังด้วยฝุ่นควัน เสียงสบถและตะโกนของนักขี่ไม่ได้ยินท่ามกลางเสียงกีบม้าและเสียงโห่ร้องของฝูงชน\n\nถึงกระนั้น ท่านก็บอกได้ว่านักขี่ของท่าน [jockey.GetFirstName] จดจ่ออยู่กับโค้งที่กำลังใกล้เข้ามาอย่างรวดเร็ว ขณะที่คนอื่นๆ ชะลอความเร็วเพื่อเข้าโค้งหักศอก นักขี่ของท่านก็เร่งม้าอย่างแรง\n\nด้วยช่องว่างเพียงเส้นยาแดงผ่าแปด [jockey.GetFirstNameNoTooltip] และม้า #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#! ก็แทรกตัวผ่านผู้ที่อยู่ข้างหน้าไปได้ เป็นการหลบหลีกที่น่าทึ่ง — ฝูงชนต่างสูดปากพร้อมกัน!"
+
+ jason_race_events.2.a:0 "ทักษะ เช่นนี้เหมาะกับสนามรบ!"
+ jason_race_events.2.a.tt:0 "ทหารม้าของข้าควรได้รับการฝึกฝนให้ขี่ม้าด้วยความกล้าหาญ เช่นเดียวกัน"
+
+ jason_race_events.2.b:1 "คณะผู้ติดตามของข้าต้องการหน่วยสอดแนมคนใหม่..."
+ jason_race_events.2.b.tt:1 "นักขี่ผู้กล้าหาญ เช่นนี้ควรจะนำหน้าเราไปในทุกการเดินทาง"
+
+ jason_race_events.2.c:1 "ช่วงเวลาที่ควรค่าแก่การเล่าขานนับพันครั้ง!"
+ jason_race_events.2.c.tt:1 "ไม่ว่าจะแพ้หรือชนะ ไม่มีนักแข่งของใครสร้างความประทับใจได้เท่าของข้า"

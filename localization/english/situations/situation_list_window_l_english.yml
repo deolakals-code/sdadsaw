@@ -1,0 +1,28 @@
+﻿l_english: 
+ situation_tab_your: "สถานการณ์ของคุณ"
+ situation_tab_other: "สถานการณ์อื่น ๆ"
+ SITUATION_LIST_WINDOW_HEADER: "สถานการณ์"
+ SITUATION_LIST_WINDOW_HEADER_DESC: "[situation_situations|E], [struggle_struggles|E] และ [story_cycles|E] ที่กำลังดำเนินอยู่ทั้งหมด"
+ SITUATION_LIST_GROUP_HEADER: "$NAME$ #weak ($SIZE$)#!"
+ SITUATION_LIST_STRUGGLE_PHASE: "[struggle_phase|E] ปัจจุบัน: [Struggle.GetCurrentPhase.GetName]"
+ SITUATION_LIST_SITUATION_PHASE: "[situation_phase|E] ปัจจุบัน: [Situation.GetTopCurrentPhase.GetName]"
+
+ SITUATION_LIST_HUD_BUTTON: "#T แสดงสถานการณ์ทั้งหมด#!"
+ SITUATION_LIST_NO_SITUATIONS: "ท่านไม่ได้มีส่วนร่วมใน [situation|E], [struggle|E] หรือ [story_cycle|E] ใดๆ"
+ SITUATION_LIST_EPIDEMICS: "ดูโรคระบาด"
+
+ SITUATION_TOGGLE_VISIBLE_BUTTON_TT: "[SelectLocalization( IsSituationPriority( Situation.Self, 'visible' ), 'SITUATION_TOGGLE_VISIBLE_BUTTON_TT_ON', 'SITUATION_TOGGLE_VISIBLE_BUTTON_TT_OFF' )]"
+ SITUATION_TOGGLE_VISIBLE_BUTTON_TT_ON: "#T $SITUATION_TOGGLE_VISIBLE_BUTTON_TT_HEADING$: #V แสดง#!\n#!$SITUATION_TOGGLE_VISIBLE_BUTTON_TT_DESC$\n\n#I คลิกเพื่อซ่อน#!"
+ SITUATION_TOGGLE_VISIBLE_BUTTON_TT_OFF: "#T $SITUATION_TOGGLE_VISIBLE_BUTTON_TT_HEADING$: #V ซ่อนอยู่#!\n#!$SITUATION_TOGGLE_VISIBLE_BUTTON_TT_DESC$\n\n#I คลิกเพื่อแสดง#!"
+ SITUATION_TOGGLE_VISIBLE_BUTTON_TT_HEADING: "ทางลัด $game_concept_situation$"
+ SITUATION_TOGGLE_VISIBLE_BUTTON_TT_DESC: "ตั้งค่าว่าจะให้แสดงทางลัดเพื่อเปิด [Situation.GetNameNoTooltip] หรือไม่"
+
+ STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT: "[SelectLocalization( IsStrugglePriority( Struggle.Self, 'visible' ), 'STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_ON', 'STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_OFF' )]"
+ STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_ON: "#T $STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_HEADING$: #V แสดง#!\n#!$STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_DESC$\n\n#I คลิกเพื่อซ่อน#!"
+ STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_OFF: "#T $STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_HEADING$: #V ซ่อนอยู่#!\n#!$STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_DESC$\n\n#I คลิกเพื่อแสดง#!"
+ STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_HEADING: "ทางลัด $game_concept_struggle$"
+ STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_DESC: "ตั้งค่าว่าจะให้แสดงทางลัดเพื่อเปิด [Struggle.GetNameNoTooltip] หรือไม่"
+
+ situation_group_type_story_cycles: "เรื่องราว"
+ SITUATION_LIST_STORY_CYCLE_ENTRY_TITLE: "[SituationItem.GetStoryCycle.GetName]"
+ SITUATION_LIST_STORY_CYCLE_ENTRY_DESC: "[SituationItem.GetStoryCycle.GetDesc]"

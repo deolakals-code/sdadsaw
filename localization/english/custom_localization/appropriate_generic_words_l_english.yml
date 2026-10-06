@@ -1,0 +1,208 @@
+﻿l_english: 
+ #GetSmallFood
+ #GetSmallFoodIndef
+ food_word_apple:0 "ผลแอปเปิล"
+ food_word_apple_indef:0 "ผลแอปเปิล" # Thai doesn't use indefinite articles like "an"
+ food_word_biscuit:0 "บิสกิต"
+ food_word_biscuit_indef:0 "บิสกิต" # Thai doesn't use indefinite articles like "a"
+ #GetClothingArticle
+ clothing_word_shirt:0 "เสื้อ"
+ clothing_word_trousers:0 "กางเกง"
+ clothing_word_blouse:0 "เสื้อสตรี"
+ clothing_word_dress:0 "ชุดกระโปรง"
+ #GetAccessory
+ accessory_earring:0 "ตุ้มหู"
+ accessory_bow:0 "โบ"
+ accessory_bracelet:0 "กำไล"
+ accessory_snood:0 "ตาข่ายคลุมผม"
+ accessory_garter:0 "สายรัดถุงน่อง"
+ accessory_gauntlet:0 "สนับมือ" # หรือ ถุงมือเกราะ
+ accessory_cap:0 "หมวก"
+ accessory_nose_ring:0 "ห่วงจมูก"
+ accessory_sash:0 "ผ้าคาดเอว" # หรือ สายสะพาย
+ accessory_shawl:0 "ผ้าคลุมไหล่"
+ accessory_scarf:0 "ผ้าพันคอ"
+ accessory_sock:0 "ถุงเท้า"
+ accessory_fan:0 "พัด"
+ accessory_muff:0 "ปลอกสวมมือกันหนาว"
+ #GetFoodDetail
+ food_detail_cilantro:0 "ผักชี" # Coriander is ผักชี in Thai
+ food_detail_lemon:0 "มะนาวเหลือง" # Lemon is มะนาวเหลือง, Lime is มะนาวเขียว
+ food_detail_almond:0 "อัลมอนด์"
+ #GetExpensiveMeal
+ expensive_food_roast_swan:0 "หงส์ย่าง"
+ expensive_food_veal_cutlets:0 "เนื้อลูกวัวทอด"
+ expensive_food_fresh_quail:0 "นกกระทาสด"
+ expensive_food_baked_truffles:0 "ทรัฟเฟิลอบ"
+ expensive_food_spiced_breads:0 "ขนมปังเครื่องเทศ"
+ expensive_food_mustard_rolls:0 "มัสตาร์ดโรล"
+ expensive_food_sturgeon_cheese: "สตูว์ปลาสเตอร์เจียนและชีส"
+ expensive_food_honey_pork: "หมูอบน้ำผึ้ง"
+ expensive_food_roast_peacock: "นกยูงย่าง"
+ expensive_food_braised_bear_paws: "อุ้งตีนหมีตุ๋น"
+ expensive_food_stewed_camel_hump: "หนอกอูฐตุ๋น"
+ expensive_food_monkey_brains: "สมองลิง"
+ expensive_food_apes_lip: "ริมฝีปากเอป"
+ expensive_food_leopard_fetus: "ตัวอ่อนเสือดาว"
+ expensive_food_rhinoceros_tail_stew: "สตูหางแรด"
+ expensive_food_deer_tendon_soup: "ซุปเอ็นกวาง"
+ expensive_food_roast_shark_fin: "หูฉลามย่าง"
+ expensive_food_braised_sea_cucumber: "ปลิงทะเลตุ๋น"
+ expensive_food_steamed_abalone: "เป๋าฮื้อนึ่ง"
+ expensive_food_pearl_powder_soup: "ซุปผงไข่มุก"
+ expensive_food_swallow_nest_soup: "ซุปรังนก"
+ #GetExpensiveMealAlt
+ expensive_food_fine_cheeses:0 "ชีสชั้นดี"
+ expensive_food_almond_eggs:0 "ไข่อัลมอนด์"
+ expensive_food_sturgeon_caviar:0 "ไข่ปลาสเตอร์เจียน" # Caviar is ไข่ปลาคาเวียร์, but specifying sturgeon is clearer
+ #GetExpensiveDessert
+ expensive_dessert_saffron_cake:0 "เค้กหญ้าฝรั่น"
+ expensive_dessert_candied_figs:0 "มะเดื่อเชื่อม"
+ expensive_dessert_pomegranate_cake:0 "เค้กทับทิม"
+ expensive_dessert_entremets:0 "อองเทรเมต์" # Loanword for specific dessert type
+ expensive_dessert_quince_tarts:0 "ทาร์ตควินซ์"
+ expensive_dessert_honey_pudding: "พุดดิ้งข้าวและน้ำผึ้ง"
+ expensive_dessert_semolina_porridge: "โจ๊กเซโมลินา"
+ expensive_dessert_quince_spoon: "ของหวานช้อนควินซ์" # Dessert served in small portions, eaten with a spoon
+ expensive_dessert_pearl_honey_cake: "เค้กน้ำผึ้งไข่มุก"
+ expensive_dessert_gilded_mochi: "โมจิปิดทอง"
+ expensive_dessert_dragonfruit_sorbet: "ซอร์เบต์แก้วมังกร"
+ expensive_dessert_lychee_honey: "น้ำผึ้งลิ้นจี่"
+ expensive_dessert_coconut_palm_pudding: "พุดดิ้งน้ำตาลมะพร้าว"
+ expensive_dessert_persimmon_pastry: "เพสตรีลูกพลับ"
+ expensive_dessert_durian_coconut_custard: "คัสตาร์ดทุเรียนมะพร้าว"
+ #GetExpensiveDessertInTheFace
+ expensive_dessert_saffron_cake_face:0 "เค้กหญ้าฝรั่นชิ้นหนึ่ง"
+ expensive_dessert_candied_figs_face:0 "พายมะเดื่อชิ้นหนึ่ง"
+ expensive_dessert_pomegranate_cake_face:0 "เค้กทับทิมชิ้นหนึ่ง"
+ expensive_dessert_entremets_face:0 "อองเทรเมต์ครีมถ้วยหนึ่ง"
+ expensive_dessert_quince_tarts_face:0 "ทาร์ตควินซ์ชิ้นหนึ่ง"
+ expensive_dessert_honey_pudding_face: "พุดดิ้งข้าวและน้ำผึ้งหนึ่งช้อน"
+ expensive_dessert_semolina_porridge_face: "โจ๊กเซโมลินาหนึ่งช้อน"
+ expensive_dessert_pearl_honey_cake_face: "เค้กน้ำผึ้งไข่มุกหนึ่งชิ้น"
+ #GetExpensiveDrink
+ expensive_drink_hippocras:0 "ฮิปโปคราสชั้นดี" # Loanword for specific drink
+ expensive_drink_imported_wine:0 "ไวน์นำเข้า"
+ expensive_drink_bordeaux_claret:0 "ไวน์คลาเรต์บอร์โด"
+ expensive_drink_aqua_vitae:0 "อควาไวเตเพื่อสุขภาพ" # Loanword for specific drink
+ expensive_drink_brandy:0 "บรั่นดีที่คิดค้นขึ้นใหม่"
+ expensive_drink_spiced_wine:0 "ไวน์เครื่องเทศ"
+ expensive_drink_spiced_wine_singular:0 "ไวน์เครื่องเทศ"
+ expensive_drink_kosher_wine:0 "ไวน์โคเชอร์"
+ expensive_drink_premium_tea:1 "ชานำเข้า"
+ expensive_drink_mead:0 "เหล้ามีดชั้นสูง"
+ expensive_drink_invigorating_herbal_infusions:0 "ชาสมุนไพรชูกำลัง"
+ expensive_drink_violet_sharbah:0 "ชาร์บาห์สีม่วง" # Loanword for specific drink
+ expensive_drink_tribute_ice_tea: "ชาน้ำแข็งบรรณาการ"
+ expensive_drink_emperor_tea: "ชาจักรพรรดิ"
+ expensive_drink_baijiu_elixir: "ยาอายุวัฒนะไป๋จิ่ว"
+ expensive_drink_arrack_distilled_palm_spirit: "สุรากลั่นอาร์แรค"
+ expensive_drink_spiced_palm_wine: "ไวน์ปาล์ม"
+ expensive_drink_hanakusa_herbal_elixir: "ยาอายุวัฒนะสมุนไพรฮานาคุสะ"
+ expensive_drink_pearl_powder_cordial: "สุราหวานผงไข่มุก"
+ expensive_drink_medicinal_rice_wine: "ไวน์ข้าวโอสถ"
+ expensive_drink_ice_chrysanthemum_beer: "เบียร์เก๊กฮวยน้ำแข็ง"
+ expensive_drink_coconut_milk_elixir: "ยาอายุวัฒนะน้ำกะทิ"
+ expensive_drink_tamarind_spiced_sharbat: "ชาร์บัตเครื่องเทศมะขาม"
+ #GetExpensiveDrink_Singular
+ expensive_drink_singular_hippocras:0 "$expensive_drink_hippocras$"
+ expensive_drink_singular_imported_wine:0 "ไวน์นำเข้า"
+ expensive_drink_singular_bordeaux_claret:0 "ไวน์คลาเรต์บอร์โด"
+ expensive_drink_singular_aqua_vitae:0 "อควาไวเตเพื่อสุขภาพ"
+ expensive_drink_singular_brandy:0 "บรั่นดีที่คิดค้นขึ้นใหม่"
+ expensive_drink_singular_spiced_wine:0 "ไวน์เครื่องเทศ"
+ expensive_drink_singular_premium_tea:1 "ชานำเข้า"
+ expensive_drink_singular_kosher_wine:0 "ไวน์โคเชอร์"
+ expensive_drink_singular_mead:0 "เหล้ามีดชั้นสูง"
+ expensive_drink_singular_herbal_infusions:0 "ชาสมุนไพรชูกำลัง"
+ expensive_drink_singular_violet_sharbah:0 "$expensive_drink_violet_sharbah$"
+ expensive_drink_singular_tribute_ice_tea: "ชาน้ำแข็งบรรณาการ"
+ expensive_drink_singular_emperor_tea: "ชาจักรพรรดิ"
+ expensive_drink_singular_baijiu_elixir: "ยาอายุวัฒนะไป๋จิ่ว"
+ expensive_drink_singular_arrack_distilled_palm_spirit: "สุรากลั่นอาร์แรค"
+ expensive_drink_singular_spiced_palm_wine: "ไวน์ปาล์ม"
+ expensive_drink_singular_hanakusa_herbal_elixir: "ยาอายุวัฒนะสมุนไพรฮานาคุสะ"
+ expensive_drink_singular_pearl_powder_cordial: "สุราหวานผงไข่มุก"
+ expensive_drink_singular_medicinal_rice_wine: "ไวน์ข้าวโอสถ"
+ expensive_drink_singular_ice_chrysanthemum_beer: "เบียร์เก๊กฮวยน้ำแข็ง"
+ expensive_drink_singular_coconut_milk_elixir: "ยาอายุวัฒนะน้ำกะทิ"
+ expensive_drink_singular_tamarind_spiced_sharbat: "ชาร์บัตเครื่องเทศมะขาม"
+ #GetShockedExpression
+ shocked_expression_shocked:0 "ตกตะลึง"
+ shocked_expression_appalled:0 "ตกใจอย่างแรง" # หรือ สยดสยอง
+ #GetLivestockFowlIndef
+ a_duck:0 "เป็ดตัวหนึ่ง"
+ a_chicken:0 "ไก่ตัวหนึ่ง"
+ a_rooster:0 "ไก่ตัวผู้ตัวหนึ่ง"
+ a_goose:0 "ห่านตัวหนึ่ง"
+ #GetRandomRegionalBird
+ duck:0 "เป็ด"
+ chicken:0 "ไก่"
+ rooster:0 "ไก่ตัวผู้"
+ goose:0 "ห่าน"
+ pigeon:0 "นกพิราบ"
+ owl:0 "นกฮูก"
+ blackbird:0 "นกเดินดงสีดำ"
+ raven:0 "นกเรเวน" # หรือ อีกาใหญ่
+ vulture:0 "อีแร้ง"
+ robin:0 "นกโรบิน"
+ sparrow:0 "นกกระจอก"
+ crane:0 "นกกระเรียน"
+ stork:0 "นกกระสา"
+ cormorant: "นกกาน้ำ"
+ partridge: "นกกระทา"
+ hazel_grouse: "นกกระทาเฮเซล"
+ myna: "นกเอี้ยง"
+ azure_winged_magpie: "นกกางเขนปีกฟ้า"
+ hornbill: "นกเงือก"
+ crested_ibis: "นกช้อนหอยหงอน"
+ oak:0 "โอ๊ก"
+ birch:0 "เบิร์ช"
+ pine:0 "สน"
+ poplar:0 "ปอปลาร์"
+ teak:0 "สัก"
+ sandalwood:0 "จันทน์"
+ ebony:0 "มะเกลือ"
+ baobab:0 "เบาบับ"
+ palm:0 "ปาล์ม"
+ #GetRandomMigratoryBird
+ seagull:0 "นกนางนวล"
+ tarrock:0 "นกคิตติเวก" # Tarrock is a name for the Kittiwake gull
+ #GetLocalStreetFood
+ sambusa:0 "ซัมบูซา" # Loanword
+ honey_fritter:0 "ฟริตเตอร์น้ำผึ้ง" # หรือ ขนมทอดน้ำผึ้ง
+ pizza:0 "พิซซ่า" # Loanword
+ pakhala:0 "ปาคาลาหนึ่งชาม" # Loanword + description
+ pilau:0 "ปิเลาหนึ่งชาม" # Loanword + description
+ pastilla:0 "พาสทิลลา" # Loanword
+ inihaw: "ปลาเสียบไม้ย่าง"
+ empanada:0 "เอมปานาดา" # Loanword
+ botuo:0 "โบตูโอหนึ่งชาม" # Loanword + description
+ stew:0 "สตูว์หนึ่งชาม"
+ sphoungata: "ไข่เจียวสฟุงกาตา" # Loanword + description
+ tarichos: "ปลาทาริโคส" # Loanword + description
+ bing: "ปิ่ง"
+ mantou: "หมั่นโถว"
+ zosui: "โซซุยหนึ่งถ้วย"
+ sushi: "ซูชิ"
+ kimchi: "กิมจิหนึ่งถ้วย"
+ rice_cake: "เค้กข้าว"
+ bubur: "บูบูร์หนึ่งถ้วย"
+ sambusa_plural:0 "เหล่าซัมบูซา"
+ honey_fritter_plural:0 "เหล่าฟริตเตอร์น้ำผึ้ง"
+ pizza_plural:0 "เหล่าพิซซ่า"
+ pakhala_plural:0 "ปาคาลาหลายชาม"
+ pilau_plural:0 "ปิเลาหลายชาม"
+ pastilla_plural:0 "เหล่าพาสทิลลา"
+ inihaw_plural: "เหล่าปลาเสียบไม้ย่าง"
+ empanada_plural:0 "เหล่าเอมปานาดา"
+ botuo_plural:0 "โบตูโอหลายชาม"
+ stew_plural:0 "สตูว์หลายชาม"
+ sphoungata_plural: "เหล่าไข่เจียวสฟุงกาตา"
+ bing_plural: "เหล่าปิ่ง"
+ mantou_plural: "เหล่าหมั่นโถว"
+ zosui_plural: "โซซุยหลายถ้วย"
+ sushi_plural: "เหล่าซูชิ"
+ kimchi_plural: "กิมจิหลายถ้วย"
+ rice_cake_plural: "เหล่าเค้กข้าว"
+ bubur_plural: "บูบูร์หลายถ้วย"

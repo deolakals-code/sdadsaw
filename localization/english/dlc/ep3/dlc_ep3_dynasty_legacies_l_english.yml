@@ -1,0 +1,25 @@
+﻿l_english: 
+
+ ep3_administrative_legacy_track_name: "ระบบข้าราชการ"
+ ep3_administrative_legacy_track_desc: "จงให้อิทธิพลแห่งตระกูล [GetPlayer.GetDynasty.GetBaseNameNoTooltip] บดบังผู้อื่นทั้งปวง"
+
+ ep3_administrative_legacy_1_name: "ผู้ดูแลจักรวรรดิ"
+ ep3_administrative_legacy_1_effect_global: "[governor_efficiency|E]: #P +5%#!"
+
+ ep3_administrative_legacy_2_name: "อำนาจคือบันได"
+ ep3_administrative_legacy_2_effect_schemes_global: "[political_schemes|E]: #P +10#! [success_chance_max_i] สูงสุด [scheme_success_chance|E]"
+ ep3_administrative_legacy_2_effect_investment_discount_global: "การส่งเสริมสมาชิก [house|E] ถูกลง #P 10%#!"
+
+ ep3_administrative_legacy_3_name: "ตระกูลและบ้านเรือน"
+ ep3_administrative_legacy_3_effect_family_rating_global: "ระดับ [powerful_family|E]: #P +15#!"
+ ep3_administrative_legacy_3_effect_reception_hall_global: "ปลดล็อกอาคาร [estate|E] [GetDomicileBuilding('reception_hall_01').GetName]"
+ ep3_dynasty_legacy_gain_legitimacy_effect_title: "[GetDomicileBuilding('reception_hall_01').GetName] มอบ [legitimacy|E]"
+ ep3_dynasty_legacy_add_legitimacy_effect_title: "ความชอบธรรมที่เก็บสะสม"
+ ep3_dynasty_legacy_add_legitimacy_effect_desc: "[activity.GetActivityType.GetNameNoTooltip]ของ[host.GetShortUINamePossessive]ใน[activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]ได้เพิ่ม[legitimacy|E]ให้กับ[GetDomicileBuilding('reception_hall_01').GetName]ของ[reception_hall_owner.GetShortUINamePossessive]"
+
+ ep3_administrative_legacy_4_name: "นครอมตะ"
+ ep3_administrative_legacy_4_effect_cabinet_of_curiosities_global: "ปลดล็อกอาคาร [estate|E] [GetDomicileBuilding('cabinet_of_curiosities_01').GetName]"
+
+ ep3_administrative_legacy_5_name: "แบ่งแยกแล้วปกครอง"
+ ep3_administrative_legacy_track_effect_claimant_factions_global: "[vassals|E] และ [noble_families|E] มีโอกาสน้อยลงที่จะเข้าร่วม [claimant_factions|E] หรือใช้ [scheme|E] [GetScheme('depose').GetTypeName]"
+ ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "ปลดล็อก [interaction|E] #high [GetPlayer.GetPlayerInteractionName('ep3_mass_arrests_interaction')]#!"

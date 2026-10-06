@@ -1,0 +1,15 @@
+﻿l_english: 
+ I_TAKE_HOSTAGE: "[TARGET_CHARACTER.GetShortUIName|U] กลายเป็น [hostage|E] ของท่าน"
+ THEY_TAKE_HOSTAGE: "[TARGET_CHARACTER.GetShortUIName|U] กลายเป็น [hostage|E] ของ [CHARACTER.GetShortUINamePossessive]"
+
+ I_TOOK_HOSTAGE: "[TARGET_CHARACTER.GetShortUIName|U] ได้กลายเป็น [hostage|E] ของท่าน"
+ THEY_TOOK_HOSTAGE: "[TARGET_CHARACTER.GetShortUIName|U] ได้กลายเป็น [hostage|E] ของ [CHARACTER.GetShortUINamePossessive]"
+
+ I_RETURN_FROM_HOSTAGE: "ข้าพเจ้าจะไม่เป็น [hostage|E] อีกต่อไป"
+ THEY_RETURN_FROM_HOSTAGE: "[CHARACTER.GetName] จะไม่เป็น [hostage|E] อีกต่อไป"
+
+ I_RETURNED_FROM_HOSTAGE: "ข้าพเจ้าไม่เป็น [hostage|E] อีกต่อไปแล้ว"
+ THEY_RETURNED_FROM_HOSTAGE: "[CHARACTER.GetName] ไม่เป็น [hostage|E] อีกต่อไปแล้ว"
+
+ I_ATTACK_TRUCE_HOSTAGE_FATE: "#X ท่านตัดสินชะตากรรมของ [hostage|E]: [TARGET_CHARACTER.GetShortUIName|U]#!"
+ THEY_ATTACK_TRUCE_HOSTAGE_FATE: "#X ตัดสินชะตากรรมของ [hostage|E]: [TARGET_CHARACTER.GetShortUIName|U]#!"

@@ -1,0 +1,147 @@
+﻿l_english: 
+ 
+ ###################
+ # Standard Events #
+ ###################
+
+ # Bankrupt, by Stephen Arthur and Sean Hughes
+ stewardship_wealth.1001.t:0 "ล้มละลาย!"
+ stewardship_wealth.1001.desc:0 "คลังของข้าว่างเปล่า เสบียงอาหารก็ร่อยหรอ แม้ แต่หนูก็ถูกขายไปเพื่อชำระค่าใช้จ่ายของข้าแล้ว แต่ข้าก็ยังไม่สามารถชำระหนี้สินทั้งหมดที่ข้าเป็นหนี้ได้!\n\nข้าจะหาทางออกจากสถานการณ์นี้ได้อย่างไร?"
+ stewardship_wealth.1001.a:0 "ตรวจสอบบัญชีอย่างละเอียดเพื่อหาอะไรก็ตามที่อาจช่วยได้!"
+ stewardship_wealth.1001.a.success:0 "ข้าพบหนี้สินที่ถูกมองข้ามหลายรายการที่ข้าสามารถเรียกคืนได้"
+ stewardship_wealth.1001.a.failure:0 "ข้าไม่พบสิ่งใดที่จะเป็นประโยชน์"
+ stewardship_wealth.1001.b.havehook:0 "ข้าจะเรียกใช้บุญคุณที่ [wealthy_vassal.GetTitledFirstNameNoTooltip] ติดค้างข้าอยู่"
+ stewardship_wealth.1001.b.givehook:0 "ข้าจะเป็นหนี้บุญคุณ [wealthy_vassal.GetTitledFirstNameNoTooltip] หาก [wealthy_vassal.GetSheHe] ช่วยข้า"
+ stewardship_wealth.1001.c:0 "ข้าจะเรียกร้องเครื่องบรรณาการจากข้าหลวงของข้า!"
+ stewardship_wealth.1001.c.tt:0 "ข้าหลวงทุกคน:"
+ stewardship_wealth.1001.d:1 "ยึดทรัพย์สินทางศาสนาเพื่อระดมทุน"
+ stewardship_wealth.1001.e:0 "ข้าจะรัดเข็มขัดและประหยัดเท่าที่ข้าจะทำได้"
+ 
+ # Minting New Coins, bu Stephen Arthur and Sean Hughes
+ stewardship_wealth.1011.t:0 "การผลิตเหรียญกษาปณ์ใหม่"
+ stewardship_wealth.1011.desc:0 "เป็นสิทธิ์และความรับผิดชอบของข้าที่จะกำหนดว่าเหรียญกษาปณ์ใดจะถูกใช้ทั่วทั้ง [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]\n\nการตัดสินใจของข้าจะเป็นตัวกำหนดว่าเหรียญกษาปณ์ — และโดยขยายความคืออาณาจักรของข้า — จะถูกมองอย่างไรในสายตาชาวโลก"
+ stewardship_wealth.1011.a:0 "ผลิตเหรียญเงินเพื่ออำนวยความสะดวกทางการค้า"
+ stewardship_wealth.1011.b:0 "ผลิตเหรียญทองประทับรูปโฉมของข้าเอง!"
+ stewardship_wealth.1011.c:0 "ลดค่าเงินโดยผสมนิกเกิลราคาถูก"
+ stewardship_wealth.1011.c.success:0 "ข้าประหยัดเงินได้มหาศาลจากการผลิตเหรียญที่ลดค่า"
+ stewardship_wealth.1011.c.failure:0 "ทุกคนรู้ว่าเหรียญใหม่นั้นด้อยค่าเพียงใด"
+ stewardship_wealth.1011.custom:0 "ทุกเคาน์ตีใน [THIS.Char.GetPrimaryTitle.GetName]"
+
+ # War Taxes, by Sean Hughes
+ stewardship_wealth.1021.t:0 "การจ่ายค่าสงคราม"
+ stewardship_wealth.1021.desc:0 "สงครามนั้นมีค่าใช้จ่ายสูง และ [current_war.GetName] ก็ไม่ต่างกัน\n\nเมื่อคลังของข้ากำลังหมดลงอย่างรวดเร็ว ข้าจำเป็นต้องคิดว่าจะจ่ายเงินอย่างไรเพื่อรักษาทหารของข้าไว้ในสนามรบ"
+ stewardship_wealth.1021.a:0 "เก็บภาษีเพิ่มเติมจากเหล่าไพร่"
+ stewardship_wealth.1021.a.custom:0 "ทุก [county|E] ใน [domain|E] ของข้า"
+ stewardship_wealth.1021.b:0 "ตัดค่าใช้จ่ายทางทหารที่ไม่จำเป็น"
+ stewardship_wealth.1021.b.success:0 "ข้าปรับปรุงประสิทธิภาพงบประมาณทางทหารของข้า"
+ stewardship_wealth.1021.b.failure:0 "ข้าเผลอตัดค่าใช้จ่ายทางทหารที่สำคัญไป"
+ stewardship_wealth.1021.c:1 "สุดท้ายแล้วทุกอย่างจะคลี่คลายไปเอง มันเป็น เช่นนั้นเสมอ"
+ stewardship_wealth.1021.c.tt:0 "สงครามจะสร้างโอกาสมากมาย..."
+
+ # War Profiteering, by Isabella Welch
+ stewardship_wealth.1022.t:0 "การปล้นสะดมอันศักดิ์สิทธิ์"
+ stewardship_wealth.1022.desc:0 "[GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )] ของข้า, [church_burner.GetName] เข้ามาหาข้า พร้อมรายงานอย่างร่าเริงจากคณะผู้ติดตามของ [church_burner.GetHerHis]:\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U] หลังจากการตัดสินใจอันหลักแหลมของท่านที่ปล่อยให้การหาทุนสงครามเป็นไปตามดุลยพินิจของพวกเรา พวกเราก็ได้ทำการปล้นสะดมที่ได้ผลที่สุดเท่าที่ [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier] เคยเห็นมา! พวกเราขโมยแกะมาหลายสิบตัว ฉกชิงของกระจุกกระจิกมาหลายร้อยชิ้น และยังเผา [ROOT.Char.GetFaith.HouseOfWorship] พร้อมกับผู้คนนับพันที่ยังมีชีวิตอยู่ข้างใน!""
+ stewardship_wealth.1022.a:0 "คลังของเราต้องการโชคลาภนี้จริงๆ... แค่พยายามอย่าทำอีก"
+ stewardship_wealth.1022.b:0 "ข้าจะไม่ยอมถูกมองว่าเป็นคนฆ่าสัตว์! เราจะใช้เงินนี้เพื่อชดใช้ค่าเสียหาย"
+ stewardship_wealth.1022.c:0 "ทำได้ดีมาก! เราจะทำตามใจชอบต่อไป"
+ 
+ # Wealthy free farmer wants to buy land, by Sean Hughes
+ stewardship_wealth.1051.t:0 "โชคลาภของเสรีชน"
+ stewardship_wealth.1051.desc:0 "[freeman.GetFirstName] เสรีชนผู้เช่าที่ดินบางส่วนของข้าใน [target_county.GetNameNoTier] ได้เก็บเกี่ยวผลผลิตที่ยอดเยี่ยมเป็นพิเศษในฤดูกาลนี้ เนื่องจากการวางแผนอย่างพิถีพิถันของ[freeman.GetHerHis]\n\n[freeman.GetSheHe|U]ปรารถนาที่จะใช้ผลกำไรส่วนหนึ่งของ[freeman.GetHerHis]เพื่อซื้อที่ดินผืนหนึ่งจากข้า เพื่อที่[freeman.GetSheHe]จะได้ต่อยอดความสำเร็จของ[freeman.GetHerHis]และปลูกพืชผลได้มากขึ้นในปีหน้า"
+ stewardship_wealth.1051.a:0 "ลืมเรื่องการทำนาไปเสีย [freeman.GetWomanMan] เช่น[freeman.GetHerHim]ควรอยู่ในราชสำนักของข้า!"
+ stewardship_wealth.1051.a.arrogant:0 "ชาวนาผู้มีการศึกษา? ช่างแปลกใหม่เสียจริง! เจ้า #EMP ต้อง#! เข้าร่วมราชสำนักของข้า!"
+ stewardship_wealth.1051.b:0 "หาก [freeman.GetSheHe] สามารถจ่ายให้ข้าเป็นเหรียญแข็งได้ ที่ดินผืนนั้นก็เป็นของ[freeman.GetHersHis]"
+ stewardship_wealth.1051.d:0 "ที่ดินใน [target_county.GetNameNoTierNoTooltip] เป็นของข้าและของข้า แต่เพียงผู้เดียว!"
+
+ # Pick a new thing to obtain, by Sean Hughes
+ stewardship_wealth.1061.t:0 "การได้มา ซึ่งสิ่งใหม่"
+ stewardship_wealth.1061.desc:0 "ในระหว่างการจัดการ [ROOT.Char.Custom('GetRealmOrDomicile')] ประจำวันของข้า ข้าได้เรียนรู้ถึงโอกาสต่างๆ หลายประการที่ข้าสามารถไขว่คว้าได้\n\nแต่ละโอกาสมีศักยภาพที่ดีเยี่ยม แต่ตามความเป็นจริงแล้ว ข้าสามารถไล่ตามได้เพียงโอกาสเดียวเท่านั้น — ข้าต้องตัดสินใจว่าสิ่งใดจะให้คุณค่าแก่ข้ามากที่สุดในท้ายที่สุด"
+ stewardship_wealth.1061.a:0 "ข้าได้ยินข่าวลือเกี่ยวกับตำราที่หายสาบสูญ ซึ่งถูกค้นพบอีกครั้ง"
+ stewardship_wealth.1061.a.success:0 "ตำราที่หายสาบสูญนั้นมีความรู้อันมั่งคั่งยิ่ง"
+ stewardship_wealth.1061.a.success.good:0 "ท่านได้รับหนังสือ [artifact|E] ที่ดีมากเล่มหนึ่ง"
+ stewardship_wealth.1061.a.failure:0 "ตำราที่หายสาบสูญเป็นเพียงบัญชีเก่าๆ"
+ stewardship_wealth.1061.a.success.bad:0 "ท่านได้รับหนังสือ [artifact|E] เก่าที่ไม่น่าสนใจเล่มหนึ่ง"
+ stewardship_wealth.1061.b:0 "[vassal.GetTitledFirstNameNoTooltip] อาจต้องการความช่วยเหลือในการจัดการที่ดินของ[vassal.GetHerHis]"
+ stewardship_wealth.1061.c:0 "การทำข้อตกลงทางการค้าเหล่านั้นให้สำเร็จจะเติมเต็มคลังของข้า"
+
+ # Buy some cows, by Linnéa Thimrén
+ stewardship_wealth.5001.t:0 "ปศุสัตว์ที่มีชีวิตชีวา"
+ stewardship_wealth.5001.desc:0 "ในการชำระเงินเพิ่มเติมสำหรับการค้าครั้งล่าสุด ข้าพบว่าตนเองได้ครอบครองฝูงวัวขนาดใหญ่\n\nข้าได้รับการรับรองว่าสัตว์เหล่านี้มีคุณภาพสูงสุด แต่คำถามว่าควรทำอย่างไรกับพวกมันยังคงอยู่"
+ stewardship_wealth.5001.a:0 "[capital.GetNameNoTierNoTooltip] จะเจริญรุ่งเรืองจากฝูงวัวนี้"
+ stewardship_wealth.5001.b:0 "มันเป็นฝูงที่สวยงาม แต่มันน่าจะใหญ่กว่านี้ได้..."
+ stewardship_wealth.5001.b.message_1:0 "โครงการเพาะพันธุ์ของข้าประสบความสำเร็จ"
+ stewardship_wealth.5001.b.message_2:0 "โครงการเพาะพันธุ์ของข้าล้มเหลว"
+ stewardship_wealth.5001.c:0 "หนังของพวกมันจะทำกำไรได้ดี เอาขวานมา!"
+
+ #Investment advice (wealth friend), by Mathilda Bjarnehed
+ stewardship_wealth.5002.t:0 "คำแนะนำ"
+ stewardship_wealth.5002.start.desc:0 "ข้าเดินเตร่ไปตามแผงขายของในตลาด [capital.GetNameNoTooltip] ถุงเงินหนักๆ ดึงรั้งเข็มขัดของข้า ข้าจะ ทำให้เหรียญนี้ทำงานให้ข้าได้อย่างไร?\n\nขณะที่ข้าชื่นชมสินค้าของ "
+ stewardship_wealth.5002.safe_smithy.desc:0 "ช่างตีเหล็กท้องถิ่น — เหล็กกล้าชั้นดี,"
+ stewardship_wealth.5002.safe_mason.desc:0 "ช่างหินท้องถิ่น — รูปทรงเรขาคณิตสมบูรณ์แบบ,"
+ stewardship_wealth.5002.safe_religious_sculptor.desc:0 "ช่างแกะสลักท้องถิ่น – รูปเคารพแบบ[ROOT.Char.GetFaith.GetAdjectiveNoTooltip],"
+ stewardship_wealth.5002.safe_jeweler.desc:0 "ช่างอัญมณีท้องถิ่น — ลายฉลุอันวิจิตร,"
+ stewardship_wealth.5002.middle.desc:1 "การลงทุนที่มั่นคง – [investor.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] ก็ปรากฏตัวขึ้นข้างกายข้าทันที\n\n"ขอคำแนะนำสักคำไหม [ROOT.Char.Custom2('RelationToMeAddress', investor)]? ลองดูที่"
+ stewardship_wealth.5002.risky_smithy.desc:0 "โรงตีเหล็ก"
+ stewardship_wealth.5002.risky_mason.desc:0 "โรงงานช่างหิน"
+ stewardship_wealth.5002.risky_religious_sculptor.desc:0 "แผงขายของช่างแกะสลัก"
+ stewardship_wealth.5002.risky_jeweler.desc:0 "แผงขายของช่างอัญมณี"
+ stewardship_wealth.5002.end.desc:0 "ตรงนั้นสิ สินค้าของพวกเขาอาจดูเรียบง่าย แต่ศักยภาพนั้นยิ่งใหญ่""
+
+ stewardship_wealth.5002.b.success:0 "[investor.GetFirstNameNoTooltip] และข้าผูกสัมพันธ์กันผ่านการลงทุนที่ยอดเยี่ยม"
+ stewardship_wealth.5002.b.failure:0 "การลงทุนของข้าล้มเหลว"
+ stewardship_wealth.5002.b.failure.tt:0 "ท่านสูญเสียเงินที่ลงทุนไป"
+
+ stewardship_wealth.5002.a.smithy:0 "ลงทุนในโรงตีเหล็ก"
+ stewardship_wealth.5002.a.tavern:0 "ลงทุนในโรงเตี๊ยม"
+ stewardship_wealth.5002.a.mason:0 "ลงทุนในโรงงานช่างหิน"
+ stewardship_wealth.5002.a.religious_sculptor:0 "ลงทุนในโรงงานช่างแกะสลัก"
+ stewardship_wealth.5002.a.jeweler:0 "ลงทุนในโรงงานช่างอัญมณี"
+ stewardship_wealth.5002.c:0 "ทำกำไรอย่างรวดเร็วด้วยการค้าที่ชาญฉลาด"
+
+#Roadside Stall selling carvings by Daniel Moore
+ stewardship_wealth.6001.t:0 "แผงลอยริมทาง"
+ stewardship_wealth.6001.desc:0 "ขณะเดินทางข้าม [stall_county.Custom('TerrainTypeCountyScope')] ของ [stall_county.GetName] ข้าพบแผงลอยที่ดูชั่วคราวอยู่ข้างทาง\n\nขณะที่ข้าหยุดดู ไพร่ผู้หนึ่งนามว่า [stall_owner.GetFirstName] ก็รีบเข้ามา พยายามโน้มน้าวให้ข้าซื้องานแกะสลัก [stall_owner.GetFaith.ReligiousSymbol] เล็กๆ ชิ้นหนึ่งที่ [stall_owner.GetSheHe] วางขาย\n\n"ข้าทำมันด้วยมือ, [ROOT.Char.Custom('FormOfAddressForLiege')], แต่ละชิ้นใช้เวลาทำงานหลายชั่วโมง""
+ stewardship_wealth.6001.a:0 "ข้าจะซื้อชิ้นหนึ่ง"
+ stewardship_wealth.6001.a.tt_high:0 "ท่านได้รับรูปแกะสลักคุณภาพสูง"
+ stewardship_wealth.6001.a.tt_low:0 "ท่านได้รับรูปแกะสลักคุณภาพต่ำ"
+ stewardship_wealth.6001.b:0 "ข้าสงสัยว่าแผงนี้จ่ายภาษีหรือไม่ รื้อมันทิ้งเสีย!"
+ stewardship_wealth.6001.c:0 "ข้าจะคุยกับ [stall_owner.GetHerHim] และดูว่าข้าจะเรียนรู้อะไรเกี่ยวกับการขายได้บ้าง"
+
+ small_religious_carving:0 "รูปแกะสลักทางศาสนาขนาดเล็ก"
+ small_religious_carving_desc:0 "นี่คือรูปแกะสลัก [stall_owner.GetFaith.ReligiousSymbol] ขนาดเล็ก แต่ประณีตในรูปแบบ[stall_owner.GetFaith.GetReligion.GetAdjectiveNoTooltip]"
+
+# Rogue Administration by Jason Cantalini
+ stewardship_wealth.7000.t:0 "การปกครองอันธพาล"
+ stewardship_wealth.7000.desc:0 "ด้วยพิธีการที่พึงพอใจในตนเองอย่างยิ่ง $knight_culture_player_no_tooltip_lowercase$ ของข้า [enforcer.GetTitledFirstName] กระแทกถุงที่ตุงลงตรงหน้าข้า\n\n"ดูสิ" [enforcer.GetSheHe] กล่าว\n\nข้าเทสิ่งที่อยู่ข้างในออกมา: โลหะมีค่า ของตกทอด เครื่องประดับเล็กๆ น้อยๆ\n\n"ข้าได้ #EMP โน้มน้าว#! สามัญชนบางส่วนของ [victim.GetTitledFirstNamePossessive]" [enforcer.GetFirstNameNoTooltip] ยิ้มกริ่ม "ว่าภาษีของพวกเขามีไว้สำหรับท่าน ใต้เท้าของข้า"\n\nมันเป็นโชคลาภที่ไม่เลวเลย! และยิ่งไปกว่านั้น — ข้าสามารถจินตนาการถึงสีหน้าเคียดแค้นของ [victim.GetTitleAsNamePossessiveNoTooltip] ที่น่ารังเกียจนั้นได้"
+
+ stewardship_wealth.7000.a:0 "วิบัติจงเกิดแก่ [victim.GetFirstNameNoTooltip] ผู้ [victim.Custom2('InsultAdjective', ROOT.Char)]!"
+ stewardship_wealth.7000.b:0 "ข้าสามารถให้เหตุผลกับการรีดไถนี้ได้"
+ stewardship_wealth.7000.b.tt:0 "การหาแพะรับบาป การบิดเบือนความจริง การชดใช้เล็กน้อย: อะไรก็ได้เพื่อลดทอนข้อกล่าวหาเรื่องทรราชย์"
+ stewardship_wealth.7000.c:0 "เอาทรัพย์สมบัตินี้ไป หามาให้ข้าอีก"
+ stewardship_wealth.7000.c.tt:0 "ในอาณาจักรของท่านและของ[victim.GetHersHis] ท่านจะปลดปล่อยผู้บังคับใช้กฎหมายที่ดีที่สุดที่ [ROOT.Char.GetTitleAsNameNoTooltip] จะร้องขอได้!"
+ stewardship_wealth.7000.d:0 "อนิจจา... ของที่ถูกขโมยไปควรถูกส่งคืน"
+ stewardship_wealth.7000.d.tt:0 "การแก้แค้นเป็นสิ่งผิด และอื่นๆ..."
+
+# Beyond Boundaries by Jason Cantalini
+ stewardship_wealth.7001.t:0 "นอกขอบเขต"
+ stewardship_wealth.7001.desc:1 "ไอ้ [thieving_rival.GetTitledFirstName] และพวกลูกสมุนหัวขโมยของ[thieving_rival.GetHerHis]! [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('messenger'))] ของข้า [messenger.GetTitledFirstName] พูดติดอ่างแจ้งข่าวว่า ด้วยความหน้าด้านไร้ยางอาย พวกอันธพาลเหล่านั้นบีบบังคับสามัญชนใน [ROOT.Char.GetCapitalLocation.GetName] ให้มอบทรัพย์สมบัติที่ควรจะเป็นของข้า!\n\n[messenger.GetFirstNameNoTooltip] ได้เตรียมเจ้าหน้าที่ของข้าให้พร้อมเก็บค่าธรรมเนียมตามปกติของเราแล้ว... แต่ข้าก็มองเห็นภาพหญิงม่ายร่ำไห้ เด็กๆ อดอยาก และครอบครัวยากจนถูกขับไล่ออกจากบ้านแล้ว\n\nขอให้คำสาปนับพันตกอยู่กับวิญญาณอันละโมบของ [thieving_rival.GetTitledFirstNamePossessiveNoTooltip]!"
+ stewardship_wealth.7001.tt.crime_alert:0 "[victim.GetTitledFirstName] จะจดจำสิ่งนี้ไว้"
+ stewardship_wealth.7001.justification:0 "[thieving_rival.GetSheHe|U]แพร่กระจายคำโกหกที่ฟังไม่ขึ้นเกี่ยวกับสิทธิ์ของ[thieving_rival.GetHerHis]ในฐานะเจ้าเหนือหัวของข้า แต่ข้ารู้ว่า[thieving_rival.GetSheHe]ได้เอาสิ่งที่ควรเป็นของข้าไป..."
+ stewardship_wealth.7001.unleashed_knights:0 "[thieving_rival.GetSheHe|U]และผู้ติดตามของ[thieving_rival.GetHerHis] พวกโจรชั่วช้า กำลังมีชื่อเสียงฉาวโฉ่ขึ้นทุกวัน..."
+
+ stewardship_wealth.7001.a:0 "ข้ายืนหยัดในสิทธิ์ของข้าที่จะได้รับเงิน"
+ stewardship_wealth.7001.a.tt:0 "ส่งผู้บังคับใช้กฎหมายของท่านไปยังหมู่บ้าน!"
+ stewardship_wealth.7001.b:0 "ความขัดแย้งส่วนตัวของข้าไม่ใช่เรื่องของประชาชนของข้า"
+ stewardship_wealth.7001.b.tt:0 "ยกเว้นภาษีให้แก่เหยื่อของ [thieving_rival.GetFirstNameNoTooltip]"
+
+ stewardship_wealth.2000.t:0 "การชั่งน้ำหนักโอกาส"
+ stewardship_wealth.2000.desc:0 "ข้าเดินไปตามถนนของ [loc_capital_county.GetNameNoTier] พร้อมกับ [ROOT.GetCouncillorPosition( 'councillor_steward' ).GetPositionName] ของข้า เพื่อมองหาโอกาสที่จะแก้ไขคลังที่ค่อนข้างว่างเปล่า เมื่อเรามาถึงโถงชั่งน้ำหนักของตลาด [loc_steward.GetFirstName] ก็เริ่มพูดด้วยเสียงกระซิบ:\n\n"เราสามารถหารายได้เพิ่มอย่างเงียบๆ ได้หากเรา... #EMP สร้างสรรค์ #!กับภาษีของสินค้าที่นำเข้ามาที่นี่ ข้าสามารถจัดหาชุดตุ้มน้ำหนักอีกชุดหนึ่งที่ปรับน้ำหนักเล็กน้อย แต่ยังคงดูเหมือนเดิม ทีนี้ สำหรับสินค้าเดิม พ่อค้าก็จะจ่ายให้เรามากขึ้น! ไม่มีใครควรสงสัยสิ่งใด!\n\nหากท่านต้องการ เราสามารถเปลี่ยนตุ้มน้ำหนักและเฝ้าดูเงินที่ไหลเข้าคลังของท่านได้!""
+ stewardship_wealth.2000.a:0 "เราจะเปลี่ยนตุ้มน้ำหนักคืนนี้"
+ stewardship_wealth.2000.a.tt.success:0 "ตุ้มน้ำหนักถูกเปลี่ยนโดยไม่มีใครสังเกตเห็น"
+ stewardship_wealth.2000.a.tt.failure:0 "แผนการของท่านถูกเปิดโปงแล้ว"
+ stewardship_wealth.2000.b:0 "จำเป็นต้องมีชุดตุ้มน้ำหนักที่ดีกว่านี้จริงๆ"
+ stewardship_wealth.2000.b.tt:0 "แม้ว่าจะทำได้ยาก แต่ทางออกที่เป็นประโยชน์ต่อทั้งคลังของท่านและความต้องการของพ่อค้าก็เป็นไปได้อย่างแน่นอน"
+ stewardship_wealth.2000.b.tt.success:0 "ท่านนำระบบการชั่งน้ำหนักใหม่มาใช้ได้สำเร็จ"
+ stewardship_wealth.2000.b.tt.failure:0 "ระบบการชั่งน้ำหนักใหม่ยังไม่สมบูรณ์แบบนัก"
+ stewardship_wealth.2000.c:0 "ข้าจะเอาสิ่งที่ข้าควรได้ด้วยวิธีแบบเก่า!"
+ stewardship_wealth.2000.c.tt:0 "ท่านใช้กำลังข่มขู่พ่อค้าท้องถิ่นโดยตรงให้จ่ายเงินมากขึ้นเพื่อสิทธิพิเศษในการนำสินค้าผ่านเคาน์ตีนี้"

@@ -1,0 +1,233 @@
+﻿l_english: 
+ ##################################################
+ # #Misc
+
+ fp2_lyonese_monk.0000.t.revealed:0 "คำสอนอันพิสดาร:"
+ fp2_lyonese_monk.0000.t.council:0 "การประชุมใหญ่:"
+ fp2_lyonese_monk_cancel_chain_effect.tt:0 "ในระหว่างความพยายามเข้าจับกุม [acolyte.GetFirstName] ถูกสังหาร"
+ fp2_lyonese_monk.0000.tt.continues_to_teach:0 "[acolyte.GetFirstName] ยังคงสั่งสอนต่อไป"
+ fp2_lyonese_monk.0000.tt.teachings_fade:0 "คำสอนของ [acolyte.GetFirstNamePossessive] จะเลือนหายไป"
+ fp2_lyonese_monk.0000.tt.is_humbled:0 "#EMP [acolyte.GetFirstName] ถูกทำให้ลดทิฐิ#!"
+ fp2_lyonese_monk.0000.tt.is_paused:0 "#EMP [acolyte.GetFirstName] ได้หยุดเพื่อไตร่ตรอง#!"
+ fp2_lyonese_monk.0000.tt.is_emboldened:0 "#EMP [acolyte.GetFirstName] มีความกล้าหาญมากขึ้น#!"
+ fp2_lyonese_monk.0000.tt.favour_elipandics:0 "ฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_elipandic_doctrine').GetBaseName] ชนะการอภิปราย"
+ fp2_lyonese_monk.0000.tt.favour_felicians:0 "ฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_felicitous_doctrine').GetBaseName] ชนะการอภิปราย"
+ fp2_lyonese_monk.0000.tt.favour_radicals:0 "ฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_radical_doctrine').GetBaseName] ชนะการอภิปราย"
+
+ ##################################################
+ # #Setup & Misc
+ 
+ fp2_lyonese_monk.0001.t:0 "ค่ำคืนอันคลุ้มคลั่งด้วยพายุ"
+ fp2_lyonese_monk.0001.desc:0 "สายลมกระหน่ำและร่ำครวญใส่หมู่ศิลาแห่ง [acolyte_host.GetCapitalLocation.GetTitle.GetNameNoTier] เสียงหอนก้องยามค่ำคืนดุจสุนัขล่าเนื้อแห่ง [acolyte_host.GetFaith.NegativeAfterLife] พยายามอย่างบ้าคลั่งที่จะฉีกกระชากข้าออกจากที่มั่นคงของข้า\n\nเสียงเรียกจากห้องนอนอันอบอุ่นของข้ารออยู่ ห่างไกลจากโถงทางเดินที่มีลมโกรกเหล่านี้ แต่... นั่นใช่ประตูห้องโถงหรือไม่? ข้าหันขวับ ตกใจกับเสียงที่ไม่คาดคิด และเผชิญหน้ากับ [acolyte.GetWomanMan] ผู้เปียกปอนและซอมซ่อคนหนึ่ง กำลังโซซัดโซเซเข้ามาในที่แห้ง\n\n"ท่าน-", [acolyte.GetSheHe] ไอออกมา ขากเสลดเปียกชื้นก้อนหนึ่ง "ท่าน [acolyte_host.GetLadyLord] โปรดเมตตาด้วย! พายุนั้นรุนแรงยิ่งนักและข้าเดินทางมาหลายเดือนแล้ว ข้าขอวิงวอนท่าน โปรดอนุญาตให้ข้าได้พักค้างแรมจนกว่าจะรุ่งสางและพายุสงบลงเถิด?"."
+ fp2_lyonese_monk.0001.a:0 "แน่นอน ท่านพักอยู่ได้นานเท่าที่ต้องการ!"
+ fp2_lyonese_monk.0001.b:0 "เจ้าอาจพักอยู่ได้ #EMP เพียง#! คืนเดียว"
+ fp2_lyonese_monk.0001.c:0 "ไม่มีขอทานใน [acolyte_host.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] #EMP ออกไป#!."
+ 
+ fp2_lyonese_monk.0011.t:0 "สหายแห่ง [acolyte_host.Custom2('RelationToMeShort', dead_owner)|U] ของท่าน"
+ fp2_lyonese_monk.0011.desc:0 ""นายท่าน [acolyte_host.GetLadyLord] ขอรับ ขอเวลาสักครู่ได้หรือไม่?" นักบวชเบื้องหน้าข้าเอ่ยถาม "นามของข้าคือ [acolyte.GetFullNameNoTooltip] และข้าเคยเป็นผู้รับใช้ที่ต่ำต้อยของ [acolyte_host.Custom2('RelationToMeShort', dead_owner)] ของท่าน"\n\n"ข้าทราบดีว่าท่านยังคงโศกเศร้า แต่ข้ากับผู้มาก่อนท่านเรามีความเข้าใจอันดีต่อกัน และข้าจำต้องทูลถาม — ท่านจะอนุญาตให้ข้าพำนักอยู่ในราชสำนักของท่าน และสั่งสอนเหล่าข้าราชบริพารของท่านเกี่ยวกับวิถีแห่ง [acolyte.GetFaith.HighGodName] ต่อไปได้หรือไม่?""
+ fp2_lyonese_monk.0011.a:0 "อืม ข้าคิดว่า..."
+ fp2_lyonese_monk.0011.b:0 "เก็บข้าวของของเจ้าเสีย คนพเนจร"
+ 
+ fp2_lyonese_monk.0021.t:0 "จากไปและจบสิ้น"
+ fp2_lyonese_monk.0021.desc.intro:0 "เมื่อปราศจาก [acolyte.GetFullNameNoTooltip] ที่เดินทางรอนแรมในอาณาเขตของข้า ความนิยมในคำสอนของ [acolyte.GetHerHis] ก็เริ่มลดฮวบลง ไร้ผู้เทศนา ก็ไร้ผู้รับฟังคำสอน\n\n"
+ fp2_lyonese_monk.0021.desc.dead:0 "ผลสืบ เนื่องจากการตายของ [acolyte.GetHerHis] เป็นเรื่องเงียบเชียบ ซึ่งข้าสงสัยว่าจะมีผู้ใดจดจำได้ในอีกทศวรรษหรือศตวรรษข้างหน้า"
+ fp2_lyonese_monk.0021.desc.imprisoned:0 "แม้ว่า [acolyte.GetSheHe] จะเพียงแค่ทนทุกข์อยู่ในคุก แต่ความทรงจำของคนส่วนใหญ่นั้นสั้นนัก และมีความรู้สึกถึงความสิ้นสุดอันหนักอึ้งต่อคำตัดสินของ [acolyte.GetHerHis]"
+ fp2_lyonese_monk.0021.desc.gone:0 "ว่า [acolyte.GetSheHe] #EMP ไป#! ที่ใดกันแน่นั้นเป็นคำถามที่ยังไม่มีคำตอบ แต่เป็นคำถามที่ข้าสงสัยว่าคนส่วนใหญ่คงไม่ได้สนใจมากนัก"
+ fp2_lyonese_monk.0021.a:0 "[acolyte.GetSheHe|U] คงไม่ได้สำคัญถึงเพียงนั้นกระมัง..."
+ fp2_lyonese_monk.0021.b:0 "[acolyte.GetSheHe|U] สร้างปัญหามากกว่าคุณประโยชน์อย่างเห็นได้ชัด..."
+ fp2_lyonese_monk.0021.c:0 "ทั้งหมดนี้เพื่อความว่างเปล่ารึ?"
+ 
+ fp2_lyonese_monk.0031.t:0 "ศรัทธาที่แตกสลาย"
+ fp2_lyonese_monk.0031.desc.acolyte_host:0 "การยอมรับแสงสว่างแห่ง [acolyte_host.GetFaith.GetName] ไม่ใช่สิ่งที่ข้าทำอย่างไม่ใส่ใจ และหลายคนไม่พอใจข้าสำหรับการกระทำอันเคร่งศาสนาของข้า\n\n[acolyte.GetFirstName] เป็นคนที่ข้าคาดว่าจะได้ยินคำวิจารณ์มากกว่านี้ แต่แทนที่จะเป็น เช่นนั้น [acolyte.GetSheHe] ก็แค่... หายตัวไป วันหนึ่งอยู่ที่นี่ วันถัดไปก็ไปแล้ว\n\nข้าจำคำพูดสุดท้ายไม่ได้ แต่ข้าจำใบหน้าเศร้าๆ ได้"
+ fp2_lyonese_monk.0031.desc.acolyte:0 "ในบรรดาผู้คนทั้งหมดที่จะเปลี่ยนศาสนา ข้าไม่เคยคาดคิดเลยว่าผู้คลั่งศาสนา เช่น #EMP [acolyte.GetFirstName]#! จะละทิ้ง [acolyte_host.GetFaith.HighGodName] กระนั้น เราอยู่ในยุคสมัยที่แปลกประหลาด และ [acolyte.GetSheHe] ก็ได้ทำ เช่นนั้น\n\nการเทศนาสั่งสอนตามปกติของ [acolyte.GetHerHis|U] ถูกทอดทิ้ง ถูกแทนที่ด้วยความกระตือรือร้นแบบธรรมดาสามัญยิ่งกว่า"
+ fp2_lyonese_monk.0031.a:0 "ข้าไม่ต้องการ [acolyte.GetFirstNameNoTooltip] เมื่อข้ามี [acolyte_host.GetFaith.HighGodName]!"
+ fp2_lyonese_monk.0031.b:0 "[acolyte.GetSheHe|U] เห็นได้ชัดว่าไม่ได้ยึดมั่นอะไรขนาดนั้น"
+ 
+ fp2_lyonese_monk.0041.t:0 "ปัญหาที่ใหญ่กว่า"
+ fp2_lyonese_monk.0041.desc.pope_hope_is_nope:0 "สิ่งที่ไม่อาจคาดคิดได้เกิดขึ้น — การทำลายล้างสันตะสำนักแห่งโรมอย่างสิ้นเชิง ศิลาอันเป็นทั้งรูปธรรมและนามธรรมแห่งคริสตจักรของเราได้ถูกฉีกกระชากออกจากกัน และไม่มีผู้ใดมีเวลาสำหรับคำถามหยุมหยิมเกี่ยวกับรายละเอียดของหลักคำสอน\n\nดวงวิญญาณของผู้ศรัทธาในพระคริสต์ทั้งปวงตกอยู่ในความเสี่ยงตลอดกาลหากปราศจากผู้นำทางจิตวิญญาณที่มั่นคง จะมีสิ่งใดสำคัญไปกว่านั้นอีกเล่า?"
+ fp2_lyonese_monk.0041.desc.schism:0 "ความวุ่นวายเมื่อเร็วๆ นี้ได้สร้างช่องว่างระหว่างเรากับสถาบันสันตะปาปา — เมื่อพิจารณาถึงเรื่องนั้น เราไม่มีเวลาที่จะโต้เถียงเรื่องรายละเอียดหยุมหยิมของหลักคำสอน เราจะสนใจอะไรกับการตีความ ปัญหา หรือเรื่องไร้สาระของพวกเขา ในเมื่อเราไม่ยอมรับอำนาจทางจิตวิญญาณของพวกเขาอีกต่อไป?\n\nแน่นอนว่า ผู้ใดก็ตามที่คิดว่าสิ่งนี้เป็นอื่นใดนอกเสียจากพร ย่อมไม่เป็นที่ต้อนรับในหมู่ชุมชนผู้ศรัทธา"
+ fp2_lyonese_monk.0041.a.pope_hope_is_nope:0 "ผู้ใดจะนำทางเราได้หากปราศจากตัวแทนของพระคริสต์?"
+ fp2_lyonese_monk.0041.a.backup:0 "ตอนนี้เราคงจะมีข้อขัดแย้ง #EMP ใหม่#! ทั้งหมดแล้ว!"
+
+ fp2_lyonese_monk.0051.t:0 "มันเป็นปริศนา"
+ fp2_lyonese_monk.0051.desc:0 "นับตั้งแต่ข้าถูกคุมขัง การติดต่อกับโลกภายนอกก็เบาบางลง ข้อความกระซิบกระซาบและกระดาษโน้ตที่ยับยู่ยี่เป็นครั้งคราวคือทั้งหมดที่ส่งมาถึงข้า และนั่นก็นานๆ ครั้ง\n\nข้อมูลชิ้นสุดท้ายที่ได้มาคือ [acolyte.GetFirstName] ได้หายตัวไปโดยสิ้นเชิง ไม่ชัดเจนว่า [acolyte.GetSheHe] เพียงแค่จากไปในวันหนึ่ง หรือมีสิ่งใดที่น่ากลัวกว่านั้นเกิดขึ้น แต่ไม่ว่าทางใด [acolyte.GetWomanMan] ผู้นั้นก็ได้จากไปแล้ว"
+ fp2_lyonese_monk.0051.a:0 "เกิดอะไรขึ้นกับ [acolyte.GetHerHim] กัน?"
+
+ ##################################################
+ # #Private Teachings
+ 
+ fp2_lyonese_monk.0201.t:0 "เพียงสหายไม่กี่คน"
+ fp2_lyonese_monk.0201.desc:0 "[acolyte.GetFirstName] ได้กลายเป็นส่วนหนึ่งของราชสำนักนับตั้งแต่ [acolyte.GetHerHis] มาถึง ด้วยเสน่ห์อันน่าประหลาด อย่างน้อยก็ในเรื่องเทววิทยา [acolyte.GetSheHe] มักจะสนทนาเล็กๆ น้อยๆ ในมุมอับของป้อมปราการกับข้าราชบริพารคนนั้นหรือ $knight_culture_player_no_tooltip$ คนนี้\n\nดังนั้น ข้าจึงค่อนข้างคาดหวังอยู่แล้วเมื่อ [acolyte.GetSheHe] เข้ามาหาข้าพร้อมกับคำร้องขอห้องเพื่อจัดกลุ่มศึกษาคัมภีร์ [acolyte.GetFaith.random_ReligiousText] ประจำสัปดาห์\n\n"โปรดเถิด ท่าน [acolyte_host.GetTitleAsNameNoTooltip]? มันมีความหมายต่อข้ามาก และมีหลายสิ่งที่ข้าสามารถแบ่งปันกับเหล่าข้าแผ่นดินของท่านเกี่ยวกับวิถีและพระประสงค์ของ [acolyte.GetFaith.HighGodName] ข้าเพียงต้องการการอนุญาตจากท่านและพื้นที่เล็กๆ สำหรับการชุมนุมเท่านั้น"."
+ fp2_lyonese_monk.0201.a:0 "ข้าว่ามันคงไม่เสียหายอะไร..."
+ fp2_lyonese_monk.0201.a.tt:0 "[acolyte.GetFirstNameNoTooltip] จะเริ่มจัดการประชุมศึกษาวันอาทิตย์"
+ fp2_lyonese_monk.0201.b:0 "กลุ่ม #EMP ผู้สมคบคิด#! รึ? ข้าไม่คิด เช่นนั้น!"
+ fp2_lyonese_monk.0201.c:0 "ข้าคิดว่าท่านอยู่เกินเวลาที่ต้อนรับแล้ว [acolyte.GetFirstNameNoTooltip]."
+ 
+ fp2_lyonese_monk.0211.t:0 "[baron.Custom2('AppropriateGreetingPositive', acolyte_host)]"
+ fp2_lyonese_monk.0211.desc:0 "ข้าต้องขอแจ้งให้ท่านทราบด้วยความยินดียิ่งว่า ข้ากำลังจะลาออกจากตำแหน่งผู้ปกครอง [baron_holding.GetNameNoTier] โดยทันที\n\nศรัทธาของข้าเรียกร้องให้ข้ารับใช้ [acolyte.GetFaith.HighGodName] และข้าตั้งใจที่จะใช้ชีวิตที่เหลืออยู่เพื่ออุทิศตนอย่างสมบูรณ์แด่การรับใช้ [acolyte.GetFaith.HighGodHerHis|U] service."
+ fp2_lyonese_monk.0211.a:0 "[baron.GetSheHe] ทำ เช่นนั้น #EMP ได้#! หรือ?"
+ 
+ fp2_lyonese_monk.0221.t:0 "รอยยิ้มแสยะ"
+ fp2_lyonese_monk.0221.desc:0 "ช่างเป็นเสียงผิวปากที่ร่าเริง #EMP อย่างน่ารำคาญใจ#! เสียนี่กระไร กำลังดังสะท้อนมาทางข้า หลังจากเสร็จสิ้นการประชุมสภาอัน #EMP ยาวนาน#! ข้าแทบไม่มีเวลาประมวลผลใดๆ มากไปกว่านั้น ก่อนที่ [courtier.Custom2('MyCharacterIntroduction' , acolyte_host)] จะเลี้ยวหัวมุมมาชนข้าอย่างจัง จนเกือบ ทำให้ข้าล้มลงกับพื้น\n\n"โอ้ ตายจริง ข้าขออภัยอย่างสูง [acolyte_host.GetFirstName]!" [courtier.GetSheHe] giggles. "It's just... it's #EMP such#! a lovely day, isn't it? You can really breath in [courtier.GetFaith.HighGodNamePossessive] creation!".\n\n[courtier.GetWomanMan] offers me [courtier.GetHerHis] hand, grinning ear to ear as [courtier.GetSheHe] does so."
+ fp2_lyonese_monk.0221.a:0 "ดีใจที่ท่านสบายดี [courtier.GetFirstNameNoTooltip]!"
+ fp2_lyonese_monk.0221.b:0 "ข้ารู้สึกสังหรณ์ใจไม่ดีเกี่ยวกับเรื่องนี้..."
+ 
+ fp2_lyonese_monk.0231.t:0 "โห่ไล่บิชอป"
+ fp2_lyonese_monk.0231.desc:0 "ข่าวลือในราชสำนักคือการเทศนาครั้งล่าสุดของ [irate_theocrat.Custom2('MyCharacterIntroduction' , acolyte_host)] ต่อชาวบ้านใน [acolyte_host.GetCapitalLocation.GetTitle.GetNameNoTier] นั้นจบลง #EMP อย่างเลวร้าย#!.\n\nปรากฏว่าเหล่าศาสนิกชนเริ่มขว้างหัวหอมใส่ภายในเวลาไม่กี่นาที ลุกลามไปถึงหัวผักกาดในเวลาต่อมา ก่อนจะจบลงด้วยกะหล่ำปลีลูกใหญ่พอที่เมื่อมันกระแทกเข้าที่ใบหน้าของ [irate_theocrat.GetHerHim] ก็ ทำให้ [irate_theocrat.GetWomanMan] ผู้นั้นล้มลงกับพื้น\n\n[irate_theocrat.GetFirstNameNoTooltip] เศร้าโศกเสียใจนับ แต่นั้นมา และไม่สามารถให้คำอธิบายที่ดีแก่ผู้ใดได้ว่าเหตุใด [irate_theocrat.GetSheHe] จึงก่อให้เกิดความโกรธแค้นขึ้นมาอย่างกะทันหัน เช่นนั้น"
+ fp2_lyonese_monk.0231.a:0 "ผู้คนต้องแสดงความ #EMP เคารพ#! ต่อคริสตจักรมากกว่านี้"
+ fp2_lyonese_monk.0231.b:0 "เห็นได้ชัดว่า [irate_theocrat.GetSheHe] ต้องปรับปรุงคำเทศนาของ [irate_theocrat.GetHerHis]"
+ 
+ fp2_lyonese_monk.0241.t:0 "ความผิดของ [acolyte.GetHerHis|U] ทั้งหมด"
+ fp2_lyonese_monk.0241.desc:0 "ด้วยเสียงคำรามอันดังลั่น [irate_theocrat.Custom2('MyCharacterIntroduction' , acolyte_host)] บุกเข้ามาในห้องของข้า ลาก [acolyte.GetFirstName] มาโดยจับแขนเสื้อคลุมของ [acolyte.GetHerHis]\n\n"ท่าน [acolyte_host.GetTitleAsNameNoTooltip]! ทั้งหมดเป็นฝีมือของเจ้าคนเลวผู้นี้! พวกชาวนาที่ไม่เคารพ พวกข้าราชบริพารที่ #EMP มีสุข#! การหลั่งไหลเข้ามาอย่างประหลาดของเหล่านักบวชชายหญิง! [acolyte.GetWomanMan] ผู้นี้กำลังยัดเยียดคำโป้ปดและพวกนอกรีตใส่หัวพวกเขาอยู่ทุกสัปดาห์ และทำ เช่นนั้นด้วย #EMP ตราประทับของท่าน#!!"\n\n"ท่าน [acolyte_host.GetLadyLord|U] ผู้สูงศักดิ์" [acolyte.GetFirstNameNoTooltip] กล่าวแทรกขึ้น "ข้าคือผู้รับใช้ที่ซื่อสัตย์ของพระคริสต์และ [acolyte_host.GetFaith.GetReligiousHead.GetTitledFirstName] #EMP โปรด#! อย่าตกเป็นเหยื่อของความไม่มั่นคงอันน่าสมเพชของเจ้า #EMP คนบ้าคลั่ง#! ผู้นี้ ซึ่งเพียงแค่ไม่พอใจที่มาตรฐานท้องถิ่นสำหรับนักบวชเพิ่งสูงขึ้นเท่านั้น"."
+ fp2_lyonese_monk.0241.a:0 "ตกลง — เก็บข้าวของของเจ้าเสีย [acolyte.GetFirstNameNoTooltip]."
+ fp2_lyonese_monk.0241.b:0 "ทหาร! จับกุมเจ้าคนนอกรีตชั่วช้านี่!"
+ fp2_lyonese_monk.0241.c:0 "ข้าคิดว่า #EMP ท่าน#! ต่างหากคือตัวปัญหา [irate_theocrat.GetFirstNameNoTooltip]."
+ fp2_lyonese_monk.0241.c.tt:0 "[acolyte.GetFirstNameNoTooltip] จะยังคงสั่งสอนข้าราชบริพารของท่านต่อไป"
+
+ ##################################################
+ # #Public Controversy
+ 
+ fp2_lyonese_monk.0401.t:0 "[pope.Custom2('AppropriateGreetingPositive', acolyte_host)]"
+ fp2_lyonese_monk.0401.desc:0 "เร็วๆ นี้ ข้าได้รับสาส์นอันน่ากังวลเกี่ยวกับคำสอนที่ผิดพลาดในราชสำนักของท่าน\n\nเนื่องจากข้ารู้ว่าท่านเป็น [pope.GetFaith.GetAdherentName] ที่ดี ข้าจึงเชื่อมั่นว่าสาส์นฉบับนี้จะเพียงพอที่จะ ทำให้ท่านทำในสิ่งที่ถูกต้อง และเนรเทศ #EMP [acolyte.GetFirstName]#! ผู้นี้ เพื่อสุขภาพทางจิตวิญญาณของเราทุกคน"
+ fp2_lyonese_monk.0401.a:0 "สันตะสำนักบังคับข้า"
+ fp2_lyonese_monk.0401.b:0 "ข้าจำไม่ได้ว่าเคยขอความเห็นจาก [papal_capital.GetNameNoTierPossessiveNoTooltip]"
+ 
+ fp2_lyonese_monk.0411.t:0 "$fp2_lyonese_monk.0000.t.revealed$ พื้นที่สำหรับสั่งสอน"
+ fp2_lyonese_monk.0411.desc:0 ""ท่าน [acolyte_host.GetLadyLord|U] ขอเวลาสักครู่ได้หรือไม่?" [acolyte.GetFirstName] วิงวอน พลางก้าวออกจากเงาของซุ้มโค้งขณะที่ข้าออกจากโบสถ์น้อยในป้อมปราการ ข้าครุ่นคิดอยู่ครู่หนึ่ง จากนั้นจึงพยักหน้ายินยอม\n\n"ข้ารู้สึกขอบคุณอย่างแท้จริงและสุดซึ้งสำหรับการสนับสนุนและอุปถัมภ์ของท่านในภารกิจของข้าที่จะสั่งสอนเหล่าข้าแผ่นดินของท่านเกี่ยวกับพระวจนะของ [acolyte.GetFaith.HighGodName] แต่ข้าพบว่าตนเองกำลังเผชิญกับขีดจำกัดของสิ่งที่ข้าสามารถทำได้ด้วยห้องเล็กๆ เพียงห้องเดียวและเวลาไม่กี่ชั่วโมงใน แต่ละสัปดาห์".\n\n"ด้วยพระปรีชาญาณและความเอื้อเฟื้ออันใหญ่หลวงของท่าน ท่านจะทรงยินดีมอบอำนาจปกครองเหนือ [acolyte_fief.GetNameNoTier] ให้แก่ข้าได้หรือไม่? ด้วยค่าเช่าจากที่ดินศักดินา ข้าจะสามารถช่วยดวงวิญญาณจากหลายสิบดวงเป็นหลายพันดวงได้!"."
+ fp2_lyonese_monk.0411.a:0 "ข้าคิดว่า... ข้าคิดว่าข้าคงอนุญาตเรื่องนี้ได้..."
+ fp2_lyonese_monk.0411.b:0 "อย่าพูดจาไร้สาระน่า!"
+ fp2_lyonese_monk.0411.b.tt:0 "ความฝันของ [acolyte.GetFirstNamePossessiveNoTooltip] ถูกบดขยี้อย่างสิ้นเชิง"
+ 
+ fp2_lyonese_monk.0421.t:0 "$fp2_lyonese_monk.0000.t.revealed$ อารมณ์ร้อนแรง"
+ fp2_lyonese_monk.0421.desc:0 "แค่อาหารค่ำเงียบๆ มื้อเดียว แค่. มื้อ. เดียว. เท่านั้น คนรับใช้โง่เขลาคนไหนกันที่จัดให้ [irate_theocrat.Custom2('MyCharacterIntroduction' , acolyte_host)] นั่งถัดจาก [acolyte.GetFirstName]?\n\n"#EMP อะไรนะ#! เจ้าเพิ่งพูดว่าอะไร?" [irate_theocrat.GetFirstNameNoTooltip] กรีดร้อง พลางผุดลุกขึ้นยืน ทำให้ผลไม้และขนมปังม้วนกระจัดกระจายไปทั่ว "นั่นคือพระบุตรผู้ทรงดำรงอยู่ชั่วนิรันดร์และมีสารัตถะเดียวกันกับ [irate_theocrat.GetFaith.HighGodName] ที่เจ้ากำลังใส่ร้ายนะ [acolyte.GetWomanMan]!" ห้องทั้งห้องเงียบกริบ ทุกสายตาจับจ้องไปที่เหล่านักบวชที่กำลังโต้เถียงกัน\n\n"ข้าไม่ได้ใส่ร้ายผู้ใด ท่านเพียงแค่ไม่เข้าใจความแตกต่างอันละเอียดอ่อนในหลักเทววิทยาเกี่ยวกับพระคริสต์ของข้า และข้าไม่อาจโทษท่านได้ อย่างน้อย ก็เมื่อพิจารณาถึง..." [acolyte.GetFirstNameNoTooltip] pauses for a moment, "... deficiencies"."
+ fp2_lyonese_monk.0421.a:0 "[irate_theocrat.GetFirstNameNoTooltip] แสดงความสำรวมหน่อย!"
+ fp2_lyonese_monk.0421.b:0 "[acolyte.GetFirstNameNoTooltip] เจ้า #EMP ต้อง#! เคารพอำนาจของ [irate_theocrat.GetHerHis]!"
+ fp2_lyonese_monk.0421.c:0 "พวกท่านสองคนไม่มีอะไรที่เหมือนกันมากกว่าต่างกันหรือ?"
+ 
+ fp2_lyonese_monk.0431.t:0 "[pope.Custom2('AppropriateGreetingPositive', acolyte_host)]"
+ fp2_lyonese_monk.0431.desc.pope.different:0 "บางทีผู้ดำรงตำแหน่งก่อนหน้าข้า"
+ fp2_lyonese_monk.0431.desc.pope.same:0 "บางทีข้า"
+ fp2_lyonese_monk.0431.desc.outro:0 "นั้นไม่ชัดเจนในสาส์นฉบับแรกที่ส่งไป [acolyte.GetFullNameNoTooltip] ถูกกล่าวหาว่าขุดคุ้ยลัทธิที่#EMPแตกแยก#! ซึ่งสมควรถูกเผาทิ้งไปพร้อมกับผู้สนับสนุนที่น่าชังของมันใน [pope.GetFaith.NegativeAfterLife2] จงส่งตัว [acolyte.GetHerHim] มาให้ข้าตัดสินโทษ #EMPเดี๋ยวนี้#! มิฉะนั้นก็จงเสี่ยงกับการถูกตำหนิ"
+ fp2_lyonese_monk.0431.a:0 "การ ทำให้บัลลังก์แห่งนักบุญเปโตรขุ่นเคืองไม่ใช่เรื่องฉลาด..."
+ fp2_lyonese_monk.0431.b:0 "บางทีอาจมีทางสายกลางในเรื่องนี้"
+ fp2_lyonese_monk.0431.b.tt.success:0 "[pope.GetTitledFirstNameNoTooltip] คลายความโกรธลงบ้าง"
+ fp2_lyonese_monk.0431.b.tt.failure:0 "ข้อโต้แย้งอันงุ่มง่ามของท่าน ทำให้พระสันตะปาปาทรงพระพิโรธ"
+ fp2_lyonese_monk.0431.c:0 "บัดซบเอ๊ย ข้าคือ [acolyte_host.GetTitleAsNameNoTooltip]!"
+ 
+ fp2_lyonese_monk.0441.t:0 "$fp2_lyonese_monk.0000.t.revealed$ สภาแห่ง [council_1_venue.GetNameNoTierNoTooltip]"
+ fp2_lyonese_monk.0441.desc:0 "[council_1_venue.GetNameNoTier] #EMPอัดแน่น#! ไปด้วยเหล่านักบวชและผู้คงแก่เรียน ทั้งหมดอยู่ที่นั่นเพื่อเป็นสักขีพยานในการโต้วาทีสาธารณะระหว่าง [acolyte.GetFullNameNoTooltip] และ [irate_theocrat.Custom2('MyCharacterIntroduction' , acolyte_host)] ทั้งคู่ต่างมุ่งมั่นที่จะแสดงข้อผิดพลาดที่พวกเขาเห็นว่าชัดเจนในคำสอนของอีกฝ่าย\n\nสองสามวันแรกดูจะไม่เป็นผลดีต่อ [irate_theocrat.GetFirstNameNoTooltip] นัก แม้ว่า [irate_theocrat.GetHerHis] จะพยายามอย่างที่สุดที่จะแสดงให้เห็นว่าเทววิทยาของ [acolyte.GetFirstNamePossessiveNoTooltip] นั้นมีข้อบกพร่อง โดยเน้นย้ำมากเกินไปถึงองค์ประกอบความเป็นมนุษย์ในตัวตนของพระเยซู การรวมตัวของ [acolyte.GetFaith.PriestNeuterPlural] ในภูมิภาคดูเหมือนจะไม่สนใจในข้อโต้แย้งของ [irate_theocrat.GetHerHis]\n\n[acolyte.GetFirstNameNoTooltip] ในทางตรงกันข้าม กลับมั่นใจอย่างมากในแนวทางของ [acolyte.GetHerHis] จนถึงขั้นที่ [acolyte.GetSheHe] เชิญข้าให้ไปดูแลการกล่าวสรุป เพื่อมอบความชอบธรรมทางโลกให้กับงานที่เดิมทีเป็นเรื่องทางจิตวิญญาณ"
+ fp2_lyonese_monk.0441.a:0 "เอาล่ะ ถ้าพวกเขาได้ร้องขอข้ามา..."
+ fp2_lyonese_monk.0441.b:0 "เรื่องเทววิทยาไม่ใช่ธุระของข้า"
+ fp2_lyonese_monk.0441.c:0 "ข้าปล่อยให้เรื่องนี้เลยเถิดไปไกลเกินไปแล้ว!"
+
+ ##################################################
+ # #Schism
+
+ fp2_lyonese_monk.0601.t:0 "[pope.Custom2('AppropriateGreetingNegative', acolyte_host)]"
+ fp2_lyonese_monk.0601.desc:0 "ประดุจสุนัขที่หวนกลับไปหาอาเจียนของมัน คนโง่เขลาย่อมกลับไปหานอกรีตแห่ง [GetFaithByKey('adoptionist').GetName] เสมอ ด้วยพระคุณทั้งปวงของพระเยซูและนักบุญเปโตร ข้า#EMPบัญชา#!ให้เจ้าส่งตัว [acolyte.GetFullNameNoTooltip] ผู้นอกรีตมาเพื่อรับการประณาม — จงสำนึกผิดบัดนี้ แล้วความรักอันไม่มีที่สิ้นสุดของคริสตจักรจะให้อภัยเจ้า แต่หากยังดึงดันกับความเชื่อนอกคอกนี้ เจ้าจะถูก#EMPลงทัณฑ์#!ไปพร้อมกับ [acolyte.GetHerHim]"
+ fp2_lyonese_monk.0601.a:0 "ข้าทำได้เพียงทูลขอการอภัยโทษจาก [acolyte_host.GetFaith.HighGodNamePossessive]"
+ fp2_lyonese_monk.0601.b:0 "ข้าได้รับ #EMP การแต่งตั้ง#! โดย [acolyte_host.GetFaith.HighGodName]!"
+ 
+ fp2_lyonese_monk.0611.t:0 "$fp2_lyonese_monk.0000.t.revealed$ ความตึงเครียดขั้นสูง"
+ fp2_lyonese_monk.0611.desc:0 ""พวกนอกรีต! พวกโป้ปด! พวก ทำให้มัวหมอง!"\n\n"พวกนอกศาสนา! พวกโง่เขลา! พวกบูชารูปเคารพ!"\n\nจากบนกำแพงของป้อมปราการใน [rioting_county.GetNameNoTier] ข้ามองออกไปยังฝูงชนสองกลุ่มที่เป็นคู่แข่งกัน ทั้งชาวเมืองและชาวนา แต่ละฝ่ายต่างสาดวาจาพิษใส่กัน เหล่าศิษย์และผู้ติดตามของ [acolyte.GetFirstName] กำลังเผชิญหน้ากับฝูงชนที่เป็นปฏิปักษ์\n\nระหว่างทั้งสองกลุ่มมีแถวทหารองครักษ์ของข้าคอยกั้นอยู่ ทำให้พวกเขายังคงรักษาระยะห่างไว้ได้ แต่ความตึงเครียดใกล้จะถึงจุดเดือดแล้ว"
+ fp2_lyonese_monk.0611.a:0 "ข้าสามารถคลี่คลายสถานการณ์นี้ได้"
+ fp2_lyonese_monk.0611.b:0 "โปรดเถิด เหล่าข้าแผ่นดินของข้า ใจเย็นๆ!"
+ fp2_lyonese_monk.0611.b.tt.success:0 "ท่านคลี่คลายสถานการณ์ได้"
+ fp2_lyonese_monk.0611.b.tt.failure:0 "ความรุนแรงปะทุขึ้นอยู่ดี"
+ fp2_lyonese_monk.0611.c:0 "ไปเอาดาบของข้ามา เราจะสลายพวก #EMP กบฏ#! เหล่านี้"
+ fp2_lyonese_monk.0611.c.tt:0 "ท่านเข้าข้างพวกคลั่งศาสนานอกรีต"
+ fp2_lyonese_monk.0611.d:0 "พวกนอกรีตหรือ? ในดินแดน #EMP ของข้า#! เนี่ยนะ?"
+ fp2_lyonese_monk.0611.d.tt:0 "ท่านเข้าข้างพวกคลั่งศาสนาฝ่ายถูกต้อง"
+ fp2_lyonese_monk.0611.e:0 "ปิดประตูเมือง"
+ 
+ fp2_lyonese_monk.0621.t:0 "$fp2_lyonese_monk.0000.t.revealed$ การร้องเรียนอย่างเป็นทางการ"
+ fp2_lyonese_monk.0621.desc:0 ""ข้า แต่ฝ่าบาท" [zealous_vassal.GetTitledFirstName] วิงวอน "ข้ามิใช่ข้าหลวงผู้สวามิภักดิ์ของท่านหรือ? ข้ามิได้เป็นผู้สนับสนุนที่ภักดีและซื่อสัตย์ต่อการปกครองของท่านเสมอมาหรือ? ข้าขอวิงวอนท่าน โปรดอย่าได้ตาม... ตาม #EMP หัวหน้านอกรีต#! ผู้นี้ ไปในเส้นทางที่ข้ามิอาจตามไปได้!".\n\n"อย่าไปฟัง [zealous_vassal.GetWomanMan] ผู้นี้เลย ท่าน [acolyte_host.GetTitleAsNameNoTooltip] ของข้า" [acolyte.GetFirstName] กระซิบจากด้านหลังข้า "เป็นที่ทราบกันดีว่า [zealous_vassal.GetSheHe] เป็นเพียงหมากตัวหนึ่งของ [papal_capital.GetNameNoTier] พยายามที่จะเทยาพิษลับๆ เข้าไปในความคิดของท่าน".\n\n"หุบปากของเจ้าเสีย มิ เช่นนั้นข้าจะตัดลิ้นเจ้าออกมา เจ้างูพิษ!" [zealous_vassal.GetFirstNameNoTooltip] คำราม"
+ fp2_lyonese_monk.0621.a:0 "[pope.GetTitledFirstNameNoTooltip] ยังเกลี้ยกล่อมข้าไม่ได้ แล้วท่านคาดหวังว่าจะทำได้อย่างไร?"
+ fp2_lyonese_monk.0621.a.tt.success:0 "ท่านสร้างความกังขาต่อข้อโต้แย้งของ [zealous_vassal.GetHerHis]"
+ fp2_lyonese_monk.0621.a.tt.failure:0 "[zealous_vassal.GetFirstNameNoTooltip] เพียงแค่โกรธจัด"
+ fp2_lyonese_monk.0621.b:0 "ข้าหลวงรึ? เจ้ามันก็แค่พวกไม่พอใจ!"
+ fp2_lyonese_monk.0621.c:0 "[zealous_vassal.GetTitledFirstNameNoTooltip] พูดถูก เรื่องนี้มันเลยเถิดไปไกลเกินไปแล้ว"
+ 
+ fp2_lyonese_monk.0631.t:0 "[neighbouring_ruler.Custom2('AppropriateGreetingNegative', acolyte_host)]"
+ fp2_lyonese_monk.0631.desc:0 "ข้าเขียนมาเพื่อแจ้งให้ท่านทราบ ด้วยใจอันดีงามของข้า ว่า [pope.GetTitledFirstName] เพิ่งจะมอบเอกสารสิทธิ์ความเป็นเจ้าของ [acolyte_host.GetPrimaryTitle.GetNameNoTier] อย่างสมบูรณ์และ #EMP ถูกต้องตามกฎหมาย#! ให้แก่ข้า\n\nเมื่อข้ามาตรวจสอบทรัพย์สินใหม่ของข้า ข้าเชื่อว่าท่านจะส่งมอบมันให้โดยไม่ขัดขืน"
+ fp2_lyonese_monk.0631.a:0 "น่าขุ่นเคืองยิ่งนัก!"
+ 
+ fp2_lyonese_monk.0641.t:0 "$fp2_lyonese_monk.0000.t.revealed$ เป็นเพียงมนุษย์"
+ fp2_lyonese_monk.0641.desc:0 "ข้ามีศัตรูอยู่รอบด้าน ข้าหลวงที่ไม่ภักดี, สันตะปาปาผู้เกรี้ยวกราด, เหล่าไพร่ที่พร้อมจะเชือดคอกันเอง... มันแทบจะรู้สึกเหมือนว่า [acolyte_host.GetPrimaryTitle.GetNameNoTier] กำลังจะสลายไปรอบตัวข้า ถูกฉีกกระชากด้วยรายละเอียดปลีกย่อยทางเทววิทยาและการต่อสู้แย่งชิงอำนาจเล็กๆ น้อยๆ ด้วยความสิ้นหวัง ข้าฟุบลงบนโต๊ะทำงาน\n\n"นายท่าน [acolyte_host.GetTitleAsNameNoTooltip]" [acolyte.GetFullNameNoTooltip] พึมพำขณะยืนอยู่หลังเก้าอี้ของข้า ข้าไม่แม้ แต่จะได้ยินเสียง [acolyte.GetHerHim] เข้ามา "ดูเหมือนว่า แม้เราจะพยายามอย่างที่สุดแล้ว [pope.GetTitledFirstName] และพรรคพวกของ [pope.GetHerHis] ก็ยังปฏิเสธที่จะประนีประนอมในแง่มุมใดๆ ของหลักคำสอนที่ผิดพลาดของพวกเขา"\n\n"แต่ข้าก็สงสัย... ดูเหมือนพวกเขาจะ#EMPหวาดกลัว#!ความจริงที่เราอาจค้นพบจากการตั้งคำถามถึงการตีความพระคัมภีร์ของพวกเขา หากคนโง่เขลาและผู้บูชารูปเคารพ เช่นนี้ยืนกรานที่จะประณามเราว่าเป็น [GetFaithByKey('adoptionist').GetAdherentNamePlural] แล้วนั่นจะเป็นการประณามที่แท้จริงได้หรือ? บางที [acolyte.GetFaith.HighGodName] อาจกำลัง#EMPเปิดเผย#! [acolyte.GetFaith.HighGodHerselfHimself|U] ผ่านเสียงร้องโหยหวนของพวกเขาก็เป็นได้?""
+ fp2_lyonese_monk.0641.a:0 "ใช่... #EMP ใช่#! ทำไมจะไม่ล่ะ? หากพวกเขา #EMP ตั้งใจ#! ที่จะกล่าวหาเรานัก"
+ fp2_lyonese_monk.0641.a.tt.hidden_convert.character:0 "เครือข่ายผู้ศรัทธาที่ซ่อนเร้นของ [acolyte.GetFirstNamePossessiveNoTooltip]"
+ fp2_lyonese_monk.0641.a.tt:0 "จะมีการเรียกประชุมใหญ่ของสงฆ์"
+ fp2_lyonese_monk.0641.b:0 "เจ้างูพิษ! เจ้าวางแผนเรื่องนี้มาตลอด!"
+
+ ##################################################
+ # #Council
+
+ fp2_lyonese_monk.0801.t.first:0 "สภาแห่ง [council_2_venue.GetNameNoTierNoTooltip]"
+ fp2_lyonese_monk.0801.t.second:0 "สภาครั้งที่สองแห่ง [council_2_venue.GetNameNoTierNoTooltip]"
+ fp2_lyonese_monk.0801.desc.intro:0 "ศรัทธาที่เพิ่งถือกำเนิดเรียกร้องให้มีการอภิปราย ดังนั้น [acolyte.GetFirstName] จึงได้รวบรวมการประชุมใหญ่ของเหล่านักบวชผู้ทรงอิทธิพล ซึ่งเห็นใจในเจตนารมณ์ของเรา มีสามค่ายหลักครอบงำอยู่ ต่างแย่งชิงอำนาจกันในห้องโถงของข้าขณะที่เราเตรียมหารือเกี่ยวกับหลักคำสอนสำหรับขบวนการของเรา\n\nฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_elipandic_doctrine').GetBaseName] สนับสนุนการตีความที่ละเอียดอ่อน แต่แน่วแน่ ประนีประนอมกับประเด็นดั้งเดิมเกี่ยวกับตรีเอกานุภาพหลายประการ ฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_felicitous_doctrine').GetBaseName] เข้มงวดกว่า แต่เน้นไปที่การปฏิบัติได้จริงของความเชื่อในโลกที่ไม่เป็นมิตร ฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_radical_doctrine').GetBaseName] ชนกลุ่มน้อยเต็มไปด้วยความโกรธแค้นที่แทบจะปิดไม่มิด มองว่าศาสนาดั้งเดิมไม่ต่างอะไรกับลัทธินอกศาสนาที่แอบแฝงอยู่\n\nโดยอ้างว่าช่วงเวลาของ [acolyte.GetHerHis] ในราชสำนักของข้าได้สอน [acolyte.GetHerHim] ถึงคุณค่าของ"
+ fp2_lyonese_monk.0801.desc.elipandic:0 "ถกเถียงและความแน่วแน่ [acolyte.GetFirstNameNoTooltip] เข้าข้าง [GetFaithDoctrine('special_doctrine_adoptionist_school_elipandic_doctrine').GetBaseName]"
+ fp2_lyonese_monk.0801.desc.felicitous:0 "ความถ่อมตนและการปฏิบัติได้จริง [acolyte.GetFirstNameNoTooltip] เข้าข้าง [GetFaithDoctrine('special_doctrine_adoptionist_school_felicitous_doctrine').GetBaseName]"
+ fp2_lyonese_monk.0801.desc.radical:0 "ไฟแห่งความปรารถนาและความดุดัน [acolyte.GetFirstNameNoTooltip] เข้าข้าง [GetFaithDoctrine('special_doctrine_adoptionist_school_radical_doctrine').GetBaseName]"
+ fp2_lyonese_monk.0801.tt.invalidation_warning:0 "#WEAK หากข้าถูก [imprisoned|E] และไม่สามารถเสร็จสิ้นการประชุมใหญ่ได้ ทัศนะของ [acolyte.GetFirstNamePossessiveNoTooltip] จะมีอำนาจเหนือกว่า#!"
+ fp2_lyonese_monk.0801.a:0 "โดยธรรมชาติแล้ว ข้าจะรับบทบาทนำในการอภิปราย"
+ fp2_lyonese_monk.0801.a.tt:0 "ท่านเข้าร่วมการประลอง [learning|E] เพื่อแสดงประเด็นของท่าน"
+ fp2_lyonese_monk.0801.b:0 "อิทธิพลของข้าจะสัมผัสได้มากกว่าเห็น..."
+ fp2_lyonese_monk.0801.b.tt:0 "ท่านใช้ [piety_i]#N [EmptyScope.ScriptValue('fp2_lyonese_monk_conclave_cost_value')|0]#! [piety|E] ต่อการเลือกที่แน่วแน่ แต่ละครั้ง #WEAK แต่ไม่สามารถใช้ $game_concept_piety$ ที่ท่านไม่มีได้#!"
+ fp2_lyonese_monk.0801.c:0 "นี่เป็นเรื่องของเหล่านักบวชเท่านั้น"
+ fp2_lyonese_monk.0801.c.tt:0 "การประชุมใหญ่จะถูกตัดสินโดยปราศจากข้อมูลจากท่าน"
+ 
+ fp2_lyonese_monk.0811.t:0 "$fp2_lyonese_monk.0000.t.council$ พระบิดาและพระบุตร"
+ fp2_lyonese_monk.0811.desc:0 "คำถามที่ชัดเจนที่สุดในวาระการประชุมคือเรื่องของสารัตถะเดียวกัน หรือว่าพระเยซูทรงสามารถดำรงพระชนม์ชีพที่มีความหมายในฐานะมนุษย์ผู้ทนทุกข์และดำรงอยู่เป็นพระบุคคลอันศักดิ์สิทธิ์ชั่วนิรันดร์ได้อย่างไร\n\nฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_elipandic_doctrine').GetBaseName] โต้แย้งว่าทั้งสองไม่ได้ขัดแย้งกัน ในขณะที่ฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_felicitous_doctrine').GetBaseName] เรียกร้องให้มีการแยกแยะอย่างชัดเจน ซึ่งไม่ ทำให้ความเป็นพระเจ้าของพระบุตรเป็นโมฆะ เพียง แต่ลดทอนให้อยู่ภายใต้พระบิดามากขึ้น\n\nสมาชิกของฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_radical_doctrine').GetBaseName] ขว้างปาผลไม้และกรีดร้องว่าประเด็นนี้เป็นเพียงการแสดงปาหี่ที่ไร้ความหมาย"
+ fp2_lyonese_monk.0811.a:0 "สถานการณ์มีความละเอียดอ่อน..."
+ fp2_lyonese_monk.0811.a.tt.success:0 "ท่านโน้มน้าว [acolyte_host.GetFaith.PriestNeuterPlural] ได้"
+ fp2_lyonese_monk.0811.a.tt.failure:0 "เหล่านักบวชเย้ยหยันท่าน"
+ fp2_lyonese_monk.0811.b:0 "ไม่ใช่เรื่องน่าอับอายที่จะได้รับเลือกจาก [acolyte.GetFaith.HighGodName]."
+ fp2_lyonese_monk.0811.b.tt.success:0 "ท่านโน้มน้าว [acolyte_host.GetFaith.PriestNeuterPlural] ได้"
+ fp2_lyonese_monk.0811.b.tt.failure:0 "เหล่านักบวชเย้ยหยันท่าน"
+ fp2_lyonese_monk.0811.c:0 "การเคย #EMP เป็น#! มนุษย์ ย่อมกีดกันการเป็นพระเจ้า #EMP ชั่วนิรันดร์#!"
+ fp2_lyonese_monk.0811.c.tt.success:0 "ท่านโน้มน้าว [acolyte_host.GetFaith.PriestNeuterPlural] ได้"
+ fp2_lyonese_monk.0811.c.tt.failure:0 "เหล่านักบวชเย้ยหยันท่าน"
+ fp2_lyonese_monk.0811.d:0 "ข้าไม่มีความเห็นในเรื่องนี้"
+ 
+ fp2_lyonese_monk.0821.t:0 "$fp2_lyonese_monk.0000.t.council$ การปฏิบัติได้จริง ปะทะ หลักการ"
+ fp2_lyonese_monk.0821.desc:0 "การอภิปรายของการประชุมใหญ่ได้หันไปสู่ประเด็นเรื่องวิธีการใช้ชีวิตและนมัสการในโลกที่ดูหมิ่น [acolyte_host.GetFaith.GetName] ว่าเป็นการลดทอนจนถึงขั้นเป็นพวกนอกรีตอย่างยิ่ง\n\nประการแรกและสำคัญที่สุด ฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_felicitous_doctrine').GetBaseName] ยืนกรานว่าความจริงภายในย่อมเหนือกว่าคำโกหกภายนอก โดยอ้างอิงถึง เฟลิกซ์แห่งอูร์เจล (Felix of Urgell) ผู้เป็นชื่อนิกาย ซึ่งได้ทำการกลับคำให้การเท็จ #EMP หลายต่อหลายครั้ง#! และการกระทำนั้นก็ ทำให้เขามีอายุยืนยาว\n\nเพื่อนนักบวชของพวกเขาในฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_elipandic_doctrine').GetBaseName] ประณามสิ่งนี้ว่าเป็นความขี้ขลาดที่ลบหลู่ศาสนา โดยเสนอว่าการอภิปรายและการถกเถียงเป็นหนทางเดียวที่จะบรรลุความเคารพได้ ในขณะที่ฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_radical_doctrine').GetBaseName] คุยโวว่าอำนาจทางโลก #EMP เท่านั้น#! ที่สามารถปกป้องผู้ศรัทธาได้"
+ fp2_lyonese_monk.0821.a:0 "การประนีประนอมกับส่วนที่เหลือของคริสตจักรเป็นสิ่งสำคัญ"
+ fp2_lyonese_monk.0821.a.tt.success:0 "ท่านโน้มน้าว [acolyte_host.GetFaith.PriestNeuterPlural] ได้"
+ fp2_lyonese_monk.0821.a.tt.failure:0 "เหล่านักบวชเย้ยหยันท่าน"
+ fp2_lyonese_monk.0821.b:0 "การปฏิบัติได้จริงนั้นมีหลักการในตัวมันเอง"
+ fp2_lyonese_monk.0821.b.tt.success:0 "ท่านโน้มน้าว [acolyte_host.GetFaith.PriestNeuterPlural] ได้"
+ fp2_lyonese_monk.0821.b.tt.failure:0 "เหล่านักบวชเย้ยหยันท่าน"
+ fp2_lyonese_monk.0821.c:0 "ศรัทธาที่ซ่อนเร้นคือศรัทธาที่ไร้ ซึ่งไฟ!"
+ fp2_lyonese_monk.0821.c.tt.success:0 "ท่านโน้มน้าว [acolyte_host.GetFaith.PriestNeuterPlural] ได้"
+ fp2_lyonese_monk.0821.c.tt.failure:0 "เหล่านักบวชเย้ยหยันท่าน"
+ fp2_lyonese_monk.0821.d:0 "ดูเหมือนว่านี่จะเป็นไปตามสถานการณ์..."
+
+ fp2_lyonese_monk.0831.t:0 "$fp2_lyonese_monk.0000.t.council$ พระเจ้าองค์เดียว"
+ fp2_lyonese_monk.0831.desc:0 "การประชุมใหญ่ดำเนินมาถึงบทสรุปอันร้อนแรง มีทั้งการทะเลาะวิวาทเล็กน้อยและการโต้เถียงอย่างเผ็ดร้อนเกิดขึ้นทั่ว [council_2_venue.GetNameNoTier] ขณะที่ทั้งสามกลุ่มนักบวชต่างต่อสู้ทั้งทางกายและทางความคิดเพื่อความเชื่อของตน\n\nหัวใจของการอภิปรายอัน #EMP มีชีวิตชีวา#! นี้ คือพื้นฐานที่เรียบง่าย\n\nฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_radical_doctrine').GetBaseName] ยืนกรานในสิ่งที่พวกเขามองว่าเป็นเอกเทวนิยมอันบริสุทธิ์ ฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_felicitous_doctrine').GetBaseName] ให้ความสำคัญอย่างยิ่งกับพระบิดา แต่ไม่ได้วิพากษ์วิจารณ์อย่างโจ่งแจ้งตามที่พวกรุนแรงเรียกร้อง และฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_elipandic_doctrine').GetBaseName] ยังคงรักษาแนวคิดตรีเอกานุภาพอย่างเปิดเผยไว้หลายประการ ซึ่งฝ่ายอื่นมองว่าเป็นเรื่องน่ารังเกียจ"
+ fp2_lyonese_monk.0831.a:0 "พระบิดา พระบุตร และพระจิต ยังคงเป็นองค์เดียวกัน"
+ fp2_lyonese_monk.0831.a.tt.success:0 "ท่านโน้มน้าว [acolyte_host.GetFaith.PriestNeuterPlural] ได้"
+ fp2_lyonese_monk.0831.a.tt.failure:0 "เหล่านักบวชเย้ยหยันท่าน"
+ fp2_lyonese_monk.0831.b:0 "การแยกระหว่างพระบิดาและพระบุตรไม่ได้ลดทอนคุณค่าของฝ่ายใดฝ่ายหนึ่ง"
+ fp2_lyonese_monk.0831.b.tt.success:0 "ท่านโน้มน้าว [acolyte_host.GetFaith.PriestNeuterPlural] ได้"
+ fp2_lyonese_monk.0831.b.tt.failure:0 "เหล่านักบวชเย้ยหยันท่าน"
+ fp2_lyonese_monk.0831.c:0 "ความเป็นใหญ่ของพระบิดานั้นไม่เปลี่ยนแปลง"
+ fp2_lyonese_monk.0831.c.tt.success:0 "ท่านโน้มน้าว [acolyte_host.GetFaith.PriestNeuterPlural] ได้"
+ fp2_lyonese_monk.0831.c.tt.failure:0 "เหล่านักบวชเย้ยหยันท่าน"
+ fp2_lyonese_monk.0831.d:0 "เราแตกแยกกันตามแนวหลักคำสอนเร็วเพียงนี้เชียวหรือ?"
+ 
+ fp2_lyonese_monk.0841.t:0 "$fp2_lyonese_monk.0000.t.council$ จากปากเหว"
+ fp2_lyonese_monk.0841.desc.intro:0 "ในวันนี้ หลักความเชื่อ [acolyte_host.GetFaith.GetAdjective] #EMP ใหม่#! ได้ถือกำเนิดขึ้น! "
+ fp2_lyonese_monk.0841.desc.pluralist:0 "เมื่อได้ทำความเข้าใจกับความจำเป็นในการยอมรับผู้อื่นภายในดินแดนของเรา,"
+ fp2_lyonese_monk.0841.desc.righteous:0 "เมื่อยังคงแน่วแน่ในการจัดการกับผู้อื่นภายในดินแดนของเรา,"
+ fp2_lyonese_monk.0841.desc.fundamentalist:0 "เมื่อได้ตัดสินใจที่จะเปลี่ยนศาสนาผู้ที่ยังไม่รอดภายในดินแดนของเรา,"
+ fp2_lyonese_monk.0841.desc.sanctioned_false_conversions:0 "พวกเราไม่เห็นว่าจะมีปัญหาอันใดในการปฏิบัติอย่างยืดหยุ่นเมื่อสถานการณ์พลิกผัน"
+ fp2_lyonese_monk.0841.desc.religious_law:0 "อย่างไรก็ตาม พวกเรายังคงมุ่งมั่นที่จะยุติข้อพิพาททางเทววิทยาของพวกเราอย่างเปิดเผย"
+ fp2_lyonese_monk.0841.desc.pursuit_of_power:0 "พวกเราไม่เห็นเหตุผลใดที่จะไม่พยายามอย่างเต็มที่เพื่อ #EMP ขยาย#! ดินแดนเหล่านั้นไม่ว่าจะต้องแลกด้วยสิ่งใดก็ตาม"
+ fp2_lyonese_monk.0841.desc.felicitous:0 "\n\nหลังจากการถกเถียงอย่างดุเดือด ในที่สุดวาทศิลป์อันยอดเยี่ยมของฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_felicitous_doctrine').GetBaseName] ก็ได้รับชัยชนะ"
+ fp2_lyonese_monk.0841.desc.elipandic:0 "\n\nผ่านการถกเถียงอย่างมีสติสัมปชัญญะ เหล่าผู้มีสติปัญญาเยือกเย็นของฝ่าย [GetFaithDoctrine('special_doctrine_adoptionist_school_elipandic_doctrine').GetBaseName] ได้ก้าวขึ้นมาเป็นผู้ชนะ"
+ fp2_lyonese_monk.0841.desc.radical:0 "\n\nผ่านการถกเถียงอันไร้ความหมายเหล่านี้ทั้งหมด มีเพียงพวกหัวรุนแรงแห่ง [GetFaithDoctrine('special_doctrine_adoptionist_school_radical_doctrine').GetBaseName] เท่านั้นที่ยังคงมีวิสัยทัศน์ที่ชัดเจน และบัดนี้พวกเราต่างเฝ้ารอให้พวกเขาเป็นผู้นำ"
+ fp2_lyonese_monk.0841.desc.outro:0 "\n\nบัดนี้ เราไม่ใช่เพียงความฝันของนักบวชพเนจรผู้โดดเดี่ยวอีกต่อไป บัดนี้เราคือชุมชนที่มีชีวิตชีวาและเข้มแข็ง และเป็นชุมชนที่ชาวคริสต์ทั้งมวลจะยอมรับในไม่ช้าอย่างแน่นอน"
+ fp2_lyonese_monk.0841.a:0 "ปล่อยให้พวกเขาเรียกเราว่าพวกนอกรีต เราเพียงแค่มีความละเอียดอ่อนที่พวกเขาขาดไป"
+ fp2_lyonese_monk.0841.b:0 "คำพูดของเราสมเหตุสมผล การกระทำของเราก็ เช่นกัน"
+ fp2_lyonese_monk.0841.c:0 "จงดูชาวคริสต์จอมปลอมเหล่านี้และการนับถือพระเจ้าหลายองค์ของพวกเขาถูกเปิดโปง!"
+ fp2_lyonese_monk.0841.d:0 "ข้าเพียงหวังว่าเราได้เลือกสิ่งที่ถูกต้องแล้ว"

@@ -1,0 +1,22 @@
+﻿l_english: 
+
+ TRAIT_FLAG_DESC_can_foment_revolt_interaction:0 "ปลดล็อก [interaction|E] [incite_revolts_interaction|E]"
+ TRAIT_FLAG_DESC_can_request_incursion_interaction:0 "ปลดล็อก [interaction|E] [fp3_request_turkic_invasion_interaction|E]"
+ TRAIT_FLAG_DESC_can_change_to_iranian_faith_decision:0 "ปลดล็อก [decision|E] เพื่อค้นหา [faith|E] ใหม่"
+ TRAIT_FLAG_DESC_can_use_install_loyalist_cb:0 "ปลดล็อก [casus_belli|E] [fp3_install_loyalist_cb|E]"
+ TRAIT_FLAG_DESC_can_use_demand_submission_interaction:0 "ปลดล็อก [interaction|E] [fp3_demand_submission_interaction|E]"
+ trait_fp3_struggle_detractor:0 "ผู้ต่อต้านรัฐเคาะลีฟะฮ์"
+ trait_fp3_struggle_detractor_desc:0 "ตัวละครนี้เชื่อว่าสถานที่ของเคาะลีฟะฮ์ อย่างดีที่สุดคือแบกแดด และ #EMP เพียงแค่#! แบกแดดเท่านั้น"
+ trait_fp3_struggle_detractor_non_orthodox_sunni_character_desc:0 "ในฐานะ [ROOT.GetCharacter.GetFaith.GetAdherentName] จุดยืนของ [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] ต่อเคาะลีฟะฮ์สุหนี่เป็นเพียงพิธีการมากกว่าการตัดสินใจโดยเจตนา"
+ trait_fp3_struggle_detractor_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] เชื่อว่าสถานที่ของเคาะลีฟะฮ์ อย่างดีที่สุดคือแบกแดด และ #EMP เพียงแค่#! แบกแดดเท่านั้น"
+ trait_fp3_struggle_supporter:0 "ผู้สนับสนุนอำนาจแห่งเคาะลีฟะฮ์"
+ trait_fp3_struggle_supporter_desc:0 "ตัวละครนี้เชื่อว่ารัฐเคาะลีฟะฮ์ควรยืนยันอำนาจของตนในตะวันออกกลางอีกครั้ง"
+ trait_fp3_struggle_supporter_character_is_caliph_desc:0 "ในฐานะ [ROOT.GetCharacter.GetTitleAsName|U] [ROOT.GetCharacter.GetFirstNameNoTooltip] ถือว่า [ROOT.GetCharacter.GetHerselfHimself] เป็น [ROOT.GetCharacter.Custom('MistressMaster')] สูงสุดของอิสลามทั้งหมด — จากลุ่มแม่น้ำสินธุจรดมหาสมุทรแอตแลนติก"
+ trait_fp3_struggle_supporter_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip|U] เชื่อว่ารัฐเคาะลีฟะฮ์ควรยืนยันอำนาจของตนในตะวันออกกลางอีกครั้ง"
+
+ CONVERSION_FP3_STRUGGLE_ENDING_BONUS:0 "โบนัส [struggle_ending_decision|E]"
+
+ persian_struggle.tt.supporter_killed_caliph:0 "การสังหาร [ROOT.GetCharacter.GetTitledFirstNameNoTooltip] กำหนดแนวร่วมการต่อสู้"
+ persian_struggle.tt.neutral_killed_caliph:0 "$persian_struggle.tt.supporter_killed_caliph$"
+ persian_struggle.tt.converted_away_from_sunni_orthodoxy:0 "การเปลี่ยนศาสนาออกจากนิกายสุหนี่ออร์โธดอกซ์กำหนดแนวร่วมการต่อสู้"
+

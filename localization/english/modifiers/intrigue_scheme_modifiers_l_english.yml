@@ -1,0 +1,44 @@
+﻿l_english: 
+ lifestyle_soldier_source_modifier:0 "แหล่งข่าวทหาร"
+ lifestyle_soldier_source_modifier_desc:0 "ทหารนายหนึ่งในราชธานีของเป้าหมายยินยอมแจ้งข่าวสาร"
+
+ lifestyle_studied_habits_modifier:0 "ศึกษากิจวัตร"
+ lifestyle_studied_habits_modifier_desc:0 "อุปนิสัยของเป้าหมายได้รับการสืบเสาะแล้ว"
+
+ lifestyle_converted_informants_modifier:0 "ผู้ให้ข้อมูล"
+ lifestyle_converted_informants_modifier_desc:0 "สายลับในราชสำนักของเป้าหมายกำลังแพร่งพรายข่าวสาร"
+
+ lifestyle_intercepting_communication_modifier:0 "กำลังดักจับการสื่อสาร"
+ lifestyle_intercepting_communication_modifier_desc:0 "สาส์นของเป้าหมายกำลังถูกลอบอ่าน"
+
+ lifestyle_intercepted_communication_modifier:0 "ดักจับการสื่อสารแล้ว"
+ lifestyle_intercepted_communication_modifier_desc:0 "สาส์นของเป้าหมายเคยถูกดักจับครั้งหนึ่ง"
+
+ lifestyle_close_to_courtier_modifier:0 "ใกล้ชิดกับข้าราชสำนัก"
+ lifestyle_close_to_courtier_modifier_desc:1 "การผูกมิตรกับข้าราชสำนักผู้หนึ่งของเป้าหมาย ทำให้ข้าพเจ้าเข้าถึงตัวเป้าหมายได้โดยง่าย"
+
+ intrigue_scheme_mapped_surroundings_modifier:0 "ทำแผนที่สภาพแวดล้อม"
+ intrigue_scheme_mapped_surroundings_modifier_desc:0 "เส้นทางเข้าออกและหลบหนีได้รับการวางแผนที่อย่างละเอียดถี่ถ้วนแล้ว"
+
+ intrigue_scheme_tattletale_modifier:0 "ผู้แพร่งพรายความลับ"
+ intrigue_scheme_tattletale_modifier_desc:0 "มีผู้หนึ่งมิอาจรักษาความลับไว้ได้"
+
+ intrigue_scheme_in_a_hurry_modifier:0 "กำลังเร่งรีบ"
+ intrigue_scheme_in_a_hurry_modifier_desc:0 "มิมีเวลาแล้ว พวกเราจำต้องเคลื่อนพล #EMP now#!."
+
+ intrigue_scheme_no_contact_modifier:0 "การติดต่อจำกัด"
+ intrigue_scheme_no_contact_modifier_desc:0 "การติดต่อถูกจำกัดให้น้อยที่สุดเพื่อหลีกเลี่ยงการถูกจับได้"
+
+ intrigue_scheme_involved_modifier:0 "มีส่วนเกี่ยวข้อง"
+ intrigue_scheme_involved_modifier_desc:0 "ความสนใจของผู้วางแผนที่มีต่อเป้าหมายเป็นที่ทราบกันโดยทั่วไป"
+
+ intrigue_scheme_messenger_pigeon_modifier:0 "นกพิราบสื่อสาร"
+ intrigue_scheme_messenger_pigeon_modifier_desc:0 "นกพิราบสื่อสารที่ผ่านการฝึกพร้อมส่งสาส์นลับ"
+
+ intrigue_scheme_secret_code_modifier:0 "รหัสลับหลายภาษา"
+ intrigue_scheme_secret_code_modifier_desc:0 "รหัสอันซับซ้อน ซึ่งประกอบด้วยหลายภาษาได้ถูกประดิษฐ์ขึ้นโดยเฉพาะสำหรับแผนการนี้"
+
+ intrigue_scheme_personally_translating_letters_modifier:0 "แปลจดหมายด้วยตนเอง"
+ intrigue_scheme_personally_translating_letters_modifier_desc:0 "สาส์นที่ถูกดักจับในแผนการนี้กำลังได้รับการแปลโดยผู้วางแผนด้วยตนเอง"
+ bided_my_time: "รอคอยเวลาของข้า"
+ bided_my_time_desc: "กำลังรอคอยเวลา เพื่อให้การใส่ร้ายป้ายสีแพร่กระจายได้ดียิ่งขึ้น"

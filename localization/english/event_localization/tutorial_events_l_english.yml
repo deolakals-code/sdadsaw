@@ -1,0 +1,30 @@
+﻿l_english: 
+ tutorial.0001.t: "เหตุการณ์ที่น่ากังวลในเอนนิส"
+ tutorial.0001.desc: "คืนหนึ่งอันดึกสงัด [potential_ally.GetFirstName] ผู้เป็น [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('potential_ally'))] ของข้าพเจ้า มาเคาะประตูห้องของข้าพเจ้า ข้าพเจ้าให้ [potential_ally.GetHerHim] เข้ามา และ [potential_ally.GetSheHe] เอ่ยบางสิ่งที่น่ากังวลออกมา สีหน้าของ [potential_ally.GetHerHim] เคร่งขรึมอย่างยิ่ง \n\n"[GetPlayer.GetFirstNameNoTooltip] ท่านได้ยินข่าวหรือไม่? [bad_guy.GetTitledFirstName] กำลังอยู่ในระหว่างการสร้างสิทธิ์เรียกร้องอันเป็นเท็จเหนือดินแดนของท่าน ข้าพเจ้าไม่อยากจะกล่าวเลย แต่ข้าพเจ้าเกรงว่า [bad_guy.GetSheHe] กำลังเตรียมการสงคราม""
+ tutorial.0001.a: "ข้าพเจ้าจะพูดคุยกับ [bad_guy.GetTitledFirstNameNoTooltip]"
+ tutorial.0001.a_flavor: "#TUT โดยการเลือกตัวเลือกนี้ ท่านจะพยายามผูกมิตรกับ [bad_guy.GetTitledFirstName] ซึ่งอาจทำให้ได้ [friend|e] ใหม่ และหลีกเลี่ยง [war|e] ได้โดยสิ้นเชิง.#!"
+
+ tutorial.0001.b: "ข้าพเจ้าไม่เกรงกลัวพวกโง่เขลาขี้เมา"
+ tutorial.0001.b_flavor: "#TUT โดยการเลือกตัวเลือกนี้ ท่านประกาศว่าท่านไม่กลัว [war|e] ที่อาจเกิดขึ้นโดย [bad_guy.GetTitledFirstName] สิ่งนี้จะทำให้ท่านได้รับ [prestige|e] ในระดับปานกลาง.#!"
+
+ tutorial.0001.c: "การบริจาคเล็กน้อยแก่ทุนสงครามเป็นสิ่งที่สมควรทำ"
+ tutorial.0001.c.tt.success: "ท่านโน้มน้าว [potential_ally.GetTitledFirstNameNoTooltip] ได้สำเร็จ"
+ tutorial.0001.c.tt.failure: "ท่าน ทำให้ [potential_ally.GetTitledFirstNameNoTooltip] ขุ่นเคือง"
+ tutorial.0001.c_flavor: "#TUT ตัวเลือกนี้ให้ท่านพยายามพูดคุยกับ [potential_ally.GetTitledFirstName] เพื่อให้ช่วยเหลือท่านทางการเงิน หากท่านสามารถโน้มน้าว [potential_ally.GetHerHim] ได้ [gold|e] เพิ่มเติมจะเป็นประโยชน์ในการป้องกันหรือชนะ [war|e].#!"
+
+
+ tutorial.0002.t: "[bad_guy.GetTitledFirstNameNoTooltip] เตรียมการสงคราม"
+ tutorial.0002.desc: "ข้าพเจ้าได้รับการเข้าหาอีกครั้งโดย [potential_ally.GetFirstName] ผู้เป็น [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('potential_ally'))] ของข้าพเจ้า ริมฝีปากของ [potential_ally.GetHerHis] แย้มยิ้มอย่างเขินอาย [potential_ally.GetSheHe|U] กระแอมอย่างอึดอัด \n\n"[GetPlayer.GetFirstNameNoTooltip] สหายของข้า! มีพัฒนาการเล็กน้อยเกี่ยวกับ [bad_guy.GetTitledFirstName] ท่านทราบไหม สัปดาห์ก่อนเราออกไปดื่มกัน และข้าพเจ้าจับได้ว่า [bad_guy.GetHerHim] กำลังโอ้อวดเกี่ยวกับแผนการบุกรุกของ [bad_guy.GetHerHis]"\n\n"ข้าพเจ้าเกรงว่าท่านมีเวลาเหลือน้อยก่อนที่ [bad_guy.GetSheHe] จะลงมือ""
+ 
+ tutorial.0002.a: "ต้องมีหนทางอื่นสิ..."
+ tutorial.0002.a_flavor: "#TUT ตัวเลือกนี้ให้ท่านพยายามพูดคุยเจรจากับ [bad_guy.GetTitledFirstName] มีโอกาสที่ [bad_guy.GetSheHe] จะเปิดรับ [diplomacy|e] ของท่าน แต่ก็มีความเสี่ยงที่ [bad_guy.GetSheHe] จะขุ่นเคือง.#!"
+ tutorial.0002.a.tt: "ท่านเข้าสู่ [alliance|e] กับ [bad_guy.GetTitledFirstName]"
+ tutorial.0002.a.tt.crit_success: "ท่านให้เหตุผลที่น่าเชื่อถือ #EMP อย่างยิ่ง #!"
+ tutorial.0002.a.tt.success: "ท่านให้เหตุผลที่พอใช้ได้"
+ tutorial.0002.a.tt.failure: "ท่าน ทำให้ [bad_guy.GetTitledFirstNameNoTooltip] ขุ่นเคือง"
+
+ tutorial.0002.b: "ฮ่า! ช่างเป็นคนขี้เล่นเสียจริง [bad_guy.GetFirstNameNoTooltip] ผู้นั้น"
+ tutorial.0002.b_flavor: "#TUT เนื่องจากท่านเป็น [friends|e] กับ [bad_guy.GetTitledFirstName] ท่านรู้ว่าแม้ [bad_guy.GetSheHe] จะพูดจาโอ้อวด แต่ [bad_guy.GetSheHe] ไม่ได้วางแผนอะไรจริงๆ.#!"
+
+ tutorial.0002.c: "ข้าพเจ้าเบื่อหน่ายกับเกมเหล่านี้แล้ว [bad_guy.GetFirstNameNoTooltip] จะต้องยอมจำนนต่อ #EMP ข้าพเจ้า #!"
+ tutorial.0002.c_flavor: "#TUT ตัวเลือกนี้จะให้ท่านพยายามบังคับให้ [bad_guy.GetTitledFirstNameNoTooltip] กลายเป็น [vassal|e] ภายใต้การปกครองของท่าน เพื่อที่จะทำเช่นนี้ ท่านจะต้องชนะ [war|e] กับ [bad_guy.GetHerHim]!#!"

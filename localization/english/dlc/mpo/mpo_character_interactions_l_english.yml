@@ -1,0 +1,14 @@
+﻿l_english: 
+ interrogate_interaction: "ไต่สวน"
+ interrogate_interaction_desc: "สอบถาม [recipient.GetShortUIName|U] ว่า [recipient.GetSheHe] ทราบสิ่งใดเกี่ยวกับสาส์นปริศนา"
+ interrogate_interaction_tt: "ท่านอาจค้นพบข้อมูลเกี่ยวกับสาส์นปริศนา"
+ interrogate_interaction_recipient_tt: "จักต้องเสนอคำชี้แจง"
+ 
+ action_can_interrogate: "@icon_scheme_challenge_status! สามารถ $interrogate_interaction$"
+ action_can_interrogate_label: "@icon_scheme_challenge_status! ท่านสามารถ $interrogate_interaction$ [recipient.GetShortUIName]"
+ action_can_interrogate_desc: "สอบถามเกี่ยวกับสาส์นปริศนา"
+ action_can_interrogate_click: "#I คลิกเพื่อดู#!"
+ action_can_interrogate_combined_group_name: "$action_can_interrogate$"
+ action_can_interrogate_combined_group_label: "$action_can_interrogate_label$"
+ action_can_interrogate_combined_label: "$action_can_interrogate_label$"
+ action_can_interrogate_combined_group_description: "$action_can_interrogate_desc$"

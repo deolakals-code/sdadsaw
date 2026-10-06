@@ -1,0 +1,70 @@
+﻿l_english: 
+ 
+ #Pet Rock events
+ pet_rock.0001.t: "ศิลาก้าวย่าง"
+ pet_rock.0001.desc: " #EMP กริ๊ง!#! \n\nขณะที่ข้ากำลังเดินเตร็ดเตร่อยู่ข้างนอก รองเท้าของข้าก็เตะเข้ากับก้อนหินเล็กๆ ก้อนหนึ่ง หินกรวดนั้นกระเด็นกระทบกับหินก้อนอื่นด้วยเสียงใส ก่อนจะหยุดลงไม่ไกลจากข้านัก ด้วยความอยากรู้อยากเห็น ข้าจึงหยิบมันขึ้นมา ผิวที่ขรุขระของมันกลับให้ความรู้สึกอบอุ่นอย่างประหลาด\n\nในฉับพลันนั้น ข้าก็รู้ทันทีว่ามันต้องการสิ่งใด ก้อนหินกำลังแผ่รังสีแห่งความเป็น #EMP มิตร#! ออกมา เมื่อข้ามองลงไปยังมันที่นอนนิ่งอยู่ในฝ่ามือ น้ำหนักของมันให้ความรู้สึกทั้งอุ่นใจและเบิกบานใจในเวลาเดียวกัน"
+ pet_rock.0001.a: "เราจักเป็นมิตรแท้ต่อกัน!"
+ pet_rock.0001.a.tt: "การผจญภัยร่วมกันของท่านเริ่มต้นขึ้นแล้ว!"
+ pet_rock.0001.b: "ข้ากำลังคิดสิ่งใดอยู่?"
+ pet_rock.0001.b.tt: "ข้าควรใช้เวลานอกอาคารให้น้อยลงเสียจริง..."
+
+ pet_rock.0002.t: "ศิลาก้อนหนึ่ง"
+ pet_rock.0002.desc: "ขณะที่ศิลาก้อนนั้นวางพักอย่างสงบบนตักข้า ข้าครุ่นคิดว่าจะตั้งชื่อ [ROOT.Char.Custom('RockStoryHerHim')] ว่ากระไรดี ควรเป็นชื่อทางประวัติศาสตร์? ชื่อที่พาดพิงถึงรูปทรงของ [ROOT.Char.Custom('RockStoryHerHis')]? หรือชื่อที่บ่งบอกถึงความรู้สึกผ่อนคลายยามข้าลูบไล้ผิว [ROOT.Char.Custom('RockColor')] ด้านนอกของ [ROOT.Char.Custom('RockStoryHerHis')]?\n\nโอ้ ข้ารู้แล้ว! ข้าจะตั้งชื่อ [ROOT.Char.Custom('RockStoryHerHim')] ว่า..."
+ pet_rock.0002.a: "ช่างเป็นนามอันประเสริฐ!"
+
+ pet_rock.0100.t: "[ROOT.Char.Custom('RockStoryName')]: คุณค่าทางใจ"
+ pet_rock.0100.desc: "หลังจากวันอันแสนเคร่งเครียดอีกวัน ข้าทรุดกายนั่งลงบนเก้าอี้ใน [ROOT.Char.Custom('GetChamber')] ของข้า – ข้าจะทน เช่นนี้ต่อไปได้อีกนานเท่าใดกัน?\n\nขณะขยับเท้า ข้าได้ยินเสียงก้อนหินกระทบกันเบาๆ และพบว่าศิลาสัตว์เลี้ยงของข้า [ROOT.Char.Custom('RockStoryName')] นั่งอยู่ข้างเก้าอี้ ข้านั่งอยู่กับ [ROOT.Char.Custom('RockStoryHerHim')] สักพัก เพียงแค่รับฟังความเงียบสงบอันผ่อนคลาย และลูบไล้ผิว [ROOT.Char.Custom('RockColor')] ด้านนอกของ [ROOT.Char.Custom('RockStoryHerHis')]"
+ pet_rock.0100.a: "ข้าคิดว่าข้ายังทนต่อไปได้อีกสักหน่อย"
+
+ pet_rock.0101.t: "[ROOT.Char.Custom('RockStoryName')]: เงาสะท้อนดุจกระจก"
+ pet_rock.0101.desc: "บนขอบโต๊ะของข้า ศิลา [ROOT.Char.Custom('RockStoryName')] นั่งหน้ามุ่ยอยู่ ข้าเหลือบมอง [ROOT.Char.Custom('RockStoryHerHim')] เป็นที่ประจักษ์ว่า [ROOT.Char.Custom('RockStorySheHe')] กำลังงอน\n\nเราทั้งคู่ต่างรู้ว่า [ROOT.Char.Custom('RockStorySheHe')] ต้องการการขัดเงา เพื่อให้ผิว [ROOT.Char.Custom('RockColor')] อันงดงามนั้นเปล่งประกาย เพียง แต่น้ำยาขัดเงาโปรดของ [ROOT.Char.Custom('RockStoryHerHis')] นั้นช่าง #EMP แพงเหลือเกิน#!..."
+ pet_rock.0101.a: "เอาล่ะ เอาล่ะ เราจักขัดเงาให้เจ้า"
+ pet_rock.0101.b: "เจ้าคงต้องทนใช้ไปก่อน"
+
+ pet_rock.0102.t: "[ROOT.Char.Custom('RockStoryName')]: สะอาดเอี่ยมอ่อง"
+ pet_rock.0102.desc: "สี [ROOT.Char.Custom('RockColor')] อันสดใสตามปกติของผิว [ROOT.Char.Custom('RockStoryName')] วันนี้ดูหมองไปบ้าง [ROOT.Char.Custom('RockStorySheHe')|U] นั่งอยู่ในที่ประจำของ [ROOT.Char.Custom('RockStoryHerHis')] อย่างตำหนิ วิงวอนขอให้ข้าอาบน้ำให้\n\nข้า #EMP มี#! การเข้าเฝ้าสำคัญในวันนี้มิใช่รึ? เรื่องนั้นอาจจะอธิบายได้ยากกระมัง..."
+ pet_rock.0102.a: "การเข้าเฝ้ารอก่อนได้!"
+ pet_rock.0102.b: "ไว้วันอื่นเถิด, [ROOT.Char.Custom('RockStoryName')]"
+
+ pet_rock.0103.t: "[ROOT.Char.Custom('RockStoryName')]: ลอบมอบเครื่องประทัง"
+ pet_rock.0103.desc: "อาหารจานโตอีกจานถูกนำมาวางตรงหน้าข้า ท้องของข้าแทบจะครวญครางภายใต้น้ำหนักของอาหารคำก่อนหน้า กลิ่นหอมอันวิเศษแตะจมูกข้า: กลิ่นมินต์!\n\nทันทีที่ได้กลิ่น ข้าก็นึกถึงศิลาของข้า [ROOT.Char.Custom('RockStoryName')] มินต์คือกลิ่นโปรดของ [ROOT.Char.Custom('RockStoryHerHis')]!\n\nข้าแทบจะ #EMP สัมผัสได้#! ถึงการปรากฏตัวอันเว้าวอนของ [ROOT.Char.Custom('RockStoryHerHis')] ที่แผ่ออกมาจากตำแหน่งของ [ROOT.Char.Custom('RockStoryHerHis')] ในกระเป๋าของข้า"
+ pet_rock.0103.a: "ลองดูซิว่าข้าจะลอบส่งใบไม้สักสองสามใบให้ [ROOT.Char.Custom('RockStoryHerHim')] ได้หรือไม่..."
+ pet_rock.0103.b: "ข้าไม่ทำดีกว่า"
+
+ pet_rock.0104.t: "[ROOT.Char.Custom('RockStoryName')]: จุดต่ำสุด"
+ pet_rock.0104.desc: "ข้าครุ่นคิดกับตนเองขณะเดินข้าม [ROOT.Char.Custom('GetRoom')] ช่างเป็นการทดลองและความยากลำบากที่ถาโถมใส่ [ROOT.Char.GetTitleAsNameNoTooltip] เสียจริง! บางทีศิลาของข้า [ROOT.Char.Custom('RockStoryName')] อาจมีคำแนะนำดีๆ ให้บ้าง?\n\nข้าตบกระเป๋าของข้า ที่พักพิงปกติของ [ROOT.Char.Custom('RockStoryHerHis')] ไม่มีสิ่งใด ทันใดนั้น ข้ารู้สึกเคว้งคว้างเมื่อปราศจากคำแนะนำอันสงบเยือกเย็นของ [ROOT.Char.Custom('RockStoryHerHis')]\n\nความตื่นตระหนกเริ่มก่อตัวขึ้น"
+ pet_rock.0104.a: "อืม, มีก้อนหนึ่งข้างนอกที่ดู #EMP คล้ายกัน#! อยู่..."
+ pet_rock.0104.b: "#EMP [ROOT.Char.Custom('RockStoryName')]!#! [ROOT.Char.Custom('RockStorySheHe')] อยู่ที่ใด?"
+ pet_rock.0104.b.success: "ท่านพบ [ROOT.Char.Custom('RockStoryHerHim')] ในหีบใบหนึ่ง"
+ pet_rock.0104.b.failure: "...[ROOT.Char.Custom('RockStoryName')]?"
+ pet_rock.0104.b.failure.tt: "สหายของท่านจากไปตลอดกาลแล้ว"
+ pet_rock.0104.c: "บางที [ROOT.Char.Custom('RockStorySheHe')] อาจไปเยี่ยมสหายกระมัง?"
+ pet_rock.0104.c.tt: "ข้าคาดว่า [ROOT.Char.Custom('RockStorySheHe')] คงจากไปแล้ว..."
+
+ pet_rock.0105.t: "[ROOT.Char.Custom('RockStoryName')]: ยินดีที่ได้พบพาน"
+ pet_rock.0105.desc: "ข้ากำลังพูดคุยกับหินของข้า [ROOT.Char.Custom('RockStoryName')] อยู่ด้านนอก พลางครุ่นคิดถึงการพบกันครั้งแรกของเรา เมื่อเสียงร้องด้วยความยินดีดังแว่วมา [other_rock_owner.GetFirstName] กำลังเดินเข้ามาหาข้าพร้อมกำ... นั่นมัน-\n\n"ข้ายินดีเหลือเกินที่เห็นท่านก็มีสหายผู้เป็นหิน เช่นกัน [ROOT.Char.Custom('FormOfAddressForLiege')]!" [other_rock_owner.GetFirstName] ยื่นหินของ [other_rock_owner.GetHerHis] ออกมา "บางทีพวกมันอาจเป็นสหายกันได้?""
+ pet_rock.0105.a: "ช่างเป็นศิลาที่ดูโง่เขลาเสียนี่กระไร"
+ pet_rock.0105.b: "ข้ามั่นใจว่าพวกมันจักเข้ากันได้ดีเยี่ยม!"
+ pet_rock.0105.c: "ขออภัย, [ROOT.Char.Custom('RockStoryName')] ขี้อายเล็กน้อย"
+
+ pet_rock.0106.t: "[ROOT.Char.Custom('RockStoryName')]: ตุ้บ!"
+ pet_rock.0106.desc: "ข้านั่งอยู่ที่โต๊ะ กำลังอ่านจดหมายและรายงานต่างๆ [ROOT.Char.Custom('RockStoryName')] นั่งอยู่ข้างๆ ข้า อาบไล้ความอบอุ่นจากแสงแดด\n\nข้าเอื้อมมือไปลูบไล้ผิว [ROOT.Char.Custom('RockColor')] ด้านนอกของ [ROOT.Char.Custom('RockStoryHerHis')] แต่ดูเหมือนว่า [ROOT.Char.Custom('RockStorySheHe')] อยู่ในอารมณ์ขี้เล่นยิ่งนัก ขณะที่ข้าเอื้อมมือไป โต๊ะก็โคลงเคลง และ [ROOT.Char.Custom('RockStoryName')] ก็ทิ้งตัวลงจากขอบโต๊ะ!"
+ pet_rock.0106.a: "ฮ่า! เจ้าคนเขลาตัวน้อย!"
+
+ pet_rock.0107.t: "[ROOT.Char.Custom('RockStoryName')]: สร้างเคหาให้ศิลา"
+ pet_rock.0107.desc: "ขณะที่ข้าอุ้ม [ROOT.Char.Custom('RockStoryName')] ไปยังห้องพักของข้า ผิว [ROOT.Char.Custom('RockColor')] ด้านนอกของ [ROOT.Char.Custom('RockStoryHerHis')] ซุกอยู่อย่างมีความสุขในมือข้า ข้าพิจารณาว่า [ROOT.Char.Custom('RockStorySheHe')] อิจฉาข้าหรือไม่ อย่างไรเสีย ข้าก็มี [ROOT.Char.Custom('ResidenceBuilding')] ทั้งหลังเป็นของตนเอง ตก แต่งได้ตามใจชอบ และให้สหายและครอบครัวพักอาศัยได้\n\n[ROOT.Char.Custom('RockStoryName')] ไม่มี บางที ถึงเวลาแล้วกระมังที่จะแก้ไขเรื่องนี้?\n\nข้ามองลงไปที่ [ROOT.Char.Custom('RockStoryHerHim')] และครุ่นคิด"
+ pet_rock.0107.a: "[ROOT.Char.Custom('RockStoryName')] พักอยู่กับข้าบนเตียงได้!"
+ pet_rock.0107.b: "ข้าจะลองดู, เหตุใดจะไม่เล่า"
+ pet_rock.0107.b.success: "ท่านสร้างที่พักพิงอันน่าพอใจได้สำเร็จ"
+ pet_rock.0107.b.failure: "ท่านตอกโดนนิ้วหัวแม่มือตนเอง"
+ pet_rock.0107.c: "ข้าคิดว่า [ROOT.Char.Custom('RockStorySheHe')] เป็นศิลาประเภทที่ชอบอยู่กลางแจ้ง"
+
+ pet_rock.0108.t: "[ROOT.Char.Custom('RockStoryName')]: สินแร่หรือความว่างเปล่า?"
+ pet_rock.0108.desc: "มีจุดเล็กๆ อันน่าสงสัยอยู่บนกำแพงนี้ ข้าคิด ขณะที่ [ROOT.Char.Custom('RockStoryName')] ซุกอยู่ในอุ้งมือข้า กำแพงด้านนอก [ROOT.Char.Custom('ResidenceBuilding')] ของข้ามีส่วนที่แตกหายไป\n\nข้าสัมผัสได้ถึงความสงสัยใคร่รู้ของ [ROOT.Char.Custom('RockStoryName')] ในอุ้งมือ ข้ายก [ROOT.Char.Custom('RockStoryHerHim')] ขึ้น เพื่อให้เห็น และด้วยความนึกสนุก ข้าวาง [ROOT.Char.Custom('RockStoryHerHim')] ลงในช่องนั้นพอดี ดังที่ข้าสงสัย [ROOT.Char.Custom('RockStorySheHe')] เข้ากันได้อย่างสมบูรณ์แบบ\n\nความคิดหนึ่งผุดขึ้นมา: บางทีอาจเป็นการดีที่สุดสำหรับข้าและ [ROOT.Char.Custom('RockStoryHerHim')] หาก [ROOT.Char.Custom('RockStorySheHe')] จะอยู่ที่นี่,"
+ pet_rock.0108.landed: "ในฐานะส่วนหนึ่งของบ้านและเรือนข้า? บางทีเราอาจหาวิธีใหม่ๆ ที่ดียิ่งขึ้นในการนำสหายของ [ROOT.Char.Custom('RockStoryHerHis')] มาประกอบเป็นอาคารของพวกมันเองได้?"
+ pet_rock.0108.adventurer: "มีความสุขในบ้านหลังใหม่นี้? บางทีเราอาจหาสหายใหม่ๆ ให้ [ROOT.Char.Custom('RockStoryHerHim')] และแนะนำให้รู้จักเมื่อเรากลับมาครั้งหน้า..."
+ pet_rock.0108.a: "ข้าคิดเกียรติยศใดยิ่งใหญ่กว่านี้มิได้แล้ว!"
+ pet_rock.0108.a.adventurer: "ถึงเวลาที่ต้องปล่อยวางแล้ว"
+ pet_rock.0108.a.tt: "การผจญภัยของท่านกับศิลาได้สิ้นสุดลงแล้ว"
+ pet_rock.0108.b: "ข้ามิอาจปล่อย [ROOT.Char.Custom('RockStoryHerHim')] ไปได้เลย!"
+ pet_rock.0108.b.tt: "[ROOT.Char.Custom('RockStorySheHe')|U] จักเดินทางไปกับข้า, ตลอดไป"

@@ -1,0 +1,9 @@
+﻿l_english: 
+ the_great_steppe_sub_region_steppe_west: "ทุ่งหญ้าสเตปป์ตะวันตก"
+ the_great_steppe_sub_region_steppe_west_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak ทุ่งหญ้าสเตปป์ตะวันตกเป็นจุดบรรจบระหว่างทุ่งหญ้าสเตปป์กับแม่น้ำสายใหญ่ ได้แก่ ดอน, ดนีเปอร์, ดนีสเตอร์, และวอลกา ตลอดหน้าประวัติศาสตร์ ที่นี่เป็นจุดออกของการรุกรานของชนร่อนเร่หลายครั้งสู่ดินแดนที่ตั้งรกรากของยุโรป#!"
+ the_great_steppe_sub_region_steppe_central: "ทุ่งหญ้าสเตปป์กลาง"
+ the_great_steppe_sub_region_steppe_central_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak ทุ่งหญ้าสเตปป์กลางทอดตัวอยู่ระหว่างเทือกเขาอูราลทางทิศตะวันตก เทือกเขาอัลไตทางทิศตะวันออก และโครราซานทางทิศใต้ เป็นเวลาหลายยุคสมัยที่ชนร่อนเร่ได้เดินทางผ่านทั้งทางตะวันตกและตะวันออก เพื่อไปยังจักรวรรดิอันยิ่งใหญ่ที่ปลายทั้งสองด้านของทุ่งหญ้าสเตปป์#!"
+ the_great_steppe_sub_region_steppe_east: "ทุ่งหญ้าสเตปป์ตะวันออก"
+ the_great_steppe_sub_region_steppe_east_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak ทางตะวันออกของเทือกเขาอัลไตและทางเหนือของทะเลทรายโกบีคือที่ตั้งของทุ่งหญ้าสเตปป์ตะวันออก ทุ่งหญ้าสเตปป์อันกว้างใหญ่เหล่านี้หล่อหลอมนักรบผู้แข็งแกร่ง ซึ่งในที่สุดจะเดินทางไปทางตะวันตกหรือแสวงหาความมั่งคั่งจากเพื่อนบ้านทางตะวันออกเฉียงใต้ของตน#!"
+
+ SITUATION_SUB_REGION_TOOLTIP_DESC: "[situation_sub_region|E] นี้เป็นของ [SituationSubRegion.GetSituation.GetName]\n\nช่วงปัจจุบัน: [SituationSubRegion.GetCurrentPhase.GetName|V]"

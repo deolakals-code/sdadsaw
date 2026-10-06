@@ -1,0 +1,36 @@
+﻿l_english: 
+ apa_won_at_dice_title:0 "[first.GetShortUIName|U] เอาชนะ [second.GetShortUIName|U] ในการทอยลูกเต๋า"
+ 
+ apa_good_manners_title:0 "[first.GetShortUIName|U] แสดงมารยาทอันดีงาม"
+ 
+ apa_visited_friends_chapel_title:0 "[first.GetShortUIName|U] เยี่ยมชมโบสถ์น้อยของ [host.GetShortUINamePossessive|U]"
+ 
+ apa_mentor_taught_me_title:0 "[second.GetShortUIName|U] ได้เรียนรู้บางสิ่งจาก [first.GetShortUIName|U]"
+ 
+ apa_read_a_book_title:0 "[first.GetShortUIName|U] อ่านตำราให้ความรู้"
+ 
+ apa_joked_together_title:0 "[first.GetShortUIName|U] และ [second.GetShortUIName|U] แบ่งปันเรื่องตลกขบขัน"
+ 
+ apa_rescued_kid_title:0 "[first.GetShortUIName|U] ช่วยเหลือ [second.GetShortUIName|U] จาก [first.Custom('GetSmallHidingObject')|U]"
+ barrel:0 "ถังไม้"
+ chest:0 "หีบ"
+ cupboard:0 "ตู้"
+ casket:0 "หีบเล็ก"
+ cabinet:0 "ตู้เก็บของ"
+ 
+ apa_shared_food_title:0 "[first.GetShortUIName|U] แบ่งปัน [first.Custom('GetExpensiveDessert')|U] บางส่วนกับ [second.GetShortUIName|U]"
+ 
+ apa_broke_toy_title:0 "[first.GetShortUIName|U] ทำ [second.Custom('SmallAnimal')|U] ไม้ของ [second.GetShortUINamePossessive|U] แตก"
+ 
+ apa_found_gold_stash_title:0 "[first.GetShortUIName|U] พบทองคำที่ซ่อนไว้"
+ 
+ apa_sang_nice_song_title:0 "[first.GetShortUIName|U] ขับร้องบทกวีอันไพเราะ"
+ 
+ apa_learned_from_kid_title:0 "[first.GetShortUIName|U] ได้เรียนรู้บางสิ่งจาก [second.GetShortUIName]"
+ 
+ apa_practiced_with_swords_title:0 "[first.GetShortUIName|U] ฝึกซ้อมด้วย [first.Custom('GetRandomWeapon')|U] ทื่อ"
+ 
+ apa_studied_ledger_title:0 "[first.GetShortUIName|U] ศึกษาบัญชีแยกประเภท"
+ 
+ apa_had_charming_convo_title:0 "[first.GetShortUIName|U] สนทนาอย่างมีเสน่ห์กับ [second.GetShortUIName|U]"
+ 

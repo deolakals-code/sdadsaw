@@ -1,0 +1,471 @@
+﻿l_english: 
+ doctrine_core_tenets_name:1 "หลักความเชื่อ"
+ tenets_name:0 "หลักความเชื่อ"
+
+ #Abrahamic Tenets
+ tenet_communion_name:0 "ศีลมหาสนิท"
+ tenet_communion_desc:0 "พิธีกรรมของเรามิใช่เป็นเพียงสัญลักษณ์ — แต่เป็นการอัญเชิญการประทับอยู่ของพระเจ้าโดยแท้จริง ผู้ที่ไม่สามารถหรือไม่เข้าร่วมปฏิบัติกับเรามิอาจเป็นผู้ศรัทธาที่แท้จริงได้"
+ doctrine_parameter_seek_indulgences_active:1 "ตัวละครอาจ #V ขอซื้อใบล้างบาป#! จาก [head_of_faith|E] ของตน โดยจ่าย [gold|E] เพื่อแลกกับ [piety|E]"
+ doctrine_parameter_seek_indulgences_active_2:0 "ตัวละครที่ได้กระทำความผิดทาง [criminal|E] อาจ #V ขอซื้อใบล้างบาป#! เพื่อได้รับการอภัยโทษแทน"
+ doctrine_parameter_excommunication_active:0 "[heads_of_faith|E] ฝ่ายจิตวิญญาณอาจ [excommunicate|E] ตัวละครอื่นใน [faith|E] ของตนได้"
+ tenet_excommunicated:0 "[GetTrait('excommunicated').GetName( GetNullCharacter )]"
+
+ tenet_armed_pilgrimages_name:0 "การจาริกแสวงบุญติดอาวุธ"
+ tenet_armed_pilgrimages_desc:0 "ผู้แสวงบุญของเราเดินทางข้ามโลกเพื่อเยี่ยมชมสถานที่ศักดิ์สิทธิ์ของเรา — เรายินดีที่จะจับดาบเพื่อปกป้องพวกเขาให้ปลอดภัยจากผู้ใดก็ตามที่จะทำร้ายพวกเขา"
+ doctrine_parameter_cheaper_holy_wars_active:0 "[rulers|E] ของ [faith|E] นี้ใช้ [piety|E] น้อยลง #P -20%#! ในการประกาศ [holy_wars|E]"
+ doctrine_parameter_great_holy_wars_active:1 "หากมีอยู่ [head_of_faith|E] สามารถประกาศ [great_holy_war|E] ได้เมื่อ [faith|E] มี [fervor|E] สูง"
+ doctrine_parameter_ghw_no_hof_conversion_buffs_active:0 "หากไม่มี [head_of_faith|E] ผู้นับถือจะได้รับโบนัสสำหรับ [councillor_task|E] [convert_county|E] ต่อ [holy_site|E] ที่ควบคุมอยู่"
+ doctrine_parameter_pilgrimage_decision_active:1 "ตัวละครของ [faith|E] นี้จะได้รับโบนัสเพิ่มเติมเมื่อสำเร็จ [pilgrimage|E]"
+
+ tenet_monasticism_name:0 "ชีวิตอารามวาสี"
+ tenet_monasticism_desc:0 "ความสุขจากอาหารและเครื่องดื่มชั้นเลิศมี แต่จะ ทำให้เราไขว้เขวจากการรับใช้พระเจ้า การแยกตัวอยู่ในอารามอันห่างไกลเป็นวิธีที่ดีที่สุดในการหลีกเลี่ยงสิ่งล่อใจเหล่านี้"
+ doctrine_parameter_take_vows_active:0 "[courtiers|E] สามารถปฏิญาณตนและกลายเป็น [GetTrait('devoted').GetName( GetNullCharacter )] ได้"
+
+ tenet_divine_marriage_name:0 "การสมรสอันศักดิ์สิทธิ์"
+ tenet_divine_marriage_xwedodah: "เควดอดาห์"
+ tenet_divine_marriage_desc: "โดยการสมรสกับญาติสนิท เราได้เจริญรอยตามการสมรสอันศักดิ์สิทธิ์ของสิ่งมีชีวิตแรกเริ่มในการสร้างโลก คุณสมบัติที่ดีจะถูกส่งต่อในสายตระกูลของเรา และด้วยเหตุนี้เราจึงได้รับความบริสุทธิ์และความโปรดปรานในการต่อสู้อันเป็นนิรันดร์กับความชั่วร้าย"
+ doctrine_parameter_divine_marriage_opinion:0 "ผู้นับถือที่สมรสกับสมาชิก [close_family|E] จะมี [opinion|E] $VALUE|0+=$ จาก [vassals|E] ที่มี [faith|E] เดียวกัน"
+ doctrine_parameter_divine_marriage_piety_gain_active:2 "โบนัสการสมรสแบบ [GetFaithDoctrine('doctrine_monogamy').GetBaseName] ยังมอบ [piety|E] จำนวนมากหากท่านสมรสกับสมาชิก [close_family|E]"
+ 
+ tenet_pacifism_name:0 "สันตินิยม"
+ tenet_pacifism_desc:0 "ความรุนแรงเป็นการกระทำอันน่ารังเกียจ ซึ่งนำไปสู่ความทุกข์ ความเจ็บปวด และความเสียใจเท่านั้น โดยการพยายามหลีกเลี่ยงเมื่อใดก็ตามที่เป็นไปได้ เราสามารถสร้างสังคมที่เข้มแข็งและมั่นคงยิ่งขึ้น เพื่อให้ผู้ศรัทธาได้อาศัยอยู่"
+ doctrine_parameter_holy_wars_forbidden:0 "ไม่สามารถประกาศ [holy_wars|E] หรือ [raid|E] ได้"
+ doctrine_parameter_pacifist_opinion_active:0 ""
+ pacifist_opinion_active_opinion_name:0 "สหายผู้รักสันติ"
+ pacifist_opinion_active_county_opinion_name:0 "เคาน์ตีสหายผู้รักสันติ"
+ doctrine_parameter_opinion_of_pacifist_opinion_active:0 "[opinion|E] ต่อผู้รักสันติคนอื่น: $VALUE|+=0$"
+ doctrine_parameter_piety_from_long_peace:0 "ผู้ปกครองที่อยู่ในภาวะสันติเป็นเวลาอย่างน้อยสองปี จะมีการเปลี่ยนแปลง [piety|E] $VALUE|+$ ใน แต่ละเดือน"
+ PIETY_LONG_PEACE:0 "สันติภาพอันยาวนาน"
+
+ tenet_vows_of_poverty_name:0 "ปฏิญาณความยากจน"
+ tenet_vows_of_poverty_desc:0 "เงินตรา ทำให้จิตใจของมนุษย์เสื่อมทรามและผลักไสพวกเขาให้ออกห่างจากศรัทธาที่แท้จริง เราต้องหลีกเลี่ยงการแสวงหาความมั่งคั่งทางวัตถุหากเราต้องการมุ่งเน้นไปที่สิ่งที่สำคัญอย่างแท้จริง"
+ doctrine_parameter_vows_of_poverty_active:0 "[rulers|E] สามารถ [decide|E] ที่จะปฏิญาณความยากจน ลดรายได้ [tax|E] รายเดือน แต่เพิ่มการได้รับ [piety|E] รายเดือน"
+
+ tenet_human_sacrifice_name:0 "การบูชายัญมนุษย์"
+ tenet_human_sacrifice_desc:0 "วิธีที่ดีที่สุดในการพิสูจน์ความจงรักภักดีของเราคือผ่านการบูชายัญ การบูชายัญที่มีค่าที่สุดที่เราสามารถถวายได้คือการบูชายัญชีวิตมนุษย์"
+ doctrine_parameter_human_sacrifice_active:1 "[executions|E] จะได้รับ [piety|E] แทนที่จะเสีย [piety|E]\n$EFFECT_LIST_BULLET$[executions|E] ไม่เสีย [prestige|E] เมื่อ [sharing_power|E]"
+ doctrine_parameter_flower_war_cb_active:0 "มอบ [casus_belli|E] [flowery_war|E] ต่ออาณาจักรเพื่อนบ้าน"
+
+ tenet_gruesome_festivals_blot_name:0 "พิธีโบลต"
+ tenet_gruesome_festivals_name:0 "เทศกาลอันน่าสยดสยอง"
+ tenet_gruesome_festivals_desc:0 "เราทุกคนเกิดมาในกองเลือด เรารอดชีวิตด้วยเลือดของปศุสัตว์ ครอบครัว ศัตรูของเรา เป็นเรื่องธรรมดาที่ [ROOT.Faith.PantheonTerm] จะเรียกร้องส่วนแบ่งอันชอบธรรมของพวกเขา"
+ gruesome_festivals_active_name:0 "ความสามารถในการประกอบพิธีบูชายัญครั้งใหญ่"
+ doctrine_parameter_gruesome_festivals_active:0 "สามารถจัดพิธีบูชายัญครั้งใหญ่ได้ประมาณทศวรรษละครั้งเพื่อ [county_opinion|E] และผู้ใต้ปกครองที่มี [faith|E] เดียวกัน"
+
+ tenet_volcanic_veneration_name:0 "การบูชาภูเขาไฟ"
+ tenet_volcanic_veneration_desc:0 "มีสิ่งศักดิ์สิทธิ์น้อยสิ่งนักที่จะเทียบเท่าผืนดินแรกเกิดที่พวยพุ่งออกมาจากหลุมเพลิงแห่งบ้านเกิดของเรา เราใช้ชีวิตอยู่บนขอบเหวแห่งหายนะ อยู่ภายใต้ความเมตตาของ [ROOT.Faith.PantheonTerm] ตลอดไป"
+ tenet_cthonic_redoubts_name:0 "ป้อมปราการใต้พิภพ"
+ tenet_cthonic_redoubts_desc:0 "ไม่มีที่พักพิงใดดีไปกว่ารากเหง้าของโลก ไม่มีป้อมปราการใดแข็งแกร่งไปกว่าสันเขาที่ยื่นออกมา ไม่มีการจาริกแสวงบุญใดศักดิ์สิทธิ์ไปกว่าเส้นทางที่ซ่อนเร้นของมัน เรามองลงมายังสรรพสิ่งที่สร้างขึ้นจากยอดเขาสูงตระหง่านเหล่านี้และสัมผัสถึงน้ำหนักที่แท้จริงของพระเจ้า"
+ doctrine_parameter_easier_to_convert_faith_in_mountains:0 "ความเร็ว [convert_county|E] ใน [terrain|E] ภูเขา: #P +[EmptyScope.ScriptValue('easier_to_convert_faith_in_mountains_bonus_loc_control')|0]%#!"
+ doctrine_parameter_easier_to_convert_culture_in_same_faith_mountains:0 "ความเร็ว [promote_culture|E] ใน [terrain|E] ภูเขาที่มี [faith|E] เดียวกัน: #P +[EmptyScope.ScriptValue('promote_culture_easier_to_convert_culture_in_same_faith_mountains_bonus_loc_control')|0]%#!"
+ doctrine_parameter_harder_to_convert_faith_away_in_mountains:0 "ความเร็ว [convert_county|E] ของศัตรูใน [terrain|E] ภูเขา: #P [EmptyScope.ScriptValue('harder_to_convert_faith_away_in_mountains_malus_loc_control')|0]%#!"
+
+ tenet_consolamentum_name:1 "เอ็นดูรา"
+ tenet_consolamentum_name_alternate:0 "การฆ่าตัวตายตามพิธีกรรม"
+ tenet_consolamentum_desc:0 "เมื่อเราแก่ชราหรือเจ็บป่วย เราจะประกอบพิธีกรรมเพื่อชำระล้างจิตวิญญาณของเราให้พ้นจากบาป เมื่อเสร็จสิ้นแล้ว เราจะจบชีวิตของเราอย่างรวดเร็วและเด็ดขาด เพื่อไม่ให้บาปมีโอกาสเข้าครอบงำเราอีกครั้ง"
+ doctrine_parameter_consolamentum_active:1 "ผู้นับถือสามารถ [decide|E] ที่จะจบชีวิตตนเองเมื่อแก่ชรา ไร้ความสามารถ หรือใกล้ตาย การกระทำดังกล่าวจะไม่ได้รับบทลงโทษตามปกติจากการฆ่าตัวตาย"
+
+ tenet_gnosticism_name:0 "ไญยนิยม"
+ tenet_gnosticism_desc:0 "ด้วยความรู้ ประกายศักดิ์สิทธิ์ที่สถิตอยู่ภายในมนุษย์ทุกคนอาจได้รับการปลดปล่อยและกลับคืนสู่แหล่งกำเนิดบนสวรรค์ในแดนวิญญาณ"
+ doctrine_parameter_hostility_override_tenet_gnosticism:3 "ถือว่า [faiths|E] แบบไญยนิยมและทวินิยมอื่น ๆ เป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] แทนที่จะเป็น $hostility_hostile_tooltippable$ หรือ $hostility_evil_tooltippable$"
+ doctrine_parameter_hostility_override_special_doctrine_is_gnostic_faith:0 ""
+ doctrine_parameter_granting_titles_gives_stress:0 "การมอบ [titles|E] จะช่วยลด [stress|E] ตามสัดส่วน"
+
+ tenet_mendicant_preachers_name:0 "นักเทศน์ภิกขาจาร"
+ tenet_mendicant_preachers_desc:0 "มิชชันนารีของเราเดินทางไปทั่วทุกสารทิศโดยไม่มีสิ่งใดติดตัวนอกจากเสื้อผ้าที่สวมใส่ พวกเขาดำรงชีวิตอยู่ได้ด้วยความเอื้อเฟื้อของผู้ที่พวกเขาไปเยี่ยมเยียน และแบ่งปันความรู้เกี่ยวกับศรัทธาที่แท้จริงเป็นการตอบแทน"
+ doctrine_parameter_mendicant_preachers_conversion_active:0 "ความเร็วในการเปลี่ยนศรัทธาเคาน์ตี: #P +33#!"
+
+ tenet_communal_identity_name:0 "อัตลักษณ์ชุมชน"
+ tenet_communal_identity_desc:0 "ศรัทธาและวัฒนธรรมของเราเชื่อมโยงกันอย่างแท้จริง แนวปฏิบัตินี้เสริมสร้างความผูกพันในชุมชนของเรา แม้ว่าจะมีแนวโน้มที่จะกีดกันชาวต่างชาติก็ตาม"
+ doctrine_parameter_same_communal_identity_opinion_active:0 "[opinion|E] #P +10#! กับตัวละครที่มี [faith|E] เดียวกัน"
+ doctrine_parameter_same_culture_conversion_bonus_active:1 "ความเร็วในการเปลี่ยนศรัทธาใน [counties|E] ที่มี [culture|E] ของข้าพเจ้า: #P +50%#!"
+ doctrine_parameter_same_faith_promote_culture_bonus_active:1 "ความเร็วในการส่งเสริมวัฒนธรรมใน [counties|E] ที่มี [faith|E] ของข้าพเจ้า: #P +50%#!"
+ doctrine_parameter_other_culture_conversion_penalty_active:1 "ความเร็วในการเปลี่ยนศรัทธาใน [counties|E] ที่มี [culture|E] แตกต่างกัน: #N -50%#!"
+
+ tenet_pentarchy_name:0 "สังฆาธิปไตย"
+ tenet_pentarchy_alternate_name:0 "ปัญจาธิปไตย"
+ tenet_pentarchy_desc:0 "สถานที่ศักดิ์สิทธิ์ของเราเป็นมากกว่าสถานที่ศักดิ์สิทธิ์ — แต่เป็นศูนย์กลางอำนาจที่ผู้นำทางศาสนาของเราปกครอง"
+
+ tenet_aniconism_name:0 "อรูปนิยม"
+ tenet_aniconism_desc:0 "การบูชารูปเคารพได้บดบังผู้คนจำนวนมากเกินไปจากความจริงอันศักดิ์สิทธิ์ เราจะขับไล่รูปเคารพทั้งหมดออกจากสถานที่ศักดิ์สิทธิ์ของเรา เพื่อให้ผู้ศรัทธาของเราไม่ตกไปสู่กับดักนั้น"
+ doctrine_parameter_reforging_artifacts_costs_piety:0 "[rulers|E] ของ [faith|E] นี้ต้องใช้ [piety|E] เพื่อ [reforge|E] หรือ [repair|E] [artifacts|E]"
+ doctrine_parameter_destroying_artifacts_is_pious:0 "[rulers|E] ของ [faith|E] นี้สามารถทำลาย [artifacts|E] เพื่อรับ [piety|E] ได้"
+ destroying_artifacts_is_not_pious_tt:0 "[faith|E] ของท่านไม่สามารถทำลาย [artifacts|E] เพื่อรับ [piety|E] ได้"
+ artifact_is_rarer_than_masterwork_tt:0 "[artifact|E] นี้มี [rarity|E] สูงกว่าระดับ Masterwork"
+
+ tenet_alexandrian_catechism_name:0 "คำสอนแห่งอเล็กซานเดรีย"
+ tenet_alexandrian_catechism_desc:0 "โรงเรียนคำสอนแห่งอเล็กซานเดรียมีประเพณีอันยาวนานในการส่งเสริมให้นักเทววิทยาคิดวิเคราะห์และตั้งคำถามกับสภาพที่เป็นอยู่\n\nแม้ว่าโรงเรียนจะถูกทำลายทางกายภาพไปแล้ว เรายังคงสืบทอดประเพณีเหล่านี้ต่อไป"
+ tenet_islamic_rationalism_name: "เหตุผลนิยมอิสลาม"
+ tenet_islamic_rationalism_desc: "เนื่องจาก [ROOT.Faith.HighGodNameAlternate] ทรงยุติธรรมและปรีชาญาณ [ROOT.Faith.HighGodNameSheHe|U] จึงไม่สามารถขัดต่อเหตุผลหรือเพิกเฉยต่อความเป็นอยู่ที่ดีของสรรพสิ่งที่ [ROOT.Faith.HighGodHerHis|U] ทรงสร้างได้ เพียงผ่านเหตุผลที่ไม่ต้องพึ่งพาสิ่งใดเท่านั้นที่เราจะหวังเข้าใจส่วนของเราในงานอันยิ่งใหญ่ของ [ROOT.Faith.HighGodHerHis|U] และแยกแยะความดีออกจากความชั่วได้"
+
+ tenet_hedonistic_name:0 "สุขนิยม"
+ tenet_hedonistic_desc:0 "พระเจ้าทรงเติมเต็มโลกนี้ด้วยความสุขสำราญมากมาย เพื่อให้เราได้ดื่มด่ำและเพลิดเพลิน — การไม่เข้าร่วมในสิ่งเหล่านั้นถือเป็นการดูหมิ่นต่องานสร้างโลกของพระองค์เอง"
+ doctrine_parameter_piety_from_feasts_active:1 "การจัด [GetActivityType('activity_feast').GetName] จะได้รับ [piety|E]"
+ doctrine_parameter_piety_from_festivals_active: "[AddLocalizationIf( HasDlcFeature( 'all_under_heaven' ), 'doctrine_parameter_piety_from_festivals_active_auh')]" # Only show if you have AUH
+ doctrine_parameter_piety_from_festivals_active_auh: "การจัด [GetActivityType('activity_festival').GetName] จะได้รับ [piety|E]"
+
+ tenet_carnal_exaltation_name:0 "การเชิดชูทางกามารมณ์"
+ tenet_carnal_exaltation_desc:0 "ความสุขทางเนื้อหนังนั้นสูงส่งในลักษณะที่เหนือกว่าประสบการณ์ทางโลกอื่น ๆ ทำให้เราเข้าใกล้พระเจ้ามากขึ้น เราควรเชิดชูความปรารถนาทางเพศของเราและแสวงหาโอกาสที่จะเติมเต็มความปรารถนาเหล่านั้น"
+
+ tenet_polyamory_name:0 "พหุสมร"
+ tenet_polyamory_desc:0 "ความรักที่เรามีต่อกันควรปราศจากเงื่อนไข เช่นเดียวกับความรักของ [ROOT.Faith.FertilityGodNamePossessive] ที่มีต่อเรา เราต้องละทิ้งแนวคิดที่ล้าสมัยเรื่องการที่คนคนหนึ่งเป็นเจ้าของความรักของอีกคนหนึ่ง"
+ doctrine_parameter_no_unfaithfulness_penalty_active:0 "ผู้นับถือจะไม่ได้รับบทลงโทษทาง [opinion|E] หรือ [imprisonment_reasons|E] ต่อคู่สมรสหรือชู้รักของคู่สมรสสำหรับการมีความสัมพันธ์นอกสมรส"
+
+ tenet_unrelenting_faith_name:0 "ศรัทธาอันไม่ย่อท้อ"
+ tenet_unrelenting_faith_desc:0 "ความเชื่อมั่นของเราแข็งแกร่ง และเรายินดีที่จะต่อสู้และตายเพื่อศรัทธาของเรา ไม่ว่าโอกาสจะเลวร้ายเพียงใด เราจะไม่ยอมจำนน"
+ tenet_unrelenting_faith_zandik_name: "กบฏอันชอบธรรม"
+ tenet_unrelenting_faith_zandik_desc: "เราไม่ปรารถนาที่จะทำร้ายจิตวิญญาณใด ๆ หรือสิ่งใด ๆ แต่หากวิถีทางของเราถูกคุกคาม เราจะปกป้องมันด้วยความดุร้ายอย่างไม่ลดละ"
+
+ tenet_rite_name:0 "จารีตพิธี"
+ tenet_rite_desc:0 "ความเชื่อของเราไม่ได้แตกต่างจากศรัทธาแม่ของเรามากนัก... เหตุใดเราจึงต้องโต้เถียงเรื่องรายละเอียดปลีกย่อยในเมื่อเราเห็นพ้องต้องกันในประเด็นหลักของหลักคำสอน และที่สำคัญที่สุดคือ อำนาจสูงสุดในการตัดสินชี้ขาด?"
+ doctrine_parameter_maintains_head_of_faith_on_creation:0 "[faiths|E] ใหม่จะยังคงรักษา [head_of_faith|E] เดิมไว้เมื่อก่อตั้ง"
+ doctrine_parameter_ecumenical_christians_keep_ecumenism:0 "[GetPlayer.Custom('GetRiteEcumenismFullOrEmpty')]"
+ GetRiteEcumenismFullOrEmpty_full:0 "[faiths|E] คริสเตียนที่มี [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName] จะยังคงรักษามันไว้เมื่อก่อตั้ง"
+ GetRiteEcumenismFullOrEmpty_empty:0 ""
+
+ #Muslim Tenets
+ tenet_struggle_submission_name:0 "การดิ้นรนและการยอมจำนน"
+ tenet_struggle_submission_desc:0 "พระประสงค์ของพระเจ้าคือบ่อเกิดแห่งความดีทั้งปวง ดังนั้นการดำรงอยู่อย่างดีจึงตั้งอยู่บนพื้นฐานของการยอมจำนนต่อพระประสงค์นั้น ซึ่งแสดงออกผ่านการดิ้นรน เพื่อให้เป็นไปตามนั้น"
+ doctrine_parameter_bonus_holy_war_piety_active:0 "[piety|E] และ [piety_experience|E] จากการชนะ [holy_wars|E] เพิ่มขึ้น #P 50%#!"
+
+ tenet_religious_legal_pronouncements_name:0 "กฎหมายศาสนา"
+ tenet_religious_legal_pronouncements_hisbah: "ฮิสบะฮ์"
+ tenet_religious_legal_pronouncements_fatwa:0 "ฟัตวา"
+ tenet_religious_legal_pronouncements_halakha:0 "ฮาลาคา"
+ tenet_religious_legal_pronouncements_desc:0 "เส้นแบ่งระหว่างข้อโต้แย้งทางเทววิทยาและกฎหมายนั้นบางเบา และคุณสมบัติทางจิตวิญญาณสามารถและควรได้รับการพิจารณาในการตัดสินคดีทางโลก"
+ doctrine_parameter_temporal_condemnation_enabled:0 "ผู้ปกครองที่มี [learning|E] สูงอาจประณามข้าหลวง [sinful|E] ของตน ยิ่งข้าหลวงทำบาปมากเท่าใด ผู้ปกครองของพวกเขาก็ยิ่งต้องการการเรียนรู้น้อยลงเท่านั้นในการประณามพวกเขา\n$EFFECT_LIST_BULLET$ข้าหลวงที่ถูกประณามจะถูกมองว่าเป็น [criminals|E] และอาจถูกเพิกถอนตำแหน่งได้"
+ doctrine_parameter_religious_legal_pronouncements_law_cost_reduction:0 "ค่าใช้จ่ายด้านกฎหมาย: #P -10%#!"
+ tenet_religious_legal_pronouncements_cost_tooltip:0 "กฎหมายศาสนา: #P -10%#!"
+ tenet_religious_fatwa_cost_tooltip:0 "ฟัตวา: #P -10%#!"
+ tenet_religious_halakha_cost_tooltip:0 "ฮาลาคา: #P -10%#!"
+
+ tenet_false_conversion_sanction_name:0 "การอนุญาตให้เปลี่ยนศรัทธาหลอกลวง"
+ tenet_temporal_condemnation_taqiya:0 "ตะกียะฮ์"
+ tenet_anusim:0 "อานูซิม"
+ tenet_false_conversion_sanction_desc:0 "หากชีวิตของท่านถูกคุกคาม เป็นที่ยอมรับได้ที่จะยอมรับศรัทธาที่ผิดพลาด ตราบใดที่ท่านยังคงรักษาความจริงไว้ในใจ"
+ doctrine_parameter_sanctioned_false_conversion:0 "ความต้านทานการเปลี่ยนศรัทธา: #P +30%#!\n$EFFECT_LIST_BULLET$[characters|E] และ [counties|E] อาจเปลี่ยนกลับมานับถือ [faith|E] นี้ได้ในบางครั้งหากถูกชักนำไปในทางที่ผิด"
+
+ tenet_tax_nonbelievers_name:0 "การเก็บภาษีผู้ไม่ศรัทธา"
+ tenet_tax_nonbelievers_desc:0 "การรับราชการทหารมีไว้สำหรับผู้ศรัทธาเท่านั้น ในขณะที่มีการเรียกเก็บภาษีจากผู้ไม่ศรัทธาเพื่อเป็นการตอบแทนการคุ้มครองที่พวกเขาได้รับ"
+ tenet_tax_nonbelievers_jizya_name:0 "ภาษีญิซยะฮ์"
+
+ tenet_literalism_name:0 "อักษรนิยม"
+ tenet_literalism_desc:0 "คัมภีร์ศักดิ์สิทธิ์ของเรากล่าวถึงเจตจำนงของพระเจ้าไว้อย่างชัดเจน และการตีความของมนุษย์มีคุณค่าจำกัด"
+ doctrine_parameter_literalist_debate_enabled:0 "อาจโต้วาทีกับขุนนางอื่น ๆ ในอาณาจักรโดยเสีย [opinion|E] เพื่อได้รับหรือสูญเสีย [piety|E]"
+
+ tenet_legalism_name:0 "นิตินิยม"
+ tenet_legalism_desc:0 "กฎหมายของเราเป็นผลมาจากภูมิปัญญาและความศรัทธาหลายชั่วอายุคน และการยึดถือกฎหมายเหล่านั้นถือเป็นความศรัทธาโดยเนื้อแท้ คนบาป ไม่ว่าจะเป็นใคร จะไม่มีวันอยู่เหนือกฎหมาย"
+ doctrine_parameter_legalism_reduced_faction_virtues:0 "[vassals|E] และ [counties|E] มีแนวโน้มน้อยลงที่จะเข้าร่วม [factions|E] ต่อต้านผู้ปกครองที่ [virtuous|E]"
+ doctrine_parameter_legalism_increased_faction_sins:0 "[vassals|E] และ [counties|E] มีแนวโน้มมากขึ้นที่จะเข้าร่วม [factions|E] ต่อต้านผู้ปกครองที่ [sinful|E]"
+ doctrine_parameter_legalism_modified_law_costs:1 "ลดค่าใช้จ่ายด้านกฎหมายลง #P -10%#! สำหรับ แต่ละ [virtue|E] ที่ผู้ปกครองมี"
+ doctrine_parameter_legalism_modified_law_costs_2:0 "เพิ่มค่าใช้จ่ายด้านกฎหมายขึ้น #N 10%#! สำหรับ แต่ละ [sin|E] ที่ผู้ปกครองมี"
+ doctrine_parameter_legalism_trust_just_leader_active:1 "[electors|E] ภายใต้ประเภท [succession|E] แบบเลือกตั้งมีแนวโน้มมากขึ้นที่จะลงคะแนนให้กับตัวเลือกของ [liege|E] ของตนหากเจ้าเหนือหัวของพวกเขาคือ $trait_just$"
+ tenet_legalism_law_cost_tooltip:0 "[legalism|E]:\n  บาปและคุณธรรมของข้าพเจ้าส่งผลกระทบต่อสิ่งนี้โดย: [SCOPE.ScriptValue('legalism_law_cost_modifier')|-0%]"
+ 
+ tenet_reincarnation_name:0 "การกลับชาติมาเกิด"
+ tenet_reincarnation_desc:0 "เราได้ใช้ชีวิตมาหลายชาติภพก่อนหน้านี้ และจะยังคงใช้ชีวิตต่อไปอีกหลายชาติภพหลังจากนี้ ทุกความตายเป็นเพียงจุดเริ่มต้นของสิ่งใหม่"
+ tenet_reincarnation_zoroastrian_name: "รัจอะฮ์"
+ tenet_reincarnation_zoroastrian_desc: "เช่นเดียวกับที่เทพเจ้าสามารถจุติในร่างมนุษย์ได้ เราก็อาจเกิดใหม่ได้ เช่นกัน ผู้ทำความดีจะได้รับรางวัลเป็นรูปลักษณ์แห่งความงามและความบริสุทธิ์ และในที่สุดอาจกลายเป็นทูตสวรรค์แห่งแสงบริสุทธิ์"
+ doctrine_parameter_reincarnation_resistance_to_conversion:0 "ความต้านทานการเปลี่ยนศรัทธาเคาน์ตี: #P +20%#!"
+ doctrine_parameter_reincarnation_events_active:1 "เด็กมีโอกาสที่จะถูกพิจารณาว่าเป็นการกลับชาติมาเกิดของบรรพบุรุษ ทำให้ได้รับโบนัส [piety|E] และ [opinion|E]"
+
+ tenet_esotericism_name:0 "คุยหลัทธิ"
+ tenet_esotericism_kabbalah:0 "คับบาลาห์"
+ tenet_esotericism_desc:0 "ความลี้ลับอันยิ่งใหญ่ของพระเจ้าอาจอยู่เหนือความเข้าใจของมนุษย์ แต่นั่นไม่ใช่ข้ออ้างสำหรับความไม่รู้ การดำรงอยู่ของสิ่งเหล่านั้นเองกระตุ้นให้เราแสวงหาความรู้และความเข้าใจเกี่ยวกับโลกรอบตัวเรา"
+ doctrine_parameter_tenet_esotericism_mystic_education:2 "เด็กที่มี [education_focus|E] ด้าน [learning|E] อาจได้รับลักษณะนิสัย [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] หากพวกเขาทำผลงานการศึกษาได้ดี"
+ tenet_esotericism_kabbalah_desc:0 "คำสอนของคับบาลาห์นำมา ซึ่งความเข้าใจของมนุษย์เกี่ยวกับความสัมพันธ์ระหว่างพระเจ้าผู้เป็นนิรันดร์ ธรรมชาติแห่งอนันต์ที่เรียกว่า เอน โซฟ และการสร้างโลกของพระเจ้า คับบาลาห์เป็นพื้นฐานสำหรับเวทมนตร์คาถาของชาวยิวทั้งหมด และผู้ปฏิบัติคับบาลาห์มักจะมีส่วนร่วมกับสำนักยิวอื่น ๆ"
+ tenet_religious_kabbalah_cost_tooltip:0 "คับบาลาห์: #P -10%#!"
+
+ #Eastern Tenets
+ tenet_adaptive_name:0 "ปรับตัวได้"
+ tenet_adaptive_desc:0 "การยึดมั่นในข้อจำกัดเก่า ๆ อย่างเคร่งครัดมี แต่จะทำร้ายผู้ศรัทธา ตราบใดที่เรายังคงยึดมั่นในความเชื่อหลักของศรัทธาของเรา เราอาจปรับกฎหมายของเราให้เข้ากับโลกรอบตัวได้"
+ doctrine_parameter_tenet_adaptive_conversion_resistance:0 "ความต้านทานการเปลี่ยนศรัทธาเคาน์ตี: #P +30%#!"
+ doctrine_parameter_reduced_vassal_religion_discontent:1 "[vassals|E] นอกรีตมีแนวโน้มน้อยลงที่จะเข้าร่วม [factions|E] เรียกร้องเอกราชและประชานิยม"
+ doctrine_parameter_immaterial_harmony_conversion_cost_reduced: "ค่าใช้จ่าย [piety_i|E][piety|E] ในการเปลี่ยนไปนับถือ [faith|E] อื่นที่มี [doctrine|E] นี้: #P -50%#!"
+ doctrine_parameter_immaterial_harmony_buddhist_take_vows: "[faiths|E] ที่เป็น [GetReligionByKey('buddhism_religion').GetAdjective] อาจใช้ [interaction|E] #V $take_vows_interaction$#!"
+
+ tenet_inner_journey_name:0 "การเดินทางภายใน"
+ tenet_inner_journey_desc:0 "เพียงแค่เข้าใจตนเองเท่านั้นที่เราจะเข้าใจโลกได้ การเดินทางเพื่อค้นพบตนเองมีความสำคัญพอ ๆ กับความยาวนานและความยากลำบาก"
+ doctrine_parameter_meditation_mechanics_active:0 "ตัวละครสามารถ [decide|E] ที่จะทำสมาธิในที่ ความเงียบสงบ, ลด [stress|E] และอาจได้รับข้อมูลเชิงลึกทางเทววิทยา"
+
+ tenet_dharmic_pacifism_name:0 "สันตินิยมแบบธรรมะ"
+ tenet_dharmic_pacifism_desc:0 "เราทุกคนเป็นส่วนหนึ่งของระเบียบจักรวาล ความรุนแรงต่อสิ่งใด ๆ คือความรุนแรงต่อทุกสิ่ง รวมถึงตนเองด้วย"
+
+ tenet_bhakti_name:0 "ภักติ"
+ tenet_bhakti_patron_god_name:0 "เทพอุปถัมภ์"
+ tenet_bhakti_desc:0 "มนุษย์ไม่สามารถดำเนินชีวิตให้สมกับพระสิริอันสมบูรณ์ของพระเจ้าได้ แต่โดยการเลือกแง่มุมหนึ่งของความเป็นพระเจ้าเพื่อเลียนแบบ บูชา และอุทิศตน เราสามารถเข้าใกล้พระองค์ได้มากกว่าที่จะเป็นไปได้"
+ doctrine_parameter_select_personal_god_active:1 "ผู้ปกครองสามารถ [decide|E] ที่จะเลือกอวตารส่วนตัวเพื่อเคารพบูชา โดยจะได้รับโบนัสที่เกี่ยวข้อง"
+
+ tenet_asceticism_name:0 "สมถะนิยม"
+ tenet_asceticism_desc:0 "การแสวงหาทางวัตถุนิยม ทำให้เรามองไม่เห็นความจริงอันศักดิ์สิทธิ์ เพียงแค่การอุทิศตนเพื่อใช้ชีวิตเรียบง่ายปราศจากความหรูหราเท่านั้นจึงจะบรรลุการรู้แจ้งทางจิตวิญญาณได้ "
+
+ tenet_ritual_hospitality_name:0 "การต้อนรับตามพิธีกรรม"
+ tenet_ritual_hospitality_alternate_name:0 "พิธีบูชา"
+ tenet_ritual_hospitality_desc:0 "การต้อนรับขับสู้เป็นหนึ่งในคุณธรรมอันยิ่งใหญ่ที่สุดที่มนุษยชาติสามารถแสดงออกได้ แขกในบ้านของเรา ไม่ว่าจะเป็นมนุษย์หรือเทพเจ้า ควรได้รับการปฏิบัติด้วยเกียรติและความเคารพสูงสุดเสมอ"
+ doctrine_parameter_host_honored_guests_active:0 "[rulers|E] สามารถต้อนรับตัวละครอื่น ๆ ในฐานะแขกผู้มีเกียรติ โดยใช้ [piety|E] เพื่อแลกกับ [opinion|E] ที่เพิ่มขึ้น"
+
+ #Pagan tenets
+ tenet_warmonger_name:0 "นิยมสงคราม"
+ tenet_warmonger_desc:0 "ศรัทธาและสงครามเป็นของคู่กัน ผู้ที่ปฏิเสธที่จะต่อสู้ในนามของพระเจ้าไม่สามารถเรียกได้ว่าเป็นผู้ศรัทธาที่แท้จริง"
+ doctrine_parameter_conquest_cb_enabled:0 "[rulers|E] มี [casus_belli|E] การพิชิตต่อผู้ปกครองเพื่อนบ้าน"
+ doctrine_parameter_faith_can_raid:0 "อนุญาตให้ [raiding|E] [counties|E] ต่างชาติเพื่อปล้นสะดม"
+ doctrine_parameter_invasion_cb_enabled:0 "[rulers|E] ที่มีชื่อเสียงสามารถใช้ [casus_belli|E] การรุกรานได้หนึ่งครั้งต่อชีวิต"
+ doctrine_parameter_great_holy_wars_active_if_reformed:1 "หากมีอยู่ [head_of_faith|E] สามารถประกาศ [great_holy_wars|E] ได้ หาก [faith|E] นี้เป็นแบบ [organized|E]"
+
+ tenet_ancestor_worship_name:0 "การบูชาบรรพบุรุษ"
+ tenet_ancestor_worship_desc:0 "บรรพบุรุษของเราเฝ้าดูเราจากโลกหลังความตาย นำทางเราและชี้ทางให้เราก้าวต่อไป ด้วยเหตุนี้เราจึงต้องเคารพและให้เกียรติพวกเขา"
+
+ tenet_adorcism_name:0 "การบูชาวิญญาณ"
+ tenet_adorcism_desc:0 "วิญญาณแห่งโลกนี้สามารถสร้างผลงานอันยิ่งใหญ่ได้ทั้งดีและชั่ว โดยการให้เกียรติและเคารพพวกเขา เราทำได้เพียงหวังว่าพวกเขาจะทำความดีต่อเราและทำความชั่วต่อศัตรูของเรา"
+ doctrine_parameter_spirit_possession_active:1 "เปิดใช้งาน [decision|E] 'ขอความช่วยเหลือจากวิญญาณ'"
+
+ tenet_ritual_celebrations_name:0 "การเฉลิมฉลองตามพิธีกรรม"
+ tenet_ritual_celebrations_desc:1 "การนมัสการพระเจ้าเป็นสิ่งที่ควรยกย่องและแบ่งปันกับชุมชนของเรา การจัดเทศกาลอันยิ่งใหญ่เพื่อเป็นเกียรติและสรรเสริญพระเจ้านำพาเราทุกคนมารวมกัน"
+ doctrine_parameter_mandatory_feast_attendance:0 "[vassals|E] มีแนวโน้มมากขึ้นที่จะเข้าร่วมงานเลี้ยงของท่าน ผู้ที่ยังคงปฏิเสธที่จะมาจะสูญเสีย [piety|E] จากการกระทำดังกล่าว"
+
+ tenet_sky_burials_name:0 "พิธีศพบนฟ้า"
+ tenet_sky_burials_desc:1 "ผู้ตายไม่ควรถูกกักขังอยู่ใต้ดิน — เป็นการดีกว่ามากที่จะปล่อยให้พวกเขาถูกนกแร้งกิน ซึ่งเป็นการกระทำอันเอื้อเฟื้อครั้งสุดท้ายที่พวกเขาสามารถเลี้ยงดูโลกที่เคยเลี้ยงดูพวกเขาได้"
+ doctrine_parameter_sky_burials_active:3 "[rulers|E] สามารถจัดพิธีศพบนฟ้าให้บรรพบุรุษของตนได้ โดยได้รับ [piety|E] และ ทำให้ [vassals|E] พอใจ\n$EFFECT_LIST_BULLET$สามารถสร้าง [duchy_building|E] [GetBuilding('charnel_grounds_01').GetName] ได้"
+ can_build_towers_of_silence_active_name: "ความสามารถในการใช้ [duchy_building|E] [GetBuilding('tower_of_silence_01').GetName]"
+ doctrine_parameter_can_build_towers_of_silence_active: "[vassals|E] อาจสร้าง [duchy_building|E] [GetBuilding('tower_of_silence_01').GetName] เพื่อเสริมความกระตือรือร้นของ [county|E] — #EMP หาก#! [faith|E] ของ [liege|E] ของพวกเขาไม่ได้เข้าร่วมใน $tenet_sky_burials_name$"
+
+ tenet_sacred_childbirth_name:0 "การคลอดบุตรอันศักดิ์สิทธิ์"
+ tenet_sacred_childbirth_alternate_name:0 "คูดิกิส เลมติ"
+ tenet_sacred_childbirth_desc:0 "โรงอาบน้ำที่มารดาให้กำเนิดบุตรจะต้องได้รับการชำระล้างและเตรียมพร้อมด้วยพิธีกรรมที่เหมาะสม เพื่อกระตุ้นให้พระเจ้าประทานพรแก่เราในระหว่างการคลอดบุตร"
+ doctrine_parameter_safer_childbirths_active:0 "มารดามีโอกาสเสียชีวิตในการคลอดบุตร #P น้อยลง#! "
+ doctrine_parameter_healthier_children_active:0 "เด็กมีโอกาสเจ็บป่วยหรือตายคลอด #P น้อยลง#! "
+ doctrine_parameter_piety_from_childbirth_active:0 "มารดาและบิดาได้รับ [piety|E] เมื่อบุตรของตนเกิด"
+ piety_from_childbirth_toast:0 "การคลอดบุตรอันศักดิ์สิทธิ์"
+
+ tenet_sanctity_of_nature_name:0 "ความศักดิ์สิทธิ์ของธรรมชาติ"
+ tenet_sanctity_of_nature_desc:1 "โลกธรรมชาติคือการสร้างสรรค์ของพระเจ้า และเราเป็นเพียงแขกในนั้น เราต้องเคารพและให้เกียรติต้นไม้ทุกต้น สัตว์ทุกตัว และแม้ แต่พื้นดินเอง"
+ # This parameter does nothing; it's just here to flag the tenet's nature silently so we can reference it without directly tagging the tenet.
+ doctrine_parameter_believes_in_harmony_with_nature_invisible:0 ""
+
+ tenet_mystical_birthright_name:0 "สิทธิ์โดยกำเนิดอันเป็นมงคล"
+ tenet_mystical_birthright_alternate:0 "ตาลโตส ซือเลเตช"
+ tenet_mystical_birthright_desc:0 "เราทุกคนเกิดมาพร้อมกับโชคชะตา ที่สำคัญที่สุดคือชะตาของ ตาลโตส — ผู้ที่ได้รับเลือกตั้งแต่เกิดให้ใช้พลังเวทมนตร์และกลายเป็นผู้นำทางจิตวิญญาณที่ยิ่งใหญ่"
+ doctrine_parameter_mystic_birthright_active:1 "เด็กอาจเกิดมาพร้อมกับลักษณะนิสัย [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] ได้ยาก"
+
+ tenet_astrology_name:0 "โหราศาสตร์"
+ tenet_astrology_desc:0 "ท้องฟ้ายามค่ำคืนคือหน้าต่างของเราสู่แดนศักดิ์สิทธิ์ ความลับและความลี้ลับอันยิ่งใหญ่ของโลกถูกเขียนไว้ที่นั่น เปิดให้ทุกคนได้เรียนรู้หากพวกเขารู้ว่าจะมองหาที่ใด"
+ doctrine_parameter_divine_the_stars_active:0 "อนุญาตให้ผู้นับถือทำนายดวงดาวและพยากรณ์อนาคตของตนได้"
+ tenet_divination_name: "การทำนาย"
+ tenet_divination_desc: "ชะตากรรมของมนุษย์และอนาคตของโลกถูกเขียนไว้ในดวงดาวและในสัญญาณที่ซ่อนเร้น และผ่านพิธีกรรม ความฝัน และลางบอกเหตุ ผู้ปฏิบัติที่เชี่ยวชาญสามารถทำนายความลับเหล่านี้จากวิญญาณที่อยู่เหนือกว่าได้"
+
+ tenet_sun_worship_name:0 "การบูชาพระอาทิตย์"
+ tenet_sun_worship_desc:0 "ผู้ให้แสงสว่าง ผู้ให้ชีวิต เปลวไฟที่ลุกโชนตลอดกาล — มันครองราชย์อยู่สูงบนท้องฟ้าในฐานะเจ้าผู้ครองโลกที่แท้จริง"
+ doctrine_parameter_summer_festivals_active:0 "การจัดงานเลี้ยงในฤดูร้อนจะได้รับ [piety|E]"
+ doctrine_parameter_trial_by_sun_active:0 "[criminals|E] ที่ถูกคุมขังสามารถถูกตัดสินให้เข้ารับการพิจารณาคดีด้วยพระอาทิตย์ได้"
+
+ # Syncretic Tenets
+ #Not referenced in-game anywhere by itself, but used to control other opinion title copy:
+ faith_syncretic_opinion_active_control:0 "การผสานความเชื่อกับศรัทธา"
+ faith_syncretic_popular_opinion_active_control:0 "[holder|E] ผสานความเชื่อกับ [faith|E] ท้องถิ่น"
+ unreformed_syncretic_recipient_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
+ unreformed_syncretic_actor_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
+ christian_syncretic_recipient_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
+ christian_syncretic_actor_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
+ islamic_syncretic_recipient_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
+ islamic_syncretic_actor_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
+ jewish_syncretic_recipient_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
+ jewish_syncretic_actor_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
+ eastern_syncretic_recipient_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
+ eastern_syncretic_actor_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
+ sinitic_syncretic_recipient_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
+ sinitic_syncretic_actor_opinion_active_opinion_name:0 "$faith_syncretic_opinion_active_control$"
+ unreformed_syncretic_recipient_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
+ unreformed_syncretic_actor_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
+ jewish_syncretic_recipient_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
+ jewish_syncretic_actor_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
+ christian_syncretic_recipient_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
+ christian_syncretic_actor_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
+ islamic_syncretic_recipient_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
+ islamic_syncretic_actor_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
+ eastern_syncretic_recipient_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
+ eastern_syncretic_actor_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
+ sinitic_syncretic_recipient_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
+ sinitic_syncretic_actor_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
+
+ tenet_eastern_syncretism_name: "การผสานความเชื่อแบบ$rf_eastern$"
+ tenet_eastern_syncretism_desc:0 "มีบางสิ่งที่เรียนรู้ได้จากวิธีที่ศาสนาตะวันออกต่าง ๆ อดทนอดกลั้นต่อกัน พวกเขาอาจไม่ได้ปฏิบัติตามศรัทธาที่แท้จริง แต่นั่นไม่ได้ ทำให้พวกเขาชั่วร้าย"
+ doctrine_parameter_hostility_override_eastern_hostility_doctrine: "[faiths|E] [GetReligionFamily('rf_eastern').GetName] จะถูกพิจารณาว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] เท่านั้น"
+ #Instead, add these doctrine parameters to appropriate tenets (presently Dharmic Syncretism).
+ doctrine_parameter_is_eastern_faith_bilateral_loc_override: "พิจารณา [faiths|E] [GetReligionFamily('rf_eastern').GetName], และถูกพิจารณาโดย $game_concept_faiths$ $rf_eastern$ ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] แทนที่จะเป็น $hostility_evil_tooltippable$"
+ doctrine_parameter_hostility_override_special_doctrine_is_eastern_faith: "พิจารณา [faiths|E] [GetReligionFamily('rf_eastern').GetName], และถูกพิจารณาโดย $game_concept_faiths$ $rf_eastern$ ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] แทนที่จะเป็น $hostility_evil_tooltippable$"
+ doctrine_parameter_eastern_syncretic_actor_opinion_active: "โบนัส [opinion|E] ร่วมกัน [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] กับ [faiths|E] [GetReligionFamily('rf_eastern').GetName]"
+ doctrine_parameter_opinion_of_eastern_syncretic_recipient_opinion_active:0 ""
+ doctrine_parameter_eastern_syncretic_recipient_opinion_active:0 "โบนัส [opinion|E] ร่วมกัน [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] กับ [faiths|E] ที่มี [core_tenet|E] $tenet_eastern_syncretism_name$"
+ doctrine_parameter_opinion_of_eastern_syncretic_actor_opinion_active:0 ""
+
+ tenet_sinitic_syncretism_name:0 "การผสานความเชื่อแบบจีน"
+ tenet_sinitic_syncretism_desc:0 "เราสามารถเรียนรู้จากศาสนาโบราณแบบจีนได้. ตลอดหลายศตวรรษและสหัสวรรษ พวกเขาได้เป็นแรงบันดาลใจในการดำเนินชีวิตอย่างชอบธรรมและศีลธรรมอันดีงาม"
+ doctrine_parameter_hostility_override_sinitic_hostility_doctrine:1 "[faiths|E] แบบจีน ถูกพิจารณาว่าเป็นเพียง [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ #Instead, add these doctrine parameters to appropriate tenets (presently Dharmic Syncretism).
+ doctrine_parameter_is_sinitic_faith_bilateral_loc_override:0 "พิจารณา [faiths|E] แบบจีน, และถูกพิจารณาโดย $game_concept_faiths$ แบบจีน, ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] แทนที่ $hostility_evil_tooltippable$"
+ doctrine_parameter_hostility_override_special_doctrine_is_sinitic_faith:0 "พิจารณา [faiths|E] แบบจีน, และถูกพิจารณาโดย $game_concept_faiths$ แบบจีน, ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] แทนที่ $hostility_evil_tooltippable$"
+ doctrine_parameter_sinitic_syncretic_actor_opinion_active:0 "โบนัส [opinion|E] ร่วมกัน [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] กับ [faiths|E] แบบจีน"
+ doctrine_parameter_opinion_of_sinitic_syncretic_recipient_opinion_active:0 ""
+ doctrine_parameter_sinitic_syncretic_recipient_opinion_active:0 "โบนัส [opinion|E] ร่วมกัน [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] กับ [faiths|E] ที่มี [core_tenet|E] $tenet_sinitic_syncretism_name$"
+ doctrine_parameter_opinion_of_sinitic_syncretic_actor_opinion_active:0 ""
+
+ tenet_unreformed_syncretism_name:0 "ประเพณีพื้นบ้านแบบผสานความเชื่อ"
+ tenet_unreformed_syncretism_desc:0 "เราเป็นใครที่จะบอกผู้อื่นว่าประเพณีของพวกเขาไม่เป็นความจริง? ไม่ใช่หน้าที่ของเราที่จะสั่งสอนพวกเขาเกี่ยวกับประเพณีที่พวกเขาปฏิบัติมานานหลายศตวรรษ: แต่เราควรเรียนรู้วิถีทางของพวกเขาอย่างเงียบ ๆ"
+ doctrine_parameter_hostility_override_unreformed_faith_doctrine:2 "ถือว่า [faiths|E] [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] และถูกถือโดย $game_concept_faiths$ [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseNameNoTooltip] ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] แทนที่จะเป็น $hostility_evil_tooltippable$"
+ doctrine_parameter_hostility_override_west_african_unreformed_faith_doctrine:0 "ถือว่า [faiths|E] [GetFaithDoctrine('west_african_unreformed_faith_doctrine').GetBaseName] แอฟริกัน และถูกถือโดย $game_concept_faiths$ [GetFaithDoctrine('west_african_unreformed_faith_doctrine').GetBaseNameNoTooltip] แอฟริกัน ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] แทนที่จะเป็น $hostility_evil_tooltippable$"
+ doctrine_parameter_unreformed_syncretic_actor_opinion_active:2 "โบนัส [opinion|E] ร่วมกัน [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] กับ [faiths|E] [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName]"
+ doctrine_parameter_opinion_of_unreformed_syncretic_recipient_opinion_active:0 ""
+ doctrine_parameter_unreformed_syncretic_recipient_opinion_active:1 "โบนัส [opinion|E] ร่วมกัน [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] กับ [faiths|E] ที่มี [core_tenet|E] $tenet_unreformed_syncretism_name$"
+ doctrine_parameter_opinion_of_unreformed_syncretic_actor_opinion_active:0 ""
+ doctrine_parameter_unreformed_syncretic_conversion_malus_active:0 "ความเร็วพื้นฐานในการเปลี่ยนศรัทธาที่ผสานความเชื่อลดลง [EmptyScope.ScriptValue('conversion_syncretic_with_religion_malus_efficancy_procentage')|-0%]"
+
+ tenet_christian_syncretism_name:0 "การผสานความเชื่อคริสเตียน"
+ tenet_christian_syncretism_desc:0 "พระเยซูแห่งนาซาเร็ธอาจไม่ใช่เทพเจ้าที่แท้จริง แต่พระองค์ก็ยังคงเป็นบุคคลที่น่ายกย่องและมีคุณธรรม เราควรให้เกียรติและเคารพคำสอนของพระองค์"
+ #This is deliberately left blank. It should not be deleted or filled in: such will break the loc.
+ doctrine_parameter_hostility_override_special_doctrine_is_christian_faith:1 ""
+ #Instead, add these doctrine parameters to appropriate tenets (presently Christian Syncretism & Pastoral Isolation).
+ doctrine_parameter_is_christian_faith_bilateral_loc_override:2 "ถือว่า [faiths|E] คริสเตียน และถูกถือโดย $game_concept_faiths$ คริสเตียน ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] แทนที่จะเป็น $hostility_evil_tooltippable$"
+ doctrine_parameter_is_christian_faith_pastoral_isolation_loc_override:1 "ถือว่า [faiths|E] คริสเตียนอื่น ๆ เป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] เสมอ โดยไม่คำนึงถึงความแตกต่างทางหลักคำสอน"
+ doctrine_parameter_can_use_christian_artefacts:0 "สามารถใช้ [artifacts|E] คริสเตียนได้เต็มประโยชน์"
+ doctrine_parameter_christian_syncretic_actor_opinion_active:1 "โบนัส [opinion|E] ร่วมกัน [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] กับ [faiths|E] คริสเตียน"
+ doctrine_parameter_opinion_of_christian_syncretic_recipient_opinion_active:0 ""
+ doctrine_parameter_christian_syncretic_recipient_opinion_active:1 "โบนัส [opinion|E] ร่วมกัน [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] กับ [faiths|E] ที่มี [core_tenet|E] $tenet_christian_syncretism_name$"
+ doctrine_parameter_opinion_of_christian_syncretic_actor_opinion_active:0 ""
+ doctrine_parameter_hostility_override_special_doctrine_adoptionist_school_felicitous_doctrine:0 ""
+ doctrine_parameter_hostility_override_special_doctrine_adoptionist_school_radical_doctrine:0 ""
+ doctrine_parameter_adoptionists_like_ecumenism:0 "ถือว่า [faiths|E] $christianity_religion_adj$ ที่มี [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName] เป็น $hostility_astray_tooltippable$ แทนที่จะเป็น $hostility_hostile_tooltippable$"
+ doctrine_parameter_adoptionists_are_unilateral_hostile:0 "[faiths|E] $christianity_religion_adj$ อื่น ๆ ถือว่าพวกเขาเป็นเพียง $hostility_hostile_tooltippable$ ในขณะที่ $adoptionist_adherent_plural$ ที่ไม่ละเอียดอ่อนจะถูกถือว่าเป็น $hostility_evil_tooltippable$"
+ doctrine_parameter_adoptionists_are_unilateral_evil:0 "[faiths|E] $christianity_religion_adj$ อื่น ๆ ถือว่าพวกเขาเป็น $hostility_evil_tooltippable$"
+ doctrine_parameter_adoptionists_are_mutual_evil:0 "ถือว่า และถูกถือโดย $christianity_religion_adherent_plural$ อื่น ๆ ทั้งหมด ว่าเป็น $hostility_evil_tooltippable$"
+ doctrine_parameter_adoptionist_school_removed_on_reformation:0 "ความแตกต่างอันละเอียดอ่อนของสำนักนี้จะสูญหายไป #EMP อย่างถาวร#! เมื่อ [reformation|E]"
+ doctrine_parameter_adoptionists_attractively_intuitive_theology:0 "ความเร็วในการเปลี่ยนศรัทธา [EmptyScope.ScriptValue('fp2_lyonese_monk_conversion_bonus_root_value')|=+%0] ต่อ [faiths|E] [GetReligionByKey('christianity_religion').GetAdjective] อื่น ๆ"
+
+ tenet_islamic_syncretism_name:0 "การผสานความเชื่ออิสลาม"
+ tenet_islamic_syncretism_desc:0 "วจนะของศาสดานั้นฉลาดและยุติธรรมอย่างไม่อาจโต้แย้งได้ และไม่ว่าเราจะมีความสงสัยอื่นใด เราควรใส่ใจในความคิดและการกระทำของท่าน"
+ doctrine_parameter_hostility_override_special_doctrine_is_islamic_faith:2 "ถือว่า [faiths|E] อิสลาม และถูกถือโดย $game_concept_faiths$ อิสลาม ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] แทนที่จะเป็น $hostility_evil_tooltippable$"
+ doctrine_parameter_can_use_islamic_artefacts:0 "สามารถใช้ [artifacts|E] อิสลามได้เต็มประโยชน์"
+ doctrine_parameter_islamic_syncretic_actor_opinion_active:1 "โบนัส [opinion|E] ร่วมกัน [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] กับ [faiths|E] อิสลาม"
+ doctrine_parameter_opinion_of_islamic_syncretic_recipient_opinion_active:0 ""
+ doctrine_parameter_islamic_syncretic_recipient_opinion_active:1 "โบนัส [opinion|E] ร่วมกัน [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] กับ [faiths|E] ที่มี [core_tenet|E] $tenet_islamic_syncretism_name$"
+ doctrine_parameter_opinion_of_islamic_syncretic_actor_opinion_active:0 ""
+
+ tenet_jewish_syncretism_name:0 "การผสานความเชื่อยิว"
+ tenet_jewish_syncretism_desc:0 "แม้ว่าเราจะไม่เห็นด้วยกับการอ้างสิทธิ์เกี่ยวกับประชากรที่พระเจ้าทรงเลือก แต่ภูมิปัญญาของโตราห์ของชาวยิวนั้นไม่อาจปฏิเสธได้ และมี มากมาย ที่จะเรียนรู้จากข้อความนั้น"
+ doctrine_parameter_hostility_override_special_doctrine_is_jewish_faith:2 "ถือว่า [faiths|E] ยิว และถูกถือโดย $game_concept_faiths$ ยิว ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] แทนที่จะเป็น $hostility_evil_tooltippable$"
+ doctrine_parameter_can_use_jewish_artefacts:0 "สามารถใช้ [artifacts|E] ยิวได้เต็มประโยชน์"
+ doctrine_parameter_jewish_syncretic_actor_opinion_active:1 "โบนัส [opinion|E] ร่วมกัน [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] กับ [faiths|E] ยิว"
+ doctrine_parameter_opinion_of_jewish_syncretic_recipient_opinion_active:0 ""
+ doctrine_parameter_jewish_syncretic_recipient_opinion_active:1 "โบนัส [opinion|E] ร่วมกัน [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] กับ [faiths|E] ที่มี [core_tenet|E] $tenet_jewish_syncretism_name$"
+ doctrine_parameter_opinion_of_jewish_syncretic_actor_opinion_active:0 ""
+
+ # Additional Tenets
+ tenet_ritual_cannibalism_name:0 "การกินเนื้อมนุษย์ตามพิธีกรรม"
+ tenet_ritual_cannibalism_desc:0 "มนุษยชาติได้รับพรให้ได้รับประกายแห่งพระเจ้า เนื้อหนังของมนุษย์จึงศักดิ์สิทธิ์ การดำรงอยู่ของมันเป็นสิ่งที่ควรลิ้มรส ไม่ใช่ฝังหรือเผา"
+ doctrine_parameter_cannibalism_legal:0 "ลักษณะนิสัย [GetTrait('cannibal').GetName( GetNullCharacter )] ไม่ถือว่าเป็น [criminal|E] อีกต่อไป"
+
+ tenet_exaltation_of_pain_name:0 "การเชิดชูความเจ็บปวด"
+ tenet_exaltation_of_pain_desc:0 "ความเจ็บปวดเป็นอารมณ์สากล ความรุนแรงเป็นภาษาสากล การมอบความเจ็บปวดให้ผู้อื่นคือการให้พรแก่พวกเขา ดังนั้นการได้รับความเจ็บปวดด้วยตนเองคือการได้รับพระคุณ"
+ doctrine_parameter_torturing_prisoners_grants_piety:0 "การทรมาน [prisoners|E] จะได้รับ [piety|E] แทนที่จะเสีย [piety|E]"
+ doctrine_parameter_reduced_stress_from_torture:0 "ผู้นับถือมีความต้านทานต่อผลกระทบด้านลบของการถูกทรมาน"
+ doctrine_parameter_self_mutilation_active:0 "สามารถ [decide|E] ที่จะทำร้ายตนเอง โดยได้รับ [piety|E] แต่ต้องแลกกับการได้รับ [trait|E] [GetTrait('wounded_1').GetName( GetPlayer )]"
+ self_mutilation_active_name: "[GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName]"
+ self_mutilation_minor_piety_gain_tt: "[THIS.Char.GetShortUIName|U] ได้รับ[_s(THIS.Char)] [piety_i]#P [THIS.ScriptValue('minor_piety_gain')]#! เนื่องจาก [core_tenet|E] [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] ของ [CharYourHerHis(THIS.Char)]"
+ self_mutilation_medium_piety_gain_tt: "[THIS.Char.GetShortUIName|U] ได้รับ[_s(THIS.Char)] [piety_i]#P [THIS.ScriptValue('medium_piety_gain')]#! เนื่องจาก [core_tenet|E] [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] ของ [CharYourHerHis(THIS.Char)]"
+ self_mutilation_major_piety_gain_tt: "[THIS.Char.GetShortUIName|U] ได้รับ[_s(THIS.Char)] [piety_i]#P [THIS.ScriptValue('major_piety_gain')]#! เนื่องจาก [core_tenet|E] [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] ของ [CharYourHerHis(THIS.Char)]"
+
+ tenet_sacred_shadows_name:0 "คำลวงอันศักดิ์สิทธิ์"
+ tenet_sacred_shadows_desc:0 "การโกหกเป็นศิลปะที่ลึกซึ้งที่สุดในโลก ผู้ที่สามารถโน้มน้าวผู้อื่นให้เชื่อคำโกหกของตนได้นั้นศักดิ์สิทธิ์ ผู้ที่สามารถโกหกตัวเองได้สำเร็จนั้นไม่มีใครหยุดยั้งได้"
+ doctrine_parameter_piety_gain_from_successful_intrigue_schemes:0 "ผู้นับถือได้รับศรัทธาจากการทำ [schemes|E] ด้าน [intrigue|E] สำเร็จ"
+ doctrine_parameter_adherents_more_likely_to_join_schemes:0 "ผู้นับถือเต็มใจที่จะเป็นตัวแทนใน [schemes|E] ของตัวละครอื่น ๆ มากขึ้น"
+
+ tenet_pursuit_of_power_name:0 "การแสวงหาอำนาจ"
+ tenet_pursuit_of_power_desc:0 "สิ่งที่ชอบธรรมและไม่ชอบธรรมนั้นไม่จีรัง ถูกกำหนดโดยผู้ที่กุมอำนาจอยู่ในปัจจุบัน ซึ่งหมายความว่าการแสวงหาอำนาจเป็นสาเหตุเดียวที่ชอบธรรมอย่างแท้จริง"
+
+ tenet_pastoral_isolation_name:0 "การแยกตัวแบบอภิบาล"
+ tenet_pastoral_isolation_desc:0 "สิ่งที่เราต้องการคือการถูกปล่อยให้อยู่ตามลำพัง แนวปฏิบัติของเราเป็นของเราเอง และไม่ใช่ธุระของใครอื่นมากไปกว่าที่แนวปฏิบัติของพวกเขาเป็นของเรา"
+ doctrine_parameter_unattractive_for_character_conversions:0 "[characters|E] แต่ไม่ใช่ [counties|E] เต็มใจที่จะถูกเปลี่ยนศรัทธาออกจาก [faith|E] นี้มากขึ้น"
+
+ tenet_natural_primitivism_name:0 "บุพกาลนิยมธรรมชาติ"
+ tenet_natural_primitivism_desc:0 "อารยธรรมเป็นสิ่งผิดธรรมชาติ เป็นความพยายามที่ไร้ประโยชน์และดูหมิ่นศาสนาของมนุษย์ในการกำหนดระเบียบให้กับการสร้างสรรค์ที่ไร้ระเบียบโดยเนื้อแท้ เรายอมรับธรรมชาตินิยมและใช้ชีวิตตามที่ [ROOT.Faith.PantheonTerm] ตั้งใจไว้ อย่างป่าเถื่อนและอิสระ"
+ doctrine_parameter_naked_adherents_active:0 "ผู้นับถือไม่สวมเสื้อผ้า"
+ doctrine_parameter_natural_primitivism_law_cost_increase:0 "ค่าใช้จ่ายด้านกฎหมาย: #N +50%#!"
+ doctrine_parameter_unlock_jizya_contract:1 "ปลดล็อก [vassal_contract|E] และ [tax_decree|E] ภาษีญิซยะฮ์"
+ 
+
+ #FP3 tenets
+
+ tenet_communal_possessions_name: "ทรัพย์สินส่วนรวม"
+ tenet_communal_possessions_desc: "[ROOT.Faith.HighGodName] ทรงประสงค์ให้เราทุกคนมีส่วนแบ่งทรัพยากรบนโลกเท่าเทียมกัน เราควรถือครองทุกสิ่งร่วมกัน และแจกจ่ายความมั่งคั่งที่ถูกขโมยไปของผู้มีอำนาจใหม่"
+ doctrine_parameter_piety_from_gifts_active: "ผู้นับถือได้รับ [piety|E] จากการส่ง [gifts|E] และมอบ [artifacts|E]"
+ doctrine_parameter_piety_from_marrying_lowborn_active: "ผู้ปกครองได้รับ [piety|E] จากการสมรสกับ [characters|E] ที่เป็น [lowborn|E]"
+
+ tenet_sacrificial_ceremonies_name:0 "พิธีบูชายัญ"
+ tenet_sacrificial_ceremonies_desc:0 "การบูชายัญมนุษย์ทั้งโดยสมัครใจและไม่สมัครใจ ทำให้เราเข้าใกล้พระเจ้ามากขึ้น เป็นธรรมเนียมและคุณธรรมที่บุคคลจะอาสาสมัครบูชายัญตนเองในพิธี เช่นเดียวกับที่เป็นคุณธรรมที่จะบูชายัญผู้ที่ได้ก่ออาชญากรรมที่ไม่อาจให้อภัยได้ต่อเทพเจ้า"
+ 
+ tenet_megaliths_name:0 "การก่อสร้างหินใหญ่"
+ tenet_megaliths_desc:0 "การนมัสการไม่ควรทำเพียงในขอบเขตของวัด เหล่านี้คือสิ่งก่อสร้างดั้งเดิมของมนุษย์ที่ ทำให้พวกเขาไขว้เขวจากการสร้างสรรค์อันศักดิ์สิทธิ์ที่อยู่รอบตัวเรา เรายอมรับหินและที่โล่งแจ้ง จัดเรียงหินที่ผู้สร้างมอบให้เราในลักษณะที่ ทำให้พวกเขาพอใจและนำเราเข้าใกล้ความเป็นพระเจ้ามากขึ้น"
+ doctrine_parameter_can_build_megaliths:0 "เปิดใช้งานการก่อสร้างหินใหญ่ในที่ดิน [temple|E] และหินใหญ่ยิ่งในเมืองหลวงของดัชชี"
+ province_is_of_a_megalith_faith_tt:0 "[county|E] นี้ต้องปฏิบัติตาม [faith|E] ที่เชื่อในความสำคัญของหินใหญ่"
+
+ tenet_fp3_fedayeen_name: "เฟดายีน"
+ tenet_fp3_sacred_murder_name: "การสังหารอันศักดิ์สิทธิ์"
+ tenet_fp3_fedayeen_desc: "เมื่อการสงครามตามปกติใช้ไม่ได้ผล เป็นหน้าที่ของเราต่อหน้า [ROOT.Faith.HighGodNameAlternate] ที่จะทำลายศัตรูของ [ROOT.Faith.HighGodHerHis|U] ผ่านการแทรกซึมและการหลอกลวง เราต้องไม่กลัวความตายหรือความเจ็บปวด และยอมสละชีวิตของเราอย่างกระตือรือร้นเพื่ออุดมการณ์ที่ยิ่งใหญ่กว่า"
+ doctrine_parameter_master_assassin_court_position_unlocked: "ปลดล็อก [court_position|E] #V [GetCourtPositionType( 'master_assassin_court_position' ).GetName()]#! "
+ doctrine_parameter_death_is_glory: "โอกาสเสียชีวิตหรือบาดเจ็บใน [battle|E]: #N +10%#!"
+ doctrine_parameter_sanctioned_assassinations: "ไม่สูญเสีย [piety|e] จากการสังหารตัวละครที่มี [faith|E] แตกต่างกันผ่าน [schemes|E] [GetScheme('murder').GetTypeName]"
+ 
+ # EP3 Tenets
+ tenet_household_gods_name: "เทพเจ้าประจำบ้าน"
+ tenet_household_gods_desc: "เราเคารพบูชา #EMP ลาเรส#! และ #EMP เกนีอี#! ของเรา — วิญญาณผู้พิทักษ์ที่คอยดูแลที่พำนักของเรา เหนือสิ่งอื่นใด เราให้เกียรติจักรพรรดิผู้รุ่งโรจน์ของเรา ซึ่งจิตวิญญาณของพระองค์มีหน้าที่ปกป้องอาณาจักรทั้งหมด"
+
+ # BP3 Parameter
+ doctrine_parameter_allows_brewery: "$allows_brewery$ สำหรับ [temple_holdings|E]"
+
+ # TGP
+ immaterial_harmony_name: "ความปรองดองไร้แก่นสาร"
+ special_doctrine_immaterial_harmony_name: "ความปรองดองไร้แก่นสาร"
+ special_doctrine_immaterial_harmony_desc: "หามีความขัดแย้งไม่ระหว่างประเพณีของเรากับคำสอนของพระพุทธเจ้าหรือปราชญ์. บุคคลอาจปฏิบัติสิ่งใดสิ่งหนึ่ง, หรือแม้ แต่ทั้งหมดพร้อมกัน, โดยปราศจากความยากลำบากทางจิตวิญญาณ"
+ doctrine_parameter_hostility_override_special_doctrine_immaterial_harmony: "พิจารณา, และถูกพิจารณาโดย, [faiths|E] ที่มีหลักคำสอนพิเศษ $special_doctrine_immaterial_harmony_name$ ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] แทนที่ $hostility_astray_tooltippable$, $hostility_hostile_tooltippable$, หรือ $hostility_evil_tooltippable$"
+
+ tenet_extinction_of_dharma_name: "ความดับสิ้นแห่งธรรมะ"
+ tenet_extinction_of_dharma_desc: "เหล่าอสูรเดินปะปนบนผืนปฐพีในคราบของผู้เคร่งศาสนาและผู้ศรัทธา; ผู้ใดสังหารหนึ่งจักก้าวเข้าสู่ความเป็นพุทธะหนึ่งก้าว, ผู้ใดสังหารสิบจักก้าวเข้าสู่ความเป็นพุทธะสิบก้าว"
+
+ tenet_cranial_trophies_name: "เครื่องบรรณาการกะโหลก"
+ tenet_cranial_trophies_desc: "ศีรษะคือภาชนะบรรจุแก่นแท้ของเจ้าของ. ด้วยการตัดมันและสกัดเอาสิ่งที่อยู่ภายในออกมา เราสามารถอ้างสิทธิ์ในพลังงานทางจิตวิญญาณอันทรงพลังเพื่อตนเองได้"
+ doctrine_parameter_killing_bestows_heads: "เป็นไปได้ที่จะได้รับ [artifact|E] เครื่องบรรณาการกะโหลก เมื่อ [executing|E] ตัวละครอื่น, สังหารพวกเขาใน [single_combat_duel|E], หรือฆ่าพวกเขาใน [battle|E]"
+ doctrine_parameter_decapitation_steals_prestige_as_piety: "เมื่อได้รับ [artifact|E] เครื่องบรรณาการกะโหลก, ผู้สังหารจะได้รับ [piety|E] เพิ่มเติมตามสัดส่วนของ [prestige|E] ของผู้ตาย"
+
+ tenet_benevolent_governance_name: "การปกครองอันเมตตา"
+ tenet_benevolent_governance_desc: "ผู้ที่ปกครองเหนือมวลชนมีหน้าที่ทางศีลธรรมในการส่งเสริมสิ่งที่ดงามและละเว้นจากสิ่งที่ชั่วร้าย. มีเพียงการยึดมั่นในหลักการนี้เท่านั้นที่ผู้ปกครองจะสามารถเป็นผู้เที่ยงธรรมอย่างแท้จริงได้"
+ tenet_filial_piety_name: "ความกตัญญูกตเวที"
+ tenet_filial_piety_desc: "ความกตัญญูกตเวทีและการเชื่อฟังผู้อาวุโสเป็นพื้นฐานในการบรรลุความดีงามของมนุษย์. เมื่อบิดามารดาของเรายังมีชีวิตอยู่, เรารับใช้พวกเขาด้วยความเหมาะสม; เมื่อพวกเขาถึงแก่กรรม, เราฝังศพพวกเขาด้วยความเหมาะสม, และจากนั้นบูชาพวกเขาด้วยความเหมาะสม"
+ tenet_harmonious_society_name: "สังคมอันปรองดอง"
+ tenet_harmonious_society_desc: "ทุกสิ่งต้องสมดุล: ปัจเจกบุคคล, ธรรมชาติ, สังคม. โอรสแห่งสวรรค์เป็นผู้กำหนดจังหวะ และเราปฏิบัติตามเสียงสวดของพระองค์"
+ doctrine_parameter_sway_scheme_better: "[scheme_success_chance|E] ของ [GetScheme('sway').GetTypeName]: [success_chance_i]#P +15%#!"
+ doctrine_parameter_sway_scheme_piety: "[schemes|E] [GetScheme('sway').GetTypeName] ที่ประสบความสำเร็จ ซึ่งเป้าหมายคือ [liege|E] หรือ [vassals|E] ของท่านจะให้ [piety_i][piety|E]"
+ doctrine_parameter_more_often_zealots: "[vassals|E] มีแนวโน้มที่จะมี [vassal_stance|E] [GetVassalStance( 'zealot' ).GetTextIcon][GetVassalStance( 'zealot' ).GetName] มากขึ้น"
+ tenet_harmonious_society_sway_boon: "[faith|E] ของท่านมี [GetFaithDoctrine('tenet_harmonious_society').GetBaseName]: $VALUE|+0=$"
+ tenet_pursuit_of_knowledge_name: "การแสวงหาความรู้"
+ tenet_pursuit_of_knowledge_desc: "ผู้ที่เปี่ยมด้วยความรู้โดยกำเนิดนั้นเหนือกว่าผู้ใด. ผู้ที่แสวงหาความรู้อย่างตั้งใจมาเป็นอันดับสอง. ผู้ที่ทื่อเขลาและไม่แสวงหาการเรียนรู้คือชนชั้นต่ำที่สุด"
+ doctrine_parameter_inspections_unlocked_and_costs_piety: "ปลดล็อก [activity|E] [GetActivityType('activity_survey').GetName] โดยใช้ [piety|E]"
+ doctrine_parameter_inspection_gives_devotion: "การทำ [activity|E] [GetActivityType('activity_survey').GetName] สำเร็จจะให้ [piety_experience|E]"
+ doctrine_parameter_better_study_scheme: "[scheme_success_chance|E] ของ [GetScheme('study_confucian_classics').GetTypeName]: [success_chance_i]#P +15%#!"
+
+ doctrine_parameter_parents_get_hooks_on_children: "บิดามารดาจะได้รับ [perpetual_hooks|E] ต่อ [children|E] ของพวกเขาโดยอัตโนมัติ"
+
+ tgp_local_shrines_patronized: "ศาลเจ้าท้องถิ่นได้รับการอุปถัมภ์"
+ 
+ tenet_sacred_destruction_name: "การทำลายอันศักดิ์สิทธิ์"
+ tenet_sacred_destruction_desc: "มิอาจมีการสร้างสรรค์หากปราศจากการทำลาย. เพื่อให้สิ่งใหม่เริ่มต้น สิ่งเก่าต้องจบสิ้น"
+ doctrine_parameter_successful_sieges_give_piety: "การชนะ [siege|E] เชิงรุกจะให้ [piety|E] และทำลาย [development|E] ของ [county|E] มากขึ้น"
+ successful_sieges_give_piety_toast: "หลักคำสอน $tenet_sacred_destruction_name$"
+ 
+ tenet_preservation_name: "การธำรงรักษา"
+ tenet_preservation_desc: "การสร้างสรรค์, การปกป้อง, การเปลี่ยนแปลง. คุณธรรมเกิดจากการก่อสร้าง, จากการสร้างบางสิ่งและเฝ้าดูมันเจริญรุ่งเรือง"
+ building_temples_gives_development_toast: "หลักคำสอน $tenet_preservation_name$"
+ doctrine_parameter_building_temples_gives_development: "การสร้างใน [church_holding|E] หรือ [temple_citadel_holding|E] จะเพิ่ม [development|E] ของ [county|E]"
+ doctrine_parameter_monastic_schools_allowed_in_every_holding_type: "อนุญาตให้สร้างสาย [buildings|E] #V $building_type_monastic_schools_01$#! ในทุก [holding_types|E]"
+ 
+ doctrine_parameter_mountain_trait_bonuses: "[commander_traits|E] และ [personality_traits|E] บางอย่างมีโบนัสภูเขาเพิ่มเติม"
+ desert_mountains_holding_construction_piety_cost: "ค่าใช้จ่ายการก่อสร้าง [holding|E] ใน $desert_mountains$"
+ mountains_holding_construction_piety_cost: "ค่าใช้จ่ายการก่อสร้าง [holding|E] ใน $mountains$"

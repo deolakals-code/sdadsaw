@@ -1,0 +1,180 @@
+﻿l_english: 
+
+ # Tribal Era
+ culture_parameter_unlock_maa_ayyar:0 "สามารถเกณฑ์ [GetMaA('ayyar').GetName] (อัยยาร์) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_metsanvartija:0 "สามารถเกณฑ์ [GetMaA('metsanvartija').GetName] (เมตซันวาร์ติยา) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_horse_archers:0 "สามารถเกณฑ์ [GetMaA('horse_archers').GetName] (พลม้าธนู) เป็น [men_at_arms|E]"
+ unlock_maa_horse_archers_name: "[GetCultureTradition('tradition_horse_lords').GetName]"
+ culture_parameter_unlock_maa_mubarizun:0 "สามารถเกณฑ์ [GetMaA('mubarizun').GetName] (มุบาริซุน) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_mulaththamun:0 "สามารถเกณฑ์ [GetMaA('mulaththamun').GetName] (มูลัษษะมูน) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_archers_of_the_nile:0 "สามารถเกณฑ์ [GetMaA('archers_of_the_nile').GetName] (พลธนูแห่งไนล์) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_hussar:0 "สามารถเกณฑ์ [GetMaA('hussar').GetName] (ฮุสซาร์) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_horn_warrior:0 "สามารถเกณฑ์ [GetMaA('horn_warrior').GetName] (นักรบแห่งฮอร์น) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_bush_hunter:0 "สามารถเกณฑ์ [GetMaA('bush_hunter').GetName] (นักล่าพุ่มไม้) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_shomer:0 "สามารถเกณฑ์ [GetMaA('shomer').GetName] (โชเมอร์) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_sahel_horsemen:0 "สามารถเกณฑ์ [GetMaA('sahel_horsemen').GetName] (ทหารม้าซาเฮล) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_zbrojnosh:0 "สามารถเกณฑ์ [GetMaA('zbrojnosh').GetName] (ซบรอจนอช) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_guinea_warrior:0 "สามารถเกณฑ์ [GetMaA('guinea_warrior').GetName] (นักรบกินี) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_chu_ko_nu:0 "สามารถเกณฑ์ [GetMaA('chu_ko_nu').GetName] (ฉู่กัวหนู) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_bondi:0 "สามารถเกณฑ์ [GetMaA('bondi').GetName] (บอนดิ) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_vigmen:0 "สามารถเกณฑ์ [GetMaA('vigmen').GetName] (วิกเมน) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_varangian_veterans:0 "สามารถเกณฑ์ [GetMaA('varangian_veterans').GetName] (ทหารผ่านศึกวารันเจียน) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_longbowmen:0 "สามารถเกณฑ์ [GetMaA('longbowmen').GetName] (พลธนูยาว) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_huscarls:0 "สามารถเกณฑ์ [GetMaA('huscarl').GetName] (ฮุสคาร์ล) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_huanch_vaulter:0 "สามารถเกณฑ์ [GetMaA('guanch_vaulter').GetName] (นักค้ำถ่อกวนเช) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_ayrudzi: "สามารถเกณฑ์ [GetMaA('ayrudzi').GetName] (อัยรุดซี) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_conrois: "สามารถเกณฑ์ [GetMaA('conrois').GetName] (กงรัว) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_akritai: "สามารถเกณฑ์ [GetMaA('akritai').GetName] (อาคริไท) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_ballistrai: "สามารถเกณฑ์ [GetMaA('ballistrai').GetName] (บัลลิสไตร) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_skoutatoi: "สามารถเกณฑ์ [GetMaA('skoutatoi').GetName] (สเกาตาตอย) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_varangian_guards: "[emperors|E] สามารถเข้าถึง [decision|E] #high $found_varangian_guard_decision$#! ซึ่งเปิดใช้งาน [GetMaA('varangian_guards').GetName] (องครักษ์วารันเจียน) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_gakgung_archers: "สามารถเกณฑ์ [GetMaA('gakgung_archers').GetName] เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_rocket_carts: "สามารถเกณฑ์ [GetMaA('rocket_carts').GetName] เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_pesilat: "สามารถเกณฑ์ [GetMaA('pesilat_warriors').GetName] เป็น [men_at_arms|E]"
+
+ # Early Medieval Era
+ culture_parameter_unlock_maa_khandayat:0 "สามารถเกณฑ์ [GetMaA('khandayat').GetName] (ขัณฑายัต) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_garudas:0 "สามารถเกณฑ์ [GetMaA('garudas').GetName] (ครุฑ) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_cataphract:0 "สามารถเกณฑ์ [GetMaA('cataphract').GetName] (คาตาแฟรกต์) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_monaspa:0 "สามารถเกณฑ์ [GetMaA('monaspa').GetName] (โมนาสปา) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_druzhina:0 "สามารถเกณฑ์ [GetMaA('druzhina').GetName] (ดรูจีนา) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_mountaineer:0 "สามารถเกณฑ์ [GetMaA('mountaineer').GetName] (พลภูเขา) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_abudrar:0 "สามารถเกณฑ์ [GetMaA('abudrar').GetName] (อบูดราร์) เป็น [men_at_arms|E]"
+ culture_parameter_unlock_maa_palace_guards:0 "สามารถเกณฑ์ [GetMaA('palace_guards').GetName] (ทหารรักษาพระราชวัง) เป็น [men_at_arms|E]"
+ 
+ #Military
+ tradition_hird_name:0 "$innovation_hird$"
+ tradition_hird_desc:0 "$innovation_hird_desc$"
+ innovation_hird:0 "เฮียร์ด"
+ innovation_hird_desc:0 "ประเพณีการมีกองกำลังส่วนตัวติดอาวุธรับใช้ครัวเรือนได้เป็นประโยชน์แก่เราอย่างดี การ ทำให้ระบบนี้เป็นทางการและขยายออกไปจะช่วยให้เราสามารถส่งกรมทหารฮุสคาร์ลทั้งหมดลงสู่สนามรบได้"
+
+ innovation_zweihanders:0 "ซไวแฮนเดอร์"
+ innovation_zweihanders_desc:1 "ดาบสองมือขนาดมหึมาเหล่านี้เชี่ยวชาญในการฟาดฟัน $knight_culture_player_plural_no_tooltip_lowercase$ ที่กำลังพุ่งเข้าใส่ได้ดีพอ ๆ กับการทำลายกระบวนทัพหอกยาวของศัตรู ทำให้เป็นส่วนเสริมที่น่าเกรงขามแก่กรมทหารหอกยาวของเราเอง"
+
+ #innovation_longbows:0 "Longbow"
+ #innovation_longbows_desc:0 "Taking advantage of the strong yew wood that grows here, our bowyers have learned to make longbows so powerful they require specialized training from an early age to use effectively. This investment is worth it, as our longbowmen can shoot arrows which travel further and penetrate deeper than those fired by other archers."
+
+ innovation_adaptive_militia:0 "กองกำลังท้องถิ่นปรับตัว"
+ innovation_adaptive_militia_desc:1 "อาวุธ เช่นกูเดนทากนั้นมีราคาถูกและผลิตง่าย แต่กลับมีประสิทธิภาพอย่างน่าประหลาดใจในการต่อต้านการบุกของทหารม้า การมีอยู่ของมันช่วยให้เราปรับกองกำลังท้องถิ่นของเราให้มีโอกาสที่ดีขึ้นมากเมื่อต่อสู้กับ $knight_culture_player_plural_no_tooltip_lowercase$ หุ้มเกราะ"
+
+ innovation_valets:0 "คนรับใช้ส่วนตัว"
+ innovation_valets_desc:1 "การจัดตั้งระบบคนรับใช้ส่วนตัวโดยเฉพาะสำหรับทหารม้าขุนนางของเรา จะช่วยให้เราสามารถส่ง $knight_culture_player_plural_no_tooltip_lowercase$ ที่ติดอาวุธและสวมเกราะดีขึ้นลงสนามได้"
+
+ innovation_pike_columns:0 "กระบวนทัพหอกแถวตอนลึก"
+ innovation_pike_columns_desc:0 "พลหอกยาวเป็นผู้ป้องกันที่แข็งแกร่งเสมอมา แต่ในอดีตพวกเขาขาดความคล่องตัวและการรุก การคิดค้นกระบวนทัพใหม่เพื่อแก้ไขข้อบกพร่องนี้จะช่วยเพิ่มโอกาสในการได้รับชัยชนะในการรบของเรา"
+
+ innovation_legionnaires:0 "พลเลกิออนแนร์"
+ innovation_legionnaires_desc:1 "เช่นเดียวกับที่เราได้ฟื้นฟูจักรวรรดิโรมัน เราก็จะฟื้นฟูโครงสร้างของกองทัพโรมันเก่าแก่และกองกำลังชั้นยอดอันน่าสะพรึงกลัวของมันด้วย!"
+
+ innovation_desert_tactics:0 "ยุทธวิธีทะเลทราย"
+ innovation_desert_tactics_desc:0 "เลอวานต์เป็นสถานที่ที่ไม่คุ้นเคยและมีภูมิประเทศที่ไม่เหมาะกับการบุกของทหารม้า เราควรปรับตัวให้เข้ากับดินแดนเหล่านี้และส่งทหารม้าที่เหมาะสมกว่าในการต่อสู้ในบ้านใหม่ของเรา"
+
+ innovation_caballeros:0 "กาบาเยโรส"
+ innovation_caballeros_desc:0 "ม้าพ่อพันธุ์อันดาลูเซียเดินทางและต่อสู้ในภูมิประเทศที่ขรุขระได้ดีกว่าม้าพันธุ์อื่น ๆ เราสามารถฝึกฝนกรมทหารม้าเฉพาะทางที่ใช้ประโยชน์จากสิ่งนี้ได้"
+
+ innovation_cataphracts:0 "คาตาแฟรกต์"
+ innovation_cataphracts_desc:0 "หุ้มเกราะเหล็กป้องกันทั้งตัว ทหารม้าคาตาแฟรกต์อันน่าเกรงขามของเราสามารถทำลายแนวป้องกันเกือบทุกแนวได้โดยการพุ่งเข้าใส่ด้วยทวนยาวของพวกเขา"
+
+ innovation_hobbies:0 "ฮอบบี"
+ innovation_hobbies_desc:1 "นักขี่ม้าฮอบบีเคลติกของเราทั้งเร็วและคล่องแคล่ว — เหมาะสำหรับการสอดแนมและการปล้นสะดมในภูมิประเทศขรุขระที่ $knight_culture_player_plural_no_tooltip_lowercase$ ของศัตรูไม่เต็มใจที่จะไป"
+
+ innovation_rectilinear_schiltron:0 "ชิลทรอนแบบสี่เหลี่ยม"
+ innovation_rectilinear_schiltron_desc:0 "วงกลมหอกแบบดั้งเดิมเป็นกระบวนทัพป้องกันที่ทรงพลัง แต่มีข้อจำกัดในการรุกและความคล่องตัว แม้จะต้องใช้วินัยอย่างยิ่งในการใช้ แต่ชิลทรอนแบบสี่เหลี่ยมของเราเป็นกระบวนทัพที่เหนือกว่า ซึ่งสามารถใช้ได้ทั้งยุทธวิธีเชิงรุกและเชิงรับอันทรงพลัง"
+
+ tradition_forest_wardens_name:0 "$innovation_forest_wardens$"
+ tradition_forest_wardens_desc:0 "$innovation_forest_wardens_desc$"
+ innovation_forest_wardens:0 "ผู้พิทักษ์ป่า"
+ innovation_forest_wardens_desc:0 "บรรพบุรุษของเราอาศัยอยู่ในป่าเหล่านี้มาหลายชั่วอายุคน แต่ตอนนี้พวกเขากำลังถูกคุกคามจากคนภายนอก ประสบการณ์ที่สั่งสมมานานหลายศตวรรษในการต่อสู้ในป่าจะช่วยเราในการปกป้องบ้านเกิดของบรรพบุรุษ"
+
+ innovation_compound_bows:0 "ธนูประกอบ"
+ innovation_compound_bows_desc:0 "สร้างขึ้นจากแผ่นเขา ไม้ และเอ็นสัตว์ประกบกัน ธนูประกอบของเรามีขนาดเล็กกว่าธนูแบบดั้งเดิมมาก ในขณะที่ยังคงทรงพลังเท่าเทียมกัน ขนาดที่เล็กลงนี้ ทำให้สามารถยิงจากหลังม้าได้อย่างสะดวกสบาย ช่วยให้เราสามารถส่งพลม้าธนูทำลายล้างสูงลงสู่สนามรบได้"
+
+ tradition_khadga_puja_name:0 "ขรรคปูชา"
+ tradition_khadga_puja_desc:0 "วัฒนธรรมนี้ได้ยอมรับศิลปะการต่อสู้และพิธีกรรมบูชาดาบสองมือขนาดใหญ่ ทำให้พวกเขาสามารถส่งเสริมนักรบที่แข็งแกร่งและมีความสามารถ ดาบหนักช่วยให้พวกเขากวาดล้างทั้งทหารราบและทหารม้าได้"
+ innovation_khandayats:0 "ขัณฑายัต"
+ innovation_khandayats_desc:0 "เชี่ยวชาญในการใช้ดาบขัณฑะ ทหารราบล้ำค่าของเราชำนาญทั้งในการต่อสู้ในป่าและการฟาดฟันทหารม้าเบาของศัตรู"
+
+ tradition_garuda_warriors_name:0 "นักรบครุฑ"
+ tradition_garuda_warriors_desc:0 "นักรบผู้โดดเด่นในวัฒนธรรมนี้ได้รับการ แต่งตั้งเป็นครุฑ และคาดหวังให้ต่อสู้จนตัวตาย แม้ แต่ผู้ที่ติดตามครุฑก็คาดว่าจะต้องตายหากผู้นำของพวกเขาตาย ไม่ว่าจะในสนามรบหรือด้วยมือของตนเอง"
+
+ tradition_futuwaa_name:0 "$innovation_futuwaa$"
+ tradition_futuwaa_desc:0 "$innovation_futuwaa_desc$"
+ innovation_futuwaa:0 "ฟุตูวา"
+ innovation_futuwaa_desc:0 "เยาวชนของเราได้เริ่มก่อตั้งชมรมที่ส่งเสริมความกล้าหาญ พละกำลัง และพฤติกรรมทางศีลธรรม การรับรองและสนับสนุนชมรมเหล่านี้ จะช่วยให้แน่ใจว่ามีทหารที่แข็งแรงที่เราสามารถรวบรวมเพื่ออุดมการณ์ของเราได้"
+
+ tradition_land_of_the_bow_name:0 "ดินแดนแห่งคันธนู"
+ tradition_land_of_the_bow_desc:0 "ในดินแดนแห่งความอุดมสมบูรณ์ ที่ร่ำรวยด้วยแม่น้ำไนล์และความเฉลียวฉลาดของตนเอง ชาวนูเบียได้เจริญรุ่งเรืองมาหลายชั่วอายุคน เป็นเวลาเกือบเท่ากันที่คันธนูเป็นอาวุธที่เลือกใช้เพื่อขับไล่ผู้บุกปล้นและโจรแห่งทะเลทรายโดยรอบ"
+
+ tradition_desert_ribat_name:0 "ริบาตทะเลทราย"
+ tradition_desert_ribat_desc:0 "วัฒนธรรมนี้มีประเพณีของสถานปลีกวิเวกเสริมป้อมในทะเลทราย ที่ ซึ่งผู้มีศรัทธาสามารถใช้ชีวิตเชื่อมต่อกับท้องฟ้าเปิดและผืนทรายได้ วิถีชีวิตนี้ก่อให้เกิดนักรบทะเลทรายที่มีความสามารถและเคร่งศาสนา และดึงดูดนักพรต"
+
+ tradition_mubarizuns_name:0 "$innovation_mubarizuns$"
+ tradition_mubarizuns_desc:0 "$innovation_mubarizuns_desc$"
+ innovation_mubarizuns:0 "มุบาริซุน"
+ innovation_mubarizuns_desc:0 "จำลองแบบมาจากแชมเปี้ยนในตำนานของกองทัพรอชิดูน ทหารมุบาริซุนของเราได้รับการฝึกฝนให้ยอดเยี่ยมทั้งในการรบในกระบวนทัพและการต่อสู้ตัวต่อตัว"
+
+ tradition_hussar_name:0 "$innovation_hussar_raids$"
+ tradition_hussar_desc:0 "$innovation_hussar_raids_desc$"
+ innovation_hussar_raids:1 "การตีโฉบฉวยแบบ $hussar$"
+ innovation_hussar_raids_desc:1 "ทหารม้าเบา ซึ่งสามารถโจมตีศัตรูที่เปิดโล่งได้อย่างรวดเร็วก่อนที่จะถอยกลับไป $hussar$ ของเราสามารถจัดตั้งเป็นกองทหารที่เชี่ยวชาญในการก่อกวนและการปล้นสะดม"
+
+ tradition_druzhina_name:0 "$innovation_druzhina$"
+ tradition_druzhina_desc:0 "$innovation_druzhina_desc$"
+ innovation_druzhina:0 "ดรูจีนา"
+ innovation_druzhina_desc:0 "ทหารวารันเจียนรับใช้เป็นองครักษ์ที่น่าเกรงขามแก่กษัตริย์ของเรามานาน แต่พวกเขาก็สามารถรับใช้เป็นทหารราบหนักโดยเฉพาะในกองทัพของเราได้อย่างง่ายดาย เช่นกัน"
+
+ tradition_horn_mountain_skirmishing_name:0 "$innovation_mountain_skirmishing$"
+ tradition_horn_mountain_skirmishing_desc:0 "$innovation_mountain_skirmishing_desc$"
+ innovation_mountain_skirmishing:0 "การรบแบบจรยุทธ์บนภูเขา"
+ innovation_mountain_skirmishing_desc:0 "ภูเขาสูงในจะงอยแอฟริกาก่อให้เกิดความท้าทายด้านการส่งกำลังบำรุงแก่กองทัพหลายประเภท แต่พลรบประชิดของเราสามารถปรับตัวเข้ากับสภาพเหล่านี้ได้อย่างง่ายดายเพื่อขับไล่ผู้รุกรานข้าศึก"
+
+ tradition_bush_hunting_name:0 "$innovation_bush_hunting$"
+ tradition_bush_hunting_desc:0 "$innovation_bush_hunting_desc$"
+ innovation_bush_hunting:0 "การล่าในพุ่มไม้"
+ innovation_bush_hunting_desc:0 "พุ่มไม้เป็นสถานที่ขรุขระและทุรกันดาร แต่มันมอบโอกาสอันอุดมสมบูรณ์แก่ผู้ที่รู้ว่าจะมองหาที่ไหนและจะใช้ประโยชน์จากมันอย่างไร การฝึกฝนพลธนูของเราในเทคนิคเหล่านี้จะ ทำให้พวกเขาได้เปรียบเมื่อเผชิญหน้ากับศัตรูในพื้นที่เหล่านี้"
+
+ tradition_mobile_guards_name:0 "$innovation_mobile_guards$"
+ tradition_mobile_guards_desc:0 "$innovation_mobile_guards_desc$"
+ innovation_mobile_guards:0 "ยุทธวิธีป้องกัน"
+ innovation_mobile_guards_desc:0 "ประชาชนของเราถูกเนรเทศและขับไล่ออกไปครั้งแล้วครั้งเล่า แม้จะเป็นเรื่องน่าเศร้า แต่ประสบการณ์เหล่านี้ ทำให้เรามีทักษะยอดเยี่ยมเป็นพิเศษในยุทธวิธีของกองระวังหลัง ซึ่งช่วยลดความสูญเสียให้น้อยที่สุด"
+
+ innovation_alpine_supremacy:0 "ความเป็นใหญ่แห่งเทือกเขาแอลป์"
+ innovation_alpine_supremacy_desc:0 "ระดับความสูงของบ้านเกิดเราต้องการการส่งกำลังบำรุงและเทคนิคการต่อสู้ที่แตกต่างจากทหารของเรามากกว่าที่ราบลุ่ม การเชี่ยวชาญความสามารถเหล่านี้จะ ทำให้เราเป็นเจ้าแห่งขุนเขาอย่างไม่มีใครโต้แย้ง"
+
+ innovation_sahel_horsemen:0 "ทหารม้าซาเฮล"
+ innovation_sahel_horsemen_desc:0 "ซาเฮลเป็นที่ราบแห้งแล้ง ซึ่งมักจะต้องเดินทางไกลด้วยม้า นักรบซาเฮลเป็นนักรบขี่ม้าที่ใช้เกราะผ้าบุนวมเบาและหอกซัดเพื่อทำลายล้างศัตรู พวกเขารวดเร็วและสามารถฝ่าฟันทะเลทรายและพื้นที่แห้งแล้งได้อย่างง่ายดาย"
+ 
+ innovation_bamboo_bows:0 "ธนูไม้ไผ่"
+ innovation_bamboo_bows_desc:0 "หนึ่งในอาวุธดั้งเดิมที่เก่าแก่ที่สุดสำหรับทหารราบอินเดียคือธนูไม้ไผ่ ซึ่งทั้งราคาถูกในการผลิตและง่ายต่อการพกพาและบำรุงรักษา เนื่องจากธนูยังเป็นอาวุธโปรดของนักล่าจำนวนมาก จึงไม่ขาดแคลนพลธนูที่มีประสบการณ์ในกองทัพอินเดีย"
+
+ innovation_zbrojnosh:0 "ซบรอจนอช"
+ innovation_zbrojnosh_desc:0 "เนินเขาและภูเขาที่ปกคลุมด้วยป่าไม้ของบ้านเกิดเราต้องการแนวทางการทำสงครามที่แตกต่างออกไป ชายติดอาวุธของเรา ซบรอจนอช ได้รับการฝึกฝนให้ใช้ภูมิประเทศให้เป็นประโยชน์และได้พิสูจน์แล้วว่าเป็นนักสู้ที่ดีที่สามารถเอาชนะกองทัพที่ใหญ่กว่ามากได้"
+
+ tradition_upland_skirmishing_name:0 "$innovation_upland_skirmishing$"
+ tradition_upland_skirmishing_desc:0 "$innovation_upland_skirmishing_desc$"
+ innovation_upland_skirmishing:0 "การรบแบบจรยุทธ์บนที่สูง"
+ innovation_upland_skirmishing_desc:0 "เนินเขาแห่งทุ่งหญ้าสะวันนาที่มีป่าไม้เป็นบ้านเกิดของเรามาหลายชั่วอายุคน บรรพบุรุษของเราแสดงให้เราเห็นถึงวิธีใช้ประโยชน์จากภูมิประเทศนี้ และด้วยผู้บุกปล้นที่คุกคามพรมแดนของเรา เราสามารถใช้ความรู้นี้ในการป้องกันตนเองได้"
+ 
+ innovation_sarawit:0 "ซาราวิต"
+ innovation_sarawit_desc:0 "ที่ราบสูงที่บรรพบุรุษของเราตั้งรกรากต้องการแนวทางเฉพาะในการเกษตร การสร้างนาขั้นบันไดสอนให้เราพัฒนายุทธวิธีทางทหารใหม่ ๆ ซึ่งใช้โดยทหารซาราวิตของเรา"
+ 
+ tradition_mountain_herding_name:0 "การเลี้ยงสัตว์บนภูเขา"
+ tradition_mountain_herding_desc:0 "วัฒนธรรมนี้ได้ ทำให้ภูเขาที่เย็นกว่าเป็นบ้านของพวกเขาในภูมิภาคที่แห้งแล้งเป็นส่วนใหญ่ คนเลี้ยงสัตว์และชาวนาบนที่สูงเหล่านี้ได้กลายเป็นนักรบที่ทรหดและแข็งแกร่ง และเมื่อเวลาผ่านไป การทำงานหนักของพวกเขาก็ ทำให้ผู้คนเหล่านี้เจริญรุ่งเรืองเหนือทะเลทรายอันเปลือยเปล่า"
+ innovation_desert_mountain_herding:0 "วิถีปฏิบัติภูเขาทะเลทราย"
+ innovation_desert_mountain_herding_desc:0 "ตั้งแต่สมัยโบราณ ผู้คนบนภูเขาของเราได้ค้นหาวิธีการเลี้ยงฝูงสัตว์ในภูมิประเทศที่ไม่เอื้ออำนวย การทำ เช่นนั้นได้เปลี่ยนให้พวกเขากลายเป็นนักรบที่ทรหดและแข็งแกร่งอย่างยิ่ง เรียกว่า อบูดราร์"
+ 
+ tradition_burman_royal_army_name:0 "กองทัพหลวง"
+ tradition_burman_royal_army_desc:0 "$innovation_royal_army_tradition_desc$"
+ innovation_royal_army_tradition:0 "ประเพณีกองทัพหลวง"
+ innovation_royal_army_tradition_desc:0 "เรามีประเพณีอันยาวนานของกองทัพประจำการที่สร้างขึ้นเพื่อปกป้องเมืองหลวง สิ่งนี้ ทำให้เราเข้าถึงทหารที่แข็งแกร่ง ซึ่งทำงานร่วมกับกองหนุนได้อย่างดียิ่ง เช่น ช้างศึก"
+ 
+ innovation_repeating_crossbow:0 "ฉู่กัวหนู"
+ innovation_repeating_crossbow_chinese: "Shenbigong" # 神臂弓
+ innovation_repeating_crossbow_desc: "ด้วยการผสานคันธนูเหล็กแรงตึงสูงเข้ากับระบบกลไกขึ้นสาย คันธนูอันล้ำสมัยเหล่านี้ได้เพิ่มทั้งระยะยิงและอานุภาพสังหาร นวัตกรรมนี้ได้นำไปสู่การเปลี่ยนแปลงจากการตั้งรับที่เน้นปริมาณ ไปสู่การใช้งานภาคสนามที่มุ่งเน้นความแม่นยำ เสริมสร้างแสนยานุภาพแก่กองทัพอาชีพด้วยเครื่องมืออันคู่ควรแก่มหาจักรวรรดิ"
+ innovation_repeating_crossbow_chinese_desc: "$innovation_repeating_crossbow_desc$"
+
+ innovation_men_at_arms:0 "การจัดตั้งพลอาวุธ"
+ innovation_men_at_arms_desc:0 "การฝึกฝนและจัดเตรียมอาวุธให้กองทัพประจำการ ซึ่งอยู่ภายใต้การบังคับบัญชาโดยตรงของผู้ปกครองเรา จะเป็นบันไดก้าวแรกบนเส้นทางสู่การรวมศูนย์อำนาจของเรา"
+
+ innovation_pole_vault:0 "การค้ำถ่อ"
+ innovation_pole_vault_desc:0 "การค้ำถ่อเป็นสิ่งประดิษฐ์เรียบง่ายที่ต้องใช้การฝึกฝนและฝึกซ้อมอย่างมาก เพื่อให้เชี่ยวชาญ นักค้ำถ่อที่มีทักษะจะสามารถดีดตัวไปข้างหน้าข้ามช่องว่างกว้างและโขดหินสูงได้ รวมถึงข้ามป้อมปราการบางแห่งได้ด้วย"

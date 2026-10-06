@@ -1,0 +1,25 @@
+﻿l_english: 
+ LifestyleFocus_diplomacy:0 "การทูต"
+ LifestyleFocus_martial:0 "การทหาร"
+ LifestyleFocus_stewardship:0 "การคลัง"
+ LifestyleFocus_intrigue:0 "เล่ห์กล"
+ LifestyleFocus_learning:0 "การเรียนรู้"
+
+#STATECRAFT
+ statecraft_ongoing.4010.nobility:0 "ชนชั้นสูง"
+ statecraft_ongoing.4010.clan:0 "ตระกูล"
+ statecraft_ongoing.4010.chieftains:0 "หัวหน้าเผ่า"
+ statecraft_ongoing.4010.clergy:0 "[ROOT.Char.GetFaith.AltPriestTermPlural]"
+ statecraft_ongoing.4010.citizenry:0 "ราษฎร"
+
+#GOVERNANCE
+ governance_ongoing.1040.blacksmithsguild:0 "สมาคมช่างตีเหล็ก"
+ governance_ongoing.1040.merchantsguild:0 "สมาคมพ่อค้า"
+ governance_ongoing.1055.outofwedlock:0 "นอกสมรส"
+ governance_ongoing.1055.null:0 ""
+ governance_ongoing.1062.gardener:0 "คนสวนหลวง"
+ governance_ongoing.1062.poet:0 "กวีราชสำนัก"
+ governance_ongoing.1062.philosopher:0 "นักปรัชญาธรรมชาติ"
+ governance_ongoing.1062.gardener_U:0 "คนสวนหลวง"
+ governance_ongoing.1062.poet_U:0 "กวีราชสำนัก"
+ governance_ongoing.1062.philosopher_U:0 "นักปรัชญาธรรมชาติ"

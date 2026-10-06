@@ -1,0 +1,76 @@
+﻿l_english: 
+
+ HAS_BULDING_TRIGGER:0 "[PROVINCE.GetName] มี [building|E] $BUILDING|V$"
+
+ HAS_FREE_BUILDING_SLOT_TRIGGER_GLOBAL:0 "มีช่องสร้างอาคารว่าง"
+ HAS_NOT_FREE_BUILDING_SLOT_TRIGGER_GLOBAL:0 "#bold ไม่มี#! ช่องสร้างอาคารว่าง"
+ HAS_FREE_BUILDING_SLOT_TRIGGER_THIRD:0 "[PROVINCE.GetName] มีช่องสร้างอาคารว่าง"
+ HAS_NOT_FREE_BUILDING_SLOT_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold ไม่มี#! ช่องสร้างอาคารว่าง"
+
+ HAS_BUILDING_OR_HIGHER_TRIGGER_GLOBAL:0 "มี [building|E] $BUILDING|V$ หรือการอัปเกรดของมัน"
+ NOT_HAS_BUILDING_OR_HIGHER_TRIGGER_GLOBAL:0 "#bold ไม่มี#! [building|E] $BUILDING|V$ หรือการอัปเกรดของมัน"
+ HAS_BUILDING_OR_HIGHER_TRIGGER_THIRD:0 "[PROVINCE.GetName] มี [building|E] $BUILDING|V$ หรือการอัปเกรดของมัน"
+ NOT_HAS_BUILDING_OR_HIGHER_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold ไม่มี#! [building|E] $BUILDING|V$ หรือการอัปเกรดของมัน"
+
+ HAS_ONGOING_CONSTRUCTION_TRIGGER_GLOBAL:0 "มี [building|E] กำลังก่อสร้าง"
+ NOT_HAS_ONGOING_CONSTRUCTION_TRIGGER_GLOBAL:0 "#bold ไม่มี#! [building|E] กำลังก่อสร้าง"
+ HAS_ONGOING_CONSTRUCTION_TRIGGER_THIRD:0 "[PROVINCE.GetName] มี [building|E] กำลังก่อสร้าง"
+ NOT_HAS_ONGOING_CONSTRUCTION_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold ไม่มี#! [building|E] กำลังก่อสร้าง"
+
+ HAS_HOLDING_TYPE_TRIGGER_THIRD:0 "[PROVINCE.GetName] เป็น [holding|E] $HOLDING$"
+ NOT_HAS_HOLDING_TYPE_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold ไม่ใช่#! [holding|E] $HOLDING$"
+
+ BUILDING_SLOTS_TRIGGER_GLOBAL:0 "มีช่องสร้างอาคาร $NUM|V$ ช่อง"
+ NOT_BUILDING_SLOTS_TRIGGER_GLOBAL:0 "#bold ไม่มี#! ช่องสร้างอาคาร $NUM|V$ ช่อง"
+ BUILDING_SLOTS_TRIGGER_THIRD:0 "[PROVINCE.GetName] มีช่องสร้างอาคาร $NUM|V$ ช่อง"
+ NOT_BUILDING_SLOTS_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold ไม่มี#! ช่องสร้างอาคาร $NUM|V$ ช่อง"
+
+ FREE_BUILDING_SLOTS_TRIGGER_GLOBAL:0 "มีช่องสร้างอาคารว่าง $NUM|V$ ช่อง"
+ NOT_FREE_BUILDING_SLOTS_TRIGGER_GLOBAL:0 "#bold ไม่มี#! ช่องสร้างอาคารว่าง $NUM|V$ ช่อง"
+ FREE_BUILDING_SLOTS_TRIGGER_THIRD:0 "[PROVINCE.GetName] มีช่องสร้างอาคารว่าง $NUM|V$ ช่อง"
+ NOT_FREE_BUILDING_SLOTS_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold ไม่มี#! ช่องสร้างอาคารว่าง $NUM|V$ ช่อง"
+
+ NUM_BUILDINGS_TRIGGER_GLOBAL:0 "มีอาคารที่สร้างแล้ว $NUM|V$ หลัง"
+ NOT_NUM_BUILDINGS_TRIGGER_GLOBAL:0 "#bold ไม่มี#! อาคารที่สร้างแล้ว $NUM|V$ หลัง"
+ NUM_BUILDINGS_TRIGGER_THIRD:0 "[PROVINCE.GetName] มีอาคารที่สร้างแล้ว $NUM|V$ หลัง"
+ NOT_NUM_BUILDINGS_TRIGGER_THIRD:0 "[PROVINCE.GetName] #bold ไม่มี#! อาคารที่สร้างแล้ว $NUM|V$ หลัง"
+
+ HAS_SPECIAL_BUILDING_SLOT_TRIGGER_GLOBAL:0 "มีช่อง [special_building|E]"
+ NOT_HAS_SPECIAL_BUILDING_SLOT_TRIGGER_GLOBAL:0 "#bold ไม่มี#! ช่อง [special_building|E]"
+ HAS_SPECIAL_BUILDING_SLOT_TRIGGER_THIRD:0 "[PROVINCE.GetName] มีช่อง [special_building|E]"
+ NOT_HAS_SPECIAL_BUILDING_SLOT_TRIGGER_THIRD:0 "[PROVINCE.GetName] ไม่มีช่อง [special_building|E]"
+ 
+ HAS_SPECIAL_BUILDING_TRIGGER_GLOBAL:0 "มี [special_building|E]"
+ NOT_HAS_SPECIAL_BUILDING_TRIGGER_GLOBAL:0 "#bold ไม่มี#! [special_building|E]"
+ HAS_SPECIAL_BUILDING_TRIGGER_THIRD:0 "[PROVINCE.GetName] มี [special_building|E]"
+ NOT_HAS_SPECIAL_BUILDING_TRIGGER_THIRD:0 "[PROVINCE.GetName] ไม่มี [special_building|E]"
+
+ has_great_building_slot_global: "มีช่อง [great_building|E]"
+ not_has_great_building_slot_global: "#bold ไม่มี#! ช่อง [great_building|E]"
+ has_great_building_slot_third: "[PROVINCE.GetName] มีช่อง [great_building|E]"
+ not_has_great_building_slot_third: "[PROVINCE.GetName] ไม่มีช่อง [great_building|E]"
+
+ has_great_building_global: "มี [great_building|E]"
+ not_has_great_building_global: "#bold ไม่มี#! [great_building|E]"
+ has_great_building_third: "[PROVINCE.GetName] มี [great_building|E]"
+ not_has_great_building_third: "[PROVINCE.GetName] ไม่มี [great_building|E]"
+
+ HAS_HOLDING_DESC:0 "[PROVINCE.GetName] มี [holding|E]"
+ NOT_HAS_HOLDING_DESC:0 "[PROVINCE.GetName] #bold ไม่มี#! [holding|E]"
+
+ has_ruined_great_building_global: "[great_building|E] [ruined|El]"
+ not_has_ruined_great_building_global: "[great_building|E] ไม่ [ruined|El]"
+ has_ruined_great_building_third: "[great_building|E] ใน [PROVINCE.GetName] [ruined|El]"
+ not_has_ruined_great_building_third: "[great_building|E] ใน [PROVINCE.GetName] ไม่ [ruined|El]"
+
+ is_ruined_building_being_reconstructed_global: "[great_building|E] ที่ [ruined|El] ใน [Province.GetName] กำลังถูก [rebuilt|El]"
+ is_ruined_building_being_reconstructed_third: "$is_ruined_building_being_reconstructed_global$"
+ not_is_ruined_building_being_reconstructed_global: "ไม่มี [great_building|E] ที่ [ruined|El] ใน [Province.GetName] ที่กำลังถูก [rebuilt|El]"
+ not_is_ruined_building_being_reconstructed_third: "$not_is_ruined_building_being_reconstructed_global$"
+
+ rebuild_great_building_global: "$GREAT_BUILDING$ ถูก [rebuilt|El]"
+ rebuild_great_building_third: "$GREAT_BUILDING$ ใน [PROVINCE.GetName] ถูก [rebuilt|El]"
+
+ ruin_great_building_global: "$GREAT_BUILDING$ [ruined|El]"
+ ruin_great_building_third: "$GREAT_BUILDING$ ใน [PROVINCE.GetName] [ruined|El]"
+

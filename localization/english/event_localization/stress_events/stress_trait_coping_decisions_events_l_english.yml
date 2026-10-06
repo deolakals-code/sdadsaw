@@ -1,0 +1,136 @@
+﻿l_english: 
+
+ stress_trait_coping_decisions.1001.t:0 "การรับมือความเครียด: ดื่มเข้าไป!"
+ stress_trait_coping_decisions.1001.desc:0 "อีกถ้วยหนึ่ง, และบ่าของข้าก็ผ่อนคลายลงอีกเล็กน้อย #EMP นี่#! คือวิธีที่ข้าควรใช้เวลา – การมีสติคือการทนทุกข์"
+ stress_trait_coping_decisions.1001.a:0 "ข้า– #EMP *อึก*#! ข้ารู้สึกดีขึ้นแล้ว!"
+
+ stress_trait_coping_decisions.1002.t:0 "การรับมือความเครียด: สหายร่วมดื่ม!"
+ stress_trait_coping_decisions.1002.desc:0 ""[ROOT.Char.GetFirstNameNoTooltip]! สวัสดี!"\n\nทันใดนั้น [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fellow_drunkard'))] ของข้า, [fellow_drunkard.GetTitledFirstName], ก็นั่งลงข้างข้า, ถ้วยอยู่ในมือ เห็นได้ชัดว่า [fellow_drunkard.GetSheHe] ก็มาที่โรงเตี๊ยมเพื่อผ่อนคลาย เช่นกัน, และเราใช้เวลาที่เหลือของค่ำคืนดื่มด้วยกัน\n\nข้าไม่ได้รู้สึกผ่อนคลาย เช่นนี้มา #EMP หลายเดือน#! แล้ว!"
+ stress_trait_coping_decisions.1002.a:0 "ดื่มเข้าไป, สหายข้า!"
+
+ stress_trait_coping_decisions.1003.t:0 "สหายร่วมดื่ม!"
+ stress_trait_coping_decisions.1003.desc:0 "ข้ากำลังดื่มอยู่คนเดียวในโรงเตี๊ยมเมื่อข้าเห็น [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('original_drunkard'))] ของข้า, [original_drunkard.GetTitledFirstName], นั่งลงตรงข้ามข้า\n\nข้ารีบเดินเข้าไปหา, และเราใช้เวลาที่เหลือของค่ำคืนดื่มด้วยกัน [original_drunkard.GetSheHe|U] รู้วิธีสนุกอย่างแท้จริง!"
+
+ stress_trait_coping_decisions.1004.t:0 "การรับมือความเครียด: ยามเช้าอันน่าอาย"
+ stress_trait_coping_decisions.1004.desc:0 "ข้าตื่นขึ้นมาโดยมีศีรษะหนุนอยู่บนหมอนนุ่มๆ และมีร่างอบอุ่นหลายร่างอยู่ข้างๆ ช่างเป็นค่ำคืนอะไร เช่นนี้! ข้าแทบจะจำอะไ–\n\n#EMP แบะ!#!\n\n... หืม ขณะที่ข้าลืมตาขึ้น ข้าได้รับการต้อนรับด้วยดวงตาเรียวเล็กบนใบหน้าที่ #EMP ขาว#! และ #EMP ปุกปุย#! มาก ทันใดนั้นหมอนของข้าก็ลุกขึ้นยืนและเดินจากไป, และเพื่อนร่วมนอนของข้าก็ติดตามไปทันที ข้าถูกทิ้งให้อยู่ตามลำพังในกองฟาง"
+ stress_trait_coping_decisions.1004.a:0 "เอาล่ะ... ข้าได้นอนหลับฝันดี– ดี!"
+
+ stress_trait_coping_decisions.1501.t:0 "การรับมือความเครียด: หมอกควันอันสงบ"
+ stress_trait_coping_decisions.1501.desc:1 "ข้าเอนกายลงบนที่นั่งขณะเอื้อมมือหยิบเค้กอีกชิ้นอย่างสบายๆ, รสชาติกลมกล่อมติดลิ้น, หมอกควันที่น่าพอใจค่อยๆ ชะล้างความกังวลของข้าไป\n\nข้าไม่ได้สงบ เช่นนี้มา #EMP หลายสัปดาห์#! แล้ว เพียงแค่... อยู่ที่นี่ กับถาดเค้กหน้าฮาชิชนี้ นั่นก็เพียงพอแล้ว"
+ stress_trait_coping_decisions.1501.a:0 "นี่คือทั้งหมดที่ข้าต้องการ"
+
+ stress_trait_coping_decisions.2001.t:0 "การรับมือความเครียด: วิถีทางอันไร้ขอบเขต"
+ stress_trait_coping_decisions.2001.desc_woman:0 "ข้านอนอยู่ในอ้อมแขนที่พันกัน, [ROOT.Char.Custom('AttractionWomanManIndef')] อยู่บนตัวข้า, ขณะที่การปลดปล่อย – และความโล่งใจ – สั่นสะท้านไปทั่วร่างข้า"
+ stress_trait_coping_decisions.2001.desc_man:0 "ข้านอนอยู่ในอ้อมแขนที่พันกัน, [ROOT.Char.Custom('AttractionWomanManIndef')] คร่อมอยู่บนตัวข้า, ขณะที่การปลดปล่อย – และความโล่งใจ – สั่นสะท้านไปทั่วร่างข้า"
+ stress_trait_coping_decisions.2001.desc_ending:0 "\n\nจิตใจของข้าสงบกว่าที่เป็นมา #EMP หลายสัปดาห์#!, แต่ชีพจรของข้ายังคงเต้นแรง! ยอดเยี่ยม!"
+ stress_trait_coping_decisions.2001.a:0 "อีกครั้ง มานี่สิ, [ROOT.Char.Custom('AttractionGirlBoyPlural')]!"
+
+ stress_trait_coping_decisions.2002.t:0 "การรับมือความเครียด: ราคาของความหลงใหล"
+ stress_trait_coping_decisions.2002.desc_woman:0 "ข้าตื่นขึ้นหลังจากค่ำคืนอันน่าทึ่งที่เต็มไปด้วยความหลงใหล และ [ROOT.Char.Custom('AttractionWomanMan')] คนนั้น, ยืนกรานที่จะอยู่ต่อจนดึกกว่าใคร, ปรนเปรอข้า จนกระทั่งข้าหลับไป... #EMP ฟู่#!, มันเป็น #EMP ประสบการณ์#! ที่ยอดเยี่ยม!!"
+ stress_trait_coping_decisions.2002.desc_man:0 "ข้าตื่นขึ้นหลังจากค่ำคืนอันน่าทึ่งที่เต็มไปด้วยความหลงใหล และ [ROOT.Char.Custom('AttractionWomanMan')] คนนั้น, ยืนกรานที่จะอยู่ต่อจนดึกกว่าใคร, ขึ้นคร่อมข้า จนกระทั่งข้าหลับไป... #EMP ฟู่#!, มันเป็น #EMP ประสบการณ์#! ที่ยอดเยี่ยม!!"
+ stress_trait_coping_decisions.2002.desc:0 "\n\nข้าลุกขึ้นเพื่อ แต่งตัว, แต่ดูเหมือนมีบางอย่างหายไป บางสิ่งที่ค่อนข้างสำคัญ บางอย่าง เช่น #EMP ของทั้งหมดของข้า#!! ห้องถูกกวาดเกลี้ยง, ไม่พบร่องรอยของเสื้อผ้าหรือกระเป๋าเงินเลย\n\n"
+ stress_trait_coping_decisions.2002.desc_ending_rival:0 "บนพื้นข้าพบข้อความ: #EMP "ข้าหวังว่าเจ้าจะเพลิดเพลินกับ [ROOT.Char.Custom('AttractionWomanMan')] ที่ข้าส่งไปให้ คู่ปรับของเจ้า, [rival.GetTitledFirstName]"#!"
+ stress_trait_coping_decisions.2002.desc_ending:0 "โอ้, [ROOT.Char.Custom('AttractionWomanMan')] ที่น่าสาปแช่งนั่น!"
+ stress_trait_coping_decisions.2002.a:0 "ได้โปรด... ใครก็ได้... เอาเสื้อผ้ามาให้ข้าที!"
+ stress_trait_coping_decisions.2002.b:0 "[rival.GetFirstNameNoTooltip]! เจ้างูพิษ!"
+
+ stress_trait_coping_decisions.2004.t: "การรับมือความเครียด: ผลที่ตามมา"
+ stress_trait_coping_decisions.2004.desc: "บ่ายวันหนึ่งข้าถูกหญิงชาวบ้านนางหนึ่งเข้าหาโดยไม่คาดฝัน นางอุ้มทารกน้อยไว้ในอ้อมแขน, น้ำตาไหลอาบแก้มของ [prostitute.GetHerHis]\n\n"[ROOT.Char.GetTitledFirstNameNoTooltip]!" นางตำหนิ, "การกระทำอันเหลวไหลของท่านไม่ใช่ว่าจะไม่มีผลตามมา! [baby.Custom('GirlBoy')] น้อยคนนี้เป็น #EMP ของท่าน#!!"\n\nข้าแทบสำลัก — แต่ข้าจำใบหน้าของ [prostitute.GetHerHis], ร่างกายของ [prostitute.GetHerHis], ที่เรืองรองอยู่ใต้แสงเทียนในซ่องโสเภณีแห่งความชั่วช้าได้หรือไม่...?"
+ stress_trait_coping_decisions.2004.a: "[baby.Custom('GetDaughterSon')]! #EMP ของข้า#! [baby.Custom('GetDaughterSon')]!"
+ stress_trait_coping_decisions.2004.b: "หญิงผู้น่าสงสารที่สับสน, ข้าจะดูแลเด็กคนนี้ อย่างไรก็ตาม..."
+ stress_trait_coping_decisions.2004.c: "เจ้าคิดว่าข้าเป็นใคร? ทหารยาม!"
+ stress_trait_coping_decisions_2004_a_custom: "ทุก [spouse|E], [lover|E], และ [child|E] ที่ถูกต้องตามกฎหมาย"
+
+ stress_trait_coping_decisions.2501.t:0 "การรับมือความเครียด: ตามลำพัง"
+ stress_trait_coping_decisions.2501.desc: "ขณะที่ข้าค่อยๆ เคลื่อนตัวเข้าไปใน [ROOT.Char.Custom('GetChamber')] อันเงียบสงบของข้า, ในที่สุดข้าก็พบว่าตัวเองอยู่ตามลำพังอย่างสมบูรณ์ ข้าหายใจเข้าลึกๆ และออก\n\nคนรับใช้ได้รับคำสั่งไม่ให้ผู้ใดรบกวนข้า, ไม่ว่าจะเกิดอะไรขึ้น, และขณะที่บ่าของข้าผ่อนคลายลง ข้ารู้ว่านี่คือสิ่งที่ข้าต้องการอย่างแท้จริง"
+ stress_trait_coping_decisions.2501.a:0 "ข้าสงบสุขอย่างแท้จริง!"
+
+ stress_trait_coping_decisions.3001.t:0 "การรับมือความเครียด: ปลดปล่อยมันออกมา"
+ stress_trait_coping_decisions.3001.desc_vassal:1 ""[vassal.GetTitledFirstName] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] ที่รักของข้า!" ข้ายิ้ม [ROOT.Char.Custom('quirk_neg_adverb')]\n\n"ท่านเกิดมาเป็น [vassal.Custom2('InsultNoun', ROOT.Char)] [vassal.Custom2('InsultAdjectiveArticle', ROOT.Char)] เช่นนี้เลย หรือเพิ่งมาพัฒนาเอาทีหลังรึ?""
+ stress_trait_coping_decisions.3001.desc_has_vassals:0 "ทันทีที่ข้าหลวงทั้งหมดนั่งลง และ [vassal.GetTitledFirstName] เริ่มพูด ข้าก็ยิ้ม [ROOT.Char.Custom('quirk_neg_adverb')]\n\n"[vassal.GetTitledFirstNameNoTooltip] ขออภัยที่ขัดจังหวะ แต่เหตุใดท่านถึงเป็น [vassal.Custom2('InsultNoun', ROOT.Char)] [vassal.Custom2('InsultAdjectiveArticle', ROOT.Char)] เช่นนี้อยู่เรื่อย? และท่าน [vassal_2.GetTitledFirstName] ท่านเกิดมาเป็น [vassal_2.Custom2('InsultNoun', ROOT.Char)] หรือเพิ่งมาพัฒนาเอาทีหลังรึ?""
+ stress_trait_coping_decisions.3001.desc_has_target_character: "ทันทีที่ทุกคนนั่งลง และ [target_character.GetTitledFirstName] เริ่มพูด ข้าก็ยิ้ม [ROOT.Char.Custom('quirk_neg_adverb')]\n\n"[target_character.GetTitledFirstNameNoTooltip] ขออภัยที่ขัดจังหวะ แต่เหตุใดท่านถึงเป็น [target_character.Custom2('InsultNoun', ROOT.Char)] [target_character.Custom2('InsultAdjectiveArticle', ROOT.Char)] เช่นนี้อยู่เรื่อย?""
+ stress_trait_coping_decisions.3001.desc:0 "ทันทีที่ [ROOT.Char.Custom('GetCourt'|l)] รวมตัวกัน ข้ายิ้ม [ROOT.Char.Custom('quirk_neg_adverb')] – ถึงเวลาแล้ว\n\n"เจ้า, ตรงนั้น! เจ้าเกิดมาเป็นคนหยาบคาย เช่นนี้, หรือว่ามันเพิ่งมาเป็นในภายหลัง?""
+ stress_trait_coping_decisions.3001.a_target:0 "สีหน้าของ [target_character.GetHerHis]...!"
+ stress_trait_coping_decisions.3001.a:0 "และ #EMP เจ้า#!! อย่าคิดว่าข้ามองไม่เห็นเจ้า!"
+
+ stress_trait_coping_decisions.3501.t:0 "การรับมือความเครียด: ความทรมานอันสงบ"
+ stress_trait_coping_decisions.3501.desc:0 "#EMP เครี้ยะ!#!\n\nแส้ฟาดลงบนหลังข้า, และข้าสั่นสะท้านด้วยความกระจ่างที่มันนำมา ความเจ็บปวดคือทั้งหมดที่ข้ารู้สึก, และความเจ็บปวดคือทั้งหมดที่อยู่ในใจข้า\n\n#EMP เครี้ยะ!#!\n\n#EMP เครี้ยะ!#!"
+ stress_trait_coping_decisions.3501.a:0 "อึ่ก– ความเจ็บปวดอันแสนหวาน!"
+
+ stress_trait_coping_decisions.4001.t:0 "การรับมือความเครียด: ราคาที่เราจ่าย"
+ stress_trait_coping_decisions.4001.desc: "ข้าเดินผ่านตลาดใน [ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip], เวียนหัวด้วยความตื่นเต้น – ผ้า, เครื่องประดับ, ด้าย และของกระจุกกระจิก... ข้าต้องการทั้งหมด!\n\nข้าไปจบลงที่แผงลอย ซึ่งมี [ROOT.Char.Custom('RandomWomanMan')] ชราผู้หนึ่งดูแลอยู่ ซึ่งเข้าใจสถานการณ์ที่ยากลำบากของข้าเป็นอย่างดีและสัญญาว่าจะช่วยข้าเลือก"
+ stress_trait_coping_decisions.4001.a:0 "อันนั้นสองชิ้น ไม่, เดี๋ยวก่อน #EMP สาม!#!"
+
+ stress_trait_coping_decisions.4501.t:0 "การรับมือความเครียด: ของขวัญแห่งการให้"
+ stress_trait_coping_decisions.4501.desc:0 "ข้าเดินออกจาก [ROOT.Char.GetFaith.HouseOfWorship] ด้วยกระเป๋าเงินที่เบาและหัวใจที่เบากว่า\n\nเพียงแค่คิดถึงผู้ขัดสนทั้งหมดที่เงินนั้นสามารถช่วยได้ก็เพียงพอที่จะ ทำให้จิตใจข้าสงบลง!"
+ stress_trait_coping_decisions.4501.a:0 "[ROOT.Char.GetFaith.HighGodName] ทรงมีเมตตา!"
+
+ stress_trait_coping_decisions.5001.t:0 "การรับมือความเครียด: การสารภาพ"
+ stress_trait_coping_decisions.5001.desc_opening:0 ""ข้าได้รวบรวม [ROOT.Char.Custom('GetCourt')|l] ในวันนี้ เพราะข้ามีบางอย่างจะสารภาพ""
+ stress_trait_coping_decisions.5001.desc_secret:0 "ข้า... ข้า [secret.Custom('SecretDescriptionFirstPerson')]""
+ stress_trait_coping_decisions.5001.desc_sin:0 "ข้า... ข้าไม่ได้ต่อต้านด้าน [ROOT.Char.Custom('SinfulTrait')|l] ของข้ามากเท่าที่ควร""
+ stress_trait_coping_decisions.5001.desc:0 ""ข้า... ข้าถูกรบกวนด้วยความคิดบาปในช่วงหลังนี้ ฟังข้าก่อน...""
+ stress_trait_coping_decisions.5001.desc_ending:0 "\n\nเสียงพึมพำด้วยความตกใจที่แพร่กระจายไปทั่วฝูงชนไม่ได้ขัดขวางความโล่งใจของข้าเลย"
+ stress_trait_coping_decisions.5001.a:0 "ข้ารู้สึกเบาสบายขึ้นมาก!"
+
+ stress_trait_coping_decisions.5002.desc:0 "ข้า... ข้า [secret.Custom('SecretDescriptionFirstPerson')] ไม่, เดี๋ยวก่อน... นั่นไม่ใช่ข้า– มันคือ [secret_character.GetTitledFirstName]!"\n\nเสียงร้องด้วยความโกรธเคืองจาก [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('secret_character'))] ของข้าไม่ได้ขัดขวางความโล่งใจของข้าเลย"
+ stress_trait_coping_decisions.5002.a:0 "อย่างไรก็ตาม... ข้ารู้สึกเบาสบายขึ้นมาก!"
+
+ stress_trait_coping_decisions.5501.t:0 "การรับมือความเครียด: กินเข้าไป!"
+ stress_trait_coping_decisions.5501.desc:0 "ขณะที่จาน [ROOT.Char.Custom('FavoriteTreat')] อีกจานถูกวางลงตรงหน้าข้า ข้ารู้สึกผ่อนคลาย\n\nไม่มีอะไร ทำให้จิตใจสงบได้เท่ากับอาหารดีๆ!"
+ stress_trait_coping_decisions.5501.a:0 "เอา [ROOT.Char.Custom('FavoriteTreat')] มาให้ข้าอีก!"
+
+ stress_trait_coping_decisions.5502.t:0 "การรับมือความเครียด: งานเลี้ยงที่ไม่คาดคิด"
+ stress_trait_coping_decisions.5502.desc:0 "ขณะที่ข้ารอให้พ่อครัวเตรียมอาหาร ข้าก็บังเอิญพบ [ROOT.Char.Custom('lowly_servant_type')] คนหนึ่งในโถงทางเดิน\n\n[ROOT.Char.GetSheHe|U] พยายามขอตัว [ROOT.Char.GetHerselfHimself] แต่เราจะปล่อยให้เป็น เช่นนั้นไม่ได้ ใช่หรือไม่? ข้าเพิ่งสะดุดพบอาหารมื้อที่ดีที่สุดเท่าที่จะจินตนาการได้!\n\nข้านำ [ROOT.Char.GetHerHim] ลงไปยังห้องใต้ดินที่ไม่มีใครได้ยินเสียงกรีดร้อง และจากนั้นข้าก็ #EMP จัดงานเลี้ยง#!!"
+ stress_trait_coping_decisions.5502.desc_landless: "ขณะเดินเตร็ดเตร่ไปรอบค่ายระหว่างรออาหารเตรียมเสร็จ ข้าก็เจอเด็กน้อยคนหนึ่งจากถิ่นฐานใกล้เคียง\n\n[ROOT.Char.GetSheHe|U] พยายามขอตัว [ROOT.Char.GetHerselfHimself] แต่เราจะปล่อยให้เป็น เช่นนั้นไม่ได้ ใช่หรือไม่? ข้าเพิ่งสะดุดพบอาหารมื้อที่ดีที่สุดเท่าที่จะจินตนาการได้!\n\nข้านำ [ROOT.Char.GetHerHim] ไปยังชายป่าที่ ซึ่งเสียงกรีดร้องสักครั้งสองครั้งคงไม่เป็นไร และจากนั้นข้าก็ #EMP จัดงานเลี้ยง#!!"
+ stress_trait_coping_decisions.5502.a:0 "และข้ามีของหวานรออยู่ชั้นบน!"
+ stress_trait_coping_decisions.5502.a_landless: "นี่สิ #EMP คือ#! ความโล่งใจ"
+
+ stress_trait_coping_decisions.6001.t:0 "การรับมือความเครียด: ละทิ้งอาหาร"
+ stress_trait_coping_decisions.6001.desc:0 ""แจ้งพ่อครัวว่าข้าจะไม่, ในอนาคตอันใกล้นี้, ร่วมรับประทานอาหาร""\n\nทันทีที่คำพูดออกจากปากข้า ข้ารู้สึกเบาสบายขึ้น – ไม่มีสิ่งรบกวนอีกต่อไป, ไม่ต้องฝืนกินอาหารที่ข้าแทบทนไม่ได้อีกต่อไป! บัดนี้ข้าสามารถจดจ่อกับสิ่งที่สำคัญได้แล้ว"
+ stress_trait_coping_decisions.6001.a:0 "ใช่, นี่เป็นเรื่องดี"
+
+ stress_trait_coping_decisions.6501.t:0 "การรับมือความเครียด: หมึกที่ไหลลื่น"
+ stress_trait_coping_decisions.6501.desc:0 "ข้าหยิบปากกาและเปิดสมุดบันทึกของข้า\n\nทุกประโยคที่ประดับอยู่บนกระดาษ ข้ารู้สึกว่าบ่าของข้าผ่อนคลายลง – ความกระจ่างที่กระบวนการนี้นำมานั้นไม่มีใครเทียบได้!"
+ stress_trait_coping_decisions.6501.a:0 "ข้าจุ่มปากกาอีกครั้ง..."
+
+ stress_trait_coping_decisions.7001.t:0 "การรับมือความเครียด: การเปิดเผยความลับ"
+ stress_trait_coping_decisions.7001.desc:1 "หลังจากการสนทนาอันยาวนานกับ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('confidant'))] ของข้า [confidant.GetTitledFirstName] ข้าสามารถรู้สึกว่าความคิดของข้าสงบลง"
+ stress_trait_coping_decisions.7001.desc_ending:2 "\n\nอย่างไรก็ตาม, ขณะที่ข้ากลับเข้าร่วม [ROOT.Char.Custom('GetCourt')|l] ข้าสามารถเห็นความอิจฉาบนใบหน้าของ [ROOT.Char.Custom('GetCourtierPlural')|l]... ท้ายที่สุด, ใครเล่าจะไม่อยากได้รับความไว้วางใจจาก [confidant.GetFirstNamePossessive]?"
+ stress_trait_coping_decisions.7001.a:0 "แต่จิตใจของข้าสงบลงแล้ว"
+
+ stress_trait_coping_decisions.7002.desc:0 "หลังจากการสนทนาอันยาวนานและเหน็ดเหนื่อย ข้าสามารถรู้สึกว่าความคิดของข้าสงบลง"
+
+ stress_trait_coping_decisions.activity:0 "การรับมือความเครียด:"
+ stress_trait_coping_decisions.7501.t:1 "$stress_trait_coping_decisions.activity$ ขับเหงื่อออกมา"
+ stress_trait_coping_decisions.7501.desc:0 "ขณะที่ข้าวิ่งครบรอบ [ROOT.Char.Custom('ResidenceBuilding')|l] ของข้าอีกรอบ ข้าก็รู้สึกได้แล้วว่าความกังวลของข้าหยดลงไปพร้อมกับเหงื่อ\n\nบางคนบอกว่าข้าวิ่งหนีปัญหา, แต่ข้าบอกว่าข้าวิ่งเข้าหาทางแก้!"
+ stress_trait_coping_decisions.7501.a:0 "อีกรอบ!"
+
+ stress_trait_coping_decisions.7502.t:0 "$stress_trait_coping_decisions.activity$ หนักกว่าคือมากกว่า"
+ stress_trait_coping_decisions.7502.desc:0 "'นี่ยังไม่พอ!' ข้าคิดกับตัวเอง, ขณะวาง [ROOT.Char.Custom('signature_weapon')] ฝึกซ้อมลง ข้าฝึกฝนไม่หยุดหย่อน แต่ข้าไม่เหนื่อยเลย — ข้าต้องการความท้าทายที่หนักหนากว่านี้!\n\nใช่... บางสิ่งที่ใหญ่กว่า... หรือบางทีอาจหนักกว่า!\n\nบางสิ่งที่แน่ใจว่าจะ ทำให้ข้าเหนื่อย!"
+ stress_trait_coping_decisions.7502.a:0 "[random_artifact.GetNameNoTooltip] คงต้องพอแล้ว!"
+ stress_trait_coping_decisions.7502.b:0 "ข้าจะสั่งทำ [ROOT.Char.Custom('signature_weapon')] ฝึกซ้อมที่หนักเป็นพิเศษ"
+ stress_trait_coping_decisions.7502.c:0 "[lifted_child.GetFirstNameNoTooltip], มานี่!"
+ stress_trait_coping_decisions.7502.c.flavor:0 "ขึ้นไปเลย!"
+ stress_trait_coping_decisions.7502.d:0 "ไม่จำเป็นต้องปรับปรุงในเวลานี้"
+ stress_trait_coping_decisions.7502.success:0 "ความท้าทายพิเศษ ทำให้ท่านกระปรี้กระเปร่า"
+ stress_trait_coping_decisions.7502.failure:0 "ท่านประเมินความแข็งแกร่งของตนเองสูงเกินไป"
+
+ stress_trait_coping_decisions.7503.t:0 "$stress_trait_coping_decisions.activity$ การแข่งขันฉันมิตร"
+ stress_trait_coping_decisions.7503.desc:0 "ข้ากำลังอยู่ระหว่างการฝึกซ้อมเมื่อข้าเห็น [random_knight.GetTitledFirstName], กำลังออกกำลังกายอยู่ เช่นกัน ข้ามอง [random_knight.GetHerHim] ขึ้นลง — ไม่เพียง แต่ [random_knight.GetSheHe] ดูจะมีสุขภาพดี, แต่ยังมีสมรรถภาพทางกายสูงสุดอีกด้วย ข้าอยากจะวัดความสามารถของข้ากับ [random_knight.GetHerHis], แต่ด้วยวิธีใด?\n\nข้าควรคำนึงถึงปัจจัยหลายอย่างหรือไม่หากข้าต้องการชนะ? พลังดิบ, หรือการผสมผสานที่อาจ รวมถึงความอดทนหรือไหวพริบ?"
+ stress_trait_coping_decisions.7503.a:0 "เสนอให้ทั้งสองปล้ำกัน"
+ stress_trait_coping_decisions.7503.a.tt:0 "ท่านคิดว่าการเอาชนะด้วยความสามารถล้วนๆ จะ ทำให้ชนะ"
+ stress_trait_coping_decisions.7503.b:0 "ท้า [random_knight.GetHerHim] ประลองฝีมือ"
+ stress_trait_coping_decisions.7503.b.tt:0 "ท่านคิดว่าการผสมผสานระหว่างความสามารถและทักษะการต่อสู้จะนำไปสู่ชัยชนะ"
+ stress_trait_coping_decisions.7503.c:0 ""แข่งวิ่งกันไหม?""
+ stress_trait_coping_decisions.7503.c.tt:0 "ท่านคิดว่าการผสมผสานระหว่างความสามารถและสุขภาพจะช่วยให้ท่านเอาชนะคู่แข่งได้"
+ stress_trait_coping_decisions.7503.d:0 "มุ่งเน้นไปที่การฝึกซ้อมตามปกติให้เสร็จสิ้น"
+ stress_trait_coping_decisions.7503.success:0 "ท่านได้รับชัยชนะ!"
+ stress_trait_coping_decisions.7503.failure:0 "[random_knight.GetTitledFirstNameNoTooltip] ชนะการท้าทาย"
+
+ stress_trait_coping_decisions.7504.desc:0 "บางครั้งเป็นการยากที่จะหาแรงจูงใจที่จะคงเส้นคงวาเมื่อออกกำลังกายคนเดียว\n\nข้าอาจลองหาคู่หู, ซึ่งไม่เพียง แต่จะกระตุ้นข้าในวันที่แย่ๆ, แต่ยังเป็นคนที่ข้าสามารถเปรียบเทียบตัวเองได้เมื่อติดตามความคืบหน้าของตัวเอง\n\nเพื่อนร่วมทางประเภทใดจะเหมาะกับข้ามากที่สุด? คนที่ข้าสามารถเอาเป็นแบบอย่างได้, คนที่จะ ทำให้ข้าตื่นตัวอยู่เสมอ, หรือบางทีอาจเป็นคนที่ข้ารู้ว่าข้าไม่ควรปรารถนาที่จะเป็น?"
+ stress_trait_coping_decisions.7504.a:0 "ข้าควรฝึกกับคนที่มีความสามารถที่ข้าอิจฉา เช่น [ideal_character.GetFirstNameNoTooltip]!"
+ stress_trait_coping_decisions.7504.b:0 "[similar_character.GetFirstNameNoTooltip] มีรูปร่างคล้ายกัน, และสามารถเลียนแบบกิจวัตรของข้าได้"
+ stress_trait_coping_decisions.7504.c:0 "การเฝ้าดู [not_ideal_character.GetFirstNameNoTooltip] ดิ้นรนจะเป็นแรงกระตุ้น"
+ stress_trait_coping_decisions.7504.d:0 "ไม่จำเป็นต้องมีเพื่อนร่วมทางขณะฝึกซ้อม"
+

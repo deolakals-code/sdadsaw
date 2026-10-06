@@ -1,0 +1,17 @@
+﻿l_english: 
+ #TownType
+ barony_town_type_city:0 "นคร"
+ barony_town_type_castle_town:0 "เมืองรอบปราสาท"
+ barony_town_type_town:0 "เมือง"
+ barony_town_type_village:0 "หมู่บ้าน"
+ 
+ building_guild_halls:0 "หอสมาคมช่าง"
+ building_carvers_guild:0 "สมาคมช่างแกะสลัก"
+ building_carpenters_guild:0 "สมาคมช่างไม้"
+ building_hunters_guild:0 "สมาคมนายพราน"
+ building_masons_guild:0 "สมาคมช่างหิน"
+ building_tailors_guild:0 "สมาคมช่างตัดเสื้อ"
+ building_glassworkers_guild:0 "สมาคมช่างแก้ว"
+ building_artisans_guild:0 "สมาคมช่างฝีมือ"
+ building_fishmonger_guild:0 "สมาคมชาวประมง"
+ building_fallback_guild:0 "สมาคมช่างตีเหล็ก"

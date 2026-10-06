@@ -1,0 +1,182 @@
+﻿l_english: 
+ # Decision Menu Localization
+ petition_liege_decision:0 "ร้องฎีกาต่อ [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]"
+ petition_liege_decision_desc:1 "ข้าสามารถยื่นฎีกาต่อ [liege|E] ของข้าเพื่อช่วยให้ข้าก้าวข้ามอุปสรรคที่เผชิญ คำร้องขออันจริงใจ ซึ่งอุทิศเพื่อคุณประโยชน์ของอาณาจักรมักจะได้รับการอนุมัติ"
+ petition_liege_decision_tooltip:1 "[petition_liege|E] [liege|E] ของท่านเพื่อขอของขวัญหรือการบริการ"
+ petition_liege_decision_effects:1 "ท่าน [travel|E] ไปยังราชสำนักของ [THIS.Char.GetLiege.GetShortUINamePossessive] เพื่อยื่น [petition_liege|E] ของท่าน"
+ petition_liege_decision_confirm:1 "$petition_liege_decision$"
+ petition_liege_decision_second_tooltip:0 "$DESC$\n$petition_liege_grace_tt$"
+ petition_liege_grace_tt:0 "#weak การร้องฎีกาต่อนายเหนือหัวจะไม่สามารถใช้ได้เป็นเวลา 5 ปี#!"
+ CHOOSE_PETITION_DECISION_NEXT_STEP_BUTTON:0 "เลือกประเภทคำร้องฎีกา"
+ petition_liege_warning_effect:0 "#weak อุปนิสัย, [opinion|E] และประเภทการ [petition_liege|E] ล้วนมีผลต่อโอกาสในการได้รับการยอมรับ#!"
+ # Council
+ petition_liege_decision_option_council_seat:0 "การ แต่งตั้งในสภา\n#low มอบตำแหน่งใน [council|E]#!"
+ petition_liege_council_seat_desc:0 "ร้องขอให้ [ROOT.Char.GetLiege.GetTitledFirstName] มอบตำแหน่งใน [council|E] ของ [ROOT.Char.GetLiege.GetHerHis] แก่ท่าน"
+ petition_liege_council_seat_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_council_seat_me_tt:0 "#X ท่านอยู่ใน [council|E] ของ [liege|E] ของท่านอยู่แล้ว#!"
+ petition_liege_council_seat_liege_tt:0 "#X ขณะนี้ [liege|E] ของท่านไม่สามารถสับเปลี่ยน [council|E] ของพวกเขาได้#!"
+ council_appointment_toast_desc_liege:0 "[THIS.Char.GetShortUIName] คือ [THIS.Char.GetCouncilTitle] ของท่านแล้ว"
+ council_appointment_toast_desc_vassal:0 "[THIS.Char.GetShortUIName] ได้กลายเป็น [THIS.Char.GetCouncilTitle] ของ [petition_liege.GetTitledFirstNamePossessiveNoTooltip]"
+ council_appointment_toast_desc_replaced:0 "[petition_liege.GetTitledFirstNameNoTooltip] ได้แทนที่ท่านด้วย [petition_vassal.GetTitledFirstNameNoTooltip] ในสภาของ [petition_liege.GetHerHis]"
+ petition_liege_decision_effects_council_seat:0 "[THIS.Char.GetLiege.GetSheHe|U] อาจมอบตำแหน่งใน [council|E] ของ [THIS.Char.GetLiege.GetHerHis] ให้ท่าน"
+ # Court Position
+ court_position_toast_desc_liege: "[THIS.Char.GetShortUIName] คือ [THIS.Char.GetCouncilTitle] ของท่านแล้ว"
+ court_position_toast_desc_vassal: "[THIS.Char.GetShortUIName] ได้กลายเป็น [THIS.Char.GetHeldCourtPositionsString] ของ [petition_liege.GetTitledFirstNamePossessiveNoTooltip]"
+ # Debt
+ petition_liege_decision_option_pay_debt:0 "ชำระหนี้สิน\n#low ชำระ [debt|E]#!"
+ petition_liege_pay_debt_desc:0 "ร้องขอให้ [ROOT.Char.GetLiege.GetTitledFirstName] ชำระ [debt|E] ปัจจุบันของท่าน"
+ petition_liege_pay_debt_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_pay_debt_me_tt:1 "#X ท่านไม่ได้มี [debt|E] อย่างน้อย [gold_i|E]-100"
+ petition_liege_pay_debt_liege_tt:0 "#X [liege|E] ของท่านไม่สามารถจ่าย [debt|E] ของท่านได้#!"
+ petition_liege_decision_effects_pay_debt:0 "[THIS.Char.GetLiege.GetSheHe|U] อาจชำระ [debt|E] ของท่าน"
+
+ # War Aid
+ petition_liege_decision_option_war_aid:0 "ความช่วยเหลือทางทหาร\n#low ช่วยเหลือใน [war|E] ภายนอก#!"
+ petition_liege_war_aid_desc:0 "ร้องขอให้ [ROOT.Char.GetLiege.GetTitledFirstName] เข้าร่วมหรือให้ยืมกองกำลังใน [war|E] ที่กำลังดำเนินอยู่กับ [realm|E] อื่น"
+ petition_liege_war_aid_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_war_aid_tt:2 "#X ท่านไม่ใช่ [war_leader|E] ของ [war|E] ที่ไม่ใช่ภายใน [realm|E]#! ซึ่งท่านกำลังพ่ายแพ้อย่างน้อย -[EmptyScope.ScriptValue('petition_war_aid_score_value')|0]% [war_score|E]"
+ petition_liege_war_aid_liege_tt:1 "#X [liege|E] มีส่วนร่วมใน [wars|E] ที่กำลังดำเนินอยู่ของท่านแล้ว"
+ petition_liege_war_aid_levies_tt:1 "#X [liege|E] ไม่แข็งแกร่งพอที่จะเสี่ยงเข้าร่วม [war|E] ของท่าน"
+ petition_liege_decision_effects_war_aid:0 "[THIS.Char.GetLiege.GetSheHe|U] อาจเข้าร่วมหรือส่งกองกำลังสนับสนุนใน [war|E] ที่กำลังดำเนินอยู่"
+ petition_liege_war_aid_troops:0 "กองกำลังเกณฑ์ของนายเหนือหัว"
+ petition_liege_internal_war_aid_tt:0 "#X [liege|E] กำลังยุ่งอยู่กับการต่อสู้กับ [factions|E]#!"
+ petition_liege_external_war_aid_tt:0 "#X [liege|E] กำลังยุ่งอยู่กับ [wars|E] ภายนอก#!"
+
+ # Vassal War
+ petition_liege_decision_option_vassal_war:0 "สันติภาพในอาณาจักร\n#low บังคับใช้สันติภาพกับ [vassals|E]#!"
+ petition_liege_vassal_war_desc:0 "ร้องขอให้ [ROOT.Char.GetLiege.GetTitledFirstName] บังคับใช้สันติภาพใน [wars|E] ของท่านกับ [vassals|E] อื่นๆ ของ [ROOT.Char.GetLiege.GetHerHis]"
+ petition_liege_vassal_war_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_vassal_war_tt:0 "#X ท่านไม่ได้อยู่ใน [war|E] กับ [vassal|E] ของ [liege|E] ของท่าน#!"
+ petition_liege_decision_effects_vassal_war:0 "[THIS.Char.GetLiege.GetSheHe|U] อาจยุติ [wars|E] ของท่านกับเพื่อน [vassals|E]"
+ vassal_war_toast_desc_second_party:0 "[petition_vassal.GetTitledFirstNameNoTooltip] ได้ร้องฎีกาต่อ [petition_liege.GetTitledFirstNameNoTooltip] เพื่อยุติสงครามของท่าน"
+
+ # Faction War
+ petition_liege_decision_option_faction_war:0 "ยุบกลุ่มอิทธิพล\n#low สลาย [faction|E] ที่ทรงอำนาจ#!"
+ petition_liege_faction_war_desc:0 "ร้องขอให้ [ROOT.Char.GetLiege.GetTitledFirstName] ยุบหรือยุติสงครามของท่านกับ [faction|E] ที่ทรงอำนาจ"
+ petition_liege_faction_war_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_faction_war_tt:0 "#X ไม่มี [claimant_faction|E] หรือ [liberty_faction|E] ใดที่กำลังทำสงครามกับท่าน หรือสามารถกดดันข้อเรียกร้องได้#!"
+ petition_liege_decision_effects_faction_war:0 "[THIS.Char.GetLiege.GetSheHe|U] อาจยุบ [faction|E] ที่ต่อต้านท่าน"
+
+ # Control
+ petition_liege_decision_option_county_control:0 "ส่งเจ้าพนักงาน\n#low ช่วยเพิ่ม [control|E] ของ [county|E]#!"
+ petition_liege_county_control_desc:0 "ร้องขอให้ [ROOT.Char.GetLiege.GetTitledFirstName] ช่วยเหลือท่านในการฟื้นฟู [control|E] เหนือ [counties|E] ที่ไม่เชื่อฟัง"
+ petition_liege_county_control_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_county_control_tt:0 "#X ไม่มี [counties|E] ใดของท่านที่มี [control|E] ต่ำ#!"
+ petition_liege_decision_effects_county_control:0 "[THIS.Char.GetLiege.GetSheHe|U] อาจช่วยนำ [counties|E] ของท่านมาอยู่ภายใต้ [control|E]"
+
+ # Convert
+ petition_liege_decision_option_county_convert:0 "สนับสนุนนักบวช\n#low ช่วยเปลี่ยนศาสนา [counties|E]#!"
+ petition_liege_county_convert_desc:0 "ร้องขอให้ [ROOT.Char.GetLiege.GetTitledFirstName] ช่วยเหลือท่านในการเปลี่ยน [counties|E] ให้เป็น [faith|E] ที่แท้จริง"
+ petition_liege_county_convert_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_county_convert_tt:0 "#X ไม่มี [counties|E] ใดของท่านที่นับถือ [faith|E] อื่น#!"
+ petition_liege_decision_effects_county_convert:0 "[THIS.Char.GetLiege.GetSheHe|U] อาจช่วยเหลือในการเปลี่ยนศาสนาของ [counties|E] ของท่าน"
+
+ # Opinion
+ petition_liege_decision_option_county_opinion:0 "การเสด็จเยือน\n#low เพิ่ม [county_opinion|E] ใน [counties|E]"
+ petition_liege_county_opinion_desc:0 "ร้องขอให้ [ROOT.Char.GetLiege.GetTitledFirstName] ตรวจเยี่ยม [counties|E] ของท่านเพื่อเพิ่ม [county_opinion|E]"
+ petition_liege_county_opinion_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_county_opinion_tt:0 "#X ไม่มี [counties|E] ใดของท่านที่มี [county_opinion|E] ต่ำ#!"
+ petition_liege_decision_effects_county_opinion:0 "[THIS.Char.GetLiege.GetSheHe|U] อาจเพิ่ม [county_opinion|E] ใน [realm|E] ของท่าน"
+
+ # Fortify
+ petition_liege_decision_option_fortify_border:0 "เสริมความแข็งแกร่งชายแดน\n#low เสริมความแข็งแกร่งให้ [counties|E] ชายแดนของท่าน#!"
+ petition_liege_fortify_border_desc:0 "ร้องขอให้ [ROOT.Char.GetLiege.GetTitledFirstName] ช่วยเหลือท่านในการเสริมความแข็งแกร่งให้ [counties|E] ของท่าน ซึ่งมีพรมแดนติดกับ [realms|E] อื่น"
+ petition_liege_fortify_border_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_fortify_border_tt:0 "#X ไม่มี [counties|E] ใดของท่านที่มีพรมแดนติดกับ [realm|E] อื่นซึ่งไม่ได้อยู่ใน [alliance|E] กับ [liege|E] ของท่าน#!"
+ petition_liege_decision_effects_fortify_border:0 "[THIS.Char.GetLiege.GetSheHe|U] อาจเสริมความแข็งแกร่งให้ [counties|E] ชายแดนของท่าน"
+
+ # Title Liege
+ petition_liege_decision_option_title_liege:0 "มอบสิทธิ์เรียกร้อง\n#low มอบ [title|E] ที่ [claimed|E]#!"
+ petition_liege_title_liege_desc:0 "ร้องขอให้ [ROOT.Char.GetLiege.GetTitledFirstName] มอบ [title|E] ที่ [claimed|E] ของ [ROOT.Char.GetLiege.GetHerHis] แก่ท่าน"
+ petition_liege_title_liege_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_title_liege_tt:0 "#X ไม่มี [claims|E] ใดของท่านที่ [liege|E] ของท่านถือครองอยู่ หรือพวกเขาไม่สามารถสละ [title|E] ได้#!"
+ petition_liege_decision_effects_title_liege:0 "[THIS.Char.GetLiege.GetSheHe|U] อาจโอน [title|E] ที่อ้างสิทธิ์ให้ท่าน"
+
+ # Title Vassal
+ petition_liege_decision_option_title_vassal:0 "โอนสิทธิ์เรียกร้อง\n#low มอบ [title|E] ที่ [claimed|E] ของ [vassal|E]"
+ petition_liege_title_vassal_desc:0 "ร้องขอให้ [ROOT.Char.GetLiege.GetTitledFirstName] มอบ [title|E] ที่ [claimed|E] ของ [vassal|E] อื่นแก่ท่าน"
+ petition_liege_title_vassal_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_title_vassal_liege_tt:0 "#X [crown_authority|E] ของ [liege|E] ของท่านไม่อนุญาตให้ [revocation|E] [titles|E]#!"
+ petition_liege_title_vassal_claim_tt:0 "#X ไม่มี [claims|E] ใดของท่านที่ [vassals|E] ของ [liege|E] ของท่านถือครองอยู่ หรือพวกเขาไม่สามารถหรือไม่เต็มใจที่จะสละ [title|E]#!"
+ petition_liege_decision_effects_title_vassal:0 "[THIS.Char.GetLiege.GetSheHe|U] อาจโอน [title|E] ที่อ้างสิทธิ์จาก [vassal|E] อื่นให้ท่าน"
+
+ # Construct City
+ petition_liege_decision_option_construct_city:0 "ทำให้เคาน์ตีเป็นเมือง\n#low สนับสนุนทางการเงินสำหรับ [city|E] [holding|E]#!"
+ petition_liege_construct_city_desc:0 "ร้องขอให้ [ROOT.Char.GetLiege.GetTitledFirstName] สนับสนุนทางการเงินสำหรับ [holding|E] [city|E] ใน [counties|E] ของท่าน"
+ petition_liege_construct_city_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_construct_city_tt:0 "#X ไม่มี [holdings|E] ใดของท่านที่สามารถรองรับ [holding|E] [city|E] ได้#!"
+ petition_liege_construct_city_liege_tt:0 "#X [liege|E] ของท่านไม่สามารถจ่ายค่าก่อสร้าง [holding|E] ได้#!"
+ petition_liege_decision_effects_construct_city:0 "[THIS.Char.GetLiege.GetSheHe|U] อาจสนับสนุนทางการเงินสำหรับการก่อสร้าง [holding|E] [city|E] ใน [realm|E] ของท่าน"
+
+ # Construct Temple
+ petition_liege_decision_option_construct_temple:0 "สนับสนุนทางการเงินสำหรับวัด\n#low สนับสนุนทางการเงินสำหรับ [holding|E] [temple|E]#!"
+ petition_liege_construct_temple_desc:0 "ร้องขอให้ [ROOT.Char.GetLiege.GetTitledFirstName] สนับสนุนทางการเงินสำหรับ [holding|E] [temple|E] ใน [counties|E] ของท่าน"
+ petition_liege_construct_temple_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_construct_temple_tt:0 "#X ไม่มี [holdings|E] ใดของท่านที่สามารถรองรับ [holding|E] [temple|E] ได้#!"
+ petition_liege_decision_effects_construct_temple:0 "[THIS.Char.GetLiege.GetSheHe|U] อาจสนับสนุนทางการเงินสำหรับการก่อสร้าง [holding|E] [temple|E] ใน [realm|E] ของท่าน"
+
+ # Development
+ petition_liege_decision_option_development:0 "ตั้งถิ่นฐานใหม่ให้ไพร่ฟ้าข้าแผ่นดิน\n#low เพิ่ม [development|E] ของ [capital|E]#!"
+ petition_liege_development_desc:0 "ร้องขอให้ [ROOT.Char.GetLiege.GetTitledFirstName] โอนส่วนหนึ่งของประชากรใน [capital|E] ของ [ROOT.Char.GetLiege.GetHerHis] มายังของท่านเอง"
+ petition_liege_development_tooltip:0 "$petition_liege_decision_second_tooltip$"
+ petition_liege_development_tt:0 "#X [capital|E] ของท่านมี [development|E] มากกว่า 66% ของ [liege|E] ของท่านอยู่แล้ว#!"
+ petition_liege_decision_effects_development:0 "[THIS.Char.GetLiege.GetSheHe|U] อาจโอน [development|E] บางส่วนของ [capital|E] ของ [THIS.Char.GetLiege.GetHerHis] มายังของท่านเอง"
+ 
+ # House Fief
+ petition_liege_decision_option_house_fief: "การอนุญาตที่ดินศักดินาของตระกูล\n#low อนุญาตการเปลี่ยนผ่านสู่ [soryo|E]#!"
+ petition_liege_house_fief_desc: "ร้องขอให้ [ROOT.Char.GetLiege.GetTitledFirstName] ยอมรับการเปลี่ยนผ่านของท่านไปยัง [soryo|E] ว่าไม่ถือเป็น [crime|e]"
+ petition_liege_house_fief_tooltip: "$petition_liege_decision_second_tooltip$"
+ petition_liege_house_fief_tt: "ท่านได้รับสิทธิพิเศษนี้แล้ว"
+ petition_liege_decision_effects_house_fief: "[THIS.Char.GetLiege.GetSheHe|U] อาจ ทำให้การ [decision|E] #TUT_KW Establish House Fief#! ถูกกฎหมาย"
+ petition_liege_house_fief_allowed: "การ [decision|E] [GetDecisionWithKey('tgp_japan_establish_house_fief_decision').GetName|V] จะไม่ถูกพิจารณาว่าเป็น [crime_i|E][crime|E] อีกต่อไปเป็นเวลา #V 10 years#!\n[petition_liege.GetTitledFirstName] ไม่อาจเพิกถอนที่ดินศักดินาใหม่ของท่านเป็นเวลา #V 10 years#! เว้น แต่ท่านเป็น [criminal|E]"
+
+ # Wedding
+ petition_liege_decision_option_wedding: "การสมรสหลวง\n#low แต่งงานเข้าสู่ [ceremonial_house|E]#!"
+ petition_liege_wedding_desc: "ร้องขอการยินยอมจาก [ROOT.Char.GetLiege.GetTitledFirstNamePossessive] เพื่อ [marriage|E] กับราชวงศ์จักรพรรดิของ [ROOT.Char.GetLiege.GetTitledFirstNamePossessive]"
+ petition_liege_wedding_tooltip: "$petition_liege_decision_second_tooltip$"
+ petition_liege_wedding_tt: "[house|E] ของท่านไม่มีผู้สมัครที่เหมาะสม"
+ petition_liege_decision_effects_wedding: "[THIS.Char.GetLiege.GetSheHe|U] อาจอนุมัติ [marriage|E] กับ [ceremonial_house|E]"
+ petition_liege_wedding_permission: "การยอมรับ [marriage|E] ของ [THIS.Char.GetHouse.GetName] กับ [ceremonial_house|E]: +#P 50#!"
+
+ # Shared
+ petition_liege_faith_tt:0 "#X ท่านไม่ได้นับถือ [faith|E] เดียวกันกับ [liege|E] ของท่าน#!"
+ petition_liege_holding_tt:0 "#X [liege|E] ของท่านไม่สามารถจ่ายค่าก่อสร้าง [holding|E] ได้#!"
+ 
+ petition_liege_debt_tt:0 "#X [liege|E] ของท่านมี [debt|E]#!"
+ petition_liege_council_no_petition_valid_tt:0 "#X ไม่มีสิ่งใดที่ท่านสามารถร้องขอจากนายเหนือหัวของท่านได้#!"
+ petition_liege_city_planning_innovation_tt:0 "#X ทั้งท่านและ [liege|E] ของท่านต้องอยู่ใน [cultures|E] ที่มี [innovation|E] การวางผังเมือง#!"
+
+ # Non Royal Liege
+ ## Decision Menu Localization
+ petition_liege_decision_desc_non_royal: "ข้าสามารถยื่นฎีกาต่อ [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip] เพื่อช่วยให้ข้าก้าวข้ามอุปสรรคที่เผชิญ คำร้องขออันจริงใจ ซึ่งอุทิศเพื่อคุณประโยชน์ของอาณาจักรมักจะได้รับการอนุมัติ"
+ petition_liege_decision_tooltip_non_royal: "[petition_liege|E] [ceremonial_regent|E] เพื่อขอของกำนัลหรือการรับใช้"
+
+ petition_ceremonial_liege_decision_title: "ยื่นฎีกาต่อ [ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNameNoTooltip]"
+ petition_ceremonial_liege_decision: "ยื่นฎีกาต่อ $game_concept_ceremonial_liege$"
+ petition_ceremonial_liege_decision_desc: "ข้าสามารถยื่นฎีกาต่อ [ceremonial_liege|E] ของข้าเพื่อช่วยให้ข้าก้าวข้ามอุปสรรคที่เผชิญ คำร้องขออันจริงใจ ซึ่งอุทิศเพื่อคุณประโยชน์ของอาณาจักรมักจะได้รับการอนุมัติ"
+ petition_ceremonial_liege_decision_effects: "ท่านเดินทางไปยังราชสำนักของ [ceremonial_liege.GetShortUINamePossessive] เพื่อยื่น [petition_liege|E] ของท่าน"
+ tgp_is_ceremonial_petition_shown_tt: "[THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetShortUIName] ต้องว่าง"
+ petition_ceremonial_liege_decision_confirm:1 "$petition_ceremonial_liege_decision_title$"
+ # Kampaku
+ petition_ceremonial_liege_regent_desc: "ร้องขอให้ [ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetShortUIName] สนับสนุนการ [appointment|E] ของท่านในฐานะ [ceremonial_regent|E]"
+ petition_ceremonial_liege_decision_option_regent: "การรับรองของ [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]\n#low สนับสนุน [candidate_score|E] ของท่าน#!"
+ petition_ceremonial_liege_regent_tooltip: "$petition_liege_decision_second_tooltip$"
+ petition_ceremonial_liege_regent_already_given_tt: "[THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetShortUIName] ได้รับรองท่านแล้ว"
+ # Appointment
+ petition_ceremonial_liege_appointment_desc: "ร้องขอให้ [ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetShortUIName] สนับสนุน [candidate_score|E] [governorship|E] ของสมาชิก [house|E] [ROOT.Char.GetHouse.GetName]"
+ petition_ceremonial_liege_decision_option_appointment: "ความก้าวหน้าของตระกูล\n#low สนับสนุน [candidate_score|E] ของท่าน#!"
+ petition_ceremonial_liege_appointment_tooltip: "$petition_liege_decision_second_tooltip$"
+ # Wedding
+ petition_ceremonial_liege_wedding_desc: "ร้องขอให้ [ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetShortUIName] สนับสนุน [marriage|E] ระหว่าง [house|E] ของท่านและ [ceremonial_house|E]"
+ petition_ceremonial_liege_decision_option_wedding: "การสมรสหลวง\n#low [marry|E] เข้าสู่ [ceremonial_house|E]#!"
+ petition_ceremonial_liege_wedding_tooltip: "$petition_liege_decision_second_tooltip$"
+ # Privilege
+ petition_ceremonial_liege_privilege_desc: "ร้องขอให้ [ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetShortUIName] ยอมรับเกียรติศักดิ์ของ [house|E] [ROOT.Char.GetHouse.GetName]"
+ petition_ceremonial_liege_decision_option_privilege: "ยอมรับเกียรติศักดิ์\n#low แสวงหา [prestige|E]#!"
+ petition_ceremonial_liege_privilege_tooltip: "$petition_liege_decision_second_tooltip$"
+ petition_ceremonial_liege_warning_effect: "#weak อุปนิสัยของ [ceremonial_liege|E], [opinion|E] และประเภทการ [petition_liege|E] ล้วนมีผลต่อโอกาสในการได้รับการยอมรับ#!"
+
+ petition_liege_regent_support: "[candidate_score|E] ของท่านสำหรับ [petition_vassal.GetTopLiege.GetPrimaryTitle.GetDefinitiveName]: #P +10%#!"
+ petition_liege_appointment_support: "[candidate_score|E] [governorship|E] ของสมาชิก [house|E] [THIS.Char.GetHouse.GetBaseName] ทั้งหมด: #P +15#!"
+ petition_liege_regent_support_desc: "ฎีกา"
+ petition_liege_appointment_support_desc: "ฎีกา"

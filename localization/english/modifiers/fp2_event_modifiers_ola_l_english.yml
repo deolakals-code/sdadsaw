@@ -1,0 +1,146 @@
+﻿l_english: 
+ tolerance_gospel_modifier:0 "คำสอนแห่งขันติธรรม"
+ tolerance_gospel_modifier_desc:0 "ตัวละครนี้ได้กระตุ้นให้ผู้คนยอมรับความอดทนและความสามัคคี"
+ fanatical_recruits_modifier:0 "ทหารเกณฑ์คลั่งศาสนา"
+ fanatical_recruits_modifier_desc:0 "ตัวละครนี้มีทหารเกณฑ์ผู้กระตือรือร้นหลั่งไหลเข้ามาอย่างต่อเนื่อง"
+ tensions_eased_province_modifier:0 "ความตึงเครียดผ่อนคลาย"
+ tensions_eased_province_modifier_desc:0 "ความตึงเครียดทางศาสนาในจังหวัดนี้กำลังลดลง"
+ riots_and_murders_province_modifier:0 "การจลาจลและการสังหาร"
+ riots_and_murders_province_modifier_desc:0 "เคาน์ตีนี้สั่นสะเทือนจากการสังหารหมู่และการขับไล่ผู้ที่ถูกเรียกว่าไม่พึงประสงค์"
+ hate_monger_modifier:0 "ผู้ปลุกปั่นความเกลียดชัง"
+ hate_monger_modifier_desc:0 "ตัวละครนี้เป็นที่รู้จักในฐานะผู้หว่านความขัดแย้งและความเกลียดชัง"
+
+ nursing_salaries_for_single_mothers_modifier:0 "เงินเดือนค่าเลี้ยงดูบุตร"
+ nursing_salaries_for_single_mothers_modifier_desc:0 "ตัวละครนี้ได้จัดตั้งระบบที่แม่เลี้ยงเดี่ยวจะได้รับค่าจ้างเพื่อเลี้ยงดูบุตรของตนเป็นเวลาหนึ่ง"
+ widows_and_widowers_amazing_funds_modifier:0 "กองทุนสำหรับหญิงม่าย"
+ widows_and_widowers_amazing_funds_modifier_desc:0 "ตัวละครนี้ได้สร้างกองทุนสำหรับผู้ที่เป็นม่ายจากสงครามหรือโชคร้าย - แต่ผู้ที่มีบุตรนอกสมรสจะไม่ได้รับสิ่งใดเลย"
+ starving_single_mothers_and_children_modifier:0 "มารดาผู้อดอยาก"
+ starving_single_mothers_and_children_modifier_desc:0 "หญิงม่าย ผู้ปกครองเลี้ยงเดี่ยว และบุตรของพวกเขาถูกทอดทิ้งให้อดอยากในดินแดนของตัวละครนี้"
+ destitute_single_mothers_modifier:0 "แหล่งรวมผู้น่าเวทนา"
+ destitute_single_mothers_modifier_desc:0 "ราชสำนักของตัวละครนี้เต็มไปด้วยแม่เลี้ยงเดี่ยวผู้ยากไร้และบุตรของพวกเขา ในสภาพอันน่าสังเวชต่างๆ นานา"
+
+ anti_innovation_muslim_modifier:0 "นิซามียะห์"
+ anti_innovation_muslim_modifier_desc:0 "ตัวละครนี้ได้แสดงความสนใจในขบวนการทางศาสนาใหม่ที่ชิงชังเหตุผลนิยมและวิทยาศาสตร์"
+ rolling_in_filth_modifier:0 "เกลือกกลั้วในความสกปรก"
+ rolling_in_filth_modifier_desc:0 "ตัวละครนี้ไม่ใส่ใจเกี่ยวกับความสะอาดและสิ่งที่เรียกว่าสุขอนามัย"
+ cannot_read_greek_modifier:0 "อ้างว่าอ่านภาษากรีกได้"
+ cannot_read_greek_modifier_desc:0 "ตัวละครนี้อ้างว่ามีความเชี่ยวชาญในภาษาของนักปราชญ์แห่งโลกโบราณ แต่หลักฐานชี้ไปในทางตรงกันข้าม"
+ misread_medicine_incompetence_modifier:0 "อ่านตำราการแพทย์ผิดพลาด"
+ misread_medicine_incompetence_modifier_desc:0 "ตัวละครนี้ได้อ่านตำราการแพทย์และงานเขียนอันยิ่งใหญ่อื่นๆ เกี่ยวกับสุขภาพและสุขอนามัย แต่เข้าใจผิดไปอย่างสิ้นเชิง"
+ inspired_medicine_modifier:0 "ได้รับแรงบันดาลใจจากนวัตกรรมทางการแพทย์"
+ inspired_medicine_modifier_desc:0 "ตัวละครนี้ได้ให้ความสนใจในนวัตกรรมล่าสุดในสาขาการแพทย์โดยนักปราชญ์ชาวเปอร์เซียและอันดาลูเซีย"
+ medical_insights_modifier:0 "ความเข้าใจเชิงการแพทย์"
+ medical_insights_modifier_desc:0 "ตัวละครนี้ได้อ่านงานของฮิปโปเครติสและกาเลน และตอนนี้ยืนกรานให้ผู้คนล้างมือในราชสำนัก"
+
+ fp2_advanced_maritime_technology_modifier:0 "เทคโนโลยีทางทะเลขั้นสูง"
+ fp2_advanced_maritime_technology_modifier_desc:0 "ตัวละครนี้ครอบครองเทคโนโลยีทางเรือ ซึ่งล้ำหน้ากว่าส่วนอื่นๆ ของโลกอย่างมาก"
+ fp2_successful_shipyards_modifier:0 "ช่างต่อเรือระดับปรมาจารย์"
+ fp2_successful_shipyards_modifier_desc:0 "สถานที่แห่งนี้เป็นที่อยู่ของช่างฝีมือทางเรือผู้มีประสบการณ์ สามารถประกอบเรือที่ซับซ้อนที่สุดได้"
+
+ foreboding_visions_modifier:0 "นิมิตลางร้ายแห่งอนาคต"
+ foreboding_visions_modifier_desc:0 "ในความฝันยามไข้ขึ้นและอาการที่อาจเป็นการถูกสิง ตัวละครนี้ประสบกับนิมิตอันเป็นลางร้ายของเหตุการณ์ที่จะเกิดขึ้น"
+
+ mysterious_prophetess_illness_modifier:0 "ความเจ็บป่วยแห่งโหรหญิง"
+ mysterious_prophetess_illness_modifier_desc:0 "ตัวละครนี้ทนทุกข์จากอาการป่วยที่ ทำให้ร่างกายทรุดโทรม ซึ่งดูเหมือนจะเชื่อมโยงกับความฝันเชิงพยากรณ์"
+
+ frightened_by_portent_modifier:0 "หวาดกลัวต่อลางบอกเหตุ"
+ frightened_by_portent_modifier_desc:0 "ตัวละครนี้ได้รับลางบอกเหตุถึงเหตุการณ์อันน่าสะพรึงกลัวที่จะเกิดขึ้น"
+
+ cortes_modifier:0 "กอร์เตส"
+ cortes_modifier_desc:0 "ตัวละครนี้อนุญาตให้ผู้แทนที่ได้รับเลือกจากเทศบาลอิสระเข้าร่วมการประชุมสภา"
+
+ extra_large_cortes_modifier:0 "สภาประชาชน"
+ extra_large_cortes_modifier_desc:0 "ตัวละครนี้อนุญาตให้ #italic ทุกคน#! เข้าร่วมการประชุมสภา"
+
+ vineyards_burnt_county_modifier:0 "ไร่องุ่นถูกเผา"
+ vineyards_burnt_county_modifier_desc:0 "เคาน์ตีนี้เคยเป็นที่ตั้งของไร่องุ่นอันงดงาม แต่ทั้งหมดถูกทำลายลงแล้ว"
+
+ vineyards_protected_county_modifier:0 "ไร่องุ่นที่ได้รับการคุ้มครอง"
+ vineyards_protected_county_modifier_desc:0 "ไร่องุ่นของเคาน์ตีนี้ได้รับการปกป้องจากผู้คลั่งศาสนาที่ต้องการเผาทำลาย"
+
+ crusading_against_iberian_wine_modifier:0 "การรณรงค์ต่อต้านไวน์"
+ crusading_against_iberian_wine_modifier_desc:0 "ตัวละครนี้มุ่งมั่นที่จะยุติพฤติกรรมการดื่มอันเป็นการดูหมิ่นศาสนาของอาณาประชาราษฎร์ชาวไอบีเรีย"
+
+ wine_supply_secure_modifier:0 "การจัดหาไวน์ที่มั่นคง"
+ wine_supply_secure_modifier_desc:0 "ตัวละครนี้ได้ ทำให้แน่ใจว่าไม่มีสิ่งใดสามารถคุกคามการจัดหาไวน์ท้องถิ่นชั้นดีของราชสำนักได้"
+
+ 
+
+
+ toledo_steel_armaments_modifier:0 "ติดอาวุธดุจชาวโรมัน"
+ toledo_steel_armaments_modifier_desc:0 "ทหารของตัวละครนี้ถือดาบที่ทำจากเหล็กกล้าไอบีเรียอันประณีต ดุจกองทหารโรมันในอดีต"
+
+ toledo_steel_county_modifier:0 "เหล็กกล้าโตเลโด"
+ toledo_steel_county_modifier_desc:0 "เคาน์ตีนี้ผลิตเหล็กกล้าชนิดแข็งแกร่ง ซึ่งมีชื่อเสียงมาตั้งแต่สมัยโบราณ"
+
+ tortured_smith_spilling_secrets_modifier:0 "ความลับการตีดาบ"
+ tortured_smith_spilling_secrets_modifier_desc:0 "ตัวละครนี้ได้เรียนรู้ความลับของการตีดาบจากช่างตีเหล็กระดับปรมาจารย์ที่ถูกทรมาน"
+
+ guild_rights_protected_modifier:0 "สิทธิสมาคมช่างได้รับการคุ้มครอง"
+ guild_rights_protected_modifier_desc:0 "สมาคมช่างตีเหล็กของเคาน์ตีนี้ได้รับการคุ้มครองจากการแทรกแซงจากภายนอก"
+
+ master_smith_npc_modifier:0 "ช่างตีเหล็กระดับปรมาจารย์"
+ master_smith_npc_modifier_desc:0 "ทักษะการตีเหล็กของตัวละครนี้แทบจะหาผู้ใดเปรียบมิได้"
+
+
+ great_translation_school_modifier:0 "โรงเรียนการแปลอันยิ่งใหญ่"
+ great_translation_school_modifier_desc:0 "ตัวละครนี้ได้ก่อตั้งโรงเรียนการแปลที่ ซึ่งงานเขียนต่างประเทศอันยิ่งใหญ่ถูกนำมาเผยแพร่เพื่อประโยชน์แก่อารยธรรมทั้งปวง"
+
+ mediocre_translation_school_modifier:0 "โรงเรียนการแปลระดับปานกลาง"
+ mediocre_translation_school_modifier_desc:0 "ตัวละครนี้ได้ให้ทุนสนับสนุนโรงเรียนการแปล แต่ผู้ที่เกี่ยวข้องมีความสามารถที่ค่อนข้างน่ากังขา"
+
+ translation_effort_modifier:0 "ความพยายามในการแปล"
+ translation_effort_modifier_desc:0 "ตัวละครนี้ได้ว่าจ้างนักปราชญ์ผู้มีความสามารถเพื่อแปลงานเขียนที่สำคัญ"
+
+ dusty_libraries_modifier:0 "ห้องสมุดฝุ่นเขรอะ"
+ dusty_libraries_modifier_desc:0 "ห้องสมุดที่เคยงดงามในอาณาจักรของตัวละครนี้ได้กลายเป็นที่ที่เต็มไปด้วยฝุ่นและไม่เป็นระเบียบ ทว่าความสงบอันแปลกประหลาดกลับสามารถพบได้ภายใน"
+
+
+
+
+
+ mystery_meat_unhealth_benefits_modifier:0 "รู้สึกแปลกๆ"
+ mystery_meat_unhealth_benefits_modifier_desc:0 "ตัวละครนี้กินเนื้อจำนวนมากจากซากสัตว์ขนาดยักษ์ลึกลับที่ถูกซัดขึ้นมาบนชายหาด พวกเขาไม่น่าจะกินมันเลย..."
+
+ mystery_meat_health_benefits_modifier:0 "การบำรุงอันยอดเยี่ยม"
+ mystery_meat_health_benefits_modifier_desc:0 "ตัวละครนี้กินเนื้อจำนวนมากจากซากสัตว์ขนาดยักษ์ที่ถูกซัดขึ้นมาบนชายหาด มันอร่อยมาก"
+
+ lay_ruler_issued_fatwa_modifier:0 "คำวินิจฉัยทางศาสนา"
+ lay_ruler_issued_fatwa_modifier_desc:0 "ผู้ปกครองนี้ได้ออกความเห็นทางกฎหมายในเรื่องศาสนา — แม้ว่าบางคนอาจอ้างว่าพวกเขาไม่มีอำนาจที่จะทำ เช่นนั้น"
+
+ saw_the_world_from_above_modifier:0 "เห็นโลกจากเบื้องบน"
+ saw_the_world_from_above_modifier_desc:0 "ตัวละครนี้มีประสบการณ์อันลึกซึ้งในการทะยานผ่านท้องฟ้า"
+
+
+ felt_something_modifier:0 "ตะลึงในความงาม"
+ felt_something_modifier_desc:0 "ตัวละครนี้ได้ยินเสียงดนตรีที่มีความงามราวกับมาจากต่างโลก"
+
+ investing_in_music_modifier:0 "ลงทุนในดนตรี"
+ investing_in_music_modifier_desc:0 "ตัวละครนี้กำลังพยายามให้นักดนตรีที่มีพรสวรรค์ แม้จะเป็นชนชั้นต่ำ ได้แสดงในราชสำนักของตน"
+
+ great_pine_chopped_down_county_modifier:0 "ต้นสนใหญ่ถูกโค่น"
+ great_pine_chopped_down_county_modifier_desc:0 "ในเคาน์ตีนี้เคยมีต้นสนหินใหญ่อายุเก่าแก่ ทอดร่มเงาอันแสนสุข บัดนี้มันไม่ได้ยืนต้นอยู่ที่นั่นอีกต่อไป"
+
+ aversion_to_joy_modifier:0 "ความชิงชังต่อความสุข"
+ aversion_to_joy_modifier_desc:0 "ตัวละครนี้บอกตัวเองว่าความสุขและความงามเป็นสิ่งรบกวนอันไร้สาระ ทำให้ตนอ่อนแอลง"
+
+
+
+
+ memorable_public_execution_modifier:0 "การประหารชีวิตในที่สาธารณะอันน่าจดจำ"
+ memorable_public_execution_modifier_desc:0 "ตัวละครนี้ประหารชีวิตใครบางคนด้วยวิธีการที่ #italic โหดเหี้ยม #!อย่างยิ่ง"
+
+ compelling_apology_modifier:0 "คำขอโทษที่น่าเชื่อถือ"
+ compelling_apology_modifier_desc:0 "ไม่ว่าความผิดพลาดของพวกเขาคืออะไร ตัวละครนี้ได้กล่าวคำขอโทษที่ #italic จริงใจ #!อย่างยิ่ง"
+
+ restitution_to_minorities_modifier:0 "การชดใช้แก่ชนกลุ่มน้อยในท้องถิ่น"
+ restitution_to_minorities_modifier_desc:0 "ตัวละครนี้ได้แก้ไขความคับข้องใจบางประการของชนกลุ่มน้อยในท้องถิ่น"
+
+ obligations_fulfilled_modifier:0 "พันธกรณีอันน่ากังขา"
+ obligations_fulfilled_modifier_desc:0 "ตัวละครนี้ได้ปฏิบัติตามพันธกรณีต่อผู้ปกครองอื่น — โดยการส่งมอบทาสที่หลบหนี..."
+
+ saqaliba_settlers_county_modifier:0 "ผู้ตั้งถิ่นฐานชาวซาคาลิบา"
+ saqaliba_settlers_county_modifier_desc:0 "อดีตทาสเชื้อสายยุโรปตะวันออกได้ตั้งถิ่นฐานในจังหวัดนี้"
+
+ former_slave_npc_modifier:0 "อดีตทาส"
+ former_slave_npc_modifier_desc:0 "ตัวละครนี้เคยเป็นทาสมาก่อน และมุ่งมั่นอย่างยิ่งที่จะปกป้องอิสรภาพของตน"

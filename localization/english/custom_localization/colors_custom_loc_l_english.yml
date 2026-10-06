@@ -1,0 +1,25 @@
+﻿l_english: 
+ #Created for the perfume creation event chain, but should be easily used elsewhere
+
+# Simple
+ color_simple_blue:0 "สีน้ำเงิน"
+ color_simple_red:0 "สีแดง"
+ color_simple_yellow:0 "สีเหลือง"
+ color_simple_green:0 "สีเขียว"
+ color_simple_orange:0 "สีส้ม"
+ color_simple_cyan:0 "สีฟ้าอมเขียว"
+ color_simple_purple:0 "สีม่วง"
+ color_simple_pink:0 "สีชมพู"
+ color_simple_grey:0 "สีเทา"
+ color_simple_black:0 "สีดำ"
+
+# Complex
+ color_complex_gold:0 "สีเหลืองทองคำเปล่งประกายดุจหญ้าฝรั่น"
+ color_complex_silver:0 "สีเทาเงินสว่าง"
+ color_complex_blue:0 "สีน้ำเงินเข้มดุจรัตติกาล"
+ color_complex_red:0 "สีแดงชาดเข้มดุจทับทิม"
+ color_complex_purple:0 "สีม่วงไทระสง่างาม"
+ color_complex_pink:0 "สีเชอร์รี่เข้ม"
+ color_complex_green:0 "สีเขียวมรกตอันรุ่งโรจน์"
+ color_complex_bronze:0 "สีสำริดเข้มดุจอาทิตย์อัสดง"
+ color_complex_black:0 "สีดำสนิทดุจหินออบซิเดียน"

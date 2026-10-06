@@ -1,0 +1,22 @@
+﻿l_english: 
+### MANDALA
+
+ action_lesson_tgp_playtest_intro_mandala: "การปกครองแบบมณฑล"
+ action_lesson_tgp_playtest_intro_mandala_desc: "มณฑล คือการปกครองพิเศษที่เน้นหนักในเรื่องศรัทธาและรัฐบรรณาการ เปิดหน้านี้เพื่อรับคำแนะนำเกี่ยวกับการปกครองนี้"
+ action_lesson_tgp_playtest_intro_mandala_click: "$click_to_open_lesson$"
+
+ lesson_tgp_playtest_intro_mandala_step_intro: "มณฑล"
+ lesson_tgp_playtest_intro_mandala_step_intro_desc: "ท่านคือ[ruler|E]แบบ[mandala|E]!\n\n$game_concept_mandala$ คือ[government|E]พิเศษในเอเชียตะวันออกเฉียงใต้ที่เน้นในเรื่องความเชื่อและ[piety|E]"
+
+ lesson_tgp_playtest_intro_mandala_step_government: "การปกครองแบบมณฑล"
+ lesson_tgp_playtest_intro_mandala_step_government_desc: "ฐานอำนาจของท่านมาจากเครือข่าย[tributaries|E]อันลื่นไหล โดยมี[vassals|E]ถาวรเพียงไม่กี่ราย\n\nนั่นหมายความว่าท่านสามารถ 'ช่วงชิง' รัฐบรรณาการของ[ruler|E]มณฑลอื่นได้ ตัวอย่าง เช่น โดยการใช้[character_interaction|E] $offer_tributary_status_interaction|V$\n\nศาสนายังมีบทบาทสำคัญใน [mandala_government|E] อีกด้วย ในการกระทำการหลายอย่างอันเป็นศูนย์กลางของการปกครอง ท่านจำต้องใช้[piety|E]"
+
+ lesson_tgp_playtest_intro_mandala_step_temple_complex: "หมู่ศาสนสถาน"
+ lesson_tgp_playtest_intro_mandala_step_temple_complex_desc: "นอกจากนี้ เพื่อเพิ่มขีดจำกัดขนาด[realm|E]ของท่าน ท่านจำต้องอัปเกรดหมู่ศาสนสถาน[great_building|E]ใน[capital|E]ของท่าน\n\nการนี้ทำได้โดยการเริ่ม [great_project|E] ซึ่งอาจมีค่าใช้จ่ายสูงพอควร แต่หากเหล่า[subjects|E]ของท่านเพิ่ม [great_project_contributions|E] ของตนเอง ท่านก็มิจำเป็นต้องจ่ายเต็มจำนวน\n\n#I You can start Great Projects in the Great Projects Tab of the '$DECISIONS_VIEW_TITLE$' Panel.#!"
+
+ lesson_tgp_playtest_intro_mandala_step_mandala_aspect: "แง่มุมมณฑล"
+ lesson_tgp_playtest_intro_mandala_step_mandala_aspect_desc: "ในฐานะ[house_head|E]แบบ[mandala|E] [house|E]ของท่านจะมี [mandala_aspect|E] ซึ่งคล้ายคลึงกับ [powerful_family_attribute|E] ในจักรวรรดิไบแซนไทน์\n\nคุณลักษณะนี้จะไม่ส่งผลต่อ[liege|E]ของท่าน (หากท่านมี) และสามารถพัฒนาให้ดีขึ้นได้เมื่อเวลาผ่านไปโดยการใช้[piety|E]และ[prestige|E]"
+
+ lesson_tgp_playtest_intro_mandala_step_end: "การปกครองแบบมณฑล"
+ lesson_tgp_playtest_intro_mandala_step_end_desc: "[ruler|E]แบบ[mandala|E]ผู้ยิ่งใหญ่ย่อมต้องพึ่งพา[piety|E] [tributaries|E] และความแข็งแกร่งของ [mandala_aspect|E] ของตน จงเชี่ยวชาญในสิ่งเหล่านี้ แล้วอิทธิพลของท่านจะแผ่ขยายไปทั่วเอเชียตะวันออกเฉียงใต้"
+

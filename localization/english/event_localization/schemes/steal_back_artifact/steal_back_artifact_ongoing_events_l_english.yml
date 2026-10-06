@@ -1,0 +1,22 @@
+﻿l_english: 
+ steal_back_artifact_event_title:1 "ขโมยโบราณวัตถุ:"
+ steal_back_artifact_ongoing.1001.t:0 "$steal_back_artifact_event_title$ ผู้ดูแลโบราณวัตถุ"
+ steal_back_artifact_ongoing.1001.desc:0 "หนึ่งในอุปสรรคที่เห็นได้ชัดในการนำวัตถุโบราณกลับคืนมา คือ นักค้าวัตถุโบราณของ[target.GetTitledFirstNamePossessive] นามว่า [antiquarian.GetTitledFirstName]\n\nแน่นอนว่ามีหลายวิธีที่จะ... #EMP จัดการ#! กับบุคคลผู้นี้ แต่ข้าสงสัยว่า[antiquarian.GetFirstNameNoTooltip] เป็นบุคคลประเภทที่ข้าสามารถชักจูงให้มองข้ามไปได้หรือไม่ โดยการเสนอสินบนที่เหมาะสม"
+ steal_back_artifact_ongoing.1001.a:0 "ทองคำคือภาษาสากลแห่งสินบน"
+ steal_back_artifact_ongoing.1001.a.tt:0 "ท่านเชื่อว่าความภักดีของ[antiquarian.GetTitledFirstNamePossessive] สามารถซื้อได้ด้วยทรัพย์สมบัติ..."
+ steal_back_artifact_ongoing.1001.b:0 "บางทีอาจเป็นโบราณวัตถุแลกโบราณวัตถุ?"
+ steal_back_artifact_ongoing.1001.b.tt:0 "[antiquarian.GetTitledFirstName] จะยอมรับการ "แลกเปลี่ยน" ที่เท่าเทียมกัน"
+ steal_back_artifact_ongoing.1001.c:0 "การแนะนำให้รู้จักกับ [random_beauty.GetTitledFirstNameNoTooltip] อาจพิสูจน์ได้ว่า... #EMP เร้าใจ#! ยิ่งนัก"
+ steal_back_artifact_ongoing.1001.c.tt:0 "ท่านกำลังเดิมพันว่า [antiquarian.GetTitledFirstName] ให้ค่าความงามทางกายเหนือความภักดี"
+ steal_back_artifact_ongoing.1001.d:0 "ข้าจะพิจารณาความเป็นไปได้อื่นแทน"
+
+ steal_back_artifact_ongoing_notification.1001.success:0 "[antiquarian.GetTitledFirstName] รับสินบน"
+ steal_back_artifact_ongoing_notification.1001.failure:0 "[antiquarian.GetTitledFirstName] ปฏิเสธสินบน"
+
+ steal_back_artifact_ongoing.1002.t:0 "$steal_back_artifact_event_title$ การจัดการเล็กน้อย"
+ steal_back_artifact_ongoing.1002.desc:0 "ข้าได้บอก [agent.Custom2('MyCharacterIntroduction', ROOT.Char)] ให้สอดส่อง [target.GetTitledFirstName] เพื่อที่เราจะได้หาโอกาสอันสมบูรณ์แบบในการลักขโมยโบราณวัตถุจาก[target.GetHerHim]\n\nอย่างไรก็ตาม ความคืบหน้ากลับช้ากว่าที่ข้าต้องการมาก บางทีข้าควรให้[agent.GetHerHim]มองหาสิ่งใดสิ่งหนึ่งเป็นการเฉพาะ?"
+ steal_back_artifact_ongoing.1002.a:0 "ให้คำสั่งเฉพาะแก่ [agent.GetFirstNameNoTooltip]"
+ steal_back_artifact_ongoing.1002.b:0 "ข้าไว้ใจให้พวกเขาทำงานของตน"
+ steal_back_artifact_ongoing_notification.1002.success:0 "[agent.GetTitledFirstName] รายงานกลับมา"
+ steal_back_artifact_ongoing_notification.1002.failure:0 "[antiquarian.GetTitledFirstName] หาข้อมูลใด ๆ ไม่พบ"
+

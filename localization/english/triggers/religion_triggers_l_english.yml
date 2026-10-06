@@ -1,0 +1,73 @@
+﻿l_english: 
+
+ RELIGION_TAG_TRIGGER:0 "เป็นส่วนหนึ่งของ $RELIGION|V$"
+
+ FAITH_FERVOR_GLOBAL:0 "[fervor|E] คือ $COMPARATOR$ $NUM|V0$"
+ NOT_FAITH_FERVOR_GLOBAL:0 "[fervor|E] #bold ไม่ใช่#! $COMPARATOR$ $NUM|V0$"
+ FAITH_FERVOR_THIRD:0 "[fervor|E] ของ [FAITH.GetName] คือ $COMPARATOR$ $NUM|V0$"
+ NOT_FAITH_FERVOR_THIRD:0 "[fervor|E] ของ [FAITH.GetName] #bold ไม่ใช่#! $COMPARATOR$ $NUM|V0$"
+
+ FAITH_VIRTUES_GLOBAL:0 "มี [traits|E] ที่เป็น [virtuous|E] $NUM|V0$ อย่าง"
+ NOT_FAITH_VIRTUES_GLOBAL:0 "มี [traits|E] ที่เป็น [virtuous|E] น้อยกว่า $NUM|V0$ อย่าง"
+ FAITH_VIRTUES_FIRST:1 "ท่านมี [traits|E] ที่เป็น [virtuous|E] $NUM|V0$ อย่าง"
+ NOT_FAITH_VIRTUES_FIRST:1 "ท่านมี [traits|E] ที่เป็น [virtuous|E] น้อยกว่า $NUM|V0$ อย่าง"
+ FAITH_VIRTUES_THIRD:0 "[CHARACTER.GetUIName] มี [traits|E] ที่เป็น [virtuous|E] $NUM|V0$ อย่าง"
+ NOT_FAITH_VIRTUES_THIRD:0 "[CHARACTER.GetUIName] มี [traits|E] ที่เป็น [virtuous|E] น้อยกว่า $NUM|V0$ อย่าง"
+
+ FAITH_SINS_GLOBAL:0 "มี [traits|E] ที่เป็น [sinful|E] $NUM|V0$ อย่าง"
+ NOT_FAITH_SINS_GLOBAL:0 "มี [traits|E] ที่เป็น [sinful|E] น้อยกว่า $NUM|V0$ อย่าง"
+ FAITH_SINS_FIRST:1 "ท่านมี [traits|E] ที่เป็น [sinful|E] $NUM|V0$ อย่าง"
+ NOT_FAITH_SINS_FIRST:1 "ท่านมี [traits|E] ที่เป็น [sinful|E] น้อยกว่า $NUM|V0$ อย่าง"
+ FAITH_SINS_THIRD:0 "[CHARACTER.GetUIName] มี [traits|E] ที่เป็น [sinful|E] $NUM|V0$ อย่าง"
+ NOT_FAITH_SINS_THIRD:0 "[CHARACTER.GetUIName] มี [traits|E] ที่เป็น [sinful|E] น้อยกว่า $NUM|V0$ อย่าง"
+
+ HOLY_SITES_CONTROLLED_GLOBAL:0 "มี [holy_sites|E] ภายใต้การควบคุม $NUM|V0$ แห่ง"
+ NOT_HOLY_SITES_CONTROLLED_GLOBAL:0 "มี [holy_sites|E] ภายใต้การควบคุมน้อยกว่า $NUM|V0$ แห่ง"
+ HOLY_SITES_CONTROLLED_FIRST:1 "ท่านมี [holy_sites|E] ภายใต้การควบคุม $NUM|V0$ แห่ง"
+ NOT_HOLY_SITES_CONTROLLED_FIRST:1 "ท่านมี [holy_sites|E] ภายใต้การควบคุมน้อยกว่า $NUM|V0$ แห่ง"
+ HOLY_SITES_CONTROLLED_THIRD:0 "[FAITH.GetName] มี [holy_sites|E] ภายใต้การควบคุม $NUM|V0$ แห่ง"
+ NOT_HOLY_SITES_CONTROLLED_THIRD:0 "[FAITH.GetName] มี [holy_sites|E] ภายใต้การควบคุมน้อยกว่า $NUM|V0$ แห่ง"
+
+ RELIGION_IS_SAME_AS:0 "มี [religion|E] เดียวกันกับ [TARGET_CHARACTER.GetShortUIName]"
+ NOT_RELIGION_IS_SAME_AS:0 "ไม่มี [religion|E] เดียวกันกับ [TARGET_CHARACTER.GetShortUIName]"
+ I_HAVE_SAME_RELIGION:1 "ท่านมี [religion|E] เดียวกันกับ [TARGET_CHARACTER.GetShortUIName]"
+ NOT_I_HAVE_SAME_RELIGION:1 "ท่าน #bold ไม่มี#! [religion|E] เดียวกันกับ [TARGET_CHARACTER.GetShortUIName]"
+ THEY_HAVE_SAME_RELIGION:0 "[CHARACTER.GetShortUIName|U] มี [religion|E] เดียวกันกับ [TARGET_CHARACTER.GetShortUIName]"
+ NOT_THEY_HAVE_SAME_RELIGION:0 "[CHARACTER.GetShortUIName|U] ไม่มี [religion|E] เดียวกันกับ [TARGET_CHARACTER.GetShortUIName]"
+
+ IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "[doctrines] ของ [FAITH.GetName] อนุญาตให้ [rulers] มอบ [titles] ให้แก่ [CHARACTER.GetWomenMen] ได้"
+ NOT_IT_HAS_DOMINANT_RULING_GENDER_TRIGGER:0 "[doctrines] ของ [FAITH.GetName] #bold ไม่อนุญาต#! ให้ [rulers] มอบ [titles] ให้แก่ [TARGET_CHARACTER.GetWomenMen]"
+
+ I_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH:2 "[realm|E] ของท่านมี [holy_sites|E] ของ [FAITH.GetName] อย่างน้อย $VALUE|0V$ แห่ง พร้อมด้วย [holders|E] ที่เป็น [FAITH.GetAdjectiveNoTooltip]"
+ I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH:2 "[realm|E] หรือ [confederation|E] ของท่าน #bold ไม่มี#! [holy_sites|E] ของ [FAITH.GetName] อย่างน้อย $VALUE|0V$ แห่งที่มี [holders|E] ชาว [FAITH.GetAdjectiveNoTooltip] #weak (ปัจจุบัน: [GetPlayer.MakeScope.ScriptValue('holy_site_reform_tracker_value')|V0])#!"
+ I_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH_DIRECTLY: "[realm|E]ของท่านมี[holy_site|E]ของศาสนา[FAITH.GetName]อย่างน้อย $VALUE|0V$ แห่ง ซึ่งมี[holders|E]เป็นชาว[FAITH.GetAdjectiveNoTooltip]"
+ I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH_DIRECTLY: "[realm|E]ของท่าน#boldมิได้#!มี[holy_site|E]ของศาสนา[FAITH.GetName]อย่างน้อย $VALUE|0V$ แห่ง ซึ่งมี[holders|E]เป็นชาว[FAITH.GetAdjectiveNoTooltip]"
+ 
+ NOT_RELIGION_TAG_TRIGGER:0 "[faith] ของท่าน #bold ไม่ใช่#! ส่วนหนึ่งของ $RELIGION|V$"
+
+ CAN_LEGITIMIZE_BASTARDS_IN_FAITH:0 "[CHARACTER.GetFaith.GetName] อนุญาตให้ [bastards|E] ได้รับการ [legitimized|E]"
+ CANNOT_LEGITIMIZE_BASTARDS_IN_FAITH:0 "[CHARACTER.GetFaith.GetName] #EMP ไม่อนุญาต#! ให้ [bastards|E] ได้รับการ [legitimized|E]"
+
+ CANNOT_CREATE_HOF_TITLE_AT_OR_ABOVE_LIEGE_TIER:0 "ท่านไม่สามารถเป็น [head_of_faith|E] ได้ หากจะ ทำให้ท่านมี [title_rank|E] เท่ากับหรือสูงกว่า [liege|E] ของท่าน"
+ CHAR_CAN_ONLY_CREATE_ONE_FAITH:0 "ท่านได้ปฏิรูปหรือสร้าง [faith|E] ใหม่ในฐานะตัวละครนี้ไปแล้ว!"
+
+ has_forced_defender:0 "ท่านเป็นผู้ป้องกันโดยถูกบังคับ"
+ has_pledged_attacker:0 "ท่านเป็นผู้โจมตีที่ให้คำมั่นสัญญา"
+ they_have_pledged_as_attacker:0 "พวกเขาเป็นผู้โจมตีที่ให้คำมั่นสัญญาใน [GREAT_HOLY_WAR.GetName] ของศรัทธาท่าน"
+ has_pledged_defender:0 "ท่านเป็นผู้ป้องกันที่ให้คำมั่นสัญญา"
+
+ ANY_FAITH_RULER_GLOBAL: "[ruler|E] ที่เป็น [FAITH.GetAdjectiveNoTooltip] ใดๆ"
+
+ has_holy_site_parameter_first: "$TITLE$ ของท่านมี [holy_site|E] ที่มี $PARAMETER_NAME$"
+ not_has_holy_site_parameter_first: "$TITLE$ ของท่าน #bold ไม่ได้#! มี [holy_site|E] ที่มี $PARAMETER_NAME$"
+ has_holy_site_parameter_third: "$TITLE$ มี [holy_site|E] ที่มี $PARAMETER_NAME$"
+ not_has_holy_site_parameter_third: "$TITLE$ #bold ไม่ได้#! มี [holy_site|E] ที่มี $PARAMETER_NAME$"
+ has_holy_site_parameter_global: "$TITLE$ มี [holy_site|E] ที่มี $PARAMETER_NAME$"
+ not_has_holy_site_parameter_global: "$TITLE$ #bold ไม่ได้#! มี [holy_site|E] ที่มี $PARAMETER_NAME$"
+
+ controls_holy_site_with_parameter_first: "$FAITH$ ของท่านควบคุม [holy_site|E] ที่มี $PARAMETER_NAME$"
+ not_controls_holy_site_with_parameter_first: "$FAITH$ ของท่าน #bold ไม่ได้#! ควบคุม [holy_site|E] ที่มี $PARAMETER_NAME$"
+ controls_holy_site_with_parameter_third: "$FAITH$ ควบคุม [holy_site|E] ที่มี $PARAMETER_NAME$"
+ not_controls_holy_site_with_parameter_third: "$FAITH$ #bold ไม่ได้#! ควบคุม [holy_site|E] ที่มี $PARAMETER_NAME$"
+ controls_holy_site_with_parameter_global: "$FAITH$ ควบคุม [holy_site|E] ที่มี $PARAMETER_NAME$"
+ not_controls_holy_site_with_parameter_global: "$FAITH$ #bold ไม่ได้#! ควบคุม [holy_site|E] ที่มี $PARAMETER_NAME$"

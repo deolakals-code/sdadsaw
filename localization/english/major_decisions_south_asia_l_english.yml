@@ -1,0 +1,29 @@
+﻿l_english: 
+ #Become Chakravarti
+ become_chakravarti_decision:0 "ขึ้นเป็นจักรพรรดิราช"
+ become_chakravarti_decision_desc:0 "#F ด้วยพิธีกรรมและพระราชพิธีอันจำเป็น ข้าจะสถาปนาสถานะอันศักดิ์สิทธิ์ของข้าในฐานะผู้ปกครองโดยชอบธรรมแห่งสากลโลกอย่างเป็นทางการ#! "
+ become_chakravarti_decision_tooltip:0 "รวมอินเดียเป็นหนึ่งในฐานะผู้ปกครองโดยชอบธรรมแห่งโลก"
+ become_chakravarti_decision_indian_empires_unite_effect:0 "ข้ารวบรวมจักรวรรดิทั้งหลายแห่งอินเดีย"
+ become_chakravarti_decision_new_primary_title_effect:0 "จักรวรรดิอินเดียกลายเป็น [primary_title|E] ใหม่ของข้า"
+ become_chakravarti_decision_confirm:0 "เข้าร่วมพิธีกรรม"
+
+ #Become Lady/Lord of the Ganges
+ take_stewardship_of_the_sacred_river_decision:0 "รับหน้าที่ผู้พิทักษ์แม่น้ำศักดิ์สิทธิ์"
+ take_stewardship_of_the_sacred_river_decision_desc:0 "#F ด้วยการควบคุมดินแดนทั้งหมดตลอดการไหลของแม่น้ำคงคา ข้าจึงมีอำนาจบางส่วนเหนือผู้ปกครองที่ได้รับอนุญาตให้เข้าถึงน่านน้ำศักดิ์สิทธิ์และพิธีกรรมต่างๆ ถึงเวลาแล้วที่จะให้เหล่า [ROOT.Char.GetFaith.PriestNeuterPlural] สถาปนาอำนาจนี้อย่างเป็นทางการในฐานะผู้พิทักษ์ความศักดิ์สิทธิ์โดยแท้#! "
+ take_stewardship_of_the_sacred_river_decision_tooltip:0 "สถาปนาการควบคุมแม่น้ำคงคาอย่างเป็นทางการในฐานะการ แต่งตั้งอันศักดิ์สิทธิ์"
+ take_stewardship_of_the_sacred_river_decision_confirm:0 "เรียกเหล่า [ROOT.Char.GetFaith.AltPriestTermPlural] มายังแม่น้ำ"
+ capital_province_in_ganges_region:1 "[realm_capital|E] ของท่านตั้งอยู่ใน [region|E] [GetGeographicalRegion('custom_ganges_plain').GetName]"
+ MY_VASSAL_OR_LIEGE_MUST_NOT_BE_RULER_OF_GANGES:0 "อำนาจในฐานะผู้พิทักษ์น่านน้ำศักดิ์สิทธิ์ไม่อาจยึดมาจากข้าหลวงหรือเจ้าเหนือหัวได้"
+
+ form_bene_israel_decision:0 "รวบรวม $k_bene_israel$"
+ form_bene_israel_decision_desc:0 "ชุมชนของเราอยู่ห่างไกลจากเผ่าดั้งเดิมของอิสราเอล และโอกาสที่เราจะกลับไปยังดินแดนศักดิ์สิทธิ์นั้นมีน้อยนิด เราต้องสร้างบ้านใหม่สำหรับชาวยิว ณ ที่ราบสูงเดกกันแห่งนี้"
+ form_bene_israel_decision_tooltip:0 "สถาปนาราชอาณาจักร $k_bene_israel$ อย่างเป็นทางการ"
+ form_bene_israel_decision_confirm:0 "[ROOT.Char.Custom('GetQueenKing')|U] แห่ง $k_bene_israel$!"
+ malabarism_religious_head_exists_tt:0 "$d_malabarism$ มีอยู่"
+
+ #Spread Theravada Faith
+ spread_theravada_faith_decision:0 "เผยแผ่ศรัทธา [ROOT.Char.GetFaith.GetNameNoTooltip]"
+ spread_theravada_faith_decision_desc:0 "ศรัทธา [ROOT.Char.GetFaith.GetName] กำลังเสื่อมถอย และบัดนี้เป็นหน้าที่ของข้าที่จะต้องรับประกันความอยู่รอดต่อไป ขั้นตอนแรกบนเส้นทางนั้นคือการหาวิธีที่ดีที่สุดในการเชื่อมความแตกต่างทางศาสนาในหุบเขาอิรวดี"
+ spread_theravada_faith_decision_tooltip:0 "ตัดสินใจเกี่ยวกับวิธีจัดการกับความขัดแย้งทางศาสนา"
+ spread_theravada_faith_decision_confirm:0 "ปรึกษา [ROOT.Char.GetFaith.PriestNeuter|U]"
+ spread_theravada_faith_decision_cus_tt:0 "ท่านครุ่นคิดถึงวิธีที่ดีที่สุดในการชักจูงประชาราษฎร์..."

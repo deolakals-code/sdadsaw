@@ -1,0 +1,318 @@
+﻿l_english: 
+ ##################################################
+ # Catalyst UI Keys
+ PHASE_CATALYST_DESCRIPTION_HEADER:2 "#S ตัวเร่งสู่ [StrugglePhase.GetNameNoTooltip]#!"
+ PHASE_CATALYST_DESCRIPTION_HEADER_INFO:1 "#I ทำตัวเร่งให้สำเร็จกี่ครั้งก็ได้เพื่อเพิ่มความคืบหน้าของระยะ#!"
+ PHASE_CATALYST_DESCRIPTION_ENTRY:3 "[CatalystEntry.GetCatalystDescription]"
+ PHASE_CATALYST_COMPLETIONS:0 "[Select_CString(GreaterThan_int32(Struggle.GetNumCompletionsOfCatalystForPhase(StruggleWindow.GetSelectedPhase, CatalystEntry.GetCatalyst), '(int32)0'), '#COLOR_GREEN ', '#COLOR_GRAY ')]x[Struggle.GetNumCompletionsOfCatalystForPhase(StruggleWindow.GetSelectedPhase, CatalystEntry.GetCatalyst)]#!"
+
+ ##################################################
+ # Catalyst Names
+ catalyst_passing_of_time:1 "การเปลี่ยนแปลงรายปี [struggle_catalyst_catalyst|E]"
+ catalyst_passing_of_time_desc:2 "การเปลี่ยนแปลงรายปี: กระแสธรรมชาติสู่ [struggle_phase|E] นี้"
+ catalyst_demanding_important_conversion:0 "เรียกร้องให้เปลี่ยนศาสนา [struggle_catalyst_catalyst|E]"
+ catalyst_demanding_important_conversion_desc:4 "[demand_conversion|E] จาก [ruler|E] ที่ [struggle_involved|E]"
+ catalyst_enforcing_de_jure_claims:0 "บังคับใช้ [claims|E] ตาม [de_jure|E] [struggle_catalyst_catalyst|E]"
+ catalyst_enforcing_de_jure_claims_desc:2 "บังคับใช้ [claims|E] ตาม [de_jure|E] ต่อ $game_concept_character$ อื่นที่ $game_concept_struggle_involved$"
+ catalyst_creating_a_holy_order:0 "สร้าง [holy_order|E] [struggle_catalyst_catalyst|E]"
+ catalyst_creating_a_holy_order_desc:2 "สร้าง [holy_order|E]"
+ catalyst_winning_large_conquest_war:0 "ชนะ [war|E] เชิงรุก [struggle_catalyst_catalyst|E]"
+ catalyst_winning_large_conquest_war_desc:3 "ชนะ [war|E] [struggle_large_conquest|E] ต่อ [ruler|E] อื่นที่ [struggle_involved|E]"
+ catalyst_bought_important_truce:0 "ซื้อ [truce|E] [struggle_catalyst_catalyst|E]"
+ catalyst_bought_important_truce_desc:3 "ซื้อ [truce|E] จาก [ruler|E] อื่นที่ [struggle_involved|E]"
+ catalyst_gave_independence_to_powerful_diff_faith_culture_vassal:0 "มอบเอกราช [struggle_catalyst_catalyst|E]"
+ catalyst_gave_independence_to_powerful_diff_faith_culture_vassal_desc:2 "มอบเอกราชให้แก่ [powerful_vassal|E] ที่มี [faith|E] หรือ [culture|E] แตกต่างกัน"
+ catalyst_accepted_demand_from_faction_requesting_culture_faith_conversion:0 "ยอมรับข้อเรียกร้องของฝ่าย [struggle_catalyst_catalyst|E]"
+ catalyst_accepted_demand_from_faction_requesting_culture_faith_conversion_desc:2 "ยอมรับข้อเรียกร้องของ [peasant_faction|E] หรือ [popular_faction|E]"
+ catalyst_granted_powerful_diff_faith_vassal_religious_protection:0 "มอบการเปลี่ยนแปลง [vassal_contract|E] ที่ครอบคลุม [struggle_catalyst_catalyst|E]"
+ catalyst_granted_powerful_diff_faith_vassal_religious_protection_desc:2 "เสนอ [GetSubjectContractType( 'religious_rights' ).GetObligationName( 'religious_rights_protected' )|E] ให้แก่ [powerful_vassal|E] ผ่าน [vassal_contract|E]"
+ catalyst_became_best_friend_soulmate_with_very_important_character:0 "คู่แท้ [struggle_catalyst_catalyst|E]"
+ catalyst_became_best_friend_soulmate_with_very_important_character_desc:6 "กลายเป็น [best_friends|E] หรือ [soulmates|E] กับ [ruler|E] ที่ [struggle_involved|E]"
+ catalyst_became_friend_lover_with_character:0 "คู่แท้ [struggle_catalyst_catalyst|E]"
+ catalyst_became_friend_lover_with_character_desc:0 "กลายเป็น [friends|E] หรือ [lovers|E] กับ [ruler|E] ที่ [struggle_involved|E]"
+ catalyst_formed_interreligious_alliance_with_important_character:0 "ก่อตั้ง [alliance|E] ต่างศาสนา [struggle_catalyst_catalyst|E]"
+ catalyst_formed_interreligious_alliance_with_important_character_desc:5 "ก่อตั้ง [alliance|E] กับ [ruler|E] ที่ [struggle_involved|E] ซึ่งมี [faith|E] แตกต่างกัน"
+ catalyst_hybridise_or_diverge_regional_cultures:0 "[hybridized|E] หรือ [diverge|E] [cultures|E] ใน [struggle|E] [struggle_catalyst_catalyst|E]"
+ catalyst_hybridise_or_diverge_regional_cultures_desc:1 "[hybridize|E] สอง [cultures|E] ที่ [struggle_involved|E] หรือ [diverge|E] หนึ่งวัฒนธรรม"
+ catalyst_revoked_powerful_diff_faith_vassal_religious_protection:0 "เพิกถอน [vassal_contract|E] ที่ครอบคลุม [struggle_catalyst_catalyst|E]"
+ catalyst_revoked_powerful_diff_faith_vassal_religious_protection_desc:2 "ลบ [GetSubjectContractType( 'religious_rights' ).GetObligationName( 'religious_rights_protected' )|E] ของ [powerful_vassal_possessive|E] ออกจาก [vassal_contract|E]"
+ catalyst_broke_truce_against_important_character:0 "ละเมิด [truce|E] [struggle_catalyst_catalyst|E]"
+ catalyst_broke_truce_against_important_character_desc:4 "ละเมิด [truce|E] กับ [ruler|E] ที่ [struggle_involved|E]"
+ catalyst_discovery_of_very_important_murder:1 "เปิดโปงการ [GetScheme('murder').GetTypeName] แบ่งแยกนิกาย [struggle_catalyst_catalyst|E]"
+ catalyst_discovery_of_very_important_murder_desc:4 "เปิดโปงว่ากษัตริย์, [head_of_faith|E] หรือ [culture_head|E] ที่ [struggle_involved|E] ถูกสังหาร"
+ catalyst_fabricating_duchy_level_claims:0 "สร้าง [claims|E] ระดับ [duchy|E] [struggle_catalyst_catalyst|E]"
+ catalyst_fabricating_duchy_level_claims_desc:3 "[fabricate_claim|E] บน [title|E] ระดับ [duchy|E]-[title_tier|E] ภายในภูมิภาค Struggle"
+
+ catalyst_forming_alliance_with_major_uninvolved_power:0 "[allied|E] กับอำนาจต่างชาติ [struggle_catalyst_catalyst|E]"
+ catalyst_forming_alliance_with_major_uninvolved_power_desc:2 "ก่อตั้ง [alliance|E] กับ [realm|E] ที่ [struggle_uninvolved|E] ซึ่งมี [realm_size|E] อย่างน้อย [EmptyScope.ScriptValue('catalyst_forming_alliance_with_major_uninvolved_power_power_realm_size_value')|0]"
+ catalyst_forming_alliance_between_independent_involved_rulers: "[allied|E] กับ [independent_ruler|E] อื่นที่ [struggle_involved|E] [struggle_catalyst_catalyst|E]"
+ catalyst_forming_alliance_between_independent_involved_rulers_desc: "ก่อตั้ง [alliance|E] กับ [independent_ruler|E] อื่นที่ [struggle_involved|E]"
+
+ catalyst_accepted_independence_faction_demands:0 "$catalyst_accepted_demand_from_faction_requesting_culture_faith_conversion$ [struggle_catalyst_catalyst|E]"
+ catalyst_accepted_independence_faction_demands_desc:2 "ยอมรับข้อเรียกร้องของ [peasant_faction|E] หรือ [popular_faction|E]"
+ catalyst_conducted_border_raid:0 "ดำเนินการ [border_raid|E] [struggle_catalyst_catalyst|E]"
+ catalyst_conducted_border_raid_desc:1 "เริ่ม [border_raids|E] ใน [county|E] ข้างเคียงที่ถือครองโดย $game_concept_character$ อื่นที่ $game_concept_struggle_involved$"
+
+ catalyst_learned_new_language_important:0 "เรียนรู้ [language|E] [struggle_catalyst_catalyst|E]"
+ catalyst_learned_new_language_important_desc:2 "เรียนรู้ [language|E] ของ [ruler|E] ที่ [struggle_involved|E]"
+ catalyst_toledo_council_conciliation:0 "$fp2_small_council_modifier$ การประนีประนอม [struggle_catalyst_catalyst|E]"
+ catalyst_toledo_council_conciliation_desc:0 "สภาแห่งโตเลโดตัดสินใจส่งเสริมสันติภาพในไอบีเรีย"
+ catalyst_toledo_council_compromise:0 "$fp2_small_council_modifier$ การประนีประนอม [struggle_catalyst_catalyst|E]"
+ catalyst_toledo_council_compromise_desc:0 "$catalyst_toledo_council_conciliation_desc$"
+ catalyst_toledo_council_hostility:0 "$fp2_small_council_modifier$ ความเป็นปรปักษ์ [struggle_catalyst_catalyst|E]"
+ catalyst_toledo_council_hostility_desc:0 "สภาแห่งโตเลโดจุดชนวนความตึงเครียดในไอบีเรีย"
+ catalyst_toledo_council_tension:0 "$fp2_small_council_modifier$ ความตึงเครียด [struggle_catalyst_catalyst|E]"
+ catalyst_toledo_council_tension_desc:0 "$catalyst_toledo_council_hostility_desc$"
+
+ catalyst_imprison_important:0 "จองจำ [duke|E] หรือ [title_tier|E] ที่สูงกว่า [struggle_catalyst_catalyst|E]"
+ catalyst_imprison_important_desc:1 "จองจำ [character|E] ยศ [duke|E] หรือสูงกว่า รวมถึง [head_of_faith|E] และ [cultural_head|E]"
+
+ catalyst_successfully_expelled_interloper:0 "ชนะ [iberian_reclamation|E] [struggle_catalyst_catalyst|E]"
+ catalyst_successfully_expelled_interloper_desc:0 "ชนะ [iberian_reclamation|E] ต่อ $game_concept_character$ ที่ [struggle_uninvolved|E]"
+ catalyst_truce_was_enforced:0 "[enforced_truce|E] [struggle_catalyst_catalyst|E]"
+ catalyst_truce_was_enforced_desc:0 "[enforced_truce|E] ระหว่าง [ruler|E] ที่ [struggle_involved|E]"
+ catalyst_execute_important:0 "ประหารชีวิต [duke|E] หรือ [title_tier|E] ที่สูงกว่า [struggle_catalyst_catalyst|E]"
+ catalyst_execute_important_desc:1 "ประหาร [character|E] ยศ [duke|E] หรือสูงกว่า รวมถึง [head_of_faith|E] และ [cultural_head|E]"
+ catalyst_new_building_in_castle:1 "สร้างใน [castle|E] [struggle_catalyst_catalyst|E]"
+ catalyst_new_building_in_castle_desc:1 "สร้าง [building|E] ใน [holding|E] ประเภท [castle|E]"
+ catalyst_new_building_in_city:1 "สร้างใน [city|E] [struggle_catalyst_catalyst|E]"
+ catalyst_new_building_in_city_desc:1 "สร้าง [building|E] ใน [holding|E] ประเภท [city|E]"
+ catalyst_release_important:1 "ปล่อยตัว [ruler|E] [struggle_catalyst_catalyst|E]"
+ catalyst_release_important_desc:1 "ปล่อยตัว [ruler|E] ที่ [struggle_involved|E] จาก [prison|E] โดยไม่มีการร้องขอใด ๆ"
+ catalyst_ransom_important:0 "ค่าไถ่ [struggle_catalyst_catalyst|E]"
+ catalyst_ransom_important_desc:0 "ไถ่ตัว [ruler|E] ที่ [struggle_involved|E]"
+ catalyst_gift_independent_ruler:0 "ส่งของขวัญ [struggle_catalyst_catalyst|E]"
+ catalyst_gift_independent_ruler_desc:3 "ส่ง [gift|E] หรือ [artifact|E] ให้แก่ [ruler|E] ที่ [struggle_involved|E]"
+ catalyst_very_important_child_change_culture_or_faith:0 ""
+ catalyst_very_important_child_change_culture_or_faith_desc:1 "ให้ [children|E] คนหนึ่งของคุณเปลี่ยนไปนับถือ [faith|E] หรือ [culture|E] ที่ [ruler|E] ถือครอง"
+ catalyst_vassalize_independent_ruler:0 "ทำให้ [independent_ruler] เป็นข้าหลวง [struggle_catalyst_catalyst|E]"
+ catalyst_vassalize_independent_ruler_desc:0 "ทำให้ [independent_ruler|E] เป็นข้าหลวง"
+ catalyst_join_war_as_assisant:0 "เข้าร่วมสงคราม [struggle_catalyst_catalyst|E]"
+ catalyst_join_war_as_assisant_desc:1 "เข้าร่วมสงครามโดยการเสนอตัวรับใช้แก่ [ruler|E] ที่ [struggle_involved|E] ซึ่งมิใช่ [allied|E]"
+
+ catalyst_win_any_war_within_the_region:0 "ชนะ [war|E] [struggle_catalyst_catalyst|E]"
+ catalyst_win_any_war_within_the_region_desc:1 "ชนะ [war|E] ที่ท่านเป็นผู้ริเริ่มต่อกรกับ [ruler|E] อื่นที่ [struggle_involved|E]"
+ catalyst_becomes_rival_with_involved:0 "ความเป็นศัตรูบานปลาย [struggle_catalyst_catalyst|E]"
+ catalyst_becomes_rival_with_involved_desc:1 "กลายเป็น [rival|E] หรือ [nemesis|E] กับ [ruler|E] อื่นที่ [struggle_involved|E]"
+ catalyst_using_a_hook_on_very_important_character:0 "ใช้ [hook|E] [struggle_catalyst_catalyst|E]"
+ catalyst_using_a_hook_on_very_important_character_desc:4 "ใช้ [hook|E] กับ [ruler|E] ที่ [struggle_involved|E]"
+ catalyst_usurp_title_fp2:0 "แย่งชิง [title|E] [struggle_catalyst_catalyst|E]"
+ catalyst_usurp_title_fp2_desc:1 "แย่งชิง [title|E] ซึ่งเป็นส่วนหนึ่งของ [de_jure|E] ของ $e_spain$"
+ catalyst_unnatural_death_important_character:0 "ถูกสังหาร [struggle_catalyst_catalyst|E]"
+ catalyst_unnatural_death_important_character_desc:2 "สังหาร [ruler|E] ที่ [struggle_involved|E]"
+ catalyst_forced_conversion:0 "เปลี่ยนศาสนา [struggle_catalyst_catalyst|E]"
+ catalyst_forced_conversion_desc:1 "เปลี่ยนศาสนาของ [ruler|E] หรือ [county|E] ที่ [struggle_involved|E]"
+ catalyst_gain_claim_on_title_fp2:1 "ได้รับ [claim|E] [struggle_catalyst_catalyst|E]"
+ catalyst_gain_claim_on_title_fp2_desc:1 "ได้รับ [claim|E] บน [title|E] ภายใต้ [de_jure|E] ของ $e_spain$"
+ catalyst_reveal_secret_important:1 "เปิดโปง [secret|E] [struggle_catalyst_catalyst|E]"
+ catalyst_reveal_secret_important_desc:1 "เปิดเผย [secret|E] ของ [ruler|E] ที่ [struggle_involved|E]"
+ catalyst_sign_truce_outside_war:1 "ลงนาม [truce|E] [struggle_catalyst_catalyst|E]"
+ catalyst_sign_truce_outside_war_desc:1 "ลงนาม [truce|E] นอก [war|E] กับ [ruler|E] อื่นที่ [struggle_involved|E]"
+ catalyst_improve_development_vassal_diff_faith_culture:0 "การพัฒนาเพิ่มขึ้น [struggle_catalyst_catalyst|E]"
+ catalyst_improve_development_vassal_diff_faith_culture_desc:2 "เพิ่ม [development|E] ของ [county|E] ที่มี [faith|E] หรือ [culture|E] แตกต่างกัน"
+ catalyst_independence_from_non_dejure_vassal:1 "มอบเอกราช [struggle_catalyst_catalyst|E]"
+ catalyst_independence_from_non_dejure_vassal_desc:2 "$grant_independence_interaction$ ให้แก่ [vassal|E] ที่ไม่ใช่ [de_jure|E]"
+ catalyst_grant_privilege_to_diff_faith_culture_vassal:0 "มอบสิทธิพิเศษ [struggle_catalyst_catalyst|E]"
+ catalyst_grant_privilege_to_diff_faith_culture_vassal_desc:1 "มอบ [vassal_contract|E] หรือ [title|E] ที่ดีกว่าให้แก่ [vassal|E] จาก [faith|E] หรือ [culture|E] ที่แตกต่างกัน"
+ catalyst_invite_diff_faith_culture_to_feast:0 "เชิญเข้าร่วม [GetActivityType('activity_feast').GetName] [struggle_catalyst_catalyst|E]"
+ catalyst_invite_diff_faith_culture_to_feast_desc:0 "เชิญ [ruler|E] ที่ [struggle_involved|E] ซึ่งมี [faith|E] หรือ [culture|E] แตกต่างกันเข้าร่วม [GetActivityType('activity_feast').GetName]"
+ catalyst_grant_land_local_noble:0 "มอบให้แก่ขุนนางท้องถิ่น [struggle_catalyst_catalyst|E]"
+ catalyst_grant_land_local_noble_desc:0 "มอบ [counties|E] หนึ่งของคุณให้แก่ขุนนางท้องถิ่นที่มี [culture|E] ที่ [struggle_involved|E]"
+ catalyst_convert_local_culture_faith:0 "เปลี่ยนไปนับถือความเชื่อท้องถิ่น [struggle_catalyst_catalyst|E]"
+ catalyst_convert_local_culture_faith_desc:0 "เปลี่ยนไปนับถือ [culture|E] หรือ [faith|E] ท้องถิ่นที่ [struggle_involved|E]"
+
+ catalyst_raided_involved: "ปล้นสะดม [ruler|E] ที่ [struggle_involved|E] [struggle_catalyst_catalyst|E]"
+ catalyst_raided_involved_desc: "ทำการ [raid|E] ต่อ [ruler|E] ที่ [struggle_involved|E] ให้สำเร็จ"
+ catalyst_populist_uprise: "มีการลุกฮือของประชานิยมหรือชาวนา [struggle_catalyst_catalyst|E]"
+ catalyst_populist_uprise_desc: "มี [Concept('civil_wars','Populist or Peasant Uprising')|E] ในฐานะ [ruler|E] ที่ [struggle_involved|E]"
+ catalyst_revoke_title: "เพิกถอนตำแหน่ง [struggle_catalyst_catalyst|E]"
+ catalyst_revoke_title_desc: "[revoke|E] [title|E] ( รวมถึง [titles|E] ที่ [leased|E])"
+ catalyst_gain_claim_on_title_fp3: "$catalyst_gain_claim_on_title_fp2$"
+ catalyst_gain_claim_on_title_fp3_desc: "ได้รับ [claim|E] บน [title|E] ภายใต้ [de_jure|E] ของ $e_persia$"
+ catalyst_usurp_title_fp3: "$catalyst_usurp_title_fp2$"
+ catalyst_usurp_title_fp3_desc: "แย่งชิง [title|E] ซึ่งเป็นส่วนหนึ่งของ [de_jure|E] ของ $e_persia$"
+
+ catalyst_became_supporter_fp3: "[character|E] คนสำคัญตัดสินใจ [decision|E] ที่จะกลายเป็น [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
+ catalyst_became_supporter_fp3_desc: "[character|E] คนสำคัญตัดสินใจ [decision|E] ที่จะกลายเป็น [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
+ catalyst_became_detractor_fp3: "[character|E] คนสำคัญตัดสินใจ [decision|E] ที่จะกลายเป็น [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+ catalyst_became_detractor_fp3_desc: "[character|E] คนสำคัญตัดสินใจ [decision|E] ที่จะกลายเป็น [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+
+ catalyst_ruler_chooses_persian_faith: "[character|E] คนสำคัญตัดสินใจ [decision|E] [GetDecisionWithKey('adopt_a_new_faith_for_persia_decision').GetName]"
+ catalyst_ruler_chooses_persian_faith_desc: "[character|E] คนสำคัญตัดสินใจ [decision|E] [GetDecisionWithKey('adopt_a_new_faith_for_persia_decision').GetName]"
+
+ catalyst_new_islamic_temple_construction: "สร้าง [temple_holding|E] [islam_religion.GetName] ใหม่"
+ catalyst_new_islamic_temple_construction_desc: "สร้าง [temple_holding|E] ใหม่ในจังหวัด #high อิสลาม#!"
+ catalyst_install_loyalist_cb: "ใช้ [casus_belli|E] [fp3_install_loyalist_cb|E] สำเร็จ"
+ catalyst_install_loyalist_cb_desc: "ใช้ [casus_belli|E] [fp3_install_loyalist_cb|E] สำเร็จ"
+
+ catalyst_cadet_branch_created: "สร้าง [cadet_branch|E] [struggle_catalyst_catalyst|E]"
+ catalyst_cadet_branch_created_desc: "สร้าง [house|E] ใหม่โดย [cadet_branching|E]"
+
+ catalyst_gain_struggle_vassals_from_interlopers_uninvolved: "ได้รับ [vassal|E] จาก [struggle_interloper|E] หรือ [struggle_uninvolved|E] ที่ [struggle_uninvolved|E] [struggle_catalyst_catalyst|E]"
+ catalyst_gain_struggle_vassals_from_interlopers_uninvolved_desc: "ได้รับ [vassal|E] ที่ [struggle_involved|E] จาก [ruler|E] ที่เป็น [struggle_interloper|E] หรือ [struggle_uninvolved|E]"
+
+ catalyst_gain_struggle_titles_from_interlopers_uninvolved: "ได้รับ [title|E] จาก [struggle_interloper|E] หรือ [struggle_uninvolved|E] ที่ [struggle_uninvolved|E] [struggle_catalyst_catalyst|E]"
+ catalyst_gain_struggle_titles_from_interlopers_uninvolved_desc: "ได้รับ [title|E] ภายใน [struggle_region|E] จาก [ruler|E] ที่เป็น [struggle_interloper|E] หรือ [struggle_uninvolved|E]"
+
+ catalyst_interloper_uninvolved_gain_struggle_vassals: "สูญเสีย [vassal|E] ให้แก่ [ruler|E] ที่เป็น [struggle_interloper|E] หรือ [struggle_uninvolved|E] [struggle_catalyst_catalyst|E]"
+ catalyst_interloper_uninvolved_gain_struggle_vassals_desc: "สูญเสีย [vassal|E] ที่ [struggle_involved|E] ให้แก่ [ruler|E] ที่เป็น [struggle_interloper|E] หรือ [struggle_uninvolved|E]"
+
+ catalyst_interloper_uninvolved_gain_struggle_titles: "สูญเสีย [title|E] ให้แก่ผู้ที่ [struggle_involved|E] [struggle_catalyst_catalyst|E]"
+ catalyst_interloper_uninvolved_gain_struggle_titles_desc: "สูญเสีย [title|E] ภายใน [struggle_region|E] ให้แก่ [ruler|E] ที่เป็น [struggle_interloper|E] หรือ [struggle_uninvolved|E]"
+
+ catalyst_declare_any_war_within_the_region: "เริ่ม [war|E] [struggle_catalyst_catalyst|E]"
+
+ catalyst_supporter_win_unfair_war_within_the_region: "$catalyst_win_any_war_within_the_region$"
+ catalyst_supporter_win_unfair_war_within_the_region_desc: "ชนะ [war|E] ที่เริ่มต่อ [ruler|E] อื่นที่ [struggle_involved|E] (ที่มี [title_tier|E] ต่ำกว่า) ในฐานะ [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
+
+ catalyst_supporter_win_fair_war_within_the_region: "$catalyst_win_any_war_within_the_region$"
+ catalyst_supporter_win_fair_war_within_the_region_desc: "ชนะ [war|E] ที่เริ่มต่อ [ruler|E] อื่นที่ [struggle_involved|E] (ที่มี [title_tier|E] เท่ากันหรือสูงกว่า) ในฐานะ [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
+
+ catalyst_supporter_declare_unfair_war_within_the_region: "$catalyst_declare_any_war_within_the_region$"
+ catalyst_supporter_declare_unfair_war_within_the_region_desc: "เริ่ม [war|E] ต่อ [ruler|E] อื่นที่ [struggle_involved|E] (ที่มี [title_tier|E] ต่ำกว่า) ในฐานะ [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
+
+ catalyst_supporter_declare_fair_war_within_the_region: "$catalyst_declare_any_war_within_the_region$"
+ catalyst_supporter_declare_fair_war_within_the_region_desc: "เริ่ม [war|E] ต่อ [ruler|E] อื่นที่ [struggle_involved|E] (ที่มี [title_tier|E] เท่ากันหรือสูงกว่า) ในฐานะ [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
+
+ catalyst_detractor_win_unfair_war_within_the_region: "$catalyst_win_any_war_within_the_region$"
+ catalyst_detractor_win_unfair_war_within_the_region_desc: "ชนะ [war|E] ที่เริ่มต่อ [ruler|E] อื่นที่ [struggle_involved|E] (ที่มี [title_tier|E] ต่ำกว่า) ในฐานะ [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+
+ catalyst_detractor_win_fair_war_within_the_region: "$catalyst_win_any_war_within_the_region$"
+ catalyst_detractor_win_fair_war_within_the_region_desc: "ชนะ [war|E] ที่เริ่มต่อ [ruler|E] อื่นที่ [struggle_involved|E] (ที่มี [title_tier|E] เท่ากันหรือสูงกว่า) ในฐานะ [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+
+ catalyst_detractor_declare_unfair_war_within_the_region: "$catalyst_declare_any_war_within_the_region$"
+ catalyst_detractor_declare_unfair_war_within_the_region_desc: "เริ่ม [war|E] ต่อ [ruler|E] อื่นที่ [struggle_involved|E] (ที่มี [title_tier|E] ต่ำกว่า) ในฐานะ [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+
+ catalyst_detractor_declare_fair_war_within_the_region: "$catalyst_declare_any_war_within_the_region$"
+ catalyst_detractor_declare_fair_war_within_the_region_desc: "เริ่ม [war|E] ต่อ [ruler|E] อื่นที่ [struggle_involved|E] (ที่มี [title_tier|E] เท่ากันหรือสูงกว่า) ในฐานะ [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+
+ catalyst_war_ends_in_white_peace_between_supporter_detractor: "มี [war|E] จบลงด้วย [white_peace|E]"
+ catalyst_war_ends_in_white_peace_between_supporter_detractor_desc: "[war|E] ระหว่าง $supporter_and_detractor$ จบลงด้วย [white_peace|E]"
+
+ catalyst_forming_alliance_between_supporter_detractor_rulers: "ก่อตั้ง [alliance|E] ระหว่าง $supporter_and_detractor$ [struggle_catalyst_catalyst|E]"
+ catalyst_forming_alliance_between_supporter_detractor_rulers_desc: "ก่อตั้ง [alliance|E] ระหว่าง $supporter_and_detractor$"
+
+ catalyst_forming_alliance_between_detractor_uninvolved_rulers: "[allied|E] กับอำนาจต่างชาติ [struggle_catalyst_catalyst|E]"
+ catalyst_forming_alliance_between_detractor_uninvolved_rulers_desc: "ก่อตั้ง [alliance|E] กับ [realm|E] ที่ [struggle_uninvolved|E] ในฐานะ [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+
+ catalyst_gift_supporter_detractor_ruler: "$catalyst_gift_independent_ruler$"
+ catalyst_gift_supporter_detractor_ruler_desc: "มีการส่ง [gift|E] หรือ [artifact|E] ระหว่าง $supporter_and_detractor$"
+
+ catalyst_supporter_forced_conversion: "$catalyst_forced_conversion$"
+ catalyst_supporter_forced_conversion_desc: "เปลี่ยนศาสนาของ [ruler|E] ที่เป็น [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
+
+ catalyst_detractor_forced_conversion: "$catalyst_forced_conversion$"
+ catalyst_detractor_forced_conversion_desc: "เปลี่ยนศาสนาของ [ruler|E] ที่เป็น [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+
+ catalyst_release_supporter_detractor: "$catalyst_release_important$"
+ catalyst_release_supporter_detractor_desc: "มีการปล่อยตัวใครบางคนจาก [prison|E] โดยไม่มีการเรียกร้องใด ๆ ระหว่าง $supporter_and_detractor$"
+
+ catalyst_ransom_supporter_detractor: "$catalyst_ransom_important$"
+ catalyst_ransom_supporter_detractor_desc: "ไถ่ตัว [ruler|E] ที่ [struggle_involved|E] ระหว่าง $supporter_and_detractor$"
+
+ catalyst_imprison_detractor: "จองจำ [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [struggle_catalyst_catalyst|E]"
+ catalyst_imprison_detractor_desc: "จองจำ [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+
+ catalyst_imprison_supporter: "จองจำ [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [struggle_catalyst_catalyst|E]"
+ catalyst_imprison_supporter_desc: "จองจำ [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
+
+ catalyst_becomes_rival_supporter_detractor: "$catalyst_becomes_rival_with_involved$"
+ catalyst_becomes_rival_supporter_detractor_desc: "$supporter_and_detractor_caps$ กลายเป็น [rival|E] หรือ [nemesis|E]"
+
+ catalyst_became_best_friend_soulmate_supporter_detractor: "$catalyst_became_best_friend_soulmate_with_very_important_character$"
+ catalyst_became_best_friend_soulmate_supporter_detractor_desc: "$supporter_and_detractor_caps$ กลายเป็น [best_friends|E] หรือ [soulmates|E]"
+
+ catalyst_became_friend_lover_supporter_detractor: "$catalyst_became_friend_lover_with_character$"
+ catalyst_became_friend_lover_supporter_detractor_desc: "$supporter_and_detractor_caps$ กลายเป็น [friends|E] หรือ [lovers|E]"
+
+ catalyst_unnatural_death_supporter: "$catalyst_unnatural_death_important_character$"
+ catalyst_unnatural_death_supporter_desc: "[ruler|E] ที่เป็น [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] ถูกสังหาร"
+
+ catalyst_unnatural_death_detractor: "$catalyst_unnatural_death_important_character$"
+ catalyst_unnatural_death_detractor_desc: "[ruler|E] ที่เป็น [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] ถูกสังหาร"
+
+ catalyst_reveal_secret_supporter: "$catalyst_reveal_secret_important$"
+ catalyst_reveal_secret_supporter_desc: "เปิดเผย [secret|E] ของ [ruler|E] ที่เป็น [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
+
+ catalyst_reveal_secret_detractor: "$catalyst_reveal_secret_important$"
+ catalyst_reveal_secret_detractor_desc: "เปิดเผย [secret|E] ของ [ruler|E] ที่เป็น [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+
+ catalyst_yearly_influential_house_is_harmonious: "[house|E] ที่ $harmonious$ [struggle_catalyst_catalyst|E]"
+ catalyst_yearly_influential_house_is_harmonious_desc: "หรือมากกว่า [house_heads|E] ที่ [struggle_involved|E] ที่มี [house_unity|E] แบบ $harmonious$"
+ catalyst_yearly_influential_house_is_harmonious_major: "$catalyst_yearly_influential_house_is_harmonious$"
+ catalyst_yearly_influential_house_is_harmonious_major_desc: "การเปลี่ยนแปลงรายปี: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_major_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$"
+ catalyst_yearly_influential_house_is_harmonious_medium: "$catalyst_yearly_influential_house_is_harmonious$"
+ catalyst_yearly_influential_house_is_harmonious_medium_desc: "การเปลี่ยนแปลงรายปี: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_medium_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$"
+ catalyst_yearly_influential_house_is_harmonious_minor: "$catalyst_yearly_influential_house_is_harmonious$"
+ catalyst_yearly_influential_house_is_harmonious_minor_desc: "การเปลี่ยนแปลงรายปี: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_minor_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$"
+ catalyst_yearly_influential_house_is_harmonious_minimal: "$catalyst_yearly_influential_house_is_harmonious$"
+ catalyst_yearly_influential_house_is_harmonious_minimal_desc: "การเปลี่ยนแปลงรายปี: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_harmonious_minimal_control_value')|0] $catalyst_yearly_influential_house_is_harmonious_desc$"
+
+ catalyst_yearly_influential_house_is_antagonistic: "[house|E] ที่ $antagonistic$ [struggle_catalyst_catalyst|E]"
+ catalyst_yearly_influential_house_is_antagonistic_desc: "หรือมากกว่า [house_heads|E] ที่ [struggle_involved|E] ที่มี [house_unity|E] แบบ $antagonistic$"
+ catalyst_yearly_influential_house_is_antagonistic_major: "$catalyst_yearly_influential_house_is_antagonistic$"
+ catalyst_yearly_influential_house_is_antagonistic_major_desc: "การเปลี่ยนแปลงรายปี: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_major_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$"
+ catalyst_yearly_influential_house_is_antagonistic_medium: "$catalyst_yearly_influential_house_is_antagonistic$"
+ catalyst_yearly_influential_house_is_antagonistic_medium_desc: "การเปลี่ยนแปลงรายปี: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_medium_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$"
+ catalyst_yearly_influential_house_is_antagonistic_minor: "$catalyst_yearly_influential_house_is_antagonistic$"
+ catalyst_yearly_influential_house_is_antagonistic_minor_desc: "การเปลี่ยนแปลงรายปี: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_minor_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$"
+ catalyst_yearly_influential_house_is_antagonistic_minimal: "$catalyst_yearly_influential_house_is_antagonistic$"
+ catalyst_yearly_influential_house_is_antagonistic_minimal_desc: "การเปลี่ยนแปลงรายปี: [EmptyScope.ScriptValue('catalyst_yearly_influential_house_is_antagonistic_minimal_control_value')|0] $catalyst_yearly_influential_house_is_antagonistic_desc$"
+
+ catalyst_invite_involved_as_honorary_guests_to_feast_hunt: "แขกผู้มีเกียรติ [struggle_catalyst_catalyst|E]"
+ catalyst_invite_involved_as_honorary_guests_to_feast_hunt_desc: "เชิญ [ruler|E] ที่ [struggle_involved|E] เข้าร่วม [activity|E] งานเลี้ยงหรือล่าสัตว์ในฐานะ [honorary_guest|E]"
+
+ catalyst_abandon_hook_on_supporter_detractor: "[hook|E] ถูกละทิ้ง [struggle_catalyst_catalyst|E]"
+ catalyst_abandon_hook_on_supporter_detractor_desc: "มีการละทิ้ง [hook|E] ระหว่าง $supporter_and_detractor$"
+
+ catalyst_grants_pardon_supporter_detractor: "ให้อภัยโทษ [struggle_catalyst_catalyst|E]"
+ catalyst_grants_pardon_supporter_detractor_desc: "มีการให้อภัย [crime|E] ระหว่าง $supporter_and_detractor$"
+
+ catalyst_grants_vassal_to_de_jure_liege_supporter_detractor: "โอนให้แก่เจ้านาย [de_jure|E] [struggle_catalyst_catalyst|E]"
+ catalyst_grants_vassal_to_de_jure_liege_supporter_detractor_desc: "มีการโอน [vassal|E] ให้แก่เจ้านาย [de_jure|E] ของพวกเขาระหว่าง $supporter_and_detractor$"
+
+ catalyst_turn_supporter_into_detractor: "เปลี่ยนข้าง [struggle_catalyst_catalyst|E]"
+ catalyst_turn_supporter_into_detractor_desc: "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] กลายเป็น [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+
+ catalyst_turn_detractor_into_supporter: "เปลี่ยนข้าง [struggle_catalyst_catalyst|E]"
+ catalyst_turn_detractor_into_supporter_desc: "[GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] กลายเป็น [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
+
+ catalyst_new_building_in_holdings: "สร้างใน [holding|E] [struggle_catalyst_catalyst|E]"
+ catalyst_new_building_in_holdings_desc: "สร้าง [building|E] ใน [holding|E] ใด ๆ"
+
+ catalyst_execute_supporter: "ประหาร [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [struggle_catalyst_catalyst|E]"
+ catalyst_execute_supporter_desc: "ประหาร [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
+
+ catalyst_execute_detractor: "ประหาร [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [struggle_catalyst_catalyst|E]"
+ catalyst_execute_detractor_desc: "ประหาร [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+
+ catalyst_missing_caliphate_or_arabian_empire: "การเปลี่ยนแปลงรายปี: [GetTitleByKey('d_sunni').GetBaseName] หรือ [GetTitleByKey('e_arabia').GetBaseName] ถูกทำลาย"
+ catalyst_missing_caliphate_or_arabian_empire_desc: "การเปลี่ยนแปลงรายปี: [GetTitleByKey('d_sunni').GetBaseName] หรือ [GetTitleByKey('e_arabia').GetBaseName] ถูกทำลาย"
+
+ catalyst_caliph_or_emperor_loses_revolt_war: "[holder|E] ของ [GetTitleByKey('d_sunni').GetBaseName] หรือ [GetTitleByKey('e_arabia').GetBaseName] แพ้ [civil_war|E]"
+ catalyst_caliph_or_emperor_loses_revolt_war_desc: "[holder|E] ของ [GetTitleByKey('d_sunni').GetBaseName] หรือ [GetTitleByKey('e_arabia').GetBaseName] แพ้ [civil_war|E]"
+
+ catalyst_caliph_or_emperor_accepts_faction_demands: "[holder|E] ของ [GetTitleByKey('d_sunni').GetBaseName] หรือ [GetTitleByKey('e_arabia').GetBaseName] ยอมรับข้อเรียกร้องของ [faction|E]"
+ catalyst_caliph_or_emperor_accepts_faction_demands_desc: "[holder|E] ของ [GetTitleByKey('d_sunni').GetBaseName] หรือ [GetTitleByKey('e_arabia').GetBaseName] ยอมรับข้อเรียกร้องของ [faction|E]"
+
+ catalyst_caliph_died_violently: "[GetFaithByKey('ashari').ReligiousHeadName|U] ซุนนี สิ้นพระชนม์อย่างรุนแรง"
+ catalyst_caliph_died_violently_desc: "[GetFaithByKey('ashari').ReligiousHeadName|U] ซุนนี สิ้นพระชนม์อย่างรุนแรง\n#WEAK (คูลดาวน์ [EmptyScope.ScriptValue('catalyst_cooldown_between_significant_character_deaths_years_value')] ปี)#!"
+
+ catalyst_caliph_died_naturally: "[GetFaithByKey('ashari').ReligiousHeadName|U] ซุนนี สิ้นพระชนม์ตามธรรมชาติ"
+ catalyst_caliph_died_naturally_desc: "[GetFaithByKey('ashari').ReligiousHeadName|U] ซุนนี สิ้นพระชนม์ตามธรรมชาติ\n#WEAK (คูลดาวน์ [EmptyScope.ScriptValue('catalyst_cooldown_between_significant_character_deaths_years_value')] ปี)#!"
+
+ supporter_and_detractor: "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] และ [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+ supporter_and_detractor_caps: "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] และ [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+
+ catalyst_revealed_secret_faith_non_islam: "เปิดโปง [faith|E] ลับที่ไม่ใช่ [GetReligionByKey('islam_religion').GetAdjective] [struggle_catalyst_catalyst|E]"
+ catalyst_revealed_secret_faith_non_islam_desc: "เปิดเผย [faith|E] ลับที่ไม่ใช่ [GetReligionByKey('islam_religion').GetAdjective]"
+ catalyst_revealed_secret_faith_islam: "เปิดโปง [faith|E] ลับ [GetReligionByKey('islam_religion').GetAdjective] [struggle_catalyst_catalyst|E]"
+ catalyst_revealed_secret_faith_islam_desc: "เปิดเผย [faith|E] ลับ [GetReligionByKey('islam_religion').GetAdjective]"
+
+
+ catalyst_coronation_event_unrest: "การประกาศก้องถึงความไม่พอใจระหว่างพิธีราชาภิเษก"
+ catalyst_coronation_event_unrest_desc: "การถกเถียงอันเผ็ดร้อนระหว่าง $supporter_and_detractor$ ระหว่าง [coronation|E] จบลงด้วยการสนับสนุนอย่างกึกก้องเพื่อสั่นคลอนสภาวะที่เป็นอยู่"
+ catalyst_coronation_event_concession: "การประกาศก้องถึงความไม่พอใจระหว่างพิธีราชาภิเษก"
+ catalyst_coronation_event_concession_desc: "การถกเถียงอันเผ็ดร้อนระหว่าง $supporter_and_detractor$ ระหว่าง [coronation|E] จบลงด้วยการสนับสนุนอย่างกึกก้องเพื่อหาทางประนีประนอม"
+ catalyst_coronation_event_stabilization: "$catalyst_coronation_event_unrest$"
+ catalyst_coronation_event_stabilization_desc: "การถกเถียงอันเผ็ดร้อนระหว่าง $supporter_and_detractor$ ระหว่าง [coronation|E] จบลงด้วยการสนับสนุนอย่างกึกก้องเพื่อเสถียรภาพ"

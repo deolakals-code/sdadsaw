@@ -1,0 +1,85 @@
+﻿l_english: 
+
+ MY_HAS_DIARCHY_PARAMETER:0 "ประเภท[diarchy|E]ของข้าอนุญาตสิ่งนี้"
+ NOT_MY_HAS_DIARCHY_PARAMETER:0 "ประเภท[diarchy|E]ของข้า #bold ไม่อนุญาต#! สิ่งนี้"
+ THEIR_HAS_DIARCHY_PARAMETER:0 "ประเภท[diarchy|E]ของ [CHARACTER.GetShortUINamePossessive] อนุญาตสิ่งนี้"
+ NOT_THEIR_HAS_DIARCHY_PARAMETER:1 "ประเภท[diarchy|E]ของ [CHARACTER.GetShortUINamePossessive] #bold ไม่อนุญาต#! สิ่งนี้"
+
+ MY_HAS_DIARCHY_ACTIVE_PARAMETER:0 "[scales_of_power|E]ใน[CHARACTER.GetDiarchyTypeName]ของท่านเอื้อประโยชน์แก่ท่านเพียงพอ"
+ NOT_MY_HAS_DIARCHY_ACTIVE_PARAMETER:0 "[scales_of_power|E]ใน[CHARACTER.GetDiarchyTypeName]ของท่านเอนเอียงต่อต้านท่าน"
+ THEIR_HAS_DIARCHY_ACTIVE_PARAMETER:0 "[scales_of_power|E]ใน[CHARACTER.GetDiarchyTypeName]ของ [CHARACTER.GetShortUINamePossessive] เอนเอียงต่อต้าน [CHARACTER.GetHerHim]"
+ NOT_THEIR_HAS_DIARCHY_ACTIVE_PARAMETER:0 "[scales_of_power|E]ใน[CHARACTER.GetDiarchyTypeName]ของ [CHARACTER.GetShortUINamePossessive] เอื้อประโยชน์แก่ [CHARACTER.GetHerHim] มากเกินไป"
+
+ MY_DIARCHY_POWER_LEVEL_GREATER_THAN:0 "[scales_of_power|E]ของข้ามากกว่า $NUM|0$"
+ THEIR_DIARCHY_POWER_LEVEL_GREATER_THAN:0 "[scales_of_power|E]ของ [CHARACTER.GetShortUINamePossessive] มากกว่า $NUM|0$"
+
+ I_AM_DIARCHY_SUCCESSOR:0 "ข้าอยู่ใน[line_of_succession|E]ที่จะ[share_power|E]กับ[liege|E]ของข้า"
+ NOT_I_AM_DIARCHY_SUCCESSOR:0 "ข้าไม่ได้อยู่ใน[line_of_succession|E]ที่จะ[share_power|E]กับ[liege|E]ของข้า"
+ THEY_ARE_DIARCHY_SUCCESSOR:0 "[CHARACTER.GetShortUIName] อยู่ใน[line_of_succession|E]ที่จะ[share_power|E]กับ[liege|E]ของ [CHARACTER.GetHerHis]"
+ NOT_THEY_ARE_DIARCHY_SUCCESSOR:0 "[CHARACTER.GetShortUIName] ไม่ได้อยู่ใน[line_of_succession|E]ที่จะ[share_power|E]กับ[liege|E]ของ [CHARACTER.GetHerHis]"
+
+ I_HAVE_ACTIVE_DIARCHY:0 "ปัจจุบันข้ากำลัง[sharing_power|E]"
+ NOT_I_HAVE_ACTIVE_DIARCHY:0 "ปัจจุบันข้าไม่ได้กำลัง[sharing_power|E]"
+ THEY_HAVE_ACTIVE_DIARCHY:0 "ปัจจุบัน [CHARACTER.GetShortUIName] กำลัง[sharing_power|E]"
+ NOT_THEY_HAVE_ACTIVE_DIARCHY:0 "ปัจจุบัน [CHARACTER.GetShortUIName] ไม่ได้กำลัง[sharing_power|E]"
+
+ I_AM_DIARCH_OF_TARGET:0 "ข้าคือ[TARGET_CHARACTER.GetDiarchTitle]ของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ NOT_I_AM_DIARCH_OF_TARGET:0 "ข้าไม่ใช่[TARGET_CHARACTER.GetDiarchTitle]ของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ THEY_ARE_DIARCH_OF_TARGET:0 "[CHARACTER.GetShortUIName] คือ[TARGET_CHARACTER.GetDiarchTitle]ของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ NOT_THEY_ARE_DIARCH_OF_TARGET:0 "[CHARACTER.GetShortUIName] ไม่ใช่[TARGET_CHARACTER.GetDiarchTitle]ของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ ARE_DIARCH_OF_TARGET: "เป็น [TARGET_CHARACTER.GetDiarchTitle] ของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ NOT_ARE_DIARCH_OF_TARGET: "ไม่ได้เป็น [TARGET_CHARACTER.GetDiarchTitle] ของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+
+ I_AM_DIARCH:0 "ข้ากำลัง[sharing_power|E]กับ[liege|E]ของข้า"
+ NOT_I_AM_DIARCH:0 "ข้าไม่ได้กำลัง[sharing_power|E]กับ[liege|E]ของข้า"
+ THEY_ARE_DIARCH:0 "[CHARACTER.GetShortUIName] แบ่งปันอำนาจกับ[liege|E]ของ [CHARACTER.GetHerHis]"
+ NOT_THEY_ARE_DIARCH:0 "[CHARACTER.GetShortUIName] ไม่ได้แบ่งปันอำนาจกับ[liege|E]ของ [CHARACTER.GetHerHis]"
+
+ I_CAUSED_STRIFE:0 "ข้าได้ก่อให้เกิด[strife|E] $COMPARATOR$ $NUM|0$"
+ NOT_I_CAUSED_STRIFE:0 "ข้า #bold ไม่ได้#! ก่อให้เกิด[strife|E] $COMPARATOR$ $NUM|0$"
+ THEY_CAUSED_STRIFE:0 "[CHARACTER.GetShortUIName] ได้ก่อให้เกิด[strife|E] $COMPARATOR$ $NUM|0$"
+ NOT_THEY_CAUSED_STRIFE:0 "[CHARACTER.GetShortUIName] #bold ไม่ได้#! ก่อให้เกิด[strife|E] $COMPARATOR$ $NUM|0$"
+
+ I_SPENT_YEARS_IN_DIARCHY:0 "ข้าใช้เวลา $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'ปี', 'ปี' )] ในการ[sharing_power|E]"
+ NOT_I_SPENT_YEARS_IN_DIARCHY:0 "ข้า #bold ไม่ได้#! ใช้เวลา $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'ปี', 'ปี' )] ในการ[sharing_power|E]"
+ THEY_SPENT_YEARS_IN_DIARCHY:0 "[CHARACTER.GetShortUIName] ใช้เวลา $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'ปี', 'ปี' )] ในการ[sharing_power|E]"
+ NOT_THEY_SPENT_YEARS_IN_DIARCHY:0 "[CHARACTER.GetShortUIName] #bold ไม่ได้#! ใช้เวลา $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'ปี', 'ปี' )] ในการ[sharing_power|E]"
+
+ I_SPENT_YEARS_AS_DIARCH:0 "ข้าใช้เวลา $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'ปี', 'ปี' )] ในฐานะ [CHARACTER.GetLiege.GetDiarchTitle]"
+ NOT_I_SPENT_YEARS_AS_DIARCH:0 "ข้า #bold ไม่ได้#! ใช้เวลา $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'ปี', 'ปี' )] ในฐานะ [CHARACTER.GetLiege.GetDiarchTitle]"
+ THEY_SPENT_YEARS_AS_DIARCH:0 "[CHARACTER.GetShortUIName] ใช้เวลา $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'ปี', 'ปี' )] ในฐานะ [CHARACTER.GetLiege.GetDiarchTitle]"
+ NOT_THEY_SPENT_YEARS_AS_DIARCH:0 "[CHARACTER.GetShortUIName] #bold ไม่ได้#! ใช้เวลา $COMPARATOR$ $NUM|0$ [SelectLocalization( EqualTo_int32( '(int32)$NUM|q$', '(int32)1' ), 'ปี', 'ปี' )] ในฐานะ [CHARACTER.GetLiege.GetDiarchTitle]"
+
+ I_HAVE_ACTIVE_MANDATE:0 "ข้ามี[mandate|E]ที่จะ[SelectLocalization( StringIsEmpty( '$MANDATE_TYPE|q$' ), '', ' $MANDATE_TYPE|q$' )]"
+ NOT_I_HAVE_ACTIVE_MANDATE:0 "ข้า #bold ไม่มี#! [mandate|E]ที่จะ[SelectLocalization( StringIsEmpty( '$MANDATE_TYPE|q$' ), '', ' $MANDATE_TYPE|q$' )]"
+ THEY_HAVE_ACTIVE_MANDATE:0 "[CHARACTER.GetShortUIName] มี[mandate|E]ที่ใช้งานอยู่ที่จะ $MANDATE_TYPE$"
+ NOT_THEY_HAVE_ACTIVE_MANDATE:0 "[CHARACTER.GetShortUIName] ไม่มี[mandate|E]ที่ใช้งานอยู่ที่จะ $MANDATE_TYPE$"
+ 
+ I_HAVE_MANDATE_TYPE_QUALIFICATION:0 "คุณสมบัติของข้าสำหรับ[mandate|E] $MANDATE_TYPE$ คือ $COMPARATOR$ $NUM|0V$"
+ NOT_I_HAVE_MANDATE_TYPE_QUALIFICATION:0 "คุณสมบัติของข้าสำหรับ[mandate|E] $MANDATE_TYPE$ #bold ไม่ใช่#! $COMPARATOR$ $NUM|0V$"
+ THEY_HAVE_MANDATE_TYPE_QUALIFICATION:0 "คุณสมบัติของ [CHARACTER.GetShortUIName] สำหรับ[mandate|E] $MANDATE_TYPE$ คือ $COMPARATOR$ $NUM|0V$"
+ NOT_THEY_HAVE_MANDATE_TYPE_QUALIFICATION:0 "คุณสมบัติของ [CHARACTER.GetShortUIName] สำหรับ[mandate|E] $MANDATE_TYPE$ #bold ไม่ใช่#! $COMPARATOR$ $NUM|0V$"
+
+ MY_DIARCH_APTITUDE:0 "[diarch_aptitude|E]ของข้าในฐานะ [CHARACTER.GetDiarchTitle] คือ $COMPARATOR$ $NUM|0V$"
+ NOT_MY_DIARCH_APTITUDE:0 "[diarch_aptitude|E]ของข้าในฐานะ [CHARACTER.GetDiarchTitle] #bold ไม่ใช่#! $COMPARATOR$ $NUM|0V$"
+ THEIR_DIARCH_APTITUDE:0 "[diarch_aptitude|E]ของ [CHARACTER.GetShortUINamePossessive] ในฐานะ [CHARACTER.GetDiarchTitle] คือ $COMPARATOR$ $NUM|0V$"
+ NOT_THEIR_DIARCH_APTITUDE:0 "[diarch_aptitude|E]ของ [CHARACTER.GetShortUINamePossessive] ในฐานะ [CHARACTER.GetDiarchTitle] #bold ไม่ใช่#! $COMPARATOR$ $NUM|0V$"
+
+ MY_LOYALTY_AS_DIARCH:0 "[diarch_loyalty|E]ของข้าในฐานะ [CHARACTER.GetDiarchTitle] คือ $COMPARATOR$ $NUM|0V$"
+ NOT_MY_LOYALTY_AS_DIARCH:0 "[diarch_loyalty|E]ของข้าในฐานะ [CHARACTER.GetDiarchTitle] #bold ไม่ใช่#! $COMPARATOR$ $NUM|0V$"
+ THEIR_LOYALTY_AS_DIARCH:0 "[diarch_loyalty|E]ของ [CHARACTER.GetShortUINamePossessive] ในฐานะ [CHARACTER.GetDiarchTitle] คือ $COMPARATOR$ $NUM|0V$"
+ NOT_THEIR_LOYALTY_AS_DIARCH:0 "[diarch_loyalty|E]ของ [CHARACTER.GetShortUINamePossessive] ในฐานะ [CHARACTER.GetDiarchTitle] #bold ไม่ใช่#! $COMPARATOR$ $NUM|0V$"
+
+ I_AM_DESIGNATED_DIARCH:0 "[CHARACTER.GetLiege.GetName] กำหนดให้ข้าเป็น [CHARACTER.GetLiege.GetDiarchTitle] ของ [CHARACTER.GetLiege.GetHerHis]"
+ NOT_I_AM_DESIGNATED_DIARCH:0 "ข้าไม่ใช่ [CHARACTER.GetLiege.GetDiarchTitle] ที่ถูกกำหนดของ [CHARACTER.GetLiege.GetName]"
+ THEY_ARE_DESIGNATED_DIARCH:0 "[CHARACTER.GetLiege.GetName] กำหนดให้ [CHARACTER.GetName] เป็น [CHARACTER.GetLiege.GetDiarchTitle] ของ [CHARACTER.GetLiege.GetHerHis]"
+ NOT_THEY_ARE_DESIGNATED_DIARCH:0 "[CHARACTER.GetName] ไม่ใช่ [CHARACTER.GetLiege.GetDiarchTitle] ที่ถูกกำหนดของ [CHARACTER.GetLiege.GetName]"
+
+ TIME_AFTER_DESIGNATED_DIARCH:0 "เวลาตั้งแต่ไดอาร์คถูกกำหนดคือ $COMPARATOR$ $DURATION|V$"
+
+ I_HAVE_DIARCHY_TYPE:0 "ข้ากำลัง[sharing_power|E]ใน $DIARCHY_TYPE$"
+ NOT_I_HAVE_DIARCHY_TYPE:0 "ข้าไม่ได้อยู่ใน $DIARCHY_TYPE$"
+ THEY_HAVE_DIARCHY_TYPE:0 "[CHARACTER.GetName] กำลัง[sharing_power|E]ใน $DIARCHY_TYPE$"
+ NOT_THEY_HAVE_DIARCHY_TYPE:0 "[CHARACTER.GetName] ไม่ได้อยู่ใน $DIARCHY_TYPE$"
+ HAVE_DIARCHY_TYPE: "กำลัง [sharing_power|E] ใน $DIARCHY_TYPE$"
+ NOT_HAVE_DIARCHY_TYPE: "ไม่ได้อยู่ใน $DIARCHY_TYPE$"

@@ -1,0 +1,38 @@
+﻿l_english: 
+ stress_frozen_grief:0 "ความโศกเศร้าที่แข็งตัว"
+ stress_frozen_grief_desc:0 "ด้วยมิเคยผ่านกระบวนการทำใจกับการสูญเสียบุคคลอันเป็นที่รัก ตัวละครนี้จึงประสบความยากลำบากในการสร้างสัมพันธ์กับผู้อื่น"
+ stress_stuffed_corpse:0 "ศพยัดนุ่น"
+ stress_stuffed_corpse_desc:0 "ตัวละครนี้เก็บศพยัดนุ่นของบุคคลอันเป็นที่รักไว้ใกล้ตัวและสนทนากับศพนั้น เป็นการกระทำอันน่ากระอักกระอ่วนและลบหลู่สิ่งศักดิ์สิทธิ์"
+ stress_managed_grief:0 "การจัดการความโศกเศร้า"
+ stress_managed_grief_desc:0 "ตัวละครนี้กำลังพยายามทำใจกับการสูญเสียบุคคลอันเป็นที่รักไปทีละน้อย"
+
+ #Coping Mechanism Penalties
+ stress_disturbing_confession:0 "คำสารภาพอันน่ากระอักกระอ่วน"
+ stress_disturbing_confession_desc:0 "ตัวละครนี้ได้สารภาพอย่างเปิดเผยถึงเรื่องน่ากระอักกระอ่วนบางอย่าง..."
+ stress_drinking_binge:0 "การเมาหัวราน้ำ"
+ stress_drinking_binge_desc:0 "ตัวละครนี้ดื่มหนักกว่าปกติ"
+ stress_hashish_habit:0 "นิสัยติดกัญชา"
+ stress_hashish_habit_desc:0 "ยากที่จะพบตัวละครนี้ในสภาพสร่างเมาในทุกวันนี้"
+ stress_hashish_stupor:0 "สภาวะมึนเมากัญชา"
+ stress_hashish_stupor_desc:1 "ตัวละครนี้เสพยาจนตกอยู่ในสภาวะมึนเมา"
+ stress_inappetetic_hunger_1:0 "หิวโหย"
+ stress_inappetetic_hunger_1_desc:0 "ตัวละครนี้รับประทานอาหารไม่เพียงพอที่จะรักษาสุขภาพ"
+ stress_inappetetic_hunger_2:0 "อดอยาก"
+ stress_inappetetic_hunger_2_desc:0 "ตัวละครนี้กำลังทนทุกข์จากการขาดแคลนอาหารอย่างรุนแรง"
+ stress_inappetetic_hunger_3:0 "ร่างกายทรุดโทรม"
+ stress_inappetetic_hunger_3_desc:0 "ตัวละครนี้ไม่ได้กินอะไรเลยเป็นเวลาหลายสัปดาห์ และเห็นได้ชัด"
+
+ angry_at_everyone_modifier:0 "โทสะอันไร้การควบคุม"
+ angry_at_everyone_modifier_desc:0 "ตัวละครนี้เต็มไปด้วยความโกรธ และไม่มีผู้ใดรอดพ้น"
+ 
+ stress_smelling_of_sweat:0 "กลิ่นเหงื่อเหม็นคลุ้ง"
+ stress_smelling_of_sweat_desc:0 "กลิ่นเหงื่อเหม็นคลุ้งติดตามตัวละครนี้ไปทุกหนแห่ง"
+
+ stress_busy_writing:0 "หมกมุ่นกับการเขียน"
+ stress_busy_writing_desc:0 "ตัวละครนี้ใช้เวลาส่วนใหญ่ไปกับการเขียน"
+
+ irritating_everyone_modifier:1 "การเกรี้ยวกราด"
+ irritating_everyone_modifier_desc:1 "ตัวละครนี้ไม่ได้ทำสิ่งใดเพื่อควบคุมความหงุดหงิดและความโกรธของตน"
+
+ irritating_everyone_courtier_modifier:1 "$irritating_everyone_modifier$"
+ irritating_everyone_courtier_modifier_desc:1 "$irritating_everyone_modifier_desc$"

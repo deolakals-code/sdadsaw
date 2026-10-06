@@ -1,0 +1,186 @@
+﻿l_english: 
+ bp1_yearly.7000.t:0 "ละศีลอดกับสหาย"
+ bp1_yearly.7000.desc:1 "ข้ากำลังเดินทางไปยัง [ROOT.Char.GetFaith.HouseOfWorship] เมื่อข้าบังเอิญพบกับ [distraction_friend.GetTitledFirstName] [ROOT.Char.Custom2('RelationToMeShort', distraction_friend)] ของข้า ผู้ ซึ่งกำลังถือถุงใบเล็กอยู่ หลังจากเหลียวมองรอบๆ [distraction_friend.GetSheHe] ก็เปิดมันออกอย่างมีลับลมคมใน เผยให้เห็นอาหารและเครื่องดื่มนานาชนิด\n\n"ช่างเป็นวันที่อากาศดีเสียจริง มาร่วมปิกนิกยามเช้ากับข้าข้างนอกเถิด" [distraction_friend.GetSheHe|U] เอ่ยขึ้น\n\nขณะที่ข้าเริ่มท้วงว่ากำลังจะไป [ROOT.Char.GetFaith.HouseOfWorship] [distraction_friend.GetFirstNameNoTooltip] ก็พูดขัดขึ้นมาว่า: \n\n"[ROOT.Char.GetFaith.HighGodName] ยังคงอยู่ที่นั่นในภายหลัง แต่ [ROOT.Char.Custom('GetExpensiveDessert')] เหล่านี้จะไม่รอ" "
+ bp1_yearly.7000.a:0 "[ROOT.Char.GetFaith.HighGodName] สำคัญกว่าอาหารเช้า"
+ bp1_yearly.7000.b:0 "บาปที่แท้จริงคือการปล่อยให้โอกาสนี้ผ่านไป"
+ 
+ lovely_picnic_modifier:0 "การสังสรรค์กลางแจ้งอันน่ารัก"
+ lovely_picnic_modifier_desc:0 "ได้ไปสังสรรค์กลางแจ้งอันน่ารัก"
+ 
+ bp1_yearly.7001.t:0 "ไปตกปลา"
+ bp1_yearly.7001.desc:1 "[ROOT.Char.Custom2('RelationToMeShort', fishing_friend)] [fishing_friend.GetFirstName] ของข้าเข้ามาทักทาย ยิ้มกว้างจนเห็นฟัน ในมือของ[fishing_friend.GetHerHis]มีคันเบ็ดสองคัน\n\n\"ไปตกปลากับข้าวันนี้เถิด [fishing_friend.Custom2('RelationToMeShort', ROOT.Char)] ที่รัก ข้ารับรองว่าท่านจะชอบมัน!\" [fishing_friend.GetSheHe|U] อุทาน\n\nนานแล้วที่ข้าไม่ได้หยุดพักและหลีกหนีจากความวุ่นวายของ [ROOT.Char.Custom('FortifiedBuilding')]..."
+ bp1_yearly.7001.a:0 "ข้าจักจับปลาคาร์ปขาวในตำนานให้ได้!"
+ bp1_yearly.7001.b:0 "[ROOT.Char.GetTitleAsNameNoTooltip] ไม่ #EMP 'ตกปลา'#! หรอก"
+ 
+ bp1_yearly_7001.a.tt:1 "ท่านไปตกปลา"
+ 
+ bp1_yearly.7001.a.toast.good_time:1 "ท่านมีการเดินทางที่ยอดเยี่ยม"
+ bp1_yearly.7001.a.toast.bad_time:1 "ท่านมีช่วงเวลาที่แย่"
+ bp1_yearly.7001.a.toast.caught_fish:1 "ท่านจับปลายักษ์ได้"
+ bp1_yearly.7001.a.toast.white_carp:1 "ท่านจับปลาคาร์ปขาวในตำนานได้"
+ 
+ 
+ bp1_yearly.7002.t:0 "การทะเลาะวิวาทที่ส้วม"
+ bp1_yearly.7002.desc:1 "หลังจากเพิ่งปลดทุกข์เสร็จ ข้าก็เดินทอดน่องไปที่หน้าต่างและมองดูสนามหญ้าด้านล่าง\n\nอารมณ์ของข้าขุ่นมัวเมื่อเห็นศัตรูของข้า [chamberpot_rival.GetFirstName] เดินผ่านสนามหญ้าด้วยท่าทางร่าเริงอย่างน่าโมโหบนใบหน้าของ [chamberpot_rival.GetHerHis] สายตาของข้าเหลือบไปเห็นหม้อถ่ายที่เต็มอยู่ข้างเตียง บางทีข้าอาจจะทำอะไรบางอย่างกับอารมณ์ดีๆ นั่นได้..."
+ bp1_yearly.7002.a:0 "ระวังข้างล่าง!"
+ bp1_yearly.7002.b:0 "ข้าเป็นผู้ใหญ่แล้ว เรื่องนี้ต่ำกว่าศักดิ์ศรีของข้า"
+ 
+ bp1_yearly.7002.a.tt:0 "ท่านพยายามเทหม้อถ่ายใส่พวกเขา"
+ 
+ drenched_in_excrement_opinion:0 "เปียกโชกไปด้วยสิ่งปฏิกูล"
+ threw_excrement_opinion:1 "เกือบเปียกโชกไปด้วยสิ่งปฏิกูล"
+ 
+ bp1_yearly.7002.a.toast.perfect_hit:0 "โดนเต็มๆ!"
+ bp1_yearly.7002.a.toast.miss:0 "พลาดเป้าอย่างสิ้นเชิง!"
+ bp1_yearly.7002.a.toast.chamberpot:0 "ท่านทำหม้อถ่ายหลุดมือ!"
+ bp1_yearly.7002.a.toast.tripped:0 "ท่านลื่นล้มและเปรอะเปื้อนไปด้วยสิ่งปฏิกูล!"
+ 
+ bp1_yearly.7003.t:0 "พรมแขวนผนัง"
+ bp1_yearly.7003.desc:1 "ข้ากำลังตามหา [orgy_tapestry_maker.Custom2('MyCharacterIntroduction', ROOT.Char)] แต่หา[orgy_tapestry_maker.GetSheHe]ไม่พบ ในที่สุดข้าก็บุกเข้าไปในห้องพักของ[orgy_tapestry_maker.GetHerHis] ซึ่งข้าไม่พบ #EMP [orgy_tapestry_maker.GetHerHim]#!... แต่ข้าพบสิ่งที่น่าสนใจมาก\n\nดูเหมือนว่า [orgy_tapestry_maker.GetSheHe] กำลังทำพรมแขวนผนังที่แสดงภาพการร่วมสังวาสหมู่ที่ค่อนข้างโจ่งแจ้ง ข้าอยู่ที่นั่น ถูกประกบอยู่ระหว่าง [ROOT.Char.Custom2('RelationToMeShort', orgy_participant_1)] [orgy_participant_1.GetFirstName] และ [ROOT.Char.Custom2('RelationToMeShort', orgy_participant_2)] [orgy_participant_2.GetFirstName] ของข้า ในขณะเดียวกัน [ROOT.Char.Custom2('RelationToMeShort', orgy_tapestry_maker)] [orgy_tapestry_maker.GetFirstNameNoTooltip] ของข้าดูเหมือนจะกำลังมีความสุขอย่างยิ่งกับ [ROOT.Char.GetFaith.DevilName] ที่มุมหนึ่ง [ROOT.Char.Custom2('RelationToMeShort', orgy_participant_3)] [orgy_participant_3.GetFirstName] ของข้านั่งยิ้มอย่างเคลิบเคลิ้ม\n\nข้าพูดไม่ออก"
+ bp1_yearly.7003.a:0 "น่าขยะแขยง!"
+ bp1_yearly.7003.b:0 "ข้า #EMP ต้อง#! แขวนสิ่งนี้ไว้บนผนังของข้า"
+ bp1_yearly.7003.c:0 "ข้า เอ่อ เลี้ยวผิดทาง"
+ 
+ bp1_orgy_tapestry:0 "พรมแขวนผนังภาพการร่วมสังวาสหมู่"
+ bp1_orgy_tapestry_desc:0 "พรมแขวนผนังนี้แสดงภาพ [orgy_participant_1.GetFirstName], [ROOT.Char.GetName], [orgy_participant_2.GetName], [orgy_participant_3.GetName] และ [orgy_tapestry_maker.GetName] กำลังร่วมสังวาสหมู่ [ROOT.Char.GetFaith.DevilName] ก็เข้าร่วมด้วย"
+ 
+ bp1_yearly.7004.t:0 "ความสบายใจจากสหาย"
+ bp1_yearly.7004.desc:1 "[ROOT.Char.Custom2('RelationToMeShort', concerned_friend)] [concerned_friend.GetFirstName] ของข้าเข้ามาหาขณะที่ข้านั่งมองออกไปข้างนอก: "ท่านดูไม่เหมือนเดิมตั้งแต่... ตั้งแต่เรื่องนั้นเกิดขึ้น"\n\n[concerned_friend.GetSheHe|U] ไม่ได้พูดออกมา แต่ข้ารู้ว่า [concerned_friend.GetSheHe] กำลังหมายถึงตอนที่ [bad_memory.GetDescription]\n\n"บางทีท่านอาจต้องการใครสักคนคุยด้วย? ข้าเป็นคนนั้นได้นะ" [concerned_friend.GetSheHe] พูดต่ออย่างอ่อนโยน"
+ bp1_yearly.7004.a:0 "ฟังดูดีนะ"
+ bp1_yearly.7004.b:0 "ปัญหาของข้าเป็นเรื่องส่วนตัว"
+ 
+ bp1_yearly.7005.t:0 "การช่วยเหลือสหาย"
+ bp1_yearly.7005.desc:0 "สหายของข้า [borrowing_friend.GetName] มาหาข้า เห็นได้ชัดว่าต้องการบางอย่าง ในที่สุดข้าก็เหนื่อยหน่ายกับการที่ [borrowing_friend.GetHerHim] พูดอ้อมค้อมและเรียกร้องให้ [borrowing_friend.GetSheHe] บอกข้ามา\n\n"เอ่อ ข้าหวังว่าข้าจะขอยืม [borrowed_artifact.GetName] ของท่านสักคืนได้ไหม แต่ท่านห้ามถามเหตุผลนะ..."\n\n[borrowing_friend.GetSheHe|U] รู้สึกอับอายอย่างเห็นได้ชัดกับคำขอนี้ [borrowing_friend.GetSheHe] ต้องการมันไปทำอะไรกันแน่?"
+ bp1_yearly.7005.a:0 "ข้าคิดว่าได้นะ"
+ bp1_yearly.7005.b:0 "ไม่มีทาง"
+ 
+ bp1_yearly.7005.a.returned_artifact:0 "สิ่งประดิษฐ์ที่ยืมไปถูกส่งคืนแล้ว"
+ 
+ bp1_yearly.7006.t:0 "$bp1_yearly.7005.t$"
+ bp1_yearly.7006.desc:0 "[borrowing_friend.GetName] เข้ามาหาข้าด้วยสายตาที่ตกต่ำ "โปรดอย่าโกรธเลย"\n\nพวกเขานำข้าไปยัง [borrowed_artifact.GetName] ของข้า ซึ่งข้าเห็นว่าเสียหายอย่างหนัก\n\n"ข้าขอโทษ มันเป็นอุบัติเหตุ" [borrowing_friend.GetFirstNameNoTooltip] ดูเสียใจอย่างแท้จริง"
+ bp1_yearly.7006.a:0 "เจ้า [borrowing_friend.Custom2('InsultNoun', ROOT.Char)] ตัวจริง"
+ bp1_yearly.7006.b:0 "อุบัติเหตุเกิดขึ้นได้"
+ 
+ bp1_yearly.7005.a.tt:0 "สิ่งประดิษฐ์ของท่านอาจเสียหาย"
+ 
+ bp1_yearly.7007.t:0 "$bp1_yearly.7005.t$"
+ bp1_yearly.7007.desc:0 "[borrowing_friend.GetName] ได้คืน [borrowed_artifact.GetName] ของข้าแล้ว ข้าไม่แน่ใจว่าพวกเขาแค่ทำความสะอาดมันหรือทำการเปลี่ยนแปลงจริงๆ แต่มันดูน่าประทับใจกว่าที่เคย\n\n"ข้าหวังว่าท่านจะชอบมัน ข้าทำมันทั้งคืนเลย" [borrowing_friend.GetSheHe] พูดพลางทำท่าประหม่า"
+ bp1_yearly.7007.a:0 "นี่มันยอดเยี่ยมมาก!"
+ bp1_yearly.7007.b:0 "เจ้าแก้ไข [borrowed_artifact.GetNameNoTooltip] #EMP ของข้า#! งั้นรึ?"
+ 
+ didnt_trust_friend_opinion:0 "ไม่เชื่อใจข้า"
+ trusted_friend_opinion:0 "เชื่อใจข้า"
+ forgave_me_opinion:0 "ให้อภัยข้า"
+ improved_artifact_opinion:0 "ปรับปรุงวัตถุโบราณของข้า"
+ messed_with_artifact_opinion:0 "ยุ่มย่ามกับวัตถุโบราณของข้า"
+ 
+ bp1_yearly.7010.t:1 "การทดสอบความภักดี"
+ bp1_yearly.7010.desc:2 "ข้าหยุดคิดไม่ได้ว่าความภักดีของ [tested_friend.GetFirstNamePossessive] อยู่ที่ใด [tested_friend.GetSheHe] เป็นเพื่อนแท้ หรือเป็นเพียงคนประจบสอพลอ?\n\nบางทีการทดสอบเล็กน้อยอาจ ทำให้ข้าสบายใจขึ้น...\n\nสายลับของข้าคนหนึ่ง ความลับปลอมๆ และของขวัญนิรนาม อะไรจะ ทำให้ [tested_friend.GetHerHim] ทรยศต่อความไว้วางใจของข้าได้?"
+ bp1_yearly.7010.a:1 "เงินสามสิบเหรียญ"
+ bp1_yearly.7010.b:1 "สอง... ไม่สิ #EMP สาม#! [tested_friend.Custom('AttractionWomanManMultiple')] ที่งดงาม พร้อมและเต็มใจ"
+ bp1_yearly.7010.c:1 "คำสัญญาเรื่องความร่ำรวยสำหรับเพื่อน #EMP อีกคน#! ของ [tested_friend.GetHerHis] [friends_friend.GetFirstNameNoTooltip]"
+ bp1_yearly.7010.d:0 "นี่มันต่ำกว่าศักดิ์ศรีของข้า"
+ 
+ bp1_yearly.7010.toast.betrayed:1 "[tested_friend.GetSheHe|U] ทรยศท่าน"
+ 
+ bp1_yearly.7010.toast.not_betrayed:1 "[tested_friend.GetSheHe|U] พิสูจน์ความภักดีของ[tested_friend.GetHerHis]"
+ 
+ bp1_yearly.7010.a.tt:1 "ท่านเชื่อว่าความภักดีของ [tested_friend.GetFirstNamePossessive] สามารถซื้อได้ด้วยทองคำ"
+ bp1_yearly.7010.b.tt:1 "ท่านเชื่อว่า [tested_friend.GetFirstName] จะเลือกความสุขทางกายมากกว่ามิตรภาพ"
+ bp1_yearly.7010.c.tt:1 "ท่านเชื่อว่า [tested_friend.GetFirstName] ใส่ใจมิตรภาพของ [friends_friend.GetFirstNamePossessive] มากกว่าของท่าน"
+ 
+ bp1_yearly.7050.t:0 "ศัตรูเก่า"
+ bp1_yearly.7050.desc:0 "ข้ากลับมาที่สนามรบอีกครั้ง โคลนเกาะติดรองเท้าบู๊ตของข้า กลิ่นเหม็นคาวของคนตายโชยเข้าจมูก ข้าหวนนึกถึงวันที่ [war_memory.GetDescription] อีกครั้ง\n\nข้าตื่นขึ้นมาหอบหายใจ เหงื่อเย็นๆ เกาะใบหน้า"
+ bp1_yearly.7050.desc.married:0 "[sleeping_spouse.GetFirstName] ขยับตัวข้างๆ ข้า แต่ไม่ตื่น ข้าต้องจัดการกับปัญหาของข้าเพียงลำพัง"
+ bp1_yearly.7050.desc.not_married:0 "อยู่คนเดียวในห้อง ข้าต้องจัดการกับปัญหาเหล่านี้ด้วยตัวเอง"
+ bp1_yearly.7050.a:0 "ข้าควรพยายามลืม"
+ bp1_yearly.7050.b:0 "ข้าจะ #EMP ไม่มีวัน#! แพ้อีก!"
+ 
+ vengeance_obsessed_modifier:0 "หมกมุ่นกับการแก้แค้น"
+ 
+ bp1_yearly.7051.t:0 "สมรภูมิ [battle_area.GetNameNoTooltip]"
+ bp1_yearly.7051.desc:1 "ข้าจำได้อย่างชัดเจนเมื่อ [battle_memory.GetDescription] มันเป็นการต่อสู้ที่เกิดขึ้นใน [battle_area.GetTerrain.GetNameNoTooltip] ภูมิประเทศที่ข้าไม่ได้เตรียมพร้อมอย่างยิ่ง\n\nตั้งแต่นั้นมาข้าก็ครุ่นคิดเรื่องต่างๆ ข้ามั่นใจว่าหากการต่อสู้เกิดขึ้นในวันนี้ ข้าจะเป็นผู้นำที่มีความสามารถมากขึ้น"
+ bp1_yearly.7051.a:0 "ข้าจะไม่มีวันปล่อยให้มันเกิดขึ้นอีก"
+ bp1_yearly.7051.b:0 "ข้าควรเรียนรู้ที่จะยืดหยุ่น"
+ 
+ bp1_yearly.7052.t:0 "เรื่องราวเกี่ยวกับ..."
+ bp1_yearly.7052.desc:0 "ไฟลุกโชน ดื่มกันไปแล้ว และ [story_friend.GetFirstName] กำลังเรียกหาเรื่องเล่าจากข้า\n\nความคิดแรกของข้าคือนิทานพื้นบ้าน [ROOT.Char.GetCulture.GetNameNoTooltip] ที่มีชื่อเสียง เรื่องคลาสสิกที่ไม่เคย ทำให้ผิดหวัง\n\nในทางกลับกัน จะเป็นอย่างไรถ้าข้าเล่าเรื่องราวชีวิตของข้าเอง บางทีอาจเป็นตอนที่ [story_memory.GetDescription]"
+ bp1_yearly.7052.a:0 "ยึดตามแบบแผนเดิม"
+ bp1_yearly.7052.b:0 "เรื่องราวของข้าเอง!"
+ bp1_yearly.7052.c:0 "ทำไมไม่ทั้งสองอย่างเลยล่ะ!"
+ 
+ bp1_yearly.7053.t:0 "ความทรงจำแห่งการแก้แค้น"
+ bp1_yearly.7053.desc:0 "ขณะที่ข้าเดินผ่านเมือง ความโกรธก็เข้าครอบงำข้าอีกครั้ง สิ่งเดียวที่อยู่ในใจข้าเมื่อเร็วๆ นี้คือตอนที่ [bad_memory.GetDescription]\n\nข้าต้องแก้แค้น [bad_memory_participant.GetFirstNameNoTooltip] ให้ได้ไม่ทางใดก็ทางหนึ่ง ข้ามองขึ้นไปที่ตะแลงแกงตรงหน้าข้า บางทีหากข้าเคลื่อนไหวอย่างระมัดระวัง [bad_memory_participant.GetSheHe] อาจจะถูกแขวนคอที่นั่นในไม่ช้า"
+ bp1_yearly.7053.a:0 "ข้าจักต้องแก้แค้น"
+ bp1_yearly.7053.b:0 "ข้าต้องพยายามลืม"
+ 
+ murder_memory_modifier:0 "ความทรงจำแห่งการแก้แค้น"
+ sex_memory_modifier:0 "ความทรงจำแห่งตัณหา"
+ 
+ bp1_yearly.7053.a.1:0 "แผนการนี้จะมีโบนัสโอกาสสำเร็จ"
+ 
+ bp1_yearly.7054.t:0 "การลืมเลือน"
+ bp1_yearly.7054.desc:0 ""[forgotten_memory.GetDescription]?" ข้าถามอย่างสับสน\n\n[memory_child.Custom('GetDaughterSon')] [memory_child.GetFirstName] ของข้ามองข้าอย่างกังวล "แน่นอน! ท่านเล่าเรื่องนี้หลายครั้งแล้ว ท่านจำไม่ได้หรือ?"\n\nความจริงคือข้าจำไม่ได้ รายละเอียดเริ่มเลือนลางไปเมื่อเร็วๆ นี้ แต่บางทีการยอมรับอาจดูอ่อนแอ"
+ bp1_yearly.7054.a:0 "โอ้ ใช่ ข้าผิดเอง"
+ bp1_yearly.7054.b:0 "ข้าลืมไปมากเหลือเกินช่วงนี้"
+ 
+ bp1_yearly.7055.t:0 "การบันทึกความทรงจำ"
+ bp1_yearly.7055.desc.positive:0 "บางช่วงเวลาต้องถูกบันทึกไว้ตลอดไป ช่วงเวลาที่ [recorded_memory.GetDescription] เป็นหนึ่งในนั้น ความทรงจำอันน่าทึ่ง เช่นนี้ต้องถูกเก็บรักษาไว้ตลอดกาล"
+ bp1_yearly.7055.desc.negative:0 "บางช่วงเวลาต้องถูกบันทึกไว้ตลอดไป ช่วงเวลาที่ [recorded_memory.GetDescription] เป็นหนึ่งในนั้น อาจเป็นความทรงจำที่เจ็บปวด แต่ต้องมีใครสักคนส่งต่อให้คนรุ่นต่อไป"
+ bp1_yearly.7055.desc.neutral:1 "บางช่วงเวลาต้องถูกบันทึกไว้ตลอดไป ช่วงเวลาที่ [recorded_memory.GetDescription] เป็นหนึ่งในนั้น"
+ bp1_yearly.7055.desc.alone_poor_skill:0 "ข้าอาจจะไม่ใช่นักเขียนที่ดี แต่ด้วยเวลาและความพยายาม ข้าคงจะเขียนอะไรบางอย่างด้วยตัวเองได้\n\n"
+ bp1_yearly.7055.desc.alone_good_skill:0 "ความเชี่ยวชาญในภาษา [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip] ของข้าจะ ทำให้การเขียนเรื่องนี้เป็นเรื่องง่ายดาย\n\n"
+ bp1_yearly.7055.desc.blind:0 "โชคร้ายที่ความตาบอดของข้า ทำให้ข้าไม่สามารถเขียนอะไรด้วยตัวเองได้...\n\n"
+ bp1_yearly.7055.desc.poet:0 "กวีประจำราชสำนักของข้า [poet.GetFirstName] อาจมีประโยชน์อย่างยิ่ง ความเชี่ยวชาญในร้อยแก้วของ[poet.GetHerHis|U]จะเปลี่ยนคำพูดธรรมดาๆ ของข้าให้เป็นศิลปะ"
+ bp1_yearly.7055.desc.friend:0 "แต่แล้ว สหายรักของข้า [friend.GetFirstName] ก็เขียนเก่งกว่าข้ามาก แน่นอนว่า [friend.GetSheHe] คงจะช่วยหากถูกขอร้อง?"
+ 
+ bp1_yearly.7055.desc.ending:1 "อย่างไรก็ตาม การรวบรวมและวาดภาพประกอบหนังสืออาจกลายเป็นเรื่องที่มีค่าใช้จ่ายสูงได้อย่างรวดเร็ว..."
+ bp1_yearly.7055.poet:0 "กวี [poet.GetFirstNameNoTooltip] จักเขียนมันลงไป!"
+ bp1_yearly.7055.friend:0 "[friend.GetFirstNameNoTooltip] เป็นเพื่อนแท้"
+ bp1_yearly.7055.high_skill:0 "ข้าจักบันทึกมันด้วยตัวเอง"
+ bp1_yearly.7055.a:1 "ข้าจักบันทึกมันด้วยตัวเอง หาก [ROOT.Char.GetFaith.HighGodName] ทรงประสงค์"
+ bp1_yearly.7055.b:1 "ไม่มีเวลาสำหรับเรื่องนี้..."
+ 
+ recorded_memory_character:0 "ความทรงจำของ [memory_participant.GetTitledFirstNameNoTooltip]"
+ recorded_memory:1 "ความทรงจำของ [ROOT.Char.GetTitledFirstNamePossessiveNoTooltip]"
+ recorded_memory_desc:1 "หนังสือเล่มนี้เล่าเรื่องราวเมื่อ [recorded_memory.GetThirdPerspectiveDescription]\n\nประพันธ์โดย [ROOT.Char.GetFirstName]"
+ 
+ bp1_yearly.7056.t:0 "กลยุทธ์ข่มขู่"
+ bp1_yearly.7056.desc:1 "ข้าพา [intimidation_target.GetFirstName] ไปยัง [ROOT.Char.Custom('GetDungeonPlural')] ของข้า ที่ ซึ่งข้าเริ่มเล่าเรื่องราวอันน่าสะพรึงกลัวที่ข้าได้ทำกับคนที่มาขวางทางข้าให้[intimidation_target.GetHerHim]ฟัง\n\n"ข้ามั่นใจว่าเจ้าเคยได้ยินเกี่ยวกับวิธีที่ [intimidation_memory.GetDescription]" ข้าบอก[intimidation_target.GetHerHim]ด้วยความยินดี "นั่นเป็นเพียง #EMP จุดเริ่มต้น#! เท่านั้น"\n\nขณะที่ข้าหัวเราะเบาๆ ดวงตาของ [intimidation_target.GetFirstNamePossessiveNoTooltip] ก็เบิกกว้างด้วยความกลัว"
+ bp1_yearly.7056.a:1 "ไม่ต้องกังวล แค่ทำตามที่ข้าบอก แล้วเจ้าจะปลอดภัย..."
+ bp1_yearly.7056.b:0 "บอก #EMP ทุกคน#! เกี่ยวกับข้า!"
+ 
+ bp1_yearly.7057.t:0 "ความปีติยินดีทางศาสนา"
+ bp1_yearly.7057.desc:1 "ข้านั่งอยู่ใน [ROOT.Char.GetFaith.HouseOfWorship] ความคิดของข้าละทิ้งคำพูดของ [realm_priest.GetCouncilTitleFirstName] ไปนึกถึงช่วงเวลาที่ [sex_memory.GetDescription] ตั้งแต่นั้นมา ข้าก็คิดถึง [sex_partner.GetHerHim] เกือบทุกวัน"
+ 
+ bp1_yearly.7057.desc.male:1 "\n\nโชคร้ายที่สิ่งนี้กำลังมีผลข้างเคียงที่ค่อนข้างสังเกตเห็นได้ชัด บางทีหากข้าจัดตำแหน่ง [ROOT.Char.GetFaith.ReligiousText] ให้ถูกต้อง ข้าอาจจะซ่อนปัญหานี้ที่กำลังเติบโตได้โดยไม่มีใครสังเกตเห็น..."
+ 
+ bp1_yearly.7057.desc.female:0 "\n\nโชคร้ายที่สิ่งนี้กำลังมีผลข้างเคียงที่ค่อนข้าง... มีปัญหา"
+ bp1_yearly.7057.a:1 "[sex_partner.GetNameNoTooltip] #EMP ต้อง#! เป็นของข้า..."
+ bp1_yearly.7057.b:1 "ขับไล่ความคิดเหล่านี้ออกไป!"
+ bp1_yearly.7057.c:0 "จะมีที่ใดดีไปกว่าการคลายเครียดใน [ROOT.Char.GetFaith.HouseOfWorship]?"
+ 
+ bp1_yearly.7057.a.tt:0 "แผนการนี้จะมีโบนัสโอกาสสำเร็จ"
+ 
+ bp1_yearly.7058.t:0 "หายนะด้านเสบียง"
+ bp1_yearly.7058.desc:1 "เสียงนกร้องเจื้อยแจ้วยามเช้าคลอเคลียข้าไปยังห้องเก็บเสบียง แสงสลัวยามรุ่งอรุณค่อยๆ จางหายไปในความมืดสลัวของ [ROOT.Char.Custom('GetRoom')] ข้าหาวและบิดขี้เกียจขณะเดิน เท้าของข้าย่ำไปบนพื้น\n\nเมื่อดวงตาของข้าปรับเข้ากับความมืดได้แล้ว โศกนาฏกรรมด้านอาหารก็ถูกเปิดเผย: แกนแอปเปิล เศษขนมปังกระจัดกระจาย กระดูกที่ถูกเลาะเนื้อออกจนเกลี้ยง ดวงตาที่ตกตะลึงของข้ากวาดมองไปทั่ว [ROOT.Char.Custom('GetRoom')] แต่ทุกหนทุกแห่งกลับพบหลักฐานเพิ่มเติม\n\nทันใดนั้น ที่มุมห้อง เสียง #EMP เรอ#! เบาๆ อย่างพึงพอใจ..."
+ bp1_yearly.7058.glutton:0 "ข้ามีอาหารเพิ่ม! มาเปิด #EMP คลังลับ#! กันเถอะ!"
+ bp1_yearly.7058.a:1 "โอ้ เจ้าจะต้องชดใช้คืน และมากกว่านั้น หากเจ้ามี"
+ bp1_yearly.7058.b:0 "หากเจ้าชอบห้องเก็บเสบียง เจ้าจะ #EMP รัก#! [ROOT.Char.Custom('GetDungeon')]!"
+ bp1_yearly.7058.c:1 "#EMP *ถอนหายใจ*#! ข้าเลี้ยงเอง... ก็ได้..."
+ bp1_yearly.7030.t:0 "ความสุขทางกาย"
+ bp1_yearly.7030.desc:0 "[dead_friend_spouse.GetFirstName] เสียใจอย่างหนักนับตั้งแต่ [dead_friend.Custom('WifeHusband')] [dead_friend.GetFirstName] ของ[dead_friend_spouse.GetHerHis]เสียชีวิต [dead_friend_spouse.GetSheHe|U] มาเยี่ยมข้าในเย็นวันหนึ่ง\n\n"ข้ารู้สึกเหงาเหลือเกิน" [dead_friend_spouse.GetSheHe] พูดพลางมองข้าอย่างโหยหา ข้าเตือนตัวเองว่า [dead_friend.GetFirstNameNoTooltip] เป็นเพื่อนที่ดีของข้า\n\n"ท่านช่างปลอบโยนเหลือเกิน" [dead_friend_spouse.GetSheHe] พูดพลางกัดริมฝีปาก[dead_friend_spouse.GetHerHis]อย่างมีความหมาย [dead_friend.GetFirstNameNoTooltip] เป็นเพื่อนของข้า\n\n"ข้าแค่อยากจะรู้สึกอะไรบางอย่าง" [dead_friend_spouse.GetSheHe] กระซิบพลางคลายกระดุมด้านหน้า [dead_friend_spouse.Custom('GetUpperClothingArticle')] ของ[dead_friend_spouse.GetHerHis] [dead_friend.GetFirstNameNoTooltip] #EMP เคยเป็น#! เพื่อนของข้า..."
+ bp1_yearly.7030.a:1 "ข้ามั่นใจว่า [dead_friend.GetFirstNameNoTooltip] คงจะเห็นด้วย..."
+ bp1_yearly.7030.b:1 "ตั้งสติหน่อย [dead_friend_spouse.GetFirstNameNoTooltip]!"
+  
+ bp1_yearly.7100.t:0 "จากไม่ชอบสู่เกลียดชัง"
+ bp1_yearly.7100.desc: "ชั่วขณะหนึ่งข้ากำลังเพลิดเพลินกับการเดินเล่นท่ามกลางแสงแดดรอบๆ [owned_county.GetName] และในชั่วพริบตาต่อมาข้าก็เปรอะเปื้อนไปด้วยสิ่งปฏิกูลและเกลือกกลิ้งอยู่ในโคลน เมื่อข้าเช็ดอุจจาระออกจาก [ROOT.Char.Custom('EyeEyes')] อย่างเดือดดาล ข้าก็พบตัวการได้อย่างง่ายดาย\n\n\"[potential_nemesis.GetTitledFirstName] ส่งความระลึกถึงของ[potential_nemesis.GetHerHis]มา!\" ชาวนาที่โผล่หน้าออกมาจากหน้าต่างตะโกนก่อนจะหนีไป\n\nอย่างน่าสมเพช ข้าพยายามซักขนสัตว์ชิ้นหนึ่งที่ข้าหวงแหนเป็นพิเศษในลำธารใกล้ๆ แต่มันชัดเจนว่าเกินกว่าจะเยียวยาได้แล้ว"
+ bp1_yearly.7100.a:0 "ตอนนี้มันเป็นเรื่อง #EMP ส่วนตัว...#!"
+ bp1_yearly.7100.b:0 "ข้าจะชำระล้างตัวเองด้วยเลือดของ[potential_nemesis.GetHerHis]!"
+ bp1_yearly.7100.c:0 "จำคำพูดข้าไว้ [potential_nemesis.GetFirstNameNoTooltip]: ขนสัตว์ผืนนี้จะถูกแทนที่"
+ bp1_yearly.7100.d:0 "การแก้แค้นต่ำกว่าศักดิ์ศรีของข้า..."
+ bp1_yearly.7100.c.tt:0 "แมวสุดที่รักของ [potential_nemesis.GetFirstNamePossessiveNoTooltip] กำลังเดินเตร่อยู่แถวนี้เมื่อครู่..."
+ bp1_yearly.7100.e:0 "ข้าจะเก็บขนสัตว์ผืนนี้ไว้สำหรับ... ภายหลัง"
+ focused_on_revenge_modifier:0 "มุ่งมั่นกับการแก้แค้น"
+ focused_on_revenge_modifier_desc:0 "ตัวละครนี้มุ่งเน้นไปที่การทำลายล้างศัตรูของตนเพียงอย่างเดียว โดยละเลยความรับผิดชอบหลายอย่าง"
+ vengeful_opinion:0 "เจ้าคิดเจ้าแค้น"

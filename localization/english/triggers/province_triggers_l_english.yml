@@ -1,0 +1,46 @@
+﻿l_english: 
+
+ DEVELOPMENT_LEVEL_TRIGGER:0 "ระดับ[development|E]ใน [TITLE.GetName] คือ $COMPARATOR$ $NUM|V$"
+ NOT_DEVELOPMENT_LEVEL_TRIGGER:0 "ระดับ[development|E]ใน [TITLE.GetName] #bold ไม่ใช่#! $COMPARATOR$ $NUM|V$"
+ ITS_DEVELOPMENT_LEVEL_TRIGGER:0 "ระดับ[development|E]ใน [TITLE.GetName] คือ $COMPARATOR$ $NUM|V$"
+ NOT_ITS_DEVELOPMENT_LEVEL_TRIGGER:0 "ระดับ[development|E]ใน [TITLE.GetName] #bold ไม่ใช่#! $COMPARATOR$ $NUM|V$"
+
+ IS_COUNTY_CAPITAL_TRIGGER:0 "นี่คือ[county_capital|E]"
+ NOT_IS_COUNTY_CAPITAL_TRIGGER:0 "นี่ #bold ไม่ใช่#! [county_capital|E]"
+
+ NOT_POTENTIAL_COUNTY_CONTROL_TASK_TRIGGER:1 "[TITLE.GetName] มี[control|E] 100 อยู่แล้ว และไม่มี[county_corruption|E]"
+
+ DEVELOPMENT_RATE_TRIGGER:0 "อัตราการพัฒนา: $NUM|V0$"
+ HAS_COUNTY_MODIFIER_TRIGGER:0 "มีตัวปรับ แต่งเคาน์ตี: $MODIFIER$"
+ NOT_HAS_COUNTY_MODIFIER_TRIGGER: "ไม่มีตัวปรับ แต่งเคาน์ตี: $MODIFIER$"
+ IS_COASTAL_TRIGGER:0 "เป็นชายฝั่ง"
+ IS_COASTAL_COUNTY_TRIGGER:1 "เป็น[county|E]ชายฝั่ง"
+ is_lakeside_province_global: "[province|E]มีอาณาเขตติดทะเลสาบ"
+ is_lakeside_county_global: "[county|E]มีอาณาเขตติดทะเลสาบ"
+
+ HAS_STATIONED_REGIMENT_TRIGGER:0 "มีกองทหารประจำการ"
+ HAS_STATIONED_REGIMENT_OF_BASE_TYPE:0 "มีกองทหารประจำการประเภท $MEN_AT_ARMS_TYPE$"
+
+ HAS_REALM_LAW_FLAG_TRIGGER:0 "$FLAG|V$ ได้รับอนุญาตภายใต้กฎหมายอาณาจักรปัจจุบัน"
+ IS_CAPITAL_BARONY_TRIGGER:0 "บารอนีเป็นเมืองหลวง"
+
+ IS_HOLY_SITE_TRIGGER:0 "เป็น[holy_site|E]"
+ NOT_IS_HOLY_SITE_TRIGGER:0 "#bold ไม่ใช่#! [holy_site|E]"
+ HAS_CONTRUCTION_WITH_FLAG_TRIGGER:0 "มีการก่อสร้าง $FLAG|V$"
+ NUM_LEASED_TITLES_TRIGGER:0 "จำนวนตำแหน่งที่ให้เช่า: $NUM|V0$"
+
+ IS_RAIDED_TRIGGER:0 "กำลังถูก[raided|E]"
+
+ TERRAIN_TRAVEL_DANGER_TRIGGER:1 "[travel_danger|E] จาก [terrain|E]: $NUM|=-0$"
+
+ has_province_owner_third:0 "มี[holding|E]ใน [PROVINCE.GetBaronyNameExplicitly]"
+ NOT_has_province_owner_third:0 "#bold ไม่มี#! [holding|E]ใน [PROVINCE.GetBaronyNameExplicitly]"
+ has_province_owner_global:0 "มี[holding|E]"
+ NOT_has_province_owner_global:0 "#bold ไม่มี#! [holding|E]"
+ any_neighboring_top_liege_realm_owner: "ผู้ปกครองอิสระ[independent_ruler|E]ข้างเคียงใดๆ:"
+
+ is_leased_out_GLOBAL: "[TITLE.GetName] ถูกให้เช่า"
+ is_leased_out_GLOBAL_NOT: "[TITLE.GetName] #bold ไม่ได้#! ถูกให้เช่า"
+ any_county_province_GLOBAL: "[barony|E] ใดๆ ใน [TITLE.GetName]:"
+ is_holy_site_of_GLOBAL: "[TITLE.GetName] เป็น[holy_site|E]ของ [FAITH.GetName]"
+ is_holy_site_of_GLOBAL_NOT: "[TITLE.GetName] #bold ไม่ใช่#! [holy_site|E]ของ [FAITH.GetName]"

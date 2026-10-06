@@ -1,0 +1,188 @@
+﻿l_english: 
+ 
+ ### Names
+ experimental_brew_title: "[ROOT.Char.Custom('ExperimentalBrewLoc')]"
+
+ # Start of the branch, where we split off the 4 types
+ ExperimentalBrewLocNegative: "[ROOT.Char.Custom('ExperimentalBrewNegative')]"
+ ExperimentalBrewLocChildish: "[ROOT.Char.Custom('ExperimentalBrewChildish')]"
+ ExperimentalBrewLocPositive: "[ROOT.Char.Custom('ExperimentalBrewPositive')]"
+ ExperimentalBrewLocVeryPositive: "[ROOT.Char.Custom('ExperimentalBrewVeryPositive')]"
+
+ # Negative
+ ExperimentalBrewNegative1: "[ROOT.Char.Custom('BrewNegativeType')] [ROOT.Char.Custom('BrewNegativeAdjective')] ของ [ROOT.Char.GetTitledFirstNamePossessiveNoTooltip]"
+ ExperimentalBrewNegative2: "[ROOT.Char.Custom('BrewNegativeType')] [ROOT.Char.Custom('BrewNegativeAdjective')] ของนักปรุงสุรา [ROOT.Char.MakeScope.Var('experimental_brew_creator').Char.GetFirstNamePossessiveNoTooltip]"
+ ExperimentalBrewNegative3: "[ROOT.Char.Custom('BrewNegativeType')] [ROOT.Char.Custom('BrewNegativeAdjective')] แห่ง [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ ExperimentalBrewNegative4: "ความผิดพลาดของ [ROOT.Char.GetTitledFirstNamePossessiveNoTooltip]"
+ ExperimentalBrewNegative5: "[ROOT.Char.Custom('BrewNegativeType')] [ROOT.Char.Custom('BrewNegativeAdjective')] ของ [ROOT.Char.GetTitleAsNamePossessiveNoTooltip]"
+
+ # Childish
+ ExperimentalBrewChildish1: "[ROOT.Char.Custom('BrewTypesChildish')] ของ [ROOT.Char.MakeScope.Var('experimental_brew_child').Char.GetTitledFirstNamePossessiveNoTooltip]"
+ ExperimentalBrewChildish2: "เบียร์อ่อน [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"
+
+ # Positive
+ ExperimentalBrewPositive1: "[ROOT.Char.Custom('BrewTypes')] ของ [ROOT.Char.GetTitledFirstNamePossessiveNoTooltip]"
+ ExperimentalBrewPositive2: "[ROOT.Char.Custom('BrewTypes')] ของนักปรุงสุรา [ROOT.Char.MakeScope.Var('experimental_brew_creator').Char.GetFirstNamePossessiveNoTooltip]"
+ ExperimentalBrewPositive3: "[ROOT.Char.Custom('BrewTypes')] แห่ง [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ ExperimentalBrewPositive4: "[ROOT.Char.Custom('BrewTypes')] ของ [ROOT.Char.GetTitleAsNamePossessiveNoTooltip]"
+ ExperimentalBrewPositive5: "[ROOT.Char.Custom('BrewTypes')] [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"
+
+ # Very Positive
+ ExperimentalBrewVeryPositive1: "[ROOT.Char.Custom('BrewTypes')] [ROOT.Char.Custom('BrewPositiveAdjective')] ของ [ROOT.Char.GetTitledFirstNamePossessiveNoTooltip]"
+ ExperimentalBrewVeryPositive2: "[ROOT.Char.Custom('BrewTypes')] [ROOT.Char.Custom('BrewPositiveAdjective')] ของนักปรุงสุรา [ROOT.Char.MakeScope.Var('experimental_brew_creator').Char.GetFirstNamePossessiveNoTooltip]"
+ ExperimentalBrewVeryPositive3: "[ROOT.Char.Custom('BrewTypes')] [ROOT.Char.Custom('BrewPositiveAdjective')] แห่ง [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ ExperimentalBrewVeryPositive4: "[ROOT.Char.Custom('BrewTypes')] [ROOT.Char.Custom('BrewPositiveAdjective')] ของ [ROOT.Char.GetTitleAsNamePossessiveNoTooltip]"
+ ExperimentalBrewVeryPositive5: "[ROOT.Char.Custom('BrewTypes')] [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] [ROOT.Char.Custom('BrewPositiveAdjective')]"
+
+ # Types
+ # Can be actual types, or just something that sounds... beerish
+ BrewTypeDarkAle: "ดาร์กเอล" # เอลสีเข้ม
+ BrewTypeStrongAle: "สตรองเอล" # เอลรสแรง
+ BrewTypeBarleyWine: "ไวน์ข้าวบาร์เลย์"
+ BrewTypeBrownAle: "บราวน์เอล" # เอลสีน้ำตาล
+ BrewTypeOldAle: "โอลด์เอล" # เอลหมักบ่ม
+ BrewTypeAle: "เอล"
+ BrewTypeStrongBeer: "เบียร์รสแรง"
+ BrewTypeMead: "เหล้าน้ำผึ้ง"
+ BrewTypeHoneyAle: "ฮันนี่เอล" # เอลน้ำผึ้ง
+ BrewTypeSpicedAle: "สไปซ์เอล" # เอลเครื่องเทศ
+ BrewTypeMildAle: "มายด์เอล" # เอลรสนุ่ม
+ BrewTypeSweetAle: "สวีทเอล" # เอลรสหวาน
+ BrewTypeTableBeer: "เทเบิลเบียร์"
+ BrewTypeVintageAle: "วินเทจเอล" # เอลวินเทจ
+ BrewTypeWinterAle: "วินเทอร์เอล" # เอลฤดูหนาว
+ BrewTypeHarvestAle: "ฮาร์เวสต์เอล" # เอลฤดูเก็บเกี่ยว
+ BrewTypeFestiveAle: "เฟสทีฟเอล" # เอลเทศกาล
+ BrewTypeRusticAle: "รัสติกเอล" # เอลพื้นบ้าน
+ BrewTypeForestAle: "ฟอเรสต์เอล" # เอลป่า
+ BrewTypeBlessedBrew: "สุราศักดิ์สิทธิ์"
+ BrewTypeBenedictineBrew: "สุราเบเนดิกทีน"
+ BrewTypePriorsAle: "เอลของไพรเออร์" # Prior คือตำแหน่งพระชั้นรอง
+ BrewTypeSanctuaryAle: "เอลสถานศักดิ์สิทธิ์"
+ BrewTypeFriarsBrew: "สุราภราดา" # Friar คือนักบวชชายประเภทหนึ่ง
+
+ # Positive Adjectives
+ BrewPositiveAdjectiveDelightful: "น่าพึงพอใจ"
+ BrewPositiveAdjectiveWonderful: "ยอดเยี่ยม"
+ BrewPositiveAdjectiveExquisite: "เลิศรส"
+ BrewPositiveAdjectiveSuperb: "วิเศษสุด"
+ BrewPositiveAdjectiveSplendid: "โอ่อ่า"
+ BrewPositiveAdjectiveMagnificent: "สง่างาม"
+ BrewPositiveAdjectiveMarvelous: "น่าอัศจรรย์"
+ BrewPositiveAdjectiveFabulous: "เหลือเชื่อ"
+ BrewPositiveAdjectiveGlorious: "รุ่งโรจน์"
+ BrewPositiveAdjectiveStunning: "น่าทึ่ง"
+ BrewPositiveAdjectiveAstonishing: "น่าประหลาดใจ"
+ BrewPositiveAdjectiveSpectacular: "ตระการตา"
+ BrewPositiveAdjectiveOutstanding: "โดดเด่น"
+ BrewPositiveAdjectiveRemarkable: "น่าจดจำ"
+ BrewPositiveAdjectiveBrilliant: "หลักแหลม" # อาจหมายถึงรสชาติที่สดใส หรือความฉลาดในการปรุง
+ BrewPositiveAdjectiveRadiant: "เปล่งประกาย"
+ BrewPositiveAdjectiveBreathtaking: "น่าทึ่งจนลืมหายใจ"
+ BrewPositiveAdjectiveCharming: "มีเสน่ห์"
+ BrewPositiveAdjectiveEnchanting: "น่าหลงใหล"
+ BrewPositiveAdjectiveCaptivating: "จับใจ"
+ BrewPositiveAdjectiveLuminous: "ส่องสว่าง"
+ BrewPositiveAdjectiveDazzling: "แพรวพราว"
+ BrewPositiveAdjectiveMajestic: "สูงส่ง"
+ BrewPositiveAdjectiveEthereal: "ละเอียดอ่อน" # เหมือนมาจากสวรรค์
+ BrewPositiveAdjectiveHeavenly: "ดุจสวรรค์"
+ BrewPositiveAdjectiveResplendent: "อร่ามเรือง"
+ BrewPositiveAdjectiveDivine: "ศักดิ์สิทธิ์"
+ BrewPositiveAdjectiveElegant: "งดงาม"
+
+ # Negative Types
+ BrewNegativeTypeMixture: "ของผสม"
+ BrewNegativeTypeConcoction: "ยาปรุง"
+ BrewNegativeTypeBrew: "ของหมัก"
+ BrewNegativeTypeCocktail: "เครื่องดื่มผสม"
+ BrewNegativeTypeBeverage: "เครื่องดื่ม"
+ BrewNegativeTypeBlend: "ของผสมผสาน"
+
+ # Negative Adjectives
+ BrewNegativeAdjectiveNauseating: "น่าคลื่นไส้"
+ BrewNegativeAdjectiveRepulsive: "น่ารังเกียจ"
+ BrewNegativeAdjectiveFoul: "เหม็นเน่า"
+ BrewNegativeAdjectiveVile: "ชั่วร้าย"
+ BrewNegativeAdjectiveDisgusting: "น่าขยะแขยง"
+ BrewNegativeAdjectiveRevolting: "น่าสะอิดสะเอียน"
+ BrewNegativeAdjectivePutrid: "เน่าเปื่อย"
+ BrewNegativeAdjectiveLoathsome: "น่าชิงชัง"
+ BrewNegativeAdjectiveAbhorrent: "น่าชัง"
+ BrewNegativeAdjectiveSickening: "ชวนป่วย"
+ BrewNegativeAdjectiveGrotesque: "พิลึกพิลั่น"
+ BrewNegativeAdjectiveGhastly: "น่าสยดสยอง"
+ BrewNegativeAdjectiveRank: "เหม็นหืน"
+ BrewNegativeAdjectiveRancid: "เหม็นเปรี้ยว"
+ BrewNegativeAdjectivePungent: "ฉุน"
+ BrewNegativeAdjectiveOffensive: "น่าขุ่นเคือง"
+ BrewNegativeAdjectiveDistasteful: "ไร้รสชาติ"
+ BrewNegativeAdjectiveAppalling: "น่าตกใจ"
+ BrewNegativeAdjectiveUnpalatable: "ไม่อร่อย"
+ BrewNegativeAdjectiveOdious: "น่าเกลียดน่าชัง"
+ BrewNegativeAdjectiveDetestable: "น่ารังเกียจอย่างยิ่ง"
+ BrewNegativeAdjectiveObnoxious: "น่ารำคาญ"
+ BrewNegativeAdjectiveReeking: "เหม็นคลุ้ง"
+ BrewNegativeAdjectiveRepugnant: "น่ารังเกียจอย่างแรง"
+ BrewNegativeAdjectiveHorrid: "น่ากลัว"
+ BrewNegativeAdjectiveDeplorable: "น่าสังเวช"
+ BrewNegativeAdjectiveFetid: "เหม็นเน่าอย่างแรง"
+ BrewNegativeAdjectiveContaminated: "ปนเปื้อน"
+ BrewNegativeAdjectiveAbominable: "น่าชิงชังอย่างที่สุด"
+ BrewNegativeAdjectiveGross: "น่ารังเกียจ"
+
+ # Childish Types 
+ BrewTypeChildishFavorite: "ของโปรด"
+ BrewTypeChildishPreferred: "ที่ชอบ"
+ BrewTypeChildishBeloved: "อันเป็นที่รัก"
+ BrewTypeChildishCherished: "ที่ทะนุถนอม"
+ BrewTypeChildishFavored: "ที่โปรดปราน"
+ BrewTypeChildishBest-loved: "ที่รักที่สุด"
+
+ ### Modifiers
+ experimental_brew_diplomacy_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_diplomacy_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_martial_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_martial_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_stewardship_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_stewardship_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_intrigue_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_intrigue_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_learning_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_learning_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_prowess_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_prowess_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_small_health_positive_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_small_health_positive_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_small_health_negative_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_small_health_negative_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_court_guest_opinion_positive_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_court_guest_opinion_positive_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_court_guest_opinion_negative_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_court_guest_opinion_negative_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_monthly_income_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_monthly_income_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_child_opinion_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_child_opinion_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_fascination_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_fascination_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_courtly_opinion_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_courtly_opinion_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_prestige_positive_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_prestige_positive_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_prestige_negative_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_prestige_negative_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_piety_positive_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_piety_positive_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_piety_negative_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_piety_negative_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_renown_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_renown_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_stress_loss_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_stress_loss_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_attraction_opinion_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_attraction_opinion_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_fertility_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_fertility_modifier_desc: "$court_brewmaster_experimental_brew_desc$"
+ experimental_brew_general_opinion_modifier: "$court_brewmaster_experimental_brew$"
+ experimental_brew_general_opinion_modifier_desc: "$court_brewmaster_experimental_brew_desc$"

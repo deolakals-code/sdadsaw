@@ -1,0 +1,583 @@
+﻿l_english: 
+ #################
+ # Normal Events #
+ #################
+
+ # Guild Dispute, by Sean Hughes
+ stewardship_domain.1041.t:0 "ข้อพิพาทของกิลด์"
+ stewardship_domain.1041.desc:0 "ทั้งกิลด์ช่างตีเหล็กและกิลด์พ่อค้าใน [guild_county.GetName] ได้ส่งตัวแทนมาพบข้า กิลด์ทั้งสองได้มาถึงทางตันเกี่ยวกับเรื่องการค้าเหล็กดิบภายในเคาน์ตี และต้องการให้ข้าเป็นผู้ตัดสินข้อพิพาทของพวกเขา\n\nลับๆ แล้ว ตัวแทน แต่ละคนได้เสนอข้อตกลงที่ให้ผลประโยชน์งามแก่ข้ากับกิลด์ของพวกเขา เพื่อพยายามให้ข้าเข้าข้างพวกเขา"
+ stewardship_domain.1041.a:0 "พวกเขาทั้งคู่จะได้รับประโยชน์หากเพียงแค่ร่วมมือกัน"
+ stewardship_domain.1041.a.success:0 "ข้า ทำให้กิลด์ทั้งสองทำงานร่วมกันได้"
+ stewardship_domain.1041.a.success.tt:0 "บัดนี้ กิลด์ใน [guild_county.GetNameNoTier] กำลังร่วมมือกันเพื่อส่งเสริมการผลิตอาวุธ"
+ stewardship_domain.1041.a.failure:0 "ข้าไม่สามารถ ทำให้กิลด์ทั้งสองบรรลุข้อตกลงได้"
+ stewardship_domain.1041.a.failure.tt:0 "กิลด์ใน [guild_county.GetNameNoTier] ไม่สามารถตกลงกันได้ว่าจะจัดการกับการผลิตเหล็กอย่างไร"
+ stewardship_domain.1041.b:0 "มีเพียงช่างตีเหล็กเท่านั้นที่สามารถแยกแยะเหล็กดีออกจากเหล็กเลวได้..."
+ stewardship_domain.1041.b.flavor:0 "...และกิลด์ช่างตีเหล็กจะมอบอาวุธให้แก่ไพร่พลของข้าฟรี!"
+ stewardship_domain.1041.c:0 "การค้าเป็นขอบเขตของพ่อค้าอย่างชัดเจน..."
+ stewardship_domain.1041.c.flavor:0 "...และกิลด์พ่อค้าจะจ่ายส่วนแบ่งผลกำไรให้แก่ข้า!"
+ stewardship_domain.1041.d:0 "[guild_county.GetNameNoTierNoTooltip] เป็น #EMP ของข้า#!! มีเพียงข้าเท่านั้นที่ควบคุมการค้าของมัน!"
+
+ # Domineering Guild, by Sean Hughes
+ stewardship_domain.1042.t:0 "กิลด์ผู้ครอบงำ"
+ stewardship_domain.1042.desc:0 "[guild_county.Custom('Governance_1041_GuildType')] ใน [guild_county.GetName] ได้พัฒนาการควบคุมอย่างเข้มงวดในการขายเหล็กที่นั่น\n\nบัดนี้ พวกเขากำลังใช้อำนาจของตนเพื่อเรียกเก็บราคาสินค้าที่สูงเกินควร ทำให้หัวหน้ากิลด์ร่ำรวยขึ้น แต่ขับไล่การค้าออกจากเคาน์ตี"
+ stewardship_domain.1042.a:0 "เจรจากับพวกเขาเพื่อลดราคา"
+ stewardship_domain.1042.a.success:0 "ข้า ทำให้ [guild_county.Custom('Governance_1041_GuildType')] ลดราคาลงได้"
+ stewardship_domain.1042.a.failure:0 "[guild_county.Custom('Governance_1041_GuildType')] ปฏิเสธที่จะลดราคา"
+ stewardship_domain.1042.b:0 "ตราบใดที่พวกเขาจ่ายภาษีที่เหมาะสมให้แก่ข้า..."
+ stewardship_domain.1042.c:0 "หากพวกเขาไม่เล่นตามกติกา พวกเขาก็จะไม่ได้เล่นเลย!"
+ 
+ # Granary Infestation, by Sean Hughes
+ stewardship_domain.1052.t:0 "ยุ้งฉางถูกรบกวน"
+ stewardship_domain.1052.desc:0 "สัตว์รบกวนได้บุกรุกยุ้งฉางหลายแห่งใน [target_county.GetName] ทำลายเมล็ดพันธุ์ที่เก็บไว้ในนั้น เมื่อไม่มีอะไรจะปลูกสำหรับพืชผลในปีหน้า ชาวนาอิสระที่อาศัยอยู่ที่นั่นได้มาขอความช่วยเหลือจากข้า\n\nด้วยสถานการณ์ที่เลวร้ายของพวกเขา ในที่สุดชาวนาเหล่านี้จะถูกบังคับให้ยอมรับเงื่อนไขใดๆ ก็ตามที่ข้าเสนอให้"
+ stewardship_domain.1052.a:0 "ข้ามีธัญพืชมากมาย หากพวกเขาจะมาเป็นทาสติดที่ดินของข้า..."
+ stewardship_domain.1052.b:0 "สงสารพวกเขาและเปิดยุ้งฉางของข้า"
+ stewardship_domain.1052.c:0 "สั่งการให้ [ROOT.Char.Custom('DefaultPriestTitlePlural')] มอบทานให้แก่พวกเขา"
+ stewardship_domain.1052.d:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('almoner'))] ของข้าจะแจกจ่ายธัญพืชให้แก่พวกเขา"
+
+ # Corrupt Tax Collector, by Sean Hughes
+ stewardship_domain.1053.t:0 "คนเก็บภาษีทุจริต"
+ stewardship_domain.1053.desc:0 "ข้าสังเกตเห็นความไม่สอดคล้องและการละเว้นต่างๆ ในบันทึกภาษีสำหรับ [target_county.GetNameNoTier] เป็นที่ชัดเจนว่าข้อผิดพลาดเหล่านี้ไม่ใช่ความผิดพลาดธรรมดา — มีคนยักยอกเงินทุน!\n\nน่าเสียดายที่ร่องรอยของผู้กระทำผิดลึกลับนี้ผิดปกติพอที่จะ ทำให้ข้าตัดสินใจได้ยากว่าคนเก็บภาษีคนใดเป็นผู้รับผิดชอบ"
+ stewardship_domain.1053.a:0 "สืบสวนเรื่องนี้อย่างสุขุม..."
+ stewardship_domain.1053.a.success:0 "ข้าค้นพบผู้กระทำผิดและนำตัวมาลงโทษ"
+ stewardship_domain.1053.a.failure:0 "ผู้กระทำผิดยังคงหลบหนีข้าไปได้"
+ stewardship_domain.1053.c:0 "เข้าควบคุมการเก็บภาษีโดยตรงใน [target_county.GetNameNoTierNoTooltip]"
+ stewardship_domain.1053.d:0 "ประหารพวกเขาทั้งหมดและนำคนเก็บภาษีใหม่เข้ามา!"
+
+ # Culture Clash, by Sean Hughes
+ stewardship_domain.1073.t:0 "ความขัดแย้งทางวัฒนธรรม"
+ stewardship_domain.1073.desc:0 "ชาวบ้านส่วนใหญ่ที่อาศัยอยู่ใน [target_county.GetName] มีเชื้อสาย [target_ruler.GetCulture.GetName] พวกเขาภูมิใจในประเพณีของตน จึงไม่พอใจที่ต้องรับใช้ชาวต่างชาติ เช่นข้า ในขณะที่เพื่อนบ้านของข้า [target_ruler.GetTitledFirstName] มีวัฒนธรรมและประวัติศาสตร์ร่วมกับพวกเขา"
+ stewardship_domain.1073.a:0 "สอนให้พวกเขารู้ถึงความเหนือกว่าของวัฒนธรรม [me.GetCulture.GetNameNoTooltip]!"
+ stewardship_domain.1073.a.success:0 "ชาวบ้านยอมรับธรรมเนียม [me.GetCulture.GetNameNoTooltip]"
+ stewardship_domain.1073.a.failure:0 "ชาวบ้านปฏิเสธที่จะรับอารยธรรม"
+ stewardship_domain.1073.c:0 "ข้าไม่สนใจว่าพวกเขาจะรักษาประเพณีแปลกๆ ของตนไว้หรือไม่"
+ stewardship_domain.1073.c.warning:0 "ความเร็วในการส่งเสริมวัฒนธรรม: #N -75%#!"
+ stewardship_domain.1073.d:0 "ความรู้สึกของชาวนาไม่เกี่ยวข้อง — ข้าคือผู้ปกครองของพวกเขา"
+
+ # Reduce revolt risk by being diligent, by Linnéa Thimrén
+ stewardship_domain.5031.t:0 "เคาน์ตีที่ต้องการความช่วยเหลือ"
+ stewardship_domain.5031.desc:0 "นี่เป็นช่วงเวลาที่วุ่นวายสำหรับ [county.GetName] รายงานแล้วรายงานเล่ามาถึงพร้อมรายละเอียดสถานการณ์อันเลวร้ายในพื้นที่ และชาวนาได้เริ่มพึมพำเกี่ยวกับทางออก #EMP ทางเลือก#!..."
+ stewardship_domain.5031.a:0 "จัดการปัญหาด้วยตนเอง"
+ stewardship_domain.5031.b:0 "เพิ่มภาษีเพื่อเป็นการลงโทษ"
+
+ # Marshland Clearing, by Petter Vilberg
+ stewardship_domain.6001.t:0 "การระบายน้ำ"
+ stewardship_domain.6001.desc:0 "หลายเดือนก่อน [baron.GetTitledFirstName] ได้เริ่มความพยายามอย่างประณีตในการถางพื้นที่ลุ่มเพื่อการตั้งถิ่นฐานใน [barony.GetNameNoTier] คันไถหนักและคูน้ำใหม่ ทำให้พื้นดินแน่นขึ้น แต่มันเป็นงานที่ช้า\n\nบัดนี้ [baron.GetFirstName] ได้เขียนจดหมายถึง [steward.GetCouncilTitle] ของข้า เพื่อขอให้ลดหน้าที่การเกณฑ์ไพร่พลของ [baron.GetHerHis] ลง ด้วยความกระตือรือร้นที่จะทำงานให้เสร็จก่อนการเก็บเกี่ยวครั้งต่อไป [baron.GetSheHe] หวังว่าจะเกณฑ์ทหารมาใช้แรงงานแทน"
+ stewardship_domain.6001.a:0 "เอาชาวบ้านไปเท่าที่เจ้าต้องการเถิด [baron.GetFirstNameNoTooltip]!"
+ stewardship_domain.6001.b:0 "ทั่วทั้ง [county.GetNameNoTierNoTooltip] ก็ควรได้รับสิ่งนั้น เช่นกัน"
+ stewardship_domain.6001.c:0 "ไม่ได้ สมรภูมิรบต้องการคนจำนวนมากในปีนี้!"
+
+ # Forest Clearing, by Petter Vilberg
+ stewardship_domain.6002.t:0 "การถางป่า"
+ stewardship_domain.6002.desc:0 "หลายเดือนก่อน [baron.GetTitledFirstName] ได้เริ่มถางที่ดินในป่าของ [barony.GetNameNoTier] เพื่อเตรียมการตั้งถิ่นฐาน ต้นไม้ถูกถอนรากถอนโคน เส้นทางถูกตัด และพื้นดินถูกปรับระดับ\n\nบัดนี้ [baron.GetFirstName] ได้เขียนจดหมายถึง [steward.GetCouncilTitle] [steward.GetFirstName] เพื่อขอให้ลดหน้าที่การเกณฑ์ไพร่พลของ [baron.GetHerHis] ลง ด้วยความกระตือรือร้นที่จะทำงานให้เสร็จก่อนการเก็บเกี่ยวครั้งต่อไป [baron.GetSheHe] หวังว่าจะเกณฑ์ทหารมาใช้แรงงานแทน"
+
+ # Haggle with Masons, by Petter Vilberg
+ stewardship_domain.6011.t:0 "การติดต่อกับช่างหิน"
+ stewardship_domain.6011.desc:0 "กิลด์ช่างก่อหินได้ตั้งรกรากอยู่ใน [county.GetName] การมีช่างฝีมือที่อุทิศตนในการรับใช้ส่วนตัวของข้าสามารถช่วยให้ภูมิภาคเจริญรุ่งเรืองได้"
+ stewardship_domain.6011.a:0 "ข้าจะทำข้อตกลงกับหัวหน้าช่างหิน"
+ stewardship_domain_6011_great_deal:0 "ข้อตกลงที่ยอดเยี่ยม"
+ stewardship_domain.6011.offer_tt:0 "ข้าได้รับข้อเสนอ:"
+ stewardship_domain_6011_fair_deal:0 "ข้อตกลงที่เป็นธรรม"
+ stewardship_domain_6011_bad_deal:0 "ข้อตกลงที่โชคร้าย"
+ stewardship_domain.6011.b:1 "[steward.GetTitledFirstNameNoTooltip] จง ทำให้พวกเขาภักดีต่อข้า!"
+ stewardship_domain.6011.c:0 "เหตุใดข้าจึงต้องการความช่วยเหลือจากพวกเขา ในเมื่อข้ามีทาสติดที่ดิน?"
+
+ stewardship_domain.6012.desc:0 "ผู้นำของช่างหินดูเหมือนลังเลที่จะทำข้อตกลงใดๆ ในนามของกิลด์ จนกระทั่งข้าชี้ให้เห็นว่ามันจะเป็นประโยชน์ต่อเราทั้งสองฝ่ายมากเพียงใด"
+ stewardship_domain.6012.a:0 "ข้าไม่ต้องใช้การข่มขู่ด้วยความรุนแรงเลยด้วยซ้ำ!"
+
+ stewardship_domain.6013.desc:0 "หลังจากการเข้าเฝ้าเป็นเวลานาน หัวหน้าช่างหินก็ไม่ยอมอ่อนข้ออีกต่อไป\n\n"สำหรับราคาที่ต่ำกว่านี้ มันทำไม่ได้หรอกพ่ะย่ะค่ะ""
+ stewardship_domain.6013.a:0 ""ถ้า เช่นนั้น เราก็ตกลงกัน""
+ stewardship_domain.6013.b:0 "แน่นอนว่าข้าสามารถหาช่างหินที่ถูกกว่านี้ได้ที่อื่น"
+
+ stewardship_domain.6014.desc:0 ""ท่านดูหมิ่นข้าและอาชีพของข้าโดยสิ้นเชิง, [ROOT.Char.Custom('FormOfAddressForLiege')]!" หัวหน้าช่างหินไม่พอใจอย่างยิ่งกับข้อเสนอที่ข้ายินดีจะให้ "อันที่จริง ราคากำลังสูงขึ้น แน่นอนว่าเป็นเพียงค่าแรงงานเท่านั้น ข้ามั่นใจว่า [ROOT.Char.GetTitleTierName] ย่อมเข้าใจ""
+ stewardship_domain.6014.a:0 ""ข้าเข้าใจอย่างถ่องแท้""
+ stewardship_domain.6014.b:1 "[county.GetTierAsNameNoTooltip|l] รับใช้ข้า และกิลด์ก็จะทำ เช่นกัน!"
+
+ stewardship_domain.6015.desc:1 "หัวหน้าช่างหินคงจะเพลิดเพลินกับการอยู่ร่วมกับ [steward.GetCouncilTitle] [steward.GetTitledFirstName] ของข้า เพราะ [steward.GetSheHe] ได้กลับมาพร้อมกับข้อตกลงจากช่างหินที่เกินความต้องการของข้าเสียอีก"
+ stewardship_domain.6015.a:0 "ข้าแทบจะไม่สามารถเจรจาได้ดีกว่านี้ด้วยตนเอง!"
+
+ stewardship_domain.6016.desc:0 "[steward.GetTitledFirstName] ได้กลับมาหาข้าพร้อมกับข้อเสนอจากกิลด์ช่างหิน\n\n"ข้าได้ตรวจสอบบันทึกของพวกเขาแล้ว ข้า แต่ฝ่าบาท ข้าไม่เชื่อว่าจะสามารถทำข้อตกลงที่ดีกว่านี้ได้""
+ stewardship_domain.6016.a:0 "ฟังดูดีมาก"
+ stewardship_domain.6016.b:0 "ถ้า เช่นนั้น ข้าก็โง่ที่ส่งเจ้าไป [steward.GetFirstNameNoTooltip]!"
+
+ stewardship_domain.6017.desc:0 ""การเจรจาไม่ได้เป็นไป... ตามแผนทั้งหมด ข้า แต่ฝ่าบาท" [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('steward'))] ของข้าฟังดูเหมือนขอโทษ "อย่างไรก็ตาม ข้ามีข้อเสนอ แม้ว่ากิลด์ช่างหินจะปฏิเสธที่จะพูดคุยกับข้าอีกต่อไป""
+ stewardship_domain.6017.a:0 "ข้าต้องยอมรับในสิ่งที่คนรับใช้ของข้าทำสำเร็จ"
+ stewardship_domain.6017.b:0 "ถ้า เช่นนั้น ข้าจะพูดกับพวกเขาเอง! ข้าจะสั่งพวกเขา!"
+
+
+ ##################
+ # Special Events #
+ ##################
+
+ # Bad harvest, by Linnéa Thimrén and Sean Hughes
+ stewardship_domain_special.1001.t:0 "การเก็บเกี่ยวใน [development_county.GetNameNoTier|U]"
+ stewardship_domain_special.1001.desc:0 "นี่เป็นช่วงเวลาที่อัตคัด และดินแดนของ [county_holder.Custom2('MyCharacterIntroduction', ROOT.Char)] ใน [development_county.GetNameNoTier] ได้รับความเดือดร้อนมากกว่าที่อื่น\n\nรายงานแล้วรายงานเล่าถูกนำมาเสนอต่อหน้าข้าพร้อมรายละเอียดการเก็บเกี่ยวที่เลวร้าย และข้าเริ่มสงสัยว่าข้าจะได้รับส่วนแบ่งภาษีจากพวกเขาในปีนี้หรือไม่..."
+ stewardship_domain_special.1001.a:0 "สืบสวนปัญหาของเคาน์ตี"
+ stewardship_domain_special.1001.a.tt:0 "ชะตากรรมของ [development_county.GetNameNoTier] จะอยู่ในมือของข้า..."
+ stewardship_domain_special.1001.b:0 "ยึดส่วนที่ข้าพึงได้โดยใช้กำลัง!"
+ stewardship_domain_special.1001.c:0 "นี่เป็นความรับผิดชอบของ [county_holder.GetFirstNamePossessiveNoTooltip] ไม่ใช่ของข้า"
+
+ stewardship_domain_special.1002.desc:0 "เห็นได้ชัดว่า [development_county.GetName] ประสบเคราะห์กรรมส่วนหนึ่งมาจากการจัดการที่ไม่ดี ที่ดินไม่ได้รับการถางอย่างเหมาะสม เมล็ดพันธุ์ถูกหว่านผิดฤดูกาล และทุ่งหญ้าถูกปล่อยให้สัตว์เล็มหญ้ามากเกินไป"
+ stewardship_domain_special.1002.desc.repentant:1 "\n\n[county_holder.GetTitledFirstName] ผู้สำนึกผิดยืนอยู่ต่อหน้าข้า บิดมือของ [county_holder.GetHerHis] ไปมา "โปรดเถิด [ROOT.Char.Custom2('RelationToMeAddress', county_holder)] ให้โอกาสข้าอีกครั้ง! ข้าแก้ไขได้ ข้าสาบาน!""
+ stewardship_domain_special.1002.desc.uncaring:0 "\n\n[county_holder.GetTitledFirstName] ที่ดูเบื่อหน่ายยืนอยู่ต่อหน้าข้า ดูเหมือนไม่กังวล "ชาวนาจะจัดการเรื่องนี้เองในที่สุด พวกเขาทำเสมอ นั่นคืองานของพวกเขาไม่ใช่หรือ?""
+ stewardship_domain_special.1002.desc.blaming:0 "\n\n[county_holder.GetTitledFirstName] ที่หงุดหงิดยืนอยู่ต่อหน้าข้า เครียดอย่างเห็นได้ชัด "ชาวนาพวกนั้นทำเรื่องนี้เละเทะขนาดนี้ได้อย่างไร? พวกเขาเป็นคนขุดดิน! นั่นคือทั้งหมดที่พวกเขาทำ!""
+
+ stewardship_domain_special.1002.a:0 "ข้าถือว่าเจ้าต้องรับผิดชอบเรื่องนี้ [county_holder.GetFirstNameNoTooltip]"
+ stewardship_domain_special.1002.a.success:0 "[county_holder.GetTitledFirstName] และข้าต่างเรียนรู้จากความผิดพลาดของ [county_holder.GetHerHis]"
+ stewardship_domain_special.1002.a.failure:0 "[county_holder.GetTitledFirstName] ไม่สามารถแก้ไขปัญหาใน [development_county.GetNameNoTier] ได้"
+ stewardship_domain_special.1002.b:0 "ข้าจะแก้ไขปัญหานี้ด้วยตนเอง ไม่ว่าจะต้องทำอะไรก็ตาม!"
+ stewardship_domain_special.1002.b.success:0 "ข้าแก้ไขปัญหาใน [development_county.GetNameNoTier] ได้สำเร็จ"
+ stewardship_domain_special.1002.b.failure:0 "ข้าล้มเหลวในการแก้ไขปัญหาใน [development_county.GetNameNoTier]"
+ stewardship_domain_special.1002.c:0 "เจ้าได้สละสิทธิ์ในการอ้างสิทธิ์เหนือ [development_county.GetNameNoTierNoTooltip] แล้ว!"
+ stewardship_domain_special.1002.c.tt:0 "ข้ายึด [development_county.GetName] จาก [county_holder.GetTitledFirstName]"
+ 
+ stewardship_domain_special.1003.desc:1 ""ขอบพระทัย/ขอบคุณที่เชื่อในตัวข้า [ROOT.Char.Custom2('RelationToMeAddress', county_holder)]!"\n\n[county_holder.Custom2('MyCharacterIntroduction', ROOT.Char)|U] สามารถแก้ไขวิกฤตที่ [county_holder.GetSheHe] พบว่า [county_holder.GetHerselfHimself] ตกอยู่ได้ บางครั้งแนวทางปฏิบัติที่ดีที่สุดคือการไว้วางใจในทักษะของผู้อื่น แล้วเรียนรู้จากพวกเขา!"
+ stewardship_domain_special.1003.a:0 "บอกข้าทั้งหมดเกี่ยวกับวิธีที่เจ้าทำ!"
+
+ stewardship_domain_special.1004.desc:0 "รายงานจาก [development_county.GetName] มี แต่จะเลวร้ายลงเรื่อยๆ และในไม่ช้าก็เห็นได้ชัดว่า [county_holder.GetTitledFirstName] มี แต่จะ ทำให้สถานการณ์แย่ลง"
+ stewardship_domain_special.1004.a:0 "[county_holder.GetTitleTierName] แบบไหนกันที่ [county_holder.GetSheHe] เป็น?!"
+
+ stewardship_domain_special.1005.desc:0 "ขณะที่ข้ามองดู [development_county.GetName] เจริญรุ่งเรืองภายใต้การนำของข้า ข้าอดไม่ได้ที่จะรู้สึกภาคภูมิใจในสิ่งที่ข้าทำสำเร็จ การเข้าไปยุ่งเกี่ยวกับการจัดการเล็กๆ น้อยๆ เป็นครั้งคราวเป็นวิธีที่ดีในการเรียนรู้!"
+ stewardship_domain_special.1005.a:0 "ความรู้นี้จะเป็นประโยชน์อย่างแท้จริง!"
+
+ stewardship_domain_special.1006.desc:0 "ไม่ว่าข้าจะพยายามทำอะไร [development_county.GetName] ก็ไม่สามารถหาทางบรรเทาได้ มันไม่ได้แย่เหมือนเมื่อก่อน แต่ข้าจนปัญญาว่าจะแก้ปัญหางานที่เหลืออยู่ต่อหน้าข้าได้อย่างไร"
+ stewardship_domain_special.1006.a:0 "เอาเถอะ ข้าไม่สามารถประสบความสำเร็จได้เสมอไป..."
+
+ # Charter fair, by Linnéa Thimrén
+ stewardship_domain_special.1101.t:0 "งานออกร้านใน [county.GetNameNoTierNoTooltip|U]"
+ stewardship_domain_special.1101.desc:0 "ใน [county.GetName] มีทุ่งนาแห่งหนึ่งที่เหมาะอย่างยิ่งสำหรับงานออกร้านประจำปีขนาดใหญ่\n\nขุนนางท้องถิ่นสองคน [local_baron.GetTitledFirstName] และ [second_local_baron.GetTitledFirstName] ยื่นคำร้องต่อข้าเพื่อขอเป็นผู้รับกฎบัตรที่จะอนุญาตให้พวกเขาจัดงานออกร้านในนามของข้า"
+ stewardship_domain_special.1101.a:0 "กฎบัตรจะมอบให้กับ [second_barony.Custom('BaronyTownType')] ใน [second_barony.GetNameNoTierNoTooltip]"
+ stewardship_domain_special.1101.all_goes_well:0 "หากทุกอย่างเป็นไปด้วยดี:"
+ stewardship_domain_special.1101.b:0 "[local_baron.GetFaith.HouseOfWorship] ใน [barony.GetNameNoTierNoTooltip] จะได้รับกฎบัตร"
+ stewardship_domain_special.1101.c:0 "ใช้ทุ่งนาสำหรับเลี้ยงสัตว์แทน"
+
+ stewardship_domain_special.1102.desc:0 "[second_local_baron.GetTitledFirstName] นำเสนอสินค้าจากทั่วโลกแก่ข้า ทั้งผืนผ้าจากดินแดนอันไกลโพ้นของเส้นทางสายไหม พืชผลที่ปลูกในท้องถิ่น สิ่งประดิษฐ์อันน่าทึ่งจากแดนตะวันออก...\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U] พวกเราควรส่งเสริมสินค้าใดสำหรับงานออกร้านครั้งใหม่นี้?""
+ stewardship_domain_special.1102.a:0 "เราจะนำเข้าผ้าไหมให้มากที่สุดเท่าที่จะทำได้!"
+ stewardship_domain_special.1102.a.tt:0 "ผู้คนมีแนวโน้มที่จะชื่นชมสิ่งนี้มากขึ้นหากพื้นที่นั้นมั่นคงและเจริญรุ่งเรือง"
+ stewardship_domain_special.1102.b:0 "เราจะมุ่งเน้นไปที่พืชผลที่ปลูกในท้องถิ่น!"
+ stewardship_domain_special.1102.b.tt:0 "ผู้คนมีแนวโน้มที่จะชื่นชมสิ่งนี้มากขึ้นหากพื้นที่นั้นอยู่ในความวุ่นวาย"
+ stewardship_domain_special.1102.c:0 "สิ่งมหัศจรรย์ทางเทคโนโลยีจะอยู่ด้านหน้าและตรงกลาง!"
+ stewardship_domain_special.1102.c.tt:0 "ผู้คนมีแนวโน้มที่จะชื่นชมสิ่งนี้มากขึ้นหากระดับการพัฒนาในพื้นที่นั้นต่ำ"
+
+ stewardship_domain_special.1103.desc_silk:0 "ผ้าไหมชั้นดีเพื่อดึงดูดคนร่ำรวยใน [county.GetNameNoTier] มาที่ตลาด โดยมีชาวนาตามมาไม่ไกล — เป็นสัปดาห์แห่งการเฉลิมฉลองและการค้า!"
+ stewardship_domain_special.1103.desc_crops:0 "อาหารมากมายเพื่อดึงดูดชาวนามาที่ตลาดและสินค้าชั้นหนึ่งในทุกแผง ทำให้พวกเขากลับมาอีก — เป็นสัปดาห์แห่งการเฉลิมฉลองและการค้า!"
+ stewardship_domain_special.1103.desc_technology:0 "สิ่งมหัศจรรย์ทางเทคโนโลยีที่ ทำให้ผู้คนหลงใหล และสินค้าชั้นหนึ่งในทุกแผง — เป็นสัปดาห์แห่งการเฉลิมฉลองและการค้า!"
+ stewardship_domain_special.1103.a:0 "เจ้าได้รับอนุญาตจากข้าให้ทำ เช่นนี้เป็นประจำทุกปีนับจากนี้ไป"
+
+ stewardship_domain_special.1104.desc_silk:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U] พวกเราควรจะทำ เช่นไรกับผ้าไหมทั้งหมดนี้?"\n\nดูเหมือนว่า ความต้องการผ้าไหมในพื้นที่จะไม่สูงนัก และ [second_local_baron.GetTitledFirstName] ก็เหลือผ้าผืนงามราคาแพงนี้ที่ยังขายไม่ออกอยู่เป็นอันมาก"
+ stewardship_domain_special.1104.desc_crops:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U] พืชผลกำลังเหม็นอับและขึ้นรา พวกเราควรจะทำ เช่นไรกับของทั้งหมดนี้?"\n\nดูเหมือนว่า ความต้องการพืชผลท้องถิ่นในพื้นที่จะไม่สูงนัก และ [second_local_baron.GetTitledFirstName] ก็เหลือของที่ยังขายไม่ออกอยู่เป็นอันมาก"
+ stewardship_domain_special.1104.desc_technology:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U] พวกเราควรจะทำ เช่นไรกับของกระจุกกระจิกเหล่านี้?"\n\nดูเหมือนว่า ความต้องการสิ่งประดิษฐ์อันน่าทึ่งในพื้นที่จะไม่สูงนัก และ [second_local_baron.GetTitledFirstName] ก็เหลือของที่ยังขายไม่ออกอยู่เป็นอันมาก"
+ stewardship_domain_special.1104.a:0 "เป็นการเริ่มต้นที่วุ่นวาย แต่ข้ามั่นใจว่าคนในท้องถิ่นสามารถจัดการได้แล้วตอนนี้!"
+
+ stewardship_domain_special.1105.desc:0 "[local_baron.GetTitledFirstName] นำเสนอสินค้าจากทั่วโลกแก่ข้า ทั้งวัตถุทางศาสนาจากนครศักดิ์สิทธิ์ อาหารที่ปลูกโดยเหล่า [local_baron.GetFaith.DevoteeMalePlural] และ [local_baron.GetFaith.DevoteeFemalePlural] ในพื้นที่ สิ่งน่าทึ่งจากศาสนาต่างแดน...\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U] พวกเราควรส่งเสริมสินค้าใดสำหรับงานออกร้านครั้งใหม่นี้?""
+ stewardship_domain_special.1105.a:0 "เราจะให้เกียรตินักบุญท้องถิ่นโดยมุ่งเน้นไปที่วัตถุทางศาสนา!"
+ stewardship_domain_special.1105.a.tt:1 "ผู้คนมีแนวโน้มที่จะชื่นชมสิ่งนี้มากขึ้นหากความศรัทธาทางศาสนาของพวกเขาแข็งแกร่ง"
+ stewardship_domain_special.1105.b:0 "นำอาหารเข้ามาให้มากที่สุด!"
+ stewardship_domain_special.1105.b.tt:0 "ผู้คนมีแนวโน้มที่จะชื่นชมสิ่งนี้มากขึ้นหากพื้นที่นั้นต้องการการสนับสนุน"
+ stewardship_domain_special.1105.c:0 "หากเราจัดแสดงศาสนาอื่น พวกมันจะสูญเสียความแปลกใหม่ไป!"
+ stewardship_domain_special.1105.c.tt:1 "ผู้คนมีแนวโน้มที่จะชื่นชมสิ่งนี้มากขึ้นหากความศรัทธาทางศาสนาของพวกเขาอ่อนแอ"
+
+ stewardship_domain_special.1106.desc_religious_objects:0 "วัตถุทางศาสนาจากเมืองศักดิ์สิทธิ์เพื่อดึงดูดและจับใจผู้คน และสินค้าชั้นหนึ่งในทุกแผง — เป็นสัปดาห์แห่งการเฉลิมฉลองและการค้าอันศักดิ์สิทธิ์!"
+ stewardship_domain_special.1106.desc_religious_food:0 "อาหารที่จัดเตรียมโดย [local_baron.GetFaith.DevoteeMalePlural] และ [local_baron.GetFaith.DevoteeFemalePlural] ของพื้นที่ขายได้ดีเกือบกว่าสิ่งอื่นใดในงานออกร้าน — เป็นสัปดาห์แห่งการเฉลิมฉลองและการค้าอันศักดิ์สิทธิ์!"
+ stewardship_domain_special.1106.desc_religious_other:0 "เมื่อเผชิญหน้ากับศาสนาต่างแดน ผู้คนใน [county.GetNameNoTier] สวดภาวนาและชื่นชมชุมชนของตนมากกว่าปกติ — เป็นสัปดาห์แห่งการเฉลิมฉลองและการค้าอันศักดิ์สิทธิ์!"
+ stewardship_domain_special.1106.a:0 "เจ้าได้รับอนุญาตจากข้าให้ทำ เช่นนี้เป็นประจำทุกปีนับจากนี้ไป"
+
+ stewardship_domain_special.1107.desc_religious_objects:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U] พวกเราควรจะทำ เช่นไรกับของกระจุกกระจิกศักดิ์สิทธิ์เหล่านี้?"\n\nดูเหมือนว่า วัตถุศักดิ์สิทธิ์เหล่านี้ไม่ได้ดึงดูดผู้ศรัทธาได้มากเท่าที่ข้าหวังไว้ และ [local_baron.GetTitledFirstName] ก็เหลือของที่ยังขายไม่ออกอยู่เป็นอันมาก"
+ stewardship_domain_special.1107.desc_religious_food:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U] พวกเราควรจะทำ เช่นไรกับอาหารทั้งหมดนี้?"\n\nดูเหมือนว่า มื้ออาหารที่เตรียมโดยเหล่า [local_baron.GetFaith.DevoteeMalePlural] และ [local_baron.GetFaith.DevoteeFemalePlural] แห่งพื้นที่จะน่าจะได้รับประโยชน์จากการดลบันดาลจากสวรรค์บ้าง — แทบไม่มีอะไรขายออกเลย"
+ stewardship_domain_special.1107.desc_religious_other:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U] พวกเราควรจะทำ เช่นไรกับของกระจุกกระจิกอันเป็นที่ดูหมิ่นศาสนาเหล่านี้?"\n\nสิ่งของจากต่างแดนเหล่านี้มี แต่จะ ทำให้ผู้คนรังเกียจ — ทำให้พวกเขาไม่อยากมาตลาด [local_baron.GetTitledFirstName] ก็ได้รับคำสั่งให้เผามันทิ้งในไม่ช้า แต่ความเสียหายก็ได้เกิดขึ้นแล้ว"
+ stewardship_domain_special.1107.a:0 "เป็นการเริ่มต้นที่วุ่นวาย แต่ข้ามั่นใจว่าคนในท้องถิ่นสามารถจัดการได้แล้วตอนนี้!"
+
+
+ # Building a Road chain, by Petter Vilberg
+ stewardship_domain_special.1301.increase_road_progress_1:0 "#V ความคืบหน้าของถนน#! เพิ่มขึ้น #P 1#!"
+ stewardship_domain_special.1301.increase_road_progress_2:0 "#V ความคืบหน้าของถนน#! เพิ่มขึ้น #P 2#!"
+ stewardship_domain_special.1301.increase_road_quality_1:0 "#V คุณภาพถนน#! เพิ่มขึ้น #P 1#!"
+ stewardship_domain_special.1301.increase_road_quality_2:0 "#V คุณภาพถนน#! เพิ่มขึ้น #P 2#!"
+ stewardship_domain_special.1301.decrease_road_quality_1:0 "#V คุณภาพถนน#! ลดลง #N 1#!"
+
+ stewardship_domain_special.1301.t:0 "ถนน"
+ stewardship_domain_special.1301.steward_opening:0 "[ROOT.Char.GetCouncillorPosition( 'councillor_steward' ).GetPositionName] ของข้า [steward.GetTitledFirstName] แจ้งให้ข้าทราบ"
+ stewardship_domain_special.1301.no_steward_opening:0 "นายกเทศมนตรีของข้าแจ้งให้ข้าทราบ"
+ stewardship_domain_special.1301.desc:0 "ว่ามีความจำเป็นเร่งด่วนสำหรับถนนสายใหม่เพื่อเดินทางข้าม [project_county.GetName] ถนนเก่าหลายสายทรุดโทรมและอันตราย!\n\nชาวบ้านชื่อ [peasant_leader.GetTitledFirstName] ได้รับการเสนอชื่อให้เป็นผู้นำโดยธรรมชาติของความพยายามในการก่อสร้าง"
+ stewardship_domain_special.1301.a:0 "จัดการให้เสร็จสิ้น"
+ stewardship_domain_special.1301.a.peasant_leader_tt:0 "โครงการเริ่มต้นขึ้น โดยมี [peasant_leader.GetTitledFirstName] เป็นผู้ดูแล"
+ stewardship_domain_special.1301.b:0 "เสนาบดีคลังของข้าจะจัดการเรื่องนี้"
+ stewardship_domain_special.1301.a.steward_tt:0 "โครงการเริ่มต้นขึ้น โดยมี [steward.GetTitledFirstName] เป็นผู้ดูแล"
+ stewardship_domain_special.1301.c:0 "ถนนเหล่านั้นดีพอสำหรับบรรพบุรุษของเราแล้ว!"
+ stewardship_domain_special.1301.c.tt:0 "มันก็ดีพอสำหรับเรา เช่นกัน!"
+
+
+ stewardship_domain_special.1311.t:0 "ถนน: ที่ดินศักดินาอันห่างไกล"
+ stewardship_domain_special.1311.desc:0 "งานสร้างถนนใน [project_county.GetNameNoTier] กำลังดำเนินไป แต่ผืนดินที่กำลังเตรียมการอยู่ในขณะนี้ทอดยาวไปไกลเกินเนินเขา ห่างไกลจากหมู่บ้านทั้งสองฝั่ง\n\nทั้งสองหมู่บ้านลังเลที่จะจัดหาคนงาน และมีความไม่แน่นอนว่าใครเป็นเจ้าของที่ดินศักดินาที่อยู่เลยเนินเขาไป!"
+ stewardship_domain_special.1311.a:0 "ถ้า เช่นนั้น เราก็เอาคนงานจากทั้งสองหมู่บ้าน"
+ stewardship_domain_special.1311.b:0 "ข้าจะจ่ายค่าแรงงานที่นั่นด้วยตนเอง"
+ stewardship_domain_special.1311.c:0 "หากมีความไม่แน่นอน ที่ดินศักดินานั้นจะกลับคืนสู่ข้า!"
+
+ stewardship_domain_special.1312.t:0 "ถนน: การใช้งานปกติ"
+ stewardship_domain_special.1312.desc:0 "แม้จะยังไม่เสร็จสมบูรณ์ พ่อค้าก็เริ่มเดินทางไปตามถนนสายใหม่ใน [project_county.GetNameNoTier] แล้ว\n\n[project_leader.GetTitledFirstName] แนะนำว่าผู้ที่ใช้ถนนควรมีส่วนร่วมในการก่อสร้าง"
+ stewardship_domain_special.1312.a:0 "หรือพวกเขาอาจมีส่วนร่วมในคลังของข้า"
+ stewardship_domain_special.1312.b:0 "ช่างเป็นความคิดที่แปลกใหม่... ข้าชอบ!"
+
+ stewardship_domain_special.1313.t:0 "ถนน: โจร"
+ stewardship_domain_special.1313.desc:0 "ดูเหมือนว่าแม้ แต่ทางหลวงที่ยังสร้างไม่เสร็จก็ยังมีโจรปล้นกลางทาง [project_leader.GetTitledFirstName] มีปัญหากับเสบียงที่ไม่เคยมาถึง และคนงานที่กลัวที่จะออกจากหมู่บ้านของตน ด้วยอัตรานี้ ถนนใน [project_county.GetNameNoTier] จะไม่มีวันเสร็จ"
+ stewardship_domain_special.1313.a:0 "วางยามตามถนน"
+ stewardship_domain_special.1313.b:0 "ข้าไม่สน #EMP สร้าง. ถนน. ของข้า. ให้เสร็จ#!"
+
+ stewardship_domain_special.1314.t:0 "ถนน: รองเท้าบูทเดินทัพ"
+ stewardship_domain_special.1314.war:0 "ด้วยสงครามที่ดำเนินอยู่ ไพร่พลกำลังใช้ส่วนที่เสร็จสมบูรณ์ของถนนใน [project_county.GetNameNoTier] เพื่อเร่งการเดินทัพ"
+ stewardship_domain_special.1314.end:0 "\n\n[project_leader.GetTitledFirstName] อ้างว่าคนงานจะต้องย้อนกลับไปเสริมกำลังก่อนที่มันจะเสร็จ เนื่องจากมันสึกหรอและเสียหายอยู่แล้ว"
+ stewardship_domain_special.1314.a:0 "มันไม่คุ้มค่ากับความพยายาม"
+ stewardship_domain_special.1314.b:0 "โชคร้าย แต่จำเป็น"
+
+ stewardship_domain_special.1315.t:0 "ถนน: รองเท้าบูทเดินทัพ"
+ stewardship_domain_special.1315.end:0 "\n\nโชคดีที่การใช้งานหนักเป็นสิ่งที่จำเป็นอย่างยิ่งในการกระทืบพื้นดินให้เข้ารูป! ด้วยโชคบางประการ ไพร่พลส่วนใหญ่อาจเดินทัพกลับมา เช่นกัน"
+ stewardship_domain_special.1315.a:0 "ส่งพวกเขาไปแนวหน้า!"
+ stewardship_domain_special.1315.b:0 "พวกเขาจะเดินทัพไปตามทางที่ [project_leader.GetTitledFirstNameNoTooltip] บัญชา"
+
+ stewardship_domain_special.1316.t:0 "ถนน: การปรับปรุงตามคำสั่ง"
+ stewardship_domain_special.1316.desc:0 "เมื่อพบว่าส่วนที่เสร็จสมบูรณ์แล้วของถนนสายใหม่มีประโยชน์อย่างมหาศาล กิลด์พ่อค้าใน [project_county.GetNameNoTier] ได้บริจาคเงินเพื่อขยายถนนต่อไป"
+ stewardship_domain_special.1316.a:0 "สิ่งนี้จะช่วยเรื่องถนน"
+ stewardship_domain_special.1316.b:0 "สิ่งนี้จะช่วยกระเป๋าของข้า"
+
+ stewardship_domain_special.1317.t:0 "ถนน: โรงเตี๊ยม"
+ stewardship_domain_special.1317.desc:0 "การก่อสร้างถนนใน [project_county.GetNameNoTier] ประสบความล่าช้า [project_leader.GetTitledFirstName] รายงานว่าคนงานถูกต้อนโดยผู้ที่อยากจะเป็นเจ้าของโรงเตี๊ยม เพื่อปลอบประโลมจิตใจของพวกเขา และของนักเดินทางคนอื่นๆ พวกเขากำลังสร้างโรงเตี๊ยมริมถนน"
+ stewardship_domain_special.1317.a:0 "แน่นอนว่าเป็นของราชสำนัก"
+ stewardship_domain_special.1317.b:0 "ให้พวกเขากลับไปสร้างถนน!"
+
+ stewardship_domain_special.1318.t:0 "ถนน: ความคืบหน้า"
+ stewardship_domain_special.1318.desc:0 "จากคำกล่าวของ [project_leader.GetTitledFirstName] งานสร้างถนนใน [project_county.GetNameNoTier] กำลังเป็นไปด้วยดี\n\n"พื้นดินนั้นแน่นหนากว่า และทอดยาวราบเรียบกว่าที่เราหวังไว้, [ROOT.Char.Custom('FormOfAddressForLiege')]""
+ stewardship_domain_special.1318.a:0 "ขยายถนนต่อไปอีก!"
+ stewardship_domain_special.1318.b:0 "ทุกอย่างเป็นไปตามที่ข้าต้องการ"
+ stewardship_domain_special.1318.c:0 "เป็นโอกาสอันดีที่จะลดต้นทุน!"
+
+ stewardship_domain_special.1319.t:0 "ถนน: จรรยาบรรณในการทำงาน"
+ stewardship_domain_special.1319.desc:0 "เสนาบดีคลังของข้าดูเหมือนจะตกใจ "ข้าได้ตรวจสอบการก่อสร้างถนนใน [project_county.GetNameNoTier] และคนงานชาวนามีประสิทธิภาพมากกว่าที่ข้าคาดไว้มาก... แม้ แต่ข้าก็อาจเรียนรู้บางอย่างจากพวกเขาได้""
+ stewardship_domain_special.1319.a:0 "เราสามารถใช้ความรู้นี้ที่อื่นได้หรือไม่?"
+ stewardship_domain_special.1319.b:0 "เรียนรู้จากชาวนา? ความคิดนั้นน่ารังเกียจยิ่งนัก"
+
+ stewardship_domain_special.1320.t:0 "ถนน: ความเชี่ยวชาญของ [peasant_leader.GetTitledFirstNamePossessiveNoTooltip]"
+ stewardship_domain_special.1320.desc:0 "ไม่ใช่เรื่องบ่อยนักที่ชาวบ้านจะพูดกับข้าโดยตรง แต่ [peasant_leader.GetTitledFirstName] รายงานเกี่ยวกับความพยายามในการก่อสร้างใน [project_county.GetNameNoTier]\n\n"แผนสำหรับถนนคือการผ่านทุ่งนานี้ นายท่าน/นายหญิงของข้า แต่ข้ารู้จักชนิดของดินที่เรากำลังทำงานด้วย บางทีความเป็นชาวนาของข้าอาจขอให้— ให้เราเปลี่ยนเส้นทางผ่านป่าใกล้เคียงได้หรือไม่?""
+ stewardship_domain_special.1320.a:0 "ข้าเชื่อในการตัดสินใจของเจ้า"
+ stewardship_domain_special.1320.b:0 "ไกลเกินไปและแพงเกินไป เราทำตามที่ข้าได้วางแผนไว้"
+
+ stewardship_domain_special.1321.t:0 "ถนน: การขาดความเชี่ยวชาญ"
+ stewardship_domain_special.1321.desc:0 ""ข้าบอกพวกเขาให้ตรงไปที่ทุ่งนา แต่ [peasant_leader.GetTitledFirstName] ยืนกรานที่จะเปลี่ยนเส้นทางผ่านป่าใกล้เคียง!" [steward.GetTitledFirstName] ไม่พอใจอย่างเห็นได้ชัดกับงานสร้างถนนใน [project_county.GetNameNoTier]\n\nอย่างไรก็ตาม [peasant_leader.GetTitledFirstName] ยังคงยืนกรานในแนวทางของ [peasant_leader.GetHerHis] "ดินในทุ่งนาไม่สม่ำเสมอและไม่หนาแน่นพอ ข้า แต่ฝ่าบาท! ป่าเป็นเส้นทางที่ดีกว่ามาก""
+ stewardship_domain_special.1321.a:0 "ฟังผู้ที่เหนือกว่าเจ้าสิ ชาวนา!"
+ stewardship_domain_special.1321.b:0 "[peasant_leader.GetTitledFirstNameNoTooltip] ดูเหมือนจะรู้ดีที่สุด..."
+
+ stewardship_domain_special.1391.t:0 "ถนน: การขาดผู้นำ"
+ stewardship_domain_special.1391.desc:0 "เมื่อ [project_leader.GetTitledFirstName] จากไป งานสร้างถนนใน [project_county.GetNameNoTier] ก็ขาดทิศทางที่ชัดเจน หากจะให้เสร็จสิ้นได้ จะต้องมีคนอื่นมารับผิดชอบ"
+ stewardship_domain_special.1391.a:0 "[peasant_leader.GetTitledFirstNameNoTooltip] ดูเหมือนจะเป็นตัวแทนที่มีความสามารถ"
+ stewardship_domain_special.1391.b:0 "ถึงเวลาที่ [steward.GetTitledFirstNameNoTooltip] จะต้องเข้ารับช่วงต่อแล้ว"
+
+ stewardship_domain_special.1392.t:0 "ถนน: การตัดขาดทุน"
+ stewardship_domain_special.1392.desc:0 "ด้วยการสูญเสีย [project_county.GetName] การสร้างถนนให้เสร็จที่นั่นคงไม่เป็นประโยชน์ต่อข้ามากนัก อย่างน้อยภาษีที่เก็บได้สำหรับโครงการก็อยู่ในคลังของข้า แทนที่จะสูญเปล่าไปกับถนน"
+ stewardship_domain_special.1392.a:0 "ไม่ใช่ทั้งหมดที่สูญเสียไป"
+
+ stewardship_domain_special.1396.t:0 "สุดปลายถนน"
+ stewardship_domain_special.1396.desc:0 "ในที่สุด ถนนใน [project_county.GetNameNoTier] ก็เสร็จสมบูรณ์\n\n"มัน...ใช้งานได้ดีมาก" [project_leader.GetTitledFirstName] บอกข้า"
+ stewardship_domain_special.1396.a:0 "ถนนไม่จำเป็นต้องหรูหรา มันดีพอแล้ว"
+
+ stewardship_domain_special.1397.desc:0 "ในที่สุด เครือข่ายถนนผ่าน [project_county.GetNameNoTier] ก็เสร็จสมบูรณ์\n\n"สิ่งนี้จะนำพาผู้คนไปยังที่ที่พวกเขาต้องการไปได้นานหลายทศวรรษ" [project_leader.GetTitledFirstName] บอกข้า"
+ stewardship_domain_special.1397.a:0 "ข้ารอไม่ไหวที่จะเก็บเกี่ยวผลประโยชน์!"
+ stewardship_domain_special.1397.b:0 "[peasant_leader.GetTitledFirstNameNoTooltip]! ข้ามีงานให้เจ้าทำอีก!"
+
+ stewardship_domain_special.1398.desc:0 "ในที่สุด เครือข่ายถนนผ่าน [project_county.GetNameNoTier] ก็เสร็จสมบูรณ์\n\n"ถนนเหล่านี้จะเป็นเส้นเลือดที่สูบฉีดของเคาน์ตีไปอีกหลายชั่วอายุคน!" [project_leader.GetTitledFirstName] ประกาศด้วยความภาคภูมิใจไม่น้อย"
+ stewardship_domain_special.1398.a:0 "ข้ารอไม่ไหวที่จะเก็บเกี่ยวผลประโยชน์!"
+ stewardship_domain_special.1398.b:0 "[peasant_leader.GetTitledFirstNameNoTooltip]! ข้ามีงานให้เจ้าทำอีก!"
+
+ stewardship_domain_special.1399.desc:0 "ในที่สุด เครือข่ายถนนผ่าน [project_county.GetNameNoTier] ก็เสร็จสมบูรณ์\n\n"นี่อาจเป็นถนนที่ดีที่สุดในอาณาจักรทั้งหมด ข้า แต่ฝ่าบาท!" [project_leader.GetTitledFirstName] ประกาศด้วยความภาคภูมิใจ"
+ stewardship_domain_special.1399.a:0 "ข้ารอไม่ไหวที่จะเก็บเกี่ยวผลประโยชน์!"
+ stewardship_domain_special.1399.b:0 "[peasant_leader.GetTitledFirstNameNoTooltip]! ข้ามีงานให้เจ้าทำอีก!"
+
+ # A Missing Village, by Petter Vilberg
+ stewardship_domain_special.1401.t:0 "หมู่บ้านที่หายไป"
+ stewardship_domain_special.1401.desc:0 "ภายใต้แสงเทียนเพียงเล่มเดียว นิ้วของข้าหยุดอยู่ที่รายการหนึ่งในสมุดบัญชี มีบางอย่างไม่ถูกต้อง... ในไม่ช้า ข้าก็ค้นหาบันทึกทุกอย่างจาก [county.GetName] ที่ข้าหาได้\n\nในที่สุด มันก็ชัดเจนราวกับกลางวัน ดูเหมือนว่าหมู่บ้านทั้งหมู่บ้านจะหายไปจากบันทึกการเก็บภาษี!"
+ stewardship_domain_special.1401.a:0 "คนเก็บภาษีใน [county.GetNameNoTierNoTooltip] ต้องสืบสวน!"
+ stewardship_domain_special.1401.a.tt:0 "คนเก็บภาษีจะเป็นผู้นำการสืบสวน"
+ stewardship_domain_special.1401.b:0 "ข้าจะเดินทางไปยังหมู่บ้านด้วยตนเอง"
+ stewardship_domain_special.1401.b.tt:0 "ข้าเป็นผู้นำการสืบสวนด้วยตนเอง"
+ stewardship_domain_special.1401.c:0 "หมู่บ้านหายไปตลอดเวลา ไม่ต้องใส่ใจ"
+
+ stewardship_domain_special.1411.desc:0 "[collector.GetTitledFirstName] ผู้เก็บภาษีใน [county.GetName] พยายามอย่างยิ่งที่จะย้ำเตือนข้าว่ามันสำคัญเพียงใดที่ข้าจะมาดูหมู่บ้าน "ที่หายไป" นี้ด้วยตนเอง\n\nหลังจากเดินทางอยู่หลายวัน ในที่สุดข้าก็ขี่ม้าเข้ามาในหมู่บ้าน มันก็ดูเหมือนถิ่นฐานเล็กๆ ที่มี แต่ดินเหมือนที่อื่นๆ อย่างไรก็ตาม [collector.GetTitledFirstName] ก็ยังคงยืนกราน "[ROOT.Char.Custom('FormOfAddressForLiege')|U] โปรดให้ข้าได้นำท่านชมสถานที่นี้เถิด ข้าขอร้องท่านล่ะ ที่นี่คือบ้านของข้า""
+ stewardship_domain_special.1411.a:0 "เอาล่ะ พาข้าชมรอบๆ"
+ stewardship_domain_special.1411.a.tt:0 "[collector.GetTitledFirstName] แสดงหมู่บ้านของ [collector.GetHerHis] ให้ข้าดู"
+ stewardship_domain_special.1411.b:0 "เจ้าเสียเวลาของข้าไปมากเกินไปแล้ว!"
+ stewardship_domain_special.1411.b.tt:0 "เหตุใดข้าจึงมาที่นี่!?"
+
+ stewardship_domain_special.1412.desc:0 "เมื่อเท้าของ [collector.GetTitledFirstNamePossessive] ห้อยอยู่เหนือลานหมู่บ้าน ข้าก็เตรียมตัวจากไปพร้อมกับองครักษ์ เราเพิ่งออกจากอาคารหลังแรกเมื่อเด็กหญิงคนหนึ่งวิ่งเข้ามาข้างม้าของข้า\n\n"โอ้ [ROOT.Char.GetLadyLord] ที่รัก จะเกิดอะไรขึ้นกับพวกเรา? ไม่มีใครในพวกเราสามารถจ่ายค่าปรับที่ท่านขอให้เราจ่ายได้""
+ stewardship_domain_special.1412.a:0 "คนเก็บภาษีปีหน้าจะชำระหนี้ของเจ้า"
+ stewardship_domain_special.1412.b:0 "ข้ากำลังเก็บหนี้ของเจ้าเต็มจำนวน เดี๋ยวนี้"
+ stewardship_domain_special.1412.b.flavor:0 "ยึดทุกอย่างที่มีค่า แล้วเผาส่วนที่เหลือ!"
+
+ stewardship_domain_special.1413.desc:0 "ขณะที่ [collector.GetTitledFirstName] พาข้าชมรอบหมู่บ้าน สิ่งที่ข้าเห็นคือวัวผอมโซ ไก่คุ้ยเขี่ยดิน และชาวนากลับจากทุ่งนาพร้อมภาระเบาๆ เมื่อข้าแสดงความคิดเห็นเกี่ยวกับเรื่องนี้ [collector.GetSheHe] ก็ชี้ประเด็นของ [collector.GetHerHis]\n\n"คนเหล่านี้แทบจะเลี้ยงปศุสัตว์ของตนเองไม่ได้ หากข้าเรียกร้องจากพวกเขามากขึ้น พวกเขาจะอดตาย""
+ stewardship_domain_special.1413.a:0 "ข้าเดาว่าข้าสามารถให้สิทธิ์ยึดหน่วงภาษีได้..."
+ stewardship_domain_special.1413.b:0 "แม้ในสถานการณ์ เช่นนี้ พวกเขาก็ต้องจ่าย"
+ stewardship_domain_special.1413.c:0 "นี่คือสิ่งที่เจ้าต้องการแสดงให้ข้าเห็นหรือ? การทรยศ!"
+ stewardship_domain_special.1413.c.tt:0 "ข้าจะตัดสินใจว่าจะจัดการกับหมู่บ้านอย่างไร"
+
+ stewardship_domain_special.1414.desc:0 "หมู่บ้านยังคงคุกรุ่นขณะที่องครักษ์ของข้าและข้าจากไป\n\nบางครั้งสิ่งเก่าต้องถูกชำระล้าง เพื่อให้มีที่ว่างสำหรับสิ่งใหม่"
+ stewardship_domain_special.1414.a:0 "มีหลายวิธีในการปกครอง"
+
+ stewardship_domain_special.1421.collector_opening:0 "คนเก็บภาษีที่ส่งไปตรวจสอบหมู่บ้านที่หายไปไม่เคยกลับมา ภายใต้การคุ้มกันอย่างแน่นหนา ข้าตัดสินใจสืบสวนด้วยตนเอง และในที่สุดก็ค้นพบว่าเหตุใดจึงเป็น เช่นนั้น..."
+ stewardship_domain_special.1421.self_opening:0 "เมื่อข้ามาถึงหมู่บ้านพร้อมกับองครักษ์ของข้า ในที่สุดข้าก็ค้นพบว่าเหตุใดคนในท้องถิ่นจึงหยุดจ่ายภาษี"
+ stewardship_domain_special.1421.desc:0 "\n\nบ้านทุกหลังถูกทิ้งร้างและถูกทอดทิ้ง ไม่มีร่องรอยของผู้คนเลย แม้ แต่คนเก็บภาษีของข้า\n\nความรู้สึกหวาดกลัวที่เพิ่มขึ้นอย่างช้าๆ เข้าครอบงำข้าขณะที่องครักษ์ของข้ารื้อค้นบ้านที่เงียบสงัด เปลี่ยนเป็นความตื่นตระหนกอย่างรวดเร็วเมื่อหนึ่งในนั้นตะโกนขึ้นมาทันที"
+ stewardship_domain_special.1421.a:0 "เจ้าพบอะไร!?!"
+ stewardship_domain_special.1421.a.tt:0 "อาจมีอะไรก็ได้ที่นี่"
+ stewardship_domain_special.1421.b:0 "เราไป เดี๋ยวนี้"
+
+ stewardship_domain_special.1422.desc:0 "องครักษ์ที่ตะโกนออกมาจากประตูที่ผุพังพร้อมกับเด็กคนหนึ่งอยู่ใต้แขน [foundling.Custom('GirlBoy')] พยายามหลบซ่อนตัวที่ด้านหลังของบ้าน\n\nแม้ว่าข้าจะต้องการคำตอบ แต่เด็กก็ไม่พูดอะไรเกี่ยวกับสิ่งที่เกิดขึ้นกับหมู่บ้าน — หรืออันที่จริง ไม่พูดอะไรเลย"
+ stewardship_domain_special.1422.a:0 "[foundling.Custom('GirlBoy')] ผู้น่าสงสารไม่มีบ้านอีกต่อไป... ข้าจะรับเลี้ยง [foundling.GetHerHim]!"
+ stewardship_domain_special.1422.b:0 "ทิ้งเด็กไว้กับหมู่บ้านที่ใกล้ที่สุด"
+ stewardship_domain_special.1422.c:0 "เผาหมู่บ้านและเด็กต้องสาปนี้ไปพร้อมกัน"
+
+ stewardship_domain_special.1423.foundling:0 "[foundling.GetTitledFirstName] น้อยอยู่ที่ราชสำนักอย่างปลอดภัยแล้ว กำลังเล่น — และแม้กระทั่งพูดคุย — กับเด็กคนอื่นๆ\n\n"
+ stewardship_domain_special.1423.no_foundling:0 "เสียงและความจอแจในราชสำนักไม่ได้ช่วยเบี่ยงเบนความสนใจของข้าจากสิ่งที่ข้าได้เห็น"
+ stewardship_domain_special.1423.desc:0 "ความทรงจำเกี่ยวกับหมู่บ้านที่เงียบสงัดยังคงหลอกหลอนข้า ในที่สุด เราไม่พบร่องรอยของใครก็ตามที่เคยอาศัยอยู่ที่นั่นเลย"
+ stewardship_domain_special.1423.a:0 "ดินแดนต้องสาปนั้นจะต้องไม่ถูกตั้งถิ่นฐานใหม่"
+ stewardship_domain_special.1423.b:0 "เวลาจะทวงคืนหมู่บ้านนั้น เช่นเดียวกับที่มันทำกับทุกสิ่ง"
+
+ stewardship_domain_special.1424.desc:0 "สิ่งที่รอข้าอยู่ในบ้านร้างคือกลิ่นเหม็นและกองศพ การเน่าเปื่อย ทำให้ไม่สามารถบอกได้ว่าพวกเขาตายอย่างไร"
+ stewardship_domain_special.1424.collector_end:0 "แต่แม้ แต่ศพที่ใหม่กว่า ซึ่งพิงกำแพงอยู่ — คนเก็บภาษีของข้า — ก็ไม่มีร่องรอยที่สังเกตได้"
+ stewardship_domain_special.1424.self_end:0 "แต่แม้ แต่ศพที่เน่าเปื่อยน้อยที่สุดก็ไม่มีร่องรอยการฆ่าที่ชัดเจน"
+ stewardship_domain_special.1424.a:0 "เผาหลุมนรกนี้ให้ราบ"
+ stewardship_domain_special.1424.b:0 "ฝังศพและสั่งให้ตั้งถิ่นฐานใหม่"
+
+ stewardship_domain_special.1425.desc:0 "การกำจัดศพนั้นง่ายพอ ความท้าทายที่มากกว่าคือการหาครอบครัวที่เต็มใจจะตั้งรกรากในหมู่บ้านแห่งความตาย อย่างไรก็ตาม ไม่มีชาวนาคนใดสามารถต้านทานเสน่ห์ของที่ดินที่อุดมสมบูรณ์ได้นาน หรือต้านทานปลายหอกที่ทิ่มแทงได้\n\nการดูแลการเริ่มต้นการฟื้นฟูได้สอนอะไรข้ามากมาย เช่นกัน!"
+ stewardship_domain_special.1425.a:0 "ตอนนี้ถ้าเพียง แต่อาการไอที่น่ารังเกียจนี้จะหายไป!"
+ 
+ stewardship_domain_special.1426.desc:0 "มันไม่เป็นทางการ แต่ไฟก็ทำในสิ่งที่ต้องทำ ข้ามองดูเปลวไฟเผาผลาญบ้านที่ถูกทิ้งร้างมานาน แต่ไม่นาน ข้าได้เห็นทุกสิ่งที่ข้าต้องการเห็นที่นี่แล้ว"
+ stewardship_domain_special.1426.a:0 "ถึงเวลากลับบ้านแล้ว"
+
+ stewardship_domain_special.1431.desc:0 "หลังจากการเดินทางหลายวัน ข้าพบหมู่บ้านที่หายไปจากบันทึกของข้า ไม่เพียง แต่มันเจริญรุ่งเรือง — เจริญรุ่งเรืองอย่างแน่นอน! – แต่ชาวบ้านยืนกรานว่าพวกเขา #EMP จ่าย#! ภาษีของพวกเขา\n\n[collector.GetTitledFirstName] คนเก็บภาษีของบารอนี ไม่ได้ซื่อสัตย์ทั้งหมด"
+ stewardship_domain_special.1431.a:0 "[collector.GetFirstNameNoTooltip] มีคำถามที่ต้องตอบ..."
+ stewardship_domain_special.1431.a.tt:0 "ข้าจะเผชิญหน้ากับ [collector.GetFirstName]"
+ stewardship_domain_special.1431.b:0 "รวบรวมชาวบ้าน พวกเขาจะจ่ายอีกครั้ง"
+
+
+ stewardship_domain_special.1432.desc:0 ""เงินทุนเหล่านั้นมีความสำคัญต่อ เอ่อ การป้องกัน [county.GetNameNoTier]!" [collector.GetTitledFirstName] คนเก็บภาษีใน [barony.GetNameNoTier] หวาดกลัว ไม่น้อย เพราะทหารร่างใหญ่ที่ข้านำมาที่คฤหาสน์ของ [collector.GetHerHis]\n\n"โอ้ โปรดเถิด ข้าจะทำทุกอย่างเพื่อได้รับการอภัยจากท่าน!""
+ stewardship_domain_special.1432.a:0 "เจ้าจะถูกลืมเลือนในความมืด"
+ stewardship_domain_special.1432.b:0 "ข้าสามารถใช้คนที่ติดหนี้ชีวิตข้าได้"
+ stewardship_domain_special.1432.b.collector_loyal:0 "ความกตัญญูและความภักดี"
+ stewardship_domain_special.1432.b.collector_bad:0 "โอกาสในการหลบหนี"
+ stewardship_domain_special.1432.b.collector_bad.tt:0 "[collector.GetFirstNameNoTooltip] หลบหนีไป!"
+ stewardship_domain_special.1432.c:0 "อะไรก็ได้หรือ? แล้วการนับหนอนล่ะ?!"
+
+ stewardship_domain_special.1433.desc:0 "หนอนบ่อนไส้ที่ทรยศนั่น! ข้าเสนอการให้อภัย และในวินาทีถัดมา [collector.GetTitledFirstName] ก็พุ่งเข้าใส่ข้าพร้อมกับดาบในมือและสีหน้าดุร้ายบนใบหน้าของ [collector.GetHerHis]\n\nข้าดิ้นรนอยู่ครู่หนึ่งเพื่อป้องกันตัวเองก่อนที่องครักษ์จะเข้าถึงตัว [collector.GetHerHim]"
+ stewardship_domain_special.1433.a:0 "บีบคอ [collector.GetHerHim] ทันที"
+ stewardship_domain_special.1433.b:0 "เจ้าจะไม่ได้เห็นแสงสว่างอีกเลย [collector.GetFirstNameNoTooltip]!"
+
+ stewardship_domain_special.1441.desc:0 "ภาษีที่เรียกเก็บจากชาวนาของข้าอาจหนักหนาในบางครั้ง อย่างไรก็ตาม ดังที่เหตุการณ์ล่าสุดได้แสดงให้ข้าเห็น ชีวิต #EMP มัน#! ยากลำบาก ความเมตตาใดๆ ที่ข้าแสดงออกไปจะไม่เปลี่ยนแปลงสิ่งนั้น"
+ stewardship_domain_special.1441.a:0 "ข้าได้เรียนรู้มากมาย"
+
+ stewardship_domain_special.1442.desc:0 "ภาษีที่เรียกเก็บจากชาวนาในอาณาจักรของข้าบางครั้งอาจรุนแรงจนแม้ แต่ชีวิตก็ถูกบั่นทอน การผ่อนปรนมันมักจะเป็นหนทางสู่ความเจริญรุ่งเรืองที่ยิ่งใหญ่กว่าสำหรับ [ROOT.Char.GetTitleTierName] ที่อดทน"
+
+ stewardship_domain_special.1443.t:1 "$stewardship_domain_special.1401.t$: การเก็บภาษีที่ดีขึ้น"
+ stewardship_domain_special.1443.opening:0 "เมื่อพิจารณาบันทึกภาษีอย่างละเอียด ข้าก็นึกถึงเรื่องหมู่บ้านที่หายไปใน [barony.GetNameNoTier]"
+ stewardship_domain_special.1443.end:0 "\n\nเรื่องต่างๆ ดีขึ้นมากตั้งแต่นั้นมา และรายได้จาก [barony.GetNameNoTier] ก็สูงกว่าที่เคยเป็นมา!"
+ stewardship_domain_special.1443.a:0 "ยอดเยี่ยม!"
+
+ stewardship_domain_special.1444.t:1 "$stewardship_domain_special.1401.t$: การหลีกเลี่ยงภาษีอย่างกว้างขวาง"
+ stewardship_domain_special.1444.end:0 "\n\nเรื่องต่างๆ แตกต่างไปแล้วในตอนนี้ แต่ข้าได้เรียนรู้ว่าความเมตตาและการผ่อนปรนในบางครั้งมี แต่จะนำไปสู่การสูญเสียที่ยิ่งใหญ่กว่าเดิม วิธีการหลีกเลี่ยงภาษีใดๆ จะแพร่กระจายไปในหมู่ชาวนาเหมือนหมัด"
+ stewardship_domain_special.1444.a:0 "ช่างเป็นหายนะ"
+
+ stewardship_domain_special.1445.t:1 "$stewardship_domain_special.1401.t$: การละทิ้งอย่างต่อเนื่อง"
+ stewardship_domain_special.1445.end:0 "\n\nตอนนี้มีหมู่บ้านหายไปมากขึ้น แต่คนเก็บภาษีของข้ารู้คำอธิบายที่ชัดเจน ภาษีที่สูงได้นำไปสู่การละทิ้งที่ดินที่ดีอย่างสมบูรณ์จำนวนมาก ไม่ว่าจะโดยการอดอยากหรือโดยการหลบหนีไปยังเคาน์ตีอื่น"
+ stewardship_domain_special.1445.a:0 "เอาเถอะ ถ้าพวกเขาไม่สามารถจ่ายค่าครองชีพได้..."
+
+ stewardship_domain_special.1451.t:1 "$stewardship_domain_special.1401.t$: สลักอยู่ในความทรงจำ"
+ stewardship_domain_special.1451.desc:0 "ข้าตื่นขึ้นกลางดึก ยังคงนึกถึงสายตาที่กล่าวหาของเด็กขณะที่หมู่บ้านใน [barony.GetNameNoTier] ถูกเผาเป็นเถ้าถ่าน"
+ stewardship_domain_special.1451.a:0 "เหตุใดมันจึงหนักอึ้งในใจข้า เช่นนี้?"
+ stewardship_domain_special.1451.b:0 "อา ข้าเกือบลืมไปแล้ว!"
+
+ # Domesday Book, by Stephen Arthur and Sean Hughes
+ stewardship_domain_special.1500.t.a:0 "การสำรวจครั้งใหญ่"
+ stewardship_domain_special.1500.t.b:0 "บันทึกดูมสเดย์"
+ stewardship_domain_special.1500.desc:1 "[domesday_steward.GetCouncilTitle] [domesday_steward.GetTitledFirstName] ของข้าได้เสนอแนวคิดที่กล้าหาญในการประเมินทรัพย์สินทั้งหมดในอาณาจักรของข้าในการสำรวจครั้งใหญ่เพียงครั้งเดียว สร้างบันทึกที่ชัดเจนเกี่ยวกับกรรมสิทธิ์ของข้า\n\nโดยการรวบรวมความรู้นี้ ข้าจะได้รับการดูแลที่ดีขึ้นในเรื่องการบริหารจัดการ รวมถึงการเก็บภาษี — แม้ว่าการลงทุนเริ่มแรกจะไม่ถูกก็ตาม"
+ stewardship_domain_special.1500.a:0 "ข้าจะรู้ทุกเอเคอร์ ทาสติดที่ดิน และจำนวนปศุสัตว์"
+ stewardship_domain_special.1500.a.tt:0 "#F การประเมินอย่างละเอียดมีราคาแพง แต่จะมีคุณภาพสูงกว่า#!"
+ stewardship_domain_special.1500.b:0 "บทสรุปของกรรมสิทธิ์ของข้าก็เพียงพอแล้ว"
+ stewardship_domain_special.1500.b.tt:0 "#F การประเมินอย่างคร่าวๆ ถูกกว่า แต่อาจมีคุณภาพไม่สูงเท่า#!"
+ stewardship_domain_special.1500.c:0 "จะไปยุ่งทำไม? ไพร่ฟ้าข้าแผ่นดินของข้ารู้ว่าพวกเขาติดหนี้อะไรข้า"
+ stewardship_domain_special.1500.c.tt:0 "ข้าหลวงคนอื่นๆ ทั้งหมดของข้า"
+ stewardship_domain_special.1500.quality_increase.tt:0 "การสำรวจจะ #P เพิ่มคุณภาพ#!"
+ stewardship_domain_special.1500.quality_decrease.tt:0 "การสำรวจจะ #N ลดคุณภาพ#!"
+ stewardship_domain_special.1500.quality_based_taxes:0 "ขึ้นอยู่กับคุณภาพของการสำรวจที่เสร็จสมบูรณ์"
+ stewardship_domain_special.1500.every_county_control:0 "[control|E] เพิ่มขึ้นตามคุณภาพการสำรวจ"
+ stewardship_domain_special.1500.every_county_summary:0 "ให้ภาษี [holding|E] สูงขึ้นตามสัดส่วนเป็นเวลา #V 5 ปี#!"
+ stewardship_domain_special.1500.survey_not_completed:0 "หากการสำรวจไม่เสร็จสมบูรณ์"
+
+ stewardship_domain_special.1501.desc:0 "จอมทัพของข้า [domesday_marshal.GetTitledFirstName] กังวลว่าผู้ประเมินของข้าจะเป็นเป้าหมายหลักของโจรและขโมย แม้ แต่การสำรวจที่ไม่สมบูรณ์ก็อาจให้ข้อมูลที่มีค่าแก่พวกอาชญากรเกี่ยวกับเป้าหมายที่เป็นไปได้ที่พวกเขาสามารถโจมตีได้!\n\nเพื่อรักษาความปลอดภัยให้กับไพร่ฟ้าข้าแผ่นดินของข้า [domesday_marshal.GetFirstNameNoTooltip] แนะนำให้ส่งองครักษ์ติดอาวุธไปกับผู้ประเมิน แต่ละคน"
+ stewardship_domain_special.1501.a:0 "กฎหมายของข้าเพียงพอที่จะคุ้มครองไพร่ฟ้าข้าแผ่นดินของข้า!"
+ stewardship_domain_special.1501.a.tt:0 "ผู้ประเมินของข้าอาจถูกโจมตีในเคาน์ตีที่มี [control|E] ต่ำ"
+ stewardship_domain_special.1501.b:0 "จัดตั้งกองกำลังอาสาสมัครเพื่อคุ้มกันผู้ประเมินของข้า"
+ stewardship_domain_special.1501.b.success:0 "กองกำลังอาสาสมัครของข้าสามารถรักษาความปลอดภัยให้ผู้ประเมินของข้าได้"
+ stewardship_domain_special.1501.b.failure:0 "กองกำลังอาสาสมัครของข้าไม่สามารถปกป้องผู้ประเมินของข้าได้"
+ stewardship_domain_special.1501.c:0 "ส่ง [ROOT.Char.Custom('MountedWarriorTerm')] ไปกับผู้ประเมิน แต่ละกลุ่ม"
+ stewardship_domain_special.1501.c.tt:0 "ผู้ประเมินของข้าจะได้รับการคุ้มครองจากการโจมตีบนท้องถนน"
+
+ stewardship_domain_special.1510.opening:0 "[upset_priest.Custom2('AppropriateGreeting', ROOT.Char)]"
+ stewardship_domain_special.1510.desc_opening:0 "ข้าต้องตกใจเมื่อพบว่าคนเดียวที่มาเข้าร่วมพิธีของข้าเมื่อเช้านี้คือเจ้าหน้าที่ประเมินภาษีของท่าน! เห็นได้ชัดว่าเจ้าหน้าที่ท่าทางเคร่งขรึมที่รออยู่หน้าประตูของข้า ทำให้ [upset_priest.GetFaith.GetAdherentNamePluralNoTooltip] ผู้ศรัทธาหลายคนไม่กล้าเข้าร่วมพิธีของข้า"
+ stewardship_domain_special.1510.desc_ending:0 "\n\nแม้ว่าข้ายินดีที่จะจ่ายส่วนที่ข้าพึงจ่ายให้ท่าน แต่กิจการของคริสตจักรเป็นเรื่องทางจิตวิญญาณโดยเนื้อแท้ ไม่ใช่เรื่องทางโลก และผู้สำรวจของท่านไม่มีธุระอะไรที่จะมาอยู่ที่นี่และขัดขวางพิธีของข้า!"
+ stewardship_domain_special.1510.desc_ending_not_endorsed:0 "\n\nกิจการของคริสตจักรเป็นเรื่องทางจิตวิญญาณโดยเนื้อแท้ ไม่ใช่เรื่องทางโลก และลูกน้องของท่านไม่มีธุระอะไรที่จะมาอยู่ที่นี่และขัดขวางพิธีของข้า!"
+ stewardship_domain_special.1510.a:0 "[upset_priest.GetFaith.HouseOfWorshipPlural] จะต้องถูกประเมิน ไม่ว่า [upset_priest.GetSheHe] จะชอบหรือไม่ก็ตาม!"
+ stewardship_domain_special.1510.b:0 "[upset_priest.GetSheHe|U] พูดถูก [upset_priest.GetFaith.HouseOfWorshipPlural] เป็นอาณาเขตของ [upset_priest.GetFaith.HighGodNamePossessive]"
+ stewardship_domain_special.1510.b.tt:0 "ข้ายกเว้นกรรมสิทธิ์ของ [upset_priest.GetTitledFirstNamePossessive] จากการประเมิน"
+ stewardship_domain_special.1510.c:0 "ข้าจะใช้ [upset_priest.GetFaith.ReligiousText] เพื่อให้เหตุผลในการประเมิน"
+ stewardship_domain_special.1510.c.success:0 "ข้าโน้มน้าว [upset_priest.GetTitledFirstName] ได้"
+ stewardship_domain_special.1510.c.success.tt:0 "ข้าโน้มน้าว [upset_priest.GetTitledFirstName] ได้ว่าการประเมินนั้นสมเหตุสมผล"
+ stewardship_domain_special.1510.c.failure:0 "ข้าล้มเหลวในการโน้มน้าว [upset_priest.GetTitledFirstName]"
+ stewardship_domain_special.1510.c.failure.tt:0 "ข้าล้มเหลวในการโน้มน้าว [upset_priest.GetTitledFirstName] ว่าการประเมินนั้นสมเหตุสมผล"
+ 
+ stewardship_domain_special.1520.opening:0 "[concerned_noble.Custom2('AppropriateGreeting', ROOT.Char)]"
+ stewardship_domain_special.1520.desc:0 "ข้าได้จ่ายส่วนที่ข้าพึงจ่ายให้แก่ราชสำนักอย่างซื่อสัตย์ทุกปี แต่เมื่อวันก่อน เจ้าหน้าที่ประเมินภาษีของท่านกลับมาปรากฏตัวที่หน้าประตูบ้านข้า เรียกร้องให้ตรวจสอบกรรมสิทธิ์ของข้า!\n\nท่านเชื่อใจข้าน้อยเสียจนต้องส่งคนมารุกรานความเป็นส่วนตัวของข้าหรือ?"
+ stewardship_domain_special.1520.a:0 "แน่นอนว่าข้าเชื่อใจเจ้า! คนของข้าจะจากไปทันที"
+ stewardship_domain_special.1520.a.tt:0 "ข้ายกเว้นกรรมสิทธิ์ของ [concerned_noble.GetTitledFirstNamePossessive] จากการประเมิน"
+ stewardship_domain_special.1520.b:0 "ข้าจะรู้ว่าดินแดนของข้ามีอะไรบ้าง ไม่มีข้อยกเว้น"
+ stewardship_domain_special.1520.c:0 "ซ่อนอะไรอยู่หรือ [concerned_noble.GetSheHe]? แทนที่ผู้ประเมินของข้าด้วยสายลับ!"
+ stewardship_domain_special.1520.c.tt:0 "ข้าค้นพบหนึ่งใน [secrets|E] ของ [concerned_noble.GetTitledFirstNamePossessive]"
+
+ stewardship_domain_special.1530.desc:0 "[city_mayor.GetTitledFirstName] มาหาข้าโดยบอกว่ากิลด์ช่างไม้ [guild_town.GetNameNoTierNoTooltip] ใน [guild_county.GetName] กำลังคัดค้านการรวมอยู่ในการประเมิน\n\nพวกเขาอ้างว่าการประเมินละเมิดสิทธิพิเศษที่พวกเขาได้รับเกี่ยวกับการจัดการกิจการของตนเอง และต้องการให้ผู้ประเมินของข้าถูกเรียกตัวกลับจากเคาน์ตี เพื่อให้พวกเขาสามารถดำเนินการได้อย่างอิสระ"
+ stewardship_domain_special.1530.a:0 "กิลด์จะต้องถูกประเมิน สิทธิพิเศษช่างมัน!"
+ stewardship_domain_special.1530.b:0 "ข้าสามารถยกเว้นพวกเขาเพื่อแลกกับบริการของพวกเขา..."
+ stewardship_domain_special.1530.c:0 "พวกเขาปฏิเสธอำนาจของข้างั้นรึ!? เพิกถอนกฎบัตรของพวกเขา!"
+
+ stewardship_domain_special.1540.desc.a:0 "ขณะเดินทางผ่าน [domesday_robbed_county.GetName] กลุ่มโจรได้โจมตีผู้ประเมินของข้า ผู้ประเมินหลายคนถูกฆ่าและบันทึกที่พวกเขาถืออยู่ก็หายไป"
+ stewardship_domain_special.1540.desc.b:0 "ขณะเดินทางผ่าน [domesday_robbed_county.GetName] กลุ่มโจรได้โจมตีผู้ประเมินของข้า โชคดีที่ทหารที่ข้าให้คุ้มกันผู้ประเมินของข้าสามารถจัดการกับพวกโจรได้"
+ stewardship_domain_special.1540.a:0 "ไม่ต้องสนใจ [domesday_robbed_county.GetNameNoTierNoTooltip] มันจะไม่อยู่ในการประเมิน"
+ stewardship_domain_special.1540.b:0 "เพิ่มการลาดตระเวนตามถนนที่นั่นและส่งผู้ประเมินออกไปเพิ่ม!"
+ stewardship_domain_special.1540.c:0 "ให้สิ่งนี้เป็นบทเรียนแก่ผู้ที่อยู่ใน [domesday_robbed_county.GetNameNoTierNoTooltip] ที่จะต่อต้านข้า!"
+
+ stewardship_domain_special.1550.desc:1 "ขณะเปรียบเทียบภาษีที่จ่ายให้ข้าเมื่อปีที่แล้วกับข้อมูลการสำรวจที่เข้ามา ข้าสังเกตเห็นความคลาดเคลื่อนที่สำคัญหลายประการ... ไม่ว่าไพร่ฟ้าข้าแผ่นดินของข้าจะจ่ายเงินให้ข้าเกินมาตลอด หรือมีบางอย่างผิดปกติอย่างมากกับการสำรวจนี้!\n\nเมื่อสืบสวนเพิ่มเติม ข้าค้นพบว่า [domesday_steward.GetCouncilTitle] [domesday_steward.GetTitledFirstName] ของข้าได้ประนีประนอมการสำรวจโดยรับสินบนจากเจ้าของที่ดินเพื่อแลกกับการละเว้นกรรมสิทธิ์ของพวกเขาออกจากการประเมิน!"
+ stewardship_domain_special.1550.a:0 "ยกเลิกการสำรวจและบังคับให้ [domesday_steward.GetHerHim] จ่ายเงินคืนค่าใช้จ่ายให้ข้า"
+ stewardship_domain_special.1550.b:0 "ใช้เงินสินบนเพื่อประเมินกรรมสิทธิ์เหล่านั้นใหม่อย่างเหมาะสม"
+ stewardship_domain_special.1550.c:1 "จำคุก [domesday_steward.GetTitledFirstNameNoTooltip] วาระการดำรงตำแหน่ง [domesday_steward.GetCouncilTitle] ของ [domesday_steward.GetHerHis] สิ้นสุดลงแล้ว"
+
+ stewardship_domain_special.1560.desc:0 "[city_mayor.GetTitledFirstName] บอกข้าว่าพ่อค้าเร่ร่อนกำลังบ่นเกี่ยวกับผู้ประเมินของข้าใน [trade_county.GetName]\n\nพ่อค้าเร่ร่อนดูเหมือนจะคิดว่ามันไม่ยุติธรรมที่จะให้สินค้าของพวกเขาถูกประเมินเมื่อพวกเขาไม่ได้เป็นผู้อยู่อาศัยใน [ROOT.Char.GetPrimaryTitle.GetName] และหลายคนขู่ว่าจะจากไปและไม่กลับมาอีก"
+ stewardship_domain_special.1560.a:0 "ทุกคนจะถูกสำรวจ ไม่ว่าจะเป็นผู้อยู่อาศัยหรือไม่ก็ตาม!"
+ stewardship_domain_special.1560.b:0 "หากพวกเขาจ่ายค่าธรรมเนียมให้ข้า ข้าจะยกเว้นพวกเขา"
+ stewardship_domain_special.1560.c:0 "พ่อค้าพูดถูก"
+
+ stewardship_domain_special.1590.desc.start:0 "หลังจากสำรวจดินแดนของข้าเป็นเวลาหลายเดือน ในที่สุดมันก็เสร็จสิ้น"
+ stewardship_domain_special.1590.perfect.desc:0 "ภายใต้การนำของข้า ผู้ประเมินของข้ารวบรวมบันทึกที่สมบูรณ์แบบอย่างยิ่งเกี่ยวกับกรรมสิทธิ์ของข้า ด้วยทุกอย่างที่มีรายละเอียดลงไปถึงไก่ตัวสุดท้าย สิ่งนี้จะรับประกันว่าข้าจะเก็บภาษีเต็มจำนวนและครบถ้วนที่ข้าพึงได้รับทุกปี!"
+ stewardship_domain_special.1590.excellent:0 "ผู้ประเมินของข้ารวบรวมบันทึกที่แม่นยำเกี่ยวกับกรรมสิทธิ์ของข้า"
+ stewardship_domain_special.1590.excellent.desc:0 "ผู้ประเมินของข้าได้รวบรวมบันทึกที่แม่นยำเป็นพิเศษเกี่ยวกับกรรมสิทธิ์ของข้า สิ่งนี้จะรับประกันว่าข้าจะเก็บภาษีเต็มจำนวนและครบถ้วนที่ข้าพึงได้รับทุกปี!"
+ stewardship_domain_special.1590.good:0 "ผู้ประเมินของข้ารวบรวมการประมาณการที่ถูกต้องเกี่ยวกับกรรมสิทธิ์ของข้า"
+ stewardship_domain_special.1590.good.desc:0 "ผู้ประเมินของข้าได้รวบรวมการประมาณการที่ถูกต้องเกี่ยวกับกรรมสิทธิ์ของข้า สิ่งนี้จะรับประกันว่าคนเก็บภาษีของข้าจะไม่พลาดสิ่งสำคัญใดๆ เมื่อนับจำนวนที่ข้าพึงได้รับ"
+ stewardship_domain_special.1590.mediocre:0 "ผู้ประเมินของข้ารวบรวมการประมาณการที่คลุมเครือเกี่ยวกับกรรมสิทธิ์ของข้า"
+ stewardship_domain_special.1590.mediocre.desc:0 "ผู้ประเมินของข้าได้รวบรวมเพียงการประมาณการที่คลุมเครือเกี่ยวกับกรรมสิทธิ์ของข้า แม้ว่าจะยังคงเป็นประโยชน์ แต่คนเก็บภาษีของข้าเกือบจะพลาดสิ่งต่างๆ อย่างแน่นอนเมื่อนับจำนวนที่ข้าพึงได้รับ"
+ stewardship_domain_special.1590.poor:0 "การสำรวจไม่ถูกต้องจนไม่สามารถใช้งานได้"
+ stewardship_domain_special.1590.poor.desc:0 "น่าเสียดายที่ผู้ประเมินของข้ารวบรวมการสำรวจที่ไม่ถูกต้องจนไม่สามารถใช้งานได้อย่างสมบูรณ์! คนเก็บภาษีของข้าจะต้องพึ่งพาตนเองในปีนี้..."
+ stewardship_domain_special.1590.none.desc:0 "\n\nน่าประหลาดใจที่ทุกจังหวัดในอาณาจักรของข้าสามารถได้รับการยกเว้น ซึ่งไม่รวมอยู่ในการสำรวจได้ ด้วยเหตุนี้ บันทึกที่เสร็จสมบูรณ์จึงไม่มีข้อมูลเกี่ยวกับกรรมสิทธิ์ของอาณาจักรของข้าเลยแม้ แต่น้อย"
+ stewardship_domain_special.1590.every_county:0 "ทุกเคาน์ตีใน [THIS.Char.GetPrimaryTitle.GetName]"
+ stewardship_domain_special.1590.every_nonexcluded_county:0 "ทุกเคาน์ตีที่ไม่ได้รับการยกเว้นใน [THIS.Char.GetPrimaryTitle.GetName]"
+ stewardship_domain_special.1590.high_quality.desc:1 "\n\nด้วยความภาคภูมิใจ [domesday_final_steward.GetCouncilTitle] [domesday_final_steward.GetFirstName] ของข้าถามว่าเราควรเก็บรักษาบันทึกไว้ที่ไหนเมื่อมันเสร็จสมบูรณ์แล้ว"
+ stewardship_domain_special.1590.low_quality.desc:1 "\n\n[domesday_final_steward.GetCouncilTitle] [domesday_final_steward.GetFirstName] ของข้ารู้สึกผิดหวัง โดยกล่าวว่านี่ไม่ใช่ผลลัพธ์ที่ [domesday_final_steward.GetSheHe] คาดหวัง"
+ stewardship_domain_special.1590.no_steward.desc:1 "\n\nหากเพียง แต่ข้ายังมี [ROOT.GetCouncillorPosition( 'councillor_steward' ).GetPositionName] การสำรวจนี้อาจจะดีกว่านี้"
+ stewardship_domain_special.1590.high_quality.a:0 "จำกัดการเข้าถึงเฉพาะคนเก็บภาษีของข้าเท่านั้น"
+ stewardship_domain_special.1590.high_quality.a.tt:0 "#F การจำกัดการเข้าถึงบันทึกเหล่านี้จะให้ข้อมูลพิเศษเกี่ยวกับดินแดนของข้าซึ่งข้าสามารถใช้ประโยชน์ได้#!"
+ stewardship_domain_special.1590.high_quality.b:0 "แจกจ่ายบันทึกให้กับสาธารณชน!"
+ stewardship_domain_special.1590.high_quality.b.tt:0 "#F การทำให้บันทึกเป็นที่เปิดเผยต่อสาธารณะจะทำให้ประชาชนเกรงขามและเป็นแรงบันดาลใจ ปรับปรุงการพัฒนาในดินแดนของข้า#!"
+ stewardship_domain_special.1590.poor_quality.a:0 "ช่างเป็นการเสียเวลาและเงินทอง..."
+ stewardship_domain_special.1590.poor_quality.b:0 "ไล่ [domesday_final_steward.GetFirstNameNoTooltip] ออก เนื่องจากความไร้ความสามารถของ [domesday_final_steward.GetHerHis]!"
+ stewardship_domain_special.1590.poor_quality.d.tt:0 "ถูกไล่ออกจาก [council|E] ของข้า"
+ stewardship_domain_special.1590.poor_quality.c:0 "[domesday_final_steward.GetSheHe|U] จะต้องชดใช้ความล้มเหลวนี้ด้วยชีวิตของ [domesday_final_steward.GetHerHis]!"
+
+ # Visit displeased county, by Stephen Arthur
+ stewardship_domain_special.3010.t:0 "ความไม่สงบใน [stewardship_domain_special_3010_county.GetNameNoTier]"
+ stewardship_domain_special.3010.desc:0 "ผู้คนใน [stewardship_domain_special_3010_county.GetNameNoTier] ดูเหมือนจะไม่พอใจกับการปกครองของข้า\n\nหากข้าไปเยือนเคาน์ตีด้วยตนเอง ข้าสามารถสร้างความประทับใจให้พวกเขาเกี่ยวกับ... เอ่อ #EMP ความจำเป็น#! ของอำนาจของข้า"
+ stewardship_domain_special.3010.a:0 "ข้าจะแสดงให้พวกเขาเห็นว่าข้าทำมาจากอะไร!"
+ stewardship_domain_special.3010.b:0 "เวลาของข้าสำคัญเกินกว่าจะเสียไปกับความคิดเห็นของพวกเขา"
+
+ stewardship_domain_special.3012.t:0 "การเยือน [stewardship_domain_special_3010_county.GetNameNoTier]"
+ stewardship_domain_special.3012.desc.a:0 "[stewardship_domain_special_3010_baron.GetTitledFirstName] อธิบายอย่างขอโทษว่าผู้คนที่นี่เป็นพวกหัวรั้น และพวกเขาจำเป็นต้องเข้าใจว่าการปกครองของข้าจะต้องไม่ถูกตั้งคำถาม การยอมรับอย่างเฉยเมยของพวกเขาไม่เพียงพอ ข้าต้องการความภักดีและการเชื่อฟัง\n\nข้าจะโน้มน้าวให้พวกเขาปฏิบัติตามได้อย่างไร?"
+ stewardship_domain_special.3012.desc.b:0 "ผู้คนที่นี่เป็นพวกหัวรั้น พวกเขาจำเป็นต้องเข้าใจว่าการปกครองของข้าจะต้องไม่ถูกตั้งคำถาม การยอมรับอย่างเฉยเมยของพวกเขาไม่เพียงพอ ข้าต้องการความภักดีและการเชื่อฟัง\nข้าจะโน้มน้าวให้พวกเขาปฏิบัติตามได้อย่างไร?"
+ stewardship_domain_special.3012.a:0 "ด้วยทองคำ ข้าจะแสดงความเอื้อเฟื้อของข้า"
+ stewardship_domain_special.3012.b:0 "สร้างความประทับใจให้พวกเขาด้วยสุนทรพจน์อันยิ่งใหญ่เกี่ยวกับการปกครองของข้า"
+ stewardship_domain_special.3012.b.success:0 "ข้าสร้างความประทับใจให้ผู้คนด้วยสุนทรพจน์ของข้า"
+ stewardship_domain_special.3012.b.failure:0 "คำพูดของข้าไร้ผลและผู้คนไม่สะทกสะท้าน"
+ stewardship_domain_special.3012.c:0 "ชาวนาจะต้องทนทุกข์ทรมาน เพราะความโอหังของพวกเขา!"
+
+ stewardship_domain_special.3014.t.a:0 "ความสงบเรียบร้อยกลับคืนมาใน [stewardship_domain_special_3010_county.GetNameNoTier]"
+ stewardship_domain_special.3014.t.b:0 "ความไม่สงบใน [stewardship_domain_special_3010_county.GetNameNoTier]"
+ stewardship_domain_special.3014.spent_gold.desc:0 "เงินที่ใช้ไปอย่างคุ้มค่า ความเอื้อเฟื้อของข้าได้ซื้อการยอมรับของผู้คนต่อการปกครองของข้า"
+ stewardship_domain_special.3014.popular_appeal_fail_learn_success.desc:0 "[stewardship_domain_special_3010_county.GetNameNoTier] ยังคงหัวรั้น เช่นเคย ในตอนแรกสุนทรพจน์ของข้ายังติดขัด แต่ข้าคิดว่ามันดีขึ้นในช่วงท้ายของการเยือน"
+ stewardship_domain_special.3014.popular_appeal_fail_learn_fail.desc:0 "สุนทรพจน์ของข้าเข้าหูซ้ายทะลุหูขวา ข้าไม่รู้ว่าข้าทำอะไรผิด [stewardship_domain_special_3010_county.GetNameNoTier] ยังคงหัวรั้น เช่นเคย"
+ stewardship_domain_special.3014.popular_appeal_success.desc:0 "สุนทรพจน์ของข้าโดนใจและตอนนี้ [stewardship_domain_special_3010_county.GetNameNoTier] แสดงการยอมรับต่อการปกครองของข้ามากขึ้น"
+ stewardship_domain_special.3014.intimidate_success.desc:0 "การแสดงอำนาจใน [stewardship_domain_special_3010_county.GetNameNoTier] ดูเหมือนจะได้ผล พวกเขาก้มหัวต่ออำนาจของข้าและจะเป็นไพร่ฟ้าข้าแผ่นดินที่ดีขึ้นในตอนนี้"
+
+ stewardship_domain_special.3014.a:0 "ทองคำมักจะพบมือที่ว่างเปล่าเสมอ"
+ stewardship_domain_special.3014.b:0 "อย่างน้อยข้าก็ได้เรียนรู้บางอย่าง"
+ stewardship_domain_special.3014.c:0 "คำพูดของข้าขับเคลื่อนอาณาจักร"
+ stewardship_domain_special.3014.e:0 "ปล่อยให้พวกเขาเกลียด ตราบใดที่พวกเขากลัว"
+ stewardship_domain_special.3014.f:0 "นี่มันน่าหงุดหงิดจริงๆ ข้าจะปรับปรุงการทูตของข้าได้หรือไม่?"
+ stewardship_domain_special.3014.f.tt:0 "ข้าไม่ได้เรียนรู้อะไรเกี่ยวกับการบริหารจัดการเลย"
+
+ stewardship_domain_special.8031.t:0 "$stewardship_domain_special.8001.t$: การนำชีวิตมาสู่"
+ stewardship_domain_special.8031.aqueduct:0 "ข้าอยู่ที่นั่นเพื่อเป็นสักขีพยานในการวางหินก้อนสุดท้ายในท่อส่งน้ำใหม่ของข้าใน [county.GetName] เสนาบดีคลังของข้ายื่นถ้วยออกมาและรองรับน้ำหยดแรกที่ไหลออกมาก่อนที่จะมอบให้ข้า"
+ stewardship_domain_special.8031.irrigation:0 "ข้าอยู่ที่นั่นในวันที่คันดินจะถูกพังลงเพื่อนำน้ำเข้าสู่เครือข่ายคูน้ำใหม่ของข้าใน [county.GetName] ใช้เวลาหลายชั่วโมงกว่าน้ำจะเริ่มกระจายอย่างเหมาะสม"
+ stewardship_domain_special.8031.interlude:0 "\n\nพื้นดินยังคงแข็งและไม่เอื้ออำนวย และยังมีงานอีกมากที่ต้องทำ"
+ stewardship_domain_special.8031.full_scope:0 "แต่น้ำนั้นสดชื่น"
+ stewardship_domain_special.8031.scoped_down:0 "โดยเฉพาะอย่างยิ่งเมื่อโครงการของข้าไม่ได้ยิ่งใหญ่เท่าที่ข้าจินตนาการไว้ อย่างไรก็ตาม น้ำนั้นสดชื่น"
+ stewardship_domain_special.8031.conclusion:0 "และในที่สุดจะนำชีวิตใหม่มาสู่ดินผืนนี้ ขณะที่ลำธารเล็กๆ กลายเป็นลำธาร ข้าก็ไตร่ตรองถึงทุกสิ่งที่งานของข้าได้สอนข้า"
+ stewardship_domain_special.8031.a:0 "แม้ในอีกหลายทศวรรษข้างหน้า เราก็จะเก็บเกี่ยวผลตอบแทนจากสิ่งนี้"
+
+ # The Irrigation Project, by Petter Vilberg
+ stewardship_domain_special.8001.progress_is_made:0 "ความคืบหน้าอย่างมีนัยสำคัญ"
+ stewardship_domain_special.8001.continued_problems:0 "ปัญหาที่ต่อเนื่อง"
+ stewardship_domain_special.8001.troubled_construction:0 "การก่อสร้างที่มีปัญหา"
+ stewardship_domain_special.8001.slow_progress:0 "ความคืบหน้าที่เชื่องช้า"
+ stewardship_domain_special.8001.high_death_count:0 "จำนวนผู้เสียชีวิตสูง"
+ stewardship_domain_special.8001.project_continues:0 "#V โครงการดำเนินต่อไป#!"
+ stewardship_domain_special.8001.project_completed:0 "#P โครงการเสร็จสมบูรณ์#!"
+
+ stewardship_domain_special.8001.t:0 "การชลประทาน"
+ stewardship_domain_special.8001.desc:2 "มีพื้นที่ที่ยังไม่ได้ตั้งถิ่นฐานที่เหมาะสมใน [county.GetName] ซึ่งมักถูกตำหนิว่าเป็น เพราะภูมิประเทศที่ไม่เหมาะสม\n\n[steward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ได้แนะนำว่าโครงการชลประทานอาจ ทำให้สามารถเพาะปลูกได้ และด้วยเหตุนี้จึงมีคุณค่า"
+ stewardship_domain_special.8001.a:0 "ข้าจะออกแบบท่อส่งน้ำ!"
+ stewardship_domain_special.8001.b:0 "เราต้องการเครือข่ายคูน้ำและดิน"
+ stewardship_domain_special.8001.c:0 "ที่ดินนั้นไม่ได้ตั้งถิ่นฐานด้วยเหตุผลที่ดี"
+ stewardship_domain_special.8001.if_successful:0 "หากประสบความสำเร็จ:"
+
+ stewardship_domain_special.8011.t:1 "$stewardship_domain_special.8001.t$: งบประมาณเกิน"
+ stewardship_domain_special.8011.desc:0 "ผู้ช่วยสถาปนิกที่ข้า แต่งตั้งได้มาหาข้า เพื่อร้องขอให้ข้าใช้จ่ายมากยิ่งขึ้นอีกในโครงการท่อส่งน้ำของข้าใน [county.GetName]\n\n"ท่านเองก็ย่อมเห็นได้ว่าโครงการก่อสร้างใดๆ ก็ตามย่อมมีราคาสูงภายใต้สภาวะ เช่นนี้, [ROOT.Char.Custom('FormOfAddressForLiege')]""
+ stewardship_domain_special.8011.a:1 "[steward.GetFirstNameNoTooltip] หาคนมาแทนให้ข้า!"
+ stewardship_domain_special.8011.a.tt:0 "#F ข้ามีความหวังสูงกับคนนี้เหลือเกิน...#!"
+ stewardship_domain_special.8011.b:0 "เจ้าพูดถูก เอาไปเท่าที่เจ้าต้องการ"
+
+ stewardship_domain_special.8012.t:1 "$stewardship_domain_special.8001.t$: ปัญหาที่ต่อเนื่อง"
+ stewardship_domain_special.8012.desc:0 ""ในอาณาจักรของข้าไม่มีสถาปนิกที่มีความสามารถเลยหรือไร?! ผู้ช่วยสถาปนิกคนใหม่ของข้า ผู้ควบคุมการก่อสร้างท่อส่งน้ำใน [county.GetNameNoTier] ก็ใช้งบประมาณเกินตัวอีกแล้ว!\n\nข้าเบื่อหน่ายกับข้อแก้ตัวไร้สาระอย่าง เช่น "มันทำไม่ได้หรอก, [ROOT.Char.Custom('FormOfAddressForLiege')]" เต็มทีแล้ว!"
+ stewardship_domain_special.8012.a:0 "เอาทองไป แต่เจ้าควรจะ ทำให้เสร็จด้วยสิ่งนี้!"
+ stewardship_domain_special.8012.a.tt:0 "#F การสร้างท่อส่งน้ำธรรมดาๆ มันจะแพงขนาดนี้ได้อย่างไร?#!"
+ stewardship_domain_special.8012.b:0 "เกณฑ์ชาวนาเพิ่มสำหรับงานโยธา"
+
+ stewardship_domain_special.8013.t:1 "$stewardship_domain_special.8001.t$: การก่อสร้างที่มีปัญหา"
+ stewardship_domain_special.8013.desc:0 "ทรัพยากรถูกส่งไปยังสถานที่ที่ไม่ถูกต้อง โครงสร้างไม่ตรงกับสิ่งที่ข้าคิดไว้... ส่วนไหนของคำสั่ง "สร้างท่อส่งน้ำตามที่ข้าต้องการ" ที่ยากที่จะปฏิบัติตามนัก?"
+ stewardship_domain_special.8013.a:0 "ข้าจะจัดการงานด้วยตนเอง"
+ stewardship_domain_special.8013.b:0 "เกณฑ์ชาวนาเพื่อชดเชยเวลาที่เสียไป"
+
+ stewardship_domain_special.8021.t:1 "$stewardship_domain_special.8001.t$: ความยากลำบากที่ไม่คาดฝัน"
+ stewardship_domain_special.8021.desc:2 "โครงการชลประทานของข้าใน [county.GetNameNoTier] กำลังดำเนินไป แต่มีความยากลำบากมากกว่าที่คาดไว้\n\nตามที่ [steward.Custom2('MyCharacterIntroduction', ROOT.Char)] กล่าว พื้นดินนั้น "มีหินมากเป็นสองเท่าและมีรูพรุนเป็นสองเท่าอย่างที่เราคิด""
+ stewardship_domain_special.8021.a:0 "ถ้า เช่นนั้น ชาวนาก็จะต้องทำงานหนักเป็นสองเท่า!"
+ stewardship_domain_special.8021.b:0 "เราควรใช้เวลาของเราและ ทำให้ถูกต้อง"
+ stewardship_domain_special.8021.c:0 "มีมุมที่เราสามารถตัดได้เสมอ เพื่อให้กลับมาตามแผน!"
+
+ stewardship_domain_special.8022.t:1 "$stewardship_domain_special.8001.t$: สภาพที่ไม่เอื้ออำนวย"
+ stewardship_domain_special.8022.desc:0 ""โครงการชลประทานใน [county.GetNameNoTier] กำลังดำเนินไปอย่างรวดเร็ว, [ROOT.Char.Custom('FormOfAddressForLiege')]" สจ๊วตของข้ารายงาน ทว่า ความพึงพอใจของข้าก็จางหายไปอย่างรวดเร็ว "โชคร้ายที่ คนงานไพร่กำลังล้มตายในอัตราที่น่าตกใจ""
+ stewardship_domain_special.8022.a:0 "ข้าอาจต้องดูแลสิ่งต่างๆ อย่างใกล้ชิดมากขึ้นจากนี้ไป"
+ stewardship_domain_special.8022.b:0 "พวกเขาไม่ได้มีชีวิตอยู่เพื่อรับใช้ข้าหรือ?"
+ stewardship_domain_special.8022.c:0 "อา... เกณฑ์คนมาแทนตามความจำเป็น"
+ stewardship_domain_special.8022.c.tt:0 "#F อย่าบอกพวกเขาว่าทำไมพวกเขาถึงจำเป็น#!"
+
+ stewardship_domain_special.8023.t:1 "$stewardship_domain_special.8001.t$: ความคืบหน้าที่หยุดนิ่ง"
+ stewardship_domain_special.8023.desc:1 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U] โครงการชลประทานใน [county.GetNameNoTier] กำลังล่าช้ากว่ากำหนด" [steward.Custom2('MyCharacterIntroduction', ROOT.Char)] รายงาน "ล่าช้าไปมาก หลังจากที่ได้ตรวจสอบงาน ข้ากังวลว่ามันจะเสร็จสิ้นในชั่วชีวิตของข้าหรือไม่"\n\nข้าไม่สามารถบอกได้ว่า [steward.GetSheHe] จริงจังหรือไม่"
+ stewardship_domain_special.8023.a:0 "เปลี่ยนหัวหน้าคนงาน และให้แส้ใหม่แก่พวกเขา"
+ stewardship_domain_special.8023.b:0 "จ้างคนงานมากเท่าที่จำเป็น!"
+ stewardship_domain_special.8023.c:0 "บางทีอาจถึงเวลาที่จะตั้งเป้าหมายให้ต่ำลงเล็กน้อย..."
+ stewardship_domain_special.8023.c.tt:0 "สิ่งนี้จะลดผลกระทบของโครงการของข้า"
+
+ #Localisation for completion of the governance lifestyle.
+ stewardship_domain_special.9999.t:0 "ทั้งหมดอยู่ในบัญชีของข้า"
+ stewardship_domain_special.9999.desc_opening:0 "ด้วยนิ้วในทุกพาย ตาในทุกเรื่อง และความคิดเห็นเกี่ยวกับทุกการตัดสินใจ ข้าได้มุ่งเน้นไปที่เรื่องการบริหารจัดการมาเป็นเวลานานแล้ว"
+ stewardship_domain_special.9999.desc_education_4:0 "\n\nขณะที่ข้าสำรวจความสำเร็จของข้า ข้าตระหนักว่าไม่มีอะไรเหลือให้ข้าเรียนรู้อีกแล้ว!"
+ stewardship_domain_special.9999.desc_not_education:0 "\n\nขณะที่ข้าสำรวจความสำเร็จของข้า ข้าตระหนักว่าข้าได้กลายเป็นพลังทางการบริหารที่น่าเกรงขาม!"
+ stewardship_domain_special.9999.a:0 "ไม่มีสิ่งใดในการศึกษาด้านการปกครองที่หลุดรอดไปจากข้า!"
+ stewardship_domain_special.9999.a.tt:1 "ข้ารู้สึกราวกับว่าข้าได้ไปถึงจุดสูงสุดเท่าที่ข้าจะทำได้ในการศึกษา [stewardship_lifestyle|E]"

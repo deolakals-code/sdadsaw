@@ -1,0 +1,76 @@
+﻿l_english: 
+ bm_867_adventurers:0 "เหล่านักผจญภัยผู้ยิ่งใหญ่"
+ bm_867_adventurers_desc:0 "ทุกราชวงศ์ล้วนมีจุดเริ่มต้นอันต่ำต้อย การไต่เต้าสู่อำนาจมักเป็นกระบวนการที่เชื่องช้า แต่ละชั่วอายุคนขยับขึ้นบันไดไปทีละขั้น ผ่านการ แต่งงานที่วางแผนอย่างรอบคอบและสงครามที่ไม่หยุดหย่อน\n\n#bold ทว่านี่คือยุคแห่งความเปลี่ยนแปลงและความวุ่นวายครั้งใหญ่ ด้วยความกล้าหาญอย่างยิ่ง และอาจรวมถึงโชคช่วยเล็กน้อย วีรบุรุษอาจสามารถยกระดับชื่อเสียงวงศ์ตระกูลจากไร้คนรู้จักสู่ตำนานได้ ท่านพร้อมรับความท้าทายนี้แล้วหรือไม่?!#!"
+
+
+ #Jarl Haesteinn
+ bookmark_adventurers_jarl_haesteinn:0 "ยาร์ลแฮสไตน์"
+ bookmark_adventurers_jarl_haesteinn_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_adventurers_jarl_haesteinn_desc:0 "ด้วยความหลักแหลมและความกล้าหาญ ยาร์ลแฮสไตน์ได้กลายเป็นบุรุษผู้มั่งคั่ง หลังจากนำการปล้นสะดมอันมั่งคั่งผ่านทะเลเมดิเตอร์เรเนียนร่วมกับบียอร์น ไอออนไซด์ แฮสไตน์ได้ตั้งรกรากในบริตตานี พวกแฟรงก์มีคลังสมบัติพร้อมให้ปล้นสะดม และนักรบไวกิ้งผู้ยิ่งใหญ่ย่อมเป็นพันธมิตรชั้นยอดในยามที่การเมืองวุ่นวาย\n\n#bold อย่างไรก็ตาม โชคลาภมิได้มาโดยปราศจากศัตรู ความโลภของแฮสไตน์จะนำภัยมาสู่ตัวเขา หรือราชวงศ์ของเขาจะเจริญรุ่งเรืองภายใต้การชี้นำของท่าน?#!"
+
+ bookmark_adventurers_jarl_haesteinn_alt_ragnarr:0 "$Ragnarr$"
+ bookmark_adventurers_jarl_haesteinn_alt_ragnarr_desc:0 "คำอธิบายทางเลือก"
+
+ #Rurik Rurikid
+ bookmark_adventurers_rurik_rurikid:0 "รูริค รูริคิด"
+ bookmark_adventurers_rurik_rurikid_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_adventurers_rurik_rurikid_desc:0 "น้อยคนนักที่จะผงาดจากความว่างเปล่าสู่ความยิ่งใหญ่ได้ เช่นรูริคผู้กล้าหาญ! เขาร่วมกับพี่น้องนำระเบียบมาสู่ดินแดนรกร้างทางตะวันออก และนับตั้งแต่การตายของพวกเขา เขาก็เป็นผู้ปกครอง แต่เพียงผู้เดียวของเขตปกครองอันยิ่งใหญ่ กระนั้น นี่เป็นเพียงจุดเริ่มต้น\n\n#bold วันหนึ่ง ทายาทของรูริคจะก่อตั้งอาณาจักรซาร์แห่งรัสเซีย หรือพวกเขาจะไม่ทำเช่นนั้น? ชะตากรรมของราชวงศ์อันยิ่งใหญ่นี้อยู่ในมือของท่าน#!"
+
+ bookmark_adventurers_rurik_rurikid_alt_helgi:0 "$Helgi$ $nick_the_seer$"
+
+ #Eudes Capet
+ bookmark_adventurers_count_eudes:0 "เคานต์เออเดอ"
+ bookmark_adventurers_count_eudes_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_adventurers_count_eudes_desc:0 "ในเดือนกรกฎาคม ปี 866 นักปล้นสะดมไวกิ้ง แฮสไตน์ ได้สังหารโรแบร์ผู้แข็งแกร่ง บิดาของเออเดอ เพียงไม่กี่เดือนต่อมา อาเดลาอิส มารดาของเขา สิ้นใจขณะให้กำเนิดโรแบร์ น้องชายของเขา โลกช่างโหดร้ายและอนาคตอาจดูไม่แน่นอน แต่เด็กกำพร้าเหล่านี้ถูกลิขิตให้นั่งบนบัลลังก์ฝรั่งเศส ทายาทของพวกเขา ราชวงศ์กาเปเซียง จะปกครองฝรั่งเศสไปอีกหลายศตวรรษ\n\n#bold ท่านจะสามารถฝ่าฟันการเมืองอันตรายของฝรั่งเศสยุคกลางและบรรลุชะตากรรมของพี่น้องโรแบร์แต็งได้หรือไม่?#!"
+
+ bookmark_adventurers_count_eudes_alt_robert:0 "$Robert$"
+ bookmark_adventurers_count_eudes_alt_robert_desc:0 "คำอธิบายทางเลือก" # Placeholder
+ bookmark_adventurers_count_eudes_alt_uncle_eudes:0 "$Eudes$"
+ bookmark_adventurers_count_eudes_alt_uncle_eudes_desc:0 "คำอธิบายทางเลือก" # Placeholder
+
+ #Almos Arpad 
+ bookmark_adventurers_almos_arpad:0 "อาลโมช อาร์ปาด"
+ bookmark_adventurers_almos_arpad_subheading: "$BOOKMARK_SUBHEADING_KHAN_WITH_THE$"
+ bookmark_adventurers_almos_arpad_desc:0 "เมื่อเจ็ดชนเผ่าฮังการีรวมตัวกันเพื่อเลือกผู้นำสูงสุด พวกเขาลงคะแนนให้อาลโมชผู้กล้าหาญ วันหนึ่ง อาร์ปาด บุตรชายของเขา จะรับช่วงต่อบทบาทนี้ — แต่ก็ต่อเมื่อชาวฮังการีสามารถรักษาเอกราชไว้ได้ ภัยอันตรายปรากฏขึ้นที่ขอบฟ้าตะวันออก\n\n#bold ท่านจะสามารถปกป้องชาวฮังการีและนำพวกเขาไปสู่ความยิ่งใหญ่ได้หรือไม่? นี่คือโอกาสของท่านที่จะเล่าขานการผจญภัยของราชวงศ์อาร์ปาดอีกครั้ง!#!"
+
+ #Daurama Daura
+ bookmark_adventurers_daurama_daura:0 "เดารามา เดารา"
+ bookmark_adventurers_daurama_daura_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_adventurers_daurama_daura_desc:0 "ในฐานะมากาจิยาองค์สุดท้ายแห่งเดารา เดารามาคือสัญลักษณ์แห่งวิถีดั้งเดิมของชาวเฮาซา บายาจิดดา สามีใหม่ของนาง (เดิมมาจากอิรัก) เป็นตัวแทนของการเปลี่ยนแปลง เมื่อคนนอกจำนวนมากขึ้นเรื่อย ๆ หลั่งไหลเข้ามายังดินแดนเฮาซา นำพาความเชื่อและวัฒนธรรมอันแปลกประหลาดติดตัวมาด้วย...\n\n#bold เดารามาถูกกำหนดให้จารึกในประวัติศาสตร์ว่าเป็นมากาจิยาองค์สุดท้าย แต่นางจำเป็นต้องเป็นเช่นนั้นหรือไม่?!#!"
+
+ bookmark_adventurers_daurama_daura_alt_bawo:0 "$Bawo$"
+
+ bookmark_adventurers_almos_arpad_alt_son_arpad:0 "$A_rpA_d$"
+ bookmark_adventurers_almos_arpad_alt_linutika:0 "$LinU_tika$"
+
+ #EVENTS
+ bookmark.0101.t:0 "นามนั้นสำคัญไฉน?"
+ bookmark.0101.desc_intro:0 "เป็นเวลาหลายชั่วอายุคนแล้วที่ [hausaland.GetNameNoTier] ถูกปกครองโดยมากาจิยา สายเลือดของผู้ปกครองฝ่ายหญิง ซึ่งข้าเป็นคนล่าสุด\n\nประเพณีของเราได้รับใช้เรามาอย่างดี แต่โลกกำลังเปลี่ยนแปลง การกระทำอันกล้าหาญของ [ROOT.Char.Custom2('RelationToMeShort', bayajidda)] ของข้า [bayajidda.GetFirstName] ทำให้ [bayajidda.GetSheHe] ได้รับความมั่งคั่งและความเคารพอย่างใหญ่หลวง... แม้ว่า [bayajidda.GetSheHe] จะมาจากดินแดนอันห่างไกล ความสำเร็จของ [bayajidda.GetHerHis] ก็ยังบ่งบอกถึงการเปลี่ยนแปลงครั้งใหญ่สำหรับผู้คนของข้า\n\n"
+ bookmark.0101.desc_living:1 "บุตรชายของข้า [bewo.GetTitledFirstName] เป็นแก้วตาดวงใจของบิดา แม้จะเป็นเพียงทารก ข้าสงสัยว่าเขาจะผูกพันกับบิดานักผจญภัยของเขา หรือมรดกตามประเพณีของข้ามากกว่ากัน?"
+ bookmark.0101.desc_dead:1 "บุตรชายของข้า [bewo.GetTitledFirstName] เคยเป็นแก้วตาดวงใจของบิดา แม้จะเป็นเพียงทารก ข้าสงสัยว่าเขาจะผูกพันกับตำนานของบิดานักผจญภัยของเขา หรือมรดกตามประเพณีของข้ามากกว่ากัน?"
+ bookmark.0101.a:1 "[bewo.GetFirstNameNoTooltip] ต้องสืบทอดประเพณีของชาว [ROOT.Char.GetCulture.GetNameNoTooltip] สู่ยุคใหม่"
+ bookmark.0101.a.tt:1 "[bewo.GetUIName] จะกลายเป็น [player_heir|E] ของท่าน"
+ bookmark.0101.b:1 "บุตรชายก็คือบุตรชาย ไม่ว่าชื่อหรือวัฒนธรรมของเขาจะเป็น เช่นไร"
+ bookmark.0101.b.tt:1 "#warning @warning_icon! ตัวเลือกนี้อาจทำให้ท่านไม่มี [player_heir|E]!#!"
+ bookmark.0101.c:0 "เหล่ามากาจิยาไม่ต้องการบุรุษเพื่อสืบทอดมรดก!"
+ bookmark.0101.c.tt:1 "น้องสาวของท่าน [shawata.GetUIName] จะยังคงเป็น [player_heir|E] ของท่าน"
+
+ # Credit to Stu Taylor of Dead Good Comics for the title line and entire lead-in to this event.
+ bookmark.0211.t: "เพื่อรำลึกถึงรสนิยมอันดีของท่าน"
+ # Historically, both of Michael's hands were severed — we don't have a portrait modifier for that, I'm afraid, so we pretend it was just the one.
+ bookmark.0211.desc: "ศพของ [michael.GetFirstNamePossessive] นอนขดอยู่บนพื้นเบื้องหน้าข้า เลือดที่พุ่งออกมาในตอนแรกจากแขนขาที่ถูกตัดขาดของเขา บัดนี้ไหลช้าลงจนแทบจะหยด เป็นค่ำคืนที่ดี แม้ว่าเราจะ [Glossary( 'ลงมือก่อนกำหนด', 'BOOKMARK_0211_MICHAEL_III_DEATH_GLOSS' )] ก็ตาม\n\n#EMP จักรพรรดิ#! อาวุโส เฮอะ ไอ้โง่เขลาเบาปัญญาที่ไร้ทั้งพรสวรรค์และความกล้าในการเมือง มีข้อได้เปรียบทุกอย่างที่พระเจ้าประทานให้บุรุษได้ แต่เขาก็ยังสูญเสียทุกสิ่งให้กับคนไร้ชื่อจากหัวเมือง\n\nไม่ใช่ว่าข้าเป็นเพียงคนหัวเมืองอีกต่อไปแล้ว นับ แต่คืนนี้ ข้าคือ #EMP จักรพรรดิ#! [basil.GetTitledFirstName] ปฐมกษัตริย์แห่งราชวงศ์ [basil.GetDynasty.GetName] อันรุ่งโรจน์อย่างแน่นอน\n\nขณะดื่มไวน์หยดสุดท้ายจากถ้วย — หนึ่งในไวน์โปรดของ [michael.GetFirstNamePossessiveNoTooltip] — ข้าครุ่นคิดว่าประวัติศาสตร์จะจดจำชายหนุ่มผู้นี้อย่างไร ข้าจะ #EMP อนุญาต#! ให้ประวัติศาสตร์จดจำเขาอย่างไร"
+ bookmark.0211.a: "เขาตายอย่างคนขี้เมา เขาก็จะยังคงเป็นคนขี้เมา!"
+ bookmark.0211.a.flavour: "ท่านและทายาทของท่านจะใส่ร้ายป้ายสี [michael.GetFirstNameNoTooltip] ไปอีกหลายทศวรรษหลังความตายของเขา ทำให้เขาดูเป็นคนขี้เมาและคนเสเพล"
+ bookmark.0211.b: "คนโง่นั่นมอบครอบครัว บัลลังก์ และชีวิตให้ข้า แค่นั้นก็พอแล้ว"
+ bookmark.0211.b.flavour: "ท่านปล่อยให้ชื่อเสียงของ [michael.GetFirstNamePossessiveNoTooltip] ฟื้นคืน โดยยกย่องการฟื้นฟูการนับถือรูปเคารพของมารดาในระหว่างที่นางสำเร็จราชการแทนเขาว่าเกือบจะเป็นดั่งนักบุญ"
+ bookmark.0211.c: "นี่เป็นเหล้าองุ่นชั้นดีเป็นพิเศษจริง ๆ..."
+ bookmark.0211.c.flavour: "ท่านปล่อยให้ความทรงจำเกี่ยวกับ [michael.GetFirstNamePossessiveNoTooltip] เลือนหายไปตามกาลเวลา — ส่วนใหญ่"
+ BOOKMARK_0211_MICHAEL_III_DEATH_GLOSS: "ตามประวัติศาสตร์ ไมเคิลที่ 3 ถูกลอบสังหารเมื่อวันที่ 24 กันยายน ปี 867 แทนที่จะเป็นวันที่ 31 ธันวาคม ปี 866 วันที่สวรรคตของพระองค์ถูกเลื่อนมาข้างหน้าในเกม Crusader Kings 3 ด้วยเหตุผลด้านเกมเพลย์"
+
+ #WARS
+ war_867_Aghlabid_Conquest_of_Sicily:0 "การพิชิตซิซิลีของอัฆลาบิด"
+ war_867_Saffarid_Tahirid_War:0 "สงครามซัฟฟาริด-ทาฮิริด"
+ war_867_Reconquest_of_Bari:0 "การยึดบารีคืน"
+ war_867_Lothbrok_Invasion_of_East_Anglia:1 "การรุกรานอีสต์แองเกลียของบุตรแห่งโลธโบรค"
+ war_867_Lothbrok_Invasion_of_Lothian:1 "การรุกรานโลเธียนของบุตรแห่งโลธโบรค"
+ war_867_Lothbrok_Invasion_of_Northumberland:1 "การรุกรานนอร์ธัมเบอร์แลนด์ของบุตรแห่งโลธโบรค"

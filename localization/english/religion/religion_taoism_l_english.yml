@@ -1,0 +1,99 @@
+﻿l_english: 
+ #Common Taoism Localization
+ taoism_religion:0 "ลัทธิเต๋า"
+ taoism_religion_adj:0 "เต๋า"
+ taoism_religion_adherent:0 "ผู้นับถือลัทธิเต๋า"
+ taoism_religion_adherent_plural:0 "ผู้นับถือลัทธิเต๋า"
+ taoism_religion_desc:0 "เต๋าคือแหล่งกำเนิด รูปแบบ และสารัตถะ ซึ่งสรรพสิ่งดำรงอยู่ การดำเนินชีวิตอย่างกลมกลืนกับเต๋าจะนำไปสู่ความสงบ ความพึงพอใจ และเมื่อตายไป จะได้ขึ้นไปสู่การดำรงอยู่ภายในเต๋าในฐานะจิตวิญญาณอมตะ"
+
+ taoism_high_god_name:0 "เต๋า"
+ taoism_high_god_name_2:0 "$taoism_high_god_name$" # Optional translation alt
+ taoism_high_god_name_possessive:0 "แห่งเต๋า"
+ taoism_high_god_name_alternate:0 "มรรควิถี"
+ taoism_high_god_name_alternate_possessive:0 "แห่งมรรควิถี"
+ taoism_good_god_name_three_pure_ones:0 "สามองค์บริสุทธิ์"
+ taoism_devil_name:0 "ความไม่ลงรอย"
+ taoism_devil_name_possessive:0 "แห่งความไม่ลงรอย"
+ taoism_house_of_worship:0 "$paganism_house_of_worship$"
+ taoism_house_of_worship_2:0 "$paganism_house_of_worship_2$" # Optional translation alt
+ taoism_house_of_worship_3:0 "$paganism_house_of_worship_3$" # Optional translation alt
+ taoism_house_of_worship_plural:0 "$paganism_house_of_worship_plural$"
+ taoism_religious_symbol:0 "ไท่จี๋ถู"
+ taoism_religious_symbol_2:0 "$taoism_religious_symbol$" # Optional translation alt
+ taoism_religious_symbol_3:0 "$taoism_religious_symbol$" # Optional translation alt
+ taoism_religious_text:0 "เต้าจั้ง"
+ taoism_religious_text_2:0 "$taoism_religious_text$" # Optional translation alt
+ taoism_religious_text_3:0 "$taoism_religious_text$" # Optional translation alt
+ taoism_religious_head_title:0 "เทียนซือ"
+ taoism_religious_head_title_name:0 "บัลลังก์เทียนซือ"
+ taoism_devotee_male:0 "$taoism_devotee_neuter$"
+ taoism_devotee_male_plural:0 "$taoism_devotee_neuter_plural$"
+ taoism_devotee_female:0 "$taoism_devotee_neuter$"
+ taoism_devotee_female_plural:0 "$taoism_devotee_neuter_plural$"
+ taoism_devotee_neuter:0 "เต้าซื่อ"
+ taoism_devotee_neuter_plural:0 "เต้าซื่อ"
+ taoism_priest_male:0 "$taoism_devotee_neuter$"
+ taoism_priest_male_plural:0 "$taoism_devotee_neuter_plural$"
+ taoism_priest_female:0 "$taoism_devotee_neuter$"
+ taoism_priest_female_plural:0 "$taoism_devotee_neuter_plural$"
+ taoism_priest_neuter:0 "$taoism_devotee_neuter$"
+ taoism_priest_neuter_plural:0 "$taoism_devotee_neuter_plural$"
+ taoism_alternate_priest_term_plural:0 "ปรมาจารย์"
+ taoism_divine_realm:0 "เต๋า"
+ taoism_divine_realm_2:0 "$taoism_divine_realm$" # Optional translation alt
+ taoism_divine_realm_3:0 "$taoism_divine_realm$" # Optional translation alt
+ taoism_positive_afterlife:0 "$taoism_divine_realm$"
+ taoism_positive_afterlife_2:0 "$taoism_divine_realm$" # Optional translation alt
+ taoism_positive_afterlife_3:0 "$taoism_divine_realm$" # Optional translation alt
+ taoism_negative_afterlife:0 "$taoism_divine_realm$"
+ taoism_negative_afterlife_2:0 "$taoism_divine_realm$" # Optional translation alt
+ taoism_negative_afterlife_3:0 "$taoism_divine_realm$" # Optional translation alt
+
+ taoism_creator_god_name:0 "หยวนสื่อเทียนจุน เทพเจ้าผู้สูงส่งแห่งปฐมกาล"
+ taoism_creator_god_name_possessive:0 "แห่งหยวนสื่อเทียนจุน เทพเจ้าผู้สูงส่งแห่งปฐมกาล"
+ taoism_health_god_name:0 "หลี่เถียไกว่"
+ taoism_health_god_name_possessive:0 "แห่งหลี่เถียไกว่"
+ taoism_fertility_god_name:0 "$taoism_health_god_name$"
+ taoism_fertility_god_name_possessive:0 "$taoism_health_god_name_possessive$"
+ taoism_wealth_god_name:0 "หลี่ว์ต้งปิน"
+ taoism_wealth_god_name_possessive:0 "แห่งหลี่ว์ต้งปิน"
+ taoism_household_god_name:0 "$taoism_knowledge_god_name$"
+ taoism_household_god_name_possessive:0 "$taoism_knowledge_god_name_possessive$"
+ taoism_fate_god_name:0 "$taoism_high_god_name$"
+ taoism_fate_god_name_possessive:0 "$taoism_high_god_name_possessive$"
+ taoism_knowledge_god_name:0 "เล่าจื๊อ"
+ taoism_knowledge_god_name_possessive:0 "แห่งเล่าจื๊อ"
+ taoism_war_god_name:0 "ฮั่นจงหลี"
+ taoism_war_god_name_possessive:0 "แห่งฮั่นจงหลี"
+ taoism_trickster_god_name:0 "$christianity_trickster_god_name$"
+ taoism_trickster_god_name_possessive:0 "$christianity_trickster_god_name_possessive$"
+ taoism_night_god_name:0 "เหอเซียนกู"
+ taoism_night_god_name_possessive:0 "แห่งเหอเซียนกู"
+ taoism_water_god_name:0 "สุ่ยกวน"
+ taoism_water_god_name_possessive:0 "แห่งสุ่ยกวน"
+ witchgodname_taoism_daode_tianzun:0 "เต้าเต๋อเทียนจุน"
+ witchgodname_taoism_daode_tianzun_possessive:0 "แห่งเต้าเต๋อเทียนจุน"
+
+ #Zhengyi
+ zhengyi:0 "เจิ้งอี"
+ zhengyi_adj:0 "เจิ้งอี"
+ zhengyi_adherent:0 "ผู้นับถือเจิ้งอี"
+ zhengyi_adherent_plural:0 "ผู้นับถือเจิ้งอี"
+ zhengyi_desc:0 "แตกต่างจากสำนักเต๋าอื่น ๆ ผู้นับถือเจิ้งอีปฏิบัติตามลำดับชั้นทางเทววิทยาที่เข้มงวดภายใต้เทียนซือ ผู้ปฏิบัติสร้างและขายยันต์ป้องกันเพื่อป้องกันการสูญเสียชี่ พลังงานชีวิตที่หล่อเลี้ยงสิ่งมีชีวิตทั้งปวง"
+ 
+ zhengyi_positive_afterlife:0 "วังแห่งความมืดอันยิ่งใหญ่"
+ zhengyi_negative_afterlife:0 "คุกปฐพี"
+
+ #Shangqing
+ shangqing:0 "ซ่างชิง"
+ shangqing_adj:0 "ซ่างชิง"
+ shangqing_adherent:0 "ผู้นับถือซ่างชิง"
+ shangqing_adherent_plural:0 "ผู้นับถือซ่างชิง"
+ shangqing_desc:0 "ลัทธิเต๋าซ่างชิงเป็นรูปแบบที่โดดเด่นของลัทธิเต๋าในสมัยราชวงศ์ถัง ผู้ติดตามพยายามประสานตนเองเข้ากับจักรวาลผ่านการทำสมาธิและการออกกำลังกาย ตรงข้ามกับการใช้ยันต์และการเล่นแร่แปรธาตุที่ใช้โดยสาขาอื่น ๆ ของลัทธิเต๋า"
+
+ #Quanzhen
+ quanzhen:0 "ฉวนเจิน"
+ quanzhen_adj:0 "ฉวนเจิน"
+ quanzhen_adherent:0 "ผู้นับถือฉวนเจิน"
+ quanzhen_adherent_plural:0 "ผู้นับถือฉวนเจิน"
+ quanzhen_desc:0 "ผู้ติดตามลัทธิเต๋าฉวนเจินฝึกฝนการเล่นแร่แปรธาตุภายในเพื่อ ทำให้ร่างกายสมบูรณ์แบบและประสานตนเองเข้ากับเต๋า ผ่านกระบวนการนี้ ผู้ปฏิบัติจะบรรลุอายุยืนยาวทางกายภาพและความเป็นอมตะทางจิตวิญญาณ"

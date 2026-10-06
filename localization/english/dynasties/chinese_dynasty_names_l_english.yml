@@ -1,0 +1,586 @@
+﻿l_english: 
+
+ dynn_Ai_827E: "อ้าย"
+ dynn_Aluhun_963F_9B6F_6E3E: "อาลู่หุน"
+ dynn_Ao_6556: "อ๋าว"
+ dynn_Ba_5DF4: "ปา"
+ dynn_Bai_6822: "ไป๋"
+ dynn_Bai_767: "ไป๋"
+ dynn_Bai_767D: "ไป๋" # 白
+ dynn_Bao_5305: "เปา" # 包
+ dynn_Bao_5BF6: "เป่า"
+ dynn_Bao_9B91: "เป้า" # 鮑
+ dynn_Bei_8C9D: "เป้ย"
+ dynn_Ben_5954: "เปิน"
+ dynn_Bi_7562: "ปี้" # 畢
+ dynn_Bian_535E: "เปี้ยน"
+ dynn_Bian_908A: "เปียน" # 邊
+ dynn_Bie_5225: "เปี๋ย" # 別
+ dynn_Bo_767D: "ไป๋"
+ dynn_Boerzhijin_5B5B_5152_53EA_65A4: "เป้ยเอ๋อร์จือจิน"
+ dynn_Bozhulu_5B5B_672E_9B6F: "เป้ยซู่ลู่"
+ dynn_Bu_535C: "โป๋"
+ dynn_Cai_8521: "ไช่" # 蔡
+ dynn_Cao_66F9: "เฉา" # 曹
+ dynn_Cen_5C91: "เฉิน"
+ dynn_Ceng_66: "เฉิง"
+ dynn_Ceng_66FE: "เฉิง" # 曾
+ dynn_Cha_67E5: "ฉา" # 查
+ dynn_Chai_67F4: "ไฉ"
+ dynn_Chang_5E38: "ฉาง" # 常
+ dynn_Chao_5DE2: "เฉา"
+ dynn_Chao_6641: "เฉา" # 晁
+ dynn_Che_8ECA: "เชอ"
+ dynn_Chen_191: "เฉิน"
+ dynn_Chen_218: "เฉิน"
+ dynn_Chen_298: "เฉิน"
+ dynn_Chen_387: "เฉิน"
+ dynn_Chen_396: "เฉิน"
+ dynn_Chen_6C88: "เสิ่น"
+ dynn_Chen_81E3: "เฉิน"
+ dynn_Chen_8AF6: "เฉิน"
+ dynn_Chen_9648: "เฉิน" # 陳
+ dynn_Chen_9673: "เฉิน" # 陈
+ dynn_Cheng_6210: "เฉิง"
+ dynn_Cheng_627F: "เฉิง"
+ dynn_Cheng_7A0B: "เฉิง" # 程
+ dynn_Cheng_7A0B_two: "เฉิง"
+ dynn_Chong_79CD: "จง"
+ dynn_Chou_4EC7: "โฉว"
+ dynn_Chu_5132: "ฉู่"
+ dynn_Chu_695A: "ฉู่" # 楚
+ dynn_Chu_891A: "ฉู่"
+ dynn_Cui_5D14: "ชุย"
+ dynn_Da_5927: "ต้า"
+ dynn_Dai_3: "ไต้"
+ dynn_Dai_4EE3: "ไต้"
+ dynn_Dai_6234: "ไต้" # 戴
+ dynn_Dan_55AE: "ตาน" # 單
+ dynn_Dang_515A: "ตั่ง"
+ dynn_Deng_515A: "ตั่ง"
+ dynn_Deng_9093: "เติ้ง"
+ dynn_Deng_9127: "เติ้ง"
+ dynn_Di_72C4: "ตี๋" # 狄
+ dynn_Diao_5201: "เตียว"
+ dynn_Ding_4E01: "ติง" # 丁
+ dynn_Diwu_7B2C_4E94: "ตี้อู่"
+ dynn_Dong_8463: "ต่ง" # 董
+ dynn_Dou_7AC7: "โต้ว"
+ dynn_Doulu_8C46_76E7: "โต้วหลู"
+ dynn_Du_675C: "ตู้" # 杜
+ dynn_Du_7368: "ตู๋" # 獨
+ dynn_Duan_6BB5: "ต้วน" # 段
+ dynn_Dugu_72EC_5B64: "ตู๋กู" # 独孤
+ dynn_Dugu_7368: "ตู๋" # 獨
+ dynn_Dugu_7368_5B64: "ตู๋กู"
+ dynn_Fan_6A0A: "ฝาน"
+ dynn_Fan_8303: "ฟ่าน" # 范
+ dynn_Fang_623F: "ฝาง"
+ dynn_Fang_65B9: "ฟาง" # 方
+ dynn_Fei_8CBB: "เฟ่ย" # 費
+ dynn_Feng_51AF: "เฝิง"
+ dynn_Feng_5C01: "เฟิง"
+ dynn_Feng_8C50: "เฟิง" # 豐
+ dynn_Feng_99AE: "เฝิง" # 馮
+ dynn_Fu_4F0F: "ฝู"
+ dynn_Fu_5085: "ฟู่"
+ dynn_Fu_51: "ฝู"
+ dynn_Fu_5: "ฝู"
+ dynn_Fu_5BCC: "ฟู่" # 富
+ dynn_Fu_7B26: "ฝู" # 符
+ dynn_Fu_82FB: "ฝู"
+ dynn_Gai_84CB: "ไก้"
+ dynn_Gan_5E72: "ก้าน"
+ dynn_Gan_7518: "กาน"
+ dynn_Gao_9AD8: "เกา" # 高
+ dynn_Ge_6208: "เกอ"
+ dynn_Ge_64D6: "คา"
+ dynn_Ge_845B: "เก๋อ"
+ dynn_Gegan_7D07: "เหอ"
+ dynn_Geng_803F: "เกิ่ง"
+ dynn_Gong_8CA2: "ก้ง"
+ dynn_Gong_978F: "ก่ง" # 鞏
+ dynn_Gong_9F94: "กง" # 龔
+ dynn_Gong_9F9A: "กง"
+ dynn_Gongsun_516C: "กง"
+ dynn_Gongsun_516C_5B6B: "กงซุน"
+ dynn_Gou_53E5: "จวี้"
+ dynn_Gou_82DF: "โกว"
+ dynn_Goulong_53E5_9F8D: "จวี้หลง"
+ dynn_Gu_53E4: "กู่"
+ dynn_Gu_8F9C: "กู"
+ dynn_Gu_9867: "กู้" # 顧
+ dynn_Guan_7BA1: "ก่วน" # 管
+ dynn_Guan_95DC: "กวาน"
+ dynn_Gui_6842: "กุ้ย"
+ dynn_Gui_6B78: "กุย" # 歸
+ dynn_Guo_90ED: "กัว"
+ dynn_Han_97D3: "หาน" # 韓
+ dynn_Hao_90DD: "ห่าว" # 郝
+ dynn_He_4F55: "เหอ" # 何
+ dynn_He_548C: "เหอ" # 和
+ dynn_He_8CC0: "เฮ่อ" # 賀
+ dynn_Hei_9ED1: "เฮย"
+ dynn_Heichezi: "เฮยเชอจื่อ"
+ dynn_Helan_8CC0: "เฮ่อ"
+ dynn_Hongjila_5F18_5409_524C: "หงจี๋หล่า"
+ dynn_Hou_4FAF: "โหว" # 侯
+ dynn_Hu_6248: "หู้"
+ dynn_Hu_80E1: "หู" # 胡
+ dynn_Hua_83EF: "หัว"
+ dynn_Huan_6853: "หวน"
+ dynn_Huang_7687: "หวง" # 皇
+ dynn_Huang_9EC3: "หวง" # 黃
+ dynn_Huang_9EC4: "หวง"
+ dynn_Huangfu_7687_752B: "หวงฝู่"
+ dynn_Hui_60E0: "ฮุ่ย"
+ dynn_Huo_970D: "ฮั่ว" # 霍
+ dynn_Ji_59EC: "จี"
+ dynn_Ji_5B63: "จี้"
+ dynn_Ji_7D00: "จี้"
+ dynn_Ji_8A08: "จี้"
+ dynn_Jia_5BB6: "เจีย" # 家
+ dynn_Jia_8: "เจีย"
+ dynn_Jia_8CC8: "เจีย"
+ dynn_Jia_8D3E: "เจี่ย"
+ dynn_Jiagu_5939_8C37: "เจียกู่"
+ dynn_Jiagu_593E_8C37: "เจียกู่"
+ dynn_Jian_7C21: "เจี่ยน"
+ dynn_Jian_8E47: "เจี่ยน" # 蹇
+ dynn_Jiang_43: "เจียง"
+ dynn_Jiang_59DC: "เจียง" # 姜
+ dynn_Jiang_6C5F: "เจียง" # 江
+ dynn_Jiang_848B: "เจี่ยง"
+ dynn_Jiang_8523: "เจี่ยง" # 蔣
+ dynn_Jiao_7126: "เจียว"
+ dynn_Jie_63ED: "เจีย"
+ dynn_Jie_89E3: "เจี่ย"
+ dynn_Jin_91D1: "จิน"
+ dynn_Jin_9773: "จิ้น"
+ dynn_Jing_4E95: "จิ่ง"
+ dynn_Jing_4EAC: "จิง"
+ dynn_Jing_51C0: "จิ้ง"
+ dynn_Jing_5F90: "สวี"
+ dynn_Jing_656C: "จิ้ง"
+ dynn_Jing_666F: "จิ่ง"
+ dynn_Jing_8346: "จิง"
+ dynn_Jing_834A: "จิง"
+ dynn_Ju_4FF1: "จวี้"
+ dynn_Ju_97A0: "จู"
+ dynn_Kai_958B: "คาย"
+ dynn_Kang_5EB7: "คัง"
+ dynn_Ke_67EF: "เคอ"
+ dynn_Kong_5B54: "ข่ง" # 孔
+ dynn_Kou_5BC7: "โค่ว"
+ dynn_Kuo_95CA: "คั่ว"
+ dynn_Lai_4F86: "ไหล" # 來
+ dynn_Lan_85CD: "หลาน"
+ dynn_Lang_90CE: "หลาง"
+ dynn_Le_6A02: "เล่อ" # 樂
+ dynn_Lei_96F7: "เหลย"
+ dynn_Leng_51B7: "เหลิ่ง" # 冷
+ dynn_Li_53B2: "ลี่" # 厲
+ dynn_Li_674E: "หลี่" # 李
+ dynn_Li_9ECE: "หลี" # 黎
+ dynn_Lian_7DF4: "เลี่ยน"
+ dynn_Lian_9023: "เหลียน"
+ dynn_Liang_6881: "เหลียง" # 梁
+ dynn_Liao_5ED6: "เลี่ยว" # 廖
+ dynn_Lin_120: "หลิน"
+ dynn_Lin_155: "หลิน"
+ dynn_Lin_164: "หลิน"
+ dynn_Lin_166: "หลิน"
+ dynn_Lin_170: "หลิน"
+ dynn_Lin_6797: "หลิน"
+ dynn_Lin_9: "หลิน"
+ dynn_Ling_51CC: "หลิง"
+ dynn_Ling_9675: "หลิง"
+ dynn_Linghu_4EE4: "ลิ่ง"
+ dynn_Linghu_4EE4_72D0: "หลิงหู" # 令狐
+ dynn_Lingxi: "หลิงซี"
+ dynn_Liu_258: "หลิว"
+ dynn_Liu_288: "หลิว"
+ dynn_Liu_310: "หลิว"
+ dynn_Liu_312: "หลิว"
+ dynn_Liu_5218: "หลิว"
+ dynn_Liu_5289: "หลิว" # 刘
+ dynn_Liu_67F3: "หลิว"
+ dynn_Liu_6CD5: "ฝ่า"
+ dynn_Liu_7559: "หลิว" # 留
+ dynn_Long_9F8D: "หลง"
+ dynn_Lou_5A04: "โหลว"
+ dynn_Lou_5A41: "โหลว"
+ dynn_Lou_697C: "โหลว"
+ dynn_Lou_6A13: "โหลว"
+ dynn_Lu_5362: "หลู" # 卢
+ dynn_Lu_5415: "หลู่"
+ dynn_Lu_5442: "หลู่"
+ dynn_Lu_5EEC: "หลู"
+ dynn_Lu_63: "หลู่"
+ dynn_Lu_76E7: "หลู"
+ dynn_Lu_797F: "ลู่"
+ dynn_Lu_8DEF: "ลู่"
+ dynn_Lu_95AD: "หลู่"
+ dynn_Lu_9678: "ลู่" # 陸
+ dynn_Lu_9B6F: "หลู่" # 魯
+ dynn_Lu_9E7F: "ลู่"
+ dynn_Luo_7F85: "หลัว"
+ dynn_Luo_99F1: "ลั่ว"
+ dynn_Luqiu_95AD: "หลู่"
+ dynn_Ma_99AC: "หม่า" # 馬
+ dynn_Ma_9A6C: "หม่า"
+ dynn_Mai_9EA5: "ม่าย"
+ dynn_Mamura_99AC_6728_524C: "หม่ามู่หล่า"
+ dynn_Mao_6BDB: "เหมา" # 毛
+ dynn_Mao_8305: "เหมา" # 茅
+ dynn_Mei_11: "เหมย"
+ dynn_Mei_6885: "เหมย" # 梅
+ dynn_Men_9580: "เหมิน"
+ dynn_Meng_5B5F: "เมิ่ง"
+ dynn_Meng_8499: "เหมิง" # 蒙
+ dynn_Mi_7C73: "หมี่"
+ dynn_Mi_9E8B: "หมี"
+ dynn_Miao_7E46: "โหมว"
+ dynn_Miao_82D7: "เหมียว"
+ dynn_Ming_660E: "หมิง"
+ dynn_Mo_83AB: "ม่อ" # 莫
+ dynn_Moqi_4E07_4FDF: "ม่อฉี"
+ dynn_Mou_67D0: "โหม่ว"
+ dynn_Mou_725F: "โหมว"
+ dynn_Mu_7A46: "มู่"
+ dynn_Murong_6155: "มู่" # 慕
+ dynn_Murong_6155_5BB9: "มู่หรง"
+ dynn_Nan_5357: "หนาน"
+ dynn_Nangong_5357: "หนาน"
+ dynn_Ni_502A: "หนี" # 倪
+ dynn_Nie_11: "เนี่ย"
+ dynn_Nie_8076: "เนี่ย" # 聶
+ dynn_Nipanggu_5C3C_5396: "หนีผัง"
+ dynn_Niu_725B: "หนิว" # 牛
+ dynn_Ogolanci_7389_53E4_502B_8D64: "ยู่กู่หลุนฉื้อ"
+ dynn_Ou_5340: "ชวี"
+ dynn_Ou_6B50: "โอว" # 歐
+ dynn_Ouyang_6B50: "โอว"
+ dynn_Ouyang_6B50_967D: "โอวหยาง"
+ dynn_Pan_6F58: "พาน" # 潘
+ dynn_Pang_9F90: "ผาง" # 龐
+ dynn_Pei_88F4: "เผย์"
+ dynn_Peng_5F6D: "เผิง"
+ dynn_Pi_76AE: "ผี"
+ dynn_Pouyuandaizhudi_5143_4E16_7956: "หยวนซื่อจู่"
+ dynn_Pouyuandaizhudi_5143_4EC1_5B97: "หยวนเหรินจง"
+ dynn_Pouyuandaizhudi_5143_6587_5B97: "หยวนเหวินจง"
+ dynn_Pouyuandaizhudi_5143_660E_5B97: "หยวนหมิงจง"
+ dynn_Pouyuandaizhudi_5143_6CF0_5B9A_5E1D: "หยวนไท่ติ้งตี้"
+ dynn_Pouyuandaizhudi_5143_82F1_5B97: "หยวนอิงจง"
+ dynn_Pouyuandaizhudi_5143_9806_5E1D: "หยวนซุ่นตี้"
+ dynn_Pu_84B2: "ผู" # 蒲
+ dynn_Pucha_84B2_5BDF: "ผูฉา"
+ dynn_Puwei_50D5: "ผู"
+ dynn_Qi_621A: "ชี" # 戚
+ dynn_Qi_7941: "ฉี"
+ dynn_Qi_7DA6: "ฉี" # 綦
+ dynn_Qi_9F4A: "ฉี" # 齊
+ dynn_Qian_9322: "เฉียน"
+ dynn_Qian_94B1: "เฉียน"
+ dynn_Qiang_5F37: "เฉียง" # 強
+ dynn_Qiao_55AC: "เฉียว"
+ dynn_Qiao_8B59: "เชี่ยว"
+ dynn_Qin_79E6: "ฉิน"
+ dynn_Qing_9752: "ชิง"
+ dynn_Qingyang_9752: "ชิง"
+ dynn_Qingyang_9752_967D: "ชิงหยาง"
+ dynn_Qiu_4E18: "ชิว"
+ dynn_Qiu_4EC7: "โฉว"
+ dynn_Qu_5340: "ชวี"
+ dynn_Qu_5C48: "ชวี"
+ dynn_Qu_66F2: "ชวี"
+ dynn_Qu_77BF: "ฉวี"
+ dynn_Quan_5168: "ฉวน"
+ dynn_Quan_6B0A: "ฉวน" # 權
+ dynn_Ran_5189: "หร่าน"
+ dynn_Rao_9952: "เหรา" # 饒
+ dynn_Ren_4EFB: "เริ่น" # 任
+ dynn_Rong_620E: "หรง"
+ dynn_Rong_69AE: "หรง"
+ dynn_Ru_8339: "หรู"
+ dynn_Ruan_962E: "หร่วน"
+ dynn_Rui_82AE: "รุ่ย" # 芮
+ dynn_Ruzhe: "หรูเจ๋อ"
+ dynn_Sang_6851: "ซาง" # 桑
+ dynn_Seng_50E7: "เซิง"
+ dynn_Shan_55AE: "ตาน"
+ dynn_Shan_82EB: "ชาน"
+ dynn_Shang_4E0A: "ซ่าง" # 上
+ dynn_Shang_5546: "ซาง" # 商
+ dynn_Shang_5C1A: "ซ่าง" # 尚
+ dynn_Shangguan_4E0A: "ซ่าง"
+ dynn_Shangguan_4E0A_5B98: "ซ่างกวาน"
+ dynn_Shao_90B5: "ซ่าว" # 邵
+ dynn_She_6298: "เจ๋อ"
+ dynn_Shen_614E: "เซิ่น"
+ dynn_Shen_6C88: "เสิ่น"
+ dynn_Shen_7533: "เซิน" # 申
+ dynn_Sheng_76DB: "เซิ่ง"
+ dynn_Shentu_7533: "เซิน"
+ dynn_Shi_4E16: "ซื่อ" # 世
+ dynn_Shi_4F8D: "ซื่อ" # 侍
+ dynn_Shi_53F2: "สื่อ"
+ dynn_Shi_58EB: "ซื่อ"
+ dynn_Shi_5E2B: "ซือ"
+ dynn_Shi_65BD: "ซือ" # 施
+ dynn_Shi_6642: "สือ" # 時
+ dynn_Shi_77F3: "สือ"
+ dynn_Shi_82CF: "ซู"
+ dynn_Shi_8: "ซือ"
+ dynn_Shi_91CA: "ซื่อ"
+ dynn_Shi_91CB: "ซื่อ" # 釋
+ dynn_Shima_77F3: "สือ"
+ dynn_Shiqi_4F8D_5176: "ซื่อฉี"
+ dynn_Shizhan_77F3_76DE: "สือจ้าน"
+ dynn_Shu_18: "ซู"
+ dynn_Shu_675F: "ซู่"
+ dynn_Shu_8212: "ซู" # 舒
+ dynn_Shulv_8FF0: "ซู่"
+ dynn_Si_53F8: "ซือ" # 司
+ dynn_Sikong_53F8_7A7A: "ซือคง"
+ dynn_Sima_53F8_99AC: "ซือหม่า" # 司馬
+ dynn_Situ_53F8_5F92: "ซือถู"
+ dynn_Song_5B8B: "ซ่ง" # 宋
+ dynn_Su_40: "ซู"
+ dynn_Su_82CF: "ซู" # 蘇
+ dynn_Su_8607: "ซู" # 粟
+ dynn_Sun_5B59: "ซุน" # 孫
+ dynn_Sun_5B6B: "ซุน"
+ dynn_Sunmou_5B6B: "ซุน"
+ dynn_Suo_7D22: "สั่ว"
+ dynn_Sushen: "ซู่เซิน"
+ dynn_Tai_592A: "ไท่"
+ dynn_Tan_6A80: "ถัน"
+ dynn_Tan_88F4: "เผย์" # 裴
+ dynn_Tan_8B5A: "ถัน"
+ dynn_Tang_5510: "ถัง"
+ dynn_Tang_6E6F: "ทัง" # 湯
+ dynn_Tangkuo_5510: "ถัง"
+ dynn_Tangkuo_5510_62EC: "ถังคั่ว"
+ dynn_Tao_9676: "เถา" # 陶
+ dynn_Teng_6ED5: "เถิง" # 滕
+ dynn_Tian_5929: "เทียน"
+ dynn_Tian_7530: "เถียน" # 田
+ dynn_Tong_540C: "ถง"
+ dynn_Tong_7AE5: "ถง"
+ dynn_Tu_5857: "ถู"
+ dynn_Tu_5C60: "ถู"
+ dynn_Tu_6D82: "ถู"
+ dynn_Tui_63A8: "ทุย"
+ dynn_Tuoba_62D3: "ทั่ว"
+ dynn_Tuoba_62D3_8DCB: "ทั่วป๋า"
+ dynn_Wan_842C: "ว่าน"
+ dynn_Wang_6C6A: "วาง" # 汪
+ dynn_Wang_738B: "หวาง" # 王
+ dynn_Wanyan_5B8C: "หวาน"
+ dynn_Wanyan_5B8C_984F: "หวานเหยียน"
+ dynn_Wei_5371: "เวย" # 危
+ dynn_Wei_885B: "เว่ย" # 衛
+ dynn_Wei_885E: "เว่ย"
+ dynn_Wei_97CB: "เหวย" # 魏
+ dynn_Wei_97E6: "เหวย"
+ dynn_Wei_9: "เว่ย"
+ dynn_Wei_9B4F: "เว่ย"
+ dynn_Wen_6587: "เหวิน" # 文
+ dynn_Wen_6E29: "เวิน"
+ dynn_Wen_6EAB: "เวิน"
+ dynn_Wen_805E: "เหวิน"
+ dynn_Weng_7FC1: "เวิง" # 翁
+ dynn_Wenren_805E_4EBA: "เหวินเหริน"
+ dynn_Wong_7FC1: "เวิง"
+ dynn_Wu_169: "อู๋"
+ dynn_Wu_201: "อู๋"
+ dynn_Wu_27: "อู๋"
+ dynn_Wu_4F0D: "อู๋"
+ dynn_Wu_5433: "อู๋" # 吳
+ dynn_Wu_5434: "อู๋" # 吳
+ dynn_Wu_5DEB: "อู"
+ dynn_Wu_6B66: "อู่" # 武
+ dynn_Wu_70CF: "อู"
+ dynn_Wu_7121: "อู๋"
+ dynn_Wu_9114: "อู"
+ dynn_Wugusun_70CF: "อู"
+ dynn_Wulin_4E4C_6797: "อูหลิน"
+ dynn_Wulin_70CF_6797: "อูหลิน"
+ dynn_Wulinda_5140: "อู้"
+ dynn_Xi_595A: "ซี"
+ dynn_Xi_5E2D: "สี"
+ dynn_Xia_590F: "เซี่ย" # 夏
+ dynn_Xiahou_590F: "เซี่ย"
+ dynn_Xiahou_590F_4FAF: "เซี่ยโหว"
+ dynn_Xian_9BAE: "เซียน"
+ dynn_Xiang_5411: "เซี่ยง" # 向
+ dynn_Xiang_9805: "เซี่ยง"
+ dynn_Xiang_9879: "เซี่ยง"
+ dynn_Xiangli_76F8: "เซียง"
+ dynn_Xiangli_76F8_91CC: "เซียงหลี่"
+ dynn_Xianyu_9BAE_4E8E: "เซียนอวี๋"
+ dynn_Xiao_66C9: "เซียว"
+ dynn_Xiao_8427: "เซียว" # 萧
+ dynn_Xiao_856D: "เซียว" # 蕭
+ dynn_Xie_89E3: "เจี่ย"
+ dynn_Xie_8B1D: "เซี่ย"
+ dynn_Ximen_897F: "ซี"
+ dynn_Ximen_897F_9580: "ซีเหมิน"
+ dynn_Xin_4FE1: "ซิ่น"
+ dynn_Xin_8F9B: "ซิน" # 辛
+ dynn_Xing_90A2: "สิง" # 邢
+ dynn_Xiong_718A: "สยง"
+ dynn_Xu_5F90: "สวี" # 徐
+ dynn_Xu_80E5: "ซวี" # 胥
+ dynn_Xu_8A31: "สวี่" # 許
+ dynn_Xuan_5BA3: "เซวียน"
+ dynn_Xue_859B: "เซวีย"
+ dynn_Xue_8B1D: "เซี่ย"
+ dynn_Xue_96EA: "เสวี่ย"
+ dynn_Yan_56B4: "เหยียน"
+ dynn_Yan_664F: "เยี่ยน"
+ dynn_Yan_6BB7: "อิน"
+ dynn_Yan_71D5: "เยี่ยน"
+ dynn_Yan_95BB: "เหยียน" # 閻
+ dynn_Yan_984F: "เหยียน" # 顏
+ dynn_Yang_63DA: "หยาง"
+ dynn_Yang_6768: "หยาง" # 杨
+ dynn_Yang_694A: "หยาง" # 楊
+ dynn_Yang_7F8A: "หยาง" # 羊
+ dynn_Yang_967D: "หยาง"
+ dynn_Yao_59DA: "เหยา" # 姚
+ dynn_Yao_85E5: "เย่า"
+ dynn_Yao_8981: "เย่า"
+ dynn_Yaoli_59DA: "เหยา"
+ dynn_Ye_4E5F: "เหย่"
+ dynn_Ye_63: "เย่"
+ dynn_Ye_68: "เย่"
+ dynn_Ye_8449: "เย่" # 葉
+ dynn_Yelv_8036: "เย่"
+ dynn_Yi_6613: "อี้"
+ dynn_Yi_674E: "หลี่"
+ dynn_Yin_5C39: "อิ่น" # 尹
+ dynn_Yin_6BB7: "อิน"
+ dynn_Ying_61C9: "อิง"
+ dynn_Ying_7A4E: "อิ่ง"
+ dynn_You_5C24: "โหยว"
+ dynn_You_6E38: "โหยว"
+ dynn_Yu_4E8E: "อวี๋"
+ dynn_Yu_4F59: "อวี๋" # 余
+ dynn_Yu_4FDE: "อวี๋"
+ dynn_Yu_55BB: "อวี้" # 喻
+ dynn_Yu_65BC: "อวี๋"
+ dynn_Yu_67F3: "หลิว"
+ dynn_Yu_807F: "อวี้"
+ dynn_Yu_82D1: "ย่วน"
+ dynn_Yu_851A: "เว่ย"
+ dynn_Yu_865E: "อวี๋" # 虞
+ dynn_Yu_9B5A: "อวี๋"
+ dynn_Yu_9C7C: "อวี๋" # 鱼
+ dynn_Yuan_48: "หยวน"
+ dynn_Yuan_5143: "หยวน"
+ dynn_Yuan_54E1: "หยวน" # 員
+ dynn_Yuan_63: "หยวน"
+ dynn_Yuan_6E90: "หยวน"
+ dynn_Yuan_8881: "หยวน"
+ dynn_yuan_fictional: "หยวน"
+ dynn_Yuchi_5C09_9072: "เว่ยฉือ"
+ dynn_Yue_1: "เยว่"
+ dynn_Yue_2: "เยว่"
+ dynn_Yue_5CB3: "เยว่" # 岳
+ dynn_Yue_6A02: "เล่อ"
+ dynn_Yuwen_5B87: "อวี่" # 宇
+ dynn_Yuwen_5B87_6587: "อวี่เหวิน"
+ dynn_Zan_661D: "จ้าน"
+ dynn_Zang_81E7: "จาง" # 臧
+ dynn_Zeng_66FE: "เฉิง" # 曾
+ dynn_Zha_67E5: "ฉา"
+ dynn_Zhai_7FDF: "ตี๋" # 翟
+ dynn_Zhan_5468: "โจว"
+ dynn_Zhan_8A79: "จาน"
+ dynn_Zhang_5F20: "จาง" # 張
+ dynn_Zhang_5F35: "จาง" # 彰
+ dynn_Zhang_638C: "จ่าง" # 掌
+ dynn_Zhang_7AE0: "จาง"
+ dynn_Zhangsun_9577: "จ่าง"
+ dynn_Zhangsun_9577_5B6B: "จ่างซุน"
+ dynn_Zhao_8499: "เหมิง"
+ dynn_Zhao_8D75: "จ้าว"
+ dynn_Zhao_8D99: "จ้าว" # 趙
+ dynn_Zhe_6298: "เจ๋อ" # 折
+ dynn_Zhen_7504: "เจิน"
+ dynn_Zhen_771F: "เจิน"
+ dynn_Zheng_90D1: "เจิ้ง" # 郑
+ dynn_Zheng_912D: "เจิ้ง" # 鄭
+ dynn_Zhi_652F: "จือ"
+ dynn_Zhong_4EF2: "จ้ง" # 仲
+ dynn_Zhong_79CD: "จง" # 種
+ dynn_Zhong_937E: "จง" # 鍾
+ dynn_Zhong_9418: "จง"
+ dynn_Zhou_107: "โจว"
+ dynn_Zhou_47: "โจว"
+ dynn_Zhou_5468: "โจว" # 周
+ dynn_Zhpu_5468: "โจว"
+ dynn_Zhu_6731: "จู"
+ dynn_Zhu_795D: "จู้" # 祝
+ dynn_Zhu_7AFA: "จู๋"
+ dynn_Zhu_8AF8: "จู" # 諸
+ dynn_Zhuang_838A: "จวง" # 莊
+ dynn_Zhuge_8AF8_845B: "จูเก่อ"
+ dynn_Zhuo_5353: "จัว" # 卓
+ dynn_Zhuye_6731_90AA: "จูเย๋" # 竺邪
+ dynn_Zi_5B50: "จื่อ"
+ dynn_Zong_5B97: "จง" # 宗
+ dynn_Zou_9112: "โจว" # 鄒
+ dynn_Zu_7956: "จู่"
+ dynn_Zuo_5DE6: "จั่ว"
+ dynn_Feng_4E30: "เฟิง"
+ dynn_Han_97E9: "หาน"
+ dynn_You_5E7D: "โยว"
+ dynn_Yan_95F2: "เหยียน"
+ dynn_Hua_534E: "หัว"
+ dynn_Wei_536B: "เว่ย"
+ dynn_Xie_8C22: "เซี่ย"
+ dynn_Zou_90B9: "โจว"
+ dynn_Yu_5B87: "อวี่"
+ dynn_Shui_6C34: "สุ่ย"
+ dynn_Dou_6597: "โต้ว"
+ dynn_Yun_4E91: "อวิ๋น"
+ dynn_Fei_8D39: "เฟ่ย"
+ dynn_Lan_84DD: "หลาน"
+ dynn_Min_95F5: "หมิ่น"
+ dynn_Ji_7EAA: "จี้"
+ dynn_Xu_8BB8: "สวี่"
+ dynn_Wanyan_5B8B_738B: "วานเหยียน"
+ dynn_Tangkuo_5510_62D8: "ถังคัว"
+ dynn_Yila_79FB_524B: "อี๋หลา"
+ dynn_Zhange_7C98_5272: "จางเอ๋อ"
+ dynn_Heishilie_7D87_77F3_70C8: "เฮยซื่อเลี่ย"
+ dynn_Nalan_7D0D_862D_fic_1: "น่าหลาน"
+ dynn_Guangjila_5149_5409_5244_fic_1: "กวางจี๋หล่า"
+ dynn_Hesujia_548C_901F_5609_fic_1: "เหอซู่เจีย"
+ dynn_Puxian_84B2_9BAA_fic_1: "ผูเซียน"
+ dynn_Suohan_68AD_7F55_fic_1: "ซัวหั่น"
+ dynn_Huilan_6703_862D_fic_1: "ฮุ่ยหลาน"
+ dynn_Bilan_5FC5_862D_fic_1: "ปี้หลาน"
+ dynn_Yang_694F: "หยาง"
+ dynn_Lulu: "หลูหลู่"
+ dynn_Wumeng: "อูเหมิง"
+ dynn_Rongnan: "หรงหนาน"
+ dynn_Dou_9B26: "โต้ว" # 斗
+ dynn_Puli_666E_91CC: "ผู่หลี่" # 普里
+ dynn_Zhao_5B8B: "ซ่ง" # 宋
+ dynn_Nong_5102: "หนง" # 侬
+ dynn_Degai_5F97_76D6: "เต๋อไก้" # 得盖
+ dynn_Yanzi_664F_5B50: "เยี่ยนจื่อ" # 晏子
+ dynn_Bozhou: "โป๋โจว"
+ dynn_Yizhou: "อี๋โจว"
+ dynn_Nanzhou: "หนานโจว"
+ dynn_Zhenxi: "เจินซี"
+ dynn_Luyang: "ลู่หยาง"
+ dynn_Sizhou: "ซื่อโจว"
+ dynn_Yezhou: "เย่โจว"
+ dynn_Shangxi: "ซ่างซี"
+ dynn_Tanyang: "ถ่านหยาง"

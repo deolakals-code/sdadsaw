@@ -1,0 +1,42 @@
+﻿l_english: 
+
+# Flight of the Tai, Mass migration main event
+tgp_tai_migration_event.1000.t: "การอพยพของชาวไท"
+tgp_tai_migration_event.1000.desc: "ระหว่างการประชุมสภาวันนี้ ข้าได้รับแจ้งเรื่องการอพยพครั้งใหญ่ของผู้ตั้งถิ่นฐานชาวไท [migration_leader.GetName] ผู้อาวุโสที่เป็นตัวแทนของชุมชนยืนอยู่ต่อหน้าข้า ขณะที่ [migration_leader.GetSheHe] นำเสนอเรื่องราวของ [migration_leader.GetHerHis] อย่างนอบน้อม\n\n"ข้า แต่ [ROOT.Char.GetTitleAsNameNoTooltip] เราแสวงหาคำแนะนำและบ้านใหม่ในฐานะอดีตประชากรของ [migration_origin_holder.GetName] ข้าพูดในนามของตระกูลมากมายและผู้คนนับพันที่หวังพึ่งพิง โปรดคุ้มครองเราจากอันตรายและมอบจุดมุ่งหมายแก่เรา เพื่อให้เราได้เป็นข้ารับใช้ที่มีประโยชน์ ซึ่งคู่ควรกับความเมตตาของท่าน"\n\nชะตากรรมของพวกเขาขึ้นอยู่กับวาจาของข้า"
+tgp_tai_migration_event.1000.a: "ข้ายินดีต้อนรับพวกเจ้าทุกคน ไม่ใช่ในฐานะแขก แต่ในฐานะราษฎรของข้า"
+tgp_tai_migration_event.1000.b: "เฉพาะผู้ที่มีทักษะเท่านั้นที่จะอาศัยอยู่ใน [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] ของข้าได้"
+tgp_tai_migration_event.1000.c: "คนมากปัญหาก็มากตาม ไปขอความช่วยเหลือที่อื่นเถอะ"
+tgp_tai_migration_event_1000.c_shooed_immigrants_tt: "ผู้อพยพอาจขอความช่วยเหลือจากผู้ปกครองใกล้เคียงอื่นในอนาคตอันใกล้"
+tgp_tai_migration_skilled_development_county_modifier: "การอพยพของช่างฝีมือ"
+tgp_tai_migration_migration_happened_county_modifier: "ผู้ตั้งถิ่นฐานชาวไท"
+tgp_tai_migration_migration_happened_character_modifier: "รับผู้อพยพจำนวนมาก"
+tgp_tai_migration_migration_rejected_character_modifier: "ปฏิเสธผู้อพยพ"
+
+# Lone skilled Tai character offers services
+tgp_tai_migration_event.2000.t: "ชาวไทผู้เปี่ยมพรสวรรค์"
+tgp_tai_migration_event.2000.desc: "[migrant_skilled_character.GetWomanMan] ผู้ชำนาญการที่อ้างว่ามาจากดินแดน [migrant_skilled_character.GetCulture.GetNameNoTooltip] ยืนอยู่ต่อหน้าข้าในฐานะผู้หางานที่มีความรู้ กิริยามารยาทของ [migrant_skilled_character.GetHerHis|U] ดูเหมือนจะสะท้อนถึงข่าวล่าสุดเกี่ยวกับการหลบหนีของพวกเขา\n\n"
+tgp_tai_migration_event.2000.wet_nurse.desc: ""ฝ่าบาท ข้าชื่อ [migrant_skilled_character.GetName] เป็นผู้ดูแลที่มีประสบการณ์พร้อมรับใช้ ข้าแข็งแรง ได้รับสารอาหารครบถ้วน และเข้าใจความต้องการของทารก ให้ข้าช่วยดูแลสายเลือดของท่านให้เติบโตเถิด""
+tgp_tai_migration_event.2000.champion.desc: ""นายท่านผู้เก่งกาจ ในบ้านเกิดข้าเป็นที่รู้จักในนาม [migrant_skilled_character.GetName] นักรบผู้สาบานตนและผู้ชนะการประลองมากมาย แขนของข้ามั่นคงและความภักดีของข้าไม่มีข้อกังขา ขอให้ข้าได้เป็นวีรชนของท่านเถิด""
+tgp_tai_migration_event.2000.travel_leader.desc: ""[ROOT.Char.GetTitleAsNameNoTooltip] ของข้า ข้าคือ [migrant_skilled_character.GetName] ผู้เดินทางข้ามทะเลทราย ดวงดาวเป็นแผนที่ของข้าและสายลมเป็นพันธมิตรของข้า ภายใต้การนำของข้า ไม่มีกองคาราวานใดหลงทาง และไม่มีเส้นทางใดน่ากังวล""
+tgp_tai_migration_event.2000.master_of_hunt.desc: ""เกิดมาเพื่อการล่า หล่อหลอมโดยป่ารกร้าง ข้ารู้จักกลิ่นของสัตว์ทุกตัวและความเงียบของป่าทุกแห่ง ข้าอ่านรอยเท้าสัตว์ได้อย่างไม่มีใครเหมือน ท่านว่าอย่างไร [ROOT.Char.GetTitleAsNameNoTooltip] ของข้า?"
+tgp_tai_migration_event.2000.court_physician.desc: ""ยาสมานแผลจากตำราโบราณและความคล่องแคล่วในการปฏิบัติงานภายใต้ความกดดัน ข้าคือ [migrant_skilled_character.GetWomanMan] คนเดียวที่ท่านต้องการเพื่อ ทำให้ร่างกายอันศักดิ์สิทธิ์ของท่านสงบลง [ROOT.Char.GetTitleAsNameNoTooltip] ของข้า พวกเขาเรียกข้าว่า [migrant_skilled_character.GetName]""
+tgp_tai_migration_event.2000.antiquarian.desc: ""ดวงตาของข้าได้เห็นตำนาน และมือของข้าได้สัมผัสอาณาจักรโบราณ อนุญาตให้ข้าอยู่ด้วยเถิด เพื่อให้ภูมิปัญญาของคนโบราณไปถึงราชสำนักของท่าน""
+tgp_tai_migration_event.2000.court_tutor.desc: ""ข้าได้สั่งสอนนักรบและรัฐบุรุษมามากมาย [ROOT.Char.GetTitleAsNameNoTooltip] ของข้า ทายาทของท่านก็จะบรรลุความยิ่งใหญ่ภายใต้การแนะนำของข้า เช่นกัน หากท่านอนุญาต""
+tgp_tai_migration_event.2000.end.desc: "\n\n[migrant_skilled_character.GetSheHe|U] ดูเหมือนจะต้องการที่พักพิงอย่างยิ่ง อาจเป็น เพราะเหตุผลที่พา [migrant_skilled_character.GetHerHim] มาที่นี่ แต่ชัดเจนว่ารู้ในวิชาชีพของ [migrant_skilled_character.GetHerHis] เป็นอย่างดี ข้าควรใช้ทักษะของ [migrant_skilled_character.GetHerHis] หรือไม่?"
+tgp_tai_migration_event.2000.a: "ข้าอาจต้องการบริการของเจ้า"
+tgp_tai_migration_event.2000.b: "ยังไม่ต้องการ แต่เจ้าควรอยู่กับเรา"
+tgp_tai_migration_event.2000.b.success: "[migrant_skilled_character.GetNameNoTooltip] เข้าร่วมราชสำนักของท่าน"
+tgp_tai_migration_event.2000.b.failure: "[migrant_skilled_character.GetNameNoTooltip] ปฏิเสธข้อเสนอของท่าน"
+tgp_tai_migration_event.2000.c: "ข้าต้องปฏิเสธ"
+
+# Noble Tai character and his family are asking for a spare county
+tgp_tai_migration_event.3000.t: "ข้อเสนอของคนรักครอบครัว"
+tgp_tai_migration_event.3000.desc: "ชาวต่างชาติผู้ซื่อตรงเข้าใกล้ท้องพระโรงของข้าด้วยความมั่นใจที่น่าสังเกตเพื่อยื่นข้อเสนอทางบริหาร\n\nหลังจากคำทักทายที่จริงใจอย่างน่าประหลาดใจ ไม่เหมือนกับท่าทีบ้านนอกทั่วไป และเรื่องราวโดยละเอียดเกี่ยวกับการเดินทางอันน่าเศร้าของครอบครัวเขามายังดินแดนของข้า เขาได้ข้อสรุปที่กล้าหาญ\n\n"...พวกโจรและผู้รุกราน ข้าขอบอกท่านเลย [ROOT.Char.GetTitleAsNameNoTooltip] ของข้า สิ่งที่ข้าเหลืออยู่จากสมบัติที่ถูกปล้นไปคือพรสวรรค์ที่พิสูจน์แล้ว การรับรู้ที่เฉียบคมในการดูแล ความภักดี และครอบครัวที่ต้องการความช่วยเหลือจากท่าน ข้าและสายเลือดของข้าจะเป็นข้ารับใช้ของท่านจนกว่าท่านจะเห็นว่าเราไม่คู่ควร""
+tgp_tai_migration_event.3000.a: "ข้าอนุญาต ตราบเท่าที่เจ้ามีความภักดี"
+tgp_tai_migration_event.3000.b: "นี่ดูเหมือนจะไม่ใช่การแลกเปลี่ยนที่ยุติธรรมสำหรับข้า"
+
+# A family of lowborn peasant characters offer services
+tgp_tai_migration_event.4000.t: "ครอบครัวชาวไท"
+tgp_tai_migration_event.4000.desc: "ทหารยามของข้านำครอบครัวชาวต่างชาติยากจนจากแดนเหนือเข้ามาในท้องพระโรง\n\nหลังจากอ้อนวอนอยู่นาน หัวหน้าครอบครัวก็มองเข้ามาในดวงตาของข้าและเสนอทุกสิ่งที่เขามีเพื่อแลกกับการทำความสะอาดพื้นวัง เพื่อขอที่พักพิงภายใต้ปีกอันยิ่งใหญ่ของข้า จากเรื่องราวของเขา ดูเหมือนว่าผู้คนมากมายจากเผ่าพันธุ์ของเขากำลังหลั่งไหลเข้ามาในดินแดนของเรา โดยหวังว่าจะได้พบผู้ปกป้องคนใหม่"
+tgp_tai_migration_event.4000.a: "ข้าจะให้ที่พักพิงแก่พวกเจ้าในช่วงเวลาเลวร้ายนี้"
+tgp_tai_migration_event.4000.b: "ราชสำนักของข้าไม่ต้องการคนอย่างครอบครัวเจ้า"

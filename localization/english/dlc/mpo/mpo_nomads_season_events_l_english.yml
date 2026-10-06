@@ -1,0 +1,36 @@
+﻿l_english: 
+ mpo_nomads_season_events.0001.t: "ขี่พายุ"
+ mpo_nomads_season_events.0001.desc: ""ท่านเห็นรูปร่างของหมู่เมฆหรือไม่? พวกมันดูราวกับถูกกรงเล็บเหยี่ยวข่วน" [storm_chaser.GetTitledFirstName] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('storm_chaser'))] ของข้ากล่าวพลางชี้ไปยังท้องฟ้า \n\n"มันเป็นลางบอกเหตุถึงพายุอันน่าสะพรึงกลัว ข้าว่าเราควรใช้มันให้เป็นประโยชน์ ให้เรานำม้าและคันธนูของเราบุกตะลุยพายุโหมกระหน่ำ เข้าจู่โจม [raid_target.GetTitledFirstName] โดยไม่ให้รู้ตัว และขโมยฝูงสัตว์ของ [raid_target.GetHerHis]""
+ mpo_nomads_season_events.0001.a: "พรุ่งนี้ เราจะออกศึก!"
+ mpo_nomads_season_events.0001.b: "เราต้องดูแลที่กำบังของเราเอง"
+ mpo_storm_shelter_modifier: "ปลอดภัยจากพายุ"
+ mpo_storm_shelter_modifier_desc: "ค่ายแห่งนี้มีการผูกเยิร์ตไว้กับพื้นอย่างแน่นหนาเป็นสองเท่า สัตว์เลี้ยงถูกเก็บไว้ใกล้กัน เพื่อป้องกันพายุที่กำลังจะมาถึง"
+ 
+ mpo_nomads_season_events.0005.t: "ท้องที่ว่างเปล่า"
+ mpo_nomads_season_events.0005.desc: "ลมโหยหวนพัดกระหน่ำผนังเยิร์ตของข้า \n\nข้าประหลาดใจกับการมาถึงของ [hungry_neighbour.GetTitledFirstName] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hungry_neighbour'))] ของข้า ผู้ ซึ่งกล้าเผชิญอันตรายจากพายุเพื่อมาหมอบกราบ [hungry_neighbour.GetHerselfHimself] ต่อหน้าข้า วางขวด [Glossary( 'คูมิส', 'KUMIS_GLOSS')] ไว้ที่เท้าข้าเป็นเครื่องบรรณาการ \n\n"นี่เป็นช่วงเวลาที่เลวร้าย และผู้คนของข้ากำลังอดอยาก ข้าไม่มีทางเลือกอื่นนอกจากขอความช่วยเหลือ""
+ mpo_nomads_season_events.0005.a: "ผู้คนของเจ้าจะไม่ต้องหิวโหยอีกต่อไป"
+ mpo_nomads_season_events.0005.b: "เจ้าเต็มใจจะให้อะไรเป็นการตอบแทน?"
+ mpo_nomads_season_events.0005.c: "ไม่มีสิ่งใดสำหรับเจ้าที่นี่"
+
+ mpo_nomads_season_events.0010.t: "ฤดูแห่งความอุดมสมบูรณ์"
+ mpo_nomads_season_events.0010.desc: "เสียงร้องแบะๆ ของแกะรบกวนความสงบยามเช้าของข้า ถัดมาคือกลิ่นของพวกมัน ฉุนอบอวลในแสงแดดที่แผดจ้า และในที่สุด เจ้าของของพวกมันก็มาถึง [rich_neighbour.GetTitledFirstName] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('rich_neighbour'))] ของข้า "
+ mpo_nomads_season_events.0010.desc_offered_herd: "ถอดรองเท้าของ [rich_neighbour.GetHerHis] อย่างระมัดระวัง เพื่อไม่ให้เหยียบมูลสัตว์เข้ามาในเยิร์ตของข้า \n\n"ข้ามิได้ลืมเลือนความเอื้ออาทรที่ท่านแสดงให้เห็นเมื่อผู้คนของข้ากำลังอดอยาก ข้ามาเพื่อชดใช้หนี้ของข้า""
+ mpo_nomads_season_events.0010.desc_fallback: "ทำทางเข้าเยิร์ตของข้าเปื้อนเปรอะด้วยมูลสัตว์ขณะที่ [rich_neighbour.GetSheHe] เข้ามา \n\n"ท่าน [ROOT.Char.GetTitleTierName] #EMP ที่รัก#! ของข้า" [rich_neighbour.GetSheHe] ประกาศ "ข้าต้องขอบคุณสรวงสวรรค์สำหรับฝูงสัตว์อันอุดมสมบูรณ์ มีเพียงพอที่จะแบ่งปัน หากท่านมีเงินตรา""
+ mpo_nomads_season_events.0010.a: "บอกราคาของเจ้ามา"
+ mpo_nomads_season_events.0010.b: "ข้าขอรับเครื่องบรรณาการของเจ้า"
+ mpo_nomads_season_events.0010.c: "ไม่มีหนี้สินระหว่างเหล่า [rich_neighbour.Custom('SisterBrother')] ดอก"
+ mpo_nomads_season_events.0010.d: "จงมอบฝูงสัตว์ของเจ้ามา หรือ มิฉะนั้นก็จงมอบศีรษะของเจ้ามา!"
+ mpo_nomads_season_events.0010.e: "ข้าไม่จำเป็นต้องค้าขาย"
+ mpo_nomads_season_events.0010.d.tt.success: "ท่านเอาชนะ [rich_neighbour.GetTitledFirstName] และองครักษ์ของ [rich_neighbour.GetHerHis] ได้สำเร็จ"
+ mpo_nomads_season_events.0010.d.tt.failure: "[rich_neighbour.GetTitledFirstName] และองครักษ์ของ [rich_neighbour.GetHerHis] สามารถหลบหนีไปได้"
+ given_herd: "ท่านได้รับตัวเลือกนี้ เนื่องจากก่อนหน้านี้ท่านได้มอบ [herd|E] ให้กับตัวละครนี้"
+
+ mpo_nomads_season_events.0015.t: "อารมณ์เดือดพล่าน"
+ mpo_nomads_season_events.0015.desc: "ทุกหนแห่งที่ข้ามองไป ข้าเห็นเหล่าข้าแผ่นดินของข้ากำลังขูดก้นชามที่ว่างเปล่า พยายามเก็บทุกเศษเสี้ยวของเสบียงที่ร่อยหรอของเรา \n\nความเงียบถูกทำลายลงด้วยเสียงดังโครมคราม ชามใส่ [Glossary( 'คูมิส', 'KUMIS_GLOSS')] ของ [kurultai_2.GetTitledFirstName] คว่ำอยู่บนพื้น ของเหลวข้างในซึมลงสู่ดินแห้ง [kurultai_1.GetTitledFirstName] ยืนหัวเราะอยู่เบื้องบนแล้วเอ่ยว่า, "ข้ามิเห็นท่านอยู่ตรงนั้น" \n\n[kurultai_2.GetTitledFirstName] ผุดลุกขึ้นยืนบนเท้าของ [kurultai_2.GetHerHis], ไหล่เกร็ง ดูเหมือนว่าสมาชิกคุรุลไททั้งสองของข้ากำลังจะลงไม้ลงมือกัน"
+ mpo_nomads_season_events.0015.a: "อย่าเสียใจกับ #EMP คูมิส#! ที่หกไปเลย [kurultai_2.GetTitledFirstNameNoTooltip]"
+ mpo_nomads_season_events.0015.b: "เอาเลย สู้กัน! ให้พวกเราที่เหลือได้สนุกสนาน"
+ mpo_nomads_season_events.0015.c: "ปล่อยมันไปเถอะ ทั้งคู่เลย"
+ mpo_nomads_season_events.0015.b.tt.success: "[kurultai_1.GetTitledFirstName] ได้รับบาดเจ็บในการต่อสู้"
+ mpo_nomads_season_events.0015.b.tt.failure: "[kurultai_2.GetTitledFirstName] ได้รับบาดเจ็บในการต่อสู้"
+
+

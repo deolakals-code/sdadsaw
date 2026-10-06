@@ -1,0 +1,79 @@
+﻿l_english: 
+
+rarity_i: "I"
+rarity_ii: "II"
+rarity_iii: "III"
+rarity_iv: "IV"
+
+LEDGER_WINDOW_TITLE: "สมุดบันทึก"
+LEDGER_PINNED_ITEMS: "รายการโปรด"
+FAVORITE_LEDGER: "เพิ่มในรายการโปรด"
+UNFAVORITE_LEDGER: "ลบออกจากรายการโปรด"
+NO_LEDGER_ITEMS: "ไม่พบข้อมูล"
+TT_TOGGLE_PODIUM: "เปิด/ปิด แท่นยืน"
+RICH_LEDGER_TAB: "มั่งคั่ง"
+STRONG_LEDGER_TAB: "แข็งแกร่ง"
+FAMED_LEDGER_TAB: "เลื่องชื่อ"
+HOUSES_LEDEGER_TAB: "วงศ์ตระกูล"
+DYNASTIES_LEDGER_TAB: "ราชวงศ์"
+FAITHS_LEDGER_TAB: "ความเชื่อ"
+RELIGIONS_LEDGER_TAB: "ศาสนา"
+OPEN_LEDGER: "#T เปิดสมุดบันทึก#!"
+LEDGER_LIST_POSITION: "อันดับ [Add_int32(PdxGuiWidget.GetIndexInDataModel, '(int32)1')|Ov] ในรายชื่อนี้"
+
+house_founded_year: "สถาปนาปี [DynastyHouse.GetFoundYear]"
+dynasty_founded_year: "สถาปนาปี [DynastyHouse.GetFoundYear]"
+
+# tabs and headers
+ongoing_wars_name: "#T สงครามที่กำลังดำเนินอยู่#!"
+artifacts_name: "#T วัตถุโบราณ#!"
+characters_name: "#T ตัวละคร#!"
+rich_name: "$characters_name$"
+strong_name: "$characters_name$"
+pious_name: "$characters_name$"
+provinces_name: "#T ที่ดินศักดินา#!"
+counties_name: "#T $county_plural$#!"
+titles_name: "#T บรรดาศักดิ์#!"
+duchies_name: "#T $duchy_plural$#!"
+kingdoms_name: "#T $kingdom_plural$#!"
+empires_name: "#T $empire_plural$#!"
+hegemonies_name: "#T $hegemony_plural$#!"
+houses_name: "#T วงศ์ตระกูล#!"
+dynasties_name: "#T ราชวงศ์#!"
+faiths_name: "#T ความเชื่อและศาสนา#!"
+cultures_name: "#T วัฒนธรรม#!"
+
+# for later
+relations_name: "#T ความสัมพันธ์#!"
+killers_name: "#T ผู้สังหารที่เป็นที่ประจักษ์#!"
+
+faiths_tab_ledger: "ความเชื่อ"
+religions_tab_ledger: "ศาสนา"
+
+# Faith
+# no translation
+LEDGER_DOCTRINE_TOOLTIP: "#T [FaithDoctrine.GetNameNoTooltip( Faith.Self )]#!\n[FaithDoctrine.GetEffectsDescription( Faith.Self )]\n\n[FaithDoctrine.GetDescription( Faith.Self )|F]"
+
+# CHARACTERS
+TT_BUILDINGS_LEDGER: "จำนวน [buildings|e] รวมใน [realm|e]"
+TT_AVG_DEVELOPMENT: "[development|e] เฉลี่ยใน [realm|e]"
+
+# CULTURE
+TT_LEDGER_INNOVATIONS: "$CULTURE_VIEW_INNOVATIONS$: #high [Culture.GetCultureEra.GetNumberOfActiveInnovations]#!/[Culture.GetCultureEra.GetNumberOfInnovations]"
+CULTURE_LEDGER_DATE: "สถาปนาปี [Culture.GetCreationDate.GetYear]"
+
+# Dynasty
+renown_ledger_tt: "#T [renown|e]: [Dynasty.GetPrestige|0]#!\n[Dynasty.GetPrestigeIncome|+=2]/เดือน\n#T [dynasty_prestige_level|e]: [GetDynastyPrestigeLevelName(Dynasty.GetPrestigeLevel)]#!\n[Dynasty.GetPrestigeLevelProgressTooltip]"
+ledger_legitimacy_tt: "[legitimacy|e]: [LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )|V]"
+
+LEDGER_WAR_LOSSES: "#T ความสูญเสียของ [Character.GetPrimaryTitle.GetNameNoTierNoTooltip]#!\n#n [WarSide.GetBattleLosses]#! สูญเสียในสมรภูมิ\n#n [WarSide.GetAttritionLosses]#! $ATTRITION_LOSSES_TT$\n#n [WarSide.GetCharactersLost]#! [WarSide.GetCharacterLossesTooltip]"
+LEDGER_HELD_OBJECTIVE: "$TICKING_WARSCORE_TOOLTIP_HEADER$[War.GetTickingWarScoreTooltip]"
+
+LEDGER_DOMINANT_TITLE_FAITH: "[Faith.GetAdjective] เป็น [faith|e] ที่ครอบงำใน [Title.GetNameNoTierNoTooltip]\n[Title.GetDominantFaithPercent|0%] ของ [counties|e] ล้วนนับถือ"
+LEDGER_DOMINANT_TITLE_CULTURE: "[Culture.GetName] เป็น [culture|e] ที่ครอบงำใน [Title.GetNameNoTierNoTooltip]\n[Title.GetDominantCulturePercent|0%] ของ [counties|e] ล้วนนับถือ"
+
+LEDGER_KNOWN_KILLS: "การสังหารที่เป็นที่ประจักษ์"
+LEDGER_DEV_MONTHLY_CHANGE: "การเปลี่ยนแปลงรายเดือน: [County.GetDevelopmentRate|+=]"
+LEDGER_NO_KILLS: "#weak ไม่มีการสังหาร#!"
+
+LEDGER_NAME_AGE: "[Character.GetName], #low อายุ [Character.GetAge] ปี #!"

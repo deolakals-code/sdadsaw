@@ -1,0 +1,55 @@
+﻿l_english: 
+
+# Struggle
+ game_concept_persian_struggle: "ยุคเปลี่ยนผ่านอิหร่าน"
+ game_concept_persian_struggle_desc: "$game_concept_persian_struggle$ แสดงถึงความเสื่อมถอยอันวุ่นวายของรัฐเคาะลีฟะฮ์อับบาซียะฮ์ ซึ่งเมโสโปเตเมียถูกทำลายล้างด้วยการกบฏและการแย่งชิงอำนาจ และผู้ปกครองชาวเปอร์เซียหลายคนได้ประกาศอิสรภาพของตน\n\nแม้ว่า[characters|E]ที่[struggle_involved|E]อาจมีเป้าหมายหลายอย่าง แต่ส่วนใหญ่จะต้องการเป็น[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] และทำงานเพื่อฟื้นฟูอำนาจของรัฐเคาะลีฟะฮ์ หรือเป็น[GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] และพยายามทำลายมัน\n\n[struggle|E]จะเปลี่ยนไปมาระหว่างสอง[struggle_phase_phases|E] - [struggle_persia_phase_unrest|E] และ [struggle_persia_phase_stabilisation|E]"
+
+# Legacy Track Stuff
+
+game_concept_kindle_royal_fire_decision: "การตัดสินใจจุดเพลิงราชวงศ์"
+game_concept_kindle_royal_fire_decision_desc: "[decision|E]ที่ช่วยให้ท่านสามารถจุดเพลิงราชวงศ์ได้ โดยได้รับโบนัสต่อ[health|E]และ[dynasty_prestige|E]"
+game_concept_fp3_embellish_capital_decision: "การตัดสินใจ$fp3_embellish_capital_decision_name$"
+game_concept_fp3_embellish_capital_decision_desc: "[decision|E]ที่ช่วยให้ท่านสามารถปรับปรุง[capital|E]ของท่านได้ โดยแลกกับ[county|E]ที่เพิ่งพิชิตมา"
+
+ game_concept_master_assassin: "ปรมาจารย์นักฆ่า"
+ game_concept_master_assassin_desc: "$game_concept_master_assassin$ เป็น[court_position|E]ที่เปิดใช้งานโดย[faiths|E]ที่มี[core_tenet|E] [GetFaithDoctrine('tenet_fp3_fedayeen').GetBaseName] $game_concept_master_assassin$ เป็นผู้คลั่งไคล้ที่อันตราย ซึ่งทำงานร่วมกับนักฆ่าระดับรองเพื่อสังหารศัตรูที่ถูกมองว่าเป็นศัตรูของศรัทธา"
+ game_concept_assassin: "นักฆ่า"
+
+ game_concept_research_project: "โครงการวิจัย"
+ game_concept_research_projects: "โครงการวิจัย"
+ game_concept_research_project_desc: "โครงการวิจัยคือ[inspiration|E]ที่อาศัย[aptitude|E]ของ$court_scholar_court_position$ เพื่อนำผลประโยชน์มาสู่นายจ้างของตน\n\nในบางกรณีที่หายาก โครงการวิจัยสามารถค้นพบ[innovation|E]ใหม่ได้"
+
+ game_concept_ending_phase: "ช่วงยุติ"
+ game_concept_ending_phase_desc: "$game_concept_ending_phase$ เป็นประเภทพิเศษของ[struggle_phase|E]ที่ยุติ[struggle|E]เมื่อถูกกระตุ้น [characters|E]ที่เป็น[struggle_involved|E]และ[struggle_interloper|E] สามารถดำเนินการไปสู่ช่วงยุติได้ตามปกติ โดยใช้[struggle_catalyst_catalysts|E]"
+
+ game_concept_struggle_ending_decision: "การตัดสินใจยุติ"
+ game_concept_struggle_ending_decisions: "การตัดสินใจยุติ"
+ game_concept_struggle_ending_decision_desc: "$game_concept_struggle_ending_decision$ เป็น[decision|E]เฉพาะที่ยุติ[struggle|E] การตัดสินใจดังกล่าวมักจะใช้ได้เฉพาะในช่วง[struggle_phase_phases|E]บางช่วงเท่านั้น"
+
+ game_concept_struggle_persia_phase_stabilisation: "ช่วงสร้างเสถียรภาพ"
+ game_concept_struggle_persia_phase_stabilisation_desc: "แม้จะมีปัญหาคุกรุ่นอยู่ เคาะลีฟะฮ์ก็ยังคงได้รับความเคารพ การกบฏและการแบ่งแยกฝ่ายกำลังถอยร่น แต่เจ้าแห่งเปอร์เซียจะไม่ยอมจำนนโดยง่าย\n\nความตึงเครียดอาจทวีความรุนแรงขึ้นจนกลายเป็น[struggle_persia_phase_unrest|E] ซึ่งหมายถึงความโกลาหลที่มากขึ้นที่จะตามมา"
+ game_concept_struggle_persia_phase_unrest: "ช่วงความไม่สงบ"
+ game_concept_struggle_persia_phase_unrest_desc: "ถูกรุมเร้าด้วยการกบฏและการวางอุบาย รัฐเคาะลีฟะฮ์กำลังแตกสลาย ขุนศึกผู้ทะเยอทะยานและผู้ว่าการเจ้าเล่ห์ต่างคว้าอำนาจเท่าที่ตนจะแย่งชิงมาได้ ทะเลาะวิวาทกันอยู่ตลอดเวลา\n\nเมื่อเวลาผ่านไป เว้น แต่สถานการณ์จะคลี่คลายโดย[ending_phase|E] อาณาจักรจะเข้าสู่ช่วง[struggle_persia_phase_stabilisation|E] เมื่อผู้สนับสนุนที่สิ้นหวังพยายามกอบกู้อำนาจของเคาะลีฟะฮ์กลับคืนมา"
+ game_concept_struggle_persia_phase_concession: "ช่วงการยินยอม"
+ game_concept_struggle_persia_phase_concession_desc: "เมื่อเวลาผ่านไป เมื่อความตึงเครียดในเปอร์เซียสงบลง และทั้งผู้สนับสนุนและผู้คัดค้านรัฐเคาะลีฟะฮ์ต่างเหนื่อยหน่ายกับการนองเลือดอย่างต่อเนื่อง [persian_struggle|E]อาจสิ้นสุดลงตามธรรมชาติ: ไม่ใช่ด้วยเสียงดัง แต่ด้วยเสียงกระซิบ"
+
+game_concept_fp3_request_turkic_invasion_interaction: "ปฏิสัมพันธ์$fp3_request_turkic_invasion_interaction$"
+game_concept_fp3_request_turkic_invasion_interaction_desc: "ให้ทุนแก่[ruler|E]ที่มีเชื้อสายเติร์กคนใดก็ได้เพื่อพิชิตผู้ปกครองเพื่อนบ้านของท่าน"
+
+game_concept_fp3_install_loyalist_cb: "เหตุแห่งสงครามสถาปนาผู้สนับสนุน"
+game_concept_fp3_install_loyalist_cb_desc: "อนุญาตให้ท่านทำ[war|E]เพื่อสถาปนา[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]ของรัฐเคาะลีฟะฮ์ขึ้นเป็นผู้นำของ[realm|E]เป้าหมาย"
+
+game_concept_fp3_demand_submission_interaction: "ปฏิสัมพันธ์$fp3_demand_submission_interaction$"
+game_concept_fp3_demand_submission_interaction_desc: "เรียกร้องความภักดีของ[character_possessive|E]ในรูปแบบของ[hook|E]โดยใช้ความศรัทธา, เล่ห์เหลี่ยม, หรือการข่มขู่"
+
+game_concept_fp3_request_house_unity_change_interaction: "ปฏิสัมพันธ์$fp3_request_house_unity_change_interaction$"
+game_concept_fp3_request_house_unity_change_interaction_desc: "$fp3_request_house_unity_change_interaction_desc$"
+
+game_concept_fp3_request_honorary_titles_interaction: "ปฏิสัมพันธ์$fp3_request_honorary_titles_interaction$"
+game_concept_fp3_request_honorary_titles_interaction_desc: "$fp3_request_honorary_titles_interaction_desc$"
+
+game_concept_fp3_free_house_member_cb: "เหตุแห่งสงคราม$fp3_free_house_member_cb_name$"
+game_concept_fp3_free_house_member_cb_desc: "[casus_belli|E]ที่มีให้สำหรับ[house_heads|E] ซึ่งบังคับให้เป้าหมายปล่อยตัวสมาชิก[house|E]ทุกคนที่ถูก[imprisoned|E]"
+
+game_concept_fp3_unify_house_cb: "เหตุแห่งสงคราม$fp3_unify_house_cb_name$"
+game_concept_fp3_unify_house_cb_desc: "[casus_belli|E]ที่อนุญาตให้[house_head|E]เรียกคืนสมาชิก[house|E]จาก[realm|E]อื่นมาเป็น[vassal|E]"

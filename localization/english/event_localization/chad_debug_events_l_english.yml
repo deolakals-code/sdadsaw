@@ -1,0 +1,5 @@
+﻿l_english: 
+ 
+ chad_debug.0001.t:0 "เหตุการณ์ดีบักตำแหน่งในราชสำนัก"
+ chad_debug.0001.desc:0 "โปรดทำงาน"
+ chad_debug.0001.a:0 "แต่งตั้ง[appointee.GetFirstNameNoTooltip]เป็นครุฑของท่าน"

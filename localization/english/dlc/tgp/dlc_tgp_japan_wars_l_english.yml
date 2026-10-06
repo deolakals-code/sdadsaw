@@ -1,0 +1,157 @@
+﻿l_english: 
+ ##################################################
+ # INSTALL REGENT FACTION WAR
+ ##################################################
+ JAPANESE_REGENT_FACTION_WAR: "สงครามเพื่อ แต่งตั้ง [CLAIMANT.GetTitledFirstName] เป็นผู้สำเร็จราชการ"
+ replace_ceremonial_regent_faction_war_name: "แต่งตั้ง $game_concept_ceremonial_regent$"
+ replace_ceremonial_regent_faction_war: "$replace_ceremonial_regent_faction_war_name$"
+ replace_ceremonial_regent_faction_war_victory_defender_desc: "ท่านจะถูก [imprisoned|E] และที่ดินทั้งหมดจะถูกริบโดย [attacker.GetShortUIName]"
+ replace_ceremonial_regent_faction_war_victory_desc: "[defender.GetShortUIName|U] จะถูก [imprisoned|E] และที่ดินทั้งหมดจะถูกริบโดย [attacker.GetShortUIName]"
+ replace_ceremonial_regent_faction_war_white_peace_defender_desc: "ท่านจะรักษา [titles|E] ของท่านไว้ และได้รับ [truce|E] กับ [vassal|E] ผู้ก่อกบฏทุกคน"
+ replace_ceremonial_regent_faction_war_white_peace_desc: "[defender.GetShortUIName|U] จะรักษา [titles|E] ของ [defender.GetHerHis] ไว้ จะได้รับ [revoke_title_reason|E] ต่อ [vassal|E] ผู้ก่อกบฏทุกคน"
+ replace_ceremonial_regent_faction_war_defeat_defender_desc: "ท่านจะรักษา [titles|E] ของท่านไว้ และจองจำ [vassals|E] ผู้ก่อกบฏทั้งหมด"
+ replace_ceremonial_regent_faction_war_defeat_desc: "[defender.GetShortUIName|U] จะรักษา [titles|E] ของ [defender.GetHerHis] ไว้ และจองจำ [vassals|E] ผู้ก่อกบฏทั้งหมด"
+ ##################################################
+ # RESTORE EMPEROR FACTION WAR
+ ##################################################
+ JAPANESE_RESTORE_EMPEROR_FACTION_WAR: "สงครามเพื่อฟื้นฟูอำนาจ [CLAIMANT.GetTitledFirstName]"
+ restore_ceremonial_liege_faction_war_name: "ฟื้นฟู $game_concept_ceremonial_liege$"
+ restore_ceremonial_liege_faction_war: "$restore_ceremonial_liege_faction_war_name$"
+ restore_ceremonial_liege_faction_war_white_peace_desc: "[defender.GetShortUIName|U] จะรักษา [titles|E] ทั้งหมดไว้ จะได้รับ [revoke_title_reason|E] ต่อ [vassal|E] ผู้ก่อกบฏทุกคน"
+ restore_ceremonial_liege_faction_war_defeat_desc: "[faction|E] ถูกยุบ, [attacker.GetShortUIName] และกบฏคนอื่นๆ ถูก [imprisoned|E] [claimant.GetTitledFirstName] ถูกถอดถอน"
+ restore_ceremonial_liege_faction_war_defeat_end_desc: "[claimant.GetTitledFirstName] ถูกถอดถอน"
+ restore_ceremonial_liege_faction_war_victory_desc: "[defender.GetShortUIName|U] จะสูญเสีย [titles|E] ทั้งหมด, ถูก [imprisoned|E], และถูกถอดถอน"
+ ##################################################
+ # INSTALL BLOC MEMBER WAR
+ ##################################################
+ japan_install_bloc_member_cb: "การขยายกลุ่ม"
+ JAPAN_INSTALL_BLOC_MEMBER_CB_NAME: "[bloc_expansion|E] [ATTACKER.GetConfederation.GetLeadingHouse.GetBaseNameNoTooltip]"
+ JAPAN_INSTALL_BLOC_MEMBER_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]สงครามขยายกลุ่ม [ATTACKER.GetConfederation.GetName]"
+ JAPAN_INSTALL_BLOC_MEMBER_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ japan_install_bloc_member_cb_victory_desc: "[attacker.GetShortUIName|U] จะยึด [titles|E] ที่เป็นข้อพิพาทเพื่อ [attacker.GetConfederation.GetName] และตัดสินใจว่าจะแจกจ่ายอย่างไร"
+ japan_install_bloc_member_cb_white_peace_desc: "[defender.GetShortUIName|U] จะปกป้องดินแดนของ [defender.GetHerHis]"
+ japan_install_bloc_member_cb_defeat_desc: "[attacker.GetShortUIName|U] [CharAreIs(attacker)] อัปยศอดสู"
+ japan_install_bloc_member_cb_ended_invalid.desc: "$japan_install_bloc_member_cb$ ถือเป็นโมฆะ"
+ ##################################################
+ # SORYO CONQUEST WAR
+ ##################################################
+ japan_soryo_conquest_cb: "$JAPAN_SORYO_CONQUEST_CB_NAME_GENERIC$"
+ JAPAN_SORYO_CONQUEST_DUCHY_CB_NAME: "การพิชิต [duchy|E] [TITLE.GetBaseNameNoTier] แบบ $japan_feudal_government$"
+ JAPAN_SORYO_CONQUEST_COUNTY_CB_NAME: "การพิชิต [county|E] [TITLE.GetBaseNameNoTier] แบบ $japan_feudal_government$"
+ JAPAN_SORYO_CONQUEST_CB_NAME_GENERIC: "การพิชิตแบบ $japan_feudal_government$"
+ JAPAN_SORYO_CONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]การพิชิต [TITLE.GetBaseNameNoTier] ของ [ATTACKER.GetPrimaryTitle.GetAdjective]"
+ JAPAN_SORYO_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ JAPAN_SORYO_CONQUEST_LANDLESS_WAR_NAME: "$ORDER$ การพิชิต [TITLE.GetBaseNameNoTier] ของ [ATTACKER.GetHouse.GetName]"
+ JAPAN_SORYO_CONQUEST_LANDLESS_WAR_NAME_BASE: "[ATTACKER.GetHouse.GetBaseName][DEFENDER.GetPrimaryTitle.GetName]"
+ JAPAN_SORYO_CONQUEST_LANDLESS_COUNTY_CB_NAME: "การพิชิต [county|E] [TITLE.GetBaseNameNoTier] แบบ $japan_feudal_government$"
+ japan_soryo_conquest_county_landless_cb: "$japan_soryo_conquest_cb$"
+ japan_soryo_conquest_county_cb: "$japan_soryo_conquest_cb$"
+ japan_soryo_conquest_duchy_cb: "$japan_soryo_conquest_cb$"
+ japan_soryo_conquest_cb_ended_invalid.desc: "$JAPAN_SORYO_CONQUEST_CB_NAME_GENERIC$ ถือเป็นโมฆะ"
+ japan_soryo_conquest_cb_admin_warning: "\n@warning_icon!#X เนื่องจาก [defender.GetShortUIName|U] คือ [vassal|E] [ritsuryo|E] [attacker.GetTopLiege.GetTitleAsName|V] จะถือว่านี่เป็น [crime_i|E][crime|E]"
+ tgp_japan_soryo_war_is_crime_title: "รับทราบอาชญากรรม"
+ tgp_japan_soryo_war_is_crime_kampaku_title: "ตำแหน่งผู้ว่าการถูกโจมตี"
+ admin_soryo_conquest_crime: "โจมตีตำแหน่งผู้ว่าการ"
+ enforced_pacification_opinion: "การสร้างสันติภาพโดยจักรวรรดิ"
+ ##################################################
+ # DEMAND RITSURYO WAR
+ ##################################################
+ japan_demand_administrative_cb: "$JAPAN_DEMAND_ADMINISTRATIVE_CB_NAME$"
+ JAPAN_DEMAND_ADMINISTRATIVE_CB_NAME: "บังคับใช้การผนวกรวมการปกครอง"
+ JAPAN_DEMAND_ADMINISTRATIVE_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]การบังคับใช้การผนวกรวมการปกครอง [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier] ของ [ATTACKER.GetPrimaryTitle.GetAdjective]"
+ JAPAN_DEMAND_ADMINISTRATIVE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ japan_demand_administrative_cb_victory_desc: "ดินแดนทั้งหมดของ [defender.GetShortUINamePossessive|U] จะถูกริบและคืนให้แก่ [attacker.GetTopLiege.GetTitleAsNameNoTooltip]"
+ japan_demand_administrative_cb_victory_vassal_desc: "การรับใช้ของท่านต่อ [attacker.GetTopLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip] จะได้รับการยอมรับ"
+ japan_demand_administrative_cb_white_peace_desc: "[defender.GetShortUIName|U] จะยังคงเป็น [vassal|E] [soryo|E]"
+ japan_demand_administrative_cb_defeat_desc: "เนื่องจาก [attacker.GetShortUIName] [CharAreIs(attacker)] ไม่ใช่ [attacker.GetTopLiege.GetTitleAsNameNoTooltip] [defender.GetShortUIName] จะยังคงเป็น [vassal|E] [soryo|E]"
+ japan_demand_administrative_cb_defeat_desc_independence: "เนื่องจาก [attacker.GetShortUIName|U] คือ [attacker.GetTopLiege.GetTitleAsNameNoTooltip] [defender.GetShortUIName] และ [allies|E] ใดๆ จะกลายเป็น [realms|E] [soryo|E] [independent|E]"
+ japan_demand_administrative_cb_ended_invalid.desc.attacker: "[war.GetName] สิ้นสุดลงแล้ว: [attacker.GetShortUIName] ไม่ใช่ [ritsuryo|E]"
+ japan_demand_administrative_cb_ended_invalid.desc: "[war.GetName] สิ้นสุดลงแล้ว: [defender.GetShortUIName] ไม่ใช่ [soryo|E] หรือออกจาก [realm|E]"
+ japan_demand_administrative_cb_warning_japan_tt: "@warning_icon! #X หากท่านแพ้ [war|E] [recipient.GetShortUIName] และ [allies|E] ของ [recipient.GetHerHis] จะกลายเป็น [realms|E] [soryo|E] [independent|E]"
+ enforced_administrative_opinion: "การบังคับใช้การผนวกรวมการปกครอง"
+ ##################################################
+ # IMPERIAL PACIFICATION WAR
+ ##################################################
+ japan_imperial_expansion_cb: "$JAPAN_IMPERIAL_EXPANSION_CB_NAME$"
+ JAPAN_IMPERIAL_EXPANSION_CB_NAME: "การสร้างสันติภาพใน [county|E] โดยจักรวรรดิ"
+ JAPAN_IMPERIAL_EXPANSION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]การสร้างสันติภาพใน [TITLE.GetBaseName]"
+ JAPAN_IMPERIAL_EXPANSION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ japan_imperial_expansion_cb_victory_desc_attacker: "[title|E] ที่เป็นข้อพิพาทจะถูกยึดโดยท่าน"
+ japan_imperial_expansion_cb_victory_desc: "[title|E] ที่เป็นข้อพิพาทจะถูกยึดโดย [attacker.GetTopLiege.GetTitleAsNameNoTooltip]"
+ japan_imperial_expansion_cb_ended_invalid.desc.attacker: "[war.GetName] สิ้นสุดลงแล้ว: [attacker.GetShortUIName] [CharAreIs(attacker)] ไม่ใช่ [ritsuryo|E] หรือ [soryo|E] หรือไม่มี [ceremonial_liege|E]"
+ japan_imperial_expansion_cb_ended_invalid.desc: "[war.GetName] สิ้นสุดลงแล้ว: [defender.GetShortUIName] เข้าร่วม [realm|E] หรือไม่ได้ถือ [county|E] เป้าหมายที่ถูกต้อง"
+ japan_imperial_expansion_cb_warning_japan_tt: "@warning_icon! #X หากท่านแพ้ [war|E] [recipient.GetShortUIName] และ [allies|E] ของ [recipient.GetHerHis] จะกลายเป็น [realms|E] [soryo|E] [independent|E]"
+ japan_imperial_expansion_cb_neighbour_tt: "[defender.GetShortUIName|U] ไม่ได้ถือ [county|E] ที่อยู่ติดกับ [attacker.GetTopLiege.GetPrimaryTitle.GetName]"
+ CB_JAPANESE_GOVERNMENT: "[government|E] ญี่ปุ่น"
+ tgp_japan_pacification_war_valid_empire_tt: "[target.GetBaseName] ไม่ใช่ส่วน [de_jure|E] ของ [GetTitleByKey('e_japan').GetBaseName]"
+ tgp_japan_pacification_war_valid_region_tt: "[target.GetBaseName] ไม่ได้อยู่ใน [GetGeographicalRegion('world_asia_japan').GetName] หรือ [GetGeographicalRegion('world_asia_sakhalin_hokkaido').GetName]"
+ ##################################################
+ # IMPERIAL RECONQUEST WAR
+ ##################################################
+ japan_imperial_reconquest_cb: "$JAPAN_IMPERIAL_RECONQUEST_CB_NAME$"
+ JAPAN_IMPERIAL_RECONQUEST_CB_NAME: "การพิชิตญี่ปุ่นคืนโดยจักรวรรดิ #weak ([de_jure|E])#!"
+ JAPAN_IMPERIAL_RECONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]การพิชิตญี่ปุ่นคืนโดยจักรวรรดิ"
+ JAPAN_IMPERIAL_RECONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ japan_imperial_reconquest_cb_victory_desc: "[attacker.GetTopLiege.GetShortUIName] ยึด [titles|E] ที่เป็นข้อพิพาท"
+ japan_imperial_reconquest_cb_ended_invalid.desc.attacker: "[war.GetName] สิ้นสุดลงแล้ว: [attacker.GetShortUIName] [CharAreIs(attacker)] ไม่ใช่ [ritsuryo|E] หรือ [soryo|E] หรือไม่มี [ceremonial_liege|E]"
+ japan_imperial_reconquest_cb_ended_invalid.desc: "[war.GetName] สิ้นสุดลงแล้ว: [defender.GetShortUIName] เข้าร่วม [realm|E] หรือไม่ได้ถือ [county|E] เป้าหมายที่ถูกต้อง"
+ japan_imperial_reconquest_cb_warning_japan_tt: "@warning_icon! #X หากท่านแพ้ [war|E] [recipient.GetShortUIName] และ [allies|E] ของ [recipient.GetHerHis] จะกลายเป็น [realms|E] [soryo|E] [independent|E]"
+ japan_imperial_reconquest_cb_neighbour_tt: "[defender.GetShortUIName|U] ไม่ได้ถือ [county|E] ที่อยู่ติดกัน"
+ tgp_japan_reconquest_war_valid_de_jure_tt: "เป้าหมายต้องเป็นส่วน [de_jure|E] ของ [GetTitleByKey('e_japan').GetDefinitiveName]"
+ japan_imperial_reconquest_cb_cost_tt: "[counties|E]"
+ ##################################################
+ # MAINTAIN SORYO WAR
+ ##################################################
+ JAPAN_REFUSED_RITSURYO_WAR_NAME: "สงครามเพื่อรักษาระบบการปกครอง $japan_feudal_government$"
+ japan_refused_ritsuryo_cb_victory_desc_defender: "[attacker.GetShortUIName|U] กลายเป็น [ceremonial_regent|E]"
+ japan_refused_ritsuryo_cb_victory_desc: "[attacker.GetShortUIName|U] กลายเป็น [ceremonial_regent|E]"
+ japan_refused_ritsuryo_cb_white_peace_desc_defender: "เจ้าทำการสงบศึกกับ [attacker.GetShortUIName] และได้รับ [revoke_title_reason|E] ต่อพวกเขา"
+ japan_refused_ritsuryo_cb_white_peace_desc: "[attacker.GetShortUIName|U] และ [defender.GetShortUIName] สร้างสัญญาสงบศึก [defender.GetShortUIName|U] ได้รับ [revoke_title_reason|E] ต่อ [attacker.GetShortUIName]"
+ japan_refused_ritsuryo_cb_defeat_desc_defender: "ท่าน [imprison|E] [attacker.GetShortUIName]"
+ japan_refused_ritsuryo_cb_defeat_desc:0 "[defender.GetShortUIName|U] [imprisons|E] [attacker.GetShortUIName]"
+##################################################
+ # SORYO ERADICATE HOUSE WAR
+ ##################################################
+ eradicate_house_cb: "กวาดล้างตระกูลคู่แข่ง"
+ ERADICATE_HOUSE_CB_NAME: "กวาดล้างตระกูล [DEFENDER.GetHouse.GetBaseName]"
+ ERADICATE_HOUSE_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]ความพยายามกวาดล้างตระกูล [DEFENDER.GetHouse.GetBaseName] ของ [ATTACKER.GetHouse.GetBaseName]"
+ ERADICATE_HOUSE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ eradicate_house_cb_victory_desc: "#X @warning_icon! [house|E] ของ [defender.GetShortUINamePossessive|U] จะถูกกวาดล้างด้วยน้ำมือของ [attacker.GetShortUINamePossessive] #!"
+ eradicate_house_cb_white_peace_desc: "[defender.GetShortUIName|U] จะรักษาเกียรติของ [defender.GetHerHis] ไว้"
+ eradicate_house_cb_defeat_desc: "[house|E] ของ [attacker.GetShortUINamePossessive|U] จะถูกกวาดล้างโดย [defender.GetShortUIName]"
+ eradicate_house_cb_ended_invalid.desc: "$ERADICATE_HOUSE_CB_NAME$ ถือเป็นโมฆะ"
+ every_close_family_house_member_in_court_cb_win_desc: "ทุก [spouse|E] และสมาชิก [house|E] ใน [court|E] ของ [defender.GetShortUINamePossessive]"
+ every_close_family_house_member_in_court_cb_lose_desc: "ทุก [spouse|E] และสมาชิก [house|E] ใน [court|E] ของ [attacker.GetShortUINamePossessive]"
+##################################################
+ # ESTABLISH SORYO ADMINISTRATION WAR
+ ##################################################
+ japan_establish_soryo_administration_cb: "$JAPAN_ESTABLISH_SORYO_ADMINISTRATION_CB_NAME$"
+ JAPAN_ESTABLISH_SORYO_ADMINISTRATION_CB_NAME: "สถาปนาระบบโซเรียว"
+ JAPAN_ESTABLISH_SORYO_ADMINISTRATION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]สงครามสถาปนาระบบโซเรียวของ [DEFENDER.GetHouse.GetBaseNameNoTooltip]"
+ JAPAN_ESTABLISH_SORYO_ADMINISTRATION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ japan_establish_soryo_administration_cb_victory_desc: "[attacker.GetShortUIName|U] จะแทนที่ [defender.GetShortUIName] ในฐานะผู้ปกครอง [defender.GetPrimaryTitle.GetBaseNameNoTier] และจองจำผู้ป้องกันทั้งหมด"
+ japan_establish_soryo_administration_cb_white_peace_desc: "[defender.GetShortUIName|U] จะยังคงเป็น [ritsuryo|E]"
+ japan_establish_soryo_administration_cb_defeat_desc: "[defender.GetShortUIName|U] และสมาชิก [bloc|E] ทั้งหมด จะยอมรับ [government] [GetGovernment( 'japan_feudal_government' ).GetName] และจองจำผู้โจมตีทั้งหมด"
+ japan_establish_soryo_administration_cb_ended_invalid.desc: "$JAPAN_ESTABLISH_SORYO_ADMINISTRATION_CB_NAME$ ถือเป็นโมฆะ"
+##################################################
+ # CEREMONIAL CLAIMANT FACTION WAR
+ ##################################################
+ ceremonial_claimant_faction_war: "ฝ่ายผู้อ้างสิทธิ์ในพิธีการ"
+ CEREMONIAL_CLAIMANT_WAR_NAME: "สงครามเพื่อการอ้างสิทธิ์ของ [CLAIMANT.GetTitledFirstNamePossessive] ใน [TITLE.GetDefinitiveName|l]"
+ ceremonial_claimant_faction_war_victory_desc: "[claimant|E] กลายเป็น [ceremonial_liege|E]"
+ ceremonial_claimant_faction_war_white_peace_desc: "[ceremonial_liege|E] ยังคงไม่เปลี่ยนแปลง จะได้รับ [revoke_title_reason|E] ต่อข้าหลวงผู้ก่อกบฏทุกคน"
+ ceremonial_claimant_faction_war_defeat_desc: "[ceremonial_liege|E] ยังคงไม่เปลี่ยนแปลง [vassals|E] ผู้ก่อกบฏทั้งหมดถูก [imprisoned|E]"
+ ##################################################
+ # BLOC WAR
+ ##################################################
+ japan_bloc_war_cb: "$JAPAN_BLOC_WAR_CB_NAME$"
+ JAPAN_BLOC_WAR_CB_NAME: "[bloc_supremacy_war|E] [ATTACKER.GetConfederation.GetLeadingHouse.GetNameNoTooltip]-[DEFENDER.GetConfederation.GetLeadingHouse.GetNameNoTooltip]"
+ JAPAN_BLOC_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]สงครามชิงความเป็นใหญ่ระหว่างกลุ่ม [ATTACKER.GetConfederation.GetLeadingHouse.GetName]-[DEFENDER.GetConfederation.GetLeadingHouse.GetName]"
+ JAPAN_BLOC_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ japan_bloc_war_cb_victory_desc: "[defender.GetShortUIName|U] [CharAreIs(defender)] ถูกบังคับให้ยอมรับความเหนือกว่าของ [attacker.GetConfederation.GetName]"
+ japan_bloc_war_cb_white_peace_desc: "[defender.GetShortUIName|U] จะรักษาเกียรติของ [defender.GetConfederation.GetName] ไว้"
+ japan_bloc_war_cb_defeat_desc: "[attacker.GetShortUIName|U] [CharAreIs(attacker)] ถูกบังคับให้ยอมรับความเหนือกว่าของ [defender.GetConfederation.GetName]"
+ japan_bloc_war_cb_ended_invalid.desc: "$JAPAN_BLOC_WAR_CB_NAME$ ถือเป็นโมฆะ"
+ tgp_bloc_war_defeat_member_description: "[member_houses|E] ของ [bloc|E] ที่พ่ายแพ้ ซึ่งจะยอมรับ [supremacy|E] ของผู้ชนะ:"
+ tgp_bloc_war_defeat_member_house_description: "$BULLET_WITH_TAB$[CHARACTER.GetHouse.GetBaseName]"
+ japan_bloc_war_cb_cohesion_requirement_tt: "ต้องมี [cohesion|E] อย่างน้อย #V 25#! เพื่อเริ่ม [war|E] นี้ #weak (ปัจจุบัน: [attacker.GetConfederation.GetCohesion|V0])#!"

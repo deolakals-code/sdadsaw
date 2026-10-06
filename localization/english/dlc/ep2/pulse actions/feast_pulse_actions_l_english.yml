@@ -1,0 +1,28 @@
+﻿l_english: 
+ excellent_food_title:0 "[first.GetShortUINameNoTooltip|U] ปิติยินดีกับปริมาณ [root_scope.Custom('GetExpensiveDessert')|U]"
+ 
+ hook_trusting_guest_title:0 "[first.GetShortUINameNoTooltip|U] สัญญาความช่วยเหลือแก่ [second.GetShortUINameNoTooltip|U] อย่างใสซื่อ"
+ 
+ impressed_guest_honor_title:0 "[first.GetShortUINameNoTooltip|U] ได้รับเกียรติจาก [second.GetShortUINameNoTooltip|U]"
+ 
+ impressed_courtly_vassal_title:0 "ข้าในบังคับผู้มีมารยาทประทับใจในงานเลี้ยงอันหรูหรา"
+ 
+ leftover_food_giveaway_title:0 "[province.GetName|U] ได้รับอาหารที่เหลือ"
+ leftover_food_giveaway_modifier:0 "งานเลี้ยงเหลือ"
+ leftover_food_giveaway_modifier_desc:0 "ผู้อยู่อาศัยในสถานที่นี้ได้รับอาหารเลิศรสจากงานเลี้ยง"
+ 
+ virtuous_feast_title:0 "[first.GetShortUINameNoTooltip|U] เข้าร่วมงานเลี้ยงอันทรงคุณธรรม"
+ 
+ noble_privileges_title:0 "[first.GetShortUINameNoTooltip|U] ได้รับสิทธิพิเศษบางประการของขุนนาง"
+ noble_privileges_modifier:0 "สิทธิพิเศษของขุนนาง"
+ noble_privileges_modifier_desc:0 "เคาน์ตีนี้อยู่ภายใต้การสอดส่องอย่างเข้มงวดของขุนนาง"
+ 
+ pet_pet:0 "สัตว์เลี้ยงที่ถูกกอด"
+ good_kitty_title:0 "[first.GetShortUINameNoTooltip|U] ลูบแมวของ [second.GetShortUINamePossessiveNoTooltip|U]"
+ good_puppy_title:0 "[first.GetShortUINameNoTooltip|U] ลูบสุนัขของ [second.GetShortUINamePossessiveNoTooltip|U]"
+ 
+ antiquarian_admires_artifact_title:0 "[first.GetShortUINameNoTooltip|U] เล่าประวัติของ [artifact.GetName|U] ให้ [host.GetShortUINameNoTooltip|U] ฟังอย่างเพลิดเพลิน"
+ 
+ jester_entertained_guests_title:0 "[first.GetShortUINameNoTooltip|U] ทำให้ [second.GetShortUINameNoTooltip|U] หัวเราะอย่างครื้นเครง"
+ 
+ apa_executioner_title:0 "[first.GetShortUINameNoTooltip|U] เล่าถึงการประหารชีวิตของ [first.GetHerHis] ภายใต้คำสั่งของ [second.GetShortUINamePossessiveNoTooltip|U]"

@@ -1,0 +1,6 @@
+﻿l_english: 
+ situation_group_type_major: "หลัก"
+ situation_group_type_struggles: "การต่อสู้ดิ้นรน"
+ situation_group_type_minor: "ย่อย"
+ situation_group_type_natural_disasters: "$game_concept_natural_disaster$"
+ situation_group_type_debug: "Debug"

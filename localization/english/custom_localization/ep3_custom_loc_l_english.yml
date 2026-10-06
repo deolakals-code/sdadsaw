@@ -1,0 +1,146 @@
+﻿l_english: 
+
+ main_temple: "วัดหลัก"
+ main_temple_capital: "วัดหลวง"
+ cathedral: "มหาวิหาร"
+ cathedral_capital: "มหาวิหาร"
+
+ chariot_team_blue: "สีน้ำเงิน"
+ chariot_team_green: "สีเขียว"
+ chariot_team_white: "สีขาว"
+ chariot_team_red: "สีแดง"
+ chariot_team_blues: "เวเนตอย"
+ chariot_team_greens: "พราซินอย"
+ chariot_team_whites: "ลิวคอย"
+ chariot_team_reds: "รูซิออย"
+ chariot_team_blues_possessive: "ของเวเนตอย"
+ chariot_team_greens_possessive: "ของพราซินอย"
+ chariot_team_whites_possessive: "ของลิวคอย"
+ chariot_team_reds_possessive: "ของรูซิออย"
+ chariot_team_blues_glossed: "[Glossary( 'เวเนทอย', 'BLUE_VENETOI_GLOSS' )]"
+ chariot_team_greens_glossed: "[Glossary( 'ปราซินอย', 'GREEN_PRASINOI_GLOSS' )]"
+ chariot_team_whites_glossed: "[Glossary( 'ลิวคอย', 'WHITE_LEUKOI_GLOSS' )]"
+ chariot_team_reds_glossed: "[Glossary( 'รูซิออย', 'RED_RHOUSIOI_GLOSS' )]"
+ chariot_team_blues_possessive_glossed: "[Glossary( 'Venetoi\\'s', 'BLUE_VENETOI_GLOSS' )]"
+ chariot_team_greens_possessive_glossed: "[Glossary( 'Prasinoi\\'s', 'GREEN_PRASINOI_GLOSS' )]"
+ chariot_team_whites_possessive_glossed: "[Glossary( 'Leukoi\\'s', 'WHITE_LEUKOI_GLOSS' )]"
+ chariot_team_reds_possessive_glossed: "[Glossary( 'Rhousioi\\'s', 'RED_RHOUSIOI_GLOSS' )]"
+
+ BLUE_VENETOI_GLOSS: "#bold เวเนตอย#! (เวเนทอย) ชื่อเรียกในยุคนั้นของฝ่าย "สีน้ำเงิน" ถือเป็นหนึ่งในทีมที่มีชื่อเสียงที่สุดที่แข่งขันในฮิปโปโดรมแห่งคอนสแตนติโนเปิล และเชื่อกันว่ามีความเกี่ยวข้องกับชนชั้นสูง นักขับรถม้าศึกผู้โด่งดัง พอร์ฟิเรียส (Porphyrius) เป็นสมาชิกที่ได้รับการยกย่องของฝ่ายน้ำเงิน แม้ว่าเขาจะเปลี่ยนไปสังกัดฝ่ายเขียวในช่วงสั้นๆ ระหว่างเหตุการณ์จลาจลนิกา (Nika Riots)"
+ GREEN_PRASINOI_GLOSS: "#bold พราซินอย#! (ปราซินอย) ชื่อเรียกในยุคนั้นของฝ่าย "สีเขียว" ถือเป็นฝ่ายของประชาชน ในศตวรรษที่ 6 ฝ่ายเขียวได้สังหารสมาชิกฝ่ายน้ำเงินเกือบ 3,000 คนในอัฒจันทร์ของคอนสแตนติโนเปิล"
+ WHITE_LEUKOI_GLOSS: "#bold ลิวคอย#! (ลิวคอย) ชื่อเรียกในยุคนั้นของฝ่าย "สีขาว" ในอดีตถูกบดบังรัศมีโดยฝ่ายน้ำเงินและฝ่ายเขียว แต่ก็ไม่ได้ไร้ความสำคัญ แต่อย่างใด ในยุคของเรา พวกเขาได้ถูกรวมเข้ากับฝ่ายน้ำเงินแล้ว"
+ RED_RHOUSIOI_GLOSS: "#bold รูซิออย#! (รูซิออย) ชื่อเรียกในยุคนั้นของฝ่าย "สีแดง" ในอดีตถูกบดบังรัศมีโดยฝ่ายน้ำเงินและฝ่ายเขียว แต่ก็ไม่ได้ไร้ความสำคัญ แต่อย่างใด ในยุคของเรา พวกเขาได้ถูกรวมเข้ากับฝ่ายเขียวแล้ว"
+
+ chariot_wager_type_win: "ชนะ"
+ chariot_wager_type_place: "ติดอันดับ"
+ chariot_wager_type_show: "เข้าเส้นชัย" # หมายถึงติด 1 ใน 3
+
+ first_place: "อันดับหนึ่ง"
+ second_place: "อันดับสอง"
+ third_place: "อันดับสาม"
+ fourth_place: "อันดับสี่"
+ fifth_place: "อันดับห้า"
+ sixth_place: "อันดับหก"
+ seventh_place: "อันดับเจ็ด"
+ eighth_place: "อันดับแปด"
+ ninth_place: "อันดับเก้า"
+ tenth_place: "อันดับสิบ"
+ eleventh_place: "อันดับสิบเอ็ด"
+ twelfth_place: "อันดับสุดท้าย"
+
+ chariot_wager_target_character: "[GetPlayer.MakeScope.Var('wager_target').Char.GetFirstName]"
+ chariot_team_blues_definite: "$chariot_team_blues$" # ไม่ต้องมี the เพราะชื่อเฉพาะอยู่แล้ว
+ chariot_team_greens_definite: "$chariot_team_greens$" # ไม่ต้องมี the เพราะชื่อเฉพาะอยู่แล้ว
+ chariot_team_whites_definite: "$chariot_team_whites$" # ไม่ต้องมี the เพราะชื่อเฉพาะอยู่แล้ว
+ chariot_team_reds_definite: "$chariot_team_reds$" # ไม่ต้องมี the เพราะชื่อเฉพาะอยู่แล้ว
+ chariot_wager_tooltip: "ท่านวางเดิมพัน @gold_icon![GetPlayer.MakeScope.Var('wager_value').GetValue|V0] ว่า [GetPlayer.Custom('GetCharioteerOrTeamNameFromWager')] จะ [GetPlayer.Custom('GetWinPlaceShow')]"
+
+ chariot_movement_cut_off_at_turn: "กุมบังเหียนของ[ROOT.Char.GetHerHis]แน่นและเร่งม้าชั้นดีของ[ROOT.Char.GetHerHis]ให้เข้าโค้งให้ชิดที่สุดเท่าที่จะทำได้"
+
+ # GovernorChitChat
+ chariot_governor_chitchat_1: "ชื่นชมความยิ่งใหญ่ของการแข่งรถม้าเถิด สหายผู้ว่าการของข้า ฮิปโปโดรมคือที่ที่จิตวิญญาณแห่งไบแซนไทน์มีชีวิตชีวาอย่างแท้จริง!"
+ chariot_governor_chitchat_2: "ในเสียงโห่ร้องดังกึกก้องของฝูงชนและเสียงกีบม้าที่ดังสนั่น เราพบหัวใจของจักรวรรดิอันยิ่งใหญ่ของเรา ท่านเห็นด้วยหรือไม่?"
+ chariot_governor_chitchat_3: "การแข่งขันเหล่านี้ไม่ใช่แค่การแสดง แต่เป็นเครื่องพิสูจน์ถึงความสามัคคีและความแข็งแกร่งของประชาชนของเรา เป็นเครื่องเตือนใจว่าแม้ในการแข่งขัน เราก็ยืนหยัดเป็นหนึ่งเดียว"
+ chariot_governor_chitchat_4: "ดูสีสันสดใสของฝ่ายที่แข่งขันกันสิ ช่างเป็นภาพที่งดงามสะท้อนความหลากหลายและความร่ำรวยของจักรวรรดิอันเป็นที่รักของเรา"
+ chariot_governor_chitchat_5: "ในฐานะผู้ว่าการ เราคือผู้พิทักษ์ประเพณี การแข่งรถม้าในฮิปโปโดรมเป็นสายใยที่ไม่ขาดสายเชื่อมโยงปัจจุบันของเราเข้ากับอดีตอันรุ่งโรจน์"
+ chariot_governor_chitchat_6: "ดูสิว่าเสียงเชียร์และเสียงโห่ร้องดังก้องผ่านยุคสมัยอย่างไร สะท้อนเสียงของจักรพรรดิที่ล่วงลับไปนานแล้ว ฮิปโปโดรมคือมรดกร่วมกันของเรา"
+ chariot_governor_chitchat_7: "ในสนามประลอง ที่ ซึ่งทักษะและกลยุทธ์มาบรรจบกัน สะท้อนให้เห็นถึงหน้าที่การบริหารของเรา เราต้องนำทางผ่านอุปสรรคด้วยความแม่นยำ เช่นเดียวกับนักขับรถม้าเหล่านี้"
+ chariot_governor_chitchat_8: "เป็นสักขีพยานในความกระตือรือร้นของผู้คนขณะที่พวกเขารวมตัวกันสนับสนุนนักขับรถม้าคนโปรด เป็นเครื่องเตือนใจว่าการปกครองก็เหมือนกับการแข่งรถ เป็นการเต้นรำไปกับความรู้สึกของสาธารณชน"
+ chariot_governor_chitchat_9: "ฮิปโปโดรมกระซิบเรื่องราวแห่งชัยชนะและความพ่ายแพ้ เตือนเราว่าความสำเร็จต้องอาศัยทั้งกลยุทธ์และการปรับตัว เช่นเดียวกับหน้าที่ของเราเอง"
+ chariot_governor_chitchat_10: "ขอให้เราพักผ่อนจากหน้าที่สักครู่เถิด สหายข้า และเพลิดเพลินกับการแสดงอันน่าตื่นตาตื่นใจของฮิปโปโดรม ท้ายที่สุด แม้ แต่ผู้ว่าการก็สมควรได้รับช่วงเวลาแห่งการพักผ่อนหย่อนใจบ้าง"
+
+ # ChariotComeback
+ chariot_comeback_fallback: "ทะยานจากอันดับสุดท้ายขึ้นมาท้าทายผู้นำ"
+ chariot_comeback_blazing: "พุ่งแซงคู่แข่งจากท้ายแถวขึ้นมาเผชิญหน้ากับผู้นำ"
+ chariot_comeback_sprinting: "วิ่งทะยานไปข้างหน้าจากท้ายสุด ไล่ตามผู้นำอย่างรวดเร็ว"
+ chariot_comeback_surging: "พุ่งขึ้นมาจากด้านหลัง เข้าปะทะกับนักขับรถม้าชั้นนำอย่างกล้าหาญ"
+ chariot_comeback_dashing: "พุ่งไปข้างหน้าจากอันดับสุดท้าย เข้าปะทะกับผู้นำอย่างรวดเร็ว"
+ chariot_comeback_rocketing: "พุ่งทะยานจากท้ายแถวเพื่อท้าทายนักแข่งชั้นนำโดยตรง"
+ chariot_comeback_bursting: "ระเบิดพลังจากท้ายสุด ไล่ตามผู้นำอย่างดุดัน"
+ chariot_comeback_miracle: "กระโดดขึ้นมาอย่างปาฏิหาริย์จากอันดับสุดท้ายเพื่อแข่งขันกับผู้นำโดยตรง"
+ chariot_comeback_rallying: "ตีตื้นขึ้นมาจากท้ายแถว เข้าใกล้ผู้เข้าแข่งขันชั้นนำอย่างอาจหาญ"
+ chariot_comeback_soaring: "ทะยานขึ้นมาจากท้ายขบวนเพื่อเผชิญหน้ากับผู้นำอย่างกล้าหาญ"
+ chariot_comeback_propelling: "ขับเคลื่อนจากท้ายสุด แข่งขันกับนักขับรถม้าชั้นนำอย่างมุ่งมั่น"
+
+ throne_room_chrysotriklinos: "[Glossary( 'คริโซทริกลินอส', 'CHRYSOTRIKLINOS_GLOSS')]"
+ CHRYSOTRIKLINOS_GLOSS: "#bold คริโซทริคลินอส#! (Chrysotriklinos) หรือ โถงรับรองทองคำ เป็นโถงประกอบพิธีการหลักของพระราชวังใหญ่แห่งคอนสแตนติโนเปิล"
+ throne_room_default: "ห้องพระโรง"
+
+ camp_purpose_type_wanderer: "ผู้พเนจร"
+ camp_purpose_type_scholar: "นักปราชญ์"
+ camp_purpose_type_explorer: "นักสำรวจ"
+ camp_purpose_type_freebooter: "นักปล้นสะดม"
+ camp_purpose_type_legitimist: "ผู้สนับสนุนสิทธิอันชอบธรรม"
+ camp_purpose_type_mercenary: "ทหารรับจ้าง"
+
+ camp_purpose_type_wanderers: "เหล่าผู้พเนจร"
+ camp_purpose_type_scholars: "เหล่านักปราชญ์"
+ camp_purpose_type_explorers: "เหล่านักสำรวจ"
+ camp_purpose_type_freebooters: "เหล่านักปล้นสะดม"
+ camp_purpose_type_legitimists: "เหล่าผู้สนับสนุนสิทธิอันชอบธรรม"
+ camp_purpose_type_mercenaries: "เหล่าทหารรับจ้าง"
+
+ camp_purpose_type_wanderer.insult: "คนจรจัด"
+ camp_purpose_type_scholar.insult: "คนขี้เกียจ"
+ camp_purpose_type_explorer.insult: "คนเร่ร่อน"
+ camp_purpose_type_freebooter.insult: "โจร"
+ camp_purpose_type_legitimist.insult: "ผู้อ้างสิทธิ์จอมปลอม"
+ camp_purpose_type_mercenary.insult: "ลูกจ้าง"
+
+ warriors: "นักรบ"
+
+rainy_season: "ฤดูฝน"
+dry_season: "ฤดูแล้ง"
+
+ pub_adjective_red: "แดง"
+ pub_adjective_white: "ขาว"
+ pub_adjective_blue: "น้ำเงิน"
+ pub_adjective_green: "เขียว"
+ pub_adjective_ebony: "ดำ" # Ebon หมายถึงสีดำเข้มเหมือนไม้มะเกลือ
+ pub_adjective_scarlet: "แดงชาด"
+ pub_adjective_spotted: "ลายจุด"
+ pub_adjective_golden: "ทอง"
+ pub_adjective_sapphire: "ไพลิน" # หรือ สีน้ำเงินเข้ม
+ pub_adjective_ashen: "เทา" # หรือ สีขี้เถ้า
+ pub_adjective_girthy: "อ้วนพี" # หรือ ใหญ่โต
+ pub_adjective_thundering: "กัมปนาท" # หรือ ดังสนั่น
+ pub_adjective_stinking: "เหม็น"
+ pub_adjective_lazy: "ขี้เกียจ"
+ pub_adjective_happy: "สุขสันต์"
+
+ pub_noun_prince: "เจ้าชาย[ROOT.Char.Custom('GetPubAdjective')]"
+ pub_noun_princess: "เจ้าหญิง[ROOT.Char.Custom('GetPubAdjective')]"
+ pub_noun_king: "ราชัน[ROOT.Char.Custom('GetPubAdjective')]"
+ pub_noun_queen: "ราชินี[ROOT.Char.Custom('GetPubAdjective')]"
+ pub_noun_bull: "กระทิง[ROOT.Char.Custom('GetPubAdjective')]"
+ pub_noun_horse: "อาชา[ROOT.Char.Custom('GetPubAdjective')]"
+ pub_noun_hound: "สุนัขล่าเนื้อ[ROOT.Char.Custom('GetPubAdjective')]"
+ pub_noun_duck: "เป็ด[ROOT.Char.Custom('GetPubAdjective')]"
+
+ pub_full_crown: "มงกุฎและสมอ"
+ pub_full_arms: "ตราอาร์มกษัตริย์"
+ pub_full_head: "เศียรราชินี"
+ pub_full_oak: "โอ๊คหลวง"
+ pub_full_plough: "คันไถและคราด"
+ pub_full_tuns: "สามถัง" # ตุน คือถังไม้ขนาดใหญ่สำหรับใส่ไวน์หรือเบียร์
+ pub_full_druid: "ตราอาร์มดรูอิด"

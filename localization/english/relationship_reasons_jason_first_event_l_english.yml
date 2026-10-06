@@ -1,0 +1,6 @@
+﻿l_english: 
+ rival_race_sabotage_accusation:0 "[CHARACTER.GetShortUIName|U] กล่าวหา [TARGET_CHARACTER.GetShortUIName] ว่าบ่อนทำลายอย่างร้ายกาจหลังจากการปะทะกันในการแข่งขัน"
+ rival_race_sabotage_accusation_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] กล่าวหา [CHARACTER.GetShortUIName] ว่าบ่อนทำลายอย่างร้ายกาจหลังจากการปะทะกันในการแข่งขัน"
+
+ friend_shared_disappointment:0 "น้ำใจของ [CHARACTER.GetShortUINamePossessive|U] หลังความผิดหวังร่วมกันจากการแข่งขันได้ก่อเกิดสายสัมพันธ์ขึ้น"
+ friend_shared_disappointment_corresponding:0 "น้ำใจของ [TARGET_CHARACTER.GetShortUINamePossessive|U] หลังความผิดหวังร่วมกันจากการแข่งขันได้ก่อเกิดสายสัมพันธ์ขึ้น"

@@ -1,0 +1,88 @@
+﻿l_english: 
+
+ stewardship_lifestyle_rank_up_indication:1 "I might gain a [stewardship_lifestyle|E] [perk|E]"
+ 
+ ###################
+ # Standard Events #
+ ###################
+
+ # Peasant mob brings someone before you, accusing them of witchcraft. By Sean Hughes 
+ stewardship_general.1054.t:0 "ข้อกล่าวหาเรื่อง[witch.Custom('MagicPracticeTerm')|U]"
+ stewardship_general.1054.desc:0 "ผ้าเปื้อนเลือด... ขนนกกา... ยาปรุงกลิ่นประหลาด นี่คือหลักฐานที่กลุ่มชาวบ้านจาก [target_county.GetNameNoTier] นำมาเสนอแก่ข้า เพื่อพิสูจน์ว่า [witch.GetFirstName] ได้ประกอบพิธี [witch.Custom('MagicPracticeTerm')] ในกระท่อมของ[witch.GetHerHis]บริเวณชานหมู่บ้าน\n\nเหล่าชาวบ้านอ้างว่าการกระทำอันชั่วร้ายของ[witch.GetHerHis]ต้องเป็นสาเหตุของ[witch.Custom('MagicSuperstitionTerm')]ของพวกเขา และกำลังเรียกร้องให้ประหาร[witch.GetHerHis]"
+ stewardship_general.1054.a:0 "'หลักฐาน' นั้นเป็นเพียงพยานแวดล้อม ปล่อยตัว [witch.GetHerHim] ไป"
+ stewardship_general.1054.b:0 "[witch.GetSheHe|U] ต้องถูกเผาสำหรับอาชญากรรมของ [witch.GetHerHis] ต่อ [ROOT.Char.GetFaith.HighGodName]!"
+ stewardship_general.1054.c:0 "เจ้าว่า[witch.Custom('MagicUserTerm')]รึ? ข้าอาจต้องการที่ปรึกษาคนใหม่"
+ stewardship_general.1054.d:0 "จัดฉากการประหารอย่างยิ่งใหญ่สำหรับ [witch.GetHerHim]..."
+ stewardship_general.1054.d.flavor:0 "... แต่ในความเป็นจริงแล้ว ลอบพา [witch.GetHerHim] กลับมายังราชสำนักของข้า!"
+
+ # Visited by a Trinket Peddler, by Filippa Gannholm
+ stewardship_general.2001.t:0 "จมูกไวเรื่องผลกำไร"
+ stewardship_general.2001.desc_intro:0 "ขณะที่ออกไปเดินเล่นผ่อนคลาย เสียงร้องของพ่อค้าคนหนึ่งก็โดดเด่นออกมาจากความเร่งรีบและวุ่นวายตามปกติของท้องถนน\n\n"คารวะ, [ROOT.Char.Custom('FormOfAddressForLiege')]! ข้ามีสินค้าชั้นเลิศให้เลือกมากมาย หาก [ROOT.Char.Custom('FormOfAddressForLiege')] มีเหรียญพอ...""
+ stewardship_general.2001.desc:0 "\n\nแผงของพ่อค้าเต็มไปด้วยเครื่องประดับเล็กๆ น้อยๆ และของกระจุกกระจิกอย่างแท้จริง"
+ stewardship_general.2001.desc_high_skill:0 "$stewardship_general.2001.desc$ ในฐานะผู้จัดหาสินค้าชั้นดีผู้ชำนาญ เครื่องประดับสองสามชิ้นสะดุดตาข้าท่ามกลางของจิปาถะที่ล้นหลาม"
+ stewardship_general.2001.desc_steward:0 "\n\nขณะที่ข้าเพ่งมองสินค้ามากมายในแผง ข้าได้ยิน [helpful_councillor.GetShortUIName] พึมพำว่า 'รอยสลักบนชิ้นนั้นต้องเป็นของจริง... และมีค่ามากทีเดียว!' [helpful_councillor.GetSheHe|U]เหลือบมองข้าพร้อมรอยยิ้มแห่งชัยชนะ"
+ stewardship_general.2001.desc_chaplain:0 "\n\nสหายของข้า [helpful_councillor.GetShortUIName] หยุดนิ่งในร่องรอยของ [helpful_councillor.GetHerHis] ศีรษะเอียงและจ้องมองอย่างตั้งใจไปที่บางสิ่งในแผงขายของพ่อค้า [helpful_councillor.GetSheHe|U] เอนตัวเข้ามาและสารภาพด้วยเสียงกระซิบ 'เครื่องประดับเล็ก ๆ น้อย ๆ' ชิ้นนั้น มันเป็นภาพเหมือนของชิ้นส่วนจากหีบวัตถุมงคลในพิธีการ เป็นการดีที่จะได้เครื่องประดับเล็ก ๆ น้อย ๆ เช่นนี้มา"
+ stewardship_general_2001_success_msg.t:0 "ต่อรองสำเร็จ"
+ stewardship_general_2001_failure_msg.t:0 "ต่อรองล้มเหลว"
+ stewardship_general_2001_free_msg.desc:0 "ทักษะการต่อรองของท่านพิสูจน์แล้วว่ายอดเยี่ยม"
+ stewardship_general_2001_tiny_msg.desc:0 "ทักษะการต่อรองของท่านพอใช้ได้"
+ stewardship_general_2001_minor_msg.desc:0 "ทักษะการต่อรองของท่านย่ำแย่"
+ stewardship_general_2001_expensive_msg.desc:0 "ท่านเสียรู้พ่อค้า"
+ stewardship_general.2001.free:0 "ท่านต่อรองราคาได้ดีเยี่ยม"
+ stewardship_general.2001.tiny_cost:0 "ท่านเป็นนักต่อรองที่ใช้ได้"
+ stewardship_general.2001.minor_cost:0 "นั่นไม่ใช่การต่อรองที่ดีนัก"
+ stewardship_general.2001.expensive_cost:0 "พ่อค้าฉลาดกว่าท่าน"
+ stewardship_haggle_cheap_trinket_tt:0 "ท่านเลือกเครื่องประดับราคาถูก"
+ stewardship_haggle_expensive_trinket_tt:0 "ท่านเลือกเครื่องประดับราคาแพง"
+ stewardship_haggle_helpful_trinket_tt:0 "ท่านเลือกเครื่องประดับที่ได้รับการแนะนำ"
+ stewardship_general.2001.a:0 "ข้ารู้สึกว่าโชคดี"
+ stewardship_general.2001.a.ignore_help:0 "ชิ้นนี้น่าจะต่อรองได้ง่าย"
+ stewardship_general.2001.b:0 "รายละเอียดของเครื่องประดับชิ้นนี้ ทำให้ข้าสนใจ"
+ stewardship_general.2001.b.ignore_help:0 "ข้าเชื่อว่าชิ้นนี้จะเป็นตัวเลือกที่ทำกำไรได้มากกว่า"
+ stewardship_general.2001.c.steward:0 "ข้าเชื่อมั่นในความเชี่ยวชาญของท่านในด้านนี้ [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('helpful_councillor')) ]"
+ stewardship_general.2001.c.chaplain:0 "คำพูดของท่านฟังดูฉลาดหลักแหลมสำหรับข้า [helpful_councillor.GetFirstNameNoTooltip]"
+ stewardship_general.2001.d:0 "ไปกันต่อเถอะ"
+ stewardship_general.2001.d.irritable:0 "ข้าบอกว่า #EMP ไม่#! ไปให้พ้น ก่อนที่ #EMP ข้าจะทำให้เจ้าต้องไป!#!"
+ stewardship_general.2001.tt:0 "ได้รับเครื่องประดับ"
+
+ stewardship_general.2002.t:1 "การแสดงอันน่าประทับใจ"
+ stewardship_general.2002.t_insulting:1 "การแสดงอันน่าดูหมิ่น"
+ stewardship_general.2002.desc.intro:0 "เมื่อเราผ่านแผงถัดไปสองแผง "
+ stewardship_general.2002.desc_impressed:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] ยิ้มให้ข้าอย่างยินดี\n\n'ใช่แล้ว เยี่ยมมากทีเดียว! ข้าเองก็คงทำได้ไม่ดีไปกว่านี้มากนัก'\n\n[helpful_councillor.GetSheHe|U]เหลือบมองเครื่องประดับในแผงข้างๆ อย่างสบายๆ และชำเลืองมองข้าอย่างคาดหวัง"
+ stewardship_general.2002.desc_very_impressed:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] ดึงแขนเสื้อข้าด้วยความตื่นเต้น\n\n'สาบานต่อ [ROOT.Char.GetFaith.HighGodName] นั่นเป็นการแสดงที่ยอดเยี่ยมที่สุด! ช่างมีวาทศิลป์ยิ่งนัก! แทบจะตามวาทะอันหวานหูไม่รู้จบในการต่อรอง #EMP ดุจการร่ายรำ# นั้นไม่ทันเลยทีเดียว'\n\n[helpful_councillor.GetSheHe|U]มองข้าด้วยความงุนงงและชื่นชม"
+ stewardship_general.2002.desc_insulted:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] มองข้าอย่างไม่เห็นด้วย\n\n'นั่นเป็นการแสดงออกที่... น่าสนใจอย่างแน่นอน ข้าไม่แน่ใจนักว่าเป้าหมายของเราคืออะไร, [ROOT.Char.Custom('FormOfAddressForLiege')], แต่ข้ามั่นใจว่าพ่อค้าได้สิ่งที่พวกเขาต้องการ...\n\n[helpful_councillor.GetSheHe|U] เริ่มเดินนำหน้าไป เป็นการสิ้นสุดการสนทนาของเรา"
+ stewardship_general.2002.desc_very_insulted:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] ส่งเสียงขึ้นจมูกอย่างเป็นปฏิปักษ์\n\n'ใครก็ตามที่มีปัญญาน้อยกว่าคงจะเถียงว่า [bought_trinket.GetName] แทบไม่สมควรแก่ชื่อนั้นเลย แต่ #EMP ข้ามั่นใจ#! ว่าเราตัดสินใจถูกต้องแล้วที่นี่...'\n\n[helpful_councillor.GetSheHe|U]ไม่พอใจอย่างชัดเจนกับการแสดงอันย่ำแย่ของข้าก่อนหน้านี้"
+ stewardship_general.2002.a.high_stewardship:0 "บางทีข้าอาจสอนกลยุทธ์สักสองสามอย่างให้ท่านได้"
+ stewardship_general.2002.mentor_success:0 "ท่านรำลึกถึงรายละเอียดปลีกย่อยของการต่อรองตลอดทั้งคืน"
+ stewardship_general.2002.mentor_failure:0 "[helpful_councillor.GetTitledFirstNameNoTooltip] ยังไม่ค่อยเชื่อมั่นนัก"
+ stewardship_general.2002.impressed:0 "นั่นเป็นการต่อรองที่ดี ใช่หรือไม่"
+ stewardship_general.2002.b.high_stewardship:0 "มันเป็นเพียงการทดสอบ #EMP ข้า#! ได้สิ่งที่ข้าต้องการแล้ว"
+ stewardship_general.2002.convince_success:0 "อา ใช่ [bought_trinket.GetName] เป็นการลงทุนที่ดีกว่ามาก เพราะ..."
+ stewardship_general.2002.convince_failure:0 "$stewardship_general.2002.mentor_failure$"
+ stewardship_general.2002.t_success:0 "การโน้มน้าวสำเร็จ"
+ stewardship_general.2002.t_failure:0 "การโน้มน้าวล้มเหลว"
+ stewardship_general.2002.insulted:0 "เรื่องที่เกิดขึ้นแล้วก็แล้วไป"
+
+ # Build a fish pond, by Linnéa Thimrén
+ stewardship_general.5011.t:0 "ปลาคาร์ป"
+ stewardship_general.5011.desc:0 ""หากท่านสนใจบ่อปลาคาร์ป ข้าสามารถสร้างบ่อที่ยอดเยี่ยมให้ท่านได้, [ROOT.Char.Custom('FormOfAddressForLiege')]!"\n\nช่างก่อสร้างตรงหน้าข้ามีประวัติผลงานที่ดี และเหล่าข้าราชสำนักของข้าก็ดูตื่นเต้นอย่างมากกับโอกาสนี้..."
+ stewardship_general.5011.a:0 "เจ้าจะมีทรัพยากรทั้งหมดที่เจ้าต้องการ!"
+ stewardship_general.5011.b:0 "นั่นคือข้อเสนอที่ดีที่สุดที่เจ้าจะให้ข้าได้ #EMP จริงๆ#! หรือ?"
+ stewardship_general.5011.b.message_1:0 "ท่านทำข้อตกลงได้อย่างยอดเยี่ยม"
+ stewardship_general.5011.b.message_2:1 "ช่างก่อสร้างฉลาดกว่าท่าน"
+ stewardship_general.5011.c:0 "หยุดเสียเวลาของข้า!"
+ stewardship_general.5011.every_courtier:1 "[courtier|E]ทุกคน"
+
+ stewardship_general.5013.t:0 "อสูรแห่งห้วงลึก"
+ stewardship_general.5013.desc:1 "ขณะที่ข้าเดินเล่นในสวน ข้าสังเกตเห็น [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('carp_food'))] ของข้า [carp_food.GetTitledFirstName] นั่งอยู่บนก้อนหินริมบ่อปลาคาร์ป [carp_food.GetSheHe]โน้มตัวลงเหนือขอบบ่อ จุ่มนิ้วของ[carp_food.GetHerHis]ลงไปในน้ำ เงาหนึ่งเคลื่อนไหวอยู่ใต้ผิวน้ำ..."
+ stewardship_general.5013.a:0 "[carp_food.GetFirstNameNoTooltip] ถอยไป! ถอยห่างจาก... ไม่นะ!"
+
+ # Catch a servant stealing from me, by Linnéa Thimrén
+ stewardship_general.5041.t:0 "คนรับใช้ทุจริต"
+ stewardship_general.5041.desc:0 "[servant_character.Custom('lowly_servant_type')] ชั้นต่ำคนหนึ่งได้ขโมยของไปจาก [ROOT.Char.Custom('GetCourt')] ของข้า!"
+ stewardship_general.5041.desc_highgod:0 "[servant_character.GetWomanMan]ผู้นั้นหมอบอยู่เบื้องหน้าข้า คร่ำครวญถึงลูกๆ ที่หิวโหยและขอความเมตตาในนามแห่ง [ROOT.Char.GetFaith.HouseholdGodName]"
+ stewardship_general.5041.desc_other:0 "[servant_character.GetWomanMan]ผู้นั้นหมอบอยู่เบื้องหน้าข้า คร่ำครวญถึงลูกๆ ที่หิวโหยและวิงวอนขอความเมตตา"
+ stewardship_general.5041.desc_ending:0 "\n\n"ได้โปรด ท่าน[ROOT.Char.GetLadyLord] ข้าจะทำทุกอย่างที่ท่านสั่ง!""
+ stewardship_general.5041.a:0 "แสดงให้ [servant_character.GetHerHim] เห็นว่าความหิวโหยที่แท้จริงเป็นอย่างไร"
+ stewardship_general.5041.b:0 "จองจำ [servant_character.GetHerHim]"
+ stewardship_general.5041.c:0 "แสดงความเมตตาและได้รับความภักดีของ [servant_character.GetHerHis]"

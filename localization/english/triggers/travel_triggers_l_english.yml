@@ -1,0 +1,42 @@
+﻿l_english: 
+ IS_TRAVELLING_TRIGGER: "กำลังเดินทาง"
+ I_AM_TRAVELLING_TRIGGER: "ข้ากำลังเดินทาง"
+ THEY_ARE_TRAVELLING_TRIGGER: "[CHARACTER.GetShortUIName|V] กำลังเดินทาง"
+ NOT_IS_TRAVELLING_TRIGGER: "ไม่ได้กำลังเดินทาง"
+ NOT_I_AM_TRAVELLING_TRIGGER: "ข้าไม่ได้กำลังเดินทาง"
+ NOT_THEY_ARE_TRAVELLING_TRIGGER: "[CHARACTER.GetShortUIName|V] ไม่ได้กำลังเดินทาง"
+
+ TRAVEL_PLAN_IS_ABORTED_TRIGGER:0 "แผนการเดินทางถูกยกเลิก"
+ NOT_TRAVEL_PLAN_IS_ABORTED_TRIGGER:0 "แผนการเดินทางไม่ได้ถูกยกเลิก"
+
+ TRAVEL_PLAN_IS_COMPLETED_TRIGGER:0 "แผนการเดินทางเสร็จสมบูรณ์"
+ NOT_TRAVEL_PLAN_IS_COMPLETED_TRIGGER:0 "แผนการเดินทางยังไม่เสร็จสมบูรณ์"
+
+ TRAVEL_PLAN_IS_PAUSED_TRIGGER:0 "แผนการเดินทางถูกหยุดชั่วคราว"
+ NOT_TRAVEL_PLAN_IS_PAUSED_TRIGGER:0 "แผนการเดินทางไม่ได้ถูกหยุดชั่วคราว"
+
+ TRAVEL_PLAN_IS_CANCELLED_TRIGGER:0 "แผนการเดินทางถูกยกเลิก"
+ NOT_TRAVEL_PLAN_IS_CANCELLED_TRIGGER:0 "แผนการเดินทางไม่ได้ถูกยกเลิก"
+
+ TRAVEL_PLAN_CAN_CANCEL_TRIGGER:0 "สามารถยกเลิกแผนการเดินทางได้"
+ NOT_TRAVEL_PLAN_CAN_CANCEL_TRIGGER:1 "ไม่สามารถยกเลิกแผนการเดินทางได้"
+
+ HAS_A_DISEASE: "มีโรคติดต่อร้ายแรง"
+ DOES_NOT_HAVE_A_DISEASE: "ไม่มีโรคติดต่อร้ายแรง"
+ I_AM_DISEASED: "ข้ามีโรคติดต่อร้ายแรง"
+ I_AM_NOT_DISEASED: "ข้าไม่มีโรคติดต่อร้ายแรง"
+ CHARACTER_IS_DISEASED: "[CHARACTER.GetTitledFirstName] มีโรคติดต่อร้ายแรง"
+ CHARACTER_IS_NOT_DISEASED: "[CHARACTER.GetTitledFirstName] ไม่มีโรคติดต่อร้ายแรง"
+
+ is_in_special_event: "กำลังติดพันกับเหตุการณ์อื่น"
+ is_in_diplomacy_foreign_special_event: "$is_in_special_event$"
+ is_in_diplomacy_family_special_event: "$is_in_special_event$"
+ is_in_diplomacy_majesty_special_event: "$is_in_special_event$"
+ is_in_martial_special_event: "$is_in_special_event$"
+ is_in_stewardship_domain_special_event: "$is_in_special_event$"
+ is_in_stewardship_duty_special_event: "$is_in_special_event$"
+ is_in_stewardship_wealth_special_event: "$is_in_special_event$"
+ is_in_intrigue_special_event: "$is_in_special_event$"
+ is_in_learning_special_event: "$is_in_special_event$"
+ is_in_task_contract_event_chain: "$is_in_special_event$"
+ migration_events_1060_rode_ahead: "$is_in_special_event$"

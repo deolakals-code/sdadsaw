@@ -1,0 +1,10 @@
+﻿l_english: 
+ tgp_travel_danger_events.0001.t: "ชีวิตท่ามกลางซากปรักหักพัง"
+ tgp_travel_danger_events.0001.intro: "การเดินทางผ่าน [ROOT.Char.GetCurrentLocation.GetName] ข้าได้เห็นผลกระทบของ[disaster_situation.GetType.GetNameNoTooltip|l]ในทุกแห่งหน"
+ tgp_travel_danger_events.0001.flood: "ซากปรักหักพังเกลื่อนกลาดริมฝั่งแม่น้ำ บ้านเรือนลอยไปตามสายน้ำราวกับใบไม้ในลำธาร ทั้งหมู่บ้านถูกกลืนกินโดยกระแสน้ำที่เชี่ยวกราก"
+ tgp_travel_danger_events.0001.earthquake: "แผ่นดินที่เคยอุดมสมบูรณ์และหมู่บ้านที่เคยมีชีวิตชีวา บัดนี้กลับเงียบสงัดท่ามกลางความสับสนวุ่นวายและซากปรักหักพัง ถูกแผ่นดินกลืนกินไปจนสิ้น"
+ tgp_travel_danger_events.0001.desc: "\n\nเมื่อเรามาถึงชายขอบของเมืองที่พังทลาย ข้าสังเกตเห็นเด็กน้อยผู้โดดเดี่ยวท่ามกลางซากปรักหักพัง [peasant_character_child.GetSheHe|U] ไม่ทันสังเกตเห็นข้า เนื่องจาก[peasant_character_child.GetSheHe]กำลังพยายามอย่างสุดความสามารถที่จะสร้างสิ่งที่ดูเหมือนจะเป็นบ้านไร่เดิมของตนขึ้นมาใหม่"
+ tgp_travel_danger_events.0001.a: "คนของข้าจะช่วยเก็บกวาดซากปรักหักพังเหล่านี้"
+ tgp_travel_danger_events.0001.b: "ข้าจะรับ[peasant_character_child.GetHerHim]ไว้ใต้ปีกของข้า"
+ tgp_travel_danger_events.0001.c: "ข้าไม่มีเวลาสำหรับเรื่องนี้!"
+ impressed_by_kindness: "ประทับใจในความมีน้ำใจ"

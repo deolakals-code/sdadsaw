@@ -1,0 +1,18 @@
+﻿l_english: 
+ CHARACTER_IS_PRESSING_TARGET_CHARACTERS_CLAIM:0 "[CHARACTER.GetShortUIName|U] กำลังอ้างสิทธิ์ของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+
+ GLOBAL_HOSTAGE_OATH_OF_FRIENDSHIP: "มีคำสัตย์สาบานแห่งมิตรภาพอันเป็นนิรันดร์อยู่"
+ YOU_HAVE_OATH_WITH_THEM: "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ได้สาบานว่าจะสนับสนุนกันตลอดไปเมื่อท่านทั้งสองเป็นสหายวัยเยาว์"
+ HOSTAGE_OATH_OF_FRIENDSHIP_THIRD: "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ได้สาบานว่าจะสนับสนุนกันตลอดไปเมื่อได้เป็นสหายวัยเยาว์"
+
+ can_appoint_for_title_first: "ท่านสามารถ แต่งตั้ง [CHARACTER.GetShortUIName|U] สำหรับตำแหน่ง [TARGET_TITLE.GetName] ได้"
+ not_can_appoint_for_title_first: "ท่าน #bold ไม่#! สามารถ แต่งตั้ง [CHARACTER.GetShortUIName|U] สำหรับตำแหน่ง [TARGET_TITLE.GetName] ได้"
+ can_appoint_for_title_third: "[CHARACTER.GetShortUIName|U] สามารถได้รับการ แต่งตั้งสำหรับตำแหน่ง [TARGET_TITLE.GetName]"
+ not_can_appoint_for_title_third: "[CHARACTER.GetShortUIName|U] #bold ไม่#! สามารถได้รับการ แต่งตั้งสำหรับตำแหน่ง [TARGET_TITLE.GetName]"
+ can_appoint_for_title_global: "$can_appoint_for_title_third$"
+ not_can_appoint_for_title_global: "$not_can_appoint_for_title_third$"
+
+ is_noble_family_title_third: "[TITLE.GetName] เป็น [title|E] ของ [noble_family|E]"
+ not_is_noble_family_title_third: "[TITLE.GetName] #bold ไม่#! ใช่ [title|E] ของ [noble_family|E]"
+ is_noble_family_title_global: "$is_noble_family_title_third$"
+ not_is_noble_family_title_global: "$not_is_noble_family_title_third$"

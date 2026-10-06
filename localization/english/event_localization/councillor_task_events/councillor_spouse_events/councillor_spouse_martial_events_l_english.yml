@@ -1,0 +1,51 @@
+﻿l_english: 
+ councillor_spouse_martial.0001.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] สร้างแรงบันดาลใจในการเกณฑ์ทหาร"
+
+ councillor_spouse_martial.0002.message:0 "ความช่วยเหลือในการจัดระเบียบกองทัพ"
+
+ councillor_spouse_martial.0003.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] ผู้สร้างแรงบันดาลใจ"
+
+ councillor_spouse_martial.0004.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] ส่งเสริมความเป็นอัศวิน"
+
+ councillor_spouse_martial.0005.message:0 "การสนับสนุนในการเจรจาทหารรับจ้าง"
+
+ councillor_spouse_martial.0006.message:0 "การดูแลข้า"
+
+ councillor_spouse_martial.0007.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] การดูแลบาดแผล"
+
+ councillor_spouse_martial.0008.message:0 "การปรากฏตัวอันน่าเกรงขาม"
+
+ councillor_spouse_martial.0009.message:0 "การฝึกซ้อมรบ"
+
+ councillor_spouse_martial.1001.t:1 "[councillor.GetCouncilTitle]:  วันประลองยุทธ์"
+ councillor_spouse_martial.1001.desc:2 "ดวงตะวันสาดส่องและเหล่าไพร่กำลังเดินขวักไขว่ในงานประลองที่จัดโดย [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] ของข้า เหล่า $knight_culture_player_plural_no_tooltip_lowercase$ ทั้งหมดของข้าโห่ร้องยินดีเมื่อ [councillor.GetTitledFirstName] ประกาศการประลองเพื่อเป็นเกียรติแก่พวกเขา และเป็นครั้งแรกที่ข้าได้เพียงแค่นั่งชม\n\nอย่างไรก็ตาม ข้าจะไม่ใช้เวลาทั้งวันประลองติดอยู่กับบัลลังก์หรอก!"
+ councillor_spouse_martial.1001.a:2 "ข้าเองก็โห่ร้องยินดีให้แก่เหล่า $knight_culture_player_plural_no_tooltip_lowercase$ ของข้า เช่นกัน!"
+ councillor_spouse_martial.1001.commanders:2 "$knight_culture_player_no_tooltip_lowercase$ ทุกคน"
+ councillor_spouse_martial.1001.b:0 "นี่เป็นโอกาสอันดีที่จะให้คำแนะนำแก่ [child.GetFirstNameNoTooltip] สักเล็กน้อย!"
+ councillor_spouse_martial.1001.b.education_tt:0 "ข้าพัฒนาการศึกษาด้านการทหารของ [child.GetFirstNamePossessiveNoTooltip]"
+ councillor_spouse_martial.1001.c:0 "วันนี้เป็นเกียรติแก่ #EMP เรา#! นะ ที่รัก!"
+ 
+ councillor_spouse_martial.1002.t:1 "[councillor.GetCouncilTitle]:  ปฏิบัติหน้าที่แทนข้า"
+ councillor_spouse_martial.1002.desc:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] ของข้าใช้เวลาส่วนใหญ่เดินทางไปทั่วอาณาจักรพร้อมกับกองทหารเกียรติยศของ [councillor.GetHerHis] มีหลายเรื่องที่ [councillor.GetSheHe] สามารถจัดการในนามของข้าได้ และการปรากฏตัวของกองกำลังทหารที่ [councillor.GetTitledFirstName] นำมาพร้อมกับ [councillor.GetHerHim] นั้น เป็นเครื่องย้ำเตือนถึงสิทธิ์ในการปกครองของข้าอย่างหนักแน่น"
+ councillor_spouse_martial.1002.a:0 "[councillor.GetTitleAsNameNoTooltip] ของข้าและข้าพร้อมยืนหยัดปกป้องอาณาจักร!"
+ councillor_spouse_martial.1002.b:0 "จง ทำให้แน่ใจว่าผู้คนหมอบคลานอย่างเหมาะสมนะ ที่รัก"
+ councillor_spouse_martial.1002.c:0 "ทุกคนควรทั้งเกรงกลัวข้าและกราบไหว้แทบเท้าข้า [councillor.GetFirstNameNoTooltip]!"
+
+ councillor_spouse_martial.1003.t:1 "[councillor.GetCouncilTitle]:  เรื่องของศักดิ์ศรี"
+ councillor_spouse_martial.1003.desc:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] ของข้า [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('councillor'))] เรื่องที่ [councillor.GetSheHe] ต้องการหารือคือความขัดแย้งระหว่าง [attacker_vassal.GetTitledFirstName] และ [defender_vassal.GetTitledFirstName]\n\n"การต่อสู้ของพวกเขานั้นไร้เกียรติ และนำความอัปยศมาสู่อาณาจักรของท่าน ให้ข้าจัดการพวกเขาเถิด ข้ารู้ว่าข้าสามารถบังคับให้พวกเขาสงบศึกได้""
+ councillor_spouse_martial.1003.a:0 "จัดการให้เรียบร้อย ไม่ว่าจะต้องแลกด้วยอะไรก็ตาม"
+ councillor_spouse_martial.1003.b:0 "ไม่ ข้าอยากเห็นว่าใครจะชนะ!"
+ councillor_spouse_martial.1003.b.tt:0 "[attacker_vassal.GetFirstNameNoTooltip] และ [defender_vassal.GetFirstNameNoTooltip] ทำสงครามต่อไป"
+ councillor_spouse_martial.1003.c:0 "โอ้ ข้าเชื่อว่าท่านทำได้ ที่รัก"
+ councillor_spouse_martial.1003.c.unlock_tt:0 "ตัวเลือกนี้มีให้ เนื่องจากความหลักแหลมทางยุทธศาสตร์ของ [councillor.GetFirstNamePossessiveNoTooltip]"
+
+ councillor_spouse_martial.1004.t:1 "[councillor.GetCouncilTitle]:  กององครักษ์"
+ councillor_spouse_martial.1004.desc:0 "ข้าสับสนเล็กน้อยว่าเหตุใด [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] ของข้าจึงต้องการมอบ "ของขวัญอันยิ่งใหญ่" ให้แก่ข้าที่ลานกลางแจ้ง อย่างไรก็ตาม ข้าก็เข้าใจในไม่ช้า เมื่อ [councillor.GetTitledFirstName] สั่งให้ทหารกลุ่มหนึ่งเข้าแถว "กองทหารครบกรมหนึ่ง ซึ่งเกณฑ์มาจากดินแดนของข้าเอง พร้อมรับใช้ท่านแล้ว"\n\nนี่ #EMP ช่างเป็น#! ของขวัญอันยิ่งใหญ่เสียจริง!"
+ councillor_spouse_martial.1004.a:0 "กองกำลังเพิ่มเติมเพื่อเสริมทัพ!"
+ councillor_spouse_martial.1004.b:0 "พวกเขาจะทำหน้าที่เป็นองครักษ์ส่วนตัวของข้า"
+
+ councillor_spouse_martial.1005.t:1 "[councillor.GetCouncilTitle]:  ทิ้งความประทับใจไว้เบื้องหลัง"
+ councillor_spouse_martial.1005.desc:0 "[vassal.GetTitledFirstName] กำลังเดินทางมายัง [capital.GetNameNoTier] เพื่อถวายเครื่องบรรณาการแก่ข้า อย่างไรก็ตาม [councillor.GetTitledFirstName] เสนอว่าการแสดงแสนยานุภาพทางทหารอาจช่วยให้มั่นใจในความภักดีอย่างต่อเนื่องได้\n\n"การได้เห็นแสนยานุภาพอันท่วมท้นของท่านจะ ทำให้ทุกคนคิดทบทวน หากความคิดทรยศเคยผุดขึ้นในใจ" [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] ของข้าชี้ให้เห็น"
+ councillor_spouse_martial.1005.a:0 "ใช่ [vassal.GetFirstNameNoTooltip] จะเห็นทหารทุกหนแห่งที่ [vassal.GetSheHe] หันไป!"
+ councillor_spouse_martial.1005.a.tt:1 "[vassal.GetFirstNameNoTooltip] กลายเป็นผู้ที่อ่อนไหวต่อ [dread|E] มากขึ้น"
+ councillor_spouse_martial.1005.b:0 "การสวนสนามตามปกติก็น่าจะเพียงพอแล้ว"

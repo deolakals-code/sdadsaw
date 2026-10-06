@@ -1,0 +1,29 @@
+﻿l_english: 
+ SITUATION_TOOLTIP_INVOLVEMENT: "กลุ่มของท่าน: [Situation.GetParticipantGroupByCharacter( GetPlayer.Self ).GetNameNoTooltip|V]"
+
+ SITUATION_START_DATE: "#weak วันที่เริ่มสถานการณ์: #! [Situation.GetStartDate.GetStringLong]"
+ SITUATION_TOOLTIP_CURRENT_PHASE: "ช่วงปัจจุบัน: [SituationPhase.GetName]"
+ SITUATION_PARTICIPATION_WINDOW_HEADER: "ผู้เข้าร่วมสถานการณ์"
+ SITUATION_PARTICIPANTS: "ผู้เข้าร่วม"
+ SITUATION_PARTICIPATION_WINDOW_PARTICIPANT_DESC: ""
+ SITUATION_PARTICIPATION_WINDOW_GROUP_ALL: "ทั้งหมด"
+
+ SITUATION_CURRENT_PHASE: "[situation_phase|E] ปัจจุบัน: #HIGH [Situation.GetCurrentPhase.GetName]#!"
+ SITUATION_PHASE_ENDS_IN: "#EMP สิ้นสุดใน [Situation.GetCurrentPhase.GetEndDate.GetTimeToDate]#!"
+
+ SITUATION_PHASE_PARTICIPANT_END_INDENT: "#!"
+ SITUATION_PHASE_PARTICIPANT_ALL_GROUP_SUFFIX: "#weak (ผู้เข้าร่วมทั้งหมด)#!"
+ SITUATION_PHASE_PARTICIPANT_YOUR_GROUP_SUFFIX: "#weak (กลุ่มของท่าน)#!"
+ SITUATION_PHASE_PARTICIPANT_INVOLVEMENT: "[Character.GetShortUINameNoTooltip|U] [Select_CString( Character.IsLocalPlayer, 'เป็น', 'คือ' )] ส่วนหนึ่งของ #S [SituationParticipantGroup.GetNameNoTooltip]#! แห่ง [Situation.GetNameNoTooltip]"
+ SITUATION_PHASE_PARTICIPANT_ALL_EFFECTS: "#indent_newline:2 #S ผลกระทบร่วม:#!"
+ SITUATION_PHASE_PARTICIPANT_GROUP_EFFECTS: "#indent_newline:2 #S ผลกระทบต่อ [SituationParticipantGroup.GetName]:#!"
+ SITUATION_PHASE_PARTICIPANT_GROUP_MODIFIER_SET_EFFECTS: "#indent_newline:2 #S ผลกระทบ [SituationModifierNamedSet.GetNameNoTooltip]:#!"
+ SITUATION_PHASE_CULTURE_DOCTRINE_EFFECTS: "#indent_newline:2 $CHARACTERS_OF_CULTURE_DOCTRINE_MODIFIER$"
+
+ SITUATION_START_EVENT_DESC: "#high ท่านอยู่ใน [Situation.GetParticipantGroupByCharacter( Character.Self ).GetName] ของ [Situation.GetName]#!"
+ SITUATION_START_EVENT_DETAIL_TITLE: "ตรวจสอบ แต่ละไอคอนเพื่อดูรายละเอียดเกี่ยวกับ [situation|E]"
+ 
+ SITUATION_PIN_TT: "#T [Situation.GetNameNoTooltip]#!\n\n #instruction คลิกเพื่อดู #!"
+
+ SITUATION_INFO_WIDGET_DEBUG: ""
+ SITUATION_PHASE_START_DATE: "#weak วันที่เริ่มต้นยุค:\n #![SituationPhase.GetStartDate.GetStringLong]"

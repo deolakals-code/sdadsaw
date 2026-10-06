@@ -1,0 +1,38 @@
+﻿l_english: 
+ THE_GREAT_STEPPE_WINDOW_HEADER: "[Situation.GetNameNoTooltip]"
+ THE_GREAT_STEPPE_WINDOW_SUBTITLE: "#P ท่านอยู่ในทุ่งหญ้าสเตปป์ #!"
+ THE_GREAT_STEPPE_WINDOW_SUB_REGION_NAME: "[SituationSubRegion.GetNameNoTooltip]"
+ THE_GREAT_STEPPE_WINDOW_SUB_REGION_PHASE_NAME: "[SituationSubRegion.GetCurrentPhase.GetType.GetNameNoTooltip]"
+ THE_GREAT_STEPPE_WINDOW_GURKHAN_SUBTITLE: "[gurkhan|E]"
+ THE_GREAT_STEPPE_WINDOW_NOMADS_HEADER: "ชนร่อนเร่แห่ง [Situation.GetNameNoTooltip]"
+ THE_GREAT_STEPPE_WINDOW_NOMAD_LABEL: "@herd_icon! #V [Character.GetHerdAndRaisedHorde|0]#!"
+ THE_GREAT_STEPPE_WINDOW_NO_PREDICTION: "จง แต่งตั้ง $court_astrologer_court_position$ เพื่อรับ [seasonal_prediction|E] ของ [steppe_season|E] ในอนาคตใน [Situation.GetNameNoTooltip]"
+ THE_GREAT_STEPPE_WINDOW_ASTROLOGER: "$court_astrologer_court_position$"
+ THE_GREAT_STEPPE_WINDOW_HIRE_ASTROLOGER: "จ้าง $court_astrologer_court_position$"
+
+ THE_GREAT_STEPPE_WINDOW_SEASON_REGION_HOME: "ภูมิภาคของท่าน"
+ THE_GREAT_STEPPE_WINDOW_SEASON_REGION: "[SituationSubRegion.GetNameNoTooltip]"
+ THE_GREAT_STEPPE_WINDOW_SEASON_REGION_YOURS: "[SituationSubRegion.GetNameNoTooltip] #weak (ตำแหน่งของท่าน)#!"
+ THE_GREAT_STEPPE_WINDOW_SEASON_CURRENT: "#high ฤดูกาลปัจจุบัน:#! [SITUATION_PHASE_TYPE.GetName]"
+ THE_GREAT_STEPPE_WINDOW_SEASON_END: "[steppe_season|E] นี้สิ้นสุดในวันที่ [DATE.GetStringLong|V]"
+ THE_GREAT_STEPPE_WINDOW_SEASON_EFFECTS: "ผลกระทบของฤดูกาล:"
+ THE_GREAT_STEPPE_WINDOW_SEASON_NEXT_PREDICTION: "#indent_newline:2 [seasonal_prediction|E] ถัดไป:"
+ THE_GREAT_STEPPE_WINDOW_SEASON_NEXT_PREDICTION_BULLET: "\n$EFFECT_LIST_BULLET$[SituationPhaseType.GetName] #Weak (โอกาส $VALUE|0%$ )#!"
+
+ THE_GREAT_STEPPE_WINDOW_CHARACTER_LOCATION: "ตั้งอยู่ใน [SituationSubRegion.GetNameNoTooltip]"
+ THE_GREAT_STEPPE_WINDOW_CHARACTER_HERD: "ขนาดฝูงสัตว์ของ [Character.GetFirstNamePossessiveNoTooltip]: [herd_i]#V [Character.GetHerdAndRaisedHorde|0]#!"
+ THE_GREAT_STEPPE_WINDOW_CHARACTER_MILITARY_STRENGTH: "ความแข็งแกร่งทางทหาร:"
+ THE_GREAT_STEPPE_WINDOW_CHARACTER_COMBINED_MILITARY_STRENGTH: "$THE_GREAT_STEPPE_WINDOW_CHARACTER_MILITARY_STRENGTH$ [soldier_i] #V [Character.GetMilitaryStrengthText]#!"
+
+ THE_GREAT_STEPPE_WINDOW_HERD_LEADERBOARD_SORT_HERD_SIZE: "ขนาดฝูงสัตว์"
+ THE_GREAT_STEPPE_WINDOW_HERD_LEADERBOARD_SORT_SUBREGION: "ภูมิภาคทุ่งหญ้าสเตปป์"
+ THE_GREAT_STEPPE_WINDOW_HERD_LEADERBOARD_BUTTON: "ชนร่อนเร่ทั้งหมดแห่งทุ่งหญ้าสเตปป์"
+ THE_GREAT_STEPPE_WINDOW_HERD_LEADERBOARD_EMPTY: "ไม่มีตัวละครในทุ่งหญ้าสเตปป์"
+
+ THE_GREAT_STEPPE_SITUATION_INFO_FERTILITY_TITLE: "ความอุดมสมบูรณ์ของเคาน์ตี"
+ THE_GREAT_STEPPE_SITUATION_INFO_SEASONS_TITLE: "ฤดูกาล"
+ THE_GREAT_STEPPE_SITUATION_INFO_MIGRATION_TITLE: "การอพยพ"
+
+ THE_GREAT_STEPPE_SITUATION_INFO_FERTILITY_EXPLANATION: "$game_concept_county_fertility_desc$"
+ THE_GREAT_STEPPE_SITUATION_INFO_SEASONS_EXPLANATION: "$game_concept_steppe_seasons_desc$"
+ THE_GREAT_STEPPE_SITUATION_INFO_MIGRATION_EXPLANATION: "$game_concept_migration_desc$"

@@ -1,0 +1,18 @@
+﻿l_english: 
+ heresy.0010.t:2 "ลัทธินอกรีต: [heretic_faith.GetAdherentNamePluralNoTooltip] ใน [heretic_title.GetNameNoTierNoTooltip]"
+ heresy.0010.desc:1 "[heretic_ruler.GetTitledFirstName] แห่ง [heretic_title.GetNameNoTier] ได้ประกาศให้โลกรู้ว่า [heretic_ruler.GetSheHe] และข้าหลวงของ [heretic_ruler.GetHerHis] ได้เปลี่ยนไปนับถือ [heretic_faith.GetName]"
+ heresy.0010.desc.nonexistant:1 "\n\nเมื่อหมดสิ้นศรัทธาในคำสอนของเหล่า[origin_faith.PriestMalePlural][origin_faith.GetAdjective] เหล่าขุนนางแห่ง [heretic_title.GetNameNoTierNoTooltip] จึงมิได้พิจารณาอีกต่อไปว่าเหล่า[origin_faith.AltPriestTermPlural] นั้นเที่ยงธรรมและสัตย์จริง ในฐานะ [heretic_faith.GetAdherentNamePluralNoTooltip] พวกเขาเชื่อมั่นว่าศรัทธาใหม่ของตนสอดคล้องอย่างถูกต้องกับพระประสงค์ของ [heretic_faith.HighGodName] และพวกเขาจึงกำลังตีตัวออกห่างจากสถาบันทางศาสนาเดิมของตน"
+ heresy.0010.desc.exists:1 "\n\nเมื่อหมดสิ้นศรัทธาในคำสอนของเหล่า[origin_faith.PriestMalePlural][origin_faith.GetAdjective] เหล่าขุนนางแห่ง [heretic_title.GetNameNoTierNoTooltip] จึงมิได้พิจารณาอีกต่อไปว่าเหล่า[origin_faith.AltPriestTermPlural] นั้นเที่ยงธรรมและสัตย์จริง และกำลังตีตัวออกห่างจากสถาบันทางศาสนาเดิมของตน พวกเขากลับประกาศตนเป็น [heretic_faith.GetAdherentNamePluralNoTooltip] ซึ่งมีหลักคำสอนที่พวกเขารู้สึกว่าสอดคล้องกับพระประสงค์ของ [heretic_faith.HighGodNamePossessive] ได้ดียิ่งกว่า"
+ heresy.0010.desc.resurgent:1 "\n\nเมื่อหมดสิ้นศรัทธาในคำสอนของเหล่า[origin_faith.PriestMalePlural][origin_faith.GetAdjective] เหล่าขุนนางแห่ง [heretic_title.GetNameNoTierNoTooltip] จึงมิได้พิจารณาอีกต่อไปว่าเหล่า[origin_faith.AltPriestTermPlural] นั้นเที่ยงธรรมและสัตย์จริง ผลที่ตามมาคือ เหล่าขุนนางแห่ง [heretic_title.GetNameNoTierNoTooltip] ได้ฟื้นฟูคำสอนที่ถูกทอดทิ้งของ [heretic_faith.GetAdherentNamePluralNoTooltip] ขึ้นมาใหม่ ซึ่งมีหลักคำสอนที่พวกเขารู้สึกว่าสอดคล้องกับพระประสงค์ของ [heretic_faith.HighGodNamePossessive] ได้ดียิ่งกว่า"
+ heresy.0010.tt.custom:0 "[heretic_faith.GetName|V] ปรากฏขึ้นใน [heretic_title.GetName]"
+ heresy.0010.a.new_heresy:0 "นี่มันการล้อเลียนอันบิดเบี้ยวต่อศรัทธาของเราอันใดกัน!?"
+ heresy.0010.a.existing_heresy:0 "พวกนอกรีตอันชั่วช้านั่นได้ชักนำพวกเขาให้หลงผิดไปเสียแล้ว!"
+ heresy.0010.a.astray_faith:0 "ข้าไม่เข้าใจหรอก แต่ก็คงจะ ทำให้พวกเขามีความสุขกระมัง?"
+ heresy.0010.a.same_faith:0 "ข้ารู้อยู่แล้วว่าพวกเขาจะได้เห็นแสงสว่างในที่สุด!"
+ heresy.0010.b:0 "ว่าไปแล้ว พวกเขาก็มีเหตุผลดีอยู่บ้างนะ..."
+ heresy.0010.notification.title:0 "ขบวนการทางศาสนาใหม่"
+ heresy.0010.notification:0 "[heretic_ruler.GetFullName] ได้ก่อตั้งขบวนการ[heretic_faith.GetAdjective]ใหม่ขึ้น!"
+
+ heresy.0011.notification.heresy:1 "[convert_ruler.Custom2('HierarchicalStatus', me)] เข้าร่วมนอกรีต: [convert_ruler.GetShortUINameNoTooltip]"
+ heresy.0011.notification.same_faith:1 "[convert_ruler.Custom2('HierarchicalStatus', me)] เข้ารับศรัทธาที่แท้จริง: [convert_ruler.GetShortUINameNoTooltip]"
+ heresy.0011.notification.other:1 "[convert_ruler.Custom2('HierarchicalStatus', me)] เปลี่ยนศรัทธา: [convert_ruler.GetShortUINameNoTooltip]"

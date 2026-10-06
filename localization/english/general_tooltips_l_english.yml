@@ -1,0 +1,9 @@
+﻿l_english: 
+ line_break:0 "\n"
+ double_line_break:0 "\n\n"
+ do_not_execute_plot_tooltip:0 "เหล่าผู้ร่วมคบคิดจักยังคงเฝ้ารอ สำหรับบัดนี้"
+ outcome_in_a_few_moments:0 "ในอีกไม่กี่ครู่"
+ outcome_in_a_few_days:0 "ในอีกไม่กี่วัน"
+ outcome_in_a_few_weeks:0 "ในอีกไม่กี่สัปดาห์"
+ outcome_in_a_few_months:0 "ในอีกไม่กี่เดือน"
+ outcome_in_a_few_years:0 "ในอีกไม่กี่ปี"

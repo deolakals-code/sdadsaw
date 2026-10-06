@@ -1,0 +1,22 @@
+﻿l_english: 
+  enact_legacy_of_adventurer_decision: "มรดกแห่ง [GetPlayer.GetHouse.GetBaseNameNoTooltip]"
+  enact_legacy_of_adventurer_decision_desc: "ตลอดหลายปีที่ผ่านมา ค่ายอันสมถะของข้าได้เติบใหญ่ทั้งขนาดและจิตวิญญาณ\n\nใน แต่ละภารกิจที่เรา ทำให้ลุล่วง สายสัมพันธ์ของเรากับดินแดนนี้และผู้คนก็ยิ่งแน่นแฟ้น วีรกรรมของเราถูกขับขานในโรงเตี๊ยม และนามของเราถูกกระซิบในความมืด เช่นนี้สืบไปจนชั่วลูกชั่วหลาน"
+  enact_legacy_of_adventurer_decision_confirm: "เพื่อ [GetPlayer.GetPrimaryTitle.GetNameNoTooltip]!"
+  enact_legacy_of_adventurer_decision_tooltip: "สร้างความมั่นคงให้สถานะของตระกูล [house|E] [GetPlayer.GetHouse.GetBaseNameNoTooltip] ในยุทธภพแห่งเหล่านักผจญภัย [adventurers|E]"
+  have_enough_followers_tt: "ท่านมีผู้ติดตาม [followers|E] อย่างน้อย #V 15#! คน #weak (#color_white [GetPlayer.MakeScope.ScriptValue('tally_current_followers')]#!)#!"
+  have_enough_patrons_tt: "ท่านมีผู้อุปถัมภ์ใน [contact_list|E] ของท่านอย่างน้อย #V 5#! ท่าน #weak (#color_white [GetPlayer.MakeScope.ScriptValue('tally_roll_of_patrons')]#!)#!"
+  has_max_level_pavilion_tt: "กระโจม [GetDomicileBuilding('camp_main_01').GetName] [building|E] ของท่านอยู่ที่ระดับ #V 4#! #weak (#color_white [GetPlayer.MakeScope.ScriptValue('camp_pavillion_level')]#!)#!"
+  has_enough_contracts_tt: "ท่านทำสัญญาภารกิจ [task_contracts|E] ที่ไม่ใช่งานอาชญากรรม [criminal|E] สำเร็จแล้ว #V [contract_tally]/50#! ฉบับ"
+  legacy_adventurer_legitimacy_on_landing: "หากนักผจญภัย [adventurer|E] จากตระกูล [house|E] [GetPlayer.GetHouse.GetBaseName] ได้ขึ้นเป็นผู้ปกครอง [ruler|E]:\n$BULLET$ พวกเขาจะได้รับความชอบธรรม [legitimacy|E] [legitimacy_i][GetPlayer.MakeScope.ScriptValue('massive_legitimacy_gain')|+0]\n$BULLET$ ต่อผู้ติดตาม [follower|E] หนึ่งคนที่เคยมี พวกเขาจะได้รับไพร่พล [levies|E] [soldier_i] #P 25#! นาย"
+  criminal_contracts_blocked_tt: "@warning_icon! #warning ท่านจะไม่สามารถรับสัญญาภารกิจอาชญากรรม [criminal|E] [task_contracts|E] ได้อีกต่อไป#!"
+  task_successful_noncrim_contract_count_effect_tt: "ท่านมีความคืบหน้าในการตัดสินใจ [decision|E] $enact_legacy_of_adventurer_decision$"
+  remnants_adventurer_army: "เศษซากกองกำลังแห่ง [prev_title.GetNameNoTooltip]"
+
+  legacy_adventurer_house_modifier: "สายเลือดนักผจญภัย"
+  legacy_adventurer_house_modifier_desc: "ตระกูลนี้ให้ความสำคัญกับวิถีชีวิตของนักผจญภัย และมิต้องกังวลเรื่องกิจในราชสำนัก\nรางวัลเกียรติภูมิ [prestige|E] จากสัญญาภารกิจ [task_contract|E] ของนักผจญภัย [adventurer_i]: [prestige_i]#P +15%#!"
+
+  bp3_decisions.0100.t: "$enact_legacy_of_adventurer_decision$"
+  bp3_decisions.0100.desc: "แด่ทุกคนผู้ติดตามข้า ข้าขอมอบสถานที่พักพิงอันปลอดภัยและโอกาสที่จะสร้างชื่อเสียงในโลกหล้า\n\nในโลกของข้า ไม่มีที่ว่างสำหรับการฉ้อราษฎร์บังหลวงหรือเล่ห์เหลี่ยมใดๆ และทุกสิ่งที่เรากระทำไปก็เพื่อความเจริญรุ่งเรืองของดินแดนที่เราสัญจรผ่าน นั่นคือความหมายของการเป็น [GetPlayer.GetHouse.GetBaseName]\n\nตราบใดที่ข้ายังนำ [GetPlayer.GetPrimaryTitle.GetName] เราจะลงทัณฑ์คนชั่ว!"
+  bp3_decisions.0100.a: "มุ่งหน้าต่อไป เหล่าผู้ติดตามของข้า!"
+  bp3_decisions.0100.a_tt: "สร้างสัญญาภารกิจผู้ผดุงความยุติธรรม [justicar_task_contracts|E] สูงสุด #V 3#! ฉบับ บนแผนที่"
+  bp3_decisions.0100.b: "แม้กระนั้น ข้าก็ยังปรารถนาดินแดน..."

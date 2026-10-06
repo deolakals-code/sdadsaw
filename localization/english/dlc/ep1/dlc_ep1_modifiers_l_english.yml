@@ -1,0 +1,31 @@
+﻿l_english: 
+ 
+ inspiration_invested_in_new_forge_modifier:0 "โรงตีเหล็กใหม่"
+ inspiration_invested_in_new_forge_modifier_desc:0 "ตัวละครนี้มีโรงตีเหล็กใหม่เอี่ยมและมีประสิทธิภาพสูง"
+ 
+ inspiration_alchemy_condoned_by_church_modifier:0 "ศาสนจักรยอมรับการเล่นแร่แปรธาตุ"
+ inspiration_alchemy_condoned_by_church_modifier_desc:0 "ศาสนจักรท้องถิ่นได้ตัดสินใจยอมรับความหลงใหลในการทดลองเล่นแร่แปรธาตุของตัวละครนี้"
+
+ raised_in_secrecy_modifier:0 "เลี้ยงดูอย่างลับๆ"
+ raised_in_secrecy_modifier_desc:0 "ตัวละครนี้ถูกเลี้ยงดูมาอย่างลับสุดยอดและแทบจะโดดเดี่ยวโดยสิ้นเชิงตั้งแต่เกิด"
+
+ legendary_party_aftermath_modifier:0 "ผลพวงงานเลี้ยงระดับตำนาน"
+ legendary_party_aftermath_modifier_desc:0 "ราชสำนักของตัวละครนี้ยังคงมีร่องรอยความเสียหายจากงานเลี้ยงที่ยอดเยี่ยมอย่างน่าอับอาย หาก แต่ทำลายล้าง"
+ mythic_party_aftermath_modifier:0 "ผลพวงงานเลี้ยงระดับเทพนิยาย"
+ mythic_party_aftermath_modifier_desc:0 "ราชสำนักของตัวละครนี้ยังคงมีร่องรอยความเสียหายจากงานเลี้ยงที่รุ่งโรจน์และทำลายล้างจนเป็นที่จดจำของคนในท้องถิ่น"
+ world_shattering_party_aftermath_modifier:0 "ผลพวงงานเลี้ยงสะท้านโลก"
+ world_shattering_party_aftermath_modifier_desc:0 "ราชสำนักของตัวละครนี้ยังคงมีร่องรอยความเสียหายจากงานเลี้ยงที่โกลาหลจนสร้างความเสียหายมากกว่าการล้อมเมืองเล็กๆ ส่วนใหญ่"
+ lacking_diplomatic_munity_modifier:0 "ขาดความคุ้มกันทางการทูต"
+ lacking_diplomatic_munity_modifier_desc:0 "ทุกคนรู้ดีว่านักการทูตที่มาเยือนราชสำนักนี้มีความปลอดภัยน้อยกว่าที่ธรรมเนียมกำหนดไว้เล็กน้อย"
+ humbling_hall_modifier:0 "ห้องโถงลดทิฐิ"
+ humbling_hall_modifier_desc:0 "ห้องหนึ่งในราชสำนักนี้มีชื่อเสียงจากเหตุการณ์ที่ ทำให้นักการทูตสูงศักดิ์สองคนลดทิฐิลง เป็นเรื่องราวความยุติธรรมที่น่าพอใจ ซึ่งสามัญชนใช้เป็นนิทานสอนใจ"
+ inscrutable_host_modifier:0 "เจ้าบ้านหยั่งรู้ยาก"
+ inscrutable_host_modifier_desc:0 "ตัวละครนี้เป็นที่ทราบกันอย่างกว้างขวางว่าคิดว่าการแก้แค้นคืออาหารที่เสิร์ฟเย็นดีที่สุด อาจจะนะ"
+
+ above_petty_differences_modifier:0 "อยู่เหนือความแตกต่างเล็กน้อย"
+ above_petty_differences_modifier_desc:0 "ตัวละครนี้ไม่สนใจเรื่องเล็กน้อยเลยแม้ แต่น้อย โดยมุ่งเน้นไปที่จุดร่วมระหว่างผู้คนมากกว่าการทะเลาะวิวาทเล็กๆ น้อยๆ"
+
+ what_did_i_just_drink_modifier:0 "ข้าเพิ่งดื่มอะไรเข้าไป?"
+ what_did_i_just_drink_modifier_desc:0 "นั่นมัน... ข้า... หัวข้า... โอ๊ย"
+ known_killjoy_modifier:0 "ผู้ทำลายความสนุกเป็นที่รู้จัก"
+ known_killjoy_modifier_desc:0 "ห้ามมีความสนุก โดยกฤษฎีกาขุนนาง"

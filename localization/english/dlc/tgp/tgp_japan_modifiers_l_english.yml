@@ -1,0 +1,220 @@
+﻿l_english: 
+
+ #County Modifiers
+ tgp_japan_fresh_fish_county_modifier: "ปลาสดใหม่"
+ tgp_japan_fresh_fish_county_modifier_desc: "ผู้คนในเคาน์ตีนี้ได้รับการจัดหาปลาที่จับมาสดใหม่"
+ tgp_japan_pearl_county_modifier: "ไข่มุกเลอค่า"
+ tgp_japan_pearl_county_modifier_desc: "นักประดาน้ำแห่งเคาน์ตีนี้บางครั้งก็ค้นพบไข่มุกเพื่อนำไปขาย"
+ tgp_japan_abalone_temple_offerings_county_modifier: "เครื่องบูชาวิหาร"
+ tgp_japan_abalone_temple_offerings_county_modifier_desc: "นักประดาน้ำแห่งเคาน์ตีนี้ขายหอยเป๋าฮื้อ ซึ่งเชื่อกันว่าจะนำมา ซึ่งชีวิตที่ยืนยาว"
+
+ tgp_japan_taxed_entertainment_county_modifier: "ความบันเทิงที่ถูกเก็บภาษี"
+ tgp_japan_taxed_entertainment_county_modifier_desc: "ในเคาน์ตีนี้ ไม่มีโอกาสใดที่จะเพิ่มพูนคลังหลวงถูกมองข้าม แม้ แต่ความบันเทิงของเหล่าประชากรมิได้เว้น"
+
+ tgp_japan_prized_generosity_county_modifier: "รางวัลแห่งความเอื้อเฟื้อ"
+ tgp_japan_prized_generosity_county_modifier_desc: "มีสิ่งใดเล่าจะส่งเสริมการแข่งขันอันดีงามระหว่างหมู่บ้านได้ยิ่งกว่าคำมั่นสัญญาถึงรางวัลเมื่อพวกเขาแข่งขันกัน และผู้คนในเคาน์ตีนี้ก็มีแรงจูงใจที่ดีอย่างแท้จริง"
+
+ tgp_japan_fire_drilled_county_modifier: "ครัวเรือนที่ฝึกซ้อมรับมืออัคคีภัย"
+ tgp_japan_fire_drilled_county_modifier_desc: "ครัวเรือนในเคาน์ตีนี้ตระหนักถึงภยันตรายจากเปลวเพลิงอย่างลึกซึ้ง และ แต่ละครัวเรือนได้รับมอบหมายให้ดูแลถังน้ำไว้ในกรณีที่เกิดเหตุเพลิงไหม้"
+
+ tgp_japan_instructive_plays_county_modifier: "บทละครสอนศีลธรรม"
+ tgp_japan_instructive_plays_county_modifier_desc: "ผู้คนในเคาน์ตีนี้ถูกย้ำเตือนถึงสถานะของตน แม้ในยามที่พวกเขาพยายามจะลืมเลือนมันผ่านการเพลิดเพลินกับบทละครเพียงไม่กี่ชั่วโมง"
+
+ #Character Modifiers
+ tpg_japan_hot_spring_relaxation_modifier: "การดูแลตนเอง"
+ tpg_japan_hot_spring_relaxation_modifier_desc: "ตัวละครนี้ได้แช่น้ำฟื้นฟูใน [Glossary( 'ออนเซ็น', 'ONSEN_GLOSS' )]"
+
+ tgp_japan_hot_spring_mystic_positive_modifier: "จิตวิญญาณที่ฟื้นคืน"
+ tgp_japan_hot_spring_mystic_positive_modifier_desc: "ตัวละครนี้เข้าใจวิธีผสานรวมกับตัวตนทางจิตวิญญาณของตน"
+ tgp_japan_hot_spring_mystic_neutral_modifier: "จิตวิญญาณที่กังขา"
+ tgp_japan_hot_spring_mystic_neutral_modifier_desc: "ตัวละครนี้รู้สึกถึง #EMP บางสิ่ง#! แต่ไม่สามารถหยั่งรู้ได้ว่าคืออะไร"
+ tgp_japan_hot_spring_mystic_negative_modifier: "จิตวิญญาณที่แตกซ่าน"
+ tgp_japan_hot_spring_mystic_negative_modifier_desc: "ตัวละครนี้ไม่สามารถเชื่อมต่อกับตัวตนทางจิตวิญญาณได้"
+
+ tgp_japan_sake_offering_county_modifier: "การถวายสาเก"
+ tgp_japan_sake_offering_county_modifier_desc: "ผู้ปกครองเคาน์ตีนี้ได้แสดงความเคารพต่อเหล่าทวยเทพในระหว่างการเฉลิมฉลองชมดอกซากุระ"
+
+ #Character Modifiers
+ tgp_japan_sake_offering_character_modifier: "ของขวัญแห่งสาเก"
+ tgp_japan_sake_offering_character_modifier_desc: "ตัวละครนี้ได้แสดงความเคารพต่อเหล่าทวยเทพในระหว่างการเฉลิมฉลองชมดอกซากุระ"
+
+ tgp_japan_tengu_rumors_character_modifier: "ข่าวลือเรื่องเท็งงุ"
+ tgp_japan_tengu_rumors_character_modifier_desc: "ตัวละครนี้ยังคงค้นหา [Glossary( 'เท็งงุ', 'TENGU_GLOSS' )] ในภูเขาอันตรายหรือป่าไม้อันอุดมสมบูรณ์หลังจากได้ยินข่าวลือ\n\nกล่าวกันว่าผู้ใดก็ตามที่พานพบและ ทำให้พวกมันประทับใจด้วยแสนยานุภาพของตนจะได้รับรางวัลอย่างงาม"
+
+ tgp_japan_cautious_curiosity_character_modifier: "ความอยากรู้อยากเห็นอย่างระมัดระวัง"
+ tgp_japan_cautious_curiosity_character_modifier_desc: "ตัวละครนี้เพิ่งถูกหลอกลวงด้วยข่าวลือเพียงเท่านั้น"
+
+ tpg_japan_add_fish_to_pond_modifier: "บ่อที่เต็มไปด้วยปลา"
+ tpg_japan_add_fish_to_pond_modifier_desc: "คนสวนของตัวละครนี้ได้เพิ่มปลาพิเศษลงในบ่อ ทำให้ที่นี่เป็นสถานที่ยอดนิยมสำหรับเหล่าข้าราชสำนักมาเยี่ยมเยือน"
+
+ tgp_japan_train_with_troops_modifier: "กองกำลังที่เปี่ยมแรงบันดาลใจ"
+ tgp_japan_train_with_troops_modifier_desc: "ตัวละครนี้ได้กล่าวสุนทรพจน์ สร้างแรงบันดาลใจให้กองกำลังของตนก่อนการรบใด ๆ ที่จะมาถึง"
+
+ tgp_learned_from_onibi_modifier: "เรียนรู้จากโอนิบิ"
+ tgp_learned_from_onibi_modifier_desc: "ตัวละครนี้ได้รับความเข้าใจอย่างลึกซึ้งจากการสนทนาเกี่ยวกับ [Glossary( 'โอนิบิ', 'ONIBI_GLOSS' )]"
+
+ tgp_buddhist_fighting_modifier: "การต่อสู้ภายในทางศาสนา"
+ tgp_buddhist_fighting_modifier_desc: "ตัวละครนี้นั่งดูอยู่อย่างเฉยเมย ในขณะที่นิกายชาวพุทธต่าง ๆ ต่อสู้เพื่อแย่งชิงการควบคุมในดินแดนของตน"
+
+ tgp_siren_yokai_love_modifier: "ในการแสวงหาความรัก"
+ tgp_siren_yokai_love_modifier_desc: "ตัวละครนี้ได้รับแรงบันดาลใจจาก [Glossary( 'โยวไค', 'YOKAI_GLOSS' )] ให้ออกตามหาความรัก"
+
+ tgp_siren_yokai_prose_modifier: "นักเล่าเรื่องผู้มุ่งมั่น"
+ tgp_siren_yokai_prose_modifier_desc: "ตัวละครนี้ได้รับแรงบันดาลใจจากบทเพลงที่พวกเขาฝันว่า [Glossary( 'โยวไค', 'YOKAI_GLOSS' )] ร้องให้ฟัง บัดนี้พวกเขาจะประพันธ์เรื่องราวของตนเอง"
+
+ tgp_garden_yokai_bloom_modifier: "สวนที่เบ่งบาน"
+ tgp_garden_yokai_bloom_modifier_desc: "ตัวละครนี้เชื่อว่าตนเห็น [Glossary( 'โยวไค', 'YOKAI_GLOSS' )] ดลใจให้พวกเขาลงทุนในสวนของตน"
+
+ tgp_garden_yokai_building_modifier: "สถาปนิกผู้มุ่งมั่น"
+ tgp_garden_yokai_building_modifier_desc: "ตัวละครนี้เชื่อว่าตนเห็น [Glossary( 'โยวไค', 'YOKAI_GLOSS' )] ดลใจให้พวกเขาสร้างสิ่งก่อสร้างในดินแดนของตน"
+
+ tgp_shadow_yokai_imitation_modifier: "การปรากฏตัวอันน่าเกรงขาม"
+ tgp_shadow_yokai_imitation_modifier_desc: "ตัวละครนี้แผ่รัศมีอันน่าเกรงขาม โดยเชื่อว่าพวกเขามี [Glossary( 'โยวไค', 'YOKAI_GLOSS' )] เป็นพันธมิตร"
+
+ tgp_shadow_yokai_torch_modifier: "การลาดตระเวนเพิ่มเติม"
+ tgp_shadow_yokai_torch_modifier_desc: "ตัวละครนี้เชื่อว่า [Glossary( 'โยวไค', 'YOKAI_GLOSS' )] ได้สิงสู่เงาของตนและกำลังเพิ่มการป้องกันในดินแดนของพวกเขา"
+
+ tgp_shrine_heir_modifier: "ความโปรดปรานแห่งราชวงศ์"
+ tgp_shrine_heir_modifier_desc: "ตัวละครนี้ได้สวดภาวนาที่ศาลเจ้าและไตร่ตรองว่าควรลงทุนในการสร้างความมั่นคงให้กับอนาคตของตระกูล"
+
+ tgp_shrine_piety_modifier: "ผู้รับใช้ผู้ศรัทธา"
+ tgp_shrine_piety_modifier_desc: "ตัวละครนี้มีความศรัทธาที่แข็งแกร่งขึ้นจากการสวดภาวนาที่ศาลเจ้า"
+
+ tgp_shrine_wealth_modifier: "ความมั่งคั่งทางเศรษฐกิจ"
+ tgp_shrine_wealth_modifier_desc: "ตัวละครนี้ได้สวดภาวนาที่ศาลเจ้าและไตร่ตรองว่าควรลงทุนในการเพิ่มพูนความมั่งคั่งของตน"
+
+ tgp_shrine_health_modifier: "ร่างกายที่แข็งแกร่งขึ้น"
+ tgp_shrine_health_modifier_desc: "ตัวละครนี้ได้สวดภาวนาที่ศาลเจ้าและไตร่ตรองว่าควรลงทุนในสุขภาพของตน"
+
+ tgp_traveling_safe_modifier: "นักเดินทางผู้ระมัดระวัง"
+ tgp_traveling_safe_modifier_desc: "ตัวละครนี้กำลังระมัดระวังขณะเดินทาง หลีกเลี่ยงอันตรายที่อาจเกิดขึ้นโดยไม่ลดทอนความเร็ว"
+
+ tgp_rule_follower_modifier: "ข้าแผ่นดินผู้เชื่อฟัง"
+ tgp_rule_follower_modifier_desc: "ผู้ปกครองนี้ปฏิบัติตามกฎหมายของเจ้าเหนือหัวของตน และในทางกลับกัน เหล่าข้าแผ่นดินของพวกเขาก็จะปฏิบัติตาม"
+
+ tgp_attentive_care_modifier: "การดูแลอย่างเอาใจใส่"
+ tgp_attentive_care_modifier_desc: "ตัวละครนี้กำลังได้รับการดูแลตามความต้องการ"
+
+ tgp_neglected_modifier: "ถูกละเลย"
+ tgp_neglected_modifier_desc: "สุขภาพของตัวละครนี้มีความสำคัญเป็นรอง"
+
+ tgp_law_defender: "การบังคับใช้กฎหมาย"
+ tgp_law_defender_desc: "ตัวละครนี้ ทำให้แน่ใจว่าอาชญากรทุกคนได้รับโทษตามคำตัดสิน"
+
+ tgp_temple_builder_modifier: "ผู้สร้างศาลเจ้า"
+ tgp_temple_builder_modifier_desc: "ตัวละครนี้เพิ่งสร้างศาลเจ้าที่ถูกเพลิงไหม้ขึ้นใหม่"
+
+ tgp_rebuilder_modifier: "สถาปนิกผู้มุ่งมั่น"
+ tgp_rebuilder_modifier_desc: "ตัวละครนี้มุ่งมั่นที่จะสร้างอาคารที่ไม่ใช่ทางศาสนา\n\n#warning ไม่สามารถสร้าง [temples|E]!#!"
+
+ tgp_burned_yokai_modifier: "นักล่าโยไค"
+ tgp_burned_yokai_modifier_desc: "ตัวละครนี้ระแวดระวัง [Glossary( 'โยวไค', 'YOKAI_GLOSS' )] มากขึ้นเมื่อไม่นานมานี้"
+
+ tgp_burned_weather_modifier: "อาคารที่เสริมความแข็งแกร่ง"
+ tgp_burned_weather_modifier_desc: "ตัวละครนี้ได้เสริมความแข็งแกร่งให้อาคารของตนเพื่อต่อต้านภัยพิบัติทางธรรมชาติ\nการสูญเสีย [development|E] จาก [natural_disasters|E]: #P -20%#!"
+
+ tgp_faith_defender_modifier: "ผู้ทุบตีนอกรีต"
+ tgp_faith_defender_modifier_desc: "ตัวละครนี้ไม่เป็นมิตรต่อผู้ไร้ศรัทธา"
+
+ tgp_people_mingler_modifier: "การปกครองอันเปี่ยมเมตตา"
+ tgp_people_mingler_modifier_desc: "ตัวละครนี้ได้แสดงความเมตตากรุณาในราชสำนักของตน"
+
+ tgp_scheme_wary_modifier: "ผู้สืบความลับ"
+ tgp_scheme_wary_modifier_desc: "ตัวละครนี้มีข้อมูลเชิงลึกส่วนตัวเกี่ยวกับความลับในราชสำนักของตน"
+
+ tgp_fertility_boost_modifier: "บั้นเอวอันทรงพลัง"
+ tgp_fertility_boost_modifier_desc: "ตัวละครนี้มุ่งเน้นเป็นพิเศษในการสร้างทายาท"
+
+ tgp_longer_life_modifier: "ผู้ปกครองผู้ยั่งยืน"
+ tgp_longer_life_modifier_desc: "แม้จะอยู่ในวัยชรา ผู้ปกครองนี้ก็มุ่งมั่นที่จะมีชีวิตที่ยืนยาว"
+
+ tgp_guilt_fever_modifier: "ไข้แห่งความรู้สึกผิด"
+ tgp_guilt_fever_modifier_desc: "ตัวละครนี้ต้องแบกรับผลที่ตามมาจากการกระทำของตน"
+
+ tgp_reflection_modifier: "เส้นทางแห่งโชคชะตา"
+ tgp_reflection_modifier_desc: "ตัวละครนี้ครุ่นคิดไตร่ตรองอย่างมากเมื่อเร็ว ๆ นี้ และเปิดใจที่จะสำรวจศรัทธาของตนมากขึ้น\nค่าใช้จ่าย [pilgrimage|E]: #P -20%#!"
+
+ tgp_japan_drafted_villagers_modifier: "ชาวบ้านที่ถูกเกณฑ์"
+ tgp_japan_drafted_villagers_modifier_desc: "ตัวละครนี้มีสายตาที่เฉียบแหลมในการมองหาพรสวรรค์ และมักจะมีประโยชน์เสมอที่จะหาชาวบ้านกำยำมาใช้งาน"
+
+ tgp_japan_precise_insight_modifer: "ข้อมูลเชิงลึกที่แม่นยำ"
+ tgp_japan_precise_insight_modifer_desc: "ตัวละครนี้สามารถรวบรวมข้อมูลเชิงลึกทางยุทธศาสตร์ได้แม้จากสถานที่ธรรมดาที่สุด จากนั้นจึงนำความรู้นั้นไปใช้ในสถานการณ์ทางการทหารที่มากขึ้น"
+
+ tgp_japan_banisher_of_demons_modifer: "ผู้ขับไล่ปิศาจ"
+ tgp_japan_banisher_of_demons_modifer_desc: "ไม่ว่าจะเป็นการเสแสร้งหรือไม่ การขับไล่ "ปิศาจ" ถือคบเพลิงยามค่ำคืนได้หนุนเสริมชื่อเสียงของตัวละครนี้"
+
+ tgp_japan_lucky_fan_fragments_modifier: "เศษเสี้ยวพัดแห่งโชคลาภ"
+ tgp_japan_lucky_fan_fragments_modifier_desc: "ตัวละครนี้อาจไม่ได้รับรางวัลในการยิงธนู แต่พวกเขาก็ได้นำชิ้นส่วนหนึ่งของเป้ากลับบ้าน ซึ่งกล่าวกันว่าจะนำโชคดีมาสู่ผู้ที่เก็บมันไว้"
+
+tgp_japan_a_poetic_life_modifier: "ชีวิตแห่งบทกวี"
+tgp_japan_a_poetic_life_modifier_desc: "ตัวละครนี้ได้ให้ความสำคัญกับการใช้ชีวิตแห่งบทกวี พวกเขาเปิดรับประสบการณ์ใหม่ ๆ และผู้อื่นก็แสวงหาประสบการณ์ร่วมกับพวกเขา"
+tgp_japan_made_high_liege_cuckold_modifier: "ชีวิตแห่งบทกวี: ความอมตะของจักรวรรดิ"
+tgp_japan_made_high_liege_cuckold_modifier_desc: "ตัวละครนี้สร้างชื่อให้ตนเป็นอมตะด้วยการหลับนอนกับคู่ครองของเจ้านายตน ประสบการณ์นี้จะสร้างแรงบันดาลใจให้กับผลงานกวีของพวกเขาต่อไป"
+
+tgp_japan_exchanged_verses_modifier: "ชีวิตแห่งบทกวี: การแลกเปลี่ยนบทกวี"
+tgp_japan_exchanged_verses_modifier_desc: "ตัวละครนี้ได้ขยายขอบเขตความสามารถของตนผ่านการรวมกันทางบทกวี"
+
+tgp_japan_poetic_to_the_powerful_modifier: "กวีแด่ผู้ทรงอำนาจ"
+tgp_japan_poetic_to_the_powerful_modifier_desc: "ตัวละครนี้ได้พัฒนาความสัมพันธ์กับบุคคลสำคัญโดยใช้บทกวีอันชาญฉลาด"
+
+tgp_japan_poet_poisonous_flowers_modifier: "บุปผาอาบยาพิษ"
+tgp_japan_poet_poisonous_flowers_modifier_desc: "ตัวละครนี้ได้รวบรวมดอกไม้พิษบางชนิดไว้... เพื่อจุดประสงค์ใด ใครเล่าจะหยั่งรู้"
+tgp_japan_poet_medicinal_flowers_modifier: "บุปผาโอสถ"
+tgp_japan_poet_medicinal_flowers_modifier_desc: "ตัวละครนี้ได้รวบรวมดอกไม้สมุนไพรบางชนิดไว้ เพื่อสุขภาพที่ดีขึ้นของตน"
+
+ tgp_japan_made_poetic_life_artifact_modifier: "ชีวิตแห่งบทกวี: หนึ่งพันใบไม้อมตะ"
+ tgp_japan_made_poetic_life_artifact_modifier_desc: "ตัวละครนี้ได้สร้างเสาหลักแห่ง [culture|E] ผ่านผลงานกวีของตน"
+
+ tgp_sharing_power_modifier: "การแบ่งปันอำนาจ"
+ tgp_sharing_power_modifier_desc: "ตัวละครนี้กำลังแบ่งปันอำนาจเพื่อบรรเทาความเครียด"
+
+ tgp_power_undermined_modifier: "อำนาจที่ถูกบ่อนทำลาย"
+ tgp_power_undermined_modifier_desc: "ตัวละครนี้ถูกบ่อนทำลายอำนาจโดยอำนาจจากภายนอก\n@declare_regent_icon! การยอมรับการประกาศตนเป็นผู้สำเร็จราชการ: #P +25#!"
+
+ tgp_spreading_scholarly_work_modifier: "การเผยแพร่งานวิชาการ"
+ tgp_spreading_scholarly_work_modifier_desc: "ตัวละครนี้กำลังสนับสนุนให้นักวิชาการเขียนบทความและอนุสรณ์สถานทั่วทั้งดินแดนของตน"
+
+ tgp_regent_minted_coin_modifier: "เหรียญที่ผลิตขึ้น"
+ tgp_regent_minted_coin_modifier_desc: "ตัวละครนี้ได้ผลิตเหรียญบางส่วนที่มีรูปพรรณสัณฐานของตน"
+
+ tgp_regent_history_modifier: "สนับสนุนนักวิชาการ"
+ tgp_regent_history_modifier_desc: "ตัวละครนี้สนับสนุนให้นักวิชาการและกวีเขียนเกี่ยวกับความยิ่งใหญ่ของตน"
+
+ tgp_regent_guarded_modifier: "ผู้เสริมขวัญกำลังใจ"
+ tgp_regent_guarded_modifier_desc: "ตัวละครนี้รู้วิธีชักจูงผู้บัญชาการทหารและอัศวิน"
+
+ tgp_stability_tree_modifier: "รากฐานที่แข็งแกร่ง"
+ tgp_stability_tree_modifier_desc: "เช่นเดียวกับรากของ [Glossary( 'บอนไซ', 'BONSAI_GLOSS' )] ดินแดนและราชสำนักของตัวละครนี้จึงมีเสถียรภาพ"
+
+ tgp_health_resistance_modifier: "สุขภาพที่แข็งแกร่งขึ้น"
+ tgp_health_resistance_modifier_desc: "ตัวละครนี้รับประทานอาหารของวัดขณะสวดมนต์กับพระภิกษุ การปรับปรุงอาหารนี้ช่วยให้สุขภาพของพวกเขาดีขึ้น"
+
+ tgp_cultural_appreciation_modifier: "ความซาบซึ้งทางภาษา"
+ tgp_cultural_appreciation_modifier_desc: "ตัวละครนี้ตระหนักถึงความแตกต่างระหว่างภาษาต่าง ๆ"
+ 
+ tgp_japan_ushiwakamaru: "อุชิวากามารุ"
+ tgp_japan_ushiwakamaru_desc: "แข็งแกร่งดั่งกระทิง ตัวละครนี้จะค้นหาคู่ต่อสู้ที่แข็งแกร่งกว่าเพื่อประลองต่อไป\n$stay_duelist_adventurer$"
+
+ tgp_japan_ushiwakamaru_2: "$tgp_japan_ushiwakamaru$"
+ tgp_japan_ushiwakamaru_2_desc: "แข็งแกร่งดั่งกระทิง ตัวละครนี้จะค้นหาคู่ต่อสู้ที่แข็งแกร่งกว่าเพื่อประลองต่อไป\n$stay_duelist_adventurer$"
+
+ tgp_japan_ushiwakamaru_3: "$tgp_japan_ushiwakamaru$"
+ tgp_japan_ushiwakamaru_3_desc: "แข็งแกร่งดั่งกระทิง ตัวละครนี้จะค้นหาคู่ต่อสู้ที่แข็งแกร่งกว่าเพื่อประลองต่อไป\n$stay_duelist_adventurer$"
+
+ tgp_japan_ushiwakamaru_4: "$tgp_japan_ushiwakamaru$"
+ tgp_japan_ushiwakamaru_4_desc: "แข็งแกร่งดั่งกระทิง ตัวละครนี้จะค้นหาคู่ต่อสู้ที่แข็งแกร่งกว่าเพื่อประลองต่อไป\n#help ศักยภาพสูงสุดของตัวละครนี้ได้มาถึงแล้ว#!"
+
+ tgp_japan_control_over_emperor: "ผู้ชักใยจักรพรรดิ"
+ tgp_japan_control_over_emperor_desc: "ตัวละครนี้ได้เชิดจักรพรรดิที่ว่าง่ายขึ้นสู่บัลลังก์"
+
+ tgp_japan_fujiwara_hidehira_back_in_town: "ด้วยคมดาบ"
+ tgp_japan_fujiwara_hidehira_back_in_town_desc: "ตัวละครนี้ปรารถนาที่จะฟื้นฟูตระกูลฟูจิวาระสู่อำนาจโดยใช้กำลัง"
+
+ tgp_moved_shogun_court_modifier: "เมืองหลวงของโชกุนาเตะ"
+ tgp_moved_shogun_court_modifier_desc: "เคาน์ตีนี้กำลังถูกสถาปนาให้เป็นเมืองหลวงแห่งใหม่สำหรับโชกุนาเตะ โดยอยู่ห่างจากเมืองหลวงของจักรวรรดิ"
+
+
+ tgp_festival_prosperity: "ความรุ่งเรืองจากเทศกาล"
+ tgp_festival_prosperity_desc: "เคาน์ตีนี้ได้จัดงานเทศกาลที่รุ่งเรือง"
+
+ ceremonial_liege_appointment_support_desc: "การสนับสนุนจากเจ้านายในพิธีการ"

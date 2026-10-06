@@ -1,0 +1,17 @@
+﻿l_english: 
+  RULER_OBJECTIVE_WINDOW_TITLE: "เป้าหมายของผู้ปกครอง: [Decision.GetTitleForPlayer]"
+  RULER_OBJECTIVE_WINDOW_PROGRESS: "เป้าหมายสำเร็จไป #S [HudRulerObjective.GetEstimatedProgress]%#!"
+  RULER_OBJECTIVE_WINDOW_ALREADY_DOING: "กำลังดำเนินการอยู่"
+  RULER_OBJECTIVE_WINDOW_CONSIDER_DOING: "พิจารณาดำเนินการ"
+  RULER_OBJECTIVE_WINDOW_UPDATE_ADVICE: "#D ปรับปรุงคำแนะนำ (dev)#!"
+  RULER_OBJECTIVE_WINDOW_ABANDON: "ละทิ้ง"
+  RULER_OBJECTIVE_ADVICE_ITEM_RELEVANCE: "(ความเกี่ยวข้อง: [RulerObjectiveAdvice.GetRelevance])"
+
+  # Toggle button (small HUD)
+  SHOW_RULER_OBJECTIVE: "แสดงเป้าหมายของผู้ปกครอง: #S [Decision.GetTitleForPlayer]#!"
+
+  # Set Ruler Objective decision command
+  INVALID_SET_RULER_OBJECTIVE_DECISION_COMMAND: "[Character.GetName] มิใช่ผู้เล่น"
+  SET_RULER_OBJECTIVE_DECISION: "กำหนดเป้าหมายเป็น [Decision.GetName]"
+  CHANGE_RULER_OBJECTIVE_DECISION: "เปลี่ยนเป้าหมายเป็น [Decision.GetName]"
+  ABANDON_RULER_OBJECTIVE_DECISION: "ละทิ้งเป้าหมาย [Decision.GetName]"

@@ -1,0 +1,161 @@
+﻿l_english: 
+ ### Battle Poi - BP3
+ TRAVEL_POINT_OF_INTEREST_TT_poi_battles: "#T ยุทธการที่ $BattlePoiProvince$#!\n$BattlePoiInfo$\n$BattlePoiDescription$\n\n"
+ BattlePoiInfo: "#emp $BattlePoiVictoriousSide$\n$BattlePoiLosingSide$\n$BattlePoiDate$#!"
+ BattlePoiVictoriousSide: "ผู้ชนะ: [Province.MakeScope.Var('battle_poi_winner').Char.GetName]"
+ BattlePoiLosingSide: "ผู้พ่ายแพ้: [Province.MakeScope.Var('battle_poi_loser').Char.GetName]"
+ BattlePoiDate: "วันที่: วันที่ [Province.MakeScope.Var('battle_poi_date_day').GetValue] [Province.Custom('MonthBattlePoI')], ค.ศ. [Province.MakeScope.Var('battle_poi_date_year').GetValue]"
+ BattlePoiDescription: "#weak [Province.Custom('BattlePoIDescriptionLocIntro')] [Province.Custom('BattlePoIDescriptionLocMid')] [Province.Custom('BattlePoIDescriptionLocOutcome')] [Province.Custom('BattlePoIDescriptionLocOutro')]#!"
+
+
+ poi_battles.visit: "เยี่ยมชมสมรภูมิยุทธการที่ [province.GetNameNoTooltip]"
+ poi_battles.learn: "เรียนรู้จากยุทธการที่ [province.GetNameNoTooltip]"
+ OrdinalIndicatorPoIST: "[Province.MakeScope.Var('battle_poi_date_day').GetValue]"
+ OrdinalIndicatorPoIND: "[Province.MakeScope.Var('battle_poi_date_day').GetValue]"
+ OrdinalIndicatorPoIRD: "[Province.MakeScope.Var('battle_poi_date_day').GetValue]"
+ OrdinalIndicatorPoIFallback: "[Province.MakeScope.Var('battle_poi_date_day').GetValue]"
+
+ BattlePoiProvince: "[Province.GetNameNoTooltip]"
+
+ BattlePoiCommander: "[Province.MakeScope.Var('battle_poi_winner').Char.GetTitledFirstNameNoTooltip]"
+ BattlePoiCommanderHisHer: "[Province.MakeScope.Var('battle_poi_winner').Char.GetHerHis]"
+ BattlePoiCommanderCulture: "[Province.MakeScope.Var('battle_poi_winner').Char.GetCulture.GetNameNoTooltip]"
+ BattlePoiEnemyCommander: "[Province.MakeScope.Var('battle_poi_loser').Char.GetTitledFirstNameNoTooltip]"
+ BattlePoiEnemyCommanderSheHe: "[Province.MakeScope.Var('battle_poi_loser').Char.GetSheHe]"
+ BattlePoiEnemyCommanderHisHer: "[Province.MakeScope.Var('battle_poi_loser').Char.GetHerHis]"
+ BattlePoiEnemyCommanderCulture: "[Province.MakeScope.Var('battle_poi_loser').Char.GetCulture.GetNameNoTooltip]"
+
+ BattlePoiBraveKnight: "[Province.MakeScope.Var('battle_poi_brave_knight').Char.GetName]"
+
+ # Intro
+ BattlePoiDescriptionIntro1: "ทั้งสองฝ่ายปะทะกันที่ $BattlePoiProvince$ ฝ่ายหนึ่งนำโดย $BattlePoiCommander$ และอีกฝ่ายนำโดย $BattlePoiEnemyCommander$"
+ BattlePoiDescriptionIntroAttacker2: "$BattlePoiCommander$ เปิดฉากการรุกอันน่าเกรงขามต่อกองทัพของ $BattlePoiEnemyCommander$"
+ BattlePoiDescriptionIntroDefender2: "$BattlePoiCommander$ ตั้งรับอย่างเชี่ยวชาญต่อกองทัพที่กำลังรุกเข้ามาของ $BattlePoiEnemyCommander$"
+ BattlePoiDescriptionIntroAttackerFallback: "$BattlePoiCommander$ นำทัพของ $BattlePoiCommanderHisHer$ บุกโจมตีกองทัพ $BattlePoiEnemyCommanderCulture$ ของ $BattlePoiEnemyCommander$ อย่างกล้าหาญ"
+ BattlePoiDescriptionIntroDefenderFallback: "$BattlePoiCommander$ นำทัพของ $BattlePoiCommanderHisHer$ ตั้งรับการโจมตีจากกองทัพ $BattlePoiEnemyCommanderCulture$ ของ $BattlePoiEnemyCommander$ อย่างกล้าหาญ"
+
+ # Key Moment
+ BattlePoiDescriptionLocArchers: "ช่วงเวลาสำคัญของยุทธการคือเมื่อพลธนู $BattlePoiCommanderCulture$ สามารถอ้อมไปโจมตีข้าศึกได้ "
+ BattlePoiDescriptionLocHeavyInfantry: "ยุทธการตัดสินเมื่อกองทหารราบหนัก $BattlePoiCommanderCulture$ ทะลวงแนวข้าศึกได้สำเร็จ "
+ BattlePoiDescriptionLocLightCavalry: "ผลลัพธ์ตัดสินเมื่อทหารม้า $BattlePoiCommanderCulture$ สามารถอ้อมไปด้านหลังกองทหารข้าศึกได้ "
+ BattlePoiDescriptionLocHeavyCavalry: "ยุทธการสิ้นสุดลงเมื่อทหารม้า $BattlePoiCommanderCulture$ ทะลวงแนวรบเข้าไปยังใจกลางของขบวนทัพข้าศึก "
+ BattlePoiDescriptionLocPikemen: "ชัยชนะของพวกเขาแน่นอนเมื่อพลหอก $BattlePoiCommanderCulture$ ผลักดันการบุกของข้าศึกกลับไปได้ "
+ BattlePoiDescriptionLocArchersKnight: "ช่วงเวลาสำคัญของยุทธการคือเมื่อพลธนู $BattlePoiCommanderCulture$ นำโดย $BattlePoiBraveKnight$ สามารถอ้อมไปโจมตีข้าศึกได้ "
+ BattlePoiDescriptionLocHeavyInfantryKnight: "ยุทธการตัดสินเมื่อกองทหารราบหนัก $BattlePoiCommanderCulture$ นำโดย $BattlePoiBraveKnight$ ทะลวงแนวข้าศึกได้สำเร็จ "
+ BattlePoiDescriptionLocLightCavalryKnight: "ผลลัพธ์ตัดสินเมื่อทหารม้า $BattlePoiCommanderCulture$ นำโดย $BattlePoiBraveKnight$ สามารถอ้อมไปด้านหลังกองทหารข้าศึกได้ "
+ BattlePoiDescriptionLocHeavyCavalryKnight: "ยุทธการสิ้นสุดลงเมื่อทหารม้า $BattlePoiCommanderCulture$ นำโดย $BattlePoiBraveKnight$ ทะลวงแนวรบเข้าไปยังใจกลางของขบวนทัพข้าศึก "
+ BattlePoiDescriptionLocPikemenKnight: "ชัยชนะของพวกเขาแน่นอนเมื่อพลหอก $BattlePoiCommanderCulture$ นำโดย $BattlePoiBraveKnight$ ผลักดันการบุกของข้าศึกกลับไปได้ "
+ BattlePoiDescriptionLocVarangian: "ยุทธการสิ้นสุดลงเมื่อกลุ่มทหารวารันเจียนนำโดย $BattlePoiBraveKnight$ ทะลวงแนวรบเข้าไปลึกในขบวนทัพข้าศึก "
+ BattlePoiDescriptionLocBerserker: "ยุทธการพลิกผันอย่างไม่คาดคิดเมื่อ $BattlePoiBraveKnight$ บุกตะลุยฝ่าแนวรบ $BattlePoiEnemyCommanderCulture$ เข้าไป "
+ BattlePoiDescriptionLocMidFallback: "ทั้งสองฝ่ายต่างอ่อนล้า และในที่สุดฝ่าย $BattlePoiCommanderCulture$ ก็โอบล้อมข้าศึกได้ "
+
+ # Outcome
+ BattlePoiDescriptionLocOutcomeBerserker: "ทำลายขวัญกำลังใจของข้าศึก แต่เพียงผู้เดียวด้วยการสังหารนักรบข้าศึกไปหลายสิบนาย "
+ BattlePoiDescriptionLocOutcomeBerserkerFled: "และทำลายขวัญกำลังใจของข้าศึก แต่เพียงผู้เดียวด้วยการสังหารนักรบข้าศึกไปหลายสิบนาย"
+ BattlePoiDescriptionLocOutcomeDevastation: "ทำลายล้างศัตรูของพวกเขา "
+ BattlePoiDescriptionLocOutcomeDevastationFled: "และทำลายล้างกองทัพฝ่ายตรงข้าม"
+ BattlePoiDescriptionLocOutcomeChaos: "สร้างความสูญเสียอย่างหนักแก่ศัตรู "
+ BattlePoiDescriptionLocOutcomeChaosFled: "และสร้างความสูญเสียอย่างหนักแก่ศัตรู"
+ BattlePoiDescriptionLocOutcomeLoss: "ทำลายขวัญกำลังใจของฝ่ายตรงข้าม "
+ BattlePoiDescriptionLocOutcomeLossFled: "และทำลายขวัญกำลังใจของฝ่ายตรงข้าม"
+
+ # Outro
+ BattlePoiDescriptionLocOutroImprisoned: "และจับกุม $BattlePoiEnemyCommander$ ได้"
+ BattlePoiDescriptionLocOutroSlain: "และสังหาร $BattlePoiEnemyCommander$"
+ BattlePoiDescriptionLocOutroFledChaos: "ท่ามกลางความโกลาหล $BattlePoiEnemyCommander$ สามารถหลบหนีไปพร้อมกับข้ารับใช้ที่ใกล้ชิดที่สุดของ $BattlePoiCommanderHisHer$ ได้"
+ BattlePoiDescriptionLocOutroFledOrganized: "แม้จะสูญเสียอย่างหนัก $BattlePoiEnemyCommander$ ก็สามารถจัดการถอยทัพอย่างมีแบบแผนได้"
+
+
+ MonthBattlePoIJanuary: "มกราคม"
+ MonthBattlePoIFebruary: "กุมภาพันธ์"
+ MonthBattlePoIMarch: "มีนาคม"
+ MonthBattlePoIApril: "เมษายน"
+ MonthBattlePoIMay: "พฤษภาคม"
+ MonthBattlePoIJune: "มิถุนายน"
+ MonthBattlePoIJuly: "กรกฎาคม"
+ MonthBattlePoIAugust: "สิงหาคม"
+ MonthBattlePoISeptember: "กันยายน"
+ MonthBattlePoIOctober: "ตุลาคม"
+ MonthBattlePoINovember: "พฤศจิกายน"
+ MonthBattlePoIDecember: "ธันวาคม"
+
+ # Historical Battles
+ TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical: "#T $TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_name$#!\n$TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_desc$\n\n"
+ 
+ TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_name: "[Province.Custom('BattlePoiNameHistorical')]"
+ TRAVEL_POINT_OF_INTEREST_TT_poi_battles_historical_desc: "[Province.Custom('BattlePoIDescriptionHistorical')]"
+
+ travel_point_historical_name_visit_message: "[ROOT.Char.GetCurrentLocation.Custom('BattlePoiNameHistorical')]"
+
+
+ BattlePoIHistoricalNameTours: "ยุทธการที่ตูร์"
+ BattlePoIHistoricalDescTours: "#emp ผู้ชนะ: [GetScriptedCharacterByHistoryID( '131721' ).GetFirstNameNicknamed]\nผู้พ่ายแพ้: อับดุลเราะห์มาน อัลฆอฟิกีย์\nวันที่: 10 ตุลาคม ค.ศ. 732#!\n#weak สมรภูมิที่คาร์ล มาร์แตล ผลักดันการรุกรานฝรั่งเศสของราชวงศ์อุมัยยะฮ์กลับไป ณ บริเวณแม่น้ำแคลนและเวียน กล่าวกันว่าไพร่พลของคาร์ลนั้นมั่นคงดุจกำแพง ฟาดฟันทหารม้าหนักของอุมัยยะฮ์ที่บุกเข้ามา หลังจากที่พวกเขาสะกดรอยตามแม่ทัพฝ่ายศัตรูและสังหารลงได้ ฝ่ายตรงข้ามก็แตกพ่ายหนีไปจากสมรภูมิ#!"
+
+ BattlePoIHistoricalNameLechfeld: "ยุทธการที่เลชเฟลด์"
+ BattlePoIHistoricalDescLechfeld: "#emp ผู้ชนะ: [GetScriptedCharacterByHistoryID( '1282' ).GetTitledFirstName]\nผู้พ่ายแพ้: [GetScriptedCharacterByHistoryID( '460' ).GetFirstName] [GetScriptedCharacterByHistoryID( '460' ).GetDynastyName]\nวันที่: 10 สิงหาคม ค.ศ. 955#!\n#weak การต่อสู้อันโหดร้ายระหว่างกองกำลังของกษัตริย์ออตโตแห่งแซกซอนและกองกำลังของฮังการี หลังจากความสูญเสียอย่างหนักทั้งสองฝ่าย ชาวฮังการีก็หลบหนีเมื่อพวกเขากำลังจะถูกโอบล้อมและเห็นว่ากระแสการรบพลิกผันต่อต้านพวกเขา\n\nหลังยุทธการสิ้นสุดลง ผู้บัญชาการชาวฮังการีจำนวนมากถูกจับกุมและประหารชีวิต และภัยคุกคามจากชาวแมกยาร์ต่อยุโรปตะวันตกที่ดำเนินอยู่ก็สิ้นสุดลงในที่สุด#!"
+
+ BattlePoIHistoricalNameHastings: "ยุทธการที่เฮสติงส์"
+ BattlePoIHistoricalDescHastings: "#emp ผู้ชนะ: [GetScriptedCharacterByHistoryID( '140' ).GetFirstName] [GetScriptedCharacterByHistoryID( '140' ).GetDynastyName]\nผู้พ่ายแพ้: [GetScriptedCharacterByHistoryID( '122' ).GetFullName]\nวันที่: 14 ตุลาคม ค.ศ. 1066#!\n#weak ยุทธการที่เฮสติงส์เป็นหนึ่งในยุทธการสำคัญในการขึ้นสู่อำนาจเหนืออังกฤษของวิลเลียม กองทัพนอร์มันต้องต่อสู้บนเนินเขาและประสบปัญหาในการรุกคืบหน้า ถึงกับเริ่มถอยทัพ ณ จุดหนึ่ง แต่วิลเลียมสามารถจัดระเบียบการโจมตีโต้กลับกองทหารอังกฤษได้\n\nเมื่อถูกกองกำลังข้าศึกครอบงำ ฮาโรลด์สิ้นพระชนม์พร้อมกับพระอนุชาทั้งสองคือ [GetScriptedCharacterByHistoryID( '132' ).GetFirstNameNoTooltip] และ [GetScriptedCharacterByHistoryID( '130' ).GetFirstNameNoTooltip] ทำให้ราชบัลลังก์อังกฤษว่างลง#!"
+
+ BattlePoIHistoricalNameStamfordBridge: "ยุทธการที่สแตมฟอร์ดบริดจ์"
+ BattlePoIHistoricalDescStamfordBridge: "#emp ผู้ชนะ: [GetScriptedCharacterByHistoryID( '122' ).GetFullName]\nผู้พ่ายแพ้: [GetScriptedCharacterByHistoryID( '102531' ).GetNameNicknamed]\nวันที่: 25 กันยายน ค.ศ. 1066#!\n#weak ยุทธการที่สแตมฟอร์ดบริดจ์เป็นหนึ่งในสมรภูมิสำคัญระหว่างผู้ท้าชิงบัลลังก์อังกฤษสามคน ได้แก่ วิลเลียมแห่งนอร์มังดี, ฮารัลด์แห่งนอร์เวย์ และแฮโรลด์แห่งอังกฤษ แฮโรลด์เร่งนำทัพขึ้นเหนือและสามารถจู่โจมกองทัพนอร์เวย์โดยไม่ทันตั้งตัว บีบให้พวกเขาเข้าสู่สมรภูมิที่ไม่ได้เตรียมพร้อม\n\nฮารัลด์ถูกสังหารด้วยธนูที่ปักเข้าหลอดลม และ [GetScriptedCharacterByHistoryID( '124' ).GetFirstNameNoTooltip] พันธมิตรชาวอังกฤษของเขา ซึ่งเป็นน้องชายของแฮโรลด์ ก็ถูกสังหารเช่นกัน กองทัพนอร์เวย์ซึ่งไร้ผู้บัญชาการ ถูกทำลายล้างหลังสิ้นสุดการรบ#!"
+
+ BattlePoIHistoricalNameManzikert: "ยุทธการที่มันซิเคิร์ต"
+ BattlePoIHistoricalDescManzikert: "#emp ผู้ชนะ: [GetScriptedCharacterByHistoryID( '3040' ).GetFirstName] [GetScriptedCharacterByHistoryID( '3040' ).GetDynastyName]\nผู้พ่ายแพ้: [GetScriptedCharacterByHistoryID( '1734' ).GetFullName]\nวันที่: 26 สิงหาคม ค.ศ. 1071#!\n#weak โรมานอส ผู้ซึ่งได้รับการสวมมงกุฎเป็นจักรพรรดิแห่งจักรวรรดิไบแซนไทน์ในปี ค.ศ. 1068 ได้นำทัพต่อต้านการรุกรานของชาวเติร์กในอานาโตเลีย หลังจากประสบความสำเร็จอย่างจำกัด เขาพยายามผลักดันเพื่อให้ได้ชัยชนะอย่างเด็ดขาดในการรบกับอัลพ์ อาร์สลานแห่งจักรวรรดิเซลจุคใกล้กับมันซิเคิร์ต\n\nโรมานอสถูกทรยศโดยหนึ่งในผู้บัญชาการของเขา ซึ่งถอนทัพส่วนใหญ่ออกไป ทำให้เขาถูกจับกุมโดยกองทัพมุสลิม ต่อมาแม้จะได้รับการปล่อยตัวจากศัตรู เขาก็ถูกปลด ทำให้ตาบอด เนรเทศ และเสียชีวิตจากบาดแผล#!"
+
+ BattlePoIHistoricalNameYarmuk: "ยุทธการที่ยาร์มูก"
+ BattlePoIHistoricalDescYarmuk: "#emp ผู้ชนะ: [GetScriptedCharacterByHistoryID( '163015' ).GetFullName]\nผู้พ่ายแพ้: [GetScriptedCharacterByHistoryID( '145071' ).GetFullName]\nวันที่: 20 สิงหาคม ค.ศ. 636#!\n#weak ยุทธการที่ยาร์มูกเป็นหนึ่งในยุทธการที่สำคัญที่สุดในประวัติศาสตร์ไบแซนไทน์ ความพ่ายแพ้อย่างเด็ดขาดนำไปสู่การสูญเสียซีเรียและอียิปต์ และการขยายตัวครั้งใหญ่ของจักรวรรดิอาหรับ\n\nการรบดำเนินไปเป็นเวลา 6 วัน เดิมทีกระแสการรบพลิกผันต่อต้านผู้รุกรานมุสลิม แต่เมื่อรุ่งอรุณของวันที่ห้ามาถึงที่ยาร์มูก พวกเขาเปลี่ยนจากกลยุทธ์ตั้งรับเป็นรุก ในวันที่ 6 พวกเขาส่งทหารม้าเข้าโจมตีอย่างกล้าหาญซึ่งทำลายกองทัพไบแซนไทน์ได้\n\nเมื่อขวัญกำลังใจแตกสลาย ทหารไบแซนไทน์ตกลงไปในหุบเหว จมน้ำ หรือถูกทหารข้าศึกบดขยี้ขณะหลบหนีออกจากสนามรบ#!"
+
+ BattlePoIHistoricalNameDandanaqan: "ยุทธการที่ดันดานากัน"
+ BattlePoIHistoricalDescDandanaqan: "#emp ผู้ชนะ: [GetScriptedCharacterByHistoryID( '3036' ).GetFullName]\nผู้พ่ายแพ้: [GetScriptedCharacterByHistoryID( '144129' ).GetFullName]\nวันที่: 23 พฤษภาคม ค.ศ. 1040#!\n#weak ยุทธการสำคัญระหว่างอำนาจเซลจุคที่กำลังเติบโตทางตอนเหนือของเปอร์เซียและจักรวรรดิกาสนาวิยะห์ หลังจากเอาชนะกองกำลังเซลจุคในการรบครั้งแรก กองกำลังกาสนาวิยะห์เริ่มทะเลาะกันเรื่องของที่ริบมาได้\n\nเมื่อขาดการจัดระเบียบและไม่พร้อมรบ พวกเขาจึงถูกกองกำลังเซลจุคที่กลับมาโจมตีโดยไม่ทันตั้งตัว กองกำลังกาสนาวิยะห์ที่ถูกก่อกวน อดอยาก และเสียขวัญกำลังใจจึงถูกฝ่ายตรงข้ามบดขยี้#!"
+
+ BattlePoIHistoricalNameAror: "ยุทธการที่อาโรร์"
+ BattlePoIHistoricalDescAror: "#emp ผู้ชนะ: มุฮัมมัด อิบน์ อัลกอซิม\nผู้พ่ายแพ้: ราชาดาฮีร์\nวันที่: ค.ศ. 711#!\n#weak ยุทธการในการรุกรานอินเดียของราชวงศ์อุมัยยะฮ์ ระหว่างราชาแห่งสินธ์และจักรวรรดิอุมัยยะฮ์\n\nแม้ว่าฝ่ายตรงข้ามจะมีกำลังพลมากกว่าในตอนแรก ผู้บัญชาการอุมัยยะฮ์สามารถชิงตำแหน่งที่ดีกว่าสำหรับกองทัพของตนได้ก่อนที่จะเข้าสู่การรบ ตลอดความขัดแย้ง ความไม่สมดุลนี้ทำให้กองกำลังมุสลิมค่อยๆ ควบคุมกระแสการรบได้ และด้วยการสิ้นพระชนม์ของราชาดาฮีร์ ชัยชนะของพวกเขาก็แน่นอน#!"
+
+ BattlePoIHistoricalNameSvolder: "ยุทธการที่สโวลเดอร์"
+ BattlePoIHistoricalDescSvolder: "#emp ผู้ชนะ: [GetScriptedCharacterByHistoryID( '101505' ).GetFullName]\nผู้พ่ายแพ้: [GetScriptedCharacterByHistoryID( '144004' ).GetFullName]\nวันที่: 9 กันยายน ค.ศ. 999#!\n#weak การรบระหว่างกองกำลังนอร์เวย์ของโอลาฟ ทริกวาซันฝ่ายหนึ่ง กับพันธมิตรเดนมาร์กและสวีเดนที่นำโดยกษัตริย์สเวนน์แห่งเดนมาร์กอีกฝ่ายหนึ่ง\n\nแม้จะมีกำลังน้อยกว่ามาก กษัตริย์นอร์เวย์ปฏิเสธที่จะหลบหนีจากพันธมิตรฝ่ายศัตรู และเข้าปะทะกับชาวสวีเดนและเดนมาร์กในการรบ เรียกพวกเขาว่า 'พวกกินม้า' และ 'แพะป่า' ขณะที่เขาทำเช่นนั้น\n\nในที่สุด แม้จะสร้างความเสียหายอย่างหนักแก่ศัตรู กองทัพนอร์เวย์ก็ถูกบดขยี้ โอลาฟหายตัวไปในการรบ และน่าจะเสียชีวิตแล้ว#!"
+
+ BattlePoIHistoricalNameCivitate: "ยุทธการที่ชิวิตาเต"
+ BattlePoIHistoricalDescCivitate: "#emp ผู้ชนะ: [GetScriptedCharacterByHistoryID( '1126' ).GetFullName]\nผู้พ่ายแพ้: [GetScriptedCharacterByHistoryID( '1338' ).GetFullName]\nวันที่: 18 มิถุนายน ค.ศ. 1053#!\n#weak ยุทธการระหว่างชาวนอร์มันฝ่ายหนึ่ง กับแนวร่วมที่นำโดยพระสันตะปาปาอีกฝ่ายหนึ่ง ซึ่งรวมถึงชาวเยอรมันและชาวอิตาลีในท้องถิ่น\n\nแม้จะมีจำนวนมากกว่า แนวร่วมของพระสันตะปาปาก็ไม่สามารถทะลวงผ่านทหารราบนอร์มันที่อยู่ตรงกลางของการรบได้ และปีกทหารม้าของพวกเขาก็พ่ายแพ้ต่อทหารม้านอร์มัน\n\nไม่นานหลังจากการรบ พระสันตะปาปาเองก็ถูกชาวนอร์มันจับกุมตัว นำไปสู่การสิ้นสุดความขัดแย้ง#!"
+
+ BattlePoIHistoricalNameTalas: "ยุทธการที่ทาลัส"
+ BattlePoIHistoricalDescTalas: "#emp ผู้ชนะ: รัฐเคาะลีฟะฮ์อับบาซียะฮ์\nผู้พ่ายแพ้: ราชวงศ์ถัง\nวันที่: ค.ศ. 751#!\n#weak ความขัดแย้งที่ยืดเยื้อระหว่างรัฐเคาะลีฟะฮ์อับบาซียะฮ์ที่ขยายตัวเข้าสู่ทรานส์ออกเซียนาจากทางตะวันตกเฉียงใต้ และราชวงศ์ถังที่ขยายตัวเข้ามาจากทางตะวันออก\n\nเดิมทีทหารราบหนักของราชวงศ์ถังและทหารรับจ้างชาวเติร์กของพวกเขามีบทบาทสำคัญในการผลักดันกองกำลังอับบาซียะฮ์กลับไป แต่เมื่อทหารรับจ้างเปลี่ยนข้างและพันธมิตรจำนวนมากทรยศพวกเขา ราชวงศ์ถังจึงถูกบังคับให้ถอยกลับ\n\nความขัดแย้งนี้ทำให้การขยายตัวไปทางตะวันตกของราชวงศ์ถังสิ้นสุดลง และทรานส์ออกเซียนาตกอยู่ในมือของชาวมุสลิมในอนาคตอันใกล้#!"
+
+ BattlePoIHistoricalNameSufuku: "ยุทธการซูบูชิ"
+ BattlePoIHistoricalDescSufuku: "#emp ผู้ชนะ: ชาวเอมิชิแห่งอิซาวะ\nผู้แพ้: [GetScriptedCharacterByHistoryID( 'japanese_iruma_1' ).GetFullName]\nวันที่: ค.ศ. 789#!\n#weak การรบครั้งสำคัญซึ่งเป็นส่วนหนึ่งของการปราบปรามชาวเอมิชิของญี่ปุ่น\n\nกองทัพญี่ปุ่นได้แบ่งกำลังออกเป็นสองส่วน รุกคืบไปตามสองฝั่งแม่น้ำคิตาคามิไล่ตามชาวเอมิชิที่ถอยร่น ทหารลาดตระเวนเอมิชิได้สกัดกั้นไม่ให้กองทัพญี่ปุ่นข้ามแม่น้ำ ทำให้กองกำลังญี่ปุ่นส่วนใหญ่จนมุมอยู่ระหว่างแม่น้ำและภูเขา\n\nความพ่ายแพ้ของญี่ปุ่นตามมาด้วยความอับอายครั้งใหญ่ ทหารจำนวนมากต้องว่ายน้ำข้ามแม่น้ำตัวเปล่าเพื่อหนีตาย กองทัพถูกยุบและ [GetScriptedCharacterByHistoryID( 'japanese_yamato_24' ).GetFullName] ได้ตำหนิแม่ทัพของเขาอย่างรุนแรง#!"
+
+ BattlePoIHistoricalNameBaekgang: "ยุทธการแบคกัง"
+ BattlePoIHistoricalDescBaekgang: "#emp ผู้ชนะ: อาณาจักรชิลลา และราชวงศ์ถังแห่งจีน\nผู้ปราชัย: [GetScriptedCharacterByHistoryID( 'japanese_abe_36' ).GetFullName]\nวันที่: ค.ศ. 663#!\n#weak ยุทธนาวีครั้งชี้ชะตาอันเป็นสมรภูมิปะทะกันระหว่างกองกำลังของราชวงศ์ถังและชิลลากับกองทัพขบวนการฟื้นฟูแพ็กเจและพันธมิตรญี่ปุ่น\n\nยุทธการนี้ส่วนใหญ่เกิดขึ้นบนแม่น้ำแพ็งมา แม้กองกำลังญี่ปุ่นจะมีจำนวนเหนือกว่า แต่กองทัพเรือถังก็ยืนหยัดอย่างมั่นคงและตอบโต้ในท้ายที่สุด โอบล้อมและพิชิตกองเรือญี่ปุ่นลงได้\n\nชัยชนะอันเด็ดขาดของชิลลา-ถังบีบให้ญี่ปุ่นต้องถอนตัวจากกิจการในคาบสมุทรเกาหลีโดยสิ้นเชิง และบดขยี้ขบวนการฟื้นฟูแพ็กเจจนย่อยยับ#!"
+
+ BattlePoIHistoricalNamePalembang: "การโจมตีปาเล็มบังของโจฬะ"
+ BattlePoIHistoricalDescPalembang: "#emp ผู้ชนะ: [GetScriptedCharacterByHistoryID( '189038' ).GetFullName]\nผู้แพ้: [GetScriptedCharacterByHistoryID( 'javanese_sailendra_25' ).GetFullName]\nวันที่: ค.ศ. 1025#!\n#weak การโจมตีเมืองหลวงปาเล็มบังของศรีวิชัยอย่างฉับพลันโดยกองกำลังโจฬะ\n\nกองกำลังโจฬะเดินทางข้ามทะเลและเข้ายึดเมืองหลวงของศรีวิชัยได้อย่างรวดเร็ว พร้อมทั้งปล้นสะดมและทำลายเมืองในกระบวนการนี้\n\nการล่มสลายของปาเล็มบังส่งผลให้อาณาจักรศรีวิชัยล่มสลายโดยสิ้นเชิง และอิทธิพลของโจฬะเหนือภูมิภาคนี้ก็คงอยู่ต่อไปอีกหลายทศวรรษ#!"
+ 
+ BattlePoIHistoricalNameAngkor: "การล้อมเมืองพระนคร (อังกอร์)"
+ BattlePoIHistoricalDescAngkor: "#emp ผู้ชนะ: [GetScriptedCharacterByHistoryID( 'cham_panduranga_04' ).GetFullName]\nผู้แพ้: [GetScriptedCharacterByHistoryID( 'khmer_tribhuvanaditya_01' ).GetFullName]\nวันที่: ค.ศ. 1177#!\n#weak ช่วงเวลาแห่งความขัดแย้งภายในและการรัฐประหารในอาณาจักรกัมพูชาส่งผลให้ตรีภูวนาทิตยวรมัน ซึ่งเป็นสามัญชน ขึ้นสู่อำนาจ ในขณะที่ต้องต่อสู้กับกลุ่มกบฏราชวงศ์ที่สนับสนุนผู้มีสิทธิ์ในราชบัลลังก์รายอื่น อาณาจักรจามปาก็ได้บุกรุกกัมพูชา\n\nกองกำลังจามปารุกคืบขึ้นไปตามแม่น้ำโขงและโตนเลสาบ ปล้นสะดมเมืองหลวงพระนครและสังหารตรีภูวนาทิตยวรมัน\n\nหลังจากการล้อมเมือง อาณาจักรกัมพูชาก็ล่มสลาย ทรัพย์สินมีค่่าถูกกระจายไปในพื้นที่หรือถูกชาวจามกวาดต้อนกลับบ้าน#!"
+
+ BattlePoIHistoricalNameSongping: "การล้อมซ่งผิง"
+ BattlePoIHistoricalDescSongping: "#emp ผู้ชนะ: หยาง ซือจิ้น\nผู้แพ้: ไช่ ซี\nวันที่: ค.ศ. 863#!\n#weak ความวุ่นวายในเขตอารักขาอันหนานของราชวงศ์ถังทำให้อาณาจักรน่านเจ้าซึ่งเป็นเพื่อนบ้านได้ผูกมิตรกับชนเผ่าท้องถิ่นและบุกรุกพื้นที่ด้วยกองกำลังทหารมหาศาล\n\nกองทัพน่านเจ้าและพันธมิตรได้ล้อมเมืองอยู่เป็นเวลานานก่อนที่จะเจาะเข้าสู่เมืองชั้นในได้ในที่สุด ผู้ป้องกันเมืองได้ต่อสู้จนตัวตายที่ประตูทิศตะวันออก ซุ่มโจมตีทหารม้าข้าศึกและสังหารพวกมันได้มากมายก่อนที่จะพ่ายแพ้\n\nแม้ว่าในตอนแรกจะได้รับการต้อนรับจากประชากรชาวเวียด แต่กองกำลังน่านเจ้าก็ได้ปล้นสะดมพื้นที่ และการโจมตีสวนกลับของราชวงศ์ถังในปี 864 ก็สามารถยึดพื้นที่ทั้งหมดคืนมาได้ในที่สุด#!"
+
+ BattlePoIHistoricalNameMuye: "ยุทธการมูเย่"
+ BattlePoIHistoricalDescMuye: "#emp ผู้ชนะ: พระเจ้าอู่แห่งโจว\nผู้แพ้: พระเจ้าติ้วซินแห่งซาง\nวันที่: 1046 ปีก่อนคริสตกาล#!\n#weak ยุทธการมูเย่เป็นการต่อสู้ระหว่างกบฏพระเจ้าอู่ และจักรพรรดิแห่งราชวงศ์ซาง พระเจ้าติ้วซิน\n\nกองกำลังของพระเจ้าอู่มีจำนวนน้อยกว่าในตอนแรก แต่กองกำลังซางซึ่งส่วนใหญ่เป็นทาสทหารกลับกลายเป็นว่าไม่น่าไว้วางใจและหนีออกจากสนามรบ ผลลัพธ์คือชัยชนะอันนองเลือดของกองกำลังกบฏภายใต้พระเจ้าอู่\n\nการรบครั้งนี้ส่งผลให้ราชวงศ์ซางล่มสลายและพระเจ้าอู่อ้างสิทธิ์ในอาณัติสวรรค์ และก่อตั้งราชวงศ์โจวใหม่#!"
+
+ BattlePoIHistoricalNameRedCliffs: "ยุทธนาวีผาแดง"
+ BattlePoIHistoricalDescRedCliffs: "#emp ผู้ชนะ: ซุนกวน\nผู้แพ้: โจโฉ\nวันที่: ค.ศ. 208#!\n#weak ยุทธนาวีผาแดงเป็นยุทธนาวีที่ต่อสู้กันระหว่างพันธมิตรขุนศึกและขุนศึกทางเหนืออย่างโจโฉในช่วงสิ้นสุดราชวงศ์ฮั่น โจโฉพยายามสร้างหัวหาดข้ามแม่น้ำแยงซีเพื่อเข้าสู่ทางใต้ของจีน\n\nด้วยการแสร้งทำเป็นยอมจำนน กองกำลังพันธมิตรสามารถล่อเรือของโจโฉให้เข้ามาในกับดัก จุดไฟเผาเรือและเผาทหารและม้าจำนวนมากทั้งเป็น กองทัพฝ่ายเหนือตกอยู่ในความสับสนและพ่ายแพ้\n\nความพ่ายแพ้ครั้งนี้ป้องกันไม่ให้โจโฉรุกคืบข้ามแม่น้ำแยงซีและเป็นจุดเริ่มต้นของยุคสามก๊กในเวลาต่อมา#!"
+
+ BattlePoIHistoricalNameGuandu: "ยุทธการกัวต๋อ"
+ BattlePoIHistoricalDescGuandu: "#emp ผู้ชนะ: โจโฉ\nผู้แพ้: อ้วนเสี้ยว\nวันที่: ค.ศ. 200#!\n#weak ยุทธการกัวต๋อเป็นการต่อสู้ระหว่างขุนศึกโจโฉและอ้วนเสี้ยวในช่วงปลายราชวงศ์ฮั่นตะวันออก ขุนศึกทั้งสองต่างมีอำนาจมากและเป็นอุปสรรคสำคัญในการครองจีนของกันและกัน\n\nกองกำลังของโจโฉมีจำนวนน้อยกว่าในการรบ แต่ใช้กลยุทธ์เช่นการโจมตีคลังเสบียงของอ้วนเสี้ยวอย่างไม่ทันตั้งตัวเพื่อทำให้กองทัพฝ่ายตรงข้ามอ่อนแอลง\n\nการรบครั้งนี้เป็นจุดเปลี่ยนของยุคสมัย โดยโจโฉเป็นผู้ได้รับชัยชนะและปูทางสู่อนาคตของวุยก๊กในยุคสามก๊ก#!"
+
+ BattlePoIHistoricalNameYiling: "ยุทธการอิเหลง"
+ BattlePoIHistoricalDescYiling: "#emp ผู้ชนะ: ลกซุน - ง่อก๊ก\nผู้แพ้: เล่าปี่ - จ๊กก๊ก\nวันที่: ค.ศ. 221#!\n#weak ในความพยายามที่จะยึดคืนดินแดนที่สูญเสียไปในมณฑลเกงจิ๋วและแก้แค้นให้กวนอู เล่าปี่ได้นำกองทัพโจมตีง่อก๊กด้วยตนเอง และประสบความสำเร็จในตอนแรก\n\nในระหว่างการรบ กองกำลังของเล่าปี่ถูกล่อให้ติดกับดักโดยแม่ทัพลกซุน ผู้ซึ่งจุดไฟเผาค่ายของจ๊กก๊ก ทำให้เล่าปี่ต้องถอยทัพ ในที่สุดเล่าปี่ก็สามารถหนีออกจากสนามรบได้ด้วยตนเองโดยสั่งให้ทหารจุดไฟเผาเกราะของตนเพื่อสร้างกำแพงเพลิงกันผู้โจมตี\n\nการรบครั้งนี้เป็นความพ่ายแพ้อย่างย่อยยับของเล่าปี่ และส่งผลให้การรณรงค์ของเขาสิ้นสุดลง ตามมาด้วยการสวรรคตของเขาในเวลาต่อมา#!"
+
+ BattlePoIHistoricalNameFeiRiver: "ยุทธการแม่น้ำเฝย"
+ BattlePoIHistoricalDescFeiRiver: "#emp ผู้ชนะ: เซี่ยอัน - ราชวงศ์จิ้น\nผู้แพ้: ฝูเจียน - ราชวงศ์ฉิน (ยุค 16 อาณาจักร)\nวันที่: ค.ศ. 383#!\n#weak การรบครั้งนี้เป็นจุดสูงสุดของการรณรงค์อันยาวนานที่รัฐฉินในอดีต ซึ่งได้รวบรวมชนเผ่าต่างชาติจำนวนมากเข้าด้วยกัน ได้เข้ายึดครองดินแดนส่วนใหญ่ของจิ้น กองทัพฉินมีจำนวนเหนือกว่าจิ้นมาก ซึ่งยืนหยัดต้านทานที่แม่น้ำเฝย\n\nในระหว่างการรบ กองทหารที่ได้รับการฝึกฝนมาอย่างดีและมีระเบียบวินัยของจิ้นได้เอาชนะกองทหารที่มีจำนวนมากกว่าแต่ไร้ระเบียบและไร้แรงจูงใจของฉินในช่วงปลาย\n\nชัยชนะของจิ้นต่อกองกำลังฉินด้วยความสูญเสียเพียงเล็กน้อยได้เปลี่ยนสมดุลอำนาจอย่างมาก และรับประกันว่าทางใต้ของจีนจะยังคงเป็นอิสระไปอีกกว่า 100 ปี#!"
+
+ BattlePoIHistoricalNameCanheSlope: "ยุทธการทางลาดชันเหอ"
+ BattlePoIHistoricalDescCanheSlope: "#emp ผู้ชนะ: ตั๋วป๋า กุย - ราชวงศ์เว่ยเหนือ\nผู้แพ้: มู่หรง เป่า - ราชวงศ์เยี่ยนภายหลัง\nวันที่: ค.ศ. 395#!\n#weak การรบครั้งนี้เป็นผลมาจากความขัดแย้งที่ราชวงศ์เยี่ยนภายหลังได้ทำการรณรงค์เพื่อลงโทษราชวงศ์เว่ยเหนือ\n\nเมื่อกองกำลังเยี่ยนภายหลังมาถึงทางลาดชันเหอ กองทัพก็ถูกพายุพัดถล่ม ซึ่งพวกเขาถูกศัตรูโจมตี กองทัพเยี่ยนภายหลังถูกโจมตีโดยไม่ทันตั้งตัวและหลายคนหนีลงสู่แม่น้ำเหลือง\n\nการรบจบลงด้วยการพลิกผันขั้วอำนาจในภูมิภาค โดยเว่ยเหนือเข้ายึดครองดินแดนส่วนใหญ่ของเยี่ยนภายหลัง#!"
+
+ BattlePoIHistoricalNameXiangji: "ยุทธการวัดเซียงจี"
+ BattlePoIHistoricalDescXiangji: "#emp ผู้ชนะ: [GetScriptedCharacterByHistoryID( 'han_1528' ).GetFullName]\nผู้แพ้: [GetScriptedCharacterByHistoryID( 'an_qingxu' ).GetFullName]\nวันที่: ค.ศ. 757#!\n#weak การรบครั้งนี้เป็นจุดสูงสุดของการโจมตีสวนกลับของราชวงศ์ถังต่อกองกำลังกบฏซึ่งได้เข้ายึดครองพื้นที่ส่วนใหญ่ของจีนทางเหนือ และเป็นหนึ่งในการรบที่นองเลือดที่สุดของกบฏอันลู่ซาน กองทัพขนาดมหึมาสองกองทัพปะทะกันทางเหนือของฉางอานที่วัดเซียงจี\n\nในเวลาเที่ยงวัน กองทัพถังได้ยึดพื้นที่สูงไว้ได้ ในขณะที่กองทัพเยี่ยนวางกำลังอยู่หน้าเมืองฉางอาน หลังจากการเคลื่อนทัพหลายครั้ง การรบก็กลายเป็นการต่อสู้ยืดเยื้อที่ไม่มีใครยอมใคร โดยทหารที่มีระเบียบวินัยต่อสู้กันโดยไม่ยอมจำนน ก่อนที่แนวรบของเยี่ยนจะพังทลายลงในที่สุดเนื่องจากความสูญเสียอย่างหนัก\n\nความโหดร้ายของการรบทำให้ทั้งสองกองทัพเสียหายอย่างหนัก แต่ก็ทำลายกระดูกสันหลังของกบฏ กองกำลังถังสามารถยึดฉางอานคืนได้ในวันรุ่งขึ้น#!"
+
+ BattlePoIHistoricalNameGaoliang: "ยุทธการแม่น้ำเกาเหลียง"
+ BattlePoIHistoricalDescGaoliang: "#emp ผู้ชนะ: [GetScriptedCharacterByHistoryID( '194330' ).GetFullName]\nผู้แพ้: [GetScriptedCharacterByHistoryID( 'han_4801' ).GetFullName]\nวันที่: ค.ศ. 979#!\n#weak การรบครั้งนี้สืบเนื่องมาจากความพยายามของราชวงศ์ซ่งที่จะยึดคืน 16 จังหวัดที่ราชวงศ์เหลียวได้พิชิตไปในปี 960 และนำทัพโดยพระอนุชาของจักรพรรดิเอง (จักรพรรดิในอนาคต [GetScriptedCharacterByHistoryID( 'han_4801' ).GetFullNameNoTooltip])\n\nเมืองโยวโจวถูกล้อมเป็นเวลา 3 เดือนก่อนที่กำลังเสริมของเหลียวจะมาถึงเพื่อช่วยเหลือผู้ป้องกัน ถึงแม้จะได้รับชัยชนะในตอนแรก แต่กองทัพซ่งก็ถูกโจมตีโดยไม่ทันตั้งตัวในเวลากลางคืนจากการโจมตี 3 ด้าน\n\nการรบจบลงด้วยการที่ [GetScriptedCharacterByHistoryID( 'han_4801' ).GetFullNameNoTooltip] หนีออกจากฉากด้วยเกวียนลากลา นี่เป็นความพ่ายแพ้ครั้งใหญ่ครั้งแรกของซ่งหลังจากขึ้นสู่อำนาจ#!"

@@ -1,0 +1,64 @@
+﻿l_english: 
+ GOTO_CHARACTER:0 "#T ไปยังตำแหน่งของ [Character.GetShortUINamePossessiveNoTooltip]#!\n[Character.GetLocationDesc]"
+ CHARACTER_INTERACTION_ITEM_TOOLTIP_HEADER:0 "$NAME|T$"
+ CHARACTER_INTERACTION_ITEM_TOOLTIP_SCHEME_ODDS: "[predicted_difficulty|E]:$NAME$"
+ CHARACTER_INTERACTION_ITEM_TOOLTIP_SCHEME_TYPE: "#S แผนการ $NAME$#!"
+ SHOW_MORE_INTERACTIONS_TT:0 "#T แสดงปฏิสัมพันธ์ [CharacterInteractionCategory.GetDescription] เพิ่มเติม#!"
+ PIN_TT:1 "#T [Select_CString( Character.IsPinned, 'ถอดหมุด', 'ปักหมุด' )]\n#!ติดตามตัวละครนี้โดยการปักหมุด [Character.GetHerHim] ไว้ในแถบรายการทางด้านขวาของหน้าจอ"
+ TITLE_PIN_TT: "#T [Select_CString( Title.IsPinned, 'เลิกปักหมุด', 'ปักหมุด' )]\n#!ติดตามบรรดาศักดิ์นี้ด้วยการปักหมุดไว้ที่ส่วนแสดงผลทางด้านขวาของหน้าจอ"
+ PROVINCE_PIN_TT: "#T [Select_CString( Province.IsPinned, 'เลิกปักหมุด', 'ปักหมุด' )]\n#!ติดตามปราการแห่งนี้ด้วยการปักหมุดไว้ที่ส่วนแสดงผลทางด้านขวาของหน้าจอ"
+
+ interaction_category_favorites: "รายการโปรด"
+ interaction_category_diplomacy:0 "การทูต"
+ interaction_category_friendly:0 "ส่วนตัว"
+ interaction_category_friendly_filter_tag_desc: "ปฏิสัมพันธ์ส่วนตัว"
+ interaction_category_laamp: "นักผจญภัยไร้ที่ดิน"
+ interaction_category_hostile: "เป็นปรปักษ์"
+
+ interaction_category_vassal: "[GetPlayer.Custom2('CharacterInteractionCategoryVassal', CHARACTER.Self )]"
+ interaction_category_vassal_governor: "[second.Custom('GetGovernorConceptNoTooltip')]"
+ interaction_category_vassal_vassal: "ข้าหลวง"
+ interaction_category_vassal_tributary: "เมืองขึ้น"
+ interaction_category_vassal_liege: "เจ้าเหนือหัว"
+ interaction_category_vassal_suzerain: "องค์อธิราช"
+ interaction_category_vassal_fellow_vassal: "สหายข้าหลวง"
+ interaction_category_vassal_fellow_governor: "สหาย[second.Custom('GetGovernorConceptNoTooltip')]"
+ interaction_category_vassal_courtier: "ข้าราชสำนัก"
+ interaction_category_vassal_fallback: "อาณาจักรและราชสำนัก"
+
+ interaction_category_religion: "ศาสนา"
+ interaction_category_house_head: "ประมุขตระกูล"
+ interaction_category_prison: "เรือนจำ"
+
+ interaction_category_diarch: "[GetPlayer.Custom2('CharacterInteractionCategoryPowerSharing', CHARACTER.Self )]"
+ interaction_category_diarch_diarch: "[GetPlayer.GetDiarchTitle]"
+ interaction_category_diarch_fallback: "การแบ่งอำนาจ"
+
+ interaction_category_succession: "การ แต่งตั้ง"
+ 
+ interaction_category_uncategorized: "ไม่ได้จัดหมวดหมู่ #D (ดีบัก)#!"
+
+ PRISON_INTERACTIONS_BUTTON_TOOLTIP: "#T แสดงปฏิสัมพันธ์ใน [prison|E] ทั้งหมด#!"
+ interaction_category_prison_filter_tag_desc: "ปฏิสัมพันธ์ใน [prison|E]"
+
+ HOF_INTERACTIONS_BUTTON_TOOLTIP: "#T แสดงปฏิสัมพันธ์ของ [head_of_faith|E]#!"
+ interaction_category_religion_filter_tag_desc: "ปฏิสัมพันธ์ของ [head_of_faith|E]"
+
+ ADMIN_GOVERNMENT_LIEGE_INTERACTIONS_BUTTON_TOOLTIP: "#T แสดงปฏิสัมพันธ์แบบ [administrative_government|E] กับ [liege|E] ของท่าน#!"
+ ADMIN_GOVERNMENT_HOUSE_HEAD_INTERACTIONS_BUTTON_TOOLTIP: "#T แสดงปฏิสัมพันธ์แบบ [administrative_government|E] กับ [house_heads|E]#!"
+ ADMIN_GOVERNMENT_CEREMONIAL_LIEGE_INTERACTIONS_BUTTON_TOOLTIP: "#T แสดงปฏิสัมพันธ์ [administrative_government|E] กับ [ceremonial_liege|E] ของท่าน#!"
+ ADMIN_GOVERNMENT_GOVERNOR_INTERACTIONS_BUTTON_TOOLTIP: "#T แสดงปฏิสัมพันธ์ของ [Character.Custom('GetGovernorConceptNoTooltip')]#!"
+ admin_liege_filter_tag_desc: "ปฏิสัมพันธ์แบบการปกครองเชิงบริหาร"
+ admin_house_head_filter_tag_desc: "ปฏิสัมพันธ์ของ [house_head|E]"
+ admin_governor_filter_tag_desc: "ปฏิสัมพันธ์ของ [CHARACTER.Custom('GetGovernorConceptNoTooltip')]"
+ ceremonial_liege_filter_tag_desc: "ปฏิสัมพันธ์ [ceremonial_liege|E]"
+
+
+ INTERACTION_SENDER:0 "ผู้ส่ง"
+ INTERACTION_RECIPIENT:0 "ผู้รับ"
+ INTERACTION_SPOUSE:0 "คู่สมรส"
+ INTERACTION_CONCUBINE:0 "นางห้าม"
+
+ INTERACTION_SHOW_ACCEPT_EFFECTS:0 "เมื่อตอบรับ"
+ INTERACTION_SHOW_INTERMEDIARY_DECLINE_EFFECTS:0 "เมื่อคัดค้าน"
+ INTERACTION_SHOW_DECLINE_EFFECTS:0 "เมื่อปฏิเสธ"

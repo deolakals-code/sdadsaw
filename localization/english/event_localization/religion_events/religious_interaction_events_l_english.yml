@@ -1,0 +1,212 @@
+﻿l_english: 
+ religious_interaction.1.opening:0 "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]"
+ religious_interaction.1.desc:0 "หลังจากสวดภาวนาและไตร่ตรองอย่างถี่ถ้วน ข้าได้ตัดสินใจที่จะอนุมัติคำขอของท่านให้หย่าร้าง [secondary_recipient.GetWifeHusband] ของท่าน [secondary_recipient.GetFirstNameNoTooltip],"
+ religious_interaction.1.consanguinity:0 "ด้วยเหตุแห่งการสมรสร่วมสายโลหิต"
+ religious_interaction.1.fallback:0 "ด้วยเหตุแห่งการต้องสงสัยว่าคบชู้"
+ religious_interaction.1.adultery:0 "ด้วยเหตุแห่งการคบชู้"
+ religious_interaction.1.different_faith:0 "ด้วยเหตุแห่งการมิได้ยึดมั่นในศรัทธาที่แท้จริง"
+ religious_interaction.1.eunuch:0 "ด้วยเหตุแห่งการมิได้มีความพร้อมเพียงพอ"
+ religious_interaction.1.a:0 "ข้าขออภัย [secondary_recipient.GetFirstNameNoTooltip]"
+ 
+ religious_interaction.2.desc:0 "หลังจากไตร่ตรองอย่างถี่ถ้วน ข้าได้ตัดสินใจว่าเป็นการดีที่สุดสำหรับตระกูลของเราที่จะอนุมัติคำขอของท่านให้หย่าร้าง [secondary_recipient.GetWifeHusband] ของท่าน [secondary_recipient.GetFirstNameNoTooltip],"
+ religious_interaction.2.infertility:0 "ด้วยเหตุแห่งการปฏิเสธที่จะสมสู่ในการสมรส"
+ religious_interaction.2.adultery:0 "ด้วยเหตุแห่งการละเมิดความศักดิ์สิทธิ์ของการสมรสโดยการสมสู่กับผู้อื่น"
+ 
+ religious_interaction.3.desc:0 "ข้าได้พิจารณาสภาพอันเลวร้ายของท่านแล้ว และตัดสินใจที่จะอนุมัติคำขอของท่าน"
+ religious_interaction.3.defensive_war:0 "ขอให้ทุนทรัพย์นี้ช่วยท่านปกป้องศรัทธาจาก [war_target.GetTitledFirstName] และฝูงชนชาว [war_target.GetFaith.GetAdjective] ที่รุกรานของ [war_target.GetHerHis]!"
+ religious_interaction.2.offensive_war:0 "ขอให้ทุนทรัพย์นี้นำชัยชนะมาสู่ท่านในสงครามกับ [war_target.GetTitledFirstName]!"
+ religious_interaction.3.fallback:0 "ขอให้ทุนทรัพย์นี้ช่วยท่านเผยแผ่ศรัทธาที่แท้จริงในดินแดนของท่าน!"
+ religious_interaction.3.a:0 "สรรเสริญ [ROOT.Char.GetFaith.WealthGodName] การคืนภาษีมาถึงแล้ว!"
+ religious_interaction.3.b:0 "ทุนทรัพย์นี้จะนำชัยชนะมาสู่ข้า!"
+ religious_interaction.3.c:0 "ข้าจะใช้ทรัพย์สมบัตินี้อย่างชาญฉลาด"
+ religious_interaction.3.d:0 "ทองคำนี้จะเยียวยาคลังที่ว่างเปล่าของข้า!"
+
+ religious_interaction.32.desc:0 "ข้าได้พิจารณาคำขอของท่านแล้ว และตัดสินใจที่จะปฏิเสธ"
+ religious_interaction.32.a:0 "โอ้ ไม่นะ!"
+
+ religious_interaction.4.desc:0 "ข้าได้พิจารณาคำขอของท่านแล้ว และตัดสินใจที่จะยอมรับการอ้างสิทธิ์ของท่านใน [target.GetName]"
+ religious_interaction.4.child:0 "เนื่องจาก [secondary_recipient.GetTitledFirstName] เป็นเพียงเด็ก ท่านจึงมีสิทธิ์ที่จะเข้ามาแทรกแซง"
+ religious_interaction.4.they_are_female:0 "เนื่องจาก [secondary_recipient.GetTitledFirstName] เป็นสตรี ท่านจึงมีสิทธิ์ที่จะเข้ามาแทรกแซง"
+ religious_interaction.4.they_are_male:0 "เนื่องจาก [secondary_recipient.GetTitledFirstName] เป็นบุรุษ ท่านจึงมีสิทธิ์ที่จะเข้ามาแทรกแซง"
+ religious_interaction.4.fallback:0 "มีหลักฐานที่ไม่อาจปฏิเสธได้ปรากฏขึ้นว่าบรรพบุรุษของท่านเคยปกครองดินแดนนี้ในสมัยโบราณจริง"
+ religious_interaction.4.a:0 "ข้าจะพิสูจน์ตนเองว่าเป็นผู้ปกครองที่คู่ควร!"
+
+ religious_interaction.42.desc:0 "ข้าได้พิจารณาคำขอของท่านสำหรับสิทธิ์ใน [target.GetName] แล้ว และตัดสินใจที่จะปฏิเสธ"
+ religious_interaction.42.a:0 "ให้ตายสิ!"
+
+ religious_interaction.5.child:0 "เนื่องจากความเป็นผู้เยาว์ของท่าน,"
+ religious_interaction.5.they_are_female:0 "เนื่องจากสถานะความเป็นสตรีของท่าน,"
+ religious_interaction.5.they_are_male:0 "เนื่องจากสถานะความเป็นบุรุษของท่าน,"
+ religious_interaction.5.fallback:0 "เนื่องจากการขาดความศรัทธาอย่างเห็นได้ชัดของท่าน,"
+ religious_interaction.5.outro:0 "ซึ่งเป็นสภาวะที่สร้างความกังวลใจให้แก่ศาสนจักรอย่างยิ่ง"
+ religious_interaction.5.outro_different_recipient: "ข้าได้มอบสิทธิ์ใน [target.GetName] ให้แก่ [actor.GetName] ตามคำขอของ[actor.GetHerHis]"
+ religious_interaction.5.self: "ข้าได้ตัดสินใจที่จะไล่ตามสิทธิ์ใน [target.GetName] ของข้า เนื่องจากมันคือสิทธิอันชอบธรรมของข้า"
+ religious_interaction.5.a:0 "นี่มันเรื่องอัปยศ!"
+
+ religious_interaction.6.opening:0 "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]"
+ religious_interaction.6.desc:0 "หลังจากสวดภาวนาและไตร่ตรองอย่างถี่ถ้วน ข้าได้ตัดสินใจที่จะอนุมัติคำขอของท่านให้หย่าร้าง [secondary_actor.GetFirstNameNoTooltip] และ [secondary_recipient.GetWifeHusband] ของพวกเขา [secondary_recipient.GetFirstNameNoTooltip],"
+ religious_interaction.6.consanguinity:0 "ด้วยเหตุแห่งการสมรสร่วมสายโลหิต"
+ religious_interaction.6.fallback:0 "ด้วยเหตุแห่งการต้องสงสัยว่าคบชู้"
+ religious_interaction.6.adultery:0 "ด้วยเหตุแห่งการคบชู้"
+ religious_interaction.6.different_faith:0 "ด้วยเหตุแห่งการมิได้ยึดมั่นในศรัทธาที่แท้จริง"
+ religious_interaction.6.eunuch:0 "ด้วยเหตุแห่งการมิได้มีความพร้อมเพียงพอ"
+ religious_interaction.6.a:0 "ข้าขออภัย [secondary_recipient.GetFirstNameNoTooltip]"
+
+ religious_interaction.1001.t.fatwa:0 "ฟัตวาประกาศแล้ว!"
+ religious_interaction.1001.t:0 "การประณามทางกฎหมาย!"
+ religious_interaction.1001.desc:1 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] ของข้า [actor.GetTitledFirstName] ได้เห็นข้าถูกประณามว่าเป็นคนบาปในคำประกาศที่ออกโดย [actor.GetFaith.PriestNeuterPlural] ของ [actor.GetHerHis]!\n\nสิ่งนี้อาจถูกใช้เป็นพื้นฐานทางกฎหมายเพื่อโต้แย้งว่าข้าไม่เหมาะสมที่จะปกครองดินแดน [recipient.GetFaith.GetAdjective]"
+ religious_interaction.1001.a:0 "หาก [actor.GetSheHe] มิใช่เจ้าเหนือหัวของข้า ข้าคงจะ..."
+ religious_interaction.1001.a.revoke_tt:0 "[actor.GetTitledFirstName] สามารถ [revoke|E] ตำแหน่งหนึ่งของข้าได้"
+
+ # Religious Head of Faith Interactions
+ religious_interaction.1010:0 "เป็นเรื่องน่ายกย่องที่ท่านพยายามไถ่บาป ข้ายอมรับการบริจาคอันใจกว้างของท่านและส่งพรของข้าเป็นการตอบแทน"
+ religious_interaction.1011:0 "การกระทำผิดของท่านรุนแรงเกินกว่าจะไถ่ถอนได้ด้วยเพียงทองคำ หากท่านปรารถนาที่จะไถ่บาปอย่างแท้จริง ท่านต้องเปลี่ยนวิถีทางของท่านและพิสูจน์ให้ข้าเห็นว่าท่านแสวงหาการให้อภัยอย่างแท้จริง เมื่อนั้นข้าจึงจะยอมรับการบริจาคของท่าน"
+ religious_interaction.1020:0 "ข้าได้ยินข่าวที่น่ากังวลบางอย่างจาก [actor.GetTitledFirstName] เกี่ยวกับการกระทำผิดของท่าน"
+ religious_interaction.1021:0 "ท่านอาจเรียกตนเองว่าเป็น [actor.GetFaith.GetAdherentName] แต่การกระทำของท่านพิสูจน์ว่าท่านไม่ได้ดำเนินตามเส้นทางของ [actor.GetFaith.HighGodName] อย่างแท้จริง เนื่องจากข้าไม่สามารถอนุญาตให้พฤติกรรมชั่วร้ายของท่านซ่อนอยู่เบื้องหลังหน้ากากแห่งความชอบธรรมของ [actor.GetFaith.GetAdjective] ได้ ข้าจึงไม่มีทางเลือกอื่นนอกจากขับไล่ท่านออกจากศรัทธา ขอ [actor.GetFaith.HighGodName] ทรงเมตตาวิญญาณของท่านด้วยเถิด"
+ religious_interaction.1022:0 "ข้ารู้สึกไม่สบายใจอย่างยิ่งกับเรื่องราวที่ท่านเล่าถึงการกระทำผิดของ [secondary_recipient.GetTitledFirstNamePossessive] มันเจ็บปวดที่ต้องทำ เช่นนี้ แต่ข้าเห็นด้วยว่าเพื่อประโยชน์ของศรัทธา [actor.GetFaith.GetAdjective] [secondary_recipient.GetSheHe] จะต้องถูกขับออกจากศาสนา"
+ religious_interaction.1023:0 "ท่านกำลังคิดอะไรอยู่ในการพยายามขับไล่เพื่อน [actor.GetFaith.GetAdherentName] ออกจากศาสนา? ศรัทธา [actor.GetFaith.GetAdjective] ไม่ใช่เครื่องมือที่จะใช้เพื่อผลประโยชน์ทางการเมือง! ท่านควรนับว่าโชคดีที่ข้าไม่ขับไล่ท่านออกจากศาสนา เพราะการร้องขอ เช่นนี้"
+ religious_interaction.1024:0 "ข้าเห็นว่าท่านได้สำนึกผิดในบาปของท่านอย่างแท้จริงและได้พยายามอย่างยิ่งที่จะไถ่ถอนตนเอง แม้ว่าการล่วงละเมิดต่อศรัทธา [actor.GetFaith.GetAdjective] ของท่านจะร้ายแรงยิ่งนัก แต่การกระทำล่าสุดของท่าน ทำให้ข้าเชื่อว่าท่านสมควรได้รับโอกาสอีกครั้ง\n\nด้วยเหตุนี้ ข้าจึงขอยกเลิกการขับไล่ออกจากศาสนาของท่านและต้อนรับท่านกลับสู่ศรัทธา [actor.GetFaith.GetAdjective]"
+ religious_interaction.1025:0 "ท่านคิดว่าข้าขับไล่ผู้คนออกจากศาสนาอย่างง่ายดายหรือ? ท่านคิดว่าคำขอโทษครึ่งๆ กลางๆ เพียงพอที่จะชดเชยหรือ? อ้อนวอนไปเถิด ท่านจะไม่ได้รับอนุญาตให้กลับเข้าสู่ศรัทธา [actor.GetFaith.GetAdjective] จนกว่าท่านจะพิสูจน์ว่าท่านได้เปลี่ยนวิถีทางชั่วร้ายของท่านแล้ว"
+ religious_interaction.1030:0 "หลังจากไตร่ตรองเป็นเวลานาน ข้าได้ข้อสรุปว่าคำพูดของท่านเป็นความจริงและชาญฉลาด ข้าจะเข้าร่วมนิกายสงฆ์และเริ่มต้นชีวิตใหม่ในการรับใช้ [actor.GetFaith.HighGodName] เพียงผู้เดียว"
+ religious_interaction.1031:0 "ข้อเสนอแนะของท่านให้ข้าถอนรากถอนโคนชีวิตทั้งชีวิตและหนีไปยังอารามอันโดดเดี่ยวบางแห่งนั้นไร้สาระ ข้ามีความสุขในที่ที่ข้าอยู่ และข้าไม่มีแผนที่จะเปลี่ยนแปลงสิ่งนั้น"
+ religious_interaction.1000.positive:0 "ข้ายินดีที่ [recipient.GetFirstNameNoTooltip] เห็นความชาญฉลาดในคำขอของข้า"
+ religious_interaction.1000.negative:0 "โชคร้ายเสียจริง..."
+ religious_interaction.1000.strong_negative:0 "ให้ตายสิ!"
+ religious_interaction.1024.positive:0 "ข้ายินดีที่ [recipient.GetFirstNameNoTooltip] เห็นความชาญฉลาดในการกระทำนี้"
+
+ religious_interaction.2002.desc:0 "ข้าตัดสินใจที่จะติดตามท่านเข้าสู่แสงสว่างและเปลี่ยนมานับถือ [ROOT.Char.GetFaith.GetName]!"
+ religious_interaction.2002.a:0 "สรรเสริญแด่ [ROOT.Char.GetFaith.HighGodName]!"
+
+ religious_interaction.2003.desc:0 "ศรัทธาของข้าแข็งแกร่งเกินกว่าจะถูกชักจูงด้วยคำพูดทางโลกของท่าน ข้าขอรับรางวัลของข้าใน [recipient.GetFaith.DivineRealm] เสียดีกว่า"
+ religious_interaction.2003.hooking_out:0 "\n\nข้ายังต้องการเตือนท่านว่าท่านเป็นหนี้ข้า และไม่ควรไล่ตามข้าเพียง เพราะข้าเป็นผู้ศรัทธาที่แท้จริง"
+ religious_interaction.2003.a:0 "ข้าเพียงปรารถนาความรอดของท่าน"
+ religious_interaction.2003.b:0 "เช่นนั้น ท่านจะต้องชดใช้ในโลกนี้!"
+ religious_interaction.2003.c:0 "อย่าคิดว่าข้าจะปล่อยให้ท่านรอดพ้นไปได้!"
+ religious_interaction.2003.d:0 "โอ้ ข้าคิดว่าท่านจะเชื่อในสิ่งที่ข้าบอกให้ท่านเชื่ออย่างแน่นอน"
+
+ religious_interaction.2011.desc:0 "ข้ายินดีเข้าร่วมการสรรเสริญของท่าน แต่ค่าใช้จ่ายมหาศาลในการปรับปรุง [recipient.GetFaith.HouseOfWorshipPlural] และการเผยแผ่ศาสนาในหมู่ไพร่ของข้า...\n\nหากท่านจะช่วยจ่ายค่าใช้จ่ายเหล่านี้ ข้ายินดีอย่างยิ่งที่จะสวดภาวนาเพื่อ [ROOT.Char.GetFaith.HighGodName] ของท่าน"
+ religious_interaction.2011.a:0 "ทุกอย่างเพื่อศรัทธา"
+ religious_interaction.2011.b:0 "ข้าจะไม่จ่ายเพื่อความรอดนิรันดร์ของท่าน!"
+ religious_interaction.2011.c:0 "ท่านจะทำสิ่งนี้เพื่อบางสิ่งที่ล้ำค่ากว่าทองคำมาก"
+
+ religious_interaction.2012.desc:0 "ข้าเห็นความชาญฉลาดในศรัทธาของท่าน แต่ข้าหวังว่าท่านจะเข้าใจว่ามันเป็นเส้นทางที่ยาวไกลและคดเคี้ยวเพียงใดจากความมืดสู่แสงสว่าง\n\nบางทีหากท่านสัญญาว่าจะสนับสนุนข้าในทุกวิถีทางที่ข้าต้องการ การเดินทางก็คงจะง่ายขึ้น"
+ religious_interaction.2012.a:0 "ข้ายอมรับ เพื่อประโยชน์ของผู้ศรัทธาทุกหนทุกแห่ง"
+ religious_interaction.2012.b:0 "ข้าจะไม่ต่อรองเพื่อวิญญาณของท่าน!"
+ religious_interaction.2012.c:0 "ท่านมีหนี้อื่นที่ต้องชดใช้ให้ข้าก่อน"
+
+ religious_interaction.2021.opening:0 "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"
+ religious_interaction.2021.desc:0 "[actor.Custom2('AppropriateGreeting', ROOT.Char)]\nถึงเวลาแล้วที่ท่านจะติดตามข้าเข้าสู่แสงสว่าง [actor.Custom2('RelationToMe', SCOPE.sC('recipient'))] ของข้า เมื่อพิจารณาถึงทุกสิ่งที่ท่านเป็นหนี้ข้า ข้าขอเรียกร้องให้ท่านเปลี่ยนมานับถือ [actor.GetFaith.GetName]!"
+ religious_interaction.2021.a:0 "ข้า... ตกลง [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('actor'))] ของข้า"
+ 
+#######################################################
+### Sun Trial by Mathilda Bjarnehed & Nick Meredith ###
+#######################################################
+
+#I have been left in the sun to die!
+ religious_interaction.2100.t:0 "[imprisoner.GetFaith.HighGodNamePossessive|U] พิพากษา"
+ religious_interaction.2100.desc:1 "หลังจากอยู่ในห้องขังมืดมิดมานานเท่าใดก็มิอาจทราบได้ [ROOT.Char.GetFaith.HighGodName] แสงแดดจ้า ทำให้ตาพร่ามัว ทหารยามที่คุมตัวข้าออกจาก [imprisoner.Custom('FortifiedBuilding')] ไปยังถิ่นทุรกันดารนั้นดูเคร่งขรึมอย่างน่าประหลาด — ถึงขั้นเป็นพิธีรีตอง\n\n"
+ religious_interaction.2100.descwaterlogged: "ขณะที่ดวงอาทิตย์ส่องแสงเจิดจ้า พื้นดินเฉอะแฉะที่ข้ายืนอยู่ก็ส่งเสียงและดูดเท้าข้า ไม่นานข้าก็เห็นผู้คุมขังข้า [imprisoner.GetTitledFirstName] เดินเข้ามาอย่างอิ่มอกอิ่มใจ แต่ค่อนข้างระมัดระวังข้ามพื้นหญ้าที่เปียกชุ่ม พร้อมด้วย [imprisoner.Custom('DefaultPriestTitlePlural')] หลายคน\n\n"
+ religious_interaction.2100.descpleasant: "ดวงอาทิตย์ส่องแสงเจิดจ้า พื้นดินที่ข้ายืนอยู่ดูอุดมสมบูรณ์และเขียวชอุ่ม ไม่นานข้าก็เห็นผู้คุมขังข้า [imprisoner.GetTitledFirstName] เดินเข้ามา — ด้วยท่าทีไม่แน่ใจนัก — พร้อมด้วย [imprisoner.Custom('DefaultPriestTitlePlural')] หลายคน\n\n"
+ religious_interaction.2100.descforest: "ดวงอาทิตย์ส่องแสงเจิดจ้า ลำแสงสาดส่องเป็นหย่อม ๆ ผ่านหมู่ไม้ ไม่นานข้าก็เห็นผู้คุมขัง [imprisoner.GetTitledFirstName] กำลังฝ่าฟันพงหนามของ [imprisoner.GetHerHis] พร้อมด้วย [imprisoner.Custom('DefaultPriestTitlePlural')] หลายคน\n\n"
+ religious_interaction.2100.descoasis: "ดวงอาทิตย์แผดเผาในทะเลทราย สะท้อนผิวน้ำโอเอซิส ไม่นานข้าก็เห็นผู้คุมขังข้า [imprisoner.GetTitledFirstName] เดินลุยน้ำเข้ามา พร้อมด้วย [imprisoner.Custom('DefaultPriestTitlePlural')] หลายคน\n\n"
+ religious_interaction.2100.deschostile: "ขณะที่ข้าจับจ้องไปที่ [imprisoner.GetTitledFirstName] ขนาบข้างด้วย [imprisoner.Custom('DefaultPriestTitlePlural')] นับสิบ จุดประสงค์ของการเดินทางเล็กๆ ของเราก็ชัดเจนขึ้น\n\n"[ROOT.Char.GetFullNameNoTooltip] เจ้าจะถูกทิ้งไว้ที่นี่ ผูกติดกับเสานี้ และ [imprisoner.GetFaith.HighGodName] จะเป็นผู้ตัดสินชะตากรรมของเจ้า หากเจ้าบริสุทธิ์ เจ้าจะมีชีวิตรอด แต่หากเจ้ามีความผิด เจ้าจะต้องพินาศ""
+ religious_interaction.2100.middledefault: ""สำหรับการล่วงละเมิดของเจ้า เจ้าจะถูกพิพากษาโดย [imprisoner.GetFaith.HighGodName|U] ผู้ทรงฤทธานุภาพ" [imprisoner.GetSheHe|U] ตะโกนก้อง ทหารยามก้าวไปข้างหน้าและมัดแขนขาข้าเข้ากับเสา [imprisoner.Custom('DefaultPriestTitlePlural')] เริ่มสวดบทสวดศพ แขนเหยียดออก จากนั้นคณะก็ถอยกลับไป ข้าอยู่ตามลำพัง คาดว่าจะตาย เพราะความกระหายน้ำ"
+ religious_interaction.2100.middleoasis: ""สำหรับการล่วงละเมิดของเจ้า เจ้าจะถูกพิพากษาโดย [imprisoner.GetFaith.HighGodName|U] ผู้ทรงฤทธานุภาพ" [imprisoner.GetSheHe|U] ตะโกนก้อง ทหารยามก้าวไปข้างหน้าและมัดแขนขาข้าเข้ากับเสา ลึกถึงอกในโอเอซิส [imprisoner.Custom('DefaultPriestTitlePlural')] เริ่มสวดบทสวดศพ แขนเหยียดออก จากนั้นคณะก็ถอยกลับไป ข้าอยู่ตามลำพัง คาดว่าจะตาย เพราะความกระหายน้ำ"
+ religious_interaction.2100.endwaterlogged: "\n\nข้ามองไปรอบๆ สภาพแวดล้อมที่ชุ่มน้ำของข้า"
+ religious_interaction.2100.endpleasant: "\n\nข้ามองไปรอบๆ สภาพแวดล้อมที่น่ารื่นรมย์ของข้า"
+ religious_interaction.2100.endforest: "\n\nข้ามองไปรอบๆ สภาพแวดล้อมที่เขียวขจีของข้า"
+ religious_interaction.2100.endoasis: "\n\nข้ามองลงไปในน้ำ"
+ religious_interaction.2100.a.believer:0 "[imprisoner.GetFaith.HighGodName|U] จะพิพากษาข้าอย่างยุติธรรม!"
+ religious_interaction.2100.a.unbeliever:0 "พวกเจ้าจะ #EMP ทิ้ง#! ข้าไว้ที่นี่รึ?!"
+ religious_interaction.2100.a.confused: "เอ่อ..."
+ religious_interaction.2100.a.success:0 "ท่านรอดชีวิตจากการทดลอง"
+ religious_interaction.2100.a.failure:0 "ท่านพินาศภายใต้แสงอาทิตย์"
+
+#I have survived!
+ religious_interaction.2101.t:0 "ความเมตตาแห่ง [imprisoner.GetFaith.HighGodNamePossessive|U]"
+ religious_interaction.2101.start.desc:0 "น้ำ ข้าต้องการน้ำ! คอข้า หัวข้า ผิวข้า — มันร้อนเป็นไฟไปหมด!\n\n[ROOT.Char.GetFaith.DevilName] อยู่ที่นี่จริงหรือ หัวเราะเยาะความทุกข์ของข้า? [ROOT.Char.GetFaith.WaterGodName] ยื่นขวดน้ำให้ข้าหรือไม่? ข้าดื่มแล้วดื่มเล่า แต่ความกระหายก็ไม่ดับ"
+ religious_interaction.2101.end.desc:0 "\n\nเมื่อ [imprisoner.GetTitledFirstName] กลับมาและขวดน้ำถูกกดแนบกับริมฝีปากข้า ความมัวซัวในใจข้าก็จางหายไป [imprisoner.GetTitleAsNameNoTooltip] ดูผิดหวังเล็กน้อยที่พบว่าข้ายังมีชีวิตอยู่ แต่เทพเจ้าได้ตรัสแล้ว"
+ religious_interaction.2101.desc.pleasant: "ข้าเกือบจะ #EMP เพลิดเพลิน#! กับวันที่ถูกมัดอยู่ข้างนอก นกขับขาน ดวงอาทิตย์ให้ความอบอุ่นแก่ผิวข้า และสายฝนที่โปรยปรายลงมา ทำให้ข้าสดชื่นและดับกระหาย\n\nเมื่อ [imprisoner.GetTitledFirstName] กลับมา [imprisoner.GetSheHe] โกรธอย่างเห็นได้ชัดกับความกระปรี้กระเปร่าและอารมณ์ดีโดยทั่วไปของข้า แต่ไม่มีทางหนีพ้นเงื่อนไขที่ [imprisoner.GetSheHe] [imprisoner.GetHerselfHimself] ได้ตั้งไว้: เทพเจ้าได้ตรัสแล้ว!"
+ religious_interaction.2101.desc.oasis: "ข้าเกือบจะ #EMP เพลิดเพลิน#! กับวันที่ถูกแขวนอยู่ในน้ำเย็นๆ ของโอเอซิส แม้ดวงอาทิตย์จะแผดเผาอย่างรุนแรง แต่เชือกของข้าก็หลวมพอที่ข้าจะโน้มตัวลงและดื่มน้ำได้อย่างเต็มที่\n\nเมื่อ [imprisoner.GetTitledFirstName] กลับมา [imprisoner.GetSheHe] โกรธอย่างเห็นได้ชัดกับสุขภาพที่ดีของข้า แต่ไม่มีทางหนีพ้นเงื่อนไขที่ [imprisoner.GetSheHe] [imprisoner.GetHerselfHimself] ได้ตั้งไว้: เทพเจ้าได้ตรัสแล้ว!"
+ religious_interaction.2101.a:0 "ข้าบริสุทธิ์!"
+
+#They survived...
+ religious_interaction.2102.desc:0 "ในคืนสุดท้ายก่อนการพิจารณาคดีของ [prisoner.GetTitledFirstNamePossessive] เราพบ [prisoner.GetHerHim] หมดสติ แต่ยังคงหายใจอยู่\n\n\"นี่คือปาฏิหาริย์!\" [ROOT.Char.Custom('DefaultPriestTitle')] ประกาศ มือชูขึ้นสู่สวรรค์ \"[ROOT.Char.GetFaith.HighGodName|U] ได้ตรัสแล้ว! [prisoner.GetWomanMan] ผู้นี้บริสุทธิ์!\""
+ religious_interaction.2102.oasis: "ขณะที่ข้าเข้าใกล้ [prisoner.GetTitledFirstName] ลุยน้ำในโอเอซิสที่ [prisoner.GetSheHe] ถูกมัดไว้กับเสา เราพบว่า [prisoner.GetHerHim] ไม่เพียง แต่มีสติ แต่ยังสุขภาพดีโดยสิ้นเชิง\n\n"นี่คือปาฏิหาริย์!" [ROOT.Char.Custom('DefaultPriestTitle')] ประกาศ มือชูขึ้นสู่สวรรค์ "[ROOT.Char.GetFaith.HighGodName|U] ได้ตรัสแล้ว! [prisoner.GetWomanMan] ผู้นี้บริสุทธิ์!"\n\nข้ากัดฟันด้วยความหงุดหงิดขณะที่ [ROOT.Char.Custom('DefaultPriestTitlePlural')] แก้เชือกให้ [prisoner.GetFirstNameNoTooltip] ทำไมเราต้องทิ้ง [prisoner.GetSheHe] ไว้ #EMP ที่นี่#! ด้วย?!"
+ religious_interaction.2102.pleasant: "ขณะที่ข้าเข้าใกล้ [prisoner.GetTitledFirstName] ลุยน้ำในโอเอซิสที่ [prisoner.GetSheHe] ถูกมัดไว้กับเสา เราพบว่า [prisoner.GetHerHim] ไม่เพียง แต่มีสติ แต่แทบจะ #EMP ยิ้ม#! อยู่\n\n"นี่คือปาฏิหาริย์!" [ROOT.Char.Custom('DefaultPriestTitle')] ประกาศ มือชูขึ้นสู่สวรรค์ "[ROOT.Char.GetFaith.HighGodName|U] ได้ตรัสแล้ว! [prisoner.GetWomanMan] ผู้นี้บริสุทธิ์!"\n\nข้ากัดฟันด้วยความหงุดหงิดขณะที่ [ROOT.Char.Custom('DefaultPriestTitlePlural')] แก้เชือกให้ [prisoner.GetFirstNameNoTooltip] ทำไมเราต้องทิ้ง [prisoner.GetSheHe] ไว้ #EMP ที่นี่#! ด้วย?!"
+ religious_interaction.2102.a:0 "เป็นพระประสงค์ของ [ROOT.Char.GetFaith.HighGodNamePossessive|U]"
+ religious_interaction.2102.b:0 "[prisoner.GetSheHe|U] ดูเหมือนตายแล้วสำหรับข้า..."
+ religious_interaction.2102.b.tt:0 "[ROOT.Char.GetFaith.HighGodName|U] ไม่ได้ #EMP ถูก#! เสมอไป!"
+ religious_interaction.2102.b.success:0 "การแทรกแซงของท่านไม่ถูกค้นพบ"
+ religious_interaction.2102.b.failure:0 "ท่านถูกเปิดโปงว่าเป็นฆาตกร"
+
+#I have died...
+ religious_interaction.2103.t: "ความพิโรธแห่ง [imprisoner.GetFaith.HighGodNamePossessive|U]"
+ religious_interaction.2103.end.desc:0 "\n\nหากนี่คือพระประสงค์ของ [ROOT.Char.GetFaith.HighGodHerHis|U] บางทีข้าสมควรได้รับสิ่งนี้ บางทีข้า... ชั่วร้าย"
+ religious_interaction.2103.desc.pleasant: "ข้าช่างมั่นใจในตนเอง ช่างโง่เขลา การอยู่กลางแจ้งนานขนาดนี้จะทำร้าย [ROOT.Char.GetWomanMan] ใดๆ ก็ตาม ข้าเห็นแล้วตอนนี้ ดวงอาทิตย์แผดเผาในตอนกลางวัน ลมพัดกระหน่ำข้าในตอนกลางคืน และท้องฟ้ายังคงแจ่มใสอย่างน่าสะพรึงกลัว ปราศจากเมฆใดๆ อย่างไร้ความปรานี\n\nน้ำ น้ำ มันอยู่รอบตัวข้า ถูกกักขังอยู่ในอ้อมกอดของธรรมชาติ แต่ไม่มีสักหยดที่ข้าดื่มได้ หัวข้าห้อยตกลงอย่างสิ้นหวัง"
+ religious_interaction.2103.desc.waterlogged: "แม้ลมจะพัดกระหน่ำและดวงอาทิตย์จะแผดเผาผิวข้า อย่างน้อยข้าก็สดชื่นด้วยกระแสน้ำที่ไหลเข้ามาอย่างต่อ เนื่องจากเมฆฝนที่กระหน่ำลงมาในบริเวณนี้ ข้ายิ้มให้กับท้องฟ้าขณะที่เมฆฝนเริ่มก่อตัวอีกครั้ง\n\nทันใดนั้นโลกก็เริ่มโคลงเคลง ทีละน้อยในตอนแรก จากนั้นเร็วขึ้นและเร็วขึ้น ข้าใช้เวลาครู่หนึ่งจึงตระหนักว่าเสาของข้าเสียสมดุลและกำลังล้มลงไปในสระน้ำตรงหน้าข้า!\n\nขณะที่ข้ากระแทกลงไปในน้ำ ข้าดิ้นรนอย่างบ้าคลั่งเพื่อหนี แต่มันไร้ประโยชน์ แขนขาทั้งหมดของข้าถูกมัด และน้ำหนักของท่อนซุงก็กดข้าลึกลงไปในสระน้ำตื้น ข้ากรีดร้อง แต่ไม่มีเสียงเล็ดลอดออกมา และน้ำก็ไหลเข้าปากข้าเพื่อเติมเต็มความว่างเปล่า"
+ religious_interaction.2103.desc.oasis: "ขณะที่ข้ารับการทดลอง ดวงอาทิตย์อันร้อนแรงแผดเผาผิวข้า อย่างน้อยข้าก็สดชื่นด้วยน้ำที่ซัดสาดหน้าอกข้า ขณะที่ข้าถูกแขวนตัวตรงอยู่ในน้ำของโอเอซิส\n\nทันใดนั้นโลกก็เริ่มโคลงเคลง ทีละน้อยในตอนแรก จากนั้นเร็วขึ้นและเร็วขึ้น ข้าใช้เวลาครู่หนึ่งจึงตระหนักว่าทรายอ่อนใต้เสาของข้าทรุดตัวลง ทำให้ข้าล้มลงไปในโอเอซิสตรงหน้าข้า!\n\nขณะที่ข้ากระแทกลงไปในน้ำ ข้าดิ้นรนอย่างบ้าคลั่งเพื่อหนี แต่มันไร้ประโยชน์ แขนขาทั้งหมดของข้าถูกมัด และน้ำหนักของท่อนซุงก็กดข้าลึกลงไปในน้ำ ข้ากรีดร้อง แต่ไม่มีเสียงเล็ดลอดออกมา และน้ำก็ไหลเข้าปากข้าเพื่อเติมเต็มความว่างเปล่า"
+ religious_interaction.2103.a:0 "ข้า... ข้าเหนื่อยเหลือเกิน..."
+ religious_interaction.2103.b: "#DIE1 บลุ-#! #DIE2 บลุบ...#!"
+
+#They died!
+ religious_interaction.2104.desc:0 "ในคืนสุดท้ายก่อนการพิจารณาคดีของ [prisoner.GetTitledFirstNamePossessive] [prisoner.GetSheHe] ไม่ขยับเขยื้อนเมื่อเราเข้าใกล้ คนรับใช้คนหนึ่งนำขวดน้ำไปจ่อริมฝีปากที่แห้งผากของ [prisoner.GetHerHis] แต่น้ำกลับไหลลงคางของ [prisoner.GetHerHis] โดยไม่มีการตอบสนอง\n\n\"[ROOT.Char.GetFaith.HighGodName|U] ได้ตรัสแล้ว!\" [ROOT.Char.Custom('DefaultPriestTitle')] ประกาศ มือชูขึ้นสู่สวรรค์ \"[prisoner.GetWomanMan] ผู้นี้มีความผิด!\""
+ religious_interaction.2104.desc.drowned: "ขณะที่เราเข้าใกล้ที่ที่เราทิ้ง [prisoner.GetTitledFirstName] ผูกติดกับเสา ก็เห็นได้ชัดอย่างรวดเร็วว่ามีบางอย่างผิดปกติ เสาของ [prisoner.GetHerHis|U] น่าจะล้มไปข้างหน้า ลงไปในสระน้ำที่เราทิ้ง [prisoner.GetHerHim] ไว้ข้างๆ เชือกที่เรามัดแขนขาของ [prisoner.GetHerHis] นั้นแข็งแรงพอ และด้วยน้ำหนักของท่อนซุงที่กดทับ [prisoner.GetHerHim] [prisoner.GetSheHe] ไม่มีโอกาสรอดเลย\n\n"[ROOT.Char.GetFaith.HighGodName|U] ได้ตรัสแล้ว!" [ROOT.Char.Custom('DefaultPriestTitle')] ประกาศ มือชูขึ้นสู่สวรรค์ "[prisoner.GetWomanMan] ผู้นี้มีความผิด!""
+ religious_interaction.2104.desc.oasisdrowned: "ขณะที่เราเข้าใกล้ที่ที่เราทิ้ง [prisoner.GetTitledFirstName] ผูกติดกับเสา ก็เห็นได้ชัดอย่างรวดเร็วว่ามีบางอย่างผิดปกติ เสาของ [prisoner.GetHerHis|U] น่าจะล้มไปข้างหน้า ลงไปในโอเอซิสที่เราทิ้ง [prisoner.GetHerHim] ไว้ข้างๆ เชือกที่เรามัดแขนขาของ [prisoner.GetHerHis] นั้นแข็งแรงพอ และด้วยน้ำหนักของท่อนซุงที่กดทับ [prisoner.GetHerHim] [prisoner.GetSheHe] ไม่มีโอกาสรอดเลย\n\n"[ROOT.Char.GetFaith.HighGodName|U] ได้ตรัสแล้ว!" [ROOT.Char.Custom('DefaultPriestTitle')] ประกาศ มือชูขึ้นสู่สวรรค์ "[prisoner.GetWomanMan] ผู้นี้มีความผิด!""
+ religious_interaction.2104.b.drowned: "อืม ข้าว่านั่นก็เป็นวิธีมองอย่างหนึ่ง..."
+
+##############################################
+### Literalist Debate by Ewan Cowhig Croft ###
+##############################################
+
+ religious_interaction.2400.t:0 "การโต้วาทีครั้งใหญ่"
+ religious_interaction.2400.desc:0 "มหาดเล็กสั่นเทาด้วยความกลัวขณะที่ [recipient.GetSheHe] อ่านจดหมายอันเผ็ดร้อนของ [actor.GetTitledFirstNamePossessive] ให้ข้าฟัง ท้าทายข้าให้โต้วาทีสาธารณะเกี่ยวกับคุณธรรมและโทษทัณฑ์ของศรัทธาร่วมกันของเรา และตั้งคำถามถึงการยึดมั่นในหลักธรรมพื้นฐานของ [recipient.GetFaith.GetNameNoTooltip] ของข้า\n\nคนรับใช้ของข้าพูดตะกุกตะกักด้วยน้ำเสียงของจดหมายที่ไม่ต้องสงสัยเลยเกี่ยวกับความคิดเห็นของ [actor.GetShortUINamePossessiveNoTooltip] ที่มีต่อความศรัทธาของข้า"
+ religious_interaction.2400.a:0 "เจ้าคนถ่อยนั่น! รับคำท้า!"
+ religious_interaction.2400.a.tt_success:0 "การโต้วาทีในที่สาธารณะ ทำให้อับอาย [actor.GetShortUINameNoTooltip]"
+ religious_interaction.2400.a.tt_fail:0 "[actor.GetShortUINameNoTooltip] ประสบความสำเร็จในการตั้งคำถามถึงศรัทธาของข้า"
+ religious_interaction.2400.b:0 "ข้าจะไม่ ทำให้พระนามของ [recipient.GetFaith.HighGodNamePossessive] ต้องมัวหมองด้วยเรื่องตลกนี้"
+ religious_interaction.2400.b.tt:0 "[actor.GetShortUINameNoTooltip] จะได้รับแจ้ง"
+ religious_interaction.2400.b_turned_down:0 "[recipient.GetShortUIName|U] ได้ปฏิเสธคำท้าโต้วาทีของข้า"
+
+ used_literalist_debate_modifier:0 "เพิ่งโต้วาที"
+ used_literalist_debate_modifier_desc:0 "ตัวละครนี้เพิ่งเริ่มการโต้วาทีเกี่ยวกับหลักการพื้นฐานของศรัทธาของพวกเขา"
+ literally_debated_modifier:0 "เพิ่งโต้วาที"
+ literally_debated_modifier_desc:0 "ตัวละครนี้เพิ่งเข้าร่วมการโต้วาทีเกี่ยวกับหลักการพื้นฐานของศรัทธาของพวกเขา"
+
+ religious_interaction.2401.desc_intro:0 "คู่ต่อสู้ของข้าและข้าพบกันในห้องโถงใหญ่ใน [debate_locale.GetNameNoTierNoTooltip] ยืนอยู่บนโต๊ะโยกเยกห่างกันเพียงไม่กี่ฟุต ล้อมรอบด้วยฝูงชนที่กระตือรือร้น ความเงียบสงัดปกคลุมฝูงชน ทุกคนรอคอยการโต้วาทีที่จะเริ่มขึ้น\n\n"
+ religious_interaction.2401.desc_won:0 "ตลอดระยะเวลาหนึ่งชั่วโมง ข้าทำลาย [recipient.GetTitledFirstName] โจมตีความศรัทธาของ [recipient.GetHerHis] สำนึกในคุณธรรมของ [recipient.GetHerHis] และถึงกับตั้งคำถามถึงความจงรักภักดีของ [recipient.GetHerHis] ต่อ [actor.GetFaith.HighGodName] ฝูงชนโหดร้าย ปาไข่เน่าและกะหล่ำปลีขึ้นราใส่ [recipient.GetTitledFirstNameNoTooltip] จนกระทั่ง [recipient.GetSheHe] หนีออกจากห้องโถงไป"
+ religious_interaction.2401.desc_lost:0 "การโจมตีด้วยวาจาของ [recipient.GetTitledFirstNamePossessive] เริ่มขึ้นทันที แทบไม่เปิดโอกาสให้ข้าโต้แย้ง และไม่นานฝูงชนก็ตัดสินผู้ชนะ\n\nข้าพยายามต่อไปอีกสองสามนาที ฝ่าห่าผักเน่า แต่ในที่สุดข้าก็ถูกบังคับให้ล่าถอยเมื่อชาวบ้านคนหนึ่งขว้างไก่เป็นๆ มาที่หัวข้า"
+ religious_interaction.2401.a_won:0 "ข้าไม่เป็นที่รักของ [actor.GetFaith.HighGodName] หรือ?"
+ religious_interaction.2401.a_lost:0 "คนเหล่านี้ไม่เข้าใจ [actor.GetFaith.GetReligion.GetNameNoTooltip]!"
+
+ religious_interaction.2402.desc_won:0 "แม้ว่า [actor.GetTitledFirstNamePossessive] จะมีท่าทีโอหังในการท้าทายข้าโต้วาที แต่ความมุ่งมั่นของ [actor.GetHerHis] ก็ละลายไปต่อหน้าพายุคำพูดอันเฉียบคมและคำวิจารณ์อันเคร่งศาสนาของข้า ไม่นานฝูงชนก็เข้าร่วม และคู่ต่อสู้ของข้าก็ล่าถอยภายใต้ห่าผักขึ้นราและไก่ตัวผู้ที่ดุร้ายเป็นพิเศษตัวหนึ่ง"
+ religious_interaction.2402.desc_lost:0 "แม้ว่าข้าจะพยายามอย่างดีที่สุด แต่ [actor.GetTitledFirstName] ได้ค้นคว้าข้อโต้แย้งของ [actor.GetHerHis] มาเป็นอย่างดีอย่างชัดเจน และ ทำให้ฝูงชนเชื่อฟัง [actor.GetHerHis] แทบจะในทันที [actor.GetSheHe|U] ยังคงตำหนิข้าต่อไปนานกว่าหนึ่งชั่วโมง กล่าวหาข้าในทุกความชั่วร้าย และถึงกับบอกเป็นนัยว่าความภักดีของข้าต่อ [recipient.GetFaith.HighGodName] เป็นที่น่าสงสัย\n\nในที่สุด ข้าก็หนีไป ตามด้วยห่าผลิตผลเน่าเสียจากฝูงชน"
+
+ religious_interaction.2403.desc:0 "[victim.GetTitledFirstName] ไม่มีโอกาสแม้ แต่น้อย แม้ว่า [victim.GetSheHe] จะเชื่อว่า [victim.GetHerselfHimself] เตรียมตัวมาอย่างดี ข้าปัดเป่าข้อโต้แย้งอันอ่อนแอของ [victim.GetHerHis] ราวกับแมลงวัน ทุกครั้งที่โต้แย้ง [victim.GetFirstNameNoTooltip] ก็สะดุ้งราวกับถูกตี เมื่อเวลาผ่านไป [victim.GetSheHe] ดูเหมือนจะไม่สามารถปกป้อง [victim.GetHerselfHimself] ได้จนแม้ แต่ฝูงชนก็เงียบไป\n\n"...และนั่นคือเหตุผล" ข้าพูดขณะยกมือขึ้นอย่างน่าทึ่ง นิ้วชี้กล่าวหาชี้ไปทั่วห้อง "ว่าเจ้าจะไม่มีวัน—"\nข้าหยุดเมื่อตระหนักว่า [victim.GetFirstNameNoTooltip] กำลังหอบหายใจและกุม"
+ religious_interaction.2403.conclusion_either:0 "หน้าอกของ [victim.GetHerHis]"
+ religious_interaction.2403.conclusion_man:1 "แขนของ [victim.GetHerHis]"
+ religious_interaction.2403.conclusion_woman:1 "ท้องของ [victim.GetHerHis]"
+ religious_interaction.2403.a.low_compassion:0 ""เลือกทางขี้ขลาดสินะ ข้าเห็น""
+ religious_interaction.2403.a.zealous:0 ""ดูเหมือนว่า [ROOT.Char.GetFaith.PantheonTerm] [ROOT.Char.GetFaith.PantheonTermHasHave] ได้เลือกผู้ชนะแล้ว""
+ religious_interaction.2403.a.stubborn:0 ""เฮ้ ข้ายังพูดไม่จบ!""
+ religious_interaction.2403.a:0 ""ท่าน... ท่านเป็นอะไรหรือไม่?""
+ religious_interaction.2403.a.tt:0 "[victim.GetShortUIName] หัวใจวายและ [character_death_dies|E]"
+
+ religious_interaction.2500.desc:0 "การที่ท่านกลับใจได้... ต้องเป็นสัญญาณจาก [ROOT.Char.GetFaith.HighGodNameAlternate] แน่! ท่านยินดีเข้าร่วมศรัทธาที่แท้จริง"
+ religious_interaction.2500.a:0 "สรรเสริญ [ROOT.Char.GetFaith.HighGodName]!"
+
+ religious_interaction.2501.desc:0 "ท่านต้องล้อเล่นแน่ๆ? ความพยายามอันโปร่งใสของท่านในการหลบหนีทางการเมืองจะไม่มีวันขัดขวางความพิโรธของ [recipient.GetFaith.HighGodName] ได้!"
+ 
+ #########################
+ # Exaltation of Pain tenet
+ #########################
+
+ religious_interaction.2600.t: "บทเรียนแห่งพระคุณ"
+ religious_interaction.2600.desc.recipient: "[actor.GetTitledFirstName|U]ค่อยๆ จูงมือข้าไปยังชุดเครื่องมือทั้งมีคมและไม่มีคมที่เราจะใช้ในพิธีกรรมครั้งนี้ ใบมีดเล่มหนึ่งสะท้อนแสง และข้ารู้สึกถึงความสงบที่แผ่ซ่านเข้ามาในใจข้า\n\nเมื่อถือเครื่องมือไว้ในมือ ข้าส่งสัญญาณให้[actor.GetHerHim]หันหลัง ขณะที่[actor.GetSheHe]เลิกเสื้อของ[actor.GetHerHis]ขึ้น เผยให้เห็นผิวหนังบริสุทธิ์บนแผ่นหลัง ข้าเริ่มลงมือ และไม่ช้าเสียงครางต่ำๆ และเสียงฮึดฮัดก็เปลี่ยนเป็นเสียงฮัมเบาๆ ในลำคอของ[actor.GetHerHis]\n\nข้ารู้แล้วว่าจะใช้เครื่องมือชิ้นใดเพื่อขัดเกลาพระคุณของตนเองให้ละเมียดยิ่งขึ้น"
+ religious_interaction.2600.desc.actor: "[recipient.GetTitledFirstName|U]พิจารณาเครื่องมือแห่งการข้ามพ้นอย่างระมัดระวัง, ตัวสั่นเล็กน้อยด้วยความคาดหวัง\n\nข้าคว้าข้อมือของ[recipient.GetHerHis] วางใบมีดคมกริบลงในมือของ[recipient.GetHerHis] และค่อยๆ กดมันลงบนอกของข้า "ค่อยๆ อย่างแผ่วเบา ใช่หรือไม่? ทำมือให้นิ่งเข้าไว้ เรากำลังเดินอยู่บนเส้นด้ายบางๆ ที่นี่"\n\n[recipient.GetFirstNameNoTooltip]มองตาข้าแล้วพยักหน้า จากนั้นก็เริ่มปลดกระดุมเสื้อของ[recipient.GetHerHis]เอง เผยให้เห็นผืนผิวหนังบริสุทธิ์ไร้รอยแผลเป็น ซึ่งในไม่ช้าจะได้รับพระคุณแห่ง[recipient.GetFaith.HighGodName]"
+ religious_interaction.2600.a: ""ให้เราข้ามพ้นไปด้วยกันเถิด""
+
+ religious_interaction.2610.desc: "โชคร้ายที่ข้ามีภารกิจสำคัญบางอย่างที่ต้องดูแลในครั้งนี้... แต่ขอให้เรานมัสการด้วยความศรัทธาอันแรงกล้ายิ่งขึ้นในครั้งหน้าเถิด!"
+ religious_interaction.2610.a: "น่าเสียดายยิ่งนัก"
+
+ attempted_transcendence_together_opinion: "พยายามข้ามพ้นไปด้วยกัน"

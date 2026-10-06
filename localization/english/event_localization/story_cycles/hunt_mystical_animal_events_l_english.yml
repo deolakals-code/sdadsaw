@@ -1,0 +1,54 @@
+﻿l_english: 
+ start_hunt_mystical_animal_story_cycle_effect.tt:1 "#EMP ข้าจักมิหยุดพักจนกว่าจักพบมัน!#!"
+
+ hunt_mystical_animal.1001.t:1 "เจ้า [ROOT.Char.Custom('GetAnimalType')|U] [ROOT.Char.Custom('GetLegendaryColor')]"
+ hunt_mystical_animal.1001.desc:1 "อสูรร้ายอันหลบเร้นปรากฏแก่ข้าในฝัน, นัยน์ตาอันดำมืดลึกล้ำของมันพิพากษาข้าขณะที่มัน [ROOT.Char.Custom('GetAnimalChargePresent')] ไปมา, อวดขน [ROOT.Char.Custom('GetLegendaryColor')] อันบริสุทธิ์ผุดผ่องของมัน\n\nเรายืนอยู่ใน [legendary_county.GetCountyData.GetCapital.Custom('GetTerrainTypePlural')] อันเงียบสงัดภายใต้จันทร์เพ็ญดวงโต ไม่ว่าข้าจะพยายามเพียงใด, ข้าก็มิอาจเข้าใกล้เหยื่อของข้าได้เลย\n\nขณะที่ข้าตะเกียกตะกายตื่นขึ้น, ข้ารู้สึกถึงความตั้งมั่นที่แข็งแกร่งขึ้น..."
+ hunt_mystical_animal.1001.a:0 "มันจักหลบเร้นจากข้าได้อีกไม่นาน!"
+
+ hunt_mystical_animal.1002.desc:1 "ขณะขี่ม้าผ่าน [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTypePlural')] แห่ง [ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip], เรามาถึงทางโค้งและข้าก็ได้เห็นมันอีกครั้ง, ส่องประกายระยิบระยับกลางแสงตะวัน — เจ้า [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetLegendaryColor')]\n\nข้าหันไปเตือนผู้อื่น, แต่เมื่อข้ามองกลับไป เจ้า [ROOT.Char.Custom('GetAnimalType')] ก็หายไปเสียแล้ว..."
+ hunt_mystical_animal.1002.a:0 "มันเย้ยหยันข้า!"
+
+ hunt_mystical_animal.1003.desc:1 "นับตั้งแต่ข้าเริ่มการค้นหา, รายงานการพบเห็นเจ้า [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetLegendaryColor')] ก็หลั่งไหลมาจากทั่วทุกสารทิศของ [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]\n\nการกลั่นกรองเรื่องราวและแยกแยะความจริงออกจากเรื่อง แต่งนั้นเป็นงานใหญ่หลวงนัก หากเพียง แต่รายงานเหล่านั้นน่าเชื่อถือกว่านี้..."
+ hunt_mystical_animal.1003.a:0 "ข้าจักจ้างคนเพื่อตามหามัน!"
+ hunt_mystical_animal.1003.b:0 "งานนี้ใหญ่หลวงเกินไป ข้าจักไม่ยุ่งเกี่ยวกับมัน"
+ hunt_mystical_animal.1003.b.tt:2 "ละทิ้งการไล่ตามเจ้า #V [THIS.Char.Custom('GetAnimalType')] [THIS.Char.Custom('GetLegendaryColor')]#!"
+ hunt_mystical_animal.1003.c:0 "[steward.GetCouncilTitle] ของข้าจักจัดการเรื่องนี้"
+ hunt_mystical_animal.1003.d:0 "ข้าทำได้ ข้า #EMP ต้อง#! ทำ!!"
+ hunt_mystical_animal.1003.e:0 "[m_hunt.GetTitledFirstNameNoTooltip] จงจัดตั้งกลุ่มค้นหา!"
+
+ hunt_mystical_animal.1004.desc:1 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [m_hunt.GetTitledFirstName] แทบเก็บอาการตื่นเต้นไว้ไม่อยู่ "เราได้รับรายงานว่ามีผู้พบเห็น [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetLegendaryColor')] ใน [legendary_county.GetCountyData.GetCapital.Custom('GetTerrainTypePlural')] แห่ง [legendary_county.GetCountyData.GetCapital.GetNameNoTooltip]!"\n\n"บ้างก็อ้างว่าความเจ็บป่วยติดตามมันมา บ้างก็ว่ามันนำพาความเจริญรุ่งเรือง แต่ดูเหมือนทุกคนจะค่อนข้างมั่นใจว่ามันอยู่ในบริเวณนี้"\n\nมันอยู่ที่นี่รึ? ใน [ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]?!""
+ hunt_mystical_animal.1004.a:0 "เราควบม้าไป!"
+ hunt_mystical_animal.1004.a.tt:0 "ครานี้มันจักหนีข้าไม่พ้น"
+ hunt_mystical_animal.1004.a.success:0 "ท่านพบเจ้า #V [THIS.Char.Custom('GetAnimalType')] [THIS.Char.Custom('GetLegendaryColor')]#! แล้ว!"
+ hunt_mystical_animal.1004.b:0 "ข้าจักไม่ยอมให้มันชักใยข้า เช่นนี้"
+
+ hunt_mystical_animal.1005.desc:1 "\n\nในชั่วพริบตา, เจ้า [activity.Custom('GetAnimalType')] ก็ [activity.Custom('GetAnimalChargePresent')] หายเข้าไปใน [ROOT.Char.GetCurrentLocation.Custom('GetProvinceFoliageDesc')]: ลับหายไปรวดเร็วเท่ากับที่มันปรากฏตัว"
+ hunt_mystical_animal.1005.a:1 "ให้ตายสิ! ข้า #EMP จัก#! จับเจ้าให้ได้, อสูรร้าย!"
+
+ hunt_mystical_animal.1006.desc: "ข้ามองออกไปในยามเช้าอันพร่ามัวและเห็นเจ้า [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetLegendaryColor')] นั่งอยู่ ณ ปากทางเข้า [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTypePlural')], #EMP เย้ยหยัน#! ข้า\n\nเมื่อหันหนี ข้ากลับเผชิญหน้ากับผืนผ้าปูที่นอน และ, ขณะพยายามดึงตัวออกห่าง, ก็เซถลาไปชนหัว [ROOT.Char.Custom('GetAnimalType')] ที่ติดอยู่บนคาน\n\nข้าหลับตาลง, แต่ไม่มีทางหนีพ้น เจ้า [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetLegendaryColor')] อยู่ที่นั่น – กำลังหัวเราะเยาะข้า!"
+ hunt_mystical_animal.1006.a:1 "ข้าจักจับเจ้าให้ได้, อสูรร้าย!"
+ hunt_mystical_animal.1006.b:1 "เจ้า! บัดนี้เจ้าคือเจ้า [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetLegendaryColor')]! กลับมานี่!"
+
+ hunt_mystical_animal.1007.desc:2 "ข้าตระเวนค้นหาเจ้า [activity.Custom('GetAnimalType')] [activity.Custom('GetLegendaryColor')] อันหลบเร้นไปทั่วแผ่นดิน, บุกตะลุยผืนป่าแห่ง [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] — ครานี้ข้าจักไม่ปล่อยให้มันหนีไปได้!\n\nขณะที่ข้าตามรอยมันเข้าไปใน [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTree')], ลึกเข้าไปในพงไพรเขียวขจียิ่งขึ้นเรื่อยๆ, สิ่งต่างๆ ก็เริ่มเปลี่ยนรูปร่างไป\n\nข้าเห็นเห็ดใหญ่เท่า [ROOT.Char.Custom('ResidenceBuildingPlural')], ต้นไม้เล็กเท่าหนู, และหนอนผีเสื้อใหญ่เท่าม้า"
+ hunt_mystical_animal.1007.a:0 "ไม่ว่าเจ้าจะคลานเข้าไปในรูไหน ข้าก็จะหาเจ้าเจอ!"
+ hunt_mystical_animal.1007.b:0 "โอ้, เห็ดพวกนี้... ดูน่าอร่อย"
+ hunt_mystical_animal.1007.b.success:0 "อร่อย!"
+ hunt_mystical_animal.1007.b.failure:0 "อึก, ข้ารู้สึกคลื่นไส้เล็กน้อย..."
+
+ hunt_mystical_animal.1008.desc:1 "วันเวลาผ่านไป ข้าไม่ได้ยินข่าวคราวใดๆ เกี่ยวกับเจ้า [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetLegendaryColor')] เลย, และข้าก็เริ่มกระสับกระส่าย...\n\nต้องมีใครสักคนเห็นมันแน่ๆ? แล้วพวกชาวบ้านที่อยู่เกลื่อน [legendary_county.GetCountyData.GetCapital.Custom('GetTerrainTypePlural')] เล่า? บางทีข้าควรขอความช่วยเหลือจากพวกเขา..."
+ hunt_mystical_animal.1008.a:0 "ส่งสาส์นไป!"
+ hunt_mystical_animal.1008.b:0 "ข้าจักไม่ลดตัวลงต่ำถึงเพียงนั้น"
+ hunt_mystical_animal.1008.c:0 "ข้าจักส่ง [knight.GetFirstNameNoTooltip] ไป"
+
+ hunt_mystical_animal.1009.desc:1 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U] การค้นหาเพียงสัตว์เดรัจฉานของท่าน... ข้าต้องยอมรับว่ามัน ทำให้ข้ากังวลใจ"\n\n[court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)|U] เข้ามาหาข้าขณะที่ข้ากำลังพิจารณารายงานการพบเห็น [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetLegendaryColor')]\n\n"เป็นที่ประจักษ์ว่าสิ่งใดก็ตามที่เบี่ยงเบนความสนใจได้มากถึงเพียงนี้ อาจถูกส่งมาจาก [ROOT.Char.GetFaith.DevilName] ก็เป็นได้ อย่าได้ทึกทักว่าการมีอยู่ของมันคือสัญญาณจาก [ROOT.Char.GetFaith.HighGodNameAlternate]!""
+ hunt_mystical_animal.1009.a:1 "เจ้า [ROOT.Char.Custom('GetAnimalType')] คือผู้ส่งสารจาก [ROOT.Char.GetFaith.HighGodName]!"
+ hunt_mystical_animal.1009.a.success:0 ""ท่านอาจจะพูดถูก...""
+ hunt_mystical_animal.1009.a.failure:0 ""ท่านกำลังพูดเรื่องอันใดกัน?!""
+ hunt_mystical_animal.1009.b:0 "หาใช่ธุระกงการใดของท่านไม่"
+ hunt_mystical_animal.1009.c:0 "ท่านพูดถูก, ข้าคิดอะไรอยู่กันแน่?"
+
+ hunt_mystical_animal.9001.desc:2 "ข้ากำลังตามรอยลึกเข้าไปเรื่อยๆ ใน [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTypePlural')] แห่ง [ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip] เมื่อบรรยากาศรอบตัวข้าพลันเงียบสงัดลง\n\nราวกับถือกำเนิดจากอากาศธาตุ, เจ้า [activity.Custom('GetAnimalType')] [activity.Custom('GetLegendaryColor')] ยืนอยู่เบื้องหน้าข้า, ขนของมันเป็นประกายในแสงตะวัน, นัยน์ตาลึกล้ำดุจความฝัน ข้ายกคันธนูขึ้น..."
+ hunt_mystical_animal.9001.a:1 "... และปล่อยลูกธนูออกไป"
+
+ hunt_mystical_animal.9002.desc:2 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [m_hunt.GetTitledFirstName] เอ่ยขึ้นอย่างลังเล "มีชาวบ้านส่งของขวัญมาให้ท่าน [dummy_gender.GetSheHe|U] อ้างว่าสี [activity.Custom('GetLegendaryColor')] นี้เป็นสีธรรมชาติ แต่ข้าไม่เคยเห็นอะไร เช่นนี้มาก่อน!"\n\nด้วยความประหวั่นใจที่เพิ่มขึ้น ข้าเดินเข้าไปใกล้ห่อนั้น — และมันก็นอนอยู่ที่นั่น: [activity.Custom('GetAnimalType')] [activity.Custom('GetLegendaryColor')] ที่ข้าใช้เวลาหลายปีตามล่า"
+ hunt_mystical_animal.9002.a:0 "นี่ต้องเป็นเรื่องตลกแน่...!"

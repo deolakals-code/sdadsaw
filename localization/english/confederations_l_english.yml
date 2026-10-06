@@ -1,0 +1,16 @@
+﻿l_english: 
+ is_confederation_member_global: "เป็นสมาชิกของ [confederation|E]"
+ not_is_confederation_member_global: "มิได้เป็นสมาชิกของ [confederation|E]"
+ is_confederation_member_first: "ท่านเป็นสมาชิกของ [confederation|E]"
+ not_is_confederation_member_first: "ท่าน #bold มิได้#! เป็นสมาชิกของ [confederation|E]"
+ is_confederation_member_third: "[CHARACTER.GetShortUIName|U] [CharAreIs( CHARACTER )] เป็นสมาชิกของ [confederation|E]"
+ not_is_confederation_member_third: "[CHARACTER.GetShortUIName|U] [CharAreIs( CHARACTER )] #bold ไม่ได้#! เป็นสมาชิกของ [confederation|E]"
+
+ is_member_of_confederation_global: "เป็นสมาชิกของ [CONFEDERATION.GetName]"
+ not_is_member_of_confederation_global: "มิได้เป็นสมาชิกของ [CONFEDERATION.GetName]"
+ is_member_of_confederation_first: "ท่านเป็นสมาชิกของ [CONFEDERATION.GetName]"
+ not_is_member_of_confederation_first: "ท่าน #bold มิได้#! เป็นสมาชิกของ [CONFEDERATION.GetName]"
+ is_member_of_confederation_third: "[CHARACTER.GetShortUIName|U] [CharAreIs( CHARACTER )] เป็นสมาชิกของ [CONFEDERATION.GetName]"
+ not_is_member_of_confederation_third: "[CHARACTER.GetShortUIName|U] [CharAreIs( CHARACTER )] #bold ไม่ได้#! เป็นสมาชิกของ [CONFEDERATION.GetName]"
+
+ confederation_member_count_global: "จำนวนสมาชิก [confederation|E] $COMPARATOR$ $NUM|V0$"

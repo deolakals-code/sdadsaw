@@ -1,0 +1,96 @@
+﻿l_english: 
+ #Unused texts for secrecy event
+ court_outcome.0001.t:1 "$court_event_title$ บัดนี้หรือไม่มีวัน"
+ court_outcome.0001.desc:0 "โอ้ [target.GetFirstName] [target.Custom('LoverPetName')]ของข้า! ข้าปรารถนาอ้อมกอดของท่าน! ข้าคิดว่าข้าคงตายหากปราศจากน้ำหวานอันหอมหวานจากจุมพิตของท่าน!\n\nแม้ว่าความรู้สึกของข้าจะบริสุทธิ์ แต่ก็มีผู้คนมากมายที่จะตัดสินเรา ข้าควรไปหา[target.GetHerHim]หรือไม่? หรือข้าต้องอยู่ห่างๆ?"
+ court_outcome.0001.b:0 "ข้าไม่อาจเสี่ยงความปลอดภัยของ[target.GetHerHis]ได้..."
+ court_outcome.0001.a:0 "ไม่มีสิ่งใดจะมาขวางกั้นระหว่างเราได้!"
+
+ #Player target picks outcome
+ court_outcome.0003.t:0 "นี่คือรักใช่หรือไม่?"
+ court_outcome.0003.success.desc:0 "ข้าแทบจำไม่ได้ว่าชีวิตของข้าเป็นอย่างไรก่อนที่ [owner.GetFirstName] จะประกาศความรู้สึกของ[owner.GetHerHis]ที่มีต่อข้า วันเหล่านั้นดูช่างมืดมน อ้างว้างเหลือเกิน... แต่เมื่อมี[owner.GetHerHim]อยู่เคียงข้าง ทุกสิ่งทุกอย่างก็ดูเหมือนจะเป็นไปได้ในทันที!\n\nข้าปรารถนาให้เราเป็น เช่นนี้ตลอดไป แต่ลึกๆ แล้ว ข้ารู้ว่าข้าต้องตัดสินใจ ข้ากล้าพอที่จะยอมรับความรู้สึกของตัวเอง หรือข้าต้องปิดหัวใจต่อ [owner.GetFirstNameNoTooltip] ตลอดไป?"
+ court_outcome.0003.failure.desc:0 "ข้าแทบจำไม่ได้ว่าชีวิตของข้าเป็นอย่างไรก่อนที่ [owner.GetFirstName] จะประกาศความรักของ[owner.GetHerHis]ที่มีต่อข้า ข้ารู้สึกเป็นเกียรติ แต่ก็รู้สึกท่วมท้นกับการเอาใจใส่ของ[owner.GetHerHis] ข้าพบว่าตัวเองโหยหาความสงบและความเงียบบ้าง\n\nกระนั้น ข้าก็อดกังวลไม่ได้ ข้ากำลังจะทิ้งโอกาสเดียวที่จะได้พบรักแท้ไปหรือไม่? นั่นคงไม่ถูกต้อง! ใช่หรือไม่...?"
+ court_outcome.0003.a:0 "ข้าเป็นของท่าน [owner.GetFirstNameNoTooltip] บัดนี้และตลอดไป!"
+ court_outcome.0003.a.tt:0 "[owner.GetShortUIName|U] อาจกลายเป็นเนื้อคู่ของข้า"
+ court_outcome.0003.b.success:0 "จุมพิตแห่งรักแท้เพียงครั้งเดียวคือทั้งหมดที่ข้ามอบให้ได้"
+ court_outcome.0003.b.failure:0 "[owner.GetSheHe|U] สมควรได้รับจุมพิต อย่างน้อยก็เพื่อความภักดีของ[owner.GetHerHis]"
+ court_outcome.0003.b.tt:0 "[owner.GetShortUIName|U] จะ #bold ไม่#! กลายเป็นเนื้อคู่ของข้า"
+ court_outcome.0003.c:0 "ความหลงใหลนี้สิ้นสุดลงในวันนี้"
+
+
+ court_outcome.kiss.tt:0 "[target.GetShortUIName|U] และข้าแลกจุมพิตกัน"
+ 
+ 
+ #Generic keys
+ court_outcome.0001.a.tt:0 "ข้าดำเนินการตามความพยายามที่จะเกี้ยวพาราสี [target.GetTitledFirstName] ต่อไป"
+
+ ### WILD HUNT ###
+ court_outcome.1000.t:1 "$court_event_title$ การล่าในพงไพร"
+ court_outcome.1000.i_invite.desc:1 "เมื่อ [target.GetTitledFirstName] เสนอให้มีการล่าสัตว์ ข้าก็ไม่ลังเลที่จะจัดขึ้น ข้ายอมทำทุกอย่างเพื่อเพียงได้เห็น[target.Custom('LoverPetName')]ของข้าแวบเดียว!"
+ court_outcome.1000.own_invite.desc:0 "เมื่อ [target.GetFirstName] เชิญข้าไปล่าสัตว์ ข้าก็ไม่ลังเลที่จะตอบรับ ข้าจินตนาการภาพที่น่ารักไปกว่าโครงร่างอันน่าทึ่งของ[target.GetHerHis]บนหลังม้าตัวผู้ไม่ได้เลย!"
+ court_outcome.1000.liege_invite.desc:1 "เมื่อ [target_host.Custom2('NamePossessiveCharacterIntroduction', target)] เชิญข้าไปล่าสัตว์ ข้าก็ไม่ลังเลที่จะตอบรับ ข้ายอมทำทุกอย่างเพื่อเพียงได้เห็น[target.Custom('LoverPetName')]ของข้าแวบเดียว!"
+ court_outcome.1000.end.desc:0 "\n\nข้ากำลังย่องไปตามพุ่มไม้ โดยมีมหาดเล็กตามติดส้นเท้าและสุนัขล่าเนื้ออยู่ข้างหน้า ดูเหมือนว่ามันจะพบร่องรอยแล้ว! ทันใดนั้นสมาธิของข้าก็แตกสลายด้วยเสียงกรีดร้องของ[target.GetWomanMan]!"
+ court_outcome.1000.a:0 ""ข้ากำลังไปหาท่าน ยอดรักของข้า!""
+ court_outcome.1000.b:0 "บางทีการส่งมหาดเล็กไปอาจจะฉลาดกว่า..."
+ court_outcome.1000.c:0 "มันคงเป็นแค่นกกระมัง"
+ court_outcome.1000.b.failure:0 "[target.GetFirstNameNoTooltip] ถูกสัตว์ร้ายโจมตี"
+ court_outcome.1000.b.success:0 "[target.GetFirstNameNoTooltip] ไม่เคยตกอยู่ในอันตราย"
+
+
+ court_outcome.1001.desc:1 "ภายในเวลาที่คงไม่ถึงนาที แต่รู้สึกเหมือนหนึ่งชั่วโมง ข้ามาถึงที่โล่ง [target.GetFirstName] อยู่บนพื้นตรงหน้าข้า ในสภาพยุ่งเหยิงและไร้อาวุธ ตรงข้าม [target.GetHerHim] และกำลังจะจู่โจม คือ [ROOT.Char.Custom('GetAnimalType')] ขนาดใหญ่!\n\nลูกธนูของข้าพุ่งเข้าเป้าและสัตว์ร้ายก็ล้มลงกับพื้น ชั่วขณะหนึ่ง [target.GetFirstNameNoTooltip] ทำได้เพียงจ้องมอง แต่แล้ว [target.GetSheHe] ก็โซเซมาหาข้าและโผตัว[target.GetHerselfHimself]เข้าสู่อ้อมแขนของข้า""
+ court_outcome.1001.a:0 "ข้าต้องการท่าน ยอดรักของข้า ที่นี่และเดี๋ยวนี้!"
+ court_outcome.1001.b:0 "จุมพิตอันหอมหวานเพียงครั้งเดียวคือรางวัลเดียวที่ข้าปรารถนา"
+
+ court_outcome.1002.desc:1 ""[target.GetFirstName]! ข้ามาแล้ว!" ข้าพุ่งฝ่าพงไม้ออกไปยังที่โล่ง หัวใจเต้นรัว เหงื่อไหลอาบใบหน้า\n\nแต่ภาพตรงหน้าข้าไม่ใช่สิ่งที่ข้าคาดหวัง มี [ROOT.Char.Custom('GetAnimalType')] อยู่ ใช่ — แต่มันอยู่บนพื้น มีลูกธนูปักอยู่ระหว่างดวงตา [target.GetFirstNameNoTooltip] ลดคันธนูของ[target.GetHerHis]ลงขณะที่[target.GetSheHe]หันมาเผชิญหน้ากับข้า\n\n"นี่มันเรื่องอะไรกัน [owner.GetTitledFirstNameNoTooltip]? ท่านคิดว่าข้าไม่สามารถป้องกันตัวเองได้รึ?""
+ court_outcome.1002.a:0 "ข้า... ข้าหลงทางรึ?"
+
+ court_outcome.1005.desc:0 "ขณะที่ข้าเข้าใกล้ เสียงกรีดร้องก็ดังขึ้นเรื่อยๆ ต้องเป็น [target.GetFirstName] [target.Custom('RomanticComplimentAdjective')] ของข้าแน่ — ข้าจำเสียงของ[target.GetHerHis]ได้ทุกที่!\n\nแต่มีบางอย่าง #EMP แปลก#! เกี่ยวกับเสียงกรีดร้องของ[target.GetHerHis] มันไม่เหมือนกับว่า [target.GetFirstNameNoTooltip] กำลังกลัว... หรือว่า[target.GetSheHe]กำลังเจ็บปวด...\n\nหัวใจของข้าหล่นวูบเมื่อข้าเห็น[target.GetHerHim]ในที่สุด: เปลือยเปล่าเหมือนวันที่[target.GetSheHe]เกิดมา กำลังเกลือกกลิ้งอยู่บนพื้นหญ้ากับ [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]"
+ court_outcome.1005.a:0 "[target.GetSheHe|U] เห็นได้ชัดว่าไม่มีที่ว่างในใจของ[target.GetHerHis]สำหรับข้า"
+ court_outcome.1005.b:1 "[targets_lover.GetFirstNameNoTooltip] จะต้องเสียใจในวันที่[targets_lover.GetSheHe]มาขวางทางข้า!"
+ court_outcome.1005.c:0 "ข้าจะช่วย[target.GetHerHim]จากสัตว์ร้ายนั่น!"
+ court_outcome.1005.c.murder_undiscovered:0 "ลูกธนูของข้าพุ่งเข้าใส่ [targets_lover.GetFirstNameNoTooltip]"
+ court_outcome.1005.c.murder_discovered:0 "ลูกธนูของข้าพุ่งเข้าใส่ [targets_lover.GetFirstNameNoTooltip] แต่ข้าถูกพบเห็น"
+ court_outcome.1005.c.murder_attempt:0 "ข้ายิงพลาดและหนีออกจากที่เกิดเหตุ"
+ court_outcome.1005.d:0 "ถ้าข้าไม่ได้[target.GetHerHim] ก็ไม่มีใครจะได้!"
+ court_outcome.1005.d.murder_undiscovered:0 "ลูกธนูของข้าพุ่งเข้าใส่ [target.GetFirstNameNoTooltip]"
+ court_outcome.1005.d.murder_discovered:0 "ลูกธนูของข้าพุ่งเข้าใส่ [target.GetFirstNameNoTooltip] แต่ข้าถูกพบเห็น"
+
+ court_outcome.1003.t:0 "การล่าในพงไพร"
+ court_outcome.1004.desc:1 "ข้ากำลังขี่ม้าอยู่เมื่อม้าของข้ากระโจนออกจากเส้นทางอย่างกะทันหัน การตกนั้นหลีกเลี่ยงไม่ได้และ ทำให้ข้าจุกจนหายใจไม่ออก เมื่อข้ามองขึ้นไป ข้าพบว่าตัวเองเผชิญหน้ากับ [owner.Custom('GetAnimalType')]!\n\nก่อนที่ข้าจะมีโอกาสกรีดร้อง สัตว์ร้ายก็ล้มลง มีลูกธนูปักอยู่ระหว่างดวงตา\n\n"[target.GetFirstNameNoTooltip] [target.Custom('LoverPetName')]ของข้า! ข้าคิดว่าข้าเสียท่านไปแล้ว!" วีรบุรุษของข้าไม่ใช่ใครอื่นนอกจาก [owner.GetTitledFirstName]!"
+ court_outcome.1003.b:0 "เราแลกจุมพิตกันครั้งหนึ่ง หวานปานน้ำผึ้ง"
+
+
+ ### INTRUDER ###
+
+ # OWNER CHOICE
+ court_outcome.1100.t:0 "$court_event_title$ ผู้บุกรุก"
+ court_outcome.1100.start.desc:0 "ทุกครั้งที่ข้าหลับตา ข้าเห็นใบหน้าของ[target.GetTitledFirstNamePossessive] การนอนหลับไม่มาเยือน ข้ารออีกต่อไปไม่ได้แล้ว — คลุมกายในเงามืด ข้ามุ่งหน้าไปยัง"
+ court_outcome.1100.targets_residence.desc:0 "[target.Custom('ResidenceBuilding')]ของ[target.GetHerHis]"
+ court_outcome.1100.my_residence.desc:0 "สวนด้านนอกห้องพักของ[target.GetHerHis]"
+ court_outcome.1100.targets_host_residence.desc:0 "[target.Custom('ResidenceBuilding')]ของ[target_host.GetTitledFirstNamePossessive]"
+ court_outcome.1100.end.desc:0 "\n\nภาพหน้าต่างห้องของ[target.GetFirstNamePossessiveNoTooltip] ทำให้หัวใจข้าสะดุด ใกล้เหลือเกิน ทว่าก็ไกลแสนไกล!\n\nแต่เดี๋ยวก่อน — นั่นใคร กำลังปีนหอคอยขึ้นไป? ร่างเงาทะมึนหยุดอยู่ที่หน้าต่างของ[target.GetFirstNamePossessiveNoTooltip]และปลดสลักบานหน้าต่าง..."
+ court_outcome.1100.a:0 "[target.Custom('LoverPetName')]ของข้าตกอยู่ในอันตราย — ข้าต้องช่วย[target.GetHerHim]!"
+ court_outcome.1100.b:0 ""ทหารยาม! #EMP ทหารยาม!#! มีผู้บุกรุกอยู่ในหอคอย!""
+ court_outcome.1100.b.failure:0 "[target.GetShortUIName|U] ได้รับบาดเจ็บจากผู้บุกรุก"
+ court_outcome.1100.b.success:0 "[target.GetShortUIName|U] หนีรอดไปโดยไม่ได้รับอันตราย"
+ court_outcome.1100.c:0 "ข้าไม่ได้มาที่นี่เพื่อปล้ำกับโจรย่องเบา"
+
+ # OWNER SUCCESS: You save target from the burglar/comfort target!
+ court_outcome.1101.start.desc:0 "เสียงจากการต่อสู้ด้านบนเป็นแรงกระตุ้นที่ยิ่งใหญ่ที่สุดที่ข้าเคยรู้จัก โดยไม่ห่วงชีวิตหรือแขนขา ข้าปีนขึ้นไปทางหน้าต่างของ[target.GetTitledFirstNamePossessive]\n\n"
+ court_outcome.1101.owner_fights.desc:0 "ข้ารู้สึกราวกับว่าข้าได้กระโจนลงไปในทะเลสาบน้ำแข็ง [target.GetFirstNameNoTooltip] อยู่บนพื้น ผู้บุกรุกกด[target.GetHerHim]ลง มีใบมีดวาววับอยู่ระหว่างพวกเขา ด้วยเสียงคำราม ข้าคว้าคอเสื้อของคนร้ายและเหวี่ยง[ROOT.Char.GetHerHim]กระแทกกำแพง ที่เหลือเป็นภาพเบลอ\n\nเมื่ออันตรายผ่านพ้นไป ข้าหันไปหา[target.GetHerHim]"
+ court_outcome.1101.target_fights.desc:0 "ภาพที่ข้าเห็นไม่ใช่สิ่งที่ข้าคาดหวัง เฟอร์นิเจอร์ล้มระเนระนาด ม่านขาดวิ่น และ [target.GetFirstName] ยืนคร่อมร่างไร้การเคลื่อนไหวพร้อมกริชเปื้อนเลือดในมือของ[target.GetHerHis]\n\n"
+ court_outcome.1101.end.desc: "\"[target.GetFirstNameNoTooltip] ท่านเป็นอะไรหรือไม่?\" ข้าถามอย่างระมัดระวัง ราวกับคำพูดของข้าเป็นคาถา ในที่สุด [target.GetSheHe] ก็คลายจากอาการตัวแข็ง และโผตัว[target.GetHerselfHimself]เข้าสู่อ้อมแขนของข้า \"ขอบคุณ [target.GetFaith.HighGodName] ที่ท่านอยู่ที่นี่ [ROOT.Char.GetFirstNameNoTooltip]!\""
+ court_outcome.1101.a:0 "ข้าจะไม่มีวันปล่อยให้ท่านตกอยู่ในอันตรายอีก!"
+
+ # OWNER FAILURE: Target was fine without your help/is scared 
+ court_outcome.1102.end.desc:0 ""ท่านมาทำอะไรที่นี่?!" [target.GetSheHe] ถาม เสียงของ[target.GetHerHis]สั่นเครือ ข้ายกมือขึ้น เป็นท่าทางแสดงสันติ แต่[target.GetSheHe]ชักกริชของ[target.GetHerHis]ออกมา "อย่าเข้ามาใกล้กว่านี้! ไปเสียเดี๋ยวนี้ มิฉะนั้นข้า #EMP จะ#! ทำร้ายท่าน!""
+ court_outcome.1102.a:0 "ข้าแค่พยายามจะช่วย!"
+
+ # OWNER FAILURE: Target has another lover...
+ court_outcome.1103.desc:0 "เสียงจากการต่อสู้ด้านบนเป็นแรงกระตุ้นที่ยิ่งใหญ่ที่สุดที่ข้าเคยรู้จัก ก่อนที่ข้าจะมีโอกาสวางแผน ข้าก็ไปถึงหน้าต่าง ข้าปีนขึ้นไป — แต่ภาพตรงหน้าข้าไม่ใช่สิ่งที่ข้าคาดหวัง\n\n[target.GetTitledFirstName] ไม่ได้กำลัง... #EMP ต่อสู้ขัดขืน#! เสียทีเดียว ไม่เลย [target.GetSheHe]ดูเหมือนจะกำลังเพลิดเพลินกับ[target.GetHerselfHimself]อย่างแท้จริง — ร่วมกับ [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]"
+
+ # TARGET SUCCES: is informed about outcome
+ court_outcome.1105.t:0 "ผู้บุกรุก"
+ court_outcome.1105.start.desc:0 "#EMP โครม!#! ข้า... ข้าอยู่ที่ไหน? เกิดอะไรขึ้น? ข้ามองฝ่าความมืด ดวงตาปรับสภาพ #EMP [ROOT.Char.GetFaith.HighGodName]#! มีใครบางคนอยู่ที่หน้าต่างห้องนอนของข้า\n\n"
+ court_outcome.1105.owner_fights.desc:0 "ข้าตะเกียกตะกายลงจากเตียงและวิ่งไปที่ประตู แต่ผู้บุกรุกเร็วกว่า [owner.GetSheHe|U] คว้าแขนข้า ดึง และข้าก็ล้มลง ก่อนที่ข้าจะกรีดร้องได้ มือก็ปิดปากข้า\n\n"ฟังให้ดี [ROOT.Char.GetTitleAsNameNoTooltip] ถ้าเจ้าทำตามที่ข้าบอก จะไม่มีใครต้อง—" คำพูดของ[owner.GetHerHis|U]กลายเป็นเสียงครืดคราดเมื่อกริชเล่มหนึ่งแทงลึกเข้าไปในคอของ[owner.GetHerHis]\n\n"[target.GetFirstNameNoTooltip] ท่านเป็นอะไรหรือไม่?" ข้าจำเสียงนั้นได้ทุกที่ ผู้ช่วยชีวิตของข้าไม่ใช่ใครอื่นนอกจาก [owner.GetTitledFirstName]!"
+ court_outcome.1105.target_fights.desc:0 "ข้าตะเกียกตะกายลงจากเตียง เอื้อมมือไปหยิบกริชบนโต๊ะข้างเตียง ผู้บุกรุกคว้าแขนข้า ดึง และข้าก็หมุนตัว — แทงใบมีดลึกเข้าไปในท้องของ[owner.GetHerHis] [owner.GetSheHe|U] มองข้าเป็นเวลาชั่วขณะที่ยาวนานไม่รู้จบ ริมฝีปากของ[owner.GetHerHis]ขยับโดยไม่มีเสียง จากนั้น[owner.GetSheHe]ก็ล้มลงกับพื้น\n\n"[target.GetFirstNameNoTooltip] ท่านเป็นอะไรหรือไม่?" ข้างหน้าต่างไม่ใช่ใครอื่นนอกจาก [owner.GetTitledFirstName] ยืนอยู่พร้อมใบมีดในมือ พร้อมที่จะปกป้องข้า ข้าโผเข้าสู่อ้อมแขนของ[owner.GetHerHis]และ[owner.GetSheHe]ก็กอดข้าไว้แน่น"
+ court_outcome.1105.a:0 "โอ้ ยอดรักของข้า! อย่าปล่อยให้ข้าคลาดสายตาท่านอีกเลย!"

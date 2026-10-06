@@ -1,0 +1,10 @@
+﻿l_english: 
+ ##################################################
+ # KOREA DECISIONS 
+ ##################################################
+ # Unify Goryeo
+ tgp_korea_unify_goryeo_decision: "รวมฮูซัมกุก" # 후삼국
+ tgp_korea_unify_goryeo_decision_desc: "เหล่าประชาราษฎร์แห่งสามอาณาจักร ชิลลา แพ็กเจ และโคกูรยอ จำต้องรวมกันเป็นหนึ่งเดียวในท้ายที่สุด และหันคมหอกของเราออกไปสู่ภายนอก หากเราจะฝ่าฟันพายุแห่งประวัติศาสตร์"
+ tgp_korea_unify_goryeo_decision_tooltip: "รวมสามอาณาจักรหลัง"
+ tgp_korea_unify_goryeo_decision_confirm: "$tgp_korea_unify_goryeo_decision$"
+ tgp_korea_unify_goryeo_decision_no_other_korean_kingdoms_tt: "[GetTitleByKey('k_silla').GetNameNoTier], [GetTitleByKey('k_goguryeo').GetNameNoTier], [GetTitleByKey('k_baekje').GetNameNoTier] ถูกถือครองหรือยังไม่ได้ถูกสถาปนา"

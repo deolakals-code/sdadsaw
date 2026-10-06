@@ -1,0 +1,8 @@
+﻿l_english: 
+ feast_mkc.0001.t: "เพียงลำพังกับความทรงจำ"
+ feast_mkc.0001.desc: "แม้จะมีงานรื่นเริงและความสนุกสนานในโถง ข้าก็สังเกตเห็นแขกคนหนึ่งของข้า [guest_lost_loved_pet.GetShortUIName] อยู่ตามลำพังที่มุมห้องกับ [ROOT.Char.Custom('CatStoryName')] แมวของข้า [ROOT.Char.Custom('CatStorySheHe')|U] ขดตัวอย่างสงบบนตักของ [guest_lost_loved_pet.GetShortUINamePossessiveNoTooltipNoFormat] ส่งเสียงครางในลำคอ ขณะที่ [guest_lost_loved_pet.GetFirstNameNoTooltip] ลูบขน [ROOT.Char.Custom('CatFurColor')] ของ [ROOT.Char.Custom('CatStoryHerHis')] อย่างแผ่วเบา\n\n"[ROOT.Char.Custom('CatStorySheHe')|U] ทำให้ข้านึกถึงแมวตัวเก่าของข้าเหลือเกิน" [guest_lost_loved_pet.GetSheHe] พึมพำ น้ำตาคลอเบ้าตาของ [guest_lost_loved_pet.GetHerHis]"
+ feast_mkc.0001.a: "ใช้เวลาโศกเศร้าไปด้วยกันเรื่องแมวของ [guest_lost_loved_pet.GetFirstNameNoTooltip]"
+ feast_mkc.0001.b: "ข้าต้องทะนุถนอมเวลาของข้ากับ [ROOT.Char.Custom('CatStoryName')] ให้มากยิ่งขึ้น"
+ feast_helped_overcome_loss_opinion: "ช่วยปลอบประโลมความเศร้าโศกจากการสูญเสียสัตว์เลี้ยงของข้า"
+ feast_sympathy_over_loss_opinion: "ช่วยให้ก้าวผ่านความสูญเสียสัตว์เลี้ยงไปได้"
+ bonus_to_petting_pet_tt: "เมื่อท่านลูบแมวของท่าน ท่านจะสูญเสีย [stress|E] มากขึ้น"

@@ -1,0 +1,21 @@
+﻿l_english: 
+ # 
+ CULTURAL_ACCEPTANCE_IS:0 "[cultural_acceptance|E] ระหว่าง [CULTURE.GetName|U] และ [TARGET_CULTURE.GetName|U] คือ $NUM|V0$"
+ CULTURAL_ACCEPTANCE_IS_NOT:0 "[cultural_acceptance|E] ระหว่าง [CULTURE.GetName|U] และ [TARGET_CULTURE.GetName|U] #bold ไม่#!คือ $NUM|V0$"
+ GLOBAL_CULTURAL_ACCEPTANCE_IS:0 "[cultural_acceptance|E] ของ [CULTURE.GetName|U] คือ $NUM|V0$"
+ GLOBAL_CULTURAL_ACCEPTANCE_IS_NOT:0 "[cultural_acceptance|E] ของ [CULTURE.GetName|U] #bold ไม่#!คือ $NUM|V0$"
+
+ CULTURAL_ACCEPTANCE_IS_AT_LEAST:0 "[cultural_acceptance|E] ระหว่าง [CULTURE.GetName|U] และ [TARGET_CULTURE.GetName|U] มีค่าอย่างน้อย $NUM|V0$"
+ CULTURAL_ACCEPTANCE_IS_LESS_THAN:0 "[cultural_acceptance|E] ระหว่าง [CULTURE.GetName|U] และ [TARGET_CULTURE.GetName|U] มีค่าน้อยกว่า $NUM|V0$"
+ GLOBAL_CULTURAL_ACCEPTANCE_IS_AT_LEAST:1 "[cultural_acceptance|E] ของ [TARGET_CULTURE.GetName|U] มีค่าอย่างน้อย $NUM|V0$"
+ GLOBAL_CULTURAL_ACCEPTANCE_IS_LESS_THAN:1 "[cultural_acceptance|E] ของ [TARGET_CULTURE.GetName|U] มีค่าน้อยกว่า $NUM|V0$"
+
+ CULTURE_AGE_IS:0 "[CULTURE.GetName|U] มีอายุ $NUM|V0$ ปี"
+ CULTURE_AGE_IS_NOT:0 "[CULTURE.GetName|U] #bold ไม่#!มีอายุ $NUM|V0$ ปี"
+ GLOBAL_CULTURE_AGE_IS:0 "[culture|E] มีอายุ $NUM|V0$ ปี"
+ GLOBAL_CULTURE_AGE_IS_NOT:0 "[culture|E] #bold ไม่#!มีอายุ $NUM|V0$ ปี"
+
+ CULTURE_AGE_IS_AT_LEAST:0 "[CULTURE.GetName|U] มีอายุอย่างน้อย $NUM|V0$ ปี"
+ CULTURE_AGE_IS_LESS_THAN:0 "[CULTURE.GetName|U] มีอายุน้อยกว่า $NUM|V0$ ปี"
+ GLOBAL_CULTURE_AGE_IS_AT_LEAST:0 "[culture|E] มีอายุอย่างน้อย $NUM|V0$ ปี"
+ GLOBAL_CULTURE_AGE_IS_LESS_THAN:0 "[culture|E] มีอายุน้อยกว่า $NUM|V0$ ปี"

@@ -1,0 +1,24 @@
+﻿l_english: 
+ #Become Greatest of Khans
+ become_greatest_of_khans_decision:0 "ขึ้นเป็นมหาข่าน"
+ become_greatest_of_khans_decision_desc:0 "#F ข้าพร้อมแล้วที่จะเรียกผู้นำเผ่าทุกคนจากทั่วทั้งอาณาจักรอันกว้างใหญ่ไพศาลของข้ามาประชุม พวกเขาจะประกาศให้ข้าเป็นข่านเหนือข่าน เป็น [ROOT.Char.GetLadyLord|U] แห่งทุกสิ่งภายใต้ผืนฟ้า\nจากนั้น เราจะพิชิต#!"
+ become_greatest_of_khans_decision_tooltip:0 "ก่อตั้งจักรวรรดิมองโกลและขึ้นเป็นเจงกิสข่าน–ผู้ปกครองโลก"
+ become_greatest_of_khans_decision_confirm:0 "เรียกประชุมมหาคุรุลไต"
+ become_greatest_of_khans_decision_gain_mongol_empire:1 "อาณาจักรของท่านกลายเป็น [mongol_empire|E]"
+ become_greatest_of_khans_decision_enable_mongol_invasion_cb:1 "ท่านเข้าถึง [mongol_invasion_casus_belli|E]"
+ GREATEST_OF_KHANS_TITLE_REQUIREMENT:1 "ท่านต้องมียศระดับ [king|E] หรือ [emperor|E]"
+
+ #Establish Bactrian Supremacy
+ establish_bactrian_supremacy_decision:0 "สถาปนาความยิ่งใหญ่แห่งแบกเตรีย"
+ establish_bactrian_supremacy_decision_desc:0 "#F เป็นเวลาหลายชั่วอายุคน กษัตริย์แห่งแบกเตรียได้ครอบครองสี่แยกแห่งอารยธรรม ถึงเวลาแล้วที่จะรับช่วงต่อภาระหน้าที่ของพวกเขา และให้ข่าวสารแพร่กระจายจากคาราวานซารายสูโอเอซิสว่า ณ ที่แห่งนี้ ภายใต้สี่มุมฟ้า พวกเราคือผู้ปกครอง#!"
+ establish_bactrian_supremacy_decision_tooltip:0 "แสดงอำนาจเหนือเส้นทางการค้าที่เชื่อมต่อตะวันออกและตะวันตก เหนือและใต้"
+ establish_bactrian_supremacy_decision_confirm:0 "อ้างสิทธิ์ในดินแดนแห่งบรรพชน!"
+
+ #Establish the Yamagate of Samarkand
+ establish_yamagate_in_samarkand_decision:0 "สถาปนา $manichean_religious_head_title_name$ ในซามาร์กันต์"
+ establish_yamagate_in_samarkand_decision_desc:0 "#F เช่นเดียวกับที่มาร์ ซิซิน เคยนำศรัทธาในสันตะสำนักแห่งบาบิโลน $manichean_religious_head_title$ องค์ปัจจุบันของเราก็นำทางเรา ณ ที่นี่ในทูรานและเปอร์เซีย ด้วยการทำให้ศาสนจักรมีอำนาจอันศักดิ์สิทธิ์อย่างเป็นทางการในซามาร์กันต์ ศาสนามาณีกีจะถือกำเนิดใหม่และเผยแผ่ไปยังผู้คนกลุ่มใหม่!#!"
+ establish_yamagate_in_samarkand_decision_tooltip:1 "อ้างสิทธิ์ในดินแดนศักดิ์สิทธิ์แห่งใหม่ในแดนตะวันออก"
+ establish_yamagate_in_samarkand_decision_confirm:0 "$manichean$ ถือกำเนิดใหม่อีกครั้ง!"
+
+ hof_exists_tt:1 "[head_of_faith|E] ของท่านมีอยู่แล้ว"
+ samarkand_held_by_you_or_vassal_tt:0 "$c_samarkand$ ต้องถูกถือครองโดยท่านหรือ [vassal|E]"

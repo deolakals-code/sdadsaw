@@ -1,0 +1,15 @@
+﻿l_english: 
+
+ # Fund Inspiration Loc
+ fund_inspiration_interaction:1 "อุปถัมภ์แรงบันดาลใจ"
+ fund_inspiration_interaction_desc:2 "อุปถัมภ์ [inspiration|E] ของ [recipient.GetShortUINamePossessiveNoTooltip] เพื่อเริ่ม [project|E] ที่อาจนำไปสู่การที่ท่านได้รับ [artifact|E]\n\nคุณภาพของสิ่งประดิษฐ์ล้ำค่าที่เป็นไปได้และค่าใช้จ่ายในการอุปถัมภ์จะแตกต่างกันไปตามทักษะของ [recipient.GetHerHis]"
+ fund_inspiration_interaction_reqruit_family_tooltip:0 "[recipient.GetShortUIName|U] และครอบครัวของ [recipient.GetHerHis]"
+
+ # Indebt Guest Loc
+ indebt_guest_interaction:0 "ทำให้แขกเป็นหนี้"
+ indebt_guest_interaction_desc:0 "ให้ [Concept('court_amenities','Servants')|E] ของท่านเป็นพยานถึงรายการค่าใช้จ่ายมากมายที่เกิดขึ้นระหว่างการพำนักของ [recipient.GetShortUINamePossessive] #EMP จากนั้น#! เสนอทางออกให้พวกเขา..."
+ indebt_guest_interaction.tt.direct_indebted_guest:0 "ท่านจะมีโอกาสสั่งให้ [recipient.GetTitledFirstName] ไปที่ใดที่หนึ่ง"
+ indebt_guest_interaction.tt.failure:0 "[recipient.GetTitledFirstName] จะไม่ยอมถูกกดดันและหลบหนีไป"
+ INDEBT_GUEST_INTRIGUE_ACTOR:0 "[intrigue|E] ของ [actor.GetShortUINamePossessive|U]: $VALUE|=+0$"
+ INDEBT_GUEST_INTRIGUE_RECIPIENT:0 "[intrigue|E] ของ [recipient.GetShortUINamePossessive|U]: $VALUE|=+0$"
+ INDEBT_GUEST_CURRENT_CGV_ABOVE_EXPECTED:0 "[court_grandeur|E] ส่วนเกินของ [recipient.GetShortUINamePossessive|U]: $VALUE|=+0$"

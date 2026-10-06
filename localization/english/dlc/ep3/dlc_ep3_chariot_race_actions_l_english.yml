@@ -1,0 +1,8 @@
+﻿l_english: 
+ 
+ apa_cheering_on_competitors_title: "[first.GetShortUIName|U] และ [second.GetShortUIName|U] ผูกสัมพันธ์กัน เพราะนักแข่งรถม้าคนโปรด"
+ apa_thunderous_applause_title: "[first.GetShortUIName|U] ได้รับกำลังใจจากเสียงปรบมือดังกึกก้องของฝูงชน จึงแซงหน้า [second.GetShortUIName|U]"
+ apa_celebrating_unexpected_overtake_title: "[first.GetShortUIName|U] แซงหน้า [second.GetShortUIName|U]"
+ apa_exchanging_race_commentary_title: "[first.GetShortUIName|U] และ [second.GetShortUIName|U] ร่วมรักกัน หลังได้รับแรงบันดาลใจจากความเร่าร้อนของการแข่งขัน"
+ apa_forging_alliances_title: "[apa_target.GetShortUIName|U] ขยายอิทธิพลทางการเมืองของ[apa_target.GetHerHis]"
+ apa_donates_to_the_poor_title: "[first.GetShortUIName|U] บริจาคให้แก่ [Glossary( 'ฮอย โพลลอย', 'HOI_POLLOI_GLOSS' )]"

@@ -1,0 +1,76 @@
+﻿l_english: 
+
+ sex_scene_text:0 "[ROOT.Char.Custom2('sex_scene_part_1' , SCOPE.sC('second') )] [ROOT.Char.Custom2('sex_scene_part_2' , SCOPE.sC('second') )]\n\n[ROOT.Char.Custom2('sex_scene_part_3' , SCOPE.sC('second') )]\n\n[ROOT.Char.Custom2('sex_scene_ending' , SCOPE.sC('second') )]"
+
+ sex_scene_part_1_location:0 "[ROOT.Char.Custom2('sex_scene_part_1_location' , SCOPE.sC('second') )]"
+ sex_scene_part_1_random:0 "[ROOT.Char.Custom2('sex_scene_part_1_random' , SCOPE.sC('second') )]"
+
+ sex_scene.0001.t:0 "ชั่วขณะร่วมกัน"
+ sex_scene.0001.opening_1:1 "ข้าพเจ้ากอด [second.GetHerHim] – ร่างกาย [scope.GetHerHis] แนบชิดกับข้าพเจ้าอย่างกระตือรือร้น ลมหายใจ [second.GetHerHis] หนักหน่วงที่ข้างหูข้าพเจ้า"
+ sex_scene.0001.opening_2:1 "ผิวเนื้อแนบเนื้อ – ไม่มีสิ่งใดขวางกั้นระหว่างร่างกายของเราขณะที่เราเอื้อมมือหากัน"
+ sex_scene.0001.opening_3:1 "ดวงตา [second.GetHerHis|U] ลุกโชนด้วยตัณหาขณะจ้องมองเข้ามาในดวงตาข้าพเจ้า ขณะไล่สายตาลงมาตามร่างกายข้าพเจ้า ขณะที่เสื้อผ้าข้าพเจ้าหลุดลุ่ย"
+ sex_scene.0001.opening_4:1 ""แสดงให้ข้าเห็นว่าท่านรู้สึกอย่างไร" [second.GetSheHe] กระซิบ ลมหายใจหนักหน่วง ขณะที่ [second.GetSheHe] คลายเชือก [ROOT.GetCharacter.Custom('GetClothingArticle')] ของข้าพเจ้า"
+ sex_scene.0001.opening_5:0 "เมื่อผิวเนียนนุ่มเป็นอิสระจากอาภรณ์ คลื่นแห่งความปรารถนาอันรุนแรงฉับพลันก็พุ่งพล่านในตัวข้าพเจ้า"
+ sex_scene.0001.opening_6:1 "โอษฐ์ [second.GetHerHis|U] ริมฝีปากอันอ่อนนุ่มนั้น ลิ้นที่เสาะแสวงหานั้น ดวงตา [second.GetHerHis|U] ยิ้มให้ข้าพเจ้า"
+ sex_scene.0001.opening_7:1 "เมื่อเห็น [second.GetHerHim] อยู่เบื้องหน้า ความต้องการนั้นยิ่งใหญ่เกินกว่าจะควบคุมได้"
+ sex_scene.0001.opening_8:1 "ไม่เคยมีเสียงใดปลุกเร้าตัณหาในตัวข้าพเจ้าได้เท่ากับถ้อยคำที่ [second.GetSheHe] กระซิบที่ข้างหูข้าพเจ้าในตอนนี้"
+
+ sex_scene.0001.second_1:1 "ข้าพเจ้ารู้สึกถึงความหิวกระหายในสัมผัส [second.GetHerHis] แผดเผาบนผิวหนังข้าพเจ้า"
+ sex_scene.0001.second_2:1 "เสียงครางเรียกชื่อข้าพเจ้า [second.GetHerHis|U] ดังขึ้นเรื่อยๆ ขณะที่การเคลื่อนไหวของเราบ้าคลั่งมากขึ้น"
+ sex_scene.0001.second_3:1 "ระหว่างจุมพิตอันเร่าร้อน ลมหายใจหนักหน่วง และหัวใจที่เต้นระรัว ไม่มีพรมแดนระหว่างความสุข [second.GetHerHis] กับของข้าพเจ้า"
+ sex_scene.0001.second_4:1 "[second.GetSheHe|U] เอื้อมมืออันอ่อนโยนมาโอบรอบคอข้าพเจ้า ดึงริมฝีปากข้าพเจ้าเข้ามาใกล้ ชั่วขณะหนึ่งข้าพเจ้าขัดขืน แต่เพียงชั่วขณะเท่านั้น"
+ sex_scene.0001.second_5:0 "ไม่มีความลังเล ไม่มีการหน่วงเหนี่ยว ไม่มีเวลาสำหรับความอ่อนโยน มีเพียงความปรารถนาของข้าพเจ้าเท่านั้น"
+ sex_scene.0001.second_6:1 "ปลายนิ้วที่ลากไล้เบาๆ ไปทั่วร่าง [second.GetHerHis] ทำให้ [second.GetHerHim] บิดตัวและดิ้นรนภายใต้สัมผัสของข้าพเจ้า แอ่นกายขึ้นเพื่อต้องการมากกว่าเดิม"
+ sex_scene.0001.second_7:1 "ความปรารถนาอันเจ็บปวดของเรามาบรรจบกัน และด้วยการผลักดันอันราบรื่นเพียงครั้งเดียว เราก็กลายเป็นหนึ่งเดียว"
+ sex_scene.0001.second_8:1 "[second.GetSheHe|U] บดเบียดกับข้าพเจ้า ร่างกาย [second.GetHerHis] ร้องขอการปลดปล่อยบางอย่าง"
+ sex_scene.0001.second_9:1 "[second.GetSheHe|U] นำทางมือข้าพเจ้าลงไประหว่างขา [second.GetHerHis] เพื่อแสดงให้ข้าพเจ้าเห็นว่า [second.GetSheHe] [second.Custom('wet_hard')] เพียงใด"
+
+ sex_scene.0001.third_1:0 "ความเข้มข้นกลืนกินเราทั้งคู่ โลกหมุนรอบแกนที่มีศูนย์กลางอยู่ที่ช่วงเวลานี้"
+ sex_scene.0001.third_2:1 "ข้าพเจ้ารู้ว่าในชั่วขณะนี้ [second.GetSheHe] เป็นของข้าพเจ้า และเป็นของข้าพเจ้า แต่เพียงผู้เดียว..."
+ sex_scene.0001.third_3:1 "ขนลุกซู่บนผิว [second.GetHerHis] ขณะที่ข้าพเจ้าปล่อยให้ปลายนิ้วลากไล้เบาๆ ไปทั่วร่าง [second.GetHerHis] ในไม่ช้า สัมผัสก็หนักแน่นขึ้น และหิวกระหายมากขึ้น กำแน่น"
+ sex_scene.0001.third_4:0 "ข้าพเจ้าดำเนินต่อไป ผ่านพ้นจุดแห่งความเหนื่อยล้าหรือเหตุผลใดๆ ไม่มีสิ่งใดนอกจากเราสองคน"
+ sex_scene.0001.third_5:1 "ไม่เคยมีใคร ทำให้ข้าพเจ้ารู้สึก เช่นนี้มาก่อน [second.GetSheHe|U] ยิ้มลงมาที่ข้าพเจ้า [second.GetSheHe|U] รู้"
+ sex_scene.0001.third_6:1 "ข้าพเจ้าคิดว่าข้ารู้วิธีดับไฟนี้ แต่ [second.GetSheHe] กลับ ทำให้มันลุกโชนรุนแรงยิ่งขึ้น จนกระทั่งมันยิ่งใหญ่เกินกว่าที่ใครจะต้านทานได้"
+
+ sex_scene_ending_location:0 "[ROOT.Char.Custom2('sex_scene_ending_location' , SCOPE.sC('second') )]"
+ sex_scene_ending_random:0 "[ROOT.Char.Custom2('sex_scene_ending_random' , SCOPE.sC('second') )]"
+
+ sex_scene.0001.last_1:1 "หลังจากนั้น ข้าพเจ้าเคลื่อนมือลูบไล้ไปทั่วร่าง [second.GetHerHis] อย่างอ่อนโยน"
+ sex_scene.0001.last_2:1 "ชุ่มโชกไปด้วยเหงื่อของเราทั้งคู่ [second.GetSheHe] ยอมจำนนและทรุดตัวลงบนร่างข้าพเจ้า"
+ sex_scene.0001.last_3:1 "เมื่อเราแยกจากกันในที่สุด ข้าพเจ้าเห็นความทรงจำแห่งความสุขฉายวาบในดวงตา [second.GetHerHis] เป็นภาพสะท้อนของข้าพเจ้า"
+ sex_scene.0001.last_4:0 "ด้วยจุมพิตสุดท้ายอันดูดดื่มทุกสิ่ง มันจบลง ชั่วขณะนี้จะหวนกลับมาในความฝันตลอดชีวิตที่เหลือของข้าพเจ้า"
+ sex_scene.0001.last_5:1 "[second.GetSheHe|U] ดูเหมือนจะเขินอายเมื่อเราแยกจากกัน ช่างเป็นความแตกต่างที่มีเสน่ห์กับความเร่าร้อนที่เราเพิ่งแบ่งปันกัน"
+ sex_scene.0001.last_6:1 "เมื่อ [second.GetSheHe] เดินจากไป [second.GetSheHe] เหลือบมองกลับมาที่ข้าพเจ้า [second.GetSheHe|U] กัดริมฝีปาก [second.GetHerHis] ด้วยรอยยิ้มอันเปี่ยมรัก"
+ sex_scene.0001.a:1 "ไว้พบกันใหม่ [second.GetFirstNameNoTooltip]"
+
+ #Localised in a place
+ #sex_scene.0003
+ #Garden
+ sex_scene.0003.opening_garden_1:1 "[second.Custom2('RelationToMe', SCOPE.sC('second'))] ของข้าพเจ้ามาหาข้าพเจ้าขณะที่ข้าพเจ้ากำลังเดินเล่นอยู่ในสวน กลิ่นกาย [second.GetHerHis] ผสมผสานกับความหอมหวานของดอกไม้"
+ sex_scene.0003.conclusion_garden_1:1 "[second.GetSheHe|U] ทิ้งข้าพเจ้าไว้เบื้องหลังพุ่มไม้อย่างพึงพอใจและสงบสุข"
+
+ #Private chambers
+ sex_scene.0003.opening_private_chambers_1:1 "ด้วยหัวใจที่เต้นระรัว ข้าพเจ้าปลดล็อกประตู เพื่อให้ [second.GetHerHim] เข้ามาในห้องส่วนตัวของข้าพเจ้า"
+ sex_scene.0003.conclusion_private_chambers_1:0 "หลายชั่วโมงต่อมา เรายังคงลากปลายนิ้วลูบไล้เป็นลวดลาย เขียนข้อความแห่งรักบนผิวหนังของกันและกัน"
+
+ #The Stables
+ sex_scene.0003.opening_stables_1:1 "เรื่องอื้อฉาวคงเกิดขึ้นหากข้าพเจ้าถูกจับได้ว่าอยู่กับ [second.Custom2('RelationToMe', SCOPE.sC('second'))] ของข้าพเจ้า แต่ไม่มีใครอื่นอยู่ในคอกม้าในเย็นวันนั้น"
+ sex_scene.0003.conclusion_stables_1:0 "ข้าพเจ้าได้ แต่หวังว่าเสียงครางแห่งความปรารถนาของเราจะถูกกลบด้วยเสียงกระทืบเท้าและเสียงร้องของม้า"
+
+#A copse
+ sex_scene.0003.opening_copse_1:1 "ข้าพเจ้าพบ [second.Custom2('RelationToMe', SCOPE.sC('second'))] ของข้าพเจ้าในป่าละเมาะไม่ไกลจาก [second.Custom('ResidenceBuilding')] หัวใจข้าพเจ้าเต้นระรัว แม้จะรู้ว่าไม่มีใครเห็นเราที่นั่น..."
+ sex_scene.0003.conclusion_copse_1:1 "ชั่วครู่หลังจาก [second.GetSheHe] จากไป หญ้าที่ข้าพเจ้านอนอยู่ยังคงเก็บความอบอุ่น [second.GetHerHis] ไว้"
+
+#The kitchen
+ sex_scene.0003.opening_kitchen_1:1 "คนรับใช้อาจเข้ามาในครัวได้ทุกเมื่อ! ข้าพเจ้าเกือบจะคัดค้านเมื่อ [second.GetSheHe] ดึงข้าพเจ้าไปยังเคาน์เตอร์ ดึงทึ้ง [second.Custom('GetClothingArticle')] ของข้าพเจ้า แต่เพียงเกือบเท่านั้น"
+ sex_scene.0003.conclusion_kitchen_2:1 "หลายชั่วโมงต่อมา ข้าพเจ้ายังคงรู้สึกถึงความเหนียวเหนอะหนะของครีมที่ [second.GetSheHe] เทราดลงบนหน้าอกข้าพเจ้า"
+ sex_scene.0003.conclusion_kitchen_3:0 "มันช่างเป็นความตื่นเต้นเร้าใจ แม้จะสั้นเพียงใดก็ตาม อย่างไรก็ตาม ข้าพเจ้าอาจจะงดสตูว์วันพรุ่งนี้"
+
+
+ #Custom loc
+ bodypart_localising_chest:0 "ในอกของท่าน"
+ bodypart_localising_loins:0 "ในบั้นเอวของท่าน"
+ bodypart_localising_skin:0 "บนผิวของท่าน"
+ wet:0 "เปียกชื้น"
+ hard:0 "แข็งขึง"
+

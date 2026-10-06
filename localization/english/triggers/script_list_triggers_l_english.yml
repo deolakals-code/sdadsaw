@@ -1,0 +1,47 @@
+﻿l_english: 
+
+ ALL_CLAIMANTS:0 "ผู้อ้างสิทธิ์[claimants|E]ทั้งหมด"
+ ANY_CLAIMANT:0 "ผู้อ้างสิทธิ์[claimant|E]ใดๆ"
+ NOT_ANY_CLAIMANT: "ตำแหน่งยศไม่มี [claimants|E]"
+
+ ANY_CHILD:0 "บุตรใดๆ:"
+ ANY_CHILD_FIRST:0 "บุตรใดๆ ของข้า:"
+ ANY_CHILD_THIRD:0 "บุตรใดๆ ของ [CHARACTER.GetShortUINamePossessive]:"
+ ALL_CHILDREN:0 "บุตรทั้งหมด:"
+ ALL_CHILDREN_FIRST:0 "บุตรทั้งหมดของข้า:"
+ ALL_CHILDREN_THIRD:0 "บุตรทั้งหมดของ [CHARACTER.GetShortUINamePossessive]:"
+ COUNT_EQ_CHILDREN:0 "บุตร $COUNT$ คนพอดี:"
+ COUNT_EQ_CHILDREN_THIRD:0 "บุตร $COUNT$ คนพอดีของ [CHARACTER.GetShortUINamePossessive]:"
+ COUNT_GT_EQ_CHILDREN:0 "บุตร $COUNT$ คน:"
+ COUNT_GT_EQ_CHILDREN_THIRD:0 "บุตร $COUNT$ คนของ [CHARACTER.GetShortUINamePossessive]:"
+
+ ALL_COURTIERS:0 "ข้าราชสำนักทั้งหมด:"
+ ANY_COURTIERS:0 "ข้าราชสำนักใดๆ:"
+ ALL_OF_MY_COURTIERS:0 "ข้าราชสำนักทั้งหมดของข้า:"
+ ANY_OF_MY_COURTIERS:0 "ข้าราชสำนักใดๆ ของข้า:"
+ ALL_OF_THEIR_COURTIERS:0 "ข้าราชสำนักทั้งหมดของ [CHARACTER.GetShortUINamePossessive]:"
+ ANY_OF_THEIR_COURTIERS:0 "ข้าราชสำนักใดๆ ของ [CHARACTER.GetShortUINamePossessive]:"
+ AT_LEAST_COURTIERS: "$PARAMETERS$ [courtiers|E]:"
+ AT_LEAST_OF_MY_COURTIERS: "$PARAMETERS$ คนของ [courtiers|E] ของ [CHARACTER.GetShortUINamePossessive]:"
+ AT_LEAST_OF_THEIR_COURTIERS: "$PARAMETERS$ ของข้าราชสำนัก[courtiers|E]ของ [CHARACTER.GetShortUINamePossessive]:"
+
+ ALL_HOOKED_CHARACTERS:0 "ตัวละครที่[hooked|E]ทั้งหมด"
+ ANY_HOOKED_CHARACTER:0 "ตัวละครที่[hooked|E]ใดๆ"
+ ALL_OF_THEIR_HOOKED_CHARACTERS:0 "ตัวละครที่ติดเบ็ดทั้งหมดของ [CHARACTER.GetShortUINamePossessive]:"
+ ANY_OF_THEIR_HOOKED_CHARACTERS:0 "ตัวละครที่ติดเบ็ดใดๆ ของ [CHARACTER.GetShortUINamePossessive]:"
+
+ ANY_FAITH_HOLY_SITE:0 "[holy_site|E] [FAITH.GetAdjective] ใดๆ"
+
+ ANY_HELD_TITLE:0 "ตำแหน่ง[title|E]ที่ถือครองใดๆ:"
+ ANY_OF_MY_HELD_TITLES:0 "ตำแหน่ง[titles|E]ที่ข้าถือครองใดๆ:"
+ ANY_HELD_TITLE_COUNT:0 "$PARAMETERS$ ตำแหน่ง[titles|E]ที่ถือครอง:"
+ ANY_OF_MY_HELD_TITLES_COUNT:0 "$PARAMETERS$ ของตำแหน่ง[titles|E]ที่ข้าถือครอง:"
+ ANY_HELD_TITLE_PERCENT:0 "$PARAMETERS$ ตำแหน่ง[titles|E]ที่ถือครอง:"
+ ANY_OF_MY_HELD_TITLES_PERCENT:0 "$PARAMETERS$ ของตำแหน่ง[titles|E]ที่ข้าถือครอง:"
+
+ ANY_WARDEN_HOSTAGE: "ตัวประกัน[hostage|E]ใดๆ:"
+ ANY_WARDEN_HOSTAGE_FIRST: "ตัวประกัน[hostages|E]ใดๆ ของข้า:"
+ ANY_WARDEN_HOSTAGE_THIRD: "ตัวประกัน[hostages|E]ใดๆ ของ [CHARACTER.GetShortUINamePossessive]:"
+
+ ANY_CONFEDERATION_MEMBER_HOUSE_COUNT:0 "$PARAMETERS$ [member_houses|E] ของ [bloc|E]:"
+ ANY_CONFEDERATION_MEMBER_HOUSE_PERCENT:0 "$PARAMETERS$ ของ [member_houses|E] ใน [bloc|E]:"

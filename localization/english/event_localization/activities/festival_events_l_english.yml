@@ -1,0 +1,510 @@
+﻿l_english: 
+
+ festival.001.t: "พลัดหลงในฝูงชน"
+ festival.001.desc: "เมื่อสังเกตฝูงชนที่มาร่วมเฉลิมฉลอง ข้าพเจ้ายินดีที่พบว่าเปี่ยมไปด้วยเสียงหัวเราะของเด็กๆ และรอยยิ้มอิ่มเอมใจของผู้เป็นพ่อแม่ ทว่า การเคลื่อนไหวที่ผิดแผกและกะทันหันกลับสะดุดตาข้า เล็กเกินกว่าจะเป็นเด็ก และ... #EMP ขนปุย#!?\n\nดูเหมือนว่าจะเป็นลูกสุนัขตัวหนึ่ง กำลังเดินกะเผลกระหว่างฝีเท้าของยักษ์ใหญ่ พลัดหลงและเดียวดาย"
+ festival.001.a.tt: "#weak หาบ้านใหม่ให้เจ้าลูกหมานี่กัน #!"
+ festival.001.a: "มานี่เถิด เจ้าตัวเล็ก แล้วเจ้าจะได้รับการดูแลอย่างดี"
+ festival.001.b: "ชะตากรรมของมันมิใช่ธุระกงการใดของข้า"
+ festival.001.b.tt: "แน่นอนว่าลูกสุนัขคงหาบ้านใหม่เองได้...กระมัง?"
+ festival.001.b.custom.tooltip: "ท่านปล่อยลูกสุนัขไปตามชะตากรรม"
+
+ festival.002.t: "จิตใจใฝ่รู้"
+ festival.002.desc: "แรงดึงเบาๆ ที่แขนเสื้อฉุดความสนใจข้าพเจ้าไปจากทัศนียภาพของเทศกาล — เมื่อมองลงไป สายตาก็ประสานกับเด็กน้อยผู้หนึ่ง ดวงตากลมโตด้วยความพิศวง\n\n"เหตุใดจึงมีผู้คนมากมาย เช่นนี้?" [curious_child.GetSheHe] เอ่ยถามด้วยความสงสัยใคร่รู้อย่างไร้เดียงสา "เกิดอะไรขึ้นหรือ?""
+ festival.002.a: "อืม ข้าจะเล่าเรื่องให้เจ้าฟัง..."
+ festival.002.a.inspired_child: "[curious_child.GetSheHe|U] ดูเหมือนจะกระตือรือร้นที่จะฟัง"
+ festival.002.a.bored_child: "เด็กคนนี้ไม่ชอบการเล่านิทาน"
+ festival.002.b: "พ่อแม่ของเจ้าไม่สั่งสอนหรือ ว่าอย่าพูดคุยกับคนแปลกหน้า?"
+ festival.002.b.flavor: "#weak เจ้าเด็กอวดดีนี่สมควรได้รับ "รางวัล" สำหรับความอหังการของมัน #!"
+ festival.002.c: "ใครก็ได้ ส่ง [curious_child.GetHerHim] กลับไปหาพ่อแม่ของ [curious_child.GetHerHis] ที #EMP เร็วเข้า#!."
+
+ child_is_excited: "เด็กน้อยปลาบปลื้มกับเรื่องเล่าของท่าน"
+ child_is_bored: "เด็กน้อยหาวและเดินจากไปขณะที่ท่านกำลังพูด"
+ child_is_kicked: "เพียงตบหูฉาดเดียว เด็กน้อยก็วิ่งหนีกลับเข้าไปในฝูงชน"
+
+ festival.003.t: "อาหารอันโอชะ"
+ festival.003.desc: "กลิ่นหอมของ [ROOT.Char.Custom('GetLocalStreetFoodPlural')] ที่ลอยมาจากแผงขายของ กระซิบสัญญาทั้งหวานและคาวแก่กระเพาะที่กำลังร้องโครกครากของข้า\n\nแถวที่ยาวเหยียดเป็นประจักษ์พยานที่มองเห็นได้ถึงความต้องการของว่างเหล่านี้ แต่แน่นอนว่าเจ้าภาพของวันย่อมต้องได้รับสิทธิพิเศษ #EMP บ้าง#! มิใช่หรือ?!"
+ festival.003.a: "หลีกทางให้ [ROOT.Char.GetTitleAsNameNoTooltip]!"
+ festival.003.b: "ปล่อยให้ผู้คนเพลิดเพลินกับความสุขเล็กๆ น้อยๆ ของพวกเขาเถิด"
+
+ festival.004.t: "คำอธิษฐานกระซิบ"
+ festival.004.desc: "เหล่าแขกเหรื่อรวมตัวกันรอบต้นไผ่ กิ่งก้านของมันประดับด้วยแผ่นกระดาษที่จารึกคำปรารถนาของเจ้าของ\n\nภายใต้แสงนวลของดวงดาว ผู้คนของข้าฝากฝังความฝันของพวกเขาไว้กับคู่รักเบื้องบน และข้าก็ตระหนักได้ว่า ตัวข้าเองก็อาจมีคำอธิษฐานที่อยากขอ เช่นกัน"
+ festival.004.a: "ขอทวยเทพจงดลบันดาลความมั่งคั่งและความอุดมสมบูรณ์แก่ทุกคน"
+ festival.004.b: "ข้าปรารถนาความรักอันเป็นนิรันดร์ดุจดวงดาว"
+ festival.004.c: "โปรดประทานพละกำลังให้ข้าเพื่อบรรลุความทะเยอทะยานของข้า"
+ festival.004.d: "ข้าปรารถนาที่จะพบรักในเร็ววัน"
+ prosperity_festival_in_province_modifier: "คำอธิษฐานเพื่อความเจริญรุ่งเรือง"
+ prosperity_festival_in_province_modifier_desc: "ดวงดาวดูเหมือนจะเข้าข้างเคาน์ตีนี้ และผู้ปกครองได้อธิษฐานขอความเจริญรุ่งเรืองแก่ทุกคน"
+ prosperity_festival_find_love_modifier: "คำอธิษฐานเพื่อความรัก"
+ prosperity_festival_find_love_modifier_desc: "ตัวละครนี้อธิษฐานขอให้พบรัก"
+ prosperity_festival_health_modifier: "คำอธิษฐานเพื่อสุขภาพ"
+ prosperity_festival_health_modifier_desc: "ตัวละครนี้อธิษฐานขอสุขภาพที่ดี"
+
+ festival.005.t: "ผู้ฟังจำยอม"
+ festival.005.desc: "ขณะที่เทศกาลดำเนินมาถึงจุดสูงสุด [target.chaplain.Custom('MyPriestTitle')] ของข้าก็ขึ้นเวที เสียงของ [target_chaplain.GetHerHis] ดังกึกก้องเหนือฝูงชน [target_chaplain.GetSheHe|U] เริ่มยกย่องการปฏิรูปศีลธรรมและวินัยทางจิตวิญญาณ พยายามเปลี่ยนพลังงานอันสนุกสนานของเทศกาลให้กลายเป็นการเทศนา บ้างก็พบว่าคำพูดของ [target_chaplain.GetHerHis] สร้างแรงบันดาลใจ ขณะที่คนอื่นๆ บ่นพึมพำว่าเทศกาลไม่ใช่สถานที่สำหรับความเคร่งขรึม เช่นนี้"
+ festival.005.a: "[target_chaplain.GetSheHe|U] กล่าวในนามแห่งพระผู้เป็นเจ้า"
+ festival.005.b: "ข้าจะไปพูดให้ [target_chaplain.GetHerHim] เข้าใจเหตุผลเอง"
+ festival.005.c: "ข้าเบื่อหน่ายกับคำพูดยืดยาวนี่แล้ว เอา [target_chaplain.GetHerHim] ลงมาจากตรงนั้นที!"
+ festival.005.b.success: "ท่านเกลี้ยกล่อมให้ [target_chaplain.GetHerHim] ลงจากเวทีได้สำเร็จ"
+ festival.005.b.tt.success: "ท่านเกลี้ยกล่อม [target_chaplain.GetHerHim] ได้สำเร็จ"
+ festival.005.b.failure: "ความกระตือรือร้นที่ขับเคลื่อนด้วยศรัทธาของ [target_chaplain.GetHerHis] ยังไม่มอดดับ"
+ festival.005.b.tt.failure: "ท่านเกลี้ยกล่อม [target_chaplain.GetHerHim] ไม่สำเร็จ"
+
+ festival.006.t: "พิธีชำระล้าง"
+ festival.006.desc: "เมื่อการสวดภาวนาอันศักดิ์สิทธิ์สิ้นสุดลง เหล่า [ROOT.Char.GetFaith.PriestNeuterPlural] ก็เริ่มพิธีชำระล้าง ซึ่งจะชะล้างมลทินทางจิตวิญญาณทั้งปวงและประกันถึงปีที่เปี่ยมไปด้วยความผาสุก ในฐานะส่วนหนึ่งของพิธี ข้ามีหน้าที่อันศักดิ์สิทธิ์ในการตักน้ำบริสุทธิ์จากบ่อน้ำศักดิ์สิทธิ์"
+ festival.006.a: "วันนี้ ความอ่อนน้อมถ่อมตนย่อมดีกว่าความหยิ่งทะนง"
+ festival.006.b: "การแสดงความหรูหราโอ่อ่าตอนนี้สามารถยกระดับเกียรติภูมิของข้าได้"
+ festival.006.c: "ให้ผู้ที่ด้อยกว่าจัดการเรื่องนี้เถิด มันจึงจะสมฐานะของข้า"
+
+ festival.007.t: "การประลองแสงจันทร์"
+ festival.007.desc: "ดวงจันทร์ลอยสูงบ่งบอกการมาถึงของเที่ยงคืน และพร้อมกันนั้นคือการเริ่มต้นการประลองพละกำลังอันเป็นที่นิยมชมชอบของผู้คนตลอดมา [ROOT.Char.GetFaith.PriestMale] จะโยนแท่งไม้เข้าไปกลางฝูงชน โดยมีธรรมเนียมเล่าว่า ผู้ที่ฝ่าฟันออกมาพร้อมแท่งไม้ในมือจะได้รับโชคลาภอันยิ่งใหญ่ในปีที่จะมาถึง"
+ festival.007.a: "โชคลาภนี้ต้องเป็นของข้า!"
+ festival.007.b: "ข้าจะปล่อยให้ผู้อื่นเหนื่อยล้าไปก่อน แล้วค่อยฉวยชัยชนะมาอย่างเงียบๆ"
+ festival.007.c: "การประลองบางอย่าง เหมาะที่จะชื่นชมจากกลุ่มผู้ชมมากกว่า"
+ festival.007.a.success: "ท่านเอาชนะคู่ต่อสู้ด้วยกำลัง"
+ festival.007.a.failure: "คู่ต่อสู้ของท่านมีกำลังเหนือกว่า"
+ festival.007.b.success: "ท่านใช้สติปัญญาเหนือคู่ต่อสู้"
+ festival.007.b.failure: "คู่ต่อสู้ของท่านไม่หลงกล"
+ festival.007.a.tt.success: "ท่านชนะ"
+ festival.007.a.tt.failure: "ท่านแพ้"
+
+ festival.008.t: "ระบำแห่งความอุดมสมบูรณ์"
+ festival.008.desc: "มวลอากาศสั่นสะเทือนด้วยเสียงขลุ่ยผิวและเสียงทุ้มของกลอง ขณะที่เหล่า [dancer.GetWomenMen] หนุ่มสาวร่ายรำอย่างสง่างามในอาภรณ์สีสันสดใสพริ้วไหว\n\nการแสดงอันอ่อนช้อยของพวกเขา อันเป็นที่พึงพอใจต่อทั้งมนุษย์และเทพเจ้า ที่จะอวยพรผืนดินใต้เท้าของเราให้มีการเก็บเกี่ยวที่อุดมสมบูรณ์"
+ festival.008.a: "ช่างเป็นระบำที่งดงามยิ่งนัก"
+ festival.008.b: "เมื่อมองพวกเขา ข้าสัมผัสได้ถึงความสงบสุขอันแท้จริง"
+ respected_tradition_modifier: "ธรรมเนียมที่ได้รับการเคารพ"
+
+ festival.009.t: "คำอธิษฐานบนต้นไม้"
+ festival.009.desc: "มีธรรมเนียมท้องถิ่นใน [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitlyNoTooltip] ที่ผู้คนจะฝากฝังความปรารถนาจากใจจริงไว้บนแผ่นกระดาษและแขวนไว้บนต้นไม้\n\nเมื่อพินิจดูใกล้ๆ ข้าเห็นว่าคำอธิษฐานส่วนใหญ่ก็เป็นอย่างที่คาดเดาได้ - ความมั่งคั่ง ความรัก ความเจริญรุ่งเรือง ทว่าในหมู่คำอธิษฐานเหล่านั้น กลับมีบางส่วนที่จารึกความปรารถนาอันดำมืดไว้"
+ festival.009.a: "การล่วงรู้ความคิดส่วนลึกที่สุดของผู้อื่นถือเป็นความได้เปรียบมิใช่น้อย"
+ festival.009.b: "ความมุ่งร้ายไม่มีที่ยืนท่ามกลางกิ่งก้านเหล่านี้"
+
+ festival.010.t: "พรจากกระดาษ"
+ festival.010.desc: "ท้องถนนเปี่ยมไปด้วยความสดใสและสีสัน เครื่องประดับนับไม่ถ้วนปลิวไสวสว่างไสวในสายลม เสียงไชโยโห่ร้องและเสียงหัวเราะดังไปทั่วขณะที่ผู้คนชื่นชมสินค้าของช่างฝีมือ บางทีข้าอาจจะหาของที่ระลึกเหล่านี้ไว้สักชิ้นกระมัง?"
+ festival.010.a: "นกกระเรียนกระดาษสีสันสดใสหนึ่งชุด เครื่องเตือนใจถึงความสำคัญของครอบครัว"
+ festival.010.b: "กิโมโนกระดาษพับอย่างวิจิตร สัญลักษณ์แห่งสุขภาพ"
+ festival.010.c: "ปล่อยให้ผู้อื่นประดับประดา เช่นนั้นเถิด ความเรียบง่ายเหมาะกับข้าที่สุดแล้ว"
+ good_health_modifier: "สุขภาพดี"
+ good_health_modifier_desc: "ตัวละครนี้ซื้อเครื่องประดับกิโมโนกระดาษ"
+ strong_family_modifier: "สายใยแห่งครอบครัว"
+ strong_family_modifier_desc: "ตัวละครนี้ซื้อเครื่องประดับนกกระเรียนกระดาษ"
+
+ festival.012.t: "การเฉลิมฉลองอันอึกทึก"
+ festival.012.desc: "โคมไฟส่องสว่างให้ความบันเทิงยามค่ำคืน ขณะที่บรรยากาศอวลไปด้วยเสียงดนตรีและเสียงหัวเราะที่ดังเป็นระยะ ข้าอดไม่ได้ที่จะรู้สึกตื่นเต้นไปกับภาพตรงหน้า"
+ festival.012.a: "ความสุขเรียบง่ายของพวกเขาช่วยปลอบประโลมจิตวิญญาณอย่างอ่อนโยน"
+ festival.012.b: "ความมีชีวิตชีวานี้ช่างปลุกพลังอย่างแท้จริง"
+ festival.012.c: "เสียงอึกทึกนี้ช่างท่วมท้น - ข้าโหยหาความเงียบสงบ"
+ festival_spirit_modifier: "จิตวิญญาณแห่งเทศกาล"
+ festival_spirit_modifier_desc: "จิตวิญญาณของตัวละครนี้ได้รับการปลุกพลังจากบรรยากาศของเทศกาล"
+
+ festival.014.t: "วันแห่งแขนเสื้อเริงระบำ"
+ festival.014.desc: "วันนี้เป็นโอกาสสำหรับการเฉลิมฉลอง แต่ยังเป็นการขอพรจากทวยเทพด้วย สายตาของทั้งมนุษย์และเทพเจ้าจะจับจ้องการกระทำและเครื่องบูชาของเรา ดังนั้นเราต้องใส่ใจ เพื่อให้แน่ใจว่าทุกอย่างเป็นไปอย่างเรียบร้อย"
+ festival.014.a: "ขอทวยเทพโปรดเมตตาพวกเราด้วยเถิด"
+
+ festival.016.t: "เกียรติยศที่เปื้อนเปรอะ"
+ festival.016.desc: "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('clumsy_oaf'))] ของข้า [clumsy_oaf.GetFirstName] ยืนนิ่งด้วยความหวาดกลัวสุดขีด ขณะที่เราทั้งคู่จ้องมองสาเกที่หยดจากอาภรณ์ของข้า เสื้อผ้าหรูหรานั้นเริ่มคล้ำลงด้วยรอยเปื้อนที่แผ่ขยาย\n\nผู้คนรอบข้างเรายืนนิ่งด้วยความอยากรู้อยากเห็น ซ่อนปฏิกิริยาของตนไว้หลังพัดที่วาดลวดลาย เฝ้ารอ — ไม่สิ คาดหวัง — การระเบิดอารมณ์ที่จะตามมา"
+ festival.016.a: "เจ้าคนโง่เง่าซุ่มซ่าม! [clumsy_oaf.GetSheHe|U] จะต้องชดใช้!"
+ festival.016.b: "เสื้อผ้าหาใหม่ได้"
+
+ festival.017.t: "หุ่นกระบอกขบถ"
+ festival.017.desc: "นักเชิดหุ่นเร่ร่อนตัดสินใจใช้เทศกาลเป็นเวทีของ [puppeteer.GetHerHis] ท่ามกลางผู้ร่วมงานหลายสิบคนที่กำลังหัวเราะคิกคัก\n\nขณะที่ข้ามองดูหุ่นกระบอกเต้นรำ การแสดงของพวกมันเริ่มมีแง่มุมที่น่าอึดอัดใจ ร่างของผู้ปกครองที่เข้มงวดนั้นช่างคุ้นตาเกินไปสำหรับข้า และฝูงชนก็ดูขบขันกับความซุ่มซ่ามของ [ROOT.Char.GetHerHis] มากเกินไป"
+ festival.017.a: "ข้าจะหัวเราะให้ดังกว่าผู้ใด!"
+ festival.017.b: "เผาตุ๊กตาอวดดีพวกนี้ซะ"
+ festival.017.c: "คนของข้าควรสังเกตปฏิกิริยาของผู้ชม"
+
+ festival.018.t: "ภวังค์และเครื่องบรรณาการ"
+ festival.018.desc: "มิโกะประจำศาลเจ้าสั่นเทิ้มอย่างบ้าคลั่งราวกับถูกสิง เสียงราวกับมาจากโลกอื่นของนางตะโกนบัญชาแห่งทวยเทพ\n\nดูเหมือนว่าเทพองค์นี้จะชื่นชอบสาเกเป็นพิเศษ และในปริมาณที่มากโข การปฏิเสธย่อมเป็นการล่วงเกินตัวตนอันทรงพลัง แต่ข้าก็อดสงสัยไม่ได้ว่านี่อาจเป็นการแสดงอันไร้ศรัทธามากกว่าการอัญเชิญ"
+ festival.018.a: "ไปเอาสาเกมา และเรามาดื่มด้วยกันเถิด!"
+ festival.018.b: "เพียงแค่ถ้วยเล็กๆ พอเป็นพิธีพร้อมคำเชิญ..."
+ festival.018.c: "การแสดงนี้จบสิ้นแล้ว"
+ friend_invited_priestess: "[CHARACTER.GetShortUIName|U] ได้เชิญ [TARGET_CHARACTER.GetShortUIName] ให้เข้าร่วมราชสำนักของ [CHARACTER.GetHerHis] หลังจากได้เห็นการแสดงอันน่าประทับใจของ [TARGET_CHARACTER.GetHerHis] ที่เทศกาล"
+ friend_invited_priestess_corresponding: "[CHARACTER.GetShortUIName|U] ได้รับเชิญไปยังราชสำนักของ [TARGET_CHARACTER.GetShortUINamePossessive] หลังจากได้เห็นการแสดงอันน่าประทับใจของ [CHARACTER.GetHerHis] ที่เทศกาล"
+
+ festival.019.t: "ละครตามพระประสงค์"
+ festival.019.desc: "สจ๊วตของข้า [play_planner.GetFirstName] โค้งคำนับอย่างนอบน้อมต่อหน้าข้า "จะมีการแสดงละคร [ROOT.Char.Custom('FormOfAddressForLiege')]," [play_planner.GetSheHe] กล่าว "แต่การเลือกเรื่องราวนั้นเป็นสิทธิ์ของท่าน" มันควรจะเป็นสิ่งที่ให้ความบันเทิงแก่ผู้คน หรือเตือนสติพวกเขาถึงที่ทางของตน?"
+ festival.019.a: "จงเป็นตำนานแห่งความรุ่งโรจน์ของตระกูลข้า"
+ festival.019.b: "ละครสอนศีลธรรมจะสอนคุณธรรมแห่งการเชื่อฟัง"
+ festival.019.c: "อุทิศมันแด่ทวยเทพและให้เราได้รับพรจากพวกเขา"
+
+ festival.020.t: "เกียรติยศควบม้า"
+ festival.020.desc: "แม่น้ำทอประกายระยิบระยับภายใต้แสงตะวันยามเที่ยง ขณะที่เหล่านักธนูขึ้นม้า ส่วนอีกฟากของลำธาร เหล่าผู้ติดตามก็ยกเป้าของพวกเขาขึ้น: พัดกระดาษ\n\nณ ที่ใดที่หนึ่ง เสียงกลองดังกระหึ่ม กลบเสียงพึมพำของการวางเดิมพันชั่วขณะ ว่านักธนูคนใดจะได้รับชัยชนะ"
+ festival.020.a: "เตรียมม้าศึกของข้า — รางวัลจะเป็นของข้า!"
+ festival.020.b: "ข้าจะวางเดิมพันด้วยตัวเอง!"
+ festival.020.c: "ปล่อยให้พวกเขายิงไป แต่จงนำเศษเสี้ยวของพัดมาให้ข้าเพื่อเป็นสิริมงคล"
+
+ festival.021.t: "ขบวนแห่จากนรก"
+ festival.021.desc: "จังหวะที่คาดเดาได้ของงานรื่นเริงพลันหยุดชะงักด้วยการมาถึงของ "ยักษ์" สวมหน้ากาก ที่ควงคบเพลิงลุกโชน สาดประกายไฟใส่ฝูงชนที่กำลังแตกหนี ในบริเวณใกล้เคียง เหล่านักบวชเตรียมพร้อมสำหรับการโต้กลับ พิธีกรรมอันมิอาจหลีกเลี่ยงเพื่อชัยชนะเหนือวิญญาณชั่วร้าย"
+ festival.021.a: "ข้าจะนำ "การโต้กลับ" นี้ด้วยตนเอง!"
+ festival.021.b: "จง ทำให้แน่ใจว่าทุกครัวเรือนมีถังน้ำเตรียมพร้อม"
+ festival.021.c: "ไม่ว่าจะเป็นธรรมเนียมหรือไม่ ความเสี่ยงที่จะเกิดอัคคีภัยนั้นสูงเกินไป"
+
+ festival.022.t: "ประลองเทศกาล"
+ festival.022.desc: "[rumbler_one.GetWomenMen] สองคนจากหมู่บ้านใกล้เคียงได้มารวมตัวกันที่ลานเทศกาลเพื่อสะสางความขัดแย้งตามธรรมเนียม — โดยการชูเกี้ยวของตนขึ้นสูงและกระแทกใส่กัน เพื่อพยายาม ทำให้เกี้ยวของฝ่ายตรงข้ามร่วงลงสู่พื้น\n\nเศษไม้กระเด็นทุกครั้งที่ปะทะ! เสียงเชียร์อันอึกทึกของฝูงชนกระตุ้นให้นักสู้ปะทะกันอย่างดุเดือดยิ่งขึ้น"
+ festival.022.a: "ข้าไม่อนุญาตให้มีความรุนแรง ไม่ว่าจะเป็นธรรมเนียมใดก็ตาม!"
+ festival.022.b: "ผู้ชนะจะได้รับรางวัลอย่างงาม!"
+ festival.022.c: "หากฝูงชนต้องการชมการแสดง พวกเขาก็ต้องจ่าย เพื่อที่จะได้เห็น"
+
+ festival.023.t: "ขบวนแห่อันตราย"
+ festival.023.desc: "เสียงกลองหนังกวางดังกระหึ่ม ประกาศการเริ่มต้นของขบวนแห่ในพิธี ผู้ถือธงนำขบวนอย่างภาคภูมิใจ ในชุดเทศกาลอันวิจิตรงดงาม ตามด้วยเกี้ยวอันสง่างาม ที่ถูกแบกสูงขึ้นบนบ่าของผู้ติดตาม\n\n"ระวัง!" ขบวนแห่อันงดงามพลันแตกสลาย เมื่อคนแบกเกี้ยวตะโกนขึ้น พลางปล่อยมือที่จับ ส่งผลให้เกี้ยวเอียงอย่างน่าหวาดเสียว"
+ festival.023.a: "ทรงตัวไว้ ข้ากำลังไป!"
+ festival.023.b: "จงโบยตีเจ้าโง่นั่น และให้หมู่บ้านของมันจ่ายค่าปรับ"
+
+ festival.024.t: "ระบำสงครามไม้"
+ festival.024.desc: "#EMP เปรี้ยง!#! #EMP เปรี้ยง!#! เสียงดังเหล่านี้ควรขับไล่วิญญาณชั่วร้ายทั้งปวงให้หนีไป! เหล่าเยาวชนในหมู่บ้านที่อยู่เบื้องหน้าข้า ยังคงกระทืบเท้าต่อไปและฟาดไม้พลองของตนด้วยความฮึกเหิมของนักรบผู้ดุดัน\n\nธรรมเนียมอันปลุกเร้านี้อาจพิสูจน์ได้ว่ามีประโยชน์ในแนวรบอื่น หากไม้พลองของพวกเขาถูกเปลี่ยนเป็นหอก"
+ festival.024.a: "หมายตาผู้ที่แข็งแกร่งที่สุดไว้ — เราต้องการคน เช่นนั้น"
+ festival.024.b: "ความแม่นยำของพวกเขาน่าชื่นชมนัก!"
+ festival.024.c: "ช่างเป็นการแสดงพลังที่น่าทึ่ง"
+
+ adopted_a_puppy_title: "$festival.001.t$"
+ adopted_a_puppy: "[CHARACTER.GetShortUIName|U] รับเลี้ยงลูกสุนัขจรจัด"
+
+ edified_a_child_title: "$festival.002.t$"
+ edified_a_child: "[CHARACTER.GetShortUIName|U] มอบปัญญาแก่จิตใจที่เยาว์วัย"
+
+ kicked_a_child_title: "$festival.002.t$"
+ kicked_a_child: "[CHARACTER.GetShortUIName|U] สอนให้เด็กรับรู้ถึงความโหดร้ายของคนแปลกหน้า"
+
+ restored_a_lost_child_title: "$festival.002.t$"
+ restored_a_lost_child: "[CHARACTER.GetShortUIName|U] ส่งเด็กที่พลัดหลงกลับไปยังที่อันสมควร"
+
+ ate_well_title: "$festival.003.t$"
+ ate_well: "[CHARACTER.GetShortUIName|U] สวาปามของอร่อยเลิศรส"
+
+ practiced_temperance_title: "$festival.003.t$"
+ practiced_temperance: "[CHARACTER.GetShortUIName|U] ต้านทานต่อสิ่งยั่วยวนของอาหารรสเลิศ"
+
+ wished_for_love_eternal_title: "$festival.004.t$"
+ wished_for_love_eternal: "[CHARACTER.GetShortUIName|U] อธิษฐานขอความรักชั่วนิรันดร์"
+
+ wished_for_prosperity_title: "$festival.004.t$"
+ wished_for_prosperity: "[CHARACTER.GetShortUIName|U] อธิษฐานขอความเจริญรุ่งเรืองแก่ทุกคน"
+
+ wished_for_vigor_title: "$festival.004.t$"
+ wished_for_vigor: "[CHARACTER.GetShortUIName|U] อธิษฐานขอพละกำลังและความอดทน"
+
+ wished_to_find_love_title: "$festival.004.t$"
+ wished_to_find_love: "[CHARACTER.GetShortUIName|U] อธิษฐานขอให้พบรักแท้นิรันดร์"
+
+ listened_to_chaplain_title: "$festival.005.t$"
+ listened_to_chaplain: "[CHARACTER.GetShortUIName|U] รับฟังการบรรยายเกี่ยวกับเรื่องของพระผู้เป็นเจ้า"
+
+ rousted_chaplain_title: "$festival.005.t$"
+ rousted_chaplain: "[CHARACTER.GetShortUIName|U] ขับไล่เสียงแห่งพระผู้เป็นเจ้าลงจากเวที"
+
+ talked_down_chaplain_title: "$festival.005.t$"
+ talked_down_chaplain: "[CHARACTER.GetShortUIName|U] ยุติคำพูดยืดยาวอย่างมีวาทศิลป์"
+
+ delegated_ritual_title: "$festival.006.t$"
+ delegated_ritual: "[CHARACTER.GetShortUIName|U] เป็นประธานในพิธีอย่างสง่างาม"
+
+ displayed_magnificence_title: "$festival.006.t$"
+ displayed_magnificence: "[CHARACTER.GetShortUIName|U] แสดงความยิ่งใหญ่อันน่าประทับใจ"
+
+ served_with_humility_title: "$festival.006.t$"
+ served_with_humility: "[CHARACTER.GetShortUIName|U] ปฏิบัติหน้าที่ของ [CHARACTER.GetHerHis] ด้วยความอ่อนน้อมถ่อมตน"
+
+ fought_for_fortune_title: "$festival.007.t$"
+ fought_for_fortune: "[CHARACTER.GetShortUIName|U] เข้าร่วมการประลองเพื่อแสวงหาความโปรดปรานของโชคชะตา"
+
+ observed_dance_title: "$festival.008.t$"
+ observed_dance: "[CHARACTER.GetShortUIName|U] ชื่นชมระบำอันอ่อนช้อยและสง่างาม"
+
+ spied_on_wishes_title: "$festival.009.t$"
+ spied_on_wishes: "[CHARACTER.GetShortUIName|U] ได้ล่วงรู้ถึงความมืดดำที่ซ่อนเร้นในใจของผู้อื่น"
+
+ purchased_trinkets_title: "$festival.010.t$"
+ purchased_trinkets: "[CHARACTER.GetShortUIName|U] ซื้อเครื่องประดับเทศกาลสำหรับ [CHARACTER.GetHerselfHimself] และครอบครัวของ [CHARACTER.GetHerHis]"
+
+ contemplated_crowd_title: "$festival.012.t$"
+ contemplated_crowd: "[CHARACTER.GetShortUIName|U] เดินท่ามกลางผู้คนและมีส่วนร่วมในความสุขของเทศกาล"
+
+ demanded_compensation_for_mishap_title: "$festival.016.t$"
+ demanded_compensation_for_mishap: "[CHARACTER.GetShortUIName|U] เรียกค่าชดเชยจากคนซุ่มซ่ามที่ไม่ระวัง"
+
+ forgave_mishap_title: "$festival.016.t$"
+ forgave_mishap: "[CHARACTER.GetShortUIName|U] ให้อภัยในความซุ่มซ่ามของผู้อื่นอย่างมีเมตตา"
+
+ burned_puppets_title: "$festival.017.t$"
+ burned_puppets: "[CHARACTER.GetShortUIName|U] แสดงให้เห็นถึงผลที่ตามมาของการเยาะเย้ยผู้ที่เหนือกว่า"
+
+ enjoyed_puppetry_title: "$festival.017.t$"
+ enjoyed_puppetry: "[CHARACTER.GetShortUIName|U] แสดงความใจกว้างของผู้ยิ่งใหญ่และทรงอำนาจ"
+
+ observed_crowd_title: "$festival.017.t$"
+ observed_crowd: "[CHARACTER.GetShortUIName|U] ได้ล่วงรู้ถึงสิ่งที่อยู่ในใจของผู้คนของ [CHARACTER.GetHerHis]"
+
+ ejected_priestess_title: "$festival.018.t$"
+ ejected_priestess: "[CHARACTER.GetShortUIName|U] กังขาในความแท้จริงของบัญชาแห่งทวยเทพ"
+
+ made_offering_title: "$festival.018.t$"
+ made_offering: "[CHARACTER.GetShortUIName|U] ถวายเครื่องบูชาแด่วิญญาณ"
+
+ planned_play_title: "$festival.019.t$"
+ planned_play: "[CHARACTER.GetShortUIName|U] วางแผนการแสดงละครเพื่อประโยชน์ของ [CHARACTER.GetHerHis]"
+
+ competed_in_archery_title: "$festival.020.t$"
+ competed_in_archery: "[CHARACTER.GetShortUIName|U] เข้าร่วมการประลองยิงธนูอย่างกล้าหาญ"
+
+ gained_lucky_fan_fragment_title: "$festival.020.t$"
+ gained_lucky_fan_fragment: "[CHARACTER.GetShortUIName|U] ได้รับเศษเสี้ยวแห่งโชคดี"
+
+ gambled_on_archers_title: "$festival.020.t$"
+ gambled_on_archers: "[CHARACTER.GetShortUIName|U] วางเดิมพันและได้เงินมาเล็กน้อย"
+
+ banished_demons_title: "$festival.021.t$"
+ banished_demons: "[CHARACTER.GetShortUIName|U] ขับไล่ "ปีศาจ" ผู้ถือคบเพลิงด้วยตนเอง"
+
+ banned_demons_title: "$festival.021.t$"
+ banned_demons: "[CHARACTER.GetShortUIName|U] ยุติการเฉลิมฉลองที่เสี่ยงอันตราย"
+
+ fire_drilled_people_title: "$festival.021.t$"
+ fire_drilled_people: "[CHARACTER.GetShortUIName|U] เตือนผู้คนถึงอันตรายของไฟ"
+
+ banned_brawling_title: "$festival.022.t$"
+ banned_brawling: "[CHARACTER.GetShortUIName|U] สั่งห้ามการประลองกำลังและตอกย้ำอำนาจของ [CHARACTER.GetHerHis]"
+
+ keen_eye_for_business_title: "$festival.022.t$"
+ keen_eye_for_business: "[CHARACTER.GetShortUIName|U] ใช้ประโยชน์จากโอกาสในการทำกำไร"
+
+ rewarded_brawlers_title: "$festival.022.t$"
+ rewarded_brawlers: "[CHARACTER.GetShortUIName|U] มอบรางวัลเป็นวัตถุสิ่งของแก่ผู้แข็งแกร่ง"
+
+ saved_festival_float_title: "$festival.023.t$"
+ saved_festival_float: "[CHARACTER.GetShortUIName|U] แบกรับภาระและหลีกเลี่ยงหายนะ"
+
+ tenderized_villager_title: "$festival.023.t$"
+ tenderized_villager: "[CHARACTER.GetShortUIName|U] ลงโทษเจ้าโง่สำหรับความไร้ความสามารถ"
+
+ paraded_troops_title: "$festival.024.t$"
+ paraded_troops: "[CHARACTER.GetShortUIName|U] จัดการแสดงแสนยานุภาพ"
+
+ studied_martial_motions_title: "$festival.024.t$"
+ studied_martial_motions: "[CHARACTER.GetShortUIName|U] ได้รับข้อมูลเชิงลึกทางการทหาร"
+
+ village_draft_title: "$festival.024.t$"
+ village_draft: "[CHARACTER.GetShortUIName|U] เกณฑ์ผู้แข็งแกร่งมารับใช้"
+
+ forgiven_blunder: "[CHARACTER.GetShortUIName|U] ชื่นชมความอดกลั้นของ [TARGET_CHARACTER.GetShortUINamePossessive] ในเรื่องที่เกี่ยวกับเกียรติยศ"
+
+ hosted_successful_festival_opinion: "เป็นเจ้าภาพเทศกาล"
+
+ festival_blackout_drunk: "เมาจนสลบ"
+
+ festival_opinion_defamed_me: "หมิ่นประมาทข้า"
+ festival_drank_in_my_honor: "ดื่มเพื่อเป็นเกียรติแก่ข้า"
+ festival_put_an_end_to_slander: "ยุติการใส่ร้าย"
+ all_festival_participants: "ผู้เข้าร่วม [activity.GetName] ทั้งหมด"
+ all_members_of_confederation_in_attendance: "สมาชิกทุกคนของ [bloc.GetName] ที่เข้าร่วม"
+ all_members_of_root_confederation_in_attendance: "สมาชิกทุกคนของ [root_bloc.GetName] ที่เข้าร่วม"
+ all_members_of_second_confederation_in_attendance: "สมาชิกทุกคนของ [second_bloc.GetName] ที่เข้าร่วม"
+ festival_house_cohesion_gain_opinion: "มุ่งมั่นเพื่อความสามัคคีในกลุ่ม"
+
+ every_temperate_or_shy_attendee: "ผู้เข้าร่วมทุกคนที่เป็น [GetTrait('temperate').GetName( GetNullCharacter )] หรือ [GetTrait('shy').GetName( GetNullCharacter )]"
+ every_drunkard_or_lifestyle_reveler_attendee: "ผู้เข้าร่วมทุกคนที่เป็น [GetTrait('drunkard').GetName( GetNullCharacter )] หรือ [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]"
+ every_poet_attendee: "ทุก [GetTrait('lifestyle_poet').GetName( GetNullCharacter )] ที่เข้าร่วม"
+
+ festival.100.t: "ในคืนจันทร์ส่องแสง"
+ festival.100.desc: "ผู้ส่งสารที่เชิญข้าไปงานเลี้ยงชมจันทร์ของ [target_character.GetTitledFirstNamePossessive] แทบจะยังไม่ทันกล่าวจบ อีกคนหนึ่งก็มาถึง ถือจดหมายเชิญข้าไปร่วมกับ [target_character2.GetTitledFirstName] แทน!\n\nจังหวะเวลา เช่นนี้ #EMP คงมิใช่#! เรื่องบังเอิญเป็นแน่ ต่างฝ่ายต่างต้องการหยั่งเชิงข้าอย่างชัดเจน และการตอบรับคำเชิญหนึ่งย่อมถูกตีความว่าเป็นสัญญาณว่าข้าเข้าข้างผู้เขียน และในขณะเดียวกันก็เป็นการแสดงความรังเกียจต่อคู่ปรับของ [target_character.GetHerHis]"
+ festival.100.a: "ข้าจะให้เกียรติไปร่วมงานของ [target_character.GetTitledFirstNameNoTooltip]"
+ festival.100.b: "ข้าคิดว่าข้าชื่นชอบการร่วมสังสรรค์กับ [target_character2.GetTitledFirstNamePossessiveNoTooltip] มากกว่า"
+ festival.100.c: "ส่งคำปฏิเสธพร้อมของกำนัลเล็กน้อยเพื่อแสดงความนับถือไปยังทั้งสองฝ่าย"
+ festival.100.d: "เราจงจัดงานสังสรรค์ของเราเองและบดบังรัศมีพวกเขาทั้งคู่เสีย!"
+
+ accepted_my_invitation: "ตอบรับคำเชิญของข้า"
+ refused_my_invitation: "ปฏิเสธคำเชิญของข้า"
+ declined_with_decorum: "ปฏิเสธอย่างมีมารยาท"
+ festival_gazed_at_moon_together: "ชมจันทร์ร่วมกัน"
+ festival_moon_gazed_house_log_title: "ใต้แสงจันทร์"
+ festival_moon_gazed_house_log: "[CHARACTER.GetName] ชมจันทร์เคียงข้าง [TARGET_CHARACTER.GetName]"
+
+ festival.101.t: "แขนเสื้ออบกลิ่น"
+ festival.101.desc: "ก่อนที่จะได้เห็น [target_character.GetTitledFirstName] ย่อมต้องได้ #EMP กลิ่น#! ของ [target_character.GetHerHim] เสียก่อน แม้ว่า #EMP จะเป็น#! ธรรมเนียมในการอบร่ำอาภรณ์ด้วยเครื่องหอม แต่ผลของมันน้อยครั้งนักที่จะตั้งใจให้รู้สึกได้ในระยะร้อยก้าวจากผู้สวมใส่\n\nบางที การส่งจดหมายตักเตือนอย่างเงียบๆ คงจะเหมาะสมกระมัง แม้ว่าการกระซิบต่อหูผู้อื่นอาจ ทำให้มั่นใจได้ว่าข้อบกพร่องเล็กน้อยนี้จะคงอยู่ยาวนานกว่ากลิ่นที่จางหายไป"
+ festival.101.a: "ส่งคนที่มีศิลปะในการพูด...และจมูกไม่ดีไป"
+ festival.101.b: "ทุกคน #EMP ต้อง#! รู้เรื่องนี้"
+
+ appreciated_discretion: "ชื่นชมในความรอบคอบ"
+ harmed_my_reputation: "ทำลายชื่อเสียงของข้า"
+ festival_odious_odor: "กลิ่นอันน่าสะอิดสะเอียน"
+
+ festival.102.t: "ชูจอกขึ้นสูง"
+ festival.102.desc: "หลังจากการเฉลิมฉลองอันรื่นเริงมาทั้งวัน พลบค่ำก็มาเยือนพวกเรา และการเฉลิมฉลองที่ #EMP แท้จริง#! ก็ได้เริ่มต้นขึ้นในที่สุด ไวน์ของเจ้าภาพไหลรินราวกับสายน้ำที่ไม่สิ้นสุด\n\nแต่ละจอกนำไปสู่อีกจอก และอีกจอก [target_character2.GetTitledFirstName] กล่าวคำล้อเล่นที่ข้าได้ยินเพียงช่วงท้าย แต่ [target_character.GetTitledFirstName] ดูเหมือนจะขบขันไม่รู้จบ บางทีการดื่มอีกสักหน่อยอาจช่วยให้ข้าหาส่วนที่น่าสนุกในนั้นเจอก็เป็นได้..."
+ festival.102.a: "ไวน์ปลุกเร้าบางสิ่งในตัวข้า ข้ารู้สึกว่ากำลังจะ แต่งบทกวีได้!"
+ festival.102.b: "ข้าขอดื่มจอกนี้ให้แด่ [target_character.GetTitledFirstNameNoTooltip] ผู้สูงศักดิ์!"
+ festival.102.c: "ข้าคิดว่า ข้าดื่มมามากพอแล้วสำหรับค่ำคืนนี้"
+
+ festival_impressive_poetry: "บทกวีน่าประทับใจ"
+ festival_bad_poetry: "การแสดงบทกวีที่ย่ำแย่"
+ festival_mild_drinker: "ดื่มอย่างพอประมาณ"
+ festival_mild_drinker_negative: "ดื่มน้อยเกินไป"
+
+ festival_toasted_head_house_log_title: "ชูจอกขึ้นสูง"
+ festival_toasted_head_house_log: "[CHARACTER.GetHouse.GetName] ดื่มอวยพรให้ [TARGET_CHARACTER.GetHouse.GetName]"
+
+ festival.103.t: "ลิ้นโอ้อวด"
+ festival.103.desc: "ขณะที่สหายของข้าและข้าเดินเล่นผ่านฝูงชน ข้าได้ยินเสียงดังแว่วมา\n\n"$language_chinese_name$ ของข้านั้น #EMP เลอเลิศ#!! ก็เมื่อครึ่งเดือนก่อน [target_character2.GetTitledFirstName] ได้ทดสอบความสามารถทางกวีของข้า และต้องยอมสยบต่อศิลปะของข้า!" [target_character.GetTitledFirstName] โอ้อวด\n\nข้าจำไม่ได้ว่ามีข่าวลือใดที่ว่า [target_character.GetHerHim] มีทักษะด้านกวี แต่การสนับสนุนคำกล่าวอ้างของ [target_character.GetHerHis] อาจเป็นประโยชน์ต่อข้า ทว่า การสั่งสอนคนขี้โม้ให้รู้สำนึกก็ยากจะห้ามใจ เช่นกัน"
+ festival.103.a: ""[target_character.GetSheHe|U] พูดความจริง""
+ festival.103.b: ""โปรดแสดงความสามารถของท่านให้พวกเราชมเป็นขวัญตาเถิด [target_character.GetTitledFirstNameNoTooltip]""
+ festival.103.c: "ความสามารถของสหายของ #EMP ข้า#! นั้นยิ่งใหญ่กว่ามาก"
+ friend_defended_talents: "[CHARACTER.GetShortUIName|U] สนับสนุนคำกล่าวอ้างอันหยิ่งผยองของ [TARGET_CHARACTER.GetShortUINamePossessive|U] ในเทศกาล"
+ friend_defended_talents_corresponding: "คำกล่าวอ้างอันโอหังของ [TARGET_CHARACTER.GetShortUINamePossessive|U] ได้รับการสนับสนุนโดย [CHARACTER.GetShortUIName|U] ที่งานเทศกาล"
+
+ festival.103.b.success: "[target_character.GetTitledFirstName] หวาดกลัวจนยอมจำนน"
+ festival.103.b.failure: "[target_character.GetTitledFirstName] ไม่สะทกสะท้านต่อคำท้าของท่าน"
+ festival.103.b.success.toast: "[target_character.GetTitledFirstName] รีบถอยหนีไปอย่างรวดเร็ว"
+ festival.103.b.failure.toast: "[target_character.GetTitledFirstName] เพิกเฉยต่อคำท้าของท่าน"
+
+ praised_my_wit: "ชื่นชมปฏิภาณไหวพริบ"
+ festival_boasting_exposed: "เปิดโปงคำโอ้อวดกลวงๆ"
+ festival_praised_poetic_talents: "ชื่นชมพรสวรรค์ทางกวี"
+
+ festival.104.t: "ลอยคว้างกลางฝูงชน"
+ festival.104.desc: "ทุกงานสังสรรค์ย่อมมีกระแสขึ้นลง เราต้องระแวดระวังกระแสเหล่านั้น มิฉะนั้นอาจพบว่าตนเองถูกทิ้งให้โดดเดี่ยว\n\nเมื่อ [target_character3.GetTitledFirstName] หันไปทักทาย [target_character4.GetTitledFirstName] ข้าก็พลันพบว่าตนเองลอยคว้างกลางฝูงชน ปราศจากบทสนทนา\n\nห่างออกไปเล็กน้อย ข้าเห็น [target_character.GetTitledFirstName] และ [target_character2.GetTitledFirstName] กำลังจ้องมองมายังข้าอย่างมีนัย และแลกเปลี่ยนคำพูดกันหลังพัดของพวกเขา"
+ festival.104.a: "ข้าจะเข้าร่วมกับพวกเขาอย่างกล้าหาญ"
+ festival.104.b: "การกระซิบเล็กน้อยจากข้าจะหว่านเมล็ดพันธุ์แห่งความคิดที่ #EMP น่าสนใจ#!"
+ festival.104.c: "ข้าขอปลีกตัวกลับไปหาสหายของข้าดีกว่า"
+
+ festival.104.a.success: "ท่าน ทำให้พวกเขาประทับใจด้วยการเข้าหาอย่างกล้าหาญ"
+ festival.104.a.success.toast: "การเข้าหาอย่างกล้าหาญของท่านประสบความสำเร็จ"
+ festival.104.a.failure: "การบุกรุกเข้าไปอย่างเคอะเขินของท่านไม่เป็นที่ชื่นชม"
+ festival.104.a.failure.toast: "การเข้าหาอย่างเคอะเขินของท่านไม่ได้รับการต้อนรับที่ดี"
+
+ festival.104.b.success: "ท่านสร้างข้อครหาต่อความซื่อสัตย์ของพวกเขา"
+ festival.104.b.success.toast: "ข่าวลือที่น่าสงสัยวนเวียนอยู่รอบตัวพวกเขา"
+ festival.104.b.failure: "การปล่อยข่าวซุบซิบของท่านถูกเพิกเฉยโดยสิ้นเชิง"
+ festival.104.b.failure.toast: "ความพยายามของท่านที่จะบ่อนทำลายพวกเขาล้มเหลวโดยสิ้นเชิง"
+
+ appreciated_independence_of_spirit: "ชื่นชมในความกล้าหาญ"
+ awkward_intrusion: "บุกรุกอย่างเคอะเขิน"
+ festival_questionable_rumors: "ข่าวลือที่น่าสงสัย"
+ festival_hostile_to_rivals: "ขุ่นเคืองฝ่ายตรงข้าม"
+
+ festival.105.t: "การทดสอบปัญญา"
+ festival.105.desc: "กระดาษโน้ต จารึกด้วยลายมืออันงดงาม ห้อยอย่างบอบบางจากกิ่งไม้ "[target_character.GetTitledFirstName] มอบปริศนาให้พวกเรา!" [target_character2.GetTitledFirstName] อุทานขึ้น\n\n"มันเป็นคำท้าทายต่างหาก" [target_character3.GetTitledFirstName] โต้กลับ "[target_character.GetSheHe|U] คิดว่า [target_character.GetHerselfHimself] ฉลาดที่สุดในหมู่พวกเรา [target_character.GetSheHe] เสนอว่าจะมอบสิ่งใดก็ได้ที่ต้องการจาก [target_character.GetHerHim] ให้แก่ผู้ที่ไขปริศนาได้เป็นคนแรก #EMP เห็นได้ชัด#! ว่า [target_character.GetSheHe] ไม่คาดคิดว่าพวกเราคนใดจะทำสำเร็จ""
+ festival.105.a: "ข้าจะไขปริศนานี้ และพร้อมกันนั้นคือความเย่อหยิ่งของ [target_character.GetTitledFirstNamePossessiveNoTooltip]!"
+ festival.105.b: "ช่างเป็นปริศนาที่ซับซ้อนนัก! ความเฉลียวฉลาดของ [target_character.GetHerHis|U] นั้นไม่มีใครเทียบได้จริงๆ"
+ festival.105.c: "การเริ่มต้นของการประลองปัญญา!"
+
+ festival.105.a.success: "ท่านไขปริศนาได้อย่างง่ายดายน่าประทับใจ"
+ festival.105.a.success.toast: "ท่านไขปริศนาได้อย่างง่ายดาย"
+ festival.105.a.failure: "ท่านจนปัญญาต่อปริศนา"
+ festival.105.a.failure.toast: "ท่านไขปริศนาไม่สำเร็จ"
+
+ festival.105.c.success: "ท่านไขปริศนาและ ทำให้เพื่อนนักไขปริศนาของท่านสับสนในระดับที่เท่าเทียมกัน"
+ festival.105.c.success.toast: "งานเลี้ยงปริศนาประสบความสำเร็จอย่างงดงาม"
+ festival.105.c.failure: "การแสดงความสามารถของท่านไม่น่าประทับใจ"
+ festival.105.c.failure.toast: "งานเลี้ยงปริศนากลายเป็นการโต้เถียงกันในเรื่องเล็กน้อย"
+
+ impressed_by_wit: "ประทับใจในปฏิภาณไหวพริบ"
+ impressed_by_witlessness: "ประทับใจในความไร้ปฏิภาณไหวพริบ"
+ festival_composed_riddles_together: "นักไขปริศนาผู้เชี่ยวชาญ"
+ festival_composed_riddles_together_badly: "ไขปริศนาได้ไม่ดี"
+
+ festival.106.t: "วิวาห์จิ้งจอก"
+ festival.106.desc: "ข้าโชคดีพอที่ได้เพลิดเพลินกับร่มเงาในศาลาเมื่อห่าฝนกระหน่ำลงมาท่ามกลางท้องฟ้าที่สว่างไสว วิวาห์จิ้งจอก อย่างที่พวกเขาเรียกกัน\n\nอนิจจา [target_character.GetTitledFirstName] ผู้น่าสงสารโดนฝนไปเต็มๆ [target_character.GetSheHe] เดินย่ำน้ำแฉะๆ เข้ามาในที่กำบังด้วยความสง่างามราวกับแมวเปียกน้ำ\n\n"ข้าขอร้องท่านล่ะ ขอเสื้อผ้าเปลี่ยนด้วย!" [target_character.GetSheHe] อ้อนวอน "[target_character2.GetTitledFirstName] กำลังมาทางนี้ และมันจะ ทำให้ข้าขายหน้าอย่างยิ่งหากถูกพบเห็นในสภาพยุ่งเหยิง เช่นนี้""
+ festival.106.a: "ผู้ติดตามของข้าจะไปนำมาให้"
+ festival.106.b: "ข้าจะดึงความสนใจของ [target_character2.GetHerHim] เอง รีบวิ่งไป!"
+ festival.106.c: "[target_character2.GetFirstNameNoTooltip] จะต้องพบว่าเรื่องนี้ #EMP น่าขัน#! ทีเดียว"
+
+ festival.106.b.success: "ท่านเบี่ยงเบนความสนใจของ [target_character2.GetTitledFirstName] ได้สำเร็จ"
+ festival.106.b.success.toast: "ท่านเพลิดเพลินกับการพูดคุยกับ [target_character2.GetTitledFirstName]"
+ festival.106.b.failure: "[target_character2.GetTitledFirstName] สังเกตเห็นว่ามีบางอย่างผิดปกติ"
+ festival.106.b.failure.toast: "[target_character2.GetTitledFirstNameNoTooltip] สงสัยในตัวท่าน"
+
+ festival_enjoyed_talk: "เพลิดเพลินกับการพูดคุย"
+ festival_suspicious: "น่าสงสัย"
+ festival_offered_shelter: "มอบที่พักพิง"
+ festival_shamed_another: "ร่วมขบขัน"
+ festival_shamed_me: "ทำให้ข้าอับอาย"
+
+ festival.107.t: "การผจญภัยเชิงชู้สาว"
+ festival.107.desc: ""[ROOT.Char.GetTitledFirstNameNoTooltip]!" [target_character2.GetTitledFirstName] ทักทายข้าขณะที่ข้าเดินผ่าน พลางกวักมือเรียกข้าเข้าไปใกล้กลุ่มของ [target_character2.GetHerHis]\n\n"ท่านได้ยินเรื่องที่เกิดขึ้นระหว่าง [target_character.GetTitledFirstName] กับ [courtier_host.Custom2('RelationToMeShort', SCOPE.sC('character_of_rumor'))] ของ [courtier_host.GetTitledFirstNamePossessive] [character_of_rumor.GetTitledFirstName] แล้วหรือยัง?" [target_character2.GetSheHe] กระซิบ "ข้ามีเหตุให้เชื่อว่า [target_character.GetSheHe] ไปไกลถึงห้องชั้นในของ [character_of_rumor.GetHerHis] แต่คนรับใช้ที่ข้าติดสินบนมาบอกข้าได้ไม่มากไปกว่านั้น"\n\nแน่นอนว่า คนรับใช้ #EMP ขึ้นชื่อ#! ว่าเป็นแหล่งข่าวซุบซิบที่เชื่อถือได้ แต่ไม่ว่าคำกล่าวอ้างนี้จะเป็นจริงหรือไม่ นี่เป็นโอกาสอันยอดเยี่ยมที่จะมีอิทธิพลต่อชื่อเสียงของ [target_character.GetTitledFirstNamePossessiveNoTooltip]"
+ festival.107.a: "อืม #EMP ข้า#! ได้ยินมาว่า [character_of_rumor.GetSheHe] ปล่อยให้ [target_character.GetHerHim] อยู่หน้าประตูตลอดทั้งคืน!"
+ festival.107.b: "พวกเขาเห็นเพียงเล็กน้อย แต่ #EMP ได้ยิน#! เยอะอย่างแน่นอน!"
+ festival.107.c: "หากท่านชื่นชมการกระทำเชิงชู้สาว สหายของข้ามีเรื่องเล่าที่เหนือกว่านั้นมาก"
+
+ festival_embarrassed_me: "ทำให้ข้าอับอาย"
+ festival_reinforced_group_cohesion: "กระชับความสัมพันธ์"
+ festival_enhanced_amorous_reputation: "เพิ่มพูนชื่อเสียงด้านชู้สาว"
+
+ festival.108.t: "อ่านระหว่างรอยพับ"
+ festival.108.desc: "ข้าเห็น [target_character2.GetTitledFirstName] กำลังเดินเข้ามา ดวงตาเป็นประกายด้วยความเจ้าเล่ห์ "ข้าพบสิ่งนี้ตกอยู่ในเงาของศาลา" [target_character2.GetSheHe] เริ่มต้น "ข้าจำได้ชัดเจนว่ามันอยู่ในมือของ [target_character.GetTitledFirstNamePossessive] เมื่อไม่กี่ชั่วโมงก่อน และมีข้อความที่... #EMP สองแง่สองง่าม#! จารึกอยู่"\n\n"เรา #EMP น่าจะ#! คืนมันให้ [target_character.GetHerHim]... #EMP หรือ#! บางทีข้าอาจจะจัดการให้มันถูก 'ส่ง' ไปให้คนอื่นในนามของ [target_character.GetHerHis] อย่างโจ่งแจ้ง บางทีอาจจะเป็น [target_character4.GetTitledFirstName] [target_character3.Custom2('RelationToMeShort', SCOPE.sC('target_character4'))] ของ [target_character3.Custom('MistressMaster')] ของ [target_character.GetHerHis] [target_character3.GetTitledFirstName]?""
+ festival.108.a: "เป็นข้อเสนอที่ยอดเยี่ยม! จัดการตามนั้นเถิด"
+ festival.108.b: "เอามันมานี่ ข้าจะคืนมันให้ #EMP ด้วยตนเอง#!"
+ festival.108.c: "ให้เรื่องนี้อยู่ระหว่างเราสองคนไปก่อน แค่ท่านกับข้า"
+
+ festival.109.t: "บทกวีภายใต้แรงกดดัน"
+ festival.109.desc: "เสียงหัวเราะคิกคักดึงข้าไปยังที่ ซึ่งฝูงชนกลุ่มเล็กๆ มุงอยู่รอบสหายของเราสองคน "ขับขานบทกวีให้พวกเราฟังสิ [target_character2.GetTitledFirstName]!" [target_character.GetTitledFirstName] กระตุ้น น้ำเสียงเจือความเยาะเย้ยที่แทบไม่ปิดบัง "แน่นอนว่าท่านคงพอทำได้สัก #EMP บท#! ล่ะน่า?"\n\n[target_character2.GetFirstNameNoTooltip] ผู้ ซึ่งเป็นที่รู้กันว่ามีความสุนทรีย์ทางกวีราวกับก้อนหิน มองมาที่ข้าด้วยสายตาอ้อนวอนของสัตว์จนตรอก"
+ festival.109.a: "มาต่อบทกวีกันเถิด ข้าเริ่มก่อน และ #EMP ท่าน#! ต่อ [target_character.GetFirstNameNoTooltip]"
+ festival.109.b: "ทำให้พวกเราทึ่งในปฏิภาณไหวพริบของท่านสิ [target_character2.GetFirstNameNoTooltip]"
+ festival.109.c: "หากท่านแสวงหาศิลปะที่แท้จริง จงมองหาในหมู่ #EMP พวกเรา#!"
+
+ opposed_me: "ต่อต้านข้า"
+ helped_me: "ช่วยเหลือข้า"
+ compelled_poetry: "บังคับให้ แต่งกวี"
+ festival_praised_poetic_prowess: "ชื่นชมความสามารถทางกวี"
+
+ festival.114.t: "ถูกทิ้งไว้บนฝั่ง"
+ festival.114.desc: "ขณะรับอากาศยามค่ำคืน สหายของข้าและข้าพเจ้าก็มาพบ [target_character.GetTitledFirstName] กำลังจ้องมองผืนน้ำอย่างโหยหา\n\nในตอนแรก ข้าคิดว่าเขาหลงใหลในความงามของแสงจันทร์ที่สะท้อนบนผิวน้ำ แต่เสียงจากกลุ่มนักสังสรรค์ก็ดึงความสนใจของข้า ดูเหมือนว่าพวกเขาจะลงเรือไป และ [target_character.GetTitledFirstName] ผู้น่าสงสารถูกทิ้งไว้ข้างหลัง!"
+ festival.114.a: ""ลืมพวกเขาเสีย แล้วมาร่วมกับเรา!""
+ festival.114.b: ""น่าสมเพชเสียจริง! การถูกทอดทิ้งเหมือนของเล่นพังๆ มันเป็น เช่นไร?""
+ festival.114.c: "#EMP พวกเรา#! ไม่เคยทอดทิ้งพวกพ้องของตนเอง"
+
+ festival.delivered_ode: "ท่านได้ขับขานบทกวีอันซาบซึ้ง"
+ festival.poem_fell_flat: "บทกวีของท่านได้รับการต้อนรับด้วยความเงียบ"
+
+ every_attendee_with_lower_learning: "ผู้เข้าร่วมทุกคนที่มี [learning|E] ต่ำกว่าท่าน"
+ every_attendee_with_greater_learning: "ผู้เข้าร่วมทุกคนที่มี [learning|E] สูงกว่าท่าน"
+
+ festival_returned_my_possession: "คืนทรัพย์สินของข้า"
+ festival_advanced_upon_my_spouse: "เข้าหาคู่ครองของข้า"
+ festival_shared_a_secret: "แบ่งปันความลับ"
+ festival_extended_an_invitation: "มอบคำเชิญอันอบอุ่น"
+ festival_cast_me_aside: "ทอดทิ้งข้า"
+
+ house_relation_reason_shared_mockery_desc: "[char.GetShortUIName|U] แบ่งปันช่วงเวลาแห่งความสุขจากการเยาะเย้ยกับ [target_char.GetShortUIName]"
+ house_relation_reason_appreciated_assistance_desc: "[char.GetShortUIName|U] ให้ความช่วยเหลือแก่ [target_char.GetShortUIName]"
+ house_relation_reason_appreciated_discreet_note_desc: "[char.GetShortUIName|U] ส่งจดหมายตักเตือนอย่างลับๆ ให้ [target_char.GetShortUIName]"
+ house_relation_reason_malicious_slander_desc: "[char.GetShortUIName|U] ใส่ร้าย [target_char.GetShortUIName]"
+ house_relation_reason_bolstered_reputation_desc: "[char.GetShortUIName|U] สนับสนุนชื่อเสียงของ [target_char.GetShortUINamePossessive]"
+ house_relation_reason_moon_gazed_desc: "[char.GetShortUIName|U] ชื่นชมดวงจันทร์กับ [target_char.GetShortUIName]"
+ house_relation_reason_sake_forgiven_desc: "[char.GetShortUIName|U] ให้อภัย [target_char.GetShortUIName] ที่ทำสาเกหกรด"
+ house_relation_reason_sake_insult_desc: "[target_char.GetShortUIName] ทำสาเกหกรด [char.GetShortUIName|U]"
+ house_relation_reason_wit_praised_desc: "[char.GetShortUIName|U] ชื่นชมปฏิภาณไหวพริบของ [target_char.GetShortUINamePossessive]"
+ house_relation_reason_toasted_head_desc: "[char.GetShortUIName|U] ดื่มอวยพรให้ [target_char.GetShortUIName]"
+ house_relation_reason_exposed_my_state_desc: "[char.GetShortUIName|U] เปิดโปงสภาพอันน่าอับอายของ [target_char.GetShortUINamePossessive]"
+ house_relation_reason_shared_secret_desc: "[char.GetShortUIName|U] และ [target_char.GetShortUIName] แบ่งปันความลับ"
+ house_relation_reason_extended_a_kind_invitation_desc: "[char.GetShortUIName|U] มอบคำเชิญอันอบอุ่นแก่ [target_char.GetShortUIName]"
+ house_relation_reason_forced_to_back_off_desc: "[char.GetShortUIName|U] บีบให้ [target_char.GetShortUIName] ต้องล่าถอย"
+ house_relation_reason_came_to_my_aid_desc: "[char.GetShortUIName|U] เข้ามาช่วยเหลือ [target_char.GetShortUIName]"
+ house_relation_reason_gifted_a_fan_desc: "พัดประดับของ [char.GetShortUINamePossessive] ถูก "มอบ" ให้แก่คู่ครองของ [target_char.GetShortUINamePossessive]"
+ house_relation_reason_compelled_poetry_desc: "[char.GetShortUIName|U] บังคับให้ [target_char.GetShortUIName] แต่งบทกวี"
+
+ festival.1000.t: "สหายผู้ทรงเกียรติ"
+ festival.1000.desc: "ขณะเพลิดเพลินกับความก้าวหน้าอย่างเนิบนาบของงานรื่นเริงอย่างเงียบๆ [bloc_member_head_1.GetTitledFirstName] แห่ง [bloc_member_head_1.GetHouse.GetBaseName] [bloc_member_head_2.GetTitledFirstName] แห่ง [bloc_member_head_2.GetHouse.GetBaseName] และข้า พบว่าตนเองกำลังแลกเปลี่ยนคำทักทายและขนมหวานกันในที่ร่ม"
+ festival.1000.outro: "\n\nเราทั้งสามสามารถนับตนเองเป็นหนึ่งในขุนนางชั้นแนวหน้าของอาณาจักร และโอกาส เช่นนี้ที่จะได้พบปะสังสรรค์กันอย่างเป็นธรรมชาติมีน้อยและห่างไกลนัก"
+ festival.1000.a: ""ข้าถือว่าตระกูลของข้าโชคดีที่มีสหายคุณภาพ เช่นนี้""
+ festival.1000.b: ""ข้านับ [bloc_member_head_1.GetHouse.GetBaseNameNoTooltip] เป็นหนึ่งในสหายผู้มีเกียรติของข้า""
+ festival.1000.c: "[bloc_member_head_1.GetFirstNameNoTooltip] ท่านสนุกกับการก้มหัวให้ [bloc_member_head_1.GetHouse.GetConfederation.GetLeadingHouse.GetBaseNameNoTooltip] หรือไม่?"
+ festival.1000.e: ""คฤหาสน์ของ [bloc_member_head_1.GetHouse.GetBaseNameNoTooltip] เป็นภาพที่น่าชมยิ่ง""
+ festival.1000.f: ""ปีนี้ [bloc_member_head_2.GetHouse.GetBaseNameNoTooltip] แสดงผลงานได้อย่างยอดเยี่ยม""
+ festival.1000.g: "ช่วงเวลา เช่นนี้ควรค่าแก่การชื่นชม"
+
+ festival.2000.t: "แยกย้าย"
+ festival.2000.intro_desc: "เมื่องานรื่นเริงยามค่ำคืนจางลงและเปิดทางให้แสงสีทองแรกของรุ่งอรุณ ผู้เข้าร่วมงานต่างดื่มด่ำกับช่วงเวลาสุดท้ายเหล่านี้ก่อนที่จะกลับไปสู่ความจำเจของภาระหน้าที่ประจำวัน\n\n"
+ festival.2000.intro_part_two: "[ROOT.Char.Custom2( 'RelationToMeShort', friendly_attendee )] ของข้า [friendly_attendee.GetTitledFirstName] เข้ามาใกล้ "มิตรภาพของท่านเป็นที่ต้อนรับอย่างยิ่งในช่วงหลายวันที่ผ่านมา" [friendly_attendee.GetSheHe] หยุดเพื่อยิ้มอย่างอบอุ่น\n\n"
+ festival.2000.bloc_invitation: ""มากเสียจนข้าและมิตรสหายอยากจะขอเรียนเชิญ: ให้ท่านนับตนเองเป็นหนึ่งในพวกเรา และในทางกลับกัน พวกเราจะคอยหนุนหลังท่านเสมอ""
+ festival.2000.befriending: ""คงจะเป็นเกียรติอย่างสูงหากท่านจะนับข้าเป็นหนึ่งในคนสนิทของท่านในอนาคต""
+ festival.2000.nobody_likes_you: "กระแสธารของผู้คนที่ง่วงงุนและอิ่มหนำจากที่พักสู่ท้องถนนค่อยๆ เหือดหายไปจนหมด และในไม่ช้าก็เหลือเพียงคณะผู้ติดตามของข้าและตัวข้าเท่านั้น"
+
+ festival.2000.a_accept: "ท่านสามารถวางใจในการสนับสนุนของข้าได้ เช่นเดียวกับที่ข้าจะวางใจในท่าน"
+ festival.2000.a_decline: "ข้าขอบคุณท่าน แต่ข้าพึงพอใจในสิ่งที่ข้าเป็นอยู่"
+ festival.2000.b_accept: "สายสัมพันธ์ เช่นนี้หาได้ยาก และควรค่าแก่การทะนุถนอม"
+ festival.2000.b_decline: "ข้าซาบซึ้งในความนับถือของท่าน แต่ข้าต้องขอปฏิเสธ"
+ festival.2000.c: "เราจะจดจำความสุขชั่วครู่นี้ไว้ในความทรงจำ"
+
+ friend_festival_bonding: "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ผูกสัมพันธ์กันในช่วงเวลาที่ใช้ร่วมกันในเทศกาล"
+
+ festival_intent_target_joined_bloc_title: "สร้างสายสัมพันธ์"
+ festival_intent_target_left_bloc_title: "สายสัมพันธ์ที่ขาดสะบั้น"
+
+ festival_joined_a_bloc_log_title: "$festival_intent_target_joined_bloc_title$"
+ festival_joined_a_bloc_log: "[ROOT.Char.GetName] เข้าร่วม [bloc_name.GetName]"

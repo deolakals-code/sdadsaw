@@ -1,0 +1,16 @@
+﻿l_english: 
+ hold_court_written_language_women_modifier:0 "ภาษาของสตรี"
+ hold_court_written_language_women_modifier_desc:0 "ตัวละครนี้ได้เรียนรู้การใช้ภาษาเขียนที่พัฒนาขึ้นสำหรับสตรีโดยเฉพาะ"
+ hold_court_written_language_women_advanced_modifier:0 "ภาษาของสตรีขั้นสูง"
+ hold_court_written_language_women_advanced_modifier_desc:0 "ตัวละครนี้มีความคล่องแคล่วและความเข้าใจอย่างลึกซึ้งในภาษาเขียนที่พัฒนาขึ้นสำหรับสตรีโดยเฉพาะ"
+
+ hold_court_written_language_men_modifier:0 "ภาษาของบุรุษ"
+ hold_court_written_language_men_modifier_desc:0 "ตัวละครนี้ได้เรียนรู้การใช้ภาษาเขียนที่พัฒนาขึ้นสำหรับบุรุษโดยเฉพาะ"
+ hold_court_written_language_men_advanced_modifier:0 "ภาษาของบุรุษขั้นสูง"
+ hold_court_written_language_men_advanced_modifier_desc:0 "ตัวละครนี้มีความคล่องแคล่วและความเข้าใจอย่างลึกซึ้งในภาษาเขียนที่พัฒนาขึ้นสำหรับบุรุษโดยเฉพาะ"
+
+ hold_court_distracted_tutor_modifier:0 "ผู้สอนที่วอกแวก"
+ hold_court_distracted_tutor_modifier_desc:0 "ตัวละครนี้ถูกเบี่ยงเบนความสนใจจากหน้าที่การสอนด้วยความรับผิดชอบเพิ่มเติม"
+
+ hold_court_8310_harsh_integration_county_modifier: "การผนวกรวมอย่างเข้มงวด"
+ hold_court_8310_harsh_integration_county_modifier_desc: "การต่อต้านการยอมรับกฎหมายของอาณาจักรใหม่จะไม่เป็นที่ยอมรับในเคาน์ตีนี้"

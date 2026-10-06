@@ -1,0 +1,63 @@
+﻿l_english: 
+ insult_poetry.0001.t:0 "คำสบประมาท!"
+ insult_poetry.0001.from_other:0 "[actor.GetTitledFirstName] ได้ส่งบทกวีมาให้ท่าน:\n"
+ insult_poetry_line_1_a_01:1 "#EMP \nเจ้าโง่เขลายิ่งกว่า [ROOT.GetCharacter.Custom('rhyme_group_a_one')] เสียอีก!#!"
+ insult_poetry_line_1_a_02:1 "#EMP \nเจ้าอัปลักษณ์ยิ่งกว่า [ROOT.GetCharacter.Custom('rhyme_group_a_one')] เสียอีก!#!"
+ insult_poetry_line_1_b_01:1 "#EMP \nเจ้าโง่เขลายิ่งกว่า [ROOT.GetCharacter.Custom('rhyme_group_b_one')] เสียอีก!#!"
+ insult_poetry_line_1_b_02:1 "#EMP \nเจ้าอัปลักษณ์ยิ่งกว่า [ROOT.GetCharacter.Custom('rhyme_group_b_one')] เสียอีก!#!"
+ insult_poetry_line_1_c_01:1 "#EMP \nผู้ต่ำต้อยเกินกว่าจะแม้แต่ [ROOT.Char.Custom('rhyme_group_c_one')] เสียอีก!#!"
+ insult_poetry_line_1_c_02:1 "#EMP \nคนนอกคอก ผู้ไม่คู่ควรแม้แต่กับ [ROOT.Char.Custom('rhyme_group_c_one')]!#!"
+
+ insult_poetry_line_2_a_01:1 "#EMP \nราวกับไม่มีผู้ใดแม้แต่จะ [ROOT.GetCharacter.Custom('rhyme_group_a_two')]!#!"
+ insult_poetry_line_2_a_02:1 "#EMP \nยิ่งกว่าที่พระเจ้าจะ [ROOT.GetCharacter.Custom('rhyme_group_a_two')] เสียอีก!#!"
+ insult_poetry_line_2_b_01:1 "#EMP \nการอยู่ใกล้เจ้าคือ [ROOT.GetCharacter.Custom('rhyme_group_b_two')] โดยแท้!#!"
+ insult_poetry_line_2_b_02:1 "#EMP \nยิ่งกว่า [ROOT.GetCharacter.Custom('rhyme_group_b_two')] ของพระองค์เสียอีก!#!"
+ insult_poetry_line_2_c_01:1 "#EMP \nไม่คู่ควรแม้แต่จะถูก [ROOT.GetCharacter.Custom('rhyme_group_c_two')]!#!"
+ insult_poetry_line_2_c_02:1 "#EMP \nแน่นอนว่าเจ้าคงคุ้นเคยกับการถูก [ROOT.GetCharacter.Custom('rhyme_group_c_two')]!#!"
+
+ insult_poetry_recipient_line_1_a_01:1 "#EMP \nเจ้าโง่เขลายิ่งกว่า [recipient.Custom('rhyme_group_a_one')] เสียอีก!#!"
+ insult_poetry_recipient_line_1_a_02:1 "#EMP \nเจ้าอัปลักษณ์ยิ่งกว่า [recipient.Custom('rhyme_group_a_one')] เสียอีก!#!"
+ insult_poetry_recipient_line_1_b_01:1 "#EMP \nเจ้าโง่เขลายิ่งกว่า [recipient.Custom('rhyme_group_b_one')] เสียอีก!#!"
+ insult_poetry_recipient_line_1_b_02:1 "#EMP \nเจ้าอัปลักษณ์ยิ่งกว่า [recipient.Custom('rhyme_group_b_one')] เสียอีก!#!"
+ insult_poetry_recipient_line_1_c_01:1 "#EMP \nผู้ต่ำต้อยเกินกว่าจะแม้แต่ [ROOT.Char.Custom('rhyme_group_c_one')] เสียอีก!#!"
+ insult_poetry_recipient_line_1_c_02:1 "#EMP \nคนนอกคอก ผู้ไม่คู่ควรแม้แต่กับ [ROOT.Char.Custom('rhyme_group_c_one')]!#!"
+
+ insult_poetry_recipient_line_2_a_01:1 "#EMP \nราวกับไม่มีผู้ใดแม้แต่จะ [recipient.Custom('rhyme_group_a_two')]!#!"
+ #insult_poetry_recipient_line_2_a_02: "#EMP \nMore than even God [recipient.Custom('rhyme_group_a_two')]#!"
+ insult_poetry_recipient_line_2_b_01:1 "#EMP \nการอยู่ใกล้เจ้าคือ [recipient.Custom('rhyme_group_b_two')] โดยแท้!#!"
+ #insult_poetry_recipient_line_2_b_02: "#EMP \nMore than even the Lord's [recipient.Custom('rhyme_group_b_two')]#!"
+ insult_poetry_recipient_line_2_c_01:1 "#EMP \nไม่คู่ควรแม้แต่จะถูก [recipient.Custom('rhyme_group_c_two')]!#!"
+ insult_poetry_recipient_line_2_c_02:1 "#EMP \nแน่นอนว่าเจ้าคงคุ้นเคยกับการถูก [recipient.Custom('rhyme_group_c_two')]!#!"
+ 
+ insult_poetry.0001.a:0 "เจ้ากล้าดีอย่างไร?"
+
+ #Rhyme group A
+ insult_cow:0 "วัว"
+ insult_plough:0 "คันไถ"
+ insult_prow:0 "หัวเรือใหญ่"
+ insult_sow:0 "แม่สุกร"
+
+ insult_should_allow:0 "ควรยอม"
+ insult_understands_how:0 "รู้วิธีทำ"
+ insult_knows_quite_how:0 "รู้ดีนัก"
+ insult_could_use_as_a_plough:0 "ใช้ไถนาได้"
+ 
+ #Rhyme group B
+ insult_dog:0 "หมา"
+ insult_bog:0 "ปลักตม"
+ insult_hog:0 "หมูตอน"
+ insult_sprog:0 "ไอ้หนู"
+ insult_slog:0 "ภาระ"
+ insult_clog:0 "ตัวถ่วง"
+ insult_grog:0 "เหล้าเถื่อน"
+
+ #Rhyme group C
+ insult_hunt:0 "การล่า"
+ insult_grunt:0 "เสียงหืดหาด"
+ insult_stunt:0 "เรื่องโง่ๆ"
+ insult_punt:0 "การถูกเตะทิ้ง"
+
+ insult_runt:0 "ถูกว่าเป็นไอ้แคระ"
+ insult_errant:0 "คนจรจัด"
+ insult_shunt:0 "ถูกกีดกัน"
+ insult_blunt:0 "ถูกว่าทื่อมะลื่อ"

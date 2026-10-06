@@ -1,0 +1,123 @@
+﻿l_english: 
+ bm_1066_rags_to_riches:0 "จากยาจกสู่ราชา"
+ bm_1066_rags_to_riches_desc:1 "#V #font:TitleFont #size:20 @legends_of_ck_icon! ตำนานแห่ง Crusader Kings III#!#!#!\n\nทั่วยุโรป ตระกูลต่าง ๆ ต่อสู้และวางแผนเพื่ออำนาจ ดินแดนมากมายตกอยู่ในการโต้แย้ง ขณะที่การรบมีทั้งแพ้และชนะ และราชวงศ์ต่าง ๆ เกิดขึ้นและล่มสลาย เมื่อผู้ปกครองของพวกเขาถูกชิงไหวชิงพริบ\n\n#bold กษัตริย์ในอดีตกำลังถูกแทนที่ ขณะที่ผู้มาใหม่เอื้อมมือคว้าดวงดาว ท่านจะเป็นใคร?#!"
+
+ # Murchad Briain, Duke of Munster, Ireland
+ bookmark_rags_to_riches_petty_king_murchad:0 "เจ้าผู้ครองแคว้นมูร์คาด"
+ bookmark_rags_to_riches_petty_king_murchad_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_rags_to_riches_petty_king_murchad_desc:0 "[diplomacy_lifestyle_i] #V #font:TitleFont #size:15 ตำนานแห่ง Crusader Kings III#!#!#!\nในช่วงต้นศตวรรษที่ 11 ตำแหน่งมหาราชาแห่งไอร์แลนด์ตกอยู่ในและหลุดออกจากเงื้อมมือของตระกูลไบรอัน ขณะที่ตระกูลขุนนางไอริชทำสงครามแย่งชิงดินแดน ทั้งต่อสู้กันเองและต่อสู้กับผู้ตั้งถิ่นฐานชาวไวกิ้ง ทว่า แม้จะสืบเชื้อสายมาจากเหล่าบุรุษที่ถูกลิขิตให้เป็นกษัตริย์ แต่ก็ไม่ค่อยมีใครรู้เรื่องราวเกี่ยวกับการครองราชย์อันสั้นของมูร์คาดเหนือพื้นที่เล็ก ๆ ของมันสเตอร์มากนัก\n\n#bold ด้วยความช่วยเหลือของท่าน บางทีสมาชิกของตระกูลไบรอันอาจได้นั่งบัลลังก์ไอร์แลนด์อีกครั้ง?#!"
+
+ bookmark_rags_to_riches_petty_king_murchad_alt_brian:0 "$Brian$"
+ bookmark_rags_to_riches_petty_king_murchad_alt_bebinn:0 "$BE_binn$"
+
+ # Matilda di Canossa, Duchess of Tuscany, Italy
+ bookmark_rags_to_riches_duchess_matilda:0 "ดัชเชสมาทิลดา"
+ bookmark_rags_to_riches_duchess_matilda_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_rags_to_riches_duchess_matilda_desc:0 "[learning_lifestyle_i] #V #font:TitleFont #size:15 ตำนานแห่ง Crusader Kings III#!#!#!\nในพรมอันซับซ้อนของอิตาลีตอนเหนือในศตวรรษที่ 11 มาทิลดาแห่งคานอสซาพบว่าตนเองปกครองอาณาจักรอันกว้างใหญ่หลังจากการเสียชีวิตอันโชคร้ายหลายครั้งในครอบครัว ตำนานความศรัทธาของมาทิลดาและเสียงกระซิบเรื่องเวทมนตร์ช่วยเพิ่มความลึกลับให้กับการครองราชย์ของนาง\n\n#bold ท่านจะสามารถปกป้องการปกครองของนาง ทำให้แน่ใจว่าสายเลือดคานอสซาจะคงอยู่ต่อไปอีกหลายชั่วอายุคนในภูมิทัศน์ที่เปลี่ยนแปลงตลอดเวลาของอิตาลียุคกลางได้หรือไม่?#!"
+
+ # Yahya Dhunnunid, Emir (Duke) of Toldeo, Iberia
+ bookmark_rags_to_riches_emir_yahya:0 "เอมีร์ยะห์ยา"
+ bookmark_rags_to_riches_emir_yahya_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_rags_to_riches_emir_yahya_desc:1 "[intrigue_lifestyle_i] #V #font:TitleFont #size:15 ตำนานแห่ง Crusader Kings III#!#!#!\nราชอาณาจักรโตเลโดจะก่อตั้งขึ้นในช่วงปลายศตวรรษที่ 11 เมื่อกษัตริย์แห่งเลออนเข้ายึดครองเมืองที่มีชื่อเดียวกัน การกำจัดเอมีร์ยะห์ยาและอิทธิพลของเขาหมายความว่าตระกูลซุนนูนิดจะสูญเสียการควบคุมในภูมิภาคที่พวกเขาปกครองมาหลายชั่วอายุคน\n\n#bold ด้วยการชักใยคู่แข่งของท่าน และหาพันธมิตรเพิ่ม ท่านมีคุณสมบัติพอที่จะท้าทายเหล่ากษัตริย์แห่งคาบสมุทรไอบีเรียและเปลี่ยนแปลงประวัติศาสตร์ของตระกูลซุนนูนิดหรือไม่?#!"
+
+ bookmark_rags_to_riches_emir_yahya_alt_zahida:0 "$Zahida$"
+ bookmark_rags_to_riches_emir_yahya_alt_yahya2:0 "$Yahya$"
+
+ # Vratislav Premyslid, Duke of Bohemia, Czechia
+ bookmark_rags_to_riches_duke_vratislav:0 "ดยุกวราติสลาฟ"
+ bookmark_rags_to_riches_duke_vratislav_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_rags_to_riches_duke_vratislav_desc:0 "[stewardship_lifestyle_i] #V #font:TitleFont #size:15 ตำนานแห่ง Crusader Kings III#!#!#!\nตระกูลเปชมิสลิดปกครองภูมิภาคโบฮีเมียมานานหลายร้อยปี พวกเขาพึ่งพาระบบอาวุโส (Seniority) ในการสืบทอดตำแหน่ง ซึ่งในกรณีของดยุกวราติสลาฟ ในที่สุดจะนำไปสู่ความขัดแย้งอย่างรุนแรงกับพี่น้องของเขา\n\n#bold เพื่อที่จะเป็นกษัตริย์แห่งโบฮีเมีย วราติสลาฟจะต้องใช้ทรัพยากรอย่างมีชั้นเชิง ทั้งที่เป็นวัตถุและไม่ใช่ — ท่านพร้อมสำหรับภารกิจนี้หรือไม่?#!"
+
+ bookmark_rags_to_riches_duke_vratislav_alt_judita:0 "$Judita$"
+ bookmark_rags_to_riches_duke_vratislav_alt_ota:0 "$Ota$ $nick_the_handsome$"
+
+
+ # Robert 'The Fox' de Hauteville, Duke of Apulia, Sicily
+ bookmark_rags_to_riches_duke_robert:0 "ดยุกรอแบร์"
+ bookmark_rags_to_riches_duke_robert_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_rags_to_riches_duke_robert_desc:0 "[martial_lifestyle_i] #V #font:TitleFont #size:15 ตำนานแห่ง Crusader Kings III#!#!#!\nรอแบร์เริ่มต้นอาชีพด้วยการเป็นโจรและหัวหน้ากองโจรปล้นสะดม ในฐานะที่เป็นหนึ่งในพี่น้องหลายคน บุตรชายผู้รักการผจญภัยไม่เคยถูกคาดการณ์ว่าจะกลายเป็นนักยุทธศาสตร์และรัฐบุรุษผู้ปราดเปรื่อง ปกครองดินแดนอันกว้างใหญ่ — ทว่าเขาก็มาถึงจุดนี้ ดยุกผู้ทรงอำนาจแห่งอิตาลีตอนใต้ พร้อมที่จะก้าวสู่เส้นทางแห่งประวัติศาสตร์ ซึ่งจะ ทำให้ตระกูลโอตวีลมีฐานที่มั่นในซิซิลีนานกว่าร้อยปี\n\n#bold หากท่านสามารถรวบรวมอำนาจในอาณาจักรได้ ราชอาณาจักรซิซิลีรอคอยผู้ปกครองอยู่!#!"
+
+ bookmark_rags_to_riches_duke_robert_alt_bohemond:0 "$Bohemond$"
+ bookmark_rags_to_riches_duke_robert_alt_roger:0 "$Roger$"
+ 
+ bookmark.1066.t: "ภาวะกลืนไม่เข้าคายไม่ออกเรื่องการสมรสของมาทิลดา"
+ bookmark.1066.desc: "สิบเอ็ดปีก่อน มารดาของข้า [mum.GetFirstName] ได้จัดการหมั้นหมายของข้ากับ [hunchback.GetFirstNameNicknamed] พี่เลี้ยงต่างบิดาของข้าและบุตรชายของสามีใหม่ของมารดาข้า [hunchbacks_father.GetTitledFirstNameNicknamed]\n\nแม้ว่าพันธมิตรกับ [hunchbacks_father.GetPrimaryTitle.GetBaseNameNoTier] จะเป็นประโยชน์ แต่นี่คืออนาคตที่พระเจ้าทรงประสงค์สำหรับตระกูล [ROOT.Char.GetHouse.GetBaseName] อันทรงเกียรติจริงหรือ?\n\nข้า #EMP ต้อง#! ดำเนินการเพื่อปกป้องอนาคตของสายเลือดข้า!"
+ bookmark.1066.a: "พระเยซูสิ้นพระชนม์เพื่อบาปของเรา บาปอีกสักครั้งคงไม่เป็นไร"
+ bookmark.1066.b: "ข้าจะหลีกเลี่ยงเขาไปจนวันตาย"
+ bookmark.1066.c: "แม้การหย่าร้างจะเป็นไปไม่ได้ แต่ข้าก็ยังมีอิทธิพลต่อพระสันตะปาปา..."
+ bookmark.1066.d: "ข้ายอมรับชะตาชีวิตของข้า..."
+ lineality_warning: "@warning_icon! #X การเลือก [marriage|E] แบบ [patrilineal|E] ท่านเสี่ยงที่จะ Game Over เนื่องจากบุตรของท่านจะไม่ได้อยู่ใน [dynasty|E] ของท่าน!#!"
+ bookmark.1066.a_flavor: "[hunchback.GetFirstName] สุขภาพไม่ค่อยดีนัก เขาแค่ต้องการแรงผลักเบา ๆ ไปสู่หลุมศพ..."
+ bookmark.1066.b_flavor: "หากข้าหลีกเลี่ยงที่จะพบเขา ตระกูลของเขาก็ไม่สามารถอ้างสิทธิ์ในดินแดนของข้าได้"
+ bookmark.1066.c_flavor: "ด้วยการใช้เส้นสาย ข้าสามารถ ทำให้การสมรสของเราเป็นแบบ [matrilineal|E] ทำให้มั่นใจได้ว่าบุตรของเราจะอยู่ใน [house|E] และ [dynasty|E] ของข้า"
+ abandoned_marriage_modifier: "ละทิ้งการสมรส"
+ abandoned_marriage_modifier_desc: "ตัวละครนี้ละทิ้งคู่สมรส ซึ่งในทางเทคนิคแล้วยังคงสมรสกันอยู่...\nการยอมรับ [marriage|E]: #N -150#!"
+ ABANDONED_SPOUSE_MODIFIER: "ท่านมี [GetModifier('abandoned_marriage_modifier').GetNameWithTooltip]: $VALUE|=+0$"
+ 
+ bookmark.1067.t: "เสียงกระซิบเรื่องเวทมนตร์"
+ bookmark.1067.desc: "กองไฟลุกโชนและสั่นไหวขณะที่ [witch.GetFirstName] หยิบตำราเล่มหนึ่งออกมาจากกระเป๋า กลิ่นหอมหวานของสมุนไพรแห้งอบอวลไปในอากาศยามค่ำคืน\n\n"ความลับของข้าไม่ได้มอบให้ใครง่าย ๆ" นางสบตาข้า "ในฐานะผู้ปกครองอายุน้อย และเป็นสตรี โอกาสของท่านมีน้อย: ความรู้อันล้ำค่าที่สุดของข้านี้ จะช่วยให้ท่านเจริญรุ่งเรืองในโลกที่ มิฉะนั้นจะเห็นท่านพินาศ"\n\nสตรีลึกลับดูเหมือนตั้งใจจะแบ่งปันปัญญาของนาง... แต่นี่คือสิ่งที่เหล่านักบวชเตือนข้าไว้"
+ bookmark.1067.a: "สอนข้าทุกอย่าง ช่างหัวพวก [ROOT.Char.GetFaith.PriestMalePlural]!"
+ bookmark.1067.a_flavor: "@warning_icon! #X ตัวเลือกนี้จะทำให้ท่านได้รับ [secret|E] ที่เป็น [criminal|E]!#!"
+ bookmark.1067.b: "ไม่ นี่เป็นความคิดนอกรีต"
+ bookmark.1067.b_flavor: "ศรัทธาของข้าใน [ROOT.Char.GetFaith.HighGodName] คือทั้งหมดที่ข้าต้องการ"
+ 
+ bookmark.1068.t: "ชายแดนสลาฟ"
+ bookmark.1068.desc: "[GetTitleByKey('d_meissen').GetNameNoTier] และ [GetTitleByKey('d_lausitz').GetNameNoTier] โอ้ ข้าปรารถนาดินแดนอันอุดมสมบูรณ์และรุ่งเรืองเหล่านั้นเพียงใด!\n\nเจ้าเหนือหัวของข้า [emperor.GetTitledFirstNameNicknamed] ได้สัญญาว่าจะมอบดินแดนเหล่านั้นให้ข้าเพื่อแลกกับความภักดี แต่ข้ารู้ว่านี่เป็นเพียงคำพูดลม ๆ แล้ง ๆ [emperor.GetSheHe] จะไม่สามารถมอบให้ข้าได้\n\nข้าสามารถยอมรับคำพูดของ [emperor.GetTitleAsNamePossessiveNoTooltip] ตามที่เป็นอยู่ — คำสรรเสริญสำหรับอุปนิสัยอันสูงส่งของข้า แต่ไม่มีอะไรมากไปกว่านั้น — หรือข้าสามารถจัดการเรื่องนี้ด้วยตนเอง"
+ bookmark.1068.a: "ดินแดนเหล่านั้นจะเป็นของข้า ด้วยกำลัง!"
+ bookmark.1068.a_flavor: "ในการเพิ่ม [titles|E] เข้าไปใน [realm|E] ของท่าน ท่านอาจจะต้องทำ [war|E] โดยใช้ [claim|E] [casus_belli|E]"
+ bookmark.1068.b: "ข้าจะอาบแสงแห่งความโปรดปรานของ [emperor.GetTitleAsNamePossessiveNoTooltip]"
+ bookmark.1068.b_flavor: "[emperor.GetTitleAsNameNoTooltip] [liege|E] ของท่าน จะติดหนี้ [hook|E] แก่ท่าน ซึ่งสามารถใช้ประโยชน์ได้หลายอย่าง — เช่น การเรียกร้อง [marriage|E] ที่เป็นประโยชน์"
+ 
+ bookmark.1069.t: "น้องชายของข้า [jaromir.GetFirstNameNoTooltip]"
+ bookmark.1069.desc: "หนามยอกอกข้าเสมอมา [jaromir.GetFirstName] น้องชาย 'สุดที่รัก' ของข้า ต่อต้านอำนาจข้าทุกครั้ง\n\nเขาไม่เหมือน [john_monk.GetFirstName] แห่งเบรฟนอฟ สหายที่ดีของข้าเลย — นักบวชผู้ศรัทธาและ #EMP ไม่ก่อกวน#! ผู้รับใช้ [ROOT.Char.GetFaith.HighGodName] ในนามของข้า โอ้ หากเพียง แต่เป็น [john_monk.GetFirstNameNoTooltip] ที่ทำหน้าที่เป็น [jaromir.GetCouncilTitle|U] ของข้า...\n\nบางทีเขาอาจจะทำได้?"
+ bookmark.1069.a: "ข้าจะขับไล่ [jaromir.GetFirstNameNoTooltip]! [jaromir.GetTitleAsNameNoTooltip] คนใหม่ของข้าจะเป็น [john_monk.GetFirstNameNoTooltip]!"
+ bookmark.1069.a_flavor: "การมี [councillor|E] ที่มี [skills|E] สูงและเป็น [friend|E] ของท่านนั้นมีประโยชน์อย่างยิ่ง เนื่องจาก [councillor_tasks|E] จะเสร็จเร็วขึ้น — แต่การ ทำให้ [head_of_faith|E] ของท่านขุ่นเคืองนั้นเสี่ยงเสมอ เนื่องจากพวกเขาอาจปฏิเสธคำขอ [claims|E] หรือ [gold|E] ของท่าน"
+ bookmark.1069.b: "[jaromir.GetFirstNameNoTooltip] ก็เป็นครอบครัว... และทองคำก็ข้นกว่าเลือด"
+ bookmark.1069.b_flavor: "การกำจัด [Concept( 'rival', 'rivalry' )|E] ระหว่างท่านกับน้องชายจะช่วยลดความเสี่ยงที่จะถูก [GetScheme('murder').GetTypeName] ลงอย่างมาก"
+ bookmark.1069.c: "ข้าต้องดูแลเรื่องที่ไม่เกี่ยวกับทางจิตวิญญาณ..."
+ bookmark.1069.c_flavor: "บางครั้งการไม่ทำอะไรเลยก็เป็นทางเลือกที่ดีที่สุด"
+ 
+ bookmark.1070.t: "ซิซิลีของชาวนอร์มัน"
+ bookmark.1070.desc: "ชีวิตในฐานะดยุกนั้นดีกว่าชีวิตโจร... แต่ชีวิตในฐานะกษัตริย์จะเหมาะกับข้ามากกว่า\n\nด้วยพระคุณของพระเจ้าและนักบุญเปโตร ข้าปกครอง [GetTitleByKey('d_apulia').GetNameNoTier] และ [GetTitleByKey('d_calabria').GetNameNoTier] — แต่ด้วยพระคุณของ #EMP สหายเก่า#! ไม่กี่คนจากสมัยที่ข้าเป็นโจรปล้นสะดม ข้าสามารถปกครอง [GetTitleByKey('k_sicily').GetName] ทั้งหมดได้ ไม่ว่าพระสันตะปาปาหรือจักรพรรดิจะคิดอย่างไร\n\nถึงเวลาลงมือแล้ว"
+ bookmark.1070.a: "ทั้งหมด และมากกว่านั้น จะเป็นของข้า!"
+ bookmark.1070.b: "บางทีข้าควรอยู่ห่างจากจักรวรรดิ"
+ bookmark.1070.c: "ทั้งพระสันตะปาปาและจักรพรรดิสามารถเก็บดินแดนของพวกเขาไว้ได้..."
+ norman_highwaymen: "โจรปล้นสะดมชาวนอร์มัน"
+ claim_sicily: "ท่านได้รับ [pressed_claims|E] เหนือ [rulers|E] ที่เล็กกว่าทั้งหมดภายใน [GetTitleByKey('k_sicily').GetName]"
+ 
+ bookmark.1071.t: "นักบวชผู้แอบอ้าง"
+ bookmark.1071.desc: ""...และนั่นคือเหตุผลที่ท่านควรสนับสนุนการอ้างสิทธิ์ของข้าเหนือ [GetTitleByKey('e_byzantium').GetNameNoTier]!" นักบวชกล่าว พลางหมอบกราบต่อหน้าข้า "ท่านจะได้รับพันธมิตรที่ท่านไว้วางใจได้ และการสนับสนุนทั้งหมดที่ท่านอาจต้องการ!"\n\nนักบวชผู้นี้เป็นนักต้มตุ๋นอย่างเห็นได้ชัด เขาไม่ใช่ #EMP 'จักรพรรดิแห่งจักรวรรดิโรมันผู้ถูกปลดอย่างไม่ยุติธรรม'#! ที่กล่าวอ้าง แต่เขา #EMP มี#! ประโยชน์\n\nแม้จะเป็นชาวนาต่ำต้อยที่มีสิทธิ์อ้างที่กุขึ้นมา ข้ออ้างในการทำสงครามก็คือข้ออ้างในการทำสงคราม..."
+ bookmark.1071.a: "ข้าจะ แต่งตั้งเขาขึ้นครองบัลลังก์ในคอนสแตนติโนเปิล!"
+ bookmark.1071.b: "อันที่จริง ข้าแค่อยากจะอ้างสิทธิ์ในท่าเรือไม่กี่แห่งเพื่อตัวเอง..."
+ bookmark.1071.c: "ข้าไม่อยู่ในฐานะที่จะช่วยท่านได้"
+ start_raiktor_war: "ท่านเริ่ม [war|E] ต่อต้าน [byz_emperor.GetShortUIName] เพื่อ [claim|E] [GetTitleByKey('e_byzantium').GetNameNoTier] ให้ [raiktor.GetShortUIName] และ [GetTitleByKey('k_epirus').GetName] ให้ตัวท่านเอง"
+ start_raiktor_conquest_war: "ท่านเริ่ม [war|E] ต่อต้าน [byz_emperor.GetShortUIName] เพื่อพิชิต [counties|E] แห่ง [GetTitleByKey('c_dyrrachion').GetNameNoTier], [GetTitleByKey('c_avlonas').GetNameNoTier], และ [GetTitleByKey('c_buthrotum').GetNameNoTier] ให้ [raiktor.GetShortUIName] ซึ่งจะกลายเป็น [vassal|E] ของท่าน"
+ gain_war_troops: "ท่านได้รับ [army|E] จำนวน #V 3000#! นาย ซึ่งจะสลายตัวไปหลัง [war|E]"
+ raiktor_claim_cb: "สิทธิ์อ้างของไรค์ทอร์"
+ raiktor_claim_cb_war: "สงครามสิทธิ์อ้างของไรค์ทอร์"
+ raiktor_claim_cb_name: "สิทธิ์อ้างของไรค์ทอร์"
+ raiktor_conquest_cb: "สิทธิ์อ้างของไรค์ทอร์"
+ raiktor_conquest_cb_war: "สงครามสิทธิ์อ้างของไรค์ทอร์"
+ raiktor_conquest_cb_name: "สิทธิ์อ้างของไรค์ทอร์"
+ you_gain_epirus: "[GetTitleByKey('k_epirus').GetName] และ [titles|E] ทั้งหมดภายในนั้นถูกยึดโดย [attacker.GetShortUIName|U]"
+ raiktor_gains_byzantium: "[claimant.GetShortUIName|U] ยึด [GetTitleByKey('e_byzantium').GetName]"
+ hard_raiktor_war: "นี่คือ [war|E] ที่ยากลำบาก ซึ่งท่านจะต้อง [occupy|E] พื้นที่ส่วนใหญ่ของ [de_jure|E] ไบแซนเทียม และเอาชนะ [armies|E] ของพวกเขา เพื่อที่จะชนะ"
+ easy_raiktor_war: "นี่คือ [war|E] ที่ง่ายกว่า ซึ่ง [occupations|E] และ [battles|E] จะให้ [war_score|E] มากกว่าปกติ"
+ raiktor_vassal_desc: "[vassal_to_be.GetShortUIName] ได้รับ [counties|E] แห่ง [GetTitleByKey('c_dyrrachion').GetNameNoTier], [GetTitleByKey('c_avlonas').GetNameNoTier], และ [GetTitleByKey('c_buthrotum').GetNameNoTier] และกลายเป็น [vassal|E] ของท่าน"
+ raiktor_vassal_backup_desc: "ท่านยึด [counties|E] แห่ง [GetTitleByKey('c_dyrrachion').GetNameNoTier], [GetTitleByKey('c_avlonas').GetNameNoTier], และ [GetTitleByKey('c_buthrotum').GetNameNoTier]"
+ guiscard_modifier: "กีสการ์"
+ guiscard_modifier_desc: "ตัวละครนี้มีเล่ห์เหลี่ยมและโหดเหี้ยมเป็นพิเศษ"
+ 
+ bookmark.1072.t: "พิชิตกอร์โดบา"
+ bookmark.1072.desc: "อา [GetTitleByKey('c_cordoba').GetNameNoTier] อันงดงาม! อดีตศูนย์กลางอำนาจของเคาะลีฟะฮ์ใน [GetTitleByKey('e_spain').GetNameNoTier] ในรัชสมัยของราชวงศ์อุมัยยะฮ์ รางวัลอันคู่ควรสำหรับผู้ปกครองทุกคนที่จะไล่ตาม\n\nบัดนี้ข้าต้องตัดสินใจ — ข้าจะพึ่งพากำลังทหาร หรือจะใช้เล่ห์เหลี่ยมของข้าเพื่อหว่านความไม่พอใจในหมู่พวกเขา?\n\nแนวทางที่ข้าเลือกจะเป็นแนวทางที่ข้าใช้ต่อจากนี้ไป"
+ bookmark.1072.a: "สงครามชนะได้ด้วยคำพูดและคมมีดที่วางไว้อย่างดี..."
+ bookmark.1072.b: "ข้าต้องพึ่งพากองทัพ"
+ bookmark.1072.c: "[GetTitleByKey('c_cordoba').GetNameNoTierNoTooltip] รอได้"
+ start_cordoba_war: "ท่านเริ่ม [war|E] ต่อต้าน [cordoba_holder.GetShortUIName] เพื่อพิชิต [county|E] แห่ง [GetTitleByKey('c_cordoba').GetNameNoTier] #weak (และ [GetTitleByKey('c_cabra').GetNameNoTier] หาก [cordoba_holder.GetSheHe] ถือครองอยู่)#!"
+ intrigue_challenge: "ทุกครั้งที่ท่านประกาศ [war|E] คู่ต่อสู้ของท่านต้องเอาชนะการดวล [intrigue|E][intrigue_i] กับท่านให้ได้ มิฉะนั้นจะได้รับ [modifier|E] [GetModifier('hampered_by_false_information_modifier').GetNameWithTooltip]"
+ hampered_by_false_information_modifier: "ถูกขัดขวางโดยข่าวกรองเท็จ"
+ hampered_by_false_information_modifier_desc: "กองทัพของตัวละครนี้กำลังถูก ทำให้เข้าใจผิดโดยกระแสข้อมูลที่ไม่ถูกต้อง ซึ่งป้อนให้โดยสายลับของศัตรู"
+ armies_hampered: "กองทัพถูกขัดขวาง"
+ armies_unhampered: "กองทัพไม่ถูกขัดขวาง"
+ intrigue_duel_on_attack_effect.success: "[attacker.GetShortUIName|U] ขัดขวาง [armies|E] ของ [defender.GetShortUINamePossessive]"
+ intrigue_duel_on_attack_effect.failure: "[attacker.GetShortUIName|U] ล้มเหลวในการขัดขวาง [armies|E] ของ [defender.GetShortUINamePossessive]"

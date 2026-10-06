@@ -1,0 +1,162 @@
+﻿l_english: 
+ murder_save_header: "การขัดขวางการลอบสังหาร:"
+ murder_save.failure_known_owner_tt:0 "[owner.GetTitledFirstNameNoTooltip] ลอบสังหารข้าล้มเหลว"
+ murder_save.failure_unknown_owner_tt:0 "มีใครบางคนลอบสังหารข้าล้มเหลว"
+ murder_save.used_up_guile_legacy_5_save:0 "ใช้การคุ้มครองของ [GetDynastyPerk('guile_legacy_5').GetName]"
+ murder_save.dynasty_member_used_guile_legacy_5_save:0 "ความพยายามลอบสังหาร"
+ murder_save.dynasty_member_used_guile_legacy_5_save_desc:0 "[target.GetTitledFirstName] รอดชีวิตจากการพยายามลอบสังหาร [target.GetHerHis] เนื่องจากการคุ้มครองของ [GetDynastyPerk('guile_legacy_5').GetName]!"
+
+ murder_save.0001.t:1 "$murder_save_header$ ขัดขวางด้วยรัก"
+ murder_save.0001.opening:1 "ความพยายามลอบสังหาร [target.GetTitledFirstNamePossessive] ของข้าถูกขัดขวาง!\n\nนักฆ่าได้หาทางของ[dummy_assassin_gender.GetHerHis]ไปยังห้องของ [target.GetTitleTierName] แต่พบว่า [target.GetHerHim] อยู่กับ""
+ murder_save.0001.rel_to_me:0 "—[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] ของข้า—"
+ murder_save.0001.end:0 "[lover.GetTitledFirstName] คนรักของ [target.GetHerHis]!\n\n[lover.GetFirstName] กระโจนเข้าช่วยเหลือ [target.GetFirstNamePossessive] และการต่อสู้ป้องกันตัวนั้น ทำให้ทั้ง [lover.GetHerHim] และนักฆ่าสิ้นใจอยู่บนพื้น"
+ murder_save.0001.a:0 "ข้าจะไม่มีวันได้ตัว [target.GetHerHim] แล้ว"
+ murder_save.0001.b:0 "ข้าต้องการแผนการใหม่..."
+
+ murder_save.1001.desc:0 ""เจ้าจะทำอันตราย [target.GetHerHim] ไม่ได้!" [lover.GetTitledFirstName] ตะโกนและกระโจนเข้าใส่ร่างเงาที่เข้ามาในห้องบรรทมของข้าพร้อมกริชที่ชักออกมา\n\nช่างเป็นทั้งพรและคำสาปที่ [lover.GetSheHe] อยู่กับข้าในคืนนี้ หากไม่มี [lover.GetHerHim] ข้าคงต้องเสียชีวิตไปแล้ว แต่การต่อสู้ครั้งนี้กลับ ทำให้ [lover.GetHerHim] เลือดไหลไม่หยุดในอ้อมแขนของข้า ข้างๆ นักฆ่าที่สิ้นใจไปแล้ว"
+ murder_save.1001.a:0 "คนชั่วช้าสารเลวตนใดอยู่เบื้องหลังเรื่องนี้?"
+ murder_save.1001.b:0 "[owner.GetTitledFirstNameNoTooltip] จะต้องชดใช้!"
+ murder_save.1001.c:0 "ให้เป็น [lover.GetFirstNameNoTooltip] ดีกว่าข้า!"
+
+ murder_save.0002.t:2 "$murder_save_header$ [SCOPE.Custom('VenomousCreatureAttackPlural')|U] แห่งรัก"
+ murder_save.0002.opening:0 "[target.GetTitledFirstName] ยังมีชีวิตอยู่!\n\n[SCOPE.Custom('VenomousCreature')] ถูกวางไว้ในเตียงนอนของ [target.GetTitleTierNamePossessive] แต่มันกลับโจมตีผิดเป้าหมาย! ผู้ที่นอนสิ้นใจอยู่กลับเป็น"
+ murder_save.0002.rel_to_me:0 "—[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] ของข้า—"
+ murder_save.0002.end:0 "[lover.GetTitledFirstName] คนรักของ [target.GetHerHis]!"
+
+ murder_save.1002.desc:1 ""กลับมาที่เตียงเถิด ที่รัก[lover.Custom('LoverPetName')]ของข้า..."\n\nข้ากำลังจะตอบรับคำเชิญของชู้รัก ทันใดนั้น [lover.GetSheHe] ก็เริ่มกรีดร้อง "มีอะไรหรือ?!" คำถามของข้าได้รับคำตอบเมื่อ [lover.GetSheHe] บิดตัวและดิ้นรนจนเผยให้เห็น[SCOPE.Custom('VenomousCreatureType')]ที่คลานอยู่ระหว่างผ้าปูที่นอน\n\nเมื่อหมอมาถึง [lover.GetFirstName] ก็เริ่มตัวแข็งและเย็นเฉียบแล้ว ข้าเองก็รู้สึกเย็นยะเยือก เช่นกัน [SCOPE.Custom('VenomousCreatureType')]ตัวนั้นมีเป้าหมายคือข้า"
+
+ murder_save.0003.t:1 "$murder_save_header$ นักฆ่า"
+ murder_save.0003.desc:0 "[target.GetTitledFirstName] ยังมีชีวิตอยู่!\n\nนักฆ่าของข้าไปถึงห้องบรรทมของ [target.GetTitleTierName] แล้ว แต่ [broken_person.GetTitledFirstName] —เหลือเชื่อจริงๆ— กลับเข้าขัดขวาง! [target.GetFirstName] ไม่ได้ทำอะไรเลยนอกจากทรมาน [broken_person.GetHerHim] แต่ [broken_person.GetSheHe] กลับสละชีวิต [broken_person.GetHerHis] เพื่อปกป้อง [target.GetHerHim] นักฆ่าของข้าก็ตาย เช่นกัน ส่วน [target.GetFirstName] ก็รอดไปได้"
+ murder_save.0003.a:0 "ช่างเป็นโลกที่ไม่ยุติธรรมเอาเสียเลย"
+ murder_save.0003.b:0 "ข้าต้องลองแผนการใหม่!"
+
+ murder_save.1003.desc: "[broken_person.GetTitledFirstName] พยายามทำตัวไม่สะทกสะท้านขณะที่นักฆ่าเข้ามาใกล้ข้า\n\n\"นำนักฆ่ามายังห้องของข้ารึ [broken_person.GetFirstNameNoTooltip] แม้หลังจากเสียงกรีดร้องของเจ้าจะประกาศความภักดีชั่วนิรันดร์?\" ดวงตาของ [broken_person.GetHerHis|U] กำลังเหลือบมองระหว่างข้ากับอาวุธในมือนักฆ่า \"ช่างน่าผิดหวังเสียจริง เจ้าคงไม่อยากเป็นที่น่าผิดหวัง ใช่หรือไม่?\"\n\nบางอย่างเปลี่ยนไปในดวงตาของ [broken_person.GetHerHis] พร้อมกับเสียงกรีดร้อง [broken_person.GetSheHe] โยนตัว[broken_person.GetHerselfHimself]เข้าใส่นักฆ่าที่หมายจะสังหารข้า เมื่อการต่อสู้สิ้นสุดลง ทั้งคู่ก็นอนตายอยู่บนพื้น"
+ murder_save.1003.a:0 "จงถือว่านี่เป็นการลงโทษที่เหมาะสมเถิด [broken_person.GetFirstNameNoTooltip]"
+
+ murder_save.0004.t:1 "$murder_save_header$ ถูกซุ่มโจมตี"
+ murder_save.0004.desc:0 "[target.GetTitledFirstName] ยังมีชีวิตอยู่!\n\nอันธพาลรับจ้างของข้าซุ่มโจมตีคณะผู้ติดตามของ [target.GetHerHis] ตามแผน แต่กลับเอาชนะไม่ได้! พวกมันอาจจะจับกุม [target.GetTitleTierName] ได้ หากไม่ใช่ เพราะม้าศึกที่ดุร้ายและน่าสาปแช่งตัวนั้นที่ [target.GetSheHe] ภาคภูมิใจนักหนา!"
+ murder_save_failure_warhorse_tt:0 "ม้าศึกของ [target.GetFirstNamePossessiveNoTooltip] ตายจากบาดแผล"
+ 
+ murder_save.1004.opening:0 "ข้ากำลังเดินทางพร้อมคณะผู้ติดตามเมื่อมีเสียงตะโกนดังมาจากกลุ่มต้นไม้ "โจมตี! จัดการ [ROOT.Char.GetTitleTierName]!" การซุ่มโจมตี!\n\nนี่ไม่ใช่แค่โจรธรรมดาที่ต้องการทองของข้า แต่เป็นอันธพาลที่ต้องการชีวิตข้า! อย่างไรก็ตาม [ROOT.Char.Custom('HorseStoryMareStallion')] ที่ข้าไว้ใจรู้ว่าต้องทำอย่างไร! [ROOT.Char.Custom('HorseStorySheHe')|U] ยืนสองขาและเตะเพื่อป้องกันข้าจากคมดาบที่เหวี่ยงมา ขณะที่ทหารองครักษ์ของข้ารวมพลเพื่อต่อสู้กับพวกมัน"
+ murder_save.1004.warhorse_dies:0 "\n\nเมื่อการต่อสู้สงบลงแล้วเท่านั้นที่ [ROOT.Char.Custom('WarhorseStoryName')] ทรุดลงใต้ร่างข้า และข้าจึงพบกับบาดแผลลึก [ROOT.Char.Custom('HorseStoryHerHis')] [ROOT.Char.Custom('HorseStorySheHe')|U] ปกป้องข้าอย่างแท้จริงจนวาระสุดท้าย..."
+ murder_save.1004.a:0 "อันธพาลพวกนี้ต้องถูกใครบางคนจ้างมา แต่เป็นใครกัน?"
+ murder_save.1004.b:0 "เห็นได้ชัดว่าใครอยู่เบื้องหลังเรื่องนี้!"
+ murder_save.1004.c:0 "ข้าจะหาตัวคนที่ทำเรื่องนี้ให้ได้!"
+ murder_save.1004.d:0 "เจ้า ทำให้ข้าเสียม้าชั้นยอดไปนะ [owner.GetFirstNameNoTooltip]!"
+ murder_save_warhorse_dies_to_thugs:0 "#F [THIS.Char.Custom('WarhorseStoryName')] ตายจากบาดแผล [THIS.Char.Custom('HorseStoryHerHis')]#!"
+
+ murder_save.0005.t:1 "$murder_save_header$ สัญญาณเตือนภัยดังขึ้น"
+ murder_save.0005.desc:0 "กลุ่มผู้สมรู้ร่วมคิดเดินทางไปยังห้องขังของ [target.GetTitledFirstNamePossessive] แต่นักโทษกลับเริ่มส่งเสียงดังโวยวายอย่างรุนแรง การติดสินบนผู้คุมก็เรื่องหนึ่ง แต่การแสร้งทำเป็นไม่มีอะไรเกิดขึ้นเมื่อคนทั้งปราสาทตื่นขึ้นนั้นเป็นอีกเรื่องหนึ่ง!\n\nนักฆ่าของข้าถอยหนีอย่างรวดเร็ว และ [target.GetFirstName] ยังคงปลอดภัย..."
+
+ murder_save.1005.desc:0 "ข้าไม่รู้ว่าร่างในชุดคลุมที่ปรากฏตัวในห้องขังของข้าเป็นใคร แต่ข้ารู้ว่าพวกมันมาเพื่อทำร้ายข้า อย่างไรก็ตาม พวกมันไม่ได้คาดคิดถึงผู้พิทักษ์ของข้า\n\n"จัดการพวกมัน!" ข้าตะโกน และ [ROOT.Char.Custom('prison_pet')] ของข้าก็โผเข้าใส่พวกมัน พร้อมสู้เพื่อชีวิตข้า! ข้ารู้ว่าพวกมันไม่ใช่คู่ต่อสู้ของสหายข้า และเมื่อข้าเริ่มโห่ร้องและเชียร์ พวกมันก็หนีไปด้วยความหวาดกลัวสุดขีด!\n\nไม่นานผู้คุมก็มา ทำให้ข้าเงียบด้วยการทุบตี แต่อย่างน้อยข้าก็ยังคงหายใจอยู่"
+ murder_save.1005.a:0 "ข้าเป็นหนี้ชีวิตเจ้า [ROOT.Char.Custom('prison_pet')]"
+ murder_save.1005.b:0 "การเสียสละของเจ้าไม่สูญเปล่า สหายข้า [ROOT.Char.Custom('prison_pet')]!"
+
+ murder_save.0006.t:1 "$murder_save_header$ ผู้พิทักษ์"
+ murder_save.0006.opening:0 "อันธพาลรับจ้างของข้าซุ่มโจมตี [target.GetTitledFirstName] ตามแผน แต่สิ่งที่ข้าไม่ได้วางแผนไว้คือทหารองครักษ์ส่วนตัวที่"
+ murder_save.0006.spouse:0 "[spouse.GetTitledFirstName] ได้จัดตั้งขึ้นเพื่อ [target.GetHerHim]"
+ murder_save.0006.no_spouse:0 "ที่คู่สมรส [target.GetHerHis] จัดตั้งขึ้น"
+ murder_save.0006.end:0 "\n\nพวกมันต่อสู้อย่างกล้าหาญและเก่งกาจยิ่งนัก เก่งพอที่ [target.GetFirstName] จะยังมีชีวิตรอดไปอีกวัน"
+
+ murder_save.1006.opening:0 "ข้ากำลังเดินทางเมื่อคณะผู้ติดตามของข้าถูกซุ่มโจมตีโดยกลุ่มอันธพาล! โชคดีที่ทหารองครักษ์ที่จัดตั้งขึ้นเพื่อข้าโดย"
+ murder_save.1006.spouse:0 "[spouse.GetTitledFirstName]"
+ murder_save.1006.no_spouse:0 "คู่สมรสของข้า"
+ murder_save.1006.end:0 "ต่อสู้อย่างกล้าหาญ และปกป้องข้าจากการโจมตี\n\nขณะที่พวกเขาสู้จนถึงที่สุด ก็เป็นที่ชัดเจนว่าโจรเหล่านี้ไม่ได้ต้องการทอง แต่ต้องการชีวิตข้า! ในที่สุดพวกมันก็ถูกขับไล่ไป แต่ทหารองครักษ์ส่วนตัวของข้าเกือบถูกทำลายล้าง"
+
+ murder_save.0007.t:1 "$murder_save_header$ ผู้พิทักษ์ขนปุย"
+ murder_save.0007.desc:0 "[target.GetTitledFirstName] ยังมีชีวิตอยู่!\n\n[SCOPE.Custom('VenomousCreature')] ถูกวางไว้ในเตียงนอนของ [target.GetTitleTierNamePossessive] แต่ก่อนที่มันจะโจมตี แมวของ [target.GetTitleTierNamePossessive] ก็ส่งเสียงดังและเริ่มต่อสู้กับสัตว์ร้ายตัวนั้น!"
+ murder_save_failure_cat_tt:0 "แมวของ [target.GetFirstNamePossessiveNoTooltip] ตายจากบาดแผล"
+
+ murder_save.1007.opening:1 "ขณะที่ข้าเข้าห้องบรรทม ข้าสังเกตเห็นทันทีว่าแมวสุดที่รักของข้า [THIS.Char.Custom('CatStoryName')] กำลังกระวนกระวาย – [THIS.Char.Custom('CatStorySheHe')] กำลังเดินไปมาหน้าเตียงของข้าด้วยอาการกระสับกระส่ายอย่างเห็นได้ชัด ราวกับสายฟ้าสี [THIS.Char.Custom('CatFurColor')] [THIS.Char.Custom('CatStorySheHe')] ก็กระโจนเข้าใส่ เผยให้เห็น [SCOPE.Custom('VenomousCreatureType')] ที่อยู่ระหว่างผ้าปูที่นอนของข้า!"
+ murder_save.1007.cat_dies:0 "\n\nสัตว์ร้ายน่าสยดสยองตัวนั้นไม่ยอมแพ้ง่ายๆ และ ในขณะที่ [THIS.Char.Custom('CatStoryName')] กัดเข้าที่คอของมันในที่สุด [THIS.Char.Custom('CatStorySheHe')] [THIS.Char.Custom('CatStoryHerselfHimself')] ก็อาการหนักเกินกว่าจะช่วยได้"
+ murder_save.1007.a:0 "ข้าเป็นหนี้ชีวิตเจ้า [THIS.Char.Custom('CatStoryName')]!"
+ murder_save.1007.b:0 "เห็นได้ชัดว่าใครอยู่เบื้องหลังเรื่องนี้!"
+ murder_save.1007.c:0 "ข้าจะหาตัวคนที่ทำเรื่องนี้ให้ได้!"
+ murder_save.1007.d:0 "เจ้าจะต้องชดใช้ [owner.GetFirstNameNoTooltip]!"
+ murder_save_creepy_crawlies_cat_dies:0 "[THIS.Char.Custom('CatStoryName')] ตายจากบาดแผล [THIS.Char.Custom('CatStoryHerHis')]"
+
+ murder_save.0008.t:1 "$murder_save_header$ ผู้พิทักษ์ขนปุย"
+ murder_save.0008.desc:1 "ความพยายามลอบสังหาร [target.GetTitledFirstNamePossessive] ของข้าถูกขัดขวาง!\n\nนักฆ่าได้หาทางของ[dummy_assassin_gender.GetHerHis]ไปยังห้องของ [target.GetTitleTierNamePossessive] แต่ก่อนที่ [dummy_assassin_gender.GetSheHe] จะลงมือ สุนัขตัวหนึ่งก็เริ่มเห่า! สุนัขของ [target.GetTitleTierNamePossessive] ที่ [target.GetSheHe] ภาคภูมิใจนักหนา ทำให้่นักฆ่าตกใจหนีไปอย่างรวดเร็ว""
+
+ murder_save.1008.desc:0 "ทันทีที่ข้าเข้าห้องบรรทม สุนัขสุดที่รักของข้า [ROOT.Char.Custom('DogStoryName')] ก็เริ่มเห่า และทันใดนั้น [ROOT.Char.Custom('DogStorySheHe')] ก็พุ่งเข้าใส่เงาดำ... เงาที่สะดุด! [ROOT.Char.Custom('DogStoryName')] ไล่ตามผู้ที่หมายจะเป็นนักฆ่า จนกระทั่งข้าเรียก [ROOT.Char.Custom('DogStoryHerHim')] กลับมาข้างกาย"
+ murder_save.1008.a:0 "ข้าเป็นหนี้ชีวิตเจ้า [ROOT.Char.Custom('DogStoryName')]!"
+
+ murder_save.0009.t:1 "$murder_save_header$ สายสัมพันธ์ครอบครัว"
+ murder_save.0009.desc:0 "ในช่วงเวลาสุดท้ายของแผนการลอบสังหาร [target.GetTitledFirstName] ทุกอย่างกลับพังทลายลง!\n\nดูเหมือนว่าความพยายามของข้าจะถูกแทรกซึมโดยสมบูรณ์โดยผู้สนับสนุนราชวงศ์ [target.GetDynasty.GetBaseName] และในคืนแห่งโชคชะตานั้น คนอื่นๆ ทั้งหมดถูกหยุดยั้งก่อนที่แผนการจะเริ่มดำเนินการเสียอีก!"
+ murder_save.0009.a:0 "ข้าต้องล่าถอย ก่อนที่พวกมันจะแสวงหาการแก้แค้น!"
+ murder_save.0009.b:0 "สิ่งที่สูญเสียไป ข้าสามารถสร้างขึ้นใหม่ได้"
+ murder_save.targets_guile_legacy_save_used_up:0 "[target.GetShortUIName|U] ไม่สามารถได้รับการช่วยเหลือจาก [GetDynastyPerk( 'guile_legacy_5' ).GetName] ได้อีก"
+
+ murder_save.1009.opening:0 "ความพยายามลอบสังหารข้าถูกขัดขวาง!"
+ murder_save.1009.owner_discovered:0 "\n\n[owner.GetTitledFirstName] ได้วางแผนอย่างรอบคอบ แต่ไม่ได้คำนึงถึงความจริงที่ว่าแผนการ [owner.GetHerHis] ถูกแทรกซึมโดยผู้สนับสนุนตระกูล [target.GetHouse.GetNameNoTooltip]!"
+ murder_save.1009.owner_not_discovered:0 "\n\nโชคดีที่ใครก็ตามที่วางแผนอันชั่วร้ายนี้ไม่ได้คำนึงว่าแผนการของตนจะถูกแทรกซึมโดยสายลับผู้ภักดีอย่างสูงส่งต่อตระกูล [target.GetHouse.GetNameNoTooltip]!"
+ murder_save.1009.end:0 "\n\nแผนการพังทลายลง แม้ ในขณะที่กำลังจะเริ่มดำเนินการ และชีวิตของข้าก็ยังคงปลอดภัย"
+ murder_save.1009.a:0 "ชื่อของข้าเองที่ช่วยชีวิตข้าไว้!"
+
+ # Saved by a Varangian
+ murder_save.0010.t:0 "$murder_save_header$ ทหารวารันเจียน"
+ murder_save.0010.desc:0 "ความพยายามลอบสังหาร [target.GetTitledFirstNamePossessive] ของข้าถูกขัดขวาง!\n\nนักฆ่าถูกหยุดยั้งโดยหนึ่งในทหารวารันเจียนพวกนั้น! ข้าเดาว่า [target.GetTitleAsNameNoTooltip] ได้องครักษ์ [target.GetHerHis] มาจนได้สินะ..."
+ murder_save.0010.varangian_dies:0 "\n\nอย่างน้อยนักฆ่าก็เอาชนะองครักษ์ได้ [varangian.GetTitledFirstName] จะไม่มาขวางทางข้าอีก"
+ murder_save.0010.a:0 "ข้าจะไม่มีวันได้ตัว [target.GetHerHim] แล้ว!"
+ murder_save.0010.b:0 "ข้าต้องการแผนการใหม่..."
+
+ murder_save.1010.desc:0 "นักฆ่าได้พยายามลอบสังหารข้า! โชคดีที่ [varangian.GetFirstName] สมาชิกกองทหารวารันเจียนของข้า อยู่นอกห้องบรรทมพอดีและเข้าแทรกแซงอย่างรวดเร็ว [varangian.GetSheHe|U] จัดการนักฆ่าได้อย่างรวดเร็วก่อนที่ข้าจะได้รับอันตรายใดๆ"
+ murder_save.1010.varangian_dies:0 "น่าเศร้าที่ [varangian.GetFirstNameNoTooltip] ได้รับบาดแผลฉกรรจ์ในกระบวนการนี้"
+ murder_save.1010.owner_discovered:0 "\n\nไม่ต้องสงสัยเลยว่าทั้งหมดนี้เป็นฝีมือของ [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"
+ murder_save.1010.a:0 "ใครกันที่อยู่เบื้องหลังความพยายามอันชั่วร้ายนี้?"
+ murder_save.1010.b:0 "[owner.GetSheHe|U] จะต้องชดใช้!"
+
+ murder_save.0011.t:0 "$murder_save_header$ แมวจอมตะกละ"
+ murder_save.0011.desc:1 "ความพยายามลอบสังหาร [target.GetTitledFirstNamePossessive] ของข้าถูกขัดขวาง!\n\nยาพิษ เป็ด มื้ออาหาร... ทุกอย่างเป็นไปตามแผน จนกระทั่งแมว [target.GetHerHis] แอบฉกชิ้นอาหารจากจาน [target.GetHerHis] ก่อนที่ [target.GetSheHe] จะมีเวลากิน! การเห็นแมวบิดตัวด้วยความเจ็บปวดจนตาย ทำให้ [target.GetTitledFirstNameNoTooltip] ไม่อยากลิ้มลองอาหาร [target.GetHerHis] สักเท่าใดนัก"
+ murder_save_poison_cat_tt:0 "แมวของ [target.GetFirstNamePossessiveNoTooltip] ตาย เพราะยาพิษ"
+
+ murder_save.1011.desc:0 "ขณะที่ข้านั่งลงเพื่อทานอาหาร แมวของข้า [ROOT.Char.Custom('CatStoryName')] ก็กระโดดขึ้นมาบนตัก ตะปบจานของข้า และข้าก็ปล่อยให้ [ROOT.Char.Custom('CatStoryHerHim')] ฉกชิ้นอาหารไปก่อนที่ [ROOT.Char.Custom('CatStorySheHe')] จะกระโดดลงไปอีกครั้ง\n\nทันทีที่ข้ากำลังจะเริ่มกิน ข้าก็ตกใจกับเสียงร้องโหยหวน ดังและเจ็บปวด [ROOT.Char.Custom('CatStoryName')] กำลังดิ้นทุรนทุรายอยู่บนพื้น เสียงกรีดร้องด้วยความเจ็บปวด [ROOT.Char.Custom('CatStoryHerHis')] แผ่วลงเรื่อยๆ จน [ROOT.Char.Custom('CatStorySheHe')] แน่นิ่งไป อาหารถูกวางยาพิษหรือ?!"
+ murder_save_poison_cat_dies:0 "[THIS.Char.Custom('CatStoryName')] ช่วยชีวิตท่านและตาย เพราะยาพิษ"
+
+ murder_save.0012.t:0 "$murder_save_header$ สุนัขจอมตะกละ"
+ murder_save.0012.desc:1 "[target.GetTitledFirstName] ยังมีชีวิตอยู่!\n\nยาพิษ เป็ด มื้ออาหาร... ทุกอย่างเป็นไปตามแผน จนกระทั่งสุนัข [target.GetHerHis] ขอชิ้นอาหารจากจาน [target.GetHerHis] ก่อนที่ [target.GetSheHe] จะมีเวลากิน! การเห็นสุนัขบิดตัวด้วยความเจ็บปวดจนตาย ทำให้ [target.GetTitledFirstNameNoTooltip] ไม่อยากลิ้มลองอาหาร [target.GetHerHis] สักเท่าใดนัก"
+ murder_save_poison_dog_tt:0 "สุนัขของ [target.GetFirstNamePossessiveNoTooltip] ตาย เพราะยาพิษ"
+
+ murder_save.1012.desc:0 "ขณะที่ข้านั่งลงเพื่อทานอาหาร สุนัขของข้า [ROOT.Char.Custom('DogStoryName')] ก็มองตามข้าด้วยสายตาอ้อนวอน และข้าก็หย่อนชิ้นอาหารจากจานลงไปบนพื้นให้ [ROOT.Char.Custom('DogStoryHerHim')] อย่างนุ่มนวล\n\nทันทีที่ข้ากำลังจะเริ่มกิน ข้าก็ตกใจกับเสียงครางดัง เจ็บปวด และหงิงๆ [ROOT.Char.Custom('DogStoryName')] กำลังดิ้นทุรนทุรายอยู่บนพื้น เสียงครวญคราง [ROOT.Char.Custom('DogStoryHerHis')] แผ่วลงเรื่อยๆ จน [ROOT.Char.Custom('DogStorySheHe')] แน่นิ่งไป อาหารถูกวางยาพิษหรือ?!"
+ murder_save_poison_dog_dies:0 "[THIS.Char.Custom('DogStoryName')] ช่วยชีวิตท่านและตาย เพราะยาพิษ"
+
+ murder_save.0013.t:0 "$murder_save_header$ จมูกนักชิม"
+ murder_save.0013.desc:0 "[target.GetTitledFirstName] ยังมีชีวิตอยู่!\n\nยาพิษ [target.Custom('GetExpensiveMeal')]... ทุกอย่างเป็นไปตามแผน จนกระทั่ง [target.GetSheHe] สังเกตเห็นบางอย่างผิดปกติ เราพยายามวางยาพิษในอาหารจานโปรด [target.GetHerHis] และ [target.GetSheHe] ก็สังเกตเห็นว่ามันมีกลิ่นที่แตกต่างไปในทันทีและโยนทิ้งไป"
+
+ murder_save.1013.desc:0 "ขณะที่ข้ากำลังเริ่มกินอาหารเย็นจานโปรด กลิ่นประหลาดก็เตะจมูกข้า มีร่องรอยของความเป็นกรดหลงเหลืออยู่ใต้กลิ่นหอมตามปกติ ความสมดุลของเครื่องเทศดูผิดเพี้ยนไป... หลังจากสอบถามพ่อครัว ซึ่งบอกว่าทุกอย่างเตรียมตามปกติ มีเพียงความคิดเดียวในใจข้า: มีคนพยายามวางยาพิษข้า!"
+
+ murder_save.0014.t:0 "$murder_save_header$ ความเข้าใจอันร้ายแรง"
+ murder_save.0014.desc:0 "ความพยายามลอบสังหาร [target.GetTitledFirstNamePossessive] ของข้าถูกขัดขวาง!\n\nปรากฏว่านักฆ่าโง่เขลาเหล่านั้นไม่รู้ว่า [target.GetSheHe] พูดภาษา [owner.GetCulture.GetLanguage.GetNameNoTooltip] ได้ และกำลังพล่ามเรื่องแผนการต่อหน้าต่อตา [target.GetHerHis]"
+
+ murder_save.1014.desc:0 "เย็นวันหนึ่งขณะที่ข้ากำลังเตรียมตัวเข้านอน ข้าได้ยินคนรับใช้สองคนคุยกันด้วยเสียงกระซิบกระซาบ ใช้เวลาครู่หนึ่งกว่าข้าจะรู้ตัวว่าพวกเขากำลังพูดภาษา [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip] แทนที่จะเป็นภาษา [owner.GetCulture.GetLanguage.GetNameNoTooltip] เห็นได้ชัดว่าพวกเขาไม่รู้ว่าข้าเข้าใจพวกเขา\n\n"รอให้ [ROOT.Char.GetHerHim] หลับก่อน แล้วเจ้าคอยดูต้นทาง ส่วนข้าจะปาดคอ [ROOT.Char.GetHerHis]"\n\nข้ารีบออกจากห้องของข้าอย่างรวดเร็วเพื่อแจ้งองครักษ์ว่ามีนักฆ่าอยู่ในห้องข้า ขอบคุณ [ROOT.Char.GetFaith.HighGodName] ที่ข้าพูดภาษา [owner.GetCulture.GetLanguage.GetNameNoTooltip] ได้!"
+
+ murder_save.1014.a:0 "แล้วใครกันที่ส่งนักฆ่าที่พูดภาษา [owner.GetCulture.GetLanguage.GetNameNoTooltip] มา?"
+ murder_save.0015.t:0 "$murder_save_header$ สิ่งประดิษฐ์ที่มาทันเวลา"
+ murder_save.0015.desc:0 "[target.GetTitledFirstName] รอดชีวิตจากความพยายามลอบสังหารของข้า ดูเหมือนว่าจะใช้ [this_artifact.GetName] [target.GetHerHis] สังหารนักฆ่าที่เราส่งไปอย่างโหดเหี้ยม"
+
+ murder_save.1015.start_desc:0 "[attempted_assassin.GetFirstName|U] ออกมาจากความมืดพร้อมดาบในมือ ข้ามองไปรอบๆ อย่างสิ้นหวังเพื่อหาบางสิ่งที่จะใช้เป็นอาวุธ ก่อนที่สายตาจะไปหยุดอยู่ที่"
+
+ murder_save.1015.blunt_artifact.desc:0 "$murder_save.1015.start_desc$ [this_artifact.GetName] ที่อยู่ใกล้ๆ ข้าคว้ามันมาใช้ปัดป้องการแทงของมีดที่พุ่งเข้ามาก่อนจะฟาดลงบนกะโหลกของ [attempted_assassin.GetFirstNamePossessiveNoTooltip] ครั้งแล้วครั้งเล่า\n\nในที่สุดข้าก็ถอยกลับมาอย่างหมดแรง ทิ้ง [SCOPE.Custom('ThisArtifactType')] ลง ซึ่งเปรอะเปื้อนไปด้วยเลือดและเศษเนื้อ"
+
+ murder_save.1015.sculpture_artifact.desc:1 "$murder_save.1015.start_desc$ [this_artifact.GetName] ข้าถอยห่างจาก [attempted_assassin.GetFirstNameNoTooltip] รอจังหวะที่เหมาะสมก่อนจะโค่น [SCOPE.Custom('ThisArtifactType')] ทับ [attempted_assassin.GetHerHim]\n\n[this_artifact.GetNameNoTooltip] ส่งเสียงแตกดังน่าสะอิดสะเอียน ขณะที่มันบดขยี้ [attempted_assassin.GetHerHim] ที่อยู่ข้างใต้"
+
+ murder_save.1015.chest_artifact.desc:0 "$murder_save.1015.start_desc$ [this_artifact.GetName] ข้าค่อยๆ ถอยหลัง ล่อ [attempted_assassin.GetHerHim] ไปทาง [SCOPE.Custom('ThisArtifactType')] ที่เปิดอยู่ ในจังหวะที่เหมาะสม ข้าคว้าศีรษะ [attempted_assassin.GetHerHis] และกดลงใต้ฝาหีบ ก่อนจะกระแทกลงบนกะโหลกอันเปราะบาง [attempted_assassin.GetHerHis] พร้อมเสียงแตกที่น่าขนลุก\n\nข้ากระแทกลงไปอีกสามสี่ครั้งเพื่อความแน่ใจ ก่อนจะก้าวถอยหลังและปล่อยให้ร่างทรุดลงกับพื้น"
+
+ murder_save.1015.actual_weapon_artifact.desc:1 "$murder_save.1015.start_desc$ [this_artifact.GetName] สีหน้า [attempted_assassin.GetHerHis] ซีดเผือดเมื่อ [attempted_assassin.GetSheHe] รู้ว่าข้ามีอาวุธ ข้าใช้ความพยายามเพียงเล็กน้อยในการจัดการ [attempted_assassin.GetHimHer] ด้วย [SCOPE.Custom('ThisArtifactType')]"
+
+ murder_save.1015.strangling_artifact.desc:0 "$murder_save.1015.start_desc$ [SCOPE.Custom('ThisArtifactType')] ข้าคว้า [this_artifact.GetName] มา หลบการแทงของมีดที่พุ่งเข้ามาก่อนจะพันวัสดุรอบคอผู้โจมตี\n\nเพียงช่วงเวลาสั้นๆ ของการดิ้นรน ร่างของนักฆ่าก็อ่อนปวกเปียก"
+
+ murder_save.1015.small_artifact.desc:0 "$murder_save.1015.start_desc$ [this_artifact.GetName] ข้าคว้ามันมา กระโจนเข้าใส่ผู้จู่โจมและยัดของชิ้นเล็กๆ ลงคอ\n\n[attempted_assassin.GetSheHe] สำลัก ทำมีดหล่น ทรุดเข่าลงพร้อมกับเกาที่คอ [attempted_assassin.GetHerHis] พยายามหายใจอย่างสิ้นหวัง ขณะที่องครักษ์รีบมาช่วยข้าในที่สุด ข้าจดจำไว้ในใจว่าจะให้คนผ่าเอา [this_artifact.GetName] ของข้าออกจากศพทีหลัง"
+
+ murder_save.1015.throne_start.desc:0 "เย็นวันหนึ่งข้ากำลังเดินไปมาในห้องบัลลังก์ที่ว่างเปล่า ทันใดนั้น [attempted_assassin.GetFirstName] ก็กระโจนเข้าใส่ข้าพร้อมมีดจากเงามืด ข้าหลบผู้จู่โจมแทบไม่ทัน คว้าด้านหลังศีรษะ [attempted_assassin.GetHerHis] และกระแทกหน้า [attempted_assassin.GetHerHis] ซ้ำๆ เข้ากับ"
+
+ murder_save.1015.throne_artifact.desc:0 "$murder_save.1015.throne_start.desc$ ไม้ [this_artifact.GetFeatureText('generic_material_wood')] ที่แข็งแกร่งของ [this_artifact.GetName] ของข้า ทำให้เลือดและฟัน [attempted_assassin.GetHerHis] กระเซ็นไปทั่ว [this_artifact.GetFeatureText('generic_material_cloth')] ที่เคยสะอาดหมดจด"
+
+ murder_save.1015.throne_special_artifact.desc:0 "$murder_save.1015.throne_start.desc$ [this_artifact.GetName] ในตำนาน\n\n ขณะที่เลือดสาดกระเซ็นไปทั่วบัลลังก์ ข้าก็ได้ แต่หวังว่าคนรับใช้จะสามารถขจัดคราบออกได้"
+
+ new_artifact_loc:0 "[this_artifact.GetDesc]\n\nมันถูกใช้เพื่อหยุดยั้งความพยายามลอบสังหาร [target.GetTitledFirstName]"
+
+ new_artifact_loc_banner:0 "[this_artifact.GetDesc]\n\nมีคราบเลือดที่มุมจากการที่มันถูกใช้เพื่อหยุดยั้งความพยายามลอบสังหาร [target.GetTitledFirstName]"
+
+ death_by_artifact:0 "ถูกสังหารด้วยสิ่งประดิษฐ์"
+ death_by_artifact_killer:0 "ถูกสังหารด้วยสิ่งประดิษฐ์โดย [TARGET_CHARACTER.GetUIName]"

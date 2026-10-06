@@ -1,0 +1,250 @@
+﻿l_english: 
+ buddhism_religion:0 "ศาสนาพุทธ"
+ buddhism_religion_adj:0 "พุทธ"
+ buddhism_religion_adherent:0 "พุทธศาสนิกชน"
+ buddhism_religion_adherent_plural:0 "พุทธศาสนิกชน"
+ buddhism_religion_desc:0 "ศาสนาพุทธดำเนินตามคำสอนของพระโคตมพุทธเจ้าและเหล่า 'ผู้รู้แจ้ง' ในลำดับถัดมา เพื่อเอาชนะความทุกข์แห่งการดำรงอยู่ อันเกิดจากวงจรแห่งความเปลี่ยนแปลงอันไม่สิ้นสุดผ่านความตายและการเกิดใหม่ การบรรลุการรู้แจ้งคือหนทางสู่การหลุดพ้นจากสังสารวัฏ ไปสู่ความดับสูญแห่งนิพพาน"
+ buddhism_high_god_name:0 "สิทธัตถะ"
+ buddhism_high_god_name_2:0 "$buddhism_high_god_name$" # Optional translation alt
+ buddhism_high_god_name_possessive:0 "แห่งสิทธัตถะ"
+ buddhism_high_god_alternate:0 "พระผู้รู้แจ้ง"
+ buddhism_high_god_alternate_possessive:0 "แห่งพระผู้รู้แจ้ง"
+ buddhism_samsara:0 "สังสารวัฏ"
+ buddhism_samsara_2:0 "$buddhism_samsara$" # Optional translation alt
+ buddhism_samsara_3:0 "$buddhism_samsara$" # Optional translation alt
+ buddhism_good_god_buddha:0 "$buddhism_high_god_name$"
+ buddhism_good_god_perfected_ones:0 "เหล่าผู้บรรลุธรรม"
+
+ buddhism_creator_god_name:0 "ตถาคตครรภ์"
+ buddhism_creator_god_name_possessive:0 "แห่งตถาคตครรภ์"
+ buddhism_health_god_name:0 "วิรูฬหก"
+ buddhism_health_god_name_possessive:0 "แห่งวิรูฬหก"
+ buddhism_fertility_god_name:0 "$buddhism_health_god_name$"
+ buddhism_fertility_god_name_possessive:0 "$buddhism_health_god_name_possessive$"
+ buddhism_wealth_god_name:0 "เวสสุวรรณ"
+ buddhism_wealth_god_name_possessive:0 "แห่งเวสสุวรรณ"
+ buddhism_household_god_name:0 "ธตรฐ"
+ buddhism_household_god_name_possessive:0 "แห่งธตรฐ"
+ buddhism_fate_god_name:0 "กรรม"
+ buddhism_fate_god_name_possessive:0 "แห่งกรรม"
+ buddhism_knowledge_god_name:0 "วิรูปักษ์"
+ buddhism_knowledge_god_name_possessive:0 "แห่งวิรูปักษ์"
+ buddhism_war_god_name:0 "$buddhism_household_god_name$"
+ buddhism_war_god_name_possessive:0 "$buddhism_household_god_name_possessive$"
+ buddhism_trickster_god_name:0 "$buddhism_devil_name$"
+ buddhism_trickster_god_name_possessive:0 "$buddhism_devil_name_possessive$"
+ buddhism_night_god_name:0 "$buddhism_knowledge_god_name$"
+ buddhism_night_god_name_possessive:0 "$buddhism_knowledge_god_name_possessive$"
+ buddhism_water_god_name:0 "$buddhism_wealth_god_name$"
+ buddhism_water_god_name_possessive:0 "$buddhism_wealth_god_name_possessive$"
+
+ buddhism_devil_name:0 "มาร"
+ buddhism_devil_name_possessive:0 "แห่งมาร"
+ buddhism_evil_god_tanha:0 "ตัณหา"
+ buddhism_evil_god_arati:0 "อรติ"
+ buddhism_evil_god_raga:0 "ราคะ"
+ buddhism_house_of_worship:0 "อาราม"
+ buddhism_house_of_worship_2:0 "$buddhism_house_of_worship$" # Optional translation alt
+ buddhism_house_of_worship_3:0 "$buddhism_house_of_worship$" # Optional translation alt
+ buddhism_house_of_worship_plural:0 "อาราม"
+ buddhism_religious_symbol:0 "ธรรมจักร"
+ buddhism_religious_symbol_2:0 "$buddhism_religious_symbol$" # Optional translation alt
+ buddhism_religious_symbol_3:0 "$buddhism_religious_symbol$" # Optional translation alt
+ buddhism_religious_text:0 "พุทธวจนะ"
+ buddhism_religious_text_2:0 "$buddhism_religious_text$" # Optional translation alt
+ buddhism_religious_text_3:0 "$buddhism_religious_text$" # Optional translation alt
+ buddhism_religious_head_title:0 "พระเถระ"
+ buddhism_religious_head_title_name:0 "คณะสงฆ์"
+ buddhism_devotee_male:0 "ภิกษุ"
+ buddhism_devotee_male_plural:0 "ภิกษุ"
+ buddhism_devotee_female:0 "ภิกษุณี"
+ buddhism_devotee_female_plural:0 "ภิกษุณี"
+ buddhism_alt_priest_term:0 "สังฆะ"
+ buddhism_divine_realm:0 "นิพพาน"
+ buddhism_divine_realm_2:0 "$buddhism_divine_realm$" # Optional translation alt
+ buddhism_divine_realm_3:0 "$buddhism_divine_realm$" # Optional translation alt
+ buddhism_negative_afterlife:0 "นรก"
+ buddhism_negative_afterlife_2:0 "$buddhism_negative_afterlife$" # Optional translation alt
+ buddhism_negative_afterlife_3:0 "$buddhism_negative_afterlife$" # Optional translation alt
+ buddhism_death_god_name:0 "พระยม"
+ buddhism_death_god_name_possessive:0 "แห่งพระยม"
+ buddhism_witchgod_mara:0 "$buddhism_trickster_god_name$"
+ buddhism_witchgod_mara_possessive:0 "$buddhism_trickster_god_name_possessive$"
+
+ #Ari
+ ari:0 "อริ"
+ ari_adj:0 "อริ"
+ ari_adherent:0 "ชาวอริ"
+ ari_adherent_plural:0 "ชาวอริ"
+ ari_desc:0 "ความเชื่อแบบอริผสมผสานองค์ประกอบจากพุทธศาสนานิกายตันตระ การบูชาภูตผี การบูชานาคตามประเพณีดั้งเดิม รวมถึงศาสนาฮินดู ผู้บูชาอริถือเป็นพุทธศาสนิกชน แม้ว่าแนวปฏิบัติของพวกเขาจะถูกมองว่าค่อนข้างนอกรีตก็ตาม"
+
+ #Theravada
+ theravada:0 "เถรวาท"
+ theravada_adj:0 "เถรวาท"
+ theravada_adherent:0 "ชาวเถรวาท"
+ theravada_adherent_plural:0 "ชาวเถรวาท"
+ theravada_desc:0 "หนทางสู่การรู้แจ้งนั้นต้องผ่านประสบการณ์ส่วนตน การใคร่ครวญ และการใช้เหตุผล พระโคตมพุทธเจ้าทรงค้นพบหนทางสู่นิพพานด้วยพระองค์เอง และหนทางเดียวที่จะค้นพบวิถีทางที่คล้ายคลึงกันได้ คือการประสบ เรียนรู้ และศึกษาการดำรงอยู่ของตนเอง"
+
+ #Mahayana
+ mahayana:0 "มหายาน"
+ mahayana_adj:0 "มหายาน"
+ mahayana_adherent:0 "ชาวมหายาน"
+ mahayana_adherent_plural:0 "ชาวมหายาน"
+ mahayana_desc:0 "การหลุดพ้นจากสังสารวัฏมิใช่เพียงสิ่งที่กระทำโดยลำพัง แต่เป็นประสบการณ์ที่แบ่งปันกันในหมู่สัตว์ผู้มีชีวิต การบรรลุพุทธภาวะเป็นเพียงก้าวหนึ่งบนหนทางอันยาวไกล เพื่อให้สรรพสัตว์ทั้งหลายได้หลุดพ้นสู่นิพพาน และนั่นคือเป้าหมายอันประเสริฐของสังสารวัฏ"
+
+ #Vajrayana
+ vajrayana:0 "วัชรยาน"
+ vajrayana_adj:0 "วัชรยาน"
+ vajrayana_adherent:0 "ชาววัชรยาน"
+ vajrayana_adherent_plural:0 "ชาววัชรยาน"
+ vajrayana_desc:0 "แรงจูงใจสู่พุทธภาวะมีความสำคัญอย่างยิ่ง และการรู้แจ้งที่แท้จริงจะบรรลุได้ก็ต่อเมื่อแสวงหาเพื่อประโยชน์สุขของสรรพสัตว์ทั้งปวง สรรพสัตว์ทั้งหลายล้วนเกิดมาพร้อมจิตที่รู้แจ้ง แต่ถูกบดบังด้วยการดำรงอยู่ การฝึกฝนเพื่อมองเห็นสัจธรรมของโลกและจักรวาลจึงเป็นการปลดล็อกการรู้แจ้งที่มีมา แต่กำเนิดของตน"
+ vajrayana_religious_text:0 "คัมภีร์ตันตระพุทธศาสนา"
+ vajrayana_religious_text_2:0 "$vajrayana_religious_text$" # Optional translation alt
+ vajrayana_religious_text_3:0 "$vajrayana_religious_text$" # Optional translation alt
+ 
+ vajrayana_creator_god_name:0 "อาทิพุทธะ"
+ vajrayana_creator_god_name_possessive:0 "แห่งอาทิพุทธะ"
+ vajrayana_health_god_name:0 "หัยครีวะ"
+ vajrayana_health_god_name_possessive:0 "แห่งหัยครีวะ"
+ vajrayana_fertility_god_name:0 "ยมาริตกะ"
+ vajrayana_fertility_god_name_possessive:0 "แห่งยมาริตกะ"
+ vajrayana_wealth_god_name:0 "เวสสวัณ"
+ vajrayana_wealth_god_name_possessive:0 "แห่งเวสสวัณ"
+ vajrayana_household_god_name:1 "ศรีเทวี"
+ vajrayana_household_god_name_possessive:1 "แห่งศรีเทวี"
+ vajrayana_knowledge_god_name:0 "พระพรหม"
+ vajrayana_knowledge_god_name_possessive:0 "แห่งพระพรหม"
+ vajrayana_war_god_name:1 "ปราณอาตมัน"
+ vajrayana_war_god_name_possessive:1 "แห่งปราณอาตมัน"
+ vajrayana_night_god_name:0 "มหากาล"
+ vajrayana_night_god_name_possessive:0 "แห่งมหากาล"
+ vajrayana_water_god_name:1 "วสุธารา"
+ vajrayana_water_god_name_possessive:1 "แห่งวสุธารา"
+ 
+ #Tibetan Buddhism
+ lamaism:0 "นังเชอ"
+ lamaism_adj:0 "นังเชอ"
+ lamaism_adherent:0 "นังเชอปอ"
+ lamaism_adherent_plural:0 "นังเชอปา"
+ lamaism_desc:1 "พุทธศาสนาในทิเบตเป็นที่รู้จักในนาม นังเชอ หรือธรรมะของผู้รู้ภายใน ภายในจักรวรรดิทิเบต ความเชื่อและแนวปฏิบัติแบบวัชรยานและมหายานได้ผสมผสานกับความเชื่อ แนวปฏิบัติ และเทพเจ้าดั้งเดิมของทิเบต โดยมีสำนักต่างๆ แข่งขันกันเพื่อควบคุมทางโลกด้วย"
+ lamaism_house_of_worship:0 "กอมปา"
+ lamaism_house_of_worship_2:0 "$lamaism_house_of_worship$" # Optional translation alt
+ lamaism_house_of_worship_3:0 "$lamaism_house_of_worship$" # Optional translation alt
+ lamaism_house_of_worship_plural:0 "กอมปา"
+ lamaism_religious_text:0 "นังเชอ กยูบุม"
+ lamaism_religious_text_2:0 "$lamaism_religious_text$" # Optional translation alt
+ lamaism_religious_text_3:0 "$lamaism_religious_text$" # Optional translation alt
+ lamaism_religious_head_title:0 "ตรีซิน"
+ lamaism_devotee_male:0 "งักปะ"
+ lamaism_devotee_male_plural:0 "งักปะ"
+ lamaism_devotee_female:0 "งักปะ"
+ lamaism_devotee_female_plural:0 "งักปะ"
+ lamaism_devotee_neuter:0 "งักปะ"
+ lamaism_devotee_neuter_plural:0 "งักปะ"
+ lamaism_priest:0 "เกลุง"
+ lamaism_priest_plural:0 "เกลุง"
+ lamaism_priest_term_plural:0 "เหล่าเกลุง"
+ lamaism_bishop:0 "ลามะ"
+ lamaism_bishop_plural:0 "ลามะ"
+ 
+ lamaism_creator_god_name:0 "ดังเปอ ซังเกย์"
+ lamaism_creator_god_name_possessive:0 "แห่งดังเปอ ซังเกย์"
+ lamaism_health_god_name:0 "หัยครีวะ"
+ lamaism_health_god_name_possessive:0 "แห่งหัยครีวะ"
+ lamaism_fertility_god_name:0 "โดร์เจ จิกเจด"
+ lamaism_fertility_god_name_possessive:0 "แห่งโดร์เจ จิกเจด"
+ lamaism_wealth_god_name:0 "นัมเทอเซ"
+ lamaism_wealth_god_name_possessive:0 "แห่งนัมเทอเซ"
+ lamaism_household_god_name:0 "ปัลเดน ลาโม"
+ lamaism_household_god_name_possessive:0 "แห่งปัลเดน ลาโม"
+ lamaism_knowledge_god_name:0 "พระพรหม"
+ lamaism_knowledge_god_name_possessive:0 "แห่งพระพรหม"
+ lamaism_war_god_name:0 "เบกเซ"
+ lamaism_war_god_name_possessive:0 "แห่งเบกเซ"
+ lamaism_night_god_name:0 "นักโป เชนโป"
+ lamaism_night_god_name_possessive:0 "แห่งนักโป เชนโป"
+ lamaism_water_god_name:0 "นอร์กยุนมา"
+ lamaism_water_god_name_possessive:0 "แห่งนอร์กยุนมา"
+
+ dhyana: "ฌาน"
+ dhyana_adj: "ฌาน"
+ dhyana_adherent: "ผู้นับถือฌาน"
+ dhyana_adherent_plural: "เหล่าผู้นับถือฌาน"
+ dhyana_desc: "พุทธศาสนานิกายฌานเน้นย้ำอย่างยิ่งยวดต่อการทำสมาธิอย่างลึกซึ้งและถ่องแท้ว่าเป็นหนทางเดียวอันเป็นไปได้สู่การตรัสรู้ — บุคคลสามารถบรรลุความเข้าใจอันถ่องแท้ได้เพียงผ่านการพิจารณาตนภายในและการใคร่ครวญเท่านั้น, มิใช่ผ่านการศึกษาคัมภีร์"
+
+ vinaya: "วินัย"
+ vinaya_adj: "วินัย"
+ vinaya_adherent: "ผู้นับถือวินัย"
+ vinaya_adherent_plural: "เหล่าผู้นับถือวินัย"
+ vinaya_desc: "เหล่าผู้นับถือพุทธศาสนานิกายวินัยยึดมั่นตนเองและผู้อื่นตามมาตรฐานทางศีลธรรมและจริยธรรมอันเคร่งครัด, ด้วยเหตุว่าการมีวินัยในตนเองคือรากฐานอันจำเป็นสำหรับการแสวงหาปัญญาอันลึกซึ้ง"
+ 
+ pundarika: "ปุณฑริก"
+ pundarika_adj: "ปุณฑริก"
+ pundarika_adherent: "ผู้นับถือปุณฑริก"
+ pundarika_adherent_plural: "เหล่าผู้นับถือปุณฑริก"
+ pundarika_desc: "สัทธรรมปุณฑริกสูตร (The Lotus Sutra) ได้รับการเคารพบูชายิ่งกว่าคัมภีร์อื่นใดในพุทธศาสนานิกายปุณฑริก, ซึ่งเน้นย้ำมนตราและพิธีกรรมอันซับซ้อน และมีต้นกำเนิดจากการผสมผสานขององค์ประกอบเชิงตันตระและรหัสยนัยที่ถ่ายทอดสู่จีนตามเส้นทางสายไหม"
+
+ sukhavati: "สุขาวดี"
+ sukhavati_adj: "สุขาวดี"
+ sukhavati_adherent: "ผู้นับถือสุขาวดี"
+ sukhavati_adherent_plural: "เหล่าผู้นับถือสุขาวดี"
+ sukhavati_desc: "สุขาวดี, หรือพุทธศาสนานิกายแดนสุขาวดี, สอนว่าหนทางดั้งเดิมสู่การตรัสรู้นั้นเป็นไปไม่ได้อีกต่อไป. อย่างไรก็ตาม, โดยการอ้างถึงความเมตตาของพระอมิตาภะด้วยการสวดพระนามของท่าน, ผู้นั้นอาจได้ไปเกิดใหม่ในแดนสุขาวดีของพระองค์หลังความตาย, ไม่ว่าจะเป็นภิกษุหรือคฤหัสถ์ก็ตาม"
+
+ yogacara: "โยคาจาร"
+ yogacara_adj: "โยคาจาร"
+ yogacara_adherent: "ผู้นับถือโยคาจาร"
+ yogacara_adherent_plural: "เหล่าผู้นับถือโยคาจาร"
+ yogacara_desc: "เหล่าพุทธศาสนิกชนนิกายโยคาจารตั้งคำถามต่อสิ่งที่ผู้อื่นยึดถือเป็นเรื่องปกติมาตลอดชีวิต, โดยปฏิบัติต่อโลวัตถุว่าไม่มีอะไรมากไปกว่าการสำแดงออก ซึ่งจิตสำนึกของตนเอง"
+
+ avatamsaka: "อวตังสกะ"
+ avatamsaka_adj: "อวตังสกะ"
+ avatamsaka_adherent: "ผู้นับถืออวตังสกะ"
+ avatamsaka_adherent_plural: "เหล่าผู้นับถืออวตังสกะ"
+ avatamsaka_desc: "เหล่าพุทธศาสนิกชนนิกายอวตังสกะยกย่องอวตังสกสูตร (Flower Garland Sutra) ว่าเป็นแหล่งกำเนิดสูงสุดแห่งสัจธรรม, ซึ่งกล่าวถึงโลกอันไร้ขอบเขต, ถึงจักรวาลทั้งมวลที่บรรจุอยู่ภายในธุลีเพียงเม็ดเดียว"
+
+ mantrayana: "มันตรยาน"
+ mantrayana_adj: "มันตรยาน"
+ mantrayana_adherent: "ผู้นับถือมันตรยาน"
+ mantrayana_adherent_plural: "เหล่าผู้นับถือมันตรยาน"
+ mantrayana_desc: "เหล่าพุทธศาสนิกชนนิกายมันตรยานเพิ่มพูนความเข้าใจในสิ่งที่ลึกซึ้งและเร่งการเดินทางทางจิตวิญญาณของพวกเขาด้วยชุดพิธีกรรมรหัสยนัยและเครื่องมือลี้ลับ"
+
+ maitreya: "เมตไตรย"
+ maitreya_adj: "เมตไตรย"
+ maitreya_adherent: "ผู้นับถือเมตไตรย"
+ maitreya_adherent_plural: "เหล่าผู้นับถือเมตไตรย"
+ maitreya_desc: "ยุคของพระศากยมุนีพุทธเจ้าได้สิ้นสุดลงและพระเมตไตรยพุทธเจ้าได้เสด็จลงมาสู่โลกแล้ว, หรือดังที่เหล่าผู้ยกย่องและน้อมรับพระเมตไตรยเป็นพระผู้ไถ่ตามคำทำนายของพวกเขาเชื่อ. มีเพียงผ่านการทำลายระเบียบเก่าเท่านั้นที่โลกจะได้รับการช่วยเหลือ"
+ maitreya_religious_head_title: "เจ้าลัทธิ"  # 教主
+ maitreya_religious_head_title_name: "คณะนักบวช"
+
+ acharya: "อาจารยะ"
+ acharya_adj: "อาจารยะ"
+ acharya_adherent: "ผู้นับถืออาจารยะ"
+ acharya_adherent_plural: "เหล่าผู้นับถืออาจารยะ"
+ acharya_desc: "อาจารยะ, นิกายย่อยของพุทธศาสนวัชรยาน, ตกผลึกในศตวรรษที่เก้าด้วยการผสมผสานและบูรณาการของพิธีกรรมจีนและการปฏิบัติเชิงตันตระของทิเบต, ก่อให้เกิดการแสดงออก ซึ่งการปฏิบัติและการบูชาทางพุทธศาสนาอันมีลักษณะเฉพาะในระดับภูมิภาค"
+
+ doctrine_parameter_awaiting_the_maitreya_savior: "เปิดใช้งาน [decision|E] 'อ้างสิทธิ์ในเสื้อคลุมแห่งพระเมตไตรย'"
+ doctrine_parameter_killing_buddhists_is_pious: "[rulers|EU] ได้รับ [piety|E] จากการ [executing|E] ผู้ติดตาม [faiths|E] อื่นภายใน [religion|E] เดียวกัน"
+
+ maitreya_high_god_name: "พระเมตไตรย"
+ maitreya_high_god_name_2: "$buddhism_high_god_name$"
+ maitreya_high_god_name_possessive: "แห่งพระเมตไตรย"
+
+ holy_site_vaishali_name: "เวสาลี"
+ holy_site_vaishali_effect_name: "จาก [holy_site|E] #weak ($holy_site_vaishali_name$)#!"
+
+ holy_site_chang_an_name: "ฉางอัน"
+ holy_site_chang_an_effect_name: ""จาก [holy_site|E] #weak ($holy_site_chang_an_name$)#!""
+
+ holy_site_mount_lu_name: "ภูเขาหลู"
+ holy_site_mount_lu_effect_name: "จาก [holy_site|E] #weak ($holy_site_mount_lu_name$)#!"
+
+ holy_site_sarasvati_name: "สรัสวตี"
+ holy_site_sarasvati_effect_name: "จาก [holy_site|E] #weak ($holy_site_sarasvati_name$)#!"
+
+ holy_site_nanhua_name: "หนานหัว"
+ holy_site_nanhua_effect_name: "จาก [holy_site|E] #weak ($holy_site_nanhua_name$)#!"
+
+ holy_site_sikong_name: "ภูเขาซือคง"
+ holy_site_sikong_effect_name: "จาก [holy_site|E] #weak ($holy_site_sikong_name$)#!"
+
+ GLOSS_NEMBUTSU: "การสวดพระนามของพระอมิตาภะคือการปฏิบัติเจริญสติแบบพุทธโบราณที่ได้รับความสนใจอย่างมากในนิกายของเอเชียตะวันออก. รู้จักกันในชื่อ 'เนียนฝอ' (Nianfo) ในจีน, หรือ 'เน็มบุตสึ' (Nembutsu) ในญี่ปุ่น, การปฏิบัตินี้ได้รับการพิจารณาโดยบางนิกายว่าเป็นการอ้างถึงความเมตตาของพระอมิตาภะโดยตรง, ซึ่งด้วยพระคุณของพระองค์ ผู้นั้นอาจได้รับอนุญาตให้เข้าสู่แดนสุขาวดี, ไม่ว่าจะเป็นภิกษุหรือคฤหัสถ์ก็ตาม"

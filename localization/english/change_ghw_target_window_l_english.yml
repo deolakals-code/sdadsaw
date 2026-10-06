@@ -1,0 +1,10 @@
+﻿l_english: 
+ CHANGE_GHW_TARGET_TIMEOUT:0 "@warning_icon! #X มิอาจเปลี่ยนเป้าหมายได้ เนื่องจากสงครามจะเริ่มในอีกน้อยกว่า $VALUE$ วัน#!"
+ CHANGE_GHW_TARGET_WRONG_HOSTILITY:0 "@warning_icon! #X เรามิได้ถือว่าศรัทธาของ [TARGET_CHARACTER.GetNamePossessive] เป็นปรปักษ์#!"
+ CHANGE_GHW_TARGET_SAME_CHARACTER:0 "@warning_icon! #X ตัวละครที่เลือกเป็นเป้าหมายของมหาสงครามศักดิ์สิทธิ์นี้อยู่แล้ว#!"
+ CHANGE_GHW_TARGET_HEADER:1 "เปลี่ยนเป้าหมายสงคราม"
+ CHANGE_GHW_TARGET:0 "@warning_icon! #X เลือกเป้าหมายใหม่#!"
+ CHANGE_GHW_TARGET_CONFIRM:1 "เปลี่ยนเป้าหมายสงคราม"
+ CHANGE_GHW_TARGET_COST_TOOLTIP:1 "#T ค่าใช้จ่ายในการเปลี่ยนเป้าหมาย\n#!ค่าใช้จ่ายจะเพิ่มขึ้นทุกครั้งที่มีการเปลี่ยนเป้าหมาย\n[ChangeGHWTargetWindow.GetCostTooltip]"
+ CHANGE_GHW_TARGET_DEFENDERS:0 "ฝ่ายป้องกัน"
+ CHANGE_GHW_TARGET_COST:0 "ค่าใช้จ่าย:[ChangeGHWTargetWindow.GetCost]"

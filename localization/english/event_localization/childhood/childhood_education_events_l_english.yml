@@ -1,0 +1,44 @@
+﻿l_english: 
+ childhood_education.0004.t:0 "ความไม่แน่นอนของวัยเยาว์"
+ childhood_education.0004.opening:0 "ผู้อยู่ในอุปถัมภ์ของข้า, [ward.GetTitledFirstName], ได้เปลี่ยนแนวทางการศึกษาของ[ward.GetHerHis]แล้ว\n\n"
+ childhood_education.0004.desc1:0 "คิดไม่ถึงว่าบัดนี้[ward.GetSheHe]ปรารถนาจะศึกษาศิลปะแห่ง[ward.Custom('education_focus_child')] อันเป็นสาขาวิชาที่ข้าเชี่ยวชาญ... ช่าง ทำให้ข้าอบอุ่นใจนัก!"
+ childhood_education.0004.desc2:0 "คิดไม่ถึงว่า[ward.GetSheHe]จะละทิ้งความสนใจร่วมของเราไปเพื่อศิลปะแห่ง[ROOT.Char.Custom('education_focus')]!"
+ childhood_education.0004.desc_fallback:0 "บัดนี้[ward.GetSheHe|U]แสวงหาความรู้ในศิลปะแห่ง[ward.Custom('education_focus_child')]"
+ childhood_education.0004.a:0 "บัดนี้[ward.GetTitledFirstNameNoTooltip]กำลังศึกษา[ward.Custom('education_focus_child')]!"
+
+ childhood_education.1011.t:0 "นี่คือตัวตนของข้า"
+ childhood_education.1011.desc:0 "[guardian.GetTitledFirstName] ได้สอนข้ามากมายเกี่ยวกับวิถีแห่งผู้คนของ[guardian.GetHerHis]— แห่งผู้คน#EMP ของเรา#! เพราะไม่เพียง แต่ข้าจะนับถือศรัทธา[guardian.GetFaith.GetAdjective] ข้ายังมองว่าตนเองเป็นชาว[guardian.GetCulture.GetName]อย่างเต็มตัว"
+ childhood_education.1011.a:0 "นี่คือวิถีเดียวที่ข้าปรารถนาจะดำเนินชีวิต"
+
+ childhood_education.1012.t:0 "วันอันเป็นมงคล"
+ childhood_education.1012.desc:0 "ด้วยการศึกษาต่อเนื่องของ [ward.GetHerHis] ในศรัทธาและธรรมเนียมปฏิบัติของผู้คนของข้า [ward.GetTitledFirstName] ได้แจ้งแก่ข้าว่า [ward.GetSheHe] รู้สึกประหนึ่งว่าเป็นชาว [guardian.GetCulture.GetName] ผู้ [guardian.GetFaith.GetAdjective] ที่ดี"
+ childhood_education.1012.a:0 "ในที่สุด [ward.GetSheHe]ก็เห็นแสงสว่าง!"
+
+ child_culture_and_faith_converted.parent.title: "[ward.Custom('GetDaughterSon')|U] ได้รับอิทธิพลจากผู้ปกครอง"
+ child_culture_and_faith_converted.parent.message:1 "ความเชื่อและวัฒนธรรมของ[ward.Custom('GetDaughterSon')]ของท่าน [ward.GetTitledFirstNamePossessive] ได้เปลี่ยนไปภายใต้การดูแลของ[guardian.GetTitledFirstName]"
+
+ childhood_education.1021.t:0 "ในศรัทธา คือสัจธรรม"
+ childhood_education.1021.desc:0 "การดูแลของ[guardian.GetTitledFirstNamePossessive]ได้สอนข้ามากมาย และข้ารู้สึกว่าข้าเข้าใจธรรมชาติอันแท้จริงของโลก\n\nข้าเคยสงสัยได้อย่างไรว่า[guardian.GetFaith.GetName]มีคำตอบทั้งหมด?"
+ childhood_education.1021.a:0 "ข้าได้พบศรัทธาที่แท้จริงของข้าแล้ว"
+
+ childhood_education.1022.t:0 "ในศรัทธา คือสัจธรรม"
+ childhood_education.1022.desc:0 "หลังจากการบรรยายทั้งหมดและปัญญาที่ข้าแบ่งปัน [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('ward'))]ของข้า [ward.GetTitledFirstName] ในที่สุดก็ได้ยอมรับศรัทธาที่แท้จริง\n\nข้ารู้อยู่เสมอว่าวันหนึ่ง[ward.GetSheHe]จะเป็นชาว[ROOT.Char.GetFaith.GetAdjective]ตัวน้อยที่ดี"
+ childhood_education.1022.a:1 "[ROOT.Char.GetFaith.KnowledgeGodName]ทรงนำทางมือข้า"
+
+ child_faith_converted.parent.message:1 "ความเชื่อของ[ward.Custom('GetDaughterSon')]ของท่าน [ward.GetTitledFirstNamePossessive] ได้เปลี่ยนไปภายใต้การดูแลของ[guardian.GetTitledFirstName]"
+
+ childhood_education.1031.t:0 "ธรรมชาติและการเลี้ยงดู"
+ childhood_education.1031.desc:0 "ข้าอาจเกิดมาเป็นชาว[ward.GetCulture.GetName] แต่ข้าปฏิเสธไม่ได้ว่าข้าไม่รู้อีกต่อไปแล้วว่านั่นหมายความว่าอย่างไร หลังจากการดูแลของ[guardian.GetTitledFirstNamePossessive] ข้ารู้สึกเป็นชาว[guardian.GetCulture.GetName]อย่างแท้จริง"
+ childhood_education.1031.a:0 "นี่คือตัวตนของข้า"
+
+ childhood_education.1032.t:0 "ธรรมชาติและการเลี้ยงดู"
+ childhood_education.1032.desc:0 "หลังจากการดูแลอันยาวนานของข้าต่อ[ward.GetTitledFirstName]ผู้อ่อนวัย ข้าปลื้มใจอย่างหาที่สุดมิได้เมื่อ[ward.GetSheHe]บอกข้าว่า[ward.GetSheHe]ถือว่า[ward.GetHerselfHimself]เป็นชาว[guardian.GetCulture.GetName]!"
+ childhood_education.1032.a:0 "และแท้จริงแล้ว [ward.GetSheHe]ก็เป็น เช่นนั้น!"
+
+ child_culture_converted.parent.message:1 "วัฒนธรรมของ[ward.Custom('GetDaughterSon')]ของท่าน [ward.GetTitledFirstNamePossessive] ได้เปลี่ยนไปภายใต้การดูแลของ[guardian.GetTitledFirstName]"
+
+ childhood_education.9004.child_message:0 "[guardian.GetTitledFirstNamePossessiveNoTooltip] [GetPerk( 'pedagogy_perk' ).GetName( GetPlayer )]"
+ childhood_education.9004.guardian_message:1 "[GetPerk( 'pedagogy_perk' ).GetName( GetPlayer )]"
+
+ childhood_education.9010.child_message:0 "[parent.GetTitledFirstNamePossessiveNoTooltip] [GetPerk( 'just_one_more_hill_perk' ).GetName( GetPlayer )]"
+ childhood_education.9010.parent_message:1 "[GetPerk( 'just_one_more_hill_perk' ).GetName( GetPlayer )]"

@@ -1,0 +1,113 @@
+﻿l_english: 
+ jainism_religion:0 "ศาสนาเชน"
+ jainism_religion_adj:0 "เชน"
+ jainism_religion_adherent:0 "ชาวเชน"
+ jainism_religion_adherent_plural:0 "ชาวเชน"
+ jainism_religion_desc:0 "ชาวเชนแสวงหาหนทางตามครูทั้งยี่สิบสี่ท่าน คือ ตีรถังกร เพื่อหลุดพ้นจากวัฏสงสารอันเป็นนิรันดร์ของโลกด้วยการบรรลุสรรพัญญูญาณ คือ เกวลญาณ อหิงสาและการดำเนินชีวิตที่ดีงามเป็นหัวใจสำคัญของศาสนาเชน และบทสวดที่สำคัญที่สุดกล่าวว่า \"หน้าที่ของวิญญาณคือการช่วยเหลือ ซึ่งกันและกัน\""
+ jainism_high_god_name:0 "เหล่าตีรถังกร"
+ jainism_high_god_name_2:0 "$jainism_high_god_name$" # Optional translation alt
+ jainism_high_god_name_possessive:0 "ของเหล่าตีรถังกร"
+ jainism_high_god_shehe:0 "พวกเขา"
+ jainism_high_god_herselfhimself:0 "ตนเอง"
+ jainism_high_god_herhis:0 "ของพวกเขา"
+ jainism_high_god_alternate:0 "เหล่าพระผู้ช่วยให้รอด"
+ jainism_high_god_alternate_possessive:0 "ของเหล่าพระผู้ช่วยให้รอด"
+ jainism_good_god_rishabhanatha:0 "ฤษภนาถ"
+ jainism_good_god_mahavira:0 "มหาวีระ"
+ jainism_devil_name:0 "เหล่าผู้ลงทัณฑ์"
+ jainism_devil_name_possessive:0 "ของเหล่าผู้ลงทัณฑ์"
+ jainism_devil_shehe:0 "พวกเขา"
+ jainism_devil_herselfhimself:0 "ตนเอง"
+ jainism_evil_god_hellish_beings:0 "เหล่าอมนุษย์ในนรก"
+ jainism_evil_god_ignorance:0 "อวิชชา"
+ jainism_house_of_worship:0 "เทวสถาน"
+ jainism_house_of_worship_2:0 "$jainism_house_of_worship$" # Optional translation alt
+ jainism_house_of_worship_3:0 "$jainism_house_of_worship$" # Optional translation alt
+ jainism_house_of_worship_plural:0 "เทวสถาน"
+ jainism_religious_symbol:0 "อหิงสา"
+ jainism_religious_symbol_2:0 "$jainism_religious_symbol$" # Optional translation alt
+ jainism_religious_symbol_3:0 "$jainism_religious_symbol$" # Optional translation alt
+ jainism_religious_text:0 "อาคม"
+ jainism_religious_text_2:0 "$jainism_religious_text$" # Optional translation alt
+ jainism_religious_text_3:0 "$jainism_religious_text$" # Optional translation alt
+ jainism_religious_head_title:0 "อาจาริยะ"
+ jainism_religious_head_title_name:0 "ตำแหน่งอาจาริยะ"
+ jainism_devotee_male:0 "มุนี"
+ jainism_devotee_male_plural:0 "มุนี"
+ jainism_devotee_female:0 "อารยิกา"
+ jainism_devotee_female_plural:0 "อารยิกา"
+ jainism_devotee_neuter:0 "นิรครันถ์"
+ jainism_devotee_neuter_plural:0 "นิรครันถ์"
+ jainism_alternate_priest_term_plural:0 "สังฆะ"
+ jainism_bishop:0 "อุปัธยายะ"
+ jainism_bishop_plural:0 "อุปัธยายะ"
+ jainism_divine_realm:0 "เทวโลก"
+ jainism_divine_realm_2:0 "$jainism_divine_realm$" # Optional translation alt
+ jainism_divine_realm_3:0 "$jainism_divine_realm$" # Optional translation alt
+ jainism_positive_afterlife:0 "สิทธศิลา"
+ jainism_positive_afterlife_2:0 "$jainism_positive_afterlife$" # Optional translation alt
+ jainism_positive_afterlife_3:0 "$jainism_positive_afterlife$" # Optional translation alt
+ jainism_negative_afterlife:0 "นรก"
+ jainism_negative_afterlife_2:0 "$jainism_negative_afterlife$" # Optional translation alt
+ jainism_negative_afterlife_3:0 "$jainism_negative_afterlife$" # Optional translation alt
+ jainism_death_deity:0 "ความตาย"
+ jainism_death_deity_possessive:0 "ของความตาย"
+ jainism_death_deity_shehe:0 "มัน"
+ jainism_death_deity_herhis:0 "ของมัน"
+ witchgod_jainism_the_devas:0 "เหล่าเทวะ"
+ witchgod_jainism_the_devas_possessive:0 "ของเหล่าเทวะ"
+ witchgod_shehe_they:0 "พวกเขา"
+ witchgod_herhis_their:0 "ของพวกเขา"
+ witchgod_herhim_them:0 "พวกเขา"
+
+ jainism_creator_god_name:0 "ชีวะ"
+ jainism_creator_god_name_possessive:0 "ของชีวะ"
+ jainism_health_god_name:0 "ภคีรถ"
+ jainism_health_god_name_possessive:0 "ของภคีรถ"
+ jainism_fertility_god_name:0 "สุสิมะ"
+ jainism_fertility_god_name_possessive:0 "ของสุสิมะ"
+ jainism_wealth_god_name:0 "สรรวานุภูติ"
+ jainism_wealth_god_name_possessive:0 "ของสรรวานุภูติ"
+ jainism_household_god_name:0 "เนมินาถ"
+ jainism_household_god_name_possessive:0 "ของเนมินาถ"
+ jainism_fate_god_name:0 "กรรม"
+ jainism_fate_god_name_possessive:0 "ของกรรม"
+ jainism_knowledge_god_name:0 "ฤษภนาถ"
+ jainism_knowledge_god_name_possessive:0 "ของฤษภนาถ"
+ jainism_war_god_name:0 "กุนถุนาถ"
+ jainism_war_god_name_possessive:0 "ของกุนถุนาถ"
+ jainism_trickster_god_name:0 "$jainism_fate_god_name$"
+ jainism_trickster_god_name_possessive:0 "$jainism_fate_god_name_possessive$"
+ jainism_night_god_name:0 "สุปารศวนาถ"
+ jainism_night_god_name_possessive:0 "ของสุปารศวนาถ"
+ jainism_water_god_name:0 "ภคีรถ"
+ jainism_water_god_name_possessive:0 "ของภคีรถ"
+
+ #Digambara
+ digambara:0 "ทิคัมพร"
+ digambara_adj:0 "ทิคัมพร"
+ digambara_adherent:0 "ผู้นับถือทิคัมพร"
+ digambara_adherent_plural:0 "ผู้นับถือทิคัมพร"
+ digambara_desc:0 "เกวลญาณปลดปล่อยร่างกายจากความต้องการทางกายภาพทั้งหมด อย่างไรก็ตาม จิตวิญญาณสามารถปลดปล่อยได้ก็ต่อเมื่อเปลือยกายโดยสมบูรณ์ ซึ่งเป็นเหตุผลว่าทำไมพระสงฆ์ทิคัมพรจึงต้องดำรงชีวิตโดยปราศจากเสื้อผ้า"
+
+ #Svetambara
+ svetambara:0 "เศวตัมพร"
+ svetambara_adj:0 "เศวตัมพร"
+ svetambara_adherent:0 "ผู้นับถือเศวตัมพร"
+ svetambara_adherent_plural:0 "ผู้นับถือเศวตัมพร"
+ svetambara_desc:0 "เกวลญาณเป็นสภาวะของจิตวิญญาณ ไม่ใช่สภาวะทางกายภาพ ด้วยการดำเนินชีวิตที่ดีงาม บุคคลสามารถบรรลุสรรพัญญูญาณและหลุดพ้นจากวัฏสงสารอันไม่มีที่สิ้นสุด ช่วงเวลาแห่งโมกษะเองนั้นสามารถบรรลุได้ผ่านความตายเท่านั้น เมื่อบุคคลกลายเป็นสิทธะ"
+ svetambara_devotee_male:0 "สาธุ"
+ svetambara_devotee_male_plural:0 "สาธุ"
+ svetambara_devotee_female:0 "สาธวี"
+ svetambara_devotee_female_plural:0 "สาธวี"
+
+ #Yapaniya
+ yapaniya:0 "ยาปนียะ"
+ yapaniya_adj:0 "ยาปนียะ"
+ yapaniya_adherent:0 "ผู้นับถือยาปนียะ"
+ yapaniya_adherent_plural:0 "ผู้นับถือยาปนียะ"
+ yapaniya_desc:1 "ศรัทธาของชาวเชนยาปนียะมีความคล้ายคลึงกับทั้งประเพณีเศวตัมพรและทิคัมพร ซึ่งกระตุ้นความศรัทธาของผู้ศรัทธาทั้งสองนิกาย นักบวชยาปนียะคาดว่าจะต้องเปลือยกาย เช่นเดียวกับนักบวชทิคัมพร แต่พวกเขาไม่ได้ยึดถือกฎเกณฑ์ที่เข้มงวดของทิคัมพร ศรัทธานี้ยังเชื่อว่าสตรีสามารถบรรลุโมกษะได้ และนักบวชหญิงเป็นเรื่องปกติในศรัทธานี้"
+ yapaniya_devotee_male:0 "สาธุ"
+ yapaniya_devotee_male_plural:0 "สาธุ"
+ yapaniya_devotee_female:0 "สาธวี"
+ yapaniya_devotee_female_plural:0 "สาธวี"

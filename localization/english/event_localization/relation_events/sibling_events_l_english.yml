@@ -1,0 +1,92 @@
+﻿l_english: 
+ sibling.0001.t:0 "ส่วนอันพึงได้"
+ sibling.0001.desc:0 "[sibling.GetTitledFirstName] ได้มาขอเข้าเฝ้าข้าอย่างเป็นทางการ!\n\n"ท่าน [sibling.Custom2('RelationToMe' , ROOT.GetCharacter )] ที่รัก ข้าได้รับใช้ท่านอย่างภักดี ถึงเวลาแล้วมิใช่หรือที่ข้าจะได้รับรางวัลตอบแทนความดีความชอบของข้า?""
+ sibling.0001.a:0 "ข้าจะมอบบรรดาศักดิ์และที่ดินของเจ้าเองให้แก่เจ้า!"
+ sibling_promised_land_tt:1 "[sibling.GetFirstName] จะคาดหวังให้ข้ามอบบรรดาศักดิ์ให้ [sibling.GetHerHim] ในเร็ววัน"
+ sibling.0001.b:0 "เจ้าสามารถขอความช่วยเหลือใดก็ได้ [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling'))] ของข้า"
+ sibling.0001.c:0 "รับของกำนัลนี้ไปและพิสูจน์ตนเองให้โลกเห็นเถิด [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )] ที่รัก!"
+ sibling_funded_for_invasion:0 "[sibling.GetFirstName] จะมองหาอาณาจักรที่เหมาะสมเพื่อลองเสี่ยงโชคของ [sibling.GetHerHis]"
+ sibling_becomes_councillor_tt:0 "[sibling.GetFirstName] กลายเป็นหนึ่งในที่ปรึกษาของข้า"
+ sibling.0001.e:0 "เจ้ามิได้ทำสิ่งใดมากไปกว่าหน้าที่ของเจ้า!"
+
+ sibling.0002.desc:0 "[ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )] ของข้า, [sibling.GetFirstName], ได้มาหาข้า เตือนข้าว่าข้าเคยสัญญาว่าจะมอบที่ดินและบรรดาศักดิ์ของ [sibling.GetHerHis] เองให้แก่ [sibling.GetHerHim]\n\n"ข้ารอมานานพอแล้ว, [sibling.Custom2('RelationToMe' , ROOT.Char )]""
+ sibling.0002.a:1 "ข้าจะจ่ายเงินให้เจ้าเพื่อลืมสัญญานั้นเสีย"
+ sibling.0002.b:0 "ข้าไม่มีสิ่งใดจะให้เจ้า, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )]"
+
+ sibling.0003.desc:1 "[ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )] ของข้า, [sibling.GetFirstName], ได้มาหาข้า นำส่วยจากที่ดินใหม่ของ [sibling.GetHerHis] มามอบให้\n\n"[sibling.Custom2('RelationToMe' , ROOT.Char )|U]! ขอให้ของกำนัลเหล่านี้ผูกพันเราในฐานะสหายตลอดไป เฉก เช่นที่เราผูกพันกันทางสายเลือด!""
+ sibling.0003.a:0 "เพื่อครอบครัวและอาณาจักร!"
+
+ sibling.0004.t:0 "[sibling.Custom('SisterBrother')|U] และ [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('vassal') )|U]"
+ sibling.0004.opening:0 "[vassal.GetTitledFirstName] ได้มาร้องเรียนเกี่ยวกับ [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )] ของข้า [sibling.GetTitledFirstName] อีกครั้ง"
+ sibling.0004.fallback:0 "\n\nพวกเขาเข้ากันไม่ได้เลย และครั้งนี้ดูเหมือนว่าคนใดคนหนึ่งจะทำเกินไป"
+ sibling.0004.a:0 "[ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] ของข้ากระทำการในนามของข้า"
+ sibling.0004.b:0 "ควบคุมตัวเองหน่อย, [sibling.GetFirstNameNoTooltip]!"
+ sibling.0004.c:0 "ข้าต้องตำหนิเจ้าทั้งสองเหมือนเด็กๆ หรือไร?!"
+
+ sibling.0005.t:0 "ต้นเหตุแห่งปัญหา"
+ sibling.0005.desc:0 "ข้ารู้มาระยะหนึ่งแล้วว่าวันแห่งการตัดสินจะต้องมาถึงสำหรับ [sibling.Custom2('MyCharacterIntroduction', ROOT.Char )]\n\n[vassal.GetTitledFirstName] ยื่นข้อเรียกร้องแก่ข้า ไม่ใช่เพียงในนามของ [vassal.GetHerselfHimself] แต่จาก [ROOT.GetCharacter.Custom('powerful_vassals_loc')|l] ทั้งหมดของข้า ว่าให้ข้าทำอะไรสักอย่างเกี่ยวกับ [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] ที่เหลือทนของข้า"
+ sibling.0005.a:0 ""อย่าบังอาจพูดถึง [sibling.GetHerHim] เช่นนั้น!""
+ sibling.0005.b:1 "[sibling.GetSheHe|U] ต้องเรียนรู้ว่าพฤติกรรมของ [sibling.GetHerHis] นั้นยอมรับไม่ได้"
+ sibling.0005.c:1 "พอทีเถอะ, [sibling.GetFirstNameNoTooltip]!"
+
+ sibling.1001.t:0 "การสนับสนุนทางการทูต"
+ sibling.1001.desc:0 "[ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') ) ] ของข้า, [sibling.GetTitledFirstName], ได้มาหาข้าพร้อมความคิดว่าจะใช้ลิ้นเงินลิ้นทองของ [sibling.GetHerHis] ให้เป็นประโยชน์ได้อย่างไร\n\n"ข้าสามารถทำหน้าที่เป็นทูต หรือแม้กระทั่งบอกให้เขียนสารและคำสั่งของท่านได้""
+ sibling.1001.a:0 "ข้ารู้ดีว่าเจ้าจะเป็นประโยชน์ที่สุดที่ใด"
+ accepted_sibling_help_tt:0 "พี่น้องที่มีค่าอาจรู้สึกว่าพวกเขาควรได้รับรางวัลตอบแทนบางอย่าง..."
+ sibling.1001.b:0 "ข้าปฏิเสธที่จะเป็นหนี้บุญคุณเจ้า, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )]"
+
+ sibling.1002.t:0 "ความรู้ทางการทหาร"
+ sibling.1002.desc:0 "[ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )] ของข้า, [sibling.GetTitledFirstName], ได้มาหาข้าเพื่อชี้ให้เห็นถึงความเข้าใจในสงครามของ [sibling.GetHerHis]\n\n"ให้ข้าช่วยฝึกทหารของท่าน แล้วพวกเขาจะต่อสู้เหมือนกองทัพที่ท่านไม่เคยเห็นมาก่อน""
+ sibling.1002.a:0 "ข้ารู้ดีว่าเจ้าจะเป็นประโยชน์ที่สุดที่ใด"
+ sibling.1002.b:0 "ข้าปฏิเสธที่จะเป็นหนี้บุญคุณเจ้า, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )]"
+
+ sibling.1003.t:0 "ความลับและเสียงกระซิบ"
+ sibling.1003.desc:0 "[ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )] ของข้า, [sibling.GetTitledFirstName], ได้เสนอที่จะส่งข่าวสารเกี่ยวกับสิ่งที่เกิดขึ้นในราชสำนักของข้าให้ข้า\n\n"การมีผู้ภักดีอย่างแท้จริงท่ามกลาง [ROOT.Char.Custom('GetCourt')|l] จะเป็นประโยชน์ต่อท่าน...""
+ sibling.1003.a:0 "สายสัมพันธ์ในครอบครัวเป็นสิ่งเดียวที่ข้าเชื่อใจได้อย่างแท้จริง"
+ sibling.1003.b:0 "เจ้าคิดว่าข้าเชื่อใจเจ้ารึ, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )]?"
+
+ sibling.1004.t:0 "กระแสแห่งทองคำ"
+ sibling.1004.desc:0 "เมื่อมองดูบัญชีของ [ROOT.Char.Custom('GetRealmOrDomicile')|l], [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )] ของข้า, [sibling.GetTitledFirstName], อดหัวเราะไม่ได้\n\n"[ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )|U], โปรดอนุญาตให้ข้าแสดงให้ผู้ที่รับผิดชอบต่อความยุ่งเหยิงนี้เห็นว่าควรทำอย่างไร""
+ sibling.1004.a:0 "ใช่แล้ว, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )], ทำให้คลังสมบัติของข้าเติบโตขึ้น"
+ sibling.1004.b:0 "ข้ารู้ว่าทำไม — เจ้าต้องการจับเงินของข้า..."
+
+ sibling.1005.t:0 "การใคร่ครวญเรื่องเทววิทยา"
+ sibling.1005.desc:0 "มี [sibling.GetWomenMen] เพียงไม่กี่คนที่สามารถเทียบเคียง [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )] ของข้า, [sibling.GetTitledFirstName], ในด้านความเข้าใจอย่างลึกซึ้งได้\n\nตอนนี้ [sibling.GetSheHe|U] เสนอที่จะแบ่งปันสิ่งนั้นกับข้า ในฐานะที่ปรึกษาของ [ROOT.Char.Custom('GetCourt')|l] ในทุกเรื่องทางจิตวิญญาณ"
+ sibling.1005.a:0 "โปรดช่วยนำทางข้าด้วย, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )]"
+ sibling.1005.b:0 "ข้าไม่มีวันวางวิญญาณของข้าไว้ในมือเจ้า"
+
+ sibling.2001.t:0 "ตัวสร้างความรำคาญ"
+ sibling.2001.opening:0 "ข้าแทบจะทนให้ [sibling.GetTitledFirstName] อยู่ใกล้ๆ ไม่ได้"
+ sibling.2001.fallback:0 "\n\nหาก [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )] ของข้าไม่ได้บังเอิญจุดไฟเผาบางสิ่งหรือผลาญทองของข้า [sibling.GetSheHe] ก็กำลัง ทำให้ [ROOT.Char.Custom('GetCourtierPlural')] ของข้าไม่พอใจ"
+ sibling.2001.a:0 "อนิจจาตัวข้า แต่ [sibling.GetSheHe] คือครอบครัว!"
+ sibling.2001.b:0 "พอทีเถอะ, [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )]!"
+
+ sibling.8001.t:0 "ราคาของครอบครัว"
+ sibling.8001.desc:0 "[ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )] ที่โลภมากของข้า, [sibling.GetTitledFirstName], เอา แต่หยิบเหรียญมากขึ้นเรื่อยๆ เป็น "เบี้ยเลี้ยง" ของ [sibling.GetHerHis]\n\nตอนนี้ [sibling.GetSheHe] ทำเกินไปแล้ว โดยยืนกรานขอเงินสำหรับกิจการค้า แต่กลับเก็บทั้งหมดไว้กับ [sibling.GetHerselfHimself]!"
+ sibling.8001.a:0 "ถุงเงินของข้าปิดแล้ว, [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )]!"
+
+ sibling.8002.t:0 "กระเป๋าหนัก"
+ sibling.8002.desc:0 "[ROOT.GetCharacter.Custom('trait_generous_adjective')] [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] ของข้า, [sibling.GetTitledFirstName], ได้เดินทางไป [province.GetName] รับฟังความทุกข์ยากของชาวบ้าน และมอบของขวัญและคำสัญญาอย่างเอื้อเฟื้อ\n\n[sibling.GetSheHe|U] ถึงกับ ทำให้ชัดเจนว่าสิ่งเหล่านี้ล้วนเป็นความเมตตาในนามของ #EMP '[ROOT.Char.GetTitledFirstNameNoTooltip] ผู้ประเสริฐ'#!..."
+ sibling.8002.a:0 "ทำได้ดีมาก, [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )]"
+ sibling.8002.b:0 "นี่ทำด้วยทองของข้ารึ?!"
+
+ sibling.8003.t:0 "ความไม่รอบคอบ"
+ sibling.8003.desc:0 "[ROOT.GetCharacter.Custom('trait_lustful_adjective')] [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] ของข้า, [sibling.GetTitledFirstName], ได้ตัดสินใจผิดพลาดหลายครั้ง แต่การเข้าไปพัวพันกับ [sibling.Custom('servant_for_romance')] สามัญชนอาจเป็นสิ่งที่เลวร้ายที่สุด!"
+ sibling.8003.a:0 "โอ้ [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] ของข้าอาจทำสิ่งที่ [sibling.GetSheHe] ต้องการ..."
+ risk_of_sibling_producing_bastard_tt:0 "สิ่งนี้อาจมีผลตามมา..."
+ sibling.8003.b:0 "[sibling.GetSheHe|U] ไม่อาจพบกับ [sibling.Custom('servant_for_romance')] ได้อีกต่อไป!"
+
+ sibling.8004.t:0 "ความเคารพต่อผู้บังคับบัญชา"
+ sibling.8004.desc:1 "ขณะเดินทางผ่าน [province.GetName], [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] ของข้าดูเหมือนจะ ทำให้ชาวบ้านในหลายหมู่บ้านและเมืองไม่พอใจอย่างมาก [sibling.GetTitledFirstName] ไม่เพียงเรียกร้องที่พักและให้ปฏิบัติต่อ [sibling.GetSheHe] ราวกับว่า [sibling.GetSheHe] เป็น [ROOT.GetCharacter.Custom2('using_my_title' , SCOPE.sC('sibling') ) ] แต่ [sibling.GetSheHe] ยังลงโทษผู้คนสำหรับการแสดงความไม่เคารพเพียงเล็กน้อย"
+ sibling.8004.a:0 "ข้าเข้าใจว่าเหตุใดพวกเขาจึงไม่พอใจ"
+ peasants_dislike_sibling_tt:0 "ชาวบ้านใน [province.GetName] ไม่พอใจ"
+
+ sibling.8005.t:0 "การต้อนรับที่ว่างเปล่า"
+ sibling.8005.desc:0 "[ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] ของข้า [sibling.GetTitledFirstName] ควรจะเป็นผู้ต้อนรับ [vassal.GetTitledFirstName] สำหรับการมาเยือนราชสำนักของ [vassal.GetHerHis]\n\nอย่างไรก็ตาม [vassal.GetFirstName] มาถึงล่าช้าไปหลายวัน และบัดนี้เมื่อ [vassal.GetSheHe] มาถึง [ROOT.GetCharacter.Custom('trait_impatient_adjective')] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] ของข้าก็หายตัวไป ทิ้งให้แขกของข้าไม่ได้รับการต้อนรับ!"
+ sibling.8005.a:0 "ของขวัญเล็กน้อยจะชดเชยได้"
+ sibling.8005.b:0 ""[sibling.GetFirstNameNoTooltip]!!!""
+
+ sibling.8006.t:0 "เข้มงวด แต่ยุติธรรม"
+ sibling.8006.desc:1 "ขณะเยี่ยมเยียนราชสำนักของ [vassal.GetTitledFirstName], [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] ของข้า, [sibling.GetTitledFirstName], ถูกขอให้ตัดสินความในนามของข้า\n\n[vassal.GetFirstNameNoTooltip] ยกย่องความยุติธรรมของ [sibling.GetFirstNamePossessiveNoTooltip] อย่างยืดยาว และดูเหมือนจะพอใจกับการมาเยือนของ [sibling.Custom('SisterBrotherPossessive')] ของข้ามาก"
+ sibling.8006.a:0 "[sibling.GetFirstNameNoTooltip] ควรใช้เวลามากขึ้นที่ราชสำนักของ [vassal.GetFirstNamePossessiveNoTooltip]"
+ sibling.8006.b:0 "ข้าก็มีบางคดีที่ [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] ของข้าสามารถตัดสินให้ข้าได้!"

@@ -1,0 +1,36 @@
+﻿l_english: 
+ bm_1066_japan: "จันทรามิรู้จาง"
+ bm_1066_japan_desc: "เกือบครึ่งศตวรรษได้ล่วงผ่านนับ แต่ ฟูจิวาระ มิจินากะ คัมปากุแห่งญี่ปุ่น ได้ประพันธ์บทกวีอันโด่งดังของตนไว้ว่า: #EMP "ข้าคำนึงว่าโลกหล้านี้คือโลกของข้า, และจันทร์เพ็ญนั้นมิมีวันเสื่อมคลาย"#!\n\nถ้อยคำดังกล่าว ซึ่งถูกตีความอย่างกว้างขวางว่าเป็นประกาศิตถึงสถานะอันมิอาจสั่นคลอนได้ของตระกูลฟูจิวาระในฐานะผู้สำเร็จราชการแทนองค์จักรพรรดิ, ดูเหมือนจะยังคงเป็นจริงตราบจนบัดนี้ บุตรชายของมิจินากะกำลังจะส่งต่อตำแหน่งอันทรงอำนาจทั้งปวงของตนไปยังคนรุ่นถัดไป\n\n#bold ตระกูลฟูจิวาระจะยังคงอำนาจครอบงำเหนือราชสำนักต่อไป, ต่อกรกับเสียงคัดค้านจากตระกูลขุนนางอื่นและราชวงศ์ได้หรือไม่?#!"
+
+ bookmark_japan_yorimichi: "คัมปากุ $dynn_Fujiwara$ $Yorimichi$"
+ bookmark_japan_yorimichi_subheading: "$BOOKMARK_SUBHEADING_RULING_REGENT$"
+ bookmark_japan_yorimichi_morozane: "$Morozane$"
+ bookmark_japan_yorimichi_sadatsuna: "$Sadatsuna$"
+ bookmark_japan_yorimichi_desc: "โยริมิจิ คือผู้สำเร็จราชการจาก [Glossary( 'ฟูจิวาระ', 'FUJIWARA_GLOSS' )] ลำดับที่ 9 ในสายตระกูลอันยาวนาน เขาได้ปกครองญี่ปุ่นมาเกือบครึ่งศตวรรษ บัดนี้ ด้วยวัยที่ล่วงโรย เขาจึงเตรียมพร้อมที่จะส่งต่อไม้ให้กับ โมโรซาเนะ บุตรชายของตน — ทว่าความไม่แน่นอนยังมีอยู่ทั่ว\n\nจักรพรรดิชิกาฮิโตะทรงอึดอัดภายใต้ [Glossary( 'ผู้สำเร็จราชการแทน', 'KAMPAKU_GLOSS' )] และกระตือรือร้นที่จะรวบอำนาจกลับคืนสู่ศูนย์กลางรอบ [Glossary( 'บัลลังก์ดอกเบญจมาศ', 'CHRYSANTHEMUM_THRONE_GLOSS' )] ของพระองค์ ห่างไกลจากเมืองหลวง บรรดาแคว้นแดนไกลได้แตกหักออกจากระบบราชการส่วนกลาง ถูกปกครองโดยเหล่าขุนนางตั้งตนเป็นใหญ่เสมือนดินแดนศักดินาของตนเอง\n\n#BOLD ท่านจะสามารถยืนยันอำนาจครอบงำของฟูจิวาระอีกครั้ง และต้านทานการล่มสลายของระบบ [Glossary( 'ริตสึเรียว', 'RITSURYO_GLOSS')] ได้หรือไม่?#!"
+
+ RITSURYO_GLOSS: "#bold ริตสึเรียว#! คือระบบกฎหมายและการบริหารแบบรวมศูนย์ ซึ่งถูกจัดตั้งขึ้นครั้งแรกในญี่ปุ่นช่วงปลายศตวรรษที่เจ็ด ด้วยความตั้งใจที่จะขยายอำนาจของราชสำนัก ระบบนี้เสื่อมโทรมลงอย่างหนักในศตวรรษที่สิบเอ็ด โดยหน้าที่ของมันถูกแย่งชิงไปทีละน้อยโดยปัจเจกบุคคลและตระกูลที่ทรงอำนาจ"
+
+ bookmark_japan_go_reizei: "$Chikahito$ $king_tenno_male_japanese$"
+ bookmark_japan_go_reizei_subheading: "$game_concept_ceremonial_liege$ แห่งญี่ปุ่น"
+ bookmark_japan_go_reizei_tameyuki: "$Tameyuki$"
+ bookmark_japan_go_reizei_go_sanjo: "$Takahito$"
+ bookmark_japan_go_reizei_desc: "$Chikahito$ เติบโตมาในฐานะหมากตัวหนึ่งในเกมชักเย่ออำนาจที่เล่นโดยบิดาของเขา อดีตจักรพรรดิ [Glossary( 'Go-Suzaku', 'JOKO_GLOSS' )] และผู้สำเร็จราชการตระกูล [Glossary( 'Fujiwara', 'FUJIWARA_GLOSS' )] นามว่า $Yorimichi$ บัดนี้ในฐานะ [Glossary( 'Emperor', 'TENNO_GLOSS' )] $Chikahito$ ได้พยายามอย่างเต็มที่เพื่อยืนยันอำนาจขององค์จักรพรรดิ แต่ก็ยังคงปฏิบัติหน้าที่เพียงในฐานะพิธีการเป็นส่วนใหญ่\n\nด้วยถูกกดดันจากครอบครัวของพระสนมให้ปฏิเสธการรับรองบุตรชายเพียงคนเดียวของเขา ตอนนี้จึงกลายเป็นน้องชายของ $Chikahito$ นามว่า $Takahito$ ที่จะได้สืบทอดบัลลังก์เบญจมาศ\n\n#BOLD ท่านจะสามารถลดทอนอิทธิพลของตระกูล Fujiwara ฟื้นฟู [Glossary( 'Yamato', 'YAMATO_GLOSS' )] และปกครองในฐานะจักรพรรดิ ไม่ใช่แค่เพียงในนาม แต่กุมอำนาจที่แท้จริงและยั่งยืนได้หรือไม่?#!"
+ #He seeks to 
+ # restore [Glossary( 'Yamato', 'YAMATO_GLOSS' )] authority as true Emperor's of Japan?
+ bookmark_japan_morofusa: "$dynn_Minamoto$ $Morofusa$"
+ bookmark_japan_morofusa_subheading: "$game_concept_governor$ แห่ง $c_iyo$"
+ bookmark_japan_morofusa_toshifusa: "$Toshifusa$"
+ bookmark_japan_morofusa_akifusa: "$Akifusa$"
+ bookmark_japan_morofusa_desc: "หลานชายของจักรพรรดิ $Murakami$ นามว่า $Morofusa$ เป็นตัวอย่างที่หาได้ยากยิ่งของขุนนางตระกูล [Glossary( 'Minamoto', 'MINAMOTO_GLOSS' )] ผู้ประสบความสำเร็จ ไต่เต้าขึ้นสู่ตำแหน่งสูงอย่างรวดเร็วภายใต้ปีกของบิดาบุญธรรม [Glossary( 'Kampaku', 'KAMPAKU_GLOSS' )] $dynn_Fujiwara$ $Yorimichi$\n\nแม้ความสัมพันธ์ระหว่างตระกูล [Glossary( 'Fujiwara', 'FUJIWARA_GLOSS' )] และสายตรงของ Murakami Minamoto จะยังคงอบอุ่น แต่ตระกูลขุนนางอื่นๆ และพระราชวงศ์ก็หวังให้ $Morofusa$ ยืนหยัดเป็นขั้วอำนาจถ่วงดุลอิทธิพลของ Fujiwara\n\n#BOLD ท่านจะสามารถแย่งชิงอำนาจผู้สำเร็จราชการจาก Fujiwara เพื่อนำอำนาจกลับคืนสู่สายเลือดโดยตรงขององค์จักรพรรดิได้หรือไม่?#!"
+
+ bookmark_japan_takenori: "$dynn_Kiyohara$ $Takenori$"
+ bookmark_japan_takenori_subheading: "เจ้าเมืองแห่งมุตสึ"
+ bookmark_japan_takenori_takehira: "$Takehira$"
+ bookmark_japan_takenori_mitsuyori: "$Mitsuyori$"
+ bookmark_japan_takenori_desc: "ในสงครามเซ็นคูเน็นครั้งล่าสุด, $Takenori$ ได้ช่วยตระกูล [Glossary( 'มินาโมโตะ', 'MINAMOTO_GLOSS' )] แย่งชิงการควบคุมดินแดนตอนเหนือมาจากตระกูลอาเบะที่ตั้งมั่นมานาน เพื่อเป็นการขอบคุณสำหรับความดีความชอบนี้ ราชสำนัก ซึ่งนำโดย [Glossary( 'ฟูจิวาระ', 'FUJIWARA_GLOSS' )] ได้ตอบแทนตระกูลคิโยฮาระด้วยการมอบสิทธิ์ให้ปกครองดินแดนตอนเหนือในฐานะบูชิ\n\nสถานะอันน่าอิจฉานี้ ซึ่งเกี่ยวข้องกับการสอดส่องดูแลจากราชสำนักเพียงน้อยนิด จะยังคงถูกอดทนต่อไปตราบเท่าที่ความมั่งคั่งจากมุตสึยังคงหลั่งไหลสู่เมืองหลวงทางใต้\n\n#BOLD ท่านจะรักษาสถานะที่สร้างมาอย่างยากลำบากและก่อตั้งอาณาเขตของคิโยฮาระให้คงอยู่ยั่งยืน, หรือจะปล่อยให้ความแตกแยกของทายาททำลายทุกสิ่งที่ท่านสร้างมา? #!"
+
+ bookmark_japan_yoriyoshi: "$dynn_Minamoto$ $Yoriyoshi$"
+ bookmark_japan_yoriyoshi_subheading: "เจ้าเมืองแห่งคาวาจิ"
+ bookmark_japan_yoriyoshi_yoshiie: "$Yoshi_ie$"
+ bookmark_japan_yoriyoshi_yorisue: "$Yorisue$"
+ bookmark_japan_yoriyoshi_desc: "$Yoriyoshi$ เป็นผู้นำสาย [Glossary( 'มินาโมโตะ', 'MINAMOTO_GLOSS' )] ที่ทรงพลังที่สุด, เหล่าผู้สืบเชื้อสายมาจากจักรพรรดิ $Seiwa$ อิทธิพลของพวกเขาเติบโตขึ้นหลังจากที่เขาและบุตรชาย, $Yoshi_ie$, รับใช้เป็นแม่ทัพให้กับ [Glossary( 'ฟูจิวาระ', 'FUJIWARA_GLOSS' )] ในสงครามเซ็นคูเน็น โดยต่อสู้เคียงบ่าเคียงไหล่กับตระกูลคิโยฮาระ\n\nชัยชนะของพวกเขาได้ ทำให้ตระกูลมินาโมโตะกลายเป็นผู้นำเชิงสัญลักษณ์ของตระกูลซามูไรในภูมิภาคบันโด, รวมถึงตระกูล [Glossary( 'ไทระ', 'TAIRA_GLOSS' )] ที่ทรงพลังด้วย\n\n#BOLD ท่านจะยืนยันสถานะของตนในฐานะผู้นำของเหล่าตระกูลซามูไร และสร้างแนวร่วมพันธมิตรที่สามารถท้าทายตระกูลฟูจิวาระซึ่งดูเหมือนมิอาจสั่นคลอนได้หรือไม่?#!"

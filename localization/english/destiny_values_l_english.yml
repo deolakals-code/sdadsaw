@@ -1,0 +1,227 @@
+﻿l_english: 
+ 
+ is_your_child_desc: "เป็นบุตรหลานของท่าน"
+ is_your_close_family_desc: "เป็นครอบครัวใกล้ชิดของท่าน"
+ is_your_house_desc: "อยู่ในตระกูลของท่าน"
+ landed_spouse_desc: "มีคู่ครองที่มีที่ดิน"
+ landed_heir_desc: "มีทายาทที่มีที่ดิน"
+ has_many_good_relations_desc: "มีสหายมากมาย"
+ has_many_bad_relations_desc: "มีคู่แข่งจำนวนมาก"
+ part_of_feud_desc: "เป็นส่วนหนึ่งของความบาดหมาง"
+ high_diplomacy_desc: "มีค่าการทูตสูง"
+ high_martial_desc: "มีค่าการยุทธ์สูง"
+ high_stewardship_desc: "มีค่าการคลังสูง"
+ high_intrigue_desc: "มีค่าเล่ห์กลสูง"
+ high_learning_desc: "มีค่าการเรียนรู้สูง"
+ high_prowess_desc: "มีค่าความเก่งกาจสูง"
+ high_education_desc: "มีการศึกษาสูง"
+ more_beautiful_desc: "งดงามกว่าทายาท"
+ more_smart_desc: "ฉลาดกว่าทายาท"
+ more_fit_desc: "แข็งแรงกว่าทายาท"
+ more_strong_desc: "แข็งแกร่งกว่าทายาท"
+ more_skillful_desc: "มีทักษะสูงกว่าทายาท"
+ has_nickname_desc: "มีสมัญญานาม"
+ more_famous_desc: "มีชื่อเสียงมากกว่าทายาท"
+ second_in_line_desc: "อยู่ในลำดับที่สองของการสืบทอดมรดก"
+ higher_title_desc: "ดำรงตำแหน่งที่สูงกว่า"
+ new_liege_desc: "จะอยู่ภายใต้เจ้าเหนือหัวคนใหม่"
+ new_top_liege_desc: "จะอยู่ภายใต้เจ้าเหนือหัวสูงสุดคนใหม่"
+ tall_claims_desc: "ถือสิทธิ์อ้างที่สำคัญ"
+ pressed_claims_desc: "ถือสิทธิ์อ้างที่กดดันแล้ว"
+ unpressed_claims_desc: "ถือสิทธิ์อ้างที่ยังไม่ได้กดดัน"
+ inheritance_line_desc: "อยู่ในลำดับการสืบทอดมรดก"
+ has_interesting_story_desc: "มีเรื่องราวที่น่าสนใจ"
+ child_of_destiny_desc: "เป็นบุตรแห่งโชคชะตา"
+ virtues_interesting_desc: "มีลักษณะนิสัยที่ดีงาม"
+ tourney_xp_desc: "มีประสบการณ์ด้าน [GetTrait('tourney_participant').GetName( GetNullCharacter )]" # ผู้เข้าร่วมประลอง
+ reveler_xp_desc: "มีประสบการณ์ด้าน [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]" # นักสังสรรค์
+ mystic_xp_desc: "มีประสบการณ์ในฐานะ [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]" # ผู้ปฏิบัติทางจิตวิญญาณ
+ hunter_xp_desc: "มีประสบการณ์ด้าน [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]" # นายพราน
+ blademaster_xp_desc: "มีประสบการณ์ด้าน [GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )]" # ยอดนักดาบ
+ traveler_xp_desc: "มีประสบการณ์ด้าน [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )]" # นักเดินทาง
+ physician_xp_desc: "มีประสบการณ์ด้าน [GetTrait('lifestyle_physician').GetName( GetNullCharacter )]" # แพทย์
+ herbalist_xp_desc: "มีประสบการณ์ด้าน [GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )]" # หมอสมุนไพร
+ loyal_interesting_desc: "เป็นผู้ [GetTrait('loyal').GetName( GetNullCharacter )]" # ภักดี
+ disloyal_interesting_desc: "เป็นผู้ [GetTrait('disloyal').GetName( GetNullCharacter )]" # ไม่ภักดี
+ faith_warrior_interesting_desc: "เป็น [GetTrait('faith_warrior').GetName( GetNullCharacter )]" # นักรบแห่งศรัทธา
+ blood_of_prophet_interesting_desc: "มี [GetTrait('blood_of_prophet').GetName( GetNullCharacter )]" # สายเลือดศาสดา
+ varangian_interesting_desc: "เป็น [GetTrait('varangian').GetName( GetNullCharacter )]" # วารังเจียน
+ poet_interesting_desc: "เป็น [GetTrait('poet').GetName( GetNullCharacter )]" # กวี
+ peasant_leader_interesting_desc: "เป็น [GetTrait('peasant_leader').GetName( GetNullCharacter )]" # ผู้นำชาวนา
+ populist_leader_interesting_desc: "เป็น [GetTrait('populist_leader').GetName( GetNullCharacter )]" # ผู้นำประชานิยม
+ berserker_interesting_desc: "เป็น [GetTrait('berserker').GetName( GetNullCharacter )]" # เบอร์เซิร์กเกอร์
+ born_in_the_purple_interesting_desc: "เป็นผู้ [GetTrait('born_in_the_purple').GetName( GetNullCharacter )]" # เกิดในราชวงศ์
+ scaly_interesting_desc: "มีผิวหนัง [GetTrait('scaly').GetName( GetNullCharacter )]" # เป็นเกล็ด
+ albino_interesting_desc: "เป็นผู้ [GetTrait('albino').GetName( GetNullCharacter )]" # เผือก
+ dwarf_interesting_desc: "เป็น [GetTrait('dwarf').GetName( GetNullCharacter )]" # คนแคระ
+ giant_interesting_desc: "เป็น [GetTrait('giant').GetName( GetNullCharacter )]" # คนยักษ์
+ devoted_interesting_desc: "เป็นผู้ [GetTrait('devoted').GetName( GetNullCharacter )]" # อุทิศตน
+ pure_blooded_interesting_desc: "เป็นผู้ [GetTrait('pure_blooded').GetName( GetNullCharacter )]" # เลือดบริสุทธิ์
+ crusader_king_interesting_desc: "เป็น [GetTrait('crusader_king').GetName( GetNullCharacter )]" # กษัตริย์ครูเสด
+ disinherited_interesting_desc: "เป็นผู้ [GetTrait('disinherited').GetName( GetNullCharacter )]" # ถูกตัดสิทธิ์จากมรดก
+ blind_interesting_desc: "เป็นผู้ [GetTrait('blind').GetName( GetNullCharacter )]" # ตาบอด
+ is_diarch_interesting_desc: "เป็นผู้ปกครองร่วม"
+ ruler_in_foreign_lands_interesting_desc: "เป็นผู้ปกครองในดินแดนต่างแดน"
+ valiant_knight_interesting_desc: "เป็นอัศวินผู้กล้าหาญ"
+ sinful_bastard_interesting_desc: "เป็น [GetTrait('bastard').GetName( GetNullCharacter )] ผู้บาปหนา" # บุตรนอกสมรส
+ adventurer_interesting_desc: "เป็นนักผจญภัย"
+ liege_crusader_king_liege_lineage_interesting_desc: "เจ้าเหนือหัวแห่งสายเลือด [GetTrait('crusader_king').GetName( GetNullCharacter )]" # กษัตริย์ครูเสด
+ holy_site_steward_interesting_desc: "เมืองหลวงเป็นสถานที่ศักดิ์สิทธิ์"
+ has_a_legend_interesting_desc: "มีตำนาน"
+ weak_hook_liege_interesting_desc: "มีพันธะผูกมัดอย่างอ่อนต่อเจ้าเหนือหัว"
+ strong_hook_liege_interesting_desc: "มีพันธะผูกมัดอย่างแข็งต่อเจ้าเหนือหัว"
+ beloved_by_pope_interesting_desc: "เป็นที่รักของพระสันตะปาปา"
+ head_of_faith_interesting_desc: "เป็นประมุขแห่งศรัทธา"
+ stronger_than_liege_interesting_desc: "แข็งแกร่งกว่าเจ้าเหนือหัว"
+ small_king_interesting_desc: "เป็นผู้ปกครองอาณาจักรขนาดเล็ก"
+ can_feudalize_interesting_desc: "สามารถเปลี่ยนเป็นระบบฟิวดัลได้"
+ multiduke_interesting_desc: "ถือครองดัชชีหลายแห่ง"
+ legitimacy_interesting_desc: "ผู้ปกครองที่ชอบธรรมอย่างยิ่ง"
+ non_dominant_gender_ambitious_char_interesting_desc: "เป็นตัวละครที่ไม่ใช่เพศหลักผู้ทะเยอทะยาน"
+ non_dominant_gender_ruler_interesting_desc: "เป็นผู้ปกครองที่ไม่ใช่เพศหลัก"
+ treacherous_schemer_interesting_desc: "เป็นนักวางแผนผู้ทรยศ"
+ kind_hearted_diplomat_interesting_desc: "เป็นนักการทูตผู้ใจดี"
+ different_faith_interesting_desc: "มีศรัทธาแตกต่าง"
+ greedy_steward_interesting_desc: "เป็นเสนาบดีผู้ละโมบ"
+ brazen_commander_interesting_desc: "เป็นผู้บัญชาการผู้บ้าบิ่น"
+ pious_theologian_interesting_desc: "เป็นนักเทววิทยาผู้ศรัทธา"
+ salacious_seducer_interesting_desc: "เป็นผู้ยั่วยวนผู้มากตัณหา"
+ high_skills_desc: "มีทักษะสูงมาก"
+ killed_a_lot_interesting_desc: "สังหารคนไปแล้วกว่า 10 คน"
+ has_both_good_and_bad_genetics_desc: "มีลักษณะทางพันธุกรรมทั้งดีและไม่ดี"
+ good_genetics_desc: "ลักษณะทางพันธุกรรมที่ดี"
+ bad_genetics_desc: "ลักษณะทางพันธุกรรมที่ไม่ดี"
+ holds_rome_interesting_desc: "ถือครอง [GetTitleByKey('c_roma').GetBaseName]" # โรม
+ holds_byzantion_interesting_desc: "ถือครอง [GetTitleByKey('c_byzantion').GetBaseName]" # ไบแซนทิออน
+ holds_jerusalem_interesting_desc: "ถือครอง [GetTitleByKey('c_jerusalem').GetBaseName]" # เยรูซาเลม
+ holds_mecca_interesting_desc: "ถือครอง [GetTitleByKey('c_mecca').GetBaseName]" # เมกกะ
+ holds_baghdad_interesting_desc: "ถือครอง [GetTitleByKey('c_baghdad').GetBaseName]" # แบกแดด
+ holds_special_buildings_interesting_desc: "ควบคุมสิ่งปลูกสร้างพิเศษ"
+ has_historical_artifacts_interesting_desc: "เป็นเจ้าของสิ่งประดิษฐ์ทางประวัติศาสตร์ที่ไม่เหมือนใคร"
+ underrepresented_faith_interesting_desc: "มีศรัทธาที่ไม่ค่อยมีตัวแทน"
+ underrepresented_culture_interesting_desc: "มีวัฒนธรรมที่ไม่ค่อยมีตัวแทน"
+ outside_realm_desc: "ผู้ปกครองอิสระ"
+ knows_many_secrets_interesting_desc: "รู้ความลับมากมาย"
+ has_secrets_interesting_desc: "มีความลับ"
+ extremely_wealthy_interesting_desc: "ร่ำรวยมาก"
+ landless_heir_uninteresting_desc: "ทายาทตำแหน่งที่ไม่มีที่ดิน"
+ three_virtues_desc: "มีคุณธรรม 3 ประการ"
+ three_sins_desc: "มีบาป 3 ประการ"
+
+ skills_difficulty: "จากทักษะ"
+ legitimacy_difficulty: "จากความชอบธรรม"
+ virtuous_traits_difficulty: "มีลักษณะนิสัยที่ดีงาม"
+ physique_good_3_difficulty: "เป็นผู้ [GetTrait('physique_good_3').GetName( GetNullCharacter )]" # ร่างกายแข็งแรงสมบูรณ์
+ physique_good_2_difficulty: "เป็นผู้ [GetTrait('physique_good_2').GetName( GetNullCharacter )]" # ร่างกายแข็งแรง
+ physique_good_1_difficulty: "เป็นผู้ [GetTrait('physique_good_1').GetName( GetNullCharacter )]" # ร่างกายค่อนข้างแข็งแรง
+ intellect_good_3_difficulty: "เป็นผู้ [GetTrait('intellect_good_3').GetName( GetNullCharacter )]" # อัจฉริยะ
+ intellect_good_2_difficulty: "เป็นผู้ [GetTrait('intellect_good_2').GetName( GetNullCharacter )]" # ฉลาด
+ intellect_good_1_difficulty: "เป็นผู้ [GetTrait('intellect_good_1').GetName( GetNullCharacter )]" # หัวไว
+ beauty_good_3_difficulty: "เป็นผู้ [GetTrait('beauty_good_3').GetName( GetNullCharacter )]" # งดงามอย่างยิ่ง
+ beauty_good_2_difficulty: "เป็นผู้ [GetTrait('beauty_good_2').GetName( GetNullCharacter )]" # งดงาม
+ beauty_good_1_difficulty: "เป็นผู้ [GetTrait('beauty_good_1').GetName( GetNullCharacter )]" # หน้าตาดี
+ shrewd_difficulty: "เป็นผู้ [GetTrait('shrewd').GetName( GetNullCharacter )]" # หลักแหลม
+ strong_difficulty: "เป็นผู้ [GetTrait('strong').GetName( GetNullCharacter )]" # แข็งแกร่ง
+ sinful_traits_difficulty: "มีลักษณะนิสัยที่เป็นบาป"
+ incapable_difficulty: "เป็นผู้ [GetTrait('incapable').GetName( GetNullCharacter )]" # ไร้ความสามารถ
+ leper_difficulty: "เป็น [GetTrait('leper').GetName( GetNullCharacter )]" # โรคเรื้อน
+ maimed_difficulty: "เป็นผู้ [GetTrait('maimed').GetName( GetNullCharacter )]" # พิการ
+ inbred_difficulty: "เป็นผู้ [GetTrait('inbred').GetName( GetNullCharacter )]" # เกิดจากการร่วมประเวณีในสายเลือด
+ severely_wounded_difficulty: "ได้รับบาดเจ็บสาหัส"
+ disinherited_difficulty: "เป็นผู้ [GetTrait('disinherited').GetName( GetNullCharacter )]" # ถูกตัดสิทธิ์จากมรดก
+ sickly_difficulty: "เป็นผู้ [GetTrait('sickly').GetName( GetNullCharacter )]" # ขี้โรค
+ poxed_difficulty: "เป็น [GetTrait('great_pox').GetName( GetNullCharacter )]" # ซิฟิลิส
+ blind_difficulty: "เป็นผู้ [GetTrait('blind').GetName( GetNullCharacter )]" # ตาบอด
+ infirm_difficulty: "เป็นผู้ [GetTrait('infirm').GetName( GetNullCharacter )]" # อ่อนแอ (จากความชรา)
+ eunuch_difficulty: "เป็น [GetTrait('eunuch_1').GetName( GetNullCharacter )]" # ขันที
+ lunatic_difficulty: "เป็น [GetTrait('lunatic').GetName( GetNullCharacter )]" # คนบ้า
+ murderer_difficulty: "เป็น [GetTrait('murderer').GetName( GetNullCharacter )]" # ฆาตกร
+ excommunicated_difficulty: "ถูกขับออกจากศาสนา"
+ bleeder_difficulty: "เป็นผู้ [GetTrait('bleeder').GetName( GetNullCharacter )]" # เลือดไหลไม่หยุด
+ physique_bad_3_difficulty: "เป็นผู้ [GetTrait('physique_bad_3').GetName( GetNullCharacter )]" # อ่อนแออย่างยิ่ง
+ physique_bad_2_difficulty: "เป็นผู้ [GetTrait('physique_bad_2').GetName( GetNullCharacter )]" # อ่อนแอ
+ physique_bad_1_difficulty: "เป็นผู้ [GetTrait('physique_bad_1').GetName( GetNullCharacter )]" # ค่อนข้างอ่อนแอ
+ intellect_bad_3_difficulty: "เป็นผู้ [GetTrait('intellect_bad_3').GetName( GetNullCharacter )]" # ปัญญาทึบ
+ intellect_bad_2_difficulty: "เป็นผู้ [GetTrait('intellect_bad_2').GetName( GetNullCharacter )]" # โง่เขลา
+ intellect_bad_1_difficulty: "เป็นผู้ [GetTrait('intellect_bad_1').GetName( GetNullCharacter )]" # หัวช้า
+ beauty_bad_3_difficulty: "เป็นผู้ [GetTrait('beauty_bad_3').GetName( GetNullCharacter )]" # น่าเกลียดอย่างยิ่ง
+ beauty_bad_2_difficulty: "เป็นผู้ [GetTrait('beauty_bad_2').GetName( GetNullCharacter )]" # น่าเกลียด
+ beauty_bad_1_difficulty: "เป็นผู้ [GetTrait('beauty_bad_1').GetName( GetNullCharacter )]" # หน้าตาไม่ดี
+ dull_difficulty: "เป็นผู้ [GetTrait('dull').GetName( GetNullCharacter )]" # ทื่อ
+ weak_difficulty: "เป็นผู้ [GetTrait('weak').GetName( GetNullCharacter )]" # อ่อนแอ
+ sodomite_difficulty: "เป็น [GetTrait('sodomite').GetName( GetNullCharacter )]" # รักร่วมเพศ (ชาย)
+ incestuous_difficulty: "เป็นผู้ [GetTrait('incestuous').GetName( GetNullCharacter )]" # ร่วมประเวณีในสายเลือด
+ fornicator_difficulty: "เป็น [GetTrait('fornicator').GetName( GetNullCharacter )]" # ผู้ผิดประเวณี
+ adulterer_difficulty: "เป็น [GetTrait('adulterer').GetName( GetNullCharacter )]" # ผู้คบชู้
+ cannibal_difficulty: "เป็น [GetTrait('cannibal').GetName( GetNullCharacter )]" # มนุษย์กินคน
+ witch_difficulty: "เป็น [GetTrait('witch').GetName( GetNullCharacter )]" # แม่มด
+ kinslayer_difficulty: "เป็น [GetTrait('kinslayer_1').GetName( GetNullCharacter )]" # ผู้ฆ่าญาติ
+ flagellant_difficulty: "เป็นผู้ [GetTrait('flagellant').GetName( GetNullCharacter )]" # เฆี่ยนตนเอง
+ improvident_difficulty: "เป็นผู้ [GetTrait('improvident').GetName( GetNullCharacter )]" # ใจบุญสุนทาน
+ profligate_difficulty: "เป็นผู้ [GetTrait('profligate').GetName( GetNullCharacter )]" # ฟุ่มเฟือย
+ disfigured_difficulty: "เป็นผู้ [GetTrait('disfigured').GetName( GetNullCharacter )]" # เสียโฉม
+ drunkard_difficulty: "เป็น [GetTrait('drunkard').GetName( GetNullCharacter )]" # คนขี้เมา
+ possessed_difficulty: "เป็นผู้ [GetTrait('possessed').GetName( GetNullCharacter )]" # ถูกสิง
+ depressed_difficulty: "เป็นผู้ [GetTrait('depressed').GetName( GetNullCharacter )]" # ซึมเศร้า
+ infertile_difficulty: "เป็นผู้ [GetTrait('infertile').GetName( GetNullCharacter )]" # เป็นหมัน
+ spindly_difficulty: "เป็นผู้ [GetTrait('spindly').GetName( GetNullCharacter )]" # ผอมเกร็ง
+ paranoid_difficulty: "เป็นผู้ [GetTrait('paranoid').GetName( GetNullCharacter )]" # หวาดระแวง
+ gout_difficulty: "เป็น [GetTrait('gout_ridden').GetName( GetNullCharacter )]" # โรคเกาต์
+ wheezing_difficulty: "เป็นผู้ [GetTrait('wheezing').GetName( GetNullCharacter )]" # หายใจมีเสียงหวีด
+ craven_difficulty: "เป็นผู้ [GetTrait('craven').GetName( GetNullCharacter )]" # ขี้ขลาด
+ shy_difficulty: "เป็นผู้ [GetTrait('shy').GetName( GetNullCharacter )]" # ขี้อาย
+ decadent_difficulty: "เป็นผู้ [GetTrait('decadent').GetName( GetNullCharacter )]" # เสื่อมทราม
+ denounced_difficulty: "เป็นผู้ [GetTrait('denounced').GetName( GetNullCharacter )]" # ถูกประณาม
+ bastard_difficulty: "เป็น [GetTrait('bastard').GetName( GetNullCharacter )]" # บุตรนอกสมรส
+ weak_heritage_difficulty: "มีสายเลือดที่อ่อนแอ"
+ comfort_eater_difficulty: "เป็นผู้ [GetTrait('comfort_eater').GetName( GetNullCharacter )]" # กินแก้เครียด
+ inappetetic_difficulty: "เป็นผู้ [GetTrait('inappetetic').GetName( GetNullCharacter )]" # เบื่ออาหาร
+ reclusive_difficulty: "เป็นผู้ [GetTrait('reclusive').GetName( GetNullCharacter )]" # สันโดษ
+ irritable_difficulty: "เป็นผู้ [GetTrait('irritable').GetName( GetNullCharacter )]" # หงุดหงิดง่าย
+ rakish_difficulty: "เป็นผู้ [GetTrait('rakish').GetName( GetNullCharacter )]" # เสเพล
+ hashishiyah_difficulty: "เป็นผู้ [GetTrait('hashishiyah').GetName( GetNullCharacter )]" # เสพฮาชิช
+ celibate_difficulty: "เป็นผู้ [GetTrait('celibate').GetName( GetNullCharacter )]" # ครองพรหมจรรย์
+ lovers_pox_difficulty: "เป็น [GetTrait('lovers_pox').GetName( GetNullCharacter )]" # ซิฟิลิส (กามโรค)
+ wounded_difficulty: "เป็นผู้ [GetTrait('wounded_1').GetName( GetNullCharacter )]" # บาดเจ็บ
+ albino_difficulty: "เป็นผู้ [GetTrait('albino').GetName( GetNullCharacter )]" # เผือก
+ lisping_difficulty: "มีความบกพร่องทางการพูด [GetTrait('lisping').GetName( GetNullCharacter )]" # พูดไม่ชัด
+ stuttering_difficulty: "มีความบกพร่องทางการพูด [GetTrait('stuttering').GetName( GetNullCharacter )]" # พูดติดอ่าง
+ giant_difficulty: "เป็น [GetTrait('giant').GetName( GetNullCharacter )]" # คนยักษ์
+ scaly_difficulty: "มีผิวหนัง [GetTrait('scaly').GetName( GetNullCharacter )]" # เป็นเกล็ด
+ clubfooted_difficulty: "เป็นผู้ [GetTrait('clubfooted').GetName( GetNullCharacter )]" # เท้าปุก
+ dwarf_difficulty: "เป็น [GetTrait('dwarf').GetName( GetNullCharacter )]" # คนแคระ
+ hunchbacked_difficulty: "เป็นผู้ [GetTrait('hunchbacked').GetName( GetNullCharacter )]" # หลังค่อม
+ lazy_difficulty: "เป็นผู้ [GetTrait('lazy').GetName( GetNullCharacter )]" # ขี้เกียจ
+ gluttonous_difficulty: "เป็นผู้ [GetTrait('gluttonous').GetName( GetNullCharacter )]" # ตะกละ
+ deviant_difficulty: "เป็นผู้ [GetTrait('deviant').GetName( GetNullCharacter )]" # วิปริต
+ at_war_difficulty: "อยู่ในภาวะสงคราม"
+ losing_war_difficulty: "กำลังแพ้สงคราม"
+ faction_difficulty: "ถูกเป้าหมายโดยกลุ่มอำนาจที่ทรงพลัง"
+ powerful_neighbors_difficulty: "ผู้ปกครองเพื่อนบ้านที่ทรงอำนาจ"
+ military_difficulty: "ความแข็งแกร่งทางทหาร"
+ rivals_difficulty: "มีคู่แข่ง"
+ primary_heir_wrong_dynasty_difficulty: "ทายาทหลักมาจากราชวงศ์ที่ไม่ถูกต้อง"
+ children_wrong_dynasty_difficulty: "บุตรหลานอยู่ในราชวงศ์ที่ไม่ถูกต้อง"
+ hostile_faith_liege_difficulty: "เจ้าเหนือหัวมีศรัทธาที่เป็นปรปักษ์"
+ nonpreferred_gender_difficulty: "เป็นเพศที่ไม่เป็นที่ต้องการในศรัทธา"
+ wrong_lineality_difficulty: "การสืบเชื้อสายในการ แต่งงานที่ไม่ถูกต้อง"
+ stress_level_difficulty: "ระดับความเครียดสูง"
+ gold_difficulty: "ความมั่งคั่งมากเกินไป"
+ debt_level_difficulty: "ระดับหนี้สินสูง"
+ is_ill_difficulty: "ทุกข์ทรมานจากความเจ็บป่วยที่ ทำให้ร่างกายอ่อนแอ"
+ imprisoned_difficulty: "ถูกจองจำ"
+ elder_difficulty: "สูงวัย"
+ poor_health_difficulty: "สุขภาพไม่ดี"
+ is_a_vassal_difficulty: "เป็นข้าหลวง"
+ non_adult_difficulty: "เป็นเด็ก"
+ weak_domain_difficulty: "เขตปกครองอ่อนแอ"
+ unlanded_difficulty: "ไม่ได้ถือครองตำแหน่งใด ๆ"
+ 
+ character_difficulty_text: "ระดับความยาก: [Character.Custom('CharacterDifficulty')]"
+ character_difficulty_breakdown_header: "แจกแจงระดับความยาก"
+ choose_destiny_header_text: "เลือกชะตากรรมใหม่"
+ will_become_adventurer: "จะกลายเป็น [GetGovernment('landless_adventurer_government').GetName]" # นักผจญภัยไร้ที่ดิน
+ character_interest_breakdown_header: "แง่มุมที่น่าสนใจ"
+
+ different_government_desc: "มีการปกครองที่แตกต่าง"
+ opposite_struggle_faction_desc: "เป็นฝ่ายตรงข้ามในการต่อสู้ดิ้นรน"

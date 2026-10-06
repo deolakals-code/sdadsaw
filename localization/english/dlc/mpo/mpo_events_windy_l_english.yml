@@ -1,0 +1,9 @@
+﻿l_english: 
+ mpo_bb_events.0001.t: "การประลองฉันมิตร"
+ mpo_bb_events.0001.desc: "ณ สุดขอบฟ้า ข้ามองเห็นนักรบขี่ม้าผู้โดดเดี่ยวคนหนึ่งกำลังควบเข้ามา นั่นคือ [my_blood_brother.GetTitledFirstName] พี่น้องร่วมสาบานและ [my_blood_brother.Custom2('RelationToMe', ROOT.Char )] อันเป็นที่รักของข้า! \n\n[my_blood_brother.GetSheHe|U] ลงจากหลังม้าแล้วเผชิญหน้ากับข้าด้วยสีหน้าจริงจังบนใบหน้าของ [my_blood_brother.GetHerHis] \n\n[my_blood_brother.GetSheHe|U] ย่อตัวลงต่ำพลางยื่นแขนของ [my_blood_brother.GetHerHis] ทั้งสองข้างออก นี่เป็นการท้าประลองมวยปล้ำอย่างมิต้องสงสัย\n\n"ท่านว่าเยี่ยงไร หากเราจะประลองกันสักเล็กน้อย [ROOT.Char.GetFirstNameNoTooltip]?""
+ mpo_bb_events.0001.a: "#italics ข้าจะแสดงให้เจ้าเห็นถึงความแข็งแกร่งแห่ง [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] #!!"
+ mpo_bb_events.0001.b: "ยื่นแขนออกไปเพื่อสวมกอดแทน"
+ mpo_bb_events.0001.c: "กวาดขาของ [my_blood_brother.GetHerHis] ให้ล้มลง!"
+ mpo_bb_events.0001.a.tt_success: "ท่านชนะ"
+ mpo_bb_events.0001.a.tt_failure: "ท่านแพ้"
+ 

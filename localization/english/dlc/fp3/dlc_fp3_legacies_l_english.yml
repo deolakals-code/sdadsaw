@@ -1,0 +1,22 @@
+﻿l_english: 
+
+ fp3_khvarenah_legacy_track_name: "ความโชติช่วง"
+ fp3_khvarenah_legacy_track_desc: "ตระกูลเราจักส่องประกายด้วยเกียรติยศจากกษัตริย์โบราณ"
+ fp3_khvarenah_legacy_1_name: "สำนึกในเป้าหมาย"
+ fp3_khvarenah_legacy_2_name: "ความทะเยอทะยานอันสูงส่ง"
+ fp3_khvarenah_legacy_3_name: "แสงแห่งเกียรติยศ"
+ fp3_khvarenah_legacy_4_name: "อำนาจโบราณ"
+ fp3_khvarenah_legacy_5_name: "ความรุ่งโรจน์ที่ฟื้นคืน"
+
+ LEGACY_DYNASTY_BESTOW_GLORY_DESCRIPTION: "ประสิทธิผลของ[councillor_task|E] [bestow_royal_favor|E]: #P +20%#!"
+ LEGACY_DYNASTY_MEMBERS_MARIABILITY_BONUS: "การยอมรับ[marriage|E]สำหรับ[dynasty_members|E]: #P +[EmptyScope.ScriptValue('khvarenah_legacy_marriage_acceptance')|0]#!"
+ LEGACY_DYNASTY_COMPETENT_VIZIERS_DESCRIPTION: "[skills|E]เมื่อปฏิบัติ[councillor_tasks|E]ของ[vizier|E]: #p +25%#!"
+ LEGACY_DYNASTY_ASAWIRA_UNLOCK_DESCRIPTION: "สามารถเกณฑ์[GetMaA('asawira').GetName]เป็น[men_at_arms|E]ได้"
+ LEGACY_DYNASTY_ASAWIRA_UNLOCK_DESCRIPTION_WARNING: "#weak สามารถเกณฑ์กองทหารอัศวิราได้เพียงกองเดียว (ขนาดสูงสุด 5)#!"
+ LEGACY_DYNASTY_BETTER_TAX_COLLECTOR_DESCRIPTION: "สามารถประกาศใช้[tax_decree|E] #high $maguh_special_rights_tax_collector$#! ได้"
+ LEGACY_DYNASTY_BETTER_COURT_POSITION_PERFORMANCE_DESCRIPTION: "[aptitude|E]สำหรับตำแหน่ง[court_positions|E] [GetCourtPositionType('master_assassin_court_position').GetName()], [GetCourtPositionType('court_scholar_court_position').GetName()], [GetCourtPositionType('chief_qadi_court_position').GetName()], [GetCourtPositionType('lady_in_waiting_court_position').GetName()] และ [GetCourtPositionType('royal_architect_court_position').GetName()]: #P +[EmptyScope.ScriptValue('khvarenah_legacy_aptitude')|0]#!"
+
+ LEGACY_HOSTILE_SCHEME_BONUS_AGAINST_DYNASTY_MEMBERS: "[success_chance|E]ของ[hostile_scheme|E]ต่อ[dynasty_members|E]: #P +10%#!"
+ LEGACY_ENEMIES_LOSE_SOME_EXTRA_CONTROL_WHEN_OCCUPIED: "[counties|E]ของศัตรูสูญเสีย[control|E]เพิ่มขึ้นเมื่อถูก[occupied|E]"
+ LEGACY_UNLOCK_embellish_capital_DECISION: "ปลดล็อก[fp3_embellish_capital_decision|E]"
+ 

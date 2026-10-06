@@ -1,0 +1,53 @@
+﻿l_english: 
+ # Target is followed by ill omens
+ claim_throne_ongoing.1001.t:0 "ลางร้าย"
+ claim_throne_ongoing.1001.desc:0 "เห็นได้ชัดว่าข้ามิได้ยืนหยัดเพียงลำพังในความทะเยอทะยานที่จะปกครอง [target_title.GetNameNoTooltip]! ฝูงกาได้มารวมตัวกันบนหลังคา [target.Custom('ResidenceBuilding')] ของ [target.GetTitledFirstNamePossessive] และเมื่อไม่กี่คืนก่อน แม้ แต่ดวงดาวก็ดูเหมือนจะร่วงหล่นไปทั่ว [target_title.GetNameNoTierNoTooltip]\n\nทั้งไพร่และขุนนางต่างกระซิบกระซาบกันว่านี่เป็นสัญญาณว่า [target.GetFirstNameNoTooltip] ได้สูญเสียความโปรดปรานจาก [ROOT.Char.GetFaith.PantheonTerm] แล้ว"
+ claim_throne_ongoing.1001.a:0 "ถึงเวลาสำหรับ [target.GetTitleAsNameNoTooltip] องค์ใหม่แล้ว!"
+ claim_throne_ongoing.1001.b:0 "มีเพียง [ROOT.Char.GetFaith.AltPriestTermPlural] เท่านั้นที่สามารถตีความสัญญาณเหล่านี้ได้"
+ # Gradually take on more responsibility in the realm
+ claim_throne_ongoing.1002.t:0 "อำนาจที่ได้รับ"
+ claim_throne_ongoing.1002.desc:1 "การแสวงหา [target_title.GetName] ของข้ามิได้ขับเคลื่อนด้วยเพียงความกระหายในอำนาจ แต่เป็น เพราะข้าคือผู้เดียวที่สามารถแบกรับความรับผิดชอบอันใหญ่หลวงนี้ได้! แม้ แต่ [target.GetTitledFirstName] ก็ดูเหมือนจะยอมรับในเรื่องนี้ ดังที่ [target.GetSheHe] มอบหมายภารกิจที่สำคัญยิ่งขึ้นเรื่อยๆ ให้แก่ข้าในการรับใช้อาณาจักร\n\nในไม่ช้า ข้าก็อาจจะได้ปกครอง [target_title.GetTierAsNameNoTooltip] ในทุกด้านยกเว้นเพียงนาม..."
+ claim_throne_ongoing.1002.a:0 ""มิต้องกังวล ฝ่าบาท ข้าจะจัดการเรื่องนี้ด้วย เช่นกัน...""
+ claim_throne_ongoing.1002.b:0 "อันที่จริง ทั้งหมดนี้เริ่มจะมากเกินไปแล้ว"
+ # Buying support from vassals
+ claim_throne_ongoing.1003.t:0 "การได้รับการสนับสนุน"
+ claim_throne_ongoing.1003.desc:0 "ข้าตระหนักดีว่าหากข้าจะรับตำแหน่ง [target.GetTitleAsName] แห่ง [target_title.GetNameNoTier] ข้าต้องการการสนับสนุนจากเหล่าข้าหลวงเพื่อนร่วมตำแหน่งในปัจจุบันมากกว่าที่ [target.GetTitledFirstName] มีอยู่\n\nการแสดงให้เห็นว่าข้าจะใจกว้างเพียงใดในฐานะ [target.GetTitleAsName] อาจช่วยได้มาก"
+ claim_throne_ongoing.1003.a:0 "ไม่มีสิ่งใดดีเกินไปสำหรับผู้รับใช้ในอนาคตของข้า!"
+ claim_throne_ongoing.1003.b:0 "ข้าต้องการทองคำทั้งหมดสำหรับการต่อสู้ที่กำลังจะมาถึง"
+ # Lunatic declares themselves ruler
+ claim_throne_ongoing.1004.t:0 "ประกาศการปกครอง"
+ claim_throne_ongoing.1004.desc:0 "อาจดูเหมือนว่าข้าต้องทำงานเพื่ออ้างสิทธิ์ในการปกครอง [target_title.GetName] แต่ข้าดำรงตำแหน่งที่มีอำนาจยิ่งใหญ่กว่านั้นอยู่แล้ว\n\nข้าคือ [ROOT.Char.GetLadyLord|U] แห่งหัวไชเท้าทั้งปวงใน [target_title.GetNameNoTierNoTooltip]!"
+ claim_throne_ongoing.1004.a:0 "ผู้ดูแลปราสาท จงนำตราประทับหัวไชเท้าของข้ามา!"
+ claim_throne_ongoing.1004.b:0 "ไม่ใช่ [ROOT.Char.GetLadyLord] แห่งหัวไชเท้าทั้งปวงใน [target_title.GetNameNoTierNoTooltip]..."
+ claim_throne_ongoing.1004.b_flavor:0 "... แต่ในโลก!"
+
+ claim_throne_ongoing.1005.t:0 "[ROOT.Char.GetLadyLord|U] แห่งหัวไชเท้า"
+ claim_throne_ongoing.1005.desc:0 "ข้าได้ลงโทษคนรับใช้หลายคนสำหรับสิ่งที่ข้าคิดว่าเป็นการเยาะเย้ย เนื่องจากพวกเขาเรียกข้าว่า "ฝ่าบาทหัวไชเท้า" แต่บัดนี้อัครเสนาบดีของข้าได้แสดงเอกสารที่ข้าเขียนขึ้นเองยืนกรานในเรื่องนั้นให้ข้าดู\n\nรู้สึกเหมือนเป็นเรื่องตลกร้ายที่โลกกำลังเล่นตลกกับข้า แต่ในขณะเดียวกันก็มีความทรงจำเลือนรางผุดขึ้นในส่วนที่มืดมัวของจิตใจข้า..."
+ claim_throne_ongoing.1005.a:0 "นี่... นี่ข้าทำอะไรลงไป?"
+ claim_throne_ongoing.1005.b:0 "ข้าไม่เคยทำผิดพลาด พวกเจ้าทุกคนจะต้องปฏิบัติตามเอกสารนี้"
+
+ claim_throne_ongoing.1006.t:0 "การสนับสนุนอย่างแข็งขัน"
+ claim_throne_ongoing.1006.desc:0 "เช่นเดียวกับเรื่องอื่นๆ อีกมากมาย [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend'))] ของข้า [friend.GetTitledFirstName] เห็นพ้องต้องกันกับข้าในเรื่องที่ว่า [target.GetTitledFirstName] ไม่เหมาะสมที่จะปกครอง [target_title.GetNameNoTier]\n\n"ข้านึกถึงผู้ที่เหมาะสมกว่านี้ได้อีกมาก" [friend.GetSheHe] บอกข้าเป็นการส่วนตัว "และท่านคือคนแรกในหมู่พวกเขา เพียงเอ่ยปาก ท่านก็จะได้รับการสนับสนุนจากข้า""
+ claim_throne_ongoing.1006.a:0 "มิตรภาพคือรูปแบบความภักดีอันทรงเกียรติที่สุด"
+ claim_throne_ongoing.1006.b:0 "จงใช้ความพยายามของท่านบอกให้ผู้อื่นรู้ว่าข้าเหมาะสมเพียงใด"
+
+ claim_throne_ongoing.1007.t:0 "การปกครองด้วยดาบ"
+ claim_throne_ongoing.1007.desc:2 "ข่าวความทะเยอทะยานของข้าที่จะเข้าควบคุม [target_title.GetNameNoTier] ได้เริ่มแพร่กระจายไปในหมู่ [GetPlayer.Custom( 'KnightCulturePluralNoTooltipLowercase' )] แห่งอาณาจักร ความไม่พอใจก่อตัวขึ้นในหมู่ทหารระดับล่าง เนื่องจากหลายคนเชื่อว่าถึงเวลาสำหรับการเปลี่ยนแปลงแล้ว\n\nขณะที่ความตึงเครียดนี้คุกรุ่น ข้าได้รับการทาบทามจากไม่ใช่ใครอื่นนอกจาก [scheming_knight.GetTitledFirstName] หนึ่งใน [GetPlayer.Custom( 'KnightCulturePluralNoTooltipLowercase' )] ของ [target.GetTitledFirstNamePossessive] "นักรบของเราสมควรได้รับสิ่งที่ดีกว่านี้ จงสัญญาว่าจะปฏิบัติต่อคนของเราอย่างยุติธรรม รวมถึงมอบถุงทองคำอันงาม แล้วท่านจะได้รับดาบของข้า""
+ claim_throne_ongoing.1007.a:0 "$knight_culture_player_plural_no_tooltip_lowercase$ ของข้าต้องมาก่อนเสมอ! "
+ claim_throne_ongoing.1007.b:1 "$knight_culture_player_no_tooltip_lowercase$ ที่ทรยศต่อเจ้าเหนือหัวของตนนั้นไม่ใช่ $knight_culture_player_no_tooltip_lowercase$ เลยแม้ แต่น้อย"
+
+ claim_throne_ongoing.1008.t:0 "หลอกลวงพวกเขาทั้งหมด"
+ claim_throne_ongoing.1008.desc:1 "ความพยายามของข้าในการสนับสนุนการอ้างสิทธิ์ใน [target_title.GetName] อาจได้รับความช่วยเหลือจากกลอุบายบางอย่าง\n\nจดหมายที่ประกาศว่าจุดจบใกล้เข้ามาแล้วได้แพร่สะพัดไปทั่วอาณาจักรข้างเคียงเมื่อไม่นานมานี้ ด้วยการปลอมแปลงเล็กน้อยและความอดทน ข้ามั่นใจว่าข้าสามารถสร้างจดหมายที่คล้ายกัน ซึ่งประกาศว่าข้าควรปกครองแทน [target.GetTitledFirstName] ได้\n\nแต่ข้าควรใช้จดหมาย เช่นนี้อย่างไร?"
+ claim_throne_ongoing.1008.a:0 "จัดแสดงต่อสาธารณะ"
+ claim_throne_ongoing.1008.b:1 "แบ่งปันกับเพื่อนข้าหลวงของข้า"
+ claim_throne_ongoing.1008.c:0 "อยู่ห่างๆ จากเรื่องนี้"
+ claim_throne_ongoing.1008.c.tt:0 "ท่านใช้เวลาอย่างชาญฉลาดกว่าแทน"
+
+ claim_throne_ongoing.1009.t:0 "ถูกจับได้ว่าโกหก"
+ claim_throne_ongoing.1009.desc:0 "ดูเหมือนว่า [fraud_catcher.GetTitledFirstName] กำลังพยายามสร้างชื่อเสียงให้ [fraud_catcher.GetHerselfHimself] โดยอ้างว่าจดหมายล่าสุดของข้าเป็นเพียงของปลอม และไม่มีข้ออ้างใดๆ ในนั้นเป็นความจริง\n\nและที่แย่ไปกว่านั้น [target.GetTitledFirstName] กำลังเชื่อทุกคำพูด! ข้าถูกจับได้แล้วหรือ?"
+ claim_throne_ongoing.1009.a:0 "นี่เป็นการทดสอบ และพวกเจ้าทุกคนสอบตก"
+ claim_throne_ongoing.1009.b:0 "เจ้ากล้าดีอย่างไรมากล่าวหาว่าข้าโกหก?"
+ claim_throne_ongoing.1009.b.duel_success:0 "ท่านนำเสนอข้อโต้แย้งที่น่าเชื่อถือ"
+ tooltip.claim_throne_ongoing.1009.b.duel_success:0 "พวกเขาทั้งหมดถูกหลอก"
+ claim_throne_ongoing.1009.b.duel_failure:0 "ไม่มีใครเชื่อ"
+ tooltip.claim_throne_ongoing.1009.b.duel_failure:0 "ท่านไม่สามารถสร้างความประทับใจให้ใครได้"

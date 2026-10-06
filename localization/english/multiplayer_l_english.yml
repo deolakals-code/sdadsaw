@@ -1,0 +1,9 @@
+﻿l_english: 
+ RANDOM_COUNT:0 "จำนวนสุ่ม"
+ RANDOM_SEED:0 "เมล็ดพันธุ์สุ่ม"
+ GAMESTATE_CHECKSUM:0 "ผลรวมตรวจสอบสถานะเกม"
+ LIVING_CHARACTERS:0 "ตัวละครที่มีชีวิต"
+ MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY:0 "เฉพาะ Microsoft เท่านั้น"
+ MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY_TT:1 "#T $MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY$\n#!$JOM_BULLET_WITH_TAB$เกมจะปรากฏและมองเห็นได้เฉพาะผู้เล่นจาก Microsoft Store เท่านั้น\n$JOM_BULLET_WITH_TAB$ผู้เล่นที่ทราบรหัสผ่านสามารถเข้าร่วมเกมได้ หากไม่มีรหัสผ่าน ผู้ใดก็เข้าร่วมได้\n$JOM_BULLET_WITH_TAB$ผู้เล่นยังสามารถเข้าร่วมได้หากได้รับการเชิญ หรือหากโฮสต์แบ่งปัน ID เซิร์ฟเวอร์\n$JOM_BULLET_WITH_TAB$เฉพาะผู้เล่นที่ใช้บัญชี Microsoft เท่านั้นที่สามารถเข้าร่วมได้"
+ MULTIPLAYER_GUI_CLICK_TO_SELECT:1 "คลิกบนแผนที่เพื่อเลือก [character|E] ที่จะเล่น หรือเพื่อสร้างผู้ปกครองของท่านเองเพื่อแทนที่!"
+ MULTIPLAYER_GUI_SERVER_BROWSER_PASTE_ID:0 "#T วาง ID เซิร์ฟเวอร์จากคลิปบอร์ด#!#"

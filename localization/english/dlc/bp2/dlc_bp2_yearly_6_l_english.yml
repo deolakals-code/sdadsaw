@@ -1,0 +1,703 @@
+﻿l_english: 
+bp2_yearly.6000.t: "ไม่ใช่วิถีของชาว[ROOT.Char.GetCulture.GetNameNoTooltip]"
+bp2_yearly.6000.desc.intro: "ขณะที่ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hosted_child'))] ของข้า [hosted_child.GetName] แสดงตัว [hosted_child.GetHerselfHimself], [tutor.GetName] เล่าถึงสัปดาห์แห่งการสอนที่ล้มเหลวและความคับข้องใจ"
+
+bp2_yearly.6000.desc.fault.bellicose: "\n\n"เด็กผู้นี้ไม่เคยถูกสอนว่าทุกสิ่งที่ [hosted_child.GetSheHe] ต้องการนั้นต้อง #EMP ช่วงชิง#! มา [hosted_child.GetFirstNameNoTooltip] เลือกสันติภาพกับสหาย [hosted_child.GetHerHis] แทนที่จะพิสูจน์ [hosted_child.GetHerselfHimself]! นี่คือทั้งหมดที่ [hosted_child.Custom('GirlBoy')] ผู้นี้รู้!""
+bp2_yearly.6000.desc.fault.bureaucratic: "\n\n"เด็กคนนี้คือหายนะอันไร้ระเบียบ! [hosted_child.GetSheHe|U]ฝันกลางวันไปวันๆ [hosted_child.GetSheHe|U]แยกไม่ออกระหว่างชุดชั้นในที่สะอาดกับที่สกปรก! ความโกลาหลคือทั้งหมดที่[hosted_child.Custom('GirlBoy')]ผู้นี้รู้!""
+bp2_yearly.6000.desc.fault.communal: "\n\n"เด็กคนนี้นินทามารดาของ[hosted_child.GetHerHis]เอง! ไม่เคยมีใครเตือน[hosted_child.GetSheHe]เลย [hosted_child.Custom('GirlBoy')]ถูกปล่อยให้กระทำตามลำพัง ยืนหยัดตามลำพัง และไม่ใส่ใจญาติพี่น้องที่รอคอย[hosted_child.GetHerHim]อยู่""
+bp2_yearly.6000.desc.fault.courtly: "\n\n"เด็กคนนี้ไม่ได้รับการสอนสิ่งใดเกี่ยวกับเรื่องอันประณีตเลย! ข้าต้องเคาะกะโหลก[hosted_child.GetHerHis] เพื่อให้[hosted_child.GetHerHim]โค้งคำนับต่อหน้าท่าน โอ้ [ROOT.Char.GetTitleAsNameNoTooltip] [hosted_child.GetSheHe]ท่องบทกวีได้หรือไม่? พูดจาอย่างเหมาะสมกับเพศตรงข้ามได้หรือไม่? ไม่เลย!""
+bp2_yearly.6000.desc.fault.egalitarian: "\n\n"[hosted_child.GetSheHe|U]ไม่เคยได้รับการสอนให้เคารพผู้คนที่อาศัยอยู่ในดินแดนของเราร่วมกัน เด็กคนนี้เลียนเสียงสำเนียงของทูตชาว[realm_minority.GetNameNoTooltip]ด้วยการร้องเหมือนแกะ! นั่นคือการศึกษาของ[hosted_child.GetHerHis]รึ?!""
+bp2_yearly.6000.desc.fault.egalitarian_no_culture: "\n\n"[hosted_child.GetSheHe|U]ไม่เคยได้รับการสอนให้เคารพผู้คนที่อาศัยอยู่ในดินแดนของเราร่วมกัน เด็กคนนี้เลียนแบบภาษาของพวกเขาด้วยการร้องเหมือนแกะ! นั่นคือการศึกษาของ[hosted_child.GetHerHis]รึ?!""
+bp2_yearly.6000.desc.fault.spiritual: "\n\n"เด็กคนนี้หยุดเพื่อแสดงความขอบคุณต่อแหล่งที่มาของอาหารของ[hosted_child.GetHerHis]หรือไม่? [hosted_child.GetSheHe]วิงวอนขอความช่วยเหลือจากสิ่งศักดิ์สิทธิ์หรือไม่? ไม่เลย! [hosted_child.GetSheHe|U]ถูกเลี้ยงดูมาเพื่อชีวิตที่ปราศจากความเคารพ""
+bp2_yearly.6000.desc.fault.stoic: "\n\n\"เด็กคนนี้ย่นจมูกของ [hosted_child.GetHerHis] ให้กับความงามของบ้านเกิดของเรา [hosted_child.GetSheHe|U] ดูถูกความจำเป็นที่จะต้องยืนหยัด ต่อสู้ — เพื่อปกป้องผู้คนของเรา! [hosted_child.GetSheHe|U] ถูกสอนให้เห็นแก่ประโยชน์ส่วนตนอย่างน่าสมเพช\""
+
+bp2_yearly.6000.desc.mid: "\n\nความโกรธเกรี้ยวของ[tutor.GetFirstNamePossessiveNoTooltip]มุ่งเป้าไปที่[hosted_child.Custom2('RelationToMeShort', SCOPE.sC('childs_home_liege'))]ของเด็ก\n\n"มี"
+
+bp2_yearly.6000.desc.value.bellicose: "ไฟและความกระตือรือร้น"
+bp2_yearly.6000.desc.value.bureaucratic: "สามัญสำนึกที่ดี"
+bp2_yearly.6000.desc.value.communal: "ความรักต่อญาติสนิทมิตรสหาย"
+bp2_yearly.6000.desc.value.courtly: "ความเคารพต่อมารยาทอันสูงส่ง"
+bp2_yearly.6000.desc.value.egalitarian: "มารยาททางสังคม"
+bp2_yearly.6000.desc.value.spiritual: "ความเคารพต่อพิธีกรรมอันศักดิ์สิทธิ์ของเรา"
+bp2_yearly.6000.desc.value.stoic: "สำนึกในหน้าที่ต่อผู้คนของ[childs_home_liege.GetHerHis]"
+
+bp2_yearly.6000.desc.outro: "ในตัว[childs_home_liege.GetTitledFirstName]บ้างหรือไม่? เยาวชนชาว[ROOT.Char.GetCulture.GetNameNoTooltip]ที่เหมาะสมจะมาจากราชสำนัก เช่นนั้นได้อย่างไร ที่ ซึ่งพวกเขาไม่ได้รับการสอนสิ่งใดเกี่ยวกับประเพณีของเราเลย?""
+
+bp2_yearly.6000.a: "ทุกคนจะได้รู้ถึงการดูหมิ่นของ[childs_home_liege.GetTitleAsNamePossessiveNoTooltip]!"
+bp2_yearly.6000.a.tt: "สนับสนุนเหตุผลของ[hosted_child.GetFirstNameNoTooltip]ผู้น่าสงสาร เหยื่อของความเฉยเมยต่อประเพณีของเราของ[hosted_child.Custom2('RelationToMeShort', SCOPE.sC('childs_home_liege'))]ของ[hosted_child.GetHerHis]"
+
+bp2_yearly.6000.a.response: "[childs_home_liege.GetShortUIName]อาจสูญเสีย[opinion|E]กับเพื่อนชาว[childs_home_liege.GetCulture.GetCollectiveNounNoTooltip]"
+
+bp2_yearly.6000.b: "ข้าจะแก้ไขเด็กคนนี้ด้วยตนเอง"
+bp2_yearly.6000.b.success: "ค่านิยมอันดีงามของเราถูกปลูกฝังอย่างลึกซึ้ง"
+bp2_yearly.6000.b.failure: "หลักการที่เข้าใจผิดบางอย่างถูกยึดถือไว้อย่างขมขื่น"
+bp2_yearly.6000.c: "อย่ามารบกวนข้าเรื่องประเพณีบ้าๆ ของเราเลย"
+
+defender_of_bellicose_ways_modifier: "ผู้พิทักษ์วิถีนักรบ"
+defender_of_bellicose_ways_modifier_desc: "ตัวละครนี้ยืนหยัดอย่างแน่วแน่ต่อต้านการดูหมิ่นใดๆ ต่อธรรมเนียมปฏิบัติทางวัฒนธรรมของตน"
+defender_of_bureaucratic_ways_modifier: "ผู้พิทักษ์วิถีขุนนาง"
+defender_of_bureaucratic_ways_modifier_desc: "$defender_of_bellicose_ways_modifier_desc$"
+defender_of_communal_ways_modifier: "ผู้พิทักษ์วิถีชุมชน"
+defender_of_communal_ways_modifier_desc: "$defender_of_bellicose_ways_modifier_desc$"
+defender_of_courtly_ways_modifier: "ผู้พิทักษ์วิถีชาววัง"
+defender_of_courtly_ways_modifier_desc: "$defender_of_bellicose_ways_modifier_desc$"
+defender_of_egalitarian_ways_modifier: "ผู้พิทักษ์วิถีเสมอภาค"
+defender_of_egalitarian_ways_modifier_desc: "$defender_of_bellicose_ways_modifier_desc$"
+defender_of_spiritual_ways_modifier: "ผู้พิทักษ์วิถีทางจิตวิญญาณ"
+defender_of_spiritual_ways_modifier_desc: "$defender_of_bellicose_ways_modifier_desc$"
+defender_of_stoic_ways_modifier: "ผู้พิทักษ์วิถีสโตอิก"
+defender_of_stoic_ways_modifier_desc: "$defender_of_bellicose_ways_modifier_desc$"
+
+bp2_yearly.6001.opening: "[childs_host.Custom2('AppropriateGreeting', ROOT.Char)]"
+bp2_yearly.6001.desc: "การมี[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hosted_child'))]ของท่าน [hosted_child.GetName] อยู่ในความดูแลของข้า ได้เผยความจริงอันโชคร้าย: ท่านใส่ใจคุณธรรมตามประเพณีของชาว[ROOT.Char.GetCulture.GetNameNoTooltip]น้อยมาก เด็กเหลือขอที่ไม่รู้อะไรเกี่ยวกับวิถีของเราเลย เติบโตขึ้นเป็น"
+
+bp2_yearly.6001.desc.insult.bellicose: "คนขี้ขลาด"
+bp2_yearly.6001.desc.insult_bureaucratic: "คนเสเพล"
+bp2_yearly.6001.desc.insult.communal: "คนพเนจร"
+bp2_yearly.6001.desc.insult.courtly: "คนป่าเถื่อน"
+bp2_yearly.6001.desc.insult.egalitarian: "คนชั่วร้าย"
+bp2_yearly.6001.desc.insult.spiritual: "พวกนอกรีต"
+bp2_yearly.6001.desc.insult.stoic: "คนร้าย"
+
+bp2_yearly.6001.desc.outro: "ในราชสำนักของท่าน\n\nผู้นำของผู้คนของเรารู้เรื่องนี้ทั้งหมด ข้าแน่ใจในเรื่องนั้นแล้ว"
+bp2_yearly.6001.a: "ข้าต้องจัดการเรื่องนี้! เราต้องพิสูจน์ว่า[childs_host.GetHerHim]ผิด!"
+bp2_yearly.6001.a.tt: "ผู้ให้การศึกษาในราชสำนักของข้าจำเป็นต้องได้รับการพูดคุยอย่างเข้มงวดเกี่ยวกับค่านิยม"
+bp2_yearly.6001.b: "ข้าจะทำตามที่ข้าต้องการ"
+bp2_yearly.6001.b.tt: "ข้าไม่ใช่ชาว[ROOT.Char.GetCulture.GetNameNoTooltip]ทั่วไป แต่ข้าสามารถเป็นคนพิเศษได้"
+enforcing_cultural_values_modifier: "การบังคับใช้ค่านิยมทางวัฒนธรรม"
+enforcing_cultural_values_modifier_desc: "ตัวละครนี้เรียกร้องอย่างไม่หยุดหย่อนให้ปฏิบัติตามประเพณีของวัฒนธรรมของตน"
+
+rejecting_bellicose_ways_modifier: "การปฏิเสธวิถีนักรบ"
+rejecting_bellicose_ways_modifier_desc: "\"ประเพณีรึ? คนโง่คนไหนจะใส่ใจประเพณีของเรา?\""
+rejecting_bureaucratic_ways_modifier: "การปฏิเสธวิถีขุนนาง"
+rejecting_bureaucratic_ways_modifier_desc: "$rejecting_bellicose_ways_modifier_desc$"
+rejecting_communal_ways_modifier: "การปฏิเสธวิถีชุมชน"
+rejecting_communal_ways_modifier_desc: "$rejecting_bellicose_ways_modifier_desc$"
+rejecting_courtly_ways_modifier: "การปฏิเสธวิถีชาววัง"
+rejecting_courtly_ways_modifier_desc: "$rejecting_bellicose_ways_modifier_desc$"
+rejecting_egalitarian_ways_modifier: "การปฏิเสธวิถีเสมอภาค"
+rejecting_egalitarian_ways_modifier_desc: "$rejecting_bellicose_ways_modifier_desc$"
+rejecting_spiritual_ways_modifier: "การปฏิเสธวิถีทางจิตวิญญาณ"
+rejecting_spiritual_ways_modifier_desc: "$rejecting_bellicose_ways_modifier_desc$"
+rejecting_stoic_ways_modifier: "การปฏิเสธวิถีสโตอิก"
+rejecting_stoic_ways_modifier_desc: "$rejecting_bellicose_ways_modifier_desc$"
+
+bp2_yearly.6010.t: "ไม่มี[sad_boi.GetWomanMan|U]ใดถูกจองจำ"
+bp2_yearly.6010.desc: "\"#EMP ข้ามีมิตรสหายมากมาย แต่ของขวัญของพวกเขามีน้อยนิด...!#!" [sad_boi.GetFirstName] ร้องเพลง เสียงของ[sad_boi.GetHerHis]สั่นเครือด้วยความรู้สึก\n\n[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sad_boi'))]ของข้าโยนเครื่องดนตรีของ[sad_boi.GetHerHis]ทิ้ง ร้องไห้: "พอแล้วกับ[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]!"
+bp2_yearly.6010.adult: "มันปราศจากความสะดวกสบายทั้งปวง"\n\nเหลือบมองข้าอย่างเหยียดหยาม [sad_boi.GetSheHe]กล่าวเสริม: "เพลงนี้จะเป็นคำวิงวอนขอความช่วยเหลือของข้าตลอดการถูกจองจำอันไม่มีความสุขนี้ เงินทุนเล็กน้อย... หากผู้คนของข้ายังคงใส่ใจข้าอยู่...""
+bp2_yearly.6010.child: "ข้าไม่มีความสุขเลยที่นี่"\n\nเงยหน้ามองข้าทั้งน้ำตา [sad_boi.Custom('GirlBoy')]กล่าวเสริม: "การได้ยินเพลงนี้จะ ทำให้ครอบครัวของข้าใจอ่อน! พวกเขาจะส่งบางอย่างมา เพื่อให้การ#EMP เนรเทศ#!ของข้าพอทนได้ หาก... พวกเขายังคงใส่ใจข้าอยู่...""
+bp2_yearly.6010.outro: "\n\n[sad_boi.GetSheHe|U] บรรเลงท่วงทำนองอันโศกเศร้าขึ้นอีกครา แววตาของ[sad_boi.GetHerHis]ทอดมองไปยังบ้านเกิดอันแสนไกล"
+bp2_yearly.6010.a: "ใช่แล้ว มาดู "การกุศล" ที่พวกเขาสามารถรวบรวมได้กันเถอะ..."
+bp2_yearly.6010.a.tt: "...สำหรับกระเป๋าเงินของข้า"
+bp2_yearly.6010.b: "ไม่มีความสุขรึ?! #EMP ข้าช่วยได้หรือไม่?!#"
+bp2_yearly.6010.b.tt: "ราชสำนักของข้าไม่อาจถูกขับขานว่าเป็นสถานที่แห่งความทุกข์ยากได้!"
+bp2_yearly.6010.c: "ข้าต้องสอน[sad_boi.GetHerHim]ว่าที่ของ[sad_boi.GetHerHis]อยู่ที่นี่"
+bp2_yearly.6010.c.tt: "เราทุกคน ไม่ว่าจะเกิดที่นี่หรือไม่ ต้องอดทนต่อความยากลำบากด้วยศักดิ์ศรีอันเงียบงัน"
+bp2_yearly.6010.c.success: "[sad_boi.GetSheHe|U]จะให้โอกาส[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]อีกครั้ง"
+bp2_yearly.6010.c.tt_education: "ผลลัพธ์ของการศึกษาของ[sad_boi.GetFirstNamePossessive]จะดีขึ้น"
+bp2_yearly.6010.c.failure: "การปฏิเสธความจริงในเนื้อเพลงของ[sad_boi.GetHerHis] ทำให้[sad_boi.GetFirstNameNoTooltip]ไม่พอใจ"
+bp2_yearly.6010.d: "อันที่จริง เป็นบทประพันธ์ที่ไพเราะยิ่ง"
+bp2_yearly.6010.d.tt: "ให้บทเพลงคร่ำครวญนี้ถูกขับขานไปไกลและกว้าง: ความงามของมันสำคัญกว่าเนื้อหา"
+
+bp2_yearly.6020.t: "เด็กๆ พูดอะไรตลกๆ"
+bp2_yearly.6020.desc: "ขณะที่ข้าแบ่งปันข่าวล่าสุดจากราชสำนักของ[snitch.GetHomeCourt.GetTitledFirstNamePossessive] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('snitch'))]ของข้า [snitch.GetName] ดูเหมือนจะขบขันอย่างประหลาด มีรอยยิ้มเหม่อลอย"
+bp2_yearly.6020.child: "บนใบหน้าเล็กๆ ของ[snitch.GetHerHis]\n\n"ข้ามีเรื่องเล่า [ROOT.Char.GetTitleAsNameNoTooltip] เรื่องที่ข้า แต่งขึ้นจากสิ่งที่ข้าเห็นเอง! แต่... ไม่ควรพูด ข้าสัญญาว่าจะไม่พูด"\n\n[snitch.GetSheHe|U]หัวเราะคิกคักด้วยความยินดีอย่างซุกซน เพลิดเพลินกับอำนาจที่หาได้ยากเหนือผู้ใหญ่ของ[snitch.GetHerHis]\n\n"ซนจริง!" [snitch.GetFirstNameNoTooltip]ร้องเสียงดัง"
+bp2_yearly.6020.youth: "บนใบหน้ามันเยิ้มของวัยรุ่นของ[snitch.GetHerHis]\n\n"ข้ามีเรื่องเล่า [ROOT.Char.GetTitleAsNameNoTooltip]: ท่านเพิ่งเตือนข้าถึงเรื่องนั้น บางสิ่งที่ไม่ควรพูดซ้ำ! แต่... ข้ายังเด็กมาก รู้สึกเหมือนนานมาแล้ว"\n\n[snitch.GetSheHe|U]หัวเราะหึๆ ด้วยความยินดีอย่างชั่วร้าย เพลิดเพลินกับอำนาจที่หาได้ยากนี้เหนือผู้ที่เลี้ยงดู[snitch.GetHerHim]มา\n\n"ซนจริง!" [snitch.GetFirstNameNoTooltip]ร้องเสียงดัง"
+bp2_yearly.6020.liege: "\"ศักดิ์สิทธิ์เหลือเกิน ซุกซนเหลือเกิน!\""
+bp2_yearly.6020.family: "\"ครอบครัวช่างซุกซนเหลือเกิน!\""
+
+bp2_yearly.6020.a: "พูดต่อสิ..."
+bp2_yearly.6020.a.secret: "ท่านเรียนรู้[secret|e]ที่ครอบครัวของ[snitch.GetShortUINamePossessive]เก็บไว้"
+bp2_yearly.6020.a.non_family_secret: "ท่านเรียนรู้[secret|e]จากวงในของ[court|E]ของ[no_no_doer.GetShortUINamePossessive]"
+bp2_yearly.6020.a.success: "เรื่องเล่าอันสกปรกโสมมที่น่าพึงพอใจ"
+bp2_yearly.6020.a.failure: "คงเป็นแค่ความโง่เขลาที่ยังไม่บรรลุนิติภาวะกระมัง..."
+bp2_yearly.6020.a.no_secret: "ท่านไม่ได้เรียนรู้อะไรที่เป็นสาระสำคัญ"
+bp2_yearly.6020.b: "ลิ้นที่พล่อยนำไปสู่ความเสื่อมเสียชื่อเสียง"
+bp2_yearly.6020.b.tt: "[snitch.GetFirstNameNoTooltip]ควรชื่นชอบคุณธรรมของความสุขุมรอบคอบมากกว่าการนินทา"
+bp2_yearly.6020.b.discretion: "[snitch.GetShortUIName]มีแนวโน้มน้อยลงมากที่จะเปิดเผย[secrets|E]ของท่าน"
+
+bp2_yearly.6030.t: "สายตาของครอบครัว"
+bp2_yearly.6030.desc: "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('snitch'))]ผู้[snitch.Custom('ComplimentAdjective')]ของข้า [snitch.GetFirstName] ทำให้การเดินเล่นในเช้าอันมัวซัวสดใสขึ้น เล่าให้ข้าฟังถึงการเป็นตัวประกันของ[snitch.GetHerHis]ในความดูแลของ[warden.GetNamePossessive]\n\n[snitch.GetSheHe|U]กลับมาเปลี่ยนไปมาก: ฉลาดขึ้น ช่างสังเกตมากขึ้น เป็นชาว[snitch.GetDynastyHouseName]ผู้ภักดี ปรับตัวเข้ากับชีวิตในต่างแดนได้ดี\n\nชาว[snitch.GetDynastyHouseNameNoTooltip]ผู้ภักดี... บางทีอาจมีคุณค่าที่จะดึงมาจากสายตาของครอบครัวเราที่เคยอยู่ในราชสำนักของ[warden.GetTitledFirstNamePossessiveNoTooltip]...?"
+bp2_yearly.6030.hostage_reticent: "\n\nอย่างไรก็ตาม [snitch.GetFirstNameNoTooltip] ดูเหมือนจะ #negative_value ไม่เต็มใจอย่างยิ่ง#! ที่จะเป็นผู้ให้ข้อมูลแก่ข้า บางทีนางอาจถูกเตือนไม่ให้ทำ เช่นนั้น"
+bp2_yearly.6030.hostage_normal: "\n\nกล่าวคือ — [snitch.GetFirstNameNoTooltip]รู้อะไรบ้าง หากมี?"
+
+bp2_yearly.6030.a: "ข้าสามารถหลอกล่อเอาความลับของ[warden.GetPrimaryTitle.GetNameNoTierNoTooltip]ออกมาได้..."
+bp2_yearly.6030.maybe_secret: "#high [snitch.GetFirstName]#! #EMP อาจจะ#! แบ่งปัน[secret|E]จากวงในของ[warden.GetShortUINamePossessive]"
+bp2_yearly.6030.a.success: "ท่านเรียนรู้ทุกสิ่งที่[snitch.GetFirstNameNoTooltip]รู้"
+bp2_yearly.6030.a.failure: "[snitch.GetFirstNameNoTooltip]หลบเลี่ยงการซักถาม"
+bp2_yearly.6030.a.no_secret: "[snitch.GetFirstName]รู้... ไม่มีอะไรที่เป็นสาระสำคัญ"
+bp2_yearly.6030.a.evade: "#high [snitch.GetFirstName]#! ไม่ได้แบ่งปันอะไรที่เป็นประโยชน์"
+
+bp2_yearly.6030.b: "สำหรับการรับใช้ครอบครัวของ[snitch.GetHerHis] — รางวัล!"
+bp2_yearly.6030.b.tt: "ให้[snitch.GetHerHim]รู้ว่าข้าให้รางวัลแก่สายลับและผู้ให้ข้อมูลดีเพียงใด!"
+bp2_yearly.6030.b.failure: "[snitch.GetFirstNameNoTooltip]ไม่ให้[secrets|E]"
+bp2_yearly.6030.b.rewarded: "#high [snitch.GetFirstName]#! มีแนวโน้มมากขึ้นที่จะเข้าร่วม[schemes|E]ของท่าน"
+
+bp2_yearly.6030.refuse_reward: "#high [snitch.GetFirstName]#! ไม่ช่วยเหลือและไม่สะทกสะท้าน"
+
+
+bp2_yearly.6030.c: "หากปราศจากเกียรติยศ การเป็นตัวประกันก็ไร้ค่า"
+bp2_yearly.6030.c.tt: "กฎของข้อตกลงนั้นเข้มงวดและไม่อาจละเมิดได้"
+bp2_yearly.6030.c.honor: "[rulers|E]มีแนวโน้มมากขึ้นที่จะเสนอและเรียกร้อง[hostages|E]กับท่าน"
+bp2_yearly.6030.c.hostage_secrets: "@alert_icon! #alert_trial ท่านจะได้รับ[tyranny|E]เมื่อกดดันเอา[secrets|E]จาก[hostages|E]#!"
+
+honorable_warden_modifier: "ผู้ดูแลผู้ทรงเกียรติ"
+honorable_warden_modifier_desc: "ตัวละครนี้ประกาศว่าจะให้ศักดิ์ศรีอันไม่อาจละเมิดได้แก่[hostages|e]"
+
+bp2_yearly.6040.t: "ทุกสิ่งที่เราไม่ใช่"
+bp2_yearly.6040.desc: "ข้าเฝ้ามองชาว[ROOT.Char.GetCulture.GetCollectiveNoun]ที่อายุน้อยที่สุดของ[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]กำลังศึกษาเล่าเรียน เรียนรู้ช้า ไร้ระเบียบวินัย พวกเขาทะเลาะกันเหมือนพ่อแม่ของพวกเขา\n\nไม่เหมือนชาว[advanced_culture.GetCollectiveNoun]แห่ง[childhood_location.GetCounty.GetTitle.GetNameNoTier]อันน่าอัศจรรย์เลย อาณาจักรของพวกเขาคือความเป็นระเบียบเรียบร้อย ผลงานอันยิ่งใหญ่ และแนวคิดอันยิ่งใหญ่ ขณะที่ข้า"
+bp2_yearly.6040.hostage: "ถูกจับเป็นตัวประกัน"
+bp2_yearly.6040.education: "ได้รับการศึกษา"
+bp2_yearly.6040.outro: "ที่นั่น ข้าก็รู้แจ้งเห็นจริง\n\nข้ามาเห็นผู้คนของข้าว่าเป็นคนป่าเถื่อนอย่างที่พวกเขาเป็น\n\nข้าสามารถเปลี่ยนแปลงสิ่งนั้นได้ ด้วยความรู้ของชาว[advanced_culture.GetNameNoTooltip]ในวัยเยาว์ของข้า... บางทีข้าควรนำพาเราไปสู่เส้นทางแห่งการปฏิรูปที่ไม่แน่นอน?"
+
+bp2_yearly.6040.a: "รัชสมัยของข้าสามารถเป็นการเกิดใหม่ได้"
+bp2_yearly.6040.a.tt: "นำความรู้จากต่างแดนมาแทนที่วิถีของผู้คนของข้า — หรือนำพวกเขาไปสู่ความรุ่งโรจน์ที่ยิ่งใหญ่กว่า"
+bp2_yearly.6040.a.reforms: "ท่านพยายามปฏิรูปและพัฒนา[culture|E], [court|E] และ[realm|E]ของท่าน ตามแบบอย่างของชาว[advanced_culture.GetName]"
+bp2_yearly.6040.a.warning: "@alert_icon! #alert_trial สิ่งนี้จะท้าทายและมีค่าใช้จ่ายสูง ตรวจสอบให้แน่ใจว่าท่านพร้อมแล้ว#"
+bp2_yearly.6040.b: "เหตุใดจึงต้อง#EMP พิจารณา#!ท้าทายประเพณีของเราด้วยซ้ำ?"
+bp2_yearly.6040.b.tt: "ข้าโอบรับวิถีอันงดงามของชาว[ROOT.Char.GetCulture.GetNameNoTooltip]ของเราและหันหลังให้กับสิ่งอื่นทั้งหมด!"
+bp2_yearly.6040.b.promote_culture: "[councillor_task|E] [promote_culture|E]จะมีประสิทธิภาพมากขึ้นเป็นเวลา #high 25 ปี#!"
+bp2_yearly.6040.b.no_reforms: "ท่านจะไม่พิจารณาการปฏิรูปเหล่านี้อีก"
+bp2_yearly.6040.c: "ตอนนี้ยังไม่ใช่เวลา"
+bp2_yearly.6040.c.recurring: "แรงผลักดันในการปฏิรูปนี้มีแนวโน้มที่จะเกิดขึ้นอีกครั้ง"
+
+devoted_to_tradition_modifier: "ผู้พิทักษ์ประเพณี"
+devoted_to_tradition_modifier_desc: "ปฏิเสธความสัมพันธ์กับคนนอก ตัวละครนี้เป็นผู้สนับสนุนผู้คนของตนที่มีชื่อเสียง"
+bp2_devoted_to_tradition_modifier_conversion_task_desc: "$devoted_to_tradition_modifier$"
+
+bp2_yearly.6050.t: "หิน เหล็ก ดินเหนียว และกิ่งไม้สาน"
+bp2_yearly.6050.desc: "ตามคำสั่งของข้า ถนนที่เพิ่งตัดใหม่สายแรกและด่านหน้าอันเรียบง่ายทอดยาวออกจาก[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier] — สร้างขึ้นในรูปแบบของถนน ป้อมปราการ และสำนักงานภาษีอันยิ่งใหญ่ของชาว[advanced_culture.GetName]\n\nถึงกระนั้น เมืองหลวงของข้าก็ไม่ใช่[childhood_location.GetCounty.GetTitle.GetNameNoTier]ที่ส่องประกายระยิบระยับ หรือ[ROOT.Char.GetPrimaryTitle.GetNameNoTier]เป็นดินแดนที่มีประชากรหนาแน่น อุดมไปด้วยการค้าและงานฝีมือ #EMP แต่กระนั้น#! \n\nข้างกายข้า [noble_representative.GetTitledFirstName]มองดูสิ่งก่อสร้างใหม่ๆ ของข้า สถาปนิกต่างชาติของข้าอย่างเคลือบแคลง\n\n"ท่าน ทำให้#EMP พ่อค้า#! และ#EMP สามัญชน#!ร่ำรวยขึ้น" [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('noble_representative'))]ของข้าเย้ยหยัน "เมื่อขุนนางผู้ภักดีของท่านสามารถสร้างโถงใหม่ๆ จากความเอื้อเฟื้อของท่านได้!""
+
+bp2_yearly.6050.a: "เมืองหลวงใหม่ที่ยิ่งใหญ่ของข้าจะเจริญรุ่งเรือง!"
+bp2_yearly.6050.a.tt: "อัญมณีเม็ดใหม่จะส่องประกายท่ามกลางเมืองต่างๆ ของดินแดนที่ตั้งรกรากแล้ว ผู้อยู่อาศัยในนั้นจะเจริญรุ่งเรือง เช่นเดียวกับข้า"
+bp2_yearly.6050.b: "พวกเราผู้มีอารยธรรมไม่#EMP ให้#! เราเก็บภาษีและเราสร้าง"
+bp2_yearly.6050.b.tt: "การรีดไถเหล่านี้เป็นเรื่องปกติในดินแดนต่างประเทศ — และตอนนี้ก็เป็น เช่นนั้นที่นี่!"
+bp2_yearly.6050.every_county_development: "ระดับ[development|E]ในทุก[county|E]ของ[domain|E]ของท่านจะเปลี่ยนไป #positive_value +1#!"
+bp2_yearly.6050.county_control_loss: "ระดับ[control|E]จะเปลี่ยนไป #negative_value -30#! ในทุก[county|E]ของ[domain|E]ของท่าน"
+bp2_yearly.6050.county_opinion_modifier: "ทุก[county|E]ที่ไม่ใช่ชาว[advanced_culture.GetName]ใน[domain|E]ของท่านจะได้รับ[GetModifier('unprecedented_taxation_modifier').GetNameWithTooltip]"
+bp2_yearly.6050.c: "ข้าไม่อาจหันหลังให้ขุนนางของข้าได้!"
+bp2_yearly.6050.c.tt: "ข้าจะให้ความสำคัญกับผู้มีอำนาจแห่ง[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]เหนือสิ่งอื่นใดเสมอ"
+bp2_yearly.6020.pay_vassals: "ท่านจ่าย[gold_i|E]#N [root_scope.MakeScope.ScriptValue('minor_gold_value')]#! ให้กับ[powerful_vassals|E]ทั้งหมดของท่าน #EMP และ#! สูญเสีย[gold_i|E]#N [root_scope.MakeScope.ScriptValue('minor_gold_value')]" # หมายเหตุ: คีย์ดูเหมือนไม่ถูกต้อง แต่แปลตามที่ให้มา
+
+bp2_yearly.6050.reaffirmation_path: "@alert_icon! #alert_trial สิ่งนี้#EMP อย่างรวดเร็ว#! มีส่วนช่วยในการยืนยันประเพณี[root_scope.GetCulture.GetNameNoTooltip]ของท่านอีกครั้ง#!"
+bp2_yearly.6050.reform_path: "@alert_icon! #alert_trial สิ่งนี้มีส่วนช่วยในการปฏิรูป[advanced_culture.GetNameNoTooltip]อย่างกว้างขวางของท่าน#!"
+
+cultural_acceptance_gain_beginning_reforms: "[ruler|E]เริ่มนำเข้าประเพณี[culture_possessive|E]อื่น"
+cultural_acceptance_gain_building_familiar_settlements: "[realm|E]ของนักปฏิรูปสร้างขึ้นใหม่ในรูปแบบที่ใช้ร่วมกันในขณะนี้"
+cultural_acceptance_turned_away_trade: "ด้วยคำโกหกเกี่ยวกับโครงการใหญ่โต [ruler|E]โกงช่างก่อสร้างและพ่อค้าของ[culture|E]อื่น"
+
+massive_construction_efforts_modifier: "ความพยายามในการก่อสร้างครั้งใหญ่"
+massive_construction_efforts_modifier_desc: "ช่างก่อสร้างผู้เชี่ยวชาญถูกนำเข้ามาอย่างแข็งขันเพื่อทำงานในโครงการอันงดงามที่นี่"
+
+great_builder_modifier: "ผู้สร้างผู้ยิ่งใหญ่"
+great_builder_modifier_desc: "ผู้อุปถัมภ์การก่อสร้างอันทะเยอทะยาน: ผู้สร้างความทันสมัยและนายจ้างของผู้มีความสามารถชาวต่างชาติ"
+
+unprecedented_taxation_modifier: "การเก็บภาษีอย่างไม่เคยปรากฏมาก่อน"
+unprecedented_taxation_modifier_desc: "ภาษีแบบต่างประเทศ รุนแรงเกินกว่าที่เคยจินตนาการไว้ก่อนหน้านี้ เป็นทุนสนับสนุนการพัฒนาท้องถิ่นที่ถูกต่อต้านอย่างมาก"
+
+loyal_realm_nobility_modifier: "เป็นที่รักของขุนนางในอาณาจักร"
+loyal_realm_nobility_modifier_desc: "ตัวละครนี้ได้ส่งเสริมความสัมพันธ์อันแรงกล้ากับนักรบขุนนางของผู้คนของตน"
+
+bp2_yearly.6060.t: "การศึกษาในความเป็นนิรันดร์"
+bp2_yearly.6060.desc: "พิธีกรรมอันสกปรกของชาว[ROOT.Char.GetCulture.GetName] วิถีแห่ง[ROOT.Char.GetFaith.GetName]ของเรา... เราเป็นเพียงเด็กที่ร้องไห้ในความมืดหรือ?\n\nเมื่อ[clergy_representative.GetFirstName]และ[clergy_representative.GetFaith.PriestNeuterPlural]ผู้ใจแคบของเราวิงวอนขอความโปรดปรานจาก[ROOT.Char.GetFaith.HighGodName] จิตใจของข้าก็ล่องลอยไปในเสียงเสียดสีของอาภรณ์ศักดิ์สิทธิ์ของชาว[advanced_culture.GetName]ที่จดจำได้ ถูกยึดครองโดยความจริงแห่งวาทศิลป์ของพวกเขา ข้าโหยหาหอแห่งการเรียนรู้ของ[childhood_location.GetCounty.GetTitle.GetNameNoTier] เพื่อท่องไปในความลึกลับที่เปิดเผย ณ ที่นั่น\n\n"
+
+bp2_yearly.6060.same_faith: "สำหรับชาว[advanced_culture.GetCollectiveNounNoTooltip] ศรัทธาดำรงอยู่ในความยิ่งใหญ่ เสริมสร้างด้วยการศึกษา มันถูกนำมาจากเบื้องบนสู่เบื้องล่าง และแตกต่างจากความเชื่องมงายของเรา มันยังคงไม่เปลี่ยนแปลง"
+bp2_yearly.6060.different_faith: "ดวงวิญญาณทั้งหมดของอาณาจักร หนึ่งในไม่กี่วิหารและผู้รู้หนังสือน้อยลง... พึ่งพาริมฝีปากของข้าเพื่อแบ่งปันความจริงของ[advanced_culture_faith.GetName]หรือไม่?"
+
+
+
+#My guardian Kopti ensured I knew that, though we share the same faith, with few temples and fewer lettered folk in our land... wisdom slips, like water, through Karluk fingers.
+
+bp2_yearly.6060.a: "ข้ามีชีวิตอยู่เพื่อสิ่งนี้เท่านั้น ข้าคือ[advanced_culture_faith.GetAdherentNameNoTooltip]"
+bp2_yearly.6060.a.tt: "ใครอื่นเล่าจะเชื่อมศรัทธาของเราได้? และศรัทธาใดเล่าจะดีไปกว่าการนำระเบียบทางจิตวิญญาณและการรู้แจ้งมาสู่[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]?"
+
+bp2_yearly.6060.b: "ศรัทธาต้องถูกสร้าง ต้องถูกจัดระเบียบ"
+bp2_yearly.6060.b.tt: "เราจะเลียนแบบวิธีการจัดระเบียบศรัทธาต่างแดน วิธีที่พวกเขาสูงส่งเทียมฟ้าและแทรกซึมเข้าไปในทุกแง่มุมของชีวิตประจำวัน"
+bp2_yearly.6060.b.conversion_bonus: "ความเร็วความคืบหน้า[convert_county|E]: #P +[EmptyScope.ScriptValue('zealous_proselytizer_percentage')|0]%#!"
+
+bp2_yearly.6060.c: "การเรียนรู้คือบ่อเกิดแห่งความแข็งแกร่งทั้งปวง"
+bp2_yearly.6060.c.tt: "และหากข้าเป็นผู้เรียนรู้และฉลาดที่สุดเหนือใคร หากข้าอุทิศตน แต่เพียงผู้เดียว อาณาจักรของข้าจะเจริญรุ่งเรืองอย่างแน่นอน!"
+bp2_yearly.6060.c.nerd: "ท่านลดทักษะทั้งหมด ยกเว้น[learning|E]ลง #negative_value 2#!"
+bp2_yearly.6060.c.tribal_warning: "@warning_icon! #X ท่านจะสามารถสร้าง $building_type_generic_university$ ได้ก็ต่อเมื่อท่านไม่มี[tribal_government|E]อีกต่อไป#!"
+bp2_yearly.6060.d: "และถึงกระนั้นข้าก็รู้สึก... #EMP เรา#! คือผู้ศรัทธาที่แท้จริง!"
+bp2_yearly.6060.d.tt: "ไม่มีอะไรโอ้อวด ไม่มีอะไรซับซ้อนเกี่ยวกับความจริงของเรา นี่คือความชอบธรรม"
+
+fervor_gain_reformer_converts: "นักปฏิรูปผู้มีชื่อเสียงเปลี่ยนศาสนา"
+fervor_gain_reformer_champions_faith: "ผู้ปกครองกำลังฟื้นฟู[faith|E]นี้"
+fervor_loss_reformer_rejects_faith: "การประณามของแชมป์เปี้ยนผู้มีชื่อเสียงของ[faithpossessive|E]อื่น"
+
+adapted_rituals_modifier: "พิธีกรรมต่างแดนที่ปรับใช้"
+adapted_rituals_modifier_desc: "เมื่อวิหารแบบต่างประเทศถูกสร้างขึ้น พิธีกรรมแบบต่างประเทศถูกนำมาใช้ ผู้คนต่างพูดว่าไม่มีอะไรศักดิ์สิทธิ์สำหรับบุคคลนี้... หรือทุกสิ่งศักดิ์สิทธิ์?"
+
+court_of_scholars_modifier: "ราชสำนักแห่งปราชญ์"
+court_of_scholars_modifier_desc: "ผู้อุปถัมภ์ปัญญาชนและคนเพี้ยน ตัวละครนี้ปกครองผู้คนที่เปลี่ยนแปลงอย่างรวดเร็ว"
+
+bp2_yearly.6070.t: "ที่ ซึ่งโลกทั้งใบจับจ้อง"
+bp2_yearly.6070.desc: "\"ข้ารับใช้[advanced_court_owner.GetTitledFirstName]มานานแล้ว [advanced_culture.GetName]ผู้ยิ่งใหญ่ที่สุดที่ยังมีชีวิตอยู่" [foreign_official.GetName] อ้างตัวว่าเป็นข้าราชการของ[advanced_court_owner.GetPrimaryTitle.GetNameNoTier]\n\n"บทกวีแห่งอำนาจของ[advanced_court_owner.GetHerHis] แฟชั่นที่ ทำให้โลกตื่นตาตื่นใจ การเต้นรำในราชสำนัก เครื่องราชอิสริยาภรณ์ และอื่นๆ ทั้งหมด — ท่านปรารถนาที่จะมีส่วนร่วมในวัฒนธรรมสูงสุดหรือไม่ [ROOT.Char.GetTitleAsNameNoTooltip]? ข้าสามารถช่วยท่านได้ ข้ารู้ว่าทรัพย์สมบัติ#EMP อันหาที่เปรียบมิได้#! ถูกซ่อนไว้ที่ใด"\n\nความทะเยอทะยานในการปฏิรูปของข้าดึงดูดสิ่งมีชีวิตที่ไร้ศีลธรรมเหล่านี้ ผู้ที่มีความทะเยอทะยานคล้ายกัน: พวกเขามองความสนใจในการเปลี่ยนแปลงของข้า... ด้วยการฉวยโอกาสอย่างตะกละตะกลาม"
+
+bp2_yearly.6070.a: "ข้าอยากเรียนรู้วิธีที่[advanced_court_owner.GetTitleAsNameNoTooltip]ปกครองมากกว่า"
+bp2_yearly.6070.a.tt: "ข้าไม่สนใจวิธีการสร้างความยิ่งใหญ่ แต่สนใจวิธีการสร้างอารยธรรม"
+bp2_yearly.6070.b: "นำมารยาทอันศิวิไลซ์ เครื่อง แต่งกายอันงดงามมาให้เรา"
+bp2_yearly.6070.b.tt: "สำหรับอาภรณ์ของชาว[advanced_culture.GetNameNoTooltip]ที่ดีที่สุด — ราคาสูงที่สุด! ไม่ว่า... ที่มาของมันจะเป็นอย่างไร..."
+bp2_yearly.6070.artifact_warning: "@warning_icon! #X [advanced_court_owner.GetTitledFirstName]อาจต้องการสิ่งเหล่านี้คืน#!"
+bp2_yearly.6070.change_clothes: "ราษฎรบางส่วนของท่านจะ แต่งกายเหมือนชาว[advanced_culture.GetCollectiveNoun]ตราบเท่าที่ท่านปกครอง"
+bp2_yearly.6070.change_clothes_heir: "ราษฎรบางส่วนของท่านจะ แต่งกายเหมือนชาว[advanced_culture.GetCollectiveNoun] ตราบเท่าที่ท่านหรือ[primary_heir|E]ปัจจุบันของท่านปกครอง"
+bp2_yearly.6070.c: "ภาษาแห่งอำนาจเป็นสิ่งสำคัญที่สุดในบรรดาเครื่องประดับ"
+bp2_yearly.6070.c.tt: "หากข้าเชี่ยวชาญภาษา[advanced_culture.GetLanguage.GetNameNoTooltip]อย่างแท้จริง ข้าก็จะเป็นผู้เท่าเทียมโดยไม่จำเป็นต้องมีเครื่องประดับหรูหรา"
+bp2_yearly.6070.court_language_discount: "ท่านจ่าย[prestige|E]น้อยลงอย่างมหาศาลเมื่อเปลี่ยน[court_language|E]"
+bp2_yearly.6070.d: "เจ้า ชาว[advanced_culture.GetNameNoTooltip] เป็นแมลงที่น่ารังเกียจ!"
+bp2_yearly.6070.d.tt: "ข้า#EMP ถูก#!มองว่าเป็นญาติกับหนอนตัวนี้หรือ? การ ทำให้[foreign_official.GetHerHim]เป็นเยี่ยงอย่างน่าจะเปลี่ยนสิ่งนั้นได้!"
+
+artifact_admired_culture_regalia: "เครื่องราชกกุธภัณฑ์[advanced_court_owner.GetPrimaryTitle.GetAdjectiveNoTooltip]อันหรูหรา"
+artifact_famed_culture_regalia_desc: "เครื่องประดับหรูหราของชาว[advanced_culture.GetName]ที่ "นำเข้า" มาอย่างหรูหรา คุณภาพที่[advanced_court_owner.GetTitleAsNameNoTooltip]ของพวกเขาอาจสั่งทำจากช่างฝีมือที่ซับซ้อนที่สุดของ[advanced_court_owner.GetHerHis]"
+
+artifact_admired_culture_crown: "มงกุฎของ[root_scope.GetFirstNameNoTooltip]"
+artifact_famed_culture_crown_desc: "มงกุฎทองคำอันสง่างามสไตล์[advanced_culture.GetName] ซึ่งไม่เคยเห็นมาก่อนในดินแดน[root_scope.GetCulture.GetName] มงกุฎทองคำที่มีที่มาเป็นที่ถกเถียงนี้เดินทางไกลมาเพื่อประทับอยู่บนศีรษะของ[root_scope.GetTitleAsNameNoTooltip]ผู้มีวิสัยทัศน์"
+
+artifact_advanced_culture_treatise: "ตำราภาษา[advanced_culture.GetLanguage.GetNameNoTooltip]ฉบับ[root_scope.GetPrimaryTitle.GetAdjectiveNoTooltip]"
+
+bp2_yearly.6080.t: "เลือด[ROOT.Char.GetCulture.GetNameNoTooltip]"
+bp2_yearly.6080.desc: "กองทหารรับจ้างชาว[advanced_culture.GetName]จำนวนมาก ภายใต้การนำของผู้นำที่ช่ำชองสองคน พยายามที่จะรับใช้เป็นทหารรักษาพระองค์และฝึกกองกำลังของข้า พวกเขารออยู่หน้าประตูเมือง ภายใน [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('angry_vassal'))]ของข้า [angry_vassal.GetTitledFirstName] คำรามใส่ข้า\n\n"#EMP [ROOT.Char.GetTitleAsNameNoTooltip]คนทรยศ สุนัขรับใช้ของชาว[advanced_culture.GetCollectiveNounNoTooltip]!#! ท่านปรารถนาที่จะเป็นทรราชที่ไม่เหมือนชาว[ROOT.Char.GetCulture.GetName]ที่แท้จริงคนใด ใช้กฎหมายต่างด้าวและอำนาจต่างชาติหรือ? ท่านถือว่าประเพณีของเราถูกริบไปแล้วหรือ?!"\n\n"ถ้า เช่นนั้น คำสาบานความภักดีของเราก็ต้องถูกทอดทิ้งไปด้วย!" [angry_vassal.GetSheHe]กล่าว โดยมีทหารคุ้มกันติดอาวุธของ[angry_vassal.GetHerHis]ขนาบข้าง "พวกเราข้าหลวงเห็นพ้องกันว่า: หากชาว[advanced_culture.GetCollectiveNounNoTooltip]ไม่ไป พันธะของเราที่มีต่อท่านก็ไร้ค่า!""
+
+bp2_yearly.6080.a: "ข้าสามารถตั้งถิ่นฐานให้พวกเขาเป็นผู้อพยพที่รักสงบได้หรือไม่?"
+bp2_yearly.6080.a.tt: "ขุนนางของข้าคงจะถูกโน้มน้าวให้ไม่ใส่ใจได้แน่ หากมีเพียงสามัญชนเท่านั้นที่ถูกแทนที่..."
+bp2_yearly.6080.pop_opinion_modifier: "ทุก[county|E]ที่ไม่ใช่ชาว[advanced_culture.GetName]ใน[duchy|E]เดียวกันจะได้รับ #N [GetModifier('forcible_resettlement_modifier').GetNameWithTooltip]#!"
+bp2_yearly.6080.b: "ผู้นำกบฏ! #EMP จับ[angry_vassal.GetHerHim]!#!"
+bp2_yearly.6080.b.tt: "มาดูกันว่าพวกที่รักประเพณีคนอื่นๆ จะพยายามรวมตัวกันอย่างไรเมื่อไม่มีเขา!"
+bp2_yearly.6080.b.success: "ผู้เห็นต่างถูกจับกุม"
+bp2_yearly.6080.b.failure: "[angry_vassal.GetFirstNameNoTooltip] ต่อสู้หาทางออกของ [angry_vassal.GetHerHis]"
+bp2_yearly.6080.add_both_courtiers: "[foreign_mercenary_1.GetName] และ [foreign_mercenary_2.GetName] เข้าร่วมราชสำนักของท่าน"
+bp2_yearly.6080.c: "พันธะเก่าทั้งหมดถือเป็นโมฆะ: ข้าจะไม่ถูกหยุดยั้ง"
+bp2_yearly.6080.c.tt: "ผู้คนของเรากำลังเกิดใหม่ ภาระผูกพันดั้งเดิม หนี้สินเก่า ไม่สำคัญอีกต่อไป มีเพียงการปฏิรูปของข้าให้เสร็จสิ้นเท่านั้นที่สำคัญ"
+bp2_yearly.6080.hook_removal_vassals: "[vassals|E]สูญเสีย[hooks|E]ทั้งหมดที่พวกเขามีต่อท่าน"
+bp2_yearly.6080.hook_removal: "@warning_icon! #X ท่านสูญเสีย[hooks|E]ทั้งหมดที่ท่านมีต่อ[vassals|E]#!"
+bp2_yearly.6080.truce_removal: "@warning_icon! #X [truces|E]ทั้งหมดระหว่างท่านและ[vassals|E]ของท่านถูกยกเลิก#!"
+bp2_yearly.6080.d: "เลือดของผู้คนของข้าจะต้องไม่หลั่งไหล"
+bp2_yearly.6080.d.tt: "ผู้คนของเรา เหตุผลร่วมกันของเรา ควรขับเคลื่อนเราและรวมเราเป็นหนึ่ง: เราควรให้คำมั่นสัญญาต่อกันและกัน"
+
+elite_foreign_guard_modifier: "ค่ายทหารองครักษ์ชั้นยอด"
+elite_foreign_guard_modifier_desc: "นักสู้ที่มีระเบียบวินัยสูง ส่วนใหญ่มาจากดินแดนและผู้คนอื่น ๆ มีกองบัญชาการอยู่ที่นี่ พวกเขาฝึกฝนทักษะการต่อสู้และรอคอยการเรียกของเจ้าเหนือหัว"
+
+custom.every_non_advanced_culture_vassal: "ทุก[vassal|E]ที่ไม่ใช่ชาว[advanced_culture.GetName]"
+custom.every_non_advanced_culture_unhooked_no_truce_vassal: "ทุก[vassal|E]ที่ไม่ใช่ชาว[advanced_culture.GetName]ที่ท่านไม่มี[truce|E]ด้วยหรือ[hook|E]ต่อ"
+
+forcible_resettlement_modifier: "การบังคับตั้งถิ่นฐานใหม่"
+forcible_resettlement_modifier_desc: "ผู้อพยพที่ถูกแทนที่โดยผู้ตั้งถิ่นฐานที่นำเข้ามา ซึ่งมีวัฒนธรรมที่ก้าวหน้ากว่า ก่อให้เกิดความไม่พอใจอย่างรุนแรงที่นี่"
+
+common_noble_cause_modifier: "เหตุผลร่วมกันของขุนนาง"
+common_noble_cause_modifier_desc: "ตัวละครนี้สร้างแรงบันดาลใจให้สมาชิกวัฒนธรรมเดียวกันด้วยการย้ำถึงจุดประสงค์ร่วมกัน"
+
+cultural_acceptance_learning_from_culture: "[innovation|E]ถูกส่งต่อระหว่าง[cultures|E]เหล่านี้"
+
+bp2_yearly.6090.t: "สิทธิโดยกำเนิด ได้รับการฟื้นฟู"
+bp2_yearly.6090.desc: "ข้าได้ไล่ตามการยอมรับของชาว[advanced_culture.GetName] ปรารถนาเครื่องประดับหรูหราต่างแดน ทำให้ตัวเองเป็นคนโง่เพื่อความฝันของข้า ไม่ใช่อีกต่อไป\n\n"
+bp2_yearly.6090.burn_letters: "ของขวัญต่างๆ ที่ส่งมาจาก[advanced_court_owner.GetTitledFirstName]ถูกเผา ในขณะที่ขุนนางชาว[ROOT.Char.GetCulture.GetName]ของข้าเคารพชื่อของข้า\n\n"
+bp2_yearly.6090.burn_else: "เครื่องประดับส่วนใหญ่ของชาว[advanced_culture.GetNameNoTooltip]ของข้าถูกเผา ในขณะที่ขุนนางชาว[ROOT.Char.GetCulture.GetName]ของข้าเคารพชื่อของข้า\n\n"
+
+bp2_yearly.6090.reaffirm_social: "ขณะที่ชาว[advanced_culture.GetCollectiveNounNoTooltip]ผู้กระหายอำนาจใช้ประโยชน์จากความโลภของข้า ข้าหลวงของข้าก็กระตุ้นให้ระมัดระวัง"
+bp2_yearly.6090.reaffirm_realm: "ขณะที่ข้าฉีกทำลายดินแดนของเรา พวกเขาก็สร้างโถงที่สวยงามและติดอาวุธให้$knight_culture_player_plural_no_tooltip_lowercase$ชั้นดี"
+bp2_yearly.6090.reaffirm_ritual: "แม้ขณะที่ข้าดูหมิ่นความเชื่อโบราณของพวกเขา ข้าก็ยังคงอยู่ในการสวดภาวนาของพวกเขา"
+bp2_yearly.6090.reaffirm_maa: "พวกเขายอมเสี่ยงเกียรติยศ ชีวิต เพื่อป้องกันไม่ให้ข้ามอบ[ROOT.Char.GetPrimaryTitle.GetNameNoTier]ให้คนนอก"
+bp2_yearly.6090.outro: "\n\nวัยเยาว์ของข้าใน[childhood_location.GetCounty.GetTitle.GetNameNoTier]นำข้าไปในทางที่ผิด ชาว[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]คือผู้คนของข้า และพวกเขาไม่ต้องการ 'การ ทำให้มีอารยธรรม'"
+
+bp2_yearly.6090.a.bow: "โลกทั้งใบควรโค้งคำนับต่อหน้าเรา"
+bp2_yearly.6090.a.strength: "โลกทั้งใบควรสัมผัสถึงความแข็งแกร่งของเรา"
+bp2_yearly.6090.a.governed: "โลกทั้งใบควรรับฟังปัญญาของเรา"
+bp2_yearly.6090.a.zeal: "โลกทั้งใบควรรู้ถึงความกระตือรือร้นของเรา"
+bp2_yearly.6090.a.kin: "โลกทั้งใบควรตอบสนองต่อญาติพี่น้องของเรา"
+bp2_yearly.6090.a.virtue: "โลกทั้งใบควรประหลาดใจในคุณธรรมของเรา"
+bp2_yearly.6090.a.tt: "ให้เราจุดประกายสายสัมพันธ์โบราณของเราอีกครั้ง — ในกองไฟที่จะเผาผลาญทุกคนที่สงสัยในชาว[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]!"
+bp2_yearly.6090.tribal_invasion: "ท่านสามารถใช้[casus_belli|E]การบุกรุกได้อีกครั้ง"
+bp2_yearly.6090.non_tribal_invasion: "ท่านสามารถใช้[casus_belli|E]การบุกรุกได้ครั้งเดียว"
+bp2_yearly.6090.no_invasion_req: "[casus_belli|E]การบุกรุกของท่านไม่มีข้อกำหนด[prestige_level|E]"
+bp2_yearly.6090.b: "เราต้องปกป้องดินแดนของเรา ครอบครัวของเรา ตลอดไป"
+bp2_yearly.6090.b.tt: "หัวใจข้าแตกสลายเมื่อคิดถึงการสูญเสียทุกสิ่งที่เรามี ให้เรายืนหยัดอย่างแน่วแน่ ยืนหยัดอย่างอุทิศตน: สิ่งนี้จะไม่มีวันเกิดขึ้นได้"
+bp2_yearly.6090.traditionalist_traditions: "ท่านจะได้รับส่วนลดสำหรับ[traditions|E]ที่เกี่ยวข้อง"
+
+a_cultures_great_defender_modifier: "ผู้พิทักษ์ผู้ยิ่งใหญ่ของประชาชน"
+a_cultures_great_defender_modifier_desc: "เอาชนะความสงสัยมากมาย ตัวละครนี้กลายเป็นวีรบุรุษผู้มีชื่อเสียงสำหรับผู้คนของตนและเป็นผู้ศรัทธาต่อบ้านเกิดเมืองนอน"
+
+inspired_defenders_modifier: "ได้รับแรงบันดาลใจในการเป็นทาส ได้รับแรงบันดาลใจในการต่อต้าน"
+inspired_defenders_modifier_desc: "ผู้อยู่อาศัยในดินแดนนี้ปกป้องสิ่งที่ตนมีอย่างดุเดือดและกระตือรือร้นในการป้องกันเจ้าเหนือหัวของตน"
+
+uniter_and_conqueror_modifier: "ผู้รวมชาติและผู้พิชิต"
+uniter_and_conqueror_modifier_desc: "ผู้นำผู้มีวิสัยทัศน์นี้ทดสอบความกล้าหาญของผู้คนของตน จนกระทั่งความยิ่งใหญ่แห่งโชคชะตาร่วมกันของพวกเขาปรากฏชัดแก่ทุกคน"
+
+cultural_acceptance_loss_rejected_influence: "นักปฏิรูปปฏิเสธอิทธิพลของวัฒนธรรมอื่นและเลือกที่จะโดดเดี่ยว"
+
+bp2_yearly.6091.t: "ประชาชนผู้ไม่เปลี่ยนแปลง"
+bp2_yearly.6091: "ท่ามกลางข้าราชบริพารในโถงอันงดงามของข้าและกลุ่มชนชาวบ้าน การปฏิรูปที่ไม่ประสบผลสำเร็จของข้าได้ส่งผลกระทบอย่างชัดเจน\n\nความวุ่นวายได้ ทำให้หัวใจของชาว[ROOT.Char.GetCulture.GetName]ทุกคนแข็งกระด้างต่อคนนอก ความสงสัยและความเป็นปรปักษ์ครอบงำ แต่ก็ เช่นเดียวกับการปฏิบัติตามประเพณีเก่าแก่ของเราด้วยความรัก เทศกาลที่สนุกสนาน และจิตวิญญาณการต่อสู้ที่น่าภาคภูมิใจ\n\nที่ปรึกษาของข้าบอกความหวังของประชาชน: ว่าผู้นำ เช่นข้าจะมองไปที่ประเพณี ศรัทธา"
+bp2_yearly.6091.dominance: "และโชคชะตาของพวกเขาในอีกหลายปีข้างหน้า"
+bp2_yearly.6091.defense: "และการป้องกันของพวกเขาในอีกหลายปีข้างหน้า"
+bp2_yearly.6091.a: "ให้เราเฉลิมฉลองทุกสิ่งที่เราเป็น"
+bp2_yearly.6091.a.tt: "...และไม่มีอะไรอื่น"
+
+bp2_yearly.6091.aggressive: "[culture|E]ของท่านตอนนี้จ่าย[prestige|E]น้อยลงสำหรับ[GetCultureTradition('tradition_ruling_caste').GetName], [GetCultureTradition('tradition_hereditary_hierarchy').GetName], [GetCultureTradition('tradition_staunch_traditionalists').GetName], [GetCultureTradition('tradition_zealous_people').GetName], [GetCultureTradition('tradition_faith_bound').GetName], และ[GetCultureTradition('tradition_warrior_culture').GetName]"
+bp2_yearly.6091.defensive: "[culture|E]ของท่านตอนนี้จ่าย[prestige|E]น้อยลงสำหรับ[GetCultureTradition('tradition_isolationist').GetName], [GetCultureTradition('tradition_hereditary_hierarchy').GetName], [GetCultureTradition('tradition_tribe_unity').GetName], [GetCultureTradition('tradition_staunch_traditionalists').GetName], [GetCultureTradition('tradition_stalwart_defenders').GetName], [GetCultureTradition('tradition_zealous_people').GetName], และ[GetCultureTradition('tradition_faith_bound').GetName]"
+
+bp2_yearly.6100.t: "ชาว[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]ของข้า เกิดใหม่!"
+bp2_yearly.6100.desc: "หลายปีแห่งการเยาะเย้ยและความสงสัย การเสียสละและความวุ่นวาย... พวกมันมีไว้เพื่อสิ่งนี้\n\nขณะที่ชาว[ROOT.Char.GetCulture.GetCollectiveNoun]ของข้าโค้งคำนับต่อหน้าข้า คำพูดสุดท้ายของพระราชกฤษฎีกาการปฏิรูปที่ยิ่งใหญ่ที่สุดของข้าก็ถูกท่องออกมาดังสนั่น เราจะปกครองในรูปแบบใหม่ที่ได้รับแรงบันดาลใจจากชาว[advanced_culture.GetName] เราจะสร้างจนกว่าเราจะทัดเทียมความรุ่งโรจน์ของ[childhood_location.GetCounty.GetTitle.GetNameNoTier] และเด็กชาว[ROOT.Char.GetCulture.GetNameNoTooltip]ทุกคนจะได้เรียนรู้ทักษะ — รู้จักความมหัศจรรย์ — ที่ข้ารู้ในวัยเยาว์\n\nหลายสิ่งหลายอย่างได้เปลี่ยนแปลงไป!"
+bp2_yearly.6100.reform_court: "ความสง่างามใหม่ ทำให้ราชสำนักของข้ามีชีวิตชีวา"
+bp2_yearly.6100.reform_maa: "อาวุธเหล็กและถ้อยคำแห่งกฎหมายปกป้องการปกครองของข้า"
+bp2_yearly.6100.reform_faith: "ศรัทธาของข้ามุ่งเน้น ประณีต สูงส่ง"
+bp2_yearly.6100.reform_realm: "การค้าเจริญรุ่งเรือง การตั้งถิ่นฐานเติบโต และผู้คนอพยพมายัง[ROOT.Char.GetPrimaryTitle.GetNameNoTier]ที่เกิดใหม่ของข้ามากขึ้นทุกวัน"
+bp2_yearly.6100.outro: "\n\nข้ายังคงเป็นชาว[ROOT.Char.GetCulture.GetNameNoTooltip] แต่ข้าคือชาว[ROOT.Char.GetCulture.GetNameNoTooltip]คนใหม่"
+
+bp2_yearly.6100.a: "นี่คือมรดกของข้า - มันต้องสมบูรณ์แบบ!"
+bp2_yearly.6100.a.tt: "การเปลี่ยนแปลงที่ยิ่งใหญ่กว่านั้นมีค่าใช้จ่ายสูง เจ้าของที่ดินรายย่อยทั้งหมดไม่ใช่เรื่องง่ายที่จะโน้มน้าว... แต่เราสามารถปรับเปลี่ยนจากชาว[advanced_culture.GetCollectiveNounNoTooltip]ได้มากขึ้น!"
+bp2_yearly.6100.b: "ข้าทำสำเร็จแล้ว!"
+bp2_yearly.6100.b.tt: "ผู้คนของข้าไม่จำเป็นต้องถูกผลักดันอีกต่อไป ข้าได้นำพวกเขาไปสู่จุดเริ่มต้นของยุคใหม่แล้ว"
+
+cultural_acceptance_gain_completed_reform: "ผู้ปกครองเปลี่ยนแปลงอาณาจักรของตนโดยสิ้นเชิงตามแบบอย่างของวัฒนธรรมอื่น"
+
+bp2_yearly.6100.2_more_innovations: "[culture|E] [root_scope.GetCulture.GetName] ได้รับ[innovations|E]เพิ่มเติม #high 2#! จากวัฒนธรรม[advanced_culture.GetName]"
+bp2_yearly.6100.1_more_innovation: "[culture|E] [root_scope.GetCulture.GetName] ได้รับ[innovation|E]เพิ่มเติม #high 1#! จากวัฒนธรรม[advanced_culture.GetName]"
+bp2_yearly.6100.gained_2_innovations: "[culture|E] [root_scope.GetCulture.GetName] ได้รับ[innovations|E]สุ่ม #high 2#! จากวัฒนธรรม[advanced_culture.GetName]"
+bp2_yearly.6100.gained_1_innovation: "[culture|E] [root_scope.GetCulture.GetName] ได้รับ[innovation|E]สุ่ม #high 1#! จากวัฒนธรรม[advanced_culture.GetName]"
+
+flourishing_settlements_modifier: "การตั้งถิ่นฐานที่เจริญรุ่งเรือง"
+flourishing_settlements_modifier_desc: "ด้วยการนำแนวปฏิบัติและเทคโนโลยีใหม่ๆ มาใช้ คนท้องถิ่นที่นี่รู้สึกขอบคุณและเจริญรุ่งเรือง"
+
+ bp2_yearly.6110.t: "การปฏิรูปจากต่างแดน"
+bp2_yearly.6110.realm: "ข้าเฝ้าดูเด็กรับใช้ก่อไฟ แสงของมันแทบจะไม่คงอยู่ เป็นคู่ต่อสู้ที่น่าสมเพชสำหรับความมืดมิดของค่ำคืนนี้\n\nบางทีวิถีชีวิตของเรา ในฐานะชาว[ROOT.Char.GetCulture.GetCollectiveNoun] อาจเป็นข้อบกพร่อง ศัตรูที่ยิ่งใหญ่ เช่นนี้ที่จะเผชิญหน้า — และยังมีความเชื่อมั่นในตัวข้าที่จะทัดเทียม[ROOT.Char.GetPrimaryTitle.GetNameNoTier]ทั้งหมดหรือไม่?\n\nข้าคิดถึงวิถีชีวิตของชาว[advanced_culture.GetName] วิธีที่พวกเขาใช้ชีวิตและปกครอง บางทีบางส่วนของมันอาจคุ้มค่าที่จะบังคับใช้กับผู้คนของข้า?"
+bp2_yearly.6110.combat: "ข้าเฝ้าดู$knight_culture_player_plural_no_tooltip_lowercase$ในครัวเรือนของข้าเกียจคร้านในแสงแดดยามบ่าย เล่าเรื่องวีรกรรมที่ทำสำเร็จให้กันฟัง\n\nพวกเขาได้รับชัยชนะ และต่อสู้ได้ดีในรูปแบบ[ROOT.Char.GetCulture.GetName]ดั้งเดิม ทว่า... ข้าคิดถึงทักษะและยุทธวิธีของชาว[advanced_culture.GetName]ติดอาวุธ นักสู้ของข้าควรปรับเปลี่ยนวิธีการทำสงครามของพวกเขาหรือไม่?\n\nหรือบางทีเราควรยอมรับอิทธิพลรูปแบบอื่นของชาว[advanced_culture.GetNameNoTooltip]?"
+bp2_yearly.6110.social: "ตลาด วิธีการพูดภาษา[ROOT.Char.GetCulture.GetLanguage.GetName]เฉพาะของ[ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]ของเราเติมเต็มหูของข้า ชาว[ROOT.Char.GetCulture.GetCollectiveNoun] แม้จะยำเกรงข้า แต่ก็ยังคงทำงานหนักประจำวันต่อไป\n\nข้ารู้ว่าข้าเหมือนพวกเขา แต่ก็#EMP แตกต่าง#! พวกเขาและชาว[advanced_culture.GetCollectiveNoun]ต่างหากที่แตกต่างกัน\n\nนี่คือสิ่งที่ต้องเปลี่ยนแปลงอย่างเร่งด่วนหรือไม่? เพราะถึงแม้ข้าจะไม่ได้เติบโตมาท่ามกลางพวกเขา แต่อำเภอใจของข้าคืออนาคตของชาว[ROOT.Char.GetCulture.GetNameNoTooltip]ทุกคน แง่มุมของวัฒนธรรม[advanced_culture.GetNameNoTooltip]เป็นของข้าที่จะนำมาใช้"
+bp2_yearly.6110.ritual: "กฎของเทพเจ้าต่างแดนแตกต่างกัน ดังที่ข้าได้รับแจ้ง เช่นเดียวกับกฎของมนุษย์ และในสถานที่ต่าง ๆ ผู้คนก็เพลิดเพลินกับสิ่งที่แตกต่างกัน — ในขณะที่เทพเจ้าของพวกเขาสนับสนุนสิ่งที่พวกเขาต้องการ ไม่ว่าจะถูกหรือผิด\n\n[ROOT.Char.GetFaith.HouseOfWorship]เงียบสงบ ใคร่ครวญ\n\nบรรพบุรุษชาว[ROOT.Char.GetCulture.GetHeritage.GetName]ในสมัยโบราณ [ROOT.Char.GetFaith.HighGodName] จะขุ่นเคืองมากหรือไม่... หากการปฏิบัติของผู้คนของข้าเปลี่ยนไป? แต่การปฏิบัติแบบ[advanced_culture.GetName]ใดที่รับใช้ผู้ที่เลี้ยงดูข้ามาได้ดีที่สุด?"
+bp2_yearly.6110.regional: "เดินไปมาในห้องบัลลังก์ที่เกือบจะว่างเปล่า ข้าต่อสู้กับความทรงจำและความฝันของข้า\n\nข้าฉายภาพถนนของ[childhood_location.GetCounty.GetTitle.GetNameNoTier]ทับ[ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]ที่ยังมาไม่ถึง เห็นงานเลี้ยงของชาว[advanced_culture.GetName]บนโต๊ะของชาว[ROOT.Char.GetCulture.GetName] นำกองทหารที่จัดระเบียบใหม่ไปสู่ชัยชนะครั้งแรก\n\nอะไร ทำให้ชาว[advanced_culture.GetCollectiveNounNoTooltip]โดดเด่นท่ามกลางผู้คน? ประเพณี เช่นนี้สามารถปรับเปลี่ยนได้ แต่มันเริ่มต้นที่ราชสำนักของข้า ที่ตัวข้า"
+
+
+bp2_yearly.6110.a: "[considered_tradition_1.GetNameNoTooltip]"
+bp2_yearly.6110.b: "[considered_tradition_2.GetNameNoTooltip]"
+bp2_yearly.6110.c: "[considered_tradition_3.GetNameNoTooltip]"
+bp2_yearly.6110.d: "[considered_tradition_4.GetNameNoTooltip]"
+bp2_yearly.6110.e: "ข้าอยากจะพิจารณาการเปลี่ยนแปลงอื่น ๆ มากกว่า..."
+bp2_yearly.6110.e.tt: "ข้าไม่เห็นว่าชาว[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]จะยอมรับการปฏิบัติเหล่านี้ได้"
+
+cultural_acceptance_gain_adapted_tradition: "[tradition|E]ถูกปรับเปลี่ยน"
+
+introduced_foreign_custom_modifier: "นำประเพณีต่างแดนเข้ามาใช้"
+introduced_foreign_custom_modifier_desc: "โดยไม่ให้เวลาผู้คนปรับตัว ตัวละครนี้บังคับใช้การปฏิบัติที่แปลกประหลาดกับทุกคน"
+repeated_foreign_reforms_modifier: "การปฏิรูปต่างแดนซ้ำแล้วซ้ำเล่า"
+repeated_foreign_reforms_modifier_desc: "สมาชิกวัฒนธรรมของตัวละครนี้กำลังโกลาหลจากการโจมตีวิถีชีวิตของพวกเขา"
+assault_on_tradition_modifier: "การโจมตีประเพณี"
+assault_on_tradition_modifier_desc: "ในช่วงชีวิตเดียว ตัวละครนี้ ทำให้วัฒนธรรมของตนไม่เป็นที่รู้จักโดยสิ้นเชิง"
+
+bp2_yearly.6120.t: "ที่ ซึ่งพันธะถูกทดสอบ"
+bp2_yearly.6120.desc: "ตัวประกันของข้า [hostage.GetName] กระสับกระส่ายอย่างกังวลและมีความหวัง [hostage.Custom2('RelationToMeShort', SCOPE.sC('hostage_giver'))]ของ[hostage.GetHerHis] [hostage_giver.GetTitledFirstName] อยู่ใกล้ ๆ ที่นี่ใน[ROOT.Char.GetCurrentLocation.GetName] และเป็นเวลานานแล้วที่ไม่ได้เป็น เช่นนี้ครั้งสุดท้าย\n\n[hostage.Custom('GirlBoy')]อาศัยอยู่กับข้าตอนนี้ [hostage.Custom2('RelationToMeShort', SCOPE.sC('hostage_giver'))]ของ[hostage.GetHerHis]และข้ามีข้อตกลงกัน [hostage.GetFirstNameNoTooltip]อยู่ภายใต้อำนาจของข้า และ[hostage.GetSheHe]ควรภักดีต่อ#EMP ข้า#! มีความเสี่ยงในการปล่อยให้[hostage.GetHerHim]จุดประกายความรักต่อครอบครัวของ[hostage.GetHerHis]อีกครั้ง...\n\n"ได้โปรด" [hostage.GetSheHe]อ้อนวอน "ได้โปรด [ROOT.Char.GetTitleAsNameNoTooltip]ของข้า ข้าคิดถึง[hostage.Custom2('RelationToMeShort', SCOPE.sC('hostage_giver'))]ของข้าสุดหัวใจ!""
+
+
+bp2_yearly.6120.a: "ดื่มด่ำกับการพบกันอีกครั้ง มันล้ำค่า"
+bp2_yearly.6120.a.tt: "ท้ายที่สุดแล้ว [hostage.Custom('GirlBoy')]ก็ยังคงเป็นชาว[hostage.GetDynastyHouseNameNoTooltip] และสมควรได้รับความโปรดปรานจากครอบครัวของ[hostage.GetHerHis]"
+bp2_yearly.6120.b: "ข้าคาดหวังค่าตอบแทนสำหรับความกรุณาอันเอื้อเฟื้อนี้!"
+bp2_yearly.6120.b.tt: "เหตุใดจึงต้องเก็บตัวประกันไว้ หากไม่ใช่เพื่อการรีดไถ เช่นนี้?"
+bp2_yearly.6120.hook: "หาก[hostage_giver.GetShortUIName]ยอมรับ ท่านจะได้รับ[weak_hook|E]ต่อ[hostage_giver.GetHerHim]"
+bp2_yearly.6120.hook_acceptance: "[personality|E]ของ[hostage_giver.GetShortUINamePossessive]เป็นตัวกำหนดว่า[hostage_giver.GetSheHe]จะยอมรับหรือไม่"
+bp2_yearly.6120.c: "มาเถิด มาคุยกับ[hostage_giver.GetHerHim]#EMP ด้วยกัน#!เถอะ"
+bp2_yearly.61020.c.tt: "ข้าสามารถเอาชนะใจคนน่าเบื่อนั่นได้ และทำให้ญาติของ[hostage_giver.GetHerHis]เองชอบอยู่กับข้ามากกว่า[hostage_giver.GetHerHis]!" # หมายเหตุ: คีย์ดูเหมือนไม่ถูกต้อง แต่แปลตามที่ให้มา
+bp2_yearly.6120.c.success: "ท่านครอบงำการปฏิสัมพันธ์กับ[hostage_giver.GetFirstNameNoTooltip]"
+bp2_yearly.6120.c.failure: "ท่านดูเหมือนเป็นคนน่ารำคาญที่ชอบเจ้ากี้เจ้าการ"
+bp2_yearly.6120.d: "#EMP เงียบนะ!#! เจ้าสมควรโดนตบ [hostage.Custom('GirlBoy')]!"
+bp2_yearly.6120.d.tt: "[hostage.GetFirstNameNoTooltip]เป็นของข้า ไม่ใช่ของครอบครัว[hostage.GetHerHis] การทุบตีจะช่วยให้[hostage.GetHerHim]จำได้"
+
+bp2_yearly.6121.t: "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))|U]ผู้ถูกลืมเลือน"
+bp2_yearly.6121.reunion: "ข้ารอคอยช่วงเวลานี้ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))]ของข้า [hostage.GetFirstName] ตัวประกันที่ปกป้องสันติภาพของข้า ยืนอยู่ต่อหน้าข้าใน[ROOT.Char.GetCurrentLocation.GetName]\n\n"[hostage.Custom2('RelationToMeShort', ROOT.Char)|U]!"\n\nขณะที่[hostage.GetSheHe]วิ่งเข้ามาในอ้อมกอดของข้า ราวกับว่า[hostage.GetSheHe]ไม่เคยจากไปไหน ทว่าความแน่นของการกอดของ[hostage.GetHerHis]ทรยศต่อความปรารถนาที่จะกลับบ้านของ[hostage.Custom('GirlBoy')]\n\n[warden.GetTitledFirstName]ดีที่อนุญาตให้เราอยู่ร่วมกัน เช่นนี้ แต่มันก็ยังไม่มากพอ"
+
+bp2_yearly.6121.intrusion: "โดยมี[warden.GetTitledFirstName]อยู่ข้าง[hostage.GetHerHis] [hostage.GetFirstName]ยืนอยู่ต่อหน้าข้า [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))]ของข้าเปลี่ยนไปมากนับตั้งแต่ข้าส่ง[hostage.GetHerHim]ไปเป็นตัวประกัน แต่ข้าจำชาว[ROOT.Char.GetDynastyHouseName]ได้ทุกที่!\n\nข้ากอด[hostage.Custom('GirlBoy')] [hostage.GetSheHe|U]พยายามสงบสติอารมณ์ แต่ความแน่นของการกอดของ[hostage.GetHerHis]ทรยศต่อความปรารถนาที่จะกลับบ้านของ[hostage.GetHerHis]\n\nจากนั้น[warden.GetTitledFirstNameNoTooltip]ก็เข้ามาแทรกแซง ดึงความสนใจของ[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))]ของข้าไป พูดพล่ามเกี่ยวกับการพบกันครั้งนี้... และพืชผลท้องถิ่นของ[ROOT.Char.GetCurrentLocation.GetName]?\n\nอย่างไรก็ตาม ข้าขอบคุณ[ROOT.Char.GetFaith.HouseholdGodName]ในนามของครอบครัวข้า"
+bp2_yearly.6121.hook: "\"สงสัยอยู่ใช่ไหมว่าจะได้พบกับ[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))]ของท่านอีกหรือไม่?" [warden.GetTitledFirstName]หลอกล่อ "[hostage.Custom('GirlBoy')] [hostage.GetFirstName] ผู้ ซึ่งท่านสละให้อย่างเอื้อเฟื้อในนามของสันติภาพ"\n\n[warden.GetFirstNameNoTooltip]ดูเหมือนจะพอใจตัวเองมากเกินไป\n\n"ตราบใดที่เราอยู่ด้วยกันใน[ROOT.Char.GetCurrentLocation.GetName] ท่านอาจอยู่ร่วมกับตัวประกันได้ แม้ว่ามันจะเป็นอันตรายต่อข้อตกลงของเรา..."\n\n"...หากท่านสาบานว่าความเอื้อเฟื้อของข้านี้จะไม่ถูกลืมเลือน""
+bp2_yearly.6121.forbidden: "\"ท่านคิดว่า เพียง เพราะท่านและ[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))]ของท่าน [hostage.GetFirstName] อยู่ใน[ROOT.Char.GetCurrentLocation.GetName]ทั้งคู่ ท่านจะได้อยู่ร่วมกันหรือ?"\n\n[warden.GetTitledFirstName]ส่ายหน้า[warden.GetHerHis]\n\n"ตัวประกันของข้ายุ่งมาก อย่างไรก็ตาม ตลอดระยะเวลาของข้อตกลงของเรา [hostage.GetSheHe]เป็นของข้า แต่เพียงผู้เดียว"\n\nอันที่จริง ข้าแทบไม่เห็นร่องรอยของ[hostage.Custom('GirlBoy')]ที่ถูกส่งตัวไปเลย..."
+
+bp2_yearly.6121.a: ""[hostage.GetFirstNameNoTooltip]! ข้าจะพาท่านกลับบ้าน""
+bp2_yearly.6121.a.tt: "ความเสื่อมเสียเกียรติจงพินาศ: [hostage.GetFirstNameNoTooltip] สมควรอยู่กับข้า! ให้ [warden.GetTitledFirstNameNoTooltip] ทำตามใจ [warden.GetSheHe] เถิด"
+bp2_yearly.6121.b: ""ของขวัญอันยิ่งใหญ่ เพื่อท่านจักไม่อดอยาก!""
+bp2_yearly.6121.b.tt: ""จงกิน! จงกิน! และแสดงสถานะของท่านในฐานะชาว [ROOT.Char.GetDynastyHouseNameNoTooltip]""
+bp2_yearly.6121.c: ""ยินดีที่ได้พบท่าน [hostage.Custom('GetLassLad')]""
+bp2_yearly.6121.d: "ทุกสิ่งเพื่อความรักต่อตระกูล [ROOT.Char.GetDynastyHouseNameNoTooltip]"
+bp2_yearly.6121.d.tt: "ไม่มีญาติข้าคนใดจะถูกทอดทิ้งโดยพวกพ้องของ [hostage.GetHerHis]"
+bp2_yearly.6121.e: "เพื่ออ้อมกอดที่ลักลอบ ข้าไม่ต้องการคำอนุญาต..."
+bp2_yearly.6121.e.tt: "[warden.GetTitledFirstNameNoTooltip] มิอาจขัดขวางข้าจากการพบ [hostage.GetFirstNameNoTooltip] และสนทนากับ [hostage.GetHerHim] ได้ แม้เพียงชั่วครู่ก็ตาม"
+bp2_yearly.6121.e.success: "ท่านลอบเข้าไปกอดได้สำเร็จ"
+bp2_yearly.6121.e.failure: "ท่านถูกจับได้"
+bp2_yearly.6121.f: "เอ๊ะ ข้าไม่ได้คิดถึง [hostage.GetHerHim]"
+bp2_yearly.6121.f.tt: "ข้าคงจะได้พบ [hostage.GetHerHim] อีกสักวัน... และนั่นก็ดีแล้ว"
+
+bp2_yearly.6122.t: "มิได้ถูกลืมเลือน"
+bp2_yearly.6122.sneaking: "ขณะที่สายลับของข้ารีบพา [hostage.GetFirstName] ออกไปจากองครักษ์ของ [warden.GetTitledFirstNamePossessive] โดยอาศัยช่วงเวลาอันยิ่งใหญ่ของอาหารค่ำ ข้าก็ย่องไปร่วมการพบปะของครอบครัวนี้ด้วย\n\nสถานการณ์อันน่าอดสูแทบจะไม่อยู่ในความคิดของข้าขณะที่ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] ของข้ากอดข้า หัวเราะเยาะริ้วรอยของข้า ตื่นเต้นดีใจ\n\n[hostage.GetSheHe|U] จากไปนานแล้ว และในไม่ช้าก็ต้องกลับไปหาผู้ดูแลของเขา นี่คือวิถีของสิ่งต่างๆ แต่ข้าไม่อิจฉา [hostage.GetHerHim] นายผู้เข้มงวดของ [hostage.GetHerHis]"
+bp2_yearly.6122.rescue: "[warden.GetTitledFirstName] โกรธแค้นเพียงใดเมื่อข้าขับไล่ [warden.GetHerHim] ออกไปจากเบื้องหน้าข้า โดยมี [hostage.GetFirstName] อดีตตัวประกันของ [warden.GetHerHis] อยู่เคียงข้างข้า\n\n"ท่าน [warden.GetSheHe] จะกลับมาหรือไม่ [hostage.Custom2('RelationToMeShort', ROOT.Char)]?" เด็กน้อย [hostage.Custom('GirlBoy')] ถาม "ข้าอยากกลับบ้าน แต่... ข้าไม่อยาก ทำให้ท่านต้องสู้กับ [warden.GetPrimaryTitle.GetNameNoTier]"\n\nข้าให้ความมั่นใจแก่ [hostage.GetFirstNameNoTooltip] เป็นอย่างอื่น แต่ความจริงยังคงชัดเจน\n\nข้าผิดสัญญา ไม่ว่าจะดีหรือร้าย อาจพิสูจน์ได้ว่าข้าได้สละสันติภาพไปแล้ว"
+
+bp2_yearly.6122.c: ""เราจะร่วมกันรอคอยสิ่งที่จะเกิดขึ้น""
+bp2_yearly.6122.c.tt: "หากพิสูจน์ได้ว่าเป็นสงคราม อย่างน้อย [hostage.GetFirstNameNoTooltip] ก็จะไม่ใช่คนแรกที่ถูกสังหาร..."
+
+bp2_yearly.6123.t: "ทายาทแห่งสันติภาพ"
+bp2_yearly.6123.desc: "การรวมญาติเป็นภาพที่น่าประทับใจ ซึ่งข้ายินดีเป็นประธาน\n\n [hostage_giver.GetTitledFirstName] ได้เล่าเรื่องเปรียบเทียบอันชาญฉลาดสองสามเรื่องให้ [hostage.GetFirstName] ฟังเมื่อวันเวลาผ่านไป และขณะที่ข้ารอคอยการกลับมาของตัวประกันด้วยอารมณ์ดี\n\n"ดูแล [hostage.GetHerHim] ให้ดี" [hostage_giver.GetTitleAsNameNoTooltip] กระตุ้น ขณะที่ข้าพา [hostage_giver.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] ของ [hostage_giver.GetHerHis] ไป "กัน [hostage.GetHerHim] ให้ห่างจากคนแปลกหน้า เช่นข้า""
+bp2_yearly.6123.stolen_hostage: "[hostage_giver.GetTitledFirstName] ทำสิ่งที่ไม่น่าเชื่อ! ความชอบธรรมของข้า [hostage_giver.GetSheHe] กลับตอบแทนด้วยการทรยศ\n\nเจ้าคนเลวผู้นั้นเร่งให้ข้าจากไป ขณะที่เด็กน้อย [hostage.Custom('GirlBoy')] [hostage.GetFirstName] สัญลักษณ์แห่งสันติภาพของเรา ยืนอยู่เคียงข้าง [hostage_giver.GetHerHis] อย่างผิดที่ผิดทาง... และข้าต้องไป ข้ามีกำลังพลน้อยที่นี่ มันเป็นการดูถูก! มันน่าอดสู!\n\nบัดนี้ข้ามุ่งหน้ากลับบ้าน ถูกดูแคลนและเหยียดหยาม โดยไม่มีหลักประกันใดๆ ว่าสิ่งที่เลวร้ายกว่านี้จะไม่เกิดขึ้น\n\n[hostage_giver.GetFirstNameNoTooltip] จะต้องเสียใจกับการกระทำอันโง่เขลานี้ เช่นเดียวกับที่ข้าเสียใจที่นำตัวประกันของข้ามาใกล้งูพิษที่ละโมบ เช่นนี้..."
+bp2_yearly.6123.favor_accepted: "ข้าตัดสินถูกแล้ว... [hostage_giver.GetTitledFirstName] เป็น [hostage_giver.Custom('WomanManPerson_GenderPreference')] ที่ยอมถูกกดดัน\n\nขณะที่ [hostage_giver.GetSheHe] กอด [hostage.GetFirstName] ไว้ใกล้ๆ ความอ่อนโยนที่ [hostage_giver.GetSheHe] สงวนไว้สำหรับครอบครัวก็ปรากฏให้เห็นอย่างเต็มที่\n\nด้วยภาระผูกพันใหม่ที่จะผูกมัด [hostage_giver.GetHerHim] และตัวประกันอันเป็นที่รัก เช่นนี้ในการดูแลของข้า ข้าไม่เห็นภัยคุกคามใดๆ จาก [hostage_giver.GetTitleAsNameNoTooltip] ในวันข้างหน้า"
+bp2_yearly.6123.sneaker: "[hostage_giver.GetTitledFirstName] หนูไร้เกียรติ ดูเหมือนจะไม่เคารพอำนาจของข้าเหนือ [hostage_giver.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] ของ [hostage_giver.GetHerHis] [hostage.GetFirstName]\n\n[hostage_giver.GetSheHe|U] ปฏิเสธว่าไม่ได้ส่งคนรับใช้เจ้าเล่ห์ไปล่อลวงเด็กน้อย [hostage.Custom('GirlBoy')] ออกจากโต๊ะอาหารค่ำที่ข้าคุ้มกันอย่างดี แต่ข้ารู้ว่า [hostage_giver.GetSheHe] มองหา แต่จะละเมิดข้อตกลงระหว่างเรา\n\n"โกหก!" [hostage_giver.GetSheHe] คัดค้าน\n\nตราบใดที่ [hostage.GetSheHe] ยังอยู่ในราชสำนักของข้า [hostage.GetFirstNameNoTooltip] #EMP ต้อง#! อยู่ห่างจาก [hostage_giver.GetTitleAsNameNoTooltip] เสมอ"
+bp2_yearly.6123.forbidden_desc: "แม้ข้าจะสงสัยว่ามัน ทำให้ [hostage_giver.GetHerHim] ไม่พอใจ แต่ [hostage_giver.GetTitledFirstName] ก็เคารพคำประกาศของข้าเกี่ยวกับว่า [hostage_giver.GetSheHe] สามารถพบกับ [hostage_giver.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] ของ [hostage_giver.GetHerHis] ได้หรือไม่\n\n"ข้าแทบไม่ได้คิดถึง [hostage.Custom('GetLassLad')]" [hostage_giver.GetSheHe] อ้าง "ข้าเกือบจะดีใจที่ท่านถูกบังคับให้รับมือกับความโง่เขลาของ [hostage.GetHerHis] ต่อไปอีกสักพัก"\n\nนี่คือสิ่งที่ต้องเป็น นอกจากนี้... เป็นการดีที่จะทดสอบ [hostage_giver.Custom('WomanManPerson_GenderPreference')] และรู้ว่า [hostage_giver.GetSheHe] ยืนอยู่จุดไหน"
+
+bp2_yearly.6123.a: "ช่างเป็น [hostage_giver.Custom('WomanManPerson_GenderPreference')] ที่รักครอบครัวเสียจริง [hostage_giver.GetFirstNameNoTooltip]"
+
+bp2_yearly.6123.return_hostage: "[hostage.GetShortUIName] ไม่ใช่ [hostage|E] ของท่านอีกต่อไป"
+
+bp2_yearly.6130.t: "เชลย ผู้ถูก ทำให้หลงใหล"
+bp2_yearly.6130.desc.different_ages: "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] ของข้า [kin.GetFirstName] และตัวประกัน [hostage.GetName] แม้จะมีอายุห่างกัน แต่ดูเหมือนจะสนิทสนมกันมากขึ้นเรื่อยๆ\n\nผู้ที่อาวุโสกว่าคอยปกป้องอีกฝ่ายอย่างแน่วแน่ ให้คำแนะนำที่ดีเกี่ยวกับวิถีทางของโลก ขณะที่ผู้อ่อนวัยกว่าไม่เคย ทำให้ยิ้มไม่ได้\n\nเมื่อมองดูสหายที่ไม่น่าจะเป็นไปได้เหล่านี้ ข้าอดสงสารพวกเขาไม่ได้กับการพลัดพรากที่จะมาถึง สักวันหนึ่ง ข้อตกลงตัวประกันกับญาติของ [hostage.GetFirstNamePossessiveNoTooltip] จะสิ้นสุดลง..."
+bp2_yearly.6130.desc: "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] ของข้า [kin.GetFirstName] และตัวประกัน [hostage.GetName] ดูเหมือนจะเติบโตเป็นสหายที่มั่นคง เป็นที่ไว้วางใจ ซึ่งกันและกัน\n\n[hostage.GetFirstNameNoTooltip] เมื่อคิดถึงบ้าน ก็มักจะได้รับกำลังใจจาก [kin.GetFirstNameNoTooltip] เสมอ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] ของข้า ซึ่งบางครั้งตำแหน่งของ [kin.GetHerHis] ก็เป็นภาระหนักอึ้งสำหรับ [kin.GetHerHim] ก็มี [hostage.GetFirstNameNoTooltip] คอยร่วมปฏิบัติหน้าที่กับ [kin.GetHerHim]\n\nเมื่อมองดูเด็กทั้งสองแบ่งปันความสุข ข้าอดสงสารพวกเขาไม่ได้กับการพลัดพรากที่จะมาถึง สักวันหนึ่ง ข้อตกลงตัวประกันกับญาติของ [hostage.GetFirstNamePossessiveNoTooltip] จะสิ้นสุดลง..."
+bp2_yearly.6130.a: ""จงสาบานว่าจะสนับสนุน ซึ่งกันและกันเสมอ""
+bp2_yearly.6130.a.tt: "สายสัมพันธ์ระหว่างสองราชสำนักของเรา... บางทีนั่นอาจเป็นสิ่งที่ควรค่าแก่การบ่มเพาะ?"
+bp2_yearly.6130.b: ""ความรักต่อญาติควรอยู่เหนือสิ่งอื่นใด!""
+bp2_yearly.6130.b.tt: "ไปเล่นกับคนที่จะอยู่เคียงข้างเจ้าเสมอเถิด [kin.Custom('GirlBoy')]"
+
+bp2_yearly.6130.family_opinion: "[kin.GetShortUIName] ได้รับ #P 30#! [opinion|E] ต่อ [close_family|E] ของ [kin.GetHerHis]"
+
+bp2_yearly.6130.alliance: "หากทั้งคู่กลายเป็น [rulers|E] [kin.GetShortUIName] และ [hostage.GetShortUIName] สามารถเจรจา [alliance|E] ได้"
+
+bp2_yearly.6140.t: "เพื่อมิตรภาพ ยังเยาว์เกินไป"
+bp2_yearly.6140.desc: "ขณะที่พิธีกรรมอันศักดิ์สิทธิ์เบี่ยงเบนความสนใจของผู้ดูแลทุกคน [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] ของข้า [kin.GetFirstName] และตัวประกัน [hostage.GetName] ก็ปลดปล่อยความเกลียดชังที่เพิ่มพูนขึ้น\n\n"[kin.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))] ของข้าคือ [ROOT.Char.GetTitleAsName] ผู้ยิ่งใหญ่ที่สุดในแผ่นดิน!" [kin.GetFirstNameNoTooltip] กระซิบเสียงเข้ม "สักวันหนึ่ง ต้องขอบคุณท่าน [home_court.GetPrimaryTitle.GetNameNoTier] อันโสมมจะต้องลุกเป็นไฟ และหัวของเจ้าจะถูกแขวนไว้บนอานม้าของ $knight_culture_player_no_tooltip_lowercase$!"\n\n"ข้าหวังว่า [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))] ของข้าจะพาข้ากลับบ้าน" [hostage.GetFirstNameNoTooltip] ตอบ "เจ้าคงจะกลัวตายที่จะดูถูกข้าที่นั่น!"\n\n[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] ของข้าเริ่มพูด เช่นนี้ตั้งแต่เมื่อใด? และกับแขกผู้มีเกียรติ!"
+bp2_yearly.6140.a: "การแข่งขัน ทำให้ปัญญาของ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] ของข้าเฉียบแหลมขึ้น"
+bp2_yearly.6140.a.tt: "จง ทำให้ [hostage.GetHerHim] อับอาย [kin.Custom('GirlBoy')]! [hostage.GetFirstNameNoTooltip] เป็นศัตรูที่อยู่ในกำมือเจ้า"
+bp2_yearly.6140.b: "ตัวประกันถูกเก็บไว้ไม่ใช่เพื่อความขัดแย้ง แต่เพื่อสันติภาพ"
+bp2_yearly.6140.b.tt: "ควรสวดภาวนา #EMP ต่อต้าน#! การตัดหัวเถิด เด็กๆ"
+
+bp2_yearly.6150.t: "หลักประกันเอ่ยปาก"
+bp2_yearly.6150.desc: "ตามธรรมเนียม ตัวประกันจะปรากฏตัว ยืนเรียงแถวเคียงข้างข้าราชการและครอบครัว เมื่อ [ROOT.Char.GetTitleAsName] เช่นข้า รับคำร้องและประกอบพิธีการ\n\nตัวประกันของข้า [hostage.GetFirstName] ไม่ชอบสิ่งนี้\n\n"โปรดเถิด การถูกจ้องมอง การเป็นเหมือนรางวัล..." [hostage.GetSheHe] คัดค้าน ขณะที่ผู้ร้องทุกข์คนสุดท้ายทยอยออกไป\n\n"ข้ารู้สึกเหมือนวิญญาณที่ถูกฉกฉวยมาจาก [hostage.GetFaith.NegativeAfterLife] ทุกคนจ้องมองข้า... พวกเขารู้ว่าข้าไม่ได้อยู่ที่นี่""
+bp2_yearly.6150.a: "เจ้าเป็นส่วนหนึ่งของครอบครัวข้า จงยืนหยัดเคียงข้างพวกเขา"
+bp2_yearly.6150.a.tt: "ไม่มีอะไรต้องกลัว! เจ้าแทบจะเป็นหนึ่งในพวกเราแล้ว"
+bp2_yearly.6150.b: "ไปศึกษากับ [ROOT.Char.GetFaith.PriestNeuterPlural] เถิด ข้าว่า..."
+bp2_yearly.6150.b.tt: "ข้าสามารถยืนหยัดเพื่อความยิ่งใหญ่ของตนเองได้: หน้าที่แรกของข้าต่อตัวประกันเหล่านี้คือการอบรมพวกเขา"
+bp2_yearly.6150.c: "เจ้าเป็นของข้า ข้าจะปฏิบัติต่อเจ้าตามใจชอบ"
+bp2_yearly.6150.c.tt: "ข้าไม่อาจยอมให้ตัวประกันมาบงการสิ่งที่ข้าทำได้"
+
+hostages_accepted_into_family_modifier: "การยอมรับตัวประกันเข้าสู่ครอบครัว"
+hostages_accepted_into_family_modifier_desc: "เจ้าบ้านผู้มีเมตตาและสง่างาม ผู้ ซึ่งให้ความสำคัญกับการปฏิบัติต่อตัวประกันดุจญาติมิตร"
+eschews_flaunting_of_hostages_modifier: "หลีกเลี่ยงการโอ้อวดตัวประกัน"
+eschews_flaunting_of_hostages_modifier_desc: "ตัวประกันของตัวละครนี้ได้รับการดูแลและอบรม ไม่ใช่ถูกนำมาแห่แหน"
+
+ bp2_yearly.6150.family_opinion_hostage: "[hostage.GetShortUIName] ได้รับ #P 20#! [opinion|E] ต่อ [close_family|E] ของท่าน"
+
+ bp2_yearly.6160.t: "ยอดนักขี่ที่แย่ที่สุดของข้า"
+ bp2_yearly.6160.desc: "ท่ามกลางเสียงสะอื้นและการโกหก ข้าได้เรียนรู้ความจริงของเมื่อคืน\n\n[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] ของข้า [kin.GetFirstName] และตัวประกัน [hostage.GetFirstName] ลอบออกไปภายใต้ความมืดมิด ด้วยความอยากรู้อยากเห็นโลกภายนอกครัวเรือนของข้า พวกเขาจึงลอบเข้าไปในชุมชน\n\nเมื่อชื่นชมม้าของครอบครัวท้องถิ่น พวกเขาก็ถูกพบตัวในไม่ช้า — และควบม้าที่ขโมยมาหนีไป\n\nเด็กไร้ความสามารถขี่ม้าตกคูน้ำ\n\n"[hostage.GetFirstNameNoTooltip] ยุให้ข้าทำ!" [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] ที่บาดเจ็บของข้าสะอื้น เช่นเดียวกับชาวบ้านที่คร่ำครวญถึงม้าที่ขาเป๋ไปแล้ว"
+ bp2_yearly.6160.a: "จงลิ้มรสการใช้แรงงานเพื่อชดใช้หนี้ของเจ้า"
+ bp2_yearly.6160.a.tt: "เจ้าตัวเล็กอยากสัมผัสชีวิตสามัญชนหรือ? ถ้า เช่นนั้นก็ให้พวกเขาทำงานให้เจ้าของม้าสักพัก"
+ bp2_yearly.6160.b: "เจ้าทำร้าย [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] ของข้างั้นรึ ตัวประกัน?! #EMP ไปให้พ้น!#!"
+ bp2_yearly.6160.b.tt: "ไม่มีสัญญาสงบศึกใดคุ้มค่ากับการ ทำให้ครอบครัวข้าตกอยู่ในอันตรายด้วยการมีอยู่ของพวกไร้ค่า เช่นนี้!"
+ bp2_yearly.6160.c: "#EMP เฮ้อ#! ข้าคงต้องจ่ายค่าเสียหายสำหรับเรื่องนี้..."
+ bp2_yearly.6160.d: "รักษาม้า? ง่ายเกินไป"
+ bp2_yearly.6160.e: "พวกเขาเป็นเด็ก! เรื่องแบบนี้เกิดขึ้นได้"
+ bp2_yearly.6160.e.tt: "ปล่อยให้เจ้าพวกก่อปัญหานี้พักผ่อนเถิด ไม่มีเรื่องอื้อฉาวใดๆ ที่นี่"
+
+ labored_with_the_commons_modifier: "เคยทำงานกับสามัญชน"
+ labored_with_the_commons_modifier_desc: "เป็นที่รู้กันว่าเคยทำงานหนักท่ามกลางเด็กเลี้ยงม้าและคนผสมพันธุ์ม้า เพื่อชดใช้ความผิดพลาดในวัยเยาว์"
+
+ renowned_knowledge_of_horses_modifier: "ความรู้เรื่องม้าอันเลื่องชื่อ"
+ renowned_knowledge_of_horses_modifier_desc: "หลายคนขอพึ่งพาภูมิปัญญาของตัวละครนี้ในการรักษาอาการป่วยและส่งเสริมความแข็งแกร่งของม้า"
+
+ 
+ bp2_yearly.6200.t: "ที่ ซึ่ง [ROOT.Char.Custom('KnightCulturePluralNoTooltip')] รู้จักสันติภาพ"
+ bp2_yearly.6200.desc: "ขณะที่สภาของข้ากำลังวางแผนป้องกัน [ROOT.Char.GetPrimaryTitle.GetNameNoTier] ตัวประกันของข้า [hostage.GetName] ก็ถูกนำตัวเข้ามา\n\n"ท่าน [ROOT.Char.GetTitleAsName] ผู้สูงศักดิ์ ท่านปฏิบัติต่อข้าอย่างดีและยุติธรรม เมื่อความพินาศกำลังคุกคาม เป็นการถูกต้องหรือไม่ที่ใน [home_court.GetPrimaryTitle.GetNameNoTier] บ้านเกิดของข้า เหล่า [home_court.Custom('KnightCulturePluralNoTooltipLowercase')] จะอยู่นิ่งเฉย ธงของพวกเขาถูกม้วนเก็บ?"\n\n[hostage.GetSheHe|U] คุกเข่าลง\n\n"โปรดอนุญาตให้ข้าเดินทาง - ข้าจะนำคำร้องขอความช่วยเหลือของเราไปให้ [home_court.GetTitledFirstName]! ข้าคือสายเลือดของ [home_court.GetHerHis] [home_court.GetSheHe|U] จะสนับสนุนท่าน เพื่อเห็นแก่ข้า!""
+ bp2_yearly.6200.a: "ไปเถิด และกลับมาพร้อมกับเหล็กกล้า"
+ bp2_yearly.6200.a.tt: "โปรดจงซื่อสัตย์! โปรดช่วยข้าในยามคับขันนี้!"
+ bp2_yearly.6200.hostage_travel: "[hostage.GetShortUIName] จะเดินทางไปยัง [home_court.GetCapitalLocation.GetTitle.GetName]"
+ bp2_yearly.6200.hostage_warning: "@alert_icon! #alert_trial [hostage.GetShortUIName] อาจสิ้นสุดการเป็น [hostage|E] ของท่าน#!"
+ bp2_yearly.6200.war_positive: "[home_court.GetShortUIName] อาจช่วยเหลือใน [war|E] ของท่าน"
+ bp2_yearly.6200.b: "นำของขวัญชั้นดีติดตัวไปด้วย"
+ bp2_yearly.6200.b.tt: "ความเอื้อเฟื้อจะกระตุ้นความกระหายสงครามของ [home_court.GetTitleAsNameNoTooltip]"
+ bp2_yearly.6200.c: "จงพา [target_knight.GetFirstNameNoTooltip] ผู้ภักดีไปด้วยและเร่งเดินทาง!"
+ bp2_yearly.6200.war_very_positive: "#P [home_court.GetShortUIName] มีแนวโน้มที่จะช่วยเหลือใน [war|E] ของท่านมากขึ้น#!"
+ bp2_yearly.6200.c.tt: "ผู้ดูแลที่แข็งแกร่ง... และใครบางคนที่จะ ทำให้แน่ใจว่า [hostage.GetFirstNameNoTooltip] จะไม่ลืมผลประโยชน์ของข้า"
+ bp2_yearly.6200.hostage_positive: "#P [hostage.GetShortUIName] มีแนวโน้มที่จะกลับมายัง [court|E] ของท่านมากขึ้น#!"
+ bp2_yearly.6200.hostage_travel_knight: "[hostage.GetShortUIName] และ [target_knight.GetShortUIName] จะเดินทางไปยัง [home_court.GetCapitalLocation.GetTitle.GetName]"
+ bp2_yearly.6200.imprison_warning: "@alert_icon! #alert_trial [target_knight.GetShortUIName] อาจถูกคุมขังโดย [home_court.GetShortUIName]#!"
+ bp2_yearly.6200.d: "ไม่ ข้าไม่อาจอนุญาตให้ตัวประกันจากไปได้"
+ bp2_yearly.6200.d.tt: "ไม่มีหลักประกันใดๆ ว่าเจ้าจะกลับมา! ไม่มีหลักประกันว่า [home_court.GetTitledFirstNameNoTooltip] จะไม่ให้ความช่วยเหลือแก่ศัตรูของข้า"
+
+ bp2_yearly.6202.t: "[hostage.Custom2('AppropriateGreeting', ROOT.Char )]"
+ bp2_yearly.6202.opening: "ข้าอยู่ใน [home_court.GetCapitalLocation.GetTitle.GetNameNoTier] อีกครั้ง"
+ bp2_yearly.6202.assembled_nobles: "เหล่าขุนนางผู้มีเกียรติเข้าเฝ้าเรียงรายในราชสำนักของ [home_court.GetTitleAsNamePossessive] ขณะที่ข้ากล่าวคำร้องขอของท่าน\n\n"
+ bp2_yearly.6202.nostalgia: "สายลมพัดผ่านหมู่ไม้ที่คุ้นเคย ข้าได้แจ้งเรื่องความขัดแย้งของท่านให้ที่นี่ทราบแล้ว\n\n"
+ bp2_yearly.6202.impatient: "เหล่าขุนนางชั้นผู้น้อย ผู้ ซึ่งรู้จักข้าเพียงเมื่อครั้งยังเป็นทารก ต่างส่งเสียงออดอ้อนเมื่อข้าเริ่มกล่าวคำร้องขอของท่าน แล้วจึงเงียบไป\n\n"
+
+ bp2_yearly.6202.received_empathy: "ผู้ที่มาชุมนุมต่างร่ำไห้ให้กับโชคร้ายของ [ROOT.Char.GetPrimaryTitle.GetNameNoTierPossessive] [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))] ของข้าดูเหมือนจะสะเทือนใจอย่างยิ่ง"
+ bp2_yearly.6202.received_debate: "การโต้เถียงเริ่มรุนแรงขึ้น [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))] ของข้า แม้จะไม่ใช่พันธมิตรของท่าน แต่ก็ต้องการเป็นผู้ปกป้องครอบครัวของ [home_court.GetHerHis]"
+ bp2_yearly.6202.received_scorn: ""ด้วยสิทธิ์อันใดที่ [ROOT.Char.GetSheHe] ร้องขอความช่วยเหลือจากเรา?" ข้าถูกถาม และแทบไม่มีคำตอบ [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))] ของข้าดูเหมือนจะไม่พอใจ"
+ bp2_yearly.6202.received_apathy: "บางคนไม่สนใจเลย ขณะที่ [home_court.Custom('KnightCulturePluralNoTooltipLowercase')] บางส่วนรวมตัวกันรอฟังคำตัดสินของ [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))] ของข้า [home_court.GetSheHe|U] ถามว่าข้าหวังจะออกเดินทางเมื่อใด"
+
+ bp2_yearly.6202.fears_returning: "— และ [home_court.GetSheHe] กลัวการกลับไปสู่ดินแดนที่วุ่นวายของท่าน"
+ bp2_yearly.6202.awaiting: "— แต่เรายังคงรอคำตัดสินของ [home_court.GetHerHis]"
+ bp2_yearly.6202.want_to_stay: "— แต่ [home_court.GetSheHe] ฉลาดเกินกว่าจะตัดสินใจอย่างรวดเร็ว"
+ bp2_yearly.6202.want_to_return: "— แต่ [home_court.GetSheHe] ทำให้ข้าต้องอยู่ที่นี่ต่อไป ขณะที่สงครามยังคงดำเนินอยู่!"
+ bp2_yearly.6202.a: "อย่างน้อย [hostage.GetFirstNameNoTooltip] ก็ยังมีชีวิตอยู่"
+
+ bp2_yearly_6203_army_name: "กองทัพ [ROOT.Var( 'bp2_yearly_6203_army_name_origin' ).Char.GetHomeCourt.GetPrimaryTitle.GetAdjectiveNoTooltip] ของ [ROOT.Var( 'bp2_yearly_6203_army_name_origin' ).Char.GetFirstNamePossessiveNoTooltip]"
+
+ bp2_yearly.6203.t: "[ROOT.Char.GetNameNoTooltip],"
+ bp2_yearly.6203.join_war: "[home_court.GetPrimaryTitle.GetNameNoTier] ยืนหยัดเคียงข้างท่าน! [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))] ของข้า [home_court.GetTitledFirstName] ผู้ไร้ความกลัว จะให้เกียรติสายสัมพันธ์ระหว่างท่านและ [home_court.GetSheHe] ด้วยกำลังอาวุธ\n\nอย่าให้ผู้ใดคุกคามท้องพระโรงที่ให้ที่พักพิงแก่ชาว [hostage.GetDynastyHouseName]!\n\n"
+ bp2_yearly.6203.assist: "เป็นเรื่องน่าเศร้าสำหรับ [home_court.GetName] ที่ [home_court.GetSheHe] ไม่สามารถมาช่วยเหลือท่านได้ อย่างไรก็ตาม ด้วยคำมั่นสัญญาแห่งสงครามและความรุ่งโรจน์ของมัน เราได้รวบรวมกองกำลังของนักรบพเนจรที่ยากไร้และนักผจญภัยชาว [home_court.GetPrimaryTitle.GetAdjectiveNoTooltip]! ขอให้พวกเขาต่อสู้อย่างดีเพื่อ [ROOT.Char.GetPrimaryTitle.GetNameNoTier]\n\n"
+ bp2_yearly.6203.betray: "เราไม่อาจเพิกเฉยต่อความอ่อนแอที่ปรากฏในคำร้องขอของท่านได้ [home_court.GetTitledFirstName] จะเชื่อมั่นในความแข็งแกร่งของศัตรูของท่านแทน จงเตรียมพร้อมรับการมาถึงของ [home_court.GetHerHis]\n\nหลังจากที่ [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))] ของข้าปล้นเมืองหลวงของท่านแล้ว ท่านอาจจะได้พบข้าในราชสำนักของท่านอีกครั้ง"
+ bp2_yearly.6203.decline: "ข้าทำเท่าที่ทำได้แล้ว แต่ [home_court.GetTitledFirstName] เห็นข้อดีเพียงเล็กน้อยในข้อโต้แย้งของท่าน หากไม่มีพันธมิตร [home_court.GetPrimaryTitle.GetNameNoTier] ทั้งหมดก็จะไม่เคลื่อนทัพเมื่อ [ROOT.Char.GetPrimaryTitle.GetNameNoTier] เรียกหา [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))] ของข้าขอบคุณท่านที่ส่งข้ามาหา [home_court.GetHerHim] และฝากความระลึกถึงมายัง [home_court.GetHerHis]\n\n"
+ bp2_yearly.6203.dont_keep_knight: "ที่ของข้าอยู่ในราชสำนักของท่าน ดังนั้น [target_knight.GetFirstName] และข้าจะกลับไปในไม่ช้า"
+ bp2_yearly.6203.dont_keep: "ที่ของข้าอยู่ในราชสำนักของท่าน ดังนั้นข้าจะกลับไปในไม่ช้า"
+ bp2_yearly.6203.keep: "แต่ข้าไม่ใช่ตัวประกันของท่านอีกต่อไปแล้ว"
+
+ bp2_yearly.6203.a: "ขอให้พวกเขาได้รับพร! สายสัมพันธ์ของเราอยู่เหนือการเป็นตัวประกัน"
+ bp2_yearly.6203.a.tt: "และ [home_court.GetFirstNameNoTooltip] จับอาวุธขึ้นปกป้องญาติ ตอบรับคำร้องขอของผู้ที่ต้องการความช่วยเหลือ — [home_court.GetSheHe] ดูเหมือนจะเป็นมิตรที่ดี"
+ bp2_yearly.6203.b: "#EMP การทรยศ!#! ข้าจะ ทำให้แผ่นดินชุ่มโชกไปด้วยเลือด!"
+ bp2_yearly.6203.b.tt: "ข้าจะพิชิตศัตรูทั้งปวง และล้างแค้นให้จงได้!"
+
+ bp2_yearly.6203.c.positive: "สู่สงคราม [hostage.GetFirstNameNoTooltip]! #EMP สู่สงคราม!#!"
+ bp2_yearly.6203.c.negative: "ข้าช่างโง่เขลาที่ส่ง [hostage.GetHerHim] ไปให้พ้นสายตา..."
+ bp2_yearly.6203.c.tt: "ข้าปกป้องเจ้า แต่เจ้าปกป้องอาณาจักรทั้งมวล!"
+
+ from_victory_vengeance_modifier: "จากชัยชนะ สู่การล้างแค้น"
+ from_victory_vengeance_modifier_desc: "ตัวละครนี้ขับเคลื่อนกองทัพและอัศวินสู่ความโหดเหี้ยมป่าเถื่อน มุ่งมั่นที่จะล้างแค้นการทรยศในอดีตสักวันหนึ่ง"
+
+ bp2_yearly.6204.t: "คำร้องขอจากสายเลือดของข้า"
+ bp2_yearly.6204.desc: "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] ของข้า [hostage.GetFirstName] ผู้เปรอะเปื้อนไปด้วยฝุ่นจากถนนและกลิ่นเหงื่อม้า ได้กลับมาอย่างไม่คาดฝัน!\n\n"ข้าไม่ได้เป็นอันตรายต่อสัญญาสงบศึกของท่าน [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))]" [hostage.GetSheHe] หอบหายใจ "สงครามไม่ได้มาที่นี่! ไม่เลย สงครามอันน่าสะพรึงกลัวกำลังมาเยือน [warden.GetPrimaryTitle.GetNameNoTier] — สู่ท้องพระโรงที่ข้าถูกกักขังเป็นตัวประกัน!"\n\n"
+ bp2_yearly.6204.desc_gift: "[hostage.GetSheHe|U] มอบทั้งสาส์นและถุงทองคำจาก [warden.GetTitledFirstName]"
+ bp2_yearly.6204.desc_chaperone: "สหายผู้ระแวดระวังของ [hostage.GetHerHis|U] [target_knight.GetName] มอบสาส์นจาก [warden.GetTitledFirstName]"
+ bp2_yearly.6204.desc_outro: "\n\n"ท่านไม่มีภาระผูกพันที่จะต้องช่วยเหลือ" [hostage.GetFirstNameNoTooltip] กล่าว "แต่ผู้ดูแลของข้าดีต่อข้ามาก! [warden.GetSheHe|U] ไม่สมควรที่จะถูกทำลายโดย [attacker.GetName]!""
+ bp2_yearly.6204.desc_none: "[hostage.GetSheHe|U] มอบสาส์นจาก [warden.GetTitledFirstName]"
+ bp2_yearly.6204.a: "ไปเอา [ROOT.Char.Custom('signature_weapon')] ของข้ามา! #EMP พวกเราชาว [ROOT.Char.GetDynastyHouseNameNoTooltip] จะสู้!#!"
+ bp2_yearly.6204.a.tt: "อย่าให้ผู้ใดคุกคามท้องพระโรงที่ให้ที่พักพิงแก่ญาติของข้า!"
+ bp2_yearly.6204.b: "ข้าจะช่วยจ่ายเงินและจัดหาอาวุธให้กองกำลัง"
+ bp2_yearly.6204.b.tt: "รวบรวมเยาวชนติดอาวุธและนักรบพเนจรที่ยากไร้เพื่อส่งไปกับ [hostage.GetFirstNameNoTooltip]! พวกเขาสามารถต่อสู้ได้โดยไม่ต้องให้ข้าเข้าไปเกี่ยวข้องอย่างเป็นทางการ"
+ bp2_yearly.6204.c: "การป้องกัน [warden.GetPrimaryTitle.GetNameNoTierNoTooltip] ไม่ใช่หน้าที่ของข้า"
+ bp2_yearly.6204.c.tt: "เราเพียงแค่มีสัญญาสงบศึก เราไม่ใช่พันธมิตร!"
+ 
+ bp2_yearly.6205.t: "สู่ดินแดนแห่งความขัดแย้ง"
+ bp2_yearly.6205.desc: "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] ของข้า [hostage.GetFirstName] ปีนขึ้นบนหลังม้าของ [hostage.GetHerHis] เงียบสงัด เบื้องหน้าคือ [warden.GetCapitalLocation.Custom('TerrainTypeProvince')] แห่ง [warden.GetCapitalLocation.GetTitle.GetNameNoTier] — ที่ ซึ่ง [attacker.Custom('KnightCulturePluralNoTooltip')|l] ชาว [attacker.GetPrimaryTitle.GetAdjective] ที่น่าสะพรึงกลัวอาจรออยู่\n\n"
+ bp2_yearly.6205.desc_gift: "คลังสมบัติของข้าเต็มไปด้วยของขวัญของ [warden.GetTitledFirstNamePossessive] แต่ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] ของข้ากลับขี่ม้าเข้าสู่สงครามเพียงลำพัง\n\n"
+ bp2_yearly.6205.desc_chaperone: "[target_knight.GetFirstName], [warden.Custom2('RelationToMeShort', SCOPE.sC('target_knight'))] ของ [warden.GetTitledFirstNamePossessive], จะเป็นผู้คุ้มกันเพียงคนเดียวของ [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('hostage'))] ของข้า กุมบังเหียนไว้แนบหัวใจของ [target_knight.GetHerHis] [target_knight.GetSheHe] สาบานว่าจะตายเพื่อครอบครัวของข้า หากถึงคราวนั้น\n\n"
+ bp2_yearly.6205.desc_none: "เยาวชนมอซอบางคนได้รวมตัวกันเพื่อรับใช้ [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('hostage'))] ของข้า แต่กองทัพทั้งหมดของข้าจะยังคงอยู่ที่นี่... ขณะที่ [hostage.GetFirstNameNoTooltip] ขี่ม้าเข้าสู่สงครามของ [warden.GetTitledFirstNamePossessive]\n\n"
+ bp2_yearly.6205.desc_outro: "แต่ — เป็น [warden.GetFirstNameNoTooltip] เองที่นำภาพอันน่าสยดสยอง เช่นนี้มาให้ข้าเห็น! [warden.GetWomanMan] ผู้อ่อนแอ [warden.GetSheHe] ส่งแขกผู้มีเกียรติ เช่น [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] ของข้าไปหมอบกราบเพียงแค่เสียงดาบกระทบกัน!\n\nและข้าจะต้องเชื่อใจ #EMP หนอน#! ตัวนี้และพรรคพวกของ [warden.GetHerHis] ให้ปกป้องญาติของข้างั้นหรือ?"
+ 
+ bp2_yearly.6205.a: "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] ของข้าจะอยู่ที่นี่"
+ bp2_yearly.6205.b: "ข้าจะ ทำให้ [warden.GetFirstNameNoTooltip] ต้องทนทุกข์ทรมานกับการดูถูกนี้!"
+ bp2_yearly.6205.c: "เอาล่ะ... โชคดี [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))]"
+
+ bp2_yearly.6170.t: "สัญญาผูกมัดกับพวกไร้อารยธรรม"
+ bp2_yearly.6170.desc: ""ไม่มีชาว [ROOT.Char.GetDynastyHouseName] คนใดพอใจกับสิ่งที่ท่านทำ!" [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kin'))] ของข้า [kin.GetFirstName] กล่าวเสียงกร้าว\n\n"ท่านส่ง [hostage.GetName] [kin.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] ผู้ [hostage.Custom('ComplimentAdjective')] ของข้า ไปยังท้องพระโรงอันเหม็นสาบ ที่ ซึ่งคนป่าเถื่อนเอ่ยคำว่า '[warden.Custom('CulturalCurse')|U]!' และไม่เคยเอ่ย 'สรรเสริญ [ROOT.Char.GetFaith.HighGodName]' ได้อย่างไร? ที่ ซึ่งสุนัขถ่ายอุจจาระอย่างอิสระใส่ทั้งคนป่าและขุนนางชาว [warden.GetCulture.GetName] ท้องถิ่น?"\n\nจริงอยู่ที่ [warden.GetName] ไม่ใช่ชาว [ROOT.Char.GetCulture.GetName] ผู้มีวัฒนธรรม แต่ถึงกระนั้นก็ค่อนข้างมีค่า—\n\n"[hostage.GetFirstNameNoTooltip] ถูกจับเป็นตัวประกันในกระท่อม!" [kin.GetFirstNameNoTooltip] กรีดร้อง "#EMP จงดูแลความต้องการของ [hostage.GetHerHis]!#! สิทธิ์ของ [hostage.GetHerHis] ในฐานะ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] ของ [ROOT.Char.GetTitleAsNamePossessiveNoTooltip]!"
+ bp2_yearly.6170.a: "ใช่ มันเป็นการดูหมิ่นศักดิ์ศรีของ [hostage.GetHerHis] และของข้า"
+ bp2_yearly.6170.a.tt: "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] ของข้าต้องได้รับความสะดวกสบายอันซับซ้อนเหมือนอยู่บ้าน!"
+ bp2_yearly.6170.b: "หน้าที่ต่อครอบครัวผูกมัดพวกเจ้าทุกคน"
+ bp2_yearly.6170.b.tt: "การเสียสละของ [hostage.GetFirstNamePossessiveNoTooltip] ควรเป็นเพียงหนึ่งในการเสียสละมากมายเพื่อรับใช้ตระกูล [ROOT.Char.GetDynastyHouseNameNoTooltip]"
+ bp2_yearly.6170.c: "[hostage.GetSheHe|U] จะได้เรียนรู้วิถีชีวิตของชนชาติอื่น"
+ bp2_yearly.6170.c.tt: "การใช้ชีวิตเยี่ยงผู้ไร้อารยธรรมจะสอนให้ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] ของข้ารู้จักการอยู่โดยปราศจากสิ่งฟุ่มเฟือย ให้แข็งแกร่งและมีไหวพริบ..."
+
+ bp2_yearly.6170.scheme_bonus: "[close_family|E] และ [spouses|E] มีแนวโน้มที่จะเข้าร่วม [hostile_schemes|E] ของท่านมากขึ้นเป็นเวลา #high 10 ปี#!"
+bp2_yearly.6170.leave_court_bonus: "[courtiers|E] ที่เป็น [close_family|E] มีแนวโน้มที่จะออกจากราชสำนักน้อยลงเป็นเวลา #high 10 ปี#!"
+
+lavish_care_modifier: "การดูแลอย่างฟุ่มเฟือย"
+lavish_care_modifier_desc: "ตัวละครนี้ได้รับการปรนนิบัติโดยคนรับใช้ผู้มีวัฒนธรรมหลายสิบคน ดำรงอยู่ในความหรูหราและความสะดวกสบาย"
+
+trained_by_the_uncivilized_modifier: "ฝึกฝนโดยชนผู้ทรหด"
+trained_by_the_uncivilized_modifier_desc: "ในฐานะตัวประกัน ตัวละครนี้ได้รับการสอนวิถีชีวิตและวิธีการแบบชนบทของวัฒนธรรมที่ "ด้อยกว่า""
+cultural_acceptance_hostage_exchange: "การติดต่อผ่านตัวประกันผู้ทรงเกียรติ"
+
+united_family_modifier: "ครอบครัวที่เป็นปึกแผ่น"
+united_family_modifier_desc: "ตัวละครนี้เรียกร้องให้ญาติพี่น้องให้เกียรติสายสัมพันธ์ ซึ่งกันและกันอย่างสูง"
+
+bp2_yearly.6180.notification_high: "การปฏิรูป: ผู้ปกครองชาว [advanced_culture.GetNameNoTooltip] พอใจ"
+bp2_yearly.6180_notification_tooltip_high: "[pleased_ruler.GetTitledFirstName] ยกย่องความสนใจของท่านในการเลียนแบบชาว [advanced_culture.GetCollectiveNoun] ผู้สูงศักดิ์"
+
+bp2_yearly.6181.notification_high: "การปฏิรูป: อาณาจักรที่ถูกละเลยถูกประณาม"
+bp2_yearly.6181_notification_tooltip_high: "[disappointed_ruler.GetTitledFirstName] ผิดหวังที่การปฏิรูปของท่านจะไม่ให้โอกาสใหม่ๆ แก่พ่อค้าชาว [advanced_culture.GetName] มากนัก"
+
+bp2_yearly.6182.notification_high: "การปฏิรูป: ลอร์ดต่างแดนประณามพิธีกรรม"
+bp2_yearly.6182_notification_tooltip_high: "[disappointed_ruler.GetTitledFirstName] กระตุ้นให้ท่านละทิ้งความเชื่องมงายของชาว [ROOT.Char.GetCulture.GetName] หากท่านต้องการปลดปล่อยประชาชนของท่าน"
+
+bp2_yearly.6183.notification_high: "การปฏิรูป: [disappointed_ruler.GetWomanMan] ผู้อ่อนโยนเสียใจกับความหยาบคาย"
+bp2_yearly.6183_notification_tooltip_high: "[disappointed_ruler.GetTitledFirstName] ตกตะลึงกับการต้อนรับอัน "ป่าเถื่อน" ของท่านต่อข้าราชสำนักชาว [advanced_culture.GetName] ผู้ซับซ้อน"
+
+bp2_yearly.6184.notification_high: "การปฏิรูป: ขุนศึกแสดงความดูถูก"
+bp2_yearly.6184_notification_tooltip_high: "[disappointed_ruler.GetTitledFirstName] ประณามการปฏิเสธชนชั้นสูงชาว [advanced_culture.GetName] ของท่านและการควบคุมขุนนางศักดินาที่อ่อนแอของท่าน"
+
+bp2_yearly.6185.notification_high: "การปฏิรูป: ทหารรับจ้างทำร้าย [ROOT.Char.Custom('KnightCultureNoTooltip')]"
+bp2_yearly.6185_notification_tooltip_high: "[beaten_knight.GetTitledFirstName] ถูกทุบตีอย่างหนักและถูก ทำให้อับอายโดยแก๊งทหารรับจ้างชาว [advanced_culture.GetName] ที่พเนจรและอาฆาตแค้น"
+
+bp2_yearly.6186.notification_high: "การปฏิรูป: ข่าวลือเรื่องความป่าเถื่อน"
+bp2_yearly.6186_notification_tooltip_high: "ราชสำนักของท่านถูกเยาะเย้ยว่าเป็นฐานที่มั่นของมารยาทไร้วัฒนธรรม เป็นสถานที่ที่ข้าราชสำนักจากวัฒนธรรมอันประณีตเกลียดชัง"
+
+dearth_of_intellectuals_modifier: "การขาดแคลนปัญญาชน"
+dearth_of_intellectuals_modifier_desc: "ผู้คลั่งศาสนาได้ขับไล่นักวิชาการ มิชชันนารี และข้าราชการต่างชาติจำนวนมากออกจากอาณาจักรของตัวละครนี้"
+bereft_of_intellectuals_modifier: "การไร้ ซึ่งปัญญาชน"
+bereft_of_intellectuals_modifier_desc: "ผู้คลั่งศาสนาได้ขับไล่นักวิชาการ มิชชันนารี และข้าราชการต่างชาติเกือบทั้งหมดออกจากอาณาจักรของตัวละครนี้"
+
+bp2_yearly.6187.notification_high: "การปฏิรูป: ชาวต่างชาติผู้มีทักษะกำลังหลบหนี"
+bp2_yearly.6187_notification_tooltip_high: "[zealot_vassal.GetTitledFirstName] นำผู้คลั่งศาสนาคนอื่นๆ ขับไล่นักวิชาการ มิชชันนารี และข้าราชการออกจากอาณาจักร"
+bp2_yearly.6187_no_vassal_notification_tooltip_high: "ผู้คลั่งศาสนาที่เพิ่งถูกปลุกปั่นกำลังขับไล่นักวิชาการ มิชชันนารี และข้าราชการออกจากอาณาจักร"
+
+bp2_yearly.6188.notification_high: "การปฏิรูป: ขุนนางท้องถิ่นครอบงำ"
+bp2_yearly.6188_notification_tooltip_high: "ใน [isolating_county.GetName] ขุนนางชั้นผู้น้อยที่ได้รับอำนาจกดขี่การตั้งถิ่นฐานในเมือง บีบคั้นการค้า และกักตุนความมั่งคั่ง"
+
+bp2_yearly.6189.notification_high: "การปฏิรูป: การสร้างเร็วเกินไป"
+bp2_yearly.6189_notification_tooltip_high: "การก่อสร้างอันยิ่งใหญ่สไตล์ [advanced_culture.GetName] ของ [affected_province.GetName] ถูกวางแผนอย่างไม่ถูกต้อง: นักรบเกณฑ์ต้องทำงานหนักเพื่อหลีกเลี่ยงหายนะ"
+
+grand_buildings_collapsed_modifier: "การก่อสร้างที่มีปัญหา"
+grand_buildings_collapsed_modifier_desc: "เคาน์ตีนี้ไม่พอใจกับความเสียหายที่เกิดจากโครงการก่อสร้างที่ทะเยอทะยาน"
+conscripted_warriors_modifier: "นักรบเกณฑ์"
+conscripted_warriors_modifier_desc: "ชายฉกรรจ์ทุกคนที่นี่เหนื่อยล้าจากการทำงานก่อสร้างที่หนักหน่วงและเร่งรีบ"
+
+bp2_yearly.6190.notification_high: "การปฏิรูป: [ROOT.Char.GetFaith.HouseOfWorship|U] ถูกปล้นสะดม"
+bp2_yearly.6190_notification_tooltip_high: "ใน [affected_county.GetName] [ROOT.Char.GetFaith.AltPriestTermPlural] ท้องถิ่นที่คลั่งศาสนาได้ทำลายรูปเคารพและเครื่องบูชาอันมีค่าสไตล์ [advanced_culture.GetName] ของท่าน"
+
+bp2_yearly.6191.notification_high: "การปฏิรูป: การห่างเหินจากญาติ"
+bp2_yearly.6191_notification_tooltip_high: "บุคคลสำคัญชาว [annoyed_culture.GetName] รู้สึกแปลกแยกจากวัฒนธรรมราชสำนักของท่าน ซึ่งแตกต่างจากพวกเขามากขึ้นเรื่อยๆ"
+
+cultural_acceptance_diverging_court: "[cultures|E] ใน [court|E] กำลังแตกต่างกัน"
+
+bp2_yearly.6192.notification_high: "การปฏิรูป: ขุนนางศักดินาสละความไว้วางใจ"
+bp2_yearly.6192_notification_tooltip_high: "[vassal.GetTitledFirstName] รู้สึกเคว้งคว้างในอาณาจักรที่เปลี่ยนแปลงอย่างรวดเร็วของท่าน และไม่เห็นคุณค่าในการคงเส้นคงวาและซื่อสัตย์อีกต่อไป"
+
+bp2_yearly.6193.notification_high: "การปฏิรูป: การปกครองได้รับอำนาจ"
+bp2_yearly.6193_notification_tooltip_high: "ขุนนางผู้ยิ่งใหญ่จะไม่กักตุนความมั่งคั่งอีกต่อไป! โครงสร้างพื้นฐานสไตล์ [advanced_culture.GetName] เสริมอำนาจของท่าน"
+
+bp2_yearly.6194.notification_high: "การปฏิรูป: ความกตัญญูของขุนนางศักดินา"
+bp2_yearly.6194_notification_tooltip_high: "[vassal.GetTitledFirstName] ยกย่องชื่อเสียงของท่านต่อหน้าเพื่อนร่วมงานของ [vassal.GetHerHis] ด้วยความขอบคุณสำหรับของขวัญและการยืนยันสายสัมพันธ์ของท่านอีกครั้ง"
+
+bp2_yearly.6195.notification_high: "การปฏิรูป: ลางบอกเหตุอันศักดิ์สิทธิ์แห่งการเปลี่ยนแปลง"
+bp2_yearly.6195_notification_tooltip_high: "หลายคนสงสัยในตัวท่าน แต่สัญญาณจาก [ROOT.Char.GetFaith.KnowledgeGodName] บ่งบอกถึงความชอบธรรมของการปฏิบัติทางจิตวิญญาณสไตล์ [advanced_culture.GetName] ของท่าน"
+
+bp2_yearly.6196.notification_high: "การปฏิรูป: การค้นพบอันเป็นมงคล"
+bp2_yearly.6196_notification_tooltip_high: "[priest.GetTitledFirstName] มอบขุมทรัพย์: อาจเป็นความมั่งคั่งที่ [ROOT.Char.GetFaith.HouseOfWorshipPlural] เก็บไว้จากท่าน... หรือพรวิเศษจาก [ROOT.Char.GetFaith.HighGodName]"
+
+bp2_yearly.6197.notification_high: "การปฏิรูป: ความงดงามในการทำงาน"
+bp2_yearly.6197_notification_tooltip_high: "มีข่าวมาถึงข้าว่า [vassal.GetTitledFirstName] กำลังเลียนแบบองค์ประกอบสไตล์ [advanced_culture.GetName] ในราชสำนักของข้า — หนึ่งในปฏิกิริยาที่น่าทึ่งมากมาย"
+
+custom.every_non_advanced_culture_courtier: "[courtier|E] ทุกคนที่ไม่ได้เป็นชาว [advanced_culture.GetName]"
+
+bp2_yearly.6198.notification_high: "การปฏิรูป: ผู้พิทักษ์ราชสำนัก"
+bp2_yearly.6198_notification_tooltip_high: "[courtier.GetTitledFirstName] ในนามของข้าราชสำนักของท่าน สัญญาว่าจะอุทิศตนอย่างไม่สิ้นสุดต่อตระกูลของท่าน: ท่านได้พิสูจน์แล้วว่าจะป้องกันผู้แย่งชิงอำนาจที่แข่งขันกัน"
+
+bp2_yearly.6199.notification_high: "การปฏิรูป: [ROOT.Char.Custom('KnightCultureNoTooltip')] ที่ปรับตัวได้"
+bp2_yearly.6199_notification_tooltip_high: "[knight.GetTitledFirstName] ได้เชี่ยวชาญเทคนิคการต่อสู้แบบ [advanced_culture.GetName] และใช้มันอย่างฉูดฉาด"
+
+bp2_yearly.6210.notification_high: "การปฏิรูป: ได้รับแรงบันดาลใจจากคำปฏิญาณ"
+bp2_yearly.6210_notification_tooltip_high: "[ruler.GetTitledFirstName] ปรารถนาที่จะเทียบเคียงคำปฏิญาณของท่านที่จะไม่หลั่งเลือดชาว [ruler.GetCulture.GetName] ด้วยการประกาศความเป็นพี่น้อง"
+
+cultural_acceptance_embracing_identity: "แลกเปลี่ยนคำชมเชยเกี่ยวกับ [heritage|E] ร่วมกัน"
+
+bp2_yearly.6211.notification_high: "การปฏิรูป: ญาติที่พอใจ"
+bp2_yearly.6211_notification_tooltip_high: "ขุนนางและสามัญชนชาว [pleased_culture.GetName] ได้รับแรงบันดาลใจจากความกระตือรือร้นใหม่ในหมู่ญาติชาว [ROOT.Char.GetCulture.GetName] ของพวกเขา และอพยพไปยังดินแดนของท่านในจำนวนที่มากขึ้น"
+
+cultural_acceptance_reformer_migration: "การอพยพและการยอมรับแนวปฏิบัติอย่างรวดเร็ว"
+
+bp2_yearly.6212.notification_high: "การปฏิรูป: อิทธิพลของชาว [advanced_culture.GetName]"
+bp2_yearly.6212_notification_tooltip_high: "ครอบครัวชาว [advanced_culture.GetName] ผู้มีมารยาทงามได้ก่อตั้งชุมชนใหม่ในเมืองหลวงของท่าน ขณะที่ผู้อพยพจากชนบทตั้งรกรากในชนบท"
+bp2_yearly.6212_2_notification_tooltip_high: "การบริหารราชการประจำวันของ [ROOT.Char.GetPrimaryTitle.GetNameNoTier] ได้รับอิทธิพลจากลักษณะของชาว [advanced_culture.GetName] อย่างชัดเจน ซึ่งเป็นสิ่งที่นักเดินทางมักจะกล่าวถึง"
+
+bp2_yearly.6213.notification_high: "การปฏิรูป: ความก้าวหน้าที่โหดร้าย"
+bp2_yearly.6213_notification_tooltip_high: "ผู้บังคับใช้กฎหมายของท่านได้ดำเนินการปราบปรามเรื่องเล่าเกี่ยวกับการปลูกฝังแนวคิดแบบ [advanced_culture.GetName] ของท่านและความโหดร้ายของวิธีการแบบ [advanced_culture.GetName] ของท่าน"
+bp2_yearly.6213_notification_2_tooltip_high: "พิธีกรรมดั้งเดิมของชาว [ROOT.Char.GetCulture.GetName] ถูกเพิกเฉย สิทธิดั้งเดิมถูกละเมิด โดยข้าราชการชาว [advanced_culture.GetName] ที่ปฏิบัติตามพระประสงค์ของท่าน"
+
+bp2_yearly.6214.notification_high: "การปฏิรูป: ชุมชนเปลี่ยนผ่าน"
+bp2_yearly.6214_notification_1_tooltip_high: "พ่อค้าและช่างฝีมือของ [affected_county.GetName] ทำงานภายใต้ข้อตกลงและกฎหมายใหม่ แข่งขันกันเพื่อเหรียญสไตล์ [advanced_culture.GetName] ที่หมุนเวียนอยู่ในขณะนี้"
+bp2_yearly.6214_notification_2_tooltip_high: "[ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l] ชั้นผู้น้อยและเจ้าของที่ดินอิสระที่ดื้อรั้นของ [affected_county.GetName] ได้ตกลงยอมรับเงื่อนไขการรับใช้และความจงรักภักดีสไตล์ [advanced_culture.GetName] ซึ่งช่วยลดความรุนแรงและความขัดแย้งในท้องถิ่น"
+bp2_yearly.6214_notification_3_tooltip_high: "[ROOT.Char.GetFaith.HouseOfWorshipPlural] และเขตปกครองทางศาสนาในหมู่บ้านของ [affected_county.GetName] ขณะนี้ดำเนินการโดยผู้ที่มีความประณีตและการศึกษา ส่งเสริมการศึกษาและการปกครองสไตล์ [advanced_culture.GetName]"
+
+bp2_yearly.6215.notification_high: "การปฏิรูป: [ROOT.Char.GetTitleAsNameNoTooltip] แห่งเจตจำนง"
+bp2_yearly.6215_notification_1_tooltip_high: "ขุนนางผู้มั่งคั่งกระตุ้นเจ้านายของตนให้เลียนแบบความสนใจอันเลื่องชื่อของท่านในการแก้ไขสังคมและการค้าของชาว [ROOT.Char.GetCulture.GetName]"
+bp2_yearly.6215_notification_2_tooltip_high: "ความแข็งแกร่งในการรบของกองทหารองครักษ์ของท่าน ซึ่งเป็นกองทัพที่ได้รับการฝึกฝนจากแรงผลักดันของท่านในการฟื้นฟู [ROOT.Char.GetPrimaryTitle.GetNameNoTier] เป็นที่เคารพนับถืออย่างกว้างขวาง"
+bp2_yearly.6215_notification_3_tooltip_high: "พิธีกรรมในท้องพระโรงอันศักดิ์สิทธิ์ของท่านเป็นที่เล่าลือไปไกล ขณะที่ผู้คนคาดเดากันอย่างกระตือรือร้นเกี่ยวกับธรรมชาติที่แตกแยกของจิตวิญญาณชาว [ROOT.Char.GetCulture.GetName] ของท่าน"
+
+bp2_yearly.6216.notification_high: ""การปฏิรูป: [ROOT.Char.GetSheHe|U] คือ [ROOT.Char.GetTitleAsNameNoTooltip] #EMP ของเรา#! หรือ?""
+bp2_yearly.6216_notification_tooltip_high: "สายลับของท่านรายงานการพึมพำ การซุบซิบในหมู่ขุนนาง... คนครึ่ง [advanced_culture.GetName] ที่ประจบสอพลอสมควรได้รับความเคารพจากพวกเขางั้นหรือ?"
+bp2_yearly.6216_notification_2_tooltip_high: "ข่าวลือแพร่สะพัดเกี่ยวกับแผนการของต่างชาติ... เกี่ยวกับหุ่นเชิดที่ถูก ทำให้เสื่อมเสียโดยชาว [advanced_culture.GetCollectiveNoun] และถูกวางไว้บนบัลลังก์ [ROOT.Char.GetPrimaryTitle.GetAdjective]..."

@@ -1,0 +1,334 @@
+﻿l_english: 
+ wanderer_lifestyle_events.10.t: "ความฝันถึงการเดินทาง"
+ wanderer_lifestyle_events.10.desc: "ห้องนี้ กำแพงเหล่านี้ เก้าอี้บ้าๆ ตัวนี้... ข้า #bold เบื่อหน่าย#! กับมันทั้งหมดเหลือเกิน\n\nข้า #emp ต้อง#! ออกไปจากที่นี่ ข้าต้องไปที่อื่น ที่ไหนก็ได้\n\nทุกวันที่ข้าติดอยู่ในห้องอันน่าสะพรึงกลัวนี้ ข้ารู้สึกเหมือนชีวิตอีกส่วนเล็กๆ ของข้าถูกพรากไป"
+ wanderer_lifestyle_events.10.a: "ข้าต้องการพักจากทั้งหมดนี้..."
+ wanderer_lifestyle_events.10.a.tt: "[traveling|E] จะลบ [modifier|E] ออก และให้ [stress_loss|E] และ [lifestyle_experience|E]"
+
+ wanderer_restlessness_modifier: "ความกระสับกระส่าย"
+ wanderer_restlessness_modifier_desc: "#emp [modifier|E] นี้จะหายไปในครั้งต่อไปที่ท่าน [travel|E] ไปที่ใดก็ได้#!\nทุกวันที่น่าหวาดหวั่นหมดไปกับการฝันถึงการได้ไปอยู่ที่อื่น"
+
+ wanderer_restlessness_removal_title: "ความสงบ"
+
+ wanderer_lifestyle_events.20.t: "ช่วงเวลาของข้าใน [reminiscing_location.GetNameNoTooltip]"
+ wanderer_lifestyle_events.20.desc: "ขณะที่ข้ารื้อค้นข้าวของเพื่อหาสิ่งอื่น ข้าก็พบรูปปั้นเก่าแก่ของ [SCOPE.Custom('mythical_map_creatures')] ซึ่งข้าเก็บมาระหว่างการเยือน [reminiscing_location.GetName] เมื่อข้ามองดูมัน ข้าก็นึกถึง "
+ wanderer_lifestyle_events.20.desc.special_building: "[reminiscing_location.GetHolding.GetSpecialBuildingType.GetName] สถานที่ที่ข้าไม่ได้นึกถึงมานานแล้ว"
+ wanderer_lifestyle_events.20.desc.coastal: "ท่าเรือขนาดใหญ่และทิวทัศน์อันงดงามข้ามมหาสมุทร"
+ wanderer_lifestyle_events.20.desc.river: "แม่น้ำที่ไหลผ่านเมือง และสะพานมากมายที่ทอดข้าม"
+ wanderer_lifestyle_events.20.desc.castle: "ปราสาทอันน่าประทับใจที่ตั้งตระหง่านมองเห็นเมือง"
+ wanderer_lifestyle_events.20.desc.city: "เมืองใหญ่อันสง่างามที่มีเขตต่างๆ มากมาย และซอกมุมเล็กๆ ทั้งหมด"
+ wanderer_lifestyle_events.20.desc.people: "ผู้คนที่เป็นมิตรที่อาศัยอยู่ที่นั่น"
+ wanderer_lifestyle_events.20.desc.outro_child: "\n\nขณะที่ข้ารำลึกความหลัง [listening_child.GetFirstName] ก็พรวดพราดเข้ามา "นั่นอะไรหรือ?" [listening_child.GetSheHe|U] ถาม พร้อมกับเหลือบมองรูปปั้นเล็กๆ ด้วยความสงสัย"
+ wanderer_lifestyle_events.20.desc.outro: "\n\nขณะที่ข้ารำลึกความหลัง ข้ารู้สึกคิดถึงบ้าน บางที... บางทีมันอาจจะไม่เลวร้ายนักถ้าข้าออกเดินทางไปเยือน [reminiscing_location.GetNameNoTooltip] อีกครั้ง"
+ wanderer_lifestyle_events.20.a: "ให้ข้าเล่าเรื่อง [SCOPE.Custom('mythical_map_creatures')] แห่ง [reminiscing_location.GetNameNoTooltip] ให้เจ้าฟัง!"
+ wanderer_lifestyle_events.20.b: "สักวันหนึ่ง ข้าจะได้เห็น [reminiscing_location.GetNameNoTooltip] อีกครั้ง..."
+ wanderer_lifestyle_events.20.b.child: "นี่มาจาก [reminiscing_location.GetNameNoTooltip] บางทีข้าอาจจะพาเจ้าไปที่นั่นได้สักวัน"
+
+ wanderer_lifestyle_events.20.a.win: "[listening_child.GetSheHe|U] หลงใหลในเรื่องราว"
+ wanderer_lifestyle_events.20.a.lose: "[listening_child.GetSheHe|U] ไม่ค่อยเชื่อเรื่องราว แต่ก็ยังคงสนุกกับมัน"
+
+ wanderer_lifestyle_events.20.b.tt: "ท่านอาจได้รับ [wanderer_lifestyle|E] Experience หรือ [stress_loss|E] เพิ่มเติมหากท่าน [travel|E] ผ่าน [reminiscing_location.GetName]"
+
+ wanderer_lifestyle_events.25.t: "การเยือนอีกครั้ง"
+ wanderer_lifestyle_events.25.desc: "ข้าเดินไปตามถนนสายเดิมเหมือนครั้งสุดท้ายที่ข้าอยู่ใน [province_location.GetName] ข้าเห็นแผงลอยเดิมๆ ข้าได้กลิ่นเดิมๆ และได้ยินเสียงเดิมๆ\n\nมีความสบายใจที่รู้ว่าบางสิ่งยังไม่เปลี่ยนแปลง"
+ wanderer_lifestyle_events.25.a: "นี่... คือสิ่งที่ข้าหวังไว้"
+
+ wanderer_lifestyle_events.30.t: "ความฝันถึงดินแดนห่างไกล"
+ wanderer_lifestyle_events.30.desc: "ขณะอ่านหนังสือของข้า ข้าพบบันทึกการเดินทางของพ่อค้าที่เดินทางผ่าน [ROOT.Char.Custom('DistantLandsRegionLoc')]\n\n"#emp ขณะที่เราเดินผ่าน [ROOT.Char.Custom('DistantLandsTerrainTypeLoc')] ข้าก็เหลือบไปเห็น [ROOT.Char.Custom('DistantLandsGroupTypeLoc')] [ROOT.Char.Custom('DistantLandsPluralTypeLoc')] [ROOT.Char.Custom('DistantLandsActivityTypeLoc')]#!""
+ wanderer_lifestyle_events.30.desc.singular: "#emp มันมี [ROOT.Char.Custom('DistantLandsDescriptionTypeLoc')] ข้าเพียงแค่สังเกตมันอยู่ครู่หนึ่ง มันไม่เหมือนสิ่งใดที่ข้าเคยเห็นมาก่อน จนกระทั่งภายหลังข้าจึงได้รู้ชื่อของมัน#!""
+ wanderer_lifestyle_events.30.desc.plural: "#emp พวกมันมี [ROOT.Char.Custom('DistantLandsDescriptionTypeLoc')] ข้าเพียงแค่สังเกตพวกมันอยู่ครู่หนึ่ง พวกมันไม่เหมือนสิ่งใดที่ข้าเคยเห็นมาก่อน จนกระทั่งภายหลังข้าจึงได้รู้ชื่อของพวกมัน#!""
+ wanderer_lifestyle_events.30.a.singular: "สักวันหนึ่ง ข้าจะเห็นมันด้วยตาของข้าเอง"
+ wanderer_lifestyle_events.30.a.plural: "สักวันหนึ่ง ข้าจะเห็นพวกมันด้วยตนเอง"
+
+ wanderer_lifestyle_events.30.a.europe: "ท่านอาจได้รับ [wanderer_lifestyle|E] Experience หรือ [stress_loss|E] เพิ่มเติมหากท่าน [travel|E] ผ่าน [GetGeographicalRegion('world_europe').GetName]"
+ wanderer_lifestyle_events.30.a.africa: "ท่านอาจได้รับ [wanderer_lifestyle|E] Experience หรือ [stress_loss|E] เพิ่มเติมหากท่าน [travel|E] ผ่าน [GetGeographicalRegion('world_africa').GetName]"
+ wanderer_lifestyle_events.30.a.asia: "ท่านอาจได้รับ [wanderer_lifestyle|E] Experience หรือ [stress_loss|E] เพิ่มเติมหากท่าน [travel|E] ผ่าน [GetGeographicalRegion('world_middle_east').GetName]"
+ wanderer_lifestyle_events.30.a.india: "ท่านอาจได้รับ [wanderer_lifestyle|E] Experience หรือ [stress_loss|E] เพิ่มเติมหากท่าน [travel|E] ผ่าน [GetGeographicalRegion('world_india').GetName]"
+ wanderer_lifestyle_events.30.a.tibet: "ท่านอาจได้รับ [wanderer_lifestyle|E] Experience หรือ [stress_loss|E] เพิ่มเติมหากท่าน [travel|E] ผ่าน [GetGeographicalRegion('world_tibet').GetName]"
+ wanderer_lifestyle_events.30.a.steppe: "ท่านอาจได้รับ [wanderer_lifestyle|E] Experience หรือ [stress_loss|E] เพิ่มเติมหากท่าน [travel|E] ผ่าน [GetGeographicalRegion('world_steppe').GetName]"
+
+ wanderer_lifestyle_events.35.t: "ความฝันเป็นจริง"
+ wanderer_lifestyle_events.35.desc.singular: "ขณะที่เราเดินทางผ่าน [province_location.Custom('HoldingNoHoldingTerrainRoaming')] ข้าก็เห็นสัตว์ตัวหนึ่ง [ROOT.Char.Custom('DistantLandsActivityTypeLoc')] ในตอนแรก ข้าสงสัยว่านี่คือสัตว์ชนิดใด แต่แล้วข้าก็นึกถึงคำบรรยายเก่าๆ ที่ข้าเคยอ่านเมื่อนานมาแล้ว — นี่ต้องเป็น [ROOT.Char.Custom('DistantLandsPluralTypeLoc')] แน่!\n\n[ROOT.Char.Custom('DistantLandsDescriptionTypeLoc')|U] มันเกือบจะเหมือนกับที่บันทึกการเดินทางบอกไว้ทุกประการ "
+ wanderer_lifestyle_events.35.desc.singular.adorable: "แต่กระนั้นมันก็น่ารักกว่าที่ข้าจินตนาการไว้มาก มีบางอย่างเกี่ยวกับมันที่ดึงดูดใจข้า"
+ wanderer_lifestyle_events.35.desc.singular.neutral: "แต่กระนั้นก็แตกต่างจากที่ข้าคาดไว้เล็กน้อย แต่ไม่ใช่ในทางที่ไม่ดี"
+ wanderer_lifestyle_events.35.desc.singular.taken_aback: "แต่กระนั้นข้าก็รู้สึกประหลาดใจเล็กน้อยกับรูปลักษณ์ของมัน... อย่างไรก็ตาม ข้ารู้สึกปลาบปลื้มที่ในที่สุดก็ได้ตามหามันเจอ!"
+ wanderer_lifestyle_events.35.desc.plural: "ขณะที่เราเดินทางผ่าน [province_location.Custom('HoldingNoHoldingTerrainRoaming')] ข้าก็เห็นสัตว์หลายตัว [ROOT.Char.Custom('DistantLandsActivityTypeLoc')] ในตอนแรก ข้าสงสัยว่านี่คือสัตว์ชนิดใด แต่แล้วข้าก็นึกถึงคำบรรยายเก่าๆ ที่ข้าเคยอ่านเมื่อนานมาแล้ว — นี่ต้องเป็น [ROOT.Char.Custom('DistantLandsPluralTypeLoc')] แน่!\n\n[ROOT.Char.Custom('DistantLandsDescriptionTypeLoc')|U] พวกมันเกือบจะเหมือนกับที่บันทึกการเดินทางบอกไว้ทุกประการ "
+ wanderer_lifestyle_events.35.desc.plural.adorable: "แต่กระนั้นพวกมันก็น่ารักกว่าที่ข้าจินตนาการไว้มาก มีบางอย่างเกี่ยวกับพวกมันที่ดึงดูดใจข้า"
+ wanderer_lifestyle_events.35.desc.plural.neutral: "$wanderer_lifestyle_events.35.desc.singular.neutral$"
+ wanderer_lifestyle_events.35.desc.plural.taken_aback: "แต่กระนั้นข้าก็รู้สึกประหลาดใจเล็กน้อยกับรูปลักษณ์ของพวกมัน... อย่างไรก็ตาม ข้ารู้สึกปลาบปลื้มที่ในที่สุดก็ได้ตามหาพวกมันเจอ!"
+ wanderer_lifestyle_events.35.a: "มันเป็นของข้า!"
+ wanderer_lifestyle_events.35.a.win: "ท่านจับ [ROOT.Char.Custom('DistantLandsLoc')] ได้สำเร็จ"
+ wanderer_lifestyle_events.35.a.lose: "ท่าน ทำให้ตัวเองดูโง่เขลา"
+ wanderer_lifestyle_events.35.b.singular: "ในที่สุดการได้เห็นสักตัวก็เพียงพอสำหรับข้าแล้ว"
+ wanderer_lifestyle_events.35.b.plural: "ในที่สุดการได้เห็นพวกมันก็เพียงพอสำหรับข้าแล้ว"
+
+ wanderer_lifestyle_events.40.t: "เหตุเฟอะฟะในตลาด"
+ wanderer_lifestyle_events.40.desc: "การเดินทางของข้า[ROOT.Char.GetLocationDesc|l]เป็นไปด้วยดี, แต่, ช่วงเวลาที่ยากลำบากกำลังมาเยือนเมื่อเสบียงอาหารของเราใกล้จะหมดสิ้นแล้ว! กลิ่น[ROOT.Char.Custom('GetExpensiveMeal')]ที่ปรุงสดใหม่ยั่วยวนข้า, และเมื่อตามกลิ่นไป, ข้าก็พบแผงลอยที่ดูแปลกตา [ROOT.Char.Custom('GetLocalStreetFoodPlural')]นานาชนิดและชิ้นส่วนของ[ROOT.Char.Custom('GetRegionalFish')]ถูกจัดแสดงไว้, โดยมีอาหารที่เสิร์ฟพร้อมกับ... [ROOT.Char.Custom('FavoriteTreat')]รสหวาน?\n\nแต่ช่างเถิด, ราคานับว่าถูกมากทีเดียว! พ่อค้าพึมพำบางอย่างที่ข้าฟังไม่เข้าใจ, และทำท่าทางให้ข้าจ่ายเงินให้[provisions_merchant.GetHerHim]มากกว่าคนท้องถิ่น, และถึงแม้ข้าจะยังประหยัดเงินได้บ้าง, ข้าก็ควรจะโต้แย้ง แต่ข้าแทบจะไม่รู้จักภาษา[provisions_merchant.GetCulture.GetLanguage.GetNameNoTooltip]เลย..."
+ wanderer_lifestyle_events.40.fold: "จ่ายให้[provisions_merchant.GetHerHim]ตามที่[provisions_merchant.GetSheHe]ขอก็แล้วกัน, ให้มันจบๆ ไปเสียที"
+ wanderer_lifestyle_events.40.barter: "ข้ามีแผนของข้าอยู่แล้ว, ถึงแม้ข้าจะพูดภาษาที่ฟังไม่รู้เรื่องนั้นไม่ได้ก็ตาม"
+ wanderer_lifestyle_events.40.language: "บางทีภาษา[provisions_merchant.GetCulture.GetLanguage.GetNameNoTooltip]อาจจะไม่ใช่สิ่งแปลกใหม่อย่างสิ้นเชิงสำหรับข้า..."
+ wanderer_lifestyle_events.40.meh: "อันที่จริง เรามีอาหารอยู่ที่พักแล้ว"
+ wanderer_lifestyle_events.40.language_tt: "ท่านพยายามสื่อสารกับ[provisions_merchant.GetName]ด้วยภาษาแม่ของ[provisions_merchant.GetHerHis]"
+ wanderer_lifestyle_events.40.language_tt.success: "ท่านสื่อสารกับ[provisions_merchant.GetHerHim]ได้สำเร็จ, และ ดังนั้นจึงได้รับราคา#EMPท้องถิ่น#!"
+ wanderer_lifestyle_events.40.language_learned: "การสืบเสาะทางภาษาของท่านบังเกิดผล"
+ wanderer_lifestyle_events.40.language_nothing: "ท่านไม่ได้เรียนรู้ภาษา, แต่ท่านก็ยังคงได้ราคาท้องถิ่น"
+ wanderer_lifestyle_events.40.language_tt.fail: "สถานการณ์ยิ่งสับสนมากขึ้น, และท่านก็ยังคงต้องจ่ายเพิ่มอยู่ดี"
+ wanderer_lifestyle_events.40.barter_tt: "ท่านพยายาม#EMPโน้มน้าว#!ให้[provisions_merchant.GetName]ลดราคาให้ท่านเป็นราคาท้องถิ่น"
+ wanderer_lifestyle_events.40.barter_tt.success: "[provisions_merchant.GetSheHe|U]ประทับใจในความพยายามของท่าน, จึงยอมขายให้ในราคาที่ต่ำกว่า"
+ wanderer_exotic_animal_modifier: "สัตว์แปลก"
+ wanderer_exotic_animal_modifier_desc: "ไม่มีอะไรน่าประทับใจเท่ากับสัตว์แปลกที่ไม่มีใครเคยเห็นมาก่อน!"
+ wanderer_lifestyle_events.40.success_title: "ท่านต่อรองราคากับ[provisions_merchant.GetHerHim]ได้สำเร็จ"
+ wanderer_lifestyle_events.40.fail_title: "[provisions_merchant.GetFirstNameNoTooltip]ไม่ประทับใจ"
+
+ DistantLandsEurope1: "ไบซัน"
+ DistantLandsEurope2: "คาราคูแลค"
+ DistantLandsAfrica1: "ช้างแอฟริกา"
+ DistantLandsAfrica2: "แอนทิโลป"
+ DistantLandsAfrica3: "สุนัขจิ้งจอกเฟนเนก"
+ DistantLandsAsia1: "ออริกซ์"
+ DistantLandsAsia2: "เสือดาวอาระเบีย"
+ DistantLandsAsia3: "คาราคัล"
+ DistantLandsIndia1: "เสือโคร่งเบงกอล"
+ DistantLandsIndia2: "ช้างอินเดีย"
+ DistantLandsIndia3: "กระทิง"
+ DistantLandsTibet1: "เสือดาวหิมะ"
+ DistantLandsTibet2: "พิกา"
+ DistantLandsTibet3: "จามรี"
+ DistantLandsSteppe1: "อินทรีทุ่งหญ้าสเตปป์"
+ DistantLandsSteppe2: "ม้าป่า"
+ DistantLandsSteppe3: "ไซกา"
+
+ # If they are using "solitary" in the group section, then just use the singular for them
+ DistantLandsEurope1_plural: "ไบซัน" # Bison
+ DistantLandsEurope2_plural: "$DistantLandsEurope2$" # Karakulak
+ DistantLandsAfrica1_plural: "ช้างแอฟริกา" # Elephant
+ DistantLandsAfrica2_plural: "แอนทิโลป" # Antelope
+ DistantLandsAfrica3_plural: "$DistantLandsAfrica3$" # Fennec Fox
+ DistantLandsAsia1_plural: "ออริกซ์" # Oryx
+ DistantLandsAsia2_plural: "$DistantLandsAsia2$" # Leopard
+ DistantLandsAsia3_plural: "$DistantLandsAsia3$" # Caracal
+ DistantLandsIndia1_plural: "$DistantLandsIndia1$" # Tiger
+ DistantLandsIndia2_plural: "ช้างอินเดีย" # Elephant
+ DistantLandsIndia3_plural: "กระทิง" # Gaur
+ DistantLandsTibet1_plural: "$DistantLandsTibet1$" # Leopard
+ DistantLandsTibet2_plural: "พิกา" # Pika
+ DistantLandsTibet3_plural: "จามรี" # Yak
+ DistantLandsSteppe1_plural: "$DistantLandsTibet1$" # Steppe Eagle
+ DistantLandsSteppe2_plural: "ม้าป่า" # Wild Horses
+ DistantLandsSteppe3_plural: "ไซกา" # Saiga
+
+ DistantLandsEurope1_group: "ฝูงเล็กของ" # Bison
+ DistantLandsEurope2_group: "โดดเดี่ยว" # Karakulak
+ DistantLandsAfrica1_group: "โขลงใหญ่ของ" # Elephant
+ DistantLandsAfrica2_group: "ฝูงใหญ่ของ" # Antelope
+ DistantLandsAfrica3_group: "โดดเดี่ยว" # Fennec Fox
+ DistantLandsAsia1_group: "กลุ่มของ" # Oryx
+ DistantLandsAsia2_group: "โดดเดี่ยว" # Leopard
+ DistantLandsAsia3_group: "โดดเดี่ยว" # Caracal
+ DistantLandsIndia1_group: "โดดเดี่ยว" # Tiger
+ DistantLandsIndia2_group: "โขลงใหญ่ของ" # Elephant
+ DistantLandsIndia3_group: "ฝูงเล็กของ" # Gaur
+ DistantLandsTibet1_group: "โดดเดี่ยว" # Leopard
+ DistantLandsTibet2_group: "ฝูงของ" # Pika
+ DistantLandsTibet3_group: "ฝูงเล็กของ" # Yak
+ DistantLandsSteppe1_group: "โดดเดี่ยว" # Steppe Eagle
+ DistantLandsSteppe2_group: "ฝูงใหญ่ของ" # Wild Horses
+ DistantLandsSteppe3_group: "กลุ่มของ" # Saiga
+
+ DistantLandsHerdAnimalActivity: "กำลังเล็มหญ้าอย่างเงียบๆ ในระยะไกล"
+ DistantLandsEurope1_activity: "$DistantLandsHerdAnimalActivity$" # Bison
+ DistantLandsEurope2_activity: "กำลังย่องผ่านพุ่มไม้" # Karakulak
+ DistantLandsAfrica1_activity: "$DistantLandsHerdAnimalActivity$" # Elephant
+ DistantLandsAfrica2_activity: "$DistantLandsHerdAnimalActivity$" # Antelope
+ DistantLandsAfrica3_activity: "กำลังนอนหลับกลางแดดและไม่สนใจกลุ่มของข้าเลย" # Fennec Fox
+ DistantLandsAsia1_activity: "$DistantLandsHerdAnimalActivity$" # Oryx
+ DistantLandsAsia2_activity: "กำลังเฝ้าดูกลุ่มจากระยะไกล" # Leopard
+ DistantLandsAsia3_activity: "กำลังเฝ้าดูกลุ่มจากระยะไกล" # Caracal
+ DistantLandsIndia1_activity: "กำลังล่าเหยื่อ" # Tiger
+ DistantLandsIndia2_activity: "$DistantLandsHerdAnimalActivity$" # Elephant
+ DistantLandsIndia3_activity: "$DistantLandsHerdAnimalActivity$" # Gaur
+ DistantLandsTibet1_activity: "กำลังเฝ้าดูกลุ่มจากระยะไกล" # Leopard
+ DistantLandsTibet2_activity: "กำลังวิ่งหนีและพยายามซ่อนตัวใต้ดินเมื่อเราเข้าใกล้" # Pika
+ DistantLandsTibet3_activity: "$DistantLandsHerdAnimalActivity$" # Yak
+ DistantLandsSteppe1_activity: "กำลังบินอยู่เหนือศีรษะ" # Steppe Eagle
+ DistantLandsSteppe2_activity: "กำลังวิ่งอยู่ในระยะไกล" # Wild Horses
+ DistantLandsSteppe3_activity: "$DistantLandsHerdAnimalActivity$" # Saiga
+
+ DistantLandsEurope1_description: "ขนสีเข้มหนา ร่างกายกำยำ และหัวขนาดใหญ่" # Bison
+ DistantLandsEurope2_description: "ร่างกายเพรียว ขนสั้น และดวงตาที่แสดงออก" # Karakulak
+ DistantLandsAfrica1_description: "ร่างกายใหญ่โต งวงยาว และงาขนาดใหญ่" # Elephant
+ DistantLandsAfrica2_description: "โครงร่างสง่างาม ขายาว และเขาเกลียว" # Antelope
+ DistantLandsAfrica3_description: "ขนสีอ่อนสวยงาม และหูขนาดใหญ่ที่แกว่งไปมา" # Fennec Fox
+ DistantLandsAsia1_description: "ร่างกายผอมเพรียว เขาตรง และขนสีซีด" # Oryx
+ DistantLandsAsia2_description: "รูปร่างปราดเปรียวและลายจุด" # Leopard
+ DistantLandsAsia3_description: "หูมีพู่และขนสีแดง" # Caracal
+ DistantLandsIndia1_description: "ลายทางโดดเด่น รูปร่างทรงพลัง และแววตาดุร้าย" # Tiger
+ DistantLandsIndia2_description: "ขนาดน่าเกรงขามและผิวหนังหนา" # Elephant
+ DistantLandsIndia3_description: "ร่างกายแข็งแรง เขาขนาดใหญ่ และขนสีเข้ม" # Gaur
+ DistantLandsTibet1_description: "รูปร่างปราดเปรียว ขนสีทอง และธรรมชาติที่เข้าใจยาก" # Leopard
+ DistantLandsTibet2_description: "ขนาดเล็ก หูกลม และขนหนาแน่น" # Pika
+ DistantLandsTibet3_description: "รูปร่างใหญ่โต แผงคอหนา และเขาขนาดใหญ่" # Yak
+ DistantLandsSteppe1_description: "ปีกกว้างและท่าทางสง่างาม" # Steppe Eagle
+ DistantLandsSteppe2_description: "แผงคอปลิวไสวและแขนขาแข็งแรง" # Wild Horses
+ DistantLandsSteppe3_description: "จมูกโดดเด่น ขนสีอ่อน และเขาเป็นวง" # Saiga
+
+ DistantLandsEurope1_terrain: "ที่ราบ" # Bison
+ DistantLandsEurope2_terrain: "ป่า" # Karakulak
+ DistantLandsAfrica1_terrain: "ที่ราบ" # Elephant
+ DistantLandsAfrica2_terrain: "ที่ราบ" # Antelope
+ DistantLandsAfrica3_terrain: "ทะเลทราย" # Fennec Fox
+ DistantLandsAsia1_terrain: "ทะเลทราย" # Oryx
+ DistantLandsAsia2_terrain: "ป่า" # Leopard
+ DistantLandsAsia3_terrain: "เนินเขา" # Caracal
+ DistantLandsIndia1_terrain: "ป่าดงดิบ" # Tiger
+ DistantLandsIndia2_terrain: "ป่าดงดิบ" # Elephant
+ DistantLandsIndia3_terrain: "ป่า" # Gaur
+ DistantLandsTibet1_terrain: "ภูเขา" # Leopard
+ DistantLandsTibet2_terrain: "ภูเขา" # Pika
+ DistantLandsTibet3_terrain: "ภูเขา" # Yak
+ DistantLandsSteppe1_terrain: "ทุ่งหญ้าสเตปป์" # Steppe Eagle
+ DistantLandsSteppe2_terrain: "ทุ่งหญ้าสเตปป์" # Wild Horses
+ DistantLandsSteppe3_terrain: "ทุ่งหญ้าสเตปป์" # Saiga
+
+ DistantLandsRegionEurope: "ยุโรป"
+ DistantLandsRegionAfrica: "แอฟริกา"
+ DistantLandsRegionAsia: "เอเชีย"
+ DistantLandsRegionIndia: "อินเดีย"
+ DistantLandsRegionTibet: "ทิเบต"
+ DistantLandsRegionSteppe: "ทุ่งหญ้าสเตปป์"
+
+ ### Designated Terrain Decision
+ choose_designated_terrain_decision: "ภูมิประเทศที่กำหนด"
+ CHOOSE_DESIGNATED_TERRAIN_DECISION_NEXT_STEP_BUTTON: "เลือกกลุ่มภูมิประเทศ"
+ choose_designated_terrain_decision_tooltip: "เลือกกลุ่ม [terrain|E] ที่ท่านจะพัฒนาตนเอง และรับโบนัสเมื่อท่านเจาะลึกเข้าไปในสาย [lifestyle|E] ผู้ตรวจสอบ"
+ choose_designated_terrain_decision_desc: "ถึงเวลาตัดสินใจแล้วว่าข้าจะมุ่งเน้นความพยายามและนำผู้ติดตามของข้าไปที่ใด: สู่ดินแดนแห้งแล้งที่เต็มไปด้วยฝุ่น สู่ที่ราบสูงตระหง่าน สู่ที่ราบลุ่มเปิดโล่ง หรือสู่ส่วนลึกของป่า?\n\n@alert_icon!#color_yellow #emp นี่คือการเลือกถาวร#!#!"
+ choose_designated_terrain_decision_confirm: "ยืนยันกลุ่มภูมิประเทศ"
+
+ designated_terrain_forest_decision: "ป่าไม้"
+ designated_terrain_mountain_decision: "ที่ราบสูง"
+ designated_terrain_plains_decision: "ที่ราบลุ่ม"
+ designated_terrain_drylands_decision: "ดินแดนแห้งแล้ง"
+
+ forest_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@forest! ป่า\n$EFFECT_LIST_BULLET$@jungle! ป่าดงดิบ\n$EFFECT_LIST_BULLET$@taiga! ไทกา\n$EFFECT_LIST_BULLET$@wetlands! พื้นที่ชุ่มน้ำ"
+ mountain_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@mountains! ภูเขา\n$EFFECT_LIST_BULLET$@hills! เนินเขา\n$EFFECT_LIST_BULLET$@desert_mountains! ภูเขาทะเลทราย"
+ plains_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@plains! ที่ราบ\n$EFFECT_LIST_BULLET$@steppe! ทุ่งหญ้าสเตปป์\n$EFFECT_LIST_BULLET$@farmlands! พื้นที่เกษตรกรรม\n$EFFECT_LIST_BULLET$@floodplains! ที่ราบน้ำท่วมถึง"
+ drylands_terrain_bullet_list: "\n$EFFECT_LIST_BULLET$@desert! ทะเลทราย\n$EFFECT_LIST_BULLET$@drylands! ดินแดนแห้งแล้ง\n$EFFECT_LIST_BULLET$@oasis! โอเอซิส"
+
+ terrain_tooltip_desc: "มุ่งเน้นไปที่:"
+ master_forest_terrain_tooltip: "$terrain_tooltip_desc$$forest_terrain_bullet_list$"
+ master_mountain_terrain_tooltip: "$terrain_tooltip_desc$$mountain_terrain_bullet_list$"
+ master_plains_terrain_tooltip: "$terrain_tooltip_desc$$plains_terrain_bullet_list$"
+ master_drylands_terrain_tooltip: "$terrain_tooltip_desc$$drylands_terrain_bullet_list$"
+
+ designated_terrain_effect_desc: "[terrains|E] ต่อไปนี้จะทำหน้าที่เป็น [designated_terrain|E] สำหรับ [perks|E] ของ [lifestyle|E] ผู้ตรวจสอบ:"
+ master_forest_terrain_effect_tooltip: "$designated_terrain_effect_desc$$forest_terrain_bullet_list$"
+ master_mountain_terrain_effect_tooltip: "$designated_terrain_effect_desc$$mountain_terrain_bullet_list$"
+ master_plains_terrain_effect_tooltip: "$designated_terrain_effect_desc$$plains_terrain_bullet_list$"
+ master_drylands_terrain_effect_tooltip: "$designated_terrain_effect_desc$$drylands_terrain_bullet_list$"
+
+ landless_inspector_woodlands_tier_1_modifier: "ภูมิประเทศที่กำหนด #weak (ป่าไม้)#!"
+ landless_inspector_woodlands_tier_2_modifier: "$landless_inspector_woodlands_tier_1_modifier$"
+ landless_inspector_woodlands_tier_3_modifier: "$landless_inspector_woodlands_tier_1_modifier$"
+ nomadic_inspector_woodlands_tier_2_modifier: "$landless_inspector_woodlands_tier_1_modifier$"
+ nomadic_inspector_woodlands_tier_3_modifier: "$landless_inspector_woodlands_tier_1_modifier$"
+ landless_inspector_highlands_tier_1_modifier: "ภูมิประเทศที่กำหนด #weak (ที่ราบสูง)#!"
+ landless_inspector_highlands_tier_2_modifier: "$landless_inspector_highlands_tier_1_modifier$"
+ landless_inspector_highlands_tier_3_modifier: "$landless_inspector_highlands_tier_1_modifier$"
+ nomadic_inspector_highlands_tier_2_modifier: "$landless_inspector_highlands_tier_1_modifier$"
+ nomadic_inspector_highlands_tier_3_modifier: "$landless_inspector_highlands_tier_1_modifier$"
+ landless_inspector_lowlands_tier_1_modifier: "ภูมิประเทศที่กำหนด #weak (ที่ราบลุ่ม)#!"
+ landless_inspector_lowlands_tier_2_modifier: "$landless_inspector_lowlands_tier_1_modifier$"
+ landless_inspector_lowlands_tier_3_modifier: "$landless_inspector_lowlands_tier_1_modifier$"
+ nomadic_inspector_lowlands_tier_2_modifier: "$landless_inspector_lowlands_tier_1_modifier$"
+ nomadic_inspector_lowlands_tier_3_modifier: "$landless_inspector_lowlands_tier_1_modifier$"
+ landless_inspector_drylands_tier_1_modifier: "ภูมิประเทศที่กำหนด #weak (ดินแดนแห้งแล้ง)#!"
+ landless_inspector_drylands_tier_2_modifier: "$landless_inspector_drylands_tier_1_modifier$"
+ landless_inspector_drylands_tier_3_modifier: "$landless_inspector_drylands_tier_1_modifier$"
+ nomadic_inspector_drylands_tier_2_modifier: "$landless_inspector_drylands_tier_1_modifier$"
+ nomadic_inspector_drylands_tier_3_modifier: "$landless_inspector_drylands_tier_1_modifier$"
+
+ landless_local_arbitration_wanderers_modifier: "$local_arbitration_perk_adventurer_name$ #weak (นักพเนจร)#!"
+ landless_local_arbitration_mercenaries_modifier: "$local_arbitration_perk_adventurer_name$ #weak (ทหารรับจ้าง)#!"
+ landless_local_arbitration_scholars_modifier: "$local_arbitration_perk_adventurer_name$ #weak (นักวิชาการ)#!"
+ landless_local_arbitration_explorers_modifier: "$local_arbitration_perk_adventurer_name$ #weak (นักสำรวจ)#!"
+ landless_local_arbitration_brigands_modifier: "$local_arbitration_perk_adventurer_name$ #weak (โจรสลัด)#!"
+ landless_local_arbitration_legitimists_modifier: "$local_arbitration_perk_adventurer_name$ #weak (ผู้สนับสนุนความชอบธรรม)#!"
+
+
+ ### Master Terrain Decision
+ choose_master_terrain_decision: "ภูมิประเทศเชี่ยวชาญ"
+ choose_master_terrain_decision_tooltip: "เลือก [terrain|E] ที่จะเชี่ยวชาญ ซึ่งท่านจะได้รับประโยชน์อันทรงพลังสำหรับ [provisions|E], [armies|E], และใน [battles|E]"
+ choose_master_terrain_decision_desc: "ความหลงใหลของข้าอยู่ที่ใด? อยู่ลึกในป่า ท่ามกลางยอดเขาสูงเสียดฟ้า หรือบนที่ราบเปิดโล่งใต้ท้องฟ้าสีคราม?\n\n@alert_icon!#color_yellow #emp นี่คือการเลือกถาวร#!#!"
+ choose_master_terrain_decision_confirm: "ยืนยันภูมิประเทศ"
+ CHOOSE_MASTER_TERRAIN_DECISION_NEXT_STEP_BUTTON: "เลือกภูมิประเทศที่จะเชี่ยวชาญ"
+
+ master_terrain_forest_decision: "ป่า"
+ master_terrain_forest_terrain_tooltip: "" # This and following tooltips intentionally empty
+ master_terrain_jungle_decision: "ป่าดงดิบ"
+ master_terrain_jungle_terrain_tooltip: ""
+ master_terrain_taiga_decision: "ไทกา"
+ master_terrain_taiga_terrain_tooltip: ""
+ master_terrain_wetlands_decision: "พื้นที่ชุ่มน้ำ"
+ master_terrain_wetlands_terrain_tooltip: ""
+
+ master_terrain_mountains_decision: "ภูเขา"
+ master_terrain_mountains_terrain_tooltip: ""
+ master_terrain_hills_decision: "เนินเขา"
+ master_terrain_hills_terrain_tooltip: ""
+ master_terrain_desert_mountains_decision: "ภูเขาทะเลทราย"
+ master_terrain_desert_mountains_terrain_tooltip: ""
+
+ master_terrain_plains_decision: "ที่ราบ"
+ master_terrain_plains_terrain_tooltip: ""
+ master_terrain_steppe_decision: "ทุ่งหญ้าสเตปป์"
+ master_terrain_steppe_terrain_tooltip: ""
+ master_terrain_farmlands_decision: "พื้นที่เกษตรกรรม"
+ master_terrain_farmlands_terrain_tooltip: ""
+ master_terrain_floodplains_decision: "ที่ราบน้ำท่วมถึง"
+ master_terrain_floodplains_terrain_tooltip: ""
+
+ master_terrain_drylands_decision: "ดินแดนแห้งแล้ง"
+ master_terrain_drylands_terrain_tooltip: ""
+ master_terrain_desert_decision: "ทะเลทราย"
+ master_terrain_desert_terrain_tooltip: ""
+ master_terrain_oasis_decision: "โอเอซิส"
+ master_terrain_oasis_terrain_tooltip: ""
+
+ master_of_terrain_modifier: "ผู้เชี่ยวชาญภูมิประเทศ"
+ master_terrain_forest_modifier: "$master_of_terrain_modifier$ #weak (ป่า)#!"
+ master_terrain_jungle_modifier: "$master_of_terrain_modifier$ #weak (ป่าดงดิบ)#!"
+ master_terrain_taiga_modifier: "$master_of_terrain_modifier$ #weak (ไทกา)#!"
+ master_terrain_wetlands_modifier: "$master_of_terrain_modifier$ #weak (พื้นที่ชุ่มน้ำ)#!"
+
+ master_terrain_mountains_modifier: "$master_of_terrain_modifier$ #weak (ภูเขา)#!"
+ master_terrain_hills_modifier: "$master_of_terrain_modifier$ #weak (เนินเขา)#!"
+ master_terrain_desert_mountains_modifier: "$master_of_terrain_modifier$ #weak (ภูเขาทะเลทราย)#!"
+
+ master_terrain_plains_modifier: "$master_of_terrain_modifier$ #weak (ที่ราบ)#!"
+ master_terrain_steppe_modifier: "$master_of_terrain_modifier$ #weak (ทุ่งหญ้าสเตปป์)#!"
+ master_terrain_farmlands_modifier: "$master_of_terrain_modifier$ #weak (พื้นที่เกษตรกรรม)#!"
+ master_terrain_floodplains_modifier: "$master_of_terrain_modifier$ #weak (ที่ราบน้ำท่วมถึง)#!"
+
+ master_terrain_drylands_modifier: "$master_of_terrain_modifier$ #weak (ดินแดนแห้งแล้ง)#!"
+ master_terrain_desert_modifier: "$master_of_terrain_modifier$ #weak (ทะเลทราย)#!"
+ master_terrain_oasis_modifier: "$master_of_terrain_modifier$ #weak (โอเอซิส)#!"
+
+ master_terrain_custom_tooltip_short_are: "ถูกเลือกเป็น [master_terrain|E] ของท่าน"
+ master_terrain_custom_tooltip_short_is: "ถูกเลือกเป็น [master_terrain|E] ของท่าน"
+ master_terrain_custom_tooltip_forest: "@forest! ป่า $master_terrain_custom_tooltip_short_is$"
+ master_terrain_custom_tooltip_jungle: "@jungle! ป่าดงดิบ $master_terrain_custom_tooltip_short_is$"
+ master_terrain_custom_tooltip_taiga: "@taiga! ไทกา $master_terrain_custom_tooltip_short_is$"
+ master_terrain_custom_tooltip_wetlands: "@wetlands! พื้นที่ชุ่มน้ำ $master_terrain_custom_tooltip_short_are$"
+
+ master_terrain_custom_tooltip_mountains: "@mountains! ภูเขา $master_terrain_custom_tooltip_short_are$"
+ master_terrain_custom_tooltip_hills: "@hills! เนินเขา $master_terrain_custom_tooltip_short_are$"
+ master_terrain_custom_tooltip_desert_mountains: "@desert_mountains! ภูเขาทะเลทราย $master_terrain_custom_tooltip_short_are$"
+
+ master_terrain_custom_tooltip_plains: "@plains! ที่ราบ $master_terrain_custom_tooltip_short_are$"
+ master_terrain_custom_tooltip_steppe: "@steppe! ทุ่งหญ้าสเตปป์ $master_terrain_custom_tooltip_short_is$"
+ master_terrain_custom_tooltip_farmlands: "@farmlands! พื้นที่เกษตรกรรม $master_terrain_custom_tooltip_short_are$"
+ master_terrain_custom_tooltip_floodplains: "@floodplains! ที่ราบน้ำท่วมถึง $master_terrain_custom_tooltip_short_are$"
+
+ master_terrain_custom_tooltip_drylands: "@drylands! ดินแดนแห้งแล้ง $master_terrain_custom_tooltip_short_are$"
+ master_terrain_custom_tooltip_desert: "@desert! ทะเลทราย $master_terrain_custom_tooltip_short_is$"
+ master_terrain_custom_tooltip_oasis: "@oasis! โอเอซิส $master_terrain_custom_tooltip_short_is$"
+

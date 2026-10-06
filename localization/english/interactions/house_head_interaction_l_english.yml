@@ -1,0 +1,15 @@
+﻿l_english: 
+ house_head_interaction_header:0 "[house_head_interaction|E]\n"
+ demand_conversion_interaction:0 "เรียกร้องให้เปลี่ยนศาสนา"
+ demand_conversion_interaction_desc:0 "$house_head_interaction_header$ $ask_for_conversion_interaction_desc$"
+ demand_conversion_interaction_extra_icon:0 "$hook_extra_icon$"
+ call_house_member_to_war_interaction:0 "เรียกสมาชิกตระกูลเข้าร่วมสงคราม"
+ call_house_member_to_war_interaction_desc:0 "$house_head_interaction_header$เรียก [recipient.GetShortUINameNoTooltip] มารับใช้[house|E]ของ[recipient.GetHerHis]ในสงคราม"
+ call_house_member_to_war_interaction_extra_icon:0 "$hook_extra_icon$"
+ accuse_of_decandence_interaction: "กล่าวหาว่าเสื่อมทราม"
+ accuse_of_decandence_interaction_desc: "$house_head_interaction_header$กล่าวหา [recipient.GetShortUINameNoTooltip] ว่าเสื่อมทรามเพื่อ ทำให้ชื่อเสียงของ[recipient.GetHerHis]มัวหมอง และนำพา[house_unity|E]ไปสู่ @dynasty_house_unity_antagonistic! #V $antagonistic$#!"
+ extoll_virtuousness_interaction: "ยกย่องคุณธรรม"
+ extoll_virtuousness_interaction_desc: "$house_head_interaction_header$ยกย่องคุณธรรมของ [recipient.GetShortUINamePossessiveNoTooltip] เพื่อเสริมสร้างชื่อเสียงของ[recipient.GetHerHis] และนำพา[house_unity|E]ไปสู่ @dynasty_house_unity_harmonious! #V $harmonious$#!"
+ extoll_interaction_notification: "ยกย่องสมาชิกตระกูลแล้ว"
+ accuse_of_decandence_interaction_notification: "กล่าวหาสมาชิกตระกูลแล้ว"
+

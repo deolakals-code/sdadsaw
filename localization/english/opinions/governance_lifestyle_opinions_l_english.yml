@@ -1,0 +1,19 @@
+﻿l_english: 
+ governance_careful_mapping_of_my_realm_opinion:0 "มอบแผนที่ให้เป็นของกำนัลแก่ข้า"
+ governance_was_impatient_opinion:0 "ปฏิเสธไม่ให้ข้าพักผ่อน"
+ governance_emphasised_authority_opinion:0 "เน้นย้ำอำนาจ"
+ governance_taxed_clergy_when_bankrupt:0 "เก็บภาษีนักบวชเมื่อยามล้มละลาย"
+ governance_taxed_nobles_when_bankrupt:0 "เก็บภาษีขุนนางเมื่อยามล้มละลาย"
+ governance_taxed_cities_when_bankrupt:0 "เก็บภาษีเมืองเมื่อยามล้มละลาย"
+ governance_fish_pond:0 "บ่อปลาอันงดงาม"
+ governance_domesday_book_praised_for_steward:0 "เสนาบดีคลังได้รับการยกย่องสำหรับการประเมิน"
+ governance_domesday_book_criticized_steward:0 "เสนาบดีคลังถูกวิจารณ์สำหรับการประเมิน"
+ governance_forced_assessment_for_domesday_book:0 "บังคับการประเมิน"
+ governance_vassal_defied_assessment_for_domesday_book:0 "ท้าทายการประเมิน"
+ dismissed_me_opinion:0 "เมินเฉยต่อความเห็นของข้า"
+ disapproving_opinion:0 "ไม่เห็นด้วยกับการกระทำ"
+ approving_opinion:0 "เห็นด้วยกับการกระทำ"
+ 
+ meritocracy_claimed_my_throne_opinion:0 "อ้างสิทธิ์ในบัลลังก์ของข้า"
+
+ extorted_me_opinion:0 "ขู่กรรโชกข้า"

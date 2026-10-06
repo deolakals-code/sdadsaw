@@ -1,0 +1,131 @@
+﻿l_english: 
+ eye_color_blue:0 "สีฟ้า"
+ eye_color_yellow:0 "สีเหลือง"
+ eye_color_green:0 "สีเขียว"
+ eye_color_amber:0 "สีอำพัน"
+ eye_color_copper:0 "สีทองแดง"
+ eye_color_gold:0 "สีทอง"
+ eye_color_emerald:0 "สีมรกต"
+ eye_color_brown:0 "สีน้ำตาล"
+ eye_color_gray:0 "สีเทา"
+ cat_gender_her:0 "ของเธอ" # Referring to the cat (female)
+ cat_gender_his:0 "ของเขา" # Referring to the cat (male)
+ cat_gender_him:0 "เขา" # Referring to the cat (male, object pronoun)
+ cat_gender_she:0 "เธอ" # Referring to the cat (female, subject pronoun)
+ cat_gender_he:0 "เขา" # Referring to the cat (male, subject pronoun)
+ cat_gender_herself:0 "ตัวเธอเอง" # Referring to the cat (female)
+ cat_gender_himself:0 "ตัวเขาเอง" # Referring to the cat (male)
+ cat_gender_female:0 "ตัวเมีย"
+ cat_gender_male:0 "ตัวผู้"
+ dog_gender_her:0 "ของเธอ" # Referring to the dog (female)
+ dog_gender_his:0 "ของเขา" # Referring to the dog (male)
+ dog_gender_him:0 "เขา" # Referring to the dog (male, object pronoun)
+ dog_gender_she:0 "เธอ" # Referring to the dog (female, subject pronoun)
+ dog_gender_he:0 "เขา" # Referring to the dog (male, subject pronoun)
+ dog_gender_female:0 "ตัวเมีย"
+ dog_gender_male:0 "ตัวผู้"
+ eagle_gender_her: "ของนาง"
+ eagle_gender_his: "ของเขา"
+ eagle_gender_him: "เขา"
+ eagle_gender_she: "นาง"
+ eagle_gender_he: "เขา"
+ eagle_gender_female: "เพศเมีย"
+ eagle_gender_male: "เพศผู้"
+
+ fur_color_brown:0 "สีน้ำตาล"
+ fur_color_gray:0 "สีเทา"
+ fur_color_orange:0 "สีส้ม"
+ fur_color_black:0 "สีดำ"
+ fur_color_white:0 "สีขาว"
+ fur_color_yellow:0 "สีเหลือง"
+ fur_color_snowy:0 "ขาวราวหิมะ"
+ fur_color_sandy:0 "สีทราย"
+ fur_color_golden:0 "สีทอง"
+ fur_color_dark:0 "สีเข้ม"
+ fur_color_bright:0 "สีสว่าง"
+ fur_color_colorful:0 "หลากสี"
+ fur_color_spotted:0 "ลายจุด"
+ fur_color_striped:0 "ลายทาง"
+ fur_color_silver:0 "สีเงิน"
+ fur_color_dazzling:0 "แพรวพราว"
+ fur_color_speckled:0 "ลายกระ"
+ fur_color_tawny:0 "สีน้ำตาลอมเหลือง"
+ fur_color_pink:0 "สีชมพู"
+ 
+ cat_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_cat_name' )]"
+ cat_name_all: "[Story.GetOwner.GetLocalizedText( 'story_cycle_cat_name' )]"
+ cat_name_possessive:1 "ของ [ROOT.Char.Custom( 'CatStoryName' )]" # Changed 's to ของ (khong)
+ cat_name_mittens_possessive:0 "ของมิตเทนส์" # Changed 's to ของ (khong)
+ cat_name_paws_possessive:0 "ของพอว์ส" # Changed 's to ของ (khong)
+ cat_name_gyb:0 "กิ๊บ" # Transliteration
+ cat_name_mite:0 "ไมท์" # Transliteration
+ cat_name_gray:0 "สีเทา" # Translation
+ cat_name_flame:0 "เปลวเพลิง" # Translation
+ cat_name_meone:0 "เมโอเน่" # Transliteration
+ cat_name_cruibne:0 "ครูบเน่" # Transliteration
+ cat_name_snow:0 "หิมะ" # Translation
+ cat_name_shadow:0 "เงา" # Translation
+ cat_name_paws:0 "อุ้งเท้า" # Translation (Paws) or พอว์ส (Transliteration) - Using translation for meaning
+ cat_name_mittens:0 "ถุงมือ" # Translation (Mittens) or มิตเทนส์ (Transliteration) - Using translation for meaning
+ cat_name_spooky: "ภูตผี" # Translation
+ name_lil_city: "[ROOT.Var('cat_city').Province.GetNameNoTooltip]"
+ name_pride_of_city: "ความภูมิใจแห่ง [ROOT.Var('cat_city').Province.GetNameNoTooltip]"
+ name_tail_of_city: "หางแห่ง [ROOT.Var('cat_city').Province.GetNameNoTooltip]" # Changed 's Tail to หางแห่ง (hang haeng)
+ name_tigon: "ไทกอน" # Transliteration
+ passed_cat_name: "[ROOT.Char.GetLocalizedText( 'deceased_story_cycle_cat_name' )]"
+ name_lil_city_all: "[Story.GetOwner.MakeScope.Var('cat_city').Province.GetNameNoTooltip]"
+ name_pride_of_city_all: "ความภาคภูมิแห่ง [Story.GetOwner.MakeScope.Var('cat_city').Province.GetNameNoTooltip]"
+ name_tail_of_city_all: "หางแห่ง [Story.GetOwner.MakeScope.Var('cat_city').Province.GetNameNoTooltip]"
+ passed_cat_name_all: "[Story.GetOwner.GetLocalizedText( 'deceased_story_cycle_cat_name' )]"
+
+ dog_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_dog_name' )]"
+ dog_name_all: "[Story.GetOwner.GetLocalizedText( 'story_cycle_dog_name' )]"
+ dog_name_possessive:2 "ของ [ROOT.Char.Custom( 'DogStoryName' )]" # Changed 's to ของ (khong)
+ dog_name_amiable:0 "ผู้น่ารัก" # Translation
+ dog_name_nosewise:0 "จมูกไว" # Translation
+ dog_name_holdfast:0 "ผู้ยึดมั่น" # Translation
+ dog_name_gray:0 "สีเทา" # Translation
+ dog_name_choplicker:0 "นักเลียชาม" # Translation (Literal) or ผู้ตะกละ (Glutton)
+ dog_name_shadow:0 "เงา" # Translation
+ dog_name_snow:0 "หิมะ" # Translation
+
+ eagle_name: "[ROOT.Char.GetLocalizedText( 'story_cycle_eagle_name' )]"
+ eagle_name_all: "[Story.GetOwner.GetLocalizedText( 'story_cycle_eagle_name' )]"
+ eagle_name_possessive: "ของ [ROOT.Char.Custom('EagleStoryName')]"
+ eagle_name_lyra: "ไลรา"
+ eagle_name_astana: "อัสตานา"
+ eagle_name_anda: "อันดา"
+ eagle_name_khongor: "คองกอร์"
+ eagle_name_chania: "ชาเนีย"
+ eagle_name_timur: "ตีมูร์"
+ eagle_name_qyliinshaq: "ชีลินชัก"
+ eagle_name_janym: "จานิม"
+ eagle_name_syr: "ซีร์"
+ eagle_name_torebek: "โทเรเบ็ค"
+ eagle_name_elmek: "เอลเม็ค"
+ eagle_name_jargal: "จาร์กัล"
+ eagle_name_khair: "ไคร์"
+ eagle_name_halik: "ฮาลิค"
+ eagle_name_zephyr: "เซเฟอร์"
+ eagle_personality_trait_brave: "กล้าหาญ"
+ eagle_personality_trait_brave_2: "องอาจ"
+ eagle_personality_trait_brave_3: "ไร้ความกลัว"
+ eagle_personality_trait_curious: "ช่างสงสัย"
+ eagle_personality_trait_curious_2: "ใฝ่รู้"
+ eagle_personality_trait_curious_3: "อยากรู้อยากเห็น"
+ eagle_personality_trait_loyal: "ภักดี"
+ eagle_personality_trait_loyal_2: "อุทิศตน"
+ eagle_personality_trait_loyal_3: "ซื่อสัตย์"
+ eagle_personality_trait_calm: "สุขุม"
+ eagle_personality_trait_calm_2: "สุขุมเยือกเย็น"
+ eagle_personality_trait_calm_3: "สงบนิ่ง"
+ eagle_personality_trait_wise: "เฉลียวฉลาด"
+ eagle_personality_trait_wise_2: "ปราดเปรื่อง"
+ eagle_personality_trait_wise_3: "หลักแหลม"
+ eagle_personality_trait_cunning: "เจ้าเล่ห์"
+ eagle_personality_trait_cunning_2: "มีเล่ห์เหลี่ยม"
+ eagle_personality_trait_cunning_3: "เจ้าอุบาย"
+ eagle_personality_trait_none: "เป็นที่รัก"
+ eagle_personality_trait_none_2: "สุดที่รัก"
+ eagle_personality_trait_none_3: "อันทะนุถนอม"
+ eagle_personality_trait_none_4: "เป็นมิตร"

@@ -1,0 +1,25 @@
+﻿l_english: 
+ sacrifed_small_animal_title:0 "[first.GetShortUIName|U] บูชายัญ [root_scope.Custom('SmallAnimal')|U] ตัวเล็ก"
+ small_animal_rabbit:0 "กระต่าย"
+ small_animal_squirrel:0 "กระรอก"
+ small_animal_mouse:0 "หนู"
+ small_animal_hedgehog:0 "เม่น"
+ small_animal_bird:0 "นก"
+ small_animal_plural_rabbit: "กระต่าย" # Thai doesn't typically pluralize nouns this way
+ small_animal_plural_squirrel: "กระรอก"
+ small_animal_plural_mouse: "หนู"
+ small_animal_plural_hedgehog: "เม่น"
+ small_animal_plural_bird: "นก"
+ 
+ demonic_chant_title:0 "[first.GetShortUIName|U] สวดบทสวดปีศาจ"
+ 
+ recited_witchcraft_treatise_title:0 "[first.GetShortUIName|U] ท่องตำราไสยเวท"
+ 
+ admire_moon_title:0 "[first.GetShortUIName|U] ชื่นชมดวงจันทร์"
+ 
+ mournful_music_title:0 "[first.GetShortUIName|U] บรรเลงดนตรีโศกเศร้า"
+ 
+ praised_horned_god_together_title:0 "[first.GetShortUIName|U] สรรเสริญเทพเจ้ามีเขาร่วมกับ [second.GetShortUIName|U]"
+ 
+ apa_imbued_artifact_title:0 "[first.GetShortUIName|U] ประจุ [artifact.GetName] ด้วยพลังปีศาจ"
+ artifact_monthly_piety_gain_mult_1_modifier:0 "จารึกปีศาจ"

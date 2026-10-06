@@ -1,0 +1,63 @@
+﻿l_english: 
+ bm_867_northmen:0 "พิโรธแห่งชาวเหนือ"
+ bm_867_northmen_desc:1 "สองปีก่อน กษัตริย์แอ็ลลาแห่งนอร์ธัมเบรียได้โยนรagnar โลดโบรค วีรบุรุษไวกิ้งผู้ยิ่งใหญ่ ลงไปในบ่องูจนสิ้นใจ เมื่อได้ยินข่าว บุตรชายของรagnar ก็ออกเรือไปยังอังกฤษเพื่อล้างแค้นให้บิดา\n\nนับ แต่นั้นมา พี่น้องก็ได้ตั้งหลักปักฐานอย่างมั่นคงในยอร์กและหมู่เกาะ เหล่ากษัตริย์แองโกล-แซกซอนพ่ายแพ้ครั้งแล้วครั้งเล่า — อนาคตของพวกเขาดูมืดมนยิ่งนัก\n\nแต่ความหวังทั้งหมดยังไม่สูญสิ้น และวีรบุรุษผู้ยิ่งใหญ่ยังคงสามารถพลิกกระแสประวัติศาสตร์ได้\n\n#bold ท่านจะนำอังกฤษทั้งหมดมาอยู่ภายใต้การปกครองของชาวนอร์ส หรือจะขับไล่กองทัพนอกรีตอันยิ่งใหญ่ออกจากแผ่นดินแองโกล-แซกซอน?#!"
+
+ #Halfdan Whiteshirt
+ bookmark_northmen_halfdan_whiteshirt:0 "ฮาล์ฟดาน ไวท์เชิร์ต"
+ bookmark_northmen_halfdan_whiteshirt_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_northmen_halfdan_whiteshirt_desc:0 "การรุกรานระลอกแรกเป็นไปด้วยดีสำหรับฮาล์ฟดาน ไวท์เชิร์ต ด้วยความช่วยเหลือจากอีวาร์ น้องชายของเขา เขาได้แย่งชิงการควบคุมยอร์กมาจากเงื้อมมือของกษัตริย์แอ็ลลา และเขาจะยึดครองได้มากกว่านั้นอีกมาก\n\n#bold ท่านจะดำเนินตามรอยประวัติศาสตร์และล้างแค้นอย่างสาสม หรือจะบุกเบิกเส้นทางใหม่ให้ฮาล์ฟดาน?#!"
+
+ bookmark_northmen_halfdan_whiteshirt_alt_gudfrid:0 "$GuT_friT_$"
+ bookmark_northmen_halfdan_whiteshirt_alt_saga:0 "$Saga$ $nick_the_truthspeaker$"
+
+ #Ivar the Boneless
+ bookmark_northmen_ivar_the_boneless:0 "อีวาร์ผู้ไร้กระดูก"
+ bookmark_northmen_ivar_the_boneless_subheading: "$BOOKMARK_SUBHEADING_DEFAULT_WITH_THE$"
+ bookmark_northmen_ivar_the_boneless_desc:0 "มีข่าวลือว่าอีวาร์ร่างกายอ่อนแอ แต่ไม่มีใครสามารถอ้างได้ว่าเขามีจิตใจที่อ่อนแอ ด้วยเล่ห์เหลี่ยมและความมั่นใจ เขาได้รวบรวมกองทัพนักรบชาวนอร์สจำนวนมากไว้ภายใต้ธงของเขา และได้รับชัยชนะอันยิ่งใหญ่บนชายฝั่งต่างแดนเหล่านี้ แต่แม้ แต่นักรบไวกิ้งที่ยิ่งใหญ่ที่สุดก็ไม่สามารถหลอกลวงความตายได้ ในปี 870 อีวาร์จะเลือนหายไปจากประวัติศาสตร์ตลอดกาล...\n\n#bold ท่านจะสามารถชนะสงครามของอีวาร์ และรักษาชีวิตเขาไว้เพื่อปกครองต่อไปอีกหลายปีได้หรือไม่?#!"
+
+ bookmark_northmen_ivar_the_boneless_alt_barid:0 "$Barid$"
+ bookmark_northmen_ivar_the_boneless_alt_barid_desc:0 "คำอธิบายทางเลือก"
+ bookmark_northmen_ivar_the_boneless_alt_sigfroth:0 "$SigfroT_$"
+ bookmark_northmen_ivar_the_boneless_alt_sigfroth_desc:0 "คำอธิบายทางเลือก"
+
+
+ #Sigurdr Snake-in-the-eye
+ bookmark_northmen_sigurdr_snake_in_the_eye:0 "ซิกูร์เดอร์ เนตรงู"
+ bookmark_northmen_sigurdr_snake_in_the_eye_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_northmen_sigurdr_snake_in_the_eye_desc:1 "ขณะที่พี่น้องของเขาออกเรือไปยังอังกฤษเพื่อล้างแค้น ซิกูร์เดอร์ เนตรงู ยังคงอยู่เบื้องหลังเพื่อปกครองดินแดนของบิดาผู้ล่วงลับ รagnar โลดโบรค ได้ทิ้งภาระอันใหญ่หลวงไว้ให้เขาแบกรับ\n\n#bold ทายาทของซิกูร์เดอร์จะเป็นกษัตริย์แห่งเดนมาร์ก นอร์เวย์ และอังกฤษนานกว่าศตวรรษ ท่านจะสามารถเติมเต็มชะตากรรมของราชวงศ์ของเขาได้หรือไม่?#!"
+
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_knud:0 "$Knud$"
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_knud_desc:0 "คำอธิบายทางเลือก"
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_alof:0 "$Alof$"
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_alof_desc:0 "คำอธิบายทางเลือก"
+
+ # Björn Ironside
+ bookmark_northmen_bjorn_ironside:0 "บยอร์น ไอออนไซด์"
+ bookmark_northmen_bjorn_ironside_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_northmen_bjorn_ironside_desc:0 "บยอร์นใช้ชีวิตผจญภัยแบบชาวนอร์สอย่างแท้จริง ในฐานะนักปล้นสะดมผู้น่าเกรงขาม เขาได้ปล้นสะดมไปทั่วฝรั่งเศส ไอบีเรีย และอิตาลี ร่วมกับเฮสไตน์แห่งน็องต์ สหายของเขา บัดนี้ กองกำลังแห่งสแกนดิเนเวียรวมตัวกันเพื่อโจมตีชายฝั่งอังกฤษอีกครั้ง\n\n#bold แม้ว่าบยอร์นจะถูกกำหนดให้ล้างแค้นให้กับการตายของบิดาในอังกฤษ แต่ทายาทของเขาจะปกครองสวีเดนต่อไปอีกสองศตวรรษ ชะตากรรมของท่านอยู่ฝั่งใดของทะเลเหนือ?#!"
+
+ bookmark_northmen_bjorn_ironside_alt_ingrid:0 "$Ingrid$"
+ bookmark_northmen_bjorn_ironside_alt_ingrid_desc:0 "คำอธิบายทางเลือก"
+ bookmark_northmen_bjorn_ironside_alt_eirikr:0 "$Eirikr$"
+ bookmark_northmen_bjorn_ironside_alt_eirikr_desc:0 "คำอธิบายทางเลือก"
+
+ #Earl Alfred (the great)
+ bookmark_northmen_earl_alfred:0 "เอิร์ลอัลเฟรด"
+ bookmark_northmen_earl_alfred_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_northmen_earl_alfred_desc:0 "ขณะที่พวกไวกิ้งรุกคืบลงมาทางใต้ เอิร์ลอัลเฟรดแห่งดอร์เซตกำลังเตรียมกองกำลังของเขา\n\nในอีกไม่กี่ปีข้างหน้า อัลเฟรดจะต่อสู้กับชาวนอร์สหลายครั้งและยุติการรุกราน เมื่อเขาสืบทอดบัลลังก์ของพี่ชาย เขาก็กลายเป็นหนึ่งในกษัตริย์อังกฤษที่ยิ่งใหญ่ที่สุดตลอดประวัติศาสตร์\n\n#bold ท่านจะเติมเต็มชะตากรรมอันยิ่งใหญ่ของอัลเฟรด หรือจะถูกบดขยี้โดยกองทัพนอกรีตอันยิ่งใหญ่?#!"
+
+ bookmark_northmen_earl_alfred_alt_aethelred:0 "$E_thelred$"
+ bookmark_northmen_earl_alfred_alt_aethelred_desc:0 "คำอธิบายทางเลือก"
+
+ ##EVENTS##
+ bookmark.0002.t:0 "มหาราช"
+ bookmark.0002.desc:0 "ครั้งแรกที่ข้าในบังคับคนหนึ่งทักทายข้าด้วยคำว่า "ทรงพระเจริญ [ROOT.Char.GetFirstNameNoTooltip] มหาราช!" ข้ารู้สึกเป็นเกียรติอย่างยิ่ง ข้าไม่ได้คิดอะไรมากไปกว่านั้น แต่ตั้งแต่วันนั้นเป็นต้นมา สมญานามนี้ก็ได้รับความนิยมมากขึ้นเรื่อย ๆ\n\nไม่ว่าข้าจะไปที่ใด จาก [capital.GetNameNoTooltip] ถึง [province.GetNameNoTooltip] บัดนี้ไพร่ฟ้าข้าแผ่นดินต่างเรียกข้าว่า [ROOT.Char.GetFirstNameNoTooltip] มหาราช"
+ bookmark.0002.a:0 "ข้าภาวนาว่าจะไม่ ทำให้พวกเขาผิดหวัง"
+
+ bookmark.0004.t:1 "การล้างแค้น"
+ bookmark.0004.desc_unknown:1 "เมื่อ [prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] ถูกนำตัวมาเบื้องหน้าข้าพเจ้า [prisoner.GetSheHe] ก็หมอบกราบ [prisoner.GetHerselfHimself] ลงทันทีและร้องขออภัยโทษจากข้าพเจ้าโทษฐานที่ #EMP สังหาร [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] ของข้าพเจ้า#!?! \n\n"ข้า... ข้าคิดว่าท่านทราบแล้ว! โปรดลืมสิ่งที่ข้าพูดไปเถิด" [prisoner.GetSheHe] หัวเราะอย่างประหม่า "เห็นได้ชัดว่าหัวของข้าคงจะกระแทกเมื่อถูกจับตัวมา หรืออะไรทำนองนั้น ข้าไม่รู้ว่าข้ากำลังพูดอะไรอยู่!"\n\nเมื่อข้าได้ยินข่าวการตายของ [dead.GetNamePossessive] ผู้เป็น [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] ของข้า ข้าได้สาบานว่าจะต้องแก้แค้นให้จงได้ และข้าเป็น [ROOT.Char.GetWomanMan] ที่รักษาสัจจะ"
+ bookmark.0004.desc:1 "ในที่สุด หลังจากเวลาทั้งหมดนี้ ข้าก็มีเจ้า [prisoner.Custom2('InsultAdjective', ROOT.Char)] [prisoner.GetName] อยู่ในกำมือของข้า! เมื่อข้าได้ยินเรื่องการตายของ[dead.GetNamePossessive] ผู้เป็น [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] ของข้าด้วยน้ำมือของ [prisoner.GetHerHis] ข้าก็สาบานว่าจะต้องแก้แค้นให้จงได้ และข้าเป็น [ROOT.Char.GetWomanMan] ที่รักษาคำพูด"
+ bookmark.0004.a.custom:0 "ทุก [close_family_member|E] ของ [dead.GetShortUIName]"
+ bookmark.0004.a:0 "ข้าจะฉีกซี่โครงของมันให้เป็นปีกโลหิต!"
+ bookmark.0004.b:0 "[prisoner.GetWomanMan] ผู้นี้เป็นของท่านแล้ว มหาเทพ [ROOT.Char.GetFaith.HighGodName]!"
+ bookmark.0004.c:0 "ข้ามีแผนอื่นสำหรับ [prisoner.GetHerHim]..."

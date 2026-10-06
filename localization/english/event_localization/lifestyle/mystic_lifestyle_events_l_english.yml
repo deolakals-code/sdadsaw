@@ -1,0 +1,42 @@
+﻿l_english: 
+ mystic_lifestyle_communion_header:0 "การสื่อสารอันลี้ลับ: "
+ mystic_lifestyle.1001.t:0 "$mystic_lifestyle_communion_header$การไม่เห็นด้วย"
+ mystic_lifestyle.1001.desc:0 "การเตรียมการสำหรับการสื่อสารอันลี้ลับของข้าดำเนินไปได้ด้วยดีเมื่อ [SCOPE.sC('priest').Custom2('MyCharacterIntroduction', ROOT.Char )] เข้ามาหาข้า\n\n"ข้าไม่เชื่อว่าสิ่งที่ท่านกำลังทำอยู่นั้น... ถูกต้องตามหลักธรรมเนียมเสียทีเดียว" [priest.GetSheHe] บอกข้า "ชาว [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] ที่ดีพึงละเว้นพฤติกรรม เช่นนี้""
+ mystic_lifestyle.1001.a:0 "สิ่งนี้นำพาข้าเข้าใกล้ [ROOT.Char.GetFaith.HighGodName] มากกว่าที่ท่านจะหวังได้เสียอีก!"
+ mystic_lifestyle.1001.b:0 "แน่นอน ข้าคิดอะไรอยู่กันนะ?"
+ mystic_lifestyle.1001.b.flavor:0 "การบอก [priest.GetHerHim] ว่าท่านกำลังคิดถึง [ROOT.Char.GetFaith.HighGodNameAlternate] อาจจะไม่ใช่เรื่องดีนัก"
+
+ mystic_lifestyle.1002.opening:0 "[SCOPE.sC('religious_head').Custom2('AppropriateGreeting', ROOT.Char)]"
+ mystic_lifestyle.1002.desc:0 "ข้าได้รับทราบมาว่าท่านมักจะประกอบพิธีสวดมนต์ในรูปแบบที่ผิดแปลกไปจากปกติอย่างยิ่ง\n\nข้าขอเรียกร้องให้ท่านยุติการปฏิบัติอันน่าขันนี้ และทำการบำเพ็ญตบะอย่างเหมาะสมสำหรับการตีความศรัทธาของเราอย่างผิด ๆ นี้"
+ mystic_lifestyle.1002.a:0 "ข้ารู้ถึงพระประสงค์ของ [ROOT.Char.GetFaith.HighGodName] ดียิ่งกว่าท่านเสียอีก!"
+
+ mystic_lifestyle.1003.opening:0 "ถึง [SCOPE.sC('vassal').Custom2('RelationToMeShort', ROOT.Char )] ผู้หลงผิดอย่างน่าเศร้าของข้า"
+ mystic_lifestyle.1003.desc:0 "การปฏิบัติอันแปลกประหลาดของท่านไม่ได้รับการรับรองจากเหล่า [ROOT.Char.GetFaith.PriestNeuterPlural] และต้องมีใครสักคนตำหนิท่านในเรื่องนี้ หากข้าไม่ทำเสียตอนนี้ [ROOT.Char.GetFaith.HighGodName] ก็จะทรงทำเอง\n\nโปรดใช้เหตุผลและหันหลังให้กับเส้นทางอันแปลกประหลาดนี้ ใครจะรู้ว่ามันอาจนำไปสู่ลัทธินอกรีตหรือการบูชาปีศาจได้!"
+ mystic_lifestyle.1003.a:1 "ความไม่รู้ของท่านเกี่ยวกับความลับของ [ROOT.Char.GetFaith.HighGodNamePossessive] จะไม่หยุดยั้งข้า!"
+
+ mystic_lifestyle.1004.t:0 "$mystic_lifestyle_communion_header$ข่าวลือ"
+ mystic_lifestyle.1004.desc:0 "ดูเหมือนว่านิสัยทางศาสนาที่ไม่ปกติเล็กน้อยของข้ากำลังเป็นที่สนใจของผู้คนมากขึ้นเรื่อย ๆ\n\nนั่นแทบจะไม่ใช่ปัญหาเลย — พวกเขาไม่มีทางเข้าใจสิ่งที่ข้ากำลังทำอยู่ได้ — แต่เสียงกระซิบกล่าวว่าข้ากำลัง #EMP ทำ#! บางอย่างลับหลัง และผู้คนควรจับตาดูไว้"
+ mystic_lifestyle.1004.a:0 "ข้าไม่สนใจเลยว่าพวกเขาจะกระซิบอะไร"
+ mystic_lifestyle.1004.b:0 "หากข้าเปิดเผยและต้อนรับ บางทีพวกเขาอาจจะเข้าใจ?"
+
+ mystic_lifestyle.1005.opening:0 "[SCOPE.sC('vassal').Custom2('RelationToMeShort', ROOT.Char )] ที่รักของข้า"
+ mystic_lifestyle.1005.desc:0 "ข้าไม่ได้อ้างว่าเข้าใจนิสัยและการปฏิบัติของท่านอย่างถ่องแท้ อย่างไรก็ตาม ข้าต้องขอชื่นชมท่านสำหรับความพยายามอย่างเห็นได้ชัดที่ท่านทุ่มเทให้กับการสวดมนต์ของท่าน\n\nหากเพียง แต่ผู้ศรัทธาที่แท้จริงทุกคนจะเคร่งครัดเหมือนท่าน"
+ mystic_lifestyle.1005.a:0 "ข้ายินดีที่ท่านเห็นถึงความพยายามของข้า"
+ mystic_lifestyle.1005.b:0 "ให้ข้าสอนท่านว่าต้องทำอย่างไร!"
+
+ mystic_lifestyle.1006.t:0 "$mystic_lifestyle_communion_header$ชื่อเสียง"
+ mystic_lifestyle.1006.desc:0 "ด้วยการปฏิบัติอันลี้ลับของข้า ดูเหมือนว่าข้าจะมีชื่อเสียงพอสมควร ผู้คนไม่รู้แน่ชัดว่าข้าทำอะไร แต่พวกเขารู้ว่าพวกเขาไม่ต้องการที่จะขัดขวางข้าและค้นหาความจริง\n\nมันน่าขัน แต่บางทีมันอาจจะไม่ใช่เรื่องเลวร้ายเสียทีเดียว..."
+ mystic_lifestyle.1006.a:0 "พวกเขาจะกลัวเท่าที่จิตวิญญาณเล็ก ๆ ของพวกเขาจะ ทำให้กลัวก็ได้"
+ mystic_lifestyle.1006.b:0 "การสาบานว่าข้าไม่ทำอันตรายใด ๆ จะ ทำให้พวกเขาสบายใจขึ้น"
+
+ mystic_lifestyle.1007.t:0 "$mystic_lifestyle_communion_header$บางอย่างผิดปกติ"
+ mystic_lifestyle.1007.desc:0 "การสื่อสารกับสิ่งศักดิ์สิทธิ์ของข้าแตกต่างไปในช่วงหลังนี้ มันไม่ ทำให้ข้ารู้สึกปิติยินดีอีกต่อไป แต่กลับ ทำให้ข้าอ่อนแอลง\n\nวันนี้ ข้าไม่สามารถแม้ แต่จะรวบรวมกำลังเพื่อลุกจากเตียงได้"
+ mystic_lifestyle.1007.a:0 "คนรับใช้... ช่วยด้วย..."
+
+ mystic_lifestyle.1008.t:0 "$mystic_lifestyle_communion_header$ปาฏิหาริย์"
+ mystic_lifestyle.1008.desc:0 "แม้ว่าสภาพร่างกายจะอ่อนแอ ข้าก็ทำเท่าที่ทำได้เพื่อทำการสื่อสาร\n\nมันเข้มข้นกว่าที่เคยเป็นมา และเช้านี้ ดูเถิด! [ROOT.Char.GetFaith.HighGodName|U] ได้ประทานปาฏิหาริย์แก่ข้า!"
+ mystic_lifestyle.1008.a:0 "ข้าหายแล้ว!"
+
+ mystic_lifestyle.1009.opening:0 "[SCOPE.sC('mystic').Custom2('RelationToMeShort', ROOT.Char )] ที่รักของข้า"
+ mystic_lifestyle.1009.desc:0 "ข้าต้องขอชื่นชมการสำรวจศรัทธาของเราในเชิงลี้ลับของท่าน!\n\nจากข่าวลือที่ข้าได้ยิน ดูเหมือนว่าข้าเองก็ยังมีเรื่องที่ต้องเรียนรู้อีกสักหนึ่งหรือสองอย่าง!"
+ mystic_lifestyle.1009.a:0 "ข้ายินดีที่จะแบ่งปัน!"

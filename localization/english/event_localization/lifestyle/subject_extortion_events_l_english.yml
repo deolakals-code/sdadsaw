@@ -1,0 +1,44 @@
+﻿l_english: 
+ # Extort a Powerful Vassal, by Petter Vilberg
+ subject_extortion.0001.t:0 "รีดไถข้าแผ่นดิน: ข้าหลวงผู้ทรงอำนาจ"
+ subject_extortion.0001.desc:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('extortion_target'))] ของข้า [extortion_target.GetTitledFirstName] — ช่างเป็น [extortion_target.GetWomanMan] ผู้มีฐานะเสียจริง ดูจากสีหน้าของ [extortion_target.GetHerHis] แล้ว [extortion_target.GetSheHe] คงรู้แล้วว่าข้าเข้าหา [extortion_target.GetHerHim] ด้วยจุดประสงค์ใด\n\n"ข้าภักดี ข้าจ่ายภาษีอากรครบถ้วน" [extortion_target.GetSheHe] ยืนกราน "ท่านจะเรียกร้องอะไรจากข้าอีกเล่า?""
+ subject_extortion.0001.a:0 "ถือเสียว่าเป็นการทดสอบความภักดีเล็กๆ น้อยๆ เพิ่มเติม!"
+ subject_extortion.0001.b:0 "อย่ากังวลไปเลย ข้าจะให้ #EMP ทุกคน#! จ่าย"
+ subject_extortion.0001.c:0 "โอ้ แต่ท่านยังติดค้างข้าอยู่ จำได้หรือไม่?"
+ subject_extortion.0001.d:0 "ข้าแค่ล้อเล่นน่า [extortion_target.GetFirstNameNoTooltip]!"
+ subject_extortion.0001.d.flavor:0 "[extortion_target.GetSheHe|U] ดูเหมือนจะอารมณ์เสียมากกว่าที่ข้าคาดไว้"
+
+ # Extort a County, by Petter Vilberg
+ subject_extortion.0002.t:0 "รีดไถข้าแผ่นดิน: ไพร่"
+ subject_extortion.0002.desc:0 "เหล่าไพร่ใน [extortion_target.GetName] ดูเหมือนจะมีฐานะดีเกินกว่าที่คาดจากภาษีที่ข้าเก็บได้ การบริจาคเพิ่มเติมเข้าคลังของข้าคงไม่เสียหายอะไร\n\nโอ้ พวกเขาจะบ่น แต่นั่นไม่ใช่สิ่งที่ไพร่ทำเสมอไปหรือ? พวกเขาจะผ่านมันไปได้ ข้ามั่นใจ"
+ subject_extortion.0002.a:0 "พวกเขาจะทำอะไรก็ได้ตามใจ ตราบใดที่ข้าได้ทองคำของข้า!"
+ subject_extortion.0002.b:0 "เหตุใดพวกเขาจึงไม่เคยสำนึกในบุญคุณสิ่งที่พวกเขา #EMP มี#! อยู่เลย?"
+ subject_extortion.0002.c:0 "มันไม่คุ้มที่จะ ทำให้พวกเขาขุ่นเคืองในตอนนี้"
+
+ # Extort Theocratic Vassals, by Petter Vilberg
+ subject_extortion.0003.t:0 "รีดไถข้าแผ่นดิน: [ROOT.Char.GetFaith.AltPriestTermPlural|U]"
+ subject_extortion.0003.desc:0 "[ROOT.Char.GetFaith.WealthGodName] จะไม่ประสงค์ให้ข้ารุ่งเรืองหรือ? และคลังที่เต็มเปี่ยมจะไม่ใช่หนทางที่ดีที่สุดสำหรับสิ่งนั้นหรือ?\n\nด้วยเหตุผลบางประการ เหล่า [ROOT.Char.GetFaith.AltPriestTermPlural] จึงลังเลที่จะเห็นด้วย ดูเหมือนพวกเขาจะคิดว่าอิทธิพลที่พวกเขามีเหนือศาสนิกชนจะปกป้องพวกเขาได้"
+ subject_extortion.0003.a:0 "[ROOT.Char.GetFaith.PriestNeuterPlural|U] ต้องบริจาคมากเท่ากับคนอื่นๆ!"
+ subject_extortion.0003.b:0 "ข้าไม่สมควรได้รับสิ่งนี้หรือ โดย [ROOT.Char.GetFaith.HighGodName]?"
+ subject_extortion.0003.c:0 "เป็นความคิดที่ไม่ดีที่จะ ทำให้ผู้รับใช้ของ [ROOT.Char.GetFaith.HighGodNameAlternate] ขุ่นเคือง..."
+
+ # Extort all Vassals, by Petter Vilberg
+ subject_extortion.0004.t:0 "รีดไถข้าแผ่นดิน: ข้าหลวง"
+ subject_extortion.0004.desc:0 "จุดประสงค์หลักของข้าหลวงของข้าคือการสนับสนุนความพยายามของข้า แม้ว่าพวกเขาจะจ่ายภาษีสำหรับสิทธิพิเศษนั้นอยู่แล้ว ข้าก็อดคิดไม่ได้ว่าข้าจะได้รายได้เพิ่มขึ้นอีกเท่าใดหากพวกเขาทุกคนช่วยกันบริจาคเพิ่มอีกเพียงเล็กน้อย...\n\nความมั่งคั่งอันยิ่งใหญ่สำหรับข้า โดยแทบไม่มีค่าใช้จ่ายใดๆ สำหรับพวกเขา!"
+ subject_extortion.0004.a:0 "ช่างเป็นทางออกที่สมบูรณ์แบบ!"
+ subject_extortion.0004.b:0 "เหตุใดจึงเอาเพียงเล็กน้อย ในเมื่อข้าสามารถเอา #EMP มากมาย#! ได้?"
+ subject_extortion.0004.c:0 "ไม่ ภาระผูกพันของพวกเขาได้บรรลุแล้ว"
+
+ # Extort Courtiers, by Petter Vilberg
+ subject_extortion.0005.t:0 "รีดไถข้าแผ่นดิน: ข้าราชสำนัก"
+ subject_extortion.0005.desc:0 "ข้าราชสำนักของข้าแทบจะดำรงชีวิตอยู่ได้ด้วยความเอื้อเฟื้อของข้า ไม่ใช่เวลาอันควรแล้วหรือที่พวกเขาจะแสดงความกตัญญู?\n\nแม้ แต่ขุนนางชั้นผู้น้อยก็ต้องเข้าใจเรื่องเกียรติและหน้าที่มากขนาดนั้น"
+ subject_extortion.0005.a:0 "พวกเขา #EMP มีชีวิตอยู่#! ได้ด้วยความเมตตาของข้าเพียงผู้เดียว!"
+ subject_extortion.0005.b:0 "นี่ไม่ใช่คำสั่ง แต่ข้าคาดหวังของขวัญ"
+ subject_extortion.0005.c:0 "โอ้ พวกเขามีเพียงน้อยนิดในโลกนี้อยู่แล้ว..."
+
+ # Failed to find an extortion target, by Petter Vilberg
+ subject_extortion.9998.t:0 "รีดไถข้าแผ่นดิน"
+ subject_extortion.9998.desc.steward:0 "[steward.GetCouncilTitle] ของข้าดูเหมือนจะล้มเหลวในการหาแหล่งทองคำเพิ่มเติมในอาณาจักรของข้า\n\n"ข้าขออภัย ฝ่าบาท แต่ไม่มีสิ่งใดเหลือที่เราจะเอาไปได้โดยไม่ถูกลงโทษ""
+ subject_extortion.9998.desc:0 "แม้ว่าข้าจะมีพระคุณและมีลักษณะนิสัยอันทรงเกียรติ ข้าดูเหมือนจะไม่สามารถหาผู้ใดที่เต็มใจสนับสนุนข้าเกินกว่าที่กฎหมายกำหนดไว้ได้เลย ไม่มีใครดูตื่นเต้นที่จะสนับสนุนแนวคิดของข้าเกี่ยวกับกฎหมายใหม่ๆ ด้วยซ้ำ\n\nข้าถูกบังคับให้ทนทุกข์กับความขัดสนด้วยน้ำมือของคนรับใช้ที่โลภและเห็นแก่ตัวของข้าหรือ?!"
+ subject_extortion.9998.a:0 "เดี๋ยวก่อน! เสียงกริ๊งๆ ในกระเป๋าของเจ้าคืออะไร?"
+ subject_extortion.9998.b:0 "เดี๋ยวนะ นี่อะไรอยู่ใต้ที่นั่งของข้า?"

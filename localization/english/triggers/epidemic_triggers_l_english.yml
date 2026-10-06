@@ -1,0 +1,46 @@
+﻿l_english: 
+ outbreak_province_equal_global: "การระบาดเริ่มต้นใน [PROVINCE.GetName]"
+ not_outbreak_province_equal_global: "การระบาด #bold ไม่ได้#! เริ่มต้นใน [PROVINCE.GetName]"
+ outbreak_province_equal_third: "[EPIDEMIC.GetName] เริ่มต้นใน [PROVINCE.GetName]"
+ not_outbreak_province_equal_third: "[EPIDEMIC.GetName] #bold ไม่ได้#! เริ่มต้นใน [PROVINCE.GetName]"
+ 
+ outbreak_intensity_global: "ความรุนแรงของการระบาดคือ $COMPARATOR$ $CHECK_VALUE|V$"
+ not_outbreak_intensity_global: "ความรุนแรงของการระบาด #bold ไม่ใช่#! $COMPARATOR$ $CHECK_VALUE|V$"
+ outbreak_intensity_third: "ความรุนแรงของการระบาดของ [EPIDEMIC.GetName] คือ $COMPARATOR$ $CHECK_VALUE|V$"
+ not_outbreak_intensity_third: "ความรุนแรงของการระบาดของ [EPIDEMIC.GetName] #bold ไม่ใช่#! $COMPARATOR$ $CHECK_VALUE|V$"
+ 
+ total_infected_provinces_global: "[holdings|E] ที่ติดเชื้อ $COMPARATOR$ $NUM|V$ "
+ not_total_infected_provinces_global: "[holdings|E] #bold ไม่ได้#! ติดเชื้อ $COMPARATOR$ $NUM|V$"
+ total_infected_provinces_third: "[holdings|E] ที่ติดเชื้อโดย [EPIDEMIC.GetName] $COMPARATOR$ $NUM|V$"
+ not_total_infected_provinces_third: "[holdings|E] ที่ติดเชื้อโดย [EPIDEMIC.GetName] #bold ไม่ใช่#! $COMPARATOR$ $NUM|V$"
+ 
+ outbreak_start_date_global: "เริ่มต้น $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ not_outbreak_start_date_global: "#bold ไม่ได้#! เริ่มต้น $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ outbreak_start_date_third: "[EPIDEMIC.GetName] เริ่มต้น $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ not_outbreak_start_date_third: "[EPIDEMIC.GetName] #bold ไม่ได้#! เริ่มต้น $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ 
+ days_since_outbreak_start_global: "เริ่มต้น $COMPARATOR$ $NUM|V$ วันที่แล้ว"
+ not_days_since_outbreak_start_global: "#bold ไม่ได้#! เริ่มต้น $COMPARATOR$ $NUM|V$ วันที่แล้ว"
+ days_since_outbreak_start_third: "[EPIDEMIC.GetName] เริ่มต้น $COMPARATOR$ $NUM|V$ วันที่แล้ว"
+ not_days_since_outbreak_start_third: "[EPIDEMIC.GetName] #bold ไม่ได้#! เริ่มต้น $COMPARATOR$ $NUM|V$ วันที่แล้ว"
+ 
+ province_infection_date_global: "การติดเชื้อเริ่มต้น $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ not_province_infection_date_global: "การติดเชื้อ #bold ไม่ได้#! เริ่มต้น $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ province_infection_date_third: "การติดเชื้อ [EPIDEMIC.GetName] ใน [PROVINCE.GetName] เริ่มต้น $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ not_province_infection_date_third: "การติดเชื้อ [EPIDEMIC.GetName] ใน [PROVINCE.GetName] #bold ไม่ได้#! เริ่มต้น $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ 
+ days_since_province_infection_global: "การติดเชื้อเริ่มต้น $COMPARATOR$ $NUM|V$ วันที่แล้ว"
+ not_days_since_province_infection_global: "การติดเชื้อ #bold ไม่ได้#! เริ่มต้น $COMPARATOR$ $NUM|V$ วันที่แล้ว"
+ days_since_province_infection_third: "การติดเชื้อ [EPIDEMIC.GetName] ใน [PROVINCE.GetName] เริ่มต้น $COMPARATOR$ $NUM|V$ วันที่แล้ว"
+ not_days_since_province_infection_third: "การติดเชื้อ [EPIDEMIC.GetName] ใน [PROVINCE.GetName] #bold ไม่ได้#! เริ่มต้น $COMPARATOR$ $NUM|V$ วันที่แล้ว"
+ 
+ province_infection_rate_global: "[infection_rate|E] คือ $COMPARATOR$ $NUM|V$"
+ not_province_infection_rate_global: "[infection_rate|E] #bold ไม่ใช่#! $COMPARATOR$ $NUM|V$"
+ province_infection_rate_third: "[infection_rate|E] ของ [EPIDEMIC.GetName] ใน [PROVINCE.GetName] คือ $COMPARATOR$ $NUM|V$"
+ not_province_infection_rate_third: "[infection_rate|E] ของ [EPIDEMIC.GetName] ใน [PROVINCE.GetName] #bold ไม่ใช่#! $COMPARATOR$ $NUM|V$"
+ 
+ any_province_epidemic_global: "[epidemics|E] ใดๆ"
+ any_province_epidemic_third: "[epidemics|E] ใดๆ ใน [PROVINCE.GetName]"
+ any_province_epidemic_count_global: "$PARAMETERS$ [epidemics|E]"
+ any_province_epidemic_count_third: "$PARAMETERS$ [epidemics|E] ใน [PROVINCE.GetName]"
+ 

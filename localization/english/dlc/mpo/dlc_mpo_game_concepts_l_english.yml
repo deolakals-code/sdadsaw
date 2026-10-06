@@ -1,0 +1,197 @@
+﻿l_english: 
+ game_concept_nomadic_government: "การปกครองแบบชนเผ่าเร่ร่อน"
+ game_concept_nomadic: "เร่ร่อน"
+ game_concept_nomadic_desc: "เหล่า[rulers|E] ผู้เร่ร่อนใช้ประโยชน์จาก [county_fertility|E] เพื่อเพิ่มพูน [herd|E] ของตน พวกเขาสามารถใช้ Herd เป็น [horde|E] ซึ่งสามารถยกระดับเป็น [men_at_arms|E] ได้ พวกเขามี [yurt|E]\n\nชาวเร่ร่อนสามารถ [migrate|E] เพื่อค้นหาดินแดนที่อุดมสมบูรณ์กว่า แม้นว่า [realms|E] เร่ร่อนขนาดใหญ่จะสามารถเพิ่มพูนฝูงปศุสัตว์ของตนได้ผ่านทาง [tributaries|E] หรือโดยการบรรลุ [fertility_equilibrium|E] ในระดับสูง\n\nชาวเร่ร่อนมีค่า [dread|E] สูงสุดที่มากกว่า"
+ game_concept_nomad_i: "@government_type_nomad!"
+ game_concept_nomads: "ชาวเร่ร่อน"
+ game_concept_nomads_desc: "$game_concept_nomadic_desc$"
+ game_concept_nomad: "ชาวเร่ร่อน"
+ game_concept_nomad_desc: "$game_concept_nomadic_desc$"
+
+
+ game_concept_confederation_government: "การปกครองแบบสมาพันธรัฐ"
+ game_concept_confederation: "สมาพันธรัฐ"
+ game_concept_confederations: "สมาพันธรัฐ"
+ game_concept_confederation_desc: "ความสัมพันธ์ที่ผูกมัดเหล่า [rulers|E] [tribal|E] หรือ [nomadic|E] ไว้ในการป้องกันร่วมกัน, คล้ายคลึงกับ [alliance|E] ก่อตั้งขึ้นผ่าน [decision|E] #high $call_for_confederation_decision$#!, สมาพันธรัฐกำหนดให้สมาชิกเข้าร่วม [wars|E] ป้องกันของกันและกัน สมาพันธรัฐสามารถดูได้ในแถบการทูต\n\nเหล่า [confederates|E] ร่วมสมาพันธ์จะไม่โจมตีหรือ [raid|E] ซึ่งกันและกัน พวกเขาถูกจำกัดจากระดับสูงของ [tribal_authority|E] และ [nomadic_authority|E], และไม่อาจสร้าง [titles|E] ใหม่ได้\n\n[confederates|E] อาจใช้ [decision|E] #high $leave_confederation_decision$#! หรือ [migrate|E] เพื่อกลับไปเป็น [independent|E] หากสมาพันธรัฐเหลือสมาชิกเพียงหนึ่งเดียว, สมาพันธ์นั้นจะถูกทำลาย"
+
+ game_concept_confederate: "สมาชิกสมาพันธรัฐ"
+ game_concept_confederates: "เหล่าสมาชิกสมาพันธรัฐ"
+ game_concept_confederate_desc: "[ruler|E] ผู้เป็นสมาชิกใน [confederation|E] พวกเขาจะเข้าร่วม [wars|E] ป้องกันของสมาชิกสมาพันธรัฐอื่นโดยอัตโนมัติ และถูกจำกัดมิให้โจมตีหรือ [raiding|E] พวกเขา"
+
+ game_concept_county_fertility: "ความอุดมสมบูรณ์ของเคาน์ตี"
+ game_concept_county_fertility_desc: "$game_concept_county_fertility$ มีอยู่ใน [counties|E] ที่ตั้งอยู่ภายใน [the_great_steppe|E] และเหล่า[rulers|E] [GetGovernment( 'nomad_government' ).GetName] สามารถใช้เป็นที่เล็มหญ้าเพื่อเพิ่มพูน [herd|E] ของตนได้\n\nความอุดมสมบูรณ์ของเคาน์ตีแสดงถึงคุณภาพของทุ่งหญ้าเลี้ยงสัตว์\n\nความอุดมสมบูรณ์จะคงที่รอบ ๆ [fertility_equilibrium|E] ทำให้ผู้ปกครองชาวเร่ร่อนที่มี [domain_limit|E] ขนาดใหญ่สามารถรักษาการเติบโตของ Herd ของตนไว้ได้ ความอุดมสมบูรณ์ได้รับผลกระทบจาก [steppe_seasons|E] และค่อย ๆ ได้รับการฟื้นฟูโดย [herders|E]\n\nเมื่อความอุดมสมบูรณ์ของ [realm|E] ต่ำ ถือเป็นสัญญาณให้ [migrate|E]\n\n[county_control|E] จะชะลออัตราการเติบโตของความอุดมสมบูรณ์ลงเป็นเปอร์เซ็นต์เท่ากับระดับการควบคุมในปัจจุบัน"
+ game_concept_county_fertility_i: "@county_fertility_icon!"
+
+ game_concept_fertility_equilibrium: "ดุลยภาพความอุดมสมบูรณ์"
+ game_concept_fertility_equilibrium_desc: "ดุลยภาพความอุดมสมบูรณ์ คือการคาดการณ์ว่า [county|E] จะอุดมสมบูรณ์เพียงใดในระยะยาว เป็นค่าที่ [county_fertility|E] จะปรับเข้าหาเมื่อเวลาผ่านไป\n\nหาก [county_fertility|E] ปัจจุบันต่ำกว่าดุลยภาพ ค่านี้จะเพิ่มขึ้น และจะลดลงหากสูงกว่า\n\nดุลยภาพความอุดมสมบูรณ์และความเร็วในการเปลี่ยนแปลงส่วนใหญ่ขึ้นอยู่กับอัตราส่วนของตัวปรับ แต่งการเติบโตและการบริโภคสำหรับ [county|E] หากทั้งการเติบโตและการบริโภคมีค่าน้อย การเปลี่ยนแปลงใด ๆ จะมีผลกระทบต่อดุลยภาพมากขึ้นอย่างมาก"
+ game_concept_equilibrium: "ดุลยภาพ"
+
+ game_concept_domain_fertility: "ความอุดมสมบูรณ์ของอาณาเขตปกครอง"
+ game_concept_domain_fertility_desc: "ความอุดมสมบูรณ์ของอาณาเขตปกครอง คือผลรวมของ [county_fertility|E] ทั้งหมดของ [counties|E] ที่ท่านครอบครอง"
+ 
+ game_concept_seasonal_prediction: "การพยากรณ์ฤดูกาล"
+ game_concept_seasonal_prediction_desc: "$court_position_court_astrologer$ ผู้เชี่ยวชาญสามารถพยากรณ์ [steppe_season|E] ถัดไปในภูมิภาคได้ โดยมอบข้อมูลที่เป็นประโยชน์แก่เจ้าเหนือหัวของตนเพื่อวางแผนการเคลื่อนไหวครั้งต่อไป"
+ 
+ game_concept_kurultai: "คุรุลไท"
+ game_concept_kurultais: "เหล่าคุรุลไท"
+ game_concept_kurultai_member: "สมาชิกคุรุลไท"
+ game_concept_kurultai_members: "เหล่าสมาชิกคุรุลไท"
+ game_concept_kurultai_desc: "คุรุลไททำหน้าที่แทน [council|E] สำหรับ [nomadic_government|E] สมาชิกคุรุลไทจัดอยู่ในกลุ่มชนชั้นนำของอาณาจักร และควรได้รับการเอาใจ หรือถูกบังคับให้อยู่ใน [obedience|E] เพื่อให้มั่นใจถึงการ [succession|E] ที่ราบรื่น\n\nหลังเหตุการณ์การสืบทอดตำแหน่งอันวุ่นวาย พวกเขาอาจขโมย [herd|E] บางส่วน ทอดทิ้ง [liege|E] คนใหม่ของตน และจะได้รับ [claim|E] ต่อ [title|E] ของ [realm|E]"
+ game_concept_kurultai_1_desc: "$game_concept_kurultai_desc$"
+ game_concept_kurultai_2_desc: "$game_concept_kurultai_desc$"
+ game_concept_kurultai_3_desc: "$game_concept_kurultai_desc$"
+ game_concept_kurultai_4_desc: "$game_concept_kurultai_desc$"
+
+ game_concept_herd: "ฝูงชนและปศุสัตว์"
+ game_concept_herd_desc: "$game_concept_herd$ หมายถึงผู้คนและฝูงสัตว์ของ [ruler|E] [GetGovernment( 'nomad_government' ).GetName] เช่น ม้า แกะ และแพะ\n\nสามารถได้รับมาจากการครอบครอง [counties|E] ที่มี [county_fertility|E] สูง, จาก [vassals|E], หรือ [tributaries|E] [traditions|E] ทางวัฒนธรรม, [dynasty_perks|E], [legitimacy|E], และ [yurt_buildings|E] บางอย่างใน [yurt|E] สามารถให้โบนัสแก่การเพิ่ม $game_concept_herd$ ได้\n\nส่วนหนึ่งของ Herd จะถูกเปลี่ยนเป็น [horde|E] เมื่อผู้ปกครองระดม [armies|E] ของตน และจากนั้นสามารถเปลี่ยนเป็น [men_at_arms|E] ได้ในราคาที่ถูกลง เมื่อ [armies|E] เหล่านี้ถูกยุบ กอง [horde|E] ที่เหลือจะเปลี่ยนกลับเป็น Herd\n\nHerd ให้ [gold|E] จำนวนเล็กน้อยอย่างต่อเนื่อง และยังสามารถใช้เป็นสกุลเงินสำหรับดำเนินการ [decisions|E] บางอย่าง หรือเพิ่มการยอมรับการ [migration|E] ได้"
+ game_concept_herd_i: "@herd_icon!"
+
+ game_concept_horde: "กองทัพชนเผ่าเร่ร่อน"
+ game_concept_horde_desc: "$game_concept_horde$ คือสิ่งที่แสดงถึงกำลังทหารของ [ruler|E] [GetGovernment( 'nomad_government' ).GetName] ได้รับมาเป็นส่วนหนึ่งจาก [herd|E] ของพวกเขา และจะปรากฏขึ้นเมื่อ [ruler|E] ระดม [armies|E] ของตนเท่านั้น\n\nพวกเขาจะถูกเปลี่ยนเป็น [GetMaA('nomadic_riders').GetName] ซึ่งสามารถยกระดับเป็น [men_at_arms|E] อื่น ๆ ได้โดยจ่ายค่า [gold|E]\n\n[traditions|E] ทางวัฒนธรรมบางอย่าง, สิทธิประโยชน์ตกทอดของ [dynasty|E] และ [yurt_buildings|E] สามารถเพิ่มอัตราการเปลี่ยนได้"
+ 
+ game_concept_herder: "ผู้เลี้ยงสัตว์"
+ game_concept_herder_desc: "อาณาจักรของผู้เลี้ยงสัตว์ถูกแยกออกจากทุกแง่มุมของการปกครอง พวกเขาไม่บัญชาการ [armies|E], ไม่ครอบครอง [buildings|E], ไม่สร้าง [alliances|E], หรือประกาศ [wars|E] เมื่อ [nomads|E] [migrate|E] เข้ามาใน [holding|E] ผู้เลี้ยงสัตว์จะค่อย ๆ ฟื้นฟู [county_fertility|E] ในท้องถิ่นด้วยคุณลักษณะของฝูงสัตว์ที่เล็กกว่าของพวกเขา\n\nพวกเขาหวาดเกรงต่อเหล่า[rulers|E] ชาว [nomad|E] ที่แท้จริง และจะยอมมอบดินแดนของตนทันทีเมื่อถูกท้าทาย"
+ game_concept_herder_i: "@government_type_herder!"
+ game_concept_herders: "เหล่าผู้เลี้ยงสัตว์"
+ game_concept_herders_desc: "$game_concept_herder_desc$"
+
+ game_concept_nomadic_holding: "นิคมชนเร่ร่อน"
+ game_concept_nomadic_holding_desc: "$game_concept_nomadic_holdings$ แสดงถึงการมีอยู่ของ [yurt|E] บนแผนที่ เป็น [holding_type|E] ที่ใช้โดยเหล่า[rulers|E] [GetGovernment( 'nomad_government' ).GetName] และให้ [county_control|E] และ [county_opinion|E] จำนวนเล็กน้อย"
+ game_concept_nomadic_holdings: "นิคมชนเร่ร่อน"
+ game_concept_nomadic_holdings_desc: "$game_concept_nomadic_holding_desc$"
+
+ game_concept_herder_holding: "นิคมผู้เลี้ยงสัตว์"
+ game_concept_herder_holding_desc: "$game_concept_herder_holding$ เป็น [holding_types|E] ที่เล็กที่สุด แสดงถึงการมีอยู่ของ [herders|E] ในพื้นที่ และให้โบนัสแก่ [county_fertility|E]"
+
+ game_concept_nomadic_authority: "อิทธิพลครอบงำ"
+ game_concept_nomadic_authority_desc: "$game_concept_nomadic_authority$ แสดงถึงอำนาจที่แผ่ขยายออกไปของ [ruler|E] [GetGovernment( 'nomad_government' ).GetName] สามารถเพิ่มได้ตามขนาดของ [herd|E] และจะปลดล็อกทางเลือกในการ [migration|E] เพิ่มเติม\n\n$game_concept_nomadic_authority$ มีห้าระดับที่แตกต่างกัน: [unruly_nomadic|E], [limited_nomadic|E], [high_nomadic|E], [absolute_nomadic|E] และ [unrestricted_nomadic|E]\n\n#weak The last level can only ever be obtained by one ruler per playthrough.#!"
+ game_concept_dominance: "$game_concept_nomadic_authority$"
+
+ game_concept_unruly_nomadic: "ชาวเร่ร่อนไร้ระเบียบ"
+ game_concept_unruly_nomadic_desc: "$game_concept_unruly_nomadic$ คือระดับต่ำสุดของ [nomadic_authority|E] ในระดับนี้ การ [migration|E] สามารถกำหนดเป้าหมายได้เฉพาะ [titles|E] ระดับ [county|E] ที่เป็น [de_jure|E] ภายใน [the_great_steppe|E] เท่านั้น และ [characters|E] ไม่สามารถถูก [imprisoned|E] ได้"
+
+ game_concept_limited_nomadic: "อำนาจจำกัด"
+ game_concept_limited_nomadic_desc: "$game_concept_limited_nomadic$ คือระดับต่ำสุดเป็นอันดับสองของ [nomadic_authority|E] การ [migration|E] สามารถกำหนดเป้าหมาย [titles|E] ระดับ [duchy|E] ที่เป็น [de_jure|E] ภายใน [the_great_steppe|E], [titles|E] สามารถถูกเพิกถอนได้ และเจ้าเหนือหัวสามารถ [imprison|E] [characters|E] ใน [realm|E] ของตนได้แล้ว\n\nสามารถใช้ #V $step_away_from_the_steppe_decision$#! [decision|E] ได้"
+
+ game_concept_high_nomadic: "อำนาจสูง"
+ game_concept_high_nomadic_desc: "$game_concept_high_nomadic$ คือระดับกลางของ [nomadic_authority|E] ในระดับนี้ การ [migration|E] สามารถกำหนดเป้าหมาย [titles|E] ระดับ [kingdom|E] ที่เป็น [de_jure|E] ภายใน [the_great_steppe|E] และเจ้าเหนือหัวสามารถ [retract|E] เจ้าประเทศราชของ [vassal|E] ได้"
+
+ game_concept_absolute_nomadic: "อำนาจเด็ดขาด"
+ game_concept_absolute_nomadic_desc: "$game_concept_absolute_nomadic$ คือระดับสูงสุดเป็นอันดับสองของ [nomadic_authority|E] ในระดับนี้ การ [migration|E] สามารถกำหนดเป้าหมาย [titles|E] ระดับ [empire|E] ที่เป็น [de_jure|E] ภายใน [the_great_steppe|E]\n\n[rulers|E] ที่เป็น [independent|E] อาจตั้งถิ่นฐานนอกทุ่งหญ้าสเตปป์โดยใช้ #high $settle_the_steppe_decision$#! [decision|E]"
+
+ game_concept_unrestricted_nomadic: "อำนาจไร้ขีดจำกัด"
+ game_concept_unrestricted_nomadic_desc: "$game_concept_unrestricted_nomadic$ คือระดับสูงสุดของ [nomadic_authority|E] ระดับนี้สามารถบรรลุได้โดย [character|E] เพียงคนเดียวในทั้งเกม และพวกเขาจะกลายเป็น [GetTrait('greatest_of_khans').GetName( GetNullCharacter )]\n\n[rulers|E] ที่เป็น [independent|E] อาจใช้ #high $mpo_become_greatest_of_khans_decision$#! และ #high $mpo_gok_world_conquest_decision$#! [decisions|E]"
+
+ game_concept_the_great_steppe: "มหาทุ่งหญ้าสเตปป์"
+ game_concept_the_great_steppe_desc: "$game_concept_the_great_steppe$ หมายถึงทะเลทุ่งหญ้าอันกว้างใหญ่สุดลูกหูลูกตาของทุ่งหญ้าสเตปป์ยูเรเชีย และสภาพภูมิอากาศที่หล่อหลอมมันขึ้นมา และแบ่งออกเป็นสามภูมิภาค: ตะวันตก กลาง และตะวันออก\n\n[steppe_seasons|E] ที่แตกต่างกันแสดงถึงเหตุการณ์ทั้งที่เป็นคุณและเป็นโทษเหล่านี้ มอบโอกาสสำหรับการกระทำพิเศษที่มีให้เฉพาะในช่วงเวลานั้น และปรับเปลี่ยน [county_fertility|E] ของ แต่ละภูมิภาค\n\nเฉพาะเหล่า[rulers|E] [GetGovernment( 'nomad_government' ).GetName] และ [herder|E] เท่านั้นที่เข้าร่วมใน [situation|E] นี้ และ [gurkhan|E] เป็นตัวแทนของผู้ปกครองที่ทรงอิทธิพลที่สุดในภูมิภาคทั้งหมด"
+
+ game_concept_suzerain: "เจ้าอธิราช"
+ game_concept_suzerain_desc: "$game_concept_suzerain$ คือ [ruler|E] ที่มี [tributary|E] อย่างน้อยหนึ่งราย เจ้าอธิราชเองก็อาจเป็นรัฐบรรณาการ (Tributaries) ของ [ruler|E] อื่นได้ แต่พวกเขาจะต้องไม่เป็น [vassals|E] โดยเด็ดขาด"
+ game_concept_suzerains: "เหล่าเจ้าอธิราช"
+ game_concept_suzerains_desc: "$game_concept_suzerain_desc$"
+ game_concept_suzerain_possessive: "ของเจ้าอธิราช"
+
+ game_concept_tributary: "รัฐบรรณาการ"
+ game_concept_tributary_desc: "$game_concept_tributary$ คือ [ruler|E] ผู้บรรลุข้อตกลงกับผู้ปกครองอีกคนหนึ่ง, ซึ่งเป็น [suzerain|E] ของพวกเขา\n\n$game_concept_tributary$ จะมอบบรรณาการเป็นระยะในรูปแบบของ [herd|E], [taxes|E], [prestige|E] หรือแม้ แต่ [piety|E] (ขึ้นอยู่กับประเภท) และ, เพื่อเป็นการแลกเปลี่ยน, จะได้รับ [truce|E] กับ $game_concept_suzerain$\n\nรัฐบรรณาการเป็นรูปแบบข้าแผ่นดิน (subject) ที่หลวมกว่า ซึ่งไม่สามารถเข้าร่วม [factions|E] ได้, แต่สามารถแยกตัวเป็นอิสระได้หากข้อกำหนดของพวกเขาไม่บรรลุผล\n\nหากจ้าวเหนือหัว (Suzerain) ไม่ [landed|E] หรือ [migrating|E] อีกต่อไป, เหล่ารัฐบรรณาการจะแยกตัวเป็นอิสระหลังจากเวลาสั้น ๆ"
+ game_concept_tributaries: "เหล่ารัฐบรรณาการ"
+ game_concept_tributary_possessive: "ของรัฐบรรณาการ"
+ game_concept_tributaries_desc: "$game_concept_tributary_desc$"
+
+ game_concept_subject: "ผู้อยู่ใต้อาณัติ"
+ game_concept_subject_desc: "$game_concept_subject$ คือ [ruler|E] ใด ๆ ที่ได้ถวายสัตย์ปฏิญาณความภักดีต่อผู้ปกครองอื่น พวกเขาสามารถเป็นได้หลายประเภท เช่น [vassals|E] หรือ [tributaries|E] โดย แต่ละประเภทมีข้อกำหนดเฉพาะของตนเอง"
+ game_concept_subjects: "เหล่าผู้อยู่ใต้อาณัติ"
+ game_concept_subjects_desc: "$game_concept_subject_desc$"
+
+ game_concept_steppe_season: "ฤดูกาลทุ่งหญ้าสเตปป์"
+ game_concept_steppe_season_desc: "$game_concept_steppe_season$ แสดงถึงสภาพภูมิอากาศปัจจุบันของ [the_great_steppe|E] และผลกระทบที่มีต่อ [county_fertility|E] ตลอดจนการกระทำที่มีให้สำหรับ [rulers|E] ที่เกี่ยวข้องใน [situation|E]\n\n$game_concept_steppe_seasons$ เป็นอิสระต่อกันใน แต่ละภูมิภาค และเหล่าผู้ปกครอง [GetGovernment( 'nomad_government' ).GetName] อาจต้องการย้ายไปยังดินแดนที่มีฤดูกาลที่ส่งผลดีกำลังดำเนินอยู่\n\nในบางครั้ง ฤดูกาลเดียวกันอาจเกิดขึ้นใน [situation_sub_region|E] มากกว่าหนึ่งแห่งในเวลาเดียวกัน"
+ game_concept_steppe_seasons: "เหล่าฤดูกาลทุ่งหญ้าสเตปป์"
+ game_concept_steppe_seasons_desc: "$game_concept_steppe_season_desc$"
+
+ game_concept_situation: "สถานการณ์"
+ game_concept_situation_situations: "เหล่าสถานการณ์"
+ game_concept_situation_desc: "$game_concept_situation_situations$ เป็นเรื่องราวระยะกลางถึงระยะยาวที่เกี่ยวข้องกับตัวละครภายใน [situation_sub_region|E] ทางภูมิศาสตร์ โดยมีการสลับสับเปลี่ยนระหว่าง [situation_phases|E] ที่แตกต่างกัน"
+ game_concept_situation_phase: "ระยะสถานการณ์"
+ game_concept_situation_phase_desc: "แต่ละ $game_concept_situation_phase$ มีตัวปรับ แต่งและเงื่อนไขของตนเองที่ส่งผลต่อตัวละครที่เกี่ยวข้อง\n\n$game_concept_situation_phases$ บางระยะถูกกระตุ้นโดยเงื่อนไขเฉพาะ ในขณะที่ระยะอื่น ๆ เป็นไปตามกาลเวลาที่ผ่านไป"
+ game_concept_situation_phases: "เหล่าระยะสถานการณ์"
+ game_concept_situation_phases_desc: "$game_concept_situation_phase_desc$"
+ game_concept_situation_sub_region: "ภูมิภาคในสถานการณ์"
+ game_concept_situation_sub_regions: "เหล่าภูมิภาคในสถานการณ์"
+ game_concept_situation_sub_region_desc: "[situation_situations|E] อาจมีมากกว่าหนึ่งภูมิภาค โดย แต่ละภูมิภาคมี [situation_phases|E] ที่เป็นอิสระต่อกัน"
+ game_concept_situation_sub_regions_desc: "$game_concept_situation_sub_region_desc$"
+ game_concept_situation_participant_group: "กลุ่มผู้เข้าร่วม"
+ game_concept_situation_participant_groups: "กลุ่มผู้มีส่วนร่วม"
+ game_concept_situation_participant_group_desc: "กลุ่มผู้เข้าร่วมภายใน [situation|E] คือกลุ่มของตัวละครที่ได้รับผลกระทบเดียวกันในระหว่าง แต่ละ [situation_phase|E]"
+ game_concept_situation_catalyst: "ปัจจัยกระตุ้นสถานการณ์"
+ game_concept_situation_catalyst_catalyst: "ปัจจัยกระตุ้น"
+ game_concept_situation_catalyst_catalysts: "ปัจจัยกระตุ้นต่าง ๆ"
+ game_concept_situation_catalyst_desc:2 "[situation_situations|E] บางอย่างจะเปลี่ยนผ่านระหว่าง [situation_phases|E] เมื่อเกิด $game_concept_situation_catalyst$ ขึ้น\n\nรายชื่อของ $game_concept_situation_catalyst$ ที่มีความสำคัญใน แต่ละ $game_concept_situation_phase$ สามารถพบได้ในหน้าต่าง $game_concept_situation$"
+
+ game_concept_migration: "การย้ายถิ่นฐาน"
+ game_concept_migration_desc: "$game_concept_migration$ จำเป็นอย่างยิ่งสำหรับ [nomads|E] เมื่อ [county_fertility|E] ใน [realms|E] ของพวกเขาต่ำ พวกเขามักจะเคลื่อนย้ายเพื่อค้นหาทุ่งหญ้าที่อุดมสมบูรณ์กว่า\n\nการย้ายถิ่นฐานสามารถกำหนดเป้าหมายได้เฉพาะ [titles|E] ที่เป็น [de_jure|E] เท่านั้น และระดับ [title_tiers|E] ที่เข้าถึงได้นั้นถูกจำกัดโดย [nomadic_authority|E] ของ [ruler|E]\n\nข้อเสนอจะถูกส่งไปยังชาวเร่ร่อน (Nomad) ที่มี [herd|E] ใหญ่ที่สุดในพื้นที่เป้าหมาย และพวกเขาสามารถตัดสินใจว่าจะละทิ้งดินแดนของตนโดยสมัครใจ หรือจะทำสงครามเพื่อปกป้องดินแดนเหล่านั้น\n\n[herders|E] จะละทิ้งดินแดนของตนเสมอ เนื่องจากพวกเขาไม่มีหนทางป้องกันตนเอง"
+ game_concept_migrate: "ย้ายถิ่นฐาน"
+ game_concept_migrate_desc: "$game_concept_migration_desc$"
+ game_concept_migrates: "ย้ายถิ่นฐาน"
+ game_concept_migrated: "ย้ายถิ่นฐานแล้ว"
+ game_concept_migrating: "กำลังย้ายถิ่นฐาน"
+ 
+ game_concept_raid_intent: "เจตนาในการปล้นสะดม"
+ game_concept_raid_intent_desc: "$game_concept_raid_intent$ อาจปรับเปลี่ยนประเภทของรางวัลที่ได้รับจาก [raid|E] หรือความเร็วเคลื่อนที่ของกองทัพ หรือความจุ [loot|E] นอกเหนือจากการปล้นสะดมทั่วไปเพื่อ [gold|E] และ [prestige|E], ยังมีทางเลือกอื่น เช่น พยายามทำลาย [buildings|E], หรือเพิ่มโอกาสในการ [imprisoning|E] [characters|E]"
+ game_concept_raid_intents: "เหล่าเจตนาในการปล้นสะดม"
+ game_concept_raid_intents_desc: "$game_concept_raid_intent_desc$"
+ 
+ game_concept_gurkhan: "กูรข่าน"
+ game_concept_gurkhan_desc: "ภัยคุกคามที่ใหญ่ที่สุดของ [the_great_steppe|E] $game_concept_gurkhan$ คือ [ruler|E] [GetGovernment( 'nomad_government' ).GetName] ที่มี [herd|E] ใหญ่ที่สุดในทั้งภูมิภาค ทำให้พวกเขากลายเป็นพันธมิตรที่ทรงพลังหรือศัตรูที่น่าสะพรึงกลัว\n\nเฉพาะ $game_concept_gurkhan$ เท่านั้นที่สามารถบรรลุระดับสูงสุดของ [nomadic_authority|E] ได้ ทำให้พวกเขาสามารถกลายเป็น [GetTrait('greatest_of_khans').GetName( GetNullCharacter )] และ ทำให้พวกเขากลายเป็นเป้าหมาย"
+ 
+ game_concept_yurt: "นครหลวงเร่ร่อน"
+ game_concept_yurt_desc: "$game_concept_yurts$ คือกลุ่มกระโจม ปศุสัตว์ ผู้คน และม้าที่เคลื่อนย้ายได้ สามารถมีขนาดตั้งแต่แกะเพียงไม่กี่ตัวไปจนถึงกองทัพอันเกรียงไกร\n\nเหล่า[rulers|E] [GetGovernment( 'nomad_government' ).GetName] มี $game_concept_yurt$ ซึ่งพวกเขาขยายขนาดผ่านทาง [yurt_buildings|E] และนำติดตัวไปด้วยเมื่อ [migrate|E] พวกเขาไม่สามารถสร้าง [buildings|E] ทั่วไปใน [holdings|E] ได้\n\n$game_concept_yurt$ มี [faith|E] และ [culture|E] ที่เป็นตัวแทนของคนส่วนใหญ่ที่อพยพย้ายถิ่น ซึ่งอาจแตกต่างจากของ [ruler|E]\n\n[court|E] ทั้งหมดของพวกเขาเดินทางไปด้วย เช่นเดียวกับ [family|E], [kurultai|E] และ [knights|E]"
+ game_concept_yurts: "เหล่านครหลวงเร่ร่อน"
+ game_concept_yurts_desc: "$game_concept_yurt_desc$"
+ 
+ game_concept_yurt_buildings: "สิ่งปลูกสร้างประจำนครหลวงเร่ร่อน"
+ game_concept_yurt_buildings_desc: "$game_concept_yurt_buildings$ คือการปรับปรุงที่เป็นเอกลักษณ์ของ $game_concept_yurt$\n\nในทางกลไกแล้ว พวกมันคือ [domicile_buildings|E] — แม้ว่าหลายอย่างจะแสดงถึงธรรมเนียมปฏิบัติทางสังคมหรือเป็นเพียงส่วนที่ชนเผ่า $game_concept_nomad$ ให้ความสำคัญ แทนที่จะเป็นโครงสร้างทางกายภาพจริง ๆ\n\nโบนัสที่พวกมันสามารถมอบให้ได้ รวมถึง:\n$EFFECT_LIST_BULLET$ การปลดล็อก [court_positions|E] และ [decisions|E] และ [character_interaction|E]s แบบเร่ร่อน\n$EFFECT_LIST_BULLET$ โบนัสต่าง ๆ แก่ [herd|E] และ [county_fertility|E] รวมถึงความเชี่ยวชาญเฉพาะทาง [terrain|E]\n$EFFECT_LIST_BULLET$ การปลดล็อกและปรับปรุง [men_at_arms|E] แบบเร่ร่อน และการเสริมความแข็งแกร่งของ [horde|E]\n$EFFECT_LIST_BULLET$ โบนัส [culture_tradition|E] เฉพาะของชาวเร่ร่อน\n$EFFECT_LIST_BULLET$ วิธีการจัดการ [vassals|E] และ [tributaries|E] ของท่าน ตลอดจนการสร้างอิทธิพลต่อ [characters|E] ในราชสำนักของท่าน\n$EFFECT_LIST_BULLET$ โบนัสสำหรับ [kurultai|E] และ [obedience|E]"
+ game_concept_yurt_building: "สิ่งปลูกสร้างประจำนครหลวงเร่ร่อน"
+ game_concept_yurt_building_desc: "$game_concept_yurt_buildings_desc$"
+ 
+ game_concept_obedience: "ความสวามิภักดิ์"
+ game_concept_obedience_desc: "ใน [realms|E] แบบ [GetGovernment( 'nomad_government' ).GetName] ความสวามิภักดิ์เป็นตัวกำหนดความจงรักภักดีของ [character|E] ต่อ [liege|E], [suzerain|E] หรือเจ้าของ [court|E] ของตน ตัวละครสามารถสวามิภักดิ์ต่อ [ruler|E] ได้เพียงคนเดียวใน แต่ละครั้ง\n\nตัวละครที่สวามิภักดิ์มีโอกาสน้อยที่จะเข้าร่วมใน [hostile_schemes|E], เข้าร่วม [wars|E] หรือเข้าร่วม [factions|E] ต่อต้านเจ้าเหนือหัวของตน พวกเขาจะสนับสนุนความต้องการของเจ้าเหนือหัวเสมอในระหว่างการ [succession|E] และจะไม่ใช้ [claims|E] ของตนต่อเจ้าเหนือหัว [tributaries|E] ที่ไม่สวามิภักดิ์อาจพยายามแยกตัวเป็นอิสระ\n\nเมื่อคะแนนของตัวละครเกิน [obedience_threshold|E] พวกเขาจะกลายเป็นผู้ที่สวามิภักดิ์"
+ game_concept_obedient: "สวามิภักดิ์"
+ game_concept_obedience_i: "@obedience_icon!"
+ game_concept_obedient_desc: "$game_concept_obedience_desc$"
+ obedience_value: "[obedience|E]:"
+ obedience_threshold_value: "[obedience_threshold|E]:"
+
+ game_concept_disobedient: "ไม่สวามิภักดิ์"
+ game_concept_disobedience_i: "@disobedience_icon!"
+ game_concept_disobedient_desc: "$game_concept_obedience_desc$"
+
+ game_concept_obedience_threshold: "เกณฑ์ความสวามิภักดิ์"
+ game_concept_obedience_threshold_desc: "$game_concept_obedience_threshold$ คือคะแนนที่ [characters|E] ต้อง ทำให้ได้ เพื่อที่จะถือว่า [obedient|E]\n\nเกณฑ์นี้ได้รับผลกระทบจากปัจจัยหลายประการ: หากพวกเขาเป็น [close_family|E] ของ [overlord|E], หากพวกเขาเป็น [primary_heir|E], [friendship|E] หรือ [rivalry|E] ของพวกเขา, [traits|E] ของพวกเขา และไม่ว่าท่านจะจ้างพวกเขาใน [kurultai|E] หรือ [court|E] ของท่านหรือไม่ [children|E] มีแนวโน้มที่จะสวามิภักดิ์มากกว่าผู้ใหญ่\n\n[rulers|E] [GetGovernment( 'nomad_government' ).GetName] สามารถใช้ #EMP $mpo_desperate_stance_decision$#! [decision|E] เพื่อ ทำให้ทุกคนสวามิภักดิ์, #EMP $impose_obedience_intent$#! [intent|E] ในระหว่าง [GetActivityType( 'activity_hunt').GetName] เพื่อกำหนดเป้าหมายตัวละครหนึ่งตัว และ #EMP $mpo_demand_obedience_interaction$#! [character_interaction|E] หากพวกเขามี [dread|E] สูงพอ"
+
+ game_concept_overlord: "ผู้ปกครองเหนือหัว"
+ game_concept_overlord_desc: "$game_concept_overlord$ คือ [ruler|E] ที่ผู้ปกครองอื่นได้ให้คำมั่นว่าจะเชื่อฟัง ไม่ว่าจะเป็นในฐานะ [vassal|E] หรือ [tributary|E] ทั้ง [suzerains|E] และ [lieges|E] ล้วนเป็นผู้ปกครองเหนือหัว"
+ game_concept_overlord_possessive: "ของเจ้าเหนือหัว"
+
+ game_concept_settlement_issue: "ปัญหาการตั้งถิ่นฐาน"
+ game_concept_settlement_issue_desc: "ปัญหาการตั้งถิ่นฐานคืองานที่มอบให้กับ [ruler|E] ชาว [nomad|E] หลังจากเสร็จสิ้นการ [migration|E] ไปยังดินแดนใหม่ ปัญหาเหล่านี้เปิดโอกาสให้จัดการกับความขัดแย้งและเพิ่ม [county_control|E] ในท้องถิ่นของ [domain|E] ใหม่\n\nปัญหาเหล่านี้จะยังคงเกิดขึ้นในช่วงปีแรก ๆ หลังจากผู้ปกครองได้ย้ายถิ่นฐาน ตราบใดที่เคาน์ตียังมีระดับการควบคุมต่ำ"
+
+ game_concept_settlement_issue_tier: "ระดับชั้นของปัญหาการตั้งถิ่นฐาน"
+ game_concept_settlement_issue_tier_desc: "ทุก ๆ [settlement_issue|E] จะมีระดับชั้นของปัญหาการตั้งถิ่นฐาน ซึ่งสะท้อนถึงรางวัลโดยรวมของปัญหาเมื่อแก้ไขได้สำเร็จ การแก้ไขปัญหาที่มีระดับชั้นสูงกว่าโดยทั่วไปจะ ส่งผลให้ได้รับรางวัลมากขึ้นนอกเหนือจาก [county_control|E]"
+
+ game_concept_unmanaged_holdings: "เขตถือครองไร้การจัดการ"
+ game_concept_unmanaged_holding: "เขตถือครองไร้การจัดการ"
+ game_concept_unmanaged_holdings_desc: "เหล่านี้คือ [holdings|E] ที่ถูกปิดใช้งาน ซึ่งไม่นับรวมอยู่ใน [domain_limit|E] ของท่าน"
+
+ game_concept_nerge: "เนอร์เก"
+ game_concept_nerge_outcome: "ผลลัพธ์ของเนอร์เก"
+ game_concept_nerge_desc: "เนอร์เกเป็น [GetActivityType('activity_hunt').GetName] ประเภทพิเศษที่สามารถดำเนินการได้โดย [rulers|E] [GetGovernment( 'nomad_government' ).GetName] แทนที่จะเป็นการล่าสัตว์เพียงตัวเดียว มันคือการล่าขนาดใหญ่ที่มีการสังหารสัตว์หลายร้อยหรืออาจถึงหลายพันตัว\n\nแทนที่จะใช้ [hunt_success_chance|E] ตามปกติ มันจะติดตามคะแนนผลลัพธ์ของเนอร์เกตามจำนวนสัตว์ที่ถูกฆ่า ซึ่งเป็นตัวตัดสินประเภทของรางวัลที่ [activity_host_short|E] และ [activity_guests_short|E] จะได้รับ\n\nเนอร์เกที่ประสบความสำเร็จมักจะให้รางวัล:\n$BULLET_WITH_TAB$[legitimacy_i][legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i][prestige|E]\n$BULLET_WITH_TAB$[dread_i][dread|E]\n$BULLET_WITH_TAB$[gold_i][gold|E]\nและในบางกรณีอาจให้รางวัล:\n$BULLET_WITH_TAB$[martial_i][martial|E]\n$BULLET_WITH_TAB$[command_modifier_i][commander_trait|E] or [trait_level_track_xp|E]"
+
+ game_concept_dominate_title: "การเข้าครอบครองบรรดาศักดิ์"
+ game_concept_domination_war: "สงครามเพื่อเข้าครอบครอง"
+ game_concept_dominate_title_desc: "[nomads|E] ที่ต้องการได้รับ [title|E] ในระดับ [title_tier|E] ที่สูงขึ้นโดยไม่ต้อง [migrating|E] มีทางเลือกในการต่อสู้กับผู้อยู่อาศัยในท้องถิ่นของพื้นที่เพื่อแย่งชิงบรรดาศักดิ์ ตราบใดที่พวกเขามีระดับ [dominance|E] ที่เหมาะสม\n\nหากมีผู้ถือครองบรรดาศักดิ์ดังกล่าวอยู่ พวกเขาจะเริ่มสงครามกับเป้าหมายนั้นเพื่อชิงบรรดาศักดิ์มาจากพวกเขา หากไม่มีผู้ถือครองบรรดาศักดิ์ดังกล่าว พวกเขาจะต่อสู้กับทุกคนที่ไม่ใช่ [tributary|E] และไม่ใช่ [ally|E] ในพื้นที่ [de_jure|E] ของบรรดาศักดิ์นั้นแทน\n\nเมื่อได้รับชัยชนะ ผู้รุกรานจะได้รับบรรดาศักดิ์ดังกล่าว และผู้ป้องกันทั้งหมดจะกลายเป็นรัฐบรรณาการของพวกเขา เมื่อพ่ายแพ้ ผู้รุกรานจะต้องจ่าย [gold_i][gold|E] ให้แก่ผู้ป้องกัน และสูญเสีย [dread_i][dread|E] จำนวนมาก\n\nหากผู้ดำเนินการ [decision|E] ถือครองพื้นที่ [de_jure|E] ทั้งหมด พวกเขาจะได้รับบรรดาศักดิ์ทันที เนื่องจากไม่มีผู้ป้องกันให้ต่อสู้ด้วย"
+
+ game_concept_expand_dominance: "ขยายอิทธิพลครอบงำ"
+ game_concept_dominance_expansion: "การขยายอิทธิพลครอบงำ"
+ game_concept_expand_dominance_desc: "สงครามพิเศษสำหรับ [rulers|E] [GetGovernment( 'nomad_government' ).GetName] เพื่อครอบครองพื้นที่ภายในดินแดน [de_jure|E] ของตน หรือเพื่อขยายพื้นที่ [de_jure|E] ของตนไปยังชายแดนใหม่\n\nผู้ปกครองชาวเร่ร่อนทั้งหมดที่มี [title_tier|E] ระดับ [duchy|E] หรือสูงกว่าสามารถเริ่มสงครามภายในเขต [de_jure|E] ของตนได้ เมื่อได้รับชัยชนะ พวกเขาจะพยายาม ทำให้ผู้ป้องกันมาเป็น [vassalize|E] หรือบังคับให้เป็น [tributary|E] หรือยึดครองดินแดนของพวกเขาทั้งหมดหากพวกเขาถือครองดินแดนนอกพื้นที่เป้าหมายของสงคราม\n\nในการขยายอาณาเขตการปกครองไปยังดินแดนต่างชาติ ผู้ปกครองชาวเร่ร่อนต้องมีระดับ [kingdom|E] หรือสูงกว่า เมื่อได้รับชัยชนะ พวกเขายังคงจะพยายาม ทำให้ดินแดนเหล่านั้นมาเป็นเจ้าประเทศราช (Vassalize) เป็นรัฐบรรณาการ (Tributarize) หรือยึดครอง แต่ดินแดนเหล่านั้นจะเปลี่ยนสถานะเป็น [de_jure|E] ของบรรดาศักดิ์หลักของผู้ปกครองชาวเร่ร่อนทันที"
+
+ game_concept_paiza: "ไป่จื่อ"
+ game_concept_paiza_desc: "ไป่จื่อ หรือ เกเรเก คือแผ่นโลหะขนาดเล็กที่ออกโดย [characters|E] ผู้ทรงอำนาจใน [the_great_steppe|E] ซึ่งขยายอำนาจของข่านไปยังผู้ถือครอง\n\nในทางกลไกแล้ว พวกมันคือ [artifacts|E] ที่ผู้ปกครอง [GetGovernment( 'nomad_government' ).GetName] ผู้ทรงอำนาจออกให้แก่คนโปรดของตนผ่านทาง #V$mpo_interaction_grant_paiza$#! [character_interaction|E]\nหลังจากดำเนินการ #V $mpo_establish_paiza_system_decision$#! [decision|E] ท่านจะสามารถเข้าถึง #V $mpo_call_for_merchants_decision$#! [decision|E] ซึ่งอนุญาตให้ท่านทำการค้ากับผู้คนที่ตั้งถิ่นฐานแล้ว ซึ่งได้รับการปรับปรุงโดย [internal_upgrades|E] ต่าง ๆ ของ [yurt_buildings|E] [GetDomicileBuilding('trade_yurt_01').GetName]\n\nอย่างไรก็ตาม [characters|E] ที่ถือครอง [artifacts|E] ไป่จื่อ ซึ่งมีชื่อของ [gurkhan|E] ที่ยังมีชีวิตอยู่ จะสามารถเข้าถึง #V $mpo_abuse_authority_paiza_decision$#! [decision|E] และ #V $mpo_interaction_leverage_khan_authority$#! [character_interaction|E]\n\n#weak By the power of Eternal สวรรค์. By the protection of the Imperial Good Fortune. An edict of the Khan; any person whosoever who does not respect it shall be punished, shall die.#!"

@@ -1,0 +1,11 @@
+﻿l_english: 
+ feast_default_axel.1001.t: "ความเขลาแห่งวัยเยาว์"
+ feast_default_axel.1001.desc: ""ข้า — #EMP ฮึก!# — สัญญาเลยว่า นี่คือที่ที่ [ROOT.Char.GetTitleAsNameNoTooltip] ผู้อารีของเราเก็บสุราชั้นเลิศของ[ROOT.Char.GetHerHis]ไว้" ข้าได้ยินเสียง [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('youngster_1'))] ของข้า [youngster_1.GetTitledFirstName] พูดกับ [youngster_2.GetTitledFirstName] ขณะที่พวกเขากำลังรื้อค้นห้องเก็บสุราของข้า\n\nเห็นได้ชัดว่าทั้งสองนี้ได้พบสหายที่ถูกคอ...และกำลังประพฤติตนโดยไม่ยำเกรงความเมตตาของข้า"
+ feast_default_axel.1001.a: "โชคร้ายของพวกเขา ข้าได้จัดการส่วนที่เก็บไว้จนหมดสิ้นแล้ว"
+ feast_default_axel.1001.b: "มานี่ ข้าจะนำทางให้..."
+ feast_default_axel.1001.c: "ออกไปเดี๋ยวนี้ มิฉะนั้นข้าจะสั่งเฆี่ยนพวกเจ้า!"
+
+ drunk_high_spirits: "เมาคึกคะนอง"
+ drunk_high_spirits_desc: "ตัวละครนี้กำลังเสพสุรามากเกินควร ไล่ดื่มสุราจนหมดสิ้นจากทุกแหล่งเก็บที่พวกเขาหาพบ"
+ bad_influence_modifier: "อิทธิพลในทางเสื่อม"
+ bad_influence_modifier_desc: "ตัวละครนี้เป็นที่รู้จักในฐานะคนพาลต่ำช้าที่มักชักนำผู้อื่นให้หลงผิด"

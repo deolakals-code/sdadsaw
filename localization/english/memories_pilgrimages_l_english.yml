@@ -1,0 +1,68 @@
+﻿l_english: 
+ completed_hajj_memory:0 "สำเร็จการทำฮัจญ์"
+ completed_first_hajj_desc:0 "ข้าได้ประกอบพิธีฮัจญ์ครั้งแรกสู่ [ROOT.Var('hajj_destination').GetProvince.GetCounty.GetName]"
+ completed_first_hajj_desc_second_perspective:0 "ท่านได้ประกอบพิธีฮัจญ์ครั้งแรกสู่ [ROOT.Var('hajj_destination').GetProvince.GetCounty.GetName]"
+ completed_first_hajj_desc_third_perspective:0 "[owner.GetName] ได้ประกอบพิธีฮัจญ์ครั้งแรกของ[owner.GetHerHis] สู่ [ROOT.Var('hajj_destination').GetProvince.GetCounty.GetName]"
+
+ #I have visited the beautiful walls of Mecca, once again...
+ revisited_hajj_desc:0 "ข้าได้กลับไปเยือนกำแพงอันงดงามแห่ง [ROOT.Var('hajj_destination').GetProvince.GetCounty.GetName] อีกครั้ง เพื่อประกอบพิธีฮัจญ์"
+ revisited_hajj_desc_second_perspective:0 "ท่านได้กลับไปเยือนกำแพงอันงดงามแห่ง [ROOT.Var('hajj_destination').GetProvince.GetCounty.GetName] อีกครั้ง เพื่อประกอบพิธีฮัจญ์"
+ revisited_hajj_desc_third_perspective:0 "[owner.GetName] ได้กลับไปเยือน [ROOT.Var('hajj_destination').GetProvince.GetCounty.GetName] อีกครั้ง เพื่อประกอบพิธีฮัจญ์"
+
+ completed_first_pilgrimage_desc:0 "ข้าเดินทางไปยัง [ROOT.Var('pilgrimage_destination').GetProvince.GetName] เพื่อการจาริกแสวงบุญครั้งแรกของข้า"
+ completed_first_pilgrimage_desc_second_perspective:0 "ท่านเดินทางไปยัง [ROOT.Var('pilgrimage_destination').GetProvince.GetName] เพื่อการจาริกแสวงบุญครั้งแรกของท่าน"
+ completed_first_pilgrimage_desc_third_perspective:0 "[owner.GetName] เดินทางไปยัง [ROOT.Var('pilgrimage_destination').GetProvince.GetName] เพื่อการจาริกแสวงบุญครั้งแรกของ[owner.GetHerHis]"
+
+ completed_pilgrimage_desc:1 "ข้าเดินทางไปยัง [ROOT.Var('pilgrimage_destination').GetProvince.GetName] ใน"
+ completed_pilgrimage_pious_desc:0 "การจาริกแสวงบุญอันเปี่ยมศรัทธา"
+ completed_pilgrimage_worldly_desc:0 "การจาริกแสวงบุญทางโลก"
+ completed_pilgrimage_desc_second_perspective:1 "ท่านเดินทางไปยัง [ROOT.Var('pilgrimage_destination').GetProvince.GetName] ใน"
+ completed_pilgrimage_desc_third_perspective:1 "[owner.GetName] เดินทางไปยัง [ROOT.Var('pilgrimage_destination').GetProvince.GetName] ใน"
+ 
+ completed_pilgrimage_friend_desc:1 "ข้าเดินทางไปยัง [ROOT.Var('pilgrimage_destination').GetProvince.GetName] เพื่อจาริกแสวงบุญพร้อมกับ [friend.GetTitledFirstName]"
+ completed_pilgrimage_friend_desc_second_perspective:1 "ท่านเดินทางไปยัง [ROOT.Var('pilgrimage_destination').GetProvince.GetName] เพื่อจาริกแสวงบุญพร้อมกับ [friend.GetTitledFirstName]"
+ completed_pilgrimage_friend_desc_third_perspective:1 "[owner.GetName] เดินทางไปยัง [ROOT.Var('pilgrimage_destination').GetProvince.GetName] เพื่อจาริกแสวงบุญพร้อมกับ [friend.GetTitledFirstName]"
+
+ pilgrimage_handled_predecessor_remains_memory:0 "จัดการกับร่างของบรรพชนขณะจาริกแสวงบุญ"
+ buried_predecessor_at_holy_site_memory_desc:0 "ข้าได้ฝังร่างของ [predecessor.GetTitledFirstName] ไว้ในสถานที่ศักดิ์สิทธิ์แห่ง [ROOT.Var('pilgrimage_destination').GetProvince.GetName]"
+ buried_predecessor_at_holy_site_memory_desc_second_perspective:0 "ท่านได้ฝังร่างของ [predecessor.GetTitledFirstName] ไว้ในสถานที่ศักดิ์สิทธิ์แห่ง [ROOT.Var('pilgrimage_destination').GetProvince.GetName]"
+ buried_predecessor_at_holy_site_memory_desc_third_perspective:0 "[owner.GetName] ได้ฝังร่างของ [predecessor.GetTitledFirstName] ไว้ในสถานที่ศักดิ์สิทธิ์แห่ง [ROOT.Var('pilgrimage_destination').GetProvince.GetName]"
+ completed_pilgrimage_then_buried_predecessor_memory_desc:0 "ข้าเสร็จสิ้นการจาริกแสวงบุญที่ริเริ่มโดยบรรพชนผู้ล่วงลับ [predecessor.GetTitledFirstName] จากนั้นจึงนำร่างของ[predecessor.GetHerHim] กลับไปฝังที่ [ROOT.Var('home').GetProvince.GetName]"
+ completed_pilgrimage_then_buried_predecessor_memory_desc_second_perspective:0 "ท่านเสร็จสิ้นการจาริกแสวงบุญที่ริเริ่มโดยบรรพชนของท่าน จากนั้นจึงนำร่างของ[predecessor.GetHerHim] กลับไปฝังที่ [ROOT.Var('home').GetProvince.GetName]"
+ completed_pilgrimage_then_buried_predecessor_memory_desc_third_perspective:0 "[owner.GetName] เสร็จสิ้นการจาริกแสวงบุญที่ริเริ่มโดยบรรพชนของ[owner.GetHerHis] จากนั้นจึงนำร่างของ[predecessor.GetHerHim] กลับไปฝังที่ [ROOT.Var('home').GetProvince.GetName]"
+
+ good_predator_omen_memory:0 "ประสบพบเจอลางดี"
+ good_predator_omen_memory_desc:0 "ข้าเฝ้าดูนักล่าในป่าล่าเหยื่อเป็นนก"
+ good_predator_omen_memory_desc_second_perspective:0 "ท่านเฝ้าดูนักล่าในป่าล่าเหยื่อเป็นนก"
+ good_predator_omen_memory_desc_third_perspective:0 "[owner.GetName] เฝ้าดูนักล่าในป่าล่าเหยื่อเป็นนก"
+
+ bad_predator_omen_memory:0 "ประสบพบเจอลางร้าย"
+ bad_predator_omen_memory_desc:0 "ข้าประสบพบเห็นนักล่าจับเหยื่อในป่าไม่สำเร็จ"
+ bad_predator_omen_memory_desc_second_perspective:0 "ท่านประสบพบเห็นนักล่าจับเหยื่อในป่าไม่สำเร็จ"
+ bad_predator_omen_memory_desc_third_perspective:0 "[owner.GetName] ประสบพบเห็นนักล่าจับเหยื่อในป่าไม่สำเร็จ"
+
+ good_prey_omen_memory:0 "$good_predator_omen_memory$"
+ good_prey_omen_memory_desc:0 "ข้าเห็นสัตว์ป่าพบกับคู่ของมันในป่า"
+ good_prey_omen_memory_desc_second_perspective:0 "ท่านเห็นสัตว์ป่าพบกับคู่ของมันในป่า"
+ good_prey_omen_memory_desc_third_perspective:0 "[owner.GetName] เห็นสัตว์ป่าพบกับคู่ของมันในป่า"
+
+ bad_prey_omen_memory:0 "$bad_predator_omen_memory$"
+ bad_prey_omen_memory_desc:0 "ข้าเห็นสัตว์ป่าถูกนักล่าฉีกร่างเป็นชิ้นๆ ในป่าระหว่างทางไปพบกับคู่ของมัน"
+ bad_prey_omen_memory_desc_second_perspective:0 "ท่านเห็นสัตว์ป่าถูกนักล่าฉีกร่างเป็นชิ้นๆ ในป่าระหว่างทางไปพบกับคู่ของมัน"
+ bad_prey_omen_memory_desc_third_perspective:0 "[owner.GetName] เห็นสัตว์ป่าถูกนักล่าฉีกร่างเป็นชิ้นๆ ในป่าระหว่างทางไปพบกับคู่ของมัน"
+ 
+ bad_but_good_prey_omen_memory:0 "$bad_prey_omen_memory$"
+
+ hajj_prophet_like_sacrifice_memory:0 "ทำการพลีเยี่ยงศาสดา"
+ hajj_prophet_like_sacrifice_memory_desc:0 "ด้วยจิตวิญญาณแห่งศาสดา ข้าได้พลีอูฐหกสิบสามตัวในการทำฮัจญ์สู่ [ROOT.Var('memory_location').GetProvince.GetName]"
+ hajj_prophet_like_sacrifice_memory_desc_second_perspective:0 "ด้วยจิตวิญญาณแห่งศาสดา ท่านได้พลีอูฐหกสิบสามตัวในการทำฮัจญ์สู่ [ROOT.Var('memory_location').GetProvince.GetName]"
+ hajj_prophet_like_sacrifice_memory_desc_third_perspective:0 "ด้วยจิตวิญญาณแห่งศาสดา [owner.GetName] ได้พลีอูฐหกสิบสามตัวในการทำฮัจญ์ของ[owner.GetHerHis] สู่ [ROOT.Var('memory_location').GetProvince.GetName]"
+
+ memory_apa_was_converted:0 "ถูกเปลี่ยนศาสนาโดยผู้แสวงบุญ"
+ converted_by_unbeliever_desc:0 "ข้าถูกเปลี่ยนศาสนาเป็น [owner.GetFaith.GetName] โดย [converter.GetName] ระหว่างการจาริกแสวงบุญของ[converter.GetHerHis]"
+ converted_by_unbeliever_desc_second_perspective:0 "ท่านถูกเปลี่ยนศาสนาเป็น [owner.GetFaith.GetName] โดย [converter.GetNameNoTier] ระหว่างการจาริกแสวงบุญของ[converter.GetHerHis]"
+ converted_by_unbeliever_desc_third_perspective:0 "[owner.GetFaith.GetName] ถูกเปลี่ยนศาสนาเป็น [owner.GetFaith.GetName] โดย [converter.GetName] ระหว่างการจาริกแสวงบุญของ[converter.GetHerHis]"
+ memory_apa_converted:0 "เผยแผ่ศาสนาระหว่างการจาริกแสวงบุญ"
+ converted_unbeliever_desc:0 "ระหว่างการจาริกแสวงบุญของข้าสู่ [ROOT.Var('memory_location').GetProvince.GetName] ข้าได้เปลี่ยนศาสนาของ [converted.GetName] เป็น [owner.GetFaith.GetName]"
+ converted_unbeliever_desc_second_perspective:0 "ระหว่างการจาริกแสวงบุญของท่านสู่ [ROOT.Var('memory_location').GetProvince.GetName] ท่านได้เปลี่ยนศาสนาของ [converted.GetName] เป็น [owner.GetFaith.GetName]"
+ converted_unbeliever_desc_third_perspective:0 "ระหว่างการจาริกแสวงบุญสู่ [ROOT.Var('memory_location').GetProvince.GetName] [owner.GetName] ได้เปลี่ยนศาสนาของ [converted.GetName] เป็น [owner.GetFaith.GetName]"

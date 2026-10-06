@@ -1,0 +1,294 @@
+﻿l_english: 
+
+ scheme_type_contract: "สัญญา"
+ scheme_type_scheme: "แผนการ"
+ scheme_type_contracts: "สัญญา"
+ scheme_type_schemes: "แผนการ"
+
+ #################################################
+ # General Agent Events
+
+ agent_events.0001.t: "สนิทสนมกันดุจโจร"
+ agent_events.0001.desc: "นับตั้งแต่คัดเลือกทั้ง[char_1.GetTitledFirstName]และ[char_2.GetTitledFirstName]เข้าร่วม[scheme.Custom('GetSchemeContract')]ของข้า ทั้งคู่ก็ดูสนิทสนมกันมากขึ้น\n\nดูเหมือนว่าภารกิจร่วมกันและความกังวลร่วมกันได้จุดประกายความรู้สึกเป็นพวกเดียวกันในตัวคนเสเพลทั้งสอง\n\nความเข้าใจของพวกเขายังไม่จริงจังนัก แต่การกระตุ้นเล็กน้อยอาจ ทำให้มิตรภาพที่แท้จริงเบ่งบานได้"
+ agent_events.0001.a: "เจ้าว่าแรงจูงใจรึ..."
+ agent_events.0001.b: "บางทีความสัมพันธ์ของพวกเขาอาจมีประโยชน์..."
+ agent_events.0001.b.tt.success: "สายใยแห่งความผูกพันมัดแน่น"
+ agent_events.0001.b.tt.failure: "ท่านล้มเหลวในการกระตุ้นพวกเขาเพิ่มเติม"
+ agent_events.0001.c: "กรุณามุ่งเน้นไปที่ภารกิจตรงหน้า"
+ agent_events.0001.d: "ดีสำหรับพวกเขาแล้ว"
+
+ agent_events.0011.t: "สภาพการทำงานที่ใกล้ชิด"
+ agent_events.0011.desc: "[char_1.GetTitledFirstName]และ[char_2.GetTitledFirstName]ดูเหมือนจะสนุกสนานกัน#EMP มากเกินไป#!เล็กน้อยสำหรับบทบาทอันต่ำต้อยที่พวกเขามีในแผนการของข้า\n\nจุดร่วมในแผนการเล็กๆ ของเราที่จะ[scheme.GetName]ได้นำไปสู่ความเคารพ ซึ่งกันและกัน ซึ่งในทางกลับกันก็กำลังกลายเป็นสายสัมพันธ์ที่แน่นแฟ้นอย่างชัดเจน\n\nแม้ว่าต้นกำเนิดอาจไม่น่าเป็นไปได้ก็ตาม"
+ agent_events.0011.a: "มิตรภาพที่หล่อหลอมขึ้นด้วยความโปรดปรานของข้า!"
+ agent_events.0011.b: "[char_1.GetFirstNameNoTooltip]#EMP ช่าง#!น่าขบขัน..."
+ agent_events.0011.c: "[char_2.GetFirstNameNoTooltip]น่าจะเลือกได้ดีกว่านี้"
+ agent_events.0011.d: "ให้เราสามคนเป็นเพื่อนกันเถิด"
+ agent_events.0011.e: "ข้ายินดีเหลือเกินที่เราทุกคนเข้ากันได้ดี!"
+ agent_events.0011.f: "นี่ไม่ใช่งานสังสรรค์"
+
+ agent_events.0012.t: "สภาพการทำงานที่ใกล้ชิดยิ่งขึ้น"
+ agent_events.0012.desc: "[char_1.GetTitledFirstName]และ[char_2.GetTitledFirstName]ดูเหมือนจะสนุกสนานกัน#EMP มากเกินไป#!เล็กน้อยสำหรับบทบาทอันต่ำต้อยที่พวกเขามีในแผนการของข้า\n\nการเหลือบมองอย่างลับๆ เสียงกระซิบแผ่วเบา จดหมายที่แลกเปลี่ยนกันภายใต้ข้ออ้าง — หากข้าระแวงมากกว่านี้ ข้าอาจไม่ตระหนักว่านี่คือสัญญาณที่ชัดเจนของความสัมพันธ์ระยะเริ่มต้นที่รอคอยที่จะหยั่งราก\n\n#EMP ไม่ใช่#!จุดประสงค์ของแผนการที่จะ[scheme.GetName]เสียทีเดียว"
+ agent_events.0012.a: "และพวกเขาไม่รู้สึกขอบคุณข้าที่ช่วยเหลือเลยรึ?"
+ agent_events.0012.b: "ไม่ต้องสงสัยเลยว่า ความปรารถนาของพวกเขาสามารถนำมาใช้ประโยชน์ได้"
+ agent_events.0012.c: "บางทีความปรารถนาของพวกเขาอาจนำมาใช้ประโยชน์ได้..."
+ agent_events.0012.c.tt.success: "คู่รัก ทำให้[scheme.GetNameNoTooltip]เป็นเรื่องเล่นๆ"
+ agent_events.0012.c.tt.failure: "ประกายไฟดับมอดลง"
+ agent_events.0012.d: "นี่ไม่ใช่สิ่งที่เรามาทำที่นี่!"
+ agent_events.0012.e: "ใครจะสน?"
+ agent_events.0012.e.tt.become_lovers: "จุดเริ่มต้นของบางสิ่งที่มากกว่า"
+ agent_events.0012.e.tt.not_lovers: "$agent_events.0012.c.tt.failure$"
+
+ agent_events.0021.t: "เรียนรู้จากผู้ที่ดีที่สุด"
+ agent_events.0021.desc.intro: "ผู้ร่วมแผนการสองคนของข้า, [char_1.GetTitledFirstName]และ[char_2.GetTitledFirstName], ดูเหมือนจะพบจุดร่วมในแผนการของเรานอกเหนือจากเป้าหมายพื้นฐาน\n\nประทับใจในทักษะของสหายร่วมชาติของ[char_2.GetHerHis]ในด้าน"
+ agent_events.0021.desc.diplomacy: "จดหมาย วาทศิลป์ และวาทกรรมทั่วไป"
+ agent_events.0021.desc.martial: "การส่งกำลังบำรุง เจตจำนง และบุคลิกภาพความเป็นผู้นำ"
+ agent_events.0021.desc.stewardship: "คณิตศาสตร์ การบัญชี และความใส่ใจในรายละเอียด"
+ agent_events.0021.desc.intrigue: "ความเฉลียวฉลาด ความเจ้าเล่ห์ และการตีสองหน้าอย่างโหดเหี้ยม"
+ agent_events.0021.desc.learning: "ปัญญา การอ่าน และความรู้ทั่วไป"
+ agent_events.0021.desc.prowess: "ไหวพริบ กำลัง และสภาพร่างกาย"
+ agent_events.0021.desc.outro: "ที่จำเป็นต่อการ[scheme.GetName], [char_2.GetFirstNameNoTooltip]ได้เริ่มศึกษาว่า[char_1.GetFirstNameNoTooltip]ทำอะไรแตกต่างจาก[char_2.GetHerselfHimself]ด้วยความหวังที่จะพัฒนาทักษะของตนเอง\n\nโดยทฤษฎีแล้ว ไม่เป็นอันตรายอะไร แต่มันไม่ได้ช่วยเป้าหมายโดยรวมของเรา"
+ agent_events.0021.a: "ยอดเยี่ยม!"
+ agent_events.0021.b: "เอาพลังงานนั้นไปใช้กับแผนการสิ เจ้าโง่"
+ agent_events.0021.c: "บางทีอาจมีบางอย่างที่ข้าสามารถเรียนรู้จากสิ่งนี้ได้..."
+
+ agent_events.0031.t: "เรียนรู้จากการทำงาน"
+ agent_events.0031.desc: "ในบรรดาผู้ที่ข้าเลือกให้เข้ามาเกี่ยวข้องกับ[scheme.Custom('GetSchemeContract')]เล็กๆ นี้ [char_1.GetTitledFirstName]อาจไม่ใช่ผู้ที่มีทักษะ#EMP สูงสุด#!อย่างแท้จริง\n\nถึงกระนั้น [char_1.GetSheHe]ก็กำลังทุ่มเท[char_1.GetHerselfHimself]อย่างชัดเจน ตั้งใจที่จะไม่ปล่อยให้ความพยายามของข้าสูญเปล่า โดยมีเป้าหมายที่จะพัฒนาทักษะของ[char_1.GetHerHis]ในเรื่องของ[scheme.Custom('GetSchemeType')|l]\n\nการพัฒนาตนเองนั้นมีค่าใช้จ่าย แต่ท้ายที่สุดแล้วก็ช่วยพวกเราทุกคน"
+ agent_events.0031.a: "เจ้าสามารถไปได้ไกลกว่านี้!"
+ agent_events.0031.a.tt.success: "ผลักดันจนถึงขีดสุด"
+ agent_events.0031.a.tt.failure: "พยายามโดยเปล่าประโยชน์"
+ agent_events.0031.b: "แน่นอนว่า เครดิตต้องยกให้ผู้บงการของเรา"
+ agent_events.0031.c: "แผนการดำเนินไปด้วยดี..."
+
+ agent_events.0041.t: "การวางแผนอย่างขยันขันแข็ง"
+ agent_events.0041.desc: "[char_1.GetTitledFirstName]เป็นทรัพย์สินอันล้ำค่าสำหรับ[scheme.Custom('GetSchemeContract')]ของข้าอย่างแน่นอน โดยมอบทักษะ ปัญญา และคำแนะนำอย่างดีที่สุดเท่าที่[char_1.GetSheHe]จะทำได้ในทุกโอกาส\n\nล่าสุด นั่นหมายถึงการเสนอตัวช่วยสอน#EMP ข้า#! เพื่อพยายามปรับปรุงโอกาสโดยรวมของเรา\n\nข้อเสนอนั้น... #EMP น่าดึงดูดใจ#! หาก แต่ถือวิสาสะไปหน่อย"
+ agent_events.0041.a: "ข้าตกลง"
+ agent_events.0041.a.tt.success: "ท่านเรียนรู้บางสิ่งบางอย่าง"
+ agent_events.0041.a.tt.failure: "เสียเวลาเปล่า"
+ agent_events.0041.a.tt.they_attempt_to_teach_you: "[char_1.GetFirstName]จะพยายามใช้[skill|E]ของ[char_1.GetHerHis]เพื่อสอนท่าน #WEAK (สิ่งนี้จะง่ายขึ้นหาก[char_1.GetSheHe]เก่งกว่าท่าน)#!"
+ agent_events.0041.b: "ช่างแปลกประหลาดเสียนี่กระไร! ไม่"
+ agent_events.0041.c: "จงตั้งใจทำงาน ไม่ใช่มาสนใจข้า"
+
+ agent_events.1001.t: "ผิดคอกัน"
+ agent_events.1001.desc: "ข้าไม่ค่อยได้ยินคนสองคนโต้เถียงกันมากเท่า[char_1.GetTitledFirstName]และ[char_2.GetTitledFirstName], สองพันธมิตร#EMP ในนาม#! ใน[scheme.Custom('GetSchemeContract')]ของเรา มีบางอย่างเกี่ยวกับอีกฝ่ายที่ดูเหมือนจะ ทำให้ แต่ละคนขุ่นเคืองใจอย่างน่าเสียดาย\n\nตอนแรก ข้าพยายามปล่อยวาง อาศัยให้พวกเขาจัดการกันเอง แต่เห็นได้ชัดว่าหากไม่หยุดพวกเขา มันจะส่งผลเสียต่อพวกเราที่เหลือ"
+ agent_events.1001.a: "สั่งสอนพวกเขาทั้งคู่"
+ agent_events.1001.a.tt.success: "พวกเขาจำคำพูดของท่านใส่ใจ"
+ agent_events.1001.a.tt.failure: "ข้อโต้แย้งของท่านไม่เข้าหูพวกเขา"
+ agent_events.1001.b: "อุทธรณ์ด้วยเหตุผล"
+ agent_events.1001.b.tt.success: "$agent_events.1001.a.tt.success$"
+ agent_events.1001.b.tt.failure: "$agent_events.1001.a.tt.failure$"
+ agent_events.1001.c: "ความเกลียดชังไม่ใช่เครื่องมือที่มีปัญหาขนาดนั้น..."
+ agent_events.1001.d: "เจ้า. จะ. หยุด."
+ agent_events.1001.e: "ปล่อยให้พวกงี่เง่าทะเลาะกันไป"
+ agent_events.1001.e.rivals_bicker: "การโต้เถียงที่ไม่หยุดหย่อน"
+ agent_events.1001.e.rivals_bicker_less: "การโต้เถียงเป็นครั้งคราว"
+
+ agent_events.1011.t: "บาดแผลเน่าเปื่อย"
+ agent_events.1011.desc: "บางทีข้าอาจโง่เขลาที่เลือกคนสองคนที่ดูเหมือนจะ#EMP เกลียด#! ชังกันมาเป็นผู้ช่วยใน[scheme.Custom('GetSchemeContract')]นี้ — แน่นอนว่าการโต้เถียงและความอาฆาตพยาบาทเล็กๆ น้อยๆ จาก[char_1.GetTitledFirstName]และ[char_2.GetTitledFirstName]ดูเหมือนจะมุ่งมั่นที่จะพิสูจน์ เช่นนั้น\n\nถึงกระนั้น ไม่ว่าพวกเขาจะเกลียดชังกันเพียงใด พวกเขาก็ควรจะสามารถมุ่งเน้นไปที่งานที่ทำอยู่ได้"
+ agent_events.1011.a: "บังคับให้พวกเขาทำงานร่วมกัน"
+ agent_events.1011.b: "พยายามแยกพวกเขาออกจากกัน"
+ agent_events.1011.c: "ปล่อยวางเสีย"
+
+ agent_events.2001.t: "ยินดีที่ได้ร่วมงานด้วย"
+ agent_events.2001.desc: "นับเป็นโชคดีอย่างแท้จริงที่ข้าได้รับโอกาสวางแผน[scheme.Custom('GetSchemeContract')]นี้โดยมี[relation.Custom2('MyCharacterIntroduction', ROOT.Char)]อยู่เคียงข้าง\n\nไม่มี[ROOT.Char.GetWomanMan]คนใดจะขอผู้ช่วยที่ดีกว่า ช่างสังเกตกว่านี้ได้อีกแล้ว เต็มใจเสมอที่จะทำเกินหน้าที่เพื่อความต้องการของเรา มุ่งเน้นเสมอว่าจะ ทำให้[scheme.Custom('GetSchemeContract')]ก้าวหน้าไปได้อย่างไรดีที่สุด\n\nล่าสุด งานของ[relation.GetHerHis] ส่งผลให้เกิดทางลัด ซึ่งควรจะช่วยประหยัดเวลาให้เราได้อย่างมาก"
+ agent_events.2001.a: "ข่าวดีเยี่ยม!"
+
+ agent_events.2011.t: "วาระส่วนตัว"
+ agent_events.2011.desc: "ความบ้าคลั่งใดหนอที่ดลใจให้ข้านำ[relation.Custom2('MyCharacterIntroduction', ROOT.Char)]เข้ามาใน[scheme.Custom('GetSchemeContract')]ของข้า?\n\nเจ้าโง่เง่าผู้นี้ไม่ได้ทำอะไรเลยนอกจากสร้างปัญหาตั้งแต่วันแรกที่ข้าให้[relation.GetHerHim]เข้ามาเกี่ยวข้อง เป็นหนามยอกอกเล็กๆ ที่น่ารำคาญและน่าเกลียด\n\nแน่นอนว่า ไม่ได้ก่อวินาศกรรมข้าอย่างเปิดเผย แต่เมื่อทุกสิ่งทุกอย่างที่เจ้าแตะต้องผิดพลาดไปโดยไม่มีเหตุผลชัดเจน และมีใครบางคนยิ้มเยาะอยู่เสมอ..."
+ agent_events.2011.a: "เจ้า [relation.Custom2('InsultNoun', ROOT.Char)] ตัวน้อยจอมเจ้าเล่ห์นั่น!"
+
+ agent_events.2021.t: "การแข่งขันเล็กน้อย"
+ agent_events.2021.desc: "ดูเหมือนว่า[scheme.Custom('GetSchemeContract')]ของเราได้กลายเป็นเกมอย่างหนึ่งสำหรับ[agent_1.GetTitledFirstName]และ[agent_2.GetTitledFirstName]\n\nแม้ว่าก่อนหน้านี้จะไม่สนิทสนมหรือโต้เถียงกันเป็นพิเศษ แต่ทั้งสองกำลังเพลิดเพลินกับการแข่งขันสบายๆ ว่าใครจะทำงานได้ดีกว่ากัน โดย แต่ละคนพยายามแสดงความเหนือกว่าอีกฝ่ายอยู่ตลอดเวลา\n\nตอนนี้เป็นเพียงเรื่องเล็กน้อย แต่มันมีเมล็ดพันธุ์ของบางสิ่งที่รุนแรงกว่าอยู่ในนั้น"
+ agent_events.2021.a: "การแข่งขันฉันมิตรเล็กน้อยเป็นสิ่งที่ดี!"
+ agent_events.2021.b: "การแข่งขันที่จริงจังอาจมีประโยชน์..."
+ agent_events.2021.c: "ปล่อยพวกเขาไป"
+
+ agent_events.3001.t: "เผาไหม้ทั้งสองด้าน"
+ agent_events.3001.desc: "เห็นได้ชัดว่า[relation.Custom2('MyCharacterIntroduction', ROOT.Char)]กำลังทุ่มเท[relation.GetHerHis]ทั้งหมดให้กับ[scheme.GetName][scheme.Custom('GetSchemeContract')]ของข้า อุทิศคืนที่ไม่ได้นอนและวันที่ยาวนานเพื่อเป้าหมายของเรา\n\nบางที... บางทีข้าอาจโหดร้ายที่ใช้คนที่ข้ารัก เช่นนี้? แน่นอนว่าข้าไม่สามารถพูดได้ว่าข้าอยากถูกใช้ เช่นนั้น\n\nถึงกระนั้น [relation.GetSheHe]#EMP ก็#!มีประสิทธิภาพ และมันก็เพื่อเหตุผลที่ดี"
+ agent_events.3001.a: "ได้โปรด ทุ่มเท#EMP ทั้งหมด#!ของเจ้า"
+ agent_events.3001.b: "เจ้าสามารถทำได้มากกว่านี้ มากกว่านี้อีกมาก!"
+ agent_events.3001.c: "ใช้เวลากับข้าบ้างเถิด [relation.GetFirstNameNoTooltip]"
+ agent_events.3001.d: "พักผ่อนสักครู่เถิด [relation.GetFirstNameNoTooltip] เจ้าทำมามากพอแล้ว"
+
+ agent_events.3011.t: "เพื่อเห็นแก่ข้า"
+ agent_events.3011.desc: ""#EMP ได้โปรดเถิด#!, [ROOT.Char.GetFirstNameNoTooltip] ท่านทำงานหนักเกินไป ราวกับว่า[scheme.Custom('GetSchemeContract')]นี้กำลังกลืนกินท่าน!" [relation.Custom2('MyCharacterIntroduction', ROOT.Char)]คร่ำครวญ ซึ่งรู้สึกเหมือนเป็นครั้งที่ร้อย\n\nข้า#EMP ขยัน#!หมั่นเพียรในช่วงหลังนี้ ไม่มีการปฏิเสธ แต่ไม่มากไปกว่าที่จำเป็น แน่นอน\n\nสีหน้ากังวลที่ซูบซีด[relation.Custom('MaskFace_BehindAcross')][relation.GetFirstNamePossessiveNoTooltip][relation.Custom('MaskFace')]บอกข้าว่านั่นอาจไม่ใช่กรณี"
+ agent_events.3011.a: "เพื่อเจ้าหรือ? แน่นอน!"
+ agent_events.3011.b: "[ROOT.Char.Custom2('RelationToMeShort',SCOPE.sC('relation'))]#EMP ที่แท้จริง#!จะไม่ขอสิ่งนี้จากข้า"
+ agent_events.3011.c: "ทางออกเดียวคือต้องผ่านมันไป [relation.GetFirstNameNoTooltip]..."
+
+ agent_events.3021.t: "ครอบครัวที่อยู่ด้วยกัน"
+ agent_events.3021.desc: "มันค่อนข้างแปลก ที่[relation.Custom2('MyCharacterIntroduction', ROOT.Char)]และข้าจะใกล้ชิดกันมากขึ้น เพราะ[scheme.Custom('GetSchemeContract')]ที่จะ[scheme.GetName]นี้\n\nถึงกระนั้น ก็มีความสุขที่ได้พบในภารกิจร่วมกัน ในการทำงานร่วมกันเพื่อเป้าหมาย ความคับข้องใจที่แบ่งปันกันจะลดน้อยลง ชัยชนะจะทวีคูณ และมีเรื่องให้พูดคุยกันเสมอ\n\nข้ายินดีที่ได้นำ[relation.GetHerHim]เข้ามาในความพยายามนี้"
+ agent_events.3021.a: "ความสุขในครอบครัว..."
+
+ agent_events.3031.t: "แตกแยก"
+ agent_events.3031.desc: ""ให้ตายเถอะ [relation.GetFaith.HealthGodName] ท่านยังเป็น[relation.Custom2('RelationToMeShort',ROOT.Char)]ของข้าอยู่หรือไม่? แค่เห็นหน้าท่านก็ ทำให้ข้าโกรธแล้วทุกวันนี้!" [relation.GetFirstName]ตวาด\n\nการโต้เถียงนี้ค่อนข้างเป็นเรื่องปกติของการปฏิสัมพันธ์ของเราในช่วงหลัง ความไม่เห็นด้วยเกี่ยวกับแผนการและการปฏิบัติมีอยู่มากมาย วลีถูกตีความในทางที่แย่ที่สุด และข้อพิพาทเพียงเล็กน้อยกลายเป็นการโต้เถียงนานหลายชั่วโมง\n\nไม่ว่าจุดร่วมใดที่ข้าหวังว่าจะสร้างขึ้นโดยการให้[relation.GetHerHim]เข้ามาเกี่ยวข้องกับ[scheme.Custom('GetSchemeContract')]นี้ดูเหมือนจะพังทลายลงอย่างสิ้นเชิง"
+ agent_events.3031.a: "ได้โปรดเถิด [relation.GetFirstNameNoTooltip] มันไม่ใช่อย่างนั้น"
+ agent_events.3031.a.tt.success: "คำวิงวอนของท่านน่าสมเพชพอสมควร"
+ agent_events.3031.a.tt.failure: "คำพูดของท่านไม่เข้าหู"
+ agent_events.3031.b: "เจ้าแค่ไม่เข้าใจวิสัยทัศน์ของข้า!"
+
+ agent_events.3041.t: "ความคิดที่สอง"
+ agent_events.3041.desc: ""[target.GetSheHe|U]เป็น[target_relation.Custom2('RelationToMeShort',SCOPE.sC('target'))]ของข้า ให้ตายสิ!" [target_relation.GetFirstName]ร้องไห้ ข้างๆ [target_relation.GetHerselfHimself]ด้วยความคับข้องใจและกังวลที่ต้องเข้ามาเกี่ยวข้องกับ[scheme.Custom('GetSchemeContract')]เล็กๆ ของข้า\n\nแน่นอน เมื่อพิจารณาว่าเรากำลังวางแผน[scheme.GetName]ต่อต้าน[target.GetFirstName] นั่นอาจเป็นเรื่องที่เข้าใจได้\n\n"บางทีข้าอาจจะ... ถอนตัวออกไปเล็กน้อย ข้าไม่มีประโยชน์ต่อท่านในสภาพนี้อยู่แล้ว""
+ agent_events.3041.tt.forced_to_stay: "[relation.GetFirstName]จะถูกบังคับให้อยู่ใน[scheme.GetName][scheme|E]"
+ agent_events.3041.a: "กรุณา#EMP จำ#!ไว้ว่าเหตุใดท่านจึงมาอยู่ที่นี่"
+ agent_events.3041.a.tt.forced_to_stay_longer: "$agent_events.3041.tt.forced_to_stay$ นานยิ่งขึ้น"
+ agent_events.3041.b: "ให้ข้าเปลี่ยนใจท่าน..."
+ agent_events.3041.b.tt.success: "[relation.GetFirstNameNoTooltip]จะอยู่ต่อ"
+ agent_events.3041.b.tt.failure: "[relation.GetFirstNameNoTooltip]มีอิสระที่จะจากไป"
+ agent_events.3041.c: "ท่านรู้ดีว่าท่านไปไม่ได้"
+ agent_events.3041.c.tt.success: "$agent_events.3041.b.tt.success$"
+ agent_events.3041.c.tt.failure: "$agent_events.3041.b.tt.failure$"
+ agent_events.3041.d: "ท่านสามารถจากไปได้ทุกเมื่อ"
+
+ agent_events.3051.t: "ศัตรูร่วมกัน"
+ agent_events.3051.desc: "เห็นได้ชัดจากการสนทนาล่าสุดของเราว่า[target_rival.GetFirstName]กำลังเริ่มเปิดใจให้ข้า ส่วนใหญ่มาจากความเคารพในวิธีที่ข้าจัดการกับ[scheme.GetName][scheme.Custom('GetSchemeContract')]ต่อต้านศัตรูที่[target_rival.GetHerHis]เกลียดชัง, [target.GetTitledFirstName]\n\nเป็นวิธีที่แปลกในการหาจุดร่วมกับใครบางคน แต่แน่นอนว่าเป็นวิธีที่จริงใจอย่างแรงกล้า\n\nจริงใจมากเสียจน [target_rival.GetFirstNameNoTooltip]ดูเหมือนจะมุ่งมั่นที่จะตอบแทนความพยายามของข้าต่อต้านศัตรูของ[target_rival.GetHerHis] แม้กระทั่งเป็นการตอบแทนล่วงหน้า!"
+ agent_events.3051.a: "บุญคุณต้องทดแทน"
+ agent_events.3051.b: "บางทีเราอาจเป็นเพื่อนกันได้?"
+ agent_events.3051.c: "โปรดใช้เวลาของท่านกับแผนการของเรา"
+
+ agent_events.3061.t: "พระคุณช่วย"
+ agent_events.3061.desc: "ข้อได้เปรียบที่สำคัญอย่างหนึ่งของการมีจารชนเอกของ[target.GetTitledFirstNamePossessive] [target_spymaster.GetFirstName]เข้ามาเกี่ยวข้องใน[scheme.GetName][scheme.Custom('GetSchemeContract')]ของเราคือบุคคลที่มีแนวโน้มจะค้นพบเรามากที่สุดกำลังทำงานอย่างสามารถเพื่อรักษาความลับของเราไว้\n\nแม้ว่าจะคอยช่วยเหลือในการรักษาความเงียบงันนี้รอบๆ ความพยายามของเราเสมอ แต่[target_spymaster.GetFirstNameNoTooltip]ก็#EMP เชี่ยวชาญเป็นพิเศษ#!ในช่วงหลัง ทำให้เรามีเวลาหลายเดือนแห่งความเงียบที่แน่นอนและไม่ถูกรบกวน"
+ agent_events.3061.a: "เรื่องน่าประหลาดใจที่น่ายินดี!"
+ agent_events.3061.a.tt.extra_grace: "[scheme.GetName][scheme|E]ของท่านได้รับ[secrecy_grace|E]เพิ่มเติมหลายเดือน"
+
+ agent_events.3071.t: "หากข้าขอเสนอแนะ"
+ agent_events.3071.desc.intro.nemesis: "ความเกลียดชังอย่างลึกซึ้งของ[agent.GetTitledFirstNamePossessive|U]ที่มีต่อ[target.GetTitledFirstName]กระตุ้นความคิดสร้างสรรค์ที่#EMP น่าทึ่งอย่างแท้จริง#!เมื่อได้รับโอกาสแสดงออก"
+ agent_events.3071.desc.intro.spymaster: "ในฐานะจารชนเอกของ[target.GetTitledFirstNamePossessive], [agent.GetTitledFirstName]มีโอกาสมากมายที่จะค้นพบวิธีที่ไม่เหมือนใครในการเสริม[scheme.Custom('GetSchemeContract')]เล็กๆ ของเรา"
+ agent_events.3071.desc.intro.councillor: "ในฐานะที่เป็นหนึ่งในที่ปรึกษาที่ไว้ใจได้ของ[target.GetTitledFirstNamePossessive], ทักษะและวิสัยทัศน์ของ[agent.GetTitledFirstNamePossessive]รับใช้เป้าหมายของเราได้เป็นอย่างดี"
+ agent_events.3071.desc.outro: "\n\nวันนี้ สิ่งนี้ปรากฏออกมาในรูปแบบของผู้ร่วมแผนการที่เป็นไปได้หลายรายที่เราสามารถนำเข้ามาในความพยายามนี้ได้ การมีมากกว่าหนึ่งคนเสี่ยงที่จะ ทำให้ความพยายามของเราไม่มั่นคง แต่คนใดคนหนึ่งก็ยังคงเป็นการเสริมกำลังที่ทรงพลังได้"
+ agent_events.3071.a: "บางอย่างที่จะเพิ่มโอกาสของเรา เจ้าว่ารึ..."
+ agent_events.3071.b: "หนทางที่จะเร่งแผนการของเรา?"
+ agent_events.3071.c: "การช่วยให้เราเก็บความลับได้นั้นน่าสนใจ"
+ agent_events.3071.d: "แผนการของข้าสมบูรณ์แบบอยู่แล้ว ขอบคุณ"
+
+ agent_events.4001.t: "ไกลเกินไป"
+ agent_events.4001.desc: "ไม่ว่าคุณค่าอื่นใดที่[distant_agent.GetHerHis]อาจมีต่อ[scheme.Custom('GetSchemeContract')]ของเรา ก็ปฏิเสธไม่ได้ว่าระยะทางที่ห่างไกลของ[distant_agent.GetTitledFirstNamePossessive]จาก[scheme.GetTargetCharacter.GetTitledFirstName]ก่อให้เกิด... ปัญหาแก่เรา\n\nผู้ร่วมแผนการที่อยู่ห่างไกลไม่สามารถช่วยเหลือได้เท่ากับผู้ที่สามารถเคลื่อนไหวไปมาได้ตามต้องการ\n\nอนิจจา เราต้องชดใช้ราคาสำหรับสิ่งนี้ในตอนนี้"
+ agent_events.4001.a: "เจ้าเป็นภาระ [distant_agent.GetTitledFirstNameNoTooltip], ไปให้พ้น!"
+ agent_events.4001.b: "ให้ตายสิ..."
+
+ agent_events.4011.t: "เงาในราชสำนัก"
+ agent_events.4011.desc: "นับเป็นพรอย่างแท้จริงที่มีคนอย่าง[skilled_agent.GetTitledFirstName]เข้ามาเกี่ยวข้องใน[scheme.Custom('GetSchemeContract')]ของเรา คนที่สามารถขับเคลื่อนเป้าหมายของเราไปข้างหน้าได้หลายวิธี เพียงแค่รอคำสั่ง\n\nการผสมผสานที่น่าอิจฉาของทักษะ การเข้าถึง และความใกล้ชิดกับ[scheme.GetTargetCharacter.GetTitledFirstName] ทำให้เรามีทางเลือกหลากหลายในการใช้ประโยชน์จาก[skilled_agent.GetHerHim]"
+ agent_events.4011.a: "ผลประโยชน์เล็กน้อยย่อมดีที่สุดเสมอ"
+ agent_events.4011.b: "ศักยภาพในอนาคตดูมีประโยชน์..."
+ agent_events.4011.c: "การปกปิดเป็นกุญแจสำคัญ!"
+ agent_events.4011.d: "สิ่งนี้เปิดประตูบางบานให้เรา"
+
+ #################################################
+ # Agent Modifiers
+
+ agent_events_0001_agents_focused_on_scheme_modifier: "ทำงาน อย่าพูด"
+ agent_events_0001_agents_focused_on_scheme_modifier_desc: "เราไม่ได้มาที่นี่เพื่อสังสรรค์ เรามาที่นี่เพื่อ#EMP ทำให้สำเร็จ#!"
+
+ agent_events_0011_friends_working_on_scheme_together_modifier: "บรรยากาศที่เป็นกันเอง"
+ agent_events_0011_friends_working_on_scheme_together_modifier_desc: "แผนการนี้มีกลุ่มเพื่อนสนิทอยู่เบื้องหลัง"
+
+ agent_events_0012_lovers_get_weird_about_scheme_modifier: "ทั้งหมดเป็นส่วนหนึ่งของเกม"
+ agent_events_0012_lovers_get_weird_about_scheme_modifier_desc: "คู่รักที่คาดหวังสามารถพบความโรแมนติกในสถานที่ที่แปลกประหลาดที่สุดได้"
+
+ agent_events_0021_scheme_speed_boost_modifier: "มุ่งเน้นไปที่เป้าหมาย"
+ agent_events_0021_scheme_speed_boost_modifier_desc: "สิ่งสำคัญเหนือสิ่งอื่นใดคือต้องจำไว้ว่าเราต้องทำอะไรให้สำเร็จ"
+
+ agent_events_0041_better_agent_focusing_modifier: "เปลี่ยนทิศทางความสามารถ"
+ agent_events_0041_better_agent_focusing_modifier_desc: "เพียง เพราะท่านสามารถสอนบทเรียนให้ใครบางคนได้ ไม่ได้หมายความว่าท่านควรทำ"
+
+ agent_events_1001_rival_agents_squabble_modifier: "ผู้ร่วมแผนการทะเลาะวิวาท"
+ agent_events_1001_rival_agents_squabble_modifier_desc: "ผู้ร่วมแผนการหลายคนในแผนการนี้ปฏิเสธที่จะหยุดโต้เถียงกันในเรื่องเล็กน้อยที่สุด"
+
+ agent_events_1001_rival_agents_squabble_less_modifier: "ผู้ร่วมแผนการโต้เถียงกัน"
+ agent_events_1001_rival_agents_squabble_less_modifier_desc: "ผู้ร่วมแผนการของแผนการนี้มักมีปัญหาในการทำงานร่วมกัน แม้ว่าพวกเขายังคงจัดการได้"
+
+ agent_events_1001_rival_agents_forced_submission_modifier: "การยอมจำนนโดยถูกบังคับ"
+ agent_events_1001_rival_agents_forced_submission_modifier_desc: "การแสดงกำลังช่วยในการวางแผนลับได้มากเท่ากับในสงคราม"
+
+ agent_events_1011_rival_agents_forced_to_work_together_modifier: "ศัตรูถูกบังคับให้อยู่ร่วมกัน"
+ agent_events_1011_rival_agents_forced_to_work_together_modifier_desc: "อาจเป็นเรื่องที่ไม่สามารถปฏิบัติได้จริงที่จะแยกผู้ร่วมแผนการที่เป็นศัตรูกันออกจากกัน แต่การนำพวกเขามารวมกันก็มีความยากลำบากในตัวเอง"
+
+ agent_events_1011_rival_agents_kept_separate_modifier: "ศัตรูถูกแยกออกจากกัน"
+ agent_events_1011_rival_agents_kept_separate_modifier_desc: "การต่อสู้กันเองสามารถป้องกันได้ แต่ความไร้ประสิทธิภาพไม่สามารถป้องกันได้"
+
+ agent_events_1011_rival_agents_left_alone_modifier: "ศัตรูถูกปล่อยไว้ตามลำพัง"
+ agent_events_1011_rival_agents_left_alone_modifier_desc: "ผู้ใหญ่ที่โตแล้วสามารถจัดการปัญหาของตนเองได้"
+
+ agent_events_2021_competing_agents_encouraged_rivalry_modifier: "ส่งเสริมการแข่งขัน"
+ agent_events_2021_competing_agents_encouraged_rivalry_modifier_desc: "การแข่งขันเล็กน้อยเป็นสิ่งที่ดีต่อประสิทธิภาพ"
+
+ agent_events_2021_competing_agents_encouraged_friendship_modifier: "ส่งเสริมมิตรภาพ"
+ agent_events_2021_competing_agents_encouraged_friendship_modifier_desc: "การประสานงานก่อให้เกิดความร่วมมือ"
+
+ agent_events_2021_competing_agents_left_alone_modifier: "ผู้ร่วมแผนการแข่งขันกัน"
+ agent_events_2021_competing_agents_left_alone_modifier_desc: "ตามธรรมเนียมแล้ว ความท้าทายจะได้รับการตอบสนองด้วยความท้าทายเพิ่มเติม"
+
+ agent_events_3001_pushed_best_relation_hard_modifier: "การใช้ประโยชน์อย่างโหดร้าย"
+ agent_events_3001_pushed_best_relation_hard_modifier_desc: "บางคนยอมเสียสละทุกอย่างเพื่อคนที่ตนรัก"
+
+ agent_events_3001_pushed_positive_relation_hard_modifier: "การใช้ประโยชน์อย่างไร้ความปรานี"
+ agent_events_3001_pushed_positive_relation_hard_modifier_desc: "มักจะมีพลังใจเหลือให้สกัดออกมาเสมอ — หากท่านใส่ใจมากพอ"
+
+ agent_events_3001_did_not_push_positive_relation_modifier: "การใช้ประโยชน์อย่างยอดเยี่ยม"
+ agent_events_3001_did_not_push_positive_relation_modifier_desc: "ไม่มีสิ่งใดกระตุ้นได้เท่าความรัก"
+
+ agent_events_3011_relaxed_for_relation_modifier: "ให้ความสำคัญกับความสัมพันธ์ก่อน"
+ agent_events_3011_relaxed_for_relation_modifier_desc: "ยังมีสิ่งอื่นในชีวิตนอกเหนือจากการวางแผน"
+
+ agent_events_3011_pushed_relation_away_hard_modifier: "เป้าหมายสำคัญที่สุด"
+ agent_events_3011_pushed_relation_away_hard_modifier_desc: "ทุกสิ่งทุกอย่าง — ทุก#EMP คน#! — เป็นเรื่องรอง"
+
+ agent_events_3011_pushed_relation_away_slightly_modifier: "ไร้ความรู้สึก"
+ agent_events_3011_pushed_relation_away_slightly_modifier_desc: "บางครั้งลำดับความสำคัญก็ชัดเจนในตัวเอง"
+
+ agent_events_4001_distance_malus_t1_modifier: "ผู้ร่วมแผนการกระจัดกระจาย"
+ agent_events_4001_distance_malus_t1_modifier_desc: "ผู้ร่วมแผนการที่อยู่ห่างไกลสามารถก่อให้เกิดปัญหานานัปการได้"
+
+ agent_events_4001_distance_malus_t2_modifier: "$agent_events_4001_distance_malus_t1_modifier$"
+ agent_events_4001_distance_malus_t2_modifier_desc: "$agent_events_4001_distance_malus_t1_modifier_desc$"
+
+ agent_events_4001_distance_malus_t3_modifier: "$agent_events_4001_distance_malus_t1_modifier$"
+ agent_events_4001_distance_malus_t3_modifier_desc: "$agent_events_4001_distance_malus_t1_modifier_desc$"
+
+ agent_events_4001_distance_malus_t4_modifier: "$agent_events_4001_distance_malus_t1_modifier$"
+ agent_events_4001_distance_malus_t4_modifier_desc: "$agent_events_4001_distance_malus_t1_modifier_desc$"
+
+ agent_events_4001_distance_malus_t5_modifier: "$agent_events_4001_distance_malus_t1_modifier$"
+ agent_events_4001_distance_malus_t5_modifier_desc: "$agent_events_4001_distance_malus_t1_modifier_desc$"
+
+ agent_events_4011_bonus_growth_modifier: "ผู้ร่วมแผนการที่หัวใจ"
+ agent_events_4011_bonus_growth_modifier_desc: "มือที่มีทักษะคู่หนึ่งใกล้กับเป้าหมายเป็นสิ่งที่ยอดเยี่ยม"
+
+ agent_events_4011_bonus_max_modifier: "ผู้ร่วมแผนการที่ความคิด"
+ agent_events_4011_bonus_max_modifier_desc: "$agent_events_4011_bonus_growth_modifier_desc$"
+
+ agent_events_4011_bonus_secrecy_modifier: "ผู้ร่วมแผนการที่ดวงตา"
+ agent_events_4011_bonus_secrecy_modifier_desc: "$agent_events_4011_bonus_growth_modifier_desc$"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ agent_events.1021.t: "การเป็นแบบอย่าง"
+ agent_events.1021.desc: ""
+ agent_events.1021.a: ""
+ agent_events.1021.b: ""
+ agent_events.1021.c: ""
+ agent_events.1031.t: "ความเหลื่อมล้ำและความสิ้นหวัง"
+ agent_events.1031.desc: ""
+ agent_events.1031.a: ""
+ agent_events.1031.b: ""
+ agent_events.1031.c: ""
+ agent_events.1041.t: "กดดันจนถึงจุด"
+ agent_events.1041.desc: ""
+ agent_events.1041.a: ""
+ agent_events.1041.b: ""
+ agent_events.1041.c: ""
+ agent_events.1041.d: ""
+ agent_events.1041.e: ""

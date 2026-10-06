@@ -1,0 +1,18 @@
+﻿l_english: 
+ PLAYABLE_DIFFICULTY_INFO_SEPARATOR:0 "\n@warning_icon! "
+
+ pdi_at_war:0 "อยู่ระหว่าง [war|E]"
+ pdi_no_player_heir:0 "ไร้ [player_heir|E]"
+ pdi_primary_heir_of_wrong_dynasty:0 "[primary_heir|E] อยู่ต่าง [dynasty|E]"
+ pdi_cannot_have_children:0 "มิอาจมีบุตรได้"
+ pdi_female_under_male_dominated_doctrine:0 "[faith|E] นิยม [rulers|E] ที่เป็นบุรุษ"
+ pdi_male_under_female_dominated_doctrine:0 "[faith|E] นิยม [rulers|E] ที่เป็นสตรี"
+ pdi_liege_of_hostile_faith:0 "[liege|E] มี [faith|E] ที่เป็นปฏิปักษ์"
+ pdi_patrilinial_marriage_as_woman:1 "[patrilineal|E] [marriage|E]"
+ pdi_matrilinial_marriage_as_man:1 "[matrilineal|E] [marriage|E]"
+ pdi_is_in_debt:0 "ตกอยู่ใน [debt|E]"
+ pdi_has_poor_health:0 "[health|E]: $action_dying$"
+ pdi_in_regency: "อยู่ภายใต้ [regency|E]"
+ pdi_admin_without_noble_title: "เป็น [administrative|E] แต่ไร้ [title|E] แห่ง [noble_family|E]"
+ pdi_herder_to_nomad: "#alert_trial จักแปรเปลี่ยนเป็นผู้ปกครอง [ruler|E] แบบ [GetGovernment( 'nomad_government' ).GetName] หากถูกเลือก#!"
+ pdi_better_with_tgp: "#indent_newline:7 #alert_trial ผู้ปกครองนี้จะได้รับประสบการณ์ที่ดีกว่าด้วยภาคเสริม #V $DLC022_EP4$#!#!#!"

@@ -1,0 +1,27 @@
+﻿l_english: 
+ pilgrimage_corrective_lecture:0 "[CHARACTER.GetShortUIName|U] บรรยายสั่งสอน [TARGET_CHARACTER.GetShortUINamePossessive] อย่างเข้มงวดในการจาริกแสวงบุญ"
+ pilgrimage_corrective_lecture_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] ถูก [CHARACTER.GetShortUIName] อบรมสั่งสอนอย่างเข้มงวดในระหว่างการจาริกแสวงบุญ"
+
+ friend_religious_understanding:0 "[CHARACTER.GetShortUIName|U] แสดงความเข้าใจต่อศรัทธาของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ friend_religious_understanding_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] แสดงความเข้าใจต่อศรัทธาของ [CHARACTER.GetShortUINamePossessive]"
+
+ friend_religious_revalation:0 "[CHARACTER.GetShortUIName|U] ได้ช่วยเหลือให้ [TARGET_CHARACTER.GetShortUIName] เกิดความประจักษ์แจ้งทางศาสนา"
+ friend_religious_revalation_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] ได้ช่วยเหลือให้ [CHARACTER.GetShortUIName] เกิดความประจักษ์แจ้งทางศาสนา"
+
+ rival_attempted_to_convert_my_child:0 "[CHARACTER.GetShortUIName|U] พยายามเปลี่ยนศาสนาบุตรของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ rival_attempted_to_convert_my_child_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] พยายามเปลี่ยนศาสนาบุตรของ [CHARACTER.GetShortUINamePossessive]"
+
+ rival_stole_my_courtier:0 "[CHARACTER.GetShortUIName|U] รับสมัครข้าราชสำนักคนหนึ่งของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ rival_stole_my_courtier_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] รับสมัครข้าราชสำนักคนหนึ่งของ [CHARACTER.GetShortUINamePossessive]"
+ 
+ friend_consoled_me:0 "[CHARACTER.GetShortUIName|U] ปลอบประโลม [TARGET_CHARACTER.GetShortUIName] ในยามที่เกิดวิกฤตศรัทธา"
+ friend_consoled_me_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] ปลอบประโลม [CHARACTER.GetShortUIName] ในยามที่เกิดวิกฤตศรัทธา"
+
+ rival_tried_to_convert_me:0 "[CHARACTER.GetShortUIName|U] พยายามที่จะชักนำให้ [TARGET_CHARACTER.GetShortUIName] เปลี่ยนศาสนาในช่วงเวลาแห่งความยากลำบาก"
+ rival_tried_to_convert_me_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] พยายามที่จะชักนำให้ [CHARACTER.GetShortUIName] เปลี่ยนศาสนาในช่วงเวลาแห่งความยากลำบาก"
+
+ rival_forced_to_marry_heathen:0 "[TARGET_CHARACTER.GetShortUIName|U] บังคับให้ [CHARACTER.GetShortUIName] สมรสกับคนต่างศาสนา"
+ rival_forced_to_marry_heathen_corresponding:0 "[CHARACTER.GetShortUIName|U] บังคับให้ [TARGET_CHARACTER.GetShortUIName] สมรสกับคนต่างศาสนา"
+
+ pilgrimage_poached_courtier:0 "[CHARACTER.GetShortUIName|U] ดึงตัวข้าราชสำนักที่มีทักษะจากราชสำนักของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ pilgrimage_poached_courtier_corresponding:0 "ข้าราชสำนักของ [TARGET_CHARACTER.GetShortUINamePossessive] ถูกดึงตัวโดย [CHARACTER.GetShortUIName|U]"

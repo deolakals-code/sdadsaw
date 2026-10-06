@@ -1,0 +1,28 @@
+﻿l_english: 
+
+ mpo_storyteller_fantastical_creatures_modifier: "อมนุษย์และสัตว์อัศจรรย์"
+ mpo_storyteller_fantastical_creatures_modifier_desc: "ตัวละครนี้ได้รับฟังเรื่องราวของเหล่าอมนุษย์และสัตว์ร้ายนานาชนิดที่พึงระวังในทุ่งหญ้าสเตปป์"
+
+ mpo_storyteller_humorous_tales_modifier: "นิทานชวนหัว"
+ mpo_storyteller_humorous_tales_modifier_desc: "ตัวละครนี้ได้สดับรับฟังเรื่องราวตลกขบขันอันชวนให้ผู้ใดก็ตามหัวร่อได้"
+
+ mpo_storyteller_heroic_triumphs_modifier: "ชัยชนะอันยิ่งใหญ่ของวีรชน"
+ mpo_storyteller_heroic_triumphs_modifier_desc: "ตัวละครนี้ได้รับแรงบันดาลใจและจิตวิญญาณการต่อสู้อันเด็ดเดี่ยวหลังจากได้ฟังเรื่องราวของเหล่านักรบผู้ไม่ย่อท้อและสมรภูมิรบ"
+
+ mpo_whistling_is_difficult_modifier: "การผิวปากอันแหลม"
+ mpo_whistling_is_difficult_modifier_desc: "ตัวละครนี้ได้พยายามเรียนรู้วิธีการผิวปาก แต่ก็มิได้ประสบความสำเร็จมากนัก"
+
+ mpo_sufficient_liar_modifier: "ทุกสิ่งล้วนวางแผนไว้แล้ว"
+ mpo_sufficient_liar_modifier_desc: "ตัวละครนี้โป้ปดต่อผู้ติดตามของตนได้สำเร็จว่าเป็นเจ้าของกับดักเพื่อต้านทานความอดอยาก"
+
+ mpo_trapped_fawn_modifier: "วัฏจักรแห่งชีวิต"
+ mpo_trapped_fawn_modifier_desc: "ตัวละครนี้ได้ปล่อยลูกกวางออกจากกับดัก ด้วยหวังว่ามันจะมีส่วนช่วยในการสืบต่อเผ่าพันธุ์กวางในอนาคต"
+
+ mpo_messenger_positive_liege_modifier: "สาส์นจากแนวหน้า"
+ mpo_messenger_positive_liege_modifier_desc: "ตัวละครนี้ได้รับสาส์นด่วนจากผู้ใต้บังคับบัญชาคนหนึ่งให้เตรียมการ"
+
+ mpo_messenger_negative_liege_modifier: "การคลำหาในความมืด"
+ mpo_messenger_negative_liege_modifier_desc: "ตัวละครนี้มิเคยได้รับสาส์นสำคัญ ทำให้พวกเขาไม่ได้เตรียมพร้อม"
+
+ mpo_inspiring_tunes_modifier: "บทเพลงสร้างแรงบันดาลใจ"
+ mpo_inspiring_tunes_modifier_desc: "ตัวละครนี้ได้รับแรงบันดาลใจจากบทเพลงอันชวนให้รำลึกถึงมรดกของตน"

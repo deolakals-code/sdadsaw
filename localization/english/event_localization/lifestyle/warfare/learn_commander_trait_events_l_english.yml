@@ -1,0 +1,142 @@
+﻿l_english: 
+ #Random Trait Acquisition Events
+ #Choose whether to become aggressive_attacker, unyielding_defender or flexible_leader
+ learn_commander_trait.0002.t:0 "ความสมดุลอันดีงาม"
+ learn_commander_trait.0002.desc:0 "ในความร้อนแรงของการรบ ความเด็ดขาดมักเป็นสิ่งที่แบ่งแยกระหว่างชัยชนะและความพ่ายแพ้\n\nเมื่อถึงเวลา ข้ารู้ว่าข้าจะกระทำการ เช่นไร"
+ learn_commander_trait.0002.a:0 "ข้าจะโจมตี และไม่มีวันผ่อนปรน!"
+ learn_commander_trait.0002.b:0 "ข้ายืนหยัดในที่มั่นของข้า"
+ learn_commander_trait.0002.c:0 "ข้ายังคงตื่นตัว กระทำการตามสถานการณ์ที่กำหนด"
+ 
+ #Choose whether to become a Logistician, a Military Engineer, or forder
+ learn_commander_trait.0003.t:0 "ในดินแดนศัตรู"
+ learn_commander_trait.0003.desc:0 "สงครามตัดสินด้วยการยุทธ์ แต่การยุทธ์ตัดสินด้วยการเตรียมการ\n\nการถูกจับได้โดยไม่มีแผนหรือทิศทางเป็นหนทางที่ดีสู่ความพ่ายแพ้"
+ learn_commander_trait.0003.a:0 "กองทัพของข้าต้องได้รับการส่งกำลังบำรุงอย่างดีเสมอ"
+ learn_commander_trait.0003.b:0 "ไม่มีปราสาทใดจะขัดขวางความพยายามของข้าได้นาน"
+ learn_commander_trait.0003.c:0 "ข้าโจมตีข้ามแม่น้ำด้วยความแน่นอนดุจน้ำขึ้นสูงสุด"
+
+ #Choose whether to become a Reaver or Reckless
+ learn_commander_trait.0004.t:0 "กระแสแห่งการยุทธ์"
+ learn_commander_trait.0004.desc:0 "ข้าเคยเห็นว่ามันเกิดขึ้นอย่างไร ความสงบเล็กน้อยนั้นในช่วงกลางของการรบ ช่วงเวลาสั้นๆ ที่ไม่มีฝ่ายใดกดดันเข้าสู่การต่อสู้ และการตะลุมบอนก็แตกออก ดุจคลื่นแยกตัวรอบโขดหิน"
+ learn_commander_trait.0004.b:0 "ข้าจะกดดันการโจมตีอยู่เสมอ!"
+ learn_commander_trait.0004.c:0 "ถึงเวลาติดอาวุธใหม่ด้วยอาวุธอะไรก็ตามที่ไม่ได้ติดอยู่ในร่าง!"
+
+ #Become a Sea Raider
+ learn_commander_trait.0005.t:0 "ดุจพายุ"
+ learn_commander_trait.0005.desc:0 "เสียงฝีเท้านับร้อยกระทบน้ำตื้น การโจมตีที่รวดเร็วและไร้ความปรานี และอาคารที่ถูกทิ้งให้ลุกไหม้อยู่เบื้องหลังเรา"
+ learn_commander_trait.0005.a:0 "ความโกรธเกรี้ยวของข้าจะไม่มีใครปฏิเสธได้!"
+
+ #Become a Holy Warrior
+ learn_commander_trait.0006.t:0 "คมดาบแห่ง[ROOT.Char.GetFaith.WarGodName]"
+ learn_commander_trait.0006.desc:1 "ข้าเคยเห็นพวก [ROOT.Char.Custom('GetDerogatoryNonbelieverPlural')] ต่อสู้ ข้ารู้ดีว่าพวกมันสังหารผู้มีศรัทธาอย่างโหดเหี้ยมเพียงใด\n\nในนามแห่ง [ROOT.Char.GetFaith.WarGodName] ข้าจะยืนหยัดต่อต้านพวกมัน ด้วยความกล้าหาญที่ [ROOT.Char.GetFaith.WarGodSheHe] ประทานให้แก่ข้า!"
+ learn_commander_trait.0006.a:0 "ข้าจะไม่หยุดพักจนกว่าข้าจะได้ทำลายล้างศัตรูของ[ROOT.Char.GetFaith.PantheonTerm]!"
+
+ #Become a Desert Warrior
+ learn_commander_trait.0007.t:0 "ท่ามกลางแสงแดดที่แผดเผา"
+ learn_commander_trait.0007.desc:0 "ศัตรูของข้าไม่เห็นว่ามันเป็นพรเพียงใด ความหยาบของผืนทรายและความกระหายน้ำ\n\nพวกเขาไม่เข้าใจว่าไพร่พลของข้าทนความร้อนได้อย่างไร อดทนรอคอยการปะทะขณะที่ศัตรูของพวกเขาเกาคอแห้งผาก"
+ learn_commander_trait.0007.a:0 "ทะเลทรายคือพันธมิตรของข้า"
+
+ #Become a Jungle Stalker
+ learn_commander_trait.0008.t:0 "อันตรายดุจพงหญ้า"
+ learn_commander_trait.0008.desc:0 "ไม่มีการยุทธ์ใดง่ายดายในป่าดงดิบ และข้ารู้จักใช้ประโยชน์จากมัน ไพร่พลของข้าบีบให้ศัตรูเดินไปตามเส้นทางรกทึบ ข้าดักจับพวกเขาในโคลนและพุ่มไม้ และหนามก็สามารถสร้างความเสียหายได้มากเท่ากับดาบและหอกของข้า\n\nเมื่อราตรีมาเยือน ร่างกายก็หายไปท่ามกลางใบไม้ที่ร่วงหล่น"
+ learn_commander_trait.0008.a:0 "ป่ามิใช่สถานที่แห่งการให้อภัย"
+
+ #Become a Winter Soldier
+ learn_commander_trait.0009.t:0 "หนาวเหน็บดุจราตรี"
+ learn_commander_trait.0009.desc:0 "ความหนาวเย็นอันไร้ความปรานีได้คร่าชีวิตไปมากมาย แต่ไม่ใช่ชีวิตข้า หรือชีวิตทหารของข้า\n\nเรารู้ว่าจะหาอาหารใต้หิมะได้ที่ไหน เราเหมือนหมาป่าเมื่อติดตามศัตรูของเรา และเรากัดเหมือนความหนาวเย็นของกลางฤดูหนาวที่เลวร้ายที่สุด..."
+ learn_commander_trait.0009.a:0 "เราโจมตีดุจลูกเห็บ"
+
+#Training offer
+ learn_commander_trait.11.opening:1 ""ข้าเข้าใจว่าท่านสนใจที่จะเพิ่มพูนความเข้าใจในศาสตร์สงคราม?" [teacher.GetTitledFirstName] [teacher.Custom('quirk_pos_present')] ขณะที่[teacher.GetSheHe]เข้ามาหาข้า "ข้าอาจช่วยให้ท่านมองเห็นสนามรบในรูปแบบใหม่ได้""
+
+#Generic:
+ #Offer:
+ learn_commander_trait.11.desc:1 "\n\n[teacher.GetFirstName] เป็นที่รู้จักกันดีในด้านความเชี่ยวชาญใน [ROOT.Char.Custom('CommanderTraitSkillDescription')] ของ [teacher.GetHerHis] หากมีใครสักคนที่สามารถช่วยให้ข้าเข้าใจได้ ก็คงจะเป็น [teacher.GetHerHim]"
+ learn_commander_trait.11.a:0 "ข้าต้องการเรียนรู้"
+ learn_commander_trait.11.b:0 "ข้าจะปล่อยให้เป็นหน้าที่ของแม่ทัพนายกองของข้า"
+ learn_commander_trait.11.martial_tt:1 "[teacher.GetFirstName] จะพยายามสอนทักษะ[THIS.Char.Custom('CommanderTraitBeingTaught')]ของ[teacher.GetHerHis]แก่ท่าน\n$EFFECT_LIST_BULLET$[martial_skill|E]ที่สูงจะเป็นประโยชน์ในการแสวงหาความรู้นี้"
+ learn_commander_trait.11.b.tt:0 "#F บางทีอาจเป็นโอกาสหน้า#!"
+ #Final Test:
+ learn_commander_trait.12.desc:0 "[teacher.GetTitledFirstName] ได้แสดงให้ข้าเห็นถึงรายละเอียดของ[ROOT.Char.Custom('CommanderTraitSkillDescription')] การทดสอบสุดท้ายของข้าคือการยุทธ์จำลองกับ[teacher.GetHerHim] เพื่อแสดงสิ่งที่ข้าได้เรียนรู้"
+ learn_commander_trait.12.a:0 "เตรียมจัดแถว!"
+ learn_commander_trait.12.b:0 "ไม่ ข้ายังไม่เข้าใจสิ่งที่[teacher.GetFirstNameNoTooltip]พยายามสอนข้าอย่างถ่องแท้"
+ learn_commander_trait.giving_up_tt:0 "#F ข้าไม่จำเป็นต้องเรียนรู้สิ่งนี้#!"
+ learn_commander_trait_final_test_success:0 "ชัยชนะ!"
+ learn_commander_trait_final_test_success_tt:0 "#F ข้าพิสูจน์ว่าข้าได้เรียนรู้แล้ว#!"
+ learn_commander_trait_final_test_failure:0 "พ่ายแพ้!"
+ learn_commander_trait_final_test_failure_tt:0 "#F ข้ายังเรียนรู้ไม่เพียงพอ#!"
+ #Success:
+ learn_commander_trait.13.desc:0 "[teacher.GetTitledFirstName] ขี่ม้าเข้ามาหาข้า "น่าประทับใจ!" [teacher.GetSheHe] ตะโกน ไพร่พลเกณฑ์ "ศัตรู" ยืนตะลึงในประสิทธิภาพของไพร่พลอื่นๆ ของข้า\n\nไม่ต้องสงสัยเลยว่าข้าได้เข้าใจแล้วว่าการเป็น[ROOT.Char.Custom('CommanderTraitBeingTaught')]หมายความว่าอย่างไร"
+ learn_commander_trait.13.a:0 "ข้าได้เรียนรู้มากมาย"
+ #Failure:
+ learn_commander_trait.14.desc:0 ""บางทีอาจมีบางสิ่งให้ท่านเรียนรู้อีกเล็กน้อย..." [teacher.GetTitledFirstName] ยื่นมือลงมาช่วยข้าขึ้นจากโคลน\n\nไพร่พลของข้าแสดงผลงานได้ไม่ดีนัก ข้าต้องยอมรับว่า[teacher.GetSheHe]อาจจะพูดถูก"
+ learn_commander_trait.14.a:0 "แสดงให้ข้าดูอีกครั้งว่าท่านทำอย่างไร"
+ learn_commander_trait.14.a.tt:1 ""ข้าจะลองอีกครั้ง...""
+ learn_commander_trait.14.b:0 "นี่มันยากเกินไป!"
+ learn_commander_trait.14.b.tt:1 ""ข้ายอมแพ้! อย่างน้อยก็ในตอนนี้""
+
+#Logistics
+ learn_commander_trait.01.t:0 "แหล่งความรู้ด้านการส่งกำลังบำรุง"
+ #Offer:
+ learn_commander_trait.1101.desc:0 "\n\n[teacher.GetFirstName] เป็นที่รู้จักกันดีในเรื่องความเชี่ยวชาญด้านการส่งกำลังบำรุง หากมีผู้ใดที่สามารถช่วยให้ข้าเข้าใจได้ ก็คงเป็น[teacher.GetHerHim]"
+ #Final test
+ learn_commander_trait.1201.desc:0 "[teacher.GetTitledFirstName] ได้แสดงให้ข้าเห็นถึงรายละเอียดของการรับประกันว่าเสบียงจะไปถึงทหารของข้าในสนามรบ การทดสอบสุดท้ายของข้าคือการยุทธ์จำลอง ซึ่งข้าต้องปกป้องขบวนเสบียงของข้าจากการโจมตีของ[teacher.GetHerHis]"
+ #Success
+ learn_commander_trait.1301.desc:0 "[teacher.GetTitledFirstName] ขี่ม้าเข้ามาหาข้า "น่าประทับใจ!" [teacher.GetSheHe] ตะโกน "ไพร่พลของข้าเข้าใกล้ขบวนเสบียงไม่ได้เลย""
+ #Failure
+ learn_commander_trait.1401.desc:0 "ทุกอย่างดูเหมือนจะไปได้สวย จนกระทั่งข้าตระหนักว่าทหารม้าเป็นเพียงกลลวง!\n\n[teacher.GetTitledFirstName] ถือแอปเปิ้ลจากเกวียนของข้าอยู่เมื่อข้าขี่ม้าเข้ามา "ข้าคิดว่าข้าเห็นว่าท่านผิดพลาดตรงไหน" [teacher.GetSheHe] เสนอ [teacher.Custom('quirk_pos_pp')]"
+
+#Military Engineer
+ learn_commander_trait.02.t:0 "การสร้างความสามารถ"
+ #Offer:
+ learn_commander_trait.1102.desc:0 "\n\n[teacher.GetFirstName] เป็นที่รู้จักกันดีในเรื่องความเชี่ยวชาญด้านวิศวกรรมทหาร หากมีผู้ใดที่สามารถช่วยให้ข้าเข้าใจได้ ก็คงเป็น[teacher.GetHerHim]"
+ #Final test
+ learn_commander_trait.1202.desc:0 "[teacher.GetTitledFirstName] ได้แสดงให้ข้าเห็นถึงรายละเอียดของศาสตร์การล้อมเมือง ขณะที่เรายืนอยู่เหนือป้อมปราการจำลอง การทดสอบสุดท้ายของข้าคือการอธิบายว่าข้าจะยึดมันอย่างมีประสิทธิภาพที่สุดได้อย่างไร"
+ #Success
+ learn_commander_trait.1302.desc:0 ""โอ้ ข้าไม่ได้พิจารณาเรื่องนั้น" [teacher.GetTitledFirstName] [teacher.Custom('quirk_pos_present')] [teacher.GetSheHe|U] ไม่พบข้อบกพร่องใดๆ ในแผนของข้าเลย!"
+ #Failure
+ learn_commander_trait.1402.desc:0 ""ท่านลืมหอคอยนั้นไปแล้วหรือ?" [teacher.GetTitledFirstName] ชี้จากเชิงเทินไปยังพื้นที่หน้ากำแพงที่ข้ากำลังอธิบาย ข้าเห็นข้อบกพร่องร้ายแรงในแผนของข้าแล้วตอนนี้"
+
+#aggressive_attacker
+ learn_commander_trait.03.t:0 "ปัญญาอันทำลายล้าง"
+
+#unyielding_defender
+ learn_commander_trait.04.t:0 "โล่แห่งความรู้"
+
+#forder
+ learn_commander_trait.05.t:0 "บ่อเกิดแห่งปัญญา"
+
+#flexible_leader
+ learn_commander_trait.06.t:0 "คำตอบสำหรับทุกสถานการณ์"
+
+#Desert Warrior
+ learn_commander_trait.07.t:0 "ปัญญาแห่งทะเลทราย"
+
+#Jungle Stalker
+ learn_commander_trait.08.t:0 "พงหญ้าแห่งความรู้"
+
+#Winter Soldier
+ learn_commander_trait.09.t:0 "บทเรียนอันหนาวเหน็บ"
+
+#Reaver
+ learn_commander_trait.10.t:0 "ศิลปะแห่งการปล้นสะดม"
+
+#Reckless
+ learn_commander_trait.12.t:0 "การกัดและการฉีก"
+
+#Holy Warrior
+ learn_commander_trait.13.t:0 "การทำศึกด้วยความกระตือรือร้น"
+
+#Sea Raider
+ learn_commander_trait.14.t:0 "ความเข้าใจในการบุกปล้น"
+
+#Fallbacks in case your teacher is no longer with you
+ learn_commander_trait.91.t:0 "ด้วยตัวข้าเอง"
+ learn_commander_trait.1291.desc:0 "แม้ว่า[teacher.GetTitledFirstName]จะไม่ได้ดูแลข้าอยู่ ข้าก็ยังสามารถพิสูจน์ให้ตัวเองเห็นได้ว่าข้าได้เชี่ยวชาญ[ROOT.Char.Custom('CommanderTraitSkillDescription')]แล้ว การทดสอบสุดท้าย การยุทธ์จำลองเพื่อทดสอบทักษะของข้า"
+ learn_commander_trait.1291.a:0 "ถึงเวลาแล้ว"
+ learn_commander_trait.1291.b:0 "หากไม่มี[teacher.GetFirstNameNoTooltip] ข้าก็แค่บอกว่าข้าทำได้ดี"
+
+ learn_commander_trait.1391.desc:0 "ข้าคง ทำให้ท่านภูมิใจ [teacher.GetFirstName]!\n\nการยุทธ์จำลองของข้าประสบความสำเร็จอย่างยิ่งใหญ่ และข้าได้พิสูจน์ความเชี่ยวชาญของข้าแล้ว"
+ learn_commander_trait.1391.a:0 "ตอนนี้ถึงเวลานำสิ่งนี้ไปสู่สนามรบจริง!"
+
+ learn_commander_trait.1491.desc:0 "บางทีอาจเป็นการดีที่สุดที่[teacher.GetTitledFirstName]ไม่ได้อยู่ที่นี่เพื่อเห็นสิ่งนี้...\n\nทุกอย่างผิดพลาดในการยุทธ์จำลองของข้า และไม่มีกลยุทธ์ใดของข้าได้ผลเลย!"
+ learn_commander_trait.1491.a:0 "ดูเหมือนว่าข้ายังมีบางสิ่งที่ต้องเรียนรู้..."

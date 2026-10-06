@@ -1,0 +1,234 @@
+﻿l_english: 
+
+ #Common Islam Localization
+ islam_religion:0 "อิสลาม"
+ islam_religion_adj:0 "มุสลิม"
+ islam_religion_adherent:0 "มุสลิม"
+ islam_religion_adherent_plural:0 "ชาวมุสลิม"
+ islam_religion_desc:0 "อิสลามคือการเปิดเผยครั้งสุดท้ายของศรัทธาอับราฮัม นำทางโดยพระวจนะของพระผู้เป็นเจ้า ดังที่ได้ทรงเปิดเผยแก่ศาสดามุฮัมมัด โดยมุ่งเน้นการดำเนินชีวิตที่ดีงามในการรับใช้พระผู้เป็นเจ้าผู้ทรงเมตตาเพียงองค์เดียว"
+ islam_high_god_name:0 "อัลลอฮ์"
+ islam_high_god_name_2:0 "$islam_high_god_name$" # Optional translation alt
+ islam_high_god_name_3:0 "$islam_high_god_name$" # Optional translation alt
+ islam_high_god_name_possessive:0 "ของอัลลอฮ์"
+ islam_high_god_name_alternate:0 "พระผู้เป็นเจ้า"
+ islam_high_god_name_alternate_possessive:0 "ของพระผู้เป็นเจ้า"
+ islam_good_god_rahim:0 "เราะฮีม"
+ islam_good_god_the_most_gracious:0 "ผู้ทรงกรุณาปรานี"
+ islam_good_god_the_giver_of_peace:0 "ผู้ประทานสันติ"
+ islam_good_god_the_one:0 "เอกองค์ ผู้มิอาจแบ่งแยก"
+ islam_good_god_the_prophet:0 "ศาสดา"
+ islam_good_god_muhammad:0 "มุฮัมมัด"
+ islam_devil_name:0 "ชัยฏอน"
+ islam_devil_name_possessive:0 "ของชัยฏอน"
+ islam_evil_god_iblis:0 "$islam_trickster_god_name$"
+ islam_death_deity_name:0 "อัซรออีล"
+ islam_death_deity_name_possessive:0 "ของอัซรออีล"
+ islam_house_of_worship:0 "มัสยิด"
+ islam_house_of_worship_2:0 "$islam_house_of_worship$" # Optional translation alt
+ islam_house_of_worship_3:0 "$islam_house_of_worship$" # Optional translation alt
+ islam_house_of_worship_plural:0 "มัสยิด"
+ islam_religious_symbol:0 "ชะฮาดะฮ์"
+ islam_religious_symbol_2:0 "$islam_religious_symbol$" # Optional translation alt
+ islam_religious_symbol_3:0 "$islam_religious_symbol$" # Optional translation alt
+ islam_religious_text:0 "อัลกุรอาน"
+ islam_religious_text_2: "หะดีษ"
+ islam_religious_text_3:0 "$islam_religious_text$" # Optional translation alt
+ islam_religious_head_title:0 "เคาะลีฟะฮ์"
+ islam_religious_head_title_name:0 "รัฐเคาะลีฟะฮ์"
+ islam_devotee:0 "มุรชิด"
+ islam_devotee_plural:0 "มุรชิด"
+ islam_priest:0 "อิมาม"
+ islam_priest_plural:0 "อิมาม"
+ islam_priest_alternate_plural:0 "นักบวช"
+ islam_bishop:0 "อาลิม"
+ islam_bishop_plural:0 "อุละมาอ์"
+ islam_positive_afterlife:0 "สวรรค์"
+ islam_positive_afterlife_2: "ญันนะฮ์"
+ islam_positive_afterlife_3: "แดนสุขาวดี"
+ islam_negative_afterlife:1 "ญะฮันนัม"
+ islam_negative_afterlife_2:1 "นรก"
+ islam_negative_afterlife_3:0 "$islam_negative_afterlife$" # Optional translation alt
+ christianity_witchgodname_iblis:0 "อิบลีส"
+ christianity_witchgodname_iblis_possessive:0 "ของอิบลีส"
+
+ islam_creator_god_name:0 "$islam_high_god_name$"
+ islam_creator_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_health_god_name:0 "$islam_high_god_name$"
+ islam_health_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_fertility_god_name:0 "$islam_high_god_name$"
+ islam_fertility_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_wealth_god_name:0 "$islam_high_god_name$"
+ islam_wealth_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_household_god_name:0 "$islam_high_god_name$"
+ islam_household_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_fate_god_name:0 "$islam_high_god_name$"
+ islam_fate_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_knowledge_god_name:0 "$islam_high_god_name$"
+ islam_knowledge_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_war_god_name:0 "$islam_high_god_name$"
+ islam_war_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_trickster_god_name:0 "อิบลีส"
+ islam_trickster_god_name_possessive:0 "ของอิบลีส"
+ islam_night_god_name:0 "$islam_high_god_name$"
+ islam_night_god_name_possessive:0 "$islam_high_god_name_possessive$"
+ islam_water_god_name:0 "$islam_high_god_name$"
+ islam_water_god_name_possessive:0 "$islam_high_god_name_possessive$"
+
+ #Shia
+ islam_shia_priest:0 "มุลลอฮ์"
+ islam_shia_priest_plural:0 "มุลลอฮ์"
+ islam_shia_religious_head_title:0 "อิมาม"
+ islam_shia_religious_head_title_name:0 "ตำแหน่งอิมาม"
+
+ #Ash'ari
+ ashari:0 "อัชอะรียะฮ์"
+ ashari_adj:0 "อัชอะรี"
+ ashari_adherent:0 "ชาวอัชอะรี"
+ ashari_adherent_plural:0 "ชาวอัชอะรี"
+ ashari_desc:0 "สำนักคิดเทววิทยาดั้งเดิมที่เชื่อว่าอัลลอฮ์ทรงสร้างทุกช่วงเวลา แต่มนุษย์มีเจตจำนงเสรีที่จะเลือกระหว่างความดี—สิ่งที่พระผู้เป็นเจ้าทรงบัญชา—และความชั่ว—สิ่งที่พระผู้เป็นเจ้าทรงห้าม"
+
+ #Muwalladism
+ muwalladi:0 "มุวัลลัด"
+ muwalladi_adj:0 "มุวัลลัด"
+ muwalladi_adherent:0 "ชาวมุวัลลัด"
+ muwalladi_adherent_plural:0 "ชาวมุวัลลัด"
+ muwalladi_desc:1 "ห่างไกลจากศูนย์กลางของโลกอาหรับ ชาวมุสลิมไอบีเรียปรับตัวเข้ากับความเป็นจริงของการปกครองภูมิภาคที่มีประชากรคริสเตียนและยิวจำนวนมาก ซึ่งมีประเพณีแปลกประหลาดและต่างชาติ"
+
+ #Masmudism
+ masmudi:1 "อัลโมฮาด"
+ masmudi_adj:1 "อัลโมฮาดี"
+ masmudi_adherent:1 "ชาวอัลโมฮาดี"
+ masmudi_adherent_plural:1 "ชาวอัลโมฮาดี"
+ masmudi_desc:2 "ขบวนการปฏิรูปของศาสนาอิสลามนิกายซุนนีที่มีต้นกำเนิดจากชนเผ่าเบอร์เบอร์ในแอฟริกาเหนือ ขบวนการอัลโมฮาดมองว่าตนเองเป็นพวกเอกนิยมและเทศนาหลักคำสอนเรื่องเอกเทวนิยมอันบริสุทธิ์"
+ masmudi_religious_head_title:0 "เคาะลีฟะฮ์"
+ masmudi_religious_head_title_name:0 "รัฐเคาะลีฟะฮ์"
+
+ #Mu'tazila
+ mutazila:0 "มุอ์ตะซิละฮ์"
+ mutazila_adj:0 "มุอ์ตะซิลี"
+ mutazila_adherent:0 "ชาวมุอ์ตะซิละฮ์"
+ mutazila_adherent_plural:0 "ชาวมุอ์ตะซิละฮ์"
+ mutazila_desc:0 "สำนักคิดเทววิทยาเหตุผลนิยมที่ยืนยันว่าอัลกุรอาน #EMP ไม่ได้#! ดำรงอยู่ร่วมกับพระผู้เป็นเจ้าชั่วนิรันดร์ เนื่องจากพระผู้เป็นเจ้าต้องมีอยู่ก่อนพระวจนะของพระองค์เอง"
+
+ #Maturidi
+ maturidi:0 "มาตุรีดียะฮ์"
+ maturidi_adj:0 "มาตุรีดี"
+ maturidi_adherent:0 "ชาวมาตุรีดี"
+ maturidi_adherent_plural:0 "ชาวมาตุรีดี"
+ maturidi_desc:0 "เทววิทยาเหตุผลนิยมที่สนับสนุนว่าจริยธรรมมีอยู่จริงอย่างเป็นรูปธรรม ซึ่งได้มาจากคุณลักษณะอันเป็นนิรันดร์ของพระผู้เป็นเจ้า ดังนั้นมนุษย์จึงต้องแสวงหาทางเลือกทางจริยธรรม"
+ 
+ #Quranism
+ quranist:0 "กุรอานนิยม"
+ quranist_adj:0 "กุรอานนิยม"
+ quranist_adherent:0 "ชาวกุรอานนิยม"
+ quranist_adherent_plural:0 "ชาวกุรอานนิยม"
+ quranist_desc:0 "การตีความศาสนาอิสลามตามตัวอักษรที่เน้นว่าอัลกุรอานเป็นแหล่งเดียวของปัญญาอันศักดิ์สิทธิ์ และควรปฏิบัติตามอย่างเคร่งครัด โดยไม่สนใจหะดีษและฟัตวา"
+
+ #Ismaili
+ ismaili:0 "อิสมาอีลียะฮ์"
+ ismaili_adj:0 "อิสมาอีลี"
+ ismaili_adherent:0 "ชาวอิสมาอีลี"
+ ismaili_adherent_plural:0 "ชาวอิสมาอีลี"
+ ismaili_desc:0 "นิกายชีอะฮ์ที่ถือว่าสายของอิมามที่แท้จริง—ผู้เปี่ยมด้วยความรู้อันศักดิ์สิทธิ์และปราศจากข้อผิดพลาด—สืบทอดผ่านอิสมาอีล บิน ญะอ์ฟัร พวกเขายังเป็นที่รู้จักในนามผู้นับถือเจ็ดอิมาม เนื่องจากอิสมาอีลเป็นอิมามองค์ที่เจ็ดหลังจากมุฮัมมัด"
+
+ #Qarmatians
+ qarmatian:0 "ก็อรมาฏียะฮ์"
+ qarmatian_adj:0 "ก็อรมาฏี"
+ qarmatian_adherent:0 "ชาวก็อรมาฏี"
+ qarmatian_adherent_plural:0 "ชาวก็อรมาฏี"
+ qarmatian_desc:0 "สาขาหนึ่งของอิสมาอีลียะฮ์ที่ผสมผสานองค์ประกอบของศาสนาโซโรอัสเตอร์ จำนวนอิมามถูกกำหนดไว้ล่วงหน้าโดยพระผู้เป็นเจ้าให้มีเจ็ดองค์ ดังนั้นจึงไม่สามารถมีอิมามเพิ่มได้อีกก่อนที่อิมามองค์ที่เจ็ด—มุฮัมมัด อิบน์ อิสมาอีล—จะกลับมานำทางผู้ศรัทธา"
+
+ #Nizari
+ nizari:0 "นิซารียะฮ์"
+ nizari_adj:0 "นิซารี"
+ nizari_adherent:0 "ชาวนิซารี"
+ nizari_adherent_plural:0 "ชาวนิซารี"
+ nizari_desc:0 "นิกายเหตุผลนิยมที่เน้นการใช้เหตุผลในการตีความอัลกุรอานและหะดีษ การเป็นอิมามเป็นการสืบทอดทางสายเลือด และพวกเขาสืบสายการสืบทอดไปยังอะลี"
+ 
+ #Zayidi
+ zayidi:0 "ซัยดียะฮ์"
+ zayidi_adj:0 "ซัยดี"
+ zayidi_adherent:0 "ชาวซัยดี"
+ zayidi_adherent_plural:0 "ชาวซัยดี"
+ zayidi_desc:0 "อิมามที่แท้จริงไม่ใช่ผู้ที่ไม่มีข้อผิดพลาด แต่ถูกนิยามโดยการต่อสู้กับการทุจริตและความชั่วร้าย ดังนั้น ชาวซัยดีจึงถูกนิยามโดยความเชื่อที่ว่าซัยด์ อิบน์ อะลีเป็นผู้สืบทอดตำแหน่งอิมามโดยชอบธรรม เนื่องจากการกบฏของท่านต่อราชวงศ์อุมัยยะฮ์"
+
+ #Imamism (Twelver)
+ imami:0 "อิมามียะฮ์"
+ imami_adj:0 "อิมามี"
+ imami_adherent:0 "ชาวอิมามี"
+ imami_adherent_plural:0 "ชาวอิมามี"
+ imami_desc:0 "ชาวอิมามีเชื่อว่าอิมามสิบสององค์ได้รับการพยากรณ์ว่าจะนำประชาคมอุมมะฮ์ และอิมามองค์ที่สิบสอง อิมามซะมาน กำลังรอคอยที่จะกลับมานำชาวมุสลิมเข้าสู่วันพิพากษา"
+ islam_ayatollah:0 "อายะตุลลอฮ์"
+ islam_ayatollah_plural:0 "อายะตุลลอฮ์"
+
+ #
+ ghulat:1 "อิคติลาฟ"
+ ghulat_adj:1 "อิคติลาฟี"
+ ghulat_adherent:1 "ชาวอิคติลาฟี"
+ ghulat_adherent_plural:1 "ชาวอิคติลาฟี"
+ ghulat_desc:1 "ชาวอิคติลาฟีเชื่อในธรรมชาติอันศักดิ์สิทธิ์ของอิมามผู้ไม่มีข้อผิดพลาด เริ่มต้นด้วยอะลี พระผู้เป็นเจ้าไม่เพียง แต่ทรง แต่งตั้งและดลใจพวกเขาเท่านั้น แต่ยังสถิตอยู่ในพวกเขาบางส่วนเพื่อนำทางการกระทำของพวกเขา และโดยขยายผลไปยังประชาคมอุมมะฮ์ทั้งหมด"
+
+ alawite:0 "อะละวียะฮ์"
+ alawite_adj:0 "อะละวี"
+ alawite_adherent:0 "ชาวอะละวี"
+ alawite_adherent_plural:0 "ชาวอะละวี"
+ alawite_desc:0 "คำสอนทางศาสนาของชาวอะละวีเป็นความลับ และอัลกุรอานเป็นเพียงหนึ่งในคัมภีร์ศักดิ์สิทธิ์ของพวกเขา นอกเหนือจากความเชื่อในการสืบทอดตำแหน่งอิมามผ่านทางอะลีแล้ว ชาวอะละวียังเชื่อในการกลับชาติมาเกิด และเชื่อว่าสรรพสิ่งทั้งปวงเคยเป็นดวงดาวที่ถูกขับไล่ออกจากสวรรค์ ซึ่งบัดนี้ต้องกลับมาสร้างคุณงามความดีและดำเนินชีวิตอย่างศรัทธาเพื่อกลับคืนสู่ที่เดิม"
+
+ #Alevis
+ alevi:0 "อะเลวี"
+ alevi_adj:0 "อะเลวี"
+ alevi_adherent:0 "ชาวอะเลวี"
+ alevi_adherent_plural:0 "ชาวอะเลวี"
+ alevi_desc:0 "ชาวอะเลวีเชื่อในการสืบทอดตำแหน่งของอิมามสิบสององค์ แต่ยังปฏิบัติตามประเพณีอื่น ๆ อีกมากมายตามที่ระบุไว้ในชุดคัมภีร์ศักดิ์สิทธิ์ของพวกเขา คือ บูยุรุกส์ ในประเพณีอะเลวี พระผู้เป็นเจ้าคือสัจธรรม และมุฮัมมัดกับอะลีคือการสำแดงของพระองค์ในโลก"
+ alevi_house_of_worship:0 "เจมวี"
+ alevi_house_of_worship_2:0 "$alevi_house_of_worship$" # Optional translation alt
+ alevi_house_of_worship_3:0 "$alevi_house_of_worship$" # Optional translation alt
+ alevi_house_of_worship_plural:0 "เจมวี"
+ alevi_religious_text:0 "บูยุรุกส์"
+ alevi_religious_text_2:0 "$alevi_religious_text$" # Optional translation alt
+ alevi_religious_text_3:0 "$alevi_religious_text$" # Optional translation alt
+
+ #Druze
+ druze:0 "ดรูซ"
+ druze_adj:0 "ดรูซ"
+ druze_adherent:0 "ชาวดรูซ"
+ druze_adherent_plural:1 "ชาวดรูซ"
+ druze_desc:0 "มาจากภูเขาแห่งดรูซ ศรัทธาของชาวดรูซปฏิบัติตามหลักการหลายประการของอิสมาอีลียะฮ์ แต่ยัง รวมถึงความเชื่อแบบนอสติกในเทววิทยาอันลึกลับที่มุ่งเน้นไปที่สัจธรรมแห่งการดำรงอยู่"
+ druze_religious_text:0 "สาส์นแห่งปัญญา"
+ druze_religious_text_2:0 "$druze_religious_text$" # Optional translation alt
+ druze_religious_text_3:0 "$druze_religious_text$" # Optional translation alt
+
+ #Ibadi
+ ibadi:1 "อิบาฎียะฮ์"
+ ibadi_adj:0 "อิบาฎี"
+ ibadi_adherent:0 "ชาวอิบาฎี"
+ ibadi_adherent_plural:0 "ชาวอิบาฎี"
+ ibadi_desc:0 "ชาวอิบาฎีไม่เชื่อว่าจำเป็นที่อิสลามทั้งหมดจะต้องถูกปกครองโดยเคาะลีฟะฮ์หรืออิมาม หากไม่มีผู้สมัครที่เหมาะสม ดังนั้นพวกเขาจึงเป็นมุฮักกิมะฮ์ ไม่ยอมรับทั้งสายของอะลีหรือผู้สืบทอดของอะบูบักร์ว่าเป็นผู้นำที่คู่ควร"
+
+ #Azariqa
+ azariqa:1 "อัซเราะเกาะฮ์"
+ azariqa_adj:0 "อะซาริเกาะฮ์"
+ azariqa_adherent:0 "ชาวอะซาริเกาะฮ์"
+ azariqa_adherent_plural:0 "ชาวอะซาริเกาะฮ์"
+ azariqa_desc:0 "เนื่องจากไม่ยอมรับผู้สืบทอดที่คู่ควรต่อจากมุฮัมมัด ชาวอะซาริเกาะฮ์จึงถือเป็นสิทธิ์และหน้าที่ของตนที่จะต่อสู้กับผู้นำใด ๆ ที่ไม่ยึดมั่นในคุณค่าแห่งศรัทธาของตน อันที่จริง ความแตกต่างใด ๆ ในการตีความศรัทธาจะถือว่าผู้นั้นเป็นผู้ไร้ศรัทธา"
+
+ #Najdat
+ najdat:0 "นัจดัต"
+ najdat_adj:0 "นัจดัต"
+ najdat_adherent:0 "ชาวนัจดาตี"
+ najdat_adherent_plural:0 "ชาวนัจดาตี"
+ najdat_desc:0 "ผู้ยึดมั่นในสาขานัจดาตีของเคาะวาริจเชื่อมั่นอย่างแน่วแน่ในการสถาปนาผู้นำมุสลิมผ่านฉันทามติของผู้ศรัทธา ผู้นำไม่ใช่ผู้ไม่มีข้อผิดพลาด แต่ผ่านทางชุมชน พวกเขาได้รับเลือกจากพระผู้เป็นเจ้า"
+ 
+ #Sufri
+ sufri:0 "ศุฟรี"
+ sufri_adj:0 "ศุฟรี"
+ sufri_adherent:0 "ชาวศุฟรี"
+ sufri_adherent_plural:0 "ชาวศุฟรี"
+ sufri_desc:0 "ชาวศุฟรีเชื่อในการนำทางและความเป็นผู้นำอันศักดิ์สิทธิ์ผ่านการตีความพระวจนะของพระผู้เป็นเจ้า แทนที่จะเป็นการสืบทอดทางสายเลือด พระประสงค์ของพระผู้เป็นเจ้าเป็นที่รู้จักในฐานะการแสดงออกถึงเจตจำนงของประชาคมอุมมะฮ์ ตราบใดที่ผู้คนในประชาคมอุมมะฮ์มีความรอบรู้ในอัลกุรอาน"
+
+ #Hafizi
+ hafizi:0 "ฮาฟิซี"
+ hafizi_adj:0 "ฮาฟิซี"
+ hafizi_adherent:0 "ชาวฮาฟิซี"
+ hafizi_adherent_plural:0 "ชาวฮาฟิซี"
+ hafizi_desc:0 "ชาวฮาฟิซีให้ความสำคัญกับการสนับสนุนผู้ที่พวกเขาถือว่าเป็นเคาะลีฟะฮ์ที่แท้จริงเหนือสิ่งอื่นใด ตลอดจนต่อต้านความพยายามใด ๆ ทั้งหมดที่จะโค่นล้มหรือปลดพวกเขาออกจากตำแหน่ง ในความพ่ายแพ้ พวกเขาถูกนิยามโดยการกบฏเพื่ออุดมการณ์อันคู่ควร และในชัยชนะ คือการยึดมั่นอย่างภาคภูมิใจต่อเจตจำนงของผู้นำของตน"

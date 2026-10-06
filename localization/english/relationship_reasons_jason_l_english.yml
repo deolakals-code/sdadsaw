@@ -1,0 +1,21 @@
+﻿l_english: 
+ rival_looted_tournament:0 "[CHARACTER.GetShortUIName|U] ปลุกปั่นให้เกิดจลาจลอันเลวร้าย ซึ่งเปลี่ยนการแข่งขันของ [TARGET_CHARACTER.GetShortUINamePossessive] ให้กลายเป็นทะเลเลือด"
+ rival_looted_tournament_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] ปลุกปั่นให้เกิดจลาจลอันเลวร้าย ซึ่งเปลี่ยนการแข่งขันของ [CHARACTER.GetShortUINamePossessive] ให้กลายเป็นทะเลเลือด"
+
+ rival_forced_to_compete:0 "[CHARACTER.GetShortUIName|U] เพิกเฉยต่อปัญหาของ [TARGET_CHARACTER.GetShortUINamePossessive] และกดดันให้ [TARGET_CHARACTER.GetHerHim] เข้าร่วมการประลองทั้งที่ [TARGET_CHARACTER.GetHerHis] ไม่เต็มใจ"
+ rival_forced_to_compete_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] เพิกเฉยต่อปัญหาของ [CHARACTER.GetShortUINamePossessive] และกดดันให้ [CHARACTER.GetHerHim] เข้าร่วมการประลองทั้งที่ [CHARACTER.GetHerHis] ไม่เต็มใจ"
+
+ rival_dismissed_knight:0 "[CHARACTER.GetShortUIName|U] หยามเกียรติ [TARGET_CHARACTER.GetShortUIName] ด้วยการเพิกถอนคำสัตย์ในการรับใช้ทางการทหารของ [TARGET_CHARACTER.GetHerHis] อย่างน่าอัปยศ"
+ rival_dismissed_knight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] หยามเกียรติ [CHARACTER.GetShortUIName] ด้วยการเพิกถอนคำสัตย์ในการรับใช้ทางการทหารของ [CHARACTER.GetHerHis] อย่างน่าอัปยศ"
+
+ friend_sympathy_to_unwilling_knight:0 "[TARGET_CHARACTER.GetShortUIName|U] ได้รับความเมตตาและความผ่อนปรนจาก [CHARACTER.GetShortUIName] เมื่อปีศาจในใจของ [TARGET_CHARACTER.GetHerHis] ขัดขวางมิให้ [TARGET_CHARACTER.GetHerHim] ปฏิบัติหน้าที่ของ [TARGET_CHARACTER.GetHerHis]"
+ friend_sympathy_to_unwilling_knight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] มอบความเมตตาและความผ่อนปรนเมื่อปีศาจในใจของ [CHARACTER.GetShortUINamePossessive] ขัดขวางมิให้ [CHARACTER.GetHerHim] ปฏิบัติหน้าที่ของ [CHARACTER.GetHerHis]"
+
+ rival_poached_drunk_knight:0 "[CHARACTER.GetShortUIName|U] ฉวยโอกาสจากความฮึกเหิมยามเมามายของยอดนักรบของ [TARGET_CHARACTER.GetShortUINamePossessive] เพื่อผูกมัดผู้เมามายนั้นให้เข้ารับใช้"
+ rival_poached_drunk_knight_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] ฉวยโอกาสจากความฮึกเหิมยามเมามายของยอดนักรบของ [CHARACTER.GetShortUINamePossessive] เพื่อผูกมัดผู้เมามายนั้นให้เข้ารับใช้"
+
+rival_enforced_cultural_norms: "[CHARACTER.GetShortUIName|U] บังคับใช้ความเข้าใจอันผิวเผินเกี่ยวกับประเพณีร่วมกันของ [CHARACTER.GetHerHis] ต่อ [TARGET_CHARACTER.GetShortUIName] ทำให้ [TARGET_CHARACTER.GetHerHim] เต็มไปด้วยความอัปยศอดสู"
+
+friend_mutual_disinterest_in_tradition: "[CHARACTER.GetShortUIName|U] ปกป้อง [TARGET_CHARACTER.GetShortUIName] ในวัยเยาว์จากข้อเรียกร้องที่ให้ [TARGET_CHARACTER.GetSheHe] ยอมจำนนต่อความคาดหวังทางวัฒนธรรม"
+
+rival_accused_of_cultural_impropriety: "[CHARACTER.GetShortUIName|U] กล่าวหา [TARGET_CHARACTER.GetShortUIName] ว่าบริหารราชสำนักที่ปราศจากค่านิยมของ [TARGET_CHARACTER.GetCulture.GetNameNoTooltip] โดยสิ้นเชิง"

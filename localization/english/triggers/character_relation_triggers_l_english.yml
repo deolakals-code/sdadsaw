@@ -1,0 +1,93 @@
+﻿l_english: 
+
+ IS_AT_WAR_WITH_TRIGGER:0 "กำลังทำ [war|E] กับ [TARGET_CHARACTER.GetShortUIName|V]"
+ NOT_IS_AT_WAR_WITH_TRIGGER:0 "#bold ไม่ได้#! กำลังทำ [war|E] กับ [TARGET_CHARACTER.GetShortUIName|V]"
+ I_AM_AT_WAR_WITH_TRIGGER:1 "ท่านกำลังทำ [war|E] กับ [TARGET_CHARACTER.GetShortUIName|V]"
+ NOT_I_AM_AT_WAR_WITH_TRIGGER:1 "ท่าน #bold ไม่ได้#! กำลังทำ [war|E] กับ [TARGET_CHARACTER.GetShortUIName|V]"
+ THEY_ARE_AT_WAR_WITH_TRIGGER:0 "[CHARACTER.GetShortUIName|V] กำลังทำ [war|E] กับ [TARGET_CHARACTER.GetShortUIName|V]"
+ NOT_THEY_ARE_AT_WAR_WITH_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold ไม่ได้#! กำลังทำ [war|E] กับ [TARGET_CHARACTER.GetShortUIName|V]"
+ NONE_ARE_AT_WAR_WITH_TRIGGER: "พวกเขากำลังทำ [war|E] กับท่าน"
+ NOT_NONE_ARE_AT_WAR_WITH_TRIGGER: "พวกเขา #bold ไม่ได้#! กำลังทำ [war|E] กับท่าน"
+
+ IS_ALLIED_TO_TRIGGER:0 "เป็น [allied|E] กับ [TARGET_CHARACTER.GetShortUIName|V]"
+ NOT_IS_ALLIED_TO_TRIGGER:0 "#bold ไม่ได้#! เป็น [allied|E] กับ [TARGET_CHARACTER.GetShortUIName|V]"
+ I_AM_ALLIED_TO_TRIGGER:1 "ท่านเป็น [allied|E] กับ [TARGET_CHARACTER.GetShortUIName|V]"
+ NOT_I_AM_ALLIED_TO_TRIGGER:1 "ท่าน #bold ไม่ได้#! เป็น [allied|E] กับ [TARGET_CHARACTER.GetShortUIName|V]"
+ THEY_ARE_ALLIED_TO_TRIGGER:0 "[CHARACTER.GetShortUIName|V] เป็นพันธมิตรกับ [TARGET_CHARACTER.GetShortUIName|V]"
+ NOT_THEY_ARE_ALLIED_TO_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold ไม่ได้#! เป็นพันธมิตรกับ [TARGET_CHARACTER.GetShortUIName|V]"
+
+ IS_ALLIED_IN_WAR_GLOBAL:0 "เป็น [allied|E] กับ [TARGET_CHARACTER.GetShortUIName|V] ใน [war|E]"
+ NOT_IS_ALLIED_IN_WAR_GLOBAL:0 "#bold ไม่ได้#! เป็น [allied|E] กับ [TARGET_CHARACTER.GetShortUIName|V] ใน [war|E]"
+ IS_ALLIED_IN_WAR_FIRST:1 "ท่านเป็น [allied|E] กับ [TARGET_CHARACTER.GetShortUIName|V] ใน [war|E]"
+ NOT_IS_ALLIED_IN_WAR_FIRST:1 "ท่าน #bold ไม่ได้#! เป็น [allied|E] กับ [TARGET_CHARACTER.GetShortUIName|V] ใน [war|E]"
+ IS_ALLIED_IN_WAR_THIRD:0 "[CHARACTER.GetShortUIName|V] เป็นพันธมิตรกับ [TARGET_CHARACTER.GetShortUIName|V] ใน [war|E]"
+ NOT_IS_ALLIED_IN_WAR_THIRD:0 "[CHARACTER.GetShortUIName|V] #bold ไม่ได้#! เป็นพันธมิตรกับ [TARGET_CHARACTER.GetShortUIName|V] ใน [war|E]"
+
+ THEY_ARE_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] [CharAreIs(TARGET_CHARACTER)] [liege|E] หรือสูงกว่า ของ [CHARACTER.GetShortUINamePossessive|V]"
+ NOT_THEY_ARE_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] #bold ไม่#! [CharAreIs(TARGET_CHARACTER)] [liege|E] หรือสูงกว่า ของ [CHARACTER.GetShortUINamePossessive|V]"
+ THEY_ARE_MY_LIEGE_OR_ABOVE:1 "[TARGET_CHARACTER.GetShortUIName|V] เป็น [liege|E] ของท่านหรือเจ้าเหนือหัวของ [liege|E] ของท่าน"
+ NOT_THEY_ARE_MY_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] #bold ไม่ใช่#! [liege|E] ของท่านหรือเจ้าเหนือหัวของ [liege|E] ของท่าน"
+ THEY_ARE_THEIR_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] [CharAreIs(TARGET_CHARACTER)] [liege|E] หรือสูงกว่า ของ [CHARACTER.GetShortUINamePossessive]"
+ NOT_THEY_ARE_THEIR_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] #bold ไม่#! [CharAreIs(TARGET_CHARACTER)] [liege|E] หรือสูงกว่า ของ [CHARACTER.GetShortUINamePossessive]"
+
+ THEY_ARE_TRIBUTARY_OF_SUZERAIN_OR_ABOVE: "[TARGET_CHARACTER.GetShortUIName|VU] [CharAreIs(TARGET_CHARACTER)] [suzerain|E] หรือสูงกว่า"
+ NOT_THEY_ARE_TRIBUTARY_OF_SUZERAIN_OR_ABOVE: "[TARGET_CHARACTER.GetShortUIName|VU] [CharAreIs(TARGET_CHARACTER)] #bold มิใช่#! [suzerain|E] หรือสูงกว่า"
+
+ THEY_ARE_MY_TRIBUTARY_OF_SUZERAIN_OR_ABOVE: "[TARGET_CHARACTER.GetShortUIName|VU]เป็น[suzerain|E]ของท่านหรือสูงกว่า"
+ NOT_THEY_ARE_MY_TRIBUTARY_OF_SUZERAIN_OR_ABOVE: "[TARGET_CHARACTER.GetShortUIName|VU]#boldมิได้#!เป็น[suzerain|E]ของท่านหรือสูงกว่า"
+
+ THEY_ARE_THEIR_TRIBUTARY_OF_SUZERAIN_OR_ABOVE: "[TARGET_CHARACTER.GetShortUIName|VU] [CharAreIs(TARGET_CHARACTER)] [suzerain|E] ของ [CHARACTER.GetShortUINamePossessive] หรือสูงกว่า"
+ NOT_THEY_ARE_THEIR_TRIBUTARY_OF_SUZERAIN_OR_ABOVE: "[TARGET_CHARACTER.GetShortUIName|VU] [CharAreIs(TARGET_CHARACTER)] #bold มิใช่#! [suzerain|E] ของ [CHARACTER.GetShortUINamePossessive] หรือสูงกว่า"
+
+ THEY_ARE_VASSAL_OR_BELOW: "[TARGET_CHARACTER.GetShortUIName|VU] [CharAreIs(TARGET_CHARACTER)] [vassal|E] ของ [CHARACTER.GetShortUINamePossessive|V]"
+ NOT_THEY_ARE_VASSAL_OR_BELOW: "[TARGET_CHARACTER.GetShortUIName|VU] #bold ไม่#! [CharAreIs(TARGET_CHARACTER)] [vassal|E] ของ [CHARACTER.GetShortUINamePossessive|V]"
+
+ IS_ATTRACTED_TO_WOMEN_TRIGGER:0 "มี [attracted|E] ต่อสตรี"
+ NOT_IS_ATTRACTED_TO_WOMEN_TRIGGER:0 "#bold ไม่มี#! [attracted|E] ต่อสตรี"
+
+ IS_ATTRACTED_TO_MEN_TRIGGER:0 "มี [attracted|E] ต่อบุรุษ"
+ NOT_IS_ATTRACTED_TO_MEN_TRIGGER:0 "#bold ไม่มี#! [attracted|E] ต่อบุรุษ"
+
+ HAS_SEXUALITY_TRIGGER:0 "เป็น $SEXUALITY|V$"
+
+ IS_ATTRACTED_TO:0 "มี [attracted|E] ต่อ [TARGET_CHARACTER.GetShortUIName]"
+ HAS_RELATION_CRUSH_ON_TARGET:0 "มี [crush|E] ต่อ [TARGET_CHARACTER.GetShortUIName]"
+ HAS_RELATION_BULLY_BY_TARGET:0 "[TARGET_CHARACTER.GetShortUIName|U] [CharAreIs(TARGET_CHARACTER)] [bully|E] ของ [CHARACTER.GetShortUINamePossessive]"
+ num_of_relation_bully_trigger:1 "จำนวน [bullies|E] คือ $COMPARATOR$ $NUM|V0$"
+ NUM_OF_RELATION_VICTIM_TRIGGER:1 "จำนวน [victim|E] ของ [bully|E] คือ $COMPARATOR$ $NUM|V0$"
+ HAS_RELATION_VICTIM_BY_TARGET:0 "[TARGET_CHARACTER.GetShortUIName|U] [CharAreIs(TARGET_CHARACTER)] [victim|E] ของ [CHARACTER.GetShortUINamePossessive]"
+ NUM_OF_RELATION_LOVER_TRIGGER:1 "จำนวน [lovers|E] คือ $COMPARATOR$ $NUM|V0$"
+ HAS_RELATION_RIVAL_WITH_TARGET:0 "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] เป็น [rivals|E]"
+ NOT_HAS_RELATION_RIVAL_WITH_TARGET: "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ไม่ใช่ [rivals|E]"
+ NUM_OF_RELATION_RIVAL_TRIGGER:1 "จำนวน [rivalries|E] คือ $COMPARATOR$ $NUM|V0$"
+ NOT_NUM_OF_RELATION_RIVAL_TRIGGER:0 "ท่านต้องการ [rivals|E] เพิ่มเติม"
+ NUM_OF_RELATION_NEMESIS_TRIGGER:1 "จำนวน [nemeses|E] คือ $COMPARATOR$ $NUM|V0$"
+ HAS_RELATION_FRIEND_WITH_TARGET:0 "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] เป็น [friends|E]"
+ NOT_HAS_RELATION_FRIEND_WITH_TARGET: "[CHARACTER.GetShortUIName|U]และ[TARGET_CHARACTER.GetShortUIName]มิได้เป็น[friends|E]กัน"
+ NUM_OF_RELATION_FRIEND_TRIGGER:1 "จำนวน [friends|E] คือ $COMPARATOR$ $NUM|V0$"
+ HAS_RELATION_LOVER_WITH_TARGET:0 "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] เป็น [lovers|E]"
+ HAS_RELATION_BEST_FRIEND_WITH_TARGET:0 "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] เป็น [best_friends|E]"
+ NUM_OF_RELATION_GUARDIAN_TRIGGER:1 "จำนวน [guardians|E] คือ $COMPARATOR$ $NUM|V0$"
+ NUM_OF_RELATION_WARD_TRIGGER:1 "จำนวน [wards|E] คือ $COMPARATOR$ $NUM|V0$"
+ NUM_OF_RELATION_BEST_FRIEND_TRIGGER:1 "จำนวน [best_friend|E] คือ $COMPARATOR$ $NUM|V0$"
+ NUM_OF_RELATION_CRUSH_TRIGGER:1 "จำนวน [crushes|E] คือ $COMPARATOR$ $NUM|V0$"
+ NUM_OF_RELATION_SOULMATE_TRIGGER:1 "จำนวน [soulmates|E] คือ $COMPARATOR$ $NUM|V0$"
+ HAS_RELATION_POSSIBLE_PARENT_OF_TARGET:0 "อาจจะเป็นบิดาหรือมารดาของ [TARGET_CHARACTER.GetShortUIName] ได้"
+ HAS_RELATION_BLOOD_BROTHER_WITH_TARGET: "[CHARACTER.GetShortUIName|U]และ[TARGET_CHARACTER.GetShortUIName]เป็นพี่น้องร่วมสาบานกัน"
+
+ HAS_RELATION_NEMESIS_WITH_TARGET:0 "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] เป็น [nemeses|E]"
+ NOT_HAS_RELATION_NEMESIS_WITH_TARGET: "[CHARACTER.GetShortUIName|U]และ[TARGET_CHARACTER.GetShortUIName]มิได้เป็น[nemeses|E]กัน"
+ HAS_RELATION_SOULMATE_WITH_TARGET:0 "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] เป็น [soulmates|E]"
+ HAS_RELATION_MENTOR_WITH_TARGET:0 "[TARGET_CHARACTER.GetShortUIName|U] [CharAreIs(TARGET_CHARACTER)] [mentor|E] ของ [CHARACTER.GetShortUINamePossessive]"
+ HAS_RELATION_ELDER_WITH_TARGET: "[TARGET_CHARACTER.GetShortUIName|U] [CharAreIs(TARGET_CHARACTER)] [elder|E] ของ [CHARACTER.GetShortUINamePossessive]"
+ HAS_RELATION_DISCIPLE_WITH_TARGET: "[TARGET_CHARACTER.GetShortUIName|U] [CharAreIs(TARGET_CHARACTER)] [disciple|E] ของ [CHARACTER.GetShortUINamePossessive]"
+ HAS_RELATION_GUARDIAN_OF_TARGET:0 "[TARGET_CHARACTER.GetShortUIName|U] [CharAreIs(TARGET_CHARACTER)] [guardian|E] ของ [CHARACTER.GetShortUINamePossessive]"
+ HAS_RELATION_WARD_OF_TARGET: "[TARGET_CHARACTER.GetShortUIName|U] [CharAreIs(TARGET_CHARACTER)] [ward|E] ของ [CHARACTER.GetShortUINamePossessive]"
+
+ HAS_ANY_RELATION_WITH_TARGET:0 "มีความสัมพันธ์ใด ๆ กับ [TARGET_CHARACTER.GetShortUIName]"
+ HAS_MOTHER_TRIGGER:0 "มีมารดา"
+ HAS_FATHER_TRIGGER:0 "มีบิดา"
+
+ HAS_ARTIFACT_TRIGGER:0 "ครอบครองสิ่งประดิษฐ์ใด ๆ"
+ NOT_HAS_ARTIFACT_TRIGGER:0 "ไม่มีสิ่งประดิษฐ์"
+ 

@@ -1,0 +1,88 @@
+﻿l_english: 
+
+ good_thing:0 "สิ่งดี"
+ bad_thing:0 "สิ่งร้าย"
+ 
+ period_of_time_few_days:0 "สองสามวัน"
+ period_of_time_week:0 "หนึ่งสัปดาห์"
+ period_of_time_fortnight:0 "สองสัปดาห์"
+ period_of_time_three_weeks:0 "เกือบสามสัปดาห์"
+ period_of_time_month:0 "เกือบหนึ่งเดือน"
+ period_of_time_two_months:0 "เกือบสองเดือน"
+ period_of_time_few_months:0 "สองสามเดือน"
+ period_of_time_half_year:0 "เกือบครึ่งปี"
+ period_of_time_year:0 "หนึ่งปี"
+ period_of_time_over_a_year:0 "กว่าหนึ่งปี"
+ period_of_time_fallback:0 "ชั่วระยะเวลาหนึ่ง"
+
+ sword_name_widowmaker:0 "มฤตยูคู่แม่ม่าย"
+ sword_name_widowermaker:0 "มฤตยูคู่พ่อม่าย"
+ sword_name_slicer:0 "ดาบสะบั้น"
+ sword_name_dicer:0 "ดาบหั่น"
+ sword_name_kingsbane:0 "พิฆาตกษัตริย์"
+ sword_name_queensbane:0 "พิฆาตราชินี"
+ sword_name_almace:0 "อัลมาซ" # ชื่อเฉพาะ
+ sword_name_hauteclere:0 "โอตแกลร์" # ชื่อเฉพาะ
+ sword_name_murgleis:0 "มูร์เกลส์" # ชื่อเฉพาะ
+ sword_name_flamberge:0 "ฟลัมแบร์ฌ" # ชื่อเฉพาะ (ดาบใบหยัก) หรือ "ดาบเปลวเพลิง"
+ sword_name_arondight:0 "อารอนไดต์" # ชื่อเฉพาะ
+ sword_name_clarent:0 "คลาเรนต์" # ชื่อเฉพาะ
+ sword_name_coreiseuse:0 "กอเรเซิซ" # ชื่อเฉพาะ
+ sword_name_galatine:0 "กาลาทีน" # ชื่อเฉพาะ
+ sword_name_gramr:0 "กรัมร์" # ชื่อเฉพาะ
+ sword_name_tyrfing:0 "ทีร์ฟิง" # ชื่อเฉพาะ
+ sword_name_zulfiqar:0 "ซุลฟิการ์" # ชื่อเฉพาะ
+ sword_name_harpe:0 "ฮาร์เป" # ชื่อเฉพาะ
+ sword_name_ascalon:0 "อัสคาลอน" # ชื่อเฉพาะ
+ sword_name_asi:0 "อสี" # ชื่อเฉพาะ
+ sword_name_caladgolg:0 "คาลัดโกลก์" # ชื่อเฉพาะ
+ sword_name_fragarach:0 "ฟราการัค" # ชื่อเฉพาะ
+ sword_name_chandrahas:0 "จันทรหาส" # ชื่อเฉพาะ
+ sword_name_nandaka:0 "นันทกะ" # ชื่อเฉพาะ
+ sword_name_blutgang:0 "บลุทกัง" # ชื่อเฉพาะ
+ sword_name_old_pokey:0 "เจ้าแก่จอมจิ้ม"
+ sword_name_needle:0 "เข็ม"
+ sword_name_stabitha:0 "แม่แทงระยับ"
+ sword_name_marsil:0 "มาร์ซิล" # ชื่อเฉพาะ
+ sword_name_triumph:0 "ชัยชนะ"
+ sword_name_fears_bane:0 "พิฆาตความกลัว"
+ sword_name_tranquility:0 "ความสงบ"
+ sword_name_reaper:0 "ยมทูต"
+ sword_name_purity:0 "ความบริสุทธิ์"
+ sword_name_beguiler:0 "ผู้ล่อลวง"
+ sword_name_assurance:0 "ความมั่นคง"
+ sword_name_fate:0 "ชะตากรรม"
+ sword_name_grinder:0 "ผู้บดขยี้"
+ sword_name_indolence:0 "ความเกียจคร้าน"
+ sword_name_quicksilver:0 "ปรอท"
+ sword_name_obstinate:0 "ความดื้อรั้น"
+ sword_name_mercy:0 "ความเมตตา"
+ sword_name_vengeance:0 "การล้างแค้น"
+ sword_name_charity:0 "การกุศล"
+ sword_name_opulence:0 "ความมั่งคั่ง"
+ sword_name_amity:0 "มิตรภาพ"
+ sword_name_solitude:0 "ความสันโดษ"
+ sword_name_candour:0 "ความจริงใจ"
+ sword_name_deceiver:0 "ผู้หลอกลวง"
+ sword_name_humility:0 "ความถ่อมตน"
+ sword_name_glory:0 "เกียรติศักดิ์"
+ sword_name_justice:0 "ความยุติธรรม"
+ sword_name_whimsy:0 "ความเพ้อฝัน"
+ sword_name_serenity:0 "ความสงบเย็น"
+ sword_name_ardent:0 "ความแรงกล้า"
+ sword_name_prudence:0 "ความรอบคอบ"
+ sword_name_devourer:0 "ผู้กลืนกิน"
+ sword_name_steadfast:0 "ความแน่วแน่"
+ sword_name_safeguard:0 "ผู้พิทักษ์"
+ sword_name_faith:0 "ศรัทธา"
+ sword_name_doubt:0 "ความกังขา"
+ sword_name_clemency:0 "ความปรานี"
+ sword_name_malice:0 "ความมุ่งร้าย"
+ sword_name_desolation:0 "ความอ้างว้าง"
+ sword_name_bloodletter:0 "ผู้หลั่งโลหิต"
+ sword_name_fealty:0 "ความภักดี"
+ sword_name_oathbreaker:0 "ผู้ผิดสัตย์"
+ sword_name_raconteur:0 "นักเล่าเรื่อง"
+
+ rename_artifact_entered_text:0 "[ROOT.Char.GetLocalizedText( 'new_artifact_name' )]"
+ rename_artifact_default_key:0 "[ROOT.Var( 'new_artifact_name' ).GetFlagName]"

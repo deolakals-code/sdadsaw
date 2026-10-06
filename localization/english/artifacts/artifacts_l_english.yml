@@ -1,0 +1,1407 @@
+﻿l_english: 
+ artifact_type_helmet:0 "มงกุฎ"
+ artifact_type_primary_armament:0 "อาวุธ"
+ artifact_type_armor:0 "เกราะ"
+ artifact_type_regalia:0 "เครื่องราชกกุธภัณฑ์"
+ artifact_type_trinket:0 "ของที่ระลึก"
+ artifact_type_wall_big:0 "ของประดับแขวน"
+ artifact_type_wall_small:0 "$artifact_type_wall_big$"
+ artifact_type_throne:0 "บัลลังก์"
+ artifact_type_sculpture:0 "ของตั้งโชว์"
+ artifact_type_book:0 "หนังสือ"
+ artifact_type_pedestal:0 "$artifact_type_sculpture$"
+ artifact_type_elixir:0 "น้ำอมฤต"
+ artifact_type_panacea: "ยารักษาทุกโรค"
+ artifact_type_philosophers_stone: "ศิลาอาถรรพ์"
+ artifact_type_animal_hide: "หนังสัตว์"
+ artifact_type_brooch: "เข็มกลัด"
+ artifact_type_animal_skull: "กะโหลกสัตว์"
+ artifact_type_chest: "หีบ"
+ artifact_type_box: "กล่อง"
+ artifact_type_cabinet: "ตู้"
+ artifact_type_goblet: "ถ้วยรางวัล"
+ artifact_type_scientific_apparatus: "อุปกรณ์เครื่องกล"
+ artifact_type_jug: "เหยือก"
+ artifact_type_necklace: "สร้อยคอ"
+ artifact_type_bowl: "ชาม"
+ artifact_type_plate: "จาน"
+ artifact_type_urn: "โกฐ"
+ artifact_type_tun_barrel: "ถังไม้"
+ artifact_type_scepter_pedestal: "คทา"
+ artifact_type_tapestry: "พรมแขวนผนัง"
+ artifact_type_wall_shield: "โล่"
+ artifact_type_wall_icon: "รูปเคารพ"
+
+# These are used for when we generate the title at the same time as we create the artifact
+ artifact_name_prefix:1 "[SCOPE.Custom('ArtifactPrefixGeneric')|U]"
+ artifact_name_prefix_owner_name:0 "[owner.GetTitledFirstNamePossessiveNoTooltip]"
+ artifact_name_prefix_inspiration_owner_name:0 "[inspiration_owner.GetTitledFirstNamePossessiveNoTooltip]"
+ artifact_name_prefix_owner_culture:0 "[owner.GetCulture.GetNameNoTooltip]"
+ artifact_name_prefix_location_culture:1 "[owner.MakeScope.Var('adventure_artifact_location').Province.GetHolder.GetCulture.GetNameNoTooltip]"
+ artifact_name_prefix_owner_dynasty:1 "[owner.GetDynasty.GetBaseNameNoTooltip]"
+ artifact_name_prefix_descriptor_high_quality:0 "วิจิตรงดงาม"
+ artifact_name_prefix_descriptor_medium_quality:0 "แข็งแรงทนทาน"
+ artifact_name_prefix_descriptor_medium_alt_version_quality:0 "ยอดเยี่ยม"
+ artifact_name_prefix_descriptor_low_quality:1 "ประณีต"
+
+# These are used for when we generate the title after the artifact is already created since we have to use different scopes then
+ artifact_name_prefix_artifact_scope:0 "[Artifact.GetOwner.Custom('ArtifactPrefixGenericAfterCreation')|U]"
+ artifact_name_prefix_artifact_scope_owner_name:0 "[Artifact.GetOwner.GetTitledFirstNamePossessiveNoTooltip]"
+ artifact_name_prefix_artifact_scope_owner_culture:0 "[Artifact.GetOwner.GetCulture.GetNameNoTooltip]"
+ artifact_name_prefix_artifact_scope_owner_dynasty:1 "[Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip]"
+
+ placeholder:0 "$holderplace$"
+ holder_place:0 "#D ตำแหน่งยึด#! "
+
+ ##########
+ # Metals #
+ ##########
+
+ # Irons and steels for use in arms and armor. All steels are just regional names for wootz steel, which is only known to have been manufactured in Southern India (but ingots of it traveled the silk road).
+ metal_iron:0 "เหล็ก"
+ metal_wrought_iron:0 "เหล็กเหนียว"
+ metal_folded_iron:0 "เหล็กพับ"
+ metal_steel:0 "เหล็กกล้า"
+ metal_wootz_steel:0 "เหล็กกล้าวูทซ์"
+ metal_bintie_steel: "เหล็กบินเถี่ย"
+ metal_bulat_steel:0 "เหล็กกล้าบูลาต"
+ metal_damascus_steel:0 "เหล็กกล้าดามัสกัส"
+
+ # Metal Feature Derivatives 
+ feature_blade_metal_wrought_iron:0 "$metal_wrought_iron$"
+ feature_blade_metal_folded_iron:0 "$metal_folded_iron$"
+ feature_blade_metal_wootz_steel:0 "$metal_wootz_steel$"
+ feature_blade_metal_damascus_steel:1 "$metal_damascus_steel$"
+ feature_blade_metal_bulat_steel:1 "$metal_bulat_steel$"
+
+ feature_head_metal_wrought_iron:0 "$metal_wrought_iron$"
+ feature_head_metal_folded_iron:0 "$metal_folded_iron$"
+ feature_head_metal_wootz_steel:0 "$metal_wootz_steel$"
+ feature_head_metal_damascus_steel:1 "$metal_damascus_steel$"
+ feature_head_metal_bulat_steel:1 "$metal_bulat_steel$"
+
+ feature_handle_metal_wrought_iron:0 "$metal_wrought_iron$"
+ feature_handle_metal_folded_iron:0 "$metal_folded_iron$"
+ feature_handle_metal_wootz_steel:0 "$metal_wootz_steel$"
+ feature_handle_metal_damascus_steel:1 "$metal_damascus_steel$"
+ feature_handle_metal_bulat_steel:1 "$metal_bulat_steel$"
+
+ # Precious/decorative metals and metal-based compounds
+ metal_gold:0 "ทองคำ"
+ metal_electrum:0 "อิเล็กทรัม"
+ metal_silver:0 "เงิน"
+ metal_brass:0 "ทองเหลือง"
+ metal_bronze:0 "สำริด"
+ metal_copper:0 "ทองแดง"
+ metal_pewter:0 "ดีบุกผสมตะกั่ว"
+ metal_latten:0 "แลตเทน"
+
+
+ # Pure black 'alloy' of sulfur, copper, silver, and lead. Commonly used as an inlay in engraved or etched metals, or sometimes as a background in reliefs.
+ metal_niello:0 "นีเอลโล" # (ถม)
+ # Golden (gold-leafed) bronze. More common in East Asia but could be found in Europe.
+ metal_gilt_bronze:0 "สำริดปิดทอง"
+ # Gilded (gold-leafed) silver. More common in Europe but could be found in East Asia.
+ metal_silver_gilt:0 "เงินปิดทอง"
+ # Extremely rare bronze alloy from antiquity. Manufacturing process unknomwn, statues made from it were more valuable than gold.
+ metal_corinthian_bronze:0 "สำริดโครินเธียน"
+ # Alloy of gold, silver, copper, zinc, and iron. Sacred in Hinduism, used for making jewelery and decorating statues.
+ metal_panchaloha:0 "ปัญจโลหะ"
+ # High-purity iron collected from meteorites. Auspicious in Tibetan culture, where it was known as 'thokcha'.
+ metal_meteoric_iron:0 "เหล็กอุกกาบาต"
+ # Asian
+ #Copper-gold alloy, with rich patination valued in luxury sword fittings and ornaments.
+ metal_shakudo: "ชะกุโด"
+ #Copper-silver alloy for subtle gray inlay, more refined than copper but not on par with gold
+ metal_shibuichi: "ชิบุอิชิ"
+
+ feature_decoration_material_inlay_gold:0 "$metal_gold$"
+ feature_decoration_material_inlay_electrum:0 "$metal_electrum$"
+ feature_decoration_material_inlay_silver:0 "$metal_silver$"
+ feature_decoration_material_inlay_copper:0 "$metal_copper$"
+ feature_decoration_material_inlay_pewter:0 "$metal_pewter$"
+ feature_decoration_material_inlay_niello:0 "$metal_niello$"
+ feature_decoration_material_inlay_jade:0 "$gem_jade$"
+ feature_decoration_material_inlay_amber:0 "$gem_amber$"
+ feature_decoration_material_inlay_shakudo: "$metal_shakudo$"
+ feature_decoration_material_inlay_shibuichi: "$metal_shibuichi$"
+
+ feature_decoration_material_wire_gold:0 "$metal_gold$"
+ feature_decoration_material_wire_electrum:0 "$metal_electrum$"
+ feature_decoration_material_wire_silver:0 "$metal_silver$"
+ feature_decoration_material_wire_brass:0 "$metal_brass$"
+ feature_decoration_material_wire_bronze:0 "$metal_bronze$"
+ feature_decoration_material_wire_copper:0 "$metal_copper$"
+ feature_decoration_material_wire_pewter:0 "$metal_pewter$"
+ feature_decoration_material_wire_latten:0 "$metal_latten$"
+
+ #############
+ # Earthware #
+ #############
+
+ earthware_clay:0 "ดินเหนียว"
+ earthware_stone:0 "หิน"
+ earthware_terracotta:0 "ดินเผา"
+ earthware_porcelain:0 "เครื่องเคลือบ"
+
+ #########
+ # Woods #
+ #########
+ wood:0 "ไม้"
+
+ # Found Everywhere
+ wood_ash:0 "แอช"
+ wood_oak:0 "โอ๊ก"
+
+ # Widespread Regional - Elm (Found all over Europe except southern Spain, Italy, and Greece)
+ wood_elm:0 "เอล์ม"
+
+ # Widespread Regional - Walnut (found all over Europe excluding Scotland and Scandinavia, but including Northern Anatolia/Persia)
+ wood_walnut:0 "วอลนัท"
+
+ # Widespread Regional - Maple (found all over Europe excluding Scotland and northern Scandinavia, as well as northern Morocco/Tunisia/Persia and all of Anatolia)
+ wood_maple:0 "เมเปิล"
+
+ # Widespread Regional - Pines and Firs (found all over Europe except northern France/Germany and the Balkans, but spreads East through Anatolia, Scandinavia, Russia, China, and Tibet)
+ wood_pine:0 "สน"
+ wood_fir:0 "เฟอร์"
+
+ # Widespread Regional - Subsaharan Africa
+ wood_fleroya:0 "เฟลโรยา"
+ wood_sycomore:0 "ไซคามอร์"
+ wood_padauk:0 "ประดู่"
+
+ # Widespread Regional - India
+ wood_sal:0 "สาละ"
+ wood_teak:0 "สัก"
+ wood_rosewood:0 "ชิงชัน"
+ wood_satinwood:0 "ซาตินวูด"
+
+ # Regional - France, England, Wales, Ireland
+ wood_yew:0 "ยู"
+
+ # Regional - Mediterranean
+ wood_olivewood:0 "มะกอก"
+
+ # Regional - Sri Lanka
+ wood_coromandel:0 "โคโรแมนเดล"
+ wood_ebony:0 "มะเกลือ"
+
+ # Regional - East Asia
+ wood_nanmu: "ไม้หนานมู่"
+ wood_boxwood: "ไม้บ็อกซ์วูด"
+ wood_paulownia: "ไม้เพาโลว์เนีย"
+ wood_camphorwood: "ไม้การบูร"
+
+ # Regional - Southeast Asia
+ wood_narra: "ไม้ประดู่"
+ wood_toona_sureni: "ไม้ทูน่าซูเรนี"
+ wood_agarwood: "ไม้กฤษณา"
+ wood_sandalwood: "ไม้จันทน์"
+
+ # Regional - Northeast Asia
+ wood_birch: "ไม้เบิร์ช"
+ wood_linden: "ไม้ลินเด็น"
+
+ # Wood Feature Derivatives 
+ feature_generic_material_wood_ash:0 "$wood_ash$"
+ feature_generic_material_wood_oak:0 "$wood_oak$"
+ feature_generic_material_wood_elm:0 "$wood_elm$"
+ feature_generic_material_wood_walnut:0 "$wood_walnut$"
+ feature_generic_material_wood_maple:0 "$wood_maple$"
+ feature_generic_material_wood_pine:0 "$wood_pine$"
+ feature_generic_material_wood_fir:0 "$wood_fir$"
+ feature_generic_material_wood_fleroya:0 "$wood_fleroya$"
+ feature_generic_material_wood_sycomore:0 "$wood_sycomore$"
+ feature_generic_material_wood_padauk:0 "$wood_padauk$"
+ feature_generic_material_wood_sal:0 "$wood_sal$"
+ feature_generic_material_wood_teak:0 "$wood_teak$"
+ feature_generic_material_wood_rosewood:0 "$wood_rosewood$"
+ feature_generic_material_wood_satinwood:0 "$wood_satinwood$"
+ feature_generic_material_wood_yew:0 "$wood_yew$"
+ feature_generic_material_wood_olivewood:0 "$wood_olivewood$"
+ feature_generic_material_wood_coromandel:0 "$wood_coromandel$"
+ feature_generic_material_wood_ebony:0 "$wood_ebony$"
+ feature_generic_material_wood_nanmu: "$wood_nanmu$"
+ feature_generic_material_wood_boxwood: "$wood_boxwood$"
+ feature_generic_material_wood_paulownia: "$wood_paulownia$"
+ feature_generic_material_wood_camphorwood: "$wood_camphorwood$"
+ feature_generic_material_wood_narra: "$wood_narra$"
+ feature_generic_material_wood_toona_sureni: "$wood_toona_sureni$"
+ feature_generic_material_wood_agarwood: "$wood_agarwood$"
+ feature_generic_material_wood_sandalwood: "$wood_sandalwood$"
+ feature_generic_material_wood_birch: "$wood_birch$"
+ feature_generic_material_wood_linden: "$wood_linden$"
+
+ feature_shaft_wood_ash:0 "$wood_ash$"
+ feature_shaft_wood_oak:0 "$wood_oak$"
+ feature_shaft_wood_elm:0 "$wood_elm$"
+ feature_shaft_wood_walnut:0 "$wood_walnut$"
+ feature_shaft_wood_maple:0 "$wood_maple$"
+ feature_shaft_wood_pine:0 "$wood_pine$"
+ feature_shaft_wood_fir:0 "$wood_fir$"
+ feature_shaft_wood_fleroya:0 "$wood_fleroya$"
+ feature_shaft_wood_sycomore:0 "$wood_sycomore$"
+ feature_shaft_wood_padauk:0 "$wood_padauk$"
+ feature_shaft_wood_sal:0 "$wood_sal$"
+ feature_shaft_wood_teak:0 "$wood_teak$"
+ feature_shaft_wood_rosewood:0 "$wood_rosewood$"
+ feature_shaft_wood_satinwood:0 "$wood_satinwood$"
+ feature_shaft_wood_yew:0 "$wood_yew$"
+ feature_shaft_wood_olivewood:0 "$wood_olivewood$"
+ feature_shaft_wood_coromandel:0 "$wood_coromandel$"
+ feature_shaft_wood_ebony:0 "$wood_ebony$"
+ feature_shaft_wood_nanmu: "$wood_nanmu$"
+ feature_shaft_wood_boxwood: "$wood_boxwood$"
+ feature_shaft_wood_paulownia: "$wood_paulownia$"
+ feature_shaft_wood_camphorwood: "$wood_camphorwood$"
+ feature_shaft_wood_narra: "$wood_narra$"
+ feature_shaft_wood_toona_sureni: "$wood_toona_sureni$"
+ feature_shaft_wood_agarwood: "$wood_agarwood$"
+ feature_shaft_wood_sandalwood: "$wood_sandalwood$"
+ feature_shaft_wood_birch: "$wood_birch$"
+ feature_shaft_wood_linden: "$wood_linden$"
+
+ ##########
+ # Cloths #
+ ##########
+
+ # Simple wool fabric, can vary wildly in quality and appearance depending on the yarn used to wave it as well as the weaver's skill. 
+ cloth_wool:0 "ขนสัตว์"
+
+ # Wool from the very first shearing of a sheep. Soft, elastic, and slippery, used in high-grade textiles.
+ cloth_lambswool:0 "ขนแกะแรก"
+
+ # A fine, dense wool yarn or fabric. Originated in 12th century England, considered to be one of the highest quality wools. Suits are made from it today.
+ cloth_worsted_wool:0 "ขนสัตว์เวิร์สเตด"
+
+ # Generic plain weave cotton
+ cloth_cotton:0 "ฝ้าย"
+
+ # cotton plain weave from Bangladesh, but common as far out as Iraq. Can be either coarse or very fine.
+ cloth_muslin:0 "มัสลิน"
+
+ # twill cotton-linen blend. As it a mixed fabric, practicing Jews are forbidden to wear it.
+ cloth_fustian:0 "ฟัสเตียน"
+
+ # plain weave flax fibers. Consistently average in quality and price, saw widespread use throughout the medieval era.
+ cloth_linen:0 "ลินิน"
+
+ # Plain(?) silk weave.
+ cloth_silk:0 "ไหม"
+
+ # satin weave, most commonly made of silk, becoming famous in 12th century Europe after the Crusades. 
+ cloth_satin:0 "ซาติน"
+
+ # piled silk weave popular in the Middle East. Must be woven on a special loom. Due to its difficulty of manufacture, it is associated with nobility. Arrived in western Europe after the Crusades.
+ cloth_velvet:0 "กำมะหยี่"
+
+ # twill silk weave popular in Byzantium, which originated in Sassanid Persia. Commonly restricted to royalty or clergy.
+ cloth_samite:0 "ซาไมต์"
+
+ # cloth woven from silk wrapped in silver. Similar to the cloth-of-gold below, but less expensive.
+ cloth_of_silver:0 "ผ้าไหมเงิน"
+
+ # cloth woven from silk wrapped in gold. In addition to being expensive, it was almost always outlawed for any non-royalty or non-clergy to wear.
+ cloth_of_gold:0 "ผ้าไหมทอง"
+
+ # sturdy fabric
+ cloth_canvas:0 "ผ้าใบ"
+
+ feature_generic_material_cloth_wool:0 "$cloth_wool$"
+ feature_generic_material_cloth_lambswool:0 "$cloth_lambswool$"
+ feature_generic_material_cloth_worsted_wool:0 "$cloth_worsted_wool$"
+ feature_generic_material_cloth_cotton:0 "$cloth_cotton$"
+ feature_generic_material_cloth_fustian:0 "$cloth_fustian$"
+ feature_generic_material_cloth_linen:0 "$cloth_linen$"
+ feature_generic_material_cloth_silk:0 "$cloth_silk$"
+ feature_generic_material_cloth_satin:0 "$cloth_satin$"
+ feature_generic_material_cloth_velvet:0 "$cloth_velvet$"
+ feature_generic_material_cloth_samite:0 "$cloth_samite$"
+
+ feature_generic_material_cordage_wool:0 "$cloth_wool$"
+ feature_generic_material_cordage_cotton:0 "$cloth_cotton$"
+ feature_generic_material_cordage_linen:0 "$cloth_linen$"
+ feature_generic_material_cordage_silk:0 "$cloth_silk$"
+
+ feature_decoration_material_embroidery_wool:0 "$cloth_wool$"
+ feature_decoration_material_embroidery_linen:0 "$cloth_linen$"
+ feature_decoration_material_embroidery_cotton:0 "$cloth_cotton$"
+ feature_decoration_material_embroidery_silk:0 "$cloth_silk$"
+ feature_decoration_material_embroidery_silver_thread:0 "$metal_silver$"
+ feature_decoration_material_embroidery_gold_thread:0 "$metal_gold$"
+
+ ########
+ # Gems #
+ ########
+
+ # Common Everywhere
+ gem_rock_crystal:0 "เขี้ยวหนุมาน"
+ gem_rock_crystal_plural:0 "เขี้ยวหนุมาน"
+ gem_jet:0 "เจ็ต"
+ gem_jet_plural:0 "เจ็ต"
+ gem_agate:0 "อาเกต"
+ gem_agate_plural:0 "อาเกต"
+ gem_onyx:0 "โอนิกซ์"
+ gem_onyx_plural:0 "โอนิกซ์"
+
+ # Uncommon Everywhere
+ gem_garnet:0 "โกเมน"
+ gem_garnet_plural:0 "โกเมน"
+ gem_jasper:0 "แจสเปอร์"
+ gem_jasper_plural:0 "แจสเปอร์"
+ gem_zircon:0 "เซอร์คอน"
+ gem_zircon_plural:0 "เซอร์คอน"
+
+ # Common Regional/Uncommon Elsewhere
+ gem_turquoise:0 "เทอร์ควอยซ์"
+ gem_turquoise_plural:0 "เทอร์ควอยซ์"
+ gem_amber:0 "อำพัน"
+ gem_amber_plural:0 "อำพัน"
+ gem_moonstone:0 "มุกดาหาร"
+ gem_moonstone_plural:0 "มุกดาหาร"
+ gem_flourite:0 "ฟลูออไรต์"
+ gem_flourite_plural:0 "ฟลูออไรต์"
+ gem_adventurine:0 "อเวนเจอรีน"
+ gem_adventurine_plural:0 "อเวนเจอรีน"
+ gem_amethyst:0 "อเมทิสต์"
+ gem_amethyst_plural:0 "อเมทิสต์"
+ gem_carnelian:0 "คาร์เนเลียน"
+ gem_carnelian_plural:0 "คาร์เนเลียน"
+
+ # Uncommon Regional/Rare Elsewhere
+ gem_spinel:0 "สปิเนล"
+ gem_spinel_plural:0 "สปิเนล"
+ gem_opal:0 "โอปอล"
+ gem_opal_plural:0 "โอปอล"
+ gem_lapis_lazuli:0 "ลาพิส ลาซูลี"
+ gem_lapis_lazuli_plural:0 "ลาพิส ลาซูลี"
+ gem_peridot:0 "เพริดอต"
+ gem_peridot_plural:0 "เพริดอต"
+ gem_jade:0 "หยก"
+ gem_jade_plural:0 "หยก"
+
+ # Rare
+ gem_sapphire:0 "ไพลิน"
+ gem_sapphire_plural:0 "ไพลิน"
+ gem_ruby:0 "ทับทิม"
+ gem_ruby_plural:0 "ทับทิม"
+ gem_emerald:0 "มรกต"
+ gem_emerald_plural:0 "มรกต"
+
+ feature_decoration_material_gem_rock_crystal:0 "$gem_rock_crystal$"
+ feature_decoration_material_gem_jet:0 "$gem_jet$"
+ feature_decoration_material_gem_agate:0 "$gem_agate$"
+ feature_decoration_material_gem_onyx:0 "$gem_onyx$"
+ feature_decoration_material_gem_garnet:0 "$gem_garnet$"
+ feature_decoration_material_gem_jasper:0 "$gem_jasper$"
+ feature_decoration_material_gem_zircon:0 "$gem_zircon$"
+ feature_decoration_material_gem_turquoise:0 "$gem_turquoise$"
+ feature_decoration_material_gem_amber:0 "$gem_amber$"
+ feature_decoration_material_gem_moonstone:0 "$gem_moonstone$"
+ feature_decoration_material_gem_flourite:0 "$gem_flourite$"
+ feature_decoration_material_gem_adventurine:0 "$gem_adventurine$"
+ feature_decoration_material_gem_amethyst:0 "$gem_amethyst$"
+ feature_decoration_material_gem_carnelian:0 "$gem_carnelian$"
+ feature_decoration_material_gem_spinel:0 "$gem_spinel$"
+ feature_decoration_material_gem_opal:0 "$gem_opal$"
+ feature_decoration_material_gem_lapis_lazuli:0 "$gem_lapis_lazuli$"
+ feature_decoration_material_gem_peridot:0 "$gem_peridot$"
+ feature_decoration_material_gem_jade:0 "$gem_jade$"
+ feature_decoration_material_gem_sapphire:0 "$gem_sapphire$"
+ feature_decoration_material_gem_ruby:0 "$gem_ruby$"
+ feature_decoration_material_gem_emerald:0 "$gem_emerald$"
+
+
+ ########
+ # Inks #
+ ########
+
+ ink_pine_soot: "หมึกเขม่าสนสีดำ"
+ ink_oil_soot: "หมึกเขม่าน้ำมันสีดำ"
+ ink_lacquer_soot: "หมึกเขม่าแลคเกอร์สีดำ"
+ ink_charcoal: "หมึกถ่านสีดำ"
+ ink_cinnabar: "หมึกชาดสีแดงสด"
+ ink_orpiment: "หมึกรงสีเหลือง"
+ ink_lac_dye: "หมึกครั่งสีย้อมแดงเข้ม"
+ ink_silver: "หมึกเงินเรืองแสง"
+ ink_shell_gold: "หมึกทองคำเปลือกหอยแวววาว"
+
+ feature_decoration_material_ink_pine_soot: "$ink_pine_soot$"
+ feature_decoration_material_ink_oil_soot: "$ink_oil_soot$"
+ feature_decoration_material_ink_lacquer_soot: "$ink_lacquer_soot$"
+ feature_decoration_material_ink_charcoal: "$ink_charcoal$"
+ feature_decoration_material_ink_cinnabar: "$ink_cinnabar$"
+ feature_decoration_material_ink_orpiment: "$ink_orpiment$"
+ feature_decoration_material_ink_lac_dye: "$ink_lac_dye$"
+ feature_decoration_material_ink_silver: "$ink_silver$"
+ feature_decoration_material_ink_shell_gold: "$ink_shell_gold$"
+
+ ##########
+ # Slates #
+ ##########
+
+ slate_bamboo: "แผ่นไม้ไผ่ธรรมดา"
+ slate_soapstone: "แผ่นหินสบู่ขัดเงา"
+ slate_bronze: "แผ่นสัมฤทธิ์สีคล้ำ"
+ slate_quartz: "แผ่นควอตซ์แวววับ"
+ slate_jade: "แผ่นหยกมันวาว"
+ slate_ivory: "แผ่นงาช้างสุกใส"
+ slate_rhinocerous_horn: "แผ่นนอแรดเรืองแสง"
+
+ feature_decoration_material_slate_bamboo: "$slate_bamboo$"
+ feature_decoration_material_slate_soapstone: "$slate_soapstone$"
+ feature_decoration_material_slate_bronze: "$slate_bronze$"
+ feature_decoration_material_slate_quartz: "$slate_quartz$"
+ feature_decoration_material_slate_jade: "$slate_jade$"
+ feature_decoration_material_slate_ivory: "$slate_ivory$"
+ feature_decoration_material_slate_rhinocerous_horn: "$slate_rhinocerous_horn$"
+
+
+ ############################
+ # Horns, Shells, and Bones #
+ ############################
+
+ hsb_ivory:0 "งาช้าง"
+ hsb_mother_of_pearl:0 "มุก"
+ hsb_tortoiseshell:0 "กระดองเต่า"
+ hsb_seashell:0 "เปลือกหอยทะเล"
+ hsb_deer_antler:0 "เขากวาง"
+ hsb_boar_tusk:0 "เขี้ยวหมูป่า"
+ hsb_camel_bone:0 "กระดูกอูฐ"
+ 
+ feature_decoration_material_inlay_HSB_camel_bone:0 "$hsb_camel_bone$"
+ feature_decoration_material_inlay_HSB_deer_antler:0 "$hsb_deer_antler$"
+ feature_decoration_material_inlay_HSB_boar_tusk:0 "$hsb_boar_tusk$"
+ feature_decoration_material_inlay_HSB_seashell:0 "$hsb_seashell$"
+ feature_decoration_material_inlay_HSB_tortoiseshell:0 "$hsb_tortoiseshell$"
+ feature_decoration_material_inlay_HSB_mother_of_pearl:0 "$hsb_mother_of_pearl$"
+ feature_decoration_material_inlay_HSB_ivory:0 "$hsb_ivory$"
+ feature_decoration_material_inlay_HSB_bone: "$material_bone$"
+
+ #Other
+ material_bone:0 "กระดูก"
+ material_horn:0 "เขา"
+ material_pangolin_scales:0 "เกล็ดตัวนิ่ม"
+ material_glass:0 "แก้ว"
+ material_leather:0 "หนัง"
+ material_hardened_leather:0 "หนังชุบแข็ง"
+
+ ############
+ # Patterns #
+ ############
+
+ feature_decoration_pattern_roses:0 "ดอกกุหลาบ"
+ feature_decoration_pattern_floral:0 "ลายดอกไม้"
+ feature_decoration_pattern_geometric:0 "รูปทรงเรขาคณิต"
+ feature_decoration_pattern_wolf:0 "หัวหมาป่า"
+ feature_decoration_pattern_local_animal:0 "[Artifact.GetOwner.Custom('GetAnimalType')] อย่างละเอียด"
+ feature_decoration_pattern_war_god:0 "สัญลักษณ์และวลีอุทิศแด่ [Artifact.GetOwner.GetFaith.WarGodName]"
+ feature_decoration_pattern_religious_symbol:0 "[Artifact.GetOwner.GetFaith.ReligiousSymbol]"
+ feature_decoration_pattern_gibberish:0 "สัญลักษณ์ที่ไม่มีใครรู้ความหมายนอกจากผู้สร้าง"
+ feature_decoration_pattern_bodies:0 "ร่างที่บิดเบี้ยว"
+ feature_decoration_pattern_culture_symbol:0 "สัญลักษณ์ที่ผูกพันกับวัฒนธรรม [Artifact.GetOwner.GetCulture.GetNameNoTooltip]"
+ feature_decoration_pattern_culture_style:0 "ลวดลายและการตก แต่งที่เรียกว่าศิลปะแบบ [Artifact.GetOwner.GetCulture.GetNameNoTooltip]"
+ feature_decoration_pattern_shield:0 "ตราอาร์มของตระกูล [Artifact.GetOwner.GetHouse.GetBaseName]"
+ feature_decoration_pattern_dynasty_shield:0 "$feature_decoration_pattern_shield$"
+ feature_decoration_pattern_dynasty_motifs:0 "ลวดลายจากคำขวัญและตราอาร์มของตระกูล [Artifact.GetOwner.GetHouse.GetBaseName]"
+ feature_decoration_pattern_beasts:0 "สัตว์ในตำนาน"
+ feature_decoration_pattern_religion:0 "สัญลักษณ์ทางศาสนา"
+ feature_decoration_pattern_quotes:0 "คำคมสร้างแรงบันดาลใจ"
+ feature_decoration_pattern_eschatology:0 "ฉากวันสิ้นโลก"
+ feature_decoration_pattern_knots:0 "ลายปมที่สอดประสานกัน"
+ feature_decoration_pattern_animals:0 "ลวดลายรูปสัตว์"
+ feature_decoration_pattern_bird:0 "นกอันสง่างาม"
+
+ feature_decoration_material_inlay_HSB_placeholder:0 "#D ตำแหน่งยึด#! "
+ 
+ feature_icon_decoration_pattern_saint: "[Artifact.GetOwner.Custom('PredeterminedSaintName')]"
+
+ ###########
+ # Quality and wealth #
+ ###########
+
+ quality_fine:0 "ประณีต"
+ quality_very_fine:0 "ประณีตมาก"
+ quality_excellent:0 "ยอดเยี่ยม"
+ quality_masterful:0 "ชำนาญ"
+
+ adverb_quality_masterful:0 "อย่างชำนาญ"
+ adverb_quality_excellent:0 "อย่างยอดเยี่ยม"
+ adverb_quality_fine:0 "อย่างประณีต"
+
+ wealth_extravagant:0 "ฟุ่มเฟือย"
+ wealth_opulent:0 "หรูหรา"
+ wealth_beautiful:0 "สวยงาม"
+ wealth_elegant:0 "สง่างาม"
+ wealth_ornate:0 "หรูหราวิจิตร"
+ wealth_fancy:0 "หรูหรา"
+ wealth_plain:0 "เรียบง่าย"
+
+ article_wealth_plain:0 "แบบเรียบง่าย"
+ article_wealth_fancy:0 "แบบหรูหรา"
+ article_wealth_ornate:0 "แบบหรูหราวิจิตร"
+ article_wealth_elegant:0 "แบบสง่างาม"
+ article_wealth_beautiful:0 "แบบสวยงาม"
+ article_wealth_opulent:0 "แบบหรูหรา"
+ article_wealth_extravagant:0 "แบบฟุ่มเฟือย"
+
+ adverb_wealth_extravagant:0 "อย่างฟุ่มเฟือย"
+ adverb_wealth_masterful:0 "อย่างชำนาญ"
+ adverb_wealth_opulent:0 "อย่างหรูหรา"
+ adverb_wealth_wonderful:0 "อย่างน่าอัศจรรย์"
+ adverb_wealth_elegant:0 "อย่างสง่างาม"
+ adverb_wealth_lavish:0 "อย่างฟุ่มเฟือย"
+ adverb_wealth_beautiful:0 "อย่างสวยงาม"
+ adverb_wealth_rich:0 "อย่างมั่งคั่ง"
+ adverb_wealth_ornate:0 "อย่างหรูหราวิจิตร"
+ adverb_wealth_fancy:0 "อย่างหรูหรา"
+ adverb_wealth_plain:0 "อย่างเรียบง่าย"
+
+ ############################
+ # Weapon Descriptions 		#
+ ############################
+ create_artifact_weapon_tooltip:0 "[inspiration_owner.GetShortUIName] สร้าง [SCOPE.Custom('ArtifactWeaponType')] ด้วยฝีมือระดับ [SCOPE.Custom('ArtifactQuality')]"
+ # Sword and Dagger components (Blades, Hilts, and Pommels) 
+ feature_hilt_decoration_carved_pattern:0 "ด้ามดาบสลักลาย [Artifact.GetFeatureText( 'decoration_pattern' )] — แม้จะเรียบง่าย"
+ feature_hilt_decoration_inlay_pattern:0 "ด้ามดาบฝัง [Artifact.GetFeatureText( 'decoration_material_inlay' )] เป็นลาย [Artifact.GetFeatureText( 'decoration_pattern' )]"
+ feature_hilt_decoration_filigree:0 "ด้ามดาบประดับด้วยลายลวด [Artifact.GetFeatureText( 'decoration_material_wire' )] อันวิจิตร"
+ feature_hilt_decoration_rounded_pommels:0 "หัวดาบมีรูปทรงเป็นกลีบมนหลายกลีบและฝังด้วย [Artifact.GetFeatureText( 'decoration_material_inlay' )]"
+ feature_hilt_decoration_wires:0 "ด้ามจับหุ้มด้วยลายเกลียวฝัง [Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_hilt_decoration_circles:0 "ด้ามจับมีวงแหวน [Artifact.GetFeatureText( 'decoration_material_wire' )] ประดับเป็นระยะๆ สลับกับแถบหนัง"
+ feature_hilt_decoration_twisting:0 "ด้ามและหัวดาบประดับด้วยลายฝัง [Artifact.GetFeatureText( 'decoration_material_inlay' )] เป็นลายบิดเกลียวอันซับซ้อน"
+ feature_blade_decoration_etched_pattern:0 "ใบดาบกัดลายเป็นภาพนูนของ [Artifact.GetFeatureText( 'decoration_pattern' )]"
+ feature_blade_decoration_etched_motto:0 "ใบดาบกัดลายเป็นคำว่า "[Artifact.GetOwner.GetHouse.GetMotto]""
+ feature_blade_decoration_etched_owner:1 "บนใบดาบมีจารึกว่า "เป็นของ [Artifact.GetOwner.GetTitledFirstName] แห่ง [Artifact.GetOwner.GetPrimaryTitle.GetNameNoTierNoTooltip]""
+
+ # Swords
+ artifact_sword_name:0 "ดาบ$artifact_name_prefix$"
+ artifact_longsword_name:0 "ดาบยาว$artifact_name_prefix$"
+ artifact_sword_description:3 "ดาบ [newly_created_artifact.GetFeatureText( 'blade_metal' )] ที่มีฝีมือระดับ [SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.Custom('ArtifactSwordDecoration')]"
+ sword_decoration_hilt_and_blade:1 "[ROOT.Artifact.GetFeatureText( 'hilt_decoration' )|U] และ [ROOT.Artifact.GetFeatureText( 'blade_decoration' )]"
+ sword_decoration_hilt:1 "[ROOT.Artifact.GetFeatureText( 'hilt_decoration' )|U]"
+ sword_decoration_blade:1 "[ROOT.Artifact.GetFeatureText( 'blade_decoration' )|U]"
+ sword_decoration_none:0 "เรียบง่ายและไม่ตก แต่ง แต่ยังคงดูโดดเด่น"
+ sword_decoration_none_alt:0 "ทุกส่วนประกอบล้วนมีประโยชน์ใช้สอย และการขาดความหรูหราฟุ่มเฟือย ทำให้เจ้าของดูเป็นคนเน้นประโยชน์ใช้สอยอย่างเคร่งครัด"
+
+ # Daggers
+ artifact_dagger_name:0 "กริช[owner.GetTitledFirstNamePossessiveNoTooltip]"
+ artifact_dagger_description:1 "กริช [newly_created_artifact.GetFeatureText( 'blade_metal' )] ที่มีฝีมือระดับ [SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.Custom('ArtifactDaggerDecoration')]"
+ dagger_decoration_hilt_and_blade:0 "$sword_decoration_hilt_and_blade$"
+ dagger_decoration_hilt:0 "$sword_decoration_hilt$"
+ dagger_decoration_blade:0 "$sword_decoration_blade$"
+ dagger_decoration_none:0 "$sword_decoration_none$"
+ artifact_kris_name:0 "[owner.GetTitledFirstNamePossessiveNoTooltip] กริช"
+ artifact_kris_description: "กริช[newly_created_artifact.GetFeatureText( 'blade_metal' )] ฝีมือการสร้างระดับ[SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.Custom('ArtifactDaggerDecoration')]"
+
+ # Axe, Spear, Hammer, and Mace components (Heads, Shafts/Hafts)
+ feature_head_decoration_etched_pattern:0 "กัดลายเป็นภาพนูนของ [Artifact.GetFeatureText( 'decoration_pattern' )]"
+ feature_head_decoration_religious_motifs:0 "กัดลายเป็นลวดลายต่างๆ ของ [Artifact.GetOwner.GetFaith.GetAdjective]"
+ feature_shaft_decoration_painted_pattern:0 "ทาสีเป็นภาพ [Artifact.GetFeatureText( 'decoration_pattern' )]"
+ feature_shaft_decoration_inlay:0 "ฝังด้วย [Artifact.GetFeatureText( 'decoration_material_inlay_HSB' )]"
+ feature_shaft_decoration_varnish:0 "เคลือบเงาให้มีความเงางามสีเข้ม"
+ feature_shaft_decoration_grooves:0 "แกะสลักเป็นร่องเล็กน้อยบริเวณที่จับ เพื่อให้จับได้ถนัดมือ"
+ feature_shaft_decoration_wavelets:0 "แกะสลักเป็นลายคลื่นละเอียดเพื่อลดการลื่นเมื่อใช้งาน"
+ feature_shaft_decoration_lines:0 "แกะสลักเป็นเส้นบางๆ เพื่อเสริมรูปลักษณ์ของวัสดุ และให้การยึดเกาะที่ดีและมีพื้นผิว"
+ feature_metal_handle_decoration_inlay:0 "ฝังด้วย [Artifact.GetFeatureText( 'decoration_material_inlay' )]"
+ feature_metal_handle_decoration_etched_pattern:0 "กัดลายเป็นภาพซ้ำๆ ของ [Artifact.GetFeatureText( 'decoration_pattern' )]"
+
+ # Axes
+ artifact_axe_name:0 "ขวานศึก$artifact_name_prefix$"
+ artifact_axe_description:2 "ขวานศึกที่มีฝีมือระดับ [SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.Custom('ArtifactAxeHeadDescription')] [newly_created_artifact.Custom('ArtifactAxeHaftDescription')]"
+ artifact_axe_head_undecorated:1 "หัวขวาน [ROOT.Artifact.GetFeatureText( 'head_metal' )] ติดอยู่บน"
+ artifact_axe_head_decorated:1 "หัวขวาน [ROOT.Artifact.GetFeatureText( 'head_metal' )] ถูก [ROOT.Artifact.GetFeatureText( 'head_decoration' )] แล้วจึงติดอยู่บน"
+ artifact_axe_haft_undecorated:2 "ด้ามขวาน [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] ที่แข็งแรง มันสมดุลอย่างเชี่ยวชาญและเหวี่ยงง่ายพอๆ กับความคม"
+ artifact_axe_haft_decorated:1 "ด้ามขวาน [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] อันสง่างามที่ถูก [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )]"
+ 
+ # Hammers
+ artifact_hammer_name:1 "ค้อนศึก$artifact_name_prefix$"
+ artifact_hammer_description:3 "ค้อนศึกที่มีฝีมือระดับ [SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.Custom('ArtifactHammerHeadDescription')] [newly_created_artifact.Custom('ArtifactHammerShaftDescription')]"
+ artifact_hammer_head_undecorated:0 "$artifact_axe_head_undecorated$"
+ artifact_hammer_head_decorated:0 "$artifact_axe_head_decorated$"
+ artifact_hammer_shaft_undecorated:1 "ด้ามค้อน [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] ที่แข็งแรง"
+ artifact_hammer_shaft_decorated:1 "ด้ามค้อน [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] อันสง่างามที่ถูก [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )]"
+
+ # Spears
+ artifact_spear_name:0 "หอก$artifact_name_prefix$"
+ artifact_spear_description:2 "หอกยาวที่มีฝีมือระดับ [SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.Custom('ArtifactSpearHeadDescription')] [newly_created_artifact.Custom('ArtifactSpearShaftDescription')]"
+ artifact_spear_head_undecorated:0 "$artifact_axe_head_undecorated$"
+ artifact_spear_head_decorated:0 "$artifact_axe_head_decorated$"
+ artifact_spear_head_decorated_flanked:1 "ใบหอกสองคมขนาบข้างด้วยครีบยาวบาง ทำให้หอกมีรูปทรงที่เป็นที่รู้จักและอันตรายถึงชีวิต"
+ artifact_spear_shaft_undecorated:1 "ด้ามหอก [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] ที่แข็งแรง"
+ artifact_spear_shaft_undecorated_alt:2 "ด้ามหอก [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] ที่แข็งแรง เป็นอาวุธที่สง่างามพอๆ กับความอันตราย"
+ artifact_spear_shaft_decorated:1 "ด้ามหอก [ROOT.Artifact.GetFeatureText( 'shaft_wood' )] อันสง่างามที่ถูก [ROOT.Artifact.GetFeatureText( 'shaft_decoration' )]"
+
+ # Maces
+ artifact_mace_name:0 "กระบอง$artifact_name_prefix$"
+ artifact_mace_description:2 "กระบองมีครีบที่มีฝีมือระดับ [SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.Custom('ArtifactMaceHeadDescription')] [newly_created_artifact.Custom('ArtifactMaceHandleDescription')]"
+ artifact_mace_head_undecorated:0 "$artifact_axe_head_undecorated$"
+ artifact_mace_head_decorated:0 "$artifact_axe_head_decorated$"
+ artifact_mace_handle_undecorated:1 "ด้ามจับ [ROOT.Artifact.GetFeatureText( 'handle_metal' )] ที่แข็งแรง"
+ artifact_mace_handle_decorated:2 "ด้ามจับ [ROOT.Artifact.GetFeatureText( 'handle_metal' )] อันสง่างามที่ถูก [ROOT.Artifact.GetFeatureText( 'metal_handle_decoration' )]"
+
+ ############################
+ # Wearable Descriptions	#
+ ############################
+
+ # Armor
+ artifact_armor_name:0 "[SCOPE.Custom('ArtifactArmorArtifactName')]"
+ artifact_armor_name_basic:1 "[newly_created_artifact.GetFeatureText( 'armor_property' )|U] [SCOPE.Custom('ArtifactArmorTypeUppercase')|U] $artifact_name_prefix$"
+ artifact_armor_name_culture:0 "[SCOPE.Custom('ArtifactArmorTypeUppercase')|U] แบบ [ROOT.Char.GetCulture.GetNameNoTooltip]"
+ artifact_armor_name_dynasty:1 "[SCOPE.Custom('ArtifactArmorTypeUppercase')|U] แห่งตระกูล [ROOT.Char.GetDynasty.GetBaseNameNoTooltip]"
+ artifact_armor_name_descriptor:1 "[newly_created_artifact.GetFeatureText( 'armor_property' )|U] [SCOPE.Custom('ArtifactArmorTypeUppercase')|U]"
+
+ artifact_armor_mail_lowercase:0 "เกราะโซ่"
+ artifact_armor_mail_uppercase:0 "เกราะโซ่"
+ artifact_armor_plate_lowercase:0 "เกราะแผ่น"
+ artifact_armor_plate_uppercase:0 "เกราะแผ่น"
+ artifact_armor_scale_lowercase:0 "เกราะเกล็ด"
+ artifact_armor_scale_uppercase:0 "เกราะเกล็ด"
+ artifact_armor_lamellar_lowercase:0 "เกราะลาเมลลาร์"
+ artifact_armor_lamellar_uppercase:0 "เกราะลาเมลลาร์"
+ artifact_armor_laminar_lowercase:0 "เกราะลามินาร์"
+ artifact_armor_laminar_uppercase:0 "เกราะลามินาร์"
+ artifact_armor_brigandine_lowercase:1 "เกราะบริกันดีน"
+ artifact_armor_brigandine_uppercase:1 "เกราะบริกันดีน"
+ artifact_armor_shield_lowercase:0 "โล่"
+ artifact_armor_shield_uppercase:0 "โล่"
+
+ artifact_armor_descriptor_shiny:0 "เงางาม"
+ artifact_armor_descriptor_flexible:0 "ยืดหยุ่น"
+ artifact_armor_descriptor_powerful:0 "ทรงพลัง"
+ 
+ feature_artifact_armor_descriptor_shiny:0 "$artifact_armor_descriptor_shiny$"
+ feature_artifact_armor_descriptor_lustrous:0 "แวววาว"
+ feature_artifact_armor_descriptor_burnished:0 "ขัดเงา"
+ feature_artifact_armor_descriptor_flexible:0 "$artifact_armor_descriptor_flexible$"
+ feature_artifact_armor_descriptor_powerful:0 "$artifact_armor_descriptor_powerful$"
+ feature_artifact_armor_descriptor_silver_inlaid:0 "ฝังเงิน"
+ feature_artifact_armor_descriptor_gold_inlaid:0 "ฝังทอง"
+ feature_artifact_armor_descriptor_bronze_inlaid:0 "ชุบสำริด"
+ feature_artifact_armor_descriptor_armor_material_hardened_leather:0 "หนังชุบแข็ง"
+ feature_artifact_armor_descriptor_armor_material_steel:0 "เหล็กกล้า"
+ feature_artifact_armor_descriptor_armor_gold_decorated:0 "ประดับทอง"
+ feature_artifact_armor_descriptor_armor_silver_decorated:0 "ฝังเงิน"
+ feature_artifact_armor_descriptor_armor_copper_decorated:0 "ฝังทองแดง"
+ feature_artifact_armor_descriptor_armor_shakudo_decorated:0 "ประดับชะกุโด"
+ feature_artifact_armor_descriptor_armor_shibuichi_decorated:0 "ประดับชิบุอิชิ"
+
+ feature_armor_material_iron:0 "$metal_iron$"
+ feature_armor_material_steel:0 "$metal_steel$"
+ feature_armor_material_gold:0 "$metal_gold$"
+ feature_armor_material_bronze:0 "$metal_bronze$"
+ feature_armor_material_canvas:0 "$cloth_canvas$"
+ feature_armor_material_horn:0 "$material_horn$"
+ feature_armor_material_pangolin_scales:0 "$material_pangolin_scales$"
+ feature_armor_material_leather:0 "$material_leather$"
+ feature_armor_material_hardened_leather:0 "$material_hardened_leather$"
+
+ feature_armor_helmet_spangenhelm:0 "ชุดเกราะประกอบด้วยหมวกสแปนเกนเฮล์มและแผ่นปิดคอ"
+ feature_armor_helmet_crested:0 "ชุดเกราะประกอบด้วยหมวกเกราะมีหงอนพร้อมชิ้นส่วนตก แต่งคิ้ว"
+ feature_armor_helmet_nasal:0 "ชุดเกราะประกอบด้วยหมวกเกราะนาซาลและหมวกโซ่บุด้วย [Artifact.GetFeatureText( 'generic_material_cloth' )]"
+ feature_armor_helmet_enclosed:0 "ชุดเกราะประกอบด้วยหมวกเกราะแบบปิดและหมวกโซ่บุด้วย [Artifact.GetFeatureText( 'generic_material_cloth' )]"
+ feature_armor_helmet_great_helmet:0 "ชุดเกราะประกอบด้วยหมวกเกราะใหญ่และหมวกโซ่บุด้วย [Artifact.GetFeatureText( 'generic_material_cloth' )]"
+ feature_armor_helmet_great_helmet_bascinet:0 "ชุดเกราะประกอบด้วยหมวกเกราะใหญ่และหมวกบาซิเน็ตสำหรับสวมข้างใต้"
+ feature_armor_helmet_great_helmet_cervelliere:0 "ชุดเกราะประกอบด้วยหมวกเกราะใหญ่และหมวกเซอร์เวลลิแยร์สำหรับสวมข้างใต้"
+ feature_armor_helmet_turban_helmet:0 "ชุดเกราะประกอบด้วยหมวกเกราะโพกศีรษะและแผ่นปิดคอ"
+ feature_armor_helmet_lamellar:0 "ชุดเกราะประกอบด้วยหมวกเกราะลาเมลลาร์พร้อมขนนกตก แต่งด้านบนและแผ่นปิดคอ"
+ feature_armor_helmet_kettle:0 "ชุดเกราะประกอบด้วยหมวกเกราะเคทเทิลพร้อมปีกกว้าง"
+ feature_armor_helmet_cervelliere:0 "ชุดเกราะประกอบด้วยหมวกเซอร์เวลลิแยร์ทรงครึ่งวงกลมที่พอดีศีรษะและหมวกโซ่บุด้วย [Artifact.GetFeatureText( 'generic_material_cloth' )]"
+ feature_armor_helmet_kulah_khud:0 "ชุดเกราะประกอบด้วยหมวกเกราะคูลาห์คูดและแผ่นปิดคอ"
+
+ feature_armor_decoration_etched_pattern:0 "เกราะทั้งชุดถูกกัดลายเป็นภาพซ้ำๆ ของ [Artifact.GetFeatureText( 'decoration_pattern' )]"
+ feature_armor_decoration_inlay_pattern:0 "เกราะทั้งชุดถูกตก แต่งด้วยการฝัง [Artifact.GetFeatureText( 'decoration_material_inlay' )] เป็นภาพซ้ำๆ ของ [Artifact.GetFeatureText( 'decoration_pattern' )]"
+ feature_armor_decoration_painted_pattern:0 "เกราะทั้งชุดถูกทาสีเป็นภาพ [Artifact.GetFeatureText( 'decoration_pattern' )]"
+ feature_armor_decoration_lines:0 "เกราะทั้งชุดถูกแกะสลักด้วยเส้นบางๆ เพื่อเสริมรูปลักษณ์ของวัสดุ"
+ feature_armor_decoration_gold_plating:0 "เกราะทั้งชุดถูกชุบด้วยทองคำหนา"
+ feature_armor_decoration_lining:0 "ห่วงโซ่ด้านล่างสุดทำจาก [Artifact.GetFeatureText( 'decoration_material_wire' )] สำหรับตก แต่ง บุรอบเกราะทั้งชุด"
+ feature_armor_decoration_embossed:0 "หมุด [Artifact.GetFeatureText( 'decoration_material_wire' )] ที่ยึดแผ่นเกราะกับผ้าถูกปั๊มนูนเป็นลวดลายตก แต่ง"
+ feature_armor_decoration_grouped_rivets:0 "หมุด [Artifact.GetFeatureText( 'decoration_material_wire' )] ที่ยึดแผ่นเกราะกับผ้าของเกราะถูกจัดกลุ่มเป็นลวดลายตก แต่ง"
+
+ artifact_armor_description:0 "[SCOPE.Custom('ArtifactArmorDesc')] [newly_created_artifact.GetFeatureText('armor_helmet')] [newly_created_artifact.GetFeatureText('armor_decoration')]"
+ 
+ artifact_armor_mail_description:2 "แม้ว่าห่วงโซ่จะไม่เอื้อต่อการตก แต่ง แต่งานตอกหมุดระดับ [SCOPE.Custom('ArtifactQuality')] ทำให้เกราะชิ้นนี้แตกต่างจากเกราะโซ่ทั่วไป"
+ artifact_armor_plate_description:2 "เกราะสร้างจากแผ่น [newly_created_artifact.GetFeatureText( 'armor_material' )] ขนาดใหญ่ที่ถูกตีขึ้นรูป [SCOPE.Custom('ArtifactAdverbQuality')] เพื่อปกคลุมผู้สวมใส่ทั้งหมด"
+ artifact_armor_scale_description:2 "เกราะสร้างจากเกล็ด [newly_created_artifact.GetFeatureText( 'armor_material' )] ที่สร้างขึ้น [SCOPE.Custom('ArtifactAdverbQuality')] ซึ่งยึดติดกับแผ่นรองหนัง"
+ artifact_armor_lamellar_description:2 "เกราะสร้างจากแผ่น [newly_created_artifact.GetFeatureText( 'armor_material' )] ที่ผูกเข้าด้วยกัน [SCOPE.Custom('ArtifactAdverbQuality')] ด้วยเชือกผ้า [newly_created_artifact.GetFeatureText( 'generic_material_cordage' )] ในขณะที่ขอบและซับในตัดจากผ้า [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )] อย่างดี"
+ artifact_armor_laminar_description:2 "เกราะสร้างจากแถบ [newly_created_artifact.GetFeatureText( 'armor_material' )] ที่ซ้อนทับกันในแนวนอน ซึ่งร้อยเข้าด้วยกัน [SCOPE.Custom('ArtifactAdverbQuality')] ด้วยเชือก [newly_created_artifact.GetFeatureText( 'generic_material_cordage' )] ในขณะที่ขอบและซับในตัดจากผ้า [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )] อย่างดี"
+ artifact_armor_brigandine_description:2 "[newly_created_artifact.GetFeatureText( 'armor_material' )] ของเกราะบุภายใน [SCOPE.Custom('ArtifactAdverbQuality')] ด้วยแผ่นเหล็กกล้ารูปสี่เหลี่ยมผืนผ้าและหุ้มด้วยชั้นของ [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )]"
+ artifact_armor_fallback_description:2 "[SCOPE.Custom('ArtifactDecorationArmor')]"
+
+ create_artifact_armor_tooltip:1 "[inspiration_owner.GetShortUIName] สร้าง [SCOPE.Custom('ArtifactArmorTypeLowercase')] ด้วยฝีมือระดับ [SCOPE.Custom('ArtifactQuality')]"
+
+ # Regalia
+ artifact_regalia_name:0 "เครื่องราชกกุธภัณฑ์$artifact_name_prefix$"
+ artifact_regalia_description:1 "ชุดเครื่องราชกกุธภัณฑ์[SCOPE.Custom('ArtifactArticleWealth')] ที่มีฝีมือระดับ [SCOPE.Custom('ArtifactQuality')] ประกอบด้วย [newly_created_artifact.GetFeatureText( 'regalia_scepter' )] [newly_created_artifact.GetFeatureText( 'regalia_clothes' )] และ [newly_created_artifact.GetFeatureText( 'regalia_accessory' )]"
+
+ feature_regalia_scepter_gemstone:0 "คทา [Artifact.GetFeatureText( 'decoration_material_wire' )] ประดับด้วย [Artifact.GetFeatureText( 'decoration_material_gem' )]"
+ feature_regalia_accessory_orb:0 "ลูกโลกประดับกางเขนทำจาก [Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_regalia_accessory_necklace:0 "สร้อยคอประดับ [Artifact.GetFeatureText( 'decoration_material_gem' )] หลังเบี้ยขนาดใหญ่"
+ feature_regalia_clothes_robe:0 "เสื้อคลุม [Artifact.GetFeatureText( 'generic_material_cloth' )] อย่างดีที่ปักด้วย [Artifact.GetFeatureText( 'decoration_material_embroidery' )]"
+ feature_regalia_clothes_cloak:0 "เสื้อคลุม [Artifact.GetFeatureText( 'generic_material_cloth' )] ที่ปักด้วยด้าย [Artifact.GetFeatureText( 'decoration_material_embroidery' )]"
+ 
+ create_artifact_regalia_tooltip:1 "[inspiration_owner.GetShortUIName] สร้างชุดเครื่องราชกกุธภัณฑ์ด้วยฝีมือระดับ [SCOPE.Custom('ArtifactQuality')]"
+
+ artifact_seal_of_investiture: "$artifact_name_prefix$ $seal_of_investiture$"
+ seal_of_investiture: "ตราประทับแห่งการสถาปนา"
+ artifact_seal_of_investiture_court: "$seal_of_investiture$"
+ seal_of_investiture.desc: "[SCOPE.Custom('ArtifactArticleWealth')] [seal_of_investiture|E] ฝีมือการสร้างระดับ[SCOPE.Custom('ArtifactQuality')] นี่คือ [newly_created_artifact.GetFeatureText( 'decoration_material_slate' )] พร้อมด้วย [newly_created_artifact.GetFeatureText( 'decoration_material_ink' )]\n\nสร้างขึ้นตามบัญชาของ [tributary_scope.GetSuzerain.GetFullName] เพื่อบันทึกความจงรักภักดีของ [tributary_scope.GetFullName] โดยได้มอบแด่ [tributary_scope.GetHerHim] ในพิธีปิดการเดินทางถวายเครื่องราชบรรณาการของ [tributary_scope.GetHerHis] ณ [tributary_scope.GetSuzerain.GetCapitalLocation.GetName]"
+ feature_regalia_seal_slate: "ตราประทับหลวง[Artifact.GetFeatureText( 'decoration_material_slate' )]"
+ feature_regalia_seal_ink: "จารึกอักษรด้วย[Artifact.GetFeatureText( 'decoration_material_ink' )]"
+
+ heirloom_seal.name: "ตราประจำตระกูล"
+ heirloom_seal.desc: "ตราหยกโบราณนี้ถูกสร้างขึ้นโดยจิ๋นซีฮ่องเต้เมื่อกว่าพันปีก่อน หลังจากการรวมแผ่นดินจีนยุครณรัฐ กล่าวกันว่าตรานี้แกะสลักมาจากเหอซื่อปี้ หนึ่งในสมบัติจักรพรรดิอันศักดิ์สิทธิ์ที่สุดที่เคยมีมา\n\nจารึกสลักไว้ว่า: \"เมื่อได้รับอาณัติสวรรค์ ขอให้จักรพรรดิทรงมีพระชนม์ชีพยืนยาวและรุ่งเรือง\""
+
+ artifact_seal_dynastic: "ตราจักรพรรดิ"
+ dynastic_imperial_seal.name: "ตราจักรพรรดิแห่ง [owner.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]"
+ dynastic_imperial_seal.desc: "นี่คือตราจักรพรรดิของราชวงศ์ [owner.GetDynasty.GetBaseNameNoTooltip] และ [owner.GetPrimaryTitle.GetBaseNameNoTooltip] สร้างขึ้นตามคำขอของ [owner.GetTitledFirstNamePossessiveNoTooltip] และเป็น [newly_created_artifact.GetFeatureText( 'decoration_material_slate' )] พร้อม [newly_created_artifact.GetFeatureText( 'decoration_material_ink' )] ตรานี้เป็นหนึ่งในสมบัติล้ำค่าที่สุดของอาณาจักรและเป็นสัญลักษณ์ของราชวงศ์ผู้ปกครอง"
+
+
+ # Crowns
+ artifact_crown_name:0 "มงกุฎ$artifact_name_prefix$"
+ artifact_crown_description:1 "มงกุฎ[SCOPE.Custom('ArtifactArticleWealth')] ที่มีฝีมือระดับ [SCOPE.Custom('ArtifactQuality')] มงกุฎทำจาก [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )] และ [newly_created_artifact.GetFeatureText( 'crown_decoration' )]"
+
+ feature_crown_decoration_gems:1 "ประดับด้วย [Artifact.GetFeatureText( 'decoration_material_gem' )] ชิ้นเล็กๆ"
+ feature_crown_decoration_filigree:0 "ประดับด้วยลายลวดอันวิจิตร"
+ feature_crown_decoration_filigree_and_gem:0 "ประดับด้วยลายลวดอันวิจิตร ซึ่งล้อมรอบ [Artifact.GetFeatureText( 'decoration_material_gem' )] ชิ้นใหญ่ตรงกลาง"
+
+ create_artifact_crown_tooltip:1 "[inspiration_owner.GetShortUIName] สร้างมงกุฎด้วยฝีมือระดับ [SCOPE.Custom('ArtifactQuality')]"
+
+ # Icons
+ artifact_icon_name: "รูปเคารพแห่ง [newly_created_artifact.GetFeatureText('icon_decoration')]"
+ artifact_icon_description: "รูปเคารพ[SCOPE.Custom('ArtifactArticleWealth')] ที่มีฝีมือระดับ [SCOPE.Custom('ArtifactQuality')] แสดงภาพ [newly_created_artifact.GetFeatureText('icon_decoration')]"
+
+ # Brooches
+ artifact_brooch:0 "เข็มกลัด"
+ artifact_brooch_pedestal:0 "$artifact_brooch$"
+ artifact_brooch_name:0 "เข็มกลัด$artifact_name_prefix$"
+ artifact_brooch_description:1 "เข็มกลัด[SCOPE.Custom('ArtifactArticleWealth')] ที่มีฝีมือระดับ [SCOPE.Custom('ArtifactQuality')] [newly_created_artifact.GetFeatureText( 'brooch_decoration' )]"
+
+ feature_brooch_decoration_centerpiece_and_adornment:0 "ประกอบด้วย [Artifact.GetFeatureText( 'brooch_centerpiece' )] ซึ่ง [Artifact.GetFeatureText( 'brooch_adornment' )]"
+ feature_brooch_decoration_centerpiece:0 "ประกอบด้วย [Artifact.GetFeatureText( 'brooch_centerpiece' )] ติดอยู่บนตัวยึด [Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_brooch_decoration_adornment:0 "ประกอบด้วยตัวยึด [Artifact.GetFeatureText( 'decoration_material_wire' )] [Artifact.GetFeatureText( 'brooch_adornment' )]"
+ feature_brooch_centerpiece_cabochon:0 "[Artifact.GetFeatureText( 'decoration_material_gem' )] หลังเบี้ย"
+ feature_brooch_centerpiece_cross:0 "ไม้กางเขน [Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_brooch_centerpiece_sword:0 "รูปดาบ [Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_brooch_adornment_filigree:0 "ประดับด้วยลายลวดอันวิจิตร"
+ feature_brooch_adornment_gems:0 "ประดับด้วย [Artifact.GetFeatureText( 'decoration_material_gem' )] ชิ้นเล็กๆ"
+ feature_brooch_adornment_runes:0 "ล้อมกรอบด้วยวงแหวน [Artifact.GetFeatureText( 'decoration_material_wire' )] ประทับอักษรรูน"
+ create_artifact_brooch_tooltip:0 "[inspiration_owner.GetShortUIName] สร้างเข็มกลัด[SCOPE.Custom('ArtifactArticleWealth')|l] ด้วยฝีมือระดับ [SCOPE.Custom('ArtifactQuality')]"
+
+ # Rings
+ artifact_ring:0 "แหวน"
+ artifact_ring_name:0 "แหวน$artifact_name_prefix$"
+ artifact_ring_description:0 "แหวน[SCOPE.Custom('ArtifactArticleWealth')] ที่มีฝีมือระดับ [SCOPE.Custom('ArtifactQuality')] ก้านแหวน [newly_created_artifact.GetFeatureText( 'generic_material_metal' )] [newly_created_artifact.GetFeatureText( 'ring_decoration' )]"
+ feature_ring_decoration_centerpiece_and_adornment:0 "ประดับด้วย [Artifact.GetFeatureText( 'ring_centerpiece' )] และ [Artifact.GetFeatureText( 'ring_adornment' )]"
+ feature_ring_decoration_centerpiece:0 "ประดับยอดด้วย [Artifact.GetFeatureText( 'ring_centerpiece' )]"
+ feature_ring_decoration_adornment:0 "[Artifact.GetFeatureText( 'ring_adornment' )]"
+ feature_ring_centerpiece_cabochon:0 "[Artifact.GetFeatureText( 'decoration_material_gem' )] หลังเบี้ย"
+ feature_ring_centerpiece_signet:0 "ตราประจำตระกูล [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip] สลักบนหัวแหวน [Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_ring_centerpiece_religious:0 "[Artifact.GetOwner.GetFaith.ReligiousSymbol] ของ [Artifact.GetOwner.GetFaith.GetAdjective] สลักบนหัวแหวน [Artifact.GetFeatureText( 'decoration_material_wire' )]"
+ feature_ring_adornment_filigree:0 "คือ $feature_brooch_adornment_filigree$"
+ feature_ring_adornment_motto:0 "ล้อมรอบด้วยคำขวัญประจำตระกูล [Artifact.GetOwner.GetHouse.GetBaseNameNoTooltip]: '#EMP [Artifact.GetOwner.GetHouse.GetMotto]#!'"
+ feature_ring_adornment_religious:0 "ล้อมรอบด้วยข้อความจาก [Artifact.GetOwner.GetFaith.ReligiousText] ของ [Artifact.GetOwner.GetFaith.GetAdjective]"
+ feature_ring_adornment_gems:0 "$feature_brooch_adornment_gems$"
+ feature_ring_adornment_runes:0 "$feature_brooch_adornment_runes$"
+
+ ## fund_inspiration.6001-6006 trinkets from your adventurer
+ morin_khuur_ornament_name:0 "เครื่องประดับหัวม้าโมรินคูร์"
+ morin_khuur_ornament_description:1 "หัวม้าแกะสลักจากกระดูกม้า ปกติใช้ประดับส่วนบนของซอโมรินคูร์ ส่งมาให้ [owner.GetTitledFirstNameNoTooltip] โดย [inspiration_owner.GetTitledFirstNameNoTooltip] ระหว่างการผจญภัยของ [inspiration_owner.GetHerHis]"
+ animal_ring_name:0 "แหวนเสือฉูดฉาด"
+ animal_ring_description:1 "ประดับอัญมณีและมีสีสันมากเกินไป ท่านอาจ ทำให้ข้าราชบริพารตาบอดด้วยแหวนวงนี้ได้มากกว่าสร้างความประทับใจในรสนิยมแฟชั่นของท่าน ส่งมาให้ [owner.GetTitledFirstNameNoTooltip] โดย [inspiration_owner.GetTitledFirstNameNoTooltip] ระหว่างการผจญภัยของ [inspiration_owner.GetHerHis]"
+ ostrich_shell_necklace_name:0 "สร้อยคอลูกปัดเปลือกไข่นกกระจอกเทศ"
+ ostrich_shell_necklace_description:1 "เครื่องประดับอันละเอียดอ่อนสีขาวสว่าง ส่งมาให้ [owner.GetTitledFirstNameNoTooltip] โดย [inspiration_owner.GetTitledFirstNameNoTooltip] ระหว่างการผจญภัยของ [inspiration_owner.GetHerHis]"
+ pilgrimage_figurine_name:0 "รูปนักบุญวาร์ดานทำจากกระดองปลาหมึก"
+ pilgrimage_figurine_description:1 "รูปปั้นวาร์ดาน มามิโกเนียน นายพลชาวอาร์เมเนียผู้รักษาเอกราชในการนับถือศาสนาคริสต์ของอาร์เมเนียในยุทธการอาวาไรร์ ปี 451 หมวกเกราะของเขาเต็มไปด้วยรายละเอียดสำริด ส่งมาให้ [owner.GetTitledFirstNameNoTooltip] โดย [inspiration_owner.GetTitledFirstNameNoTooltip] ระหว่างการผจญภัยของ [inspiration_owner.GetHerHis]"
+ saint_margaret_fingernails_name:0 "เล็บมือนักบุญมาร์กาเร็ต"
+ saint_margaret_fingernails_description:1 "นักบุญมาร์กาเร็ตแห่งแอนติออกมีชื่อเสียงจากการสังหารมังกรโดยใช้เพียงส้นรองเท้าของนาง ว่ากันว่าเล็บมือเก่าๆ น่าขยะแขยงเหล่านี้เป็นของนาง ส่งมาให้ [owner.GetTitledFirstNameNoTooltip] โดย [inspiration_owner.GetTitledFirstNameNoTooltip] ระหว่างการผจญภัยของ [inspiration_owner.GetHerHis]"
+ seahorse_brooch_name:0 "เข็มกลัดม้าน้ำทองคำ"
+ seahorse_brooch_description:1 "เข็มกลัดพร้อมพู่โซ่อันละเอียดอ่อนใต้ตัวม้า ซึ่งมีทั้งปีกและหางครีบ ส่งมาให้ [owner.GetTitledFirstNameNoTooltip] โดย [inspiration_owner.GetTitledFirstNameNoTooltip] ระหว่างการผจญภัยของ [inspiration_owner.GetHerHis]"
+
+
+ #fund_inspiration.6500- trinkets from your adventurer
+ leopard_hat_name:0 "หมวกเสือดาว"
+ leopard_hat_description:0 "หมวกที่ทำจากหัวเสือดาว สังหารโดย [inspiration_owner.GetTitledFirstName]"
+ kurgan_ornament_name:0 "รูปปั้นเสือดำไซเธียน"
+ kurgan_ornament_description:0 "รูปปั้นหินที่ [inspiration_owner.GetTitledFirstName] ปล้นมาจากสุสานคูร์กันเก่าแก่ของชาวไซเธียน"
+ kurgan_saddle_name:0 "อานม้าจากคูร์กัน"
+ kurgan_saddle_description:1 "อานม้าที่ [inspiration_owner.GetTitledFirstName] ฉกมาจากสุสานไซเธียน อายุกว่าพันปี ได้รับการอนุรักษ์ไว้ในอากาศที่กักขังของสุสาน ท่ามกลางร่างม้าดองหลายสิบตัว บางทีเราอาจเรียนรู้อะไรบางอย่างจากวิถีของนักรบบนหลังม้าโบราณได้"
+ naked_tapestry_name:0 "พรมภาพเปลือย"
+ naked_tapestry_description:0 "ภาพเปลือยของ [inspiration_owner.GetTitledFirstName] ที่โอเอซิสริมหาด กำลังพัด [inspiration_owner.GetHerselfHimself] ด้วยใบไม้ และเปล่งประกายด้วยหยดน้ำใสราวคริสตัล"
+
+ frogspawn_jar_name:0 "โหลไข่กบ"
+ frogspawn_jar_description:0 "โหลที่เต็มไปด้วยไข่กบที่กระฉอกไปมา และลูกอ๊อดที่ฟักออกมาไม่กี่ตัว ส่งมาให้ [ROOT.Char.GetTitledFirstNameNoTooltip] โดย [inspiration_owner.GetTitledFirstName] เพื่อบ่งบอกถึงความน่าสะพรึงกลัวของโลกภายนอก\n\nดิ้นดุ๊กดิ๊ก!"
+ beaver_book_name:1 "ปราสาทของบีเวอร์"
+ beaver_book_description:0 "หนังสือเกี่ยวกับสถาปัตยกรรมและเทคนิคการก่อสร้างของบีเวอร์ เขียนขึ้นพร้อมภาพร่างโดย [inspiration_owner.GetTitledFirstName] ระหว่างการเดินทางของ [inspiration_owner.GetHerHis]"
+ crocodile_tapestry_name:0 "พรมจระเข้"
+ crocodile_tapestry_description:0 "พรมรูปจระเข้ที่สร้างขึ้นตามความสามารถที่ดีที่สุดของ [inspiration_owner.GetTitledFirstNamePossessive] สัตว์ร้ายตัวนี้มีสีแดงสด มีเขี้ยวหลายชั้น ตุ่มพิษ และหางมีหนาม มันล้อมรอบด้วยรังไข่ในถ้ำหลังน้ำตก"
+ mountain_rock_name:0 "หินภูเขา"
+ mountain_rock_description:0 "หินก้อนใหญ่ที่ [inspiration_owner.GetTitledFirstName] แบกมาอย่างยากลำบากตลอดทางจาก [mountain_location.GetName]"
+ 
+ # Game start additional unique artifacts
+ reichskrone_name:0 "ไรชส์โครเนอ"
+ reichskrone_description:1 "นี่คือสัญลักษณ์แห่งตำแหน่งจักรพรรดิโรมันอันศักดิ์สิทธิ์ รับประกันว่าจะดึงดูดความสนใจของดยุกทุกคนที่ผ่านไปมา"
+ nikephoros_crown_name:0 "มงกุฎแห่งนีเกโฟรอสที่ 2 โฟกัส"
+ nikephoros_crown_description:2 "นี่คือมงกุฎของหนึ่งในนักวางกลยุทธ์ที่เก่งกาจที่สุดเท่าที่เคยมีมาในสายเลือดจักรวรรดิ ล้มเหลวในสงครามทางตะวันตกของจักรวรรดิ แต่เป็นผู้พิชิตทางตะวันออก"
+ skull_cap_charlemagne_name:0 "กะโหลกศีรษะของชาร์เลอมาญ"
+ skull_cap_charlemagne_description:0 "กะโหลกศีรษะของชาร์เลอมาญถูกเก็บไว้ในกล่องนี้ บางทีปัญญาของเขาอาจสถิตอยู่กับเจ้าของ"
+ papal_tiara_name:0 "เทียร่าของพระสันตะปาปา"
+ papal_tiara_description:1 "นี่คือหมวกไมเตอร์ประดับอัญมณีพร้อมมงกุฎทองคำ ซึ่งเป็นสัญลักษณ์ของตำแหน่งพระสันตะปาปา แต่มันจะไม่ดูสง่างามที่สุดบนศีรษะของท่านหรือ?"
+ essen_crown_name:0 "คินเดอร์โครเนอ"
+ essen_crown_description:1 "บ้างก็ว่านี่คือมงกุฎที่สร้างขึ้นสำหรับพิธีราชาภิเษกของออตโตที่ 3 ในเอสเซิน บ้างก็ว่ามีไว้สำหรับสวมมงกุฎรูปปั้นพระแม่มารี ไม่ว่าจะทางใด มันเล็กมาก แต่ท่านอาจจะพยายามบีบมันลงบนศีรษะของท่านได้"
+ monomachus_crown_name:1 "มงกุฎโมโนมาคัส"
+ monomachus_crown_description:1 "นี่คือมงกุฎที่ประกอบด้วยแผ่นทองคำแสดงภาพเหมือนของคอนสแตนตินที่ 9 โมโนมาคัส พระมเหสีโซอี พระขนิษฐาธีโอโดรา และรูปนักเต้นเชิงเปรียบเทียบ"
+ edmund_head_name:1 "ศีรษะนักบุญเอ็ดมันด์"
+ edmund_head_description:0 "เอ็ดมันด์เรียกร้องให้ตนเองเป็นนักบุญตั้งแต่วินาทีที่เกิด ตำนานเล่าว่าเขาเป็นกษัตริย์แห่งอีสต์แองเกลียผู้ยอมเป็นเครื่องสังเวยแก่พวกไวกิ้งแทนที่จะปล่อยให้ประชาชนของเขาถูกสังหาร"
+ dhammapada_name:0 "ธรรมบท"
+ dhammapada_description:1 "นี่คือชุดคำสอนของพระพุทธเจ้า ผูกไว้ในคัมภีร์ใบลานอย่างดี"
+ excalibur_name:0 "'เอ็กซ์คาลิเบอร์'"
+ excalibur_description:0 "แทบไม่มีผู้ปกครองคนใดในบริเตนที่ไม่กล่าวอ้างว่าเป็นเจ้าของเอ็กซ์คาลิเบอร์ที่แท้จริง สงครามต่างๆ จ่ายด้วยการขายเอ็กซ์คาลิเบอร์ และท่านต้องหวังว่าแขกของท่านจะไม่จับได้ว่ามีคนอื่นแสดงดาบเล่มนี้อยู่"
+ vinaya_pitaka_name:0 "วินัยปิฎก"
+ vinaya_pitaka_description:0 "คัมภีร์พุทธศาสนาจากสามส่วนของพระไตรปิฎกภาษาบาลี ข้อความนี้เป็นคำแนะนำเกี่ยวกับข้อปฏิบัติทางวินัยสำหรับพระภิกษุและภิกษุณี"
+ sutta_pitaka_name:0 "สุตตันตปิฎก"
+ sutta_pitaka_description:1 "คัมภีร์พุทธศาสนานิกายเถรวาทอ้างอิงจากการสังคายนาครั้งแรกหลังการปรินิพพานของพระพุทธเจ้า ประกอบด้วยบทกวีและพระธรรมเทศนาจำนวนมากที่เชื่อว่าเป็นของพระพุทธเจ้าและสาวกของพระองค์ เป็นส่วนหนึ่งของพระไตรปิฎกภาษาบาลี"
+ abhidhamma_pitaka_name:0 "อภิธรรมปิฎก"
+ abhidhamma_pitaka_description:0 "งานวิชาการโดยละเอียดที่วิเคราะห์คำสอนของพระพุทธเจ้า เป็นส่วนหนึ่งของพระไตรปิฎกภาษาบาลี"
+
+
+
+
+ # Brooches
+
+ brooch_decoration_centerpiece_and_adornment:0 "ประกอบด้วย [SCOPE.Custom('BroochDecorationCenterpiece')] ซึ่ง [SCOPE.Custom('BroochDecorationAdornment')]"
+ brooch_decoration_centerpiece:0 "ประกอบด้วย [SCOPE.Custom('BroochDecorationCenterpiece')] ติดอยู่บนตัวยึด [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('fastener_metal'))]"
+ brooch_decoration_adornment:0 "ประกอบด้วยตัวยึด [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('fastener_metal'))] [SCOPE.Custom('BroochDecorationAdornment')]"
+ brooch_centerpiece_cabochon:0 "[ROOT.Char.Custom2_Flag('ArtifactGemType', SCOPE.GetFlagName('centerpiece_gem'))] หลังเบี้ย"
+ brooch_centerpiece_cross:0 "ไม้กางเขน [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('centerpiece_metal'))]"
+ brooch_centerpiece_sword:0 "รูปดาบ [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('centerpiece_metal'))]"
+ brooch_adornment_filigree_primary:0 "ประดับด้วยลายลวดอันวิจิตร"
+ brooch_adornment_filigree_secondary:0 "ประดับด้วยลายลวด [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('adornment_filigree_metal'))]"
+ brooch_adornment_gems:0 "ประดับด้วย [ROOT.Char.Custom2_Flag('ArtifactGemType', SCOPE.GetFlagName('adornment_gem'))] ชิ้นเล็กๆ"
+ brooch_adornment_runes:0 "ล้อมกรอบด้วยวงแหวน [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('adornment_runed_ring_metal'))] ประทับอักษรรูน"
+
+ tiny_sculpture_trinket_name:0 "ประติมากรรมขนาดจิ๋ว"
+ tiny_sculpture_trinket_description:1 "ประติมากรรมขนาดจิ๋วของ [statue_owner.GetTitledFirstNameNoTooltip] ขนาดพกพาและพร้อมที่จะปกครอง สร้างสรรค์โดย [inspiration_owner.GetTitledFirstNameNoTooltip]"
+ tiny_box_trinket_name:0 "กล่องขนาดจิ๋ว"
+ tiny_box_trinket_description:0 "กล่องขนาดเล็ก แต่ลึกลับ บางทีมันอาจจะปลดปล่อยบาปหนึ่งประการสู่โลกเมื่อเปิดออก สร้างสรรค์โดย [inspiration_owner.GetTitledFirstNameNoTooltip]"
+ tiny_chest_trinket_name:0 "หีบขนาดจิ๋ว"
+ tiny_chest_trinket_description:0 "หีบขนาดเล็กที่ล็อกไว้ขนาดเท่าหัวแม่มือ มันส่งเสียงกรุ๊งกริ๊งเมื่อเขย่า เผยให้เห็นสิ่งที่อยู่ข้างใน สร้างสรรค์โดย [inspiration_owner.GetTitledFirstNameNoTooltip]"
+ tiny_cabinet_trinket_name:0 "ตู้ขนาดจิ๋ว"
+ tiny_cabinet_trinket_description:0 "ตู้ที่เล็กพอที่ควรเก็บไว้ในตู้อื่นเพื่อป้องกันไม่ให้ถูกเหยียบ สร้างสรรค์โดย [inspiration_owner.GetTitledFirstNameNoTooltip]"
+ tiny_throne_trinket_name:0 "บัลลังก์ขนาดจิ๋ว"
+ tiny_throne_trinket_description:0 "บัลลังก์ที่เหมาะสำหรับหนูหรือสัตว์ฟันแทะอื่นๆ ที่จะปกครองจากบัลลังก์นี้ สร้างสรรค์โดย [inspiration_owner.GetTitledFirstNameNoTooltip]"
+
+
+#fund_inspiration.6301 same sex love poems
+ prince_archivist_love_poem_name:0 "ข้าคือจันทรา เจ้าคือสุริยา"
+ prince_archivist_love_poem_description:0 "บทลำนำรักของชายสองคน - เจ้าชายและบรรณารักษ์ เฝ้ามองดาวบนยอดหอคอยห่างไกลจากสายตาผู้คนและอยู่ร่วมกันท่ามกลางหมู่ดาว มีข่าวลือว่าบรรณารักษ์คนนั้นอิงจากประสบการณ์ของผู้ประพันธ์ [inspiration_owner.GetTitledFirstNamePossessiveNoTooltip]"
+ witch_queen_love_poem_name:0 "หัวใจที่สลายไป"
+ witch_queen_love_poem_description:0 "บทกวีเกี่ยวกับหญิงสองคนที่รักกัน แม่มดและราชินีที่หลงทางในป่าใกล้กระท่อมของนาง ทั้งสองต่างปลอบประโลมใจในช่วงเวลาที่ห่างไกลจากสังคม มีเสียงกระซิบว่าแม่มดคนนั้นเป็นภาพล้อเลียนตนเองจากผู้ประพันธ์ [inspiration_owner.GetTitledFirstNameNoTooltip]"
+
+ #Books
+ book_artifact_title_desc:0 "ตำราเล่มนี้หุ้มด้วยหนังและให้รายละเอียดเกี่ยวกับการเสียสละและงานหนักทั้งหมดที่ทุ่มเทเพื่อ [SCOPE.Custom('ArtifactBookSubject')] [relevant_title.GetName]"
+ book_artifact_no_topic_desc:0 "ตำราเล่มนี้หุ้มด้วยหนังและลงรายละเอียดอย่างมากเกี่ยวกับ [SCOPE.Custom('ArtifactBookSubject')] – พร้อมภาพประกอบโดยละเอียดและภาพวาดตก แต่งขอบหน้ากระดาษ"
+ book_artifact_other_desc:0 "ตำราเล่มนี้หุ้มด้วยหนังและแสดงให้เห็นถึงความเข้าใจ [SCOPE.Custom('ArtifactArticleBookContentQuality')] ในเรื่อง [SCOPE.Custom('ArtifactBookSubject')] โดยกล่าวถึงหัวข้อต่างๆ เช่น [SCOPE.Custom('ArtifactBookTopic')]"
+
+ book_artifact_martial:0 "การสงคราม"
+ book_artifact_diplomacy:0 "การทูต"
+ book_artifact_learning:0 "เรื่องวิชาการ"
+ book_artifact_stewardship:0 "การดูแลทรัพย์สิน"
+ book_artifact_intrigue:0 "การวางอุบาย"
+ book_artifact_medicine:0 "การแพทย์"
+ book_artifact_reveler:0 "การเฉลิมฉลอง"
+ book_artifact_blademaster:0 "การต่อสู้"
+ book_artifact_hunter:0 "การล่าสัตว์"
+ book_artifact_mystic:0 "เรื่องลี้ลับ"
+ book_artifact_herbalist:0 "สมุนไพร"
+ book_artifact_physician:0 "การรักษาพยาบาล"
+ book_artifact_torturer:0 "การทรมาน"
+ book_artifact_cannibal:0 "การบริโภคเนื้อมนุษย์"
+ book_artifact_witch:0 "วิธีบูชา [ROOT.Char.GetFaith.WitchGodName]"
+ book_artifact_witch_sponsor:0 "วิธีบูชา [ROOT.Char.GetLiege.GetFaith.WitchGodName]"
+ book_artifact_deviant:0 "ความปรารถนาทางเพศทางเลือก"
+ book_artifact_lunatic:0 "ความคลาดเคลื่อนในความเป็นจริง"
+ book_artifact_unification:0 "รวมเป็นหนึ่ง"
+ book_artifact_creation:0 "สร้าง"
+ book_artifact_restoration:0 "ฟื้นฟู"
+
+ book_artifact_topic_herbs_the_art_of_lovemaking:0 "ศิลปะแห่งการร่วมรัก"
+ book_artifact_topic_medicine:0 "การใช้ยาปรุงและขี้ผึ้งต่างๆ"
+ book_artifact_topic_herbs:0 "ประโยชน์หลากหลายของสมุนไพรและพืชหายากจำนวนหนึ่ง"
+ book_artifact_topic_witch:0 "ยาปรุง ขี้ผึ้ง สมุนไพร และวิธีการบูชาทางเลือก"
+
+ book_content_quality_excellent:0 "อันยอดเยี่ยม"
+ book_content_quality_deep:0 "อันลึกซึ้ง"
+ book_content_quality_good:0 "ที่ดี"
+ book_content_quality_modest:0 "พอประมาณ"
+ create_artifact_book_tooltip:0 "[inspiration_owner.GetShortUIName] สร้างหนังสือ[SCOPE.Custom('ArtifactArticleWealth')|l] ด้วยตัวอักษรระดับ [SCOPE.Custom('ArtifactQuality')]"
+
+ create_artifact_artisan_tooltip:0 "[inspiration_owner.GetShortUIName] สร้าง [inspiration_owner.Custom('InspirationArtisanType')] ด้วยฝีมือระดับ [SCOPE.Custom('ArtifactQuality')]"
+
+ create_artifact_smith_tooltip:0 "[inspiration_owner.GetShortUIName] สร้าง [inspiration_owner.Custom('InspirationSmithType')] ด้วยฝีมือระดับ [SCOPE.Custom('ArtifactQuality')]"
+ feature_blade_wrought_iron:0 "เหล็กเหนียว"
+ feature_blade_folded_iron:0 "เหล็กพับ"
+ feature_blade_steel:0 "เหล็กกล้า"
+ feature_blade_wootz_steel:0 "เหล็กกล้าวูทซ์"
+ feature_blade_bulat_steel:0 "เหล็กกล้าบูลาต"
+ feature_blade_damascus_steel:0 "เหล็กกล้าดามัสกัส"
+
+ ## Character Modifiers made to artifacts ##
+
+ # From court_ongoing_1021
+ artifact_necklace:2 "สร้อยคอ"
+ artifact_necklace_pedestal:0 "$artifact_necklace$"
+ artifact_necklace_name:1 "สร้อยคอ [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )|U] ประดับ [newly_created_artifact.GetFeatureText( 'decoration_material_gem' )|U]"
+ artifact_necklace_description:1 "สร้อยคอ[SCOPE.Custom('ArtifactArticleWealth')] แต่ละเอียดอ่อนด้วยฝีมือระดับ [SCOPE.Custom('ArtifactQuality')] สร้อยคอทำจาก [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )] และมีจี้ [newly_created_artifact.GetFeatureText( 'decoration_material_gem' )] อันงดงาม"
+ artifact_pressed_flower_name:1 "ดอก [SCOPE.Custom('ArtifactFlowerSpecies')|U] ทับแห้ง"
+ artifact_pressed_flower_description:1 "ดอก [SCOPE.Custom('ArtifactFlowerSpecies')] ที่สวยงาม ถูกทับและ ทำให้แห้งเพื่อรักษาความงามไว้"
+
+ # From stewardship_wealth.1061
+ stewardship_old_ledger_name:0 "สมุดบัญชีเก่า"
+ stewardship_old_ledger_description:0 "สมุดบัญชีเก่าแก่เต็มไปด้วยฝุ่น เต็มไปด้วยลายมือหวัดๆ และบันทึกการทำบัญชี มันไม่มีประโยชน์อะไรนักนอกจากใช้เรียนรู้ว่าสมุดบัญชีหน้าตาเป็นอย่างไร"
+ feature_book_title_stewardship_old_ledger:0 "$stewardship_old_ledger_name$"
+ feature_book_topic_stewardship_old_ledger:0 "$stewardship_old_ledger_description$"
+
+ # From lover.3219
+ lover_keepsake_hair_name:0 "ปอยผมของ [original_lover.GetFirstNamePossessiveNoTooltip]"
+ lover_keepsake_hair_description:1 "ของที่ระลึกอัน [original_lover.GetTitledFirstNamePossessive] มอบให้แก่ [lover.GetTitledFirstName] คนรักผู้ห่างไกลของ [original_lover.GetHerHis] เพื่อที่ [lover.GetSheHe] จักได้พกพาส่วนหนึ่งของ [original_lover.GetHerHim] ติดตัว [lover.GetHerHim] ไปเสมอ"
+ lover_keepsake_clothes_male_name:0 "กางเกงชั้นในของ [original_lover.GetFirstNamePossessiveNoTooltip]"
+ lover_keepsake_clothes_female_name:0 "เสื้อเชิ้ตชั้นในของ [original_lover.GetFirstNamePossessiveNoTooltip]"
+ lover_keepsake_clothes_description:1 "สิ่งของส่วนตัวที่สุดของ [original_lover.GetTitledFirstNamePossessive] ส่งไปยัง [lover.GetTitledFirstNameNoTooltip] คนรักที่อยู่ห่างไกลของ [original_lover.GetHerHis] เพื่อรักษาไฟแห่งความสัมพันธ์ในห้องนอนของพวกเขาให้คงอยู่"
+ lover_keepsake_shell_name:0 "เปลือกหอยของ [original_lover.GetFirstNamePossessiveNoTooltip]"
+ lover_keepsake_shell_description:1 "ของที่ระลึกที่ [original_lover.GetTitledFirstNamePossessive] ส่งไปยัง [lover.GetTitledFirstNameNoTooltip] คนรักที่อยู่ห่างไกลของ [original_lover.GetHerHis] เก็บมาเป็นที่ระลึกในการพบกันครั้งแรกของพวกเขา"
+
+## christian_saint_bone pilgrim reward
+ christian_saint_bone_name:0 "[saint_bone_owner.Custom('RandomSaintBone')] ของ [saint_bone_owner.Custom('RandomSaintNamePossessive')]"
+ christian_saint_bone_description:1 "อัฐิธาตุอันเล่าลือกันว่าเป็นของนักบุญชาว [saint_bone_owner.GetFaith.GetReligion.GetAdjectiveNoTooltip] ซึ่ง [saint_bone_owner.GetNameNoTooltip] ได้มาคราเมื่อประกอบการจาริกแสวงบุญของ [saint_bone_owner.GetHerHis] ไปยัง [christian_saint_bone_scope.MakeScope.Var('holy_site').GetProvince.GetCounty.GetTitle.GetNameNoTierNoTooltip] และเป็นที่เคารพบูชาดุจเครื่องรางนำโชคและความศรัทธาโดยเหล่า [saint_bone_owner.GetFaith.GetAdherentNamePluralNoTooltip]"
+# bones
+ bone_type_knuckle:0 "ข้อนิ้ว"
+ bone_type_shin:0 "หน้าแข้ง"
+ bone_type_kneecap:0 "สะบ้า"
+ bone_type_femur:0 "กระดูกต้นขา"
+ bone_type_clavicle:0 "กระดูกไหปลาร้า"
+ bone_type_rib:0 "ซี่โครง"
+ bone_type_vertebra:0 "กระดูกสันหลัง"
+ bone_type_jaw:0 "ขากรรไกร"
+ bone_type_toe:0 "นิ้วเท้า"
+ bone_type_scapula:0 "กระดูกสะบัก"
+ bone_type_finger:0 "นิ้วมือ"
+ bone_type_thumb:0 "นิ้วหัวแม่มือ"
+ bone_type_hip:0 "สะโพก"
+ bone_type_humerus:0 "กระดูกต้นแขน"
+ bone_type_tibia:0 "กระดูกหน้าแข้ง"
+ bone_type_ankle:0 "ข้อเท้า"
+
+ # yearly.4081
+ translated_arabic_book_de_materia_medica_name:0 "#italic ว่าด้วยวัตถุทางการแพทย์#!"
+ translated_arabic_book_de_materia_medica_desc:0 "สำเนาภาพประกอบตำรับยาห้าเล่มของไดออสคอริดีสเกี่ยวกับสรรพคุณทางยาของพืชต่างๆ เขียนขึ้นในอเล็กซานเดรียโบราณ $translated_arabic_book_shared_desc$"
+ translated_arabic_book_on_ascensions_name:0 "#italic ว่าด้วยการขึ้นสู่สวรรค์#!"
+ translated_arabic_book_on_ascensions_desc:0 "สำเนาตำราดาราศาสตร์ของฮิปซิเคิลส์เกี่ยวกับการเคลื่อนที่ของจักรราศีผ่านท้องฟ้า เขียนขึ้นในอเล็กซานเดรียโบราณและ $translated_arabic_book_shared_desc$"
+ translated_arabic_book_elements_name:0 "#italic ธาตุ#!"
+ translated_arabic_book_elements_desc:0 "สำเนาตำราคณิตศาสตร์สิบสามเล่มของยูคลิดเกี่ยวกับเรขาคณิต ตรรกศาสตร์ และบทพิสูจน์ เขียนขึ้นในอเล็กซานเดรียโบราณและ $translated_arabic_book_shared_desc$"
+ translated_arabic_book_on_the_soul_name:0 "#italic ว่าด้วยจิตวิญญาณ#!"
+ translated_arabic_book_on_the_soul_desc:0 "สำเนาตำราจิตวิทยาสามเล่มโบราณของอริสโตเติลเกี่ยวกับธรรมชาติของจิตวิญญาณและแนวโน้มของมัน $translated_arabic_book_shared_desc$"
+ translated_arabic_book_thucydides_name:0 "#italic ประวัติศาสตร์ของทิวซิดิดีส#!"
+ translated_arabic_book_thucydides_desc:0 "สำเนาบันทึกโบราณของทิวซิดิดีสเกี่ยวกับสงครามเพโลพอนนีเซียนระหว่างเอเธนส์และสปาร์ตา $translated_arabic_book_shared_desc$"
+ translated_arabic_book_plutarch_name:0 "#italic ชีวประวัติของพลูทาร์ก#!"
+ translated_arabic_book_plutarch_desc:0 "สำเนาชีวประวัติเปรียบเทียบของผู้นำโบราณที่โดดเด่นและลักษณะทางศีลธรรมของพวกเขาโดยพลูทาร์ก $translated_arabic_book_shared_desc$"
+ translated_arabic_book_shared_desc:0 "แปลเป็นภาษาอาหรับจากภาษากรีกดั้งเดิมสำหรับ [ROOT.Char.GetTitledFirstNameNoTooltipRegnal]"
+ 
+ # hold_court.4300
+ dress_me_artifact_desc:0 "อาภรณ์อันวิจิตรที่สร้างขึ้นโดยช่างตัดเสื้อที่เก่งกาจที่สุด สั่งทำโดย [ROOT.Char.GetTitledFirstNameNoTooltipRegnal] เพื่อสร้างความประทับใจให้แก่ราชสำนักของ [ROOT.Char.GetHerHis] ด้วยความงดงาม"
+
+ # martial_authority.4000-5
+ improvised_halberd_desc:0 "ง้าวที่ดัดแปลงอย่างเร่งรีบนี้มียอดเป็นขอสับ ทำให้เป็นอาวุธชั่วคราวที่มีประโยชน์ในยามคับขัน"
+ improvised_dagger_desc:0 "กริชชั่วคราวนี้สร้างขึ้นจากการดัดแปลงอุปกรณ์ทำฟาร์ม และยังคงความสะดวกในการใช้งานและความสามารถในการตัด"
+ improvised_billhook_desc:0 "ขอสับมือเดียวนี้ใช้สำหรับตัดกิ่งไม้จากพุ่มไม้ แม้จะไม่เหมาะกับกษัตริย์ แต่ใบมีดโค้งของมันก็สามารถหาช่องว่างในเกราะได้อย่างน่าประหลาดใจ"
+
+ # yearly_event.7010-50
+ football_cup_desc:0 "ถ้วยนี้ได้รับมอบหมายให้สร้างขึ้นเพื่อรำลึกถึงชัยชนะในเกมฟุตบอล"
+ participation_trophy_desc:0 "ถ้วยนี้ได้รับมอบหมายให้สร้างขึ้นเพื่อรำลึกถึง 'ชัยชนะ' ในเกมฟุตบอล"
+
+ #bp1_yearly.7200
+ perfume_bottle_description:0 "[ROOT.Char.GetFirstNameNoTooltip] รวบรวมส่วนผสมสำหรับน้ำหอมนี้"
+
+ # travel_events.4005
+ maritime_trading_handbook:0 "คู่มือการค้าทางทะเล"
+ maritime_trading_handbook_description:0 "คู่มือที่เขียนอย่างเชี่ยวชาญเกี่ยวกับลักษณะของการค้าทางทะเลของชาว [merchant_character_scope.GetCulture.GetName]"
+ own_holy_text_mid:0 "[root_scope.GetFaith.ReligiousText|U] ประดับอัญมณี"
+ own_holy_text_mid_description:0 "[root_scope.GetFaith.ReligiousText|U] ที่ประดับด้วยอัญมณีฝัง"
+ merchants_holy_text_mid:0 "[merchant_character_scope.GetFaith.ReligiousText|U] ประดับอัญมณี"
+ merchants_holy_text_mid_description:0 "[merchant_character_scope.GetFaith.ReligiousText|U] ที่ประดับด้วยอัญมณีฝัง"
+ merchants_sword:0 "ดาบ [merchant_character_scope.GetCulture.GetName]"
+ merchants_sword_description:0 "ดาบชั้นดีที่ซื้อมาจากพ่อค้าชาว [merchant_character_scope.GetCulture.GetNameNoTooltip] ที่เดินทางมา"
+ jewelled_slippers:0 "รองเท้าประดับอัญมณี"
+ jewelled_slippers_description:0 "รองเท้าประดับอัญมณีคู่สวย การสวมใส่มัน ทำให้รู้สึกเหมือนสามารถหาทางกลับบ้านได้เสมอ"
+ witchcraft_book:0 "ตำรายาสมุนไพร"
+ witchcraft_book_description:0 "หนังสือที่เคยเป็นของแม่มดแห่ง [ROOT.Char.GetCurrentLocation.GetTitle.GetNameNoTier] หน้ากระดาษเต็มไปด้วยยาสมุนไพรง่ายๆ ที่ทำขึ้นเพื่อปรับสมดุลธาตุในร่างกาย"
+ witchy_holy_text_mid:0 "[witch_scope.GetFaith.ReligiousText|U] ประดับอัญมณี"
+ witchy_holy_text_mid_description:0 "[witch_scope.GetFaith.ReligiousText|U] ที่ประดับด้วยอัญมณีฝัง"
+ immaculate_witchy_bones:0 "กระดูกแม่มดอันบริสุทธิ์"
+ immaculate_witchy_bones_description:0 "กองกระดูกที่เคยเป็นของแม่มดแห่ง [ROOT.Char.GetCurrentLocation.GetTitle.GetNameNoTier] แม้หลังจากการเผาของ [witch_scope.GetHerHis] กระดูกก็ยังคงบริสุทธิ์"
+ mysterious_lamp:0 "ตะเกียงลึกลับ"
+ mysterious_lamp_description:0 "ตะเกียงทองคำส่องประกาย ประดับด้วยอัญมณี รู้สึกถึงพลังจักรวาลอันมหาศาลเมื่อถือมัน"
+ mysterious_puzzle:0 "ปริศนาลึกลับ"
+ mysterious_puzzle_description:0 "ปริศนาทองคำหรูหราที่ปกคลุมด้วยการแกะสลักเป็นภาษาต่างประเทศ กล่าวกันว่าเคยเป็นของปรมาจารย์แห่งเกมผู้ทรงพลัง"
+ lunchbox:0 "กล่องถนอมอาหาร"
+ lunchbox_description:0 "กล่องที่ปิดสนิท ซึ่งดูเหมือนจะยืดอายุการบริโภคของอาหารที่ใส่ไว้ข้างใน"
+
+ #Artifact Titles
+ artifact_title_valor:0 "แห่งความกล้าหาญ"
+ artifact_title_virtue:0 "แห่งคุณธรรม"
+ artifact_title_pain:0 "แห่งความเจ็บปวด"
+ artifact_title_judgement:0 "แห่งการพิพากษา"
+ artifact_title_merciless:0 "ไร้ความปรานี"
+ artifact_title_brutal:0 "โหดเหี้ยม"
+ artifact_title_victorious:0 "ผู้มีชัย"
+ artifact_title_famed:0 "เลื่องชื่อ"
+ artifact_title_lion:0 "แห่งราชสีห์"
+ artifact_title_dragon:0 "แห่งมังกร"
+ artifact_title_raven:0 "แห่งกา"
+ artifact_title_hero:0 "แห่งวีรบุรุษ"
+ artifact_title_legendary:0 "ในตำนาน"
+ artifact_title_miraculous:0 "ปาฏิหาริย์"
+ artifact_title_mythical:0 "ในเทพนิยาย"
+ artifact_title_fabled:0 "ในนิทาน"
+ artifact_title_impenetrable:0 "มิอาจทะลวง"
+ artifact_title_secure:0 "มั่นคง"
+ artifact_title_solid:0 "แข็งแกร่ง"
+ artifact_title_shiny:0 "เงางาม"
+ artifact_title_patience:0 "แห่งความอดทน"
+ artifact_title_grace:0 "แห่งความสง่างาม"
+ artifact_title_mercy:0 "แห่งความเมตตา"
+ artifact_title_strength:0 "แห่งความแข็งแกร่ง"
+ artifact_title_invincible:0 "ไร้เทียมทาน"
+ artifact_title_glorious:0 "รุ่งโรจน์"
+ artifact_title_sun:0 "แห่งสุริยา"
+ artifact_title_immortal:0 "แห่งอมตะ"
+ artifact_title_brave:0 "แห่งผู้กล้า"
+ artifact_title_quick:0 "ว่องไว"
+ artifact_title_darting:0 "พุ่งพรวด"
+ artifact_title_flashing:0 "วูบวาบ"
+ artifact_title_flickering:0 "ริบหรี่"
+ artifact_title_shades:0 "แห่งเงา"
+ artifact_title_lightning:0 "แห่งสายฟ้า"
+ artifact_title_thunder:0 "แห่งอัสนี"
+ artifact_title_stream:0 "แห่งสายธาร"
+ artifact_title_implacable:0 "มิอาจระงับ"
+ artifact_title_heroic:0 "เยี่ยงวีรบุรุษ"
+ artifact_title_amazing:0 "น่าอัศจรรย์"
+ artifact_title_fearsome:0 "น่าเกรงขาม"
+ artifact_title_snakes:0 "แห่งอสรพิษ"
+ artifact_title_themerciless:0 "แห่งผู้ไร้ความปรานี"
+ artifact_title_glory:0 "แห่งเกียรติยศ"
+# Additional Historical Artifacts
+ artifact_pedestal_koh_i_noor_name:0 "ขุนเขาแห่งแสง"
+ artifact_pedestal_koh_i_noor_description:0 "นี่คือเพชรที่มีขนาดและความใสที่ไม่มีใครเทียบได้ กล่าวกันว่าถูกขุดพบในเหมืองทางตะวันออกเฉียงใต้ของอินเดีย แต่ต้นกำเนิดที่แท้จริงของมันน่าจะไม่เป็นที่ทราบแน่ชัด"
+ artifact_jewelled_danda_name:0 "ฑัณฑะประดับอัญมณี"
+ artifact_jewelled_danda_description:0 "นี่คือคทาประดับอัญมณีจากอินเดีย สัญลักษณ์สูงสุดแห่งอำนาจราชวงศ์และความสามารถของกษัตริย์ในการลงโทษอาณาประชาราษฎร์"
+ artifact_aruval_name:0 "อารุวัลโบราณ"
+ artifact_aruval_description:0 "กล่าวกันว่าอารุวัลยาวเล่มนี้เก่าแก่มากจนเป็นไปได้ว่าการุปปุสวามีเคยใช้มันมาก่อน"
+ artifact_khanda_name:0 "ขัณฑะในพิธี"
+ artifact_khanda_description:0 "ขัณฑะเล่มนี้สร้างขึ้นสำหรับพิธีการมากกว่าการต่อสู้ และเป็นเครื่องเตือนใจมาหลายชั่วอายุคนถึงความจำเป็นในการขจัดม่านแห่งอวิชชา"
+ artifact_makarakundala_name:0 "มกรกุณฑล"
+ artifact_makarakundala_description:0 "นี่คือต่างหูเหมือนที่เหล่าเทพสวมใส่ บ้างก็อ้างว่าคู่พิเศษนี้เคยเป็นของเทพเจ้า"
+ artifact_cintamani_name:0 "หินจินดามณี"
+ artifact_cintamani_hindu_description:0 "นี่คือหินที่กล่าวกันว่าเคยตกลงมาจากท้องฟ้า บ้างอ้างว่าเคยเป็นของพระวิษณุหรือพญานาค และยังนำความเจริญรุ่งเรืองมาสู่เจ้าของอีกด้วย"
+ artifact_cintamani_buddhist_description:0 "นี่คือหินที่กล่าวกันว่าเคยตกลงมาจากท้องฟ้า บ้างอ้างว่าเคยถูกถือครองโดยพระโพธิสัตว์อวโลกิเตศวรและพระกษิติครรภ์ และยังบันดาลความปรารถนาของผู้ที่ครอบครองอีกด้วย"
+ artifact_navaratna_name:0 "นพรัตน์"
+ artifact_navaratna_description:0 "สร้อยอัญมณีเก้าชนิด มีทับทิมเม็ดใหญ่อยู่ตรงกลาง เป็นสัญลักษณ์ของเทพนพเคราะห์ทั้งเก้าในศาสนาฮินดู"
+ artifact_shankha_conch_name:0 "สังข์"
+ artifact_shankha_conch_description:0 "สัญลักษณ์ของพระวิษณุ สังข์โบราณนี้ใช้เป็นเครื่องเป่าในพิธีกรรมทางศาสนาและกล่าวกันว่าเป็นสัญลักษณ์ของความเจริญรุ่งเรืองและคุณธรรม"
+ artifact_pedestal_great_diamond_name:0 "เพชรเม็ดใหญ่"
+ artifact_pedestal_great_diamond_description:0 "กล่าวกันว่าอัญมณีขนาดมหึมานี้เคยประดับรูปปั้นในวัด ก่อนที่จะถูกผู้บุกรุกโลภมากขโมยไป"
+ al_taj_crown_name:0 "อัล-ทาจ อัล-ชารีฟ"
+ al_taj_crown_description:0 "'มงกุฎอันทรงเกียรติ' หรือ 'ผ้าโพกแห่งความเคารพ' คือมงกุฎในขบวนแห่ตามประเพณีของกาหลิบฟาติมียะห์ ประดับด้วยอัญมณีขนาดมหึมา 'อัล-ยาติมา'"
+ qadib_al_mulk_name:0 "กอดิบ อัล-มุลก์"
+ qadib_al_mulk_description:0 "คทาในขบวนแห่ของกาหลิบฟาติมียะห์ หุ้มด้วยทองคำและประดับด้วยไข่มุกและอัญมณี"
+ ryukyu_shaku_name: "ชะกุแห่งสามบรรพต"
+ ryukyu_shaku_description: "คทาประกอบพิธีลงรัก แกะสลักจากไม้ซีดาร์ศักดิ์สิทธิ์จากเกาะ เป็นสัญลักษณ์ของการรวมกลุ่มตระกูลต่าง ๆ ภายใต้อาณัติสวรรค์หนึ่งเดียว"
+ ryukyu_crown_name: "มงกุฎมังกร"
+ ryukyu_crown_description: "เครื่องประดับประดับปะการัง ยอดประดับด้วยมังกรทะเลสีทองกุมไข่มุกแห่งปัญญา ประกายแสงสะท้อนข้ามคลื่น เป็นสัญญาณแห่งอำนาจและความรุ่งเรือง"
+ al_sayf_al_khass_name:0 "อัล-ซัยฟ์ อัล-คาส"
+ al_sayf_al_khass_description:0 "กล่าวกันว่าดาบประดับอัญมณีเล่มนี้ทำจากสายฟ้า เก็บไว้ในฝักทองคำจารึก ซึ่งแทบไม่เคยถูกนำออกมา เนื่องจากความสำคัญทางพิธีการในกาหลิบ"
+ al_dawat_name:0 "อัล-ดาวาต"
+ al_dawat_description:0 "นี่คือที่หมึกทำจากทองคำและปะการัง มีบทบาทพิเศษในพิธีการของกาหลิบมาเป็นเวลานาน"
+ al_hafir_name:0 "อัล-ฮาฟีร์"
+ al_hafir_description:0 "ทับทิมสีแดงนี้ รู้จักกันในชื่อ อัล-ฮาฟีร์ หรือ 'กีบม้า' มีคุณภาพที่หาได้ยากในโลกนี้ มันถูกเย็บติดกับผ้าไหมโดยมีแท่งมรกตล้อมรอบเป็นวงกลม ตามประเพณี มันประดับอยู่บนหน้าม้าของกาหลิบ"
+ artifact_wall_banner_thankfulness_name:0 "ธงแห่งความกตัญญู"
+ artifact_wall_banner_thankfulness_description:0 "ธงผ้าไหมสีขาวนี้จารึกด้วยอักษรทองคำและพันรอบหอกทองคำ ตามประเพณี ธงนี้และธงคู่ของมันถูกถือในขบวนแห่ของกาหลิบ"
+ artifact_arms_of_alex_name:0 "เกราะของอเล็กซานเดอร์"
+ artifact_arms_of_alex_description:0 "กล่าวกันว่าชุดเกราะผ้าลินินเคลือบโบราณชุดนี้เคยเป็นของอเล็กซานเดอร์มหาราช แม้จะไม่เหมาะที่จะสวมใส่อีกต่อไป แต่ตัวเกราะเองก็สืบทอดมรดกของผู้พิชิตผู้ยิ่งใหญ่ ซึ่งเป็นที่รู้จักตั้งแต่ทะเลเมดิเตอร์เรเนียนไปจนถึงขอบของอินเดีย"
+ artifact_pedestal_al_jabal_name:0 "อัล-จาบัล"
+ artifact_pedestal_al_jabal_description:0 "นี่คือแหวนที่ประดับด้วยทับทิมเม็ดใหญ่ที่รู้จักกันในชื่อ อัล-จาบัล หรือ 'ภูเขา' หินมีขนาดใหญ่หาที่เปรียบมิได้ และกล่าวกันว่าแหวนวงนี้เคยถูกสวมใส่โดยจักรพรรดิซาซาเนียนแห่งเปอร์เซีย"
+ artifact_pedestal_al_yatima_name:0 "อัล-ยาติมา"
+ artifact_pedestal_al_yatima_description:0 "รู้จักกันในชื่อ อัล-ยาติมา ('เด็กกำพร้า') กล่าวกันว่าไข่มุกขนาดมหึมานี้ไม่เหมือนใครในโลกนี้ เป็นดั่งกำพร้าท่ามกลางตระกูลอัญมณีและไข่มุก"
+ artifact_dagger_of_rostam_name:0 "กริชของรอสตัม"
+ artifact_dagger_of_rostam_description:0 "อ้างกันว่ากริชอันวิจิตรเล่มนี้คือเล่มที่รอสตัมใช้สังหารเดวาขาว"
+ artifact_spear_of_ascalon_name:0 "อัสคาลอน"
+ artifact_spear_of_ascalon_description:0 "กล่าวกันว่าหอกเก่าที่หักนี้เป็นชิ้นส่วนของหอกที่นักบุญจอร์จใช้สังหารมังกรแห่งเบรุต"
+ artifact_zomorrodnegar_name:0 "ชัมชีร์-เอ โซมอร์รอดเนการ์"
+ artifact_zomorrodnegar_description:0 "กล่าวกันว่าดาบประดับมรกตเล่มนี้คือดาบในตำนานของโซโลมอน ใช้สังหารปีศาจฟูลัด-เซเรห์"
+ artifact_muhammads_epistles_name:0 "จดหมายจากมูฮัมหมัด"
+ artifact_muhammads_epistles_description:1 "จดหมายฉบับนี้เป็นส่วนหนึ่งของการติดต่อระหว่างศาสดามูฮัมหมัดและผู้ปกครอง [newly_created_artifact.Custom('EpistleReciever')|U]"
+ epistle_syria:0 "ซีเรีย"
+ epistle_arabia:0 "ชนเผ่าอาหรับ"
+ epistle_persia:0 "เปอร์เซีย"
+ epistle_byzantium:0 "จักรวรรดิโรมันตะวันออก"
+ epistle_bahrain:0 "บาห์เรน"
+ artifact_kaves_apron_name:0 "ผ้ากันเปื้อนของคาเวห์"
+ artifact_kaves_apron_description:0 "กล่าวกันว่าธงที่ขาดรุ่งริ่งนี้คือธงในตำนานที่คาเวห์ ช่างตีเหล็กชาวเปอร์เซีย ทำจากผ้ากันเปื้อนของเขา เพื่อรวบรวมผู้คนต่อต้านผู้ปกครองที่ชั่วร้าย"
+ artifact_joyeuse_name:0 "ฌัวเยิซ"
+ artifact_joyeuse_description:1 "ดาบแห่งชาร์เลอมาญ ตีขึ้นเพื่อบรรจุหอกแห่งลองกินุส ฌัวเยิซเป็นสัญลักษณ์ทั้งความกล้าหาญของอัศวินและมรดกแห่งราชวงศ์ของจักรวรรดิชาร์เลอมาญ"
+ artifact_durendal_name:0 "ดูเรนดัล"
+ artifact_durendal_description:0 "อ้างกันว่าดาบสั้นและหนักเล่มนี้คือดูเรนดัลในตำนาน ซ่อนโดยโรลันด์ ในขณะที่เขากำลังจะตาย เพื่อปฏิเสธไม่ให้มันตกไปอยู่ในมือศัตรูของราชบัลลังก์"
+ artifact_curtana_name:0 "คูร์ทานา"
+ artifact_curtana_description:0 "อ้างกันว่านี่คือคูร์ทานา ดาบแห่งความเมตตา ดาบในตำนานนี้เคยถูกใช้โดยทริสตันต่อสู้กับมอร์โฮลต์ นี่อาจเป็นสาเหตุที่ปลายดาบหายไป ชิ้นส่วนที่หายไปในกะโหลกหนาของยักษ์ไอริช"
+ artifact_ring_angelica_name:0 "แหวนของแองเจลิกา"
+ artifact_ring_angelica_description:0 "แหวนที่กล่าวกันว่าเป็นวงเดียวกับที่แองเจลิกาสวมใส่ ซึ่งเป็นที่รู้จักจากเรื่องราวของโรลันด์และชาร์เลอมาญ พลังของมันคงเสื่อมไปแล้ว เนื่องจากดูเหมือนจะไม่มอบการล่องหนอีกต่อไป แต่ก็ยังคงเป็นสัญลักษณ์อันงดงามของเจ้าหญิงที่จากไปนานแล้วผู้นี้"
+ artifact_olifant_name:0 "โอลิฟานต์"
+ artifact_olifant_description:0 "เขาสัตว์งาช้างขนาดใหญ่ ปกคลุมด้วยงานแกะสลักอันวิจิตร บ้างอ้างว่าเป็นเขาอันเดียวกับที่โรลันด์ใช้เรียกความช่วยเหลือก่อนตายในสมรภูมิรอนเซอโวซ์"
+ artifact_colada_name:0 "โกลาดา"
+ artifact_colada_description:0 "มีข่าวลือว่าเป็นหนึ่งในดาบของเอลซิด ใบดาบนี้เป็นแรงบันดาลใจให้ทุกคนที่ปรารถนาคุณธรรมของอัศวิน เช่นเขา"
+ artifact_aram_name:0 "อารัม"
+ artifact_aram_description:0 "หอกโบราณสีคล้ำเล่มนี้ผ่านกาลเวลามาหลายชั่วอายุคน มันเก่าแก่มากจนหลายคนเชื่อว่าเป็นหอกอารัมในตำนาน ซึ่งเป็นที่รู้จักจากเรื่องราวของจังกัร"
+ artifact_ikenga_name:0 "อิเกงกา"
+ artifact_ikenga_description:0 "อ้างกันว่ารูปปั้นมีเขาขนาดเล็กนี้มอบความสำเร็จและชัยชนะแก่เจ้าของ"
+ artifact_mmaagha_kamalu_name:0 "มมาฆา คามาลู"
+ artifact_mmaagha_kamalu_description:0 "นี่คือดาบในพิธีอันหรูหราและเก่าแก่มาก อ้างกันว่าเคยเป็นของคามาลู เทพเจ้าแห่งสงครามของชาวอิกโบ"
+ artifact_bronze_head_name:0 "ศีรษะสำริด"
+ artifact_bronze_head_description:0 "ศีรษะสำริดที่เหมือนจริงนี้จับภาพลักษณะของผู้ปกครองที่เสียชีวิตไปนานแล้วได้อย่างละเอียด ดูเหมือนประติมากรรมมากกว่าสิ่งที่หล่อด้วยโลหะ ศีรษะประดับด้วยมงกุฎเพื่อแสดงสถานะของกษัตริย์ที่ปรากฎ"
+ artifact_crystal_carving_name:0 "งานแกะสลักคริสตัล"
+ artifact_crystal_carving_description:0 "ชิ้นส่วนเขี้ยวหนุมานใสรูปสี่เหลี่ยมผืนผ้าชิ้นนี้เกือบจะโปร่งใสสมบูรณ์แบบ และพื้นผิวส่วนใหญ่ปกคลุมด้วยงานแกะสลักอันวิจิตร เป็นวัตถุที่สวยงามมาก แม้จะไม่ชัดเจนว่ามีประโยชน์ใช้สอยอย่างไร"
+ artifact_ibeji_name:0 "อิเบจิ"
+ artifact_ibeji_description:0 "นี่คือประติมากรรมไม้ขนาดเล็กที่แสดงภาพฝาแฝดผู้ล่วงลับ เชื่อกันว่าจะนำความมั่งคั่งและโชคลาภมาให้หากครอบครัวดูแลรักษา ประดับด้วยทรงผมที่ประณีตและค่อนข้างสูง"
+ artifact_kantele_name:0 "กันเตเลโบราณ"
+ artifact_kantele_description:0 "เครื่องสายไม้นี้สืบทอดกันมาหลายชั่วอายุคน มีข่าวลืออ้างว่าอาจมีอายุย้อนไปถึงสมัยของไวแนเมยเนนเอง"
+ artifact_sledovik_name:0 "สเลโดวิก"
+ artifact_sledovik_description:0 "ก้อนหินใหญ่ก้อนนี้ปกคลุมไปด้วยรอยเท้าที่ฝังลึกลงไปในเนื้อหิน เป็นแท่นบูชามาหลายปี และเชื่อกันว่ารอยเท้าเหล่านี้เป็นของนักบุญท้องถิ่น"
+ artifact_nagelring_name:0 "นาเกลริง"
+ artifact_nagelring_description:0 "ตามประเพณี ดาบเก่าแก่เล่มนี้เชื่อมโยงกับดีทริช ฟอน แบร์น ในตำนานและค่อนข้างเป็นที่นิยม การเชื่อมโยงนี้ ทำให้สิ่งของชิ้นนี้มีชื่อเสียงเกินกว่าที่ควรจะเป็น"
+ artifact_kladenets_name:0 "คลาเดเนตส์"
+ artifact_kladenets_description:1 "แม้จะผ่านช่วงเวลาที่ดีกว่านี้มาแล้ว กล่าวกันว่าดาบเหล็กกล้าเก่าเล่มนี้คือคลาเดเนตส์ในตำนาน ดาบที่สามารถเหวี่ยงตัวเองได้ ในสภาพปัจจุบัน มันแทบจะใช้งานไม่ได้เลย แต่การมีอยู่ของมันก็เรียกร้องความเคารพจากผู้ที่เชื่อในต้นกำเนิดเหนือธรรมชาติของมัน"
+ artifact_legbiter_name:0 "เลกไบเตอร์"
+ artifact_legbiter_description:0 "ดาบที่คมกริบพร้อมด้ามงาช้าง กล่าวกันว่าอาวุธนี้เคยเป็นของกษัตริย์ผู้ยิ่งใหญ่ แมกนัส โอลาฟสัน แห่งนอร์เวย์"
+ artifact_quernbiter_name:0 "เควียร์น-ไบเตอร์"
+ artifact_quernbiter_description:0 "ดาบเล่มนี้เคยถูกใช้โดยกษัตริย์โฮกุนแห่งนอร์เวย์เอง และในเวลานั้นกล่าวกันว่าคมมากจนสามารถตัดผ่านหินโม่ได้"
+ artifact_dragvandil_name:0 "ดรักวันดิล"
+ artifact_dragvandil_description:0 "ดาบที่กล่าวกันว่าเคยเป็นของเอกิล สกัลลากริมส์สัน ชาวนา กวี และนักรบ ซึ่งเป็นที่รู้จักจากตำนานของเอกิล"
+ artifact_szczerbiec_name:0 "เชอร์เบียตส์"
+ artifact_szczerbiec_description:1 "กล่าวกันว่าทูตสวรรค์มอบให้กษัตริย์โบเลสลาฟผู้กล้าหาญ อ้างกันว่าดาบเล่มนี้คือเล่มที่ใช้ฟันประตูทองคำแห่งเคียฟ มันมีความสำคัญเชิงสัญลักษณ์อย่างมหาศาล"
+ artifact_chinese_caligraphy_name:1 "ศิลปะการเขียนอักษรจีน"
+ artifact_chinese_caligraphy_description:0 "กระดาษอันบอบบางชิ้นนี้ปกคลุมไปด้วยสัญลักษณ์ที่แปลกตา แต่สวยงามและแม่นยำมาก กล่าวกันว่ามาจากดินแดนจีนอันไกลโพ้นทางตะวันออก"
+ artifact_ruyi_name:0 "หรูอี้"
+ artifact_ruyi_description:0 "นี่คือคทาหยกขนาดเล็ก ปกคลุมด้วยสัญลักษณ์และเครื่องประดับจีน"
+ turquoise_throne_name:0 "บัลลังก์เทอร์ควอยซ์"
+ turquoise_throne_description:0 "บัลลังก์หลวงประดับอัญมณีนี้สร้างขึ้นตามแบบบัลลังก์ในตำนานของกษัตริย์เปอร์เซียจากชาห์นาเมห์ โครงไม้มะเกลือประดับด้วยเทอร์ควอยซ์นับไม่ถ้วน รวมถึงแผ่นทองคำบริสุทธิ์เคลือบสีเทอร์ควอยซ์ ความงามอันน่าทึ่งนี้สามารถทำได้โดยช่างฝีมือชั้นนำในสาขาของตนเท่านั้น"
+ peacock_throne_name:0 "บัลลังก์นกยูง"
+ peacock_throne_description:0 "บัลลังก์อันหรูหรานี้มีจุดมุ่งหมายเพื่อสร้างที่ประทับของจัมชีดขึ้นมาใหม่ กล่าวกันว่าช่างฝีมือจากทั่วโลกมารวมตัวกันเพื่อประกอบทองคำ เงิน และอัญมณีล้ำค่าหลายร้อยเม็ดเข้ากับบัลลังก์ที่ตั้งอยู่ตรงหน้าท่าน"
+ artifact_banner_islam_name:0 "ธงศักดิ์สิทธิ์ของมูฮัมหมัด"
+ artifact_banner_islam_description:0 "กล่าวกันว่านี่คือธงศักดิ์สิทธิ์ของมูฮัมหมัด ของที่ระลึกจากสมัยของศาสดาและสัญลักษณ์ของศรัทธาอิสลามทั้งหมด"
+ artifact_spear_of_the_prophet_name:0 "หอกของศาสดา"
+ artifact_spear_of_the_prophet_description:0 "ตามรายงาน หอกของมูฮัมหมัด นำมาเป็นของขวัญโดยผู้ปกครองแห่งอบิสซิเนียแก่อัล-ซุบัยร์ บิน อัล-เอาวาม"
+ artifact_mantle_of_the_prophet_islam_name:0 "เสื้อคลุมของศาสดา"
+ artifact_mantle_of_the_prophet_description:0 "สืบทอดมาหลายศตวรรษจากกาหลิบองค์หนึ่งไปยังอีกองค์หนึ่ง นี่คือเสื้อคลุมของศาสดา ตามประเพณี กาหลิบจะสวมใส่ในช่วงวันหยุดเทศกาลทั้งหมด ทำให้เขามีบรรยากาศแห่งความสงบและศักดิ์ศรีที่เหนือกว่า"
+ afarganyu_name:0 "อาฟาร์กันยู"
+ artifact_afarganyu_description:0 "ภาชนะขนาดใหญ่นี้เป็นที่จุดไฟศักดิ์สิทธิ์ ซึ่งเป็นศูนย์กลางของพิธีกรรมหลายอย่างของศาสนาโซโรอัสเตอร์ จารึกเก่าแก่กล่าวถึงบุคคลที่บริจาคให้แก่คณะนักบวช แต่เดิม"
+ siddhachakra_name:0 "สิทธจักร"
+ artifact_siddhachakra_description:0 "นี่คือแผนภาพลึกลับที่ชาวเชนใช้ในการบูชา ตรงกลางมีดอกบัวบานล้อมรอบด้วยเทพบนกลีบดอกไม้ สัญลักษณ์ที่เชื่อมโยงกับตำนานของกษัตริย์ศรีปาละและพระมเหสีมายานสุนทรี"
+ artifact_staff_kakusandha:0 "ไม้เท้าของพระกกุสันธพุทธเจ้า"
+ artifact_staff_kakusandha_desc:0 "พระกกุสันธพุทธเจ้า พระพุทธเจ้าองค์แรกแห่งภัทรกัปปัจจุบัน ทรงเป็นเจ้าของไม้เท้านี้ ทั้งเพื่อป้องกันสัตว์อันตรายและไล่สัตว์เล็กๆ เพื่อไม่ให้ถูกพระภิกษุจรเหยียบย่ำ"
+ water_filter_konagamana:1 "เครื่องกรองน้ำของพระโกนาคมนพุทธเจ้า"
+ water_filter_konagamana_desc:0 "พระโกนาคมนพุทธเจ้า พระพุทธเจ้าองค์ที่สองแห่งภัทรกัปปัจจุบัน ทรงพกเครื่องกรองน้ำนี้ติดตัวไปในการเดินทาง ผ้าผืนเรียบง่ายนี้มีประโยชน์สองประการ ทั้งเป็นเครื่องกรองน้ำดื่มและ เพื่อให้แน่ใจว่าแมลงต่างๆ ถูกกรองออกอย่างปลอดภัยและด้วยความเมตตา"
+ robe_kassapa:2 "ชิ้นส่วนจีวรของพระกัสสปพุทธเจ้า"
+ robe_kassapa_desc:0 "พระกัสสปพุทธเจ้า พระพุทธเจ้าองค์ที่สามแห่งภัทรกัปปัจจุบัน ทรงครองจีวรนี้เป็นส่วนใหญ่ในชีวิตประจำวัน ผ้าเนื้อหยาบที่น่าประหลาดใจนี้เป็นที่เคารพบูชาเป็นพิเศษ เนื่องจากเป็นหนึ่งในไม่กี่ชิ้นที่ทราบกันว่าเป็นเครื่องนุ่งห่มของพระพุทธเจ้าที่ยังคงหลงเหลืออยู่"
+ ##Trinket Generation
+ #Bad/Trash
+ gilded_rats_tail:0 "หางหนูชุบทอง"
+ gilded_rats_tail.desc:0 "เครื่องประดับของคนจน"
+ quail_eggshell_gem:0 "'อัญมณี' เปลือกไข่นกกระทา"
+ quail_eggshell_gem.desc:0 "เปลือกไข่สีสันสดใสที่ดูคล้ายอัญมณี"
+ stained_glass_shard:0 "เศษกระจก 'สี' ศักดิ์สิทธิ์"
+ stained_glass_shard.desc:0 "ดูเหมือนเปื้อนด้วยสีแดงเลือดที่น่าสงสัย..."
+ xylospongium:0 "ฟองน้ำบนไม้"
+ xylospongium.desc:1 "ไม่ทราบที่มาและวัตถุประสงค์ — แต่มีกลิ่นจางๆ ไม่พึงประสงค์"
+ #Common
+ st_davids_morsel:1 "เศษเนื้อของนักบุญเดวิด"
+ st_davids_morsel.desc:0 "ดูเหมือนเป็นชิ้นเนื้อแห้ง ไม่ทราบอายุและที่มา"
+ platypus_figurine:0 "รูปปั้นสัตว์"
+ platypus_figurine.desc:0 "สัตว์ตัวเล็กนี้ดูเหมือนจะมีจะงอยปากกว้าง ขนเป็นมันเงา และครีบ ช่างแปลกประหลาดเสียนี่กระไร"
+ terracotta_toy_fowl:0 "ของเล่นรูปสัตว์ปีกดินเผา"
+ terracotta_toy_fowl.desc:0 "พื้นผิวที่สึกหรอบอกเล่าเรื่องราวของของเล่นที่เคยเป็นที่รัก"
+ #This one uses a scope local to the stewardship_general.2001-event
+ stewardship_general.2001.artifact.potsherd_holy:0 "เศษหม้อ"
+ stewardship_general.2001.artifact.potsherd_holy.desc:0 "เศษหม้อโบราณ ตามรายงาน มาจากสถานศักดิ์สิทธิ์ [trinket_holy_site.GetNameNoTierNoTooltip]"
+ small_bell_beaker:0 "ถ้วยทรงระฆังขนาดเล็ก"
+ small_bell_beaker.desc:0 "ถ้วยทรงระฆังที่มีลวดลายซับซ้อน"
+ serpentine_budai:0 "พระสังกัจจายน์หินเซอร์เพนทีน"
+ serpentine_budai.desc:0 "รูปปั้นขนาดเล็กของชายอ้วนท้วม หัวล้าน กำลังหัวเราะ"
+ #Uncommon
+ mythical_creature_horn:0 "เขา [ROOT.Char.Custom('HornedMythicalCreature')|U]"
+ mythical_creature_horn.desc:0 "ก้อนเขารูปร่างน่าสงสัย กล่าวกันว่ามาจาก [ROOT.Char.Custom('HornedMythicalCreature')] ในตำนาน"
+ mythical_creature_figurine:0 "รูปปั้น [ROOT.Char.Custom('RegionalMythicalCreature')] [ROOT.Char.Custom('TrinketLookAdjective')|U]"
+ mythical_creature_figurine.desc:1 "รูปปั้นที่แสดงภาพ [SCOPE.Custom('RegionalMythicalCreatureLower')] [new_trinket.Custom('ArtifactAnimalAdjective')] นี้ดูเหมือนจะ [ROOT.Char.Custom('TrinketLookAdverbFollowup')] [ROOT.Char.Custom('TrinketLookAdjective')] พร้อมอัญมณีเม็ดเล็กๆ สุกใสที่เป็นของพื้นเมือง [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]"
+ st_davids_taper:1 "เทียนเรียวของนักบุญเดวิด"
+ st_davids_taper.desc:1 "ดูเหมือนมีคนพยายามจุดไฟทั้งสองด้าน"
+ jira_stick:0 "คทาหินอ่อนแห่งจีรา"
+ jira_stick.desc:0 "แม้จะผ่านการใช้งานมามาก แต่ปลายแหลมก็ยังทรงพลัง"
+ lucky_coin:0 "เหรียญนำโชค [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip]"
+ lucky_coin.desc:1 "เหรียญ [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] พื้นเมืองของ [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]\n\nพื้นผิวที่เคยประทับตราตอนนี้เรียบเนียน เนื่องจากการถูและหมุนเล่นอย่างต่อเนื่อง"
+ lavender_jade_pendant:0 "จี้หยกสีลาเวนเดอร์"
+ lavender_jade_pendant.desc:0 "ริ้วสีม่วงเข้มนั้นน่าทึ่งมาก"
+ #Rare
+ sekhmet_ring:0 "แหวนตราโบราณ"
+ sekhmet_ring.desc:0 "แหวนทองคำสลักรูปมนุษย์โพสท่าพร้อมหมวกเกราะหน้าตาประหลาด"
+ scarab_brooch:0 "เข็มกลัดแมลงสคารับโบราณ"
+ scarab_brooch.desc:0 "เข็มกลัดอันละเอียดอ่อนรูปทรงแมลงสคารับ กล่าวกันว่ามรกตที่ฝังไว้มีผลดีต่อสุขภาพ"
+ 
+ # Easter eggs
+ easteregg_artifact_elisabeth_plush:0 "ตุ๊กตาหมาจิ้งจอกของเอลิซาเบธ"
+ easteregg_artifact_elisabeth_plush_description:0 "ตุ๊กตาหมาจิ้งจอกของเอลิซาเบธเป็นของเล่นที่เป็นที่รักมากและอยู่กับเธอเกือบตลอดชีวิต มักเห็นเอลิซาเบธพูดคุยกับมันขณะที่เธอถักทอรหัสลับอันซับซ้อนสำหรับใครก็ตามที่อาจจ้างบริการของเธอ มันปลอบโยนและเป็นแรงบันดาลใจให้ผู้ถือเลียนแบบความเจ้าเล่ห์ของหมาจิ้งจอก"
+ easteregg_artifact_nicks_redolence: "น้ำหอมสุดท้าย"
+ easteregg_artifact_nicks_redolence_description: "ขวดเล็กๆ ที่มีน้ำหอม — [ROOT.Char.Custom('GetComplexColor')] — อยู่ในนั้น รับรองว่าจะ ทำให้ทั้งขุนนางและสุภาพสตรีหลงใหลเมื่อได้กลิ่น จารึกเล็กๆ บนจุกปิดอ่านว่า #EMP "และบัดนี้ จุดจบใกล้เข้ามาแล้ว..."#!"
+ easteregg_artifact_chad_book:0 "เอนิอิดฉบับมีคำอธิบายประกอบ"
+ easteregg_artifact_chad_book_description:0 "สำเนาเอนิอิดของเวอร์จิลที่เป็นที่รักและมีภาพประกอบสวยงาม ถูกบดบังด้วยลายมือหวัดๆ มากมาย — บ้างไร้สาระ บ้างลึกซึ้ง"
+ easteregg_artifact_chad_dagger:0 "กริชเล่มนั้น"
+ easteregg_artifact_chad_dagger_description:0 "ประกายของมันหม่นหมองจากคราบเลือดที่แห้งกรัง ถึงกระนั้นมันก็ยังคงกระหายเลือดอยู่เสมอ"
+ easteregg_artifact_veronica_book:0 "แหวนของลอร์ด"
+ easteregg_artifact_veronica_book_description:0 "การอ้างอิงที่ซ่อนเร้นอย่างบางเบา ในรูปแบบหนังสือ เขียนด้วยภาษาโปรตุเกสชั้นเลิศ"
+ easteregg_artifact_map_lohmander: "กำหนดการเดินทางเก่า"
+ easteregg_artifact_map_lohmander_description: "หนังสือเล่มเล็กหุ้มหนังเล่มนี้บรรจุเรื่องราวของอาลักษณ์ชาวสแกนดิเนเวียและการเดินทางของเขาจากตะวันตกไปยังอินเดีย ให้รายละเอียดเกี่ยวกับอันตราย ถนน และอุปกรณ์ที่จำเป็น ตั้งแต่สถานที่ที่จะนำน้ำไปจนถึงสถานที่ที่คุณอาจต้องการรองเท้าบู๊ตที่เหมาะสม และอื่นๆ นอกจากนี้ยังมีข้อมูลจำนวนมากเกี่ยวกับอาหารหรือการเต้นรำในท้องถิ่น\n\nข้างในยังมีแผนที่พับจำนวนหนึ่ง แสดงภาพอนุทวีปและสถานที่อื่นๆ อีกมากมาย พร้อมบันทึกเกี่ยวกับสถานที่ห่างไกลและชื่อในยุคอดีต"
+
+ easteregg_artifact_jason_sword:0 "ดาบแห่งนักบุญมาร์ติน"
+ easteregg_artifact_jason_sword_description:0 "ตามร่องดาบ มีคนขูดคำว่า "เราคือผู้เป็น" ไว้อย่างไม่เรียบร้อย"
+
+ child_toy_template_tt:0 "ต้องเป็น [child|E] เพื่อสวมใส่เป็น [inventory_artifact|E]"
+
+ # Blessed Junk
+ fp2_blessed_junk:0 "[ROOT.Char.Custom('TrinketLookAdjective')|U] $blessed_artifact_modifier$"
+ fp2_blessed_junk_desc:0 "สิ่งประดิษฐ์ที่ [ROOT.Char.Custom('TrinketLookAdverbFollowup')] [ROOT.Char.Custom('TrinketLookAdjective')] แต่ไร้ประโยชน์อย่างอื่น $blessed_artifact_modifier_desc$"
+ 
+ local_artisan_modifier:0 "ช่างฝีมือท้องถิ่น"
+ local_artisan_modifier_desc:0 "ตัวละครนี้เป็นช่างฝีมือท้องถิ่นที่ถูกชักชวนให้มารับใช้โดยผู้ปกครองผู้สูงศักดิ์\n#weak [inspirations|E] ใดๆ ที่พวกเขาสร้างขึ้นจะมีคุณภาพต่ำกว่า#!"
+
+ # EP2
+ # TOURNAMENT
+ artifact_pas_darmes_token:0 "โทเค็นปาสดาร์ม"
+ artifact_pas_darmes_token_name:0 "โทเค็นของ [owner.GetFirstNamePossessiveNoTooltip]"
+ artifact_pas_darmes_token_description:0 "[owner.Custom('GetTournamentFavor')] [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )] ระดับ [SCOPE.Custom('ArtifactQuality')] ของ [owner.GetFullNamePossessive] ประดับด้วย [newly_created_artifact.GetFeatureText( 'decoration_pattern' )] มอบให้แก่ [winner.GetFullName] ในการประลองปาสดาร์มที่ [location.GetName]"
+ artifact_pas_darmes_spurs:0 "ถ้วยรางวัลปาสดาร์ม"
+ artifact_pas_darmes_spurs_name:0 "เดือยของ [owner.GetFirstNamePossessiveNoTooltip]"
+ artifact_pas_darmes_spurs_description:0 "เดือย [newly_created_artifact.GetFeatureText( 'generic_material_metal' )] ระดับ [SCOPE.Custom('ArtifactQuality')] คู่หนึ่งที่เป็นของ [owner.GetFullName] มอบให้แก่ [winner.GetFullName] ในการประลองปาสดาร์มที่ [location.GetName]"
+ artifact_tournament_favor:0 "ของแทนใจจากการประลอง"
+ artifact_tournament_favor_name:0 "ของแทนใจจาก [owner.GetLadyLord|U]"
+ artifact_tournament_favor_description:0 "[owner.Custom('GetTournamentFavor')] [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )] ระดับ [SCOPE.Custom('ArtifactQuality')] ประดับด้วย [newly_created_artifact.GetFeatureText( 'decoration_pattern' )] มอบให้แก่ [recipient.GetFullName] โดยผู้ชื่นชม"
+ # BOWS
+ artifact_longbow:0 "ธนูยาว"
+ artifact_longbow_name:0 "ธนูยาว$artifact_name_prefix_owner_culture$"
+ artifact_longbow_description:1 "ธนูยาวแบบชิ้นเดียวระดับ [SCOPE.Custom('ArtifactQuality')] แกะสลักจากไม้ [newly_created_artifact.GetFeatureText( 'longbow_wood' )] จากกระพี้ที่ยืดหยุ่นและแก่นไม้ที่แข็ง ขึงด้วย [newly_created_artifact.GetFeatureText( 'bow_string' )] สูงกว่าคน มีธนูน้อยคันที่จะเทียบน้ำหนักน้าวสายได้"
+ artifact_composite:0 "ธนูคอมโพสิต"
+ artifact_composite_name:0 "ธนูคอมโพสิต$artifact_name_prefix$"
+ artifact_composite_description:0 "ธนูคอมโพสิตไม้ [newly_created_artifact.GetFeatureText( 'composite_wood' )] ระดับ [SCOPE.Custom('ArtifactQuality')] เสริมความแข็งแรงด้วยเขา [newly_created_artifact.GetFeatureText( 'composite_horn' )] และเอ็น ขึงด้วย [newly_created_artifact.GetFeatureText( 'bow_string' )] ช่วงสั้น ทำให้เหมาะสำหรับการยิงจากบนหลังม้า"
+ artifact_bow:0 "ธนู"
+ artifact_bow_name:0 "ธนู$artifact_name_prefix$"
+ artifact_bow_description:1 "ธนูแบบชิ้นเดียวไม้ [newly_created_artifact.GetFeatureText( 'bow_wood' )] ระดับ [SCOPE.Custom('ArtifactQuality')] ขึงด้วย [newly_created_artifact.GetFeatureText( 'bow_string' )] มีประโยชน์ทั้งในการล่าสัตว์และสงคราม"
+ artifact_crossbow:0 "หน้าไม้"
+ artifact_crossbow_name:0 "หน้าไม้$artifact_name_prefix$"
+ artifact_crossbow_description:0 "หน้าไม้ระดับ [SCOPE.Custom('ArtifactQuality')] มีพานท้ายทำจาก [newly_created_artifact.GetFeatureText( 'bow_wood' )] พร้อมคันหน้าไม้เหล็กขึงด้วยเอ็น ทรงพลังอย่างยิ่งและสามารถถือเตรียมพร้อมได้ แต่บรรจุใหม่ช้า"
+ create_artifact_bow_tooltip: "[inspiration_owner.GetShortUIName] ได้สร้าง [SCOPE.Custom('ArtifactBowType')] ฝีมือการสร้างระดับ[SCOPE.Custom('ArtifactQuality')]"
+ feature_longbow_wood_elm:0 "$feature_bow_wood_elm$"
+ feature_longbow_wood_yew:0 "$feature_bow_wood_yew$"
+ feature_composite_wood_bamboo:1 "$feature_bow_wood_bamboo$"
+ feature_composite_wood_maple:0 "$feature_bow_wood_maple$"
+ feature_composite_wood_mulberry:0 "$feature_bow_wood_mulberry$"
+ feature_composite_horn_antelope:1 "$animal_type_antelope_plural$"
+ feature_composite_horn_bison:1 "$animal_type_bison_plural$"
+ feature_composite_horn_deer:1 "$animal_type_buck_plural$"
+ feature_composite_horn_gazelle:0 "$animal_type_gazelle_plural$"
+ feature_composite_horn_aurochs:0 "$animal_type_aurochs_plural$"
+ feature_bow_wood_ash:0 "$wood_ash$"
+ feature_bow_wood_bamboo:0 "ไผ่"
+ feature_bow_wood_cherry:0 "เชอร์รี่"
+ feature_bow_wood_dogwood:0 "ด็อกวูด"
+ feature_bow_wood_elm:0 "$wood_elm$"
+ feature_bow_wood_hazel:0 "เฮเซล"
+ feature_bow_wood_hickory:0 "ฮิกคอรี"
+ feature_bow_wood_maple:0 "$wood_maple$"
+ feature_bow_wood_mulberry:0 "หม่อน"
+ feature_bow_wood_palm:0 "ปาล์ม"
+ feature_bow_wood_oak:0 "$wood_oak$"
+ feature_bow_wood_walnut:0 "$wood_walnut$"
+ feature_bow_wood_yew:0 "$wood_yew$"
+ feature_bow_string_hemp:0 "ใยกัญชง"
+ feature_bow_string_horse_hair:0 "ขนม้า"
+ feature_bow_string_linen:0 "$cloth_linen$"
+ feature_bow_string_rawhide:0 "หนังดิบ"
+ feature_bow_string_silk:0 "$cloth_silk$"
+ feature_bow_string_sinew:0 "เอ็นสัตว์"
+
+ tournament_favor_glove:0 "ถุงมือ"
+ tournament_favor_sleeve:0 "แขนเสื้อ"
+ tournament_favor_scarf:0 "ผ้าพันคอ"
+
+ blooded_blade:0 "ดาบอาบเลือด"
+ blooded_blade_description:0 "ลวดลายหมุนวนและหยักบนอาวุธนี้เป็นตัวบ่งชี้ที่ละเอียดอ่อนถึงความเปราะบางสัมพัทธ์ของดาบ แต่ยัง รวมถึงมรดกของมันด้วย: อาวุธที่ชุบในเลือดของ [ROOT.Char.GetTitledFirstName]"
+ sullied_blooded_blade:0 "ดาบมลทิน"
+ sullied_blooded_blade_description:0 "ลวดลายหมุนวนและหยักบนอาวุธนี้เป็นตัวบ่งชี้ที่ละเอียดอ่อนถึงคุณภาพโดยรวมที่ต่ำของดาบ แต่ยัง รวมถึงมรดกของมันด้วย: อาวุธที่ชุบในเลือดของ [ROOT.Char.GetTitledFirstName]"
+
+ fake_papal_tiara_name:0 "เทียร่าของพระสันตะปาปาปลอม"
+ fake_papal_tiara_description:0 "แบบจำลองหมวกไมเตอร์ของพระสันตะปาปาที่สูงตระหง่าน ซึ่งอาจไม่ทนทานต่อการตรวจสอบอย่างใกล้ชิดนัก ถึงกระนั้น มันก็สนุกดีใช่ไหม?"
+
+ artisanal_sword:0 "ดาบของ [ROOT.Char.GetFirstNamePossessive]"
+ artisanal_sword_description:0 "ดาบที่ตีขึ้นอย่างสวยงาม หัวดาบประดับอัญมณีเข้ากับด้ามจับที่น่าดึงดูด แต่แข็งแรง ใบดาบที่มีลวดลายมีความสมดุลอย่างสมบูรณ์แบบ ปลายดาบเรียวลงจนแหลมคม"
+ feature_generic_material_metal_gold:0 "$metal_gold$"
+ feature_generic_material_metal_silver:0 "$metal_silver$"
+ feature_generic_material_metal_electrum:0 "$metal_electrum$"
+ feature_generic_material_metal_iron:0 "$metal_iron$"
+ feature_generic_material_metal_pewter:0 "$metal_pewter$"
+ feature_generic_material_metal_brass:0 "$metal_brass$"
+ feature_generic_material_metal_steel:0 "$metal_steel$"
+ feature_generic_material_metal_bronze:0 "$metal_bronze$"
+ feature_generic_material_metal_copper:0 "$metal_copper$"
+ feature_generic_material_earthware_clay:0 "$earthware_clay$"
+ feature_generic_material_earthware_terracotta:0 "$earthware_terracotta$"
+ feature_generic_material_earthware_stone:0 "$earthware_stone$"
+ feature_generic_material_earthware_porcelain:0 "$earthware_porcelain$"
+
+ # FP3 artifacts
+ artifact_oxus_bracelet_name: "กำไลออกซุส"
+ artifact_oxus_bracelet_description: "กล่าวกันว่ากำไลฝีมืออันยอดเยี่ยมนี้มาจากดินแดน $k_transoxiana$ แม้ว่างานลงยาและหินกึ่งมีค่าที่ฝังไว้จะหายไปนานแล้ว แต่ทองคำยังคงความแวววาว กำไล เช่นนี้เป็นของขวัญแห่งเกียรติยศในราชสำนักของราชาธิราชในสมัยโบราณ ดังนั้นบางทีมันอาจเคยถูกสวมใส่โดยขุนนางผู้ยิ่งใหญ่ในบาบิโลน"
+ fp3_incense_burner_sculpture: "ประติมากรรมกระถางธูป"
+ fp3_incense_burner_sculpture_desc: "กระถางธูปรูปแมวนี้พ่นควันหอมออกมาจากรูจำนวนมากบนตัว หัวที่มีดวงตาฝังอัญมณีมีบานพับ เพื่อให้สามารถวางธูปที่จุดแล้วไว้ข้างในได้"
+ fp3_ancient_drinking_vessel: "ภาชนะดื่มอะคีเมนิด"
+ fp3_ancient_drinking_vessel_desc: "ถ้วยอันวิจิตรนี้มีส่วนปลายล่างเป็นรูปแพะ มันถูกสร้างขึ้นในยุคที่ถูกลืมเลือน ทว่าความงดงามของมันหาได้จางหายไปไม่"
+ artifact_sassanian_sword_name: "ดาบซาซาเนียน"
+ artifact_sassanian_sword_description: "กล่าวกันว่าเป็นของที่หลงเหลือจากยุคซาซาเนียนเก่า ดาบเล่มนี้ $sassanian_sword_description_base$ ทำให้เป็นภาพที่งดงามน่าชม แม้ว่าปัจจุบันจะเปราะบางเกินกว่าจะนำไปใช้ในการต่อสู้ บางทีดาบเล่มนี้อาจเคยถูกถือโดยวีรบุรุษที่หายไปตามกาลเวลา?"
+ artifact_sassanian_replica_sword_name: "ดาบสไตล์ซาซาเนียน"
+ sassanian_sword_description_base: "ประดับด้วยอัญมณีหลายเม็ดและมีลวดลายอันวิจิตร"
+ famed_replica_sassanian_sword_description: "ดาบเล่มนี้ได้รับแรงบันดาลใจจากภาพของยุคอดีตอันรุ่งโรจน์ หวนนึกถึงอดีตอันกล้าหาญของบรรพบุรุษของผู้สร้าง มัน $sassanian_sword_description_base$ ทำให้เป็นภาพที่งดงามน่าชม ขณะถือดาบเล่มนี้ ผู้ถือจะฉายภาพของกษัตริย์ในตำนานแห่งอดีต"
+ masterwork_replica_sassanian_sword_description: "ดาบเล่มนี้มีเจตนาอย่างชัดเจนที่จะเลียนแบบอาวุธในยุคเก่า หวนนึกถึงอดีตอันกล้าหาญของบรรพบุรุษของผู้สร้าง มัน $sassanian_sword_description_base$ แม้จะเป็นเสียงสะท้อนอันห่างไกลจากอดีต แต่ก็สามารถจินตนาการว่าตนเองเป็นขุนนางผู้ยิ่งใหญ่ในยุคอดีตเมื่อถือดาบเล่มนี้"
+ common_replica_sassanian_sword_description: "ของเลียนแบบอันย่ำแย่นี้ช่างเป็นการลบหลู่บรรพบุรุษของผู้สร้างเสียจริง มันฝังด้วยหินราคาถูกและตกแต่งด้วยลวดลายที่หยาบกระด้างไม่สม่ำเสมอ ผู้ใดที่พกมันไว้ในฝัก คงดูเหมือนคนโง่เขลาผู้หลงผิด ที่ปรารถนาจะหวนคืนสู่วันวานที่ผ่านพ้นไปแสนนาน"
+
+#CE1 Artifacts
+ artifact_magnificent_crown_name: "มงกุฎอันงดงาม"
+ artifact_magnificent_crown_description: "ลายลวดอันสวยงามและลวดลายที่สร้างขึ้นอย่างประณีตของมงกุฎนี้ล้วนเน้นย้ำถึงเหตุผลที่แท้จริงของการดำรงอยู่ของมัน: ภาพนูนที่แกะสลักของบรรพบุรุษของ [ROOT.Char.GetFirstNamePossessive] อ้างถึงอำนาจของพวกเขาและผสานเข้ากับอำนาจของ [ROOT.Char.GetHerHis] เอง"
+ artifact_splendid_necklace_name: "สร้อยคออันวิจิตร"
+ artifact_splendid_necklace_description: "สร้อยคอชั้นดีนี้ประดับด้วยตราอาร์มของตระกูล [artifact.GetOwner.GetHouse.GetBaseName] ไม่ทิ้งข้อสงสัยใดๆ เกี่ยวกับความชอบธรรมของผู้ถือ"
+ artifact_fine_brooch_name: "เข็มกลัดชั้นดี"
+ artifact_fine_brooch_description: "การอ้างถึงชื่อตระกูล [artifact.GetOwner.GetHouse.GetBaseName] อย่างแนบเนียนรอบขอบเข็มกลัดนี้ ทำให้ข่าวความชอบธรรมของพวกเขาแพร่กระจายไปอย่างรวดเร็ว"
+
+ medicine_jar: "โถยา"
+ medicine_jar_desc: "เครื่องปั้นดินเผาเคลือบบางนี้บรรจุสมุนไพรหายากและมีฤทธิ์แรง แร่ธาตุบำบัด และชิ้นส่วนสัตว์แห้งต่างๆ - ทั้งหมดนี้แพทย์ใช้ในการรักษาโรคและปรับสมดุลธาตุ"
+ whale_fat_candles_name: "เทียนไขมันวาฬ"
+ whale_fat_candles_description: "เทียนเหล่านี้ทำจากไขมันของเลเวียธานที่น่าสะพรึงกลัว พวกมันดูน่ากลัวด้วยแท่งไขมันวาฬ"
+
+ warenne_coin: "เหรียญวาเรนน์"
+ warenne_coin_description: "เหรียญนี้มีตราลายตารางหมากรุกสีน้ำเงินและสีเหลืองของราชวงศ์วาเรนน์อยู่ด้านหน้า คราบเลือดสีเข้มเปื้อนอยู่ที่ขอบ"
+
+ traitors_head: "ศีรษะคนทรยศ"
+ traitors_head_description: "ศีรษะที่ถูกตัดออกจากเจ้าของอย่างเรียบร้อย มันเป็นเหมือนข้อความมากกว่าของที่ระลึก"
+ 
+ artifact_: "สิ่งประดิษฐ์ที่ถูกทำลาย"
+ artifact_slot_untyped: "สิ่งประดิษฐ์ที่ถูกทำลาย             " # ใช่ แท็บมีเจตนา
+
+ artifact_tale_of_genji: "ตำนานเก็นจิ"
+ artifact_tale_of_genji_description: "ตำนานเก็นจิ ซึ่งคาดว่าได้รับแรงบันดาลใจจากชีวิตของมินาโมโตะ $TO_ru$ เป็นผลงานคล้ายนวนิยายที่เขียนโดยท่านหญิงมุราซากิ โดยมีรายละเอียดเรื่องราวชีวิตและความรักของเจ้าชายเก็นจิผู้เป็นตัวละครสมมติ โอรสขององค์จักรพรรดิ"
+ artifact_pillow_book: "หนังสือข้างหมอน"
+ artifact_pillow_book_description: "เขียนขึ้นโดยกวีและนางในราชสำนัก เซ โชนะงน เพื่อเป็นอนุทินส่วนตัวของนาง สิ่งที่เรียกกันว่าหนังสือข้างหมอนนี้ เผยให้เห็นเรื่องซุบซิบประจำวัน เรื่องรักใคร่ และเรื่องราวดราม่าของชนชั้นสูงญี่ปุ่น"

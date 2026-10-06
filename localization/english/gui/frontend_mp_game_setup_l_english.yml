@@ -1,0 +1,9 @@
+﻿l_english: 
+ FRONTEND_MP_GAME_SETUP_SELECT_BOOKMARK:0 "@warning_icon! #X ยังไม่ได้เลือกบุ๊กมาร์กหรือเกมที่บันทึกไว้#!"
+ FRONTEND_MP_GAME_SETUP_HOST_HEADER:0 "โฮสต์เกมหลายผู้เล่น"
+ FRONTEND_MP_GAME_SETUP_HOST_NEW_GAME:0 "เกมใหม่"
+ FRONTEND_MP_GAME_SETUP_HOST_SAVED_GAME:0 "โหลดเกมที่บันทึกไว้"
+ FRONTEND_MP_GAME_SETUP_GAME_SETTINGS:0 "ตั้งค่าเกม"
+ FRONTEND_MP_GAME_SETUP_VERSION:0 "เวอร์ชัน: [GetGameVersionInfoShort]"
+ FRONTEND_MP_SERVER_NAME_TOOLTIP:0 "สูงสุด 64 ตัวอักษร"
+ FRONTEND_MP_SERVER_PASSWORD_TOOLTIP:0 "สูงสุด 64 ตัวอักษร"

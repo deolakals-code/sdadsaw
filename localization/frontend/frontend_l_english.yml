@@ -1,0 +1,5 @@
+﻿l_english: 
+ JOMINI_MSGRDK_SIGNIN_FAILED_TITLE: "เกิดปัญหาขึ้น"
+ JOMINI_MSGRDK_SIGNIN_FAILED_TEXT: "เราไม่สามารถลงชื่อเข้าใช้ให้ท่านด้วยบัญชี Microsoft ได้ คุณสมบัติเกมบางอย่างอาจไม่พร้อมใช้งาน"
+ JOMINI_MSGRDK_NO_PERMISSION_TITLE: "สิทธิ์อนุญาตบัญชี"
+ JOMINI_MSGRDK_NO_UGC_TEXT: "ท่านไม่มีสิทธิ์อนุญาตในการเข้าถึงเนื้อหาที่สร้างโดยผู้ใช้ ม็อดจะถูกปิดใช้งาน"

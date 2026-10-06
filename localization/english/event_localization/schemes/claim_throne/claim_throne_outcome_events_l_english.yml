@@ -1,0 +1,62 @@
+﻿l_english: 
+ do_not_execute_claim_throne_tooltip:0 "ข้าพเจ้ามิได้มุ่งหมายที่จะอ้างสิทธิ์ใน [target.GetPrimaryTitle.GetName]"
+
+ # Distant Relation
+ claim_throne_outcome.1001.t:0 "อ้างสิทธิ์ในราชบัลลังก์"
+ claim_throne_outcome.1001.desc:0 "หลังจากความพยายามอย่างยิ่งยวดของข้าพเจ้า ในที่สุดก็ถึงเวลาที่จะนำเสนอหลักฐานที่ข้าพเจ้า \"บังเอิญพบ\" ว่าแท้จริงแล้วข้าพเจ้าคือทายาทอันชอบธรรมแห่ง [target_title.GetName] ผ่านการสมรสของราชวงศ์ในอดีต\n\n[target.GetTitledFirstName] จะเป็นได้เพียงผู้อ้างสิทธิ์จอมปลอม ตราบใดที่ [target.GetSheHe] ยังขวางทางข้าพเจ้าอยู่!"
+ claim_throne_outcome.1001.a:1 "ในไม่ช้า ข้าพเจ้าจะได้ปกครอง [target.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+ claim_throne_outcome.1001.b:0 "บางทีข้าพเจ้าอาจจะผลีผลามเกินไป..."
+
+ claim_throne_outcome.2001.opening:0 "ในที่สุด ก็ไม่มีผู้ใดสามารถกังขาข้อเท็จจริงที่ว่าข้าพเจ้ามีสิทธิ์อันสมเหตุสมผลเหนือ [target_title.GetName]!"
+ claim_throne_outcome.2001.discovered:0 "\n\nแม้ว่า [target.GetTitledFirstName] จะเชื่อว่าการอ้างสิทธิ์ของข้าพเจ้าเรื่องการสมรสของราชวงศ์ในอดีตนั้นเป็นเรื่องที่กุขึ้นทั้งหมด แต่ประเด็นสำคัญคือ [target.GetSheHe] ไม่สามารถพิสูจน์หักล้างได้"
+ claim_throne_outcome.2001.no_awareness:0 "\n\nแม้ว่ารายละเอียดที่แน่ชัดของการสมรสของราชวงศ์ในอดีตจะเลือนรางไปตามกาลเวลา ก็ไม่มีเหตุผลใดที่จะกังขาในความถูกต้องของมัน แม้ แต่ [target.GetTitledFirstName] ก็ต้องยอมรับว่าการอ้างสิทธิ์ของข้าพเจ้านั้นชอบธรรม"
+ claim_throne_outcome.2001.a:0 "ไม่มีสิ่งใดหยุดยั้งข้าพเจ้าได้อีกแล้ว!"
+ claim_throne_outcome.2001.b:0 "[target.GetFirstNameNoTooltip] จะบ่นไปเท่าใดก็ตามที่ [target.GetSheHe] ต้องการ! มันไม่ได้เปลี่ยนแปลงอะไรเลย"
+
+ claim_throne_outcome.4001.opening:0 "การอ้างสิทธิ์ของข้าพเจ้าเหนือ [target_title.GetName] ล้มเหลวในการโน้มน้าวผู้ใด!"
+ claim_throne_outcome.4001.owner_discovered:0 "\n\nที่แย่ไปกว่านั้น [target.GetTitledFirstName] ได้ค้นพบความพยายามของข้าพเจ้าที่จะปลอมแปลงบันทึกการสมรสระหว่างราชวงศ์ [ROOT.Char.GetDynasty.GetBaseName] และราชวงศ์ผู้ปกครองเก่าแก่แห่ง [target_title.GetNameNoTierNoTooltip]!"
+ claim_throne_outcome.4001.owner_secret:0 "\n\nแม้ว่าบันทึกการสมรสระหว่างราชวงศ์ [ROOT.Char.GetDynasty.GetBaseName] และราชวงศ์ผู้ปกครองเก่าแก่แห่ง [target_title.GetNameNoTierNoTooltip] จะถูกปัดตกไปว่าไม่ถูกต้อง อย่างน้อยก็ไม่มีผู้ใดค้นพบว่าข้าพเจ้าคือผู้ที่สร้างมันขึ้นมา"
+ claim_throne_outcome.4001.a:0 ""ข้าพเจ้าเพียงต้องการมีส่วนร่วมในเกียรติยศของตระกูลท่านเท่านั้น นายเหนือหัวของข้า!""
+ claim_throne_outcome.4001.b:0 "ข้าพเจ้าจะให้เวลากับเรื่องนี้ตามที่สมควร"
+ claim_throne_outcome.4001.c:0 "เกมที่ข้าพเจ้ากำลังเล่นอยู่นี้อันตรายเกินไปนัก"
+
+
+ # Relation to Mythical Founder
+ claim_throne_outcome.1002.desc:0 "บัดนี้ข้าพเจ้ามีหลักฐานที่แทบจะโต้แย้งมิได้ว่าข้าพเจ้าสืบเชื้อสายมาจากไม่ใช่ใครอื่นนอกจาก [ROOT.Char.Custom('ClaimThroneMythicalFounder')] [ROOT.Char.Custom('ClaimThroneMythicalFounderHerselfHimself')]!\n\nแม้ แต่ [target.GetTitledFirstName] ก็มิอาจปฏิเสธความชอบธรรมในการอ้างสิทธิ์ของข้าพเจ้าที่จะปกครอง [target_title.GetName] ได้อีกต่อไป"
+
+ claim_throne_outcome.2002.discovered:0 "\n\nแม้ว่า [target.GetTitledFirstName] จะเชื่อว่าการสืบสาวเชื้อสายของข้าพเจ้าไปยัง [ROOT.Char.Custom('ClaimThroneMythicalFounder')] นั้นเป็นเรื่องเหลวไหลทั้งสิ้น [target.GetSheHe] ก็ไม่สามารถพิสูจน์หักล้างได้ และนั่นคือทั้งหมดที่สำคัญ"
+ claim_throne_outcome.2002.no_awareness:0 "\n\nด้วยเชื้อสายที่สืบย้อนไปถึง [ROOT.Char.Custom('ClaimThroneMythicalFounder')] ผู้ใดเล่าจะเห็นว่าการอ้างสิทธิ์ของข้าพเจ้าไม่สมเหตุสมผลได้?"
+
+ claim_throne_outcome.4002.owner_discovered:1 "\n\nมันง่ายกว่าที่ข้าพเจ้าคาดไว้มากที่ [target.GetTitledFirstName] จะพิสูจน์หักล้างว่าข้าพเจ้ามีความเกี่ยวข้องใดๆ กับผู้ปกครองโบราณผู้นั้น [owner.Custom('ClaimThroneMythicalFounder')] [target.GetSheHe|U] รู้กระทั่งว่า \"หลักฐาน\" ทั้งหมดของข้าพเจ้านั้นถูกกุขึ้นทั้งสิ้น!"
+ claim_throne_outcome.4002.owner_secret:1 "\n\nไม่มีผู้ใดเชื่อว่าข้าพเจ้าอาจสืบเชื้อสายมาจากผู้ปกครองโบราณผู้นั้น [owner.Custom('ClaimThroneMythicalFounder')] แต่อย่างน้อย [target.GetTitledFirstName] ดูเหมือนจะไม่รู้ว่า \"หลักฐาน\" ทั้งหมดของข้าพเจ้านั้นถูกกุขึ้นตั้งแต่แรก"
+ claim_throne_outcome.4002.a:0 ""ข้าพเจ้าเพียงต้องการมีส่วนร่วมในเกียรติยศเท่านั้น นายเหนือหัวของข้า!""
+
+
+ # Chosen by previous ruler
+ claim_throne_outcome.1003.desc:0 "ข้าพเจ้ามีพยานหลายคนผู้ที่จะสาบานต่อ [ROOT.Char.GetFaith.PantheonTerm] ว่า [previous_title_holder.GetTitledFirstName] อดีต [previous_title_holder.GetTitleAsNameNoTooltip] แห่ง [target_title.GetNameNoTier] มีความปรารถนาสุดท้ายของ [previous_title_holder.GetHerHis] ว่า [target.Custom('RealmType')] ควรตกเป็นของข้าพเจ้า\n\nแม้ว่า [target.GetTitledFirstName] ไม่น่าจะยอมรับการอ้างสิทธิ์ของข้าพเจ้า แต่ก็ไม่ใช่ [target.GetHerHim] จริงๆ ที่ข้าพเจ้าต้องโน้มน้าว..."
+
+ claim_throne_outcome.2003.discovered:0 "[target.GetTitledFirstName] ได้ประณามต่อสาธารณะว่าคำสัญญาที่อดีต [previous_holder.GetTitledFirstName] ให้ไว้กับข้าพเจ้านั้นเป็นคำโกหกที่สิ้นหวัง แต่มันคือคำพูดของ [target.GetHerHis] ที่ขัดแย้งกับคำสาบานอันศักดิ์สิทธิ์ที่เป็นประโยชน์ต่อข้าพเจ้า"
+ claim_throne_outcome.2003.no_awareness:0 "ด้วยคำสัญญาของอดีต [previous_holder.GetTitledFirstNamePossessive] ที่ให้ไว้กับข้าพเจ้า และผู้คนมากมายที่เต็มใจจะสาบานว่าพวกเขาเป็นพยาน ไม่มีสิ่งใดที่ [target.GetTitledFirstName] สามารถทำได้นอกจากการยอมรับมัน [target.GetSheHe|U] อาจไม่ยอมสละ [target.GetTierAsNameNoTooltip] โดยง่าย แต่ข้าพเจ้าก็มิอาจถูกปฏิเสธได้ เช่นกัน"
+ claim_throne_outcome.4003.owner_discovered:0 "\n\nภายใต้แรงกดดันจาก [target.GetTitledFirstName] ทุกคนที่เคยสาบานว่าอดีต [previous_holder.GetTitledFirstName] ได้สัญญาว่าจะ แต่งตั้งข้าพเจ้าเป็นทายาทของ [previous_holder.GetHerHis] กลับเปลี่ยนใจกะทันหัน! แทนที่จะเป็น เช่นนั้น พวกเขากลับอ้างว่าข้าพเจ้าติดสินบนพวกเขาให้ทำ เช่นนั้น! แม้ว่าจะเป็นความจริง มันคือการทรยศต่อความภักดีที่น่ารังเกียจอย่างยิ่ง"
+ claim_throne_outcome.4003.owner_secret:0 "\n\nภายใต้แรงกดดันจาก [target.GetTitledFirstName] ทุกคนที่เคยสาบานว่าอดีต [previous_holder.GetTitledFirstName] ได้สัญญาว่าจะ แต่งตั้งข้าพเจ้าเป็นทายาทของ [previous_holder.GetHerHis] ได้ถอนคำกล่าวอ้างของตน อย่างไรก็ตาม เนื่องจาก [target.GetFirstNameNoTooltip] ไม่ได้กล่าวหาข้าพเจ้าในเรื่องใด [target.GetSheHe] คงกังวลว่าอาจมีมูลความจริงอยู่บ้าง"
+ claim_throne_outcome.4003.a:0 "ทุกวันนี้ไม่มีใครที่ไว้ใจได้เลยหรือ?"
+
+ # Response events for target
+ claim_throne_outcome.5001.opening:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] ของข้า [owner.GetTitledFirstName] ได้อ้างสิทธิ์เหนือ [target_title.GetName]!"
+ claim_throne_outcome.5001.distant_relation:0 "\n\nเห็นได้ชัดว่ามีการสมรสเชิงกลยุทธ์ระหว่างราชวงศ์ของเราเมื่อหลายรุ่นก่อน ซึ่งบัดนี้ [owner.GetSheHe] กำลังใช้ประโยชน์เพื่อก่อให้เกิดข้อพิพาทเรื่องมรดก"
+ claim_throne_outcome.5001.mythical_founder:0 "\n\n[owner.GetFirstNameNoTooltip] อ้างว่าสืบเชื้อสายมาจากไม่ใช่ใครอื่นนอกจาก [owner.Custom('ClaimThroneMythicalFounder')]! [owner.GetSheHe|U] เชื่อว่านั่นคือเหตุผลทั้งหมดที่ [owner.GetSheHe] ต้องการเพื่อได้รับการ แต่งตั้งเป็นผู้ปกครองแห่ง [target_title.GetNameNoTooltip]"
+ claim_throne_outcome.5001.previous_holder_promise:0 "\n\n[owner.GetFirstNameNoTooltip] อ้างว่า [previous_holder.Custom2('RelationToMe', ROOT.Char)] ได้สาบานบนเตียงก่อนสิ้นใจของ [previous_holder.GetHerHis] ว่า [target_title.GetTierAsNameNoTooltip] ควรตกเป็นของ [owner.GetFirstNameNoTooltip] น่ากังวลใจยิ่งนัก [owner.GetSheHe] ได้พบคนหลายคนที่พร้อมจะสาบานตนอันศักดิ์สิทธิ์ว่าเป็นความจริง"
+ claim_throne_outcome.5001.fallback:0 "\n\n[owner.GetFirstNameNoTooltip] ปฏิเสธที่จะบอกว่าการอ้างสิทธิ์นั้นมีมูลเหตุมาจากสิ่งใด แต่ [owner.GetSheHe] ก็ปฏิเสธที่จะถอย!"
+ claim_throne_outcome.5001.discovered:0 "\n\nคำกล่าวอ้างเหล่านี้ถูกกุขึ้นทั้งสิ้น แต่ก็มีความไม่แน่นอนมากพอที่จะก่อให้เกิดภัยคุกคามที่แท้จริง หากผู้อื่นสนับสนุน!"
+ claim_throne_outcome.5001.a:0 "ราวกับว่าข้าจะยอมสละอาณาจักรของข้าโดยไม่ต่อสู้!"
+ claim_throne_outcome.5002.a:0 "[owner.GetSheHe] คิดจริงๆ หรือว่า [owner.GetSheHe] จะลอยนวลไปกับเรื่องนี้ได้?!"
+ claim_throne_outcome.5003.opening:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] ของข้า [owner.GetTitledFirstName] ได้พยายามอ้างสิทธิ์เหนือ [target_title.GetName]!"
+ claim_throne_outcome.5003.owner_known:0 "\n\nแน่นอนว่าคำกล่าวอ้างเหล่านี้น่าหัวเราะยิ่งนัก และหากนี่คือขอบเขตทั้งหมดของภัยคุกคามจาก [owner.GetFirstNamePossessiveNoTooltip] ข้าก็แทบไม่มีเหตุผลให้ต้องกังวล"
+ claim_throne_outcome.5003.a:0 "[owner.GetSheHe|U] จะต้องชดใช้สำหรับความโอหังนี้"
+
+ # Other text
+ claim_throne_invalidated:0 "แผนการอ้างสิทธิ์ในราชบัลลังก์สิ้นสุดลง"
+ claim_throne_target_died_tt:0 "[target.GetTitledFirstName] สิ้นชีพแล้ว"
+ claim_throne_target_lost_titles_tt:0 "[target.GetTitledFirstName] ไม่ได้ครอบครองที่ดินอีกต่อไป"
+ claim_throne_target_no_longer_liege_tt:0 "[target.GetTitledFirstName] ไม่ใช่นายเหนือหัวของข้าอีกต่อไป"
+ claim_throne_invalidate_fallback_tt:0 "ข้าพเจ้าไม่สามารถอ้างสิทธิ์ในราชบัลลังก์ของ [target.GetTitledFirstNamePossessive] ได้อีกต่อไป"

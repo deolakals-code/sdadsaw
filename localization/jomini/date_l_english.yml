@@ -1,0 +1,4 @@
+﻿l_english: 
+ DATE_AD_YEAR: "ค.ศ. $YEAR$"
+ DATE_BC_YEAR: "$YEAR$ ปีก่อน ค.ศ."
+ DATE_FORMATTING_LONG: "$DAY$ $MONTH$ $YEAR$"

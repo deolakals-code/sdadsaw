@@ -1,0 +1,173 @@
+﻿l_english: 
+ 
+ ACTIVITY_GUEST_OPINION_REASON:1 "[opinion|E] ต่อ [host.GetShortUINameNoTooltip]: $VALUE|=+0$"
+ NO_FRIVOLOUS_ACTIVITIES_REASON: "[ai_conqueror_personality|E]: $VALUE|=+0$" # หมายเหตุ: แปลตามตัวอักษร อาจหมายถึง "บุคลิก [ai_conqueror_personality|E] (ไม่ชอบกิจกรรมไร้สาระ)"
+ # ACTIVITY LEVEL
+ ACTIVITY_GUEST_ACTIVITY_LEVEL_REASON:2 "[title_tier|E] ของ [host.GetShortUINamePossessive|U]: $VALUE|=+0$"
+ # RANK
+ ACTIVITY_GUEST_LOWER_RANK_REASON:1 "[ROOT.Char.GetSheHe|U] มี [rank|E] ต่ำกว่า: $VALUE|=+0$"
+ ACTIVITY_GUEST_HIGHER_RANK_REASON:1 "[ROOT.Char.GetSheHe|U] มี [rank|E] สูงกว่า: $VALUE|=+0$"
+ # FAMILY
+ ACTIVITY_GUEST_CLOSE_FAMILY_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [close_family|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_EXTENDED_FAMILY_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [extended_family|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_SAME_DYNASTY_REASON:1 "[ROOT.Char.GetSheHe|U] อยู่ใน [dynasty|E] เดียวกัน: $VALUE|=+0$"
+ ACTIVITY_GUEST_SPOUSE:0 "[ROOT.Char.GetSheHe|U] คือ [spouse|E] ของท่าน: $VALUE|=+0$"
+ # REALM
+ ACTIVITY_GUEST_VASSAL_REASON:0 "[ROOT.Char.GetSheHe|U] คือ [vassal|E] ของท่าน: $VALUE|=+0$"
+ ACTIVITY_GUEST_LIEGE_REASON:0 "[ROOT.Char.GetSheHe|U] คือ [liege|E] ของท่าน: $VALUE|=+0$"
+ ACTIVITY_GUEST_FELLOW_VASSAL_REASON:2 "[ROOT.Char.GetSheHe|U] เป็น [vassal|E] ร่วมของ [liege|E] ของท่าน: $VALUE|=+0$"
+ ACTIVITY_GUEST_REALM_REASON:2 "[ROOT.Char.GetSheHe|U] เป็นข้าแผ่นดินร่วมของ [liege|E] ของท่าน: $VALUE|=+0$"
+ ACTIVITY_GUEST_OUTSIDE_REALM_REASON:0 "[ROOT.Char.GetSheHe|U] เป็น [count|E] นอก [realm|E] ของท่าน: $VALUE|=+0$"
+ # RELATIONS
+ ACTIVITY_GUEST_RIVAL_REASON:1 "[ROOT.Char.GetSheHe|U] คือ [rival|E] ของท่าน: $VALUE|=+0$"
+ ACTIVITY_GUEST_NEMESIS_REASON:1 "[ROOT.Char.GetSheHe|U] คือ [nemesis|E] ของท่าน: $VALUE|=+0$"
+ ACTIVITY_GUEST_FRIEND_REASON:1 "[ROOT.Char.GetSheHe|U] คือ [friend|E] ของท่าน: $VALUE|=+0$"
+ ACTIVITY_GUEST_BEST_FRIEND_REASON:1 "[ROOT.Char.GetSheHe|U] คือ [best_friend|E] ของท่าน: $VALUE|=+0$"
+ ACTIVITY_GUEST_LOVER_REASON:1 "[ROOT.Char.GetSheHe|U] คือ [lover|E] ของท่าน: $VALUE|=+0$"
+ ACTIVITY_GUEST_SOULMATE_REASON:1 "[ROOT.Char.GetSheHe|U] คือ [soulmate|E] ของท่าน: $VALUE|=+0$"
+ # FAITH
+ ACTIVITY_GUEST_FAITH_ASTRAY_REASON:1 "[host.GetFaith.GetAdherentNamePlural] ถือว่า [ROOT.Char.GetFaith.GetAdherentNamePlural] เป็นพวก [faith_astray|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_FAITH_HOSTILE_REASON:1 "[host.GetFaith.GetAdherentNamePlural] ถือว่า [ROOT.Char.GetFaith.GetAdherentNamePlural] เป็นพวก [faith_hostile|E]: $VALUE|=+0$"
+ ACTIVITY_GUEST_FAITH_EVIL_REASON:1 "[ROOT.Char.GetFaith.GetAdherentNamePlural] ถือว่า [host.GetFaith.GetAdherentNamePlural] เป็นพวก [faith_evil|E]: $VALUE|=+0$"
+ # CULTURE
+ ACTIVITY_GUEST_CULTURAL_ACCEPTANCE_REASON:1 "[cultural_acceptance|E] ของ [ROOT.Char.GetCulture.GetName] ต่อ [host.GetCulture.GetCollectiveNoun]: $VALUE|=+0$"
+ # SCHEMES
+ ACTIVITY_GUEST_SCHEME_REASON:1 "#D [ROOT.Char.GetSheHe|U] มีเจตนาที่ถูกต้อง#!: $VALUE|=+0$"
+ # TRAVEL
+ ACTIVITY_GUEST_TRAVEL_LATE_REASON:1 "[ROOT.Char.GetSheHe|U] คาดว่าจะไปถึงไม่ทันเวลา: $VALUE|=+0$"
+ ACTIVITY_GUEST_TRAVEL_BARELY_REASON:0 "[ROOT.Char.GetSheHe|U] อาจไปสาย: $VALUE|=+0$"
+ ACTIVITY_GUEST_TRAVEL_NORMAL_REASON:0 "[ROOT.Char.GetSheHe|U] คาดว่าจะไปถึงทันเวลา: $VALUE|=+0$"
+ ACTIVITY_GUEST_TRAVEL_EXTRA_TIME_REASON:0 "[ROOT.Char.GetSheHe|U] คาดว่าจะไปถึงก่อนเวลามาก: $VALUE|=+0$"
+ # PERSONALITY
+ ACTIVITY_GUEST_GREGARIOUS_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('gregarious').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_SHY_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('shy').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_BRAVE_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('brave').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_CRAVEN_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('craven').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_DILIGENT_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('diligent').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_LAZY_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('lazy').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_GLUTTUNOUS_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('gluttonous').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_ZEALOUS_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('zealous').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_HUMBLE_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('humble').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_CYNICAL_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('cynical').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_ARROGANT_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('arrogant').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_GLUTTONOUS_REASON:0 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('gluttonous').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ # STRESS
+ ACTIVITY_GUEST_COMFORT_EATER_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('comfort_eater').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_INAPPETETIC_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('inappetetic').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_DRUNKARD_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('drunkard').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_RECLUSIVE_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('reclusive').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_ATHLETIC_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('athletic').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ # HEALTH
+ ACTIVITY_GUEST_WHEEZING_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('athletic').GetName( ROOT.Char.Self )]: $VALUE|=+0$" # หมายเหตุ: แปลตามต้นฉบับซึ่งใช้ trait 'athletic' แต่ key name คือ 'WHEEZING' อาจต้องตรวจสอบความถูกต้องของ trait name ในต้นฉบับ
+ ACTIVITY_GUEST_ONE_LEGGED_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('one_legged').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_MAIMED_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('maimed').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_PHYSIQUE_BAD_1_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('physique_bad_1').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_PHYSIQUE_BAD_2_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('physique_bad_2').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_PHYSIQUE_BAD_3_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('physique_bad_3').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ # PERKS
+ ACTIVITY_GUEST_GALLANT_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('gallant').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ # LIFESTYLE
+ ACTIVITY_GUEST_REVELER_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('lifestyle_reveler').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_HUNTER_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('lifestyle_hunter').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_BLADEMASTER_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('lifestyle_blademaster').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ # EDUCATION
+ ACTIVITY_GUEST_MARTIAL_PROWESS_1_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('education_martial_prowess_1').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_MARTIAL_PROWESS_2_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('education_martial_prowess_2').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_MARTIAL_PROWESS_3_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('education_martial_prowess_3').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_MARTIAL_PROWESS_4_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('education_martial_prowess_4').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ # TENETS
+ ACTIVITY_GUEST_DHARMIC_PACIFISM_REASON:1 "[ROOT.Char.GetFaith.GetAdjective] [GetFaithDoctrine('tenet_dharmic_pacifism').GetBaseName]: $VALUE|=+0$"
+ ACTIVITY_GUEST_ARMED_PILGRIMAGES_REASON:1 "[ROOT.Char.GetFaith.GetAdjective] [GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]: $VALUE|=+0$"
+ ACTIVITY_GUEST_RITUAL_CELEBRATIONS_REASON:0 "[GetFaithDoctrine('tenet_ritual_celebrations').GetBaseName]: $VALUE|=+0$"
+ # TRADITIONS
+ ACTIVITY_GUEST_CHANSON_DE_GESTE_REASON:1 "[ROOT.Char.GetCulture.GetCollectiveNoun] [GetCultureTradition('tradition_chanson_de_geste').GetName]: $VALUE|=+0$"
+ ACTIVITY_GUEST_PACIFISTS_REASON:1 "[ROOT.Char.GetCulture.GetCollectiveNoun] เป็น [GetCultureTradition('tradition_pacifism').GetName]: $VALUE|=+0$"
+ ACTIVITY_GUEST_ZEALOUS_PEOPLE_REASON:1 "[ROOT.Char.GetCulture.GetCollectiveNoun] เป็น [GetCultureTradition('tradition_zealous_people').GetName]: $VALUE|=+0$"
+ # OTHER
+ ACTIVITY_GUEST_NOT_PILGRIM_REASON:1 "[ROOT.Char.GetSheHe|U] ยังไม่ได้เป็น [GetTrait('pilgrim').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_PILGRIM_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('pilgrim').GetName( ROOT.Char.Self )] อยู่แล้ว: $VALUE|=+0$"
+ ACTIVITY_GUEST_GAINING_WEIGHT_REASON:1 "[ROOT.Char.GetSheHe|U] กำลัง [GetModifier('gaining_weight_modifier').GetName]: $VALUE|=+0$"
+ ACTIVITY_GUEST_LOSING_WEIGHT_REASON:1 "[ROOT.Char.GetSheHe|U] กำลัง [GetModifier('losing_weight_modifier').GetName]: $VALUE|=+0$"
+ ACTIVITY_GUEST_PRIESTESS_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [ROOT.Char.GetFaith.PriestFemale|U]: $VALUE|=+0$"
+ ACTIVITY_GUEST_PRIEST_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [ROOT.Char.GetFaith.PriestMale|U]: $VALUE|=+0$"
+ ACTIVITY_GUEST_NUN_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('devoted').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_MONK_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('devoted').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_GENDER_REASON:1 "[martial_custom|E] ของ [ROOT.Char.GetCulture.GetName] สำหรับ [ROOT.Char.GetWomenMen]: $VALUE|=+0$"
+ ACTIVITY_GUEST_HUNTERS_MORE_COMMON_REASON:2 "[traditions|E] ทางวัฒนธรรมของ [ROOT.Char.GetCulture.GetName]: $VALUE|=+0$"
+ ACTIVITY_GUEST_HUNTERS_MORE_VALUED_REASON:1 "$ACTIVITY_GUEST_HUNTERS_MORE_COMMON_REASON$"
+ ACTIVITY_GUEST_HUNTERS_MORE_PIOUS_REASON:1 "$ACTIVITY_GUEST_HUNTERS_MORE_COMMON_REASON$"
+ ACTIVITY_GUEST_BLIND_REASON:1 "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('blind').GetName( recipient.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_MY_WEDDING:1 "เป็นงานสมรสของ [ROOT.Char.GetHerHis|U] เอง: $VALUE|=+0$"
+ ACTIVITY_GUEST_CLOSE_FAMILY:0 "[ROOT.Char.GetSheHe|U] เป็นครอบครัวใกล้ชิดของคู่สมรส: $VALUE|=+0$"
+ ACTIVITY_GUEST_MATCHMAKER:0 "[ROOT.Char.GetSheHe|U] เป็นแม่สื่อของคู่สมรส: $VALUE|=+0$"
+ ACTIVITY_GUEST_PARENTS:0 "[ROOT.Char.GetSheHe|U] เป็นบิดามารดาของคู่สมรส: $VALUE|=+0$"
+ ACTIVITY_GUEST_CLERGY_REASON:0 "[ROOT.Char.GetSheHe|U] เป็นส่วนหนึ่งของ [ROOT.Char.GetFaith.AltPriestTermPlural]: $VALUE|=+0$"
+ ACTIVITY_GUEST_MASTER_OF_HUNT_REASON:0 "[ROOT.Char.GetSheHe|U] เป็น [GetCourtPositionType('master_of_hunt_court_position').GetName()]: $VALUE|=+0$"
+ ACTIVITY_GUEST_HUNTERS_REASON:0 "[ROOT.Char.GetCulture.GetName] มี [tradition|E] [GetCultureTradition('tradition_hunters').GetName]: $VALUE|=+0$"
+ ACTIVITY_GUEST_FALCONERS_REASON:0 "[ROOT.Char.GetCulture.GetName] มี [tradition|E] [GetCultureTradition('tradition_ep2_avid_falconers').GetName]: $VALUE|=+0$"
+ ACTIVITY_GUEST_GLORY_HOUND_REASON:0 "[ROOT.Char.GetSheHe|U] เป็น [vassal|E] ประเภท [GetVassalStance('glory_hound').GetTextIcon][GetVassalStance('glory_hound').GetName]: $VALUE|=+0$"
+ ACTIVITY_GUEST_COURTLY_REASON:0 "[ROOT.Char.GetSheHe|U] เป็น [vassal|E] ประเภท [GetVassalStance('courtly').GetTextIcon][GetVassalStance('courtly').GetName]: $VALUE|=+0$"
+ ACTIVITY_GUEST_BELLIGERENT_REASON:0 "[ROOT.Char.GetSheHe|U] เป็น [vassal|E] [GetVassalStance('belligerent').GetTextIcon][GetVassalStance('belligerent').GetName]: $VALUE|=+0$"
+ ACTIVITY_GUEST_HEALTH_REASON:0 "[ROOT.Char.GetSheHe|U] มี [health|E] ไม่ดี: $VALUE|=+0$"
+ ACTIVITY_GUEST_ACCIDENTAL_HUNT_DEATH_REASON:0 "การตายครั้งก่อนๆ ในการล่าของท่าน: $VALUE|=+0$"
+ ACTIVITY_GUEST_CANNOT_HUNT_REASON:0 "$ACTIVITY_GUEST_HUNTERS_MORE_COMMON_REASON$"
+ ACTIVITY_GUEST_PLAYDATE_CREDIT_REASON: "การวางแผนอย่างละเอียดของเจ้าภาพ: $VALUE|=+0$"
+ ACTIVITY_GUEST_ADVENTURER_REASON: "[ROOT.Char.GetSheHe|U] คือ [follower|E] ของท่าน: $VALUE|=+0$"
+ ACTIVITY_GUEST_AMBITIOUS_REASON: "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('ambitious').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_GREEDY_REASON: "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('greedy').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+ ACTIVITY_GUEST_CHARIOTEER_REASON: "[ROOT.Char.GetSheHe|U] เป็นนักขับรถม้าศึก: $VALUE|=+0$"
+ ACTIVITY_GUEST_EUNUCH_REASON: "[ROOT.Char.GetSheHe|U] เป็นขันที: $VALUE|=+0$"
+ ACTIVITY_GUEST_BORN_IN_THE_PURPLE_REASON: "[ROOT.Char.GetSheHe|U] เป็น [GetTrait('born_in_the_purple').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
+
+ # Tournament Options
+ ACTIVITY_GUEST_OPTIONS_TOURNAMENT_ACCOMMODATIONS_BAD:0 "$tournament_accommodations_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTIONS_TOURNAMENT_ACCOMMODATIONS_NORMAL:0 "$tournament_accommodations_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTIONS_TOURNAMENT_ACCOMMODATIONS_GOOD:0 "$tournament_accommodations_good$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTIONS_TOURNAMENT_PRIZES_BAD:0 "$tournament_prizes_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTIONS_TOURNAMENT_PRIZES_NORMAL:0 "$tournament_prizes_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTIONS_TOURNAMENT_PRIZES_GOOD:0 "$tournament_prizes_good$: $VALUE|=+0$"
+
+ # Tour Options
+ ACTIVITY_GUEST_OPTION_TOUR_LUXURIES_BAD:0 "$tour_luxuries_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_TOUR_LUXURIES_NORMAL:0 "$tour_luxuries_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_TOUR_LUXURIES_GOOD:0 "$tour_luxuries_good$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_TOUR_FURNITURE_NORMAL:0 "$tour_furniture_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_TOUR_FURNITURE_GOOD:0 "$tour_furniture_good$: $VALUE|=+0$"
+
+ # Wedding Options 
+ ACTIVITY_GUEST_OPTION_WEDDING_ENTERTAINMENT_BAD:0 "$wedding_entertainment_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_ENTERTAINMENT_NORMAL:0 "$wedding_entertainment_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_ENTERTAINMENT_GOOD:0 "$wedding_entertainment_good$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_FOOD_BAD:0 "$wedding_food_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_FOOD_NORMAL:0 "$wedding_food_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_FOOD_GOOD:0 "$wedding_food_good$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_DECORATION_BAD:0 "$wedding_decoration_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_DECORATION_NORMAL:0 "$wedding_decoration_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_WEDDING_DECORATION_GOOD:0 "$wedding_decoration_good$: $VALUE|=+0$"
+
+ # Feast Options 
+ ACTIVITY_GUEST_OPTION_FEAST_FOOD_BAD:0 "$feast_food_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_FEAST_FOOD_NORMAL:0 "$feast_food_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_FEAST_FOOD_GOOD:0 "$feast_food_good$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_FEAST_COURSES_BAD:0 "$feast_courses_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_FEAST_COURSES_NORMAL:0 "$feast_courses_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTION_FEAST_COURSES_GOOD:0 "$feast_courses_good$: $VALUE|=+0$"
+
+ # Chariot Race Options
+ ACTIVITY_GUEST_OPTIONS_CHARIOT_RACE_ENTERTAINMENT_BAD: "$chariot_entertainment_bad$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTIONS_CHARIOT_RACE_ENTERTAINMENT_NORMAL: "$chariot_entertainment_normal$: $VALUE|=+0$"
+ ACTIVITY_GUEST_OPTIONS_CHARIOT_RACE_ENTERTAINMENT_GOOD: "$chariot_entertainment_good$: $VALUE|=+0$"
+
+ # Plagues
+ ACTIVITY_GUEST_EPIDEMIC_REASON: "[ROOT.Char.GetSheHe|U] จะไม่เดินทางระหว่างเกิด $travel_danger_type_epidemic$: $VALUE|=+0$"
+ ACTIVITY_GUEST_EPIDEMIC_APOCALYPTIC_REASON: "[ROOT.Char.GetSheHe|U] จะไม่เดินทางระหว่างเกิด $travel_danger_type_epidemic$ ระดับ $game_concept_plague_apocalyptic$: $VALUE|=+0$"
+
+ # Camp Party
+ ACTIVITY_GUEST_LANDLESS_REASON: "[ROOT.Char.GetSheHe|U] ถือว่า $activity_camp_party$ ของท่านต่ำต้อยเกินไปสำหรับ [ROOT.Char.GetHerHim]: $VALUE|=+0$"
+
+ ACTIVITY_GUEST_SHORT_TRIP: "[ROOT.Char.GetSheHe|U] มีการเดินทางระยะสั้น: $VALUE|=+0$"
+ ACTIVITY_GUEST_VERY_SHORT_TRIP: "[ROOT.Char.GetSheHe|U] มีการเดินทางระยะสั้นมาก: $VALUE|=+0$"
+ ACTIVITY_GUEST_NO_TRAVEL: "[ROOT.Char.GetSheHe|U] อาศัยอยู่ในสถานที่: $VALUE|=+0$"
+
+ ACTIVITY_GUEST_COURTIER: "[courtier|E]ของท่าน: $VALUE|=+0$"
+ ACTIVITY_GUEST_ACCLAIMED_KNIGHT_REASON: "[ROOT.Char.GetSheHe|U] เป็น [acclaimed_knight|E]: $VALUE|=+0$"

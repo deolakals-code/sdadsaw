@@ -1,0 +1,10 @@
+﻿l_english: 
+ select_council_task_header:1 "เรียกร้องตำแหน่งในสภา"
+ COUNCIL_TASK_INTERACTION_NO_SELECTED_TASK:0 "@warning_icon! #X ไม่ได้เลือกหน้าที่#!"
+ COUNCIL_TASK_INTERACTION_AUTO_FILLED:0 "@warning_icon! #X ตำแหน่ง [ACTIVE_COUNCIL_TASK.GetPositionName] ถูกเติมโดยอัตโนมัติ#!"
+ COUNCIL_TASK_INTERACTION_WINDOW_SELECT_TASK:1 "เลือกตำแหน่งในสภา"
+ COUNCIL_TASK_INTERACTION_WINDOW_SELECTED_TASK:0 "ตำแหน่งที่เลือก: [CouncilTaskInteractionWindow.GetSelectedTask.GetPositionName]"
+ COUNCIL_TASK_INTERACTION_WINDOW_PLAYER_SKILLS_LABEL:0 "[skills|E] ของ [GetPlayer.GetShortUINamePossessive|U]"
+ COUNCIL_TASK_INTERACTION_CURRENT:0 "ปัจจุบัน: [Character.GetUIName]"
+ COUNCIL_TASK_INTERACTION_CURRENT_YOU:0 "ตำแหน่งปัจจุบันของท่าน"
+ COUNCIL_TASK_INTERACTION_VACANT:0 "ปัจจุบัน: ว่าง"

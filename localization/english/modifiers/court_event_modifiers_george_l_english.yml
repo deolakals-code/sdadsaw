@@ -1,0 +1,64 @@
+﻿l_english: 
+ ### Modifiers
+ fired_court_position:0 "ผู้ดำรงตำแหน่งในราชสำนักที่ถูกไล่ออก"
+## Court Event 7030
+ cultural_acceptance_foreign_merchants:0 "ชุมชนพ่อค้าชาว [foreign_merchant.GetCulture.GetName]"
+ cultural_acceptance_foreigners_expelled:0 "พ่อค้าชาว [foreign_merchant.GetCulture.GetName] ถูกขับไล่"
+ court_7030_merchant_privileges:0 "ขยายสิทธิพิเศษแก่พ่อค้า"
+ court_7030_merchant_privileges_desc:0 "ตัวละครนี้ได้มอบสิทธิพิเศษแก่กลุ่มพ่อค้าต่างชาติ เพื่อแลกกับการเข้าถึงกองเรือพาณิชย์อันกว้างขวางของพวกเขา"
+ foreign_merchant_community:0 "ชุมชนพ่อค้าต่างชาติ"
+ foreign_merchant_community_desc:0 "ชุมชนพ่อค้าต่างชาติเจริญรุ่งเรืองในเคาน์ตีนี้"
+## Court Event 7040
+ fervor_gain_ascetic_example:0 "ได้รับแรงบันดาลใจจากนักพรต"
+ court_7040_ascetic_practices:0 "ปฏิบัติพรตนิยม"
+ court_7040_ascetic_practices_desc:0 "ตัวละครนี้ได้นำแนวปฏิบัติพรตนิยมบางอย่างมาใช้เพื่อดำเนินชีวิตให้ใกล้ชิดกับอุดมคติทางศาสนาของตนมากขึ้น"
+## Court Event 7050
+ cultural_artifact_gift_accepted:0 "ได้รับของขวัญเป็นโบราณวัตถุชาว [friend.GetCulture.GetName]"
+ cultural_artifact_gift_rejected:0 "ปฏิเสธโบราณวัตถุชาว [friend.GetCulture.GetName]"
+ cultural_artifact_heretical:0 "โบราณวัตถุชาว [friend.GetCulture.GetName] ถูกตัดสินว่าเป็นพวกนอกรีต"
+ intolerance_of_icons:0 "การไม่ยอมรับวัฒนธรรมนอกรีต"
+ court_7050_listens_to_church:0 "ผู้ศรัทธาที่เชื่อฟัง"
+ court_7050_listens_to_church_desc:0 "ตัวละครนี้มีความกระตือรือร้นอย่างแท้จริง และรับฟังนักบวชและผู้มีอำนาจทางศาสนาของตน"
+ court_7050_tolerance:0 "ความอดทนต่อผู้อื่น"
+ court_7050_tolerance_desc:0 "ตัวละครนี้มีใจที่เปิดกว้างเกี่ยวกับแนวปฏิบัติของผู้อื่น ซึ่งสร้างความระคายเคืองให้กับผู้มีอำนาจทางศาสนาของตน แต่ได้รับการชื่นชมจากผู้ที่มีศรัทธาต่างกัน"
+## Court Event 7070
+ court_7070_palace_renovations:0 "พระราชวังได้รับการปรับปรุงใหม่"
+ court_7072_homogenising_culture:0 "ผู้รักษามรดกทางวัฒนธรรม"
+ court_7072_renowned_court:0 "พระราชวังอันเลื่องชื่อ"
+ cultural_palace_architecture:0 "รับเอารูปแบบสถาปัตยกรรมต่างชาติ"
+## Court Event 7100
+ pet_wolf:1 "หมาป่าสัตว์เลี้ยง"
+ pet_bear:1 "หมีสัตว์เลี้ยง"
+ pet_lion:1 "สิงโตสัตว์เลี้ยง"
+ pet_tiger:1 "เสือสัตว์เลี้ยง"
+ exotic_pet_wolf:0 "หมาป่าสัตว์เลี้ยง"
+ exotic_pet_bear:0 "หมีสัตว์เลี้ยง"
+ exotic_pet_lion:0 "สิงโตสัตว์เลี้ยง"
+ exotic_pet_tiger:0 "เสือสัตว์เลี้ยง"
+## Court Event 7300
+ incentivized_food_taster:0 "ผู้ชิมอาหารที่ได้รับแรงจูงใจ"
+## Court Event 7400
+ expensive_guests:0 "เจ้าบ้านผู้ฟุ่มเฟือย"
+ expensive_guests_desc:0 "ผู้ปกครองผู้นี้เป็นที่รู้จักในเรื่องการต้อนรับอันเหลือเชื่อ"
+ inhospitable_court:0 "เจ้าบ้านผู้ไม่ต้อนรับขับสู้"
+ inhospitable_court_desc:0 "ราชสำนักของผู้ปกครองผู้นี้ไม่ใช่สถานที่ที่ต้อนรับขับสู้ที่สุด"
+## Court Event 7610
+ struggling_with_destrier:0 "กำลังลำบากกับม้าศึกเดสเทรีย"
+ struggling_with_destrier_desc:0 "ตัวละครนี้ขี่ม้าศึกขนาดใหญ่เต็มตัว แม้จะไม่มีประสบการณ์เพียงพอที่จะควบคุมมัน"
+ practicing_with_palfrey:0 "กำลังฝึกกับม้าพัลฟรีย์"
+ practicing_with_palfrey_desc:0 "ตัวละครนี้ไม่ได้เกิดมาบนหลังม้า แต่ได้ฝึกฝนทักษะการขี่ม้ากับม้าที่เหมาะสม"
+## Court Event 7620
+ peregrine_falcon:1 "เหยี่ยวล่าเหยื่อ"
+ peregrine_falcon_desc:3 "ตัวละครนี้เป็นเจ้าของเหยี่ยวฟอลคอนหรือเหยี่ยวฮอว์ก ซึ่งเป็นนกอันทรงเกียรติที่ใช้ในการล่าสัตว์และอวดแสดง\n#weak เพิ่ม [hunt_success_chance|E] ของ $hunt_type_falconry$#!"
+## Court Event 7630
+ master_of_horse_cavalry_bonus:0 "$master_of_horse_court_position$ ผู้มีแรงจูงใจ"
+ master_of_horse_cavalry_bonus_desc:1 "[GetCourtPositionType('master_of_horse_court_position').GetName()] ของตัวละครนี้มีเหตุผลที่จะใช้ความพยายามเป็นพิเศษในภารกิจอันยากลำบากในการสั่งสอนผู้อื่นให้ดูแลม้าเป็นอย่างดี"
+ master_of_hunt_activity_bonus:0 "$master_of_hunt_court_position$ ผู้มีแรงจูงใจ"
+ master_of_hunt_activity_bonus_desc:1 "[GetCourtPositionType('master_of_hunt_court_position').GetName()] ของตัวละครนี้ใช้ความพยายามเพิ่มเติมในการล่าสัตว์ตามกำหนดการทุกครั้ง เพื่อเป็นการขอบคุณสำหรับการสนับสนุนและความภักดีของตัวละครนี้\n\n[activity|E] [GetActivityType('activity_hunt').GetName] ใช้ [gold|E] น้อยลงเล็กน้อย"
+## Court Event 7700
+ honorable_ruler:0 "ผู้ปกครองผู้ทรงเกียรติ"
+ honorable_ruler_desc:0 "ตัวละครนี้เลือกเดินทางสายสูงส่งเมื่อไม่จำเป็นต้องทำ"
+ pigeon_thief:0 "นกพิราบสัตว์เลี้ยง"
+ pigeon_thief_desc:0 "ตัวละครนี้ก้าวนำหน้าอยู่เสมอด้วยนกพิราบสัตว์เลี้ยง #EMP อันชั่วร้าย#! ของตน"
+ profiting_from_pigeon_thievery:0 "ผู้ให้ข้อมูลนกพิราบ"
+ profiting_from_pigeon_thievery_desc:0 "บางคนเรียกผู้ให้ข้อมูลของตนว่า "นกน้อย" ตัวละครนี้หมายความตามนั้นจริงๆ"

@@ -1,0 +1,9 @@
+﻿l_english: 
+
+ep3_akolouthos_events.1000: "อะโคลูธอสเสริมสร้างขวัญกองทหารวารังเจียน"
+ep3_akolouthos_events.1000_varangian_notification_tooltip: "[akolouthos.GetName] ให้เกียรติทหารองครักษ์วารังเจียนผู้เกรียงไกรด้วยตุ้มหูทับทิม[trait_getter.GetHerHis] และชุดเกราะประดับตรามังกร"
+ep3_akolouthos_events.1000_loyal_notification_tooltip: "[akolouthos.GetName] นำกล่าวคำสัตย์ปฏิญาณความภักดีจวบชีพวายของเหล่าวารังเจียน"
+akolouthos_effect_tooltip: "จาก [GetCourtPositionType('akolouthos_court_position').GetName()] [court_position|E]"
+
+ep3_akolouthos_events.1001: "อะโคลูธอสรับสมัครทหารวารังเจียน"
+ep3_akolouthos_events.1001_notification_tooltip: "[akolouthos.GetName] นำเสนอนักรบผู้คู่ควร ซึ่งเดินทางมาไกลเพื่อรับใช้ [ROOT.Char.GetTitleAsNameNoTooltip]"

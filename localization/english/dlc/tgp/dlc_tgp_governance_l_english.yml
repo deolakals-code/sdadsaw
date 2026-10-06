@@ -1,0 +1,625 @@
+﻿l_english: 
+
+ jail_inspection: "การตรวจเรือนจำ"
+ jail_inspection_contract: "$jail_inspection$"
+ jail_inspection_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ jail_inspection_desc: "มีรายงานอันเลวร้ายมาจากเรือนจำประจำเขต: สภาพความเป็นอยู่ย่ำแย่ถึงขีดสุด และเหล่านักโทษก็จวนเจียนจะก่อจลาจลอยู่รอมร่อ"
+ jail_inspection_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0010.t: "การตรวจเรือนจำ"
+ tgp_governor_contract_event.0010.desc: "ดูเหมือนว่าเหล่านักโทษในเรือนจำประจำเขตอันทรุดโทรมของ [jail_inspection_destination.GetName] ได้เริ่มกระด้างกระเดื่อง ประท้วงสภาพความเป็นอยู่ และขัดขวางความพยายามสุดกำลังของผู้คุมที่จะควบคุมพวกเขา รายงานเตือนว่าต้องหาทางแก้ไขโดยเร็ว มิฉะนั้นเหล่านักโทษอาจจู่โจมผู้คุมจนรับมือไม่ไหว"
+ tgp_governor_contract_event.0010.a: "ข้าควรไปจัดการเรื่องนี้ด้วยตนเอง"
+ tgp_governor_contract_event.0010.a_tt: "เดินทางไปยัง [jail_inspection_destination.GetName] และตรวจเรือนจำด้วยตนเอง"
+ tgp_governor_contract_event.0010.b: "คำวิงวอนของเหล่านักโทษมิได้อยู่ในความสนใจของข้า"
+
+ tgp_governor_contract_event.0001.t: "การตรวจเรือนจำ"
+ tgp_governor_contract_event.0001.desc: "ทันทีที่ข้าย่างเท้าเข้าไปในเรือนจำ ประสาทสัมผัสก็ถูกจู่โจมด้วยกลิ่นเหม็นเน่าอับจากความสกปรกและเสียงครวญครางอย่างทุกข์ทรมานของเหล่านักโทษ มีบางสิ่งที่ตัวเล็กๆ เฉียดผ่านเท้าข้าไปก่อนจะวิ่งหายเข้าไปในเงามืดอย่างรวดเร็วจนมองไม่ทัน\n\nข้าหันไปมองยังห้องขังที่ใกล้ที่สุดและสบตากับนักโทษที่อยู่ข้างใน สายตาของ [sick_prisoner.GetHerHis] ดั่งถ่านไฟที่ลุกโชนด้วยความโกรธแค้น ท่ามกลางความทุกข์ระทมบนใบหน้าของ [sick_prisoner.GetHerHis]"
+ tgp_governor_contract_event.0001.a: "บูรณะเรือนจำ แต่จะใช้นักโทษเป็นแรงงาน" # (Special governor option)
+ tgp_governor_contract_event.0001.b: "เราต้องปรับปรุงสภาพความเป็นอยู่ของพวกเขาทันที!"
+ tgp_governor_contract_event.0001.c: "อภัยโทษให้แก่ผู้ที่มีความผิดน้อยที่สุด"
+ tgp_governor_contract_event.0001.d: "สั่งเฆี่ยนพวกที่โวยวายเสียงดังที่สุดให้เงียบปาก"
+ tgp_governor_contract_event.0001.e: "เราจะปล่อยพวกเขา - เพื่อเป็นแรงงานในไร่นาและการก่อสร้างของเรา"
+
+ task_contract_reward_effect_renovate_jail_desc: "$label_success_standard$"
+ task_contract_reward_effect_improve_their_conditions_desc: "$label_success_standard$"
+ task_contract_reward_effect_pardon_some_of_them_desc: "$label_success_standard$"
+ task_contract_reward_effect_beat_the_complainers_desc: "$label_success_standard$"
+ task_contract_reward_effect_convict_labor_desc: "$label_success_standard$"
+
+ potent_physick: "ยาขนานเอก"
+ potent_physick_contract: "$potent_physick$"
+ potent_physick_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ potent_physick_desc: "ยาขนานใหม่ที่ทรงประสิทธิภาพกำลังถูกเร่ขายในตลาด และฝูงชนผู้ซื้อที่แห่แหนกันมากำลังคุกคามความสงบเรียบร้อยของบ้านเมือง"
+ potent_physick_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0011.t: "ยาขนานเอก"
+ tgp_governor_contract_event.0011.desc: "น้อยครั้งนักที่พ่อค้าเร่ ซึ่งตั้งแผงในตลาดจะได้รับความสนใจจากทางการ แต่ดูเหมือนว่าบุคคลหนึ่งใน [potent_physick_destination.GetName] กำลังโปรโมตยาขนานวิเศษที่ได้ผลชะงัดนัก จนฝูงชนที่อึกทึกครึกโครมที่ยานี้ดึงดูดมา กำลังกลายเป็นการรบกวนความสงบเรียบร้อยของบ้านเมืองอย่างรวดเร็ว"
+ tgp_governor_contract_event.0011.a: "ยาขนานใดก็ตามที่เป็นที่ต้องการถึงเพียงนี้ ย่อมคุ้มค่าที่จะตรวจสอบ"
+ tgp_governor_contract_event.0011.a_tt: "เดินทางไปยัง [potent_physick_destination.GetName] และฟื้นฟูความสงบเรียบร้อยในตลาด"
+ tgp_governor_contract_event.0011.b: "ข้าไม่สนใจเรื่องราวในตลาด"
+
+ tgp_governor_contract_event.0002.t: "ยาขนานเอก"
+ tgp_governor_contract_event.0002.desc: "หลังจากผู้ติดตามของข้าสลายฝูงชนที่ดื้อด้านออกไป ข้าก็ยืนอยู่เบื้องหน้าคนขายยาและยาปรุงของ [snake_oil_peddler.GetHerHis] สายตาของนักต้มตุ๋นเจ้าเล่ห์ผู้นี้จับจ้องคุณภาพอาภรณ์ของข้า และมุ่งเป้ามาที่ลูกค้ารายใหม่ผู้มั่งคั่งนี้\n\n"เพียงขวดเดียว [ROOT.Char.Custom('FormOfAddressForLiege')]" [snake_oil_peddler.GetSheHe] ชูนิ้วขึ้นหนึ่งนิ้ว โบกไปมาอย่างมีชีวิตชีวาเพื่ออธิบาย "รับประกันว่าจะเติมเต็มแก่นแท้ภายในของท่าน และแก้ไขสิ่งที่ผิดปกติในตัวท่าน!"\n\n"ไม่ทราบว่า [ROOT.Char.GetLadyLord] ของข้าจะสนใจรับสักขวด หรือหลายขวดดีขอรับ" พ่อค้าเร่ยิ้มกว้างด้วยความโลภอย่างประจบประแจง"
+ tgp_governor_contract_event.0002.a: "เราจะยึดยาปรุงเหล่านี้ไว้เป็นเสบียงฉุกเฉิน" # (Special governor option)
+ tgp_governor_contract_event.0002.b: "เจ้ามี #EMP ใบอนุญาต#! สำหรับแผงลอยนี้หรือไม่"
+ tgp_governor_contract_event.0002.c: "เก็บข้าวของของเจ้าซะ แล้วเอายาต้มตุ๋นนี้ไปขายที่อื่น"
+ tgp_governor_contract_event.0002.d: "บังเอิญว่าข้ากำลังต้องการแพทย์อยู่พอดี..."
+ tgp_governor_contract_event.0002.e: "ข้าคิดว่าข้าจะรับไว้: กระดกลงคอเลย!"
+
+ task_contract_reward_effect_emergency_appropriation_desc: "$label_success_standard$"
+ task_contract_reward_effect_licensing_issue_desc: "$label_success_standard$"
+ task_contract_reward_effect_begone_quack_desc: "$label_success_standard$"
+ task_contract_reward_effect_hire_the_quack_desc: "$label_success_standard$"
+ task_contract_reward_effect_down_the_hatch_desc: "$label_success_standard$"
+
+ irregular_accounting: "การบัญชีที่ไม่ปกติ"
+ irregular_accounting_contract: "$irregular_accounting$"
+ irregular_accounting_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ irregular_accounting_desc: "ภาษีที่ถึงกำหนดชำระจากภูมิภาคนี้ถูกส่งมาถึงช้าลงเรื่อยๆ ในการเก็บ แต่ละครั้ง และค่าขนส่งก็สูงขึ้นทุกครั้งที่จัดส่ง"
+ irregular_accounting_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0012.t: "การบัญชีที่ไม่ปกติ"
+ tgp_governor_contract_event.0012.desc: "ความคลาดเคลื่อนของเวลาจัดส่งเป็นสิ่งที่คาดเดาได้อยู่บ้างเมื่อเป็นเรื่องการขนส่งภาษี ไม่ว่าจะเนื่องมาจากสภาพถนน สภาพอากาศ หรือปัจจัยอื่นที่ยากจะคาดการณ์หรือควบคุม\n\nทว่า การเก็บภาษีจาก [irregular_accounting_destination.GetName] นั้นล่าช้าผิดปกติ และค่าขนส่งที่ถูกส่งต่อมายังสำนักงานของข้าก็ดูเหมือนจะสูงเกินควรมากขึ้นเรื่อยๆ"
+ tgp_governor_contract_event.0012.a: "เรื่องนี้สมควรได้รับการตรวจสอบอย่างใกล้ชิด"
+ tgp_governor_contract_event.0012.a_tt: "เดินทางไปยัง [irregular_accounting_destination.GetName] และสืบหาความจริงของเรื่องนี้"
+ tgp_governor_contract_event.0012.b: "ข้ามั่นใจว่าเดี๋ยวเรื่องนี้ก็คงคลี่คลายไปเอง"
+
+ tgp_governor_contract_event.0003.t: "การบัญชีที่ไม่ปกติ"
+ tgp_governor_contract_event.0003.desc: "ข้าคงเกือบจะชื่นชมการดำเนินการอันซับซ้อนของผู้ยักยอกผู้นี้ หากไม่ใช่ เพราะมันเป็นเงินทุนของข้าที่ [dubious_tax_agent.GetSheHe] กำลังถ่ายเทเข้ากระเป๋าของ [dubious_tax_agent.GetHerHis]\n\nเหล่าเสมียนยังคงกำลังแกะรอยขอบเขตความผิดปกติทั้งหมด แต่สิ่งที่พวกเขาพบจนถึงตอนนี้นั้นมากเกินพอที่จะเอาผิด [dubious_tax_agent.GetHerHim] แม้ว่าสมุดบัญชีที่ถูกเผาทิ้งตอนที่เรามาถึงจะยังไม่ใช่ข้อบ่งชี้ที่เพียงพอก็ตาม\n\nผู้กระทำผิดยืนอยู่ข้างข้าเพื่อรอคอยการตัดสิน ดวงตาจับจ้องอยู่ที่พื้น ท่าทีของ [dubious_tax_agent.GetHerHis] หม่นหมองพอๆ กับอนาคตของ [dubious_tax_agent.GetHerHis]"
+ tgp_governor_contract_event.0003.a: "จงถูกริบทรัพย์ที่ได้มาโดยมิชอบ และเข้าไปสำนึกผิดในเรือนจำซะ" # (Special governor option)
+ tgp_governor_contract_event.0003.b: "การจองจำคงเป็นการเสียเปล่าสำหรับแนวคิดที่ #EMP กล้าได้กล้าเสีย#! เช่นนี้"
+ tgp_governor_contract_event.0003.c: "นี่อาจส่งผลเสียต่อข้า - ความจริงไม่จำเป็นต้องถูกเปิดเผย"
+ tgp_governor_contract_event.0003.d: "จงชดใช้ค่าเสียหาย แล้วเจ้าจะได้รับการอภัยโทษ แค่ครั้งนี้เท่านั้น"
+ tgp_governor_contract_event.0003.e: "ข้าคิดว่าสิ่งที่เจ้า #EMP ต้องการจริงๆ#! คือหุ้นส่วน..."
+
+ task_contract_reward_effect_confiscation_and_incarceration_desc: "$label_success_standard$"
+ task_contract_reward_effect_recruit_embezzler_desc: "$label_success_standard$"
+ task_contract_reward_effect_cover_up_desc: "$label_success_standard$"
+ task_contract_reward_effect_into_your_pocket_desc: "$label_success_standard$"
+ task_contract_reward_effect_continue_the_charade_desc: "$label_success_standard$"
+
+ salt_smugglers: "พวกลักลอบค้าเกลือ"
+ salt_smugglers_contract: "$salt_smugglers$"
+ salt_smugglers_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ salt_smugglers_desc: "ผู้นำขบวนการลักลอบค้าเกลือในท้องถิ่นถูกจับกุมได้ และกำลังเสนอที่จะบอกที่ซ่อนของพรรคพวกที่เหลือเพื่อแลกกับอิสรภาพ"
+ salt_smugglers_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0013.t: "พวกลักลอบค้าเกลือ"
+ tgp_governor_contract_event.0013.desc: "การลักลอบค้าเกลือถือเป็นความผิดร้ายแรงต่ออำนาจของทางการ และผู้นำของกลุ่มโจรนอกกฎหมาย เช่นนี้เพิ่งถูกจับกุมได้ใน [salt_smugglers_destination.GetName] ดูเหมือนว่าหัวหน้าโจรผู้นี้ได้เรียกร้องที่จะพูดคุยกับข้าเป็นการส่วนตัว โดยเสนอที่จะสังเวยพรรคพวกที่เหลือเพื่อแลกกับอิสรภาพของตนเอง"
+ tgp_governor_contract_event.0013.a: "ข้าควรจะรับฟังข้อเสนอนี้ไว้หน่อย"
+ tgp_governor_contract_event.0013.a_tt: "เดินทางไปยัง [salt_smugglers_destination.GetName] และจัดการกับโจรนอกกฎหมายผู้นี้ ไม่ทางใดก็ทางหนึ่ง"
+ tgp_governor_contract_event.0013.b: "การขานรับคำเรียกของโจรนอกกฎหมายมันต่ำกว่าศักดิ์ศรีของข้า"
+
+ tgp_governor_contract_event.0004.t: "พวกลักลอบค้าเกลือ"
+ tgp_governor_contract_event.0004.desc: "แม้โซ่ตรวนจะพันธนาการมือของ[salt_smuggler.GetNamePossessive]ไว้แน่น แต่มันก็แทบไม่ได้หยุดยั้งสันดานมุสาของนักค้าของเถื่อนผู้นี้เลย ท่าทีของ [salt_smuggler.GetHerHis] นั้นอวดดีอย่างไม่เกรงกลัว ราวกับว่าเราเป็นพ่อค้าสองคนที่กำลังต่อรองราคากันในตลาด ไม่ใช่เจ้าหน้าที่บ้านเมืองกับโจรนอกกฎหมายที่ชีวิตแขวนอยู่บนเส้นด้าย\n\n"ใช่ ข้าจะบอกว่าพรรคพวกที่เหลือของข้าอยู่ที่ไหน ทันทีที่ท่านคลายเจ้านี่ออก" [salt_smuggler.GetSheHe] ยกข้อมือที่ถูกมัดขึ้นพลางเลิกคิ้วไปยังมันอย่างมีความหมาย "และรับประกันเส้นทางที่ปลอดภัยให้ข้าไปยังที่ที่เราไม่จำเป็นต้องพบกันอีก""
+ tgp_governor_contract_event.0004.a: "ประหาร [salt_smuggler.GetHerHim] ซะ - ให้ #EMP นั่น#! เป็นการส่งสาส์นถึงพรรคพวกของ [salt_smuggler.GetHerHis]" # (Special governor option)
+ tgp_governor_contract_event.0004.b: "ตกลงตามข้อเสนอของเจ้า แต่อย่าให้ข้าเห็นหน้าเจ้าอีก"
+ tgp_governor_contract_event.0004.c: "ข้าจะสอบสวน [salt_smuggler.GetHerHim] เอง: เราจะได้ตัวพรรคพวกของ [salt_smuggler.GetHerHis] ตามเงื่อนไขของเรา"
+ tgp_governor_contract_event.0004.d: "ที่ซ่อนทรัพย์สินที่ได้มาโดยมิชอบของเจ้า อาจซื้อความปรานีให้เจ้าได้..."
+ tgp_governor_contract_event.0004.e: "ข้าอาจใช้ประโยชน์จาก [salt_smuggler.GetWomanMan] ที่มีทักษะเฉพาะตัว เช่นเจ้าได้"
+
+ task_contract_reward_effect_execute_smuggler_desc: "$label_success_standard$"
+ task_contract_reward_effect_cut_a_deal_desc: "$label_success_standard$"
+ task_contract_reward_effect_interrogate_smuggler_desc: "$label_success_standard$"
+ task_contract_reward_effect_a_cut_of_the_take_desc: "$label_success_standard$"
+ task_contract_reward_effect_recruit_smuggler_desc: "$label_success_standard$"
+
+ hoarding_grain: "การกักตุนธัญพืช"
+ hoarding_grain_contract: "$hoarding_grain$"
+ hoarding_grain_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ hoarding_grain_desc: "ตระกูลท้องถิ่นที่มีชื่อเสียงตระกูลหนึ่งได้กักตุนธัญพืชและปฏิเสธที่จะขาย ส่งผลให้ราคาสูงขึ้น ในขณะที่เจ้าหน้าที่ก็ถูกข่มขู่จนยอมจำนนอย่างสงบนิ่ง"
+ hoarding_grain_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0014.t: "การกักตุนธัญพืช"
+ tgp_governor_contract_event.0014.desc: "นับเป็นธรรมเนียมปฏิบัติที่โชคร้าย แต่ก็พบเห็นได้บ่อย ที่ตระกูลมั่งคั่งจะซื้อธัญพืชเกินความต้องการในช่วงเวลาที่อุดมสมบูรณ์โดยหวังผลกำไรในอนาคต แต่ข้าได้รับรายงานว่าตระกูลหนึ่งใน [hoarding_grain_destination.GetName] ได้ทำเกินกว่าปกติไปมาก\n\nดูเหมือนว่าพวกเขาได้สะสมธัญพืชไว้มากเสียจนราคาสูงขึ้นถึงจุดที่คนธรรมดาสามัญแทบจะไม่สามารถซื้อหาได้"
+ tgp_governor_contract_event.0014.a: "การปรากฏตัวของข้าจำเป็นต่อการแก้ไขปัญหานี้"
+ tgp_governor_contract_event.0014.a_tt: "เดินทางไปยัง [hoarding_grain_destination.GetName] และแก้ไขปัญหาการขาดแคลนธัญพืช"
+ tgp_governor_contract_event.0014.b: "เรื่องที่สำคัญกว่ามากรอให้ข้าไปจัดการ"
+
+ tgp_governor_contract_event.0005.t: "การกักตุนธัญพืช"
+ tgp_governor_contract_event.0005.desc: "เครื่องตก แต่งอันหรูหราในคฤหาสน์ของ[grain_hoarding_local_notable.GetNamePossessive]ช่างขัดแย้งอย่างสิ้นเชิงกับกระท่อมซอมซ่อที่เราผ่านมา เจ้าบ้านของเราไม่ได้เสแสร้งที่จะปิดบังหรือลดทอนทรัพย์สินที่ [grain_hoarding_local_notable.GetHerHis] ได้มา ที่จริงแล้ว [grain_hoarding_local_notable.GetSheHe] เกือบจะปลาบปลื้มกับมันด้วยซ้ำ\n\n"อภัยให้ข้าในความไม่รู้กิจการบ้านเมืองด้วยเถิด แต่ข้าไม่เข้าใจว่าเหตุใด [ROOT.Char.GetLadyLord] ของข้าจึงสนใจในเรื่องนี้" [grain_hoarding_local_notable.GetSheHe] กล่าวอย่างอวดดี "นี่เป็นเพียงเรื่องของธุรกรรมทางธุรกิจที่ถูกกฎหมาย และแน่นอนว่า [ROOT.Char.GetLadyLord] ของข้าคงมีปัญหาเร่งด่วนกว่าให้ต้องไปจัดการ...?" ถ้อยคำสุดท้ายของ [grain_hoarding_local_notable.GetHerHis] นั้นเหมือนคำกล่าวอ้างมากกว่าคำถาม"
+ tgp_governor_contract_event.0005.a: "ปล่อยธัญพืชสำรองของรัฐบาลออกมาถล่มตลาด" # (Special governor option)
+ tgp_governor_contract_event.0005.b: "ความโลภเล็กๆ น้อยๆ นี้ ไม่ต่ำกว่าศักดิ์ศรีอันประจักษ์ชัดของ [grain_hoarding_local_notable.GetWomanMan] เช่นท่านหรือ"
+ tgp_governor_contract_event.0005.c: "นี่อาจจะถูกกฎหมาย แต่ข้ามั่นใจว่า #EMP บางสิ่ง#! ที่ไม่ชอบมาพากลคงจะถูกค้นพบได้"
+ tgp_governor_contract_event.0005.d: "จะเป็น เช่นไร หากข้าเสนอที่จะรับซื้อธัญพืชต่อจากท่าน"
+ tgp_governor_contract_event.0005.e: "ข้าอาจมีตำแหน่งให้ท่าน หากท่านมีท่าทีที่ให้ความร่วมมือมากกว่านี้"
+
+ task_contract_reward_effect_release_the_grain_desc: "$label_success_standard$"
+ task_contract_reward_effect_shame_them_desc: "$label_success_standard$"
+ task_contract_reward_effect_intimidate_them_desc: "$label_success_standard$"
+ task_contract_reward_effect_purchase_grain_yourself_desc: "$label_success_standard$"
+ task_contract_reward_effect_bribe_with_offices_desc: "$label_success_standard$"
+
+ doddering_magistrate: "ข้าราชการผู้ชราภาพ"
+ doddering_magistrate_contract: "$doddering_magistrate$"
+ doddering_magistrate_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ doddering_magistrate_desc: "เหล่าเสมียนในเขตนี้ได้ส่งสาส์นร้องทุกข์มาว่า หัวหน้างานผู้สูงวัยของพวกเขาไม่สามารถปฏิบัติงานได้อีกต่อไปแล้ว"
+ doddering_magistrate_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0015.t: "ข้าราชการผู้ชราภาพ"
+ tgp_governor_contract_event.0015.desc: "คติพจน์ที่ว่าอายุที่มากขึ้นมาพร้อมกับปัญญาและประสบการณ์ดูเหมือนจะไม่เป็นความจริง สำหรับเหล่าเสมียนแห่ง [doddering_magistrate_destination.GetName] ผู้ ซึ่งร่วมกันส่งคำร้องหลายฉบับมายังสำนักงานของข้า เพื่อขอให้หัวหน้าของพวกเขา ซึ่งอยู่ในวัยชราภาพมากแล้ว ถูกโยกย้ายหรือปลดออกจากตำแหน่ง"
+ tgp_governor_contract_event.0015.a: "นี่เป็นปัญหาที่ละเอียดอ่อน ข้าควรจัดการด้วยตนเอง"
+ tgp_governor_contract_event.0015.a_tt: "เดินทางไปยัง [doddering_magistrate_destination.GetName] และประเมินผลการปฏิบัติงานของข้าราชการผู้นั้น"
+ tgp_governor_contract_event.0015.b: "ไม่ใช่หน้าที่ของพวกเขาที่จะตั้งคำถามกับหัวหน้างาน"
+
+ tgp_governor_contract_event.0006.t: "ข้าราชการผู้ชราภาพ"
+ tgp_governor_contract_event.0006.desc: "ข้ารู้สึกราวกับว่าข้าสามารถใช้ชีวิตที่สองได้ทั้งชีวิต ในช่วงเวลาที่ข้าราชการชราผู้นี้ลุกจากที่นั่งของ [elderly_magistrate.GetHerHis] และกล่าวทักทายตามธรรมเนียม\n\nการโค้งคำนับช้าๆ ของ [elderly_magistrate.GetHerHis|U] ดูเหมือนจะสร้างความยากลำบากอย่างยิ่งให้แก่ [elderly_magistrate.GetHerHim] และ [elderly_magistrate.GetSheHe] ก็ค้างท่านั้นไว้นานจนข้าต้องครุ่นคิดว่านี่อาจจะเป็นวาระสุดท้ายของ [elderly_magistrate.GetHerHim] ที่นี่และเดี๋ยวนี้หรือไม่ ก่อนที่เสมียนสองคนจะรีบเข้ามาช่วยพยุง [elderly_magistrate.GetHerHim] ให้ยืดตัวตรง\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U] ให้เกียรติข้ามากเกินไปแล้ว" [elderly_magistrate.GetSheHe] พูดเสียงแหบแห้ง เสียงของ [elderly_magistrate.GetHerHis] ดังเอี๊ยดอ๊าดเหมือนล้อเกวียนเก่าๆ ที่ชำรุด "ข้าจะรับใช้ [ROOT.Char.Custom('FormOfAddressForLiege')] ได้อย่างไรบ้างขอรับ""
+ tgp_governor_contract_event.0006.a: "มอบหมายหน้าที่ของ [elderly_magistrate.GetHerHis] ให้ผู้อื่น แต่ให้ [elderly_magistrate.GetHerHim] ยังคงดำรงตำแหน่งไว้" # (Special governor option)
+ tgp_governor_contract_event.0006.b: "อายุของ [elderly_magistrate.GetHerHis|U] ได้บั่นทอนความสามารถของ [elderly_magistrate.GetHerHis] แล้ว: บังคับให้ [elderly_magistrate.GetHerHim] ออกไป"
+ tgp_governor_contract_event.0006.c: "[elderly_magistrate.GetWomanMan] ผู้นี้สมควรได้รับการเลื่อนตำแหน่งมานานแล้ว! ไปยังที่ที่ #EMP ไม่เป็นที่สังเกต#! สักแห่ง..."
+ tgp_governor_contract_event.0006.d: "ให้ [elderly_magistrate.GetHerHim] ทำงานต่อไป รัฐจะคงอยู่นานกว่า [elderly_magistrate.GetHerHim]"
+ tgp_governor_contract_event.0006.e: "[elderly_magistrate.GetSheHe|U] อาจทำงานต่อไปได้ แต่จะเป็นในฐานะเสมียนผู้ต่ำต้อย"
+
+ task_contract_reward_effect_appoint_substitute_desc: "$label_success_standard$"
+ task_contract_reward_effect_force_him_out_desc: "$label_success_standard$"
+ task_contract_reward_effect_promote_somewhere_harmless_desc: "$label_success_standard$"
+ task_contract_reward_effect_let_him_continue_desc: "$label_success_standard$"
+ task_contract_reward_effect_demote_him_desc: "$label_success_standard$"
+
+ burdensome_taxes: "ภาษีอันหนักหนา"
+ burdensome_taxes_contract: "$burdensome_taxes$"
+ burdensome_taxes_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ burdensome_taxes_desc: "ผู้ยื่นคำร้องคนหนึ่งมาจากหมู่บ้านห่างไกล เพื่อร้องขอการบรรเทาภาระภาษีที่ผู้คนไม่สามารถจ่ายไหว"
+ burdensome_taxes_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0007.t: "ภาษีอันหนักหนา"
+ tgp_governor_contract_event.0007.desc: "หลังจากวันที่ยาวนานและเหน็ดเหนื่อยกับการรับฟังคำร้องทุกข์และข้อข้องใจ ซึ่งบ่อยครั้งก็มาจากปากคนเดียวกัน ผู้ยื่นคำร้องคนสุดท้ายก็ก้าวออกมา เป็น [village_elder.GetWomanMan] ชราที่ แต่งกายเรียบง่ายและสมถะ ท่าทางของ [village_elder.GetHerHis] อ่อนน้อม แต่ไม่ค้อมต่ำ เสมียนส่งบันทึกให้ข้า ระบุว่า [village_elder.GetWomanMan] ผู้นี้คือหัวหน้า [village_elder.GetWomanMan] ของหมู่บ้าน [village_elder.GetHerHis]\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U]" [village_elder.GetSheHe] เริ่มต้น "หมู่บ้านของเรายากจน และเรารู้จักความมั่งคั่งและความรุ่งเรืองเพียงน้อยนิด การเก็บเกี่ยวได้ผลไม่ดี ภาษีที่เราถูกเรียกเก็บนั้นเกินกำลังอันน้อยนิดของเรา ข้าขอวิงวอนท่าน ท่านต้องลดภาระของเรา มิฉะนั้นเราอาจอดตาย""
+ tgp_governor_contract_event.0007.a: "ย้ายภาระส่วนใหญ่ไปยังพื้นที่ที่มั่งคั่งกว่า" # (Special governor option)
+ tgp_governor_contract_event.0007.b: "ประเมินพวกเขาใหม่ในอัตราที่ลดลง: ข้าจะรับผิดชอบทั้งหมดเอง"
+ tgp_governor_contract_event.0007.c: "ข้าจะจ่ายส่วนต่างให้เอง แต่ปีหน้าก็แล้ว แต่พวกเจ้า"
+ tgp_governor_contract_event.0007.d: "พวกเจ้าไม่จำเป็นต้องจ่าย แต่หนี้สินจะยังคงอยู่จนกว่าพวกเจ้าจะชำระจนครบ"
+ tgp_governor_contract_event.0007.e: "ผู้ใดที่จ่ายไม่ได้จะถูกจองจำและยึดทรัพย์สิน"
+
+ task_contract_reward_effect_revise_tax_assessment_desc: "$label_success_standard$"
+ task_contract_reward_effect_waive_their_taxes_desc: "$label_success_standard$"
+ task_contract_reward_effect_pay_it_yourself_desc: "$label_success_standard$"
+ task_contract_reward_effect_delayed_taxes_desc: "$label_success_standard$"
+ task_contract_reward_effect_imprison_debtors_desc: "$label_success_standard$"
+
+ unsafe_highways: "การค้าอันตราย"
+ unsafe_highways_contract: "$unsafe_highways$"
+ unsafe_highways_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ unsafe_highways_desc: "เหล่าพ่อค้ากำลังโวยวาย ป่าวประกาศว่าถนนหลวงไม่ปลอดภัยต่อการเดินทาง และข่มขู่ว่าจะหาตลาดใหม่หากปัญหานี้ไม่ได้รับการแก้ไข"
+ unsafe_highways_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0008.t: "การค้าอันตราย"
+ tgp_governor_contract_event.0008.desc: "คณะผู้แทนพ่อค้า นำโดย [fearful_merchant.GetName] มาออแน่นกันในโถงของข้า เสียงของพวกเขาดังลั่นด้วยความตระหนก เรียกร้องการคุ้มครองขบวนสินค้าของพวกเขาหลังจากที่เพิ่งสูญเสียไปอีกขบวนจากการโจมตีของโจร "สถานการณ์นี้ไม่อาจยอมรับได้ [ROOT.Char.Custom('FormOfAddressForLiege')]" ผู้นำของพวกเขาประกาศ\n\n"หากไม่มีการดำเนินการอย่างรวดเร็วเพื่อปกป้องสินค้าและชีวิตของเราจากคนเถื่อนเหล่านี้ เราก็ไม่มีทางเลือกอื่นนอกจากละทิ้งผลประโยชน์ของเราใน [unsafe_highways_destination.GetName] และย้ายการค้าของเรา รวมถึงค่าผ่านทางที่เราจ่าย ไปยังที่อื่น" [fearful_merchant.GetSheHe|U] ยืนรอคอยอย่างคาดหวัง คำขาดถูกยื่นมาอย่างอาจหาญ"
+ tgp_governor_contract_event.0008.a: "เราจะจัดหาผู้คุ้มกันให้ แต่พวกเจ้าต้องจ่ายค่าสิทธิพิเศษนี้" # (Special governor option)
+ tgp_governor_contract_event.0008.b: "ข้าเข้าใจ เราจะส่งหน่วยลาดตระเวนไปคุ้มกันถนน"
+ tgp_governor_contract_event.0008.c: "การค้าของพวกเจ้ามันอันตราย: พวกเจ้าไม่มีคนคุ้มกันรึ"
+ tgp_governor_contract_event.0008.d: "มันคงจะ #EMP โชคร้าย#! หากภาษีของพวกเจ้าต้องถูกตรวจสอบ..."
+ tgp_governor_contract_event.0008.e: "มีภัยย่อมมีรางวัล - อยู่ต่อเถอะ แล้วข้าจะ ทำให้มันคุ้มค่า"
+
+ task_contract_reward_effect_merchant_funded_government_escort_desc: "$label_success_standard$"
+ task_contract_reward_effect_send_out_the_patrols_desc: "$label_success_standard$"
+ task_contract_reward_effect_talk_them_into_bodyguards_desc: "$label_success_standard$"
+ task_contract_reward_effect_threaten_with_sanctions_desc: "$label_success_standard$"
+ task_contract_reward_effect_entice_with_promises_desc: "$label_success_standard$"
+
+ dam_in_disrepair: "เขื่อนชำรุด"
+ dam_in_disrepair_contract: "$dam_in_disrepair$"
+ dam_in_disrepair_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ dam_in_disrepair_desc: "เขื่อนที่กำลังผุพังสร้างความวิตกกังวลไม่น้อยให้แก่ผู้อยู่อาศัย - และเหล่าเจ้าหน้าที่ - ในเขต"
+ dam_in_disrepair_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0009.t: "เขื่อนชำรุด"
+ tgp_governor_contract_event.0009.desc: "เขื่อนสำคัญใน [dam_in_disrepair_destination.GetName] อยู่ในสภาพชำรุดทรุดโทรมอย่างหนัก และผลที่ตามมาอาจเป็นหายนะร้ายแรงหากสถานการณ์ไม่ได้รับการแก้ไขโดยพลัน\n\nทว่า นี่ไม่ใช่ภารกิจเล็กน้อย และงบประมาณส่วนใหญ่ของเราก็ถูกจัดสรรไว้สำหรับที่อื่นแล้ว สำหรับทางออกที่มากกว่าการแก้ไขเพียงชั่วคราว เราควรหาหนทางที่จะลดค่าใช้จ่ายลง"
+ tgp_governor_contract_event.0009.a: "ระดมราษฎรในท้องถิ่น แต่ให้ยกเว้นคนยากจนและเจ็บป่วย" # (Special governor option)
+ tgp_governor_contract_event.0009.b: "เกณฑ์แรงงานจากผู้ที่จะได้รับผลกระทบหนักที่สุดหากเขื่อนพัง"
+ tgp_governor_contract_event.0009.c: "ผู้อยู่อาศัยที่มั่งคั่งควรสมทบตามกำลังของตน"
+ tgp_governor_contract_event.0009.d: "ทรัพย์สมบัติเทียบไม่ได้เลยกับชีวิตผู้คน - ข้าจะจ่ายเอง"
+ tgp_governor_contract_event.0009.e: "เราจะเกณฑ์ทรัพยากรที่จำเป็นจากพ่อค้าในท้องถิ่น"
+
+ task_contract_reward_effect_conscientious_mobilization_desc: "$label_success_standard$"
+ task_contract_reward_effect_forced_labor_desc: "$label_success_standard$"
+ task_contract_reward_effect_compel_the_wealthy_desc: "$label_success_standard$"
+ task_contract_reward_effect_personal_contribution_desc: "$label_success_standard$"
+ task_contract_reward_effect_requisition_state_resources_desc: "$label_success_standard$"
+
+ tgp_governor_contract_event.0002.b.success: "ท่านรีดไถกำไรบางส่วนมาจากผลกำไรของ[snake_oil_peddler.GetHerHis]ได้"
+ tgp_governor_contract_event.0002.b.failure: "[snake_oil_peddler.GetSheHe|U] ไม่สะทกสะท้านต่อความพยายามรีดไถของท่าน"
+ tgp_governor_contract_event.0003.e.success: "ท่าน "ตก แต่ง" บัญชีเพื่อประโยชน์ของท่าน"
+ tgp_governor_contract_event.0003.e.failure: "การดำเนินการนี้พิสูจน์แล้วว่าเกินความสามารถของท่าน"
+ tgp_governor_contract_event.0004.c.success: "ท่านเค้นข้อมูลจากนักค้าของเถื่อนได้"
+ tgp_governor_contract_event.0004.c.failure: "นักค้าของเถื่อนสิ้นใจระหว่างการสอบสวนของท่าน"
+ tgp_governor_contract_event.0004.d.success: "ท่านเกลี้ยกล่อมให้นักค้าของเถื่อนยอมมอบของที่ปล้นมา"
+ tgp_governor_contract_event.0004.d.failure: "ความจริงใจของท่านไม่น่าเชื่อถือเพียงพอ"
+ tgp_governor_contract_event.0005.b.success: "ท่านโน้มน้าวโดยอ้างถึงคุณธรรมในใจของ [grain_hoarding_local_notable.GetHerHis]"
+ tgp_governor_contract_event.0005.b.failure: "[grain_hoarding_local_notable.GetSheHe|U] ไม่ไหวติงต่อคำเยินยออันโจ่งแจ้งของท่าน"
+ tgp_governor_contract_event.0005.c.success: "คำขู่ที่แอบแฝงคือหนึ่งในเครื่องมือที่ดีที่สุดของข้าราชการ"
+ tgp_governor_contract_event.0005.c.failure: "ผู้ทรงอิทธิพลผู้นั้นไม่สะทกสะท้านต่อการข่มขู่เล็กน้อยของท่าน"
+ tgp_governor_contract_event.0007.a.success: "ท่านจัดการปรับสมดุลภาระภาษีได้"
+ tgp_governor_contract_event.0007.a.failure: "แม้ท่านจะพยายาม แต่ดูเหมือนว่าจะไม่สามารถจัดสรรใหม่ได้"
+ tgp_governor_contract_event.0008.c.success: "ท่านเกลี้ยกล่อมให้พ่อค้าจ้างยามเพิ่มได้"
+ tgp_governor_contract_event.0008.c.failure: "เหล่าพ่อค้าขุ่นเคืองกับนัยยะของท่าน"
+ tgp_governor_contract_event.0008.d.success: "ท่านขู่พวกเขาด้วยการประเมินภาษีใหม่"
+ tgp_governor_contract_event.0008.d.failure: "เหล่าพ่อค้าไม่พอใจกับการข่มขู่ของท่าน"
+ tgp_governor_contract_event.0008.e.success: "ติดสินบนพ่อค้าให้อยู่ที่เดิม"
+ tgp_governor_contract_event.0008.e.failure: "อันตรายนั้นมีมากกว่ารางวัลที่ท่านสัญญาไว้"
+ tgp_governor_contract_event.0009.c.success: "ท่านเกลี้ยกล่อมให้ผู้มีอำนาจในท้องถิ่นยอมสมทบทุน"
+ tgp_governor_contract_event.0009.c.failure: "พวกเขาปฏิเสธที่จะสละความมั่งคั่ง"
+ tgp_governor_contract_event.0009.e.success: "การ "สมทบทุน" ของพวกเขาจะเป็นที่จดจำ"
+ tgp_governor_contract_event.0009.e.failure: "เหล่าพ่อค้าหลบหนีความพยายามของท่านไปพร้อมกับสินค้าของพวกเขา"
+
+ tgp_governor_contract_event.0002.b.toast_success: "ท่านรีดไถกำไรมาจากพ่อค้าเร่ได้"
+ tgp_governor_contract_event.0002.b.toast_failure: "พ่อค้าเร่ไม่สะทกสะท้านต่อความพยายามรีดไถของท่าน"
+ tgp_governor_contract_event.0003.e.toast_success: "ท่าน "ตก แต่ง" บัญชีเพื่อประโยชน์ของท่าน"
+ tgp_governor_contract_event.0003.e.toast_failure: "การดำเนินการนี้พิสูจน์แล้วว่าเกินความสามารถของท่าน"
+ tgp_governor_contract_event.0004.c.toast_success: "ท่านเค้นข้อมูลจากนักค้าของเถื่อนได้"
+ tgp_governor_contract_event.0004.c.toast_failure: "นักค้าของเถื่อนสิ้นใจ พร้อมกับแผนการของท่าน"
+ tgp_governor_contract_event.0004.d.toast_success: "นักค้าของเถื่อนเปิดเผยที่ซ่อนของที่ปล้นมาของแก๊ง"
+ tgp_governor_contract_event.0004.d.toast_failure: "ความจริงใจของท่านไม่น่าเชื่อถือเพียงพอ"
+ tgp_governor_contract_event.0005.b.toast_success: "การโน้มน้าวโดยอ้างถึงศักดิ์ศรีและสถานะของท่านได้ผล"
+ tgp_governor_contract_event.0005.b.toast_failure: "ความพยายามเยินยอของท่านล้มเหลวไม่เป็นท่า"
+ tgp_governor_contract_event.0005.c.toast_success: "คำขู่ที่แอบแฝงบรรลุวัตถุประสงค์"
+ tgp_governor_contract_event.0005.c.toast_failure: "ผู้ทรงอิทธิพลปฏิเสธความพยายามข่มขู่ของท่าน"
+ tgp_governor_contract_event.0007.a.toast_success: "ท่านจัดการปรับสมดุลภาระภาษีได้"
+ tgp_governor_contract_event.0007.a.toast_failure: "แม้ท่านจะพยายาม แต่ดูเหมือนว่าจะไม่สามารถจัดสรรใหม่ได้"
+ tgp_governor_contract_event.0008.c.toast_success: "เหล่าพ่อค้าถูกเกลี้ยกล่อมให้จ้างยามเพิ่ม"
+ tgp_governor_contract_event.0008.c.toast_failure: "ท่าน ทำให้เหล่าพ่อค้าขุ่นเคืองกับนัยยะของท่าน"
+ tgp_governor_contract_event.0008.d.toast_success: "เหล่าพ่อค้าหวาดกลัวจนต้องยอมทำตาม"
+ tgp_governor_contract_event.0008.d.toast_failure: "เหล่าพ่อค้าไม่ได้ถูกข่มขู่"
+ tgp_governor_contract_event.0008.e.toast_success: "ความกลัวของพ่อค้าน้อยกว่าความโลภของพวกเขา"
+ tgp_governor_contract_event.0008.e.toast_failure: "อันตรายนั้นมีมากกว่าสัญญาของท่าน"
+ tgp_governor_contract_event.0009.c.toast_success: "ผู้มีชื่อเสียงในท้องถิ่นถูกเกลี้ยกล่อมให้สมทบทุน"
+ tgp_governor_contract_event.0009.c.toast_failure: "ผู้มีชื่อเสียงในท้องถิ่นปฏิเสธที่จะสมทบทุน"
+ tgp_governor_contract_event.0009.e.toast_success: "วัสดุที่จำเป็นถูกยึดมาแล้ว"
+ tgp_governor_contract_event.0009.e.toast_failure: "เหล่าพ่อค้าหลบหนีไปพร้อมกับสินค้าของพวกเขา"
+
+ task_contract_reward_effect_failure_entice_with_promises_desc: "$label_failure_standard$"
+ task_contract_reward_effect_failure_threaten_with_sanctions_desc: "$label_failure_standard$"
+ task_contract_reward_effect_failure_talk_them_into_bodyguards_desc: "$label_failure_standard$"
+ task_contract_reward_effect_failure_compel_the_wealthy_desc: "$label_failure_standard$"
+ task_contract_reward_effect_failure_requisition_state_resources_desc: "$label_failure_standard$"
+ task_contract_reward_effect_failure_licensing_issue_desc: "$label_failure_standard$"
+ task_contract_reward_effect_failure_continue_the_charade_desc: "$label_failure_standard$"
+ task_contract_reward_effect_failure_interrogate_smuggler_desc: "$label_failure_standard$"
+ task_contract_reward_effect_failure_a_cut_of_the_take_desc: "$label_failure_standard$"
+ task_contract_reward_effect_failure_intimidate_them_desc: "$label_failure_standard$"
+ task_contract_reward_effect_failure_shame_them_desc: "$label_failure_standard$"
+ task_contract_reward_effect_failure_revise_tax_assessment_desc: "$label_failure_standard$"
+ 
+ missing_equipment: "ยุทโธปกรณ์ที่ขาดหาย"
+ missing_equipment_contract: "$missing_equipment$"
+ missing_equipment_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์ โดยใช้ [diplomacy|E] หรือ [intrigue|E] ของท่าน"
+ missing_equipment_desc: "การขนส่งยุทโธปกรณ์ใหม่หลายครั้งขาดหายไป ทำให้ทหารของเราไม่มีอาวุธและชุดเกราะที่ใช้งานได้"
+ missing_equipment_desc_title: "$task_contract_governance_desc_title$"
+ task_contract_reward_effect_secure_future_deliveries_desc: "$label_success_standard$"
+ task_contract_reward_effect_demand_extra_shipment_desc: "$label_success_standard$"
+ task_contract_reward_effect_demand_gold_desc: "$label_success_standard$"
+ task_contract_reward_effect_demand_best_equipment_desc: "$label_success_standard$"
+ task_contract_reward_effect_offered_replacements_desc: "$label_success_standard$"
+ task_contract_reward_effect_buy_replacements_desc: "$label_success_standard$"
+ 
+ tgp_governor_contract_event.2000.t: "$missing_equipment$"
+ tgp_governor_contract_event.2000.desc: "เป็นเวลา #EMP หลายสัปดาห์#! แล้วนับตั้งแต่การขนส่งยุทโธปกรณ์ใหม่ครั้งล่าสุดถึงกำหนดส่ง ข่าวคราวว่ามันอาจอยู่ที่ใดยังมาไม่ถึงข้า\n\nดาบ หน้าไม้ ลูกธนู และชุดเกราะส่วนใหญ่ล้วนผลิตโดยโรงผลิตใน [capital_location.GetNameNoTooltip] ซึ่งจ้างงานผู้คนหลายพันคน มีเพียงพวกเขาเท่านั้นที่สามารถส่งมอบในปริมาณที่เราต้องการได้\n\nหากปราศจากการขนส่งเหล่านี้ เราจะไม่สามารถติดอาวุธให้ทหารใหม่ หรือทดแทนอาวุธและชุดเกราะที่ชำรุดได้"
+ tgp_governor_contract_event.2000.a: "ไปเยี่ยมโรงผลิตกันหน่อยเถอะ"
+ tgp_governor_contract_event.2000.a_tt: "เดินทางไปยังโรงผลิตและแก้ไขปัญหาด้วยตนเอง"
+ tgp_governor_contract_event.2000.b: "ข้าสามารถซื้อยุทโธปกรณ์เองได้เสมอ"
+ tgp_governor_contract_event.2000.c: "ส่งสาส์นไปยัง [capital_location.GetNameNoTooltip] เดี๋ยวเรื่องก็คงคลี่คลายในที่สุด"
+ 
+ tgp_governor_contract_event.2001.t: "$missing_equipment$: โรงผลิต"
+ tgp_governor_contract_event.2001.desc: "หัวหน้าโรงผลิตมาถึง #EMP ในที่สุด#! เขาทักทายข้าด้วยการโค้งคำนับอย่างเป็นทางการและลึกซึ้ง\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U] ช่างเป็นการมาเยือนที่ไม่คาดคิด ข้าได้ตรวจสอบสมุดบัญชีตามที่ร้องขอแล้ว และดูเหมือนว่าข้อผิดพลาดของเสมียนอาจอยู่เบื้องหลังการขาดส่งสินค้าไปยัง [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] นับเป็นความผิดพลาดที่โชคร้าย แน่นอนว่า เราจะเปลี่ยนเส้นทางการจัดส่งครั้งต่อไปของเราไปยังท่าน""
+ tgp_governor_contract_event.2001.a: "ข้อผิดพลาดของ #EMP เสมียน#! รึ [court_relation.GetFirstNameNoTooltip] จะต้องได้ยินเรื่องนี้..."
+ tgp_governor_contract_event.2001.a.tt: "ท่านเกลี้ยกล่อมหัวหน้าคนงานได้สำเร็จ โดยขู่ว่าจะหยิบยกเรื่องนี้ขึ้นมาพูดกับ [court_relation.GetShortUIName] ที่ราชสำนัก"
+ tgp_governor_contract_event.2001.b: "แน่นอนว่าควรจะต้องมีค่าชดเชยเพิ่มเติม ใช่หรือไม่"
+ tgp_governor_contract_event.2001.c: "คงจะโชคร้ายหากเรื่องนี้แพร่งพรายสู่สาธารณะ ใช่หรือไม่"
+ tgp_governor_contract_event.2001.d: "ดีมาก ก็แค่ ทำให้แน่ใจว่ามันจะถูกส่งมา"
+ tgp_governor_contract_event.2001.tt_success_desc: "หัวหน้าคนงานถูกเกลี้ยกล่อม"
+ tgp_governor_contract_event.2001.tt_success: "ท่านเกลี้ยกล่อมหัวหน้าคนงานให้มอบของเพิ่มเติมแก่ท่านได้สำเร็จ"
+ tgp_governor_contract_event.2001.tt_failure_desc: "หัวหน้าคนงาน #bold ไม่#! ถูกเกลี้ยกล่อม"
+ tgp_governor_contract_event.2001.tt_failure: "ท่านล้มเหลวในการเกลี้ยกล่อมหัวหน้าคนงานให้ทำมากกว่าที่สัญญไว้"
+ 
+ tgp_governor_contract_event.2002.t: "$missing_equipment$: สำเร็จ"
+ tgp_governor_contract_event.2002.desc: "คำขู่ที่โจ่งแจ้งของข้าได้รับรางวัลอย่างรวดเร็วเป็นการโค้งคำนับที่ลึกยิ่งกว่าเดิม หัวหน้าคนงานเหงื่อแตกอย่างเห็นได้ชัด ค่อยๆ ยืดตัวขึ้น\n\n"แน่นอน [ROOT.Char.GetLadyLord] ของข้า ความเห็นของท่านถูกต้องอย่างที่สุด ข้ามั่นใจว่าเราสามารถบรรลุข้อตกลงกันได้ บางทีท่านอาจมีข้อเสนอแนะอยู่แล้ว""
+ tgp_governor_contract_event.2002.a: "มารับประกันการจัดส่งในอนาคตด้วยเลยแล้วกัน"
+ tgp_governor_contract_event.2002.b: "จัดส่งการขนส่ง #EMP สอง#! ครั้งถัดไปของเจ้ามาให้ข้า"
+ tgp_governor_contract_event.2002.c: "สมควรมีการชดเชยเป็นตัวเงิน"
+ tgp_governor_contract_event.2002.d: "ส่งยุทโธปกรณ์ที่ดีที่สุดที่เจ้ามีมาให้ข้า"
+ 
+ tgp_governor_contract_event.2003.t: "$missing_equipment$: ล้มเหลว"
+ tgp_governor_contract_event.2003.desc: "หัวหน้าคนงานหยุดชะงักครู่หนึ่งและขมวดคิ้ว\n\n"#EMP ท่าน#! ไม่ใช่ผู้บังคับบัญชาเพียงคนเดียวที่ต้องการยุทโธปกรณ์ ข้าทำมากเกินพอแล้วโดยจัดส่งการขนส่งครั้งต่อไปของเราให้ท่าน ซึ่งเป็นการขนส่งที่มีกำหนดส่งไปที่อื่น โปรดทราบด้วย อย่าโลภมากนักเลย #EMP [ROOT.Char.GetLadyLord]#! ของข้า"\n\n[foreman.GetWomanMan] ผู้นั้นหันหลังและเดินจากไป"
+ tgp_governor_contract_event.2003.a: "#EMP ก็ได้.#!"
+
+ lines_in_the_soil: "เส้นแบ่งบนผืนดิน"
+ lines_in_the_soil_contract: "$lines_in_the_soil$"
+ lines_in_the_soil_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ lines_in_the_soil_desc: "เจ้าของที่ดินผู้มีชื่อเสียงคู่หนึ่งกำลังกระหน่ำร้องเรียนไปยังสำนักปกครองอย่างไม่หยุดหย่อน เกี่ยวกับข้อพิพาทเรื่องทรัพย์สิน"
+ lines_in_the_soil_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0020.t: "เส้นแบ่งบนผืนดิน"
+ tgp_governor_contract_event.0020.desc: "ชีวิตประจำวันของ [ROOT.Char.GetTitleTierName] นั้นเกี่ยวข้องกับงานเอกสารจำนวนมาก แต่เห็นได้ชัดว่ามีบางอย่างผิดปกติเมื่อสาส์นเกือบทั้งหมดของวันนี้มาจาก [lines_in_the_soil_destination.GetName]\n\nเมื่อพิจารณารายงานอย่างถี่ถ้วน ดูเหมือนว่าเจ้าของที่ดินในท้องถิ่นสองคนกำลังขัดแย้งกันอย่างรุนแรงเรื่องที่ดินผืนหนึ่งที่คั่นอยู่ระหว่างพวกเขา และผลที่ตามมาคือพวกเขาได้เปลี่ยนสำนักงานปกครองท้องถิ่นให้กลายเป็นสมรภูมิทางกฎหมาย"
+ tgp_governor_contract_event.0020.a: "ข้าว่าข้า #EMP น่าจะ#! พักจากงานในสำนักงานบ้าง"
+ tgp_governor_contract_event.0020.a_tt: "เดินทางไปยัง [lines_in_the_soil_destination.GetName] และไกล่เกลี่ยข้อพิพาท"
+ tgp_governor_contract_event.0020.b: "ปล่อยให้คำร้องของพวกเขากองท่วมธุลีไป เดี๋ยวก_็คงเหนื่อยไปเอง"
+
+ tgp_governor_contract_event.0021.t: "เส้นแบ่งบนผืนดิน"
+ tgp_governor_contract_event.0021.desc: "หลังจากการโต้เถียง ถกเถียง และการเหน็บแนมอย่างเจ็บแสบที่แอบแฝงมานานหลายชั่วโมงไม่รู้จบ ข้าสามารถสรุปได้เพียงว่าบุคคลที่น่าเคารพ ซึ่งเป็นหัวใจของข้อพิพาทนี้ คือพวก #EMP โง่ทึ่ม#! หัวดื้อ\n\nเห็นได้ชัดว่านี่เป็นเพียงบทล่าสุดในประวัติศาสตร์อันยาวนานของความคับข้องใจ และไม่มีฝ่ายใดยอมสละผืนดินแม้เพียงหยิบมือเดียวให้แก่อีกฝ่าย\n\nหากข้าหวังที่จะยุติการโต้เถียงอันไม่หยุดหย่อนของพวกเขา ข้าก็มีทางเลือกเพียงน้อยนิดนอกจากตัดสินในฐานะผู้พิพากษา ไม่ใช่ผู้ไกล่เกลี่ย"
+ tgp_governor_contract_event.0021.a: "สั่งรังวัดที่ดินใหม่ และผลลัพธ์ที่ได้จะถือเป็นที่สิ้นสุด" # (Special governor option)
+ tgp_governor_contract_event.0021.b: "ตรวจสอบเอกสารเก่าเพื่อค้นหาว่าผู้ใดมีสิทธิ์อ้างที่ดีกว่า"
+ tgp_governor_contract_event.0021.c: "แบ่งทรัพย์สินอย่างเท่าเทียม และให้มันจบเรื่องเสียที"
+ tgp_governor_contract_event.0021.d: "จะเป็นอย่างไรหากข้าเสนอที่จะซื้อที่ดินผืนนั้นเสียเอง"
+ tgp_governor_contract_event.0021.e: "เมื่อไม่สามารถตกลงกันได้ ที่ดินผืนนี้จะตกเป็นทรัพย์สินของรัฐ"
+
+ task_contract_reward_effect_land_resurvey_desc: "$label_success_standard$"
+ task_contract_reward_effect_consult_archives_desc: "$label_success_standard$"
+ task_contract_reward_effect_split_the_land_desc: "$label_success_standard$"
+ task_contract_reward_effect_purchase_claims_desc: "$label_success_standard$"
+ task_contract_reward_effect_declare_state_property_desc: "$label_success_standard$"
+
+ task_contract_reward_effect_failure_consult_archives_desc: "$label_failure_standard$"
+ task_contract_reward_effect_failure_purchase_claims_desc: "$label_failure_standard$"
+
+ fraud_in_broad_daylight: "ฉ้อโกงกลางวันแสกๆ"
+ fraud_in_broad_daylight_contract: "$fraud_in_broad_daylight$"
+ fraud_in_broad_daylight_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ fraud_in_broad_daylight_desc: "ตลาดที่นี่เต็มไปด้วยสินค้าลอกเลียนแบบ และผู้ซื้อที่ถูกฉ้อโกงก็กำลังโกรธแค้น"
+ fraud_in_broad_daylight_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0022.t: "ฉ้อโกงกลางวันแสกๆ"
+ tgp_governor_contract_event.0022.desc: "เสียงตุ้บของลังไม้ที่ถูกวางลงบนพื้นอย่างไม่ใส่ใจพิธีรีตอง ทำลายสมาธิและปลุกข้าจากงาน [reporting_councillor.GetTitledFirstName] ยืนอยู่ข้างๆ มัน\n\n"หลักฐานเพิ่มเติมมาถึงแล้ว [ROOT.Char.GetLadyLord] ของข้า ครั้งนี้เป็นขวดน้ำหอม ที่อัดแน่นไปด้วยดิน"\n\nตลาดใน [fraud_in_broad_daylight_destination.GetName] ถูกคุกคามด้วยสินค้าลอกเลียนแบบเมื่อไม่นานมานี้"
+ tgp_governor_contract_event.0022.a: "เรื่องนี้สมควรแก่การสืบสวน"
+ tgp_governor_contract_event.0022.a_tt: "เดินทางไปยัง [fraud_in_broad_daylight_destination.GetName] และฟื้นฟูความถูกต้องในตลาด"
+ tgp_governor_contract_event.0022.b: "ลูกค้าพวกนั้นก็แค่คนโง่"
+
+ tgp_governor_contract_event.0023.t: "ฉ้อโกงกลางวันแสกๆ"
+ tgp_governor_contract_event.0023.desc: "แม้จะพยายามอย่างแข็งขัน การระบุตัวนักปลอมแปลงก็พิสูจน์แล้วว่ายากกว่าที่ข้าคาดไว้มาก\n\nเหล่าพ่อค้าที่ถูกกฎหมาย เมื่อสินค้าของพวกเขาหมด ก็จะให้คนนอกเช่าพื้นที่ต่อในช่วงเวลาที่เหลือของวัน เปิดโอกาสให้นักต้มตุ๋นจำหน่ายสินค้าปลอมของพวกเขาและหายตัวไปอย่างไร้ร่องรอย"
+ tgp_governor_contract_event.0023.a: "ตรวจสอบทุกคนในตลาดและกักตัวผู้ต้องสงสัย" # (Special governor option)
+ tgp_governor_contract_event.0023.b: "ตั้งรางวัลสำหรับข้อมูล"
+ tgp_governor_contract_event.0023.c: "ส่งเสมียนของเราปลอมตัวเป็นผู้ซื้อ"
+ tgp_governor_contract_event.0023.d: "ให้เหล่าพ่อค้าจัดการกันเอง"
+ tgp_governor_contract_event.0023.e: "กวาดล้างตลาดตอนเที่ยงวัน!"
+ 
+ task_contract_reward_effect_goods_inspection_desc: "$label_success_standard$"
+ task_contract_reward_effect_reward_for_information_desc: "$label_success_standard$"
+ task_contract_reward_effect_undercover_clerks_desc: "$label_success_standard$"
+ task_contract_reward_effect_merchant_association_desc: "$label_success_standard$"
+ task_contract_reward_effect_surprise_raid_desc: "$label_success_standard$"
+
+ task_contract_reward_effect_failure_undercover_clerks_desc: "$label_failure_standard$"
+ task_contract_reward_effect_failure_surprise_raid_desc: "$label_failure_standard$"
+
+ crumbling_bridge: "สะพานที่กำลังพังทลาย"
+ crumbling_bridge_contract: "$crumbling_bridge$"
+ crumbling_bridge_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ crumbling_bridge_desc: "สะพานสำคัญแห่งหนึ่งพังทลายลง ขัดขวางการจราจรในท้องถิ่นอย่างรุนแรง"
+ crumbling_bridge_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0024.t: "สะพานที่กำลังพังทลาย"
+ tgp_governor_contract_event.0024.desc: "หนึ่งในรากฐานความรับผิดชอบของ[ROOT.Char.GetTitleTierNamePossessive]คือการบำรุงรักษาโครงสร้างพื้นฐานที่จำเป็น ซึ่ง ทำให้ข่าวการพังทลายของสะพานล่าสุดใน [crumbling_bridge_destination.GetName] น่ากังวลมากยิ่งขึ้น\n\nนี่ไม่เพียงส่งผลกระทบต่อการค้าและการจราจรเท่านั้น แต่อาจบ่อนทำลายความเชื่อมั่นในการบริหารงานของข้าด้วย"
+ tgp_governor_contract_event.0024.a: "บอกให้พวกเขาเตรียมพร้อมรับการมาถึงของข้า ข้ากำลังไป"
+ tgp_governor_contract_event.0024.a_tt: "เดินทางไปยัง [crumbling_bridge_destination.GetName] และจัดการกับผลที่ตามมา"
+ tgp_governor_contract_event.0024.b: "ย่อมมีสะพานอื่นเสมอ: พวกเขาแค่ต้องเดินทางไกลขึ้น"
+
+ tgp_governor_contract_event.0025.t: "สะพานที่กำลังพังทลาย"
+ tgp_governor_contract_event.0025.desc: "เมื่อมองลงไปยังซากสะพานที่ปรักหักพัง สถานการณ์ช่างน่าสลดใจ ขณะที่คนงานกำลังพยายามเคลียร์ซากปรักหักพัง ฝูงพ่อค้าและนักเดินทางก็ยังคงเพิ่มขึ้นเรื่อยๆ เมื่อมีคนมาถึงมากขึ้นโดยไม่ทราบถึงการหยุดชะงักที่ไม่คาดคิดนี้ในแผนการเดินทางของพวกเขา\n\nขณะที่สินค้าเน่าเสียและอารมณ์เริ่มเดือดดาลในหมู่ผู้ติดค้าง ผลที่ตามมาของเหตุการณ์นี้อาจกว้างไกล หากไม่ได้รับการจัดการอย่างชาญฉลาด"
+ tgp_governor_contract_event.0025.a: "ถนนคือเส้นเลือดใหญ่ของชาติ: ให้กองทัพช่วยสร้างมันขึ้นมาใหม่" # (Special governor option)
+ tgp_governor_contract_event.0025.b: "ใช้ทรัพยากรทุกอย่างเพื่อสร้างสะพานใหม่ให้เร็วที่สุดเท่าที่จะทำได้"
+ tgp_governor_contract_event.0025.c: "จัดหาเรือข้ามฟากชั่วคราวจนกว่าสะพานจะสร้างใหม่เสร็จ"
+ tgp_governor_contract_event.0025.d: "ความเร่งรีบจะนำไปสู่อุบัติเหตุอีกครั้ง สร้างสะพานทดแทนที่แข็งแรง"
+ tgp_governor_contract_event.0025.e: "ฉวยโอกาสนี้เกลี้ยกล่อมพ่อค้าที่ติดค้างให้ตั้งร้านค้าที่นี่"
+
+ task_contract_reward_effect_army_assistance_desc: "$label_success_standard$"
+ task_contract_reward_effect_temporary_substitute_desc: "$label_success_standard$"
+ task_contract_reward_effect_ferry_crossing_desc: "$label_success_standard$"
+ task_contract_reward_effect_slower_replacement_desc: "$label_success_standard$"
+ task_contract_reward_effect_settle_caravans_desc: "$label_success_standard$"
+
+ task_contract_reward_effect_failure_settle_caravans_desc: "$label_failure_standard$"
+
+ confusion_of_tongues: "ภาษาที่สับสน"
+ confusion_of_tongues_contract: "$confusion_of_tongues$"
+ confusion_of_tongues_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ confusion_of_tongues_desc: "เรือสินค้าต่างชาติลำหนึ่งอับปางบนชายฝั่งของเรา และไม่มีผู้รอดชีวิตคนใดพูดภาษาของเราได้"
+ confusion_of_tongues_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0026.t: "ภาษาที่สับสน"
+ tgp_governor_contract_event.0026.desc: "พ่อค้าจากแดนไกลถูกดึงดูดโดยความเจริญรุ่งเรืองของ [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip] อันยิ่งใหญ่ของเราอย่างไม่ต้องสงสัย พวกเขาเดินทางไกลและฝ่าฟันภยันตรายนับไม่ถ้วนเพื่อแสวงหาความมั่งคั่งทางวัตถุ\n\nทว่า ภยันตรายนั้นพิสูจน์แล้วว่าหนักหนาเกินไปสำหรับผู้โชคร้ายบางคน ดัง เช่นที่เพิ่งเกิดขึ้นใน [confusion_of_tongues_destination.GetName] ข้าได้รับแจ้งว่าเรือต่างชาติลำหนึ่งแตกหักอยู่บนชายฝั่งของเรา และล่ามของลูกเรือไม่ได้เป็นหนึ่งในผู้รอดชีวิต\n\nสำนักปกครองท้องถิ่นถึงกับจนปัญญาว่าจะจัดการกับชาวต่างชาติที่เปียกปอนและสับสนงุนงงเหล่านี้อย่างไร"
+ tgp_governor_contract_event.0026.a: "งานของ[ROOT.Char.GetTitleTierNamePossessive]ไม่มีวันจบสิ้น"
+ tgp_governor_contract_event.0026.a_tt: "เดินทางไปยัง [confusion_of_tongues_destination.GetName] และพบกับพ่อค้าต่างชาติ"
+ tgp_governor_contract_event.0026.b: "นี่ฟังดูน่าปวดหัว: ก็แค่ทิ้งพวกเขาไว้ตรงนั้น"
+
+ tgp_governor_contract_event.0027.t: "ภาษาที่สับสน"
+ tgp_governor_contract_event.0027.desc: "เห็นได้ชัดว่าท่านผู้พิพากษาจนปัญญาแล้วเมื่อข้ามาถึง ทั้งเหนื่อยล้าและหัวเสียในระดับเท่าๆ กัน "ไม่มีใครสักคนที่เข้าใจคำพูดข้าเลย!" เขาคร่ำครวญ "และทุกครั้งที่เราพยายามจะย้ายพวกเขา พวกเขาก็มีปฏิกิริยาราวกับว่าเราเป็นโจร!"\n\nในบริเวณใกล้เคียง ข้าเห็นเหล่าพ่อค้าเรือแตกจับกลุ่มกันอย่างป้องกันตัวรอบๆ สินค้าที่ยังหลงเหลืออยู่ โดยที่ยามของพวกเขากุมด้ามอาวุธไว้แน่นอย่างประหม่า"
+ tgp_governor_contract_event.0027.a: "กางเต็นท์ชั่วคราวและแจ้งเมืองหลวง: พวกเขาจะหาล่ามมาให้" # (Special governor option)
+ tgp_governor_contract_event.0027.b: "กลับไปดูที่ตลาดว่ามีใครพอจะเข้าใจภาษาของพวกเขาบ้าง"
+ tgp_governor_contract_event.0027.c: "เรือของพวกเขาอับปางบนชายฝั่ง #EMP ของเรา#! นั่นหมายความว่าสินค้าของพวกเขาต้องถูกริบ"
+ tgp_governor_contract_event.0027.d: "คำพูดอาจใช้ไม่ได้ผล แต่ข้าสามารถลองสื่อสารด้วยท่าทางได้"
+ tgp_governor_contract_event.0027.e: "แค่พาพวกเขาออกไปจากที่นี่ และใช้กำลังหากจำเป็น"
+ tgp_governor_contract_event.0027.f: "$epidemic_events.5902.a$"
+
+ task_contract_reward_effect_temporary_housing_desc: "$label_success_standard$"
+ task_contract_reward_effect_search_for_translator_desc: "$label_success_standard$"
+ task_contract_reward_effect_confiscate_their_goods_desc: "$label_success_standard$"
+ task_contract_reward_effect_communicate_through_gestures_desc: "$label_success_standard$"
+ task_contract_reward_effect_put_them_under_guard_desc: "$label_success_standard$"
+ task_contract_reward_effect_i_know_this_one_desc: "$label_success_standard$"
+ 
+ task_contract_reward_effect_failure_communicate_through_gestures_desc: "$label_failure_standard$"
+
+ seditious_storytelling: "การเล่านิทานปลุกระดม"
+ seditious_storytelling_contract: "$seditious_storytelling$"
+ seditious_storytelling_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ seditious_storytelling_desc: "นักเล่านิทานชื่อดังคนหนึ่งได้เริ่มเล่าเรื่องราวที่เจือปนไปด้วยความกระด้างกระเดื่องและความไม่พอใจ"
+ seditious_storytelling_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0028.t: "การเล่านิทานปลุกระดม"
+ tgp_governor_contract_event.0028.desc: "ผู้ยื่นคำร้องคนสุดท้ายของวันจากไปต่อหน้าข้าด้วยความขอบคุณ แต่เสียงฝีเท้าที่ค่อยๆ ห่างออกไปของพวกเขาก็ถูกแทนที่อย่างรวดเร็วด้วยเสียงฝีเท้าเร่งรีบที่นำข่าวร้ายมา\n\n[concerned_councillor.GetFirstName] นั่นเอง สีหน้าของ [concerned_councillor.GetHerHis] เคร่งขรึม "ข้าเพิ่งได้รับรายงานที่ #EMP น่าโมโหที่สุด#! [ROOT.Char.Custom('FormOfAddressForLiege')]! หนึ่งในนักเล่านิทานพเนจรเหล่านั้นกำลังปลุกปั่นผู้คนใน [seditious_storytelling_destination.GetName] ด้วยเรื่องราวของข้าราชการฉ้อฉลและการประพฤติมิชอบของทางการ!""
+ tgp_governor_contract_event.0028.a: "ให้ข้าตัดสินถ้อยคำเหล่านี้ด้วยหูของข้าเอง"
+ tgp_governor_contract_event.0028.a_tt: "เดินทางไปยัง [seditious_storytelling_destination.GetName] และฟังนิทานของนักเล่าเรื่อง"
+ tgp_governor_contract_event.0028.b: "ตอนนี้ข้าต้องมาใส่ใจกับแค่ #EMP นักแสดง#! พวกนี้ด้วยรึ"
+
+ tgp_governor_contract_event.0029.t: "การเล่านิทานปลุกระดม"
+ tgp_governor_contract_event.0029.desc: "เมื่อนั่งอยู่หลังกลุ่มผู้ฟังโดยไม่มีใครสังเกต ข้าต้องยอมรับว่ารายงานนั้น อย่างดีที่สุดก็คือพูดน้อยเกินไป\n\nมีเพียงคนโง่ที่เซ่อที่สุดเท่านั้นที่จะไม่เข้าใจความหมายของนิทานที่จงใจเหน็บแนมอย่างชัดเจน เกี่ยวกับวีรบุรุษพเนจรผู้ถูกกดขี่ที่ต่อสู้กับข้าราชการผู้ชั่วร้ายและฉ้อฉลอย่างโจ่งแจ้ง และทหารที่เหมือนโจร ตัวร้ายหลักในเรื่องฟังดูคุ้นหูอย่าง #EMP น่าสงสัย#! เสียจริง\n\nทว่า สิ่งที่น่ากังวลยิ่งกว่าคำพูดของนักเล่าเรื่อง คือความกระตือรือร้นที่เพิ่มขึ้นอย่างเห็นได้ชัดของฝูงชนต่อคำพูดเหล่านั้น"
+ tgp_governor_contract_event.0029.a: "ออกประกาศสาธารณะเพื่อตรวจสอบ [seditious_storyteller.GetHerHim] โทษฐานก่อกวนความสงบเรียบร้อยของประชาชน" # (Special governor option)
+ tgp_governor_contract_event.0029.b: "จับกุมคนโง่อวดดีนั่นทันที!"
+ tgp_governor_contract_event.0029.c: "เราจะจ้างนักเล่าเรื่องของเราเองเพื่อถักทอเรื่องเล่าของเรา"
+ tgp_governor_contract_event.0029.d: "ส่งยามไปประจำทุกงานของ [seditious_storyteller.GetHerHis] เพื่อเตือนผู้ฟังให้รู้สำนึกตน"
+ tgp_governor_contract_event.0029.e: "นัดพบเป็นการส่วนตัว บางทีข้าอาจจะพูดคุยด้วยเหตุผลกับ [seditious_storyteller.GetHerHim] ได้"
+
+ task_contract_reward_effect_censor_storyteller_desc: "$label_success_standard$"
+ task_contract_reward_effect_arrest_storyteller_desc: "$label_success_standard$"
+ task_contract_reward_effect_encourage_rival_storytellers_desc: "$label_success_standard$"
+ task_contract_reward_effect_intimidate_audience_desc: "$label_success_standard$"
+ task_contract_reward_effect_persuade_storyteller_desc: "$label_success_standard$"
+
+ task_contract_reward_effect_failure_persuade_storyteller_desc: "$label_failure_standard$"
+
+ quaking_in_panic: "ตัวสั่นด้วยความตื่นตระหนก"
+ quaking_in_panic_contract: "$quaking_in_panic$"
+ quaking_in_panic_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ quaking_in_panic_desc: "หมู่บ้านหลายแห่งประสบเหตุแผ่นดินไหว และความปั่นป่วนที่ตามมากำลังคุกคามความสงบเรียบร้อยของประชาชน"
+ quaking_in_panic_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0030.t: "ตัวสั่นด้วยความตื่นตระหนก"
+ tgp_governor_contract_event.0030.desc: "ข้ากำลังสนทนาอย่างลึกซึ้งกับ [my_councillor.GetFirstName] เมื่อ [alarmed_councillor.GetFirstName] พรวดพราดเข้ามาในห้องด้วยความเร่งรีบผิดปกติ ท่าทางสั่นสะท้านอย่างเห็นได้ชัด\n\n"ผู้ส่งสารจาก [quaking_in_panic_destination.GetName] [ROOT.Char.Custom('FormOfAddressForLiege')]! เกิดแผ่นดินไหว และเหล่าไพร่ก็ถือเป็นลางร้าย อ้างว่าเป็นสัญญาณแห่งความไม่พอใจของสวรรค์!""
+ tgp_governor_contract_event.0030.a: "ความตื่นตระหนกก็เหมือนไฟป่า ยากที่จะดับหากปล่อยให้ลุกลาม"
+ tgp_governor_contract_event.0030.a_tt: "เดินทางไปยัง [quaking_in_panic_destination.GetName] และบรรเทาความกังวลของพวกเขา"
+ tgp_governor_contract_event.0030.b: "ข้าไม่ใส่ใจเสียงร้องโวยวายของเหล่าไพร่"
+
+ tgp_governor_contract_event.0031.t: "ตัวสั่นด้วยความตื่นตระหนก"
+ tgp_governor_contract_event.0031.desc: "หมู่บ้านอยู่ในสภาพไม่สงบอย่างชัดเจนเมื่อข้ามาถึง เหล่าไพร่กำลังรุมล้อมผู้คุ้มกันของข้า พร้อมคำวิงวอนอย่างน่าสงสารให้เราบรรเทาโทสะของสวรรค์ก่อนที่ภัยพิบัติอื่นจะเกิดขึ้นกับพวกเขา\n\nเมื่อทอดสายตามองหมู่บ้านด้านหลังพวกเขา กำแพงที่แตกร้าวและประตูที่บิดเบี้ยวของบ้านเรือนเป็นพยานถึงที่มาของความกลัวของพวกเขา"
+ tgp_governor_contract_event.0031.a: "เรียกประชุมราษฎรเพื่อสร้างความมั่นใจให้แก่ประชาชน" # (Special governor option)
+ tgp_governor_contract_event.0031.b: "ส่งทหารหน่วยเล็กๆ ไปประจำการเพื่อระงับความไม่สงบ"
+ tgp_governor_contract_event.0031.c: "ให้ผู้อาวุโสของหมู่บ้านแสดงความมั่นใจว่าภยันตรายได้ผ่านพ้นไปแล้ว"
+ tgp_governor_contract_event.0031.d: "ตรวจสอบความเสียหายอย่างละเอียดและสัญญาว่าจะให้ความช่วยเหลือเพิ่มเติม"
+ tgp_governor_contract_event.0031.e: "ย้ายผู้ที่ได้รับผลกระทบหนักที่สุดและรวบรวมประชากรของภูมิภาค"
+
+ task_contract_reward_effect_convene_public_meeting_desc: "$label_success_standard$"
+ task_contract_reward_effect_deploy_guards_desc: "$label_success_standard$"
+ task_contract_reward_effect_appeal_to_local_leadership_desc: "$label_success_standard$"
+ task_contract_reward_effect_architectural_inspection_desc: "$label_success_standard$"
+ task_contract_reward_effect_population_transfer_desc: "$label_success_standard$"
+
+ task_contract_reward_effect_failure_convene_public_meeting_desc: "$label_failure_standard$"
+ task_contract_reward_effect_failure_architectural_inspection_desc: "$label_failure_standard$"
+
+ monopoly_in_the_marketplace: "การผูกขาดในตลาด"
+ monopoly_in_the_marketplace_contract: "$monopoly_in_the_marketplace$"
+ monopoly_in_the_marketplace_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ monopoly_in_the_marketplace_desc: "พ่อค้าผู้ทรงอิทธิพลกำลังครอบงำตลาด และสมาคมพ่อค้าท้องถิ่นกำลังเรียกร้องให้รัฐเข้ามาแทรกแซง"
+ monopoly_in_the_marketplace_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0032.t: "การผูกขาดในตลาด"
+ tgp_governor_contract_event.0032.desc: ""...และหากปล่อยให้เรื่องนี้ดำเนินต่อไป ผลที่ตามมาจะเป็น #EMP หายนะ#! ต่อการดำรงชีวิตของเรา" หัวหน้าคณะผู้แทนสรุป\n\nตามข้อโต้แย้งที่พวกเขาร่างไว้ คู่แข่งคนหนึ่งของพวกเขาใน [monopoly_in_the_marketplace_destination.GetName] ได้เข้าควบคุมตลาดหลักอย่างลับๆ และกำลังปฏิเสธการเข้าถึงของสมาชิกสมาคมคนใดๆ โดยผลักไสพวกเขาไปยังสถานที่ที่ไม่เป็นที่นิยมและขาดทุนอย่างสิ้นเชิง"
+ tgp_governor_contract_event.0032.a: "ข้าจะจัดการเรื่องนี้ด้วยตนเอง"
+ tgp_governor_contract_event.0032.a_tt: "เดินทางไปยัง [monopoly_in_the_marketplace_destination.GetName] และจัดการเรื่องราวในตลาดให้เป็นที่พอใจของท่าน"
+ tgp_governor_contract_event.0032.b: "ข้าไม่ได้ยินอะไรที่ผิดปกติไปกว่าพ่อค้าที่ประสบความสำเร็จ"
+
+ tgp_governor_contract_event.0033.t: "การผูกขาดในตลาด"
+ tgp_governor_contract_event.0033.desc: "แม้ว่าพวกเขาจะไม่ค่อยเป็นแบบอย่างของความซื่อสัตย์ แต่คำพูดของพ่อค้าดูเหมือนจะเป็นจริงในโอกาสนี้\n\nขณะที่เราเดินชมอย่างเงียบๆ จากแผงหนึ่งไปยังอีกแผงหนึ่ง ทั้งหมดที่เห็นมากลับมีเครื่องหมายเดียวกันประทับไว้อย่างเด่นชัด ซึ่งระบุว่าเป็นทรัพย์สินร่วมกันของเจ้าของเพียงผู้เดียว\n\nแผงสุดท้ายที่เราเข้าไปใกล้นั้นใหญ่ที่สุดและหรูหราที่สุด และ [merchant_magnate.GetWomanMan] ผู้งามสง่าที่ดูแลอยู่ก็ยิ้มอย่างภาคภูมิใจ นี่คือคู่แข่งที่พวกเขาพูดถึงอย่างชัดเจน"
+ tgp_governor_contract_event.0033.a: "ห้ามมิให้พ่อค้าคนใดครอบครองแผงลอยเกินหนึ่งแผง" # (Special governor option)
+ tgp_governor_contract_event.0033.b: "ขยายตลาดและประมูลแผงใหม่ให้เฉพาะสมาชิกสมาคมเท่านั้น"
+ tgp_governor_contract_event.0033.c: "[merchant_magnate.GetSheHe|U] ยังอยู่ได้ หาก [merchant_magnate.GetSheHe] ยินดีที่จะ #EMP จ่าย#! เพื่อสิทธิพิเศษนี้"
+ tgp_governor_contract_event.0033.d: "เราจะสนับสนุนคู่แข่งของ [merchant_magnate.GetHerHis] และปล่อยให้เป็นไปตามครรลองของมัน"
+ tgp_governor_contract_event.0033.e: "ใครก็ตามที่มั่งคั่งขนาดนี้จะต้องมีความผิด #EMP บางอย่าง#! ยึดสินค้าของ [merchant_magnate.GetHerHis] ซะ!"
+
+ task_contract_reward_effect_strict_regulations_desc: "$label_success_standard$"
+ task_contract_reward_effect_association_stalls_only_desc: "$label_success_standard$"
+ task_contract_reward_effect_levy_special_tax_desc: "$label_success_standard$"
+ task_contract_reward_effect_back_competitors_desc: "$label_success_standard$"
+ task_contract_reward_effect_seize_merchant_goods_desc: "$label_success_standard$"
+
+ task_contract_reward_effect_failure_back_competitors_desc: "$label_failure_standard$"
+
+ contested_inheritance: "มรดกที่เป็นข้อพิพาท"
+ contested_inheritance_contract: "$contested_inheritance$"
+ contested_inheritance_request: "สถานการณ์นี้เปิดให้ท่านเลือกผลลัพธ์"
+ contested_inheritance_desc: "ผู้มีชื่อเสียงในท้องถิ่นคนหนึ่งได้เสียชีวิตลง และทายาท ซึ่งขัดแย้งกันอย่างรุนแรงเรื่องมรดก ได้ร้องขอให้ทางการช่วยไกล่เกลี่ย"
+ contested_inheritance_desc_title: "$task_contract_governance_desc_title$"
+
+ tgp_governor_contract_event.0034.t: "มรดกที่เป็นข้อพิพาท"
+ tgp_governor_contract_event.0034.desc: "การเป็น [ROOT.Char.GetTitleTierName] นั้นเป็นมากกว่าเพียงผู้บริหาร และหลายคนมองว่าข้าเป็นบุคคลผู้เที่ยงธรรมในเรื่องที่ขัดแย้ง\n\nด้วยบทบาทนี้เองที่ตระกูลผู้มีชื่อเสียงใน [contested_inheritance_destination.GetName] ได้ร้องขอให้ข้าไปไกล่เกลี่ยข้อพิพาทเรื่องมรดกที่รุนแรงเป็นพิเศษ ซึ่ง ทำให้ครอบครัวแตกแยกอย่างขมขื่น"
+ tgp_governor_contract_event.0034.a: "ความแตกแยกในตระกูลที่โดดเด่น เช่นนี้ สะท้อนภาพลักษณ์ที่ไม่ดีต่อสังคมของเรา"
+ tgp_governor_contract_event.0034.a_tt: "เดินทางไปยัง [contested_inheritance_destination.GetName] และยุติข้อพิพาท"
+ tgp_governor_contract_event.0034.b: "นี่เป็นเรื่องในครอบครัว ไม่ใช่ธุระของรัฐ"
+
+ tgp_governor_contract_event.0035.t: "มรดกที่เป็นข้อพิพาท"
+ tgp_governor_contract_event.0035.desc: "ความตึงเครียดในอากาศนั้นสัมผัสได้ชัดเจนขณะที่เราทบทวนข้อเรียกร้องที่แข่งขันกันอีกครั้ง การถกเถียง แต่ละรอบมี แต่จะ ทำให้ปัญหายุ่งยากซับซ้อนยิ่งขึ้น\n\nแม้ว่าพวกเขาจะพยายามอย่างเห็นได้ชัดที่จะเสแสร้งรักษามารยาทต่อหน้าข้า ข้าก็สงสัยว่าหากข้าสามารถบรรจุขวดคำพูดเหน็บแนมอันเจ็บแสบที่แอบแฝงของเหล่าทายาทผู้ทะเยอทะยานได้ มันคงจะเทียบได้กับยาพิษใดๆ ในด้านความรุนแรง"
+ tgp_governor_contract_event.0035.a: "ที่ดินมรดกนี้จะเป็นความรับผิดชอบของครอบครัว #EMP ทั้งหมด#!" # (Special governor option)
+ tgp_governor_contract_event.0035.b: "ให้สมาชิกที่อาวุโสที่สุดที่ยังมีชีวิตอยู่ของตระกูลเป็นผู้ดูแล"
+ tgp_governor_contract_event.0035.c: "ด้วยเงินจำนวนเล็กน้อย ข้าอาจยอมให้ตัวเองถูก #EMP เกลี้ยกล่อม#! ได้..."
+ tgp_governor_contract_event.0035.d: "เราต้องเคารพความประสงค์ของผู้ตาย"
+ tgp_governor_contract_event.0035.e: "ข้าควรเกลี้ยกล่อมให้พวกเขาตกลงเรื่องนี้อย่างมีศักดิ์ศรีมากกว่านี้"
+
+ task_contract_reward_effect_declare_communal_property_desc: "$label_success_standard$"
+ task_contract_reward_effect_award_according_to_seniority_desc: "$label_success_standard$"
+ task_contract_reward_effect_award_to_highest_bidder_desc: "$label_success_standard$"
+ task_contract_reward_effect_adhere_to_testament_desc: "$label_success_standard$"
+ task_contract_reward_effect_persuade_private_settlement_desc: "$label_success_standard$"
+ 
+ task_contract_reward_effect_failure_award_to_highest_bidder_desc: "$label_failure_standard$"
+ task_contract_reward_effect_failure_persuade_private_settlement_desc: "$label_failure_standard$"
+
+ tgp_governor_contract_event.0021.b.success: "ท่านพบหลักฐานที่น่าเชื่อถือสนับสนุนข้ออ้างของฝ่ายหนึ่ง"
+ tgp_governor_contract_event.0021.b.failure: "เชื้อไฟที่มากขึ้นสำหรับความบาดหมางของพวกเขาอาจมี แต่จะ ทำให้สถานการณ์เลวร้ายลง"
+
+ tgp_governor_contract_event.0021.b.toast_success: "ท่านพบหลักฐานที่สรุปได้ ซึ่งสนับสนุนข้ออ้างของฝ่ายหนึ่ง"
+ tgp_governor_contract_event.0021.b.toast_failure: "บันทึกที่เป็นชิ้นส่วนเพียง แต่ ทำให้รอยร้าวระหว่างพวกเขาลึกซึ้งยิ่งขึ้น"
+ 
+ tgp_governor_contract_event.0021.d.success: "เหล่าเจ้าของที่ดินพบว่าข้อเสนอของท่านน่าสนใจ"
+ tgp_governor_contract_event.0021.d.failure: "ข้อเสนอของท่านถูกปฏิเสธอย่างสิ้นเชิง"
+
+ tgp_governor_contract_event.0021.d.toast_success: "การโน้มน้าวโดยอ้างถึงผลประโยชน์ส่วนตนทางวัตถุของพวกเขา จบลงด้วยผลประโยชน์ร่วมกันของท่าน"
+ tgp_governor_contract_event.0021.d.toast_failure: "ความหลงใหลในทรัพย์สินของพวกเขามิได้ลดน้อยลงด้วยข้อเสนอของท่าน"
+
+ tgp_governor_contract_event.0023.c.success: "กลยุทธ์การสืบสวนเชิงนวัตกรรมของท่านเกิดผล"
+ tgp_governor_contract_event.0023.c.failure: "เหล่าเสมียนสายลับปฏิบัติหน้าที่ได้ต่ำกว่ามาตรฐาน"
+
+ tgp_governor_contract_event.0023.c.toast_success: "ผู้ขายที่ฉ้อโกงถูกจับได้คาหนังคาเขาและถูกจับกุม"
+ tgp_governor_contract_event.0023.c.toast_failure: "เสมียนของท่านเป็นนักสืบที่ย่ำแย่และถูกชิงไหวพริบไปได้อย่างง่ายดาย"
+
+ tgp_governor_contract_event.0023.e.success: "ท่านจับกุมผู้กระทำผิดได้โดยไม่ทันตั้งตัว"
+ tgp_governor_contract_event.0023.e.failure: "นักปลอมแปลงได้กลิ่นอันตรายและหลบหนีไป"
+
+ tgp_governor_contract_event.0023.e.toast_success: "การจู่โจมเป็นไปอย่างราบรื่นและจับกุมนักปลอมแปลงได้"
+ tgp_governor_contract_event.0023.e.toast_failure: "ผู้ขายระแคะระคายแผนการของท่านและหลบหนีไปได้"
+
+ tgp_governor_contract_event.0025.e.success: "เหล่าพ่อค้าถูกเกลี้ยกล่อมให้อยู่ที่นี่ต่อ"
+ tgp_governor_contract_event.0025.e.failure: "ข้อโต้แย้งของท่านไร้ผล"
+
+ tgp_governor_contract_event.0025.e.toast_success: "ด้วยการชักจูงของท่าน เหล่าพ่อค้าจึงเลือกที่จะอยู่ต่อ"
+ tgp_governor_contract_event.0025.e.toast_failure: "ขบวนคาราวานไม่สะทกสะท้านต่อข้อโต้แย้งของท่าน และจากไปเพื่อค้นหาเส้นทางใหม่"
+
+ tgp_governor_contract_event.0027.d.success: "การแสดงท่าทางของท่านสื่อสารกับชาวต่างชาติได้"
+ tgp_governor_contract_event.0027.d.failure: "พ่อค้าจากแดนไกลยิ่งสับสนมากขึ้นไปอีก"
+
+ tgp_governor_contract_event.0027.d.toast_success: "ด้วยความยากลำบากเล็กน้อย ท่านสามารถสื่อสารกับเหล่าพ่อค้าได้"
+ tgp_governor_contract_event.0027.d.toast_failure: "ความพยายามในการสื่อสารของท่านมี แต่จะ ทำให้ชาวต่างชาติงุนงงมากขึ้น"
+
+ tgp_governor_contract_event.0029.e.success: "นักเล่าเรื่องพิสูจน์แล้วว่ายอมรับข้อโต้แย้งของท่าน"
+ tgp_governor_contract_event.0029.e.failure: "ความพยายามของท่านถูกตอบโต้ด้วยความดื้อรั้นไม่ยอมโอนอ่อน"
+
+ tgp_governor_contract_event.0029.e.toast_success: "ด้วยความประทับใจในวาทศิลป์ของท่าน นักเล่าเรื่องจึงยอมลดทอนความรุนแรงในนิทานของตน"
+ tgp_governor_contract_event.0029.e.toast_failure: "นักเล่าเรื่องปฏิเสธคำร้องขอของท่าน และยังคงปลุกเร้าอารมณ์ของผู้คนต่อไป"
+
+ tgp_governor_contract_event.0031.a.success: "สุนทรพจน์อันสง่างามของท่านช่วยบรรเทาความกังวลของฝูงชน"
+ tgp_governor_contract_event.0031.a.failure: "ความกลัวของเหล่าไพร่พิสูจน์แล้วว่าหนักหนาเกินกว่าจะบรรเทาได้"
+
+ tgp_governor_contract_event.0031.a.toast_success: "ผู้คนรู้สึกมั่นใจขึ้นด้วยคำปราศรัยอันสุขุมเยือกเย็นของท่าน"
+ tgp_governor_contract_event.0031.a.toast_failure: "ด้วยความหวาดกลัวต่อการลงทัณฑ์จากสวรรค์ จึงไม่มีผู้ใดมาเข้าร่วมการประชุม"
+
+ tgp_governor_contract_event.0031.d.success: "ความพยายามอันสุขุมและเปี่ยมอำนาจของท่านช่วยปลอบประโลมผู้คน"
+ tgp_governor_contract_event.0031.d.failure: "ผู้คนยิ่งหวาดกลัวมากขึ้นเมื่อความเสียหายถูกเปิดเผย"
+
+ tgp_governor_contract_event.0031.d.toast_success: "ท่านประเมินความเสียหายและเริ่มการซ่อมแซมและสร้างใหม่"
+ tgp_governor_contract_event.0031.d.toast_failure: "การเปิดเผยความเสียหายมี แต่จะ ทำให้ผู้คนหวาดกลัวยิ่งขึ้น"
+
+ tgp_governor_contract_event.0033.d.success: "กลุ่มสมาคมได้พื้นที่อันชอบธรรมของพวกเขากลับคืนมา"
+ tgp_governor_contract_event.0033.d.failure: "ด้วยความไร้ความสามารถ เช่นเดียวกับตอนที่พวกเขาสูญเสียตลาดไป พวกเขาล้มเหลวที่จะยึดมันกลับคืน"
+
+ tgp_governor_contract_event.0033.d.toast_success: "ด้วยความช่วยเหลือของท่าน กลุ่มสมาคมสามารถยึดการควบคุมตลาดกลับคืนมาได้"
+ tgp_governor_contract_event.0033.d.toast_failure: "ไม่ว่าสมาคมจะพยายามทำสิ่งใด มันก็ไม่ได้ ทำให้พวกเขากลับมามีที่ยืนได้"
+
+ tgp_governor_contract_event.0035.c.success: "เหล่าทายาทต่างประมูลราคา เพื่อความโปรดปรานของท่านอย่างแท้จริง"
+ tgp_governor_contract_event.0035.c.failure: "ไม่มีผู้ใดสนใจที่จะสนองความโลภของท่าน"
+
+ tgp_governor_contract_event.0035.c.toast_success: "การประมูลราคาเป็นไปอย่างรวดเร็วและดุเดือด และเป็นประโยชน์ต่อท่านอย่างไม่ต้องสงสัย"
+ tgp_governor_contract_event.0035.c.toast_failure: "ไม่มีทายาทผู้มีสิทธิ์คนใดที่ยอมรับข้อเสนอแนะของท่าน"
+
+ tgp_governor_contract_event.0035.e.success: "ครอบครัวถูกเกลี้ยกล่อมให้ดำเนินการต่ออย่างมีเหตุผลและสุขุม"
+ tgp_governor_contract_event.0035.e.failure: "คำแนะนำของท่านถูกรับฟังและเพิกเฉย"
+
+ tgp_governor_contract_event.0035.e.toast_success: "แรงกดดันจากท่าทีอันสุขุมของท่าน ทำให้พวกเขาบรรลุข้อตกลง"
+ tgp_governor_contract_event.0035.e.toast_failure: "คำแนะนำอันชาญฉลาดของท่านถูกรับไว้อย่างขอบคุณ และถูกละทิ้งในทันที"
+

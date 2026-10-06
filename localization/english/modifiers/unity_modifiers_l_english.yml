@@ -1,0 +1,30 @@
+﻿l_english: 
+ unity_antagonistic_maa_modifier:0 "นายทหารผู้ภักดี"
+ unity_antagonistic_maa_modifier_desc:0 "สมาชิกในตระกูลนี้ได้รวบรวมทรัพยากรเพื่อเสริมกำลังทหารในกองทัพของตน"
+
+ unity_competitive_spies_modifier:0 "เครือข่ายเล่ห์กล"
+ unity_competitive_spies_modifier_desc:0 "สมาชิกในตระกูลนี้กำลังแบ่งปันเล่ห์กล ซึ่งกันและกัน ก่อตั้งเครือข่ายสายลับเฉพาะสำหรับตระกูลของตน"
+ 
+ unity_impassive_tax_modifier:0 "การบริหารที่ปรับปรุงแล้ว"
+ unity_impassive_tax_modifier_desc:0 "สมาชิกในตระกูลนี้กำลังเพลิดเพลินกับประสิทธิภาพที่เพิ่มขึ้นในการบริหารของตน"
+
+ unity_friendly_bailiff_modifier:0 "ผู้บังคับใช้กฎหมายที่เข้มแข็ง"
+ unity_friendly_bailiff_modifier_desc:0 "สมาชิกในตระกูลนี้กำลังร่วมมือกับเจ้าเหนือหัวของตนเพื่อลดการทุจริตทั่วทั้งอาณาจักร"
+ 
+ unity_harmonious_placation_modifier:0 "ได้รับการปลอบประโลม"
+ unity_harmonious_placation_modifier_desc:0 "สมาชิกในตระกูลนี้ได้ยืนยันสิทธิ์ในการปกครองของเจ้าเหนือหัวของตนอย่างสอดคล้อง"
+ 
+ unity_house_organized_for_war_modifier:0 "จัดระเบียบเพื่อสงคราม"
+ unity_house_organized_for_war_modifier_desc:0 "สมาชิกในตระกูลนี้ได้อุทิศตนเพื่อทำสงคราม\n[rulers|E] จะใช้ [ai_warlike_personality|L] [warlike_i|E] [economical_archetype|E]"
+ 
+ unity_house_focused_on_economy_modifier:0 "เศรษฐกิจที่ได้รับการส่งเสริม"
+ unity_house_focused_on_economy_modifier_desc:0 "สมาชิกในตระกูลนี้กำลังปรับปรุงเศรษฐกิจของตนอย่างแข็งขันด้วยความกระตือรือร้นอย่างยิ่ง\n[rulers|E] จะใช้ [ai_economical_boom_personality|L] [builder_i] [economical_archetype|E]"
+
+ unity_house_focused_on_diplomacy_modifier:0 "ความพยายามทางการทูต"
+ unity_house_focused_on_diplomacy_modifier_desc:0 "สมาชิกในตระกูลนี้กำลังทำงานร่วมกันเพื่อใช้อิทธิพลอย่างมีประสิทธิภาพ"
+ 
+ fp3_unity_promoted_development_modifier:0 "การพัฒนาที่ได้รับการส่งเสริม"
+ fp3_unity_promoted_development_modifier_desc:0 "สมาชิกในตระกูลนี้กำลังร่วมมือกันเพื่อพัฒนาดินแดนของตน"
+ 
+ fp3_unity_improved_logistics_modifier:0 "การส่งกำลังบำรุงกองทัพร่วมกัน"
+ fp3_unity_improved_logistics_modifier_desc:0 "สมาชิกในตระกูลนี้แบ่งปันการส่งกำลังบำรุงและเสบียงของกองทัพ"

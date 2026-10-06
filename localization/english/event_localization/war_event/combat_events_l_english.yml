@@ -1,0 +1,82 @@
+﻿l_english: 
+ combat_event.0003.t:0 "ผู้ไร้พ่าย"
+ combat_event.0003.desc.opening:0 "ร้อยศึก ร้อยชัยชนะ!"
+ combat_event.0003.desc.commander:0 "ด้วยชัยชนะครั้งล่าสุดของข้าเหนือ [enemy_commander.GetTitledFirstName] และเหล่าทหารของ[enemy_commander.GetHerHis],"
+ combat_event.0003.desc.no_commander:0 "ด้วยชัยชนะครั้งล่าสุดของข้าในการรบ"
+ combat_event.0003.desc.ending:0 "ในที่สุดข้าก็ได้บรรลุถึงหลักชัยอันสำคัญนี้\n\nด้วยไม่เคยพ่ายแพ้แม้ แต่ศึกเดียว ผู้คนต่างร่ำลือกันมานานว่าข้าคือผู้ไร้พ่าย เป็นพลังอันมิอาจต้านทาน ซึ่งไม่มีผู้ใดเอาชนะได้ บัดนี้ดูเหมือนว่าเรื่องนั้นอาจจะเป็นความจริง..."
+ combat_event.0003.desc.alt_ending:0 "ในที่สุดข้าก็ได้บรรลุถึงหลักชัยอันสำคัญนี้\n\nในทุกศึกที่ข้าได้รับชัยชนะ ข่าวลือถึงความเก่งกาจของข้าก็ยิ่งขจรขจาย บัดนี้เมื่อการกระทำของข้าได้เหนือล้ำไปกว่าตำนาน ข้าสามารถอ้างได้โดยแท้จริงว่าเป็นผู้ไร้พ่าย เป็นพลังอันมิอาจต้านทาน ซึ่งไม่มีผู้ใดเอาชนะได้"
+ combat_event.0003.a:0 "จงป่าวประกาศความสามารถของข้าให้ก้องไปทั่วหล้า!"
+ combat_event.0003.b:0 "ข้าต้องไม่หลงระเริงในความโอหัง เพียงแค่ลูกธนูหลงดอกเดียวก็เพียงพอแล้ว"
+ combat_event.0003.b.zealous:0 "ข้าเป็นเพียง [ROOT.Char.Custom('signature_weapon')] ของ [ROOT.Char.GetFaith.HighGodNamePossessive] ข้าเพียงแค่ปฏิบัติตามพระประสงค์ของ [ROOT.Char.GetFaith.WarGodHerHis|U] เท่านั้น"
+
+ combat_event.0004.t:0 "โค่นล้มยักษ์ใหญ่"
+ combat_event.0004.desc:0 "[enemy_commander.Custom2('MyCharacterIntroduction', ROOT.Char)|U] คือผู้บัญชาการในตำนาน เป็นที่รู้จักไปทั่วโลกจากการกรำศึกกว่าร้อยครั้งในชีวิตของ[enemy_commander.GetHerHis]โดยไม่เคยพ่ายแพ้แม้ แต่ครั้งเดียว\n\nถึงกระนั้น วันนี้ข้าได้เอาชนะ[enemy_commander.GetHerHim]ในสนามรบ และแสดงให้โลกเห็นว่า[enemy_commander.GetSheHe]มิใช่ผู้ไม่มีวันผิดพลาด!"
+ combat_event.0004.a:0 "แม้ แต่ตำนานอันยิ่งใหญ่ก็ยังต้องพ่ายแพ้ต่อ [ROOT.Char.Custom('signature_weapon')] ของข้า!"
+ combat_event.0004.b:0 "หาก [enemy_commander.GetSheHe] ยังพ่ายแพ้ได้ ข้าก็ย่อมพ่ายแพ้ได้ เช่นกัน"
+ combat_event.0004.b.zealous:0 "ข้าขอบพระคุณ [ROOT.GetCharacter.GetFaith.WarGodName] ที่ทรง ทำให้[enemy_commander.GetWomanMan]ผู้นั้นอ่อนน้อมลง"
+
+ combat_event.0005.t:0 "โค่นล้มยักษ์ใหญ่"
+ combat_event.0005.desc:0 "วันนี้เรื่องเหลือเชื่อได้เกิดขึ้น — ข้าพ่ายแพ้ในการรบให้กับ [friendly_commander.Custom2('MyCharacterIntroduction', ROOT.Char)]! ข้าเริ่มคิดไปแล้วจริงๆ ว่าข้าไม่มีวันแพ้ แต่บัดนี้ข้ากลับถูก ทำให้ตกต่ำและอ่อนน้อมลง\n\nชื่อเสียงของข้ายังคงอยู่บ้างแม้จะพ่ายแพ้ครั้งนี้ ทว่า [friendly_commander.GetFirstName] ก็ได้ช่วงชิงเกียรติยศและชื่อเสียงบางส่วนของข้าไป"
+ combat_event.0005.a:0 "[friendly_commander.GetSheHe|U] สมควรได้รับการยอมรับที่เอาชนะผู้ เช่นข้าได้"
+ combat_event.0005.b:0 "ยอมรับไม่ได้! [friendly_commander.GetSheHe|U] จะต้องเสียใจที่บังอาจมาต่อกรกับข้า!"
+ combat_event.0005.message:0 "ด้วยความเดือดดาลจากการพ่ายแพ้ในการรบของ[enemy_commander.GetHerHis], [enemy_commander.GetTitledFirstName] ได้สาบานว่าจะแก้แค้นข้า!"
+
+ # Combatants Taken Prisoner
+ combat_event.1002.pow_message.t:0 "จับกุมนักรบฝ่ายศัตรูได้"
+ combat_event.1002.pow_message.desc.single:2 "กองกำลังของท่านจับกุม [primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] ได้"
+ combat_event.1002.pow_message.desc.double:2 "กองกำลังของท่านจับกุม [primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] และ [secondary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] ได้"
+ combat_event.1002.pow_message.desc.multiple:2 "กองกำลังของท่านจับกุม [primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] และคนอื่นๆ อีก [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] คนได้"
+ combat_event.1002.pow_message.desc.end:0 "หลังจากชนะศึกที่ [combat_location.GetName]!"
+
+ combat_event.1003.pow_message.t:0 "นักรบฝ่ายพันธมิตรถูกจับกุม"
+ combat_event.1003.pow_message.desc.single:1 "[primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] ถูกจับกุมในฐานะ [prisoner_of_war|E]"
+ combat_event.1003.pow_message.desc.double:1 "[primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] และ [secondary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] ถูกจับกุมในฐานะ [prisoners_of_war|E]"
+ combat_event.1003.pow_message.desc.multiple:1 "[primary_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] และคนอื่นๆ อีก [ROOT.Var('num_other_relevant_captured_combatants').GetValue|V0] คน ถูกจับกุมในฐานะ [prisoners_of_war|E]"
+ combat_event.1003.pow_message.desc.end:1 "โดยศัตรูของท่าน [combat_winner.GetTitledFirstName] หลัง[battle|E]ที่ [combat_location.GetName]!"
+
+ combat_event.1004.pow_message.t:0 "[ROOT.Char.Custom2('RelationToMeShort', primary_prisoner)|U] ถูกจับเป็นเชลย"
+ combat_event.1004.pow_message.desc.end:1 "โดย [combat_winner.Custom2('YourCharacterIntroduction', ROOT.Char)] หลังจาก[combat_winner.GetSheHe]ชนะ[battle|E]ที่ [combat_location.GetName]!"
+
+ combat_event.1005.pow_toast.t:1 "จับกุมนักรบฝ่ายศัตรูได้"
+ combat_event.1005.pow_toast.desc:2 "กองกำลังของท่านจับกุม [valuable_prisoner.Custom2('NamePossessiveCharacterIntroduction', primary_combat_loser)] ในฐานะ [prisoner_of_war|E] ระหว่าง[battle|E]ที่ [combat_location.GetName]!"
+ combat_event.1005.pow_toast.desc.primary:2 "กองกำลังของท่านจับกุมศัตรูของท่าน [valuable_prisoner.GetTitledFirstName] ในฐานะ [prisoner_of_war|E] ระหว่าง[battle|E]ที่ [combat_location.GetName]!"
+ combat_event.1006.pow_toast.t:1 "ทายาทถูกจับเป็นเชลย"
+ combat_event.1006.pow_toast.desc:2 "[combat_winner.GetTitledFirstName] จับกุม [valuable_prisoner.Custom2('YourCharacterIntroduction', ROOT.Char)] ในฐานะ [prisoner_of_war|E] หลัง[battle|E]ที่ [combat_location.GetName]!"
+ combat_event.1007.pow_toast.t:0 "$combat_event.1005.pow_toast.t$"
+ combat_event.1007.pow_toast_primary.t:0 "ผู้นำทัพศัตรูถูกจับกุม"
+ combat_event.1007.pow_toast.desc:1 "[combat_winner.GetTitledFirstName] จับกุม [valuable_prisoner.Custom2('NamePossessiveCharacterIntroduction', primary_combat_loser)] ในฐานะ [prisoner_of_war|E] หลัง[battle|E]ที่ [combat_location.GetName]!"
+ combat_event.1007.pow_toast.desc.primary:2 "[combat_winner.GetTitledFirstName] จับกุมศัตรูของท่าน [valuable_prisoner.GetTitledFirstName] ในฐานะ [prisoner_of_war|E] หลัง[battle|E]ที่ [combat_location.GetName]!"
+
+ # Combatants Slain
+ combat_event.1012.slain_message.t:0 "นักรบฝ่ายศัตรูถูกสังหาร"
+ combat_event.1012.slain_message.desc.single:3 "กองกำลังของท่านสังหาร [primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)|U]"
+ combat_event.1012.slain_message.desc.double:3 "กองกำลังของท่านสังหาร [primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)|U] และ [secondary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)]"
+ combat_event.1012.slain_message.desc.multiple:3 "กองกำลังของท่านสังหาร [primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)|U] และคนอื่นๆ อีก [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0] คน"
+ combat_event.1012.slain_message.desc.end:1 "ระหว่าง[battle|E]ที่ [combat_location.GetName]!"
+
+ combat_event.1013.slain_message.t:0 "นักรบฝ่ายพันธมิตรถูกสังหาร"
+ combat_event.1013.slain_message.desc.single:1 "[primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)|U] ถูก"
+ combat_event.1013.slain_message.desc.double:1 "[primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)|U] และ [secondary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)] ถูก"
+ combat_event.1013.slain_message.desc.multiple:1 "[primary_deceased.Custom2('YourCharacterIntroduction', ROOT.Char)|U] และคนอื่นๆ อีก [ROOT.Var('num_other_relevant_slain_combatants').GetValue|V0] คน ถูก"
+ combat_event.1013.slain_message.desc.end:1 "สังหารระหว่าง[battle|E]ที่ [combat_location.GetName]!"
+
+ combat_event.1014.slain_message.t:1 "[ROOT.Char.Custom2('RelationToMeShort', primary_deceased)|U] ถูกสังหารในสนามรบ"
+
+ # Slain/captured knight event strings for use in battle events (after the battle).
+ combatant_captured_in_battle_friendly_player:1 "ท่านจับกุม [TARGET_CHARACTER.GetUINameNoTooltip] ได้หลังการรบ!"
+ combatant_captured_in_battle_friendly:0 "[CHARACTER.GetUINameNoTooltip] จับกุม [TARGET_CHARACTER.GetUINameNoTooltip] ได้หลังการรบ!"
+ combatant_captured_in_battle_enemy_player:1 "ท่านถูกจับกุมโดย [CHARACTER.GetUINameNoTooltip] หลังการรบ!"
+ combatant_captured_in_battle_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip] ถูกจับกุมโดย [CHARACTER.GetUINameNoTooltip] หลังการรบ!"
+
+ combatant_killed_in_battle_friendly_player:1 "ท่านสังหาร [TARGET_CHARACTER.GetUINameNoTooltip] ขณะที่[TARGET_CHARACTER.GetSheHe]กำลังล่าถอยจากการรบ!"
+ combatant_killed_in_battle_friendly:0 "[CHARACTER.GetUINameNoTooltip] สังหาร [TARGET_CHARACTER.GetUINameNoTooltip] ขณะที่[CHARACTER.GetSheHe]กำลังล่าถอยจากการรบ!"
+ combatant_killed_in_battle_enemy_player:1 "ท่านถูกสังหารโดย [CHARACTER.GetUINameNoTooltip] ระหว่างการล่าถอย!"
+ combatant_killed_in_battle_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip] ถูกสังหารโดย [CHARACTER.GetUINameNoTooltip] ระหว่างการล่าถอย!"
+
+ combatant_killed_in_battle_no_killer_friendly_player:1 "ทหารคนหนึ่งของท่านสังหาร [TARGET_CHARACTER.GetUINameNoTooltip] ขณะที่[TARGET_CHARACTER.GetSheHe]กำลังล่าถอยจากการรบ!"
+ combatant_killed_in_battle_no_killer_friendly:1 "ทหารคนหนึ่งของเราสังหาร [TARGET_CHARACTER.GetUINameNoTooltip] ขณะที่[TARGET_CHARACTER.GetSheHe]กำลังล่าถอยจากการรบ!"
+ combatant_killed_in_battle_no_killer_enemy_player:1 "ท่านถูกสังหารโดยทหารศัตรูระหว่างการล่าถอย!"
+ combatant_killed_in_battle_no_killer_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip] ถูกสังหารโดยทหารศัตรูระหว่างการล่าถอย!"
+
+
+

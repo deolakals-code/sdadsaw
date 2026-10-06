@@ -1,0 +1,15 @@
+﻿l_english: 
+
+ IS_CULTURE_INVOLVED_IN_STRUGGLE_TRIGGER:0 "วัฒนธรรม [CULTURE.GetName] เกี่ยวข้องใน [STRUGGLE.GetName]"
+ IS_FAITH_INVOLVED_IN_STRUGGLE_TRIGGER:0 "[faith|E] [FAITH.GetName] เกี่ยวข้องใน [STRUGGLE.GetName]"
+ 
+ STRUGGLE_PHASE_IS_TRIGGER:1 "ระยะปัจจุบันของ [STRUGGLE.GetName] คือ $PHASE$"
+ NOT_STRUGGLE_PHASE_IS_TRIGGER:1 "ระยะปัจจุบันของ [STRUGGLE.GetName] #bold ไม่ใช่#! $PHASE$"
+ 
+ STRUGGLE_TYPE_TRIGGER:0 "ประเภทของ [STRUGGLE.GetName] คือ [STRUGGLE_TYPE.GetName]"
+ NOT_STRUGGLE_TYPE_TRIGGER:0 "ประเภทของ [STRUGGLE.GetName] #bold ไม่ใช่#! [STRUGGLE_TYPE.GetName]"
+ 
+ IS_STRUGGLE_PHASE_TRIGGER:1 "ระยะปัจจุบันของ [STRUGGLE.GetName] คือ [PHASE.GetName]"
+ NOT_IS_STRUGGLE_PHASE_TRIGGER:1 "ระยะปัจจุบันของ [STRUGGLE.GetName] #bold ไม่ใช่#! [PHASE.GetName]"
+
+ involved_in_iberian_struggle_trigger_first: "ท่านเกี่ยวข้องใน [GetStruggle('iberian_struggle').GetName]"

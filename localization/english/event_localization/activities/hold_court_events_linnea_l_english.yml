@@ -1,0 +1,15 @@
+﻿l_english: 
+ hold_court.5010.t:0 "[county.GetNameNoTierNoTooltip|U] ไร้การควบคุม"
+ hold_court.5010.desc_marshal:0 "[marshal.GetCouncilTitle] [marshal.GetTitledFirstName] เข้าเฝ้าฯ เบื้องหน้าพระราชบัลลังก์\n\n"
+ hold_court.5010.desc:0 "ไพร่[peasant.GetWomanMan]ผู้หนึ่งเข้าใกล้บัลลังก์ของข้าพเจ้าอย่างประหม่า กำหมวกของ[peasant.GetHerHis]ไว้แน่น\n\n"
+ hold_court.5010.desc.outro: ""[county.GetName|U] ชุกชุมไปด้วยความไม่สงบและโจรผู้ร้าย [ROOT.Char.Custom('FormOfAddressForLiege')] เพียงสละเหรียญตราเล็กน้อยแก่ภูมิภาค และการควบคุมก็จะกลับคืนมา""
+ hold_court.5010.a:0 "เป็นความคิดที่น่าสนใจ ลองดูเถิด"
+ hold_court.5010.b:0 "ท่านพูดถูก สิ่งที่เราต้องการคือการนองเลือด#EMP อย่างยิ่งยวด#!"
+ hold_court.5010.c:1 "ข้าไม่มีเวลาสำหรับเรื่องนี้"
+
+ hold_court.5030.t:0 "ภาษาเขียน"
+ hold_court.5030.desc:1 "[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] แสดงหน้ากระดาษที่เต็มไปด้วยสัญลักษณ์ที่ไม่คุ้นเคยให้ข้าพเจ้าดู ยืนกรานว่าสามารถอ่านออกได้\n\n"ข้าพเจ้าได้พัฒนาภาษาเขียนขึ้นโดยเฉพาะสำหรับเหล่า[courtier.GetWomenMen]ในราชสำนัก เนื่องจากตัวอักษรส่วนใหญ่สอนให้แก่[courtier.Custom('WomenMenOpp')] หากท่านอนุญาต ข้าพเจ้าจะเริ่มสอนเหล่า[courtier.Custom('LadiesLords')]ในทันที!"\n\nข้าพเจ้าอดจินตนาการถึงอิสรภาพที่ภาษา เช่นนี้จะมอบให้ไม่ได้!"
+ hold_court.5030.a:0 "ช่างเป็นความคิดที่ยอดเยี่ยม!"
+ hold_court.5030.courtiers:0 "ข้าราชบริพาร[courtier.Custom('FemaleMale')|U]ทั้งหมด"
+ hold_court.5030.b:0 "อาจารย์ในราชสำนัก [court_tutor.GetFirstNameNoTooltip] จะช่วยท่านสอน"
+ hold_court.5030.c:0 "เราสามารถใช้ความสามารถของท่านให้เกิดประโยชน์ได้ดีกว่านี้!"

@@ -1,0 +1,100 @@
+﻿l_english: 
+
+# Secret has been exposed/discovered — lover/spouse decides how to react, by Mathilda Bjarnehed
+ infidelity_confrontation.1000.t:0 "ไม่ซื่อสัตย์"
+ 	#Special confession desc
+ infidelity_confrontation.1000.confession.apologetic_start.desc:0 "[infidelity_partner.GetFirstName] นิ่งเงียบราวกับถูกแช่แข็ง แต่ข้าเห็นมันได้ในดวงตาของ[infidelity_partner.GetHerHis] ความกลัวของข้าเป็นจริง ข้าเองก็ดูเหมือนจะแข็งค้างไป เช่นกัน เว้น แต่หัวใจของข้า ซึ่งกำลังเต้นระรัว\n\nครั้นเมื่อถ้อยคำหลุดจากริมฝีปากของ[infidelity_partner.GetFirstNamePossessiveNoTooltip] น้ำตาก็ไหลรินจากดวงตาของ[infidelity_partner.GetHerHis] เช่นกัน\n\n\"โอ้ [infidelity_partner.Custom2('RelationToMeShort', ROOT.Char)] ข้ามิเคยตั้งใจทำร้ายท่านเลย ข้าสาบาน! ข้า... ข้าจะบอกท่านทุกอย่าง ข้าได้ร่วมเตียงกับ "
+ infidelity_confrontation.1000.confession.your_lovername.desc:0 "[infidelity_partners_lover.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]."
+ infidelity_confrontation.1000.confession.my_lovername.desc:0 "[infidelity_partners_lover.Custom2('MyCharacterIntroductionNoComma', infidelity_partner)]."
+ infidelity_confrontation.1000.confession.apologetic_end.desc:0 """
+ infidelity_confrontation.1000.confession.unapologetic_start.desc:0 "[infidelity_partner.GetFirstNameNoTooltip] ไม่คาดคิดว่าจะถูกข้ากล่าวหา นั่นชัดเจนยิ่งนัก ทว่า [infidelity_partner.GetSheHe|U] ก็มิได้หวั่นไหวอยู่นาน\n\n\"กว่าท่านจะสังเกตเห็นก็นานโขนะ #EMP [infidelity_partner.Custom2('RelationToMeShort', ROOT.Char)]#!.\" วาจาของ[infidelity_partner.GetHerHis|U]อาบด้วยยาพิษ \"ใช่ ข้าได้นอนกับผู้อื่น – "
+ infidelity_confrontation.1000.confession.unapologetic_end_opposite_sex.desc:0 "ข้ายอมนอนกับ[infidelity_partners_lover.GetWomenMen]ร้อยคนเสียดีกว่าต้องค้างคืนกับท่าน\""
+ infidelity_confrontation.1000.confession.unapologetic_end_same_sex.desc:0 "[infidelity_partners_lover.GetSheHe|U] เป็น[infidelity_partners_lover.GetWomanMan]ที่ดีกว่าท่านเป็นเท่าตัวนัก\""
+ 	#Regular desc
+ infidelity_controntation.1000.partner_exposed_intro.desc:0 "[infidelity_partner.Custom2('MyCharacterIntroduction', ROOT.Char)|U]สารภาพว่าลอบเป็นชู้กับ[infidelity_partners_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!\n\n"
+ infidelity_controntation.1000.partners_lover_exposed_intro.desc:0 "[infidelity_partners_lover.Custom2('MyCharacterIntroduction', ROOT.Char)|U]สารภาพว่าลอบเป็นชู้กับ[infidelity_partner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!\n\n"
+ infidelity_controntation.1000.exposed_intro.desc:0 "[exposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U]ได้เปิดโปงเรื่องที่[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('infidelity_partner'))]ของข้า [infidelity_partner.GetFirstNamePossessive]ลอบเป็นชู้กับ[infidelity_partners_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!\n\n"
+ infidelity_controntation.1000.investigation_intro.desc:0 "การสืบสวนของข้าประสบผลสำเร็จ และความหวาดกลัวของข้าก็เป็นจริง [infidelity_partner.GetSheHe|U]กำลังลอบเป็นชู้กับ[infidelity_partners_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!\n\n"
+ infidelity_controntation.1000.exposed_knew.desc:0 "บัดนี้เมื่อเรื่องราวทั้งหมดถูกเปิดโปง [ROOT.Char.Custom2('RelationToMeShort', infidelity_partner )] ของข้า และ [infidelity_partners_lover.Custom2('InsultNounSexual', ROOT.Char)] ของ [infidelity_partner.GetHerHis] กำลังจะเผชิญหน้ากับผลแห่งการกระทำของพวกมัน"
+ infidelity_controntation.1000.start_lover.desc:0 "ราวกับว่าการมีชู้รักอีกคนยังไม่เพียงพอ,"
+ infidelity_controntation.1000.start_spouse.desc:0 "ราวกับว่าการละเมิดความศักดิ์สิทธิ์แห่งการสมรสของเรายังไม่เพียงพอ,"
+ infidelity_controntation.1000.incest.desc:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('infidelity_partner'))] [infidelity_partner.Custom2('InsultNoun', ROOT.Char)] ของข้า ถึงกับต้องไปร่วมเตียงกับ [infidelity_partners_lover.GetHerHim] ท่ามกลางผู้คนทั้งปวง! #EMP [infidelity_partner.Custom2('RelationToMeShort', SCOPE.sC('infidelity_partners_lover'))]#!! แท้ๆ ของ [infidelity_partner.GetHerHis|U]\n\nบางทีข้าน่าจะรู้ พวกมันช่าง... สนิทสนมกันเหลือเกิน โอ้ [ROOT.Char.GetFaith.HighGodName] แค่นึกถึงภาพพวกมันอยู่ด้วยกัน... ข้าก็ขยะแขยงเต็มทน"
+ infidelity_controntation.1000.sodomy.desc:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('infidelity_partner'))] [infidelity_partner.Custom2('InsultNoun', ROOT.Char)] ของข้า ถึงกับต้องไปร่วมเตียงกับ [infidelity_partners_lover.GetHerHim] ท่ามกลางผู้คนทั้งปวง! #EMP [infidelity_partner.GetWomanMan]#!! อีกคน\n\nโอ้ [ROOT.Char.GetFaith.HighGodName] แค่นึกถึงภาพพวกมัน... อยู่ด้วยกัน... ข้าก็ขยะแขยงเต็มทน""
+ infidelity_controntation.1000.regular.desc:0 "เหตุใด[infidelity_partner.GetTitledFirstName]จึงไปร่วมเตียงกับผู้อื่นได้? เหตุใด[infidelity_partner.GetSheHe]จึงทรยศข้าได้ เช่นนี้? บางทีข้าอาจจะไม่มีวันรู้เหตุผลของ[infidelity_partner.GetHerHis] แต่ดูเหมือนจะไม่มีข้อสงสัยในความผิดของ[infidelity_partner.GetHerHis]เลย"
+ 	#Options
+ infidelity_confrontation.1000.demand_break_up.lover:0 "เลือกมา จะเป็น [infidelity_partners_lover.GetHerHim] หรือข้า!"
+ infidelity_confrontation.1000.demand_break_up.spouse:0 "เลิกเสีย มิฉะนั้น #EMP จะต้อง#! มีผลตามมา!"
+ infidelity_confrontation.1000.demand_break_up.success:0 "[infidelity_partner.GetFirstNameNoTooltip] ยอมทำตามคำขอของท่าน"
+ infidelity_confrontation.1000.break_up.failure:0 "[infidelity_partner.GetFirstNameNoTooltip] ปฏิเสธที่จะยุติความสัมพันธ์ชู้สาว"
+ infidelity_confrontation.1000.demand_break_up.flavor:0 "[infidelity_partner.GetFirstNameNoTooltip] มีแนวโน้มที่จะยอมตกลงหาก [infidelity_partner.GetSheHe] หวาดกลัวผลที่จะตามมา"
+ infidelity_confrontation.1000.plead_break_up:0 "ที่รัก ข้าขอร้องท่าน! โปรดหยุดความโง่เขลานี้เสียที!"
+ infidelity_confrontation.1000.plead_break_up.flavor:1 "[infidelity_partner.GetFirstNameNoTooltip] มีแนวโน้มที่จะยอมตกลงหาก [infidelity_partner.GetSheHe] ห่วงใยท่าน หรือสงสารท่าน"
+ infidelity_confrontation.1000.plead_break_up.success:0 "[infidelity_partner.GetFirstNameNoTooltip] ยุติความสัมพันธ์ชู้สาวและร้องขอการให้อภัย"
+ infidelity_confrontation.1000.break_up:0 "ข้า #EMP รู้#! อยู่แล้วว่า [infidelity_partner.GetSheHe] ไม่คู่ควรกับความใส่ใจของข้า"
+ infidelity_confrontation.1000.expose:0 "โลกจะได้รู้เรื่องชู้สาวอันโสมมของเจ้า!"
+ infidelity_confrontation.1000.blackmail:0 "แน่นอนว่า เจ้าคงอยากให้เรื่องนี้เป็นความลับต่อไป..."
+ infidelity_confrontation.1000.imprison:0 "ให้ความรักช่วยให้เจ้าอบอุ่นในคุกใต้ดินเถอะ"
+ infidelity_confrontation.1000.opt_out:0 "ข้าต้องการเวลาคิด..."
+ infidelity_confrontation.1000.opt_out.knew:0 "ข้าเบื่อหน่ายกับเรื่องตลกนี้เต็มที"
+ infidelity_confrontation.1000.opt_out.blackmail.tt:0 "ข้าอาจพิจารณา [blackmailing|E] [infidelity_partner.GetShortUIName] ให้ [infidelity_partner.GetHerHim] ได้ลิ้มรสยาขมของ[infidelity_partner.GetHerHis]เอง หรือให้อภัย [infidelity_partner.GetHerHim]"
+ infidelity_confrontation.1000.opt_out.divorce.tt:0 "ข้าอาจพิจารณา [divorcing|E] [infidelity_partner.GetShortUIName] ให้ [infidelity_partner.GetHerHim] ได้ลิ้มรสยาขมของ[infidelity_partner.GetHerHis]เอง หรือให้อภัย [infidelity_partner.GetHerHim]"
+ infidelity_confrontation.1000.opt_out.fallback.tt:0 "ข้าอาจพิจารณาให้ [infidelity_partner.GetShortUIName] ได้ลิ้มรสยาขมของ[infidelity_partner.GetHerHis]เอง หรือให้อภัย [infidelity_partner.GetHerHim]"
+ 
+# Demand break up branch: Demand is presented to infidelity partner, by Mathilda Bjarnehed
+ infidelity_confrontation.1010.start.desc:0 "\"ข้ารู้เรื่องชู้สาวอันโสมมของเจ้ากับ [infidelity_partners_lover.GetTitledFirstNamePossessive] หมดแล้ว! อย่าเสียลมปากปฏิเสธเลย!\""
+ infidelity_confrontation.1010.sad.desc:0 "น้ำเสียงของ [confronting_partner.GetFirstNamePossessive] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('confronting_partner'))] ของข้าสั่นเครือ น้ำตาไหลอาบแก้มของ[confronting_partner.GetHerHis]\n\n"
+ infidelity_confrontation.1010.angry.desc:0 "เสียงตะโกนของ [confronting_partner.GetFirstNamePossessive] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('confronting_partner'))] ของข้าดังสะท้อนก้องไปถึงกระดูก ข้าต้องใช้พลังทั้งหมดที่มีเพื่อไม่ให้สะดุ้งถอย\n\n"
+ infidelity_confrontation.1010.break_up.desc:0 "\"ข้าทนต่อไปไม่ไหวแล้ว [ROOT.Char.GetFirstNameNoTooltip] เจ้าต้องเลือก จะเป็น [infidelity_partners_lover.GetHerHim] หรือข้า!\""
+ infidelity_confrontation.1010.celibacy.desc:0 "\"หากเจ้าไม่เลิกกับ [infidelity_partners_lover.GetHerHim] ข้าจะไม่มีวันร่วมเตียงกับเจ้าอีก!\""
+ infidelity_confrontation.1010.imprisonment.desc:0 "\"หากเจ้าปฏิเสธที่จะเลิกกับ [infidelity_partners_lover.GetHerHim] ข้าจะใช้ลูกกรงเหล็กแยกเจ้าออกจากกัน!\""
+ infidelity_confrontation.1010.a:0 "ข้าจะเลิก ข้าสาบาน!"
+ infidelity_confrontation.1010.c:0 "จะทำอะไรก็เชิญ — [infidelity_partners_lover.GetSheHe] กับข้าเกิดมาคู่กัน!"
+ 
+# Demand break up branch: Demand is accepted, by Mathilda Bjarnehed
+ infidelity_confrontation.1011.unapologetic_start.desc:0 "ดวงตาของ[infidelity_partner.GetFirstNamePossessive]ลุกโชนดั่งเพลิงโหม แต่น้ำเสียงของ[infidelity_partner.GetHerHis]เย็นชาดุจน้ำแข็ง\n\n\"เจ้าคิดว่าคำขู่จะซ่อมแซม"
+ infidelity_confrontation.1011.unapologetic_marriage.desc:0 "ชีวิตสมรสของเราได้รึ"
+ infidelity_confrontation.1011.unapologetic_love.desc:0 "ความรักของเราได้รึ"
+ infidelity_confrontation.1011.unapologetic_end.desc:0 "[ROOT.Char.GetFirstNameNoTooltip]? ก็ได้ เอาตามที่เจ้าต้องการ แต่อย่าหลอกตัวเองเลย — ข้าไม่เสียใจในสิ่งที่ทำลงไป แม้ แต่วินาทีเดียว\""
+ infidelity_confrontation.1011.a:0 "เรื่องระหว่างเราจะกลับไปเป็นเหมือนเดิมได้หรือไม่?"
+ infidelity_confrontation.1011.apologetic_start.desc:0 "น้ำตาไหลอาบแก้มของ[infidelity_partner.GetFirstNamePossessive] ข้าสงสัยว่ามันคือน้ำตาแห่งความเสียใจ หรือความกลัวกันแน่?\n\n\"ได้โปรด ท่านต้องให้อภัยข้า ข้าขอร้อง! ข้าจะยุติมัน แน่นอนข้าจะทำ มันเป็นความผิดพลาดโง่ๆ — ไม่มีอะไรมากไปกว่านั้น! ข้าสาบาน!\""
+
+# Demand break up branch: Demand is rejected, by Mathilda Bjarnehed
+ infidelity_confrontation.1012.apologetic_start.desc:0 "[infidelity_partner.GetFirstName] ยังคงนิ่งเงียบขณะที่ข้ายื่นคำขาด น้ำตาไหลเป็นทางบนแก้มของ[infidelity_partner.GetHerHis] แต่เมื่อ [infidelity_partner.GetSheHe] เอ่ยปากในที่สุด ถ้อยคำของ[infidelity_partner.GetHerHis]กลับไม่ใช่สิ่งที่ข้าคาดหวัง\n\n"
+ infidelity_confrontation.1012.apologetic_imprisonment.desc:0 "\"ข้าขอโทษ แต่ข้าทำไม่ได้ ข้ายอมใช้ชีวิตที่เหลือในคุกใต้ดินเสียดีกว่าปฏิเสธความรู้สึกที่มีต่อ [infidelity_partners_lover.GetFirstName] หากท่านเกลียดข้ามากนัก — หากท่านอยากเห็นข้าทนทุกข์ — ก็ให้มันเป็นไป\""
+ infidelity_confrontation.1012.apologetic_break_up.desc:0 "\"ข้าไม่เคยต้องการทำร้ายท่าน และข้าเสียใจสำหรับเรื่องนั้น แต่ข้าไม่อาจปฏิเสธความรู้สึกที่มีต่อ [infidelity_partners_lover.GetFirstName] ได้ สิ่งที่เรามี — ไม่มีสิ่งใดเทียบเทียมได้ แม้ แต่ท่านก็ตาม\""
+ infidelity_confrontation.1012.unapologetic_imprisonment.desc:0 "[ROOT.Char.GetFirstNameNoTooltip]? ข้ายอมใช้ชีวิตที่เหลือในคุกใต้ดินเสียดีกว่าอยู่กับเจ้าอีกแม้วินาทีเดียว!\""
+ infidelity_confrontation.1012.unapologetic_break_up.desc:0 "[ROOT.Char.GetFirstNameNoTooltip]? เจ้ามันโง่เง่ามาตลอด ขอบใจที่ช่วยเปิดตาข้า ข้าไม่เคยเห็นธาตุแท้ของเจ้าชัดเจนเท่านี้มาก่อน!\""
+ infidelity_confrontation.1012.a:0 "ได้! เอาตามที่เจ้าต้องการเลย เจ้า [infidelity_partner.Custom2('InsultNounSexual', ROOT.Char)] [infidelity_partner.Custom2('InsultAdjective', ROOT.Char)]!"
+
+ # Demand break up branch: break up notification for the infidelity partner's lover, by Mathilda Bjarnehed
+ infidelity_confrontation.1013.t:1 "[infidelity_partners_lover.Custom2('AppropriateGreeting', infidelity_partner)]"
+ infidelity_confrontation.1013.love.desc:1 "[ROOT.Char.Custom('LoverPetName')|U] ข้าเคยคิดว่าเราจะได้อยู่ด้วยกันตลอดไป ไม่มีสิ่งใดจะมาขวางกั้นเราได้ แต่ไม่ว่าข้าจะห่วงใยท่านเพียงใด ข้าก็มิอาจเพิกเฉยต่อความจริงอันโหดร้ายของสถานการณ์เราได้อีกต่อไป ความฝันของเรา แม้จะหอมหวานและสมบูรณ์แบบเพียงใด ก็ไม่เคยเป็นมากกว่านั้น และบัดนี้มันจะไม่มีวันเป็นจริง\n\nถึงกระนั้น เราก็ต้องดำเนินต่อไป ที่รักของข้า หากเราไม่อาจอยู่ร่วมกันได้ในภพนี้ เราก็ต้องรอคอยอย่างอดทนเพื่อภพหน้า"
+ infidelity_confrontation.1013.like.desc:0 "[ROOT.Char.Custom('LoverPetName')] ที่รักยิ่ง ข้าเขียนจดหมายฉบับนี้ด้วยหัวใจอันหนักอึ้ง เราเคยมีความฝัน ความฝันอันแสนวิเศษและเปี่ยมสุข แต่มันไม่เคยเป็นมากกว่านั้น และแม้จะเจ็บปวดเพียงใด คำตอบก็ชัดเจนอยู่แล้ว เราไม่อาจดำเนินต่อไปด้วยกันได้\n\nข้าอยากขอบคุณท่านสำหรับช่วงเวลาดีๆ ทั้งหมด ข้าจะไม่มีวันลืมเลือน ขอให้ชีวิตของท่านยืนยาวและมีความสุข"
+ infidelity_confrontation.1013.neutral.desc:0 "ความสัมพันธ์ของเรา แม้จะน่าพึงพอใจเพียงใด ก็ไม่ใช่เรื่องส่วนตัวอีกต่อไปแล้ว มันเป็นเรื่องดีตราบเท่าที่มันยังคงอยู่ แต่บัดนี้ มันต้องจบลง\n\nดูแลตัวเองด้วย [ROOT.Char.GetTitledFirstNameNoTooltip] การจากลาครั้งนี้อาจเจ็บปวดในวันนี้ แต่ข้ารับรองท่าน — อีกไม่นานมันก็จะถูกลืมเลือนไป"
+ infidelity_confrontation.1013.a:0 "และไม่มีแม้ แต่โอกาสจะได้จุมพิตลา..."
+
+ # Plead for break up branch: infidelity partner is presented with request, by Mathilda Bjarnehed
+ infidelity_confrontation.1001.kind_start.desc:0 "น้ำตาของ [confronting_partner.GetFirstNamePossessive] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('confronting_partner'))] ของข้า เจ็บปวดยิ่งกว่าถ้อยคำรุนแรงใดๆ ที่เคยมีมา ข้ายืนคอตกขณะที่"
+ infidelity_confrontation.1001.unkind_start.desc:0 "น้ำตาของ [confronting_partner.GetFirstNamePossessive] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('confronting_partner'))] ของข้าเป็นของจริงหรือไม่? บางทีนี่อาจเป็นเพียงการแสดง ที่ออกแบบมาเพื่อกระตุ้นความสงสารของข้า? ข้าถอนหายใจอย่างเหนื่อยหน่ายขณะที่"
+ infidelity_confrontation.1001.love_end.desc:0 "[confronting_partner.GetSheHe] ซบใบหน้าของ [confronting_partner.GetHerHis] ลงบน [ROOT.Char.Custom('GetClothingArticle')] ของข้า\n\n"[ROOT.Char.GetFirstNameNoTooltip] ท่านทำ เช่นนี้ได้อย่างไร? ข้ารักท่านนะ [ROOT.Char.GetWomanMan] ผู้โง่เขลาของข้า!" [confronting_partner.GetFirstName] สูดลมหายใจยาวสั่นเครือ "กลับมาหาข้าเถิด [ROOT.Char.Custom('LoverPetName')] ของข้า ทิ้ง [infidelity_partners_lover.Custom2('InsultNoun', SCOPE.sC('confronting_partner'))] นั่นไปเสีย แล้วทุกสิ่งจะได้รับการอภัย""
+ infidelity_confrontation.1001.regular_end.desc:0 "[confronting_partner.GetSheHe] ใช้ผ้าเช็ดหน้าซับแก้มของ [confronting_partner.GetHerHis]\n\n"ข้ารู้ว่าข้าอาจมิใช่ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('confronting_partner'))] ที่สมบูรณ์แบบ แต่ข้าสมควรได้รับสิ่งที่ดีกว่านี้ เราทั้งคู่สมควรได้รับ ข้าขอร้องท่าน — กลับมามีสติและทิ้ง [infidelity_partners_lover.Custom2('InsultNoun', SCOPE.sC('confronting_partner'))] นั่นไปเสีย มันยังไม่สายเกินไปที่จะ ทำให้ทุกอย่างดีขึ้น""
+ infidelity_confrontation.1020.a:0 "ข้าจะทำทุกอย่าง เพื่อให้สมควรได้รับการให้อภัยจากท่าน!"
+ infidelity_confrontation.1020.b:0 "ข้าไม่อาจปฏิเสธความรู้สึกที่มีต่อ [infidelity_partners_lover.GetFirstNameNoTooltip] ได้!"
+
+ # Plead for breakup branch: request is accepted, by Mathilda Bjarnehed
+ infidelity_confrontation.1021.love.desc: "ความโล่งใจบนใบหน้าของ [infidelity_partner.GetFirstNamePossessive] นั้นชัดเจนยิ่งนัก พร้อมกันนั้นน้ำตาก็ไหลริน และขณะที่ [infidelity_partner.GetSheHe] โผตัว[infidelity_partner.GetHerselfHimself]เข้าสู่อ้อมแขนของข้า ข้าสัมผัสได้ถึงความเปียกชื้นบนลำคอ\n\n\"ข้าไม่สมควรได้รับการให้อภัยจากท่าน\" [infidelity_partner.GetSheHe] กระซิบสะอื้น \"แต่ข้าจะทำทุกอย่างในอำนาจเพื่อเปลี่ยนแปลงสิ่งนั้น ข้าสาบาน ที่รักของข้า ข้าขอเอาชีวิตเป็นเดิมพัน\""
+ infidelity_confrontation.1021.regular.desc:0 "ความละอายบนใบหน้าของ[infidelity_partner.GetFirstNamePossessive] นั้นชัดเจนยิ่งนัก "ข้าเคยโน้มน้าวตัวเองว่าข้าไม่ได้ทำอะไรผิด แต่ตอนนี้เมื่อทุกอย่างเปิดเผยออกมา..."\n\n[infidelity_partner.GetSheHe|U] ส่ายหน้า[infidelity_partner.GetHerHis] พร้อมถอนหายใจ "ในที่สุดข้าก็เห็นข้อผิดพลาดของข้าแล้ว ให้อภัยข้าเถิด [ROOT.Char.GetFirstNameNoTooltip] ให้เราลองกันอีกครั้ง""
+ infidelity_confrontation.1021.a:0 "มันต้องใช้เวลา แต่เราจะสร้างมันขึ้นมาใหม่"
+
+ # Plead for breakup branch: request is rejected, by Mathilda Bjarnehed
+ infidelity_confrontation.1021.unapologetic_start.desc:0 ""เลิกเสแสร้งเสียที" [infidelity_partner.GetFirstName]กล่าว, [infidelity_partner.Custom('quirk_neg_pp')] "น้ำตามากเพียงใดก็มิอาจ ทำให้ข้าเปลี่ยนใจได้ หยุดเสียเวลาของเจ้า — และของข้าด้วย"\n\nเหตุใด[infidelity_partner.GetSheHe]จึงเย็นชาได้ถึงเพียงนี้?"
+ infidelity_confrontation.1022.apologetic_start.desc:0 "[infidelity_partner.GetFirstName] ยังคงนิ่งเงียบขณะที่ข้าอ้อนวอนขอความรักจาก[infidelity_partner.GetHerHis] น้ำตาไหลเป็นทางบนแก้มของ[infidelity_partner.GetHerHis] แต่เมื่อ [infidelity_partner.GetSheHe] เอ่ยปากในที่สุด ถ้อยคำของ[infidelity_partner.GetHerHis]กลับไม่ใช่สิ่งที่ข้าคาดหวัง\n\n"
+ infidelity_confrontation.1022.a:0 "ข้ามอบหัวใจให้ท่าน แต่ท่านกลับโยนมันทิ้งไปรึ?"
+
+ # Break up branch: infidelity partner is informed about confronting partner's decision to end it, by Mathilda Bjarnehed
+ infidelity_confrontation.1030.t:0 "[confronting_partner.Custom2('AppropriateGreetingNegative', infidelity_partner)]"
+ infidelity_confrontation.1030.desc:0 "ข้าได้ยินเรื่องการเล่นชู้เล็กๆ น้อยๆ อันโสโครกของเจ้ากับ [infidelity_partners_lover.GetTitledFirstName] แล้ว ขอบใจที่เผยธาตุแท้ของเจ้าออกมาอย่างชัดเจน!\n\nข้ามั่นใจโดยปราศจากข้อสงสัย ข้าเสียเวลาและความใส่ใจไปกับ [ROOT.Char.Custom2('InsultNounSexual', SCOPE.sC('confronting_partner'))] [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('confronting_partner'))] เจ้าไม่คู่ควรแม้ แต่กับน้ำหมึกจากปากกาขนนกของข้า! เมื่อจดหมายนี้ถูกส่งไปแล้ว ข้าจะไม่เสียเวลาคิดถึงเจ้าอีกต่อไป"
+ infidelity_confrontation.1030.a:0 "หากเพียง แต่ท่านจะให้ข้าอธิบาย!"
+
+
+ 

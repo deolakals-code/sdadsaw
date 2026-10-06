@@ -1,0 +1,132 @@
+﻿l_english: 
+ feast_strategy_discussions_modifier:0 "การสนทนาเรื่องกลยุทธ์"
+ feast_strategy_discussions_modifier_desc:1 "การสนทนากลยุทธ์กับผู้บัญชาการมากประสบการณ์ได้พิสูจน์แล้วว่าเกิดผลดีต่อตัวละครนี้"
+ feast_cavalry_insight_modifier:0 "ความเข้าใจเชิงลึกด้านทหารม้า"
+ feast_cavalry_insight_modifier_desc:1 "การวางแผนกลยุทธ์เชิงทฤษฎี ทำให้ตัวละครนี้เกิดความคิดว่าจะใช้ทหารม้าของตนอย่างมีประสิทธิภาพมากขึ้นได้อย่างไร"
+ feast_heavy_infantry_insight_modifier:0 "ความเข้าใจเชิงลึกด้านทหารราบหนัก"
+ feast_heavy_infantry_insight_modifier_desc:1 "การวางแผนกลยุทธ์เชิงทฤษฎี ทำให้ตัวละครนี้เกิดความคิดว่าจะใช้ทหารราบหนักของตนอย่างมีประสิทธิภาพมากขึ้นได้อย่างไร"
+ feast_skirmishers_insight_modifier:0 "ความเข้าใจเชิงลึกด้านพลปะทะ"
+ feast_skirmishers_insight_modifier_desc:1 "การวางแผนกลยุทธ์เชิงทฤษฎี ทำให้ตัวละครนี้เกิดความคิดว่าจะใช้พลปะทะของตนอย่างมีประสิทธิภาพมากขึ้นได้อย่างไร"
+ feast_archers_insight_modifier:0 "ความเข้าใจเชิงลึกด้านพลธนู"
+ feast_archers_insight_modifier_desc:1 "การวางแผนกลยุทธ์เชิงทฤษฎี ทำให้ตัวละครนี้เกิดความคิดว่าจะใช้พลธนูของตนอย่างมีประสิทธิภาพมากขึ้นได้อย่างไร"
+ feast_pikemen_insight_modifier:0 "ความเข้าใจเชิงลึกด้านพลหอก"
+ feast_pikemen_insight_modifier_desc:1 "การวางแผนกลยุทธ์เชิงทฤษฎี ทำให้ตัวละครนี้เกิดความคิดว่าจะใช้พลหอกของตนอย่างมีประสิทธิภาพมากขึ้นได้อย่างไร"
+ feast_better_safe_than_sorry_modifier:0 "กันไว้ดีกว่าแก้"
+ feast_better_safe_than_sorry_modifier_desc:1 "ตัวละครนี้ชอบประเมินสถานการณ์และตรวจสอบให้แน่ใจว่าตนพร้อมสำหรับทุกเหตุการณ์ที่อาจเกิดขึ้น"
+ feast_overly_safe_rather_than_sorry_modifier:0 "กันไว้ดีกว่าแก้"
+ feast_overly_safe_rather_than_sorry_modifier_desc:1 "ตัวละครนี้ชอบประเมินสถานการณ์และตรวจสอบให้แน่ใจว่าตนพร้อมสำหรับทุกเหตุการณ์ที่อาจเกิดขึ้น #EMP ทุก#! เหตุการณ์"
+ feast_silenced_a_disruptive_guest:0 "ทำให้แขกผู้ก่อกวนเงียบลง"
+ feast_bad_reaction_to_food:0 "แพ้อาหาร"
+ feast_had_good_fight_modifier:0 "ได้ต่อสู้อย่างน่าพอใจ"
+ feast_loyal_servantry_modifier:0 "ข้ารับใช้ผู้ภักดี"
+
+ i_am_corteous_guest_modifier:0 "แขกผู้สุภาพ"
+ i_am_corteous_guest_modifier_desc:1 "ตัวละครนี้สุภาพและเกรงใจเจ้าภาพเป็นอย่างยิ่ง ไม่ว่าจะอยู่ที่ใดก็ตาม"
+
+ feast_higher_standards_modifier:0 "มาตรฐานความสุภาพที่สูงขึ้น"
+ feast_higher_standards_modifier_desc:0 "มีบางสิ่งที่ชนชั้นสูงพึงละเว้นจากการกระทำ"
+
+ feast_scholarly_confidence_modifier:0 "ความมั่นใจแบบนักปราชญ์"
+ feast_scholarly_confidence_modifier_desc:0 "ไม่ใช่ความโอหังหากมันเป็นความจริง"
+
+ feast_gratifying_complaints_modifier:0 "ความพึงพอใจจากการบ่น"
+ feast_gratifying_complaints_modifier_desc:0 "การบ่นเมื่อมีสิ่งผิดปกติแม้เพียงเล็กน้อยนั้นเป็นการระบายอารมณ์อย่างยิ่ง"
+
+ feast_life_reaffirmed_modifier:0 "ความกระตือรือร้นในชีวิตกลับคืนมา"
+ feast_life_reaffirmed_modifier_desc:1 "การได้ลิ้มลองอาหารในงานเลี้ยงโดยบังเอิญได้จุดประกายความหลงใหลในชีวิตของตัวละครนี้ขึ้นมาใหม่"
+
+ feast_reinvigorated_by_friend_modifier:0 "มิตรภาพที่ฟื้นฟูกำลังใจ"
+ feast_reinvigorated_by_friend_modifier_desc:0 "การใช้เวลากับผู้ที่ห่วงใยเราเป็นสิ่งหนึ่งที่ ทำให้ชีวิตมีคุณค่าควรแก่การดำรงอยู่"
+
+ feast_practiced_secrecy_modifier:0 "ฝึกฝนการรักษาความลับ"
+ feast_practiced_secrecy_modifier_desc:0 "บางสิ่งต้องใช้ทักษะอย่างสูงเพื่อไม่ให้เป็นที่สังเกต"
+
+ feast_showed_great_restraint_modifier:0 "สามารถยับยั้งชั่งใจได้"
+ feast_showed_great_restraint_modifier_desc:0 "สิ่งสำคัญคือต้องรู้ว่าเมื่อใดควรตามใจตนเอง และเมื่อใดควรเสียสละ"
+
+ feast_bad_form_with_rival_modifier:0 "งานเลี้ยงถูกทำลายโดยคู่แข่ง"
+ feast_bad_form_with_rival_modifier_desc:0 "โลกคงจะดีกว่านี้มากหากปราศจาก #EMP ใครบางคน#!"
+
+ feast_had_interesting_conversation_modifier:0 "ได้สนทนาเรื่องน่าสนใจ"
+ feast_had_interesting_conversation_modifier_desc:0 "การสนทนาที่ดีในหัวข้อที่น่าสนใจช่วยกระตุ้นสมองได้จริง ๆ"
+
+ feast_bought_more_drink_modifier:0 "จัดหาเครื่องดื่มเพิ่ม"
+ feast_bought_more_drink_modifier_desc:0 "การจัดหาเครื่องดื่มให้เพียงพอแก่แขกเป็นหน้าที่ของเจ้าภาพทุกคน!"
+
+ feast_good_food_modifier:0 "ได้ทานอาหารเลิศรส"
+ feast_good_food_modifier_desc:0 "การทานอาหารที่ถูกปากอย่างยิ่งนั้นดีต่อทั้งร่างกายและจิตใจ!"
+
+ feast_household_efforts_modifier:0 "ความพยายามของครัวเรือน"
+ feast_household_efforts_modifier_desc:1 "หัวหน้าครัวเรือนของตัวละครนี้กำลังทำหน้าที่จัดการความสัมพันธ์ระหว่างแขกและราชสำนักได้อย่างยอดเยี่ยม"
+
+ feast_raucous_entertainment_modifier:0 "ความบันเทิงอันอึกทึกครึกโครม"
+ feast_raucous_entertainment_modifier_desc:0 "เสียงหัวเราะที่ดีช่วยยืดอายุขัย ตราบใดที่ท่านไม่ใช่ตัวตลกเสียเอง"
+
+ feast_suspicious_of_food_modifier:0 "ระแวงอาหาร"
+ feast_suspicious_of_food_modifier_desc:0 "เมื่อเคยโดนลวกแล้ว จงตรวจสอบอาหารทั้งหมดว่าสุกดีแล้วสองครั้ง"
+
+ feast_display_of_ruthlessness_modifier:0 "การแสดงความเหี้ยมโหดต่อสาธารณะ"
+ feast_display_of_ruthlessness_modifier_desc:1 "ด้วยการแสดงหัวใจอันเย็นชาและเจตจำนงดุจเหล็กกล้าต่อหน้าผู้อื่น ตัวละครนี้ได้สร้างความประทับใจ"
+
+ feast_bird_based_exercise_modifier:0 "การออกกำลังกายโดยใช้นก"
+ feast_bird_based_exercise_modifier_desc:0 "ตัวละครนี้ได้คิดค้นวิธีการฝึกความอดทนแบบใหม่ที่น่าสนใจ"
+
+ feast_livestock_at_feast_modifier:0 "งานเลี้ยงอันคึกคัก"
+ feast_livestock_at_feast_modifier_desc:0 "งานเลี้ยงยังไม่เริ่มอย่างแท้จริงจนกว่าปศุสัตว์จะมาร่วมโต๊ะ"
+
+ feast_spilled_stew_modifier:0 "สตูว์หก"
+ feast_spilled_stew_modifier_desc:0 "ตัวละครนี้ได้จัดงานเลี้ยงอย่างเอื้อเฟื้อเผื่อแผ่ ซึ่งเต็มไปด้วยอาหารอย่างแท้จริง"
+
+ feast_blew_off_steam_modifier:0 "ระบายความเครียด"
+ feast_blew_off_steam_modifier_desc:0 "ตัวละครนี้ไม่ได้พักผ่อนและรู้สึกกระปรี้กระเปร่า เช่นนี้มานานแล้ว!"
+
+ feast_hearty_diet_modifier:0 "อาหารบำรุงกำลัง"
+ feast_hearty_diet_modifier_desc:0 "อาหารที่ดีสามารถรักษาอาการป่วยที่ร้ายแรงที่สุดได้"
+
+ feast_obsessed_with_garum_modifier:0 "หลงใหลในการัม"
+ feast_obsessed_with_garum_modifier_desc:0 "มันเข้ากับทุกอย่าง!"
+
+ feast_moonlight_shadow_modifier:0 "เงาใต้แสงจันทร์"
+ feast_moonlight_shadow_modifier_desc:0 "ท่านได้ขนของออกไปอย่างแน่นอน"
+
+ feast_observed_modifier:0 "ถูกจับตามอง"
+ feast_observed_modifier_desc:0 "ขนที่ต้นคอของท่านไม่ได้ตั้งขึ้นโดยไม่มีเหตุผล"
+
+ feast_honorable_soul_modifier:0 "จิตวิญญาณอันทรงเกียรติ"
+ feast_honorable_soul_modifier_desc:0 "ท่านต่อต้านความอยากที่จะลักเล็กขโมยน้อย"
+
+ feast_truth_bender_modifier:0 "ผู้บิดเบือนความจริง"
+ feast_truth_bender_modifier_desc:0 "ท่านบิดเบือนความจริง เพียงเล็กน้อยเท่านั้น"
+
+ feast_untruthful_modifier:0 "ไม่น่าเชื่อถือ"
+ feast_untruthful_modifier_desc:0 "มีข่าวลือว่าท่านกำลังพูดความเท็จ"
+
+ feast_came_clean_modifier:0 "สารภาพความจริง"
+ feast_came_clean_modifier_desc:0 "ทุกคนต่างก็มีปัญหา – การสารภาพความจริงเปลี่ยนจุดอ่อนของท่านให้เป็นจุดแข็ง"
+ 
+ feast_admitted_to_theft_modifier:0 "ยอมรับว่าขโมย"
+ feast_admitted_to_theft_modifier_desc:0 "ช่างเป็นพฤติกรรมที่แย่เสียจริง"
+
+ feast_dutiful_ruler_modifier:0 "ผู้ปกครองผู้ปฏิบัติหน้าที่"
+ feast_dutiful_ruler_modifier_desc:0 "ท่าน ทำให้แน่ใจว่าผู้กระทำผิดที่ถูกต้องถูกนำตัวเข้าสู่กระบวนการยุติธรรม"
+ 
+ feast_benevolent_ruler_modifier:0 "ผู้ปกครองผู้เมตตา"
+ feast_benevolent_ruler_modifier_desc:0 "ท่านแสดงความให้อภัย"
+
+ feast_sneakily_defaced_artifact_modifier:0 "ทำลายวัตถุโบราณอย่างลับๆ"
+ feast_sneakily_defaced_artifact_modifier_desc:0 "ท่านทำลายวัตถุโบราณอย่างลับๆ"
+
+ feast_7201_goh_honoured_modifier:0 "เป็นที่เคารพนับถืออย่างสูง"
+ feast_7201_goh_honoured_modifier_desc:0 "ตัวละครนี้ได้รับการยกย่องต่อสาธารณะในงานเลี้ยงของขุนนาง"
+
+ feast_well_fed_cat_modifier: "แมวที่ถูกเลี้ยงดูอย่างดี"
+ feast_well_fed_cat_modifier_desc: "แมวของตัวละครนี้ชอบจ้องมองพวกเขาอย่างใกล้ชิดทุกครั้งที่พวกเขากำลังจะกินอาหาร"
+
+ feast_well_fed_dog_modifier: "สุนัขที่ถูกเลี้ยงดูอย่างดี"
+ feast_well_fed_dog_modifier_desc: "สุนัขของตัวละครนี้จ้องมองอย่างตั้งใจทุกครั้งที่พวกเขายกอาหารเข้าปาก"
+
+ feast_queasy_courtiers_modifier: "ข้าราชสำนักที่คลื่นไส้"
+ feast_queasy_courtiers_modifier_desc: "แขกในงานเลี้ยงของตัวละครนี้ไม่พอใจที่ต้องกินเศษอาหารที่พวกเขาเห็นว่าเหมาะสำหรับสัตว์เลี้ยงของตนเท่านั้น"
+
+ feast_sturdy_stomach_modifier: "กระเพาะแข็งแกร่ง"
+ feast_sturdy_stomach_modifier_desc: "เจ้าได้กินอาหารที่น่าสงสัยชิ้นหนึ่งระหว่างงานเลี้ยง และรอดชีวิตมาได้อย่างใด"

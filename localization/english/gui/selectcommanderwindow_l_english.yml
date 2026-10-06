@@ -1,0 +1,13 @@
+﻿l_english: 
+ DETACH_COMMANDER:0 "ถอดผู้บัญชาการ"
+ CANT_COMMAND_TITLE:0 "#T [CHARACTER.GetUIName] ไม่สามารถบัญชาการกองทัพได้#!"
+ CANT_COMMAND_REASON_DEAD:0 "-เสียชีวิตแล้ว"
+ CANT_COMMAND_REASON_IN_POOL:0 "-อยู่ในกลุ่ม"
+ CANT_COMMAND_REASON_FEMALE:0 "-เป็นสตรี"
+ CANT_COMMAND_REASON_COMMANDING:0 "-กำลังบัญชาการกองทัพอื่นอยู่"
+ CANT_COMMAND_REASON_CHILD:0 "-ยังไม่บรรลุนิติภาวะ"
+ CANT_COMMAND_REASON_IN_ACTIVITY:0 "-กำลังยุ่งกับกิจกรรม"
+ CANT_COMMAND_REASON_NOT_POTENTIAL:0 "-ไม่รับคำสั่งจากเจ้าของกองทัพ"
+ CANT_COMMAND_REASON_AT_WAR:0 "-อยู่ในสงครามกับ [TARGET_CHARACTER.GetUIName]"
+ CANT_COMMAND_REASON_BEING_RAISED: "-กำลังถูกเลี้ยงดูในฐานะ [CHARACTER.Custom( 'KnightCulture' )]"
+ CANT_COMMAND_REASON_WOULD_DESTROY_ARMY: "-การถอด [CHARACTER.GetUIName] ออกจาก [CHARACTER.GetKnightArmy.GetName|^V] จะ ทำให้กองทัพนั้นสลายไป"

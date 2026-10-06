@@ -1,0 +1,18 @@
+﻿l_english: 
+ animal_sea_snake: "$animal_snake$ ทะเล ตัวหนึ่ง"
+ animal_yellow_bellied_snake: "$animal_snake$ ท้องเหลือง ตัวหนึ่ง"
+ animal_krait: "งูสามเหลี่ยมตัวหนึ่ง"
+ animal_black_mamba: "งูแบล็คแมมบ้าตัวหนึ่ง"
+ animal_cobra: "งูเห่าตัวหนึ่ง"
+ animal_viper: "งูไวเปอร์ตัวหนึ่ง"
+ animal_tiger_snake: "$animal_snake$ ลายเสือ ตัวหนึ่ง"
+ animal_adder: "งูแอดเดอร์ตัวหนึ่ง"
+ animal_burrowing_asp: "งูแอสพ์นักขุดตัวหนึ่ง"
+ animal_snake_article: "$animal_snake$ ตัวหนึ่ง"
+ animal_grass_snake: "$animal_snake$ หญ้า ตัวหนึ่ง"
+
+ kurultai_member: "สมาชิกคุรุลไต"
+ councillor: "ที่ปรึกษา"
+
+ kurultai_member_possessive: "ของสมาชิกคุรุลไต"
+ councillor_possive: "ของที่ปรึกษา"

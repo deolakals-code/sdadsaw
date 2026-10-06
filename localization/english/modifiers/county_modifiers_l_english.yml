@@ -1,0 +1,115 @@
+﻿l_english: 
+ peasant_war_lost_county_modifier:0 "เพิ่มอำนาจปกครองตนเอง"
+ county_increased_opinion_modifier:0 "ชาวบ้านสงบลง"
+ county_listened_to_locals_modifier:0 "รับฟังชาวบ้าน"
+ county_mysterious_disappearances_modifier:0 "การหายตัวไปอย่างลึกลับ"
+ county_raised_runestone_modifier:0 "ศิลาจารึกอักษรรูน"
+ irrigated_oasis_modifier:0 "โอเอซิสชลประทาน"
+ guarded_irrigated_oasis_modifier:0 "โอเอซิสชลประทานที่มีการป้องกัน"
+ oasis_modifier:0 "โอเอซิส"
+ county_shuubiyya_modifier:0 "ชุอูบียะฮ์"
+ county_forced_assimilation_modifier:0 "การกลืนกินทางวัฒนธรรมโดยบังคับ"
+
+ nine_fingered_peasants_modifier:0 "ไพร่เก้านิ้ว"
+ nine_fingered_peasants_modifier_desc:0 "งานในเคาน์ตีนี้ล่าช้าลง เนื่องจากมีแนวโน้มการหายไปของนิ้ว..."
+
+ county_weapons_ban_in_city_modifier:0 "ห้ามพกอาวุธในเมือง"
+ county_weapons_carried_in_city_modifier:0 "อนุญาตให้พกอาวุธอย่างเปิดเผย"
+ county_increased_presence_modifier:0 "การปรากฏตัวที่เพิ่มขึ้น"
+ county_increased_presence_modifier_desc:0 "เคาน์ตีนี้มีการปรากฏตัวของเจ้าหน้าที่ผู้ใช้ความรุนแรงเพิ่มขึ้น"
+ county_confident_in_humanity_modifier:0 "มั่นใจในความเป็นมนุษย์ของเจ้าเหนือหัว"
+ county_superstitious_of_ruler_modifier:0 "เชื่อโชคลางเกี่ยวกับผู้ปกครอง"
+ county_chastised_beloved_adventurer_modifier_desc:0 "ของตก แต่งอันเป็นที่รักในโรงเตี๊ยมท้องถิ่น: นักผจญภัยผู้ไร้แรงบันดาลใจส่วนใหญ่ ถูกกำจัดโดยผู้ปกครองที่ไม่เห็นด้วย"
+ 
+ harassing_merchants_modifier:0 "พ่อค้าถูกคุกคาม"
+ opulent_pigsty_modifier:0 "คอกหมูหรูหรา"
+
+ hold_court_cropsharing:0 "การแบ่งปันผลผลิต"
+ hold_court_cropsharing_desc:0 "การขาดแคลนที่เกิดจากโรคระบาดได้รับการบรรเทาในเคาน์ตีนี้โดยให้หมู่บ้านท้องถิ่นแบ่งปันผลผลิตของตน"
+ hold_court_free_labor:0 "แรงงานฟรี"
+ hold_court_free_labor_desc:0 "คนงานในเคาน์ตีนี้กำลังตอบแทนความเอื้อเฟื้อของเจ้าเหนือหัวด้วยการทำงานหนักและหยาดเหงื่อ"
+ hold_court_ploughs_to_swords:0 "จากคันไถสู่ดาบ"
+ hold_court_ploughs_to_swords_desc:0 "ฟาร์มในเคาน์ตีนี้ว่างเปล่า ผู้เช่าถูกเกณฑ์ไปรบแทนที่จะหว่านเมล็ด"
+
+ promote_culture_modifier:0 "วัฒนธรรมที่ได้รับการเฉลิมฉลอง"
+
+ small_investment_in_revolt_modifier:0 "เสียงร้องของไพร่"
+ small_investment_in_revolt_modifier_desc:0 "[county_corruption|E]\nไพร่กำลังแสดงความกังวลภายใต้อิทธิพลต่างชาติในเคาน์ตีนี้"
+ medium_investment_in_revolt_modifier:0 "ความโกรธแค้นของไพร่"
+ medium_investment_in_revolt_modifier_desc:0 "[county_corruption|E]\nไพร่ถูกปลุกปั่นโดยสายลับต่างชาติและปฏิเสธที่จะทำงานในเคาน์ตีนี้"
+ high_investment_in_revolt_modifier:0 "การจลาจลของไพร่"
+ high_investment_in_revolt_modifier_desc:0 "[county_corruption|E]\nไพร่ถูกยุยงโดยโฆษณาชวนเชื่อต่างชาติให้ก่อจลาจลทั่วเคาน์ตีนี้, "
+ divide_and_conquer_modifier:0 "โฆษณาชวนเชื่อทางศาสนา"
+ divide_and_conquer_modifier_desc:0 "ชาวบ้านในเคาน์ตีนี้ตกอยู่ภายใต้โฆษณาชวนเชื่อทางศาสนา ชักจูงให้พวกเขารวมตัวกันภายใต้ธงของเจ้าเหนือหัว"
+
+ debug_max_popular_opinion_modifier:0 "$send_friendliness$"
+ debug_max_popular_opinion_modifier_desc:0 "$debug_generic_option$"
+ debug_min_popular_opinion_modifier:0 "$debug_make_dislike_me_interaction$"
+ debug_min_popular_opinion_modifier_desc:0 "$debug_generic_option$"
+
+ lost_holy_order_modifier:0 "สูญเสียภาคีศักดิ์สิทธิ์"
+ lost_holy_order_modifier_desc:0 "ความไม่พอใจถูกกระตุ้นจากการยุบภาคีศักดิ์สิทธิ์ที่เคยครอบครองดินแดนเหล่านี้"
+
+ helped_construct_makeshift_temple:0 "วัดชั่วคราว"
+ helped_construct_makeshift_desc:0 "วัดชั่วคราวถูกสร้างขึ้นที่นี่ เพื่อให้ชาวบ้านมีสถานที่สวดภาวนา"
+
+ cared_for_war_widow:0 "ดูแลแม่ม่ายสงคราม"
+ cared_for_war_widow_desc:0 "แม่ม่ายสงครามในเคาน์ตีนี้ได้รับการดูแลเป็นการส่วนตัวจากผู้มีอำนาจ"
+ ignored_war_widow:0 "เพิกเฉยต่อแม่ม่ายสงคราม"
+ ignored_war_widow_desc:0 "แม่ม่ายสงครามในเคาน์ตีนี้ถูกดูหมิ่นและเพิกเฉย"
+
+ entertained_peasants:0 "ให้ความบันเทิงแก่ไพร่"
+ entertained_peasants_desc:0 "ไพร่ในเคาน์ตีนี้ได้รับความบันเทิงระหว่างการเดินทางตรวจเยี่ยม"
+
+ scared_peasants:0 "ทำให้ไพร่หวาดกลัว"
+ scared_peasants_desc:0 "ไพร่ในเคาน์ตีนี้หวาดกลัวอย่างยิ่งระหว่างการเดินทางตรวจเยี่ยม"
+
+ ugly_statue:0 "รูปปั้นน่าเกลียด"
+ ugly_statue_desc:0 "เคาน์ตีนี้มีรูปปั้นน่าเกลียดตั้งอยู่"
+
+ accurate_statue:0 "รูปปั้นสมจริง"
+ accurate_statue_desc:0 "เคาน์ตีนี้มีรูปปั้นของผู้ปกครองที่น่านับถือตั้งอยู่ แม้หลายคนจะมองว่าน่าเกลียด แต่ผู้ปกครองถือว่าเป็นภาพเหมือนจริงของรูปลักษณ์ของตน"
+
+ destroyed_statue:0 "รูปปั้นที่ถูกทำลาย"
+ destroyed_statue_desc:0 "เคาน์ตีนี้มีรูปปั้นที่ถูกทำลาย"
+
+ released_criminal:0 "ปล่อยตัวอาชญากร"
+ released_criminal_desc:0 "อาชญากรคนหนึ่งถูกปล่อยตัวในเคาน์ตีนี้ขัดต่อความประสงค์ของประชากรท้องถิ่น"
+
+ martially_inspired:0 "ได้รับแรงบันดาลใจทางการทหาร"
+ martially_inspired_desc:0 "ไพร่ในเคาน์ตีนี้ได้รับแรงบันดาลใจทางการทหาร"
+
+ inspired_by_tales:0 "ได้รับแรงบันดาลใจจากนิทาน"
+ inspired_by_tales_desc:0 "ไพร่ในเคาน์ตีนี้ได้รับแรงบันดาลใจจากมหากาพย์"
+
+ desecrated_local_saint_modifier:0 "สุสานถูกลบหลู่"
+ desecrated_local_saint_modifier_desc:0 "การปฏิเสธนักบุญนอกสารบบของตัวละครนี้ ทำให้พวกเขาได้รับทั้งความเชื่อมั่นและความโกรธเคือง"
+ patronized_local_saint_modifier:0 "อุปถัมภ์นักบุญท้องถิ่น"
+ patronized_local_saint_modifier_desc:0 "การยอมรับนักบุญนอกสารบบของตัวละครนี้ ทำให้พวกเขาได้รับทั้งความเชื่อมั่นและความโกรธเคือง"
+ local_saint_modifier:0 "นักบุญท้องถิ่น"
+ local_saint_modifier_desc:0 "การอุปถัมภ์นักบุญท้องถิ่น ซึ่งไม่ได้รับการรับรองจากคณะสงฆ์ในวงกว้าง ได้รับความนิยมในเคาน์ตีนี้"
+ 
+ super_sleuth_modifier:0 "ผู้ไม่เว้นแม้ก้อนหิน"
+ super_sleuth_modifier_desc:0 "ตัวละครนี้จะไม่หยุดยั้งจนกว่าจะค้นพบความจริงและมอบความยุติธรรม"
+ celebrity_executioner_modifier:0 "เพชฌฆาตผู้โด่งดัง"
+ celebrity_executioner_modifier_desc:0 "ผู้คนในเคาน์ตีนี้ได้เห็นการประหารชีวิตที่จะถูกพูดถึงไปอีกหลายปี"
+
+ hamlet_bandit_modifier:0 "ผู้ปราบโจร"
+ hamlet_bandit_modifier_desc:0 "ตัวละครนี้ได้กวาดล้างโจรหนีทัพที่คอยคุกคามสามัญชนด้วยตนเอง"
+ hamlet_bandit_remains_modifier:0 "โจรชุกชุม"
+ hamlet_bandit_remains_modifier_desc:0 "เคาน์ตีนี้ได้รับผลกระทบจากโจรหนีทัพที่ปล้นสะดมอย่างไม่ถูกควบคุม"
+
+ optimized_weighting_sucess:0 "ปรับปรุงตุ้มน้ำหนักตลาด"
+ optimized_weighting_sucess_desc:0 "ในเคาน์ตีนี้ พ่อค้าจ่ายภาษีเพิ่มขึ้นเล็กน้อย ส่วนใหญ่โดยไม่รู้ตัว"
+ optimized_weighting_failure:0 "แผนการชั่งน้ำหนักถูกเปิดโปง"
+ optimized_weighting_failure_desc:0 "พ่อค้ามักหลีกเลี่ยงเคาน์ตีนี้ เนื่องจากระบบการชั่งน้ำหนักที่ไม่เป็นธรรม"
+ new_weighting_system:0 "ระบบการชั่งน้ำหนักใหม่"
+ new_weighting_system_desc:0 "เคาน์ตีนี้ได้รับประโยชน์จากระบบการชั่งน้ำหนักใหม่ที่เหนือกว่า"
+
+ innkeeper_bad_result: "โรงเตี๊ยมเหม็นอับ"
+ innkeeper_bad_result_desc: "มีโรงเตี๊ยมแห่งหนึ่งในบริเวณนี้ที่ทำกำไรได้พอสมควร แต่ก็ดึงดูดเหล่าคนพาล"
+ innkeeper_average_result: "โรงเตี๊ยมระดับกลาง"
+ innkeeper_average_result_desc: "มีโรงเตี๊ยมแห่งหนึ่งในบริเวณนี้ที่ให้ความบันเทิงแก่ผู้คน — แม้จะไม่ถึงกับมีความสุขก็ตามที"
+ innkeeper_good_result: "โรงเตี๊ยมโอฬาร"
+ innkeeper_good_result_desc: "มีโรงเตี๊ยมแห่งหนึ่งในบริเวณนี้ที่ ทำให้ผู้คนร่าเริงเบิกบานใจ"
+ 

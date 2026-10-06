@@ -1,0 +1,155 @@
+﻿l_english: 
+ ##################################################
+ # STRUGGLE EVENTS 
+ ##################################################
+ tgp_dynastic_cycle.0051.t: "$dynastic_cycle$ — [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip]"
+ tgp_dynastic_cycle.0051.desc.intro: "[GetSituation('dynastic_cycle').GetTopSubRegion.GetName] คือดินแดนอันกว้างใหญ่ไพศาลและมั่งคั่ง องค์อธิปัตย์ผู้ได้รับอาณัติให้ปกครองจากสวรรค์โดยตรง จำต้องปกครองอย่างเป็นธรรมเพื่อรักษาความโปรดปรานจากสวรรค์ ในขณะที่การกระทำอันเป็นทรราชย์ย่อมเสี่ยงต่อโทสะแห่งสวรรค์\n\nในยามแห่ง"
+ tgp_dynastic_cycle.0051.desc.advancement: "$tgp_dynastic_cycle.0051.desc.intro$ [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip|l] ความก้าวหน้าทางเทคโนโลยีอันยิ่งใหญ่และการสั่งสมความมั่งคั่งเป็นที่คาดหวังสำหรับทุกคนในอาณาจักร"
+ tgp_dynastic_cycle.0051.desc.expansion: "$tgp_dynastic_cycle.0051.desc.intro$ [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip|l] การพิชิตอันยิ่งใหญ่และวีรกรรมแห่งแสนยานุภาพเป็นที่คาดหวังโดยทุกคนในอาณาจักร"
+ tgp_dynastic_cycle.0051.desc.conquest: "$tgp_dynastic_cycle.0051.desc.intro$ [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip|l] ชะตากรรมของทุกคนในอาณาจักรล้วนไม่แน่นอน"
+ tgp_dynastic_cycle.0051.desc.corruption: "$tgp_dynastic_cycle.0051.desc.intro$ [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip|l], [GetTitleByKey('h_china').GetHolder.GetSheHe] ล้มเหลวในการสืบทอดคุณธรรมแห่งบรรพชนของ [GetTitleByKey('h_china').GetHolder.GetHerHis] รัฐได้ตกเป็นเหยื่อของความเสื่อมทรามทางศีลธรรมและเหล่าขุนนางชั่วร้ายผู้มีชาติตระกูลต่ำต้อย"
+ tgp_dynastic_cycle.0051.desc.consolidation: "$tgp_dynastic_cycle.0051.desc.intro$ [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip|l], [GetSituation('dynastic_cycle').GetTopSubRegion.GetNameNoTooltip] แตกแยกเป็นเสี่ยง เมื่อเหล่าขุนศึกต่างวิวาทชิงชัยเพื่ออ้างสิทธิ์ในอาณัติแห่งสวรรค์ การแสวงหาการบ่มเพาะคุณธรรมได้ถูกละทิ้งไปในยุคสมัยอันโกลาหลนี้"
+ tgp_dynastic_cycle.0051.desc.emperor: "\n\nในฐานะองค์อธิปัตย์ มันคือความรับผิดชอบของข้าในการรักษาอาณัติและปกครองอย่างเปี่ยมคุณธรรม ดุจดังดาวเหนือที่ ซึ่งหมู่ดาวทั้งหลายโคจรล้อมรอบ"
+ tgp_dynastic_cycle.0051.desc.advancement_movement: "มีคำกล่าวว่า ผู้หนึ่งพึงรับใช้ในฐานะขุนนางผู้ปรีชาสามารถในยามสันติ แต่ก็มิอาจปฏิเสธได้ว่า ยุคสมัยแห่งความโกลาหลมักให้รางวัลแก่ผู้มีเล่ห์เหลี่ยมและกลอุบาย มากกว่าผู้เปี่ยมคุณธรรม..."
+ tgp_dynastic_cycle.0051.desc.expansion_movement: "\n\nคน เช่นข้า ผู้รับใช้ในฐานะแม่ทัพผู้ทรงอำนาจ จักรับประกันความมั่นคงแห่งอาณาจักร"
+ tgp_dynastic_cycle.0051.desc.pro_hegemon_movement: "\n\nเพียงองค์อธิปัตย์เท่านั้นที่อาจบรรลุพันธสัญญา และข้าจะมอบการสนับสนุนอันแน่วแน่แก่ [GetTitleByKey('h_china').GetHolder.GetHerHim]!"
+ tgp_dynastic_cycle.0051.desc.conservative_movement: "\n\nตระกูลของข้าจักปฏิบัติตามการชี้นำแห่งสวรรค์เสมอ"
+ tgp_dynastic_cycle.0051.desc.unaligned_movement: "\n\nบทบาทของข้าในวัฏจักรอันมิรู้จบนี้ช่างไม่แน่นอน สวรรค์จะนำทางข้า เมื่อข้าพร้อมที่จะเลือกจุดยืน"
+ tgp_dynastic_cycle.0051.desc.interloper: "\n\nนี่อาจมิใช่ดินแดนแห่งบรรพชนของเรา แต่สถานที่แห่งนี้ก็เปี่ยมด้วยโอกาสอันยากจะต้านทาน ขอเพียงเราย่างก้าวอย่างระมัดระวัง"
+ tgp_dynastic_cycle.0051.a.emperor: "ขอให้รัชสมัยของเรายืนยงหมื่นปี!"
+ tgp_dynastic_cycle.0051.a.involved: "ความมั่งคั่งและเกียรติยศล้วนขึ้นอยู่กับสวรรค์!"
+ tgp_dynastic_cycle.0051.a.interloper: "โชคชะตานั้นไม่แน่นอนดุจสายลมและเมฆา"
+ intro_event_joined_movement: "เข้าร่วม [my_movement.GetName]"
+ tgp_dynastic_cycle.0052.t: "เข้าร่วม [ROOT.Char.Custom('GetMyMovementNoTooltip')]"
+ tgp_dynastic_cycle.0052.desc.intro_common: "[GetTitleByKey('h_china').GetHolder.GetName] ได้รับการเจิมจากสวรรค์เพื่อบรรลุพันธสัญญาแห่งยุค [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetName] ในขณะเดียวกัน ข้าได้เลือกเส้นทางแห่ง [ROOT.Char.Custom('GetMyMovement')]"
+ tgp_dynastic_cycle.0052.desc.intro: "$tgp_dynastic_cycle.0052.desc.intro_common$\n\nภายนอกนั้นมีสิ่งยั่วยวนและผู้ทรงอิทธิพลมากมาย ในตอนนี้ ข้าควรอยู่ให้ห่างจากการเมืองทั้งปวง และมุ่งเน้นไปที่ดินแดนและตำแหน่งในท้องถิ่นของข้า\n\n"
+ tgp_dynastic_cycle.0052.desc.advancement: "ข้าหวังในความเจริญรุ่งเรืองแห่งอาณาจักร และผู้คนสามารถบ่มเพาะชีวิตของตนได้ บางทีวันหนึ่ง ข้าอาจมองการเข้าร่วม [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('advancement_movement').GetName] ด้วยความชื่นชมยินดีมากกว่า"
+ tgp_dynastic_cycle.0052.desc.expansion: "ข้าจะคอยติดตามข่าวสารจากแนวรบอย่างใกล้ชิด และส่งกำลังใจให้การพิชิตทั้งปวง บางที เมื่อนั้น ข้าอาจพิจารณาเข้าร่วม [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('expansion_movement').GetName]"
+ tgp_dynastic_cycle.0052.desc.conquest: "แม้ว่าข้าจะเฝ้าสังเกตการปกครองของ [ROOT.Char.GetTopLiege.GetDynastyName] และดำเนินการตามสมควร หากพวกเขาบังเอิญสูญเสียหรือได้รับความโปรดปรานจากสวรรค์"
+ tgp_dynastic_cycle.0052.desc.instability: "อย่างไรก็ตาม ข้ายังคงกังวลว่าอาณาจักรนี้กำลังมุ่งหน้าไปทางใด และระแวงว่า [ROOT.Char.GetTopLiege.GetDynastyName] ผู้ปกครองจะสูญเสีย [ROOT.Char.GetTopLiege.GetLegitimacyType.GetFlavorName(ROOT.Char.GetTopLiege.GetLegitimacyLevel.Self)]"
+ tgp_dynastic_cycle.0052.a: "ข้าจะยังคงเป็นกลาง"
+ tgp_dynastic_cycle.0053.t: "$tgp_dynastic_cycle.0052.t$"
+ tgp_dynastic_cycle.0053.desc.intro: "$tgp_dynastic_cycle.0052.desc.intro_common$\n\nจักมีโอกาสมากมายในการเรียนรู้ยุทธวิธีและกลยุทธ์ทางการทหารใหม่ๆ จากสมาชิกร่วมขบวนการของข้า ณ จุดสูงสุดของขั้นบันไดนั้น คือตำแหน่งอันเจิดจรัสของ [ROOT.Char.GetTopLiege.GetCouncillor('councillor_marshal').GetCouncilTitle] จุดสูงสุดแห่งสายอาชีพทหารที่ทุกคน ณ ที่นี้มุ่งหวัง"
+ tgp_dynastic_cycle.0053.desc.advancement: "แม้ว่า จุดยืนในปัจจุบันของ [ROOT.Char.GetTopLiege.GetName] จะมิได้สนับสนุนพวกเราอย่างเต็มที่ ยังมีการดำเนินการที่ต้องทำเพื่อชักนำ [GetSituation('dynastic_cycle').GetName] ให้เคลื่อนไปสู่ [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName] เพื่อตระหนักถึงศักยภาพของเรา"
+ tgp_dynastic_cycle.0053.desc.expansion: "เจตจำนงแห่งสวรรค์คือการพิชิต และพวกเราก็พร้อมแล้ว!"
+ tgp_dynastic_cycle.0053.desc.conquest: "เจตจำนงแห่งสวรรค์คือการพิชิต และ [ROOT.Char.GetTopLiege.GetDynastyName] ก็เป็นผู้นำตัวอย่าง"
+ tgp_dynastic_cycle.0053.desc.instability: "แม้ว่า ยุคสมัยจะไม่แน่นอนและนิมิตต่างๆ ก็มืดมัว มีเพียงกองทัพเท่านั้นที่สามารถรักษาความเป็นระเบียบเรียบร้อยไว้ได้ หวังว่า [ROOT.Char.GetTopLiege.GetDynastyName] จะตระหนักได้ในไม่ช้า"
+ tgp_dynastic_cycle.0053.a: "เพียงผู้แข็งแกร่งที่สุดเท่านั้นที่จะได้ชัย!"
+ tgp_dynastic_cycle.0054.t: "$tgp_dynastic_cycle.0052.t$"
+ tgp_dynastic_cycle.0054.desc.intro: "$tgp_dynastic_cycle.0052.desc.intro_common$\n\nเป้าหมายของเราคือการแบ่งปันความงดงามแห่งศิลปะและความรู้ การบ่มเพาะจิตใจและจิตวิญญาณคือหนทางอันแน่นอนที่จะได้รับความเมตตาจากสวรรค์"
+ tgp_dynastic_cycle.0054.desc.advancement: "ราชวงศ์ [ROOT.Char.GetTopLiege.GetDynastyName] กำลังอยู่บนเส้นทางเดียวกัน ซึ่งจะนำพาความเจริญรุ่งเรืองและการรู้แจ้งมาสู่ทุกคนภายใต้สวรรค์! มารักษามันไว้ เช่นนี้เถิด"
+ tgp_dynastic_cycle.0054.desc.expansion: "[ROOT.Char.GetTopLiege.GetDynastyName] กำลังอยู่บนเส้นทางแห่งการทำลายล้าง กองทัพนั้นมีราคาแพง และเหล่าแม่ทัพก็โลเลและเป็นอันตราย พวกเราต้องหันเหอำนาจออกไปจากพวกเขา"
+ tgp_dynastic_cycle.0054.desc.conquest: "[ROOT.Char.GetTopLiege.GetDynastyName] นั้นยังใหม่ จึงสามารถชักจูงให้ตระหนักได้ว่า เจตจำนงแห่งสวรรค์นั้นมาจากการสอบคัดเลือกและขุนนางผู้เที่ยงธรรม!"
+ tgp_dynastic_cycle.0054.desc.instability: "[ROOT.Char.GetTopLiege.GetDynastyName] กำลังหลงทาง อย่างไรก็ตาม เราสามารถช่วยนำพวกเขากลับสู่เส้นทางที่ถูกต้องได้ โดยการรับประกันว่าจะมีการสอบคัดเลือกบ่อยครั้งและมีขุนนางผู้เปี่ยมคุณงามความดี"
+ tgp_dynastic_cycle.0054.a: "คุณงามความดีอยู่เหนือทุกสิ่ง"
+ tgp_dynastic_cycle.0055.t: "$tgp_dynastic_cycle.0052.t$"
+ tgp_dynastic_cycle.0055.desc.intro: "$tgp_dynastic_cycle.0052.desc.intro_common$\n\nข้าและสมาชิกร่วมขบวนการได้มอบหมายชีวิตของพวกเราไว้กับ [GetTitleByKey('h_china').GetHolder.GetHerHim] ด้วยปัญญาและการชี้นำของ [GetTitleByKey('h_china').GetHolder.GetHerHis] พวกเราจะนำมา ซึ่ง "
+ tgp_dynastic_cycle.0055.desc.advancement: "ความเจริญรุ่งเรือง ความมั่งคั่ง และความก้าวหน้าทางเทคโนโลยีมาสู่ทุกคนภายใต้สวรรค์"
+ tgp_dynastic_cycle.0055.desc.expansion: "ดินแดนใหม่และผู้คนที่จะตระหนักถึงชะตากรรมของ [GetTitleByKey('h_china').GetHolder.GetHerHis] ในการปกครองพวกเขาอย่างเป็นธรรม"
+ tgp_dynastic_cycle.0055.desc.conquest: "ทุกคนภายใต้สวรรค์ให้ตระหนักว่า [GetTitleByKey('h_china').GetHolder.GetDynastyName] นั้นคู่ควรต่ออาณัติแห่งสวรรค์"
+ tgp_dynastic_cycle.0055.desc.instability: "ดวงอาทิตย์กลับคืนมาในยุคสมัยอันมืดมัวนี้"
+ tgp_dynastic_cycle.0055.a: "สรรเสริญแด่สวรรค์และ [ROOT.Char.GetTopLiege.GetDynastyNameNoTooltip]!"
+ tgp_dynastic_cycle.0056.t: "$tgp_dynastic_cycle.0052.t$"
+ tgp_dynastic_cycle.0056.desc.intro: "$tgp_dynastic_cycle.0052.desc.intro_common$\n\nธรรมเนียมปฏิบัติที่สร้างโดยคนรุ่นก่อนควรเป็นศิลาหัวมุมแห่งระบบราชการของ [ROOT.Char.GetTopLiege.GetDynastyName]\n\n"
+ tgp_dynastic_cycle.0056.desc.advancement: "อย่างไรก็ตาม [ROOT.Char.GetTopLiege.GetName] กำลังมืดบอดด้วยการสอบคัดเลือก ปล่อยให้ชาวบ้านจากต่างจังหวัดเข้ามารับตำแหน่ง ในไม่ช้า พวกเขาจะดูหมิ่นประวัติศาสตร์ของเรา"
+ tgp_dynastic_cycle.0056.desc.expansion: "อย่างไรก็ตาม [ROOT.Char.GetTopLiege.GetName] กำลังยุ่งอยู่กับการผลาญชีวิตพี่น้องของเราในสงครามอันไร้สติ ในขณะที่เหล่าแม่ทัพวิ่งเต้นอย่างอิสระ ฉกฉวยอำนาจและตำแหน่งไปจากตระกูลของเรา"
+ tgp_dynastic_cycle.0056.desc.conquest: "[ROOT.Char.GetTopLiege.GetName] ต้องเห็นว่านี่คือหนทางเดียวที่จะรักษาความเป็นระเบียบในอาณาจักร ทุกคนภายใต้สวรรค์จะยอมรับการปกครองของ [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] หากได้รับการสนับสนุนจากตระกูลอันเป็นที่รักของเรา"
+ tgp_dynastic_cycle.0056.desc.instability: "[ROOT.Char.GetTopLiege.GetName] ได้สูญเสียความน่าเชื่อถือไปมาก หนทางเดียวที่จะฟื้นฟูความเมตตาของ [ROOT.Char.GetTopLiege.GetHerHis] คือการ ทำให้แน่ใจว่า [ROOT.Char.GetTopLiege.GetSheHe] ปฏิบัติตามตระกูลของเรา"
+ tgp_dynastic_cycle.0056.a: "ความแข็งแกร่งพบได้ในสายสัมพันธ์แห่งตระกูล"
+
+ ### ENTER STABILITY - NEW DYNASTY ### 0061 - 0070 ###
+
+ tgp_dynastic_cycle.0061.t: "[GetTitleByKey('h_china').GetHolder.Custom('GetDaughterSon')|U] ผู้เป็นที่โปรดปรานแห่งสวรรค์"
+ tgp_dynastic_cycle.0061.desc: "มีคำกล่าวว่า สวรรค์นั้นเที่ยงธรรมและเข้าข้างผู้เปี่ยมคุณธรรมเสมอ และก็มีคำกล่าว เช่นกันว่า ผู้ชนะคือราชา ผู้แพ้คือโจร บัลลังก์แห่ง [GetTitleByKey('h_china').GetNameNoTierNoTooltip] บัดนี้เป็น #EMP ของข้า#! และมาพร้อมกับการรับรองอันศักดิ์สิทธิ์ในการปกครอง [GetTitleByKey('h_china').GetNameNoTierNoTooltip] ทั้งปวง\n\nบัดนี้ ข้าต้องตัดสินใจเลือกทิศทางสำหรับขุนนางใหม่และกองทัพข้าราชการของพวกเขา เพื่อทุ่มเทความพยายามไปในทางนั้น"
+ tgp_dynastic_cycle.0061.a: "มันคือหน้าที่ของเราที่จะส่งเสริมคุณธรรมและขจัดความชั่วร้าย"
+ tgp_dynastic_cycle.0061.b: "ภายใต้สวรรค์อันกว้างใหญ่ #EMP ทั้งปวง#! ล้วนเป็นข้าแผ่นดินของ [ROOT.Char.GetTitleAsNameNoTooltip]"
+ tgp_dynastic_cycle.0061.c: "เมื่อยืนอยู่บนจุดสูงสุดของโลก ทุกสิ่งอย่างก็ล้วนเล็กน้อยไป"
+
+ # Notification for relevant people
+
+ tgp_dynastic_cycle.0062.desc.involved: "ความโปรดปรานที่สวรรค์ประทานให้ ย่อมเพิ่มขึ้นและลดลงตามคุณธรรม — หรือการขาดคุณธรรม — ขององค์อธิปัตย์ผู้ถูกเลือก\n\nบัดนี้ ดวงดาวแห่ง [GetTitleByKey('h_china').GetHolder.GetDynastyName] กำลังรุ่งโรจน์ และ [GetTitleByKey('h_china').GetHolder.GetTitledFirstName] ก็ครอบครองการรับรองอันศักดิ์สิทธิ์แห่งสวรรค์อย่างชัดแจ้ง"
+ tgp_dynastic_cycle.0062.desc.interloper: "เมื่อโชคชะตาที่จัดสรรให้ [GetTitleByKey('h_china').GetHolder.Custom('WomanManPossessive')] ผู้หนึ่งลดน้อยลง ของอีกผู้หนึ่งก็เพิ่มพูนขึ้น เพราะแม้ แต่ราชาและจักรพรรดิก็มิอาจรอดพ้นจากความผันผวนแห่งโชคชะตา\n\n[GetTitleByKey('h_china').GetHolder.GetTitledFirstName] ได้อ้างสิทธิ์ในอาณัติแห่งสวรรค์แล้ว และทุกคนก็ถูกคาดหวังให้หมอบกราบแทบเท้าองค์อธิปัตย์องค์ใหม่นี้"
+ tgp_dynastic_cycle.0062.desc.uninvolved: "จักรวรรดิต่างรุ่งโรจน์และล่มสลาย และสิ่งเก่าก็หลีกทางให้สิ่งใหม่ บัลลังก์แห่ง [GetTitleByKey('h_china').GetNameNoTierNoTooltip] ตกเป็นของ [GetTitleByKey('h_china').GetHolder.GetTitledFirstName] แล้ว และทุกคนต้องรับรู้ถึงองค์อธิปัตย์องค์ใหม่นี้ ไม่ว่าจะอยู่ภายในหรือภายนอกอาณาจักรของ [GetTitleByKey('h_china').GetHolder.GetHerHis]\n\nการเปลี่ยนแปลงในสายลมแห่งโชคชะตา เช่นนี้ มิอาจปฏิบัติด้วยอย่างเบามือได้"
+ tgp_dynastic_cycle.0062.a: "เราควรประเมินความสามารถของ [GetTitleByKey('h_china').GetHolder.GetHerHis] อย่างระมัดระวัง"
+ tgp_dynastic_cycle.0062.b: "$tgp_dynastic_cycle.0072.b$"
+
+ ### ENTER STABILITY - EXISTING DYNASTY ### 0071 - 0080 ###
+
+ tgp_dynastic_cycle.0071.t: "หลังฝนซา ตะวันย่อมฉายแสง"
+ tgp_dynastic_cycle.0071.desc: "เมฆพายุที่ยังหลงเหลือได้สลายไป และท้องฟ้าอันแจ่มใสก็ทอแสงเหนือ [GetTitleByKey('h_china').GetNameNoTierNoTooltip] อีกครั้ง ข้าได้เอาชนะบททดสอบที่อยู่เบื้องหน้าข้าแล้ว และบัดนี้ไม่มีผู้ใดสามารถสงสัยหรือโต้แย้งได้ว่า ข้าคือ [ROOT.Char.Custom('GetDaughterSon')] ผู้ถูกเลือกโดยสวรรค์อย่างแท้จริง\n\nเมื่อยามยากลำบากผ่านพ้นเราไป ข้าต้องกำหนดเส้นทางใหม่สู่อนาคต เพื่อให้ทุกคนสามารถรวมเป็นหนึ่งภายใต้จุดประสงค์เดียวกัน"
+ tgp_dynastic_cycle.0071.a: "$tgp_dynastic_cycle.0061.a$"
+ tgp_dynastic_cycle.0071.b: "$tgp_dynastic_cycle.0061.b$"
+ 
+ # Notification for relevant people
+
+ tgp_dynastic_cycle.0072.desc.advancement: "หลังจากอดทนต่อช่วงเวลาแห่งความยากลำบากและความโกลาหลครั้งใหญ่ [GetTitleByKey('h_china').GetNameNoTierNoTooltip] ก็กลับสู่สันติสุขอีกครั้ง ความทุกข์ยากที่สวรรค์ส่งมาได้ถูกเอาชนะแล้ว และทุกคนสามารถมั่นใจได้ว่า [GetTitleByKey('h_china').GetHolder.GetTitledFirstName] ยังคงได้รับความโปรดปรานจากสวรรค์"
+ tgp_dynastic_cycle.0072.desc.expansion: "$tgp_dynastic_cycle.0051.desc.advancement$"
+ tgp_dynastic_cycle.0072.desc.conquest: "$tgp_dynastic_cycle.0051.desc.advancement$"
+ tgp_dynastic_cycle.0072.desc.involved: "สำหรับบางคน นี่คือสัญญาณแห่งการสิ้นสุดของความทะเยอทะยาน แต่สำหรับหลายคน มันนำมา ซึ่งเสียงถอนหายใจแห่งความโล่งอกอันหอมหวาน"
+ tgp_dynastic_cycle.0072.desc.interloper: "ยามสันติสุขนั้นมอบโอกาสให้วีรบุรุษผู้กล้าหาญเพียงน้อยนิดในการสร้างชื่อเสียง แต่หนทางอื่นสู่ความก้าวหน้าอาจปรากฏขึ้นในบัดนี้"
+ tgp_dynastic_cycle.0072.desc.uninvolved: "ดูเหมือนว่าราชวงศ์ [GetTitleByKey('h_china').GetHolder.GetDynastyName] จะยังคงเหลือความแข็งแกร่งอยู่บ้าง"
+ tgp_dynastic_cycle.0072.a: "สายลมวสันต์พัดผ่าน และผืนหญ้าก็เติบโตอีกครั้ง"
+ tgp_dynastic_cycle.0072.b: "หนทางเดียวคือการปฏิบัติตามโองการสวรรค์"
+ tgp_china_consolidation.remain_independent: "ดำรงสถานะเป็น [independent_ruler|E]"
+
+ ### ENTER CONSOLIDATION ###
+
+ tgp_dynastic_cycle.0081.t: "จักรวรรดิ รวมกันเนิ่นนาน ย่อมแบ่งแยก"
+ tgp_dynastic_cycle.0081.desc: "ในชั่วพริบตา สวรรค์สั่นสะเทือนและโลกก็พลิกคว่ำ\n\nขุนนางผู้ภักดีหนีไปค้นหานายใหม่ เหล่าทหารละทิ้งหน้าที่ และบัดนี้ แม้ แต่ชาวนาก็ละทิ้งดินแดนของข้า เพราะกลัวความโกลาหลที่จะมาถึง\n\nความเลวร้ายทั้งปวงถูกโยนให้เป็นการปกครองอัน #EMP ชั่วช้า#! ของข้า และมีการประกาศไปไกลทั่วแคว้นว่า ข้าได้สูญเสียอาณัติแห่งสวรรค์แล้ว!"
+ tgp_dynastic_cycle.0081.a: "เมื่อต้นไม้ล้ม เหล่าลิงก็แตกฮือ"
+ 
+ # Notification for relevant people
+
+ tgp_dynastic_cycle.0082.desc.involved: "เจตจำนงของประชาชนและเจตจำนงของสวรรค์คือสิ่งเดียวกัน และในครานี้ คำกล่าวโบราณก็ได้เป็นจริง - #EMP อาณัติแห่งสวรรค์ได้สูญสิ้นไปแล้ว#!\n\nแผ่นดินได้แตกสลาย มังกรและพยัคฆ์ต่างต่อสู้กันอย่างละโมบเพื่อชิงบัลลังก์\n\nยุคสมัยอันปั่นป่วนรออยู่เบื้องหน้า"
+ tgp_dynastic_cycle.0082.desc.interloper: "จากที่เคยมีเพียงหนึ่ง บัดนี้กลับมีมากมาย\n\nด้วยการสูญเสียอาณัติแห่งสวรรค์ จึงไม่มีผู้ปกครองอันชอบธรรมให้เชื่อฟัง และการเสแสร้งทั้งปวงก็ถูกละทิ้ง ความทะเยอทะยานที่ซ่อนเร้นทั้งหมดถูกเปิดเผย\n\nผู้กล้าต้องฉกฉวยโอกาสเมื่อมันมาถึง"
+ tgp_dynastic_cycle.0082.desc.uninvolved: "ชาติอันยิ่งใหญ่กำลังลุกเป็นไฟ และเหล่าข้าแผ่นดินก็จับอาวุธขึ้นต่อสู้แย่งชิงเถ้าถ่านของมัน\n\n[GetTitleByKey('h_china').GetNameNoTierNoTooltip] ได้แตกแยกเป็นเสี่ยง ความเปลี่ยนแปลงครั้งใหญ่คือสิ่งเดียวที่แน่นอนในอนาคตอันใกล้ และผู้ที่เข้าไปยุ่งเกี่ยวกับความโกลาหลที่จะมาถึง ก็คือผู้ที่ก้าวเข้าสู่ถ้ำเสือด้วยความเต็มใจ"
+ tgp_dynastic_cycle.0082.a: "วิกฤตคือโอกาส"
+
+ ### ENTER CORRUPTION ###
+
+ tgp_dynastic_cycle.0091.t: "ลางสังหรณ์แห่งความวิบัติ"
+ tgp_dynastic_cycle.0091.desc: "แม้ว่าข้าจะพยายามอย่างขยันหมั่นเพียรที่จะปกครองอย่างเป็นธรรม ข้ากลับได้ยินเสียงกระซิบแห่งความไม่พอใจมากขึ้นเรื่อยๆ\n\nข้าต้องเผชิญกับความเป็นไปได้อันน่าอึดอัดใจว่า ศรัทธาในความโปรดปรานแห่งสวรรค์ต่อรัชสมัยของข้า อาจเริ่มสั่นคลอน เพราะความรู้สึก เช่นนี้สามารถสั่นคลอนได้แม้กระทั่งรากฐานที่มั่นคงที่สุดของบัลลังก์"
+ tgp_dynastic_cycle.0091.a: "น้ำที่พยุงเรือให้ลอยอยู่ได้ ก็สามารถคว่ำเรือได้ เช่นกัน"
+ 
+ # Notification for relevant people
+
+ tgp_dynastic_cycle.0092.desc.involved: "โลกกำลังทนทุกข์จากโรคร้าย โรคภัยแห่งจิตวิญญาณ\n\nความมุ่งร้ายและการประพฤติมิชอบแพร่กระจายอย่างมิอาจควบคุม ในที่ ซึ่งเสาหลักแห่งคุณธรรมเคยตั้งอยู่อย่างแข็งแกร่ง ขุนนางผู้ไร้ศีลธรรมสร้างความร่ำรวยให้ตนเองบนความทุกข์ยากของมวลชนที่พวกเขาปกครอง และเหล่าทหารก็ครุ่นคิดว่า การปล้นสะดมนั้นดีกว่าการปกป้องหรือไม่"
+ tgp_dynastic_cycle.0092.desc.interloper: "ดูเหมือนว่าทุกอย่างจะไม่สู้ดีนักใน [GetTitleByKey('h_china').GetNameNoTierNoTooltip]\n\nใน แต่ละวันที่ผ่านไป กองคาราวานหรือขบวนสินค้าอีกขบวนก็หนีออกจากดินแดนของพวกเขา เพื่อค้นหาทุ่งหญ้าที่เขียวขจีกว่าดังคำเปรียย แม้ แต่พ่อค้าที่โลภมากที่สุดของเรา ก็ยังนิยมดินแดนของเรามากกว่าของพวกเขามากขึ้นเรื่อยๆ เล่าขานเรื่องราวอันน่าเศร้าของการขูดรีดทั้งด้วยคมดาบและปลายปากกา"
+ tgp_dynastic_cycle.0092.desc.uninvolved: "$tgp_dynastic_cycle.0092.desc.interloper$"
+ tgp_dynastic_cycle.0092.a: "ความชั่วร้ายคือโรคร้ายที่ยาใดก็มิอาจรักษา"
+
+ tgp_dynastic_cycle.9001.t: "รากฐานแห่งรัฐ"
+ tgp_dynastic_cycle.9001.desc: "ดั่ง เช่นแม่น้ำทุกสายไหลตะวันออกสู่ทะเล ฉันใด มวลชนผู้อาศัยอยู่ภายใต้สวรรค์ก็มองมายังข้าในฐานะองค์อธิปัตย์ของพวกเขา ฉันนั้น\n\nขั้นตอนแรกในการเริ่มต้นรัชสมัยของข้า คือการประกาศนามแห่งอาณาจักรของเรา เพื่อให้ทุกคนได้รู้ว่าจะเรียกขานสิ่งที่พวกเขาเป็นส่วนหนึ่งว่ากระไร\n\nนามใดเล่า ที่วีรกรรมของเราจะดังกึกก้องไปในประวัติศาสตร์?"
+ tgp_dynastic_cycle.9001.a: "จงให้ได้ยินและรับรู้!" # 咸使聞知
+
+ tgp_dynastic_cycle.9002.t: "ธาตุแห่งคุณธรรม"
+ tgp_dynastic_cycle.9002.desc: "สวรรค์มีห้าธาตุ ซึ่งต้องได้รับการควบคุมอย่างเหมาะสมและดูแลอย่างกลมกลืน\n\nไม้ ไฟ ดิน โลหะ และน้ำ\n\nนับ แต่สมัยโบราณ แต่ละราชวงศ์ที่เพิ่งรุ่งเรืองขึ้นใหม่ ได้ยอมรับหนึ่งในธาตุตัวแทนแห่งการเปลี่ยนแปลงเหล่านี้เป็นของตน และใช้สีธงตามนั้น และบัดนี้ข้าก็ต้องเลือก เช่นกัน"
+ tgp_dynastic_cycle.9002.yellow: "ข้าเลือก #color:{0.82,0.77,0.5};bold สีเหลือง#!; สัญลักษณ์แห่งดิน อันมั่นคงดั่งรากฐานของเรา"
+ tgp_dynastic_cycle.9002.red: "จงเป็น #color:{0.80,0.3,0.3};bold สีแดง#! ดั่งไฟที่ลุกโชนอย่างเกรี้ยวกราดในใจข้า"
+ tgp_dynastic_cycle.9002.white: "#color:{1.0,1.0,1.0};bold สีขาว#! อันบริสุทธิ์และไร้มลทิน สำหรับโลหะอันแข็งแกร่งและไม่ยอมจำนน"
+ tgp_dynastic_cycle.9002.black: "ธงของเราควรเป็น #color:{0.4,0.39,0.37};bold สีดำ#! ดั่งผืนน้ำอันไร้ขอบเขตและสุดจะหยั่งถึง"
+ tgp_dynastic_cycle.9002.green: "มันควรเป็น #color:{0.4,0.61,0.3};bold สีเขียว#! แห่งใบไม้ในฤดูใบไม้ผลิและการเติบโตอันเขียวชอุ่ม"
+
+ tgp_dynastic_cycle_decision_event.0101.t: "$renounce_noble_family_title_decision$"
+ tgp_dynastic_cycle_decision_event.0101.desc: "ข้าพยายามอย่างยากลำบากที่จะมองข้ามกองเอกสารที่สูงขึ้นเรื่อยๆ เมื่อข้าหลับตา ทั้งหมดที่ข้าได้ยินคือเสียงเด็กๆ กำลังเล่น ผู้สูงวัยกำลังพูดคุย และผู้ใหญ่กำลังดื่มด่ำกับงานเลี้ยง โอ้ กลิ่นของ [ROOT.Char.Custom('RegionalEdibleMeat')] ที่กำลังถูกย่าง!\n\nข้าทำงานหนักมากเพื่อมาถึงจุดนี้ และข้าก็ชื่นชมยินดีกับมันมาก แต่บัดนี้ ข้ารู้สึกถึงความเหนื่อยล้า ข้ามั่นใจว่า [new_player.Custom2('MyCharacterIntroduction', ROOT.Char)] ของข้า กระตือรือร้นที่จะรับตำแหน่งแทนข้า\n\nข้าสมควรที่จะเพลิดเพลินกับเวลาที่ข้าเหลืออยู่"
+ tgp_dynastic_cycle_decision_event.0101.a: "ข้าเชื่อใจว่า [new_player.GetFirstNameNoTooltip] จะจัดการทุกอย่างได้"
+
+ dynastic_cycle_entered_conquest_tt: "[GetSituation('dynastic_cycle').GetName] ได้เข้าสู่ [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability_conquest').GetName]"
+ dynastic_cycle_entered_chaos_tt: "[GetSituation('dynastic_cycle').GetName] ได้เข้าสู่ [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName]"
+ dynastic_cycle_entered_chaos_changed_top_liege_tt: "[new_top_liege.GetShortUIName] ได้กลายเป็น [top_liege|E] คนใหม่ของท่าน"
+ dynastic_cycle_entered_chaos_became_independent_tt: "[relevant_character.GetShortUIName|U] ได้กลายเป็น [independent|E]"
+ chaos_new_vassals_tt: "กลายเป็น [vassals|E] ของท่าน #weak ([chaos_new_vassals_count])#!"
+ custom.chaos_new_vassals: "$BULLET$สมาชิก [movement|E] และ [disciples|E] ที่ [independent|E] ทั้งหมด ซึ่งมี [title_tier|E] ต่ำกว่า #V ท่าน#! ที่อยู่ติดกับ [realm|E] ของท่าน"
+ custom.chaos_new_vassals_disciples: "$BULLET$[disciples|E] ที่ [independent|E] ทั้งหมด ซึ่งมี [title_tier|E] ต่ำกว่า #V ท่าน#! ที่อยู่ติดกับ [realm|E] ของท่าน"
+ chaos_new_tributaries_tt: "กลายเป็น [tributaries|E] ของท่าน #weak ([chaos_new_tributaries_count])#!"
+ custom.chaos_new_tributaries: "$BULLET$สมาชิก [movement|E] และ [disciples|E] ที่ [independent|E] ทั้งหมด ซึ่งมี [title_tier|E] เท่ากันหรือสูงกว่า #V ท่าน#! หรือไม่อยู่ติดกับ [realm|E] ของท่าน"
+ custom.chaos_new_tributaries_disciples: "$BULLET$[disciples|E] ทั้งหมดที่มี [title_tier|E] เท่ากันหรือสูงกว่า #V ท่าน#! และทั้งหมดที่ไม่อยู่ติดกับ [realm|E] ของท่าน"
+ dynastic_cycle_entered_chaos_hunagdi_tt: "[son_of_heaven|E] ก้าวลงจากตำแหน่งและสูญเสีย [titles|E] ที่ [landed|E] ทั้งหมด และ [mandate_of_heaven|E]"
+ dynastic_cycle_entered_stability_advancement_past_tt: "[GetSituation('dynastic_cycle').GetName] ได้เข้าสู่ [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]"
+ dynastic_cycle_entered_stability_advancement_tt: "[GetSituation('dynastic_cycle').GetName] เข้าสู่ [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]"
+ dynastic_cycle_entered_stability_expansion_past_tt: "[GetSituation('dynastic_cycle').GetName] ได้เข้าสู่ [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]"
+ dynastic_cycle_entered_stability_expansion_tt: "[GetSituation('dynastic_cycle').GetName] เข้าสู่ [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]"
+ dynastic_cycle_entered_instability_tt: "[GetSituation('dynastic_cycle').GetName] ได้เข้าสู่ [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName]"
+ tgp_hegemon_picked_different_era_opinion: "เลือก [dynastic_cycle_era_type_stable|E] ที่แตกต่างจากที่คาดไว้"
+ tgp_hegemon_picked_different_era_opinion_expansion_tt: "สมาชิก [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] และ [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName] ทุกคน"
+ tgp_hegemon_picked_different_era_opinion_advancement_tt: "สมาชิก [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName] และ [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName] ทุกคน"

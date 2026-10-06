@@ -1,0 +1,201 @@
+﻿l_english: 
+ # Ceremonial Liege/Regent in personal relation summary
+ japan_personal_relation_ceremonial_liege_same: "[ceremonial_liege|E]"
+ japan_personal_relation_ceremonial_liege_other: "[ceremonial_liege|E]ของ[liege.GetShortUINamePossessive]"
+ japan_personal_relation_ceremonial_regent_same: "[ceremonial_regent|E]"
+ japan_personal_relation_ceremonial_regent_other: "[ceremonial_regent|E]ของ[vassal.GetShortUINamePossessive]"
+
+ japan_administrative_government: "ริตสึเรียว"
+ japan_administrative_government_adjective: "$japan_administrative_government$"
+ japan_administrative_government_with_icon: "@government_type_ritsuryo! $japan_administrative_government$"
+ japan_administrative_government_vassals_label: "[obligations|E] ของ $japan_administrative_government$ ขึ้นอยู่กับ [GetPlayer.Custom('GetProvinceAdministrationConcept')]"
+ japan_administrative_government_desc: "\n$japan_administrative_government$ คือ [government|E] รูปแบบ [administrative|E] ที่มีเอกลักษณ์เฉพาะในญี่ปุ่น\n\nนี่คือ [government_form|E] แบบ [government_bureaucratic_type|E] ที่รวมศูนย์อำนาจ โดย [characters|E] จะถูก แต่งตั้งเป็น [governors|E] ในนามของ [liege|E] ของตน สามารถเข้าถึง [influence|E] และ [house_head_heads|E] ของ [noble_family|E] จะมี [family_manor|E] และ [house_aspiration|E]\n\n[kampaku|E] จะปกครอง [realm|E] ในนามของ [japanese_emperor|E] และอาจถูกเลือกจากบรรดา [house_head_heads|E] ของ [noble_family|E] หรือถูกบังคับโดยข้อเรียกร้องของ [faction|E]\n\nโดยทั่วไป [vassals|E] $japan_administrative_government$ จะปกครองเพียง [county|E] เดียว แต่อาจปฏิเสธระบบรวมศูนย์และกลายเป็นเจ้าที่ดิน [soryo|E] ในท้องถิ่นเพื่อสร้างอำนาจของตนเอง แม้ว่าโดยทั่วไปจะถือเป็น [criminal|E]\n\n$game_concept_house_heads$ ของ $japan_administrative_government$ อาจสร้างและเข้าร่วม [house_blocs|E] ภายใน [realm|E] ซึ่งจะสนับสนุน [leading_house|E] ในการเป็น $game_concept_kampaku$\n\n$japan_government_domain_limit_help$\n\n#F ระบบ $japan_administrative_government$ หมายถึงรัฐบาลบริหารแบบรวมศูนย์ของญี่ปุ่น ซึ่งได้รับแรงบันดาลใจจากระบบราชการขงจื๊อของจีน#!"
+ japan_feudal_government: "โซเรียว" # 惣領
+ japan_feudal_government_adjective: "$japan_feudal_government$"
+ japan_feudal_government_with_icon: "@government_type_soryo! $japan_feudal_government$"
+ japan_feudal_government_vassals_label: "[obligations|E] ของ $japan_feudal_government$ ขึ้นอยู่กับ [vassal_contract|E] ของ [vassal|E] แต่ละคน"
+ japan_feudal_government_desc: "\n$japan_feudal_government$ คือ [government|E] รูปแบบ [feudal|E] ที่มีเอกลักษณ์เฉพาะในญี่ปุ่น\n\n$japan_feudal_government$ หมายถึงเจ้าที่ดินท้องถิ่นที่ละทิ้งหรือเข้าแทนที่อำนาจของรัฐบาล [ritsuryo|E] ส่วนกลาง และปกครองแคว้นต่างๆ เป็นเขตศักดินาของตนเอง\n\nตัวละคร $japan_feudal_government$ ไม่ใช้ [influence|E] แต่ [house_head_heads|E] ของ [noble_family|E] ยังคงมี [family_manor|E] และ [house_aspiration|E] ของตน\n\nแม้ว่าจะไม่สามารถได้รับเลือกเป็น [ceremonial_regent|E] ได้ แต่ [rulers|E] $japan_feudal_government$ อาจยึดอำนาจผ่าน [faction|E] #V $replace_ceremonial_regent_faction_name$#! และใช้ [decision|E] #V สถาปนารัฐบาลโชกุน#! (Formalize Shōgunate)\n\n$game_concept_ceremonial_regents$ ของ $japan_feudal_government$ ปกครอง [realm|E] ในนามของ [japanese_emperor|E] สืบทอดตำแหน่งโดย [succession|E] แบบ $single_heir_succession_law$ และอาจถูกโค่นล้มโดยข้อเรียกร้องของ [faction|E]\n\n$game_concept_house_heads$ ของ $japan_feudal_government$ อาจสร้างและเข้าร่วม [house_blocs|E] ภายใน [realm|E]$japan_government_domain_limit_help$\n\n\n\n#F $japan_feudal_government$ หมายถึงช่วงแรกของการเปลี่ยนเป็นระบบศักดินาของญี่ปุ่นซึ่งเริ่มต้นในยุคเฮอัน และถูกกำหนดรูปแบบให้เป็นทางการมากขึ้นภายใต้รัฐบาลโชกุนแรกในยุคคามาคุระ#!"
+ japan_government_domain_limit_help: "@alert_icon! #HELP $game_concept_governments$ ของญี่ปุ่นมี [domain_limit|E] ต่ำกว่าแบบอื่น ซึ่งอาจเพิ่มได้โดยการอัปเกรด $game_concept_family_manor$#!"
+ tgp_is_japanese_governor_trigger: "ท่านคือ [governor|E] [GetGovernment('japan_administrative_government').GetName]"
+
+ # Appointment Succession Law
+ japanese_appointment_succession_law: "การสืบทอดตำแหน่งโดยการ แต่งตั้ง $japan_administrative_government$"
+ japanese_appointment_succession_law_subname: "ผู้สมัครที่มีคะแนนสูงสุดจะได้สืบทอด"
+ japanese_appointment_succession_law_effects: "\n[appointment_succession_law|E] ประเภทหนึ่ง ภายใต้ $japanese_appointment_succession_law$ [title|E] และ [holdings|E] ที่เกี่ยวข้องจะถูกสืบทอดโดยผู้สมัครที่มีคะแนนสูงสุด [adult|E] ใดๆ ใน [realm|E] อาจมุ่งมั่นที่จะบรรลุตำแหน่ง [governorship|E] ผ่านวิธีการต่างๆ ตั้งแต่ [scheming|E] ไปจนถึงการใช้ [influence|E]"
+ japanese_military_appointment_succession_law: "การสืบทอดตำแหน่งทางการทหาร $japan_administrative_government$"
+ japanese_military_appointment_succession_law_subname: "ผู้สมัครที่มีคะแนนสูงสุดจะได้สืบทอด"
+ japanese_military_appointment_succession_law_effects: "\n[appointment_succession_law|E] ประเภทหนึ่ง ภายใต้ $japanese_military_appointment_succession_law$ [title|E] และ [holdings|E] ที่เกี่ยวข้องจะถูกสืบทอดโดยผู้สมัครที่มี [candidate_score|E] สูงสุด [adult|E] ใดๆ ใน [realm|E] อาจมุ่งมั่นที่จะบรรลุตำแหน่ง [governorship|E] ทางทหารได้โดยการมี [martial_skill|E] ที่ดี ได้รับ [commander_traits|E] หรือใช้ [influence|E]#!"
+ # Kampaku Acclamation Succession Law (Japan, TGP)
+ japanese_regency_succession_law: "การสืบทอดตำแหน่งผู้สำเร็จราชการญี่ปุ่น"
+ japanese_regency_succession_law_subname: "$appointment_succession_law_subname$"
+ japanese_regency_succession_law_effects: "ภายใต้ $japanese_regency_succession_law$ [title|E] และ [holdings|E] ที่เกี่ยวข้องจะถูกสืบทอดโดยผู้สมัครที่มีคะแนนสูงสุด กลุ่มผู้สมัครประกอบด้วย [noble_families|E] ของอาณาจักร [governors|E] และสมาชิกในครอบครัวของพวกเขา\n\nหาก [japanese_emperor|E] ถูกเลือกให้เป็น [ceremonial_regent|E] คนต่อไป พวกเขาจะได้รับทางเลือกว่าจะสละราชสมบัติในฐานะ [tenno|E] หรือพยายามสถาปนาการปกครองโดยตรงขึ้นใหม่!"
+
+ japanese_kampaku_house_past_kampaku_desc: "[ceremonial_regents|E] #weak [ROOT.Char.GetDynasty.GetName] คนก่อนๆ #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_past_kampaku_value')|0])#!"
+ japanese_kampaku_house_imperial_parent_desc: "[ROOT.Char.GetHouse.GetBaseName] ที่มีบิดามารดาเป็น [ceremonial_house|E] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_imperial_parent_value')|0])#!"
+ japanese_kampaku_house_imperial_child_desc: "[ceremonial_house|E] ที่มีบิดามารดาเป็น [ROOT.Char.GetHouse.GetBaseName] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_imperial_child_value')|0])#!"
+ japanese_kampaku_imperial_spouse_desc: "[spouses|E] [ROOT.Char.GetHouse.GetBaseName] ของ [ceremonial_liege|E] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_imperial_spouse_value')|0])#!"
+ japanese_kampaku_house_imperial_spouse_desc: "[ceremonial_house|E] ที่มี [spouses|E] เป็น [ROOT.Char.GetHouse.GetBaseName] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_imperial_spouse_value')|0])#!"
+ japanese_kampaku_dynasty_splendor_desc: "[dynasty_prestige_level|E] [ROOT.Char.GetDynasty.GetName] ([dynasty|E])"
+ japanese_kampaku_house_governorship_desc: "[governorships|E] ของ [ROOT.Char.GetHouse.GetBaseName] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_governorship_value')|0])#!"
+ ceremonial_liege_opinion_desc: "[opinion|E] ของ [ceremonial_liege|E]"
+ japanese_kampaku_house_devoted_desc: "สมาชิก [ROOT.Char.GetHouse.GetBaseName] ผู้ [GetTrait('devoted').GetName( GetNullCharacter )] #weak ([ROOT.Char.MakeScope.ScriptValue('japanese_kampaku_house_devoted_value')|0])#!"
+ ceremonial_house_member_desc: "สมาชิก [ceremonial_house|E]"
+ ceremonial_house_heir_desc: "[heir|E] [ceremonial_house|E]"
+ ceremonial_house_non_heir_desc: "[ceremonial_house|E] ที่ไม่สืบทอดตำแหน่ง"
+ japanese_kampaku_devoted_desc: "เป็นผู้ [GetTrait('devoted').GetName( GetNullCharacter )]"
+ japanese_kampaku_domicile_capital_desc: "[manor|E] [ROOT.Char.GetHouse.GetBaseName] ใน [capital|E]"
+ japanese_kampaku_age_desc: "อายุ"
+ japanese_kampaku_house_bloc_size_desc: "ขนาดของ [bloc|E] ผู้นำ"
+ japanese_kampaku_house_bloc_size_heir_desc: "ขนาดของ [bloc|E] ของผู้ดำรงตำแหน่งคนก่อน"
+
+ game_concept_regent_family: "ตระกูลผู้สำเร็จราชการ"
+ game_concept_regent_family_desc: "$game_concept_regent_family$ คือ [house|E] สูงสุดใน [realm|E] ที่มี [ceremonial_regent|E]"
+
+ game_concept_house_bloc: "กลุ่มตระกูล"
+ game_concept_house_blocs: "กลุ่มตระกูล"
+ game_concept_house_bloc_possessive: "ของกลุ่มตระกูล"
+ game_concept_bloc: "กลุ่ม"
+ game_concept_blocs: "กลุ่ม"
+ game_concept_bloc_possessive: "ของกลุ่ม"
+ game_concept_house_bloc_desc: "$game_concept_house_bloc$ คือพันธมิตรป้องกันตัวของ [houses|E] ภายใน [realm|E] [member_house|E] ใดๆ ที่ถูกโจมตีจะได้รับการป้องกันจาก $game_concept_member_houses$ อื่นๆ ทั้งหมด\n\n[house_heads|E] ตัดสินใจว่าจะเข้าร่วมเป็น [bloc_member_houses|E] หรือไม่ โดยสมาชิกผู้ปกครองทั้งหมดของตระกูลของตนในอาณาจักรจะปฏิบัติตาม\n\nกลุ่มจะมี [leading_house|E] เสมอ ซึ่งอาจขับไล่สมาชิกคนอื่น เป็น [ceremonial_regent|E] ที่ได้รับการสนับสนุนจากสมาชิกทุกคน และ [house_aspiration|E] ของตระกูลจะเป็นตัวกำหนดโบนัสที่ได้รับจากระดับ [cohesion|E] ที่สูงขึ้น\n\nมีเพียง $game_concept_house_head$ ของ $game_concept_leading_house_possessive$ เท่านั้นที่สามารถสร้าง [factions|E] ต่อต้าน [top_liege|E] ได้ และสมาชิก $game_concept_bloc_member_houses$ ทุกคนจะเข้าร่วม [factions|E] ทั้งหมดที่พวกเขาสร้างขึ้น"
+
+ game_concept_bloc_cohesion: "ความเชื่อมแน่นของกลุ่ม"
+ game_concept_cohesion: "ความเชื่อมแน่น"
+ game_concept_bloc_cohesion_desc: "$game_concept_cohesion$ วัดความเป็นหนึ่งเดียวของ [house_bloc|E] โดยระดับที่สูงขึ้นจะมอบผลประโยชน์ที่เพิ่มขึ้นแก่สมาชิกของ [bloc_member_houses|E] โดยขึ้นอยู่กับ [house_aspiration|E] ของ [leading_house_possessive|E]\n\nแหล่งที่มาหลักคือ [house_relations|E] ระหว่าง $game_concept_bloc_member_houses$ ซึ่งสามารถส่งผลต่อ $game_concept_cohesion$ ทั้งในเชิงบวกและเชิงลบ นอกจากนี้ ขนาดโดยรวมของกลุ่ม หรือ $game_concept_house_aspirations$ หรือ [government|E] ของสมาชิกที่ไม่ตรงกัน สามารถลด $game_concept_cohesion$ ได้\n\nการรักษาระดับ $game_concept_bloc_cohesion$ จะมอบโบนัสต่างๆ ให้กับ [member_houses|E] โดยขึ้นอยู่กับเป้าหมายของ $game_concept_leading_house$\n\nเมื่อ $game_concept_cohesion$ ถึง #V 0#! $game_concept_house_bloc$ จะสลายตัวโดยอัตโนมัติ"
+ game_concept_bloc_cohesion_tt: "#T @bloc_cohesion! $game_concept_bloc_cohesion$#!\n\n$game_concept_bloc_cohesion_desc$"
+
+ game_concept_bloc_member_house: "ตระกูลสมาชิกกลุ่ม"
+ game_concept_bloc_member_houses: "ตระกูลสมาชิกกลุ่ม"
+ game_concept_bloc_house: "ตระกูลในกลุ่ม"
+ game_concept_bloc_houses: "ตระกูลในกลุ่ม"
+ game_concept_member_house: "ตระกูลสมาชิก"
+ game_concept_member_houses: "ตระกูลสมาชิก"
+ game_concept_bloc_member_house_desc: "$game_concept_bloc_member_house$ คือ [house|E] ใดๆ ที่เข้าร่วม [house_bloc|E] รวมถึง [leading_house|E] ด้วย"
+
+ game_concept_aligned_bloc_member_house: "ตระกูลสมาชิกกลุ่มที่สอดคล้อง"
+ game_concept_aligned_bloc_member_houses: "ตระกูลสมาชิกกลุ่มที่สอดคล้อง"
+ game_concept_aligned_bloc_house: "ตระกูลในกลุ่มที่สอดคล้อง"
+ game_concept_aligned_bloc_houses: "ตระกูลในกลุ่มที่สอดคล้อง"
+ game_concept_aligned_bloc_member_house_desc: "$game_concept_aligned_bloc_member_house$ คือ [house|E] ที่เข้าร่วม [house_bloc|E] และมี [house_aspirations|E] เดียวกันกับ [leading_house|E]"
+
+ game_concept_divergent_bloc_member_house: "ตระกูลสมาชิกกลุ่มที่แตกต่าง"
+ game_concept_divergent_bloc_member_houses: "ตระกูลสมาชิกกลุ่มที่แตกต่าง"
+ game_concept_divergent_bloc_house: "ตระกูลในกลุ่มที่แตกต่าง"
+ game_concept_divergent_bloc_houses: "ตระกูลในกลุ่มที่แตกต่าง"
+ game_concept_divergent_bloc_member_house_desc: "$game_concept_divergent_bloc_member_house$ คือ [house|E] ที่เข้าร่วม [house_bloc|E] แต่มี [house_aspirations|E] แตกต่างจาก [leading_house|E]"
+
+ game_concept_bloc_member_ruler: "ผู้ปกครองสมาชิกกลุ่ม"
+ game_concept_bloc_member_rulers: "ผู้ปกครองสมาชิกกลุ่ม"
+ game_concept_bloc_ruler: "ผู้ปกครองในกลุ่ม"
+ game_concept_bloc_rulers: "ผู้ปกครองในกลุ่ม"
+ game_concept_bloc_member_ruler_desc: "$game_concept_bloc_member_ruler$ คือ [ruler|E] ที่เป็นสมาชิกของ [house_bloc|E]"
+
+ game_concept_leading_house: "ตระกูลผู้นำ"
+ game_concept_leading_houses: "ตระกูลผู้นำ"
+ game_concept_leading_house_possessive: "ของตระกูลผู้นำ"
+ game_concept_house_bloc_leadership: "ผู้นำกลุ่มตระกูล"
+ game_concept_bloc_leadership: "ผู้นำกลุ่ม"
+ game_concept_leading_house_desc: "$game_concept_leading_house$ คือ [house|E] ที่เป็นผู้นำตามข้อตกลงของ [house_bloc|E]"
+ game_concept_bloc_leader: "ผู้นำกลุ่ม"
+
+ JAPANESE_HOUSE_HEAD_ALLIANCE_REASON: "[house_head|E] [noble_family|E]: $VALUE|=+0$"
+ 
+ japan_offensive_wars_ban_tt: "[rulers|E] ใน [GetTitleByKey('e_japan').GetBaseNameNoTier] ไม่สามารถประกาศ [wars|E] ภายนอกได้ เว้น แต่ [imperial_policy|E] คือ [GetLaw('imperial_expansion_law').GetName]"
+
+ ceremonial_liege_line_cannot_be_governor_trigger: "ไม่สามารถมอบ [governorships|E] ให้แก่ [ceremonial_liege|E] หรือผู้ที่อยู่ใน [line_of_succession|E] สายตรงของพวกเขาได้"
+ ceremonial_liege_cannot_be_governor_trigger: "[governorships|E] ไม่สามารถมอบให้แก่ [ceremonial_liege|E] ได้"
+ ceremonial_liege_house_can_not_be_ruler_trigger: "[ceremonial_liege|E] เป็นสมาชิกเพียงคนเดียวของ [ceremonial_house|E] ที่สามารถเป็น [ruler|E] ผ่าน [influence_i|E][influence|E]"
+ ceremonial_liege_only_heir_can_be_ruler_trigger: "[player_heir|E] ของ [ceremonial_liege_possessive|E] เป็นสมาชิกเพียงคนเดียวของ [ceremonial_house|E] ที่สามารถเป็น [ruler|E] ผ่าน [influence_i|E][influence|E]"
+ tgp_blocked_ceremonial_title_revocation_trigger: "ไม่สามารถเพิกถอน [title|E] ของ [ceremonial_liege|E] ได้!"
+ tgp_blocked_ruler_against_ceremonial_action_trigger: "ไม่สามารถดำเนินการนี้กับ [ceremonial_liege|E] ได้"
+ tgp_blocked_ceremonial_house_matrilineal_marriage_trigger: "[ceremonial_liege|E] จะไม่ยอมรับสิ่งนี้"
+
+ tgp_is_ceremonial_liege_tt: "[THIS.Char.GetShortUIName|U] [CharAreIs(THIS.Char)] คือ [ceremonial_liege|E]"
+ tgp_has_ceremonial_liege_title_tt: "[THIS.Char.GetShortUIName|U] [CharHaveHas(THIS.Char)] มี [title|E] [ceremonial_liege|E] #weak ([THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetDefinitiveName|V])#!"
+ tgp_has_ceremonial_liege_title_no_title_tt: "[THIS.Char.GetShortUIName|U] [CharHaveHas(THIS.Char)] มี [title|E] [ceremonial_liege|E]"
+ tgp_is_in_ceremonial_house_tt: "[THIS.Char.GetShortUIName|U] [CharAreIs( THIS.Char )] เป็นสมาชิกของ [ceremonial_house|E] #weak ([THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetHouse.GetName|V])#!"
+ tgp_realm_has_ceremonial_liege_tt: "[THIS.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName|U] มี [ceremonial_liege|E]"
+ tgp_ceremonial_liege_coronation_trigger: "มีเพียง [ceremonial_liege|E] ที่[independent|E]เท่านั้นที่สามารถสวมมงกุฎใน[realm|E]ของตนได้"
+
+ influence_candidacy_interaction_desc_japan: "ใช้ [influence|E] เพื่อส่งเสริมหรือบ่อนทำลายการเป็นผู้สมัครของตัวละครสำหรับ [recipient.GetTopLiege.Custom('GetGovernorConcept')] หรือ [ceremonial_regent|E]"
+ request_appointment_support_desc_japan: "ขอให้ [recipient.GetShortUINameNoTooltip] สนับสนุนท่านหรือสมาชิก [house|E] ในการเป็น [actor.GetTopLiege.Custom('GetGovernorConcept')] หรือ [ceremonial_regent|E] ในอนาคต"
+ demand_admin_interaction_desc_japan: "ขอให้ [recipient.GetShortUIName|U] ละทิ้ง [government|E] [recipient.GetGovernment.GetAdjective] และมาเป็น [governor|E] [GetGovernment('japan_administrative_government').GetName]"
+
+ # Imperial Policy Japan
+ defense_mobilization_law_valid_trigger: "อย่างน้อย #V 1#! [county|E] ตาม [de_jure|E] ของ [THIS.Char.GetCapitalLocation.GetTitle.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDeJureLiege.GetDefinitiveName] ต้องถูกถือครองโดย [realm|E] อื่น หรือ [top_liege|E] ต้องกำลังนำทัพใน [war|E] ป้องกันตัวต่อ $game_concept_realm$ อื่น"
+ imperial_expansion_internal_peace_trigger: "[realm|E] จำเป็นต้องอยู่ใย [peace|E]"
+ shogunate_law_required: "ต้องการ [feudal_government|E]"
+ 
+ CEREMONIAL_HOUSE_MARRYING_DOWN_REASON: "ผลกระทบต่อ [dynasty_prestige_level|E] จากการ แต่งงานของ [ceremonial_house|E]: $VALUE|=+0$"
+ CEREMONIAL_HOUSE_MARRYING_NON_HOUSE_HEAD: "[ceremonial_house|E] แต่งงานกับผู้ที่ไม่ใช่ประมุข [noble_family|E]: $VALUE|=+0$"
+ CEREMONIAL_HOUSE_SECONDARY_SPOUSE_HEAD: "ความลังเลของ [ceremonial_house|E] ที่จะเป็น [spouse|E] รอง: $VALUE|=+0$"
+ CEREMONIAL_HOUSE_PETITION_REASON: "$petition_ceremonial_liege_decision$: $VALUE|=+0$"
+
+ government_is_japanese: "เป็น [ritsuryo|E] หรือ [soryo|E]"
+
+ japan_feudal_vassal: "$game_concept_soryo$"
+ japan_feudal_vassal_desc: "$game_concept_soryo_government_desc$"
+
+ japan_administrative_obligations: "พันธะ $japan_administrative_government$"
+ japan_administrative_provinces: "$administrative_themes$"
+ japan_administrative_vassal: "$japan_administrative_government$"
+ japan_administrative_vassal_desc: "$game_concept_ritsuryo_government_desc$"
+ japan_administrative_province_standard: "@japan_administrative_standard_administration! การบริหารมาตรฐาน"
+ japan_administrative_province_standard_short: "มาตรฐาน"
+ japan_administrative_province_standard_text_icon: "@japan_administrative_standard_administration!"
+ japan_administrative_province_standard_benefits: "#emphasis #bold ผลประโยชน์ [vassal|E]:#!#!\nใช้ [GetLaw('japanese_appointment_succession_law').GetName]"
+ japan_administrative_province_standard_desc: "#low ประเภทพลเรือนที่ดูแลความต้องการในชีวิตประจำวันของรัฐบาลและผู้อยู่อาศัยในท้องถิ่น#!"
+ japan_administrative_province_trade: "@japan_administrative_trade_administration! การบริหารอุตสาหกรรม"
+ japan_administrative_province_trade_short: "อุตสาหกรรม"
+ japan_administrative_province_trade_text_icon: "@japan_administrative_trade_administration!"
+ japan_administrative_province_trade_benefits: "#emphasis #bold ผลประโยชน์ [vassal|E]:#!#!\nใช้ [GetLaw('japanese_appointment_succession_law').GetName]\n\n#alert_trial @alert_icon! จำกัดที่ [EmptyScope.ScriptValue('japan_administrative_province_trade_max_value')|V0]#!"
+ japan_administrative_province_trade_desc: "#low การบริหารพลเรือนที่เน้นการพาณิชย์ทางทะเลและการพัฒนาระยะยาว#!"
+ japan_administrative_province_trade_amount_desc: "ถึงขีดจำกัด $japan_administrative_province_trade_short$ แล้ว"
+ japan_administrative_province_military: "@japan_administrative_military_administration! การบริหารการทหาร"
+ japan_administrative_province_military_short: "การทหาร"
+ japan_administrative_province_military_text_icon: "@japan_administrative_military_administration!"
+ japan_administrative_province_military_benefits: "#emphasis #bold ผลประโยชน์ของ[vassal|E]:#!#!\n$EFFECT_LIST_BULLET$ ใช้ [GetLaw('japanese_military_appointment_succession_law').GetName]\n\n#alert_trial @alert_icon! จำกัดไว้ที่ [EmptyScope.ScriptValue('japan_administrative_province_military_max_value')|V0]#!"
+ japan_administrative_province_military_desc: "#low การบริหารการทหารที่มุ่งเน้นการสร้างป้อมปราการและการเกณฑ์ทหาร จัดหาวิธีการป้องกันตนเองให้กับอาณาจักร หรือขยายพรมแดนเมื่อจำเป็น#!"
+ japan_administrative_province_military_amount_desc: "ถึงขีดจำกัด $japan_administrative_province_military_short$ แล้ว"
+ should_hold_a_lower_tier_governorship_first: "ไม่มียศ [governorship|E] ใน [title_rank|E] ที่ต่ำกว่า"
+
+ soryo_or_bushido_trigger: "[THIS.Char.GetShortUIName|U] [CharHaveHas(THIS.Char)] มี [government|E] [GetGovernment('japan_feudal_government').GetName] หรือ [tradition|E] [GetCultureTradition('tradition_tgp_bushido').GetName]"
+ challenge_house_head_japanese_admin: "เนื่องจากไม่มี [government|E] [GetGovernment('japan_feudal_government').GetName] หรือ [tradition|E] [GetCultureTradition('tradition_tgp_bushido').GetName]:"
+
+ BLOC_MEMBER_CALL_TO_ARMS_REASON: "สงครามต่อต้านสมาชิก [bloc|E] ของข้า: $VALUE|=+0$"
+ cannot_transfer_bloc_leader_as_vassal_tt: "ไม่สามารถถ่ายโอน [house_heads|E] ของ [leading_houses|E] ของ [blocs|E] ในฐานะ [vassals|E] ได้"
+
+ councillor_chancellor_japan_feudal: "ยูฮิตสึ" # 右筆
+ councillor_chancellor_japan_feudal_possessive: "ของยูฮิตสึ"
+ councillor_steward_japan_feudal: "บุเกียว" # 奉行
+ councillor_steward_japan_feudal_possessive: "ของบุเกียว"
+ councillor_marshal_japan_feudal: "ไทโช" # 大将
+ councillor_marshal_japan_feudal_possessive: "ของไทโช"
+ councillor_spymaster_japan_feudal: "เม็ตสึเกะ" # 目付
+ councillor_spymaster_japan_feudal_possessive: "ของเม็ตสึเกะ"
+
+ councillor_chancellor_japan_administrative: "เบ็ตโต" # 別当
+ councillor_chancellor_japan_administrative_possessive: "ของเบ็ตโต"
+ councillor_steward_japan_administrative: "คาเร" # 家令
+ councillor_steward_japan_administrative_possessive: "ของคาเร"
+ councillor_marshal_japan_administrative: "ซาบุไร" # 侍
+ councillor_marshal_japan_administrative_possessive: "ของซาบุไร"
+ councillor_spymaster_japan_administrative: "โมคุได" # 目代
+ councillor_spymaster_japan_administrative_possessive: "ของโมคุได"
+
+ japan_government_japan_kingdom_restriction_tt: "[rulers|E] [GetGovernment('japan_administrative_government').GetName] และ [GetGovernment('japan_feudal_government').GetName] สามารถสร้าง [kingdoms|E] ในญี่ปุ่นได้ก็ต่อเมื่อพวกเขา [independent|E] หรือถือ [title|E] [kingdom|E] โดยไม่ได้ถือ [GetTitleByKey('e_japan').GetBaseNameNoTier]"
+
+ japan_government_japan_duchy_restriction_tt: "[counts|E] [GetGovernment('japan_feudal_government').GetName] และ [governments|E] [GetGovernment('japan_administrative_government').GetName] โดยปกติไม่สามารถสร้าง [duchies|E] โดย [de_jure|E] บนเกาะญี่ปุ่นได้\n#HELP [rulers|E] [GetGovernment('japan_feudal_government').GetName] อาจข้ามข้อจำกัดนี้ได้โดยใช้ [decision|E] [GetDecisionWithKey('tgp_japan_assert_regional_dominion_government_decision').GetName|V]"
+ 
+ tgp_bloc_change_cohesion_install_bloc_member_tt: "[attacker.GetShortUIName|U] ชนะ [bloc_expansion_war|E] ของ [attacker.GetHerHisYour] เพื่อชิง [target_title.GetBaseName]"
+ tgp_bloc_change_cohesion_bloc_war_victory_tt: "[winner.GetConfederation.GetName|V] ได้พิสูจน์ [supremacy|E] เหนือ [icon.GetConfederation.GetName|V]"
+ tgp_bloc_change_cohesion_bloc_war_defeat_tt: "[loser.GetConfederation.GetName|V] ถูกบังคับให้ยอมรับ [supremacy|E] ของ [icon.GetConfederation.GetName|V]"
+ tgp_bloc_change_cohesion_leader_aspiration_tt: "[house_head|E] เปลี่ยน [aspiration|E] ของ [house.GetBaseName]"
+ tgp_bloc_change_cohesion_court_poet_tt: "[court_poet_from_task.GetEmployer.GetShortUINamePossessive|U] [GetCourtPositionType('court_poet_court_position').GetName()], [court_poet_from_task.GetShortUIName], สร้างแรงบันดาลใจให้เกิดความสามัคคี"
+ tgp_bloc_change_cohesion_festival_tt: "[icon.GetShortUIName|U] ความสามัคคีที่ [GetActivityType( 'activity_festival').GetName]"
+ msg_bloc_cohesion_increased: "ความเชื่อมแน่นของกลุ่มดีขึ้น"
+ msg_bloc_cohesion_decreased: "ความเชื่อมแน่นของกลุ่มเสียหาย"
+
+ japan_castle_construction_trigger_tt: "[government|E] [GetGovernment('japan_administrative_government').GetName] สามารถสร้างหรืออัปเกรด [holdings|E] [castle|E] ได้เฉพาะ ในขณะที่ [imperial_policy|E] [GetLaw('disarmament_law').GetName] มีผลบังคับใช้"
+
+ tenno_duchy_creation_tt: "[titles|E] [duchy|E] และ [kingdom|E] สามารถสร้างได้บนเกาะญี่ปุ่น"

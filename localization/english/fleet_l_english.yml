@@ -1,0 +1,6 @@
+﻿l_english: 
+ FLEET_PREDICTION_HEADER:0 "#T ลงเรือในวันที่ $DATE|V$#!"
+ FLEET_PREDICTION_BREAKDOWN_ENTRY:0 "[ARMY.GetName]"
+ FLEET_PREDICTION_BASE_COST:0 "เดิม"
+ EMBARK_COST:0 "#T ค่าใช้จ่าย [embark|E]#!"
+ EMBARK_COST_EXPENSIVE:1 "@warning_icon! #X ค่าใช้จ่ายในการลงเรือจะมีมูลค่ามากกว่าเงินทองที่ท่านมีอยู่ ณ ปัจจุบัน#!"

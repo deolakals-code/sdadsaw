@@ -1,0 +1,161 @@
+﻿l_english: 
+
+ ###Disbelieve Mandala Scheme
+ # Ongoing Events
+ disbelieve_mandala_ongoing.0001.t: "$disbelieve_mandala$: ไร้ปาฏิหาริย์"
+ disbelieve_mandala_ongoing.0001.desc: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('agent'))] ของข้า, [agent.GetName], เข้ามาหาข้าในยามวิกาลพร้อมแผนการอันชั่วร้ายที่กระซิบกระซาบ\n\n"ผ่านแผงลอยในตลาดและลานวัด พ่อค้าที่นั่น คนรับใช้ที่นี่ ต่างเล่าขานเรื่องเดียวกันซ้ำๆ เกี่ยวกับ [target.GetTitledFirstName]"\n\n"พวกเขาจะพูดว่าปาฏิหาริย์แห่งสายน้ำนั้นเป็นเพียงกลลวงของกระแสและแสงโคมไฟ ว่าขอทานที่หายดีถูกพบเห็นว่ารับเหรียญจากข้าราชบริพารที่เดินผ่านไป""
+ disbelieve_mandala_ongoing.0001.a: ""แผนการยอดเยี่ยม, [agent.GetFirstNameNoTooltip]!""
+ disbelieve_mandala_ongoing.0001.a.crit_success: "ปาฏิหาริย์ถูกคิดว่าเป็นของเจ้า"
+ disbelieve_mandala_ongoing.0001.a.success: "ปาฏิหาริย์ถูกลือว่าเป็นเรื่องเท็จ"
+ disbelieve_mandala_ongoing.0001.a.failure: "สายลับของเจ้าถูกค้นพบ"
+ disbelieve_mandala_ongoing.0001.a.failure.breach: "#alert_trial @alert_icon! [my_scheme.GetName] gains #V 1#! [scheme_breach|E]#!"
+ disbelieve_mandala_ongoing.0001.b: "มันไม่คุ้มที่จะเสี่ยง"
+ scheme_fake_miracles: "ปาฏิหาริย์จอมปลอม"
+ scheme_fake_miracles_desc: "การกระทำอันน่าอัศจรรย์ของเป้าหมายถูกมองว่าเป็นเพียงเรื่องบังเอิญ"
+ 
+ disbelieve_mandala_ongoing.0010.t: "$disbelieve_mandala$: ทั้งหมดเป็นของปลอม"
+ disbelieve_mandala_ongoing.0010.desc: ""เราน่าจะวางของศักดิ์สิทธิ์ปลอม," [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spymaster'))] ของข้า, [spymaster.GetName], แนะนำ หลังจากยืนกรานให้เราพบกันที่ห้องศึกษา\n\n"ของปลอมที่ถูกสร้างขึ้นอย่างแนบเนียน ภายในศาลเจ้าของ [target.GetTitledFirstNamePossessive] ปล่อยให้มันถูก #EMP พบ#! แล้วค่อยเปิดเผยในภายหลังว่าเป็นของเก๊: ผู้คนจะสงสัยในสิ่งมหัศจรรย์ เหล่านักบวชจะซุบซิบ และรัศมีอันศักดิ์สิทธิ์ของ [target.GetHerHis] จะพังทลาย""
+ disbelieve_mandala_ongoing.0010.a: "#EMP [fake_relic.GetNameNoTooltip]#! ดูเกือบเหมือนจริง"
+ disbelieve_mandala_ongoing.0010.a.success: "แผนการสำเร็จ"
+ disbelieve_mandala_ongoing.0010.a.failure: "สายลับของเจ้าถูกค้นพบ"
+ disbelieve_mandala_ongoing.0010.b: "[target.GetTitledFirstNameNoTooltip] ไม่ใช่คนโง่"
+ rival_planted_fake_artifact: "[CHARACTER.GetShortUIName] พยายามวางของศักดิ์สิทธิ์ปลอมในราชสำนักของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ rival_planted_fake_artifact_corresponding: "$rival_planted_fake_artifact$"
+
+ #Outcome Events
+ scheme_critical_moments.1212.t: "[scheme.GetNameNoTooltip]: สำเร็จ"
+ scheme_critical_moments.1212.desc: "รอยร้าวที่มากพอจะ ทำให้ทุกสิ่งแตกสลายได้\n\nความพยายามของข้าในการเผยแพร่ความไม่เชื่อในธรรมชาติอันศักดิ์สิทธิ์ของ [target.GetTitledFirstNamePossessive] ได้บังเกิดผล และบัดนี้ชื่อของ [target.GetHerHis] ไม่สามารถถูกเอ่ยถึงได้โดยไม่มีสมาชิกอย่างน้อยหนึ่งคนในวงสนทนาไต่ถามว่าข่าวลือนั้นจริงเพียงใด ข่าวลือถึงการกระทำอันคดโกงของ [target.GetHerHis] ถึงความไม่สอดคล้องอันไร้ความสามารถของ [target.GetHerHis]"
+ scheme_critical_moments.1212.desc_discovered: "\n\nแม้ว่า [target.GetFirstNameNoTooltip] จะรู้ว่าข้ามีส่วนเกี่ยวข้อง ก็ไม่สำคัญ! ในไม่ช้าโลกจะได้รู้ถึงเทวราชาที่แท้จริงเพียงหนึ่งเดียว: ข้า!"
+ scheme_critical_moments.1212.desc_secret: "\n\n[target.GetFirstNameNoTooltip] ยังคงงุนงงกับความเกลียดชังที่ [target.GetHerHis] ได้รับ โดยไม่รู้เลยว่าข้ามีส่วนเกี่ยวข้อง!"
+ scheme_critical_moments.1212.a: "มันเป็นสิ่งที่ถูกต้องที่ได้ทำลงไป"
+
+ scheme_critical_moments.1213.t: "[scheme.GetNameNoTooltip]: ล้มเหลว"
+ scheme_critical_moments.1213.desc: "ไม่ได้อะไรเลย หลายเดือนแห่งการวางแผนและวางอุบาย เผยแพร่ข่าวลือและจ่ายสินบน แต่ถึงกระนั้นความเป็นทิพย์ของ [target.GetTitledFirstNamePossessive] ก็ยังคงไม่อาจสั่นคลอนได้ เช่นเคย!"
+ scheme_critical_moments.1213.desc_discovered: "\n\nที่แย่ไปกว่านั้น ข้าไม่เพียงเสียเวลาและทรัพยากรไปเปล่าๆ แต่ [target.GetFirstNameNoTooltip] ยังรับรู้ถึงเจตนาร้ายที่ดำเนินการได้ไม่ดีพอของข้าอีกด้วย!"
+ scheme_critical_moments.1213.desc_secret: "\n\nอย่างน้อย [target.GetFirstNameNoTooltip] ก็ยังคงไม่รู้เรื่องรู้ราวอย่างมีความสุขว่ามีอะไรเกิดขึ้นเลย..."
+ scheme_critical_moments.1213.a: "ก็แค่ความล้มเหลวเล็กน้อย..."
+
+ scheme_critical_moments.1214.t: "มณฑลที่ไม่ถูกเชื่อ"
+ scheme_critical_moments.1214.desc: "มันเริ่มต้นด้วยการชำเลืองมอง ท่าทีแปลกๆ ของ #EMP ความไม่แน่นอน#!? เมื่อข้าสั่งให้พวกเขาทำสิ่งต่างๆ ในนามแห่งความเป็นทิพย์ พวกเขากลับลังเลนานกว่าที่ควรจะเป็นเพียงชั่วครู่ เหล่าคนรับใช้กระซิบถึงข้อบกพร่องของข้า ข้อบกพร่องที่พิสูจน์ว่าแท้จริงแล้วข้าเป็นมนุษย์และไม่ใช่มนุษย์กึ่งเทพ\n\nช่างกล้านัก ข้าจะพิสูจน์ให้พวกเขาเห็นว่าคิดผิด ข้าต้องทำ"
+ scheme_critical_moments.1214.desc_discovered: "\n\nและที่แย่ไปกว่านั้น สายลับของข้ามั่นใจ: ว่าเป็น [owner.GetTitledFirstName] ที่บงการการทำลายศรัทธาในความเป็นทิพย์ของข้า..."
+ scheme_critical_moments.1214.a: "น่ากังวลใจอย่างยิ่ง..."
+
+ scheme_critical_moments.1215.t: "มณฑลที่มิอาจแตกสลาย"
+ scheme_critical_moments.1215.desc: "ข่าวลือเท็จและเสียงกระซิบอันชั่วร้ายพยายามบ่อนทำลายอำนาจของข้า พยายาม ทำให้ #EMP ข้า#! ดูเป็นเทพน้อยลง\n\nผู้ติดตามของข้าจะไม่ยอมรับมัน และสถานะของข้าก็ปลอดภัย สำหรับตอนนี้"
+ scheme_critical_moments.1215.desc_discovered: "อย่างไรก็ตาม สายลับของข้ามั่นใจ: ว่าเป็น [owner.GetTitledFirstName] ที่บงการความไม่เชื่อในความเป็นทิพย์ของข้า..."
+ scheme_critical_moments.1215.a: "ช่างกล้านัก!"
+ scheme_critical_moments.1215.a_discovered: "ไอ้ [owner.Custom2('InsultNoun', ROOT.Char)] นั่น..."
+
+ ###Coerce Tributary Events
+ scheme_critical_moments.1222.t: "[scheme.GetNameNoTooltip]: สำเร็จ"
+ scheme_critical_moments.1222.desc: "การทดสอบและความยากลำบากของข้าประสบความสำเร็จ! ตลอดเวลาที่ใช้บั่นทอน [target.GetTitledFirstName|U] และตอนนี้ [target.GetSheHe] ก็ยอมจำนนในที่สุด ยินดีที่จะอยู่ภายใต้อำนาจของข้า\n\nข้าจะปกครองด้วยความสง่างามและเกียรติยศ!"
+ scheme_critical_moments.1222.a: "มีรัฐบรรณาการเพิ่มอีกหนึ่ง!"
+
+ scheme_critical_moments.1223.t: "[scheme.GetNameNoTooltip]: ล้มเหลว"
+ scheme_critical_moments.1223.intro: "ไม่สำเร็จเลย งานหนักทั้งหมดของข้า เพื่ออะไรกัน?"
+ scheme_critical_moments.1223.desc: "[target.GetTitledFirstName|U] ได้ปฏิเสธข้อเสนอของข้า โดยยืนกรานว่า [target.GetSheHe] จะดีกว่าหากอยู่ด้วยตัวของ [target.GetHerHis] เอง เราจะได้เห็นดีกัน"
+ scheme_critical_moments.1223.desc_suzerain: "[target.GetTitledFirstName|U] ได้ปฏิเสธข้อเสนอของข้า โดยอ้างถึงความเหนือกว่าของ [target.GetSuzerain.GetTitledFirstName] ในฐานะผู้นำที่แท้จริงเพียงหนึ่งเดียวของ [target.GetHerHis] ช่างไร้สาระสิ้นดี"
+ scheme_critical_moments.1223.a: "ชิ ข้าจะไปหาผู้ติดตามที่คู่ควรมากกว่านี้!"
+
+ scheme_critical_moments.1224.t: "[scheme.GetNameNoTooltip]: สำเร็จ"
+ scheme_critical_moments.1224.desc: "ถึงเวลาแล้ว ช่วงเวลาที่ [target.GetTitledFirstName] จะละทิ้งอ้อมอกของ [target.GetSuzerain.GetTitledFirstNamePossessive] ใกล้เข้ามาแล้ว สิ่งเดียวที่เหลืออยู่คือให้ [target.GetFirstNameNoTooltip] แจ้งให้ [target.GetSuzerain.GetTitledFirstNameNoTooltip] ทราบถึงสถานการณ์ จากนั้นข้าก็จะได้รับเครื่องบรรณาการ...\n\nหวังว่า [target.GetSuzerain.GetTitledFirstNameNoTooltip|U] จะเป็นผู้ปกครองที่มีเกียรติและปล่อย [target.GetHerHim] ไปอย่างฉันมิตรยังเจ้าผู้ครองนครที่ #EMP เหมาะสม#! กว่า"
+ scheme_critical_moments.1224.a: "ข้ารอแทบไม่ไหวแล้ว!"
+
+ scheme_critical_moments.1225.t: "รัฐบรรณาการถูกขัดขวาง"
+ scheme_critical_moments.1225.desc: "ทูตของรัฐบรรณาการ [target.GetTitledFirstNamePossessive] มาถึงราชสำนักของข้า และข้อความก็ชัดเจน\n\nไอ้ [owner.Custom2('InsultNoun', ROOT.Char)] [owner.GetTitledFirstName|U] นั่นกำลังบิดเบือนจิตใจของ [target.GetFirstNamePossessiveNoTooltip] ที่น่าสงสาร ทำให้ [target.GetHerHim] ต่อต้านข้า และตอนนี้ [target.GetSheHe] ก็ปรารถนาที่จะ #EMP ตีจาก#! อ้อมอกของข้า ถอนเครื่องบรรณาการและปฏิเสธอำนาจของข้า"
+ scheme_critical_moments.1225.a: "ข้าควรจะเสนอ #EMP สิ่งจูงใจ#! บางอย่าง..."
+ scheme_critical_moments.1225.b: "#EMP เราจะได้เห็นดีกัน#!""
+ scheme_potential_suzerain_might_join_war_tt: "\n@alert_icon! #alert_trial [CHARACTER.GetShortUIName] might become [TARGET_CHARACTER.GetShortUINamePossessive] [suzerain|E], joining the war as a defender!#!"
+ scheme_critical_moments.1225.c: "ไม่เป็นไร"
+
+ scheme_critical_moments.1226.t_incentivizing: "[scheme.GetNameNoTooltip]: ได้อย่างเสียอย่าง"
+ scheme_critical_moments.1226.t_warring: "[scheme.GetNameNoTooltip]: เข้าร่วมกองกำลัง"
+ scheme_critical_moments.1226.t: "[scheme.GetNameNoTooltip]: ปล่อยไป"
+ scheme_critical_moments.1226.desc_incentivizing: "จดหมายจาก [target.GetTitledFirstNamePossessive|U] เป็นเรื่องที่น่าเศร้า [incentivizing_suzerain.GetTitledFirstName] ได้ #EMP จูงใจ#! ไอ้ [owner.Custom2('InsultNounClumsy', ROOT.Char)] เฒ่านั่นให้อยู่ต่อ อย่างน้อยก็อีก #EMP สักพัก#!...\n\n... และ 'เทวราชา' จอมปลอม [incentivizing_suzerain.GetFirstNameNoTooltip] นั่นต้องจ่ายผลตอบแทนบางอย่าง ชดเชยการขาดความเป็นทิพย์ที่แท้จริง\n\nบางทีคราวหน้า [target.GetFirstNameNoTooltip] อาจจะตาสว่าง และเข้าร่วมกับข้า"
+ scheme_critical_moments.1226.desc_warring: "ทูตของ [target.GetTitledFirstNamePossessive|U] วิ่งเข้ามาในห้องพิจารณาคดีของข้า: "สงคราม!" [dummy_envoy.GetSheHe] ตะโกน "สงคราม! [warring_suzerain.GetTitledFirstName|U] ได้ตัดสินใจ [warring_suzerain.GetHerselfHimself] ที่จะแก้ไขการตัดสินใจที่ผิดพลาดชั่วขณะของ [target.GetLadyLord] ของข้าด้วย #EMP กำลัง!#!"\n\n[dummy_envoy.GetSheHe] ยังคงสับสน ก้มลงแทบเท้าข้า: "ได้โปรด ได้โปรด #EMP ช่วยเราด้วย!#!"\n\nความหนาวเย็นแล่นไปทั่วสันหลังของข้า สงครามหรือ?"
+ scheme_critical_moments.1226.desc: "เจ้าผู้ครองนครยอมแพ้"
+ scheme_critical_moments.1226.a: ""ไปช่วยเดี๋ยวนี้!""
+ scheme_critical_moments.1226.b: "ถ้า เช่นนั้น..."
+ scheme_critical_moments.1226.b_warring: ""ข้าไม่ได้ตกลงที่จะ #EMP ทำสงคราม#!.""
+ scheme_critical_moments.1226.b_incentivizing: "อา อย่างน้อยข้าก็ทำดีแล้ว"
+ 
+ coerce_and_leverage_contribution_ongoing.0001.t: "[my_scheme.GetNameNoTooltip]: พวกเจ้าทุกคน"
+ coerce_and_leverage_contribution_ongoing.0001.desc.intro: "ข้าไปเยือน [target_county.GetName] ในความพยายามที่จะให้ชาวเมืองร่วมบริจาคให้กับโครงการ [ROOT.Char.GetFaith.HouseOfWorship] อันยิ่งใหญ่ของข้า\n\n"
+ coerce_and_leverage_contribution_ongoing.0001.desc.high_dev: "แผงลอยที่ขาย [ROOT.Char.Custom('GetExpensiveMeal')] ล่อลวงข้าด้วยกลิ่นหอมอร่อย"
+ coerce_and_leverage_contribution_ongoing.0001.desc.low_dev: "ชาวบ้านรวมตัวกันที่ [ROOT.Char.Custom('GetSquareCommons')] ล้อมรอบด้วย [ROOT.Char.Custom('GetCrookedhousesDelapidatedtents')] และพ่อค้าที่พยายามกำจัด [ROOT.Char.Custom('get_region_root_vegetable_plural')] ที่เน่าเสียกว่าของพวกเขา"
+ coerce_and_leverage_contribution_ongoing.0001.desc.regular_dev: "พ่อค้าที่ขาย [ROOT.Char.Custom('GetTradeGoods')] เร่ขายให้กับผู้มาเยือนที่ไม่สงสัย"
+ coerce_and_leverage_contribution_ongoing.0001.desc.outro: "\n\n"ฟังทางนี้ ฟังทางนี้! สำหรับ [peasant.Custom('dummy_peasant_profession')] และ [peasant.Custom2('dummy_peasant_profession', peasant)]! ด้วยทองเพียง #EMP น้อยนิด#! ทั้งหมดนี้ก็จะเป็นของท่าน!""
+ coerce_and_leverage_contribution_ongoing.0001.a: "คนเหล่านี้พอจะแบ่งปันเหรียญได้บ้าง"
+ coerce_and_leverage_contribution_ongoing.0001.b: "พวกเขามีเรื่องลำบากมากกว่า"
+ coerced_contribution_county_modifier: "การบริจาค 'โดยสมัครใจ'"
+ coerced_contribution_county_modifier_desc: "ชาวเมืองของเคาน์ตีนี้ถูกเชิญชวนอย่างแข็งขันให้บริจาคในโครงการอันยิ่งใหญ่"
+ scheme_coerced_subjects_modifier: "$coerced_contribution_county_modifier$"
+ scheme_coerced_subjects_modifier_desc: "$coerced_contribution_county_modifier_desc$"
+ spared_contribution_county_modifier: "การบริจาคที่ได้รับการยกเว้น"
+ spared_contribution_county_modifier_desc: "ชาวเมืองของเคาน์ตีนี้ได้รับการยกเว้นจากภาระผูกพันทางการเงินต่อโครงการอันยิ่งใหญ่"
+ 
+ coerce_and_leverage_contribution_ongoing.0010.t: "[my_scheme.GetNameNoTooltip]: ความรอดพ้นในทองคำ"
+ coerce_and_leverage_contribution_ongoing.0010.desc: "กลิ่นของ [ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type_plural')] กล่าวทักทายข้ายามเช้า อากาศอบอวลไปด้วยความรู้สึก [ROOT.Char.Custom('GetSeasonAdj')] ของ [ROOT.Char.Custom('GetSeason')]\n\n""[ROOT.Char.Custom('FormOfAddressForLiege')|U] ภาระในการสร้าง [ROOT.Char.GetFaith.HouseOfWorship] นั้นหนักหนานัก" [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_chaplain'))] ของข้า [court_chaplain.GetName] เข้ามาหาข้า ยิ้มอย่าง [court_chaplain.Custom('quirk_pos_adverb')] "ทว่าผู้ศรัทธาอาจถูกจูงใจด้วยคำสัญญาถึงความโปรดปรานจากสวรรค์"\n\n"หากเราประกาศ เช่นนั้น ผู้ที่เสนอตัวบริจาคจะได้รับพรเหนือกว่าคนทั่วไป""
+ coerce_and_leverage_contribution_ongoing.0010.aa: ""#EMP ข้า#! อยากได้พรเหล่านั้น""
+ coerce_and_leverage_contribution_ongoing.0010.a: ""จงทำ เช่นนั้น""
+ coerce_and_leverage_contribution_ongoing.0010.b: "นี่ไม่คุ้มค่าต่อความสนใจของเจ้า"
+ 
+ coerce_and_leverage_contribution_ongoing.0020.t: "[my_scheme.GetNameNoTooltip]: คุณค่าของคำสัญญา"
+ coerce_and_leverage_contribution_ongoing.0020.desc: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('servant'))] ของข้า [servant.GetName] ก้มคำนับต่ำ ในมือถือ [servant.Custom('GetWritingMaterialPlural')]\n\n"คลังสำหรับ [ROOT.Char.GetFaith.HouseOfWorship] เพิ่มพูนช้าเกินไป" [servant.GetSheHe|U] ประกาศ [servant.Custom('quirk_pos_pp')]\n\n"ทว่าคำพูดอาจซื้อสิ่งที่เหรียญไม่อาจซื้อได้ บางทีจดหมายถึง [target.GetTitledFirstName] พร้อมคำสัญญาที่น่าดึงดูดใจ อาจโน้มน้าวใจ [target.GetHerHis] ให้ช่วย...""
+ coerce_and_leverage_contribution_ongoing.0020.aa: "คำสัญญาไม่จำเป็นต้องเป็นจริง..."
+ coerce_and_leverage_contribution_ongoing.0020.a: ""รีบเขียนเข้า!""
+ coerce_and_leverage_contribution_ongoing.0020.b: ""แค่บอกว่าข้าซาบซึ้งในความเมตตาของ [target.GetHerHis]""
+ scheme_promised_hook_modifier: "สัญญาข้อผูกมัด"
+ scheme_promised_hook_modifier_desc: "ผู้ริเริ่มแผนการนี้ได้สัญญาข้อผูกมัดแก่เป้าหมาย... มันจะเป็นจริงหรือไม่นั้นมีเพียงเจ้าของแผนเท่านั้นที่รู้"
+
+ #OPINIONS
+ coerced_my_tributary_opinion: "บีบบังคับรัฐบรรณาการของข้า"
+ coerced_tributary_opinion: "รัฐบรรณาการที่ถูกบีบบังคับ"
+
+ #Coerce Contribution Outcomes
+ scheme_critical_moments.1242.t: "[scheme.GetNameNoTooltip]: สำเร็จ"
+ scheme_critical_moments.1242.desc: "ข้ารู้อยู่เสมอว่าข้าสามารถพึ่งพาผู้คนที่ทำงานหนักของ [target_title.GetBaseNameNoTierNoTooltip] เพื่อมาช่วยเหลือข้าได้ เพื่ออุดมการณ์ที่ยิ่งใหญ่กว่า และเพื่อเฉลิมฉลองผู้ปกครองของพวกเขา พวกเขาได้ยอมสละแม้กระทั่งเสื้อผ้าที่สวมใส่เพื่อสนับสนุนวิหารของข้า\n\nน่ายินดียิ่งนัก"
+ scheme_critical_moments.1242.a: "ดี ดีมาก..."
+
+ scheme_critical_moments.1243.t: "[scheme.GetNameNoTooltip]: ล้มเหลว"
+ scheme_critical_moments.1243.desc: "พวก [owner.Custom('InsultNoun')] แห่ง [target_title.GetBaseNameNoTierNoTooltip] ไม่ยอมรับเหตุผลและกำลังปฏิเสธคำร้องขอของข้าที่จะบริจาคให้กับโครงการ #EMP อันยิ่งใหญ่#! ของข้า\n\nโดยอ้างเหตุผลว่า #EMP ขาดแคลนทุนทรัพย์#! ไร้สาระสิ้นดี! เมื่อมีความตั้งใจย่อมมีหนทาง!"
+ scheme_critical_moments.1243.a: "ช่างอวดดีนัก!"
+
+ insusceptible_to_coerce_contribution_modifier: "ไม่ตอบสนองต่อการบีบบังคับ"
+ insusceptible_to_coerce_contribution_modifier_desc: "เคาน์ตีนี้ไม่เห็นด้วยกับการถูกบังคับให้สนับสนุนวิหารหลวง"
+
+
+ #Coerce Contribution Outcomes
+ scheme_critical_moments.1252.t: "[scheme.GetNameNoTooltip]: สำเร็จ"
+ scheme_critical_moments.1252.desc: "ข้ารู้อยู่เสมอว่าข้าสามารถพึ่งพา [target.GetTitledFirstName] ให้มาช่วยเหลือข้าได้! การพูดจาหว่านล้อม การเกลี้ยกล่อม และการโต้วาทีของข้าได้บังเกิดผล — [target.GetSheHe] ตกลงอย่างมีเมตตาที่จะลงทุนในโครงการของข้า ทุ่มสุดตัวเพื่อ ทำให้วิหารของข้ายิ่งใหญ่เกรียงไกร\n\nการก้าวข้ามกำลังใกล้เข้ามา..."
+ scheme_critical_moments.1252.a: "ยอดเยี่ยมมาก!"
+
+ scheme_critical_moments.1253.t: "[scheme.GetNameNoTooltip]: ล้มเหลว"
+ scheme_critical_moments.1253.desc: "ข้าบุกเข้าไปในห้องด้วยความโกรธเกรี้ยว — ไอ้ [target.Custom('InsultNoun')] [target.GetTitledFirstName] นั่นปฏิเสธที่จะรับฟังเหตุผล ข้าไม่ได้โต้วาที โต้เถียง หรือ #EMP ใช้บารมี#! กับคนใกล้ชิดที่สุดของ [target.GetHerHis] หรอกหรือ?!\n\nโดยอ้างถึง #EMP การลงทุนเร่งด่วน#! มากกว่าเป็นลำดับความสำคัญในปัจจุบัน แทนที่จะบริจาคให้กับโครงการ #EMP อันงดงาม#! ของข้า ข้าคาดหวังจาก [target.GetHerHim] มากกว่านี้ นี่ไม่ใช่ครั้งสุดท้ายที่ [target.GetSheHe] จะได้ยินเรื่องนี้..."
+ scheme_critical_moments.1253.a: "ชิ ชิ..."
+
+ insusceptible_to_leverage_contribution_modifier: "ไม่ตอบสนองต่อการใช้บารมี"
+ insusceptible_to_leverage_contribution_modifier_desc: "ตัวละครนี้ไม่ยอมเปิดกระเป๋าเงินหรือหัวใจเพื่อสนับสนุนการบริจาค"
+ 
+ unlock_coerce_tributary_scheme_tt: "ต้องการระดับ #V 2#! ของ [aspect_of_trickery|E]"
+ 
+ coerce_tributary_ongoing.0001.t: "[my_scheme.GetNameNoTooltip]: ปิดถนน"
+ coerce_tributary_ongoing.0001.desc: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('steward'))] ของข้า [steward.GetName] ยืนอยู่หน้าข้าด้วยรอยยิ้มกว้างที่สุด\n\n"ข้า... #EMP พบ#! โฉนดเก่าที่อนุญาตให้เรากดดัน [target.GetTitledFirstName] ให้จ่ายภาษีสูงขึ้นหากพวกเขาต้องการใช้ถนนของเรา อย่างไรก็ตาม ข้าต้องการเงินทุนเพื่อส่งคณะผู้แทนกลุ่มเล็กๆ ไปยัง [capital.GetName]""
+ coerce_tributary_ongoing.0001.a: "[target.GetSheHe|U] จะได้เรียนรู้ว่าการต่อต้านเรานั้นมีราคาสูงเพียงใด"
+ coerce_tributary_ongoing.0001.a.success: "[target.GetShortUIName] ยอมจ่าย"
+ coerce_tributary_ongoing.0001.a.failure: "[target.GetShortUIName] ไม่ยอมจำนน"
+ coerce_tributary_ongoing.0001.b: "เวลาจะจัดการเรื่องนี้ให้เราเอง"
+ scheme_extra_tariffs: "ภาษีพิเศษ"
+ scheme_extra_tariffs_desc: "เจ้าของแผนการได้โน้มน้าวเป้าหมายว่าหากพวกเขาไม่ยอมเป็นรัฐบรรณาการโดยสมัครใจ จะมีความไม่สะดวก #EMP อีกมากมาย#! ตามมา"
+ 
+ coerce_tributary_ongoing.0010.t: "[my_scheme.GetName]: การเจรจาที่ก้าวร้าว"
+ coerce_tributary_ongoing.0010.desc: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('marshal'))] ของข้า [marshal.GetName] ก้มคำนับต่ำ เหงื่อยังคงหยดลงมาจากหน้าผากของ [marshal.GetHerHis] หลังจากการฝึก [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')]\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U]" [marshal.GetSheHe] เริ่ม "เราเสียคำพูดไปมากเกินไปแล้วในการพยายามโน้มน้าว [target.GetTitledFirstName] เครื่องบรรณาการไม่ใช่สิ่งที่ต้องร้องขอ — แต่เป็นสิ่งที่ต้องยึดเอามา"\n\n[marshal.GetSheHe|U] กำหมัดแน่น\n\n"อนุญาตให้ข้าเดินทัพนักรบบางส่วนไปยังหน้าประตูเมือง [capital.GetName]""
+ coerce_tributary_ongoing.0010.a: ""จงทำ เช่นนั้น!""
+ coerce_tributary_ongoing.0010.a.success: "[target.GetShortUIName] ถูกโน้มน้าว"
+ coerce_tributary_ongoing.0010.a.failure: "[target.GetShortUIName] รู้สึกขุ่นเคืองอย่างยิ่ง"
+ coerce_tributary_ongoing.0010.b: "ไม่จำเป็นต้อง ทำให้ [target.GetTitledFirstNameNoTooltip] โกรธ"
+ rival_tried_to_intimidate: "[TARGET_CHARACTER.GetShortUIName|U] พยายามข่มขู่ [CHARACTER.GetShortUIName] ให้มาเป็นรัฐบรรณาการ"
+ rival_tried_to_intimidate_corresponding: "[CHARACTER.GetShortUIName|U] ถูก [TARGET_CHARACTER.GetShortUIName] ข่มขู่เพื่อพยายาม ทำให้ [CHARACTER.GetHerHim] เป็นรัฐบรรณาการ"
+ scheme_tribute_intimidation: "การเจรจาที่ก้าวร้าว"
+ scheme_tribute_intimidation_desc: "เจ้าของแผนการนี้ได้แสดงให้เป้าหมายเห็นอย่างชัดเจนว่าหากพวกเขาไม่ยอมจำนน จะมีผลที่เลวร้ายตามมา"
+ 

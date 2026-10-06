@@ -1,0 +1,11 @@
+﻿l_english: 
+ feast_default_joe.1010.t: "ชักใย"
+ feast_default_joe.1010.desc: "เมื่อมีผู้ทรงอิทธิพลมากมายอยู่ในที่เดียวกัน ถ้อยคำเพียงไม่กี่คำที่โปรยปรายออกไปสามารถส่งผลกระทบอันไกลโพ้นได้...\n\nข้าสังเกตเห็นว่า [agent.GetTitledFirstName] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('agent'))] ของข้า ดูเหมือนจะเห็นอกเห็นใจในภารกิจของข้าเป็นพิเศษ"
+ feast_default_joe.1010.a: "เมล็ดพันธุ์นับไม่ถ้วนอาจผลิดอกออกผล หากได้รับการบ่มเพาะอย่างเหมาะสม..."
+ feast_default_joe.1010.a.trigger: "ท่านเป็น [GetTrait('schemer').GetName( GetNullCharacter )] หรือมี [intrigue|E] อย่างน้อย [SCOPE.ScriptValue('decent_skill_rating')|0V]"
+ feast_default_joe.1010.b: "[agent.GetTitledFirstNameNoTooltip] คงจะนำมาเป็นพวกได้โดยง่าย"
+ feast_default_joe.1010.c: "ณ ที่ใดมีผู้คนรวมกลุ่ม ที่นั่นย่อมมีโอกาสมากมาย"
+ feast_default_joe.1010.d: "แผนการของข้ากำลังเป็นรูปเป็นร่าง ข้าเพียงต้องอดทนรอ"
+ agent_more_likely_join_scheme_tt: "เป็นเวลา 6 เดือน ความเต็มใจของ [agent.GetShortUINamePossessive|E] ที่จะเข้าร่วม [scheme|E] [scheme.GetName|V] ของท่านเพื่อต่อต้าน [scheme.GetTargetCharacter.GetShortUIName]: #P +25#!"
+ all_guests_agent_more_likely_join_scheme_tt: "เป็นเวลา 6 เดือน ความเต็มใจของผู้เข้าร่วม [activity.GetName] ที่มีสิทธิ์ทั้งหมด ที่จะเข้าร่วม [scheme|E] [scheme.GetName|V] ของท่านเพื่อต่อต้าน [scheme.GetTargetCharacter.GetShortUIName]: #P +25#!"
+ agent_more_likely_join_scheme_reason: "เหตุการณ์: $VALUE|=+0$"

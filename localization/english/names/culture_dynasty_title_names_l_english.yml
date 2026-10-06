@@ -1,0 +1,203 @@
+﻿l_english: 
+ dynn_title_tang: "ถัง"
+ dynn_title_tang_adj: "ถัง"
+ dynn_title_song: "ซ่ง"
+ dynn_title_song_adj: "ซ่ง"
+ dynn_title_yuan: "หยวน"
+ dynn_title_yuan_adj: "หยวน"
+ dynn_title_ming: "หมิง"
+ dynn_title_ming_adj: "หมิง"
+ dynn_title_jin: "จิ้น" # 晉
+ dynn_title_jin_adj: "จิ้น"
+ dynn_title_jurchen_jin: "จิน" # 金
+ dynn_title_jurchen_jin_adj: "จิน"
+ dynn_title_han: "ฮั่น"
+ dynn_title_han_adj: "ฮั่น"
+ dynn_title_zhou: "โจว"
+ dynn_title_zhou_adj: "โจว"
+ dynn_title_shu: "สู่"
+ dynn_title_shu_adj: "สู่"
+ dynn_title_qing: "ชิง"
+ dynn_title_qing_adj: "ชิง"
+ dynn_title_yue: "เยว่"
+ dynn_title_yue_adj: "เยว่"
+ dynn_title_yan: "เยียน"
+ dynn_title_yan_adj: "เยียน"
+ dynn_title_xia: "เซี่ย"
+ dynn_title_xia_adj: "เซี่ย"
+ dynn_title_wu: "อู๋"
+ dynn_title_wu_adj: "อู๋"
+ dynn_title_wei: "เว่ย"
+ dynn_title_wei_adj: "เว่ย"
+ dynn_title_yin: "อิน"
+ dynn_title_yin_adj: "อิน"
+ dynn_title_shang: "ซาง"
+ dynn_title_shang_adj: "ซาง"
+ dynn_title_qin: "ฉิน"
+ dynn_title_qin_adj: "ฉิน"
+ dynn_title_qi: "ฉี"
+ dynn_title_qi_adj: "ฉี"
+ dynn_title_nan: "หนาน"
+ dynn_title_nan_adj: "หนาน"
+ dynn_title_min: "หมิ่น"
+ dynn_title_min_adj: "หมิ่น"
+ dynn_title_chu: "ฉู่"
+ dynn_title_chu_adj: "ฉู่"
+ dynn_title_liang: "เหลียง"
+ dynn_title_liang_adj: "เหลียง"
+ dynn_title_dai: "ไต้"
+ dynn_title_dai_adj: "ไต้"
+ dynn_title_xiang: "เซียง"
+ dynn_title_xiang_adj: "เซียง"
+ dynn_title_zheng: "เจิ้ง"
+ dynn_title_zheng_adj: "เจิ้ง"
+ dynn_title_ba: "ปา"
+ dynn_title_ba_adj: "ปา"
+ dynn_title_yang: "หยาง"
+ dynn_title_yang_adj: "หยาง"
+ dynn_title_chen: "เฉิน"
+ dynn_title_chen_adj: "เฉิน"
+ dynn_title_qian: "เฉียน"
+ dynn_title_qian_adj: "เฉียน"
+ dynn_title_gan: "กาน"
+ dynn_title_gan_adj: "กาน"
+ dynn_title_e: "เอ้อ"
+ dynn_title_e_adj: "เอ้อ"
+ dynn_title_cai: "ไช่"
+ dynn_title_cai_adj: "ไช่"
+ dynn_title_cao: "เฉา"
+ dynn_title_cao_adj: "เฉา"
+ dynn_title_dian: "เตียน"
+ dynn_title_dian_adj: "เตียน"
+ dynn_title_gui: "กุ้ย"
+ dynn_title_gui_adj: "กุ้ย"
+ dynn_title_huai: "หวย"
+ dynn_title_huai_adj: "หวย"
+ dynn_title_jing: "จิง"
+ dynn_title_jing_adj: "จิง"
+ dynn_title_lai: "ไหล"
+ dynn_title_lai_adj: "ไหล"
+ dynn_title_lu: "หลู่"
+ dynn_title_lu_adj: "หลู่"
+ dynn_title_sui: "สุย"
+ dynn_title_sui_adj: "สุย"
+ dynn_title_xing: "สิง"
+ dynn_title_xing_adj: "สิง"
+ dynn_title_xu: "สวี"
+ dynn_title_xu_adj: "สวี"
+ dynn_title_yong: "หย่ง"
+ dynn_title_yong_adj: "หย่ง"
+ dynn_title_zhao: "จ้าว"
+ dynn_title_zhao_adj: "จ้าว"
+ dynn_title_deng: "เติ้ง"
+ dynn_title_deng_adj: "เติ้ง"
+ dynn_title_shen: "เซิน"
+ dynn_title_shen_adj: "เซิน"
+ dynn_title_teng: "เถิง"
+ dynn_title_teng_adj: "เถิง"
+ dynn_title_wey: "เว่ย"
+ dynn_title_wey_adj: "เว่ย"
+ dynn_title_zhai: "ไจ๋"
+ dynn_title_zhai_adj: "ไจ๋"
+ dynn_title_ju: "จวี่"
+ dynn_title_ju_adj: "จวี่"
+ dynn_title_zhu: "จู"
+ dynn_title_zhu_adj: "จู"
+ dynn_title_bi: "ปี้"
+ dynn_title_bi_adj: "ปี้"
+ dynn_title_tan: "ถาน"
+ dynn_title_tan_adj: "ถาน"
+ dynn_title_bei: "เป่ย์"
+ dynn_title_bei_adj: "เป่ย์"
+ dynn_title_chao: "ฉาว"
+ dynn_title_chao_adj: "ฉาว"
+ dynn_title_dao: "เต้า"
+ dynn_title_dao_adj: "เต้า"
+ dynn_title_hua: "ฮว่า"
+ dynn_title_hua_adj: "ฮว่า"
+ dynn_title_huang: "หวง"
+ dynn_title_huang_adj: "หวง"
+ dynn_title_huo: "ฮั่ว"
+ dynn_title_huo_adj: "ฮั่ว"
+ dynn_title_ji: "จี้"
+ dynn_title_ji_adj: "จี้"
+ dynn_title_na: "น่า"
+ dynn_title_na_adj: "น่า"
+ dynn_title_peng: "เผิง"
+ dynn_title_peng_adj: "เผิง"
+ dynn_title_quan: "เฉวียน"
+ dynn_title_quan_adj: "เฉวียน"
+ dynn_title_rui: "ยุ่ย"
+ dynn_title_rui_adj: "ยุ่ย"
+ dynn_title_ruo: "รั่ว"
+ dynn_title_ruo_adj: "รั่ว"
+ dynn_title_xi: "ซี"
+ dynn_title_xi_adj: "ซี"
+ dynn_title_xian: "เสียน"
+ dynn_title_xian_adj: "เสียน"
+ dynn_title_ying: "อิง"
+ dynn_title_ying_adj: "อิง"
+ dynn_title_yu: "อวี๋"
+ dynn_title_yu_adj: "อวี๋"
+ dynn_title_zeng: "เจิง"
+ dynn_title_zeng_adj: "เจิง"
+ dynn_title_liao: "เหลียว"
+ dynn_title_liao_adj: "เหลียว"
+ dynn_title_zou: "โจ่ว"
+ dynn_title_zou_adj: "โจ่ว"
+
+ dynn_title_bao: "เป่า" #宝
+ dynn_title_bao_adj: "เป่า" #宝
+ dynn_title_cheng: "เฉิง" #成
+ dynn_title_cheng_adj: "เฉิง" #成
+ dynn_title_di: "ตี๋" #翟
+ dynn_title_di_adj: "ตี๋" #翟
+ dynn_title_guo: "กว๋อ" #虢
+ dynn_title_guo_adj: "กว๋อ" #虢
+ dynn_title_han_henan: "หาน" #韩
+ dynn_title_han_henan_adj: "หาน" #韩
+ dynn_title_ji_hebei: "จี้" #冀
+ dynn_title_ji_hebei_adj: "จี้" #冀
+ dynn_title_jiao: "เจียว" #交
+ dynn_title_jiao_adj: "เจียว" #交
+ dynn_title_kang: "คัง" #康
+ dynn_title_kang_adj: "คัง" #康
+ dynn_title_liang_west: "เหลียง" #凉
+ dynn_title_liang_west_adj: "เหลียง" #凉
+ dynn_title_ou: "โอว" #瓯
+ dynn_title_ou_adj: "โอว" #瓯
+ dynn_title_qi_guannei: "ฉี" #歧
+ dynn_title_qi_guannei_adj: "ฉี" #歧
+ dynn_title_qiong: "ฉยง" #琼
+ dynn_title_qiong_adj: "ฉยง" #琼
+ dynn_title_xu_shandong: "สวี" #徐
+ dynn_title_xu_shandong_adj: "สวี" #徐
+ dynn_title_yuan_ferghana: "ยว่าน" #宛
+ dynn_title_yuan_ferghana_adj: "ยว่าน" #宛
+ dynn_title_yue_2: "เยว่" #粤
+ dynn_title_yue_2_adj: "เยว่" #粤
+ dynn_title_you: "โยว" #幽
+ dynn_title_you_adj: "โยว" #幽
+
+ dynn_title_he: "เหอ" #和
+ dynn_title_he_adj: "เหอ" #和
+ dynn_title_zhuang_li: "ลี่" #历
+ dynn_title_zhuang_li_adj: "ลี่" #历
+ dynn_title_bo: "ฟาน" #蕃
+ dynn_title_bo_adj: "ฟาน" #蕃
+ dynn_title_zhen: "เจิ้น" #震
+ dynn_title_zhen_adj: "เจิ้น" #震
+ dynn_title_li: "หลี่" #理
+ dynn_title_li_adj: "หลี่" #理
+ dynn_title_fu: "ฝู" #福
+ dynn_title_fu_adj: "ฝู" #福
+ dynn_title_han_korea: "หาน" #韩
+ dynn_title_han_korea_adj: "หาน" #韩
+ dynn_title_miao: "เหมียว" #苗
+ dynn_title_miao_adj: "เหมียว" #苗
+ dynn_title_luo: "หลัว" #罗
+ dynn_title_luo_adj: "หลัว" #罗
+ dynn_title_le: "เล่อ" #泐
+ dynn_title_le_adj: "เล่อ" #泐
+ dynn_title_zhan: "จ้าน" #占
+ dynn_title_zhan_adj: "จ้าน" #占

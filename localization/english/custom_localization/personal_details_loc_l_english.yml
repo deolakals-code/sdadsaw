@@ -1,0 +1,132 @@
+﻿l_english: 
+ treat_comfit:0 "ลูกกวาด" # Candied fruit/nut
+ treat_roasted_almonds:0 "อัลมอนด์คั่ว"
+ treat_nougat:0 "ตังเม" # Or นูกัต (loanword)
+ treat_marzipan:0 "มาร์ซิแพน" # Loanword
+ treat_sweetroll:0 "ขนมปังม้วนหวาน"
+ treat_sweetrolls:0 "ขนมปังม้วนหวาน" # Thai often uses singular form for plural
+ treat_poached_pear:0 "ลูกแพร์ตุ๋น"
+ treat_poached_pears:0 "ลูกแพร์ตุ๋น" # Thai often uses singular form for plural
+ treat_pudding:0 "พุดดิ้ง" # Loanword, or ขนมพุดดิ้ง
+ treat_apple_tart:0 "ทาร์ตแอปเปิล"
+ treat_strawberry_compote:0 "สตรอว์เบอร์รีเชื่อม"
+ treat_gingerbread:0 "ขนมปังขิง"
+ treat_frytour_blaunched:0 "ฟรายทัวร์ บลอนช์" # Loanword/Transliteration for obscure medieval dish
+ treat_fig_pie:0 "พายมะเดื่อ"
+ treat_pokerounce:0 "โปเกอรูนซ์" # Loanword/Transliteration for obscure medieval dish
+ treat_sambocade:0 "แซมโบเคด" # Loanword/Transliteration for medieval elderflower cheesecake
+ treat_sesame_cake:0 "ขนมงา"
+ treat_baked_banana:0 "กล้วยอบ"
+ treat_koptoplakous: "คอปโตพลาคูส" # Loanword/Transliteration for Byzantine sweet pastry
+ treat_plakountas: "พลาคูนทาส เททีโรเมนูส" # Loanword/Transliteration for Byzantine cheese pastry
+
+ treat_comfit_uppercase:0 "ลูกกวาด"
+ treat_roasted_almonds_uppercase:0 "อัลมอนด์คั่ว"
+ treat_nougat_uppercase:0 "ตังเม" # Or นูกัต
+ treat_marzipan_uppercase:0 "มาร์ซิแพน"
+ treat_sweetroll_uppercase:0 "ขนมปังม้วนหวาน"
+ treat_poached_pear_uppercase:0 "ลูกแพร์ตุ๋น"
+ treat_pudding_uppercase:0 "พุดดิ้ง"
+ treat_apple_tart_uppercase:0 "ทาร์ตแอปเปิล"
+ treat_strawberry_compote_uppercase:0 "สตรอว์เบอร์รีเชื่อม"
+ treat_gingerbread_uppercase:0 "ขนมปังขิง"
+ treat_frytour_blaunched_uppercase:0 "ฟรายทัวร์ บลอนช์"
+ treat_fig_pie_uppercase:0 "พายมะเดื่อ"
+ treat_pokerounce_uppercase:0 "โปเกอรูนซ์"
+ treat_sambocade_uppercase:0 "แซมโบเคด"
+ treat_sesame_cake_uppercase:0 "ขนมงา"
+ treat_baked_banana_uppercase:0 "กล้วยอบ"
+ treat_koptoplakous_uppercase: "คอปโตพลาคูส"
+ treat_plakountas_uppercase: "พลาคูนทาส เททีโรเมนูส"
+
+ education_learning_loc:0 "การศึกษาเล่าเรียน"
+ education_stewardship_loc:0 "การดูแลทรัพย์สิน"
+ education_martial_loc:0 "การสงคราม"
+ education_intrigue_loc:0 "การวางอุบาย"
+ education_diplomacy_loc:0 "การทูต"
+
+ temper_anger:0 "ความโกรธ"
+ temper_disappointment:0 "ความผิดหวัง"
+ temper_hesitation:0 "ความลังเล"
+ temper_horror:0 "ความสยดสยอง"
+
+ prison_pet_rat:0 "หนู"
+ prison_pet_stone:0 "ก้อนหิน"
+ prison_pet_spoon:0 "ช้อน"
+ prison_pet_cockroach:0 "แมลงสาบ"
+
+ saddle:0 "อานม้า"
+ gown:0 "ชุดยาว" # Or ชุดราตรี
+ jacket:0 "เสื้อคลุม"
+ dagger:0 "กริช"
+ sword:0 "ฝักดาบ" # Sword sheath
+ silver_inkhorn:0 "ขวดหมึกเงิน"
+ ruby_ring:0 "แหวนทับทิม"
+ emerald_necklace:0 "สร้อยคอมรกต"
+ enamel_brooch:0 "เข็มกลัดลงยา"
+ tapestry:0 "พรมผนัง"
+ holy_bock:0 "[ROOT.Char.GetFaith.ReligiousText]" # คัมภีร์ศักดิ์สิทธิ์ (if variable doesn't provide specific name)
+ leatherbound_journal:0 "สมุดบันทึกปกหนัง"
+
+ died_simply:0 "เสียชีวิต"
+ died_house_arrest:0 "เสียชีวิตระหว่างถูกกักบริเวณในบ้าน"
+ 
+ private_object_finest_leather_shoes:0 "รองเท้าหนังชั้นดีที่สุด"
+ private_object_favorite_embroidered_cloak:0 "เสื้อคลุมปักลายผืนโปรด"
+ private_object_ceremonial_sword:0 "ดาบประกอบพิธี"
+ private_object_royal_scepter:0 "คทาหลวง"
+ private_object_coronation_crown:0 "มงกุฎราชาภิเษก"
+ private_object_chamberpot:0 "หม้อถ่าย"
+ private_object_gilded_religious_text:0 "[ROOT.Char.GetFaith.ReligiousText]ปิดทอง"
+ private_object_precious_silver_religioussymbol:0 "[ROOT.Char.GetFaith.ReligiousSymbol]เงินอันล้ำค่า"
+ private_object_grandfathers_paternal_portrait:0 "ภาพเหมือนของท่านปู่ [ROOT.Char.GetFather.GetFather.GetFirstNamePossessive]"
+ private_object_grandfathers_maternal_portrait:0 "ภาพเหมือนของท่านตา [ROOT.Char.GetMother.GetFather.GetFirstNamePossessive]"
+ private_object_grandmother_paternal_portrait:0 "ภาพเหมือนของท่านย่า [ROOT.Char.GetFather.GetMother.GetFirstNamePossessive]"
+ private_object_grandmother_maternal_portrait:0 "ภาพเหมือนของท่านยาย [ROOT.Char.GetMother.GetMother.GetFirstNamePossessive]"
+ private_object_precious_jewelry:0 "เครื่องประดับล้ำค่า"
+ private_object_hairbrush:0 "แปรงผม"
+ private_object_formal_gown:0 "ชุดยาวทางการ"
+ private_object_wooden_staff: "ไม้เท้า"
+ private_object_golden_staff: "ไม้เท้าทองคำ"
+ private_object_gilded_staff: "ไม้เท้าปิดทอง"
+ private_object_official_signet: "ตราประทับทางการ"
+
+ a_whip:0 "แส้เส้นหนึ่ง"
+ a_shoe:0 "รองเท้าข้างหนึ่ง"
+ a_rope:0 "เชือกเส้นหนึ่ง"
+ a_loincloth:0 "ผ้าเตี่ยวที่ผ่านการใช้งานอย่างชัดเจนผืนหนึ่ง"
+ a_stick:0 "ไม้ขัดเงาอย่างดีท่อนหนึ่ง"
+ a_feather:0 "ขนนกอันหนึ่ง"
+ an_animal_skin:0 "หนังสัตว์ผืนหนึ่ง"
+ a_candle:0 "เทียนเล่มหนึ่ง"
+ a_razor_blade:0 "ใบมีดโกนอันหนึ่ง"
+
+ capitalized_whip:0 "แส้"
+ capitalized_shoe:0 "รองเท้า"
+ capitalized_rope:0 "เชือก"
+ capitalized_loincloth:0 "ผ้าเตี่ยวที่ผ่านการใช้งานอย่างชัดเจน"
+ capitalized_stick:0 "ไม้ขัดเงาอย่างดี"
+ capitalized_feather:0 "ขนนก"
+ capitalized_animal_skin:0 "หนังสัตว์"
+ capitalized_candle:0 "เทียน"
+ capitalized_razor_blade:0 "ใบมีดโกน"
+
+ object_whips:0 "แส้" # Thai often uses singular form for plural
+ object_shoes:0 "รองเท้า"
+ object_ropes:0 "เชือก"
+ object_loinclothes:0 "ผ้าเตี่ยวที่ผ่านการใช้งานอย่างชัดเจน"
+ object_sticks:0 "ไม้ขัดเงาอย่างดี"
+ object_feathers:0 "ขนนก"
+ object_animal_skins:0 "หนังสัตว์"
+ object_candles:0 "เทียน"
+ object_razor_blades:0 "ใบมีดโกน"
+
+ whip:0 "แส้"
+ shoe:0 "รองเท้า"
+ rope:0 "เชือก"
+ loincloth:0 "ผ้าเตี่ยวที่ผ่านการใช้งานอย่างชัดเจน"
+ stick:0 "ไม้ขัดเงาอย่างดี"
+ feather:0 "ขนนก"
+ animal_skin:0 "หนังสัตว์"
+ candle:0 "เทียน"
+ razor_blade:0 "ใบมีดโกน"

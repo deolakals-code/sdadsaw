@@ -1,0 +1,331 @@
+﻿l_english: 
+ witch.1001.message:0 "การชักนำสู่ลัทธิแม่มด"
+ child_witch_conversion_success_effect.desc:0 "[child.GetFirstNameNoTooltip] ถูกโน้มน้าว"
+ child_witch_conversion_failure_effect.desc:0 "[child.GetFirstNameNoTooltip] ยังคงสงสัย"
+ child_witch_conversion_critical_failure_effect.desc:0 "[child.GetFirstNameNoTooltip] เปิดเผยความลับของข้า"
+ child_witch_conversion_critical_failure_effect.liege.desc:0 "[child.GetFirstNameNoTooltip] เปิดเผยผู้พิทักษ์ที่เป็นแม่มด"
+
+ witch.1002.t:0 "วัยแห่งการหยั่งรู้"
+ witch.1002.desc:0 "[child.Custom2('MyCharacterIntroduction', ROOT.Char)|U] กำลังอยู่ในช่วงคาบเกี่ยวระหว่างวัยเด็กและวัยผู้ใหญ่ ข้าได้สอน [child.GetHerHim] มากพอที่จะเข้าใจความจริง และ [child.GetSheHe] ก็ยังเยาว์พอที่จะเปิดใจ หากข้าต้องการชักนำ [child.GetHerHim] เข้าสู่การรับใช้ [ROOT.Char.GetFaith.WitchGodName] ก็ต้องเป็นบัดนี้ มิ เช่นนั้นก็ไม่มีโอกาสอีกแล้ว"
+ witch.1002.a:0 "[child.GetSheHe|U] สมควรได้รู้ถึงพลังอำนาจของ [ROOT.Char.GetFaith.WitchGodHerHis|U]"
+ witch.1002.b:0 "[child.GetFirstNameNoTooltip] เป็นกรณีที่สิ้นหวังแล้ว"
+
+ witch.1003.t:0 "ความรู้ที่ซ่อนเร้น"
+ witch.1003.desc:0 "มีบางสิ่งที่ [guardian.Custom2('MyCharacterIntroduction', ROOT.Char)] ได้บอกแก่ข้า ซึ่งไม่มีผู้ใดเคยเอ่ยถึง เราไม่เคยเจาะลึกในหัวข้อเหล่านี้ และข้ารู้ดีว่าไม่ควรถามคำถาม \n\nอย่างไรก็ตาม เย็นวันนี้ มีบางอย่างที่รู้สึกแตกต่างไประหว่างเรา ขณะที่เรานั่งลงเพื่ออ่านหนังสือ [guardian.GetSheHe] ถามว่ามีสิ่งใดที่ข้าสงสัยใคร่รู้หรือไม่..."
+ witch.1003.a:0 "ใช่ บอกข้ามาให้หมด! ได้โปรด!"
+ witch.1003.b:0 "ไม่ ข้าไม่คิด เช่นนั้น..."
+ witch.1003.c:0 "นี่มันการดูหมิ่นศาสนา!"
+
+ witch.2001.t:1 "$convert_to_witch$: ถึงเวลาแล้ว"
+ witch.2001.start.desc:0 "ข้าไม่อาจบังคับให้ [target.GetFirstName] มองเห็นความจริงได้ แต่ข้าได้ทำทุกวิถีทางเพื่อเปิดใจ [target.GetHerHis] ต่อสิ่งนั้นแล้ว"
+ witch.2001.secrecy.desc:0 "ข้าภาวนาต่อ [owner.GetFaith.WitchGodName] ขอให้ [target.GetFirstNameNoTooltip] ได้เชื่อมโยงกับบางสิ่งในการสนทนาอันบริสุทธิ์ของเราและในตำราศักดิ์สิทธิ์ที่ข้าทิ้งไว้ในห้องของ [target.GetHerHis]"
+ witch.2001.no_secrecy.desc:0 "ข้าภาวนาต่อ [owner.GetFaith.WitchGodName] ขอให้ [target.GetFirstNameNoTooltip] ได้เชื่อมโยงกับบางสิ่งในการสนทนาอันยาวนานเหล่านั้นและในตำราศักดิ์สิทธิ์ที่ข้ามอบให้ [target.GetHerHim]"
+ witch.2001.end.desc:0 "\n\nบัดนี้ข้าต้องไปหา [target.GetHerHim] และยื่นคำเชิญสู่การร่วมสังสรรค์กับ [owner.GetFaith.WitchGodHerHis|U] — หรือ มิฉะนั้นก็ล้มเลิกความพยายามนี้เสีย"
+ witch.2001.a:0 "[target.GetSheHe|U] สมควรที่จะตัดสินใจด้วย [target.GetHerHis] เอง"
+ witch.2001.b1:0 "ความเสี่ยงมันมากเกินไป"
+ witch.2001.b2:0 "[target.GetFirstNameNoTooltip] ยังไม่พร้อม"
+ witch.2001.a.tt:1 "ท่านดำเนินการตามแผนเพื่อชักนำ [target.GetShortUIName] สู่เส้นทางของ [owner.GetFaith.WitchGodName]"
+
+ witch.2002.t:0 "ผู้รับใช้แห่ง [owner.GetFaith.WitchGodName]"
+ witch.2002.start.desc:0 "ขณะที่ข้าลืมตาขึ้นในความมืด ข้าก็รู้สึกถึงลางร้ายอย่างท่วมท้นในทันที มีใครกำลังจับตามองข้าอยู่หรือ?\n\n"เจ้าพร้อมที่จะยอมรับความจริงแล้วหรือยัง [ROOT.Char.GetFirstNameNoTooltip]?""
+ witch.2002.discovery.desc:0 "ข้าจำเสียงนั้นได้ทุกที่ ต้องเป็น [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] แน่"
+ witch.2002.no_discovery.desc:0 "ข้าลุกขึ้นนั่ง ตื่นเต็มตาในทันใด ข้ามองหารอบๆ เพื่อหาต้นตอของเสียง [owner.GetWomanMan] ที่ไม่คุ้นเคย แต่มีเพียงเงาเท่านั้น"
+ witch.2002.end.desc:0 "\n\n"[owner.GetFaith.WitchGodName|U] มอบพรของ [owner.GetFaith.WitchGodHerHis|U] แก่เจ้า เจ้าจะยอมรับหรือไม่?""
+ witch.2002.a:0 "ด้วยสุดใจของข้า!"
+ witch.2002.b:0 "ข้าไม่ต้องการยุ่งเกี่ยวกับเรื่องนี้ ไปให้พ้น เจ้าปีศาจ!"
+ witch.2002.c:0 "โลกจะได้รู้ถึงบาปของเจ้า [owner.GetFirstNameNoTooltip]!"
+
+ witch.2003.t:1 "$convert_to_witch$: ศิษย์ใหม่"
+ witch.2003.desc:0 "ข้ามองร่างที่หลับใหลของ [target.GetFirstName] ขณะที่ข้าส่งคำอธิษฐานสั้นๆ ถึง [owner.GetFaith.WitchGodName] ทันทีที่คำกระซิบสุดท้ายหลุดจากริมฝีปากข้า [target.GetSheHe] ก็ขยับตัว ราวกับว่าจิตใต้สำนึกของ [target.GetHerHis] รอคอยช่วงเวลานี้อยู่\n\nเมื่อข้าก้าวออกจากเงามืดและมอบพรของ [owner.GetFaith.WitchGodHerHis|U] แก่ [target.GetFirstNameNoTooltip] ไม่มีแววตาแห่งความกลัวหรือลังเลในดวงตาของ [target.GetHerHis] ไม่เลย การยอมรับของ [target.GetHerHis] นั้นเต็มใจและกระหายใคร่รู้"
+
+ witch.2003.a:0 "ยินดีต้อนรับสู่การร่วมชุมนุมของเรา [target.Custom('SisterBrother')|U]"
+ witch.2003.b:0 "บัดนี้ข้าสามารถแสดงตัวตนที่แท้จริงของข้าให้ [target.GetHerHim] เห็นได้ในที่สุด"
+ witch.2003.b.tt:0 "[target.GetShortUIName|U] ต้องรู้ถึง [secret|E] ของท่าน เพื่อที่จะได้รับเชิญเข้าร่วม $activity_witch_ritual$"
+ witch.2003.c:0 "[target.GetSheHe|U] ต้องค้นพบเส้นทางของ [target.GetHerHis] เอง"
+
+ witch.2003.message:0 "แม่มดเปิดเผย [owner.GetHerselfHimself] แก่ข้า"
+
+ witch.2004.t:1 "$convert_to_witch$: จิตใจที่ปิดกั้น หัวใจที่เย็นชา"
+ witch.2004.start.desc:0 "[target.GetFirstName] ขยับตัวตื่นจากนิทราขณะที่ข้า [SelectLocalization( IsLandlessAdventurer(target), 'witch.2004.start_target_laamp', 'witch.2004.start_target_landed')] "ใครน่ะ?" [target.GetSheHe] ถามด้วยเสียงสั่นเครือ\n\n"นามของข้าไม่สำคัญ ข้ามาที่นี่เพื่อรับใช้ [owner.GetFaith.WitchGodName]"\n\n"
+ witch.2004.start_target_landed: "ปีนเข้าทางหน้าต่าง"
+ witch.2004.start_target_laamp: "คลานเข้าไปในเต็นท์"
+ witch.2004.discovered.desc:0 "[target.GetFirstNameNoTooltip] หรี่ตา "[ROOT.Char.GetFirstNameNoTooltip] นั่นเจ้าหรือ? '[owner.GetFaith.WitchGodName|U]'? นี่มันเรื่องไร้สาระอะไรกัน?!"
+ witch.2004.not_discovered.desc:0 "[target.GetFirstNameNoTooltip] ตะเกียกตะกายลงจากเตียง เอื้อมมือไปหยิบบางอย่างบนโต๊ะข้างเตียงของ [target.GetHerHis] คงไม่ใช่ของดีแน่ "ข้าไม่ต้องการยุ่งเกี่ยวกับเจ้าหรือคำโกหกของเจ้า! ไปให้พ้น เจ้าปีศาจ!" [target.GetFirstNameNoTooltip] ตะโกน และข้าก็ไม่รอช้าที่จะเชื่อฟัง"
+ witch.2004.a:0 "ขออภัย ผิด [target.Custom('GetChamber')]!"
+ witch.2005.toast: "ค้นพบแม่มด"
+
+ witch.2005.end.desc:0 "[ROOT.Char.GetFirstNameNoTooltip] นั่นเจ้าหรือ? '[owner.GetFaith.WitchGodName|U]'? [target.GetLiege.Custom2('MyCharacterIntroduction', target)|U] จะต้องได้ยินเรื่องการดูหมิ่นศาสนาของเจ้า!""
+ witch.2005.a:0 "ได้โปรด มันไม่ใช่สิ่งที่ท่านคิด!"
+ witch.2005.a.tt:0 "อันที่จริง มันอาจจะ #EMP ใช่เลย#! อย่างที่ [target.GetSheHe] คิด..."
+
+ witch.2006.t:0 "$convert_to_witch$: การเปิดเผย"
+ witch.2006.desc:0 "[target.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ไม่ได้อยู่บนเตียงของ [target.GetHerHis] ขณะที่ข้าแอบย่องผ่านหน้าต่างของ [target.GetHerHis] ในภารกิจจาก [owner.GetFaith.WitchGodName] เขาจะไปไหนได้–\n\n"นั่นใคร?!"\n\nข้าหันขวับไปพบ [target.GetTitledFirstName] กำลังนั่งยองๆ เหนือรูปดาวห้าแฉกที่วาดไว้บนพื้น"
+ witch.2006.a:0 "โอ้ ท่านอยู่แล้ว...! สวัสดี [target.Custom('SisterBrother')|U]!"
+
+ witch.2007.t:0 "พันธมิตรที่ซ่อนเร้น"
+ witch.2007.desc:0 "ข้ากำลังอยู่ระหว่างพิธีกรรมยามค่ำคืนเพื่อเป็นเกียรติแด่ [owner.GetFaith.WitchGodName] เมื่อมีเสียงดังขึ้นข้างหลังข้า โจรหรือ? แขกหรือ? หรือนักฆ่า?!\n\nขณะที่ข้าหันขวับไป ข้าก็เผชิญหน้ากับ [owner.Custom2('MyCharacterIntroduction', ROOT.Char)] ซึ่ง แต่งกายด้วยเสื้อคลุมสีเข้มประดับด้วยเครื่องหมายอันเป็นเอกลักษณ์ของ [owner.GetFaith.WitchGodName] – ชุดคลาสสิกสำหรับการเปลี่ยนศาสนา"
+ witch.2007.a:1 "ไม่จำเป็นต้องทำ เช่นนั้นกับข้า #EMP [owner.Custom('SisterBrother')|U]#!!"
+
+ witch.2010.t:1 "$convert_to_witchcraft_key$: ได้ยินเข้า"
+ witch.talk.2010:1 "[target.GetFirstName] และข้าสนทนากันเรื่อง [owner.GetFaith.WitchGodName] และเจตจำนงของ [owner.GetFaith.WitchGodHerHis] เป็นเวลาหลายชั่วโมง เมื่อท้องฟ้าเปลี่ยนเป็นสีฟ้าจางๆ ที่ขอบฟ้า เราก็กล่าวคำอำลา"
+ witch.leave.2010:0 "เมื่อข้าได้ถ่ายทอดปัญญาอันสำคัญที่สุดของ [ROOT.Char.GetFaith.WitchGodHerHis|U] ให้แก่ [target.GetFirstName] และมอบตำราเวทมนตร์ส่วนตัวของ [target.GetHerHis] ให้ [target.GetHerHim] แล้ว ข้าก็จากไป"
+ witch.end.2010:0 "\n\nขณะที่ข้าเปิดประตูห้อง ข้าได้ยินเสียงฝีเท้าวิ่งหายไปตามทางเดินอย่างรวดเร็ว มีใครแอบฟังอยู่หรือ?"
+ witch.2010.a:0 "ให้ [ROOT.Char.GetFaith.HighGodName] ถูกสาปแช่งไปเสีย!"
+ witch.2010.a.tt:1 "มีคนรู้ [secret|E] ของท่าน"
+ witch.2010.message:0 "ความลับถูกค้นพบ"
+
+ convert_to_witchcraft_key:0 "ชักนำสู่ลัทธิแม่มด"
+ convert_to_witchcraft_interaction:1 "$convert_to_witchcraft_key$ #weak (แผนการ)#!"
+ convert_to_witchcraft_interaction_desc:0 "พยายามชักนำ [recipient.GetShortUINameNoTooltip] สู่วิถีแห่ง [actor.GetFaith.WitchGodName]"
+ convert_to_witchcraft:2 "$convert_to_witchcraft_key$"
+ convert_to_witchcraft_desc:0 "ข้าจะนำ [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] สู่เส้นทางของ [SCHEME.GetOwner.GetFaith.WitchGodName] และแสดงให้ [SCHEME.GetTargetCharacter.GetHerHim] เห็นถึงขอบเขตอำนาจที่แท้จริงของ [SCHEME.GetOwner.GetFaith.WitchGodHerHis|U]"
+ convert_to_witchcraft_desc_general:0 "นำเป้าหมายสู่เส้นทางที่แท้จริงและแสดงให้พวกเขาเห็นถึงขอบเขตของพลังอำนาจนี้"
+ convert_to_witchcraft_action:0 "ชักนำ"
+ convert_to_witchcraft_interaction_notification:0 "ชักนำสู่ลัทธิแม่มด"
+ convert_to_witchcraft_scheme_invalidated_title:0 "@scheme_icon! แผนการชักนำสู่ลัทธิแม่มดสิ้นสุดลง"
+ convert_to_witchcraft_general_desc:1 "แผนการเพื่อนำเป้าหมายเข้าสู่ลัทธิแม่มดโดยหวังว่าจะขยายชุมนุมของพวกเขา"
+
+
+ ### REVEAL AS WITCH INTERACTION ###
+ reveal_as_witch_interaction:0 "เปิดเผยตนว่าเป็นแม่มด"
+ reveal_as_witch_interaction_desc:0 "เปิดเผยความศรัทธาของท่านต่อ [actor.GetFaith.WitchGodName] แก่เพื่อน [GetTrait('witch').GetName( GetNullCharacter )]"
+
+ witch.2900.t:0 "[actor.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
+ witch.2900.desc:1 "ท่านเป็นแรงบันดาลใจให้ข้ามานาน และข้ารู้สึกว่าท่านสมควรได้รับรู้สิ่งที่ข้าปิดบังจากโลก\n\nข้าเองก็เป็นผู้ติดตาม [actor.GetFaith.WitchGodName] และเป็นศิษย์แห่งความลี้ลับของ [actor.GetFaith.WitchGodHerHis|U] ข้าหวังว่าความพยายามร่วมกันของเราจะ ทำให้เราใกล้ชิดกันมากขึ้น\n\nขอให้ [actor.GetFaith.WitchGodMistressMaster] ผู้ชาญฉลาดของเราคุ้มครองท่าน"
+ witch.2900.a:0 "พวกเรามีจำนวนเพิ่มขึ้น!"
+
+ witch.2901.t:0 "[recipient.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
+ witch.2901.desc:0 "ข้ายินดีที่ได้ยินถึงการรับใช้อันซื่อสัตย์ของท่านต่อ [ROOT.Char.GetFaith.WitchGodMistressMaster] ผู้ชาญฉลาดของเรา! ขอให้ [ROOT.Char.GetFaith.WitchGodSheHe|U] คุ้มครองท่านและนำทางท่านสู่เส้นทางแห่งความจริง"
+ witch.2901.a:0 "และขอให้ [ROOT.Char.GetFaith.WitchGodSheHe|U] คุ้มครองท่าน!"
+
+ ####GRAND RITE####
+
+ #Activity & decision
+ host_witch_ritual_decision:0 "จัดมหาพิธีกรรม"
+ host_witch_ritual_decision_desc:0 "เราจะบูชา [ROOT.Char.GetFaith.WitchGodName] และเจาะลึกสู่ความลี้ลับของ [ROOT.Char.GetFaith.WitchGodHerHis|U]! $activity_witch_ritual$ เป็นโอกาสอันยอดเยี่ยมในการสังสรรค์และแลกเปลี่ยนความรู้กับเพื่อนแม่มดของข้า"
+ host_witch_ritual_decision_tooltip:0 "จัดพิธีกรรม"
+ host_witch_ritual_decision_confirm:0 "ให้พิธีกรรมเริ่มต้น!"
+ activity_witch_ritual:0 "มหาพิธีกรรม"
+ activity_witch_ritual_name:0 "มหาพิธีกรรมของ [ACTIVITY.GetOwner.GetNamePossessiveOrMy|U]"
+ activity_witch_ritual_owner:0 "เจ้าภาพ"
+ activity_witch_ritual_desc:3 "ผู้ติดตามที่แท้จริง ซึ่งมี [trait|E] [GetTrait('witch').GetName( GetNullCharacter )] ได้รับเชิญให้เฉลิมฉลองอำนาจของ [GetPlayer.GetFaith.WitchGodName] และเจาะลึกสู่ความลี้ลับ"
+ activity_witch_ritual_destination_selection:0 "ท่านสามารถจัด $activity_witch_ritual$ ได้เฉพาะใน [capital|E] ของท่านเท่านั้น"
+ activity_witch_ritual_selection_tooltip:0 "บูชา [GetPlayer.GetFaith.WitchGodName] และยอมรับของประทานอันมืดมิดของ [GetPlayer.GetFaith.WitchGodHerHis|U]\n\nรางวัลที่คาดว่าจะได้รับ:\n$BULLET_WITH_TAB$[opinion_i] [opinion|E]\n$BULLET_WITH_TAB$[stress_loss_i] การสูญเสีย [stress|E]"
+ activity_witch_ritual_province_capital_desc: "นี่คือ [capital|E] ของท่าน"
+ activity_witch_ritual_province_domicile_desc: "นี่คือ [domicile|E] ของท่าน"
+ activity_witch_ritual_province_both_desc: "$activity_witch_ritual_province_capital_desc$ และ [domicile|E]"
+ activity_witch_ritual_host_desc:1 "$BULLET_WITH_TAB$อาจได้รับประสบการณ์วิถีชีวิต\n$BULLET_WITH_TAB$ผู้เข้าร่วมอาจได้รับ [opinion|E] จากตัวละครที่เข้าร่วม\n$BULLET_WITH_TAB$ผู้เข้าร่วมอาจสูญเสีย [stress_loss_i][stress|E]"
+ activity_witch_ritual_conclusion_desc:1 "[GetActivityType( 'activity_witch_ritual' ).GetName] ได้สิ้นสุดลงแล้ว"
+ activity_witch_ritual_guest_desc:1 "$BULLET_WITH_TAB$ ผู้เข้าร่วมอาจได้รับ [opinion|E] จากตัวละครที่เข้าร่วม\n$BULLET_WITH_TAB$ ผู้เข้าร่วมอาจสูญเสีย [stress_loss_i][stress|E]"
+ activity_witch_ritual_guest_help_text:0 "$activity_witch_ritual_desc$"
+ witch_ritual_phase_desc:0 "อุทิศตนแด่ [GetPlayer.GetFaith.WitchGodName]"
+ host_witch_ritual_title:0 "มหาพิธีกรรม"
+ host_witch_ritual:0 "บูชา [GetPlayer.GetFaith.WitchGodName]"
+
+ host_witch_ritual_decision_cooldown:0 "ข้าจะไม่สามารถจัดมหาพิธีกรรมอื่นได้อีกเป็นเวลา #N 10 ปี#!"
+
+ ### PHASES
+ witch_ritual_phase:0 "พิธีกรรมมืด"
+
+ ### INTENTS
+ worship_devil_intent:2 "บูชา [GetPlayer.GetFaith.WitchGodName]"
+ worship_devil_intent_desc:1 "อุทิศตนแด่ผู้ซ่อนเร้น ทั้งร่างกายและจิตใจ"
+
+ #Invitation
+ witch.3001.t:0 "ถึง [ROOT.Char.Custom('SisterBrother')|U] [ROOT.Char.GetFirstNameNoTooltip] ที่รัก,"
+ witch.3001.desc:0 "ถึงเวลาสำหรับ $activity_witch_ritual$ ของชุมนุมแม่มด [host.GetHouse.GetBaseNameNoTooltip] แล้ว ข้าขอเชิญท่านมาบูชา [ROOT.Char.GetFaith.WitchGodName] ในคืนวันเพ็ญ เราจะร่วมกันขับขานพระนามของ [ROOT.Char.GetFaith.WitchGodHerHis|U] และเจาะลึกสู่ความลี้ลับของ [ROOT.Char.GetFaith.WitchGodHerHis|U]!"
+ witch.3001.a:0 "ข้ารอไม่ไหวแล้ว!"
+ witch.3001.b:0 "ข้ายอมกินทากสักชามเสียดีกว่า"
+
+ #Uninvited guest
+ witch.3003.t:2 "แขกที่ไม่ได้รับเชิญ"
+ witch.3003.desc:1 "ขณะที่เพื่อนแม่มดของข้าเดินทางมาถึง [capital.GetNameNoTooltip] ข้าเหลือบไปเห็นใบหน้าที่ไม่คุ้นเคย\n\nเมื่อข้าไปทักทาย [inviter.Custom2('MyCharacterIntroduction', ROOT.Char)], [inviter.GetSheHe] แนะนำ [new_guest.GetWomanMan] แปลกหน้าว่าเป็น [new_guest.GetFirstName] ปรากฏว่าพวกเขาเป็นคนรู้จักเก่า และ [inviter.GetFirstNameNoTooltip] ถามว่า [new_guest.GetFirstNameNoTooltip] สามารถเข้าร่วมพิธีกรรมของเราได้หรือไม่"
+ witch.3003.a:0 "ยิ่งมากยิ่งสนุก!"
+ witch.3003.b:0 "ท่านจะเป็นแขกผู้มีเกียรติของข้า [new_guest.GetFirstNameNoTooltip]"
+ witch.3003.c:0 "$activity_witch_ritual$ เป็นเรื่องส่วนตัว"
+
+ #No one attended
+ witch.3002.t:1 "ขาดความศรัทธา"
+ witch.3002.desc:0 "ไม่มีใครตอบรับคำเชิญของข้าเลยแม้ แต่คนเดียว พวกเขาไม่สมควรได้รับพรจาก [ROOT.Char.GetFaith.WitchGodName]!"
+ witch.3002.a:0 "พวกเขาจะได้รู้ถึงความพิโรธของ [ROOT.Char.GetFaith.WitchGodHerHis|U]"
+
+ #Starting event
+ every_grand_rite_participant:0 "แขกทุกคนที่ $activity_witch_ritual$"
+ witch.3010.t:2 "จันทร์เพ็ญขึ้น"
+ witch.3010.desc:0 "ขณะที่ดวงจันทร์ลอยขึ้นสู่สรวงสวรรค์ เป็นสัญญาณการมาถึงของ [ROOT.Char.GetFaith.WitchGodHerHis|U] ข้ารู้สึกได้ว่าร่างกายของข้าตอบสนองต่อพลังงานแปลกประหลาดในอากาศ เงาร่างรอบกองไฟใหญ่นั้นเงียบสงัด ไม่เคลื่อนไหว รอคอยสิ่งที่จะมาถึง\n\nในฐานะเจ้าภาพของการชุมนุมนี้ เป็นหน้าที่ของข้าที่จะเริ่มพิธีกรรม ข้าจะ..."
+ witch.3010.a:0 "อ่านจากตำราเวทมนตร์โบราณ"
+ witch.3010.a.great:0 "การแปลของข้าน่าประทับใจ"
+ witch.3010.a.poor:0 "การแปลของข้าแย่"
+ witch.3010.b:0 "เล่นกลกับเสียงและเงา"
+ witch.3010.b.great:0 "กลของข้าน่าตื่นตาตื่นใจ"
+ witch.3010.b.poor:0 "กลของข้าน่าหัวเราะ"
+ witch.3010.c:0 "อาศัยเสน่ห์ของข้าและด้นสด"
+ witch.3010.c.great:0 "การด้นสดของข้าสร้างแรงบันดาลใจ"
+ witch.3010.c.poor:0 "การด้นสดของข้าไม่ปะติดปะต่อ"
+ witch.3010.d:0 "ถวายเครื่องบูชาอันยิ่งใหญ่"
+ witch.3010.e:0 "สวดภาวนาตามประเพณี"
+ witch.3010.e.tt:0 "[activity.GetName] ดำเนินต่อไปตามปกติ"
+
+ #What to do after the rite
+ witch.3014.host.great_translation.desc:0 "ถ้อยคำโบราณนั้นแปลกประหลาด แต่กลับสื่อสารกับข้าในระดับสัญชาตญาณ มันถักทอรูปแบบอันน่าหลงใหล เต็มไปด้วยความงามและคำมั่นสัญญา แขกของข้าตกอยู่ในภวังค์อย่างสิ้นเชิง\n\nขณะที่ข้าปิดตำราเวทมนตร์ด้วยท่าทางอันน่าทึ่ง เสียงโห่ร้องยินดีของพวกเขาก็ดังก้องไปทั่วลานโล่ง"
+ witch.3014.host.poor_translation.desc:0 "ไม่ว่าข้าจะพยายามเพียงใด ถ้อยคำโบราณก็ไม่สามารถเข้าใจได้ สีหน้าของแขกเปลี่ยนจากกระตือรือร้น เป็นสับสน และเป็นผิดหวัง ก่อนที่ข้าจะ ทำให้ตัวเองขายหน้าไปมากกว่านี้ ข้าด้นสดตอนจบที่น่าผิดหวังน้อยลงเล็กน้อย ฝูงชนแยกย้ายกันไปอย่างรวดเร็วเมื่อข้าเสร็จสิ้น"
+ witch.3014.host.great_tricks.desc:0 "พรของ [ROOT.Char.GetFaith.WitchGodName] นั้นมีมากมาย และหนึ่งในนั้นคือการรู้ว่าเมื่อใดควรใช้เล่ห์กลเล็กน้อย ด้วยความช่วยเหลือของกระจกเงา เขา และผู้ช่วยที่เต็มใจ ข้าได้จัดการแสดงอันน่าตื่นตาตื่นใจ อากาศอบอวลไปด้วยความตื่นเต้นระคนความกลัว ข้าจำไม่ได้ว่าครั้งสุดท้ายที่รู้สึกมีชีวิตชีวา เช่นนี้คือเมื่อใด!"
+ witch.3014.host.poor_tricks.desc:0 "แม้ว่ากลของข้าจะใช้ได้ผลดีเมื่อข้าฝึกซ้อมคนเดียวในห้อง แต่ดูเหมือนว่าคืนนี้ข้าจะประหม่า ไม่มีใครเชื่อเลย — ข้าถึงกับได้ยินเสียงใครบางคนกลั้นหัวเราะอยู่ด้านหลังฝูงชน ก่อนที่ข้าจะ ทำให้ตัวเองขายหน้าไปมากกว่านี้ ข้าด้นสดตอนจบพิธีอย่างรวดเร็ว"
+ witch.3014.host.great_improvisation.desc:0 "ขณะที่ข้านำฝูงชนผ่านพิธี ข้าศึกษาปฏิกิริยาของพวกเขาอย่างระมัดระวังและปรับเปลี่ยนคำพูดของข้าตามนั้น ไม่นานนัก ข้าก็โต้คลื่นแห่งความตื่นเต้นของพวกเขา เสียงเชียร์อันเร่าร้อนเป็นเชื้อเพลิงให้ข้าขณะที่ข้าสร้างไปสู่จุดสุดยอดอันงดงาม เราไปถึงจุดนั้นด้วยกัน ส่งเสียงหอนเรียกนามของ [ROOT.Char.GetFaith.WitchGodHerHis|U] สู่ดวงจันทร์เป็นหนึ่งเดียว"
+ witch.3014.host.poor_improvisation.desc:0 "บางทีข้าควรจะเตรียมตัวให้ดีกว่านี้ การด้นสดของข้าขาดความกระตือรือร้นและวกวน ข้ารู้ว่าข้ากำลังสูญเสียความสนใจของฝูงชน ดังนั้นในท้ายที่สุด ข้าจึงหันไปใช้คำอธิษฐานตามประเพณี ฝูงชนแยกย้ายกันไปอย่างรวดเร็วเมื่อข้าเสร็จสิ้น"
+ witch.3014.host.offering.desc:0 "เราทุกคนต่างรู้ดีถึงความโปรดปรานของ [ROOT.Char.GetFaith.WitchGodHerHis|U] ที่มีต่ออาหารและเครื่องดื่มอันหรูหรา โต๊ะนั้นหนักอึ้งไปด้วยขนมหวาน ถังไวน์ ผลไม้แปลกตา และพายเนย เราถวายสิ่งที่ดีที่สุดแด่ [ROOT.Char.GetFaith.WitchGodName] ร่วมกัน ก่อนที่เราจะเลี้ยงฉลองส่วนที่เหลือด้วยตนเอง"
+ witch.3014.host.fallback.desc:0 "คำอธิษฐานเก่าแก่อาจไม่ซับซ้อน แต่ก็ไม่ใช่เรื่องง่าย สั้นและตรงประเด็น พวกมันบรรจุความจริงอันศักดิ์สิทธิ์และทรงพลังที่สุดของ [ROOT.Char.GetFaith.WitchGodHerHis|U] การท่องซ้ำอีกครั้งเปรียบเสมือนการตกอยู่ในอ้อมกอดอันปลอดภัยของมารดา"
+ witch.3014.guest.start.desc:0 "ในยามเย็นของมหาพิธีกรรม เรารวมตัวกันในลานโล่งอันเงียบสงบ กองไฟใหญ่ให้ความอบอุ่นแก่หลังของเรา และอากาศก็อบอวลไปด้วยความตื่นเต้น"
+ witch.3014.guest.good.desc:0 "[host.GetTitledFirstName] นำเราผ่านพิธีอันน่าตื่นตาตื่นใจ คำอธิษฐานโบราณหลั่งไหลออกจากลิ้นของเราเป็นรูปแบบอันน่าหลงใหล เต็มไปด้วยความงามและคำมั่นสัญญา เราเริ่มเต้นรำ สร้างไปสู่จุดสุดยอดอันงดงาม เราไปถึงจุดนั้นด้วยกัน ส่งเสียงหอนเรียกนามของ [ROOT.Char.GetFaith.WitchGodHerHis|U] สู่ดวงจันทร์เป็นหนึ่งเดียว"
+ witch.3014.guest.bad.desc:0 "[host.GetTitledFirstName] นำเราผ่านพิธีอันน่าอึดอัด [host.GetSheHe|U] พยายามอย่างหนักที่จะ ทำให้ค่ำคืนนี้พิเศษ แต่ความพยายามของ [host.GetHerHis] นั้นอ่อนแอ อย่างน้อยรายชื่อแขกก็ยังน่าสนใจ..."
+ witch.3014.guest.fallback.desc:0 "[host.GetTitledFirstName] นำเราผ่านพิธีด้วยถ้อยคำและท่าทางที่ถูกต้องทั้งหมด คำอธิษฐานโบราณหลั่งไหลออกจากลิ้นของเราเป็นรูปแบบอันน่าหลงใหล แต่ความงามและพลังที่มักจะมาพร้อมกับมันกลับลดน้อยลง [host.GetTitledFirstNameNoTooltip] ทำได้ดีพอสมควร แต่ถึงกระนั้นก็ยังมีบางอย่างขาดหายไป"
+ witch.3014.host.end.desc:0 "\n\nบัดนี้พิธีหลักได้เสร็จสิ้นลงแล้ว แขกของข้าและข้ามีอิสระที่จะบูชาตามที่เราพอใจ"
+ witch.3014.guest.end.desc:0 "\n\nบัดนี้พิธีหลักได้เสร็จสิ้นลงแล้ว เรามีอิสระที่จะบูชาตามที่เราพอใจ"
+ witch.3014.a:0 "ทดลองสมุนไพรร่วมกับ [herbalist.GetFirstNameNoTooltip]"
+ witch.3014.a.knowledge:0 "[herbalist.GetFirstNameNoTooltip] สอนสิ่งใหม่แก่ข้า"
+ witch.3014.a.inspiration:0 "การสนทนาสร้างแรงบันดาลใจ"
+ witch.3014.b.start:0 "ขอให้ [teacher.GetFirstNameNoTooltip] สอนข้าในศิลปะแห่ง"
+ witch.3014.b.diplomacy:0 "เสน่ห์"
+ witch.3014.b.martial:0 "กลยุทธ์"
+ witch.3014.b.stewardship:0 "การค้า"
+ witch.3014.b.intrigue:0 "การวางแผน"
+ witch.3014.b.learning:0 "กวีนิพนธ์"
+ witch.3014.c:0 "แบ่งปันของประทานทางกามารมณ์ของ [ROOT.Char.GetFaith.WitchGodHerHis|U] กับใครสักคน"
+ witch.3014.c.tt:1 "ท่านพยายามหาคนที่มีแรงกระตุ้นคล้ายกัน"
+ witch.3014.d:0 "ใช้เวลากับ [new_guest.GetFirstNameNoTooltip] ผู้ [new_guest.Custom('ComplimentAdjective')]"
+ witch.3014.e:0 "[sex_partner.Custom('LoverPetName')] ของข้าอยู่ที่ไหน? ข้าปรารถนาสัมผัสของ [sex_partner.GetHerHis]..."
+ witch.3014.d.move_in:0 "เราเข้ากันได้ดีเยี่ยม"
+ witch.3014.d.friend:0 "เราเข้ากันได้ดี"
+ witch.3014.d.enemy:0 "เราโต้เถียงกันอย่างเผ็ดร้อน"
+ witch.3014.f:1 "หัวเราะ ดื่ม เต้นรำ — เพลิดเพลินกับพรของ [ROOT.Char.GetFaith.WitchGodHerHis|U]!"
+
+ #Regular seduction event
+ witch.3015.t:1 "ริมสระน้ำ"
+ witch.3015.start.desc:0 "พลังของ [ROOT.Char.GetFaith.WitchGodName] กำลังเต้นระรัวในเส้นเลือดของข้าขณะที่ข้าเดินเข้าไปในป่า เสียงครวญครางประสานกันต้อนรับข้า — ข้าไม่ใช่คนเดียวที่ปรารถนาเพื่อนในคืนนี้\n\n"
+ witch.3015.new_guest.desc:0 "ข้าบังเอิญพบคนรู้จักใหม่ของข้า [sex_partner.GetFirstName] ริมสระน้ำใต้แสงจันทร์"
+ witch.3015.regular.desc:0 "ข้าพบ [sex_partner.Custom2('MyCharacterIntroduction', ROOT.Char)] ริมสระน้ำใต้แสงจันทร์"
+ witch.3015.end.desc:0 "ขณะที่ข้ามองเข้าไปในดวงตาของ [sex_partner.GetHerHis] ทุกอย่างก็เข้าที่เข้าทาง นี่คือเจตจำนงของ [ROOT.Char.GetFaith.WitchGodHerHis|U] [sex_partner.GetSheHe|U] กวักมือเรียกข้าเข้ามาใกล้..."
+ witch.3015.a:0 "ให้เราบูชาร่วมกันเถิด"
+ witch.3015.b:0 "ข้า... กำลังมองหาคนอื่นอยู่"
+ witch.3015.b.tt:1 "ท่านใช้เวลาทั้งคืนตามลำพัง"
+
+ #Lover/spouse seduction event
+ witch.3016.t:1 "ดวงดาวเรียงตัว"
+ witch.3016.end.desc:0 "เสียงที่คุ้นเคยเรียกหาข้า — คือ [sex_partner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] ขณะที่ข้าหันไปสบตากับ [sex_partner.GetHerHis] ทุกอย่างก็เข้าที่เข้าทาง เราสองคน... มันคือเจตจำนงของ [ROOT.Char.GetFaith.WitchGodHerHis|U] เราถูกกำหนดมาให้อยู่ด้วยกัน"
+ witch.3016.a:0 "ตลอดไป"
+ witch.3016.b:0 "ข้า... ข้ายังไม่พร้อมสำหรับเรื่องนี้"
+
+ #Soulmate seduction event
+ witch.3017.end.desc:0 "ข้าไม่เห็นว่า [sex_partner.GetFirstName] ไปที่ไหน แต่ข้าไม่จำเป็นต้องเห็น ข้าถูกดึงดูดเข้าหา [sex_partner.GetHerHim] เหมือนแม่เหล็กดึงดูดเหล็ก เมื่อข้าพบ [sex_partner.GetHerHim] ไม่มีแววประหลาดใจในดวงตาอันงดงามของ [sex_partner.GetHerHis] — มีเพียงความรักและความปรารถนา"
+ witch.3017.a:0 "ข้าเฝ้าปรารถนาท่านเพียงใด"
+ witch.3017.b:0 "ข้า... ลืมบางอย่าง! ขออภัย!"
+
+ #End events
+ witch.3098.t:1 "จนกว่าจะถึงครั้งหน้า"
+ witch.3098.start.desc:0 "แขกของข้าและข้า"
+ witch.3098.end.desc:0 "ได้บูชา [ROOT.Char.GetFaith.WitchGodName] แลกเปลี่ยนความรู้ศักดิ์สิทธิ์ และผูกพันธะอันลึกซึ้ง จิตใจของข้าเต็มไปด้วยความคิดใหม่ๆ แต่ร่างกายของข้าต้องการพักผ่อนอย่างยิ่ง เตียงอุ่นๆ ไม่เคยน่าดึงดูดใจเท่านี้มาก่อน"
+ witch.3098.a:0 "ขอให้ [ROOT.Char.GetFaith.WitchGodSheHe|U] คุ้มครองเราจนกว่าจะถึง $activity_witch_ritual$ ครั้งต่อไป"
+ witch.3099.start.desc:0 "ร่วมกัน เรา"
+ witch.3099.tt:0 "ท่านเดินทางกลับบ้านเมื่อ $activity_witch_ritual$ สิ้นสุดลง"
+
+
+ ########################
+ # ONGOING WITCH EVENTS #
+ ########################
+
+ ### Court chaplain / other clergy is an idiot ###
+ witch.4001.t:0 "การพิพากษาอันศักดิ์สิทธิ์"
+ witch.4001.start.desc:0 "[annoying_clergy.Custom2('MyCharacterIntroduction', ROOT.Char)|U] กำลัง ทำให้ข้าหงุดหงิดจริงๆ! ไม่มีสักครู่ที่ [annoying_clergy.GetSheHe] จะไม่พร่ำบ่นไม่หยุดเกี่ยวกับ [annoying_clergy.GetFaith.HighGodName] และเจตจำนงของ [annoying_clergy.GetFaith.HighGodHerHis|U]\n\n[annoying_clergy.GetSheHe|U] ชอบเป็นพิเศษที่จะบอกทุกคนว่า [annoying_clergy.GetFaith.HighGodNameAlternate]"
+ witch.4001.forgiving.desc:0 "คิดว่าการให้อภัยคือความอ่อนแอ"
+ witch.4001.deceitful.desc:0 "จะลงโทษคนโกหก"
+ witch.4001.gluttonous.desc:0 "ลงโทษผู้ที่เพลิดเพลินกับอาหารและเครื่องดื่ม"
+ witch.4001.wrathful.desc:0 "จะลงโทษผู้ที่มีอารมณ์ร้าย"
+ witch.4001.greedy.desc:0 "จะลงโทษผู้ที่โลภในทรัพย์สมบัติ"
+ witch.4001.arbitrary.desc:0 "เรียกร้องให้เรายุติธรรมและเที่ยงธรรม"
+ witch.4001.sadistic.desc:0 "จะลงโทษผู้ที่โหดร้ายต่อผู้อื่น"
+ witch.4001.craven.desc:0 "จะลงโทษผู้ที่ขี้ขลาดและระมัดระวังเกินไป"
+ witch.4001.lustful.desc:0 "จะลงโทษหญิงแพศยาและผู้ล่วงประเวณี"
+ witch.4001.vengeful.desc:0 "เรียกร้องให้เราหันแก้มอีกข้างให้"
+ witch.4001.arrogant.desc:0 "คิดว่าการภูมิใจในความสำเร็จของตนเป็นบาป"
+ witch.4001.fallback.desc:0 "จะลงโทษคนบาป"
+ witch.4001.witch.desc:0 "แต่เหตุใดข้าต้องฟัง [annoying_clergy.GetHerHim] ในเมื่อ [ROOT.Char.GetFaith.WitchGodName] โอบรับเราอย่างที่เราเป็น ทั้งข้อบกพร่องและทุกสิ่ง? ช่างเป็นชีวิตที่น่าเศร้าเสียนี่กระไรที่ [annoying_clergy.GetFirstNameNoTooltip] ต้องมี!"
+ witch.4001.impious.desc:0 "[annoying_clergy.GetFaith.HighGodName] เป็นไอ้สารเลวที่ชอบตัดสินคนอื่น!"
+ witch.4001.a:0 "ข้าจะ ทำให้ [annoying_clergy.GetHerHim] เป็นตัวตลกของ [capital.GetNameNoTooltip]!"
+ witch.4001.a.tt:0 "[annoying_clergy.GetFaith.HighGodName] ไม่ใช่คนเดียวที่สามารถตัดสินได้!"
+ witch.4001.a.success:0 "ท่าน ทำให้ [annoying_clergy.GetShortUINameNoTooltip] กลายเป็นคนโง่"
+ witch.4001.a.failure:0 "[annoying_clergy.GetShortUINameNoTooltip] ค้นพบแผนการของท่าน"
+ witch.4001.c:0 "การทำตัวเหมือนคนเคร่งศาสนาที่อ่อนแอจะ ทำให้ [annoying_clergy.GetHerHim] หุบปากได้"
+ witch.4001.b:0 "[annoying_clergy.GetSheHe|U] จะไม่รู้ว่าควรเชื่ออะไรเมื่อข้าจัดการกับ [annoying_clergy.GetHerHim] เสร็จแล้ว"
+ witch.4001.b.success:0 "ท่านทำลายศรัทธาของ [annoying_clergy.GetShortUINamePossessiveNoTooltip] ใน [annoying_clergy.GetFaith.HighGodName]"
+ witch.4001.b.neutral:0 "[annoying_clergy.GetShortUINameNoTooltip] ไม่แน่ใจ"
+ witch.4001.b.neutral.tt:0 "ท่านอาจเลือกที่จะยอมแพ้หรือพยายามต่อไป"
+ witch.4001.b.failure:0 "ท่านล้มเหลวในการมีอิทธิพลต่อ [annoying_clergy.GetShortUINameNoTooltip]"
+ witch_4001_corruption_success_effect.tt:0 "ท่านสามารถ [blackmail|E] [annoying_clergy.GetShortUIName] เกี่ยวกับ [secret|E] ของ [annoying_clergy.GetHerHis]"
+ witch.4002.witch.desc:0 "[ROOT.Char.GetFaith.WitchGodName|U] ต้องช่วยเหลือข้าแน่ เพราะแผนของข้าดำเนินไปได้ดีเกินคาด!\n\n"
+ witch.4002.impious.desc:0 "แผนของข้าสมบูรณ์แบบ!\n\n"
+ witch.4002.gluttonous.desc: "[annoying_clergy.GetTitledFirstName] สวาปามตัว[annoying_clergy.GetHerselfHimself]ด้วยเค้กผสมยาที่ข้าส่งไปยังห้องพักของ [annoying_clergy.GetHerHis] อย่างตะกละตะกลาม จากนั้น [annoying_clergy.GetSheHe|U] ก็เดินเตร็ดเตร่ไปทั่วเมืองโดยมีแยมและเศษขนมเปื้อนรอบปากของ [annoying_clergy.GetHerHis] ก่อนจะผล็อยหลับไปบนขั้นบันไดของ [annoying_clergy.GetFaith.HouseOfWorship]!"
+ witch.4002.lustful.desc:0 "ข้าเขียนบทกวีที่โจ่งแจ้งเป็นพิเศษเกี่ยวกับ [lustful_desc.Custom2('MyCharacterIntroduction', ROOT.Char)] และ "[lustful_desc.Custom('ObjectifiedFeature')]" ของ [lustful_desc.GetHerHis] ปลอมลายเซ็นของ [annoying_clergy.GetTitledFirstNamePossessive] และส่งไปยังห้องของ [lustful_desc.GetLadyLord] [lustful_desc.GetFirstName] #EMP ไม่#! พอใจกับการอุทิศให้ และ [lustful_desc.GetSheHe] ก็ไม่ได้เก็บเรื่องนี้เป็นความลับ"
+ witch.4002.craven.desc:0 "ขณะที่ [annoying_clergy.GetTitledFirstName] กำลังหลับ ข้าแอบใส่หนูเข้าไปในผ้าปูที่นอนของ [annoying_clergy.GetHerHis] ข้าแทบไม่มีเวลาซ่อนตัวก่อนที่ [annoying_clergy.GetSheHe] จะตื่นขึ้นพร้อมกับเสียงกรีดร้อง โยน [annoying_clergy.GetHerselfHimself] ออกจากเตียงและวิ่งออกจากประตูไป — เปลือยกายเหมือนวันที่ [annoying_clergy.GetSheHe] เกิด!"
+ witch.4002.vengeful.desc:0 "ข้าติดสินบนเสมียนให้โน้มน้าว [annoying_clergy.GetTitledFirstName] ว่า [vengeful_desc.Custom2('MyCharacterIntroduction', ROOT.Char)] ได้ดูถูก [annoying_clergy.GetHerHim] ลับหลัง [annoying_clergy.GetHerHis] วันต่อมา [annoying_clergy.GetFirstNameNoTooltip] ก็หยาบคายอย่างเหลือเชื่อต่อ [vengeful_desc.GetFirstNameNoTooltip] ที่น่าสงสารทุกครั้งที่ [annoying_clergy.GetSheHe] มีโอกาส ในที่สุด [vengeful_desc.GetFirstNameNoTooltip] ก็เผชิญหน้ากับ [annoying_clergy.GetHerHim] เกี่ยวกับพฤติกรรมอันมุ่งร้ายของ [annoying_clergy.GetHerHis] [annoying_clergy.GetFirstNameNoTooltip] ไม่มีอะไรจะแก้ตัว"
+ witch.4002.wrathful.desc:0 "ข้ารู้ดีว่า [annoying_clergy.GetTitledFirstName] เป็นคนขี้เมาที่ร้ายกาจ และ [annoying_clergy.GetSheHe] ก็หลงใหลคนรับใช้คนหนึ่งของข้าเล็กน้อย ข้าให้ [wrathful_desc.GetWomanMan] นำเหล้าที่แพงมากและแรงยิ่งกว่าไปยังห้องของ [annoying_clergy.GetTitledFirstNamePossessiveNoTooltip] ด้วยแรงจูงใจจากคำสัญญาว่าจะได้เลื่อนตำแหน่ง [wrathful_desc.GetSheHe] ทำให้ [annoying_clergy.GetHerHim] เมาทันเวลาสำหรับ [annoying_clergy.Custom('GetReligiousRite')]"
+ witch.4002.arrogant.desc:0 "แม้ว่า [annoying_clergy.GetSheHe] จะพยายามซ่อนมันไว้ แต่ข้ารู้ว่า [annoying_clergy.GetTitledFirstName] กังวลเรื่องรูปลักษณ์ของ [annoying_clergy.GetHerHis] มาก [annoying_clergy.GetSheHe|U] มียาทา ซึ่ง [annoying_clergy.GetSheHe] ทาอย่างเคร่งครัดทุกเช้า ข้าแอบเข้าไปในห้องของ [annoying_clergy.GetHerHis] และเติมสมุนไพรที่ระคายเคืองลงไป วันรุ่งขึ้น ใบหน้าของ [annoying_clergy.GetTitledFirstNamePossessiveNoTooltip] ก็เต็มไปด้วยผื่นลมพิษ!"
+ witch.4002.end.desc:0 "\n\nมันเป็นเรื่องเดียวที่ข้าราชบริพารของข้าพูดถึงเมื่อคืนนี้ [annoying_clergy.GetFirstNameNoTooltip] จะไม่มีวันลืมเรื่องนี้ได้เลย!"
+ witch.4002.a:0 "สมควรแล้วสำหรับ [annoying_clergy.GetHerHim]!"
+
+ witch.4003.desc:0 "ขณะซ่อนตัวในทางลับหลังห้องของ [annoying_clergy.GetTitledFirstNamePossessive] ข้าแอบฟังเสียงครวญครางและถอนหายใจของ [annoying_clergy.Custom('WomanManPossessive')] [annoying_clergy.Custom2('InsultAdjective', ROOT.Char)] อย่างร่าเริง [annoying_clergy.GetSheHe|U] ได้อ่านตำราที่ข้าทิ้งไว้บนเตียงของ [annoying_clergy.GetHerHis] — อันที่จริง [annoying_clergy.GetSheHe] ไม่สามารถวางมันลงได้เลย\n\nความจริงภายในนั้นดูเหมือนจะส่งผลกระทบสำคัญต่อศรัทธาของ [annoying_clergy.GetHerHis] "โอ้ [annoying_clergy.GetFaith.HighGodNameAlternate]! ข้าต้องการสัญญาณ! ข้าเคยเชื่อในพระองค์ ปฏิบัติตามเจตจำนงของพระองค์บนโลก แต่บัดนี้... ทั้งหมดที่ข้าเห็นคือความขัดแย้ง ความเชื่อผิดๆ... คำโกหก!"\n\nเสียงของ [annoying_clergy.GetTitledFirstNamePossessiveNoTooltip] แตกสลายเป็นเสียงสะอื้นไห้ที่จับใจความไม่ได้"
+ witch.4003.a:0 "ข้าจากไป งานของข้าเสร็จสมบูรณ์แล้ว"
+ witch.4003.b:0 "[annoying_clergy.GetSheHe|U] พร้อมสำหรับความจริงที่ยิ่งใหญ่กว่าแล้ว"
+ witch.4003.c:0 "[annoying_clergy.GetSheHe|U] จะกลายเป็นศิษย์ของข้า!"
+
+ witch.4004.desc:0 "ภายใต้หน้ากากอันไร้เดียงสาของการสอบถามทางเทววิทยา ข้าได้หว่านความสงสัยลงในใจของ [annoying_clergy.GetTitledFirstNamePossessive] ข้าบอกได้ว่าศรัทธาของ [annoying_clergy.GetHerHis] กำลังสั่นคลอนจากคำตอบที่ไม่แน่นอนของ [annoying_clergy.GetHerHis] และเงาแห่งความกังวลที่ปรากฏบนใบหน้าของ [annoying_clergy.GetHerHis] เมื่อ [annoying_clergy.GetSheHe] คิดว่าไม่มีใครมองอยู่\n\nข้ายังไปไม่ถึงจุดนั้น แต่ความพยายามครั้งสุดท้าย #EMP ควรจะ#! ทำลาย [annoying_clergy.GetHerHim] ได้"
+ witch.4004.a:0 "มันเป็นความพยายามที่คุ้มค่า!"
+ witch.4004.b:0 "เวลาของข้าควรใช้กับเรื่องอื่นดีกว่า"
+
+ witch.4005.desc:0 "ข้าทิ้งตำราแห่งความจริงอันน่าอึดอัดไว้ในห้องของ [annoying_clergy.GetTitledFirstNamePossessive] แต่ข้าเห็น [annoying_clergy.GetHerHim] โยนมันเข้ากองไฟหลังจากอ่านไปเพียงไม่กี่หน้า ความท้าทายนี้ต้องเสริมสร้างศรัทธาของ [annoying_clergy.GetHerHis] ให้แข็งแกร่งขึ้นแน่ — ข้าไม่สามารถตรวจจับความไม่แน่นอนใดๆ ในใจของ [annoying_clergy.GetHerHis] ได้อีกต่อไป"
+ witch.4005.a:0 "[annoying_clergy.GetSheHe|U] ไม่คู่ควรอยู่แล้ว!"
+
+#PERSONAL WITCH RITUAL
+ witch.4010.t:0 "ของประทานของ [ROOT.Char.GetFaith.WitchGodHerHis|U] นั้นมากมาย"
+ witch.4010.desc:1 "ข้าเทของประทานลงบนผืนดิน สมุนไพร นม และน้ำผึ้ง หลับตาลงและควันฉุนเข้าจมูก ข้ายกแขนขึ้นสู่ดวงจันทร์\n\n"[ROOT.Char.GetFaith.WitchGodMistressMaster|U]! ผู้รู้ความจริงทั้งปวง [ROOT.Char.GetFaith.WitchGodMotherFather] แห่งพลังอำนาจทั้งมวล! โปรดรับของขวัญอันต่ำต้อยของข้า และโปรดชี้แนะแก่ข้าเป็นการตอบแทน!"\n\nข้าขอ [ROOT.Char.GetFaith.WitchGodName] เพื่อ..."
+ witch.4010.a:0 "โชคในศิลปะแห่งความรัก"
+ witch.4010.b:0 "เสน่ห์และไหวพริบ"
+ witch.4010.c:0 "ความคิดของนักยุทธศาสตร์"
+ witch.4010.d:0 "ความคิดเรื่องเหรียญและระเบียบ"
+ witch.4010.e:0 "ความช่วยเหลือจากเงามืด"
+ witch.4010.f:0 "ปัญญาและไหวพริบ"
+ witch.4010.g:0 "โชคกับคมดาบ"
+ witch.4010.h:0 "ความสงบทางใจ"
+
+# Witch friends: prayer, by Mathilda Bjarnehed
+ witch.4020.t:0 "การรับหรือการให้"
+ witch.4020.two_witches.desc:0 "[prayer_witch_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] และ [prayer_witch_2.Custom2('MyCharacterIntroduction', ROOT.Char)] ได้เข้าร่วมกับข้าเพื่อ"
+ witch.4020.one_witch.desc:0 "[prayer_witch_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ได้เข้าร่วมกับข้าเพื่อ"
+ witch.4020.full_moon.desc:0 "พิธีกรรมคืนวันเพ็ญ"
+ witch.4020.new_moon.desc:0 "พิธีกรรมคืนเดือนมืด"
+ witch.4020.equinox.desc:0 "พิธีกรรมวิษุวัต"
+ witch.4020.solstice.desc:0 "พิธีกรรมอายัน" # Corrected from equinox
+ witch.4020.end.desc:0 "เพื่อเป็นเกียรติแด่ [ROOT.Char.GetFaith.WitchGodName] ในฐานะเจ้าภาพ เป็นหน้าที่ของข้าที่จะนำพวกเราสวดภาวนา"
+ witch.4020.a:0 "[ROOT.Char.GetFaith.WitchGodMistressMaster|U] ผู้ปรีชาญาณ โปรดนำความสงบและความกระจ่างมาสู่ [prayer_witch_1.GetFirstNameNoTooltip]!"
+ witch.4020.b:0 "โปรดประทานพรของท่านแก่ [prayer_witch_2.GetFirstNameNoTooltip]!"
+ witch.4020.c:0 "[ROOT.Char.GetFaith.WitchGodMotherFather|U] แห่งความลับ โปรดประทานพลังของท่านแก่ข้า!"
+
+ witch.4030.t:0 "ความลับที่หุ้มด้วยหนัง"
+ witch.4030.no_friend.desc:1 "ผู้ติดต่อของข้าได้ส่งตำราที่เขียนด้วยรหัสแปลกๆ มาให้ข้า ปกหนังของมันประดับด้วยสัญลักษณ์ของ [ROOT.Char.GetFaith.WitchGodMistressMaster|U] ของข้า\n\nข้าเพิ่งถอดรหัสได้เพียงไม่กี่หน้าแรกเท่านั้น แต่มันน่าหลงใหลอย่างยิ่ง"
+ witch.4030.friend.desc:1 "[ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('witch_friend'))] ที่ดีของข้า [witch_friend.GetTitledFirstName] ได้นำตำราที่เขียนด้วยรหัสแปลกๆ มาให้ข้า ปกหนังของมันประดับด้วยสัญลักษณ์ของ [ROOT.Char.GetFaith.WitchGodMistressMaster|U] ของเรา\n\n[witch_friend.GetSheHe|U] เพิ่งถอดรหัสได้เพียงไม่กี่หน้าแรกเท่านั้น แต่มันน่าหลงใหลอย่างยิ่ง"
+
+ witch.4030.friend.a:0 "เราจะไขความลับของมันด้วยกัน"
+ witch.4030.no_friend.a:0 "ข้าจะไขความลับของมัน ไม่ว่าจะใช้เวลานานเท่าใด!"
+ witch.4030.b:0 "ข้ารู้จักผู้ศรัทธาร่วมคนหนึ่งที่จะจ่ายทองอย่างงามเพื่อสิ่งนี้"
+ witch.4030.c:0 "แม้ แต่ [convince_target_1.GetTitledFirstNameNoTooltip] ก็จะถูกล่อลวงด้วยความลับเหล่านี้"
+ witch.4030.c.success:0 "[convince_target_1.GetShortUIName|U] หลงใหลในตำรา"
+ witch.4030.c.failure:0 "[convince_target_1.GetShortUIName|U] เผาตำรา"
+ witch.4030.d:0 "[convince_target_2.GetTitledFirstNameNoTooltip] จะพบว่าสิ่งนี้ #EMP น่าสนใจ#! อย่างยิ่ง"
+ witch.4030.d.success:0 "[convince_target_2.GetShortUIName|U] หลงใหลในตำรา"
+ witch.4030.d.failure:0 "[convince_target_2.GetShortUIName|U] เผาตำรา"
+
+ witch.4031.start.desc:0 "ข้ามองเห็นตำราได้อย่างชัดเจน ซึ่งข้าทิ้งไว้ท่ามกลางสิ่งของของ [convince_target.GetTitledFirstNamePossessive] จากรูแอบมองหลัง [convince_target.Custom('GetChamber')] ของ [convince_target.GetHerHis] สายตาของ [convince_target.GetHerHis|U] ถูกดึงดูดไปที่มันทันทีที่ [convince_target.GetSheHe] ก้าวข้ามธรณีประตู ราวกับว่าหนังสือเล่มนั้นมีเวทมนตร์แปลกๆ ของตัวเอง\n\n"
+ witch.4031.end.desc:0 "เมื่อ [convince_target.GetFirstNameNoTooltip] อ่านหน้าที่แปลเสร็จแล้ว [convince_target.GetSheHe] ก็เริ่มเดินไปมา ในที่สุด แรงดึงดูดของตำราดูเหมือนจะต้านทานไม่ได้ [convince_target.GetSheHe] รีบคว้าปากกาขนนกของ [convince_target.GetHerHis]"
+ witch.4031.a:0 "ถูกต้องแล้ว สหายข้า เจาะลึกลงไป ลึกลงไปอีก..."
+
+ witch.4032.end.desc:0 "[convince_target.GetFirstNameNoTooltip] ไม่แม้ แต่จะเปิดหนังสือ เสียงหอบหายใจดังออกมาจากริมฝีปากของ [convince_target.GetHerHis] เมื่อ [convince_target.GetSheHe] เห็นสัญลักษณ์แปลกๆ และ [convince_target.GetSheHe] ก็โยนมันทิ้งไปจาก [convince.GetHerselfHimself]"
+ witch.4032.a:0 "#EMP ไม่!#! ขอให้ [ROOT.Char.GetFaith.HighGodName] สาปแช่งคนโง่ไร้กระดูกสันหลังผู้นี้!"

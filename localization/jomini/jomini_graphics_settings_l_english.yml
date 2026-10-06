@@ -1,0 +1,8 @@
+﻿l_english: 
+ SETTING_REFRACTION: "การหักเหของแสง"
+ SETTING_REFRACTION_QUALITY: "คุณภาพการหักเหของแสง"
+ SETTING_MAPOBJECT_QUALITY: "วัตถุบนแผนที่"
+ SETTING_MAP_SSAO: "SSAO แผนที่"
+ SETTING_DOF: "ระยะชัดลึก"
+ SETTING_LENS_FLARE: "แสงแฟลร์"
+ SETTING_SECONDARY_LENS_FLARE: "แสงแฟลร์รอง"

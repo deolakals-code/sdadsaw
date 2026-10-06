@@ -1,0 +1,10 @@
+﻿l_english: 
+ court_astrologer_events.0002.t: "เพ่งพิศดินแดนเพื่อนบ้าน"
+ court_astrologer_events.0002.desc.intro: "[astrologer.GetShortUIName] เข้ามาหาข้าขณะที่ดวงอาทิตย์ลับทิวเขาไป [astrologer.GetSheHe|U] [astrologer.Custom('quirk_pos_present')] ขณะที่ [astrologer.GetSheHe] เข้ามาใกล้พลางสำรวจตรวจตราผืนดิน\n\n"
+ court_astrologer_events.0002.desc.bad: ""องค์ [astrologer.GetFaith.HighGodName] มิทรงเมตตาพวกเราเลย ท่าน [ROOT.GetCharacter.Custom('GetMongolHonorific')] [ROOT.Char.GetTitleAsNameNoTooltip] ผืนหญ้าต้องทนทุกข์ เหี่ยวแห้งดุจซากศพเก่าแก่""
+ court_astrologer_events.0002.desc.meh: ""แม้ด้วยพรขององค์ [astrologer.GetFaith.HighGodNamePossessive] ฝูงปศุสัตว์ของเราก็ยังคงขัดสน" [astrologer.GetSheHe] กล่าว พลางชี้ไปยังม้าบางตัวที่กำลังเดินวนไปมา"
+ court_astrologer_events.0002.desc.outro: "\n\n"ดินแดนข้างเคียงแห่ง [target_realm.GetName] นั้นอุดมสมบูรณ์กว่ามาก ท่านต้องโน้มน้าวให้ [target_realm_owner.GetTitledFirstName] เปิดทางให้แก่ผู้คนของเรา""
+ court_astrologer_events.0002.a: ""ข้าเชื่อถือในคำของท่าน""
+ court_astrologer_events.0002.a.tt: "หากท่าน [migrate|E] ไปยัง [target_realm.GetName] #EMP อย่างสันติ#! ภายใน #V 5#! ปีข้างหน้า ท่านจะได้รับ [GetModifier('astrologer_desired_area_modifier').GetNameWithTooltip] เมื่อไปถึง"
+ court_astrologer_events.0002.b: ""ท่านกล่าววาจาอันเปี่ยมศรัทธา""
+ court_astrologer_events.0002.c: ""มีเพียงผู้อ่อนแอเท่านั้นที่หลีกลี้หนีหน้า""

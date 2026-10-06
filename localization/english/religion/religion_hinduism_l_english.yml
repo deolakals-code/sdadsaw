@@ -1,0 +1,208 @@
+﻿l_english: 
+ hinduism_religion:0 "ศาสนาฮินดู"
+ hinduism_religion_adj:0 "ฮินดู"
+ hinduism_religion_adherent:0 "ชาวฮินดู"
+ hinduism_religion_adherent_plural:0 "ชาวฮินดู"
+ hinduism_religion_desc:0 "ศาสนาฮินดูคือธรรมะ วิถีแห่งชีวิต ซึ่ง รวมถึงเทพเจ้าและหลักปฏิบัติทางศาสนาอันหลากหลาย สิ่งที่ยึดถือร่วมกันคือความเชื่อในสังสารวัฏ วัฏจักรไม่สิ้นสุดของการเวียนว่ายตายเกิดของจิตวิญญาณในโลก และโมกษะ การหลุดพ้นจากวัฏจักรนั้น"
+ hinduism_high_god_name:0 "พรหมัน"
+ hinduism_high_god_name_2:0 "$hinduism_high_god_name$" # Optional translation alt
+ hinduism_high_god_name_possessive:0 "แห่งพรหมัน"
+ hinduism_high_god_shehe:0 "พระองค์"
+ hinduism_high_god_herselfhimself:0 "พระองค์เอง"
+ hinduism_high_god_herhis:0 "ของพระองค์"
+ hinduism_high_god_name_alternate:0 "พระผู้สูงสุด"
+ hinduism_high_god_name_alternate_possessive:0 "แห่งพระผู้สูงสุด"
+ hinduism_good_god_brahma:0 "พระพรหม"
+ hinduism_good_god_vishnu:0 "พระวิษณุ"
+ hinduism_good_god_shiva:0 "พระศิวะ"
+ hinduism_good_god_krishna:0 "พระกฤษณะ"
+ hinduism_good_god_shakti:0 "ศักติ"
+ hinduism_good_god_narayana:0 "พระนารายณ์"
+ hinduism_good_god_ganesh:0 "พระพิฆเนศ"
+ hinduism_good_god_surya:0 "พระสูรยะ"
+ hinduism_devil_name:0 "เหล่าวิณายกะ"
+ hinduism_devil_name_possessive:0 "แห่งเหล่าวิณายกะ"
+ hinduism_devil_shehe:0 "พวกเขา"
+ hinduism_devil_herselfhimself:0 "พวกเขาเอง"
+ hinduism_evil_god_vetalas:0 "เหล่าเวตาล"
+ hinduism_evil_god_pishachas:0 "เหล่าปิศาจ"
+ hinduism_evil_god_krodha:0 "โกรธะ"
+ hinduism_house_of_worship:0 "เทวสถาน"
+ hinduism_house_of_worship_2:0 "$hinduism_house_of_worship$" # Optional translation alt
+ hinduism_house_of_worship_3:0 "$hinduism_house_of_worship$" # Optional translation alt
+ hinduism_house_of_worship_plural:0 "เทวสถาน"
+ hinduism_religious_symbol:0 "โอม"
+ hinduism_religious_symbol_2:0 "$hinduism_religious_symbol$" # Optional translation alt
+ hinduism_religious_symbol_3:0 "$hinduism_religious_symbol$" # Optional translation alt
+ hinduism_religious_text:0 "พระเวท"
+ hinduism_religious_text_2:0 "$hinduism_religious_text$" # Optional translation alt
+ hinduism_religious_text_3:0 "$hinduism_religious_text$" # Optional translation alt
+ hinduism_religious_head_title:1 "สวามี"
+ hinduism_religious_head_title_name:0 "สัมประทาย"
+ hinduism_devotee_male:0 "สันยาสี"
+ hinduism_devotee_male_plural:0 "สันยาสี"
+ hinduism_devotee_female:0 "สันยาสินี"
+ hinduism_devotee_female_plural:0 "สันยาสินี"
+ hinduism_devotee_neuter:0 "สันยาสะ"
+ hinduism_devotee_neuter_plural:0 "สันยาสะ"
+ hinduism_priest:0 "ปูชารี"
+ hinduism_priest_plural:0 "ปูชารี"
+ hinduism_priest_term_plural:0 "พราหมณ์"
+ hinduism_bishop:0 "สวามี"
+ hinduism_bishop_plural:0 "สวามี"
+ hinduism_divine_realm:0 "สุเมรุ"
+ hinduism_divine_realm_2:0 "$hinduism_divine_realm$" # Optional translation alt
+ hinduism_divine_realm_3:0 "$hinduism_divine_realm$" # Optional translation alt
+ hinduism_positive_afterlife:0 "สวรรค์"
+ hinduism_positive_afterlife_2:0 "$hinduism_positive_afterlife$" # Optional translation alt
+ hinduism_positive_afterlife_3:0 "$hinduism_positive_afterlife$" # Optional translation alt
+ hinduism_negative_afterlife:0 "นรก"
+ hinduism_negative_afterlife_2:0 "$hinduism_negative_afterlife$" # Optional translation alt
+ hinduism_negative_afterlife_3:0 "$hinduism_negative_afterlife$" # Optional translation alt
+ hinduism_death_name:0 "พระยม"
+ hinduism_death_name_possessive:0 "แห่งพระยม"
+
+ hinduism_creator_god_name:0 "พระพรหม"
+ hinduism_creator_god_name_possessive:0 "แห่งพระพรหม"
+ hinduism_health_god_name:0 "พระแม่คงคา"
+ hinduism_health_god_name_possessive:0 "แห่งพระแม่คงคา"
+ hinduism_fertility_god_name:0 "พระแม่กายาตรี"
+ hinduism_fertility_god_name_possessive:0 "แห่งพระแม่กายาตรี"
+ hinduism_wealth_god_name:0 "ท้าวกุเวร"
+ hinduism_wealth_god_name_possessive:0 "แห่งท้าวกุเวร"
+ hinduism_household_god_name:0 "พระแม่สันโตษี"
+ hinduism_household_god_name_possessive:0 "แห่งพระแม่สันโตษี"
+ hinduism_fate_god_name:0 "กรรม"
+ hinduism_fate_god_name_possessive:0 "แห่งกรรม"
+ hinduism_knowledge_god_name:0 "พระสุรัสวดี"
+ hinduism_knowledge_god_name_possessive:0 "แห่งพระสุรัสวดี"
+ hinduism_war_god_name:0 "พระแม่กาลี"
+ hinduism_war_god_name_possessive:0 "แห่งพระแม่กาลี"
+ hinduism_trickster_god_name:0 "พระกฤษณะ"
+ hinduism_trickster_god_name_possessive:0 "แห่งพระกฤษณะ"
+ hinduism_night_god_name:0 "นิทรา"
+ hinduism_night_god_name_possessive:0 "แห่งนิทรา"
+ hinduism_water_god_name:0 "พระยมุนา"
+ hinduism_water_god_name_possessive:0 "แห่งพระยมุนา"
+
+ #Vaishnavism
+ vaishnavism:0 "ลัทธิไวษณพ"
+ vaishnavism_adj:1 "ไวษณพ"
+ vaishnavism_adherent:0 "ไวษณพนิกาย"
+ vaishnavism_adherent_plural:0 "ไวษณพนิกาย"
+ vaishnavism_desc:0 "ในลัทธิไวษณพ พระวิษณุทรงเป็นพระเจ้าสูงสุด และเทวะที่สำคัญที่สุดคืออวตารปางต่างๆ ของพระองค์ เช่น พระรามและพระกฤษณะ อวตาร แต่ละปางเหล่านี้ทรงทำงานเพื่อฟื้นฟูสมดุลแก่จักรวาล"
+ vaishnavism_high_god_name:0 "พระวิษณุ"
+ vaishnavism_high_god_name_2:0 "$vaishnavism_high_god_name$" # Optional translation alt
+ vaishnavism_high_god_name_possessive:0 "แห่งพระวิษณุ"
+
+ vaishnavism_wealth_god_name:0 "พระลักษมี"
+ vaishnavism_wealth_god_name_possessive:0 "แห่งพระลักษมี"
+ vaishnavism_knowledge_god_name:0 "พระหัยครีวะ"
+ vaishnavism_knowledge_god_name_possessive:0 "แห่งพระหัยครีวะ"
+ vaishnavism_war_god_name:0 "พระชคันนาถ"
+ vaishnavism_war_god_name_possessive:0 "แห่งพระชคันนาถ"
+ vaishnavism_trickster_god_name:0 "พระกฤษณะ"
+ vaishnavism_trickster_god_name_possessive:0 "แห่งพระกฤษณะ"
+
+ #Shaivism
+ shaivism:0 "ลัทธิไศวะ"
+ shaivism_adj:1 "ไศวะ"
+ shaivism_adherent:0 "ไศวนิกาย"
+ shaivism_adherent_plural:0 "ไศวนิกาย"
+ shaivism_desc:0 "ผู้นับถือลัทธิไศวะบูชาพระศิวะ ผู้สร้างและผู้ทำลายโลก ในฐานะพระผู้สูงสุดผู้ดำรงอยู่ในทุกสรรพสิ่ง เช่นเดียวกับที่พระศิวะทรงทำงานเพื่อรักษาสมดุลและปกป้องจักรวาล ผู้ศรัทธาต้องมุ่งมั่นนำสมดุลมาสู่ชีวิตของตน"
+ shaivism_high_god_name:0 "พระศิวะ"
+ shaivism_high_god_name_2:0 "$shaivism_high_god_name$" # Optional translation alt
+ shaivism_high_god_name_possessive:0 "แห่งพระศิวะ"
+
+ shaivism_health_god_name:0 "พระไวทีศวร"
+ shaivism_health_god_name_possessive:0 "แห่งพระไวทีศวร"
+ shaivism_fertility_god_name:0 "พระปารวตี"
+ shaivism_fertility_god_name_possessive:0 "แห่งพระปารวตี"
+ shaivism_wealth_god_name:0 "พระไภรวะ"
+ shaivism_wealth_god_name_possessive:0 "แห่งพระไภรวะ"
+ shaivism_household_god_name:0 "พระมุนีศวร"
+ shaivism_household_god_name_possessive:0 "แห่งพระมุนีศวร"
+ shaivism_knowledge_god_name:0 "พระทักษิณามูรติ"
+ shaivism_knowledge_god_name_possessive:0 "แห่งพระทักษิณามูรติ"
+ shaivism_war_god_name:0 "พระวีรภัทร"
+ shaivism_war_god_name_possessive:0 "แห่งพระวีรภัทร"
+
+ #Srikula Shaktism
+ srikula_shaktism:0 "ลัทธิศักติศรีสกุล"
+ srikula_shaktism_adj:0 "ศรีสกุล"
+ srikula_shaktism_adherent:0 "ผู้นับถือลัทธิศักติศรีสกุล"
+ srikula_shaktism_adherent_plural:0 "ผู้นับถือลัทธิศักติศรีสกุล"
+ srikula_shaktism_desc:0 "ลัทธิศักติเชื่อในพระมหาเทวีในฐานะพระผู้สูงสุดผู้เป็นต้นกำเนิดของสรรพสิ่ง ศรีสกุลบูชาพระตริปุระสุนทรีในฐานะปางสูงสุดของพระเทวี และเป็นแหล่งกำเนิดแห่งศักติ พลังงานแห่งจักรวาล"
+ shaktism_good_god_sundari:0 "พระตริปุระสุนทรี"
+ shaktism_good_god_sundari_2:0 "$shaktism_good_god_sundari$" # Optional translation alt
+ shaktism_good_god_sundari_possessive:0 "แห่งพระตริปุระสุนทรี"
+ shaktism_good_god_devi:0 "พระเทวี"
+ shaktism_good_god_parvati:0 "พระปารวตี"
+ shaktism_good_god_kali:0 "พระแม่กาลี"
+ shaktism_good_god_kali_2:0 "$shaktism_good_god_kali$" # Optional translation alt
+ shaktism_good_god_kali_possessive:0 "แห่งพระแม่กาลี"
+ shaktism_good_god_chandi:0 "พระจัณฑี"
+
+ #Kalikula Shaktism
+ kalikula_shaktism:0 "ลัทธิศักติกาลิกุล"
+ kalikula_shaktism_adj:0 "กาลิกุล"
+ kalikula_shaktism_adherent:0 "ผู้นับถือลัทธิศักติกาลิกุล"
+ kalikula_shaktism_adherent_plural:0 "ผู้นับถือลัทธิศักติกาลิกุล"
+ kalikula_shaktism_desc:0 "ลัทธิศักติเชื่อในพระมหาเทวีในฐานะพระผู้สูงสุดผู้เป็นต้นกำเนิดของสรรพสิ่ง กาลิกุลบูชาพระแม่กาลีในฐานะผู้สามารถประทานการชี้นำ การเกิดใหม่ที่ดี และท้ายที่สุดคือโมกษะ"
+
+ #Smartism
+ smartism:1 "ลัทธิสมารตะ"
+ smartism_adj:1 "สมารตะ"
+ smartism_adherent:1 "สมารตะ"
+ smartism_adherent_plural:1 "สมารตะ"
+ smartism_desc:0 "ประเพณีสมารตะปฏิเสธการบูชาเทพเจ้าองค์ใดองค์หนึ่ง พรหมันเป็นหนึ่งเดียวและเป็นนิรันดร์ และพระวิษณุ พระเทวี พระศิวะ พระพิฆเนศ และพระสูรยะ ได้รับการบูชาในฐานะอวตารที่เท่าเทียมกันของพระผู้สูงสุด การบูชาปัจเจกบุคคลใดๆ ถือเป็นก้าวหนึ่งสู่การบรรลุความเข้าใจและความเป็นหนึ่งเดียวกับพรหมัน"
+
+ smartism_health_god_name:0 "พระวิษณุ"
+ smartism_health_god_name_possessive:0 "แห่งพระวิษณุ"
+ smartism_household_god_name:0 "พระศิวะ"
+ smartism_household_god_name_possessive:0 "แห่งพระศิวะ"
+ smartism_knowledge_god_name:0 "พระพิฆเนศ"
+ smartism_knowledge_god_name_possessive:0 "แห่งพระพิฆเนศ"
+ smartism_war_god_name:0 "พระเทวี"
+ smartism_war_god_name_possessive:0 "แห่งพระเทวี"
+
+ #Krishnaism
+ krishnaism:0 "ลัทธิกฤษณนิยม"
+ krishnaism_adj:0 "กฤษณนิยม"
+ krishnaism_adherent:0 "ผู้นับถือลัทธิกฤษณนิยม"
+ krishnaism_adherent_plural:0 "ผู้นับถือลัทธิกฤษณนิยม"
+ krishnaism_desc:0 "พระกฤษณะคือรูปลักษณ์ที่แท้จริงของพระผู้สูงสุด และพระวิษณุคืออวตารของพระองค์เมื่อทรงปรากฏรูปเป็นผู้ทรงอำนาจทุกอย่าง ผ่านอวตารอันศักดิ์สิทธิ์ของพระองค์ พระองค์ทรงดำรงอยู่ในทุกสรรพสิ่ง"
+ krishnaism_high_god_name:0 "พระกฤษณะ"
+ krishnaism_high_god_name_2:0 "$krishnaism_high_god_name$" # Optional translation alt
+ krishnaism_high_god_name_possessive:0 "แห่งพระกฤษณะ"
+
+ #Advaitism
+ advaitism:0 "อไทฺวตเวทานต์"
+ advaitism_adj:0 "อไทฺวตะ"
+ advaitism_adherent:0 "ผู้นับถืออไทฺวตเวทานต์"
+ advaitism_adherent_plural:0 "ผู้นับถืออไทฺวตเวทานต์"
+ advaitism_desc:0 "แตกต่างจากความเชื่อฮินดูหลายแขนง อไทฺวตเวทานต์เน้นย้ำความเป็นหนึ่งเดียวของอาตมัน ตัวตนที่แท้จริง กับพรหมัน ความจริงแท้สูงสุด และเชื่อว่าโมกษะสามารถบรรลุได้ทั้งในชีวิตนี้และหลังความตาย"
+
+ #Saura
+ saura: "ลัทธิเสาระ"
+ saura_adj: "เสาระ"
+ saura_adherent: "ผู้นับถือลัทธิเสาระ"
+ saura_adherent_plural: "ผู้นับถือลัทธิเสาระ"
+ saura_desc: "พระสูรยะ เทพแห่งดวงอาทิตย์ พรหมันที่มองเห็นได้ คือเทพเจ้าสูงสุดของผู้นับถือลัทธิเสาระ ด้วยรากฐานในประเพณีพระเวท ผู้นับถือลัทธิเสาระพรรณนาถึงพระสูรยะว่าประทับบนราชรถที่เทียมด้วยม้าเจ็ดตัว แต่ละตัวแทนสีรุ้งหนึ่งสี"
+
+ saura_good_god_ushas: "พระอุษา"
+ saura_good_god_mitra: "พระมิตระ"
+ saura_good_god_aranyani: "พระอรัญญานี"
+ saura_good_god_saranyu: "พระสรัญญู"
+ saura_good_god_chaya: "พระฉายา"
+ saura_good_god_shani: "พระศนิ"
+ saura_good_god_aditi: "พระอทิติ"
+
+ saura_high_god_name: "พระสูรยะ"
+ saura_high_god_name_possessive: "แห่งพระสูรยะ"
+ saura_health_god_name: "พระธันวันตรี"
+ saura_health_god_name_possessive: "แห่งพระธันวันตรี"
+ saura_night_god_name: "พระราตรี"
+ saura_night_god_name_possessive: "แห่งพระราตรี"
+ saura_war_god_name: "พระสกันท์"
+ saura_war_god_name_possessive: "แห่งพระสกันท์"

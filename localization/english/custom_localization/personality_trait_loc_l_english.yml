@@ -1,0 +1,135 @@
+﻿l_english: 
+
+ #NEGATIVE
+ personality_traitdesc.negative.arrogant:0 "อวดดี"
+ personality_traitdesc.negative.humble:0 "ถ่อมตนเกินเหตุ" # Negative spin on humble
+ personality_traitdesc.negative.lustful:0 "ลามก"
+ personality_traitdesc.negative.chaste:0 "หัวโบราณ" # Prudish
+ personality_traitdesc.negative.gregarious:0 "ช่างพูด" # Negative spin on talkative
+ personality_traitdesc.negative.shy:0 "ขี้อาย" # Timid
+ personality_traitdesc.negative.generous:0 "ใจบุญสุนทาน" # Philanthropic, can imply showing off
+ personality_traitdesc.negative.greedy:0 "โลภ"
+ personality_traitdesc.negative.ambitious:0 "ทะเยอทะยาน" # Can be negative
+ personality_traitdesc.negative.content:0 "พอใจในสิ่งที่มี" # Can imply lack of drive
+ personality_traitdesc.negative.impatient:0 "ใจร้อน"
+ personality_traitdesc.negative.patient:0 "ใจเย็นเป็นน้ำแข็ง" # Can imply slowness/passivity
+ personality_traitdesc.negative.temperate:0 "รู้จักประมาณตน" # Can imply boring/lack of passion
+ personality_traitdesc.negative.gluttonous:0 "ไม่รู้จักพอ"
+ personality_traitdesc.negative.diligent:0 "ทำงานหนัก" # Toilsome, implies drudgery
+ personality_traitdesc.negative.lazy:0 "ขี้เกียจ"
+ personality_traitdesc.negative.wrathful:0 "ขี้โมโห"
+ personality_traitdesc.negative.calm:0 "เฉื่อยชา" # Placid, negative spin
+ personality_traitdesc.negative.deceitful:0 "ซื่อบื้อ" # Guileless, negative spin (opposite of deceitful)
+ personality_traitdesc.negative.honest:0 "พูดตรงไปตรงมา" # Candid, can be negative (blunt)
+ personality_traitdesc.negative.craven:0 "ขี้ขลาด"
+ personality_traitdesc.negative.brave:0 "บ้าบิ่น" # Reckless
+ personality_traitdesc.negative.arbitrary:0 "ตามอำเภอใจ"
+ personality_traitdesc.negative.just:0 "ยึดมั่นหลักการ" # Principled, can be negative (rigid)
+ personality_traitdesc.negative.cynical:0 "เกลียดชังมนุษย์" # Misanthropic
+ personality_traitdesc.negative.zealous:0 "คลั่งไคล้" # Fanatical
+ personality_traitdesc.negative.paranoid:0 "หวาดระแวง"
+ personality_traitdesc.negative.trusting:0 "หูเบา" # Gullible
+ personality_traitdesc.negative.compassionate:0 "ใจดี" # Can imply weakness
+ personality_traitdesc.negative.callous:0 "ไร้ความรู้สึก"
+ personality_traitdesc.negative.sadistic:0 "ชอบทรมานผู้อื่น"
+ personality_traitdesc.negative.forgiving:0 "ใจอ่อน" # Lenient, negative spin
+ personality_traitdesc.negative.vengeful:0 "เจ้าคิดเจ้าแค้น" # Vindictive
+ personality_traitdesc.negative.stubborn:0 "ดื้อรั้น"
+ personality_traitdesc.negative.fickle:0 "โลเล"
+ personality_traitdesc.negative.notrait:0 "จืดชืด"
+
+ #POSITIVE
+ personality_traitdesc.positive.arrogant:0 "มั่นใจ"
+ personality_traitdesc.positive.humble:0 "ถ่อมตน"
+ personality_traitdesc.positive.lustful:0 "โรแมนติก"
+ personality_traitdesc.positive.chaste:0 "บริสุทธิ์"
+ personality_traitdesc.positive.gregarious:0 "เข้ากับคนง่าย"
+ personality_traitdesc.positive.shy:0 "สงวนท่าที"
+ personality_traitdesc.positive.generous:0 "ใจกว้าง"
+ personality_traitdesc.positive.greedy:0 "มักใหญ่ใฝ่สูง" # Avaricious, positive spin (ambitious for wealth/power)
+ personality_traitdesc.positive.ambitious:0 "ทะเยอทะยาน" # Positive spin
+ personality_traitdesc.positive.content:0 "พอใจในสิ่งที่มี" # Positive spin
+ personality_traitdesc.positive.impatient:0 "กระตือรือร้น" # Positive spin on impatient
+ personality_traitdesc.positive.patient:0 "ใจเย็น"
+ personality_traitdesc.positive.temperate:0 "รู้จักประมาณตน" # Positive spin
+ personality_traitdesc.positive.gluttonous:0 "อิ่มหนำสำราญ" # Well-fed
+ personality_traitdesc.positive.diligent:0 "ขยันหมั่นเพียร"
+ personality_traitdesc.positive.lazy:0 "สบายๆ" # Laid-back
+ personality_traitdesc.positive.wrathful:0 "เลือดร้อน" # Positive spin on wrathful (passionate)
+ personality_traitdesc.positive.calm:0 "สงบ" # Tranquil
+ personality_traitdesc.positive.deceitful:0 "หลักแหลม" # Sly, positive spin
+ personality_traitdesc.positive.honest:0 "ซื่อสัตย์"
+ personality_traitdesc.positive.craven:0 "ระมัดระวัง" # Careful
+ personality_traitdesc.positive.brave:0 "กล้าหาญ"
+ personality_traitdesc.positive.arbitrary:0 "ยืดหยุ่น" # Subjective, positive spin
+ personality_traitdesc.positive.just:0 "ยุติธรรม"
+ personality_traitdesc.positive.cynical:0 "มองตามความเป็นจริง" # Positive spin on cynical
+ personality_traitdesc.positive.zealous:0 "ศรัทธาแรงกล้า"
+ personality_traitdesc.positive.paranoid:0 "ระมัดระวัง" # Wary
+ personality_traitdesc.positive.trusting:0 "ไว้วางใจ"
+ personality_traitdesc.positive.compassionate:0 "เห็นอกเห็นใจ"
+ personality_traitdesc.positive.callous:0 "เด็ดขาด" # Ruthless, positive spin
+ personality_traitdesc.positive.sadistic:0 "ลงโทษสาสม" # Punishing, positive spin
+ personality_traitdesc.positive.forgiving:0 "ผ่อนปรน" # Lenient, positive spin
+ personality_traitdesc.positive.vengeful:0 "ไม่ยอมให้ใครเอาเปรียบ" # Vindictive, positive spin
+ personality_traitdesc.positive.stubborn:0 "มุ่งมั่น" # Determined
+ personality_traitdesc.positive.fickle:0 "คาดเดาไม่ได้" # Capricious, can be seen as exciting/unpredictable
+ personality_traitdesc.positive.notrait:0 "จืดชืด"
+
+ #TRAIT
+ personality_traitdesc.trait.arrogant:0 "[GetTrait('arrogant').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.humble:0 "[GetTrait('humble').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.lustful:0 "[GetTrait('lustful').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.chaste:0 "[GetTrait('chaste').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.gregarious:0 "[GetTrait('gregarious').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.shy:0 "[GetTrait('shy').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.generous:0 "[GetTrait('generous').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.greedy:0 "[GetTrait('greedy').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.ambitious:0 "[GetTrait('ambitious').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.content:0 "[GetTrait('content').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.impatient:0 "[GetTrait('impatient').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.patient:0 "[GetTrait('patient').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.temperate:0 "[GetTrait('temperate').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.gluttonous:0 "[GetTrait('gluttonous').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.diligent:0 "[GetTrait('diligent').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.lazy:0 "[GetTrait('lazy').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.wrathful:0 "[GetTrait('wrathful').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.calm:0 "[GetTrait('calm').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.deceitful:0 "[GetTrait('deceitful').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.honest:0 "[GetTrait('honest').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.craven:0 "[GetTrait('craven').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.brave:0 "[GetTrait('brave').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.arbitrary:0 "[GetTrait('arbitrary').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.just:0 "[GetTrait('just').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.cynical:0 "[GetTrait('cynical').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.zealous:0 "[GetTrait('zealous').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.paranoid:0 "[GetTrait('paranoid').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.trusting:0 "[GetTrait('trusting').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.compassionate:0 "[GetTrait('compassionate').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.callous:0 "[GetTrait('callous').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.sadistic:0 "[GetTrait('sadistic').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.forgiving:0 "[GetTrait('forgiving').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.vengeful:0 "[GetTrait('vengeful').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.stubborn:0 "[GetTrait('stubborn').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.fickle:0 "[GetTrait('fickle').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.loyal: "[GetTrait('loyal').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.disloyal: "[GetTrait('disloyal').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.rowdy: "[GetTrait('rowdy').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.bossy: "[GetTrait('bossy').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.charming: "[GetTrait('charming').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.curious: "[GetTrait('curious').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.pensive: "[GetTrait('pensive').GetName( ROOT.Char )]"
+ personality_traitdesc.trait.notrait:0 "จืดชืด"
+ TRAIT_CATEGORY_CHILDHOOD:0 "[childhood_trait|E]" # ลักษณะนิสัยวัยเด็ก
+ TRAIT_CATEGORY_PERSONALITY:0 "[personality_trait|E]" # ลักษณะนิสัยส่วนตัว
+ TRAIT_CATEGORY_LIFESTYLE:0 "[lifestyle_trait|E]" # ลักษณะวิถีชีวิต
+ TRAIT_CATEGORY_COMMANDER:0 "[commander_trait|E]" # ลักษณะแม่ทัพ
+ TRAIT_CATEGORY_EDUCATION:0 "[education_trait|E]" # ลักษณะการศึกษา
+ TRAIT_CATEGORY_PHYSICAL:0 "[physical_trait|E]" # ลักษณะทางกายภาพ
+ TRAIT_CATEGORY_FAME:0 "[fame_trait|E]" # ลักษณะชื่อเสียง
+ TRAIT_CATEGORY_HEALTH:0 "[health_trait|E]" # ลักษณะสุขภาพ
+ TRAIT_CATEGORY_COURT_TYPE:0 "[court_type_trait|E]" # ลักษณะประเภทราชสำนัก
+ TRAIT_CATEGORY_BASE:0 "[trait|E]" # ลักษณะนิสัย
+ ANY_OPPOSITE_TRAIT_ALL: "ไม่มี[personality_traits|E]ที่ตรงกันข้ามเลย"
+ NOT_ANY_OPPOSITE_TRAIT_ALL: "มี[personality_trait|E]ที่ตรงกันข้ามอยู่แล้ว"
+ 

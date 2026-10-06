@@ -1,0 +1,37 @@
+﻿l_english: 
+
+ CAN_CREATE_FACTION_TRIGGER:0 "สามารถก่อตั้ง [faction|E] ประเภท $TYPE|V$ ต่อต้าน [TARGET_CHARACTER.GetShortUIName] ได้"
+ NOT_CAN_CREATE_FACTION_TRIGGER:0 "#bold ไม่#! สามารถก่อตั้ง [faction|E] ประเภท $TYPE|V$ ต่อต้าน [TARGET_CHARACTER.GetShortUIName] ได้"
+ I_CAN_CREATE_FACTION_TRIGGER:1 "ท่านสามารถก่อตั้ง [faction|E] ประเภท $TYPE|V$ ต่อต้าน [TARGET_CHARACTER.GetShortUIName] ได้"
+ NOT_I_CAN_CREATE_FACTION_TRIGGER:1 "ท่าน #bold ไม่#! สามารถก่อตั้ง [faction|E] ประเภท $TYPE|V$ ต่อต้าน [TARGET_CHARACTER.GetShortUIName] ได้"
+ THEY_CAN_CREATE_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] สามารถก่อตั้ง [faction|E] ประเภท $TYPE|V$ ต่อต้าน [TARGET_CHARACTER.GetShortUIName] ได้"
+ NOT_THEY_CAN_CREATE_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] #bold ไม่#! สามารถก่อตั้ง [faction|E] ประเภท $TYPE|V$ ต่อต้าน [TARGET_CHARACTER.GetShortUIName] ได้"
+
+ CAN_JOIN_FACTION_TRIGGER:0 "สามารถเข้าร่วม [FACTION.GetNameNoTooltip] ได้"
+ NOT_CAN_JOIN_FACTION_TRIGGER:0 "#bold ไม่#! สามารถเข้าร่วม [FACTION.GetNameNoTooltip] ได้"
+ I_CAN_JOIN_FACTION_TRIGGER:1 "ท่านสามารถเข้าร่วม [FACTION.GetNameNoTooltip] ได้"
+ NOT_I_CAN_JOIN_FACTION_TRIGGER:0 "ท่าน #bold ไม่#! สามารถเข้าร่วม [FACTION.GetNameNoTooltip] ได้"
+ THEY_CAN_JOIN_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] สามารถเข้าร่วม [FACTION.GetNameNoTooltip] ได้"
+ NOT_THEY_CAN_JOIN_FACTION_TRIGGER:0 "[CHARACTER.GetShortUIName|U] #bold ไม่#! สามารถเข้าร่วม [FACTION.GetNameNoTooltip] ได้"
+
+ WAS_BLOCKED_FROM_JOINING_TRIGGER:1 "ถูกห้ามเข้าร่วมฝ่ายจนถึง [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'joining_faction_block') )]"
+ I_WAS_BLOCKED_FROM_JOINING_TRIGGER:2 "ท่านถูกห้ามเข้าร่วมฝ่ายจนถึง [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'joining_faction_block') )]"
+ THEY_WAS_BLOCKED_FROM_JOINING_TRIGGER:1 "[CHARACTER.GetShortUIName|U] ถูกห้ามเข้าร่วมฝ่ายจนถึง [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'joining_faction_block') )]"
+
+ BARONS_CANNOT_JOIN_INDEPENDENCE_FACTIONS:0 "[barons|E] ไม่สามารถเข้าร่วม [independence_factions|E] ได้"
+ 
+ CANNOT_START_FACTION_AGAINST_CHARACTER:0 "ไม่สามารถเริ่ม [faction|E] ต่อต้าน [CHARACTER.GetShortUIName] ได้"
+
+ CHARACTER_CANNOT_LOWER_CROWN_AUTHORITY:0 "[CHARACTER.GetShortUIName|U] มี [crown_authority|E] ต่ำสุดที่เป็นไปได้อยู่แล้ว"
+ CHARACTER_CANNOT_LOWER_IMPERIAL_BUREAUCRACY: "[CHARACTER.GetShortUIName|U] มี [imperial_bureaucracy|E] ต่ำสุดที่เป็นไปได้อยู่แล้ว"
+ CHARACTER_CANNOT_LOWER_TRIBAL_AUTHORITY: "[CHARACTER.GetShortUIName|U] มี [tribal_authority|E] ต่ำสุดที่เป็นไปได้อยู่แล้ว"
+ CHARACTER_CANNOT_LOWER_CELESTIAL_BUREAUCRACY: "[CHARACTER.GetShortUIName|U] มี [celestial_bureaucracy|E] ในระดับต่ำสุดที่เป็นไปได้อยู่แล้ว"
+ CHARACTER_CANNOT_LOWER_MERITOCRATIC_BUREAUCRACY: "[CHARACTER.GetShortUIName|U] มี [meritocratic_bureaucracy|E] ในระดับต่ำสุดที่เป็นไปได้อยู่แล้ว"
+ CHARACTER_CANNOT_LOWER_JAPANESE_BUREAUCRACY: "[CHARACTER.GetShortUIName|U] มี [japanese_bureaucracy|E] ในระดับต่ำสุดที่เป็นไปได้อยู่แล้ว"
+
+ CHARACTER_CANNOT_BE_IN_FACTION_DUE_TO_MODIFIER:0 "ท่านมี [modifier|E] ที่ป้องกันไม่ให้ท่านอยู่ใน [faction|E]"
+ IS_A_FACTION_MEMBER_TRIGGER:0 "เป็นสมาชิกฝ่าย"
+ NOT_IS_A_FACTION_MEMBER_TRIGGER: "#boldมิได้#!เป็นสมาชิกฝ่าย"
+ FACTION_CAN_PRESS_DEMANDS_TRIGGER:0 "ฝ่ายสามารถยื่นข้อเรียกร้องได้"
+
+ nation_fracturing_faction.can_character_create_ui.blocked_by_struggle: "[liege|E] ของท่านถือครอง [titles|E] อย่างน้อยหนึ่งตำแหน่งที่ไม่สามารถ [dissolution_faction_dissolved|E] ได้ เนื่องจาก [struggle|E] ที่กำลังดำเนินอยู่"

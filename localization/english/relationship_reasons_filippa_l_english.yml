@@ -1,0 +1,155 @@
+﻿l_english: 
+ friend_humored_antpath_superstition:1 "[CHARACTER.GetShortUIName|U] ตามใจความเชื่องมงายของ [TARGET_CHARACTER.GetShortUINamePossessive] เรื่องการไม่เดินข้ามทางมด"
+ friend_humored_antpath_superstition_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U] ตามใจความเชื่องมงายของ [CHARACTER.GetShortUINamePossessive] เรื่องการไม่เดินข้ามทางมด"
+ rival_dismissed_antpath_superstition:0 "[TARGET_CHARACTER.GetShortUIName|U] ปัดทิ้งความเชื่องมงายของ [CHARACTER.GetShortUINamePossessive] เรื่องการเดินข้ามทางมดอย่างไม่ไยดี"
+ rival_dismissed_antpath_superstition_corresponding:0 "ความเชื่อโชคลางของ [CHARACTER.GetShortUINamePossessive|U] เกี่ยวกับการข้ามทางเดินมด [Select_CString(CHARACTER.IsLocalPlayer, 'ถูก', 'ถูก' )] ปฏิเสธอย่างรุนแรงโดย [TARGET_CHARACTER.GetShortUIName]"
+
+ rival_sabotaged_my_pastures:0 "[TARGET_CHARACTER.GetShortUIName|U] บ่อนทำลายทุ่งหญ้าเลี้ยงสัตว์ของ [CHARACTER.GetShortUINamePossessive] โดยไม่ได้ตั้งใจ"
+ rival_sabotaged_my_pastures_corresponding:0 "ทุ่งหญ้าของ [CHARACTER.GetShortUINamePossessive|U] [Select_CString(CHARACTER.IsLocalPlayer, 'ถูก', 'ถูก' )] ทำลายโดย [TARGET_CHARACTER.GetShortUIName]"
+
+ friend_improved_my_pastures:0 "[TARGET_CHARACTER.GetShortUIName|U] ปรับปรุงทุ่งหญ้าเลี้ยงสัตว์ของ [CHARACTER.GetShortUINamePossessive]"
+ friend_improved_my_pastures_corresponding:0 "ทุ่งหญ้าของ [CHARACTER.GetShortUINamePossessive|U] [Select_CString(CHARACTER.IsLocalPlayer, 'ถูก', 'ถูก' )] ปรับปรุงโดย [TARGET_CHARACTER.GetShortUIName]"
+
+ rival_almost_crushed_by_elephant:0 "[TARGET_CHARACTER.GetShortUIName|U] ทำให้ [CHARACTER.GetShortUIName] ถูกช้างเหยียบ"
+ rival_almost_crushed_by_elephant_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'เกือบ', 'เกือบ' )] ถูกช้างเหยียบ ซึ่งกระทำโดย [TARGET_CHARACTER.GetShortUIName]"
+ friend_saved_me_from_elephant:0 "[TARGET_CHARACTER.GetShortUIName|U] ช่วย [CHARACTER.GetShortUIName] จากการถูกช้างเหยียบ"
+ friend_saved_me_from_elephant_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'ถูก', 'ถูก' )] ช่วยเหลือจากก้นช้างโดย [TARGET_CHARACTER.GetShortUIName]"
+
+ rival_burned_my_orchard:0 "[TARGET_CHARACTER.GetShortUIName|U] เผาสวนผลไม้ของ [CHARACTER.GetShortUINamePossessive] จนวอดวาย"
+ rival_burned_my_orchard_corresponding:0 "สวนผลไม้ของ [CHARACTER.GetShortUINamePossessive|U] ถูก [TARGET_CHARACTER.GetShortUIName] เผาจนวอดวาย"
+ rival_scolded_me:0 "[TARGET_CHARACTER.GetShortUIName|U] ตำหนิ [CHARACTER.GetShortUIName] ที่ตกต้นไม้ในสวนผลไม้"
+ rival_scolded_me_corresponding:0 "[CHARACTER.GetShortUIName|U] ถูก [TARGET_CHARACTER.GetShortUIName] ตำหนิที่ตกต้นไม้ในสวนผลไม้"
+ rival_scolded_my_child:0 "[TARGET_CHARACTER.GetShortUIName|U] ตำหนิบุตรของ [CHARACTER.GetShortUINamePossessive] ที่ตกต้นไม้ในสวนผลไม้"
+ rival_scolded_my_child_corresponding:0 "บุตรของ [CHARACTER.GetShortUINamePossessive|U] ถูก [TARGET_CHARACTER.GetShortUIName] ตำหนิที่ตกต้นไม้ในสวนผลไม้"
+ friend_treated_childs_wounds:0 "[TARGET_CHARACTER.GetShortUIName|U] รักษาบาดแผลให้บุตรของ [CHARACTER.GetShortUINamePossessive]"
+ friend_treated_childs_wounds_corresponding:0 "บาดแผลของบุตร [CHARACTER.GetShortUINamePossessive|U] ได้รับการรักษาโดย [TARGET_CHARACTER.GetShortUIName]"
+
+ friend_saved_workers:0 "[TARGET_CHARACTER.GetShortUIName|U] ช่วยชีวิตคนงานของ [CHARACTER.GetShortUINamePossessive] โดยเสี่ยงชีวิตของ [TARGET_CHARACTER.GetHerHis] เอง"
+ friend_saved_workers_corresponding:0 "[CHARACTER.GetShortUIName|U] ช่วยชีวิตคนงานของ [TARGET_CHARACTER.GetShortUINamePossessive] โดยเสี่ยงชีวิตของ [CHARACTER.GetHerHis] เอง"
+ rival_pillaged_my_plantation:0 "[TARGET_CHARACTER.GetShortUIName|U] ปล้นสะดมไร่นาที่ถูกเผาของ [CHARACTER.GetShortUINamePossessive]"
+ rival_pillaged_my_plantation_corresponding:0 "[CHARACTER.GetShortUIName|U] ปล้นสะดมไร่นาที่ถูกเผาของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+
+ friend_saved_me_from_bull:0 "[TARGET_CHARACTER.GetShortUIName|U] ช่วย [CHARACTER.GetShortUIName] จากวัวกระทิงคลั่ง"
+ friend_saved_me_from_bull_corresponding:0 "[CHARACTER.GetShortUIName|U] ช่วย [TARGET_CHARACTER.GetShortUIName] จากวัวกระทิงคลั่ง"
+ rival_left_me_for_the_bull:0 "[TARGET_CHARACTER.GetShortUIName|U] ปล่อยให้ [CHARACTER.GetShortUIName] ถูกวัวกระทิงคลั่งทำร้าย"
+ rival_left_me_for_the_bull_corresponding:0 "[CHARACTER.GetShortUIName|U] ปล่อยให้ [TARGET_CHARACTER.GetShortUIName] ถูกวัวกระทิงคลั่งทำร้าย"
+
+
+ rival_exposed_my_murder_scheme:0 "[TARGET_CHARACTER.GetShortUIName|U] เปิดโปงแผนการฆาตกรรมของ [CHARACTER.GetShortUINamePossessive]"
+ rival_exposed_my_murder_scheme_corresponding:0 "แผนการฆาตกรรมของ [CHARACTER.GetShortUINamePossessive] ถูกเปิดโปงโดย [TARGET_CHARACTER.GetShortUIName]"
+ friend_revealed_a_witch_to_me:0 "[TARGET_CHARACTER.GetShortUIName|U] เปิดเผยเรื่องแม่มดให้ [CHARACTER.GetShortUIName] ทราบ"
+ friend_revealed_a_witch_to_me_corresponding:0 "[CHARACTER.GetShortUIName|U] เปิดเผยเรื่องแม่มดให้ [TARGET_CHARACTER.GetShortUIName] ทราบ"
+
+ rival_abused_subjects_hospitality:0 "[TARGET_CHARACTER.GetShortUIName|U] ฉวยโอกาสจากการต้อนรับอย่างดีของราษฎรในปกครองคนหนึ่งของ [CHARACTER.GetShortUINamePossessive]"
+ rival_abused_subjects_hospitality_corresponding:1 "[CHARACTER.GetShortUIName|U] ฉวยโอกาสจากการต้อนรับอย่างดีของราษฎรในปกครองคนหนึ่งของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+
+ friend_stopped_heresy:0 "[TARGET_CHARACTER.GetShortUIName|U] หยุดยั้งผู้ถือนอกรีตไม่ให้ประกอบพิธีนอกรีตต่อหน้า [CHARACTER.GetShortUIName]"
+ friend_stopped_heresy_corresponding:0 "[CHARACTER.GetShortUIName|U] หยุดยั้งผู้ถือนอกรีตไม่ให้ประกอบพิธีนอกรีตต่อหน้า [TARGET_CHARACTER.GetShortUIName]"
+ friend_imprisoned_heretic:0 "[TARGET_CHARACTER.GetShortUIName|U] จองจำผู้ถือนอกรีตที่กำลังประกอบพิธีนอกรีตต่อหน้า [CHARACTER.GetShortUIName]"
+ friend_imprisoned_heretic_corresponding:0 "[CHARACTER.GetShortUIName|U] จองจำผู้ถือนอกรีตที่กำลังประกอบพิธีนอกรีตต่อหน้า [TARGET_CHARACTER.GetShortUIName]"
+
+ friend_accepted_secret:0 "[TARGET_CHARACTER.GetShortUIName|U] เห็นอกเห็นใจ และยอมรับความลับของ [CHARACTER.GetShortUINamePossessive]"
+ friend_accepted_secret_corresponding:0 "ความลับของ [CHARACTER.GetShortUINamePossessive|U] ได้รับการยอมรับโดย [TARGET_CHARACTER.GetShortUIName]"
+ rival_exposed_secret:0 "[TARGET_CHARACTER.GetShortUIName|U] เปิดโปงความลับของ [CHARACTER.GetShortUINamePossessive]"
+ rival_exposed_secret_corresponding:0 "ความลับของ [CHARACTER.GetShortUINamePossessive|U] ถูกเปิดโปงโดย [TARGET_CHARACTER.GetShortUIName]"
+
+ friend_let_me_escape:0 "[TARGET_CHARACTER.GetShortUIName|U] ปล่อยให้ [CHARACTER.GetShortUIName] หลบหนีจากการจองจำของ [CHARACTER.GetHerHis]"
+ friend_let_me_escape_corresponding:0 "[CHARACTER.GetShortUIName|U] ปล่อยให้ [TARGET_CHARACTER.GetShortUIName] หลบหนีจากการจองจำของ [TARGET_CHARACTER.GetHerHis]"
+ rival_reimprisoned_manhunt:0 "[TARGET_CHARACTER.GetShortUIName|U] จองจำ [CHARACTER.GetShortUIName] อีกครั้งหลังจากตามล่า [CHARACTER.GetHerHim]"
+ rival_reimprisoned_manhunt_corresponding:0 "[CHARACTER.GetShortUIName|U] จองจำ [TARGET_CHARACTER.GetShortUIName] อีกครั้งหลังจากตามล่า [TARGET_CHARACTER.GetHerHim]"
+
+ friend_manhunted_together:0 "[TARGET_CHARACTER.GetShortUIName|U] และ [CHARACTER.GetShortUIName] ผูกสัมพันธ์กันผ่านงานอดิเรกแปลกใหม่"
+ friend_manhunted_together_corresponding:0 "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ผูกสัมพันธ์กันผ่านงานอดิเรกแปลกใหม่"
+
+ rival_refused_manhunt:1 "ความสัมพันธ์ระหว่าง [TARGET_CHARACTER.GetShortUIName|U] และ [CHARACTER.GetShortUINamePossessive] ร้าวฉานหลังจากปฏิเสธข้อเสนองานอดิเรกแปลกใหม่"
+ rival_refused_manhunt_corresponding:1 "ความสัมพันธ์ระหว่าง [CHARACTER.GetShortUIName] และ [TARGET_CHARACTER.GetShortUINamePossessive] ร้าวฉานหลังจากปฏิเสธข้อเสนองานอดิเรกแปลกใหม่"
+
+ friend_friendly_hunt:1 "[TARGET_CHARACTER.GetShortUIName|U] และ [CHARACTER.GetShortUIName] ผูกสัมพันธ์กันผ่านการล่าสัตว์ฉันมิตร"
+ friend_friendly_hunt_corresponding:1 "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ผูกสัมพันธ์กันผ่านการล่าสัตว์ฉันมิตร"
+ friend_let_child_win:1 "[TARGET_CHARACTER.GetShortUIName|U] ปล่อยให้ [CHARACTER.GetShortUIName] ชนะในการล่าสัตว์ฉันมิตร"
+ friend_let_child_win_corresponding:1 "[CHARACTER.GetShortUIName|U] ปล่อยให้ [TARGET_CHARACTER.GetShortUIName] ชนะในการล่าสัตว์ฉันมิตร"
+
+ rival_did_not_thwart_murder:1 "[TARGET_CHARACTER.GetShortUIName|U] ไม่ได้ขัดขวางการลอบสังหาร [CHARACTER.GetShortUIName] ที่อาจเกิดขึ้น"
+ rival_did_not_thwart_murder_corresponding:1 "[CHARACTER.GetShortUIName|U] ไม่ได้ขัดขวางการลอบสังหาร [TARGET_CHARACTER.GetShortUIName] ที่อาจเกิดขึ้น"
+ friend_thwarted_murder:1 "[TARGET_CHARACTER.GetShortUIName|U] ขัดขวางความพยายามลอบสังหาร [CHARACTER.GetShortUIName] อย่างกล้าหาญ"
+ friend_thwarted_murder_corresponding:1 "[CHARACTER.GetShortUIName|U] ขัดขวางความพยายามลอบสังหาร [TARGET_CHARACTER.GetShortUIName] อย่างกล้าหาญ"
+
+ rival_did_not_help_assault:1 "[TARGET_CHARACTER.GetShortUIName|U] ไม่ได้เข้าแทรกแซงการโจมตีด้วยอาวุธต่อขบวนเดินทางของ [CHARACTER.GetShortUINamePossessive]"
+ rival_did_not_help_assault_corresponding:1 "[CHARACTER.GetShortUIName|U] ไม่ได้เข้าแทรกแซงการโจมตีด้วยอาวุธต่อขบวนเดินทางของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ friend_defended_against_assault:1 "[TARGET_CHARACTER.GetShortUIName|U] ช่วยเหลือ [CHARACTER.GetShortUIName] เมื่อขบวนเดินทางของ [CHARACTER.GetHerHis] ถูกโจมตีนอกเขตถือครองของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ friend_defended_against_assault_corresponding:1 "[CHARACTER.GetShortUIName|U] ช่วยเหลือ [TARGET_CHARACTER.GetShortUIName] เมื่อขบวนเดินทางของ [TARGET_CHARACTER.GetHerHis] ถูกโจมตีนอกเขตถือครองของ [CHARACTER.GetShortUINamePossessive]"
+
+ rival_imprisoned_subject:0 "[TARGET_CHARACTER.GetShortUIName|U] จองจำราษฎรในปกครองคนหนึ่งของ [CHARACTER.GetShortUINamePossessive]"
+ rival_imprisoned_subject_corresponding:0 "[CHARACTER.GetShortUIName|U] จองจำราษฎรในปกครองผู้โอหังคนหนึ่งของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+
+ friend_offered_up_pet:0 "[CHARACTER.GetShortUIName|U] มอบสัตว์เลี้ยงของ [CHARACTER.GetHerHis] ให้เพื่อแสดงความภักดีต่อ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ friend_offered_up_pet_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] มอบสัตว์เลี้ยงของ [TARGET_CHARACTER.GetHerHis] ให้เพื่อแสดงความภักดีต่อ [CHARACTER.GetShortUINamePossessive]"
+
+ rival_dog_killer:0 "[TARGET_CHARACTER.GetShortUIName|U] กำจัดสุนัขทั้งหมดในเขตถือครองของ [CHARACTER.GetShortUINamePossessive]"
+ rival_dog_killer_corresponding:0 "[CHARACTER.GetShortUIName|U] กำจัดสุนัขทั้งหมดในเขตถือครองของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+
+ rival_cat_killer:0 "[TARGET_CHARACTER.GetShortUIName|U] กำจัดแมวทั้งหมดในเขตถือครองของ [CHARACTER.GetShortUINamePossessive]"
+ rival_cat_killer_corresponding:0 "[CHARACTER.GetShortUIName|U] กำจัดแมวทั้งหมดในเขตถือครองของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+
+ lover_distracting_sex:0 "[CHARACTER.GetShortUIName|U] มีความสัมพันธ์อัน ทำให้ไขว้เขวกับ [TARGET_CHARACTER.GetShortUIName]"
+ lover_distracting_sex_corresponding:0 "[TARGET_CHARACTER.GetShortUIName] ถูก [CHARACTER.GetShortUIName] ยั่วยวนจนไขว้เขว"
+
+ friend_cared_for_health:0 "[CHARACTER.GetShortUIName|U] พยาบาล [TARGET_CHARACTER.GetShortUIName] จนหายดี"
+ friend_cared_for_health_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] ได้รับการพยาบาลจนหายดีโดย [CHARACTER.GetShortUIName]"
+
+ friend_built_den_together: "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] สร้างกระท่อมร่วมกันในป่า"
+ friend_built_den_together_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] และ [CHARACTER.GetShortUIName] สร้างกระท่อมร่วมกันในป่า"
+
+ rival_paid_to_win: "[CHARACTER.GetShortUIName|U] จ่ายเงิน เพื่อให้ชนะการแข่งขันกับ [TARGET_CHARACTER.GetShortUIName]"
+ rival_paid_to_win_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] แพ้การแข่งขันที่ [CHARACTER.GetShortUIName] จ่ายเงิน เพื่อให้ชนะ"
+
+ friend_bonded_over_economical_architecture: "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ผูกสัมพันธ์กันผ่านความสนใจร่วมกันในสถาปัตยกรรมของศูนย์กลางการค้า"
+ friend_bonded_over_economical_architecture_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] และ [CHARACTER.GetShortUIName] ผูกสัมพันธ์กันผ่านความสนใจร่วมกันในสถาปัตยกรรมของศูนย์กลางการค้า"
+ friend_bonded_over_martial_architecture: "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ผูกสัมพันธ์กันผ่านความสนใจร่วมกันในสถาปัตยกรรมของอาคารทางการทหาร"
+ friend_bonded_over_martial_architecture_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] และ [CHARACTER.GetShortUIName] ผูกสัมพันธ์กันผ่านความสนใจร่วมกันในสถาปัตยกรรมของอาคารทางการทหาร"
+ friend_bonded_over_religious_architecture: "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ผูกสัมพันธ์กันผ่านความสนใจร่วมกันในสถาปัตยกรรมทางศาสนา"
+ friend_bonded_over_religious_architecture_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] และ [CHARACTER.GetShortUIName] ผูกสัมพันธ์กันผ่านความสนใจร่วมกันในสถาปัตยกรรมทางศาสนา"
+
+ friend_rescued_from_tavern_brawl: "[CHARACTER.GetShortUIName|U] ช่วยเหลือ [TARGET_CHARACTER.GetShortUIName] จากการวิวาทในโรงเตี๊ยม"
+ friend_rescued_from_tavern_brawl_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'ถูก', 'ถูก' )] ช่วยเหลือจากการทะเลาะวิวาทในโรงเตี๊ยมโดย [CHARACTER.GetShortUIName]"
+
+ friend_bonded_over_personalities: "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ผูกสัมพันธ์กันผ่านความคล้ายคลึงกันในบุคลิกภาพของพวกเขา"
+ friend_bonded_over_personalities_corresponding: "$friend_bonded_over_personalities$"
+
+ friend_bonded_over_exam_jitters: "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ผูกสัมพันธ์กันด้วยความวิตกในการเข้ารับการสอบ"
+ friend_bonded_over_exam_jitters_corresponding: "$friend_bonded_over_exam_jitters$"
+
+ friend_bonded_over_studies: "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ผูกสัมพันธ์กันระหว่างศึกษาเพื่อการสอบ"
+ friend_bonded_over_studies_corresponding: "$friend_bonded_over_studies$"
+
+ friend_bonded_over_cheating: "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ผูกสัมพันธ์กันระหว่างซุกซ่อนคำตอบสอบ"
+ friend_bonded_over_cheating_corresponding: "$friend_bonded_over_cheating$"
+
+ lover_love_studies: "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ศึกษาวิชาศิลปะแห่งรักร่วมกัน"
+ lover_love_studies_corresponding: "$friend_bonded_over_studies$"
+
+ friend_supported_devaraja: "[CHARACTER.GetShortUIName|U] สนับสนุนเทวราชา [TARGET_CHARACTER.GetShortUIName] ในช่วงแรกเริ่มแห่งความเป็นเทพของ [TARGET_CHARACTER.GetHerHis]"
+ friend_supported_devaraja_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] ได้รับการสนับสนุนจาก [CHARACTER.GetShortUIName|U] ในช่วงแรกเริ่มแห่งความเป็นเทพของ [TARGET_CHARACTER.GetHerHis]"
+
+ rival_disbelieved: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'were', 'was' )] ถูกกังขาโดย [CHARACTER.GetShortUIName] ผู้ ซึ่งตั้งคำถามต่อความเป็นเทพของ [TARGET_CHARACTER.GetHerHis] และก่อความปั่นป่วนในหมู่ข้าฯ ของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ rival_disbelieved_corresponding: "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, 'were', 'was' )] ถูกกังขาโดย [TARGET_CHARACTER.GetShortUIName] ผู้ ซึ่งตั้งคำถามต่อความเป็นเทพของ [CHARACTER.GetHerHis] และก่อความปั่นป่วนในหมู่ข้าฯ ของ [CHARACTER.GetShortUINamePossessive]"
+
+ rival_attempted_disbelieve: "[TARGET_CHARACTER.GetShortUIName|U] พยายามที่จะกังขา [CHARACTER.GetShortUIName] โดยตั้งคำถามต่อความเป็นเทพของ [CHARACTER.GetShortUINamePossessive]"
+ rival_attempted_disbelieve_corresponding: "[CHARACTER.GetShortUIName|U] พยายามที่จะกังขา [TARGET_CHARACTER.GetShortUIName] โดยตั้งคำถามต่อความเป็นเทพของ [TARGET_CHARACTER.GetHerHis]"
+
+ rival_coerced_tributary: "[TARGET_CHARACTER.GetShortUIName|U] บีบบังคับหนึ่งในรัฐบรรณาการของ [CHARACTER.GetShortUINamePossessive]"
+ rival_coerced_tributary_corresponding: "[CHARACTER.GetShortUIName|U] บีบบังคับหนึ่งในรัฐบรรณาการของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ rival_betrayed_tributary: "[TARGET_CHARACTER.GetShortUIName|U] ปฏิเสธคำร้องขอเข้าร่วมสงครามของ [CHARACTER.GetShortUINamePossessive] หลังจากบีบบังคับให้ [CHARACTER.GetHerHim] ละทิ้งเจ้าเหนือหัวของ [CHARACTER.GetHerHis]"
+ rival_betrayed_tributary_corresponding: "[CHARACTER.GetShortUIName|U] ปฏิเสธคำร้องขอเข้าร่วมสงครามของ [TARGET_CHARACTER.GetShortUINamePossessive] หลังจากบีบบังคับให้ [TARGET_CHARACTER.GetHerHim] ละทิ้งเจ้าเหนือหัวของ [TARGET_CHARACTER.GetHerHis]"
+
+ friend_contributed_to_temple_complex: "[TARGET_CHARACTER.GetShortUIName|U] และ [CHARACTER.GetShortUIName] ผูกสัมพันธ์กันระหว่างการก่อสร้าง [GetBuilding('mandala_capital_01').GetTypeName] ของ [CHARACTER.GetShortUINamePossessive]"
+ friend_contributed_to_temple_complex_corresponding: "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ผูกสัมพันธ์กันระหว่างการก่อสร้าง [GetBuilding('mandala_capital_01').GetTypeName] ของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ 
+ rival_seized_mandala_complex: "[TARGET_CHARACTER.GetShortUIName|U] เข้ายึด $building_type_mandala_capital_01$ ในหนึ่งมณฑลของ [CHARACTER.GetShortUINamePossessive]"
+ rival_seized_mandala_complex_corresponding: "[CHARACTER.GetShortUIName|U] เข้ายึด $building_type_mandala_capital_01$ ในหนึ่งมณฑลของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+
+ gifted_poem: "[TARGET_CHARACTER.GetShortUIName|U] ได้รับมอบบทกวีอันวิจิตรจาก [CHARACTER.GetShortUIName]"
+ gifted_poem_corresponding: "[CHARACTER.GetShortUIName|U] ได้รับมอบบทกวีอันวิจิตรจาก [TARGET_CHARACTER.GetShortUIName]"
+
+ rival_ruined_temple_building: "[TARGET_CHARACTER.GetShortUIName|U] ทำลาย $building_type_mandala_capital_01$ ของ [CHARACTER.GetShortUINamePossessive]"
+ rival_ruined_temple_building_corresponding: "[CHARACTER.GetShortUIName|U] ทำลาย $building_type_mandala_capital_01$ ของ [TARGET_CHARACTER.GetShortUINamePossessive]"

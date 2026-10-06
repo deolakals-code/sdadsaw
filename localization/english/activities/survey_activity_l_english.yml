@@ -1,0 +1,584 @@
+﻿l_english: 
+ ### Setup Work ###
+ activity_survey: "การตรวจราชการ"
+ activity_survey_desc: "ดำเนินการตรวจราชการทั่วแผ่นดินอย่างละเอียดถี่ถ้วน เพื่อให้แน่ใจว่าอาณาจักรของท่านดำเนินไปอย่างราบรื่น และเพื่อแสวงหาโอกาสในการปรับปรุงระบบข้าราชการและสถานการณ์ปัจจุบัน"
+ activity_survey_tenet_bonus: "\n$BULLET_WITH_TAB$จะได้รับ [piety_experience|E] เมื่อเสร็จสิ้น"
+ activity_survey_host_desc: "[AddLocalizationIf( GetPlayer.GetGovernment.HasRule( 'merit' ), 'activity_survey_gain_merit_desc' )]$BULLET_WITH_TAB$อาจได้รับ @pressed_claim![claims|E]\n$BULLET_WITH_TAB$อาจเพิ่มการยอมรับ @vassal_icon![offer_vassalization|E]\n$BULLET_WITH_TAB$อาจพัฒนา @gold_icon![taxes|E] ใน [county|E]\n$BULLET_WITH_TAB$อาจพัฒนา @development_icon![development|E] ใน [county|E]\n$BULLET_WITH_TAB$อาจพัฒนา @control_icon![control|E] ใน [county|E]\n$BULLET_WITH_TAB$อาจพัฒนา @stationed_regiment_icon![levies|E] ใน [county|E]\n$BULLET_WITH_TAB$อาจพัฒนา @opinion_icon![opinion|E]\n$BULLET_WITH_TAB$อาจพัฒนา @domain_icon![county_opinion|E][AddLocalizationIf( GetPlayer.GetFaith.HasParameterByKey('inspections_unlocked_and_costs_piety' ), 'activity_survey_tenet_bonus' )]"
+ activity_survey_guest_desc: ""
+ activity_survey_conclusion_desc: "การเดินทางครั้งนี้ ทำให้ข้าได้เห็นอาณาจักรของข้ามากขึ้น แต่ข้าอยู่ที่นี่ได้ไม่นานนัก ภารกิจของข้าที่นี่เสร็จสิ้นแล้ว ถึงเวลากลับบ้าน"
+ activity_survey_selection_tooltip: "ตรวจสอบให้แน่ใจว่าอาณาจักรของท่านดำเนินไปด้วยข้าราชการผู้มีความสามารถและภักดี ผ่านการตรวจราชการอย่างละเอียด\n\nรางวัลที่คาดว่าจะได้รับ: $rewards_inspection_tt$"
+ activity_survey_destination_selection: "\n[inspections|E] จะได้รับประโยชน์หากจัดขึ้นใน [counties|E] ที่มี [county_control|E] ต่ำ หรือตามแนวชายแดนติดกับ [realms|E] ต่างชาติ ซึ่งระบบข้าราชการท้องถิ่นยังขาดประสิทธิภาพ พื้นที่เหล่านี้อาจมอบโอกาสให้ท่านมากขึ้นและมี [inspection_success_chance_no_prefix|E] ที่สูงขึ้น"
+ survey_activity_not_capital: "[inspections|E] ไม่สามารถจัดขึ้นใน [capital|E] ได้"
+ survey_activity_on_cooldown: "[inspections|E] สามารถจัดขึ้นใน [county|E] ได้เพียงครั้งเดียวทุกๆ #bold 5#! ปี"
+ rewards_inspection_tt: "\n$BULLET_WITH_TAB$@pressed_claim![claims|E] และการยอมรับ @vassal_icon![offer_vassalization|E]\n$BULLET_WITH_TAB$@gold_icon![taxes|E], @development_icon![development|E], และ @control_icon![control|E]\n$BULLET_WITH_TAB$@stationed_regiment_icon![levies|E], @opinion_icon![opinion|E], และ @domain_icon![county_opinion|E]"
+ activity_survey_predicted_cost: "ค่าใช้จ่ายของ [inspection|E] ส่วนใหญ่ได้รับผลกระทบจากจำนวนเงินทุนที่จัดสรรให้กับ [activity|E] เงินทุนที่มากขึ้นจะช่วยให้บรรลุภารกิจได้ง่ายขึ้น แต่ก็จะแพงขึ้นด้วย"
+ 
+ activity_survey_gain_merit_desc: "$BULLET_WITH_TAB$$may_gain_merit_desc$\n"
+ 
+ phase_surveying: "การตรวจราชการแผ่นดิน"
+ phase_surveying_desc: ""
+
+ survey_overseer_intent: "เจตนาของผู้ตรวจการ"
+ survey_overseer_intent_desc: "เหล่าขุนนางและผู้ดูแลท้องถิ่นขึ้นชื่อเรื่องการเก็บภาษีเกินพิกัดและมีทรัพย์สินมั่งคั่ง มายุติเรื่องนี้กันเถอะ\n\n#emp ปรับปรุง [inspection_success_chance_no_prefix|E]#!"
+
+ survey_learning_intent: "$survey_learning_intent_guest$"
+ survey_learning_intent_desc: "$survey_learning_intent_guest_desc$\n\n#emp โอกาสที่จะได้รับโบนัสเพิ่มเติมสำหรับ [capital|E]#!"
+
+ survey_learning_intent_guest: "เจตนาการสำรวจ"
+ survey_learning_intent_guest_desc: "ดูว่าเราสามารถนำบทเรียนใดจากระบบข้าราชการท้องถิ่นกลับไปใช้ในเมืองหลวงของเราได้บ้าง"
+
+ activity_survey_province_desc: "ท่านเดินทางไปยัง [ROOT.Province.GetName]"
+
+ survey_border_county: "\n#positive_value ++ เคาน์ตีชายแดน #!"
+ survey_bordering_other_vassals_county: "\n#positive_value + เคาน์ตีติดชายแดนข้าในบังคับอื่น #!"
+ survey_very_low_county_control: "\n#positive_value +++ การควบคุมเคาน์ตีต่ำมาก#!"
+ survey_low_county_control: "\n#positive_value ++ การควบคุมเคาน์ตีต่ำ#!"
+ survey_medium_county_control: "\n#positive_value + การควบคุมเคาน์ตีปานกลาง#!"
+
+ county_control_modifier: "[county_control|E]"
+ borderlands_modifier: "ดินแดนชายขอบ"
+ inspection_success_chance.events: "เหตุการณ์"
+ inspection_success_chance.second_try_modifier: "[GetModifier('inspection_second_try_modifier').GetName]"
+
+ inspection_activity_success_increase_miniscule_tt: "[inspection_success_chance_no_prefix|E] #positive_value เพิ่มขึ้นเล็กน้อย#!"
+ inspection_activity_success_increase_minor_tt:0 "[inspection_success_chance_no_prefix|E] #positive_value เพิ่มขึ้นเล็กน้อย#!"
+ inspection_activity_success_increase_medium_tt:0 "[inspection_success_chance_no_prefix|E] #positive_value เพิ่มขึ้น#!"
+ inspection_activity_success_decrease_miniscule_tt: "[inspection_success_chance_no_prefix|E] #negative_value ลดลงเล็กน้อย#!"
+ inspection_activity_success_decrease_minor_tt:0 "[inspection_success_chance_no_prefix|E] #negative_value ลดลงเล็กน้อย#!"
+ inspection_activity_success_decrease_medium_tt:0 "[inspection_success_chance_no_prefix|E] #negative_value ลดลง#!"
+
+ inspection_success_chance: "[inspection_success_chance_no_prefix|E]"
+ inspection_success_bar: "[inspection_success_chance_no_prefix|E]: [Activity.MakeScope.Var( 'inspection_success_chance' ).GetValue|V0]%"
+
+ ### Activity Option ###
+ inspection_option_allocated_funds: "การเงินสำหรับการตรวจราชการ"
+ inspection_no_funding: "ไม่มีเงินทุน"
+ inspection_no_funding_desc: "$EFFECT_LIST_BULLET$ [skill_challenges|E] จะสำเร็จได้ยากขึ้น\n$EFFECT_LIST_BULLET$ ค่าใช้จ่าย [gold_i] [gold|E] ในเหตุการณ์ต่างๆ ยังคงเท่าเดิม\n\n#weak ด้วยเงินทุนเพียงเล็กน้อยหรือไม่มีเลย อาจเป็นเรื่องยากที่จะหาเงินทุนที่จำเป็นเพื่อสนับสนุนเป้าหมายทั้งหมดของท่านในจังหวัด.#!"
+ inspection_small_fund: "เงินทุนเพียงพอ"
+ inspection_small_fund_desc: "$EFFECT_LIST_BULLET$ [skill_challenges|E] ใน [activity|E] มีโอกาสสำเร็จสูงขึ้น\n$EFFECT_LIST_BULLET$ ค่าใช้จ่าย [gold_i] [gold|E] ในเหตุการณ์ต่างๆ ลดลง #P 20%#!\n\n#weak ด้วยเงินจำนวนเล็กน้อย จะง่ายขึ้นในการจัดหาเงินทุนสำหรับการปรับโครงสร้างที่ท่านคาดว่าจะจำเป็นในจังหวัด.#!"
+ inspection_large_fund: "เงินทุนจำนวนมาก"
+ inspection_large_fund_desc: "$EFFECT_LIST_BULLET$ [skill_challenges|E] ใน [activity|E] มีโอกาสสำเร็จสูงขึ้นอย่างมีนัยสำคัญ\n$EFFECT_LIST_BULLET$ ค่าใช้จ่าย [gold_i] [gold|E] ในเหตุการณ์ต่างๆ ลดลง #p 40%#!\n\n#weak ด้วยเงินจำนวนมาก ท่านคงนึกไม่ออกว่าจะมีสิ่งใดที่ท่านจะต้องดิ้นรนหาเงินทุนในจังหวัด.#!"
+
+ ### Intro Event ###
+ bp3_survey.0005.t: "การมาถึง"
+ bp3_survey.0005.desc.holder: "เมื่อข้ามาถึง [ROOT.Char.GetCurrentLocation.GetName] ข้าถูกนำตัวไปยังห้องหนังสือเล็กๆ ที่ ซึ่ง [county_holder.GetTitledFirstName] ต้อนรับข้า ข้าได้ส่งผู้ส่งสารมาก่อนแล้ว จึงไม่น่าแปลกใจที่ข้ามาที่นี่ แต่ [county_holder.GetSheHe] ก็ดูสงสัยอย่างชัดเจนถึงเหตุผล ความวุ่นวายทั้งหมดของ [county_holder.GetHerHis] เป็น เพราะรู้สึกผิด หรือเป็นเพียงคำยกยอปอปั้น?\n\nช่างเถอะ ข้าไม่ได้มาที่นี่เพื่อจัดการกับ [county_holder.GetHerHim] ในตอนนี้ ข้ามาที่นี่เพื่อ..."
+ bp3_survey.0005.desc.no_holder: "เมื่อข้ามาถึง [ROOT.Char.GetCurrentLocation.GetName] ข้าถูกนำตัวไปยังห้องหนังสือ กลุ่มคนรับใช้คอยดูแลทุกความต้องการของข้าและวุ่นวายอยู่รอบตัวข้าสักพัก จนกระทั่งข้าขอให้พวกเขาออกไป ข้าจะมัวมีสมาธิกับภารกิจได้อย่างไร หากพวกเขายังคงวิ่งวุ่นอยู่ในห้อง?\n\nเมื่อพวกเขาออกไปแล้ว ในที่สุดข้าก็สามารถเริ่มทำงานตามแผนของข้าได้ ซึ่งก็คือ..."
+ bp3_survey.0005.a: "ขยายพรมแดนของข้า"
+ bp3_survey.0005.a.tt: "[inspection|E] จะพยายาม:$SurveyArrivalIntroClaims$ $SurveyARrivalIntroVassals$"
+ bp3_survey.0005.b: "ปรับปรุงระบบข้าราชการที่นี่ใน [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]"
+ bp3_survey.0005.b.tt: "[inspection|E] จะพยายาม:$SurveyArrivalIntroTax$ $SurveyArrivalIntroDevelopment$ $SurveyArrivalIntroControl$"
+ bp3_survey.0005.c: "ทำให้ผู้คนที่นี่จดจำว่าเหตุใดข้าจึงเป็นเจ้าเหนือหัวของพวกเขา"
+ bp3_survey.0005.c.tt: "[inspection|E] จะพยายาม:$SurveyArrivalIntroLevy$ $SurveyArrivalIntroOpinion$ $SurveyArrivalIntroPopularOpinion$"
+
+ SurveyArrivalIntroClaims: "\n$BULLET_WITH_TAB$ สร้าง @pressed_claim![claims|E]"
+ SurveyARrivalIntroVassals: "\n$BULLET_WITH_TAB$ เพิ่มการยอมรับ @vassal_icon![offer_vassalization|E]"
+
+ SurveyArrivalIntroTax: "\n$BULLET_WITH_TAB$ ปรับปรุง @gold_icon![taxes|E] (#bold [activity.GetHost.MakeScope.ScriptValue('survey_province_tax_info_value')|2]#!)"
+ SurveyArrivalIntroDevelopment: "[activity.GetHost.Custom('SurveyArrivalIntroDevelopmentLoc')]"
+ SurveyArrivalIntroControl: "[activity.GetHost.Custom('SurveyArrivalIntroControlLoc')]"
+
+ SurveyArrivalIntroLevy: "\n$BULLET_WITH_TAB$ ปรับปรุง @stationed_regiment_icon![levies|E] (#bold [activity.GetHost.MakeScope.ScriptValue('survey_province_levy_info_value')|0]#!)"
+ SurveyArrivalIntroOpinion: "[activity.GetHost.Custom2('SurveyArrivalIntroOpinionLoc', county_holder)]"
+ SurveyArrivalIntroPopularOpinion: "[activity.GetHost.Custom('SurveyArrivalIntroPopularOpinionLoc')]"
+
+ SurveyArrivalIntroDevelopmentLocMaxed: "" # Intentionally empty
+ SurveyArrivalIntroDevelopmentLocGood: "\n$BULLET_WITH_TAB$ ปรับปรุง @development_icon![development|E] (#bold #p [ROOT.Char.MakeScope.ScriptValue('survey_province_development_info_value')|0]#!#!)"
+ SurveyArrivalIntroDevelopmentLocBad: "\n$BULLET_WITH_TAB$ ปรับปรุง @development_icon![development|E] (#bold #n [ROOT.Char.MakeScope.ScriptValue('survey_province_development_info_value')|0]#!#!)"
+ SurveyArrivalIntroDevelopmentLocNeutral: "\n$BULLET_WITH_TAB$ ปรับปรุง @development_icon![development|E] (#bold #color_yellow [ROOT.Char.MakeScope.ScriptValue('survey_province_development_info_value')|0]#!#!)"
+
+ SurveyArrivalIntroControlLocMaxed: "" # Intentionally empty
+ SurveyArrivalIntroControlLocBad: "\n$BULLET_WITH_TAB$ ปรับปรุง @control_icon![control|E] (#bold #n [ROOT.Char.MakeScope.ScriptValue('survey_province_control_info_value')|0]#!#!)"
+ SurveyArrivalIntroControlLocNeutral: "\n$BULLET_WITH_TAB$ ปรับปรุง @control_icon![control|E] (#bold #color_yellow [ROOT.Char.MakeScope.ScriptValue('survey_province_control_info_value')|0]#!#!)"
+
+ SurveyArrivalIntroOpinionLocEmpty: "" # Intentionally empty
+ SurveyArrivalIntroOpinionLocGood: "\n$BULLET_WITH_TAB$ ปรับปรุง @opinion_icon![opinion|E] (#bold #p [second.GetOpinionOf( GetPlayer )|=]#!#!)"
+ SurveyArrivalIntroOpinionLocBad: "\n$BULLET_WITH_TAB$ ปรับปรุง @opinion_icon![opinion|E] (#bold #n [second.GetOpinionOf( GetPlayer )|=]#!#!)"
+
+ SurveyArrivalIntroPopularOpinionLocMaxed: "\n$BULLET_WITH_TAB$ ปรับปรุง @domain_icon![county_opinion|E] (#bold #p [ROOT.Char.MakeScope.ScriptValue('survey_province_popular_opinion_info_value')|0]#!#!)"
+ SurveyArrivalIntroPopularOpinionLocBad: "\n$BULLET_WITH_TAB$ ปรับปรุง @domain_icon![county_opinion|E] (#bold #n [ROOT.Char.MakeScope.ScriptValue('survey_province_popular_opinion_info_value')|0]#!#!)"
+ SurveyArrivalIntroPopularOpinionLocNeutral: "\n$BULLET_WITH_TAB$ ปรับปรุง @domain_icon![county_opinion|E] (#bold #color_yellow [ROOT.Char.MakeScope.ScriptValue('survey_province_popular_opinion_info_value')|0]#!#!)"
+
+ ### End Event ###
+ bp3_survey.0010.t: "บทสรุป"
+ bp3_survey.0010.desc.border.success: "ความพยายามของเราตามแนวชายแดนของ [province.GetName] ประสบความสำเร็จอย่างใหญ่หลวง เราได้กำหนดอย่างชัดเจนว่าเป็นพื้นที่ที่ควรอยู่ภายใต้การดูแลของ [ROOT.Char.GetPrimaryTitle.GetName] และสิ่งนี้สะท้อนให้เห็นในวิธีที่ผู้คนพูดถึงมัน\n\nว่ากันว่าชาวบ้านหลายคนพูดถึงข้าราวกับว่าข้าเป็นผู้ปกครองของพวกเขาแล้ว"
+ bp3_survey.0010.desc.border.failure: "แม้ว่าเราจะพยายามอย่างเต็มที่ แต่ทุกความพยายามในการอ้างสิทธิ์ในดินแดนชายขอบของ [province.GetName] ก็ล้มเหลว หรืออาจถึงขั้นน่าอับอาย ชาวบ้านชายแดนบางคนเริ่มพูดว่า "สำเร็จเหมือน [ROOT.Char.GetTitledFirstName]" เป็นสำนวนสำหรับ [ROOT.Char.GetWomenMen] หนุ่มสาวที่ถูกปฏิเสธ\n\nข้าเริ่มเสียใจกับเรื่องทั้งหมดนี้แล้ว..."
+ bp3_survey.0010.desc.bureaucracy.success: "ตอนแรกดูเหมือนเป็นไปไม่ได้ แต่ข้าก็หาทางเริ่มแก้ไขสิ่งต่างๆ ใน [province.GetName] ได้สำเร็จ โดยยุติการทุจริตและโจรผู้ร้ายในท้องถิ่นบางส่วน แม้จะเป็นเพียงก้าวแรกในทิศทางที่ถูกต้อง แต่ก็มีความสำคัญอย่างยิ่งต่ออนาคตของเคาน์ตี\n\nตอนนี้เราเพียงแค่ต้องแน่ใจว่าเรายังคงอยู่ในเส้นทางที่ถูกต้องในอนาคตอันใกล้นี้"
+ bp3_survey.0010.desc.bureaucracy.failure: "บางครั้ง ดูเหมือนว่าการทุจริตที่คอยหลอกหลอน [province.GetName] อาจจะสิ้นสุดลง แต่ในทุกๆ ครั้ง ก็มีสิ่งใหม่ที่ต้องแก้ไขอยู่เสมอ มีกลุ่มโจรปล้นสะดมอยู่เสมอ มีขุนนางทุจริตซ่อนภาษีอยู่เสมอ หรือมีอาคารอื่นที่ต้องปรับปรุงอยู่เสมอ\n\nแม้ว่าจะเป็นความพยายามอย่างกล้าหาญในส่วนของข้า แต่ [ROOT.Char.GetWomanMan] คนเดียวก็ทำได้เพียงเท่านี้..."
+ bp3_survey.0010.desc.people.success: "เราได้เห็นความนิยมที่เพิ่มขึ้นอย่างมีนัยสำคัญในหมู่ชาวบ้านใน [province.GetName] ถึงขนาดที่บางคนใช้สำนวน "เป็นเหมือน [ROOT.Char.GetFirstName]" เห็นได้ชัดว่าเป็นเพียงเรื่องของเวลาก่อนที่พวกเขาจะเรียนรู้ที่จะชื่นชมผู้ที่เหนือกว่า\n\nหวังว่าพวกเขาจะจำสิ่งนี้ได้ในครั้งต่อไปที่มีปัญหาเล็กๆ น้อยๆ ไร้สาระเกิดขึ้น"
+ bp3_survey.0010.desc.people.failure: "ไม่ว่าข้าจะพูดคุยหรือมีส่วนร่วมกับชาวบ้านใน [province.GetName] มากเพียงใด เคาน์ตีก็ยังคงมีบรรยากาศของความไม่พอใจอยู่ตลอดเวลา แม้ว่าข้าจะพยายามอย่างเต็มที่แล้ว แต่ข้าก็ไม่รู้ว่าจะเข้าถึงหรือแก้ไขปัญหานี้ได้อย่างไร\n\nบางทีมันอาจจะไม่ได้ถูกกำหนดไว้ อย่างน้อยก็ไม่ใช่ในตอนนี้"
+ bp3_survey.0010.a: "ตามแผน"
+ bp3_survey.0010.b: "ข้าจะกลับมาแก้ไขเรื่องนี้ให้ถูกต้องในภายหลัง"
+
+ bp3_survey.0010.acceptance.positive: "เพิ่มการยอมรับ [offer_vassalization|E] จาก [THIS.Char.GetName]: "
+ bp3_survey.0010.acceptance.success: "$bp3_survey.0010.acceptance.positive$ #p +10#!"
+ INSPECTION_REASON_REWARD: "[inspection|E] สำเร็จ: $VALUE|=+0$"
+ INSPECTION_REASON_REWARD_FOCUSED: "เป้าหมาย [inspection|E]: การยอมรับข้าในบังคับ: $VALUE|=+0$"
+
+ inspection_reward_focused_vassal_acceptance: "เป้าหมายการตรวจราชการ: การยอมรับข้าในบังคับ"
+ inspection_reward_focused_vassal_acceptance_desc: "ตัวละครนี้มุ่งเน้นไปที่การสร้างความสัมพันธ์กับผู้ที่อยู่นอกอาณาจักรของตน\nการยอมรับ [offer_vassalization|E]: #p +10#!"
+ inspection_reward_focused_claims_modifier: "เป้าหมายการตรวจราชการ: สิทธิ์การอ้างสิทธิ์"
+ inspection_reward_focused_claims_modifier_desc: "ตัวละครนี้มีชื่อเสียงในด้านความคิดขยายอาณาเขต\nความเร็ว [fabricate_claim|E]: #p +25%#!"
+ FABRICATE_CLAIM_INSPECTION_BONUS: "[inspection|E]"
+
+ inspection_reward_average_tax_modifier: "ภาษีที่ถูกตรวจสอบ"
+ inspection_reward_average_tax_modifier_desc: "ภาษีท้องถิ่นเพิ่มขึ้นเมื่อเร็วๆ นี้"
+ inspection_reward_focused_tax_modifier: "เป้าหมายการตรวจราชการ: ภาษี"
+ inspection_reward_focused_tax_modifier_desc: "มีการใช้เวลาและความพยายามอย่างมาก เพื่อให้แน่ใจว่าผู้เสียภาษีจ่ายภาษีตามกำหนด"
+ inspection_reward_focused_development_modifier: "เป้าหมายการตรวจราชการ: การพัฒนา"
+ inspection_reward_focused_development_modifier_desc: "มีการจัดสรรเงินจำนวนมากเพื่อปรับปรุงถนนและอาคารสาธารณะในท้องถิ่น"
+ inspection_reward_focused_control_modifier: "เป้าหมายการตรวจราชการ: การควบคุม"
+ inspection_reward_focused_control_modifier_desc: "การเกณฑ์ทหารและการฝึกทหารรักษาการณ์ท้องถิ่นใหม่ ส่งผลให้การควบคุมเคาน์ตีดีขึ้น"
+
+ inspection_reward_average_levy_modifier: "ไพร่พลที่ถูกตรวจสอบ"
+ inspection_reward_average_levy_modifier_desc: "ไพร่พลท้องถิ่นมีการเกณฑ์ทหารเพิ่มขึ้นเมื่อเร็วๆ นี้"
+ inspection_reward_focused_levy_modifier: "เป้าหมายการตรวจราชการ: ไพร่พล"
+ inspection_reward_focused_levy_modifier_desc: "มีการใช้เวลาและความพยายามในการฝึกไพร่พลใหม่และเกณฑ์ทหารเพิ่ม"
+ inspection_reward_average_popular_opinion_modifier: "เคาน์ตีที่ได้รับการเยี่ยมเยียน"
+ inspection_reward_average_popular_opinion_modifier_desc: "เคาน์ตีนี้ได้รับการเยี่ยมเยียนจากเจ้าเหนือหัวท้องถิ่นเมื่อเร็วๆ นี้"
+ inspection_reward_focused_popular_opinion_modifier: "เป้าหมายการตรวจราชการ: ความเห็นนิยม"
+ inspection_reward_focused_popular_opinion_modifier_desc: "เจ้าเหนือหัวท้องถิ่นได้สละเวลาจำนวนมากในการเดินทางไปทั่วเคาน์ตี และมีส่วนร่วมกับชาวบ้าน"
+ inspection_reward_focused_opinion_modifier: "เป้าหมายการตรวจราชการ: ความเห็น"
+ inspection_reward_focused_opinion_modifier_desc: "ตัวละครนี้ใช้เวลาส่วนใหญ่ในการเอาใจข้าในบังคับของตน"
+ inspection_reward_focused_popular_opinion_character_modifier: "เป้าหมายการตรวจราชการ: ความเห็นทั่วไป"
+ inspection_reward_focused_popular_opinion_character_modifier_desc: "ตัวละครนี้เป็นที่นิยมอย่างกว้างขวาง ทั้งในหมู่ขุนนางและชนชั้นล่าง"
+
+ inspection_conclusion_success_claim_key_title: "การอ้างสิทธิ์สำเร็จ"
+ inspection_conclusion_success_claim_key: "[host.GetShortUIName] ได้ปักปันสิทธิ์ของ [host.GetHerHis] เหนือดินแดนชายขอบแห่ง [province.GetName] เป็นผลสำเร็จ"
+ inspection_conclusion_expansionist_mindset_key_title: "แนวคิดขยายอาณาเขต"
+ inspection_conclusion_expansionist_mindset_key: "[host.GetShortUIName] ได้พิสูจน์แล้วว่ามีแนวคิดขยายอาณาเขตอย่างมาก"
+ inspection_conclusion_success_acceptance_key_title: "การทูตสำเร็จ"
+ inspection_conclusion_success_acceptance_key: "[host.GetShortUIName] ได้สร้างความประทับใจให้กับเพื่อนบ้านหลายคนด้วยการทูตของ [host.GetHerHis]"
+ inspection_conclusion_impressed_neighbors_key_title: "เพื่อนบ้านประทับใจ"
+ inspection_conclusion_impressed_neighbors_key: "เนื่องจากความพยายามทางการทูตของ [host.GetHerHis] ทำให้ [host.GetSheHe] มีความสัมพันธ์ที่ดีขึ้นกับเพื่อนบ้านบางส่วนของ [host.GetHerHis]"
+
+ inspection_conclusion_success_tax_key_title: "ปรับปรุงภาษี"
+ inspection_conclusion_success_tax_key: "[host.GetShortUIName] ได้ปรับปรุงและขจัดช่องโหว่ทางภาษีจำนวนมากใน [province.GetName]"
+ inspection_conclusion_success_development_key_title: "ปรับปรุงโครงสร้างพื้นฐาน"
+ inspection_conclusion_success_development_key: "ถนนและสะพานใน [province.GetName] ได้รับเงินจำนวนมากสำหรับการปรับปรุง"
+ inspection_conclusion_success_control_key_title: "กระชับการควบคุม"
+ inspection_conclusion_success_control_key: "ทหารรักษาการณ์ท้องถิ่นได้รับการเสริมกำลังและฝึกฝนใหม่เพื่อจัดการกับปัญหาใดๆ ใน [province.GetName]"
+
+ inspection_conclusion_success_levy_key_title: "ปรับปรุงไพร่พล"
+ inspection_conclusion_success_levy_key: "ไพร่พลท้องถิ่นใน [province.GetName] ได้รับการส่งเสริมอย่างมีนัยสำคัญหลังจาก [host.GetShortUIName] มาเยี่ยมเยียน"
+ inspection_conclusion_success_opinion_key_title: "การทูตสำเร็จ"
+ inspection_conclusion_success_opinion_key: "[host.GetShortUIName] ได้จัดการกิจการภายในของ [host.GetHerHis] อย่างยอดเยี่ยม และได้พิสูจน์ [host.GetHerselfHimself] ในหมู่ข้าในบังคับของ [host.GetHerHis]"
+ inspection_conclusion_success_popular_opinion_key_title: "ผู้ปกครองยอดนิยม"
+ inspection_conclusion_success_popular_opinion_key: "[host.GetShortUIName] ได้รับความนิยมเพิ่มขึ้นหลังจาก [host.GetSheHe] เยี่ยมเยียน [province.GetName]"
+ 
+ inspection_conclusion_success_governor_experience_key_title: "ประสบการณ์ [host.Custom('GetGovernorConceptNoTooltip')]"
+ inspection_conclusion_success_governor_experience_key: "[host.GetShortUIName] ได้รับประสบการณ์อันมีค่าในบทบาท [host.Custom('GetGovernorConceptNoTooltip')] ของ [host.GetHerHis] หลังจาก [host.GetSheHe] เยี่ยมเยียน [province.GetName]"
+ 
+ inspection_conclusion_success_piety_key_title: "การตรวจการอันเปี่ยมศรัทธา"
+ inspection_conclusion_success_piety_key: "[host.GetShortUIName] ได้รับ [piety_experience|E] ในการตรวจการของ[host.GetHerHis] ซึ่ง[host.GetSheHe]ได้เยือน [province.GetName]"
+
+ inspection_conclusion_failure_devotion_key_title: "$inspection_conclusion_failure_merit_key_title$"
+ inspection_conclusion_failure_devotion_key: "[host.GetShortUIName] ได้รับ [piety_experience|E] ในการตรวจการของ[host.GetHerHis] ซึ่ง[host.GetSheHe]ได้เยือน [province.GetName] แม้ว่าจะไม่ประสบผลสำเร็จมากนักก็ตาม"
+
+ inspection_conclusion_success_merit_key_title: "การตรวจการอันทรงคุณค่า"
+ inspection_conclusion_success_merit_key: "[host.GetShortUIName] ได้รับ [merit|E] หลังจากการตรวจการอันประสบผลสำเร็จใน [province.GetName]"
+ 
+ inspection_conclusion_failure_merit_key_title: "การตรวจการที่ไม่ประสบผลสำเร็จ"
+ inspection_conclusion_failure_merit_key: "[host.GetShortUIName] ได้รับ [merit|E] บ้าง แม้ว่าจะไม่ประสบผลสำเร็จมากนักระหว่างการตรวจการใน [province.GetName]"
+ 
+ inspection_conclusion_success_salary_key_title: "โบนัสเงินเดือนก้อนโต"
+ inspection_conclusion_success_salary_key: "[host.GetShortUIName] ได้รับทองคำมากมายและโบนัสเงินเดือนก้อนสำคัญ หลังจากการปฏิบัติการตรวจการอันประสบผลสำเร็จ"
+ 
+ inspection_conclusion_failure_salary_key_title: "โบนัสเงินเดือนเพียงน้อยนิด"
+ inspection_conclusion_failure_salary_key: "[host.GetShortUIName] ได้รับทองคำบ้างและโบนัสเงินเดือนเล็กน้อย แม้ว่าการตรวจการจะไม่ประสบผลสำเร็จก็ตาม"
+
+ inspection_retry_desc: "ครั้งล่าสุดที่พื้นที่นี้ได้รับการตรวจราชการจากเจ้าเหนือหัว งานสิ้นสุดลงโดยไม่มีข้อสรุป แต่กรอบการทำงานที่วางไว้เพื่อปรับปรุงเคาน์ตียังคงอยู่\n#weak จะถูกลบออกเมื่อ [inspection|E] สำเร็จ#!"
+
+ inspection_second_try_modifier: "การตรวจราชการที่ไม่มีข้อสรุป"
+ inspection_second_try_modifier_desc: "$inspection_retry_desc$\n\n[inspection_success_chance|E]: #p +10%#!"
+
+ inspection_third_try_modifier: "$inspection_second_try_modifier$"
+ inspection_third_try_modifier_desc: "$inspection_retry_desc$\n\n[inspection_success_chance|E]: #p +20%#!"
+
+ inspection_fourth_try_modifier: "$inspection_second_try_modifier$"
+ inspection_fourth_try_modifier_desc: "$inspection_retry_desc$\n\n[inspection_success_chance|E]: #p +30%#!"
+
+ ### Mid-Activity Events ###
+ bp3_survey.0020.t: "แผนการขยายอาณาเขต"
+ bp3_survey.0020.desc: "ข้าเดินทางไปยังดินแดนชายขอบของ [province.GetName] มองเห็นสุดขอบอาณาจักรของข้า ดินแดนรกร้างว่างเปล่า รอคอย [ROOT.Char.GetLadyLord] ผู้มีความทะเยอทะยานเข้ามาปกครอง ผู้มีสายตาแหลมคมมองเห็นศักยภาพ\n\n"
+ bp3_survey.0020.desc_weak_neighbor: "ว่ากันว่า [neighboring_lord.GetName] ผู้นี้เป็นขุนนางที่ใกล้เคียงที่สุดที่ปกครองดินแดนเหล่านี้ เป็น [neighboring_lord.GetWomanMan] ที่อ่อนแอ รอคอยให้ใครสักคนมาบอก [neighboring_lord.GetHerHim] ว่าต้องทำอะไร จากที่ข้าได้ยินมา"
+ bp3_survey.0020.desc_no_neighbor: "เมื่อไม่มีผู้ใดที่น่าสนใจอยู่ใกล้เคียง การสถาปนาอำนาจและการอ้างสิทธิ์ในดินแดนเหล่านี้ไม่น่าจะเป็นปัญหา"
+ bp3_survey.0020.a: "มาหาทางประนีประนอมกับ [neighboring_lord.GetFirstNameNoTooltip] ผู้นี้กันเถอะ"
+ bp3_survey.0020.a.tt: "ปรับปรุงรางวัลการยอมรับ [offer_vassalization|E] หาก [inspection|E] สำเร็จ\n"
+ bp3_survey.0020.b: "ถึงเวลา ทำให้ดินแดนเหล่านี้เป็นของข้า"
+ bp3_survey.0020.b.tt: "ปรับปรุงรางวัล [claims|e] หาก [inspection|E] สำเร็จ\n"
+ bp3_survey.0020.acceptance.positive: "เพิ่มการยอมรับ [offer_vassalization|E] จาก [neighboring_lord.GetName]: "
+ bp3_survey.0020.acceptance.great_success: "$bp3_survey.0020.acceptance.positive$ #p +10#!"
+ bp3_survey.0020.acceptance.success: "$bp3_survey.0020.acceptance.positive$ #p +5#!"
+
+ inspection_mid_border_key_title: "การทูตท้องถิ่น"
+ inspection_mid_border_key: "[host.GetShortUIName] ได้ปักปันสิทธิ์ของ [host.GetHerHis] เหนือดินแดนชายขอบแห่ง [province.GetName]"
+ inspection_mid_border_fail_key_title: "ความพยายามล้มเหลว"
+ inspection_mid_border_fail_key: "[host.GetShortUIName] ล้มเหลวในการปักปันสิทธิ์ของ [host.GetHerHis] เหนือดินแดนชายขอบแห่ง [province.GetName]"
+
+ bp3_survey.0030.t: "ตรวจการ [province.GetNameNoTooltip]"
+ bp3_survey.0030.desc: "หลังจากตรวจสอบเอกสารทั้งหมดที่ข้าหาได้อย่างละเอียดถี่ถ้วน ข้าสามารถจัดสรรงบประมาณเพิ่มเติมเพื่อบรรเทาปัญหาโครงสร้างพื้นฐานในท้องถิ่นบางส่วนที่สร้างปัญหาให้กับเคาน์ตีได้ ข้าเพียงต้องคิดให้ออกว่าส่วนใดของระบบข้าราชการที่ต้องการความช่วยเหลือเพิ่มเติมมากที่สุด"
+ bp3_survey.0030.a: "การแก้ไขช่องโหว่ทางภาษีในท้องถิ่นของเราจะคุ้มค่าในไม่ช้า"
+ bp3_survey.0030.a.tt: "ปรับปรุงรางวัล [tax|E] หาก [inspection|E] สำเร็จ\n"
+ bp3_survey.0030.b: "[province.Custom('SurveyMidDomainInfrastructureOptionsLoc')] [province.GetNameNoTooltip] ต้องการความช่วยเหลือ"
+ bp3_survey.0030.b.tt: "ปรับปรุงรางวัล [development|E] หาก [inspection|E] สำเร็จ\n"
+ bp3_survey.0030.c: "ทหารรักษาการณ์ท้องถิ่นกำลังประสบปัญหาเมื่อเร็วๆ นี้"
+ bp3_survey.0030.c.tt: "ปรับปรุงรางวัล [control|E] หาก [inspection|E] สำเร็จ\n"
+ bp3_survey.0030.d: "อันที่จริง... #emp ข้า#! ต้องการเงินนั้น"
+
+ inspection_mid_activity_tax_great_modifier: "ปรับปรุงภาษี"
+ inspection_mid_activity_tax_great_modifier_desc: "เจ้าเหนือหัวท้องถิ่นได้ดูแลโครงสร้างพื้นฐานการจัดเก็บภาษีในท้องถิ่นด้วยตนเอง"
+ inspection_mid_activity_tax_average_modifier: "ปรับปรุงภาษี"
+ inspection_mid_activity_tax_average_modifier_desc: "มีการปรับปรุงระบบข้าราชการเกี่ยวกับการจัดเก็บภาษีในเคาน์ตีเมื่อเร็วๆ นี้"
+
+ inspection_mid_activity_development_great_modifier: "ปรับปรุงการพัฒนา"
+ inspection_mid_activity_development_great_modifier_desc: "เจ้าเหนือหัวท้องถิ่นได้ดำเนินการจัดสรรเงินใหม่เพื่อปรับปรุงโครงสร้างพื้นฐานในท้องถิ่นอย่างมีนัยสำคัญ"
+ inspection_mid_activity_development_average_modifier: "ปรับปรุงการพัฒนา"
+ inspection_mid_activity_development_average_modifier_desc: "มีการจัดสรรเงินเพื่อช่วยปรับปรุงระบบข้าราชการท้องถิ่น"
+
+ inspection_mid_activity_control_great_modifier: "ปรับปรุงการควบคุม"
+ inspection_mid_activity_control_great_modifier_desc: "ทหารรักษาการณ์ท้องถิ่นได้รับการจัดสรรเงินจำนวนมากเพื่อเพิ่มการลาดตระเวนในเคาน์ตี"
+ inspection_mid_activity_control_average_modifier: "ปรับปรุงการควบคุม"
+ inspection_mid_activity_control_average_modifier_desc: "มีการจัดสรรเงินเพื่อช่วยบรรเทาปัญหาของเคาน์ตีท้องถิ่น"
+
+ SurveyMidDomainInfrastructureOptionsFarm: "ฟาร์มเก่าใน"
+ SurveyMidDomainInfrastructureOptionsManors: "คฤหาสน์รอบเมืองใน"
+ SurveyMidDomainInfrastructureOptionsCastle: "กำแพงปราสาทใน"
+ SurveyMidDomainInfrastructureOptionsCity: "บ้านนายกเทศมนตรีเก่าใน"
+ SurveyMidDomainInfrastructureOptionsTemple: "[ROOT.Province.GetCounty.GetFaith.HouseOfWorship] เก่าใน"
+ SurveyMidDomainInfrastructureOptionsPort: "ท่าเรือโบราณใน"
+ SurveyMidDomainInfrastructureOptionsQuarries: "เหมืองหินเก่านอก"
+
+ inspection_mid_domain_key_title: "การจัดสรรใหม่สำเร็จ"
+ inspection_mid_domain_key: "[host.GetShortUIName] ประสบความสำเร็จในการค้นหาและจัดสรรเงินใหม่เพื่อปรับปรุงโครงสร้างพื้นฐานและระบบข้าราชการใน [province.GetName]"
+ inspection_mid_domain_fail_key_title: "ระบบข้าราชการทุจริต"
+ inspection_mid_domain_fail_key: "แม้จะมีความพยายามหลายครั้งหลายครา [host.GetHerHis] [host.GetShortUIName] ก็มิอาจยุติระบบข้าราชการฉ้อฉลใน [province.GetName] ได้"
+ inspection_mid_domain_selfish_key_title: "ความต้องการส่วนตน"
+ inspection_mid_domain_selfish_key: "[host.GetShortUIName] ได้เก็บเงินบางส่วนใน [province.GetName] ไว้สำหรับความต้องการส่วนตัว"
+
+ bp3_survey.0040.t: "ผู้คนแห่ง [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip]"
+ bp3_survey.0040.desc: "ในฐานะส่วนหนึ่งของความพยายามในการปรับปรุงสถานะของเรากับผู้คนใน [province.GetName] ข้าได้จัดสรรเวลาในวันนี้เพื่อเดินทางไปทั่วเมืองและพบปะกับชาวบ้าน"
+ bp3_survey.0040.mid: "แม้ว่า [county_holder.GetHerHis] จะคัดค้าน ข้าก็ได้พา [county_holder.GetFirstName] มาด้วย เพื่อให้ [county_holder.GetSheHe] ได้เห็นว่าควรทำอย่างไร"
+ bp3_survey.0040.outro: "\n\nแม้ว่าในตอนแรกพวกเขาจะลังเลอยู่บ้าง แต่เราก็เห็นชาวบ้านกลุ่มใหญ่ที่ต้องการเข้ามาบอกปัญหาของพวกเขาให้เราฟัง หากข้ามีโอกาส ข้าจะพูดถึง..."
+ bp3_survey.0040.a: "ไพร่พลและทหารรักษาการณ์ท้องถิ่น"
+ bp3_survey.0040.a.tt: "ปรับปรุงรางวัล [levy|E] หาก [inspection|E] สำเร็จ\n"
+ bp3_survey.0040.b: "ข้าประทับใจเพียงใดกับงานที่ [county_holder.GetFirstNameNoTooltip] กำลังทำ"
+ bp3_survey.0040.b.tt: "ปรับปรุงรางวัล [opinion|E] หาก [inspection|E] สำเร็จ\n"
+ bp3_survey.0040.c: "ข้ามีความประทับใจอย่างยิ่งต่อ [province.GetNameNoTooltip]"
+ bp3_survey.0040.c.tt: "ปรับปรุงรางวัล [county_opinion|E] หาก [inspection|E] สำเร็จ\n"
+
+ inspection_mid_activity_levy_great_modifier: "ปรับปรุงไพร่พล"
+ inspection_mid_activity_levy_great_modifier_desc: "จังหวัดมีการเกณฑ์ทหารเพิ่มขึ้นอย่างเห็นได้ชัดหลังจากเจ้าเหนือหัวมีส่วนร่วมกับชาวบ้าน"
+ inspection_mid_activity_levy_average_modifier: "ปรับปรุงไพร่พล"
+ inspection_mid_activity_levy_average_modifier_desc: "มีไพร่พลเพิ่มขึ้นเล็กน้อยหลังจากเจ้าเหนือหัวเยี่ยมเยียนเคาน์ตี"
+ inspection_mid_activity_opinion_great_modifier: "ผู้ปกครองยอดนิยม"
+ inspection_mid_activity_opinion_great_modifier_desc: "ผู้ปกครองท้องถิ่นกลายเป็นบุคคลยอดนิยมหลังจากเยี่ยมเยียนจังหวัด"
+ inspection_mid_activity_opinion_average_modifier: "ประชากรที่ได้รับการปลอบประโลม"
+ inspection_mid_activity_opinion_average_modifier_desc: "หลังจากพูดคุยกับพวกเขาเป็นการส่วนตัว เจ้าเหนือหัวได้ปลอบประโลมชาวบ้านบางส่วน"
+
+ inspection_mid_people_key_title: "ผู้ปกครองเจ้าเสน่ห์"
+ inspection_mid_people_key: "[host.GetShortUIName] ได้สร้างเสน่ห์ให้กับชาวบ้านใน [province.GetName] หลังจากพูดคุยกับพวกเขาอย่างยาวนาน"
+ inspection_mid_people_fail_key_title: "นักสนทนาที่ไร้ประสิทธิภาพ"
+ inspection_mid_people_fail_key: "[host.GetShortUIName] ล้มเหลวในการสร้างความประทับใจให้ใครก็ตามหลังจากใช้เวลากับชาวบ้านใน [province.GetName]"
+
+ bp3_survey.0050.t: "เจ้าเหนือหัว ณ ราชสำนัก"
+ bp3_survey.0050.desc: "แม้ว่า [host.GetSheHe] จะส่งผู้ส่งสารมาก่อนล่วงหน้า แต่ก็ยังน่าประหลาดใจเล็กน้อยเมื่อข้าเห็นเจ้าเหนือหัวของข้า [host.GetFirstName] เสด็จมาถึงราชสำนักของข้าใน [province.GetName] ด้วยตนเอง [host.GetSheHe|U] ได้อธิบายว่า [host.GetSheHe] มาที่นี่เพื่อ "ตรวจการ" สิ่งต่างๆ ด้วย [host.GetHerselfHimself] โดยไม่ได้ลงรายละเอียด\n\nข้าพยายามอย่างยาวนานเพื่อดูว่ามีสิ่งใดเป็นพิเศษที่ [host.GetSheHe] ต้องการจากข้าหรือไม่ แต่ [host.GetSheHe] บอกว่า [host.GetSheHe] มีทุกสิ่งที่ [host.GetSheHe] ต้องการแล้ว หวังว่า [host.GetSheHe] จะไม่พบสิ่งใดที่ [host.GetSheHe] ไม่ควรพบ..."
+ bp3_survey.0050.a: "ยินดีต้อนรับสู่ [province.GetNameNoTooltip] ท่าน [host.GetTitleAsNameNoTooltip] ของข้า"
+ bp3_survey.0050.a.tt: "[host.GetName] กำลังจัด [inspection|E] ใน [province.GetName]"
+
+ bp3_survey_liege_intervention: "เจ้าเหนือหัวเข้าแทรกแซง"
+
+ ### Random Events ###
+ bp3_survey.1000.t: "ดินแดนรกร้าง"
+ bp3_survey.1000.desc: "ขณะที่เราสำรวจภูมิภาคที่ห่างไกลของ [province.GetName] [guest_1.GetFirstName] และข้าพบพื้นที่เล็กๆ ที่เรียกว่า [empty_province.Custom('HoldingNoHoldingTerrainRoamingTooltip')] "
+ bp3_survey.1000.desc_lonely: "ขณะที่ข้าสำรวจภูมิภาคที่ห่างไกลของ [province.GetName] ข้าพบพื้นที่เล็กๆ ที่เรียกว่า [empty_province.Custom('HoldingNoHoldingTerrainRoamingTooltip')] "
+ bp3_survey.1000.desc_continuation: "นอกจากคนเลี้ยงแพะไม่กี่คน ดูเหมือนจะไม่มีใครอาศัยอยู่แถวนี้เลย เมื่อใดก็ตามที่เราผ่านพวกเขา พวกเขามองเราด้วยสายตาเคลือบแคลง\n\n"
+ bp3_survey.1000.desc_border: "หากข้าต้องการขยายอาณาเขตของข้า ข้าต้องแน่ใจว่าข้ามีข้าในบังคับที่สามารถสะท้อนอำนาจของข้าไปยังมุมต่างๆ ของอาณาจักรได้"
+ bp3_survey.1000.desc_bureaucracy: "หากข้าต้องการให้แน่ใจว่าข้าควบคุม [province.GetNameNoTooltip] ได้ ข้าต้องเข้าใจประชากรให้ดีขึ้น แม้ในดินแดนห่างไกลเหล่านี้"
+ bp3_survey.1000.desc_domain: "หากข้าต้องการสร้างแรงบันดาลใจให้ประชากรของข้า ข้าต้องแน่ใจว่าแม้ แต่ผู้คนที่อาศัยอยู่ในสถานที่ห่างไกลนี้ก็รู้จักใบหน้าและชื่อของข้า"
+ bp3_survey.1000.a: "ส่งคนไปตั้งด่านหน้าเล็กๆ ในภูมิภาค"
+ bp3_survey.1000.b: "ลงทุนสร้างถนนสำหรับพื้นที่นี้ เพื่อข้าจะได้ส่งคนออกไปที่นี่ได้"
+ bp3_survey.1000.c: "ข้าต้องเข้าถึงชาวบ้าน"
+
+ inspection_empty_lands_populace_modifier: "การเยี่ยมเยียนของผู้ปกครอง"
+ inspection_empty_lands_populace_modifier_desc: "คนเลี้ยงแพะในท้องถิ่นได้รับเกียรติให้เข้าเฝ้าเจ้าเหนือหัวเป็นการส่วนตัว"
+
+ inspection_empty_lands_domain_modifier: "ถนนเก็บค่าผ่านทาง"
+ inspection_empty_lands_domain_modifier_desc: "ภูมิภาคห่างไกลนี้มีการปรับปรุงถนนในท้องถิ่น\n#emp จะเปลี่ยนเป็น [economic_building|E] หากมีการสร้าง [holding|E]#!"
+
+ inspection_empty_lands_border_modifier: "ด่านหน้าขนาดเล็ก"
+ inspection_empty_lands_border_modifier_desc: "ด่านหน้าชายแดนขนาดเล็กที่สร้างขึ้นเป็นก้าวแรกในการตั้งรกรากในพื้นที่\n#emp จะเปลี่ยนเป็น [fortification_building|E] หากมีการสร้าง [holding|E]#!"
+
+ inspection_survey_new_goods_modifier: "สินค้าใหม่"
+ inspection_survey_new_goods_modifier_desc: "เคาน์ตีนี้มีสินค้าใหม่เข้ามาหลังจากเจ้าเหนือหัวได้ขยายอาณาจักรไปยังดินแดนใหม่"
+
+ bp3_survey.1010.t: "เหล่าอันธพาลใน [province.GetNameNoTooltip]"
+ bp3_survey.1010.desc: "ขณะที่ข้าเดินทางไปตามถนนของ [province.GetName] ข้าก็พบว่าตนเองกำลังเผชิญหน้ากับ [peasant_character.GetWomanMan] ที่ถูกอันธพาลบางคนคุกคามกลางวันแสกๆ [peasant_character.GetSheHe|U] กรีดร้องขอความช่วยเหลือ ขณะที่ [peasant_character.GetSheHe] มองมาที่ข้าและองครักษ์ของข้า\n\nทหารรับจ้างบางคนในเมืองหันไปเป็นโจรและก่ออาชญากรรมเพื่อเลี้ยงชีพเมื่อเร็วๆ นี้ แต่ข้าไม่รู้เลยว่ามันแย่ขนาดนี้ ข้าต้องการเข้าไปช่วยเหลือ [peasant_character.GetWomanMan] ที่น่าสงสารคนนี้หรือไม่?"
+ bp3_survey.1010.a: "ให้ทหารรักษาการณ์ขับไล่พวกเขาออกจากเมือง"
+ bp3_survey.1010.a.win: "รวบรวมทหารรักษาการณ์ท้องถิ่นและกำจัดโจร"
+ bp3_survey.1010.a.win_short: "รวบรวมทหารรักษาการณ์"
+ bp3_survey.1010.a.lose: "มันแย่ลงกว่าที่เป็นอยู่"
+ bp3_survey.1010.a.lose_short: "โจรฝังรากลึก"
+ bp3_survey.1010.b: "บางทีพวกเขาอาจเปิดรับข้อเสนองาน..."
+ bp3_survey.1010.b.flavor: "ดูเหมือนว่าพวกเขาจะเก่งในการจัดการกับชาวบ้านอยู่แล้ว"
+ bp3_survey.1010.c: "ข้าต้องเข้าแทรกแซง!"
+ bp3_survey.1010.c.win: "ขับไล่อันธพาลไป"
+ bp3_survey.1010.c.win_short: "ขับไล่อันธพาลไปแล้ว"
+ bp3_survey.1010.c.lose: "บาดเจ็บจากอันธพาล"
+ bp3_survey.1010.d: "ให้ [bandit_character.GetHerHim] อยู่ห่างจากข้า!"
+ bp3_survey.1010.d.flavor: "[bandit_character.GetSheHe|U] กำลังยุ่งอยู่กับการปล้นคนอื่น หนีไป!"
+
+ inspection_bandits_in_x_domain_modifier: "ทหารรักษาการณ์รับจ้าง"
+ inspection_bandits_in_x_domain_modifier_desc: "กลุ่มทหารรับจ้างและโจรถูกจ้างมาเพื่อเสริมกำลังทหารรักษาการณ์ท้องถิ่น"
+ inspection_bandits_in_x_populace_modifier: "ผู้ปกครองผู้ปกป้อง"
+ inspection_bandits_in_x_populace_modifier_desc: "ตัวละครนี้ได้พยายามอย่างเต็มที่เพื่อปกป้องประชาชนของตน แม้กระทั่งเสี่ยงชีวิตของตนเอง"
+ inspection_bandits_in_x_border_negative_modifier: "โจรโหดเหี้ยม"
+ inspection_bandits_in_x_border_negative_modifier_desc: "อาชญากรควบคุมเคาน์ตีอย่างเข้มงวด ส่วนใหญ่ดำเนินธุรกิจประจำวันอยู่เบื้องหลัง"
+ inspection_bandits_in_x_border_positive_modifier: "ถนนปลอดภัย"
+ inspection_bandits_in_x_border_positive_modifier_desc: "ผู้คนในพื้นที่รู้สึกปลอดภัยเมื่อรู้ว่าโจรไม่ใช่ปัญหาหรือภัยคุกคามมากนัก"
+
+ bp3_survey.1020.t: "ถนนสายเก่าของ [province.GetCounty.GetName]"
+ bp3_survey.1020.desc: "ขณะที่ข้าเดินทางผ่าน [province.Custom('HoldingNoHoldingTerrainRoamingTooltip')] ข้าครุ่นคิดถึงปัญหาที่พบบ่อยเกินไป ทันทีที่เราออกจากเมือง เราก็พบว่าตัวเองติดอยู่ในคูโคลนและเดินตามเส้นทางที่ไม่ไปไหนเลย\n\nถนนเก่าเหล่านี้แทบไม่มีประโยชน์เลย หากจะมีประโยชน์บ้างก็ตาม เว้น แต่ข้าจะพิจารณาจัดหาคนมาเริ่มงานซ่อมแซม มันน่าจะเริ่มส่งผลกระทบต่อพลเมืองท้องถิ่นและพ่อค้าต่างชาติ หากยังไม่ส่งผลกระทบอยู่แล้ว"
+ bp3_survey.1020.a: "ข้าจะจัดสรรเงินทุนที่จำเป็นสำหรับเรื่องนี้"
+ bp3_survey.1020.b: "เกณฑ์พลเมือง"
+ bp3_survey.1020.c: "ทหารรักษาการณ์จัดการได้"
+ bp3_survey.1020.d: "มันไม่ใช่ปัญหาใหญ่อะไร"
+
+ inspection_value_old_roads_desc: "\t#weak เพิ่มขึ้นทุกๆ #bold 3#! [development|E] ที่ต่ำกว่า #bold 30#!#!"
+ MODIFIER_DEFINITION_OLD_ROADS_DESC: "\nตัวปรับ แต่งนี้จะเพิ่มขึ้นเมื่อ [development|E] ต่ำลง"
+
+ inspection_old_roads_of_x_border_modifier: "ถนนใหม่"
+ inspection_old_roads_of_x_border_modifier_desc: "มีการจัดสรรเงินจำนวนมากเพื่อบำรุงรักษาเครือข่ายถนนในท้องถิ่น"
+ inspection_old_roads_of_x_domain_modifier: "การบำรุงรักษาโดยทหารรักษาการณ์"
+ inspection_old_roads_of_x_domain_modifier_desc: "ทหารรักษาการณ์ท้องถิ่นได้รับมอบหมายให้บำรุงรักษาถนนเก่าที่ทรุดโทรมของเคาน์ตี"
+ inspection_old_roads_of_x_populace_modifier: "การบำรุงรักษาโดยพลเมือง"
+ inspection_old_roads_of_x_populace_modifier_desc: "พลเมืองของเคาน์ตีถูกบังคับให้มีส่วนร่วมในงานบำรุงรักษาถนนของเคาน์ตี"
+ inspection_old_roads_negative_modifier: "ถนนที่บำรุงรักษาไม่ดี"
+ inspection_old_roads_negative_modifier_desc: "ถนนเก่าในเคาน์ตีทรุดโทรมมานานแล้ว และต้องการการบำรุงรักษาอย่างเร่งด่วน"
+
+ bp3_survey.1030.t: "การต่อสู้ระหว่างสมาคม"
+ bp3_survey.1030.desc: "ขณะที่ข้ากำลังสนทนากับข้าราชการคนหนึ่งของข้า ข้าก็ถูกขัดจังหวะโดยกลุ่มคนสองกลุ่มที่ตะโกนใส่กันอยู่ห่างออกไปเพียงไม่กี่ก้าว องครักษ์ของข้าสามารถแยกพวกเขาออกจากกันได้แทบจะไม่ทัน ขณะที่ตัวแทนของทั้งสองฝ่ายยังคงตะโกนใส่กัน\n\nหลังจากพยายามไกล่เกลี่ยพวกเขาซ้ำแล้วซ้ำเล่า ในที่สุดข้าก็เข้าใจว่านี่คือการเผชิญหน้าระหว่าง [city_province.Custom('InspectionFightingGuilds1Loc')] และ [city_province.Custom('InspectionFightingGuilds2Loc')] เกี่ยวกับสิทธิ์ในทรัพย์สินในส่วนที่สำคัญที่สุดของใจกลางเมือง"
+ bp3_survey.1030.a: "มีที่ว่างสำหรับพวกเจ้าทั้งสอง!"
+ bp3_survey.1030.a.win: "พวกเขาหาข้อประนีประนอมได้"
+ bp3_survey.1030.a.loss: "มันกลายเป็นการต่อสู้แย่งชิงอำนาจที่ส่งผลกระทบต่อทั้งหมดของ [city_province.GetNameNoTooltip]"
+ bp3_survey.1030.a.loss_short: "พวกเขาปฏิเสธที่จะประนีประนอม"
+ bp3_survey.1030.b: "สนับสนุน [city_province.Custom('InspectionFightingGuilds1Loc')]"
+ bp3_survey.1030.c: "ช่วยเหลือ [city_province.Custom('InspectionFightingGuilds2Loc')]"
+ bp3_survey.1030.d: "[city_province.Custom('InspectionFightingGuilds1Loc')]? [city_province.Custom('InspectionFightingGuilds2Loc')]?! หึ นั่นมันทองของข้า!"
+
+ InspectionFightingGuildsMillers: "$LocalGuildsMillers$"
+ InspectionFightingGuildsBakers: "$LocalGuildsBakers$"
+ InspectionFightingGuildsFishmongers: "$LocalGuildsFishmongers$"
+ InspectionFightingGuildsShoemakers: "$LocalGuildsShoemakers$"
+ InspectionFightingGuildsTanners: "$LocalGuildsTanners$"
+ InspectionFightingGuildsTailors: "$LocalGuildsTailors$"
+ InspectionFightingGuildsWeavers: "$LocalGuildsWeavers$"
+ InspectionFightingGuildsSkinners: "$LocalGuildsSkinners$"
+ InspectionFightingGuildsButchers: "$LocalGuildsButchers$"
+ InspectionFightingGuildsFurriers: "$LocalGuildsFurriers$"
+ InspectionFightingGuildsVintners: "$LocalGuildsVintners$"
+ InspectionFightingGuildsCarpenters: "$LocalGuildsCarpenters$"
+ InspectionFightingGuildsMasons: "$LocalGuildsMasons$"
+ InspectionFightingGuildsMiners: "$LocalGuildsMiners$"
+ InspectionFightingGuildsBlacksmiths: "$LocalGuildsBlacksmiths$"
+ InspectionFightingGuildsSaddlers: "$LocalGuildsSaddlers$"
+ InspectionFightingGuildsMerchants: "$LocalGuildsMerchants$"
+ InspectionFightingGuildsPhysicians: "$LocalGuildsPhysicians$"
+ InspectionFightingGuildsPharmacists: "$LocalGuildsPharmacists$"
+ InspectionFightingGuildsToolmakers: "$LocalGuildsToolmakers$"
+ InspectionFightingGuildsInnkeepers: "Innkeepers' Guild"
+ InspectionFightingGuildsArtists: "Artists' Guild"
+
+ inspection_fighting_guilds_innkeepers_guild_modifier: "สมาคมเจ้าของโรงเตี๊ยม"
+ inspection_fighting_guilds_innkeepers_guild_modifier_desc: "เมืองนี้ได้รับอิทธิพลอย่างหนักจาก $inspection_fighting_guilds_innkeepers_guild_modifier$ ที่ทรงอำนาจ"
+ inspection_fighting_guilds_artists_guild_modifier: "สมาคมศิลปิน"
+ inspection_fighting_guilds_artists_guild_modifier_desc: "ศิลปินจากแดนไกลเดินทางมาร่วมสร้างสรรค์ผลงาน ซึ่งมักพบเห็นได้ทั่วไปทุกมุมเมือง"
+ inspection_learning_intent_local_guilds_modifier: "สมาคมท้องถิ่น"
+ inspection_learning_intent_local_guilds_modifier_desc: "สมาคมใหม่บางแห่งได้ตั้งรกรากในบารอนีหลังจากมีปฏิสัมพันธ์กับเจ้าเหนือหัวในส่วนอื่นๆ ของอาณาจักร"
+
+ bp3_survey.1040.t: "ไฟลุกลาม"
+ bp3_survey.1040.desc: "ขณะเดินทางไปตามถนนของ [province.GetName] ขบวนของข้าและข้าก็เผชิญกับเหตุเพลิงไหม้ที่กำลังเผาผลาญย่านเก่าแก่แห่งหนึ่งของเมือง ผู้คนจำนวนมากยืนตะลึงด้วยความตกใจหรือร้องไห้เงียบๆ ข้างร่างผู้เสียชีวิตที่เกลื่อนกลาดอยู่บนทางเท้า\n\nทหารราวสิบกว่านายกำลังพยายามดับไฟอย่างสิ้นหวังก่อนที่มันจะลุกลามไปทั่วเมืองและเหลือทิ้งไว้เพียงเถ้าถ่าน"
+ bp3_survey.1040.a: "ต้องช่วยชีวิตผู้คน!"
+ bp3_survey.1040.a.win: "ท่านช่วยดับไฟ"
+ bp3_survey.1040.a.loss: "ไฟลุกลามแม้ท่านจะตั้งใจดีที่สุด"
+ bp3_survey.1040.a.death: "ติดอยู่ในกองเพลิง"
+ bp3_survey.1040.b: "ข้าจะจัดสรรเงินทุนให้ภายหลัง ตอนนี้มุ่งเน้นไปที่การรักษาเท่าที่ทำได้"
+ bp3_survey.1040.c: "ไฟที่ใหญ่กว่านี้จะ ทำให้ [county_owner.GetFirstNameNoTooltip] รู้สำนึกในตำแหน่งของ [county_owner.GetHerHis]"
+ bp3_survey.1040.c.win: "ผู้คนเชื่อว่าท่านพยายามช่วยเหลือ"
+ bp3_survey.1040.c.loss: "ผู้คนรู้ว่าท่านทำอะไรลงไปจริงๆ"
+ bp3_survey.1040.d: "ไม่มีอะไรที่ข้าจะทำได้อีกแล้วที่นี่..."
+ bp3_survey.1040.destroyed_building: "ไฟลุกลาม"
+
+ inspection_fire_spreading_modifier: "ถนนที่ถูกเผาไหม้"
+ inspection_fire_spreading_modifier_desc: "การเผาทำลายสิ่งผุพังเก่าๆ บางส่วนได้ก่อให้เกิดโอกาสใหม่ๆ"
+ inspection_selfless_ruler_modifier: "ผู้ปกครองผู้เสียสละ"
+ inspection_selfless_ruler_modifier_desc: "ตัวละครนี้ได้เสี่ยงสุขภาพของตนเองเพื่อช่วยเหลือประชาชน"
+
+ bp3_survey.1050.t: "การขยายกำแพงเมือง"
+ bp3_survey.1050.desc: "ข้าพบว่าตนเองกำลังสนทนากับชาวบ้านบางคนอีกครั้ง เกี่ยวกับวิธีที่ข้าควรจัดลำดับความสำคัญในการปรับโครงสร้างของ [province.GetName] "ย้ายและสร้างกำแพงเมืองเก่าใหม่เถิด ท่านเจ้าเหนือหัว" ร้อยเอก [soldier_character.GetNameNoTooltip] แห่งกองทหารรักษาการณ์ท้องถิ่นกล่าวพร้อมขยิบตา "ลองคิดดูสิว่าเราจะมีพื้นที่มากขึ้นสำหรับย่านที่อยู่อาศัยใหม่ขนาดไหน!"\n\n"ไม่ ไม่! ย่านการค้าเก่าต้องการการปรับปรุงอย่างเร่งด่วน" [merchant_character.GetNameNoTooltip] ตัวแทนของสมาคมท้องถิ่น แทรกเข้ามาในการสนทนาอย่างไม่ละอาย "ลองนึกภาพดูสิว่าเมืองจะมีชีวิตชีวามากขึ้นเพียงใดด้วยย่านการค้าที่คึกคัก!" "
+ bp3_survey.1050.a: "ให้เรามุ่งเน้นไปที่กำแพงเก่าที่ผุพังของ [province.GetNameNoTooltip]"
+ bp3_survey.1050.b: "พวกพ่อค้าพูดถูก"
+ bp3_survey.1050.c: "เราไม่มีทองมากพอที่จะแจกจ่ายให้ใครก็ได้"
+
+ inspection_expanding_walls_new_modifier: "พื้นที่สำหรับการขยาย"
+ inspection_expanding_walls_new_modifier_desc: "เมืองนี้พบพื้นที่สำหรับการขยายตัว หลังจากย้ายส่วนหนึ่งของกำแพงออกไป"
+ inspection_expanding_walls_old_modifier: "ลงทุนในสมาคม"
+ inspection_expanding_walls_old_modifier_desc: "สมาคมท้องถิ่นได้รับผลประโยชน์เล็กน้อย หลังจากมีการจัดสรรทรัพย์สินจำนวนเล็กน้อยเพื่อบำรุงรักษาย่านการค้า"
+ inspection_learning_intent_building_modifier: "แนวทางการก่อสร้าง"
+ inspection_learning_intent_building_modifier_desc: "หลังจากนำแนวปฏิบัติบางอย่างจากส่วนอื่นๆ ของอาณาจักรมาใช้ เมืองหลวงก็เจริญรุ่งเรืองด้วยชีวิตชีวา"
+
+ inspection_expanding_walls_new_desc: "\t#weak เพิ่มขึ้นสำหรับทุกช่อง [building|E] ที่ว่าง#!"
+ MODIFIER_DEFINITION_EXPANDING_WALLS_NEW_DESC: "\nตัวปรับ แต่งนี้จะเพิ่มขึ้นตามจำนวนช่อง [building|E] ที่ว่างใน [barony|E]"
+
+ inspection_expanding_walls_old_desc: "\t#weak เพิ่มขึ้นสำหรับทุก [building|E]#!"
+ MODIFIER_DEFINITION_EXPANDING_WALLS_OLD_DESC: "\nตัวปรับ แต่งนี้จะเพิ่มขึ้นตามจำนวน [buildings|E] ใน [barony|E]"
+
+ bp3_survey.1060.t: "ขุดเรื่องของตัวเอง"
+ bp3_survey.1060.desc: "ขณะที่ข้าสำรวจพื้นที่ห่างไกลของ [province.GetName] ขบวนของข้าและข้าพบถนนสายเก่าที่ลับตา แม้จะซ่อนไว้อย่างดี แต่มันก็นำไปสู่เนินเขาเล็กๆ และโดยเฉพาะอย่างยิ่งถ้ำที่เราพบอุปกรณ์ทำเหมืองที่ถูกทิ้งร้างกระจัดกระจายอยู่บนพื้นถ้ำ\n\n"
+ bp3_survey.1060.desc.copper: ""ท่านเจ้าเหนือหัว" ทหารคนหนึ่งของข้า [soldier_character.GetFirstNameNoTooltip] อุทานขึ้นทันที "นี่มันสายแร่ทองแดงไม่ใช่หรือ?""
+ bp3_survey.1060.desc.silver: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]" ทหารของข้าคนหนึ่ง นามว่า [soldier_character.GetFirstNameNoTooltip] พลันอุทานขึ้นว่า "แสงระยิบระยับนี่ต้องเป็นแร่เงินแน่!""
+ bp3_survey.1060.desc.gold: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]," หนึ่งในทหารของข้า, [soldier_character.GetFirstNameNoTooltip], พลันอุทานขึ้นมาด้วยตาที่เบิกกว้าง, "นี่มันก้อนทองคำใช่หรือไม่พ่ะย่ะค่ะ?""
+ bp3_survey.1060.a: "เรารออะไรอยู่? ขุด! ขุดสิ!"
+
+ inspection_learning_intent_flourishing_metal_trade_modifier: "ตลาดรุ่งเรือง"
+ inspection_learning_intent_flourishing_metal_trade_modifier_desc: "บารอนีนี้มีตลาดที่รุ่งเรืองหลังจากมีการค้นพบเหมืองในที่อื่นของอาณาจักร"
+
+ bp3_survey.1070.t: "ความผิดปกติที่เป็นปกติ"
+ bp3_survey.1070.desc.intro.personal: "จากการตรวจสอบภาษีที่เก็บโดยผู้ดูแลและอุปราชท้องถิ่นของข้า ข้าสังเกตเห็นความคลาดเคลื่อนที่ชัดเจนระหว่างสิ่งที่บันทึกไว้ในบางพื้นที่กับสิ่งที่ข้าได้รับ\n\n"
+ bp3_survey.1070.desc.intro.vassal: "จากการตรวจสอบภาษีที่ได้รับขณะที่ [province.GetName] อยู่ภายใต้การปกครองของ [county_owner.GetFirstNamePossessive] ข้าสังเกตเห็นความคลาดเคลื่อนที่ชัดเจนระหว่างสิ่งที่ข้าควรได้รับกับสิ่งที่ได้รับ แม้ว่า [county_owner.GetFirstNameNoTooltip] ควรจะสังเกตเห็น แต่ตัวเลขที่ผิดพลาดได้ถูกเพิ่มเข้าไปก่อนที่จะถึงโต๊ะทำงานของ [county_owner.GetHerHis] เสียอีก\n\n"
+ bp3_survey.1070.desc: "ไม่ว่าใครจะเป็นผู้กระทำผิดอย่างแท้จริง เป็นที่ชัดเจนว่าต้องมีคนรับผิดชอบ ชาวบ้านได้จ่ายส่วนของตนไปแล้ว แต่การบีบคั้นพวกเขาง่ายกว่าผู้ที่รับผิดชอบต่อ 'ความผิดพลาด' เหล่านี้จริงๆ"
+ bp3_survey.1070.a: "เหล่าขุนนาง #emp จะต้อง#! จ่ายส่วนของตน ไม่ทางใดก็ทางหนึ่ง"
+ bp3_survey.1070.a.flavor: "ทำให้ผู้รับผิดชอบเป็นเยี่ยงอย่าง เพื่อให้ที่เหลือรู้ว่าอะไรเป็นเดิมพัน"
+ bp3_survey.1070.b: "การเก็บภาษีครั้งเดียวจากชาวบ้านจะชดเชยความสูญเสียเหล่านี้"
+ bp3_survey.1070.b.flavor: "ชาวบ้านจะไม่พอใจ แต่เงินเป็นสิ่งจำเป็น"
+ bp3_survey.1070.c: "ข้าจะปล่อยผ่านไป ครั้งนี้..."
+ bp3_survey.1070.c.flavor: "การแสดงความเมตตาจะเป็นที่ชื่นชม หวังว่านะ"
+
+ inspection_regular_irregularities_local_modifier: "ภาษีครั้งเดียว"
+ inspection_regular_irregularities_local_modifier_desc: "ตัวละครนี้บังคับใช้ภาษีครั้งเดียวที่ผิดปกติกับพลเมืองท้องถิ่น เพื่อชดเชยความบกพร่องของข้าในบังคับ"
+ inspection_regular_irregularities_modifier: "การลงโทษที่บังคับใช้"
+ inspection_regular_irregularities_modifier_desc: "ตัวละครนี้ได้ลงโทษอย่างรุนแรงต่อข้าในบังคับที่ขโมยเงินภาษีไปเป็นของตนเอง"
+
+ bp3_survey.1080.t: "สถานที่ที่ควรค่าแก่การเยี่ยมชม"
+ bp3_survey.1080.desc: ""มันไม่ปลอดภัยเลยสักนิด [ROOT.Char.Custom('FormOfAddressForLiege')]" นักเดินทางท่าทางอิดโรยผู้หนึ่งบอกข้า "ข้ารอดชีวิตมาได้หวุดหวิดทีเดียวล่ะขอรับ" จริงดังคำของ[traveler_character.GetHerHis] ดูเหมือนว่า [traveler_character.GetSheHe] ได้ผ่านประสบการณ์ที่หนักหนามาทีเดียว\n\n"
+ bp3_survey.1080.desc.holy_poi: "ดูเหมือนว่า [ROOT.GetCharacter.GetFaith.GetReligion.GetAdherentNamePluralNoTooltip] จากทั่วทุกสารทิศได้เดินทางมาที่ [location_province.GetName] เพื่อชมสถานที่ศักดิ์สิทธิ์ที่สุด [location_province.Custom('GetSpecialBuildingPrefix')][location_province.GetHolding.GetSpecialBuildingType.GetName] แต่กลับถูกขัดขวางโดยอาชญากร"
+ bp3_survey.1080.desc.poi: "ดูเหมือนว่าผู้คนจากทั่วทุกสารทิศได้เดินทางมาที่นี่เพื่อชม [location_province.Custom('GetSpecialBuildingPrefix')][location_province.GetHolding.GetSpecialBuildingType.GetName] แต่กลับถูกขัดขวางโดยอาชญากร"
+ bp3_survey.1080.desc.holy_site: "ดูเหมือนว่า [ROOT.GetCharacter.GetFaith.GetReligion.GetAdherentNamePluralNoTooltip] จากทั่วทุกสารทิศได้มาที่ [location_province.GetName] เพื่อชมสถานที่ศักดิ์สิทธิ์ในท้องถิ่น แต่กลับถูกขัดขวางโดยอาชญากร"
+ bp3_survey.1080.desc.outro: "หากเราปล่อยให้โจรและนักปล้นจี้คอยทำร้ายผู้มาเยือนต่อไป... อีกไม่นานพวกเขาก็จะเริ่มมองหาที่อื่น"
+ bp3_survey.1080.a: "ข้าจะเกณฑ์ทหารลาดตระเวนเล็กๆ เพื่อปกป้องนักเดินทาง"
+ bp3_survey.1080.b: "ให้พลเมืองดูแลผู้มาเยือนของพวกเขา"
+ bp3_survey.1080.c: "พวกเขาป้องกันตัวเองได้"
+
+ protected_poi_modifier_desc: "\nโอกาสได้รับคะแนน [skill|E] จาก [monument_expedition|E]: #p +10%#!"
+ protected_holy_site_modifier_desc: "\nความศรัทธาจาก [pilgrimage|E]: #p +20#!"
+
+ inspection_proteted_poi_levy_modifier: "อนุสรณ์สถานที่ได้รับการคุ้มครอง"
+ inspection_proteted_poi_levy_modifier_desc: "ทหารรักษาการณ์ถูกเกณฑ์มาดูแลอนุสรณ์สถานท้องถิ่นและนักเดินทางจำนวนมาก\n\n$protected_poi_modifier_desc$"
+
+ inspection_protected_holy_site_levy_modifier: "สถานที่ศักดิ์สิทธิ์ที่ได้รับการคุ้มครอง"
+ inspection_protected_holy_site_levy_modifier_desc: "ทหารรักษาการณ์ถูกเกณฑ์มาดูแลสถานที่ศักดิ์สิทธิ์ในท้องถิ่นและผู้แสวงบุญจำนวนมาก\n$protected_holy_site_modifier_desc$"
+
+ inspection_protected_holy_poi_levy_modifier: "$inspection_protected_holy_site_levy_modifier$"
+ inspection_protected_holy_poi_levy_modifier_desc: "ทหารรักษาการณ์ถูกเกณฑ์มาดูแลสถานที่ศักดิ์สิทธิ์ในท้องถิ่นและผู้แสวงบุญจำนวนมาก\n$protected_poi_modifier_desc$ $protected_holy_site_modifier_desc$"
+
+ inspection_protected_poi_gold_modifier: "อนุสรณ์สถานที่มีทหารรักษาการณ์"
+ inspection_protected_poi_gold_modifier_desc: "อนุสรณ์สถานท้องถิ่นได้รับทหารรักษาการณ์เฉพาะเพื่อปกป้องมันและนักเดินทางจำนวนมาก\n$protected_poi_modifier_desc$"
+
+ inspection_protected_holy_site_gold_modifier: "สถานที่ศักดิ์สิทธิ์ที่มีทหารรักษาการณ์"
+ inspection_protected_holy_site_gold_modifier_desc: "สถานที่ศักดิ์สิทธิ์ในท้องถิ่นได้รับทหารรักษาการณ์เฉพาะเพื่อปกป้องมันและผู้แสวงบุญจำนวนมาก\n$protected_holy_site_modifier_desc$"
+
+ inspection_protected_holy_poi_gold_modifier: "$inspection_protected_holy_site_gold_modifier$"
+ inspection_protected_holy_poi_gold_modifier_desc: "สถานที่ศักดิ์สิทธิ์ในท้องถิ่นได้รับทหารรักษาการณ์เฉพาะเพื่อปกป้องมันและผู้แสวงบุญจำนวนมาก\n$protected_poi_modifier_desc$ $protected_holy_site_modifier_desc$"
+
+ bp3_survey.1090.t: "พื้นที่ห่างไกลที่ซ่อนเร้น"
+ bp3_survey.1090.desc: ""มาหาพวกลักลอบล่าสัตว์แถวนี้รึ?" นายพรานที่ดูโทรมตะโกนใส่เรา ขณะที่เราเข้าใกล้ค่ายเล็กๆ ของ [hunter_character.GetHerHis] ระหว่างการสำรวจพื้นที่ห่างไกลของ [province.GetName] "มีให้หาเยอะแยะ ถึงแม้จะไม่ใช่ที่ดินหลวงจริงๆ ที่นี่ใน [poaching_province.GetName] ทุก [hunter_character.GetWomanMan] ต้องดูแล [hunter_character.GetHerselfHimself]"\n\n"ถ้าท่านต้องการอ้างสิทธิ์ในดินแดนเหล่านี้ ท่านต้องการใครสักคนที่สามารถปรากฏตัวในนามของท่านเป็นประจำ หากท่านเข้าใจความหมายของข้า" [hunter_character.GetSheHe|U] พูดต่อพร้อมขยิบตา ก่อนที่ [hunter_character.GetSheHe] จะกัดเนื้อย่างชิ้นใหญ่ กลุ่มคนที่สามารถแสดงให้ทุกคนที่นี่เห็นว่าที่ดินเป็นของข้าจริงๆ? บางทีนั่นอาจไม่ใช่ความคิดที่แย่นัก..."
+ bp3_survey.1090.a: "เราจะจ้างทหารยามบางส่วนที่สามารถลาดตระเวนในพื้นที่ห่างไกลได้"
+ bp3_survey.1090.b: "เกณฑ์นายพรานท้องถิ่นที่รู้จักพื้นที่อยู่แล้ว"
+ bp3_survey.1090.c: "ใครจะสนพวกลักลอบล่าสัตว์คนสองคน?"
+
+ inspection_hidden_hinterlands_modifier: "โอกาสสำเร็จ [hunt_success_chance|E]: #p +10%#!\n[prestige_experience|E] จาก [hike|E]: #P +25%#!"
+
+ inspection_hidden_hinterlands_recruit_modifier: "หน่วยลาดตระเวนป่า"
+ inspection_hidden_hinterlands_recruit_modifier_desc: "กองทหารยามที่จัดตั้งขึ้น เพื่อให้แน่ใจว่ามีพวกลักลอบล่าสัตว์หรืออาชญากรในภูมิภาคน้อยที่สุดเท่าที่จะเป็นไปได้\n\n$inspection_hidden_hinterlands_modifier$"
+
+ inspection_hidden_hinterlands_hunters_modifier: "นายพรานท้องถิ่น"
+ inspection_hidden_hinterlands_hunters_modifier_desc: "กลุ่มนายพรานท้องถิ่นที่ได้รับการว่าจ้างจากเจ้าเหนือหัวเพื่อปกป้องบารอนีจากพวกลักลอบล่าสัตว์และอาชญากร\n\n$inspection_hidden_hinterlands_modifier$"
+
+ ### Progression Events ###
+ bp3_survey.1200.t: "ความคืบหน้า"
+ bp3_survey.1200.desc: "แม้จะมีปัญหาและอุปสรรคมากมายที่ข้าเผชิญที่นี่ใน [province.GetName] ข้ารู้สึกว่าข้าเริ่มเข้าใจวิธีที่จะ ทำให้สิ่งต่างๆ เป็นไปตามที่ข้าต้องการแล้ว เจ้าของที่ดิน สมาคมท้องถิ่น พวกเขาทั้งหมดเริ่มยอมรับวิธีการของข้า\n\nตอนนี้ข้าเพียงแค่ต้องกำหนดเส้นทางสำหรับอนาคตของเคาน์ตีนี้ และหาคนที่เหมาะสมที่จะนำพามันไปสู่จุดนั้น"
+ bp3_survey.1200.a: "หวังว่านี่จะเป็นความท้าทายสุดท้ายของข้าที่นี่"
+
+ bp3_survey.1210.t: "ก้าวไปในทิศทางที่ถูกต้อง"
+ bp3_survey.1210.desc: "หลังจากใช้เวลาช่วงเย็นในการหารือกับเจ้าของที่ดินท้องถิ่น ในที่สุดข้าก็สามารถทำข้อตกลงกับสมาคมพ่อค้าท้องถิ่นแห่งหนึ่งได้สำเร็จ\n\nหวังว่านี่จะเป็นเพียงจุดเริ่มต้นของการ ทำให้เคาน์ตีนี้กลับมาเป็นอย่างที่ข้าต้องการ หากเพียง แต่ข้าจะสามารถหาเสียงสนับสนุนที่เป็นมิตรมากขึ้นสำหรับความพยายามของข้าที่นี่"
+ bp3_survey.1210.a: "ก้าวแรกของอีกหลายก้าว"
+
+ bp3_survey.1220.t: "ก้าวที่ผิดพลาด"
+ bp3_survey.1220.desc: "หลังจากใช้เวลาช่วงเย็นในการหารือกับเจ้าของที่ดินท้องถิ่น พวกเขายังไม่สามารถหาข้อประนีประนอมได้ แม้ว่าข้าจะพยายามอย่างเต็มที่แล้ว ข้ารู้สึกว่าแรงจูงใจของข้าในการพยายามรักษาทุกอย่างไว้ด้วยกันที่นี่ค่อยๆ จางหายไป\n\nทำไมพวกเขาถึงเข้ากันไม่ได้สักครั้ง?"
+ bp3_survey.1220.a: "แค่ #bold พูดคุย#! กันสิ!"
+
+ bp3_survey.1230.t: "ความผิดพลาดซ้ำแล้วซ้ำเล่า"
+ bp3_survey.1230.desc: "หลังจากใช้เวลาทั้งวันพูดคุยกับเจ้าของที่ดินท้องถิ่น ข้าพบว่าตนเองมีปัญหากับข้อพิพาทเล็กน้อยระหว่างสมาคมพ่อค้า ตามมาด้วยการทะเลาะวิวาทของขุนนางอีก\n\nไม่ว่าข้าจะมองไปทางไหน ข้ารู้สึกเหมือนมีปัญหาอื่นรอให้ข้าสนใจอยู่เสมอ เกิดอะไรขึ้นกับผู้คนที่อาศัยอยู่ที่นี่ใน [province.GetName]?!"
+ bp3_survey.1230.a: "พวกเขา #emp ต้องการ#! ให้สิ่งต่างๆ ดีขึ้นจริงๆ หรือ?!"
+
+ ### APAs
+ apa_survey_bad_harvest_title: "สัญญาณของการเก็บเกี่ยวที่ไม่ดี"
+ apa_survey_bad_harvest_key_title: "การเก็บเกี่ยวที่ไม่ดี"
+ apa_survey_bad_harvest_key: "จากการสำรวจพื้นที่เกษตรกรรมใน [apa_province.GetName] [first.GetShortUIName] เริ่มเห็นสัญญาณของการเก็บเกี่ยวที่ไม่ดีที่จะมาถึง"
+
+ apa_survey_good_harvest_title: "สัญญาณของการเก็บเกี่ยวที่ดี"
+ apa_survey_good_harvest_key_title: "การเก็บเกี่ยวที่ดี"
+ apa_survey_good_harvest_key: "จากการสำรวจพื้นที่เกษตรกรรมใน [apa_province.GetName] [first.GetShortUIName] เริ่มเห็นสัญญาณของการเก็บเกี่ยวที่ดีที่จะมาถึง"
+
+ apa_survey_bad_merchant_guild_title: "ความสัมพันธ์ที่ไม่ดีกับสมาคมพ่อค้า"
+ apa_survey_bad_merchant_guild_key_title: "ความสัมพันธ์กับสมาคมพ่อค้า"
+ apa_survey_bad_merchant_guild_key: "[first.GetShortUIName] มีปากเสียงกับสมาคมพ่อค้าท้องถิ่นใน [apa_province.GetName]"
+
+ apa_survey_good_merchant_guild_title: "ความสัมพันธ์ที่ดีเยี่ยมกับสมาคมพ่อค้า"
+ apa_survey_good_merchant_guild_key_title: "ความสัมพันธ์กับสมาคมพ่อค้า"
+ apa_survey_good_merchant_guild_key: "[first.GetShortUIName] ได้ทำข้อตกลงกับสมาคมพ่อค้าท้องถิ่นใน [apa_province.GetName]"
+
+ apa_survey_bad_noble_title: "ขุนนางที่ไม่เป็นมิตร"
+ apa_survey_bad_noble_key_title: "$apa_survey_bad_noble_title$"
+ apa_survey_bad_noble_key: "[first.GetShortUIName] มีปากเสียงกับขุนนางท้องถิ่นใน [apa_province.GetName]"
+
+ apa_survey_good_noble_title: "ขุนนางที่เป็นมิตร"
+ apa_survey_good_noble_key_title: "$apa_survey_good_noble_title$"
+ apa_survey_good_noble_key: "[first.GetShortUIName] ได้ใช้เวลาร่วมงานเลี้ยงกับขุนนางท้องถิ่นบางส่วนใน [apa_province.GetName]"
+
+ apa_survey_tax_problems_title: "การหลีกเลี่ยงภาษี"
+ apa_survey_tax_problems_key_title: "$apa_survey_tax_problems_title$"
+ apa_survey_tax_problems_key: "[first.GetShortUIName] ได้เปิดโปงการหลีกเลี่ยงภาษีโดยขุนนางหลายคนใน [apa_province.GetName] แต่ไม่สามารถแก้ไขปัญหาได้"
+
+ apa_survey_extra_taxes_title: "ภาษีเพิ่มเติม"
+ apa_survey_extra_taxes_key_title: "$apa_survey_extra_taxes_title$"
+ apa_survey_extra_taxes_key: "[first.GetShortUIName] ได้เปิดโปงการหลีกเลี่ยงภาษีโดยขุนนางหลายคนใน [apa_province.GetName] และ ทำให้แน่ใจว่าพวกเขาถูกเก็บภาษีอย่างถูกต้อง"
+
+ apa_survey_old_bridge_title: "สะพานโยกเยก"
+ apa_survey_old_bridge_key_title: "$apa_survey_old_bridge_title$"
+ apa_survey_old_bridge_key: "[first.GetShortUIName] เกือบตกลงไปในน้ำ เนื่องจากสะพานเก่าที่ทรุดโทรม ซึ่งตอนนี้ต้องการการซ่อมแซมและบำรุงรักษาอย่างเร่งด่วน"
+
+ apa_survey_bad_mercenaries_title: "ทหารรับจ้างเจ้าปัญหา"
+ apa_survey_bad_mercenaries_key_title: "$apa_survey_bad_mercenaries_title$"
+ apa_survey_bad_mercenaries_key: "[first.GetShortUIName] ได้พบทหารรับจ้างเจ้าปัญหาบางส่วนที่ก่อความวุ่นวายในพื้นที่ห่างไกลของ [apa_province.GetName]"
+
+ apa_survey_good_mercenaries_title: "จัดการกับทหารรับจ้าง"
+ apa_survey_good_mercenaries_key_title: "$apa_survey_good_mercenaries_title$"
+ apa_survey_good_mercenaries_key: "[first.GetShortUIName] พบทหารรับจ้างเจ้าปัญหาบางส่วนใน [apa_province.GetName] และส่งหน่วยลาดตระเวนเล็กๆ ไปจัดการกับพวกเขา"
+
+ apa_survey_small_festival_title: "เทศกาลท้องถิ่น"
+ apa_survey_small_festival_key_title: "$apa_survey_small_festival_title$"
+ apa_survey_small_festival_key: "[first.GetShortUIName] ได้เข้าร่วมเทศกาลเล็กๆ ใน [apa_province.GetName] และสร้างความประทับใจให้กับชาวนาและขุนนางที่เข้าร่วม"
+
+ apa_survey_fishing_rights_title: "ข้อพิพาทเรื่องสิทธิการประมง"
+ apa_survey_fishing_rights_key_title: "$apa_survey_fishing_rights_title$"
+ apa_survey_fishing_rights_key: "[first.GetShortUIName] เข้าไปพัวพันกับข้อพิพาทระหว่างสมาคมชาวประมงท้องถิ่นและขุนนางใน [apa_province.GetName] ซึ่งโต้เถียงกันเรื่องสิทธิการประมง"
+
+ apa_survey_city_walls_title: "กำแพงเมืองทรุดโทรม"
+ apa_survey_city_walls_key_title: "$apa_survey_city_walls_title$"
+ apa_survey_city_walls_key: "[first.GetShortUIName] ได้เสียเวลาและพลังงานไปกับการพยายามช่วยบำรุงรักษากำแพงเมืองใน [apa_province.GetName] โดยเปล่าประโยชน์"
+
+ apa_survey_local_gift_title: "เป็นที่นิยมในหมู่ชาวบ้าน"
+ apa_survey_local_gift_key_title: "$apa_survey_local_gift_title$"
+ apa_survey_local_gift_key: "[first.GetShortUIName] ได้รับของขวัญจากพลเมืองของ [apa_province.GetName]"
+
+ neither_local_inspection_perk_nor_merit: "ท่านไม่มี [perk|E] [GetPerk('local_inspection_perk').GetName(GetPlayer)] และท่านก็ไม่มี [government|E] แบบ [government_bureaucratic_type|E] ด้วย เช่นกัน"

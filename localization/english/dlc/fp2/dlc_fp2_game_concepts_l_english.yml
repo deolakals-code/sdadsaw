@@ -1,0 +1,108 @@
+﻿l_english: 
+ game_concept_struggle:1 "การต่อสู้ดิ้นรน"
+ game_concept_struggle_struggles:0 "การต่อสู้ดิ้นรน"
+ game_concept_struggle_struggles_possessive: "ของการต่อสู้ดิ้นรน"
+ game_concept_struggle_desc:2 "$game_concept_struggle_struggles$ คือความขัดแย้งระยะยาวที่เกี่ยวข้องกับ [struggle_region_regions|E] ขนาดใหญ่ ซึ่งมี [faiths|E] และ [cultures|E] หลากหลาย ภายในขอบเขตของ $game_concept_struggle$ กฎพิเศษและ [modifiers|E] ที่แปลกประหลาดอาจมีผลบังคับใช้ ซึ่งเปลี่ยนแปลงไปตามกาลเวลา เนื่องจากกินเวลาหลายทศวรรษถึงหลายศตวรรษ ไม่ใช่ [characters|E] ทั้งหมดใน $game_concept_struggle$ จะอยู่ใน [war|E] ต่อกันตลอดเวลา\n\nแต่ละ $game_concept_struggle$ ประกอบด้วย [struggle_phase_phases|E] หลายระยะ เมื่อ $game_concept_characters$ ภายใน [struggle_region|E] กระทำการ ( เช่น ประกาศ $game_concept_war$ หรือ [marrying|E]) พวกเขาอาจเปิดใช้งาน [struggle_catalyst_catalysts|E] ที่ ทำให้พวกเขาก้าวหน้าไประหว่าง $game_concept_struggle_phase_phases$ ต่างๆ\n\nขึ้นอยู่กับระดับที่ผู้เข้าร่วมคนอื่นมองว่าพวกเขาเป็นส่วนหนึ่งของ $game_concept_struggle$ มากน้อยเพียงใด $game_concept_characters$ ที่มี [land|E] ในพื้นที่อาจถูกมองว่าเป็น [struggle_involved|E], [struggle_interloper_interlopers|E] หรือ [struggle_uninvolved|E]"
+
+ game_concept_iberian_struggle:1 "การต่อสู้ดิ้นรนในไอบีเรีย"
+ game_concept_iberian_struggle_desc:2 "$game_concept_iberian_struggle$ แสดงถึงความสัมพันธ์ที่แตกแยกนานหลายศตวรรษบนคาบสมุทรไอบีเรีย แม้จะเกิดจากการพิชิตไอบีเรียของราชวงศ์อุมัยยะฮ์ในศตวรรษที่ 8 แต่ [struggle|E] ก็เปลี่ยนไปมาระหว่าง [struggle_phase_phases|E] ของความรุนแรงที่ขับเคลื่อนด้วยความเกลียดชัง การสงบศึกอย่างระแวดระวัง และความร่วมมือเชิงปฏิบัติ มีพันธมิตรที่ถาวรน้อยมากในสถานการณ์ เช่นนี้ และ [rulers|E] ควรระวังการพึ่งพาเพียง [faith|E] หรือ [culture|E] ที่เหมือนกัน"
+ game_concept_struggle_phase:1 "ระยะการต่อสู้ดิ้นรน"
+ game_concept_struggle_phase_phase:1 "ระยะ"
+ game_concept_struggle_phase_phases:0 "ระยะ"
+ game_concept_struggle_phase_desc:1 "$game_concept_struggle_phase_phase$ คืออารมณ์ทั่วไปที่พบได้ใน [characters|E] และ [counties|E] ที่ [struggle_involved|E] ภายใน [struggle_region|E] มันแสดงถึงแนวโน้มและธรรมเนียมปฏิบัติทางสังคมระยะสั้นที่ครอบงำบทสนทนาของ [struggle|E] ชั่วคราว\n\n#weak ตัวอย่าง: ใน $game_concept_struggle_phase_phase$ หนึ่ง ผู้คนใน $game_concept_struggle_region_region$ อาจคิดว่าการยอมรับความแตกต่างทางศาสนาเป็นสิ่งสำคัญยิ่ง แม้ว่าส่วนที่เหลือของศรัทธาของพวกเขาจะไม่เห็นด้วยก็ตาม#!"
+
+ game_concept_struggle_catalyst:1 "ปัจจัยกระตุ้นการต่อสู้ดิ้นรน"
+ game_concept_struggle_catalyst_catalyst:1 "ปัจจัยกระตุ้น"
+ game_concept_struggle_catalyst_catalysts:0 "ปัจจัยกระตุ้น"
+ game_concept_struggle_catalyst_desc:2 "[struggle_struggles|E] เปลี่ยนผ่านระหว่าง [struggle_phase_phases|E] เมื่อมีการกระทำที่น่าสังเกตบางอย่างเกิดขึ้น สร้างฉันทามติของ [struggle_region|E] ของพวกเขาไปสู่อารมณ์เฉพาะอย่าง รายการของการกระทำที่สำคัญใน $game_concept_struggle_phase_phase$ ใด สามารถพบได้ในหน้าต่าง $game_concept_struggle$\n\n#weak ตัวอย่าง: [struggle_phase_iberia_opportunity|E] ของ [iberian_struggle|E] สามารถเปลี่ยนไปเป็น [struggle_phase_iberia_hostility|E] หรือ [struggle_phase_iberia_conciliation|E] การสังหาร [character|E] ที่สำคัญอาจนำไปสู่ระยะแรก ในขณะที่การสร้าง [alliance|E] [marriage|E] กับคนที่มี [faith|E] ต่างกันจะนำไปสู่ระยะหลัง#!"
+
+ game_concept_struggle_involved:1 "ผู้เกี่ยวข้อง"
+ game_concept_struggle_involved_desc:2 "เมื่อ [character|E] หรือ [county|E] เป็น $game_concept_struggle_involved$ หมายความว่าพวกเขาถูกพิจารณาว่าเป็นส่วนหนึ่งตามธรรมชาติและสำคัญของ [struggle|E] โดยผู้คนใน [struggle_region|E] เฉพาะ พวกเขาได้รับประโยชน์อย่างเต็มที่จากข้อได้เปรียบที่เปลี่ยนแปลงไปของ [struggle_phase_phases|E] และเป็นผู้เปิดใช้งานหลักของ [struggle_catalyst_catalysts|E]\n\n[cultures|E] และ [faiths|E] ที่ถือว่าเป็น $game_concept_struggle_involved$ คือพวกที่มีหรือเคยมีบทบาทสำคัญใน $game_concept_struggle_region_region$\n\n#weak ในการเป็น $game_concept_struggle_involved$ $game_concept_character$ ต้องมีทั้ง $game_concept_culture$ และ $game_concept_faith$ เป็น $game_concept_struggle_involved$ #EMP และ#! มี [capital|E] ของตนอยู่ภายใน $game_concept_struggle_region$#!"
+
+ game_concept_struggle_interloper:1 "ผู้สอดแทรก"
+ game_concept_struggle_interloper_interlopers:0 "ผู้สอดแทรก"
+ game_concept_struggle_interloper_desc:2 "เมื่อ [character|E] เข้าไปพัวพันกับ [struggle|E] เฉพาะ แต่ยังไม่ถือว่าเป็น [struggle_involved|E] อย่างเต็มที่ พวกเขาคือ $game_concept_struggle_interloper$\n\n$game_concept_struggle_interloper_interlopers$ มี [capital|E] ของตนอยู่ภายใน [struggle_region|E] แต่ไม่มีทั้ง [faith|E] ที่ $game_concept_struggle_involved$ และ [culture|E] ที่ $game_concept_struggle_involved$\n\n$game_concept_characters$ ที่ $game_concept_struggle_involved$ อย่างเต็มที่คิดว่าพวกเขาเป็นคนนอกที่ชอบสอดรู้สอดเห็นและสร้างปัญหา ซึ่งไม่เข้าใจว่าพวกเขาไม่เป็นที่ต้องการที่ไหน $game_concept_struggle_interloper$ [rulers|E] จึงมักได้รับบทลงโทษบางอย่างใน [counties|E] ที่พวกเขาถือครองภายใน $game_concept_struggle_region$"
+
+ game_concept_struggle_uninvolved:1 "ผู้ไม่เกี่ยวข้อง"
+ game_concept_struggle_uninvolved_desc:2 "เพื่อให้ [character|E] ถูกพิจารณาว่าเป็น $game_concept_struggle_uninvolved$ ใน [struggle|E] เฉพาะ พวกเขาเพียงแค่ต้องมี [capital|E] อยู่นอก [struggle_region|E]\n\nซึ่งหมายความว่าพวกเขาถูกมองว่าเป็นคนนอก คนที่ไม่เพียง แต่ไม่มีส่วนได้ส่วนเสียอย่างจริงจังใน [struggle_phase_phases|E] ที่ดำเนินอยู่ แต่ #EMP ไม่ควร#! มี เพราะเห็นได้ชัดว่าพวกเขาไม่สามารถเข้าใจความแตกต่างในท้องถิ่นได้\n\nเนื่องจากสิ่งเดียวที่ผู้คนภายใน $game_concept_struggle$ สามารถตกลงกันได้คือ $game_concept_struggle_uninvolved$ $game_concept_characters$ ไม่มีธุระอะไรในดินแดน #EMP ของพวกเขา#! $game_concept_struggle_uninvolved$ [rulers|E] จึงมักได้รับบทลงโทษที่รุนแรงใน [counties|E] ใดๆ ที่พวกเขาถือครองภายใน $game_concept_struggle_region$"
+
+ game_concept_struggle_large_conquest:1 "การพิชิตครั้งใหญ่ในการต่อสู้ดิ้นรน"
+ game_concept_struggle_large_conquest_desc:1 "บาง $game_concept_struggle_catalyst_catalysts$ เกี่ยวข้องกับการเสร็จสิ้น [war|E] ครั้งใหญ่โดยผู้โจมตี\n\n[casus_bellis|E] ต่อไปนี้ถูกนับรวมสำหรับสิ่งนี้:\n$EFFECT_LIST_BULLET$ $duchy_conquest_cb$ \n$EFFECT_LIST_BULLET$ $individual_duchy_de_jure_cb$ \n$EFFECT_LIST_BULLET$ $imperial_reconquest_cb$ \n$EFFECT_LIST_BULLET$ $invasion_war$ \n$EFFECT_LIST_BULLET$ $clan_invasion_war$ \n$EFFECT_LIST_BULLET$ $mongol_invasion_war$ \n$EFFECT_LIST_BULLET$ $major_religious_war$ $game_concept_war$ \n$EFFECT_LIST_BULLET$ ทั้ง [great_holy_war_directed|E] & [great_holy_war_undirected|E] $game_concept_great_holy_wars$ \n$EFFECT_LIST_BULLET$ $tribal_subjugation_cb$"
+
+ game_concept_struggle_region:1 "ภูมิภาคการต่อสู้ดิ้นรน"
+ game_concept_struggle_region_region:1 "ภูมิภาค"
+ game_concept_struggle_region_regions:0 "ภูมิภาค"
+ game_concept_struggle_region_desc:2 "แต่ละ [struggle|E] เชื่อมโยงกับ [region|E] บนแผนที่ ตำแหน่งของ [character_possessive|E] ภายใน $game_concept_region$ นี้ ( รวมถึง [culture|E] และ [faith|E] ของพวกเขา) กำหนดว่าพวกเขาถูกจัดประเภทเป็น [struggle_involved|E], [struggle_interloper|E] หรือ [struggle_uninvolved|E]\n\n[counties|E] ภายใน $game_concept_struggle_region$ โดยทั่วไปอยู่ภายใต้ [county_modifiers|E] ที่แตกต่างกัน ขึ้นอยู่กับ [struggle_phase_phase] ปัจจุบัน"
+
+ game_concept_struggle_conquest:1 "การปะทะในการต่อสู้ดิ้นรน"
+ game_concept_struggle_conquest_conquest:1 "การปะทะ"
+ game_concept_struggle_conquest_conquests:0 "การปะทะ"
+ game_concept_struggle_conquest_desc:2 "ไม่ใช่เรื่องแปลกที่ [rulers|E] ที่เกี่ยวข้องใน [struggle|E] จะเกิดข้อพิพาทชายแดนและการทะเลาะวิวาทเล็กน้อย ซึ่งเปลี่ยนแปลงไปตามลักษณะของ [struggle_phase|E] ปัจจุบัน ความพร้อมใช้งานของข้อพิพาทเฉพาะถิ่นที่จำกัดช่วยให้ $game_concept_rulers$ สามารถยึดครองดินแดนขนาดเล็ก พิชิตหรือ ทำให้เป้าหมายของพวกเขาเป็นข้าในบังคับได้\n\nเนื่องจาก $game_concept_struggle_conquest_conquests$ ขึ้นอยู่กับสภาพแวดล้อมของ $game_concept_struggle$ ของพวกเขา ค่าใช้จ่าย [prestige|E] จึงปรับตาม $game_concept_struggle_phase$ ปัจจุบัน"
+
+ game_concept_struggle_phase_iberia_opportunity:1 "ระยะแห่งโอกาส"
+ game_concept_struggle_phase_iberia_opportunity_desc:2 "หลังจากช่วงเวลาที่ค่อนข้างสงบสุขของการอยู่ร่วมกันในช่วง [struggle_phase_iberia_conciliation|E] ความชะล่าใจก็เริ่มเข้ามา ชาวนาและขุนนางต่างก็สบายใจว่าสิ่งต่างๆ #EMP ดำเนินไปได้#! ทำให้ [characters|E] ที่ฉลาดกว่าสามารถใช้ประโยชน์จากความไร้เดียงสาของพวกเขาได้\n\nในที่สุด การละเมิดครั้งใหม่จะ ทำให้สถานการณ์บานปลายไปสู่ [struggle_phase_iberia_hostility|E] หรือ มิฉะนั้น การเมืองที่ชาญฉลาดจะบรรลุจุดสมดุลที่ไม่มั่นคงผ่าน [struggle_phase_iberia_conciliation|E]"
+
+ game_concept_struggle_phase_iberia_hostility:1 "ระยะแห่งความเป็นปรปักษ์"
+ game_concept_struggle_phase_iberia_hostility_desc:2 "ความตึงเครียดปะทุและอารมณ์เดือดพล่านใน $game_concept_struggle_phase_phase$ นี้ การกระทำที่มุ่งร้ายซ้ำๆ และความเข้าใจผิดที่บานปลายในช่วง [struggle_phase_iberia_opportunity|E] ได้นำไปสู่ความเกลียดชังที่เพิ่มขึ้นต่อ [characters|E] ที่มี [cultures|E], [faiths|E] หรือ #EMP ที่แย่กว่านั้น#!: ทั้งสองอย่าง\n\nอย่างไรก็ตาม การนองเลือด เช่นนี้ไม่สามารถคงอยู่ตลอดไปได้ ในที่สุด ไม่ว่าจะเป็นความคิดที่เยือกเย็นลงหรือความเหนื่อยล้าธรรมดาๆ ก็จะนำคาบสมุทรไปสู่ [struggle_phase_iberia_compromise|E]"
+
+ game_concept_struggle_phase_iberia_compromise:1 "ระยะแห่งการประนีประนอม"
+ game_concept_struggle_phase_iberia_compromise_desc:2 "ไม่ว่าจะผ่านความเบื่อหน่ายกับความขัดแย้งของ [struggle_phase_iberia_hostility|E] หรือการบานปลายอย่างชำนาญในช่วง [struggle_phase_iberia_conciliation|E] $game_concept_struggle_phase_iberia_compromise$ แสดงถึงการปรับตัวที่เพิ่มขึ้นระหว่างผู้คนในไอบีเรีย ความแตกต่างถูกละเลยไป และประวัติศาสตร์และมรดกร่วมกันผูกมัดอดีตศัตรูเข้าด้วยกัน\n\nคาบสมุทรยืนอยู่ที่ทางแยก: หากความขัดแย้งปรากฏขึ้นอีกครั้ง [struggle_phase_iberia_opportunity|E] ก็รออยู่"
+
+ game_concept_struggle_phase_iberia_conciliation:1 "ระยะแห่งการสมานฉันท์"
+ game_concept_struggle_phase_iberia_conciliation_desc:1 "ผลผลิตของ [struggle_phase_iberia_compromise|E] ที่น่าสังเกต ในช่วง $game_concept_struggle_phase_phase$ นี้ ความสัมพันธ์ระหว่างผู้คนในไอบีเรียเติบโตอย่างเป็นมิตรจนคนนอกพบว่าการอนุญาตของพวกเขายากที่จะเข้าใจ การ [marriages|E] ระหว่าง [faith|E] เป็นเรื่องปกติโดยเฉพาะ\n\nอย่างไรก็ตาม สิ่งนี้ไม่สามารถคงอยู่ตลอดไปได้ และการละเมิดความไว้วางใจในที่สุดจะนำ [iberian_struggle|E] กลับมาสู่ [struggle_phase_iberia_compromise|E]"
+
+ game_concept_struggle_involved_faith:0 "ศรัทธาที่เกี่ยวข้อง"
+ game_concept_struggle_involved_faiths:0 "ศรัทธาที่เกี่ยวข้อง"
+ game_concept_struggle_involved_faith_desc:0 "บาง [faiths|E] เริ่มต้นโดย [struggle_involved|E] ใน [struggle|E] อยู่แล้ว ศรัทธาอื่น ๆ อาจเข้ามาเกี่ยวข้อง เนื่องจากสถานการณ์ที่เปลี่ยนแปลงไป"
+
+ game_concept_struggle_involved_culture:0 "วัฒนธรรมที่เกี่ยวข้อง"
+ game_concept_struggle_involved_cultures:0 "วัฒนธรรมที่เกี่ยวข้อง"
+ game_concept_struggle_involved_culture_desc:0 "บาง [cultures|E] เริ่มต้นโดย [struggle_involved|E] ใน [struggle|E] อยู่แล้ว วัฒนธรรมอื่น ๆ อาจเข้ามาเกี่ยวข้อง เนื่องจากสถานการณ์ที่เปลี่ยนแปลงไป"
+
+ game_concept_dissolution_faction:0 "คณะล้มล้างอาณาจักร"
+ game_concept_dissolution_factions:0 "คณะล้มล้างอาณาจักร"
+ game_concept_faction_dissolution:0 "การล้มล้างอาณาจักร"
+ game_concept_dissolution_faction_dissolved: "ถูกล้มล้าง"
+ game_concept_dissolution_faction_desc:0 "[dissolution_faction|E] พยายามที่จะทำลาย [realm|E] ของ [liege|E] ของพวกเขา หากพวกเขาประสบความสำเร็จ ข้าในบังคับทั้งหมดในอาณาจักรจะกลายเป็น [independent|E] และเจ้าเหนือหัวของพวกเขาจะสูญเสีย [primary_title|E] ของพวกเขา"
+
+ 
+ game_concept_improve_city_province_decision:0 "การตัดสินใจ $improve_city_province_decision_name$"
+ game_concept_improve_city_province_decision_desc:0 "[decision|E] ที่ช่วยให้ท่านสามารถเพิ่มจำนวน [buildings|E] ที่มีอยู่ใน [city_holding|E]"
+
+ game_concept_border_raid:0 "การปล้นสะดมชายแดน"
+ game_concept_border_raids:0 "การปล้นสะดมชายแดน"
+ game_concept_border_raiding:0 "การปล้นสะดมชายแดน"
+ game_concept_border_raid_desc:3 "นี่คือประเภทพิเศษของ [war|E] ที่มีอยู่ระหว่าง [rulers|E] ที่ [struggle_involved|E] ของ [struggle|E] ในไอบีเรีย ซึ่งผู้โจมตีมีเป้าหมายที่จะ [siege|E] [county|E] ของศัตรูที่เฉพาะเจาะจง ซึ่งมีพรมแดนติดกับ [realm|E] ของตน\n\n[war_leader|E] ได้รับ [gold|E] จากการยึด [war_target|E] ซึ่งจะสูญเสีย [development|E] และ [control|E] [buildings|E] อาจถูกทำลายไปด้วย ทำให้ได้ [gold|E] มากขึ้น โอกาสจะเพิ่มขึ้นตาม [development|E] และขนาด [army|E] [siege|E]\n\n[war_score|E] จะเพิ่มขึ้นอย่างรวดเร็วโดยผู้โจมตีเมื่อ [occupying|E] [war_target|E]"
+
+ game_concept_bargain_fealty:0 "การต่อรองความภักดี"
+ game_concept_bargained_fealty:0 "ความภักดีที่ต่อรองได้"
+ game_concept_bargain_fealty_desc:3 "[interaction|E] พิเศษนี้มีให้สำหรับ [rulers|E] ที่ [struggle_involved|E] ซึ่งอยู่ใน [war|E] ป้องกัน\n\n[war_leader|E] ขอให้ [ruler|E] ที่มี [rank|E] สูงกว่า ซึ่งอยู่ใกล้เคียงเข้าร่วมสงครามของตนเพื่อแลกกับการเป็น [vassal|E] ของพวกเขา"
+
+ game_concept_contract_assistance:0 "ความช่วยเหลือทางทหาร"
+ game_concept_contract_assisting: "การช่วยเหลือทางทหาร"
+ game_concept_contract_assistance_desc:2 "นี่คือประเภทพิเศษของ [interaction|E] ที่มีให้สำหรับ [rulers|E] ที่ [struggle_involved|E] ของ [struggle|E] ในไอบีเรีย ทำให้พวกเขาสามารถเข้าร่วม [wars|E] ของ [rulerpossessive|E] อื่น ๆ ที่ [struggle_involved|E] เพื่อแลกกับ [gold|E]\n\nการชำระเงินจะทำเมื่อสิ้นสุด [war|E] ไม่ว่าผลจะเป็นอย่างไร ตราบใดที่ผู้รับจ้างมี [war_contribution|E] อย่างน้อย 100"
+ 
+ game_concept_iberian_reclamation:0 "การทวงคืนไอบีเรีย"
+ game_concept_iberian_reclaiming:0 "การทวงคืนไอบีเรีย"
+ game_concept_iberian_reclamations:0 "การทวงคืนไอบีเรีย"
+ game_concept_iberian_reclamation_desc:2 "นี่คือประเภทพิเศษของ [war|E] ที่มีให้สำหรับ [rulers|E] ที่ [struggle_involved|E] ของ [iberian_struggle|E]\n\nผู้โจมตีมีเป้าหมายที่จะพิชิต [duchy|E] ซึ่งมี [counties|E] ใด ๆ ที่ [struggle_involved|E] ซึ่งถือครองโดย [ruler|E] ที่เป็น [struggle_interloper|E] หรือ [struggle_uninvolved|E] หรือ [vassalize|E] พวกเขาหากพวกเขาไม่มีดินแดนนอกดัชชีนั้น"
+
+ game_concept_enforce_truce:0 "บังคับใช้สัญญาสงบศึก"
+ game_concept_enforced_truce:0 "สัญญาสงบศึกที่ถูกบังคับใช้"
+ game_concept_enforce_truce_desc:2 "นี่คือประเภทพิเศษของ [interaction|E] ที่มีให้สำหรับ [rulers|E] ที่ [struggle_involved|E] ซึ่งยุติ [war|E] ด้วย [white_peace|E] และสร้าง [truces|E]\n\nอาจใช้ได้เฉพาะเพื่อยุติสงครามระหว่าง [rulers|E] อื่น ๆ ที่ [struggle_involved|E] ซึ่งมี [rank|E] ต่ำกว่า โดยที่อย่างน้อยฝ่ายหนึ่งเป็น [independent|E] หรือเป็นส่วนหนึ่งของ [realm|E] เดียวกัน"
+
+ game_concept_incite_revolts_interaction:1 "ยุยงให้เกิดกบฏ"
+ game_concept_incite_revolts_interaction_desc:1 "อนุญาตให้ลงทุน [gold_i][gold|E] เพื่อกระตุ้น [peasant_faction|E] ใน [realm|E] อื่น หากพวกเขามี [counties|E] ที่มี [county_opinion|E] ติดลบ"
+
+ game_concept_secure_iberian_foothold_decision:0 "$secure_iberian_foothold_decision_title$"
+ game_concept_secure_iberian_foothold_decision_desc:1 "[decision|E] ที่อนุญาตให้ [ruler|E] ที่ไม่ [struggle_involved|E] ยุติ [iberian_struggle|E]"
+
+ game_concept_golden_age_jewish_science_in_iberia_decision:0 "$golden_age_jewish_science_in_iberia_decision$"
+ game_concept_golden_age_jewish_science_in_iberia_decision_desc:1 "[decision|E] ที่ท่านสนับสนุนนักวิชาการชาวยิวในท้องถิ่นและเก็บเกี่ยวผลประโยชน์"
+
+ game_concept_build_holy_pilgrim_roads_decision:0 "$build_holy_pilgrim_roads_decision$"
+ game_concept_build_holy_pilgrim_roads_decision_desc:1 "[decision|E] ที่ท่านสร้างถนนเพื่ออำนวยความสะดวกให้กับผู้แสวงบุญ"
+
+ game_concept_purchase_truce_interaction:0 "$purchase_truce_interaction$"
+ game_concept_purchase_truce_interaction_desc:1 "[interaction|E] ที่อนุญาตให้ซื้อ [truces|E] ล่วงหน้าเพื่อแลกกับ [gold_i][gold|E]"
+

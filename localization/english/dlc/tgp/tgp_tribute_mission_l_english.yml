@@ -1,0 +1,186 @@
+﻿l_english: 
+ #The Decision
+
+ tribute_mission_decision: "ถวายบรรณาการ"
+ tribute_mission_decision_mandala: "$tribute_mission_decision$ แด่ [ROOT.Char.GetSuzerain.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ tribute_mission_decision_china: "ถวายบังคมแด่ [GetTitleByKey('h_china').GetNameNoTierNoTooltip]"
+ tribute_mission_decision_roman_empire: "$tribute_mission_decision$ แด่ [GetTitleByKey('h_roman_empire').GetNameNoTierNoTooltip]"
+ tribute_mission_decision_eastern_roman_empire: "$tribute_mission_decision$ แด่ [GetTitleByKey('h_eastern_roman_empire').GetNameNoTierNoTooltip]"
+ tribute_mission_decision_dar_al_islam: "$tribute_mission_decision$ แด่ [GetTitleByKey('h_dar_al_islam').GetNameNoTierNoTooltip]"
+ tribute_mission_decision_india: "$tribute_mission_decision$ แด่ [GetTitleByKey('h_india').GetNameNoTierNoTooltip]"
+
+ tribute_mission_decision_desc_mandala: "ถึงเวลาแล้วที่เราจะแสดงความเคารพ และถวายบรรณาการ แด่ [ROOT.Char.Custom2('RelationToMe', ROOT.Char.GetOverlord )] [ROOT.Char.GetOverlord.GetTitledFirstName] ผู้สูงศักดิ์ของเรา การแสดงจุดยืนอันใกล้ชิดของเรากับ [ROOT.Char.GetOverlord.GetTitleAsNameNoTooltip] นั้น จะช่วยเสริมสร้างความชอบธรรมของเรา และอาจนำมา ซึ่งผลประโยชน์อื่น ๆ อีกด้วย..."
+ tribute_mission_decision_hegemony_common: "ปรากฏเด่นชัดอยู่บนขอบฟ้าของเรา เรียกร้องให้เราแสดงความนบนอบอย่างเงียบงัน การส่งบรรณาการนั้น จะช่วยเสริมสร้างความชอบธรรมของเรา และอาจนำมา ซึ่งผลประโยชน์อื่น ๆ อีกด้วย..."
+ tribute_mission_decision_desc_china: "[GetTitleByKey('h_china').GetHolder.GetTitleAsName] แห่ง [GetTitleByKey('h_china').GetDefinitiveName] $tribute_mission_decision_hegemony_common$"
+ tribute_mission_decision_desc_roman_empire: "[GetTitleByKey('h_roman_empire').GetHolder.GetTitleAsName] แห่ง [GetTitleByKey('h_roman_empire').GetDefinitiveName] $tribute_mission_decision_hegemony_common$"
+ tribute_mission_decision_desc_eastern_roman_empire: "[GetTitleByKey('h_eastern_roman_empire').GetHolder.GetTitleAsName] แห่ง [GetTitleByKey('h_eastern_roman_empire').GetDefinitiveName] $tribute_mission_decision_hegemony_common$"
+ tribute_mission_decision_desc_dar_al_islam: "[GetTitleByKey('h_dar_al_islam').GetHolder.GetTitleAsName] แห่ง [GetTitleByKey('h_dar_al_islam').GetDefinitiveName] $tribute_mission_decision_hegemony_common$"
+ tribute_mission_decision_desc_india: "[GetTitleByKey('h_india').GetHolder.GetTitleAsName] แห่ง [GetTitleByKey('h_india').GetDefinitiveName]  $tribute_mission_decision_hegemony_common$"
+
+ tribute_mission_decision_tooltip: "ดำเนิน [tribute_mission|E]"
+ tribute_mission_decision_mandala_tooltip: "$tribute_mission_decision_tooltip$"
+ tribute_mission_decision_china_tooltip: "$tribute_mission_decision_tooltip$"
+ tribute_mission_decision_roman_empire_tooltip: "$tribute_mission_decision_tooltip$"
+ tribute_mission_decision_eastern_roman_empire_tooltip: "$tribute_mission_decision_tooltip$"
+ tribute_mission_decision_dar_al_islam_tooltip: "$tribute_mission_decision_tooltip$"
+ tribute_mission_decision_india_tooltip: "$tribute_mission_decision_tooltip$"
+
+ tribute_mission_decision_confirm: "ระบุเครื่องบรรณาการ"
+ tribute_mission_decision_mandala_confirm: "$tribute_mission_decision_confirm$"
+ tribute_mission_decision_china_confirm: "$tribute_mission_decision_confirm$"
+ tribute_mission_decision_roman_empire_confirm: "$tribute_mission_decision_confirm$"
+ tribute_mission_decision_eastern_roman_empire_confirm: "$tribute_mission_decision_confirm$"
+ tribute_mission_decision_dar_al_islam_confirm: "$tribute_mission_decision_confirm$"
+ tribute_mission_decision_india_confirm: "$tribute_mission_decision_confirm$"
+
+ tribute_mission_decision_effects_mandala_tt: "ท่าน [travel|E] ไปยัง [court|E] ของ [THIS.Char.GetSuzerain.GetTitledFirstNamePossessive] เพื่อส่งมอบ [tribute|E] ของท่าน"
+ tribute_mission_decision_effects_china_tt: "ท่าน [travel|E] ไปยัง [court|E] ของ [GetTitleByKey('h_china').GetHolder.GetTitledFirstNamePossessive] เพื่อส่งมอบ [tribute|E] ของท่าน"
+ tribute_mission_decision_effects_roman_empire_tt: "ท่าน [travel|E] ไปยัง [court|E] ของ [GetTitleByKey('h_roman_empire').GetHolder.GetTitledFirstNamePossessive] เพื่อส่งมอบ [tribute|E] ของท่าน"
+ tribute_mission_decision_effects_eastern_roman_empire_tt: "ท่าน [travel|E] ไปยัง [court|E] ของ [GetTitleByKey('h_eastern_roman_empire').GetHolder.GetTitledFirstNamePossessive] เพื่อส่งมอบ [tribute|E] ของท่าน"
+ tribute_mission_decision_effects_dar_al_islam_tt: "ท่าน [travel|E] ไปยัง [court|E] ของ [GetTitleByKey('h_dar_al_islam').GetHolder.GetTitledFirstNamePossessive] เพื่อส่งมอบ [tribute|E] ของท่าน"
+ tribute_mission_decision_effects_india_tt: "ท่าน [travel|E] ไปยัง [court|E] ของ [GetTitleByKey('h_india').GetHolder.GetTitledFirstNamePossessive] เพื่อส่งมอบ [tribute|E] ของท่าน"
+
+ tribute_mission_interaction_anticipated_rewards_tt_subject_standing: "รางวัลที่คาดว่าจะได้รับ:\n$BULLET_WITH_TAB$ [ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][GetPlayer.Custom('SubjectStanding')] เพิ่มเติม"
+ tribute_mission_interaction_anticipated_rewards_tt_generic_hegemon: "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$tribute_mission_interaction_anticipated_rewards_tt_suzerain$"
+ tribute_mission_interaction_anticipated_rewards_tt_imperial_grace: "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$tribute_mission_interaction_anticipated_rewards_tt_suzerain$\n$tribute_mission_interaction_anticipated_rewards_tt_seal_of_investiture$"
+ tribute_mission_interaction_anticipated_rewards_tt_seal_of_investiture: "$BULLET_WITH_TAB$[GetPlayer.Custom('SealOfInvestitureChance')]"
+ tribute_mission_interaction_anticipated_rewards_tt: "รางวัลที่คาดว่าจะได้รับ:\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$tribute_mission_interaction_anticipated_rewards_tt_suzerain$"
+ tribute_mission_interaction_anticipated_rewards_tt_common: "$BULLET_WITH_TAB$[legitimacy_i][legitimacy|E]\n$BULLET_WITH_TAB$[opinion_i] [opinion|E]\n$BULLET_WITH_TAB$อาจค้นพบ @innovation_icon![innovations|E] ใหม่ ๆ เพื่อปลดล็อก\n$BULLET_WITH_TAB$อาจได้รับความคืบหน้า @fascination_icon! [fascination|E]"
+ tribute_mission_interaction_anticipated_rewards_tt_suzerain: "$BULLET_WITH_TAB$อาจได้รับ [artifact_i][artifact|E] [THIS.Char.GetOverlord.GetCulture.GetNameNoTooltip]\n$BULLET_WITH_TAB$อาจได้รับ @skill_learning_icon! นักบวช [THIS.Char.GetOverlord.GetFaith.GetNameNoTooltip]"
+ tribute_mission_interaction_anticipated_rewards_tt_china: "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$BULLET_WITH_TAB$อาจได้รับ [artifact_i][artifact|E] [GetTitleByKey('h_china').GetHolder.GetCulture.GetNameNoTooltip]\n$BULLET_WITH_TAB$อาจได้รับ @skill_learning_icon! นักบวช [GetTitleByKey('h_china').GetHolder.GetFaith.GetNameNoTooltip]"
+ tribute_mission_interaction_anticipated_rewards_tt_roman_empire: "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$BULLET_WITH_TAB$อาจได้รับ [artifact_i][artifact|E] [GetTitleByKey('h_roman_empire').GetHolder.GetCulture.GetNameNoTooltip]\n$BULLET_WITH_TAB$อาจได้รับ @skill_learning_icon! นักบวช [GetTitleByKey('h_roman_empire').GetHolder.GetFaith.GetNameNoTooltip]"
+ tribute_mission_interaction_anticipated_rewards_tt_eastern_roman_empire: "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$BULLET_WITH_TAB$อาจได้รับ [artifact_i][artifact|E] [GetTitleByKey('h_eastern_roman_empire').GetHolder.GetCulture.GetNameNoTooltip]\n$BULLET_WITH_TAB$อาจได้รับ @skill_learning_icon! นักบวช [GetTitleByKey('h_eastern_roman_empire').GetHolder.GetFaith.GetNameNoTooltip]"
+ tribute_mission_interaction_anticipated_rewards_tt_dar_al_islam: "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$BULLET_WITH_TAB$อาจได้รับ [artifact_i][artifact|E] [GetTitleByKey('h_dar_al_islam').GetHolder.GetCulture.GetNameNoTooltip]\n$BULLET_WITH_TAB$อาจได้รับ @skill_learning_icon! นักบวช [GetTitleByKey('h_dar_al_islam').GetHolder.GetFaith.GetNameNoTooltip]"
+ tribute_mission_interaction_anticipated_rewards_tt_india: "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$BULLET_WITH_TAB$อาจได้รับ [artifact_i][artifact|E] [GetTitleByKey('h_india').GetHolder.GetCulture.GetNameNoTooltip]\n$BULLET_WITH_TAB$อาจได้รับ @skill_learning_icon! นักบวช [GetTitleByKey('h_india').GetHolder.GetFaith.GetNameNoTooltip]"
+ tribute_mission_grace_tt: "#weak [tributary_mission|E] จะไม่สามารถใช้ได้เป็นเวลา #V [SCOPE.ScriptValue('tribute_mission_cooldown_years')]#! ปี#!"
+ 
+ neighboring_hegemon_title_china: "[GetTitleByKey('h_china').GetHolder.GetTitleAsNameNoTooltip]"
+ neighboring_hegemon_title_roman_empire: "[GetTitleByKey('h_roman_empire').GetHolder.GetTitleAsNameNoTooltip]"
+ neighboring_hegemon_title_eastern_roman_empire: "[GetTitleByKey('h_eastern_roman_empire').GetHolder.GetTitleAsNameNoTooltip]"
+ neighboring_hegemon_title_dar_al_islam: "[GetTitleByKey('h_dar_al_islam').GetHolder.GetTitleAsNameNoTooltip]"
+ neighboring_hegemon_title_india: "[GetTitleByKey('h_india').GetHolder.GetTitleAsNameNoTooltip]"
+ neighboring_hegemon_definitive_name_china: "[GetTitleByKey('h_china').GetDefinitiveNameNoTooltip]"
+ neighboring_hegemon_definitive_name_roman_empire: "[GetTitleByKey('h_roman_empire').GetDefinitiveNameNoTooltip]"
+ neighboring_hegemon_definitive_name_eastern_roman_empire: "[GetTitleByKey('h_eastern_roman_empire').GetDefinitiveNameNoTooltip]"
+ neighboring_hegemon_definitive_name_dar_al_islam: "[GetTitleByKey('h_dar_al_islam').GetDefinitiveNameNoTooltip]"
+ neighboring_hegemon_definitive_name_india: "[GetTitleByKey('h_india').GetDefinitiveNameNoTooltip]"
+
+ IMPERIAL_GRACE_PLAYER_CHOICE_SEAL_OF_INVESTITURE: "[GetPlayer.GetOverlord.GetShortUIName] อาจพระราชทาน [seal_of_investiture|E] แก่ท่าน"
+ IMPERIAL_GRACE_NO_CHANCE_SEAL_OF_INVESTITURE: "จะ #tooltip:NO_CHANCE_SEAL_OF_INVESTITURE_TT #E ไม่#!#! ได้รับการพระราชทาน [seal_of_investiture|E]"
+ IMPERIAL_GRACE_SMALL_CHANCE_SEAL_OF_INVESTITURE: "#tooltip:CHANCE_SEAL_OF_INVESTITURE_TT #E อาจจะ#!#! ได้รับการพระราชทาน [seal_of_investiture|E]"
+ IMPERIAL_GRACE_MEDIUM_CHANCE_SEAL_OF_INVESTITURE: "#tooltip:CHANCE_SEAL_OF_INVESTITURE_TT #E อาจ#!#! ได้รับการพระราชทาน [seal_of_investiture|E]"
+ IMPERIAL_GRACE_HIGH_CHANCE_SEAL_OF_INVESTITURE: "จะ #tooltip:CHANCE_SEAL_OF_INVESTITURE_TT #E มีแนวโน้ม#!#! ได้รับการพระราชทาน [seal_of_investiture|E]"
+ IMPERIAL_GRACE_WILL_GET_SEAL_OF_INVESTITURE: "จะ #tooltip:WILL_GET_SEAL_OF_INVESTITURE_TT #E ได้รับ#!#! การพระราชทาน [seal_of_investiture|E]"
+
+ NO_CHANCE_SEAL_OF_INVESTITURE_TT: "[title|E] [GetPlayer.GetTitleAsName] ของท่าน ต้องการ [imperial_grace|E] ของท่าน อย่างน้อย [ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][GetPlayer.MakeScope.ScriptValue('seal_of_investiture_minimum_subject_standing')|v0] (ปัจจุบัน [ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][GetPlayer.GetSubjectContract.GetSubjectStanding|v0]) เพื่อรับสิทธิ์ [seal_of_investiture|E] ในภารกิจนี้"
+ CHANCE_SEAL_OF_INVESTITURE_TT: "[imperial_grace|E] [ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][GetPlayer.GetSubjectContract.GetSubjectStanding|v0] ของท่าน มอบโอกาส [GetPlayer.MakeScope.ScriptValue('tribute_mission_chance_to_receive_seal_of_investiture')|v%0] ที่จะได้รับ [seal_of_investiture|E] ในภารกิจนี้"
+ WILL_GET_SEAL_OF_INVESTITURE_TT: "[imperial_grace|E] [ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][GetPlayer.GetSubjectContract.GetSubjectStanding|v0] ของท่าน รับประกันว่าท่านจะได้รับ [seal_of_investiture|E] ในภารกิจนี้"
+
+ tribute_mission_invalidated: "ภารกิจบรรณาการถูกยกเลิก"
+ tribute_mission_invalidated_desc: "ภารกิจบรรณาการถูกยกเลิก"
+ tribute_mission_costs_refunded: "คืนค่าใช้จ่ายเครื่องบรรณาการแล้ว"
+
+ tribute_mission_notification.title: "การถวายบรรณาการโดย [tributary_scope.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ tribute_mission_notification.desc: "[tributary_scope.GetShortUIName|U] ได้ดำเนิน [tribute_mission|E] และถวายเครื่องบรรณาการที่ [court|E] ของท่าน"
+
+ tribute_mission.new_tributary.title: "[tributary_scope.GetPrimaryTitle.GetNameNoTierNoTooltip] ถวายบรรณาการ"
+ tribute_mission.new_tributary.desc: "[tributary_scope.GetShortUIName|U] สาบานว่าจะเป็น [tributary|E] ของท่าน พร้อมส่งมอบ [tribute|E] ให้แก่ท่าน"
+ 
+ qualifies_for_tribute_mission_trigger: "ท่านไม่มี [tribute|E] ที่ถูกต้องใด ๆ"
+ qualifies_for_tribute_mission_gold_trigger: "ท่านไม่มี @gold_icon! [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_value')|0]"
+ qualifies_for_tribute_mission_gold_or_herd_trigger: "ท่านมี [tribute|E] ที่คาดหวังไม่เพียงพอ ท่านจำเป็นต้องมี @gold_icon! [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_value')|0] หรือ @herd_icon! [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_herd_value')|0]"
+ tribute_mission_decision.already_on_mission: "ท่านกำลังดำเนิน [tribute_mission|E] อยู่แล้ว"
+ suzerain_is_china: "[GetTitleByKey('h_china').GetHolder.GetShortUIName|U] คือ [suzerain|E] ของ [ROOT.Char.GetShortUINamePossessive]"
+ neighbor_is_china: "[ROOT.Char.GetShortUIName|U] [CharAreIs(ROOT.Char)] [ruler|E] [independent|E] ที่อยู่ติดกับ [GetTitleByKey('h_china').GetDefinitiveName]"
+ null: ""
+ neighbor_is_hegemony: "[ROOT.Char.GetShortUIName|U] [CharAreIs(ROOT.Char)] [ruler|E] [independent|E] ที่อยู่ติดกับ [hegemony]"
+ #tribute_mission_decision.tribute_mission_grace: "You have paid [tribute|E] recently, [GetPlayer.Custom('TributeMissionDecision')] will be available again on [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'tribute_mission_grace') )]"
+ 
+ tribute_mission_gold: "$petition_liege_gold$"
+ tribute_mission_gold_tooltip: "เลือกจำนวน [gold|E] ที่จะถวายเป็นเครื่องบรรณาการ"
+ tribute_mission_decision_option_gold: "$petition_liege_gold$\n#low ถวาย @gold_icon![gold|E]#!"
+ 
+ tribute_mission_herd: "ฝูงสัตว์"
+ tribute_mission_herd_tooltip: "เลือกจำนวน [herd|E] ที่จะถวายเป็นเครื่องบรรณาการ"
+ tribute_mission_decision_option_herd: "$game_concept_herd$\n#low ถวาย @herd_icon![herd|E]#!"
+ 
+ tribute_mission_artifact: "สิ่งประดิษฐ์"
+ tribute_mission_artifact_tooltip: "เลือก [artifact|E] เพื่อถวายเป็นเครื่องบรรณาการ"
+ tribute_mission_decision_option_artifact: "$game_concept_artifact$\n#low ถวาย @artifact_icon![artifact|E]#!"
+ 
+ tribute_mission_concubine: "นางสนม"
+ tribute_mission_concubine_tooltip: "เลือก [courtier|E] เพื่อส่งไปเป็นเครื่องบรรณาการ [concubine|E]"
+ tribute_mission_decision_option_concubine: "$game_concept_concubine$\n#low ถวาย @concubine_icon![concubine|E]#!"
+ 
+ tribute_mission_eunuch: "ขันที"
+ tribute_mission_eunuch_tooltip: "เลือก [courtier|E] เพื่อส่งไปเป็นเครื่องบรรณาการ [GetTrait('eunuch_1').GetName( GetNullCharacter )]"
+ tribute_mission_decision_option_eunuch: "$trait_eunuch$\n#low ถวาย @eunuch_icon![GetTrait('eunuch_1').GetName( GetNullCharacter )]#!"
+ 
+ tribute_mission_bunga_mas: "บุหงามาศ"
+ tribute_mission_bunga_mas_tooltip: "เลือก [Glossary( 'บุงงามัส', 'BUNGA_MAS_GLOSS' )] เพื่อถวายเป็นบรรณาการ"
+ tribute_mission_decision_option_bunga_mas: "$tribute_mission_bunga_mas$\n#low Offer a @bunga_mas_icon![Glossary( 'บุงงามัส', 'BUNGA_MAS_GLOSS' )]#!"
+ 
+ 
+ CHOOSE_TRIBUTE_DECISION_NEXT_STEP_BUTTON: "เลือกประเภทเครื่องบรรณาการ"
+ PAY_TRIBUTE_DECISION_SELECT_TRIBUTE_TITLE: "เลือก [tribute|E]"
+ 
+ imperial_grace_tribute_gold_tooltip: "นำ [tribute] @gold_icon! [gold|E] ที่คาดหวังมาด้วย\n\n$imperial_grace_tribute_common_tooltip$"
+ imperial_grace_tribute_herd_tooltip: "นำ [tribute] @herd_icon! [herd|E] ที่คาดหวังมาด้วย\n\n$imperial_grace_tribute_common_tooltip$"
+ tribute_mission_expected_gold: "[tribute] ที่คาดหวัง @gold_icon! [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_value')|v0] [gold|E]"
+ tribute_mission_expected_herd: "[tribute] ที่คาดหวัง @herd_icon! [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_herd_value')|v0] [herd|E]"
+
+ imperial_grace_tribute_common_tooltip: "#weak จำนวน $game_concept_tribute$ ที่คาดหวังจากท่านจะเพิ่มขึ้นตาม [GetPlayer.Custom('SubjectStanding')] ของท่าน ซึ่งปัจจุบันคือ [GetPlayer.GetSubjectContract.GetSubjectStanding|v0]\n\nเพื่อปรับปรุงการต้อนรับ ท่านสามารถเลือกที่จะส่ง $game_concept_tribute$ เพิ่มเติม นอกเหนือจากความคาดหวังขั้นต่ำได้#!"
+
+
+
+ #The (hidden) Character Interactions
+ tribute_mission_hegemonic_extras_interaction: "เลือกเครื่องบรรณาการ"
+ no_extra_tribute: "นำมาเพียง [tribute|E] ที่คาดหวัง"
+ extra_gold_tribute: "ถวาย @gold_icon! [gold|E] เพิ่มเติม"
+ extra_herd_tribute: "ถวาย @herd_icon! [herd|E] เพิ่มเติม"
+ extra_concubine_tribute: "ถวาย [concubine|E]"
+ extra_eunuch_tribute: "ถวาย [GetTrait('eunuch_1').GetName( GetNullCharacter )]"
+
+ tribute_mission.travel_to.tt: "เริ่มเดินทางไปยัง [capital|E] ของ [recipient.GetShortUINamePossessive] ใน [recipient.GetCapitalLocation.GetName]"
+ tribute_mission_gold_interaction: "เลือกเครื่องบรรณาการทองคำ"
+ 
+ small_gold_tribute: "เครื่องบรรณาการ @gold_icon! จำนวนเล็กน้อย"
+ tribute_mission_gold_interaction.small_reserved_gold: "#weak สงวน @gold_icon!#V [Add_CFixedPoint(actor.MakeScope.Var('offered_gold_value').GetValue,actor.MakeScope.ScriptValue('small_gold_tribute_value'))|v0]#! ไว้สำหรับ [tribute|E]#!"
+ adequate_gold_tribute: "เครื่องบรรณาการ @gold_icon! จำนวนพอเหมาะ"
+ tribute_mission_gold_interaction.adequate_reserved_gold: "#weak สงวน @gold_icon!#V [Add_CFixedPoint(actor.MakeScope.Var('offered_gold_value').GetValue,actor.MakeScope.ScriptValue('adequate_gold_tribute_value'))|v0]#! ไว้สำหรับ [tribute|E]#!"
+ excessive_gold_tribute: "เครื่องบรรณาการ @gold_icon! จำนวนมากเกิน"
+ tribute_mission_gold_interaction.excessive_reserved_gold: "#weak สงวน @gold_icon!#V [Add_CFixedPoint(actor.MakeScope.Var('offered_gold_value').GetValue,actor.MakeScope.ScriptValue('excessive_gold_tribute_value'))|v0]#! ไว้สำหรับ [tribute|E]#!"
+ 
+ tribute_mission_herd_interaction: "เลือกเครื่องบรรณาการฝูงสัตว์"
+
+ small_herd_tribute: "เครื่องบรรณาการ @herd_icon! จำนวนเล็กน้อย"
+ tribute_mission_herd_interaction.small_reserved_herd: "#weak สงวน @herd_icon!#V [Add_CFixedPoint(actor.MakeScope.Var('offered_herd_value').GetValue,actor.MakeScope.ScriptValue('small_herd_tribute_value'))|v0]#! ไว้สำหรับ [tribute|E]#!"
+ adequate_herd_tribute: "เครื่องบรรณาการ @herd_icon! จำนวนพอเหมาะ"
+ tribute_mission_herd_interaction.adequate_reserved_herd: "#weak สงวน @herd_icon!#V [Add_CFixedPoint(actor.MakeScope.Var('offered_herd_value').GetValue,actor.MakeScope.ScriptValue('adequate_herd_tribute_value'))|v0]#! ไว้สำหรับ [tribute|E]#!"
+ excessive_herd_tribute: "เครื่องบรรณาการ @herd_icon! จำนวนมากเกิน"
+ tribute_mission_herd_interaction.excessive_reserved_herd: "#weak สงวน @herd_icon!#V [Add_CFixedPoint(actor.MakeScope.Var('offered_herd_value').GetValue,actor.MakeScope.ScriptValue('excessive_herd_tribute_value'))|v0]#! ไว้สำหรับ [tribute|E]#!"
+
+ tribute_mission_artifact_interaction: "เลือกเครื่องบรรณาการสิ่งประดิษฐ์"
+ tribute_mission_artifact_interaction.tooltip: "#weak [target.GetName] จะถูกเลือกสำหรับ [tribute|E]#!"
+ tribute_mission_concubine_interaction.no_valid_artifacts: "ท่านไม่มี [artifacts|E] ที่เหมาะสมที่จะถวาย"
+
+ tribute_mission_concubine_interaction: "เลือกเครื่องบรรณาการนางสนม"
+ recipient_secondary_tribute_mission_concubine_interaction: "$recipient_secondary_offer_concubine$"
+ tribute_mission_concubine_interaction.tooltip: "[secondary_recipient.GetShortUIName] จะเข้าร่วม [court|E] ของ [recipient.GetShortUINamePossessive] โดยมีโอกาสที่จะได้เป็น [concubine|E]"
+ tribute_mission_concubine_interaction.no_valid_concubines: "ท่านไม่มี [courtiers|E] ใด ๆ ที่สามารถถวายตัวเป็น [concubine|E] ได้"
+ tribute_mission_concubine_interaction.overlord_no_use_concubines: "[GetPlayer.GetOverlord.GetShortUIName] ไม่สนใจ $game_concept_concubines$"
+
+ tribute_mission_eunuch_interaction: "เลือกเครื่องบรรณาการขันที"
+ recipient_secondary_tribute_mission_eunuch_interaction: "$recipient_secondary_offer_eunuch_interaction$"
+ tribute_mission_eunuch_interaction.tooltip: "[secondary_recipient.GetShortUIName] จะเข้าร่วม [court|E] ของ [recipient.GetShortUINamePossessive] ในฐานะ [GetTrait('eunuch_1').GetName( GetNullCharacter )]"
+ tribute_mission_eunuch_interaction.no_valid_eunuchs: "ท่านไม่มี [courtiers|E] ใด ๆ ที่สามารถถวายตัวเป็น [GetTrait('eunuch_1').GetName( GetNullCharacter )] ได้"
+ tribute_mission_concubine_interaction.overlord_no_use_eunuchs: "[GetPlayer.GetOverlord.GetShortUIName] ไม่สนใจขันที"
+ tribute_mission_eunuch_interaction.slated_for_castration: "#weak [secondary_recipient.GetShortUIName] อาจพยายามหลบหนีชะตากรรมของ [secondary_recipient.GetHerHis]#!"
+
+ tribute_mission_bunga_mas_interaction: "เลือกบรรณาการ [Glossary( 'บุงงามัส', 'BUNGA_MAS_GLOSS' )]"
+ tribute_mission_bunga_mas_interaction.tooltip: "$tribute_mission_artifact_interaction.tooltip$\n$EFFECT_LIST_BULLET$เมื่อส่งมอบ จะได้รับ [GetModifier('bunga_mas_tribute_modifier').GetNameWithTooltip]"
+ tribute_mission_bunga_mas_interaction.no_valid_bunga_mas: "ท่านไม่มี [Glossary( 'บุงงามัส', 'BUNGA_MAS_GLOSS' )] ที่ท่านสั่งทำขึ้นเองเพื่อถวาย"
+
+ bunga_mas_tribute_modifier: "บรรณาการบุหงามาศ"
+ bunga_mas_tribute_modifier_desc: "ตัวละครนี้เพิ่งถวายบรรณาการบุหงามาศแด่เจ้าเหนือหัวของตน"
+ modifier_definition_value_per_bunga_mas_streak: "\t#weak Increase per consecutive บุงงามัส gifted (max [EmptyScope.ScriptValue('bunga_mas_tribute_modifier_cap')])#!"

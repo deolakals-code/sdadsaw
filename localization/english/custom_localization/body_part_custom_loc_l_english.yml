@@ -1,0 +1,70 @@
+﻿l_english: 
+ handhands_hand:0 "มือ"
+ handhands_hands:0 "มือ"
+
+ fistfists_fist:0 "หมัด"
+ fistfists_fists:0 "หมัด"
+
+ armarms_arm:0 "แขน"
+ armarms_arms:0 "แขน"
+
+ footfeet_foot:0 "เท้า"
+ footfeet_feet:0 "เท้า"
+
+ eyeeyes_eye:0 "ดวงตา"
+ eyeeyes_eyes:0 "ดวงตา"
+
+ maskface_mask:0 "หน้ากาก"
+ maskface_face:0 "ใบหน้า"
+
+ # Grammatical Stuff
+ articleblank_article:0 ""
+ articleblank_articlevowel:0 ""
+
+ articleblank_blank:0 ""
+ articletwo_two: "สอง"
+
+ maskface_behind:0 "เบื้องหลัง" # Or หลัง
+ maskface_in:0 "ใน"
+ maskface_across:0 "พาดผ่าน" # Or ทั่ว
+
+ # Substitution Stuff
+ senseobserve_eye:0 "สายตา" # Context implies perception via eyes
+ senseobserve_taste:0 "รสชาติ" # Or การรับรส
+ senseobserve_sense: "สัมผัส" # Or ประสาทสัมผัส
+ senseobserve_see: "เห็น"
+ senseobserve_seem: "ดูเหมือน"
+ senseobserve_look: "มอง" # Or ดู
+ actiontaps_forehead: "หน้าผาก"
+ actiontaps_nose: "จมูก"
+ 
+ # Terms
+ partaglow_eyes: "ดวงตาดูเหมือนจะเรืองรอง"
+ partaglow_eye: "ดวงตาข้างหนึ่งดูเหมือนจะเรืองรอง"
+ partaglow_face: "ใบหน้าดูเหมือนจะเรืองรอง"
+ partaglow_body: "ร่างกายดูเหมือนจะเรืองรอง"
+ 
+ # Sayings
+ saying_1p_away: "ไปให้พ้นหน้าข้า"
+ saying_1p_sight: "ออกไปให้พ้นสายตาข้า"
+ saying_3p_seems: "ดูเหมือนจะยิ้ม"
+ saying_3p_smiles: "ยิ้ม"
+ saying_3p_aware: "ตระหนัก" # Or รู้ตัว
+ saying_3p_sight: "เหลือบเห็น" # Or มองเห็น
+
+ #frostbite event
+ bodypart_nose:0 "จมูก"
+ bodypart_ear:0 "ใบหู"
+ bodypart_ears:0 "ใบหู"
+ bodypart_finger:0 "นิ้วมือ"
+ bodypart_fingers:0 "นิ้วมือ"
+ bodypart_hand:0 "มือ"
+ bodypart_hands:0 "มือ"
+ bodypart_arm:0 "แขน"
+ bodypart_arms:0 "แขน"
+ bodypart_leg:0 "ขา"
+ bodypart_legs:0 "ขา"
+ bodypart_foot:0 "เท้า"
+ bodypart_feet:0 "เท้า"
+ bodypart_toe:0 "นิ้วเท้า"
+ bodypart_toes:0 "นิ้วเท้า"

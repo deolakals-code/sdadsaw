@@ -1,0 +1,106 @@
+﻿l_english: 
+ ### SETUP
+ activity_debate: "การโต้วาที"
+ activity_debate_plural: "การโต้วาที"
+ activity_debate_destination_selection: "ท่านสามารถจัด $activity_debate$ ได้เพียงใน [capital|E] ที่เป็นของท่าน, [movement_leader|E] ของท่าน, [liege|E] ของท่าน หรือ [GetTitleByKey('h_china').GetName] เท่านั้น"
+ activity_debate_selection_tooltip: "จงจัด [GetActivityType('activity_debate').GetName] เพื่อชิงอำนาจทางการเมือง — ยึดกุมอำนาจไว้เพื่อตนเองหรือขบวนการของท่าน $activity_debate_host_rewards$"
+ activity_debate_desc: "คุณธรรม, อิทธิพล, #EMP อำนาจ#! — สิ่งเหล่านี้จะมีความหมายเพียงเล็กน้อย หากท่านมิอาจนำเสนอข้อโต้แย้งอันสมเหตุสมผลเพื่อตัวท่านและอุดมการณ์ของท่านได้\n\nจงเรียกการโต้วาทีเพื่อโน้มน้าวผู้อื่นว่าท่านคู่ควร ซึ่งอำนาจที่มากขึ้น, หรือท้าทายขบวนการอื่นเพื่อวางตนให้อยู่ในจุดที่ได้เปรียบกว่า"
+ activity_debate_host_desc: "$activity_debate_host_rewards$$activity_debate_guest_rewards$"
+ activity_debate_host_rewards: "\n$BULLET_WITH_TAB$[movement_power_i] [movement_power|E]\n$BULLET_WITH_TAB$[influence_i|E] [influence|E]\n$BULLET_WITH_TAB$[merit_i|E] [merit|E]"
+ activity_debate_guest_desc: "\n$BULLET_WITH_TAB$อาจได้รับ [disciples|E]\n$BULLET_WITH_TAB$อาจเพิ่ม [trait_level_track_xp|E] ของ [GetTrait('confucian_education').GetName( GetNullCharacter )] ของท่าน"
+ activity_debate_guest_rewards: "\n$BULLET_WITH_TAB$ผู้เข้าร่วมอาจได้รับ [trait_level_track_xp|E] ของ [GetTrait('confucian_education').GetName( GetNullCharacter )]\n$BULLET_WITH_TAB$ผู้เข้าร่วมอาจได้รับ [elder|E]"
+ debate_base_cost: "ค่าใช้จ่ายพื้นฐาน"
+ activity_debate_predicted_cost: "ค่าใช้จ่ายโดยประมาณ"
+
+ activity_debate_host_an_a: ""
+
+ # Province Selection
+ activity_debate_province_kaifeng_palace_desc: "#P ++ $building_type_kaifeng_palace_01$#!"
+ activity_debate_province_desc_leader_capital_desc: "#P + [capital|E] of [GetSituation('dynastic_cycle').GetParticipantGroupByCharacter(host.Self).MakeScope.Var('movement_leader').Char.GetShortUIName|U] ( [movement_leader|E] ของท่าน)#!"
+ activity_debate_province_desc_liege_capital_desc: "#P + [capital|E] ของ [liege|E] ของท่าน#!"
+ debate_location_validity_desc: "มิใช่ [capital|E] ที่เป็นของท่าน, [movement_leader|E] ของท่าน, [liege|E] ของท่าน หรือ [GetTitleByKey('h_china').GetName]"
+
+ ### TOOLTIPS
+ activity_debate_guest_help_text: "[activity_guests|E] ที่ได้รับเชิญจะเข้าร่วมชมหรือมีส่วนร่วมในการโต้วาที การโต้แย้งที่สำเร็จผลจะให้ [movement_power|E], หรือลดทอนอำนาจจากขบวนการอื่น การเข้าร่วมการโต้วาทีถือเป็นโอกาสอันดีที่จะได้รับ [merit|E], เพิ่มพูน [trait_level_track_xp|E] ของ [GetTrait('confucian_education').GetName( GetNullCharacter )], และอาจได้รับ [elder|E]"
+ reached_disciple_limit: "ท่านมีศิษย์ครบจำนวนสูงสุดแล้ว"
+ is_already_the_favored_movement: "[GetPlayer.Custom('GetMyMovementNoTooltip')] เป็น [favored_movement|E] อยู่แล้ว"
+ is_already_leader_and_favored_movement: "[GetPlayer.Custom('GetMyMovementNoTooltip')] เป็น [favored_movement|E] อยู่แล้ว และ [GetPlayer.GetShortUIName] ก็เป็น [movement_leader|E] ของขบวนการ"
+ gained_many_disciples: "ได้รับ [disciple_3.GetShortUIName|U], [disciple_2.GetShortUIName] และ [disciple_1.GetShortUIName|U] เป็น [disciples|E]"
+ gained_few_disciples: "ได้รับ [disciple_2.GetShortUIName|U] และ [disciple_1.GetShortUIName] เป็น [disciples|E]"
+ gained_one_disciple: "ได้รับ [disciple_1.GetShortUIName|U] เป็น [disciple|E]"
+ gained_new_elder_tt: "ได้รับ [guest.MakeScope.Var('new_elder').Char.GetFirstName] เป็นผู้อาวุโส"
+ activity_window_character_honorary_guest_leader: "[Concept('movement_leader','ผู้นำที่ถูกท้าทาย')|E]\n[Character.GetShortUINameNoTooltip|U]"
+
+ ### GUEST INVITE RULES
+ activity_invite_rule_debate_movement_members: "สมาชิก [GetPlayer.Custom('GetMyMovement')]"
+ activity_invite_rule_debate_movement_other_members: "สมาชิกขบวนการอื่น"
+ movement_leader_for_host: "ผู้นำขบวนการ"
+ movement_leader_desc_for_host: "ผู้นำที่ถูกท้าทายของ [GetPlayer.Custom('GetMyMovement')]"
+ movement_leader: "ผู้นำขบวนการที่ถูกท้าทาย"
+ ACTIVITY_GUEST_IS_IMPERIAL_REASON: "กิจกรรมคือ $debate_type_favor$"
+ ### PHASES
+ debate_phase_discussion: "การเตรียมการ"
+ debate_phase_discussion_desc: "โถงศึกษาเล่าเรียนเปี่ยมไปด้วยการหารืออย่างสุภาพ, ขณะที่ผู้เข้าโต้วาทีพยายามอนุมานว่าจุดยืนใดจะมียุทธศาสตร์ที่ดีที่สุด"
+ debate_phase_debate: "การโต้วาที"
+ debate_phase_debate_desc: "ถึงเวลาแห่งการโต้วาทีอย่างเป็นระบบแล้ว เพียงผู้มีสติปัญญาเฉียบแหลมที่สุดเท่านั้นที่จะเป็นฝ่ายชนะ"
+
+ ### OPTIONS
+ debate_type_leadership: "โต้วาที $Movement$"
+ debate_type_leadership_desc: "$EFFECT_LIST_BULLET$ โต้วาทีกับสมาชิกในขบวนการของท่านเพื่อขึ้นเป็น [movement_leader|E]\n\n#weak ด้วยไหวพริบหรือเล่ห์เหลี่ยม, ข้าจะเป็นผู้กุมอำนาจ.#!"
+ debate_type_favor: "การโต้วาทีในราชสำนัก"
+ debate_type_favor_desc: "$EFFECT_LIST_BULLET$ โต้วาทีกับขบวนการอื่นต่อหน้า [son_of_heaven|E] เพื่อ ทำให้ [GetPlayer.Custom('GetMyMovementNoTooltip')] เป็น [favored_movement|E]\n\n#weak เรือย่อมต้องถูกนำทางโดยลูกเรือที่เหมาะสม.#!"
+
+ debate_option_books: "$adult_education_option_books$"
+ debate_books_bad: "$adult_education_books_bad$"
+ debate_books_bad_desc: "$EFFECT_LIST_BULLET$ลดค่าใช้จ่าย [gold|E]\n\n#weak ข้านำความรู้ของข้าติดตามตัวไปทุกที่ มีเพียงผู้ที่ไม่แน่ใจในข้อกล่าวอ้างของตนเท่านั้น ที่ต้องซ่อนตัวอยู่หลังข้อโต้แย้งของนักปราชญ์อื่น.#!"
+ debate_books_normal: "ม้วนคัมภีร์และบันทึก"
+ debate_books_normal_desc: "$EFFECT_LIST_BULLET$เพิ่มโอกาสสำเร็จของกิจกรรมเล็กน้อย\n\n#weak ข้าต้องการเพียงตำราและบทวิจารณ์ที่จำเป็นเพื่อสร้างข้อโต้แย้งของข้า.#!"
+ debate_books_good: "$adult_education_books_good$"
+ debate_books_good_desc: "$EFFECT_LIST_BULLET$เพิ่มโอกาสสำเร็จของกิจกรรม\n\n#weak ข้าจะนำบ่อเกิดแห่งความรู้อันแท้จริงมาเพื่อสร้างความประทับใจให้แขกและสนับสนุนข้อโต้แย้งของข้า#!"
+
+ debate_argument_major_decrease_desc: "#N #bold ลดลงอย่างมาก#!#!ต่อ #V โอกาสสำเร็จ#! ของท่าน"
+ debate_argument_moderate_decrease_desc: "#N ลดลงปานกลาง#!ต่อ #V โอกาสสำเร็จ#! ของท่าน"
+ debate_argument_moderate_increase_desc: "#P เพิ่มขึ้นปานกลาง#!ต่อ #V โอกาสสำเร็จ#! ของท่าน"
+ debate_argument_major_increase_desc: "#P #bold เพิ่มขึ้นอย่างมาก#!#!ต่อ #V โอกาสสำเร็จ#! ของท่าน"
+
+ tgp_dynastic_cycle_decision_event.crowd_approval_desc: "\n\nเหล่าผู้ชมพยักหน้าเห็นพ้อง"
+ tgp_dynastic_cycle_decision_event.crowd_disapproval_desc: "\n\nเหล่าผู้ชมส่ายหน้าไม่เห็นด้วย"
+
+ ### CONCLUSION
+ activity_debate_conclusion_desc_leadership_winner: "การโต้วาทีเพื่อชิงตำแหน่งผู้นำของ [GetPlayer.Custom('GetMyMovement')] สิ้นสุดลงแล้ว, โดยข้าได้รับการประกาศให้เป็นผู้ชนะ!"
+ activity_debate_conclusion_desc_leadership_loser: "แผนการของข้าล้มเหลว และ [Activity.MakeScope.Var('challenged_movement_leader').Char.GetFirstNameNoTooltip] ยังคงเป็นผู้นำของ [GetPlayer.Custom('GetMyMovement')] ต่อไป"
+ activity_debate_conclusion_desc_leadership_challenged_loser: "[Activity.MakeScope.Var('debate_winner').Char.GetFirstNameNoTooltip] ได้รับการประกาศให้เป็นผู้นำของ [GetPlayer.Custom('GetMyMovement')] แม้ข้าจะพยายามขัดขวางเพียงใด"
+ activity_debate_conclusion_desc_favor_winner: "การโต้วาทีเพื่อชิงความโปรดปรานของ [ROOT.Char.GetTopLiege.GetTitleAsNamePossessiveNoTooltip] สิ้นสุดลงแล้ว, โดย [GetPlayer.Custom('GetMyMovement')] ได้รับการประกาศให้เป็นผู้ชนะ!"
+ activity_debate_conclusion_desc_favor_loser: "ข้าไม่ประสบผลสำเร็จในการได้รับความโปรดปรานของ [ROOT.Char.GetTopLiege.GetTitleAsNamePossessiveNoTooltip] เพื่อ [GetPlayer.Custom('GetMyMovement')] ข้าคงต้องพยายามให้หนักขึ้นในคราต่อไป"
+ debate_conclusion_fallback: "[GetActivityType( 'activity_debate' ).GetName] ได้สิ้นสุดลงแล้ว"
+
+ # Rewards
+ debate_become_movement_leader_reward_title: "ยึดกุมตำแหน่งผู้นำ"
+ debate_become_movement_leader_reward: "[debate_winner.GetShortUIName] ชนะการโต้วาทีและได้ขึ้นเป็น [movement_leader|E] คนใหม่ของ [debate_winner.Custom('GetMyMovement')]"
+ debate_remain_movement_leader_reward_title: "รักษาตำแหน่งผู้นำ"
+ debate_remain_movement_leader_reward: "[debate_winner.GetShortUIName] ชนะการโต้วาทีและยังคงเป็น [movement_leader|E] ของ [debate_winner.Custom('GetMyMovement')] ต่อไป"
+ debate_increase_movement_power_reward_title: "ขบวนการแข็งแกร่งขึ้น"
+ debate_increase_movement_power_reward: "ได้รับ [movement_power|E]"
+ debate_loss_cost_title: "แพ้การโต้วาที"
+ debate_loss_cost: "ความสูญเสีย"
+ debate_host_rewards_title: "จัดการโต้วาที"
+ debate_guest_rewards_title: "เข้าร่วมการโต้วาที"
+
+ # Pulse Actions
+ apa_movement_ridiculed_title: "[second.GetShortUIName|U] เย้ยหยันขบวนการของ [first.GetShortUINamePossessive|U]"
+ apa_debate_brought_huangdi_gift_title: "$apa_brought_huangdi_gift_title$"
+ apa_debate_entrant_disagreement_title: "$apa_entrant_disagreement_title$"
+ apa_debate_found_disciple_title: "$apa_found_disciple_title$"
+ apa_debate_fruitful_debate_title: "$apa_impressed_teacher_title$"
+
+ DEBATE_PROGRESS_TITLE_TT: "#T ความรู้สึกต่อการโต้วาที#!"
+ DEBATE_PROGRESS_GENERAL_TT: "$DEBATE_PROGRESS_TITLE_TT$\nการโต้วาทีจะถูกประเมินจากผลงานของผู้เข้าร่วม แต่ละคน ผู้ใดก็ตามที่สามารถโน้มน้าวเหล่าผู้ชมได้อย่างมีประสิทธิภาพที่สุด ก็จะมีแนวโน้มที่จะได้รับการประกาศให้เป็นผู้ชนะ"
+ DEBATE_PROGRESS_YOU_TT: "$DEBATE_PROGRESS_TITLE_TT$\nความเป็นไปได้ที่ [Activity.MakeScope.Var('debate_contender').Char.GetShortUIName] [CharAreIs(Character)] จะชนะการโต้วาที"
+ DEBATE_PROGRESS_OPPONENT_TT: "$DEBATE_PROGRESS_TITLE_TT$\nความเป็นไปได้ที่ [Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName] [CharAreIs( Activity.MakeScope.Var('challenged_movement_leader').Char )] จะชนะการโต้วาทีและครองอำนาจต่อไป"
+ DEBATE_PROGRESS_MARKER_1_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] จะชนะ"
+ DEBATE_PROGRESS_MARKER_2_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] [CharAreIs(Activity.MakeScope.Var('debate_contender').Char )] ได้เปรียบอย่างมาก"
+ DEBATE_PROGRESS_MARKER_3_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] [CharAreIs(Activity.MakeScope.Var('debate_contender').Char )] ได้เปรียบเล็กน้อย"
+ DEBATE_PROGRESS_MARKER_4_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] และ [Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName] มีโอกาสชนะเท่ากัน"
+ DEBATE_PROGRESS_MARKER_5_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName|U] [CharAreIs( Activity.MakeScope.Var('challenged_movement_leader').Char )] ได้เปรียบเล็กน้อย"
+ DEBATE_PROGRESS_MARKER_6_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName|U] [CharAreIs( Activity.MakeScope.Var('challenged_movement_leader').Char )] ได้เปรียบอย่างมาก"
+ DEBATE_PROGRESS_MARKER_7_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName|U] จะชนะ"

@@ -1,0 +1,66 @@
+﻿l_english: 
+ scholarship_bird_automaton_modifier:0 "หุ่นกลนก"
+ scholarship_bird_automaton_modifier_desc:0 "ตัวละครนี้มีนกกลไกอันน่าอัศจรรย์ที่ขับขานราวกับมีชีวิต"
+ scholarship_bird_dissection_modifier:0 "การศึกษานกกลไก"
+ scholarship_bird_dissection_modifier_desc:0 "ตัวละครนี้กำลังศึกษากลไกภายในของเครื่องจักรที่ซับซ้อน"
+ book_translation_excellent_modifier:0 "นักแปลผู้เชี่ยวชาญ"
+ book_translation_excellent_modifier_desc:0 "ตัวละครนี้ได้ประพันธ์งานแปลผลงานคลาสสิกที่ได้รับการยอมรับอย่างดี"
+ book_translation_mediocre_modifier:0 "นักแปลผู้มุ่งมั่น"
+ book_translation_mediocre_modifier_desc:0 "ตัวละครนี้ได้ประพันธ์งานแปลผลงานคลาสสิก"
+ terrified_courtiers_modifier:0 "ข้าราชสำนักผู้หวาดผวา"
+ terrified_courtiers_modifier_desc:0 "ข้าราชสำนักของตัวละครนี้หวาดกลัวต่อระเบียบวินัยอันเข้มงวดของพวกเขา"
+ book_translation_ongoing_modifier:0 "กำลังแปลหนังสือ"
+ book_translation_ongoing_modifier_desc:0 "ตัวละครนี้กำลังแปลหนังสืออยู่ในขณะนี้"
+ scholarship_astrological_insights_modifier:0 "ญาณทัศนะในสรวงสวรรค์"
+ scholarship_astrological_insights_modifier_desc:0 "ตัวละครนี้เข้าใจอย่างมากเกี่ยวกับการเคลื่อนที่ของฟากฟ้า"
+ scholarship_down_to_earth_modifier:0 "มุ่งเน้นเรื่องทางโลก"
+ scholarship_down_to_earth_modifier_desc:0 "ตัวละครนี้มุ่งเน้นเรื่องทางโลก ในขณะที่เหล่านักบวชจัดการกับเรื่องเหนือธรรมชาติ"
+ logical_thinking_modifier:0 "การคิดเชิงตรรกะ"
+ logical_thinking_modifier_desc:0 "ตัวละครนี้รู้วิธีใช้ตรรกะเพื่อประหยัดเวลาในการค้นคว้าวิจัย"
+ chronic_headaches_modifier:0 "อาการปวดศีรษะเรื้อรัง"
+ chronic_headaches_modifier_desc:0 "ตัวละครนี้ทนทุกข์จากอาการปวดศีรษะเรื้อรัง ทำให้เกิดอาการหงุดหงิด"
+ rich_fertilizer_modifier:0 "ปุ๋ยอุดมสมบูรณ์"
+ rich_fertilizer_modifier_desc:0 "ฟาร์มของเคาน์ตีนี้ได้รับการใส่ปุ๋ยอย่างดีในปีนี้"
+ tomb_defiler_modifier:0 "ผู้ลบหลู่สุสาน"
+ tomb_defiler_modifier_desc:0 "ข่าวลืออันน่าสะพรึงกลัวที่สุดรายล้อมผู้ปกครองดินแดนเหล่านี้"
+ wide_vocabulary_modifier:0 "คลังศัพท์กว้างขวาง"
+ exercise_modifier:0 "การออกกำลังกาย"
+
+ introspective_rest_modifier:0 "การพักผ่อนเพื่อใคร่ครวญ"
+ introspective_rest_modifier_desc:0 "ตัวละครนี้มีนิสัยชอบขังตัวเองและสื่อสารกับสิ่งศักดิ์สิทธิ์ — ห้ามรบกวนโดยเด็ดขาด!"
+
+ theology_dangerous_habits_modifier:0 "นิสัยอันตราย"
+ theology_dangerous_habits_modifier_desc:0 "การแสวงหา "นิมิต" ของตัวละครนี้กำลังส่งผลเสียต่อพวกเขา"
+
+ mystic_suspicious_reputation_modifier:0 "ชื่อเสียงน่าสงสัย"
+ mystic_suspicious_reputation_modifier_desc:0 "ตัวละครนี้กำลังทำ... #EMP บางอย่าง#! อยู่หลังประตูที่ปิดล็อกเหล่านั้น"
+
+ mystic_great_openness_modifier:0 "ความเปิดเผยอย่างยิ่ง"
+ mystic_great_openness_modifier_desc:0 "ตัวละครนี้กำลังพยายามเปิดใจให้ผู้คนเข้ามา"
+
+ mystic_dangerous_to_know_modifier:0 "อันตรายหากรู้จัก"
+ mystic_dangerous_to_know_modifier_desc:0 "ตัวละครนี้กำลังทำบางสิ่งที่แปลกประหลาดและผิดปกติ ทุกคนรู้ว่าการเป็นศัตรูกับพวกเขามีผลร้ายแรง อาจจะ"
+
+ mystic_devout_protector_modifier:0 "ผู้พิทักษ์ผู้เปี่ยมศรัทธา"
+ mystic_devout_protector_modifier_desc:0 "ตัวละครนี้ได้ประกาศต่อสาธารณะถึงความทุ่มเทของตนเพื่อความปลอดภัยและความเป็นอยู่ที่ดีของผู้อื่น"
+
+ divine_guidance_modifier:0 "การชี้นำจากสวรรค์"
+ divine_guidance_modifier_desc:0 "เสียงจากเบื้องบนช่วยเหลือตัวละครนี้ อย่างน้อยนั่นคือวิธีที่พวกเขาอธิบาย"
+
+ court_of_poetry_modifier:0 "ราชสำนักแห่งกวีนิพนธ์"
+ court_of_poetry_modifier_desc:0 "โถงของตัวละครนี้ดังก้องไปด้วยถ้อยคำอันสละสลวย — อากาศที่พวกเขาหายใจอบอวลไปด้วยสำนวนภาษาอันงดงาม"
+
+ beauty_of_language_modifier:0 "ภาษาอันงดงาม"
+ beauty_of_language_modifier_desc:0 "ตัวละครนี้ได้พบความสุขไม่สิ้นสุดในความลึกลับอันสง่างามของถ้อยคำ: ความหลงใหลที่ควรค่าแก่การแบ่งปัน"
+
+ welcoming_inclusivist_modifier:0 "ผู้เปิดรับความหลากหลาย"
+ welcoming_inclusivist_modifier_desc:0 "ตัวละครนี้เชื่อมั่นอย่างแน่วแน่ว่าความแตกต่างของเราเติมเต็ม ซึ่งกันและกัน และความอ่อนแอพบได้ในความเหมือนกันอย่างไร้สติ"
+
+ consorting_with_muslims_modifier:0 "คบค้ากับชาวมุสลิม"
+ consorting_with_muslims_modifier_desc:0 "ตัวละครนี้เป็นที่รู้จักว่าคบค้าสมาคมกับพวกนอกรีต"
+
+ rebuked_the_heathen_modifier:0 "ตำหนิพวกนอกรีต"
+ rebuked_the_heathen_modifier_desc:0 "ตัวละครนี้ไม่ยุ่งเกี่ยวกับพวกนอกรีต พวกนอกศาสนา พวกละทิ้งศาสนา และคนอื่นๆ ที่มีลักษณะ #EMP น่ารังเกียจ#!"
+
+ refused_heathen_knowledge_modifier:0 "ปฏิเสธความรู้ของพวกนอกรีต"
+ refused_heathen_knowledge_modifier_desc:0 "ตัวละครนี้ชอบหนังสือที่เคร่งศาสนาและบริสุทธิ์"

@@ -1,0 +1,30 @@
+﻿l_english: 
+ prison_notification.0001.t:0 "ถูกจองจำ!"
+ prison_notification.0001.desc:0 "ข้าถูกจับกุมและกักขังโดยขัดต่อความประสงค์ของข้าโดย [imprisoner.GetTitledFirstName]!\n\nข้าไม่เป็นอิสระอีกต่อไปที่จะกลับไปยัง [ROOT.Char.Custom('GetCourt')] ของข้า หรือเดินทางตามที่ข้าปรารถนา"
+ prison_notification.0001.a:0 "ข้าหวังว่าสิ่งนี้จะไม่ยืดเยื้อ"
+
+ prison_notification.0002.t:0 "ถูกจองจำ!"
+ prison_notification.0002.desc:0 "[prisoner.GetTitledFirstName], [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))] ของข้า, บัดนี้ถูกกักขังโดยขัดต่อความประสงค์ [prisoner.GetHerHis] โดย [imprisoner.GetTitledFirstName]"
+ prison_notification.0002.a:0 "จะทำอะไรเพื่อ [prisoner.GetHerHim] ได้บ้าง?"
+
+ prison_notification.0003.message:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|U] ถูกจองจำ!"
+ 
+ prison_notification.1001.t:0 "พ้นจากแสงสว่าง"
+ prison_notification.1001.desc:0 "[actor.GetTitledFirstName] ได้โยนข้าเข้าคุกใต้ดิน! ข้าจะเน่าเปื่อยอยู่ที่นี่ ในอุโมงค์ชื้นแฉะของ [actor.Custom('FortifiedBuilding')] [actor.GetHerHis] หรือ?"
+ prison_notification.1001.a:0 "[actor.GetSheHe|U] เลวร้ายยิ่งกว่าหนูที่วิ่งพล่านอยู่ข้างล่างนี้เสียอีก!"
+ prison_notification.1001.a.tt:0 "ขณะอยู่ในคุกใต้ดิน ข้าจะค่อย ๆ สะสม [stress|E] จนถึงระดับอันตราย!"
+
+ prison_notification.1002.t:0 "อากาศที่สดชื่นกว่า"
+ prison_notification.1002.desc:0 "[actor.GetTitledFirstName] เห็นสมควรที่จะปล่อยข้าจากการจองจำในคุกใต้ดิน [actor.GetHerHis] แต่เพียง เพื่อให้ข้าถูกกักบริเวณในบ้านเท่านั้น"
+ prison_notification.1002.a:0 "ข้ารับความเมตตาเท่าที่ข้าจะหาได้"
+ prison_notification.1002.a.tt:1 "การกักบริเวณในบ้านไม่เพิ่มการได้รับ [stress|E]"
+
+ prison_notification.2001.t:0 "เป็นอิสระอีกครั้ง"
+ prison_notification.2001.desc:0 "ข้าไม่ถูกกักขังโดย [imprisoner.GetTitledFirstName] โดยขัดต่อความประสงค์ของข้าอีกต่อไป และข้าเป็นอิสระที่จะกลับบ้าน หรือไปที่อื่นใดตามที่ข้าปรารถนา"
+ prison_notification.2001.a:0 "ข้าคิดว่าจะไม่ได้เห็นดินแดนของข้าอีกแล้ว"
+
+ prison_notification.2002.t:0 "เป็นอิสระอีกครั้ง"
+ prison_notification.2002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('prisoner'))] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))] ของข้า, [prisoner.GetTitledFirstName], ได้รับการปล่อยตัวจากการจองจำ [prisoner.GetHerHis] ด้วยน้ำมือของ [imprisoner.GetTitledFirstName] และเป็นอิสระอีกครั้ง!"
+ prison_notification.2002.a:0 "การจองจำเป็นความโหดร้าย"
+
+ prison_notification.2003.message:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prisoner'))|U] ได้รับการปล่อยตัว!"

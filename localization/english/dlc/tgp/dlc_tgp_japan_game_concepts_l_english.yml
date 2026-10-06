@@ -1,0 +1,80 @@
+﻿l_english: 
+ # Japanese Manors
+ game_concept_japanese_manor: "คฤหาสน์ญี่ปุ่น"
+ game_concept_japanese_manors: "คฤหาสน์ญี่ปุ่น"
+ game_concept_manor: "คฤหาสน์"
+ game_concept_manors: "คฤหาสน์"
+ game_concept_shoen: "โชเอ็น" # 荘園/庄園
+ game_concept_family_manor: "คฤหาสน์ตระกูล"
+ game_concept_family_manors: "คฤหาสน์ตระกูล"
+ game_concept_japanese_manor_desc: "$game_concept_manor$ - หรือ [Glossary( 'โชเอน', 'SHOEN_GLOSS')] - คือ [domicile|E] ประเภทหนึ่งที่ถือครองโดย [house_head|E] ของ [noble_families|E] ที่โดดเด่น ภายใน [realms|E] แบบ [GetGovernment('japan_administrative_government').GetName] และ [GetGovernment('japan_feudal_government').GetName] สิ่งเหล่านี้แสดงถึงที่ดินถือครองส่วนบุคคล ซึ่งมิได้ผูกพันกับ [title|E] [landed|E] ใด ๆ\n\n[japanese_manor_building|E] อาจถูกสร้างขึ้นที่นี่เพื่อขยายความมั่งคั่งและ [influence|E] ของตระกูล และ $game_concept_manor$ จะถูกสืบทอดโดยทายาทรุ่นต่อไป"
+ game_concept_japanese_manor_building: "สิ่งปลูกสร้างคฤหาสน์ญี่ปุ่น"
+ game_concept_japanese_manor_buildings: "สิ่งปลูกสร้างคฤหาสน์ญี่ปุ่น"
+ game_concept_manor_building: "สิ่งปลูกสร้างคฤหาสน์"
+ game_concept_manor_buildings: "สิ่งปลูกสร้างคฤหาสน์"
+ game_concept_japanese_manor_building_desc: "$game_concept_japanese_manor_buildings$ คือการปรับปรุงอันเป็นเอกลักษณ์และถาวรของ [japanese_manor|E]\n\nมีโครงสร้างอันหลากหลายพร้อมให้ก่อสร้าง และอาจถูกสร้างโดยเจ้าของคฤหาสน์เพื่อสร้างรายได้ส่วนตัว, ขยาย [influence|E] ของตระกูล, และเข้าถึง [decisions|E], [interactions|E] และอื่น ๆ อีกมากมาย"
+
+ # Government
+ game_concept_ritsuryo: "$japan_administrative_government$"
+ game_concept_ritsuryo_government: "การปกครอง $japan_administrative_government$"
+ game_concept_ritsuryo_i: "@government_type_ritsuryo!"
+ game_concept_japan_administrative: "$japan_administrative_government$"
+ game_concept_ritsuryo_government_desc: "$japan_administrative_government_desc$"
+ game_concept_soryo: "$japan_feudal_government$"
+ game_concept_soryo_government: "การปกครอง $japan_feudal_government$"
+ game_concept_soryo_i: "@government_type_soryo!"
+ game_concept_japan_feudal: "$japan_feudal_government$"
+ game_concept_soryo_government_desc: "$japan_feudal_government_desc$"
+ 
+ # Japanese Bureaucracy
+ game_concept_japanese_bureaucracy: "ระบบข้าราชการญี่ปุ่น"
+ game_concept_japanese_bureaucracy_desc: "$game_concept_japanese_bureaucracy$ แสดงถึงระดับการรวบอำนาจเข้าสู่ศูนย์กลางของ [realm_possessive|E] แบบ [ritsuryo_government|E] และอำนาจโดยทั่วไปที่ [ruler|E] มีเหนือ [vassals|E] ของตน\n\nมีเพียง [top_liege|E] เท่านั้นที่สามารถเปลี่ยน $game_concept_japanese_bureaucracy$ ได้ $game_concept_vassals$ ญี่ปุ่นจะใช้ระดับเดียวกับ $game_concept_liege$ ของตน\n\n$game_concept_japanese_bureaucracy$ มีสี่ระดับ:\n$EFFECT_LIST_BULLET$$japanese_bureaucracy_0$\n$EFFECT_LIST_BULLET$$japanese_bureaucracy_1$\n$EFFECT_LIST_BULLET$$japanese_bureaucracy_2$\n$EFFECT_LIST_BULLET$$japanese_bureaucracy_3$\n\nการเพิ่ม $game_concept_japanese_bureaucracy$ จะใช้ [prestige|E] จำนวนหนึ่ง ซึ่งขึ้นอยู่กับ [realm_size|E] และ [learning_skill|E] ของผู้ปกครอง"
+
+ game_concept_ceremonial_liege: "ประมุขในพิธี"
+ game_concept_ceremonial_liege_possessive: "ของประมุขในพิธี"
+ game_concept_ceremonial_liege_desc: "ในบาง [realms|E] ( เช่น ญี่ปุ่น) ข้าราชการหรือผู้บัญชาการทหารผู้ทรงอำนาจอาจยึดอำนาจที่แท้จริงในฐานะ [ceremonial_regent|E] ทิ้งให้ $game_concept_ceremonial_liege$ ผู้ครองบัลลังก์ แต่ในนามเป็นเพียงประมุขเชิงสัญลักษณ์ และเป็น [vassal|E] ในทางปฏิบัติ สมาชิกทั้งหมดของ [house|E] $game_concept_ceremonial_liege_possessive$ จะถูกนับเป็นส่วนหนึ่งของ [ceremonial_house|E]\n\nแม้จะมิได้ปกครองโดยตรง $game_concept_ceremonial_house$ ก็ถือเป็นสายเลือดที่ได้รับการยกย่องสูงสุดในอาณาจักร และ [houses|E] อื่น ๆ จะได้รับ [prestige|E] มากขึ้นจากการ แต่งงานด้วย โดยความเชื่อมโยงดังกล่าวมีอิทธิพลอย่างยิ่งต่อการสืบทอดตำแหน่งของ $game_concept_ceremonial_regent$\n\n$game_concept_ceremonial_liege$ อาจชิงอำนาจที่แท้จริงกลับคืนมาได้ หากพวกเขาสามารถได้ [primary_title|E] ของอาณาจักรกลับคืนมาไม่ทางใดก็ทางหนึ่ง เช่น โดยการเรียกร้องของ [faction|E] หรือการแข่งขันชิง [title|E] $game_concept_ceremonial_regent$ โดยใช้ [influence|E]"
+ ceremonial_liege_concept: "[ceremonial_liege|E]"
+ game_concept_ceremonial_house: "ตระกูลในพิธี"
+ game_concept_ceremonial_house_desc: "$game_concept_ceremonial_house$ หมายถึง [house|E] ของ [ceremonial_liege|E] แห่ง [realm|E]"
+
+ # Regent
+ game_concept_ceremonial_regent: "ผู้สำเร็จราชการผู้ครองอำนาจ"
+ game_concept_ceremonial_regency: "การสำเร็จราชการผู้ครองอำนาจ"
+ game_concept_ceremonial_regents: "ผู้สำเร็จราชการผู้ครองอำนาจ"
+ game_concept_ceremonial_regent_possessive: "ของผู้สำเร็จราชการผู้ครองอำนาจ"
+ game_concept_ceremonial_regent_desc: "$game_concept_ceremonial_regent$ เป็นคำเรียกทั่วไปสำหรับ [top_liege|E] ใด ๆ ที่ปกครองโดยพฤตินัยในนามของ [ceremonial_liege|E] เช่น #italic $game_concept_tenno$#! ของญี่ปุ่น\n\nชื่อตำแหน่ง $game_concept_ceremonial_regent_possessive$ อาจเปลี่ยนแปลงตามสถานการณ์ทางการเมืองในปัจจุบัน; ในญี่ปุ่น พวกเขาอาจถูกเรียกว่า [kampaku|E] หรือ [shogun|E]"
+ ceremonial_regent_concept: "[ceremonial_regent|E]"
+ game_concept_kampaku: "คัมปะกุ"
+ game_concept_kampaku_possessive: "ของคัมปะกุ"
+ game_concept_kampaku_desc: "[Glossary( 'คัมปะคุ', 'KAMPAKU_GLOSS' )] คือตำแหน่งสูงสุดโดยพฤตินัยในระบบข้าราชการ [ritsuryo|E] ซึ่งใช้อำนาจควบคุมกลไกของรัฐอย่างมีนัยสำคัญแทน [tenno_possessive|E]\n\nแม้ว่าโดยทั่วไปจะถูกครอบงำโดยตระกูล [Glossary( 'ฟูจิวาระ', 'FUJIWARA_GLOSS' )] แต่หากมี [influence|E] และ [prestige|E] เพียงพอ ตระกูลใดก็อาจก้าวขึ้นสู่ตำแหน่งนี้ได้"
+ game_concept_shogun: "โชกุน"
+ game_concept_shogun_possessive: "ของโชกุน"
+ game_concept_shogun_desc: "$game_concept_shogun$ หรือผู้เผด็จการ คือผู้ปกครองโดยพฤตินัยแบบ [soryo_government|E] ของญี่ปุ่นทั้งหมด ผู้ ซึ่งได้รวบอำนาจในตำแหน่งของตนจนมั่นคงถึงจุดที่การสืบทอดกลายเป็นมรดกตกทอด และปกครองแทน [tenno_possessive|E]"
+ game_concept_cloistered_emperor: "จักรพรรดิผู้ออกผนวช"
+ game_concept_cloistered_emperor_possessive: "ของจักรพรรดิผู้ออกผนวช"
+ game_concept_joko: "โจโก" # 上皇
+ game_concept_joko_possessive: "ของโจโก" # 上皇
+ game_concept_cloistered_emperor_desc: "$game_concept_cloistered_emperor$ คือ [tenno|E] ที่สละราชสมบัติแล้ว ผู้ ซึ่งปกครองในฐานะ [ceremonial_regent|E] โดยพฤตินัยแทนจักรพรรดิองค์ปัจจุบัน\n\nการที่จะเป็น $game_concept_cloistered_emperor$ ได้นั้น จักรพรรดิต้องสละ #V ราชบัลลังก์ดอกเบญจมาศ#! และออกผนวชเป็นพระ"
+ game_concept_restored_emperor: "จักรพรรดิผู้ฟื้นฟูอำนาจ"
+ game_concept_restored_emperor_possessive: "ของจักรพรรดิผู้ฟื้นฟูอำนาจ"
+ game_concept_restored_emperor_desc: "$game_concept_restored_emperor$ คือ [tenno|E] ผู้ปกครองโดยอิสระจาก [ceremonial_regent|E]\n\nการที่จะเป็น $game_concept_restored_emperor$ ได้นั้น [tenno|E] อาจได้รับการสถาปนาโดย [faction|E] $restore_ceremonial_liege_faction_name$ หรือใช้ [decision|E] [GetDecisionWithKey('tgp_japan_emperor_restoration_decision').GetName] หลังจากที่ได้เป็น [ceremonial_regent|E]"
+ # EMPEROR
+ game_concept_japanese_emperor: "จักรพรรดิญี่ปุ่น"
+ game_concept_japanese_emperor_possessive: "ของจักรพรรดิญี่ปุ่น"
+ game_concept_tenno: "เท็นโน"
+ game_concept_tenno_possessive: "ของเท็นโน"
+ game_concept_japanese_emperor_desc: "$game_concept_tenno$ คือจักรพรรดิอย่างเป็นทางการของ $e_japan$ ทั้งปวง, แม้ว่าอำนาจที่แท้จริงโดยทั่วไปจะอยู่ในมือของ [ceremonial_regent|E] ผู้บริหารรัฐในนามของพระองค์ก็ตาม"
+ # House Aspirations
+ game_concept_house_aspiration: "ปณิธานตระกูล"
+ game_concept_house_aspirations: "ปณิธานตระกูล"
+ game_concept_aspiration: "ปณิธาน"
+ game_concept_aspirations: "ปณิธาน"
+ game_concept_house_aspiration_desc: "$game_concept_house_aspiration$ แสดงถึงเป้าหมายและแนวทางของ [house|E] ญี่ปุ่น และ แต่ละอย่างจะมอบโบนัสและโอกาสที่แตกต่างกัน\n\n[house_head|E] สามารถเลือกปณิธานที่จะไล่ตาม และใช้ [prestige|E] เพื่ออุทิศตนให้มากขึ้น เพื่อเข้าถึงคุณประโยชน์ที่ทรงพลังยิ่งขึ้น"
+ # Imperial Policies
+ game_concept_imperial_policy: "นโยบายจักรวรรดิ"
+ game_concept_imperial_policies: "นโยบายจักรวรรดิ"
+ game_concept_imperial_policy_desc: "$game_concept_imperial_policy$ คือ [law|E] ที่กำหนดโดย [top_liege|E] ของญี่ปุ่น ซึ่งบังคับใช้กับ [vassals|E] ทั้งหมด นโยบายที่แตกต่างกันอาจจำกัดหรืออนุญาตการกระทำ หรือมอบผลกระทบทั่วทั้ง [realm|E]"
+ # House Relations
+ game_concept_house_relation: "ความสัมพันธ์ตระกูล"
+ game_concept_house_relations: "ความสัมพันธ์ตระกูล"
+ game_concept_house_relation_desc: "เมื่อสอง [houses|E] มีปฏิสัมพันธ์กัน พวกเขาอาจพัฒนา $game_concept_house_relation$ ในเชิงบวกหรือเชิงลบ การกระทำของคนรุ่นก่อนจะถูกจดจำ และส่งผลต่อทัศนคติของลูกหลาน ไม่ว่าดีหรือร้าย\n\nแต่ละระดับ $game_concept_house_relation$ จะส่งผลต่อ [opinion|E] ของสมาชิก $game_concept_house$ ทุกคน และอาจปลดล็อกปฏิสัมพันธ์เพิ่มเติม\n\nตัวอย่าง เช่น ตระกูลที่มีสัมพันธไมตรีอาจเจรจา [alliances|E] ได้อย่างอิสระ และตระกูลที่มีความบาดหมางอาจประกาศ [wars|E] ได้ในราคาที่ลดลง"

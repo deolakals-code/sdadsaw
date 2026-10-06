@@ -1,0 +1,5 @@
+﻿l_english: 
+ CHARACTER_FINDER_COUNT:1 "[Select_CString( LessThan_int32( CharacterSelectionList.NumberOfShownCharacters, CharacterSelectionList.GetTotalNumber ), '#high', '#low' )] [CharacterSelectionList.NumberOfShownCharacters] #!จาก [CharacterSelectionList.GetTotalNumber] ตัวละคร"
+ CHARACTER_FINDER_TITLE:0 "ค้นหาตัวละคร"
+ SORT_MILITARY_STRENGTH:0 "กำลังทหาร"
+ CHARACTER_FINDER_FILTER_SET:0 "#T มีการตั้งค่าตัวกรองบางอย่างเป็นค่าที่ไม่ใช่ค่าเริ่มต้น#!"

@@ -1,0 +1,354 @@
+﻿l_english: 
+ court_event_title:0 "การเกี้ยวพาราสี:"
+
+ #Modifiers
+ court_competitor_modifier:0 "คู่แข่งชิงรัก"
+
+ #ONGOING MANAGEMENT: Player target opted out
+ court_ongoing.0001.t:0 "$court_event_title$ การปฏิเสธ"
+ court_ongoing.0001.desc:0 "[target.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ได้ปฏิเสธการเกี้ยวพาราสีของข้า! [target.GetSheHe|U] แสดงให้เห็นอย่างชัดเจนว่า [target.GetSheHe] ไม่สนใจ และอาจจะไม่มีวันสนใจเลย"
+ court_ongoing.0001.a:0 "โอ้ อนิจจา!"
+
+ #START EVENT: Owner picks method
+ court_ongoing.0501.t:1 "$court_event_title$ การประกาศความรัก"
+ court_ongoing.0501.desc:0 "ถึงเวลาแล้วที่จะเปิดเผยความรู้สึกของข้าที่มีต่อ [target.GetTitledFirstName] ข้าต้องการให้ [target.GetHerHim] จดจำวันนี้ไปตลอดชีวิตของ [target.GetHerHis]"
+ court_ongoing.0501.a:0 "ขับร้องเพลงรัก"
+ court_ongoing.0501.b:0 "แอบวางจดหมายไว้ใน [target.Custom('GetChambersOrTent')] ของ [target.GetHerHis]"
+ court_ongoing.0501.c:0 "เขียนบทกวีรัก"
+ court_ongoing.0501.d:0 "สร้างความประทับใจให้ [target.GetHerHim] ด้วยการชนะการประลอง"
+ court_ongoing.0501.x:0 "ทำตามสัญชาตญาณในขณะนั้น"
+ court_ongoing.0501.tt:0 "ท่านประกาศความภักดีอันไม่เสื่อมคลายต่อ [target.GetShortUIName]"
+
+ #START EVENT: For Target 
+ court_ongoing.0502.t:0 "$court_event_title$ การประกาศความรัก"
+ court_ongoing.court_start_song.start.0502.desc:1 "ข้ากำลังเดินเล่นในสวนกับเหล่า [ROOT.Char.Custom('LadiesLords')] ในราชสำนัก เมื่อข้าสังเกตเห็น [owner.Custom2('MyCharacterIntroduction', ROOT.Char)] กำลังเข้ามาใกล้ ข้าหลีกทางให้ [owner.GetHerHim] ผ่านไป แต่ด้วยความประหลาดใจอย่างยิ่ง [owner.GetSheHe] กลับขวางทางข้าและคุกเข่าลงต่อหน้าข้า!\n\nก่อนที่ข้าจะมีเวลาประมวลผลเหตุการณ์ที่พลิกผันนี้อย่างเหมาะสม [owner.GetTitledFirstNameNoTooltip] ก็เริ่มขับขานบทเพลง\n\n"
+ court_ongoing.court_start_song.bad.0502.desc:0 "ข้ารู้สึกท้อใจอย่างยิ่งที่ [owner.GetWomanMan] เบื้องหน้าข้าไม่สามารถร้องเพลงให้รอดชีวิต [owner.GetHerHis] ได้เลย ต้องใช้เวลาสักพักกว่าข้าจะจำเพลงได้ — มันเป็นเพลงรักบัลลาดที่มีชื่อเสียงของ [target.GetCulture.GetNameNoTooltip] [owner.GetSheHe|U] ได้เปลี่ยนเนื้อเพลงให้มีชื่อข้าและกล่าวถึงรูปลักษณ์ภายนอกของข้า ทำให้จังหวะเพลงยิ่งแย่ลงไปอีก"
+ court_ongoing.court_start_song.good.0502.desc:0 "ข้าจำทำนองได้อย่างรวดเร็ว — มันคือเพลงรัก[target.GetCulture.GetNameNoTooltip]อันโด่งดัง ข้าเคยฟังเพลงนี้มานับครั้งไม่ถ้วน แต่ไม่เคยมีครั้งใดที่ขับร้องด้วยทักษะและความหลงใหล เช่นนี้!\n\nอารมณ์อันเข้มข้นของบทเพลงสะท้อนอยู่ในสายตาของ[owner.GetFirstNamePossessiveNoTooltip] ซึ่งจับจ้องมาที่ข้า [owner.GetSheHe|U] ไม่ละสายตาไปแม้เพียงชั่วขณะหัวใจเต้น"
+ court_ongoing.court_start_sneaky_love_letter.start.0502.desc:0 "ขณะที่ข้าปัดผ้าปูที่นอนออกเพื่อจะนอนลง ข้าพบม้วนกระดาษเล็กๆ วางอยู่บนหมอนข้างของข้า มีใครบางคนเข้ามาใน [ROOT.Char.Custom('GetChambersOrTent')] ของข้าโดยไม่มีใครสังเกตเห็นรึ? ความเย็นวาบแล่นไปตามสันหลังขณะที่ข้าคลี่ม้วนกระดาษหนาออกอย่างระมัดระวัง\n\n"ยอดรัก[ROOT.Char.Custom('RomanticComplimentAdjective')]ของข้า"
+ court_ongoing.court_start_sneaky_love_letter.compliment.0502.desc:0 "[ROOT.Char.Custom('RomanticComplimentNoun')]!"
+ court_ongoing.court_start_sneaky_love_letter.relative.0502.desc:0 "[owner.Custom2('RelationToMeShort', ROOT.Char)]!"
+ court_ongoing.court_start_sneaky_love_letter.end.0502.desc:0 "[ROOT.Char.GetLadyLord|U]ในดวงใจของข้า! ข้าไม่อาจเก็บงำความรู้สึกของข้าเป็นความลับได้อีกต่อไป นับจากวันนี้ไป ข้าจะทำทุกอย่างในอำนาจของข้าเพื่อพิสูจน์ความรักอันภักดีของข้า"\n\n"เราจะได้พบกันในไม่ช้า จนกว่าจะถึงตอนนั้น จงฝันถึงข้าเถิด ยอดรักของข้า เป็นของท่านตลอดไป [owner.GetTitledFirstName]""
+ court_ongoing.court_start_poem_love_letter.0502.desc:0 "[owner.Custom2('love_letter', SCOPE.sC('target'))]\n\nถ้อยคำเหล่านี้เป็นเพียงภาพสะท้อนอันเลือนรางของความรู้สึกที่ข้ามีต่อท่าน ข้าจะทำทุกอย่างเพื่อพิสูจน์ความรักอันภักดีของข้า"
+ court_ongoing.court_start_sparring.start.0502.desc:1 "เสียงอาวุธกระทบกันและเสียงเชียร์อันตื่นเต้นดึงดูดข้าไปยังลานกลางแจ้ง เกิดอะไรขึ้นกัน?\n\nข้าพบนักรบสวมเกราะสองคนกำลังประลองกันอย่าง"
+ court_ongoing.court_start_sparring.bad.0502.desc:0 "เงอะงะ ข้าพยายามไม่แสดงสีหน้าเหยเกขณะที่คนหนึ่งสะดุดหลังจากการเหวี่ยงดาบที่แรงเกินความจำเป็น"
+ court_ongoing.court_start_sparring.good.0502.desc:0 "ดุเดือด ทั้งสองคนไม่ต้องสงสัยเลยว่าเคยผ่านการทดสอบในสนามรบมาแล้ว"
+ court_ongoing.court_start_sparring.great.0502.desc:0 "น่าทึ่ง ไม่เคยมีครั้งใดที่ข้าเคยเห็นทักษะ เช่นนี้กับ [owner.Custom('signature_weapon')] มาก่อน! ข้าไม่อาจละสายตาได้!"
+ court_ongoing.court_start_sparring.end.0502.desc:0 "\n\nด้วยการโจมตีครั้งสุดท้ายอย่างบ้าบิ่น นักสู้คนหนึ่งปลดอาวุธอีกคนหนึ่ง ข้าประหลาดใจที่ [owner.GetSheHe] คุกเข่าลงต่อหน้าข้าและถอดหมวกเกราะของ [owner.GetHerHis] ออก มันคือ [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!\n\n"ข้าอุทิศชัยชนะนี้ให้ท่าน [ROOT.Char.GetTitledFirstNameNoTooltip]" เขากล่าวอย่างเคร่งขรึม "การนำเกียรติยศมาสู่ท่านคือความปรารถนาเดียวของข้า!"""
+ court_ongoing.0502.a:0 "ท่านช่างยกยอข้าเหลือเกิน ใต้เท้า[owner.GetLadyLord]ของข้า!"
+ court_ongoing.0502.b.incest:0 "อะไรนะ? ท่านคือ #EMP [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('owner'))]#!! ของข้านะ!!"
+ court_ongoing.0502.b:0 "จงละทิ้งความพยายามอันโง่เขลานี้เสีย #EMP เดี๋ยวนี้#!."
+ court_ongoing.0502.a.tt:0 "[owner.GetShortUIName|U] จะพยายามเอาชนะใจข้า"
+
+
+ #START EVENT: For Owner (target's reaction)
+ court_ongoing.court_start_song.intro.0503.desc:1 "ข้าได้พบบทเพลงรักบัลลาด [target.GetCulture.GetNameNoTooltip] สุดคลาสสิกที่เหมาะกับ [target.GetFirstName] อย่างสมบูรณ์แบบ! ข้าฝึกซ้อมมันซ้ำแล้วซ้ำเล่า — ทุกอย่างต้องสมบูรณ์แบบ!\n\nข้าพบ [target.Custom('LoverPetName')] ของข้ากำลังเดินอยู่ในสวน [target_location.GetNameNoTooltip] รายล้อมไปด้วยเพื่อน ๆ ของ [target.GetHerHis] ด้วยหัวใจที่เต้นรัวเหมือนค้อนทุบ ข้าคุกเข่าลงต่อหน้า [target.GetHerHim] และขับขานบทเพลง"
+ court_ongoing.court_start_song.success.0503.desc:1 "\n\nดวงแก้มของ [target.GetFirstNamePossessiveNoTooltip] เปลี่ยนเป็นสีแดงดุจผลทับทิม แต่[target.GetSheHe]ก็มิได้ขัดจังหวะข้า เหล่าสหายของ[target.GetHerHis|U]ล้วนดูยินดี หรืออิจฉา — ช่างเป็นสัญญาณที่ดีโดยแท้!\n\n"ท่านช่างมีเสียงที่ไพเราะยิ่งนัก [ROOT.Char.Custom('FormOfAddressForLiege')]" [target.GetFirstNameNoTooltip] เอ่ยวาจาก่อนที่[target.GetSheHe]จะรีบจากไป เหล่าสหายของ[target.GetHerHis|U]ก็รีบติดตามไป ข้ายืนขึ้นด้วยขาที่สั่นเทา มองดูพวกเขาหายลับไประหว่างแนวพุ่มไม้ หัวใจของข้าเต้นแรงยิ่งกว่าครั้งใด"
+ court_ongoing.court_start_sneaky_love_letter.intro.0503.desc:0 "คำประกาศความรักของข้ามีไว้สำหรับสายตาของ [target.GetTitledFirstNamePossessive] เท่านั้น! ไม่มีผู้ใดอื่นสำคัญ! ข้าเทหัวใจของข้าออกมา หน้าแล้วหน้าเล่า ความรู้สึกของข้าเพิ่มพูนขึ้นเมื่อข้าได้ถ่ายทอดมันออกมาเป็นคำพูด หมึกแทบจะยังไม่แห้งสนิทเมื่อข้ามุ่งหน้าไปยัง [target.Custom('GetChambersOrTent')] ของ [target.GetFirstNamePossessive]\n\nข้าค่อยๆ วางม้วนสาส์นลงบนหมอนอิงของ [target.GetHerHis] คืนนี้ [target.GetSheHe] จะนอนอยู่ที่นี่ ฝันถึงข้าหรือไม่?"
+ court_ongoing.court_start_sneaky_love_letter.success.0503.desc:1 "\n\nการรอคอยช่างทรมานเหลือเกิน ความคิดเรื่องการถูกปฏิเสธ ทำให้ข้าคลื่นไส้! เมื่อคำตอบของ [target.GetHerHis] มาถึง ข้าฉีกผนึกด้วยมือที่สั่นเทา\n\n"แม้ข้าไม่อาจส่งเสริมท่านได้ [owner.Custom2('RelationToMeAddress', ROOT.Char)] ข้าซาบซึ้งอย่างยิ่งสำหรับถ้อยคำอันอ่อนโยนของท่าน ด้วยความนับถือ [target.GetFirstNameNoTooltip]""
+ court_ongoing.court_start_poem_love_letter.intro.0503.desc:0 "แสงเทียนริบหรี่ลงเมื่อข้าเขียนบทกวีเสร็จในที่สุด ก่อนที่ข้าจะส่งมันไป ข้าอ่านมันเป็นครั้งสุดท้าย\n\n"[owner.Custom2('love_letter', SCOPE.sC('target'))]""
+ court_ongoing.court_start_sparring.same_locaton_intro.0503.desc:0 "ข้าเกณฑ์ทหารอาวุโสที่สุดคนหนึ่งของข้าและฝึกซ้อมกับ [sparring_soldier.GetHerHim] เป็นเวลาสามวันติดต่อกัน เมื่อ [sparring_soldier.GetSheHe] เห็นว่าข้าพร้อมแล้ว เราก็มุ่งหน้าไปยังลานหลักด้วยกัน\n\nเมื่อเราเริ่มประลอง ฝูงชนก็มารวมตัวกัน และเสียงเชียร์ของพวกเขาก็ในไม่ช้าก็ดึงดูดใครอื่นไม่ได้นอกจาก [target.GetTitledFirstName] ผู้ [target.Custom('RomanticComplimentAdjective')]\n\nทหารผู้นั้นต่อสู้อย่างกล้าหาญ แต่ข้าปลดอาวุธ [sparring_soldier.GetHerHim] ด้วยการแทงครั้งสุดท้ายอันไร้ที่ติ ข้าคุกเข่าลงต่อหน้า [target.GetFirstNameNoTooltip] และประกาศเจตนาอันสูงส่งของข้า "ข้าอุทิศชัยชนะนี้ให้ท่าน [target.GetTitledFirstNameNoTooltip] การนำเกียรติยศมาสู่ท่านคือความปรารถนาเดียวของข้า!"\n\n"
+ court_ongoing.court_start_sparring.other_locaton_intro.0503.desc:2 "ข้าเกณฑ์ทหารอาวุโสที่สุดคนหนึ่งของข้าและออกเดินทางไปยัง [target_location.GetNameNoTooltip] เราฝึกซ้อมตามกิจวัตรของเราหลังจากการขี่ม้าใน แต่ละวัน\n\nเมื่อเรามาถึง เราก็เริ่มประลองกันในลานหลัก ฝูงชนมารวมตัวกัน และเสียงเชียร์ของพวกเขาก็ในไม่ช้าก็ดึงดูดใครอื่นไม่ได้นอกจาก [target.GetTitledFirstName] ผู้ [target.Custom('RomanticComplimentAdjective')]\n\nทหารผู้นั้นต่อสู้อย่างกล้าหาญ แต่ข้าปลดอาวุธ [sparring_soldier.GetHerHim] ด้วยการแทงครั้งสุดท้ายอันไร้ที่ติ ข้าคุกเข่าลงต่อหน้า [target.GetFirstNameNoTooltip] และประกาศเจตนาอันสูงส่งของข้า "ข้าอุทิศชัยชนะนี้ให้ท่าน [target.Custom2('RelationToMeAddress', ROOT.Char)] การนำเกียรติยศมาสู่ท่านคือความปรารถนาเดียวของข้า!"\n\n"
+ court_ongoing.court_start_sparring.success.0503.desc:0 "[ROOT.Char.Custom('LoverPetName')] ของข้าพูดไม่ออก แต่เห็นได้ชัดว่ารู้สึกปลื้มใจ เหตุใดเล่า [target.GetSheHe] จึงยิ้ม เช่นนั้น?"
+ court_ongoing.public_sodomy_rejection.0503.desc:1 "ปฏิกิริยาของ[target.GetFirstNamePossessiveNoTooltip]ไม่ใช่สิ่งที่ข้าหวังไว้ "ท่านเสียสติไปแล้วหรือ [ROOT.Char.Custom2('RelationToMeAddress', target)]?! ท่านกำลังเสนออะไรกันแน่?"
+ court_ongoing.public_incest_rejection.0503.desc:0 "ปฏิกิริยาของ[target.GetFirstNamePossessiveNoTooltip]ไม่ใช่สิ่งที่ข้าหวังไว้ "ท่านกำลังเสนออะไร? ข้าคือ #EMP [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))]#!! ของท่านนะ""
+ court_ongoing.public_regular_rejection.0503.desc:1 "ปฏิกิริยาของ[target.GetFirstNamePossessiveNoTooltip]ไม่ใช่สิ่งที่ข้าหวังไว้ "อย่า ทำให้ตัวเองขายหน้าไปมากกว่านี้เลย [ROOT.Char.Custom2('RelationToMeAddress', target)] ข้ายอมกิน[target.Custom('GetClothingArticle')]ของตัวเองเสียดีกว่าที่จะใช้เวลาอีกนาทีเดียวในที่ที่มีท่านอยู่!""
+ court_ongoing.written_sodomy_rejection.0503.desc:0 "\n\nคำตอบของ[target.GetFirstNamePossessiveNoTooltip]รวดเร็วและชัดเจน "ท่านเสียสติไปแล้วหรือ? ท่านรู้หรือไม่ว่าคำพูดของท่านจะเป็นอันตรายเพียงใด หากตกไปอยู่ในมือคนผิด? ข้าขอร้องท่าน — จงละทิ้งความพยายามอันโง่เขลานี้เสียทันที!""
+ court_ongoing.written_incest_rejection.0503.desc:0 "\n\nคำตอบของ[target.GetFirstNamePossessiveNoTooltip]รวดเร็วและชัดเจน "ท่านแปลกมาตลอด แต่เรื่องนี้รึ? การประกาศความหลงใหลต่อ #EMP [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))]#!? ของท่านเอง!? แค่คิดว่าเราอยู่ด้วยกันก็ ทำให้ข้าคลื่นไส้แล้ว!""
+ court_ongoing.written_regular_rejection.0503.desc:0 "\n\nคำตอบของ[target.GetFirstNamePossessiveNoTooltip]รวดเร็วและชัดเจน "ข้าขอขอบคุณอย่างสุดซึ้งสำหรับบันทึกของท่าน มัน ทำให้ข้าหัวเราะได้ดีทีเดียว! ช่างเป็นความคิดที่น่าหัวเราะเสียนี่กระไร ที่หัวใจของข้าจะปรารถนา #EMP ท่าน#!!""
+ court_ongoing.0503.a:0 "[target.GetFirstNameNoTooltip] จะต้านทานเสน่ห์ของข้าได้ไม่นาน!"
+ court_ongoing.0503.a.tt:0 "แผนการเกี้ยวพาราสี [target.GetShortUIName] ของข้าดำเนินต่อไป"
+ court_ongoing.0503.b:0 "ข้าคิดว่าเราเกิดมาคู่กันเสียอีก..."
+
+
+ #Someone farted! by Mathilda Bjarnehed
+ court_ongoing.1000.t:1 "$court_event_title$ กลิ่นอันน่าอับอาย"
+ court_ongoing.1000.desc:1 "ข้าได้รับการเชิญไปร่วมงานเลี้ยงใน [location.GetNameNoTooltip] และได้ที่นั่งใกล้กับ [target.GetFirstName] แม้ข้าจะพยายามอย่างแน่วแน่ ข้าก็ล้มเหลวในการเริ่มบทสนทนา [target.GetSheHe|U] อาจจะพูดไม่ออก เพราะความรู้สึกรักใคร่อันรุนแรงของข้า\n\nทันใดนั้น เสียงผายลมที่ดังที่สุดเท่าที่ข้าเคยได้ยินก็ดังมาจากโต๊ะของเรา แขกสองสามคนกำลังมองไปที่ [target.GetFirstNameNoTooltip] ข้าต้องช่วย [target.GetHerHim]!"
+ court_ongoing.1000.a:0 "เป็นข้าเอง! ข้าผายลม!"
+ court_ongoing.1000.a.success:0 "[target.GetFirstNameNoTooltip] รู้สึกโล่งใจและขอบคุณ"
+ court_ongoing.1000.a.failure:0 "[target.GetFirstNameNoTooltip] ไม่ใช่คนที่ผายลม"
+ court_ongoing.1000.b:0 "[scapegoat.GetTitledFirstNameNoTooltip] เจ้า[scapegoat.Custom2('InsultNoun', ROOT.Char)]เฒ่าเหม็นเน่า!"
+ court_ongoing.1000.b.rl:0 "ข้าพยายามโยนความผิดให้ [scapegoat.GetTitledFirstNameNoTooltip]"
+ court_ongoing.1000.b.failure:0 "[target.GetFirstNameNoTooltip] รู้สึกสงสาร [scapegoat.GetTitledFirstNameNoTooltip] อย่างมาก"
+ court_ongoing.1000.b.tt:0 "ผลลัพธ์ขึ้นอยู่กับว่า [target.GetFirstNameNoTooltip] มีความเห็นอกเห็นใจเพียงใด"
+ court_ongoing.1000.c:0 "บางทีข้าควรจะเงียบไว้..."
+
+ #Defend their honor through duel or diplomacy, by Mathilda Bjarnehed
+ court_ongoing.1010.t:1 "$court_event_title$ เกียรติยศของ[target.GetLadyLord|U]"
+ court_ongoing.1010.desc:1 ""ขอสาบานต่อ [insulter.GetFaith.HighGodName], [target.GetTitledFirstName] ช่างเป็น[target.Custom2('InsultNoun', SCOPE.sC('insulter'))]ที่น่ารังเกียจเหลือทน! ท่านเคยเห็นหรือไม่ว่า[target.GetSheHe] [target.Custom('quirk_neg_present')]? น่าสมเพชสิ้นดี!"\n\n[insulter.Custom2('MyCharacterIntroduction', ROOT.Char)|U] แหงนศีรษะของ[insulter.GetHerHis]ไปด้านหลังพลางหัวเราะอย่างชั่วร้าย\n\n[target.GetFirstNameNoTooltip] ยังคงสนทนากับสหายของ[target.GetHerHis] แต่ข้าบอกได้เลยว่า[target.GetSheHe]ได้ยิน[insulter.GetHerHim] ข้ามิอยากเห็น[target.GetHerHim]เจ็บปวดเลย"
+ court_ongoing.1010.a:0 "คำโป้ปดอันชั่วช้า! ชักดาบของเจ้าออกมา [insulter.Custom2('InsultNoun', ROOT.Char)]!"
+ court_ongoing.1010.b:0 "ท่านควรขอโทษใต้เท้า[target.GetLadyLord]"
+ court_ongoing.1010.c:0 "โอ้ [target.GetFirstNameNoTooltip] [insulter.GetSheHe|U] ช่างผิดมหันต์!"
+
+ court_ongoing.1010.a.success:0 "ท่านเอาชนะ [insulter.GetFirstNameNoTooltip] ในการประลอง"
+ court_ongoing.1010.a.failure:0 "ท่านพ่ายแพ้ต่อ [insulter.GetFirstNameNoTooltip]"
+ court_ongoing.1010.b.success:0 "ท่านโน้มน้าวให้ [insulter.GetFirstNameNoTooltip] ขอโทษได้สำเร็จ"
+ court_ongoing.1010.b.failure:0 "[insulter.GetFirstNameNoTooltip] ปฏิเสธที่จะรับฟัง"
+
+ court_ongoing.1011.desc:0 "[insulter.GetTitledFirstName] ชักดาบของ [insulter.GetHerHis] ออกมาพร้อมกับรอยยิ้มเยาะเย้ย โอ้ ข้าจะสนุกเพียงใดกับการลบรอยยิ้มอันโอหังนั้นออกจากใบหน้าของ [insulter.GetHerHis]!\n\nเมื่อข้าจัดการกับ [insulter.GetHerHim] เสร็จสิ้น ความอัปยศของ [insulter.GetTitledFirstNamePossessiveNoTooltip] ก็ถึงที่สุด [insulter.GetSheHe] ทั้ง bruised และหน้าแดงก่ำ คร่ำครวญคำขอโทษและเดินโขยกเขยกจากไปเพื่อเลียแผลของ [insulter.GetHerHis]\n\n[target.GetTitledFirstName] ในทางกลับกัน กลับเปล่งประกายดุจดวงอาทิตย์ \"ท่านคือวีรบุรุษที่แท้จริง [ROOT.Char.GetTitledFirstNameNoTooltip]! ข้าขอขอบพระคุณท่านชั่วนิรันดร์!\""
+ court_ongoing.1011.a:0 "เป็นเกียรติของข้า ใต้เท้า[target.GetLadyLord] [target.GetFirstNameNoTooltip]"
+
+ #Fetch gift, by Mathilda Bjarnehed
+ court_ongoing.1021.t:1 "ข้อพิสูจน์แห่งความภักดี"
+ court_ongoing.1021.desc:0 ""[target.GetLadyLord|U] [target.GetFirstName]! [target.Custom('RomanticComplimentNoun')] ผู้ [target.Custom('RomanticComplimentAdjective')] ของข้า!"\n\n[owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] กำลังคุกเข่าอยู่ในฝุ่นต่อหน้าข้า มือขวาวางเหนือหัวใจของ [owner.GetHerHis] "ความปรารถนาเดียวของข้าคือการนำเกียรติยศและความสุขมาสู่ท่าน โปรดบอกข้าเถิด — ข้าจะพิสูจน์ความรักของข้าที่มีต่อท่านได้อย่างไร?""
+ court_ongoing.1021.a:0 "จงสังหารหมาป่าและนำหนังของมันมาให้ข้า"
+ court_ongoing.1021.wolf_pelt.success:0 "[owner.GetShortUINameNoTooltip] นำหนังหมาป่ามาให้ท่าน"
+ court_ongoing.1021.wolf_pelt.failure:0 "[owner.GetShortUINameNoTooltip] ล้มเหลวในการสังหารหมาป่า"
+ court_ongoing.1021.b:0 "ข้าต้องการสหายขนปุย"
+ court_ongoing.1021.cat_pet.success:0 "[owner.GetShortUINameNoTooltip] มอบแมวให้ท่าน"
+ court_ongoing.1021.dog_pet.success:0 "[owner.GetShortUINameNoTooltip] มอบสุนัขให้ท่าน"
+ court_ongoing.1021.eagle_pet.success: "[owner.GetShortUINameNoTooltip]มอบลูกนกอินทรีให้ท่านเป็นของขวัญ"
+ court_ongoing.1021.pet.failure:1 "[owner.GetShortUINameNoTooltip] ไม่ได้มอบสัตว์เลี้ยงให้ท่าน"
+ court_ongoing.1021.c:0 "สร้อยคอของ[necklace_owner.GetTitledFirstNamePossessive]ดูน่ารักดีนะ..."
+ court_ongoing.1021.necklace.success:0 "[owner.GetShortUINameNoTooltip] มอบสร้อยคอให้ท่าน"
+ court_ongoing.1021.necklace.failure:0 "[owner.GetShortUINameNoTooltip] ปฏิเสธที่จะมอบสร้อยคอให้ท่าน"
+ court_ongoing.1021.d:0 "นำบางสิ่งที่แปลกประหลาดมาให้ข้า — กล้วยไม้หายาก บางที?"
+ court_ongoing.1021.orchid.success:0 "[owner.GetShortUINameNoTooltip] นำกล้วยไม้หายากมาให้ท่าน"
+ court_ongoing.1021.orchid.failure:0 "[owner.GetShortUINameNoTooltip] ปฏิเสธที่จะมอบกล้วยไม้ให้ท่าน"
+ court_ongoing.1021.x:0 "พอแล้ว! ความบ้าคลั่งนี้จบลงเดี๋ยวนี้!"
+
+ #GIFT: wolf Pelt, by Mathilda Bjarnehed
+ court_ongoing.1022.t:1 "$court_event_title$ เจ้าสีเทา"
+ court_ongoing.1022.start.desc:0 ""[target.GetLadyLord] [target.GetFirstName] ผู้งดงาม!" ข้าถอนหายใจขณะคุกเข่าลงต่อหน้า [target.GetHerHim] "ความปรารถนาเดียวของข้าคือการนำเกียรติยศและความสุขมาสู่ท่าน โปรดบอกข้าเถิด — ข้าจะพิสูจน์ความรักของข้าที่มีต่อท่านได้อย่างไร?"\n\n"
+ court_ongoing.1022.end.desc:0 "[target.GetTitledFirstNameNoTooltip] ลังเลและแก้มของ [target.GetHerHis] เปลี่ยนเป็นสีแดง ด้วย [ROOT.Char.GetFaith.HighGodName] ข้าหวังว่า [target.GetSheHe] จะพอใจและไม่อับอาย!\n\n"จงสังหารหมาป่าเพื่อข้าและนำหนังของมันมาให้ข้า แล้วเราค่อยสนทนากันต่อ""
+ court_ongoing.1022.a:0 ""ความปรารถนาของท่านคือคำสั่งของข้า!""
+ court_ongoing.1022.a.success:0 "ท่านสังหารหมาป่าได้สำเร็จ"
+ court_ongoing.1022.a.failure:0 "ท่านกลับมามือเปล่า"
+ court_ongoing.1022.b:0 "ข้าเห็นสัตว์ขนปุยตัวหนึ่งในคอกสุนัข..."
+ court_ongoing.1022.b.success:0 "[target.GetShortUINameNoTooltip] เชื่อว่าเป็นหนังหมาป่า"
+ court_ongoing.1022.b.failure:0 "[target.GetShortUINameNoTooltip] มองเห็นกลอุบายของท่าน"
+ court_ongoing.1022.c:0 "ข้าจะติดสินบนนายพราน"
+ court_ongoing.1022.c.master_of_hunt:0 "$master_of_hunt_court_position$ ของข้าจะหาหนังหมาป่ามาให้ข้า!"
+ court_ongoing.1022.c.master_of_hunt.success:0 "[master_of_hunt.GetFirstNameNoTooltip] พบและสังหารหมาป่าระหว่างการล่า"
+ court_ongoing.1022.c.master_of_hunt.success.tt:0 "ท่านได้หนังมาโดยไม่มีค่าใช้จ่าย และไม่มีความเสี่ยงต่อท่าน"
+ court_ongoing.1022.c.master_of_hunt.failure:0 "[master_of_hunt.GetFirstNameNoTooltip] พบหนังหมาป่าสำหรับซื้อ"
+ court_ongoing.1022.d:0 ""ข้าขออภัย แต่ข้าทำสิ่งนี้ไม่ได้""
+
+ court_ongoing.1023.desc:0 "สุนัขตัวโปรดตัวหนึ่งของข้าพเจ้าหายไปจากคอกสุนัข [dummy_gender.Custom('MistressMaster')] ผู้ดูแลสุนัขได้จัดให้มีการค้นหาเมื่อคืนนี้ แต่ก็กลับมามือเปล่า "ข้าพเจ้าไม่รู้เลยว่า [dog_gender.GetSheHe] ออกไปได้อย่างไร" [dummy_gender.GetWomanMan] ผมสีเทากล่าวพร้อมถอนหายใจ "สุนัขไม่น่าจะเปิดประตูเองได้..."\n\n"นายหญิง/นายท่าน [ROOT.Char.GetLadyLord] [ROOT.Char.GetFirstNameNoTooltip]!" เมื่อข้าพเจ้าหันไป ก็พบกับรอยยิ้มกว้างของ [owner.GetTitledFirstNamePossessive] ในมือของ [target.GetHerHis] มีหนังสัตว์มันวาวอยู่ผืนหนึ่ง..."
+ court_ongoing.1023.a:0 "ปล่อยข้าไว้ตามลำพัง ข้าต้องการเวลาคิด..."
+ court_ongoing.1023.b:0 "ฆาตกร! ข้าไม่อยากเห็นหน้าเจ้าอีกเลย!"
+
+ court_ongoing.1024.desc: "ภายใต้ความมืดมิดยามค่ำคืน ข้าแอบเข้าไปในคอกสุนัข ในไม่ช้าข้าก็พบเหยื่อที่สมบูรณ์แบบ \"มานี่สิ เจ้าสัตว์ร้าย\" ข้ากระซิบขณะโบกไส้กรอกชิ้นหนาต่อหน้าสิ่งมีชีวิตที่ไม่สงสัย...\n\nแต่แผนการอันแยบยลของข้ากลับพลิกผันเมื่อข้านำเสนอหนังสัตว์แก่ [target.GetTitledFirstName] ทันทีที่ [target.GetSheHe] ทอดสายตาของ[target.GetHerHis]มองมัน ข้ารู้ว่า [target.GetSheHe] จำมันได้ \"เจ้า... เจ้าฆาตกร! สุนัขตัวนั้นเหมือนลูกของข้า!\""
+ court_ongoing.1024.a:0 "ข้า... ข้าไม่รู้ว่าท่านกำลังพูดถึงอะไร!"
+
+ #GIFT: PET, by Mathilda Bjarnehed
+ court_ongoing.1030.t:1 "$court_event_title$ แมวและสุนัข"
+ court_ongoing.1030.desc:2 "ฝนกำลังเทลงมาข้างนอก [target.GetTitledFirstName] ผู้ [target.Custom('ComplimentAdjective')] ของข้าถอนหายใจขณะที่ [target.GetSheHe] มองออกไปนอกหน้าต่างที่พร่ามัว\n\n"[location.GetNameNoTooltip] ช่างน่าสังเวชเสียนี่กระไร ข้าหวังว่าจะมีใครสักคนอยู่เป็นเพื่อนข้าในช่วงวันที่ยาวนานและน่าเบื่อหน่าย..."\n\n[target.Custom('LoverPetName')] ของข้าเป็นคนรักแมวหรือคนรักสุนัขกันนะ ข้าสงสัย?"
+ court_ongoing.1030.desc.eagle: "หรือบางที[target.GetSheHe]อาจจะโปรดสหายคู่คิดเชิงกลยุทธ์มากกว่า?"
+ court_ongoing.1030.a:0 "แมวที่ฉลาดจะ ทำให้ [target.GetHerHim] มีความสุข"
+ court_ongoing.1030.a.success:0 "[target.GetShortUINameNoTooltip] รักแมวตัวนั้นมาก"
+ court_ongoing.1030.a.failure:0 "[target.GetShortUINameNoTooltip] ไม่ชอบแมวตัวนั้น"
+ court_ongoing.1030.b:0 "สุนัขที่ซื่อสัตย์จะเป็นเพื่อนที่ดีเยี่ยม"
+ court_ongoing.1030.b.success:0 "[target.GetShortUINameNoTooltip] รักสุนัขตัวนั้นมาก"
+ court_ongoing.1030.b.failure:0 "[target.GetShortUINameNoTooltip] ไม่ชอบสุนัขตัวนั้น"
+ court_ongoing.1030.d: "นกอินทรีที่ดุร้ายจะช่วยเหลือ[target.GetHerHim]ได้"
+ court_ongoing.1030.d.success: "[target.GetShortUINameNoTooltip]รักนกอินทรีตัวนี้ยิ่งนัก"
+ court_ongoing.1030.d.failure: "[target.GetShortUINameNoTooltip]ไม่ชอบนกอินทรีตัวนี้"
+ court_ongoing.1030.c:0 ""อย่ากลัวไปเลย ข้าจะอยู่เคียงข้างท่านเสมอ!""
+
+ court_ongoing.1031.start.desc:0 ""ข้าคิดอยู่นาน [ROOT.Char.Custom('LoverPetName')] ของข้า" [owner.GetTitledFirstName] กล่าวขณะที่ [owner.GetSheHe] ค่อย ๆ วางตะกร้าลงบนโต๊ะทำงานของข้า "อะไรจะเป็นเพื่อนที่สมบูรณ์แบบสำหรับสิ่งมีชีวิตที่ซื่อสัตย์ กระฉับกระเฉง และเข้าสังคมเก่ง เช่นท่าน? แล้วข้าก็นึกออก — ไม่มีอะไรจะเหมาะกับท่านไปกว่าสุนัข!"\n\n[owner.GetFirstNameNoTooltip|U] เอาผ้าห่มที่คลุมตะกร้าออก เผยให้เห็นลูกสุนัขตัวน้อย! มันกระโจนเข้าใส่ข้า สะดุดขอบตะกร้าด้วยความตื่นเต้นอย่างแท้จริง"
+ court_ongoing.1031.a:0 "โอ้! ข้าจะดูแลเจ้าอย่างดี!"
+ court_ongoing.1031.b:0 "นี่... ไม่ใช่สิ่งที่ข้าคาดหวังไว้"
+
+ court_ongoing.1032.desc:0 ""ข้าคิดอยู่นาน [ROOT.Char.Custom('LoverPetName')] ของข้า" [owner.GetTitledFirstName] กล่าวขณะที่ [owner.GetSheHe] ค่อย ๆ วางตะกร้าลงบนโต๊ะทำงานของข้า "อะไรจะเป็นเพื่อนที่สมบูรณ์แบบสำหรับสิ่งมีชีวิตที่ฉลาดและรักอิสระ เช่นท่าน? แล้วข้าก็นึกออก — ไม่มีอะไรจะเหมาะกับท่านไปกว่าแมว!"\n\n[owner.GetFirstNameNoTooltip|U] เอาผ้าห่มที่คลุมตะกร้าออก เผยให้เห็นลูกแมวตัวน้อย! มันเงยหน้ามองข้าด้วยดวงตากลมโตสี [ROOT.Char.Custom('RandomCatEyeColor')] และเริ่มส่งเสียงครางในลำคอ"
+
+ court_ongoing.1033.desc: ""ข้าคิดอยู่นานและหนักใจยิ่งนัก [ROOT.Char.Custom('LoverPetName')]ของข้า," [owner.GetTitledFirstName]กล่าวขณะที่[owner.GetSheHe]ชักชวนข้าออกไปข้างนอก [owner.GetSheHe|U]นำทางข้าไปยังผืนผ้าที่คลุมก้อนเล็กๆ บางอย่างไว้ "สหายใดเล่าจะเหมาะสมที่สุดสำหรับผู้ที่ทั้งดุดันและเปี่ยมด้วยกลยุทธ์ เช่นท่าน? แล้วข้าก็คิดออก — ไม่มีสิ่งใดจะเหมาะสมกับท่านยิ่งไปกว่านกอินทรีอีกแล้ว!"\n\n[owner.GetFirstNameNoTooltip|U]เปิดผ้าคลุมออก เผยให้เห็นลูกนกอินทรีน้อยอยู่บนคอนไม้ ดวงตาของมันถูกคลุมด้วยหมวกคลุมตาเล็กๆ เพื่อให้มันสงบ แต่เสียงร้องของมันกลับเติมเต็มข้าด้วยความตื่นเต้น"
+
+ #GIFT: Necklace, by Mathilda Bjarnehed
+ court_ongoing.1040.t:1 "$court_event_title$ ทองคำแวววาว"
+ court_ongoing.1040.end.desc: "[target.GetFirstNameNoTooltip] มองข้าอยู่นาน \"สร้อยคอของ [necklace_owner.GetLadyLord|U] [necklace_owner.GetFirstNamePossessiveNoTooltip] งดงามยิ่งนัก\" [target.GetSheHe] กล่าวและพยักศีรษะของ[target.GetHerHis]ไปทาง [necklace_owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] \"แต่มันจะดูดียิ่งขึ้นหากอยู่รอบคอของข้า\""
+ court_ongoing.1040.a:0 "สั่งทำสร้อยคอที่เหมือนกัน"
+ court_ongoing.1040.b:0 "เสนอความช่วยเหลือแก่ [necklace_owner.GetFirstNameNoTooltip] เพื่อแลกกับสร้อยคอของ [necklace_owner.GetHerHis]"
+ court_ongoing.1040.c:0 "ขโมยมัน"
+ court_ongoing.1040.c.success:0 "ท่านขโมยสร้อยคอมาได้สำเร็จ"
+ court_ongoing.1040.c.failure:0 "ท่านถูกจับได้ในห้องของ[necklace_owner.GetFirstNamePossessiveNoTooltip]"
+
+ court_ongoing.1040.d:0 "ชมเชยรสนิยมของ[target.GetFirstNamePossessiveNoTooltip]"
+
+ #GIFT: Flower, by Mathilda Bjarnehed
+ court_ongoing.1050.t:0 "$court_event_title$ ดอกไม้หายาก"
+ court_ongoing.1050.start.desc:0 "ขณะที่ [target.Custom('LoverPetName')] ของข้าและข้าเดินเล่นในสวนของ [target_location.GetNameNoTooltip] ข้าชี้ไปยังหมู่แมกไม้รอบตัวเรา \"แม้จะงดงามเพียงใด ก็มิมีดอกไม้ใดเทียบเคียงความงามของท่านได้เลย [target.GetLadyLord] ของข้า\"\n\n\"มีอยู่ดอกหนึ่ง\" [target.GetSheHe] กล่าวพร้อมรอยยิ้มเจ้าเล่ห์ \"กล้วยไม้หายากจาก [orchid_origin.GetNameNoTierNoTooltip] ซึ่งแทบจะเป็นไปไม่ได้เลยที่จะเพาะปลูก\""
+ court_ongoing.1050.monastery.desc:0 "ซากอารามใน [orchid_location.GetNameNoTooltip] เป็นสถานที่เดียวที่มันเจริญเติบโตได้ในภูมิภาคนี้""
+ court_ongoing.1050.temple.desc:0 "สวน[target_host.GetFaith.HouseOfWorship]ร้างใน [orchid_location.GetNameNoTooltip] เป็นสถานที่เดียวที่มันเจริญเติบโตได้ในภูมิภาคนี้""
+ court_ongoing.1050.a:0 "แน่นอนว่าข้าสามารถหาพ่อค้าที่ยินดีขายให้ข้าได้"
+ court_ongoing.1050.b:0 ""ข้าจะบุกฝ่าซากปรักหักพังเพื่อท่าน!""
+ court_ongoing.1050.b.success:0 "ท่านพบกล้วยไม้ในซากปรักหักพัง"
+ court_ongoing.1050.b.soft_failure:0 "ท่านค้นหาทั้งวัน แต่ไม่พบอะไรเลย"
+ court_ongoing.1050.b.hard_failure:0 "ท่านได้รับบาดเจ็บเมื่อปีนหอคอย"
+ court_ongoing.1050.b.friend.success:0 "[helpful_friend.GetShortUIName|U] พบกล้วยไม้ในซากปรักหักพัง"
+ court_ongoing.1050.b.friend.soft_failure:0 "[helpful_friend.GetShortUIName|U] ไม่พบอะไรเลย"
+ court_ongoing.1050.b.friend.hard_failure:0 "[helpful_friend.GetShortUIName|U] ได้รับบาดเจ็บในซากปรักหักพัง"
+ court_ongoing.1050.b.friend:0 "[helpful_friend.GetTitledFirstNameNoTooltip] อาจจะช่วยข้าได้"
+ court_ongoing.1050.b.friend.f:0 "ตัวเลือกนี้มีให้ เนื่องจากทักษะ[prowess|E]ที่สูงของสหาย [helpful_friend.GetShortUINamePossessive] ของท่าน"
+ court_ongoing.1050.c:0 "แทบจะเป็นไปไม่ได้รึ? ข้ามีมันอยู่ในคอลเลกชันของข้าแล้ว!"
+ court_ongoing.1050.c.friend.f:0 "ตัวเลือกนี้มีให้ เนื่องจากลักษณะนิสัยนักสมุนไพรของสหาย [helpful_friend.GetShortUINamePossessive] ของท่าน"
+ court_ongoing.1050.d:0 ""ข้าได้ยินมาว่าซากปรักหักพังมีผีสิง...""
+ court_ongoing.1050.e:0 ""แน่นอนว่าพวกมันต้องซีดจางเมื่อเทียบกับใบหน้าที่งดงามของท่าน!""
+ court_ongoing.1050.f:0 ""บางทีข้าอาจจะได้เห็นมัน สักวันหนึ่ง""
+
+ 
+
+ #COMPLIMENT POEM, by Mathilda Bjarnehed
+ court_ongoing.1100.t:1 "$court_event_title$ สิทธิ์ของกวี"
+ court_ongoing.1100.desc:0 "ไม่มี [target.GetWomanMan] ใดน่ารักไปกว่า [target.GetTitledFirstName]! เมื่ออยู่ต่อหน้า [target.GetHerHis] คำพูดของข้ามักจะติดขัด — ไม่มีคำชมใดของข้าที่คู่ควรกับ [target.GetHerHim] เลย บางทีบทกวีที่ร่างขึ้นอย่างระมัดระวังอาจจะสามารถถ่ายทอดคุณธรรมของ [target.GetHerHis] ได้ดีกว่า?\n\nข้าจะเขียนเกี่ยวกับ [target.GetHerHis]..."
+ court_ongoing.1100.compliment.tt:0 "คำตอบของ [target.GetTitledFirstNamePossessive] จะขึ้นอยู่กับว่าบทกวีนั้นเหมาะสมกับ [target.GetHerHim] เพียงใด"
+ court_ongoing.1100.success.tt:0 "[target.GetFirstNameNoTooltip] ตอบสนองในเชิงบวก"
+ court_ongoing.1100.neutral.tt:0 "[target.GetFirstNameNoTooltip] ไม่ตอบสนอง"
+ court_ongoing.1100.failure.tt:0 "[target.GetFirstNameNoTooltip] ตอบสนองในเชิงลบ"
+
+ court_ongoing.1100.compassionate:0 "หัวใจที่เมตตาและเปี่ยมความรู้สึก"
+ court_ongoing.1100.bold:0 "ความกล้าหาญอันดุเดือด"
+ court_ongoing.1100.honorable:1 "ความชอบธรรมอันสูงส่ง"
+ court_ongoing.1100.greed:0 "ความทะเยอทะยานอันสูงส่ง"
+ court_ongoing.1100.rational:0 "ปัญญาอันไร้ที่สิ้นสุด"
+ court_ongoing.1100.zealous:0 "ศรัทธาอันแรงกล้า"
+ court_ongoing.1100.energetic:0 "ความกระฉับกระเฉงของวัยเยาว์"
+ court_ongoing.1100.forgiving:0 "ธรรมชาติแห่งการให้อภัย"
+ court_ongoing.1100.beautiful:0 "รูปลักษณ์อันงดงาม"
+ court_ongoing.1100.strong:0 "ความแข็งแกร่งของร่างกาย"
+ court_ongoing.1100.extroverted:0 "กิริยาท่าทางที่มีเสน่ห์"
+ court_ongoing.1100.dominant:0 "การแสดงตนอย่างมั่นใจ"
+ court_ongoing.1100.fallback:0 "กวีนิพนธ์ไม่ใช่จุดแข็งของข้า"
+
+ court_ongoing.1101.t:1 "แด่ [target.GetTitledFirstNameNoTooltip]ผู้งามเลิศ[target.Custom('RomanticComplimentAdjective')]"
+ court_ongoing.1101.desc:0 "[owner.Custom2('love_letter_compliment_system', SCOPE.sC('target'))]"
+ court_ongoing.1101.a.good:0 "[owner.GetSheHe|U] ได้จับแก่นแท้ของข้าไว้บนแผ่นหนัง!"
+ court_ongoing.1101.a.bad:0 "ช่างแปลกประหลาด! ทว่ามัน... มีเสน่ห์"
+ court_ongoing.1101.c.good:0 "ช่างอวดดีเสียนี่กระไร"
+ court_ongoing.1101.c.bad:0 "[owner.GetSheHe] กำลังพยายามดูถูกข้ารึ?!"
+
+ court_ongoing.1102.t:1 "แด่ [owner.GetTitledFirstNameNoTooltip]ผู้งามเลิศ[owner.Custom('RomanticComplimentAdjective')]"
+ court_ongoing.1102.desc:0 "[target.Custom2('love_letter', SCOPE.sC('owner'))]"
+ court_ongoing.1102.a:0 "[target.GetSheHe|U] ต้องชอบบทกวีของข้าแน่!"
+
+ court_ongoing.1103.t:1 "[target.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ court_ongoing.1103.a:0 "[target.GetSheHe] กำลัง... เยาะเย้ยข้ารึ?"
+
+
+ #Dealing with competition, by Mathilda Bjarnehed
+ court_ongoing.1110.t:0 "$court_event_title$ การแข่งขัน"
+ court_ongoing.1110.desc:0 "ระยะหลังนี้ การไปเยือน [target.GetFirstName] ของข้าทุกครั้งล้วนถูกทำลายโดย [competitor.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]! [competitor.GetSheHe|U] ติดตาม [target.GetHerHim] ไปทุกหนทุกแห่ง ประดุจลูกสุนัขหลงทาง ความพยายามของ [competitor.GetHerHis|U] ที่จะเอาใจ [target.GetLadyLord] นั้นน่าหัวเราะยิ่งนัก แต่ข้าก็เกรงว่าความพากเพียรของ [competitor.GetHerHis] จะได้รับรางวัลตอบแทน"
+ court_ongoing.1110.a:0 "การประลองจะพิสูจน์ว่าใครคู่ควร!"
+ court_ongoing.1110.a.success:0 "ท่านชนะการประลอง"
+ court_ongoing.1110.a.failure:0 "ท่านแพ้การประลอง"
+ court_ongoing_1110.competitor_remains.tt:0 "[competitor.GetShortUIName|U] ยังคงเกี้ยวพาราสี [target.GetShortUIName]"
+ court_ongoing.1110.b:0 "กรณี "อาหารเป็นพิษ" ที่ "โชคร้าย" จะได้ผล"
+ court_ongoing.1110.b.success:0 "[competitor.GetShortUINameNoTooltip] สร้างฉากน่าอับอายในงานเลี้ยงอาหารค่ำ"
+ court_ongoing.1110.b.failure:0 "[competitor.GetShortUINameNoTooltip] สังเกตเห็นเมื่อท่านเทยาพิษลงในถ้วยของ [competitor.GetHerHis]"
+ court_ongoing.1110.b.murder:0 "ยาพิษมีฤทธิ์ #EMP แรงเกินไป#!"
+ court_ongoing.1110.c:0 "ความรักของ [competitor.GetHerHis|U] นั้นไม่จริงแท้ เหรียญทองจะชักจูงให้ [competitor.GetHerHim] หยุดได้"
+ court_ongoing.1110.c.success:0 "[competitor.GetShortUINameNoTooltip] รับสินบน"
+ court_ongoing.1110.c.failure:0 "[competitor.GetShortUINameNoTooltip] บอก [target.GetShortUINameNoTooltip] เกี่ยวกับข้อเสนอของท่าน"
+ court_ongoing.1111.t:0 "เป็นที่นิยม"
+ court_ongoing.1111.start.desc:0 "[owner.GetTitledFirstName] ไม่ใช่คนเดียวที่พยายามเอาชนะใจข้า บ่อยครั้งขึ้นเรื่อย ๆ ที่ข้าถูกเข้าหาโดย [competitor.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] และคำชมของ [competitor.GetHerHis] ก็เปลี่ยนจากสุภาพเป็นสนิทสนม\n\n"
+ court_ongoing.1111.duel_success.desc:0 "[owner.GetTitledFirstNameNoTooltip] มิได้พอใจกับการเอาอกเอาใจของ [competitor.GetFirstNamePossessiveNoTooltip] [owner.GetSheHe|U] ท้าทาย [competitor.GetFirstNameNoTooltip] ประลอง! เมื่อข้าไปถึง การประลองก็สิ้นสุดลงแล้ว [owner.GetTitledFirstNameNoTooltip] ยืนหยัดอย่างผู้มีชัยเหนือศัตรูที่บอบช้ำของ [owner.GetHerHis]"
+ court_ongoing.1111.duel_failure.desc:0 "[owner.GetTitledFirstNameNoTooltip] มิได้พอใจกับการเอาอกเอาใจของ [competitor.GetFirstNamePossessiveNoTooltip] [owner.GetSheHe|U] ท้าทาย [competitor.GetFirstNameNoTooltip] ประลอง! เมื่อข้าไปถึง การประลองก็สิ้นสุดลงแล้ว [competitor.GetTitledFirstNameNoTooltip] ยืนหยัดอย่างผู้มีชัยเหนือศัตรูที่บอบช้ำของ [competitor.GetHerHis]"
+ court_ongoing.1111.poison_success.desc:0 "แต่คืนนี้ ที่งานเลี้ยงอาหารค่ำ [competitor.GetTitledFirstNameNoTooltip] ดื่มมากเกินไปและอาเจียนรดชุดของข้า! โดยไม่เสียเวลาแม้ แต่วินาทีเดียว [owner.GetTitledFirstNameNoTooltip] ก็เข้ามาช่วยข้าจากความเลอะเทอะ"
+ court_ongoing.1111.poison_failure.desc:0 "บัดนี้ [competitor.GetTitledFirstNameNoTooltip] บอกข้าว่า [owner.GetTitledFirstNameNoTooltip] ถูกขับเคลื่อนด้วยความหึงหวงจนเสียสติและพยายามวางยาพิษ [competitor.GetHerHim]!"
+
+ court_ongoing.1111.a.success:0 "โอ้ [owner.GetTitledFirstNameNoTooltip]! ช่างกล้าหาญเสียนี่กระไร!"
+ court_ongoing.1111.a.duel_failure:0 "[owner.GetTitledFirstNameNoTooltip]ผู้น่าสงสาร! ให้ข้าดูแลรอยถลอกของท่านเถิด"
+ court_ongoing.1111.a.poison_failure:0 "[owner.GetTitledFirstNameNoTooltip] จะไม่มีวันใช้กลอุบายอันน่ารังเกียจ เช่นนี้!"
+ court_ongoing.1111.b.poison_success:0 "ปล่อยข้าไว้! ข้าจัดการเองได้!"
+ court_ongoing.1111.b.poison_failure:0 "ท่านทำได้อย่างไร [owner.GetTitledFirstNameNoTooltip]?!"
+ court_ongoing.1111.b.duel_success:0 "การทะเลาะวิวาทแบบเด็กๆ #EMP ไม่#! ทำให้ข้าประทับใจ"
+ court_ongoing.1111.b:0 "ความหึงหวงไม่เหมาะกับท่าน [owner.GetTitledFirstNameNoTooltip]"
+ court_ongoing.1111.c.duel_failure:0 "โอ้ [competitor.GetTitledFirstNameNoTooltip]! ท่านช่างกล้าหาญเสียนี่กระไร!"
+ court_ongoing.1111.c:0 "[competitor.GetTitledFirstNameNoTooltip]ผู้น่าสงสาร! หัวใจข้าเจ็บปวดเพื่อท่าน!"
+ court_ongoing.1111.d:0 "ข้าทนพวกท่านทั้งสองไม่ไหวแล้ว!"
+
+ court_ongoing.1112.desc:0 "[competitor.GetTitledFirstName] ไม่มีทางสู้พลังของข้าได้เลย! ความพ่ายแพ้ของ [competitor.GetHerHis|U] ช่างน่าอับอายยิ่งนัก — และ [target.Custom('LoverPetName')] [target.GetFirstName] ของข้าก็เห็นเหตุการณ์ทั้งหมด! [target.GetSheHe|U] มิได้ให้ความสนใจ [competitor.GetHerHim] อีกเลยนับ แต่นั้น"
+ court_ongoing.1112.a:0 "ศัตรูอีกคนถูกกำจัด!"
+
+ court_ongoing.1113.desc:0 "ดูเหมือนว่าข้าจะประเมินความสามารถของ [competitor.GetTitledFirstNamePossessive] ต่ำไป — ความพ่ายแพ้ของข้าด้วยน้ำมือของ [competitor.GetHerHis] นั้นเจ็บปวดและน่าอับอายเท่าๆ กัน สิ่งเดียวที่ปลอบใจข้าได้คือ [target.GetTitledFirstName] มิได้อยู่ที่นั่นเพื่อเป็นพยาน"
+ court_ongoing.1113.a:0 "ลืมเรื่องทั้งหมดนี้ไปเถอะ..."
+ court_ongoing.1113.b:0 "ข้าจะแก้แค้นให้ได้! เชื่อคำพูดของข้า!"
+
+ court_ongoing.1114.desc:0 "ไม่มีสิ่งใดเทียบได้กับความพึงพอใจของแผนการที่ดำเนินไปอย่างสมบูรณ์แบบ!\n\nไม่มีผู้ใดสังเกตเห็นขณะที่ข้าเทยาพิษลงในถ้วยของ [competitor.GetTitledFirstNamePossessive] และภาพที่ตามมานั้นจะไม่มีวันถูกลืมเลือนในเร็ววันนี้! [competitor.GetSheHe|U] อาเจียนรด [target.Custom('GetClothingArticle')] ของ [target.GetFirstNamePossessive] และ [target.GetSheHe] ก็รู้สึกขอบคุณอย่างใหญ่หลวงเมื่อข้าโฉบเข้าไปช่วย [target.GetHerHim] จากความโกลาหลนั้น"
+ court_ongoing.1114.a:0 "[target.GetSheHe|U] จะไม่มองไปทาง [competitor.GetHerHis] อีกเลย!"
+
+
+ court_ongoing.1115.desc:0 "ปรากฏว่า [competitor.GetTitledFirstName] ช่างสังเกตมากกว่าที่ข้าให้เครดิต [competitor.GetHerHim] ไว้มาก [competitor.GetSheHe|U] จับข้าได้คาหนังคาเขาเมื่อข้าพยายามวางยาพิษในถ้วยของ [competitor.GetHerHis] และเขาก็ฟ้องข้าในทันที!"
+ court_ongoing.1115.a:0 "มันไม่ใช่สิ่งที่เห็น..."
+
+ court_ongoing.1116.desc:0 "ส่วนแรกของแผนการของข้าดำเนินไปอย่างสมบูรณ์แบบ ไม่มีผู้ใดเห็นข้าเมื่อข้าเทยาพิษลงในถ้วยของ [competitor.GetTitledFirstNamePossessive] อย่างไรก็ตาม ดูเหมือนว่าข้าจะประเมินฤทธิ์ของมันต่ำไป\n\nเพียงไม่กี่วินาทีหลังจากที่ [competitor.GetFirstNameNoTooltip] ยกเครื่องดื่มขึ้นจรดริมฝีปาก [competitor.GetSheHe] ก็เริ่มสำลัก! ก่อนที่ผู้ใดจะช่วยเหลือได้ [competitor.GetSheHe] ก็ล้มลงในสตูว์ของ [competitor.GetHerHis] สิ้นใจตายสนิท"
+ court_ongoing.1116.a:0 "อย่างน้อย [competitor.GetSheHe] ก็จะไม่มาเกี้ยว [target.GetFirstNameNoTooltip] อีกต่อไป"
+
+ # Boring party guest
+ court_ongoing.1120.t:0 "$court_event_title$ $court_ongoing.1121.t$"
+ court_ongoing.1120.desc:0 "ข้ากำลังเข้าร่วมงานเต้นรำใน [target_location.GetNameNoTooltip] เพื่อใช้เวลากับ [target.GetTitledFirstName] เพียงแค่คิดว่าจะได้สัมผัสมือ หัวใจข้าก็เต้นระรัว! แต่เมื่อข้าไปถึง ข้ากลับพบ[target.GetHerHim]ติดพันสนทนากับ [unpleasant_guest.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]\n\n[unpleasant_guest.GetWomanMan][unpleasant_guest.Custom2('InsultAdjective', ROOT.Char)]ผู้นั้นพูดพร่ำไม่หยุด โดยไม่รับรู้ถึงความอึดอัดของ [target.GetFirstNamePossessiveNoTooltip] เลยแม้ แต่น้อย"
+ court_ongoing.1120.a:0 "#EMP "สิ่งรบกวน"#! เล็กน้อยดูเหมือนจะเหมาะสม"
+ court_ongoing.1120.a.failure:0 "บทสนทนาน่าเบื่ออย่างยิ่ง"
+ court_ongoing.1120.b:0 "เสน่ห์ของข้าปรับปรุงบทสนทนาใดๆ ได้!"
+ court_ongoing.1120.c:0 "ข้าจะรับหน้าที่แทน [target.GetHerHis] ให้ข้าทนทุกข์ดีกว่า [target.GetHerHim]"
+ court_ongoing.1120.d:0 ""พอแล้ว! ท่านกำลัง ทำให้ใต้เท้า[target.GetLadyLord]เบื่อตาย!""
+ court_ongoing.1120.e:0 "ข้าจะไม่ไปไหนใกล้ๆ [unpleasant_guest.GetWomanMan]คนนั้น!"
+
+
+ court_ongoing.1121.t:0 "การทักทายอันไม่น่าพอใจ"
+ court_ongoing.1121.start.desc:0 "เมื่อข้าส่งคำเชิญไปงานเต้นรำ ข้าตั้งตารอคอยค่ำคืนแห่งมิตรภาพที่ดีและความสนุกสนานอันไร้สาระ แต่ข้ากลับพบว่าตัวเองติดอยู่กับการสนทนาอันน่าสะพรึงกลัวกับ [unpleasant_guest.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]...\n\n"
+ court_ongoing.1121.diplomacy.desc:0 "\"สวัสดีตอนเย็น\" เสียงที่คุ้นเคยทักทาย — [owner.GetTitledFirstName] เข้าร่วมการสนทนา [owner.GetSheHe|U] เป็นผู้ฟังที่ตั้งใจ และในไม่ช้าความสนใจของ [unpleasant_guest.GetFirstNamePossessiveNoTooltip] ก็มุ่งไปที่ [owner.GetHerHim] อย่างเต็มที่ ข้าจึงเป็นอิสระที่จะหลบหนีไปได้"
+ court_ongoing.1121.intrigue.desc:1 ""ขออภัยอย่างสุดซึ้ง แต่มีสถานการณ์เร่งด่วนที่ต้องการความสนใจจากท่าน [unpleasant_guest.Custom2('RelationToMeAddress', owner)]" เสียงที่คุ้นเคยนั้นไม่ใช่ใครอื่นนอกจาก [owner.GetTitledFirstName] [owner.GetSheHe|U] ขยิบตาให้ข้าขณะที่ [owner.GetSheHe] ทำท่าให้ [unpleasant_guest.GetFirstNameNoTooltip] ตามไป"
+ court_ongoing.1121.insult.desc:1 ""ข้าคิดว่า [ROOT.Char.GetLadyLord] พอแล้ว" [owner.GetWomanMan] คนหนึ่งขัดจังหวะ — คือ [owner.GetTitledFirstName]! "ท่านบอกไม่ได้หรือว่าท่านกำลัง ทำให้ [ROOT.Char.GetHerHim] เบื่อ [unpleasant_guest.Custom2('RelationToMeAddress', owner)]?""
+ court_ongoing.1121.a:0 "บทเรียนทางการทูตที่มีประโยชน์ แม้จะไม่น่าพอใจ!"
+ court_ongoing.1121.a.critical_success:0 "ท่านเรียนรู้กลอุบายทางการทูตใหม่"
+ court_ongoing.1121.a.success:0 "ความเข้าใจทางการทูตของท่านเพิ่มขึ้น"
+ court_ongoing.1121.b:0 "บทเรียนในการใช้เล่ห์เหลี่ยมที่มีประโยชน์ แม้จะไม่น่าพอใจ!"
+ court_ongoing.1121.b.critical_success:0 "ท่านเรียนรู้กลอุบายใหม่"
+ court_ongoing.1121.b.success:0 "ความเข้าใจในกลอุบายของท่านเพิ่มขึ้น"
+ court_ongoing.1121.c:0 ""แน่นอน ข้าทนพอแล้ว""
+ court_ongoing.1121.c.success:0 "[unpleasant_guest.GetShortUIName|U] ชื่นชมความซื่อสัตย์ของท่าน"
+ court_ongoing.1121.c.failure:0 "[unpleasant_guest.GetShortUIName|U] รู้สึกถูกดูหมิ่น"
+ court_ongoing.1121.d:0 "[ROOT.Char.GetTitleAsNameNoTooltip]มีเวลาให้ทุกคน [owner.GetFirstNameNoTooltip] ควรรู้ไว้"
+ court_ongoing.1121.e:0 "ข้าจะไม่ทนอยู่นานเกินกว่าที่จำเป็น!"
+ 
+
+ #EXTREME REQUEST — CHOOSE, by Linnéa Thimrén
+ court_ongoing.1201.t:0 "คำขอ"
+ court_ongoing.1201.desc:0 ""[target.GetLadyLord|U] [target.GetFirstName] ให้ข้าพิสูจน์ความทุ่มเทของข้าที่มีต่อท่านในทุกวิถีทางที่ท่านเห็นสมควร!" [owner.GetTitledFirstName] วิงวอนให้ข้าออกแบบการทดสอบความทุ่มเทของ [owner.GetHerHis] — การกระทำที่ข้าพอใจ ข้าจะให้ [owner.GetHerHim] งดเว้นจากการ... เป็นเวลาหลายวัน"
+ court_ongoing.1201.a:0 "การนอนหลับ — จงปกป้องข้าจากฝันร้าย!"
+ court_ongoing.1201.a_success:0 "การเฝ้าระวังของ [owner.GetHerHis|U] ทำให้ข้าพักผ่อนได้อย่างสนิทใจ"
+ court_ongoing.1201.a_failure:0 "[owner.GetSheHe|U] ล้มเหลวในหน้าที่ของ [owner.GetHerHis]"
+ court_ongoing.1201.b:0 "อาหาร — ความรักที่ท่านมีต่อข้าควรเป็นเครื่องหล่อเลี้ยงที่เพียงพอ"
+ court_ongoing.1201.b_success:0 "[owner.GetSheHe|U] พิสูจน์ความทุ่มเทของ [owner.GetHerHis]"
+ court_ongoing.1201.c:0 "ข้าไม่สนใจที่จะทดสอบ [owner.GetHerHim]"
+
+ #EXTREME REQUEST — SLEEP, by Linnéa Thimrén
+ court_ongoing.1211.t:1 "$court_event_title$ คำขอ"
+ court_ongoing.1211.desc_opening:0 ""[target.GetLadyLord|U] [target.GetFirstName] ให้ข้าพิสูจน์ความทุ่มเทของข้าที่มีต่อท่านในทุกวิถีทางที่ท่านเห็นสมควร!"\n\n[target.GetFirstNameNoTooltip] ใคร่ครวญคำขออยู่ครู่หนึ่งก่อนที่ใบหน้าของ [target.GetHerHis] จะสว่างขึ้น"
+ court_ongoing.1211.desc:0 ""ข้าถูกฝันร้ายรบกวนเมื่อเร็วๆ นี้ หากท่านภักดีต่อข้าอย่างแท้จริง ท่านจะยืนยามอยู่นอก [target.Custom('GetChambersOrTent')] ของข้าและ ทำให้แน่ใจว่าไม่มีความชั่วร้ายใดมาถึงข้า""
+ court_ongoing.1211.a:0 "ท่านจะนอนหลับอย่างไม่ถูกรบกวน!"
+ court_ongoing.1211.a.success:0 "ท่านสามารถตื่นอยู่ได้"
+ court_ongoing.1211.a.failure:0 "ความง่วงงุนครอบงำท่าน"
+ court_ongoing.1211.b:0 "ปล่อยให้ข้าไม่ถูกรบกวนทั้งคืน แล้วข้าจะยืนยาม"
+ court_ongoing.1211.b.tt:0 "ไม้กวาดที่คลุมด้วยเสื้อคลุมของข้าก็สามารถต่อสู้กับฝันร้ายได้ เช่นกัน"
+ court_ongoing.1211.b.success:0 "ไม่มีใครเปิดโปงกลอุบาย"
+ court_ongoing.1211.b.failure:0 "[target.GetSheHe|U] สังเกตเห็นการหลอกลวง"
+ court_ongoing.1211.c:0 "ข้าจะไม่ทำ"
+
+ court_ongoing.1212.desc:0 "เมื่อดวงอาทิตย์ขึ้นหลังจากคืนแห่งการนอนหลับที่ดีอีกคืน ข้าทำอะไรไม่ได้นอกจากขอบคุณ [owner.GetTitledFirstName] ที่ยืนยามอยู่นอก [ROOT.Char.Custom('GetChambersOrTent')] ของข้า ทำให้การพักผ่อนของข้าสงบและไม่ถูกรบกวน"
+ court_ongoing.1212.a:0 "ผู้พิทักษ์ผู้กล้าหาญของข้า!"
+
+ court_ongoing.1213.desc:0 "ขณะที่ข้ากำลังเคลิ้มหลับ ในกลางดึกที่มืดมิดที่สุด ทันใดนั้นข้าก็ได้ยินเสียง #EMP ตุ้บ#!! ดังลั่น เมื่อแอบมองออกไปนอก [ROOT.Char.Custom('GetChambersOrTent')] ข้าก็เห็นไม่ใช่ใครอื่นนอกจาก [owner.GetTitledFirstName] หลับสนิทอยู่บนพื้น"
+ court_ongoing.1213.a:0 "ผู้พิทักษ์ผู้กล้าหาญของข้า..."
+
+ court_ongoing.1214.desc:0 "\n\nข้าถึงกับแอบมองออกไปนอกประตูสองสามครั้งเพื่อพบว่า [owner.GetHerHim] ยืนตัวตรงแข็งทื่อ ไม่เคยแม้ แต่จะโอนเอน"
+
+ court_ongoing.1215.desc:0 "ขณะที่ข้ากำลังเคลิ้มหลับ ในกลางดึกที่มืดมิดที่สุด ทันใดนั้นข้าก็ได้ยินเสียง #EMP ตุ้บ#!! ดังลั่น เมื่อแอบมองออกไปนอก [ROOT.Char.Custom('GetChambersOrTent')] ข้าก็เห็นเสื้อคลุมเปล่าของ [owner.GetTitledFirstName] หมวกเกราะ และไม้กวาดล้มลงกับพื้น"
+ court_ongoing.1215.a:0 "[owner.GetSheHe|U] ตั้งใจจะหลอกข้า!"
+
+ #EXTREME REQUEST — FOOD, by Linnéa Thimrén
+ court_ongoing.1221.desc:0 ""ท่านควรจะสามารถหล่อเลี้ยงตัวเองได้ด้วยความรักที่ท่านมีต่อข้าเพียงอย่างเดียวเป็นเวลาหลายวัน""
+ court_ongoing.1221.a:0 "ความภักดีของข้าจะนำพาข้าผ่านไปได้!"
+ court_ongoing.1221.a.success:0 "ท่านสามารถหลีกเลี่ยงการยังชีพได้"
+ court_ongoing.1221.a.failure:0 "ท่านยอมจำนนต่อความต้องการของร่างกาย"
+ court_ongoing.1221.b:0 "ไม่มีเศษอาหารใดจะผ่านริมฝีปากเหล่านี้ไปได้!"
+ court_ongoing.1221.b.tt:0 "แต่ข้าจะไม่ปฏิเสธก้อนใหญ่ หรือชิ้น..."
+
+ court_ongoing.1222.desc:0 "[owner.GetTitledFirstName] ดูซูบผอมลงเรื่อย ๆ ใน แต่ละวันที่ผ่านไป แต่ถึงแม้ร่างกายของ [owner.GetHerHis] จะเหี่ยวเฉาลง เจตจำนงและความทุ่มเทของ [owner.GetHerHis] ก็ยังคงแข็งแกร่ง\n\nข้าพบ [owner.GetHerHim] เพื่อประกาศว่าการท้าทายสำเร็จแล้ว และสิ่งแรกที่ออกจากริมฝีปากของ [owner.GetHerHis] คือคำสัญญาแห่งความซื่อสัตย์อีกครั้ง"
+ court_ongoing.1222.a:0 "ใต้เท้า[owner.GetLadyLord]ผู้ภักดีของข้า!"
+
+ court_ongoing.1223.desc:0 "[owner.GetTitledFirstName] ดูผอมโซลงเรื่อยๆ ใน แต่ละวันที่ผ่านไป"
+ court_ongoing.1223.desc_ending:0 "แต่ ขณะที่ข้ามองหา [owner.GetHerHim] เพื่อประกาศว่าการท้าทายสำเร็จแล้ว ข้าพบ [owner.GetHerHim] ในห้องเก็บเสบียง ปกคลุมไปด้วยเศษขนมปังและกำลังเขมือบกงชีสทั้งก้อน"
+ court_ongoing.1223.a:0 "ข้าเห็นท่านพบแหล่งยังชีพอื่นแล้ว..."
+
+ court_ongoing.1225.desc:1 "[owner.GetTitledFirstName] ดูเหมือนจะรับมือกับการถือศีลอดได้ค่อนข้างดี และเมื่อข้าตามหา [owner.GetHerHim] เพื่อแสดงความประหลาดใจและชื่นชม ข้าก็พบว่าทำได้อย่างไร\n\nเสื้อคลุมทั้งตัวของ [owner.GetHerHis|U] อัดแน่นไปด้วยอาหาร! ดูจากสีหน้าละอายของ [owner.GetHerHis] แล้ว ข้าไม่ควรจะเห็นสิ่งนั้น..."

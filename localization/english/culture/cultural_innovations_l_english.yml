@@ -1,0 +1,469 @@
+﻿l_english: 
+ cb_discount_prestige_10:1 "ค่าใช้จ่าย [casus_belli|E] [prestige|E]: [prestige_i]#P -10%#!"
+ cb_discount_piety_10:1 "ค่าใช้จ่าย [casus_belli|E] [piety|E]: [piety_i]#P -10%#!"
+ individual_county_de_jure_cb:0 "[county|E] เดี่ยวตาม [de_jure|E]"
+ individual_duchy_de_jure_cb:0 "[duchy|E] เดี่ยวตาม [de_jure|E]"
+ multiple_claim_wars:1 "สามารถใช้ [claims|E] หลายข้อของท่านในสงครามเดียวได้"
+ multiple_claim_wars_others:0 "สามารถใช้ [claims|E] หลายข้อแทนตัวละครอื่นในสงครามเดียวได้"
+ fabricate_claim_speed:1 "ความเร็วภารกิจ [councillor_task|E] #V $task_fabricate_claim$#!: #P +50%#!"
+ promote_culture_speed:1 "ความเร็วภารกิจ [councillor_task|E] #V $task_promote_culture$#!: #P +15%#!"
+ same_culture_group_reduced_factionalism:1 "[vassals|E] ซึ่งมี [culture|E] ที่มี [heritage|E] ร่วมกับท่าน มีโอกาสน้อยลงที่จะเข้าร่วม [independence_factions|E]"
+ reduce_develop_county_penalty_01:0 "เคาน์ตีจะถึงบทลงโทษ [existing_development|E] สูงสุดที่ [development|E] 20 หน่วย"
+ reduce_develop_county_penalty_02:0 "เคาน์ตีจะถึงบทลงโทษ [existing_development|E] สูงสุดที่ [development|E] 35 หน่วย"
+ reduce_develop_county_penalty_03:0 "เคาน์ตีจะถึงบทลงโทษ [existing_development|E] สูงสุดที่ [development|E] 55 หน่วย"
+ reduce_develop_county_penalty_04:0 "เคาน์ตีจะถึงบทลงโทษ [existing_development|E] สูงสุดที่ [development|E] 90 หน่วย"
+ culture_parameter_cheaper_book_inspiration: "ค่าใช้จ่าย[inspiration|E] [artifact|E]ตำรา: #P -50%#!"
+ culture_parameter_reduces_court_fashion_costs_parameter: "[SelectLocalization( HasDlcFeature( 'royal_court' ), 'reduces_court_fashion_costs_roco', 'blank_line' )]"
+ reduces_court_fashion_costs_roco: "ค่าใช้จ่าย$court_fashion$ [court_amenities|E]: #P -50%#!"
+
+ unlock_tribal_economic_buildings:0 "ปลดล็อก [economic_buildings|E] ทั้งหมดในยุคชนเผ่า"
+ unlock_tribal_military_buildings:0 "ปลดล็อก [military_buildings|E] ทั้งหมดในยุคชนเผ่า"
+ unlock_tribal_fortification_buildings:0 "ปลดล็อก [fortification_buildings|E] ทั้งหมดในยุคชนเผ่า"
+ unlock_early_medieval_economic_buildings:0 "ปลดล็อก [economic_buildings|E] ทั้งหมดในยุคกลางตอนต้น"
+ unlock_early_medieval_military_buildings:0 "ปลดล็อก [military_buildings|E] ทั้งหมดในยุคกลางตอนต้น"
+ unlock_early_medieval_fortification_buildings:0 "ปลดล็อก [fortification_buildings|E] ทั้งหมดในยุคกลางตอนต้น"
+ unlock_high_medieval_economic_buildings:0 "ปลดล็อก [economic_buildings|E] ทั้งหมดในยุคกลางตอนสูง"
+ unlock_high_medieval_military_buildings:0 "ปลดล็อก [military_buildings|E] ทั้งหมดในยุคกลางตอนสูง"
+ unlock_high_medieval_fortification_buildings:0 "ปลดล็อก [fortification_buildings|E] ทั้งหมดในยุคกลางตอนสูง"
+ unlock_late_medieval_economic_buildings:0 "ปลดล็อก [economic_buildings|E] ทั้งหมดในยุคกลางตอนปลาย"
+ unlock_late_medieval_military_buildings:0 "ปลดล็อก [military_buildings|E] ทั้งหมดในยุคกลางตอนปลาย"
+ unlock_late_medieval_fortification_buildings:0 "ปลดล็อก [fortification_buildings|E] ทั้งหมดในยุคกลางตอนปลาย"
+ culture_parameter_unlock_late_medieval_gunpowder_units: "สามารถเกณฑ์ [GetMaA('handgunners').GetName] ในฐานะ [men_at_arms|E]"
+ culture_parameter_unlock_fire_lancers_units: "สามารถเกณฑ์ [GetMaA('fire_lancers').GetName] ในฐานะ [men_at_arms|E]"
+ culture_parameter_unlock_powder_magazines: "ปลดล็อกสาย[buildings|E] [GetBuilding('powder_magazine_01').GetTypeName|V]"
+ unlocks_naval_raiding:0 "ปลดล็อกความสามารถในการ [raid|E] ข้ามทะเล หากท่านสามารถ [raid|E] ได้อยู่แล้ว"
+ unlocks_sailable_major_rivers:1 "ปลดล็อกความสามารถในการเดินเรือในแม่น้ำสายหลัก"
+ unlocks_adventure_intent: "ปลดล็อก #V การผจญภัย#! [raid_intent|E]"
+ unlock_wind_furnaces: "ปลดล็อกสาย [buildings|E] $building_type_wind_furnace_01$ ใน [holdings|E] ชายฝั่งใน [GetGeographicalRegion('world_india').GetName]"
+ culture_parameter_unlock_dragon_kiln_buildings: "ปลดล็อกสาย[duchy_buildings|E] [GetBuilding('dragon_kiln_01').GetTypeName|V] ซึ่งสามารถสร้างได้ใน[terrain|E] #V $terrain_mountains$#!, #V $terrain_desert_mountains$#!, หรือ #V $terrain_hills$#!"
+
+ culture_parameter_nomad_motte_innovation_bonus: "หาก [nomadic|E] จะเพิ่มโอกาสได้รับ #V ผลกระทบอื่น ๆ#! จาก [raid_intents|E]"
+ nomad_motte_innovation_bonus_desc: "เพิ่มโอกาสเกิด #V ผลกระทบอื่น ๆ#! จาก [raid_intents|E]"
+ nomad_innovation_development_01_bonus: "[SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_nomadic' ), 'nomad_innovation_development_01_bonus_desc', 'blank_line' )]"
+ nomad_innovation_development_01_bonus_desc: "ค่าใช้จ่ายในการก่อสร้าง [domicile_building|E] ของ [nomad|E] ด้วย [gold|E]: #P -20%#!"
+ nomad_innovation_gavelkind_bonus: "[SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_nomadic' ), 'nomad_innovation_gavelkind_bonus_desc', 'blank_line' )]"
+ nomad_innovation_gavelkind_bonus_desc: "คะแนน [obedience|E] ของ [courtiers|E], [vassals|E], และ [tributaries|E]: #P +10#!"
+
+ unlock_march_contract:0 "ปลดล็อก #high [vassal_contract|E] [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_march' )]#! "
+ unlock_castellan_contract: "ปลดล็อก #high [vassal_contract|E] [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_castellan' )]#! "
+ unlock_scutage_contract:0 "ปลดล็อก #high [vassal_contract|E] [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_scutage' )]#! "
+ unlock_palatinate_contract:0 "ปลดล็อก #high [vassal_contract|E] [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_palatinate' )]#! "
+ unlock_fortification_rights_contract:0 "ปลดล็อก #high [vassal_contract|E] [GetSubjectContractType( 'fortification_rights' ).GetObligationName( 'fortification_rights_granted' )]#! "
+ unlock_coinage_rights_contract:0 "ปลดล็อก #high [vassal_contract|E] [GetSubjectContractType( 'coinage_rights' ).GetObligationName( 'coinage_rights_granted' )]#! "
+
+##############
+# Tribal Era #
+##############
+
+ #Military
+ innovation_motte:0 "มอตต์"
+ innovation_motte_desc:0 "เรียบง่าย แต่ได้ผล การสร้างปราสาทของเราบนเนินดินยกสูงเป็นวิธีที่ดีที่สุด เพื่อให้แน่ใจว่าเราจะได้เปรียบเชิงชัยภูมิเหนือศัตรูอย่างแท้จริง"
+
+ innovation_motte_chinese: "Hāng Tu" # 夯土
+ innovation_motte_chinese_desc: "เรียบง่าย ทว่าทรงประสิทธิภาพ การสร้างป้อมปราการของเราจากดินบดอัดคือวิถีอันประเสริฐที่สุดที่จะรับประกันว่า เราจะได้เปรียบเหนือศัตรูจากที่สูงอย่างแท้จริง"
+
+ innovation_motte_actual_motte: "มอตต์"
+ innovation_motte_actual_motte_desc: "$innovation_motte_desc$"
+
+ innovation_catapult:0 "โอเนเจอร์"
+ innovation_catapult_desc:0 "แม้จะบรรจุและยิงได้ช้า แต่เครื่องดีดหินพลังงานบิด เช่นนี้ช่วยให้เราโจมตีป้อมปราการข้าศึกได้ขณะที่อยู่นอกระยะยิงของพลธนูฝ่ายนั้น"
+
+ innovation_catapult_chinese: "หน้าไม้กลไกโจมตี"
+ innovation_catapult_chinese_desc: "หน้าไม้กลขนาดใหญ่ที่เคลื่อนย้ายได้ ประกอบด้วยคันหน้าไม้หลายอันที่วางตรงข้ามกันเพื่อเพิ่มระยะน้าวสายและอานุภาพ มักติดตั้งบนโครงรถลากเพื่อความคล่องตัวในการเคลื่อนที่"
+
+ innovation_barracks:0 "โรงทหาร"
+ innovation_barracks_desc:0 "การสร้างอาคารเฉพาะสำหรับให้ทหารของเราพักอาศัย จะช่วยให้แน่ใจว่าเรามีพื้นที่เพียงพอรองรับกองทัพที่กำลังเติบโตของเรา"
+
+ innovation_mustering_grounds:0 "ลานรวมพล"
+ innovation_mustering_grounds_desc:0 "เพียงแค่มีคนที่เต็มใจสู้เพื่อเรานั้นไม่เพียงพอที่จะชนะสงคราม การจัดสรรพื้นที่สำหรับให้ผู้คนทั้งฝึกซ้อมและรวมพลเพื่อการรบ จะช่วยให้เราสนับสนุนกลุ่มนักรบที่มีประสบการณ์มากขึ้น ซึ่งสามารถนำเราไปสู่ชัยชนะได้"
+
+ innovation_bannus:0 "บานนุส"
+ innovation_bannus_desc:0 "บนพื้นฐานของอำนาจในการบัญชาการรบ บานนุสให้ผู้ปกครองของเรามีอำนาจบังคับไพร่ให้ต่อสู้เพื่อตน ก่อเกิดเป็นพื้นฐานทางกฎหมายสำหรับการระดมพลกองทัพขนาดใหญ่"
+ eligible_accolade_vanguard_attribute_ACCOLADES_DLC:0 "[knights|E] ของ [culture|E] นี้จะมีสิทธิ์ได้รับ [accolades|E] ประเภท [GetAccoladeType('vanguard_attribute').GetName]"
+ eligible_accolade_vanguard_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_vanguard_attribute_ACCOLADES_DLC')]"
+ unlock_maa_armored_footmen: "ปลดล็อก [men_at_arms|E] [GetMaA('armored_footmen').GetName]"
+ unlock_maa_onager: "สามารถเกณฑ์ [GetMaA('onager').GetName] เป็น [men_at_arms|E] ได้"
+
+ innovation_quilted_armor:0 "เกราะผ้าบุนวม"
+ innovation_quilted_armor_desc:0 "สร้างขึ้นจากผ้าลินินนับสิบชั้นหรือมากกว่าเย็บติดกัน เสื้อเกราะเหล่านี้สามารถหยุดแม้กระทั่งลูกธนูหนัก ๆ ได้ และเป็นวิธีที่ไม่แพงสำหรับเราในการจัดหาเกราะให้ทั้งกรมทหารสำหรับการรบ"
+
+ #Civic
+ innovation_gavelkind:0 "กาเวลไคนด์"
+ innovation_gavelkind_desc:0 "เสถียรภาพและความเจริญรุ่งเรืองเป็นของคู่กัน แทนที่จะให้ข้าหลวงแย่งชิงอำนาจเมื่อกษัตริย์องค์เก่าสวรรคต เราสามารถกำหนดระบบการสืบทอดมรดกที่กำหนดไว้ล่วงหน้าและเท่าเทียม ซึ่งจะขจัดความไม่มั่นคงส่วนใหญ่ที่เกิดขึ้นตามปกติในการสืบทอดตำแหน่ง"
+
+ innovation_crop_rotation:0 "การปลูกพืชหมุนเวียน"
+ innovation_crop_rotation_desc:0 "การเปลี่ยนจากรูปแบบการทำนาแบบสองแปลงดั้งเดิมมาเป็นการปลูกพืชหมุนเวียนแบบสามแปลง จะช่วยให้เราปลูกพืชผลได้มากขึ้นใน แต่ละปีโดยไม่ ทำให้ดินในนาของเราเสื่อมโทรม"
+
+ innovation_city_planning:0 "การวางผังเมือง"
+ innovation_city_planning_desc:0 "การออกแบบผังเมืองก่อนที่เราจะเริ่มก่อสร้าง จะช่วยให้เราสร้างที่ดินถือครองใหม่ในทำเลที่ตั้งทางยุทธศาสตร์ ซึ่งใช้งานได้ดีและสวยงามน่ามองกว่าที่ดินเก่า ๆ ที่เกิดขึ้นอย่างสะเปะสะปะเมื่อเวลาผ่านไป"
+
+ innovation_casus_belli:0 "เหตุแห่งสงคราม"
+ innovation_casus_belli_desc:0 "อำนาจคือธรรมเป็นกฎของแผ่นดินมาหลายชั่วอายุคน แต่หากเรามีเหตุผลอันชอบธรรมสำหรับสงครามของเรา เราก็จะสามารถหลีกเลี่ยงการยั่วยุความโกรธเคืองของเพื่อนบ้านและการตอบโต้ที่มักจะตามมาได้"
+
+ innovation_plenary_assemblies:0 "สมัชชาเต็มคณะ"
+ innovation_plenary_assemblies_desc:0 "เพื่อให้การปกครองมีประสิทธิภาพ เราต้องนำไพร่ทุกคนในอาณาจักรมารวมกันเพื่อหารือและแก้ไขปัญหาทางกฎหมาย การเข้าร่วมเป็นข้อบังคับ และผู้ที่ไม่มาจะถูกปรับและถูกริบสิทธิ์ในการมีอิทธิพลต่อการตัดสินใจใด ๆ ที่เกิดขึ้น"
+
+ innovation_development_01:0 "งานสาธารณะ"
+ innovation_development_01_desc:0 "การให้ทุนสนับสนุนการก่อสร้างงานสาธารณะ เช่น ถนน โรงเรียน และสะพานส่งน้ำ จะช่วยให้ชุมชนของเราเติบโตมีขนาดใหญ่ขึ้น สร้างความมั่นคงให้แก่ความเจริญรุ่งเรืองของประชาชนของเราไปอีกหลายชั่วอายุคน"
+
+ innovation_currency_01:0 "เงินตรา"
+ innovation_currency_01_desc:0 "การแลกเปลี่ยนสิ่งของนั้นช้าและไม่มีประสิทธิภาพ การนำเงินตราที่ได้รับการยอมรับอย่างเป็นทางการมาใช้ เช่น เบี้ยหอยหรือก้อนโลหะ จะช่วยส่งเสริมการค้าและเพิ่มการแพร่กระจายของแนวคิดภายในอาณาจักรของเรา"
+
+ innovation_ledger:0 "สมุดบัญชี"
+ innovation_ledger_desc:0 "เมื่อดินแดนของเราเติบโตขึ้น เราต้องการวิธีที่ดีกว่าในการติดตามสิ่งที่เราเป็นเจ้าของ การดูแลสมุดบัญชีทรัพย์สินของเราจะช่วยให้แน่ใจว่าเรารู้เสมอว่าเรามีทรัพยากรอะไรบ้างที่พร้อมใช้"
+
+ #Regional
+ innovation_viking_tradition:0 "ยุทธวิธีไวกิ้ง"
+ innovation_viking_tradition_desc:0 "ผู้คนทางเหนือมีประเพณีการค้ามายาวนาน แต่ก็มีการกระทำเยี่ยงโจรสลัดด้วย เช่นกัน มีเพียงไม่กี่คนที่พร้อมจะต่อสู้กับภัยคุกคามที่ปรากฏขึ้นโดยไม่มีสัญญาณเตือนจากริมฝั่งแม่น้ำ และนักรบไวกิ้งก็เป็นปรมาจารย์แห่งการสงคราม เช่นนั้น"
+ 
+ innovation_longboats:1 "เรือยาว"
+ innovation_longboats_desc:1 "เรือยาวของเราเป็นเรือเดินทะเลที่น่าเกรงขาม ซึ่งสามารถเดินทางไปได้เกือบทุกที่และแม้กระทั่งฝ่าฟันสภาพอากาศเลวร้าย ทำให้เรามีความคล่องตัวเป็นพิเศษในทะเล"
+
+ innovation_war_camels:0 "อูฐศึก"
+ innovation_war_camels_desc:0 "อูฐมีความเหมาะสมตามธรรมชาติในการอาศัยอยู่ในภูมิประเทศทะเลทราย แต่โดยธรรมชาติแล้วไม่ใช่สัตว์สำหรับการรบ ผู้เพาะพันธุ์และผู้ฝึกของเราสามารถเปลี่ยนแปลงสิ่งนี้ได้ ทำให้เราเข้าถึงทหารม้าที่ปรับตัวได้ ซึ่งจะช่วยให้เราเชี่ยวชาญผืนทราย"
+ eligible_accolade_camelry_attribute_ACCOLADES_DLC:0 "[knights|E] ของ [culture|E] นี้จะมีสิทธิ์ได้รับ [accolades|E] ประเภท [GetAccoladeType('camelry_attribute').GetName]"
+ eligible_accolade_camelry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_camelry_attribute_ACCOLADES_DLC')]"
+
+ innovation_elephantry:0 "การใช้ช้างศึก"
+ innovation_elephantry_desc:0 "ช้างเลี้ยงยากในกรง ดังนั้นควาญช้าง แต่ละคนต้องจับช้างป่าของตนเองและฝึกฝน นี่หมายความว่ามีศิลปะอันละเอียดอ่อนในการใช้สัตว์ใหญ่เหล่านี้ในการรบอย่างเหมาะสม แต่มันเป็นศิลปะที่เราทุ่มเทเพื่อฝึกฝนให้เชี่ยวชาญ"
+ eligible_accolade_elephantry_attribute_ACCOLADES_DLC:0 "[knights|E] ของ [culture|E] นี้จะมีสิทธิ์ได้รับ [accolades|E] ประเภท [GetAccoladeType('elephantry_attribute').GetName]"
+ eligible_accolade_elephantry_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_elephantry_attribute_ACCOLADES_DLC')]"
+ 
+ innovation_wootz_steel:0 "เหล็กวูทซ์"
+ innovation_wootz_steel_desc:0 "หรือที่รู้จักกันในชื่อเหล็กฮินดูวานีหรือเหล็กเซริก โลหะที่มีคาร์บอนสูงนี้ยอดเยี่ยมสำหรับการทำอาวุธ เหล็กวูทซ์มีการซื้อขายกันอย่างแพร่หลายและถือเป็นเหล็กกล้าที่ดีที่สุดในโลก ตลอดประวัติศาสตร์ส่วนใหญ่ มันดึงดูดความสนใจของพ่อค้าชาวอาหรับ อียิปต์ จีน และแม้กระทั่งโรมัน"
+ 
+ innovation_african_canoes:0 "เรือแคนูแอฟริกาตะวันตก"
+ innovation_african_canoes_desc:0 "เรือแคนูขนาดใหญ่ของแอฟริกาตะวันตกยอดเยี่ยมสำหรับการเดินทางในแม่น้ำและช่วยให้เราขนส่งทหารไปยังที่ที่เราต้องการได้อย่างรวดเร็ว"
+ 
+ innovation_table_of_princes:0 "โต๊ะแห่งเจ้าชาย"
+ innovation_table_of_princes_desc:0 "โต๊ะแห่งเจ้าชายคือบัลลังก์ของราชวงศ์โบฮีเมีย โดยผู้ที่นั่ง ณ โต๊ะนั้นจะได้รับการยอมรับว่าเป็นผู้ปกครองที่ชอบธรรม ภายใต้ประมวลกฎหมายอาวุโสในราชวงศ์ ตำแหน่งต่าง ๆ จะมอบให้กับสมาชิกที่อาวุโสที่สุดที่ยังมีชีวิตอยู่ในราชวงศ์ผู้ปกครอง"
+ unlock_single_heir_dynasty_house_changing:0 "สามารถบัญญัติ $single_heir_dynasty_house$ ได้ไม่ว่า [crown_authority|E] จะอยู่ในระดับใด"
+
+
+ tradition_visigothic_codes_name:0 "$innovation_visigothic_codes$"
+ tradition_visigothic_codes_desc:0 "$innovation_visigothic_codes_desc$"
+ innovation_visigothic_codes:0 "ประมวลกฎหมายวิซิกอท"
+ innovation_visigothic_codes_desc:0 "แม้ว่าประเพณีเก่าแก่หลายอย่างของชาววิซิกอทจะเลือนหายไปจากโลกนานแล้ว แต่ลูกหลานแห่งเทือกเขาพิรินียังคงจดจำวิถีโบราณ และวิธีแบ่งที่ดินระหว่างบุตรชายและบุตรสาวอย่างเป็นธรรมและเหมาะสมกับการใช้งาน"
+ unlock_equal_succession_changing:0 "สามารถบัญญัติ [law|E] $equal_law$ ได้ไม่ว่า [crown_authority|E] จะอยู่ในระดับใด"
+
+######################
+# Early Medieval Era #
+###################### 
+ 
+ #Military 
+ innovation_battlements:0 "ใบสอ"
+ innovation_battlements_desc:0 "นอกเหนือจากการเสริมความแข็งแกร่งให้แก่หอรบแล้ว การสร้างกำแพงชั้นนอกที่ทนทาน ซึ่งพลธนูของเราสามารถประจำการได้อย่างปลอดภัย จะช่วยเพิ่มการป้องกันอีกชั้นให้แก่ปราสาทของเราจากการโจมตี"
+
+ innovation_mangonel:0 "แมงโกเนล"
+ innovation_mangonel_desc:0 "การปรับปรุงที่สำคัญต่อการออกแบบเครื่องดีดหินที่มีอยู่ของเรา แมงโกเนลที่ขับเคลื่อนด้วยแรงดึงนั้นบรรจุและยิงได้เร็วกว่าเครื่องจักรที่ขับเคลื่อนด้วยแรงบิดมาก"
+
+ innovation_mangonel_chinese: "บันไดเมฆา"
+ innovation_mangonel_chinese_desc: "บันไดโจมตีแบบบานพับที่พับเก็บได้ มักติดตั้งโล่, เครื่องกว้าน, ตะขอเกี่ยว และอุปกรณ์ยกที่ใช้ระบบรอก นอกจากนี้ยังใช้เป็นจุดสังเกตการณ์บนที่สูงระหว่างการล้อมโจมตีอีกด้วย"
+ eligible_accolade_besieger_attribute_ACCOLADES_DLC:0 "[knights|E] ของ [culture|E] นี้จะมีสิทธิ์ได้รับ [accolades|E] ประเภท [GetAccoladeType('besieger_attribute').GetName]"
+ eligible_accolade_besieger_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_besieger_attribute_ACCOLADES_DLC')]"
+
+ innovation_burhs:0 "เบอร์"
+ innovation_burhs_desc:0 "กระจายอยู่ทั่วชนบท เบอร์เป็นชุมชนป้อมปราการที่สำคัญที่เราสามารถใช้ทั้งในการรวมพลและทำหน้าที่เป็นศูนย์กลางการบริหาร"
+
+ innovation_burhs_japan: "Suki" # 柵
+ innovation_burhs_japan_desc: "นับตั้งแต่การก่อสร้าง #italic มิซุกิ#! ในรัชสมัยของจักรพรรดิเท็นจิ ความสำคัญของป้อมปราการก็ได้รับการประจักษ์คุณค่าอีกครั้ง เราสามารถใช้ศูนย์กลางที่มีป้อมปราการเหล่านี้เพื่อระดมพลและใช้เป็นศูนย์กลางการปกครองได้"
+
+ innovation_burhs_chinese: "Wū Bì" # 塢壁
+ innovation_burhs_chinese_desc: "อู ปี้ ซึ่งกระจายอยู่ทั่วชนบท คือชุมชนที่มีป้อมปราการที่สำคัญที่เราสามารถใช้ทั้งเพื่อระดมพลและใช้เป็นศูนย์กลางการปกครอง"
+
+ innovation_burhs_anglo_saxon: "เบิร์ช"
+ innovation_burhs_anglo_saxon_desc: "เบิร์ช ซึ่งกระจายอยู่ทั่วชนบท คือชุมชนที่มีป้อมปราการที่สำคัญที่เราสามารถใช้ทั้งเพื่อระดมพลและใช้เป็นศูนย์กลางการปกครอง"
+
+ innovation_burhs_latin: "คาสตรา"
+ innovation_burhs_latin_desc: "หลักการสร้างป้อมปราการ แต่โบราณยังคงมีประโยชน์ในปัจจุบัน และเราสามารถใช้ศูนย์กลางที่มีป้อมปราการเหล่านี้เพื่อระดมพลและใช้เป็นศูนย์กลางการปกครองได้"
+
+ innovation_house_soldiers:0 "ทหารประจำตระกูล"
+ innovation_house_soldiers_desc:0 "เมื่อตระกูลขุนนางของเราเติบโตในอำนาจ พวกเขาต้องการทหารเพื่อบังคับใช้ความประสงค์ของตน การจัดตั้งหน่วยทหารประจำตระกูลโดยเฉพาะ จะช่วยให้แน่ใจว่าเรามีกองกำลังที่ได้รับการฝึกฝนและติดอาวุธดีกว่าไพร่พลเกณฑ์มาตรฐาน"
+
+ innovation_horseshoes:0 "เกือกม้า"
+ innovation_horseshoes_desc:0 "ม้าที่กีบเท้าแตกจะขาเป๋อย่างรวดเร็วและไม่สามารถทำงานหรือขี่เข้าสู่การรบได้ การตอกเกือกม้าด้วยแผ่นทองแดงหรือเหล็ก จะช่วยให้กีบเท้าของพวกมันแข็งแรงและได้รับการปกป้องจากความเสียหาย"
+
+ innovation_arched_saddle:0 "อานม้าทรงโค้ง"
+ innovation_arched_saddle_desc:0 "ทหารม้าเบาเป็นกองกำลังที่น่าเกรงขาม แต่พวกเขายังไม่ได้ใช้ศักยภาพของม้าศึกอย่างแท้จริง อานม้าทรงโค้งช่วยให้เราส่งนักรบหุ้มเกราะหนักพร้อมทวนยาวที่ถือแนบลำตัวลงสนาม ซึ่งช่วยให้พวกเขาใช้ประโยชน์จากแรงผลักดันได้อย่างเต็มที่ขณะพุ่งเข้าใส่แนวข้าศึก"
+ eligible_accolade_lancer_attribute_ACCOLADES_DLC:0 "[knights|E] ของ [culture|E] นี้จะมีสิทธิ์ได้รับ [accolades|E] ประเภท [GetAccoladeType('lancer_attribute').GetName]"
+ eligible_accolade_lancer_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_lancer_attribute_ACCOLADES_DLC')]"
+ unlock_maa_armored_horsemen: "สามารถเกณฑ์ [GetMaA('armored_horsemen').GetName] เป็น [men_at_arms|E] ได้"
+
+ #Civic
+ innovation_hereditary_rule:0 "การปกครองแบบสืบสันตติวงศ์"
+ innovation_hereditary_rule_desc:0 "การแบ่งอาณาจักรอย่างเท่าเทียมกันในหมู่ทายาทที่มีสิทธิ์ทั้งหมด ทำให้ความเป็นปึกแผ่นของประชาชนเราแตกแยก แทนที่จะฉีกอาณาจักรของเราเป็นชิ้น ๆ ทุกครั้งที่มีการสืบทอดตำแหน่ง เราสามารถสร้างความมั่นใจว่าเราจะมีดินแดนศูนย์กลางที่มั่นคงและเจริญรุ่งเรืองโดยการจัดตั้งระบบการปกครองแบบสืบสันตติวงศ์"
+
+ innovation_manorialism:0 "ระบบแมเนอร์"
+ innovation_manorialism_desc:0 "ด้วยการรวมศูนย์การถือครองที่ดินภายใต้ชนชั้นสูงของเรา ชายและหญิงจำนวนมากพบว่าตนเองไม่สามารถทำงานได้ เราจะจัดตั้งระบบแมเนอร์ที่ไพร่สามารถทำงานในที่นาของเราแลกกับค่าเช่า ในขณะที่ผู้ที่ไม่สามารถจ่ายได้อาจเข้ารับใช้เราในฐานะทาสติดที่ดินแทน"
+
+ innovation_royal_prerogative:0 "พระราชอำนาจพิเศษ"
+ innovation_royal_prerogative_desc:0 "เนื่องจากราชวงศ์ของเรามีภาระมากขึ้นจากความรับผิดชอบในการปกครองอาณาจักร พวกเขาจึงจะได้รับสิทธิพิเศษที่สงวนไว้สำหรับพวกเขาโดยเฉพาะด้วย เช่นกัน"
+
+ innovation_chronicle_writing:0 "การเขียนพงศาวดาร"
+ innovation_chronicle_writing_desc:0 "เรื่องราววีรกรรมของตระกูลเราจะไม่ถูกส่งต่อผ่านเพียงประเพณีมุขปาฐะอีกต่อไป เราจะเก็บบันทึกทุกสิ่งที่เราทำสำเร็จ ทั้งเพื่อสร้างแรงบันดาลใจให้คนรุ่นหลัง และเพื่อพิสูจน์สิทธิ์เรียกร้องของเราเหนือดินแดนที่เราควรจะถือครองอย่างชอบธรรม"
+
+ innovation_armilary_sphere:0 "แบบจำลองทรงกลมท้องฟ้า"
+ innovation_armilary_sphere_desc:0 "ประกอบด้วยโครงทรงกลมของวงแหวนที่เคลื่อนที่ได้ อุปกรณ์เหล่านี้ช่วยให้เราทำแผนที่และทำนายการเคลื่อนที่ของสรวงสวรรค์ได้ แม้จะเป็นอุปกรณ์ทางโหราศาสตร์ที่น่าทึ่งในตัวเอง แต่ความรู้นี้ก็จะช่วยเหลือกัปตันของเราในการเดินเรือในน่านน้ำที่ห่างไกลจากแผ่นดินด้วย"
+
+ innovation_baliffs:0 "เจ้าพนักงาน"
+ innovation_baliffs_desc:0 "กษัตริย์ไม่สามารถอยู่ทุกที่ได้ในคราวเดียว การ แต่งตั้งเจ้าพนักงานเพื่อบังคับใช้กฎหมายของกษัตริย์ทั่วทั้งอาณาจักร จะช่วยให้เราปกครองพื้นที่ขนาดใหญ่ได้อย่างมีประสิทธิภาพมากกว่าที่เราจะทำได้"
+
+ innovation_baliffs_bailiffs: "เจ้าพนักงานท้องถิ่น"
+ innovation_baliffs_bailiffs_desc: "$innovation_baliffs_desc$"
+
+ innovation_baliffs_latin: "โปเตสตัส"
+ innovation_baliffs_latin_desc: "ชาวโรมันโบราณนิยามอำนาจของเจ้าหน้าที่ในการสร้าง, บังคับใช้ และตัดสินกฎหมายว่า #italic โปเตสตัส#! ซึ่งเป็นแนวคิดที่ใช้มอบอำนาจแก่ฝ่ายตุลาการเพื่อบังคับใช้กฎหมายทั่วทั้งอาณาจักร ด้วยการมอบ #italic โปเตสตัส#! ให้แก่เจ้าพนักงานท้องถิ่น เราจะสามารถปกครองพื้นที่ที่กว้างใหญ่ขึ้นได้อย่างมีประสิทธิภาพมากกว่าที่เป็นอยู่"
+
+ innovation_development_02:0 "การปกครองชุมชน"
+ innovation_development_02_desc:0 "เมืองขนาดใหญ่มักเผชิญกับปัญหาที่ซับซ้อนมากขึ้นเรื่อย ๆ การมอบอำนาจบางส่วนให้กับสภาท้องถิ่นจะช่วยให้พวกเขาแก้ไขปัญหาเหล่านี้ได้โดยไม่จำเป็นต้องให้กษัตริย์เข้ามาเกี่ยวข้อง"
+
+ innovation_currency_02:0 "เหรียญกษาปณ์"
+ innovation_currency_02_desc:0 "เงินตราที่ไม่มีการควบคุมนั้นควบคุมได้ยากและขาดเสถียรภาพ เหรียญกษาปณ์ที่ผลิตขึ้น วัดตามน้ำหนักเฉพาะ และประทับตราหลวง ให้ความมั่นใจใหม่แก่ธุรกรรมทางการค้า"
+
+ #Regional
+
+ innovation_reconquista:1 "การขยายอำนาจทางจิตวิญญาณ"
+ innovation_reconquista_desc:0 "เนื่องจากมัว แต่ต่อสู้กันเอง เราจึงทนต่อการมีอยู่ของพวกนอกศาสนาในฮิสปาเนียนานเกินไป ถึงเวลาแล้วที่เราจะรวบรวมกำลังเพื่อขับไล่พวกเขาออกจากดินแดนนี้ให้สิ้นซาก!"
+
+ innovation_stem_duchies:0 "ชตัมเมสแฮร์โซกทุม"
+ innovation_stem_duchies_desc:0 "แม้จะมาจากชนเผ่าต่าง ๆ แต่เราตระหนักถึงความสำคัญของความสามัคคีและความร่วมมือ เอกราชถูกให้ค่าสูงเกินไปเมื่อเสถียรภาพคือสิ่งที่นำไปสู่ความปลอดภัยและความเจริญรุ่งเรือง"
+
+ innovation_ghilman:0 "กิลมาน"
+ innovation_ghilman_desc:0 "ทาสทหารที่จับมาเป็นเชลยศึก กิลมานเป็นนักรบที่ทุ่มเท ซึ่งทั้งภักดีต่อเรามากกว่าและจ่ายค่าจ้างถูกกว่าทหารรับจ้างทั่วไป"
+
+#####################
+# High Medieval Era #
+#####################
+
+ #Military
+ innovation_hoardings:0 "เชิงเทินไม้"
+ innovation_hoardings_desc:0 "ติดตั้งอยู่บนยอดใบสอของเรา โครงสร้างไม้เหล่านี้ยื่นออกไปเหนือฐานกำแพงปราสาทของเรา\n\nมันช่วยให้ผู้ป้องกันของเรายิงธนู ทิ้งหิน หรือเทน้ำมันเดือดใส่ผู้โจมตีได้ ในขณะที่ยังคงได้รับการปกป้องอย่างสมบูรณ์จากพลธนูข้าศึก"
+
+ innovation_trebuchet:0 "เทรบูเชต"
+ innovation_trebuchet_desc:0 "สิ่งมหัศจรรย์ทางวิศวกรรม เทรบูเชตที่ใช้ตุ้มน้ำหนักถ่วงสามารถเหวี่ยงกระสุนหนักได้ไกลกว่าเครื่องยิงในยุคก่อนหน้าใด ๆ"
+
+ innovation_trebuchet_chinese: "หอคอยเคลื่อนที่"
+ innovation_trebuchet_chinese_desc: "เพื่อพิชิตหอคอยหินของศัตรู หอคอยไม้สูงติดล้อเหล่านี้จะถูกผลักเข้าไปประชิด ทำให้ทหารสามารถเข้าถึงกำแพงศัตรูโดยมีความปลอดภัยในระดับหนึ่ง"
+
+ innovation_castle_baileys:0 "ลานปราสาท"
+ innovation_castle_baileys_desc:0 "ในขณะที่หอรบทำหน้าที่เป็นหัวใจของปราสาท แต่ก็ยังห่างไกลจากการเป็นอาคารสำคัญเพียงแห่งเดียว การสร้างอาคาร เช่นคอกม้าและคลังอาวุธในลานปราสาทที่มีการป้องกัน จะช่วยให้แน่ใจว่าเราสามารถจัดกองรักษาการณ์และจัดเตรียมอาวุธให้ไพร่พลของเราได้อย่างเหมาะสมไม่ว่าในสถานการณ์ใด"
+ 
+ innovation_men-at-arms:0 "ทหารอาชีพ"
+ innovation_men-at-arms_desc:0 "ผู้ที่เชี่ยวชาญด้านม้าและทวนยาวจะเป็นที่ต้องการเสมอ แต่ก็ไม่ได้มีอยู่เสมอไป การจ้างกลุ่มทหารอาชีพไว้เป็นประจำ จะช่วยให้แน่ใจว่าเราจะไม่ขาดนักรบที่มีประสบการณ์เมื่อสงครามปะทุขึ้นอย่างหลีกเลี่ยงไม่ได้"
+
+ innovation_knighthood:0 "ตำแหน่งอัศวิน"
+ innovation_knighthood_desc:0 "การพระราชทานตำแหน่งอัศวินแก่นักรบที่ดีที่สุดของเราและจ่ายค่าตอบแทนพวกเขาด้วยที่ดินถือครองแทนที่จะเป็นเพียงเหรียญกษาปณ์ จะ ทำให้เรามอบเกียรติที่พวกเขาสมควรได้รับ รวมถึงประกันความภักดีที่พวกเขามีต่อเรา"
+
+ innovation_advanced_bowmaking:0 "การทำคันธนูขั้นสูง"
+ innovation_advanced_bowmaking_desc:0 "ในขณะที่พลธนูตามประเพณีแล้วจะทำและบำรุงรักษาคันธนูของตนเอง ช่างฝีมือได้เริ่มทำคันธนูประเภทใหม่ ซึ่งแข็งแรงและซับซ้อนกว่าเดิม การยอมรับการออกแบบใหม่เหล่านี้จะ ทำให้เราสามารถเปลี่ยนช่างทำคันธนูผู้เชี่ยวชาญเหล่านี้ให้กลายเป็นทรัพย์สินทางทหารอันประเมินค่ามิได้"
+ unlock_maa_crossbowmen: "สามารถเกณฑ์ [GetMaA('crossbowmen').GetName] เป็น [men_at_arms|E] ได้"
+ eligible_accolade_crossbower_attribute_ACCOLADES_DLC:0 "[knights|E] ของ [culture|E] นี้จะมีสิทธิ์ได้รับ [accolades|E] ประเภท [GetAccoladeType('crossbowmen_attribute').GetName]"
+ eligible_accolade_crossbower_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_crossbower_attribute_ACCOLADES_DLC')]"
+
+ #Civic
+
+ innovation_heraldry:0 "มุทราศาสตร์"
+ innovation_heraldry_desc:0 "การจัดตั้งการออกแบบที่สืบทอดทางสายเลือดเพื่อระบุตระกูลขุนนางของเรา จะ ทำให้สมาชิกของพวกเขาเห็นว่าตนเองเป็นส่วนหนึ่งของภาพรวมที่ใหญ่กว่า กระตุ้นให้พวกเขาปรับปรุงชื่อเสียงของราชวงศ์แทนที่จะหมกมุ่นอยู่กับสถานะส่วนตัวเพียงอย่างเดียว"
+
+ innovation_windmills:0 "กังหันลม"
+ innovation_windmills_desc:0 "การประดิษฐ์กังหันลมแนวตั้งช่วยให้เราควบคุมพลังงานลมได้อย่างมีประสิทธิภาพมากขึ้นกว่าเดิม ลดแรงงานที่จำเป็นในการบดเมล็ดธัญพืชและแปรรูปวัตถุดิบลงอย่างมาก"
+
+ innovation_divine_right:0 "เทวสิทธิ์"
+ innovation_divine_right_desc:0 "ถึงเวลาแล้วที่เราจะยอมรับว่าเป็นเจตจำนงแห่งสวรรค์ที่ได้วางผู้ปกครองของเราไว้บนบัลลังก์ของพวกเขา และการต่อต้านพวกเขาก็คือการต่อต้านสิ่งศักดิ์สิทธิ์นั่นเอง"
+
+ innovation_land_grants:0 "การมอบที่ดิน"
+ innovation_land_grants_desc:0 "ที่ดินเป็นรางวัลที่มีค่าที่สุดที่เราสามารถมอบให้กับข้าราชบริพารของเราได้ แต่มีเพียงส่วนน้อยที่เราเป็นเจ้าของโดยตรง อย่างไรก็ตาม หากเราอนุญาตให้พวกเขาเริ่มทำฟาร์มบนที่ดินรกร้างผืนนั้น... ใครจะคัดค้าน? แม้ว่าจะเกิดความขัดแย้งขึ้น เราก็จะอยู่ในฐานะที่ถูกต้องอย่างชัดเจนเมื่อเราปกป้องข้าราชบริพารของเรา!"
+
+ innovation_scutage:0 "สคิวเทจ"
+ innovation_scutage_desc:0 "การรับราชการทหารเป็นสิ่งที่คาดหวังจากข้าราชบริพารของเรามาโดยตลอด แต่มีบางคนที่ไม่สามารถหรือไม่เต็มใจที่จะให้ได้ การเสนอหนทางให้พวกเขาปฏิบัติตามพันธะด้วยเหรียญกษาปณ์แทนเหล็กกล้า จะช่วยให้แน่ใจว่าเราได้รับส่วนที่พึงได้จากทุกคน"
+
+ innovation_guilds:0 "สมาคมช่างฝีมือ"
+ innovation_guilds_desc:0 "เมื่อดินแดนของเราขยายตัว การจัดการการค้าทั้งหมดที่เกิดขึ้นภายในอาณาเขตของเราโดยตรงก็มีประสิทธิภาพน้อยลงเรื่อย ๆ การมอบกฎบัตรสมาคมให้กับองค์กรของพ่อค้าและช่างฝีมือ จะ ทำให้พวกเขามีอิสระในการดำเนินธุรกิจมากขึ้น ในขณะที่ยังคงรับประกันว่าเราจะได้กำไรจากกิจการของพวกเขา"
+
+ innovation_development_03:0 "ความเป็นเมือง"
+ innovation_development_03_desc:0 "มหานครแห่งโรม ไบแซนทิอุม และเดลี ยืนหยัดมายาวนานในฐานะสิ่งตกทอดจากมรดกอันยิ่งใหญ่ที่ไม่มีใครเทียบได้ เมื่อโครงสร้างพื้นฐานและประชากรของเราเติบโตขึ้น ในที่สุดเราก็มีหนทางที่จะพัฒนาชุมชนใหม่ ๆ ที่สามารถแข่งขันกับศูนย์กลางเมืองโบราณเหล่านี้ได้"
+
+ innovation_currency_03:0 "การธนาคาร"
+ innovation_currency_03_desc:0 "การค้าขนาดใหญ่หรือมีราคาสูงโดยเฉพาะมักต้องใช้เหรียญกษาปณ์หนักจำนวนมากที่เทอะทะ การฝากทรัพย์สมบัตินั้นไว้ในคลังที่ปลอดภัยและการโอนกรรมสิทธิ์โดยไม่ต้องเคลื่อนย้ายเหรียญจริง จะช่วยให้สินค้าจำนวนมากสามารถซื้อขายได้ง่ายขึ้น"
+
+ #Regional
+
+ innovation_east_settling:0 "ออสซีดลุง"
+ innovation_east_settling_desc:0 "ดินแดนทางตะวันออกของเรามีผู้คนอาศัยอยู่อย่างเบาบาง แต่อุดมไปด้วยทรัพยากรธรรมชาติ การริเริ่มขยายและจัดตั้งที่ดินทำกินพร้อมบ้านที่นั่นจะนำไปสู่การเติบโตและความเจริญรุ่งเรืองของประชาชนของเรา"
+
+ innovation_seigneurialism:0 "ระบบเจ้าขุนมูลนาย"
+ innovation_seigneurialism_desc:0 "การมอบหมายความรับผิดชอบมากขึ้นให้กับขุนนางท้องถิ่น จะ ทำให้พวกเขามีความสุขและ ทำให้เรามีเวลามากขึ้นในการมุ่งเน้นไปที่อาณาเขตของเราเอง"
+
+ innovation_muladi:0 "มูลดี"
+ innovation_muladi_desc:0 "สงคราม การปล้นสะดม และการกดขี่ข่มเหงทั่วโลกได้ขับไล่ผู้คนจำนวนมากออกจากบ้านเกิด การต้อนรับผู้พลัดถิ่นเหล่านี้สู่ดินแดนของเราโดยไม่คำนึงถึงภูมิหลังของพวกเขา จะ ทำให้เราสามารถพัฒนาสังคมที่ร่ำรวยและเจริญรุ่งเรืองได้"
+
+ innovation_french_peerage:0 "บรรดาศักดิ์ขุนนาง"
+ innovation_french_peerage_desc:0 "การยอมรับอย่างชอบธรรมต่อขุนนางข้าหลวงที่โดดเด่นที่สุดในอาณาจักรของเรา จะเป็นการส่งเสริมความรู้สึกภักดีต่อราชบัลลังก์ให้มากขึ้น"
+
+#####################
+# Late Medieval Era #
+##################### 
+ 
+ #Military
+ innovation_machicolations:0 "ช่องเชิงเทิน"
+ innovation_machicolations_desc:0 "การปรับปรุงที่โดดเด่นจากเชิงเทินไม้ก่อนหน้าของเรา ช่องเชิงเทินหินทำหน้าที่เดียวกัน ในขณะที่ทนทานกว่าอย่างมีนัยสำคัญและให้การป้องกันแก่ผู้ป้องกันของเรามากขึ้น"
+
+ innovation_gunpowder: "ดินปืน"
+ innovation_gunpowder_desc: "การพัฒนาผงระเบิดได้ก่อให้เกิดอาวุธสายพันธุ์ใหม่ และนักรบประเภทใหม่เพื่อใช้งานพวกมัน การนำปืนที่ทรงอานุภาพเหล่านี้เข้าสู่สนามรบ จำต้องมีสายการผลิตและห่วงโซ่อุปทาน ซึ่งไม่เคยมีความจำเป็นมาก่อนในอดีต ทว่าต้นทุนของสิ่งเหล่านี้ก็คุ้มค่าด้วยแสนยานุภาพที่ปลดล็อกโดยเทคโนโลยีใหม่นี้"
+
+ innovation_royal_armory:0 "คลังแสงหลวง"
+ innovation_royal_armory_desc:0 "เมื่อขนาดกองทัพของเราเพิ่มขึ้น เราต้องรับประกันว่าทหาร แต่ละคนจะได้รับการติดอาวุธและสวมเกราะอย่างเหมาะสม การจัดตั้งคลังแสงหลวงเพื่อผลิตและเก็บรักษาอุปกรณ์ทั้งหมดของกองทัพจะช่วยตอบสนองความต้องการนี้ได้อย่างมาก"
+
+ innovation_standing_armies:0 "กองทัพประจำการ"
+ innovation_standing_armies_desc:0 "การเกณฑ์ทหาร ทำให้เรามีทหารจำนวนมาก แต่ไม่ว่าเราจะพยายามฝึกฝนและจัดเตรียมอาวุธให้พวกเขาดีเพียงใด พวกเขาก็ยังด้อยกว่าทหารอาชีพเสมอ การจัดตั้งกองทัพประจำการขนาดใหญ่จะช่วยให้แน่ใจว่าผลประโยชน์ของอาณาจักรเราได้รับการคุ้มครองโดยนักรบที่ดีที่สุด"
+
+ innovation_sappers:0 "ทหารช่าง"
+ innovation_sappers_desc:0 "ไม่สำคัญว่ากำแพงข้าศึกจะแข็งแกร่งเพียงใดหากพื้นดินใต้นั้นสามารถขุดทะลุได้ การจ้างทหารช่างเพื่อขุดอุโมงค์ใต้ป้อมปราการข้าศึกเป็นวิธีที่มีประสิทธิภาพในการทลายแม้กระทั่งแนวป้องกันที่แข็งแกร่งที่สุด"
+
+ innovation_plate_armor:0 "เกราะแผ่น"
+ innovation_plate_armor_desc:0 "รูปแบบขั้นสูงสุดของการป้องกันส่วนบุคคล ชุดเกราะแผ่นที่สร้างขึ้นอย่างดีมีข้อต่อที่ขยับได้ ซึ่งให้ช่วงการเคลื่อนไหวที่เหนือกว่าเกราะรุ่นก่อน ๆ ในขณะที่แทบจะไม่สามารถเจาะทะลุได้ด้วยอาวุธของศัตรู"
+
+ #Civic
+
+ innovation_primogeniture:0 "สิทธิบุตรหัวปี"
+ innovation_primogeniture_desc:0 "หนึ่งอาณาจักร หนึ่งทายาท แม้ว่าพระโอรสธิดาองค์รอง ๆ ของกษัตริย์อาจรู้สึกถูกทอดทิ้งจากการถูกปฏิเสธมรดก แต่นี่เป็นวิธีที่ดีที่สุด เพื่อให้แน่ใจว่าเราจะรักษาอาณาจักรที่มั่นคง ซึ่งไม่ถูกฉีกออกเป็นเสี่ยง ๆ ด้วยวิกฤตการณ์สืบทอดราชสมบัติ"
+
+ innovation_cranes:0 "ปั้นจั่น"
+ innovation_cranes_desc:0 "สิ่งมหัศจรรย์ทางวิศวกรรมที่ถูกลืม ชาวโรมันใช้ปั้นจั่นแบบใช้แรงคนถีบอย่างมีประสิทธิภาพในการสร้างจักรวรรดิของพวกเขา และเราก็จะทำ เช่นนั้นด้วย"
+
+ innovation_noblesse_oblige:0 "พันธะแห่งขุนนาง"
+ innovation_noblesse_oblige_desc:0 "ความเป็นขุนนางเป็นมากกว่าสิทธิพิเศษและสิทธิ์ มันมาพร้อมกับหน้าที่ต่ออาณาจักร พันธะที่จะต้องกระทำในลักษณะที่เหมาะสมและยุติธรรม การกำหนดสิ่งที่คาดหวังจากชนชั้นสูงของเราอย่างชัดเจน จะ ทำให้เรามีอุดมคติที่จะยึดถือและนำเรามารวมกัน ในขณะที่เราทำงานเพื่อบรรลุเป้าหมายนั้น"
+
+ innovation_rightful_ownership:0 "กรรมสิทธิ์อันชอบธรรม"
+ innovation_rightful_ownership_desc:0 "เป็นเทวสิทธิ์ของเราที่จะครอบครองดินแดนตามนิตินัยของเรา และถึงเวลาแล้วที่โลกจะยอมรับความจริงข้อนี้ เราจะไม่ถูกฉุดรั้งด้วยพิธีการและมารยาทที่ล้าสมัยอีกต่อไป"
+
+ innovation_ermine_cloaks:0 "เสื้อคลุมขนเออร์มิน"
+ innovation_ermine_cloaks_desc:0 "ใคร ๆ ก็อาจอ้างสิทธิ์ในตำแหน่งได้ แต่การที่จะเป็นกษัตริย์ที่แท้จริง พวกเขาต้องสร้างความยำเกรงและความสง่างามในหมู่ข้าราชบริพาร เสื้อคลุมขนเออร์มินใหม่ของเราเป็นรูปแบบของเครื่องทรงกษัตริย์ ซึ่งแน่นอนว่าจะบรรลุเป้าหมายนั้นได้"
+
+ innovation_ermine_cloaks_ermine: "เสื้อคลุมขนเออร์มิน"
+ innovation_ermine_cloaks_ermine_desc: "ผู้ใดก็อาจอ้างสิทธิ์ในบรรดาศักดิ์ได้ แต่การที่จะเป็นองค์กษัตริย์อย่างแท้จริงนั้นจำต้องสร้างความน่าเกรงขามและความสูงส่งในหมู่ไพร่ฟ้าข้าแผ่นดิน เสื้อคลุมขนเออร์มินใหม่ของเราคือเครื่องทรงอันสง่างามรูปแบบหนึ่ง ซึ่งจะบรรลุจุดประสงค์นั้นได้อย่างแน่นอน"
+
+ innovation_court_officials:0 "ข้าราชสำนัก"
+ innovation_court_officials_desc:0 "อาณาจักรของเราได้ขยายตัวจนถึงจุดที่แม้ แต่ขุนนางเล็ก ๆ ก็ไม่สามารถบริหารทุกอย่างได้อย่างมีประสิทธิภาพ การ แต่งตั้งข้าราชสำนักและข้าราชการเพื่อจัดการงานราชสำนักที่น่าเบื่อกว่า จะช่วยให้แน่ใจว่ากลไกการปกครองยังคงดำเนินต่อไปอย่างราบรื่น"
+
+ innovation_development_04:0 "แนวคิดเรอเนซองส์"
+ innovation_development_04_desc:0 "การพัฒนาทางวิทยาศาสตร์ ปรัชญา และตรรกะ ได้เปลี่ยนเมืองของเราให้กลายเป็นศูนย์กลางการศึกษาและนวัตกรรมอันน่าอัศจรรย์ การก้าวกระโดดทางเทคโนโลยีและวัฒนธรรมครั้งใหญ่ที่เรากำลังทำอยู่นี้ได้นำศักยภาพที่ไม่เคยฝันถึงมาก่อนมาอยู่ในมือเรา"
+
+ innovation_currency_04:0 "ตั๋วสัญญาใช้เงิน"
+ innovation_currency_04_desc:0 "วิวัฒนาการของระบบธนาคารก่อนหน้านี้ ตั๋วสัญญาใช้เงินกระดาษช่วยให้พลเมืองของเราสามารถซื้อขายสินค้าและบริการข้ามระยะทางไกลได้อย่างรวดเร็วและปลอดภัยโดยไม่ต้องถูกถ่วงด้วยน้ำหนักของเหรียญกษาปณ์หนัก ๆ"
+
+ #Regional
+
+ innovation_wierdijks:0 "เวียร์ไดก์"
+ innovation_wierdijks_desc:0 "การสร้างเขื่อนที่แข็งแรงและเชื่อถือได้เป็นงานที่จำเป็นหากเราต้องการอาศัยและเจริญรุ่งเรืองในกลุ่มประเทศต่ำ เทคนิคใหม่ในการเสริมความแข็งแรงของเขื่อนดินด้วยเสื่อสาหร่ายจะเพิ่มความแข็งแรงและความทนทาน"
+
+ innovation_condottieri:0 "คอนดอตติเอรี"
+ innovation_condottieri_desc:0 "เนื่องจากทั้งร่ำรวยและตั้งอยู่ใจกลาง อิตาลีจึงกลายเป็นศูนย์กลางสำคัญสำหรับกองร้อยทหารรับจ้างที่จะเดินทางมาเมื่อไม่ได้อยู่ในระหว่างการทัพ เนื่องจากพวกเขาอยู่ที่นี่แล้ว เราควรจะสามารถต่อรองราคาที่ดีกว่าที่พวกเขาจะเรียกเก็บตามปกติได้"
+
+ innovation_deccan_unity:0 "เอกภาพแห่งเดคคาน"
+ innovation_deccan_unity_desc:0 "การหลั่งไหลเข้ามาของความเชื่อและศาสนาใหม่ ๆ สู่สังคมของเรา ทำให้เห็นได้ชัดว่าการมุ่งเน้นไปที่ภูมิภาคนิยมในอดีตของเราเป็นความผิดพลาด เราควรรวมกลุ่มกับผู้อื่นที่มีศรัทธาเดียวกันและสร้างรัฐที่เข้มแข็งและยั่งยืน ซึ่งสามารถยืนหยัดต่อแรงกดดันจากภายนอกได้"
+
+ students_of_knighthood:1 "เด็กที่สำเร็จ [education|E] ด้วย [education_focus|E] เชิง [martial|E] จะได้รับ [trait|E] $trait_education_martial_prowess$"
+
+ # Sponsor Research Related
+ fp3_innovation_mural_sextant: "เซกซ์แทนต์ติดผนัง"
+ fp3_innovation_mural_sextant_desc: "เครื่องมือติดผนังขนาดใหญ่เหล่านี้สามารถใช้อ่านและวัดตำแหน่งของวัตถุท้องฟ้าได้อย่างแม่นยำ"
+
+ fp3_innovation_fritware: "ฟริตแวร์"
+ fp3_innovation_fritware_desc: "เครื่องปั้นดินเผาเนื้อหินสวยงามเลียนแบบเครื่องลายครามตะวันออก โดยผสมวัสดุอย่างควอตซ์หรือแก้วเข้าไป เป็นสินค้าล้ำค่า หรือของขวัญอันน่าประทับใจ"
+ fp3_innovation_fritware_tooltip: "ได้รับ [opinion|E] จาก [send_gift|E]: #P +20%#!"
+
+ #################
+ # The Silk Road #
+ #################
+
+ culture_parameter_silk_road_innovation_parameter: "สามารถได้รับเป็น [cultural_fascination|E] ที่มีศักยภาพผ่านทาง [heritage|E] [GetCulturePillar('heritage_chinese').GetName], [tradition|E] [GetCultureTradition('tradition_sinophilic').GetName] หรือ [silk_road|E] เท่านั้น"
+
+ innovation_fire_medicine: "ยาอัคคี" # 'Huoyao,' 火藥
+ innovation_fire_medicine_desc: "การหยั่งลึกถึงปริศนาแห่งชีวิตบางครั้งก็นำไปสู่การค้นพบบางสิ่งที่สร้างเพียงความตาย ยาอัคคี ซึ่งเป็นส่วนผสมอันทรงพลังของกำมะถัน, ดินประสิว และวัสดุติดไฟบางชนิด ได้สร้างเปลวไฟมรณะที่เผาไหม้อย่างรุนแรง, เกือบจะระเบิดออกมา"
+
+ innovation_champa_rice: "ข้าวจำปา"
+ innovation_champa_rice_desc: "ข้าวต้องการเวลาและน้ำปริมาณมหาศาล — ยกเว้นข้าวจากจำปา สายพันธุ์นี้เติบโตเร็วกว่า, ทนแล้งได้ดีกว่า และให้ผลผลิตที่อุดมสมบูรณ์กว่าข้าวชนิดอื่นใดที่รู้จัก ในบางกรณี มันสามารถเก็บเกี่ยวได้ถึงสองครั้งในหนึ่งปี หากมีการจัดการอย่างเหมาะสม ข้าวนี้สามารถส่งเสริมฟาร์มและขับเคลื่อนการเติบโตของประชากรได้"
+
+ culture_parameter_champa_rice_wet_land_paddies: "สาย[buildings|E] [GetBuilding('paddy_fields_01').GetTypeName|V] สามารถสร้างได้ใน [GetTerrain( 'wetlands' ).GetName]"
+ culture_parameter_champa_rice_building_bonuses: "สาย[buildings|E] [GetBuilding('paddy_fields_01').GetTypeName|V] มอบโบนัสเพิ่มเติม"
+ building_paddy_fields_requirement_terrain_tt: "ต้องการหนึ่งในเงื่อนไขต่อไปนี้:\n$EFFECT_LIST_BULLET$[province|E] เป็น [GetTerrain( 'terraced_hills' ).GetName]\n$EFFECT_LIST_BULLET$[province|E] เป็น [GetTerrain( 'floodplains' ).GetName] และอยู่ใน [region|E] [GetGeographicalRegion('paddy_fields_region').GetName]\n$EFFECT_LIST_BULLET$[province|E] เป็น [GetTerrain( 'wetlands' ).GetName] และ [culture|E] มี [innovation|E] #V $innovation_champa_rice$#!\n$EFFECT_LIST_BULLET$[province|E] เป็น [GetTerrain( 'hills' ).GetName] หรือ [GetTerrain( 'jungle' ).GetName] และ [culture|E] มี [tradition|E] [GetCultureTradition('tradition_tgp_rice_cultivators').GetName|V]"
+
+ innovation_sericulture: "การปลูกหม่อนเลี้ยงไหม"
+ innovation_sericulture_desc: "ศิลปะการผลิตผ้าไหมเป็นกระบวนการที่ซับซ้อน แต่ให้ผลตอบแทนสูงยิ่ง ซึ่งองค์ความรู้นี้ถูกหวงแหนอย่างที่สุดโดยผู้ที่แสวงหาผลกำไรจากความเชี่ยวชาญในอุตสาหกรรมนี้"
+ culture_parameter_unlocks_silk_buildings_parameter: "ปลดล็อกสาย[domicile_buildings|E] [GetDomicileBuilding('silk_01').GetNameNoTooltip|V]"
+
+ innovation_dragon_kiln: "เตามังกร"
+ innovation_dragon_kiln_desc: "เครื่องเคลือบดินเผาชั้นเลิศสามารถผลิตได้เฉพาะในเตาเผาที่มีความเชี่ยวชาญสูง ซึ่งตั้งอยู่ใกล้แหล่งแร่ล้ำค่า เตาเผาเหล่านี้สร้างขึ้นบนเนินสูงชัน ซึ่งช่วยสร้างกระแสความร้อนวนเพื่อเผาเครื่องปั้นดินเผาที่แข็งแกร่งที่สุดเท่าที่จะเป็นได้ แม้ว่าจะสร้างได้ท้าทาย แต่ผลิตภัณฑ์ที่ได้ก็นับเป็นเครื่องปั้นดินเผาที่เป็นที่นิยมที่สุด (และทำกำไรได้มากที่สุด) ที่ราชสำนักใด ๆ รู้จัก"
+
+ innovation_rocket_cart: "เกวียนจรวด"
+ innovation_rocket_cart_chinese: "Huochē" # 火車 (Huǒchē)
+ innovation_rocket_cart_koreanic: "Hwacha" # 火車 (화차)
+ innovation_rocket_cart_desc: "ด้วยการใช้สูตรระเบิดที่หยาบกว่าที่จำเป็นสำหรับปืนใหญ่ราคาแพง ลูกธนูไฟจำนวนมหาศาลสามารถถูกยิงออกจากอุปกรณ์เพียงชิ้นเดียวได้ และ เนื่องจากลูกธนูไฟเหล่านี้ยังคงมีแรงปะทะเพียงแค่... ลูกธนู พวกมันจึงเหมาะกว่ามากสำหรับการยิง #italic จาก#! กำแพง มากกว่ายิง #italic ใส่#! กำแพง"
+ innovation_rocket_cart_chinese_desc: "$innovation_rocket_cart_desc$"
+ innovation_rocket_cart_koreanic_desc: "$innovation_rocket_cart_desc$"
+
+ innovation_compass: "เข็มทิศ"
+ innovation_compass_desc: "ด้วยหินแม่เหล็กธรรมดาชิ้นหนึ่ง ก็เป็นไปได้ที่จะล่วงรู้ทิศทางที่ผู้คนกำลังเดินทางไปได้เสมอ เมื่อเวลาผ่านไปและการพัฒนาเพิ่มเติม ในที่สุดก็อาจเป็นไปได้ที่จะนำทางโดยมิต้องหยุดถามทิศทางจากผู้ใดเลย"
+ culture_parameter_cheaper_adventure_inspiration: "ค่าใช้จ่าย[inspiration|E]การผจญภัย: #P -50%#!"
+
+ innovation_block_printing: "การพิมพ์บล็อกไม้"
+ innovation_block_printing_desc: "ด้วยการใช้ชุดบล็อกไม้แกะสลัก ทำให้สามารถรวบรวมชุดแม่พิมพ์ที่สามารถใช้ซ้ำได้หลายครั้งเพื่อทำซ้ำคำและภาพเดิม ๆ บนวัสดุใด ๆ ที่เหมาะสม สิ่งนี้ช่วยลดความซับซ้อนของกระบวนการผลิตหนังสือลงอย่างมาก ทั้งยังลดต้นทุนและ ทำให้ตัวอักษรเป็นสิ่งที่ทุกคนเข้าถึงได้มากขึ้น"
+ culture_parameter_block_printing_scriptorium_bonuses: "[SelectLocalization( HasDlcFeature( 'legends' ), 'culture_parameter_block_printing_scriptorium', 'blank_line' )]"
+ culture_parameter_block_printing_scriptorium: "สาย[buildings|E] [GetBuilding('scriptorium_01').GetTypeName|V] มอบโบนัสเพิ่มเติม"
+ culture_parameter_block_printing_university_bonuses: "[SelectLocalization( HasDlcFeature( 'wards_and_wardens' ), 'culture_parameter_block_printing_university_bonuses_text', 'blank_line' )]"
+ culture_parameter_block_printing_university_bonuses_text: "ค่าใช้จ่ายวัสดุการเรียน [GetActivityType('activity_adult_education').GetName]: #P -50%#!"
+
+ innovation_grenades: "ระเบิดมือ"
+ innovation_grenades_desc: "แม้จะมีความก้าวหน้าทั้งมวลในการสงคราม เครื่องมือโบราณสิ่งหนึ่งยังคงประเมินค่ามิได้: นั่นคือแขน ภาชนะขนาดเล็กที่บรรจุสารไวไฟหรือวัตถุระเบิดสามารถทำขึ้นและขว้างได้อย่างง่ายดายโดยทุกคนที่มีเทคนิคการขว้างที่ดี ระเบิดมือที่แจกจ่ายให้ทหารก่อนการรบสามารถให้หนทางรองแก่พวกเขาในการโจมตีและสร้างความตื่นตระหนกแก่ศัตรู"
+
+ innovation_cupellation: "การถลุงแบบคิวเพลเลชัน"
+ innovation_cupellation_desc: "เตาหลอมอุณหภูมิสูงแบบพิเศษสามารถหลอมโลหะมีค่าออกจากตัวอย่างที่ขุดได้ โดยสกัดพวกมันออกจากแร่ที่ถลุงแล้ว และผลิตตัวอย่างที่บริสุทธิ์ ซึ่งสามารถตรวจสอบเพิ่มเติมได้โดยนักประเมิน การถลุงแร่จากเหมืองตะกั่วด้วยวิธีคิวเพลเลชันเป็นวิธีที่ดีที่สุดในการระบุปริมาณเงินในเหมืองนั้น และการถลุงทองคำด้วยวิธีนี้สามารถระบุความบริสุทธิ์ของมันสำหรับศักยภาพในการผลิตเหรียญกษาปณ์ได้"
+ culture_parameter_cupellation_mine_building_bonuses: "[baronies|E] ที่มี [special_building|E] #V เหมืองแร่#! [taxes|E]ของ[holding|E]: #P @gold_icon![EmptyScope.ScriptValue('innovation_cupellation_mine_tax_bonus_value')|%0+=]#! "
+
+ innovation_lacquered_armor: "ชุดเกราะเคลือบเงา"
+ innovation_lacquered_armor_desc: "การใช้เรซินบางชนิดกับชุดเกราะอย่างพิถีพิถันช่วยเสริมความแข็งแกร่งได้อย่างมาก และช่วยให้แผ่นเหล็กที่หนักกว่าทนต่อสภาพอากาศ แม้ว่ากระบวนการนี้จะเป็นที่รู้จักมาระยะหนึ่งแล้ว แต่การใช้งานส่วนใหญ่จำกัดอยู่ที่กล่อง, ขวด และเครื่องใช้อื่น ๆ ชุดเกราะเคลือบเงาแสดงถึงหนทางใหม่ในการปกป้องทั้งทหารและยุทโธปกรณ์ของพวกเขา"
+ culture_parameter_higher_quality_armor_artifacts_parameter: "[artifacts|E]ชุดเกราะ จาก [inspirations|E]ที่[sponsored|E] และ [GetDecision('commission_artifact_decision').GetName] จะมีคุณภาพที่สูงขึ้น"
+
+ innovation_double_entry_bookkeeping: "การทำบัญชีคู่"
+ innovation_double_entry_bookkeeping_desc: "บันทึกจะต้องตามให้ทันความซับซ้อนที่เพิ่มขึ้นของการคลังและเศรษฐกิจ การบันทึกการชำระเงินเข้าและการชำระเงินออกทั้งหมดเป็นรายการแยกกันจะช่วยรักษางบดุลที่น่าเชื่อถือ และรับประกันว่ารายการจะไม่ถูกมองข้ามโดยบังเอิญ — หรือ "โดยบังเอิญ" — เมื่อทำการตรวจสอบบัญชี"
+ culture_parameter_bookkeeping_collect_taxes_bonus: "$task_collect_taxes$ [councillor_task|E]: [gold_i|E]#P +10%#!"
+
+ innovation_waterworks: "ระบบการจัดการน้ำ"
+ innovation_waterworks_desc: "น้ำคือผู้ให้ชีวิต แต่มีประโยชน์มากมายนอกเหนือจากการดับกระหายหรือชลประทานทุ่งนา หากถูกควบคุมอย่างมีศิลปะ ทรัพยากรจากฟากฟ้านี้อาจขับเคลื่อนเครื่องจักรที่แข็งแกร่งกว่าปศุสัตว์หลายเท่า, อำนวยความสะดวกในการเดินทางและการค้าตามลำคลองที่มนุษย์สร้างขึ้น หรือเพียงแค่รักษาถนนที่พลุกพล่านให้ถูกสุขอนามัยและน่าอยู่"
+ culture_parameter_unlocks_waterworks_buildings: "ปลดล็อกสาย[buildings|E] [GetBuilding('waterworks_01').GetTypeName|V]"
+
+ innovation_tiefutu: "$tiefutu$"
+ innovation_tiefutu_desc: "$tiefutu_flavor$"
+
+ innovation_bulkheads: "ผนังกั้นน้ำ"
+ innovation_bulkheads_desc: "วิธีที่แน่นอนที่สุดในการป้องกันไม่ให้เรือจมคือการไม่ ทำให้ท้องเรือแตกตั้งแต่แรก แต่หากเกิดขึ้น เรืออาจยังคงรอดได้หากท้องเรือถูกแบ่งออกเป็นส่วน ๆ โดยมีผนังกันน้ำอยู่ระหว่างนั้น แม้ว่าเรือจะเสียหาย ผนังกั้นน้ำก็สามารถป้องกันไม่ให้น้ำจมเรือทั้งลำ, ช่วยชีวิตคน, เสบียง และตัวเรือเองได้ในกระบวนการนี้"
+
+ innovation_coking: "การผลิตถ่านโค้ก"
+ innovation_coking_desc: "ถ่านไม้เป็นส่วนสำคัญของการตีเหล็ก แต่ต้องการป่าไม้ที่อุดมสมบูรณ์ในบริเวณใกล้เคียงเพื่อแปรรูปไม้ให้เป็นเชื้อเพลิงที่จำเป็นนี้ ถ่านหิน ซึ่งถูกให้ความร้อนในสิ่งที่คล้ายกับเตาเผาถ่าน สามารถแปรรูปเป็นถ่านโค้กได้ ถ่านโค้กมีประโยชน์ เช่นเดียวกับถ่านไม้ในการตีเหล็กและเพลิงอุตสาหกรรมอื่น ๆ โดยไม่จำเป็นต้องตัดไม้ทำลายป่าทั้งผืน"
+ culture_parameter_coking_smith_bonuses: "สาย[buildings|E] [GetBuilding('smiths_01').GetTypeName|V] และ [GetBuilding('blacksmiths_01').GetTypeName|V] มอบโบนัสเพิ่มเติม"
+
+ innovation_composite_crossbow: "หน้าไม้คอมโพสิต"
+ innovation_composite_crossbow_desc: "เช่นเดียวกับคันธนูทั่วไป ความแข็งแรงของคันธนูจะกำหนดพลังศักยภาพในการน้าวสาย ด้วยการเสริมความแข็งแรงของคันธนูด้วยเขา หรือแม้แต่เหล็ก น้ำหนักน้าวสาย และด้วยเหตุนี้ ระยะและพลังของหน้าไม้จึงสามารถสูงกว่าแบบที่ทำจากไม้หลายเท่า เช่นเดียวกับ ทำให้ทนทานและมีอายุการใช้งานยาวนานขึ้น"
+
+ innovation_pharmacopoeia: "ตำรับยา"
+ innovation_pharmacopoeia_desc: "แพทย์ที่ดีทุกคนจำเป็นต้องรู้วิธีผลิตยาที่ถูกต้องในเวลาที่เหมาะสม โดยใช้ส่วนผสมที่ถูกต้อง เตรียมด้วยวิธีที่ถูกต้อง ในปริมาณที่ถูกต้อง แม้ว่าองค์ความรู้นี้มักจะถูกถ่ายทอดจากอาจารย์สู่ลูกศิษย์เป็นรายบุคคล แต่การ #italic จดบันทึก#! วิธีการทำยาเฉพาะทางสามารถช่วยได้อย่างมหาศาลในการสร้างมาตรฐานและเผยแพร่การเตรียมการรักษาที่แตกต่างกัน"
+ culture_parameter_physician_pharmacopoeia_bonus: "[court_position|E] [GetCourtPositionType('court_physician_court_position').GetName()] ประสิทธิผลการรักษา: #P +20%#!"
+
+  ##################
+  # TGP Siege Units Unlock
+  ################## 
+
+  unlock_siege_maa_first_level: "[GetPlayer.Custom('GetRegionalSiegeLevel1MAA')]"
+  unlock_siege_maa_second_level: "[GetPlayer.Custom('GetRegionalSiegeLevel2MAA')]"
+  unlock_siege_maa_third_level: "[GetPlayer.Custom('GetRegionalSiegeLevel3MAA')]"
+  unlock_siege_maa_fourth_level: "[GetPlayer.Custom('GetRegionalSiegeLevel4MAA')]"
+
+  unlock_maa_ballista: "สามารถเกณฑ์ [GetMaA('ballista').GetName] ในฐานะ [men_at_arms|E]"
+  unlock_maa_cloud_ladder: "สามารถเกณฑ์ [GetMaA('cloud_ladder').GetName] ในฐานะ [men_at_arms|E]"
+  unlock_maa_siege_tower: "สามารถเกณฑ์ [GetMaA('siege_tower').GetName] ในฐานะ [men_at_arms|E]"
+  unlock_maa_cannon: "สามารถเกณฑ์ [GetMaA('cannon').GetName] ในฐานะ [men_at_arms|E]"
+  unlock_maa_bombard: "สามารถเกณฑ์ [GetMaA('bombard').GetName] เป็น [men_at_arms|E] ได้"
+  unlock_maa_trebuchet: "สามารถเกณฑ์ [GetMaA('trebuchet').GetName] เป็น [men_at_arms|E] ได้"
+  unlock_maa_mangonel: "สามารถเกณฑ์ [GetMaA('mangonel').GetName] เป็น [men_at_arms|E] ได้"
+

@@ -1,0 +1,101 @@
+﻿l_english: 
+ dungeon_ongoing.0001.t:0 "เสียงพูดคุยไม่หยุดหย่อน"
+ dungeon_ongoing.0001.desc:0 "ข้ามองไม่เห็นว่าเป็นใคร หรืออยู่ที่ไหนแน่ แต่เสียงกระซิบดัง ๆ ของพวกเขาก้องกังวานไปทั่วคุกใต้ดินอันชื้นแฉะนี้ตลอดเวลา เว้น แต่ตอนที่พวกเขากรีดร้องแทน"
+ dungeon_ongoing.0001.a:0 "หากเจ้าจะหยุดเสียบ้าง แม้เพียงชั่วครู่!"
+ dungeon_ongoing.0001.b:0 ""เจ้ากำลังพูดกับข้าอยู่หรือ สหาย?""
+
+ dungeon_ongoing.0002.t:0 "การรอคอย"
+ dungeon_ongoing.0002.desc:0 "เวลาที่ผ่านไปนี่แหละที่ ทำให้ข้าเป็นบ้า ใครจะรู้ว่าผ่านไปนานเท่าใดแล้ว หรือข้าจะต้องอยู่ที่นี่ต่อไปอีกนานเท่าใด? อาจจะเป็นชั่วโมง... หรือเป็นเดือน"
+ dungeon_ongoing.0002.a:0 "ข้าต้องออกไปจากที่นี่!"
+ dungeon_ongoing.0002.b:0 "ข้ารอได้นานเท่าที่จำเป็น"
+
+ dungeon_ongoing.0003.t:0 ""เงียบซะ!""
+ dungeon_ongoing.0003.desc:0 "ข้าตะโกนใส่พวกยามผ่านลูกกรง บอกพวกเขาว่าต้องปล่อยข้าออกไป คำตอบเดียวของพวกเขาคือการมองอย่างคุกคาม ชูกำปั้นขึ้น และคำรามว่า 'เงียบซะ'"
+ dungeon_ongoing.0003.a:0 "การอ้อนวอนต่อหน้าที่เห็นได้ชัดว่าไม่ใช่ทางออก"
+ dungeon_ongoing.0003.b:0 "เจ้าคิดว่าจะ ทำให้ข้าเงียบได้ด้วยการข่มขู่รึ?!"
+
+ dungeon_ongoing.0004.t:0 "การติดเชื้อ"
+ dungeon_ongoing.0004.desc:0 "ข้าคิดว่าแผลใกล้จะหายแล้ว แต่ตอนนี้มันเริ่มแสบร้อน ข้ามองมันไม่ถนัดในความมืด แต่สัมผัสแล้วรู้สึกว่ามันนูนขึ้นมา\n\nข้าบอกไม่ได้ว่าความชื้นที่มาพร้อมกับความเจ็บปวดแสบร้อนนี้คือเลือด หนอง หรือหยดน้ำจากอากาศชื้นแฉะ"
+ dungeon_ongoing.0004.a:0 "ได้โปรด ข้าต้องการความช่วยเหลือ..."
+ dungeon_no_response_tooltip:0 "#F ดูเหมือนไม่มีใครได้ยินเสียงร้องขอของท่าน#!"
+
+ dungeon_ongoing.0005.t:0 "ไฟมอดลง"
+ dungeon_ongoing.0005.desc:0 "ผิวหนังรอบแผลของข้ารู้สึกแข็งเหมือนไม้เปียก แต่ความรู้สึกแสบร้อนได้หายไปแล้ว ดูเหมือนว่าการติดเชื้อจะหมดไป"
+ dungeon_ongoing.0005.a:0 "ขอบคุณ [ROOT.Char.GetFaith.HealthGodName]"
+
+ dungeon_ongoing.0006.t:0 "ความมืดมนและความเศร้าโศก"
+ dungeon_ongoing.0006.desc:0 "ความหนาวเย็นตลอดเวลา ความชื้นแฉะที่ไม่เคยจางหาย และความหิวโหยที่ไม่สิ้นสุดจากข้าวต้มเหลว ๆ"
+ dungeon_ongoing.0006.a:0 "[ROOT.Char.GetFaith.HighGodName] ข้าสมควรได้รับสิ่งนี้ได้อย่างไร?!"
+ dungeon_ongoing.0006.b:0 "เอ่อ มันอาจจะแย่กว่านี้ก็ได้"
+
+ dungeon_ongoing.0007.t:0 "โหยหาบางสิ่งที่มากกว่า"
+ dungeon_ongoing.0007.desc:0 "ติดอยู่ที่นี่ในความมืดมิดขณะที่โลกภายนอกเคลื่อนไปข้างหน้า ข้าควรจะออกไปที่นั่น เอื้อมมือไปสู่สวรรค์ ไม่ใช่ถูกฝังอยู่ใต้ดิน"
+ dungeon_ongoing.0007.a:0 "ข้าคู่ควรกับสิ่งที่ดีกว่านี้มาก!"
+ dungeon_ongoing.0007.b:0 "ข้าต้องมุ่งเน้นไปที่การเอาชีวิตรอด และการเอาชีวิตรอดเพียงอย่างเดียว"
+
+ dungeon_ongoing.0008.t:0 "วันเวลาที่ผ่านไป"
+ dungeon_ongoing.0008.desc:0 "ข้าอยู่ที่นี่มานานแสนนานแล้ว เป็นเดือน? เป็นปี? เป็นทศวรรษ? การเนรเทศสู่ความมืดมิดของข้าไม่มีวันสิ้นสุด!"
+ dungeon_ongoing.0008.a:0 "มันนานมากแล้ว!"
+
+ dungeon_ongoing.0009.t:0 "ความสบายใจจากเพื่อน"
+ dungeon_ongoing.0009.desc:0 "ข้าไม่รู้ว่าข้าจะรอดชีวิตอยู่ที่นี่ได้อย่างไรหากปราศจากความสบายใจที่ [ROOT.Char.Custom('prison_pet')] ที่รักของข้ามอบให้\n\nเมื่อใดก็ตามที่ข้ารู้สึกเศร้า มันก็จะคอยปลอบใจข้า เมื่อใดก็ตามที่ข้ารู้สึกอยากยอมแพ้ มันก็จะกระตุ้นข้าต่อไป ข้าไม่เคยพบ [ROOT.Char.Custom('prison_pet')] อื่นใดเหมือนมันเลย!"
+ dungeon_ongoing.0009.a:0 "เจ้าเป็น [ROOT.Char.Custom('prison_pet')] ตัวน้อยที่น่ารัก ใช่ไหม?"
+
+ dungeon_ongoing.0010.t:0 "เส้นชีวิตของข้า"
+ dungeon_ongoing.0010.desc:0 "บางทีการถูกกักขังของข้าอาจไม่ได้ถูกกำหนดไว้ตายตัว ข้าสามารถเขียนจดหมายถึง [letter_recipient.Custom2('MyCharacterIntroduction', ROOT.Char)] วิงวอนให้ [letter_recipient.GetHerHim] ปลดปล่อยข้าออกจากชะตากรรมที่ถูกสกัดหินนี้ได้ แต่ข้าจะส่งจดหมายไปยัง [letter_recipient.GetCurrentLocation.GetNameNoTooltip] ภายใต้สายตาที่สอดส่องมากมาย เช่นนี้ได้อย่างไร?"
+ dungeon_ongoing.0010.a:0 "พวกยามเองจะช่วยเหลือข้า"
+ dungeon_ongoing.0010.a.tt:0 "ข้าต้องเกลี้ยกล่อมยามของ [imprisoner.GetShortUINamePossessiveNoTooltip] ให้ส่งจดหมายของข้า"
+ dungeon_ongoing.0010.a.success.t:0 "จดหมายของข้าถูกลักลอบนำออกไป"
+ dungeon_ongoing.0010.a.success.desc:0 "[letter_recipient.GetTitledFirstNameNoTooltip] อาจต่อรองเพื่อปล่อยข้าออกจากคุก"
+ dungeon_ongoing.0010.a.failure.t:0 "ไม่สามารถเกลี้ยกล่อมยามได้"
+ dungeon_ongoing.0010.b:0 "จดหมายเป็นสิ่งที่มองข้ามได้ง่าย..."
+ dungeon_ongoing.0010.b.tt:0 "ข้าต้องลอบส่งจดหมายของข้าผ่านการเฝ้าระวังของยาม [imprisoner.GetShortUINamePossessiveNoTooltip]"
+ dungeon_ongoing.0010.b.failure.t:0 "ยามยึดจดหมายของข้า"
+ dungeon_ongoing.0010.c:0 "ไม่ ข้าต้องระมัดระวังตัวต่อไป"
+
+ dungeon_ongoing.0011.t:0 "[prisoner.Custom2('RelationToMeShort', ROOT.Char)|U] ของข้าถูกกักขัง"
+ dungeon_ongoing.0011.desc:0 "ข้าได้รับจดหมายจากแหล่งที่ไม่น่าเป็นไปได้อย่างยิ่ง [prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] [prisoner.GetSheHe|U] เล่ารายละเอียดอันน่าสยดสยองที่สุดเกี่ยวกับการถูกจองจำ [prisoner.GetHerHis] โดย [imprisoner.GetTitledFirstName] และวิงวอนให้ข้าช่วยเหลือ [prisoner.GetHerHim] ในทันที มิฉะนั้น [prisoner.GetSheHe] เกรงว่าจะต้องตาย"
+ dungeon_ongoing.0011.a:0 "[prisoner.GetSheHe|U] ไม่อาจอยู่ในสถานที่นั้นได้อีกแม้ แต่วินาทีเดียว!"
+ dungeon_ongoing.0011.a.tt:0 "ข้าจะวิงวอนให้ [imprisoner.GetTitledFirstNameNoTooltip] ปล่อยตัว [prisoner.GetTitledFirstNameNoTooltip]"
+ dungeon_ongoing.0011.a.success.t:0 "[imprisoner.GetTitledFirstNameNoTooltip] รับฟังคำขอของข้า"
+ dungeon_ongoing.0011.a.failure.t:0 "[imprisoner.GetTitledFirstNameNoTooltip] ไม่ปล่อยตัว [prisoner.GetTitledFirstNameNoTooltip]"
+ dungeon_ongoing.0011.a_not_ai:0 "[imprisoner.GetTitledFirstNameNoTooltip] จะพิจารณาว่าจะปล่อยตัว [prisoner.GetTitledFirstNameNoTooltip] หรือไม่"
+ dungeon_ongoing.0011.b:0 "บาห์ [prisoner.GetFirstNameNoTooltip] ต้องพูดเกินจริงแน่ ๆ"
+
+ dungeon_ongoing.0012.t:0 "จดหมายที่ถูกเผา"
+ dungeon_ongoing.0012.desc:0 "วันเวลาผ่านไปอย่างเชื่องช้าโดยไม่มีการตอบกลับจาก [letter_recipient.Custom2('MyCharacterIntroduction', ROOT.Char)] [letter_recipient.GetSheHe] หายไปไหน? ทำไม [letter_recipient.GetSheHe] ถึงไม่ตอบกลับ? หากเพียง แต่ข้าเป็นอิสระจากขดหินนี้!"
+ dungeon_ongoing.0012.a:0 "บางทีจดหมายอาจจะหายไป?"
+ dungeon_ongoing.0012.b: "ข้ารู้อยู่แล้วว่า [letter_recipient.GetTitledFirstNameNoTooltip] เป็น[letter_recipient.Custom2('InsultNoun', ROOT.Char)]"
+
+ dungeon_ongoing.0013.t:0 "ครอบครัวถูกกักขัง"
+ dungeon_ongoing.0013.desc_intro:0 "แม้ว่า [prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] จะเป็นนักโทษโดยชอบธรรมของข้า แต่เห็นได้ชัดว่า [letter_recipient.GetTitledFirstName] ไม่เห็นด้วยกับวิสัยทัศน์ของข้า\n\n"
+ dungeon_ongoing.0013.desc_reasoning_compassionate:0 ""ท่านไม่รู้สึกสงสารเพื่อนร่วมตระกูล [ROOT.Char.GetHouse.GetBaseName] ที่ถูกขัง เช่นนี้หรือ?" [letter_recipient.GetSheHe] ถาม "มองข้ามการล่วงละเมิด [prisoner.GetHerHis] และคิดถึงประโยชน์ของตระกูลเถิด ข้าขอร้องท่าน""
+ dungeon_ongoing.0013.desc_reasoning_other:0 ""เราอ่อนแอลงต่อภัยคุกคามภายนอกเมื่อเราถูกขังอยู่หลังกำแพงของเราเอง" [letter_recipient.GetSheHe] คัดค้าน "ท่านจะไม่ปล่อยตัว [prisoner.GetTitledFirstNameNoTooltip] หรือ เพื่อประโยชน์ของ [realm_title.GetNameNoTier]?""
+ dungeon_ongoing.0013.a:0 "[prisoner.GetTitledFirstNameNoTooltip] จะเป็นอิสระในวันนี้"
+ dungeon_ongoing.0013.b:0 "[prisoner.GetSheHe|U] เป็นนักโทษโดยชอบธรรมของข้า ช่างหัวครอบครัวมันปะไร"
+
+ dungeon_ongoing.0014.t:0 "เสียงสะท้อนที่ว่างเปล่า"
+ dungeon_ongoing.0014.desc: "เสียงกระซิบของเหล่าทหารยามดังมาถึงหูข้า เห็นได้ชัดว่า [letter_recipient.Custom2('MyCharacterIntroduction', ROOT.Char)] ได้ใส่ใจจดหมายของข้าและเข้าหา [imprisoner.GetTitledFirstName] นายจองจำของข้าแล้ว แต่น่าเสียดายที่ [imprisoner.Custom2('InsultNoun', ROOT.Char)] ผู้นั้นกลับทำใจ[imprisoner.GetHerHis]แข็งกระด้างและขับไล่ [letter_recipient.GetTitledFirstNameNoTooltip] ไป ข้าจึงยังคงเป็น[prisoner.GetWomanMan]ที่ไร้อิสรภาพมิต่างจากเดิม"
+ dungeon_ongoing.0014.a:0 "อย่างน้อย [letter_recipient.GetTitledFirstNameNoTooltip] ก็เป็น [ROOT.Char.Custom2('RelationToMeShort', letter_recipient)] ที่ดีต่อข้า"
+ dungeon_ongoing.0014.b:0 "จะไม่มีใครช่วยข้าเลยหรือ?!"
+ 
+
+ dungeon_ongoing.9001.t:0 "ข้างใน"
+ dungeon_ongoing.9001.desc:0 "ข้าจำไม่ได้ว่าเห็นแสงอาทิตย์ครั้งสุดท้ายเมื่อใด ข้าจำไม่ได้ว่าได้กินอาหารแข็ง ๆ หรือสิ่งอื่นใดที่เป็นของแข็งครั้งสุดท้ายเมื่อใด\n\nรู้สึกเหมือนความชื้นในอากาศได้เกาะติดอยู่ในปอดของข้า\n\nหากฟันซี่ใดปวด ข้าก็แค่ดึงมันออกจากเหงือกที่เน่าเปื่อยของข้า"
+ dungeon_ongoing.9001.a:0 "มันยากเหลือเกินที่จะขยับตัว"
+
+ dungeon_ongoing.9002.t:0 "กลวงโบ๋"
+ dungeon_ongoing.9002.desc:0 "การไอไม่เคยหยุด มันเป็นมาหลายวันแล้ว และข้าไม่ได้นอนหลับสักชั่วโมงโดยไม่ตื่นขึ้นมาพร้อมกับมือที่ข่วนคอหอยของข้า\n\nการเลียหยดน้ำจากผนังไม่ได้ช่วยอะไรอีกต่อไปแล้ว"
+ dungeon_ongoing.9002.a:0 "ข้าเพียงต้องการให้มันจบลง"
+
+ dungeon_ongoing.9003.t:0 "การระลึกถึง"
+ dungeon_ongoing.9003.desc:0 "ข้าจะได้ออกจากที่นี่หรือไม่? ข้าแค่ถูกขัง ถูกทอดทิ้ง และถูกลืมไปแล้วหรือ?\n\nมีใครอื่นนอกจากผู้คุมรู้หรือไม่ว่าข้าอยู่ที่นี่?\n\nมีใครเหลืออยู่ที่รู้ชื่อข้าหรือไม่?\n\nใครรู้ว่าข้าเคยเป็นใคร?"
+ dungeon_ongoing.9003.a:0 "ข้าแทบจะจำใบหน้าของพวกเขาไม่ได้..."
+
+ dungeon_ongoing.9004.t:0 "การถูกทอดทิ้ง"
+ dungeon_ongoing.9004.desc:0 "ข้าจะตายที่นี่ ข้ารู้แน่ชัด ข้าจะไม่ได้สัมผัสแสงอาทิตย์บนใบหน้าอีกต่อไป หรือได้ยินเสียงหัวเราะที่ไม่เจือปนด้วยความสิ้นหวังอีกแล้ว"
+ dungeon_ongoing.9004.a:0 "นี่คือโลกทั้งใบของข้า"
+
+ dungeon_ongoing.9005.t:0 "การสูญเสียที่ไม่อาจหยั่งถึง"
+ dungeon_ongoing.9005.desc:0 "เพื่อนผู้ซื่อสัตย์ของข้า เพื่อนรักที่สุดของข้า เส้นชีวิตของข้าในสถานที่มืดมิดแห่งนี้...\n\nขณะที่ข้าอุ้ม [ROOT.Char.Custom('prison_pet')] ที่กำลังจะตายไว้ในอ้อมแขน ข้าก็ถูกครอบงำด้วยความสิ้นหวังในสถานการณ์ของข้า หากแม้ แต่สิ่งมีชีวิตที่บริสุทธิ์ เช่น [dummy_gender.GetSheHe] ยังต้องตายในสถานที่แห่งนี้ ข้าจะมีโอกาสรอดได้อย่างไร?"
+ dungeon_ongoing.9005.a:0 "เจ้าทิ้งข้าไว้ที่นี่คนเดียวไม่ได้!"

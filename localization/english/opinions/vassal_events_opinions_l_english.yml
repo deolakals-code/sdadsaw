@@ -1,0 +1,11 @@
+﻿l_english: 
+ promised_vassal_holy_war_opinion:0 "สัญญาว่าจะต่อสู้กับศัตรูทางศาสนา"
+ promised_vassal_claim_war_opinion:0 "สัญญาว่าจะต่อสู้เพื่อสิทธิ์เรียกร้องของข้าหลวง"
+ favored_vassal_opinion:0 "ข้าหลวงคนโปรด"
+ favored_vassals_rival_opinion:0 "ข้าหลวงคนโปรด"
+ favored_me:0 "โปรดปรานข้า"
+
+ tributary_volunteered_opinion: "ถวายบรรณาการด้วยความสมัครใจ"
+ tributary_demanded_opinion: "การบังคับเรียกบรรณาการ"
+ tributary_ceased_payments_opinion: "การยุติการส่งบรรณาการ"
+ tributary_released_opinion: "ปลดปล่อยข้าจากสัญญาการเป็นรัฐบรรณาการ"

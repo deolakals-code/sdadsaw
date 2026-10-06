@@ -1,0 +1,11 @@
+﻿l_english: 
+ parent_aids_martial_modifier:0 "บิดามารดาช่วยเหลืองานด้านการทหาร"
+ parent_aids_diplomacy_modifier:0 "บิดามารดาช่วยเหลืองานด้านการทูต"
+ parent_aids_stewardship_modifier:0 "บิดามารดาช่วยเหลืองานด้านการคลัง"
+ parent_aids_intrigue_modifier:0 "บิดามารดาช่วยเหลืองานด้านเล่ห์กล"
+ parent_aids_learning_modifier:0 "บิดามารดาช่วยเหลืองานด้านการเรียนรู้"
+ mothered_many_children_modifier:0 "มีบุตรหลายคน"
+ parent_dealing_with_courtiers_modifier:0 "บิดามารดาจัดการข้าราชสำนัก"
+ parent_dealing_with_courtiers_modifier_desc:0 "ตัวละครนี้มีบิดามารดาที่คอยจับตาดูข้าราชสำนักของตนอย่างใกล้ชิด"
+ parent_events_wrangling_courtiers_modifier:0 "ควบคุมข้าราชสำนัก"
+ parent_events_wrangling_courtiers_modifier_desc:0 "ตัวละครนี้จับตาดูราชสำนักของตนอย่างใกล้ชิด เพื่อควบคุมข้าราชสำนักให้อยู่ในระเบียบ"

@@ -1,0 +1,6 @@
+﻿l_english: 
+ 
+ imaginary_friend_gained_memory: "มีสหายในจินตนาการ"
+ imaginary_friend_gained_memory_desc: "ข้ามีสหายในจินตนาการนามว่า [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"
+ imaginary_friend_gained_memory_desc_second_perspective: "ท่านมีสหายในจินตนาการนามว่า [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"
+ imaginary_friend_gained_memory_desc_third_perspective: "[owner.GetName] มีสหายในจินตนาการนามว่า [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"

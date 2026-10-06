@@ -1,0 +1,16 @@
+﻿l_english: 
+ 
+
+ FOUR_WAYS_GLOSS: "มีวิธีการอันเคร่งครัดมากมายเพื่อประเมินคุณสมบัติของบุคคล สี่ประการที่โดดเด่นที่สุดนั้นมีพื้นฐานมาจากรูปลักษณ์ วาทศิลป์ อักษรศิลป์ และวิจารณญาณ"
+ CUJU_GLOSS: "ชวีจวี คือกีฬาแข่งขันอันมีรากฐานในราชวงศ์ฮั่น มันถูกฝึกฝนเพื่อความสันทนาการและพลานามัยนับ แต่นั้นมา โดยมีทีมผู้เล่นสูงถึง 20 คนในระหว่างงานสังคม ณ ราชสำนัก กติกาหลักของเกมนี้เกี่ยวข้องกับการเตะลูกบอลผ่านเสาประตูสูง โดยหลีกเลี่ยงมิให้ลูกบอลสัมผัสพื้น"
+ CONFUCIUS_GLOSS: "ขงจื๊อ หรือ ปรมาจารย์ข่ง เป็นนักปราชญ์ผู้ก่อตั้งระบบความเชื่อที่เน้นเรื่องมนุษยธรรมและคุณธรรมจริยธรรม 'มรรคา' ดังที่ท่านอธิบายไว้ในคัมภีร์หลุนอวี่ ได้กลายเป็นรากฐานในการปกครองรัฐและเหล่าประชาราษฎร์"
+ BIAN_QUE_GLOSS: "เปี่ยนเชว่ เป็นนามของแพทย์จีนในตำนานหลายท่าน: ทั้งแพทย์ในยุครณรัฐ (475 – 221 ปีก่อนคริสตกาล) ตลอดจนผู้ใช้นามเดียวกันในยุคสมัยของจักรพรรดิเหลืองที่เก่าก่อนกว่านั้น"
+ MERIT_LOWER_LOWER_GLOSS: "[GetModifier( 'merit_level_1' ).GetNameWithTooltip|L] [merit_level|E] ในระบบข้าราชการของ [GetTitleByKey('h_china').GetDefinitiveName] หรือที่เรียกว่า ต่ำ-ต่ำ (ชั้นต่ำ-ต่ำ)"
+ MERIT_LOWER_MIDDLE_GLOSS: "[GetModifier( 'merit_level_2' ).GetNameWithTooltip|L] [merit_level|E] ในระบบข้าราชการของ [GetTitleByKey('h_china').GetDefinitiveName] หรือที่เรียกว่า ต่ำ-กลาง (ชั้นต่ำ-กลาง)"
+ MERIT_LOWER_UPPER_GLOSS: "[GetModifier( 'merit_level_3' ).GetNameWithTooltip|L] [merit_level|E] ในระบบข้าราชการของ [GetTitleByKey('h_china').GetDefinitiveName] หรือที่เรียกว่า ต่ำ-สูง (ชั้นต่ำ-สูง)"
+ MERIT_MIDDLE_LOWER_GLOSS: "[GetModifier( 'merit_level_4' ).GetNameWithTooltip|L] [merit_level|E] ในระบบข้าราชการของ [GetTitleByKey('h_china').GetDefinitiveName] หรือที่เรียกว่า กลาง-ต่ำ (ชั้นกลาง-ต่ำ)"
+ MERIT_MIDDLE_MIDDLE_GLOSS: "[GetModifier( 'merit_level_5' ).GetNameWithTooltip|L] [merit_level|E] ในระบบข้าราชการของ [GetTitleByKey('h_china').GetDefinitiveName] หรือที่เรียกว่า กลาง-กลาง (ชั้นกลาง)"
+ MERIT_MIDDLE_UPPER_GLOSS: "[GetModifier( 'merit_level_6' ).GetNameWithTooltip|L] [merit_level|E] ในระบบข้าราชการของ [GetTitleByKey('h_china').GetDefinitiveName] หรือที่เรียกว่า กลาง-สูง (ชั้นกลาง-สูง)"
+ MERIT_UPPER_LOWER_GLOSS: "[GetModifier( 'merit_level_7' ).GetNameWithTooltip|L] [merit_level|E] ในระบบข้าราชการของ [GetTitleByKey('h_china').GetDefinitiveName] หรือที่เรียกว่า สูง-ต่ำ (ชั้นสูง-ต่ำ)"
+ MERIT_UPPER_MIDDLE_GLOSS: "[GetModifier( 'merit_level_8' ).GetNameWithTooltip|L] [merit_level|E] ในระบบข้าราชการของ [GetTitleByKey('h_china').GetDefinitiveName] หรือที่เรียกว่า สูง-กลาง (ชั้นสูง-กลาง)"
+ MERIT_UPPER_UPPER_GLOSS: "[GetModifier( 'merit_level_9' ).GetNameWithTooltip|L] [merit_level|E] ในระบบข้าราชการของ [GetTitleByKey('h_china').GetDefinitiveName] หรือที่เรียกว่า สูง-สูง (ชั้นสูงสุด)"

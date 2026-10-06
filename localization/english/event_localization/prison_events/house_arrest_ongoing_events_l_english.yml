@@ -1,0 +1,31 @@
+﻿l_english: 
+ house_arrest_ongoing.0001.t:0 "เป้าหมายและความฝัน"
+ house_arrest_ongoing.0001.desc:0 "ทุกวันที่ใช้ไปในฐานะนักโทษของ[prison_holder.GetTitledFirstName] คืออีกวันที่แผนการอันรอบคอบของข้าหลุดลอยไปไกลจากมือข้า\n\nการลงโทษที่แท้จริงมิใช่การกักขังทางร่างกายที่ข้าเผชิญอยู่ หาก แต่เป็นการไร้ความสามารถ เช่นนี้!"
+ house_arrest_ongoing.0001.a:0 "ข้าสงสัยว่ากิจการของข้าอยู่ในสภาพใด?"
+ house_arrest_ongoing.0001.b:0 "เมื่อข้าถูกปล่อยตัว ข้าจะพร้อม ข้าต้องวางแผน!"
+
+ house_arrest_ongoing.0002.t:0 "การตัดสินที่ผิดพลาด"
+ house_arrest_ongoing.0002.desc:0 "[prison_holder.GetTitledFirstName]คิดว่า[prison_holder.GetSheHe]เป็นใครกัน?! ที่กักขังข้าไว้ที่นี่ ดุจสัตว์ในกรง แล้วยังกล้าอ้างว่านี่คือความยุติธรรม\n\nราวกับว่ามีผู้ใดนอกเหนือจาก[ROOT.Char.GetFaith.HighGodName]มีสิทธิ์ตัดสิน#EMP ข้า#!."
+ house_arrest_ongoing.0002.a:0 "ข้าไม่เคยถูกดูหมิ่น เช่นนี้มาก่อน!"
+ house_arrest_ongoing.0002.b:0 "ข้าต้องพยายามรักษาจิตใจให้สงบ"
+
+ house_arrest_ongoing.0003.t:0 "วันอันโดดเดี่ยว"
+ house_arrest_ongoing.0003.desc_opening:0 "การต้องใช้เวลาแยกจากผู้เป็นที่รักทุกคนเป็นการลงโทษอันโหดร้าย ข้าพบว่าตนเองแสวงหาแหล่งปลอบประโลมและมิตรภาพใดๆ ที่พอจะหาได้ แต่ก็มีน้อยเหลือเกิน"
+ house_arrest_ongoing.0003.desc_friendly_prisoner:0 "\n\nสิ่งเดียวที่ช่วยให้ข้าผ่านพ้นวันอันยาวนานไปได้คือความสัมพันธ์ของข้ากับ[friendly_prisoner.GetTitledFirstName]"
+ house_arrest_ongoing.0003.a:0 "ไม่มีใครคุยกับข้าเลยหรือ?!"
+ house_arrest_ongoing.0003.b:0 "ข้าจะยังคงหาผู้ที่ยินดีพูดคุยกับข้า"
+ house_arrest_ongoing.0003.c:0 "[friendly_prisoner.GetSheHe|U]คือแหล่งมิตรภาพเพียงหนึ่งเดียวของข้า"
+ house_arrest_ongoing.0003.d:0 "[friendly_prisoner.GetSheHe|U]คือแหล่งปลอบประโลมและความรักเพียงหนึ่งเดียวของข้า"
+ house_arrest_ongoing.0003.e:0 "[ROOT.Char.GetFirstNameNoTooltip]คือแหล่งปลอบประโลมและความรักเพียงหนึ่งเดียวของข้า"
+
+ house_arrest_ongoing.0004.t:0 "บรรเทาความทรมานของข้า"
+ house_arrest_ongoing.0004.desc1:0 ""ข้ารู้ว่าท่านคิดถึงหนังสือและม้วนคัมภีร์ของท่านเพียงใด ข้าจึงนำของเล็กๆ น้อยๆ จากตลาดมาให้ท่าน!""
+ house_arrest_ongoing.0004.desc2:0 ""ข้ารู้ว่าท่านชอบขนมเค้กเพียงใด และพ่อครัวก็มิได้ใส่ใจ ดังนั้น...""
+ house_arrest_ongoing.0004.desc3:0 ""ข้าเห็นกำไลนี้ในเมืองวันนี้ และข้ารู้ว่าท่านจะชอบมัน โปรดสวมมันเถิด!""
+ house_arrest_ongoing.0004.desc4:0 ""ข้าเกลี้ยกล่อมทหารยามได้เพียงเท่านี้ แต่ข้าหวังว่าการเดินเล่นในสวนจะช่วยให้ท่านรู้สึกดีขึ้น!""
+ house_arrest_ongoing.0004.desc:0 "\n\n[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend_at_court') )]ที่รักของข้า [friend_at_court.GetTitledFirstName] คิดถึงข้าเสมอและพยายามอย่างสุดความสามารถ[friend_at_court.GetHerHis]เพื่อ ทำให้การลงโทษของข้าสะดวกสบายยิ่งขึ้น"
+ house_arrest_ongoing.0004.a:0 "ข้าไม่รู้ว่าจะทำอย่างไรหากไม่มี[friend_at_court.GetHerHim]!"
+
+ house_arrest_ongoing.0005.t:0 "ผู้ทรมานส่วนตัวของข้า"
+ house_arrest_ongoing.0005.desc:0 ""โอ้ ท่านน่าจะได้เห็นนักแสดงละครใบ้ในเทศกาล ช่างเป็นการแสดงที่ยอดเยี่ยม!"\n\nการถูกขังอยู่ที่นี่ก็แย่พอแล้ว การต้องรับมือกับการเยาะเย้ยของ[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival_at_court') )] [rival_at_court.GetTitledFirstNamePossessive]ของข้าอีกนั้นมากเกินไป [rival_at_court.GetSheHe|U]พยายามทุกวิถีทาง[rival_at_court.GetHerHis]เพื่อ ทำให้ชีวิตข้าทุกข์ทรมานที่สุดเท่าที่[rival_at_court.GetSheHe]จะทำได้ บัดนี้ข้าตกต่ำถึงเพียงนี้"
+ house_arrest_ongoing.0005.a:0 "มันได้ผลด้วย!"

@@ -1,0 +1,75 @@
+﻿l_english: 
+ vassal_interaction.0001.opening:0 "[actor.Custom2('GreetingToVassal', ROOT.Char)]"
+ vassal_interaction.0001.desc:0 "ข้าขอสั่งให้ท่านยุติสงครามของท่านต่อ [defender.GetTitledFirstName] แห่ง [defender.GetPrimaryTitle.GetName] โดยทันที!\n\nอาณาจักรจะดำรงอยู่ได้เมื่อเราร่วมมือกัน มิใช่แตกแยก"
+ vassal_interaction.0001.a:0 "พระประสงค์ของฝ่าบาทคือบัญชาของข้าพเจ้า, เจ้าเหนือหัวของข้าพเจ้า"
+ vassal_interaction.0001.b:0 "นี่เป็นเรื่องของเกียรติยศ มิอาจสละได้โดยง่าย"
+ vassal_interaction.0001.request_favor_tt:0 "ข้าขอ [favor|E] เป็นการแลกเปลี่ยน"
+ vassal_interaction.0001.request_gold_tt:0 "ข้าขอทองคำเป็นการแลกเปลี่ยน"
+ vassal_interaction.0001.accept:0 "[actor.GetFirstNameNoTooltip] ยอมรับคำขอของข้าพเจ้า"
+ vassal_interaction.0001.decline:0 "[actor.GetFirstNameNoTooltip] ปฏิเสธ"
+ vassal_interaction.0001.c:0 "ข้าพเจ้าได้ลงทุนไปมากแล้วในสงครามนี้..."
+ vassal_interaction.0001.d:0 "ไม่ ข้าพเจ้าจะดำเนินเรื่องนี้ให้ถึงที่สุด!"
+ vassal_interaction.0001.e:0 "ไม่ และท่านหยุดข้าพเจ้าไม่ได้!"
+
+ vassal_interaction.0002.opening:0 "[recipient.Custom2('GreetingToLiege', ROOT.Char)]"
+ vassal_interaction.0002.desc:0 "ข้าพเจ้าจะเชื่อฟังพระปรีชาญาณและความปรารถนาของฝ่าบาทแน่นอน แม้เหตุผลของข้าพเจ้าจะชอบธรรม ข้าพเจ้าจะยอมสละมันไปก่อน เพื่อประโยชน์สุขของอาณาจักร"
+ vassal_interaction.0002.a:0 "ข้ารับใช้ที่เชื่อฟังคือข้ารับใช้ที่ดี"
+
+ vassal_interaction.0003.desc:0 "ข้าพเจ้าเข้าใกล้เป้าหมายมากเกินกว่าจะยอมสละไปโดยเปล่าประโยชน์ ข้าพเจ้าจะยอมหากฝ่าบาททรงสัญญาว่าจะชดเชยให้ในอนาคต"
+ vassal_interaction.0003.a:0 "เจ้าได้คำมั่นจากข้า"
+ vassal_interaction.0003.b:0 "เจ้าควรทำตามที่ข้าสั่ง ไม่ว่า อย่างไรก็ตาม!"
+ vassal_interaction.0003.b.tt:0 "สงครามดำเนินต่อไป"
+
+ vassal_interaction.0004.desc:0 "สงครามนี้มีต้นทุนสูงเกินกว่าที่ข้าพเจ้าจะละทิ้งไปในตอนนี้ อย่างไรก็ตาม การช่วยเหลือเล็กน้อยเพื่อฟื้นฟูคลังของข้าพเจ้าอาจ ทำให้ข้าพเจ้าเปลี่ยนใจได้"
+ vassal_interaction.0004.a:0 "การชดเชยเป็นเพียงความยุติธรรม"
+ vassal_interaction.0004.b:0 "นี่เป็นจำนวนเงินที่สูงเกินไป!"
+
+ vassal_interaction.0005.opening:0 "[recipient.Custom2('GreetingToLiege', ROOT.Char)]"
+ vassal_interaction.0005.desc:0 "ข้าพเจ้าเคารพในพระประสงค์ของฝ่าบาทอย่างสูงสุด แต่ลูกเต๋าได้ถูกทอดไปแล้ว ข้าพเจ้าจะดำเนินสงครามนี้ให้ถึงที่สุด"
+ vassal_interaction.0005.a:0 "เจ้ากล้าขัดขืนข้าได้อย่างไร!"
+ vassal_interaction.0005.b:0 "ข้าคงต้องยอมรับมัน ครั้งนี้"
+
+ vassal_interaction.0006.desc:0 "เหตุผลของเจ้าชอบธรรม และคงไม่ยุติธรรมที่จะเรียกร้องสิ่งนี้จากเจ้าโดยไม่มีการชดเชย"
+ vassal_interaction.0006.favor:0 "ข้าจะเป็นหนี้บุญคุณเจ้าสำหรับเรื่องนี้"
+ vassal_interaction.0006.gold:0 "ข้าจะจ่ายทองคำที่เจ้าสูญเสียไป ตราบใดที่การต่อสู้ยุติลง ณ บัดนี้"
+ vassal_interaction.0006.a:0 "ขอบพระทัยในความเมตตาของฝ่าบาท"
+ vassal_interaction.0006.b:0 "ขอบพระทัยในความเอื้อเฟื้อของฝ่าบาท"
+
+ vassal_interaction.0007.desc:0 "ข้าโกรธเคืองที่เจ้าต้องการสินบนเพื่อทำตามคำสั่งของเจ้าเหนือหัว! เจ้าไม่ได้ส่งอะไรมาให้ข้านอกจากคำปฏิเสธคำสั่งของข้าอย่างน่าอัปยศ!"
+ vassal_interaction.0007.a:0 "ดีมาก ข้ามีสงครามที่ต้องกลับไปจัดการ"
+
+
+ vassal_interaction.0011.desc:0 "สิทธิ์เรียกร้องของ [attacker.GetTitledFirstNamePossessive] นั้นชอบธรรม ข้าขอสั่งให้เจ้ายอมจำนนต่อ [attacker.GetHerHim] โดยทันที เพื่อฟื้นฟูระเบียบในอาณาจักร"
+ vassal_interaction.0011.a:0 "หากต้องเป็น เช่นนั้น เจ้าเหนือหัวของข้าพเจ้า"
+ vassal_interaction.0011.b:0 "โปรดอย่าขอให้ข้าพเจ้าสละเกียรติยศไปโดยเปล่าประโยชน์"
+ vassal_interaction.0011.c:0 "นั่นเป็นการเสียสละที่มีราคาสูงที่ท่านขอจากข้าพเจ้า..."
+ vassal_interaction.0011.d:0 "ไม่ ข้าพเจ้าจะต่อสู้ขับไล่ [attacker.GetHerHim]!"
+
+ vassal_interaction.0012.desc:0 "ข้าพเจ้าขอร้องให้ฝ่าบาททรงพิจารณาว่าได้ทรงขอจากข้าพเจ้ามากเพียงใด แต่หากเป็นพระประสงค์ของฝ่าบาท ข้าพเจ้าจะยอมจำนนต่อ [attacker.GetTitledFirstName] เพื่อประโยชน์สุขของอาณาจักร"
+ vassal_interaction.0012.a:0 "รางวัลสำหรับความภักดีจะมาถึงในเวลาอันควรเสมอ"
+
+ vassal_interaction.0013.desc:0 "ข้าพเจ้าจะสูญเสียมากหากยอมแพ้สงครามกับ [attacker.GetTitledFirstName] ข้าพเจ้าจะยอมได้ก็ต่อเมื่อฝ่าบาททรงสัญญาว่าจะชดเชยให้ในอนาคต"
+
+ vassal_interaction.0014.desc:0 "การยอมแพ้สงครามจะมีต้นทุนสูงเกินไป อย่างไรก็ตาม หากฝ่าบาทจะทรงชดเชยความสูญเสียให้ข้าพเจ้า ข้าพเจ้าก็สามารถทำตามที่ทรงร้องขอได้"
+
+ vassal_interaction.0015.desc:0 "ข้าพเจ้าจะสูญเสียมากเกินไปหากยอมจำนน ข้าพเจ้าไม่ปรารถนาที่จะไม่เชื่อฟัง แต่ [attacker.GetTitledFirstName] ได้บีบบังคับข้าพเจ้า"
+
+ vassal_interaction.0016.gold:0 "ข้าจะจ่ายค่าความสูญเสียของเจ้า ตราบใดที่การต่อสู้ยุติลง ณ บัดนี้"
+ vassal_interaction.0016.a:0 "อย่างน้อยข้าพเจ้าก็ยังไม่ได้สูญเสียทุกสิ่งไป"
+ vassal_interaction.0016.b:0 "ข้าพเจ้าจะใช้สิ่งนี้เพื่อฟื้นตัว"
+
+ vassal_interaction.you_owe_me:0 "เจ้าจะทำตามที่ข้าสั่ง!"
+
+ vassal_interaction.war_ender_gives_up:1 "[recipient.GetShortUIName|U] ได้ยุติสงครามของตน ตามคำสั่งของ [actor.GetShortUINamePossessive]"
+
+ vassal_interaction.0022.desc: "ข้าเขียนจดหมายมาเพื่อแจ้งให้ท่านทราบว่า ข้าได้มอบเอกราชของ[recipient.GetHerHis]ให้แก่เพื่อนข้าหลวงของท่าน [recipient.GetName]"
+ vassal_interaction.0022.a:0 "รับทราบ"
+
+ vassal_interaction.0023.desc: "ข้าเขียนจดหมายมาเพื่อแจ้งให้ท่านทราบว่า ข้าได้มอบเอกราชของ[recipient.GetHerHis]ให้แก่ข้าหลวงของข้า [recipient.GetName]"
+ vassal_interaction.0023.a:0 "รับทราบ"
+
+ vassal_interaction.0030.desc:0 "คำร้องของเจ้าชอบธรรม และข้าพเจ้าเห็นด้วยกับเหตุผลของเจ้า\n\nข้าพเจ้าขออภัยโทษให้เจ้าจากอาชญากรรมทั้งปวงในปัจจุบันในสายตาของ [recipient.GetPrimaryTitle.GetNameNoTooltip] ตลอดไป เจ้าจะยังคงเป็น [actor.GetWomanMan] อิสระ!"
+ vassal_interaction.0030.a:0 "ปลอดภัยเสียที!"
+ 
+ vassal_interaction.0040.desc:0 "แม้ว่าท่านจะครอบครอง [target.GetBaseName] แต่เป็นที่ประจักษ์แก่ทุกคนว่า #EMP ข้าพเจ้า #! คือผู้ปกครองมัน [county_in_title.Custom('TerrainTypeProvince')] และหมู่บ้านมากมายของมันอยู่ภายใต้การดูแลของปลัดอำเภอ #EMP ของข้าพเจ้า #! และผู้พิพากษา #EMP ของข้าพเจ้า #!\n\nดังนั้น ข้าพเจ้าจึงกำลังอ้างสิทธิ์ในดินแดนนี้ ท่านสามารถมอบบรรดาศักดิ์ให้ข้าพเจ้าได้ทุกเมื่อที่ท่านต้องการ มิฉะนั้นข้าพเจ้ามั่นใจว่ามันจะตกเป็นของข้าพเจ้าในเวลาอันควร\n\nไม่ทางใดก็ทางหนึ่ง"
+ vassal_interaction.0040.a:0 "ข้าพเจ้าปล่อยให้ [actor.GetFirstNameNoTooltip] เติบโตแข็งแกร่งเกินไป..."

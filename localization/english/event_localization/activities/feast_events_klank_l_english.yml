@@ -1,0 +1,6 @@
+﻿l_english: 
+ feast_events_klank.1001.t: "วิถีแห่งการทรมาน"
+ feast_events_klank.1001.desc: ""จุดใดคือที่ที่ดีที่สุดในการเริ่มกรีด?" [fellow_torturer.GetName] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('fellow_torturer'))] ของข้าถาม พร้อมกับกริชในมือของ [fellow_torturer.GetHerHis] น้ำเสียงของ [fellow_torturer.GetHerHis] เต็มไปด้วยความพิศวง ช่างเป็น [fellow_torturer.GetWomanMan] ที่ถูกใจข้ายิ่งนัก งานเลี้ยงสามารถเป็นการพบปะกันของปัญญาชน โอกาสในการฝึกปรือฝีมือให้สมบูรณ์แบบ ไม่ใช่เพียงโอกาสที่น่าเบื่อสำหรับการตะกละตะกลาม\n\n"จากประสบการณ์ของข้า พวกมันจะกรีดร้องดังที่สุดหากท่านนำ [ROOT.Char.Custom('GetRandomBodyPart')] ออกก่อน ข้าเชื่อมั่น เช่นนั้น... นี่คือวิธีเริ่มต้นที่ 'โอชะ' ที่สุด"\n\n[terrified_onlooker.GetName] จ้องมองอย่างเงียบ ๆ ที่มุมห้อง""
+ feast_events_klank.1001.a: "ขั้นแรก ส่าย [ROOT.Char.Custom('DeviantObjectArticle')] ไปมาต่อหน้าพวกมัน"
+ feast_events_klank.1001.b: "ท่านพูดถูกอย่างยิ่ง!"
+ feast_events_klank.1001.c: "หนังสืออย่าง #EMP [SCOPE.Custom('RandomEntertainmentTextName')]#! ช่างสร้างแรงบันดาลใจ"

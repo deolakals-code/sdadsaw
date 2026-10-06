@@ -1,0 +1,85 @@
+﻿l_english: 
+ # Knight wounded/slain event strings for use in battle events. 
+ knight_wounded_no_enemy_friendly:2 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] ได้รับบาดเจ็บจากทหารศัตรู!"
+ knight_wounded_no_enemy_enemy:2 "ทหารผู้กล้าหาญของเราคนหนึ่งสามารถ ทำให้[CHARACTER.Custom('KnightCultureNoTooltipLowercase')]ศัตรู [CHARACTER.GetShortUINameNoTooltip] บาดเจ็บได้!"
+ knight_wounded_by_enemy_friendly:2 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] ได้รับบาดเจ็บจาก [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ knight_wounded_by_enemy_enemy:2 "$knight_culture_player_no_tooltip_lowercase$ของเรา [TARGET_CHARACTER.GetShortUINameNoTooltip] ทำให้ [CHARACTER.GetShortUINameNoTooltip] บาดเจ็บ!"
+ knight_maimed_no_enemy_friendly:2 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] กลายเป็นคนพิการจากทหารศัตรู!"
+ knight_maimed_no_enemy_enemy:2 "ทหารผู้กล้าหาญของเราคนหนึ่งสามารถ ทำให้[CHARACTER.Custom('KnightCultureNoTooltipLowercase')]ศัตรู [CHARACTER.GetShortUINameNoTooltip] พิการได้!"
+ knight_maimed_by_enemy_friendly:2 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] กลายเป็นคนพิการจาก [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ knight_maimed_by_enemy_enemy:2 "$knight_culture_player_no_tooltip_lowercase$ของเรา [TARGET_CHARACTER.GetShortUINameNoTooltip] ทำให้ [CHARACTER.GetShortUINameNoTooltip] พิการ!"
+ knight_killed_no_enemy_friendly:2 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] ถูกทหารศัตรูสังหาร!"
+ knight_killed_no_enemy_enemy:2 "ทหารผู้กล้าหาญของเราคนหนึ่งสามารถสังหาร[CHARACTER.Custom('KnightCultureNoTooltipLowercase')]ศัตรู [CHARACTER.GetShortUINameNoTooltip] ได้!"
+ knight_killed_by_enemy_friendly:2 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] ถูกสังหารโดย [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ knight_killed_by_enemy_enemy:2 "$knight_culture_player_no_tooltip_lowercase$ของเรา [TARGET_CHARACTER.GetShortUINameNoTooltip] สังหาร [CHARACTER.GetShortUINameNoTooltip]!"
+ 
+ # Berserker Kills
+ berserker_rage_killed_enemy_enemy:1 "$knight_culture_player_no_tooltip_lowercase$ของเรา [TARGET_CHARACTER.GetShortUINameNoTooltip] ถูก [GetTrait('berserker').GetName( GetNullCharacter )] (นักรบคลั่ง) [CHARACTER.GetShortUINameNoTooltip] ฉีกศีรษะ[TARGET_CHARACTER.GetHerHis]ออก!"
+ berserker_rage_killed_enemy_friendly:1 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] ฉีกศีรษะของ [TARGET_CHARACTER.GetShortUINameNoTooltip] ออกและกลายเป็น[GetTrait('berserker').GetName( GetNullCharacter )] (นักรบคลั่ง)!"
+ berserker_rage_killed_enemy_no_trait_enemy:1 "$knight_culture_player_no_tooltip_lowercase$ของเรา [TARGET_CHARACTER.GetShortUINameNoTooltip] ถูก [GetTrait('berserker').GetName( GetNullCharacter )] (นักรบคลั่ง) [CHARACTER.GetShortUINameNoTooltip] ฉีกศีรษะ[TARGET_CHARACTER.GetHerHis]ออก!"
+ berserker_rage_killed_enemy_no_trait_friendly:1 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] ฉีกศีรษะของ [TARGET_CHARACTER.GetShortUINameNoTooltip] ออก!"
+ berserker_rage_no_enemy_enemy:1 "$knight_culture_player_no_tooltip_lowercase$ศัตรู [CHARACTER.GetShortUINameNoTooltip] อาละวาดใส่ทหารของเราและกลายเป็น[GetTrait('berserker').GetName( GetNullCharacter )] (นักรบคลั่ง)!"
+ berserker_rage_no_enemy_friendly:1 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] อาละวาดใส่ทหารศัตรูและกลายเป็น[GetTrait('berserker').GetName( GetNullCharacter )] (นักรบคลั่ง)!"
+ 
+ berserker_rage_killed_enemy_no_trait_v2_enemy:0 "$knight_culture_player_no_tooltip_lowercase$ของเรา [TARGET_CHARACTER.GetShortUINameNoTooltip] ถูก [GetTrait('berserker').GetName( GetNullCharacter )] (นักรบคลั่ง) [CHARACTER.GetShortUINameNoTooltip] ฟันร่างขาดเป็นสองท่อน!"
+ berserker_rage_killed_enemy_no_trait_v2_friendly:0 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] ฟันร่าง [TARGET_CHARACTER.GetShortUINameNoTooltip] ขาดเป็นสองท่อน!"
+ berserker_rage_killed_enemy_no_trait_v3_enemy:0 "$knight_culture_player_no_tooltip_lowercase$ของเรา [TARGET_CHARACTER.GetShortUINameNoTooltip] ถูก [GetTrait('berserker').GetName( GetNullCharacter )] (นักรบคลั่ง) [CHARACTER.GetShortUINameNoTooltip] ชำแหละอย่างโหดเหี้ยม!"
+ berserker_rage_killed_enemy_no_trait_v3_friendly:0 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] ชำแหละ [TARGET_CHARACTER.GetShortUINameNoTooltip] อย่างโหดเหี้ยม!"
+ berserker_rage_killed_enemy_no_trait_v4_enemy:0 "$knight_culture_player_no_tooltip_lowercase$ของเรา [TARGET_CHARACTER.GetShortUINameNoTooltip] ถูก [GetTrait('berserker').GetName( GetNullCharacter )] (นักรบคลั่ง) [CHARACTER.GetShortUINameNoTooltip] ฉีกร่างเป็นชิ้นๆ!"
+ berserker_rage_killed_enemy_no_trait_v4_friendly:0 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] ฉีกร่าง [TARGET_CHARACTER.GetShortUINameNoTooltip] เป็นชิ้นๆ!"
+ berserker_rage_killed_enemy_no_trait_v5_enemy:0 "$knight_culture_player_no_tooltip_lowercase$ของเรา [TARGET_CHARACTER.GetShortUINameNoTooltip] ถูก [GetTrait('berserker').GetName( GetNullCharacter )] (นักรบคลั่ง) [CHARACTER.GetShortUINameNoTooltip] สับเป็นชิ้นๆ!"
+ berserker_rage_killed_enemy_no_trait_v5_friendly:0 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] สับ [TARGET_CHARACTER.GetShortUINameNoTooltip] เป็นชิ้นๆ!"
+ berserker_rage_killed_enemy_no_trait_v6_enemy:0 "$knight_culture_player_no_tooltip_lowercase$ ของเรา [TARGET_CHARACTER.GetShortUINameNoTooltip] ถูก [CHARACTER.GetShortUINameNoTooltip] ผู้ [GetTrait('berserker').GetName( GetNullCharacter )] ควักหัวใจของ [TARGET_CHARACTER.GetHerHis] ออกมา!"
+ berserker_rage_killed_enemy_no_trait_v6_friendly:0 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] ควักหัวใจของ [TARGET_CHARACTER.GetShortUINameNoTooltip] ออก!"
+ berserker_rage_killed_enemy_no_trait_v7_enemy:0 "หัวใจของ$knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] วายหลังจาก [GetTrait('berserker').GetName( GetNullCharacter )] (นักรบคลั่ง) [CHARACTER.GetShortUINameNoTooltip] ตะโกนใส่[TARGET_CHARACTER.GetHerHim]!"
+ berserker_rage_killed_enemy_no_trait_v7_friendly:0 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] ทำให้ [TARGET_CHARACTER.GetShortUINameNoTooltip] ตกใจตายด้วยเสียงคำรามอันทรงพลัง!"
+ berserker_rage_killed_enemy_no_trait_v8_enemy:0 "$knight_culture_player_no_tooltip_lowercase$ ของเรา [TARGET_CHARACTER.GetShortUINameNoTooltip] ถูก [CHARACTER.GetShortUINameNoTooltip] ผู้ [GetTrait('berserker').GetName( GetNullCharacter )] ทุบกะโหลกศีรษะของ [TARGET_CHARACTER.GetHerHis] จนแตก!"
+ berserker_rage_killed_enemy_no_trait_v8_friendly:0 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] ทุบกะโหลกของ [TARGET_CHARACTER.GetShortUINameNoTooltip] แตก!"
+ berserker_rage_killed_enemy_no_trait_v9_enemy:0 "$knight_culture_player_no_tooltip_lowercase$ของเรา [TARGET_CHARACTER.GetShortUINameNoTooltip] ถูก [GetTrait('berserker').GetName( GetNullCharacter )] (นักรบคลั่ง) [CHARACTER.GetShortUINameNoTooltip] รัดคอด้วยลำไส้ของ[TARGET_CHARACTER.GetHerHis]เอง!"
+ berserker_rage_killed_enemy_no_trait_v9_friendly:0 "$knight_culture_player_no_tooltip_lowercase$ของเรา [CHARACTER.GetShortUINameNoTooltip] รัดคอ [TARGET_CHARACTER.GetShortUINameNoTooltip] ด้วยลำไส้ของ[TARGET_CHARACTER.GetHerHis]เอง!"
+
+ # Shieldmaiden Kills
+ shieldmaiden_skill_killed_enemy_no_trait_v1_enemy:0 "$knight_culture_player_no_tooltip_lowercase$ของเรา [TARGET_CHARACTER.GetShortUINameNoTooltip] ถูก [CHARACTER.GetShortUINameNoTooltip] (สตรีโล่) ตัดศีรษะ!"
+ shieldmaiden_skill_killed_enemy_no_trait_v1_friendly:0 "$knight_culture_player_no_tooltip_lowercase$ (สตรีโล่) ของเรา [CHARACTER.GetShortUINameNoTooltip] ตัดศีรษะ [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ shieldmaiden_skill_killed_enemy_no_trait_v2_enemy:0 "$berserker_rage_killed_enemy_no_trait_v2_enemy$"
+ shieldmaiden_skill_killed_enemy_no_trait_v2_friendly:0 "$berserker_rage_killed_enemy_no_trait_v2_friendly$"
+ shieldmaiden_skill_killed_enemy_no_trait_v3_enemy:0 "$berserker_rage_killed_enemy_no_trait_v3_enemy$"
+ shieldmaiden_skill_killed_enemy_no_trait_v3_friendly:0 "$berserker_rage_killed_enemy_no_trait_v3_friendly$"
+ shieldmaiden_skill_killed_enemy_no_trait_v4_enemy:0 "$knight_culture_player_no_tooltip_lowercase$ของเรา [TARGET_CHARACTER.GetShortUINameNoTooltip] ถูก [CHARACTER.GetShortUINameNoTooltip] (สตรีโล่) สังหารอย่างน่าเวทนา!"
+ shieldmaiden_skill_killed_enemy_no_trait_v4_friendly:0 "$knight_culture_player_no_tooltip_lowercase$ (สตรีโล่) ของเรา [CHARACTER.GetShortUINameNoTooltip] สังหาร [TARGET_CHARACTER.GetShortUINameNoTooltip] อย่างน่าเวทนา!"
+ shieldmaiden_skill_killed_enemy_no_trait_v5_enemy:0 "$berserker_rage_killed_enemy_no_trait_v5_enemy$"
+ shieldmaiden_skill_killed_enemy_no_trait_v5_friendly:0 "$berserker_rage_killed_enemy_no_trait_v5_friendly$"
+
+ # Commander injured/killed event string for use in battle events.
+ commander_wounded_no_enemy_friendly_player:2 "ท่านได้รับบาดเจ็บขณะนำทัพในสมรภูมิ!"
+ commander_wounded_no_enemy_friendly:0 "แม่ทัพ [CHARACTER.GetUINameNoTooltip] ได้รับบาดเจ็บขณะนำทัพของ[CHARACTER.GetHerHis]ในสมรภูมิ!"
+ commander_wounded_no_enemy_enemy:0 "ทหารผู้กล้าหาญของเราคนหนึ่งสามารถ ทำให้แม่ทัพศัตรู [CHARACTER.GetUINameNoTooltip] บาดเจ็บได้ในสมรภูมิ!"
+
+ commander_wounded_by_enemy_friendly_player:1 "ท่านได้รับบาดเจ็บจาก [TARGET_CHARACTER.GetUINameNoTooltip] ขณะนำทัพในสมรภูมิ!"
+ commander_wounded_by_enemy_friendly:0 "แม่ทัพ [CHARACTER.GetUINameNoTooltip] ได้รับบาดเจ็บจาก [TARGET_CHARACTER.GetUINameNoTooltip] ขณะนำทัพของ[CHARACTER.GetHerHis]ในสมรภูมิ!"
+ commander_wounded_by_enemy_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip] ทำให้แม่ทัพศัตรู [CHARACTER.GetUINameNoTooltip] บาดเจ็บในสมรภูมิ!"
+
+ commander_maimed_no_enemy_friendly_player:0 "ข้ากลายเป็นคนพิการจากทหารศัตรูขณะนำทัพในสมรภูมิ!"
+ commander_maimed_no_enemy_friendly:0 "แม่ทัพ [CHARACTER.GetUINameNoTooltip] กลายเป็นคนพิการขณะนำทัพของ[CHARACTER.GetHerHis]ในสมรภูมิ!"
+ commander_maimed_no_enemy_enemy:0 "ทหารผู้กล้าหาญของเราคนหนึ่งสามารถ ทำให้แม่ทัพศัตรู [CHARACTER.GetUINameNoTooltip] พิการได้ในสมรภูมิ!"
+
+ commander_maimed_by_enemy_friendly_player:1 "ท่านกลายเป็นคนพิการจาก [TARGET_CHARACTER.GetUINameNoTooltip] ขณะนำทัพในสมรภูมิ!"
+ commander_maimed_by_enemy_friendly:0 "แม่ทัพ [CHARACTER.GetUINameNoTooltip] กลายเป็นคนพิการจาก [TARGET_CHARACTER.GetUINameNoTooltip] ในสมรภูมิ!"
+ commander_maimed_by_enemy_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip] ทำให้แม่ทัพศัตรู [CHARACTER.GetUINameNoTooltip] พิการในสมรภูมิ!"
+
+ commander_killed_no_enemy_friendly_player:0 "ข้าถูกทหารศัตรูสังหารขณะนำทัพในสมรภูมิ!"
+ commander_killed_no_enemy_friendly:0 "แม่ทัพ [CHARACTER.GetUINameNoTooltip] ถูกสังหารขณะนำทัพของ[CHARACTER.GetHerHis]ในสมรภูมิ!"
+ commander_killed_no_enemy_enemy:0 "ทหารผู้กล้าหาญของเราคนหนึ่งสามารถสังหารแม่ทัพศัตรู [CHARACTER.GetUINameNoTooltip] ได้ ทำให้กองทัพของพวกเขาสับสนอลหม่าน!"
+
+ commander_killed_by_enemy_friendly_player:1 "ท่านถูกสังหารโดย [TARGET_CHARACTER.GetUINameNoTooltip] ขณะนำทัพในสมรภูมิ!"
+ commander_killed_by_enemy_friendly:0 "แม่ทัพ [CHARACTER.GetUINameNoTooltip] ถูกสังหารโดย [TARGET_CHARACTER.GetUINameNoTooltip]!"
+ commander_killed_by_enemy_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip] สังหารแม่ทัพศัตรู [CHARACTER.GetUINameNoTooltip] ทำให้กองทัพของพวกเขาสับสนอลหม่าน!"
+
+ # Commander injured/killed event strings for use in messages/toasts.
+ commander_wounded_no_enemy_interface_friendly_player:1 "ท่านได้รับบาดเจ็บจากทหารศัตรูขณะนำทัพในสมรภูมิ!"
+ commander_wounded_by_enemy_interface_friendly_player:1 "ท่านได้รับบาดเจ็บจาก [enemy_knight.GetUINameNoTooltip] ขณะนำทัพในสมรภูมิ!"
+ commander_maimed_no_enemy_interface_friendly_player:1 "ท่านกลายเป็นคนพิการจากทหารศัตรูขณะนำทัพในสมรภูมิ!"
+ commander_maimed_by_enemy_interface_friendly_player:1 "ท่านกลายเป็นคนพิการจาก [enemy_knight.GetUINameNoTooltip] ขณะนำทัพในสมรภูมิ!"
+ commander_killed_no_enemy_interface_friendly:1 "[ROOT.Char.GetUINameNoTooltip] ถูกทหารศัตรูสังหารขณะนำทัพของท่านในสมรภูมิ!"
+ commander_killed_by_enemy_interface_friendly:1 "[ROOT.Char.GetUINameNoTooltip] ถูก [enemy_knight.GetUINameNoTooltip] สังหารขณะนำทัพของท่านในสมรภูมิ!"
+

@@ -1,0 +1,6 @@
+﻿l_english: 
+ kochinim_history_loc:0 "ก่อกำเนิดจากการรวมกันของ [CULTURE.GetName] และวัฒนธรรมที่ไม่ปรากฏชื่อ ซึ่งมี [heritage|E] กลุ่ม $israelite_group$ ในปี [DATE.GetYear]"
+ vlach_history_loc:0 "ก่อกำเนิดจากการรวมกันของ [CULTURE.GetName] และวัฒนธรรมที่ไม่ปรากฏชื่อ ซึ่งมี [heritage|E] กลุ่ม $south_slavic_group$ ในปี [DATE.GetYear]"
+ bulgarian_history_loc:0 "ก่อกำเนิดจากการรวมกันของ [CULTURE.GetName] และวัฒนธรรมที่ไม่ปรากฏชื่อ ซึ่งมี [heritage|E] กลุ่ม $south_slavic_group$ ในปี [DATE.GetYear]"
+ scythian_heritage_loc: "แยกตัวออกจากวัฒนธรรมซิทเธียนในปี [DATE.GetYear]"
+ bactrian_heritage_loc: "ก่อกำเนิดจากการรวมกันของวัฒนธรรมแบกเตรียและ [CULTURE.GetName] ในปี [DATE.GetYear]"

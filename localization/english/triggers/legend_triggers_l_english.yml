@@ -1,0 +1,45 @@
+﻿l_english: 
+ legend_owner_equal_global: "เป็นเจ้าของโดย [TARGET_CHARACTER.GetName]"
+ not_legend_owner_equal_global: "#bold ไม่ได้#! เป็นเจ้าของโดย [TARGET_CHARACTER.GetName]"
+ legend_owner_equal_third: "[LEGEND.GetName] เป็นเจ้าของโดย [TARGET_CHARACTER.GetName]"
+ not_legend_owner_equal_third: "[LEGEND.GetName] #bold ไม่ได้#! เป็นเจ้าของโดย [TARGET_CHARACTER.GetName]"
+ 
+ promoted_legend_equal_global: "กำลัง[promoting_legend|E] [LEGEND.GetName]"
+ not_promoted_legend_equal_global: "#bold ไม่ได้#! กำลัง[promoting_legend|E] [LEGEND.GetName]"
+ promoted_legend_equal_third: "[CHARACTER.GetName] กำลัง[promoting_legend|E] [LEGEND.GetName]"
+ not_promoted_legend_equal_third: "[CHARACTER.GetName] #bold ไม่ได้#! กำลัง[promoting_legend|E] [LEGEND.GetName]"
+ promoted_legend_equal_first: "ข้ากำลัง[promoting_legend|E] [LEGEND.GetName]"
+ not_promoted_legend_equal_first: "ข้า #bold ไม่ได้#! กำลัง[promoting_legend|E] [LEGEND.GetName]"
+
+ legend_quality_global: "[Concept( 'legend_quality', 'คุณภาพ' )|E] คือ $COMPARATOR$ $CHECK_VALUE|V$"
+ not_legend_quality_global: "[Concept( 'legend_quality', 'คุณภาพ' )|E] #bold ไม่ใช่#! $COMPARATOR$ $CHECK_VALUE|V$"
+ legend_quality_third: "[Concept( 'legend_quality', 'คุณภาพ' )|E] ของ [LEGEND.GetName] คือ $COMPARATOR$ $CHECK_VALUE|V$"
+ not_legend_quality_third: "[Concept( 'legend_quality', 'คุณภาพ' )|E] ของ [LEGEND.GetName] #bold ไม่ใช่#! $COMPARATOR$ $CHECK_VALUE|V$"
+
+ legend_start_date_global: "ถูกสร้างขึ้น $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ not_legend_start_date_global: "#bold ไม่ได้#! ถูกสร้างขึ้น $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ legend_start_date_third: "[LEGEND.GetName] ถูกสร้างขึ้น $COMPARATOR$ [CHECK_DATE.GetString|V]"
+ not_legend_start_date_third: "[LEGEND.GetName] #bold ไม่ได้#! ถูกสร้างขึ้น $COMPARATOR$ [CHECK_DATE.GetString|V]"
+
+ legend_seed_name_and_quality: "[LEGEND_SEED.GetName( CHARACTER.Self )] #weak ([LEGEND_SEED.GetQualityString] [LEGEND_SEED.GetType.GetName]) [legend_seed|e]"
+
+ has_personal_legend_seed_global: "มี $legend_seed_name_and_quality$"
+ not_has_personal_legend_seed_global: "#bold ไม่มี#! $legend_seed_name_and_quality$"
+ has_personal_legend_seed_third: "[CHARACTER.GetName] มี $legend_seed_name_and_quality$"
+ not_has_personal_legend_seed_third: "[CHARACTER.GetName] #bold ไม่มี#! $legend_seed_name_and_quality$"
+
+ has_triggered_legend_seed_global: "มีคุณสมบัติสำหรับ [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )] [legend_seed|e]"
+ not_has_triggered_legend_seed_global: "#bold ไม่มี#! คุณสมบัติสำหรับ [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )] [legend_seed|e]"
+ has_triggered_legend_seed_third: "[CHARACTER.GetName] มีคุณสมบัติสำหรับ [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )] [legend_seed|e]"
+ not_has_triggered_legend_seed_third: "[CHARACTER.GetName] #bold ไม่มี#! คุณสมบัติสำหรับ [TRIGGERED_LEGEND_SEED.GetName( CHARACTER.Self )] [legend_seed|e]"
+ 
+ any_legend_promoter_global: "ผู้สนับสนุน[legend|E] ใดๆ"
+ any_legend_promoter_third: "ผู้สนับสนุนใดๆ ของ [LEGEND.GetName]"
+ any_legend_promoter_count_global: "$PARAMETERS$ ผู้สนับสนุน[legend|E]"
+ any_legend_promoter_count_third: "$PARAMETERS$ ผู้สนับสนุนของ [LEGEND.GetName]"
+
+ has_legend_modifier_global: "มีตัวปรับ แต่ง: $MODIFIER$"
+ not_has_legend_modifier_global: "#bold ไม่มี#! ตัวปรับ แต่ง: $MODIFIER$"
+ has_legend_modifier_third: "[LEGEND.GetName] มีตัวปรับ แต่ง: $MODIFIER$"
+ not_has_legend_modifier_third: "[LEGEND.GetName] #bold ไม่มี#! ตัวปรับ แต่ง: $MODIFIER$"
+ 

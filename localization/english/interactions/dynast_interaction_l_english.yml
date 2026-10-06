@@ -1,0 +1,46 @@
+﻿l_english: 
+ dynasty_interaction_header:1 "[dynast_interaction|E]\n"
+ disinherit_interaction:0 "ตัดออกจากมรดก"
+ disinherit_interaction_desc:0 "$dynasty_interaction_header$ถอด [recipient.GetShortUINameNoTooltip] ออกจาก[line_of_succession|E]"
+ disinherit_interaction_notification:0 "สมาชิกตระกูลถูกตัดออกจากมรดก"
+ courtly_vassal_disapproves_disinheriting:0 "[vassal|E]ผู้[GetVassalStance( 'courtly' ).GetName] [GetVassalStance( 'courtly' ).GetTextIcon]ทุกคน ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) สูญเสีย[opinion|E] #N 20#! ต่อ [actor.GetShortUIName] เป็นเวลา #V 10 ปี#! #weak (ไม่เห็นด้วยกับการตัดทายาทที่ไม่เป็นที่โต้แย้งออกจากมรดก)#!"
+
+
+ restore_inheritance_interaction:0 "คืนสิทธิ์การสืบทอด"
+ restore_inheritance_interaction_desc:0 "$dynasty_interaction_header$คืนสิทธิ์ [recipient.GetShortUINameNoTooltip] สู่[line_of_succession|E]ตามธรรมชาติ\n\n#weak สามารถทำได้เนื่องจาก[recipient.GetSheHe]ถูก[disinherited|E]#!"
+ restore_inheritance_interaction_notification:0 "คืนสิทธิ์การสืบทอดแล้ว"
+
+ denounce_interaction:0 "ประณาม"
+ denounce_interaction_desc:0 "$dynasty_interaction_header$[denounce|E] [recipient.GetShortUINameNoTooltip]\n\n#weak การกระทำนี้จะให้เหตุผลแก่สมาชิกทุกคนใน[dynasty|E]ของเราในการ[imprisonment_reason|E]ต่อ[recipient.GetHerHim]#!"
+ denounce_interaction_notification:0 "สมาชิกตระกูลถูกประณาม"
+
+ forgive_interaction:0 "ให้อภัย"
+ denounced_change_to_forgiven:0 "ทัศนคติ#V $denounced_opinion$#! #weak (-50)#! เปลี่ยนเป็น #V $forgave_denounced_opinion$#! #weak (-25)#! (#P +25#! [opinion|E])"
+ forgiven_changed_to_denounced:0 "ทัศนคติ#V $forgave_denounced_opinion$#! #weak (-25)#! เปลี่ยนเป็น #V $denounced_opinion$#! #weak (-50)#! (#N -25#! [opinion|E])"
+ forgive_interaction_desc:0 "$dynasty_interaction_header$ถอนการ[denouncement|E] [recipient.GetShortUINameNoTooltip]"
+ forgive_interaction_notification:0 "ให้อภัยสมาชิกตระกูลแล้ว"
+
+ call_dynasty_member_to_war_interaction:0 "เรียกสมาชิกตระกูลเข้าร่วมสงคราม"
+ call_dynasty_member_to_war_interaction_desc:0 "เรียก [recipient.GetShortUINameNoTooltip] มารับใช้ [dynasty|E] ของ [recipient.GetHerHis] ในสงคราม"
+ call_dynasty_member_to_war_interaction_extra_icon:0 "$hook_extra_icon$"
+
+ dynast_legitimize_bastard_interaction:1 "รับรองบุตรนอกสมรส #weak (ตระกูล)#!"
+ dynast_legitimize_bastard_interaction_desc:2 "$dynasty_interaction_header$ประกาศให้ [recipient.GetShortUINameNoTooltip] เป็น $game_concept_legitimized_bastard$\n\n#weak สามารถทำได้เนื่องจาก[recipient.GetSheHe]เป็น[bastard|E]ของ[dynasty|E]ของข้าพเจ้า#!"
+ dynast_legitimize_bastard_interaction_notification:0 "รับรองบุตรนอกสมรสแล้ว"
+
+ dynast_claim_title_interaction:0 "อ้างสิทธิ์ในตำแหน่ง"
+ dynast_claim_title_interaction_desc:0 "$dynasty_interaction_header$[claim|EU] [title|E] ที่ถือครองโดย [recipient.GetShortUINameNoTooltip] ให้เป็นของท่านเอง"
+ dynast_claim_title_interaction_notification:0 "อ้างสิทธิ์ในตำแหน่งแล้ว"
+ ALREADY_HAVE_CLAIM_ON_THIS_TITLE:0 "ท่านมีสิทธิ์อ้างในตำแหน่งนี้อยู่แล้ว"
+ ALREADY_HAVE_CLAIMS_ON_ALL_TITLES:1 "ท่านมีสิทธิ์อ้างในตำแหน่งทั้งหมดของ [TARGET_CHARACTER.GetShortUINamePossessive] อยู่แล้ว"
+
+ dynast_end_dynasty_wars_interaction:0 "ยุติสงครามตระกูล"
+ dynast_end_dynasty_wars_interaction_desc:0 "$dynasty_interaction_header$เรียกร้องให้ [recipient.GetShortUINameNoTooltip] ยุติสงครามเชิงรุกทั้งหมดที่กระทำต่อสมาชิกคนอื่น ๆ ใน[dynasty|E]ของเราโดยทันที"
+ dynast_end_dynasty_wars_interaction_notification:0 "ยุติสงครามตระกูลแล้ว"
+
+ recipient_secondary_legitimize_bastard_interaction:0 "บุตรนอกสมรส"
+
+ send_to_varangian_guard_interaction:0 "ส่งไปยังกองทหารวารันเจียน #weak (ตระกูล)#!"
+ send_to_varangian_guard_interaction_desc:0 "$dynasty_interaction_header$ส่ง [recipient.GetShortUINameNoTooltip] ไปแสวงหาเกียรติยศและโชคลาภในกองทหารวารันเจียน ใครจะรู้ มันอาจช่วยสร้างลักษณะนิสัยได้ด้วยซ้ำ!"
+ send_to_varangian_guard_interaction_toast:1 "[recipient.GetShortUIName] ออกเดินทางไปยังกองทหารวารันเจียน"
+ send_to_varangian_guard_interaction_toast_desc:0 "ชื่อเสียงและเกียรติยศรออยู่!"

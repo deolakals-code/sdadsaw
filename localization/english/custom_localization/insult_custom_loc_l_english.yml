@@ -1,0 +1,365 @@
+﻿l_english: 
+ #InsultNoun
+ witch:0 "แม่มด"
+ doxy:0 "หญิงแพศยา" # Archaic term for prostitute or promiscuous woman
+ churl:0 "คนหยาบคาย" # Rude, ill-bred person
+ knave:0 "คนขี้โกง" # Dishonest man
+ spawn_of_hell:0 "เผ่าพันธุ์นรก"
+ coward:0 "คนขี้ขลาด"
+ boar:0 "หมูป่า" # Used as an insult for brutishness
+ cox_comb:0 "คนเจ้าสำอาง" # Vain, foolish dandy
+ strumpet:0 "หญิงโสเภณี"
+ bedswerver:0 "คนนอกใจ" # Unfaithful person (in bed)
+ fiend:0 "ปิศาจ"
+ bastard:0 "ไอ้ลูกไม่มีพ่อ" # Direct and harsh
+ buffoon:0 "ตัวตลก" # Used insultingly
+ cur:0 "หมาเลว" # Contemptible person
+ brat:0 "เด็กเหลือขอ"
+ rascal:0 "คนพาล"
+ ankle_biter:0 "เจ้าตัวเล็กน่ารำคาญ" # Insult for a small child
+ whelp:0 "ลูกหมา" # Insult for a young person
+ changeling:0 "เด็กลักพา" # Fairy creature swapped for human baby, implies strangeness
+ troll_spawn:0 "เผ่าพันธุ์โทรลล์"
+ killcrop:0 "เด็กตะกละ" # Gluttonous fairy changeling
+ newt:0 "สัตว์เลื้อยคลานน่ารังเกียจ" # Used as a general insult
+ waif:0 "เด็กจรจัด" # Homeless, neglected child
+ ragamuffin:0 "คนแต่งตัวซอมซ่อ" # Person in ragged clothes
+ hag:0 "ยายแก่แม่มด"
+ ogre:0 "ยักษ์" # Used for brutishness or ugliness
+ wench:0 "หญิงสาวชาวบ้าน" # Can be derogatory depending on context
+ swain:0 "ชายหนุ่มบ้านนอก" # Can be derogatory
+ oaf_insult:0 "ไอ้ทึ่ม"
+ lummox:0 "คนซุ่มซ่าม"
+ fopdoodle:0 "คนโง่เง่า" # Foolish person
+ commoner:0 "สามัญชน" # Can be used insultingly by nobility
+ bampot:0 "คนสติไม่ดี" # Foolish/crazy person
+ banbury_cheese:0 "ไอ้ทึ่ม" # Using a generic insult as the original is obscure English cheese
+ sycophant:0 "คนประจบสอพลอ"
+ kumquat:0 "ส้มจี๊ด" # Likely used as a nonsensical insult, translated literally
+ shitling: "ไอ้ระยำ" # Vulgar insult
+ pervert:0 "คนวิตถาร"
+ fool:0 "คนโง่"
+ swine: "ไอ้หมูสกปรก" # Insult for filthiness or greed
+ venemous_animal_loc:0 "[ROOT.Char.Custom('VenomousCreature')]"
+
+ #InsultAdjective
+ insult_nickname_two_faced:0 "สองหน้า"
+ cold_hearted:0 "ใจดำ"
+ evil:0 "ชั่วร้าย"
+ obnoxious:0 "น่ารังเกียจ"
+ rattling:0 "น่ารำคาญ" # Like something rattling annoyingly
+ blathering:0 "พล่าม"
+ chattering:0 "พูดไม่หยุด"
+ lecherous:0 "ตัณหาจัด"
+ hysterical:0 "เสียสติ"
+ brooding:0 "อมทุกข์"
+ spineless:0 "ขี้ขลาด"
+ squeamish:0 "ใจเสาะ"
+ impotent:0 "ไร้น้ำยา" # For males
+ gutless:0 "ไร้ความกล้า"
+ cowardly:0 "ขี้ขลาดตาขาว"
+ brash:0 "หุนหันพลันแล่น"
+ cocky:0 "อวดดี"
+ false:0 "จอมปลอม"
+ beguiling:0 "เจ้าเล่ห์" # Negative connotation of charming
+ solitary:0 "สันโดษ" # Used negatively
+ eremetic:0 "สันโดษ" # Hermit-like, used negatively
+ reclusive:0 "เก็บตัว" # Used negatively
+ friendless:0 "ไร้เพื่อน"
+ cloistered:0 "เก็บตัวเงียบ" # Used negatively
+ heartless:0 "ไร้หัวใจ"
+ loathsome:0 "น่าขยะแขยง"
+ abhorrent:0 "น่าชิงชัง"
+ vile:0 "เลวทราม"
+ foppish:0 "สำรวย" # Excessively vain about appearance
+ preening:0 "แต่งหล่อ" # Used negatively, like a bird preening
+ contemptuous:0 "ดูถูกเหยียดหยาม"
+ contemptuous_female:0 "$contemptuous$"
+ headless:0 "ไร้หัวคิด" # Foolish
+ headless_female:0 "$headless$"
+ miserable:0 "น่าสังเวช"
+ worthless:0 "ไร้ค่า"
+ miserable_female:0 "$miserable$"
+ worthless_female:0 "$worthless$"
+ lumbering:0 "อุ้ยอ้าย" # Clumsy, heavy movement
+ lumbering_female:0 "$lumbering$"
+ goat_shagging_male:0 "สมสู่แพะ" # Vulgar insult
+ goat_shagging_female:0 "$goat_shagging_male$"
+ telmatobios: "[Glossary( 'เตลมาโทบิออส', 'TELMATOBIOS_GLOSS' )]"
+ TELMATOBIOS_GLOSS: "คำด่าแบบไบแซนไทน์ผสม หมายถึง #EMP ผู้อาศัยในหนองน้ำ#!"
+ borborophagos: "[Glossary( 'บอร์โบโรฟากอส', 'BORBOROPHAGOS_GLOSS' )]"
+ BORBOROPHAGOS_GLOSS: "คำด่าแบบไบแซนไทน์ผสม หมายถึง #EMP ผู้กินโคลน#!"
+ hellenothreskos: "[Glossary( 'เฮเลโนเทรสกอส', 'HELLENOTHRESKOS_GLOSS' )]"
+ HELLENOTHRESKOS_GLOSS: "คำด่าแบบไบแซนไทน์ผสม หมายถึง #EMP ผู้เคารพพวกนอกรีต#!"
+ spondophthoros: "[Glossary( 'สปอนโดโฟโธรอส', 'SPONDOPHTHOROS_GLOSS' )]"
+ SPONDOPHTHOROS_GLOSS: "คำด่าแบบไบแซนไทน์ผสม หมายถึง #EMP ผู้ทำลายสนธิสัญญา#!"
+
+ #InsultAdjectiveArticle
+ insult_nickname_two_faced_article:0 "สองหน้า"
+ cold_hearted_article:0 "ใจดำ"
+ evil_article:0 "ชั่วร้าย"
+ obnoxious_article:0 "น่ารังเกียจ"
+ rattling_article:0 "น่ารำคาญ"
+ blathering_article:0 "พล่าม"
+ chattering_article:0 "พูดไม่หยุด"
+ lecherous_article:0 "ตัณหาจัด"
+ hysterical_article:0 "เสียสติ"
+ brooding_article:0 "อมทุกข์"
+ spineless_article:0 "ขี้ขลาด"
+ squeamish_article:0 "ใจเสาะ"
+ impotent_article:0 "ไร้น้ำยา"
+ gutless_article:0 "ไร้ความกล้า"
+ cowardly_article:0 "ขี้ขลาดตาขาว"
+ brash_article:0 "หุนหันพลันแล่น"
+ cocky_article:0 "อวดดี"
+ false_article:0 "จอมปลอม"
+ beguiling_article:0 "เจ้าเล่ห์"
+ solitary_article:0 "สันโดษ"
+ eremetic_article:0 "สันโดษ"
+ reclusive_article:0 "เก็บตัว"
+ friendless_article:0 "ไร้เพื่อน"
+ cloistered_article:0 "เก็บตัวเงียบ"
+ heartless_article:0 "ไร้หัวใจ"
+ loathsome_article:0 "น่าขยะแขยง"
+ abhorrent_article:0 "น่าชิงชัง"
+ vile_article:0 "เลวทราม"
+ telmatobios_article: "a $telmatobios$" # Keep variable, Thai doesn't need article
+ borborophagos_article: "a $borborophagos$" # Keep variable
+ hellenothreskos_article: "a $hellenothreskos$" # Keep variable
+ spondophthoros_article: "a $spondophthoros$" # Keep variable
+
+ #InsultBehavior
+ cold_hearted_behavior:0 "ความใจดำ"
+ evil_behavior:0 "ความชั่วร้าย"
+ obnoxious_behavior:0 "ความน่ารังเกียจ"
+ blathering_behavior:0 "การพล่าม"
+ lecherous_behavior:0 "ความตัณหาจัด"
+ hysterical_behavior:0 "ความเสียสติ"
+ brooding_behavior:0 "การอมทุกข์"
+ spineless_behavior:0 "ความขี้ขลาด"
+ squeamish_behavior:0 "ความใจเสาะ"
+ gutless_behavior:0 "ความไร้ความกล้า"
+ cowardly_behavior:0 "ความขี้ขลาดตาขาว"
+ brash_behavior:0 "ความหุนหันพลันแล่น"
+ cocky_behavior:0 "ความอวดดี"
+ reclusive_behavior:0 "ความเก็บตัว" # Standoffishness -> ความเย็นชา/ความห่างเหิน, but reclusive fits better
+ heartless_behavior:0 "ความไร้หัวใจ"
+
+ #InsultSentence
+ insult_sentence_arrogant:1 "เจ้ามัน[ROOT.GetCharacter.GetWomanMan]หลงตัวเอง บูชา แต่ผู้สร้างตนเอง"
+ insult_sentence_lustful:0 "ข้ารู้สึกทุกข์ทรมานเหลือเกินเมื่อไม่ได้อยู่กับเจ้า เกือบจะเหมือนตอนอยู่กับเจ้านั่นแหละ"
+ insult_sentence_subtle:0 "เจ้ามันแยบยลเหมือนหญิงแพศยาข้างถนน"
+ insult_sentence_highgod:0 "ใบหน้าของเจ้าเป็นข้อพิสูจน์ว่า [ROOT.GetCharacter.GetFaith.HighGodName] ไม่ได้ดีเสมอไป"
+ insult_sentence_beauty_bad:0 "ข้าได้ยินว่าเจ้ารักธรรมชาติ แม้ว่ามันจะทำกับเจ้าไว้อย่างนั้นก็ตาม"
+ insult_sentence_shiver:0 "เจ้ามันความสั่นสะท้าน ที่มองหากระดูกสันหลังให้วิ่งขึ้นไป"
+ insult_sentence_evening:0 "ข้ามีค่ำคืนที่วิเศษอย่างสมบูรณ์แบบกับเพื่อนดีๆ จนกระทั่งบัดนี้"
+
+ #PointOfRidicule
+ foolishness:0 "ความโง่เขลา"
+ sensitive_soul:0 "จิตใจอันบอบบาง"
+ unrestrained_emotions:0 "อารมณ์ที่ไม่ถูกควบคุม"
+ bothersome_nature:0 "นิสัยน่ารำคาญ"
+ lesion_ridden_face:0 "ใบหน้าที่เต็มไปด้วยแผล"
+ disfigurement:0 "ความเสียโฉม"
+ infirmity:0 "ความอ่อนแอ"
+ lack_of_certain_parts:0 "การขาดชิ้นส่วนบางอย่าง"
+ blindness:0 "ความตาบอด"
+ ghastly_visage:0 "ใบหน้าที่น่าสยดสยอง"
+ frailty:0 "ความเปราะบาง"
+ grotesque_limp:0 "ท่าเดินกะเผลกน่าเกลียด"
+ grotesque_hump:0 "หลังค่อมอันน่าเกลียด"
+ ludicrous_lisp:0 "การพูดลิ้นคับน่าหัวเราะ"
+ stature:0 "รูปร่าง"
+ grotesque_size:0 "ขนาดอันน่าเกลียด"
+ spindly_frame:0 "ร่างผอมเก้งก้าง"
+ snake_scales:0 "เกล็ดงู"
+ ghostly_pallor:0 "ความซีดเซียวเหมือนผี"
+ disgusting_wheezing:0 "เสียงหายใจฟืดฟาดน่ารังเกียจ"
+ insistent_whining:0 "เสียงคร่ำครวญไม่หยุด"
+
+ #InsultNounSexual
+ whore:0 "หญิงแพศยา"
+ debaucher:0 "คนเสเพล"
+ harlot:0 "นางโลม"
+ pig:0 "ไอ้หมูสกปรก"
+ skirt_chaser:0 "ไอ้เสือผู้หญิง"
+
+ # Female versions requested by other languages
+ coward_female:0 "คนขี้ขลาด" # Same as male
+ boar_female:0 "แม่หมู" # Sow
+ cox_comb_female:0 "คนเจ้าสำอาง" # Same as male
+ bedswerver_female:0 "คนนอกใจ" # Same as male
+ insult_nickname_two_faced_female:0 "สองหน้า" # Same
+ cold_hearted_female:0 "ใจดำ" # Same
+ evil_female:0 "ชั่วร้าย" # Same
+ obnoxious_female:0 "น่ารังเกียจ" # Same
+ rattling_female:0 "น่ารำคาญ" # Same
+ blathering_female:0 "พล่าม" # Same
+ chattering_female:0 "พูดไม่หยุด" # Same
+ lecherous_female:0 "ตัณหาจัด" # Same
+ hysterical_female:0 "เสียสติ" # Same
+ brooding_female:0 "อมทุกข์" # Same
+ spineless_female:0 "ขี้ขลาด" # Same
+ squeamish_female:0 "ใจเสาะ" # Same
+ gutless_female:0 "ไร้ความกล้า" # Same
+ cowardly_female:0 "ขี้ขลาดตาขาว" # Same
+ brash_female:0 "หุนหันพลันแล่น" # Same
+ cocky_female:0 "อวดดี" # Same
+ false_female:0 "จอมปลอม" # Same
+ beguiling_female:0 "เจ้าเล่ห์" # Same
+ solitary_female:0 "สันโดษ" # Same
+ eremetic_female:0 "สันโดษ" # Same
+ reclusive_female:0 "เก็บตัว" # Same
+ friendless_female:0 "ไร้เพื่อน" # Same
+ cloistered_female:0 "เก็บตัวเงียบ" # Same
+ heartless_female:0 "ไร้หัวใจ" # Same
+ loathsome_female:0 "น่าขยะแขยง" # Same
+ abhorrent_female:0 "น่าชิงชัง" # Same
+ vile_female:0 "เลวทราม" # Same
+ insult_nickname_two_faced_article_female:0 "สองหน้า" # Same
+ cold_hearted_article_female:0 "ใจดำ" # Same
+ evil_article_female:0 "ชั่วร้าย" # Same
+ obnoxious_article_female:0 "น่ารังเกียจ" # Same
+ rattling_article_female:0 "น่ารำคาญ" # Same
+ blathering_article_female:0 "พล่าม" # Same
+ chattering_article_female:0 "พูดไม่หยุด" # Same
+ lecherous_article_female:0 "ตัณหาจัด" # Same
+ hysterical_article_female:0 "เสียสติ" # Same
+ brooding_article_female:0 "อมทุกข์" # Same
+ spineless_article_female:0 "ขี้ขลาด" # Same
+ squeamish_article_female:0 "ใจเสาะ" # Same
+ impotent_article_female:0 "เป็นหมัน" # Barren
+ gutless_article_female:0 "ไร้ความกล้า" # Same
+ cowardly_article_female:0 "ขี้ขลาดตาขาว" # Same
+ brash_article_female:0 "หุนหันพลันแล่น" # Same
+ cocky_article_female:0 "อวดดี" # Same
+ false_article_female:0 "จอมปลอม" # Same
+ beguiling_article_female:0 "เจ้าเล่ห์" # Same
+ solitary_article_female:0 "สันโดษ" # Same
+ eremetic_article_female:0 "สันโดษ" # Same
+ reclusive_article_female:0 "เก็บตัว" # Same
+ friendless_article_female:0 "ไร้เพื่อน" # Same
+ cloistered_article_female:0 "เก็บตัวเงียบ" # Same
+ heartless_article_female:0 "ไร้หัวใจ" # Same
+ loathsome_article_female:0 "น่าขยะแขยง" # Same
+ abhorrent_article_female:0 "น่าชิงชัง" # Same
+ vile_article_female:0 "เลวทราม" # Same
+ insultnounsexual_voluptuary_female:0 "ผู้มักมากในกาม"
+ insultnounsexual_copulator_female:0 "ผู้สมสู่" # Neutral term, context makes it insulting
+ insultnounsexual_libidinist_female:0 "ผู้มีตัณหาราคะ"
+ insultnounsexual_roue_female:0 "หญิงเสเพล" # Roué is typically male, but context implies female version
+ insult_cow_female:0 "วัวตัวเมีย" # Cow
+ insult_plough_female:0 "คันไถ" # Plow
+ insult_prow_female:0 "หัวเรือ" # Prow
+ insult_sow_female:0 "แม่หมู" # Sow
+ insult_should_allow_female:0 "ควรอนุญาต"
+ insult_understands_how_female:0 "เข้าใจวิธี"
+ insult_knows_quite_how_female:0 "รู้วิธีดีทีเดียว"
+ insult_could_use_as_a_plough_female:0 "สามารถใช้เป็นคันไถได้"
+ insult_dog_female:0 "นางหมา" # Bitch
+ insult_bog_female:0 "ปลักโคลน" # Bog
+ insult_hog_female:0 "หมูตอน" # Hog
+ insult_sprog_female:0 "ลูกหลาน" # Sprog (offspring, informal/derogatory)
+ insult_slog_female:0 "งานหนัก" # Slog
+ insult_clog_female:0 "สิ่งอุดตัน" # Clog
+ insult_grog_female:0 "เหล้ารัมผสมน้ำ" # Grog
+ insult_hunt_female:0 "การล่า" # Hunt
+ insult_grunt_female:0 "เสียงคราง" # Grunt
+ insult_stunt_female:0 "การแสดงผาดโผน" # Stunt (can imply showing off)
+ insult_punt_female:0 "การเตะ" # Punt
+ insult_runt_female:0 "ไอ้แคระแกร็น" # Runt
+ insult_errant_female:0 "นอกลู่นอกทาง" # Errant
+ insult_shunt_female:0 "การสับเปลี่ยน" # Shunt
+ insult_blunt_female:0 "ทื่อ" # Blunt
+ impotent_female:0 "เป็นหมัน" # Barren
+
+ insult_noun_clumsy_oaf: "$oaf_insult$"
+ insult_noun_clumsy_buffoon: "$buffoon$"
+ insult_noun_clumsy_dimwit: "ไอ้ทึ่ม"
+ insult_noun_clumsy_nimrod: "คนโง่" # Nimrod used ironically as insult
+ 
+ insult_adjective_clumsy_clumsy: "ซุ่มซ่าม"
+ insult_adjective_clumsy_stumbling: "เดินสะดุด"
+ insult_adjective_clumsy_blundering: "ผิดพลาด"
+ insult_adjective_clumsy_fumbling: "งุ่มง่าม"
+
+ witch_plural: "แม่มด" # Thai often uses singular form for plural
+ doxy_plural: "หญิงแพศยา"
+ churl_plural: "คนหยาบคาย"
+ knave_plural: "คนขี้โกง"
+ spawn_of_hell_plural: "เผ่าพันธุ์นรก"
+ fiend_plural: "เหล่าปิศาจ" # Using เหล่า for clarity
+ buffoon_plural: "ตัวตลก"
+ cur_plural: "หมาเลว"
+ bastard_plural: "ไอ้ลูกไม่มีพ่อ"
+ coward_plural: "คนขี้ขลาด"
+ coward_female_plural: "คนขี้ขลาด"
+ boar_female_plural: "แม่หมู"
+ brat_plural: "เด็กเหลือขอ"
+ rascal_plural: "คนพาล"
+ ankle_biter_plural: "เจ้าตัวเล็กน่ารำคาญ"
+ whelp_plural: "ลูกหมา"
+ changeling_plural: "เด็กลักพา"
+ troll_spawn_plural: "เผ่าพันธุ์โทรลล์"
+ killcrop_plural: "เด็กตะกละ"
+ newt_plural: "สัตว์เลื้อยคลานน่ารังเกียจ"
+ waif_plural: "เด็กจรจัด"
+ ragamuffin_plural: "คน แต่งตัวซอมซ่อ"
+ hag_plural: "ยายแก่แม่มด"
+ ogre_plural: "ยักษ์"
+ wench_plural: "หญิงสาวชาวบ้าน"
+ swain_plural: "ชายหนุ่มบ้านนอก"
+ oaf_insult_plural: "ไอ้ทึ่ม"
+ lummox_plural: "คนซุ่มซ่าม"
+ fopdoodle_plural: "คนโง่เง่า"
+ commoner_plural: "สามัญชน"
+ bampot_plural: "คนสติไม่ดี"
+ banbury_cheese_plural: "ไอ้ทึ่ม"
+ sycophant_plural: "คนประจบสอพลอ"
+ kumquat_plural: "ส้มจี๊ด"
+ shitling_plural: "ไอ้ระยำ"
+ pervert_plural: "คนวิตถาร"
+ fool_plural: "คนโง่"
+ swine_plural: "ไอ้หมูสกปรก"
+ boar_plural: "หมูป่า"
+ cox_comb_plural: "คนเจ้าสำอาง"
+ cox_comb_female_plural: "คนเจ้าสำอาง"
+ strumpet_plural: "หญิงโสเภณี"
+ bedswerver_plural: "คนนอกใจ"
+ bedswerver_female_plural: "คนนอกใจ"
+ scullion_plural: "คนครัวชั้นต่ำ" # Kitchen helper, often used insultingly
+ debaucher_plural: "คนเสเพล"
+
+ heathen: "คนนอกรีต"
+ infidel: "ผู้ไร้ศรัทธา"
+ barbarian: "อนารยชน"
+ outsider: "คนต่างถิ่น"
+ heathens: "พวกนอกรีต"
+ infidels: "เหล่าผู้ไร้ศรัทธา"
+ barbarians: "เหล่าอนารยชน"
+ outsiders: "เหล่าคนต่างถิ่น"
+ vixen: "นางจิ้งจอก"
+ turtle_daughterson: "[ROOT.GetDaughterSon] ของเต่า"
+ turtle_granddaughterson: "หลาน[ROOT.GetDaughterSon] ของเต่า"
+ turtle_daughterson_plural: "[ROOT.GetDaughterSon]s ของเต่า"
+ turtle_granddaughterson_plural: "หลาน[ROOT.GetDaughterSon]s ของเต่า"
+ laborer: "ผู้ใช้แรงงาน"
+ laborer_plural: "เหล่าผู้ใช้แรงงาน"
+ beggar: "ขอทาน"
+ beggar_plural: "เหล่าขอทาน"
+ eunuch: "ขันที"
+ eunuch_plural: "เหล่าขันที"
+ mother_selling_thief: "โจรขายมารดา"
+ wolf_hearted: "ใจหมาป่า"
+ dog_livered: "ขี้ขลาด"
+ unfilial: "อกตัญญู"
+ disloyal: "ไม่ภักดี"
+ shameless: "ไร้ยางอาย"
+ classless: "ไร้สกุล"
+ ignorant: "โง่เขลา"
+ uneducated: "ไร้การศึกษา"
+ unlearned: "ไม่ได้เล่าเรียน"
+ unscrupulous: "ไร้ศีลธรรม"
+ turtle_spawned: "เกิดจากเต่า"
+ vixen_plural: "เหล่านางจิ้งจอก"
+ mother_selling_thief_plural: "เหล่าโจรขายมารดา"

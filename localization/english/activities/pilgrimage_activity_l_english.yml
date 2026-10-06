@@ -1,0 +1,66 @@
+﻿l_english: 
+ #Pious/Worldliness Achieved reward explanations
+ activity_pilgrimage_special_type_bar_segment_tt_0:0 "#t การแสวงบุญที่เหมาะสม (ระดับ 1)#!\n#ts คะแนน: [ActivityWindow.GetSpecialProgressValue|0V]/#V 25#!#!\n[GetPlayer.Custom('GetPiousOrWorldlyRewardTier0')]\n\n#weak [GetPlayer.Custom('GetPiousOrWorldlyFlavorTier0')]#!"
+ activity_pilgrimage_special_type_bar_segment_tt_1:0 "#t การแสวงบุญที่ยอดเยี่ยม (ระดับ 2)#!\n#ts คะแนน: [ActivityWindow.GetSpecialProgressValue|0V]/#V 50#!#!\n[GetPlayer.Custom('GetPiousOrWorldlyRewardTier1')]\n\n#weak [GetPlayer.Custom('GetPiousOrWorldlyFlavorTier1')]#!"
+ activity_pilgrimage_special_type_bar_segment_tt_2:0 "#t การแสวงบุญที่เหนือชั้น (ระดับ 3)#!\n#ts คะแนน: [ActivityWindow.GetSpecialProgressValue|0V]/#V 75#!#!\n[GetPlayer.Custom('GetPiousOrWorldlyRewardTier2')]\n\n#weak [GetPlayer.Custom('GetPiousOrWorldlyFlavorTier2')]#!"
+ activity_pilgrimage_special_type_bar_segment_tt_3:0 "#t การแสวงบุญที่สมบูรณ์แบบ (ระดับ 4)#!\n#ts คะแนน: [ActivityWindow.GetSpecialProgressValue|0V]/#V 100#!#!\n[GetPlayer.Custom('GetPiousOrWorldlyRewardTier3')]\n\n#weak [GetPlayer.Custom('GetPiousOrWorldlyFlavorTier3')]#!"
+ 
+ #Pious Reward
+ activity_pilgrimage_special_type_bar_pious_reward_0:0 "$BULLET_WITH_TAB$ผลตอบแทนกิจกรรม [piety_i|E][piety|E]: #p +[EmptyScope.ScriptValue('pilgrimage_low_pious_multiplier_tt')|0]%#!\n$BULLET_WITH_TAB$ประสบการณ์ระดับลักษณะนิสัย [GetTrait('pilgrim').GetName( GetNullCharacter )] [trait_level_track_xp|E]: [GetPlayer.Custom('GetPilgrimXpRewardTier0')]"
+ activity_pilgrimage_special_type_bar_pious_reward_1:0 "$BULLET_WITH_TAB$ผลตอบแทนกิจกรรม [piety_i|E][piety|E]: #p +[EmptyScope.ScriptValue('pilgrimage_mid_pious_multiplier_tt')|0]%#!\n$BULLET_WITH_TAB$ประสบการณ์ระดับลักษณะนิสัย [GetTrait('pilgrim').GetName( GetNullCharacter )] [trait_level_track_xp|E]: [GetPlayer.Custom('GetPilgrimXpRewardTier1')]"
+ activity_pilgrimage_special_type_bar_pious_reward_2:0 "$BULLET_WITH_TAB$ผลตอบแทนกิจกรรม [piety_i|E][piety|E]: #p +[EmptyScope.ScriptValue('pilgrimage_high_pious_multiplier_tt')|0]%#!\n$BULLET_WITH_TAB$ประสบการณ์ระดับลักษณะนิสัย [GetTrait('pilgrim').GetName( GetNullCharacter )] [trait_level_track_xp|E]: [GetPlayer.Custom('GetPilgrimXpRewardTier2')]"
+ activity_pilgrimage_special_type_bar_pious_reward_3:0 "$BULLET_WITH_TAB$ผลตอบแทนกิจกรรม [piety_i|E][piety|E]: #p +[EmptyScope.ScriptValue('pilgrimage_perfect_pious_multiplier_tt')|0]%#!\n$BULLET_WITH_TAB$ประสบการณ์ระดับลักษณะนิสัย [GetTrait('pilgrim').GetName( GetNullCharacter )] [trait_level_track_xp|E]: [GetPlayer.Custom('GetPilgrimXpRewardTier3')]"
+ #Pilgrimage XP
+ activity_pilgrimage_special_type_bar_pilgrimage_xp_0:0 "#z [EmptyScope.ScriptValue('pilgrimage_low_pious_trait_xp_value')|0]#!"
+ activity_pilgrimage_special_type_bar_pilgrimage_xp_1:0 "#z [EmptyScope.ScriptValue('pilgrimage_mid_pious_trait_xp_value')|0]#!"
+ activity_pilgrimage_special_type_bar_pilgrimage_xp_2:0 "#z [EmptyScope.ScriptValue('pilgrimage_high_pious_trait_xp_value')|0]#!"
+ activity_pilgrimage_special_type_bar_pilgrimage_xp_3:0 "#z [EmptyScope.ScriptValue('pilgrimage_perfect_pious_trait_xp_value')|0]#!"
+ #Pious Flavor
+ activity_pilgrimage_special_type_bar_pious_flavor_0:0 "นี่เป็นสิ่งน้อยที่สุดที่พวกเราสามารถกระทำได้เพื่อ ทำให้ [GetPlayer.GetFaith.PantheonTerm] พอพระทัย"
+ activity_pilgrimage_special_type_bar_pious_flavor_1:0 "สิ่งศักดิ์สิทธิ์แย้มพระสรวลให้แก่ข้าพเจ้า"
+ activity_pilgrimage_special_type_bar_pious_flavor_2:0 "ข้าพเจ้าใกล้จะบรรลุธรรมขั้นสูงแล้ว"
+ activity_pilgrimage_special_type_bar_pious_flavor_3:0 "จิตวิญญาณของข้าพเจ้าและสิ่งศักดิ์สิทธิ์นั้นเป็นหนึ่งเดียวกัน"
+
+ #Worldly Reward
+ activity_pilgrimage_special_type_bar_worldly_reward_0:0 "$BULLET_WITH_TAB$ผลตอบแทนกิจกรรม [cultural_acceptance_i][cultural_acceptance|E]: #p +[EmptyScope.ScriptValue('pilgrimage_low_worldly_acceptance_value')|0]%#!"
+ activity_pilgrimage_special_type_bar_worldly_reward_1:0 "$BULLET_WITH_TAB$ผลตอบแทนกิจกรรม [cultural_acceptance_i][cultural_acceptance|E]: #p +[EmptyScope.ScriptValue('pilgrimage_mid_worldly_acceptance_value')|0]%#!"
+ activity_pilgrimage_special_type_bar_worldly_reward_2:0 "$BULLET_WITH_TAB$ผลตอบแทนกิจกรรม [cultural_acceptance_i][cultural_acceptance|E]: #p +[EmptyScope.ScriptValue('pilgrimage_high_worldly_acceptance_value')|0]%#!"
+ activity_pilgrimage_special_type_bar_worldly_reward_3:0 "$BULLET_WITH_TAB$ผลตอบแทนกิจกรรม [cultural_acceptance_i][cultural_acceptance|E]: #p +[EmptyScope.ScriptValue('pilgrimage_perfect_worldly_acceptance_value')|0]%#!"
+ #Worldly Modifier
+ activity_pilgrimage_special_type_bar_worldly_modifier_0:0 "$BULLET_WITH_TAB$[GetModifier( 'pilgrimage_low_worldly_reward_modifier' ).GetNameWithTooltip|L]"
+ activity_pilgrimage_special_type_bar_worldly_modifier_1:0 "$BULLET_WITH_TAB$[GetModifier( 'pilgrimage_mid_worldly_reward_modifier' ).GetNameWithTooltip|L]"
+ activity_pilgrimage_special_type_bar_worldly_modifier_2:0 "$BULLET_WITH_TAB$[GetModifier( 'pilgrimage_high_worldly_reward_modifier' ).GetNameWithTooltip|L]"
+ activity_pilgrimage_special_type_bar_worldly_modifier_3:0 "$BULLET_WITH_TAB$[GetModifier( 'pilgrimage_perfect_worldly_reward_modifier' ).GetNameWithTooltip|L]"
+ #Worldly Flavor
+ activity_pilgrimage_special_type_bar_worldly_flavor_0:0 "ข้าจำต้องไปเห็นวัฒนธรรมอื่น ๆ ให้จงได้"
+ activity_pilgrimage_special_type_bar_worldly_flavor_1:0 "ยังมีสถานที่อันน่าตื่นตาตื่นใจอีกมากมายเหลือเกินที่ยังไม่ได้เห็น"
+ activity_pilgrimage_special_type_bar_worldly_flavor_2:0 "พวกเราได้ประสบพบเจอสิ่งต่าง ๆ มากมายเหลือเกิน!"
+ activity_pilgrimage_special_type_bar_worldly_flavor_3:0 "ข้าพเจ้าได้ลิ้มรสชาติของโลกหล้าแล้ว"
+ 
+
+ pilgrimage_cultural_spread:0 "ผู้แสวงบุญเผยแพร่การยอมรับ (ทางวัฒนธรรม)"
+ #Activity Pulse Actions:
+ apa_preaching_wrath_of_god_title:0 "[first.GetShortUIName|U] เทศนาถึงพระพิโรธของ [first.GetFaith.HighGodName]"
+ apa_studying_scripture_title:0 "[first.GetShortUIName|U] ศึกษาพระคัมภีร์"
+ apa_visited_markets_title:0 "[first.GetShortUIName|U] ต่อรองราคาในตลาดแห่ง [province.GetNameNoTooltip]"
+ apa_foreign_custom_title:0 "[first.GetShortUIName|U] ใช้เวลาเรียนรู้ประเพณีและพิธีกรรมท้องถิ่น"
+ apa_prayer_title:0 "[first.GetShortUIName|U] ใช้เวลาสวดภาวนาอย่างสันโดษ"
+ apa_silent_contemplation_title:0 "[first.GetShortUIName|U] เข้าสู่การใคร่ครวญอย่างเงียบสงัด"
+ apa_preaching_to_unbelievers_title:0 "[first.GetShortUIName|U] เปลี่ยนศาสนาผู้ไร้ศรัทธาในท้องถิ่นได้ผู้หนึ่ง"
+ apa_sight_seeing_group_title:0 "[first.GetShortUIName|U] และ [second.GetShortUIName|U] เดินทางท่องเที่ยวจาก [province.GetNameNoTooltip] ไปยังสถานที่น่าสนใจใกล้เคียง"
+ apa_cultured_discussion_title:0 "[first.GetShortUIName|U] เข้าร่วมวงสนทนาเชิงวัฒนธรรม"
+ apa_audience_title:0 "[first.GetShortUIName|U] ถวายความเคารพต่อ [second.GetTitleAsNameNoTooltip|U]"
+ apa_picked_up_local_language_title:0 "[first.GetShortUIName|U] สามารถเรียนรู้ภาษา [second.GetCulture.GetLanguage.GetNameNoTooltip] จากชาวบ้านใน [second.GetNameNoTooltip] ได้"
+ apa_communal_prayer_title:0 "[first.GetShortUIName|U] นำการสวดภาวนาร่วมกัน"
+ apa_lead_procession_title:0 "[first.GetShortUIName|U] จัดขบวนแห่ทางศาสนา"
+ apa_comet_sighted_title:0 "[first.GetShortUIName|U] พบเห็นดาวหาง"
+ apa_good_omen_title:0 "[first.GetShortUIName|U] สังเกตเห็นนิมิตหมายอันดี"
+ apa_pilgrim_protection_title:0 "[first.GetShortUIName|U] ผู้ทรงเกียรติได้คุ้มครองเหล่าผู้แสวงบุญ"
+ apa_pilgrim_hospitals_title:0 "[first.GetShortUIName|U] ได้รับการรักษา ณ สถานพยาบาลผู้แสวงบุญใน [province.GetNameNoTooltip]"
+ apa_charity_for_the_poor_title:0 "[first.GetShortUIName|U] บริจาคทานแก่ผู้ยากไร้แห่ง [province.GetNameNoTooltip]"
+ apa_donated_to_holy_site_temple_title:0 "[first.GetShortUIName|U] บริจาคทุนทรัพย์เพื่อการอนุรักษ์สถานที่ศักดิ์สิทธิ์ใน [province.GetNameNoTooltip]"
+ apa_tended_to_travellers_title:0 "[first.GetShortUIName|U] ดูแลนักเดินทางคนอื่น ๆ ใน [province.GetNameNoTooltip]"
+ apa_spiritual_journey_title:0 "[first.GetShortUIName|U] และ [second.GetShortUIName|U] ผูกสัมพันธ์กันผ่านการเดินทางทางจิตวิญญาณร่วมกันนี้"
+ every_pilgrimage_entourage_character:0 "แขกทุกคนในกิจกรรม"
+ apa_overcome_with_emotion_title:0 "ด้วยอารมณ์ทางศาสนาอันท่วมท้น [first.GetShortUIName|U] ถึงกับหลั่งน้ำตา"
+ 

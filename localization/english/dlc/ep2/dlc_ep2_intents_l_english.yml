@@ -1,0 +1,46 @@
+﻿l_english: 
+ # Intents
+ reduce_stress_intent:1 "พักผ่อนหย่อนใจ"
+
+ reduce_stress_intent_desc:0 "ท่านต้องการมุ่งเน้นไปที่การลดความเครียดโดยมองหาโอกาสในการผ่อนคลาย [stress|E]"
+
+ murder_attendee_intent:0 "สังหาร"
+ murder_attendee_intent_desc:0 "ท่านมุ่งมั่นที่จะจบชีวิตเป้าหมายของท่าน สิ่งนี้มัก ส่งผลให้เกิดโอกาสในการสังหารและทางเลือกพิเศษ"
+
+ woo_attendee_intent:0 "เกี้ยวพาราสี"
+ woo_attendee_intent_desc:0 "ท่านมีสิ่งเดียวในใจ: การเกี้ยวพาราสีเป้าหมายของท่าน สิ่งนี้มักนำไปสู่เหตุการณ์พิเศษและทางเลือกเพื่อเติมเต็มความปรารถนานั้น"
+ 
+ impose_obedience_intent: "การบังคับให้ภักดี"
+ impose_obedience_intent_desc: "การสำแดงพลังอำนาจคือสิ่งเดียวที่ท่านคำนึงถึง การนี้มักนำไปสู่โอกาสที่จะให้เป้าหมายของท่านยอม [obedience|E]"
+
+ befriend_attendee_intent:0 "ผูกมิตร"
+ befriend_attendee_intent_desc:0 "ท่านตั้งใจที่จะได้รับความโปรดปรานจากเป้าหมายของท่าน สิ่งนี้มักนำไปสู่เหตุการณ์และทางเลือกที่เป็นมิตร"
+
+ lechery_intent:0 "ตัณหาราคะ"
+ lechery_intent_desc:0 "ท่านตั้งใจที่จะสนองตัณหาทางกามารมณ์และแสวงหาการเผชิญหน้าทางเพศกับคู่นอนจำนวนมาก สิ่งนี้มัก ส่งผลให้ [stress|E] ลดลงสำหรับตัวละคร [GetTrait('lustful').GetName( GetNullCharacter )]"
+
+ legitimacy_intent: "เชิดชูความชอบธรรม"
+ legitimacy_intent_desc: "ท่านตั้งใจที่จะใช้การชุมนุมนี้เป็นหนทางในการส่งเสริม [legitimacy|E] ของท่าน"
+
+ altruism_intent_header:0 "การเห็นแก่ประโยชน์ผู้อื่น:"
+ altruism_intent:0 "การเห็นแก่ประโยชน์ผู้อื่น"
+ altruism_intent_desc:1 "ท่านแสวงหาการปรับปรุงชีวิตของผู้อื่นโดยมองหาโอกาสที่จะกระทำการอันเห็นแก่ประโยชน์ส่วนรวม สิ่งนี้มักนำไปสู่การเพิ่มขึ้นของ [county_opinion|E] และ [piety|E] ตัวละคร [GetTrait('zealous').GetName( GetNullCharacter )|U], [GetTrait('generous').GetName( GetNullCharacter )] และ [GetTrait('improvident').GetName( GetNullCharacter )] อาจสูญเสีย [stress|E]"
+
+ justice_intent:0 "ความยุติธรรม"
+ justice_intent_desc:0 "ท่านแสวงหาการมอบความยุติธรรมแม้ แต่กับอาชญากรที่เล็กน้อยที่สุดในอาณาจักรของท่าน สิ่งนี้มักนำไปสู่การเพิ่มขึ้นของ [control|E] และตัวละคร [GetTrait('just').GetName( GetNullCharacter )] อาจสูญเสีย [stress|E]"
+ 
+ recruit_knights_intent:0 "สรรหา"
+ recruit_knights_intent_desc:0 "ท่านแสวงหาการปรับปรุงราชสำนักของท่านด้วย [knights|E] ใหม่ที่ทรงพลัง สิ่งนี้มักนำไปสู่โอกาสในการสรรหา"
+ # TOOLTIPS
+ intent_obedience_success_tt: "[THIS.Char.GetIntentTarget.GetShortUIName] ได้ยอม [obedient|E] ต่อท่านแล้ว ทำให้ [intent|E] ของท่านลุล่วง"
+ intent_obedience_fail_tt: "ท่านล้มเหลวในการ ทำให้ [THIS.Char.GetIntentTarget.GetShortUIName] ผู้เป็นเป้าหมายแห่ง [intent|E] ของท่าน ยอม [obedient|E]"
+ intent_murder_success_tt:1 "ท่านสังหาร [THIS.Char.GetIntentTarget.GetShortUIName] เป้าหมายของ [intent|E] สังหารของท่านสำเร็จ"
+ intent_murder_dead_tt:1 "[THIS.Char.GetIntentTarget.GetShortUIName] เป้าหมายของ [intent|E] สังหารของท่าน เสียชีวิตแล้ว"
+ intent_murder_fail_tt:1 "ท่านล้มเหลวในการสังหาร [THIS.Char.GetIntentTarget.GetShortUIName] เป้าหมายของ [intent|E] สังหารของท่าน"
+ intent_woo_success_tt:1 "ท่านเกี้ยวพาราสี [THIS.Char.GetIntentTarget.GetShortUIName] เป้าหมายของ [intent|E] เกี้ยวพาราสีของท่านสำเร็จ"
+ intent_woo_potential_tt:1 "ท่านกระตุ้นความสนใจของ [THIS.Char.GetIntentTarget.GetShortUIName] เป้าหมายของ [intent|E] เกี้ยวพาราสีของท่าน"
+ intent_woo_fail_tt:1 "ท่านล้มเหลวในการเกี้ยวพาราสี [THIS.Char.GetIntentTarget.GetShortUIName] เป้าหมายของ [intent|E] เกี้ยวพาราสีของท่าน"
+ intent_befriend_success_tt:1 "ท่านผูกสัมพันธ์กับ [THIS.Char.GetIntentTarget.GetShortUIName] เป้าหมายของ [intent|E] ผูกมิตรของท่านสำเร็จ"
+ intent_befriend_potential_tt:1 "ท่านใช้เวลากับ [THIS.Char.GetIntentTarget.GetShortUIName] เป้าหมายของ [intent|E] ผูกมิตรของท่าน"
+ intent_befriend_fail_tt:1 "ท่านล้มเหลวในการผูกสัมพันธ์กับ [THIS.Char.GetIntentTarget.GetShortUIName] เป้าหมายของ [intent|E] ผูกมิตรของท่าน"
+ activity_intent_complete_toast:1 "บรรลุเจตนาแล้ว"

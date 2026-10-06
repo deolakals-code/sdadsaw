@@ -1,0 +1,20 @@
+﻿l_english: 
+ declared_war:0 "ประกาศสงคราม"
+ declared_war_in_admin: "ประกาศสงครามกับข้าหลวงฝ่ายบริหารของข้า"
+ declared_war_on_son_daughter:0 "ประกาศสงครามกับบุตรของพวกเขา"
+ vassal_lost_faction_revolt_war:0 "ก่อกบฏต่อต้านข้า"
+ vassal_wp_faction_revolt_war:0 "ก่อกบฏต่อต้านข้า"
+ liege_lost_declared_religious_war:0 "พ่ายแพ้ในสงครามศาสนาของเรา"
+ liege_lost_mongol_invasion_war:0 "การรุกรานล้มเหลว"
+ rejected_call_to_defensive_war:0 "ปฏิเสธคำร้องขอเข้าร่วมสงครามป้องกัน"
+ rejected_call_to_offensive_war:0 "ปฏิเสธคำร้องขอเข้าร่วมสงครามรุกราน"
+ contributed_in_war:0 "มีส่วนร่วมในสงครามครั้งหนึ่งของข้า"
+ peasant_revolt_opinion:0 "$vassal_lost_or_wp_faction_revolt_war$"
+ warmonger_opinion:0 "ผู้กระหายสงคราม"
+
+ #Restored the key to fix TIT-27735
+ vassal_lost_or_wp_faction_revolt_war:0 "ก่อกบฏต่อข้า"
+ rejected_hiring_as_mercenaries:0 "ปฏิเสธสัญญาจ้างทหารรับจ้าง"
+ switched_sides_in_war:0 "แปรพักตร์ในสงครามต่อต้านข้า"
+ switched_to_my_side:0 "แปรพักตร์มาอยู่ฝ่ายข้าในสงคราม"
+ left_war_early:0 "ละทิ้งสงครามที่ดำเนินอยู่ของข้าก่อนเวลาอันควร"

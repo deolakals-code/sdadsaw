@@ -1,0 +1,55 @@
+﻿l_english: 
+ faith_creation.1001.t.schism:0 "การแตกแยกของ [reformed_faith.GetAdjectiveNoTooltip]"
+ faith_creation.1001.t.reformation:0 "การปฏิรูปของ [reformed_faith.GetAdjectiveNoTooltip]"
+ faith_creation.1001.desc.schism:0 "การแตกแยกครั้งใหม่ภายใน [reformed_faith.GetReligion.GetName] ได้เกิดขึ้นเมื่อ [reformer.GetTitledFirstName] และผู้ติดตามของ [reformer.GetHerHis] ได้แยกตัวออกจากศรัทธา [old_faith.GetAdjective] เพื่อก่อตั้งขบวนการทางศาสนาใหม่"
+ faith_creation.1001.desc.reformation:0 "[reformer.GetTitledFirstName] บุคคลสำคัญในหมู่ [reformed_faith.GetAdherentNamePlural] ได้รวบรวม [reformer.Custom('DefaultPriestTitle')] ทุกคนในแผ่นดินเพื่อหารือเกี่ยวกับความเชื่อของพวกเขาและสถาปนาหลักคำสอนอย่างเป็นทางการสำหรับศรัทธานอกรีต"
+ faith_creation.1001.desc.schism.personal:0 "[old_faith.AltPriestTermPlural] [old_faith.GetAdjective] ได้หลงทางและไม่อาจไว้วางใจให้นำทางเราได้อีกต่อไป เพื่อแก้ไขปัญหานี้ ข้าได้รวบรวมกลุ่ม [reformer.Custom('DefaultPriestTitlePlural')] ที่คัดสรรแล้วเพื่อหารือเกี่ยวกับอนาคตของศรัทธาของเรา"
+ faith_creation.1001.desc.reformation.personal:0 "ในที่สุด ข้าก็สามารถรวบรวม [reformer.Custom('DefaultPriestTitle')] ที่สำคัญทุกคนในโลกเข้าด้วยกัน เพื่อให้พวกเขาสามารถหารือเกี่ยวกับความเชื่อของเราและสถาปนาหลักคำสอนอย่างเป็นทางการเพื่อนำทางศรัทธาของเราสู่อนาคต"
+
+#Pick one line from this set (Outlook):
+ faith_creation.1001.desc.outlook.ghw:0 "\n\n[reformer.Custom('DefaultPriestTitlePlural')] ผู้เปี่ยมศรัทธากำลังพูดถึงการเปิด [reformed_faith.GHWNamePlural] เพื่อเผยแพร่ศรัทธาใหม่ของพวกเขาไปทั่วโลกและ"
+ faith_creation.1001.desc.outlook.pacifism:0 "\n\n[reformer.Custom('DefaultPriestTitlePlural')] [reformed_faith.GetAdjectiveNoTooltip] เหล่านี้ได้ประณามความรุนแรงและการนองเลือด โดยกล่าวว่าสงครามนำไปสู่ความทุกข์และความเกลียดชังเท่านั้น และ"
+ faith_creation.1001.desc.outlook.dogmatic:0 "\n\n[reformer.Custom('DefaultPriestTitlePlural')] เหล่านี้ได้ประกาศให้ [reformed_faith.GetNameNoTooltip] เป็นศรัทธาแท้หนึ่งเดียว และ"
+ faith_creation.1001.desc.outlook.accepting:0 "\n\n[reformer.Custom('DefaultPriestTitlePlural')] [reformed_faith.GetAdjectiveNoTooltip] เหล่านี้กำลังส่งเสริมความร่วมมือและความอดทนอดกลั้น แม้กระทั่งต่อผู้ที่ไม่เชื่อ และ"
+ faith_creation.1001.desc.outlook.fallback:0 "\n\n[reformer.Custom('DefaultPriestTitlePlural')] [reformed_faith.GetAdjectiveNoTooltip] เหล่านี้ได้นำมุมมองที่เป็นจริงและสมดุลมาใช้กับศรัทธาอื่น ๆ และ"
+
+#And one line from this second set (Beliefs):
+ faith_creation.1001.desc.belief.sacrifice:0 "อ้างว่าหนทางเดียวที่จะแสดงความเลื่อมใสอย่างเหมาะสมคือการถวายเกียรติแด่ [reformed_faith.HighGodName] ด้วยการบูชายัญมนุษย์!"
+ faith_creation.1001.desc.belief.indulgent:0 "ส่งเสริมให้ผู้นับถือตามใจกิเลสตัณหาและใช้ชีวิตอย่างเต็มที่"
+ faith_creation.1001.desc.belief.incest:0 "กำลังอนุมัติการ แต่งงานของญาติสนิท โดยอ้างว่าสายสัมพันธ์ในครอบครัวเป็นสิ่งศักดิ์สิทธิ์และการ แต่งงาน เช่นนั้นได้รับพร"
+ faith_creation.1001.desc.belief.aniconism:0 "ปฏิเสธการใช้สัญลักษณ์ทางศาสนาใด ๆ ทั้งสิ้น โดยอ้างว่าเพียงรูปจำลองไม่สามารถจับภาพความยิ่งใหญ่ของ [reformed_faith.HighGodName] ได้"
+ faith_creation.1001.desc.belief.ascetic:0 "กำลังส่งเสริมการบำเพ็ญตบะในหมู่ผู้ติดตาม โดยอ้างว่าการแสวงหาทางวัตถุขัดขวางเส้นทางสู่การบรรลุทางจิตวิญญาณ"
+ faith_creation.1001.desc.belief.spirits:0 "ได้ขอความช่วยเหลือจากเหล่าวิญญาณเพื่อช่วยนำทางผู้ศรัทธาผ่านช่วงเวลาที่วุ่นวายเหล่านี้"
+ faith_creation.1001.desc.belief.superstition:0 "ความเชื่องมงายโบราณและเรื่องราวปรัมปรามากมายได้รับการยอมรับในหลักคำสอนอย่างเป็นทางการ"
+ faith_creation.1001.desc.belief.nature:0 "มีความเคารพอย่างสูงต่อธรรมชาติ แสวงหาที่จะอนุรักษ์และปกป้องจากผู้ที่จะแสวงหาผลประโยชน์เพื่อตนเอง"
+ faith_creation.1001.desc.belief.community:0 "ศรัทธาใหม่ได้ผสมผสานเข้ากับประเพณีทางวัฒนธรรมของผู้ติดตามเพื่อสร้างชุมชนที่แน่นแฟ้นของ [reformed_faith.GetAdherentNamePluralNoTooltip] ซึ่งลังเลที่จะยอมรับคนนอก"
+ faith_creation.1001.desc.belief.fallback:0 "กำลังขอให้ผู้นับถือทุกคนละทิ้งข้อพิพาทเก่า ๆ และรวมตัวกันเพื่อประโยชน์ของศรัทธาใหม่"
+
+#End with a reference to 
+ faith_creation.1001.desc.temporal:0 "\n\n[reformer.GetFirstNameNoTooltip] ได้เลือกที่จะนำขบวนการ [reformed_faith.GetAdjectiveNoTooltip] ที่กำลังเติบโตนี้ด้วยตนเองและได้รับตำแหน่ง [reformed_faith.ReligiousHeadName] ซึ่งเป็นตำแหน่งอันสูงส่งที่คาดว่า [reformer.GetSheHe] จะส่งต่อไปยังทายาทของ [reformer.GetHerHis]"
+ faith_creation.1001.desc.temporal.personal:0 "\n\nข้าได้เลือกที่จะนำขบวนการ [reformed_faith.GetAdjectiveNoTooltip] ที่กำลังเติบโตนี้ด้วยตนเองและได้รับตำแหน่ง [reformed_faith.ReligiousHeadName] ซึ่งเป็นตำแหน่งอันสูงส่งที่ข้าจะส่งต่อไปยังลูกหลานของข้า"
+ faith_creation.1001.desc.spiritual:0 "\n\n[reformer.Custom('DefaultPriestTitlePlural')] [reformed_faith.GetAdjectiveNoTooltip] ได้เลือก [reformed_hof.GetFirstNameNoTooltip] เป็น [reformed_faith.ReligiousHeadName] คนใหม่ของพวกเขา ผู้ ซึ่งจะกำหนดหลักคำสอนทางศาสนาและตัดสินข้อพิพาทระหว่างศรัทธาสำหรับโลก [reformed_faith.GetAdjectiveNoTooltip] ทั้งหมด"
+ faith_creation.1001.desc.spiritual.sameold:0 "\n\n[reformer.Custom('DefaultPriestTitlePlural')] [reformed_faith.GetAdjectiveNoTooltip] ได้เลือกที่จะคง [reformed_hof.GetFirstNameNoTooltip] ไว้เป็น [reformed_faith.ReligiousHeadName] ของพวกเขา [reformer.GetSheHe] จะยังคงกำหนดหลักคำสอนทางศาสนาและตัดสินข้อพิพาทระหว่างศรัทธาสำหรับโลก [reformed_faith.GetAdjectiveNoTooltip] ทั้งหมดต่อไป"
+ faith_creation.1001.desc.no_head:0 "\n\nขบวนการที่กำลังเติบโตได้ตัดสินใจที่จะไม่ แต่งตั้งประมุขทางศาสนา โดยเลือกที่จะให้ [reformer.Custom('DefaultPriestTitle')] แต่ละคนกำหนดคำสอนที่เหมาะสมสำหรับ [reformed_faith.HouseOfWorship] ของตนเองแทน"
+ faith_creation.1001.desc.no_holy_sites:0 "\n\n[reformed_faith.GetAdherentNamePluralNoTooltip] รอคอยการมาถึงตามคำพยากรณ์ของ [reformed_faith.ReligiousHeadName] ของพวกเขาอย่างใจจดใจจ่อ ผู้นำผู้ยิ่งใหญ่ที่จะรวบรวมผู้ศรัทธาทั้งหมดไว้เบื้องหลังและนำพาสู่ยุคทองใหม่ของ [reformed_faith.GetAdjectiveNoTooltip]"
+
+ faith_creation.1001.o.frightened:0 "[ROOT.Char.GetFaith.random_GoodGodNames] โปรดช่วยเราให้พ้นจาก [second.Custom('GetUnbelieverNamePlural')] กระหายเลือดเหล่านี้!"
+ faith_creation.1001.o.heretical:0 "พวกนอกรีตเหล่านี้จะต้องชดใช้ความผิดต่อ [ROOT.Char.GetFaith.HighGodName]!"
+ faith_creation.1001.o.crusader:0 "[ROOT.Char.GetFaith.GHWName] สักครั้งสองครั้งจะ ทำให้ [second.Custom('GetUnbelieverNamePlural')] เหล่านี้รู้สำนึก!"
+ faith_creation.1001.o.interested:0 "เราควรจับตาดูพัฒนาการใหม่นี้..."
+ faith_creation.1001.o.uninterested:0 "ไม่สำคัญว่า [second.Custom('GetUnbelieverNamePlural')] เหล่านี้จะเชื่ออะไร"
+ faith_creation.1001.o.getreaction:0 "[ROOT.Char.Custom2('GetFaithCreationReaction', reformer)]"
+ faith_creation.1001.o.personal:0 "โลกจะได้เห็นว่า [ROOT.Char.GetFaith.HighGodName] โปรดปรานเรา!"
+
+ faith_creation.1010.t:0 "[HoF.GetFirstNameNoTooltip] ได้รับการประกาศเป็น [faith.ReligiousHeadName|U]"
+ faith_creation.1010.desc.start:0 "แม้ว่าความชอบธรรมแห่งศรัทธาของเราไม่เคยเป็นที่สงสัย แต่ช่วงเวลาที่เราถูกบังคับให้อดทนโดยไม่มีผู้นำทางจิตวิญญาณนั้นช่างยากลำบาก ในที่สุดความยากลำบากนี้ก็สิ้นสุดลงแล้ว เนื่องจาก"
+ faith_creation.1010.desc.temporal.personal:0 "ในที่สุดข้าก็สามารถโน้มน้าวให้ [faith.AltPriestTermPlural] ยอมรับข้าเป็น [faith.ReligiousHeadName|U] หนึ่งเดียวที่แท้จริงได้"
+ faith_creation.1010.desc.temporal:0 "[HoF.GetTitledFirstName] สามารถโน้มน้าวให้ [faith.AltPriestTermPlural] ยอมรับ [HoF.GetHerHim] เป็น [faith.ReligiousHeadName|U] หนึ่งเดียวที่แท้จริงได้"
+ faith_creation.1010.desc.spiritual:0 "[faith.AltPriestTermPlural] ได้ประชุมกันเพื่อเลือก [HoF.GetFirstName] เป็น [faith.ReligiousHeadName|U] หนึ่งเดียวที่แท้จริง"
+ faith_creation.1010.desc.end:0 "\n\nเมื่อผู้ศรัทธารวมเป็นหนึ่งเดียวภายใต้ผู้นำคนเดียวในที่สุด ดูเหมือนว่ายุคทองใหม่สำหรับ [faith.GetNameNoTooltip] กำลังจะมาถึง"
+ faith_creation.1010.desc.end.personal:0 "\n\nเมื่อผู้ศรัทธารวมเป็นหนึ่งเดียวภายใต้ข้าในที่สุด ข้าจะนำ [faith.GetNameNoTooltip] เข้าสู่ยุคทองใหม่!"
+
+ faith_creation.1010.a:0 "ความรุ่งโรจน์แด่ [faith.HighGodName]!"
+
+ faith_creation.1011.message.title:0 "สถาปนาประมุขทางศาสนา"
+ faith_creation.1011.message.desc:0 "[faith.AltPriestTermPlural] [faith.GetAdjective] ได้ประกาศให้ [faith.ReligiousHeadName|U] [HoF.GetFirstName] เป็น [head_of_faith|E] ของพวกเขา"

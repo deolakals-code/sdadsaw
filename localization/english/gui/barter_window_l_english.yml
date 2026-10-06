@@ -1,0 +1,20 @@
+﻿l_english: 
+ BW_TT_BARTERING_REALM_TOOLTIP: "#T ผู้ทำการแลกเปลี่ยน: [Character.GetPrimaryTitle.GetName|V]#!\n#I คลิกเพื่อดู#!"
+ BW_TT_BARTEREE_REALM_TOOLTIP: "#T ผู้รับการแลกเปลี่ยน: [Character.GetPrimaryTitle.GetName|V]#!\n#I คลิกเพื่อดู#!"
+ BW_TT_OPEN_ARMY_WINDOW: "#T เลือก [armies|E] [bartering|E] ทั้งหมดของท่าน"
+ BW_TIME_LEFT: "เหลือ [BarterMission.GetEta.GetTimeDiffFromNow|V]"
+ BW_TIME_LEFT_TT: "#T เวลาที่เหลือ\n#!ภารกิจการแลกเปลี่ยนจะเสร็จสิ้นใน [BarterMission.GetEta.GetString]"
+ BARTER_PROGRESS_TOOLTIP: "#T ความคืบหน้าการแลกเปลี่ยน: [BarterMission.GetProgress|0]/[BarterMission.GetProgressNeeded|0]#!\n[BarterMission.GetBarterProgressTooltip]"
+ BARTER_BLOCKED_BY_COMBAT: "@warning_icon! #X กองทัพที่ทำการแลกเปลี่ยนกำลังอยู่ใน [battle|E]#!"
+ BARTER_TROOPS_TOOLTIP: "#T จำนวนทหาร#!\nกองทัพ [bartering|E]: [BarterMission.GetAttackerMen|V]\n[garrison|E]: [BarterMission.GetDefenderMen|V]\nความคืบหน้ารายวัน: [BarterMission.GetDailyProgressPercent|%1V]"
+ HOLDING_BARTER_GOODS_NEEDED: "[barter_goods|E]"
+ HOLDING_BARTER_GOODS_NEEDED_VALUE: "[barter_goods_i] [Province.GetBarterGoodsNeeded|-0]"
+ BARTER_WINDOW_TT_DAILY_PROGRESS: "ความคืบหน้ารายวัน"
+ BW_TT_BASE_PROGRESS: "พื้นฐาน"
+ BW_TT_MEN_PROGRESS: "[soldiers|E] ที่ทำการแลกเปลี่ยน"
+
+ BARTER_GOODS_MONTHLY_INCOME: "[barter_goods|E] รายเดือน"
+ DOMAIN_BARTER_GOODS_INCOME_HOLDING: "[TITLE.GetName]"
+ BARTER_GOODS_MONTHLY_EXPENSES: "ค่าใช้จ่ายรายเดือน"
+
+ BARTER_WINDOW_DESC: "#weak กองทัพ [barter|E] [army|E] ของ [BarterMission.GetArmy.GetOwner.GetShortUINamePossessive|U] ทำการค้า [barter_goods|E] จำนวน [Province.GetBarterGoodsNeeded|0V] เพื่อแลกกับ [loot|E] จำนวน [Province.GetLoot|0V] ใน [Province.GetName]. [Province.GetNameNoTooltip] จะได้รับ [StaticModifier.GetNameWithTooltip] เป็นเวลา 5 ปี.#!"

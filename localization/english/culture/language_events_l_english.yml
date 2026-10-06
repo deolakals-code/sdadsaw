@@ -1,0 +1,15 @@
+﻿l_english: 
+ language_events.0001.t:0 "ความเฉื่อยชาทางคำศัพท์"
+ language_events.0001.desc:1 "เป็นการยากที่จะจดจำภาษาทั้งหมดนี้ไว้ในหัว ข้าเอา แต่ลืมว่าตนเองกำลังพูดภาษาใดอยู่!\n\nเมื่อวันก่อน ข้าเผลอแนะนำตนเองโดยใช้คำจากภาษา [language_to_forget.GetLanguage.GetNameNoTooltip] และ [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip] ปะปนกันจนสับสน... และข้าไม่รู้ตัวเลยว่าทำ เช่นนั้นลงไป จนกระทั่งมีคนทักท้วง!\n\nบางทีข้าควรจะปล่อยให้ภาษา [language_to_forget.GetLanguage.GetNameNoTooltip] เลือนหายไปจากใจเสีย..?"
+ language_events.0001.a:0 "ปล่อยให้มันเลือนหายไป..."
+ language_events.0001.b:0 "ไม่ได้! ข้าต้องพยายามให้หนักขึ้น และศึกษาให้มากขึ้น!"
+ language_events.0002.b.tt:0 "ท่านส่งเจ้าพนักงานไป 'เก็บภาษี' [gold_i]#P 50#! จากทุกเคาน์ตี [vassal_speaking_other_language.GetCulture.GetName] ในอาณาจักรของ [vassal_speaking_other_language.GetTitledFirstNamePossessive]"
+ language_events.0002.t:0 "ภาษาที่ใช้ร่วมกัน"
+ language_events.0002.desc:0 "มีข่าวมาถึงหูข้าว่าข้าหลวงของข้า [vassal_speaking_other_language.GetTitledFirstName] กำลังยกย่องความเชี่ยวชาญของข้าในการพูดภาษา [vassal_speaking_other_language.GetCulture.GetLanguage.GetName] อย่างเปิดเผย — ซึ่งเป็นภาษาที่ไพร่ฟ้าข้าแผ่นดินของ [vassal_speaking_other_language.GetHerHis] พูด!\n\nที่ปรึกษาของข้าแนะนำให้ข้าใช้ประโยชน์จากโอกาสนี้โดยการส่งสาส์นเป็นภาษา [vassal_speaking_other_language.GetCulture.GetLanguage.GetNameNoTooltip] ไปยัง [vassal_speaking_other_language.GetHerHim] เพื่อรับทราบการกระทำของ [vassal_speaking_other_language.GetHerHis]"
+ language_events.0002.a:0 ""ความเข้าใจที่มากขึ้นนำมา ซึ่งความเจริญรุ่งเรืองร่วมกัน!""
+ language_events.0002.b:0 ""โอ้โฮโฮ! บัดนี้ข้าสามารถเก็บภาษีเจ้าได้อย่างมีประสิทธิภาพมากขึ้นแล้วสินะ ข้าหลวงที่รัก""
+
+ language_events.0010.t:0 "ถึงเวลาเรียนภาษา [language_to_forget.GetLanguage.GetNameNoTooltip|U] ของท่านแล้ว!"
+ language_events.0010.desc:0 "ข้าตื่นขึ้นมาเหงื่อท่วมตัวหลังจากฝันร้ายอันทรหด ซึ่งมีนกฮูกตัวหนึ่งคอยตามติดและทดสอบความรู้ภาษา [language_to_forget.GetLanguage.GetNameNoTooltip] ของข้าอยู่ตลอดเวลา\n\nแม้จะเป็นสัญลักษณ์แห่งปัญญาในบางวัฒนธรรม แต่อสูรปักษานั่นก็สะกดรอยตามข้าตลอดทั้งคืน และข้าก็หวาดกลัวว่าจะ ทำให้มันผิดหวัง บางทีอาจมีสิ่งที่เรียกว่า "ความรู้ที่มากเกินไป" จริง ๆ และความฝันนี้ก็เป็นผลมาจากความเครียดทั้งหมดที่ข้ารู้สึกในการรักษาทักษะให้เฉียบคมอยู่เสมอ"
+ language_events.0010.a:0 "เป็น เช่นนี้ต่อไปไม่ได้"
+ language_events.0010.b:0 "ข้าจะเคี่ยวเข็ญตนเองต่อไปทุกวัน!"

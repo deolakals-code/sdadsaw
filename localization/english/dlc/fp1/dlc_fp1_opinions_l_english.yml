@@ -1,0 +1,32 @@
+﻿l_english: 
+ ##################################################
+ # #Decision Opinions
+ king_of_the_north_sea_opinion:0 "กษัตริย์แห่งทะเลเหนือ"
+ queen_of_the_north_sea_opinion:0 "ราชินีแห่งทะเลเหนือ"
+ fp1_held_grand_sacrifice_opinion:0 "จัดพิธีบูชายัญอันยิ่งใหญ่"
+ fp1_held_human_sacrifice_opinion:0 "จัดพิธีบูชายัญมนุษย์"
+
+ ##################################################
+ # #Event Opinions
+ fp1_rejected_my_sword_opinion:0 "ปฏิเสธดาบของข้า"
+ fp1_accepted_my_sword_opinion:0 "ตอบรับดาบของข้า"
+ fp1_defied_religious_traditions_opinion:0 "ท้าทายประเพณีทางศาสนา"
+ fp1_usurped_my_authority_opinion:0 "แย่งชิงอำนาจของข้า"
+ fp1_saved_me_from_the_mob_opinion:0 "ช่วยข้าจากฝูงชน"
+ fp1_abandoned_me_to_the_mob_opinion:0 "ทิ้งข้าไว้กับฝูงชน"
+ fp1_honoured_heathen_opinion:0 "ให้เกียรติคนนอกรีต"
+ fp1_desecrated_corpse_of_loved_one:0 "ลบหลู่ศพของบุคคลอันเป็นที่รัก"
+ liege_won_duel: "เจ้าเหนือหัวมีชัยในการประลอง"
+ liege_lost_duel: "เจ้าเหนือหัวพ่ายในการประลอง"
+
+ ##################################################
+ # #Culture Opinions
+ norse_opinion:0 "ความเห็นของชาว $norse$"
+ danish_opinion:0 "ความเห็นของชาว $danish$"
+ norwegian_opinion:0 "ความเห็นของชาว $norwegian$"
+ swedish_opinion:0 "ความเห็นของชาว $swedish$"
+ lombard_opinion:0 "ความเห็นของชาว $lombard$"
+ italian_opinion:0 "ความเห็นของชาว $italian$"
+ gaelic_opinion:0 "ความเห็นของชาว $gaelic$"
+ scottish_opinion:0 "ความเห็นของชาว $scottish$"
+ persian_opinion:0 "ความเห็นของชาว $persian$"

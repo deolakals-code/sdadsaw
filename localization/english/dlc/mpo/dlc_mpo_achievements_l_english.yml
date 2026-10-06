@@ -1,0 +1,23 @@
+﻿l_english: 
+ ACHIEVEMENT_mpo_the_stallion_that_mounts_the_world_achievement: "อาชาผู้จะครอบพิภพ"
+ ACHIEVEMENT_DESC_mpo_the_stallion_that_mounts_the_world_achievement: "เริ่มต้นด้วยเตมูจิน พิชิตโลกหล้าให้จงได้"
+ ACHIEVEMENT_mpo_nobodys_business_achievement: "กิจนอกถิ่นฐาน"
+ ACHIEVEMENT_DESC_mpo_nobodys_business_achievement: "ใช้เหตุแห่งสงคราม [casus_belli|E] $MPO_NOMAD_INVASION_CB_NAME$ เพื่อตั้งถิ่นฐานผู้คนของท่านนอก [the_great_steppe|E]"
+ ACHIEVEMENT_mpo_tribute_band_achievement: "เจ้าบรรณาการ"
+ ACHIEVEMENT_DESC_mpo_tribute_band_achievement: "มีรัฐบรรณาการ [tributaries|E] 30 รัฐ"
+ ACHIEVEMENT_mpo_this_chinggis_everything_achievement: "เจงกิสนี้...เปลี่ยนทุกสิ่ง"
+ ACHIEVEMENT_DESC_mpo_this_chinggis_everything_achievement: "จงเป็นมหาข่านผู้ยิ่งใหญ่ที่สุด"
+ ACHIEVEMENT_mpo_steppe_by_steppe_achievement: "ทีละทุ่งสเตปป์"
+ ACHIEVEMENT_DESC_mpo_steppe_by_steppe_achievement: "เริ่มต้นจากการเป็นผู้ปกครองชนเผ่าเร่ร่อนในภูมิภาคทุ่งหญ้าสเตปป์ตะวันออกแห่ง [the_great_steppe|E] แล้วอพยพไปยังทุ่งหญ้าสเตปป์ตะวันตก"
+ ACHIEVEMENT_mpo_in_xanadu_achievement: "ณ ซานาดู"
+ ACHIEVEMENT_DESC_mpo_in_xanadu_achievement: "สร้างมหาวิมานสุขสำราญ"
+ ACHIEVEMENT_mpo_settling_in_achievement: "ลงหลักปักฐาน"
+ ACHIEVEMENT_DESC_mpo_settling_in_achievement: "จงเป็นผู้ปกครอง [ruler|E] ที่ตั้งถิ่นฐานแล้วใน [the_great_steppe|E]"
+ ACHIEVEMENT_mpo_blood_of_my_blood_achievement: "โลหิตร่วมสาบาน"
+ ACHIEVEMENT_DESC_mpo_blood_of_my_blood_achievement: "จงเป็นพี่น้องร่วมโลหิต [blood_brothers|E]"
+ ACHIEVEMENT_mpo_confedup_achievement: "รวมสมาพันธ์...จนเอือม"
+ ACHIEVEMENT_DESC_mpo_confedup_achievement: "ก่อตั้งสมาพันธรัฐ [confederation|E]"
+ ACHIEVEMENT_mpo_shut_up_nerge_achievement: "เงียบเสียเถิด เนอร์เก"
+ ACHIEVEMENT_DESC_mpo_shut_up_nerge_achievement: "เป็นเจ้าภาพจัดพิธีเนอร์เก [GetActivityType( 'activity_hunt').GetName] อันยอดเยี่ยม"
+ 
+ 

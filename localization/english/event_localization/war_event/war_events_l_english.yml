@@ -1,0 +1,79 @@
+﻿l_english: 
+ war_event.1901:1 "[liege|E] ของท่าน [attacker_winner.GetUIName] ชนะ [war|E] ของ [attacker_winner.GetHerHis] ต่อ [defender_loser.GetUIName]!"
+ war_event.1902:1 "[liege|E] ของท่าน [defender_loser.GetUIName] แพ้ [war|E] ของ [defender_loser.GetHerHis] ต่อ [attacker_winner.GetUIName]!"
+ war_event.1903:1 "[liege|E] ของท่าน [attacker_white_peace.GetUIName] ได้ลงนามใน [white_peace|E] กับ [defender_white_peace.GetUIName]!"
+ war_event.1904:1 "[liege|E] ของท่าน [defender_white_peace.GetUIName] ได้ลงนามใน [white_peace|E] กับ [attacker_white_peace.GetUIName]!"
+ war_event.1905:1 "[liege|E] ของท่าน [attacker_loser.GetUIName] แพ้สงครามของ [attacker_loser.GetHerHis] ต่อ [defender_winner.GetUIName]!"
+ war_event.1906:1 "[liege|E] ของท่าน [defender_winner.GetUIName] ชนะสงครามของ [defender_winner.GetHerHis] ต่อ [attacker_loser.GetUIName]!"
+ war_event.notification_liege_win.t:0 "เจ้าเหนือหัวชนะสงคราม"
+ war_event.notification_liege_loss.t:0 "เจ้าเหนือหัวแพ้สงคราม"
+
+ war_event.1001.t:0 "เจ้าเหนือหัวของข้าประกาศสงคราม"
+ war_event.1001.desc:0 "ช่างน่าประหลาดที่สถานการณ์สามารถเปลี่ยนแปลงได้อย่างรวดเร็วเพียงใดในยามสงคราม\n\nท่ามกลางการต่อสู้กับ [recipient.Custom2('MyCharacterIntroduction', ROOT.Char)], สาส์นจาก [liege_invalidator.Custom2('MyCharacterIntroduction', ROOT.Char)] ก็มาถึง [liege_invalidator.GetSheHe|U] กำลังบอกให้ข้าละทิ้งเหตุผลของตนเองและเข้าร่วมกับ[liege_invalidator.GetHerHim]ในสงคราม#EMP [liege_invalidator.GetHerHis]#! กับ [recipient.GetTitledFirstName]"
+ war_event.1001.a:0 "แต่... แล้วสงครามของข้าเล่า!? ช่างน่าเจ็บใจนัก!"
+
+ war_event.2003.desc:0 "เนื่องจากบัดนี้ [liege_invalidator.Custom2('MyCharacterIntroduction', invalidator)] ทำสงครามกับท่าน กองกำลังของข้าจะเข้าร่วมกับเหตุผลของ[liege_invalidator.GetHerHis]"
+ war_event.2003.a:0 "ให้มันเป็นไป"
+
+ war_event.2001.t:0 "คู่ต่อสู้คนใหม่"
+ war_event.2001.desc:0 "ไม่มีสิ่งใดในโลกนี้แน่นอน โดยเฉพาะอย่างยิ่งในยามสงคราม [war.GetName] ก็ไม่ต่างกัน\n\nเนื่องจากความขัดแย้งนี้ไม่ได้ต่อต้าน [previous_defender.Custom2('MyCharacterIntroduction', ROOT.Char)] อีกต่อไป แต่เป็น [defender.Custom2('MyCharacterIntroduction', ROOT.Char)] แทน จึงอาจเป็นการดีที่จะประเมินสถานการณ์ใหม่อีกครั้ง"
+ war_event.2001.a:0 "เป้าหมายของข้ายังคงเดิม"
+ war_event.2001.a.tt:0 "สงครามยังคงดำเนินต่อไป"
+ war_event.2001.b:0 "นี่ไม่ใช่แนวทางปฏิบัติที่ดีที่สุดอีกต่อไปแล้ว"
+ war_event.2001.c: "บางทีเราอาจจะทำข้อตกลงกันได้?"
+ war_event.2001.c.tt: "เรียกร้องทองคำจำนวนมากจาก [defender.GetTitledFirstName] เพื่อแลกกับการยุติสงคราม"
+
+ war_event.2002.t:0 "[invalidator.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.2002.desc:0 "เป็นเรื่องน่าเสียใจที่เราพบว่าตนเองอยู่ฝ่ายตรงข้ามในความขัดแย้งนี้ มันไม่เคยเป็นความตั้งใจของข้า ดังนั้นข้าจะถอนทหารของข้าออกไป"
+ war_event.2002.a:0 "เป็นการตัดสินใจที่ชาญฉลาด"
+
+ war_event.2004.t: "[harald.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.2004.desc: "เมื่อพิจารณาว่าตอนนี้เราขัดแย้งกัน บางทีเราอาจจะทำข้อตกลงเพื่อแก้ไขความขัดแย้งนี้อย่างสันติได้หรือไม่?\n\nข้าจะถอนทหารของข้า หากได้รับทองคำในจำนวนที่เหมาะสม..."
+ war_event.2004.a: "เป็นข้อตกลงที่ดี"
+ war_event.2004.b: "ไม่มีวัน!"
+
+ war_event.2005.t: "[william.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.2005.desc: "ปัญญาของท่านมาก่อนท่าน ท่านได้ข้อตกลงแล้ว"
+ war_event.2005.a: "ยอดเยี่ยม!"
+
+ war_event.2006.t: "[william.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.2006.desc: "ข้าเกรงว่าข้าต้องปฏิเสธข้อเสนอของท่าน เราจะได้พบกันในสนามรบ"
+ war_event.2006.a: "สงครามสินะ"
+
+ war_event.3001.t:0 "[war_owner.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.3001.desc:0 "สองปีก่อนท่านสัญญาว่าจะช่วยข้าใน[war.GetName] แต่จนบัดนี้ท่านยังมิได้ทำสิ่งใดเพื่อสนับสนุนข้าในความพยายามนี้เลย\n\nพันธมิตรของเราจะมีความหมายอันใดหากท่านไม่เคยแม้ แต่จะกระดิกนิ้วช่วยข้า?"
+ war_event.3001.a:0 "ข้าจะส่งทหารไปช่วยท่านทันที!"
+ war_event.3001.a.tt:0 "หากข้าไม่ได้รับ[war_contribution|E]ใดๆ ภายใน 12 เดือน ข้าจะสูญเสีย[prestige_level|E]และ ทำให้พันธมิตรของข้ากับ [war_owner.GetTitledFirstNameNoTooltip] ตกอยู่ในความเสี่ยง!"
+ war_event.3001.b:0 "หีบทองคำนี้ควรจะชดเชยการขาดหายไปของข้าได้..."
+ war_event.3001.b.tt:0 "ข้าจะไม่ถูกคาดหวังให้ส่งทหารไปรบใน[war.GetName]อีกต่อไป"
+ war_event.3001.c:0 "ข้าขออภัย ข้าไม่ควรกล่าวอ้างว่าจะช่วย"
+
+ war_event.3002.t:0 "[war_owner.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.3002.desc.start:0 "แม้ท่านจะสัญญาว่าจะส่งทหารมาช่วยข้า แต่ข้าก็ยังไม่เห็นทหารของท่านแม้ แต่คนเดียวในสนามรบ"
+ war_event.3002.desc.end.1:0 "การผิดคำสัตย์ เช่นนี้ ท่านได้นำความเสื่อมเสียมาสู่ตัวท่านและครอบครัว"
+ war_event.3003.desc.end.2:0 "ความล้มเหลวของท่านในเรื่องนี้ได้ทำลายความไว้วางใจของข้าที่มีต่อท่านอย่างรุนแรง, [ROOT.Char.GetTitledFirstName]"
+ war_event.3002.1.a:0 "ตกลง"
+ war_event.3003.2.a:0 "ข้าจะ ทำให้ดีขึ้นในครั้งต่อไป"
+ war_event.3003.2.b:0 "บางทีข้าควรจะยุติพันธมิตรของเราเสีย...?"
+
+ war_event.neighbor_war.both_neighbors.t:0 "สงครามของเพื่อนบ้านยุติลง"
+ war_event.neighbor_war.both_neighbors.desc:1 "เพื่อนบ้านของท่าน [winner.GetTitledFirstName] ชนะเพื่อนบ้านอีกคนของท่าน [loser.GetTitledFirstName] ใน[war.GetName]!"
+
+ war_event.neighbor_war.only_winner.t:0 "ผู้ปกครองเพื่อนบ้านชนะสงคราม"
+ war_event.neighbor_war.only_winner.desc:3 "เพื่อนบ้านของท่าน [winner.GetTitledFirstName] ชนะ [loser.Custom2('YourCharacterIntroductionNoComma', this_player)] ใน[war.GetName]!"
+
+ war_event.neighbor_war.only_loser.t:0 "ผู้ปกครองเพื่อนบ้านแพ้สงคราม"
+ war_event.neighbor_war.only_loser.desc:2 "เพื่อนบ้านของท่าน [loser.GetTitledFirstName] แพ้ [winner.Custom2('YourCharacterIntroductionNoComma', this_player)] ใน[war.GetName]!"
+
+ #Holy wars "soft invalidated" by faith change
+ war_event.3101.t:0 "ศรัทธาที่ค้นพบใหม่"
+ war_event.3101.desc:0 "ข่าวมาถึงข้าเรื่องการเปลี่ยนไปนับถือ[defender.GetFaith.GetNameNoTooltip]ของ[defender.GetTitledFirstNamePossessive] ข้าไม่มีสิทธิ์อัน[ROOT.Char.GetFaith.HighGodName]ประทานให้ในการทำสงครามกับ[defender.GetPrimaryTitle.GetNameNoTierNoTooltip]อีกต่อไป"
+ war_event.3101.a:0 "ถึงเวลาแล้วที่จะวางดาบของเราลง"
+ war_event.3101.b.tt:0 "[war.GetName] ดำเนินต่อไป"
+ war_event.3101.b:0 "[defender.GetSheHe|U] คิดว่าการกระทำ เช่นนี้จะหยุดข้าได้รึ? หึ!"
+
+ war_event.3102.t:0 "[attacker.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ war_event.3102.desc:0 "ศรัทธาที่ท่านเพิ่งค้นพบใน[ROOT.Char.GetFaith.HighGodName]นั้นแทบไม่น่าเชื่อถือ เหตุผลของข้ายังคงชอบธรรม — จะไม่มีความเมตตา"
+ war_event.3102.a:0 "[ROOT.Char.Custom('CulturalCurse')|U]!"
+
+

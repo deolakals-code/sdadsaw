@@ -1,0 +1,206 @@
+﻿l_english: 
+
+ mpo_establish_paiza_system_decision: "สถาปนาระบบไป่ซา"
+ mpo_establish_paiza_system_decision_desc: "จักสถาปนาระบบแผ่นป้ายพิเศษขึ้นเพื่อดึงดูดชาวต่างชาติผู้มั่งคั่งและเสริมอำนาจให้แก่ข้ารับใช้ผู้ภักดีของ [ROOT.Char.GetTitleAsNamePossessiveNoTooltip] ผู้ใดก็ตามที่ [ROOT.Char.GetSheHe|U] ถือ [paiza|E] ซึ่งมีนามของ [ROOT.Char.GetTitledFirstNameNoTooltip] จารึกไว้ ผู้นั้นจักถืออำนาจของข้า และจักเดินทางผ่านดินแดนของข้าได้อย่างปลอดภัย ผู้ใดกล้าดูหมิ่นนามของข้า จักถูกประหารชีวิตเยี่ยงสุนัข"
+ mpo_establish_paiza_system_decision_tooltip: "เสริมอำนาจให้แก่ข้ารับใช้ผู้ภักดีของท่าน"
+ mpo_establish_paiza_system_decision_confirm: "ด้วยอำนาจแห่งฟ้าชั่วนิรันดร์"
+ mpo_establish_paiza_system_decision_is_gurkhan: "ท่านคือ [gurkhan|E]"
+
+ mpo_establish_paiza_system_decision.grant_paiza_interaction_unlocked: "ปลดล็อก #V $mpo_interaction_grant_paiza$#! [character_interaction|E] ซึ่งสามารถใช้กับ [courtiers|E], [vassals|E], และ [tributaries|E] ของท่านได้"
+ mpo_establish_paiza_system_decision.request_paiza_interaction_unlocked: "ปลดล็อก #V $mpo_interaction_ask_for_paiza$#! [character_interaction|E] สำหรับ [vassals|E], [tributaries|E], และ [adventurers|E] ที่มาเยือน [court|E] ของท่าน"
+ mpo_establish_paiza_system_decision.paiza_obedient: "ตัวละครที่ได้รับ [artifacts|E] ไป่ซา จะ [obedient|E] ต่อท่าน"
+ mpo_establish_paiza_system_decision.paiza_abuse_authority_unlocked: "@alert_icon! ตัวละครที่ถือไป่ซาจะสามารถเข้าถึง [decision] #V $mpo_abuse_authority_paiza_decision$#! ได้"
+ mpo_establish_paiza_system_decision.leverage_khan_authority_unlocked: "@alert_icon! ตัวละครที่ถือไป่ซาจะสามารถเข้าถึง [interaction] #V $mpo_interaction_leverage_khan_authority$#! ได้"
+ mpo_establish_paiza_system_decision.call_for_merchants_decision_unlocked: "ปลดล็อก [decision|E] [GetDecisionWithKey('mpo_call_for_merchants_decision').GetName]"
+ mpo_establish_paiza_system_decision.paiza_recently_established: "ระบบไป่ซาได้ถูกสถาปนาขึ้นแล้วโดย [THIS.Char.GetName] ชีวิตของ [THIS.Char.GetHerHis|U] ขัดขวางมิให้ท่านสถาปนาระบบใหม่ขึ้นได้ ทุกลมหายใจอันน่าสมเพชของ [THIS.Char.GetHerHis] คือการดูหมิ่นอำนาจของท่าน"
+
+ mpo_decisions_events.0099.t: "สถาปนาระบบไป่ซาแล้ว"
+ mpo_decisions_events.0099.desc: "อำนาจของข้าเปรียบดังทุ่งหญ้าสเตปป์: แผ่ขยายไปสุดขอบฟ้าอย่างไม่สิ้นสุด ทว่าข้าเป็นเพียงหยดน้ำหนึ่งหยดในสายฝน ยึดติดอยู่เพียงที่เดียว\n\nนอกทุ่งหญ้าสเตปป์ ผู้คนในเมืองต่างใช้บัญชีเพื่อส่งต่อความรู้ไปไกลเกินกว่าสายตาอันจำกัดของพวกเขา ข้าจะใช้ความคิดของพวกเขาและมอบไป่ซาออกไป ข้ารับใช้ผู้ภักดีของข้าจะถือคำที่สำคัญที่สุดเหนือสิ่งอื่นใด: #EMP นามของข้า#!\n\n[ROOT.Char.GetTitledFirstNameNoTooltip]: อักขระเหล่านั้นที่จารึกไว้บนโบราณวัตถุจะนำมา ซึ่งความหวาดกลัวและความภักดีอย่างที่สุด"
+ mpo_decisions_events.0099.a: "เจตจำนงของข้าปรากฏเป็นจริงแล้ว"
+
+ paiza_artifact_title: "ไป่ซาของ [patron.GetTitledFirstNameNoTooltip]"
+ paiza_artifact_desc: "[paiza|E] แผ่นป้ายโลหะเรียบง่าย ทว่าน่าเกรงขาม สามารถนำมา ซึ่งทั้งอำนาจและภัยพิบัติ ด้านหลังจารึกถ้อยคำต่อไปนี้ไว้:\n\nด้วยอำนาจแห่งฟ้าชั่วนิรันดร์ ด้วยการคุ้มครองแห่งพระบรมเดชานุภาพ โองการแห่ง [patron.GetTitledFirstName] ผู้ใดก็ตามที่ไม่เคารพ จะต้องถูกลงโทษ จะต้องตาย"
+
+ mpo_call_for_merchants: "เรียกผู้มาเยือนผู้มั่งคั่ง"
+
+ mpo_call_for_merchants_decision: "$mpo_call_for_merchants$: ไป่ซา"
+ mpo_call_for_merchants_decision_desc: "ทุ่งหญ้าสเตปป์อันยิ่งใหญ่นั้นงดงามกว่าเมืองต่างชาติที่อ้วนพีและเสื่อมโทรมเหล่านั้นมากนัก ทว่าพวกเขาก็มีสินค้า เครื่องกลไก และความคิดที่อาจเป็นประโยชน์ต่อเรา บางทีคนโง่ผู้มั่งคั่งคนหนึ่งของพวกเขาอาจจะเสี่ยงภัยมาไกลถึงเพียงนี้"
+ mpo_call_for_merchants_decision_tooltip: "$mpo_call_for_merchants_decision.merchant_will_arrive$"
+ mpo_call_for_merchants_decision_confirm: "ส่งคณะทูต"
+ mpo_call_for_merchants_dead_merchant_toast: "ผู้มาเยือนผู้มั่งคั่งเสียชีวิตระหว่างทาง"
+ mpo_call_for_merchants_dead_merchant_desc: "ผู้มาเยือนผู้มั่งคั่ง [merchant.GetShortUIName] สิ้นชีวิตระหว่างการเดินทางของ [merchant.GetHerHis]"
+
+ mpo_call_for_merchants_small_decision: "$mpo_call_for_merchants$: ข้อเสนอในท้องถิ่น"
+ mpo_call_for_merchants_small_decision_desc: "$mpo_call_for_merchants_decision_desc$"
+ mpo_call_for_merchants_small_decision_tooltip: "ปรับปรุงทหารของท่านหรือเปิดใช้งานการสร้าง [artifact|E]"
+ mpo_call_for_merchants_small_decision_confirm: "ส่งทูต"
+ mpo_call_for_merchants_decision.merchant_will_arrive_smol: "$mpo_call_for_merchants_decision.merchant_will_arrive_generic$\n$BULLET_WITH_TAB$ประมาณ #P 20%#! ของการลงทุน [gold|E] ของท่าน"
+ mpo_call_for_merchants_decision.merchant_will_arrive_generic: "ชาวต่างชาติผู้มั่งคั่งจะเดินทางมายังราชสำนักของท่าน นำกองคาราวานมุ่งหน้าไปยังเมืองที่พัฒนาแล้วและตั้งรกรากอย่างดี เมื่อพวกเขากลับมา ท่านอาจได้รับผลประโยชน์ดังต่อไปนี้:\n$BULLET_WITH_TAB$ประมาณ #P 40%#! ของการลงทุน [gold|E] ของท่าน\n$BULLET_WITH_TAB$วัสดุสร้าง [artifact|E] ที่ปลดล็อก [decision|E] #V $commission_artifact_decision$#!\n$BULLET_WITH_TAB$อาวุธยุทโธปกรณ์สำหรับ [horde|E] และ [archer_cavalry|E] ของท่าน"
+ mpo_call_for_merchants_decision.gold_needed_smol: "ข้อเสนอที่ให้ผลกำไรมากขึ้นต้องการการลงทุน [gold|e] ที่สูงขึ้น สูงสุดถึง 800 [gold_i|E]"
+
+
+ mpo_call_for_merchants_decision.robbed_merchants: "คนนอกคนก่อนที่ตอบรับการเรียกของท่านหายตัวไปอย่างโหดเหี้ยม และข่าวนี้ก็ได้แพร่กระจายออกไป คงต้องใช้เวลาอีกระยะหนึ่งกว่าจะมีคนโง่บ้าบิ่นอีกคนกล้าปรากฏตัว"
+ mpo_call_for_merchants_decision.merchant_will_arrive: "$mpo_call_for_merchants_decision.merchant_will_arrive_generic$\n$BULLET_WITH_TAB$ความคืบหน้า [innovation|E] แบบสุ่ม"
+ mpo_call_for_merchants_decision.buildings: "การ [internal_upgrades|E] ต่างๆ ให้กับ [yurt_building|E] [GetDomicileBuilding('trade_yurt_01').GetName] มอบผลประโยชน์เพิ่มเติม"
+ mpo_call_for_merchants_decision.gold_needed: "ข้อเสนอที่ให้ผลกำไรมากขึ้นต้องการการลงทุน [gold|E] ที่สูงขึ้น สูงสุดถึง 2400 [gold_i|E]"
+
+ mpo_decisions_events.0100.t: "$mpo_call_for_merchants_decision$"
+ mpo_decisions_events.0100.desc: "$mpo_decisions_events.2141.desc$"
+ mpo_decisions_events.0100.a: "นำความคิดใหม่ๆ มาให้ข้า"
+ mpo_decisions_events.0100.a_not_unlocked: "ท่านไม่มี [yurt_building|E] [GetDomicileBuilding('trade_yurt_01').GetName]"
+ mpo_decisions_events.0100.b: "เหล็กกล้าจะถูกนำไปใช้ประโยชน์อย่างดี"
+ mpo_decisions_events.0100.c: "เกราะสำหรับกองทัพของข้า"
+ mpo_decisions_events.0100.d: "ให้เราแลกเปลี่ยนฝูงสัตว์เป็นทองคำก่อน"
+ mpo_decisions_events.0100.d.unlocked: "ท่านจะสามารถเลือกสินค้าที่ต้องการได้หลังจากการแลกเปลี่ยน [herd|E]\n#weak ท่านสามารถเข้าถึงตัวเลือกนี้ได้เนื่องจากท่านมี [yurt_building|E] [GetDomicileBuilding('herd_trade_yurt_01').GetName]#!"
+ mpo_decisions_events.0100.e: "ทรัพย์สมบัติของเจ้า และชีวิตของเจ้า บัดนี้"
+ mpo_decisions_events.0100.e.warning: "@alert_icon! #alert_trial จะไม่มีผู้มาเยือนผู้มั่งคั่งคนอื่นกล้ามายังราชสำนักของท่านเป็นเวลาสองทศวรรษ ท่านจะไม่สามารถดำเนินการ #V $mpo_call_for_merchants_decision$#! ได้ในช่วงเวลานี้#!"
+
+ mpo_decisions_events.2141.t: "$mpo_call_for_merchants_small_decision$"
+ mpo_decisions_events.2141.desc: "[paiza_merchant.GetName] มาถึงเร็วกว่าที่ข้าคาดไว้ พร้อมด้วยฝุ่นจับรองเท้าบูทของ [paiza_merchant.GetHerHis] และแววตาเป็นประกาย\n\n"ขอบพระคุณที่อนุญาตให้ข้าอยู่ที่นี่ ท่าน [ROOT.Char.GetTitleAsNameNoTooltip] ผู้ชาญฉลาดและทรงพลัง ข้าได้ยินว่าท่านสนใจสินค้าจาก [merchant_origin.GetNameNoTier] สินค้าที่ข้าสามารถนำมายังเยิร์ตของท่านได้ ข้าจะนำกองคาราวานไปที่นั่นและกลับมาอีกครั้ง\n\nข้าจะนำสิ่งที่ท่านปรารถนามาให้ท่านอย่างนอบน้อม เป็นเหล็กดิบจากเตาหลอมที่ดีที่สุดหรือ? ชุดเกราะที่สามารถสะท้อนการโจมตีใดๆ ได้หรือ? หรือสิ่งอื่นใด?""
+ mpo_decisions_events.2141.b: "$mpo_decisions_events.0100.b$"
+ mpo_decisions_events.2141.c: "$mpo_decisions_events.0100.c$"
+ mpo_decisions_events.2141.d: "$mpo_decisions_events.0100.d$"
+ mpo_decisions_events.2141.d.unlocked: "$mpo_decisions_events.0100.d.unlocked$"
+ mpo_decisions_events.2141.e: "$mpo_decisions_events.0100.e$"
+ mpo_decisions_events.2141.e.warning: "$mpo_decisions_events.0100.e.warning$"
+ mpo_decisions_events.2141.upon_merchant_return: "$mpo_decisions_events.0100.upon_merchant_return$"
+
+
+ mpo_decisions_events.0100.upon_merchant_return: "เมื่อ [paiza_merchant.GetNameNoTooltip] กลับมาจากการเดินทางของ [paiza_merchant.GetHerHis] ไปยัง [merchant_origin.GetName]:"
+
+ mpo_decisions_events.0101.t: "ชาวต่างชาติกลับมา"
+ mpo_decisions_events.0101.desc: "[paiza_merchant.GetName] มาถึงแล้ว และบัดนี้กำลังจิบ [Glossary( 'คูมิส', 'KUMIS_GLOSS')] ในเยิร์ตของข้า หลังจากเดินทางไกลและยากลำบากไปยัง [merchant_origin.GetName]\n\nสินค้าล้ำค่าที่ข้าสั่งกำลังถูกขนถ่ายลง หมาป่าแห่งทุ่งหญ้าสเตปป์และลูกแกะแห่งเมืองกรุงได้ค้นพบหนทางที่จะอยู่ร่วมกันได้ หากเพียงชั่วระยะเวลาหนึ่ง"
+ mpo_decisions_events.0101.a: "ยอดเยี่ยม!"
+ mpo_decisions_events.0101.b: "เล่าเรื่องราวของดินแดนห่างไกลให้ข้าฟัง"
+ mpo_decisions_events.0101.b.desc: "[paiza_merchant.GetName] จะเล่าเรื่องราวเกี่ยวกับดินแดนที่ [paiza_merchant.GetSheHe] เดินทางผ่านให้ท่านฟัง"
+
+ mpo_decisions_events.2137.t: "การเดินทางของ [paiza_merchant.GetFirstNameNoTooltip]"
+ mpo_decisions_events.2137.desc_intro: "[paiza_merchant.GetName] รวบรวมลมหายใจ มองไปยังที่ห่างไกล และเล่าเรื่องราว:\n#weak"
+ mpo_decisions_events.2137.desc_interludium: "\n\n#![paiza_merchant.GetSheHe|U] หอบหายใจ แล้วก็พูดพล่ามถึงอาณาจักรอื่น:\n#weak"
+ mpo_decisions_events.2137.a: "ข้าเข้าใจแล้ว"
+ mpo_decisions_events.2137.b: "บอกข้าอีก!"
+ mpo_decisions_events.2137.c: "จงพักอยู่ที่เยิร์ตของข้า"
+
+ mpo_decisions_events.2138.t: "ฝูงสัตว์แลกทองคำ"
+ mpo_decisions_events.2138.desc: "ท่านและ [paiza_merchant.GetName] เดินไปยัง [GetDomicileBuilding('trade_yurt_01').GetName] ของท่านเพื่อหารือรายละเอียด [paiza_merchant.GetSheHe|U] อธิบายว่า:\n\n"ข้าสามารถซื้อฝูงสัตว์จำนวนมากจากท่านได้ ข้าได้สร้างความสัมพันธ์ไว้ขณะเดินทางมาที่นี่ ไม่มีผู้ซื้อรายใหญ่ แต่ข้าน่าจะสามารถไปเยี่ยมผู้เลี้ยงสัตว์รายย่อยได้มากพอระหว่างทางกลับเพื่อทำกำไร หรืออย่างน้อยก็ไม่ขาดทุนมากนัก\n\nข้ายื่นข้อเสนอนี้ให้ท่าน ด้วยความเคารพต่อท่านและพระบรมเดชานุภาพของท่าน ท่าน [ROOT.Char.GetTitleAsNameNoTooltip] ของข้า""
+ mpo_decisions_events.2138.desc_rate_1: "[GetDomicileBuilding('herd_trade_yurt_01').GetName] 6 [herd_i] ต่อ 1 [gold_i]"
+ mpo_decisions_events.2138.desc_rate_2: "[GetDomicileBuilding('herd_trade_yurt_03').GetName] 4 [herd_i] ต่อ 1 [gold_i]"
+ mpo_decisions_events.2138.desc_rate_3: "[GetDomicileBuilding('herd_trade_yurt_06').GetName] 2 [herd_i] ต่อ 1 [gold_i]"
+ mpo_decisions_events.2138.a: "ตกลง"
+ mpo_decisions_events.2138.b: "ให้มากขึ้น ได้มากขึ้น"
+ mpo_decisions_events.2138.c: "ให้เรากลับไปกันเถิด"
+ mpo_decisions_events.2138.c.desc: "ท่านจะไม่ทำการแลกเปลี่ยน [herd|E] และจะกลับไปหารือเป้าหมายการเดินทางของ [paiza_merchant.GetNamePossessive]"
+ mpo_decisions_events.2141.already_traded: "ท่านได้แลกเปลี่ยน [herd|E] เป็น [gold|E] แล้ว"
+
+ mpo_abuse_authority_paiza_decision: "ใช้อำนาจกูรข่านในทางมิชอบ"
+ mpo_abuse_authority_paiza_decision_tooltip: "[gurkhan|E] ตรัสผ่านข้า!"
+ mpo_abuse_authority_paiza_decision_desc: "ข้าถือนามแห่งกูรข่านติดตัว อักขระที่จารึกไว้ในไป่ซาของข้าสร้างความหวาดกลัวในใจผู้คน ดินแดนรอบกายข้าอุดมสมบูรณ์ ทว่าผู้คนที่อาศัยอยู่ที่นี่อ่อนแอ ข้าจะยึดสิ่งที่ข้าสามารถยึดได้จากพวกเขา มิใช่ด้วยพลังอำนาจอันมิอาจต้านทานของข้า แต่ด้วยนามแห่งกูรข่าน"
+ mpo_abuse_authority_paiza_decision_confirm: "ในนามแห่ง [gurkhan|E]!"
+ mpo_abuse_authority_paiza_decision.paiza_patron_not_topdog: "ผู้อุปถัมภ์ [paiza|E] มิได้เป็น [gurkhan|E] อีกต่อไป"
+ mpo_abuse_authority_paiza_decision.not_topdog_realm_or_steppe: "อำนาจของ [gurkhan|E] มิได้รับการยอมรับ ณ ที่แห่งนี้"
+ mpo_abuse_authority_paiza_decision.no_more_paiza_abuse: "[gurkhan|E] ตอบโต้การกระทำของท่าน"
+ mpo_abuse_authority_paiza_decision.region_already_abused: "ดินแดนเหล่านี้เคยประสบกับการใช้อำนาจของ [gurkhan|E] ในทางมิชอบแล้ว"
+ mpo_abuse_authority_paiza_decision.nothing_to_abuse: "ไม่มีดินแดนใดที่สุกงอมพอจะใช้อำนาจในทางมิชอบได้ใน [location|E] นี้"
+
+ mpo_decisions_events.0110.t: "ในนามแห่ง [paiza_patron.GetTitleAsNameNoTooltip]"
+ mpo_decisions_events.0110.desc: "ข้าคือข้ารับใช้ผู้ #EMP ภักดี#! ของ [paiza_patron.GetTitledFirstNamePossessive] ข้าถือนามของ [paiza_patron.GetHerHis] จารึกไว้ในโลหะและเจตจำนงของ [paiza_patron.GetHerHis] ในคำพูดและการกระทำของข้า ความแข็งแกร่งของข้าคือของ [paiza_patron.GetHerHis]\n\n[local_boi.GetName] ผู้อ่อนแอจะอ้อนวอนเท่าใดก็ได้ตามใจข้า มันจะไม่เปลี่ยนแปลงคำสั่งของกูรข่านที่ออกมาจากปากข้า\n\nทรัพย์สมบัติทั้งหมด สัตว์ที่เหมาะสมทั้งหมดจากดินแดนเหล่านี้ จะต้องถูกรวบรวมทันทีและนำมาให้ข้า เพราะความอ่อนแอของเจ้าดูหมิ่นอำนาจของ [paiza_patron.GetTitleAsNamePossessiveNoTooltip] และข้าจะนำมันทั้งหมดไปใช้... ในทางที่ #EMP ดีกว่า#!"
+ mpo_decisions_events.0110.a: "รวบรวมทุกสิ่งที่เคลื่อนไหวได้!"
+ mpo_decisions_events.0110.b: ""อย่าได้เอ่ยปากถึงเรื่องนี้เลยนะ เจ้าพวกสุนัข!""
+ mpo_decisions_events.0110.c: "ข้าเปลี่ยนใจแล้ว"
+ mpo_decisions_events.0110.d: "นี่มัน #EMP ผิด#! ถอยออกไป!"
+ mpo_decisions_events.0110.b.success: "สำเร็จ"
+ mpo_decisions_events.0110.b.success_desc: "ไม่มีคำพูดใดเกี่ยวกับสิ่งที่เกิดขึ้นที่นี่ไปถึงหูของ [paiza_patron.GetTitledFirstName]"
+ mpo_decisions_events.0110.b.failure: "[paiza_patron.GetTitledFirstName] ได้ยินเกี่ยวกับการใช้อำนาจในทางมิชอบนี้"
+ custom.mpo_resources_gained_abuse: "ของที่ปล้นมาจาก [counties|E] ในบริเวณใกล้เคียง"
+
+ mpo_decisions_events.0111.t: "พระพิโรธแห่งกูรข่าน"
+ mpo_decisions_events.0111.desc: "กูรข่านเปรียบดังทุ่งหญ้าสเตปป์ พลังอำนาจและเจตจำนงของ [paiza_patron.GetNamePossessive] แผ่ขยายไปทั่ว นามของ [paiza_patron.GetHerHis|U] ถูกกระซิบโดยสายลม\n\nข้าถือนามของ [paiza_patron.GetHerHis] ติดตัว จารึกไว้ในโลหะแห่งไป่ซา ข้าได้ใช้มันเพื่อสร้างความหวาดกลัวและความภักดีในใจผู้คน ดูเหมือนจะหลายครั้งเกินไปแล้ว\n\nบัดนี้ถึงตาข้าที่ต้องหวาดกลัว กูรข่านได้ยินถึงการกระทำของข้าและเรียกมันว่าการใช้วาจาของ [paiza_patron.GetHerHis] นามของ [paiza_patron.GetHerHis] ในทางมิชอบ และด้วยเหตุนั้น ข้าจะกลายเป็นตัวอย่างอันน่าสยดสยองให้ทั้งทุ่งหญ้าสเตปป์ได้เห็น"
+ mpo_decisions_events.0111.a: "ข้ายินดีรับการตัดสิน"
+ mpo_decisions_events.0111.b: ""อา แต่การกระทำของข้านั้นชอบธรรมนะ ท่านเห็นหรือไม่...""
+
+ mpo_decisions_events.0112.t: "$mpo_decisions_events.0111.t$"
+ mpo_decisions_events.0112.desc: "ข้าเป็นดั่งทุ่งหญ้าสเตปป์ พลังและเจตจำนงของข้าแผ่ไพศาลไปทั่วทุกแห่งหน นามของข้าถูกกระซิบโดยสายลม\n\nเหล่าพลขี่ม้าต่างพกพานามของข้าไปด้วย สลักไว้บนป้ายอาญาสิทธิ์โลหะของพวกเขา ทว่าบางคนกลับบิดเบือนมันดุจอสรพิษ เหล่าคนโฉดเขลาละโมบ เช่น [paiza_abuser.GetName] และ [paiza_abuser_1.GetName] เมื่อไม่นานมานี้ [paiza_abuser.GetSheHe] หมอบกายเยี่ยงหนอนของ [paiza_abuser.GetHerHis|U] ต่อหน้าข้า บัดนี้ [paiza_abuser.GetSheHe] กลับข่มเหงเหล่าข้าแผ่นดินผู้ภักดีของข้า ซึ่งกำลังมองมาที่ข้าเพื่อรอคำตอบ เพื่อความยุติธรรม ขอให้สายลมจงพัดพาเจตจำนงที่แท้จริงของข้าไปบัดนี้!\n\n"ข้าเพิ่งได้รับข่าวมา จงให้พวกมันรู้ว่า [ROOT.Char.GetTitledFirstNameNoTooltip] หาได้เกรงกลัวสุนัขตอนใดๆ ไม่ ทั้ง [paiza_abuser.GetFirstNameNoTooltip], [paiza_abuser_1.GetFirstNameNoTooltip], หรือผู้ใดก็ตาม นามของข้าก็คือนามของข้า!""
+ mpo_decisions_events.0112.a: "นำศีรษะของพวกมันมาให้ข้า!"
+ mpo_decisions_events.0112.a.desc: "[characters|E] อื่นๆ ที่มี [paiza|E] ของท่านจะเต็มใจใช้อำนาจของท่านในทางมิชอบน้อยลงหากทั้ง [paiza_abuser.GetFirstName] และ [paiza_abuser_1.GetFirstName] ตาย"
+ mpo_decisions_events.0112.b: "ข้าจะปล่อยเรื่องนี้ไป... สำหรับตอนนี้"
+ mpo_decisions_events.0112.c: "อย่ามารบกวนข้าอีกเลย"
+ mpo_decisions_events.0112.c.flavor: "การใช้อำนาจของท่านในทางมิชอบจะเกิดขึ้นอีก แต่ท่านจะไม่ได้รับการแจ้งเตือนอีกต่อไป"
+
+
+ mpo_paiza_abuse_counter_effect.random: "การกระทำของ [gurkhan|E] นั้นคาดเดาไม่ได้ดุจดังมนุษย์เท่านั้นที่จะเป็นได้"
+ mpo_paiza_abuse_counter_effect.angry: "@warning_icon! [gurkhan|E] โกรธแค้นต่อการใช้อำนาจในทางมิชอบของท่านและเกือบจะแน่นอนว่าจะต้องตอบโต้"
+ mpo_paiza_abuse_counter_effect.annoyed: "@alert_icon! [gurkhan|E] รำคาญใจต่อการใช้อำนาจในทางมิชอบของท่านและมีแนวโน้มที่จะตอบโต้"
+ mpo_paiza_abuse_counter_effect.indifferent: "[gurkhan|E] ไม่แยแสต่อการใช้อำนาจในทางมิชอบของท่านและจะไม่ดำเนินการใดๆ ในครั้งนี้"
+ mpo_paiza_abuse_counter_effect.khan_reaction_action: "@alert_icon! [gurkhan|E] จะตอบโต้อย่าง #EMP รุนแรง#!"
+ mpo_paiza_abuse_counter_effect.khan_reaction_angry: "[gurkhan|E] จะ #EMP โกรธแค้น#! แต่จะไม่ดำเนินการใดๆ"
+ mpo_paiza_abuse_counter_effect.khan_reaction_annoyed: "[gurkhan|E] จะ #EMP รำคาญใจ#! แต่จะไม่ดำเนินการใดๆ"
+
+ mpo_decisions_events.0111.a.effects: "[paiza_patron.GetName] ได้รับ [imprisonment_reason|E] และ [execute_reason|E] ที่มุ่งเป้ามายังท่าน"
+ mpo_decisions_events.0111.a.severe_effects: "[paiza_patron.GetName] ได้รับ [imprisonment_reason|E] และ [execute_reason|E] ที่มุ่งเป้ามายังท่านและ [close_family_members|E] ของท่าน"
+ mpo_decisions_events.0111.a.survived_khans_wrath: "แม้จะรอดพ้นจากพระพิโรธของกูรข่าน ท่านก็จะไม่สามารถใช้อำนาจของเขาในทางมิชอบได้อีก"
+
+ mpo_call_for_merchants_decision_is_gurkhan: "ท่านคือ [gurkhan|E]"
+
+ mpo_paiza_abused_county_modifier: "อำนาจกูรข่านถูกใช้ในทางมิชอบ"
+ mpo_paiza_abused_county_modifier_desc: "[paiza|E]: ดินแดนถูกปล้นสะดมโดยประชากรของตนเองด้วยความหวาดกลัวนามแห่งกูรข่าน"
+
+ mpo_fascination_leap_modifier: "ก้าวกระโดดแห่งความหลงใหล"
+ mpo_fascination_leap_modifier_desc: "#weak เจกุน#! ของช่างฝีมือผู้ชำนาญและผู้มีการศึกษาที่นำมาจากแดนไกลช่วยเหลืองานราชการและนวัตกรรม"
+
+ mpo_artifact_material_modifier: "วัสดุโบราณวัตถุ"
+ mpo_artifact_material_modifier_desc: "ตัวละครนี้มีวัตถุดิบมากมายสำหรับสร้างโบราณวัตถุที่เลื่องชื่อที่สุด\n\nปลดล็อก [decision|E] #V $commission_artifact_decision$#!"
+
+ mpo_paiza_robbed_merchants: "ชาวต่างชาติถูกปล้น"
+ mpo_paiza_robbed_merchants_desc: "ตัวละครนี้ได้สังหารชาวต่างชาติผู้มั่งคั่งที่กล้ามาทำธุรกิจในทุ่งหญ้าสเตปป์"
+
+ abused_paiza_authority: "ใช้อำนาจในทางมิชอบ"
+ gravely_abused_paiza_authority: "ใช้อำนาจในทางมิชอบอย่างร้ายแรง"
+ abused_paiza_authority_family: "ครอบครัวใช้อำนาจในทางมิชอบ"
+
+ paiza_merchant_skill_gold_percent: "ท่านจะได้รับคืนประมาณ #P 40%#! ของการลงทุน [gold|E] ของท่าน [skills|E] ที่สูงของ [paiza_merchant.GetName] จะเพิ่มจำนวนนี้"
+ paiza_merchant_skill_gold_percent_smol: "ท่านจะได้รับคืนประมาณ #P 20%#! ของการลงทุน [gold|E] ของท่าน [skills|E] ที่สูงของ [paiza_merchant.GetName] จะเพิ่มจำนวนนี้"
+ paiza_yurt_gold_percent_1: "[GetDomicileBuilding('camp_fire_capering_fools').GetName]:#P +5%#! เพิ่มผลกำไร"
+ paiza_yurt_gold_percent_2: "[GetDomicileBuilding('camp_fire_capering_fools').GetName]:#P +10%#! เพิ่มผลกำไร"
+ paiza_yurt_gold_percent_3: "[GetDomicileBuilding('camp_fire_capering_fools').GetName]:#P +20%#! เพิ่มผลกำไร"
+
+ paiza_troops: "ชาว [paiza_merchant.GetCulture.GetCollectiveNoun] ผู้มิอาจต้านทาน"
+
+ paiza_fertility_modifier_1: "การค้าอันอุดมสมบูรณ์"
+ paiza_fertility_modifier_1_desc: "การมาถึงของกองคาราวานพ่อค้าต่างชาตินำสินค้าและสัตว์ใหม่ๆ เข้ามาในภูมิภาค เพิ่มความหลากหลายของสายพันธุ์และ ส่งผลให้ความอุดมสมบูรณ์ของเคาน์ตีนี้เพิ่มขึ้นอย่างมาก"
+ paiza_fertility_modifier_2: "$paiza_fertility_modifier_1$"
+ paiza_fertility_modifier_2_desc: "$paiza_fertility_modifier_1_desc$"
+ paiza_fertility_modifier_3: "$paiza_fertility_modifier_1$"
+ paiza_fertility_modifier_3_desc: "$paiza_fertility_modifier_1_desc$"
+
+ mpo_paiza_improve_maa_modifier: "เกราะต่างชาติ"
+ mpo_paiza_improve_maa_modifier_desc: "ทูเมนของตัวละครนี้สวมชุดเกราะเต็มยศอย่างสมบูรณ์"
+
+ paiza_merchant_on_route_tt: "ผู้มาเยือนผู้มั่งคั่งกำลังเดินทางมายังราชสำนักของท่าน"
+ paiza_merchant_on_route_tt_desc: "[merchant.GetName] ชาว [merchant.GetCulture.GetName] ผู้กล้าหาญ ได้ออกเดินทางจาก [merchant_origin.GetName]"
+
+ yurt_paiza_bonuses_generic: "ผลกระทบทางการค้าเพิ่มเติมจาก [yurt_buildings|E] ของท่าน:"
+ paiza_received_obedience_value: "คะแนน [obedience|E]: #P +60#!"
+
+ will_abuse_paiza_reason: "วางแผนที่จะใช้อำนาจไป่ซาในทางมิชอบ: $VALUE|=+0$"
+
+ nomad_yurt_paiza_fertility_gain_lvl_1_tooltip: "[GetDomicileBuilding('fertility_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_fertility_gain_lvl_1$"
+ nomad_yurt_paiza_fertility_gain_lvl_2_tooltip: "[GetDomicileBuilding('fertility_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_fertility_gain_lvl_2$"
+ nomad_yurt_paiza_fertility_gain_lvl_3_tooltip: "[GetDomicileBuilding('fertility_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_fertility_gain_lvl_3$"
+ 
+ nomad_yurt_paiza_herd_gain_lvl_1_tooltip: "[GetDomicileBuilding('herd_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_herd_gain_lvl_1$"
+ nomad_yurt_paiza_herd_gain_lvl_2_tooltip: "[GetDomicileBuilding('herd_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_herd_gain_lvl_2$"
+ nomad_yurt_paiza_herd_gain_lvl_3_tooltip: "[GetDomicileBuilding('herd_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_herd_gain_lvl_3$"
+
+ nomad_yurt_paiza_more_gold_lvl_1_tooltip: "[GetDomicileBuilding('merchant_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_more_gold_lvl_1$"
+ nomad_yurt_paiza_more_gold_lvl_2_tooltip: "[GetDomicileBuilding('merchant_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_more_gold_lvl_2$"
+ nomad_yurt_paiza_more_gold_lvl_3_tooltip: "[GetDomicileBuilding('merchant_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_more_gold_lvl_3$"
+
+ nomad_yurt_paiza_char_gain_lvl_1_tooltip: "[GetDomicileBuilding('char_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_char_gain_lvl_1$"
+ nomad_yurt_paiza_char_gain_lvl_2_tooltip: "[GetDomicileBuilding('char_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_char_gain_lvl_2$"
+ nomad_yurt_paiza_char_gain_lvl_3_tooltip: "[GetDomicileBuilding('char_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_char_gain_lvl_3$"
+
+ nomad_yurt_paiza_maa_gain_lvl_1_tooltip: "[GetDomicileBuilding('knight_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_maa_gain_lvl_1$"
+ nomad_yurt_paiza_maa_gain_lvl_2_tooltip: "[GetDomicileBuilding('knight_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_maa_gain_lvl_2$"
+ nomad_yurt_paiza_maa_gain_lvl_3_tooltip: "[GetDomicileBuilding('knight_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_maa_gain_lvl_3$"
+
+ already_received_a_paiza: "ได้รับ [paiza|E] แล้ว"

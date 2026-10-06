@@ -1,0 +1,5 @@
+﻿l_english: 
+ TEMP_GUI_INTERACTION:0 "$EFFECT_LIST_BULLET$ จองจำ #high ดยุกเกิร์ธ#! \n$EFFECT_LIST_BULLET$ #N นี่คือการกระทำอันเป็น #E ทรราชย์#! ทำให้เหล่าข้าแผ่นดินของท่านสูญเสีย #Z 40#! #E ความเห็น#! ที่มีต่อท่าน#!"
+ TEMP_GUI_INTERACTION_2:1 "$EFFECT_LIST_BULLET$ ครอบครัวทั้งหมดของ #high ดยุกเกิร์ธ#! จะสูญเสีย #Z 15#! #E ความเห็น#! ที่มีต่อข้า.\n$EFFECT_LIST_BULLET$ สูญเสีย #Z 30#! #E ความเห็น#! ที่มีต่อข้า #low (ในคุก)#!"
+ TEMP_GUI_INTERACTION_TITLE:0 "ผลกระทบต่อ #high ดยุกเกิร์ธ ก็อดไวน์สัน#! แห่งอีสต์แองเกลีย"
+ TEMP_GUI_HOOK:0 "ใช้ #E บุญคุณ#!"

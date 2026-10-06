@@ -1,0 +1,36 @@
+﻿l_english: 
+
+##################################################
+# Uniques
+
+ fp2_chalice_dona_urraca:0 "ถ้วยศักดิ์สิทธิ์ของดอญญา อูร์รากา"
+ fp2_chalice_dona_urraca_desc:0 "ถ้วยพิธีกรรมที่สลักเสลาจากนิลกาฬเนื้อลึก ประดับประดาด้วยอัญมณีและโครงทองคำ สร้างขึ้นตามพระบัญชาของ[owner.GetTitledFirstName]เพื่อเป็นเกียรติแก่ศาสนจักร"
+
+ fp2_santiago_aquamanile:0 "(อดีต) $fp2_santiago_bells$"
+ # We have to use |U here so that al-Mansur is presented correctly.
+ fp2_santiago_aquamanile_desc:0 "[reforger.GetTitledFirstName|U]หลอมคนโทเหล่านี้จากเศษโลหะหลอมละลายของ$fp2_santiago_bells$ แม้ปัจจุบันจะใช้เพื่อชำระล้างมือของเจ้าของตามพิธีกรรม แต่การดำรงอยู่ของมันเพียงอย่างเดียวก็ยืนยันถึงอำนาจสูงสุดของอิสลามเหนือคริสต์ศาสนา"
+ fp2_santiago_aquamanile_melted_desc:0 "ถูกหลอมละลาย#EMP อีกครั้ง#! ล่าสุดโดย[reforger.GetTitledFirstName] อดีต$fp2_santiago_bells$กลายเป็นคนโทใส่น้ำที่มีการแย่งชิงกันอย่างดุเดือดที่สุดในโลก รูปแบบปัจจุบันของมันประกาศก้องถึงอำนาจสูงสุดของอิสลามในไอบีเรีย"
+ fp2_santiago_aquamanile_melted_tally_desc:0 "$fp2_santiago_aquamanile_melted_desc$\n\nโลหะที่ถูกหลอมบ่อยครั้งนี้ได้เปลี่ยนมือไปแล้ว [ROOT.Var('artefact_santiago_bells').GetValue] ครั้ง"
+
+ fp2_santiago_bells:0 "ระฆังแห่งซานติอาโก"
+ fp2_santiago_bells_desc:0 "ระฆังอันเลื่องชื่อแห่งซานติอาโกเดกอมโปสเตลาเป็นเครื่องเตือนใจที่แข็งแกร่ง เรียบง่าย และเหนือสิ่งอื่นใดคือ#EMP ดัง#! ถึงอำนาจทางจิตวิญญาณอันไม่เปลี่ยนแปลงของนักบุญเจมส์"
+ fp2_santiago_bells_melted_desc:0 "กู้คืนมาจากเงื้อมมือของพวกนอกรีต หลอมละลาย และคืนสู่สภาพเดิมโดย[reforger.GetTitledFirstName] ระฆังอันเลื่องชื่อแห่งซานติอาโกเดกอมโปสเตลาดังกังวานเพื่อปลอบประโลมชาวคริสต์ทั้งมวล"
+ fp2_santiago_bells_melted_tally_desc:0 "$fp2_santiago_bells_melted_desc$\n\nโลหะที่ถูกหลอมบ่อยครั้งนี้ได้เปลี่ยนมือไปแล้ว [ROOT.Var('artefact_santiago_bells').GetValue] ครั้ง"
+
+##################################################
+# Multiples
+
+ fp2_armillary_sphere:0 "ทรงกลมอาร์มิลลารี"
+ fp2_armillary_sphere_desc:0 "เครื่องมือทางดาราศาสตร์อันซับซ้อนด้วยฝีมือประณีตระดับ[SCOPE.Custom('ArtifactQuality')] วงแหวนสลักจาก[newly_created_artifact.GetFeatureText( 'generic_material_wood' )]ฝังด้วย[newly_created_artifact.GetFeatureText( 'decoration_material_inlay' )] และจำลองเส้นทางอันคดเคี้ยวของสวรรค์ชั้นสูงสุดด้วยรายละเอียดอันน่าพิศวง"
+
+ fp2_2p_chess_board:0 "กระดานหมากรุกนำโชค"
+ fp2_2p_chess_board_desc:0 "เป็นเครื่องมือสำคัญในเกมที่ประสบความสำเร็จอย่างกึกก้องกับ[bg_loser.GetTitledFirstName] เครื่องมือหย่อนใจนี้นำโชคอันเป็นเอกลักษณ์มาสู่[bg_victor.GetTitledFirstName]เป็นครั้งแรก"
+
+ fp2_4p_chess_board:0 "กระดานหมากรุกสี่ผู้เล่น"
+ fp2_4p_chess_board_desc:0 "เมื่อ[bg_victor.GetTitledFirstName]เอาชนะ[bg_loser.GetTitledFirstName]ในเกมหมากรุก ความคิดแรกของ[bg_victor.GetHerHis]คือการรำลึกถึงความสามารถในการเล่นเกมของ[bg_victor.GetHerHis]โดยการคิดค้นรูปแบบที่ปรับปรุงใหม่ ซึ่งเฉพาะเจาะจงมากจน[bg_victor.GetSheHe]ไม่สามารถหาใครมาเล่นด้วยได้เลย"
+
+ fp2_votive_crowns:0 "มงกุฎปฏิญาณวิซิกอท"
+ fp2_votive_crowns_desc:0 "ออกแบบมาเพื่อแขวนไว้เหนือหรือรอบแท่นบูชาในโบสถ์ และบางครั้งบนรูปปั้น การถวายมงกุฎปฏิญาณแด่พระเจ้าเป็นการแสดงออกถึงการยอมจำนนต่ออำนาจที่สูงส่งกว่าราชวงศ์ใดๆ"
+
+ fp2_andalusian_aquamanile:0 "คนโทพิธีกรรม"
+ fp2_andalusian_aquamanile_desc:0 "คนโท[newly_created_artifact.GetFeatureText( 'goblet_material' )]อันงดงาม ตก แต่งด้วย[newly_created_artifact.GetFeatureText( 'decoration_material_inlay' )]ปิดทอง มีไว้สำหรับบรรจุน้ำเพื่อใช้ชำระล้างมือตามพิธีกรรม"

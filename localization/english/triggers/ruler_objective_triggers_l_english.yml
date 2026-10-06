@@ -1,0 +1,5 @@
+﻿l_english: 
+ has_ruler_objective_global: "มีเป้าหมายผู้ปกครอง"
+ not_has_ruler_objective_global: "มิได้มีเป้าหมายผู้ปกครอง"
+ has_ruler_objective_first: "$has_ruler_objective_global$"
+ not_has_ruler_objective_first: "$not_has_ruler_objective_global$"

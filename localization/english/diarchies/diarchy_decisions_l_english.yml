@@ -1,0 +1,54 @@
+﻿l_english: 
+ ##################################################
+ # #Misc
+ 
+
+ ##################################################
+ # #Attempt to Overthrow Liege
+ diarch_attempt_to_overthrow_liege:0 "ความพยายามโค่นล้มเจ้าเหนือหัว"
+ diarch_attempt_to_overthrow_liege_desc:0 "[ROOT.Char.GetLiege.GetTitleAsNameNoTooltip]"#! [ROOT.Char.GetLiege.GetFirstNameNoTooltip] ที่ถูกกล่าวอ้างของเรานั้น ไม่สามารถปกครองได้หากปราศจาก #EMP ข้า#! — แต่ข้าปกครองได้แน่นอนโดยปราศจาก #EMP [ROOT.Char.GetLiege.GetHerHim]#! สิ่งที่ข้าต้องการคือการสนับสนุนอย่างลับๆ จากเหล่าขุนนางใหญ่ในอาณาจักรที่เพียงพอ ทหารผู้ภักดีบางส่วน และโอกาส..."
+ diarch_attempt_to_overthrow_liege_tooltip:0 "เริ่มการยึดอำนาจเพื่อชิง[titles|E]ของ[liege|E]ท่านโดยไม่ต้องทำ[war|E]"
+ diarch_attempt_to_overthrow_liege.tt.majority_powerful_vassal_support:0 "ปัจจุบันท่านมีผู้สนับสนุนที่เป็น[powerful_vassal|E]ที่มีสิทธิ์ [SCOPE.ScriptValue('pv_overthrow_tally_display_value')|0] คน #weak (รวมทั้งตัวท่านเอง)#! ในการสมคบคิดของท่าน จากที่ต้องการ [SCOPE.ScriptValue('pv_overthrow_threshold_display_value')|0] คน"
+ diarch_attempt_to_overthrow_liege_bypass: "ท่านได้วางรากฐานสำหรับความพยายาม เช่นนี้ไว้แล้ว"
+ diarch_attempt_to_overthrow_liege.tt.liege_cant_hold_only_hof_highest_title:0 "[title|E]ระดับ[title_tier|E]สูงสุดเพียงหนึ่งเดียวของ[liege|E]ท่านคือ$game_concept_title$[head_of_faith|E]"
+ diarch_attempt_to_overthrow_liege.second_step:0 "จัดการการสมคบคิดของท่าน"
+ diarch_attempt_to_overthrow_liege_confirm:0 "เคลื่อนพลสู่ท้องพระโรง"
+ diarch_attempt_to_overthrow_liege_confirm.prowess:0 "#X เตรียมพร้อมสำหรับ $game_concept_single_combat_duel$#!"
+
+ diarch_attempt_to_overthrow_liege.tt.coup_types:0 "ท่านสามารถวางแผนการยึดอำนาจโดยใช้[diplomacy|E], [intrigue|E], หรือ[prowess|E]ของท่าน"
+ diarch_attempt_to_overthrow_liege.tt.liege_response:0 "[liege|E]ของท่านอาจยอมจำนน พยายามเอาชนะท่านด้วย[skill|E]ที่ท่านเลือก หรือให้ตัวแทนพยายามทำ เช่นนั้น"
+ diarch_attempt_to_overthrow_liege.tt.liege_response.information_on_converting_councillors:0 "#WEAK [powerful_vassals|E]ที่สนับสนุนการยึดอำนาจของท่านจะปฏิเสธที่จะเป็นตัวแทนให้[liege|E]ของพวกเขา#!"
+ diarch_attempt_to_overthrow_liege.tt.consequences:0 "#WEAK หากสำเร็จ [strife|E]ปัจจุบันบางส่วนของท่านจะถูกเปลี่ยนเป็น[tyranny|E]เริ่มต้น#!"
+ diarch_coup_attempt_standard_suite_effect.tt.reduced_amount:0 "ปริมาณ[strife|E]ที่เปลี่ยนเป็น[tyranny|E]ลดลง เนื่องจากการยึดอำนาจด้วย[diplomacy|E]ของท่าน"
+
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts:0 "ข้อเรียกร้องของท่านได้รับการยอมรับ"
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts.usurp_targets.primary:0 "ท่าน[usurp|E][titles|E]ระดับ[title_tier|E]สูงสุด #EMP ทั้งหมด#! ของ[liege.GetTitledFirstNamePossessive]"
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts.usurp_targets.kingdom:0 "ท่านชิง[title|E][kingdom|E]ที่[liege.GetTitledFirstName]ถือครอง ซึ่งมี[counties|E]มากที่สุดใน[liege.GetPrimaryTitle.GetName]"
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts.usurp_targets.capital:0 "ท่านชิง[de_jure_capital|E]ของ[liege.GetPrimaryTitle.GetName]จาก[liege.GetTitledFirstName]"
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts.keep_more_titles:0 "[liege.GetTitledFirstName]ยังคงรักษา[titles|E]ที่เหลืออยู่"
+ diarch_attempt_to_overthrow_liege.tt.liege_accepts.remains_ruling:0 "ไม่ว่าจะเกิดอะไรขึ้น [liege.GetTitledFirstName]ยังคงเป็น[ruler|E]"
+ 
+ diarch_attempt_to_overthrow_liege.tt.liege_fights_and_loses:0 "ข้อเรียกร้องของท่านถูกปฏิเสธ แต่ท่านชนะ"
+ diarch_attempt_to_overthrow_liege.tt.liege_fights_and_loses.take_more_titles:0 "ท่านยึด[titles|E]ของ[liege.GetTitledFirstNamePossessive]ได้มากยิ่งขึ้น"
+ diarch_attempt_to_overthrow_liege.tt.liege_fights_and_loses.may_lose_everything:0 "หาก[realm|E]มีขนาดเล็กพอ [liege.GetTitledFirstName]อาจสูญเสียทุกสิ่ง"
+
+ diarch_attempt_to_overthrow_liege.tt.diplomacy_coup:0 "ผลกระทบเฉพาะของการยึดอำนาจด้วย[diplomacy|E]"
+ diarch_attempt_to_overthrow_liege.tt.intrigue_coup:0 "ผลกระทบเฉพาะของการยึดอำนาจด้วย[intrigue|E]"
+ diarch_attempt_to_overthrow_liege.tt.prowess_coup:0 "ผลกระทบเฉพาะของการยึดอำนาจด้วย[prowess|E]"
+ 
+ diarch_attempt_to_overthrow_liege.tt.win.liege_lives:0 "#P ชนะ#!: [liege|E]ของท่านรอดชีวิตและเป็นอิสระ"
+ diarch_attempt_to_overthrow_liege.tt.win.considered_merciful:0 "#P ชนะ#!: ความเมตตาของท่านหมายความว่าท่านเปลี่ยน[strife|E]เป็น[tyranny|E]น้อยลง"
+ diarch_attempt_to_overthrow_liege.tt.lose.usurper_captured:0 "#N แพ้#!: ท่านถูก[imprisoned|E]"
+ diarch_attempt_to_overthrow_liege.tt.win.liege_captured:0 "#P ชนะ#!: ท่าน[imprisoned|E][liege|E]ของท่าน"
+ diarch_attempt_to_overthrow_liege.tt.win.liege_dies:0 "#P ชนะ#!: [liege|E]ของท่าน[character_death_dies|E]"
+ diarch_attempt_to_overthrow_liege.tt.loss.usurper_dies:0 "#N แพ้#!: ท่าน[character_death_die|E]"
+
+ diarch_attempt_to_overthrow_liege.tt.coup_diplomacy:0 "การยึดอำนาจทางการทูต\n#low $diarch_attempt_to_overthrow_liege.tt.coup_diplomacy_desc$#!"
+ diarch_attempt_to_overthrow_liege.tt.coup_diplomacy_desc:0 "วาจาสามารถแก้ไขปัญหานี้ได้"
+ coup_diplomacy_tooltip:0 "การสมคบคิดของท่านถูกขับเคลื่อนด้วยการเมืองอันแยบยลและวาจาอันคมคาย"
+ diarch_attempt_to_overthrow_liege.tt.coup_intrigue:0 "การยึดอำนาจด้วยเล่ห์กล\n#low $diarch_attempt_to_overthrow_liege.tt.coup_intrigue_desc$#!"
+ diarch_attempt_to_overthrow_liege.tt.coup_intrigue_desc:0 "การแทงไม่กี่ครั้งเป็นสิ่งจำเป็น"
+ coup_intrigue_tooltip:0 "การสมคบคิดของท่านถูกปกคลุมด้วยคำโกหกอันเร่าร้อนและกลอุบายอันแยบยล"
+ diarch_attempt_to_overthrow_liege.tt.coup_prowess:0 "การยึดอำนาจด้วยความเก่งกาจ\n#low $diarch_attempt_to_overthrow_liege.tt.coup_prowess_desc$#!"
+ diarch_attempt_to_overthrow_liege.tt.coup_prowess_desc:0 "ท่านเลือกใช้ความรุนแรง"
+ coup_prowess_tooltip:0 "การสมคบคิดของท่านมุ่งหมายที่จะสั้น รุนแรง และได้รับชัยชนะ"

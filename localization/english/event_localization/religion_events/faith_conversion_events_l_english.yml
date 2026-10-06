@@ -1,0 +1,22 @@
+﻿l_english: 
+ faith_conversion.1001.t:0 "การเปลี่ยนศรัทธา"
+ faith_conversion.1001.start:0 "ด้วยการตัดสินใจของข้าที่จะเปลี่ยนไปนับถือ [new_faith.GetName] ข้าได้จัดการให้นักบวช [new_faith.PriestNeuter] มายัง [ROOT.Char.Custom('GetCourt')|l] ของข้าและประกอบพิธีกรรม\n\n"
+ faith_conversion.1001.desc:0 "เมื่อชะตากรรมแห่งวิญญาณอมตะของข้าเป็นเดิมพัน ข้าทำได้เพียงสวดภาวนาว่าข้าได้ตัดสินใจถูกต้องแล้ว\n\nนอกเหนือจากเรื่องปรัชญาแล้ว,"
+ faith_conversion.1001.desc.zealous:0 "ขณะที่ [template_priest.GetSheHe] สวดท่องข้อความจาก [new_faith.ReligiousText] ข้า #EMP รู้สึกได้#! ถึงความเชื่อมั่นอันแรงกล้าที่แผดเผาอยู่ภายในตัวข้า — ไม่ต้องสงสัยเลยในใจข้าว่าข้าได้เลือกเส้นทางที่ถูกต้องแล้ว\n\nไม่ว่าศรัทธาอันแรงกล้าของข้าจะแข็งแกร่งเพียงใด,"
+ faith_conversion.1001.desc.zealous.carnal_male:0 "ขณะที่ [template_priest.GetSheHe] สวดท่องข้อความจาก [new_faith.ReligiousText] ข้า #EMP รู้สึกได้#! ถึงความเชื่อมั่นที่พองขยายใหญ่ขึ้น — ไม่ต้องสงสัยเลยในใจข้าว่าข้าได้เลือกเส้นทางที่ถูกต้องแล้ว\n\nไม่ว่าศรัทธาอันแรงกล้าของข้าจะแข็งแกร่งเพียงใด,"
+ faith_conversion.1001.desc.zealous.carnal_female:0 "ขณะที่ [template_priest.GetSheHe] สวดท่องข้อความจาก [new_faith.ReligiousText] ข้า #EMP รู้สึกได้#! ถึงความเชื่อมั่นที่เต้นระรัวอยู่ภายใน — ไม่ต้องสงสัยเลยในใจข้าว่าข้าได้เลือกเส้นทางที่ถูกต้องแล้ว\n\nไม่ว่าศรัทธาอันแรงกล้าของข้าจะแข็งแกร่งเพียงใด,"
+
+ faith_conversion.1001.desc.compassionate:0 "เมื่อชะตากรรมแห่งวิญญาณอมตะของข้าเป็นเดิมพัน — เช่นเดียวกับวิญญาณของเหล่าข้าแผ่นดิน — ข้าสวดภาวนาว่าข้าได้ตัดสินใจถูกต้องแล้ว\n\nนอกเหนือจากเรื่องปรัชญาแล้ว,"
+ faith_conversion.1001.desc.reincarnation:0 "เมื่อชีวิตในชาติภพหน้าของข้าเป็นเดิมพัน ข้าสวดภาวนาว่าข้าได้ตัดสินใจถูกต้องแล้ว\n\nนอกเหนือจากเรื่องปรัชญาแล้ว,"
+ faith_conversion.1001.desc.cynical:0 "แม้ว่าข้าจะไม่เชื่อเรื่องไร้สาระที่นักบวช [new_faith.PriestNeuter] พร่ำพูดออกมานัก แต่ก็มีข้อได้เปรียบทางการเมืองมากพอจากการเปลี่ยนศรัทธาที่ ทำให้ข้ารู้ว่าข้าต้องทำสิ่งนี้ไม่ช้าก็เร็ว\n\nไม่ว่าเหตุผลของข้าจะเป็น เช่นไร, "
+
+ faith_conversion.1001.end.is_vassal.convert_away:0 "ความกังวลเร่งด่วนที่สุดของข้าเป็นเรื่องทางโลก — [my_liege.Custom2('MyCharacterIntroduction', ROOT.Char)] จะมีปฏิกิริยาอย่างไรเมื่อทราบว่าข้าได้ปฏิเสธศรัทธาของ [my_liege.GetHerHis]?"
+ faith_conversion.1001.end.is_vassal.convert_to:0 "ข้าถอนหายใจอย่างโล่งอกได้เมื่อรู้ว่า [my_liege.Custom2('MyCharacterIntroduction', ROOT.Char)] จะไม่สามารถใช้ศรัทธาของข้ามาเป็นข้อต่อต้านข้าได้อีกต่อไป"
+ faith_conversion.1001.end.is_top_liege.convert_away:0 "ความกังวลเร่งด่วนที่สุดของข้าเป็นเรื่องทางโลก — เมื่อข้าหลวงส่วนใหญ่ของข้านับถือศรัทธาที่แตกต่างออกไป ข้าจะสามารถรักษาอาณาจักรให้เป็นปึกแผ่นต่อต้านกบฏภายในและผู้ฉวยโอกาสจากภายนอกได้หรือไม่?"
+ faith_conversion.1001.end.is_top_liege.convert_to:0 "ข้าสบายใจได้เมื่อรู้ว่าอาณาจักรส่วนใหญ่ของข้ารวมเป็นหนึ่งเดียวภายใต้ [new_faith.PantheonTerm] เป็นอาณาจักร [new_faith.GetAdjectiveNoTooltip] อย่างแท้จริง"
+ faith_conversion.1001.end.is_landless_adventurer: "ความคิดที่ว่า [new_faith.GetNameNoTooltip] จะแผ่ขยายออกไป — ทีละก้าว — จากค่ายอันต่ำต้อยของข้า ทำให้หัวใจข้าขับขาน"
+
+ faith_conversion.1001.a:0 "ความรุ่งโรจน์แด่ [ROOT.Char.GetFaith.HighGodName]!"
+ faith_conversion.1001.b:0 "อย่างน้อยข้าก็มี [template_priest.GetFirstNameNoTooltip] คอยนำทาง..."
+
+ faith_conversion.1101.toast:0 "เจ้าเหนือหัวเปลี่ยนศรัทธา"

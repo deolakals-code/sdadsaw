@@ -1,0 +1,13 @@
+﻿l_english: 
+ POTENTIAL_COUNCILLOR_TITLE:0 "แต่งตั้ง [CouncilPositionType.GetNameForPlayer]"
+ CHARACTER_SORT_ALL_SKILLS:1 "ผลรวมของทักษะทั้งหมด"
+ POTENTIAL_COUNCILLOR_REASSIGN:0 "มอบหมายใหม่"
+ POTENTIAL_COUNCILLOR_ASSIGN:0 "มอบหมาย"
+ POTENTIAL_COUNCILLOR_SWAP:0 "สลับตำแหน่ง"
+ FIRE_COUNCILLOR_CONFIRMATION_DESCRIPTION:0 "[CHARACTER.GetShortUINameNoTooltip] จะถูกปลดออกจากสภาของข้า"
+ FIRE_COUNCILLOR_CONFIRMATION_DESCRIPTION_WITH_EFFECT:1 "[CHARACTER.GetShortUINameNoTooltip] จะถูกปลดออกจากสภาของข้า โดยมีผลดังต่อไปนี้:"
+ POTENTIAL_COUNCILLOR_ASSIGN_TT_TITLE:0 "#T มอบหมายให้ดำรงตำแหน่ง $NAME$#!"
+ POTENTIAL_COUNCILLOR_REASSIGN_TT_TITLE:0 "#T มอบหมายใหม่ให้ดำรงตำแหน่ง $NAME$#!"
+ POTENTIAL_COUNCILLOR_SWAP_TT_TITLE:0 "#T สลับตำแหน่งในสภา#!"
+ POTENTIAL_COUNCILLOR_SWAP_TT_DESC:0 "สลับตำแหน่ง $CHARACTER_POSITION$ ของ [CHARACTER.GetShortUINamePossessiveNoTooltip] กับตำแหน่ง $TARGET_POSITION$ ของ [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip]"
+ NO_POTENTIAL_COUNCILLORS:1 "ไม่มี [vassals|E] หรือ [courtiers|E] ที่มีคุณสมบัติเหมาะสมสำหรับตำแหน่งนี้"

@@ -1,0 +1,6 @@
+﻿l_english: 
+ GAIN_FROM_HOSTAGE: "ได้จาก [CHARACTER.GetName]"
+ GAIN_FROM_ALL_HOSTAGES: "จาก [hostages|E]"
+ hostage_level_0: "ตัวประกันไร้ความสำคัญ"
+ hostage_level_1: "ตัวประกันธรรมดา"
+ hostage_level_2: "ตัวประกันทรงคุณค่า"

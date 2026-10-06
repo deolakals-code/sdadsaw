@@ -1,0 +1,938 @@
+﻿l_english: 
+
+ # reverse button
+ LEDGER_SORT_BY: "#T $SORT_BY$[Select_CString( LedgerWindow.GetSortOrder, 'จากน้อยไปมาก', 'จากมากไปน้อย' )]\n#!#I คลิกเพื่อสลับ#!"
+ # active sorting order, creates two loc keys for ascending and descending orders
+ ACTIVE_SORTING_LEDGER: "#low เรียงตาม:#! #clickable [Localize(Concatenate(OrderLedgerOption.GetKey, Select_CString(LedgerWindow.GetSortOrder, '_least', '_most')))]#!"
+ 
+ # shared locs
+ any_filter: "ใดๆ"
+ all_filter_option: "$any_filter_option$"
+ your_filter_option: "$CHARACTER_NAME_MY_CAPITALIZED$"
+ most_sort: "มากที่สุด"
+ least_sort: "น้อยที่สุด"
+ fewest_sort: "น้อยที่สุด"
+ highest_sort: "สูงสุด"
+ lowest_sort: "ต่ำสุด"
+ player_realms_filter_option: "อาณาจักรผู้เล่น"
+ players_only_filter_option: "เฉพาะผู้เล่น"
+ 
+ 
+ sort_by: "เรียงตาม"
+ # standalone sorting buttons, usually reusing dropdown names
+ BUTTON_SORT_LEDGER: "$sort_by$ [Localize(Concatenate('sort_l_', PdxGuiWidget.GetName))]"
+ # dropdown items. Using GetKey to reuse them instead of having 40 identical options for titles
+ DROP_SORT_LEDGER: "[Localize(Concatenate('sort_l_', OrderLedgerOption.GetKey))]"
+ # some standalones need more detailed tooltips, so we replace them like this
+ EXTRA_SORT_LEDGER: "$sort_by$ [Localize(Concatenate('sort_tt_', PdxGuiWidget.GetName))]"
+ 
+ ### Wars
+ sort_l_date: "ระยะเวลา"
+ sort_l_attacker_strength: "ฝ่ายโจมตี"
+ sort_l_defender_strength: "ฝ่ายตั้งรับ"
+ sort_l_total_strength: "[soldiers|e] รวม"
+ sort_l_total_casualties: "ความสูญเสียรวม"
+ 
+ # active sorting order
+ # I think capitalizing them looks better and helps separate the words
+ # trying to keep these shorter, omitting some words on occasiton, and more natural sounding: 'older' isntead of 'most age'
+ # avoiding |e concepts for the active button so their tooltisp don't get in the way
+ # the dropdown is more spacious, so tooltips there aren't an issue
+ 
+ attacker_strength_most: "$most_sort$ $sort_l_attacker_strength$"
+ attacker_strength_least: "$fewest_sort$ $sort_l_attacker_strength$"
+ 
+ defender_strength_most: "$most_sort$ $sort_l_defender_strength$"
+ defender_strength_least: "$fewest_sort$ $sort_l_defender_strength$"
+ 
+ total_strength_most: "$most_sort$ $game_concept_soldiers$"
+ total_strength_least: "$fewest_sort$ $game_concept_soldiers$"
+ 
+ total_casualties_least: "$least_sort$ $sort_l_total_casualties$"
+ total_casualties_most: "$most_sort$ $sort_l_total_casualties$"
+ 
+ # date order is flipped
+ date_most: "ยาวนานที่สุด"
+ date_least: "เพิ่งเกิดขึ้น $most_sort$"
+ 
+ ### filters
+ ongoing_wars_type: "$type$"
+ ongoing_wars_type_all: "$all_filter_option$"
+ 
+ ongoing_wars_type_civil: "สงครามกลางเมือง"
+ ongoing_wars_type_religious: "ศาสนา"
+ 
+ ongoing_wars_relation: "$relation_filter_category$"
+ ongoing_wars_relation_all: "$all_filter_option$"
+ ongoing_wars_relation_yours: "$your_filter_option$"
+ ongoing_wars_relation_realm: "$realm_relation_filter$"
+ ongoing_wars_relation_top_realm: "$top_realm_relation_filter$"
+ ongoing_wars_relation_players: "$OUTLINER_PLAYERS$"
+ 
+ ongoing_wars_relation_neighbors: "เพื่อนบ้าน"
+ ongoing_wars_relation_pvp: "ผู้เล่นปะทะผู้เล่น"
+ 
+
+ ### artifacts
+ # dropdown
+ sort_l_rarity: "[rarity|e]"
+ sort_l_kills: "สังหาร"
+ sort_l_claimants: "[claimants|e]"
+ sort_l_duration: "[durability|e]"
+ sort_l_age: "อายุ"
+ sort_l_distance: "ระยะทาง"
+ 
+ # active
+ rarity_most: "หายากที่สุด"
+ rarity_least: "หายาก $least_sort$"
+ 
+ kills_most: "สังหาร $most_sort$"
+ kills_least: "สังหาร $fewest_sort$"
+ 
+ claimants_most: "ผู้อ้างสิทธิ์ $most_sort$"
+ claimants_least: "ผู้อ้างสิทธิ์ $fewest_sort$"
+ 
+ duration_most: "ทนทาน $most_sort$"
+ duration_least: "ทนทาน $least_sort$"
+ 
+ distance_most: "ห่างไกล $least_sort$"
+ distance_least: "ห่างไกล $most_sort$"
+ 
+ age_most: "เก่าแก่ที่สุด"
+ age_least: "ใหม่ที่สุด"
+
+ # value tooltips  
+ LEDGER_ARTIFACT_AGE: "อายุเป็นปี"
+ LEDGER_ARTIFACTS_CLAIMANTS: "[Concept('artifact_claim', Localize('game_concept_claimants'))|e]"
+ LEDGER_ARTIFACTS_HOUSE_CLAIMANTS: "[Concept('house_artifact_claim', 'House Claims')|e]"
+ LEDGER_ARTIFACTS_KILLS: "สังหารด้วยวัตถุโบราณ"
+ 
+ 
+ # filters
+ artifacts_rarity: "$game_concept_rarity$"
+ artifact_type_category: "$type$"
+ artifacts_rarity_common: "ทั่วไป"
+ 
+ artifacts_rarity_all: "$all_filter_option$"
+ artifacts_rarity_masterwork: "$masterwork$"
+ artifacts_rarity_famed: "$famed$"
+ artifacts_rarity_illustrious: "$illustrious$"
+ artifacts_unique: "มีเอกลักษณ์"
+ artifacts_unique_any: "$any_filter$"
+ artifacts_unique_unique: "$artifacts_unique$"
+ artifacts_personal: "$personal_filter_category$"
+ artifacts_personal_all: "$all_filter_option$"
+ artifacts_personal_helmet: "$helmet$"
+ artifacts_personal_regalia: "$regalia$"
+ artifacts_personal_armor: "$armor$"
+ artifacts_personal_primary_armament: "$primary_armament$"
+ artifacts_personal_miscellaneous: "$miscellaneous$"
+ artifacts_personal_journal: "$journal$"
+ artifacts_personal_none: "$NONE$"
+ artifacts_court: "$game_concept_court$"
+ artifacts_court_all: "$all_filter_option$"
+ artifacts_court_throne: "$throne$"
+ artifacts_court_wall_big: "$wall_big$"
+ artifacts_court_wall_small: "$wall_small$"
+ artifacts_court_furniture: "to be removed"
+ artifacts_court_sculpture: "$sculpture$"
+ artifacts_court_pedestal: "$pedestal$"
+ artifacts_court_book: "$book$"
+ artifacts_court_none: "$NONE$"
+ artifacts_relation: "$relation_filter_category$"
+ artifacts_relation_all: "$all_filter_option$"
+ artifacts_relation_top_realm: "$top_realm_relation_filter$"
+ artifacts_relation_your_realm: "$realm_relation_filter$"
+ artifacts_relation_court: "$court_relation_filter$"
+ artifacts_relation_your_house: "$game_concept_house$"
+ artifacts_relation_player_owned: "ผู้เล่น"
+ artifacts_diplo_range: "$range_filter$"
+ artifacts_diplo_range_any: "$any_filter$"
+ artifacts_diplo_range_inside: "$in_range_filter$"
+ artifacts_diplo_range_outside: "$not_in_range_filter$"
+
+ ### characters 
+ ### Rich
+ 
+ sort_l_gold: "[gold|e]"
+ sort_l_gold_balance: "[income|e] รวม"
+ sort_l_realm_size: "[realm_size|e]"
+ SORT_L_BUILDINGS_REALM: "$sort_by$ [buildings|e] รวม\nในทุก [counties|e] ของ [realm|e]"
+ sort_l_average_development: "[development|e]"
+ SORT_L_AVG_DEVELOPMENT_CHARACTER: "$sort_by$ [development|e] เฉลี่ย\nในทุก [counties|e] ของ [realm|e]"
+ sort_l_treasury: "[treasury|e]"
+ sort_l_treasury_balance: "ยอดคงเหลือ [treasury|e]"
+ 
+ # active
+ gold_most: "$game_concept_gold$ $most_sort$"
+ gold_least: "$game_concept_gold$ $least_sort$"
+
+ gold_balance_most: "$game_concept_income$ $most_sort$"
+ gold_balance_least: "$game_concept_income$ $least_sort$"
+
+ realm_size_most: "$game_concept_realm$ ที่ใหญ่ที่สุด"
+ realm_size_least: "$game_concept_realm$ ที่เล็กที่สุด"
+
+ buildings_most: "$game_concept_buildings$ $most_sort$"
+ buildings_least: "$game_concept_buildings$ $fewest_sort$"
+
+ average_development_most: "พัฒนา $most_sort$"
+ average_development_least: "พัฒนา $least_sort$"
+
+ treasury_most: "$game_concept_treasury$ ที่ใหญ่ที่สุด"
+ treasury_least: "$game_concept_treasury$ ที่เล็กที่สุด"
+
+ treasury_balance_most: "$game_concept_income$ $game_concept_treasury$ $highest_sort$"
+ treasury_balance_least: "$game_concept_income$ $game_concept_treasury$ $least_sort$"
+ 
+ # filters
+ LEDGER_FILTER_RULERS_ONLY: "@titles_icon! เฉพาะมีดินแดน"
+ 
+ rich_relation: "$relation_filter$"
+ rich_relation_all: "$all_filter_option$"
+ rich_relation_your_realm: "$realm_relation_filter$"
+ rich_relation_top_realm: "$top_realm_relation_filter$"
+ rich_diplo_range: "$range_filter$"
+ rich_diplo_range_any: "$any_filter$"
+ rich_diplo_range_inside: "$in_range_filter$"
+ rich_diplo_range_outside: "$not_in_range_filter$"
+ rich_religion: "$game_concept_religion$"
+ rich_religion_all: "$all_filter_option$"
+ rich_religion_your_faith: "$game_concept_faith$ $your_filter_option$"
+ rich_religion_your_religion: "$game_concept_religion$ $your_filter_option$"
+ rich_culture: "$game_concept_culture$"
+ rich_culture_all: "$all_filter_option$"
+ rich_culture_your_culture: "$game_concept_culture$ $your_filter_option$"
+ rich_culture_your_heritage: "$game_concept_heritage$ $your_filter_option$"
+ rich_dynasty: "$game_concept_dynasty$"
+ rich_dynasty_all: "$all_filter_option$"
+ rich_dynasty_your_house: "$game_concept_house$ $your_filter_option$"
+ rich_dynasty_your_dynasty: "$game_concept_dynasty$ $your_filter_option$"
+
+ rich_ruler: "$game_concept_ruler$"
+ rich_ruler_all: "$all_filter_option$"
+ rich_ruler_any_ruler: "$any_filter$"
+ rich_ruler_landed_ruler: "$game_concept_landed$"
+ rich_ruler_landless_ruler: "$game_concept_unlanded$"
+ rich_ruler_no_ruler: "$not_ruler_filter_option$"
+ 
+ rich_players_only: "$OUTLINER_PLAYERS$"
+ rich_players_only_no: "$any_filter$"
+ rich_players_only_yes: "$players_only_filter_option$"
+ 
+
+ # Strong
+ sort_l_commander_traits: "[traits|e] ผู้บัญชาการ"
+ sort_l_military_strength: "ทหาร"
+ sort_l_men_at_arms: "[men_at_arms|e]"
+ sort_l_army_power: "แสนยานุภาพทางทหาร"
+ strong_army_power: ""
+ strong_army_power_tt: "[damage|e] และ [toughness|e] รวมของ [armies|e] ภายใต้การควบคุมของ [ruler|e] ผู้นี้"
+ sort_l_knights: "[knights|e]"
+ sort_l_knight_effectiveness: "[knight_effectiveness|e]"
+ sort_l_dread: "[dread|e]"
+ sort_l_prisoners: "[prisoners|e]"
+ sort_l_herd: "[herd|e]"
+ 
+ commander_traits_most: "$game_concept_traits$ ผู้บัญชาการ $most_sort$"
+ commander_traits_least: "$game_concept_traits$ ผู้บัญชาการ $fewest_sort$"
+ military_strength_most: "ทหาร $most_sort$"
+ military_strength_least: "ทหาร $fewest_sort$"
+ men_at_arms_most: "$game_concept_men_at_arms$ $most_sort$"
+ men_at_arms_least: "$game_concept_men_at_arms$ $fewest_sort$"
+ army_power_most: "แสนยานุภาพทางทหาร $most_sort$"
+ army_power_least: "แสนยานุภาพทางทหาร $least_sort$"
+ knights_most: "$game_concept_knights$ $most_sort$"
+ knights_least: "$game_concept_knights$ $fewest_sort$"
+ knight_effectiveness_most: "$game_concept_knights$ ทรงประสิทธิภาพ $most_sort$"
+ knight_effectiveness_least: "$game_concept_knights$ ทรงประสิทธิภาพ $least_sort$"
+ dread_most: "น่าเกรงขาม $most_sort$"
+ dread_least: "น่าเกรงขาม $least_sort$"
+ prisoners_most: "$game_concept_prisoners$ $most_sort$"
+ prisoners_least: "$game_concept_prisoners$ $fewest_sort$"
+ herd_most: "$game_concept_herd$ $most_sort$"
+ herd_least: "$game_concept_herd$ $least_sort$"
+ 
+ # filters
+ strong_relation: "$relation_filter$"
+ strong_relation_all: "$all_filter_option$"
+ strong_relation_your_realm: "$realm_relation_filter$"
+ strong_relation_top_realm: "$top_realm_relation_filter$"
+ strong_diplo_range: "$range_filter$"
+ strong_diplo_range_any: "$any_filter$"
+ strong_diplo_range_inside: "$in_range_filter$"
+ strong_diplo_range_outside: "$not_in_range_filter$"
+ strong_religion: "$game_concept_religion$"
+ strong_religion_all: "$all_filter_option$"
+ strong_religion_your_faith: "$game_concept_faith$ $your_filter_option$"
+ strong_religion_your_religion: "$game_concept_religion$ $your_filter_option$"
+ strong_culture: "$game_concept_culture$"
+ strong_culture_all: "$all_filter_option$"
+ strong_culture_your_culture: "$game_concept_culture$ $your_filter_option$"
+ strong_culture_your_heritage: "$game_concept_heritage$ $your_filter_option$"
+ strong_dynasty: "$game_concept_dynasty$"
+ strong_dynasty_all: "$all_filter_option$"
+ strong_dynasty_your_house: "$game_concept_house$ $your_filter_option$"
+ strong_dynasty_your_dynasty: "$game_concept_dynasty$ $your_filter_option$"
+
+ strong_ruler: "$game_concept_ruler$"
+ strong_ruler_all: "$all_filter_option$"
+ strong_ruler_any_ruler: "$any_filter$"
+ strong_ruler_landed_ruler: "$game_concept_landed$"
+ strong_ruler_landless_ruler: "$game_concept_unlanded$"
+ strong_ruler_no_ruler: "$not_ruler_filter_option$"
+ 
+ strong_players_only: "$OUTLINER_PLAYERS$"
+ strong_players_only_no: "$any_filter$"
+ strong_players_only_yes: "$players_only_filter_option$"
+
+ #Pious
+ # standalones
+ sort_l_prestige_level: "[prestige_level|e]"
+ sort_l_piety_level: "[piety_level|e]"
+ sort_l_legitimacy: "[legitimacy|e]"
+ sort_l_influence_level: "[influence_level|e]"
+ sort_l_merit: "[merit|e]"
+ sort_l_mandala_radiance: "[radiance|e]"
+ sort_l_dominance: "[dominance|e]"
+ 
+ # dropdowns
+ sort_l_prestige: "[prestige|e]"
+ sort_l_prestige_gain: "ได้รับ [prestige|e]"
+ sort_l_piety: "[piety|e]"
+ sort_l_piety_gain: "ได้รับ [piety|e]"
+ sort_l_influence: "[influence|e]"
+ sort_l_influence_gain: "ได้รับ [influence|e]"
+ sort_l_merit_gain: "ได้รับ [merit|e]"
+ 
+ # most/least
+ 
+ prestige_level_most: "เลื่องชื่อ $most_sort$"
+ prestige_level_least: "เลื่องชื่อ $least_sort$"
+ piety_level_most: "ศรัทธา $most_sort$"
+ piety_level_least: "ศรัทธา $least_sort$"
+ legitimacy_most: "ชอบธรรม $most_sort$"
+ legitimacy_least: "ชอบธรรม $least_sort$"
+ influence_level_most: "ทรงอิทธิพล $most_sort$"
+ influence_level_least: "ทรงอิทธิพล $least_sort$"
+ merit_most: "มีคุณธรรม $most_sort$"
+ merit_least: "มีคุณธรรม $least_sort$"
+ mandala_radiance_most: "เจิดจรัส $most_sort$"
+ mandala_radiance_least: "เจิดจรัส $least_sort$"
+ dominance_most: "ครอบงำ $most_sort$"
+ dominance_least: "ครอบงำ $least_sort$"
+ 
+ prestige_most: "มีเกียรติ $most_sort$"
+ prestige_least: "มีเกียรติ $least_sort$"
+ prestige_gain_most: "ได้รับ $game_concept_prestige$ $most_sort$"
+ prestige_gain_least: "ได้รับ $game_concept_prestige$ $least_sort$"
+ piety_most: "เคร่งศาสนา $most_sort$"
+ piety_least: "เคร่งศาสนา $least_sort$"
+ piety_gain_most: "ได้รับ $game_concept_piety$ $most_sort$"
+ piety_gain_least: "ได้รับ $game_concept_piety$ $least_sort$"
+ influence_most: "$game_concept_influence$ $most_sort$"
+ influence_least: "$game_concept_influence$ $least_sort$"
+ influence_gain_most: "ได้รับ $game_concept_influence$ $most_sort$"
+ influence_gain_least: "ได้รับ $game_concept_influence$ $least_sort$"
+ merit_gain_most: "ได้รับ $game_concept_merit$ $most_sort$"
+ merit_gain_least: "ได้รับ $game_concept_merit$ $least_sort$"
+
+ # filters
+ pious_relation: "$relation_filter$"
+ pious_relation_all: "$all_filter_option$"
+ pious_relation_your_realm: "$realm_relation_filter$"
+ pious_relation_top_realm: "$top_realm_relation_filter$"
+ pious_diplo_range: "$range_filter$"
+ pious_diplo_range_any: "$any_filter$"
+ pious_diplo_range_inside: "$in_range_filter$"
+ pious_diplo_range_outside: "$not_in_range_filter$"
+ pious_religion: "$game_concept_religion$"
+ pious_religion_all: "$all_filter_option$"
+ pious_religion_your_faith: "$game_concept_faith$ $your_filter_option$"
+ pious_religion_your_religion: "$game_concept_religion$ $your_filter_option$"
+ pious_culture: "$game_concept_culture$"
+ pious_culture_all: "$all_filter_option$"
+ pious_culture_your_culture: "$game_concept_culture$ $your_filter_option$"
+ pious_culture_your_heritage: "$game_concept_heritage$ $your_filter_option$"
+ pious_dynasty: "$game_concept_dynasty$"
+ pious_dynasty_all: "$all_filter_option$"
+ pious_dynasty_your_house: "$game_concept_house$ $your_filter_option$"
+ pious_dynasty_your_dynasty: "$game_concept_dynasty$ $your_filter_option$"
+ 
+ pious_ruler: "$game_concept_ruler$"
+ pious_ruler_all: "$all_filter_option$"
+ pious_ruler_any_ruler: "$any_filter$"
+ pious_ruler_landed_ruler: "$game_concept_landed$"
+ pious_ruler_landless_ruler: "$game_concept_unlanded$"
+ pious_ruler_no_ruler: "$not_ruler_filter_option$"
+ 
+ pious_players_only: "$OUTLINER_PLAYERS$"
+ pious_players_only_no: "$any_filter$"
+ pious_players_only_yes: "$players_only_filter_option$"
+ 
+ 
+ ### Houses
+ # dropdown
+ sort_l_num_living_members: "สมาชิกที่ยังมีชีวิตอยู่"
+ sort_l_num_dead_members: "สมาชิกที่เสียชีวิตแล้ว"
+ sort_l_num_rulers: "[rulers|e]"
+ sort_l_num_counties: "[counties|e]"
+ sort_l_unity: "[unity|e]"
+ sort_l_found_date: "วันที่ก่อตั้ง"
+ sort_l_aspiration_level: "[house_attribute|e]"
+ sort_l_renown_level: "[dynasty_prestige_level|e]"
+ sort_l_renown_gain: "ได้รับ [dynasty_prestige|e]"
+  
+ sort_l_total_military_strength: "[soldiers|e]"
+ sort_l_num_legacies: "[dynasty_perks|e]"
+ 
+ 
+ # most/least
+ num_living_members_most: "$sort_l_num_living_members$ $most_sort$"
+ num_living_members_least: "$sort_l_num_living_members$ $fewest_sort$"
+ num_dead_members_most: "$sort_l_num_dead_members$ $most_sort$"
+ num_dead_members_least: "$sort_l_num_dead_members$ $fewest_sort$"
+ num_rulers_most: "$game_concept_rulers$ $most_sort$"
+ num_rulers_least: "$game_concept_rulers$ $fewest_sort$"
+ num_counties_most: "$game_concept_counties$ $most_sort$"
+ num_counties_least: "$game_concept_counties$ $fewest_sort$"
+ num_legacies_most: "$game_concept_dynasty_perks$ $most_sort$"
+ num_legacies_least: "$game_concept_dynasty_perks$ $fewest_sort$"
+ unity_most: "เป็นปึกแผ่น $most_sort$"
+ unity_least: "แตกแยก $most_sort$"
+ found_date_most: "ใหม่ที่สุด"
+ found_date_least: "เก่าแก่ที่สุด"
+ aspiration_level_most: "คุณสมบัติ $highest_sort$"
+ aspiration_level_least: "คุณสมบัติ $lowest_sort$"
+ total_military_strength_most: "ทหาร $most_sort$"
+ total_military_strength_least: "ทหาร $fewest_sort$"
+ renown_level_most: "รุ่งโรจน์ $most_sort$"
+ renown_level_least: "ตกต่ำ $most_sort$"
+ renown_gain_most: "ได้รับ $game_concept_dynasty_prestige$ $most_sort$"
+ renown_gain_least: "ได้รับ $game_concept_dynasty_prestige$ $least_sort$"
+ 
+ #standalone and tips
+ SORT_L_HOUSE_COUNTIES: "$sort_by$ $LEDGER_HOUSE_COUNTIES$"
+ LEDGER_HOUSE_COUNTIES: "[counties|e] ทั้งหมด\nที่ควบคุมโดย [house|e]"
+ 
+ SORT_L_HOUSE_STRENGTH: "$sort_by$ $LEDGER_HOUSE_STRENGTH$"
+ LEDGER_HOUSE_STRENGTH: "[soldiers|e] รวมของ [rulers|e] ทั้งหมดใน [house|e] นี้"
+ 
+ LEDGER_HOUSES_NUM_RULERS: "[rulers|e] แห่ง [house|e] นี้"
+ HOUSES_NUM_LIVING_MEMBERS_TT_HEADER: "$sort_l_num_living_members$ ของ [house|e] [DynastyHouse.GetName] จำนวน [DynastyHouse.GetNumberOfMembers|v0] คน"
+ 
+ # Dynasties
+
+ sort_l_num_houses: "[houses|e]"
+ num_houses_most: "$game_concept_houses$ $most_sort$"
+ num_houses_least: "$game_concept_houses$ $fewest_sort$"
+ 
+ SORT_L_DYNASTY_HOUSES: "$sort_by$ $LEDGER_DYNASTY_HOUSES$"
+ LEDGER_DYNASTY_HOUSES: "[houses|e] ใน [dynasty|e] นี้"
+ 
+ SORT_L_DYNASTY_COUNTIES: "$sort_by$ $LEDGER_DYNASTY_COUNTIES$"
+ LEDGER_DYNASTY_COUNTIES: "[counties|e] ทั้งหมด\nที่ควบคุมโดย [dynasty|e]"
+ 
+ DYNASTIES_NUM_LIVING_MEMBERS_TT_HEADER: "$sort_l_num_living_members$ ของ [dynasty|e] [Dynasty.GetName] จำนวน [Dynasty.GetNumberOfMembers|v0] คน"
+ 
+ SORT_L_DYNASTY_STRENGTH: "$sort_by$ $LEDGER_DYNASTY_STRENGTH$"
+ LEDGER_DYNASTY_STRENGTH: "[soldiers|e] รวมของ [rulers|e] ทั้งหมดใน [dynasty|e] นี้"
+ 
+ DYNASTY_HOUSES_TT_HEADER: "[houses|e] แห่ง [dynasty|e] [Dynasty.GetName] จำนวน [GetDataModelSize(Dynasty.GetDynastyHouses)|v0] สาย"
+ 
+ HOUSE_MEMBER_TINY: "[AddTextIf(Not(Character.IsRuler), '#low ')][Character.GetName], #low อายุ [Character.GetAge] ปี#!"
+ 
+ 
+ ###
+ # Holdings
+ 
+ # dropdown
+ sort_l_tax: "[tax|e]"
+ sort_l_loot: "[loot|e]"
+ sort_l_levies: "[levies|e]"
+ sort_l_building_slots: "ช่อง [building|e]"
+ sort_l_free_building_slots: "ช่อง [building|e] ว่าง"
+ sort_l_buildings: "[buildings|e]"
+ sort_l_building_levels: "ระดับ [building|e]"
+ sort_l_development: "[development|e]"
+ sort_l_development_growth: "การเปลี่ยนแปลง [development|e]"
+ sort_l_control: "[control|e]"
+ sort_l_popular_opinion: "[county_opinion|e]"
+ 
+ # standalones
+ 
+ sort_tt_total_tax: "[tax|e] ที่มีอยู่ทั้งหมด\n#low ผลรวมของ [taxes|e] ทั้งหมดที่ได้จาก [holdings|e] ใน [title|e] นี้ โดยไม่นับรวมจำนวนที่ [vassals|e] จะเก็บไว้ใช้เอง#!"
+ sort_tt_total_loot: "[loot|e] รวม"
+ sort_tt_total_levies: "[levies|e] ที่มีอยู่ทั้งหมด\n#low ผลรวมของ [levies|e] ทั้งหมดที่ได้จาก [holdings|e] ใน [title|e] นี้ โดยไม่นับรวมโบนัสและจำนวนที่ [vassals|e] จะเก็บไว้ใช้เอง#!"
+ sort_tt_total_buildings: "[buildings|e] รวม $sort_across_all_holdings$"
+ sort_tt_special_buildings: "[special_buildings|e] รวม $sort_across_all_holdings$"
+ sort_across_all_holdings: "\nจากทุก [holdings|e] ใน [title|e] นี้"
+ sort_across_all_counties: "\nจากทุก [counties|e] ใน [title|e] นี้"
+ 
+ tax_most: "$game_concept_tax$ $most_sort$"
+ tax_least: "$game_concept_tax$ $least_sort$"
+ 
+ loot_most: "$game_concept_loot$ $most_sort$"
+ loot_least: "$game_concept_loot$ $least_sort$"
+ 
+ levies_most: "$game_concept_levies$ $most_sort$"
+ levies_least: "$game_concept_levies$ $fewest_sort$"
+ 
+ building_slots_most: "ช่อง $game_concept_building$ $most_sort$"
+ building_slots_least: "ช่อง $game_concept_building$ $fewest_sort$"
+ 
+ free_building_slots_most: "ช่องว่าง $most_sort$"
+ free_building_slots_least: "ช่องว่าง $fewest_sort$"
+ 
+ building_levels_most: "ระดับ $game_concept_building$ $most_sort$"
+ building_levels_least: "ระดับ $game_concept_building$ $fewest_sort$"
+ 
+ development_most: "พัฒนา $most_sort$"
+ development_least: "พัฒนา $least_sort$"
+ 
+ development_growth_most: "การเติบโตของ $game_concept_development$"
+ development_growth_least: "การถดถอยของ $game_concept_development$"
+ 
+ control_most: "$game_concept_control$ $most_sort$"
+ control_least: "$game_concept_control$ $least_sort$"
+ 
+ popular_opinion_most: "$game_concept_opinion$ $highest_sort$"
+ popular_opinion_least: "$game_concept_opinion$ $lowest_sort$"
+
+ provinces_relation: "$relation_filter_category$"
+ provinces_relation_all: "$all_filter_option$"
+ provinces_relation_your_domain: "$game_concept_domain$ $your_filter_option$"
+ provinces_relation_your_realm: "$realm_relation_filter$"
+ provinces_relation_top_realm: "$top_realm_relation_filter$"
+ provinces_relation_player_domains: "ราชสมบัติส่วนพระองค์ของผู้เล่น"
+ provinces_relation_player_realms: "$player_realms_filter_option$"
+ provinces_looted: "ถูกปล้น"
+ provinces_looted_any: "$any_filter$"
+ provinces_looted_yes: "$provinces_looted$"
+ provinces_looted_no: "ไม่ถูกปล้น"
+ provinces_ongoing_construction: "กำลังก่อสร้าง"
+ provinces_ongoing_construction_any: "$any_filter$"
+ provinces_ongoing_construction_yes: "การก่อสร้าง"
+ provinces_ongoing_construction_no: "$NONE$"
+ provinces_special_buildings: "สิ่งก่อสร้างพิเศษ"
+ provinces_special_buildings_all: "$all_filter_option$"
+ provinces_special_buildings_special_building: "สิ่งก่อสร้างพิเศษ"
+ provinces_special_buildings_empty_special_building_slot: "ช่องพิเศษว่าง"
+ provinces_special_buildings_great_building: "สิ่งก่อสร้างยิ่งใหญ่"
+ provinces_special_buildings_empty_great_building_slot: "ช่องยิ่งใหญ่ว่าง"
+ provinces_special_buildings_duchy_building: "สิ่งก่อสร้างดยุก"
+ provinces_special_buildings_empty_duchy_building_slot: "ช่องดยุกว่าง"
+ provinces_can_build: "สร้างได้"
+ provinces_can_build_any: "$any_filter$"
+ provinces_can_build_can_construct: "สามารถสร้างได้"
+ provinces_can_build_can_upgrade: "สามารถอัปเกรดได้"
+
+ ### counties
+
+ sort_l_holdings: "[holdings|e] รวม"
+ sort_l_baronies: "[baronies|e] รวม"
+ sort_l_total_tax: "[tax|e] รวม"
+ sort_l_total_loot: "[loot|e] รวม"
+ sort_l_total_levies: "[levies|e] รวม"
+ sort_l_total_buildings: "[buildings|e] รวม"
+ sort_l_total_building_slots: "ช่อง [buildings|e] รวม"
+ sort_l_total_special_slots: "ช่อง [special_building|e] รวม"
+ sort_l_special_buildings: "[special_buildings|e] รวม"
+ sort_l_number_of_claimants: "[claimants|e]"
+ 
+ holdings_most: "$game_concept_holdings$ $most_sort$"
+ holdings_least: "$game_concept_holdings$ $least_sort$"
+ 
+ baronies_most: "$game_concept_baronies$ $most_sort$"
+ baronies_least: "$game_concept_baronies$ $least_sort$"
+ 
+ total_tax_most: "$tax_most$"
+ total_tax_least: "$tax_least$"
+ 
+ total_loot_most: "$loot_most$"
+ total_loot_least: "$loot_least$"
+ 
+ total_levies_most: "$levies_most$"
+ total_levies_least: "$levies_least$"
+ 
+ total_buildings_most: "$buildings_most$"
+ total_buildings_least: "$buildings_least$"
+ 
+ total_building_slots_most: "ช่อง $game_concept_buildings$ $most_sort$"
+ total_building_slots_least: "ช่อง $game_concept_buildings$ $fewest_sort$"
+ 
+ total_special_slots_most: "ช่องพิเศษ $most_sort$"
+ total_special_slots_least: "ช่องพิเศษ $fewest_sort$"
+ 
+ special_buildings_most: "$game_concept_special_buildings$ $most_sort$"
+ special_buildings_least: "$game_concept_special_buildings$ $fewest_sort$"
+ 
+ number_of_claimants_most: "$game_concept_claimants$ $most_sort$"
+ number_of_claimants_least: "$game_concept_claimants$ $fewest_sort$"
+ 
+ counties_relation: "$relation_filter$"
+ counties_relation_all: "$all_filter_option$"
+ counties_relation_your_domain: "$game_concept_domain$ $your_filter_option$"
+ counties_relation_your_realm: "$realm_relation_filter$"
+ counties_relation_your_house: "$game_concept_house$ $your_filter_option$"
+ counties_relation_your_dynasty: "$game_concept_dynasty$ $your_filter_option$"
+ counties_relation_top_realm: "$top_realm_relation_filter$"
+ counties_relation_player_realms: "$player_realms_filter_option$"
+ counties_faith: "$game_concept_faith$"
+ counties_faith_all: "$all_filter_option$"
+ counties_faith_yours: "$your_filter_option$"
+ counties_culture: "$game_concept_culture$"
+ counties_culture_all: "$all_filter_option$"
+ counties_culture_yours: "$your_filter_option$"
+ 
+ counties_created: "ก่อตั้งแล้ว"
+ counties_created_all: "$any_filter$"
+ counties_created_existing: "$YES$"
+ counties_created_not_existing: "$NO$"
+ 
+ counties_landed: "$game_concept_landed$"
+ counties_landed_all: "$any_filter$"
+ counties_landed_landed: "$YES$"
+ counties_landed_unlanded: "$NO$"
+ 
+ ### Titles
+ 
+ sort_l_de_facto_counties: "[counties|e]"
+ 
+ sort_tt_de_facto_counties: "$sort_l_de_facto_counties$"
+ sort_tt_holdings: "$sort_l_holdings$"
+ sort_tt_development: "$LEDGER_AVERAGE_DEVELOPMENT$$sort_across_all_counties$"
+ sort_tt_control: "$LEDGER_AVERAGE_CONTROL$$sort_across_all_counties$"
+ sort_tt_popular_opinion: "$LEDGER_AVERAGE_POPULAR_OPINION$$sort_across_all_counties$"
+ sort_tt_number_of_claimants: "$sort_l_number_of_claimants$"
+ 
+ de_facto_counties_most: "$game_concept_counties$ $most_sort$"
+ de_facto_counties_least: "$game_concept_counties$ $least_sort$"
+ 
+ LEDGER_AVERAGE_DEVELOPMENT: "[development|e] เฉลี่ย"
+ LEDGER_AVERAGE_CONTROL: "[control|e] เฉลี่ย"
+ LEDGER_AVERAGE_POPULAR_OPINION: "[county_opinion|e] เฉลี่ย"
+ 
+ TOTAL_TITLE_COUNTIES_TT: "เคาน์ตี [Select_CString(Title.GetHolder.IsValid, 'ตามพฤตินัย', 'โดยนิตินัย')] รวมใน [Title.GetNameNoTierNoTooltip]"
+ DEJURE_TITLE_COUNTIES_TT: "[counties|e] [de_jure|e] รวม [Title.GetNumberOfDeJureCounties|v0] แห่งใน [Title.GetNameNoTierNoTooltip]\n[counties|e] ตามพฤตินัย [Title.GetNumberOfDeFactoCounties|v0] แห่ง\n#low ค่าที่แสดงเป็นของ [counties|e] [de_jure|e]"
+ DEFACTO_TITLE_COUNTIES_TT: "[counties|e] ตามพฤตินัยรวม [Title.GetNumberOfDeFactoCounties|v0] แห่งใน [Title.GetNameNoTierNoTooltip]\n[counties|e] [de_jure|e] [Title.GetNumberOfDeJureCounties|v0] แห่ง\n#low ค่าที่แสดงเป็นของ [counties|e] ตามพฤตินัย"
+
+ 
+ duchies_relation: "$relation_filter$"
+ duchies_relation_all: "$all_filter_option$"
+ duchies_relation_your_domain: "$game_concept_domain$ $your_filter_option$"
+ duchies_relation_your_realm: "$realm_relation_filter$"
+ duchies_relation_your_house: "$game_concept_house$ $your_filter_option$"
+ duchies_relation_your_dynasty: "$game_concept_dynasty$ $your_filter_option$"
+ duchies_relation_top_realm: "$top_realm_relation_filter$"
+ duchies_relation_player_realms: "$player_realms_filter_option$"
+ duchies_faith: "$game_concept_faith$"
+ duchies_faith_all: "$all_filter_option$"
+ duchies_faith_yours: "$your_filter_option$"
+ duchies_culture: "$game_concept_culture$"
+ duchies_culture_all: "$all_filter_option$"
+ duchies_culture_yours: "$your_filter_option$"
+ 
+ duchies_created: "ก่อตั้งแล้ว"
+ duchies_created_all: "$any_filter$"
+ duchies_created_existing: "$YES$"
+ duchies_created_not_existing: "$NO$"
+ 
+ duchies_landed: "$game_concept_landed$"
+ duchies_landed_all: "$any_filter$"
+ duchies_landed_landed: "$YES$"
+ duchies_landed_unlanded: "$NO$"
+
+ kingdoms_relation: "$relation_filter$"
+ kingdoms_relation_all: "$all_filter_option$"
+ kingdoms_relation_your_domain: "$game_concept_domain$ $your_filter_option$"
+ kingdoms_relation_your_realm: "$realm_relation_filter$"
+ kingdoms_relation_your_house: "$game_concept_house$ $your_filter_option$"
+ kingdoms_relation_your_dynasty: "$game_concept_dynasty$ $your_filter_option$"
+ kingdoms_relation_top_realm: "$top_realm_relation_filter$"
+ kingdoms_relation_player_realms: "$player_realms_filter_option$"
+ kingdoms_faith: "$game_concept_faith$"
+ kingdoms_faith_all: "$all_filter_option$"
+ kingdoms_faith_yours: "$your_filter_option$"
+ kingdoms_culture: "$game_concept_culture$"
+ kingdoms_culture_all: "$all_filter_option$"
+ kingdoms_culture_yours: "$your_filter_option$"
+ 
+ kingdoms_created: "ก่อตั้งแล้ว"
+ kingdoms_created_all: "$any_filter$"
+ kingdoms_created_existing: "$YES$"
+ kingdoms_created_not_existing: "$NO$"
+
+ empires_relation: "$relation_filter$"
+ empires_relation_all: "$all_filter_option$"
+ empires_relation_your_domain: "$game_concept_domain$ $your_filter_option$"
+ empires_relation_your_realm: "$realm_relation_filter$"
+ empires_relation_your_house: "$game_concept_house$ $your_filter_option$"
+ empires_relation_your_dynasty: "$game_concept_dynasty$ $your_filter_option$"
+ empires_relation_top_realm: "$top_realm_relation_filter$"
+ empires_relation_player_realms: "$player_realms_filter_option$"
+ empires_faith: "$game_concept_faith$"
+ empires_faith_all: "$all_filter_option$"
+ empires_faith_yours: "$your_filter_option$"
+ empires_culture: "$game_concept_culture$"
+ empires_culture_all: "$all_filter_option$"
+ empires_culture_yours: "$your_filter_option$"
+ 
+ empires_created: "ก่อตั้งแล้ว"
+ empires_created_all: "$any_filter$"
+ empires_created_existing: "$YES$"
+ empires_created_not_existing: "$NO$"
+
+ hegemonies_relation: "$relation_filter$"
+ hegemonies_relation_all: "$all_filter_option$"
+ hegemonies_relation_your_domain: "$game_concept_domain$ $your_filter_option$"
+ hegemonies_relation_your_realm: "$realm_relation_filter$"
+ hegemonies_relation_your_house: "$game_concept_house$ $your_filter_option$"
+ hegemonies_relation_your_dynasty: "$game_concept_dynasty$ $your_filter_option$"
+ hegemonies_relation_top_realm: "$top_realm_relation_filter$"
+ hegemonies_relation_player_realms: "$player_realms_filter_option$"
+ hegemonies_faith: "$game_concept_faith$"
+ hegemonies_faith_all: "$all_filter_option$"
+ hegemonies_faith_yours: "$your_filter_option$"
+ hegemonies_culture: "$game_concept_culture$"
+ hegemonies_culture_all: "$all_filter_option$"
+ hegemonies_culture_yours: "$your_filter_option$"
+ 
+ hegemonies_created: "ก่อตั้งแล้ว"
+ hegemonies_created_all: "$any_filter$"
+ hegemonies_created_existing: "$YES$"
+ hegemonies_created_not_existing: "$NO$"
+
+ # Faiths
+ # dropdown
+ sort_l_counties: "[counties|e]"
+ sort_l_counties_change: "การเปลี่ยนแปลง [county|e]"
+ sort_l_followers: "ศาสนิกชน"
+ sort_l_rulers: "[rulers|e]"
+ sort_l_sinners: "คนบาป"
+ sort_l_virtuous: "ผู้ทรงธรรม"
+ sort_l_holy_wars: "[holy_wars|e]"
+ sort_l_controlled_holy_sites: "[holy_sites|e] ที่ควบคุม"
+ sort_l_fervor: "[fervor|e]"
+ sort_l_strength: "[soldiers|e] รวม"
+ 
+ # standalones
+ 
+ sort_tt_counties: "[counties|e] ของ [faith|e] นี้"
+ sort_tt_counties_change: "การเปลี่ยนแปลงใน [counties|e] เนื่องจาก [Concept('convert_county', 'การเปลี่ยนศาสนา')|e]"
+ sort_tt_followers: "ศาสนิกชนทั้งหมดของ [faith|e] นี้"
+ sort_tt_rulers: "[rulers|e]"
+ sort_tt_sinners: "[rulers|e] ที่เต็มไปด้วยบาป\n[rulers|e] ที่มี [Concept('sin', 'ลักษณะนิสัยแห่งบาป')|e] อย่างน้อยหนึ่งประการ"
+ sort_tt_virtuous: "[rulers|e] ผู้ทรงธรรม\nผู้ที่ไม่ด่างพร้อยด้วย [sin|E] และมี [Concept('virtue', 'ลักษณะนิสัยแห่งคุณธรรม')|e] อย่างน้อยหนึ่งประการ"
+ sort_tt_holy_wars: "[holy_wars|e] ของ [faith|e] นี้"
+ sort_tt_controlled_holy_sites: "[holy_sites|e] ที่ควบคุม"
+ sort_tt_fervor: "[fervor|e]"
+ 
+ FAITHS_COUNTIES_TT: "[counties|e] แบบ [Faith.GetAdjectiveNoTooltip]"
+ FAITHS_COUNTIES_CHANGE_TT: "[Faith.GetNameNoTooltip] จะ [Select_CString(GreaterThan_int32(Faith.GetCountiesChange, '(int32)-1'), 'ได้รับ', 'สูญเสีย')] [counties|e] [Faith.GetCountiesChange|=+]\n\n[counties|e] [Faith.GetCountiesGain|+] แห่งกำลังถูก [Concept('convert_county', 'เปลี่ยนความเชื่อ')|e] มาเป็น [Faith.GetNameNoTooltip]\n[counties|e] แบบ [Faith.GetAdjectiveNoTooltip] [Faith.GetCountiesLoss|-] แห่งกำลังถูก [Concept('convert_county', 'เปลี่ยนความเชื่อ')|e] ไปยัง [faith|e] อื่น"
+ 
+ FAITHS_FOLLOWERS_TT: "[Faith.GetAdherentNamePluralNoTooltip] ทั้งหมด"
+ FAITHS_RULERS_TT: "[rulers|e] แบบ [Faith.GetAdjectiveNoTooltip]"
+ FAITHS_SINNERS_TT: "[rulers|e] แบบ [Faith.GetAdjectiveNoTooltip] ที่เต็มไปด้วยบาป"
+ FAITHS_VIRTUOUS_TT: "[rulers|e] แบบ [Faith.GetAdjectiveNoTooltip] ผู้ทรงธรรม"
+ FAITHS_TOTAL_STRENGTH_TT: "[soldiers|e] รวม\nของ [rulers|e] แบบ [Faith.GetAdjectiveNoTooltip] ทั้งหมด"
+ SORT_FAITHS_TOTAL_STRENGTH: "$sort_by$ [soldiers|e] รวม\nของ [rulers|e] ทั้งหมดแห่ง [faith|e] นี้"
+ 
+ 
+ FAITH_CONTROLLED_HOLY_SITES: "[Faith.GetNumberOfControlledHolySites] #low /[Faith.GetNumberOfHolySites]#!"
+ FAITH_CONTROLLED_HOLY_SITES_TT: "[Faith.GetAdherentNamePluralNoTooltip] ควบคุม [holy_sites|e] [Faith.GetNumberOfControlledHolySites|0v] แห่งจากทั้งหมด [Faith.GetNumberOfHolySites] แห่ง"
+ 
+ # most/least
+ counties_most: "$game_concept_counties$ $most_sort$"
+ counties_least: "$game_concept_counties$ $fewest_sort$"
+ 
+ counties_change_most: "ได้รับ $game_concept_county$"
+ counties_change_least: "สูญเสีย $game_concept_county$"
+ 
+ followers_most: "ศาสนิกชน $most_sort$"
+ followers_least: "ศาสนิกชน $fewest_sort$"
+ 
+ rulers_most: "$game_concept_rulers$ $most_sort$"
+ rulers_least: "$game_concept_rulers$ $fewest_sort$"
+ 
+ sinners_most: "คนบาป $most_sort$"
+ sinners_least: "คนบาป $fewest_sort$"
+ 
+ virtuous_most: "ผู้ปกครองผู้ทรงธรรม $most_sort$"
+ virtuous_least: "ผู้ปกครองผู้ทรงธรรม $fewest_sort$"
+ 
+ holy_wars_most: "$game_concept_holy_wars$ $most_sort$"
+ holy_wars_least: "$game_concept_holy_wars$ $fewest_sort$"
+ 
+ controlled_holy_sites_most: "$game_concept_holy_sites$ $most_sort$"
+ controlled_holy_sites_least: "$game_concept_holy_sites$ $fewest_sort$"
+ 
+ fervor_most: "$game_concept_fervor$ $most_sort$"
+ fervor_least: "$game_concept_fervor$ $least_sort$"
+ 
+ strength_most: "$game_concept_soldiers$ $most_sort$"
+ strength_least: "$game_concept_soldiers$ $fewest_sort$"
+
+ # filters
+ 
+ faiths_my_religion: "$game_concept_religion$ ของข้าพเจ้า"
+ faiths_my_religion_any: "$any_filter$"
+ faiths_my_religion_yes: "$YES$"
+ faiths_my_religion_no: "$NO$"
+ faiths_organized: "จัดตั้งอย่างเป็นระบบ"
+ faiths_organized_any: "$any_filter$"
+ faiths_organized_yes: "$YES$"
+ faiths_organized_no: "$NO$"
+ faiths_head_of_faith: "ประมุขแห่ง $game_concept_faith$"
+ faiths_head_of_faith_any: "$any_filter$"
+ faiths_head_of_faith_yes: "$YES$"
+ faiths_head_of_faith_no: "$NO$"
+ faiths_player_faith: "$game_concept_faith$ ของผู้เล่น"
+ faiths_player_faith_any: "$any_filter$"
+ faiths_player_faith_yes: "$YES$"
+ faiths_player_faith_no: "$NO$"
+ 
+ # Religions
+ 
+ sort_l_number_of_faiths: "[faiths|e]"
+ 
+ SORT_RELIGIONS_LEDGER: "$sort_by$ [Localize(Concatenate('sort_religions_', PdxGuiWidget.GetName))]"
+ 
+ sort_religions_number_of_faiths: "[faiths|e] ทั้งหมดของ [religion|e] นี้"
+ sort_religions_counties: "[counties|e] ของ [religion|e] นี้"
+ sort_religions_counties_change: "$sort_tt_counties_change$"
+ sort_religions_followers: "$sort_l_followers$"
+ sort_religions_rulers: "$sort_l_rulers$"
+ sort_religions_sinners: "$sort_tt_sinners$"
+ sort_religions_virtuous: "$sort_tt_virtuous$"
+ sort_religions_holy_wars: "[holy_wars|e] ของทุก [faiths|e] ใน [religion|e] นี้"
+ sort_religions_controlled_holy_sites: "$sort_tt_controlled_holy_sites$"
+ sort_religions_total_strength: "[soldiers|e] รวม\nของ [rulers|e] ทั้งหมดของ [religion|e] นี้"
+ 
+ number_of_faiths_most: "$game_concept_faiths$ $most_sort$"
+ number_of_faiths_least: "$game_concept_faiths$ $fewest_sort$"
+ 
+ RELIGION_COUNTIES_TT: "[counties|e] แบบ [Religion.GetAdjectiveNoTooltip]"
+ RELIGION_COUNTIES_CHANGE_TT: "[Religion.GetNameNoTooltip] จะ [Select_CString(GreaterThan_int32(Religion.GetCountiesChange, '(int32)-1'), 'ได้รับ', 'สูญเสีย')] [counties|e] [Religion.GetCountiesChange|=+]\n\n[counties|e] [Religion.GetCountiesGain|+] แห่งกำลังถูก [Concept('convert_county', 'เปลี่ยนความเชื่อ')|e] มาเป็น [Religion.GetNameNoTooltip]\n[counties|e] แบบ [Religion.GetAdjectiveNoTooltip] [Religion.GetCountiesLoss|-] แห่งกำลังถูก [Concept('convert_county', 'เปลี่ยนความเชื่อ')|e] ไปยัง [religion|e] อื่น"
+ 
+ RELIGION_FOLLOWERS_TT: "[Religion.GetAdherentNamePluralNoTooltip] ทั้งหมด"
+ RELIGION_RULERS_TT: "[rulers|e] แบบ [Religion.GetAdjectiveNoTooltip]"
+ RELIGION_SINNERS_TT: "[rulers|e] แบบ [Religion.GetAdjectiveNoTooltip] ที่เต็มไปด้วยบาป"
+ RELIGION_VIRTUOUS_TT: "[rulers|e] แบบ [Religion.GetAdjectiveNoTooltip] ผู้ทรงธรรม"
+ RELIGION_TOTAL_STRENGTH_TT: "[soldiers|e] รวม\nของ [rulers|e] แบบ [Religion.GetAdjectiveNoTooltip] ทั้งหมด"
+ 
+ RELIGION_CONTROLLED_HOLY_SITES: "[Religion.GetNumberOfControlledHolySites] #low /[Religion.GetNumberOfHolySites]#!"
+ RELIGION_CONTROLLED_HOLY_SITES_TT: "[Religion.GetAdherentNamePluralNoTooltip] ควบคุม [holy_sites|e] [Religion.GetNumberOfControlledHolySites|0v] แห่งจากทั้งหมด [Religion.GetNumberOfHolySites] แห่ง"
+
+ religions_player_religion: "$game_concept_religion$ ของผู้เล่น"
+ religions_player_religion_any: "$any_filter$"
+ religions_player_religion_yes: "$YES$"
+ religions_player_religion_no: "$NO$"
+ 
+ 
+ ### Cultures
+ 
+ sort_l_traditions: "[traditions|e]"
+ sort_l_characters: "[characters|e]"
+ sort_l_acceptance: "[cultural_acceptance|e]"
+ sort_l_creation_date: "วันที่สถาปนา"
+ sort_l_innovations: "[innovations|e]"
+ 
+ SORT_CULTURES_LEDGER: "$sort_by$ [Localize(Concatenate('sort_cultures_', PdxGuiWidget.GetName))]"
+ sort_cultures_characters: "ตัวละครทั้งหมดแห่ง [culture|e] นี้"
+ sort_cultures_counties_change: "การเปลี่ยนแปลงใน [counties|e] เนื่องจาก [Concept('promote_culture', 'การส่งเสริมวัฒนธรรม')|e]"
+ sort_cultures_average_development: "[development|e] เฉลี่ย\nในทุก [counties|e] แห่ง [culture|e] นี้"
+ sort_cultures_acceptance: "[cultural_acceptance|e] ของ [culture|e] ของท่าน"
+ sort_cultures_total_strength: "[soldiers|e] รวม\nของ [rulers|e] ทั้งหมดแห่ง [culture|e] นี้"
+ 
+ traditions_most: "$game_concept_traditions$ $most_sort$"
+ traditions_least: "$game_concept_traditions$ $fewest_sort$"
+ 
+ characters_most: "$game_concept_characters$ $most_sort$"
+ characters_least: "$game_concept_characters$ $fewest_sort$"
+ 
+ acceptance_most: "ยอมรับ $most_sort$"
+ acceptance_least: "ยอมรับ $least_sort$"
+ 
+ creation_date_most: "เก่าแก่ที่สุด"
+ creation_date_least: "ใหม่ที่สุด"
+ 
+ innovations_most: "$game_concept_innovations$ $most_sort$"
+ innovations_least: "$game_concept_innovations$ $fewest_sort$"
+ 
+ CULTURE_COUNTIES_CHANGE_TT: "[culture|e] แบบ [Culture.GetNameNoTooltip] จะ [Select_CString(GreaterThan_int32(Culture.GetCountiesChange, '(int32)-1'), 'ได้รับ', 'สูญเสีย')] [counties|e] [Culture.GetCountiesChange|=+]\n\n[counties|e] [Culture.GetCountiesGain|+] แห่งกำลังถูก [Concept('promote_culture', 'เปลี่ยนแปลง')|e] มาเป็น [Culture.GetNameNoTooltip]\n[counties|e] แบบ [Culture.GetNameNoTooltip] [Culture.GetCountiesLoss|-] แห่งกำลังถูก [Concept('promote_culture', 'เปลี่ยนแปลง')|e] ไปยัง [culture|e] อื่น"
+ CULTURES_TOTAL_STRENGTH_TT: "[soldiers|e] รวม\nของ [rulers|e] แบบ [Culture.GetNameNoTooltip] ทั้งหมด"
+ 
+ LEDGER_CULTURES_COUNTIES: "[counties|e]"
+ LEDGER_CULTURES_CHARACTERS: "ตัวละคร [Culture.GetNameNoTooltip] ทั้งหมด"
+ LEDGER_CULTURES_RULERS: "[rulers|e] แบบ [Culture.GetNameNoTooltip]"
+ LEDGER_CULTURES_AVERAGE_DEVELOPMENT: "[development|e] เฉลี่ยในทุก [counties|e] แบบ [Culture.GetNameNoTooltip]\n#low สิ่งนี้ส่งผลต่อความก้าวหน้าของ [innovation|e]#!"
+
+ cultures_heritage: "$game_concept_heritage$"
+ cultures_heritage_any: "$any_filter$"
+ cultures_heritage_yours: "$your_filter_option$"
+ cultures_player_cultures: "วัฒนธรรมของผู้เล่น"
+ cultures_player_cultures_any: "$any_filter$"
+ cultures_player_cultures_players: "$OUTLINER_PLAYERS$"
+ cultures_era: "ยุคสมัย"
+ cultures_era_any: "$any_filter$"
+ cultures_era_tribal: "ชนเผ่า"
+ cultures_era_early_medieval: "ยุคกลางตอนต้น"
+ cultures_era_high_medieval: "ยุคกลางตอนกลาง"
+ cultures_era_late_medieval: "ยุคกลางตอนปลาย"
+
+
+### UNUSED
+
+relations_relation: "$relation_filter$"
+relations_relation_all: "$all_filter_option$"
+relations_relation_your_realm: "$realm_relation_filter$"
+relations_relation_top_realm: "$top_realm_relation_filter$"
+relations_diplo_range: "$range_filter$"
+relations_diplo_range_any: "$any_filter$"
+relations_diplo_range_inside: "$in_range_filter$"
+relations_diplo_range_outside: "$not_in_range_filter$"
+relations_religion: "$game_concept_religion$"
+relations_religion_all: "$all_filter_option$"
+relations_religion_your_faith: "$game_concept_faith$ $your_filter_option$"
+relations_religion_your_religion: "$game_concept_religion$ $your_filter_option$"
+relations_culture: "$game_concept_culture$"
+relations_culture_all: "$all_filter_option$"
+relations_culture_your_culture: "$game_concept_culture$ $your_filter_option$"
+relations_culture_your_heritage: "$game_concept_heritage$ $your_filter_option$"
+relations_dynasty: "$game_concept_dynasty$"
+relations_dynasty_all: "$all_filter_option$"
+relations_dynasty_your_house: "$game_concept_house$ $your_filter_option$"
+relations_dynasty_your_dynasty: "$game_concept_dynasty$ $your_filter_option$"
+
+killers_relation: "$relation_filter$"
+killers_relation_all: "$all_filter_option$"
+killers_relation_your_realm: "$realm_relation_filter$"
+killers_relation_top_realm: "$top_realm_relation_filter$"
+killers_diplo_range: "$range_filter$"
+killers_diplo_range_any: "$any_filter$"
+killers_diplo_range_inside: "$in_range_filter$"
+killers_diplo_range_outside: "$not_in_range_filter$"
+killers_religion: "$game_concept_religion$"
+killers_religion_all: "$all_filter_option$"
+killers_religion_your_faith: "$game_concept_faith$ $your_filter_option$"
+killers_religion_your_religion: "$game_concept_religion$ $your_filter_option$"
+killers_culture: "$game_concept_culture$"
+killers_culture_all: "$all_filter_option$"
+killers_culture_your_culture: "$game_concept_culture$ $your_filter_option$"
+killers_culture_your_heritage: "$game_concept_heritage$ $your_filter_option$"
+killers_dynasty: "$game_concept_dynasty$"
+killers_dynasty_all: "$all_filter_option$"
+killers_dynasty_your_house: "$game_concept_house$ $your_filter_option$"
+killers_dynasty_your_dynasty: "$game_concept_dynasty$ $your_filter_option$"
+
+killers_ruler: "$game_concept_ruler$"
+killers_ruler_all: "$all_filter_option$"
+killers_ruler_any_ruler: "$any_filter$"
+killers_ruler_landed_ruler: "$game_concept_landed$"
+killers_ruler_landless_ruler: "$game_concept_unlanded$"
+killers_ruler_no_ruler: "$not_ruler_filter_option$"
+
+killers_players_only: "$OUTLINER_PLAYERS$"
+killers_players_only_no: "$any_filter$"
+killers_players_only_yes: "$players_only_filter_option$"

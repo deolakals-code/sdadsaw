@@ -1,0 +1,3 @@
+﻿l_english: 
+ UNDER_CONCUBINE_LIMIT_PRESTIGE_PENALTY:2 "ต่ำกว่าขีดจำกัด[concubine|E]"
+ LATIN_EMPIRE_REASON: "ท่านเป็น[GetTrait('despoiler_of_byzantium').GetName( GetNullCharacter )]ใน[GetTitleByKey('e_latin_empire').GetName]: $VALUE|=+0$"

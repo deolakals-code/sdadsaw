@@ -1,0 +1,31 @@
+﻿l_english: 
+
+ ACHIEVEMENT_fp3_rich_in_diversity_achievement:0 "รุ่มรวยในความหลากหลาย"
+ ACHIEVEMENT_DESC_fp3_rich_in_diversity_achievement:0 "ในฐานะตัวละครที่มี [faith|E] ซึ่งมี [doctrines|E] $special_doctrine_jizya_name$ หรือ $tenet_tax_nonbelievers_name$ จงมี [vassals|E] ที่นับถือศรัทธาอื่นสิบคน"
+
+ ACHIEVEMENT_fp3_darius_revenge_achievement:0 "การแก้แค้นของดาริอุส"
+ ACHIEVEMENT_DESC_fp3_darius_revenge_achievement:0 "ในฐานะตัวละครที่มี [heritage|E] แบบอิหร่าน จงถือครองจักรวรรดิเปอร์เซีย, อาณาจักรเทสซาโลนิกา และอาณาจักรเฮลลัส"
+
+ ACHIEVEMENT_fp3_mulct_them_dry_achievement:0 "รีดนาทาเร้นจนสิ้น"
+ ACHIEVEMENT_DESC_fp3_mulct_them_dry_achievement:0 "ปล้นชิง [modifiers|E] [vizier_extravagance|E] ระดับ $vizier_extravagance_t4_title$ สี่อย่างจาก [vizier|E] ของท่าน"
+
+ ACHIEVEMENT_fp3_the_umma_strikes_back_achievement:0 "การโต้กลับของอุมัยยะฮ์"
+ ACHIEVEMENT_DESC_fp3_the_umma_strikes_back_achievement:0 "เริ่มต้นในฐานะสมาชิกของ [dynasty|E] อุมัยยะฮ์ จงถือครองจักรวรรดิอาระเบียและตำแหน่งเคาะลีฟะฮ์สุหนี่"
+
+ ACHIEVEMENT_fp3_royal_flush_achievement:0 "กำจัดครบชุด"
+ ACHIEVEMENT_DESC_fp3_royal_flush_achievement:0 "ในฐานะตัวละครที่มี [faith|E] ซึ่งมี [doctrine|E] $tenet_fp3_fedayeen_name$ จงกำจัด [lowborn|E], [king|E] และ [emperor|E]"
+
+ ACHIEVEMENT_fp3_fiscal_res_achievement:0 "ความรับผิดชอบทางการคลัง"
+ ACHIEVEMENT_DESC_fp3_fiscal_res_achievement:0 "บรรจุตัวละครที่มี [aptitude|E] ยอดเยี่ยมให้เต็มช่อง [tax_collector|E] ทั้งห้าช่อง"
+
+ ACHIEVEMENT_fp3_abassid_strong_achievement:0 "แสนยานุภาพอับบาซิด"
+ ACHIEVEMENT_DESC_fp3_abassid_strong_achievement:0 "เลือกฉากจบ $struggle_persia_ending_assertion$ ใน [struggle|E] $persian_struggle$"
+
+ ACHIEVEMENT_fp3_challenger_caliphate_achievement:0 "ชีอะห์จุติใหม่"
+ ACHIEVEMENT_DESC_fp3_challenger_caliphate_achievement:0 "เลือกการก่อตั้ง 'สถาปนารัฐเคาะลีฟะฮ์ใหม่' เป็นส่วนหนึ่งของฉากจบ $struggle_persia_ending_foundation$ ใน [struggle|E] $persian_struggle$"
+
+ ACHIEVEMENT_fp3_vassalize_the_caliph_achievement:0 "รัฐเคาะลีฟะฮ์ทั้งปวงเป็นของข้า"
+ ACHIEVEMENT_DESC_fp3_vassalize_the_caliph_achievement:0 "เลือกการก่อตั้ง '$struggle_persia_ending_foundation_decision_option_vassalize$' เป็นส่วนหนึ่งของฉากจบ $struggle_persia_ending_foundation$ ใน [struggle|E] $persian_struggle$"
+
+ ACHIEVEMENT_fp3_rekindle_iran_achievement:0 "การฟื้นฟูอิหร่าน"
+ ACHIEVEMENT_DESC_fp3_rekindle_iran_achievement:0 "เลือกฉากจบ $struggle_persia_ending_rekindle_iran$ ใน [struggle|E] $persian_struggle$"

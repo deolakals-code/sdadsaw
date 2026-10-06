@@ -1,0 +1,19 @@
+﻿l_english: 
+ choose_favorite_interaction: "เลือกบุตรคนโปรด"
+ choose_favorite_interaction_desc: "เลือกตัวละครล่วงหน้าเพื่อแสดงในหมู่ตัวละครที่ท่านอาจได้เล่นเป็นคนถัดไป"
+ choose_favorite_interaction_notification: "เลือกคนโปรดแล้ว"
+ choose_favorite_interaction_notification.tt: "[children|E]คนอื่น ๆ ทั้งหมดจะ #N สูญเสีย#! [opinion|E]"
+
+ remove_favorite_interaction: "ลบบุตรคนโปรด"
+ remove_favorite_interaction_desc: "ลบตัวละครออกจากการเลือกแสดงล่วงหน้าในหมู่ตัวละครที่ท่านอาจได้เล่นเป็นคนถัดไป"
+ remove_favorite_interaction_notification: "ไม่ใช่คนโปรดอีกต่อไป"
+ remove_favorite_interaction_notification.tt: "[children|E]คนอื่น ๆ ทั้งหมดจะ #P ได้รับ#! [opinion|E]"
+
+ not_baron_holy_order_merc_tt: "#X ต้องไม่ใช่ [baron|E], [mercenary|E], หรือสังกัด [holy_order|E]#!"
+ favorite_child_must_be_in_good_health_tt: "#X ต้องมี[health|E]ดีพอ#!"
+ no_republic_or_theocracy_tt: "#X ไม่สามารถเป็นผู้ปกครองในระบอบ[theocracy|E] หรือ [republic|E]ได้#!"
+ cant_already_be_your_heir: "#X ไม่สามารถเป็น[primary_heir|E]ของท่านอยู่แล้วได้#!"
+ cant_be_hostage_tt: "#X ไม่สามารถเป็น[hostage|E]ได้#!"
+ recently_sent_to_exam_tt: "#X เพิ่งถูกส่งไปสอบ#!"
+ cant_be_another_player_tt: "#X ไม่สามารถเป็นผู้เล่นอื่นได้#!"
+ must_be_direct_descendant_tt: "#X ต้องเป็นผู้สืบเชื้อสายโดยตรงของท่าน: บุตร, หลาน, เหลน#!"

@@ -1,0 +1,19 @@
+﻿l_english: 
+ situation_debug_situation: "สถานการณ์ตรวจสอบจุดบกพร่อง"
+ debug_situation_sub_region_steppe_west: "ทุ่งหญ้าสเตปป์ตะวันตก"
+ debug_situation_sub_region_steppe_central: "ทุ่งหญ้าสเตปป์กลาง"
+ debug_situation_sub_region_steppe_east: "ทุ่งหญ้าสเตปป์ตะวันออก"
+
+ debug_situation_participant_group_nomad_rulers: "ผู้ปกครองชนร่อนเร่"
+ debug_situation_participant_group_other_rulers: "ผู้ปกครองอื่น"
+ debug_situation_participant_group_out_of_realm: "นอกอาณาเขต"
+
+ debug_situation_plentiful_harvest_situation_phase: "ช่วงเก็บเกี่ยวอุดมสมบูรณ์"
+ debug_situation_flood_situation_phase: "ช่วงอุทกภัย"
+ debug_situation_severe_drought_situation_phase: "ช่วงภัยแล้งรุนแรง"
+ debug_situation_test_with_catalysts_situation_phase: "ทดสอบพร้อมปัจจัยกระตุ้น"
+
+ debug_situation_effect_set_1: "ผลกระทบอันวิจิตร"
+ debug_situation_effect_set_1_concept: "[situation|E]"
+ debug_situation_effect_set_2: "ผลกระทบทางทักษะ"
+ debug_situation_effect_set_2_concept: "[situation|E]"

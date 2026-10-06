@@ -1,0 +1,23 @@
+﻿l_english: 
+ # Meritocratic
+ game_concept_meritocratic: "ยึดหลักความสามารถ"
+ game_concept_meritocratic_desc: "$game_concept_meritocratic$ คือ [government_bureaucratic_type|E] [government_form|E] ที่คล้ายคลึงกับ [celestial|E], ซึ่ง [liege|E] จะ แต่งตั้งตัวละครเป็น [governors|E], โดยมีอยู่สองประเภท คือ พลเรือน และ ทหาร.\n\nตัวละครสามารถเข้าถึง [influence|E], [noble_families|E] และ [family_estates|E].\n\n[rulers|E] ที่เป็นอิสระจะมี [legitimacy|E], ในขณะที่ [vassals|E] มุ่งเน้นไปที่การได้รับ [merit|E]"
+ game_concept_meritocratic_i: "@government_type_meritocratic!"
+ 
+ # Meritocratic Bureaucracy
+ game_concept_meritocratic_bureaucracy: "ระบบขุนนางแบบยึดหลักความสามารถ"
+ game_concept_meritocratic_bureaucracy_desc: "$game_concept_meritocratic_bureaucracy$ แสดงถึงระดับการรวมศูนย์อำนาจของ [realm_possessive|E] [meritocratic|E] และอำนาจโดยทั่วไปที่ [ruler|E] มีเหนือ [vassals|E] ของตน\n\nมีเพียง [top_liege|E] เท่านั้นที่สามารถเปลี่ยน $game_concept_meritocratic_bureaucracy$ ได้ $game_concept_vassals$ แบบยึดหลักความสามารถจะใช้ระดับเดียวกับ $game_concept_liege$ ของตน\n\n$game_concept_meritocratic_bureaucracy$ มีสี่ระดับ:\n$EFFECT_LIST_BULLET$$meritocratic_bureaucracy_0$\n$EFFECT_LIST_BULLET$$meritocratic_bureaucracy_1$\n$EFFECT_LIST_BULLET$$meritocratic_bureaucracy_2$\n$EFFECT_LIST_BULLET$$meritocratic_bureaucracy_3$\n\nการเพิ่ม $game_concept_meritocratic_bureaucracy$ ต้องใช้ [prestige|E] จำนวนหนึ่ง ขึ้นอยู่กับ [realm_size|E] และ [learning_skill|E] ของผู้ปกครอง"
+
+ # Steppe Admin
+ game_concept_steppe_admin: "อาณาจักรข่านแบบยึดหลักความสามารถ"
+ game_concept_steppe_admin_desc: "$game_concept_steppe_admin$ คือ [government_bureaucratic_type|E] [government_form|E] ที่คล้ายคลึงกับ [celestial|E] และ [meritocratic|E], แต่มีต้นกำเนิดมาจาก $game_concept_government_form$ [nomadic|E] [liege|E] จะ แต่งตั้งตัวละครเป็น [governors|E], โดยมีอยู่สองประเภท คือ พลเรือน และ ทหาร พวกเขายังคงรักษา [tributaries|E], บังคับใช้ [obedience|E] และมี [dread|E] สูงสุดที่สูงกว่า\n\nตัวละครสามารถเข้าถึง [influence|E], [noble_families|E] และ [family_estates|E].\n\n[rulers|E] ที่เป็นอิสระจะมี [legitimacy|E], ในขณะที่ [vassals|E] มุ่งเน้นไปที่การได้รับ [merit|E]"
+ game_concept_steppe_admin_i: "@government_type_steppe_admin!"
+
+ game_concept_ceremonial_claimant_faction: "$ceremonial_claimant_faction$"
+ game_concept_ceremonial_claimant_factions: "ฝ่ายอ้างสิทธิ์เชิงพิธีการ"
+ game_concept_ceremonial_claimant_faction_desc: "$game_concept_claimant_faction$ พยายามที่จะ แต่งตั้ง [claimant|E] คนใดคนหนึ่งเป็น [ceremonial_liege|E] หากประสบความสำเร็จ, ประมุขเชิงพิธีการคนปัจจุบันจะต้องสละ [title|E] ของตนให้กับผู้ทวงสิทธิ์ สมาชิก [faction|E] ทุกคนจะได้รับ [hook|E] ต่อผู้ทวงสิทธิ์"
+
+ game_concept_imperial_policy_faction: "$imperial_policy_faction$"
+ game_concept_faction_imperial_policy: "นโยบายจักรวรรดิ"
+ game_concept_imperial_policy_factions: "ฝ่ายนโยบายจักรวรรดิ"
+ game_concept_imperial_policy_faction_desc: "$game_concept_imperial_policy_faction$ พยายามที่จะเปลี่ยน [imperial_policy|E] ของ [realm|E], โดยใช้ [law|E] ใหม่ที่เลือกโดยผู้นำฝ่าย"

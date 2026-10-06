@@ -1,0 +1,671 @@
+﻿l_english: 
+ 
+ activity_chariot_race: "การแข่งรถม้า"
+ activity_chariot_race_desc: "ในฐานะ [GetPlayer.GetTitleAsNameNoTooltip] ข้าเพียงผู้เดียวที่อาจจัดการแข่งรถม้าอันตระการตาเพื่อสร้างความตื่นเต้นให้แก่ [Glossary( 'ฮอย โพลลอย', 'HOI_POLLOI_GLOSS')] และดึงดูดบุคคลสำคัญของ [GetPlayer.GetPrimaryTitle.GetTierAsNameNoTooltip|l] มายังเมืองหลวง\n\nผ่านโอกาสสาธารณะเหล่านี้ ประชาชนจะรู้จักข้าในฐานะเจ้านายของพวกเขา ในเสียงโห่ร้องของฝูงชน ข้าอาจหวังว่าจะได้ยินเสียงแซ่ซ้องสรรเสริญ"
+ activity_chariot_race_destination_selection: "ท่านสามารถจัดการแข่งรถม้าได้เฉพาะใน [capital|E] ของท่านเท่านั้น"
+ activity_chariot_race_host_desc: "$BULLET_WITH_TAB$ อาจได้รับ @influence_icon![influence|E]\n$BULLET_WITH_TAB$ อาจได้รับ [GetLocalPlayerLegitimacyTextIcon][legitimacy|E]\n$BULLET_WITH_TAB$ อาจได้รับ @gold_icon![gold|E]\n$BULLET_WITH_TAB$ อาจได้รับ #N #EMP หรือเสีย#!#! [county_opinion|E]"
+ activity_chariot_race_guest_desc: "\n#weak แม้จะเป็นที่คาดหวังของทุกคนในอาณาจักร การเข้าร่วมการแข่งรถม้าในฮิปโปโดรมมอบโอกาสในการคลุกคลีกับชนชั้นสูงของจักรวรรดิและเพิ่ม [influence|E] ของท่าน\n\nแขกทุกคนต้องชำระค่าธรรมเนียมเข้าชมเล็กน้อยจำนวน [gold_i][EmptyScope.ScriptValue('chariot_race_entrance_fee')|0]"
+ activity_chariot_race_conclusion_desc: "[GetActivityType( 'activity_chariot_race' ).GetName] ได้สิ้นสุดลงแล้ว"
+ activity_chariot_race_selection_tooltip: "จัดการแข่งรถม้าอันยิ่งใหญ่เพื่อเอาใจสาธารณชนและตอกย้ำตำแหน่งของท่านในฐานะ [GetPlayer.GetTitleAsNameNoTooltip]\n\nรางวัลที่คาดว่าจะได้รับ:\n$BULLET_WITH_TAB$@influence_icon![influence|E]\n$BULLET_WITH_TAB$@gold_icon![gold|E]"
+ HOI_POLLOI_GLOSS: "มีความหมายตามตัวอักษรว่า "คนจำนวนมาก" คำภาษากรีกโบราณนี้หมายถึงชนชั้นล่างในสังคมไบแซนไทน์ (สามัญชน)" # Added Thai explanation
+
+ chariot_race_honorary_guest: "แขกผู้มีเกียรติ"
+ chariot_race_honorary_guest_traveling: "$chariot_race_honorary_guest$"
+ activity_window_character_chariot_race_honorary_guest: "[honorary_guest|E]\n[Character.GetShortUINameNoTooltip|U]"
+ activity_window_character_chariot_race_honorary_guest_traveling: "$activity_window_character_chariot_race_honorary_guest$"
+ chariot_race_honorary_guest_concept: "[honorary_guest|E]"
+ chariot_race_honorary_guest_for_host: "$chariot_race_honorary_guest$"
+ chariot_race_honorary_guest_regular: "$honorary_guest$"
+ chariot_race_honorary_guest_regular_for_host: "$honorary_guest$"
+ chariot_race_honorary_guest_desc: "$chariot_race_honorary_guest_desc_for_host$"
+ chariot_race_honorary_guest_desc_for_host: "เจ้าภาพอาจเชิญตัวละครเข้าร่วมใน [Glossary( 'คาทิสม่า', 'KATHISMA_GLOSS')] หากต้องการ สิ่งนี้มอบโอกาสมากมายในการปฏิสัมพันธ์กับตัวละครนี้ — ไม่ว่าจะดีขึ้นหรือแย่ลง"
+ chariot_race_honorary_guest_regular_desc: "$honorary_guest_desc$"
+ chariot_race_honorary_guest_regular_desc_for_host: "$honorary_guest_desc$"
+ activity_invite_rule_charioteers: "นักแข่งรถม้า"
+ activity_chariot_race_guest_help_text: "แม้จะเป็นที่คาดหวังของทุกคนในอาณาจักร การเข้าร่วมการแข่งรถม้าในฮิปโปโดรมมอบโอกาสในการคลุกคลีกับชนชั้นสูงของจักรวรรดิและเพิ่ม [influence|E] ของท่าน\n\nแขกทุกคนต้องชำระค่าธรรมเนียมเข้าชมเล็กน้อยจำนวน [gold_i][EmptyScope.ScriptValue('chariot_race_entrance_fee')|0]"
+ activity_chariot_race_predicted_cost: "ค่าใช้จ่ายของ [GetActivityType( 'activity_chariot_race' ).GetNameNoTooltip] ได้รับผลกระทบหลักจาก [activity_options|E] ที่ท่านเลือก"
+ chariot_race_base_cost_desc: "ค่าใช้จ่ายพื้นฐานของ [GetActivityType( 'activity_chariot_race' ).GetName]"
+
+
+ chariot_race_gambling: "การวางเดิมพัน"
+ chariot_race_gambling_desc: "ผู้เข้าร่วมยอมเสี่ยงทรัพย์สินของตน วางใจในความหวัง คำอธิษฐาน เพื่อทีมโปรดของพวกเขา"
+ chariot_race_phase: "การแข่งขัน"
+ chariot_race_phase_desc: "ทรายฟุ้งกระจาย แส้ฟาดดังเปรี้ยงปร้าง และฮิปโปโดรมคำรามกึกก้อง!"
+ chariot_race_phase_ceremony: "พิธีการ"
+ chariot_race_phase_ceremony_desc: "องค์อธิปัตย์ผู้รุ่งโรจน์ของเราประกาศเกียรติคุณผู้ชนะการแข่งขัน"
+
+ chariot_option_entertainment: "มหรสพ"
+ chariot_entertainment_bad: "ความบันเทิงเล็กน้อย"
+ chariot_entertainment_bad_desc: "$EFFECT_LIST_BULLET$ ได้รับ [legitimacy|E] เล็กน้อย\n$EFFECT_LIST_BULLET$@alert_icon! #alert_trial ปรับตาม [county_opinion|E] ใน [capital|E]#!\n\n#weak เป็นเวลาหลายร้อยปีที่การแข่งขันได้ตอกย้ำความผูกพันระหว่างผู้ปกครองและประชาชน เป็นเครื่องพิสูจน์ถึงความยิ่งใหญ่และความเอื้อเฟื้อเผื่อแผ่ หากพิธีการดำเนินไปได้ด้วยดี ก็ไม่ควรต้องมีสิ่งอื่นใดอีก#!"
+ chariot_entertainment_normal: "พิธีการตามประเพณี"
+ chariot_entertainment_normal_desc: "$EFFECT_LIST_BULLET$ ได้รับ [legitimacy|E] และ [county_opinion|E] ปานกลาง\n$EFFECT_LIST_BULLET$@alert_icon! #alert_trial ปรับตาม [county_opinion|E] ใน [capital|E]#!\n\n#weak ระหว่างการแข่งขัน ประชาชนจะเพลิดเพลินกับการแสดงละครใบ้ กายกรรม และนักโทษในโซ่ตรวน บุคคลสำคัญที่มาเยือนจะได้รับการต้อนรับอย่างเป็นทางการจากจักรวรรดิ#!"
+
+chariot_entertainment_good: "ความสุขสำราญสำหรับมวลชน"
+ chariot_entertainment_good_desc: "$EFFECT_LIST_BULLET$ ได้รับ [legitimacy|E] และ [county_opinion|E] อย่างมาก\n$EFFECT_LIST_BULLET$@alert_icon! #alert_trial ปรับตาม [county_opinion|E] ใน [capital|E]#!\n\n#weak แขกผู้มีเกียรติสูงสุดของเราจะได้รับนกยูง หนังเซเบิล น้ำหอม: ของขวัญชั้นดีจากจักรวรรดิ! และนักแสดงทุกประเภทจะเนืองแน่นในฮิปโปโดรม พร้อมทั้งขนมปังและเหรียญที่จะถูกโยนขึ้นไปบนอัฒจันทร์#!"
+
+ chariot_race_host_rewards_title: "รางวัลสำหรับเจ้าภาพ"
+ chariot_race_reward_high_county_opinion_tt: "#weak รางวัลดีขึ้น เนื่องจาก [county_opinion|E] สูงใน [capital|E]"
+ chariot_race_reward_low_county_opinion_tt: "#weak รางวัลแย่ลง เนื่องจาก [county_opinion|E] ต่ำใน [capital|E]"
+
+ CHARIOTEER_APTITUDE_GUI_TOOLTIP: "[aptitude|E] ในการแข่งรถม้าของ [Character.GetFirstNamePossessiveNoTooltip] คือ [Character.GetCourtPositionAptitude( GetCourtPositionType( 'charioteer_court_position' ) )]"
+ YOUR_CHARIOTEER_TOOLTIP: "ท่านจ้าง [Character.GetShortUIName] เป็น [GetCourtPositionType( 'charioteer_court_position' ).GetName] ของท่าน"
+ YOUR_WAGER_TOOLTIP: "[GetPlayer.Custom('BuildChariotRaceWagerTooltip')]" # Requires custom function translation if needed
+
+ every_losing_charioteer_xp_gain: "นักแข่งรถม้าคนอื่นๆ ทั้งหมดได้รับ #high 3#! [trait_level_track_xp|E]"
+
+ ### INTENTS ###
+ increase_influence_intent: "เพิ่มอิทธิพล"
+ increase_influence_intent_desc: "เมื่อเหล่า [strategoi|E] และ [noble_families|E] ทั้งหมดรวมตัวกันในฮิปโปโดรม ท่านจะมุ่งเน้นไปที่การคลุกคลีตีโมงและเพิ่มพูน [influence|E]"
+ sow_discord_intent: "หว่านความขัดแย้ง"
+ sow_discord_intent_desc: "ไม่มีโอกาสใดดีไปกว่านี้ในการบ่อนทำลาย [county_control|E] และ [county_opinion|E] ของเมืองหลวง ทำให้การปกครองของ [GetPlayer.GetTopLiege.GetTitleAsNamePossessiveNoTooltip] เสื่อมเสียเพื่อประโยชน์ของผู้สืบทอดที่มุ่งหวังของ [GetPlayer.GetTopLiege.GetHerHis]... กลยุทธ์ที่มีประสิทธิภาพที่สุดในการต่อต้านองค์อธิปัตย์ที่ไม่เป็นที่นิยม"
+ appease_populace_intent: "เอาใจประชาชน"
+ appease_populace_intent_desc: "ท่านตั้งเป้าที่จะเพิ่ม [legitimacy|E] และ [county_opinion|E] ใน [realm_capital|E] ของท่าน [GetPlayer.GetCapitalLocation.GetNameNoTooltip] สิ่งนี้จะต่อต้านผู้เข้าร่วมที่ใช้ [intent|E] $sow_discord_intent$ ด้วยความเป็นปรปักษ์ต่อท่าน"
+
+ ### INTRO ###
+ chariot_race.0001.t: "นครที่รอคอย"
+ chariot_race.0001.desc: "เบื้องล่าง [Glossary( 'คาทิสม่า', 'KATHISMA_GLOSS')] อันสูงส่งของข้า รูปปั้นอันยิ่งใหญ่ของฮิปโปโดรมถูกขัดเงา ผืนทรายถูกกวาดอย่างระมัดระวัง และที่นั่งสำหรับผู้ชมหลายพันคนถูก ทำให้สะอาด\n\nในขณะเดียวกัน ถนนของ [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier] ก็เต็มไปด้วยความคาดหวัง นักการเมืองทุกฝ่ายต่างส่งเสียงโหวกเหวกข้อความของตนขณะที่นักเดินทางเริ่มแย่งชิงที่พัก... และแม้ แต่ในวัง ทุกการสนทนาก็หันไปหาเรื่องปราซินอยและเวเนตอย"
+ chariot_race.0001.desc_spectator: "[host.GetCapitalLocation.GetTitle.GetNameNoTier] เต็มไปด้วยเสียงอึกทึกและความคาดหวัง: การแข่งขันใกล้จะมาถึงแล้ว! จากโรงเตี๊ยมริมถนน การคาดเดาเกี่ยวกับการปรากฏตัวต่อสาธารณะของ [host.GetTitleAsNamePossessive] ก็แพร่สะพัดออกไป จะมีการเรียกร้องคำมั่นสัญญาหรือไม่? ความกังวลของ [Glossary( 'ฮอย โพลลอย', 'HOI_POLLOI_GLOSS')] จะได้รับการแก้ไขหรือไม่? และคำตอบใดจะถูกตะโกน ร้องเพลง?\n\nความรู้สึกของท้องถนนปั่นป่วนอยู่แล้วระหว่างผู้ที่ถูกปลุกปั่นโดยสายลับของจักรวรรดิ และผู้ที่ถูกปลุกปั่นด้วยความร้อนแรงอื่น ๆ แต่เหนือสิ่งอื่นใด มีข้อพิพาทอันร้อนแรงอยู่ประการหนึ่ง: นักแข่งคนใดจะคว้าชัยชนะในฮิปโปโดรม!"
+ chariot_race.0001.a: "ให้เหล่าเดเมสถูกปลุกเร้า!"
+
+ KATHISMA_GLOSS: "พลับพลาของจักรพรรดิในฮิปโปโดรม บันไดเวียนเชื่อมต่อพื้นที่ชมนี้กับพระราชวัง ทำให้บาซิลิอุสเข้าออกได้สะดวก... และเป็นทางออกที่ปลอดภัย"
+ DEMES_GLOSS: "องค์กรการกีฬาและการเมืองที่เน้นการแข่งรถม้า ครั้งหนึ่ง #EMP เดเมส#! เคยมีบทบาทสำคัญในชีวิตพลเมือง แต่ได้เสื่อมถอยลงและอยู่ภายใต้การควบคุมของจักรวรรดิ"
+ QUADRIGA_GLOSS: "รถม้าสี่ม้า รวดเร็ว อันตราย และมีราคาแพง #EMP เททริปปา#! หรือ #EMP ควอดริกา#! เป็นพาหนะที่โปรดปรานของกษัตริย์ จักรพรรดิ และเทพเจ้าตั้งแต่สมัยโบราณ"
+
+ ### BETTING ###
+ chariot_race.0100.t: "เปิดรับเดิมพัน"
+ chariot_race.0100.desc: "#EMP กริ๊ง! กริ๊ง! กริ๊ง!#!\n\nระฆังของ [GetCourtPositionType('bookmaker_court_position').GetName()] ส่งสัญญาณว่าสามารถวางเดิมพันกับทีมที่แข่งขันกันมา แต่โบราณได้แล้ว\n\n"
+ chariot_race.0100.desc.emperor: "ตามตำแหน่งอันสูงสุดของข้า [GetCourtPositionType('bookmaker_court_position').GetNameNoTooltip] ถูกนำเสนอต่อหน้าข้า และหมอบกราบ [bookmaker.GetHerselfHimself] ขณะที่ข้าพิจารณาการเดิมพันของข้า การตัดสินใจนี้ไม่ใช่เรื่องเล็กน้อย: ผลที่ตามมาของการสนับสนุนนักแข่งรถม้าหรือทีมของข้ามีทั้งด้านการเงินและการเมือง"
+ chariot_race.0100.desc.others: "การเดิมพันของผู้ชมที่สูงศักดิ์กว่าจะถูกรับโดยเจ้าหน้าที่ที่วิ่งวุ่น อาจมีการได้หรือเสียเหรียญจำนวนมาก... และ รวมถึงสถานะด้วย ระหว่างแฟนๆ เพื่อนร่วมทีมและคู่แข่ง"
+ chariot_race.0100.a: "ข้าหนุน #charioteer_blue ฝ่ายสีน้ำเงิน#!#!." # เวเนทอย
+ chariot_race.0100.b: "ข้าหนุน #difficulty_easy ฝ่ายสีเขียว#!." # ปราซินอย
+ chariot_race.0100.c: "ข้าหนุน #bold ฝ่ายสีขาว#!." # ลิวคอย
+ chariot_race.0100.d: "ข้าหนุน #difficulty_hard ฝ่ายสีแดง#!." # รูซิออย
+ chariot_race.0100.e: "ไม่วางเดิมพัน"
+ 
+ chariot_race.0110.t: "วีรบุรุษแห่งสนามแข่ง"
+ chariot_race.0110.desc: "[root_scope.Custom('GetChariotTeamColorPluralGlossed')] กำลังส่งกลุ่มนักขับฝีมือดีลงสนาม ซึ่งชื่อของพวกเขาเป็นที่สรรเสริญในตลาดอย่างแน่นอน เด็กๆ เอ่ยถึงด้วยความเคารพ แม้ แต่ราชสำนักก็ยังประจบประแจงและหลงใหลพวกเขา!\n\nข้า #EMP สามารถ#! วางเดิมพันกับนักแข่งคนดังเหล่านี้คนใดก็ได้ แต่บางทีอาจไม่มีคู่แข่งคนใดคนหนึ่งที่โดดเด่นกว่าใคร..."
+
+ chariot_odds_to_win: "อัตราต่อรองที่จะ #HIGH ชนะ#!:"
+ chariot_odds_to_place: "อัตราต่อรองที่จะ #HIGH เข้าที่#!:" # Place = เข้าที่ 1 หรือ 2
+ chariot_odds_to_show: "อัตราต่อรองที่จะ #HIGH ติดอันดับ#!:" # Show = เข้าที่ 1, 2 หรือ 3
+ chariot_chance_to_win: "โอกาสที่จะ #HIGH ชนะ#!"
+ chariot_chance_to_place: "โอกาสที่จะ #HIGH เข้าที่#!"
+ chariot_chance_to_show: "โอกาสที่จะ #HIGH ติดอันดับ#!"
+ chariot_payout: "เงินรางวัล:"
+ chariot_win_desc: "เป้าหมายการเดิมพันของท่านต้องเข้า #HIGH ที่หนึ่ง#!"
+ chariot_place_desc: "เป้าหมายการเดิมพันของท่านต้องเข้า #HIGH ที่หนึ่ง#! หรือ #HIGH ที่สอง#!"
+ chariot_show_desc: "เป้าหมายการเดิมพันของท่านต้องเข้า #HIGH ที่หนึ่ง#!, #HIGH ที่สอง#!, หรือ #HIGH ที่สาม#!"
+
+ GLOSS_WIN: "ผู้เข้าแข่งขันจะชนะก็ต่อเมื่อเข้าเส้นชัยเป็นอันดับแรกเท่านั้น"
+ GLOSS_PLACE: "ผู้เข้าแข่งขันจะเข้าที่หากเข้าเส้นชัยเป็นอันดับหนึ่งหรือสอง"
+ GLOSS_SHOW: "ผู้เข้าแข่งขันจะติดอันดับหากเข้าเส้นชัยเป็นอันดับหนึ่ง สอง หรือสาม"
+
+ chariot_race.influence_from_employed_charioteer: "เนื่องจากข้าจ้าง [my_charioteer.GetFirstName] เป็น [GetCourtPositionType('charioteer_court_position').GetName] ของข้า ข้าจะได้รับ @influence_icon![influence|E] เพิ่มเติมจากการชนะเดิมพันนี้"
+
+ chariot_race.0110.a: "[faction_1.GetFirstNameNoTooltip] มีประกายบางอย่าง"
+ chariot_race.0110.a.flavor: "เดิมพันความสำเร็จของ [faction_1.GetFirstNamePossessive]"
+ chariot_race.0110.a.odds_to_win: "#V [faction_1.MakeScope.Var('percent_chance_to_win').GetValue|1]%#! $chariot_chance_to_win$ #weak (อัตราต่อรอง [faction_1.MakeScope.Var('odds_win_a').GetValue]:[faction_1.MakeScope.Var('odds_win_b').GetValue])#!\n$chariot_win_desc$\n$chariot_payout$ #P [faction_1.MakeScope.Var('win_payout').GetValue|1]x#!"
+ chariot_race.0110.a.odds_to_place: "#V [faction_1.MakeScope.Var('percent_chance_to_place').GetValue|1]%#! $chariot_chance_to_place$ #weak (อัตราต่อรอง [faction_1.MakeScope.Var('odds_place_a').GetValue]:[faction_1.MakeScope.Var('odds_place_b').GetValue])#!\n$chariot_place_desc$\n$chariot_payout$ #P [faction_1.MakeScope.Var('place_payout').GetValue|1]x#!"
+ chariot_race.0110.a.odds_to_show: "#V [faction_1.MakeScope.Var('percent_chance_to_show').GetValue|1]%#! $chariot_chance_to_show$ #weak (อัตราต่อรอง [faction_1.MakeScope.Var('odds_show_a').GetValue]:[faction_1.MakeScope.Var('odds_show_b').GetValue])#!\n$chariot_show_desc$\n$chariot_payout$ #P [faction_1.MakeScope.Var('show_payout').GetValue|1]x#!"
+
+ chariot_race.0110.b: "ท่านไม่มีทางพลาดกับ [faction_2.GetFirstNameNoTooltip]!"
+ chariot_race.0110.b.flavor: "เดิมพันความสำเร็จของ [faction_2.GetFirstNamePossessive]"
+ chariot_race.0110.b.odds_to_win: "#V [faction_2.MakeScope.Var('percent_chance_to_win').GetValue|1]%#! $chariot_chance_to_win$ #weak (อัตราต่อรอง [faction_2.MakeScope.Var('odds_win_a').GetValue]:[faction_2.MakeScope.Var('odds_win_b').GetValue])#!\n$chariot_win_desc$\n$chariot_payout$ #P [faction_2.MakeScope.Var('win_payout').GetValue|1]x#!"
+ chariot_race.0110.b.odds_to_place: "#V [faction_2.MakeScope.Var('percent_chance_to_place').GetValue|1]%#! $chariot_chance_to_place$ #weak (อัตราต่อรอง [faction_2.MakeScope.Var('odds_place_a').GetValue]:[faction_2.MakeScope.Var('odds_place_b').GetValue])#!\n$chariot_place_desc$\n$chariot_payout$ #P [faction_2.MakeScope.Var('place_payout').GetValue|1]x#!"
+ chariot_race.0110.b.odds_to_show: "#V [faction_2.MakeScope.Var('percent_chance_to_show').GetValue|1]%#! $chariot_chance_to_show$ #weak (อัตราต่อรอง [faction_2.MakeScope.Var('odds_show_a').GetValue]:[faction_2.MakeScope.Var('odds_show_a').GetValue])#!\n$chariot_show_desc$\n$chariot_payout$ #P [faction_2.MakeScope.Var('show_payout').GetValue|1]x#!" # Typo in original? odds_show_a twice? Kept as is.
+
+ chariot_race.0110.c: "ข้ามั่นใจว่า [faction_3.GetFirstNameNoTooltip] จะชนะ!"
+ chariot_race.0110.c.flavor: "เดิมพันความสำเร็จของ [faction_3.GetFirstNamePossessive]"
+ chariot_race.0110.c.odds_to_win: "#V [faction_3.MakeScope.Var('percent_chance_to_win').GetValue|1]%#! $chariot_chance_to_win$ #weak (อัตราต่อรอง [faction_3.MakeScope.Var('odds_win_a').GetValue]:[faction_3.MakeScope.Var('odds_win_b').GetValue])#!\n$chariot_win_desc$\n$chariot_payout$ #P [faction_3.MakeScope.Var('win_payout').GetValue|1]x#!"
+ chariot_race.0110.c.odds_to_place: "#V [faction_3.MakeScope.Var('percent_chance_to_place').GetValue|1]%#! $chariot_chance_to_place$ #weak (อัตราต่อรอง [faction_3.MakeScope.Var('odds_place_a').GetValue]:[faction_3.MakeScope.Var('odds_place_b').GetValue])#!\n$chariot_place_desc$\n$chariot_payout$ #P [faction_3.MakeScope.Var('place_payout').GetValue|1]x#!"
+ chariot_race.0110.c.odds_to_show: "#V [faction_3.MakeScope.Var('percent_chance_to_show').GetValue|1]%#! $chariot_chance_to_show$ #weak (อัตราต่อรอง [faction_3.MakeScope.Var('odds_show_a').GetValue]:[faction_3.MakeScope.Var('odds_show_b').GetValue])#!\n$chariot_show_desc$\n$chariot_payout$ #P [faction_3.MakeScope.Var('show_payout').GetValue|1]x#!"
+
+ chariot_race.0110.d: "ข้าเชื่อว่าข้าจะกระจายความเสี่ยง..."
+ chariot_race.0110.d.flavor: "เดิมพันนักแข่งรถม้าคนใดคนหนึ่งหรือทั้งหมดจาก [root_scope.Custom('GetChariotTeamColorPluralGlossed')]"
+ # BLUE
+ chariot_race.0110.d.blue_odds_to_win: "#V [activity.MakeScope.Var('blue_percent_chance_to_win').GetValue|1]%#! $chariot_chance_to_win$ #weak (อัตราต่อรอง [activity.MakeScope.Var('blue_odds_win_a').GetValue]:[activity.MakeScope.Var('blue_odds_win_b').GetValue])#!\n$chariot_win_desc$\n$chariot_payout$ #P [activity.MakeScope.Var('blue_win_payout').GetValue|1]x#!"
+ chariot_race.0110.d.blue_odds_to_place: "#V [activity.MakeScope.Var('blue_percent_chance_to_place').GetValue|1]%#! $chariot_chance_to_place$ #weak (อัตราต่อรอง [activity.MakeScope.Var('blue_odds_place_a').GetValue]:[activity.MakeScope.Var('blue_odds_place_b').GetValue])#!\n$chariot_place_desc$\n$chariot_payout$ #P [activity.MakeScope.Var('blue_place_payout').GetValue|1]x#!"
+ chariot_race.0110.d.blue_odds_to_show: "#V [activity.MakeScope.Var('blue_percent_chance_to_show').GetValue|1]%#! $chariot_chance_to_show$ #weak (อัตราต่อรอง [activity.MakeScope.Var('blue_odds_show_a').GetValue]:[activity.MakeScope.Var('blue_odds_show_b').GetValue])#!\n$chariot_show_desc$\n$chariot_payout$ #P [activity.MakeScope.Var('blue_show_payout').GetValue|1]x#!"
+ chariot_race.0110.number_betting_blue: "ผู้เข้าร่วม [activity.MakeScope.Var('characters_betting_blue').GetValue] คน เดิมพัน [Glossary( 'เวเนทอย', 'ฝ่ายสีน้ำเงิน' )]" # VENETOI_GLOSS
+ # GREEN
+ chariot_race.0110.d.green_odds_to_win: "#V [activity.MakeScope.Var('green_percent_chance_to_win').GetValue|1]%#! $chariot_chance_to_win$ #weak (อัตราต่อรอง [activity.MakeScope.Var('green_odds_win_a').GetValue]:[activity.MakeScope.Var('green_odds_win_b').GetValue])#!\n$chariot_win_desc$\n$chariot_payout$ #P [activity.MakeScope.Var('green_win_payout').GetValue|1]x#!"
+ chariot_race.0110.d.green_odds_to_place: "#V [activity.MakeScope.Var('green_percent_chance_to_place').GetValue|1]%#! $chariot_chance_to_place$ #weak (อัตราต่อรอง [activity.MakeScope.Var('green_odds_place_a').GetValue]:[activity.MakeScope.Var('green_odds_place_b').GetValue])#!\n$chariot_place_desc$\n$chariot_payout$ #P [activity.MakeScope.Var('green_place_payout').GetValue|1]x#!"
+ chariot_race.0110.d.green_odds_to_show: "#V [activity.MakeScope.Var('green_percent_chance_to_show').GetValue|1]%#! $chariot_chance_to_show$ #weak (อัตราต่อรอง [activity.MakeScope.Var('green_odds_show_a').GetValue]:[activity.MakeScope.Var('green_odds_show_b').GetValue])#!\n$chariot_show_desc$\n$chariot_payout$ #P [activity.MakeScope.Var('green_show_payout').GetValue|1]x#!"
+ chariot_race.0110.number_betting_green: "ผู้เข้าร่วม [activity.MakeScope.Var('characters_betting_green').GetValue] คน เดิมพัน [Glossary( 'ปราซินอย', 'ฝ่ายสีเขียว' )]" # PRASINOI_GLOSS
+ # WHITE
+ chariot_race.0110.d.white_odds_to_win: "#V [activity.MakeScope.Var('white_percent_chance_to_win').GetValue|1]%#! $chariot_chance_to_win$ #weak (อัตราต่อรอง [activity.MakeScope.Var('white_odds_win_a').GetValue]:[activity.MakeScope.Var('white_odds_win_b').GetValue])#!\n$chariot_win_desc$\n$chariot_payout$ #P [activity.MakeScope.Var('white_win_payout').GetValue|1]x#!"
+ chariot_race.0110.d.white_odds_to_place: "#V [activity.MakeScope.Var('white_percent_chance_to_place').GetValue|1]%#! $chariot_chance_to_place$ #weak (อัตราต่อรอง [activity.MakeScope.Var('white_odds_place_a').GetValue]:[activity.MakeScope.Var('white_odds_place_b').GetValue])#!\n$chariot_place_desc$\n$chariot_payout$ #P [activity.MakeScope.Var('white_place_payout').GetValue|1]x#!"
+ chariot_race.0110.d.white_odds_to_show: "#V [activity.MakeScope.Var('white_percent_chance_to_show').GetValue|1]%#! $chariot_chance_to_show$ #weak (อัตราต่อรอง [activity.MakeScope.Var('white_odds_show_a').GetValue]:[activity.MakeScope.Var('white_odds_show_b').GetValue])#!\n$chariot_show_desc$\n$chariot_payout$ #P [activity.MakeScope.Var('white_show_payout').GetValue|1]x#!"
+ chariot_race.0110.number_betting_white: "ผู้เข้าร่วม [activity.MakeScope.Var('characters_betting_white').GetValue] คน เดิมพัน [Glossary( 'ลิวคอย', 'ฝ่ายสีขาว' )]" # LEUKOI_GLOSS
+ # RED
+ chariot_race.0110.d.red_odds_to_win: "#V [activity.MakeScope.Var('red_percent_chance_to_win').GetValue|1]%#! $chariot_chance_to_win$ #weak (อัตราต่อรอง [activity.MakeScope.Var('red_odds_win_a').GetValue]:[activity.MakeScope.Var('red_odds_win_b').GetValue])#!\n$chariot_win_desc$\n$chariot_payout$ #P [activity.MakeScope.Var('red_win_payout').GetValue|1]x#!"
+ chariot_race.0110.d.red_odds_to_place: "#V [activity.MakeScope.Var('red_percent_chance_to_place').GetValue|1]%#! $chariot_chance_to_place$ #weak (อัตราต่อรอง [activity.MakeScope.Var('red_odds_place_a').GetValue]:[activity.MakeScope.Var('red_odds_place_b').GetValue])#!\n$chariot_place_desc$\n$chariot_payout$ #P [activity.MakeScope.Var('red_place_payout').GetValue|1]x#!"
+ chariot_race.0110.d.red_odds_to_show: "#V [activity.MakeScope.Var('red_percent_chance_to_show').GetValue|1]%#! $chariot_chance_to_show$ #weak (อัตราต่อรอง [activity.MakeScope.Var('red_odds_show_a').GetValue]:[activity.MakeScope.Var('red_odds_show_b').GetValue])#!\n$chariot_show_desc$\n$chariot_payout$ #P [activity.MakeScope.Var('red_show_payout').GetValue|1]x#!"
+ chariot_race.0110.number_betting_red: "ผู้เข้าร่วม [activity.MakeScope.Var('characters_betting_red').GetValue] คน เดิมพัน [Glossary( 'รูซิออย', 'ฝ่ายสีแดง' )]" # RHOUSIOI_GLOSS
+
+ chariot_race.0120.t: "$chariot_race.0100.t$"
+ chariot_race.0120.desc: ""ช่างเป็นโอกาสที่น่าสนใจยิ่งนัก..." [GetCourtPositionType('bookmaker_court_position').GetName()] พึมพำ "และท่านประสงค์จะวางเดิมพันประเภทใดกับ [ROOT.Var('wager_target').GetCharacter.GetFirstName] ผู้รวดเร็ว?""
+ chariot_race.0120.desc.team: ""ฉลาดมาก ฉลาดมาก..." [GetCourtPositionType('bookmaker_court_position').GetName()] พึมพำ "และท่านประสงค์จะวางเดิมพันประเภทใดกับรถม้าที่สวมชุด [ROOT.Char.Custom('GetChariotTeamColor')|l]?""
+ chariot_race.0120.a: "ข้าคาดหวังชัยชนะ แน่นอน!"
+ chariot_race.0120.a.info: "#V [root_scope.MakeScope.Var('wager_target').Var('percent_chance_to_win').GetValue|1]%#! $chariot_chance_to_win$ #weak (อัตราต่อรอง [root_scope.MakeScope.Var('wager_target').Var('odds_win_a').GetValue]:[root_scope.MakeScope.Var('wager_target').Var('odds_win_b').GetValue])#!\n$chariot_win_desc$\n$chariot_payout$ #P [root_scope.MakeScope.Var('wager_target').Var('win_payout').GetValue|1]x#!"
+ chariot_race.0120.b: "ที่หนึ่งหรือสอง: เข้าที่ก็เพียงพอแล้ว"
+ chariot_race.0120.b.tt: "เป้าหมายการเดิมพันของท่านต้องเข้าเส้นชัยเป็นอันดับหนึ่งหรือสอง"
+ chariot_race.0120.b.info: "#V [root_scope.MakeScope.Var('wager_target').Var('percent_chance_to_place').GetValue|1]%#! $chariot_chance_to_place$ #weak (อัตราต่อรอง [root_scope.MakeScope.Var('wager_target').Var('odds_place_a').GetValue]:[root_scope.MakeScope.Var('wager_target').Var('odds_place_b').GetValue])#!\n$chariot_place_desc$\n$chariot_payout$ #P [root_scope.MakeScope.Var('wager_target').Var('place_payout').GetValue|1]x#!"
+ chariot_race.0120.c: "เพียงแค่ติดอันดับก็ดีพอแล้ว"
+ chariot_race.0120.c.tt: "เป้าหมายการเดิมพันของท่านต้องเข้าเส้นชัยเป็นอันดับหนึ่ง สอง หรือสาม"
+ chariot_race.0120.c.info: "#V [root_scope.MakeScope.Var('wager_target').Var('percent_chance_to_show').GetValue|1]%#! $chariot_chance_to_show$ #weak (อัตราต่อรอง [root_scope.MakeScope.Var('wager_target').Var('odds_show_a').GetValue]:[root_scope.MakeScope.Var('wager_target').Var('odds_show_b').GetValue])#!\n$chariot_show_desc$\n$chariot_payout$ #P [root_scope.MakeScope.Var('wager_target').Var('show_payout').GetValue|1]x#!"
+
+ chariot_race.0130.t: "$chariot_race.0100.t$"
+ chariot_race.0130.desc: "การคาดการณ์ของข้าถูกขีดเขียนลง เป็นเครื่องพิสูจน์ถึงคุณภาพการตัดสินใจของข้า... หวังว่าจะเป็นเครื่องพิสูจน์ถึงการหยั่งรู้และความรู้เกี่ยวกับกีฬาของข้าด้วย บางทีการพูดคุยเกี่ยวกับเรื่องนี้เมื่อเร็วๆ นี้อาจ ทำให้ข้าอยู่ในสถานะที่ดี\n\n"สุดท้ายนี้ ท่าน [ROOT.Char.GetTitleAsNameNoTooltip] ผู้สูงศักดิ์: ท่านประสงค์จะวางเดิมพันเป็นจำนวนเท่าใด?""
+ chariot_race.0130.a: "@gold_icon!200"
+ chariot_race.0130.b: "@gold_icon!150"
+ chariot_race.0130.c: "@gold_icon!100"
+ chariot_race.0130.d: "@gold_icon!50"
+ 
+
+ ### RACE STARTS ###
+ chariot_race.0200.t: "ผู้มอบการละเล่น"
+ chariot_race.0200.intro_guest: "ถึงเวลาแล้ว ข้านำครัวเรือนของข้า — และกระตุ้นสหายที่ได้รับเชิญของข้า [honorary_guest.GetTitledFirstName] อย่างสง่างามด้วยการผายแขน — ขึ้นไปยัง [Glossary( 'คาทิสม่า', 'KATHISMA_GLOSS')] หินอ่อน สถานที่อันทรงเกียรติของเราเหนือความโกลาหลของฮิปโปโดรม\n\n"
+ chariot_race.0200.intro_no_guest: "ถึงเวลาแล้ว ข้านำครัวเรือนของข้า ขึ้นไปยัง [Glossary( 'คาทิสม่า', 'KATHISMA_GLOSS')] หินอ่อน สถานที่อันทรงเกียรติของเราเหนือความโกลาหลของฮิปโปโดรม\n\n"
+ chariot_race.0200.desc: "ขณะที่ทะเลผู้ชมรอคอย ข้าพิจารณาสาระสำคัญของคำปราศรัยเปิดงานของข้า ข้าจะกล่าวถ้อยคำตามธรรมเนียมโบราณอันน่าประทับใจ แน่นอน แต่ยัง รวมถึง..."
+ # Sway Intent
+ chariot_race.0200.a: "ยกย่องแขกผู้มีเกียรติของข้าอย่างสูง"
+ chariot_race.0200.a.flavor: "บทสรรเสริญอันเจิดจ้าสำหรับตำแหน่งของ [honorary_guest.GetFirstNamePossessiveNoTooltip] ในความนับถือของจักรวรรดิข้า: ให้ประชาชนโห่ร้องชื่อของ [honorary_guest.GetHerHis]!"
+ # Seduce Intent
+ chariot_race.0200.b: "อุปมานิทัศน์คลาสสิก เจือด้วยความโรแมนติกและความกระตือรือร้น..."
+ chariot_race.0200.b.flavor: "อุปมานิทัศน์อันเย้ายวนสำหรับ [honorary_guest.GetFirstNameNoTooltip]: ขอให้ทุกคนรู้ถึงความรักของข้าที่มีต่อ [honorary_guest.GetHerHim]!"
+ # Present Heir
+ chariot_race.0200.c: "ข้าจะแนะนำทายาทที่ยืนอยู่ข้างกายข้า"
+ chariot_race.0200.c.flavor: "มวลชนจะได้เห็น [honorary_guest.GetTitledFirstNameNoTooltip] ณ ที่สูง ได้ยินเส้นทางสู่บัลลังก์ของ [honorary_guest.GetHerHis] และจะรัก [honorary_guest.GetHerHim]"
+ # Appease Populace
+ chariot_race.0200.d: "สัญญาว่าจะแก้ไขปัญหาของประชาชน"
+ chariot_race.0200.d.flavor: "ข้าจะปล่อยตัวผู้กระทำผิดหรือไม่? ลดภาษีที่น่ารังเกียจ? ฟื้นฟูเมือง? ข่มเหงผู้ที่ถูกเกลียดชัง? ต้องเอาใจฝูงชน..."
+ combats_sow_discord_responses_tooltip: "@alert_icon! #alert_trial ป้องกันผู้เข้าร่วมที่ไม่เป็นมิตรทำลาย [county_control|E] ของท่าน#!"
+ # Increase Legitimacy (Intent)
+ chariot_race.0200.e: "ข้าจะกล่าวถึงความสำเร็จของจักรวรรดิข้า"
+ chariot_race.0200.e.flavor: "ให้ฝูงชนขับขานสรรเสริญ [ROOT.Char.GetTitleAsNameNoTooltip] ของพวกเขา! ให้พวกเขา #EMP รู้#! ถึงความเหมาะสมของข้าสำหรับเครื่องราชกกุธภัณฑ์!"
+ chariot_race.0200.e.success: "สุนทรพจน์อันทรงพลังและคู่ควร"
+ chariot_race.0200.e.failure: "ฝูงชนส่งเสียงฟ่อและโห่ร้อง"
+ # Spread Legend (Intent)
+ chariot_race.0200.f: "ขยายความเรื่องราวของ [promoted_legend.GetName]"
+ chariot_race.0200.f.flavor: "ใครเล่าจะให้ความจริง — ในใจของผู้คนนับพัน — ได้ดีไปกว่าผู้ปกครองที่ [ROOT.Char.GetFaith.HighGodNamePossessive] เลือกสรร [ROOT.Char.GetHerselfHimself]?"
+ # Discredit Claimant (Situational)
+ chariot_race.0200.g: "ประณามผู้มุ่งหวังบัลลังก์ต่อสาธารณะ"
+ chariot_race.0200.g.flavor: "ความกระตือรือร้นของวันนี้จะเปลี่ยนเป็นการเยาะเย้ยได้ง่ายเพียงใด แม้ แต่คนยากจนที่สุดก็ยังดูถูก [claimant.GetNameNoTooltip] ในฐานะผู้สืบทอดของจักรวรรดิ!"
+ chariot_race.0200.g.success: "ท่าน ทำให้ [claimant.GetTitledFirstNameNoTooltip] อับอายอย่างที่สุด"
+ chariot_race.0200.g.failure: "ฝูงชนโห่ร้องชื่อของ [claimant.GetTitledFirstNamePossessiveNoTooltip]"
+ # Drum up War Support (Situational)
+ chariot_race.0200.h: "โอ้อวดสงครามอันชอบธรรมของข้า!"
+ chariot_race.0200.h.flavor: "ชัยชนะเหนือ [foe.GetPrimaryTitle.GetNameNoTooltip] ไม่แน่นอนหรือ หากข้าสามารถอยู่ที่นี่จัดงานรื่นเริงที่ไร้ประโยชน์ได้? ให้เราตื่นเต้นกับเกียรติภูมิแห่งชัยชนะที่ใกล้เข้ามา!"
+ chariot_race_war_support_attendees_tt: "ผู้เข้าร่วมที่เป็น [governor|E] และ [house_head|E] จะบริจาค [gold_i][gold|E] ให้ท่าน"
+ # Influence/Legitimacy Fallback
+ chariot_race.0200.i: "กล่าวถึงความเมตตาของข้า... และความภักดีที่ข้าคาดหวังเป็นการตอบแทน"
+ chariot_race.0200.i.flavor: "คลังสมบัติไม่ได้หลั่งไหลเพื่อความสุขของสามัญชนหรือ? เพื่อให้ผู้ดำรงตำแหน่งเจริญรุ่งเรือง? ผู้ที่แสวงหาความเมตตาเพิ่มเติมควรพยายามเอาใจ [ROOT.Char.GetTitleAsNameNoTooltip] ของพวกเขา..."
+
+ imperial_candidate_support_tooltip: "ผู้เข้าร่วมจะสนับสนุน [candidate_score|E] ของ [imperial_house_candidate.GetShortUINamePossessive] สำหรับ [root_scope.GetPrimaryTitle.GetName] แทน"
+ honorary_guest_support_tooltip: "ผู้เข้าร่วมจะสนับสนุน [candidate_score|E] ของ [imperial_house_candidate.GetShortUINamePossessive] สำหรับ [root_scope.GetPrimaryTitle.GetName]"
+discredited_claimant_support_tooltip: "ผู้เข้าร่วมจะเพิ่ม [candidate_score|E] ของ [claimant.GetShortUINamePossessive] ต่อไป"
+ chariot_race.0201.t: "คำปราศรัยของ [host.GetTitleAsNamePossessiveNoTooltip]"
+ chariot_race.0201.kathisma: "เสียงเชียร์ของคนนับพันดังขึ้นเรื่อยๆ ข้าถูกพัดพาไปพร้อมกับ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('host'))] ของข้า [host.GetTitledFirstName] ขณะที่ข้าราชบริพารของ [host.GetHerHis] ขึ้นบันไดเวียนไปยัง [Glossary( 'คาทิสม่า', 'KATHISMA_GLOSS')] อันสูงส่ง และพิธีเปิดการแข่งขันก็เริ่มขึ้น\n\n"
+ chariot_race.0201.intro: "เรียงรายอยู่รอบฮิปโปโดรมอันยิ่งใหญ่เป็นแถวไม่สิ้นสุด ผู้ชมที่กระสับกระส่ายรอคอยนักแข่งและ [host.GetTitleAsName] ของพวกเขา ในที่สุด ณ พลับพลาของจักรพรรดิอันสูงตระหง่าน ร่างเล็กๆ สวมมงกุฎทองคำก็ปรากฏตัวขึ้น พิธีเปิดงานเริ่มขึ้น\n\n"
+
+ chariot_race.0201.emperor_unfazed: "[host.GetTitleAsNameNoTooltip] ดื่มด่ำกับการรอคอยของมวลชน และเริ่มกล่าวปราศรัยเสียงดัง"
+ chariot_race.0201.emperor_nervous: "[host.GetTitleAsNameNoTooltip] ซึ่งมีเชิงเทินซ่อนมือข้างหนึ่งที่สั่นเทาของ[host.GetHerHis]ไว้ พูดกับประชาชน"
+ chariot_race.0201.emperor_distant: "ด้วยเสียงกระซิบส่งต่อข้อความอันห่างเหินของ [host.GetHerHis] [host.GetTitledFirstNameNoTooltip] กล่าวปราศรัย"
+
+ chariot_race.0201.gain_influence: "[host.GetSheHe|U] บรรยายถึงการกุศลของจักรวรรดิและความหรูหราของการแข่งขันที่จะมาถึง ช่างยิ่งใหญ่เหลือเกินความเมตตาของ [host.GetHerHis]! ช่างได้รับรางวัลตอบแทนอย่างดีเหลือเกินผู้ที่มีศรัทธาใน [host.GetTitleAsNameNoTooltip] ผู้ที่รับใช้ [host.GetHerHim] อย่างดี!"
+ chariot_race.0201.sway: "บทสรรเสริญสำหรับ [honorary_guest.GetName] ก่อตัวขึ้น ควบคู่ไปกับตำแหน่งอันทรงเกียรติในพลับพลาของจักรวรรดิ คำสรรเสริญเหล่านี้ดึงดูด [host.Custom2('RelationToMeShort', SCOPE.sC('honorary_guest'))] ของ [host.GetTitleAsNamePossessiveNoTooltip] เข้าสู่รัศมีแห่งความยิ่งใหญ่ของพระราชวัง"
+ chariot_race.0201.sway_self: "[host.GetSheHe|U] กล่าวสรรเสริญคุณธรรมของข้าและของขวัญแห่งมิตรภาพของข้า ที่นี่ ในพลับพลาของจักรวรรดิ ข้าเห็นว่าข้ากำลังถูกดึงดูดเข้าสู่รัศมีแห่งความยิ่งใหญ่ของพระราชวัง"
+ chariot_race.0201.seduce: "ด้วยอุปมาอุปไมยที่สวยงาม พรั่งพรู และการอ้างอิงแบบคลาสสิก [host.GetSheHe] ดูเหมือนจะกำลังสรรเสริญคนรักที่หวงแหน... หรือบุคลาธิษฐานที่น่ารักของ [host.GetPrimaryTitle.GetTierAsNameNoTooltip|l]?"
+ chariot_race.0201.seduce_self: "ด้วยอุปมาอุปไมยที่สวยงาม พรั่งพรู โรแมนติก และการอ้างอิงแบบคลาสสิก [host.GetSheHe] ดูเหมือนจะกำลังสรรเสริญบุคลาธิษฐานที่น่ารักของ [host.GetPrimaryTitle.GetTierAsNameNoTooltip|l]... หรือ #EMP ข้า?!#!"
+ chariot_race.0201.present_heir: "ดูเหมือนว่า [host.GetSheHe] กำลังใช้โอกาสนี้เพื่อนำเสนอทายาทต่อหน้าประชาชน เชิญชวนเสียงโห่ร้องสรรเสริญ [host.GetTitleAsNameNoTooltip] ประกาศว่า [honorary_guest.GetName] คู่ควรกับเครื่องราชกกุธภัณฑ์สีม่วง"
+ chariot_race.0201.present_heir_self: "ดูเหมือนว่า [host.GetSheHe] กำลังใช้โอกาสนี้เพื่อนำเสนอทายาทต่อหน้าประชาชน เชิญชวนเสียงโห่ร้องสรรเสริญ [host.GetTitleAsNameNoTooltip] ประกาศว่า #EMP ข้า#! เป็นผู้สมัครที่คู่ควรที่สุดสำหรับเครื่องราชกกุธภัณฑ์สีม่วง!"
+ chariot_race.0201.appease_populace: "คำสัญญาหลั่งไหลออกมา: ที่จะยกเลิกภาษี ปล่อยตัวผู้ก่อกวน และโยนทองคำไปทุกที่ที่มวลชนต้องการ [host.GetTitleAsNameNoTooltip] กำลังยอม — อย่างสิ้นเชิง — ต่อเจตจำนงของฝูงชนที่เนืองแน่น"
+ chariot_race.0201.increase_legitimacy_success: "เรื่องราวของ [host.GetHersHis|U] นั้นยิ่งใหญ่และคู่ควร: ของชีวิตอันสูงส่ง ของความยากลำบากที่พิชิตได้ [host.GetTitleAsNameNoTooltip] เรียกร้องการตัดสินของฝูงชน: เครื่องราชกกุธภัณฑ์ไม่ได้ถูกกำหนดมาตั้งแต่ต้นหรือ?"
+ chariot_race.0201.increase_legitimacy_fail: "เรื่องราวของ [host.GetHersHis|U] นั้นเล็กน้อยและกลวงเปล่า: การโอ้อวดของ [host.GetTitleAsNamePossessiveNoTooltip] ฟังดูเป็นเท็จ [host.GetSheHe|U] เรียกร้องการตัดสินของฝูงชน... ขณะที่ดูเหมือนเด็กน้อยขี้หงุดหงิดที่สวมเครื่องราชกกุธภัณฑ์"
+ chariot_race.0201.spread_legend: "สอดแทรกอย่างมีศิลปะเข้าไปในวลีปกติคือการอ้างอิงถึง [promote_legend.GetName] พิธีโบราณถูก ทำให้แยกไม่ออกจากเรื่องราวของจักรวรรดิ"
+ chariot_race.0201.discredit_claimant_self: "และในไม่ช้าชื่อของข้าก็อยู่บนริมฝีปากของทุกคน! เพราะ [host.GetTitleAsNameNoTooltip] คนโง่เขลาผู้นั้น [host.GetSheHe] หมิ่นประมาทโอกาสของข้าต่อสาธารณะและสาบานว่าข้าจะไม่มีวันได้รับการสนับสนุนจาก [host.GetHerHis] สำหรับบัลลังก์!"
+ chariot_race.0201.discredit_claimant_success: "ต่อหน้าทุกคนที่รวมตัวกัน [host.GetSheHe] ประณามชื่อของ [claimant.GetName] ทำลายโอกาสของ [claimant.GetHerHis] และสาบานว่า [claimant.GetSheHe] จะไม่มีวันได้นั่งบัลลังก์!"
+ chariot_race.0201.discredit_claimant_fail: "ต่อหน้าทุกคนที่รวมตัวกัน [host.GetSheHe] หมิ่นประมาทชื่อของ [claimant.GetName] คร่ำครวญเกี่ยวกับโอกาสของ [claimant.GetHerHis] และหน้าแดงด้วยความคิดที่ว่า [claimant.GetHerHim] จะได้นั่งบัลลังก์"
+ 
+ chariot_race.0201.war_support: "การปลุกเร้าของ [host.GetHerHis|U] ให้ทำสงครามอันชอบธรรมกับ [foe.GetName] ตกกระทบฝูงชน คำสัญญาแห่งชัยชนะของ [host.GetHerHis] การละเล่นในยามสงครามเหล่านี้เอง [host.GetSheHe] ประกาศ เป็นเครื่องพิสูจน์ว่าเราไม่กลัวศัตรูใด!"
+ chariot_race.0201.angry_crowd: "\n\nฝูงชนไม่พอใจนัก เสียงปรบมือดังกึกก้องของพวกเขาปะปนไปด้วยเสียงตะโกนเรียกร้อง คำด่าทอ การร้องเพลงหยาบคาย"
+ chariot_race.0201.happy_crowd: "\n\nมวลชนโห่ร้องสรรเสริญ เมามายกับบรรยากาศของฮิปโปโดรม เมืองที่รวมเป็นหนึ่งในการสรรเสริญ"
+ 
+ chariot_race.0201.aa.discredit: "บัลลังก์เป็นของ [host.GetHouse.GetNameNoTooltip]!"
+ chariot_race.0201.aa.honorary_guest: "[honorary_guest.GetTitledFirstNameNoTooltip] กำลังรุ่งโรจน์!"
+ chariot_race.0201.ab: "[claimant.GetTitledFirstNameNoTooltip] จะครองราชย์!"
+ chariot_race.0201.a: "เมื่อสุนทรพจน์จบลง — ดื่มอวยพรให้โชคชะตา!"
+ chariot_race.0201.a.flavor: "ความบันเทิงเหล่านี้จะมีประโยชน์อะไรหากไม่มีเครื่องดื่ม?"
+ chariot_race.0201.b: "ช่างเป็นคำปราศรัยที่ไม่คู่ควร..."
+ chariot_race.0201.b.flavor: "ปลูกฝังความคิดในใจของบุคคลสำคัญที่อยู่ใกล้เคียง: นักพูดหรือผู้เชี่ยวชาญด้านการเมืองที่แท้จริงสามารถสร้างความประทับใจได้อย่างแท้จริง!"
+ chariot_race.0201.c: "ให้สายลับเริ่มการร้องเพลงตอบโต้!"
+ chariot_race.0201.c.flavor: "#EMP กลบเสียง [host.GetTitleAsNameNoTooltip]! ให้มวลชนข่มขู่คนโง่เขลาจองหอง และเรียกร้องให้เปลี่ยนตัว [host.GetHerHis]!#!"
+ chariot_race.0201.d: "ข้าจะสนับสนุนสาเหตุนี้!"
+ chariot_race.0201.d.flavor: "และด้วยเหตุนี้ จึงได้รับส่วนแบ่งเครดิตสำหรับชัยชนะในปัจจุบันของเรา"
+ chariot_race.0201.e: "ข้าต้องขอบคุณ [host.GetTitleAsNameNoTooltip] อย่างมากมาย"
+ chariot_race.0201.e.flavor: "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('host'))] ผู้สูงศักดิ์ของข้า — ใครอื่นเล่าจะมอบความเมตตา เช่นเดียวกันได้?"
+ chariot_race.0201.f: "สรรเสริญ [host.GetTitleAsNameNoTooltip] ของเรา!"
+
+ counter_chanters_log_title: "การร้องเพลงตอบโต้คำปราศรัยเปิดงาน"
+ counter_chanters_log: "สุนทรพจน์ของ [host.GetShortUINamePossessive] เผชิญกับการประท้วงทางการเมืองที่จัดตั้งขึ้นและการโห่ร้องของมวลชน"
+ chariot_race.0202.title: "การร้องเพลงตอบโต้คำปราศรัย"
+ chariot_race.0202.desc: "ฝูงชนที่ไม่เป็นระเบียบที่เข้าร่วมการแข่งรถม้าของท่านถูกปลุกปั่นให้ต่อต้านท่าน"
+ counter_chants_strong_modifier_tooltip: "[imperial_capital.GetName] ได้รับ [GetModifier( 'strong_sow_discord_modifier' ).GetNameWithTooltip] [activity.MakeScope.Var( 'counter_chant_count' ).GetValue|N0] ครั้ง"
+ counter_chants_normal_modifier_tooltip: "[imperial_capital.GetName] ได้รับ [GetModifier( 'normal_sow_discord_modifier' ).GetNameWithTooltip] [activity.MakeScope.Var( 'counter_chant_count' ).GetValue|N0] ครั้ง"
+ counter_chants_weak_modifier_tooltip: "[imperial_capital.GetName] ได้รับ [GetModifier( 'weak_sow_discord_modifier' ).GetNameWithTooltip] [activity.MakeScope.Var( 'counter_chant_count' ).GetValue|N0] ครั้ง"
+
+ # Notification that the race has begun
+ chariot_race.0250.t: "ให้การแข่งขันเริ่มขึ้น"
+ chariot_race.0250.desc: "อาบไล้ด้วยแสงสีทองของดวงอาทิตย์ยามเที่ยง เสียงเชียร์ดังกึกก้องของฝูงชนต้อนรับเหล่านักแข่งรถม้า [activity.MakeScope.Var('first_place').Char.GetFirstName|U], [activity.MakeScope.Var('second_place').Char.GetFirstName] และ [activity.MakeScope.Var('third_place').Char.GetFirstName] เป็นตัวเต็งที่จะชนะในวันนี้ พวกเขายืนเตรียมพร้อมที่เส้นสตาร์ทโดยจับบังเหียนแน่นและดวงตาเปล่งประกายด้วยความมุ่งมั่น\n\nขณะที่เสียงแตรของจักรวรรดิส่งสัญญาณ รถมาก็พุ่งไปข้างหน้า ล้อเตะฝุ่นเป็นพายุหมุนแห่งความเร็วและทักษะ พื้นดินใต้เท้าข้าสั่นสะเทือนด้วยเสียงกีบเท้าม้าและการแข่งขันดำเนินไปพร้อมกับพลังงานที่สัมผัสได้"
+ chariot_race.0250.a: "ให้การละเล่นเริ่มขึ้น!"
+
+
+ ### ONGOING EVENTS
+ chariot_race.3000.t: "โล่แห่ง [ROOT.Char.Custom('GetChariotTeamColorPlural')]"
+ chariot_race.3000.intro: "กลุ่มรถม้าอยู่ใกล้กันมาก — ใกล้จนเพียงคันเดียวก็สามารถก่อกวนคันอื่น ๆ ทั้งหมดได้อย่างรุนแรง ทีมของข้าเป็นทีมแรกที่ฉวยโอกาสนี้\n\n"
+ chariot_race.3000.backing_sacrifice: "นักขับที่ล้อหมุนไปพร้อมกับเหรียญของข้าบนหัวของ [charioteer_sacrifice.GetHerHis] [charioteer_sacrifice.GetName] เริ่มหักเลี้ยวอย่างรุนแรง — ซ้าย แล้วขวา แล้วซ้ายอีกครั้ง ด้วยนามแห่ง [ROOT.Char.GetFaith.HighGodName] มันช่างเชื่องช้าทรมาน! แต่กลุ่มหลักติดอยู่หลังกำแพงที่คดเคี้ยวของ [charioteer_sacrifice.GetHerHis]!\n\nในขณะเดียวกัน [charioteer_leading.GetName] อีกคนหนึ่งของ [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')] ก็พุ่งนำหน้าไปโดยไม่มีสิ่งกีดขวาง"
+ chariot_race.3000.not_backing_but_employs_sacrifice: "นักแข่งรถม้าของข้า [charioteer_sacrifice.GetName] เริ่มหักเลี้ยวอย่างรุนแรง — ซ้าย แล้วขวา แล้วซ้ายอีกครั้ง ช่างฉลาด ช่างกล้าหาญ! [charioteer_sacrifice.GetSheHe|U] กำลังดักกลุ่มหลักไว้หลังกำแพงที่คดเคี้ยวของ [charioteer_sacrifice.GetHerHis]\n\nในขณะเดียวกัน อีกคนหนึ่งของ [charioteer_leading.Custom('GetChariotTeamColorPluralGlossed')] [charioteer_leading.GetName] ก็พุ่งนำหน้าไปอย่างไม่มีสิ่งกีดขวาง!"
+ chariot_race.3000.not_backing_sacrifice: "นักขับคนหนึ่งของเรา [charioteer_sacrifice.GetName] เริ่มหักเลี้ยวอย่างรุนแรง — ซ้าย แล้วขวา แล้วซ้ายอีกครั้ง ช่างฉลาด ช่างกล้าหาญ! [charioteer_sacrifice.GetSheHe|U] กำลังดักกลุ่มหลักไว้หลังกำแพงที่คดเคี้ยวของ [charioteer_sacrifice.GetHerHis]\n\nในขณะเดียวกัน นักแข่งที่ข้าเลือก [charioteer_leading.GetName] ก็พุ่งนำหน้าไปอย่างไม่มีสิ่งกีดขวาง!"
+ chariot_race.3000.a: "ให้ผู้บังคับใช้กฎหมายเข้าร่วมการทะเลาะวิวาทที่ใกล้จะเกิดขึ้น"
+ chariot_race.3000.a.flavor: "ฝ่ายอื่น ๆ กำลังก่อจลาจล โกรธเคืองกับการเล่นที่อุกอาจนี้: ถึงเวลาที่จะ ทำให้ [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')] ก่อความวุ่นวายด้วย!"
+ chariot_race.3000.b: "การเสียสละอันยิ่งใหญ่เพื่อ [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')]#EMP !#!"
+ chariot_race.3000.b.flavor: "พวกเรา [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')] ทุกคนควรรู้สึกตื่นเต้นกับชัยชนะที่ใกล้เข้ามา!"
+ chariot_race.3000.c: "ดูเหมือนว่าบางคนจะเจริญรุ่งเรือง... แต่คนอื่น ๆ ไม่"
+ chariot_race.3000.c.flavor: "ผู้สนับสนุนที่น่าสงสารและถูกโกงของ [charioteer_sacrifice.GetFirstNameNoTooltip] สมควรได้รับการพิจารณา!"
+ chariot_race.3000.d: ""ไม่! #EMP [charioteer_about_to_be_passed.GetFirstNameNoTooltip]!#!""
+
+ chariot_race.3010.t: "พักผ่อนเถิด [first_place_charioteer.GetFirstNameNoTooltip]"
+ chariot_race.3010.desc: "ชั่วขณะหนึ่ง [first_place_charioteer.GetFirstName] มีปีก [first_place_charioteer.GetSheHe|U] ทะยานนำหน้ากลุ่ม คว้าอันดับหนึ่งและทิ้งห่าง [first_place_charioteer.GetHerselfHimself] จากนักแข่งรถม้าคนอื่น ๆ ไปหลายโยชน์\n\nชั่วขณะหนึ่ง รถม้าอันรุ่งโรจน์ของ [first_place_charioteer.GetHerHis] ส่องสว่างไปทั่วสนามแข่งม้าฮิปโปโดรม... แต่ [first_place_charioteer.GetFirstNameNoTooltip] ไม่ใช่เทพเฮลิออส การบินเข้าใกล้ความยิ่งใหญ่เกินไป ทำให้ [Glossary( 'เฟทอน', 'PHAETHON_GLOSS' )] ของเราตกลงมา ร่างที่บิดเบี้ยวของ [first_place_charioteer.GetHerHis|U] และรอยเลือดทางยาว บัดนี้กลบฝุ่นบนลู่วิ่ง — ประจักษ์พยานสุดท้ายต่อความทะเยอทะยานของ [first_place_charioteer.GetHerHis]"
+ PHAETHON_GLOSS: "ในตำนานเทพเจ้ากรีกโบราณ เฟธอนถูกสายฟ้าของซุสฟาดหลังจากพยายามขับรถม้าของเฮลิออสผู้เป็นบิดาข้ามท้องฟ้า"
+ chariot_race.3010.a: "กล่าวสุนทรพจน์เพื่อปลอบประโลมฝูงชน"
+ chariot_race.3010.a.success: "ฝูงชนสงบลง"
+ chariot_race.3010.a.failure: "ฝูงชนยังคงตื่นตระหนก"
+ chariot_race.3010.b: "สั่งสร้างรูปปั้นเพื่อเป็นเกียรติแก่ [first_place_charioteer.GetHerHis]"
+ chariot_race.3010.c: ""[first_place_charioteer.GetFirstNameNoTooltip] จะได้รับงานศพที่คู่ควรกับความสำเร็จของ [first_place_charioteer.GetHerHis]""
+ chariot_race.3010.a.success_title: "$chariot_race.3010.a.success$"
+ chariot_race.3010.a.failure_title: "$chariot_race.3010.a.failure$"
+
+
+ chariot_race.3020.t: "โอกาสของเดิมพันข้า"
+ chariot_race.3020.intro: "หลังจากเดิมพัน [ROOT.Var('wager_value').GetValue] ทองกับ [wager_target.GetFirstName] ว่าจะ [ROOT.Char.Custom('GetWinPlaceShow')] ข้าพยายามจับตาดูผลงานของ [wager_target.GetHerHis] อย่างใกล้ชิด ขณะนี้ [wager_target.GetSheHe|U] อยู่ในอันดับ... #EMP;HIGH [wager_target.Custom('GetChariotRacePlacement')]!#!\n\n"
+ chariot_race.3020.placement_first: "ข้ารอคอยที่จะปิติยินดีในชัยชนะที่ใกล้เข้ามาของ [wager_target.GetFirstNamePossessiveNoTooltip]! เงินรางวัลมาแล้ว!"
+ chariot_race.3020.placement_good: "คาดการณ์ถึงการพลิกผันที่อาจเกิดขึ้น ข้าจับตาดูอย่างใกล้ชิดขณะที่ [wager_target.GetFirstNameNoTooltip] เคลื่อนผ่านคู่แข่งจากตำแหน่งที่ได้เปรียบของเขา"
+ chariot_race.3020.placement_bad: "อัตราต่อรองไม่เข้าข้างเรา..."
+ chariot_race.3020.placement_last: "#EMP อันดับสุดท้าย?!#! หัวใจข้าหล่นวูบเมื่อ [wager_target.GetFirstNameNoTooltip] เผชิญกับความท้าทายในสนามแข่ง ขณะนี้ตามหลังอยู่ในอันดับสุดท้าย และข้าภาวนาให้เกิดการพลิกผันที่ไม่คาดฝัน"
+ chariot_race.3020.a: "ปลุกระดมแฟนๆ ของ [wager_target.GetFirstNamePossessiveNoTooltip] ให้ใช้ความรุนแรง!"
+ chariot_race.3020.a.flavor: "ความรุนแรง - #EMP ในนามของข้า!#!"
+ chariot_race.3020.b: "ช่วงเวลาแจกจ่ายเครื่องดื่ม..."
+ ep3_chariot_race_strong_appeasement_modifier: "ความเอื้อเฟื้อเผื่อแผ่อย่างฟุ่มเฟือย"
+ ep3_chariot_race_strong_appeasement_modifier_desc: "ในระหว่างการแข่งรถม้าอันยิ่งใหญ่ เครื่องดื่มและท่าทีอันดีงามได้ถูกแจกจ่ายอย่างทั่วถึงในหมู่ประชาชน"
+ ep3_chariot_race_weak_appeasement_modifier: "ความพยายามในการเอาใจ"
+ ep3_chariot_race_weak_appeasement_modifier_desc: "มีความพยายามที่จะเอาชนะใจฝูงชนในการแข่งรถม้า"
+ chariot_race.3020.c: "ท่านคิดว่าใครจะชนะ [special_guest.GetFirstNameNoTooltip]?"
+ chariot_race.3020.d.placement_first: "สู้เข้า... อีกนิดเดียว!"
+ chariot_race.3020.d.placement_good: "สู้ต่อไป [wager_target.GetFirstNameNoTooltip]!"
+ chariot_race.3020.d.placement_bad: "ยังมีเวลา [wager_target.GetSheHe|U] ยังมีโอกาส"
+ chariot_race.3020.d.placement_last: "นี่เป็นครั้งสุดท้ายที่ข้าจะเดิมพันกับ [wager_target.Custom('GetChariotTeamColorPluralGlossed')]..."
+
+ chariot_race.3030.t: "[trailing_charioteer.GetShortUINameNoTooltip] แซง [leading_charioteer.GetShortUINameNoTooltip]!"
+ chariot_race.3030.desc: "ในการพลิกผันที่น่าประหลาดใจ [trailing_charioteer.GetFirstName] [trailing_charioteer.Custom('GetVictoriousChariotMovement')] แซงหน้า [leading_charioteer.GetFirstName] ขึ้นสู่อันดับ [trailing_charioteer.Custom('GetChariotRacePlacement')]!\n\nฝูงชนโห่ร้องอย่างบ้าคลั่ง!"
+ chariot_race.3030.desc_teams: "ผู้ที่สนับสนุน [trailing_charioteer.Custom('GetChariotTeamColorPluralGlossed')] โบกสีของตนและส่งเสียงเชียร์ดังลั่น... ส่วนผู้ที่สนับสนุน [leading_charioteer.Custom('GetChariotTeamColorPluralGlossed')] กลับส่งเสียงฮึดฮัดด้วยความผิดหวัง"
+ chariot_race.3030.a: "ดื่มอวยพรให้กับความสำเร็จของ [trailing_charioteer.GetFirstNamePossessiveNoTooltip]"
+ chariot_race.3030.b: "ถ้าเอาชนะพวกเขาไม่ได้... ก็ ทำให้พวกเขาเป็นของท่านเสีย"
+ chariot_race.3030.c: "โชคไม่ดีนะ [leading_charioteer.GetFirstNameNoTooltip]"
+
+ chariot_race.3040.t: "การพันกันอันตราย"
+ chariot_race.3040.desc: "[charioteer_1.GetName|U] และ [charioteer_2.GetName] ต่อสู้เพื่อตำแหน่ง รถม้าของ แต่ละคนขูดขีดและกระแทกกัน พวกเขาคว้าบังเหียนขณะเข้าใกล้โค้ง รถม้าไม่สามารถแยกออกจากกันได้!\n\nล้อของ [charioteer_1.GetFirstNamePossessive|U] แตกเป็นเสี่ยงๆ รถม้าของ [charioteer_1.GetHerHis|U] หักเลี้ยวอย่างรุนแรง แล้วชนเข้ากับรถม้าของ [charioteer_2.GetFirstNamePossessive] เสียงร้องของม้าและกลิ่นคาวเลือดลอยขึ้นมาจากซากปรักหักพัง ดูเหมือนนักแข่งรถม้าทั้งสองจะไม่เคลื่อนไหว"
+ chariot_race.3040.a: "ดวงวิญญาณผู้กล้าหาญเหล่านี้จะมีงานศพที่หรูหรา"
+ chariot_race.3040.b: "หยุดรอบต่อไป! พวกเขาอาจจะยังมีชีวิตอยู่!"
+ chariot_race.3040.b.tt: "ผู้รอดชีวิตจะถูกดึงออกมาจากซากปรักหักพัง"
+ chariot_race.3040.b.both_survive: "นักแข่งรถม้าทั้งสองรอดชีวิต"
+ chariot_race.3040.b.chariot_two_survives: "[charioteer_2.GetFirstNameNoTooltip|U] รอดชีวิต"
+ chariot_race.3040.b.chariot_one_survives: "[charioteer_1.GetFirstNameNoTooltip|U] รอดชีวิต"
+ chariot_race.3040.b.no_survivors: "ไม่มีนักแข่งรถม้าคนใดรอดชีวิต"
+ chariot_race.3040.c: "ช่างเป็นการแสดงที่ยอดเยี่ยม! นี่แหละการแข่งรถม้า!"
+ chariot_race.3040.d: "ช่างน่าสะพรึงกลัว... ข้าจะสวดภาวนาให้พวกเขา"
+
+ chariot_race.3050.t: "ชัยชนะที่ไม่น่าเป็นไปได้"
+ chariot_race.3050.desc: "บรรยากาศเต็มไปด้วยความตึงเครียด\n\n[last_place_charioteer.GetFirstName] นักแข่งรถม้าที่เคยถูกมองข้าม ท้าทายทุกอัตราต่อรอง [last_place_charioteer.Custom('GetChariotComebackMovement')] ใน [Glossary( 'อริสเทีย', 'อาริสเตอา')] ที่แท้จริง\n\nเสียงสูดหายใจดังไปทั่วอัฒจันทร์เมื่อสีสันสดใสของ [last_place_charioteer.Custom('GetChariotTeamColorPluralGlossed')] พุ่งไปข้างหน้า ฝูงชน ซึ่งตอนแรกเงียบงันด้วยความไม่เชื่อ ก็ระเบิดเสียงโห่ร้องดังกึกก้อง!"
+ chariot_race.3050.a: "#EMP [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')] ครองความเป็นใหญ่!#!"
+ chariot_race.3050.b: "[last_place_charioteer.GetSheHe|U] จะต้องเป็นของข้า"
+ chariot_race.2050.c: "ทำได้ดีมาก [last_place_charioteer.GetFirstNameNoTooltip]!"
+ GLOSS_ARISTEIA: "#EMP อาริสเตอา#! บรรยายถึงช่วงเวลาที่ได้รับแรงบันดาลใจจากสวรรค์ ซึ่งวีรบุรุษสามารถทำสิ่งที่พิเศษและน่าประทับใจได้"
+ chariot_race.2050.d: "[ROOT.Char.GetFaith.HighGodName|U] รักบุตรบางคนของ [ROOT.Char.GetFaith.HighGodHerHis] มากกว่าคนอื่น..."
+
+ ### Events only for spectators
+ chariot_race.4000.t: "คลุกคลีตีโมง"
+ chariot_race.4000.desc: ""อา ดูนั่นสิ! [activity.MakeScope.Var('first_place').Char.GetName] นำอยู่!" [target_governor.GetTitledFirstName|U] เข้ามาหาข้า รอยยิ้มของ [target_governor.GetHerHis|U] กว้างเท่ากับโค้งของ [last_place.GetFirstNamePossessive]\n\n"[target_governor.Custom('GetGovernorChitChat')] สบายดีหรือ ท่าน [ROOT.Char.GetFirstNameNoTooltip] ที่รัก?"\n\nการสนทนาที่สุภาพ เช่นนี้ระหว่างผู้ว่าการอาจถูกเปลี่ยนไปสู่หัวข้อที่มีประโยชน์มากกว่า..."
+ chariot_race.4000.a: "ข้าจะยกย่องคุณธรรมของข้าในฐานะผู้ปกครองอย่างมีชั้นเชิง"
+ chariot_race.4000.a.critical_success: "[target_governor.GetFirstNameNoTooltip] กลายเป็นแฟนตัวยงของท่าน"
+ chariot_race.4000.a.critical_success_title: "$chariot_race.4000.a.critical_success$"
+ chariot_race.4000.a.success: "ท่านโน้มน้าว [target_governor.GetFirstNameNoTooltip] ถึงคุณค่าของท่านได้สำเร็จ"
+ chariot_race.4000.a.success_title: "$chariot_race.4000.a.success$"
+ chariot_race.4000.a.failure: "ท่านโน้มน้าว [target_governor.GetFirstNameNoTooltip] ถึงคุณค่าของท่านไม่สำเร็จ"
+ chariot_race.4000.a.failure_title: "$chariot_race.4000.a.failure$"
+ chariot_race.4000.a.critical_failure: "[target_governor.GetFirstNameNoTooltip] กลายเป็นคู่แข่งของท่าน"
+ chariot_race.4000.a.critical_failure_title: "$chariot_race.4000.a.critical_failure$"
+ change_appointment_investment_medium_gain: "[candidate_score|E] ของท่านสำหรับ [target_title.GetName] เพิ่มขึ้น [EmptyScope.ScriptValue('appointment_score_medium_value')|P0]"
+ change_appointment_investment_minor_gain: "[candidate_score|E] ของท่านสำหรับ [target_title.GetName] เพิ่มขึ้น [EmptyScope.ScriptValue('appointment_score_minor_value')|P0]"
+ change_appointment_investment_minor_loss: "[candidate_score|E] ของท่านสำหรับ [target_title.GetName] ลดลง [EmptyScope.ScriptValue('appointment_score_minor_value')|N0]"
+ change_appointment_investment_medium_loss: "[candidate_score|E] ของท่านสำหรับ [target_title.GetName] ลดลง [EmptyScope.ScriptValue('appointment_score_medium_value')|N0]"
+ chariot_race.4000.b: "ข้าสงสัยว่า [target_governor.GetFirstNameNoTooltip] มีสายลับอะไรอยู่ที่นี่บ้าง..."
+ ep3_united_agents_tooltip: "[political_schemes|E] ต่อต้าน [liege|E] ของท่าน: #P +15%#! [success_chance|E] เป็นเวลา #high 10 ปี#!"
+ united_political_agents_modifier: "สายลับรวมตัวในเมืองหลวง"
+ united_political_agents_modifier_desc: "สายลับทางการเมืองของตัวละครนี้ในราชสำนักชั้นสูงของแผ่นดินทำงานร่วมกับของผู้อื่น"
+ united_political_agents_modifier_tt: "#weak [political_schemes|E] ต่อต้าน [liege|E]: #P +15%#! [success_chance|E]#!"
+ chariot_race.4000.c: "ข้าสงสัยว่า [target_governor.GetFirstNameNoTooltip] เคยได้ยินเรื่องราวที่พวกเขาเล่าเกี่ยวกับข้าหรือไม่?"
+ chariot_race.4000.c.success: "[target_governor.GetFirstNameNoTooltip] เริ่มส่งเสริมตำนานของท่าน"
+ chariot_race.4000.c.failure: "[target_governor.GetFirstNameNoTooltip] ไม่สนใจตำนานของท่าน"
+ chariot_race.4000.d: "อา โอกาสที่จะขยายขอบเขตทางการเมืองของข้า!"
+ chariot_race.4000.d.success: "ท่านชักใย [target_governor.GetTitledFirstName] ได้สำเร็จ"
+ chariot_race.4000.d.failure: "ท่านชักใย [target_governor.GetTitledFirstName] ไม่สำเร็จ"
+ chariot_race.4000.f: "อย่าประเมินค่าเพื่อนในที่สูงต่ำเกินไป"
+ chariot_race.4000.g: "บางทีอาจถึงเวลาที่จะลดทอน [target_governor.GetFirstNameNoTooltip] ลงบ้าง..."
+ chariot_race.4000.g.flavor: "ท่านปล่อยคำดูถูกที่ทำลายความทะเยอทะยานใส่ [target_governor.GetFirstNameNoTooltip]"
+ target_governor_change_appointment_investment_medium_loss: "[candidate_score|E] ของ [target_governor.GetTitledFirstNamePossessive] สำหรับ [target_title.GetName] ลดลง [EmptyScope.ScriptValue('appointment_score_medium_value')|N0]"
+
+ chariot_race.4010.t: "โค่น [unpopular_official.GetTitledFirstNameNoTooltip]!"
+ chariot_race.4010.desc: "เสียงโห่ร้องดังขึ้นจากฝูงชน แล้วแพร่กระจาย ซ้ำแล้วซ้ำเล่า กลายเป็นการร้องเพลง ข้าเอนตัวไปข้างหน้า พยายามฟังคำพูด [Glossary( 'ฮอย โพลลอย', 'HOI_POLLOI_GLOSS')] กำลังกระทืบเท้า ชี้หน้า ตะโกนชื่อ: #EMP "โค่น [unpopular_official.GetTitledFirstName]! โค่น [unpopular_official.GetTitledFirstNameNoTooltip]!"#!\n\nข้าเคยได้ยินว่า [unpopular_official.GetTitledFirstNameNoTooltip] กำลังมีชื่อเสียงไม่ดีอยู่บ้าง แต่ข้าไม่รู้เลยว่าประชาชนโกรธแค้นถึงเพียงนี้!"
+ chariot_race.4010.a: "[unpopular_official.GetTitledFirstNameNoTooltip|U] จะถูกปลดออกจากตำแหน่งของ [unpopular_official.GetHerHis]"
+ chariot_race.4010.b: "ปลอบประโลมฝูงชน ส่งคนรับใช้ไปโยนรางวัลให้พวกเขา!"
+ chariot_race.4010.b.tt.success: "ฝูงชนยินดีเป็นอย่างยิ่ง"
+ chariot_race.4010.b.tt.failure: "เสียงร้องเพลงดังขึ้นเท่านั้น"
+ chariot_race.4010.c: "รับไม่ได้ ข้าต้องการทักษะของ [unpopular_official.GetFirstNamePossessiveNoTooltip]"
+ chariot_race.4010.d: "เข้าร่วมการร้องเพลง! โค่น [unpopular_official.GetTitledFirstNameNoTooltip]!"
+ chariot_race.4010.e: "เริ่มการร้องเพลงใหม่! #EMP "[ROOT.Char.GetFaith.HighGodName] คุ้มครอง [emperor_scope.GetTitledFirstNameNoTooltip]!"#!"
+ chariot_race.4010.f: "นั่งเงียบๆ อย่างอึดอัด"
+
+ chariot_race.4020.t: "เสน่ห์ของ [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]"
+ chariot_race.4020.desc: ""[Glossary( 'เทอร์แม', 'โรงอาบน้ำเธอร์เม')] อันหรูหรา ท่านว่าอย่างนั้นหรือ?" [notable.GetName] ครุ่นคิด คำพูดของ [notable.GetHerHis] แทบจะหายไปในความโกลาหลของฝูงชน "ข้าไม่เคยคิดว่า [ROOT.Char.GetCapitalLocation.GetName] จะเป็นสถานที่ที่มีความซับซ้อน เช่นนี้..."\n\nขณะที่ข้าพูดถึงแผนการของข้าสำหรับ [ROOT.Char.GetPrimaryTitle.GetNameNoTier] ความฝันก็เข้ามาในสายตาที่เหม่อลอยของ [notable.GetTitledFirstNamePossessiveNoTooltip]\n\n"
+ THERMAE_GLOSS: "โรงอาบน้ำที่มีต้นกำเนิดจากโรมัน ซึ่งไม่เพียง แต่ใช้ทำความสะอาดร่างกาย แต่ยังอำนวยความสะดวกในการปฏิสัมพันธ์ทางสังคมที่หลากหลาย"
+ chariot_race.4020.desc_capital_estate: ""อันที่จริง" [notable.GetSheHe] กล่าว "เสียงของญาติพี่น้องของข้าหายไปในความอึกทึก การทะเลาะวิวาทของเมืองหลวง และลูกหลานของเราก็สัมผัสกับความชั่วร้ายทุกอย่าง... บางทีบ้านแบบ [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] อาจจะเหมาะกับตระกูล [notable.GetHouse.GetName] ก็ได้""
+chariot_race.4020.desc_provincial_estate: ""อันที่จริง" [notable.GetSheHe] กล่าว "ครอบครัวของข้ารับประทานอาหารกับคนบ้านนอกและคนไร้ชื่อเสียงใน [current_estate.GetName] บ่อยเกินไป... และดูเหมือนว่ากระทรวงของท่านจะใช้ประโยชน์จากเจ้าหน้าที่ที่มีนามสกุล [notable.GetHouse.GetName] ได้เป็นอย่างดี""
+ chariot_race.4020.a: "ท่านจะได้รับการต้อนรับในวังของข้าเสมอ!"
+ chariot_race.4020.a.flavor: "และใน [ROOT.Char.GetCapitalLocation.GetNameNoTooltip] ขอให้ญาติพี่น้องของเราทุกคนผูกพันกันอย่างใกล้ชิด!"
+ chariot_race.4020.a.success: "[notable.GetFirstNameNoTooltip] กลายเป็นคนสนิทที่มีค่า"
+ chariot_race.4020.a.failure: "[notable.GetFirstNameNoTooltip] ซาบซึ้งในความนับถือของท่าน"
+ chariot_race.4020.b: "มาเถิด มาเถิด! การจ้างงานที่คู่ควร awaits!"
+
+ noble_administrators_modifier: "ผู้บริหารระดับสูง"
+ noble_administrators_modifier_desc: "ขุนนางผู้มีอิทธิพลได้ออกมายังเมืองหลวงของตัวละครนี้ ขณะนี้ดำรงตำแหน่งสำคัญในระบบราชการของพวกเขา"
+ 5_percent_governor_efficiency_tooltip: "[governor_efficiency|E]: @governor_efficiency!#positive_value +5%#!"
+
+ chariot_race.4020.c: "ข้าจะจัดหาบ้านชนบทที่ดีให้ท่าน"
+ chariot_race.4020.c.flavor: "[notable.GetTitledFirstNameNoTooltip] ไม่จำเป็นต้องอาศัยอยู่ที่นั่นตลอดเวลา... แต่เขา #EMP ต้อง#! ให้เกียรติการกระทำอันเอื้อเฟื้อ เช่นนี้"
+ chariot_race.4020.d: "แต่มันคือ #EMP พ่อค้า#! ของ [current_estate.GetNameNoTooltip] ที่เราต้องการอย่างยิ่ง"
+ chariot_race.4020.d.flavor: "และที่ดินของ [notable.GetTitledFirstNamePossessiveNoTooltip] ก็ติดต่อกับพวกเขาอย่างมากมาย..."
+ mercantile_contacts_modifier: "ผู้ติดต่อทางการค้า"
+ mercantile_contacts_modifier_desc: "ครอบครัวผู้มีอำนาจที่อยู่ห่างไกลชี้นำพ่อค้าในท้องถิ่นของตนไปยังโอกาสทางธุรกิจมากมายที่จะพบได้ที่นี่"
+
+ chariot_race.4030.t: "เครื่องดื่มของฮิปโปโดรม"
+ chariot_race.4030.desc: "ในที่สุดข้าก็เข้าใกล้ [seduce_interest.GetName] ได้สำเร็จ [seduce_interest.GetSheHe|U] ดูเหมือนจะอยู่ในอารมณ์อยากรู้อยากเห็น\n\n"ท่านเชื่อไหม ท่าน [ROOT.Char.GetFirstName] ที่ดี" [seduce_interest.GetFirstNameNoTooltip] ผู้น่ารักกระซิบ "โสเภณีของเมืองหลวง — เช่น [prostitute.GetWomanMan] ผู้นั้น — พา [ROOT.Char.GetWomenMen] ผู้สูงศักดิ์ไปใต้ถุนอัฒจันทร์... และ..."\n\n[seduce_interest.GetSheHe|U] หน้าแดงก่ำ\n\n"ลองนึกภาพความกล้า เช่นนั้นสิ! มันต้องเหมือนกับอีกโลกหนึ่งที่นั่น: การติดต่อลับๆ ในความร้อนอบอ้าว ขณะที่ทุกคนเกิดใหม่เป็นคนแปลกหน้าในความมืด...""
+ chariot_race.4030.desc_no_seduction: "การแสดงรถม้าไม่ใช่ความบันเทิงเพียงอย่างเดียวของวันนี้ — ไม่ใช่ทั้งหมดที่มีอยู่ที่นี่เพื่อจุดประกายความปรารถนาของ [ROOT.Char.GetWomenMen] เมื่ออารมณ์ร้อนแรง โสเภณีก็แทรกตัวผ่านฝูงชนและประกอบอาชีพของตน\n\nใบหน้าที่ แต่งแต้ม — ใบหน้าที่สวยงามเป็นพิเศษ — ยิ้มให้ข้าอย่างเชื้อเชิญ ช่างกล้าหาญเหลือเกินที่ [prostitute.GetHerHim] เข้ามาใกล้สถานที่อันทรงเกียรติเหล่านี้! แต่แม้กระทั่งที่นี่... ข้าก็สามารถจับมือของ [prostitute.GetHerHis] ได้อย่างง่ายดาย และตามร่างที่หอมหวานของ [prostitute.GetHerHis] ไปยังสถานที่เปลี่ยว..."
+ chariot_race.4030.a: "#EMP หรือ#! ข้าสามารถล่อลวงผู้ที่สนใจเข้ามาได้..."
+ chariot_race.4030.a.flavor: "...และเมื่อ[john.GetTitledFirstNameNoTooltip]ได้สนุกสนานอย่างน่ารังเกียจของ[john.GetHerHis]แล้ว ข้าก็จะเหลือเพียงความลับสกปรก!"
+ chariot_race.4030.a.success: "ท่านนำ [john.GetFirstNameNoTooltip] เข้าไปในเงามืด"
+ chariot_race.4030.a.failure: "[john.GetFirstNameNoTooltip] ดุด่าท่านต่อหน้าสาธารณชน"
+ chariot_race.4030.b: "บางสิ่งที่เราจะเห็นด้วยตาตนเอง ท่าน [seduce_interest.GetLadyLord] ของข้า...?"
+ chariot_race.4030.b.flavor: "ข้า #EMP ยินดีอย่างยิ่ง#! ที่จะนำ [seduce_interest.GetWomanMan] ผู้เพ้อฝันนี้ไปยังที่ลับและไร้ชื่อ!"
+ chariot_race.4030.b.success: "[seduce_interest.GetFirstNameNoTooltip] มอบ [seduce_interest.GetHerselfHimself] ให้ท่าน"
+ chariot_race.4030.b.failure: "[seduce_interest.GetFirstNameNoTooltip] ตกตะลึงอย่างที่สุด"
+ chariot_race.4030.c: "ฟังดู... น่าสนใจ..."
+ chariot_race.4030.c.flavor: "พวกเขาว่าโสเภณีของ [host.GetCapitalLocation.GetNameNoTooltip] มีฝีมือไม่เหมือน [prostitute.GetWomenMen] อื่นใด..."
+ chariot_race.4030.d: "ข้าจะดูการแข่งขันตอนนี้"
+
+ chariot_race.4031.t: "ผู้เข้าเส้นชัยคนแรก"
+ chariot_race.4031.desc: "ทางวกวนไม่รู้จบ นำเราไปยังโรงเลี้ยงนกที่ว่างเปล่า ขณะที่นกพิราบขันคูเพื่อการมาถึงของสันติภาพ [besexed.GetTitledFirstName] และข้าก็ร่วมรักกัน\n\nกล้ามเนื้อทุกมัดเกร็ง ทุกขณะเหลือบมองไปที่ประตูอย่างลับๆ ล่อๆ ข้ากอด [besexed.GetHerHim] ไว้ใกล้ๆ จนกระทั่งในที่สุด ข้าก็ถึงจุดสุดยอด เสียงฝูงชนโห่ร้องแผ่วเบา\n\n"
+ chariot_race.4031.desc_seduced: ""ช่างน่าอื้อฉาวเสียจริง" [besexed.GetFirstNameNoTooltip] พึมพำเสียงพร่า ดื่มด่ำกับจินตนาการอันโสมมของเรา "ข้าจะกล้าฝันได้หรือไม่ว่านี่หมายความว่าบัดนี้ข้าได้มารับใช้ท่านแล้ว [ROOT.Char.Custom('FormOfAddressForLiege')]?""
+ chariot_race.4031.desc_prostitute: ""ท่านช่างไม่เหมือนผู้ใดนัก [ROOT.Char.Custom('FormOfAddressForLiege')]" [besexed.GetFirstNameNoTooltip] พึมพำเสียงพร่า พลางลากไล้นิ้วเป็นลวดลายดั่งสายรูดถุงเงินไปตามผิวเปลือยเปล่าของข้า "ข้าจะกล้าฝันได้หรือไม่ว่าท่านจะมาหาข้าอีกครั้ง?""
+ chariot_race.4031.a: "ข้าจะไม่ปล่อยให้ท่านหนีไปแน่"
+ chariot_race.4031.a.flavor: "ครั้งต่อไป ขอให้เราอยู่ใต้ผ้าปูที่นอน!"
+ chariot_race.4031.b: "ช่างเป็นโอกาสที่การแข่งขันมอบให้!"
+chariot_race.4031.b.flavor: "...โอกาสพิเศษที่ไม่มีนัยสำคัญยาวนาน ใช่"
+
+chariot_race.4040.t: "[ROOT.Char.Custom('GetChariotTeamColorPlural')] รวมเป็นหนึ่ง!"
+chariot_race.4040.desc: ""#EMP [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')]! [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')]! [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')]!"#! เสียงร้องเพลงดังมาจากเบื้องล่าง ดังขึ้นเรื่อยๆ ขณะที่ [common_fan.GetName] สามัญชนผู้เหงื่อท่วมตัว สะดุดคุกเข่าลงข้างหนึ่งต่อหน้า [noble_fan.GetTitledFirstName] และข้า\n\n"พระคุณเจ้าผู้สูงศักดิ์" [common_fan.GetSheHe] กล่าว "ท่านเป็นหนึ่งในผู้สนับสนุนที่ยิ่งใหญ่และแท้จริงที่สุดของ [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')] อันเป็นที่รักของเรา! ท่านจะกรุณาก้าวเข้ามาในหมู่พวกเรา — ยกถ้วยกับสหายผู้แข็งแกร่งและภักดีสักหน่อยหรือไม่? ข้าจะกันพวกเด็กๆ ไม่ให้ทะเลาะวิวาทและขว้างปาหิน ข้าสาบาน!"\n\n[noble_fan.GetFirstNameNoTooltip] และขุนนางคนอื่นๆ ดูเหมือนจะอยู่ในอารมณ์ดี แต่ถึงกระนั้น... ทุกคนก็ยังหวั่นเกรงความคิดเกี่ยวกับฝูงชน"
+chariot_race.4040.a: "อืม... อันธพาลผู้ภักดีเหล่านี้ดูมีประโยชน์..."
+chariot_race.4040.a.flavor: "แอบ รวบรวมความช่วยเหลือจากคนประจบสอพลอนี้และฝูงชนอันธพาลของ [common_fan.GetHerHis]"
+chariot_race.4040.discord_tt: "ผลกระทบของ [intent|E] #high $sow_discord_intent$#! ดีขึ้น"
+chariot_race.4040.thugs_tt: "[intent|E] #high $murder_attendee_intent$#! ของท่านมีแนวโน้มที่จะสำเร็จมากขึ้น"
+
+chariot_race.4040.b: "[ROOT.Char.GetCapitalLocation.GetNameNoTooltip] คือที่ที่ [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')] ที่แท้จริงควรอยู่!"
+chariot_race.4040.b.flavor: "สนับสนุนให้สมาชิกของเดเมสอพยพไปยังฐานที่มั่นของ [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')] ในไม่ช้า"
+chariot_race.4040.b.success: "เดเมสโห่ร้องชื่อของท่าน"
+chariot_race.4040.b.failure: "ท่านไม่สามารถปลุกระดมใครได้"
+chariot_race.4040.c: "ข้าจะนำการชุมนุมอันยิ่งใหญ่ของ #EMP [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')] ทั้งหมด#! "
+chariot_race.4040.c.flavor: "และด้วยเหตุนี้จึงกลายเป็นจุดสนใจของความสนิทสนมทั้งหมดของพวกเขา"
+chariot_race.4040.d: "ควรจะรื่นเริงกับ [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')] ผู้สูงศักดิ์เท่านั้น..."
+chariot_race.4040.team_popularity_tt: "@influence_icon![influence|E] นี้ขึ้นอยู่กับความนิยมของทีมท่าน"
+chariot_race.4040.team_popularity_rally_tt: "ผลลัพธ์นี้ได้รับผลกระทบจากความนิยมของทีมท่าน"
+
+
+powerful_loyal_deme_modifier: "เดเมสผู้ภักดีอันทรงพลัง"
+powerful_loyal_deme_modifier_desc: "กลุ่มแข่งรถท้องถิ่นที่โดดเด่นอุทิศตนให้กับผู้ปกครองของตน ซึ่งเป็นแฟนคลับที่ประกาศตัวต่อสาธารณะ"
+sizable_loyal_deme_modifier: "เดเมสผู้ภักดีขนาดใหญ่"
+sizable_loyal_deme_modifier_desc: "กลุ่มแข่งรถรายใหญ่อุทิศตนให้กับผู้ปกครองของตน ซึ่งเป็นแฟนคลับที่ประกาศตัวต่อสาธารณะ"
+
+flourishing_local_deme_modifier: "เดเมสเจริญรุ่งเรืองในท้องถิ่น"
+flourishing_local_deme_modifier_desc: "ผู้สนับสนุนที่กระตือรือร้นของกลุ่มแข่งรถกำลังรวมตัวกันในเคาน์ตีนี้ และฟื้นฟูประเพณีเก่าแก่ของการมีส่วนร่วมของพลเมือง"
+
+chariot_race.4050.t: "ลง..."
+chariot_race.4050.desc.non_abrahamic: "ด้วยความเป็น[victim.Custom2('InsultNoun', ROOT.Char)][victim.Custom2('InsultAdjective', ROOT.Char)|U]ของ[victim.GetSheHe] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim'))]ของข้าผู้นั้นก็สมควรที่จะร่วงหล่น... ลงไป, ลงไป...."
+chariot_race.4050.desc: "เหมือนทูตสวรรค์กบฏ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim'))] ของข้าสมควรที่จะตกลงไป... ลง,"
+chariot_race.4050.desc.kathisma: "ลงจากพลับพลาของจักรพรรดิอันสูงส่ง ความภาคภูมิใจในตำแหน่งทั้งหมดสูญสิ้นไปพร้อมกับร่างที่แตกหักของ [victim.GetHerHis] ขณะที่มันนอนแผ่หลาอยู่ท่ามกลางสามัญชนที่กรีดร้อง\n\nอารมณ์ของฮิปโปโดรมร่าเริงขึ้นเรื่อยๆ หลงใหลในการแข่งขันมากขึ้นเรื่อยๆ เมื่อมีทหารรักษาการณ์ของจักรวรรดิอยู่รอบๆ จึงไม่มีช่วงเวลาที่สมบูรณ์แบบที่จะลงมือกับ [victim.GetName] แต่ #EMP นี่#! ดูเหมือนจะดีพอๆ กับช่วงเวลาอื่น"
+chariot_race.4050.desc.track: "ลงสู่ผืนทรายที่แผดเผา ที่ ซึ่งล้อรถม้าจะหักกระดูกของ [victim.GetHerHis] ที่ ซึ่งกีบเท้าที่หุ้มเหล็กจะทำลายใบหน้าที่น่ารังเกียจนั้น\n\nเมื่อการแข่งขันเข้มข้นขึ้น [victim.GetTitledFirstName] ก็เข้ามาอยู่แถวหน้าของอัฒจันทร์ แทบจะเอนตัวข้ามราวระเบียงขณะที่ [victim.GetSheHe] ดื่มด่ำกับการแข่งขันเบื้องล่าง"
+chariot_race.4050.desc.outro: "\n\nคนโง่เขลาอยู่ใกล้ความพินาศอันน่าสยดสยองเพียงใด..."
+chariot_race.4050.desc.lackey: "ข้าเพียงแค่ต้องส่งข่าวไปยัง [lackey.GetFirstName] ผู้จัดการที่ภักดีของข้า"
+chariot_race.4050.a: "ถึงเวลาที่สายลับของข้าจะส่ง [victim.GetHerHim] ให้ร่วงลงไป..."
+chariot_race.4050.a.flavor: "[victim.GetFirstNameNoTooltip] จะมอบความเย้ายวนแห่งความตายให้กับการแสดงในวันนี้"
+chariot_race.4050.a.success: "[victim.GetFirstNameNoTooltip] ประสบอุบัติเหตุตกอย่างลึกลับ"
+chariot_race.4050.a.failure: "นักฆ่าของท่านถูกสกัดกั้น"
+
+chariot_race.4050.b: "#EMP ข้า#! จะเหวี่ยงหมูตัวนี้ไปสู่ความพินาศของ [victim.GetHerHis]!"
+chariot_race.4050.b.flavor: "ท่านคว้าตัว [victim.GetFirstNameNoTooltip] และพยายามโยนร่างที่น่ารังเกียจของ [victim.GetHerHis] ข้ามราวระเบียงอย่าง #EMP ไม่#! แนบเนียน"
+chariot_race.4050.b.success: "ท่านส่ง [victim.GetFirstNameNoTooltip] ร่วงลงไป"
+chariot_race.4050.b.failure: "[victim.GetFirstNameNoTooltip] ต่อต้านท่าน"
+
+chariot_race.4050.might_die: "@death_icon! ท่านอาจถูกสังหาร"
+chariot_race.4050.might_be_imprisoned: "[host.GetShortUIName] อาจ [imprison|E] ท่าน"
+
+chariot_race.4050.c: "สาธารณะเกินไป มากเกินไป"
+
+chariot_race.4051.t: "ลงสู่ห้วงอเวจี"
+
+chariot_race.4051.kathisma_attempt: "คนรับใช้ถูกเปลี่ยนมาทำตามคำสั่งข้า: ถูกบังคับให้ไปสู่ความพินาศที่แน่นอนด้วยคำสัญญาว่าจะให้รางวัลมากมาย นักฆ่าเข้าไปใน [Glossary( 'คาทิสม่า', 'KATHISMA_GLOSS')]#! บรรทุกเครื่องดื่ม และเข้าใกล้ [victim.GetTitledFirstName]\n\n"
+chariot_race.4051.stands_attempt: "มองจากระยะไกล ข้าแทบจะมองไม่เห็นหัวทื่อๆ ของนักฆ่าร่างกำยำของข้า ขณะที่เขาแทรกตัวผ่านอัฒจันทร์ที่แออัดไปยัง [victim.GetTitledFirstName]\n\n"
+chariot_race.4051.self_attempt: "ความเกลียดชังอันแน่วแน่ครอบงำข้า พุ่งเข้าโจมตี ข้าคว้าเสื้อผ้าของ [victim.GetTitledFirstNamePossessive] ข้าปัดป้องการต่อต้านที่ตกตะลึงของ [victim.GetHerHis] และข้าเหวี่ยง [victim.GetHerHim] ไปยังห้วงเหวอันสดใส\n\n"
+
+chariot_race.4051.agents_success: "เสียงร้องตะโกนดังขึ้น — [victim.GetFirstNameNoTooltip] ถูกยกข้ามราวระเบียง และเสื้อคลุมและผ้าไหมของ [victim.GetHerHis] หมุนวน [victim.GetSheHe] ก็ร่วงลงหัวทิ่ม! เหมือนนกสีสันสดใสที่ถูกยิงทะลุ ร่างของ [victim.GetHerHis] ตกลงสู่พื้นดิน"
+chariot_race.4051.agents_fail_secret: "แต่ ทว่า — ขณะที่สายลับของข้าพุ่งเข้าใส่เป้าหมาย สหายของ [victim.GetFirstNamePossessive] ก็กระโจนเข้าสู่การต่อสู้! ในระหว่างการต่อสู้ที่ตามมา โชคดีสำหรับข้า นักฆ่าถูกแทงตาย\n\n[victim.GetNameNoTooltip] ได้เรียนรู้ว่า [victim.GetSheHe] ไม่ปลอดภัยในการแข่งขันเหล่านี้... แต่ [victim.GetSheHe] ไม่รู้ว่าควรสงสัยใครในเรื่องนี้"
+chariot_race.4051.agents_fail_snitch: "แต่ ทว่า — ขณะที่สายลับของข้าพุ่งเข้าใส่เป้าหมาย สหายของ [victim.GetFirstNamePossessive] ก็กระโจนเข้าสู่การต่อสู้! นักฆ่าของข้าถูกปราบอย่างรวดเร็ว จากนั้น ขณะทนรับการเตะ ต่อย และทุบตีอวัยวะเพศเล็กน้อย คนไร้ความสามารถก็ #EMP บอกชื่อข้า!#!\n\nข้าเริ่มรู้สึกไม่เป็นที่ต้อนรับในฮิปโปโดรมนี้แล้ว..."
+chariot_race.4051.self_failed_survive_kathisma: "แต่เหยื่อของข้าไม่ร่วงลงไปง่ายๆ [victim.GetFirstNameNoTooltip] จับเสื้อคลุมของข้าแน่น [victim.GetSheHe] ดึงผมข้า ลากข้าเข้าสู่การต่อสู้ที่น่าเกลียด ทหารรักษาการณ์ของจักรวรรดิเข้ามาจับกุมข้าอย่างรวดเร็ว\n\nสูงเหนือฝูงชนอันกว้างใหญ่ ข้าถูกใส่โซ่ตรวน"
+chariot_race.4051.self_failed_survive: "แต่เหยื่อของข้าไม่ร่วงลงไปง่ายๆ [victim.GetFirstNameNoTooltip] จับเสื้อคลุมของข้าแน่น [victim.GetSheHe] ดึงผมข้า ลากข้าเข้าสู่การต่อสู้ที่น่าเกลียด ผู้เห็นเหตุการณ์เข้ามาจับกุมข้าอย่างรวดเร็วและโยนข้ากลับไปอยู่ในกลุ่มทหารรักษาการณ์ของข้า\n\nมีการเผชิญหน้ากันอย่างอึดอัดครู่หนึ่ง ก่อนที่ข้าจะเดินจากไปอย่างฉุนเฉียว"
+chariot_race.4051.self_failed_death: "แต่เหยื่อของข้าไม่ร่วงลงไปง่ายๆ และ — ด้วยนามแห่ง [ROOT.Char.GetFaith.HighGodName] — ขาของข้าไม่มีแรง! ข้าทรุดลงบนที่นั่งของ [victim.GetFirstNamePossessiveNoTooltip] เลือดไหลทะลักออกมาจากบาดแผลมีดที่หน้าอกข้า\n\n[victim.GetNameNoTooltip] ยืนอยู่เหนือข้า ถือมีดอยู่ในมือ กรีดร้องอย่างบ้าคลั่ง แต่ [ROOT.Char.GetFaith.DeathDeityName] เรียกข้าไปแล้ว..."
+
+chariot_race.4051.success_death_stands: "\n\nผู้ชมเบียดเสียดกันที่อัฒจันทร์ ณ จุดที่ตก การเปิดเผยของพวกเขาหลั่งไหลออกมา: [victim.GetNameNoTooltip] ตายแล้ว!"
+chariot_race.4051.success_death_track: "\n\nจังหวะเวลาช่างเหมาะเจาะ รถม้าหักเลี้ยวอย่างรุนแรง พยายามหลีกเลี่ยงสิ่งกีดขวางใหม่ แต่ [Glossary( 'ควอดริกา', 'ควอดริกา')] คันหนึ่งยังคงวิ่งทับร่างที่กองอยู่ของ [victim.GetFirstNamePossessiveNoTooltip] อย่างโหดเหี้ยม เห็นได้ชัดทันที: [victim.GetNameNoTooltip] ตายแล้ว!"
+chariot_race.4051.success_infirm_stands: "\n\nผู้ชมเบียดเสียดกันที่อัฒจันทร์ ณ จุดที่ตก การเปิดเผยของพวกเขาหลั่งไหลออกมา: [victim.GetNameNoTooltip] ยังมีชีวิตอยู่ แม้จะเพียงแค่เล็กน้อย!"
+chariot_race.4051.success_infirm_track: "\n\nผู้ดูแลรีบวิ่งไปยังร่างที่กองอยู่ของ [victim.GetFirstNamePossessiveNoTooltip] ซึ่งนอนอยู่บนผืนทราย ข่าวแพร่สะพัดออกไป: [victim.GetNameNoTooltip] ยังมีชีวิตอยู่ แม้จะเพียงแค่เล็กน้อย!"
+
+chariot_race.4051.a_triumph: "ชัยชนะที่คู่ควรสำหรับฮิปโปโดรม!"
+chariot_race.4051.a: "การเดิมพันที่แย่..."
+
+######
+
+ chariot_race.0400.t: "รางวัลสำหรับผู้ชนะ"
+ chariot_race.0400.desc_emperor: "ในฐานะจักรพรรดิ เป็นเกียรติอย่างยิ่งของข้าที่จะมอบใบปาล์มอันเก่าแก่ให้แก่ [activity.MakeScope.Var('first_place').Char.GetName] เพื่อเป็นเครื่องหมายแห่งชัยชนะของ [activity.MakeScope.Var('first_place').Char.GetHerHis] [activity.MakeScope.Var('second_place').Char.GetName] และ [activity.MakeScope.Var('third_place').Char.GetName] ได้รับคำชมเชยตามลำดับ แต่ละรางวัลเป็นเครื่องพิสูจน์ถึงความสามารถอันยอดเยี่ยมของพวกเขาในสนามประลอง"
+ chariot_race.0400.desc_spectators: "ขณะที่ [activity.MakeScope.Var('first_place').Char.GetName] ได้รับใบปาล์มเพื่อรำลึกถึงชัยชนะของ [activity.MakeScope.Var('first_place').Char.GetHerHis] ฝูงชนก็ปรบมือดังกึกก้อง [activity.MakeScope.Var('second_place').Char.GetName] และ [activity.MakeScope.Var('third_place').Char.GetName] ได้รับคำชมเชย แต่ละรางวัลเป็นเครื่องพิสูจน์ถึงความสามารถอันยอดเยี่ยมของพวกเขาในสนามประลอง"
+ chariot_race.0400.a: "ชัยชนะที่ได้มาอย่างคู่ควร"
+
+ chariot_race.0500.t: "การสิ้นสุดของการละเล่น"
+ chariot_race.0500.desc: "ขณะที่ฮิปโปโดรมสะท้อนเสียงเชียร์ที่จางหายไปของ [Glossary( 'ฮอย โพลลอย', 'HOI_POLLOI_GLOSS')] ข้าใช้เวลาครู่หนึ่งเพื่อไตร่ตรองถึงการแสดงทักษะและการแข่งขันอันน่าตื่นตาตื่นใจ ซึ่งประกอบเป็นวัฒนธรรมของเรา\n\nสำหรับผู้ชนะ คือชัยชนะและเกียรติยศ สำหรับฝูงชน คือความหลงใหลอันเร่าร้อน หัวใจของจักรวรรดิเต้นต่อไปด้วยความกระตือรือร้นที่ไม่มีใครเทียบได้"
+ chariot_race.0500.a: "จนกว่าจะถึงครั้งต่อไป"
+
+ chariot_race.0600.t: "ชัยชนะสำหรับ [activity.MakeScope.Var('first_place').Char.Custom('GetChariotTeamColorPlural')]!"
+ chariot_race.0600.intro: "นักแข่งรถม้าสามคนแรกพุ่งข้ามเส้นชัย! เสียงเชียร์ดังกระหึ่มสำหรับ [activity.MakeScope.Var('first_place').Char.GetName], [activity.MakeScope.Var('second_place').Char.GetName] และ [activity.MakeScope.Var('third_place').Char.GetName] การแสดงความเร็วและทักษะอันน่าทึ่งเป็นเครื่องหมายของการสิ้นสุดการแข่งขัน ฝูงชนที่โห่ร้อง ซึ่งตกตะลึง เพิ่มเสียงโห่ร้องดังกึกก้องให้กับการแสดง\n\n"
+ chariot_race.0600.desc.won_team: "การเดิมพันของข้ากับ [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')] นั้นถูกต้องแล้ว!"
+ chariot_race.0600.desc.won_individual: "การเดิมพันของข้ากับ [ROOT.Var('wager_target').Char.GetFirstNameNoTooltip] นั้นถูกต้องแล้ว!"
+ chariot_race.0600.desc.lost_team: "การเดิมพันของข้ากับ [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')] นั้นคิดผิด..."
+ chariot_race.0600.desc.lost_individual: "การเดิมพันของข้ากับ [ROOT.Var('wager_target').Char.GetFirstNameNoTooltip] นั้นคิดผิด..."
+ chariot_race.0600.desc.dead: "น่าเสียดายที่ [ROOT.Var('wager_target').Char.GetFirst] ไม่มีชีวิตอยู่เพื่อข้ามเส้นชัย"
+ chariot_race.0600.desc.bookmaker: "\n\n[GetCourtPositionType('bookmaker_court_position').GetName()] ของข้า [bookmaker.GetFirstName] ทำเงินได้เป็นกอบเป็นกำจากการพนัน จักรวรรดิร่ำรวยขึ้น [ROOT.Var('gold_gained_emperor').GetValue|V0] ทอง [bookmaker.GetFirstNameNoTooltip] แน่นอน ได้รับส่วนแบ่งตามธรรมเนียมสิบเปอร์เซ็นต์ของ [bookmaker.GetHerHis]"
+ chariot_race.0600.desc.bookmaker.no_money: "\n\n[GetCourtPositionType('bookmaker_court_position').GetName()] ของข้า [bookmaker.GetFirstName] รายงานว่ามีการเดิมพันที่ประสบความสำเร็จจำนวนมากอย่างไม่เคยปรากฏมาก่อน... และด้วยเหตุนี้ จึงเหลือกำไรเพียงเล็กน้อยสำหรับจักรวรรดิ"
+ chariot_race.0600.a.individual: ""ขับได้ยอดเยี่ยม [ROOT.Var('wager_target').Char.GetFirstNameNoTooltip]!""
+ chariot_race.0600.a.team: ""ทำได้ดีมาก [ROOT.Char.Custom('GetChariotTeamColorPluralGlossed')]#EMP !#!""
+ chariot_race.0600.a.lost: "โชคดีครั้งหน้า..."
+ chariot_race.0600.a.dead: "โศกนาฏกรรมอันน่าสยดสยอง..."
+
+ chariot_race_betting_char_outcome_key_title: "การเดิมพันสำเร็จ"
+ chariot_race_betting_char_outcome_key: "[CHARACTER.GetShortUIName|U] เดิมพันสำเร็จว่า [CHARACTER.MakeScope.Var('wager_target').GetCharacter.GetShortUIName|U] จะ [CHARACTER.Custom('GetWinPlaceShow')]\n\n"
+
+ chariot_race_betting_team_outcome_key_title: "$chariot_race_betting_char_outcome_key_title$"
+ chariot_race_betting_team_outcome_key: "[CHARACTER.GetShortUIName|U] เดิมพันสำเร็จว่าอย่างน้อยหนึ่งคนของ [CHARACTER.Custom('GetChariotTeamColorPluralGlossed')] จะ [CHARACTER.Custom('GetWinPlaceShow')]\n\n"
+
+chariot_race_lost_bet_tt: "ท่านเสีย @gold_icon! #N [THIS.Var('wager_value').GetValue]#!"
+
+## ACTIVITY LOG
+ discredit_claimant_speech_success_log_title: "คำปราศรัยของจักรวรรดิประณามผู้มุ่งหวัง"
+ discredit_claimant_speech_success_log: "เชิญชวนเสียงโห่ร้องดูถูก [CHARACTER.GetShortUIName] เปิดการแข่งขันโดยทำลายโอกาสในการปกครองของ [TARGET_CHARACTER.GetShortUINamePossessive]"
+ discredit_claimant_speech_fail_log_title: "คำปราศรัยของจักรวรรดิถูกขัดขวางโดยผู้มุ่งหวัง"
+ discredit_claimant_speech_fail_log: "ในการพยายามลดทอนความชอบธรรมของ [TARGET_CHARACTER.GetShortUIName] อย่างอ่อนแอ [CHARACTER.GetShortUIName] เปิดการแข่งขันด้วยความล้มเหลวที่น่าอับอาย"
+
+ sway_speech_log_title: "คำปราศรัยของจักรวรรดิให้เกียรติแขก"
+ sway_speech_log: "[CHARACTER.GetShortUIName|U] เปิดการแข่งขันโดยยกย่องเกียรติยศและสรรเสริญ [TARGET_CHARACTER.GetShortUIName] ต่อสาธารณะ"
+
+ seduce_speech_log_title: "คำปราศรัยของจักรวรรดิเชิงกวี"
+ seduce_speech_log: "[CHARACTER.GetShortUIName|U] เปิดการแข่งขันด้วยสุนทรพจน์ที่เต็มไปด้วยอุปมาอุปไมยแบบคลาสสิกที่สวยงามผิดปกติ"
+
+ present_heir_speech_log_title: "คำปราศรัยของจักรวรรดิเคียงข้างทายาท"
+ present_heir_speech_log: "[CHARACTER.GetShortUIName|U] เปิดการแข่งขันโดยมี [TARGET_CHARACTER.GetShortUIName] อยู่เคียงข้าง กล่าวอย่างจริงจังถึงตำแหน่งของคนหลังในฐานะผู้สืบทอดที่โปรดปราน"
+ appease_populace_speech_log_title: "คำปราศรัยของจักรวรรดิที่เต็มไปด้วยคำสัญญา"
+ appease_populace_speech_log: "[CHARACTER.GetShortUIName|U] เปิดการแข่งขันด้วยการประกาศที่เอาใจฝูงชน เสนอการประนีประนอมทางการเมืองมากมายแก่สามัญชน"
+
+ legitimacy_speech_success_log_title: "คำปราศรัยของจักรวรรดิ ทำให้มวลชนทึ่ง"
+ legitimacy_speech_success_log: "[CHARACTER.GetShortUIName|U] เปิดการแข่งขันด้วยการแสดงอำนาจและความยิ่งใหญ่อันน่าทึ่ง ปรากฏต่อทุกคนในฐานะบุคลาธิษฐานที่สมบูรณ์แบบของตำแหน่งจักรพรรดิ"
+
+ legitimacy_speech_fail_log_title: "คำปราศรัยของจักรวรรดิที่น่าอับอาย"
+ legitimacy_speech_fail_log: "[CHARACTER.GetShortUIName|U] เปิดการแข่งขันโดยอ้างสัญลักษณ์และพิธีการทุกอย่างที่เป็นไปได้ของตำแหน่งของ [CHARACTER.HerHis] อย่างสิ้นหวัง แต่การยกย่องตนเองทั้งหมดถูกตัดสั้นด้วยการดูถูกเหยียดหยามของฝูงชน"
+
+ legend_speech_log_title: "คำปราศรัยของจักรวรรดิอ้างอิงตำนาน"
+ legend_speech_log: "[CHARACTER.GetShortUIName|U] เปิดการแข่งขันโดยเล่าถึงการกระทำในตำนานที่มอบความสง่างามให้กับญาติพี่น้องของพวกเขา"
+
+ war_speech_log_title: "คำปราศรัยของจักรวรรดิสนับสนุนสงคราม"
+ war_speech_log: "[CHARACTER.GetShortUIName|U] เปิดการแข่งขันโดยเยาะเย้ยผู้ปกครองศัตรู [TARGET_CHARACTER.GetShortUIName] และปลุกระดมฝูงชนด้วยคำสัญญาแห่งชัยชนะ"
+ 
+ influence_speech_log_title: "คำปราศรัยของจักรวรรดิเรียกร้องการรับใช้"
+ influence_speech_log: "[CHARACTER.GetShortUIName|U] เปิดการแข่งขันโดยกล่าวถึงความทุ่มเทของ [CHARACTER.GetHerHis] ต่อประชาชน และความภักดีที่ไม่เปลี่ยนแปลง ซึ่งจะต้องมอบให้เป็นการตอบแทน"
+
+emperor_calms_mourning_crowd_log_title: "[CHARACTER.GetTitleAsNameNoTooltip] ปลอบประโลมฝูงชนที่โศกเศร้า"
+emperor_calms_mourning_crowd_log: "หลังจากการเสียชีวิตอย่างน่าตกใจของนักแข่งรถม้าชั้นนำ [TARGET_CHARACTER.GetShortUIName] [CHARACTER.GetShortUIName] ให้เกียรตินักแข่งที่ล่วงลับและปลอบประโลมความโศกเศร้าของฝูงชน"
+
+noble_calms_mourning_crowd_log_title: "บุคคลสำคัญปลอบประโลมฝูงชนที่โศกเศร้า"
+noble_calms_mourning_crowd_log: "หลังจากการเสียชีวิตอย่างน่าตกใจของนักแข่งรถม้าชั้นนำ [TARGET_CHARACTER.GetShortUIName] [CHARACTER.GetShortUIName] ดึงดูดความสนใจของฝูงชนและบรรเทาความโศกเศร้าของพวกเขา"
+
+emperor_calms_mourning_crowd_fail_log_title: "[CHARACTER.GetTitleAsNameNoTooltip] ล้มเหลวต่อโศกนาฏกรรม"
+emperor_calms_mourning_crowd_fail_log: "การเสียชีวิตอันน่าสลดใจของนักแข่งรถม้าชั้นนำ [TARGET_CHARACTER.GetShortUIName] ทำให้ฝูงชนหวาดกลัวและหูหนวกต่อคำวิงวอนที่ไร้ประโยชน์ของ [CHARACTER.GetShortUINamePossessive] เพื่อความสงบ"
+
+noble_calms_mourning_crowd_fail_log_title: "บุคคลสำคัญล้มเหลวต่อโศกนาฏกรรม"
+noble_calms_mourning_crowd_fail_log: "การเสียชีวิตอันน่าสลดใจของนักแข่งรถม้าชั้นนำ [TARGET_CHARACTER.GetShortUIName] ทำให้ฝูงชนหวาดกลัวและเสียใจ แม้ว่า [CHARACTER.GetShortUINamePossessive] จะพยายามแทรกแซงอย่างโง่เขลาก็ตาม"
+
+moved_estate_log_title: "ประมุขตระกูลย้ายที่ดินของครอบครัว"
+moved_estate_log: "หลังจากการสนทนาที่ยาวนานและฟุ่มเฟือยกับ [CHARACTER.GetShortUIName] ในอัฒจันทร์ [TARGET_CHARACTER.GetShortUIName] ได้ตัดสินใจย้ายครอบครัว [TARGET_CHARACTER.GetHouse.GetName] ไปยัง [CHARACTER.GetCapitalLocation.GetName]"
+
+faction_rally_log_title: "นักปลุกระดมปลุกเร้าเดเมส"
+faction_rally_log: "[CHARACTER.GetShortUIName|U] รวบรวมผู้สนับสนุนทีมแข่งรถโปรดของตนเข้าเป็นกลุ่มก้อนของผู้ร้องเพลง อันธพาล และคนประจบสอพลอ ทำให้ผู้สนับสนุน #EMP เดเมส#! อื่นๆ หวาดกลัว"
+
+attendee_falls_off_stands_log_title: "ผู้เข้าร่วมประสบอุบัติเหตุตก"
+attendee_falls_off_stands_log: "[CHARACTER.GetShortUIName|U] ถูกโยนข้ามราวระเบียงของฮิปโปโดรมอย่างใดอย่างหนึ่ง โดยไม่มีใครให้ตำหนิได้นอกจากทหารรักษาการณ์ที่ไร้ความสามารถและคนไร้ค่าที่ซุ่มซ่าม"
+attendee_hurled_attendee_off_stands_log_title: "ขุนนางเหวี่ยงเหยื่อจากอัฒจันทร์"
+attendee_hurled_attendee_off_stands_log: "ในการแสดงความรุนแรงต่อสาธารณะที่น่าตกใจ [CHARACTER.GetShortUIName] เอาชนะ [TARGET_CHARACTER.GetShortUIName] และเหวี่ยง [TARGET_CHARACTER.GetShortUINameNoTooltip] ลงไปในอากาศที่ว่างเปล่า"
+attendee_hurled_attendee_off_stands_fail_log_title: "การทะเลาะวิวาทระหว่างบุคคลสำคัญ"
+attendee_hurled_attendee_off_stands_fail_log: "[CHARACTER.GetShortUIName|U] และ [TARGET_CHARACTER.GetShortUIName] ทะเลาะวิวาทกันอย่างรุนแรง หลังจาก [TARGET_CHARACTER.GetShortUINameNoTooltip] เริ่มการโจมตีอย่างกะทันหันและมุ่งร้าย"
+attendee_hurled_off_stands_fail_secret_log_title: "ผู้เข้าร่วมถูกทำร้าย"
+attendee_hurled_off_stands_fail_secret_log: "[CHARACTER.GetShortUIName|U] ถูกรุมทำร้าย เกือบถูกฆ่า โดยกลุ่มผู้โจมตีที่ไม่ระบุชื่อ ซึ่งไม่มีใครยอมบอกชื่อนายจ้างของตน"
+attendee_hurled_off_stands_fail_log_title: "ความพยายามลอบสังหารล้มเหลว"
+attendee_hurled_off_stands_fail_log: "[TARGET_CHARACTER.GetShortUIName|U] รอดพ้นจากการถูกเหวี่ยงไปสู่ความตายอย่างหวุดหวิด ผู้ที่พยายามลอบสังหารได้ระบุชื่อ [CHARACTER.GetShortUIName] ว่าเป็นนายจ้างของพวกเขา"
+
+
+### CHARIOTEER TRAIT AND COURT POSITION
+ trait_charioteer_blue: "นักแข่งรถม้าแห่งเวเนตอย (สีน้ำเงิน)"
+ trait_charioteer_blue_desc: "ตัวละครนี้แข่งขันใน [GetActivityType('activity_chariot_race').GetName] สำหรับฝ่ายสีน้ำเงิน"
+ trait_charioteer_blue_1_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] แม้จะเป็นผู้มาใหม่ในสนามแข่งของฮิปโปโดรม แต่ก็แสดงให้เห็นถึงศักยภาพอันยอดเยี่ยม"
+ trait_charioteer_blue_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] เป็นเลิศในศิลปะการแข่งรถม้า แสดงให้เห็นถึงการควบคุมและความชำนาญอันน่าทึ่งขณะที่พวกเขานำทางในสนามแข่งที่อันตรายของฮิปโปโดรม"
+ trait_charioteer_blue_3_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] รู้สึกมีชีวิตชีวาอย่างแท้จริงเมื่อบังเหียนรถม้าสี่ตัวอยู่ในมือของ[ROOT.Char.GetHerHis] กระตุ้นเสียงเชียร์ดังกึกก้องจากฝูงชนในฮิปโปโดรม"
+ trait_track_charioteer_blue: "การแข่งรถม้า"
+ trait_track_charioteer_blue_desc: "ไม่มีอะไรเทียบได้กับการควบคุมพลังของรถม้าสี่ม้าในฮิปโปโดรม แข่งขันกับคู่แข่งเพื่อชิงความเป็นใหญ่ในสนามแข่ง"
+
+ trait_charioteer_green: "นักแข่งรถม้าแห่งปราซินอย (สีเขียว)"
+ trait_charioteer_green_desc: "ตัวละครนี้แข่งขันใน [GetActivityType('activity_chariot_race').GetName] สำหรับฝ่ายสีเขียว"
+ trait_charioteer_green_1_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] แม้จะเป็นผู้มาใหม่ในสนามแข่งของฮิปโปโดรม แต่ก็แสดงให้เห็นถึงศักยภาพอันยอดเยี่ยม"
+ trait_charioteer_green_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] เป็นเลิศในศิลปะการแข่งรถม้า แสดงให้เห็นถึงการควบคุมและความชำนาญอันน่าทึ่งขณะที่พวกเขานำทางในสนามแข่งที่อันตรายของฮิปโปโดรม"
+ trait_charioteer_green_3_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] รู้สึกมีชีวิตชีวาอย่างแท้จริงเมื่อบังเหียนรถม้าสี่ตัวอยู่ในมือของ[ROOT.Char.GetHerHis] กระตุ้นเสียงเชียร์ดังกึกก้องจากฝูงชนในฮิปโปโดรม"
+ trait_track_charioteer_green: "$trait_track_charioteer_blue$"
+ trait_track_charioteer_green_desc: "$trait_track_charioteer_blue_desc$"
+
+ trait_charioteer_white: "นักแข่งรถม้าแห่งเลอคอย (สีขาว)"
+ trait_charioteer_white_desc: "ตัวละครนี้แข่งขันใน [GetActivityType('activity_chariot_race').GetName] สำหรับฝ่ายสีขาว"
+ trait_charioteer_white_1_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] แม้จะเป็นผู้มาใหม่ในสนามแข่งของฮิปโปโดรม แต่ก็แสดงให้เห็นถึงศักยภาพอันยอดเยี่ยม"
+ trait_charioteer_white_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] เป็นเลิศในศิลปะการแข่งรถม้า แสดงให้เห็นถึงการควบคุมและความชำนาญอันน่าทึ่งขณะที่พวกเขานำทางในสนามแข่งที่อันตรายของฮิปโปโดรม"
+ trait_charioteer_white_3_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] รู้สึกมีชีวิตชีวาอย่างแท้จริงเมื่อบังเหียนรถม้าสี่ตัวอยู่ในมือของ[ROOT.Char.GetHerHis] กระตุ้นเสียงเชียร์ดังกึกก้องจากฝูงชนในฮิปโปโดรม"
+ trait_track_charioteer_white: "$trait_track_charioteer_blue$"
+ trait_track_charioteer_white_desc: "$trait_track_charioteer_blue_desc$"
+
+ trait_charioteer_red: "นักแข่งรถม้าแห่งรูซิออย (สีแดง)"
+ trait_charioteer_red_desc: "ตัวละครนี้แข่งขันใน [GetActivityType('activity_chariot_race').GetName] สำหรับฝ่ายสีแดง"
+ trait_charioteer_red_1_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] แม้จะเป็นผู้มาใหม่ในสนามแข่งของฮิปโปโดรม แต่ก็แสดงให้เห็นถึงศักยภาพอันยอดเยี่ยม"
+ trait_charioteer_red_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] เป็นเลิศในศิลปะการแข่งรถม้า แสดงให้เห็นถึงการควบคุมและความชำนาญอันน่าทึ่งขณะที่พวกเขานำทางในสนามแข่งที่อันตรายของฮิปโปโดรม"
+ trait_charioteer_red_3_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] รู้สึกมีชีวิตชีวาอย่างแท้จริงเมื่อบังเหียนรถม้าสี่ตัวอยู่ในมือของ[ROOT.Char.GetHerHis] กระตุ้นเสียงเชียร์ดังกึกก้องจากฝูงชนในฮิปโปโดรม"
+ trait_track_charioteer_red: "$trait_track_charioteer_blue$"
+ trait_track_charioteer_red_desc: "$trait_track_charioteer_blue_desc$"
+
+ court_position_charioteer_blue_trait: "[trait_level_track_xp|E] [GetTrait('charioteer_blue').GetName( GetNullCharacter )]"
+ court_position_charioteer_green_trait: "[trait_level_track_xp|E] [GetTrait('charioteer_green').GetName( GetNullCharacter )]"
+ court_position_charioteer_white_trait: "[trait_level_track_xp|E] [GetTrait('charioteer_white').GetName( GetNullCharacter )]"
+ court_position_charioteer_red_trait: "[trait_level_track_xp|E] [GetTrait('charioteer_red').GetName( GetNullCharacter )]"
+
+ charioteer_trait_xp_gain_message: "ได้รับประสบการณ์การแข่งรถม้า"
+ charioteer_gained_trait_xp_key: "$charioteer_trait_xp_gain_message$"
+ charioteer_gained_trait_xp_key_title: "$charioteer_trait_xp_gain_message$"
+
+ hire_charioteer_decision: "ค้นหานักแข่งรถม้า"
+ hire_charioteer_decision_desc: "[GetCourtPositionType('charioteer_court_position').GetDescription|U]"
+ hire_charioteer_decision_tooltip: "คนรับใช้ของท่านจะแนะนำผู้สมัครที่เหมาะสมจำนวนหนึ่งสำหรับตำแหน่ง [GetCourtPositionType('charioteer_court_position').GetName()]"
+
+ hire_bookmaker_decision: "ค้นหาเจ้ามือรับแทง"
+ hire_bookmaker_decision_desc: "[GetCourtPositionType('bookmaker_court_position').GetDescription|U]"
+ hire_bookmaker_decision_tooltip: "คนรับใช้ของท่านจะแนะนำผู้สมัครที่เหมาะสมจำนวนหนึ่งสำหรับตำแหน่ง [GetCourtPositionType('bookmaker_court_position').GetName()]"
+
+ ### MODIFIERS 
+ soused_at_the_races_modifier: "เมามายที่การแข่งขัน"
+ soused_at_the_races_modifier_desc: "ตัวละครนี้กำลังปฏิบัติต่อการแข่งขันเสมือนเป็นการพักผ่อนที่ค่อนข้างเลินเล่อจากการเมืองที่ระมัดระวัง"
+ emperor_chariot_race_speech_appeasing_populace_modifier: "การเอาใจประชาชน"
+ emperor_chariot_race_speech_appeasing_populace_modifier_desc: "การประหัตประหาร การยกเลิกภาษี และมาตรการที่ค่อนข้างไม่มั่นคงอื่นๆ ได้ดำเนินการที่นี่เพื่อเอาใจมวลชนในเมือง"
+ emperor_chariot_race_legend_speech_modifier: "ตำนานที่ฝูงชนเล่าขาน"
+ emperor_chariot_race_legend_speech_modifier_desc: "ที่ฮิปโปโดรม ผู้คนนับพันได้ยินเรื่องราวอันน่าตื่นเต้นผ่านริมฝีปากของจักรพรรดิ ฝูงชนโห่ร้องต้องการอีก"
+ emperor_chariot_race_speech_neutral_county_modifier: "การแข่งขันและความรื่นเริง"
+ emperor_chariot_race_speech_neutral_county_modifier_desc: "ความรู้สึกพึงพอใจแผ่ซ่านไปในหมู่ประชาชนท้องถิ่นที่รักความสนุกสนาน"
+ emperor_chariot_race_war_speech_modifier: "ฝูงชนเรียกร้องชัยชนะ"
+ emperor_chariot_race_war_speech_modifier_desc: "การกล่าวสุนทรพจน์อันเร่าร้อนต่อฝูงชนจำนวนมากในการแข่งขัน ทำให้ตัวละครนี้ได้รับการสนับสนุนจากประชาชนอย่างกึกก้องสำหรับการทำสงครามของพวกเขา"
+ chariot_race_blues_statue_county_modifier: "นักแข่งรถม้าผู้ทรงเกียรติแห่งเวเนตอย"
+ chariot_race_blues_statue_county_modifier_desc: "หลังจากนักแข่งรถม้าแห่งเวเนตอยประสบอุบัติเหตุอันน่าสลดใจในฮิปโปโดรม พลาดการเข้าเส้นชัยเป็นอันดับหนึ่งไปเพียงเล็กน้อย จักรพรรดิได้สร้างรูปปั้นเพื่อเป็นเกียรติแก่พวกเขา"
+ chariot_race_greens_statue_county_modifier: "นักแข่งรถม้าผู้ทรงเกียรติแห่งปราซินอย"
+ chariot_race_greens_statue_county_modifier_desc: "หลังจากนักแข่งรถม้าแห่งปราซินอยประสบอุบัติเหตุอันน่าสลดใจในฮิปโปโดรม พลาดการเข้าเส้นชัยเป็นอันดับหนึ่งไปเพียงเล็กน้อย จักรพรรดิได้สร้างรูปปั้นเพื่อเป็นเกียรติแก่พวกเขา"
+ chariot_race_whites_statue_county_modifier: "นักแข่งรถม้าผู้ทรงเกียรติแห่งเลอคอย"
+ chariot_race_whites_statue_county_modifier_desc: "หลังจากนักแข่งรถม้าแห่งเลอคอยประสบอุบัติเหตุอันน่าสลดใจในฮิปโปโดรม พลาดการเข้าเส้นชัยเป็นอันดับหนึ่งไปเพียงเล็กน้อย จักรพรรดิได้สร้างรูปปั้นเพื่อเป็นเกียรติแก่พวกเขา"
+ chariot_race_reds_statue_county_modifier: "นักแข่งรถม้าผู้ทรงเกียรติแห่งรูซิออย"
+ chariot_race_reds_statue_county_modifier_desc: "หลังจากนักแข่งรถม้าแห่งรูซิออยประสบอุบัติเหตุอันน่าสลดใจในฮิปโปโดรม พลาดการเข้าเส้นชัยเป็นอันดับหนึ่งไปเพียงเล็กน้อย จักรพรรดิได้สร้างรูปปั้นเพื่อเป็นเกียรติแก่พวกเขา"
+ calmed_after_charioteer_died_spectator: "ความตื่นตระหนกที่ฮิปโปโดรม"
+ calmed_after_charioteer_died_spectator_desc: "ประชาชนที่อยู่ในฮิปโปโดรมตื่นตระหนกหลังจากการเสียชีวิตของนักแข่งรถม้าชั้นนำ จักรพรรดิไม่สามารถ ทำให้พวกเขาสงบลงได้ ดังนั้นผู้อื่นจึงเข้ามาทำหน้าที่แทน"
+
+ CHARIOTEERS_WINDOW_LABEL: "นักแข่งรถม้า"
+ CHARIOTEER_SORT_METHOD_APTITUDE: "เรียงตาม [aptitude|E]"
+ CHARIOTEER_SORT_METHOD_PLACE: "เรียงตามอันดับ"
+
+weak_sow_discord_modifier: "โฆษณาชวนเชื่อปลุกระดม"
+weak_sow_discord_modifier_desc: "ใบปลิวต่อต้านกำลังถูกยัดเยียดเข้าไปในความโกลาหลของท้องถนน"
+normal_sow_discord_modifier: "ฝูงชนกบฏ"
+normal_sow_discord_modifier_desc: "ฝูงชนคนจนในเมืองที่ไม่เป็นระเบียบโห่ร้องชื่อเจ้านายที่พวกเขาต้องการ และดูถูกการปกครองของเจ้านายคนปัจจุบัน"
+strong_sow_discord_modifier: "การจลาจลต่อเนื่อง"
+strong_sow_discord_modifier_desc: "ก้อนหินและขยะถูกขว้างปา ไฟที่หิวโหยถูกจุดขึ้น ขณะที่ฝูงชนในเมืองปะทะกับฝ่ายตรงข้ามทางการเมือง"
+modifier_stacking_chariot_tooltip: "#weak ซ้อนทับกับ [modifiers|E] $sow_discord_intent$ ของผู้เข้าร่วมคนอื่นๆ#!"

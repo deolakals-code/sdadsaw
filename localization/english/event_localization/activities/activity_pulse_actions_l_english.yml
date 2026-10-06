@@ -1,0 +1,205 @@
+﻿l_english: 
+ spouse_skill_diplomacy_improves_title:0 "$activity_pulse_action_spouse_skill_diplomacy_improves$"
+ activity_pulse_action_spouse_skill_diplomacy_improves:0 "ทักษะการทูตของ[first.GetPrimarySpouse.GetShortUINamePossessiveNoTooltip|U] [first.GetWifeHusband|U] พัฒนาขึ้น"
+ 
+ spouse_gives_host_prestige_title:0 "$activity_pulse_action_spouse_gives_host_prestige$"
+ activity_pulse_action_spouse_gives_host_prestige:0 "ทักษะการทูตของ[first.GetPrimarySpouse.GetShortUINamePossessiveNoTooltip|U] [first.GetWifeHusband|U] สร้างความประทับใจให้ [second.GetShortUINameNoTooltip]"
+ 
+ spouse_manages_feast_splendidly_title:0 "$activity_pulse_action_spouse_manages_feast_splendidly$"
+ activity_pulse_action_spouse_manages_feast_splendidly:0 "ทักษะการจัดการของ[first.GetPrimarySpouse.GetShortUINamePossessiveNoTooltip|U] [first.GetWifeHusband|U] ทำให้แขกประหลาดใจ"
+ 
+ spouse_impresses_clergy_title:0 "$activity_pulse_action_spouse_impresses_clergy$"
+ activity_pulse_action_spouse_impresses_clergy:0 "ความรู้ของ[first.GetPrimarySpouse.GetShortUINamePossessiveNoTooltip|U] [first.GetWifeHusband|U] สร้างความประทับใจให้ [second.GetShortUINameNoTooltip]"
+ 
+ spouse_gives_hook_title:0 "$activity_pulse_action_spouse_gives_hook$"
+ activity_pulse_action_spouse_gives_hook:0 "[first.GetPrimarySpouse.GetShortUINamePossessiveNoTooltip|U] [first.GetWifeHusband|U] เกลี้ยกล่อม [second.GetShortUINameNoTooltip]"
+ 
+ relation_gains_friend_title:0 "$activity_pulse_action_relation_gains_friend$"
+ activity_pulse_action_relation_gains_friend:0 "[root_scope.Custom2('RelationToMeShort', SCOPE.sC('first'))|U]ของ[root_scope.GetShortUINamePossessiveNoTooltip|U] ผูกมิตรกับ [second.GetShortUINameNoTooltip]"
+ 
+ children_bonding_title:0 "$activity_pulse_action_relation_gains_friend$"
+ activity_pulse_action_children_bonding:0 "[root_scope.Custom2('RelationToMeShort', SCOPE.sC('first'))|U]ของ[root_scope.GetShortUINamePossessiveNoTooltip|U] ผูกพันกันหลังจากเล่น [first.Custom('child_favorite_toy')] กับ [second.GetShortUINamePossessiveNoTooltip]"
+ 
+ lauded_food_title:0 "$activity_pulse_action_lauded_food$"
+ activity_pulse_action_lauded_food:1 "[first.GetShortUINameNoTooltip] สรรเสริญ[_s(first)] [root_scope.Custom('GetExpensiveMeal')|U]"
+ 
+ guest_of_honor_impressed_title:0 "$activity_pulse_action_guest_of_honor_impressed$"
+ activity_pulse_action_guest_of_honor_impressed:1 "แขกผู้มีเกียรติ [first.GetShortUINameNoTooltip] เพลิดเพลิน[_s(first)] กับ [root_scope.Custom('GetExpensiveMealAlt')|U]"
+ 
+ guest_of_honor_praised_title:0 "$activity_pulse_action_guest_of_honor_praised$"
+ activity_pulse_action_guest_of_honor_praised:0 "แขกผู้มีเกียรติ [first.GetShortUINameNoTooltip] ได้รับการยกย่องว่าเป็นผู้ [first.Custom('FormalComplimentAdjective')|U]"
+ 
+ guest_impressed_by_court_artifact_title:0 "$activity_pulse_action_guest_impressed_by_court_artifact$"
+ activity_pulse_action_guest_impressed_by_court_artifact:1 "[first.GetShortUINameNoTooltip] ประทับใจใน [court_artifacts|E] ของ [second.GetShortUINamePossessiveNoTooltip]"
+ 
+ guest_chokes_on_bone_title:0 "$activity_pulse_action_guest_chokes_on_bone$"
+ activity_pulse_action_guest_chokes_on_bone:1 "[first.GetShortUINameNoTooltip] สำลัก[_s(first)] กระดูก [first.Custom('GetFoodBird')|U]"
+ 
+ guest_brawl_title:0 "$activity_pulse_action_guest_brawl$"
+ activity_pulse_action_guest_brawl:1 "[first.GetShortUINameNoTooltip] ทะเลาะวิวาท[_s(first)] กับคู่ปรับ [first.GetHerHis] [second.GetShortUINameNoTooltip]"
+ 
+ friend_lauds_efforts_title:0 "$activity_pulse_action_friend_lauds_efforts$"
+ activity_pulse_action_friend_lauds_efforts:1 "[first.GetShortUINameNoTooltip] ยกย่อง[_s(first)] ความพยายามของ [root_scope.GetShortUINamePossessiveNoTooltip|U]"
+ 
+ courtly_vassals_appeased_title:0 "$activity_pulse_action_courtly_vassals_appeased$"
+ activity_pulse_action_courtly_vassals_appeased:0 "เหล่าข้าในบังคับชาววังชื่นชมการเตรียมการของ[root_scope.GetShortUINamePossessiveNoTooltip|U]"
+ 
+ spouse_insults_host_title:0 "$activity_pulse_action_spouse_insults_host$"
+ activity_pulse_action_spouse_insults_host:0 "[first.GetPrimarySpouse.GetShortUINamePossessiveNoTooltip|U] [first.GetWifeHusband|U] ป่าวประกาศเรียก [first.GetPrimarySpouse.GetShortUINameNoTooltip|U] ว่าเป็น [first.GetPrimarySpouse.Custom2('InsultNoun', SCOPE.sC('first'))|U]"
+ 
+ host_gains_diplo_xp_title:0 "$activity_pulse_action_host_gains_diplo_xp$"
+ activity_pulse_action_host_gains_diplo_xp:0 "[first.GetShortUINameNoTooltip|U] เจรจากับ [second.GetShortUINameNoTooltip|U]"
+ 
+ host_gains_steward_xp_title:0 "$activity_pulse_action_host_gains_steward_xp$"
+ activity_pulse_action_host_gains_steward_xp:0 "ผู้ค้า [first.Custom('RegionalDrink')|U] สรรเสริญ [first.GetShortUINameNoTooltip|U]"
+ 
+ host_gains_intrigue_xp_title:0 "$activity_pulse_action_host_gains_intrigue_xp$"
+ activity_pulse_action_host_gains_intrigue_xp:1 "[first.GetShortUINameNoTooltip|U] พูดจาหวานหู[_s(first)] กับ [second.GetShortUINameNoTooltip|U]"
+ 
+ ridiculed_food_title:0 "$activity_pulse_action_ridiculed_food$"
+ activity_pulse_action_ridiculed_food:1 "[first.GetShortUINameNoTooltip|U] ตำหนิ[_s(first)] คุณภาพของ [root_scope.Custom('GetExpensiveMeal')|U]"
+ 
+ guest_tells_fantastic_joke_title:0 "$activity_pulse_action_guest_tells_fantastic_joke$"
+ activity_pulse_action_guest_tells_fantastic_joke:1 "[first.GetShortUINameNoTooltip|U] เล่า[_s(first)] เรื่องตลก #EMP สุดยอด#! เกี่ยวกับ [first.Custom('RandomObjectPlural')|U]"
+ every_attending_guest:0 "แขกทุกคนที่เข้าร่วม"
+ 
+ local_mayor_tax_title:0 "$activity_pulse_action_local_mayor_tax$"
+ activity_pulse_action_local_mayor_tax:0 "มีการเรียกเก็บภาษีเพิ่มเติมจาก [city.GetNameNoTooltip]"
+ 
+ tax_rich_local_title:0 "$activity_pulse_action_tax_rich_local$"
+ activity_pulse_action_tax_rich_local:0 "คนท้องถิ่นผู้มั่งคั่งถูกเก็บภาษี"
+ 
+ church_tax_title:0 "$activity_pulse_action_church_tax$"
+ activity_pulse_action_church_tax:0 "ภาษีนักบวชเพิ่มเติม"
+ 
+ increased_control_title:0 "$activity_pulse_action_increased_control$"
+ activity_pulse_action_increased_control:0 "การควบคุมใน [second.GetNameNoTooltip] ได้รับการฟื้นฟู"
+ 
+ courtier_friendship_title:0 "$activity_pulse_action_courtier_friendship$"
+ activity_pulse_action_courtier_friendship:1 "[first.GetShortUIName|U] ผูกมิตร[_s(first)] กับ [second.GetShortUIName]"
+ 
+ courtiers_became_lovers_title:0 "$activity_pulse_action_courtiers_became_lovers$"
+ activity_pulse_action_courtiers_became_lovers:0 "[first.GetShortUIName|U] และ [second.GetShortUIName] กลายเป็นคู่รักกัน"
+ 
+ courtiers_became_rivals_title:0 "$activity_pulse_action_courtiers_became_rivals$"
+ activity_pulse_action_courtiers_became_rivals:0 "[first.GetShortUIName|U] และ [second.GetShortUIName] กลายเป็นคู่แข่งกัน"
+ 
+ courtiers_got_into_fight_title:0 "$activity_pulse_action_courtiers_got_into_fight$"
+ activity_pulse_action_courtiers_got_into_fight:0 "[first.GetShortUIName|U] ทะเลาะวิวาทกับ [second.GetShortUIName]"
+ 
+ courtier_improved_skill_title:0 "$activity_pulse_action_courtier_improved_skill$"
+ activity_pulse_action_courtier_improved_skill:1 "[first.GetShortUIName|U] พัฒนา[_s(first)] ทักษะ"
+ 
+ courtier_theological_debate_title:0 "$activity_pulse_action_courtier_theological_debate$"
+ activity_pulse_action_courtier_theological_debate:0 "[first.GetShortUIName|U] โต้เถียงเรื่องเทววิทยากับ [second.GetShortUIName]"
+ 
+ courtier_got_sick_title:0 "$activity_pulse_action_courtier_got_sick$"
+ activity_pulse_action_courtier_got_sick:0 "[first.GetShortUIName|U] ล้มป่วย"
+ 
+ courtier_learned_language_title:0 "$activity_pulse_action_courtier_learned_language$"
+ activity_pulse_action_courtier_learned_language:0 "[first.GetShortUIName|U] เรียนรู้ภาษา[second.GetCulture.GetLanguage.GetName]"
+ 
+ liege_local_tax_title:0 "$activity_pulse_action_liege_local_tax$"
+ activity_pulse_action_liege_local_tax:0 "ภาษี \"[first.Custom('GetObjectToBalanceOnNose')|U]\" ถูกจัดตั้งขึ้นใน [second.GetBaseNameNoTooltip]"
+ 
+ local_baron_tax_title:0 "$activity_pulse_action_local_baron_tax$"
+ activity_pulse_action_local_baron_tax:0 "[first.GetShortUIName|U] ถูกบีบบังคับให้จ่ายภาษี"
+ 
+ liege_local_benevolence_title:0 "$activity_pulse_action_liege_local_benevolence$"
+ activity_pulse_action_liege_local_benevolence: "การปรากฏตัวอย่างเมตตา"
+ 
+ liege_intimidated_courtier_title:0 "$activity_pulse_action_liege_intimidated_courtier$"
+ activity_pulse_action_liege_intimidated_courtier: "ข้าราชสำนักถูกข่มขู่"
+ 
+ liege_visited_benevolence_title:0 "$activity_pulse_action_liege_visited_benevolence$"
+ activity_pulse_action_liege_visited_benevolence:0 "การพัฒนาใน [second.GetBaseNameNoTooltip] ดีขึ้น"
+ 
+ levied_tax_title:0 "$activity_pulse_action_levied_tax$"
+ activity_pulse_action_levied_tax:0 "มีการเรียกเก็บภาษีข้าราชสำนัก"
+
+ loyalty_pledge_title: "$activity_pulse_action_loyalty_pledge$"
+ activity_pulse_action_loyalty_pledge: "[second.GetShortUIName|U] ปฏิญาณตน [second.GetHerHis] ภักดีต่อ [first.GetShortUIName|U]"
+
+ nobles_cheer_title: "$activity_pulse_action_nobles_cheer$"
+ activity_pulse_action_nobles_cheer: "[first.GetShortUIName|U] ได้รับการแซ่ซ้องจากเหล่าขุนนาง"
+
+ received_blessing_title: "$activity_pulse_action_received_blessing$"
+ activity_pulse_action_received_blessing: "[second.GetShortUINameNoTooltip|U] อัญเชิญพรแห่งสวรรค์สู่รัชสมัยของ [first.GetShortUINameNoTooltip|U]"
+
+ regalia_impresses_attendees_title: "$activity_pulse_action_regalia_impresses_attendees$"
+ activity_pulse_action_regalia_impresses_attendees: "[regalia.GetName] ของ [first.GetShortUINamePossessiveNoTooltip] สร้างความประทับใจแก่ฝูงชน"
+
+ supporters_bond_title: "$activity_pulse_action_supporters_bond$"
+ activity_pulse_action_supporters_bond: "[first.GetShortUINameNoTooltip] ผูกมิตรกับ [second.GetShortUINameNoTooltip] จากการสนับสนุน [host.GetShortUINameNoTooltip]"
+
+ detractors_bond_title: "$activity_pulse_action_detractors_bond$"
+ activity_pulse_action_detractors_bond: "[first.GetShortUINameNoTooltip] ผูกมิตรกับ [second.GetShortUINameNoTooltip] จากการชิงชัง [host.GetShortUINameNoTooltip]"
+
+ befriend_loyalists_title: "$activity_pulse_action_befriend_loyalists$"
+ activity_pulse_action_befriend_loyalists: "[host.GetShortUINameNoTooltip|U] ผูกมิตรกับ [first.GetShortUINameNoTooltip] จากการสนับสนุนพิธีราชาภิเษกของ [host.GetShortUINamePossessiveNoTooltip]"
+
+ supporter_stresses_detractor_title: "$activity_pulse_action_supporter_stresses_detractor$"
+ activity_pulse_action_supporter_stresses_detractor: "[second.GetShortUINameNoTooltip] โต้เถียงอย่างเผ็ดร้อนกับ [first.GetShortUINameNoTooltip]"
+
+ praised_king_together_title: "$activity_pulse_action_praised_king_together$"
+ activity_pulse_action_praised_king_together: "[second.GetShortUINameNoTooltip] และ [first.GetShortUINameNoTooltip] ร่วมกันสรรเสริญ [host.GetShortUINameNoTooltip]"
+
+ bonded_over_help_title: "$activity_pulse_action_bonded_over_help$"
+ activity_pulse_action_bonded_over_help: "[second.GetShortUINameNoTooltip] คอยให้ความช่วยเหลืออย่างสม่ำเสมอ"
+
+ beautiful_choir_song_title: "$activity_pulse_action_beautiful_choir_song$"
+ activity_pulse_action_beautiful_choir_song: "[first.GetShortUINameNoTooltip] ได้รับการปลอบประโลมจากคณะนักร้องประสานเสียง"
+
+ taking_a_break_title: "$activity_pulse_action_taking_a_break$"
+ activity_pulse_action_taking_a_break: "[first.GetShortUINameNoTooltip] หยุดพักผ่อนชั่วครู่"
+
+ heir_diplomacy_boost_title: "$activity_pulse_action_heir_diplomacy_boost$"
+ activity_pulse_action_heir_diplomacy_boost: "[first.GetShortUINameNoTooltip] สังเกตการณ์การดำเนินการทางการทูต"
+
+ heir_stewardship_boost_title: "$activity_pulse_action_heir_stewardship_boost$"
+ activity_pulse_action_heir_stewardship_boost: "[first.GetShortUINameNoTooltip] ได้ยินบทสนทนาเกี่ยวกับการบริหารดินแดน"
+
+ heir_learning_boost_title: "$activity_pulse_action_heir_learning_boost$"
+ activity_pulse_action_heir_learning_boost: "[first.GetShortUINameNoTooltip] สังเกตการณ์พิธีกรรมในพิธีราชาภิเษก"
+ 
+ festival_friendship_title: "$activity_pulse_action_festival_friendship$"
+ activity_pulse_action_festival_friendship: "[first.GetShortUIName|U] ผูกมิตร[_s(first)] กับ [second.GetShortUIName]"
+
+ festival_romance_title: "$activity_pulse_action_festival_romance$"
+ activity_pulse_action_festival_romance: "[first.GetShortUIName|U] และ [second.GetShortUIName] ตกหลุมรักกันในเทศกาล"
+
+ festival_rivalry_title: "$activity_pulse_action_festival_rivalry$"
+ activity_pulse_action_festival_rivalry: "[first.GetShortUIName|U] และ [second.GetShortUIName] ทะเลาะกันเรื่องความคิดเห็นเกี่ยวกับเทศกาล"
+
+ beautiful_festival_title: "$activity_pulse_action_beautiful_festival$"
+ activity_pulse_action_beautiful_festival: "[first.GetShortUIName|U] ตะลึงในความงดงามของสีสันในเทศกาล"
+
+ festival_learning_title: "$festival_learning$"
+ festival_learning: "[first.GetShortUINameNoTooltip] สอนแนวคิดใหม่แก่ [second.GetShortUINameNoTooltip] ในระหว่างเทศกาล"
+
+ liege_festival_presence_title: "$activity_pulse_action_liege_festival_presence$"
+ activity_pulse_action_liege_festival_presence: "[first.GetShortUINameNoTooltip] รับรองเทศกาลนี้"
+
+ festival_cohesion_title: "$activity_pulse_action_festival_cohesion$"
+ activity_pulse_action_festival_cohesion: "[first.GetShortUINameNoTooltip] และ [second.GetShortUINameNoTooltip] กระชับสายสัมพันธ์ของ [first.GetHouse.GetNameNoTooltip]"
+
+ festival_join_bloc_title: "$activity_pulse_action_festival_join_bloc$"
+ activity_pulse_action_festival_join_bloc: "[first.GetShortUINameNoTooltip] โน้มน้าว [second.GetShortUINameNoTooltip] ให้เข้าร่วมกลุ่ม [bloc.GetName|V]"
+
+ festival_remove_from_bloc_title: "$activity_pulse_action_festival_remove_from_bloc$"
+ activity_pulse_action_festival_remove_from_bloc: "[first.GetShortUINameNoTooltip] โน้มน้าว [second.GetShortUINameNoTooltip] ให้ออกจากกลุ่ม [bloc.GetName|V]"
+
+ festival_influence_title: "$activity_pulse_action_festival_influence$"
+ activity_pulse_action_festival_influence: "[first.GetShortUINameNoTooltip] ทำให้การมาเยือนของ [first.GetHerHis] เป็นที่ประจักษ์ในเทศกาล"
+
+ liege_festival_prosperity_title: "$activity_pulse_action_liege_festival_prosperity$"
+ activity_pulse_action_liege_festival_prosperity: "[first.GetShortUINameNoTooltip] เผยแพร่ความเจริญรุ่งเรืองของเทศกาล"
+
+ festival_prayer_title: "$activity_pulse_action_festival_prayer$"
+ activity_pulse_action_festival_prayer: "[first.GetShortUIName|U] สวดภาวนา ณ [first.GetCurrentLocation.GetCounty.GetFaith.HouseOfWorship|U]"
+
+ festival_flowers_title: "$activity_pulse_action_festival_flowers$"
+ activity_pulse_action_festival_flowers: "[first.GetShortUIName|U] ชื่นชมการจัด [first.GetCurrentLocation.Custom('get_region_flower_type')|U]"
+
+ festival_house_relation_increase_title: "$activity_pulse_action_festival_house_relation_increase$"
+ activity_pulse_action_festival_house_relation_increase: "[first.GetShortUIName|U] และ [second.GetShortUINameNoTooltip] พูดคุยเกี่ยวกับผลประโยชน์ร่วมกันของตระกูล"

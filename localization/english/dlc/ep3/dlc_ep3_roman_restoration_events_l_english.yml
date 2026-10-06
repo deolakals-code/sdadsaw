@@ -1,0 +1,47 @@
+﻿l_english: 
+ 
+ ep3_roman_restoration.0001.t: "ความฝันของจัสติเนียน"
+ ep3_roman_restoration.0001.desc: "สายลมอุ่นแห่งเมดิเตอร์เรเนียนพัดพาเสียงกระซิบของจักรวรรดิที่ใกล้จะถึงความเป็นนิรันดร์\n\nณ ที่นี่ ภายในกำแพงอันเก่าแก่ของ [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitly] ความทะเยอทะยานแห่งยุคสมัยที่ล่วงลับไปแล้วกำลังเรียกหา ความฝันอันไม่ดับสูญของจัสติเนียน — การแสวงหาอย่างไม่หยุดยั้งของพระองค์เพื่อรวมเศษซากที่กระจัดกระจายของโรม — กำลังกวักมือเรียกข้า\n\nนี่คือภาระของข้า หรือสิทธิพิเศษของข้า ที่จะฟื้นคืนความฝันเหล่านี้? ที่จะเย็บปักถักร้อยอาณาเขตที่แตกสลายเข้าด้วยกันภายใต้ธงผืนเดียว ดังที่พระองค์เคยพยายามทำ?"
+ ep3_roman_restoration.0001.a: "#EMP เอกเซ โรมานี!#!" # หมายเหตุ: คงวลีภาษาละตินไว้ตามต้นฉบับ
+ ep3_roman_restoration.0001.a.tt: "[decision|E] [GetDecisionWithKey('restore_roman_empire_decision').GetName] พร้อมใช้งานแล้ว"
+
+ ep3_roman_restoration.0100.t: "ความฝันของจัสติเนียนเป็นจริง"
+ ep3_roman_restoration.0100.desc: "วันนี้เป็นวันมงคลยิ่ง เพราะวันนี้จักรวรรดิแห่งชาวโรมันได้ตระหนักถึงศักยภาพอันเก่าแก่ของตน\n\nจากทุกมุมของจักรวรรดิ สามารถได้ยินเสียงโห่ร้องแห่งความยินดีและความภาคภูมิใจ: #EMP เอกเซ โรมานี! ไชโย ซีซาร์!#!\n\nแต่บัดนี้ข้าต้องนำทางกิจการอันกว้างใหญ่นี้ เราจะสร้างโรมนี้ให้เป็น เช่นไร? ท่ามกลางบรรพบุรุษมากมายของข้าและอำนาจโรมันในรูปแบบต่างๆ นานา ทางเลือกก็แคบลง\n\nเราจะดำเนินต่อไปตามวัฒนธรรมล่าสุดของเราหรือไม่? หรือเราจะยอมรับประเพณีของบรรพบุรุษของเราอย่างเต็มที่?"
+ ep3_roman_restoration.0100.a: "จักไม่มีการประนีประนอม"
+ ep3_roman_restoration.0100.b: "ขอให้มีความพอประมาณในทุกสิ่ง"
+ ep3_roman_restoration.0100.c: "เราปรับตัวได้โดยไม่หลงทาง"
+ ep3_roman_restoration.hard_mode: "@warning_icon! #XB;EMP ท่านจะต้องเผชิญกับความท้าทายดังต่อไปนี้:#! #indent_newline:4 #X \n$EFFECT_LIST_BULLET$[peasant_factions|E] ทั้งหมดใน [realm|E] ของท่านจะมุ่งเป้ามาที่ท่าน\n$EFFECT_LIST_BULLET$เกิด [wars|E] บ่อยขึ้นจาก [titles|E] ระดับราชอาณาจักรอื่น ๆ\n$EFFECT_LIST_BULLET$การรุกรานของมองโกลเร็วขึ้น#!#!"
+ ep3_roman_restoration.end_hard_mode: "@alert_icon! #alert_bold การทดลองเหล่านี้จะสิ้นสุดลงเมื่อท่านพิชิตแผนที่ทั้งหมด หรือโดยการใช้ [decision|E] [GetDecisionWithKey( 'split_roman_empire_decision' ).GetName]"
+ ep3_roman_restoration.invasion_cb: "ท่านเข้าถึง [pax_romana_invasion_casus_belli|E]"
+ ep3_roman_restoration.household_gods_tenet: "[core_tenet|E] [GetFaithDoctrine('tenet_household_gods').GetBaseName] ถูกปลดล็อกสำหรับ [GetFaithByKey( 'hellenic_pagan' ).GetName]"
+ ep3_roman_restoration.easy_mode: "#P;BOLD;EMP เกมจะดำเนินไปตามปกติ#!"
+ uses_custom_caesar_flavourization_tt: "ต่อจากนี้ไป ท่านจะเป็นที่รู้จักในนาม #HIGH $custom_imperator_caesar_augustus$#!"
+ may_choose_to_convert_hellenic_desc: "อาจเลือกที่จะเปลี่ยนไปนับถือ [GetFaithByKey( 'hellenic_pagan' ).GetName]"
+
+ ep3_roman_restoration.0101.intro: "ประกาศฉบับหนึ่งได้ถูกออก ณ ราชธานี [scoped_emperor.GetCapitalLocation.GetBaronyNameExplicitly] โดยฝีมือของ [scoped_emperor.GetName] ดินแดนอันห่างไกลที่เคยเป็นของชาวโรมันโบราณได้รวมเป็นหนึ่งอีกครั้งโดย [scoped_emperor.GetCulture.GetCollectiveNoun] ด้วยความทะเยอทะยานอันยิ่งใหญ่ดุจซีซาร์ในอดีต\n\n"
+ ep3_roman_restoration.0101.hellenic: "ไม่มีการประนีประนอมใดๆ เกิดขึ้น ด้วยการฟื้นฟู [scoped_emperor.GetFaith.GetName] เทพเจ้าโบราณจึงได้รับการบูชาอีกครั้งในวิหารอันยิ่งใหญ่ ก้องกังวานด้วยบทสวดเพื่อ [scoped_emperor.GetFaith.HighGodName] และ [scoped_emperor.GetFaith.KnowledgeGodName] การฟื้นคืนชีพของพิธีกรรมนอกรีตนี้ขัดแย้งอย่างชัดเจนกับการครอบงำของศาสนาคริสต์ในยุโรป นำเสนอความท้าทายอย่างกล้าหาญต่อระเบียบศาสนาที่จัดตั้งขึ้น\n\n"
+ ep3_roman_restoration.0101.orthodox: "ด้วยการสนับสนุนอย่างลึกซึ้งจากคริสตจักร [scoped_emperor.GetFaith.GetName] การสวมมงกุฎเป็นการยืนยันสิทธิ์อันศักดิ์สิทธิ์อย่างเคร่งขรึม ได้รับพรจาก [scoped_emperor.GetFaith.GetReligiousHead.GetTitledFirstName] [scoped_emperor.GetFaith.GetReligiousHead.GetHerselfHimself] รากฐานทางจิตวิญญาณของจักรวรรดิหยั่งรากลึก สอดประสานศรัทธาเข้ากับความทะเยอทะยานของจักรวรรดิอย่างใกล้ชิด\n\n"
+ ep3_roman_restoration.0101.fallback: "ไม่ว่าจะยอมรับลัทธิความเชื่อที่แปลกใหม่หรือยึดมั่นในความเชื่อของบรรพบุรุษ [scoped_emperor.GetTitleAsNameNoTooltip] ได้ทำเครื่องหมายการขึ้นครองราชย์ของตนด้วยการปฏิบัติที่เป็นเอกลักษณ์ ซึ่งสะท้อนถึงแนวโน้มทางศาสนาที่แตกต่างกันของตน กำหนดเวทีสำหรับอัตลักษณ์ทางวัฒนธรรมที่หลากหลายภายในจักรวรรดิ\n\n"
+ ep3_roman_restoration.0101.outro: "บัดนี้อำนาจอันน่าเกรงขามได้ทอดเงาเหนือผืนโลก สัญญาถึงอนาคตที่อำนาจและความกล้าหาญของเพื่อนบ้านจะต้องถูกทดสอบอย่างที่ไม่เคยมีมาก่อน"
+ ep3_roman_restoration.0101.a: "ขอ [ROOT.Char.GetFaith.HighGodName] ทรงช่วยเราทุกคน..."
+
+ ep3_roman_restoration.0300.t: "การปกครองที่ผิดพลาด"
+ ep3_roman_restoration.0300.desc: ""ฝ่าบาท ข่าวที่ข้าพเจ้าถือมานั้นน่ากังวลอย่างยิ่ง ข้าพเจ้ามาเพื่อขออภัยโทษสำหรับการตัดสินใจที่ผิดพลาดของข้าพเจ้า นโยบายบางอย่างที่ข้าพเจ้าบังคับใช้ได้นำความไม่สงบและความวุ่นวายมาสู่ [inefficient_governor.GetPrimaryTitle.GetName]," [inefficient_governor.GetTitledFirstName] บอกข้า\n\n"ตลาดร้าง ผู้คนทั่วไปกระซิบถึงการกบฏ และขุนนางท้องถิ่นก็โกรธเคือง ความมั่นคงของธีมของข้าแขวนอยู่บนเส้นด้าย เนื่องจากความเห็นนิยมของประชาชนทั่วทั้งอาณาเขตของข้าลดลงอย่างรวดเร็ว"\n\n"ความไว้วางใจของประชาชนในการปกครองของฝ่าบาท — ผ่านการกระทำของ [inefficient_governor.GetTitleAsNameNoTooltip] ที่หลงผิดคนหนึ่ง — กำลังเผชิญกับการทดสอบที่รุนแรงที่สุด...""
+ ep3_roman_restoration.0300.a: "ข้าจะแก้ไขเรื่องนี้เอง"
+ ep3_roman_restoration.0300.a.success: "ท่านฟื้นฟูความเห็นนิยมของประชาชนได้บางส่วน"
+ ep3_roman_restoration.0300.a.failure: "เคาน์ตีสูญเสียความเห็นนิยมของประชาชน"
+ ep3_roman_restoration.0300.b: "เจ้าถูกไล่ออก"
+ ep3_roman_restoration.0300.c: "ราชสีห์มิใส่ใจความเห็นของเหล่าแกะ"
+ ep3_roman_restoration.0300.efficiency: "สิ่งนี้เกิดขึ้น เนื่องจาก [governor_efficiency|E] ที่ย่ำแย่ของ [inefficient_governor.GetNamePossessive] #WEAK ([inefficient_governor.MakeScope.ScriptValue('governor_efficiency_presented')|0])#!"
+ ep3_roman_restoration.0300.every_sub_realm_county: "ทุก [county|E] ที่ถือครองโดย [inefficient_governor.GetName]"
+ ep3_story_cycle_restoring_rome_faction_discontent: "การฟื้นฟูโรม: $VALUE|=+0$"
+ ep3_restoring_rome_citizen_army_name: "กองทัพพลเมือง"
+
+ ep3_roman_restoration.0500.t: "การปล้นสะดมชายแดน"
+ ep3_roman_restoration.0500.desc: ""[ROOT.Char.GetTitleAsNameNoTooltip] ข้าพเจ้ามาเข้าเฝ้าฝ่าบาทในวันนี้ด้วยฝีเท้าอันรวดเร็ว" [marshal.GetCouncilTitle] ของข้า [marshal.GetFirstName] เริ่มกล่าว "เนื่องจากหน่วยสอดแนมรายงานว่ากองกำลังภายใต้ธงของ [target_kingdom.GetName] ได้ข้ามพรมแดนของเราภายใต้ความมืดมิดยามค่ำคืน\n\n"พวกเขาใช้ [target_county.GetName] เป็นเป้าหมายหลัก ปล้นสะดมดินแดนของเราและคุกคามความปลอดภัยของประชาชนของเรา เห็นได้ชัดว่า [target_kingdom.GetTitleAsNameNoTooltip] เชื่อว่าอำนาจอันกว้างใหญ่และมหาศาล เช่นเราจะไม่สังเกตเห็นการล่วงละเมิดนี้""
+ ep3_roman_restoration.0500.a: "ให้ [target_kingdom.GetHerHim] ทดสอบความมุ่งมั่นของข้า แล้วดูว่า [target_kingdom.GetSheHe] จะพบอะไร"
+
+# Modifiers
+ restore_rome_devastated_county_opinion_modifier: "ปกครองผิดพลาด"
+ restore_rome_lowered_county_opinion_modifier: "การปกครองที่น่ารำคาญ"
+ restore_rome_recuperated_county_opinion_modifier: "ได้รับการยอมรับจากจักรพรรดิ"

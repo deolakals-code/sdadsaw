@@ -1,0 +1,29 @@
+﻿l_english: 
+ courtier_guest_management.0001.t:4 "[SCOPE.sC('liege').Custom2('RelationToMeShort', SCOPE.sC('child'))|U] กำลังออกจาก [liege.Custom('GetCourt')|U] ของท่าน"
+ courtier_guest_management.desc:0 "[SCOPE.sC('liege').Custom2('RelationToMeShort', SCOPE.sC('child'))] ของท่าน, [child.GetShortUIName], มิต้องคงอยู่ใน [liege.Custom('GetCourtConcept')] ของท่านอีกต่อไป และจะจากไปในไม่ช้า"
+
+ courtier_guest_management.0500.t:0 "[SCOPE.sC('host').Custom2('RelationToMeShort', SCOPE.sC('guest'))|U] กำลังออกจาก [liege.Custom('GetCourt')|U] ของท่าน"
+ courtier_guest_management.0500.desc:0 "[SCOPE.sC('liege').Custom2('RelationToMeShort', SCOPE.sC('guest'))] ของท่าน, [guest.GetTitledFirstName], มิต้องคงอยู่ใน [liege.Custom('GetCourtConcept')] ของท่านอีกต่อไป และจะจากไปในไม่ช้าพร้อมกับครอบครัวของ [guest.GetHerHis]"
+
+ courtier_guest_management.0102.t:0 "โอกาสสุดท้ายของข้า"
+ courtier_guest_management.0102.desc:0 "[courtier.GetTitledFirstName] ได้ตัดสินใจว่าเวลา [courtier.GetHerHis] ใน [capital.GetNameNoTierNoTooltip] ได้สิ้นสุดลงแล้ว เหล่าคนรับใช้ได้เก็บหีบ [courtier.GetHerHis] และ [courtier.GetSheHe] ได้กล่าวคำอำลา [courtier.GetHerHis] แล้ว\n\nพร้อมกับการจากไปของ [courtier.GetTitledFirstNameNoTooltip] คือสิทธิ์การอ้าง [courtier.GetHerHis] เหนือ [courtier_claim.GetName] หากข้าต้องการกดดันสิทธิ์นั้นและ ทำให้ [courtier.GetHerHim] เป็นเจ้าประเทศราชของข้า นี่คือโอกาสสุดท้ายของข้าที่จะ ทำให้ [courtier.GetHerHim] อยู่ต่อ"
+
+ courtier_guest_management.0102.a:0 "ให้เวลาข้าหนึ่งปี แล้วข้าจะกดดันสิทธิ์การอ้างของเจ้า!"
+ courtier_guest_management.0102.a.rl.desc:0 "ในเวลาหนึ่งปี"
+ courtier_guest_management.0102.a.stay:0 "หากท่านได้กดดันสิทธิ์การอ้างของ [courtier.GetTitledFirstNamePossessiveNoTooltip]"
+ courtier_guest_management.0102.a.stay.tt:0 "[courtier.GetShortUIName|U] ยังคงอยู่ในราชสำนัก"
+ courtier_guest_management.0102.a.leave:0 "หากท่าน #bold ยังไม่ได้#! กดดันสิทธิ์การอ้างของ [courtier.GetTitledFirstNamePossessiveNoTooltip]"
+ courtier_guest_management.0102.b:0 "ขอให้การเดินทางของเจ้ารวดเร็วและปลอดภัย"
+ courtier_guest_management.1001.t:0 "แขกคนสำคัญมาถึงแล้ว"
+ courtier_guest_management.1001.claimant.desc:0 "[exceptional_guest.GetShortUIName|U] มี [claim|E] เหนือ [guest_claim.GetName]"
+ courtier_guest_management.1001.marriage_start.desc:0 "[exceptional_guest.GetShortUIName|U] เหมาะที่จะเป็น [exceptional_guest.Custom('WifeHusband')] ที่ดีสำหรับ"
+ courtier_guest_management.1001.marriage_me.desc:1 "ท่าน"
+ courtier_guest_management.1001.marriage_my_children.desc:0 "บุตรคนหนึ่งของท่าน"
+ courtier_guest_management.1001.marriage_my_sons.desc:1 "บุตรชายคนหนึ่งของท่าน"
+ courtier_guest_management.1001.marriage_my_daughters.desc:1 "บุตรสาวคนหนึ่งของท่าน"
+ courtier_guest_management.1001.marriage_my_child.desc:1 "[marriage_child.Custom('GetDaughterSon')] ของข้า [marriage_child.GetShortUIName]"
+ courtier_guest_management.1001.vassal.desc:0 "[exceptional_guest.GetShortUIName|U] เหมาะที่จะเป็น [vassal|E] ที่ภักดีและมีความสามารถ"
+ courtier_guest_management.1001.commander.desc:0 "[exceptional_guest.GetShortUIName|U] เหมาะที่จะเป็น [commander|E] ที่มีความสามารถ"
+ courtier_guest_management.1001.knight.desc:0 "[exceptional_guest.GetShortUIName|U] เป็นนักสู้ที่มีประสบการณ์"
+ courtier_guest_management.1001.physician.desc:0 "[exceptional_guest.GetShortUIName|U] เป็นผู้รักษาที่ผ่านการฝึกฝน"
+

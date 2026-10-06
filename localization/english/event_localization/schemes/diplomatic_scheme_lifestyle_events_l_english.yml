@@ -1,0 +1,26 @@
+﻿l_english: 
+ diplomatic_scheme_lifestyle.1001.t:0 "ผลประโยชน์เชิงยุทธศาสตร์"
+ diplomatic_scheme_lifestyle.1001.desc:0 "ทีแรกข้าแลกเปลี่ยนสาส์นกับ [target.GetTitledFirstName] เพื่อทำความรู้จัก [target.GetHerHim] ทว่าในไม่ช้าเราก็พบสิ่งที่สนใจร่วมกัน และบัดนี้เรากำลังส่งความคิดเห็นเกี่ยวกับกลยุทธ์ทางการทหารกันไปมาเป็นหน้าๆ!"
+ diplomatic_scheme_lifestyle.1001.a:0 "ข้ารออ่านความคิด [target.GetHerHis] เพิ่มเติมแทบไม่ไหว"
+ diplomatic_scheme_lifestyle.1001.b:0 "ข้ามีความคิดใหม่ที่มั่นใจว่าจะ ทำให้ [target.GetHerHim] ประทับใจ!"
+
+ diplomatic_scheme_lifestyle.3001.t:0 "ทำความรู้จัก [target.GetHerHim|U]"
+ diplomatic_scheme_lifestyle.3001.desc:0 "ข้ารู้ว่าคนส่วนใหญ่อาจไม่เห็นด้วย แต่การจับตาดู [target.GetTitledFirstName] อย่างใกล้ชิดย่อมไม่ใช่เรื่องเลวร้าย อย่างน้อยนั่นคือสิ่งที่ข้าบอกตนเองขณะสั่งให้สายลับบันทึกทุกสิ่งที่ [target.GetHerHis] ชอบและไม่ชอบ"
+ diplomatic_scheme_lifestyle.3001.a:0 "เพื่อชนะใจ [target.GetHerHis] ข้าต้องรู้จัก [target.GetHerHim] เสียก่อน!"
+ diplomatic_scheme_lifestyle.3001.a.tt:0 "#F แน่นอนว่า [target.GetSheHe] จะเข้าใจ!#!"
+ diplomatic_scheme_lifestyle.3001.b:0 "บางทีพวกเขาอาจจะรู้อะไรบางอย่าง..."
+ diplomatic_scheme_lifestyle.3001.b.tt:0 "#F ข้าต้องทบทวนกลยุทธ์ของข้าใหม่#!"
+
+ diplomatic_scheme_lifestyle.3101.t:0 "การเผชิญหน้า"
+ diplomatic_scheme_lifestyle.3101.desc_opening_good:1 ""แม้ว่าทั้งหมดนี้จะค่อนข้างน่าพอใจ แต่ข้าไม่แน่ใจว่าเจตนาของท่านคืออะไร"\n\n[target.GetTitledFirstName] [target.Custom('quirk_pos_present')] ก่อนจะกล่าวต่อ "และท่านก็อยู่แถวนี้ตลอดเวลา... โปรดปล่อยข้าไว้ตามลำพังชั่วครู่ได้หรือไม่?""
+ diplomatic_scheme_lifestyle.3101.desc_opening_bad:0 ""เรื่องนี้ต้องหยุด!"\n\n[target.GetTitledFirstName] [target.Custom('quirk_neg_present')] ก่อนจะกล่าวต่อ "ข้าไม่แน่ใจว่าเป้าหมายของท่านคืออะไร [ROOT.Char.GetFirstNameNoTooltip] แต่หากเป็นการเพิ่มความไม่ชอบของข้าที่มีต่อท่าน มันก็สำเร็จแล้วอย่างแน่นอน!""
+ diplomatic_scheme_lifestyle.3101.a:0 "ข้าจะถอยห่างไปสักพัก"
+ diplomatic_scheme_lifestyle.3101.a.tt:0 "#F แต่ข้ายังไม่ยอมแพ้!#!"
+ diplomatic_scheme_lifestyle.3101.b:0 "ข้าจะไม่ยอมแพ้!"
+ diplomatic_scheme_lifestyle.3101.b.tt:0 "#F แน่นอนว่า [target.GetSheHe] ไม่ได้หมายความเช่นนั้นจริงๆ#!"
+ diplomatic_scheme_lifestyle.3101.c:0 "หากนี่คือสิ่งที่ [ROOT.Char.GetSheHe] รู้สึก ก็อาจเป็นการดีที่สุดที่จะยกเลิกเรื่องนี้"
+
+ diplomatic_scheme_lifestyle.3201.t:0 "การดูแคลน"
+ diplomatic_scheme_lifestyle.3201.desc:0 ""เจ้า [sacrificial_agent.Custom2('InsultAdjective', ROOT.Char)] [sacrificial_agent.Custom2('InsultNoun', ROOT.Char)] [sacrificial_agent.GetFirstNameNoTooltip] นั่นเอา แต่เดินป้วนเปี้ยน — ข้าหาความสงบไม่ได้เลย!"\n\nข้าพบ [target.GetTitledFirstName] ในขณะที่[target.GetHerHis]กำลังเดือดดาล โดยพุ่งเป้าไปที่ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sacrificial_agent'))] ของข้า [sacrificial_agent.GetTitledFirstName]"
+ diplomatic_scheme_lifestyle.3201.a:0 "ใช่! และท่าทางที่ [sacrificial_agent.GetSheHe] มักจะ [sacrificial_agent.Custom('quirk_neg_present')]... #EMP อึ๋ย#!!"
+ diplomatic_scheme_lifestyle.3201.b:0 "[sacrificial_agent.GetSheHe|U] เป็น [sacrificial_agent.GetWomanMan] ที่ [sacrificial_agent.Custom('quirk_pos_adjective')] มาก!"

@@ -1,0 +1,81 @@
+﻿l_english: 
+#Shelter from the Storm
+ bp1_yearly.0100.t:0 "ที่พักพิงจากพายุ"
+ bp1_yearly.0100.desc:0 "ท้องฟ้าเป็นลางร้าย ลมร่ำไห้: พายุใหญ่กำลังมา!"
+
+ bp1_yearly.0100.sedentary_traveller:0 "\n\nกระท่อมซอมซ่อตั้งเด่นในมุมประหลาดของดินแดนนี้ สกปรกและเล็กจ้อย"
+ bp1_yearly.0100.nomadic_traveller:0 "\n\nไม่มีเวลาพอที่จะตั้งค่ายของเราก่อนพายุจะมาถึง"
+ bp1_yearly.0100.sedentary_host:0 "เราได้พบบ้านชนบทหลังเดี่ยวที่พอใช้ได้... แต่ที่พักอาศัยนั้นเป็นของ[ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('host'))]ที่น่ารังเกียจของข้า [host.GetFirstName]\n\nข้ากำลังถูกพายุที่โหมกระหน่ำซัดสาด"
+ bp1_yearly.0100.nomadic_host:0 "โชคดีที่เราได้พบค่ายพักที่เหมาะสม โชคร้าย... ที่ผู้อยู่ภายในคือชนเผ่าของ[ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('host'))]ที่น่ารังเกียจของข้า [host.GetFirstName]\n\nข้ากำลังถูกพายุที่โหมกระหน่ำซัดสาด"
+
+ bp1_yearly.0100.lover_welcome:0 "บางที [host.GetFirstNameNoTooltip] อาจอยู่ไกล? บางทีโชคชะตาอาจเมตตา — และ[host.Custom2('RelationToMeShort', SCOPE.sC('lover'))]ผู้มีเสน่ห์ของ[host.GetHerHis] [lover.GetFirstName] อยู่ที่นี่เพื่อต้อนรับข้า?"
+ bp1_yearly.0100.friend_welcome:0 "บางที [host.GetFirstNameNoTooltip] อาจอยู่ไกล? บางทีโชคชะตาอาจเมตตาและ — [host.Custom2('RelationToMeShort', SCOPE.sC('befriend'))]ผู้[befriend.Custom('ComplimentAdjective')]ของ[host.GetHerHis] [befriend.GetFirstName] อยู่ที่นี่เพื่อต้อนรับข้า?"
+
+ bp1_yearly.0100.close:0 "ไม่ทางใดก็ทางหนึ่ง... คืนนี้คงจะยาวนาน"
+
+ bp1_yearly.0100.a:0 "ยิ้มเข้าไว้ พวกเจ้า!"
+ bp1_yearly.0100.a.tt:0 "การต้อนรับอันเลวร้ายรออยู่..."
+ bp1_yearly.0100.a_title:0 "ค่ำคืนอันทุกข์ทนและหวาดระแวง"
+ bp1_yearly.0100.a.success_chance:0 "[schemes|E]ใดๆ ที่[host.GetShortUINameNoTooltip]มีต่อท่านจะได้รับ 15 [success_chance|E]"
+
+ bp1_yearly.0100.b:0 "บางทีนี่อาจเป็นที่ที่ความลับของครอบครัวซ่อนอยู่..."
+ bp1_yearly.0100.b.tt:0 "ท่านเข้าพักพิง... และฉวยโอกาสสอดแนม"
+ bp1_yearly.0100.b.tt_success:0 "ค่ำคืนนี้บังเกิดผล"
+ bp1_yearly.0100.b.secrets:0 "ท่านได้เรียนรู้[secret|E]ที่เป็นของ [host.GetFirstName] หรือ[family|E]ของ[host.GetHerHis]"
+ bp1_yearly.0100.b.tt_failure:0 "ท่านไม่พบความลับใดๆ ซ่อนอยู่"
+ bp1_yearly.0100.b.tt_crit_failure:0 "ท่านถูกจับได้ว่าบุกรุก"
+
+ bp1_yearly.0100.c:0 "เหตุใดต้องบาดหมางกับ [befriend.GetFirstNameNoTooltip]...?"
+ bp1_yearly.0100.c.tt:0 "เพื่อ [befriend.GetTitledFirstName], ท่านสามารถแสดงความร่าเริงได้"
+ bp1_yearly.0100.c.tt_success:0 "ท่านผูกสัมพันธ์อย่างใกล้ชิดกับ[host.Custom2('RelationToMeShort', SCOPE.sC('befriend'))]ของศัตรู"
+ bp1_yearly.0100.c.tt_failure:0 "เสน่ห์ของท่านได้รับการชื่นชม"
+ bp1_yearly.0100.c.tt_crit_failure:0 "ท่านเผชิญค่ำคืนอันเลวร้ายแห่งการโต้เถียง"
+
+ bp1_yearly.0100.d:0 "ไม่มีอะไรเหมือนการนัดพบอย่างลับๆ..."
+ bp1_yearly.0100.d.tt:0 "[host.Custom2('RelationToMeShort', SCOPE.sC('lover'))]ของ[host.GetFirstNamePossessiveNoTooltip]อาจอยู่ข้างใน กระตือรือร้นที่จะปลดเปลื้องเสื้อผ้าที่เปรอะเปื้อนจากการเดินทางของท่าน..."
+ bp1_yearly.0100.d.tt.success:0 "[lover.GetSheHe|U]รอท่านอยู่"
+ bp1_yearly.0100.d.tt.sex:0 "ท่านนอนกับ [lover.GetShortUINameNoTooltip]"
+ bp1_yearly.0100.d.tt_failure:0 "ค่ำคืนอันโดดเดี่ยว"
+ bp1_yearly.0100.d.tt_no_sex:0 "ไม่มีวี่แววของ[lover.GetShortUINameNoTooltip]ผู้มีเสน่ห์"
+
+ bp1_yearly.0100.e:0 "ดาบของเราจะประกันที่พักพิง"
+ bp1_yearly.0100.e.tt:0 "แสร้งยิ้มรึ? ไม่ ท่านเลือกที่จะมัดเจ้าบ้านเสียดีกว่า"
+ bp1_yearly.0100.e.wounded_chance:0 "[prowess|E]ของท่านตัดสินว่าท่านจะได้รับบาดเจ็บหรือไม่"
+ bp1_yearly.0100.e.tt_success:0 "ภายใต้การกำบังของพายุ ท่านมิอาจหยุดยั้งได้"
+ bp1_yearly.0100.e.tt_failure:0 "ท่านถูกโยนกลับออกไปสู่สภาพอากาศอันเลวร้าย"
+
+ bp1_yearly.0100.f:0 "หลุมในดินคงจะดีกว่า"
+ bp1_yearly.0100.f.tt_success:0 "ท่านทนต่อสภาพอากาศอันเลวร้าย... อย่างหวุดหวิด"
+ bp1_yearly.0100.f.sick:0 "ท่านอาจกลายเป็น[GetTrait('ill').GetName( GetNullCharacter )]"
+ bp1_yearly.0100.f.tt_failure:0 "ค่ำคืนยาวนาน พายุโหดร้าย"
+ bp1_yearly.0100.f.very_sick:0 "ท่านอาจติดเชื้อ[GetTrait('pneumonic').GetName( GetNullCharacter )]"
+
+ bp1_yearly.0101.t:0 "พายุในถิ่นทุรกันดาร"
+ bp1_yearly.0101.desc:0 "ในใจ ข้าขอบคุณ[ROOT.Char.GetFaith.FertilityGodName]ที่ทรงกัน[lover.Custom2('RelationToMeShort', SCOPE.sC('host'))]ที่น่ารังเกียจของ[lover.GetTitledFirstNamePossessive]ให้ออกห่างจากสถานที่อันต่ำต้อยนี้\n\nขณะที่พายุกำลังทำสงครามกับสวรรค์ ความเกรี้ยวกราดของมันดังก้องอยู่รอบตัวเรา,"
+
+ bp1_yearly.0101.gentle_flirt:0 "[lover.GetFirstNameNoTooltip]ตัวสั่นเข้ามาใกล้ขึ้นทุกขณะ ความกลัวนี้เป็นเพียงการแสดงหรือไม่? บางสิ่งเคลื่อนไหวในดวงตาของ[lover.GetHerHis] อยู่หลังรอยยิ้มที่เป็นทางการของ[lover.GetHerHis] ดวงตาของ[lover.GetHerHis|U]บอกข้าว่า... ใช่"
+ bp1_yearly.0101.protective_flirt:0 "[lover.GetFirstNameNoTooltip]แสดงท่าทีมั่นใจ ปกป้อง ข้ายิ้มให้[lover.GetHerHim]อย่างขอบคุณ — อย่างเต็มใจ — และไม่นาน... [lover.GetSheHe]ก็ตกอยู่ในความเงียบอันเปี่ยมสุข [lover.GetSheHe|U]เป็นของข้า"
+
+ bp1_yearly.0101.finish:0 "\n\nมุมที่เรามาอยู่ด้วยกันนั้นมืด มืดสนิท และไม่มีสิ่งใดที่เราทำ กับร่างกายอันหิวกระหายของ[lover.GetHerHis] ภายใต้เสื้อผ้าที่เปรอะเปื้อนดินของข้า จะสามารถได้ยินผ่านความโกลาหลของธรรมชาติได้\n\nเสียงเดียวที่แตะริมฝีปากข้าคือคำสาปแช่งชื่อของ[lover.Custom2('RelationToMeShort', SCOPE.sC('host'))]ของ[lover.GetHerHis] และในชั่วขณะนั้นเอง ข้าก็ ทำให้ชัยชนะของข้าสมบูรณ์"
+
+ bp1_yearly.0101.a:0 "แต่เป็น#EMPท่าน#!ที่ข้าใฝ่ฝันถึง, [lover.GetFirstNameNoTooltip]!"
+ bp1_yearly.0101.b:0 "คำดูถูกอันโอชะเพียงคำเดียว"
+
+ bp1_yearly.0102.opening:0 "[host.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ bp1_yearly.0102.desc:0 "หลับสบายดีหรือไม่? เพลิดเพลินกับค่ำคืนแห่งการต้อนรับของคนของข้า,"
+
+ bp1_yearly.0102.desc_weak:0 "กับการพักผ่อนเท้าอันรุ่งโรจน์ของท่านรึ?"
+ bp1_yearly.0102.desc_powerful:0 "กับการฝันว่าท่านสามารถเป็นข้าได้รึ?"
+
+ bp1_yearly.0102.uneventful_night:0 "\n\nข้าได้ยินมาว่าท่านเก่งกาจในการเป็นขอทานไร้เสน่ห์ น่ารำคาญ และเปรอะเปื้อนมูลสัตว์"
+ bp1_yearly.0102.failed_snoop:0 "\n\nสิทธิ์ของท่านในฐานะเจ้าเหนือหัวมีขีดจำกัด ข้าได้ ทำให้ทุกคนรู้ถึงการไม่ใส่ใจต่อสิทธิ์เหล่านั้นของท่านแล้ว"
+ bp1_yearly.0102.warm_welcome:0 "\n\nหากเพียง แต่ข้าอยู่ที่นั่นเพื่อไล่ท่านไป [befriend.GetTitledFirstName]มีรสนิยมแย่เสมอมา"
+ bp1_yearly.0102.cold_welcome:0 "\n\nเจ้าบ้านของท่าน [befriend.GetTitledFirstName]บัดนี้ได้เรียนรู้ที่จะเกลียดชังท่านเหมือนที่ข้าเกลียด หัวใจของข้าเปี่ยมล้นด้วยความสุข"
+ bp1_yearly.0102.erotic_welcome:0 "\n\nหากข้าอยู่ที่นั่น ท่านคงถูกโยนออกไปตั้งแต่คำพูดน่ารังเกียจคำแรกที่ท่านพึมพำกับ[host.Custom2('RelationToMeShort', SCOPE.sC('lover'))]ของข้าแล้ว เจ้าอสรพิษ"
+ bp1_yearly.0102.attack_success:0 "\n\nท่านโจมตีคนของข้าเหมือนสัตว์ที่ตื่นกลัว ท่านโจมตีโดยไร้เกียรติหรือความสุภาพ ตามวิถีของท่าน"
+ bp1_yearly.0102.attack_fail:0 "\n\nไม่รึ? อ้อ ใช่แล้ว ท่าน#EMPพยายาม#!ที่จะทำร้ายเรา แต่ถูกโยนกลับเข้าไปในถิ่นทุรกันดารเหมือนสัตว์ร้ายที่ท่านเป็น ความพยายามของท่านช่างน่าสมเพช"
+
+ bp1_yearly.0102.close:0 "\n\nขอให้พายุครั้งต่อไปกวาดล้างท่านไปจากพื้นโลก"
+
+ bp1_yearly.0102.a:0 "ลงทุนกับเตียงที่นุ่มกว่านี้สิ เจ้าคนหยาบคาย!"
+ bp1_yearly.0102.b:0 "ไม่ใช่ท้องฟ้าที่ท่านควรกลัว, [host.GetFirstNameNoTooltip]..."

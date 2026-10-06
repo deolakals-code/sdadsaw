@@ -1,0 +1,18 @@
+﻿l_english: 
+
+ mpo_nomad_legacy_track_name: "วิถีชนเผ่าเร่ร่อน"
+ mpo_nomad_legacy_track_desc: "ด้วยว่าทั่วทั้งพิภพนั้นเราจักต้องยึดครอง"
+
+ mpo_nomad_legacy_1_name: "จ้าวแห่งทุ่งสเตปป์"
+ 
+ mpo_nomad_legacy_2_name: "แผ่นดินโลกันตร์"
+ mpo_nomad_legacy_2_effect_raid_intent_global: "ปลดล็อก #EMP $raze_intent$#! (เจตนาปล้นสะดม [raid_intent|E])"
+ 
+ mpo_nomad_legacy_3_name: "พงศาวดารลับ"
+ mpo_nomad_legacy_3_effect_peace_acceptance_global: "การยอมรับข้อตกลงสันติภาพ [peace|E]: #positive_value 10#!"
+ 
+ mpo_nomad_legacy_4_name: "ทัณฑ์สวรรค์"
+ mpo_nomad_legacy_4_effect_kheshig_maa_global: "ปลดล็อก [GetMaA('kheshig').GetName] (ทหารชำนัญศึก [men_at_arms|E])"
+ 
+ mpo_nomad_legacy_5_name: "ศานติสุขแห่งมหาข่าน"
+ mpo_nomad_legacy_5_effect_pax_mongolica_global: "ปลดล็อก [GetDecisionWithKey('mpo_pax_mongolica_decision').GetName] (การตัดสินใจ [decision|E])"

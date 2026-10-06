@@ -1,0 +1,43 @@
+﻿l_english: 
+ court_chaplain_task.0201.opening:0 "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
+
+ court_chaplain_task.0301.desc:0 "ข้าได้ค้นคว้าเอกสารทั้งเก่าแก่และ... ที่มาไม่แน่ชัดนัก ในที่สุดข้าก็มีหลักฐานเพียงพอที่จะอ้างสิทธิ์ว่าท่านคือ [ROOT.Char.GetLadyLord|U] โดยชอบธรรมแห่ง [county.GetName]!\n\nสิ่งที่ขาดไปก็มีเพียงสินบนเล็กน้อยเท่านั้น..."
+ court_chaplain_task.0301.a:0 "จัดการให้เรียบร้อย!"
+ court_chaplain_task.0301.b:0 "ไม่ ข้าทำไม่ได้"
+ court_chaplain_task.0301.b.tt:0 "สูญเสียความคืบหน้าในการสร้างสิทธิ์เรียกร้องทั้งหมด"
+
+ court_chaplain_task.0302.desc:1 "ข้าได้ค้นคว้าเอกสารทั้งเก่าแก่และ... ที่มาไม่แน่ชัดนัก ในที่สุดข้าก็มีหลักฐานเพียงพอที่จะอ้างสิทธิ์ว่าท่านคือ [ROOT.Char.GetLadyLord|U] โดยชอบธรรมแห่ง [county.GetName].\n\nยิ่งไปกว่านั้น ข้าสามารถโต้แย้งได้ว่าท่านคือ [ROOT.Char.GetLadyLord|U] โดยชอบธรรมแห่ง [duchy.GetName] ด้วยซ้ำ!"
+ court_chaplain_task.0302.desc_heretic_addition:0 "ข้าได้ค้นคว้าเอกสารทั้งเก่าแก่และ... ที่มาไม่แน่ชัดนัก ในที่สุดข้าก็มีหลักฐานเพียงพอที่จะอ้างสิทธิ์ว่าท่านคือ [ROOT.Char.GetLadyLord|U] โดยชอบธรรมแห่ง [county.GetName].\n\nเมื่อพิจารณาว่า [duchy_holder.GetFirstName] โชคร้ายที่ยังคงยืนกรานที่จะเป็น #EMP [duchy_holder.GetFaith.GetAdherentName]#! ข้าจึงสามารถโต้แย้งได้ว่าท่านมีสิทธิ์เรียกร้องเหนือ [duchy.GetName] – โดยสิทธิ์อันศักดิ์สิทธิ์!"
+ court_chaplain_task.0302.a:0 "เสนอสิทธิ์เรียกร้องของข้าเหนือ [county.GetNameNoTierNoTooltip]."
+ court_chaplain_task.0302.b:0 "ใช่! ทั้งหมดของ [duchy.GetNameNoTierNoTooltip] จะต้องเป็นของข้า!"
+ 
+ court_chaplain_task.0311.t:0 "สิทธิ์เรียกร้องเหนือ [county.GetNameNoTierNoTooltip]!"
+ court_chaplain_task.0311.opening:0 "เป็นเวลาหลายเดือนแล้วที่ [councillor.GetTitledFirstName], [councillor.GetCouncilTitle] ของ [councillor_liege.GetTitledFirstNamePossessive], ได้ขุดคุ้ยสัญญาปลอมและประวัติศาสตร์ที่ แต่งขึ้น"
+ court_chaplain_task.0311.end:0 "\n\nบัดนี้ [councillor_liege.GetTitleTierName] [councillor_liege.GetFirstName] กล้าทำราวกับว่าทั้งหมดนั้นก่อให้เกิดสิทธิ์เรียกร้องอันชอบธรรมเหนือ [county.GetName]!"
+ court_chaplain_task.0311.a:0 "เรื่องโกหกทั้งเพ!"
+
+ court_chaplain_task.0312.a:0 "[councillor_liege.GetFirstNameNoTooltip] ไม่มีความละอายใจบ้างเลยหรือ?!"
+
+ court_chaplain_task.0313.t:0 "สิทธิ์เรียกร้องเหนือ [county.GetNameNoTierNoTooltip]!"
+ court_chaplain_task.1001.notification:0 "การเทศนาหลักคำสอนนอกรีต"
+ court_chaplain_task.1002.notification:0 "วาทศิลป์ย่ำแย่"
+ court_chaplain_task.1101.notification:0 "วาทศิลป์น่าประทับใจ"
+ court_chaplain_task.2001.notification:0 "การต่อต้านการเปลี่ยนศาสนา"
+ court_chaplain_task.2002.notification:0 "การต่อต้านการเปลี่ยนศาสนาในหมู่ประชาชน"
+ court_chaplain_task.2101.notification:0 "การเปลี่ยนศาสนาอย่างกระตือรือร้น"
+ court_chaplain_task.2102.notification:1 "[councillor.GetFaith.HouseOfWorshipPlural|U] ใหม่ถูกก่อตั้งขึ้น"
+ court_chaplain_task.2103.notification:0 "ผู้เปลี่ยนศาสนาใหม่มาอาสาสมัคร"
+
+ court_chaplain_task.3001.t:0 "การบ่อนทำลายระเบียบ"
+ court_chaplain_task.3001.desc:1 "[councillor.GetCouncilTitle] ของข้า, [councillor.GetFirstName], ดูวิตกกังวลอย่างยิ่งเมื่อ [councillor.GetSheHe] มาหาข้า\n\n\"เรื่องได้ปรากฏว่าข้ากำลัง... สืบหาการมีอยู่ของสิทธิ์เรียกร้องอันยุติธรรมและชอบธรรมสำหรับท่านเหนือ [county.GetName]. กล่าวได้ว่า ข้าหลวงของท่านหลายคนไม่พอใจที่ [ROOT.Char.GetTitleTierName] ของพวกเขาจะเพิกเฉยต่อความภักดีและกระทำการต่อต้านพวกเขา เช่นนี้\""
+ court_chaplain_task.3001.a:0 "เจ้าปล่อยให้พวกเขาจับได้ได้อย่างไร?!"
+ court_chaplain_task.3002.notification:0 "ถูกกล่าวหาว่าสร้างสิทธิ์เรียกร้อง"
+
+ court_chaplain_task.3003.opening:0 "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]"
+ court_chaplain_task.3003.desc:0 "ข้าได้ทราบมาว่า [councillor.GetCouncilTitle] ของท่าน, [councillor.GetFirstName], กำลังดำเนินการสร้างสิทธิ์เรียกร้องปลอมเหนือ [county.GetName]. ข้าขอวิงวอนให้ท่านระลึกไว้ว่าท่านเป็น [ROOT.Char.GetTitleTierName] โดยสิทธิ์ มิใช่โดยความโลภ"
+ court_chaplain_task.3003.a:0 "ข้ารู้ว่าข้ากำลังทำอะไรอยู่, [vassal.GetFirstNameNoTooltip]."
+ court_chaplain_task.3003.b:0 "จงรู้ที่ต่ำที่สูงเสียบ้าง, [vassal.GetTitledFirstNameNoTooltip]."
+
+ court_chaplain_task.3004.opening:0 "[target.Custom2('AppropriateGreeting', ROOT.Char)]"
+ court_chaplain_task.3004.desc:0 "เป็นที่ประจักษ์ชัดแล้วว่า [councillor.GetCouncilTitle] ของท่านกำลังดำเนินการเพื่อสร้างสิทธิ์เรียกร้องอันเป็นเท็จและปลอมแปลงขึ้นเหนือ [county.GetName]. อย่าได้คิดว่าการกระทำอันไร้เกียรติ เช่นนี้จะผ่านไปโดยไม่มีการตอบโต้"
+ court_chaplain_task.3004.a:0 "โอ้ แต่ที่นี่มัน #EMP มี#! มูลเหตุสำหรับสิทธิ์เรียกร้องอยู่"

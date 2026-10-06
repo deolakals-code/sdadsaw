@@ -1,0 +1,550 @@
+﻿l_english: 
+ activity_roaming: "การเดินทางไกล"
+ activity_roaming_desc: "ออกเดินทางโดยลำพังไปยังมุมเร้นลับของอาณาจักร การผจญภัยนี้เป็นการพักผ่อนจากความกดดันของวิถีชีวิตในราชสำนัก เปิดโอกาสให้ท่านได้พักผ่อนท่ามกลางป่าเก่าแก่และทิวเขาเตี้ย ๆ"
+ activity_roaming_host_desc: "$BULLET_WITH_TAB$[opinion_i|E][opinion|E]\n$BULLET_WITH_TAB$[stress_loss_i|E][stress_loss|E]\n$BULLET_WITH_TAB$[prestige_experience_i|E][prestige_experience|E]\n$BULLET_WITH_TAB$อาจได้รับ [trait|E] [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] หรือ [trait_level_track_xp|E]"
+ activity_roaming_guest_desc: ""
+ activity_roaming_conclusion_desc: "การเดินทางครั้งนี้มอบโอกาสอันยอดเยี่ยมในการละวางภาระการปกครองลงชั่วขณะ และโอบรับการพักผ่อนจากความกดดันที่เกี่ยวข้อง"
+ activity_roaming_selection_tooltip: "ออกเดินทาง ละวางภาระการปกครองลงชั่วครู่\n\nผลตอบแทนที่คาดหวัง:\n$activity_roaming_host_desc$"
+ activity_roaming_destination_selection: "[terrain|E] ที่ห่างไกลยิ่งขึ้น จะเพิ่ม [prestige_experience|E] และ [stress_loss|E] ที่ได้รับจาก [activity|E] นี้"
+ honorary_guest_traveling_companion_for_host: "$honorary_guest_traveling_companion$"
+ honorary_guest_traveling_companion_desc_for_host: ""
+ honorary_guest_traveling_companion: "สหายร่วมเดินทาง"
+ activity_roaming_guest_help_text: "[activity_guest|E] จะได้รับโอกาสลด [stress|E] และได้รับ [prestige_experience|E]"
+ phase_roaming: "กำลังเดินทางไกล"
+ phase_roaming_desc: ""
+ activity_roaming_predicted_cost: "ค่าใช้จ่ายของ [hike|E] ได้รับผลกระทบหลักจากระยะเวลา การเดินทางไกลที่นานขึ้นจะมีโอกาสมากขึ้น แต่ก็จะเสียค่าใช้จ่ายมากขึ้น เช่นกัน"
+ hike_province_requirement_landless: "[adventurers|E] และ [characters|E] ที่ไม่มี [domain|E] สามารถ [hike_i][hike|E] ได้เฉพาะใน [barony|E] ที่ตนอยู่หรือบารอนีข้างเคียงเท่านั้น"
+ hike_province_requirement_landed: "ท่านสามารถ [hike_i][hike|E] ได้เฉพาะภายใน [realm|E] ของท่านเท่านั้น"
+
+ roaming_option_travel_length: "ระยะเวลาเดินทาง"
+ roaming_short_length: "การเดินทางไกลระยะสั้น"
+ roaming_short_length_desc: "$EFFECT_LIST_BULLET$ [activity|E] จะสั้นลง และมีโอกาสน้อยลง\n\n#weak การเดินทางสั้น ๆ ออกห่างจากราชสำนักและเหล่าขุนนางจะช่วยขจัดความสงสัยทั้งหมดในใจข้าได้#!"
+ roaming_long_length: "การเดินทางไกลระยะยาว"
+ roaming_long_length_desc: "$EFFECT_LIST_BULLET$ [activity|E] จะยาวนานขึ้น และมอบโอกาสมากขึ้น\n\n#weak ข้าต้องการการเดินทางอันยาวนานเพื่อหลีกหนีจากทุกสิ่ง ช่วงเวลาที่จะได้อยู่กับตนเองอย่างแท้จริง#!"
+
+ roaming_befriend_intent: "ผูกมิตร"
+ roaming_befriend_intent_desc: "ท่านแสวงหาโอกาสที่จะได้รับ [opinion|E] จากสหายร่วมเดินทางของท่าน อย่าลืมพาใครสักคนไปด้วย!"
+
+ roaming_mystic_intent: "นักพรต"
+ roaming_mystic_intent_desc: "ท่านปรารถนาช่วงเวลาที่จะได้อยู่ตามลำพังกับความคิดของตนเอง มีโอกาสสูงขึ้นที่จะได้รับ [trait_level_track_xp|E]"
+
+ roaming_storyteller_intent: "นักเล่าเรื่อง"
+ roaming_storyteller_intent_desc: "ท่านมองหาช่วงเวลาที่จะกลายเป็นเรื่องเล่าที่ดีและน่าจดจำ! จะเพิ่ม [prestige_experience|E] ที่ได้รับจากกิจกรรม"
+
+ activity_roaming_province_desc: "ท่านเดินทางไปยัง [ROOT.Province.GetName]"
+ activity_roaming_astronomical_phenomenon: "\n#P ++ ปรากฏการณ์ทางดาราศาสตร์#!"
+ activity_roaming_good_terrain: "\n#P ++ [ROOT.Province.GetTerrain.GetNameNoTooltip]#! ([terrain|E])"
+ activity_roaming_ok_terrain: "\n#P + [ROOT.Province.GetTerrain.GetNameNoTooltip]#! ([terrain|E])"
+ activity_roaming_empty_holding: "\n#P + ไม่มีสิ่งปลูกสร้าง#! "
+
+ no_holding_roaming: "[ThisLocation.GetTerrain.GetNameNoTooltip] แห่ง [ThisLocation.GetNameNoTooltip]"
+ no_holding_roaming_tooltip: "[ThisLocation.GetTerrain.GetNameNoTooltip] แห่ง [ThisLocation.GetName]"
+ holding_roaming: "[ThisLocation.Custom('GetTerrainTypePlural')] รอบ [ThisLocation.GetNameNoTooltip]"
+ holding_roaming_tooltip: "[ThisLocation.Custom('GetTerrainTypePlural')] รอบ [ThisLocation.GetName]"
+
+ roaming_fame_reward_tt: "[GetPerk('roaming_perk').GetName( GetNullCharacter )] [perk|E]: ท่านได้รับ #P [fame_value|0]#! [prestige_experience|E]"
+
+ ### Events
+ # Arrival Event
+ roaming_intro_terrain_snippet_forest: "หมู่ไม้สูงตระหง่าน แสงตะวันสาดส่องเล่นลายบนพื้นดินปกคลุมด้วยมอส กลิ่นหอมสดชื่นของธรรมชาติอบอวลอยู่ในอากาศ"
+ roaming_intro_terrain_snippet_forest_2: "เสียงนกขับขานจากยอดไม้สูง และสรรพสัตว์เคลื่อนไหวผ่านพงหญ้าเบื้องล่าง"
+ roaming_intro_terrain_snippet_forest_winter: "ภูมิประเทศอันสงบเงียบที่หมู่ไม้ยืนต้นดุจทหารยามผู้ทรหด มีเพียงเสียงย่ำหิมะอันแผ่วเบาที่ทำลายความเงียบเป็นครั้งคราว"
+ roaming_intro_terrain_snippet_forest_winter_2: "ผืนป่าอันเงียบสงัดที่พื้นดินถูกปกคลุมอย่างนุ่มนวลด้วยหิมะแห่งเหมันต์ และหมู่ไม้ประดับประดาด้วยเกล็ดหิมะ"
+ roaming_intro_terrain_snippet_forest_monsoon: "เสียงฝนตกกระทบใบไม้เป็นจังหวะดังอยู่รอบตัวเรา หยาดฝนหนักหน่วงร่วงหล่นจากยอดไม้"
+
+ roaming_intro_terrain_snippet_mountain: "ข้าเงยหน้ามองภูเขาสูงตระหง่านรอบตัวเรา ยอดผาเสียดฟ้าดูราวกับจะเอื้อมแตะสรวงสวรรค์"
+ roaming_intro_terrain_snippet_mountain_2: "ทิวทัศน์อันน่าทึ่งปรากฏอยู่เบื้องหน้า ทั้งสัตว์และผู้คนดูเล็กเกินกว่าจะมองเห็นได้ แต่ไกล"
+ roaming_intro_terrain_snippet_mountain_winter: "ยอดเขาถูกปกคลุมด้วยผ้าห่มแห่งหิมะ บรรยากาศคมชัดและเหน็บหนาวด้วยเหมันต์"
+ roaming_intro_terrain_snippet_mountain_monsoon: "แม่น้ำและน้ำตกน้อยใหญ่ไหลหลั่งลงตามไหล่เขา เปลี่ยนหุบเขาเบื้องล่างให้กลายเป็นสวรรค์อันเขียวชอุ่มแห่งชีวิต"
+
+ roaming_intro_terrain_snippet_hills: "เนินเขาทอดยาวดุจทะเลสีเขียวและน้ำตาลเบื้องหน้าเรา"
+ roaming_intro_terrain_snippet_hills_2: "ข้ามองเห็นยอดเนินน้อยใหญ่ลูกแล้วลูกเล่า แต่ละลูกเปรียบเสมือนเป้าหมายเล็ก ๆ ที่จะพิชิตในวันต่อไป"
+ roaming_intro_terrain_snippet_hills_winter: "เนินเขาประดับด้วยน้ำค้างแข็งและหิมะอันละเอียดอ่อน ทอดยาวไปสุดสายตา"
+ roaming_intro_terrain_snippet_hills_winter_2: "เนินเขาถูกปกคลุมด้วยสีขาวแห่งความหนาวเย็น ในหุบเขาเหล่านี้มีความเงียบสงัด มีเพียงเสียงย่ำหิมะอันแผ่วเบาใต้ฝ่าเท้าข้าเป็นครั้งคราว"
+ roaming_intro_terrain_snippet_hills_monsoon: "สายฝนเซาะร่องธารน้ำเล็ก ๆ ลงตามไหล่เขา เป็นภาพที่คงอยู่ชั่วครู่ แต่ก็น่าชม"
+
+ roaming_intro_terrain_snippet_plains: "ขอบฟ้าไร้เขตแดนใต้ผืนฟ้ากว้างใหญ่ หญ้าลู่ลมก่อเกิดเป็นทะเลสีเขียวอันนุ่มนวล"
+ roaming_intro_terrain_snippet_plains_2: "ที่ราบอันไร้สิ้นสุด มีฝูงสัตว์เล็มหญ้าอย่างสงบเป็นครั้งคราว แต่ไกล"
+ roaming_intro_terrain_snippet_plains_winter: "ลมหนาวพัดกรูเกรียวและหิมะปกคลุมแผ่นดิน สุดลูกหูลูกตา"
+ roaming_intro_terrain_snippet_plains_winter_2: "ความนิ่งสงัดแห่งเหมันต์ได้ห่อหุ้มแผ่นดิน มีเพียงสัตว์พเนจรที่มองหาอาหารขัดจังหวะเป็นครั้งคราว"
+ roaming_intro_terrain_snippet_plains_monsoon: "ที่ราบเต็มไปด้วยโคลนชุ่มฉ่ำด้วยสายฝนอันหนักหน่วงสุดลูกหูลูกตา"
+
+ roaming_intro_terrain_snippet_farmlands: "แนวพืชผลทอดยาวสุดลูกหูลูกตา ชาวนาหรือทาสติดที่ดินกำลังทำงานกลางแดด"
+ roaming_intro_terrain_snippet_farmlands_2: "ชาวนาดูแลผืนนาขณะที่ฝูงสัตว์เล็มหญ้าอย่างเงียบ ๆ ในทุ่งสีเขียว"
+ roaming_intro_terrain_snippet_farmlands_winter: "ผืนนาว่างเปล่าถูกปกคลุมด้วยความหนาวเย็นและเหมันต์ ไม่เห็นชาวนาหรือสัตว์สักตัว"
+ roaming_intro_terrain_snippet_farmlands_winter_2: "ทุ่งนาว่างเปล่าที่ปกคลุมด้วยน้ำค้างแข็งและความหนาวเย็นเป็นเครื่องเตือนใจถึงช่วงเวลาของปี"
+ roaming_intro_terrain_snippet_farmlands_monsoon: "ทุ่งนาเต็มไปด้วยชีวิตชีวาในช่วงฝนตกหนัก ชาวนาท้องถิ่นใช้ประโยชน์สูงสุดจากสถานการณ์"
+
+ roaming_intro_terrain_snippet_desert: "ผืนทรายสีทองกว้างใหญ่ทอดยาวสุดลูกหูลูกตาเบื้องหน้าข้า ดวงตะวันลอยต่ำอยู่บนท้องฟ้า"
+ roaming_intro_terrain_snippet_desert_2: "ผืนทรายสีทองแผ่กว้างไปทุกทิศทางสุดลูกหูลูกตา เงียบสงัดและโหดร้าย"
+ roaming_intro_terrain_snippet_desert_monsoon: "ผืนทรายยอมจำนนต่อสายฝนอันหนักหน่วงชั่วครู่ และชั่วขณะหนึ่งก็มีชีวิตชีวาให้เห็นในสภาพแวดล้อมที่ปกติแห้งแล้งนี้"
+
+ roaming_intro_terrain_snippet_desert_mountains: "ยอดเขาขรุขระผงาดขึ้นสู่ท้องฟ้า ดุจทหารยามผู้เงียบงันแห่งดินแดนแห้งแล้งนี้"
+ roaming_intro_terrain_snippet_desert_mountains_2: "หุบเขาซ่อนเร้นระหว่างภูเขาใหญ่ มีโอเอซิสเล็ก ๆ มอบการพักผ่อนชั่วขณะแก่นักเดินทางผู้เหนื่อยล้า"
+ roaming_intro_terrain_snippet_desert_mountains_monsoon: "ลำธารน้ำเซาะเส้นทางใหม่ผ่านไหล่เขาระหว่างฝนตก ทำให้ภูมิทัศน์นุ่มนวลลงชั่วขณะ"
+
+ roaming_intro_terrain_snippet_oasis: "ต้นปาล์มไหวเอนอย่างนุ่มนวลรอบโอเอซิสเล็ก ๆ มีฝูงสัตว์ดื่มน้ำอย่างเงียบ ๆ"
+ roaming_intro_terrain_snippet_oasis_2: "พืชพรรณเขียวชอุ่มล้อมรอบน้ำใสของโอเอซิสเล็ก ๆ มอบการพักผ่อนแก่กลุ่มนักเดินทาง"
+ roaming_intro_terrain_snippet_oasis_monsoon: "โอเอซิสและบริเวณโดยรอบกำลังเจริญงอกงามภายใต้สายฝนอันหนักหน่วง พืชพรรณเขียวชอุ่มแผ่ขยายไปไกลเกินขอบเขตปกติของโอเอซิส"
+
+ roaming_intro_terrain_snippet_wetlands: "พื้นที่ชุ่มน้ำสุดลูกหูลูกตา มีกลุ่มคนกลุ่มเล็ก ๆ ใช้ทางน้ำเล็ก ๆ อย่างระมัดระวังขณะเคลื่อนที่ไป"
+ roaming_intro_terrain_snippet_wetlands_2: "ผืนน้ำสะท้อนท้องฟ้า และกอหญ้าไหวเอนช้า ๆ ตามสายลม มีเสียงแมลงหึ่ง ๆ และเสียงร้องของสัตว์อยู่ตลอดเวลา"
+ roaming_intro_terrain_snippet_wetlands_monsoon: "พื้นที่ชุ่มน้ำได้เปลี่ยนไป ด้วยระดับน้ำที่เพิ่มสูงขึ้น การเคลื่อนที่ผ่านบริเวณนี้แทบจะเป็นไปไม่ได้ ขณะที่ข้าครุ่นคิดว่าจะข้ามภูมิประเทศนี้อย่างไร ข้าก็เห็นชายคนหนึ่งค่อย ๆ ลุยน้ำ ระดับน้ำสูงถึงอก"
+
+ roaming_intro_second_half_generic: "ในที่สุด ข้าก็สามารถทิ้งความยากลำบากที่ผ่านมาไว้เบื้องหลัง และเพียงมุ่งหาช่วงเวลาผ่อนคลาย—โอกาสที่จะวางทุกสิ่งลงและพักผ่อนอย่างแท้จริง"
+ roaming_intro_second_half_winter: "ข้าหวังว่านี่จะเป็นช่วงเวลาผ่อนคลายจากความเครียดในราชสำนัก แต่... มันหนาวกว่าที่ข้าคิดไว้"
+ roaming_intro_second_half_monsoon: "เมื่อมรสุมมาถึง บางทีนี่อาจเป็นเวลาที่ไม่เหมาะสมนักที่จะละทิ้งความยากลำบากของชนชั้นสูง ข้าออกจะคิดถึงการอยู่ในร่มอยู่บ้างในตอนนี้"
+
+ bp3_roaming.0005.t: "การมาถึง"
+ bp3_roaming.0005.desc: "ในที่สุดข้าพเจ้าและคณะผู้ติดตามก็มาถึง [province.GetName] และเพียงชั่วขณะ ข้าพเจ้าก็ตกอยู่ในภวังค์ด้วยทิวทัศน์เบื้องหน้า [province.Custom('RoamingIntroTerrainSnippet')]\n\n[province.Custom('RoamingIntroSecondHalf')]"
+ bp3_roaming.0005.a: "อา ในที่สุด ก็สงบเสียที"
+ bp3_roaming.0005.b: "ช่างเป็นทิวทัศน์ที่งดงาม!"
+ bp3_roaming.0005.c: "หวังว่าข้าจะเตรียมเสื้อผ้ามาพอ..."
+ bp3_roaming.0005.d: "ช่างเป็นเวลาที่..."
+
+ roaming_start_of_the_journey_key_title: "จุดเริ่มต้นของการเดินทาง"
+ roaming_start_of_the_journey_key: "[root_scope.GetShortUIName|U] เริ่มต้นการเดินทางของ [root_scope.GetHerHis] ผ่าน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]"
+
+ # Outro Event
+ roaming_outro_snippet_stress_loss_weak: "ดินแดนเหล่านี้ช่วยปลอบประโลมจิตใจที่เหนื่อยล้าของข้า แม้จะเพียงเล็กน้อย เป็นการพักผ่อนอันอ่อนโยนจากความวุ่นวายของชีวิต"
+ roaming_outro_snippet_stress_loss_weak_2: "ในสวรรค์แห่งนี้ ข้าได้พบช่วงเวลาแห่งความสงบอยู่บ้าง ทำให้จิตใจข้าเบาลงเล็กน้อย"
+ roaming_outro_snippet_stress_loss_weak_3: "สถานที่นี้มอบการหลีกหนีจากหน้าที่ของข้าชั่วครู่ เป็นความสบายพอประมาณ แต่ก็ยังเป็นความสบาย"
+
+ roaming_outro_snippet_stress_loss_medium: "ข้ารู้สึกเหมือนภาระหนักอึ้งถูกยกออกจากบ่า"
+ roaming_outro_snippet_stress_loss_medium_2: "ที่นี่ โอบล้อมด้วยธรรมชาติและห่างไกลจากผู้คน ปัญหาของข้าดูน่ากลัวน้อยลง"
+ roaming_outro_snippet_stress_loss_medium_3: "รู้สึกเหมือนความสงบเข้ามาครอบงำข้า และปัญหาปกติของข้าก็ดูเหมือนเป็นเพียงเงาของสิ่งที่เคยเป็น อย่างน้อยก็ในตอนนี้"
+
+ roaming_outro_snippet_stress_loss_strong: "ข้ารู้สึกกระปรี้กระเปร่า ราวกับได้สลัดเสื้อคลุมหนักอึ้งแห่งความกังวลและความห่วงใยทิ้งไป"
+ roaming_outro_snippet_stress_loss_strong_2: "ข้าจากดินแดนเหล่านี้ไปด้วยความรู้สึกสดชื่นอย่างลึกซึ้ง จิตใจปลอดโปร่งและหัวใจเบาสบายขึ้น"
+ roaming_outro_snippet_stress_loss_strong_3: "ความเครียดที่เคยรู้สึกท่วมท้น บัดนี้ดูห่างไกล ราวกับเมฆดำที่ถูกแสงตะวันแยกออก"
+
+ roaming_outro_snippet_stress_loss_very_strong: "เมื่อถูกทิ้งให้อยู่ตามลำพังในถิ่นทุรกันดาร ข้าได้พบความกระจ่างและความเข้าใจที่ลึกซึ้งยิ่งขึ้นเกี่ยวกับเส้นทางของข้า"
+ roaming_outro_snippet_stress_loss_very_strong_2: "ความเครียดมลายหายไป และข้ารู้สึกเหมือนได้พบความหมายใหม่ในชีวิต"
+ roaming_outro_snippet_stress_loss_very_strong_3: "ในสถานที่อันเงียบสงบนี้ ข้าสามารถวางความกังวลทั้งหมดลงได้ และกลับไปเป็น [ROOT.Char.GetWomanMan] ที่กระปรี้กระเปร่าและเปลี่ยนไป"
+
+ roaming_outro_snippet_returning_home: "ข้าหันหลังกลับ ถอนหายใจเบา ๆ กับตนเอง แล้วเริ่มเดินทางกลับ"
+ roaming_outro_snippet_returning_home_2: "อย่างไม่เต็มใจ ข้าหันหลังกลับ วางความทรงจำลง และเริ่มมุ่งหน้ากลับบ้านสู่หน้าที่ที่รอคอยข้าอยู่แน่นอน"
+ roaming_outro_snippet_returning_home_3: "ข้าสูดหายใจลึก ดื่มด่ำกับช่วงเวลาสุดท้ายในสวรรค์แห่งนี้ ก่อนออกเดินทางกลับบ้าน"
+ roaming_outro_snippet_returning_home_4: "ด้วยหัวใจที่สงบกว่าที่เป็นมาพักหนึ่ง ในที่สุดข้าก็อำลาสถานที่แห่งนี้ ถึงเวลามุ่งหน้ากลับบ้านแล้ว"
+
+ bp3_roaming.0010.t: "การเดินทางกลับบ้าน"
+ bp3_roaming.0010.desc: "ด้วยก้าวสุดท้าย ในที่สุดข้าก็ออกจาก [province.Custom('HoldingNoHoldingTerrainRoaming')] ข้ามองย้อนกลับไปเป็นครั้งสุดท้าย รำลึกถึงการเดินทางของข้าผ่าน [province.GetTerrain.GetNameNoTooltip|l] [ROOT.Char.Custom('RoamingOutroStressLoss')]\n\n[ROOT.Char.Custom('RoamingOutroReturningHome')]"
+ bp3_roaming.0010.a: "อนิจจา นี่คือวิถีแห่งชีวิต..."
+
+ roaming_end_of_the_journey_key_title: "จุดสิ้นสุดของการเดินทาง"
+ roaming_end_of_the_journey_key: "[host.GetShortUIName|U] สิ้นสุดการเดินทางของ [host.GetHerHis] ผ่าน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]"
+
+ ### Mid-Activity Events
+ bp3_roaming.0050.t: "ทิวทัศน์อันน่าทึ่ง"
+ bp3_roaming.0050.desc: "พวกเราเดินขึ้นทางลาดชันต่อไปอย่างช้า ๆ ทีละก้าว เป็นวันที่ยาวนาน และข้ารู้สึกได้ถึงต้นขาที่ปวดแสบปวดร้อน ตอนนี้ข้าพยายามเพียงแค่จดจ่อกับการก้าวเท้าไปข้างหน้าเท่านั้น เมื่อทหารองครักษ์คนหนึ่งช่วยพยุงข้าในสองสามก้าวสุดท้าย\n\nทันใดนั้น พวกเราก็พบว่าตนเองอยู่บนชะง่อนผา และข้ามองเห็นหุบเขาที่ทอดยาวเบื้องล่าง เป็นดุจภาพปักอันงดงามสีเขียวและน้ำตาล ข้าไม่ทันสังเกตเลยว่าเราขึ้นมาสูงเพียงใด เนื่องจากความเหนื่อยล้าและความยากลำบากของการเดินทาง แต่ตอนนี้... ตอนนี้ทุกอย่างคุ้มค่าแล้ว"
+ bp3_roaming.0050.a: "ช่างเป็นภาพที่งดงามสำหรับดวงตาและขาที่เมื่อยล้า"
+
+ breathtaking_view_key_title: "$bp3_roaming.0050.t$"
+ breathtaking_view_key: "[host.GetShortUIName] ขึ้นมาถึงจุดสูงสุดของ [province.GetName] ซึ่งเผยให้เห็นทิวทัศน์อันงดงาม และตัดสินใจว่าถึงเวลาเริ่มเดินทางกลับบ้านแล้ว"
+
+ bp3_roaming.0060.t: "โอเอซิสเล็ก ๆ"
+ bp3_roaming.0060.desc: "หลังจากเดินฝ่าดินแดนรกร้างสีทองมาหลายชั่วโมง พวกเราก็เริ่มเห็นสัญญาณของโอเอซิสอยู่ แต่ไกล ตอนแรกข้ากังวลว่าอาจเป็นภาพลวงตา แต่เมื่อเราเข้าใกล้ขึ้น เราก็เห็นสัตว์บางตัวกำลังเล็มหญ้าอยู่รอบ ๆ\n\nข้าหาที่เล็ก ๆ ในร่มเงา ที่ ซึ่งองครักษ์ของข้าและข้าจะได้พักเท้าเสียที เป็นที่พักผ่อน สำหรับตอนนี้ เป็นจุดพักที่สมบูรณ์แบบก่อนที่เราจะเริ่มหาทางกลับบ้าน"
+ bp3_roaming.0060.a: "ช่างเป็นสถานที่เล็ก ๆ ที่สวยงามในถิ่นทุรกันดารนี้"
+
+ the_oasis_key_title: "$bp3_roaming.0060.t$"
+ the_oasis_key: "[host.GetShortUIName] พบโอเอซิสเล็ก ๆ อันเงียบสงบใน [province.GetName] ที่ ซึ่ง [host.GetSheHe] ได้พักผ่อนก่อนจะเริ่มหาทางกลับบ้าน"
+
+ bp3_roaming.0070.t: "สุดเส้นทาง"
+ bp3_roaming.0070.desc.intro: "พวกเราเดินตามเส้นทางเก่าแก่ผ่านป่ามาหลายชั่วโมง ก่อนที่มันจะค่อย ๆ จางลงและหายไปในที่สุด เมื่อมองไปรอบ ๆ ข้าพบว่าตนเองอยู่ในที่โล่งเล็ก ๆ และไม่มีอะไรที่นี่เลย มีเพียง... ความเงียบสงัดของถิ่นทุรกันดาร\n\n"
+ bp3_roaming.0070.desc.landless: "ข้าคุ้นเคยกับชีวิตในป่าอยู่บ้าง แต่ตอนนี้กลับรู้สึกเหมือนว่าเราได้ข้ามพรมแดนระหว่างดินแดนมนุษย์และสิ่งที่ไม่รู้จัก ถึงเวลาทิ้งที่โล่งเล็ก ๆ นี้ไว้เบื้องหลัง และเดินทางกลับค่ายพัก ข้าสงสัยว่าจะได้เห็นมันอีกหรือไม่"
+ bp3_roaming.0070.desc.landed: "การมาอยู่ที่นี่รู้สึกห่างไกลจากชีวิตของข้าใน [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier] อยู่แล้ว แต่ตอนนี้กลับรู้สึกเหมือนว่าเราได้ข้ามพรมแดนระหว่างดินแดนมนุษย์และสิ่งที่ไม่รู้จัก ถึงเวลาทิ้งที่โล่งเล็ก ๆ นี้ไว้เบื้องหลัง และเริ่มเดินกลับบ้าน ข้าสงสัยว่าจะได้เห็นมันอีกหรือไม่"
+ bp3_roaming.0070.a: "ช่างเป็นสถานที่ที่น่าสงสัย"
+
+ paths_end_key_title: "$bp3_roaming.0070.t$"
+ paths_end_key: "[host.GetShortUIName] พบที่โล่งในป่าเล็ก ๆ อันน่าสงสัยในถิ่นทุรกันดารของ [province.GetName] ที่ ซึ่ง [host.GetSheHe] ใช้เวลาพักผ่อนครู่หนึ่งก่อนจะเริ่มเดินทางกลับบ้าน"
+
+ bp3_roaming.0080.t: "กลิ่นอายทะเล"
+ bp3_roaming.0080.desc: "ก่อนที่เราจะเห็นทะเลนานนัก เราได้ยินเสียงนกนางนวลร้องอยู่เหนือศีรษะและสังเกตเห็นกลิ่นเค็มอบอวลอยู่ในอากาศ แล้วมันก็เปิดออกเบื้องหน้าเรา ทะเลสีครามกว้างใหญ่ทอดยาวสุดลูกหูลูกตา เรานั่งลงริมน้ำ มองดูคลื่นซัดเข้าหาฝั่งอย่างนุ่มนวล\n\nชั่วขณะหนึ่ง รู้สึกเหมือนความกังวลทั้งหมดของข้าถูกปัดเป่าไป เป็นช่วงเวลาที่ข้าสามารถเพลิดเพลินกับประสบการณ์นี้ได้ ข้ารู้ว่าข้าจะต้องกลับบ้านในไม่ช้า แต่สำหรับตอนนี้ ข้าอยู่ที่นี่"
+ bp3_roaming.0080.a: "ช่างเป็นชีวิตที่เงียบสงบ"
+
+ ocean_scent_key_title: "$bp3_roaming.0080.t$"
+ ocean_scent_key: "[host.GetShortUIName] นำกลุ่มของ [host.GetHerHis] ไปยังชายฝั่งใน [province.GetName] ที่ ซึ่งพวกเขาพักผ่อนก่อนเริ่มการเดินทางอันยาวไกลกลับบ้าน"
+
+ bp3_roaming.0090.t: "แม่น้ำ ณ ปลายทาง"
+ bp3_roaming.0090.desc: "ใกล้จะค่ำแล้ว เมื่อในที่สุดเราก็มาถึงแม่น้ำสายเล็ก ๆ ที่ไม่มีสะพานให้เห็น ข้ามองสุดสายตา แต่ไม่เห็นสิ่งใดอยู่อีกฝั่ง ในบางแง่มุม มันรู้สึกเหมือนเป็นพรมแดนระหว่างร่องรอยอารยธรรมสุดท้ายกับถิ่นทุรกันดารที่ไม่รู้จักอีกฝั่งหนึ่ง\n\nข้าใช้เวลาครู่หนึ่งนั่งลงพักเท้า บางครั้งข้ารู้สึกเหมือนเห็นบางสิ่งเคลื่อนไหวอยู่อีกฝั่งของแม่น้ำ หรือเหมือนมีใครบางคนกำลังเฝ้ามองข้า แต่ข้ามองไม่ออกว่าเป็นอะไร"
+ bp3_roaming.0090.a: "ข้าว่านี่เป็นจุดพักที่ดี"
+
+ river_journeys_end_key_title: "$bp3_roaming.0090.t$"
+ river_journeys_end_key: "[host.GetShortUIName] พบแม่น้ำที่ข้ามไม่ได้ในดินแดนห่างไกลของ [province.GetName] ที่ ซึ่ง [host.GetSheHe] หยุดพักก่อนเริ่มเดินทางกลับบ้าน"
+
+ ### Random Events
+ bp3_roaming.0100.t: "การพบคนแปลกหน้า"
+ bp3_roaming.0100.desc: "ขณะที่ข้าเดินท่องไปใน [activity.GetCurrentPhase.GetLocation.Custom('GetTerrainType')] ข้าก็พบ [ancient_traveler.GetWomanMan] สูงวัยผู้หนึ่งนั่งอยู่บนโขดหินผุกร่อนริมทาง เวลาผ่านไปในความเงียบขณะที่ [ancient_traveler.GetWomanMan] ดูเหมือนจมอยู่ในภวังค์ความคิด ก่อนที่ [ancient_traveler.GetSheHe] จะรับรู้ถึงการมีอยู่ของข้าในที่สุด\n\n[ancient_traveler.GetSheHe] พยักหน้าให้ข้าเล็กน้อย แล้วค่อย ๆ ลุกขึ้น ทุกการเคลื่อนไหวตามมาด้วยเสียงกระดูกลั่นกรอบแกรบ และมุ่งหน้าสู่ความเวิ้งว้างเบื้องหน้า"
+ bp3_roaming.0100.desc.companion: "\n\n[special_guest.GetFirstName] นั่งลงบนโขดหินเก่าแก่ ถอนหายใจออกมาเบา ๆ ด้วยความโล่งอก สนใจที่จะพักผ่อนมากกว่าสนทนากับ [ancient_traveler.GetWomanMan]"
+ bp3_roaming.0100.a: "ว่า แต่ [ancient_traveler.GetSheHe] กำลังคิดอะไรอยู่กลางป่าเขานี้กันนะ?"
+ bp3_roaming.0100.a.flavor: "ดูเหมือนเป็นสถานที่ที่เหมาะแก่การครุ่นคิดเสียจริง"
+ bp3_roaming.0100.b: "ในที่สุด ก็ได้โอกาสนั่งพักเสียที"
+ bp3_roaming.0100.c: "เดี๋ยวก่อน ท่านผู้เฒ่า [ancient_traveler.GetWomanMan]!"
+ bp3_roaming.0100.c.flavor: "บางที [ancient_traveler.GetSheHe] อาจมีปัญญาบางอย่างจะแบ่งปัน?"
+ bp3_roaming.0100.c.win: "ข้าสนทนากับ [ancient_traveler.GetNameNoTooltip] อย่างเกิดผล"
+ bp3_roaming.0100.c.neutral: "ข้าพูดคุยจน [ancient_traveler.GetNameNoTooltip] ยอมเข้าร่วมราชสำนักของข้า"
+ bp3_roaming.0100.c.loss: "[ancient_traveler.GetNameNoTooltip] ไม่สนใจจะพูดคุย"
+ bp3_roaming.0100.d: ""และเมื่อข้าละสายตาไปเพียงครู่เดียว [ancient_traveler.GetSheHe] ก็หายตัวไปอย่างไร้ร่องรอย...""
+
+ roaming_pondering_stone_mystic_key_title: "การหยั่งรู้"
+ roaming_pondering_stone_mystic_key: "[host.GetShortUIName] เกิดการหยั่งรู้หลายครั้งขณะที่ [host.GetSheHe] นั่งอยู่ใน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]"
+
+ roaming_pondering_stone_key_title: "ศิลาครุ่นคิด"
+ roaming_pondering_stone_key: "[host.GetShortUIName|U] พบโขดหินผุกร่อนอันเงียบสงบ ที่ ซึ่ง [host.GetSheHe] ได้นั่งครุ่นคิดเกี่ยวกับชีวิตของ [host.GetHerHis] ใน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]"
+
+ roaming_resting_stone_key_title: "ศิลาพักผ่อน"
+ roaming_resting_stone_key: "[host.GetShortUIName|U] พบโขดหินผุกร่อนอันเงียบสงบเพื่อพักผ่อนใน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]"
+
+ roaming_old_man_key_title: "นักเดินทางโบราณ"
+ roaming_old_man_key: "ใน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] [host.GetShortUIName|U] ได้พบนั[ancient_traveler.GetWomanMan] สูงวัยผู้ทรงภูมิ"
+
+ roaming_ancient_traveler_poet_key_title: "นักเดินทางลึกลับ"
+ roaming_ancient_traveler_poet_key: "ใน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] [host.GetShortUIName|U] ได้พบ [ancient_traveler.GetWomanMan] ลึกลับ"
+
+ pondering_rulership_modifier: "ครุ่นคิดถึงการปกครอง"
+ pondering_rulership_modifier_desc: "ตัวละครนี้ใช้เวลาครุ่นคิดอย่างมากเกี่ยวกับภาระของการปกครอง"
+ pondering_religion_modifier: "ครุ่นคิดถึงศาสนา"
+ pondering_religion_modifier_desc: "ตัวละครนี้ใช้เวลาครุ่นคิดอย่างมากเกี่ยวกับผลกระทบของศาสนาที่มีต่อชีวิตของตน"
+ pondering_war_modifier: "ครุ่นคิดถึงสงคราม"
+ pondering_war_modifier_desc: "ตัวละครนี้ใช้เวลาครุ่นคิดอย่างมากเกี่ยวกับสงครามและกลยุทธ์"
+ pondering_schemes_modifier: "ครุ่นคิดถึงแผนการ"
+ pondering_schemes_modifier_desc: "ตัวละครนี้ใช้เวลาครุ่นคิดอย่างมากเกี่ยวกับแผนการและผู้ที่อาจกำลังวางแผนวางกับดักตน"
+ pondering_management_modifier: "ครุ่นคิดถึงการจัดการ"
+ pondering_management_modifier_desc: "ตัวละครนี้ใช้เวลาครุ่นคิดอย่างมากเกี่ยวกับวิธีที่ตนจะสามารถปรับปรุงอาณาจักรของตนได้"
+ pondering_travel_modifier: "ครุ่นคิดถึงการเดินทาง"
+ pondering_travel_modifier_desc: "ตัวละครนี้ใช้เวลาครุ่นคิดอย่างมากเกี่ยวกับการเดินทางของตน"
+
+ bp3_roaming.0110.t: "[sighting_province.GetTitle.GetDeJureLiege.Custom('GetAnimalType')|U] ใน [sighting_province.GetNameNoTooltip]"
+ bp3_roaming.0110.desc: "ขณะที่อากาศค่อย ๆ แย่ลง ทันใดนั้นข้าก็เห็นบางสิ่งโผล่ออกมาจากพงหญ้าเบื้องหน้า [sighting_province.GetTitle.GetDeJureLiege.Custom('GetAnimalType')|U] ขนาดใหญ่ผิดคาดหยุดอยู่ห่างจากข้าเพียงไม่กี่ก้าว สายตาของมันจับจ้องมาที่ข้าเมื่อมันสังเกตเห็นการมีอยู่ของข้า\n\nเหตุการณ์นั้นเกิดขึ้นเพียงชั่วครู่ ก่อนที่สัตว์ตัวนั้นจะกระโจนกลับเข้าไปในป่ารกชัฏอย่างรวดเร็ว"
+ bp3_roaming.0110.desc.companion: "ข้างกายข้า ข้าได้ยิน [special_guest.GetFirstName] ถอนหายใจอย่างโล่งอก"
+ bp3_roaming.0110.a: "บางทีอาจถึงเวลาเตรียมกองกำลังล่าสัตว์แล้ว"
+ bp3_roaming.0110.b.weakling: "ฟู่! ข้ากังวลอยู่ครู่หนึ่งเลยทีเดียว"
+ bp3_roaming.0110.b.hunter: "ช่างเป็นสิ่งมีชีวิตเล็ก ๆ ที่น่าสนใจเสียจริง!"
+ bp3_roaming.0110.c: ""หลังจากการต่อสู้อันดุเดือด สัตว์ร้ายมหึมาตัวนั้นก็หันหลังหนีไป...""
+
+ roaming_animal_sighting_key_title: "การพบเห็นสัตว์"
+ roaming_animal_sighting_key: "[host.GetShortUIName] พบสัตว์ป่าขณะเดินทางผ่าน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]"
+
+ roaming_animal_sighting_poet_key_title: "$roaming_animal_sighting_key_title$"
+ roaming_animal_sighting_poet_key: "[host.GetShortUIName] ต่อสู้กับสัตว์ป่าใน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]"
+
+ bp3_roaming.0120.t: "[sighting_province.GetTitle.GetDeJureLiege.Custom('GetAnimalType')|U] ในตำนาน"
+ bp3_roaming.0120.desc: "ขณะที่ข้าเดินทางฝ่าสภาพอากาศเลวร้าย ทันใดนั้นข้าก็เหลือบเห็นบางสิ่งเคลื่อนไหวอยู่ที่ขอบสายตา ชั่วขณะหนึ่ง อากาศก็ปลอดโปร่งขึ้น และข้าเห็น [sighting_province.GetTitle.GetDeJureLiege.Custom('GetAnimalType')|U] สี [sighting_province.GetTitle.GetDeJureLiege.Custom('GetLegendaryColor')] ทั้งตัว กำลังมองกลับมาที่ข้า\n\nความคิดของข้าพยายามรื้อฟื้นเรื่องเล่าเพียงไม่กี่เรื่องที่ข้าเคยได้ยินเกี่ยวกับสัตว์ในตำนานอันลึกลับ ขณะที่มันยืนอยู่ตรงหน้าข้า แต่เพียงชั่วครู่ที่มันปรากฏตัว มันก็หายวับกลับเข้าไปใน [activity.GetCurrentPhase.GetLocation.Custom('RoamingLegendaryBeastProvinceWeather')] อีกครั้ง"
+ bp3_roaming.0120.desc.companion: "$bp3_roaming.0110.desc.companion$"
+ bp3_roaming.0120.a: "มันต้องเป็นของข้า!"
+ bp3_roaming.0120.b: "ช่างเป็นภาพที่น่าทึ่ง!"
+ bp3_roaming.0120.c: ""แล้วสัตว์ร้ายมหึมาตัวนั้นก็พุ่งเข้าใส่ข้า...""
+
+ roaming_legendary_sighting_key_title: "การพบเห็นสัตว์ในตำนาน"
+ roaming_legendary_sighting_key: "[host.GetShortUIName] พบสัตว์ในตำนานขณะเดินทางผ่าน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]"
+
+ roaming_legendary_sighting_poet_key_title: "$roaming_legendary_sighting_key_title$"
+ roaming_legendary_sighting_poet_key: "[host.GetShortUIName] ถูกสัตว์ในตำนานโจมตีใน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]"
+
+ LegendaryBeastProvinceWeatherSnow: "หิมะ"
+ LegendaryBeastProvinceWeatherRain: "สายฝน"
+ LegendaryBeastProvinceWeatherFog: "สายหมอก"
+
+ bp3_roaming.0130.t: "สนามรบที่ถูกลืม"
+ bp3_roaming.0130.desc: "ข้าได้ยินเสียงนกกินซาก แต่ไกล ก่อนที่จะเห็นด้วยตาตนเอง สนามรบเล็ก ๆ ที่เต็มไปด้วยศพ เห็นได้ชัดว่าถูกทิ้งให้เน่าเปื่อยมาพักหนึ่งแล้ว\n\nฝูงนก ซึ่งมีจะงอยปากเปื้อนเลือด เงยหน้าขึ้นจากอาหารเป็นครั้งคราวขณะที่ข้าเดินผ่านไป"
+ bp3_roaming.0130.desc.companion: "[special_guest.GetFirstName] ถึงกับออกอาการคลื่นเหียนเมื่อได้เห็นภาพทั้งปวง และได้หาทาง [special_guest.GetHerHis] ออกจากบริเวณนั้นไป"
+ bp3_roaming.0130.a: "ข้าควรสวดภาวนาเล็กน้อยให้แก่ผู้ตาย"
+ bp3_roaming.0130.b: "ลองดูซิว่าข้าจะหาของมีค่าอะไรได้บ้าง"
+ bp3_roaming.0130.c: ""แล้วข้าก็เห็นคนตายฟื้นคืนชีพขึ้นมาจากพื้นดิน...""
+
+ roaming_battlefield_prayer_key_title: "สนามรบที่ถูกลืม"
+ roaming_battlefield_prayer_key: "ใน [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] [host.GetShortUIName] พบสนามรบที่ถูกลืม ที่ ซึ่ง [host.GetSheHe] ได้สวดภาวนาเล็กน้อยให้แก่ผู้ตาย"
+
+ roaming_battlefield_scavenging_key_title: "$roaming_battlefield_prayer_key_title$"
+ roaming_battlefield_scavenging_key: "ใน [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] [host.GetShortUIName] พบสนามรบที่ถูกลืม ที่ ซึ่ง [host.GetSheHe] ใช้เวลาครู่หนึ่งค้นหาของมีค่า"
+
+ roaming_battlefield_poet_key_title: "$roaming_battlefield_prayer_key_title$"
+ roaming_battlefield_poet_key: "ใน [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] [host.GetShortUIName] พบสนามรบที่ถูกลืม ที่ ซึ่ง [host.GetSheHe] อ้างว่าเห็นคนตายฟื้นคืนชีพ"
+
+ bp3_roaming.0140.t: "ค่ำคืนในป่าดง"
+ bp3_roaming.0140.desc: "ความมืดอันเงียบสงัดห่มคลุมค่ายพักขณะที่เราเข้านอนในค่ำคืนนี้ ทหารยามคนหนึ่งยืนเฝ้า แต่ถึงกระนั้นก็หาความสงบไม่ได้ เสียงสัตว์ร้องจ๊อกแจ๊ก คลาน และเคลื่อนไหวในความมืดแทรกความเงียบเป็นระยะ\n\nเบื้องบน ท้องฟ้ายามค่ำคืนเป็นดุจผืนผ้าปักประดับด้วยแสงดาวนับไม่ถ้วน ชั่วขณะหนึ่ง ข้าพยายามเพ่งจิตให้เสียงรบกวนรอบข้างหายไป ขณะจดจ่ออยู่กับภาพนั้น"
+ bp3_roaming.0140.desc.companion: "\n\nขณะที่ข้าทำ เช่นนั้น ข้าได้ยินเสียง [special_guest.GetFirstName] กรนเบา ๆ อยู่ใกล้ ๆ ดูเหมือนไม่มีใครคนอื่นกำลังพยายามข่มตาหลับเลย..."
+ bp3_roaming.0140.a: "อย่าคิดถึงมันเลย หลับตาแล้วสวดภาวนาเถิด"
+ bp3_roaming.0140.b: ""ทหาร! ค้นหาทั่วป่า หาสัตว์ร้ายใด ๆ ไม่ว่าจะเป็นในตำนานหรือธรรมดา!""
+ bp3_roaming.0140.b.1: "ท่านใช้เวลาทั้งคืนค้นหาภัยคุกคาม"
+ bp3_roaming.0140.b.2: "ท่านขับไล่สิ่งใดก็ตามที่อยู่ข้างนอกไปได้"
+ bp3_roaming.0140.b.3: "ท่านเผลอหลับไปขณะรอทหารยามทำงาน"
+ bp3_roaming.0140.c: ""ข้ามองเห็นสัตว์ประหลาดตัวเล็ก ๆ เต้นรำอยู่ที่ขอบแสงไฟ...""
+ bp3_roaming.0140.d: "เป็นเวลาและสถานที่ที่เหมาะแก่การครุ่นคิดยิ่งนัก"
+
+ roaming_night_scare_key_title: "ค่ำคืนในป่าดง"
+ roaming_night_scare_key: "[host.GetShortUIName] ใช้เวลาทั้งคืนใน [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] ด้วยความหวาดกลัวต่อเสียงในยามค่ำคืน"
+
+ roaming_night_threat_key_title: "$roaming_night_scare_key_title$"
+ roaming_night_threat_key: "[host.GetShortUIName] ใช้เวลาทั้งคืนใน [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] มองหาภัยคุกคามในจินตนาการ"
+
+ roaming_night_sleep_key_title: "$roaming_night_scare_key_title$"
+ roaming_night_sleep_key: "[host.GetShortUIName] สามารถพักผ่อนได้อย่างเต็มที่ในคืนนั้น หลังจากขับไล่สิ่งมีชีวิตที่รบกวน [host.GetHerHim] ใน [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] ไปได้"
+
+ roaming_night_poet_key_title: "$roaming_night_scare_key_title$"
+ roaming_night_poet_key: "[host.GetShortUIName] อ้างว่าใช้เวลาทั้งคืนเฝ้าดูสัตว์ประหลาดเต้นรำรอบค่ายพักของ [host.GetHerHis]"
+
+ roaming_night_mystic_key_title: "ท้องฟ้ายามค่ำคืน"
+ roaming_night_mystic_key: "[host.GetShortUIName] ใช้เวลาทั้งคืนเฝ้ามองท้องฟ้ายามค่ำคืนและครุ่นคิดเกี่ยวกับชีวิต"
+
+ bp3_roaming.0150.t: "สระน้ำอันเงียบสงบ"
+ bp3_roaming.0150.desc: "หลังจากเดินมาทั้งวันผ่าน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] ทันใดนั้นข้าก็พบสระน้ำอันเงียบสงบกลางป่ารกชัฏ นอกจากนกบางตัวที่ดื่มน้ำอย่างเงียบ ๆ ริมสระแล้ว ก็ไม่เห็นมนุษย์หรือสัตว์อื่นใดเลย\n\n"
+ bp3_roaming.0150.desc.no_companion: "ข้านั่งลงริมน้ำ พักเท้า และสูดหายใจลึก"
+ bp3_roaming.0150.desc.companion: "เรานั่งลงริมน้ำ พักเท้า และข้าได้ยิน [special_guest.GetFirstName] ถอนหายใจหนัก ๆ"
+ bp3_roaming.0150.a: "อา ได้พักผ่อนสักครู่"
+ bp3_roaming.0150.b: ""ข้าจากไปเมื่อได้ยินเสียงเพลงอันไพเราะก้องกังวานข้ามผืนน้ำ...""
+
+ roaming_quiet_pond_key_title: "สระน้ำอันเงียบสงบ"
+ roaming_quiet_pond_key: "[host.GetShortUIName] พบสระน้ำอันเงียบสงบในป่ารกชัฏของ [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] ที่ ซึ่ง [host.GetSheHe] ได้พักผ่อน"
+
+ roaming_quiet_pond_poet_key_title: "$roaming_quiet_pond_key_title$"
+ roaming_quiet_pond_poet_key: "[host.GetShortUIName] พบสระน้ำอันเงียบสงบ แต่เล่ากันว่าหนีไปเมื่อเสียงเพลงอันไพเราะชักนำให้ [host.GetHerHim] ทำความคุ้นเคยกับความลึกของผืนน้ำอย่างใกล้ชิดยิ่งขึ้น..."
+
+ bp3_roaming.0160.t: "ไร่นาที่ถูกเผา"
+ bp3_roaming.0160.desc: "ก่อนที่จะเห็นด้วยตาตนเอง ข้าได้กลิ่นไม้และเนื้อไหม้มา แต่ไกล เมื่อเรามาถึง สิ่งที่ข้าเห็นคือซากที่ยังคุกรุ่นของสิ่งที่ครั้งหนึ่งต้องเคยเป็นไร่นาขนาดใหญ่\n\n"
+ bp3_roaming.0160.desc.no_companion: "องครักษ์ของข้าใช้เวลาเพียงครู่เดียวชี้ให้เห็นว่าไม่มีใครหรือสิ่งใดเหลือให้ช่วยที่นี่แล้ว"
+ bp3_roaming.0160.desc.companion: "ข้าได้ยิน [special_guest.GetFirstName] พูดคุยกับองครักษ์ของข้า ไม่มีใครหรือสิ่งใดเหลือให้ช่วยที่นี่แล้ว"
+ bp3_roaming.0160.desc.outro: "สิ่งที่เหลืออยู่คือเถ้าถ่านของบ้านและผู้ที่เคยอาศัยอยู่ในนั้น"
+ bp3_roaming.0160.a: "ค้นหาซากศพ และนำพวกเขาไปสู่การพักผ่อนอันควร"
+ bp3_roaming.0160.b: "ทหาร เก็บกวาดที่นี่ให้สิ้นซาก"
+ bp3_roaming.0160.c: ""เราพยายามบุกเข้าไปในอาคารที่กำลังลุกไหม้ซ้ำแล้วซ้ำเล่า แต่ก็ไร้ผล...""
+
+ roaming_burning_farm_piety_key_title: "ไร่นาที่ถูกเผา"
+ roaming_burning_farm_piety_key: "ในการเดินทางของ [host.GetHerHis] [host.GetShortUIName] พบไร่นาที่ถูกเผา [host.GetSheHe|U] และองครักษ์ของ [host.GetHerHis] ได้นำซากศพไปสู่การพักผ่อนอันควร ก่อนจะจากไป"
+
+ roaming_burning_farm_greedy_key_title: "$roaming_burning_farm_piety_key_title$"
+ roaming_burning_farm_greedy_key: "ในการเดินทางของ [host.GetHerHis] [host.GetShortUIName] พบไร่นาที่ถูกเผา [host.GetSheHe|U] และองครักษ์ของ [host.GetHerHis] ได้เก็บกวาดของมีค่าจนหมดสิ้น ก่อนจะจากไป"
+
+ roaming_burning_farm_poet_key_title: "$roaming_burning_farm_piety_key_title$"
+ roaming_burning_farm_poet_key: "ในการเดินทางของ [host.GetHerHis] [host.GetShortUIName] พบไร่นาที่ถูกเผา เล่ากันว่า [host.GetSheHe|U] พยายามอย่างสุดความสามารถที่จะช่วยเหลือผู้ที่อาศัยอยู่ที่นั่น แต่ก็ไร้ผล"
+
+ bp3_roaming.0170.t: "วันอันเงียบสงบ"
+ bp3_roaming.0170.desc: "แม้ข้าจะคาดหวังไว้มากมาย แต่วันนี้กลับดำเนินไปอย่างเรียบง่ายและเงียบสงบอย่างท่วมท้น ตอนแรก ข้าพบว่าตนเองตื่นตัวกับทุกภาพและเสียง อย่างไรก็ตาม เมื่อเวลาผ่านไป ไม่มีสิ่งใดโดดเด่นเป็นพิเศษ และความสนใจของข้าก็เริ่มลดลง\n\n"
+ bp3_roaming.0170.desc.no_companion: "ทว่า ค่อย ๆ ข้าก็เริ่มเพลิดเพลินกับความเรียบง่ายของการเดินเอง มันกลายเป็นเวลาสำหรับข้าและความคิดของข้าเท่านั้น"
+ bp3_roaming.0170.desc.companion: "ทว่า ค่อย ๆ ข้าก็พบว่าตนเองชื่นชมเวลาที่ใช้กับ [special_guest.GetFirstName] ไม่มีเรื่องสำคัญใด ๆ เกิดขึ้น แต่มันก็น่าเพลิดเพลิน"
+ bp3_roaming.0170.a: "บางทีนี่อาจเป็นสิ่งที่ข้าต้องการ"
+
+ roaming_quiet_day_key_title: "วันอันเงียบสงบ"
+ roaming_quiet_day_key: "[host.GetShortUIName|U] มีวันที่เงียบสงบอย่างน่าประหลาดขณะที่ [host.GetSheHe] เดินทางผ่าน [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip]"
+
+ bp3_roaming.0180.t: "เสียงพึมพำอย่างเหนื่อยล้า"
+ bp3_roaming.0180.desc: "ข้าพบว่าตนเองค่อนข้างเพลิดเพลินกับการเดินของเราใน [ROOT.Char.GetCurrentLocation.GetName] แต่ที่น่าผิดหวังคือสหายร่วมเดินทางของข้ากลับไม่เป็น เช่นนั้น [special_guest.GetFirstName] เริ่มเดินตามหลังอยู่บ่อยครั้ง และข้าได้ยินเสียงสบถเป็นครั้งคราวมาจาก [special_guest.GetHerHim] บางครั้งถึงกับมีชื่อข้าติดมาด้วย ด้วยน้ำเสียงหงุดหงิด ในที่สุด [special_guest.GetSheHe] ก็พูดขึ้นว่า "ถึงหรือยัง?"\n\nข้าค่อนข้างแน่ใจว่าเรายังอยู่ห่างไกลจากเป้าหมาย และยังคงต้องเดินทางอีกไกลพอสมควรจึงจะไปถึง [special_guest.GetSheHe|U] มองข้าอย่างคาดหวังคำตอบ"
+ bp3_roaming.0180.a: "ไม่ต้องห่วง ก็แค่หัวมุมนี่เอง!"
+ bp3_roaming.0180.a_short: "เจ้าเดินต่อไป!"
+ bp3_roaming.0180.b: "บางทีอาจถึงเวลาพักแล้ว..."
+
+ roaming_tired_mutterings_lies_key_title: "เสียงพึมพำอย่างเหนื่อยล้า"
+ roaming_tired_mutterings_lies_key: "แม้จะมีเสียงบ่นอย่างเหนื่อยล้าของ [special_guest.GetShortUIName|U] แต่ [host.GetShortUIName|U] ก็ปฏิเสธที่จะรับฟัง"
+
+ roaming_tired_mutterings_break_key_title: "เสียงพึมพำอย่างเหนื่อยล้า"
+ roaming_tired_mutterings_break_key: "หลังจากเสียงพึมพำและบ่นอย่างเหนื่อยล้าจาก [special_guest.GetShortUIName|U] [host.GetShortUIName|U] ก็ตัดสินใจพักผ่อน"
+
+ roaming_tired_mutterings_athletic_key_title: "การเดินอันยาวนาน"
+ roaming_tired_mutterings_athletic_key: "[host.GetShortUIName|U] ใช้เวลาเดินทางผ่าน [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] เป็นเวลานานพอสมควร เป็นการสร้างความแข็งแกร่งและพบความเพลิดเพลินในกิจกรรม"
+
+ bp3_roaming.0190.t: "โอกาสสนทนา"
+ bp3_roaming.0190.desc: "ขณะที่เราเดินทางผ่านถิ่นทุรกันดารรอบ [ROOT.Char.GetCurrentLocation.GetName] [special_guest.GetFirstName] และข้ามีเวลาสนทนากันมากมาย ข้าเคยหวังว่าเราจะเพลิดเพลินกับเวลาด้วยกัน แต่ข้าก็ประหลาดใจอย่างน่ายินดีที่มันเป็นไปด้วยดีเพียงใด\n\n[special_guest.GetFirstNameNoTooltip] มีหัวข้อสนทนาที่น่าสนใจหลากหลายที่จะหยิบยกขึ้นมา ไม่ว่าจะเป็นเรื่องเกี่ยวกับผู้คนบางคนใน [ROOT.Char.GetCapitalLocation.GetName] เรื่องซุบซิบในท้องถิ่น หรือเรื่องเล่าที่น่าจดจำ หลายชั่วโมงผ่านไปก่อนที่ข้าจะรู้ตัว และรู้สึกเหมือนเพียงชั่วครู่เดียว"
+ bp3_roaming.0190.a: "ข้าไม่อยากเชื่อเลยว่า [random_courtier.GetFirstNameNoTooltip] พูด เช่นนั้น! ช่างน่าขันสิ้นดี!"
+
+ roaming_chance_to_talk_key_title: "โอกาสสนทนา"
+ roaming_chance_to_talk_key: "[special_guest.GetShortUIName|U] และ [host.GetShortUIName|U] เพลิดเพลินกับเวลาสนทนากันขณะเดินทางใน [activity.GetCurrentPhase.GetLocation.GetName]"
+
+ bp3_roaming.0200.t: "ผืนผ้าใบบนฟากฟ้า"
+ bp3_roaming.0200.desc: "หลายชั่วโมงผ่านไปนับ แต่ตะวันตกดิน เมื่อท้องฟ้าพลันเปลี่ยนเป็นเฉดสีม่วง น้ำเงิน และส้มที่งดงามที่สุด ราวกับว่า [ROOT.Char.GetFaith.HighGodName] [ROOT.Char.GetFaith.HighGodHerselfHimself] กำลังใช้สรวงสวรรค์เป็นผืนผ้าใบ\n\nด้วยความยำเกรงและความหวาดกลัว พวกเราทุกคนเฝ้าดูปรากฏการณ์นั้นคลี่คลายในความเงียบ หลังจากสิ้นสุดลงแล้วเท่านั้นที่ทุกคนเริ่มพูดถึงภาพที่เห็น ทั้งด้วยความเคารพยำเกรงและความหวาดหวั่น"
+ bp3_roaming.0200.a: "ช่างเป็นภาพที่น่าทึ่ง!"
+
+ roaming_nightsky_canvas_key_title: "ผืนผ้าใบบนฟากฟ้า"
+ roaming_nightsky_canvas_key: "[host.GetShortUIName|U] เฝ้าดูปรากฏการณ์ทางดาราศาสตร์อันน่าประทับใจคลี่คลายบนท้องฟ้าเหนือ [activity.GetCurrentPhase.GetLocation.GetName]"
+
+ bp3_roaming.0210.t: "หมู่ปักษีเบื้องบน"
+ bp3_roaming.0210.desc: "ขณะที่เราเดินทางผ่าน [province.GetName] มีนกสองตัวบินตามเรามาหลายชั่วโมง พวกมันเพียงบินวนรอบตัวเราอย่างช้า ๆ ลงจอดไกลเกินกว่าจะเป็นอันตราย และร้องส่งเสียงมา แต่ไกล เมื่อพวกมันเข้าใกล้ชั่วขณะ ข้าเห็นขนสีดำและขาวของมัน\n\nครู่หนึ่ง พวกมันบินวนหนึ่งรอบ แล้วก็บินจากไป แม้หลังจากพวกมันไปแล้ว เราก็ยังคงได้ยินเสียงร้องของมันอยู่ แต่ไกล"
+ bp3_roaming.0210.a: "อืม หนึ่งคือโศก สองคือโชค"
+
+ the_birds_overhead_key_title: "$bp3_roaming.0210.t$"
+ the_birds_overhead_key: "[host.GetShortUIName] มีนกคู่หนึ่งบินตาม [host.GetHerHim] ผ่าน [province.GetName] ส่งเสียงร้องให้กลุ่มฟัง แต่ไกล"
+
+ bp3_roaming.0220.t: "หมู่บ้านที่ถูกลืม"
+ bp3_roaming.0220.desc: ""#emp มีหมู่บ้านที่นี่ด้วยรึ?!#!" ข้าพบว่าตนเองพูดออกมาด้วยความงุนงงอย่างยิ่ง\n\nมันไม่เคยปรากฏบนแผนที่ใด ๆ และไม่มีใครเคยเอ่ยถึงมันเลย แต่ถึงกระนั้น มันก็อยู่ที่นี่ เมื่อข้าถามไปรอบ ๆ ว่าหมู่บ้านนี้ชื่ออะไร ผู้คนก็เพียงตอบว่า: "หมู่บ้านรึ? ก็หมู่บ้านนี่แหละ" ด้วยสำเนียงเหน่อ ๆ ที่ข้าไม่เคยได้ยินมาก่อน\n\nคนพวกนี้เป็นใครกัน?! ทำไมข้าไม่เคยได้ยินเรื่องของพวกเขามาก่อนเลย?"
+ bp3_roaming.0220.a: "เดี๋ยวนะ จริง ๆ แล้วพวกเขาติดค้างภาษีข้าอยู่มากมิใช่รึ?"
+ bp3_roaming.0220.a.landless: "มาดูกันว่าพวกเขามีอะไรแถวนี้บ้าง..."
+ bp3_roaming.0220.b: "ข้าต้องเรียนรู้ทุกอย่างเกี่ยวกับคนเหล่านี้!"
+ bp3_roaming.0220.b.mystic: "เรียนรู้จากนักพรตประจำหมู่บ้าน"
+ bp3_roaming.0220.c: "ช่างน่าสนใจเสียจริง! พวกเขาจะเป็นเรื่องเล่าที่ดีได้"
+
+ roaming_forgotten_village_modifier: "$bp3_roaming.0220.t$"
+ roaming_forgotten_village_modifier_desc: "หมู่บ้านที่ถูกลืมในพื้นที่เพิ่งกลับมาเชื่อมสัมพันธ์กับเพื่อนบ้านจำนวนมาก แบ่งปันความรู้และประเพณีของพวกเขา"
+
+ the_forgotten_village_key_title: "$bp3_roaming.0220.t$"
+ the_forgotten_village_key: "[host.GetShortUIName] พบหมู่บ้านเก่าแก่ที่ถูกลืมขณะเดินทางผ่านดินแดนห่างไกลของ [province.GetName]"
+
+ the_forgotten_village_mystic_key_title: "นักพรตประจำหมู่บ้าน"
+ the_forgotten_village_mystic_key: "[host.GetShortUIName] เรียนรู้ประเพณีของนักพรตประจำหมู่บ้านใน [province.GetName]"
+
+ bp3_roaming.0230.t: "ฤๅษี"
+ bp3_roaming.0230.desc: "ขณะที่เราเดินทางผ่านดินแดนห่างไกลของ [province.GetName] ทันใดนั้นองครักษ์ของข้าและข้าก็พบ [hermit_character.GetWomanMan] ผู้หนึ่ง นุ่งห่มอาภรณ์สกปรก นั่งอยู่ตามลำพัง [hermit_character.GetHerselfHimself] ทันทีที่ [hermit_character.GetSheHe] สังเกตเห็นเรา [hermit_character.GetSheHe] ก็อุทานเสียงดังว่า: "ท่านคือบททดสอบล่าสุดที่ [hermit_character.GetFaith.HighGodName] ส่งมาใช่หรือไม่?!"\n\n"ขออภัยนะ?" ข้าเอ่ยถามออกมาอย่างสับสน และรู้สึกขุ่นเคืองเล็กน้อย\n\n"มาเถิด ข้าจะเล่าให้ท่านฟังทั้งหมดเกี่ยวกับบททดสอบและความทุกข์โศกของ [hermit_character.GetName] ผู้ปรีชา...""
+ bp3_roaming.0230.a: "ท่านมีความคิดที่น่าสนใจนะ [hermit_character.GetNameNoTooltip]"
+ bp3_roaming.0230.a.hermit: "สนทนากับฤๅษี"
+ bp3_roaming.0230.b: "#emp เล่าให้ข้าฟังอีก...#!"
+ bp3_roaming.0230.b.tooltip: "ท่านแอบเปลี่ยนไปนับถือ [hermit_faith.GetName]"
+ bp3_roaming.0230.c: "ท่านพูดอะไรเกี่ยวกับ [ROOT.Char.GetFaith.HighGodName] นะ? รับไม่ได้ เจ้าพวกนอกรีต!"
+
+ the_hermit_key_title: "ฤๅษี"
+ the_hermit_key: "[host.GetShortUIName] พบฤๅษีผู้แปลกประหลาดในถิ่นทุรกันดาร"
+
+ the_hermit_learning_key_title: "คำสอนของฤๅษี"
+ the_hermit_learning_key: "[host.GetShortUIName] สนทนาอย่างยาวนานกับฤๅษีในดินแดนห่างไกลของ [province.GetName]"
+
+ roaming_the_hermit_modifier: "แนวคิดนอกกรอบ"
+ roaming_the_hermit_modifier_desc: "ตัวละครนี้มักแบ่งปันแนวคิดและความคิดนอกกรอบเกี่ยวกับศาสนาอยู่เสมอ"
+
+ bp3_roaming.0240.t: "ค่ำคืนที่น่าจดจำ"
+ bp3_roaming.0240.desc: "ขณะที่เราตั้งค่ายพักแรม ท้องฟ้าทั้งผืนก็สว่างไสวไปด้วยดวงดาว เป็นค่ำคืนที่ฟ้าโปร่งที่สุดคืนหนึ่งที่เราเคยเห็นนับตั้งแต่จาก [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier] มา\n\nเงียบสงัด ไม่มีเสียงใดให้ได้ยิน ไม่ว่าจากผู้คนหรือสรรพสัตว์ ราวกับว่า [province.GetTerrain.GetNameNoTooltip|l] กำลังกลั้นหายใจ ขณะที่เราทุกคนกำลังดื่มด่ำกับท้องฟ้ายามค่ำคืน ข้าควรจะเข้านอนเพื่อพักผ่อนสำหรับยามเช้า แต่... บางทีข้าอาจจะอยู่ต่ออีกสักชั่วโมงสองชั่วโมง"
+ bp3_roaming.0240.a: "ข้าจะจดจำสิ่งนี้ไปชั่วชีวิต"
+
+ a_night_to_remember_key_title: "ค่ำคืนที่น่าจดจำ"
+ a_night_to_remember_key: "[host.GetShortUIName] อยู่เกือบทั้งคืนเพื่อเฝ้ามองท้องฟ้ายามค่ำคืนอันเต็มไปด้วยดวงดาวที่แจ่มใส"
+
+ bp3_roaming.0250.t: "หลุมศพเล็ก ๆ"
+ bp3_roaming.0250.desc: "ขณะที่เราเดินทางผ่าน [province.Custom('HoldingNoHoldingTerrainRoaming')] เราพบสิ่งที่ดูเหมือนหลุมศพ มันมี [province.Custom('RoamingGraveVariants')] ไม่มีสิ่งใดบ่งชี้ว่าเหตุใดหลุมศพจึงมีอยู่ ณ ที่นี้ ห่างไกลจากอารยธรรมนัก\n\nแม้จะอยู่ในสถานที่ห่างไกล แต่ก็มีความพยายามอย่างมากในการ ทำให้บริเวณนั้นดูดี เมื่อพิจารณาจากสถานการณ์แล้ว ข้าควรจะ..."
+ bp3_roaming.0250.a: "สวดภาวนาอุทิศส่วนกุศล"
+ bp3_roaming.0250.b: "ขุดหาของมีค่าใด ๆ ที่พวกเขาซ่อนไว้ในหลุมศพ"
+
+ roaming_grave_variant_cross: "ไม้กางเขนเล็ก ๆ แต่สวยงามปักอยู่บนพื้นดิน"
+ roaming_grave_variant_burial_mound: "เนินฝังศพเล็ก ๆ ที่มีหินหลายก้อนวางไว้อย่างระมัดระวังด้านบน"
+ roaming_grave_variant_stone: "หินก้อนเล็ก ๆ ที่มีชื่อสลักอยู่"
+
+ no_treasure: "ไม่พบสมบัติ"
+ small_treasure: "สมบัติเล็กน้อย"
+ medium_treasure: "สมบัติปานกลาง"
+ large_treasure: "สมบัติจำนวนมาก"
+ bp3_roaming.0250.artifact: "ท่านค้นพบ [artifact|E]"
+
+ a_small_grave_key_title: "หลุมศพเล็ก ๆ"
+ a_small_grave_key: "[host.GetShortUIName] พบหลุมศพเล็ก ๆ ในถิ่นทุรกันดารของ [province.GetName]"
+
+ # APAs
+ roaming_fame_very_small_tt: "[GetPerk('roaming_perk').GetName( GetNullCharacter )] [perk|E]: "#EMP มันจะเป็นเรื่องเล่าได้เรื่องหนึ่ง#!""
+ roaming_fame_small_tt: "[GetPerk('roaming_perk').GetName( GetNullCharacter )] [perk|E]: "#EMP มันจะเป็นเรื่องเล่าที่ดีได้เรื่องหนึ่ง!#!""
+ roaming_fame_medium_tt: "[GetPerk('roaming_perk').GetName( GetNullCharacter )] [perk|E]: "#EMP มันจะเป็นเรื่องเล่าที่น่าจดจำได้เรื่องหนึ่ง!#!""
+ roaming_fame_high_tt: "[GetPerk('roaming_perk').GetName( GetNullCharacter )] [perk|E]: "#EMP มันจะเป็นเรื่องเล่าที่ยอดเยี่ยมได้เรื่องหนึ่ง!#!""
+ roaming_fame_very_high_tt: "[GetPerk('roaming_perk').GetName( GetNullCharacter )] [perk|E]: "#EMP มันจะเป็นเรื่องเล่าที่น่าอัศจรรย์ได้เรื่องหนึ่ง!#!""
+
+ apa_roaming_feather_title: "[first.GetShortUIName|U] พบขนนกสีสดใส"
+ apa_roaming_feather_key_title: "ขนนกสีสดใส"
+ apa_roaming_feather_key: "ขณะที่ [first.GetSheHe] เดินทางผ่าน [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] [first.GetShortUIName] ได้พบขนนกสีสดใสงดงามอย่างน่าทึ่งโดยบังเอิญ"
+
+ apa_roaming_ancient_runestone_title: "[first.GetShortUIName|U] พบศิลาจารึกอักษรรูนเก่าแก่"
+ apa_roaming_ancient_runestone_key_title: "ศิลาจารึกอักษรรูนเก่าแก่"
+ apa_roaming_ancient_runestone_key: "ใน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] [first.GetShortUIName] พบศิลาจารึกอักษรรูนเก่าแก่ที่มีอักษรรูนเลือนลาง"
+
+ apa_roaming_ancient_megalith_title: "[first.GetShortUIName|U] พบแท่งหินใหญ่โบราณ"
+ apa_roaming_ancient_megalith_key_title: "แท่งหินใหญ่โบราณ"
+ apa_roaming_ancient_megalith_key: "ใน [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] [first.GetShortUIName] พบพยานเงียบแห่งยุคสมัยที่ล่วงเลย - อนุสาวรีย์แท่งหินใหญ่โบราณ"
+
+ apa_roaming_natural_arch_title: "[first.GetShortUIName|U] พบซุ้มหินธรรมชาติในป่าดง"
+ apa_roaming_natural_arch_key_title: "ซุ้มหินธรรมชาติ"
+ apa_roaming_natural_arch_key: "[first.GetShortUIName] ตกตะลึงเมื่อ [first.GetSheHe] พบซุ้มหินธรรมชาติตระหง่านใน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]"
+
+ apa_roaming_coast_seashells_title: "[first.GetShortUIName|U] พบเปลือกหอยล้ำค่า"
+ apa_roaming_coast_seashells_key_title: "เปลือกหอยล้ำค่า"
+ apa_roaming_coast_seashells_key: "ขณะสำรวจถ้ำชายฝั่ง [first.GetShortUIName] ค้นพบกลุ่มเปลือกหอยหายากและไข่มุก ซุกซ่อนอยู่โดยการขึ้นลงของกระแสน้ำ"
+
+ apa_roaming_forest_gnarled_oak_title: "[first.GetShortUIName|U] พบนกทำรัง"
+ apa_roaming_forest_gnarled_oak_key_title: "นกทำรัง"
+ apa_roaming_forest_gnarled_oak_key: "ขณะเดินทางผ่าน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] [first.GetShortUIName] พบต้นโอ๊กเก่าแก่ขนาดมหึมา บิดเบี้ยว มีโพรงลำต้น เป็นแหล่งพักพิงสำหรับนกทำรัง"
+
+ apa_roaming_rabbit_family_title: "[first.GetShortUIName|U] พบครอบครัวกระต่ายเล็ก ๆ"
+ apa_roaming_rabbit_family_key_title: "กระต่ายท้องถิ่น"
+ apa_roaming_rabbit_family_key: "ใน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] [first.GetShortUIName] พบที่โล่งแดดส่องถึงพร้อมครอบครัวกระต่าย กำลังกระโดดโลดเต้นอย่างสนุกสนานท่ามกลางพงหญ้า"
+
+ apa_roaming_desert_lilies_title: "[first.GetShortUIName|U] พบดอกลิลลี่ทะเลทราย"
+ apa_roaming_desert_lilies_key_title: "ดอกลิลลี่ทะเลทราย"
+ apa_roaming_desert_lilies_key: "ใน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] [first.GetShortUIName] ค้นพบทุ่งดอกลิลลี่ทะเลทรายอันบอบบาง กลีบดอกสีซีดคลี่บานราวกับสมบัติอันบอบบางชั่วครู่ในถิ่นทุรกันดาร"
+
+ apa_roaming_desert_lilies_oasis_title: "$apa_roaming_desert_lilies_title$"
+ apa_roaming_desert_lilies_oasis_key_title: "$apa_roaming_desert_lilies_key_title$"
+ apa_roaming_desert_lilies_oasis_key: "ท่ามกลางพืชพรรณเขียวชอุ่มของโอเอซิส [first.GetShortUIName] สังเกตเห็นกลุ่มดอกลิลลี่ทะเลทราย ดอกอันบอบบางของพวกมันเพิ่มสัมผัสแห่งความสง่างามให้กับภูมิทัศน์ที่เต็มไปด้วยทราย"
+
+ apa_roaming_desert_fox_title: "[first.GetShortUIName|U] เห็นสุนัขจิ้งจอกทะเลทราย"
+ apa_roaming_desert_fox_key_title: "สุนัขจิ้งจอกทะเลทราย"
+ apa_roaming_desert_fox_key: "ในเนินทรายอันเงียบสงบ [first.GetShortUIName] สังเกตเห็นสุนัขจิ้งจอกทะเลทรายโดดเดี่ยว ขนสีทองของมันพรางตัวเข้ากับผืนทรายได้อย่างง่ายดายขณะเคลื่อนไหวอย่างสง่างามผ่านภูมิประเทศ"
+
+ apa_roaming_mountain_river_title: "[first.GetShortUIName|U] พบที่พักผ่อนริมลำธารอันเงียบสงบ"
+ apa_roaming_mountain_river_key_title: "ลำธารบนที่สูง"
+ apa_roaming_mountain_river_key: "ขณะเดินทางผ่าน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] [first.GetShortUIName] พบลำธารภูเขาใสสะอาด มอบการพักผ่อนอันสดชื่น"
+
+ apa_roaming_lonely_yurt_title: "[first.GetShortUIName|U] พบกระโจมว่างเปล่า"
+ apa_roaming_lonely_yurt_key_title: "กระโจมอันโดดเดี่ยว"
+ apa_roaming_lonely_yurt_key: "ขณะเดินทางข้ามทุ่งหญ้าสเตปป์เปิดโล่ง [first.GetShortUIName] พบกระโจมโดดเดี่ยว เป็นที่พักพิงเรียบง่ายจากถิ่นทุรกันดารอันโหดร้าย"
+
+ apa_roaming_standing_stone_title: "[first.GetShortUIName|U] เห็นหินตั้ง"
+ apa_roaming_standing_stone_key_title: "หินตั้ง"
+ apa_roaming_standing_stone_key: "ใน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] [first.GetShortUIName] ค้นพบหินตั้งโบราณ เป็นเครื่องหมายโดดเดี่ยวท่ามกลางสภาพแวดล้อม"
+
+ apa_roaming_wildflowers_title: "[first.GetShortUIName|U] พบดอกไม้ป่า"
+ apa_roaming_wildflowers_key_title: "ดอกไม้ป่า"
+ apa_roaming_wildflowers_key: "ใน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] [first.GetShortUIName] ตื่นตาตื่นใจกับกลุ่มดอกไม้ป่าที่ผลิบาน เพิ่มสีสันให้กับทุ่งหญ้ากว้างใหญ่"
+
+ apa_roaming_lost_sheep_title: "[first.GetShortUIName|U] เห็นแกะหลงฝูง"
+ apa_roaming_lost_sheep_key_title: "แกะหลงฝูง"
+ apa_roaming_lost_sheep_key: "ขณะเดินทางผ่านพื้นที่เพาะปลูก [first.GetShortUIName] สังเกตเห็นแกะหลงฝูงตัวหนึ่งกำลังเล็มหญ้าในทุ่งหญ้าเขียวขจีตามลำพัง"
+
+ apa_roaming_friendly_dog_title: "[first.GetShortUIName|U] พบสุนัขที่เป็นมิตร"
+ apa_roaming_friendly_dog_key_title: "สุนัขที่เป็นมิตร"
+ apa_roaming_friendly_dog_key: "ขณะเดินทางผ่านพื้นที่ไร่นาหลายเอเคอร์ [first.GetShortUIName] พบสุนัขในไร่นาที่เป็นมิตรกำลังกระดิกหางอย่างมีความสุข"
+
+ apa_roaming_grazing_cattle_title: "[first.GetShortUIName|U] เห็นฝูงวัว"
+ apa_roaming_grazing_cattle_key_title: "วัวที่ดูพอใจ"
+ apa_roaming_grazing_cattle_key: "ในทุ่งนา [first.GetShortUIName] สังเกตเห็นฝูงวัวกำลังเล็มหญ้าอย่างพึงพอใจ"
+
+ apa_roaming_lonely_tree_title: "[first.GetShortUIName|U] พบต้นไม้สูงตระหง่านบนที่ราบ"
+ apa_roaming_lonely_tree_key_title: "ต้นไม้โดดเดี่ยว"
+ apa_roaming_lonely_tree_key: "ท่ามกลางที่ราบ [first.GetShortUIName] สังเกตเห็นต้นไม้โดดเดี่ยวสูงตระหง่าน กิ่งก้านของมันชูขึ้นสู่ท้องฟ้า"
+
+ apa_roaming_rock_outcrop_plains_title: "[first.GetShortUIName|U] พบทิวทัศน์อันน่าอัศจรรย์"
+ apa_roaming_rock_outcrop_plains_key_title: "ทิวทัศน์อันน่าอัศจรรย์"
+ apa_roaming_rock_outcrop_plains_key: "ท่ามกลางที่ราบเปิดโล่ง [first.GetShortUIName] พบโขดหินธรรมชาติที่โผล่ขึ้นมา มอบทิวทัศน์มุมกว้างของที่ราบโดยรอบ"
+
+ apa_roaming_rock_outcrop_hills_title: "$apa_roaming_rock_outcrop_plains_title$"
+ apa_roaming_rock_outcrop_hills_key_title: "$apa_roaming_rock_outcrop_plains_key_title$"
+ apa_roaming_rock_outcrop_hills_key: "ขณะเดินป่าผ่านเนินเขา [first.GetShortUIName] พบโขดหินที่โผล่ขึ้นมา มอบจุดชมวิวพร้อมทิวทัศน์ของภูมิประเทศที่เป็นเนินลูกคลื่น"
+
+ apa_roaming_waterfall_title: "[first.GetShortUIName|U] พบที่พักผ่อนริมน้ำตกอันนุ่มนวล"
+ apa_roaming_waterfall_key_title: "น้ำตก"
+ apa_roaming_waterfall_key: "ท่ามกลาง [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] [first.GetShortUIName] พบน้ำตกเล็ก ๆ การไหลหลั่งอันนุ่มนวลของมันมอบช่วงเวลาแห่งความเงียบสงบ"
+
+ apa_roaming_heron_title: "[first.GetShortUIName|U] เห็นนกกระสาอันน่าประทับใจ"
+ apa_roaming_heron_key_title: "นกกระสาที่ไม่ไหวติง"
+ apa_roaming_heron_key: "ท่ามกลาง [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] [first.GetShortUIName] เหลือบเห็นนกกระสาที่ไม่ไหวติง กำลังรอโอกาสจับเหยื่อ"
+
+ apa_roaming_dragonfly_title: "[first.GetShortUIName|U] เห็นแมลงปอสีสดใส"
+ apa_roaming_dragonfly_key_title: "แมลงปอ"
+ apa_roaming_dragonfly_key: "ขณะเดินผ่าน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] [first.GetShortUIName] พบแมลงปอบินร่อนอยู่เหนือน้ำ ปีกเหลือบสีรุ้งของมันจับแสงอาทิตย์"
+
+ apa_roaming_ducklings_title: "[first.GetShortUIName|U] พบลูกเป็ดคู่หนึ่ง"
+ apa_roaming_ducklings_key_title: "ลูกเป็ด"
+ apa_roaming_ducklings_key: "ขณะเดินทางผ่านพื้นที่ชุ่มน้ำ [first.GetShortUIName] สังเกตเห็นเป็ดคู่หนึ่งกำลังลอยตัวข้ามผืนน้ำนิ่ง ทิ้งระลอกคลื่นไว้เบื้องหลัง"
+
+ apa_roaming_dates_title: "[first.GetShortUIName|U] พบต้นอินทผลัม"
+ apa_roaming_dates_key_title: "ต้นอินทผลัม"
+ apa_roaming_dates_key: "ขณะเดินทางผ่านโอเอซิส [first.GetShortUIName] พบหมู่ไม้อินทผลัมเล็ก ๆ ผลไม้รสหวานของพวกมันมอบของว่างต้อนรับในความร้อนของทะเลทราย"
+
+ apa_roaming_oasis_shelter_title: "[first.GetShortUIName|U] พบที่พักพิงในโอเอซิส"
+ apa_roaming_oasis_shelter_key_title: "ที่พักพิงในโอเอซิส"
+ apa_roaming_oasis_shelter_key: "ขณะสำรวจโอเอซิส [first.GetShortUIName] ค้นพบที่พักพิงชั่วคราวที่ทำจากใบปาล์มสาน มอบร่มเงาในความร้อนของทะเลทราย"
+
+ apa_roaming_oasis_traders_title: "[first.GetShortUIName|U] พบกองคาราวานพ่อค้า"
+ apa_roaming_oasis_traders_key_title: "กองคาราวานโอเอซิส"
+ apa_roaming_oasis_traders_key: "ขณะเดินทางผ่านโอเอซิส [first.GetShortUIName] พบกองคาราวานพ่อค้า อูฐของพวกเขาบรรทุกสินค้าเต็ม"
+
+ apa_roaming_traders_title: "[first.GetShortUIName|U] พบกลุ่มพ่อค้า"
+ apa_roaming_traders_key_title: "พ่อค้าแห่ง [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip]"
+ apa_roaming_traders_key: "ขณะเดินทางผ่าน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] [first.GetShortUIName] พบกลุ่มพ่อค้าและสัตว์ที่บรรทุกของหนักของพวกเขา"
+
+ apa_roaming_luminescent_mushrooms_title: "[first.GetShortUIName|U] พบกลุ่มเห็ดเรืองแสง"
+ apa_roaming_luminescent_mushrooms_key_title: "เห็ดเรืองแสง"
+ apa_roaming_luminescent_mushrooms_key: "ขณะเดินทางผ่าน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] [first.GetShortUIName] ตื่นตาตื่นใจกับกลุ่มเห็ดเรืองแสง ส่องแสงเรืองรองเหนือจริงในพงหญ้าอันมืดสลัว"
+
+ apa_roaming_wild_berries_title: "[first.GetShortUIName|U] พบกลุ่มผลเบอร์รี่ป่า"
+ apa_roaming_wild_berries_key_title: "ผลเบอร์รี่ป่า"
+ apa_roaming_wild_berries_key: "ขณะเดินทางผ่าน [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')] [first.GetShortUIName] พบกลุ่มผลเบอร์รี่ป่า เป็นของว่างอันน่าเพลิดเพลินและไม่คาดคิดท่ามกลางความเขียวขจี"

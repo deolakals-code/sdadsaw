@@ -1,0 +1,57 @@
+﻿l_english: 
+ ##################################################
+ # CHINA CHILD EXAMINATION DECISION EVENTS 
+ ##################################################
+ # SUCCESS CHANCE VALUES
+ exam_success_chance.tgp_local_exam_initial_success: "เริ่มต้นการสอบได้ดี"
+ exam_success_chance.tgp_local_exam_impressed_examiner: "ผู้คุมสอบประทับใจ"
+ exam_success_chance.tgp_local_exam_strong_finish: "จบการสอบได้ดี"
+
+ examiner_takes_bribes_tt: "ท่านได้รับตัวเลือกนี้เนื่องด้วยลักษณะนิสัยของผู้คุมสอบ"
+
+ tgp_china_decision.1000.t: "การสอบเยาวชน: เริ่มต้น"
+ tgp_china_decision.1000.desc_new: "ข้าได้มาถึงการสอบครั้งแรกของข้าแล้ว เกียรติภูมิของวงศ์ตระกูลขึ้นอยู่กับความสำเร็จของข้าในวันนี้ ณ โถงอันโอฬาร แหล่งรวมองค์ความรู้อันแท้จริงเหล่านี้ ข้ารู้สึกราวกับว่าดวงวิญญาณบรรพชนกำลังเฝ้ามอง รอคอยว่าชะตาของข้าจะเป็น เช่นใด"
+ tgp_china_decision.1000.desc_returning: "ข้ากลับมายังหอศึกษาประจำถิ่นอีกครา เพื่อรอคอยคำตัดสินจากเหล่าบัณฑิตผู้ปราดเปรื่องของอาณาจักร ณ หอศึกษาอันน่าเกรงขามนี้ ภาระของม้วนตำราทุกม้วน แลองค์ความรู้ทั้งมวลที่บรรจุอยู่ภายใน ช่างถ่วงหนักบนสองบ่าของข้าเหลือเกิน"
+ tgp_china_decision.1000.desc_outro: "\n\nท่านผู้คุมสอบ [examiner.GetTitledFirstName] จะเรียกให้ข้าท่องจำข้อความจากคัมภีร์โบราณ ข้าได้ฝึกซ้อมบทความเหล่านี้จนขึ้นใจ เห็นอักขระแม้ในยามหลับตา\n\nในที่สุด ก็ถึงคราของข้าที่ต้องก้าวขึ้นแท่น"
+ tgp_china_decision.1000.a: "ข้าจะทุ่มเทสุดกำลัง!"
+ tgp_china_decision.1000.b: "ทำเพียงเท่าที่จำเป็น"
+
+ tgp_china_decision.1001.t_success: "การสอบเยาวชน: สำเร็จ!"
+ tgp_china_decision.1001.t_fail: "การสอบเยาวชน: ล้มเหลว!"
+ tgp_china_decision.1001.desc_success: "จิตใจข้าสงบนิ่งขณะท่องทุกถ้อยคำ เอื้อนเอ่ยออกมาอย่างชัดเจนแจ่มแจ้ง มันช่างรู้สึกง่ายดายนัก"
+ tgp_china_decision.1001.desc_safe: "ข้าเอา แต่ก้มมองเท้าตน ไม่กล้าแม้จะชำเลืองมองท่านผู้คุมสอบ ด้วยกลัวว่าจะ ทำให้ [examiner.GetHerHim] ไม่พอใจ การท่องของข้าจึงสั้นกระชับ ข้ารีบเร่งท่องให้จบเพื่อกลบเกลื่อนข้อผิดพลาดใดๆ"
+ tgp_china_decision.1001.desc_fail: "ใบหน้าของข้าร้อนผ่าวเมื่อตระหนักว่าพลันลืมเนื้อความไปเสียสิ้น ข้าเงยหน้ามองท่านผู้คุมสอบ และสายตาอันเฉียบขาดของ [examiner.GetHerHis] ก็บีบคั้นให้ข้าเงียบงัน"
+ tgp_china_decision.1001.desc_outro: "\n\nท่านผู้คุมสอบก็ส่งบทความต่อไปให้ข้าท่องต่อทันที ไม่เปิดโอกาสให้ข้าได้ตั้งตัวเลย"
+ tgp_china_decision.1001.a: "ข้าต้อง ทำให้ #EMP ถูกต้อง#! ให้จงได้"
+ tgp_china_decision.1001.b: "ข้าจะไม่ฝืนตนเอง"
+
+ tgp_china_decision.1002.t_success: "การสอบเยาวชน: สำเร็จ!"
+ tgp_china_decision.1002.t_fail: "การสอบเยาวชน: ล้มเหลว!"
+ tgp_china_decision.1002.desc_success: "ถ้อยคำหลั่งไหลจากริมฝีปากข้าอย่างคล่องแคล่ว และชั่วขณะหนึ่ง ข้าเชื่อว่าเห็นมุมปากของท่านผู้คุมสอบกระตุก [examiner.GetSheHe] เพิ่งจะยิ้มหรือ? เป็นไปไม่ได้!"
+ tgp_china_decision.1002.desc_safe: "ข้าท่องให้น้อยที่สุดเท่าที่จะทำได้ เพื่อหลีกเลี่ยงข้อผิดพลาดที่ไม่จำเป็น เมื่อลองชำเลืองมองท่านผู้คุมสอบ ข้าพบว่า [examiner.GetSheHe] ดูเหมือนจะเบื่อหน่ายกับการท่องอันติดขัดของข้า"
+ tgp_china_decision.1002.desc_fail: "ฝ่ามือข้าชุ่มเหงื่อเมื่อข้าเริ่มท่องตะกุกตะกัก ข้าจำไม่ได้แม้ แต่วลีเดียว! หากแผ่นดินสูบข้าไปได้ก็คงดี"
+ tgp_china_decision.1002.desc_outro: "\n\nอีกครั้ง ข้าไม่ได้รับอนุญาตให้หยุดพัก ท่านผู้คุมสอบจับจ้องข้าด้วยสายตาของ [examiner.GetHerHis] และถามถึงส่วนต่อไป"
+ tgp_china_decision.1002.a: "ทุกสิ่งตัดสินกันที่ตรงนี้!"
+ tgp_china_decision.1002.b: "ตั้งสติไว้..."
+
+ tgp_china_decision.1005.t: "การประกาศผลสอบ"
+ tgp_china_decision.1005.desc: "ข้าเสร็จสิ้นการสอบด้วย "
+ tgp_china_decision.1005.desc.success: "จิตใจที่เปี่ยมสุข"
+ tgp_china_decision.1005.desc.safe: "การถอนหายใจอย่างโล่งอก"
+ tgp_china_decision.1005.desc.failure: "จิตใจที่ห่อเหี่ยว"
+ tgp_china_decision.1005.desc.segway: "\n\nขณะที่ข้าก้าวกลับไปที่แถวของผู้เข้าสอบ ข้าสังเกตเห็นว่าเด็กคนอื่นๆ รอบตัวข้าล้วนเป็นคนแปลกหน้า คงจะดีไม่น้อยหากมีใบหน้าที่คุ้นเคยสักคนขณะรอคอยคำตัดสิน เพื่อ ทำให้การรอคอยพอทนได้ \n\nอีกนานต่อมา ผลสอบก็ถูกประกาศ และข้ารีบวิ่งไปที่บอร์ดประกาศเพื่อดูว่าข้า"
+ tgp_china_decision.1005.desc.high_score: "ทำคะแนนการสอบได้ดีเยี่ยม! ครอบครัวของข้าต้องภูมิใจ"
+ tgp_china_decision.1005.desc.good_score: "ทำคะแนนการสอบได้ดี!"
+ tgp_china_decision.1005.desc.passing_score: "สอบผ่าน"
+ tgp_china_decision.1005.desc.failing: "สอบไม่ผ่าน"
+ tgp_china_decision.1005.a_success: "คราวหน้าข้าจะพยายามให้หนักขึ้น"
+ tgp_china_decision.1005.a: "ข้าเพียงปรารถนาที่จะเป็นเกียรติแก่บิดามารดา"
+ tgp_china_decision.1005.b: "เหล่าอาจารย์ผู้เก่งกาจของข้าสมควรได้รับคำชื่นชมทั้งมวล!"
+ tgp_china_decision.1005.a_failure: "ข้าจะกลับมา"
+ tgp_china_decision.1005.b_passing: "ข้าพอใจกับผลลัพธ์นี้"
+ tgp_china_decision.1005.b_failed: "ช่างน่าอัปยศสิ้นดี"
+
+ provincial_exam_close_family_passed: "[GetPlayer.Custom2('RelationToMeShort', ROOT.Char)|U] สอบผ่านการสอบระดับมณฑล"
+ msg_provincial_exam_close_family_passed_desc: "[ROOT.Char.GetShortUIName|U] เสร็จสิ้นการสอบระดับต้นได้สำเร็จใน [ROOT.Char.GetCurrentLocation.GetName]"
+ provincial_exam_close_family_failed: "[GetPlayer.Custom2('RelationToMeShort', ROOT.Char)|U] สอบไม่ผ่านการสอบระดับมณฑล"
+ msg_provincial_exam_close_family_failed_desc: "[ROOT.Char.GetShortUIName|U] พยายาม แต่ล้มเหลวในการพิสูจน์ [ROOT.Char.GetHerselfHimself] ในการสอบระดับต้นที่ [ROOT.Char.GetCurrentLocation.GetName]"

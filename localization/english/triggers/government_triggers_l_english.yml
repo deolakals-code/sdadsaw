@@ -1,0 +1,43 @@
+﻿l_english: 
+
+ GOVERNMENT_HAS_FLAG_TRIGGER:1 "[government|E] มีคุณสมบัติ $FLAG$"
+ GOVERNMENT_HAS_FLAG_TRIGGER_FIRST:0 "[government|E] ของท่านมีคุณสมบัติ $FLAG$"
+ GOVERNMENT_HAS_FLAG_TRIGGER_THIRD:0 "[government|E] ของ [CHARACTER.GetShortUINamePossessive|U] มีคุณสมบัติ $FLAG$"
+ NONE_GOVERNMENT_HAS_FLAG_TRIGGER: "[government|E] ของพวกเขา $FLAG$"
+
+ NOT_GOVERNMENT_HAS_FLAG_TRIGGER:0 "ต้องการให้ [government|E] มีคุณสมบัติ $FLAG$"
+ NOT_GOVERNMENT_HAS_FLAG_TRIGGER_FIRST:0 "ต้องการให้ [government|E] ของท่านมีคุณสมบัติ $FLAG$"
+ NOT_GOVERNMENT_HAS_FLAG_TRIGGER_THIRD:0 "ต้องการให้ [government|E] ของ [CHARACTER.GetShortUINamePossessive] มีคุณสมบัติ $FLAG$"
+
+ GOVERNMENT_ALLOWS_TRIGGER:0 "[government|E] อนุญาต: $RULE|V$"
+ NOT_GOVERNMENT_ALLOWS_TRIGGER: "[government|E] ไม่อนุญาต: $RULE|V$"
+ THEIR_GOVERNMENT_ALLOWS_TRIGGER:0 "[government|E] ของ [CHARACTER.GetShortUINamePossessive|VU] อนุญาต: $RULE|V$"
+ NOT_THEIR_GOVERNMENT_ALLOWS_TRIGGER:0 "[government|E] ของ [CHARACTER.GetShortUINamePossessive|VU] ไม่อนุญาต: $RULE|V$"
+ MY_GOVERNMENT_ALLOWS_TRIGGER: "[government|E] ของท่านอนุญาต: $RULE|V$"
+ NOT_MY_GOVERNMENT_ALLOWS_TRIGGER: "[government|E]ของท่าน#boldมิได้#!อนุญาต: $RULE|V$"
+ administrative_trigger: "การปกครองแบบ [administrative|E]"
+ state_faith_trigger: "[state_faith|E]"
+ uses_county_fertility_trigger: "[county_fertility|E]"
+
+ GOVERNMENT_DISALLOWS_TRIGGER:0 "[government|E] ไม่อนุญาต: $RULE|V$"
+
+ HAS_GOVERNMENT_TRIGGER_GLOBAL: "มี [government|E] แบบ $GOVERNMENT_TYPE|V$"
+ NOT_HAS_GOVERNMENT_TRIGGER_GLOBAL: "#bold ไม่มี#! [government|E] แบบ $GOVERNMENT_TYPE|V$"
+ HAS_GOVERNMENT_TRIGGER_FIRST: "ท่านมี [government|E] แบบ $GOVERNMENT_TYPE|V$"
+ NOT_HAS_GOVERNMENT_TRIGGER_FIRST: "ท่าน #bold ไม่มี#! $GOVERNMENT_TYPE|V$ [government|E]"
+ HAS_GOVERNMENT_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|V] มี [government|E] แบบ $GOVERNMENT_TYPE|V$"
+ NOT_HAS_GOVERNMENT_TRIGGER_THIRD: "[CHARACTER.GetShortUIName|V] #bold ไม่มี#! [government|E] แบบ $GOVERNMENT_TYPE|V$"
+
+ has_council_first: "ท่านมี [council|E]"
+ not_has_council_first: "ท่าน #bold ไม่มี#! [council|E]"
+ has_council_third: "[CHARACTER.GetName] มี [council|E]"
+ not_has_council_third: "[CHARACTER.GetName] #bold ไม่มี#! [council|E]"
+ has_council_global: "มี [council|E]"
+ not_has_council_global: "#bold ไม่มี#! [council|E]"
+
+ HAS_SAME_GOVERNMENT_TRIGGER:0 "มีการปกครองแบบเดียวกับ [TARGET_CHARACTER.GetShortUIName]"
+
+ MUST_HAVE_MALE_DOMINATED_OR_EQUAL:0 "[CHARACTER.GetFaith.GetName] ไม่มีหลักคำสอน [GetFaithDoctrine('doctrine_gender_equal').GetBaseName] หรือหลักคำสอน [GetFaithDoctrine('doctrine_gender_male_dominated').GetBaseName]"
+ MUST_HAVE_FEMALE_DOMINATED_OR_EQUAL:0 "[CHARACTER.GetFaith.GetName] ไม่มีหลักคำสอน [GetFaithDoctrine('doctrine_gender_equal').GetBaseName] หรือหลักคำสอน [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]"
+ has_law_allowing_succession_law_change:0 "มี [crown_authority|E] อย่างน้อยระดับ [high|E] หรือ [tribal_authority|E] ระดับ [limited_tribal|E]"
+ replenishes_county_fertility_trigger: "[county_fertility|E]"

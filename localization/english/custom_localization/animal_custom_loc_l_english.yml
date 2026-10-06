@@ -1,0 +1,21 @@
+﻿l_english: 
+ #RandomElephantName
+ elephant_name_mahmud:0 "มะห์มุด"
+ elephant_name_kandula:0 "กัณฑุละ"
+ elephant_name_abdulabbas:0 "อับดุลอับบาส"
+ elephant_name_surus:0 "ซูรุส"
+ #HateCatsDogs
+ hate_dogs:0 "เหล่าสุนัข"
+ hate_cats:0 "เหล่าแมว"
+ #HateCatDog
+ hate_dog:0 "$love_dog$"
+ hate_cat:0 "$love_cat$"
+ #GetCatDog
+ love_cat:0 "แมว"
+ love_dog:0 "สุนัข"
+ #GetFelineCanine
+ get_feline:0 "วิฬาร์"
+ get_canine:0 "สุนัข"
+ #GetGenderAlliteratingAnimal
+ animal_warthog:0 "หมูป่าหน้าหูด"
+ animal_monkey:0 "ลิง"

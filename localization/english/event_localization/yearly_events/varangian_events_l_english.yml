@@ -1,0 +1,21 @@
+﻿l_english: 
+ varangian_arrived.title:0 "องครักษ์วารันเจียนคนใหม่"
+ varangian_arrived.desc:0 "[varangian_candidate.GetShortUIName|U] ได้เข้าร่วมกององครักษ์วารันเจียน"
+
+ varangian.0002.t:0 "กององครักษ์วารันเจียน"
+ varangian.0002.opening:0 "เมื่อถึงเวลาที่ [varangian_candidate.Custom2('MyCharacterIntroduction', ROOT.Char )] มาหาข้าพร้อมแผนการของ[varangian_candidate.GetHerHis] [varangian_candidate.GetSheHe] ดูเหมือนจะตัดสินใจแน่วแน่แล้ว\n\n\"การรับใช้ร่วมกับชาววารันเจียนใน\""
+ varangian.0002.miklagard:0 "มิคลากอร์ด"
+ varangian.0002.elsewhere:0 "กององครักษ์ของจักรพรรดิ"
+ varangian.0002.end:0 "จะนำมา ซึ่งทั้งความมั่งคั่งและเกียรติยศ!\"\n\nข้าปฏิเสธส่วนนั้นไม่ได้ แต่ข้าสามารถปฏิเสธคำขอของ[varangian_candidate.GetHerHis]ได้ ในทางกลับกัน มันจะถูกต้องหรือไม่ที่จะหยุดยั้งผู้ใดในการแสวงหาเกียรติยศ?"
+ varangian.0002.a:0 "ไปเถิด ด้วยพรของ[ROOT.Char.GetFaith.WarGodNamePossessive]!"
+ varangian.0002.b:0 "ไม่ ข้าห้าม! เจ้าเป็นที่ต้องการที่นี่"
+
+ varangian.1002.t:0 "การกลับมาจากกององครักษ์วารันเจียน"
+ varangian.1002.opening:0 "ข้าแทบจำ [returning_varangian.Custom2('MyCharacterIntroduction', ROOT.Char )] ไม่ได้เมื่อ [returning_varangian.GetSheHe] ปรากฏตัวใน [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'ค่าย', 'ห้องโถงใหญ่')] ของข้า"
+ varangian.1002.new_partner:0 "และข้าจำ [partner.GetWomanMan] ที่อยู่เคียงข้าง[returning_varangian.GetHerHis]ไม่ได้อย่างแน่นอน!"
+ varangian.1002.ending:0 "\n\n"ข้ากลับมาแล้ว [returning_varangian.Custom2('RelationToMeShort', ROOT.Char )]!" [returning_varangian.GetFirstNameNoTooltip] ตะโกน "มีหลายครั้งที่ข้าคิดว่าจะไม่ได้เห็นหน้าท่านอีก แต่ในที่สุดข้าก็กลับมาแล้ว"\n\nแม้ว่าจะแปลกที่ได้เห็น [ROOT.Char.Custom2('RelationToMeShort', returning_varangian )] ของข้าหลังจากผ่านไปหลายปี ข้าก็ปฏิเสธไม่ได้ว่าข้าประทับใจในชุด [emperor.GetCulture.GetNameNoTooltip] ของ [returning_varangian.GetHerHis] เครื่องประดับต่างแดนของ [returning_varangian.GetHerHis] และหีบหนักที่ [returning_varangian.GetSheHe] นำมาพร้อมกับ [returning_varangian.GetHerHim]"
+ varangian.1002.a:0 "ยินดีต้อนรับกลับบ้าน [returning_varangian.GetFirstNameNoTooltip]!"
+
+ varangian.3001.t:0 "กององครักษ์วารันเจียน: ความตายอันทรงเกียรติ"
+ varangian.3001.desc:0 "[varangian.Custom2('MyCharacterIntroduction', ROOT.Char)] ได้เสียชีวิตขณะรับใช้ในกององครักษ์วารันเจียน!\n\nข้าได้รับสาส์นจาก [emperor.GetTitledFirstName] ซึ่งสรรเสริญนามของ[varangian.GetHerHis] และบรรยายว่า [varangian.GetSheHe] ต่อสู้อย่างกล้าหาญเพียงใดเพื่อช่วยชีวิต [emperor.GetTitleAsNameNoTooltip] จากเหล่านักฆ่าผู้โหดเหี้ยม\n\nไม่มีสิ่งใดสามารถนำ [varangian.GetFirstNameNoTooltip] กลับมาได้ แต่รางวัลทองคำหลังมรณกรรมจาก [emperor.GetTitleAsNameNoTooltip] ช่วยบรรเทาความโศกเศร้าลงได้"
+ varangian.3001.a:0 "กล้าหาญจนถึงที่สุด [varangian.GetFirstNameNoTooltip]..."

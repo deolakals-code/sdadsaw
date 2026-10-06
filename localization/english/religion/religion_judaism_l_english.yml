@@ -1,0 +1,149 @@
+﻿l_english: 
+ judaism_religion:0 "ศาสนายูดาห์"
+ judaism_religion_adj:0 "ยิว"
+ judaism_religion_adherent:0 "ชาวยิว"
+ judaism_religion_adherent_plural:0 "ชาวยิว"
+ judaism_religion_desc:0 "ชีวิตที่ดีคือการดำเนินชีวิตตามพันธสัญญาที่ทำขึ้นระหว่างชาวฮีบรูและพระเจ้าผู้ทรงเอกะและสัมบูรณ์"
+ judaism_high_god_name:0 "องค์พระผู้เป็นเจ้า"
+ judaism_high_god_name_2:0 "$judaism_high_god_name$" # Optional translation alt
+ judaism_high_god_name_3:0 "$judaism_high_god_name$" # Optional translation alt
+ judaism_high_god_name_possessive:0 "แห่งองค์พระผู้เป็นเจ้า"
+ judaism_high_god_alternate:1 "อะโดนาย"
+ judaism_high_god_alternate_possessive:1 "แห่งอะโดนาย"
+ judaism_good_god_hashem:0 "ฮาเชม"
+ judaism_good_god_el_shaddai:0 "อะโดนาย"
+ judaism_devil_name:0 "บาอัล"
+ judaism_devil_name_possessive:0 "แห่งบาอัล"
+ judaism_evil_god_the_adversary:0 "ผู้ต่อต้าน"
+ judaism_house_of_worship:0 "ศาลาธรรม"
+ judaism_house_of_worship_2:0 "$judaism_house_of_worship$" # Optional translation alt
+ judaism_house_of_worship_3:0 "$judaism_house_of_worship$" # Optional translation alt
+ judaism_house_of_worship_plural:0 "ศาลาธรรม"
+ judaism_religious_symbol:0 "เมโนราห์"
+ judaism_religious_symbol_2:0 "$judaism_religious_symbol$" # Optional translation alt
+ judaism_religious_symbol_3:0 "$judaism_religious_symbol$" # Optional translation alt
+ judaism_religious_text:1 "โทราห์"
+ judaism_religious_text_2:0 "$judaism_religious_text$" # Optional translation alt
+ judaism_religious_text_3:0 "$judaism_religious_text$" # Optional translation alt
+ judaism_religious_head_title:1 "นาซี"
+ judaism_religious_head_title_name:0 "โคเฮน กาดอล"
+ judaism_devotee:0 "นาศีร์"
+ judaism_devotee_plural:0 "นาศีร์"
+ judaism_priest:0 "รับบี"
+ judaism_priest_plural:0 "รับบี"
+ judaism_bishop:0 "เซมูคิม"
+ judaism_bishop_plural:0 "เซมูคิม"
+ judaism_divine_realm:0 "อาราโบท"
+ judaism_divine_realm_2:0 "$judaism_divine_realm$" # Optional translation alt
+ judaism_divine_realm_3:0 "$judaism_divine_realm$" # Optional translation alt
+ judaism_positive_afterlife:0 "โอลัม ฮาบา"
+ judaism_positive_afterlife_2:0 "$judaism_positive_afterlife$" # Optional translation alt
+ judaism_positive_afterlife_3:0 "$judaism_positive_afterlife$" # Optional translation alt
+ judaism_negative_afterlife:0 "เชโอล"
+ judaism_negative_afterlife_2:0 "$judaism_negative_afterlife$" # Optional translation alt
+ judaism_negative_afterlife_3:0 "$judaism_negative_afterlife$" # Optional translation alt
+ judaism_death_deity_name:0 "ทูตสวรรค์แห่งความตาย"
+ judaism_death_deity_name_possessive:0 "แห่งทูตสวรรค์แห่งความตาย"
+ judaism_witchgodname_raziel:0 "ราซีเอล"
+ judaism_witchgodname_raziel_possessive:0 "แห่งราซีเอล"
+
+ judaism_creator_god_name:0 "$judaism_high_god_name$"
+ judaism_creator_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_health_god_name:0 "$judaism_high_god_name$"
+ judaism_health_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_fertility_god_name:0 "$judaism_high_god_name$"
+ judaism_fertility_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_wealth_god_name:0 "$judaism_high_god_name$"
+ judaism_wealth_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_household_god_name:0 "$judaism_high_god_name$"
+ judaism_household_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_fate_god_name:0 "$judaism_high_god_name$"
+ judaism_fate_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_knowledge_god_name:0 "$judaism_high_god_name$"
+ judaism_knowledge_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_war_god_name:0 "$judaism_high_god_name$"
+ judaism_war_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_trickster_god_name:1 "อายิน ฮารา" # The Evil Eye, not a god per-se but a personification of bad fortune
+ judaism_trickster_god_name_possessive:1 "แห่งอายิน ฮารา"
+ judaism_night_god_name:0 "$judaism_high_god_name$"
+ judaism_night_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+ judaism_water_god_name:0 "$judaism_high_god_name$"
+ judaism_water_god_name_possessive:0 "$judaism_high_god_name_possessive$"
+
+ #Rabbinism
+ rabbinism:0 "ศาสนายูดาห์แบบรับบี"
+ rabbinism_adj:0 "แบบรับบี"
+ rabbinism_adherent:0 "ผู้นับถือศาสนายูดาห์แบบรับบี"
+ rabbinism_adherent_plural:0 "ผู้นับถือศาสนายูดาห์แบบรับบี"
+ rabbinism_desc:1 "ศาสนายูดาห์แบบรับบีเน้นย้ำบทบาทของรับบีในฐานะผู้ตีความธรรมบัญญัติทางศาสนาแห่งฮาลาคาห์ กฎหมายและประเพณีคือสิ่งที่รับรองว่าพันธสัญญากับองค์พระผู้เป็นเจ้าจะได้รับการรักษา และเหล่ารับบีคือผู้พิทักษ์กฎหมายเหล่านั้น"
+
+ #Karaite
+ karaism:0 "ลัทธิคาราอิซึม"
+ karaism_adj:0 "คาราอิซึม"
+ karaism_adherent:0 "ชาวคาราอิซึม"
+ karaism_adherent_plural:0 "ชาวคาราอิซึม"
+ karaism_desc:0 "ในเรื่องธรรมบัญญัติทางศาสนา ทานัคเพียงอย่างเดียวคืออำนาจสูงสุดและสัมบูรณ์ บทบาทของรับบีไม่ใช่การประเมินและปรับเปลี่ยนกฎแห่งพันธสัญญา แต่คือการตีความตามความหมายตามตัวอักษร"
+
+ #Haymanot
+ haymanot:0 "ฮายมานอต"
+ haymanot_adj:0 "ฮายมานอต"
+ haymanot_adherent:0 "ชาวฮายมานอต"
+ haymanot_adherent_plural:0 "ชาวฮายมานอต"
+ haymanot_desc:0 "รับบี หรือ คาเฮน ตัดสินในเรื่องธรรมบัญญัติทางศาสนา แต่พวกเขาทำงานร่วมกับวงผู้อาวุโสที่ตัดสินในเรื่องประเพณีและวิถีชีวิต"
+ haymanot_religious_text:0 "โอริท"
+ haymanot_religious_text_2:0 "$haymanot_religious_text$" # Optional translation alt
+ haymanot_religious_text_3:0 "$haymanot_religious_text$" # Optional translation alt
+ haymanot_religious_head_title:0 "ลิกา คาห์เนต"
+ haymanot_devotee:0 "มอนโคซา"
+ haymanot_devotee_plural:0 "มอนโคซา"
+ haymanot_priest:0 "คาเฮน"
+ haymanot_priest_plural:0 "คาเฮน"
+ haymanot_bishop:0 "ชมาเกล"
+ haymanot_bishop_plural:0 "ชมาเกล"
+
+ #Malabar
+ malabarism:0 "ลัทธิมาลาบาร์"
+ malabarism_adj:0 "มาลาบารี"
+ malabarism_adherent:0 "ชาวมาลาบารี"
+ malabarism_adherent_plural:0 "ชาวมาลาบารี"
+ malabarism_desc:1 "ขณะที่ลูกหลานของเผ่าอิสราเอลกระจายไปทั่วโลก พวกเขาสร้างชุมชนเล็กๆ จากตะวันตกไปตะวันออก ทำหน้าที่เสมือนเผ่าของตนเอง หรือที่เรียกว่าชาวยิวโคชิน พวกเขาได้สร้างบ้านใหม่ในอาณาจักรโคชินทางตอนใต้ของอินเดีย ที่นั่นพวกเขาผสมผสานกับคนท้องถิ่นและแลกเปลี่ยนวัฒนธรรม"
+
+ #Samaritan
+ samaritan:0 "ลัทธิสะมาเรีย"
+ samaritan_adj:0 "สะมาเรีย"
+ samaritan_adherent:0 "ชาวสะมาเรีย"
+ samaritan_adherent_plural:0 "ชาวสะมาเรีย"
+ samaritan_desc:0 "สืบเชื้อสายมาจากเผ่าที่ตั้งรกรากในสะมาเรีย ชาวสะมาเรียปฏิบัติตามโทราห์ฉบับดั้งเดิมที่ไม่เปลี่ยนแปลง ด้วยวิธีนี้ พวกเขาจึงปฏิบัติศาสนาที่แท้จริงของโมเสส รับใช้หน้าที่โดยตรงที่พระเจ้าประทานให้"
+
+ #Kabarism
+ kabarism:1 "ลัทธิคูซาร์"
+ kabarism_adj:1 "คูซาไรต์"
+ kabarism_adherent:1 "คูซารี"
+ kabarism_adherent_plural:1 "คูซารี"
+ kabarism_desc:2 "ในฐานะชุมชนผู้เปลี่ยนศาสนา ชาวคูซารีปฏิบัติตามการตีความฮาลาคาห์แบบรับบีทั่วไป แม้จะเปลี่ยนศาสนามานานแล้ว พวกเขายังคงยึดถือความเชื่อและประเพณีท้องถิ่นบางอย่างด้วยความเคารพทางศาสนา"
+ 
+ #Merkabah
+ merkabah:0 "เมอร์คาบาห์"
+ merkabah_adj:0 "เมอร์คาบาห์"
+ merkabah_adherent:0 "ผู้นับถือเมอร์คาบาห์"
+ merkabah_adherent_plural:0 "ผู้นับถือเมอร์คาบาห์"
+ merkabah_desc:0 "รหัสยลัทธิเมอร์คาบาห์เป็นนิกายหนึ่งของรหัสยลัทธิยูดาห์ที่ได้รับอิทธิพลบางส่วนจากคำสอนไญยนิยม ความเชื่อนี้มีศูนย์กลางอยู่ที่นิมิต การใช้ชีวิตแบบนักพรตเพื่อเข้าร่วมบัลลังก์ของพระเจ้า"
+
+ doctrine_temple_authority_name:0 "อำนาจฮาลาคาห์"
+ doctrine_temple_authority_desc:0 "ฮาลาคาห์หมายถึงชุดกฎหมายและกฎเกณฑ์ที่ชาวยิวต้องดำเนินชีวิตตาม หลังจากพลัดถิ่นมาหลายศตวรรษ กลุ่มชาวยิวได้แตกแยกออกเป็นสำนักคิดต่างๆ มากมายเกี่ยวกับวิธีการตีความฮาลาคาห์อย่างเหมาะสม"
+ temple_authority_rabbinic_doctrine_name:0 "แบบรับบี"
+ temple_authority_rabbinic_doctrine_desc:0 "ชาวยิวแบบรับบีเชื่อว่าฮาลาคาห์สามารถตีความได้โดยรับบีเท่านั้น พวกเขาเชื่อในโทราห์ฉบับลายลักษณ์อักษรและโทราห์มุขปาฐะ ซึ่งถ่ายทอดผ่านเหล่ารับบี ความเชื่อแบบรับบีทั้งหมดถูกประมวลไว้ในทัลมุดบาบิโลน ซึ่งถือเป็นแหล่งข้อมูลหลักในการตีความและเผยแพร่ฮาลาคาห์"
+ temple_authority_toric_doctrine_name:0 "แบบโทราห์"
+ temple_authority_toric_doctrine_desc:0 "ศาสนายูดาห์แบบโทราห์ปฏิเสธทัลมุดและโทราห์มุขปาฐะ โดยมอบอำนาจให้แก่โทราห์ฉบับลายลักษณ์อักษรเพียงอย่างเดียว รับบีไม่สามารถเปลี่ยนแปลงหรือปรับเปลี่ยนฮาลาคาห์ได้ หน้าที่ของพวกเขาคือการตีความความหมายตามตัวอักษรของโทราห์เท่านั้น"
+ temple_authority_kohanim_doctrine_name:0 "แบบโคฮานิม"
+ temple_authority_kohanim_doctrine_desc:0 "ศาสนายูดาห์แบบโคฮานิมยืนยันว่าโคเฮนคือผู้มีอำนาจสูงสุดในเรื่องศาสนาทั้งหมด รวมถึงฮาลาคาห์ โคเฮนต้องสืบเชื้อสายทางบิดามาจากอาโรน พี่ชายของโมเสส"
+ temple_authority_samaritan_torah_doctrine_name:0 "แบบสะมาเรีย"
+ temple_authority_samaritan_torah_doctrine_desc:0 "ชาวสะมาเรียปฏิเสธอำนาจของโทราห์โดยสิ้นเชิง แต่กลับมอบอำนาจสูงสุดให้แก่โทราห์สะมาเรีย การปฏิเสธโทราห์ของพวกเขา ทำให้เพื่อนร่วมศาสนามองว่าพวกเขาเป็นพวกนอกรีตโดยทั่วไป"
+ doctrine_parameter_hostility_override_temple_authority_samaritan_torah_doctrine:0 "พิจารณา [faiths|E] [GetFaithDoctrine('temple_authority_samaritan_torah_doctrine').GetBaseName] ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_temple_authority_rabbinic_doctrine:0 "พิจารณา [faiths|E] [GetFaithDoctrine('temple_authority_rabbinic_doctrine').GetBaseName] ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_temple_authority_toric_doctrine:0 "พิจารณา [faiths|E] [GetFaithDoctrine('temple_authority_toric_doctrine').GetBaseName] ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_temple_authority_kohanim_doctrine:0 "พิจารณา [faiths|E] [GetFaithDoctrine('temple_authority_kohanim_doctrine').GetBaseName] ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_enables_temporal_head_parameter:0 "อนุญาตให้เลือก [doctrine|E] ทางศาสนาแบบประมุขฝ่ายอาณาจักร"
+
+ tenet_communal_identity_chosen_people_name:0 "ชนชาติที่ถูกเลือกสรร"
+ tenet_communal_identity_chosen_people_desc:0 "เราได้รับเลือกจาก [ROOT.Faith.HighGodName] สำหรับพันธสัญญาอันศักดิ์สิทธิ์ แม้สิ่งนี้จะรวมผู้คนของเราให้เป็นหนึ่งเดียวด้วยจุดประสงค์เดียว แต่ก็อาจเป็นอุปสรรคต่อผู้ที่ต้องการเปลี่ยนศาสนาได้"

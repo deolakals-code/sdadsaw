@@ -1,0 +1,5 @@
+﻿l_english: 
+ TARGET_IS_NOT_OF_MY_HOUSE:0 "[TARGET_CHARACTER.GetShortUIName|U] ไม่ใช่ [bastard|E] แห่ง [house|E] ของท่าน"
+ HOUSE_HEAD_DOES_NOT_APPROVE:0 "[house_head|E] ของท่าน, [CHARACTER.GetShortUIName], ไม่เห็นชอบด้วยกับการรับรองบุตรครั้งนี้"
+ MOTHER_IS_MARRIED:0 "[TARGET_CHARACTER.GetShortUIName|U] สมรสแล้ว และจะไม่มีวันยอมรับการนอกใจ"
+ WOULD_NOT_CHEAT_ON_A_PARTNER:0 "[TARGET_CHARACTER.GetShortUIName|U] มีคู่ครองอย่างน้อยหนึ่งคนที่พวกเขาจะไม่มีวันทรยศ"

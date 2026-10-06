@@ -1,0 +1,63 @@
+﻿l_english: 
+ GetRandomExteriorDetail_small_bird: "ข้าเห็น[ROOT.Char.Custom('GetRandomRegionalWildDaytimeBird')]ตัวเล็กๆ ซ่อนตัวอยู่ท่ามกลางหมู่ไม้"
+ GetRandomExteriorDetail_birdsong: "ข้าได้ยินเสียงนกร้องเจื้อยแจ้ว"
+ GetRandomExteriorDetail_wildflower: "ข้าสังเกตเห็น[ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')]ดอกหนึ่งโดดเดี่ยว กำลังเบ่งบานท้าทายธรรมชาติ"
+ GetRandomExteriorDetail_singing: "ข้าได้ยินเสียงแว่วมาจากปราสาท กำลังขับขานบทเพลงอันไพเราะ"
+ GetRandomExteriorDetail_banquet: "ข้ามองขึ้นไปยังหน้าต่างปราสาทและได้กลิ่นอาหารเลิศรส"
+ GetRandomExteriorDetail_praying: "ข้าได้ยินเสียงสวดมนต์ดังมาจากวัด"
+ GetRandomExteriorDetail_bells: "ข้าได้ยินเสียงระฆังดัง"
+ GetRandomExteriorDetail_merchant: "ข้าเห็นพ่อค้าคนหนึ่งเดินผ่าน กำลังเข็นรถเข็นพร้อมสินค้าของเขา"
+ GetRandomExteriorDetail_fishing: "ข้าเห็นชาวประมงคนหนึ่ง กำลังนั่งยองๆ เลือกเหยื่อตกปลา"
+ GetRandomExteriorDetail_snow: "ข้าเห็นหิมะ ซึ่งแทบจะไม่ละลาย ยังคงสดใหม่"
+ 
+ pantler_carrying_supplies: "พนักงานดูแลเครื่องใช้บนโต๊ะอาหารกำลังแบกเสบียงกองโตอย่างไม่มั่นคง" # Pantler = พนักงานดูแลเครื่องใช้บนโต๊ะอาหาร/ห้องเครื่อง
+ cook_scolding_servants: "พ่อครัวกำลังดุด่าคนรับใช้หนุ่มสาวสองคน"
+ lady_in_waiting_embroidering: "นางกำนัลคนหนึ่งกำลังปักลายดอกไม้"
+ page_brandishing_armor: "มหาดเล็กคนหนึ่งกำลังชูชุดเกราะ" # Page = มหาดเล็ก
+ draft_from_window: "ลมเย็นที่พัดเข้ามาทางหน้าต่าง ทำให้บานประตูหน้าต่างกระแทก"
+ 
+ GetWritingMaterial_parchment: "แผ่นหนัง"
+ GetWritingMaterial_papyrus: "กระดาษปาปิรุส"
+ GetWritingMaterial_vellum: "กระดาษหนัง" # Vellum is higher quality than parchment
+ GetWritingMaterial_palm_leaf: "ใบลาน"
+ GetWritingMaterial_birch_bark: "เปลือกไม้เบิร์ช"
+ GetWritingMaterial_stone_stele: "แผ่นศิลา"
+ GetWritingMaterial_paper: "แผ่น"
+ GetWritingMaterial_parchment_plural: "แผ่นหนัง"
+ GetWritingMaterial_papyrus_plural: "กระดาษปาปิรุส"
+ GetWritingMaterial_vellum_plural: "กระดาษหนัง"
+ GetWritingMaterial_palm_leaf_plural: "ใบลาน"
+ GetWritingMaterial_birch_bark_plural: "เปลือกไม้เบิร์ช"
+ GetWritingMaterial_stone_stele_plural: "แผ่นศิลา"
+ GetWritingMaterial_paper_plural: "แผ่น"
+
+ GetPlagueEffect_fire: "พ่นไฟ"
+ GetPlagueEffect_limbs: "งอกแขนขาเพิ่ม"
+ GetPlagueEffect_thirdeye: "มีตาที่สามงอก"
+ GetPlagueEffect_nipple: "มีหัวนมที่สามงอก"
+ GetPlagueEffect_blue: "ทำให้ผิวหนังของพวกเขากลายเป็นสีน้ำเงินเข้ม"
+ GetPlagueEffect_hairy: "มีขนงอกทั่วร่างกาย"
+ GetPlagueEffect_fingernails: "เปลี่ยนเล็บมือให้เป็นกรงเล็บ"
+ GetPlagueEffect_eyes: "เปลี่ยนดวงตาให้เหมือนแมว"
+ 
+ GetSaintlyTrait_theologian: "[GetTrait('theologian').GetName( GetNullCharacter )]" # Assuming trait name is นักเทววิทยา
+ GetSaintlyTrait_sayyid: "[GetTrait('sayyid').GetName( GetNullCharacter )]" # Assuming trait name is ซัยยิด
+ 
+ GetPiousAdj_pious: "เคร่งศาสนา"
+ GetPiousAdj_sacred: "ศักดิ์สิทธิ์"
+ GetPiousAdj_holy: "ศักดิ์สิทธิ์"
+ GetPiousAdj_devout: "ศรัทธาแรงกล้า"
+ GetPiousAdj_religious: "เคร่งครัดในศาสนา"
+ GetPiousAdj_saintly: "ประดุจนักบุญ"
+ 
+ GetDescendantSynonym_descendant: "ผู้สืบเชื้อสาย"
+ GetDescendantSynonym_offspring: "บุตรหลาน"
+ GetDescendantSynonym_heir: "ทายาทโดยชอบธรรม"
+ GetDescendantSynonym_progeny: "เหล่าผู้สืบสกุล"
+ GetDescendantSynonym_scion: "หน่อเนื้อเชื้อไข"
+ 
+ GetCustodianSynonym_custodian: "ผู้ดูแลรักษา"
+ GetCustodianSynonym_guardian: "ผู้พิทักษ์"
+ GetCustodianSynonym_protector: "ผู้คุ้มกัน"
+ GetCustodianSynonym_keeper: "ผู้เฝ้ารักษา"
+ GetCustodianSynonym_defender: "ผู้ปกป้อง"

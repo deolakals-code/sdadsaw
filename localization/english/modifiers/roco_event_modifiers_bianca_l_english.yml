@@ -1,0 +1,49 @@
+﻿l_english: 
+ # Court Events: Character Modifiers
+ smelly_court_roco_modifier:0 "ราชสำนักเหม็นอับ"
+ smelly_court_roco_modifier_desc:0 "ตัวละครนี้มีราชสำนักอันฉาวโฉ่ เป็นที่หวาดหวั่น เนื่องจากกลิ่นเหม็นอันน่าสะพรึงกลัว"
+ drenched_in_excrement_roco_modifier:1 "เปียกโชกด้วยอุจจาระ"
+ drenched_in_excrement_roco_modifier_desc:0 "ตัวละครนี้ถูกพบเห็นในสภาพเปียกโชกด้วยสิ่งปฏิกูลและยังคงมีกลิ่นเหม็นติดตัว"
+ creative_burst_roco_modifier:0 "ช่วงเวลาแห่งความคิดสร้างสรรค์"
+ creative_burst_roco_modifier_desc:0 "หลังจากได้รับคำชม ตัวละครนี้ได้รับแรงบันดาลใจที่จะสร้างสรรค์ผลงานต่อไป"
+ mocked_for_creative_burst_roco_modifier:0 "นักสร้างสรรค์ผู้เศร้าสร้อย"
+ mocked_for_creative_burst_roco_modifier_desc:1 "ตัวละครนี้ถูกเยาะเย้ยในความคิดสร้างสรรค์ของตน และตอนนี้กำลังเก็บงานเขียนของตนไว้เป็นความลับ"
+ trying_new_things_modifier:0 "ลองสิ่งใหม่ๆ"
+ trying_new_things_modifier_desc:0 "ตัวละครนี้กำลังพยายามขยายมุมมองของตนโดยการลองสิ่งใหม่ๆ และเขียนเกี่ยวกับหัวข้อต่างๆ"
+ found_their_focus_modifier:0 "พบจุดสนใจของตน"
+ found_their_focus_modifier_desc:0 "ตัวละครนี้พบหัวข้อโปรดที่จะเขียนถึง และกำลังเจาะลึกลงไปในงานเขียนของตน"
+ moment_of_calm_and_clarity_roco_modifier:0 "ช่วงเวลาแห่งความสงบและกระจ่างแจ้ง"
+ moment_of_calm_and_clarity_roco_modifier_desc:0 "ตัวละครนี้บรรลุสภาวะจิตใจที่สงบสุข"
+ made_a_fool_of_rival_roco_modifier:0 "ทำให้คู่แข่งกลายเป็นตัวตลก"
+ made_a_fool_of_rival_roco_modifier_desc:0 "ตัวละครนี้ ทำให้คู่แข่งของตนอับอายในที่สาธารณะ ทำให้ทุกคนรอบข้างต้องคิดใหม่เกี่ยวกับการเป็นศัตรูกับพวกเขา"
+
+ # Petition Events: Character Modifiers
+ petition_event_artifact_exhibition_for_gold:0 "นิทรรศการโบราณวัตถุแบบเสียค่าเข้าชม"
+ petition_event_artifact_exhibition_for_gold_desc:0 "ตัวละครนี้กำลังจัดนิทรรศการโบราณวัตถุโดยมีค่าธรรมเนียมเข้าชม"
+ petition_event_artifact_exhibition_for_prestige:0 "นิทรรศการโบราณวัตถุแบบไม่เสียค่าเข้าชม"
+ petition_event_artifact_exhibition_for_prestige_desc:0 "ตัวละครนี้กำลังจัดนิทรรศการโบราณวัตถุโดยไม่เสียค่าเข้าชม"
+ 
+ # Petition Events: County Modifiers
+ hold_court_grateful_peasants_modifier:0 "ไพร่ผู้ยินดี"
+ hold_court_grateful_peasants_modifier_desc:1 "การตอบสนองต่อคำร้องได้สร้างความพึงพอใจให้กับเหล่าไพร่ในบริเวณนี้"
+ hold_court_displeased_peasants_modifier:0 "ไพร่ผู้ไม่พอใจ"
+ hold_court_displeased_peasants_modifier_desc:0 "การตัดสินใจในราชสำนักสร้างความไม่พอใจอย่างยิ่งให้กับเหล่าไพร่ในบริเวณนี้"
+ hold_court_less_building_cost_modifier:0 "ลดต้นทุนการก่อสร้าง"
+ hold_court_less_building_cost_modifier_desc:0 "การตัดสินใจในราชสำนักนำไปสู่การลดต้นทุนการก่อสร้างในบริเวณนี้"
+
+ # Court Events: County Modifiers
+ county_dismissed_servants_fear_modifier:0 "ความหวาดกลัวของข้ารับใช้ที่ถูกปลด"
+ county_dismissed_servants_fear_modifier_desc:0 "ผู้ปกครองนี้ได้เพิกเฉยต่อความหวาดกลัวของอาณาประชาราษฎร์"
+ county_acknowledged_servants_fear_modifier:0 "รับทราบความหวาดกลัวของข้ารับใช้"
+ county_acknowledged_servants_fear_modifier_desc:0 "ผู้ปกครองนี้รับฟังเมื่อข้ารับใช้ของตนบอกเล่าถึงความหวาดกลัว"
+
+ # Culture Outcome
+ cultural_acceptance_gain_hold_court_event_outcome:0 "การตัดสินใจในราชสำนักได้เปลี่ยนแปลงการยอมรับทางวัฒนธรรม"
+
+ # Fund Inspiration Events:County Modifiers
+ fund_inspiration_missing_peasants_modifier:0 "ไพร่ที่หายไป"
+ fund_inspiration_missing_peasants_modifier_desc:0 "ความตื่นตระหนกในชนบทกำลังแพร่กระจาย เนื่องจากเหล่าไพร่หายตัวไปอย่างลึกลับ"
+
+ #Court Positions: County Modifiers
+ held_public_execution_modifier:0 "จัดการประหารชีวิตในที่สาธารณะ"
+ held_public_execution_modifier_desc:0 "มีการจัดการประหารชีวิตในที่สาธารณะเพื่อเป็นภาพครึกโครมแก่ฝูงชน"

@@ -1,0 +1,10 @@
+﻿l_english: 
+ romance_great_painting_gift_modifier:0 "ภาพวาดอันงดงาม"
+ romance_great_painting_gift_modifier_desc:0 "ภาพวาดอันประณีตบรรจง ซึ่งเป็นที่ต้องตาของผู้ใดก็ตามในห้องอย่างแน่นอน"
+ romance_talented_troubadour_modifier:0 "จ้างนักขับลำนำผู้มีพรสวรรค์"
+ romance_talented_troubadour_modifier_desc:0 "นักขับลำนำผู้มีพรสวรรค์อย่างยิ่งรับใช้ตัวละครนี้"
+ romance_less_talented_troubadour_modifier:0 "จ้างนักขับลำนำ"
+ romance_less_talented_troubadour_modifier_desc:0 "นักขับลำนำรับใช้ตัวละครนี้"
+ had_sex_with_effect.first_person.tt:1 "ท่านร่วมหลับนอนกับ [had_sex_with_effect_partner.GetShortUIName]"
+ had_sex_with_effect.third_person.tt:1 "[had_sex_root_character.GetShortUIName|U] ร่วมหลับนอนกับ [had_sex_with_effect_partner.GetShortUIName]"
+ had_sex_with_effect.other_person.tt:0 "ร่วมหลับนอนกับ [had_sex_with_effect_partner.GetShortUIName]"

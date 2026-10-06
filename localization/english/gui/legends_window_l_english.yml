@@ -1,0 +1,102 @@
+﻿l_english: 
+ LEGENDS_TITLE: "ตำนาน"
+ 
+ CREATE_LEGEND_TOOLTIP: "[LegendSeed.GetDescription( Character.Self )][AddLine( Character.GetCanCreateLegendDesc( LegendSeed.Self ) )][AddParagraph( GetLongCostString( LegendSeed.GetCreationCost( Character.Self ) ) )]"
+ CREATE_TRIGGERED_LEGEND_TOOLTIP: "[TriggeredLegendSeed.GetDescription( Character.Self )][AddParagraph( GetLongCostString( TriggeredLegendSeed.GetSeed.GetCreationCost( Character.Self ) ) )][AddLine( Character.GetCanCreateTriggeredLegendDesc( TriggeredLegendSeed.Self ) )]"
+ 
+ LEGEND_HEADER_TT: "#T [Legend.GetName]#![AddLine( Legend.GetDescription )]\n\n#i คลิกเพื่อเลือกและเปิดพงศาวดาร\nคลิกขวาเพื่อเลือกและเลื่อนไปยังตำนานบนแผนที่#!"
+ SEED_LEGEND_HEADER_TT: "#T [LegendSeed.GetName( Character.Self )]#![AddLine( LegendSeed.GetDescription( Character.Self ) )]"
+ TRIGGERED_LEGEND_SEED_HEADER_TT: "#T [TriggeredLegendSeed.GetName( Character.Self )]#![AddLine( TriggeredLegendSeed.GetDescription( Character.Self ) )]"
+
+ PROMOTE_LEGEND_BUTTON_TT: "#T เริ่มตำนาน#![AddLine( SelectLocalization( IsValidCommand( GetPlayer.StartPromotingLegend( Legend.Self ) ), 'PROMOTE_LEGEND_BUTTON_NOT_BLOCKED_TT', 'PROMOTE_LEGEND_BUTTON_BLOCKED_TT' ) )]"
+ PROMOTE_LEGEND_BUTTON_NOT_BLOCKED_TT: "เริ่มตำนานของ [Legend.GetOwner.GetNamePossessive][AddLine( '#D เราจะใส่อะไรเพิ่มเติมที่นี่?#!' )]"
+ PROMOTE_LEGEND_BUTTON_BLOCKED_TT: "เริ่มตำนานของ [Legend.GetOwner.GetNamePossessive][AddLine( AddLine( '#X ท่านไม่สามารถเริ่มตำนานนี้ได้:#!' ) )][AddLine( GetCommandDesc( GetPlayer.StartPromotingLegend( Legend.Self ) ) )]"
+
+ OPEN_CHRONICLE_BUTTON_TT: "#T เปิดพงศาวดาร#!"
+ PAN_TO_LEGEND_TT: "#T เลื่อนไปยังตำนานบนแผนที่#!"
+
+ LEGEND_HEADER_SUBTITLE: "[Legend.GetType.GetName] เกี่ยวกับ [Legend.GetProtagonist.GetName]"
+
+ PROMOTED_LEGEND: "กำลังเผยแพร่ตำนาน"
+ PROMOTED_OWNED_LEGEND: "กำลังเผยแพร่ตำนานของตนเอง"
+ PROMOTED_LEGEND_EMPTY: "ท่านไม่ได้ [promoting_legend|El] [legend|E] ใดๆ"
+ PROMOTED_LEGEND_EMPTY_INSTRUCTION: "เริ่มสร้างตำนานจากรายการ [legend_seeds|E] ด้านล่าง,\nหรือค้นหา [legend|E] ที่กำลังก่อตัวอยู่ ซึ่งท่านต้องการเผยแพร่\n\nการเผยแพร่ [legend|E] จะช่วยให้ตำนานแพร่กระจายและมอบผลประโยชน์แก่ท่าน"
+ RETURN_TO_PROMOTED_LEGEND_TT: "กลับไปยัง [promoted_legend|E]"
+
+ FOCUSED_LEGEND: "ตำนานที่เลือก"
+ COMPLETED_LEGEND: "ตำนานที่เสร็จสมบูรณ์"
+ LEGEND_LIBRARY_INSTRUCTION: "$game_concept_legend_library_desc$"
+
+
+ LEGEND_SEEDS: "[legend_seeds|E] #weak ([Add_int32( GetDataModelSize( Character.GetLegendSeeds ), GetDataModelSize( LocalPlayerCachedData.GetTriggeredLegendSeeds ) )])#!"
+ LEGEND_SEEDS_EMPTY: "ท่านไม่มี [legend_seeds|E]"
+ LEGENDS_REALM_ACTIVE_LEGENDS_SECTION: "ตำนานที่กำลังก่อตัว #weak ([GetDataModelSize( LegendsWindow.GetRealmActiveLegends )])#!"
+ LEGENDS_REALM_ACTIVE_LEGENDS_EMPTY: "ปัจจุบันไม่มี [legends|E] กำลังก่อตัวในอาณาจักรของท่าน"
+ LEGENDS_DISTANT_ACTIVE_LEGENDS_SECTION: "ตำนานที่กำลังก่อตัว #weak ([GetDataModelSize( LegendsWindow.GetDistantActiveLegends )])#!"
+ LEGENDS_DISTANT_ACTIVE_LEGENDS_EMPTY: "ปัจจุบันไม่มี [legends|E] กำลังก่อตัวในดินแดนห่างไกล"
+ LEGEND_PROMOTERS: "[legend_promoters|E]: #L [GetDataModelSize( Legend.GetPromoters )|V]#!"
+ LEGEND_PROMOTERS_LABEL: "[legend_promoters|E]"
+ LEGEND_PROTAGONIST_LABEL: "[legend_protagonist|E]:"
+ LEGEND_PROTAGONIST: "[Legend.GetProtagonist.GetName]"
+
+ LEGEND_PROVINCE_AND_COUNTY_MODIFIERS_TOOLTIP: "#T $PROVINCE_AND_COUNTY_MODIFIERS$#!\n[JoinText( '\n\n', AddLocalizationIf( Legend.HasImpactModifiers( 'province' ), 'LEGEND_PROVINCE_MODIFIERS_SUBTEXT' ), AddLocalizationIf( Legend.HasImpactModifiers( 'county' ), 'LEGEND_COUNTY_MODIFIERS_SUBTEXT' ) )]"
+ LEGEND_OWNER_MODIFIERS_TOOLTIP: "#T $OWNER_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'owner' )]"
+ LEGEND_PROMOTER_MODIFIERS_TOOLTIP: "#T $LEGEND_PROMOTER_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'promoter' )]"
+ 
+ LEGEND_SEED_OWNER_MODIFIERS_TOOLTIP: "#T $OWNER_MODIFIERS$#!\n[LegendSeed.GetImpactModifiers( 'owner' )]"
+ LEGEND_SEED_PROMOTER_MODIFIERS_TOOLTIP: "#T $LEGEND_PROMOTER_MODIFIERS$#!\n[LegendSeed.GetImpactModifiers( 'promoter' )]"
+ LEGEND_SEED_PROVINCE_MODIFIERS_SUBTEXT: "#S $PROVINCE_MODIFIERS$#!\n[LegendSeed.GetImpactModifiers( 'province' )]"
+ LEGEND_SEED_COUNTY_MODIFIERS_SUBTEXT: "#S $COUNTY_MODIFIERS$#!\n[LegendSeed.GetImpactModifiers( 'county' )]"
+ LEGEND_SEED_PROVINCE_AND_COUNTY_MODIFIERS_TOOLTIP: "#T $PROVINCE_AND_COUNTY_MODIFIERS$#!\n[JoinText( '\n\n', AddLocalizationIf( LegendSeed.HasImpactModifiers( 'province' ), 'LEGEND_SEED_PROVINCE_MODIFIERS_SUBTEXT' ), AddLocalizationIf( LegendSeed.HasImpactModifiers( 'county' ), 'LEGEND_SEED_COUNTY_MODIFIERS_SUBTEXT' ) )]"
+
+ LEGENDS_CREATE_LEGEND: "สร้างตำนาน"
+
+ LEGEND_UPGRADE_LABEL: "ยกระดับ:"
+ LEGEND_UPGRADE_COST: "[GetCostString( Legend.GetUpgradeCostDescription( Character.Self ) )]"
+ LEGEND_CREATION_LABEL: "การสร้าง:"
+ LEGEND_CREATION_COST: "[GetCostString( LegendSeed.GetCreationCost( Character.Self ) )]"
+ LEGEND_MAINTENANCE_LABEL: "การเผยแพร่:"
+ LEGEND_SEED_MAINTENANCE_COST: "[GetIntervalCostString( LegendSeed.GetMaintenanceCost( Character.Self ), 'รายเดือน' )]"
+ LEGEND_MAINTENANCE_COST: "[GetIntervalCostString( Legend.GetMaintenanceCost( Character.Self ), 'รายเดือน' )]"
+
+ HUD_LEGEND_SEEDS: "ท่านมีเมล็ดพันธุ์ตำนาน [Add_int32( GetDataModelSize( Character.GetLegendSeeds ), GetDataModelSize( LocalPlayerCachedData.GetTriggeredLegendSeeds ) )|V] ที่พร้อมใช้งาน"
+
+ COMPLETE_LEGEND_TITLE: "ทำให้ [Legend.GetNameNoTooltip] เสร็จสมบูรณ์"
+ COMPLETE_LEGEND_TEXT: "$LEGEND_COMPLETE_LEGEND$"
+ COMPLETE_LEGEND_ACCEPT: "เสร็จสมบูรณ์"
+
+ START_PROMOTING_LEGEND_TITLE: "เผยแพร่ [Legend.GetNameNoTooltip]"
+ START_PROMOTING_LEGEND_TEXT: "เริ่ม [Concept( 'promoted_legend', 'การเผยแพร่' )|E] การแพร่กระจายของ [Legend.GetName] ซึ่งเป็นของ [Legend.GetOwner.GetShortUIName] ภายใน [realm|E] ของท่าน\n\nค่าบำรุงรักษา: [GetIntervalCostString( Legend.GetMaintenanceCost( GetPlayer ), 'รายเดือน' )]"
+ START_PROMOTING_LEGEND_ACCEPT: "เผยแพร่"
+
+ legend_tab_realm: "ตำนานในอาณาจักร"
+ legend_tab_distant: "ตำนานแดนไกล"
+ legend_tab_library: "หอจดหมายเหตุตำนาน"
+ legend_tab_seeds: "เมล็ดพันธุ์ตำนาน"
+ CREATE_LEGEND_TAB_FAMED: "เลื่องชื่อ"
+ CREATE_LEGEND_TAB_ILLUSTRIOUS: "รุ่งโรจน์"
+ CREATE_LEGEND_TAB_MYTHICAL: "ปรัมปรา"
+
+ REALM_COMPLETED_LEGENDS: "ตำนานที่เสร็จสมบูรณ์ #weak ([GetDataModelSize( LegendsWindow.GetRealmCompletedLegends )])#!"
+ REALM_COMPLETED_LEGENDS_TT: "ตำนานที่เสร็จสมบูรณ์"
+ NO_REALM_ACTIVE_LEGENDS: "ไม่มี [legends|e] ที่กำลังก่อตัวใน [realm|e] ของท่านในขณะนี้"
+ NO_REALM_COMPLETED_LEGENDS: "ท่านไม่ทราบถึง [legends|e] ที่เสร็จสมบูรณ์ใน [realm|e] ของท่าน"
+ DISTANT_COMPLETED_LEGENDS: "ตำนานที่เสร็จสมบูรณ์ #weak ([GetDataModelSize( LegendsWindow.GetDistantCompletedLegends )])#!"
+ NO_DISTANT_ACTIVE_LEGENDS: "ยังไม่มี [legends|e] ก่อตัวนอก [realm|e] ของท่าน"
+ NO_DISTANT_COMPLETED_LEGENDS: "ท่านไม่ทราบถึง [legends|e] ที่เสร็จสมบูรณ์นอก [realm|e] ของท่าน"
+
+ LEGEND_SPREAD_UPGRADE_: "#weak (ยกระดับ [Concept( 'legend_quality', 'คุณภาพ' )|E] ที่ [Legend.GetMaxNumProvinces|V])#!"
+ LEGEND_SPREAD_UPGRADE: ""
+ LEGEND_SPREAD: "แพร่กระจายใน [baronies|E]: [Legend.GetCurrentNumProvinces|V] [AddLocalizationIf( Not( Legend.HasQuality( 'mythical' ) ), 'LEGEND_SPREAD_UPGRADE' )]"
+
+ SUMMARY_LEGEND_IS_COMPLETED: "#weak ตำนานนี้เสร็จสมบูรณ์แล้วและไม่มีการเผยแพร่อีกต่อไป#!"
+ LEGEND_DURATION_ACTIVE: "ปี [Legend.GetCreationDate.GetYear] - ..."
+ LEGEND_DURATION_COMPLETED: "ปี [Legend.GetCreationDate.GetYear] - [Legend.GetCompletionDate.GetYear]"
+
+ CREATE_LEGEND_TITLE: "สร้าง [LegendSeed.GetNameWithProtagonist( Character.Self, LegendCreationWindow.GetProtagonist.Self )]"
+ CREATE_LEGEND_DESC: "[legend_seed|E] นี้สำหรับ [Concept( 'legend_type', LegendSeed.GetType.GetName )|E] ระดับ [LegendSeed.GetQualityLevel]\n#I เลือก [legend_protagonist|E] และสร้าง [legend|E] ของท่าน#!\n#weak ท่านจะได้รับรางวัลที่แตกต่างกันเมื่อตำนานของท่านเสร็จสมบูรณ์ ขึ้นอยู่กับตัวเอกที่ท่านเลือก#!\n@alert_icon!#alert_trial ท่านไม่สามารถทำให้ตำนานเสร็จสมบูรณ์ได้เป็นเวลา [GetTimeDifferenceWithDays( GetDefine( 'NLegend', 'DAYS_UNTIL_CAN_COMPLETE' ) )|V]#!"
+ CREATE_LEGEND_WARNING_DESC: "@warning_icon!#X ท่านไม่สามารถทำให้ตำนานเสร็จสมบูรณ์หรือละทิ้งได้เป็นเวลา [GetTimeDifferenceWithDays( GetDefine( 'NLegend', 'DAYS_UNTIL_CAN_COMPLETE' ) )|V]#!"
+
+
+ LEGEND_REWARDS: "รางวัลเมื่อเสร็จสมบูรณ์"
+ RELATIONSHIP: "ความสัมพันธ์"

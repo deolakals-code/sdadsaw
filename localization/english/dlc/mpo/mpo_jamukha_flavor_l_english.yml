@@ -1,0 +1,41 @@
+﻿l_english: 
+ jamukha_choose_blood_brother_tt: "[jamukha.GetShortUIName] จักตัดสินใจว่าจะดำเนินการเป็น [blood_brothers|E] หรือไม่"
+ jamukha_warhorse_tt: "#high ท่าน#! จักมอบ [GetModifier('horse_story_modifier').GetNameWithTooltip] ให้แก่ [jamukha.GetShortUIName]"
+ temujin_warhorse_tt: "[jamukha.GetShortUIName] จักมอบ [GetModifier('horse_story_modifier').GetNameWithTooltip] ให้แก่ท่าน"
+temujin_warhorse_jamukha_tt: "#high ท่าน#! มอบ [GetModifier('horse_story_modifier').GetNameWithTooltip] ให้แก่ [temujin.GetShortUIName]"
+jamukha_warhorse_jamukha_tt: "[temujin.GetShortUIName] มอบ [GetModifier('horse_story_modifier').GetNameWithTooltip] ให้แก่ท่าน"
+blood_brother_gains_hook_tt: "ได้รับ [strong_hook|E] #EMP (พี่น้องร่วมสาบาน)#! จาก #high ท่าน#!"
+blood_brother_gains_hook_other_tt: "#high ท่าน#! ได้รับ [strong_hook|E] #EMP (พี่น้องร่วมสาบาน)#! จาก [blood_bro.GetShortUIName]"
+
+mpo_jamukha_flavor.0001.t: "หลายปีแห่งภราดรภาพ"
+mpo_jamukha_flavor.0001.desc: "[temujin.GetTitledFirstName] และข้านั่งอยู่ข้างกองไฟ ผู้คนของเราต่างรวมกันอยู่รายรอบในค่ายใหญ่อันหนึ่งเดียว\n\nหลายปีผ่านไปนับตั้งแต่ข้าเสนอความเป็นมิตรแก่เขาเป็นครั้งแรก นักรบหนุ่มผู้ถูกทอดทิ้งจากเผ่าของบิดา เราเคยทอยกระดูกข้อเท้าสัตว์บนน้ำแข็งแห่งแม่น้ำโอนอน เราเคยสาบานว่าจะเป็นมิตรกันตลอดไป\n\nเมื่อนั้นเรายังเยาว์วัย นับ แต่นั้นมาเราได้ร่วมรบเคียงบ่าเคียงไหล่ และมิตรภาพของเราก็เติบโตขึ้น บัดนี้ เมื่อเป็นบุรุษแล้ว เรารู้ถ้อยคำที่จะเป็น [Glossary( 'อันด้า', 'ANDA_GLOSS' )] ไปชั่วชีวิต"
+mpo_jamukha_flavor.0001.a: "ข้าจักให้คำมั่นสัญญาแห่งภราดรภาพแก่ [temujin.GetFirstNameNoTooltip]"
+mpo_jamukha_flavor.0001.a.tt: "และเราจักแลกเปลี่ยนของกำนัลอันคู่ควร"
+mpo_jamukha_flavor.0001.b: "ข้ามาที่นี่เพื่อต่อรองอำนาจ มิใช่เพื่อความรัก"
+
+mpo_nerge_promised_feast_failed: "คำมั่นสัญญาจอมปลอมเรื่องเนื้อหนัง"
+mpo_nerge_promised_feast_failed_desc: "ต่อนักล่าผู้สูงศักดิ์ ตัวละครนี้ได้ให้คำมั่นสัญญาถึงกองเนื้ออันโอชะ แต่กลับมิได้มอบให้"
+jamukha_temujin_response_warning_tt: "@warning_icon! #X [temujin.GetShortUIName] อาจทำลาย @prestige_icon![prestige|E] และ @dread_icon![dread|E] ของท่านได้#!"
+negotiate_togrul_alliance_effect_tooltip: "[jamukha.GetShortUIName] และ [togrul.GetShortUIName] เข้าสู่ [alliance|E] ร่วมกัน"
+mpo_jamukha_flavor.0010.t: "คำสบประมาทที่ชาวมองโกลมิอาจทน"
+mpo_jamukha_flavor.0010.desc: "ข้าได้นำพาผู้คนของข้ามาเป็นระยะเวลาหนึ่งแล้ว เคียงข้าง [temujin.GetTitledFirstNamePossessive] ภักดีต่ออำเภอใจของเขา มั่นคงแม้ใจข้าจะว้าวุ่น\n\nเหล่าสตรีต่างกระซิบกระซาบยาพิษใส่หูของ [temujin.GetFirstNamePossessiveNoTooltip] ทหารยามราตรีของเขามองข้าอย่างมืดมนเมื่อข้าเข้าใกล้เยิร์ตของเขา ข้าจะทนต่อการดูแคลนเหล่านี้ได้นานเท่าใด?\n\n"
+mpo_jamukha_flavor.0010.desc_togrul: "และ [togrul.GetName] ผู้ทรงอำนาจได้ให้คำมั่นสัญญาว่าจะให้ความคุ้มครองแก่ [togrul.GetHerHis] หากข้าละทิ้ง [temujin.GetFirstNamePossessiveNoTooltip]..."
+
+mpo_jamukha_flavor.0020.t: "บุรุษผู้มีความฝันอันเปื้อนเลือด"
+mpo_jamukha_flavor.0020.desc: "ข้าควบม้าในยามราตรีไปยังค่ายของ [temujin.GetTitledFirstNamePossessive] ลุกโชนด้วยความโกรธแค้นและความอัปยศ ชะตากรรม—ความคิดอันมืดมนเกินกว่าแสงไฟในใจข้า—ได้บีบบังคับข้า\n\nเมื่อ [temujin.GetFirstNameNoTooltip] และข้ายังเล็ก เราเคยชำแหละซากมาร์มอต เนื้อของมันยังคงอยู่ในท้องของข้า ดุจยาพิษ ตลอดหลายปีที่ผ่านมา คำพูดแห่งมิตรภาพของเราเผาผลาญจิตใจข้า ลอกใบหน้าข้า เมื่อข้าระลึกถึงมัน #EMP อย่างไรกัน#! ข้าจึงสาบานตนต่อบุรุษผู้ถูกลิขิตให้ปกครองชาวมองโกลทั้งปวง—ชะตากรรม #EMP ของข้า#! ด้วยคำสัญญาในวัยเยาว์ ข้าได้มอบชีวิตเยี่ยงคนทรยศให้แก่ตนเอง\n\n#EMP "ข้าจะทำลายเจ้า!"#! ข้ากรีดร้อง ขณะที่ [temujin.GetFirstNameNoTooltip] เย้ยหยัน #EMP "ข้า [ROOT.Char.GetFirstName] คือข่านแห่ง [ROOT.Char.GetDomicile.GetCulture.GetCollectiveNoun]!"#!"
+mpo_jamukha_flavor.0010.a: "ข้าต้องแสวงหาชะตากรรมของข้า ปราศจาก [temujin.GetFirstNameNoTooltip]"
+mpo_jamukha_flavor.0010.b: "คำพูดของข้าผูกมัดตัวข้า ดุจดาบที่เหน็บอยู่กับเข็มขัดของ [temujin.GetFirstNamePossessiveNoTooltip]"
+jamukha_chose_loyalty_modifier: "เลือกภักดีต่อเตมูจิน"
+jamukha_chose_loyalty_modifier_desc: "จามูคาได้พิสูจน์ตนว่าเป็นสหายผู้สูงศักดิ์และแท้จริง แม้จะต้องแลกมาด้วยอัตตาของตนเอง"
+
+jamukha_temujin_no_more_positive_tt: "@alert_icon! #X [relations|E] ที่ดีงามทั้งมวลระหว่าง #high ท่าน#! และ [temujin.GetShortUIName] ได้ถูกทำลายลงแล้ว"
+jamukha_temujin_rivals_tt: "[temujin.GetShortUIName] ได้กลายเป็น [rival|E] ของท่าน"
+jamukha_gain_from_defectors_tt: "#weak การได้รับ @herd_icon![herd|E] และ @prestige_icon![prestige|E] เนื่องมาจากการรวมพลของชาวมองโกลเพื่อทำสงคราม"
+temujin_gain_from_defectors_tt: "$jamukha_gain_from_defectors_tt$"
+ mpo_jamukha_flavor.0020.a: "#EMP "เจ้าสุนัขเลวทราม ผู้เคยเป็นน้องข้า!"#!"
+ mpo_jamukha_flavor.0020.b: ""ความตายของเจ้าจักน่าสมเพชยิ่งนัก [temujin.GetFirstNameNoTooltip]...""
+ mpo_jamukha_flavor.0020.c: ""ณ สมรภูมิรบ #EMP ชะตากรรมของเจ้าจักเป็นของข้า!#!""
+
+
+ mpo_jamukha_flavor.0020.b_murder: "ท่านได้รับโบนัส #P #EMP มหาศาล#!#! ต่อ [schemes|E] [GetScheme('murder').GetTypeName] ที่มุ่งเป้าไปยัง [temujin.GetShortUIName]"
+mpo_jamukha_flavor.0020.a_war_win: "การชนะ [war|E] #high เชิงรุก#! ต่อ [temujin.GetShortUIName] จะมอบ @legitimacy_icon![legitimacy|E] และ @prestige_icon![prestige|E] เพิ่มเติม"

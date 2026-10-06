@@ -1,0 +1,92 @@
+﻿l_english: 
+
+ ##### TOUR #####
+
+ ### ACTIVITY
+ activity_tour:0 "การเสด็จประพาส"
+ activity_tour_desc:0 "จัด [tour|E] อันยิ่งใหญ่และเสด็จเยี่ยม [vassals|E] และดินแดนของพวกเขา แต่ละ [stop|E] จะมีระยะเวลา #bold 2 เดือน#!"
+ activity_tour_selection_tooltip:1 "เดินทางข้ามอาณาจักรของท่านและเยี่ยมเยียนข้าในบังคับในการเสด็จประพาสอันยิ่งใหญ่\n\nรางวัลที่คาดว่าจะได้รับ:\n$BULLET_WITH_TAB$[control_i] [county_control|E]\n$BULLET_WITH_TAB$@domain_icon! [county_opinion|E]\n$BULLET_WITH_TAB$[legitimacy_i] ได้รับ [legitimacy|E]\n$BULLET_WITH_TAB$[stress_loss_i] ลด [stress|E]"
+ activity_tour_host_desc:1 "$BULLET_WITH_TAB$@control_icon![county_control|E]\n$BULLET_WITH_TAB$@domain_icon![county_opinion|E]\n$BULLET_WITH_TAB$[legitimacy_i] ได้รับ [legitimacy|E]\n$BULLET_WITH_TAB$[stress_loss_i]ลด [stress|E]\n\nรางวัล [tour_success|E]:\n$BULLET_WITH_TAB$ระดับ #V 1#!: [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ระดับ #V 2#!: [opinion|E] ของ [vassal|E] [GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName]\n$BULLET_WITH_TAB$ระดับ #V 3#!: [opinion|E] ของ [vassal|E] ที่ไปเยือน\n$BULLET_WITH_TAB$ระดับ #V 4#!: [GetModifier( 'itinerant_liege_modifier' ).GetNameWithTooltip|L] #weak ([character|E])#!\n$BULLET_WITH_TAB$ระดับ #V 5#!: [GetModifier( 'mega_itinerant_liege_modifier' ).GetNameWithTooltip|L] #weak ([character|E])#!"
+ activity_tour_conclusion_characters_header:0 "ข้าในบังคับที่ไปเยือน"
+
+ itinerant_liege_modifier:0 "เจ้าเหนือหัวผู้สัญจร"
+ itinerant_liege_modifier_desc:0 "ตัวละครนี้จัด [tour|E] ที่ประสบความสำเร็จ"
+ mega_itinerant_liege_modifier:0 "เจ้าเหนือหัวผู้ยิ่งใหญ่"
+ mega_itinerant_liege_modifier_desc:0 "ตัวละครนี้จัด [tour|E] อันยิ่งใหญ่"
+ activity_window_character_stop_host:1 "เจ้าภาพจุดแวะพัก\n[Character.GetShortUINameNoTooltip|U]"
+ activity_tour_conclusion_desc:0 "[GetActivityType( 'activity_tour' ).GetName] ของท่านได้สิ้นสุดลงแล้ว"
+
+ ### PHASES
+ tour_phase_tour_grounds:2 "ตรวจตราพื้นที่"
+ tour_phase_tour_grounds_desc:0 "[tour_the_grounds|E] ในที่ดินของ [vassal|E] ของท่าน เพิ่ม [control|E]"
+ tour_phase_dinner:1 "งานเลี้ยงอาหารค่ำ"
+ tour_phase_dinner_desc:0 "เพลิดเพลินกับ [hosted_dinner|E] ที่จัดโดยข้าในบังคับของท่าน เพิ่ม [opinion|E] กับ [vassal|E] ของท่าน"
+ tour_phase_cultural_festival:1 "เทศกาลวัฒนธรรม"
+ tour_phase_cultural_festival_desc:0 "เพลิดเพลินกับ [cultural_festival|E] ซึมซับวัฒนธรรมท้องถิ่น และเพิ่ม [county_opinion|E] และ [cultural_acceptance|E]"
+ tour_phase_journey_home:0 "เดินทางกลับบ้าน"
+ tour_phase_journey_home_desc:0 "เดินทางกลับสู่เมืองหลวงของท่าน เป็นการสิ้นสุดการเสด็จประพาส"
+ tour_phase_tour_grounds_cost_desc:0 "[tour_grounds|E] ใน [province.GetBaronyNameExplicitly]"
+ tour_phase_dinner_cost_desc:0 "[hosted_dinner|E] ใน [province.GetBaronyNameExplicitly]"
+ tour_phase_cultural_festival_cost_desc:0 "[cultural_festival|E] ใน [province.GetBaronyNameExplicitly]"
+
+ ### OPTIONS
+ tour_option_speed:0 "ม้า"
+ tour_speed_bad:0 "ลา"
+ tour_speed_normal:0 "ม้าเร็ว"
+ tour_speed_good:0 "ม้าทรง" # Secretariat is a famous racehorse, using a term for royal horses fits the style.
+ tour_type_majesty:1 "การเสด็จประพาสเพื่อบารมี"
+ tour_type_majesty_desc:1 "$EFFECT_LIST_BULLET$ บางเหตุการณ์จะอนุญาตให้มีการกระทำที่แสดงถึงความยิ่งใหญ่เป็นพิเศษ\n$EFFECT_LIST_BULLET$ การกระทำเหล่านี้จะได้รับ [prestige|E] และ [opinion|E] ของ [vassal|E] ทั้งเมื่อออกจาก [stop|E] และเมื่อสิ้นสุด [GetActivityType('activity_tour').GetName] ของท่าน\n\n#weak การเสด็จประพาสครั้งนี้เป็นโอกาสที่จะแสดงให้เหล่าข้าแผ่นดินเห็นว่าข้าเป็นเจ้าเหนือหัวที่ยุติธรรม มีเมตตา และทรงบารมี#! "
+ tour_type_intimidation:1 "การเสด็จประพาสเพื่อข่มขวัญ"
+ tour_type_intimidation_desc:1 "$EFFECT_LIST_BULLET$ บางเหตุการณ์จะอนุญาตให้มีการกระทำที่น่าสะพรึงกลัวเป็นพิเศษ\n$EFFECT_LIST_BULLET$ การกระทำเหล่านี้จะได้รับ [dread|E]\n$EFFECT_LIST_BULLET$ เมื่อท่านออกจาก [stop|E] ท่านอาจพยายามบังคับให้ [vassals|E] ออกจาก [factions|E] ที่เป็นปฏิปักษ์\n\n#weak การเสด็จประพาสครั้งนี้เป็นโอกาสที่จะทำให้เหล่าข้าแผ่นดินรู้สำนึกและแสดงให้เห็นว่าข้าน่าสะพรึงกลัวเพียงใด#! "
+ tour_type_taxation:1 "การเสด็จประพาสเพื่อเก็บภาษี"
+ tour_type_taxation_desc:1 "$EFFECT_LIST_BULLET$ บางเหตุการณ์จะอนุญาตให้มีการกระทำที่แสดงความละโมบ\n$EFFECT_LIST_BULLET$ การกระทำเหล่านี้จะได้รับ [gold|E] ทั้งเมื่อออกจาก [stop|E] และเมื่อสิ้นสุด [GetActivityType('activity_tour').GetName] ของท่าน\n\n#weak การเสด็จประพาสครั้งนี้เป็นโอกาสที่จะเตือนข้าในบังคับว่าพวกเขามีหน้าที่ต้องจ่ายภาษีและข้อผูกพัน และเพื่อขุดรากถอนโคนการหลีกเลี่ยงภาษีทั้งหมดภายในอาณาจักรของข้า#! "
+ tour_entourage:0 "ขบวนผู้ติดตาม"
+ tour_entourage_small:0 "ขบวนผู้ติดตามขนาดเล็ก"
+ tour_entourage_small_desc:1 "$EFFECT_LIST_BULLET$ [courtiers|E] ใกล้ชิดห้าคนจะติดตามท่านในการ [tour|E]\n\n#weak การเสด็จประพาสของข้าเป็นโอกาสที่จะหลีกหนีจากชีวิตในราชสำนักและพบปะข้าแผ่นดินที่อยู่ห่างไกล ข้าไม่ต้องการให้เสียงพูดพล่ามของราชสำนักตามติดข้าไปในการเดินทาง#! "
+ tour_entourage_normal:0 "ขบวนผู้ติดตามพอประมาณ"
+ tour_entourage_normal_desc:1 "$EFFECT_LIST_BULLET$ [courtiers|E] ใกล้ชิดสิบคนจะติดตามท่านในการ [tour|E]\n$EFFECT_LIST_BULLET$ $tour_increase_prestige$\n\n#weak การเสด็จประพาสของข้าไม่ใช่เพื่อข้าเพียงผู้เดียว แต่เพื่อราชสำนักของข้าด้วย ข้าต้องนำขบวนผู้ติดตามขนาดเล็กไปด้วยเพื่อให้ข้าในบังคับคุ้นเคยกับข้าราชสำนักของข้ามากขึ้น#! "
+ tour_entourage_grand:0 "ขบวนผู้ติดตามขนาดใหญ่"
+ tour_entourage_grand_desc:1 "$EFFECT_LIST_BULLET$ [courtier|E] ทุกคนที่ว่างจะติดตามท่านในการ [tour|E]\n$EFFECT_LIST_BULLET$ $tour_increase_prestige$\n\n#weak การเสด็จประพาสของข้าเป็นโอกาสที่จะแสดงให้เห็นว่าข้ายิ่งใหญ่และสง่างามเพียงใด และจะมีวิธีใดดีไปกว่าการแสดงให้เห็นสมาชิกทุกคนในราชสำนักอันน่าอิจฉาของข้า?#! "
+ tour_luxuries:0 "ของฟุ่มเฟือย"
+ tour_luxuries_bad:1 "ไม่มีของฟุ่มเฟือย"
+ tour_luxuries_bad_desc:1 "$EFFECT_LIST_BULLET$ ไม่เพิ่มความสำเร็จของ [tour|E] ของท่าน\n\n#weak ท่านไม่ได้นำสิ่งของฟุ่มเฟือยใดๆ จากบ้านมาด้วย#! "
+ tour_luxuries_normal:1 "ของฟุ่มเฟือยที่จำเป็น"
+ tour_luxuries_normal_desc:1 "$EFFECT_LIST_BULLET$ $tour_increase_success$\n\n#weak ท่านนำมาเพียงอาหารและสิ่งอำนวยความสะดวกฟุ่มเฟือยที่จำเป็นเท่านั้น#! "
+ tour_luxuries_good:1 "ของฟุ่มเฟือยหรูหรา"
+ tour_luxuries_good_desc:1 "$EFFECT_LIST_BULLET$ $tour_increase_success$\n\n#weak ไม่มีค่าใช้จ่ายใดสูงเกินไปสำหรับการเสด็จประพาสของท่าน อาหารเลิศรสและสิ่งอำนวยความสะดวกทุกประเภทจะถูกนำติดตัวไปด้วยตลอดระยะเวลาการเสด็จประพาส#! "
+ tour_furniture_normal:1 "เครื่องเรือนหรูหรา"
+ tour_furniture_normal_desc:1 "$EFFECT_LIST_BULLET$ $tour_increase_success$\n$EFFECT_LIST_BULLET$ $tour_increase_prestige$\n\n#weak ตู้ เก้าอี้ และโต๊ะจะถูกนำติดตัวไปด้วยสำหรับการเสด็จประพาสของท่าน#! "
+ tour_furniture_good:1 "เครื่องเรือนเกินจำเป็น"
+ tour_furniture_good_desc:1 "$EFFECT_LIST_BULLET$ $tour_increase_success$\n$EFFECT_LIST_BULLET$ $tour_increase_prestige$\n\n#weak สิ่งประดิษฐ์และเฟอร์นิเจอร์เกือบทุกชิ้นที่ท่านเป็นเจ้าของจะถูกนำติดตัวไปในการเดินทางครั้งนี้เพื่อแสดงความมั่งคั่งอันมหาศาลของท่าน#! "
+ tour_increase_success:1 "เพิ่มความสำเร็จเริ่มต้นของ [tour|E] ของท่าน"
+ tour_increase_prestige:1 "ได้รับ [prestige|E]"
+
+ ### INTENTS
+
+ ### RANDOM CHARACTER LOG
+
+
+ tour_start_majesty_log_title:0 "การเสด็จประพาสเริ่มต้น"
+ tour_start_majesty_log:0 "[CHARACTER.GetTitledFirstName] เสด็จออกจาก [CHARACTER.GetCapitalLocation.GetName] ใน [grand_tour|E] เพื่อบารมี"
+ tour_start_intimidation_log_title:0 "$tour_start_majesty_log_title$"
+ tour_start_intimidation_log:0 "[CHARACTER.GetTitledFirstName] เสด็จออกจาก [CHARACTER.GetCapitalLocation.GetName] ใน [grand_tour|E] เพื่อข่มขวัญ"
+ tour_start_taxation_log_title:0 "$tour_start_majesty_log_title$"
+ tour_start_taxation_log:0 "[CHARACTER.GetTitledFirstName] เสด็จออกจาก [CHARACTER.GetCapitalLocation.GetName] ใน [grand_tour|E] เพื่อเก็บภาษี"
+ tour_stop_tour_grounds_log_title:0 "จุดแวะพัก"
+ tour_stop_tour_grounds_log:0 "[CHARACTER.GetTitledFirstName] เสด็จเยี่ยม [TARGET_CHARACTER.GetTitledFirstName] เพื่อตรวจตราพื้นที่ของ [PROVINCE.GetName]"
+ tour_stop_dinner_log_title:0 "$tour_stop_tour_grounds_log_title$"
+ tour_stop_dinner_log:0 "[CHARACTER.GetTitledFirstName] เสด็จเยี่ยม [TARGET_CHARACTER.GetTitledFirstName] เพื่อร่วมงานเลี้ยงใน [PROVINCE.GetName]"
+ tour_stop_cultural_festival_log_title:0 "$tour_stop_tour_grounds_log_title$"
+ tour_stop_cultural_festival_log:0 "[CHARACTER.GetTitledFirstName] เสด็จเยี่ยม [TARGET_CHARACTER.GetTitledFirstName] เพื่อร่วมเทศกาลวัฒนธรรมใน [PROVINCE.GetName]"
+
+ tour_base_cost:0 "พื้นฐาน"
+ activity_tour_guest_desc:0 "แขกของท่านจะติดตามท่านไป ในขณะที่ท่านเสด็จเยี่ยม [vassals|E] ในการเสด็จประพาส"
+ activity_tour_province_desc:2 "เยี่ยม [ROOT.Province.GetTitle.GetHolder.GetName] ใน [ROOT.Province.GetName]\n[GetPlayer.Custom2('RelationToMe', ROOT.Province.GetTitle.GetHolder)] ของท่าน\n[opinion|E] ที่มีต่อท่าน: [ROOT.Province.GetTitle.GetHolder.GetOpinionOf( GetPlayer )|+=]"
+ 5_courtiers_or_more:0 "ท่านต้องมี [courtiers|E] อย่างน้อย 5 คน"
+ more_than_5_courtiers:0 "ท่านต้องมี [courtiers|E] มากกว่า 5 คน"
+ more_than_10_courtiers:0 "ท่านต้องมี [courtiers|E] มากกว่า 10 คน"
+ 3_vassals_or_more:0 "ท่านต้องมี [vassals|E] อย่างน้อย 3 คน"
+
+ activity_tour_destination_selection:0 "ยิ่งจุดหมายปลายทางอยู่ห่างจาก [stop|E] ก่อนหน้ามากเท่าใด ท่านก็จะยิ่งใช้ [gold|E] มากขึ้นในการเสด็จประพาส วางแผนอย่างชาญฉลาดเพื่อลดค่าใช้จ่ายและเยี่ยมเยียน [vassals|E] ให้ได้มากที่สุด"
+
+ activity_window_character_visited_vassal:1 "เจ้าภาพ[stop|E]และ[vassal|E]ของท่าน\n[Character.GetShortUINameNoTooltip|U]"

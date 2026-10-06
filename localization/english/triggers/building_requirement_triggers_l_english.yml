@@ -1,0 +1,11 @@
+﻿l_english: 
+
+ BUILDING_REQUIREMENT_TRIBAL_HOLDING_IN_COUNTY:0 "[PROVINCE.GetCounty.GetTitle.GetName] มีที่ถือครองแบบ [tribal|E]"
+ BUILDING_REQUIREMENT_NOMAD_HOLDING_IN_COUNTY: "[PROVINCE.GetCounty.GetTitle.GetName]มีที่มั่นแบบ[GetGovernment( 'nomad_government' ).GetName]"
+ BUILDING_REQUIREMENT_HERDER_HOLDING_IN_COUNTY: "[PROVINCE.GetCounty.GetTitle.GetName]มีที่มั่นแบบ[herder|E]"
+
+ BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_FAILED: "[PROVINCE.GetName] ต้องเป็น [castle|E], [city|E], [temple|E] หรือ [temple_citadel|E]"
+ BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_TRIBE_FAILED: "[PROVINCE.GetName] ต้องเป็น [castle|E], [city|E], [temple|E], [tribal_holding|E] หรือ [temple_citadel|E]"
+ NOT_BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_TRIBE_FAILED: "[PROVINCE.GetName] ไม่ใช่ [castle|E], [city|E], [temple|E], [tribal_holding|E] หรือ [temple_citadel|E]"
+ NOT_BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_FAILED: "[PROVINCE.GetName] ไม่ใช่ [castle|E], [city|E], [temple|E] หรือ [temple_citadel|E]"
+ NOT_BUILDING_REQUIREMENT_HALL_OF_HEROES_FAILED:0 "หอวีรชนสามารถใช้ได้โดยผู้นับถือเพแกนชาวบอลติก, สลาฟ และฟินแลนด์เท่านั้น"

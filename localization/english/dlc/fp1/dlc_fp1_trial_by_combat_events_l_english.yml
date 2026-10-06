@@ -1,0 +1,78 @@
+﻿l_english: 
+ # TbC Misc Loc Keys
+ fp1_tbc.0000.t:0 "การประลองยุติธรรม"
+
+ # TbC about to begin.
+ fp1_tbc.0001.t:0 "$fp1_tbc.0000.t$: [duel_location.GetBaseNameNoTierNoTooltip]"
+ fp1_tbc.0001.desc.intro:0 "ข้ามาถึงจุดที่กำหนดใกล้ [duel_location.GetBaseNameNoTier] ทันเวลาและพบว่า [champion.GetTitledFirstName] รอข้าอยู่แล้ว พร้อมด้วยคณะผู้ติดตามเล็กๆ ที่เป็นพยาน"
+ fp1_tbc.0001.desc.recipient_fighting:0 "\n\nไม่ว่า [champion.GetSheHe] จะเป็นอะไรก็ตาม [champion.GetFirstNameNoTooltip] ก็พร้อมที่จะต่อสู้ และเต็มใจที่จะเสี่ยงพบข้าแบบ [champion.GetWomanMan] ต่อ [actor.GetWomanMan]"
+ fp1_tbc.0001.desc.recipient_has_champion:0 "เนื่องจาก [recipient.GetTitledFirstName] ไม่เหมาะที่จะต่อสู้ด้วย [recipient.GetHerselfHimself] [champion.GetFirstNameNoTooltip] จึงตกลงที่จะเป็นผู้แทนให้ [recipient.GetHerHim]"
+ fp1_tbc.0001.desc.outro:0 "\n\nพิธีการนั้นสั้นกระชับ เราทุกคนรู้ว่าเรามาที่นี่ทำไม และเราผ่านจุดที่จะพูดคุยกันไปนานแล้ว มีการมอบอาวุธ และคณะผู้ติดตามของเราถอยไปสังเกตการณ์จากระยะที่ปลอดภัย"
+ fp1_tbc.0001.trigger_failure.actor:0 "[trial_by_combat_trial|E] ของข้ากับ [recipient.GetFirstNameNoTooltip] ได้สิ้นผลไปแล้ว"
+ fp1_tbc.0001.trigger_failure.recipient:0 "[trial_by_combat_trial|E] ของข้ากับ [actor.GetFirstNameNoTooltip] ได้สิ้นผลไปแล้ว"
+ fp1_tbc.0001.a:0 "ขอให้ [actor.GetWomanMan] ที่เก่งที่สุดเป็นผู้ชนะ"
+ fp1_tbc.0001.a.tt:0 "[trial_by_combat|E] เริ่มขึ้นแล้ว!"
+
+ # TbC has invalidated.
+ fp1_tbc.0021.trigger_failure.actor:0 "$fp1_tbc.0001.trigger_failure.actor$"
+ fp1_tbc.0021.trigger_failure.recipient:0 "$fp1_tbc.0001.trigger_failure.recipient$"
+
+ fp1_tbc.0031.opening:0 "[recipient.Custom2('AppropriateGreeting',actor)]"
+ fp1_tbc.0031.desc:0 "สู้กับ #EMP เจ้า#! รึ? บางทีเจ้าควรพิจารณาเกษียณไปเป็นตัวตลกหลวง ไม่มีทางใน [recipient.GetFaith.NegativeAfterLife] หรอก\n\nเชิญส่งคำพูดตลกขบขันเป็นลายลักษณ์อักษรมาที่ [recipient.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] ต่อไปได้ตามสบาย"
+ fp1_tbc.0031.a:0 "เจ้า [recipient.Custom2('InsultAdjective', SCOPE.sC('actor'))] [recipient.Custom2('InsultNoun', SCOPE.sC('actor'))]!"
+
+ # Scope:actor won a TbC.
+ fp1_tbc.0041.t:0 "$fp1_tbc.0000.t$: ชัยชนะ!"
+ fp1_tbc.0041.desc.intro:0 "พักผ่อนอย่างสบายใจกลับมาที่ [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] ข้าปลาบปลื้มในความสำเร็จของข้า [actor.Custom('signature_weapon')] ของข้าวางพาดอยู่บนตัก\n\n"
+ fp1_tbc.0041.desc.opponent_died:0 "เลือดของ [champion.GetTitledFirstNamePossessive] ยังคงเกรอะกรังอยู่ในร่องและรอยบากใหม่ๆ ตาม [actor.Custom('SignatureWeaponEndType')] ของอาวุธ เตือนให้ข้านึกถึงช่วงเวลาสุดท้ายของ [recipient.GetWomanMan]"
+ fp1_tbc.0041.desc.opponent_lives.recipient_fighting:0 "ความเจ็บปวดเมื่อยล้าที่น่าพึงพอใจ ซึ่งแผ่ซ่านไปทั่วร่างกายเตือนให้ข้านึกถึงช่วงเวลาเล็กๆ ในการประลอง ชัยชนะเล็กๆ และความพ่ายแพ้ที่ต่อสู้อย่างดุเดือด แต่ละอย่างนำไปสู่ความพ่ายแพ้ของ [recipient.GetTitledFirstNamePossessive]"
+ fp1_tbc.0041.desc.opponent_lives.recipient_has_champion:0 "ในโลกอุดมคติ ข้าควรจะสามารถฟาดฟันครั้งสุดท้ายใส่ [recipient.GetTitledFirstName] ได้อย่างจัง น่าเศร้าที่ไม่เป็น เช่นนั้น การทุบตี [champion.GetTitledFirstName] จนน่วมจึงต้องทำแทน"
+ fp1_tbc.0041.desc.reward.gold:0 "\n\nถุงเงินวางพิงหน้าแข้งของข้า น้ำหนักที่น่าพอใจเป็นเครื่องพิสูจน์ถึงความยุติธรรมที่ได้รับอย่างดี ข้าให้ตรวจนับเหรียญทุกเหรียญ ทีละเหรียญ ต่อหน้า #EMP ทุกคน#! ก่อนที่เราจะขี่ม้ากลับบ้าน"
+ fp1_tbc.0041.desc.reward.weak_hook:0 "\n\nใช้เวลาเป็นชั่วโมงหรือมากกว่านั้นกว่าคำสัตย์สาบานสุดท้ายจะถูกกล่าวต่อหน้าพยานที่มาชุมนุมกันของเรา สักวันหนึ่ง ข้าจะอ้างคำสัตย์สาบานเหล่านั้นและรับการชำระหนี้เต็มจำนวน"
+ fp1_tbc.0041.desc.reward.humiliation:0 "\n\nคำขอขมาที่ยืดยาว การนอบน้อม ทั้งหมดนั้นมีกลุ่มกวีรับจ้างเป็นพยาน... ช่าง #EMP รุ่งโรจน์#! อย่างแท้จริง อาจต้องใช้เวลาหลายปีกว่า [recipient.GetFirstNameNoTooltip] จะฟื้นตัวจากความอัปยศอดสูนี้"
+ fp1_tbc.0041.desc.outro:0 "\n\nเมื่อวานนี้ เรานำข้อพิพาทของเราไปต่อหน้า [actor.GetFaith.PantheonTerm] และ [actor.GetFaith.PantheonTerm] ได้ตอบอย่างชาญฉลาด"
+ fp1_tbc.0041.a:0 "ความยุติธรรมได้รับการรับใช้แล้ว"
+
+ # Scope:actor lost a TbC.
+ fp1_tbc.0051.t:0 "$fp1_tbc.0000.t$: ความพ่ายแพ้!"
+ fp1_tbc.0051.desc.intro:0 "มันมาถึงจุดนี้ได้อย่างไร? ข้าไปต่อหน้า [actor.GetFaith.PantheonTerm] เพื่อแสวงหา #EMP ความยุติธรรม#! และข้ากลับได้รับรางวัลเป็นความทุกข์ทรมานและความอัปยศอดสู ข้าไม่พูดสักคำตลอดการเดินทางกลับไปยัง [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]\n\n"
+ fp1_tbc.0051.desc.opponent_lives.recipient_fighting:0 "ข้าไม่เข้าใจว่า [recipient.GetTitledFirstName] เอาชนะข้าได้อย่างไร ข้าอยู่ใน #EMP ฝ่ายถูก#! ข้า #EMP ควรจะ#! ชนะ นั่นคือประเด็นทั้งหมดของ $game_concept_trial_by_combat$"
+ fp1_tbc.0051.desc.opponent_lives.recipient_has_champion:0 "ในการต่อสู้ที่ยุติธรรม ข้า #EMP ต้อง#! เอาชนะ [recipient.GetFirstName] ได้อย่างแน่นอน! ให้ตายสิ [champion.GetTitledFirstName] และประเพณีที่ขัดขวางเหล่านี้!"
+ fp1_tbc.0051.desc.outro:0 "\n\nบัดนี้ทั่วโลกถือว่าปัญหาของเราคลี่คลายแล้วและความยุติธรรมได้รับการตัดสินแล้ว"
+ fp1_tbc.0051.a:0 "ชิ ไม่มีความยุติธรรมที่นี่เลย"
+
+ # Scope:recipient must designate a champion to fight for them.
+ fp1_tbc.0101.t:0 "$fp1_tbc.0000.t$: การเลือกผู้แทน"
+ fp1_tbc.0101.desc:0 "ข้าได้ตกลงตามคำขอของ [actor.GetTitledFirstNamePossessive] สำหรับ $game_concept_trial_by_combat$ แล้ว แต่มันไม่เหมาะสมที่ข้าจะต่อสู้กับ [actor.GetHerHim] เป็นการส่วนตัว\n\nประเพณีกำหนดให้ข้าเลือกผู้แทนมาต่อสู้ในนามของข้า แต่จะเลือกใครดี?"
+ fp1_tbc.0101.bout_moves_forward:0 "การประลองดำเนินต่อไป..."
+ fp1_tbc.0101.a:0 "[knight_best.GetTitledFirstNameNoTooltip] เป็นหนึ่งใน $knight_culture_player_plural_no_tooltip_lowercase$ ที่ยิ่งใหญ่ที่สุดของข้า!"
+ fp1_tbc.0101.a.tt:0 "[knight_best.GetTitledFirstName] จะต่อสู้เพื่อท่าน"
+ fp1_tbc.0101.b:0 "[knight_alternative.GetTitledFirstNameNoTooltip] เป็นทางเลือกที่ดี..."
+ fp1_tbc.0101.b.tt:0 "[knight_alternative.GetTitledFirstName] จะต่อสู้เพื่อท่าน"
+ fp1_tbc.0101.c:0 "พวกเขากล่าวว่า [knight_exotic.GetTitledFirstNameNoTooltip] เชี่ยวชาญในการต่อสู้รึ?"
+ fp1_tbc.0101.c.tt:0 "[knight_exotic.GetTitledFirstName] จะต่อสู้เพื่อท่าน"
+ fp1_tbc.0101.d:0 "ความรักของ [knight_opinion.GetTitledFirstNameNoTooltip] จะปกป้องข้า"
+ fp1_tbc.0101.d.tt:0 "[knight_opinion.GetTitledFirstName] จะต่อสู้เพื่อท่าน"
+
+ fp1_ep1_tbc.0101.e:0 "$champion_court_position$ ที่ข้ากำหนดไว้แล้ว, [knight_alternative.GetTitledFirstNameNoTooltip], จะเป็นตัวแทนข้า"
+ fp1_ep1_tbc.0101.e.tt:0 "[knight_alternative.GetTitledFirstName] จะต่อสู้เพื่อท่าน"
+
+ # Scope:recipient won a TbC.
+ fp1_tbc.0111.t:0 "$fp1_tbc.0000.t$: ชัยชนะ!"
+ fp1_tbc.0111.desc.intro:0 "[recipient.GetFaith.PantheonTerm|U] ยิ้มให้ข้าอย่างเต็มใจเมื่อวานนี้!"
+ fp1_tbc.0111.desc.opponent_died.recipient_fighting:0 "\n\nเมื่อหลับตาลง ข้ายังคงรู้สึกถึงอะดรีนาลีนที่พลุ่งพล่านไปทั่วร่าง กล้ามเนื้อกระตุกด้วยภาพหลอนของการต่อสู้ หยุดนิ่งในชั่วขณะที่ชีวิตของ [actor.GetTitledFirstNamePossessive] ถูกตัดสั้นลงและชัยชนะของข้าได้รับการยืนยัน"
+ fp1_tbc.0111.desc.opponent_lives.recipient_fighting:0 "\n\nไม่เพียง แต่ข้าจะได้ทุบตี [actor.GetFirstName] จนเลือดตกยางออกสำหรับความโอหังของ [actor.GetHerHis] ข้ายังพิสูจน์ได้อย่างชัดเจนว่าข้อกล่าวหาใส่ร้ายป้ายสีของ [actor.GetHerHis] นั้นไร้มูลความจริงอย่างสิ้นเชิง"
+ fp1_tbc.0111.desc.opponent_lives.recipient_has_champion:0 "\n\nการเฝ้าดู [champion.GetFirstName] ทุบตี [actor.GetFirstName] อย่างหนักหน่วงนั้นหวานชื่นยิ่งขึ้นด้วยความรู้ที่ว่าชัยชนะของ [champion.GetHerHis] ทำให้ข้าพ้นจากข้อกล่าวหาทั้งหมด"
+ fp1_tbc.0111.desc.outro:0 "\n\nบางทีคนโง่คนต่อไปอาจจะคิดก่อนที่จะท้าทาย [recipient.GetTitledFirstNameNicknamedNoTooltip] ประลอง!"
+ fp1_tbc.0111.a:0 "$fp1_tbc.0041.a$"
+
+ # Scope:recipient lost a TbC.
+ fp1_tbc.0121.t:0 "$fp1_tbc.0000.t$: ความพ่ายแพ้!"
+ fp1_tbc.0121.desc.intro:0 "[recipient.GetFaith.PantheonTerm|U] ไม่ได้ยิ้มให้ข้าเมื่อวานนี้"
+ fp1_tbc.0121.desc.champion_lives.recipient_fighting:0 "ความเจ็บปวดและบาดแผลที่เต็มร่างกายของข้าเป็นเครื่องยืนยันถึงสิ่งนั้น แต่ละอย่างเป็นของขวัญจาก [actor.Custom('signature_weapon')] ของ [actor.GetFirstNamePossessive] ข้าโชคดีที่ยังมีชีวิตอยู่"
+ fp1_tbc.0121.desc.champion_lives.recipient_has_champion:0 "เมื่อข้าเลือก [champion.GetTitledFirstName] ข้ารู้สึกมั่นใจมากว่า [champion.GetSheHe] จะเอาชนะ [actor.GetTitledFirstName] ได้ แต่ [champion.GetSheHe] ก็แค่โชคดีที่ยังมีชีวิตอยู่"
+ fp1_tbc.0121.desc.reward.gold:0 "\n\nเมื่อ [actor.GetFirstNameNoTooltip] รับเงินของ [actor.GetHerHis] [actor.GetSheHe] ยืนกรานที่จะหยุดเพื่อนับมัน ทีละเหรียญ บังคับให้เราดูขณะที่เพลิดเพลินกับความขุ่นเคืองของคณะผู้ติดตามของข้า"
+ fp1_tbc.0121.desc.reward.weak_hook:0 "\n\nรู้สึกเหมือนเป็นชั่วโมงก่อนที่คำสัตย์สาบานหนี้สินสุดท้ายจะถูกกล่าวและประทับตราต่อหน้าพยานที่มาชุมนุมกันของเรา สักวันหนึ่ง [actor.GetFirstNameNoTooltip] จะกลับมาทวงหนี้"
+ fp1_tbc.0121.desc.reward.humiliation:0 "\n\nการอ่าน "คำขอขมา" ที่ยืดยาวของ [actor.GetFirstNamePossessiveNoTooltip] ใช้เวลานาน ฟันของข้าขบกันตลอดเวลาขณะที่ข้าเค้นคำพูดออกมา กวีรับจ้างของ [actor.GetHerHis] เพียงแค่หัวเราะคิกคักอยู่เบื้องหลัง จดจำทุกสีหน้าของข้าไว้ในความทรงจำ"
+ fp1_tbc.0121.desc.outro:0 "\n\nชัยชนะตกเป็นของคนโง่และขอทาน"
+ fp1_tbc.0121.a:0 "$fp1_tbc.0051.a$"

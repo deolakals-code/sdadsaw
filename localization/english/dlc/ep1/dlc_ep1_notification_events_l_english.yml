@@ -1,0 +1,9 @@
+﻿l_english: 
+ ep1_notifications.0011.t:0 "ท่านได้เปลี่ยนภาษาในราชสำนักของท่านแล้ว"
+ ep1_notifications.0011.desc:0 "ขอให้ราชสำนักของเราจงโอ่อ่ายิ่งๆ ขึ้นไป!"
+
+ ep1_notifications.0012.t:0 "[target_character.GetShortUINameNoTooltip] ได้เปลี่ยนภาษาในราชสำนักของพวกเขาแล้ว"
+ ep1_notifications.0012.desc:0 "ราชสำนักของ [target_character.GetShortUINameNoTooltip] บัดนี้ใช้ภาษา [target_character.GetCourtLanguage.GetName] ขอให้การตัดสินใจของพวกเขาพิสูจน์ว่าเป็นความเขลา!"
+
+ ep1_notifications.0013.t:0 "[target_character.GetShortUINameNoTooltip] ได้เปลี่ยนภาษาในราชสำนักของพวกเขาแล้ว"
+ ep1_notifications.0013.desc:0 "ราชสำนักของ [target_character.GetShortUINameNoTooltip] บัดนี้ใช้ภาษา [target_character.GetCourtLanguage.GetName] ช่างเป็นการตัดสินใจที่ชาญฉลาดยิ่งนัก!"

@@ -1,0 +1,50 @@
+﻿l_english: 
+ court.placeholder_court_grandeur_loss:0 "ท่านสูญเสีย #V 10#! ความโอ่อ่าของราชสำนัก"
+
+ # Growing Debauchery
+ court.1000.t:0 "ความเสเพลที่เพิ่มพูน"
+ court.1000.desc.opening:0 "ปลอดภัยใน [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] พร้อมด้วยทุกสิ่งที่ [child.GetHerHis] ต้องการได้รับการจัดหาให้ [child.Custom2('MyCharacterIntroduction', ROOT.Char)] แทบไม่แสดงความโน้มเอียงที่จะทำสิ่งใดนอกเสียจาก"
+ court.1000.desc.drunkard:0 "ใช้เวลาวัน ๆ ของ [child.GetHerHis] ที่โรงเตี๊ยม จมอยู่ใน [child.Custom('RegionalAlcoholicDrink')] ที่มีไม่สิ้นสุด"
+ court.1000.desc.hashishiyah:0 "ใช้เวลาวัน ๆ ของ [child.GetHerHis] เก็บตัวอยู่ในมุมใดมุมหนึ่งและมึนเมากับเค้กฮาชิชที่มีไม่สิ้นสุด"
+ court.1000.desc.rakish:0 "ใช้เวลาวัน ๆ ของ [child.GetHerHis] ที่ซ่องโสเภณี "ให้ความบันเทิง" แก่ "แขก" ที่หลั่งไหลมาไม่ขาดสาย"
+ court.1000.desc.ending:0 "\n\nทูตต่างแดนเริ่มสังเกตเห็นพฤติกรรมของ [child.GetHerHis] และข้าอดสงสัยไม่ได้ว่าข่าวลือใดกำลังถูกกระซิบเกี่ยวกับ [child.GetHerHim] ในราชสำนักอันห่างไกล..."
+ court.1000.a:0 "พฤติกรรมนี้เป็นที่ยอมรับไม่ได้... [child.GetSheHe] ต้องถูกลงโทษ ถึงขั้น ทำให้อับอาย"
+ court.1000.a.tt:0 "การลงโทษ [child.GetFirstName] ให้เป็นเยี่ยงอย่างอาจป้องกันไม่ให้ข้าราชบริพารคนอื่น ๆ กระทำการในลักษณะเดียวกัน"
+ court.1000.b:0 "[child.GetSheHe|U] เพียงแค่ต้องการความรับผิดชอบบางอย่าง สิ่งสำคัญที่ต้องดูแล!"
+ court.1000.b.success:0 "หน้าที่ใหม่ของ [child.GetFirstNamePossessiveNoTooltip] ทำให้ [child.GetHerHim] ยุ่งอยู่กับงาน"
+ court.1000.b.failure:0 "[child.GetFirstNameNoTooltip] ยังคงหมกมุ่นอยู่กับความชั่วร้ายของ [child.GetHerHis] หลังเลิกงาน"
+ court.1000.c:0 "ฮ่า! [child.GetSheHe] รู้วิธีเพลิดเพลินกับสิ่งดี ๆ ในชีวิตอย่างแน่นอน!"
+ court.1000.c.tt:0 "การตามใจ [child.GetFirstName] อาจส่งเสริมให้ข้าราชบริพารคนอื่น ๆ กระทำการในลักษณะเดียวกัน"
+
+ court.1001.title:0 "[courtier.GetFirstName] โอบรับความเสเพล"
+
+ # Daydrinking
+ court.1010.t:0 "ดื่มกลางวันแสก ๆ"
+ court.1010.desc:0 "พฤติกรรมเมามายของ [courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] เคยเป็นหัวข้อซุบซิบในราชสำนักมาก่อน แต่ช่วงหลังมานี้ [courtier.GetSheHe] ดูเหมือนจะยกระดับมันขึ้นไปอีกขั้น\n\nเมาตั้งแต่ช่วงสาย หมดสติในลาน [courtier.Custom('ResidenceBuilding')] เดินโซซัดโซเซไปโรงเตี๊ยมในตอนบ่าย และตื่นขึ้นมาในคอกม้าพร้อมอาการเมาค้างในวันรุ่งขึ้น... พฤติกรรมเสื่อมทรามของ [courtier.GetFirstNamePossessiveNoTooltip] เป็นเรื่องน่าอับอายสำหรับทุกคนที่อาศัยอยู่ใน [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ court.1010.a:0 "[courtier.GetSheHe|U] ไม่เหมาะกับสิ่งใดเลย — และจะเป็น เช่นนั้นตลอดไป"
+ court.1010.b:0 "[courtier.GetFirstNameNoTooltip] ไปสร่างเมาในคุกใต้ดินได้เลย!"
+ court.1010.c:0 "การพูดคุยอย่างจริงจังจะ ทำให้ [courtier.GetHerHim] กลับตัวกลับใจ"
+ court.1010.c.success:0 "[courtier.GetFirstNameNoTooltip] เลิกดื่ม... อย่างน้อยก็ไม่ดื่มจนเกินพอดี"
+ court.1010.c.failure:0 "[courtier.GetFirstNameNoTooltip] ไม่เปลี่ยนพฤติกรรมของ [courtier.GetHerHis]"
+ court.1010.d:0 "หาก [courtier.GetFirstNameNoTooltip] ปรารถนาจะทำตัวเป็นคนโง่ ก็ให้ [courtier.GetSheHe] เป็นคนโง่ไป!"
+ court.1010.e:0 "ปล่อยให้คนอื่นเยาะเย้ย [courtier.GetHerHim]... [ROOT.Char.GetFaith.NegativeAfterLife] ข้าจะหัวเราะไปกับพวกเขา!"
+
+ # Long Arm of the Law
+ court.1020.opening:0 "[foreign_ruler.Custom2('AppropriateGreeting', ROOT.Char)]"
+ court.1020.desc:0 "ข้าทราบมาว่าผู้หลบหนีไร้กฎหมายนาม [fugitive.GetTitledFirstName] ได้พำนักอยู่ในราชสำนักของท่าน มอบตัวพวกเขามาเพื่อรับความยุติธรรมของข้า, "
+ court.1020.desc.forgive_this:0 "แล้วข้าจะให้อภัยการดูหมิ่นครั้งนี้"
+ court.1020.desc.forgive_all:0 "แล้วข้าจะให้อภัยการดูหมิ่นครั้งนี้ รวมถึงครั้งก่อน ๆ ด้วย"
+ court.1020.desc.gold:0 "แล้วข้าจะชดเชยให้ท่านสำหรับความยุ่งยาก"
+ court.1020.desc.opinion:0 "แล้วข้าจะจดจำความร่วมมือของท่านไปอีกหลายปี"
+ court.1020.a:0 "จะเป็นไปตามนั้น"
+ court.1020.b:0 "[fugitive.GetFirstNameNoTooltip] เป็นแขกของข้า — และอยู่ภายใต้การคุ้มครองของข้า"
+ court.1020.c:0 "[fugitive.GetFirstNameNoTooltip]? ไม่มี [fugitive.GetFirstNameNoTooltip] พำนักอยู่ที่นี่..."
+
+ # Poor Manners
+ court.1030.t:0 "มารยาททราม"
+ court.1030.desc:0 "#EMP ~เอิ้ก~#!\n\nขณะที่เสียงเรอดังลั่นสะท้อนไปทั่วห้องอาหาร บทสนทนาทั้งหมดก็หยุดลงทันที [chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ตบหน้าท้องของ [chaplain.GetHerHis] และยิ้มกริ่ม "อา ปล่อยออกมาดีกว่าเก็บไว้ พ่อข้าเคยกล่าวไว้!"\n\nข้าราชบริพารหลายคนแลกเปลี่ยนสายตาอย่างไม่เชื่อ ก่อนที่ [courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] จะมองมาที่ข้าโดยตรงและอุทานว่า "ข้า แต่ [ROOT.Char.GetTitleAsNameNoTooltip] นั่นไม่เหมาะสมอย่างยิ่ง! แน่นอน ท่านต้องเห็นด้วยใช่หรือไม่?""
+ court.1030.a:0 "[chaplain.GetFirstNameNoTooltip] เป็น [chaplain.GetWomanMan] แห่ง [chaplain.GetFaith.HighGodName] ให้เราปฏิบัติต่อ [chaplain.GetHerHim] เช่นนั้นเถิด"
+ court.1030.b:0 "จะเป็น [chaplain.Custom('GetActualBishopTitle')] หรือไม่ก็ตาม [chaplain.GetFirstNameNoTooltip] #EMP จะต้อง#! เรียนรู้มารยาทที่เหมาะสม..."
+ court.1030.b.flavor:0 "... มิฉะนั้น [chaplain.GetSheHe] จะต้องไปกินข้าวกับหมูในคอก!"
+ court.1030.b.custom:0 "ข้าราชบริพารคนอื่น ๆ ทุกคน"
+ court.1030.c:0 "โอ้ ไม่เอาน่า ราวกับว่าพวกเราทุกคนไม่เคยต้องปล่อยลมออกมาบ้างเลยหรือ?"

@@ -1,0 +1,170 @@
+﻿l_english: 
+ #Qiangic
+ qiangic_religion:0 "เฮซเจ" #lit. Worship of the Gods
+ qiangic_religion_adj:0 "เฮซเจ"
+ qiangic_religion_adherent:0 "เฮซเจมี"
+ qiangic_religion_adherent_plural:0 "เฮซเจม"
+ qiangic_religion_desc:0 "ศาสนาพื้นเมืองของชนเผ่าเชียงมุ่งเน้นการบูชาเหล่าเทพเจ้าแห่งธรรมชาติและบรรพชน ตลอดจนการเคารพบูชาศิลาเหล็กไฟขาว ซึ่งเชื่อกันว่ามีจิตวิญญาณแห่งธรรมชาติสถิตอยู่"
+ 
+ qiangic_high_god_name:0 "มูบยาเซย์"
+ qiangic_high_god_name_2:0 "$qiangic_high_god_name$" # Optional translation alt
+ qiangic_high_god_name_possessive:0 "แห่งมูบยาเซย์"
+ qiangic_high_god_shehe:0 "พระองค์"
+ qiangic_high_god_herselfhimself:0 "พระองค์เอง"
+ qiangic_high_god_herhis:0 "ของพระองค์"
+ qiangic_high_god_name_alternate:0 "อับบา ชี"
+ qiangic_high_god_name_alternate_possessive:0 "แห่งอับบา ชี"
+ qiangic_good_god_mubyasei:0 "มูบยาเซย์"
+ qiangic_good_god_abba_chi:0 "อับบา ชี"
+ qiangic_good_god_abba_sei:0 "อับบา เซย์"
+ qiangic_good_god_abba_mullah:0 "อับบา มุลลาห์"
+ qiangic_good_god_mutsitsu:0 "มุตซิตชู"
+ qiangic_good_god_tugantsu:0 "ตูกันต์ชู"
+ qiangic_good_god_mupitha:0 "มูปิทา"
+ qiangic_devil_name:0 "ดุล"
+ qiangic_devil_name_possessive:0 "แห่งดุล"
+ qiangic_devil_shehe:0 "มัน"
+ qiangic_devil_herselfhimself:0 "ตัวมันเอง"
+ qiangic_evil_god_dul:0 "ดุล"
+ qiangic_evil_god_dul_possessive:0 "แห่งดุล"
+ qiangic_house_of_worship:0 "เฮซจี"
+ qiangic_house_of_worship_2:0 "$qiangic_house_of_worship$" # Optional translation alt
+ qiangic_house_of_worship_3:0 "$qiangic_house_of_worship$" # Optional translation alt
+ qiangic_house_of_worship_plural:0 "เฮซจี"
+ qiangic_religious_symbol:0 "วูลูฟี" # white flint stone
+ qiangic_religious_symbol_2:0 "$qiangic_religious_symbol$" # Optional translation alt
+ qiangic_religious_symbol_3:0 "$qiangic_religious_symbol$" # Optional translation alt
+ qiangic_religious_text:0 "ชกูบู-เมเลีย" #religious stories orally passed down by priests
+ qiangic_religious_text_2:0 "$qiangic_religious_text$" # Optional translation alt
+ qiangic_religious_text_3:0 "$qiangic_religious_text$" # Optional translation alt
+ qiangic_religious_head_title:0 "บาซบี"
+ qiangic_religious_head_title_name:0 "ตำแหน่งบาซบี"
+ qiangic_devotee_male:0 "เซมี"
+ qiangic_devotee_male_plural:0 "เซม"
+ qiangic_devotee_female:0 "เซมี"
+ qiangic_devotee_female_plural:0 "เซม"
+ qiangic_devotee_neuter:0 "เซมี"
+ qiangic_devotee_neuter_plural:0 "เซม"
+ qiangic_priest:0 "ซบี"
+ qiangic_priest_plural:0 "ซบี"
+ qiangic_priest_term_plural:0 "ซบี"
+ qiangic_bishop:0 "โวชาน"
+ qiangic_bishop_plural:0 "โวชาน"
+ qiangic_divine_realm:0 "มูดู"
+ qiangic_divine_realm_2:0 "$qiangic_divine_realm$" # Optional translation alt
+ qiangic_divine_realm_3:0 "$qiangic_divine_realm$" # Optional translation alt
+ qiangic_positive_afterlife:0 "มูดู"
+ qiangic_positive_afterlife_2:0 "$qiangic_positive_afterlife$" # Optional translation alt
+ qiangic_positive_afterlife_3:0 "$qiangic_positive_afterlife$" # Optional translation alt
+ qiangic_negative_afterlife:0 "เซบ-เกวียล"
+ qiangic_negative_afterlife_2:0 "$qiangic_negative_afterlife$" # Optional translation alt
+ qiangic_negative_afterlife_3:0 "$qiangic_negative_afterlife$" # Optional translation alt
+ qiangic_death_name:0 "เดียซี"
+ qiangic_death_name_possessive:0 "แห่งเดียซี"
+
+ qiangic_creator_god_name:0 "$qiangic_high_god_name$"
+ qiangic_creator_god_name_possessive:0 "$qiangic_high_god_name_possessive$"
+ qiangic_health_god_name:0 "ซีเบียห์เซ" #medicine god
+ qiangic_health_god_name_possessive:0 "แห่งซีเบียห์เซ"
+ qiangic_fertility_god_name:0 "อีซีห์เซ" #birth god
+ qiangic_fertility_god_name_possessive:0 "แห่งอีซีห์เซ"
+ qiangic_wealth_god_name:0 "ซีกูห์เซ" #money god
+ qiangic_wealth_god_name_possessive:0 "แห่งซีกูห์เซ"
+ qiangic_household_god_name:0 "จีห์เซ" #house god
+ qiangic_household_god_name_possessive:0 "แห่งจีห์เซ"
+ qiangic_fate_god_name:0 "เลียสส์"
+ qiangic_fate_god_name_possessive:0 "แห่งเลียสส์"
+ qiangic_knowledge_god_name:0 "อับบา เซย์"
+ qiangic_knowledge_god_name_possessive:0 "แห่งอับบา เซย์"
+ qiangic_war_god_name:0 "กวูกวูอาห์เซ" #war god
+ qiangic_war_god_name_possessive:0 "แห่งกวูกวูอาห์เซ"
+ qiangic_trickster_god_name:0 "อับบา มุลลาห์"
+ qiangic_trickster_god_name_possessive:0 "แห่งอับบา มุลลาห์"
+ qiangic_night_god_name:0 "ซีชูเอียห์เซ" #moon god
+ qiangic_night_god_name_possessive:0 "แห่งซีชูเอียห์เซ"
+ qiangic_water_god_name:0 "เดเซห์เซ" #water god
+ qiangic_water_god_name_possessive:0 "แห่งเดเซห์เซ"
+
+ #Rrmeaism
+ rrmeaism:0 "วูลูฟีเซ" # lit. White Stone Worship
+ rrmeaism_adj:0 "วูลูฟีเซ"
+ rrmeaism_adherent:0 "วูลูฟีมี"
+ rrmeaism_adherent_plural:0 "วูลูฟีม"
+ rrmeaism_desc:0 "ศาสนาของชาวเริร์ม หรือ เชียง มุ่งเน้นการบูชาศิลาขาว หรือ วูลูฟี เป็นสำคัญ นักบวช-หมอผีผู้รู้จักในนาม ซบี สวมหมวกขนวานรและตีกลองหนังแกะขณะประกอบพิธีกรรม"
+ 
+ rrmeaism_old:0 "วูลูฟีเซเก่า"
+ rrmeaism_old_adj:0 "วูลูฟีเซเก่า"
+ rrmeaism_old_adherent:0 "วูลูฟีมีเก่า"
+ rrmeaism_old_adherent_plural:0 "วูลูฟีมเก่า"
+
+ #Melieism (Tangut Root West)
+ melieism:0 "เมอลี" # lit. Root West
+ melieism_adj:0 "เมอลี"
+ melieism_adherent:0 "ผู้นับถือเมอลี"
+ melieism_adherent_plural:0 "ผู้นับถือเมอลี"
+ melieism_desc:0 "ความเชื่อดั้งเดิมของชาวตันกุตมีศูนย์กลางอยู่ที่นกกระเรียนขาวเป็นลักษณ์สวรรค์ฝ่ายบุรุษแห่งทิพยภาวะ ขณะที่วานรแดงถูกมองว่าเป็นลักษณ์ปฐพีฝ่ายสตรีแห่งทิพยภาวะ และสังคมตันกุตที่มิใช่พุทธศาสนิกชนได้แบ่งออกเป็นสองชนชั้นตามหลักการเหล่านี้: ชนชั้นนักบวช 'เศียรดำ' และสามัญชน 'หน้าแดง'"
+ 
+ 
+ melieism_old:0 "เมอลีเก่า"
+ melieism_old_adj:0 "เมอลีเก่า"
+ melieism_old_adherent:0 "ผู้นับถือเมอลีเก่า"
+ melieism_old_adherent_plural:0 "ผู้นับถือเมอลีเก่า"
+ 
+ tangut_high_god_name:0 "เหวิน" # lit. Crane
+ tangut_high_god_name_2:0 "$tangut_high_god_name$" # Optional translation alt
+ tangut_high_god_name_possessive:0 "แห่งเหวิน"
+ tangut_high_god_shehe:0 "พระองค์"
+ tangut_high_god_herselfhimself:0 "พระองค์เอง"
+ tangut_high_god_herhis:0 "ของพระองค์"
+ tangut_high_god_name_alternate:0 "โพน บิน" # lit. White Loftiness
+ tangut_high_god_name_alternate_possessive:0 "แห่งโพน บิน"
+ tangut_good_god_mewn:0 "เหวิน"
+ tangut_good_god_viei:0 "เว่ย" # lit. Monkey
+ tangut_religious_symbol:0 "เหวิน" # white crane
+ tangut_religious_symbol_2:0 "$tangut_religious_symbol$" # Optional translation alt
+ tangut_religious_symbol_3:0 "$tangut_religious_symbol$" # Optional translation alt
+ tangut_religious_text:0 "โพน บิน โซ" #Ceremonial Odes
+ tangut_religious_text_2:0 "$tangut_religious_text$" # Optional translation alt
+ tangut_religious_text_3:0 "$tangut_religious_text$" # Optional translation alt
+ tangut_religious_head_title:0 "ลี โซ โพน"
+ tangut_religious_head_title_name:0 "ตำแหน่งลี โซ โพน"
+ tangut_devotee_male:0 "ซังจี" #red-faced (พิธีกรรม language)
+ tangut_devotee_male_plural:0 "ซังจี" #red-faced (พิธีกรรม language)
+ tangut_devotee_female:0 "ลีเว ซีเว" #red-faced (พิธีกรรม language)
+ tangut_devotee_female_plural:0 "ลีเว ซีเว" #red-faced (พิธีกรรม language)
+ tangut_devotee_neuter:0 "นีนิน" #red-faced (common language)
+ tangut_devotee_neuter_plural:0 "นีนิน" #red-faced (common language)
+ tangut_priest:0 "อูเนีย" #black-headed (common language)
+ tangut_priest_plural:0 "อูเนีย" #black-headed (common language)
+ tangut_priest_term_plural:0 "อูเนีย" #black-headed (common language)
+ tangut_bishop:0 "โซ โพน" #black-headed (พิธีกรรม language)
+ tangut_bishop_plural:0 "โซ โพน" #black-headed (พิธีกรรม language)
+ tangut_divine_realm:0 "โพน บิน"
+ tangut_divine_realm_2:0 "$tangut_divine_realm$" # Optional translation alt
+ tangut_divine_realm_3:0 "$tangut_divine_realm$" # Optional translation alt
+ tangut_positive_afterlife:0 "โพน บิน"
+ tangut_positive_afterlife_2:0 "$tangut_positive_afterlife$" # Optional translation alt
+ tangut_positive_afterlife_3:0 "$tangut_positive_afterlife$" # Optional translation alt
+
+ tangut_creator_god_name:0 "$tangut_high_god_name$"
+ tangut_creator_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_health_god_name:0 "$tangut_high_god_name$"
+ tangut_health_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_fertility_god_name:0 "เว่ย"
+ tangut_fertility_god_name_possessive:0 "แห่งเว่ย"
+ tangut_wealth_god_name:0 "$tangut_high_god_name$"
+ tangut_wealth_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_household_god_name:0 "$tangut_high_god_name$"
+ tangut_household_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_fate_god_name:0 "$tangut_high_god_name$"
+ tangut_fate_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_knowledge_god_name:0 "$tangut_high_god_name$"
+ tangut_knowledge_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_war_god_name:0 "$tangut_high_god_name$"
+ tangut_war_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_trickster_god_name:0 "$tangut_fertility_god_name$"
+ tangut_trickster_god_name_possessive:0 "$tangut_fertility_god_name_possessive$"
+ tangut_night_god_name:0 "$tangut_high_god_name$"
+ tangut_night_god_name_possessive:0 "$tangut_high_god_name_possessive$"
+ tangut_water_god_name:0 "$tangut_fertility_god_name$"
+ tangut_water_god_name_possessive:0 "$tangut_fertility_god_name_possessive$"

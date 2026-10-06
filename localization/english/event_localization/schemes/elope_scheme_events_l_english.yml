@@ -1,0 +1,79 @@
+﻿l_english: 
+ ### OUTCOME EVENTS ###
+
+ ##I am a player, do I want to take the risk?
+ elope_event_title:0 "หนีตาม:"
+ elope.0001.t:0 "$elope_event_title$ คุ้มครองโดยเงามืด"
+ elope.0001.positive.desc:0 "การเตรียมการขั้นสุดท้ายเรียบร้อยแล้ว เส้นทางหลบหนีได้ถูกวางแผนไว้แล้ว ทหารยามได้รับสินบนแล้ว และ [target.GetTitledFirstName] ก็พร้อมแล้ว คืนนี้ เมื่อความมืดโรยตัวลงเหนือ [location.GetNameNoTooltip] ข้าจะปลดปล่อย [target.Custom('LoverPetName')] ของข้าให้เป็นอิสระ และ ทำให้[target.GetHerHim]เป็น[target.GetWifeHusband]ของข้า"
+ elope.0001.negative.desc:0 "ข้าทบทวนรายการในหัว เส้นทางหลบหนีได้ถูกวางแผนไว้แล้ว ทหารยามควรจะได้รับสินบนแล้ว และหวังว่าจดหมายที่ข้าส่งไปให้ [target.GetTitledFirstName] จะถึงมือ[target.GetHerHim]ทันเวลา แต่ถ้าไม่เล่า? บางที[target.GetSheHe]อาจไม่ได้รับมันเลย! และยังมีสิ่งอื่น ๆ อีกมากมายที่อาจผิดพลาดได้...\n\nไม่มีเวลาสำหรับความลังเล นี่เป็นโอกาสเดียวของข้า ข้าต้องไปหา[target.GetHerHim] ไม่ว่าจะเกิดอะไรขึ้น หรือล้มเลิกความพยายามนี้"
+ elope.0001.a:0 "ข้ากำลังไปหาเจ้า [target.GetFirstNameNoTooltip]!"
+ elope.0001.b:0 "ข้ากำลังทำอะไรอยู่? นี่มันบ้าสิ้นดี!"
+ elope.0001.a.tt:0 "ข้าพยายามหนีตามไปกับ [target.GetShortUIName]"
+ elope.0001.a.success:0 "ข้า #P สำเร็จ#!"
+ elope.0001.a.failure_discover:0 "ข้า #N ล้มเหลวและถูกพบตัว#!"
+ elope.0001.a.failure_hidden:0 "ข้า #N ล้มเหลว#! แต่ไม่ถูกพบตัว"
+
+#Success event owner
+ elope.1001.t:0 "$elope_event_title$ รักคงอยู่"
+ elope.1001.start.desc:0 "ขณะที่เรารอคอย ข้าอดไม่ได้ที่จะจินตนาการถึงทุกสิ่งที่อาจผิดพลาดไป ข้ารู้สึกไร้อำนาจโดยสิ้นเชิง — ความรู้สึกที่ข้า #EMP ไม่#! อยากจะคุ้นเคยมากไปกว่านี้\n\nข้าเห็นคบเพลิงข้างหน้า กำลังเคลื่อนมาทางเรา และส่งสัญญาณให้ทหารยามของข้าซ่อนตัว"
+ elope.1001.start.desc_brave:0 "ขณะที่เรารอคอย ข้าอดไม่ได้ที่จะสงสัยว่า [target.GetFirstName] อยู่ที่ใดในตอนนี้ [target.GetSheHe] หนีออกมาได้หรือไม่? จะมีผู้ไล่ตามหรือไม่?\n\nข้าเห็นคบเพลิงข้างหน้า กำลังเคลื่อนมาทางเรา และส่งสัญญาณให้ทหารยามของข้าซ่อนตัว"
+ elope.1001.end.desc: "แสงนั้นเคลื่อนเข้ามาใกล้ขึ้นและเราสามารถมองเห็นเงาสองร่าง หนึ่งในนั้นถือดาบอยู่ เห็นได้ชัด ส่วนอีกคน... ต้องเป็น #EMP [target.GetHerHim]#!!\n\nข้าวิ่งไปหา [target.Custom('LoverPetName')] ของข้า และ [target.GetSheHe] ก็โผตัว[target.GetHerselfHimself]เข้าสู้อ้อมแขนที่เปิดกว้างของข้า การสวมกอดนั้นรวดเร็ว แต่หอมหวานดุจน้ำผึ้ง เมื่อมือของ [target.GetHerHis] อยู่ในมือข้า ข้าก็เริ่มวิ่ง"
+ elope.1001.a:0 "เร็วเข้า ที่รัก! [ROOT.Char.Custom('DefaultPriestTitle')] กำลังรออยู่!"
+ 
+ #Success for target liege
+ elope.1002.t:0 "หายไปในยามค่ำคืน"
+ elope.1002.start.desc:1 "ข้าสะดุ้งตื่น เพราะเสียงเคาะประตูอย่างแรง "นาย[ROOT.Char.GetTitleAsNameNoTooltip]ของข้า! พบทหารยามเสียชีวิตหนึ่งนายและ [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] ของท่านหายตัวไป!""
+ elope.1002.desc_naked:0 "ข้าตะเกียกตะกายลงจากเตียง ตะโกนสั่งการแม้กระทั่งก่อนจะออกจากประตู"
+ elope.1002.desc_not_naked:0 "ข้าตะเกียกตะกายลงจากเตียง ตะโกนสั่งการขณะที่สวมเสื้อผ้า"
+ elope.1002.desc:0 "\n\nการค้นหาดำเนินไปเป็นเวลาหลายชั่วโมง จนกระทั่งเที่ยงวันพวกเขาจึงค้นพบจดหมายลงนามจาก [target.GetTitledFirstName] ลายมือนั้นเป็นของ [target.GetHersHis] อย่างไม่ต้องสงสัย\n\n"
+ elope.1002.apologetic_relationship.desc:0 ""[target.GetFirstNameNoTooltip] ที่รักยิ่งของข้า ข้าเสียใจอย่างสุดซึ้ง แต่ข้าต้องทำตามหัวใจเรียกร้อง ข้าได้จากท่านไปเพื่อ แต่งงานกับรักแท้ของข้า — [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]""
+ elope.1002.unapologetic_relationship.desc:0 ""ข้าได้จากไปเพื่อ แต่งงานกับ [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)] อย่าตามข้ามา — ข้ายอมตายเสียดีกว่าที่จะเป็นของท่านอีกครั้ง!""
+ elope.1002.apologetic_family.desc:0 ""[ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))|U] ข้าได้จากไปเพื่อ แต่งงานกับรักแท้ของข้า — [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)] สิ่งเดียวที่ข้าต้องการคือความสุข ข้าหวังว่าท่านจะให้อภัยข้าได้""
+ elope.1002.unapologetic_family.desc:0 ""หากท่านรัก [ROOT.Char.Custom2('RelationToMeShort' , target)] ของท่านอย่างแท้จริง ท่านคงอยากให้ข้ามีความสุข แต่ในเมื่อท่านใส่ใจข้าน้อยเหลือเกิน ข้าจึงได้จากไปเพื่อทำตามหัวใจเรียกร้อง ข้าจะ แต่งงานกับ [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] และไม่มีสิ่งใดที่ท่านจะหยุดข้าได้!""
+ elope.1002.a.fallback:0 "[target.GetSheHe] ทำได้อย่างไร?"
+ elope.1002.a.vengeful:0 "เจ้า [target.Custom2('InsultNounSexual', ROOT.Char)] ทรยศนั่นจะได้รับสิ่งที่ [target.GetSheHe] สมควรได้รับ!"
+ elope.1002.a.compassionate:0 "ข้าหวังว่า[target.GetSheHe]จะมีความสุข ไม่ว่าจะเกิดอะไรขึ้นก็ตาม"
+ 
+ #Success event for relatives of target and owner
+ elope.1003.opening:0 "[target_keeper.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ elope.1003.start.desc:0 "ข้าเขียนมาเพื่อแจ้งให้ท่านทราบว่า"
+ elope.1003.target_root_family.desc:0 "[ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] ของท่าน [target.GetFirstName]"
+ elope.1003.target_keeper_relation.desc:0 "[target_keeper.Custom2('RelationToMeShort' , SCOPE.sC('target'))] ของข้า [target.GetFirstName]"
+ elope.1003.target_liege_subject.desc:0 "ข้าแผ่นดินของข้า [target.GetFirstName]"
+ elope.1003.middle.desc:0 "ได้หนีตามไปกับ"
+ elope.1003.owner_root_family.desc:0 "[ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('owner'))] ของท่าน [owner.GetFirstName]!"
+ elope.1003.your_character_introduction.desc:0 "[owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]!"
+ elope.1003.end.desc:0 "ขอข้าพูดตามตรง: นี่คือการดูหมิ่นอย่างร้ายแรง และเป็นรอยด่างพร้อยต่อเกียรติยศของตระกูลท่าน หาก #EMP คู่รักข้าวใหม่ปลามัน#! คู่นั้นแสวงหาที่หลบภัยใน [capital.GetNameNoTooltip] ข้าเชื่อว่าท่านจะสั่งสอนบทเรียนให้พวกเขา!"
+ elope.1003.a:0 "ช่างเป็นหายนะ!"
+
+#Failure discovered event owner
+ elope.1011.t:0 "$elope_event_title$ คบเพลิงในความมืด"
+ elope.1011.middle.desc:0 "ข้ามองเห็นเงาสองร่าง สาม สี่... [ROOT.Char.GetFaith.HighGodName] นี่ต้องไม่ดีแน่!"
+ elope.1011.end.desc:0 "ตามคำสั่งของข้า เราถอยทัพผ่านพุ่มไม้ ส่วนผู้ไล่ตามของเรานั้น ไม่สนใจความแนบเนียนใด ๆ และเข้ามาใกล้อย่างรวดเร็ว\n\n"เจ้าซ่อนตัวตลอดไปไม่ได้หรอก [ROOT.Char.GetTitledFirstNameNoTooltip]! เราจับ [dummy_soldier.GetWomenMen] ของเจ้าได้คนหนึ่งแล้ว และเจ้าจะเป็นรายต่อไป!""
+ elope.1011.a:0 "#EMP หนีไป!#!"
+
+ elope.1012.t:0 "การหนีตามที่ล้มเหลว"
+ elope.1012.desc:0 "ความพยายามที่จะหนีตาม [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] ไปถูกขัดขวาง! หัวหน้าองครักษ์บอกข้าว่า [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] กำลังวางแผนที่จะลักพาตัว [target.GetHerHim] ไปและ แต่งงานกับ [target.GetHerHim] อย่างลับๆ\n\nราวกับว่านั่นยังไม่พอ จดหมายที่พบในห้องของ [target.GetFirstNamePossessiveNoTooltip] บ่งชี้ว่า [target.GetSheHe] รู้เห็นเป็นใจกับเรื่องทั้งหมด!"
+ elope.1012.a:0 "เจ้า [owner.Custom2('InsultAdjective', ROOT.Char)] [owner.Custom2('InsultNounSexual', ROOT.Char)] นั่นจะไม่มีวันได้ตัว [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))] ของข้าไป!"
+ elope.1012.b:0 "ทรยศ! จับ [target.GetFirstNameNoTooltip] ขังไว้ #EMP เดี๋ยวนี้!#!"
+ elope.1012.c:0 "ข้าจะ ทำให้พวกมันต้องทนทุกข์ทรมาน จำคำข้าไว้!"
+ elope.1012.d:0 "เรื่องนี้ ทำให้ข้าปวดหัว..."
+
+#Failure undiscovered for owner
+ elope.1021.end.desc:0 "\n\nตามคำสั่งของข้า เราถอยทัพผ่านพุ่มไม้ ด้วยโชคช่วยอย่างแท้จริง เราหาทางกลับไปยังรถม้าและหลบหนีไปในยามค่ำคืนได้"
+ elope.1021.a:0 "[target.GetFirstNameNoTooltip] ที่รักของข้า... ข้าภาวนาให้เจ้าปลอดภัย"
+
+
+### ONGOING EVENTS ###
+
+# Lover is doubting
+ elope.2000.t:0 "ที่รักของข้า,"
+ elope.2000.start.desc:0 "ท่านบอกให้ข้ากล้าหาญ แต่ข้าไม่อาจเก็บงำความกลัวได้อีกต่อไป จะเป็น เช่นไรหาก"
+ elope.2000.target_relation.desc:0 "[target.Custom2('RelationToMeShort' , SCOPE.sC('discoverer'))] ของข้ารู้เรื่องแผนการของเรา? ข้านอนแทบไม่หลับและกินอาหารไม่ลง [discoverer.GetSheHe|U] เริ่มเป็นกังวล — บางทีอาจถึงขั้นสงสัยแล้ว!"
+ elope.2000.titledname.desc:0 "[discoverer.GetTitledFirstName] รู้เรื่องแผนการของเรา? เมื่อใดก็ตามที่[discoverer.GetSheHe]ปรากฏตัว ข้าตัวแข็งทื่อและพูดไม่ออก มันเป็นเพียงเรื่องของเวลาเท่านั้นจนกว่า[discoverer.GetSheHe]จะสังเกตเห็น!"
+ elope.2000.end.desc:0 "\n\nเรากำลังหมดเวลาแล้ว ได้โปรด [ROOT.Char.GetFirstNameNoTooltip] ที่รักยิ่งของข้า เร่งมือเถิด!"
+ elope.2000.a:0 "เราจะเร่งแผนการให้เร็วขึ้น [target.Custom('LoverPetName')] ของข้า"
+ elope.2000.c:0 "เชื่อข้าเถิด — ทุกอย่างอยู่ภายใต้การควบคุม"
+ elope.2000.c.success:0 "[target.GetShortUIName|U] เชื่อแล้ว"
+ elope.2000.c.failure:0 "[target.GetShortUIName|U] รู้สึกว่าถูกปัดความกังวล"
+ elope.2000.b:0 "เช่นนั้นเจ้าก็ไม่ควรส่งจดหมายมาสิ!"

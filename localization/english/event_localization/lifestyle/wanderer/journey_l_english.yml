@@ -1,0 +1,148 @@
+﻿l_english: 
+ journey_events.10.t: "สหายกลางแจ้ง"
+ journey_events.10.desc: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U] ข้าสังเกตเห็นว่าท่านกำลังต้องการสหายร่วมเดินทางอย่างยิ่ง" ข้าได้ยิน [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('provider_character'))] ของข้า [provider_character.GetFirstName] กล่าว ขณะที่[provider_character.GetSheHe]เข้ามาในห้องทำงาน [provider_character.GetSheHe|U] มองข้าอย่างรู้กัน "วันนี้มีคาราวานพ่อค้าผ่าน [ROOT.Char.GetCapitalLocation.GetName] และข้าเห็นพวกเขามีสัตว์มากมายมาขาย"\n\nเมื่อข้าถามรายละเอียดเพิ่มเติม [provider_character.GetSheHe] ก็พูดถึงสุนัข ม้า และเหยี่ยวหลากหลายขนาดที่[provider_character.GetSheHe]เห็น เมื่อครุ่นคิดดู ข้าก็คิดกับตนเองว่า บางทีสหายร่วมเดินทางอาจเป็นสิ่งที่ข้าต้องการพอดี"
+ journey_events.10.a: "ม้าศึกที่เหมาะสม นั่นจะสมบูรณ์แบบ"
+ journey_events.10.b: "ทีนี้ สุนัข พวกมันคือสหายที่แท้จริง"
+ journey_events.10.c: "เหยี่ยวล่าสัตว์คือสิ่งที่ข้าต้องการ"
+ journey_events.10.d: "ข้าไม่สนใจสัตว์เลี้ยง"
+
+ journey_events.11.t: "สหายกลางแจ้ง: ม้า"
+ journey_events.11.desc: "หลังจากผ่านไปวันหรือสองวัน ในที่สุดข้าก็ได้รับมอบม้าตัวใหญ่ทรงพลัง ทันทีที่มันถูกส่งมอบให้ข้า ข้ารู้สึกได้ถึงสัตว์ร้ายที่ดื้อรั้นกำลังดิ้นรนต่อต้านข้า\n\nชั่วขณะหนึ่ง ข้ากังวลว่าจะถูกโยนลงมา แต่ในที่สุด ข้าก็สามารถทรงตัวอยู่ได้ แม้จะแทบไม่ไหว สัตว์ร้ายนั้นมองข้าด้วยสิ่งที่ข้าสามารถอธิบายได้เพียงว่าเป็นแววตาแห่งความเคารพ"
+ journey_events.11.a: "ข้าคิดว่าเราจะเป็นเพื่อนที่ดีต่อกัน ในไม่ช้า"
+
+ journey_events.12.t: "สหายกลางแจ้ง: สุนัข"
+ journey_events.12.desc: "หลังจากผ่านไปวันหรือสองวัน ในที่สุดข้าก็ได้รับมอบกล่องเล็ก ๆ ใบหนึ่ง มันสั่นเล็กน้อยเมื่อข้าเข้าใกล้ และหลังจากลังเลอยู่ครู่หนึ่ง ในที่สุดข้าก็เปิดมันออกเพื่อพบสหายตัวน้อยคนใหม่ของข้า\n\nทันทีที่ฝาถูกถอดออก ลูกสุนัขก็กระโดดออกมาและเริ่มวิ่งไปรอบห้องอย่างกระฉับกระเฉง หลังจากผ่านไปประมาณหนึ่งนาที มันก็หยุด ล้มตัวลงนอนตะแคง และเริ่มงีบหลับ"
+ journey_events.12.a: "มันตัวเล็กไปหน่อย ใช่หรือไม่?"
+
+ journey_events.20.t: "บนฟากฟ้าเบื้องบน"
+ journey_events.20.desc: "ล่วงเข้ายามค่ำ เมื่อ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('informer_character'))] ของข้า [informer_character.GetFirstName] เข้ามาหาข้าด้วยแววตาเป็นประกายในดวงตาของ[informer_character.GetHerHis]\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U] ข้าได้ยินข่าวลือที่ท่านอาจสนใจ"\n\n[informer_character.GetSheHe|U] จึงเล่าว่า [informer_character.GetSheHe] ได้ยินเรื่องราวเกี่ยวกับปรากฏการณ์ทางดาราศาสตร์ที่ปรากฏบนท้องฟ้าเหนือ [destination_province.GetName] เป็นประจำในช่วงนี้ แม้ว่ารายละเอียดของปรากฏการณ์จะไม่ชัดเจนนัก แต่ว่ากันว่านี่คือประสบการณ์ครั้งหนึ่งในชีวิต"
+ journey_events.20.a: "ทีนี้น่าสนใจ..."
+
+ wayfarer_astronomical_phenomenon: "ปรากฏการณ์ทางดาราศาสตร์"
+ wayfarer_astronomical_phenomenon_desc: "#emp ระหว่าง [GetActivityType('activity_roaming').GetName] [activity|E] ท่านจะได้สัมผัสกับเหตุการณ์พิเศษใน [barony|E] นี้#!\n\nเรื่องเล่าอ้างว่าแคว้นนี้มีปรากฏการณ์ทางดาราศาสตร์ที่น่าทึ่งเกิดขึ้นเป็นประจำ"
+
+ journey_events.30.t: "เรื่องเล่าสักเรื่องสองเรื่อง"
+ journey_events.30.desc: "ข้าเดินเข้าไปพบ [character_1.GetFirstName] และ [character_2.GetFirstName] กำลังพูดคุยกันอย่างตื่นเต้น "จริงหรือ? ใน [traveller_province.GetName] ท่านว่า?" เมื่อพวกเขาสังเกตเห็นข้า [character_1.GetFirstNameNoTooltip] ก็หันมาหาข้าและถามว่า "ท่านเคยไปที่นั่นในการเดินทางครั้งหนึ่งของท่าน ใช่หรือไม่ [ROOT.Char.GetFirstName]?"\n\n"ท่านเห็นไหม [character_2.GetFirstNameNoTooltip] บอกข้าว่า [character_2.GetSheHe] เห็น [traveller_province.Custom('journey_events_30_custom_loc')] ใน [traveller_province.GetNameNoTooltip] ท่านเคยเห็นอะไรแบบนั้นหรือไม่?""
+ journey_events.30.a: "[traveller_province.Custom('journey_events_30_short_custom_loc')] แห่ง [traveller_province.GetNameNoTooltip]? โอ้ ให้ข้าเล่าให้ท่านฟังทั้งหมด!"
+ journey_events.30.a.tt: "ท่านคิดว่าท่าน #emp อาจจะ#! เคยไปที่ [traveller_province.Custom('journey_events_30_short_custom_loc')] แห่ง [traveller_province.GetNameNoTooltip] แต่นั่นจะไม่ ทำให้เป็นเรื่องเล่าที่ดี บางทีการ แต่งเติมเล็กน้อยอาจจะเหมาะสม..."
+ journey_events.30.a.win: "ข้าโน้มน้าวพวกเขาว่าข้ารู้เรื่องทั้งหมด"
+ journey_events.30.a.loss: "พวกเขาจับได้ว่าข้า 'แต่งเติม'"
+ journey_events.30.b: "ข้าคิดว่าข้าอาจจะเคยไป?"
+ journey_events.30.c: "ไม่เลย เล่าให้ข้าฟังทั้งหมดเถิด [character_2.GetFirstNameNoTooltip]"
+
+ journey_events_30_custom_loc_fallback: "ซุ้มหินธรรมชาติที่สวยงาม"
+ journey_events_30_custom_loc_oasis: "โอเอซิสเขียวชอุ่มที่น่าจดจำ"
+ journey_events_30_custom_loc_desert: "หินใหญ่โบราณสูงตระหง่าน"
+ journey_events_30_custom_loc_mountains: "ทิวทัศน์อันน่าอัศจรรย์จากไหล่เขา"
+ journey_events_30_custom_loc_forest: "ป่าใหญ่"
+
+ journey_events_30_short_custom_loc_fallback: "ซุ้มหิน"
+ journey_events_30_short_custom_loc_oasis: "โอเอซิส"
+ journey_events_30_short_custom_loc_desert: "หินใหญ่"
+ journey_events_30_short_custom_loc_mountains: "ทิวทัศน์"
+ journey_events_30_short_custom_loc_forest: "ป่าใหญ่"
+
+ journey_events.40.t: "นักกวีท้องถิ่น"
+ journey_events.40.desc: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]" [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('suggester_character'))] ของข้า [suggester_character.GetFirstName] ทูลข้า ขณะที่[suggester_character.GetSheHe]เข้ามาในห้อง "ทุกคนในราชสำนักรู้ดีว่าท่านยินดีเพียงใดที่จะแบ่งปันเรื่องเล่าการเดินทางและการผจญภัยของท่าน ซึ่งเป็นความยินดียิ่งของทุกคน ข้ารับรองได้"\n\n[suggester_character.GetSheHe|U] กล่าวต่อ "ข้าได้ยินเกี่ยวกับนักกวีท้องถิ่นผู้หนึ่ง ซึ่งเป็นที่นิยมอย่างมากในช่วงนี้ เป็นนักขับลำนำที่เหล่าไพร่ชอบ ด้วยแรงจูงใจที่เหมาะสม บางทีเขาอาจจะเริ่มแบ่งปันเรื่องเล่าของท่านไปทั่วดินแดนก็ได้?""
+ journey_events.40.a: "ท่านพูดถูก ทุกคนสมควรได้ยินเรื่องราวของข้า..."
+ journey_events.40.a.tt: "[counties|E] บางแห่งใน [realm|E] ของท่านจะได้รับ [GetModifier( 'journey_local_bard_modifier' ).GetNameWithTooltip] เป็นเวลา #high 3 ปี#!"
+ journey_events.40.b: "ข้าคิดวิธีใช้จ่ายเหรียญของข้าได้ดีกว่านี้ [suggester_character.GetFirstNameNoTooltip]"
+
+ journey_local_bard_modifier: "นักกวีท้องถิ่น"
+ journey_local_bard_modifier_desc: "นักกวีกำลังแบ่งปันเรื่องราวการเดินทางของผู้ปกครอง สร้างความเพลิดเพลินอย่างยิ่งแก่คนในท้องถิ่น"
+
+ journey_events.50.t: "ค่ำคืนหนึ่งใน [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]"
+ journey_events.50.desc: "ข้าครุ่นคิดมานานแล้วว่าราษฎรของข้ามีปฏิสัมพันธ์กันอย่างไรเมื่ออยู่นอกสายตาของผู้ดีกว่า หลังจากพิจารณาอย่างถี่ถ้วน ข้าได้พบช่วงเวลาที่เหมาะสมที่จะหลบออกไป และเศษผ้าสกปรกบางชิ้นที่ข้าสามารถใช้ปลอมตัวได้\n\nแต่เมื่อช่วงเวลานั้นใกล้เข้ามาเรื่อย ๆ ข้าก็เริ่มทบทวนใหม่ นี่เป็นสิ่งที่เหมาะสมกับ [ROOT.Char.GetTitleAsNameNoTooltip] หรือไม่?"
+ journey_events.50.a: "มันสายเกินไปที่จะถอยกลับแล้ว"
+ journey_events.50.a.win: "ข้าแอบออกไป"
+ journey_events_50_event_chain_begins_tt: "ข้าเดินทางไปยัง [rootscope.GetCapitalLocation.GetName]"
+ journey_events.50.a.loss: "ข้าถูกจับได้ขณะสวมผ้าขี้ริ้ว"
+ journey_events.50.b: "ไม่ ข้าไม่อาจถูกจับได้ขณะสวมอะไรแบบนั้น!"
+ journey_events.50.b.tt: "ข้าเป็นอะไรไป? แน่นอนว่าข้าจะไม่ไปนั่งกับชาวนาและทาสติดที่ดิน!"
+
+ journey_events.51.desc: "ข้าพบอาคารซอมซ่อ แต่เป็นที่นิยมแห่งหนึ่งขณะเดินทางไปตามถนน ทันทีที่ข้าเข้าไป ข้าก็ได้รับเครื่องดื่มแอลกอฮอล์ และฝูงชนก็ผลักข้าไปยังที่นั่งในมุมหนึ่ง ไม่มีใครเหลือบมองข้าเป็นครั้งที่สองตลอดกระบวนการทั้งหมด\n\nข้านั่งอยู่คนเดียว มองดูคนอื่น ๆ ในสถานประกอบการ กลุ่มคนเสียงดังรวมตัวกันรอบโต๊ะใหญ่ ที่ ซึ่งชาวนาหลายคนดูเหมือนจะกำลังสนุกสนานกับเกมลูกเต๋าบางอย่าง"
+ journey_events.51.a: "เอาล่ะ ข้าจะแสดงให้พวกเขาเห็นว่าขุนนางเล่นเกมอย่างไร"
+ journey_events.51.a.tt: "ถึงเวลาเอาสิ่งที่พวกเขามีอยู่น้อยนิดมา มันเกือบจะดีเท่ากับการเก็บภาษีพวกเขา!"
+ journey_events.51.a.big_win: "ข้าชนะเกือบทุกเกม"
+ journey_events.51.a.win: "ข้าชนะบางเกมที่นี่และที่นั่น"
+ journey_events.51.a.loss: "ข้าแพ้มากกว่าชนะ"
+ journey_events.51.b: "ถึงเวลาดื่มให้หมดแล้วกลับบ้าน"
+ journey_events.51.b.tt: "ข้าเห็นชาวนามามากพอแล้วสำหรับชั่วชีวิตนี้"
+
+ journey_events.52.desc: "แม้จะครึกครื้นและสนุกสนานในตอนแรก แต่ทุกคนรอบโต๊ะก็เริ่มหงุดหงิดและโกรธมากขึ้นเมื่อพวกเขาดื่มมากขึ้นและเวลาล่วงเลยไป หนึ่งในนั้น [local_gambler.GetFirstNameNoTooltip] ยืนขึ้นและประกาศเสียงดังว่า "ไอ้พวกขุนนาง! พวกมันไม่รู้ด้วยซ้ำว่าพวกเราคน #bold ธรรมดา#! เป็นอย่างไร! โดยเฉพาะไอ้คนไร้ประโยชน์ [ROOT.Char.GetTitledFirstName] นั่น!"\n\nข้ารู้สึกว่าตัวเองหดตัวลงบนเก้าอี้ขณะที่มีเสียงเห็นด้วยดังขึ้นรอบโต๊ะ [local_gambler.GetFirstNameNoTooltip] สังเกตเห็น ขณะที่ [local_gambler.GetSheHe] หันมาหาข้าและถามว่า "เจ้าคิดว่าอย่างไร?""
+ journey_events.52.a: "ข้าคิดว่าอาจถึงเวลาสำหรับอีกรอบ!"
+ journey_events.52.a.tt: "แค่ให้เหล้าไหลต่อไปจนกว่าพวกเขาจะหยุดบ่น!"
+ journey_events.52.b: "เอ่อ อันที่จริง... ข้า #bold คือ#! [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ journey_events.52.b.tt: "ข้าจะพิสูจน์ให้เห็นว่าพวกเขาคิดผิดเกี่ยวกับข้าเพียงใด!"
+ journey_events.52.c: "คาดว่า [threat_1.GetTitledFirstNameNoTooltip] กำลังเก็บภาษีทั้งหมดของเราไปเพื่อ [threat_1.GetHerselfHimself] เป็นการส่วนตัว..."
+ journey_events.52.c.chancellor: "ข้าได้ยินมามากเกี่ยวกับ [threat_1.GetCouncilTitle] [threat_1.GetFirstNameNoTooltip] ที่ทุจริต..."
+ journey_events.52.c.steward: "ว่ากันว่า [threat_1.GetCouncilTitle] [threat_1.GetFirstNameNoTooltip] กำลังเก็บภาษีเพิ่มเพื่อเอาไปให้ [threat_1.GetHerselfHimself]..."
+ journey_events.52.c.marshal: "ข้าเห็น [threat_1.GetCouncilTitle] [threat_1.GetFirstNameNoTooltip] ทุบตีคนจนตายบนถนน..."
+ journey_events.52.c.spymaster: "ข้าได้ยินเรื่องสกปรกจริง ๆ เกี่ยวกับ [threat_1.GetCouncilTitle] [threat_1.GetFirstNameNoTooltip]..."
+ journey_events.52.c.chaplain: "มีข่าวลือแพร่สะพัดเกี่ยวกับการกระทำบาปของ [threat_1.GetCouncilTitle] [threat_1.GetFirstNameNoTooltip]..."
+ journey_events.52.c.fallback: "ข้าได้ยินมาว่าคนผิดที่แท้จริงคือ [threat_1.GetCouncilTitle] [threat_1.GetFirstNameNoTooltip]"
+ journey_events.52.c.tt: "นี่เป็นโอกาสที่จะโทษคนอื่น เช่น ไอ้โง่ [threat_1.GetFirstNameNoTooltip] นั่น"
+
+ journey_drink_and_circus_modifier: "สุราและการละเล่น"
+ journey_drink_and_circus_modifier_desc: "เคาน์ตีนี้มีการแจกจ่ายเครื่องดื่มแอลกอฮอล์เพิ่มขึ้นให้กับโรงเตี๊ยมในท้องถิ่นโดยเจ้าผู้ครองนครของพวกเขา บางคนบอกว่าแม้กระทั่งด้วยตนเอง"
+
+ journey_blame_game_modifier: "ขุนนางผู้ไม่เป็นที่นิยม"
+ journey_blame_game_modifier_desc: "ตัวละครนี้ไม่เป็นที่นิยมอย่างยิ่งในหมู่ประชากรท้องถิ่น และมีข่าวลือมากมายเกี่ยวกับพวกเขาแพร่สะพัดไป"
+
+ journey_blame_game_province_modifier: "ผู้ปกครองผู้เป็นที่นิยม"
+ journey_blame_game_province_modifier_desc: "ผู้ปกครองของเคาน์ตีได้รับความนิยมเพิ่มขึ้นหลังจากเรื่องราวเกี่ยวกับวิธีที่พวกเขาต่อสู้เพื่อประชาชนแพร่สะพัดไปทั่วเมือง"
+
+ journey_pauper_king_modifier: "ราชาผู้ยากไร้"
+ journey_pauper_king_modifier_desc: "ว่ากันว่าเป็นที่นิยมโดยเฉพาะในหมู่ชาวนาและทาสติดที่ดิน เนื่องจากเรื่องราวมากมายเกี่ยวกับการปฏิสัมพันธ์ที่เป็นมิตรและเป็นส่วนตัวของพวกเขากับชนชั้นล่าง"
+
+ journey_events.53.desc: "ข้าสั่งเหล้า หมด หมด หมด จนกระทั่งพวกเขาทั้งหมดหมดสติหรือกลับบ้านไป ในที่สุด มีเพียง [local_gambler.GetFirstNameNoTooltip] และข้าเท่านั้นที่ยังคงนั่งอยู่ที่โต๊ะ [local_gambler.GetSheHe|U] แทบจะนั่งตัวตรงไม่ได้ในตอนท้าย แต่ก็ยังคงมองข้าด้วยตาเหล่\n\n"เจ้ารู้ไหม เจ้าก็ไม่เลวนักสำหรับขุนนาง" [local_gambler.GetSheHe|U] ในที่สุดก็พึมพำก่อนที่ศีรษะของ [local_gambler.GetHerHis] จะกระแทกโต๊ะ และ [local_gambler.GetSheHe] ก็หมดสติไป เช่นกัน"
+ journey_events.53.a: "หือ ข้าสงสัยว่า [local_gambler.GetSheHe] รู้ตัวเมื่อไหร่"
+ journey_events.53.a.tt: "ถึงเวลากลับบ้านก่อนที่ใครจะกังวลเกินไปว่าข้าหายไป"
+
+ journey_events.54.desc: "ในตอนแรก สถานการณ์ช่างตึงเครียด แต่หลังจากเล่าเรื่องการเดินทางของข้าและสั่งสุราหลายรอบ ข้าก็สัมผัสได้ว่าผู้คนเริ่มผ่อนคลาย ครู่ต่อมา โรงเตี๊ยมก็มีบรรยากาศที่ร่าเริง และผู้คนก็ถามคำถามต่าง ๆ นานา\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U] หากท่านไม่ว่ากระไร..." [local_gambler.GetFirstNameNoTooltip] เริ่มอย่างระมัดระวัง "พวกเรามีกองกำลังทหารบ้านท้องถิ่นที่นี่ใน [ROOT.Char.GetCapitalLocation.GetNameNoTooltip] และพวกเรายินดีที่จะรับใช้ท่านโดยตรง"\n\nแม้ว่าข้าจะพยายามปฏิเสธพวกเขา พวกเขาก็ยังยืนกรานในข้อเสนอ ขณะที่เจ้าของโรงเตี๊ยมปิดบาร์ในที่สุด พวกเขาทั้งหมดดูอารมณ์ดี ขณะที่ค่อย ๆ ทยอยกันออกจากประตูไป"
+ journey_events.54.a: "ช่างเป็นค่ำคืนที่มีประสิทธิผลเสียนี่กระไร!"
+ local_militia_name_default: "กองกำลังอาสาสมัครท้องถิ่น"
+
+ journey_events.55.desc: "ข้าพยายามคลายความตึงเครียดในห้องเมื่อข้าสัมผัสได้ถึงหมัดแรก—หมัดแรกของอีกหลายหมัด\n\nหลังจากการรัวหมัดและเตะ ข้าก็ถูกโยนเข้าไปในตรอกด้านหลัง ข้าแทบไม่รู้สึกถึงใบหน้าของตัวเอง และข้าล้มเหลวในการลุกขึ้นยืน\n\nหลังจากผ่านไปหลายชั่วโมงที่ทรมาน ทหารยามบางคนเดินผ่านไป และหนึ่งในนั้นจำใบหน้าของข้าได้อย่างใด พวกเขาช่วยข้าลุกขึ้นและนำทางข้ากลับบ้าน"
+ journey_events.55.a: "ความคิดทั้งหมดนี้เป็นความผิดพลาด..."
+
+ journey_events.56.desc: "ในตอนแรก ข้าเพียงแค่พยายามหาเรื่องเล็ก ๆ น้อย ๆ มาตำหนิบุคลิกของ [threat_1.GetFirstName] แต่หลังจากนั้นครู่หนึ่ง ข้ารู้สึกว่าตัวเองอินไปกับมัน มันไม่ใช่การเสแสร้งเพื่อโยนความผิดอีกต่อไป แต่เป็นเพียงว่าข้าเกลียด [threat_1.GetWomanMan] คนนั้น\n\nขณะที่ข้ายังคงปั่นเรื่องราวเกี่ยวกับการฉ้อฉลของ [threat_1.GetHerHis] ข้าก็เริ่มเสริมว่ามันยากเพียงใดสำหรับ [ROOT.Char.GetTitledFirstName] คือข้า ที่จะต้องรับมือกับการทุจริตของ [threat_1.GetHerHis]\n\nในตอนท้ายของค่ำคืน ผู้คนจากไปด้วยความคิดเห็นที่เปลี่ยนไปอย่างมากเกี่ยวกับทั้ง [threat_1.GetFirstName] และข้า"
+ journey_events.56.a: "นั่นคือทั้งหมดที่ [threat_1.GetSheHe] สมควรได้รับ"
+ journey_events.56.a.tt: "ค่ำคืนที่มีประสิทธิผล ตอนนี้ถึงเวลากลับบ้านก่อนที่ใครจะกังวลเกินไปเกี่ยวกับข้า"
+
+ journey_events.57.desc: "แม้ว่าข้าจะพยายามอย่างสุดความสามารถในการโยนความผิดให้ [threat_1.GetCouncilTitle] ของข้า [threat_1.GetFirstName] ข้าก็ยังคงถูกขัดจังหวะโดยคนนั้นคนนี้ พวกเขายังคงแทรกบางอย่างเกี่ยวกับบุคลิกของข้าหรือข่าวลือบางอย่างเกี่ยวกับข้า\n\nก่อนที่ข้าจะรู้ตัว ค่ำคืนก็สิ้นสุดลงกะทันหัน และพวกเขาทั้งหมดก็จากไปด้วยความคิดเห็นที่ต่ำกว่าเกี่ยวกับข้ามากกว่าตอนที่ข้าเริ่มต้นเสียอีก เรื่องนี้เกิดขึ้นได้อย่างไรกัน?"
+ journey_events.57.a: "ใครจะคิดว่าข้าไม่เป็นที่นิยมขนาดนี้?"
+ journey_events.57.a.tt: "อืม... ไม่ได้มีประสิทธิผลเท่าที่ข้าหวังไว้ แต่ก็เป็นค่ำคืนที่น่าจดจำหากไม่มีอะไรอื่น..."
+
+ journey_events.60.t: "การตื่นรู้"
+ journey_events.60.desc_intro: "เมื่อเร็วๆ นี้ ข้ารู้สึกหนักใจด้วยความไม่สบายใจ [journey_province.Custom('TerrainTypeProvincePrefix')][journey_county.Custom('TerrainTypeCountyScopePlural')]ใน[journey_county.GetNameNoTierNoTooltip]นั้นน่าอภิรมย์ยิ่งนัก แต่ก็มิอาจเติมเต็มความรู้สึกว่างเปล่าอันไม่สิ้นสุดนี้ได้\n\nขณะที่ข้ากำลังทำกิจวัตรตามปกติ, "
+ journey_events.60.desc_courtly: "ข้าเดินเข้าไปในราชสำนักของ[journey_county.GetHolder.GetNamePossessive] และเฝ้ามอง[journey_county.GetHolder.GetHerHim]บริหารจัดการราชการ เหล่าขุนนางและสุภาพสตรีแห่ง[journey_county.GetHolder.GetPrimaryTitle.GetNameNoTierNoTooltip]มาชุมนุมรอบ[journey_county.GetHolder.GetHerHim]อย่างสงบเสงี่ยม ขณะที่ผู้ร้องทุกข์เริ่มทยอยมาถึง ทุกคนแสดงตนต่อ[journey_county.GetHolder.GetTitleTierName]ด้วยความสง่างาม แม้ว่าจะมาเพื่อขอทองคำหรือการสนับสนุนจาก[journey_county.GetHolder.GetHerHis]ก็ตาม ไม่ว่าคำร้องขอจะน่าเบื่อหรือเล็กน้อยเพียงใด [journey_county.GetHolder.GetSheHe]ก็รับฟังอย่างตั้งใจ และตัดสินอย่างยุติธรรม"
+ journey_events.60.desc_bellicose: "ข้าบังเอิญไปพบค่ายพักแรมแห่งหนึ่ง และสังเกตเห็นกลุ่มอัศวินกำลังฝึกซ้อม พวกเขาประลองฝีมือกัน การเคลื่อนไหวของพวกเขาแสดงออกถึงความดุดัน ทว่าก็ยังคงความสง่างาม ขณะที่พวกเขาเคลื่อนไหวสอดประสานกันอย่างเกือบจะสมบูรณ์แบบ ผู้บัญชาการของพวกเขามองดูด้วยความภาคภูมิใจ และความเคารพ ซึ่งกันและกันระหว่างพวกเขานั้นชัดเจนยิ่งนัก"
+ journey_events.60.desc_stoic: "ข้าเห็นเด็กๆ กำลังเล่นกันอยู่ตามท้องถนน ยกเว้นเด็กคนหนึ่ง ซึ่งดูเหมือนจะเป็นเป้าหมายในการละเล่นของพวกเขา เขาถูกผลักไปมา เสื้อผ้าของเขาขาดวิ่น แต่เขาก็ยังคงสงบและเยือกเย็น เขาเพียงแค่ลุกขึ้น ปัดฝุ่นตัวเองออก และเดินต่อไปตามทางของตน ท่ามกลางความงุนงงของเด็กคนอื่นๆ ซึ่งก็หมดความสนใจในตัวเขาไป"
+ journey_events.60.desc_bureaucratic: "เหล่าศิษย์ในท้องถิ่นวิ่งวุ่นไปทั่วเมือง ถือม้วนคัมภีร์และตำรา ชิ้นส่วนหนึ่งหล่นจากมือของศิษย์คนหนึ่งโดยที่เจ้าตัวไม่ทันสังเกต ก่อนที่ข้าจะพยายามนำไปคืน ข้าสังเกตเห็นพิมพ์เขียวอันซับซ้อนบน[ROOT.Char.Custom('GetWritingMaterial')] ซึ่งดึงดูดสายตาข้า ดูเหมือนจะเป็นแผนผังสำหรับอาคารใหม่ใน[journey_county.GetNameNoTierNoTooltip] ซึ่งมีลักษณะที่ก้าวหน้ามากจนข้าคาดว่าจะได้เห็นจากความคิดของสถาปนิกชั้นครู ไม่มีนักเรียนคนใดดูอายุเกิน 18 ปี แต่กลับเชี่ยวชาญในงานฝีมือที่คนส่วนใหญ่ต้องใช้เวลาทั้งชีวิตจึงจะทำได้"
+ journey_events.60.desc_spiritual: "ข้าไปพบกลุ่มชาวบ้านและพระสงฆ์กำลังรวมตัวกันเป็นวงกลม เสียงเพลงสวดอันแผ่วเบาของพวกเขาดังก้องอยู่ในอากาศ แม้ข้าจะไม่สามารถจับใจความได้ว่าพวกเขากำลังร้องเพลงสรรเสริญ[ROOT.Char.GetFaith.HighGodName]หรือเทพองค์อื่น เมื่อพิจารณาใกล้ๆ ข้าตระหนักว่าชาวบ้านบางคนมีฐานะสูงกว่าคนอื่น บางคนถึงกับสวมอาภรณ์ของชนชั้นสูง อย่างไรก็ตาม ทุกคนดูเหมือนจะอยู่ในสภาวะแห่งความสงบ โดยมีความเคารพยำเกรงในสิ่งศักดิ์สิทธิ์ผูกพันพวกเขไว้ด้วยกัน"
+ journey_events.60.desc_egalitarian: "ข้าตัดสินใจแวะพักที่โรงเตี๊ยมท้องถิ่นสักครู่ และเดินเข้าไปในวงสนทนาพอดี จากสำเนียงและเครื่อง แต่งกายของผู้คนแล้ว พวกเขามีความคล้ายคลึงกันน้อยมาก ทว่าการสนทนากลับเป็นไปอย่างสุภาพและมีชีวิตชีวา และดูเหมือนจะไม่มีการตัดสินใดๆ ราวกับว่าพวกเขาทั้งหมดมาจากครรภ์มารดาเดียวกัน ผู้คนได้รับการปฏิบัติในฐานะนักเดินทางใน[journey_county.GetNameNoTierNoTooltip] มากกว่าที่จะเป็นชาว[journey_culture.GetNameNoTooltip]หรือชาว[ROOT.Char.GetCulture.GetNameNoTooltip]คนอื่น"
+ journey_events.60.desc_communal: "มีเสียงกรีดร้องอันเยือกเย็นดังขึ้น และผู้คนต่างวิ่งไปยังต้นเสียง ข้าตามไป และเห็นสตรีนางหนึ่งกำลังกอดทารกของตนอยู่หน้าบ้านที่กำลังลุกไหม้ คนอื่นๆ ไม่รอช้ารีบคว้าถังน้ำ และแม้ แต่ชนชั้นสูงก็ลงมือช่วยอย่างไม่รังเกียจ ไฟถูกดับลงอย่างรวดเร็ว แต่บ้านของมารดาผู้นั้นก็มอดไหม้ไปแล้ว ชาวเมืองต่างมารวมตัวกันรอบตัวนางและเด็ก มอบสิ่งของเล็กๆ น้อยๆ ที่พวกเขามีเพื่อช่วยให้พวกเขาสร้างบ้านขึ้นใหม่"
+ journey_events.60.opt: "บางทีข้าอาจจะได้เรียนรู้บางสิ่งจากชาว[journey_culture.GetCollectiveNounNoTooltip]เหล่านี้"
+ journey_events.60.opt_b: "ข้าได้พบเห็นสิ่งต่างๆ มากมายในการเดินทางของข้า"
+
+ journey_bellicose_modifier: "ความเคารพในเชิงยุทธ์"
+ journey_bellicose_modifier_desc: "ตัวละครนี้ได้เห็นอัศวินปฏิบัติการ และมัน ทำให้พวกเขารู้สึกทึ่ง"
+
+ journey_stoic_modifier: "ปณิธานอันไม่สิ้นสุด"
+ journey_stoic_modifier_desc: "ตัวละครนี้ฝึกฝนศิลปะแห่งความอดทนอดกลั้น"
+
+ journey_bureaucratic_modifier: "สถาปนิกผู้มุ่งหวัง"
+ journey_bureaucratic_modifier_desc: "ตัวละครนี้ได้เห็นการวางแผนขั้นสูงของโครงการก่อสร้างในท้องถิ่น"
+
+ journey_spiritual_modifier: "ความเคารพยำเกรงในสิ่งศักดิ์สิทธิ์"
+ journey_spiritual_modifier_desc: "ตัวละครนี้ชื่นชมการมีอยู่ของพลังที่เหนือกว่า"
+
+ journey_egalitarian_modifier: "ผู้สนับสนุนความเสมอภาค"
+ journey_egalitarian_modifier_desc: "ตัวละครนี้ได้เห็นประโยชน์ของสังคมที่มีความหลากหลาย\nค่าใช้จ่ายในการรับสมัคร[courtier|E]: #P -10%#!"
+
+ journey_communal_modifier: "ผู้อุปถัมภ์ชุมชน"
+ journey_communal_modifier_desc: "ตัวละครนี้นำฝูงสัตว์ของตนมารวมกันในยามต้องการ\nค่าใช้จ่าย[activity|E][GetActivityType('activity_camp_party').GetName]: #P -20%#!\nค่าใช้จ่าย[activity|E][GetActivityType('activity_feast').GetName]: #P -20%#!"
+
+ journey_courtly_modifier: "ผู้เลิศรสนิยมแห่งราชสำนัก"
+ journey_courtly_modifier_desc: "ตัวละครนี้ชื่นชมราชสำนักที่ได้รับการบริหารจัดการอย่างดี"

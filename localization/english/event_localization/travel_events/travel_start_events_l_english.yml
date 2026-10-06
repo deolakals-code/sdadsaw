@@ -1,0 +1,269 @@
+﻿l_english: 
+#Travel Start Events
+#Generic start (no activity)
+ travel_start_event.1000.t_murder:0 "การเริ่มต้นอันนองเลือด"
+ travel_start_event.1000.t_sick:0 "การเริ่มต้นอันไม่แน่นอน"
+ travel_start_event.1000.t_migrating: "สู่ทุ่งหญ้าที่อุดมสมบูรณ์ยิ่งขึ้น"
+ travel_start_event.1000.t:0 "การเริ่มต้นใหม่"
+ travel_start_event.1000.intro_activity:1 "[host.GetTitledFirstName] ผู้เป็น [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host'))] ของข้า กำลังจัด [ROOT.Char.GetInvolvedActivity.GetShortName] ใน [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] และบัดนี้ถึงเพลาที่เราจักออกเดินทาง"
+ travel_start_event.1000.intro_my_activity:1 "ข้าจะเป็นเจ้าภาพจัด [ROOT.Char.GetInvolvedActivity.GetShortName] ใน [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] และบัดนี้ถึงเพลาที่เราจักออกเดินทาง"
+ travel_start_event.1000.desc_sick:0 "ข้าตระหนักดีว่าการออกเดินทางในสภาพ เช่นนี้ของข้า ความเจ็บป่วยถือเป็นความเสี่ยงเพิ่มเติม นอกเหนือจากอันตรายปกติที่มาพร้อมกับการเดินทาง อย่างไรก็ตาม แม้ในสภาพอันไม่น่าอภิรมย์ของข้า ภารกิจยังคงต้องดำเนินต่อไป\n\nให้เรามุ่งหน้าไปยัง [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] และขอให้ [ROOT.Char.GetFaith.HighGodName] ทรงคุ้มครองการเดินทางของเรา"
+ travel_start_event.1000.desc:0 "สัมภาระพร้อมสรรพ ในที่สุดก็ถึงเวลาที่เราจะเริ่มการเดินทางจาก [ROOT.Char.GetCurrentLocation.GetName] ไปยังจุดหมายปลายทางถัดไปที่ [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName]\n\nขณะที่เราออกจากถิ่นพำนักและสัตว์พาหนะของเราเริ่มย่ำไปบนดินแดนใหม่ ข้ามั่นใจว่าเราจะกลับมาในไม่ช้าและครบถ้วนสมบูรณ์"
+ travel_start_event.1000.desc_migrating: "ทั่วทั้งค่ายเสียงดังอึกทึกกึกก้องราวกับน้ำตกที่คำราม: เด็กๆ วิ่งเล่นไปมา, เหล่าสัตว์ส่งเสียงประท้วงและครางฮึ่มฮั่ม, ผู้ใหญ่กำลังจัดเก็บข้าวของเป็นครั้งสุดท้าย\n\nความทรงจำมากมายเหลือคณานับ ถูกจัดเก็บอย่างระเกะระกะไว้ในหีบห่อและกองสัมภาระ\n\nข้าทอดสายตามอง[ROOT.Char.GetCurrentLocation.GetName]เป็นครั้งสุดท้ายขณะที่แตะสีข้างม้าเบาๆ ข้าได้ แต่หวังว่า[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName]จะดีต่อเรา เช่นเดียวกับที่แห่งนี้"
+
+ travel_start_event.1010.tt.tournament.every_knight:2 "เนื่องจากท่านเข้าร่วม [GetActivityType( 'activity_tournament' ).GetName] [knight|E] [unlanded|E] ทุกคนที่ท่านมีจะติดตามท่านไปแข่งขันด้วย"
+ travel_start_event.1000.a:0 "ข้ารอไม่ไหวแล้ว!"
+ travel_start_event.1000.a_cynical:0 "ข้าคิดว่าเราคงต้องไป..."
+ travel_start_event.1000.a_craven:0 "ข้าหวังว่ามันจะผ่านไปด้วยดี..."
+ travel_start_event.1000.a_hajj:0 "ข้ารอคอยสิ่งนี้มาทั้งชีวิต"
+ travel_start_event.1000.a_hajj_revisit:0 "ข้ารอไม่ไหวที่จะได้เห็นกำแพงอันสุกสกาวอีกครั้ง"
+ travel_start_event.1000.take_test: "ข้าต้องพิสูจน์ความสามารถของข้าในการสอบ"
+ travel_start_event.1000.take_test_tt: "เนื่องจาก [governors|E] ที่ [landed|E] ไม่ได้รับอนุญาตให้เข้ารับการสอบ ท่านจำเป็นต้องสละตำแหน่งเพื่อปลดล็อก [merit_levels|E] ใหม่"
+
+ #Travelling to a Tournament
+ travel_start_event.1010.t_sick_tournament:0 "$activity_tournament$: $travel_start_event.1000.t_sick$"
+ travel_start_event.1010.t_tournament:0 "$activity_tournament$: $travel_start_event.1000.t$"
+ ##Tournament
+ travel_start_event.1010.desc_tournament_intro:1 "[ROOT.Char.GetInvolvedActivity.GetHost.GetTitledFirstName] ผู้เป็น [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host'))] ของข้า กำลังจัดการแข่งขัน [ROOT.Char.GetInvolvedActivity.GetShortName] ในบริเวณใกล้เคียง [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] และบัดนี้ถึงเพลาที่เราจักออกเดินทาง"
+ travel_start_event.1010.desc_sick_tournament:0 "\n\nแม้ร่างกายที่ป่วยไข้จะส่งผลต่อสุขภาพของข้า แต่ข้าขอสาปแช่งหากข้าจะไม่เข้าร่วมงานนี้ — ซึ่งสัญญาว่าจะเป็น — เหตุการณ์อันน่าตื่นตาตื่นใจ ที่จะถูกกล่าวขานไปอีกหลายปี"
+ travel_start_event.1010.desc_tournament:0 "\n\nเราจะเป็นตัวแทนของตระกูล [ROOT.Char.GetHouse.GetName] และ ทำให้ชาว [ROOT.Char.GetCulture.GetNameNoTooltip] ภาคภูมิใจ"
+ travel_start_event.1010.desc_tournament_outro_negative:0 "\n\nหวังว่าส่วนที่เหลือของ [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip] จะไม่เน่าเฟะเหมือน [host.GetTitledFirstNameNoTooltip] แต่เราก็ควรระวังสิ่งที่เกิดขึ้นเมื่ออยู่ในถ้ำสิงโต"
+ travel_start_event.1010.desc_tournament_outro_positive_culture:0 "\n\nขณะที่เราอยู่ที่นั่น เราควรฉวยโอกาสสัมผัสวัฒนธรรม [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetCulture.GetNameNoTooltip] ด้วย"
+ travel_start_event.1010.desc_tournament_outro_positive:0 "\n\nเมื่ออยู่ไกลบ้าน เราควรใช้โอกาสนี้เปิดโลกทัศน์ให้กว้างขึ้นและเพลิดเพลินกับการต้อนรับขับสู้ใดๆ"
+ ##My Tournament
+ travel_start_event.1010.desc_sick_my_tournament:1 "ไม่แน่ใจว่าข้าเหลือเวลาอีกเท่าใด เป็นสิ่งสำคัญสำหรับข้าที่จะได้เข้าร่วมการแข่งขัน [ROOT.Char.GetInvolvedActivity.GetShortName] ที่ข้าใช้เวลาจัดมานาน เมื่อมองย้อนกลับไป ข้าหวังว่าข้าจะได้วางแผนจัดในเมืองหลวงของข้าแทนที่จะจัดใน [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName]\n\nแม้ข้าจะตระหนักว่าสุขภาพที่ย่ำแย่จะเป็นความเสี่ยงหากข้าเลือกที่จะแข่งขัน แต่ข้าก็ควรจะมี [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')] ที่มีความสามารถมากมายพอที่จะต่อสู้แทนข้าได้"
+ travel_start_event.1010.desc_my_tournament:1 "ด้วยใบหน้าที่สดใสและตื่นตัว สมาชิกในคณะผู้ติดตามของข้าต่างกระตือรือร้นที่จะเดินทางไปยังการแข่งขัน [ROOT.Char.GetInvolvedActivity.GetShortName] ที่ข้าเป็นเจ้าภาพใน [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName]"
+ travel_start_event.1010.desc_my_tournament_outro_shy:0 "นี่ควรจะเป็นงานที่ประสบความสำเร็จ เช่นเดียวกับความเจริญรุ่งเรืองของเคาน์ตี\n\nหวังว่าทุกคนจะมีความสุขและชื่นชมความพยายามของงานนี้"
+ travel_start_event.1010.desc_my_tournament_outro:0 "เราจะไปที่นั่นและเราจะเป็นผู้ชนะ\n\nการแสดงความมั่งคั่งและเกียรติภูมิของเราให้แขกผู้มีเกียรติทุกคนได้เห็นก็ไม่ใช่เรื่องเลวร้ายนัก เช่นกัน"
+
+ #Setting off on a Tour
+ travel_start_event.1020.t_sick_tour:0 "$activity_tour$: $travel_start_event.1000.t_sick$"
+ travel_start_event.1020.t_tour_majesty:0 "$activity_tour$: การเริ่มต้นอันสง่างาม"
+ travel_start_event.1020.t_tour_tax:0 "$activity_tour$: การเริ่มต้นอันมั่งคั่ง"
+ travel_start_event.1020.t_tour_dread:0 "$activity_tour$: การเริ่มต้นอันน่าสะพรึงกลัว"
+ travel_start_event.1020.desc_tour_intro:1 "ถึงเวลาออกเดินทางสำหรับ [ROOT.Char.GetInvolvedActivity.GetShortName] ของข้าใน [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] แล้ว ราชสำนักของข้าเก็บสัมภาระเรียบร้อย พร้อม และกระตือรือร้นที่จะไป\n\nจุดแวะพักแรกของเราคือ [next_stop_liege.Custom('FortifiedBuilding')] ของ [next_stop_liege.GetTitledFirstNamePossessive] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('next_stop_liege'))] ของข้า ซึ่งอยู่ที่ [next_stop_liege.GetCapitalLocation.GetName];"
+ travel_start_event.1020.desc_sick_tour:1 "คงจะน่าสนใจที่จะได้พบปะผู้คน\n\nแม้จะมีสุขภาพไม่ดี ข้ามั่นใจว่า [ROOT.Char.GetInvolvedActivity.GetShortNameNoTooltip] นี้จะถูกกล่าวขานไปอีกหลายปี"
+ travel_start_event.1020.desc_tour_majesty:2 "ข้าตั้งตารอที่จะไปเยี่ยม [next_stop_liege.GetHerHim] และเห็นอาณาจักรของข้า ทีละถิ่นพำนัก\n\nข้ามั่นใจว่าไพร่ฟ้าข้าแผ่นดินของ [ROOT.Char.GetPrimaryTitle.GetNamePossessiveNoTooltip] จะกล่าวถึงพระมหากรุณาธิคุณของข้าไปอีกนาน"
+ travel_start_event.1020.desc_tour_tax:2 "ข้าตั้งตารอที่จะช่วยให้ประชาชนมีส่วนร่วมในท้องพระคลังของอาณาจักร ด้วยวิธีการใดๆ ที่มีอยู่\n\nไพร่ฟ้าข้าแผ่นดินของ [ROOT.Char.GetPrimaryTitle.GetNamePossessiveNoTooltip] ไม่ควรมีส่วนเกินใดๆ ซ่อนเร้นจากราชบัลลังก์หลังจากการเดินทางครั้งนี้สิ้นสุดลงอย่างแน่นอน"
+ travel_start_event.1020.desc_tour_dread:3 "ข้าตั้งตารอที่จะสร้างความหวาดกลัวให้กับไพร่ฟ้าข้าแผ่นดินที่น่าสมเพชของข้า ทีละถิ่นพำนัก\n\nข้าจะ ทำให้แน่ใจว่าไพร่ฟ้าข้าแผ่นดินของ [ROOT.Char.GetPrimaryTitle.GetNamePossessiveNoTooltip] จะไม่มีวันลืม [ROOT.Char.GetInvolvedActivity.GetShortNameNoTooltip] นี้ อย่างแน่นอน..."
+ due_to_activity_options_tt:0 "เนื่องจาก [activity_options|E] ของท่าน:"
+
+ #Travelling to a Wedding
+ travel_start_event.1030.t_red_wedding:0 "$activity_wedding$: $travel_start_event.1000.t_murder$"
+ travel_start_event.1030.t_sick_wedding:0 "$activity_wedding$: $travel_start_event.1000.t_sick$"
+ travel_start_event.1030.t_wedding:0 "$activity_wedding$: $travel_start_event.1000.t$"
+ ##Red Wedding
+ travel_start_event.1030.desc_sick_red_wedding:0 "ระฆังดังขึ้นเพื่อผู้คนมากมาย รวมถึงตัวข้าเอง ถึงเวลาออกเดินทางไปยัง [ROOT.Char.GetInvolvedActivity.GetShortName] ที่ข้าจัดขึ้นที่ [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName]\n\nความเจ็บป่วยของข้าจะไม่รั้งข้าจากสิ่งที่ต้องเกิดขึ้น และ [ROOT.Char.GetInvolvedActivity.GetNameNoTooltip] นี้จะและต้องเกิดขึ้น ข้าจะ ทำให้แน่ใจว่าทุกคนที่รอดชีวิตจะจดจำพิธีสมรสนี้ได้อย่างแท้จริง"
+ travel_start_event.1030.desc_red_wedding:0 "เช่นเดียวกับเวลาที่มาถึงสำหรับข้าและคณะผู้ติดตามที่จะออกเดินทางไปยัง [ROOT.Char.GetInvolvedActivity.GetShortName] ของข้าใน [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName]; เวลาก็มาถึงสำหรับแขกของ [ROOT.Char.GetInvolvedActivity.GetNameNoTooltip] ที่จะจากโลกนี้ไป เช่นกัน\n\nด้วยการจัดงานนี้อย่างถูกต้อง พิธีสมรสนี้จะไม่ถูกลืมเลือนในไม่ช้า... โดยผู้ที่รอดชีวิต"
+ 
+
+ ##Host Wedding
+ travel_start_event.1030.desc_host_wedding:0 "[host.GetTitledFirstName] ผู้เป็น [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host'))] ของข้า กำลังจัดงาน [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName] ของ [host.GetHerHis] เองใน [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] และถึงเวลาที่เราต้องออกเดินทางแล้ว\n\n[host.GetSheHe|U] จะเข้าสู่ [host.Custom('GetCulturallyAppropriateMarriageReference')] กับ [host_spouse_to_be.GetTitledFirstName]"
+ travel_start_event.1030.desc_host_wedding_negative:0 "และข้าจะไปที่นั่นเพื่อเยาะเย้ยพวกเขา"
+ travel_start_event.1030.desc_host_wedding_positive:0 "และข้าจะไปที่นั่น อวยพรให้กับการครองคู่ของพวกเขา"
+ travel_start_event.1030.desc_host_wedding_default:0 "และงาน แต่งงานก็น่าจะดี เหมือนงาน แต่งงานส่วนใหญ่"
+
+ travel_start_event.1030.desc_host_wedding_outro_negative:0 "\n\nขอให้การครองคู่ของพวกเขาเน่าเฟะเหมือนปลาอายุหนึ่งเดือน — และหากไม่มีอะไรอื่น ข้าก็จะสามารถใช้ประโยชน์จากการต้อนรับขับสู้ของ [host.GetTitledFirstNamePossessiveNoTooltip] เพื่อเพลิดเพลินกับอาหารและเครื่องดื่มดีๆ ได้"
+ travel_start_event.1030.desc_host_wedding_outro_positive:0 "\n\nขอให้ชีวิตสมรสของพวกเขาอุดมสมบูรณ์ดั่งการเก็บเกี่ยวในฤดูใบไม้ร่วง และหวานชื่นเป็นสองเท่า"
+ travel_start_event.1030.desc_host_wedding_outro_default:0 "\n\nข้าตั้งตารอที่จะผ่อนคลายและเพลิดเพลินกับการเฉลิมฉลองที่มาพร้อมกับโอกาส เช่นนี้"
+
+ ##Wedding
+ travel_start_event.1030.desc_wedding:1 "[host.GetTitledFirstName] ผู้เป็น [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host'))] ของข้า กำลังจัดงาน [ROOT.Char.GetInvolvedActivity.GetShortName] ใน [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] และถึงเวลาที่เราต้องออกเดินทางแล้ว\n\nพิธีนี้จะผนึก [first_spouse.GetTitledFirstName] ผู้เป็น [host.Custom2('RelationToMe', SCOPE.sC('first_spouse'))] ของ [host.GetHerHis] และ [second_spouse.GetTitledFirstName] ผู้เป็น [host.Custom2('RelationToMe', SCOPE.sC('second_spouse'))] ของ [host.GetHerHis] เข้าไว้ด้วยกันใน [host.Custom('GetCulturallyAppropriateMarriageReference')]"
+
+ travel_start_event.1030.desc_wedding_outro_sick:0 "\n\nเนื่องจากสุขภาพของข้ากำลังทรุดโทรม ข้ายังคงตั้งตารองานนี้ เพื่อที่ข้าจะได้ผ่อนคลายและชื่นชมงานรื่นเริง"
+ travel_start_event.1030.desc_wedding_outro_negative:0 "$travel_start_event.1040.desc_feast_outro_negative$"
+ travel_start_event.1030.desc_wedding_outro_positive:0 "\n\nข้ามั่นใจว่า [host.GetTitledFirstNameNoTooltip] ได้จัดงานรื่นเริงที่น่าจดจำ และข้าตั้งตารอที่จะเข้าร่วม"
+ travel_start_event.1030.desc_wedding_outro_default:0 "$travel_start_event.1030.desc_host_wedding_outro_default$"
+ 
+
+ ##My Literal Wedding
+ travel_start_event.1030.desc_my_spouse_wedding:0 "ข้าจะเป็นเจ้าภาพจัด [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName] ของข้าเองใน [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] และบัดนี้ถึงเพลาที่เราจักออกเดินทาง\n\nผ่านการครองคู่นี้ ข้าจะได้สมรสกับ [my_spouse_to_be.GetTitledFirstName] และมันจะเป็นการเฉลิมฉลองที่น่าจดจำอย่างแท้จริง"
+
+ travel_start_event.1030.desc_my_spouse_wedding_outro_negative:0 "\n\nแม้ข้าจะไม่ชอบ [my_spouse_to_be.GetTitledFirstNameNoTooltip] เป็นพิเศษ แต่ข้ามั่นใจว่าเราจะเข้ากันได้"
+ travel_start_event.1030.desc_my_spouse_wedding_outro_positive:0 "\n\nข้าค่อนข้างตื่นเต้นที่จะได้ใช้ชีวิตที่เหลือร่วมกับ [my_spouse_to_be.GetTitledFirstNameNoTooltip] [ROOT.Char.Custom('PartnerOpinionHighDescription')] ของข้า"
+ travel_start_event.1030.desc_my_spouse_wedding_outro_default:0 "\n\nข้ามั่นใจว่าข้าจะค่อนข้างชอบที่จะใช้ชีวิตที่เหลือร่วมกับ [my_spouse_to_be.GetTitledFirstNameNoTooltip]"
+ 
+ ##My Wedding
+ travel_start_event.1030.desc_my_wedding:0 "$travel_start_event.1000.intro_my_activity$\n\nเราจะเข้าร่วมกับ [first_spouse.GetTitledFirstName] ผู้เป็น [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('first_spouse'))] ของข้า และ [second_spouse.GetTitledFirstName] ผู้เป็น [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('second_spouse'))] ของข้า ใน [ROOT.Char.Custom('GetCulturallyAppropriateMarriageReference')] เพื่อประโยชน์ของทุกฝ่ายที่เกี่ยวข้อง"
+ 
+ travel_start_event.1030.desc_my_wedding_outro_sick:0 "\n\nแม้สุขภาพของข้าจะย่ำแย่ ข้าจะยังคงพยายาม เพื่อให้แน่ใจว่าแขกทุกคนจะประทับใจและรู้สึกได้รับการดูแล"
+ travel_start_event.1030.desc_my_wedding_outro_negative:0 "\n\nทีนี้ คู่บ่าวสาวควรจะรู้สึกขอบคุณเกี่ยวกับเรื่องนี้"
+ travel_start_event.1030.desc_my_wedding_outro_positive:0 "\n\nข้าตื่นเต้นมากไปกว่านี้ไม่ได้แล้วที่จะได้เห็นทั้งสองคนนี้ลงเอยกัน"
+ travel_start_event.1030.desc_my_wedding_outro_default:0 "\n\nนี่จะเป็นพิธีที่ดี และแขกของเราควรจะประทับใจ"
+
+
+
+ 
+ #Travelling to a Feast
+ travel_start_event.1040.t_murder_feast:0 "$activity_feast$: $travel_start_event.1000.t_murder$"
+ travel_start_event.1040.t_sick_feast:0 "$activity_feast$: $travel_start_event.1000.t_sick$"
+ travel_start_event.1040.t_feast:0 "$activity_feast$: $travel_start_event.1000.t$"
+ ##Feast
+ travel_start_event.1040.desc_feast:1 "[host.GetTitledFirstName] ผู้เป็น [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host'))] ของข้า กำลังจัด [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName] ใน [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] และบัดนี้ถึงเพลาที่เราจักออกเดินทาง"
+ travel_start_event.1040.desc_feast_celebration:0 "\n\n[ROOT.Char.GetInvolvedActivity.GetNameNoTooltip|l] นี้จัดขึ้นเพื่อเฉลิมฉลองความสำเร็จและวีรกรรมล่าสุดของ [celebratory_guest.GetTitledFirstNamePossessive]"
+ travel_start_event.1040.desc_feast_outro_sick:0 "\n\nแม้ว่าสุขภาพของข้าจะย่ำแย่ ข้าเชื่อว่าการเข้าร่วมงานนี้อาจเป็นวิธีที่ดีในการเบี่ยงเบนความสนใจจากเรื่องนั้นและคลายความเครียด"
+ travel_start_event.1040.desc_feast_outro_negative:0 "\n\nข้าจำเป็นต้องระวังทั้งข้างหลังและอาหารของข้าในระหว่างการเยือนครั้งนี้ เนื่องจาก [host.GetTitledFirstNameNoTooltip] เป็นสิ่งมีชีวิตที่ทรยศ"
+ travel_start_event.1040.desc_feast_outro_positive:1 "\n\nข้าตั้งตารอที่จะได้ใช้เวลามากขึ้นกับ [host.GetTitledFirstNameNoTooltip] ในระหว่าง [ROOT.Char.GetInvolvedActivity.GetShortNameNoTooltip] นี้"
+ travel_start_event.1040.desc_feast_outro_default:0 "\n\nข้าตั้งตารอที่จะลอง [host.Custom('RegionalDrink')] ของภูมิภาค [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip] เช่นเดียวกับการเพลิดเพลินกับอาหารท้องถิ่น"
+ ##My Murder Feast
+ travel_start_event.1040.desc_sick_murder_feast:0 "ถึงเวลาแห่งการชำระแค้นสำหรับแขกใน [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName] [ROOT.Char.GetInvolvedActivity.GetShortName] ของข้าแล้ว\n\nตอนนี้เราจะออกเดินทางไปยัง [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] ที่ ซึ่งงานเลี้ยงในแบบฉบับเฉพาะของข้าจะเกิดขึ้น — และข้าต้องรีบก่อนที่ตัวข้าเองจะจากโลกนี้ไป"
+ travel_start_event.1040.desc_murder_feast:0 "ข้าจะแนะนำแขกของข้าให้รู้จักกับงานรื่นเริงในแบบฉบับเฉพาะของข้า เมื่อข้าเป็นเจ้าภาพจัด [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName] [ROOT.Char.GetInvolvedActivity.GetShortName] ที่ [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName]\n\nทุกอย่างถูกเตรียมการอย่างละเอียดที่สุด และข้ามั่นใจว่าพวกเขาจะรู้สึกได้รับการต้อนรับ มันจะเป็นงานเลี้ยงที่น่าจดจำ... สำหรับผู้ที่รอดชีวิต"
+ #My Feast
+ travel_start_event.1040.desc_my_feast:0 "$travel_start_event.1000.intro_activity$"
+ travel_start_event.1040.desc_my_feast_celebration_host:2 "\n\n[ROOT.Char.GetInvolvedActivity.GetShortNameNoTooltip|l] นี้จัดขึ้นเพื่อเป็นเกียรติแก่ข้าและความสำเร็จและวีรกรรมอันงดงามทั้งหมดของข้า"
+ travel_start_event.1040.desc_my_feast_celebration:0 "\n\n[ROOT.Char.GetInvolvedActivity.GetShortNameNoTooltip|l] นี้จัดขึ้นเพื่อเป็นเกียรติแก่ [celebratory_guest.GetTitledFirstName] มนุษย์ที่น่าทึ่งอย่างแท้จริง ซึ่งสมควรได้รับการเคารพเพิ่มเติม"
+ travel_start_event.1040.desc_my_feast_outro_sick:0 "\n\nข้ารู้สึกไม่ค่อยสบายเมื่อเร็วๆ นี้ แต่งานเลี้ยงนี้จะช่วยเบี่ยงเบนความสนใจของข้าได้อย่างแน่นอน"
+ travel_start_event.1040.desc_my_feast_outro_extrovert:1 "\n\nข้าจะ ทำให้แน่ใจว่า [ROOT.Char.GetInvolvedActivity.GetShortNameNoTooltip|l] นี้เป็นงานสังสรรค์ที่น่าจดจำ เป็นงานที่ผู้คนจะพูดถึงไปอีกหลายปี!"
+ travel_start_event.1040.desc_my_feast_outro_introvert:0 "\n\nแม้ข้าจะไม่สนใจงานประเภทนี้เป็นพิเศษ แต่ก็เป็นสิ่งชั่วร้ายที่จำเป็นต้องทำเป็นครั้งคราว"
+ travel_start_event.1040.desc_my_feast_outro:0 "\n\nข้าตั้งตารอที่จะได้ร่วมงานเลี้ยงที่ดีและปลดปล่อยความเครียด!"
+
+ travel_start_event.1040.a:0 "มันคือสิ่งที่พวกเขาต้องการ"
+
+ #Travelling to a Play Date
+ travel_start_event.1050.t_sick_playdate:0 "$activity_playdate$: $travel_start_event.1000.t_sick$"
+ travel_start_event.1050.t_playdate:0 "$activity_playdate$: $travel_start_event.1000.t$"
+ ##Play Date
+ travel_start_event.1050.desc_playdate:0 "$travel_start_event.1000.intro_activity$"
+ travel_start_event.1050.desc_sick_playdate:0 "\n\nแม้ข้าจะไม่ค่อยสบายเมื่อเร็วๆ นี้ หวังว่าสิ่งต่างๆ จะคลี่คลายไปได้ด้วยดีและข้าจะมีความสุขอยู่ดี"
+ travel_start_event.1050.desc_playdate_negative:0 "\n\nแม้จะไม่ใช่แฟนตัวยงของ [host.GetTitledFirstName] แต่ข้าก็ตั้งตารอที่จะได้ใช้เวลากับเพื่อนๆ"
+ travel_start_event.1050.desc_playdate_positive:0 "\n\nข้าตั้งตารอที่จะได้ใช้เวลากับ [host.GetTitledFirstName] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host'))] ของข้า และแทบรอไม่ไหวที่เราจะไปถึง!"
+ travel_start_event.1050.desc_playdate_default:0 "\n\nข้าตั้งตารอที่จะได้ใช้เวลากับเพื่อนๆ และสำรวจถิ่นพำนักที่ [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]"
+ travel_start_event.1050.desc_playdate_outro:0 "\n\nและใครจะรู้ บางทีข้าอาจจะได้ [ROOT.Char.Custom('ChildhoodTraitActivity')]"
+ ##My Play Date
+ travel_start_event.1050.desc_my_playdate:0 "$travel_start_event.1000.intro_my_activity$"
+ travel_start_event.1050.desc_my_playdate_learning:0 "\n\nข้ามีแผนการที่น่าสนใจ เพื่อให้เราทั้งได้รับการศึกษาและอาจได้เพื่อนใหม่"
+ travel_start_event.1050.desc_my_playdate_bossy:0 "\n\nเด็กเหล่านี้จะได้เรียนรู้ว่าในถิ่นพำนักของข้า ความประสงค์ของข้าคือกฎหมาย แต่ข้ามั่นใจว่าเราจะเข้ากันได้ดี"
+ travel_start_event.1050.desc_my_playdate_pensive:0 "\n\nการเผชิญหน้ากับเพื่อนๆ ไม่ใช่สิ่งที่ข้าอยากทำตอนนี้ หรือ... เอ่อ ตลอดไป\n\nแต่แม้จะไม่ชอบการจัดการนี้เป็นพิเศษ ข้าคิดว่าข้าต้องทำใจกล้าและเล่นตามน้ำไปกับความต้องการเหล่านี้เพื่อรักษาสถานะทางสังคมของข้าไว้"
+ travel_start_event.1050.desc_my_playdate_victim:0 "\n\n[playdate_victim.GetTitledFirstName|U] จะอยู่ที่นั่น ดังนั้นนี่สัญญาว่าจะเป็นช่วงเวลาที่ดี... อย่างน้อยก็สำหรับข้า\n\nการอวดถิ่นพำนัก [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip] ก็น่าจะสนุก เช่นกัน"
+ travel_start_event.1050.desc_my_playdate_default:0 "\n\nข้าราชบริพารของข้าและข้าได้วางแผนกิจกรรมมากมายให้เราเข้าร่วม และข้าตั้งตารอที่จะต้อนรับเพื่อนๆ ของข้า"
+ travel_start_event.1050.desc_my_playdate_outro:0 "\n\nมันน่าจะสนุกมากและเป็นโอกาสอันดีสำหรับข้าที่จะอวดถิ่นพำนัก [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip] ด้วย"
+
+ travel_start_event.1051.t:0 "$activity_playdate$: ออกไปเล่น"
+ travel_start_event.1051.many:0 "[child_1.GetTitledFirstName] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child_1'))] ของข้า พร้อมด้วย [child_2.GetTitledFirstName] และเด็กคนอื่นๆ,"
+ travel_start_event.1051.three:0 "[child_1.GetTitledFirstName] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child_1'))] ของข้า พร้อมด้วย [child_2.GetTitledFirstName] และ [child_3.GetTitledFirstName],"
+ travel_start_event.1051.two:0 "[child_1.GetTitledFirstName] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child_1'))] ของข้า พร้อมด้วย [child_2.GetTitledFirstName],"
+ travel_start_event.1051.one:0 "[child_1.GetTitledFirstName] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child_1'))] ของข้า,"
+ travel_start_event.1051.desc:0 "ได้รับเชิญให้เข้าร่วมการรวมตัวของเพื่อนๆ โดย [host.GetTitledFirstName]"
+ travel_start_event.1051.single:0 "\n\n[child_1.GetSheHe|U] เก็บสัมภาระพร้อมแล้ว และตื่นเต้นอย่างเห็นได้ชัดที่จะออกเดินทางไปยัง [host.GetCapitalLocation.GetNameNoTooltip]"
+ travel_start_event.1051.multiple:0 "\n\nพวกเขาเก็บสัมภาระพร้อมแล้ว และตื่นเต้นอย่างเห็นได้ชัดที่จะออกเดินทางไปยัง [host.GetCapitalLocation.GetNameNoTooltip]"
+ travel_start_event.1051.a_cynical:0 "ดีมาก..."
+ travel_start_event.1051.a:0 "ขอให้สนุกนะ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))]!"
+ travel_start_event.1051.a.multiple:0 "ขอให้สนุกนะ เด็กๆ!"
+ travel_start_event.1051.b:0 "ข้าไม่คิด เช่นนั้น!"
+ playdate_depart_tt:0 "[THIS.Char.GetTitledFirstName] ออกเดินทางไปยัง [host.GetInvolvedActivity.GetName]"
+ playdate_blocked_tt: "บุตรหรือผู้อยู่ในอุปการะของท่านทั้งหมดได้รับเชิญไปยัง [host.GetInvolvedActivity.GetName]"
+ playdate_forbidden_title:0 "$activity_playdate$ ถูกห้าม"
+ playdate_forbidden_tt:0 "[carer.GetTitledFirstName] ห้าม [child_1.GetFirstName] และคนอื่นๆ เข้าร่วม $activity_playdate$ ของท่าน"
+ playdate_forbidden_single_tt:0 "[carer.GetTitledFirstName] ห้าม [child_1.GetFirstName] เข้าร่วม $activity_playdate$ ของท่าน"
+
+ #Going on a Pilgrimage
+ travel_start_event.1060.t_sick_pilgrimage:0 "$activity_pilgrimage$: $travel_start_event.1000.t_sick$"
+ travel_start_event.1060.t_hajj:0 "พิธีฮัจญ์"
+ travel_start_event.1060.t_pilgrimage:0 "$activity_pilgrimage$: $travel_start_event.1000.t$"
+ travel_start_event.1060.desc_sick_pilgrimage:2 "ข้ารู้สึกได้ในร่างกาย ความเจ็บปวดเล็กน้อยและความเสื่อมโทรมอย่างช้าๆ ที่มาพร้อมกับความเจ็บป่วยของข้า ในวันที่มืดมนที่สุด สิ่งเดียวที่ ทำให้ข้ามีชีวิตอยู่คือการรู้ว่า [ROOT.Char.GetFaith.HighGodName] มีแผนสำหรับเรา\n\nเนื่องจากขาดการประทับอยู่ของ [ROOT.Char.GetFaith.HighGodHerHis] บัดนี้จึงเป็นที่ประจักษ์แก่ข้าแล้วว่าข้าต้องดำเนินการ [ROOT.Char.GetInvolvedActivity.GetShortName] นี้ไปยัง [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetCounty.GetTitle.GetNameNoTier] เพื่อเข้าใกล้ [ROOT.Char.GetFaith.HighGodNameAlternate] มากขึ้น นี่เป็นผ้าห่มที่ปลอบประโลมจิตวิญญาณของข้าด้วย เพื่อว่าเมื่อข้าจากไปในที่สุด ข้าจะไม่มีอะไรต้องกลัว"
+ travel_start_event.1060.desc_hajj_pilgrimage:0 "ถึงเวลาแล้วที่ข้าจะเดินทางไปแสวงบุญที่เมกกะ มันถูกบัญชาแก่ข้า เช่นเดียวกับชาวมุสลิมทุกคน เพื่อแสดงความนอบน้อมต่อ [ROOT.Char.GetFaith.HighGodName]"
+ travel_start_event.1060.desc_pilgrimage:2 "ตลอดเวลาที่เตรียมตัวสำหรับการเดินทางของข้า ข้ามีความรู้สึกสงบและรู้ว่าทุกอย่างจะเรียบร้อย\n\nข้ายินดีที่จะเริ่ม [ROOT.Char.GetInvolvedActivity.GetShortName] นี้ไปยัง [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetCounty.GetTitle.GetNameNoTier] เพื่อเข้าใกล้ [ROOT.Char.GetFaith.HighGodName] มากยิ่งขึ้น และตอนนี้ข้ารู้สึกมั่นใจมากขึ้นกว่าเดิมว่า [ROOT.Char.GetFaith.HighGodNameSheHe] จะคุ้มครองข้าในการเดินทาง"
+ travel_start_event.1060.tt.random_pilgrim_counter:1 "ท่านได้เพิ่ม [THIS.Char.Custom('GetPilgrimSingularPlural')] ที่มีศักยภาพ [THIS.Char.MakeScope.Var('rando_pilgrim_counter').GetValue] คน ไปยัง [THIS.Char.GetInvolvedActivity.GetShortName] ของท่านที่ [THIS.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetCounty.GetTitle.GetNameNoTier]"
+ travel_start_event.1060.desc_yatra_pilgrimage: "ขณะที่ข้าออกเดินทางไป [Glossary('ยาตรา', 'YATRA_GLOSS')] ข้าเปี่ยมไปด้วยความรู้สึกตื่นเต้นและความหวาดหวั่น ข้าย้ำเตือนตนเองว่าการเดินทางนั้นสำคัญเทียบเท่ากับจุดหมายปลายทาง ความยากลำบากใด ๆ ที่ข้าอาจต้องเผชิญนั้นล้วนเป็นการอุทิศตน\n\nข้าหวังว่าการเดินทาง [ROOT.Char.GetInvolvedActivity.GetShortName] นี้ไปยัง [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetCounty.GetTitle.GetNameNoTier] จะนำพาข้าให้เข้าใกล้ [ROOT.Char.GetFaith.HighGodName] มากยิ่งขึ้น"
+ #Yatra gloss
+ YATRA_GLOSS: "คำสันสกฤตหมายถึง 'การเดินทาง, ขบวนแห่' สมาชิกของการจาริกแสวงบุญ เช่นนี้เรียกว่า ยาตรี"
+ #Travelling to a Hunt
+ travel_start_event.1070.t_sick_hunt:0 "$activity_hunt$: $travel_start_event.1000.t_sick$"
+ travel_start_event.1070.t_hunt:0 "$activity_hunt$: $travel_start_event.1000.t$"
+ ##Hunt
+ travel_start_event.1070.desc_hunt:0 "$travel_start_event.1000.intro_activity$"
+ travel_start_event.1070.desc_hunt_negative:0 "ข้าจะต้องระมัดระวังเกี่ยวกับการเดินทางครั้งนี้ ข้าไม่ไว้วางใจ [host.GetTitledFirstNameNoTooltip] มากไปกว่าที่ข้าจะโยน [host.GetHerHim] ได้"
+ travel_start_event.1070.desc_hunt_positive:0 "ข้าตั้งตารอที่จะได้ใช้เวลามากขึ้นกับ [host.GetHerHim]"
+ travel_start_event.1070.desc_hunt_default:0 "ข้าควรจะสามารถเป็นตัวแทนของตระกูล [ROOT.Char.GetHouse.GetName] ได้อย่างภาคภูมิใจ"
+ travel_start_event.1070.desc_sick_hunt_outro:0 "\n\nและ เนื่องจากสุขภาพของข้ากำลังย่ำแย่ หวังว่าการล่าครั้งนี้จะช่วยเบี่ยงเบนความสนใจของข้าและบรรเทาความเครียดได้บ้าง"
+ travel_start_event.1070.desc_hunt_outro_standard:1 "\n\nนี่ควรจะเป็นกีฬาที่ดี หากงานถูกจัดอย่างเหมาะสม"
+ travel_start_event.1070.desc_hunt_outro_dangerous:1 "\n\nเราจะล่าสัตว์ร้ายที่อันตราย ความกล้าหาญและความฉลาดหลักแหลมมีความสำคัญสูงสุด"
+ travel_start_event.1070.desc_hunt_outro_legendary:1 "\n\nเหยื่อของเราคือสัตว์ร้ายในตำนาน และเหยื่อจะเป็นของข้า..."
+ travel_start_event.1070.desc_hunt_outro_falconry:1 "\n\nการล่าสัตว์ด้วยนกเป็นการแสวงหาที่สูงส่งที่สุด ข้ามั่นใจว่าจะเก่งกาจในด้านนี้"
+ ##My Hunt
+ travel_start_event.1070.desc_my_hunt:0 "$travel_start_event.1000.intro_my_activity$"
+ travel_start_event.1070.desc_my_hunt_hunter:1 "ในที่สุดก็มีโอกาสได้ไล่ตามความหลงใหลและฝึกฝนทักษะของข้า"
+ travel_start_event.1070.desc_my_hunt_humble:1 "ข้าตั้งตารอที่จะได้ใช้เวลากลางแจ้ง"
+ travel_start_event.1070.desc_my_hunt_arrogant:1 "ข้าไม่สงสัยเลยว่าข้าจะกลับบ้านในไม่ช้า ปกคลุมไปด้วยเกียรติยศ"
+ travel_start_event.1070.desc_sick_my_hunt_outro:1 "\n\nแม้จะไม่ได้มีสุขภาพที่ดีที่สุด ข้าจะพยายามอย่างเต็มที่เพื่อสร้างความบันเทิงให้แขกของข้า ข้ามั่นใจว่างานนี้จะเป็นที่น่าพอใจสำหรับทุกคนที่เกี่ยวข้อง"
+ travel_start_event.1070.desc_my_hunt_outro_standard:1 "\n\nจริงแท้ ไม่มีอะไรเหมือนการล่าสัตว์แบบดั้งเดิมที่ดี!"
+ travel_start_event.1070.desc_my_hunt_outro_dangerous:1 "\n\nเหยื่อของเราจะดุร้าย แน่ใจว่าจะดึงดูดผู้กล้าบ้าบิ่นมายังงานเลี้ยง"
+ travel_start_event.1070.desc_my_hunt_outro_legendary:1 "\n\nสิ่งที่เราไล่ตามคือเรื่องราวในตำนาน หากมันมีอยู่จริง..."
+ travel_start_event.1070.desc_my_hunt_outro_falconry:1 "\n\nทักษะของนกของข้าจะแสดงให้คนอื่นเห็นถึงวิธีการดูแลโรงเลี้ยงนก"
+
+ #Travelling to a Witch Ritual
+ travel_start_event.1080.t_sick_witch_ritual:0 "$activity_witch_ritual$: $travel_start_event.1000.t_sick$"
+ travel_start_event.1080.t_witch_ritual:0 "$activity_witch_ritual$: $travel_start_event.1000.t$"
+ ##Witch Ritual
+ travel_start_event.1080.desc_witch_ritual:0 "$travel_start_event.1000.intro_activity$"
+ 
+ travel_start_event.1080.desc_witch_ritual_negative:0 "\n\nแม้ข้าจะไม่ใช่แฟนตัวยงของ [host.GetTitledFirstNameNoTooltip] แต่ข้าก็ตั้งตารอที่จะได้รับโอกาสแบ่งปันความรู้และเรียนรู้สิ่งต่างๆ จากพี่น้องคนอื่นๆ"
+ travel_start_event.1080.desc_witch_ritual_positive:0 "\n\n[host.GetTitledFirstNameNoTooltip] เป็น [host.Custom('MagicUserTerm')] ที่ยอดเยี่ยม ข้าตั้งตารอที่จะได้ใช้เวลากับ [host.GetHerHim] เช่นเดียวกับพี่น้องของข้า เพื่อแบ่งปันความรู้และฝึกฝนทักษะของข้า"
+ travel_start_event.1080.desc_witch_ritual_default:0 "\n\nการได้ใช้เวลากับเพื่อนๆ มักเป็นโอกาสที่หาได้ยาก และข้าตั้งตารอที่จะได้พบกับพี่สาวน้องสาวและพี่ชายน้องชายของข้า ฝึกฝนทักษะของข้า และแบ่งปันความรู้ของข้า"
+
+ travel_start_event.1080.desc_sick_witch_ritual_outro:0 "\n\nในขณะที่สุขภาพของข้าไม่ดี ข้าไม่ต้องการพลาดงานนี้อย่างแน่นอน"
+ travel_start_event.1080.desc_witch_ritual_outro:0 "\n\nนี่มีเค้าลางของงานที่ยิ่งใหญ่อย่างแท้จริง งานที่ดวงจันทร์จะจดจำไปอีกนาน!"
+ ##My Witch Ritual
+ travel_start_event.1080.desc_my_witch_ritual:0 "$travel_start_event.1000.intro_my_activity$"
+ travel_start_event.1080.desc_my_witch_ritual_learned:0 "\n\nในฐานะ [ROOT.Char.Custom('MagicUserTerm')] ผู้รอบรู้อย่างยิ่ง ข้าจะ ทำให้แน่ใจว่าจะเผยแพร่ความรู้ของข้าแก่พี่สาวน้องสาวและพี่ชายน้องชายของข้า เพื่อที่เราทุกคนจะได้ใช้ชีวิตอย่างมีความรู้มากขึ้น"
+ travel_start_event.1080.desc_my_witch_ritual_mystic:0 "\n\nในฐานะผู้มีญาณทิพย์และผู้หยั่งรู้ ข้ามองเห็นสิ่งดีๆ ในอนาคตของเรา และปัญญาของข้าควรได้รับการชื่นชมอย่างมากจากพี่น้องของข้าในการเฉลิมฉลองเพื่อ [ROOT.Char.GetFaith.WitchGodMistressMaster] ของเรา"
+ travel_start_event.1080.desc_my_witch_ritual_health:0 "\n\nด้วยความรู้เกี่ยวกับร่างกายและความเจ็บป่วยอย่างที่ข้าเป็น คำสอนของข้าควรจะ ทำให้แน่ใจว่าพี่น้องที่เหลือของข้าก็สามารถมีชีวิตที่ยืนยาวและแข็งแรงได้ เช่นกัน"
+ travel_start_event.1080.desc_my_witch_ritual_default:0 "\n\nข้าจะเป็นเจ้าภาพที่ดีแก่พี่สาวน้องสาวและพี่ชายน้องชายทุกคนที่เดินทางมาจากใกล้และไกลเพื่อมารวมตัวกัน ผูกสัมพันธ์ และเฉลิมฉลอง [ROOT.Char.GetFaith.WitchGodMistressMaster] ของเรา!"
+ travel_start_event.1080.desc_sick_my_witch_ritual_outro:0 "$travel_start_event.1080.desc_sick_witch_ritual_outro$"
+ travel_start_event.1080.desc_my_witch_ritual_outro:0 "$travel_start_event.1080.desc_witch_ritual_outro$"
+
+ #Travelling to an Imperial Examination
+ travel_start_event.1100.t_sick_exam: "$activity_imperial_examination$: $travel_start_event.1000.t_sick$"
+ travel_start_event.1100.t_sick_exam_local: "$activity_local_examination$: $travel_start_event.1000.t_sick$"
+ travel_start_event.1100.t_exam: "$activity_imperial_examination$: $travel_start_event.1000.t$"
+ travel_start_event.1100.t_exam_local: "$activity_local_examination$: $travel_start_event.1000.t$"
+ ##Imperial Examination
+ travel_start_event.1100.desc_exam: "$travel_start_event.1000.intro_activity$\n\nมีข่าวลือว่าการสอบในรอบนี้จะเน้นไปที่ "
+ travel_start_event.1100.desc_exam_learning: "ความรู้เชิงวิชาการ ดังนั้นข้าจึงได้ทบทวนความรู้เกี่ยวกับตำราคลาสสิกเพื่อเป็นการเตรียมพร้อม"
+ travel_start_event.1100.desc_exam_stewardship: "การปกครอง ดังนั้นข้าจึงได้ปัดฝุ่นความรู้ของข้าในทุกเรื่องที่เกี่ยวกับกิจการของรัฐ"
+ travel_start_event.1100.desc_exam_martial: "กลยุทธ์การสงคราม ดังนั้นข้าจึงใช้เวลาหลายวันในการศึกษาบันทึกทางการทหารอย่างละเอียดเพื่อเตรียมการ"
+ ##My Imperial Examination
+ travel_start_event.1100.desc_my_exam_imperial: "$travel_start_event.1000.intro_my_activity$\n\nในฐานะ [ROOT.Char.GetTitleAsName] ข้าคาดหวังที่จะได้เห็นเหล่าบัณฑิตผู้ทรงคุณธรรมจากทั่วทุกมุมของอาณาจักร แข่งขันกันเพื่อพิสูจน์ตนเองว่าคู่ควรที่จะปกครองทุกคนที่อยู่ใต้ผืนฟ้านี้"
+ travel_start_event.1100.desc_my_exam_local: "$travel_start_event.1000.intro_my_activity$\n\nข้าคาดหวังว่าเหล่าผู้อยู่อาศัยที่มีความสามารถที่สุดจะเข้าร่วมกับข้าที่ [location.GetName] โดยพลัน พร้อมที่จะพิสูจน์คุณค่าของตน"
+ travel_start_event.1100.desc_sick_exam_outro:0 "\n\nแม้ว่าร่างกายของข้าจะเจ็บป่วย ข้าก็ไม่อยากพลาดงานนี้"
+ travel_start_event.1100.desc_exam_wrong_gender: "\n\nข้ารู้ว่าสถานะของข้าในการสอบครั้งนี้จะต้องถูกตั้งคำถาม แต่ข้า #EMP จะ#! ได้รับการยอมรับในความสามารถของข้าให้จงได้"
+ travel_start_event.1100.desc_exam_outro: "\n\nข้าสงสัยว่าข้าจะสามารถโดดเด่นเหนือผู้อื่นได้หรือไม่"
+ travel_start_event.1100.desc_my_exam_outro:0 "\n\nผู้ใดจะโดดเด่นเหนือผู้อื่นบ้างหนอ ข้าสงสัย"
+ wrong_examination_gender_tt: "@warning_icon! #X เนื่องจาก [gender_law|E] ของอาณาจักร#!"
+ 
+ tgp_wrong_examination_gender_female_modifier: "การเข้าร่วมที่ถูกรังเกียจ"
+ tgp_wrong_examination_gender_female_modifier_desc: "ตัวละครนี้ตัดสินใจเข้าร่วมการสอบ แม้ว่าเพศของตนจะไม่เอื้ออำนวย"
+ tgp_wrong_examination_gender_male_modifier: "$tgp_wrong_examination_gender_female_modifier$"
+ tgp_wrong_examination_gender_male_modifier_desc: "$tgp_wrong_examination_gender_female_modifier_desc$"
+
+ #Travelling to a Mandala Ritual
+ travel_start_event.1110.t_sick: "พิธีมณฑล: $travel_start_event.1000.t_sick$"
+ travel_start_event.1110.t: "พิธีมณฑล: $travel_start_event.1000.t$"
+ travel_start_event.1110.desc: "หนทางกวักเรียก! ข้าต้องออกไปและนำทางผู้ติดตามของข้าใน [contract_location.GetName] เพื่อให้แน่ใจว่าพวกเขารู้สึกได้ถึงความเมตตาปรานีของข้า"
+ travel_start_event.1110.desc_sick_outro: "\n\nแม้ร่างกายจะเจ็บป่วย ข้าก็ต้องรวบรวมกำลังและผ่านพ้นไปให้ได้"
+ travel_start_event.1110.desc_outro: "\n\nมาดูกันว่าพวกเขามีสิ่งใดจะหยิบยื่นให้"
+ 
+ # Traveling to a Debate
+ travel_start_event.1120.t_special_guest: "การโต้วาที: การท้าทาย"
+ travel_start_event.1120.t_sick_debate: "การโต้วาที: $travel_start_event.1000.t_sick$"
+ travel_start_event.1120.t_debate: "การโต้วาที: $travel_start_event.1000.t$"
+ travel_start_event.1120.desc_special_guest: "[host.GetTitledFirstName] ผู้เป็น [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host'))] ของข้า ประสงค์จะโต้วาทีกับข้าเรื่องความเป็นผู้นำของ [ROOT.Char.Custom('GetMyMovement')]"
+ travel_start_event.1120.desc_my_debate: "$travel_start_event.1000.intro_my_activity$"
+ travel_start_event.1120.desc_debate: "$travel_start_event.1000.intro_activity$"
+ travel_start_event.1120.desc_sick_debate_outro: "\n\nแม้ร่างกายของข้าจะอ่อนแอ แต่อนาคตของ [primary_title.GetName] ย่อมสำคัญกว่า"
+ travel_start_event.1120.a_leader: "เราจะได้เห็นกันว่าผู้ใดมีปัญญาไหวพริบพอที่จะสืบทอด"
+ travel_start_event.1120.desc_debate_outro: "\n\nเป็นหน้าที่ของข้าที่จะต้อง ทำให้แน่ใจว่าอนาคตของ [primary_title.GetName] ถูกนำพาไปในทิศทางที่ถูกต้อง"
+ travel_start_event.1120.desc.undecided: "\n\nอย่างไรก็ตาม ข้าได้รับแจ้งมาว่าข้าต้องสังกัดหนึ่งในขบวนการหลัก เพื่อที่จะเข้าร่วม"
+ travel_start_event.1120.conservatives: "ข้าจะเข้าร่วม [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetNameNoTooltip]"
+ travel_start_event.1120.conservatives.tt: "ท่านเข้าร่วม [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName]"
+ travel_start_event.1120.expansionists: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetNameNoTooltip] คือกลุ่มที่มีเหตุผลที่สุด"
+ travel_start_event.1120.expansionists.tt: "ท่านเข้าร่วม [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName]"
+ travel_start_event.1120.advancement: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetNameNoTooltip] ดึงดูดสายตาข้า"
+ travel_start_event.1120.advancement.tt: "ท่านเข้าร่วม [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]"
+ travel_start_event.1120.pro_hegemon: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetNameNoTooltip] จะนำทางเรา!"
+ travel_start_event.1120.pro_hegemon.tt: "ท่านเข้าร่วม [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName]"
+ travel_start_event.1120.bye: "ข้าไม่ปรารถนาจะเข้าร่วมกลุ่มใด ๆ เหล่านี้"
+ 
+ travel_starts: "การเดินทางเริ่มต้นขึ้น"
+ travel_destination_activity: "ท่านกำลังจะไปยัง [location.GetName] สำหรับ [host.GetInvolvedActivity.GetName]"
+ travel_destination_location: "ท่านกำลังจะไปยัง [location.GetName]"

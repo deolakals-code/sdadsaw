@@ -1,0 +1,29 @@
+﻿l_english: 
+ game_concept_coronation: "พิธีราชาภิเษก"
+ game_concept_coronations: "พิธีราชาภิเษก"
+ game_concept_coronation_desc: "พิธีราชาภิเษก คือ [activity|E] ซึ่ง [ruler|E] จะเชิญเหล่า [vassals|E], ผู้ทรงเกียรติ, และ [guests|E] จากทั่วทุกสารทิศ เพื่อเป็นสักขีพยานในการขึ้นครองบัลลังก์ของตน\n\nพิธีราชาภิเษกมีสองรูปแบบ คือ พิธีราชาภิเษกทั่วไป และ [anointment|E] โดยแบบหลังจะมอบรางวัลที่ดีกว่า แลกกับค่าใช้จ่ายที่สูงขึ้น\n\nรางวัลที่คาดว่าจะได้รับ:\n$activity_coronation_host_desc$"
+ game_concept_coronation_i: "@activity_coronation!"
+
+ game_concept_oath: "คำสัตย์ปฏิญาณ"
+ game_concept_oaths: "คำสัตย์ปฏิญาณ"
+ game_concept_oath_desc: "คำสัตย์ปฏิญาณ จะถูกกล่าวขึ้นระหว่าง [activity|E] [coronation|E] โดย [host|E] และมีบทบาทสำคัญในการรับรอง [legitimacy|E] ของ [ruler|E] องค์ใหม่ ในขณะที่ก้าวขึ้นสู่บัลลังก์\n\nคำสัตย์ปฏิญาณจะปลดล็อก [decisions|E] พิเศษแบบจำกัดเวลา ซึ่งผู้ปกครองจะต้องกระ ทำให้สำเร็จเพื่อพิสูจน์ตนว่าคู่ควรกับ [title|E] ของตน รางวัลที่ได้รับจะได้รับผลกระทบจาก [coronation_magnificence|E] ของพิธีราชาภิเษก"
+
+ game_concept_coronation_magnificence: "ความโอ่อ่า"
+ game_concept_coronation_magnificence_desc: "ความโอ่อ่า ของ [coronation|E] จะเป็นตัวกำหนดผลลัพธ์ของ [activity|E]; คะแนนความโอ่อ่าที่สูงขึ้น จะนำไปสู่ผลลัพธ์ที่ดีขึ้นสำหรับ [host|E]\n\nความโอ่อ่า สามารถรับได้จาก [intents|E], [activity_options|E], และอีเวนต์ต่างๆ ในกิจกรรม [coronation_supporters|E] และ [coronation_detractors|E] อาจส่งผลต่อค่านี้ด้วย เช่นกัน"
+
+ game_concept_coronation_supporter: "ผู้สนับสนุน"
+ game_concept_coronation_supporters: "เหล่าผู้สนับสนุน"
+ game_concept_coronation_supporter_desc: "เหล่าผู้สนับสนุน คือ [activity_guests_short|E] ที่ [coronation|E] [activity|E] ที่สนับสนุน [host|E] ในการขึ้นครองบัลลังก์ พวกเขาจะมีโอกาสพิเศษในการช่วยเหลือ [ruler|E] เพื่อรับรอง [legitimacy|E] ของตน\n\nพวกเขาเป็นฝ่ายตรงข้ามโดยตรงกับ [coronation_detractors|E] ซึ่งเป็นแขกที่พยายามจะขัดขวางโฮสต์"
+
+ game_concept_coronation_detractor: "ผู้คัดค้าน"
+ game_concept_coronation_detractors: "เหล่าผู้คัดค้าน"
+ game_concept_coronation_detractor_desc: "เหล่าผู้คัดค้าน คือ [activity_guests_short|E] ที่ [coronation|E] [activity|E] ที่คัดค้าน [host|E] ในการขึ้นครองบัลลังก์ พวกเขาจะพยายามขัดขวาง [ruler|E] และทำลาย [legitimacy|E] ของพวกเขา\n\nพวกเขาเป็นฝ่ายตรงข้ามโดยตรงกับ [coronation_supporters|E] ซึ่งเป็นแขกที่พยายามจะช่วยเหลือโฮสต์"
+
+ game_concept_coronation_anointment: "พิธีเจิม"
+ game_concept_anointment: "$game_concept_coronation_anointment$"
+ game_concept_anointments: "พิธีเจิม"
+ game_concept_coronation_anointment_desc: "พิธีเจิม คือ [coronation|E] ประเภทหนึ่ง ซึ่ง [ruler|E] จะแสวงหา [head_of_faith|E] เพื่อประสาทพรให้กับการขึ้นครองบัลลังก์ของตน ในบางศรัทธา นี่เป็นสิ่งจำเป็น เพื่อที่จะได้รับการยอมรับอย่างแท้จริงว่าเป็นผู้ปกครองที่ [legitimate|E] แห่งดินแดนของตน\n\nเพื่อให้แน่ใจถึงการสนับสนุนจากประมุขแห่งศรัทธาของตน [host|E] สามารถใช้ [interaction|E] [anointment_request|E] ได้"
+
+ game_concept_anointment_request: "ร้องขอพิธีเจิม"
+ game_concept_request_anointment: "$game_concept_anointment_request$"
+ game_concept_anointment_request_desc: "[character_interaction|E] ร้องขอพิธีเจิม คือปฏิสัมพันธ์พิเศษที่ [ruler|E] สามารถใช้กับ [head_of_faith|E] ของตนได้ เพื่อรับรองการสนับสนุนจากพวกเขาใน [anointment|E]"

@@ -1,0 +1,236 @@
+﻿l_english: 
+ seduce_outcome.permanent_block:0 "[owner.GetTitledFirstName] จะไม่พยายามเกี้ยวข้าอีกต่อไป"
+ seduce_outcome.cooldown:0 "[owner.GetTitledFirstName] จะไม่พยายามเกี้ยวข้าอีกชั่วระยะเวลาหนึ่ง"
+
+ seduce_outcome.0001.t:0 "บัดนี้หรือมิมีวัน"
+ seduce_outcome.0001.desc:0 "ปฏิกิริยาของ[target.GetTitledFirstNamePossessive] ต่อการเข้าหาของข้าบอกทุกสิ่งที่ข้าจำเป็นต้องรู้ ถึงเวลาแล้วที่จะนำแผนของข้าไปปฏิบัติ\n\n"
+ seduce_outcome.0001.positive.desc:0 "ข้าคิดว่าโอกาสของข้าดีอยู่ แต่ข้าต้องจำไว้ว่า [discoverer.Custom2('NamePossessiveCharacterIntroduction', target)] กำลังจับตามองอยู่เสมอ..."
+ seduce_outcome.0001.negative.desc:0 "แต่ข้าก็หวั่นเกรงผลที่จะตามมา [discoverer.Custom2('NamePossessiveCharacterIntroduction', target)|U] และสายลับของ[discoverer.GetHerHis] อาจซ่อนตัวอยู่ในเงาใด ๆ แอบฟังผ่านกำแพงใด ๆ..."
+ seduce_outcome.0001.a:0 "[target.GetFirstNameNoTooltip] จะต้องเป็นของข้า!"
+ seduce_outcome.0001.a.tt:0 "ข้าจะดำเนินการพยายามเกี้ยว [target.GetTitledFirstName] ต่อไป"
+ seduce_outcome.0001.b:0 "ข้าไม่อาจเสี่ยงให้ถูกพบได้"
+
+ seduce_outcome.0003.t:0 "ข้อเสนออันเร่าร้อน"
+ seduce_outcome.0003.success.desc: "[owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ได้สร้างทางของ[owner.GetHerHis]เข้ามาในชีวิตของข้าด้วยคำพูดหวานหูและสัมผัสที่หวานล้ำยิ่งกว่า ยามดึกสงัด ข้าพยายามอย่างยิ่งที่จะไม่คิดถึง [owner.GetHerHim]...\n\nความรู้สึกที่คุกรุ่นอยู่ระหว่างเรา ในไม่ช้าจะลุกโชนเป็นเปลวไฟหรือดับมอดไป"
+ seduce_outcome.0003.failure.desc:1 "ไม่ว่าข้าจะไปที่ใด [owner.Custom2('MyCharacterIntroduction', ROOT.Char)] ก็ตามติดไปเสมอ แววตาของ[owner.GetHerHis] ถ้อยคำบนริมฝีปากของ[owner.GetHerHis]... ข้ารู้ดีว่า[owner.GetSheHe]ต้องการสิ่งใด"
+ seduce_outcome.0003.a.success:0 "ข้าต้องการอยู่ในขุมนรกแห่งไฟรักนี้ตลอดไป!"
+ seduce_outcome.0003.a.failure:0 "ข้าจะให้[owner.GetHerHim]อยู่ใกล้ ๆ #EMP ใกล้มาก#! ทีเดียว"
+ seduce_outcome.0003.a.tt:1 "[owner.GetShortUIName|U] อาจกลายเป็นชู้รักของข้า"
+ seduce_outcome.0003.b.success:0 "นี่คือรักที่จะโชติช่วง แต่แสนสั้น"
+ seduce_outcome.0003.b.failure:0 "เป็นเพียงสิ่งเบี่ยงเบนความสนใจสำหรับคืนนี้ แต่ไม่มีอะไรมากไปกว่านั้น"
+ seduce_outcome.0003.c:0 "ช่างหวาน... แต่ไม่"
+ seduce_outcome.0003.d:0 "ไม่มีวัน! โลกจะได้รู้ถึงสันดานวิปริตของ[owner.GetHerHis]!"
+ seduce_outcome.0003.e:0 "ข้าเบื่อหน่ายกับเกมเหล่านี้แล้ว ปล่อยข้าไว้ตามลำพัง พวกเจ้าทุกคน!"
+ seduce_outcome.0003.e.tt:0 "จะไม่มีผู้ใดพยายามเกี้ยวข้าเป็นเวลา #V 10#! ปี"
+ 
+ seduce_outcome.0004.t:0 "[target.Custom('LoverPetName_uppercase')] ของข้า"
+ seduce_outcome.0004.desc:0 "ขณะที่ข้ามองลงไปยัง [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target') )] ของข้า [target.GetTitledFirstName] ผู้ [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('target'))] ซึ่งหลับใหลอยู่ในอ้อมแขน ข้าพบว่าตนเองกำลังยิ้มด้วยความพึงพอใจและเปี่ยมสุข\n\nคิดไม่ถึงว่า[target.GetSheHe]จะตอบสนองความรักและความภักดีที่ข้ารู้สึก!"
+ seduce_outcome.0004.a:0 "ข้าคือ[ROOT.Char.GetWomanMan]ที่โชคดีที่สุดที่ยังมีชีวิตอยู่!"
+
+ seduce_outcome.0005.t:0 "จบลงอย่างน่าเศร้า"
+ seduce_outcome.0005.desc:0 "ด้วยการตายของ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target') )] ของข้า [target.GetTitledFirstName] แผนการสำหรับอนาคตของเราก็ไม่สำคัญอีกต่อไป\n\nไม่ว่าสิ่งใดที่เคยเป็นไปได้ บัดนี้มันได้ตายไปแล้ว"
+ seduce_outcome.0005.a:0 "หากเพียง แต่ข้าได้ชนะใจ[target.GetHerHis]เร็วกว่านี้!"
+
+ seduce_outcome.2000.t:0 "พรลับ"
+ seduce_outcome.2000.desc:0 "ขณะที่เราพบกันอย่างลับ ๆ สันตะปาปาสูงสุดและข้า ตัวตนของข้าเต็มไปด้วยความยำเกรงและความปรารถนาทางเนื้อหนังมากกว่าทางจิตวิญญาณ แน่นอนว่า ไม่มีผู้ใดก่อนหน้าข้าเคยได้รับพรจากองค์สมเด็จ[target.GetHerHis|U]ในลักษณะนี้มาก่อน\n\nพระหัตถ์ของ[target.GetHerHis|U]เอื้อมออกมา ข้าหลับตาลงและคุกเข่า..."
+ seduce_outcome.2000.a:0 "[target.GetSheHe|U] ถือกุญแจสู่อาณาจักรของข้า"
+ seduce_outcome.2000.b:0 "ข้าได้รับพรของข้าแล้ว"
+ 
+ seduce_outcome.2010.t:0 "ในไวน์มีความใคร่"
+ seduce_outcome.2010.desc:0 "ข้ามาถึงห้องของ[target.GetNamePossessive] พร้อมกับความกระหายสองชนิด และนำไวน์มามากมายสำหรับความกระหายชนิดแรก เป็นที่ประจักษ์ชัดในทันทีว่า[target.GetSheHe] คิด เช่นเดียวกับข้า\n\nจุมพิตแรกผนึกคำมั่นสัญญา จากนั้นเราก็ใช้เวลาทั้งวันทั้งคืนถัดมาดื่มด่ำ รักใคร่ ดื่มด่ำ รักใคร่..."
+ seduce_outcome.2010.a:0 "โอ้ ขอให้เป็น เช่นนี้ตลอดไป!"
+ seduce_outcome.2010.b:0 "ความหลงลืมอันแสนหวาน โอบกอดข้าเถิด"
+
+ seduce_outcome.2020.t:0 "เรื่องในส้วม"
+ seduce_outcome.2020.desc:0 "ส้วมเป็นพื้นที่เล็ก ๆ และอากาศอบอวลไปด้วยกลิ่นเหม็นของสิ่งที่เพิ่งถูกทิ้งไว้ แต่เป็นส่วนตัว โอ้ ช่างเป็นส่วนตัว...\n\n[target.GetName] มองข้าอย่างหิวกระหาย ถอดอาภรณ์ของ[target.GetHerHis]ออก ข้าทำ เช่นเดียวกัน และขณะที่เราจุมพิตกัน คลื่นแห่งตัณหาก็ถาโถมเข้ามา ทำให้เราลืมทั้งความอึดอัดของพื้นที่และทิวทัศน์กับกลิ่นอันน่าสะอิดสะเอียนรอบตัวเรา"
+ seduce_outcome.2020.a:0 "เราควรทำ เช่นนี้อีก แต่บางทีอาจเป็นที่อื่น..."
+ seduce_outcome.2020.b:0 "ไปส้วมเพื่อปลดทุกข์ ข้าพูดเสมอ"
+
+ seduce_outcome.2030.t:0 "ความหิวทางเนื้อหนัง"
+ seduce_outcome.2030.a.desc:0 "อาหาร ข้ารู้ว่า[target.GetSheHe]ชอบมัน และข้านำมามากมาย ขณะที่ข้าโบกมือ [target.GetSheHe]ก็ถอดอาภรณ์ออกอย่างว่าง่ายและเอนกายลง ข้าจัดฉาก วางเนยแข็ง ผลไม้ น้ำผึ้ง บนตัว[target.GetHerHim] ข้างกาย[target.GetHerHim] "
+ seduce_outcome.2030.alcohol.desc:0 "จากนั้น ราดรดด้วยไวน์ชั้นดีลงบนหน้าอกของ[target.GetHerHis]"
+ seduce_outcome.2030.b.desc:0 "\n\nจุมพิต สัมผัส — เราทั้งสองจมดิ่งสู่ความสุขในไม่ช้า ขณะที่รสและกลิ่นกายของ[target.GetHerHis]ผสมผสานกับอาหาร ข้าหลับตาลงและหัวเราะ — นี่คือชีวิตอันแสนหวาน!"
+ seduce_outcome.2030.a:0 "ขอให้เรามีช่วงเวลา เช่นนี้อีกมากมาย!"
+ seduce_outcome.2030.b:0 "ช่างเป็นมื้ออาหารที่เราได้ร่วมแบ่งปัน!"
+
+ seduce_outcome.2040.t:0 "สู่ช่องกำแพง"
+ seduce_outcome.2040.desc:0 "เมื่อเงาทอดยาว ข้าพบ [target.GetTitledFirstName] ในความมืดใต้กำแพง[owner.Custom('ResidenceBuilding')] กำลังรอข้าอยู่\n\n[target.GetSheHe|U] เดินเข้ามาหาข้า อย่างลังเลในตอนแรก จากนั้นอย่างกระตือรือร้น ข้าได้ยินเสียงลมหายใจของ[target.GetHerHis]ถี่ขึ้นขณะที่ข้าดึง[target.GetHerHim]เข้ามาใกล้ ในเงากำแพงเราสมสู่กัน ทหารยามที่ลาดตระเวนอยู่ไม่รับรู้ถึงความเร่าร้อนของเรา..."
+ seduce_outcome.2040.a:0 "อีกครั้ง!"
+ seduce_outcome.2040.b:0 "หลังจากพิชิต[owner.Custom('ResidenceBuilding')]แล้ว ข้าขอถอนตัว"
+
+ seduce_outcome.2050.t:0 "คำสาบานลับ"
+ seduce_outcome.2050.desc:0 "เราพบกันยามค่ำคืน อย่างลับๆ ปกปิดจากสายตาและหูของผู้คนภายนอก ข้าให้คำมั่นสัญญากับ[target.GetHerHim]: "ให้เราสมรสกันเถิด อย่างแท้จริง แต่เป็นความลับ จะไม่มีผู้ใดรู้ยกเว้นเราสองคน การสมรสอันบริสุทธิ์ เหนือกว่าสิ่งที่ธรรมเนียมปฏิบัติได้บีบบังคับเรา!"\n\n[target.GetSheHe|U] พยักหน้า[target.GetHerHis] ยินยอม อารมณ์ความรู้สึก ทำให้[target.GetHerHim] หายใจหอบ จากนั้น ภายใต้ผ้าคลุมอันปกป้องของรัตติกาล เราก็บรรลุคำสาบานลับของเรา..."
+ seduce_outcome.2050.a:0 "พันธะที่จะคงอยู่ตลอดไป!"
+ seduce_outcome.2050.b:0 "ค่ำคืนอันน่าอัศจรรย์ แต่เราไม่อาจพบกัน เช่นนี้ได้อีก"
+
+ seduce_outcome.2301.t:0 "ในห้องของ[target.GetHerHis|U]"
+ seduce_outcome.2301.desc:0 "ความรู้สึกสั่นสะท้านด้วยความคาดหวังแล่นปราดขึ้นมาตามสันหลังขณะที่ข้าหาทางไปยังห้องของ[target.GetTitledFirstNamePossessive] ทันทีที่[target.GetSheHe] เปิดประตู [target.GetSheHe] ก็[target.Custom('quirk_pos_present')] ยิ้ม[target.Custom('quirk_pos_adverb')] และดึงข้าเข้าไปข้างในด้วยการจับที่[ROOT.Char.Custom('GetUpperClothingArticle')]ของข้า\n\nขณะที่อ้อมแขน[target.GetHerHis] โอบกอดข้า ไฟในอกของข้าก็ลุกโชนเป็นเปลวเพลิง และค่ำคืนที่เหลือก็ผ่านไปในม่านหมอกอันอบอุ่นและร้อนแรง"
+ seduce_outcome.2301.a:0 "โอ้ [target.GetFirstNameNoTooltip] [target.Custom('LoverPetName')] ของข้า ให้เราพบกันอีกเถิด!"
+ seduce_outcome.2301.a.tt:0 "#F และอีกครั้ง และอีกครั้ง และอีกครั้ง...!#!"
+ seduce_outcome.2301.b:1 "[target.GetSheHe|U] รู้วิธีเอาใจ[ROOT.Char.GetWomanMan]ดีแท้"
+
+
+ seduce_outcome.2302.t:0 "ในราชสำนักอื่นใด"
+ seduce_outcome.2302.desc_court_owner:0 ""ท่านมาตลอดทางนี้เพื่อข้าหรือ ที่รัก[ROOT.Char.Custom('LoverPetName')]ของข้า?"\n\nหลังจากค้นหาตามโถงทางเดินของ[target.Custom('ResidenceBuilding')]ของ[target.GetTitledFirstNamePossessive] โดยสวมชุดคนรับใช้เพื่อหลีกเลี่ยงการสังเกต ข้าก็พบ[target.GetHerHim] ในสวนอันเงียบสงบ"
+ seduce_outcome.2302.desc_not_court_owner:1 ""ท่านมาตลอดทางนี้เพื่อข้าหรือ ที่รัก[ROOT.Char.Custom('LoverPetName')]ของข้า?"\n\nหลังจากค้นหาตามโถงทางเดินของ[target.Custom('ResidenceBuilding')]ของ[target.GetTitledFirstNamePossessive] โดยสวมชุดคนรับใช้เพื่อหลีกเลี่ยงการสังเกต ข้าก็พบ[target.GetFirstName] ในสวนอันเงียบสงบ"
+ seduce_outcome.2302.desc_end:0 "[target.GetSheHe|U] หน้าตาสดใสขึ้นเมื่อ[target.GetSheHe]เห็นข้า และการได้เห็น[target.GetHerHim]ก็ ทำให้ข้าสดใสขึ้น เช่นกัน\n\n[ROOT.Char.Custom('GetClothingArticle')] เก่า ๆ ที่ข้าสวมใส่ในไม่ช้าก็ถูกลืมทิ้งไว้บนพื้นขณะที่เราใช้เวลาทั้งคืน เพื่อให้แน่ใจว่าการเดินทางของข้าคุ้มค่ากับความพยายาม!"
+ seduce_outcome.2302.a:0 "เพื่อเจ้า ข้ายินดีเดินทาง เช่นนี้อีกร้อยครั้ง!"
+ seduce_outcome.2302.b:0 "มันช่างหอมหวานเท่า ๆ กับที่แสนสั้น"
+
+ seduce_outcome.2303.t:0 "เสียงกระซิบจากหัวใจ"
+ seduce_outcome.2303.desc:0 ""[ROOT.Char.Custom2('ComplimentSentence', SCOPE.sC('target'))|U]."\n\n"ข้าจะไม่มีวันเบื่อรอยยิ้มอัน [owner.Custom('quirk_pos_adjective')] ของท่านเลย" [target.GetTitledFirstName] ตอบโต้พร้อมกับหน้าแดง "หรืออ้อมกอดของท่าน"\n\nคำชื่นชมพึมพำที่เราแบ่งปันกันในไม่ช้าก็กลายเป็นฟังไม่รู้เรื่อง แต่สิ่งที่มาแทนที่นั้นสื่อภาษาที่ชัดเจนยิ่งกว่า"
+ seduce_outcome.2303.a:0 "ข้าเป็นใครถึงจะปฏิเสธสิ่งใดจาก[target.GetWomanMan]ผู้มีวาทศิลป์ เช่นนี้ได้?"
+ seduce_outcome.2303.b:0 "ข้าเพลิดเพลินกับการสนทนานี้แน่ แต่บทสนทนานี้จบลงแล้ว"
+
+ seduce_outcome.2304.t:0 "ใต้ฟ้ากว้าง"
+ seduce_outcome.2304.desc:0 "[target.GetTitledFirstName] และข้านั่งยองๆ เคียงข้างกัน [ROOT.Char.Custom('GetAnimalType')] [ROOT.Char.Custom('GetAnimalAdjective')] เบื้องหน้าเราไม่รู้ถึงการมีอยู่ของเรา ความสนใจของข้าเองนั้นแน่วแน่ — โดยเฉพาะอย่างยิ่งเมื่อ[target.Custom('GetClothingArticle')]ของ[target.GetFirstNamePossessive] สัมผัสกับข้า เมื่อข้าเอื้อมมือไปโอบกอด[target.GetHerHim] ข้าก็พบว่า[target.GetSheHe] ก็ให้ความสนใจ[target.GetHerHis] #EMP ไปที่อื่น#! เช่นกัน\n\nขณะที่[ROOT.Char.Custom('GetAnimalType')] หายลับเข้าไปใน[ROOT.Char.Custom('TerrainType')] เนื้อหนังอันเปลือยเปล่าของเราก็ถูกโอบอุ้มด้วยผืนดินอันอ่อนนุ่มแล้ว เช่นเดียวกับ ซึ่งกันและกัน"
+ seduce_outcome.2304.a:0 "การที่เราจะอยู่ด้วยกันเป็นเรื่องธรรมชาติ!"
+ seduce_outcome.2304.b:0 "การรวมกันเพียงเพื่อแยกจาก — ล้วนเป็นส่วนหนึ่งของชีวิต"
+
+ seduce_outcome.2305.t:0 "จดหมายรัก"
+ seduce_outcome.2305.desc_opening:0 ""[letterAuthor.Custom2('love_letter', SCOPE.sC('love_letter_target'))]""
+ seduce_outcome.2305.desc_ending:0 ""\n\nทันทีที่ข้าอ่านจดหมายที่ส่งมาจาก [target.GetTitledFirstName] จบ ข้าก็มุ่งหน้าไปยังห้องของ[target.GetHerHis]ทันที"
+ seduce_outcome.2305.a:0 "การกระทำของข้าจะเป็นคำตอบต่อถ้อยคำของ[target.GetHerHis]!"
+ seduce_outcome.2305.a_terrible:0 "#F หรือควรจะกล่าวว่า ความหมายเบื้องหลังถ้อยคำของ[target.GetHerHis] — บทกวีนั้นแย่มาก!#!"
+ seduce_outcome.2305.a_okay:0 "#F และชดเชยสิ่งที่ขาดหายไป!#!"
+ seduce_outcome.2305.a_great:0 "#F ผู้ประพันธ์ที่มีวาทศิลป์เช่นนี้สมควรได้รับรางวัล!#!"
+ seduce_outcome.2305.a_amazing:0 "#F ไฟที่[target.GetSheHe]จุดขึ้นด้วยร้อยแก้วของ[target.GetHerHis]สามารถดับได้ด้วยอ้อมกอดของ[target.GetHerHis]เท่านั้น!#!"
+ seduce_outcome.2305.b:0 "การรวมกันของเราจะโดดเด่นเป็นเอกลักษณ์ เช่นเดียวกับบทกวีของ[target.GetHerHis]"
+
+ seduce_outcome.2306.t:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))|U] อันเป็นที่รักของข้า"
+ seduce_outcome.2306.desc:0 "คนรับใช้ทั้งหมดถูกส่งออกไปแล้ว และเตียงของเราถูกประดับด้วย [SCOPE.Custom('SeductionObjectMultiple')] ขณะที่ [target.GetTitledFirstName] เข้ามาในห้องของเรา [target.GetSheHe]ยิ้ม [target.Custom('quirk_pos_adverb')] และเข้าร่วมกับข้าโดยไม่ลังเล\n\nด้วยความช่วยเหลือของมือ ปาก และแขนขา เรายืนยันความภักดีที่เราสาบานไว้ต่อหน้า [ROOT.Char.GetFaith.HighGodName] อีกครั้ง – บางทีอาจในลักษณะทางเนื้อหนังมากกว่าที่ตั้งใจไว้"
+ seduce_outcome.2306.a:0 "ดังที่เราได้รวมกันในการสมรส บัดนี้เราได้รวมกันด้วยใจ!"
+ seduce_outcome.2306.b:0 "พันธะแห่งการสมรสก็เพียงพอแล้ว"
+
+ seduce_outcome.2307.t:0 "ชู้รักผู้ [target.Custom2('InsultAdjective', ROOT.Char)|U] ของข้า"
+ seduce_outcome.2307.desc:0 "ขณะที่ข้าเข้าใกล้ [target.GetTitledFirstName] ข้าไม่รู้ว่าจะฉีกเสื้อผ้าออกจากร่างของ[target.GetHerHis]หรือจะชกใบหน้าที่ยิ้มอย่าง [target.Custom('quirk_neg_adjective')] ของ[target.GetHerHis]ดี [target.GetSheHe|U] จุมพิตข้า — เป็นการท้าทาย — และข้าลาก[target.GetHerHim]เข้ามาใกล้ขึ้น — เป็นการตอบโต้อย่างเหมาะสม\n\nความรู้สึกขัดแย้งในอกข้าสะท้อนออกมาทางร่างกายของเรา เราใช้เวลาทั้งคืนมอบทั้งคำดูถูกและความสุขให้แก่กันและกัน"
+ seduce_outcome.2307.a:0 "จูบข้าอีกสิ เจ้า [target.Custom2('InsultAdjective', ROOT.Char)] [target.Custom2('InsultNoun', ROOT.Char)] ของข้า!"
+ seduce_outcome.2307.b:0 "ปล่อยข้าไว้ตามลำพังเถอะ เจ้า [target.Custom2('InsultNounSexual', ROOT.Char)]"
+
+ seduce_outcome.2308.t:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))|U] อันเป็นที่รักของข้า"
+ seduce_outcome.2308.desc_illigal:0 "ขณะที่ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))] [target.Custom('ComplimentAdjective')] ของข้า [target.GetTitledFirstName] ยิ้ม [target.Custom('quirk_pos_adverb')] ข้าพบว่ายากที่จะจำได้ว่าแรงดึงดูดที่ข้ารู้สึกนั้นเป็นสิ่งที่ไม่เป็นที่ยอมรับ\n\nและแล้ว — ขณะที่[target.GetSheHe]ดึง [ROOT.Char.Custom('GetUpperClothingArticle')] ของข้าขึ้นและปล่อยให้มือของ[target.GetHerHis]ลูบไล้ไปทั่ว — ข้าพบว่าข้าไม่สนใจ "
+ seduce_outcome.2308.desc_not_illigal:0 "ขณะที่ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))] [target.Custom('ComplimentAdjective')] ของข้า [target.GetTitledFirstName] ยิ้ม [target.Custom('quirk_pos_adverb')] ข้าทิ้งการเสแสร้งยับยั้งชั่งใจใด ๆ ทั้งสิ้น ฉีก [ROOT.Char.Custom('GetUpperClothingArticle')] ของ[target.GetHerHim]ออก วางมือรอบเอวของ[target.GetHerHis] ปากของข้าบนคอของ[target.GetHerHis] ความปรารถนาอันรุ่มร้อนของข้าแนบชิดกับของ[target.GetHerHis]...\n\n"
+ seduce_outcome.2308.a:0 "ความรักที่ [target.Custom2('RelationToMeShort', ROOT.Char)] รู้สึกต่อ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))] ของ[ROOT.Char.GetHerHis] จะผิดได้อย่างไร!"
+ seduce_outcome.2308.b:0 "[target.GetSheHe|U] จะไม่เป็นอื่นใดนอกจาก [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))] ของข้า"
+
+ seduce_outcome.2309.t:0 "ห้วงแห่งกิเลสตัณหา"
+ seduce_outcome.2309.desc_opening:0 "ข้าพบ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))] ของข้า [target.GetTitledFirstName] กำลังรอคอยอย่างกระตือรือร้น"
+ seduce_outcome.2309.desc_ending:0 "[ROOT.Char.Custom2('sex_scene', SCOPE.sC('target'))]"
+ seduce_outcome.2309.a:0 "นี่มันดีเกินกว่าจะเป็นแค่ครั้งเดียว"
+
+ seduce_outcome.2900.t:0 "พระพิโรธของ[target_liege.GetTitledFirstNamePossessiveNoTooltip]"
+ seduce_outcome.2900.start.desc:0 "เมื่อเสียงตะโกนและเสียงเห่าเริ่มขึ้น กำแพง[target_liege.Custom('FortifiedBuilding')]"
+ seduce_outcome.2900.capital.desc:0 "แห่ง [capital.GetNameNoTierNoTooltip]"
+ seduce_outcome.2900.end.desc:1 "ยังคงอยู่ใกล้จนน่าอึดอัด ก่อนที่ใครจะทันเห็นข้า ข้าลงจากม้าและซ่อนตัวอยู่หลัง [target_liege.Custom('OutdoorsHidingPlace')] ริมถนน\n\nหัวใจข้าเต้นรัวราวกับกลองขณะที่กลุ่มล่าสัตว์ควบม้าผ่านไป "เร็วเข้า! [ROOT.Char.GetTitledFirstNameNoTooltip] หนีไปได้ไม่ไกลแน่!""
+ seduce_outcome.2900.a:0 "จะเกิดอะไรขึ้นกับเราตอนนี้?"
+
+ seduce_outcome.3901.t:0 "อสรพิษในราชสำนัก"
+ seduce_outcome.3901.desc:0 "ข้าจำสีหน้าวิตกกังวลของคนรับใช้ได้ [dummy_servant_gender.GetSheHe|U] มาที่นี่เพื่อแจ้งข่าวร้ายแก่ข้า\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U] ท่านต้องรีบมาเร็วเข้า! มีคนเห็น [owner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] เพิ่งออกจากห้องของ [target.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]!""
+ seduce_outcome.3900.a:0 "นี่หมายความได้อย่างเดียวเท่านั้น!"
+
+ seduce_outcome.3000.desc:0 "ขณะที่เราลอบพบกัน, องค์สันตะปาปาสูงสุดและข้า, ตัวตนของข้ากลับเปี่ยมไปด้วยความยำเกรงและความปรารถนาทางเนื้อหนังมากกว่าทางจิตวิญญาณ แน่นอนว่า, ไม่เคยมีผู้ใดก่อนหน้าข้าที่ได้รับพรจากองค์สมเด็จ [SCOPE.sC('owner').GetHerHis|U] ในลักษณะ เช่นนี้มาก่อน\n\nหัตถ์ของ [owner.GetHerHis|U] เอื้อมออกมา, ข้าหลับตาลงและคุกเข่า..."
+ seduce_outcome.3000.a:0 "[owner.GetSheHe|U] ถือกุญแจสู่อาณาจักรของข้า"
+
+ seduce_outcome.3010.desc:0 "[owner.GetTitledFirstName ] มาถึงห้องของข้า เห็นได้ชัดว่ามีความกระหายสองชนิด และนำไวน์มามากมายสำหรับชนิดแรก ใช้ความพยายามเพียงเล็กน้อยเพื่อแสดงว่าข้าคิด เช่นเดียวกับ[owner.GetSheHe]\n\nจุมพิตแรกผนึกข้อตกลง จากนั้นเราใช้เวลาทั้งวันทั้งคืนถัดมาดื่ม ดื่มด่ำรัก ดื่ม ดื่มด่ำรัก..."
+
+ seduce_outcome.3020.desc:1 "ส้วมเป็นพื้นที่เล็ก ๆ และอากาศอบอวลไปด้วยกลิ่นเหม็นของสิ่งที่เพิ่งถูกทิ้งไว้ แต่เป็นส่วนตัว โอ้ ช่างเป็นส่วนตัว...\n\nข้ามอง [owner.GetTitledFirstName] อย่างหิวกระหาย ถอดอาภรณ์ของข้าออก [owner.GetSheHe|U] ทำ เช่นเดียวกัน และขณะที่เราจุมพิตกัน คลื่นแห่งตัณหาก็ถาโถมเข้ามา ทำให้เราลืมทั้งความอึดอัดของพื้นที่และทิวทัศน์กับกลิ่นอันน่าสะอิดสะเอียนรอบตัวเรา"
+
+ seduce_outcome.3030.a.desc:1 "[owner.GetTitledFirstName] มาถึง ถืออาหารมา — มากมาย [owner.GetSheHe]รู้ว่าข้าชอบมัน [owner.GetSheHe|U] โบกมือของ[owner.GetHerHis] และข้าก็ถอดอาภรณ์ออกอย่างว่าง่ายและเอนกายลง [owner.GetSheHe|U] จัดฉาก วางเนยแข็ง ผลไม้ น้ำผึ้ง บนร่างของข้า ข้างกายข้า"
+ seduce_outcome.3030.alcohol.desc:0 "จากนั้น ราดรดด้วยไวน์ชั้นดีลงบนหน้าอกของข้า"
+ seduce_outcome.3030.b.desc:0 "\n\nจุมพิต สัมผัส — เราเริ่มเพลิดเพลิน เราทั้งสองจมดิ่งสู่ความสุขในไม่ช้า ขณะที่รสและกลิ่นกายของ[owner.GetHerHis]ผสมผสานกับอาหาร ข้าหลับตาลงและหัวเราะ — นี่คือชีวิตอันแสนหวาน!"
+
+ seduce_outcome.3040.desc:0 "เมื่อเงาทอดยาว ข้าเห็น [owner.GetTitledFirstName] เข้ามาหาข้าในความมืดใต้กำแพงปราสาท ยิ้ม [target.Custom('quirk_pos_adverb')] ขณะที่[owner.GetSheHe]กระซิบว่า: “เจ้ารู้ว่าข้ามาทำไม”\n\nข้าเดินไปหา[owner.GetHerHim] อย่างลังเลในตอนแรก จากนั้นอย่างกระตือรือร้น ชีพจรข้าเต้นเร็วขึ้นขณะที่[owner.GetSheHe]ดึงข้าเข้ามาใกล้ ในเงากำแพงเราสมสู่กัน ทหารยามที่ลาดตระเวนอยู่เบื้องบนไม่รับรู้ถึงความเร่าร้อนของเรา"
+
+ seduce_outcome.3050.desc:0 "เราพบกันยามค่ำคืน อย่างลับ ๆ กำบังจากสายตาและหูของผู้คนภายนอก [owner.GetSheHe|U] ให้คำมั่นสัญญาต่อข้า: "ให้เรา แต่งงานกัน อย่างแท้จริง แต่เป็นความลับ จะไม่มีใครรู้ยกเว้นเราสองคน การสมรสอันบริสุทธิ์ เหนือกว่าสิ่งที่ธรรมเนียมปฏิบัติบังคับเรา!"\n\nข้าพยักหน้าเห็นชอบ อารมณ์ความรู้สึก ทำให้ข้าหายใจติดขัด จากนั้น ภายใต้ผ้าคลุมอันปกป้องของค่ำคืน เรา ทำให้คำสาบานลับของเราสมบูรณ์..."
+
+ seduce_outcome.3301.t:0 "ในห้องของข้า"
+ seduce_outcome.3301.desc:0 "ความรู้สึกสั่นสะท้านด้วยความคาดหวังแล่นขึ้นมาตามสันหลังขณะที่เสียงเคาะประตูดังขึ้นในความเงียบสงัดของห้องข้า อาจเป็น #EMP [owner.GetHerHim]#!?\n\nข้าได้รับการต้อนรับจาก [owner.GetTitledFirstName] ผู้ยิ้ม [owner.Custom('quirk_pos_adverb')] ความใคร่ปรากฏชัดบนใบหน้าของ[owner.GetHerHis] ในที่สุด! ขณะที่อ้อมแขนของ[owner.GetHerHis]โอบกอดข้า ไฟในอกก็ลุกโชนเป็นเปลวเพลิง และค่ำคืนที่เหลือก็ผ่านไปในไออุ่นอันเร่าร้อน"
+ seduce_outcome.3301.a:0 "โอ้ [owner.GetFirstNameNoTooltip] [owner.Custom('LoverPetName')] ของข้า ให้เราพบกันอีกเถิด!"
+ seduce_outcome.3301.a.tt:0 "#F และอีกครั้ง และอีกครั้ง และอีกครั้ง...!#!"
+ seduce_outcome.3301.b:0 "[owner.GetTitleTierName] ผู้นั้นรู้วิธีเอาใจ[ROOT.Char.GetWomanMan]ดีแท้"
+ 
+ seduce_outcome.3302.desc_opening:1 "ขณะเดินเล่นในสวน ข้าพลันได้รับการทักทายด้วยภาพที่หอมหวานกว่าดอกไม้ใด ๆ: [owner.GetTitledFirstName] สวมชุดคนรับใช้และรอยยิ้มอัน [owner.Custom('quirk_pos_adjective')]\n\n"
+ seduce_outcome.3302.desc_court_owner:0 ""ไม่มีสิ่งใดขวางกั้นข้าจากเจ้าได้ [ROOT.Char.Custom('LoverPetName')] ของข้า – โดยเฉพาะอย่างยิ่งระยะทาง!""
+ seduce_outcome.3302.desc_not_court_owner:0 ""ไม่มีสิ่งใดขวางกั้นข้าจากเจ้าได้ [ROOT.Char.Custom('LoverPetName')] ของข้า – ไม่ว่าระยะทาง หรือ [court_owner.GetTitledFirstName]!""
+ seduce_outcome.3302.desc_end:0 "\n\nข้ารีบถอด [ROOT.Char.Custom('GetUpperClothingArticle')] ของคนรับใช้ที่[owner.GetSheHe]สวมใส่อยู่ออก ตามด้วยเสื้อผ้าอื่น ๆ ทั้งหมด ท้ายที่สุด ข้าต้องการขอบคุณ [owner.GetFirstName] ที่อุตส่าห์มาไกลถึงเพียงนี้!"
+ seduce_outcome.3302.a:0 "ขอให้เราอย่าได้พรากจากกันนานอีกเลย!"
+
+ seduce_outcome.3303.t:0 "เสียงกระซิบจากหัวใจ"
+ seduce_outcome.3303.desc:0 ""[ROOT.Char.Custom2('ComplimentSentence', SCOPE.sC('owner'))|U]."\n\n"ข้าจะไม่มีวันเบื่อรอยยิ้มอัน [target.Custom('quirk_pos_adjective')] ของท่านเลย" [owner.GetTitledFirstName] ตอบโต้พร้อมกับหน้าแดง "หรืออ้อมกอดของท่าน"\n\nคำชื่นชมพึมพำที่เราแบ่งปันกันในไม่ช้าก็กลายเป็นฟังไม่รู้เรื่อง แต่สิ่งที่มาแทนที่นั้นสื่อภาษาที่ชัดเจนยิ่งกว่า"
+ seduce_outcome.3303.a:0 "เราจะมีบทสนทนานี้ซ้ำแล้วซ้ำเล่า!"
+
+ seduce_outcome.3304.desc:0 "[owner.GetTitledFirstName] และข้านั่งยองๆ เคียงข้างกัน [owner.Custom('GetAnimalType')] [owner.Custom('GetAnimalAdjective')] เบื้องหน้าเราไม่รู้ถึงการมีอยู่ของเรา ความสนใจของข้าเองนั้นแน่วแน่ — โดยเฉพาะอย่างยิ่งเมื่อ[owner.Custom('GetClothingArticle')]ของ[owner.GetFirstNamePossessive] สัมผัสกับข้า เมื่อข้าเอื้อมมือไปโอบกอด[owner.GetHerHim] ข้าก็พบว่า[owner.GetSheHe] ก็ให้ความสนใจ[owner.GetHerHis] #EMP ไปที่อื่น#! เช่นกัน\n\nขณะที่[owner.Custom('GetAnimalType')] หายลับเข้าไปใน[ROOT.Char.Custom('TerrainType')] เนื้อหนังอันเปลือยเปล่าของเราก็ถูกโอบอุ้มด้วยผืนดินอันอ่อนนุ่มแล้ว เช่นเดียวกับ ซึ่งกันและกัน"
+ seduce_outcome.3304.a:0 "การที่เราจะอยู่ด้วยกันเป็นเรื่องธรรมชาติ!"
+
+ seduce_outcome.3305.desc:1 ""[letterAuthor.Custom2('love_letter', SCOPE.sC('love_letter_target'))]"\n\nความซาบซึ้งที่ข้ารู้สึกต่อ [owner.GetFirstName] ที่เขียนบทกวี เช่นนี้ให้ข้านั้นเทียบไม่ได้เลยกับความเร่าร้อนที่ข้าใช้ขอบคุณ[owner.GetHerHim]"
+ seduce_outcome.3305.a:0 "ให้ร่างกายของเราขับขานบทกวีร่วมกันเถิด [owner.Custom('LoverPetName')] ของข้า!"
+
+ seduce_outcome.3306.t:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))|U] อันเป็นที่รักของข้า"
+ seduce_outcome.3306.desc:0 "ขณะที่ข้ากลับไปยังห้องที่ข้าอยู่ร่วมกับ [owner.GetTitledFirstName] ข้าได้รับการต้อนรับด้วยภาพที่ไม่คาดคิด — แต่ก็น่าชื่นชม เตียงของเราถูกประดับด้วย [SCOPE.Custom('SeductionObjectMultiple')] และ [owner.GetFirstName] [owner.GetHerselfHimself] กำลังเอนกายอยู่บนนั้น ยิ้ม [owner.Custom('quirk_pos_adverb')]\n\nด้วยมือ ปาก และแขนขา เรายืนยันความภักดีที่เราสาบานไว้ต่อหน้า [ROOT.Char.GetFaith.HighGodName] อีกครั้ง – บางทีอาจในลักษณะทางเนื้อหนังมากกว่าที่ตั้งใจไว้"
+ seduce_outcome.3306.a:0 "ดังที่เราได้รวมกันในการสมรส บัดนี้เราได้รวมกันด้วยใจ!"
+
+ seduce_outcome.3307.t:0 "ชู้รักผู้ [owner.Custom2('InsultAdjective', ROOT.Char)|U] ของข้า"
+ seduce_outcome.3307.desc:0 "ขณะที่ [owner.GetTitledFirstName] เข้ามาใกล้ ข้าไม่รู้ว่าจะฉีกเสื้อผ้าออกจากร่างของ[owner.GetHerHis]หรือจะชกใบหน้าที่ยิ้มอย่าง [owner.Custom('quirk_neg_adjective')] ของ[owner.GetHerHis]ดี ข้าจุมพิต[owner.GetHerHim] – เป็นการท้าทาย — และ[owner.GetSheHe]ลากข้าเข้ามาใกล้ขึ้น — เป็นการตอบโต้อย่างเหมาะสม\n\nความรู้สึกขัดแย้งในอกข้าสะท้อนออกมาทางร่างกายของเรา เราใช้เวลาทั้งคืนมอบทั้งคำดูถูกและความสุขให้แก่กันและกัน"
+ seduce_outcome.3307.a:0 "จูบข้าอีกสิ เจ้า [owner.Custom2('InsultAdjective', ROOT.Char)] [owner.Custom2('InsultNoun', ROOT.Char)] ของข้า!"
+ seduce_outcome.3307.b:0 "ช่วงเวลาแห่งความอ่อนแอนี้ควรถูกลืมไปเสียดีกว่า"
+
+ seduce_outcome.3308.t:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('owner'))|U] อันเป็นที่รักของข้า"
+ seduce_outcome.3308.desc_illigal:0 "ขณะที่ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.Custom('ComplimentAdjective')] ของข้า [owner.GetTitledFirstName] ยิ้ม [owner.Custom('quirk_pos_adverb')] ข้าพบว่ายากที่จะจำได้ว่าแรงดึงดูดที่ข้ารู้สึกนั้นเป็นสิ่งที่ไม่เป็นที่ยอมรับ\n\nและแล้ว — ขณะที่[owner.GetSheHe]ดึง [ROOT.Char.Custom('GetUpperClothingArticle')] ของข้าขึ้นและปล่อยให้มือของ[owner.GetHerHis]ลูบไล้ไปทั่ว — ข้าพบว่าข้าไม่สนใจ "
+ seduce_outcome.3308.desc_not_illigal:0 "ขณะที่ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.Custom('ComplimentAdjective')] ของข้า [owner.GetTitledFirstName] ยิ้ม [owner.Custom('quirk_pos_adverb')] และฉีก [ROOT.Char.Custom('GetUpperClothingArticle')] ออกจากตัวข้า ข้าหลอมละลายในอ้อมแขนของ[owner.GetHerHis] [owner.GetSheHe|U] วางมือของ[owner.GetHerHis]รอบเอวข้า ปากของ[owner.GetHerHis]บนคอข้า ความปรารถนาอันรุ่มร้อนของ[owner.GetHerHis]แนบชิดกับของข้า...\n\n"
+ seduce_outcome.3308.a:0 "ความรักที่เราแบ่งปันกันจะผิดได้อย่างไร!"
+
+ seduce_outcome.3309.desc_opening:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] ของข้า [owner.GetTitledFirstName] เข้ามาหาข้าอย่างกระตือรือร้น"
+ seduce_outcome.3309.desc:0 "[ROOT.Char.Custom2('sex_scene', SCOPE.sC('owner'))]"
+
+ seduce_outcome.4001.t:0 "ความเจ็บปวดจากการถูกปฏิเสธ"
+ seduce_outcome.4001.incest.desc:0 ""ข้าชอบเจ้า [ROOT.Char.GetFirstNameNoTooltip] ข้าชอบเจ้าจริง ๆ" [target.GetTitledFirstName] ยิ้ม [target.Custom('quirk_pos_adverb')] ขณะที่[target.GetSheHe]ปฏิเสธข้า "แต่เจ้าคือ #EMP [target.Custom2('RelationToMe', SCOPE.sC('owner') )]#! ของข้า และนั่นคือ— เอาเถอะ ใครจะรู้ว่าอนาคตจะเป็น เช่นไร""
+ seduce_outcome.4001.regular.desc:0 ""เจ้าคือ[ROOT.Char.GetWomanMan] [target.Custom2('ComplimentAdjectiveArticle', ROOT.Char)] [ROOT.Char.GetFirstNameNoTooltip] แต่ข้าไม่ได้ชอบเจ้าในทางนั้น" [target.GetTitledFirstName] กล่าวและ [target.Custom('quirk_neg_present')] "มีเพียง [target.GetFaith.HighGodName] เท่านั้นที่รู้ว่าอนาคตจะเป็น เช่นไรสำหรับเรา""
+ seduce_outcome.4001.a:0 "โอ้... ใช่ แน่นอน..."
+
+ seduce_outcome.4002.desc:0 "เมื่อข้าย่างเข้าห้องของ [target.GetTitledFirstNamePossessive] ยามค่ำคืน ข้าไม่ได้รับการต้อนรับด้วยอ้อมกอดอันหอมหวาน แต่กลับเป็น [target.Custom2('InsultNoun', ROOT.Char)] ที่ยิ้มเยาะ!\n\n"ข้าทนกับความพยายามอันน่าหัวร่อของเจ้าที่จะยั่วยวนข้าเพียงเพื่อรักษามารยาท แต่เรื่องนี้ข้าสุดจะทน! อยู่ห่างๆ ข้าไปเลย เจ้า [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('target'))] [ROOT.Char.Custom2('InsultNounSexual', SCOPE.sC('target'))]!""
+ seduce_outcome.4002.a:0 "เออ เจ้าน่ะมัน... [target.Custom2('InsultAdjective', ROOT.Char)]... [target.Custom2('InsultNounSexual', ROOT.Char)]!"
+
+ seduce_outcome.4003.t:0 "ถูกเปิดโปง"
+ seduce_outcome.4003.plot.desc:0 "[target.GetTitledFirstName] ต้อนรับข้าด้วยรอยยิ้มเจ้าเล่ห์ และมืออันกระตือรือร้นของ[target.GetHerHis]ก็เริ่มจัดการกับกระดุมและเชือกผูกทันที ภายในไม่กี่จังหวะหัวใจเต้น ข้าก็ยืนเปลือยกายสั่นเทาอยู่ต่อหน้า[target.GetHerHim] แต่เมื่อข้าพยายามจะตอบแทน [target.GetFirstNameNoTooltip] ก็ผลักข้าออกไป — และกรีดร้อง!\n\n"ทหาร! มีผู้บุกรุกอยู่ในห้องของข้า! #EMP ทหาร!#!"\n\nเปลือยเปล่าราวทารกแรกเกิด ข้าวิ่งพรวดข้ามห้องและคลานออกทางหน้าต่าง"
+ seduce_outcome.4003.regular.desc:0 "ขณะที่ข้าปีนขึ้นไปที่หน้าต่างของ[target.GetTitledFirstNamePossessive] เสียงกรีดร้องด้วยความตกใจ[target.GetHerHis] ไม่ใช่การต้อนรับที่ข้าคาดหวังไว้! ข้าไม่มีเวลาหยุด[target.GetHerHim] ก่อนที่[target.GetSheHe] จะวิ่งไปที่ประตูและเปิดออก\n\n"ช่วยด้วย! ทหาร! มีผู้บุกรุกอยู่ในห้องของข้า!"\n\nก่อนที่ค่ำคืนนี้จะเลวร้ายไปกว่านี้ ข้าคลานกลับทางที่ข้ามา"
+ seduce_outcome.4003.a.plot:0 "เจ้า [target.Custom2('InsultAdjective', ROOT.Char)] [target.Custom2('InsultNoun', ROOT.Char)] นั่นจะต้องชดใช้!"
+ seduce_outcome.4003.a.regular:0 "ข้าอาจตัดสินความกระตือรือร้นของ[target.GetHerHis]ผิดไป"
+
+ seduce_outcome.4004.t:0 "เกมอันตราย"
+ seduce_outcome.4004.start.desc:0 "หัวใจข้าเต้นแรงราวกับค้อนทุบเมื่อข้าเคาะประตู"
+ seduce_outcome.4004.incest.desc:0 ""[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target') )] ที่รักยิ่ง เจ้าอยู่ที่นั่นหรือไม่? นี่ข้าเอง – [ROOT.Char.GetFirstNameNoTooltip]!""
+ seduce_outcome.4004.end.desc:0 "\n\nประตูแง้มเปิด เผยให้เห็น [target.GetFirstName] ที่เจ็บปวดรวดร้าว "ยกโทษให้ข้าด้วย [target.Custom2('RelationToMeShort', ROOT.Char)] แต่ข้าทำ เช่นนี้ไม่ได้ ข้าปรารถนา... ไม่ มันอันตรายเกินไป!"\n\nพูดไม่ออก [target.GetSheHe] จุมพิตข้าอย่างรวดเร็ว และกระแทกประตูปิดใส่หน้าข้า!"
+ seduce_outcome.4004.sodomy.desc:0 ""[target.Custom('LoverPetName')|U] เจ้าอยู่ที่นั่นหรือไม่? นี่ข้าเอง – [ROOT.Char.GetFirstNameNoTooltip]!""
+ seduce_outcome.4004.a:0 "ทำไมเราต้องสนใจด้วย? ได้โปรด เปิดประตู!"
+
+ seduce_outcome.4005.desc:0 "โครงไม้เลื้อยใต้หน้าต่างของ [target.GetTitledFirstNamePossessive] ดูไม่ค่อยแข็งแรงนัก แต่ไม่มีสิ่งใดจะขวางกั้นความปรารถนาแห่งไฟราคะของข้าได้! เมื่อสิ้นสุดการปีนป่ายอันแสนอันตราย นิ้วมือข้าก็เกาะขอบหน้าต่างของ [target.GetHerHis] ไว้มั่น\n\n"[target.GetFirstNameNoTooltip]! เปิดประตูเถิด [target.Custom('LoverPetName')] ของข้า! นี่ข้าเอง – [ROOT.Char.GetFirstNameNoTooltip]!" ข้าเคาะบานหน้าต่าง แต่ไร้เสียงตอบรับ\n\n"เจ้าเรียก [target_liege.Custom2('RelationToMeShort', SCOPE.sC('target'))] ของข้าว่ากระไรนะ เจ้า [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('target_liege'))] [ROOT.Char.Custom2('InsultNounSexual', SCOPE.sC('target_liege'))]?!" ข้าเงยหน้าขึ้น [target_liege.GetTitledFirstName] กำลังชะโงกตัวออกมาจากหน้าต่างบานที่อยู่เหนือข้าขึ้นไป!"
+ seduce_outcome.4005.a:0 "ถึงเวลาไปแล้ว ข้าคิด!"
+
+ seduce_outcome.4900.desc:0 "ข้ากำลังมุ่งหน้าไปยังห้องของข้าเพื่อเพลิดเพลินกับการนอนหลับอันเป็นสุข เมื่อข้าได้ยินเสียงกรอบแกรบเบาๆ จากหน้าต่าง แค่ลมกระมัง ข้าคิด — จนกระทั่งลมเริ่มพูด\n\n"[target.GetFirstNameNoTooltip]! เปิดประตูเถิด ที่รัก[target.Custom('LoverPetName')]ของข้า! นี่ข้าเอง – [owner.GetFirstNameNoTooltip]!" ข้าผลักบานเกล็ดเปิดออก และดูเถิด; [owner.GetWomanMan]ผู้หนึ่งได้ปีนขึ้นมาที่หน้าต่างของ[target.GetTitledFirstNamePossessive]! คือ[owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"
+ seduce_outcome.4900.a.family:0 "เจ้าเรียก [target_liege.Custom2('RelationToMeShort', SCOPE.sC('target'))] ของข้าว่ากระไรนะ เจ้า [owner.Custom2('InsultNounSexual', SCOPE.sC('target_liege'))]?!"
+ seduce_outcome.4900.a.courtier:0 "สาบานต่อ [ROOT.Char.GetFaith.DevilName] เจ้าไม่มียางอายเลยหรือ? ทหาร!"
+  
+ seduce_outcome.8101.t:1 "รักของ [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('owner') )|U]"
+ seduce_outcome.8101.desc:0 "ไม่ต้องสงสัยอีกต่อไปแล้ว [owner.GetTitledFirstName] – [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner') )] ของข้าเอง – ต้องการเป็นมากกว่าครอบครัว...\n\n"
+ seduce_outcome.8101.desc_positive:0 "แม้ข้าไม่อาจกล่าวได้ว่าความคิดนี้ไม่เคยผุดขึ้นในใจข้าเลย แต่การตระหนักรู้นี้ก็ยังคงน่าตกใจอยู่ดี"
+ seduce_outcome.8101.desc_neutral:0 "แม้ข้าจะนับถือ[owner.GetHerHim]อย่างสูง แต่การตระหนักรู้นี้ก็ยังคงน่าตกใจอยู่ดี"
+ seduce_outcome.8101.desc_negative:0 "ความวิปริตของ [ROOT.Char.Custom2('InsultNounSexual', SCOPE.sC('owner'))] ผู้นั้นไม่มีที่สิ้นสุดเลยหรือ?"
+ seduce_outcome.8101.a:0 "หยุดความบ้าคลั่งนี้เสีย! ข้าคือ #EMP [owner.Custom2('RelationToMe', SCOPE.sC('target') )] #! ของเจ้า!"
+ seduce_outcome.8101.c:0 "โลกจะได้รู้ถึงความวิปริตอันน่าขยะแขยงของเจ้า!"
+ seduce_outcome.8101.b:0 "เอาเถอะ ชีวิตจะมีความหมายอะไรหากปราศจากการตามใจตนเองบ้าง?"
+ seduce_outcome.8101.b.tt:0 "ข้าจะไม่ห้ามปราม [owner.GetFirstNameNoTooltip] จากการไล่ตามของ[owner.GetHerHis]"
+ 
+ seduce_outcome.blocked_from_seduction:0 "ข้าจะไม่สามารถพยายามเกี้ยว [target.GetTitledFirstName] ได้อีก"
+
+ seduce_outcome.8102.t:0 "ความเจ็บปวดจากการถูกปฏิเสธ"
+ seduce_outcome.8102.desc:0 ""เรื่องนี้มันเกินเลยไปแล้ว [target.Custom2('RelationToMe', SCOPE.sC('owner') )] ข้าคือ[owner.Custom2('RelationToMe', SCOPE.sC('target') )]ของท่านนะ เห็นแก่[ROOT.Char.GetFaith.HighGodNamePossessive]เถิด!"\n\n[target.GetFirstName] [target.Custom('quirk_neg_present')] ขณะที่[target.GetSheHe] แสดงความรังเกียจ[target.GetHerHis] ต่อการเกี้ยวพาราสีของข้าอย่างชัดเจน"
+ seduce_outcome.8102.a:0 "ข้าแน่ใจว่าเรามีความสัมพันธ์พิเศษต่อกัน!"
+
+ seduce_outcome.8103.t:0 "ถูกปฏิเสธและเปิดโปง"
+ seduce_outcome.8103.desc:0 ""ท่าน ทำให้ข้าขยะแขยง [owner.GetFirstNameNoTooltip] ข้าคือ[owner.Custom2('RelationToMe', SCOPE.sC('target') )]ของท่านนะ เห็นแก่[ROOT.Char.GetFaith.HighGodNamePossessive]เถิด! ข้าจะเปิดโปงความวิปริตอันน่าขยะแขยงของท่านให้กระจ่าง เชื่อคำพูดข้าได้เลย!"\n\n[target.GetFirstName] [target.Custom('quirk_neg_present')] ขณะที่[target.GetSheHe] แสดงความรังเกียจ[target.GetHerHis] ต่อการเกี้ยวพาราสีของข้าอย่างชัดเจน"
+ seduce_outcome.8103.a:0 "เจ้าจะทำ เช่นนี้กับ [target.Custom2('RelationToMe', SCOPE.sC('owner') )] ของเจ้าเองหรือ?!"
+
+ seduce_outcome.4100.desc:0 "ขณะออกไปเดินเล่น ข้าเห็น [target.GetFirstName] กวักมือเรียกข้าอยู่ไกล ๆ ข้าไล่ตามไป และหลังจากจับ[target.GetHerHim]ได้ เราก็ซ่อนตัวให้พ้นสายตา เราสำรวจร่างกายของกันและกันอย่างกระตือรือร้น และข้าถูกพัดพาไปในพายุแห่งจุมพิตอันเร่าร้อนและเสียงถอนหายใจหอบ ทันใดนั้น [target.GetFirstNameNoTooltip] ก็หยุดจุมพิตของเราโดยวางนิ้วบนริมฝีปากข้า\n\n"มันสนุกดี" [target.GetSheHe] กล่าวด้วยน้ำเสียงสบาย ๆ ขณะที่[target.GetSheHe]ผละออกไป "แต่ข้าเบื่อเกมนี้แล้ว ถึงเวลาที่ "
+ seduce_outcome.4100.desc_married:0 "ข้ากลับมารับผิดชอบในฐานะ[target_spouse.Custom2('RelationToMeShort', target)]ของ[target_spouse.GetTitledFirstNamePossessive]""
+ seduce_outcome.4100.desc_fallback:0 "ข้าจะมุ่งเน้นไปที่เป้าหมายที่ข้าตั้งไว้สำหรับตนเอง""
+ seduce_outcome.4100.a:0 ""เดี๋ยวก่อน มันไม่ควรจะเป็นแบบนี้!""

@@ -1,0 +1,165 @@
+﻿l_english: 
+ ################################################
+ # Standard loc keys, used in all English texts #
+ ################################################
+
+ #ComplimentAdjective
+ compliment_fair:0 "ยุติธรรม"
+ compliment_handsome:0 "สง่างาม" # ใช้คำกลางๆ ที่ใช้ได้ทั้งชายหญิง
+ compliment_impressive:0 "น่าประทับใจ"
+ compliment_benign:0 "อ่อนโยน"
+ compliment_implacable:0 "แน่วแน่"
+ compliment_modest:0 "ถ่อมตน"
+ compliment_charming:0 "มีเสน่ห์"
+ compliment_thoughtful:0 "รอบคอบ"
+ compliment_benevolent:0 "เปี่ยมเมตตา"
+ compliment_perceptive:0 "หลักแหลม"
+ compliment_sensible:0 "สุขุม"
+ compliment_serene:0 "สงบเยือกเย็น"
+ compliment_fallback:0 "อัธยาศัยดี"
+
+ #ComplimentAdjectiveArticle
+ compliment_fair_article:0 "ผู้ยุติธรรม"
+ compliment_handsome_article:0 "ผู้สง่างาม" # หรือ "สง่างาม"
+ compliment_impressive_article:0 "ผู้น่าประทับใจ" # หรือ "น่าประทับใจ"
+ compliment_benevolent_article:0 "ผู้เปี่ยมเมตตา" # หรือ "เปี่ยมเมตตา"
+ compliment_implacable_article:0 "ผู้แน่วแน่" # หรือ "แน่วแน่"
+ compliment_modest_article:0 "ผู้ถ่อมตน" # หรือ "ถ่อมตน"
+ compliment_charming_article:0 "ผู้มีเสน่ห์" # หรือ "มีเสน่ห์"
+ compliment_benign_article:0 "ผู้อ่อนโยน" # หรือ "อ่อนโยน"
+ compliment_thoughtful_article:0 "ผู้รอบคอบ" # หรือ "รอบคอบ"
+ compliment_perceptive_article:0 "ผู้หลักแหลม" # หรือ "หลักแหลม"
+ compliment_sensible_article:0 "ผู้สุขุม" # หรือ "สุขุม"
+ compliment_serene_article:0 "ผู้สงบเยือกเย็น" # หรือ "สงบเยือกเย็น"
+ compliment_fallback_article:0 "ผู้อัธยาศัยดี" # หรือ "อัธยาศัยดี"
+
+ #ComplimentSentence
+ compliment_sentence_comfortable:0 "ข้ารู้สึกสบายใจอย่างยิ่งยามอยู่ใกล้ท่าน"
+ 
+ #FormalComplimentAdjective
+ formal_compliment_great:0 "ยิ่งใหญ่"
+ formal_compliment_venerable:0 "น่าเคารพยิ่ง"
+ formal_compliment_pious:0 "ศรัทธาแก่กล้า"
+ formal_compliment_magnanimous:0 "ใจกว้าง"
+ formal_compliment_noble_lady:0 "สตรีสูงศักดิ์"
+ formal_compliment_noble:0 "สูงศักดิ์"
+ formal_compliment_gallant:0 "กล้าหาญชาญชัย"
+ formal_compliment_chivalrous:0 "เยี่ยงอัศวิน"
+ formal_compliment_mighty: "ทรงพลัง"
+ formal_compliment_elegant:0 "สง่างาม"
+ formal_compliment_stately:0 "สง่าผ่าเผย"
+ formal_compliment_gracious:0 "เปี่ยมกรุณา"
+ formal_compliment_affable:0 "อัธยาศัยดี"
+ formal_compliment_amiable:0 "น่าคบหา"
+ formal_compliment_dignified:0 "ทรงเกียรติ"
+ formal_compliment_glorious: "รุ่งโรจน์"
+
+
+ #Romantic Compliments 
+ compliment_brave:0 "กล้าหาญ"
+ compliment_kind_hearted:0 "จิตใจดีงาม"
+ compliment_heroic:0 "เยี่ยงวีรชน" # ใช้คำกลางๆ
+ compliment_sweet:0 "อ่อนหวาน"
+ compliment_fearless:0 "อาจหาญ"
+ compliment_winsome:0 "มีเสน่ห์ชวนมอง"
+ compliment_virtuous:0 "เปี่ยมคุณธรรม"
+ compliment_saucy:0 "ซุกซน"
+ compliment_festive:0 "ร่าเริงแจ่มใส"
+ compliment_noble:0 "สูงศักดิ์"
+ compliment_rowdy:0 "ห้าวหาญ"
+ compliment_affable:0 "อัธยาศัยดี"
+ compliment_enchanting:0 "งามจับใจ"
+ compliment_gallant:0 "กล้าหาญชาญชัย"
+ compliment_sunbeam:0 "ดั่งแสงตะวัน"
+ compliment_star:0 "ดั่งดวงดารา"
+ compliment_beauty:0 "โฉมงาม"
+ compliment_flower:0 "ดอกไม้งาม"
+ compliment_turtle_dove:0 "นกเขาคู่รัก"
+ compliment_vision:0 "ดั่งภาพฝัน"
+ compliment_angel:0 "ดุจเทพยดา" # ใช้คำกลางๆ
+ compliment_paragon:0 "ยอดมณี"
+ compliment_lionheart:0 "ใจสิงห์"
+ compliment_lion:0 "ราชสีห์" # โดยทั่วไปหมายถึงตัวผู้ แต่ใช้เปรียบเปรยได้
+ compliment_bonny:0 "โสภา"
+ compliment_sweetheart:0 "แก้วใจ"
+ compliment_treasure:0 "ของล้ำค่า"
+ compliment_pearl:0 "ไข่มุกงาม"
+ compliment_graceful:0 "อ่อนช้อยงดงาม"
+ compliment_stallion:0 "ชายชาตรี" # คำเปรียบเปรยสำหรับชาย
+ compliment_stag:0 "ชายฉกรรจ์" # คำเปรียบเปรยสำหรับชาย
+ compliment_delightful:0 "น่าพึงใจ"
+ compliment_vixen:0 "แม่จิ้งจอกสาว" # คำเปรียบเปรยสำหรับหญิง
+ compliment_minx:0 "แม่สาวน้อยเจ้าเล่ห์" # คำเปรียบเปรยสำหรับหญิง
+ compliment_beast:0 "จอมพลัง" # ใช้ได้ทั้งชายหญิง
+ compliment_stud:0 "พ่อพวงมาลัย" # คำเปรียบเปรยสำหรับชาย
+ compliment_temptress:0 "แม่เนื้ออุ่น" # คำเปรียบเปรยสำหรับหญิง
+ compliment_siren:0 "นางไซเรน" # คำเปรียบเปรยสำหรับหญิง
+ compliment_enchantress:0 "นางผู้ร่ายมนตร์" # คำเปรียบเปรยสำหรับหญิง
+
+ ###########################################################################################
+ # Female-tagged keys, for translations which require adjectives to have assigned genders. #
+ ###########################################################################################
+
+ #ComplimentAdjective
+ compliment_impressive_female:0 "น่าประทับใจ"
+ compliment_benign_female:0 "อ่อนโยน"
+ compliment_implacable_female:0 "แน่วแน่"
+ compliment_modest_female:0 "ถ่อมตน"
+ compliment_charming_female:0 "มีเสน่ห์"
+ compliment_thoughtful_female:0 "รอบคอบ"
+ compliment_benevolent_female:0 "เปี่ยมเมตตา"
+ compliment_perceptive_female:0 "หลักแหลม"
+ compliment_sensible_female:0 "สุขุม"
+ compliment_serene_female:0 "สงบเยือกเย็น"
+ compliment_fallback_female:0 "อัธยาศัยดี"
+
+ #ComplimentAdjectiveArticle
+ compliment_impressive_article_female:0 "ผู้น่าประทับใจ" # หรือ "น่าประทับใจ"
+ compliment_benevolent_article_female:0 "ผู้เปี่ยมเมตตา" # หรือ "เปี่ยมเมตตา"
+ compliment_implacable_article_female:0 "ผู้แน่วแน่" # หรือ "แน่วแน่"
+ compliment_modest_article_female:0 "ผู้ถ่อมตน" # หรือ "ถ่อมตน"
+ compliment_charming_article_female:0 "ผู้มีเสน่ห์" # หรือ "มีเสน่ห์"
+ compliment_benign_article_female:0 "ผู้อ่อนโยน" # หรือ "อ่อนโยน"
+ compliment_thoughtful_article_female:0 "ผู้รอบคอบ" # หรือ "รอบคอบ"
+ compliment_perceptive_article_female:0 "ผู้หลักแหลม" # หรือ "หลักแหลม"
+ compliment_sensible_article_female:0 "ผู้สุขุม" # หรือ "สุขุม"
+ compliment_serene_article_female:0 "ผู้สงบเยือกเย็น" # หรือ "สงบเยือกเย็น"
+ compliment_fallback_article_female:0 "ผู้อัธยาศัยดี" # หรือ "อัธยาศัยดี"
+ 
+ #FormalComplimentAdjective
+ formal_compliment_great_female:0 "ยิ่งใหญ่"
+ formal_compliment_venerable_female:0 "น่าเคารพยิ่ง"
+ formal_compliment_pious_female:0 "ศรัทธาแก่กล้า"
+ formal_compliment_magnanimous_female:0 "ใจกว้าง"
+ formal_compliment_elegant_female:0 "สง่างาม"
+ formal_compliment_stately_female:0 "สง่าผ่าเผย"
+ formal_compliment_gracious_female:0 "เปี่ยมกรุณา"
+ formal_compliment_affable_female:0 "อัธยาศัยดี"
+ formal_compliment_amiable_female:0 "น่าคบหา"
+ formal_compliment_dignified_female:0 "ทรงเกียรติ"
+
+ #Romantic Compliments 
+ compliment_brave_female:0 "กล้าหาญ"
+ compliment_kind_hearted_female:0 "จิตใจดีงาม"
+ compliment_heroic_female:0 "เยี่ยงวีรสตรี" # สามารถใช้คำเฉพาะเพศได้ในบริบทโรแมนติก
+ compliment_sweet_female:0 "อ่อนหวาน"
+ compliment_fearless_female:0 "อาจหาญ"
+ compliment_winsome_female:0 "มีเสน่ห์ชวนมอง"
+ compliment_virtuous_female:0 "เปี่ยมคุณธรรม"
+ compliment_saucy_female:0 "ซุกซน"
+ compliment_festive_female:0 "ร่าเริงแจ่มใส"
+ compliment_noble_female:0 "สูงศักดิ์"
+ compliment_rowdy_female:0 "ห้าวหาญ"
+ compliment_affable_female:0 "อัธยาศัยดี"
+ compliment_enchanting_female:0 "งามจับใจ"
+ compliment_gallant_female:0 "กล้าหาญชาญชัย" # ใช้ได้ทั้งสองเพศ
+ compliment_sunbeam_female:0 "ดั่งแสงตะวัน"
+ compliment_star_female:0 "ดั่งดวงดารา"
+ compliment_vision_female:0 "ดั่งภาพฝัน"
+ compliment_angel_female:0 "ดุจนางฟ้า" # สามารถใช้คำเฉพาะเพศได้ในบริบทโรแมนติก
+ compliment_paragon_female:0 "ยอดมณี"
+ compliment_lionheart_female:0 "ใจสิงห์" # ใช้ได้ทั้งสองเพศ
+ compliment_bonny_female:0 "โสภา"
+ compliment_treasure_female:0 "ของล้ำค่า"
+ compliment_graceful_female:0 "อ่อนช้อยงดงาม"
+ compliment_delightful_female:0 "น่าพึงใจ"

@@ -1,0 +1,159 @@
+﻿l_english: 
+ ##########
+ #DRUNKARD#
+ ##########
+
+ #############
+ #HASHISHIYAH#
+ #############
+ stress_trait_ongoing.0501.t:0 "ยามเย็นอันผ่อนคลาย"
+ stress_trait_ongoing.0501.desc:0 "ภารกิจการปกครองช่างน่าเคร่งเครียดเหลือเกินในช่วงนี้ หากไม่ใช่เรื่องนี้ ก็เป็นเรื่องนั้น หากไม่ใช่เรื่องนั้น ก็เป็นเรื่องนี้ ขบวนแห่ไม่รู้จบของชาวนา นักบวช และปัญหา ทั้งหมดคาดหวังให้ #EMP ข้า#! แก้ไขทุกข้อกังวลเล็กน้อยของพวกเขา\n\nข้าสมควรได้รับวันพักผ่อนส่วนตัว โดยไม่มีผู้มาขอความช่วยเหลือหรือผู้ร้องทุกข์ ไม่มีนักการทูตหรือผู้พิพากษา มีเพียงข้ากับขนมผสมกัญชาจานใหญ่นี้..."
+ stress_trait_ongoing.0501.adventurer: "ภารกิจการนำค่ายช่างตึงเครียดเหลือเกินเมื่อเร็วๆ นี้ หากไม่ใช่เรื่องนี้ ก็เป็นเรื่องนั้น หากไม่ใช่เรื่องนั้น ก็เป็นเรื่องนี้ รายการภารกิจเล็กน้อย ปัญหา และคำถามที่ไม่รู้จบ ล้วนรอคอยทางแก้ #EMP ของข้า#! \n\nข้าสมควรได้มีวันเป็นของตัวเอง ปราศจากการพูดปลุกใจหรือสุนทรพจน์ ไม่มีการฝึกฝนหรือการประชุม มีเพียงข้ากับเค้กฮาชิชจานใหญ่นี้..."
+ stress_trait_ongoing.0501.administrative: "ภารกิจการนำตระกูล [ROOT.Char.GetDynastyHouse.GetBaseNameNoTooltip] ช่างตึงเครียดเหลือเกินเมื่อเร็วๆ นี้ หากไม่ใช่เรื่องนี้ ก็เป็นเรื่องนั้น หากไม่ใช่เรื่องนั้น ก็เป็นเรื่องนี้ รายการภารกิจเล็กน้อย ปัญหา และคำถามที่ไม่รู้จบ ล้วนรอคอยทางแก้ #EMP ของข้า#! \n\nข้าสมควรได้มีวันเป็นของตัวเอง ปราศจากการวางแผนหรือการประจบประแจง ไม่มีการประจบสอพลอหรือการเสกสรรปั้น แต่ง มีเพียงข้ากับเค้กฮาชิชจานใหญ่นี้..."
+ stress_trait_ongoing.0501.a:0 "กลับไปทำงาน!"
+ stress_trait_ongoing.0501.b:0 "ก็แค่วันหยุดวันเดียว..."
+ overworking_diplomacy_modifier:0 "ทำงานหนักเกินไปด้านการทูต"
+ overworking_diplomacy_modifier_desc:0 "$overworking_stewardship_modifier_desc$"
+ overworking_martial_modifier:0 "ทำงานหนักเกินไปด้านการทหาร"
+ overworking_martial_modifier_desc:0 "$overworking_stewardship_modifier_desc$"
+ overworking_stewardship_modifier:0 "ทำงานหนักเกินไปด้านการคลัง"
+ overworking_stewardship_modifier_desc:0 "ตัวละครนี้ให้ความสำคัญกับงานมากกว่าสุขภาพจิตของตนเอง"
+ overworking_intrigue_modifier:0 "ทำงานหนักเกินไปด้านเล่ห์กล"
+ overworking_intrigue_modifier_desc:0 "$overworking_stewardship_modifier_desc$"
+ overworking_learning_modifier:0 "ทำงานหนักเกินไปด้านการเรียนรู้"
+ overworking_learning_modifier_desc:0 "$overworking_stewardship_modifier_desc$"
+ stress_trait_ongoing.0506.t:0 "ความบรรเทาอันหอมหวาน"
+ stress_trait_ongoing.0506.desc_leper:0 "โรคร้ายที่กัดกินนี้ค่อยๆ ทำลายร่างกายข้า ทำให้เนื้อหนังหลุดลอกไปวันแล้ววันเล่า ข้าอาจเป็น [ROOT.GetCharacter.GetTitleAsNameNoTooltip] แต่บางครั้งข้าก็กลัวว่า [ROOT.Char.Custom(GetCourtierPlural)] ของข้าจะมองมาที่ข้าและเห็นเพียงคนโรคเรื้อน"
+ stress_trait_ongoing.0506.desc_gout_ridden:0 "ความเจ็บปวดที่เต้นตุบๆ ในแขนขาของข้าช่างทรมานเหลือเกิน ความเจ็บปวดที่ค่อยๆ ก่อตัวขึ้นหลายชั่วโมง ทำให้ข้าพิการวันแล้ววันเล่า บางครั้งข้าก็สงสัยว่ามันจะดีกว่าหรือแย่กว่าหากมันคงที่ แทนที่จะต้องเผชิญกับคลื่นแห่งความทรมานจากอาการปวดตุบๆ ไปสู่ความทรมานที่แผดเผาและกลับมาอีกครั้งใน แต่ละครั้ง"
+ stress_trait_ongoing.0506.desc_cancer:0 "สัปดาห์แล้วสัปดาห์เล่าผ่านไป เป็นเกมแห่งการรอคอยความเจ็บปวดที่แล่นปราดนี้หรือนั่น บางวันก็พอทนได้ แต่บางวันข้าแทบจะขยับตัวหรือพูดไม่ได้ และลมหายใจของข้าก็ช้าลงเรื่อยๆ ข้ารู้สึกได้ว่าเวลาที่เหลืออยู่บนโลกของข้ากำลังหมดไป ถูกปล้นไปโดยเนื้อร้ายที่กำลังฆ่าร่างกายของข้า"
+ stress_trait_ongoing.0506.desc_disfigured:1 "บาดแผลของข้าอาจหายดีภายนอก แต่ภายใน ความเจ็บปวดจากความเสียโฉมของข้ายังคงแผดเผา ข้าลูบรอยแผลเป็นเก่าด้วยนิ้วเดียว และความทรงจำแห่งความทุกข์ทรมานก็หลั่งไหลกลับมา"
+ stress_trait_ongoing.0506.desc_maimed:0 "ข้าไอ ขากเสลดปนเลือดออกมา ข้าไม่รู้ด้วยซ้ำว่านั่นเป็นปัญหาใหม่หรือไม่ ด้วยความเจ็บปวดอย่างต่อเนื่องที่ทรมานร่างกายที่พิการและพังทลายของข้า"
+ stress_trait_ongoing.0506.desc_one_eyed:0 "เบ้าตาว่างเปล่าที่เคยเป็นที่อยู่ของดวงตาข้ายังคงเจ็บปวดอยู่บ้าง บางครั้ง ส่วนใหญ่เป็นอาการปวดแปลบ ภาพหลอนแปลกๆ และภาพรูปร่างผิดธรรมชาติที่ปะทุขึ้นในวันที่เลวร้ายที่สุด"
+ stress_trait_ongoing.0506.desc_one_legged:0 "ข้ากดนิ้วลงบนตอขาที่ขรุขระของขาที่หายไป บางครั้ง โดยเฉพาะอย่างยิ่งเมื่อข้าเดินไปตามเส้นทางที่คุ้นเคย ข้ายังคงรู้สึกถึงมันได้ ความเจ็บปวดจากการถูกตัดแขนขาหลั่งไหลกลับมา จริงแท้ดังเคย ท่วมท้นสมองของข้า"
+ stress_trait_ongoing.0506.desc_wounded:0 "ข้าสะดุ้งเมื่อนิ้วของข้าคลำบาดแผล พวกมันกลับมาพร้อมฝุ่นสะเก็ดแผลสีดำแดง พร้อมกับความเจ็บปวดที่แล่นปราดอย่างรุนแรง ทำให้ข้ารู้ว่าบาดแผลของข้ายังคงสดและเจ็บปวดอยู่มาก"
+ stress_trait_ongoing.0506.desc_fallback:0 "ความเจ็บปวดนี้ทรมานร่างกายข้า เป็นความทรมานที่รุนแรงเกินกว่าสมองที่บอบช้ำของข้าจะรับไหว ข้าต้องการการบรรเทาบางอย่าง เพียงแค่วิธีที่จะรับมือได้"
+ stress_trait_ongoing.0506.desc:0 "\n\nฮาชิชควรจะบรรเทาความเจ็บปวดได้ชั่วคราว คำถามเดียวคือจะบริโภคมันเพียงลำพัง หรือว่าการมีเพื่อนร่วมทางจะช่วยให้ข้าร่าเริงขึ้น [medication_friend.GetTitledFirstName] ได้ถามว่าข้าต้องการเพื่อนในเย็นนี้หรือไม่..."
+ stress_trait_ongoing.0506.a:0 "ข้าเพียงต้องการอยู่ตามลำพังชั่วครู่"
+ hashish_alone_modifier:0 "บำบัดเพียงลำพัง"
+ hashish_alone_modifier_desc:0 "ตัวละครนี้กำลังจัดการความเจ็บปวดด้วยเค้กฮาชิชในยามเย็น"
+ stress_trait_ongoing.0506.b:0 "บางที [medication_friend.GetFirstNameNoTooltip] อาจสนใจจะร่วมด้วย?"
+ hashish_with_friend_modifier:0 "บำบัดพร้อมสหาย"
+ hashish_with_friend_modifier_desc:0 "ตัวละครนี้กำลังใช้เวลายามเย็นร่วมกับสหายที่ดีและฮาชิชชั้นเลิศ"
+ stress_trait_ongoing.0511.t:0 "มันเป็น เช่นนี้เสมอมา"
+ stress_trait_ongoing.0511.desc:0 "ข้ากำลังเพลิดเพลินกับยามเย็นอันเย็นสบาย นั่งเคี้ยวขนมเค้กหวานโรยหน้าฮาชิชกองเล็กๆ อย่างสบายๆ ทันใดนั้นข้าก็รู้สึกถึงลมหายใจหนักๆ ที่มีน้ำลายกระเซ็นของ [crusty_old_person.GetTitledFirstName] ผู้โกรธเกรี้ยวบนแก้มของข้า\n\n\"วางพุ่มไม้ต้องสาปนั่นลง [ROOT.GetCharacter.GetFirstNameNoTooltip] แล้วเลิก ทำให้จิตใจของเจ้ามัวหมองเสีย! [crusty_old_person.GetFaith.HighGodName] ไม่ได้ส่งเจ้ามาบนโลกนี้ เพื่อให้เจ้าเสียเวลาไปกับความมึนงง!\""
+ stress_trait_ongoing.0511.a:0 "ท่านพูดถูก! ข้าต้องหยุดสิ่งนี้ทันที"
+ stress_trait_ongoing.0511.a_flavour:0 "ท่านโยนเค้กฮาชิชทิ้งไป"
+ stress_trait_ongoing.0511.b:0 "<สูดหายใจลึก> เห็นด้วย #EMP ผู้อาวุโส#!."
+ stress_trait_ongoing.0511.b_flavour:0 "กิน. ทุก. ชิ้น. ให้หมด."
+ stress_trait_ongoing_0516.t:0 "จิตใจที่ล่อง—"
+ stress_trait_ongoing_0516.desc:0 "\"—และนั่นคือเหตุผลที่การประชุมครั้งนี้สำคัญมาก\"\n\nหือ? โอ้ ใช่ การประชุมกับ [important_guest.GetTitledFirstName] เกี่ยวกับ... บางอย่าง เรากำลังพูดถึงเรื่อง #EMP อะไร#! กันนะ? [important_guest.GetSheHe|U] ดูจริงจังกับมันมาก ไม่ว่ามันจะเป็นอะไรก็ตาม\n\nข้าเอื้อมมือไปหยิบเค้กโรยหน้าฮาชิชอีกชิ้น แล้วเริ่มกัดกินอย่างครุ่นคิด [important_guest.GetFirstNameNoTooltip] เลิกคิ้วกับการหยุดชะงักอย่างว่างเปล่าของข้า และข้าก็นึกขึ้นได้ว่าบางทีข้าอาจจะกินเค้กไป #EMP มาก#! เกินไปสองสามชิ้น"
+ stress_trait_ongoing.0516.a:0 "ใช่ แน่นอน เป็นการประชุมที่สำคัญยิ่ง..."
+ stress_trait_ongoing.0516.a.tt_success:0 "[important_guest.GetFirstNameNoTooltip] ประทับใจในการตอบสนองที่สงบและมั่นคงของท่าน"
+ stress_trait_ongoing.0516.a.tt_fail:0 "ขุ่นเคืองกับอาการมึนเมาที่เห็นได้ชัดของท่าน"
+ stress_trait_ongoing.0516.b:0 "ข้าขออภัย แต่ข้ารู้สึกไม่ค่อยสบาย"
+ stress_trait_ongoing.0516.b_flavour:0 "ท่านหลบออกจากการประชุมก่อนเวลาและไปนอนพัก"
+ stress_trait_ongoing.0516.c:0 "ผ่อนคลายหน่อย [important_guest.GetFirstNameNoTooltip] ลองฮาชิชสักหน่อยสิ!"
+ stress_trait_ongoing.0516.c_flavour:0 "ท่านให้คนรับใช้นำเค้กมาเพิ่มเพื่อแบ่งปัน"
+
+ ###########
+ #RECLUSIVE#
+ ###########
+
+ ########
+ #RAKISH#
+ ########
+ stress_trait_ongoing.1501.t:0 "ความหลงใหล"
+ stress_trait_ongoing.1501.desc_1_a:0 "ข้าเหลือบเห็นร่องอกอันยั่วยวนของ [obsession.GetTitledFirstNamePossessive] เมื่อข้าเดินผ่าน [obsession.GetHerHim] เมื่อเช้านี้"
+ stress_trait_ongoing.1501.desc_1_b:0 "ข้าสังเกตเห็นส่วนนูนที่บ่งบอกบางอย่างยื่นออกมาจากกางเกงรัดรูปของ [obsession.GetTitledFirstNamePossessive] เมื่อข้าเดินผ่าน [obsession.GetHerHim] เมื่อเช้านี้"
+ stress_trait_ongoing.1501.desc_1_c:0 "[obsession.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ยิ้มให้ข้าอย่างอบอุ่นเมื่อข้าเดินผ่าน [obsession.GetHerHim] เมื่อเช้านี้"
+ stress_trait_ongoing.1501.desc_1_d:0 "ข้าอดไม่ได้ที่จะปล่อยให้สายตาของข้าจับจ้องไปทั่วร่างของ [obsession.GetTitledFirstNamePossessive] เมื่อข้าเดินผ่าน [obsession.GetHerHim] เมื่อเช้านี้"
+ stress_trait_ongoing.1501.bridge:0 "นับตั้งแต่นั้นมา ข้าก็ไม่สามารถหยุดคิดถึง [obsession.GetHerHim] ได้ และจินตนาการอันลามกของข้าก็คอยกวนใจข้าจากการทำงานอยู่เรื่อย\n\n"
+ stress_trait_ongoing.1501.desc_2_a:0 "หน้าอกอวบอิ่มของ[obsession.GetHerHis|U],"
+ stress_trait_ongoing.1501.desc_2_b:0 "สะโพกผายของ[obsession.GetHerHis|U],"
+ stress_trait_ongoing.1501.desc_2_c:0 "ความเป็นชายอันยั่วยวนของ[obsession.GetHerHis|U],"
+ stress_trait_ongoing.1501.desc_2_d:0 "ร่างอรชรของ[obsession.GetHerHis|U],"
+ stress_trait_ongoing.1501.desc_2_e:0 "ไหล่กว้างของ[obsession.GetHerHis|U],"
+ stress_trait_ongoing.1501.desc_2_f:0 "รูปร่างน่าดึงดูดของ[obsession.GetHerHis|U],"
+ stress_trait_ongoing.1501.desc_3_a:0 "ท่วงท่าที่ร่างอันคล่องแคล่วของ[obsession.GetHerHis]เคลื่อนไหวไป..."
+ stress_trait_ongoing.1501.desc_3_b:0 "ท่วงท่าที่ร่างอวบอั๋นของ[obsession.GetHerHis]โยกย้ายขณะที่[obsession.GetSheHe]เดินไป..."
+ stress_trait_ongoing.1501.desc_3_c:0 "ท่วงท่าที่กล้ามเนื้อของ[obsession.GetHerHis]เกร็งตัวใต้ผิวหนังขณะที่[obsession.GetSheHe]เดินผ่านไป..."
+ stress_trait_ongoing.1501.desc_3_d: "ความสง่างามและศักดิ์ศรีที่ [obsession.GetSheHe] วางตัว[obsession.GetHerselfHimself]ด้วย..."
+ stress_trait_ongoing.1501.desc_3_e:0 "ท่วงท่าที่[obsession.GetSheHe]เดินด้อมๆ มองๆ อย่างซุกซนไปทั่ว [ROOT.Char.Custom('ResidenceBuilding')]..."
+ stress_trait_ongoing.1501.desc_3_f:0 "จังหวะการเดินที่มั่นคงขณะที่[obsession.GetSheHe]เดินไป..."
+ stress_trait_ongoing.1501.end:0 "มันมากเกินไปแล้ว! ข้าต้องหาทางบรรเทาจากความหลงใหลนี้ มิฉะนั้นข้าจะไม่มีวันทำอะไรสำเร็จ!"
+ stress_trait_ongoing.1501.warning:0 "\n\nอนิจจา ข้ารู้ว่า [obsession.GetFirstName] ไม่มีความสนใจใน [ROOT.Char.GetWomenMen] และ ดังนั้น [obsession.GetSheHe] จะไม่มีความสนใจในตัวข้า"
+ stress_trait_ongoing.1501.a:0 "ข้าต้องรู้ให้ได้ว่า [obsession.GetSheHe] รู้สึก เช่นเดียวกันหรือไม่!"
+ stress_trait_ongoing.1501.a.flavor:0 "สิ่งนี้จะคลี่คลายเรื่องต่างๆ ไม่ทางใดก็ทางหนึ่ง"
+ stress_trait_ongoing.1501.a.success:0 "[obsession.GetTitledFirstName] ก็ปรารถนาในตัวข้า เช่นกัน"
+ stress_trait_ongoing.1501.a.failure:0 "[obsession.GetTitledFirstName] ปฏิเสธการเข้าหาของข้า"
+ stress_trait_ongoing.1501.b:0 "การเพ้อฝันเล็กน้อยคงไม่เสียหายกระมัง?"
+ stress_trait_ongoing.1501.b.flavor:0 "การอยู่ตามลำพังบ้างจะช่วยบรรเทาได้ชั่วคราว อย่างน้อยก็"
+ stress_trait_ongoing.1501.c:0 "การไปซ่องนางโลมจะช่วยให้ข้าเลิกคิดถึง [obsession.GetHerHim] ได้..."
+ stress_trait_ongoing.1501.c.flavor:0 "#EMP ใครสักคน#! ที่นั่นย่อมช่วยให้ข้าผ่านพ้นเรื่องนี้ไปได้อย่างแน่นอน"
+ stress_trait_ongoing.1501.d:0 "ข้าไม่ควรปฏิบัติต่อ [obsession.GetFirstNameNoTooltip] ราวกับเป็นสิ่งของ เช่นนี้ มัน #EMP ผิด#!!"
+ stress_trait_ongoing.1501.d.flavor:0 "ความหลงใหลนี้ทั้งไม่ยุติธรรมต่อ [obsession.GetHerHim] และเป็นอันตรายต่อข้า"
+
+ ###########
+ #IRRITABLE#
+ ###########
+
+ ############
+ #FLAGELLANT#
+ ############
+
+ #############
+ #IMPROVIDENT#
+ #############
+
+ ############
+ #PROFLIGATE#
+ ############
+
+ ##########
+ #CONTRITE#
+ ##########
+
+ ###############
+ #COMFORT EATER#
+ ###############
+
+ #############
+ #INAPPETETIC#
+ #############
+ stress_trait_ongoing.4501.t:0 "ไม่มีอะไรให้กินสักคำ"
+ stress_trait_ongoing.4501.desc:0 "สองสามสัปดาห์ที่ผ่านมานี้ตึงเครียดเป็นพิเศษ และสิ่งที่ข้าต้องการทั้งหมดคือ [ROOT.Char.Custom('FavoriteTreat')] อร่อยๆ สักชิ้น... หรืออาจจะหลายชิ้น...\n\nให้ตายสิ บางทีอาจจะทั้งโต๊ะเลย!\n\nอนิจจา พ่อครัวของข้าแจ้งว่าเขาไม่มีเหลือแล้ว และไม่มีวัตถุดิบที่จะทำเพิ่มด้วย"
+ stress_trait_ongoing.4501.a:0 "เอาเหรียญเหล่านี้ไป ไม่ว่าจะต้องทำอย่างไร หาอาหารมาให้ข้า!"
+ stress_trait_ongoing.4501.b:0 "เจ้ามี #EMP อะไร#! บ้างที่พอจะสนองความอยากของข้าได้?"
+ stress_trait_ongoing.4501.b.success:0 "ท่านค้นพบของหวานโปรดชนิดใหม่"
+ stress_trait_ongoing.4501.b.cannibal:0 "ท่านเริ่มติดใจในรสชาติเนื้อมนุษย์"
+ stress_trait_ongoing.4501.b.failure:0 "ความอยากของท่านไม่ได้รับการสนอง"
+ stress_trait_ongoing.4501.c:0 "เฮ้อ... ข้าคงต้องทนไม่มีไปก่อน"
+
+ stress_trait_ongoing.4502.t:0 "ความหิวโหย"
+ stress_trait_ongoing.4502.desc:0 "สองสามสัปดาห์ที่ผ่านมานี้ตึงเครียดเป็นพิเศษ และสิ่งที่ข้าต้องการทั้งหมดคือเนื้อชิ้นงามๆ ชุ่มฉ่ำ เนื้อส่วนที่นุ่มอย่างเนื้อสัน หรืออาจจะเป็นซี่โครง?\n\nปากของข้าน้ำลายสอเมื่อนึกถึง และข้ารู้ว่าข้าไม่อาจยับยั้งความหิวโหยได้ ไม่ใช่ครั้งนี้"
+ stress_trait_ongoing.4502.a:0 "คงไม่มีใครคิดถึง [prisoner.GetTitledFirstNameNoTooltip] หรอก"
+ stress_trait_ongoing.4502.b:0 "อย่างไรเสีย [courtier.GetTitledFirstNameNoTooltip] ก็สมควรแล้วที่มันจะเกิดกับ[courtier.GetHerHim]..."
+ stress_trait_ongoing.4502.c:0 "ได้เวลาเดินทางลงไปยัง [hapless_village.GetNameNoTier] แล้ว!"
+
+ stress_trait_ongoing.5001.t:0 "งานเลี้ยงแห่งเจตนา"
+ stress_trait_ongoing.5001.desc:0 ""ตามข้ามา [ROOT.Char.GetTitledFirstName] ข้ามีเรื่องประหลาดใจให้ท่าน!" [giver.Custom2('MyCharacterIntroduction', ROOT.Char)] กล่าวอย่างตื่นเต้น "ข้าสังเกตเห็นว่าท่านทานอาหารได้ไม่ดีนัก ข้าจึงใช้เวลาหลายสัปดาห์เสาะหาอาหารอันโอชะที่หายากที่สุดเท่าที่ข้าจะหาได้!"\n\nเมื่อตาม [giver.GetHerHim] ไป ข้าเห็นโต๊ะที่เต็มไปด้วยอาหารเลิศรสหลากหลายชนิด [ROOT.Char.Custom('GetExpensiveMeal')|U] และ [ROOT.Char.Custom('GetExpensiveMealAlt')]... [ROOT.Char.Custom('GetExpensiveDessert')]... เพียงแค่กลิ่นก็ ทำให้ข้าท้องไส้ปั่นป่วน\n\n"เป็นอย่างไรบ้าง? ทานเลยสิ [ROOT.Char.Custom('FormOfAddressForLiege')]!""
+ stress_trait_ongoing.5001.a:0 "\"มัน เอ่อ... อร่อยจริงๆ อืม อร่อยมาก\""
+ stress_trait_ongoing.5001.a.flavor:0 "ข้าจะกินอาหาร แต่เพียงเพื่อรักษามารยาทเท่านั้น"
+ stress_trait_ongoing.5001.b:0 "\"ท่านไม่น่าเลย... ไม่จริงๆ นะ #EMP คนรับใช้!#! เอาสิ่งนี้ออกไป\""
+ stress_trait_ongoing.5001.c.dog:0 "แสร้งทำเป็นกิน แต่ป้อนทั้งหมดให้ [ROOT.Char.Custom('DogStoryName')] ใต้โต๊ะ"
+ stress_trait_ongoing.5001.c.cat:0 "แสร้งทำเป็นกิน แต่ป้อนทั้งหมดให้ [ROOT.Char.Custom('CatStoryName')] ใต้โต๊ะ"
+ stress_trait_ongoing.5001.c.no_pet:0 "แสร้งทำเป็นกิน แต่ป้อนทั้งหมดให้สุนัขใต้โต๊ะ"
+ stress_trait_ongoing.5001.c.success:0 "[giver.GetTitledFirstName] คิดว่าข้าเพลิดเพลินกับอาหาร"
+ stress_trait_ongoing.5001.c.failure:0 "[giver.GetTitledFirstName] สังเกตเห็นว่าข้าไม่ได้กินอาหาร"
+
+ ############
+ #JOURNALLER#
+ ############
+
+ ##########
+ #CONFIDER#
+ ##########
+
+ ##########
+ #ATHLETIC#
+ ##########

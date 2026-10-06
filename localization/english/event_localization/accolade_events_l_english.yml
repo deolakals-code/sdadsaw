@@ -1,0 +1,58 @@
+﻿l_english: 
+
+ acclaimed_opinion:0 "ได้รับการยกย่อง"
+
+ accolade.0001.notification_high:0 "ตำแหน่งเกียรติยศได้รับระดับอันน่าประทับใจ"
+ accolade_rank_unlock_notification_tooltip_high:0 "[changing_accolade.GetNameNoTooltip] บัดนี้คือ [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]\n\n[acclaimed_knight.Custom('FormalComplimentAdjective')] [acclaimed_knight.GetShortUINameNoTooltip] กลายเป็นแรงบันดาลใจอันยิ่งใหญ่ยิ่งขึ้นแก่เหล่า$knight_culture_player_plural_no_tooltip_lowercase$ทั้งใกล้และไกล"
+ accolade.0001.notification_low:0 "ตำแหน่งเกียรติยศได้รับระดับ"
+ accolade_rank_unlock_notification_tooltip_low:0 "[changing_accolade.GetNameNoTooltip] บัดนี้คือ [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]\n\n[acclaimed_knight.Custom('ComplimentAdjective')] [acclaimed_knight.GetShortUINameNoTooltip] ได้รับความโดดเด่นในหมู่$knight_culture_player_plural_no_tooltip_lowercase$ของท่าน"
+
+ accolade.0002.notification_high:0 "ตำแหน่งเกียรติยศอันมีชื่อเสียงสูญเสียระดับ"
+ accolade_rank_loss_notification_tooltip_high:0 "[changing_accolade.GetNameNoTooltip] บัดนี้คือ [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]\n\nเหล่า$knight_culture_player_plural_no_tooltip$ทั้งใกล้และไกลต่างคาดเดาว่า [acclaimed_knight.GetShortUINameNoTooltip] จะสามารถฟื้นฟูสถานะอันเป็นตำนานของตำแหน่งนี้ได้หรือไม่"
+ accolade_rank_loss_notification_tooltip_high_dead:0 "[changing_accolade.GetNameNoTooltip] บัดนี้คือ [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]\n\nด้วยการมรณกรรมของ[acclaimed_knight.Custom('FormalComplimentAdjective')] [acclaimed_knight.GetShortUINamePossessive] จึงเป็นที่น่าสงสัยว่าสถานะอันเป็นตำนานของตำแหน่ง[acclaimed_knight.GetHerHis]จะสามารถฟื้นคืนได้ในเร็ววัน"
+ accolade.0002.notification_low:0 "ตำแหน่งเกียรติยศสูญเสียระดับ"
+ accolade_rank_loss_notification_tooltip_low:0 "[changing_accolade.GetNameNoTooltip] บัดนี้คือ [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]\n\nเวลาเท่านั้นที่จะบอกได้ว่า [acclaimed_knight.GetShortUINameNoTooltip] จะสามารถทวงคืนสถานะเดิมของตำแหน่งนี้ได้หรือไม่"
+ accolade_rank_loss_notification_tooltip_low_dead:0 "[changing_accolade.GetNameNoTooltip] บัดนี้คือ [acclaimed_knight.Custom('AccoladeRankFlavorNumber')]\n\n[acclaimed_knight.Custom('ComplimentAdjective')] [acclaimed_knight.GetShortUINameNoTooltip] ได้ถึงแก่กรรมแล้ว โดยมรดกของ[acclaimed_knight.GetHerHis]บัดนี้อยู่ในมือของศิษย์[acclaimed_knight.GetHerHis]"
+ accolade.0002.notification_empty:0 "ตำแหน่งเกียรติยศสูญเสียระดับ"
+ accolade_rank_loss_notification_tooltip_empty:1 "[changing_accolade.GetNameNoTooltip] สูญเสีย[accolade_rank|E]หนึ่งระดับ"
+
+ accolade_rank_loss_notification_tooltip_no_rank:0 "[changing_accolade.GetNameNoTooltip] บัดนี้คือ [acclaimed_knight.Custom('AccoladeRankFlavorNumber')] สูญเสียผลทั้งหมด\n\nเวลาเท่านั้นที่จะบอกได้ว่า [acclaimed_knight.GetShortUINameNoTooltip] จะสามารถทวงคืนสถานะเดิมของตำแหน่งนี้ได้หรือไม่"
+ accolade_rank_loss_notification_tooltip_no_rank_dead:0 "[changing_accolade.GetNameNoTooltip] บัดนี้คือ [acclaimed_knight.Custom('AccoladeRankFlavorNumber')] สูญเสียผลทั้งหมด\n\n[acclaimed_knight.Custom('ComplimentAdjective')] [acclaimed_knight.GetShortUINameNoTooltip] ได้ถึงแก่กรรมแล้ว โดยมรดกของ[acclaimed_knight.GetHerHis]บัดนี้อยู่ในมือของศิษย์[acclaimed_knight.GetHerHis]"
+ accolade_rank_loss_notification_tooltip_empty_no_rank:0 "[changing_accolade.GetNameNoTooltip] กลายเป็น [acclaimed_knight.Custom('AccoladeRankFlavorNumber')] แล้ว และสูญเสียผลทั้งหมด"
+
+ accolade.0003.accolade_becomes_idle.tt:0 "[dead_accolade.GetNameNoTooltip] กลายเป็นตำแหน่งว่าง"
+ accolade.0003.accolade_becomes_idle_effects.tt:0 "หากปราศจากอัศวินผู้ได้รับเกียรติยศที่มีคุณสมบัติเหมาะสม ผลทั้งหมดจะสูญหายไป"
+
+ accolade_notification_new.old_acclaimed_knight.tt:0 "ผู้สืบทอด: [succeeding_accolade.GetNameNoTooltip]"
+ accolade_notification_new.old_acclaimed_knight_name.tt:0 "[new_acclaimed_knight.GetName] ได้รับการยกย่องให้เป็น [succeeding_accolade.GetName]"
+
+ accolade.glory_loss.tt:1 "[succeeding_accolade.GetName] สูญเสีย [glory|E] #N [TopScope.GetValue( 'glory' )|0]#!"
+ accolade.no_glory_loss.tt: "เนื่องจาก $knight_culture_player_no_tooltip_lowercase$ คนก่อนหน้าได้ [character_death_death|E] อย่างมีเกียรติ [succeeding_accolade.GetName] จึงไม่สูญเสีย [glory|E] ใดๆ"
+
+ accolade.0007.notification:0 "พบผู้สืบทอดตำแหน่งเกียรติยศ"
+ accolade_find_successor_notification_tooltip:1 "[chosen_knight.GetUIName] $knight_culture_player_no_tooltip_lowercase$ผู้เป็นที่นับถือ เข้าร่วมราชสำนักของท่าน\n[chosen_knight.GetSheHe|U] สามารถได้รับการ แต่งตั้งเป็นผู้สืบทอดตำแหน่ง [accolade_in_need.GetName] ได้"
+
+ accolade.0007.notification_fail:0 "ไม่มีผู้สืบทอดตำแหน่งเกียรติยศที่คู่ควร"
+ accolade_find_successor_fail_notification_tooltip:0 "การค้นหา$knight_culture_player_no_tooltip_lowercase$ผู้ ซึ่งอาจกลายเป็น [accolade_in_need.GetName] ไม่ประสบผลสำเร็จ"
+
+accolade_notification_new.squires_quality_accomplished: "[new_acclaimed_knight.GetShortUIName] เคยเป็น [accolade_squire|E] ระดับ $ACCOLADE_SQUIRE_QUALITY_4$ ของ [accolade_possessive|E]"
+accolade_notification_new.squires_quality_capable: "[new_acclaimed_knight.GetShortUIName] เคยเป็น [accolade_squire|E] ระดับ $ACCOLADE_SQUIRE_QUALITY_3$ ของ [accolade_possessive|E]"
+accolade_notification_new.squires_quality_inexperienced: "[new_acclaimed_knight.GetShortUIName] เคยเป็น [accolade_squire|E] ระดับ $ACCOLADE_SQUIRE_QUALITY_2$ ของ [accolade_possessive|E]"
+accolade_notification_new.squires_quality_feckless: "[new_acclaimed_knight.GetShortUIName]  เคยเป็น [accolade_squire|E] ระดับ $ACCOLADE_SQUIRE_QUALITY_1$ ของ [accolade_possessive|E]"
+accolade_notification_new.squires_quality_pathetic: "[new_acclaimed_knight.GetShortUIName]  เคยเป็น [accolade_squire|E] ระดับ $ACCOLADE_SQUIRE_QUALITY_0$ ของ [accolade_possessive|E]"
+
+accolade_notification_death.old_acclaimed_knight.tt: "[old_knight.GetNameNoTooltip] สิ้นชีพแล้ว"
+accolade_notification_death.old_acclaimed_knight_name.tt: "[old_knight.GetFirstName] [main_type.GetName] ของท่าน [old_knight.GetDeathReasonHideKiller]"
+accolade_notification_death.squires_quality_accomplished: "[old_knight.GetShortUIName] ทิ้ง [accolade_squires|E] ระดับ $ACCOLADE_SQUIRE_QUALITY_4$ ไว้เบื้องหลัง"
+accolade_notification_death.squires_quality_capable: "[old_knight.GetShortUIName] ทิ้ง [accolade_squires|E] ระดับ $ACCOLADE_SQUIRE_QUALITY_3$ ไว้เบื้องหลัง"
+accolade_notification_death.squires_quality_inexperienced: "[old_knight.GetShortUIName] ทิ้ง [accolade_squires|E] ระดับ $ACCOLADE_SQUIRE_QUALITY_2$ ไว้เบื้องหลัง"
+accolade_notification_death.squires_quality_feckless: "[old_knight.GetShortUIName] ทิ้ง [accolade_squires|E] ระดับ $ACCOLADE_SQUIRE_QUALITY_1$ ไว้เบื้องหลัง"
+accolade_notification_death.squires_quality_pathetic: "[old_knight.GetShortUIName] ทิ้ง [accolade_squires|E] ระดับ $ACCOLADE_SQUIRE_QUALITY_0$ ไว้เบื้องหลัง"
+
+accolade_notification_invalid.old_acclaimed_knight.tt: "[old_knight.GetNameNoTooltip] ไม่อาจรับใช้ได้อีก"
+accolade_notification_invalid.old_acclaimed_knight_name.tt: "[old_knight.GetFirstName] [main_type.GetName] ของท่าน ไม่สามารถปฏิบัติหน้าที่แห่ง [accolade|E] ของ[old_knight.GetHerHis]ได้อีกต่อไป"
+accolade_notification_invalid.squires_quality_accomplished: "$accolade_notification_death.squires_quality_accomplished$"
+accolade_notification_invalid.squires_quality_capable: "$accolade_notification_death.squires_quality_capable$"
+accolade_notification_invalid.squires_quality_inexperienced: "$accolade_notification_death.squires_quality_inexperienced$"
+accolade_notification_invalid.squires_quality_feckless: "$accolade_notification_death.squires_quality_feckless$"
+accolade_notification_invalid.squires_quality_pathetic: "$accolade_notification_death.squires_quality_pathetic$"

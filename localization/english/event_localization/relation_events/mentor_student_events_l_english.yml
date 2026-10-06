@@ -1,0 +1,13 @@
+﻿l_english: 
+ mentor_student.0001.t:0 "สิ่งที่เคยเป็น"
+ mentor_student.0001.desc:1 ""เรื่องนี้ดำเนินต่อไปไม่ได้ [ROOT.Char.GetFirstNameNoTooltip]!" [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )]ของข้า [mentor_to_lose.GetTitledFirstName] อุทาน [mentor_to_lose.Custom('quirk_neg_pp')]\n\n"ความสัมพันธ์ของเราจบสิ้นแล้ว เราแตกต่างกันเกินไปที่จะไปต่อได้ ท่านต้องพึ่งพาตนเองแล้วตอนนี้""
+ mentor_student.0001.a:0 "ตามนั้นเถิด"
+
+ mentor_student.0002.desc:1 ""ไม่มีสิ่งใดเหลือให้ข้าสอนท่านอีกแล้ว"\n\n[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )]ของข้า [mentor_to_lose.GetTitledFirstName] ยิ้ม[mentor_to_lose.Custom('quirk_pos_adverb')]และพยักหน้า "ท่านได้เรียนรู้ไปมาก แต่เพื่อจะก้าวหน้ายิ่งขึ้นในการศึกษา ท่านต้องสร้างหนทางของตนเอง""
+ mentor_student.0002.a:1 "[mentor_to_lose.GetSheHe|U]สอนข้ามากมายจริงๆ!"
+ mentor_student.0002.b:0 "ข้ารู้สึกว่าความสัมพันธ์ของเราจะแน่นแฟ้นยิ่งขึ้นไปอีกตอนนี้"
+
+ mentor_student.0003.t:0 "ความคิดทบทวน"
+ mentor_student.0003.desc:1 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )]ของข้า [mentor_to_lose.GetTitledFirstName] ยิ้ม[mentor_to_lose.Custom('quirk_neg_adverb')]ขณะที่[mentor_to_lose.GetSheHe]เล่าให้ข้าฟังถึง#EMP ชัยชนะ#!ล่าสุด[mentor_to_lose.GetHerHis]\n\nข้าอาจยังมีสิ่งที่ต้องเรียนรู้ แต่มันยากขึ้นเรื่อยๆ ที่จะทนกับ[mentor_to_lose.GetFirstName]ในฐานะบุคคล"
+ mentor_student.0003.a:0 "ความสัมพันธ์นี้จบสิ้นแล้ว"
+ mentor_student.0003.b:0 "หากนั่นคือราคาของความรู้..."

@@ -1,0 +1,40 @@
+﻿l_english: 
+
+ #court.4500 Fake artifacts and trinkets
+ blood_brooch_name:0 "เข็มกลัดโลหิต"
+ blood_brooch_description:0 "เข็มกลัดนี้มีลูกแก้วบรรจุโลหิตของ [ROOT.GetCharacter.GetTitledFirstName]"
+ cuckoldry_psalter_name:0 "คัมภีร์สดุดีแห่งการคบชู้"
+ cuckoldry_psalter_description:0 "ส่งต่อจากชายชู้สู่ผู้หลอกลวงผ่านยุคสมัย ว่ากันว่าตำราเล่มนี้คือของขวัญล้ำค่าที่สุดที่ใครสักคนจะมอบให้คู่สมรสได้ อย่างน้อยรูปสลักงาช้างบนปกก็ดูเหมือน แต่งงานกันอย่างมีความสุข"
+ chastity_belt_name:0 "เข็มขัดพรหมจรรย์"
+ chastity_belt_description:0 "เข็มขัดพรหมจรรย์นี้มีหนามทั้งด้านในและด้านนอก เพื่อการคุ้มครองท่านและผู้อื่น"
+ holy_needle_name:0 "เข็มศักดิ์สิทธิ์แห่งอันติโอเคีย"
+ holy_needle_description:0 "อืม ท่านคงจะปักภาพการตรึงกางเขนอันงดงามได้ด้วยสิ่งนี้"
+ finger_bones_name:0 "พระธาตุนิ้ว (ของนักบุญ)"
+ finger_bones_description:0 "ครบทั้งสิบเอ็ดชิ้น!"
+ dead_chicken_name:0 "ดั้งไก่มรณะ"
+ dead_chicken_description:0 "คงไม่มีใครอยากเข้าใกล้ท่านหากท่านแกว่งไก่ตายตัวนี้ โดยเฉพาะอย่างยิ่งศัตรูของท่าน"
+ worm_on_a_string_name:0 "หนอนติดเชือก"
+ worm_on_a_string_description:0 "ของเล่นที่น่าจะ ทำให้ทารกประทับใจได้กระมัง"
+
+
+ #court.4750 Book commissions
+ pope_joan_book_name:0 "ตำนานสันตะปาปาโจน"
+ pope_joan_book_desc:0 "หนังสือที่ [ROOT.Char.GetTitledFirstNameNoTooltip] ถูกวาดภาพเป็นสันตะปาปาโจน จะดูเปี่ยมศรัทธา ดูหมิ่นศาสนา หรือเย้ายวนใจกันแน่?"
+ lady_godiva_book_name:0 "ตำนานเลดี้โกไดวา"
+ lady_godiva_book_desc:0 "อย่างน้อยภาพวาด [ROOT.Char.GetTitledFirstNameNoTooltip] เปลือยกายขี่ม้าก็ดูดีกว่าความเป็นจริง"
+ caligula_book_name:0 "ห้าร้อยครั้งแห่งการเฆี่ยน"
+ caligula_book_desc:0 "ห้าร้อยหน้ากระดาษที่คาลิกูลาเฆี่ยนตี [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ nasreddin_book_name:0 "นิทานนัสเรดดิน"
+ nasreddin_book_desc:0 "ซึ่งในนั้น [ROOT.Char.GetTitledFirstNameNoTooltip] ได้รับเกียรติอันสูงส่ง(?)จากการเยาะเย้ยของนัสเรดดิน"
+ valmiki_book_name:0 "คำคมวาลมีกิ"
+ valmiki_book_desc:0 "ชุดคำคมหลักแหลมจากกวียุคแรกเริ่ม วาลมีกิ พ่นออกมาจากปากอันไม่น่าจะเป็นไปได้ของ [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ ruler_hero_book_name:0 "ตำนาน [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ ruler_hero_book_desc:0 "ประโยคเปิดเรื่องมี [ROOT.Char.GetTitledFirstNameNoTooltip] ประกาศแก่ราชสำนักของ [ROOT.Char.GetHerHis] ว่า: 'ข้าต้องนั่ง เพราะข้าทนยืน(ดูหน้า)พวกเจ้าไม่ได้'"
+ sinbad_book_name:0 "การเดินทางของซินแบด"
+ sinbad_book_desc:0 "หนังสือ ซึ่งสัตว์ร้ายต่าง ๆ ที่ซินแบดเผชิญหน้ามีใบหน้าของ [ROOT.Char.GetTitledFirstNameNoTooltip]"
+
+ #court.4806 fan relics
+ purple_underwear_name:0 "เครื่องอาภรณ์ชั้นในสีม่วงหลวง"
+ purple_underwear_description:0 "เหมาะสมเพียงสำหรับจักรพรรดิเท่านั้น\n\nเส้นทางสู่ดวงดาว...กระมัง?"
+ fake_reichskrone_name:0 "มงกุฎไรชส์โครเนอปลอม"
+ fake_reichskrone_description:0 "สวมใส่เพื่อเป็น #EMP ผู้อ้างสิทธิ์#!(ตัวปลอม)ในราชบัลลังก์อย่างแท้จริง"

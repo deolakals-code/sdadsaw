@@ -1,0 +1,3 @@
+﻿l_english: 
+ HAS_DLC_TRIGGER:0 "ท่านมี DLC $DLC|V$"
+ HAS_NOT_DLC_TRIGGER:0 "ท่าน #bold ไม่มี#! DLC $DLC|V$"

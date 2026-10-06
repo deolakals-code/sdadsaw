@@ -1,0 +1,13 @@
+﻿l_english: 
+#Travel Flavor Events
+#Troll bridge - you encounter a troll bridge.
+ travel_events.5100.t: "สะพาน[ROOT.Char.GetCurrentLocation.Custom('GetProvinceTricksterSpirit')|U]"
+ travel_events.5100.desc: "“นายท่าน! สะพานนี้มีชื่อเสียงในทางที่ไม่ดีนัก มี[ROOT.Char.GetCurrentLocation.Custom('GetProvinceTricksterSpirit')]อาศัยอยู่เบื้องล่าง!” [superstitious_traveler.GetTitledFirstName] [ROOT.Char.Custom2('RelationToMe', superstitious_traveler)]ของข้า ร้องขึ้นมา “มันจะต้องมาหาเรา หรือไม่ก็สาปแช่งเราจากแดนไกลขณะที่เราเดินผ่านแน่ๆ”\n\nคณะเดินทางของข้าเริ่มกระซิบกระซาบกัน บางคนอัญเชิญพระนามของ [ROOT.Char.GetFaith.HighGodName] เพื่อขอความคุ้มครอง ทว่าน่าเสียดาย สะพานแห่งนี้คือสถานที่เดียวที่ปลอดภัยในการข้ามไปได้ในระยะหลายไมล์"
+ travel_events.5100.a: ""ข้าไม่หวาดหวั่นต่อ[ROOT.Char.GetCurrentLocation.Custom('GetProvinceTricksterSpirit')] หรือปีศาจหน้าไหนทั้งนั้น!""
+ travel_events.5100.b: ""ไม่มีสิ่งใดเช่นนั้นหรอกน่า [superstitious_traveler.GetTitledFirstNameNoTooltip]""
+ travel_events.5100.c: ""เราต้องสวดมนต์เพื่อขับไล่วิญญาณร้ายนี้ไป""
+ travel_events.5100.d: ""น่ากลัวจัง! ลองหาทางอื่นกันเถอะ""
+ custom.every_brave_or_impatient_entourage_member: "ผู้ร่วมคณะเดินทางที่มีลักษณะนิสัย [GetTrait('brave').GetName( GetNullCharacter )] หรือ [GetTrait('impatient').GetName( GetNullCharacter )] ทุกคน"
+ custom.every_cynical_or_impatient_entourage_member: "ผู้ร่วมคณะเดินทางที่มีลักษณะนิสัย [GetTrait('cynical').GetName( GetNullCharacter )] หรือ [GetTrait('impatient').GetName( GetNullCharacter )] ทุกคน"
+ custom.every_eccentric_or_zealous_entourage_member: "ผู้ร่วมคณะเดินทางที่มีลักษณะนิสัย [GetTrait('eccentric').GetName( GetNullCharacter )] หรือ [GetTrait('zealous').GetName( GetNullCharacter )] ทุกคน"
+ custom.every_craven_or_impatient_entourage_member: "ผู้ร่วมคณะเดินทางที่มีลักษณะนิสัย [GetTrait('craven').GetName( GetNullCharacter )] หรือ [GetTrait('impatient').GetName( GetNullCharacter )] ทุกคน"

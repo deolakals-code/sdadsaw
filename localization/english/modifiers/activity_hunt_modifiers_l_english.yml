@@ -1,0 +1,208 @@
+﻿l_english: 
+ held_hunt_modifier:0 "เพิ่งจัดการล่าสัตว์"
+ held_hunt_modifier_desc:0 "ตัวละครนี้เพิ่งจัดการล่าสัตว์ไปเมื่อเร็วๆ นี้ และอาจไม่สามารถทำได้อีกจนกว่าจะถึงวันที่ระบุ"
+ 
+ hunt_punished_locals_modifier:0 "ลงโทษผู้ลักลอบล่าสัตว์"
+ hunt_punished_locals_modifier_desc:1 "ผู้คนในเคาน์ตีนี้แบกรับภาระในการชดเชยให้กับพวกลักลอบล่าสัตว์ในป่า\n#weak $hunt_modifier_success_slightly_improved_location_tt$#!\n"
+ 
+ hunt_poacher_training_modifier:0 "การฝึกจากผู้ลักลอบล่าสัตว์"
+ hunt_poacher_training_modifier_desc:0 "ตัวละครนี้ได้รับการฝึกฝนการล่าสัตว์จากผู้ลักลอบล่าสัตว์"
+ 
+ hunt_upset_hunting_county_modifier:0 "ความโกรธเคืองต่อการลักลอบล่าสัตว์"
+ hunt_upset_hunting_county_modifier_desc:0 "เคาน์ตีนี้ไม่พอใจกับวิธีที่ได้รับการปฏิบัติจากการกระทำของผู้ลักลอบล่าสัตว์เพียงไม่กี่คน"
+
+ modifier_hunt_hunting_trophy:0 "ของที่ระลึกจากการล่า"
+ modifier_hunt_hunting_trophy_desc:0 "ของที่ระลึกจากการล่าอันน่าประทับใจแขวนอยู่ในห้องโถงใหญ่ของตัวละครนี้ เพื่อแสดงความสำเร็จของพวกเขา"
+ 
+ modifier_hunt_friend_of_animal:0 "มิตรของสัตว์"
+ modifier_hunt_friend_of_animal_desc:0 "ตัวละครนี้มีความสามารถพิเศษในการจัดการกับสัตว์"
+ 
+ hunt_guide_local_madman_modifier:0 "ผู้นำทางท้องถิ่น"
+ hunt_guide_local_madman_modifier_desc:2 "ตัวละครนี้ได้รับการนำเที่ยวชมหนองบึงโดยเจ้าของขณะล่าสัตว์\n#weak $hunt_modifier_success_slightly_improved_location_tt$#!\n"
+ hunt_guide_local_madman_modifier_custom_desc:0 "ตัวละครนี้ได้รับการนำเที่ยวชมหนองบึงโดยเจ้าของขณะล่าสัตว์\n#weak ขณะที่ปัจจัยนี้มีผล [hunt_success_chance|E] ของท่านจะ #positive_value ดีขึ้นเล็กน้อย#! ใน [SCOPE.sTitle('activity_place').GetNameNoTier]#!\n"
+
+ hunt_killed_local_madman_modifier:1 "สังหารคนท้องถิ่น"
+ hunt_killed_local_madman_modifier_desc:0 "ชาวหนองบึงผู้มีชื่อเสียงในเคาน์ตีนี้ถูกสังหารโดยนักล่าที่กระตือรือร้นเกินเหตุ"
+ 
+ hunt_talked_to_madman_modifier:1 "รับฟังความกังวลของท้องถิ่น"
+ hunt_talked_to_madman_modifier_desc:0 "ชาวบ้านในเคาน์ตีนี้พอใจที่ปัญหาของพวกเขาได้รับการรับฟังจากขุนนางนักล่า"
+
+ hunt_peasants_denied_forest_modifier:0 "ไพร่ถูกปฏิเสธไม่ให้เข้าป่า"
+ hunt_peasants_denied_forest_modifier_desc:0 "ไพร่ในเคาน์ตีนี้ถูกปฏิเสธสิทธิ์ในการหาของป่า"
+
+ hunt_peasants_hunted_modifier:0 "ล่าไพร่"
+ hunt_peasants_hunted_modifier_desc:0 "ไพร่กลัวที่จะตั้งรกรากในเคาน์ตีนี้ เนื่องจากสิ่งที่เลวร้ายเกินบรรยายที่เกิดขึ้นที่นี่"
+
+ hunt_aided_peasants_modifier:0 "ช่วยเหลือไพร่"
+ hunt_aided_peasants_modifier_desc:0 "ผู้คนที่ยากจนที่สุดในเคาน์ตีนี้ได้รับความช่วยเหลือด้านการกุศลอย่างมีนัยสำคัญ"
+
+ hunt_falconry_practiced_modifier: "ฝึกฝนการล่าเหยื่อด้วยเหยี่ยว"
+ hunt_falconry_practiced_modifier_desc: "ตัวละครนี้ได้ฝึกฝนการล่าเหยื่อด้วยเหยี่ยว ก่อนการล่าสัตว์ของตน"
+ hunt_poet_romance_aptitude_modifier: "ล่าสัตว์ขณะใช้เหยี่ยว"
+ hunt_poet_romance_aptitude_modifier_desc: "ตัวละครนี้ได้มีการปฏิสัมพันธ์เชิงชู้สาวในระหว่างการล่าสัตว์ ซึ่งเป็นแรงบันดาลใจให้กับบทกวีของตน"
+ hunt_faith_desecrated_place_of_worship: "ศาสนสถานที่ถูกลบหลู่"
+ hunt_faith_desecrated_place_of_worship_desc: "ตัวละครนี้ได้ลบหลู่ศาสนสถาน"
+tgp_hunt_burnt_local_crops: "เผาพืชผลของไพร่"
+tgp_hunt_burnt_local_crops_desc: "ตัวละครนี้ได้เผาทุ่งนาของไพร่ในท้องที่ขณะพยายามไล่ต้อนสัตว์ป่า"
+ hunt_fresh_air_and_exercise_modifier:0 "อากาศบริสุทธิ์และการออกกำลังกาย"
+ hunt_fresh_air_and_exercise_modifier_desc:0 "ตัวละครนี้ได้เพลิดเพลินกับการออกกำลังกายอย่างเข้มงวดระหว่างการล่าสัตว์"
+
+ hunt_focused_attention_modifier:0 "ความสนใจที่มุ่งเน้น"
+ hunt_focused_attention_modifier_desc:0 "ตัวละครนี้รู้วิธีที่จะมุ่งความสนใจไปที่สิ่งที่ต้องการการดูแลอย่างเร่งด่วน"
+
+ modifier_hunt_dog_trophy_modifier:0 "ของที่ระลึกจากการล่า"
+ modifier_hunt_dog_trophy_modifier_desc:0 "ของที่ระลึกจากการล่าอันน่าประทับใจแขวนอยู่ในห้องโถงใหญ่ของตัวละครนี้ เพื่อแสดงความสำเร็จของพวกเขา"
+
+ modifier_hunt_dog_fighting_modifier:0 "ความกล้าหาญที่เพิ่มขึ้น"
+ modifier_hunt_dog_fighting_modifier_desc:0 "ตัวละครนี้ได้แสดงความกล้าหาญอันน่าประทับใจระหว่างการล่าสัตว์"
+
+ modifier_hunt_resisted_advances:0 "ต่อต้านการเกี้ยวพาราสี"
+ modifier_hunt_resisted_advances_desc:0 "ตัวละครนี้ได้ต่อต้านเสียงเพลงไซเรนแห่งการยั่วยวน"
+
+ hunt_mediated_fight_modifier:0 "ผู้ไกล่เกลี่ย"
+ hunt_mediated_fight_modifier_desc:0 "ตัวละครนี้ประสบความสำเร็จในการเจรจาระหว่างคนสองคนที่มีความขัดแย้ง – บทเรียนอันมีค่า"
+
+ hunt_protected_peasants_modifier:0 "ปกป้องไพร่"
+ hunt_protected_peasants_modifier_desc:1 "ไพร่ในเคาน์ตีนี้รู้สึกปลอดภัย"
+
+ hunt_disturbed_locals_modifier:0 "รบกวนคนท้องถิ่น"
+ hunt_disturbed_locals_modifier_desc:1 "คนท้องถิ่นในเคาน์ตีนี้เพียงต้องการที่จะอยู่อย่างสงบ"
+
+ hunt_focused_effort_modifier:0 "ความพยายามในการล่าที่มุ่งเน้น"
+ hunt_focused_effort_modifier_desc:1 "ตัวละครนี้มุ่งเน้นไปที่การล่าสัตว์เป็นอย่างมาก"
+
+ hunt_treated_injury_modifier:0 "ฝึกฝนการผ่าตัดภาคสนาม"
+ hunt_treated_injury_modifier_desc:1 "ตัวละครนี้มีประสบการณ์ล่าสุดกับการรักษาทางการแพทย์ที่ยากลำบากมาก"
+
+ hunt_tasted_the_belt_modifier:0 "ลิ้มรสเข็มขัด"
+ hunt_tasted_the_belt_modifier_desc:1 "ตัวละครนี้กำลังทุกข์ทรมานจากบั้นท้ายที่ฟกช้ำ"
+
+ hunt_treated_wound_modifier:0 "ทำแผล"
+ hunt_treated_wound_modifier_desc:1 "บาดแผลของตัวละครนี้ได้รับการดูแลอย่างชำนาญ"
+ 
+ hunt_chose_truth_modifier:0 "ความซื่อสัตย์อันถ่อมตน"
+ hunt_chose_truth_modifier_desc:1 "ตัวละครนี้ได้พูดความจริง ซึ่งเป็นผลเสียต่อตนเอง"
+
+ hunt_mystical_animal_modifier:0 "ล่าสัตว์ลึกลับ"
+ hunt_mystical_animal_modifier_desc:2 "ตัวละครนี้ได้ล่าและสังหารสัตว์ร้ายลึกลับ"
+
+ hunt_protected_their_secret_modifier:0 "ปกป้องความลับ"
+ hunt_protected_their_secret_modifier_desc:0 "ตัวละครนี้กำลังเก็บไพ่ไว้ใกล้ตัว"
+
+ hunt_sighting_standard_modifier:0 "การพบเห็นสัตว์ล่า"
+ hunt_sighting_standard_modifier_desc:1 "มีการพบเห็นสัตว์ล่าจำนวนมากในเคาน์ตีนี้\n#weak [hunt_success_chance|E] เพิ่มขึ้นใน [county|E] นี้#!"
+ hunt_sighting_standard_modifier_custom_desc:1 "มีรายงานว่าพบเห็น [SCOPE.sTitle('sighting_county').Custom('GetAnimalPlural')] จำนวนมากในเคาน์ตีนี้\n#weak เพิ่ม [hunt_success_chance_no_prefix|E] ของการล่า [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')|U]#!"
+ 
+ hunt_sighting_dangerous_modifier:0 "การพบเห็นสัตว์ร้าย"
+ hunt_sighting_dangerous_modifier_desc:1 "มีรายงานว่าสัตว์ร้ายดุร้ายกำลังคุกคามเคาน์ตีนี้\n#weak [hunt_success_chance|E] เพิ่มขึ้นใน [county|E] นี้#!"
+ hunt_sighting_dangerous_modifier_custom_desc:1 "มีรายงานว่า [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')] ดุร้ายกำลังคุกคามเคาน์ตีนี้\n#weak เพิ่ม [hunt_success_chance_no_prefix|E] ของการล่า [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')|U]#!"
+
+ hunt_sighting_legendary_modifier:0 "การพบเห็นในตำนาน"
+ hunt_sighting_legendary_modifier_desc:2 "มีรายงานว่าพบเห็นสัตว์ในตำนานในเคาน์ตีนี้\n#weak อาจสามารถจัด [GetActivityType('activity_hunt').GetTextIcon][GetActivityType('activity_hunt').GetName] แบบ $hunt_type_legendary$ ได้ใน [county|E] นี้#!"
+ hunt_sighting_legendary_modifier_custom_desc:1 "มีรายงานว่าพบเห็น [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')] [SCOPE.sTitle('sighting_county').Custom('GetLegendaryColor')] ในตำนานในเคาน์ตีนี้\n#weak อาจสามารถล่า [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')|UV] [SCOPE.sTitle('sighting_county').Custom('GetLegendaryColor')|UV] ในตำนานได้ใน [county|E] นี้#!"
+ 
+ hunt_sighting_falconry_modifier:0 "การพบเห็นนก"
+ hunt_sighting_falconry_modifier_desc:0 "การพบเห็นนกที่กำลังผสมพันธุ์หรืออพยพเมื่อเร็วๆ นี้ ทำให้เคาน์ตีนี้เหมาะสำหรับการฝึกเหยี่ยวล่าเหยื่อ\n#weak $hunt_type_falconry$ [hunt_success_chance|E] เพิ่มขึ้นใน [county|E] นี้#!"
+ hunt_sighting_falconry_modifier_custom_desc:1 "การพบเห็น [SCOPE.sTitle('sighting_county').Custom('GetAnimalPlural')] ที่กำลังผสมพันธุ์หรืออพยพ ทำให้เคาน์ตีนี้เหมาะสำหรับการฝึกเหยี่ยวล่าเหยื่อ\n#weak เพิ่ม [hunt_success_chance_no_prefix|E] ของการล่า [SCOPE.sTitle('sighting_county').Custom('GetAnimalType')|U]#!"
+ 
+ hunt_heir_murder_exposed_modifier:0 "ความยุติธรรมของไพร่"
+ hunt_heir_murder_exposed_modifier_desc:1 "ตัวละครนี้ให้ความสำคัญกับความยุติธรรมมากกว่าชื่อเสียงของข้าราชสำนัก"
+ 
+ hunt_disrespected_locals_modifier:0 "ไม่เคารพคนท้องถิ่น"
+ hunt_disrespected_locals_modifier_desc:0 "ความรู้สึกของสามัญชนในเคาน์ตีนี้ถูกเหยียบย่ำโดยนักล่า"
+ 
+ hunt_happy_hounds_modifier:0 "สุนัขล่าเนื้อมีความสุข"
+ hunt_happy_hounds_modifier_desc:1 "สุนัขล่าเนื้อของตัวละครนี้ได้รับรางวัลอย่างดี\n#weak $hunt_modifier_success_slightly_improved_tt$#!\n\n"
+ 
+ hunt_savage_hounds_modifier:0 "สุนัขล่าเนื้อดุร้าย"
+ hunt_savage_hounds_modifier_desc:1 "สุนัขล่าเนื้อของตัวละครนี้มีชื่อเสียงในการล้มสัตว์ล่าขนาดใหญ่\n#weak $hunt_modifier_success_slightly_improved_tt$#!\n\n"
+ 
+ hunt_savaged_hounds_modifier:0 "สุนัขล่าเนื้อถูกทำร้าย"
+ hunt_savaged_hounds_modifier_desc:1 "คอกสุนัขของตัวละครนี้ว่างเปล่าจากการส่งสุนัขไปสู้กับสัตว์ร้าย\n#weak $hunt_modifier_success_slightly_worse_tt$#!\n\n"
+ 
+ crushed_by_boulder_modifier:0 "ถูกหินทับ"
+ crushed_by_boulder_modifier_desc:0 "การแสดงความกล้าหาญของตัวละครนี้กลับตาลปัตรเมื่อพวกเขาถูกหินก้อนใหญ่ที่พยายามจะกระโดดข้ามทับ"
+ 
+ hunt_blooming_garden_modifier:0 "สวนที่เบ่งบาน"
+ hunt_blooming_garden_modifier_desc:0 "สวนของตัวละครนี้ได้รับการตก แต่งอย่างดีด้วยดอกไม้ป่าที่พบในการล่าครั้งล่าสุด"
+ 
+ hunt_stocked_medicus_modifier:0 "แพทย์ที่มีของครบครัน"
+ hunt_stocked_medicus_modifier_desc:0 "แพทย์ของตัวละครนี้มีสต็อกสมุนไพรยามากมาย ทั้งหายากและธรรมดา"
+ 
+ hunt_witch_protector_modifier:0 "คนเลี้ยงแกะผู้ห่วงใย"
+ hunt_witch_protector_modifier_desc:0 "ตัวละครนี้ได้แสดงความสนใจอย่างชาญฉลาดในการปกป้องพี่น้องร่วมศรัทธา"
+ 
+ hunt_left_in_trap_modifier:0 "ถูกทิ้งไว้ในกับดัก"
+ hunt_left_in_trap_modifier_desc:0 "ตัวละครนี้ถูกทิ้งไว้ในกับดักล่านานเกินกว่าที่จะเป็นผลดีต่อสุขภาพของพวกเขา"
+ 
+ hunt_punished_trappers_modifier:0 "ลงโทษคนวางกับดัก"
+ hunt_punished_trappers_modifier_desc:0 "กับดักสัตว์ของเหล่าไพร่ในเคาน์ตีแห่งนี้นำมาซึ่งความพิโรธของเจ้าของดินแดน"
+ 
+ hunt_witch_suspicion_modifier:0 "ข้อสงสัยเรื่องเวทมนตร์คาถา"
+ hunt_witch_suspicion_modifier_desc:0 "ความสนใจในธรรมชาติของตัวละครนี้ ทำให้เกิดคำถามเกี่ยวกับความภักดีต่อพระเจ้าที่แท้จริง"
+ 
+ hunt_mismanaged_game_modifier:0 "การจัดการสัตว์ล่าที่ผิดพลาด"
+ hunt_mismanaged_game_modifier_desc:0 "การล่ากวางตัวเมียได้ลดจำนวนสัตว์ล่าในเคาน์ตีนี้\n#weak [hunt_success_chance|E] ในอนาคตสำหรับสัตว์ชนิดนี้จะ #negative_value แย่ลงเล็กน้อย#! ใน [county|E] นี้#!"
+ hunt_mismanaged_game_modifier_custom_desc:0 "ตัวละครนี้ได้จับลูกกวางและเลี้ยงให้เชื่องเพื่อหลอกลวงญาติป่าของมัน\n#weak [hunt_success_chance|E] ของ [ROOT.Char.Custom('GetAnimalTypeMismanaged')|UV] ในอนาคตจะ #negative_value แย่ลงเล็กน้อย#! ใน [county|E] นี้#!"
+
+ hunt_tame_deer_modifier:0 "ลูกกวางเชื่อง"
+ hunt_tame_deer_modifier_desc:0 "ตัวละครนี้ได้จับลูกกวางและเลี้ยงให้เชื่องเพื่อหลอกลวงญาติป่าของมัน\n#weak ในอนาคต [hunt_success_chance|E] สำหรับสัตว์ชนิดนี้จะ #positive_value ดีขึ้นเล็กน้อย#!#!\n"
+ hunt_tame_deer_modifier_custom_desc:0 "ตัวละครนี้ได้จับลูกกวางและเลี้ยงให้เชื่องเพื่อหลอกลวงญาติป่าของมัน\n#weak [hunt_success_chance|E] ของ [ROOT.Char.Custom('GetAnimalTypeTame')|UV] จะ #P ดีขึ้นเล็กน้อย#!#!"
+
+ hunt_captive_beast_modifier:0 "สัตว์ร้ายในกรงขัง"
+ hunt_captive_beast_modifier_desc:0 "ตัวละครนี้ได้จับสัตว์ร้ายอันตรายทั้งเป็นเพื่อจัดแสดงและความบันเทิง\n#weak อาจใช้เพื่อ [GetActivityType('activity_hunt').GetName] สัตว์ชนิดนี้ด้วย [hunt_success_chance_no_prefix|E] #P สูง#! \n"
+ hunt_captive_beast_modifier_custom_desc:0 "ตัวละครนี้เลี้ยง [ROOT.Char.Custom('GetAnimalTypeCaptive')] [ROOT.Char.Custom('GetAnimalAdjectiveCaptive')] ไว้เพื่อจัดแสดงและความบันเทิง\n#weak อาจใช้เพื่อ [GetActivityType('activity_hunt').GetName] [ROOT.Char.Custom('GetAnimalTypeCaptive')|UV] ด้วย [hunt_success_chance_no_prefix|E] #P สูง#! "
+
+ dog_story_scenthound_modifier:0 "สุนัขดมกลิ่น"
+ dog_story_scenthound_modifier_desc:1 "สุนัขผู้ภักดี ฝึกฝนเพื่อติดตามสัตว์ป่า ติดตามตัวละครนี้ไปทุกที่\n#weak เพิ่ม [hunt_success_chance|E] เล็กน้อย#!"
+ dog_story_beasthound_modifier:0 "สุนัขล่าสัตว์ร้าย"
+ dog_story_beasthound_modifier_desc:1 "สุนัขผู้ภักดี ฝึกฝนเพื่อต่อสู้กับสัตว์ร้ายอันตราย ติดตามตัวละครนี้ไปทุกที่\n#weak เพิ่ม [hunt_success_chance|E] เล็กน้อย#! ต่อสัตว์ร้าย [hunt_dangerous|E]"
+
+ hunt_success_chance.trait:0 "[GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [trait_level_track_xp|E]"
+ hunt_success_chance.terrain:0 "[ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly] มี [terrain|E] [ROOT.Activity.GetCurrentPhase.GetLocation.GetTerrain.GetName]"
+ hunt_success_chance.development:0 "[development|E] สูงใน [ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]"
+ hunt_success_chance.no_holding:0 "ไม่มี [holding|E] ใน [ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]"
+ hunt_success_chance.master_of_hunt:0 "[aptitude|E] ของ [ROOT.Activity.GetHost.Custom('GetHuntMasterTooltipDesc')]"
+ hunt_success_chance.master_of_hunt_holder: "ดำรงตำแหน่ง [court_position|E] [ROOT.Activity.GetHost.Custom('GetHuntMasterTooltipDesc')]"
+ hunt_success_chance.hunt_option_attendants:0 "[activity_option|E] $hunt_option_attendants$"
+ hunt_success_chance.nomadic: "เป็น[GetGovernment( 'nomad_government' ).GetName]"
+ hunt_success_chance.forced_type:0 "บังคับล่า [ROOT.Activity.MakeScope.Var('animal_type').GetFlagName|U]"
+ hunt_success_chance.captive_release:0 "ล่า [ROOT.Activity.MakeScope.Var('animal_type').GetFlagName|U] ที่ถูกจับ"
+ hunt_success_chance.attending_hunters:0 "[activity_guests_short|E] ที่เป็น [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]"
+ hunt_success_chance.hunt_guide_local_madman_modifier:0 "[GetModifier( 'hunt_guide_local_madman_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hunt_tame_deer_modifier:0 "[GetModifier( 'hunt_tame_deer_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.ep2_beastmaster_modifier:0 "[GetModifier( 'ep2_beastmaster_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.dog_story_scenthound_modifier:0 "[GetModifier( 'dog_story_scenthound_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.dog_story_beasthound_modifier:0 "[GetModifier( 'dog_story_beasthound_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hunt_mismanaged_game_modifier:0 "[GetModifier( 'hunt_mismanaged_game_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hunt_abundant_game_modifier: "[GetModifier( 'ep3_abundant_game_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hunt_wild_predators_modifier: "[GetModifier( 'ep3_wild_predators_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hunt_punished_locals_modifier:0 "[GetModifier( 'hunt_punished_locals_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hidden_hinterlands_recruit_modifier: "[GetModifier( 'inspection_hidden_hinterlands_recruit_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.hidden_hinterlands_huntsmen_modifier: "[GetModifier( 'inspection_hidden_hinterlands_hunters_modifier' ).GetNameWithTooltip]"
+ hunt_success_chance.recent_hunt_held:0 "การล่าล่าสุดใน [ROOT.Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]"
+ hunt_success_chance.hunting_grounds:0 "[building|E] $building_type_hunting_grounds_01$"
+ hunt_success_chance.rainbow_mountains_01: "[building|E] $building_type_rainbow_mountains_01$"
+ hunt_success_chance.chocolate_hills_01: "[building|E] แบบ $building_type_chocolate_hills_01$"
+ hunt_success_chance.visegrad_castle_01: "[building|E] $building_type_visegrad_castle_01$"
+ hunt_success_chance.logging_camps:0 "[building|E] $building_type_logging_camps_01$"
+ hunt_success_chance.royal_forest:0 "[building|E] $building_type_royal_forest_01$"
+ hunt_success_chance.legendary_hunting_lodge: "[building|E] แบบ $building_legendary_hunting_lodge$"
+ hunt_success_chance.culture:0 "[culture_traditions|E] ของ [ROOT.Activity.GetHost.GetCulture.GetName]"
+ hunt_success_chance.events:0 "เหตุการณ์"
+ hunt_success_chance.sighting:0 "[hunt_sighting_no_prefix|E] [ROOT.Activity.Custom('GetAnimalType')|U]"
+ hunt_success_chance.hunting_eagle: "[GetModifier( 'eagle_story_modifier' ).GetNameWithTooltip]"
+
+ hunt_dangerous_beast_slain_modifier:0 "สังหารสัตว์ร้ายอันตราย"
+ hunt_dangerous_beast_slain_modifier_desc:0 "จิตใจของประชากรในท้องถิ่นผ่อนคลายลงเมื่อรู้ว่ามีภัยคุกคามในป่าลดลงไปหนึ่งอย่าง"
+
+ hunt_medicinal_herbs_modifier:0 "$useful_herbs$"
+ hunt_medicinal_herbs_modifier_desc:0 "$useful_herbs_desc$"
+ hunt_poisonous_herbs_modifier:0 "$poisonous_plants$"
+ hunt_poisonous_herbs_modifier_desc:0 "$poisonous_plants_desc$"
+
+ hunt_carving_into_bark_modifier: "รักนิรันดร์"
+ hunt_carving_into_bark_modifier_desc: "ตัวละครนี้สลักชื่อย่อของคนรักลงบนเปลือกของต้นไม้อันโอ่อ่า"
+
+ hunt_ending_dog_suffering_modifier: "เพื่อนแท้จนวาระสุดท้าย"
+ hunt_ending_dog_suffering_modifier_desc: "ตัวละครนี้ได้ตัดสินใจอย่างยากลำบากที่จะจบชีวิตสหายผู้ภักดีของตนที่กำลังอยู่บนเส้นด้ายแห่งความตาย"

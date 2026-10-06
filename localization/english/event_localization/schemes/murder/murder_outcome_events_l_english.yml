@@ -1,0 +1,593 @@
+﻿l_english: 
+ do_not_execute_murder_tooltip:0 "อย่าพยายามดำเนินการฆาตกรรม"
+ murder_child_really_tooltip:1 "การฆาตกรรมเด็ก ท่านแน่ใจในเรื่องนี้แล้วหรือ?"
+ murder_outcome_murdered_rival_tt: "ท่านได้รับ [prestige_i][EmptyScope.ScriptValue('rival_outlived_prestige_value')|P0] จากการมีชีวิตยืนยาวกว่า [rival|E] ของท่าน"
+ murder_unknown_murder_against_you_was_successful:0 "#X ท่านถูกฆาตกรรมโดยผู้โจมตีที่ไม่ทราบชื่อ!#!"
+ murder_unknown_murder_against_you_was_successful_other:0 "#X [THIS.Char.GetShortUIName] ถูกฆาตกรรมโดยผู้โจมตีที่ไม่ทราบชื่อ!#!"
+
+ murder_outcome.1001.t:0 "นักฆ่า!"
+ murder_outcome.1001.d:0 "ถึงเวลาแล้ว สายลับของข้าอยู่ในตำแหน่งแล้ว หนึ่งในนั้นจะจ่ายเงินให้นักฆ่าในคืนที่ลงมือ อีกคนจะ ทำให้แน่ใจว่ากำแพงไม่มีทหารยาม คนที่สามจะทิ้งร่องรอยเทียนไขอย่างแนบเนียนไปยังห้องบรรทมของ [target.GetTitledFirstNamePossessive]\n\nทุกอย่างเข้าที่แล้ว"
+ murder_outcome.1001.a:0 "ลงมือ"
+ murder_outcome.1001.b:0 "เดี๋ยวก่อน ข้ายังไม่พร้อม"
+
+ murder_outcome.1002.t:0 "ถูกโจมตี"
+ murder_outcome.1002.opening:0 "สายลับของข้าได้กำหนดการเดินทางสำหรับ [target.GetTitledFirstName] ซึ่งจะนำพวกเขาผ่านป่าทึบ $murder_outcome.1002.d$"
+ murder_outcome.1002.opening_travel:0 "สายลับของข้าได้ทราบว่า [target.GetTitledFirstName] กำลังเดินทางไปยัง [province.GetName] ซึ่งจะนำ [target.GetHerHim] ผ่านพื้นที่รกร้างหลายแห่ง\n\n$murder_outcome.1002.d$"
+ murder_outcome.1002.d:1 "สิ่งที่ขาดหายไปคือกลุ่มอันธพาลที่จะสังหาร [target.GetHerHim] อย่างน่าเศร้าในการปล้นบนทางหลวงที่ผิดพลาด\n\nข้าสามารถจินตนาการถึงเลือดของ [target.GetHerHis] ที่ซึมลงสู่ดินสีคล้ำได้แล้ว..."
+ murder_outcome.1002.a:1 "โอ้ ถิ่นทุรกันดารช่างเป็นสถานที่อันตรายเสียนี่กระไร"
+ murder_outcome.1002.b:0 "เดี๋ยวก่อน นี่ไม่ใช่เวลาที่เหมาะสม"
+
+ murder_outcome.1003.t:0 "มื้ออาหารที่ต้องตายเพื่อลิ้มลอง"
+ murder_outcome.1003.d:0 "สายลับของข้าเตรียมการมาหลายสัปดาห์ พ่อครัวถูกติดสินบนให้มองไปทางอื่น ยาพิษถูกจัดหามาแล้ว และเป็ดถูกมอบให้แก่ [target.GetTitledFirstName] เพียงผู้เดียว มันจะถูกทาด้วยยาพิษ และเตียงสมุนไพรจะกลบกลิ่นขณะเสิร์ฟ ความขมร้ายแรงจะเป็นสิ่งสุดท้ายที่เป้าหมายของข้าได้ลิ้มรส"
+ murder_outcome.1003.a:0 "เชิญอร่อย [target.GetFirstNameNoTooltip]..."
+ murder_outcome.1003.b:0 "เดี๋ยวก่อน ข้าต้องการเวลาเตรียมตัวมากกว่านี้!"
+
+ murder_outcome.1004.t:0 "ไม่ได้รับเชิญ"
+ murder_outcome.1004.desc:0 "หนึ่งในสายลับของข้าได้ [SCOPE.Custom('VenomousCreature')] มา และจัดการให้คนรับใช้ซ่อนมันไว้ในเตียงของ [target.GetTitledFirstNamePossessive] ก่อนค่ำ\n\nสิ่งที่พวกเขาต้องการคือคำสั่งของข้า และ [target.GetSheHe] ก็ไม่ต่างจากตายทันทีที่ [SCOPE.Custom('VenomousCreatureType')] โจมตี"
+ murder_outcome.1004.a:0 "ข้าหวังว่าเจ้าจะไม่กลัว [SCOPE.Custom('VenomousCreatureTypePlural')] นะ [target.GetFirstNameNoTooltip]..."
+ murder_outcome.1004.b:0 "นี่ไม่ใช่วิธีที่จะทำ"
+
+ murder_outcome.1005.t:1 "$knight_culture_player_plural_no_tooltip$ และไพร่"
+ murder_outcome.1005.desc:0 "ด้วยความไม่สงบเมื่อเร็วๆ นี้ในหมู่ไพร่แห่ง [home_province.GetNameNoTier] หนึ่งในสายลับของข้าได้เสนอข้อเสนอแนะที่ไม่เหมือนใครในการจัดการกับ [target.GetTitledFirstName]\n\nด้วยเหรียญในกระเป๋าที่ถูกต้องและผู้ปลุกปั่นในทุกมุม เราสามารถจัดฉากการจลาจลทั้งหมด ในขณะที่ [target.GetTitleTierName] กำลังผ่านไปตามถนน"
+ murder_outcome.1005.a:0 "ถึงเวลาสำหรับการปกครองโดยฝูงชนแบบเก่าที่ดีแล้ว"
+ murder_outcome.1005.b:0 "นี่มันคาดเดาไม่ได้เกินไป!"
+
+ murder_outcome.1006.t:0 "ถังไวน์"
+ murder_outcome.1006.desc:0 "[target.GetTitledFirstName] จะเข้าร่วมงานเฉลิมฉลองท้องถิ่นใน [home_province.GetName] และข้าบังเอิญรู้ว่า [target.GetSheHe] เป็นผู้ที่ชื่นชอบไวน์อยู่บ้าง\n\nข้าสามารถล่อ [target.GetHerHim] เข้าไปในห้องใต้ดินของ [target.Custom('ResidenceBuilding')] ของข้าเพื่อชิมไวน์สุดพิเศษ แล้ว ทำให้แน่ใจว่า [target.GetSheHe] จะไม่ได้เดินออกมาอีกเลย...!"
+ murder_outcome.1006.a:0 "นี่มันง่ายมาก!"
+
+ murder_outcome.1007.t:0 "ในน่านน้ำปั่นป่วน"
+ murder_outcome.1007.travel:0 "[target.GetTitledFirstName] กำลังอยู่บนเรือที่ไหนสักแห่งใน [province.GetName]"
+ murder_outcome.1007.desc_not_inspection:0 "[target.GetTitledFirstName] กำลังเยี่ยมชมเรือที่ทอดสมออยู่ในท่าเรือแห่งหนึ่งของ [province.GetNameNoTier] ในปลายสัปดาห์นี้"
+ murder_outcome.1007.desc:0 "[target.GetTitledFirstName] กำลังตรวจสอบเรือที่ทอดสมออยู่ในท่าเรือแห่งหนึ่งของ [province.GetNameNoTier] ในปลายสัปดาห์นี้"
+ murder_outcome.1007.desc_ending:0 "\n\nมันคงง่ายที่จะให้สายลับของข้าชโลมเรือพายที่จะใช้รับส่ง [target.GetHerHim] ด้วยของเหลวไวไฟ รอ จนกระทั่งมันออกไปกลางท่าเรือ ยิงธนูไฟ แล้วก็... ปล่อยให้น้ำพราก [target.GetHerHim] ไป"
+ murder_outcome.1007.desc_ending_travel:0 "\n\nมันคงเป็นโศกนาฏกรรมหากสายลับของข้าชโลมไม้ด้วยของเหลวไวไฟ หลบหนีไปบนเรือพายลำเดียว และจุดไฟเผาเรือขณะที่พวกเขาหลบหนีอย่างปลอดภัย... ซึ่งจะ ทำให้แน่ใจถึงความตายของ [target.GetFirstNamePossessiveNoTooltip] พร้อมกับคณะผู้ติดตามของ [target.GetHerHis]"
+ murder_outcome.1007.a:0 "เริ่มดำเนินการตามแผน"
+
+ murder_outcome.1008.t:0 "เครื่องดื่มแห่งชีวิต"
+ murder_outcome.1008.desc:0 "สายลับของข้าได้ผงยาที่ไม่ทิ้งร่องรอยเมื่อละลายในเครื่องดื่มมา คนรับใช้ที่รับผิดชอบในการเติมและจัดการถ้วยของ [target.GetTitledFirstNamePossessive] ถูกติดสินบนให้มองไปทางอื่น และสิ่งที่เหลืออยู่คือการอนุมัติของข้าเพื่อลอบใส่ยาพิษลงในเครื่องดื่มดับกระหายครั้งต่อไปของ [target.GetHerHis]"
+ murder_outcome.1008.a:0 "ดื่มอวยพรแด่สุขภาพของ [target.GetShortUINamePossessiveNoTooltip]!"
+
+ murder_outcome.1201.t:0 "เส้นทางที่ไม่ค่อยมีคนใช้"
+ murder_outcome.1201.desc:0 "[assassin.GetTitledFirstName] กำลังเตรียมการเดินทางพิเศษสำหรับ [target.GetTitledFirstName] ผู้อ่อนเยาว์ เด็กน้อยเชื่อใจว่า [target.GetSheHe] จะได้ไปเที่ยวป่าอย่างสนุกสนาน\n\nน่าเสียดายที่ [target.GetFirstNameNoTooltip] จะหลงทาง และเป็นไปไม่ได้ที่จะหาพบก่อนค่ำ โอ้ [target.GetSheHe] ช่างเยาว์วัยเหลือเกิน..."
+ murder_outcome.1201.no_assassin:0 "หนึ่งในสายลับของข้ากำลังเตรียมการเดินทางพิเศษสำหรับ [target.GetTitledFirstName] ผู้อ่อนเยาว์ เด็กน้อยเชื่อใจว่า [target.GetSheHe] จะได้ไปเที่ยวป่าอย่างสนุกสนาน\n\nน่าเสียดายที่ [target.GetFirstNameNoTooltip] จะหลงทาง และเป็นไปไม่ได้ที่จะหาพบก่อนค่ำ โอ้ [target.GetSheHe] ช่างเยาว์วัยเหลือเกิน..."
+ murder_outcome.1201.a:0 "เด็กหลงป่า... มันเกิดขึ้นบ่อยครั้งอย่างน่าเศร้า"
+ murder_outcome.1201.b:0 "ไม่ ข้าต้องคิดเรื่องนี้ใหม่!"
+
+ murder_outcome.1202.t:0 "ไร้ทางสู้"
+ murder_outcome.1202.desc:0 "ถึงเวลาแล้ว หนึ่งในแม่นมของ [target.GetTitledFirstNamePossessive] ตัวน้อยยินดีที่จะทำสิ่งที่ต้องทำ แน่นอนว่าต้องมีค่าตอบแทนที่เพียงพอ\n\nข้าโบกมือไล่สายลับของข้าไปก่อนที่ [dummy_gender.GetSheHe] จะอธิบายจุดประสงค์ของเข็มแหลมคมเสร็จ"
+ murder_outcome.1202.a:0 "จัดการให้เสร็จ ไม่ว่าจะราคาเท่าไหร่"
+ murder_outcome.1202.b:0 "ข้ากำลังคิดอะไรอยู่?"
+
+ murder_outcome.1203.desc:0 "เป็นการยากที่จะหาชายที่เต็มใจจะลงมือกับทารก แต่การหาคนที่เต็มใจจะวาง [SCOPE.Custom('VenomousCreatureType')] ไว้ในเปลนั้นง่ายกว่ามาก\n\nข้ามองสายลับของข้ายัด [SCOPE.Custom('VenomousCreature')] ลงในถุงเล็กๆ และตัวสั่น – สิ่งนั้นเกือบจะใหญ่เท่ากับเหยื่อในอนาคตของมัน!"
+
+ murder_outcome.1204.t:0 "ชอบของหวาน"
+ murder_outcome.1204.desc:0 "หากมีสิ่งหนึ่งที่ [target.GetTitledFirstName] โดยเฉพาะไม่สามารถต้านทานได้ นั่นคือขนมโปรดของ [target.GetHerHis]...\n\nขนมหวานชิ้นต่อไปของ [target.GetHerHis|U] จะเป็นส่วนหนึ่งของ [target.Custom('FavoriteTreat')] และอีกส่วนหนึ่งเป็นยาพิษร้ายแรง – "ถูกลืม" ไว้โดยสายลับของข้าต่อหน้าเด็ก"
+ murder_outcome.1204.a:0 "เชิญอร่อยกับลูกอม!"
+
+ murder_outcome.1205.t:0 "ความสูงอันตราย"
+ murder_outcome.1205.desc_opening:0 "เวลาของ [target.GetTitledFirstNamePossessive] มาถึงแล้ว ทุกสิ่งย่อมร่วงหล่นในที่สุด: อาณาจักร [ROOT.Char.Custom('LadiesLords')] #EMP เด็กที่ถูกผลักจากที่สูง#!...\n\n"
+ murder_outcome.1205.desc_dog:0 "สายลับของข้าจะผูกเชือกรอบคอสุนัขของ [target.GetTitledFirstNamePossessiveNoTooltip] ตัวน้อยและแขวนมันไว้บนกำแพงสูง – เสียงร้องครวญครางและกรีดร้องจะต้องเรียกเด็กมาอย่างแน่นอน"
+ murder_outcome.1205.desc_cat:0 "สายลับของข้าจะผูกเชือกรอบคอแมวของ [target.GetTitledFirstNamePossessiveNoTooltip] ตัวน้อยและแขวนมันไว้บนกำแพงสูง – เสียงร้องโหยหวนจะต้องเรียกเด็กมาอย่างแน่นอน"
+ murder_outcome.1205.desc_toy:0 "สายลับของข้าจะผูกเชือกรอบของเล่นชิ้นโปรดของ [target.GetTitledFirstNamePossessiveNoTooltip] ตัวน้อย [target.Custom('child_favorite_toy_indefinite')] และแขวนมันไว้บนกำแพงสูง – [target.GetSheHe] จะต้องมาตามหาอย่างแน่นอน"
+ murder_outcome.1205.desc:0 "สายลับของข้าจะทิ้งร่องรอยขนมหวานนำทางขึ้นไป สูงขึ้นไป สูงพอที่จะ ทำให้ท้องน้อยๆ ของ [target.GetTitledFirstNamePossessiveNoTooltip] เสียวแปลบ เมื่อถึงยอด [target.GetSheHe] จะพบตะกร้าที่เต็มไปด้วยขนมแขวนอยู่เหนือขอบกำแพง"
+ murder_outcome.1205.desc_ending:0 "และขณะที่ [target.GetSheHe] เอื้อมมือลงไปแก้เชือก มันคงง่ายมากที่ [target.GetHerHim] จะลื่น..."
+ murder_outcome.1205.a:0 "โศกนาฏกรรมโดยแท้"
+
+ murder_outcome.1301.t:0 "ถูกลืมในความมืด"
+ murder_outcome.1301.desc:0 "ดูเหมือนว่าด้วยราคาที่เหมาะสม กลุ่มข้าราชสำนักอาจหลุดรอดจากความทรงจำของผู้คุมคุกในคุกใต้ดินของ [prison_owner.GetTitledFirstNamePossessive] ไปได้อย่างสะดวก ขณะที่พวกเขาเดินทางไปเยี่ยม [target.GetTitledFirstName] เป็นครั้งสุดท้ายที่ [target.GetSheHe] จะเคยมี..."
+ murder_outcome.1301.a:0 "[prison_owner.GetFirstNameNoTooltip] จะใช้เวลานานเท่าใดกว่าจะรู้ว่า [target.GetFirstNameNoTooltip] ตายแล้ว?"
+ murder_outcome.1301.b:0 "ไม่ ไม่ใช่ตอนนี้"
+
+ murder_outcome.1302.t:0 "แขกที่ไม่พึงประสงค์"
+ murder_outcome.1302.desc:0 "เป็นการยากที่จะเข้าถึง [target.GetTitledFirstName] ในระหว่างการกักบริเวณในบ้านของ [target.GetHerHis] อย่างไรก็ตาม สายลับของข้าได้พบคนรับใช้เก่าจาก"
+ murder_outcome.1302.home_court_exists:0 "ราชสำนักที่ [target_home.GetNameNoTier],"
+ murder_outcome.1302.home_court_does_not_exists:0 "ราชสำนักเดิมของ [target.GetHerHis],"
+ murder_outcome.1302.end:0 "ที่เต็มใจจะปลอมตัวเป็นเพื่อนของ [target.GetFirstNamePossessive] โดยมาเยี่ยม..."
+ murder_outcome.1302.a:0 "ติดอาวุธให้คนรับใช้และส่ง [dummy_gender.GetHerHim] ไปตามทางของ [dummy_gender.GetHerHis]"
+ murder_outcome.1302.b:0 "ไม่ ไม่ใช่ตอนนี้"
+
+ murder_outcome.1401.t:0 "ความเมตตา"
+ murder_outcome.1401.desc:0 "[target.GetTitledFirstName] ผู้น่าสงสาร ไร้ทางสู้... ชีวิตจะมีค่าควรอยู่เมื่อใดกัน?\n\nหนึ่งในสายลับของข้าได้จัดการให้นักฆ่าเข้าไปในห้องที่ [target.GetTitleTierName] ผู้ไร้ความสามารถกำลัง "พักผ่อน" อยู่"
+ murder_outcome.1401.a:0 "นี่คือสิ่งที่ดีที่สุดแล้ว"
+ murder_outcome.1401.b:0 "ไม่ นี่ดูเหมือนจะผิด"
+
+ murder_outcome.2000.t:0 "ชะตาพลิกผัน"
+ murder_outcome.2000.desc:0 "ขณะที่ข้ากำลังเตรียมการทุกอย่างที่จำเป็นสำหรับการจากโลกนี้ไปของ [target.GetTitledFirstNamePossessive] ข้าก็ถูกขัดจังหวะโดยมหาดเล็ก [owner.Custom2('InsultNoun', ROOT.Char)] นั่นดันไปตายโดยที่ข้ายังมิทันได้ช่วยเลย!"
+ murder_outcome.2000.a:0 "[ROOT.Char.GetFaith.DevilName|U] คงกระตือรือร้นที่จะได้ [target.GetHerHis] เป็นเพื่อน!"
+ murder_outcome.2000.a.tt:0 "[target.GetTitledFirstName] [target.GetDeathReason]"
+ murder_outcome.2500.desc:0 "ขณะที่ข้ากำลังเตรียมการนัดพบระหว่าง [target.GetTitledFirstName] กับ [ROOT.Char.GetFaith.DevilName|U] ต่อไป ข้าก็ถูกขัดจังหวะโดยมหาดเล็ก [owner.Custom2('InsultNoun', ROOT.Char)] นั่นเดินทางไปไกลและบัดนี้ก็อยู่ไกลเกินเอื้อมของข้าแล้ว! "
+ murder_outcome.2500.a:0 "เจ้าอาจหนีข้าพ้น แต่เจ้าหนีความตายไม่พ้น!"
+
+ murder_outcome.2001.t:0 "นักฆ่า!"
+ murder_outcome.2001.opening_1:0 "แผนสำเร็จ และ [target.GetName] ตายในที่สุด!"
+ murder_outcome.2001.opening_2: "ดูเหมือนจะเป็นการยากที่จะเข้าถึง [target.GetTitledFirstName] โดย [target.GetHerselfHimself] แต่เมื่อนักฆ่าทำได้ในที่สุด [target.GetSheHe] ก็มีชีวิตอยู่บนโลกนี้ได้อีกไม่นาน"
+ murder_outcome.2001.opening_3:0 "นักฆ่าปฏิบัติการได้อย่างยอดเยี่ยม และ [target.GetName] ตายในที่สุด!"
+ murder_outcome.2001.heh:0 "\nเหอะ"
+ murder_outcome.2001.owner_is_known_1:0 "\n\nน่าเสียดาย แม้ว่าข้าจะยังคงอ้างว่าข้อกล่าวหานั้นไม่มีมูล แต่ก็ไม่มีใครสงสัยว่าเป็นการกระทำของข้า"
+ murder_outcome.2001.owner_is_known_2:0 "\n\nอย่างไรก็ตาม ใครบางคน ที่ไหนสักแห่ง พลาดพลั้งและ ทำให้การมีส่วนร่วมของข้าในอาชญากรรมเป็นที่รู้กัน! อย่างน้อยข้าก็สามารถปลอบใจตัวเองได้ว่า [target.GetTitledFirstName] แย่กว่าข้า"
+ murder_outcome.2001.no_awareness_1:0 "\n\nโชคดีที่การมีส่วนร่วมของข้าในอาชญากรรมยังคงไม่เป็นที่ทราบ"
+ murder_outcome.2001.no_awareness_2:0 "\n\nข้าได้ปกปิดร่องรอยของข้าไว้อย่างดี และหากใครสงสัยว่าข้าอยู่เบื้องหลังการโจมตี ก็ไม่มีใครกล้าพูดออกมาดังๆ"
+ murder_outcome.2001.a.discovered:0 "นักฆ่าของข้าอยู่ที่นั่นเพียงเพื่อปกป้อง [target.GetHerHim] จากฆาตกร #EMP ตัวจริง#! เท่านั้น! จริงๆ นะ!"
+ murder_outcome.2001.a:0 "ข้าชอบการมาเยือนที่ไม่คาดคิดจริงๆ"
+
+ murder_outcome.2001.memories:0 "\n\nข้าจำได้เมื่อ [bad_memory.GetDescription], [ROOT.Char.Custom('MurderMemoryEnding')]"
+
+ 
+ murder_outcome.2002.t:0 "การเดินทางอันตราย"
+ murder_outcome.2002.opening_1:0 "ขอบคุณแผนอันยอดเยี่ยมและอันธพาลรับจ้างของข้า [target.GetTitledFirstName] ตายในที่สุด!"
+ murder_outcome.2002.opening_2:0 "พวกอันธพาลทำงานของพวกเขา และ [target.GetTitledFirstName] ก็ไม่อยู่อีกต่อไป!"
+ murder_outcome.2002.opening_3:0 "[target.GetTitledFirstName] ได้จากโลกนี้ไปแล้ว ถูกส่งไปโดยคมดาบของโจร"
+ murder_outcome.2002.heh:0 "\nเหอะ"
+ murder_outcome.2002.no_save:0 "\n\nขณะที่คณะเดินทางหยุดพักค้างแรมในตอนเย็น พวกโจรก็กรูกันออกมาจากหมู่ไม้ ร้องเรียกเลือดและทองคำ! ทหารต่อสู้กลับ แต่โชคดีที่ไม่เพียงพอ [target.GetTitledFirstName] ถูกสังหารอย่างน่าเศร้าในการต่อสู้"
+ murder_outcome.2002.owner_is_known_1:0 "\n\nน่าเสียดายที่โจรคนหนึ่งถูกจับได้ และเปิดเผยว่าข้าได้จ่ายเงินให้พวกเขาเพื่อรับประกันการตายของ [target.GetTitleTierNamePossessive]!"
+ murder_outcome.2002.owner_is_known_2:0 "\n\nอย่างไรก็ตาม โจรคนหนึ่งต้องถูกจับได้แน่ๆ เพราะปรากฏว่าข้าอยู่เบื้องหลังการโจมตี!"
+ murder_outcome.2002.no_awareness_1:0 "\n\nตอนนี้พวกโจรถูกตามล่าโดยทุกคน และไม่มีใครสงสัยการมีส่วนร่วมของข้าเลย!"
+ murder_outcome.2002.no_awareness_2:0 "\n\nโชคดีที่โจรส่วนใหญ่ถูกสังหารในการต่อสู้ และคนตายพูดไม่ได้ ไม่มีใครจะรู้ถึงการมีส่วนร่วมของข้าเลย!"
+ murder_outcome.2002.a.discovered:0 "อาชญากรรมเดียวของข้าคือการไว้ใจโจรชั้นต่ำ..."
+ murder_outcome.2002.a:0 "ฮ่า! บางทีคนธรรมดาก็ไม่ได้ไร้ประโยชน์เสียทีเดียว?"
+ murder_outcome.2002.a.less_arrogant:0 "ปัญหาสองอย่างของข้าแก้ปัญหากันเอง!"
+
+ murder_outcome.2003.t:0 "นักกินเพื่อสุขภาพ"
+ murder_outcome.2003.opening_1:0 "ขอบคุณเป็ดและขวดยาพิษ [target.GetTitledFirstName] ตายในที่สุด!"
+ murder_outcome.2003.opening_2:0 "ยาพิษทำงานของมัน และ [target.GetTitledFirstName] ก็ไม่อยู่อีกต่อไป!"
+ murder_outcome.2003.opening_3:0 "นกตัวนั้นกลายเป็นสิ่งสุดท้ายที่ [target.GetFirstName] เคยกิน!"
+ murder_outcome.2003.owner_is_known_1:0 "\n\nอย่างไรก็ตาม ขณะที่ดูเหมือนจะสำลักกระดูก [target.GetTitledFirstName] ก็สามารถเปล่งเสียงชื่อข้าออกมาได้ สาปแช่งข้าว่าเป็นฆาตกรของ [target.GetHerHis]!"
+ murder_outcome.2003.owner_is_known_2:0 "\n\nน่าเสียดายที่ยาพิษถูกค้นพบ และผู้ใช้ยาพิษก็รีบระบุชื่อข้าว่าเป็นผู้รับผิดชอบ!"
+ murder_outcome.2003.owner_is_known_3:0 "\n\nอย่างไรก็ตาม คนรับใช้คนหนึ่งของ [target.GetTitledFirstNamePossessive] รู้สึกผิดอย่างรุนแรง และออกมาสารภาพ โดยระบุชื่อข้าว่าเป็นผู้จัดหายาพิษ"
+ murder_outcome.2003.no_awareness_1:0 "\n\nดียิ่งกว่านั้น ในขณะที่ [target.GetHerHis] กำลังจะตาย กระดูกชิ้นหนึ่งติดคอของ [target.GetTitledFirstNamePossessive]! ตอนนี้จึงไม่ชัดเจนว่าอะไรฆ่า [target.GetHerHim] กันแน่!"
+ murder_outcome.2003.no_awareness_2:0 "\n\nดูเหมือนว่าไม่มีสายลับคนใดของข้าตกเป็นผู้ต้องสงสัย ซึ่งหมายความว่าไม่มีใครสามารถสืบหายาพิษกลับมาถึงข้าได้!"
+ murder_outcome.2003.a.discovered_1:0 "ข้าเพียงแค่พยายาม ทำให้งานเลี้ยงมีชีวิตชีวาขึ้นเท่านั้น!"
+ murder_outcome.2003.a.discovered_2:0 "โอ้ ได้โปรด [target.GetSheHe|U] กำลังทำลายบรรยากาศอยู่แล้ว"
+ murder_outcome.2003.a:0 "ต้องเป็นอะไรบางอย่างที่ [target.GetSheHe] กินเข้าไปแน่ๆ"
+
+ murder_outcome.2004.opening_1:0 "[target.GetTitledFirstName] ตายแล้ว โดย [SCOPE.Custom('VenomousCreatureAttack')] อันร้ายแรงของ [SCOPE.Custom('VenomousCreature')]! [SCOPE.Custom('VenomousCreatureType')] โจมตีไม่นานหลังจากที่ [target.GetSheHe] กลับเข้าห้องบรรทมของ [target.GetHerHis] และ แม้ว่าจะมีการเรียกทหารยาม แต่ก็ไม่มีใครสามารถทำอะไรเพื่อช่วย [target.GetHerHim] ได้"
+ murder_outcome.2004.owner_is_known_1:0 "\n\nน่าเสียดายที่ [target.GetSheHe] ตายพร้อมกับสาปแช่งชื่อข้า และข่าวลือเรื่องการมีส่วนร่วมของข้าก็แพร่กระจายไปไกลแล้ว"
+ murder_outcome.2004.no_awareness_1:0 "\n\nโชคดีที่ [SCOPE.Custom('VenomousCreatureTypePlural')] พูดไม่ได้ ดังนั้นการโจมตีจึงไม่สามารถสืบย้อนกลับมาถึงข้าได้"
+ murder_outcome.2004.no_awareness_1_beaked_mammal:0 "\n\nโชคดีที่สัตว์ เช่นนั้นพูดไม่ได้ — แน่นอนว่าพวกมันพูดไม่ได้ใช่ไหม? – ดังนั้นการโจมตีจึงไม่สามารถสืบย้อนกลับมาถึงข้าได้"
+ murder_outcome.2004.a.discovered:0 "ถึงเวลา [SCOPE.Custom('VenomousCreatureMovement')] หนีไปเหมือน [SCOPE.Custom('VenomousCreatureType')]!"
+ murder_outcome.2004.a:0 "เพื่อนตัวน้อยของข้าทำงานได้ดี"
+
+ murder_outcome.2005.opening_1:1 "[target.GetTitledFirstName] ตายแล้ว ถูกทุบตีและเหยียบย่ำโดยไพร่ของ [target.GetHerHis] เอง!\n\nไพร่ที่ถูกปลุกปั่นคลั่งเมื่อเห็นนายเหนือหัวของพวกเขาขี่ม้าผ่านถนน และฉีกทั้ง [target.GetHerHim] และ $knight_culture_player_plural_no_tooltip_lowercase$ หลายคนของ [target.GetHerHis] ลงจากหลังม้า ทุบตีพวกเขาจนตาย!"
+ murder_outcome.2005.owner_is_known_1:0 "\n\nไพร่หลายคนถูกแขวนคอ แต่น่าเศร้า ก่อนการประหารชีวิต ผู้ปลุกปั่นบางคนของข้าได้ระบุชื่อข้าว่าเป็นผู้กระทำผิด"
+ murder_outcome.2005.no_awareness_1:0 "\n\nไพร่หลายคนถูกแขวนคอ รวมถึงผู้ปลุกปั่นของข้า ซึ่งหมายความว่ามันไม่สามารถสืบย้อนกลับมาถึงข้าได้!"
+ murder_outcome.2005.a.discovered:0 "ไพร่ไม่สามารถไว้วางใจให้พิจารณาถึงประโยชน์ส่วนรวมของข้าได้เลย"
+ murder_outcome.2005.a.discovered.less_arrogant:0 "ถูกทรยศ แม้กระทั่งโดยคนรับใช้ที่ต่ำต้อยของข้า!"
+ murder_outcome.2005.a:0 "อย่าประเมินพลังของฝูงชนต่ำเกินไป"
+
+ murder_outcome.2006.desc:0 "[target.GetTitledFirstName] ตายแล้ว ถูกก่อกำแพงปิดและในไม่ช้าก็จะถูกลืม!\n\n[target.GetSheHe|U] ตามข้ามาอย่างเต็มใจ เมามายด้วยความรื่นเริงและไวน์ เข้าไปในห้องใต้ดิน หลังจากดื่มไวน์ "ชั้นดี" หลายแก้ว [target.GetSheHe] ก็หลับไปอย่างง่ายดายและไม่ขยับตัวเลยขณะที่ข้านำเกรียงออกมาและก่ออิฐปิดทางออกอย่างเป็นระบบ\n\n"
+ murder_outcome.2006.scheme_owner_known:0 "น่าเสียดายที่มีคนเห็นข้านำ [target.GetHerHim] เข้าไปในห้องใต้ดิน และภายในไม่กี่สัปดาห์ กำแพงที่สร้างขึ้นใหม่ก็ถูกทุบลงเพื่อเผยให้เห็นความน่าสะพรึงกลัวเบื้องหลัง"
+ murder_outcome.2006.scheme_unknown:0 "โชคดีที่ดูเหมือนไม่มีใครสังเกตเห็นกำแพงใหม่ที่แปลกประหลาดในห้องใต้ดินของข้า..."
+ murder_outcome.2006.a.discovered:0 "[target.GetSheHe|U] เมาและต้องการที่พัก!"
+ murder_outcome.2006.a:0 "ขอให้ [target.GetSheHe] ไปสู่สุคติ!"
+
+ murder_outcome.2007.desc:0 "[target.GetTitledFirstName] ตายแล้ว ถูกอ้อมกอดอันเย็นเยียบของมหาสมุทรพรากไป!\n\nธนูไฟที่ยิงโดยสายลับของข้าลุกโชนเป็นเส้นทางเพลิงข้ามท่าเรือ และเพียงชั่วครู่ต่อมา เรือทั้งลำก็ลุกเป็นไฟ"
+ murder_outcome.2007.desc_lowborn:0 "ผู้โดยสารทุกคนลงเอยในน้ำ และเสื้อผ้าก็หนักมากเมื่อเปียก..."
+ murder_outcome.2007.desc_highborn:0 "ผู้โดยสารทุกคนลงเอยในน้ำ และผ้าเนื้อดีก็หนักมากเมื่อเปียก..."
+ murder_outcome.2007.scheme_owner_known:0 "\n\nน่าเสียดายที่มีคนเห็นนักธนู และเขาไม่ลังเลที่จะขายข้า!"
+ murder_outcome.2007.scheme_unknown:0 "\n\n#EMP โชคดีที่#! ไม่พบนักธนู"
+ murder_outcome.2007.a.discovered:0 "ข้า... ข้าคิดว่า [target.GetSheHe] ว่ายน้ำเป็น!"
+ murder_outcome.2007.a:0 "ช่างเป็นโศกนาฏกรรม!"
+ every_entourage_member:0 "สมาชิกทุกคนในคณะผู้ติดตามของ [target.GetTitledFirstNamePossessiveNoTooltip]:"
+
+ murder_outcome.2008.desc_drunkard:0 "[target.GetTitledFirstName] ตายแล้ว ถูกฆ่าโดย [target.Custom('RegionalAlcoholicDrink')] ที่ [target.GetSheHe] รักมาก!"
+ murder_outcome.2008.desc_not_drunkard:0 "[target.GetTitledFirstName] ตายแล้ว ถูกฆ่าโดยการดื่ม [target.Custom('RegionalDrink')] อย่างลึก!"
+ murder_outcome.2008.desc:0 "\n\nสายลับของข้าใส่ยาพิษลงในถ้วยของ [target.GetHerHis] และเฝ้าดูมันละลายโดยไม่ทิ้งร่องรอย เพียงเมื่อคอของ [target.GetHerHis] บวมปิดเท่านั้นที่ [target.GetSheHe] ตระหนักว่ามีบางอย่างผิดปกติ แต่ตอนนั้นก็สายเกินไปแล้ว\n\n"
+ murder_outcome.2008.scheme_owner_known:0 "น่าเสียดายที่มีคนเห็นสายลับของข้า และคนรับใช้ที่ถูกติดสินบนก็ไม่ลังเลที่จะเปิดเผยการมีส่วนร่วมของข้า!"
+ murder_outcome.2008.scheme_unknown:0 "โชคดีที่สายลับของข้าหลบออกไปได้ดีก่อนที่ผลของยาพิษจะเปิดเผยว่ามีบางอย่างเกิดขึ้น!"
+ murder_outcome.2008.a.discovered:0 "...[target.GetSheHe|U] ดูเหมือนกระหายน้ำ?"
+ murder_outcome.2008.a:0 "ไชโย [target.GetTitledFirstNameNoTooltip]!"
+
+ murder_outcome.2201.t:0 "ศพที่ถูกฉีกทึ้ง"
+ murder_outcome.2201.opening:0 "[target.GetTitledFirstName] ตายแล้ว!\n\nการค้นหาดำเนินไปจนดึกก่อนที่จะถูกยกเลิกและเริ่มใหม่ในรุ่งเช้า ตอนนั้นเองที่พบศพ เปื้อนเลือด ถูกฉีกทึ้งและฉีกขาดหลังจากการโจมตีโดยสัตว์ร้ายที่ดุร้ายและหิวโหย อย่างน้อยข้าก็หวังว่ามันเป็นการกระทำของสัตว์ร้าย"
+ murder_outcome.2201.scheme_owner_known:0 "\n\nหายนะยิ่งนัก สายลับของข้าสารภาพทันทีที่พบเด็ก ตอนนี้ทุกคนรู้ว่าข้าอยู่เบื้องหลังโศกนาฏกรรมนี้!"
+ murder_outcome.2201.scheme_unknown:0 "\n\nโชคดีที่ทุกคนเห็นพ้องกันว่าเป็นโศกนาฏกรรมที่เลวร้าย และการมีส่วนร่วมของข้า — และการมีอยู่ของแผนการใดๆ — ยังคงไม่เป็นที่ทราบ"
+ murder_outcome.2201.a.discovered:0 "การเผชิญกับอุปสรรคที่ไม่คาดฝันเป็นส่วนสำคัญของการเลี้ยงดูเด็กทุกคน!"
+ murder_outcome.2201.a:0 "และพวกเขากล่าวว่าเด็กคืออนาคต"
+
+ murder_outcome.2202.desc:0 "การกระทำเสร็จสิ้นแล้ว [target.GetTitledFirstName] จะไม่มีวันเติบโต หรือเข้าใจโลกรอบตัว [target.GetHerHim] เห็นได้ชัดว่ามันง่าย เข็มเหล็กแหลมคมแทงเข้าที่หู ทะลุผิวหนังและกระดูกอ่อนที่อ่อนนุ่มได้อย่างง่ายดาย"
+ murder_outcome.2202.desc_sadistic:0 "ข้าให้ข้าราชสำนักบรรยายซ้ำถึงเสียงร้องไห้และเลือดที่ไหลทะลักอีกสองสามครั้งก่อนที่ความอยากรู้อยากเห็นของข้าจะพอใจ"
+ murder_outcome.2202.desc_normal:0 "ข้าไล่ข้าราชสำนักไปก่อนที่จะได้รับรายละเอียดเพิ่มเติม"
+ murder_outcome.2202.scheme_owner_known:0 "\n\nหายนะยิ่งนัก แม่นมถูกจับได้และระบุชื่อข้าว่าเป็นผู้กระทำผิดเบื้องหลังอาชญากรรมอันชั่วร้าย"
+ murder_outcome.2202.scheme_unknown:0 "\n\nแม่นมถูกจับได้ แต่ถูกประหารชีวิตด้วยความโกรธก่อนที่เธอจะมีโอกาสสารภาพถึงการมีส่วนร่วมของข้าในอาชญากรรม"
+ murder_outcome.2202.a:0 "ข้าต้องทำสิ่งนี้ ข้าต้องทำสิ่งนี้"
+ murder_outcome.2202.a.tt:0 "#F ข้าต้องทำ!#!"
+ murder_outcome.2202.a.sadistic:0 "อะไรต่อไปในรายการของข้าสำหรับวันนี้?"
+
+ murder_outcome.2203.desc:0 "การกระทำเสร็จสิ้นแล้ว [target.GetTitledFirstName] จะไม่มีวันได้เติบโต จะไม่มีวันได้รู้จักความเจ็บปวดและความสุขของโลกนี้ เห็นได้ชัดว่าเป็นการตายอย่างรวดเร็ว พิษทำงานของมันแม้กระทั่งก่อนที่สายลับของข้าจะออกจากห้องไป\n\n"
+ murder_outcome.2203.scheme_owner_known:0 "อย่างไรก็ตาม ทหารยามตามทันเขาอย่างรวดเร็ว และชายขี้ขลาดคนนั้นก็ซัดทอดข้าว่าเป็นผู้อยู่เบื้องหลังการกระทำอันชั่วร้าย"
+ murder_outcome.2203.scheme_unknown:0 "อย่างไรก็ตาม ทหารยามก็รวดเร็ว เช่นกัน และในไม่ช้าพวกเขาก็จับสายลับของข้าใส่โซ่ตรวน เขาถูกประหารชีวิตอย่างเมตตาก่อนที่เขาจะสามารถเอ่ยถึงข้าว่าเป็นผู้อยู่เบื้องหลังอาชญากรรม"
+
+ murder_outcome.2204.desc:0 "[target.GetTitledFirstName] ตายแล้ว; [target.GetSheHe] กลืนเหยื่อ [target.Custom('FavoriteTreat')] และทั้งหมด! ในเวลาไม่นาน [target.GetSheHe] ก็กุมคอของ [target.GetHerHis] หายใจหอบเพื่ออากาศ ก่อนที่จะล้มลงกองกับพื้นและไม่ลุกขึ้นอีกเลย"
+ murder_outcome.2204.scheme_owner_known:0 "\n\nหายนะยิ่งนัก มีคนเห็นสายลับของข้าวางขนม และในไม่ช้าข้าก็ถูกเปิดโปงว่าเป็นผู้วางแผนเบื้องหลังเรื่องทั้งหมด!"
+ murder_outcome.2204.scheme_unknown:0 "\n\nคนทำขนมปังทุกคนในพื้นที่ถูกสอบสวน แต่ไม่พบร่องรอยการกระทำผิด"
+
+ murder_outcome.2205.t:0 "ร่วงหล่นจากที่สูง"
+ murder_outcome.2205.desc_opening:0 "[target.GetTitledFirstName] ตายแล้ว! พวกเขาพบศพที่ถูกฉีกทึ้งของ [target.GetHerHis] บนพื้น,"
+ murder_outcome.2205.desc_dog:0 "กอดร่างสุนัขขี้เรื้อนของ [target.GetHerHis] ไว้"
+ murder_outcome.2205.desc_cat:0 "กอดร่างแมวผอมโซของ [target.GetHerHis] ไว้"
+ murder_outcome.2205.desc_cat_alive:0 "แต่ไม่มีร่องรอยของแมวผอมโซของ [target.GetHerHis]"
+ murder_outcome.2205.desc_toy:0 "กอด [target.Custom('child_favorite_toy')] ของ [target.GetHerHis] ไว้แนบอก"
+ murder_outcome.2205.desc_nothing:0 "ลูกอมกระจายอยู่บนพื้นรอบตัว [target.GetHerHim]"
+ murder_outcome.2205.desc:0 "ใบหน้าอ่อนเยาว์ของ [target.GetHerHis|U] บิดเบี้ยวอย่างถาวรด้วยความประหลาดใจและความหวาดกลัว"
+ murder_outcome.2205.scheme_owner_known:0 "\n\nข้ารู้สึกถึงความรู้สึกที่สะท้อนออกมาบนใบหน้าของข้าเองเมื่อเห็นได้ชัดว่าสายลับของข้าถูกจับได้และไม่ลังเลที่จะเปิดเผยข้าเลย!"
+ murder_outcome.2205.scheme_unknown:0 "\n\nอย่างน้อยทุกคนก็คิดว่า [target.GetSheHe] ตกลงมาโดยอุบัติเหตุ"
+
+ murder_outcome.2301.t:0 "ถูกลืมในความมืด"
+ murder_outcome.2301.opening_1:0 "ในที่สุด [target.GetTitledFirstName] ก็ตาย! [target.GetSheHe|U] เสียชีวิตด้วยน้ำมือของกลุ่มชายไม่ทราบชื่อในคุกใต้ดินของ [prison_owner.GetTitledFirstName] อดอยากครึ่งหนึ่ง มีเพียงเล็กน้อยที่ [target.GetSheHe] สามารถทำได้เพื่อป้องกัน [target.GetHerselfHimself] ขณะที่พวกเขาทำร้าย [target.GetHerHim] จนตาย"
+ murder_outcome.2301.heh:0 "เหอะ"
+ murder_outcome.2301.owner_is_known_1:0 "\n\nน่าเสียดาย ทันทีที่มีการตั้งคำถาม หนึ่งในผู้กระทำผิดก็แตกแถวและระบุชื่อข้าว่าเป็นผู้รับผิดชอบ"
+ murder_outcome.2301.no_awareness_1:0 "\n\nแม้ว่าจะไม่ต้องสงสัยเลยว่าฆาตกรเป็นคนของราชสำนัก [prison_owner.GetTitledFirstNamePossessive] แต่พวกเขาก็ปิดปากเงียบและเก็บความลับเรื่องการมีส่วนร่วมของข้าไว้"
+ murder_outcome.2301.a.discovered:0 "ท่านไม่สามารถทิ้งใครให้ตาย แล้วมาทำตกใจเมื่อพวกเขาตายจริงๆ ได้"
+ murder_outcome.2301.a:0 "ข้าปลดปล่อยเจ้าแล้ว [target.GetFirstNameNoTooltip]"
+
+ murder_outcome.2302.t:0 "แขกที่ไม่พึงประสงค์"
+ murder_outcome.2302.opening_1:0 "[target.GetTitledFirstName] ตายแล้ว! ตามแผน คนรับใช้สามารถเข้าถึงห้องของ [target.GetHerHis] ได้ ไม่ต้องสงสัยเลยว่า [target.GetHerHis] ต้องสับสนอย่างมาก แน่นอน ความสับสนนั้นคงจะหายไปเมื่อคนรับใช้ชักกริชของ [dummy_gender.GetHerHis] ออกมา [target.GetFirstNameNoTooltip] อยู่ได้ไม่นาน"
+ murder_outcome.2302.owner_is_known_1:0 "\n\nน่าเสียดายที่การฆาตกรรมถูกค้นพบก่อนที่คนรับใช้จะหลบหนีไปได้ และ [dummy_gender.GetSheHe] ก็ให้ชื่อข้าเพื่อแลกกับชีวิตของ [dummy_gender.GetHerHis]"
+ murder_outcome.2302.no_awareness_1:0 "\n\nคนรับใช้หลบออกไปอีกครั้ง และหายไปนานก่อนที่ศพจะถูกค้นพบ ไม่มีใครรู้ถึงการมีส่วนร่วมของข้า"
+ murder_outcome.2302.a.discovered:1 "อย่างน้อย [target.GetFirstNameNoTooltip] ก็จะไม่ได้ออกจากการถูกกักบริเวณในบ้านของ[target.GetHerHis]ในเร็วๆ นี้""
+ murder_outcome.2302.a:0 "ง่ายเหมือนการมาเยี่ยมฉันมิตร!"
+
+ murder_outcome.2401.opening_1:0 "[target.GetTitledFirstName] ได้จากโลกนี้ไปแล้ว แม้ว่าใครๆ ก็ต้องสงสัยว่านั่นไม่ใช่ความจริงมาสักพักแล้วหรือ [target.GetSheHe|U] ไม่ได้ดิ้นรนเลยขณะที่นักฆ่ากดหมอนทับใบหน้าของ [target.GetHerHis] [target.GetSheHe|U] เพียงแค่ส่งเสียงครวญครางเบาๆ ผ่านผ้า แล้วก็เงียบไป"
+ murder_outcome.2401.owner_is_known_1:0 "\n\nน่าเสียดาย ทหารยามค้นพบนักฆ่า ซึ่งในไม่ช้าก็ยอมรับถึงการมีส่วนร่วมของข้าในการฆาตกรรม!"
+ murder_outcome.2401.no_awareness_1:0 "\n\nนักฆ่าหนีไปได้ และเมื่อไม่มีพยานอื่น ดูเหมือนจะเป็นไปไม่ได้ที่การกระทำนั้นจะสืบย้อนกลับมาถึงข้าได้"
+ murder_outcome.2401.a.discovered:0 "อย่าคิดว่าเป็นการฆาตกรรม แต่เป็นการปลดปล่อย!"
+ murder_outcome.2401.a:0 "ไปสู่สุคติเสียที [target.GetFirstNameNoTooltip]"
+
+ murder_outcome.4001.t:0 "นักฆ่า!"
+ murder_outcome.4001.failure_declaration_1:0 "[target.GetTitledFirstName] หนีไปโดยไม่ได้รับบาดเจ็บ!"
+ murder_outcome.4001.failure_declaration_2:0 "ความพยายามของข้าที่จะสังหาร [target.GetTitledFirstName] ถูกขัดขวาง!"
+ murder_outcome.4001.failure_declaration_3:0 "ดูเหมือนว่า [target.GetTitledFirstName] จะรอดพ้นจากการพิพากษาของ [ROOT.Char.GetFaith.HighGodNamePossessive] อีกครั้ง"
+ murder_outcome.4001.desc:0 "นักฆ่าเข้าไปใน [target.Custom('ResidenceBuilding')] ได้ แต่ไปไม่ถึงห้องของ [target.GetFirstNamePossessiveNoTooltip]"
+ murder_outcome.4001.exposed_scheme:0 "[dummy_assassin_gender.GetSheHe|U] ถูกจับได้และด้วยความเจ็บปวดจากความตาย ได้เปิดเผยชื่อข้า!"
+ murder_outcome.4001.not_exposed_scheme: "เมื่อ [dummy_assassin_gender.GetSheHe] ถูกพบเห็นและสัญญาณเตือนดังขึ้น นักฆ่าก็ทำการหลบหนีของ[dummy_assassin_gender.GetHerHis]ไปทันที และไม่มีใครได้ยินข่าวคราวอีกเลย\n\nตอนนี้ [target.GetTitledFirstName] กำลังระวังตัวของ[target.GetHerHis]"
+ murder_outcome.4001.a.discovered:0 "[dummy_assassin_gender.GetSheHe|U] อยู่ที่นั่นจริงๆ เพื่อไล่ฆาตกร #EMP ตัวจริง#! และทำสำเร็จ!"
+ murder_outcome.4001.a:0 "เจ้าจะต้องชดใช้สักวัน [target.GetFirstNameNoTooltip]!"
+ murder_outcome.4001.b:0 "หากครั้งแรกไม่สำเร็จ..."
+
+ murder_outcome.4002.desc:1 "\n\nอันธพาลรับจ้างของข้าล้มเหลวในการเอาชนะคณะผู้ติดตามของ [target.GetHerHis]"
+ murder_outcome.4002.exposed_scheme:0 "ที่แย่ไปกว่านั้น มีบางคนถูกจับเป็นและเปิดเผยว่าพวกเขาได้รับค่าจ้างสำหรับการโจมตี! ใช้เวลาไม่นานในการสืบหาการชำระเงินกลับมาถึงข้า"
+ murder_outcome.4002.not_exposed_scheme:0 "อย่างน้อยพวกเขาก็ถูกสังหารจนหมดสิ้น เมื่อไม่มีใครเหลือให้พูด พวกเขาจึงถูกสันนิษฐานว่าเป็นเพียงโจรธรรมดา"
+ murder_outcome.4002.a:0 "ท่านไม่สามารถไว้วางใจคนธรรมดาให้ทำอะไรถูกต้องได้..."
+ murder_outcome.4002.a.less_arrogant:0 "งานง่ายๆ เช่นนี้ แต่กระนั้น..."
+ murder_outcome.4002.a.discovered:0 "โจรทั่วไป พวกเขาจะพูดอะไรก็ได้ เพื่อให้พ้นผิดอย่างง่ายดาย"
+
+ murder_outcome.4003.desc:0 "\n\nยาพิษไม่ได้ผลตามที่ตั้งใจไว้ เพียง แต่ ทำให้ [target.GetTitleTierName] ล้มป่วยอยู่บนเตียงเป็นเวลาหนึ่งสัปดาห์"
+ murder_outcome.4003.exposed_scheme:0 "ที่แย่ไปกว่านั้น หมอสมุนไพรที่จัดหายาพิษถูกตามตัวพบ และตอนนี้ [target.GetFirstNameNoTooltip] รู้ว่าข้าอยู่เบื้องหลังแผนการ!"
+ murder_outcome.4003.not_exposed_scheme:0 "โชคดีที่คิดว่าเป็นเพียงอาการป่วยทั่วไป และ [target.GetFirstName] ก็ไม่รู้เรื่องอะไรเลย"
+ murder_outcome.4003.a:0 "ครั้งต่อไปข้าจะ ทำให้แน่ใจว่า [target.GetSheHe] สำลักมัน!"
+ murder_outcome.4003.a.discovered:0 "ข้าเข้าใจว่านกตัวนั้นไม่ค่อยถูกใจ [target.GetFirstNamePossessiveNoTooltip] ใช่หรือไม่?"
+
+ murder_outcome.4004.failure_declaration_1:0 "[target.GetTitledFirstName] รอดชีวิตจาก [SCOPE.Custom('VenomousCreatureAttack')] ของ [SCOPE.Custom('VenomousCreature')]!"
+ murder_outcome.4004.failed_attempt_1:0 "แม้ว่า [SCOPE.Custom('VenomousCreatureType')] จะโจมตี แต่ก็มีการเรียกแพทย์อย่างรวดเร็วและสามารถหยุดพิษไม่ให้แพร่กระจายได้"
+ murder_outcome.4004.scheme_owner_known:0 "\n\nหายนะยิ่งนัก คนรับใช้ที่วาง [SCOPE.Custom('VenomousCreatureType')] ถูกพบ และการมีส่วนร่วมของข้าก็ถูกเปิดเผยในไม่ช้า!"
+ murder_outcome.4004.scheme_known:1 "\n\nการวาง [SCOPE.Custom('VenomousCreature')] ไว้ในเตียงของ [target.GetTitleAsNamePossessiveNoTooltip] นั้นแทบจะไม่เป็นการปกปิด แต่ อย่างน้อยก็ไม่มีใครรู้ว่าข้าอยู่เบื้องหลัง"
+ murder_outcome.4004.scheme_unknown:0 "\n\nอย่างน้อย [SCOPE.Custom('VenomousCreatureAttack')] ก็ถูกกล่าวโทษว่าเกิดจากการเดินเตร่ของ [SCOPE.Custom('VenomousCreatureType')]s แทนที่จะเป็นข้า"
+ murder_outcome.4004.a:0 "โชคของเจ้าจะยืดไปได้ไม่ไกลนักหรอก [target.GetFirstNameNoTooltip]!"
+
+ murder_outcome.4005.failure_declaration_1:0 "[target.GetTitledFirstName] รอดชีวิตจากการโจมตีของฝูงไพร่!"
+ murder_outcome.4005.failed_attempt_1:0 "\n\nผู้ปลุกปั่นของข้าปลุกระดมพวกเขาได้สำเร็จ แต่เมื่อม็อบเริ่มก่อจลาจล ทหารของ [target.GetFirstNamePossessive] ก็สังหารพวกเขา ผู้รอดชีวิตหนีไปด้วยความหวาดกลัวขณะที่ [target.GetTitleTierName] กลับไปยัง [target.Custom('ResidenceBuilding')] ของ [target.GetHerHis]"
+ murder_outcome.4005.scheme_owner_known:0 "\n\nไพร่หลายคนถูกแขวนคอ และผู้ปลุกปั่นของข้าก็สารภาพถึงการมีส่วนร่วมของข้า!"
+ murder_outcome.4005.scheme_known:0 "\n\nไพร่หลายคนถูกแขวนคอ และผู้ปลุกปั่นก็สารภาพถึงการมีส่วนร่วมของกองกำลังภายนอก โชคดีที่แม้ แต่พวกเขาก็ไม่รู้ว่าข้าอยู่เบื้องหลัง"
+ murder_outcome.4005.scheme_unknown:0 "\n\nไพร่หลายคนถูกแขวนคอ แต่โชคดีที่ผู้ปลุกปั่นของข้าก็ เช่นกัน ซึ่งหมายความว่าการจลาจลไม่สามารถสืบย้อนกลับมาถึงข้าได้"
+ murder_outcome.4005.a:0 "ความไร้ความสามารถนี้คือเหตุผลที่เราปกครอง และไพร่เหล่านี้ไม่ได้ปกครอง"
+ murder_outcome.4005.a.discovered:0 "จงเชื่อใจฝูงชนเสมอว่าจะตัดสินใจผิด"
+
+ murder_outcome.4006.desc:0 "[target.GetTitledFirstName] ตามข้าเข้าไปในห้องใต้ดินอย่างเต็มใจ เมามายด้วยความรื่นเริงและไวน์\n\nหลังจากดื่มไวน์ "ชั้นดี" หลายแก้ว [target.GetSheHe] ก็หลับไปอย่างง่ายดาย แต่ก่อนที่ข้าจะก่อกำแพงปิดทางออกเสร็จ คนรับใช้บางคนก็เดินเข้ามา\n\n"
+ murder_outcome.4006.scheme_owner_known:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! และ [target.GetTitledFirstNameNoTooltip]? และกำแพงที่สร้างยังไม่เสร็จกำลังปิดกั้น[target.GetHerHim]ไว้... โอ้ ไม่นะ""
+ murder_outcome.4006.scheme_unkown:0 ""โอ้ ดูเหมือนว่า [target.GetTitledFirstNameNoTooltip] จะเผลอหลับไปกลางคันระหว่างโครงการของท่าน พวกเราช่วยท่านพา[target.GetHerHim]ไปยังห้องนอนได้หรือไม่ [ROOT.Char.Custom('FormOfAddressForLiege')]?""
+ murder_outcome.4006.a.discovered:0 "ข้า... ข้าแค่กำลังปรับปรุงบางอย่าง!"
+ murder_outcome.4006.a:0 "...ใช่ ขอบคุณสำหรับความช่วยเหลือ"
+
+ murder_outcome.4007.opening:0 "ธนูไฟที่ยิงโดยสายลับของข้าลุกโชนเป็นเส้นทางเพลิงข้ามท่าเรือ เพียง แต่พลาดเรือไปนิดเดียว\n\nขณะที่ไฟดับลงในน้ำทะเลเย็น ผู้โดยสารบนเรือจ้องมองมันโดยไม่เข้าใจเป็นเวลาหลายวินาทีก่อนที่ความโกลาหลจะเกิดขึ้น\n\n"
+ murder_outcome.4007.scheme_owner_known:0 "ที่แย่ไปกว่านั้น นักธนูถูกจับได้ และเปิดเผยข้าว่าเป็นผู้อยู่เบื้องหลังแผนโดยไม่ลังเล"
+ murder_outcome.4007.scheme_unkown:0 "โชคดีที่นักธนูหนีไปได้และไม่พบร่องรอยการมีส่วนร่วมของข้า"
+ murder_outcome.4007.a.discovered:0 "ข้าแค่อยากให้ [target.GetHerHim] ฝึกว่ายน้ำของ [target.GetHerHis]!"
+ murder_outcome.4007.a:0 "มันจะยากแค่ไหนกันเชียวที่จะยิงเรือให้โดน?!"
+
+ murder_outcome.4008.desc:0 "[target.GetTitledFirstName] รอดชีวิตจากยาพิษ!\n\nน่าเสียดายที่สาวใช้ในครัวคนหนึ่งของ [target.GetTitledFirstNamePossessive] ได้แอบจิบเครื่องดื่มนั้นก่อนที่จะนำไปถวายนายหญิง/นายท่าน [target.GetLadyLord] ของตน และดูเหมือนว่าคนรับใช้ที่ตายไปจะเป็นเครื่องยับยั้ง\n\n"
+ murder_outcome.4008.scheme_owner_known:0 "และหากนั่นยังไม่แย่พอ คนรับใช้อีกคนก็ไม่ลังเลที่จะชี้ตัวข้าว่าเป็นผู้กระทำผิดเบื้องหลังความพยายาม!"
+ murder_outcome.4008.scheme_unkown:0 "อย่างน้อยก็ไม่มีคนรับใช้คนใดสารภาพถึงการมีส่วนร่วมของข้า ความเมตตาเล็กน้อย"
+ murder_outcome.4008.a.discovered:0 "ความหน้าด้านของคนรับใช้ของ [target.GetHerHis]!"
+ murder_outcome.4008.a:0 "ครั้งต่อไปคนรับใช้ของ [target.GetHerHis] จะรู้ดีกว่าที่จะมายุ่ง!"
+
+ murder_outcome.4201.t:0 "เส้นทางกลับบ้าน"
+ murder_outcome.4201.opening:0 "\n\n[assassin.GetTitledFirstName] ทิ้ง [target.GetHerHim] ไว้กับชะตากรรมของ [target.GetHerHis] เพียงลำพังในถิ่นทุรกันดาร\n\nอย่างไรก็ตาม เมื่อกลับมายังราชสำนักเพื่อแจ้งข่าวร้ายเรื่องเด็กที่หายไป [target.GetFirstName] ก็รออยู่ในห้องโถงใหญ่แล้ว และถาม [assassin.GetFirstName] ว่าพวกเขาเล่นต่อได้อีกหรือไม่!"
+ murder_outcome.4201.scheme_owner_known:0 "[assassin.GetFirstNameNoTooltip] ถูกสอบสวนอย่างรวดเร็ว และแผนของข้าก็ถูกเปิดเผย!"
+ murder_outcome.4201.scheme_unknown:0 "กล่าวได้ว่า ตอนนี้ [assassin.GetFirstNameNoTooltip] ถูกจับตามองอย่างใกล้ชิด"
+ murder_outcome.4201.a.discovered:0 "อืม... มันเป็นการพยายามฆ่า หรือการพยายาม #EMP เมตตา#!?"
+ murder_outcome.4201.a:0 "มีดแทงข้างหลังน่าจะสำเร็จ"
+
+ murder_outcome.4202.opening:0 "[target.GetTitledFirstName] ยังมีชีวิตอยู่! ดูเหมือนว่าแม่นมไม่สามารถบังคับตัวเองให้แทงทารกน้อยได้ และปล่อยให้โอกาสผ่านไป"
+ murder_outcome.4202.scheme_owner_known:0 "\n\nที่แย่ไปกว่านั้น จิตสำนึกของเธอเอาชนะเธอได้ และเธอสารภาพทุกอย่าง แม้กระทั่งการมีส่วนร่วมของข้า!"
+ murder_outcome.4202.scheme_known:0 "\n\nที่แย่ไปกว่านั้น จิตสำนึกของเธอเอาชนะเธอได้ และเธอสารภาพถึงแผนการ! อย่างน้อยการมีส่วนร่วมของข้าก็ยังคงเป็นความลับ"
+ murder_outcome.4202.scheme_unkown:0 "\n\nอย่างน้อยเธอก็ฉลาดพอที่จะเงียบเกี่ยวกับแผน บางทีนี่อาจเป็นสิ่งที่ดีที่สุด..."
+ murder_outcome.4202.a:0 "ข้าต้องคิดอย่างรอบคอบ"
+
+ murder_outcome.4203.opening:0 "[target.GetTitledFirstName] ยังมีชีวิตอยู่! ดูเหมือนว่าพิษของ [SCOPE.Custom('VenomousCreatureType')] ไม่แรงพอ และ ทำให้เกิดผื่นเล็กน้อยกระจายไปทั่วผิวหนังของทารกเท่านั้น\n\n"
+ murder_outcome.4203.scheme_owner_known:0 "ราวกับว่านั่นยังไม่แย่พอ สายลับขี้ขลาดของข้าถูกจับได้และสารภาพ โดยระบุชื่อข้าว่าเป็นผู้อยู่เบื้องหลังการกระทำ!"
+ murder_outcome.4203.scheme_unkown:0 "ความเมตตาเล็กน้อยคือสายลับของข้าสามารถออกจากห้องไปได้โดยไม่ ทำให้เกิดสัญญาณเตือนใดๆ"
+
+ murder_outcome.4204.desc_opening:0 "[target.GetTitledFirstName] ยังมีชีวิตอยู่! [target.GetSheHe|U] หยิบ [target.Custom('FavoriteTreat')] ขึ้นมา แต่ก่อนที่ [target.GetSheHe] จะกัดมัน สุนัขข้างถนนตัวหนึ่งก็ฉกมันไปจากมือของ [target.GetHerHis] และวิ่งหายไปตามถนน\n\n"
+ murder_outcome.4204.scheme_unkown:0 "อย่างน้อยก็ไม่มีใครรู้ถึงเจตนาที่แท้จริงของข้า..."
+ murder_outcome.4204.a:0 "นี่อาจเป็นสัญญาณหรือไม่?"
+
+ murder_outcome.4205.desc_opening:0 "[target.GetTitledFirstName] ยังมีชีวิตอยู่! ขณะที่สายลับของข้าผลัก [target.GetHerHim] ตกจากขอบ เสื้อผ้าของ [target.GetHerHis] ก็เกี่ยวกับส่วนที่ยื่นออกมาของกำแพงด้านล่าง มันยึด [target.GetHerHim] ไว้นานพอที่ความช่วยเหลือจะมาถึงเพื่อช่วยทั้งเด็กและ"
+ murder_outcome.4205.desc_dog:0 "สุนัขบ้าตัวนั้น..."
+ murder_outcome.4205.desc_cat:0 "แมวบ้าตัวนั้น..."
+ murder_outcome.4205.desc_toy:0 "[target.Custom('child_favorite_toy')] บ้าๆ นั่น..."
+ murder_outcome.4205.desc_nothing:0 "ลูกอมบ้าๆ นั่น..."
+ murder_outcome.4205.scheme_unkown:0 "อย่างน้อยสายลับของข้าก็หนีไปโดยไม่มีใครสังเกตเห็น และเด็กก็ตกใจเกินกว่าจะจำได้อย่างชัดเจนว่าเกิดอะไรขึ้น"
+
+ murder_outcome.4302.t:0 "แขกที่ไม่พึงประสงค์"
+ murder_outcome.4302.failure_declaration_1:0 "[target.GetTitledFirstName] ยังมีชีวิตอยู่!"
+ murder_outcome.4302.failed_lack_of_planning:0 "บางทีข้าควรวางแผนเรื่องนี้ให้ดีกว่านี้ ทันทีที่ "เพื่อนเก่า" เข้าไปในห้องของ [target.GetHerHis] [target.GetSheHe] ก็เรียกทหารยาม [target.GetSheHe] ได้รับการเตือนหรือไม่?"
+ murder_outcome.4302.failed_attempt_1:0 ""เพื่อนเก่า" ไม่ได้คล่องแคล่วในการปลอมตัวของ [dummy_gender.GetHerHis] ตามที่วางแผนไว้ และทันทีที่ [dummy_gender.GetSheHe] ชักกริชที่ซ่อนไว้ออกมา [target.GetFirstName] ก็เรียกทหารยาม"
+ murder_outcome.4302.disastrous_attempt_1:0 "\n\nน่าเสียดาย ดูเหมือนว่าคนรับใช้ไม่มีความละอายใจที่จะเปิดเผยการมีส่วนร่วมของข้าในแผนการเพื่อช่วยชีวิตของ [dummy_gender.GetHerHis] เอง"
+ murder_outcome.4302.something_is_known:0 "\n\nอย่างน้อยการมีส่วนร่วมของข้าในแผนการยังคงไม่เป็นที่ทราบ"
+ murder_outcome.4302.unknown_so_far: "\n\nอย่างไรก็ตาม คนรับใช้ผู้นั้นก็หลบหนีไปได้ และท่าทีที่ [dummy_gender.GetSheHe] คว้าของมีค่าอย่างบ้าคลั่งระหว่างทางออกของ[dummy_gender.GetHerHis]ไป ทำให้ผู้คนสันนิษฐานว่าเป็นการปล้นที่วางแผนมาอย่างดี ไม่ใช่การลอบสังหาร!"
+ murder_outcome.4302.a:0 "เวลาของเจ้าจะมาถึง [target.GetFirstNameNoTooltip]..."
+
+ murder_outcome.4301.t:0 "ถูกลืมในความมืด"
+ murder_outcome.4301.failure_declaration_1:0 "ดูเหมือนว่าแผนของข้าที่จะฆ่า [target.GetTitledFirstName] ล้มเหลว!"
+ murder_outcome.4301.failed_lack_of_planning:0 "บางทีความพยายามควรได้รับการวางแผนที่ดีกว่านี้เล็กน้อย เพราะแก๊งนักฆ่าที่คาดหวังของข้าต้องหนีจากทหารยามที่กระตือรือร้นเกินไป และทำงานไม่สำเร็จ"
+ murder_outcome.4301.failed_attempt_1: "แม้ว่านักฆ่าที่ข้าจ้างจะทุบตี [target.GetHerHim] จนเกือบถึงแก่ชีวิตของ[target.GetHerHis] แต่เศษเสี้ยวแห่งชีวิตนั้นก็เพียงพอให้ [target.GetSheHe] รอดมาได้"
+ murder_outcome.4301.something_is_known:0 "\n\nแม้ว่าจะชัดเจนสำหรับทุกคนว่านี่เป็นการพยายามสังหาร [target.GetTitledFirstNamePossessive] แต่การมีส่วนร่วมของข้ายังคงไม่เป็นที่ทราบ"
+ murder_outcome.4301.unknown_so_far:0 "\n\nอย่างน้อยมันก็ถูกกล่าวโทษว่าเป็นการต่อสู้ระหว่างนักโทษ ดังนั้นการมีส่วนร่วมของข้าจึงยังคงไม่เป็นที่ทราบ"
+ murder_outcome.4301.disastrous_lack_of_planning:0 "\n\nบางทีข้าควรจะอดทนกว่านี้เล็กน้อย เพราะไม่เพียง แต่แก๊งนักฆ่าที่คาดหวังของข้าถูกขัดขวางในการทำงานโดยทหารยามที่กระตือรือร้นเกินไป แต่หลายคนยังซัดทอดข้าว่าเป็นผู้รับผิดชอบ!"
+ murder_outcome.4301.disastrous_attempt_1:0 "\n\nไม่เพียง แต่แก๊งนักฆ่าที่คาดหวังของข้าถูกขัดขวางในการทำงานโดยทหารยามที่กระตือรือร้นเกินไป แต่หลายคนยังซัดทอดข้าว่าเป็นผู้รับผิดชอบ!"
+ murder_outcome.4301.a.discovered:0 "มันดีกว่าจริงๆ หรือที่จะปล่อยให้ [target.GetHerHim] เน่าเปื่อย?"
+ murder_outcome.4301.a:0 "ให้ตายสิ!"
+
+ murder_outcome.4401.failure_declaration_1:0 "อย่างใดอย่างหนึ่ง #EMP อย่างใดอย่างหนึ่ง#! [target.GetTitledFirstName] ยังมีชีวิตอยู่!"
+ murder_outcome.4401.failed_attempt_1:0 "นักฆ่าบุกเข้าไปในห้องของ [target.GetHerHis] แต่ไม่ว่าเขาจะกดหมอนทับใบหน้าของ [target.GetTitleTierName] นานแค่ไหน [target.GetWomanMan] ผู้นั้นก็ไม่ยอมตาย"
+ murder_outcome.4401.disastrous_attempt_1:0 "\n\nในไม่ช้าทหารยามก็มาถึง และนักฆ่าก็สารภาพไม่เพียง แต่แผนการ แต่ยัง รวมถึงการมีส่วนร่วมของข้าในนั้นด้วย!"
+ murder_outcome.4401.something_is_known:0 "\n\nในไม่ช้าทหารยามก็มาถึง และนักฆ่าต้องหลบหนีอย่างรวดเร็ว อย่างน้อยก็ไม่มีใครรู้ว่าข้าอยู่เบื้องหลังความพยายาม"
+ murder_outcome.4401.unknown_so_far:0 "\n\nเมื่อทหารยามปรากฏตัว นักฆ่าของข้าต้องหลบหนีอย่างรวดเร็ว แต่อย่างน้อยเขาก็ไปโดยไม่มีใครสังเกตเห็น และไม่มีใครรู้ว่าเขาเคยอยู่ที่นั่น"
+ murder_outcome.4302.a.discovered:0 "โอ้ ข้าจำวันที่ประหารชีวิตของ [target.GetHerHis] ผิดหรือ?"
+ murder_outcome.4401.a:0 "มันเป็นเพียงเรื่องของเวลา [target.GetFirstNameNoTooltip]"
+
+ murder_outcome.5001.t:0 "สลัดทิ้ง ซึ่งร่างกายนี้"
+ murder_outcome.5001.poisoned_duck:0 "ข้ากำลังเพลิดเพลินกับเป็ดในงานเลี้ยงของข้า ทันใดนั้นข้ารู้สึกว่าคอบวมและแขนขาเริ่มเชื่องช้า ข้ารู้สึกได้ถึงสิ่งที่กำลังจะมาถึง แต่ข้าไม่สามารถทำอะไรเพื่อหยุดมันได้\n\nไม่นานนักที่การมองเห็นของข้ามืดลงและเสียงหัวเราะที่ห่างไกลกลายเป็นเสียงกรีดร้องด้วยความหวาดกลัว ค่อยๆ ลอยห่างจากข้าไป"
+ murder_outcome.5001.gang_of_thugs:0 "เดินทางผ่านป่าพร้อมกับคณะผู้ติดตามของข้า เราถูกโจมตีโดยกลุ่มอันธพาล ในไม่ช้าพวกเขาก็พิสูจน์ให้เห็นว่าสนใจชีวิตของเรามากกว่าทองคำของเรา และ แม้ว่าคนของข้าจะต่อสู้อย่างกล้าหาญ แต่พวกโจรก็ได้เปรียบจากการจู่โจม\n\nข้าวิ่งเร็วที่สุดเท่าที่จะทำได้ จนกระทั่งข้าคิดว่าข้าปลอดภัยแล้ว จากนั้น เหนือเสียงการต่อสู้ ข้าได้ยินเสียงสายธนูดีดเพียงครั้งเดียว"
+ murder_outcome.5001.hired_assassin:0 "ข้าตื่นขึ้นกลางดึกเพื่อเห็นร่างมืดในห้องของข้า ข้าไม่รู้ว่าเกิดอะไรขึ้นกับทหารยามของข้า แต่เมื่อข้าเห็นแสงจันทร์สะท้อนบนคมดาบ ข้ารู้ว่ามันสายเกินไปสำหรับข้าแล้ว\n\nกริชที่คมเพียงพอแทบไม่ส่งเสียงเมื่อแทงทะลุเนื้อ และท่ามกลางความเจ็บปวดทรมาน ข้าไม่สามารถบอกได้ว่าเสียงกรีดร้องของข้าดังกว่าหรือไม่"
+ murder_outcome.5001.creepy_crawly_intro:0 "ทันทีที่ข้ารู้สึกว่ามีบางอย่างสัมผัสขาของข้า ข้าอดไม่ได้ที่จะตัวสั่นและโยนผ้าห่มทิ้งไป แต่การเคลื่อนไหวอย่างรวดเร็วกลับยิ่งกระตุ้นแขกที่ไม่ได้รับเชิญมากขึ้น"
+ murder_outcome.5001.creepy_crawly_known:0 "แม้ในแสงจันทร์สลัว ข้าก็สามารถจดจำรูปร่างของ [ROOT.Char.Custom('VenomousCreature')] ได้"
+ murder_outcome.5001.creepy_crawly_unknown:0 "เมื่อรู้สึกว่าถูกคุกคาม [ROOT.Char.Custom('VenomousCreatureType')] ก็เคลื่อนไหวอย่างรวดเร็ว และโจมตี"
+ murder_outcome.5001.creepy_crawly_end:0 "[ROOT.Char.Custom('VenomousCreatureAttack')] แทบไม่รู้สึกเจ็บในตอนแรก แต่ในไม่ช้าร่างกายทั้งร่างของข้าก็ถูกครอบงำด้วยความเจ็บปวดแสบร้อน ข้าพยายามเรียกขอความช่วยเหลือ แต่เสียงของข้าอ่อนแอเกินไปขณะที่แขนขาชาและสติเลือนลาง"
+ murder_outcome.5001.riled_up_mob:0 "ข้ากำลังขี่ม้าผ่านถนนของ [ROOT.Char.GetCurrentLocation.GetName] เมื่อฝูงไพร่ที่กรีดร้องและตะโกนเข้ามาล้อมคณะผู้ติดตามของข้า ก่อนที่ข้าจะรู้ว่าเกิดอะไรขึ้น คนธรรมดาก็ฉีกข้าลงจากหลังม้าและเริ่มทุบตีข้า ข้าได้ยินเสียงทหารยามตะโกน แต่ก่อนที่พวกเขาจะมาถึงข้า โลกก็เลือนหายไปจากสายตาของข้า"
+ murder_outcome.5001.bricked:0 "เมื่อวานข้าใช้เวลายามเย็นอย่างเพลิดเพลิน เมามายด้วยความรื่นเริงและไวน์\n\nเมื่อข้าตื่นขึ้นในตอนเช้าพร้อมกับอาการเมาค้างอย่างหนักและจำไม่ได้ว่าข้าอยู่ที่ไหนและมาที่นี่ได้อย่างไร ข้าพบว่าตัวเองอยู่ในห้องใต้ดินที่ชื้นแฉะ ซึ่งดูเหมือนจะมีกำแพงที่สร้างขึ้นใหม่ปิดทางออกเพียงทางเดียว! เสียงร้องขอความช่วยเหลือของข้าถูกกลืนหายไปในกำแพงหนา และความหวังที่จะถูกพบก็ริบหรี่ลงทุกชั่วโมงที่นับไม่ได้ จากนั้นก็มีเพียงความรู้สึกอ่อนแอที่เพิ่มขึ้น... #EMP บางทีข้าแค่งีบหลับสักหน่อย...#!"
+ murder_outcome.5001.sunken_boat:1 "ข้าอยู่บนเรือ เพลิดเพลินกับลมยามเย็น ทันใดนั้นธนูไฟก็พุ่งข้ามท้องฟ้ามาทางเรา!\n\nมันกระทบเรือด้วยเสียง #EMP ตุ้บ#! หนักๆ และเพียงชั่วครู่เรือทั้งลำก็ลุกเป็นไฟ และข้าก็โยนตัวเองลงไปในน้ำทะเลเย็น ขณะที่เสื้อผ้าหนักๆ ดึงข้าลงไปใต้ผิวน้ำ ข้าพยายามว่ายน้ำ ข้าพยายามเอื้อมหาบางสิ่งที่จะยึดเกาะ ข้าพยายาม #EMP หายใจ#!..."
+ murder_outcome.5001.sunken_boat_travel:1 "ข้าอยู่บนเรือในทะเลเปิด ทันใดนั้นธนูไฟก็พุ่งข้ามท้องฟ้ามาทางเรา!\n\nมันกระทบเรือด้วยเสียง #EMP ตุ้บ#! หนักๆ และเพียงชั่วครู่เรือทั้งลำก็ลุกเป็นไฟ และข้าก็โยนตัวเองลงไปในน้ำทะเลเย็น ขณะที่เสื้อผ้าหนักๆ ดึงข้าลงไปใต้ผิวน้ำ ข้าพยายามว่ายน้ำ ข้าพยายามเอื้อมหาบางสิ่งที่จะยึดเกาะ ข้าพยายาม #EMP หายใจ#!..."
+ murder_outcome.5001.poisoned_drink_alcohol:0 "ขณะที่ข้ากำลังเพลิดเพลินกับอาหารค่ำและ [ROOT.Char.Custom('RegionalAlcoholicDrink')] เต็มถ้วย ทันใดนั้นข้ารู้สึกถึงความรู้สึกแปลกๆ ในลำคอ"
+ murder_outcome.5001.poisoned_drink_no_alcohol:0 "ขณะที่ข้ากำลังเพลิดเพลินกับอาหารค่ำและ [ROOT.Char.Custom('RegionalDrink')] เต็มถ้วย ทันใดนั้นข้ารู้สึกถึงความรู้สึกแปลกๆ ในลำคอ"
+ murder_outcome.5001.poisoned_drink:0 "ใช้เวลาไม่นานก่อนที่ข้าจะ #EMP ข่วน#! คอของข้า พยายามหายใจ กรีดร้อง เพื่อให้อากาศใดๆ ผ่านลำคอที่บวมและมีเลือดออกของข้าไปได้ ขณะที่สติของข้าเลือนลาง ข้าเห็นว่ามีเลือดและผิวหนังอยู่ใต้เล็บของข้า ข้าจะต้องล้างมันออก ช่างไม่น่าดูเสียเลย..."
+ murder_outcome.5001.assassin:0 "[assassin.GetFirstName] พาข้าเข้ามาในป่าเพื่อเล่น และเราสนุกกันมากวันนี้! อย่างไรก็ตาม [assassin.GetSheHe] ไปซ่อนนานมากแล้ว และข้าหา [assassin.GetHerHim] ไม่เจอ และมันเริ่มมืดและน่ากลัวเร็วมาก..."
+ murder_outcome.5001.courtier:0 "ข้าราชสำนักบางคนพาข้าเข้ามาในป่าเพื่อเล่น และเราสนุกกันมากวันนี้! อย่างไรก็ตาม พวกเขาไปซ่อนนานมากแล้ว และข้าหาพวกเขาไม่เจอ และมันเริ่มมืดและน่ากลัวเร็วมาก..."
+ murder_outcome.5001.lured_into_forest:0 "\n\nข้าพยายามหาทางกลับบ้าน แต่ต้นไม้ทุกต้นดูเหมือนกันหมดสำหรับข้า และในไม่ช้าข้าก็ได้ยินเสียงสัตว์ประหลาดกำลังมาหาข้า ข้าเริ่มวิ่ง แต่พวกมันเร็วกว่า ใหญ่กว่า และแข็งแรงกว่า... ข้าหลับตาและร้องหาแม่"
+ murder_outcome.5001.stab_infant:0 "แสงสว่างเคลื่อนไหว ใบหน้าที่คุ้นเคย ใบหน้าที่ไม่คุ้นเคย เสียงที่ข้ารู้จัก และเสียงที่ข้าไม่รู้จัก เสียงแหลมเย็นเยียบ ทำให้หูข้าเจ็บปวด และข้าก็เริ่มร้องไห้\n\nข้ารู้สึกว่ามีคนจับศีรษะข้า ความเจ็บปวดอันเจิดจ้า แล้วก็ไม่มีอะไรเลย"
+ murder_outcome.5001.infant_creepy_crawly:0 "เตียงนุ่มๆ ใต้ร่างข้าและผ้าห่มอุ่นๆ คลุมกายข้าคือทั้งหมดที่ข้าปรารถนา ข้าเกือบจะหลับแล้วเมื่อข้ารู้สึกถึงความรู้สึกประหลาด ราวกับมีบางสิ่งกำลังเคลื่อนไหวขึ้นมาบนตัวข้า ความเจ็บปวดพลันผลิบานที่แขนข้าและข้าก็เริ่มร้องไห้\n\nความเจ็บปวดมี แต่จะแผ่ขยายและรุนแรงขึ้น #EMP มันเจ็บปวดเหลือเกิน#! ความเจ็บปวดคือทั้งหมดที่โลกของข้ามีอยู่ จนกระทั่งไม่เหลือสิ่งใดเลย"
+ murder_outcome.5001.poisoned_candy:0 "ข้ากำลังเล่นอยู่ข้างนอก รู้สึกหิวนิดหน่อย เมื่อคนรับใช้คนหนึ่งปรากฏตัวขึ้นจากที่ไหนก็ไม่รู้ นำของขวัญอันยิ่งใหญ่ที่สุดมาให้: [ROOT.Char.Custom('FavoriteTreat')] ที่น่ารับประทาน\n\nเพียงชั่วครู่ โลกก็เอียงไป ท้องข้าเริ่มกรีดร้อง และข้า #EMP หายใจไม่ออก#!! ข้าล้มลงกับพื้นขณะที่ [ROOT.Char.Custom('FavoriteTreat')] ที่ถูกกัดหลุดจากมือข้า"
+ murder_outcome.5001.child_pushed_dog:0 "ข้ากำลังเล่นอยู่ข้างนอกเมื่อข้าได้ยินเสียงนั้น: เสียงร้องอย่างสิ้นหวังของ [ROOT.Char.Custom('DogStoryName')] สุนัขสุดที่รักของข้า! เมื่อมองขึ้นไป ข้าเห็น [ROOT.Char.Custom('DogStoryHerHim')] ห้อยอยู่ด้วยเชือกจากกำแพงสูง และข้าก็ไปอยู่ข้าง [ROOT.Char.Custom('DogStoryHerHis')] เร็วที่สุดเท่าที่จะทำได้\n\nขณะที่ข้าเอื้อมมือลงไปช่วย [ROOT.Char.Custom('DogStoryHerHim')] โลกก็พลิกกลับและข้ากำลังร่วงหล่น; พื้นดินกำลังลอยขึ้นมาหาข้า และข้าหลับตาลงและ–"
+ murder_outcome.5001.child_pushed_cat:0 "ข้ากำลังเล่นอยู่ข้างนอกเมื่อข้าได้ยินเสียงนั้น: เสียงร้องอย่างสิ้นหวังของ [ROOT.Char.Custom('CatStoryName')] แมวสุดที่รักของข้า! เมื่อมองขึ้นไป ข้าเห็น [ROOT.Char.Custom('CatStoryHerHim')] ห้อยอยู่ด้วยเชือกจากกำแพงสูง และข้าก็ไปอยู่ข้าง [ROOT.Char.Custom('CatStoryHerHis')] เร็วที่สุดเท่าที่จะทำได้\n\nขณะที่ข้าเอื้อมมือลงไปช่วย [ROOT.Char.Custom('CatStoryHerHim')] โลกก็พลิกกลับและข้ากำลังร่วงหล่น; พื้นดินกำลังลอยขึ้นมาหาข้า และข้าหลับตาลงและ–"
+ murder_outcome.5001.child_pushed_toy:0 "ข้ากำลังเล่นอยู่ข้างนอกเมื่อข้าเห็นมัน: [target.Custom('child_favorite_toy')] สุดที่รักของข้าห้อยอยู่ด้วยเชือกจากกำแพงสูง ข้าปีนบันไดขึ้นไปเร็วที่สุดเท่าที่จะทำได้ แต่ขณะที่ข้าเอื้อมมือลงไปช่วยมัน โลกก็พลิกกลับและข้ากำลังร่วงหล่น; พื้นดินกำลังลอยขึ้นมาหาข้า และข้าหลับตาลงและ–"
+ murder_outcome.5001.child_pushed:0 "ข้ากำลังเล่นอยู่ข้างนอกเมื่อข้าเห็นมัน: รอยทางขนมหวานที่นำขึ้นไปยังบันไดบางแห่ง ที่ด้านบนข้าพบตะกร้าห้อยอยู่ที่ขอบ เต็มไปด้วยขนมหวาน! แต่ขณะที่ข้าเอื้อมมือลงไปหยิบมัน โลกก็พลิกกลับและข้ากำลังร่วงหล่น; พื้นดินกำลังลอยขึ้นมาหาข้า และข้าหลับตาลงและ–"
+ murder_outcome.5001.beat_to_death_in_dungeon:0 "เมื่อประตูห้องขังในคุกใต้ดินของข้าเปิดออก ข้ากล้าหวังอยู่ชั่วครู่ว่าข้าจะได้รับการปล่อยตัว อย่างไรก็ตาม กลุ่มคนสวมเสื้อคลุมเข้ามา และข้ารู้ทันทีว่าอะไรรอข้าอยู่\n\nการทุบตีนั้นรุนแรงและโหดเหี้ยม ร่างกายที่อ่อนแอของข้าไม่อาจต้านทานได้ ขณะที่ข้านอนอยู่บนพื้นและรู้สึกว่าชีวิตกำลังหลุดลอยไป ข้าสังเกตอย่างเหม่อลอยว่าเลือดของข้าผสมกับน้ำบนพื้นชื้นแฉะ"
+ murder_outcome.5001.unwelcome_guest_house_arrest:0 "ข้าไม่คุ้นเคยกับ[dummy_gender.GetWomanMan]ที่รออยู่ในห้องของข้า แม้ว่า[dummy_gender.GetSheHe]จะโน้มน้าวผู้คุมขังของข้าว่า[dummy_gender.GetSheHe]เป็นสหายเก่าของข้าก็ตาม\n\nเพียงเมื่อ[dummy_gender.GetSheHe]ชักกริชที่ซ่อนอยู่ออกมา ข้าจึงจำ[dummy_gender.GetHerHim]ได้ว่าเป็น[dummy_gender.Custom('GenderedLowlyServantType')]เก่าแก่จาก"
+ murder_outcome.5001.unwelcome_guest_house_arrest.target_court:0 "ราชสำนักที่ [target_home.GetNameNoTier]"
+ murder_outcome.5001.unwelcome_guest_house_arrest.no_court:0 "ราชสำนักเดิมของ[target.GetFirstNamePossessiveNoTooltip]"
+ murder_outcome.5001.unwelcome_guest_house_arrest.end:0 "การโจมตีของ[dummy_gender.GetHerHis|U]รวดเร็วจนไม่อาจตอบโต้ได้ทัน"
+ murder_outcome.5001.strangle_incapable:0 "โลกภายนอกยังคงอยู่หรือไม่? ข้าไม่รู้สึกถึงกาลเวลาที่ผ่านไป นั่นคือความเจ็บปวดที่... หน้าอก? หรือ... ลำคอ? นี่คือร่างกายของข้าเองหรือ? นั่นคือราตรีกาลที่กำลังคืบคลานเข้ามาในหมู่เมฆสีเทาแห่งจิตใจข้าหรือ? มันยากเหลือเกินที่จะตั้งสติ\n\nยาก... เหลือเกิน..."
+ murder_outcome.5001.schemer_known:0 "\n\nไม่มีข้อสงสัยใดๆ ในใจข้าเลยว่าใครเป็นผู้นำพาสิ่งนี้มาสู่ข้า [owner.GetTitledFirstName]!"
+ murder_outcome.5001.avenge_me:0 "เหล่าทายาทของข้า จงแก้แค้นให้กับการตายของข้า!"
+ murder_outcome.5001.not_my_time:0 "ข้ายังมีอะไรอีกมากมายที่ต้องมีชีวิตอยู่เพื่อ!"
+ murder_outcome.5001.option_incapable:0 "ในที่สุด ความตาย"
+ 
+ murder_outcome.5002.t:0 "ความพยายามลอบสังหารข้า!"
+ murder_outcome.5002.poisoned_duck:0 "ขณะที่ข้ากำลังจะกัดเป็ดชิ้นที่ดูชุ่มฉ่ำที่สุดเท่าที่ข้าเคยเห็น คนรับใช้คนหนึ่งของข้าก็ล้มลง กุมคอของเขา! เห็นได้ชัดว่า คนโง่เขลาผู้นั้นได้แอบชิมอาหารของข้า\n\nอย่างน้อยที่สุด เขาก็ทำหน้าที่เป็นเครื่องเตือนใจไม่ให้แตะต้องนกที่ปนเปื้อนนั้น ขณะเดียวกันก็ได้รับโทษทัณฑ์อันสาสมสำหรับความไม่รอบคอบของเขา"
+ murder_outcome.5002.gang_of_thugs:0 "ขณะเดินทางผ่านป่า คณะผู้ติดตามของข้าถูกโจรปล้น! พวกมันไม่ได้ต้องการทองคำของข้า แต่โจมตีทันที — เร็วกว่าที่ข้าจะสั่งให้คนของข้าฆ่าพวกมัน ณ ที่นั้น การต่อสู้นั้นดุเดือดยิ่งกว่าที่คาดไว้ และที่แย่ไปกว่านั้น พวกอันธพาลมุ่งเป้ามาที่ข้าอย่างชัดเจน!\n\nโชคดีที่ไม่มีพวกมันเหลือรอดในท้ายที่สุด เพราะการโจมตีที่มุ่งร้ายของพวกมันเกือบจะเอาชนะข้าได้"
+ murder_outcome.5002.hired_assassin:0 "เสียงคล้ายกับนักฆ่าสะดุดหม้อปัสสาวะปลุกข้าให้ตื่นจากการหลับใหลยามดึก เมื่อเห็นผู้ที่หมายจะสังหารข้า ข้าตะโกนเรียกทหารยามด้วยท่าทีสุขุมและสมเป็น[SCOPE.GetRootScope.GetCharacter.GetWomanMan] เมื่อพวกเขามาถึง การต่อสู้สั้นๆ ก็เกิดขึ้น ส่งผลให้ผู้บุกรุกเสียชีวิต"
+ murder_outcome.5002.creepy_crawly_end:0 "พิษของ[SCOPE.Custom('VenomousCreatureType')]แผ่ซ่านไปทั่วร่างกายข้าพร้อมกับความรู้สึกแสบร้อน แต่ข้าเรียกหมอหลวงของข้าทันที มันเป็นความพยายามที่เจ็บปวด แต่เมื่อดวงอาทิตย์ขึ้น ความเจ็บปวดจากพิษก็คลายลงในที่สุด"
+ murder_outcome.5002.riled_up_mob:0 "ข้ากำลังขี่ม้าไปตามถนนใน [home_province.GetNameNoTier] เมื่อฝูงชนชาวบ้านที่กรีดร้องและตะโกนโหวกเหวกเข้ามาล้อมคณะผู้ติดตามของข้า โชคดีที่ทหารยามของข้าไม่ลังเลที่จะเริ่มฟันพวกมันซ้ายขวา ขณะที่ข้าเดินทางกลับไปยัง[ROOT.Char.Custom('ResidenceBuilding')]"
+ murder_outcome.5002.bricked:0 "เมื่อวานนี้ข้าเข้าร่วมงานเฉลิมฉลองในท้องถิ่นที่ [home_province.GetName] และใช้เวลายามเย็นอย่างเพลิดเพลิน เมามายด้วยความรื่นเริงและไวน์\n\nเมื่อข้าตื่นขึ้นในตอนเช้าพร้อมกับอาการเมาค้างอย่างหนักและจำไม่ได้ว่าข้าอยู่ที่ไหนและมาถึงที่นี่ได้อย่างไร ข้าพบว่าตัวเองอยู่ในห้องใต้ดินที่ชื้นแฉะ ซึ่งมีกำแพงที่สร้างขึ้นใหม่ #EMP เกือบจะ#! ปิดทางออกเพียงทางเดียว มีคนตั้งใจจะฝังข้าไว้ที่นี่!"
+ murder_outcome.5002.sunken_boat:0 "ข้าอยู่บนเรือในท่าเรือที่ [province.GetNameNoTier] ทันใดนั้นลูกธนูเพลิงก็พุ่งข้ามท้องฟ้ามาทางพวกเรา!\n\nมันพลาดเรือไปเพียงเส้นยาแดงผ่าแปด และขณะที่ข้าก้มลงมองมันดับฟู่ในน้ำทะเลเย็น ข้าก็ได้กลิ่นที่ชัดเจนมาจากไม้ของเรือ: ไฟกรีก! นี่คือความพยายามลอบสังหารข้า"
+ murder_outcome.5002.poisoned_drink:0 "ขณะกำลังรับประทานอาหารค่ำ คนรับใช้คนหนึ่งก็พรวดพราดเข้ามาในห้องและปัดถ้วยออกจากมือข้า #EMP ทันที#! ที่ข้ากำลังจะจิบ!\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U] ยาพิษ! หนึ่งในสาวรับใช้ในครัว... อภัยให้นางด้วย นางจิบเข้าไป และนาง– นางตายแล้ว!""
+ murder_outcome.5002.lured_into_forest:0 "[assassin.GetFirstName] ล่อข้าเข้าไปในป่าเพื่อเล่น แต่แล้ว [assassin.GetSheHe] ก็ซ่อนตัวและไม่เคยโผล่ออกมาอีกเลย!\n\nหลังจากร้องไห้ สะดุดกิ่งไม้ และตะโกนขอความช่วยเหลือจนคอข้าแหบแห้ง ทันใดนั้นข้าก็หาทางออกจากป่าและกลับบ้านได้อย่างปลอดภัย"
+ murder_outcome.5002.stab_infant:0 "แสงสว่างเคลื่อนไหว ใบหน้าที่คุ้นเคย ใบหน้าที่ไม่คุ้นเคย เสียงที่ข้ารู้จัก และเสียงที่ข้าไม่รู้จัก เสียงแหลมเย็นเยียบ ทำให้หูข้าเจ็บปวด และข้าก็เริ่มร้องไห้\n\nจากนั้นข้าก็ได้ยินเสียงผู้หญิงสะอื้น เสียงดังและเป็นผู้ใหญ่ เสียงตะโกน ตื่นตระหนก จากนั้นข้าก็ถูกทิ้งให้อยู่ตามลำพัง"
+ murder_outcome.5002.infant_creepy_crawly:0 "ผ้าห่มนุ่มๆ ใต้ร่างข้า และผ้าคลุมอุ่นๆ ข้าเกือบจะหลับแล้วเมื่อข้ารู้สึกถึงความรู้สึกประหลาด ราวกับมีบางสิ่งกำลังเคลื่อนไหวขึ้นมาบนตัวข้า ความเจ็บปวดพลันผลิบานที่แขนข้าและข้าก็เริ่มร้องไห้\n\nข้าได้ยินเสียงผู้ชายอยู่ใกล้ๆ และทันใดนั้นข้าก็ได้ยินเสียงมากมายดังขึ้นด้วยความตื่นตระหนก เมื่อเสียงเหล่านั้นจางหายไป ความเจ็บปวดที่แขนข้าก็ เช่นกัน และในไม่ช้าข้าก็หลับไป"
+ murder_outcome.5002.poisoned_candy:0 "ข้ากำลังเล่นอยู่ข้างนอกเมื่อมันปรากฏขึ้นต่อหน้าข้า: [ROOT.Char.Custom('FavoriteTreat')] ที่น่ารับประทาน ไม่มีใครอยู่ใกล้ และไม่มีใครสังเกตเห็นถ้าข้าแอบกัดสักคำ...\n\nทันทีที่ข้ากำลังจะกัดขนม สุนัขข้างถนนขี้เรื้อนตัวหนึ่งก็ฉกมันไปจากมือข้า กลืนลงไปทั้งชิ้น และล้มลงตายกับพื้นทันที"
+ murder_outcome.5002.child_pushed_dog:0 "ข้ากำลังออกไปเล่นเมื่อได้ยินเสียง: เสียงร้องโหยหวนของ [ROOT.Char.Custom('DogStoryName')] สุนัขสุดที่รักของข้า! เมื่อเงยหน้ามอง ข้าเห็น [ROOT.Char.Custom('DogStoryHerHim')] ถูกแขวนด้วยเชือกจากกำแพงสูง ข้ารีบไปอยู่ข้าง [ROOT.Char.Custom('DogStoryHerHis')] เร็วที่สุดเท่าที่จะทำได้\n\nขณะที่ข้าเอื้อมมือลงไปช่วย [ROOT.Char.Custom('DogStoryHerHim')] โลกรอบตัวก็หมุนคว้างและข้ากำลังร่วงหล่น; พื้นดินใกล้เข้ามาเรื่อยๆ ข้าหลับตาลงและ– ...พบว่าตนเองห้อยต่อง แต่งอยู่กับกำแพงโดยมีด้านหลังของ [ROOT.Char.Custom('GetUpperClothingArticle')] เกี่ยวไว้ #EMP เฮ้อ!#!"
+ murder_outcome.5002.child_pushed_cat:0 "ข้ากำลังออกไปเล่นเมื่อได้ยินเสียง: เสียงร้องโหยหวนของ [ROOT.Char.Custom('CatStoryName')] แมวสุดที่รักของข้า! เมื่อเงยหน้ามอง ข้าเห็น [ROOT.Char.Custom('CatStoryHerHim')] ถูกแขวนด้วยเชือกจากกำแพงสูง ข้ารีบไปอยู่ข้าง [ROOT.Char.Custom('CatStoryHerHis')] เร็วที่สุดเท่าที่จะทำได้\n\nขณะที่ข้าเอื้อมมือลงไปช่วย [ROOT.Char.Custom('CatStoryHerHim')] โลกรอบตัวก็หมุนคว้างและข้ากำลังร่วงหล่น; พื้นดินใกล้เข้ามาเรื่อยๆ ข้าหลับตาลงและ– ...พบว่าตนเองห้อยต่อง แต่งอยู่กับกำแพงโดยมีด้านหลังของ [ROOT.Char.Custom('GetUpperClothingArticle')] เกี่ยวไว้ #EMP เฮ้อ!#!"
+ murder_outcome.5002.child_pushed_toy:0 "ข้ากำลังออกไปเล่นเมื่อเห็นมัน: [target.Custom('child_favorite_toy')] สุดรักของข้าถูกแขวนด้วยเชือกจากกำแพงสูง ข้าปีนบันไดขึ้นไปเร็วที่สุดเท่าที่จะทำได้ แต่ขณะที่ข้าเอื้อมมือลงไปช่วยมัน โลกรอบตัวก็หมุนคว้างและข้ากำลังร่วงหล่น; พื้นดินใกล้เข้ามาเรื่อยๆ ข้าหลับตาลงและ– ...พบว่าตนเองห้อยต่อง แต่งอยู่กับกำแพงโดยมีด้านหลังของ [ROOT.Char.Custom('GetUpperClothingArticle')] เกี่ยวไว้ #EMP เฮ้อ!#!"
+ murder_outcome.5002.child_pushed:0 "ข้ากำลังออกไปเล่นเมื่อเห็นมัน: ทางเดินที่โรยด้วยขนมหวานนำขึ้นไปยังบันได ที่ด้านบน ข้าพบตะกร้าใบหนึ่งห้อยอยู่ที่ขอบ เต็มไปด้วยลูกกวาด! แต่ขณะที่ข้าเอื้อมมือลงไปหยิบมัน โลกรอบตัวก็หมุนคว้างและข้ากำลังร่วงหล่น; พื้นดินใกล้เข้ามาเรื่อยๆ ข้าหลับตาลงและ– ...พบว่าตนเองห้อยต่อง แต่งอยู่กับกำแพงโดยมีด้านหลังของ [ROOT.Char.Custom('GetUpperClothingArticle')] เกี่ยวไว้ #EMP เฮ้อ!#!"
+ murder_outcome.5002.beat_to_death_in_dungeon:0 "เมื่อประตูห้องขังของข้าเปิดออก ชั่วขณะหนึ่งข้ากล้าที่จะหวังว่าจะได้รับการปล่อยตัว อย่างไรก็ตาม กลุ่มคนสวมเสื้อคลุมที่เข้ามาในไม่ช้าก็ทำลายความหวังของข้า และเริ่มทุบตีข้าอย่างโหดเหี้ยม\n\nแม้ข้าจะไม่อยากกล่าว เช่นนั้น แต่เป็นเพียงการมาถึงโดยบังเอิญ— แต่ทันเวลา—ของทหารยามของข้าเท่านั้นที่ช่วยชีวิตข้าไว้"
+ murder_outcome.5002.unwelcome_guest_house_arrest:0 "ว่ากันว่าสหายเก่ากำลังรออยู่ในห้องพักของข้า ข้าจึงประหลาดใจยิ่งนักเมื่อพบกับร่างในชุดคลุมมีฮู้ด—ร่างที่ไม่คุ้นเคยและน่าสงสัยอย่างยิ่ง\n\nดังนั้น ทันทีที่กริชที่ซ่อนไว้ปรากฏออกมา ข้าก็เตรียมพร้อมที่จะวิ่งไปที่ประตู ร้องเรียกทหารยาม พวกเขารออยู่ด้านนอกห้องพอดี ข้าจึงสันนิษฐานว่าพวกเขาก็ไม่ไว้วางใจคนต่างถิ่นผู้นี้ เช่นกัน นับเป็นโชคดีของข้า"
+ murder_outcome.5002.strangle_incapable:0 "โลกภายนอกยังคงอยู่หรือไม่? ข้ารู้สึกไม่ได้ถึงกาลเวลาที่ผ่านไป ความเจ็บปวดนี้อยู่ที่...อก? หรือ...ลำคอ? นี่ใช่ร่างกายของข้าเองหรือ? นั่นคือราตรีกาลที่กำลังโรยตัวลงบนเมฆาสีเทาในจิตใจข้าหรือ? ช่างยากเหลือเกินที่จะตั้งสติ\n\nมีผู้ใดอยู่รอบกายข้าหรือไม่? ข้าไม่ได้ยิน แต่ #EMP รู้สึก#! ราวกับมีคนกำลังตะโกน จากนั้น อีกครั้ง มีเพียงความเงียบงัน"
+ murder_outcome.5002.schemer_known:0 "\n\nนี่เป็นฝีมือของ [owner.Custom2('InsultAdjective', ROOT.Char)] [owner.Custom2('InsultNoun', ROOT.Char)] [owner_to_reveal.GetTitledFirstName] อย่างมิต้องสงสัย!"
+ murder_outcome.5002.will_find_out:0 "ข้าจะสืบหาให้ได้ว่าผู้ใดอยู่เบื้องหลังเรื่องนี้!"
+ murder_outcome.5002.revenge_will_be_had:0 "ข้าจะ ทำให้ [owner_to_reveal.GetHerHim] ต้องเสียใจกับการกระทำนี้!"
+ murder_outcome.5002.child:0 "ผู้ใหญ่คนใดกันที่จะโหดร้ายถึงเพียงนี้?"
+ murder_outcome.5002.infant:0 "ข้าร้องไห้ต่อไปอีก"
+ murder_outcome.5002.option_incapable:0 "เกิดอะไรขึ้น?"
+
+ murder_outcome.5002.memories_death:0 "\n\nขณะที่ข้าเลือนหายไป เสียงหนึ่งกล่าวอย่างเย็นชาว่า:\n#EMP \"งานเสร็จสิ้นแล้ว แก้แค้นสำหรับคราที่ [bad_memory.GetThirdPerspectiveDescription], เรียบร้อย ถึงเวลาไปรับทองแล้ว\"#!"
+ murder_outcome.5002.memories:1 "\n\nพบกระดาษโน้ตยับยู่ยี่ใกล้ที่เกิดเหตุ: #EMP \"แนบค่าจ้างมาครบถ้วนแล้ว สัญญาจ้างออกให้สำหรับเมื่อคราที่ [bad_memory.GetThirdPerspectiveDescription]\"#!"
+ # Family Feud
+ murder_outcome.5002.house_feud:0 "\n\nตระกูล [owner_to_reveal.GetHouse.GetBaseName]! ข้าน่าจะรู้!"
+ murder_outcome.4301.house_feud:0 "\n\nสาปแช่งพวกนอกคอกตระกูล [target.GetHouse.GetBaseName]!"
+ murder_outcome.2001.house_feud:0 "\n\nอย่างไรก็ตาม ก็มีคนตระกูล [target.GetHouse.GetBaseName] ให้ต้องกังวลน้อยลงไปหนึ่งคน!"
+ murder_outcome.2001.b:0 "นี่เป็นเพียงจุดเริ่มต้นเท่านั้น"
+ murder_outcome.2001.c:0 "ความยุติธรรมได้รับการสนองแล้ว"
+
+
+
+
+
+
+ #################################################
+ # MURDER SCHEME REWORK
+
+ #################################################
+ # Outcome Declarations
+
+ # Success
+ murder_outcome_reworked.0000.success_declaration.generic.1: "ในที่สุด [target.GetTitledFirstName] ก็ตายเสียที!"
+ murder_outcome_reworked.0000.success_declaration.generic.2: "สายลับของข้าสังหาร [target.GetTitledFirstName] ได้สำเร็จ!"
+ murder_outcome_reworked.0000.success_declaration.generic.3: "[target.GetTitledFirstName] ถูกส่งไปสู่อ้อมกอดแห่งโชคชะตาของ [ROOT.Char.GetFaith.DeathDeityNamePossessive] แล้ว!"
+
+ # Failure
+ murder_outcome_reworked.0000.failure_declaration.generic.1: "[target.GetTitledFirstName] หนีรอดไปได้อย่างปลอดภัย!\n\n"
+ murder_outcome_reworked.0000.failure_declaration.generic.2: "ความพยายามลอบสังหาร [target.GetTitledFirstNamePossessive] ของข้าถูกขัดขวางเสียแล้ว!\n\n"
+ murder_outcome_reworked.0000.failure_declaration.generic.3: "ดูเหมือนว่า [target.GetTitledFirstName] จะหนีรอดจากเงื้อมมือของ [ROOT.Char.GetFaith.DeathDeityName] ไปได้!\n\n"
+ murder_outcome_reworked.0000.failure_declaration.generic.4: "[target.GetTitledFirstName] ยังมีชีวิตอยู่!\n\n"
+ murder_outcome_reworked.0000.failure_declaration.generic.5: "ดูเหมือนว่าแผนการสังหาร [target.GetTitledFirstName] ของข้าจะล้มเหลวเสียแล้ว!\n\n"
+ murder_outcome_reworked.0000.failure_declaration.generic.6: "อย่างไรก็ไม่ทราบ #EMP อย่างไรก็ไม่ทราบ#! [target.GetTitledFirstName] ยังคงมีชีวิตอยู่!\n\n"
+
+ # Memories (Scheme Owner)
+ murder_outcome_reworked.0000.memories.bad.general: "ข้าจะจดจำไปตลอดกาลเมื่อคราที่ [bad_memory.GetDescription], [ROOT.Char.Custom('MurderMemoryEnding')]\n\n"
+ murder_outcome_reworked.0000.memories.bad.house_feud: "มีคนตระกูล [target.GetHouse.GetBaseName] ให้ต้องกังวลน้อยลงไปหนึ่งคน\n\n"
+ murder_outcome_reworked.0000.memories.line_break: "หนามยอกอกถูกถอนออกไปแล้ว ขอบคุณ [owner.GetFaith.FateGodName]\n\n"
+
+ # Kept Secret (Scheme Owner)
+ murder_outcome_reworked.0000.kept_secret.generic.1: "\n\nโชคยังดี แม้จะมีเสียงกระซิบกระซาบอยู่เสมอ การมีส่วนร่วมในอาชญากรรมครั้งนี้ของข้ายังคงไม่เป็นที่เปิดเผย"
+ murder_outcome_reworked.0000.kept_secret.generic.2: "\n\nข้าได้ปกปิดร่องรอยของข้าไว้อย่างดี และหากมีผู้ใดสงสัยว่าข้าอยู่เบื้องหลังการโจมตีครั้งนี้ พวกเขาก็ไม่กล้าเอ่ยมันออกมาดังๆ"
+
+ # Revealed (Scheme Owner)
+ murder_outcome_reworked.0000.revealed.generic.1: "\n\nโชคไม่ดีนัก ไม่ว่าข้าจะคัดค้านเพียงใด ข้อกล่าวหาที่ไร้มูลจากทุกสารทิศก็ชี้ตรงมาที่ #EMP ข้า#! ว่าเป็นผู้อยู่เบื้องหลังเหตุการณ์นี้"
+ murder_outcome_reworked.0000.revealed.success.1: "\n\nโชคไม่ดีนัก ใครบางคน ณ ที่ใดที่หนึ่ง พลาดพลั้งไปและ ทำให้การมีส่วนร่วมในอาชญากรรมของข้าเป็นที่เปิดเผย; อย่างน้อยข้าก็ยังปลอบใจตนเองได้ว่า [target.GetTitledFirstName] อยู่ในสภาพที่ย่ำแย่กว่าข้า"
+ murder_outcome_reworked.0000.revealed.failure.1: "\n\nที่แย่ไปกว่านั้น มีหลักฐานปรากฏออกมาเพียงพอที่จะพิสูจน์การมีส่วนร่วมในอาชญากรรมครั้งนี้ของข้า ตราหน้าข้าว่าเป็นทั้งผู้ล้มเหลวและฆาตกร"
+ murder_outcome_reworked.0000.addendum.house_feud.1: "สาปแช่งพวกนอกคอกตระกูล [target.GetHouse.GetBaseName] #EMP พวกนี้#!."
+ murder_outcome_reworked.0000.addendum.house_feud.2: "ตระกูล [owner_to_reveal.GetHouse.GetBaseName] ขอให้พวกมันทั้งหมดถูกสาปส่งไปยัง [target.GetFaith.random_NegativeAfterLife]!"
+ murder_outcome_reworked.0000.addendum.house_feud.2.2: "และ \"$murder_outcome_reworked.0000.addendum.house_feud.2$\""
+ murder_outcome_reworked.0000.addendum.house_feud.2.servants: "เหล่าคนรับใช้บ่นพึมพำ: $murder_outcome_reworked.0000.addendum.house_feud.2.2$"
+
+ # Memories (Scheme Target)
+ murder_outcome_reworked.0000.memories.target.voice_overheard: "\n\nขณะที่ข้าเลือนหายไป เสียงหนึ่งกระซิบอย่างเย็นชา: #EMP \"จงถือว่านี่คือการแก้แค้นสำหรับคราที่ [bad_memory.GetSecondPerspectiveDescription], ท่าน [target.GetTitleAsNameNoTooltip] ที่รัก หวังว่ามันจะคุ้มค่านะ\"#!"
+ murder_outcome_reworked.0000.memories.target.note_discovered: "\n\nพบกระดาษโน้ตยับยู่ยี่ใกล้ที่เกิดเหตุ: #EMP \"แนบค่าจ้างมาครบถ้วนแล้ว สัญญาจ้างออกให้สำหรับเมื่อคราที่ [bad_memory.GetThirdPerspectiveDescription]\"#!"
+
+ # Revealed (Scheme Target)
+ murder_outcome_reworked.0000.revealed.scheme_target.success.1: "\n\nขณะที่ความตายมาพรากข้าไป ในใจข้าไม่มีข้อสงสัยแม้ แต่น้อยว่าผู้ใดเป็นผู้นำสิ่งนี้มาสู่ข้า: [owner.GetTitledFirstName]!"
+ murder_outcome_reworked.0000.revealed.scheme_target.success.2: "\n\nแม้ ในขณะที่สติของข้าเลือนราง ความคิดสุดท้ายของข้าคือ นี่เป็นฝีมือของ [owner.Custom2('InsultAdjective', ROOT.Char)] [owner.Custom2('InsultNoun', ROOT.Char)] [owner_to_reveal.GetTitledFirstName] อย่างมิต้องสงสัย!"
+ murder_outcome_reworked.0000.revealed.scheme_target.success.child: "\n\nข้าจะไม่ได้เห็นความสิ้นหวังอันแสนปวดใจของครอบครัวข้าอีกต่อไป และจะไม่ได้ยินเสียงกระซิบในหมู่คนรับใช้อีกเลย: \"เป็นฝีมือของ [owner_to_reveal.GetTitledFirstName]!\""
+ murder_outcome_reworked.0000.revealed.scheme_target.success.baby: "\n\nข้าคงไม่เข้าใจความตื่นตระหนกเมื่อเหล่าคนรับใช้มาพบข้า หรือเสียงกระซิบของพวกเขา: \"เป็นฝีมือของ [owner_to_reveal.GetTitledFirstName]!\""
+ murder_outcome_reworked.0000.revealed.scheme_target.failure.baby: "\n\nข้าไม่เข้าใจเสียงกรีดร้องของเหล่าคนรับใช้เมื่อพวกเขามาพบข้า หรือเสียงกระซิบของพวกเขา: \"ต้องเป็นฝีมือของ [owner_to_reveal.GetTitledFirstName] แน่ๆ!\""
+ murder_outcome_reworked.0000.revealed.scheme_target.failure.baby.2: "\n\nข้าไม่เข้าใจเสียงกระซิบอย่างโกรธเคืองของเหล่าคนรับใช้: \"\"ต้องเป็นฝีมือของ [owner_to_reveal.GetTitledFirstName] แน่ๆ!\"\""
+ murder_outcome_reworked.0000.revealed.scheme_target.success.baby.end: "อย่างไรเสีย ข้าก็เป็นเพียงทารก"
+ murder_outcome_reworked.0000.revealed.scheme_target.failure.baby.end: "อย่างไรเสีย ข้าก็เป็นเพียงทารก"
+ murder_outcome_reworked.0000.revealed.scheme_target.success.1.incapable: "\n\nเมื่อถึงเวลาที่ร่างของข้าถูกพบ ถ้อยคำมากมายจะถูกเอ่ยขึ้น ซึ่งความหมายของมันได้หลุดลอยไปจากจิตใจอันอ่อนแอของข้านานแล้ว: \"เป็นฝีมือของ [owner_to_reveal.GetTitledFirstName]!\""
+ murder_outcome_reworked.0000.revealed.scheme_target.failure.1.incapable: "\n\nหากถ้อยคำยังคงมีความหมายใดๆ ต่อข้า ข้าคงจะจำได้ถึงสิ่งที่ทุกคนรอบตัวข้าพึมพำและกล่าวซ้ำอย่างโกรธเคือง: \"ต้องเป็นฝีมือของ [owner_to_reveal.GetTitledFirstName] แน่ๆ!\""
+ murder_outcome_reworked.0000.revealed.scheme_target.success.no_linebreak.1: "ในใจข้าไม่มีข้อสงสัยแม้ แต่น้อยว่าผู้ใดเป็นผู้นำสิ่งนี้มาสู่ข้า [owner.GetTitledFirstName]!"
+ murder_outcome_reworked.0000.revealed.scheme_target.success.no_linebreak.2: "นี่เป็นฝีมือของ [owner.Custom2('InsultAdjective', ROOT.Char)] [owner.Custom2('InsultNoun', ROOT.Char)] [owner_to_reveal.GetTitledFirstName] อย่างมิต้องสงสัย!"
+ murder_outcome_reworked.0000.revealed.scheme_target.failure.1: "\n\nแม้ว่า [owner_to_reveal.GetHerHis] จะคัดค้านอย่างแข็งขัน หลักฐานทั้งหมดชี้ไปยังการมีส่วนเกี่ยวข้องโดยตรงของ [owner_to_reveal.GetTitledFirstName] ในเหตุการณ์นี้"
+ murder_outcome_reworked.0000.revealed.scheme_target.failure.2: "\n\nไม่เพียง แต่การลอบสังหารจะล้มเหลว แต่ร่องรอยหลักฐานอันงุ่มง่ามที่ทิ้งไว้ยังนำตรงไปยังผู้บงการของมัน: [owner_to_reveal.GetTitledFirstName]!"
+
+ #################################################
+ # Outcome Responses
+
+ # Revealed (Scheme Owner)
+ murder_outcome_reworked.0000.revealed.owner.response.1: "ช่างเป็นข้อกล่าวหาที่ใส่ร้ายป้ายสีเสียนี่กระไร!"
+
+ # General Successful Responses (Scheme Target)
+ murder_outcome_reworked.0000.successful_scheme_target.adult: "ข้ายังมีเรื่องที่ต้องทำอีกมากมาย..."
+ murder_outcome_reworked.0000.successful_scheme_target.child: "มันไม่ยุติธรรม!"
+ murder_outcome_reworked.0000.successful_scheme_target.incapable: "จากนั้น มีเพียงความว่างเปล่า"
+
+ #################################################
+ # Outcomes — Standard
+
+ # Hired an Assassin
+ murder_outcome_reworked.0001.desc.assassin_present_at_location.consort: "[assassin.GetFirstName] ในฐานะ [assassin.Custom2('GetYourConsortType', target)] ของ [target.GetHerHis] แน่นอนว่าได้เข้าประจำที่แล้ว: ทั้งหมดที่[assassin.GetSheHe]ต้องทำคือรอให้ [target.GetFirstNameNoTooltip] หลับใหล ชักมีดที่เตรียมไว้จากใต้หมอนของ[assassin.GetHerHis] และเชือดคอหอยของ[target.Custom2('InsultNoun', ROOT.Char)]นั่น เชือกที่โยนจากหน้าต่าง รอยกรีดตื้นๆ ที่ทำขึ้นเองสองสามแห่ง และร่องรอยการต่อสู้ที่เตรียมไว้ล่วงหน้าด้านล่าง ช่วยเสแสร้งการหลบหนีของนักฆ่า "ตัวจริง" ได้เป็นอย่างดี"
+ murder_outcome_reworked.0001.desc.hired_assassin.assassin_present_at_location: "[assassin.GetFirstName] ดำเนินการตามแผนของเราได้อย่างสมบูรณ์แบบ ในยามวิกาล [assassin.GetSheHe] ลอบเร้นผ่านช่องว่างของการลาดตระเวน ปล่อยตัว[assassin.GetHerselfHimself]เข้าไปในห้องของเหยื่อด้วยกุญแจที่ขโมยมา และจบชีวิตอันน่าสังเวชของ [target.GetFirstNamePossessiveNoTooltip] ลงด้วยเสียงครืดคราดเปียกแฉะ"
+ murder_outcome_reworked.0001.desc.hired_assassin.assassin_remote_working: "ลูกจ้างของ [assassin.GetFirstNamePossessive] ดำเนินการตามแผนของเราได้อย่างสมบูรณ์แบบ ในยามวิกาล [dummy_assassin_gender.GetWomanMan] ผู้นั้นลอบเร้นผ่านช่องว่างที่สอดแนมไว้ในการลาดตระเวน ปล่อยตัว[dummy_assassin_gender.GetHerselfHimself]เข้าไปในห้องของเหยื่อด้วยกุญแจที่ขโมยมา และจบชีวิตอันน่าสังเวชของ [target.GetFirstNamePossessiveNoTooltip] ลงด้วยเสียงครืดคราดเปียกแฉะ"
+ murder_outcome_reworked.0002.desc: "$murder_outcome.5001.hired_assassin$"
+ murder_outcome_reworked.0003.desc: "นักฆ่าทำพลาดครั้งใหญ่ในช่วงเวลาที่ละเอียดอ่อนที่สุด! [target.GetFirstNameNoTooltip] ตื่นขึ้นมาเห็นร่างน่าสะพรึงกลัวในชุดคลุมสีดำมืดยืนอยู่ข้างเตียงของ [target.GetHerHis] และกรีดร้องขอความช่วยเหลือทันที ทำให้สายลับของเราที่ตกใจต้องรีบหนีไป"
+ murder_outcome_reworked.0004.desc: "เสียงมือไม้ซุ่มซ่ามและคำสบถแผ่วเบาปลุกข้าให้ตื่นจากการหลับใหล\n\nใกล้ตัวข้า—#EMP ใกล้เกินไปจนน่าอึดอัด#!—มีร่างหนึ่งในชุดคลุมสีดำมืดยืนอยู่ ดูเหมือนจะตกใจพอๆ กับข้า เสียงกรีดร้องขอความช่วยเหลืออย่างกะทันหันของข้า ทำให้มันรีบหนีไป ขณะที่ทหารยามของข้ารีบเข้ามา"
+ 
+ # Hired A Gang Of Thugs
+ murder_outcome_reworked.0011.desc: "มันไม่ได้ต้องใช้อะไรมากนักจริงๆ—เพียงแค่กลุ่มโจรผู้สิ้นหวังที่ละโมบในเงินตราและโอกาสที่สร้างขึ้น เพื่อให้พวกเขาลงมือ— แต่ผลลัพธ์นั้น #EMP ยอดเยี่ยม#! การตะลุมบอน ทำให้ผู้คุ้มกันของ [target.GetHerHis] ไม่ทันตั้งตัวโดยสิ้นเชิง เปิดโอกาสให้หนึ่งในพวกอันธพาลจัดการเจ้าสารเลวนั่นเข้าที่ตาพอดี"
+ murder_outcome_reworked.0012.desc.alley: "ข้าและคณะผู้ติดตามกำลังเดินทางผ่านตรอกซอกซอยของ [target.GetCurrentLocation.GetName],"
+ murder_outcome_reworked.0012.desc.wilderness: "ข้าและคณะผู้ติดตามกำลังเดินทางผ่านถิ่นทุรกันดารของ [target.GetCurrentLocation.GetName],"
+ murder_outcome_reworked.0012.desc: "เมื่อเสียงกรีดร้องอันน่าขนลุกดังแทรกเข้ามาในหมู่พวกเรา\n\nดูเหมือนจะมาจากที่ไหนก็ไม่รู้ พวกเราถูกโจมตีโดยกลุ่มคนพาล! ลูกธนูและดาบปลิวว่อนอย่างรวดเร็ว ความดุร้ายอย่างแท้จริงและความกระหายในการฆ่าฟันทำลายล้างทหารยามของข้าในชั่วพริบตา ไม่เต็มใจที่จะให้การซุ่มโจมตีนี้เป็นหลุมศพของข้า ข้าจึงหลบหนี พุ่งไปยังจุดที่ปลอดภัยกว่า จากนั้น เหนือเสียงอึกทึกของการต่อสู้ ข้าได้ยินเสียงสายธนูที่ดังกังวานเพียงเส้นเดียว"
+ murder_outcome_reworked.0013.desc: "แผนของเราดู...สมบูรณ์แบบมาก...สิ่งเบี่ยงเบนความสนใจที่สร้างขึ้น ฝูงโจรผู้สิ้นหวัง และการซุ่มโจมตีอย่างกะทันหัน มัน #EMP ควรจะ#! เป็นหลุมศพของ [target.GetFirstNamePossessiveNoTooltip] แต่ทหารยามโง่เง่าของ [target.GetHerHis] กลับเอาตัวเข้ารับทุกหมัด ทุกดอกธนู หรือทุกคมดาบ รวมกำลังกัน และโต้กลับ ลูกจ้างของเราล้มตายเป็นเบือ"
+ murder_outcome_reworked.0014.desc: "เมื่อเสียงกรีดร้องอันน่าขนลุกดังแทรกเข้ามาในหมู่พวกเรา\n\nดูเหมือนจะมาจากที่ไหนก็ไม่รู้ พวกเราถูกโจมตีโดยกลุ่มคนพาล! การโจมตีของพวกมันดุร้าย แต่เทียบไม่ได้กับความโกรธเกรี้ยวของทหารยามของข้า และเราก็กรูกันออกไปเผชิญหน้ากับพวกมัน การตะลุมบอนอันดุเดือดจึงเกิดขึ้น โดยพวกอันธพาล #EMP เห็นได้ชัด#! ว่ามุ่งเป้ามาที่ข้าเป็นหลัก มีเพียงคนโง่เท่านั้นที่จะไม่รู้ว่านี่คือความพยายามลอบสังหาร"
+
+ # Poisoning
+ murder_outcome_reworked.0021.desc: "ใช้เวลาหลายสัปดาห์ในการวางรากฐานสำหรับแผนของข้า: อาหารจานยาพิษ เหมาะสำหรับ [target.GetWomanMan] ผู้มีสถานะ เช่น [target.GetHerHis] เป็นคนโง่เสมอ [target.GetFirstNameNoTooltip] พิสูจน์แล้วว่าไม่สามารถได้กลิ่นยาพิษผ่านสมุนไพรต่างแดนที่โรยอยู่บนเป็ดปนเปื้อนได้ เห็นได้ชัดว่าไม่ทันสังเกตเห็นรสขมร้ายแรง จนกระทั่งมันสายเกินไป มากเกินไปแล้ว"
+ murder_outcome_reworked.0022.desc: "ข้ากำลังเพลิดเพลินกับเป็ดย่างชั้นเลิศในงานเลี้ยงของข้าเมื่อ... รสขมประหลาดอะไรนี่ในรสชาติที่ตามมา? พ่อครัวโง่นั่นต้อง—\n\nลำคอของข้าบวมเป่ง บางสิ่งที่ข้นและหนักหน่วงระเบิดในลำคอของข้า ทำให้การมองเห็นของข้ามัวลงด้วยอาการปวดหัวตุบๆ ที่ถาโถมเข้าใส่หน้าผากของข้าราวกับพายุโหมกระหน่ำ ทำไม... ทำไมการมองเห็นของข้าจึงมัวและมืดลง เช่นนี้ ณ ที่ใดที่หนึ่ง เสียงหัวเราะอันห่างไกลเปลี่ยนเป็นเสียงกรีดร้องด้วยความหวาดกลัว ข้าตั้งสติไม่ได้ #DIE1 ข้าคิดอะไรไม่ออก#! #DIE2 ข้าไม่สามารถ...#!"
+ murder_outcome_reworked.0023.desc: "#EMP เจ้าโง่!#! เป็นไปได้อย่างไรที่จะต้องมีพวกมันสักคนมาทำลายแม้กระทั่งแผนการที่สมบูรณ์แบบที่สุดเสมอ?!\n\nเป็ดพร้อมเสิร์ฟแล้ว กลิ่นยาพิษถูกซ่อนไว้อย่างมีศิลปะด้วยสมุนไพรกลิ่นหอมหวาน ความเงียบของเหล่าพ่อครัวถูกซื้อไว้ด้วยเงินจำนวนมาก... แต่กระนั้น คนรับใช้โง่เง่าคนหนึ่ง #EMP ก็ดัน#! แอบชิมอาหารจานนั้น เพียง เพื่อที่จะล้มลงตายทันทีต่อหน้า [target.GetFirstNameNoTooltip]!"
+ murder_outcome_reworked.0024.desc: "ขณะที่ข้ากำลังจะกัดเป็ดชิ้นที่ชุ่มฉ่ำที่สุดเท่าที่ข้าเคยเห็นมา คนรับใช้คนหนึ่งของข้าก็ล้มลง หน้าคว่ำลงบนโต๊ะและกุมลำคอของตนเอง เขาแอบชิมอาหารของข้า!\n\nอย่างน้อยที่สุด เขาก็ทำหน้าที่เป็นคำเตือนว่าอย่าแตะต้องเป็ดตัวนั้น ขณะเดียวกันก็ได้รับโทษอันสาสมสำหรับอาชญากรรมของเขา"
+ 
+ # Creepy-Crawly
+ murder_outcome_reworked.0031.desc: "แผนได้ผลราวกับเวทมนตร์: [SCOPE.Custom('VenomousCreature')] ล้ำค่าของข้ากำลังรอ [target.GetFirstNameNoTooltip] อยู่ในเตียงของ [target.GetHerHis] เมื่อ [target.GetSheHe] เข้านอน เงียบเชียบและพร้อมที่จะโจมตีเมื่อถูกยั่วยุครั้งแรก แล้ว [target.GetFirstNameNoTooltip] ก็ขยับตัว"
+ murder_outcome_reworked.0033.desc: "แผนนี้ ถูกกล่าวอ้างว่า รัดกุมที่สุดแล้ว: [SCOPE.Custom('VenomousCreature')] กำลังรอ [target.GetFirstNameNoTooltip] อยู่ในเตียงของ[target.GetHerHis] เมื่อ[target.GetSheHe]กลับมาพักผ่อนในยามค่ำคืน [target.GetSheHe]เพียงแค่เอนกายลงและปล่อยให้เจ้าสัตว์เลื้อยคลานตัวน้อยทำงานของมัน! แต่[target.Custom2('InsultNoun', ROOT.Char)]นั่นกลับสังเกตเห็นความเคลื่อนไหวที่น่าสงสัยในผ้าห่ม และสังหาร[SCOPE.Custom('VenomousCreatureType')]ก่อนที่มันจะทันได้ฉกกัด"
+ murder_outcome_reworked.0034.desc: "ขณะที่ข้าเข้านอน การเคลื่อนไหวที่น่าสงสัยในผ้าห่มบนเตียงของข้าดึงดูดความสนใจของข้า ข้าดึงผ้าห่มกลับอย่างระมัดระวังเพื่อไม่ให้แขกที่ไม่ได้รับเชิญตกใจ เพียงเพื่อจะพบ [SCOPE.Custom('VenomousCreatureType')] กำลังรอข้าอยู่!\n\n"
+ murder_outcome_reworked.0034.desc_unknown: "ข้าไม่สามารถระบุได้อย่างแน่ชัดว่าเจ้าตัวเล็กน่าขนลุกนี่คืออะไร แต่ข้าสงสัยว่ามันไม่เป็นมิตร"
+ murder_outcome_reworked.0034.desc_end: "โดยไม่ลังเลแม้ แต่น้อย ข้าคว้ากริชของข้าและแทงเจ้าสัตว์ร้ายนั่นให้แน่นิ่งอยู่กับที่"
+ 
+ # Riled-Up Mob
+ murder_outcome_reworked.0041.desc: "ฝูงชนชาวนาที่โกรธแค้นและถูกปลุกปั่นกำลังรอ [target.GetFirstNameNoTooltip] อยู่ระหว่างทางที่ [target.GetHerHis] ผ่านเมือง\n\nเพียงแค่เห็น [target.GetLadyLord] ขี่ม้าผ่านไปอย่างไม่ใส่ใจ ก็เพียงพอให้พวกเขาระเบิดความรุนแรงถึงขั้นฆ่าฟันออกมา ทหารยามไม่กี่คนที่ติดตามเจ้านายของตนไร้กำลังต่อกรกับความโกรธแค้นอันมืดบอดของฝูงชนที่กระหายเลือด; [target.GetFirstNameNoTooltip] ถูกเหยียบย่ำ ทุบตี และแทงจนจำไม่ได้—เกินกว่าจะมีโอกาสรอดชีวิตใดๆ"
+ murder_outcome_reworked.0042.desc: "ข้ามัว แต่จมอยู่ในความคิดขณะขี่ม้าผ่านเมือง จึงไม่ได้ใส่ใจกับเสียงพึมพำอย่างประหม่าของทหารยาม หรือฝูงชนที่เพิ่มมากขึ้น ซึ่งขวางทางเราอยู่ กว่าข้าจะสังเกตเห็น ก็สายเกินไปเสียแล้ว\n\nชาวนาที่โกรธแค้นล้อมรอบพวกเรา ฉุดกระชากเราลงจากหลังม้า และทุบตีเราอย่างไร้ความปรานี ขณะที่การทุบตีอย่างไม่หยุดยั้งถาโถมเข้าใส่ข้า มากมายจนนับไม่ถ้วน การมองเห็นของข้าถูกบดบังด้วยเลือด จากนั้นทุกสิ่งก็มืดดำลง"
+ murder_outcome_reworked.0043.desc: "ทุกอย่างกำลังไปได้สวย: ผู้ปลุกปั่นของข้าประสบความสำเร็จในการรวบรวมฝูงชนชาวนาและปลุกเร้าจิตวิญญาณของพวกเขาต่อต้าน [target.GetFirstNameNoTooltip] อย่างเพียงพอ\n\nอย่างไรก็ตาม เมื่อ [target.GetFirstNameNoTooltip] ปรากฏตัว [target.GetHerHis] พร้อมกับองครักษ์ติดอาวุธ ความกระหายเลือดของฝูงชนก็ระเหยหายไปเหมือนหิมะในแสงแดด! มีเพียงผู้หลงเหลือไม่กี่คนที่โจมตี และพวกเขาก็ถูกทหารปราบปรามอย่างรวดเร็ว"
+ murder_outcome_reworked.0044.desc: "ขณะที่ข้าขี่ม้าผ่านเมืองพร้อมคณะผู้ติดตาม ข้าอดไม่ได้ที่จะสังเกตเห็นฝูงชนที่เพิ่มมากขึ้นล้อมรอบเราจากทุกทิศทาง\n\nโชคดีที่เช้านี้ข้าตัดสินใจออกเดินทางพร้อมกับกลุ่มทหารติดอาวุธอย่างดีจำนวนมาก ซึ่งภาพที่เห็นนั้นช่วยลดความไม่พอใจของฝูงชนได้อย่างน่าอัศจรรย์ เมื่อชาวนากลุ่มเล็กๆ ที่ดูโกรธแค้นพยายามโจมตีเรา ทหารยามของข้าก็ฟันพวกเขาล้มลงอย่างง่ายดาย ทำให้พวกไม่เอาไหนที่เหลืออยู่กระจัดกระจายไป"
+ 
+ # Bricked Up Alive
+ murder_outcome_reworked.0051.desc: "แผนนี้งดงามในความเรียบง่ายของมัน: ข้าเชิญ [target.GetFirstNameNoTooltip] มาดื่ม โดยรู้ดีว่า [target.GetSheHe] จะหยุดไม่ได้จนกว่าจะเมาหัวราน้ำ จากนั้น เจ้าโง่นั่นตามข้าลงไปที่ห้องใต้ดินโดยไม่อิดเอื้อนและหลับไปในทันที [target.GetSheHe|U] ไม่แม้ แต่จะขยับตัวขณะที่คนรับใช้ของข้าก่อกำแพงปิดทางเข้าห้อง #EMP ตลอดกาล#!."
+ murder_outcome_reworked.0053.desc: "ทุกอย่างเป็นไปตามแผน: ข้าเชิญ [target.GetFirstNameNoTooltip] มาดื่ม โดยรู้ดีว่า [target.GetSheHe] จะหยุดไม่ได้จนกว่าจะเมาหัวราน้ำ จากนั้น เจ้าโง่นั่นตามข้าลงไปที่ห้องใต้ดินโดยไม่อิดเอื้อนและหลับไปในทันที คนรับใช้ของข้าเพียงแค่ต้องก่อกำแพงและผนึก [target.GetHerHim] ไว้ข้างใน แต่ดูเหมือนว่าพวกเขา #EMP เหนื่อยเกินไป#! และทำงานไม่เสร็จ ดังนั้น [target.GetFirstNameNoTooltip] จึงหนีรอดไปได้!"
+ 
+ # Sink A Boat They're On
+ murder_outcome_reworked.0061.desc: "เรือล่มตลอดเวลา มันเป็นเรื่องจริงของชีวิต บางครั้ง พวกมันก็ #EMP ได้รับการช่วยเหลือ#! ให้จมลงด้วยการดัดแปลงบางอย่าง ในเวลาที่พวกมันอยู่ห่างจากชายฝั่งมากเกินไปเพียงเล็กน้อยพอดี อ้อมกอดอันเย็นเยียบของทะเลเปิดนั้นน่าตกใจ พวกเขาบอกข้ามา ข้าคงถาม [target.GetFirstNameNoTooltip] ได้ ถ้า [target.GetSheHe] ไม่ได้จมน้ำตายไปเสียก่อน ช่างเป็น #EMP โศกนาฏกรรม#! ที่แท้จริง"
+ murder_outcome_reworked.0062.desc_port: "ข้าพบว่าตนเองอยู่บนเรือท้องถิ่นเพื่อการเดินทางตรวจตราสั้นๆ ชายฝั่งยังคงมองเห็นอยู่ใกล้ๆ และจิตใจของข้าจดจ่ออยู่กับรายงานบางอย่างจนแทบไม่ได้ยินเสียงแตกดังลั่นอย่างกะทันหันและเสียงกรีดร้องของกะลาสี"
+ murder_outcome_reworked.0062.desc_travel: "ข้ารักทะเลเปิด! แสงอาทิตย์จุมพิตใบหน้าข้า สายลมพัดเสื้อคลุมของข้าให้สะบัดไปมา กลิ่นเค็มสดชื่นของน้ำทะเลที่อบอวลในจมูก เสียงแตกน่าขนลุกพร้อมกับเสียงกรีดร้องอย่างบ้าคลั่งจากกะลาสี— เดี๋ยว #EMP อะไรนะ#!?!"
+ murder_outcome_reworked.0062.desc: "\n\nข้าไม่มีเวลาตอบสนองขณะที่เสากระโดงเรือที่หักโค่นลงมาทับข้า ทำให้ลมหายใจทั้งหมดออกจากปอดและเหวี่ยงข้าตกทะเล ความตกใจจากการกระแทกกับน้ำเย็นจัดการส่วนที่เหลือ ขณะที่เสื้อผ้าหนักๆ ของข้าดึงข้าลง...สู่ใต้เกลียวคลื่น..."
+ murder_outcome_reworked.0063.desc: "เรือล่มตลอดเวลา มันเป็นเรื่องจริงของชีวิต หรืออย่างน้อย มัน #EMP ควรจะ#! เป็น เช่นนั้น! มันยากแค่ไหนกันที่จะก่อวินาศกรรมเศษขยะลอยน้ำชิ้นหนึ่ง เพื่อให้มันจมลงใต้เกลียวคลื่น พร้อมกับ [target.GetFirstNameNoTooltip]?!\n\nเห็นได้ชัดว่ามันยากเกินไปสำหรับผู้สมรู้ร่วมคิดของข้า เนื่องจากเรือของ [target.GetFirstNamePossessiveNoTooltip] กลับมาได้อย่างปลอดภัยโดยมีเพียงเหตุขัดข้องเล็กน้อยระหว่างทาง เหตุขัดข้องที่จัดฉากขึ้นอย่างชัดเจนและอาจถึงแก่ชีวิตได้"
+ murder_outcome_reworked.0064.desc: "เรือของข้ากำลังแล่นอย่างสงบในยามอาทิตย์อัสดงเมื่อเสียงแตกดังลั่นและเสียงกรีดร้องอย่างบ้าคลั่งของกะลาสีดึงดูดความสนใจของข้า ในชั่วขณะหนึ่ง ข้าพบว่าตนเองถูกทหารยามคนหนึ่งดึงตัวออกไปขณะที่ส่วนหนึ่งของเสากระโดงเรือหล่นลงมาหยุดอยู่ตรงหน้าข้าพอดี\n\nความเสียหายต่อเรือนั้นมากพอสมควร แต่กัปตันมั่นใจว่าเราจะกลับไปยังท่าเรือที่ใกล้ที่สุดได้อย่างปลอดภัย และที่สำคัญที่สุด ไม่มีใครได้รับบาดเจ็บ"
+ 
+ # Poisoned Drink
+ murder_outcome_reworked.0071.desc: "ผู้สมรู้ร่วมคิดของข้าเข้าถึงสิ่งใดมิใช่แค่ถ้วยส่วนตัวของ [target.GetFirstNamePossessiveNoTooltip] ในอาหารค่ำมื้อสุดท้ายของ[target.GetHerHis]! โดยไม่มีใครสังเกต พวกเขาเทยาพิษร้ายแรงเพียงไม่กี่หยดลงในเครื่องดื่มของ[target.GetHerHis] [target.Custom2('InsultNoun', ROOT.Char)]ผู้น่าสงสารนั่นดื่มถ้วยทั้งใบในอึกเดียวและสิ้นใจก่อนที่จะทันรู้ตัวด้วยซ้ำว่าเกิดสิ่งใดขึ้น!"
+ murder_outcome_reworked.0073.desc: "ผู้สมรู้ร่วมคิดของข้าลอบนำถังยาพิษเข้าไปในครัวของ [target.GetFirstNamePossessiveNoTooltip] ได้สำเร็จ และเตรียมเสิร์ฟเครื่องดื่มที่ปนเปื้อนเต็มถ้วยให้[target.GetHerHim] ความคิดเรื่องถังนั่นเป็นความผิดพลาด\n\nก่อนที่[target.Custom2('InsultNoun', ROOT.Char)]นั่นจะทันได้ยกถ้วยขึ้นจรดริมฝีปากของ[target.GetHerHis] เหล่าคนรับใช้ก็พรวดพราดเข้ามาในห้อง ประกาศว่ามีคนอื่นที่ดื่มจากถังเดียวกันได้สิ้นใจตายทันที"
+ murder_outcome_reworked.0074.desc: "ข้ากำลังเพลิดเพลินกับอาหารค่ำในยามเย็น เช่นทุกวัน ถ้วยอันงดงามที่เต็มเปี่ยมวางอยู่ตรงหน้าข้า ช่างยั่วยวนใจยิ่งนัก ในที่สุดเมื่อข้ายื่นมือไปหามัน เหล่าคนรับใช้กลุ่มใหญ่ก็พรวดพราดเข้ามาในห้องพร้อมกรีดร้อง "[ROOT.Char.Custom('FormOfAddressForLiege')|U] หยุดก่อน! มันมียาพิษ! พวกเราคนหนึ่งดื่มจากถังเดียวกันและล้มลงสิ้นใจทันที!" มือของข้าหยุดค้างอยู่กลางอากาศ"
+ 
+ #################################################
+ # Outcomes — Children
+
+ # Left Child In Forest
+ murder_outcome_reworked.4001.desc: "[target.GetSheHe|U] ตื่นเต้นมากกับการเดินทางไปป่าของ [target.GetHerHis]! น่าเศร้าที่ทุกคนรู้ว่าป่าไม่ใช่สถานที่สำหรับเด็ก—เด็กเกินไป #EMP ไร้เดียงสา#! เกินไป—มันง่ายมากที่พวกเขาจะถูกพัดพาไปโดยความกระตือรือร้นของตนเองจนหลงทิศทาง หลงจากผู้ดูแล และหลงทางกลับบ้าน พวกเขาไม่เคยกลับมา เช่นเดียวกับ [target.GetFirstNameNoTooltip] ตัวน้อย ช่างเป็นโศกนาฏกรรม"
+ murder_outcome_reworked.4003.desc: "มันควรจะง่ายมาก! ป่าไม่ใช่สถานที่สำหรับเด็ก: มืด อันตราย เต็มไปด้วยหุบเหว พืชมีพิษ และสัตว์ร้ายกระหายเนื้อ! มันยากแค่ไหนสำหรับเด็กที่จะหลงทางและตาย?!\n\nเห็นได้ชัดว่ามันยากเกินไปสำหรับ [target.GetFirstNameNoTooltip] เพราะเจ้าเด็กเหลือขอนั่นมี #EMP ความกล้า#! ที่จะหาทางกลับบ้าน [target.GetHerHis] ได้อย่างปลอดภัย!"
+ 
+ # Infant Stabbed To Death
+ murder_outcome_reworked.4011.desc: "เด็กช่างเป็นสิ่งมีชีวิตที่เปราะบาง... ความเจ็บป่วยใดๆ ก็สามารถพรากพวกเขาไปจากครอบครัวได้ หรืออุบัติเหตุใดๆ! เช่นอุบัติเหตุที่เกี่ยวกับศีรษะเล็กๆ อันบอบบางและเข็มแหลมคม—ข้าไม่จำเป็นและไม่ต้องการได้ยินรายละเอียด ตราบใดที่งานสำเร็จลุล่วง ช่างน่าสยดสยอง ช่างเป็น #EMP ความอัปยศ#!."
+ murder_outcome_reworked.4013.desc: "ผู้คนมีความลังเลใจมากมายเมื่อเป็นเรื่องของเด็ก ผู้สมรู้ร่วมคิดของข้าทุกคนเห็นพ้องต้องกันว่า [target.GetFirstNameNoTooltip] ต้องไป พวกเขาได้รับค่าจ้างอย่างงาม เพื่อให้มันเกิดขึ้น แต่กระนั้นพวกเขากลับลังเลเพียงแค่เห็นทารกนอนหลับอย่างสงบ! มันง่ายมาก เพียงแค่แทงอย่างแรงตรงที่ศีรษะอ่อนที่สุด แล้วมันก็จะจบลง... ช่างเป็นโอกาสที่สูญเปล่า"
+ 
+ # Infant Bitten By Creepy Crawly
+ murder_outcome_reworked.4021.desc: "ผู้คนช่างแปลกประหลาด เป็นการยากที่จะหาคนที่เต็มใจจะลงมือกับทารก แต่การวาง [SCOPE.Custom('VenomousCreature')] ไว้ในเปลนั้น ดูเหมือนจะเป็นที่ยอมรับได้มากกว่ามาก ส่วน [SCOPE.Custom('VenomousCreatureType')] นั้น ก็ไม่มีความลังเลใจเป็นพิเศษ เช่นกันและโจมตีอย่างแม่นยำ ยาพิษออกฤทธิ์อย่างรวดเร็วและไร้ความปรานี"
+ murder_outcome_reworked.4023.desc: "[SCOPE.Custom('VenomousCreature')] ถูกส่งไปยังเตียงของ [target.GetFirstNamePossessiveNoTooltip] ตามแผน แต่ดูเหมือนว่าการเคลื่อนไหวของทารก ทำให้มันตกใจจนซ่อนตัวแทนที่จะโจมตี เจ้าสัตว์ไร้ประโยชน์ถูกพบในอีกหลายชั่วโมงต่อมาโดยคนรับใช้ ซ่อนตัวอยู่ใต้ตู้ ทารกที่น่าสาปแช่งนั่นไม่ได้รับอันตรายใดๆ"
+ murder_outcome_reworked.4024.desc: "เตียงนุ่มๆ ใต้ร่างข้าและผ้าห่มอุ่นๆ ที่คลุมตัวข้าคือทั้งหมดที่ข้าปรารถนา ข้าเกือบจะหมดสติเมื่อรู้สึกถึงความรู้สึกแปลกๆ อย่างคลุมเครือ ราวกับมีบางสิ่งกำลังเคลื่อนที่ขึ้นมาบนตัวข้า ข้าพลิกตัวไปด้านข้างอย่างรวดเร็วและความรู้สึกนั้นก็หายไป ข้าหลับไป\n\nต่อมา ข้าถูกปลุกให้ตื่นด้วยเสียงกรีดร้องแหลมสูงของคนรับใช้ ข้าไม่แน่ใจว่าเกิดอะไรขึ้น: ผู้ใหญ่จำนวนมากกำลังวิ่งวุ่น เสียงดังของพวกเขาดังก้อง และหลายคนชี้ไปที่บางสิ่งที่ข้ามองไม่เห็นใต้ตู้"
+ 
+ # Poisoned Candy
+ murder_outcome_reworked.4031.desc: "เด็กช่างหลอกง่ายเสียจริง! ข้าเพียงแค่ต้องปลอมตัวผู้สมรู้ร่วมคิดคนหนึ่งของข้าเป็นคนรับใช้ ให้เขานำเค้กที่ดูน่าอร่อยและมียาพิษอย่างแน่นอนไปให้ [target.GetFirstNameNoTooltip] และเจ้าโง่ตัวน้อยก็กลืนมันลงไปในคำใหญ่คำเดียว โดยไม่ถามอะไรเลย!\n\nบางทีเราควรเริ่มสอนเด็กๆ ไม่ให้รับขนมจากคนแปลกหน้า..."
+ murder_outcome_reworked.4033.desc: "สาปแช่งเด็กและความคาดเดาไม่ได้ของพวกเขา! มันควรจะง่ายมาก: ลอบนำขนมที่มียาพิษ แต่ต้านทานไม่ได้ไปให้ [target.GetFirstNameNoTooltip] และ [target.GetFirstNameNoTooltip] ก็ตาย เด็กประเภทไหนกันที่ตอบว่า \"ข้าไม่หิว\" เมื่อมีคนเสนอ #EMP ขนมหวาน?#! ให้!"
+ murder_outcome_reworked.4034.desc: "ข้ากำลังออกไปเล่น รู้สึกกระหายน้ำเล็กน้อย เมื่อคนรับใช้คนหนึ่งก็ปรากฏตัวขึ้นจากที่ไหนไม่รู้ เสนอ [ROOT.Char.Custom('FavoriteTreat')] ให้ข้า แต่ข้าไม่ต้องการ [ROOT.Char.Custom('FavoriteTreat')] ข้าอยากดื่มน้ำ! คนรับใช้โง่!\n\nข้าลืมเรื่องราวทั้งหมดเกี่ยวกับเหตุการณ์นั้นไปแล้วเมื่อคนรับใช้หลายคนเข้ามาหาข้าในอีกหลายชั่วโมงต่อมา แสดงความยินดีกับข้าที่ฉลาดและกล้าหาญมาก และขัดขวางแผนการชั่วร้ายบางอย่างหรืออะไรทำนองนั้น ช่างมันเถอะ แต่ตอนนี้ข้าอยากได้ [ROOT.Char.Custom('FavoriteTreat')] แล้วนะ!"
+ 
+ # Child Pushed To Death
+ murder_outcome_reworked.4041.desc: "ทุกสิ่งย่อมร่วงหล่นในที่สุด: อาณาจักร, [ROOT.Char.Custom('LadiesLords')], #EMP เด็กที่ถูกผลักจากที่สูง#!...\n\nช่างเป็นโศกนาฏกรรมที่หลีกเลี่ยงไม่ได้"
+ murder_outcome_reworked.4043.desc: "ขณะที่สายลับของข้าผลัก [target.GetHerHim] ตกขอบไป เสื้อผ้าของ [target.GetHerHis] เกี่ยวเข้ากับส่วนที่ยื่นออกมาของกำแพงด้านล่างพอดี มันยึด [target.GetHerHim] ไว้นานพอที่ความช่วยเหลือจะมาถึงเพื่อช่วยทั้งเด็กและ"
+ 
+ #################################################
+ # Outcomes — Prison
+
+ # Beaten To Death In Prison
+ murder_outcome_reworked.7001.desc: "ความแน่นอนอย่างหนึ่งของชีวิตคือผู้คุมขังสนใจเพียงว่าใครได้รับอนุญาตให้ออกจากคุกของตน และแทบไม่สนใจว่าใครเข้ามาหรือเกิดอะไรขึ้นกับพวกเขา\n\nเมื่อผู้สมรู้ร่วมคิดของข้าเสนอสินบนจำนวนงามให้พวกเขาเพื่อขออนุญาตเยี่ยม #EMP สหายรัก#! [target.GetFirstNameNoTooltip] พวกเขาก็กระตือรือร้นที่จะยอมรับมากเกินไป การทำหูทวนลมต่อเสียงกรีดร้องและเสียงกระดูกแตกเป็นเพียงส่วนหนึ่งของบริการ"
+ murder_outcome_reworked.7003.desc: "$murder_outcome_reworked.7001.desc$ แล้วทำไมพวกเขาต้องเข้ามาแทรกแซงก่อนที่งานจะเสร็จสิ้นด้วยล่ะ?!"
+ murder_outcome_reworked.7004.desc: "$murder_outcome.5001.beat_to_death_in_dungeon$ จากนั้น ผู้คุมขังประจำของข้าก็พังเข้ามา และการทุบตีก็หยุดลง"
+ 
+ # Unwelcome Guest - House Arrest
+ murder_outcome_reworked.7011.desc: "นักโทษที่ถูกกักบริเวณในบ้านควรได้รับการจับตามองอย่างใกล้ชิด; ดังนั้น การลอบส่งสายลับคนหนึ่งของข้าเข้าไปในบ้านของ [target.GetFirstNamePossessiveNoTooltip] โดยอ้างว่ามาเยี่ยมสหายเก่าจึงเป็นความอัจฉริยะอย่างแท้จริง หากข้าจะกล่าว เช่นนั้นเอง! ผู้สมรู้ร่วมคิดของข้าเข้าและออกไปก่อนที่ทหารยามจะรู้ตัวว่ามีบางอย่างผิดปกติ"
+ murder_outcome_reworked.7012.desc: "ทหารยามของข้าได้แนะนำร่างคลุมฮู้ดที่ไม่คุ้นเคยเข้ามาในห้องของข้าว่าเป็นสหายเก่าของข้า ข้ากำลังจะคัดค้านว่าต้องมีการเข้าใจผิดแน่ๆ เพราะข้าไม่รู้จักบุคคลนี้อย่างชัดเจน เมื่อกริชวาววับปรากฏออกมาจากกระเป๋าที่ซ่อนอยู่ #EMP โอ้.#! เป็นสหายเก่า #EMP ประเภทนั้น#! นี่เอง\n\nข้าไม่มีเวลาตอบสนองขณะที่กริชพุ่งเข้าใส่ข้าเร็วกว่าลูกธนู และข้าก็ล้มลงกับพื้นโดยไม่มีเสียงใดๆ"
+ murder_outcome_reworked.7013.desc: "นักโทษที่ถูกกักบริเวณในบ้านควรได้รับการจับตามองอย่างใกล้ชิด; ดังนั้น การลอบส่งสายลับคนหนึ่งของข้าเข้าไปในบ้านของ [target.GetFirstNamePossessiveNoTooltip] โดยอ้างว่ามาเยี่ยมสหายเก่าควรจะเป็นความอัจฉริยะอย่างแท้จริง! น่าเศร้าที่ทหารยามไม่เชื่อเรื่องราวของผู้สมรู้ร่วมคิดของข้าจริงๆ และรออยู่ด้านนอกห้อง พร้อมที่จะเข้าแทรกแซงในกรณีที่มีธุรกิจน่าสงสัยใดๆ เห็นได้ชัดว่า การพยายามฆ่า #EMP นับ#! ว่าเป็น #EMP ธุรกิจน่าสงสัย#!."
+
+ #################################################
+ # Outcomes — Special/Other
+ 
+ # Strangling Incapable
+ murder_outcome_reworked.8001.desc: "วันแห่งความรุ่งโรจน์ของ [target.GetFirstNamePossessiveNoTooltip] ได้ผ่านพ้น [target.GetHerHim] ไปนานแล้ว แต่ [target.GetSheHe] ก็ยังยึดติดกับชีวิตไว้นานเหลือเกิน อย่างสิ้นหวังเหลือเกิน อย่าง #EMP ไร้ประโยชน์#! เหลือเกิน... ข้าเชื่อว่าสิ่งที่สายลับของข้าทำนั้นไม่ใช่อะไรอื่นนอกจากการกระทำด้วยความเมตตา [target.GetFirstNameNoTooltip] เป็นเพียงเปลือกที่ว่างเปล่า นั่นถือเป็นการฆาตกรรมจริงๆ หรือ?"
+ murder_outcome_reworked.8003.desc: "มันน่าโมโหมากที่สายลับคนหนึ่งจะไร้ความสามารถอย่างร้ายกาจได้ถึงเพียงนี้ มันจะยากแค่ไหนกันที่จะรัดคอคนที่เปราะบาง ซึ่งจิตใจไม่อยู่กับเนื้อกับตัวแล้วและแทบจะไม่มีชีวิตอยู่เลย?! แต่กระนั้น ข้าก็พบ แต่ความล้มเหลว"

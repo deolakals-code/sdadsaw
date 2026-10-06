@@ -1,0 +1,38 @@
+﻿l_english: 
+ # Decision Menu Localization
+ pay_homage_decision:0 "ถวายบังคม"
+ pay_homage_decision_desc:0 "ข้าพเจ้าสามารถถวายสัตย์ปฏิญาณต่อเจ้าเหนือหัวของข้าพเจ้าอย่างเป็นทางการและเปิดเผย เพื่อเสริมสร้างความไว้วางใจและความชอบธรรมของตำแหน่งของเราทั้งสอง"
+ pay_homage_decision_tooltip:0 "ถวาย [pay_homage|E] อย่างเป็นทางการต่อ [liege|E] ของท่าน"
+ pay_homage_decision_effects:0 "ท่านเดินทางไปยังราชสำนักของ [THIS.Char.GetLiege.GetTitledFirstNamePossessive] เพื่อถวายบังคม"
+ pay_homage_decision_confirm:0 "$pay_homage_decision$"
+ pay_homage_decision_second_tooltip:0 "$DESC$\n$pay_homage_grace_tt$"
+ pay_homage_grace_tt:0 "#weak ท่านสามารถถวายบังคมต่อเจ้าเหนือหัวคนเดิมได้เพียงครั้งเดียวเท่านั้น#!"
+ pay_homage_gift_warning_effect:0 "#weak ของกำนัลเพิ่มรางวัลจากการถวายบังคม#!\n$pay_homage_grace_tt$"
+ pay_homage_grace_valid_tt:0 "ยังไม่เคยถวาย [pay_homage|E] ต่อ [THIS.Char.GetLiege.GetTitledFirstName] มาก่อน"
+ PAY_HOMAGE_DECISION_NEXT_STEP_BUTTON:0 "เลือกของกำนัลถวายบังคม"
+ petition_available_adult_tt:0 "เป็นผู้ใหญ่ที่ว่างอยู่"
+ petition_available_liege_tt:0 "[THIS.Char.GetLiege.GetTitledFirstName] เป็นผู้ใหญ่ที่ว่างอยู่"
+ # Submission
+ pay_homage_decision_option_submission:0 "แสดงความนอบน้อม\n#low ไม่มอบสิ่งใด#!"
+ pay_homage_submission_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] จะได้รับเพียงคำสัตย์ปฏิญาณ [pay_homage|E] ของท่านเท่านั้น"
+ pay_homage_submission_tooltip:0 "$pay_homage_decision_second_tooltip$"
+ # Gold
+ pay_homage_decision_option_gold:0 "...และมอบของกำนัล\n#low มอบ [gold|E]#!"
+ pay_homage_gold_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] จะได้รับของกำนัลเป็น [gold|E] จากท่าน"
+ pay_homage_gold_tooltip:0 "$pay_homage_decision_second_tooltip$"
+ pay_homage_decision_effects_gold:0 "[liege|E] ของท่านจะได้รับของกำนัลเป็น [gold|E] ของท่าน"
+ pay_homage_gold_tt:0 "#X ท่านมี [gold|E] ไม่เพียงพอ#!"
+ # Hook
+ pay_homage_decision_option_hook:0 "...และสัญญาบุญคุณ\n#low มอบ [hook|E]#!"
+ pay_homage_hook_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] จะได้รับ [hook|E] อ่อนๆ ต่อท่าน"
+ pay_homage_hook_tooltip:0 "$pay_homage_decision_second_tooltip$"
+ pay_homage_decision_effects_hook:0 "[liege|E] ของท่านจะได้รับ [hook|E] ที่แข็งแกร่งต่อท่าน"
+ pay_homage_hook_tt:0 "#X [liege|E] ของท่านมี [hook|E] ต่อท่านอยู่แล้ว#!"
+ # Contract
+ pay_homage_decision_option_contract:0 "...และเพิ่มภาระผูกพัน\n#low มอบภาระผูกพันตาม [vassal_contract|E]#!"
+ pay_homage_contract_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName] จะได้รับภาษีหรือกำลังพลมากขึ้นจาก [vassal_contract|E]"
+ pay_homage_contract_tooltip:0 "$pay_homage_decision_second_tooltip$"
+ pay_homage_decision_effects_contract_gold:0 "[liege|E] ของท่านจะได้รับ [taxes|E] มากขึ้นจากท่าน"
+ pay_homage_decision_effects_contract_levies:0 "[liege|E] ของท่านจะได้รับ [levies|E] มากขึ้นจากท่าน"
+ pay_homage_contract_modifiable_tt:0 "#X [vassal_contract|E] ของท่านเพิ่งถูกเปลี่ยนแปลงไปไม่นาน#!"
+ pay_homage_contract_increasable_tt:0 "#X [taxes|E] และ [levies|E] ของท่านไม่สามารถเพิ่มได้#!"

@@ -1,0 +1,357 @@
+﻿l_english: 
+ tgp_child_personality.0002.t: "ภาวะตกยาก"
+ tgp_child_personality.0002.guardian: "เมื่อกลับจากการไปข้างนอกกับ [guardian.GetTitledFirstName] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guardian'))] ของข้า ข้าเห็นชายผู้หนึ่งท่าทางตื่นกลัว สวมอาภรณ์ที่เสื่อมสภาพอย่างน่าตกใจจนแทบไม่ต่างอันใดกับผ้าขี้ริ้ว\n\nดวงตาของเขาลึกโหลด้วยความอ่อนล้าและใบหน้าซูบผอมจากความขัดสน ชายผู้นั้นกำลังอ้อนวอนขอน้ำจากผู้คนที่เดินผ่านไปมาอย่างสิ้นหวัง เมื่อเหลือบมาเห็นพวกเรา เขาก็ถลาเข้ามาหาข้า ยื่นมือทั้งสองออกมาร้องขอความช่วยเหลือ"
+ tgp_child_personality.0002.no_guardian: "เมื่อกลับจากการไปข้างนอก ข้าเห็นชายผู้หนึ่งท่าทางตื่นกลัว สวมอาภรณ์ที่เสื่อมสภาพอย่างน่าตกใจจนแทบไม่ต่างอันใดกับผ้าขี้ริ้ว\n\nดวงตาของเขาลึกโหลด้วยความอ่อนล้าและใบหน้าซูบผอมจากความขัดสน ชายผู้นั้นกำลังอ้อนวอนขอน้ำจากผู้คนที่เดินผ่านไปมาอย่างสิ้นหวัง เมื่อเหลือบมาเห็นพวกเรา เขาก็ถลาเข้ามาหาข้า ยื่นมือทั้งสองออกมาร้องขอความช่วยเหลือ"
+ tgp_child_personality.0002.a: "บังอาจนักที่มันกล้าเพ่งมองมายังพวกเรา!"
+ tgp_child_personality.0002.b: "พวกเราพอจะแบ่งน้ำให้ชายผู้น่าสงสารนั่นได้หรือไม่?"
+ tgp_child_personality.0002.c: "น้ำรึ? ให้มันกินโคลนสักกำมือนี่ไปสิ!"
+
+ # deceitful, honest or humble
+ tgp_child_personality.0003.t: "เกียรติยศที่ไม่คู่ควร"
+ tgp_child_personality.0003.desc: "[guardian.GetFullName] กำลังกล่าวชื่นชมความก้าวหน้าในการทำความเข้าใจ [ROOT.Char.GetFaith.ReligiousText] ของข้าอย่างภาคภูมิใจต่อหน้าผู้ติดตามหลายคนของ [guardian.GetHerHis] พรรณนาถึงบทแล้วบทเล่าที่ข้าท่องจำได้ — รวมถึงหลายบทที่ข้าแน่ใจว่ายังจำไม่ได้ด้วยซ้ำ!\n\nข้ารู้สึกร้อนผ่าวที่ใบหน้าภายใต้สายตาที่ชื่นชมยินดีของพวกเขา ความรู้สึกผิดและความพึงพอใจกำลังต่อสู้ยื้อแย่งกันในมโนธรรมของข้า"
+ tgp_child_personality.0003.a: "หากข้าแก้ไขคำพูดของ [guardian.GetHerHim] พวกเขาก็คงจะไม่ยินดีอีกต่อไป" # deceitful
+ tgp_child_personality.0003.b: "การซื่อสัตย์ต่อความจริงสำคัญกว่าการได้รับคำสรรเสริญ" # honest
+ tgp_child_personality.0003.c: "ข้าควรจะไปทูลแก้ [guardian.GetHerHim] เป็นการส่วนตัวเพื่อรักษาหน้าของ [guardian.GetHerHim]" # humble
+
+ # generous, diligent or patient
+ tgp_child_personality.0004.t: "บทเรียนที่ขาดหาย"
+ tgp_child_personality.0004.desc: "ชั่วโมงเรียนประจำวันของข้าล่วงเลยไปแล้ว และชั่วโมงถัดมาก็ เช่นกัน แต่ก็ยังไร้วี่แววของ [guardian.GetFullName]\n\nเมื่อแอบมองออกไปนอกหน้าต่าง ข้าเห็นเหล่าคนรับใช้กำลังวิ่งวุ่นทำงานกันอย่างแข็งขัน ในขณะที่การรอคอยอยู่ในนี้ช่างน่าเบื่อหน่ายยิ่งนัก"
+ tgp_child_personality.0004.a: "บางทีพวกเขาอาจต้องการความช่วยเหลือจากข้าแทนก็ได้!" # generous
+ tgp_child_personality.0004.b: "ข้าสามารถทบทวนบทเรียนไปพลางๆ จนกว่า [guardian.GetSheHe] จะมาถึง!" # diligent
+ tgp_child_personality.0004.c: "เดี๋ยว [guardian.GetSheHe|U] ก็คงมาในที่สุด ข้าควรจะอดทนรอ" # patient
+
+ # just, cynical or temperate
+ tgp_child_personality.0007.t: "ส่วนแบ่งที่ไม่เท่าเทียม"
+ tgp_child_personality.0007.desc: "หลังจากแอบย่องเข้าไปในเขตที่พักของคนรับใช้โดยไม่มีใครสังเกตเพื่อดูว่าพวกเขาทำอะไรกัน ข้าก็อดสังเกตไม่ได้ว่าส่วนแบ่งอาหารที่จัดสรรให้แก่พวกอาวุโสในหมู่พวกเขา ดูเหมือนจะมากกว่าส่วนที่แจกจ่ายให้แก่ผู้น้อยอยู่เสมอ\n\nความเหลื่อมล้ำนี้เห็นได้ชัดเจน แต่เหล่าคนรับใช้ทุกคนก็ดูเหมือนจะยอมรับมันราวกับเป็นสิ่งที่พึงได้รับ โดยปราศจากคำบ่นว่า"
+ tgp_child_personality.0007.a: "นี่มันไม่ยุติธรรมอย่างโจ่งแจ้ง!" # just
+ tgp_child_personality.0007.b: "ชีวิตนี้ยากนักที่จะยุติธรรมสำหรับผู้ต่ำต้อย" # cynical
+ tgp_child_personality.0007.c: "บางทีพวกเราทุกคนควรจะรู้จักประมาณตนในมื้ออาหารของเรา" # temperate
+
+ # brave, calm or zealous
+ tgp_child_personality.0009.t: "เสียงในยามวิกาล"
+ tgp_child_personality.0009.desc: "ข้าสะดุ้งตื่นในยามขาล เมื่อได้ยินเสียงสั่นและเสียงกรอบแกรบดังมาจากความมืดนอกหน้าต่างห้องนอนของข้า\n\nมีบางอย่างอยู่ข้างนอกนั่น และมันกำลังเคลื่อนไหว!\n\nในหัวของข้าคิดถึงความเป็นไปได้ต่างๆ นานา ซึ่ง แต่ละอย่างก็ดูชั่วร้ายและน่าสะพรึงกลัวยิ่งกว่าเดิม"
+ tgp_child_personality.0009.a: "หากมันคืออสูรกาย ข้าจะสังหารมันเสีย!" # Brave
+ tgp_child_personality.0009.b: "ก็คงเป็นแค่หนึ่งในพวกคนรับใช้เท่านั้น" # Calm
+ tgp_child_personality.0009.c: "[ROOT.Char.GetFaith.ReligiousText] กล่าวว่าอย่างไรนะเกี่ยวกับความกลัว?" # Zealous
+
+ # ambitious, sadistic or paranoid
+ tgp_child_personality.0010.t: "ภาระแห่งความคาดหวัง"
+ tgp_child_personality.0010.desc: "มันเป็นคำพูดซ้ำๆ ซากๆ ทุกบทเรียน ทุกเวลา — มันมักจะเป็น "[guardian.GetTitledFirstName] เรียนรู้สิ่งนี้โดยใช้เวลาเพียงครึ่งเดียวในวัยเยาว์ของ [guardian.GetHerHis]!" หรือ "เจ้าควรหวังที่จะเก่งให้ได้เท่า [guardian.GetTitledFirstName] เมื่อเจ้าโตขึ้น"\n\nทุกสิ่งที่ข้าทำ ไม่ว่าจะดีเพียงใด ก็มักจะถูกนำไปเปรียบเทียบกับความสำเร็จของผู้อื่นอยู่เสมอ"
+ tgp_child_personality.0010.a: "ข้า #EMP จะ#! ก้าวข้าม [guardian.GetHerHim] ให้จงได้!" # Ambitious
+ tgp_child_personality.0010.b: "สักวันหนึ่ง ข้าจะเป็นฝ่ายทำให้ผู้อื่นรู้สึกต่ำต้อยดูบ้าง" # Sadistic
+ tgp_child_personality.0010.c: "พวกเขา #EMP อยาก#! ให้ข้าประสบความสำเร็จจริงๆ หรือ?" # Paranoid
+
+ # diligent, gregarious, temperate
+ tgp_child_personality.7000.t: "ตารางเวลาที่ว่างเว้น"
+ tgp_child_personality.7000.desc: "ข้ากำลังรอให้บทเรียนคัดอักษรเริ่มขึ้น เมื่อ [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('guardian'))] ก้าวเข้ามาในห้องด้วยท่าทีสุขุมและสีหน้าที่ยากจะหยั่งถึง\n\n"มีธุระบางอย่างเข้ามา เราคงต้องยกเลิกบทเรียนของวันนี้" [guardian.GetSheHe] กล่าวอย่างหนักแน่น "เจ้าอยากจะทำสิ่งใดแทนหรือไม่?"\n\nสีหน้าที่เต็มไปด้วยความคาดหวังบนใบหน้าของ [guardian.GetHerHis] บ่งบอกว่านี่เป็นคำถามประเภทที่อาจมีคำตอบที่ผิด"
+ tgp_child_personality.7000.a: "ข้าจะใช้โอกาสนี้ทบทวนบทเรียนให้มากขึ้น!" # Diligent
+ tgp_child_personality.7000.b: "ข้าไปหาเพื่อนๆ ของข้าได้หรือไม่?" # Gregarious
+ tgp_child_personality.7000.c: "ข้าควรจะพักผ่อนและใช้เวลาในวันนี้อย่างเงียบสงบ" # Temperate
+ 
+ # eccentric, compassionate, callous
+ tgp_child_personality.7300.t: "ปีกที่หักสลาย"
+ tgp_child_personality.7300.desc: "ขณะที่เดินผ่านลานบ้าน ข้าได้ยินเสียงกรอบแกรบแผ่วเบาจากใต้พุ่มไม้พุ่มหนึ่ง เมื่อใช้กิ่งไม้หักๆ เขี่ยใบไม้ออก ข้าก็เห็นนกตัวเล็กๆ ตัวหนึ่งกำลังกระโดดไปมา โดยมีปีกข้างหนึ่งบิดผิดรูปอย่างชัดเจน"
+ tgp_child_personality.7300.a: "ถ้าข้าเลี้ยงมันไว้ ข้าอาจจะเรียนรู้ที่จะพูดภาษานกได้!" # Eccentric
+ tgp_child_personality.7300.b: "ข้าควรจะให้คนรับใช้มาดูแลมัน" # Compassionate
+ tgp_child_personality.7300.c: "ใครจะไปสนใจนกโง่ๆ กัน?" # Callous
+
+ # zealous, ambitious, sadistic
+ tgp_child_personality.7010.t: "ถ้อยคำที่บิดเบือน"
+ tgp_child_personality.7010.desc: "ข้ากำลังจะเข้าไปในห้องโถงเพื่อคารวะทักทายประจำวัน เมื่อข้าได้ยินเสียงคนคุยกันอยู่ข้างใน\n\nขณะที่มือของข้าลังเลอยู่หน้าประตู ข้าได้ยินเสียงหนึ่งอ้างถึงคำกล่าวจาก [ROOT.Char.GetFaith.ReligiousText] — ซึ่งเป็นส่วนที่ข้าเคยได้รับคำชมว่าเข้าใจในความลึกซึ้งของมัน — แต่บัดนี้ข้ากลับได้ยินมันถูกนำไปใช้อย่างผิดมหันต์จนข้าแทบไม่เชื่อหูตัวเอง"
+ tgp_child_personality.7010.a: "พวกเขาเข้าใจ [ROOT.Char.GetFaith.ReligiousText] #EMP ผิด#!! ไปได้อย่างไร?" # Zealous
+ tgp_child_personality.7010.b: "หากพวกผู้ใหญ่โง่เขลาถึงเพียงนี้ ชีวิตข้าคงไปได้ไกล" # Ambitious
+ tgp_child_personality.7010.c: "ข้าแทบรอไม่ไหวที่จะได้เห็นความโง่เขลานี้ถูกเปิดโปง!" # Sadistic
+ 
+ #shy, paranoid, craven
+ tgp_child_personality.7020.t: "เจตนาที่มิอาจหยั่งรู้"
+ tgp_child_personality.7020.desc: "ขณะเดินผ่านใกล้ทางเข้าบ้าน ข้าได้ยินเสียงที่ไม่คุ้นหู และเมื่อแอบชะโงกมองไปรอบๆ มุม ก็เผยให้เห็นใบหน้าที่ไม่คุ้นเคยอยู่ข้างนอก\n\nหนึ่งในนั้นหันมาสบตากับข้า และเขาเริ่มเดินตรงมาหาข้า ชีพจรของข้าเต้นเร็วขึ้น ข้ารีบหลบกลับไปให้พ้นสายตาทันที"
+ tgp_child_personality.7020.a: "ข้าไม่ชอบคนแปลกหน้า: ได้เวลาไปแล้ว!" # Shy
+ tgp_child_personality.7020.b: "แววตาของพวกเขาบ่งบอกว่าไว้ใจไม่ได้" # Paranoid
+ tgp_child_personality.7020.c: "ถ้าหากพวกเขามีอาวุธเล่า? พวกเขาอาจทำร้ายเราได้!" # Craven
+
+ # just, greedy, callous
+ tgp_child_personality.7050.t: "ของหายและของที่พบ"
+ tgp_child_personality.7050.desc: "ข้ากำลังมองหาหนังสือเล่มหนึ่งของข้า ทันใดนั้นประกายของบางสิ่งที่แวววาว เป็นโลหะ และน่าสนใจใต้โต๊ะก็สะดุดตาข้า\n\nมันดูเหมือนกล่องไม้เคลือบเงาใบเล็ก และข้าคิดว่าข้าเคยเห็นกล่องที่เหมือนกันนี้ในห้องหนังสือใหญ่ คงมีคนโกรธมากแน่ๆ ถ้าพวกเขารู้ว่าคนรับใช้ทำมันหาย!"
+ tgp_child_personality.7050.a: "ข้าจะนำมันไปคืน เพื่อที่พวกเขาจะได้ไม่เดือดร้อน!" # Just
+ tgp_child_personality.7050.b: "ถ้าข้าซ่อนมันไว้ มันจะกลายเป็นสมบัติลับของข้า!" # Greedy
+ tgp_child_personality.7050.c: "พวกเขาจะต้องทนทุกข์เพราะเรื่องนี้ และก็สมควรแล้ว" # Callous
+
+ # brave, stubborn, wrathful
+ tgp_child_personality.7200.t: "ความมุ่งมั่นไม่ลดละ"
+ tgp_child_personality.7200.desc: "คนรับใช้ขี้ลืม ประตูที่แง้มไว้เล็กน้อย และข้าก็ได้ออกมาข้างนอก! ข้าแทบไม่มีโอกาสได้ชื่นชมอิสรภาพที่เพิ่งค้นพบ เมื่อเสียงคำรามต่ำ ทำให้ข้าต้องหยุดชะงัก\n\nข้าค่อยๆ หันไปทางขวา สบตากับสุนัขตัวใหญ่เกือบเท่าข้า ซึ่งข้าไม่เคยเห็นในบ้านของเรามาก่อน\n\nข้างหลังข้า ข้าได้ยินเสียงคนรับใช้ตะโกน "วิ่งเร็วเข้า เด็กน้อย! กลับเข้ามาข้างใน เร็วเข้า!""
+ tgp_child_personality.7200.a: "ข้าจะไม่วิ่ง - ข้าไม่ใช่คนขี้ขลาด!" # Brave
+ tgp_child_personality.7200.b: "ถ้ามันไม่หลีกทาง ข้าก็จะไม่หลีกเหมือนกัน!" # Stubborn
+ tgp_child_personality.7200.c: "แค่สุนัขพันทางกล้าแยกเขี้ยวใส่ #EMP ข้า#!! รึ?" # Wrathful
+
+ # vengeful, deceitful, calm
+ tgp_child_personality.7070.t: "ถ้อยคำรุนแรง"
+ tgp_child_personality.7070.desc: ""ไร้ความสามารถ!"\n\nคำพูดดังกึกก้องของ [guardian.GetNamePossessive] สะท้อนไปทั่วทั้งบ้าน\n\n"เจ้าปัญญาอ่อนไร้ประโยชน์!" เมื่อแง้มประตูห้องของ [guardian.GetHerHis] ออกเพียงเล็กน้อย ข้าเห็นคนรับใช้คนหนึ่งกำลังหมอบกราบอยู่เบื้องหน้า [guardian.GetHerHim] ตัวสั่นเทาต่อหน้าโทสะจนหน้าแดงก่ำของ [guardian.GetHerHis]\n\nข้าไม่รู้ว่าเกิดอะไรขึ้น แต่มันสมควรที่จะถูกด่าทอถึงเพียงนี้เชียวหรือ?"
+ tgp_child_personality.7070.a: "หากนั่นเป็นข้า ข้าจะไม่ยอมหยุดพักจนกว่าจะได้ชำระความอัปยศนี้!" # Vengeful
+ tgp_child_personality.7070.b: "หาก [servant.GetSheHe] เพียงแค่โกหก [servant.GetSheHe] ก็คงไม่เดือดร้อน" # Deceitful
+ tgp_child_personality.7070.c: "พวกผู้ใหญ่ดูน่าเกลียดยามที่พวกเขาโกรธ" # Calm
+
+ # lustful, chaste
+ tgp_child_personality.7040.t: "การค้นพบที่ไม่คาดคิด"
+ tgp_child_personality.7040.desc: "ขณะที่กำลังค้นหาหนังสือที่ข้าถูกขอให้ไปหยิบมาบนชั้นหนังสือ การปัดเบาๆ ทำให้เล่มหนึ่งร่วงลงมาที่พื้น หน้ากระดาษของมันกางออก\n\nข้าคุกเข่าลงเพื่อเก็บมัน และข้าก็อดไม่ได้ที่จะตะลึงกับภาพวาดอันชัดเจนของร่างผู้คน — ชายและหญิง? — กำลังกอดรัดและพันเกลียวกันในท่าทางที่หลากหลายมากขึ้นเรื่อยๆ\n\nมันดูอึดอัด แต่ก็น่า...สนใจ?"
+ tgp_child_personality.7040.a: "มันเปิดอยู่แล้วนี่ คงไม่เสียหายอะไรถ้าจะดูสักหน่อย" # Lustful
+ tgp_child_personality.7040.b: "ข้ารู้สึกว่าข้าไม่ควรจะมาเห็นสิ่งนี้" # Chaste
+
+ # generous, fickle, arrogant
+ tgp_child_personality.7080.t: "ความอุดมสมบูรณ์อันโอชะ"
+ tgp_child_personality.7080.desc: "พักนี้ไม่ว่าข้าไปที่ไหน ผู้คนก็อยากจะให้ขนมข้า แขนเสื้อของข้าแทบจะล้นไปด้วยของว่างแสนอร่อยมากมาย จนข้าเกือบจะรู้สึกผิดต่อความอุดมสมบูรณ์นี้\n\nขณะที่ข้าหยิบอีกชิ้นเข้าปาก ข้าเห็น [greedy_child.Custom('GirlBoy')] คนรับใช้คนหนึ่งกำลังจ้องมองสมบัติที่กินได้ของข้าด้วยความอิจฉาอย่างไม่ปิดบัง"
+ tgp_child_personality.7080.a: "มานี่สิ มากินขนมพวกนี้หน่อย!"
+ tgp_child_personality.7080.b: "บางทีข้าอาจจะไม่ได้รู้สึกผิดเลยก็ได้"
+ tgp_child_personality.7080.c: "นี่เป็นของข้า เพราะข้าสมควรได้รับ [greedy_child.GetSheHe|U] ไปหาของ [greedy_child.GetHerHis] เองสิ"
+
+ # lazy, gluttonous, compassionate
+ tgp_child_personality.7030.t: "ภาระหนักอึ้ง"
+ tgp_child_personality.7030.desc: "เสียงครวญครางอย่างหนักหน่วงที่ดังขึ้นเป็นระยะนำข้าไปตามโถงทางเดิน สู่ภาพของ[clumsy_servant.GetWomenMen]รับใช้คนหนึ่งของเรากำลังเดินโซเซอย่างไม่มั่นคงภายใต้น้ำหนักของจานอาหารหลายใบที่วางซ้อนกันอย่างหมิ่นเหม่ แขนสั่นเทาอย่างเห็นได้ชัดภายใต้ภาระของ [clumsy_servant.GetHerHis]\n\nดูเหมือนว่าอีกไม่นาน และคงไม่นานนัก หายนะอันเละเทะก็คงจะบังเกิด"
+ tgp_child_personality.7030.a: "แค่ได้มอง [clumsy_servant.GetHerHim] ก็ทำให้ข้ารู้สึกเหนื่อยแล้ว" # Lazy
+ tgp_child_personality.7030.b: "ข้าจะช่วยถือ — เพื่อแลกกับการขอชิม!" # Gluttonous
+ tgp_child_personality.7030.c: "ข้าควรจะช่วย [clumsy_servant.GetHerHim] ก่อนที่ [clumsy_servant.GetSheHe] จะทำอะไรหล่น" # Compassionate
+
+ # forgiving, trusting, patient
+ tgp_child_personality.7090.t: "ความผิดพลาดโดยสุจริต"
+ tgp_child_personality.7090.desc: "ข้ากำลังค้นหาม้วนภาพวาดโปรดของข้าในห้อง เมื่อข้าเห็นคนรับใช้คนหนึ่งถือมันเข้ามาในห้อง\n\n"อยู่นี่เอง!" ข้าร้องอุทาน พลางเอื้อมมือไปคว้ามัน ก่อนจะหยุดชะงักเมื่อคนรับใช้คนนั้นทรุดเข่าลงต่อหน้าข้าและหมอบกราบ [sorry_servant.GetHerselfHimself]\n\n"มันเป็นอุบัติเหตุ [ROOT.Char.Custom('MistressMaster')]น้อย ข้าสาบาน!"\n\nเมื่อตรวจสอบใกล้ๆ ข้าก็เห็นว่าม้วนภาพนั้นขาดวิ่นอย่างหนัก เกือบจะขาดเป็นสองท่อน!"
+ tgp_child_personality.7090.a: "มันเป็นอุบัติเหตุ ข้าไม่โกรธ" # Forgiving
+ tgp_child_personality.7090.b: "ข้ารู้ว่าเจ้าไม่ได้ตั้งใจ: ข้าเชื่อใจเจ้า" # Trusting
+ tgp_child_personality.7090.c: "เราแค่สั่งสำเนาใหม่ก็ได้: มันรอได้" # Patient
+
+ # humble, cynical, content
+ tgp_child_personality.7060.t: "คำสรรเสริญเยินยอ"
+ tgp_child_personality.7060.desc: "ดูเหมือนว่าคนรับใช้คนหนึ่งตั้งอกตั้งใจที่จะสรรเสริญทุกสิ่งที่ข้าทำในช่วงนี้ให้ใครก็ตามที่ยอมฟัง ไม่ว่าสิ่งที่ทำนั้นจะเล็กน้อยเพียงใดก็ตาม\n\nการได้รับคำชมก็รู้สึกดีอยู่หรอก แต่ข้าเริ่มสงสัยแล้วว่าบางสิ่งมันคุ้มค่ากับความเอิกเกริกที่ [sycophantic_servant.GetSheHe] กำลังทำอยู่หรือไม่..."
+ tgp_child_personality.7060.a: "ข้ายังมีอะไรต้องเรียนรู้อีกมาก" # Humble
+ tgp_child_personality.7060.b: "[sycophantic_servant.GetSheHe] ทำเช่นนี้เพียงเพื่อให้ข้าชอบ [sycophantic_servant.GetHerHim] หรือไม่?" # Cynical
+ tgp_child_personality.7060.c: "ข้าควรจะยินดีที่ข้ากำลังได้รับคำชม" # Content
+
+ # honest, arbitrary, impatient
+ tgp_child_personality.7100.t: "การซักถามไม่หยุดหย่อน"
+ tgp_child_personality.7100.desc: "ข้ารู้สึกเหมือนทุกวันคือการสอบที่ข้าหนีไม่พ้น — [guardian.GetName] ทดสอบข้าด้วยคำถามต่างๆ ตลอดเวลา ตั้งแต่เรื่องแปลกประหลาดไปจนถึงเรื่องธรรมดาสามัญ\n\nข้าหวังว่า [guardian.GetSheHe] จะปล่อยข้าไว้ตามลำพังบ้าง แต่ข้าอาจถูกลงโทษหากข้าบ่น..."
+ tgp_child_personality.7100.a: "ข้าเหนื่อยกับคำถามเหล่านี้แล้ว เราหยุดกันก่อนได้หรือไม่?" # Honest
+ tgp_child_personality.7100.b: "ถ้าข้าตอบสุ่มๆ ไป บางที [guardian.GetSheHe] อาจจะปล่อยข้าไป" # Arbitrary
+ tgp_child_personality.7100.c: "นี่มันช่างเสียเวลาเสียจริง ข้าไปทำอย่างอื่นได้อีกตั้งเยอะ" # Impatient
+
+ tgp_child_personality.1021.t: "ภาวะตกยาก"
+ tgp_child_personality.102.desc: "เมื่อกลับจากการไปข้างนอกกับ [child.GetTitledFirstName] เราพบชายผู้ยากไร้คนหนึ่งกำลังวิงวอนขอน้ำจากใครก็ตามที่จะหยิบยื่นความช่วยเหลือให้เขา"
+ tgp_child_personality.102.arrogant: "\n\n"บังอาจนักที่มันกล้าเพ่งมองมายังพวกเรา!" [child.GetFirstNameNoTooltip] โพล่งออกมาอย่างขุ่นเคือง ตกใจกับความโอหังอันสิ้นไร้หนทางของชายผู้นั้น"
+ tgp_child_personality.102.compassionate: "\n\nด้วยความสะเทือนใจในความทุกข์ของชายผู้นั้น [child.GetFirstNameNoTooltip] ดึงแขนเสื้อของข้าและเงยหน้าขึ้นมองด้วยดวงตาที่เบิกกว้างเปี่ยมความเมตตาอันไร้เดียงสา "พวกเราพอจะแบ่งน้ำให้ชายผู้น่าสงสารนั่นได้หรือไม่?" [child.GetSheHe] ถาม"
+ tgp_child_personality.102.callous: "\n\nเพื่อตอบสนองต่อคำร้องขอของเขา [child.GetFirstNameNoTooltip] กลับตักโคลนหนึ่งกำมืออย่างไม่ใยดีแล้วสาดเข้าใส่หน้าเขา หัวเราะเยาะขณะที่เขาสะดุดถอยหลังด้วยความประหลาดใจและอัปยศอดสู"
+ tgp_child_personality.102.confirm_arrogant: "ดีแล้ว คน เช่นมันไม่คู่ควรแก่การใส่ใจของเจ้า"
+ tgp_child_personality.102.confirm_compassionate: "แน่นอน เราให้ได้ ข้าภูมิใจในความเห็นอกเห็นใจของเจ้า"
+ tgp_child_personality.102.confirm_callous: "ความทุกข์ยากของผู้อื่นไม่ใช่ธุระกงการใดของเรา"
+ tgp_child_personality.102.arrogant_change: "เพิกเฉยต่อคน เช่นมันเสีย พวกเขาไม่คู่ควรแก่ความสนใจของเจ้า"
+ tgp_child_personality.102.compassionate_change: "ลองจินตนาการดูว่าจะเป็น เช่นไรหากเจ้าตกอยู่ในที่นั่งเดียวกับเขา"
+ tgp_child_personality.102.callous_change: "ความทุกข์ยากของผู้อื่นไม่ใช่ธุระกงการใดของเรา"
+
+ tgp_child_personality.1031.t: "เกียรติยศที่ไม่คู่ควร"
+ tgp_child_personality.103.desc: "ขณะที่กำลังพูดคุยถึงความก้าวหน้าของ [child.GetFirstNamePossessive] ในการศึกษา [child.GetFaith.ReligiousText] ข้าได้กล่าวชื่นชมความเชี่ยวชาญของ [child.GetHerHis] ในหลายบทที่ยากขึ้นเรื่อยๆ อย่างภาคภูมิใจ\n\nแต่หลังจากนั้น เมื่อทบทวนผลการเรียนล่าสุดของ [child.GetHerHis] ข้าเพิ่งตระหนักได้ว่า ด้วยความกระตือรือร้นของข้า ข้าอาจกล่าวเกินจริงถึงความเข้าใจของ [child.GetHerHis] ไป"
+ tgp_child_personality.103.deceitful: "\n\nทว่าแม้จะรู้อยู่เต็มอกถึงความเท็จในคำพูดของข้า [child.GetFirstNameNoTooltip] ก็ยังคงปลาบปลื้มกับคำสรรเสริญต่อความสำเร็จที่ [child.GetHerHis] ไม่ได้รับมาโดยชอบ"
+ tgp_child_personality.103.honest: "\n\nทว่า ก่อนที่ข้าจะได้เอ่ยสิ่งใด [child.GetFirstNameNoTooltip] ก็สบตากับข้าอย่างตรงไปตรงมา "ท่านบอกผู้อื่นว่าข้าเชี่ยวชาญบทเหล่านี้แล้ว แต่ข้าเพิ่งจะเริ่มเรียนรู้มันเท่านั้น""
+ tgp_child_personality.103.humble: "\n\nเมื่อเห็นว่าข้าตระหนักได้แล้ว [child.GetFirstNameNoTooltip] ก็กล่าวเบาๆ ว่า "ข้ารู้ ข้าขออภัย — ข้าเพียงไม่ต้องการให้ท่านดูไม่ดี""
+ tgp_child_personality.103.confirm_deceitful: "อย่าได้ขัดขวางสิ่งที่ให้ประโยชน์แก่เจ้า"
+ tgp_child_personality.103.confirm_honest: "ความซื่อสัตย์เป็นสิ่งที่น่ายกย่อง โดยเฉพาะอย่างยิ่งเมื่อต้องแลกมาด้วยตนเอง"
+ tgp_child_personality.103.confirm_humble: "ข้ายินดีที่ความคิดแรกของเจ้าคือการคำนึงถึงชื่อเสียงของข้า"
+ tgp_child_personality.103.deceitful_change: "$tgp_child_personality.103.confirm_deceitful$"
+ tgp_child_personality.103.honest_change: "เจ้าไม่ควรปล่อยให้ความเท็จผ่านไปโดยไม่ได้รับการแก้ไข"
+ tgp_child_personality.103.humble_change: "อย่าได้ทะเยอทะยานในสิ่งที่เกินกว่าที่เจ้าสมควรได้รับ"
+ 
+ tgp_child_personality.1041.t: "บทเรียนที่ขาดหาย"
+ tgp_child_personality.104.desc: "ภารกิจที่หัวหน้าครอบครัวต้องดูแลนั้นไม่มีที่สิ้นสุด และในวันนี้ความรับผิดชอบของข้าหมายความว่าข้าไม่สามารถดูแลบทเรียนประจำวันของ [child.GetFirstNamePossessive] ได้"
+ tgp_child_personality.104.generous: "\n\nในช่วงที่ข้าไม่อยู่ ข้าพบว่าแทนที่จะปล่อยเวลาให้ล่วงเลยไปโดยเปล่าประโยชน์ [child.GetFirstNameNoTooltip] กลับวิ่งวุ่นเสนอตัวช่วยคนรับใช้ทำงานบ้านอย่างแข็งขัน แน่นอนว่าน้ำใจนั้นถูกปฏิเสธอย่างถูกต้องโดยทุกคน"
+ tgp_child_personality.104.diligent: "\n\nเมื่อกลับมาในยามค่ำ ข้าพบ [child.GetFirstNameNoTooltip] อยู่ที่โต๊ะของ [child.GetHerHis] กำลังศึกษาอย่างขะมักเขม้น เมื่อตกใจกับเสียงฝีเท้าของข้า [child.GetSheHe] ก็เงยหน้าขึ้นและยิ้มให้ข้าอย่างภาคภูมิใจ "ท่านมาแล้ว! ดูสิว่าข้าทำไปได้มากแค่ไหน!""
+ tgp_child_personality.104.patient: "\n\nเมื่อกลับมาช้ากว่าที่วางแผนไว้มาก ข้าพบ [child.GetFirstNameNoTooltip] นั่งรออย่างสงบ เมื่อลุกขึ้นจากที่นั่งของ [child.GetHerHis] [child.GetSheHe] ก็ทักทายข้าอย่างอบอุ่น "ข้านั่งเงียบๆ และรอท่านทั้งวันเลย! ข้าทำได้ดีหรือไม่?""
+ tgp_child_personality.104.confirm_generous: "ความคำนึงถึงผู้อื่นของเจ้านั้นช่างน่ายกย่อง"
+ tgp_child_personality.104.confirm_diligent: "ความคิดริเริ่มที่เจ้าได้แสดงออกมาจะส่งผลดีต่อตัวเจ้า"
+ tgp_child_personality.104.confirm_patient: "ข้ายินดีกับความอดทนที่เจ้าได้แสดงให้เห็น"
+ tgp_child_personality.104.generous_change: "ยังมีผู้อื่นที่น่าจะได้ประโยชน์จากมือที่ว่างเปล่าของเจ้า"
+ tgp_child_personality.104.diligent_change: "หากเจ้ามีเวลาว่าง จงใช้มันไปกับการศึกษา"
+ tgp_child_personality.104.patient_change: "เจ้าทำได้ดี แต่จะดีกว่านี้หากเจ้ารอข้า"
+
+ tgp_child_personality.1071.t: "ส่วนแบ่งที่ไม่เท่าเทียม"
+ tgp_child_personality.107.desc: "หลังจากที่ต้องรับมือกับคำถามชวนสับสนชุดใหญ่จาก [child.GetFirstName] ข้าก็สามารถเข้าถึงต้นตอของปัญหาได้ [child.GetSheHe] สังเกตเห็นข้อเท็จจริงที่ว่าคนรับใช้ของเราบางคนได้กินดีกว่าคนอื่นๆ"
+ tgp_child_personality.107.just: "\n\n[child.GetFirstNameNoTooltip|U] ดูเหมือนจะไม่สบายใจอย่างมากกับเรื่องนี้ และกำลังเรียกร้องคำอธิบายถึงที่มาของความเหลื่อมล้ำที่ชัดเจนนี้"
+ tgp_child_personality.107.cynical: "\n\nแม้จะมีคำถามจาก [child.GetFirstNamePossessiveNoTooltip|U] [child.GetSheHe] ดูเหมือนจะไม่ทุกข์ร้อนกับสถานการณ์โดยทั่วไป ราวกับว่าสนใจที่จะยืนยันข้อสรุปบางอย่างที่ [child.GetSheHe] ได้คิดไว้ในใจแล้วมากกว่า"
+ tgp_child_personality.107.temperate: "\n\nหลังจากไตร่ตรองอยู่ครู่หนึ่ง [child.GetFirstNameNoTooltip|U] ก็ได้ข้อสรุปว่ามันจะดีที่สุดหากเราทุกคนรู้จักประมาณตนในความอยากอาหารของเรา"
+ tgp_child_personality.107.confirm_just: "เจ้าพูดถูก เราควรแก้ไขสถานการณ์นี้"
+ tgp_child_personality.107.confirm_cynical: "โลกนี้เต็มไปด้วยความเหลื่อมล้ำ และเจ้าไม่ควรคาดหวังเป็นอื่น"
+ tgp_child_personality.107.confirm_temperate: "เป็นความจริงที่ว่า ความพอประมาณคือปัญญา"
+ tgp_child_personality.107.just_change: "เจ้าไม่ควรยอมรับความเหลื่อมล้ำเพียง เพราะคนอื่นยอมรับมัน"
+ tgp_child_personality.107.cynical_change: "$tgp_child_personality.107.confirm_cynical$"
+ tgp_child_personality.107.temperate_change: "$tgp_child_personality.107.confirm_temperate$"
+
+ tgp_child_personality.1091.t: "เสียงในยามวิกาล"
+ tgp_child_personality.109.desc: "ข้าถูกปลุกจากการหลับใหลในยามเช้าตรู่โดยคนรับใช้ผู้หนึ่งพร้อมเรื่องเล่า\n\nดูเหมือนว่าคนรับใช้อีกคนในหมู่พวกเขาจะดื่มหนักไปหน่อยเมื่อคืนก่อน และ ในขณะที่พยายามหาทางกลับไปยังที่พักของตน เขากลับไปทำเรื่องน่าอับอายขายหน้าอยู่ด้านนอกห้องของ [child.GetFirstNamePossessive]"
+ tgp_child_personality.109.brave: "\n\nทว่าเรื่องเล่ากลับกลายเป็นเรื่องน่าขัน เมื่อพวกเขาอธิบายว่า [child.GetFirstName] ซึ่งตื่นขึ้นจากเสียงรบกวนนั้น ได้พุ่งเข้าใส่คนรับใช้ชายขี้เมาผู้นั้นด้วยดาบไม้ และส่ง "อสูรกาย" ตนนี้ให้เตลิดหนีเข้าไปในความมืด"
+ tgp_child_personality.109.calm: "\n\nแม้ว่าเสียงรบกวนยามวิกาลจะปลุก [child.GetFirstName] ในยามขาล แต่ดูเหมือนว่ามันจะไม่มีผลกระทบใดๆ ต่อเด็กน้อย ผู้ ซึ่งไม่หวั่นไหวต่อกิจกรรมอันผิดปกตินอกหน้าต่างของ [child.GetHerHis]"
+ tgp_child_personality.109.zealous: "\n\nเมื่อคนรับใช้ไปตรวจสอบ [child.GetFirstName] ในภายหลัง ก็พบ [child.GetHerHim] กำลังสวดท่องข้อความจาก [child.GetFaith.ReligiousText] เพื่อรักษาความสงบของ [child.GetHerHis]"
+ tgp_child_personality.109.confirm_brave: "ในชั่วโมงที่มืดมนที่สุด เราจึงจะได้ค้นพบตัวตนของเรา"
+ tgp_child_personality.109.confirm_calm: "จิตใจที่มั่นคงย่อมไม่หวั่นไหวต่อเสียงในยามค่ำคืน"
+ tgp_child_personality.109.confirm_zealous: "เราควรยึดมั่นใน [child.GetFaith.ReligiousText] ในยามกลางวันด้วย เช่นกัน"
+ tgp_child_personality.109.brave_change: "มีเพียงการกระทำเท่านั้นที่จะช่วย [child.GetHerHim] ได้ หากภัยคุกคามนั้นเป็นของจริง"
+ tgp_child_personality.109.calm_change: "$tgp_child_personality.109.confirm_calm$"
+ tgp_child_personality.109.zealous_change: "$tgp_child_personality.109.confirm_zealous$"
+
+ tgp_child_personality.1101.t: "ภาระแห่งความคาดหวัง"
+ tgp_child_personality.110.desc: "เด็กเรียนรู้ได้ดีที่สุดโดยการเลียนแบบผู้ใหญ่รอบตัว ซึ่งเป็นหลักการที่เหล่าอาจารย์ของ [child.GetFirstNamePossessive] และคนรับใช้ของเรายึดถืออย่างเต็มที่ โดยยกย่องข้าให้เป็นดั่งแสงนำทางเพื่อกระตุ้นและชี้นำพัฒนาการของ [child.GetHerHis]"
+ tgp_child_personality.110.ambitious: "\n\nผลลัพธ์ที่ได้ก็ประจักษ์ชัด [child.GetSheHe] ได้เพิ่มพูนความพยายามของ [child.GetHerHis] เป็นทวีคูณ โดยประกาศเจตจำนงของ [child.GetHerHis] ที่จะก้าวข้ามความสำเร็จของข้า และข้าสามารถเห็นความมุ่งมั่นนี้สะท้อนอย่างชัดเจนในการศึกษาของ [child.GetHerHis]"
+ tgp_child_personality.110.sadistic: "\n\nทว่า แทนที่จะเป็นแรงบันดาลใจ บัดนี้ข้ากลับเห็น [child.GetHerHim] เริ่มระบายความคับข้องใจของ [child.GetHerHis] ไปลงที่เหล่าคนรับใช้ ข้าสงสัยว่าเรากลับ ทำให้ [child.GetHerHim] ตระหนักถึงความไม่เอาไหนของ [child.GetHerHis] เองมากเกินไป"
+ tgp_child_personality.110.paranoid: "\n\nที่น่ากังวลอยู่บ้างคือ นี่อาจเป็นการส่งสารที่ผิดไปยัง [child.GetFirstNameNoTooltip] เนื่องจากบัดนี้ข้ามักจะเห็นเงาแห่งความสงสัยฉายชัดบนใบหน้าอันเยาว์วัยของ [child.GetHerHis]"
+ tgp_child_personality.110.confirm_ambitious: "อย่าได้ยอมให้สิ่งใดยืนขวางกั้นระหว่างเจ้าและเป้าหมายของเจ้า"
+ tgp_child_personality.110.confirm_sadistic: "บางครั้ง อำเภอใจอันโหดร้ายก็รับใช้ได้ดีกว่าคุณธรรม"
+ tgp_child_personality.110.confirm_paranoid: "จงตั้งคำถามกับทุกสิ่ง โดยเฉพาะอย่างยิ่งจากผู้ที่เจ้าไว้วางใจ"
+ tgp_child_personality.110.ambitious_change: "เจ้าไม่ควรยอมให้สิ่งใดยืนขวางกั้นระหว่างเจ้าและเป้าหมายของเจ้า"
+ tgp_child_personality.110.sadistic_change: "$tgp_child_personality.110.confirm_sadistic$"
+ tgp_child_personality.110.paranoid_change: "$tgp_child_personality.110.confirm_paranoid$"
+
+ tgp_child_personality.7001.t: "ตารางเวลาที่ว่างเว้น"
+ tgp_child_personality.7001.desc: "พัฒนาการทางจิตใจของเด็กอาจซับซ้อนและวัดผลได้ยากอย่างไม่น่าเชื่อ และมีเพียงการหยั่งเชิงอย่างระมัดระวังเท่านั้นจึงจะสามารถชี้นำไปในเส้นทางที่ถูกต้องได้\n\nเมื่อประกาศยกเลิกบทเรียนของวันนี้อย่างกะทันหัน ข้าได้ทดสอบ [child.GetFirstName] เพื่อดูว่า [child.GetSheHe] จะเลือกใช้เวลาในวันนี้อย่างไร เมื่อปราศจากการชี้แนะ"
+ tgp_child_personality.diligent.desc: "\n\nทว่า แม้จะมีข้อเสนอของข้า [child.GetFirstName] ก็เลือกที่จะศึกษาบทเรียนของ [child.GetHerHis] ต่อด้วยตนเอง แสดงให้เห็นถึงความมุ่งมั่นอันน่าประทับใจในการศึกษาอย่างต่อเนื่องของ [child.GetHerHis]"
+ tgp_child_personality.gregarious.desc: "\n\nอาจไม่น่าแปลกใจนักที่ [child.GetFirstName] ขอไปใช้เวลากับสหายของ [child.GetHerHis] หลีกเลี่ยงการเรียนเพื่อไปสมาคมกับผู้อื่น"
+ tgp_child_personality.temperate.desc: "\n\nอย่างไม่คาดคิด [child.GetFirstName] เลือกที่จะใช้โอกาสนี้ในการพักผ่อนและสงวนพลังงานของ [child.GetHerHis] ไว้สำหรับภารกิจในวันพรุ่งนี้"
+ tgp_child_personality.7001.diligent: "เป็นตัวเลือกที่ยอดเยี่ยม วินัยในตนเอง เช่นนี้จะส่งผลดีต่อเจ้า"
+ tgp_child_personality.7001.gregarious: "สายสัมพันธ์ที่เจ้าสร้างขึ้นในตอนนี้จะเป็นประโยชน์ต่อเจ้าไปตลอดชีวิต"
+ tgp_child_personality.7001.temperate: "ในการรู้จักขีดจำกัดของตนเอง เจ้าก็ได้ควบคุมตนเอง"
+ tgp_child_personality.7001.change.diligent: "วินัยในตนเองจะส่งผลดีต่อเจ้ามากกว่า จงฝึกฝนมัน"
+ tgp_child_personality.7001.change.gregarious: "อย่าได้ละเลยสายสัมพันธ์ของเจ้ากับผู้อื่นเพียงเพื่อการศึกษา"
+ tgp_child_personality.7001.change.temperate: "จงพักผ่อน ในขณะที่ทำได้ เจ้ามิอาจรู้ได้ว่าวันพรุ่งนี้จะนำพาสิ่งใดมา"
+
+ tgp_child_personality.7011.t: "ถ้อยคำที่บิดเบือน"
+ tgp_child_personality.7011.desc: "ขณะที่กำลังต้อนรับแขกเหรื่อ เราบังเอิญพูดถึงหัวข้อ [child.GetFaith.ReligiousText] และการถกเถียงอย่างเผ็ดร้อนก็ได้เริ่มต้นขึ้น ซึ่งเป็นไปในลักษณะของความหลงใหลในหัวข้อมากกว่าความรู้จริง"
+ tgp_child_personality.zealous.desc: "\n\nหลังจากที่กลุ่มคนแยกย้ายกันไป [child.GetFirstNameNoTooltip] ก็เข้ามาหาข้าในภายหลัง ด้วยท่าทางทุกข์ใจอย่างเห็นได้ชัดหลังจากได้ยินการถกเถียงบางส่วน "พวกเขาเข้าใจ [ROOT.Char.GetFaith.ReligiousText] #EMP ผิด#!! ไปได้อย่างไร?" [child.GetSheHe] ถามด้วยความไม่อยากจะเชื่อ"
+ tgp_child_personality.ambitious.desc: "\n\n[child.GetFirstNameNoTooltip] ได้ยินการถกเถียงบางส่วนและดูเหมือนจะฮึกเหิมขึ้น โดยถือว่าความรู้และความเข้าใจของ [child.GetHerHis] นั้นเหนือกว่าของผู้ใหญ่"
+ tgp_child_personality.sadistic.desc: "\n\nหลังจากที่แขกแยกย้ายกันไป [child.GetFirstNameNoTooltip] ก็รีบวิ่งมาหาข้าด้วยความคาดหวังอย่างลิงโลดฉายชัดทั่วใบหน้าของ [child.GetHerHis] "ท่านได้บอกทุกคนหรือไม่ว่าพวกเขาผิดมหันต์?" [child.GetSheHe] ถามอย่างกระตือรือร้น "ทุกคนหัวเราะเยาะที่พวกเขาฟังดูโง่เขลาหรือไม่?""
+ tgp_child_personality.7011.zealous: "ความมุ่งมั่นของเจ้าต่อศาสนพิธีนั้นน่ายกย่อง"
+ tgp_child_personality.7011.ambitious: "จงใช้ความล้มเหลวของผู้อื่นเป็นโอกาสสำหรับตัวเจ้าเอง"
+ tgp_child_personality.7011.sadistic: "ในการเปิดโปงความโง่เขลาของผู้อื่น เจ้าก็ได้บั่นทอนจุดยืนของพวกเขา"
+ tgp_child_personality.7011.change.zealous: "ความเข้าใจในศาสนพิธีของเจ้าเองต่างหากคือสิ่งที่สำคัญที่สุด"
+ tgp_child_personality.7011.change.ambitious: "$tgp_child_personality.7011.ambitious$"
+ tgp_child_personality.7011.change.sadistic: "$tgp_child_personality.7011.sadistic$"
+
+ tgp_child_personality.7021.t: "เจตนาที่มิอาจหยั่งรู้"
+ tgp_child_personality.7021.desc: "วันนี้ [child.GetFirstName] เผชิญหน้ากับกลุ่มผู้มาเยือนที่ไม่คุ้นเคยที่ทางเข้าบ้านของเรา ด้วยความตื่นตระหนกต่อการปรากฏตัวของพวกเขา [child.GetSheHe] จึงรีบวิ่งหนีไป และไม่โผล่ออกมาจากที่ใดก็ตามที่ [child.GetSheHe] ได้ซ่อน [child.GetHerselfHimself] ไว้ จนกระทั่งบัดนี้"
+ tgp_child_personality.shy.desc: "\n\nด้วยอาการสั่นกลัวอย่างเห็นได้ชัดจากการเผชิญหน้า [child.GetFirstNameNoTooltip] เข้ามาหาข้าโดยไม่สบตา พลางขยับตัวอย่างกระสับกระส่าย "พวกเขาจะไม่กลับมาใช่หรือไม่?" [child.GetSheHe] ถาม "ได้โปรดอย่าให้พวกเขากลับมา ข้าไม่อยากเห็นพวกเขาอีก""
+ tgp_child_personality.paranoid.desc: "\n\nด้วยความระแวงจากการเผชิญหน้า [child.GetFirstNameNoTooltip] มาหาข้าด้วยความหวาดหวั่น "คนเหล่านั้นคือใคร?" [child.GetSheHe] ถาม "ข้าไม่ไว้ใจพวกเขา""
+ tgp_child_personality.craven.desc: "\n\n[child.GetFirstNameNoTooltip] ซึ่งยังคงตื่นตระหนกจากการมาเยือนของพวกเขา กุมมือข้าอย่างกังวล "พวกเขามาที่นี่ทำไม? พวกเขาดูอันตราย!" [child.GetSheHe] ร้องอุทาน "ได้โปรดอย่าให้พวกเขากลับมา""
+ tgp_child_personality.7021.shy: "เจ้าไม่จำเป็นต้องพบปะผู้ใดหากเจ้าไม่ต้องการ"
+ tgp_child_personality.7021.paranoid: "ความไว้วางใจจะมีค่าที่สุดเมื่อมอบให้แก่คนเพียงไม่กี่คน"
+ tgp_child_personality.7021.craven: "จงเชื่อในสัญชาตญาณของเจ้า การสัมผัสได้ถึงอันตรายก็คือการได้รับคำเตือนล่วงหน้า"
+ tgp_child_personality.7021.change.shy: "จงอยู่ท่ามกลางผู้ที่เจ้าใกล้ชิดที่สุดเท่านั้น"
+ tgp_child_personality.7021.change.paranoid: "$tgp_child_personality.7021.paranoid$"
+ tgp_child_personality.7021.change.craven: "$tgp_child_personality.7021.craven$"
+
+ tgp_child_personality.7031.t: "ภาระหนักอึ้ง"
+ tgp_child_personality.7031.desc: "ขณะที่ข้ากำลังเดินไปยังห้องพัก ข้าเหลือบไปเห็นคนรับใช้กำลังเดินโซซัดโซเซภายใต้น้ำหนักของสัมภาระหนักอึ้ง มุ่งหน้าไปยังห้องครัว ข้าเห็น [child.GetFirstName] อยู่ใกล้ๆ และข้าก็หยุดครู่หนึ่งเพื่อดูว่า [child.GetSheHe] จะมีปฏิกิริยาต่อสถานการณ์นี้อย่างไร"
+ tgp_child_personality.lazy.desc: "\n\n[child.GetFirstNameNoTooltip] ไม่สะทกสะท้านต่อภาพที่เห็น เพียงแค่ยืนดูการดิ้นรนของคนรับใช้อย่างเกียจคร้าน เมื่อสบตากับข้า [child.GetSheHe] ก็ยักไหล่อย่างไม่ใยดี ราวกับว่าเรื่องนี้ต่ำต้อยเกินกว่าที่ [child.GetHerHim] จะใส่ใจ"
+ tgp_child_personality.gluttonous.desc: "\n\nโดยไม่ลังเล [child.GetFirstNameNoTooltip] พุ่งเข้าไปช่วยแบ่งเบาภาระของคนรับใช้ และทั้งสองก็หายเข้าไปในห้องครัวด้วยกัน หลายนาทีต่อมา เด็กน้อยก็กลับออกมาและยิ้มให้ข้า นิ้วมือเหนียวเหนอะหนะไปด้วยรางวัลทั้งคาวหวาน และดูพึงพอใจใน [child.GetHerselfHimself] อย่างที่สุด"
+ tgp_child_personality.compassionate.desc: "\n\nเมื่อสังเกตเห็นความยากลำบากของคนรับใช้ [child.GetFirstNameNoTooltip] ก็ก้าวเข้าไปช่วยแบ่งเบาภาระ เดินตามคนรับใช้เข้าไปในครัวอย่างแข็งขัน เมื่อ [child.GetSheHe] กลับออกมา ก็มาพร้อมกับความภาคภูมิใจเงียบๆ ของผู้ที่อิ่มเอมใจ"
+ tgp_child_personality.7031.lazy: "จงสงวนพลังงานของเจ้าไว้สำหรับสิ่งที่สำคัญจริงๆ ปล่อยให้ผู้อื่นแบกรับภาระไป"
+ tgp_child_personality.7031.gluttonous: "นับว่าถูกต้องแล้วที่เจ้าจะได้รับรางวัลตอบแทนสำหรับความช่วยเหลือของเจ้า"
+ tgp_child_personality.7031.compassionate: "การยืนมอง ในขณะที่ผู้อื่นกำลังลำบากนั้นหาใช่คุณธรรมไม่"
+ tgp_child_personality.7031.change.lazy: "$tgp_child_personality.7031.lazy$"
+ tgp_child_personality.7031.change.gluttonous: "ชะตาของคนรับใช้คือการทำงาน ส่วนของเจ้าคือการเพลิดเพลินกับผลของมัน"
+ tgp_child_personality.7031.change.compassionate: "จงช่วยเหลือผู้ที่ขัดสน โดยไม่หวังผลตอบแทน"
+
+ tgp_child_personality.7041.t: "การค้นพบที่ไม่คาดคิด"
+ tgp_child_personality.7041.desc: "ขณะที่กำลังดูหนังสือในห้องสมุดของบ้าน ข้าสังเกตเห็นหนังสือเล่มหนึ่งยื่นออกมาจากชั้น ราวกับถูกยัดเข้าไปอย่างเร่งรีบ หนังสือที่เต็มไปด้วยภาพประกอบอันลามกอนาจาร ซึ่งตกมาอยู่ในความครอบครองของข้า หากข้าจำไม่ผิด"
+ tgp_child_personality.lustful.desc: "\n\nทันใดนั้น บางอย่างในความทรงจำของข้าก็ปะติดปะต่อกัน [child.GetFirstName] มีพฤติกรรมแปลกๆ ในช่วงนี้ โดยใช้เวลาในห้องสมุดมากเกินควร ข้าสงสัย..."
+ tgp_child_personality.chaste.desc: "\n\nทันใดนั้น บางอย่างในความทรงจำของข้าก็ปะติดปะต่อกัน [child.GetFirstName] ใช้เวลาในห้องสมุดน้อยลงในช่วงนี้ ราวกับว่าอับอายแม้กระทั่งจะเข้าไปในห้อง ข้าสงสัย..."
+ tgp_child_personality.7041.lustful: "ความอยากรู้อยากเห็นในเรื่อง เช่นนี้เป็นเรื่องธรรมชาติอย่างยิ่ง"
+ tgp_child_personality.7041.chaste: "ผู้ที่คู่ควรจะรักษาความยับยั้งชั่งใจเมื่อเผชิญกับการยั่วยวน"
+ tgp_child_personality.7041.change.lustful: "ข้าจะสั่งให้ย้ายหนังสือเล่มนั้นไปไว้ที่ห้องของ [child.GetHerHis]"
+ tgp_child_personality.7041.change.chaste: "$tgp_child_personality.7041.chaste$"
+
+ tgp_child_personality.7051.t: "ของหายและของที่พบ"
+ tgp_child_personality.7051.desc: "ข้าได้สั่งให้คนรับใช้คนหนึ่งย้ายกล่องเคลือบเงาอย่างดี พร้อมกับของมีค่าอื่นๆ ไปยังอีกห้องหนึ่งขณะทำความสะอาดเมื่อหลายวันก่อน แต่ความล่าช้าในการส่งคืน ทำให้เห็นได้ชัดว่ากล่องนั้นได้หายไประหว่างทาง"
+ tgp_child_personality.just.desc: "\n\nทว่า ทันทีที่ข้ากำลังจะเริ่มการสอบสวน ข้าก็บังเอิญพบกล่องที่หายไปนั้นกำลังถูกนำกลับมาคืนที่โดย [child.GetFirstName]"
+ tgp_child_personality.greedy.desc: "\n\nการค้นหาอย่างละเอียดทั่วบ้าน ทำให้พบกล่องที่หายไปในห้องของ [child.GetFirstNamePossessiveNoTooltip] อย่างรวดเร็ว "ข้าเจอมัน มันก็ต้องเป็นของข้าสิ!" [child.GetSheHe] บ่นอย่างดื้อรั้นเมื่อถูกจับได้"
+ tgp_child_personality.callous.desc: "\n\nขณะที่ [child.GetFirstName] และข้ากำลังค้นหาทั่วบ้าน ข้าได้อธิบายถึงสิ่งที่พวกเรากำลังตามหา "ข้าเคยเห็นสิ่งนั้น" เด็กน้อยตอบด้วยท่าทีไม่สนใจอย่างสบายๆ "แต่จะเกิดอะไรขึ้นกับคนรับใช้ที่ทำมันหายหรือ?" [child.GetSheHe|U] ถามด้วยความสนใจที่เพิ่มขึ้นอย่างเห็นได้ชัด"
+ tgp_child_personality.7051.just: "จงประพฤติตนดัง เช่นที่เจ้าทำในขณะนี้เสมอ"
+ tgp_child_personality.7051.greedy: "ความสูญเสียของผู้อื่นอาจเป็นประโยชน์ของเจ้าก็ได้"
+ tgp_child_personality.7051.callous: "ปล่อยให้คนโง่รับผลที่ตามมาของความไร้ความสามารถของพวกเขาไป"
+ tgp_child_personality.7051.change.just: "จงประพฤติตนด้วยความเที่ยงธรรม แล้วเจ้าจะไม่ต้องรู้จักกับความเสียใจ"
+ tgp_child_personality.7051.change.greedy: "จงมองหาผลประโยชน์ของตนเองก่อน จงฉกฉวยทุกสิ่งที่เจ้าสามารถทำได้"
+ tgp_child_personality.7051.change.callous: "เจ้าควรปล่อยให้คนโง่รับผลที่ตามมาของความไร้ความสามารถของพวกเขา"
+
+ tgp_child_personality.7061.t: "คำสรรเสริญเยินยอ"
+ tgp_child_personality.7061.desc: "คนรับใช้ย่อมรู้วิธีที่จะประจบสอพลอนายของตน ทั้งในปัจจุบันและอนาคต และคำสรรเสริญที่พวกเขามีต่อ [child.GetFirstName] นั้นช่างมากมายเหลือล้นในช่วงนี้ บางทีอาจจะมากเกินไปด้วยซ้ำ"
+ tgp_child_personality.humble.desc: "\n\nแม้จะเป็น เช่นนั้น [child.GetFirstNameNoTooltip] ก็ยังคงถ่อมตน โดยแสดงออกในทุกโอกาสว่า [child.GetSheHe] ยังมีอะไรต้องเรียนรู้อีกมาก"
+ tgp_child_personality.cynical.desc: "\n\nเป็นการส่วนตัว [child.GetFirstNameNoTooltip] ได้แสดงความสงสัยของ [child.GetHerHis] ต่อข้า โดยสงสัยว่าคนรับใช้เพียงแค่พยายามที่จะประจบประแจง [child.GetHerHim] หรือไม่"
+ tgp_child_personality.content.desc: "\n\nคำชมเหล่านี้ดูเหมือนจะผ่าน [child.GetFirstNamePossessiveNoTooltip] ไปโดยไม่ส่งผลกระทบใดๆ และ [child.GetSheHe] ดูเหมือนจะไม่หวั่นไหวต่อคำยกยออันมากมายของพวกเขา"
+ tgp_child_personality.7061.humble: "เป็นการดีที่เจ้ารู้จักประมาณตน"
+ tgp_child_personality.7061.cynical: "เจ้าฉลาดที่ตั้งคำถามถึงแรงจูงใจของผู้อื่น"
+ tgp_child_personality.7061.content: "เกียรติยศและรางวัลนั้นช่างว่างเปล่า อย่าได้ไล่ตามมัน"
+ tgp_child_personality.7061.change.humble: "จงประมาณตนและจดจำที่ทางของเจ้าไว้"
+ tgp_child_personality.7061.change.cynical: "เจ้าจะฉลาดกว่านี้หากตั้งคำถามถึงแรงจูงใจของผู้อื่น แม้ แต่ของข้า"
+ tgp_child_personality.7061.change.content: "$tgp_child_personality.7061.content$"
+
+ tgp_child_personality.7071.t: "ถ้อยคำรุนแรง"
+ tgp_child_personality.7071.desc: "คนรับใช้มักจะต้องถูกตอกย้ำถึงที่ทางของตน และยิ่งพวกเขาอวดดีหรือไร้ความสามารถมากเท่าใด การตอกย้ำก็ยิ่งต้องรุนแรงมากขึ้นเท่านั้น ทว่า เด็กยังไม่เคยเรียนรู้บทเรียนนี้ และ [child.GetFirstName] ดูเหมือนจะไม่สบายใจหลังจากได้ยินการตอกย้ำเหล่านี้"
+ tgp_child_personality.vengeful.desc: "\n\n[child.GetSheHe|U] สับสนอย่างมากกับการที่คนรับใช้ยอมทนต่อคำตำหนิของข้า โดยอยากรู้ว่าทำไมข้าถึงไม่คาดคิดว่าคนรับใช้จะหาทางแก้แค้นในอนาคต"
+ tgp_child_personality.deceitful.desc: "\n\nข้อกังวลหลักของ [child.GetFirstNamePossessiveNoTooltip] ดูเหมือนจะอยู่ที่การยอมรับความผิด หากคนรับใช้โกหก พวกเขาก็จะมีโอกาสน้อยที่จะถูกลงโทษสำหรับความล้มเหลวของตน"
+ tgp_child_personality.calm.desc: "\n\nอย่างไรก็ตาม นี่แทบไม่เกี่ยวข้องกับชะตากรรมของคนรับใช้เลย เนื่องจาก [child.GetFirstNameNoTooltip] เพียงแค่แสดงความรังเกียจต่อการโต้เถียงและถ้อยคำเผ็ดร้อนของผู้ใหญ่"
+ tgp_child_personality.7071.vengeful: "มีเพียงผู้อ่อนแอเท่านั้นที่ยอมให้ตนเองถูกดูหมิ่น เช่นนี้"
+ tgp_child_personality.7071.deceitful: "การซื่อสัตย์เป็นคุณธรรม แต่บางครั้งก็โง่เขลา เช่นกัน"
+ tgp_child_personality.7071.calm: "ผู้ที่ยังคงไม่หวั่นไหวย่อมได้เปรียบเสมอ"
+ tgp_child_personality.7071.change.vengeful: "$tgp_child_personality.7071.vengeful$"
+ tgp_child_personality.7071.change.deceitful: "$tgp_child_personality.7071.deceitful$"
+ tgp_child_personality.7071.change.calm: "จงอยู่อย่างไม่หวั่นไหว แล้วเจ้าจะได้เปรียบเสมอ"
+
+ tgp_child_personality.7081.t: "ความอุดมสมบูรณ์อันโอชะ"
+ tgp_child_personality.7081.desc: "พักนี้ข้าสังเกตเห็นว่ามีคนรับใช้ของเราจำนวนมากกำลังเอาอกเอาใจ [child.GetFirstName] ด้วยของว่าง โดยมอบให้แทบจะรายชั่วโมง"
+ tgp_child_personality.generous.desc: "\n\nทว่า [child.GetFirstNameNoTooltip] ปราศจาก ซึ่งความโลภอย่างสิ้นเชิง [child.GetFirstNameNoTooltip] แบ่งปันขนมเหล่านั้นให้กับเด็กคนอื่นๆ อย่างร่าเริงโดยไม่ลังเลแม้ แต่น้อย"
+ tgp_child_personality.fickle.desc: "\n\n[child.GetFirstNameNoTooltip] บางครั้งก็เต็มใจที่จะแบ่งปันขนมของ [child.GetHerHis] กับผู้อื่น แต่ในอีกไม่กี่อึดใจต่อมาก็ไม่เต็มใจอย่างสิ้นเชิง อารมณ์ของ [child.GetHerHis] ผันผวนอย่างรุนแรง"
+ tgp_child_personality.arrogant.desc: "\n\n[child.GetFirstNameNoTooltip] หวงแหนขนมของ [child.GetHerHis] อย่างยิ่ง ปฏิเสธที่จะแบ่งปันให้ผู้อื่นและถือว่ามันเป็นสิ่งที่ [child.GetHerHis] พึงได้รับโดยชอบธรรม"
+ tgp_child_personality.7081.generous: "ความอุดมสมบูรณ์ควรถูกแบ่งปันให้กับผู้ที่ขาดแคลนเสมอ"
+ tgp_child_personality.7081.fickle: "ความยืดหยุ่นทางความคิดในระดับหนึ่งสามารถ ทำให้คู่แข่งของเจ้าสับสนได้"
+ tgp_child_personality.7081.arrogant: "จงประพฤติตนให้สมกับสถานะของเจ้า แล้วผู้อื่นจะปฏิบัติตาม"
+ tgp_child_personality.7081.change.generous: "$tgp_child_personality.7081.generous$"
+ tgp_child_personality.7081.change.fickle: "ความคาดเดาไม่ได้สามารถเป็นสินทรัพย์ในหลายสถานการณ์"
+ tgp_child_personality.7081.change.arrogant: "$tgp_child_personality.7081.arrogant$"
+
+ tgp_child_personality.7091.t: "ความผิดพลาดโดยสุจริต"
+ tgp_child_personality.7091.desc: "ในเหตุการณ์โชคร้าย ม้วนภาพวาดโปรดของ [child.GetFirstNamePossessive] ถูกฉีกขาดโดยอุบัติเหตุจากคนรับใช้ที่เข้าใจผิดคิดว่าเป็นขยะ ด้วยความอยากรู้ว่าเด็กน้อยตอบสนองอย่างไร ข้าจึงนั่งลงข้างๆ [child.Custom('GirlBoy')]"
+ tgp_child_personality.forgiving.desc: "\n\n"เจ้าช่างให้อภัย" ข้าตั้งข้อสังเกต [child.GetFirstNameNoTooltip] ยักไหล่เบาๆ ราวกับว่ามันไม่ใช่เรื่องสำคัญ "มันเป็นอุบัติเหตุ ข้าไม่ต้องการให้ [child.GetHerHim] รู้สึกไม่ดี""
+ tgp_child_personality.trusting.desc: "\n\n"เจ้ายอมรับคำอธิบายนั้นง่ายดาย" ข้าเอ่ยขึ้น [child.GetFirstNameNoTooltip] พยักหน้าอย่างจริงจัง "ข้าเชื่อใจ [child.GetHerHim]" [child.GetSheHe] ตอบง่ายๆ"
+ tgp_child_personality.patient.desc: "\n\n"เจ้าใจเย็นกับเรื่องนี้มาก" ข้าตั้งข้อสังเกต [child.GetFirstNameNoTooltip] ยิ้มอย่างสงบ ไม่ทุกข์ร้อนเลย "ไม่เป็นไร ข้าไม่ถือสาที่จะรอสำเนาใหม่""
+ tgp_child_personality.7091.forgiving: "จงอดทนต่อความล้มเหลวของผู้อื่น ไม่ใช่ทุกคนที่จะเป็นเหมือนเรา"
+ tgp_child_personality.7091.trusting: "จงมอบความไว้วางใจของเจ้าให้แก่ผู้ที่มอบความไว้วางใจของพวกเขาให้แก่เจ้า"
+ tgp_child_personality.7091.patient: "ความเสียหายมากมายสามารถซ่อมแซมได้ด้วยเวลา เจ้าเพียงแค่ต้องรอ"
+ tgp_child_personality.7091.change.forgiving: "$tgp_child_personality.7091.forgiving$"
+ tgp_child_personality.7091.change.trusting: "$tgp_child_personality.7091.trusting$"
+ tgp_child_personality.7091.change.patient: "$tgp_child_personality.7091.patient$"
+
+ tgp_child_personality.7101.t: "การซักถามไม่หยุดหย่อน"
+ tgp_child_personality.7101.desc: "การแสวงหาและการได้มา ซึ่งความรู้เป็นหนึ่งในเครื่องหมายของผู้ที่เป็น [child.GetWomanMan] ที่มีคุณค่า แต่ความพยายามอย่างมุ่งมั่นของข้าที่จะปลูกฝังสิ่งนี้ในตัว [child.GetFirstName] อาจจะล้ำเส้นไปเล็กน้อย"
+ tgp_child_personality.honest.desc: "\n\n"เราหยุดกันก่อนได้หรือไม่?" [child.GetSheHe] อ้อนวอน น้ำเสียงของ [child.GetHerHis] เจือไปด้วยความตึงเครียด แสดงความคับข้องใจที่ชัดเจนของ [child.GetHerHis] ออกมาอย่างซื่อตรง"
+ tgp_child_personality.arbitrary.desc: "\n\n"จักรพรรดิองค์ที่สี่ หรือองค์ที่เก้า" [child.GetFirstNameNoTooltip] ตอบอย่างเซื่องซึมต่อคำถามล่าสุดของข้า แสดงออกถึงความไม่แยแสต่อความจริงอย่างลึกซึ้ง"
+ tgp_child_personality.impatient.desc: "\n\n"เราเสร็จกันหรือยัง?" [child.GetFirstNameNoTooltip] ถอนหายใจอย่างหงุดหงิดไม่ปิดบัง ขยับตัวไปมาอย่างกระสับกระส่าย และแสดงชัดว่า [child.GetSheHe] อยากจะไปทำอย่างอื่นเต็มที"
+ tgp_child_personality.7101.honest: "จงกล้าที่จะพูดความจริง มิฉะนั้นโลกจะตกอยู่ในความอยุติธรรม"
+ tgp_child_personality.7101.arbitrary: "หากเจ้ารู้สึกว่าเจ้ารู้ดีกว่า ก็จงยึดมั่นในแนวทางของเจ้า"
+ tgp_child_personality.7101.impatient: "ยิ่งเจ้าตอบเร็วเท่าไหร่ เราก็จะเสร็จเร็วขึ้นเท่านั้น"
+ tgp_child_personality.7101.change.honest: "$tgp_child_personality.7101.honest$"
+ tgp_child_personality.7101.change.arbitrary: "$tgp_child_personality.7101.arbitrary$"
+ tgp_child_personality.7101.change.impatient: "$tgp_child_personality.7101.impatient$"
+
+ tgp_child_personality.7201.t: "ความมุ่งมั่นไม่ลดละ"
+ tgp_child_personality.7201.desc: "ความประมาทเพียงชั่วครู่อาจนำมา ซึ่งผลลัพธ์ที่เลวร้าย คนรับใช้เพียงแค่ลืมล็อคประตู และทันใดนั้น [child.GetFirstName] ก็ออกไปอยู่ข้างนอก เผชิญหน้ากับสุนัขจรจัดพันทาง อันตรายได้ผ่านพ้นไปแล้วและเด็กน้อยกลับมาอยู่ในห้องของ [child.GetHerHis] โดยไม่ได้รับบาดเจ็บ แต่ผลที่ตามมายังคงต้องการการจัดการจากข้า"
+ tgp_child_personality.brave.desc: "\n\n"ข้าไม่กลัวเลยสักนิด!" [child.GetFirstNameNoTooltip] ประกาศอย่างภาคภูมิใจ "ข้าสู้กับหมาป่าทั้งฝูงยังได้เลย!""
+ tgp_child_personality.stubborn.desc: "\n\n"ข้ายืนหยัดสู้!" [child.GetFirstNameNoTooltip] ยืนกรานอย่างท้าทาย "ข้าไม่ได้วิ่งหนี พวกคนรับใช้อุ้มข้ากลับเข้ามา!" ดูเหมือนว่าเด็กน้อยจะรำคาญการช่วยเหลือของ [child.GetHerHis] มากกว่าอันตรายที่ [child.GetSheHe] เผชิญ"
+ tgp_child_personality.wrathful.desc: "\n\n"ข้าเกลียดหมาตัวนั้น!" [child.GetFirstNameNoTooltip] ตะโกนด้วยความคับข้องใจอย่างเห็นได้ชัด "พวกเขาควรจะฆ่ามัน ไม่ใช่แค่ไล่มันไป!""
+ tgp_child_personality.7201.brave: "จิตวิญญาณที่กล้าหาญและไม่ย่อท้อ ข้าเห็นชอบ!"
+ tgp_child_personality.7201.stubborn: "จงยืนหยัดอย่างมั่นคงและไม่ยอมจำนนต่อทั้งคนและสัตว์"
+ tgp_child_personality.7201.wrathful: "ความโกรธ หากถูกชี้นำอย่างถูกต้อง จะช่วยขยายความทะเยอทะยานของเจ้า"
+ tgp_child_personality.7201.change.brave: "จงเผชิญหน้ากับคู่ต่อสู้ของเจ้าอย่างกล้าหาญ แล้วชัยชนะจะตามมาอย่างแน่นอน"
+ tgp_child_personality.7201.change.stubborn: "เจ้าควรยืนหยัดอย่างมั่นคงและไม่ยอมจำนนต่อทั้งคนและสัตว์"
+ tgp_child_personality.7201.change.wrathful: "เจ้าไม่โกรธเคืองต่อความก้าวร้าวของสัตว์ชั้นต่ำตัวนี้หรือ?"
+
+ tgp_child_personality.7301.t: "ปีกที่หักสลาย"
+ tgp_child_personality.7301.desc: "ข้าเพิ่งจะตรวจสอบบัญชีครัวเรือนเสร็จสิ้น เมื่อเหล่าคนรับใช้นำเรื่องใหม่มาแจ้งให้ข้าทราบ เป็นนกตัวเล็กที่มีขนสีสันแปลกตาและปีกหัก ซึ่ง [child.GetFirstName] พบในลานบ้าน"
+ tgp_child_personality.7301.eccentric.desc: "\n\n[child.GetFirstNameNoTooltip] หลงใหลในนกตัวนั้น หรือบางทีอาจจะถูกต้องกว่าคือ #EMP แนวคิด#!! เรื่องนก [child.GetSheHe|U] พูดไม่หยุดว่า [child.GetSheHe] อยากจะบินได้เหมือนนก"
+ tgp_child_personality.7301.compassionate.desc: "\n\nด้วยความสะเทือนใจในความเจ็บปวดของมัน [child.GetFirstNameNoTooltip] ยืนกรานให้เรานำนกตัวนั้นเข้ามาในบ้านและดูแลมันราวกับเป็นหนึ่งในพวกเรา"
+ tgp_child_personality.7301.callous.desc: "\n\n[child.GetFirstNameNoTooltip] แสดงความเพิกเฉยต่อความเจ็บปวดของมันอย่างชัดเจน โดยทิ้งนกปีกหักตัวนั้นไว้ในที่ที่ [child.GetSheHe] พบ ปล่อยให้เป็นหน้าที่ของเหล่าคนรับใช้ — และดูเหมือนว่าจะเป็นนายของพวกเขาด้วย — ที่ต้องจัดการ"
+ tgp_child_personality.7301.eccentric: "จิตใจของเด็กช่างเป็นสิ่งที่แปลกประหลาดและน่าอัศจรรย์"
+ tgp_child_personality.7301.compassionate: "จงดูแลผู้คนของเจ้าเหมือนดั่งที่เจ้าจะดูแลนกตัวนี้"
+ tgp_child_personality.7301.callous: "จงปล่อยให้ผู้อ่อนแอต่อสู้ดิ้นรนด้วยตนเอง ไม่ว่าจะเป็นนกหรือ [child.GetWomanMan]"
+ tgp_child_personality.7301.change.eccentric: "จงปล่อยให้จิตใจของเจ้าโบยบิน และจินตนาการถึงโลกในแบบที่นกมองเห็น"
+ tgp_child_personality.7301.change.compassionate: "ก่อนสิ่งอื่นใด จงดูแลผู้ที่อ่อนแอกว่าตัวเจ้า"
+ tgp_child_personality.7301.change.callous: "$tgp_child_personality.7301.callous$"

@@ -1,0 +1,161 @@
+﻿l_english: 
+
+
+ lesson_china_introduction: "$lesson_basics_welcome$"
+ lesson_china_introduction_desc: "@tutorial_screenshot_1_china!\nท่านคือบัณฑิตหนุ่มในแผ่นดินจีน สถานะของท่านแม้จะต่ำต้อย ทว่าเปี่ยมไปด้วยความหวัง ด้วยการเรียนรู้ ความหลักแหลม และการประพฤติตนอันควรแก่การยกย่อง ท่านอาจไต่เต้าขึ้นสู่ตำแหน่งต่างๆ ในราชสำนักได้\n\nแม้ชีวิตของท่านจะแสนสั้น ทายาทของท่านก็สามารถนำพาชื่อเสียงของตระกูลท่านไปสู่เกียรติยศอันยั่งยืนได้\n\nภายใต้การปกครองอันมั่นคงของราชวงศ์ซ่ง การสอบคัดเลือกขุนนางหลวงได้เสนอหนทางสู่ตำแหน่งผู้ว่าการ — และอาจจะสู่บัลลังก์จักรพรรดิเลยทีเดียว"
+
+ lesson_china_camera: "$lesson_basics_quick_camera$"
+ lesson_china_camera_desc: "$lesson_basics_quick_camera_desc$"
+
+ lesson_china_zoom: "$lesson_basics_quick_zoom$"
+ lesson_china_zoom_desc: "$lesson_basics_quick_zoom_desc$"
+
+ lesson_china_nested_tooltips: "คำแนะนำเครื่องมือแบบซ้อน"
+ lesson_china_nested_tooltips_desc: "$lesson_basics_tooltips_in_tooltips_desc$"
+ lesson_china_nested_tooltips_hover_word: "$lesson_basics_tooltips_in_tooltips_hover_word$"
+ lesson_china_nested_tooltips_hover_word_deeper: "$lesson_basics_tooltips_in_tooltips_hover_word_deeper$"
+
+ lesson_china_nested_tooltips_complete: "$lesson_china_nested_tooltips$"
+ lesson_china_nested_tooltips_complete_desc: "$lesson_china_nested_tooltips_desc$"
+
+
+ lesson_china_characters: "ตัวละคร"
+ lesson_china_characters_desc: "ท่านเล่นเป็น [GetPlayer.GetShortUINameNotMeNoTooltip] หนึ่งใน [characters|E] มากมายในโลกใบนี้ ซึ่งแสดงแทนด้วยรูปอวตารตัวละคร\n\nท่านคือขุนนางผู้มุ่งมั่นใน [GetTitleByKey('h_china').GetDefinitiveName]!"
+
+ lesson_china_this_is_you_1: "$lesson_basics_quick_this_is_you_1$"
+ lesson_china_this_is_you_1_desc: "นี่คือที่ที่ท่านจะเห็นตนเอง และ [family|e] ที่ใกล้ชิดที่สุดของท่าน\n\nทางด้านขวา ท่านจะเห็น [player_heir|e] ของท่าน ผู้ ซึ่งท่านจะได้เล่นเป็น เมื่อ [character|E] ปัจจุบันของท่านสิ้นชีพ\n\n#TUT หากท่านหลงทางบนแผนที่ ท่านสามารถคลิกที่ตัวละครของท่านเพื่อจัดกล้องกลับมายังศูนย์กลาง [realm|e] ของท่านได้#!"
+
+ lesson_china_this_is_you_2: "$lesson_basics_quick_this_is_you_2$"
+ lesson_china_this_is_you_2_desc: "โดยทั่วไปแล้ว การมี [spouse|E] ถือเป็นความคิดที่ดี พวกเขาจะช่วยเหลือท่านในการปกครอง [realm|e] ของท่าน และจะช่วยท่านสร้างความมั่นคงให้กับอนาคตของ [dynasty|e] ของท่าน\n\nตอนนี้ท่านยังไม่ได้สมรส ไฉนเราไม่ทำอะไรสักอย่างเกี่ยวกับเรื่องนี้เล่า?"
+ lesson_china_find_spouse_tt: "$lesson_basics_quick_find_spouse_tt$"
+
+ lesson_china_marriage_window: "$lesson_basics_quick_this_is_you_2$"
+ lesson_china_marriage_window_desc: "การค้นหา [spouse|E] ที่เหมาะสมนั้นไม่ใช่เรื่องง่าย แต่มีบางสิ่งที่ควรคำนึงถึง:\n\n$EFFECT_LIST_BULLET$ความสามารถ: [skills|E] ของพวกเขาจะถูกเพิ่มเข้ามาให้กับท่าน\n$EFFECT_LIST_BULLET$พันธุกรรม: [congenital_traits|E] เช่น [GetTrait('lisping').GetName( GetNullCharacter )] อาจถูกถ่ายทอดไปยัง [children|E] ของท่าน\n$EFFECT_LIST_BULLET$ชนชั้นสูง: การ แต่งงานกับ [lowborn|E] จะ ทำให้ท่านสูญเสีย [prestige|E]"
+
+ lesson_china_married_great_job: "$lesson_basics_quick_married_great_job$"
+ lesson_china_married_great_job_desc: "ยินดีด้วยที่ได้สมรส!\n\nหากไม่มีสมาชิกที่ยังมีชีวิตอยู่ของ [dynasty|e] ของท่านหลงเหลืออยู่เลยหลังจากที่ตัวละครของท่านสิ้นชีพ ท่านจะแพ้ในเกม การมี $game_concept_spouse$ สามารถช่วยท่านป้องกันสิ่งนี้ได้"
+
+ lesson_china_this_is_you_3: "$lesson_basics_quick_this_is_you_3$"
+ lesson_china_this_is_you_3_desc: "เหล่านี้คือ [traits|e] (ลักษณะนิสัย) ของตัวละครท่าน! ดังที่ท่านเห็น เขาเป็นคน @ambitious_icon_tutorial![Nbsp][GetTrait('ambitious').GetName( GetNullCharacter )], @compassionate_icon_tutorial![Nbsp][GetTrait('compassionate').GetName( GetNullCharacter )], และ @gregarious_icon_tutorial![Nbsp][GetTrait('gregarious').GetName( GetNullCharacter )]\n\n#TUT $game_concept_traits$ (ลักษณะนิสัย) ส่งผลต่อวิธีที่ตัวละครของท่านตอบสนองต่อเหตุการณ์ต่างๆ ในโลกของเกม ท่านยังสามารถได้รับลักษณะนิสัยใหม่ๆ ได้ในขณะที่ท่านเล่น#!"
+
+ lesson_china_skills: "$lesson_basics_quick_skills$"
+ lesson_china_skills_desc: "$lesson_basics_quick_skills_desc$"
+
+ lesson_china_house: "$game_concept_house$"
+ lesson_china_house_desc: "นี่คือ [house|E] (ตระกูล) ของท่าน, #V ตระกูล [GetPlayer.GetHouse.GetNameNoTooltip]#!; ครอบครัวของ [nobles|E] (ขุนนาง) ชาวจีน\n\nในฐานะ [house_head_head|E] (ประมุขแห่งตระกูล) ของ $game_concept_house$ ท่าน ถูกคาดหวังให้นำพาสมาชิกของ $game_concept_house$ ของท่านไปสู่ความสำเร็จภายในรัฐบาลจีน\n\n$game_concept_house$ ของท่านนั้นเล็ก แต่จะเติบโตขึ้นเมื่อเวลาผ่านไปเมื่อมี [children|E] ถือกำเนิดเข้ามา\n\n#TUT แต่ละ [house|E] (ตระกูล) จะสังกัด [dynasty|E] (สายตระกูล) อย่างไรก็ตาม ตระกูล [GetPlayer.GetHouse.GetNameNoTooltip] นั้นเล็กมากจน $game_concept_house$ และ $game_concept_dynasty$ ถือเป็นสิ่งเดียวกัน#!"
+
+ lesson_china_realm: "$game_concept_realm$"
+ lesson_china_realm_desc: "พื้นที่นี้แสดง [realm|E] (เขตปกครอง) ของท่าน หรือพูดง่ายๆ ก็คือ ดินแดนและทรัพยากรที่ท่านควบคุม\n\nเนื่องจากท่านเป็นเพียงสุภาพบุรุษผู้ถ่อมตน ท่านจึงไม่มี [land|e] (ดินแดน) ซึ่งหมายความว่า $game_concept_realm$ ของท่านมีจำกัด หากต้องการได้มา ซึ่งดินแดน ท่านสามารถพยายามที่จะเป็น [governor|e] (ผู้ว่าการ) ได้ เรื่องนี้ไว้ค่อยว่ากันทีหลัง"
+
+ lesson_china_titles: "$game_concept_titles$"
+ lesson_china_titles_desc: "ท่านถือ [title|E] (ตำแหน่งยศ) เพียงหนึ่งเดียว $game_concept_titles$ (ตำแหน่งยศ) แสดงถึงความเป็นเจ้าของดินแดน\n\n$game_concept_title$ (ตำแหน่งยศ) เดียวของท่าน คือ [GetPlayer.GetPrimaryTitle.GetName] มอบกรรมสิทธิ์ใน [estate|E] (ที่ดินส่วนตัว) ของตระกูลท่านให้แก่ท่าน เราจะกลับมาที่ $game_concept_estate$ (ที่ดินส่วนตัว) นี้ในไม่ช้า\n\n#TUT เมื่อท่านปกครอง [province|E] (มณฑล) ในฐานะ [governor|E] (ผู้ว่าการ) มันจะปรากฏเป็น $game_concept_title$ (ตำแหน่งยศ) ในพื้นที่นี้ด้วย#!"
+
+ lesson_china_relationships: "$lesson_basics_quick_relationships$"
+ lesson_china_relationships_desc: "ในส่วนนี้ ท่านสามารถเห็น [characters|e] (ตัวละคร) อื่นๆ ที่หลากหลายที่ท่านมีความเชื่อมโยงด้วย ซึ่ง รวมถึง [family|e] (ครอบครัว) ของท่าน ทุกคนที่ท่านมี [relationship|e] (ความสัมพันธ์) ด้วย [courtiers|e] (ข้าราชบริพาร) ของท่าน และ [subjects|E] (ผู้อยู่ใต้ปกครอง) ของท่าน"
+
+ lesson_china_liege_introduction: "$game_concept_liege$"
+ lesson_china_liege_introduction_desc: "[liege|e] (เจ้านาย) ของท่านคือ [son_of_heaven|e] (โอรสสวรรค์) จักรพรรดิแห่งแผ่นดินจีน หนึ่งในวิธีที่ท่านสามารถมีปฏิสัมพันธ์กับพระองค์ได้คือการคลิกขวาที่พระองค์\n\nนี่จะเป็นการเปิดเมนูปฏิสัมพันธ์ ซึ่งช่วยให้ท่านสามารถ เช่น #high ค้นหาผู้อาวุโส#! หรือ #high ร้องขอการชี้แนะ#! ได้"
+ lesson_china_find_elder_tt: "คลิกขวาที่ $game_concept_liege$ (เจ้านาย) ของท่าน"
+
+ lesson_china_liege_introduction_good_job: "ตัวละครอื่นๆ"
+ lesson_china_liege_introduction_good_job_desc: "ทำได้ดีมาก! ท่านสามารถมีปฏิสัมพันธ์กับ [characters|e] (ตัวละคร) ส่วนใหญ่ได้โดยการคลิกขวาที่พวกเขา\n\nบางทีท่านอาจต้องการ [GetScheme('seduce').GetTypeName] [spouse|e] (คู่ครอง) ของท่าน หรือ #high ให้การศึกษา #! แก่พี่น้องที่อายุน้อยกว่าของท่าน?"
+
+ lesson_china_resources_1: "$lesson_basics_quick_resources_1$"
+ lesson_china_resources_1_desc: "ต่อไป เรามาดูแถบที่มุมบนขวาของหน้าจอกัน\n\nที่นี่ ท่านจะพบกับทรัพยากรจำนวนหนึ่ง ซึ่งสามารถใช้เพื่อมีปฏิสัมพันธ์กับโลกได้ในหลากหลายวิธี"
+
+ lesson_china_resources_gold: "$lesson_basics_quick_resources_gold$"
+ lesson_china_resources_gold_desc: "$lesson_basics_quick_resources_gold_desc$"
+
+ lesson_china_resources_prestige: "$lesson_basics_quick_resources_prestige$"
+ lesson_china_resources_prestige_desc: "$lesson_basics_quick_resources_prestige_desc$"
+
+ lesson_china_resources_piety: "$lesson_basics_quick_resources_piety$"
+ lesson_china_resources_piety_desc: "[piety_i|e] [piety|e] (ศรัทธา) คือทรัพยากรที่สะท้อนว่าตัวละครของท่านมีคุณธรรมเพียงใด\n\n[piety_level|e] (ระดับศรัทธา) ของท่านก็จะเพิ่มขึ้นตาม $game_concept_piety$ (ศรัทธา) ที่ท่านสะสมไว้ การมุ่งเน้นไปที่ [learning_i|e][learning|e] (การเรียนรู้) อาจเป็นความคิดที่ดีสำหรับตัวละครที่อุทิศตนเป็นพิเศษ"
+
+ lesson_china_resources_influence: "@influence_icon! $game_concept_influence$"
+ lesson_china_resources_influence_desc: "[influence_i] [influence|e] (อิทธิพล) คือความสามารถของท่านในการ ทำให้ผู้อื่นรับฟังสิ่งที่ท่านพูด เมื่อท่านได้รับ $game_concept_influence$ (อิทธิพล) [influence_level|e] (ระดับอิทธิพล) ของท่านก็จะเพิ่มขึ้นด้วย\n\nในฐานะทรัพยากร $game_concept_influence$ (อิทธิพล) ส่วนใหญ่จะถูกใช้เพื่อส่งเสริมผู้สมัครที่ท่านต้องการให้เป็น [governor|E] (ผู้ว่าการ) ของ [province|E] (มณฑล)"
+ 
+ lesson_china_resources_renown: "$lesson_basics_quick_resources_renown$"
+ lesson_china_resources_renown_desc: "$lesson_basics_quick_resources_renown_desc$"
+ 
+ lesson_china_estate_heading: "ที่ดินส่วนตัวของตระกูลท่าน"
+ 
+ lesson_china_open_estate: "$lesson_china_estate_heading$"
+ lesson_china_open_estate_desc: "ในฐานะ [house_head_head|E] (ประมุขแห่งตระกูล) ของ [house|E] (ตระกูล) ท่าน ท่านมี [estate|E] (ที่ดินส่วนตัว)\n\nนี่คือฐานอำนาจส่วนตัวของท่าน และการลงทุนใดๆ ที่ท่านทำลงไปจะอยู่กับท่านไปตลอดทั้งเกม\n\nมันตั้งอยู่ใน [GetPlayer.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip] และจะยังคงอยู่ที่นี่ แม้ว่าท่านจะไปเป็น [governor|E] (ผู้ว่าการ) ที่อื่นก็ตาม"
+ lesson_china_open_estate_prompt: "เปิดที่ดินส่วนตัวของท่าน (เน้นสี)"
+
+ lesson_china_estate_intro: "$lesson_china_estate_heading$"
+ lesson_china_estate_intro_desc: "ผลประโยชน์ที่ท่านได้รับจาก [estate|E] (ที่ดินส่วนตัว) ของท่านมาจาก [estate_buildings|E] (สิ่งปลูกสร้างในที่ดิน) ดังนั้น เรามาสร้างสักหนึ่งหลังตอนนี้เลย!"
+ lesson_china_estate_intro_prompt: "เลือกช่องสิ่งปลูกสร้างที่ว่างอยู่ (เน้นสี)"
+
+ lesson_china_estate_build_list: "$lesson_china_estate_heading$"
+ lesson_china_estate_build_list_desc: "[estate_building|E] (สิ่งปลูกสร้างในที่ดิน) ที่เพิ่มรายได้ [gold|E] (ทอง) ของท่าน เช่น $rice_field_01_domicile_building|V$ ถือเป็นการเริ่มต้นที่ดี\n\nอย่างไรก็ตาม เชิญเลือกสิ่งปลูกสร้างใดก็ได้ที่ท่านชอบ"
+ lesson_china_estate_build_list_prompt: "สร้าง $game_concept_estate_building$ (สิ่งปลูกสร้างในที่ดิน) ใดก็ได้"
+
+ lesson_china_estate_manor: "$lesson_china_estate_heading$"
+ lesson_china_estate_manor_desc: "การก่อสร้างกำลังดำเนินการ ดีมาก!\n\nท่านอาจสังเกตเห็นว่าท่านถูกจำกัดจำนวนช่องที่ท่านสามารถสร้าง [estate_buildings|E] (สิ่งปลูกสร้างในที่ดิน) ได้ เพื่อเพิ่มพื้นที่สำหรับสิ่งปลูกสร้างมากขึ้น ท่านจะต้องอัปเกรดสิ่งปลูกสร้าง #V Manor#! (คฤหาสน์) ส่วนกลางของท่านในที่สุด"
+ lesson_china_estate_manor_prompt: "เลือกคฤหาสน์ของท่าน (เน้นสี)"
+
+ lesson_china_estate_manor_selected: "$lesson_china_estate_heading$"
+ lesson_china_estate_manor_selected_desc: "[estate_buildings|E] (สิ่งปลูกสร้างในที่ดิน) ทั้งหมดสามารถอัปเกรดได้ และคฤหาสน์ของท่านก็ เช่นกัน\n\nที่สำคัญ การอัปเกรดคฤหาสน์ของท่านจะ ทำให้ท่านมีช่องสำหรับ $game_concept_estate_buildings$ (สิ่งปลูกสร้างในที่ดิน) มากขึ้น\n\nการอัปเกรดคฤหาสน์ของท่านนั้นค่อนข้างแพง ดังนั้นอย่าเพิ่งทำตอนนี้เลย"
+ 
+ lesson_china_estate_close: "$lesson_china_estate_heading$"
+ lesson_china_estate_close_desc: "ตอนนี้เราออกจากที่ดินส่วนตัวของท่านก่อน\n\nท่านต้องปิดหน้าต่างคฤหาสน์ของท่านก่อน แล้วจึงปิดหน้าต่างที่ดินส่วนตัว"
+ lesson_china_estate_close_prompt: "ปิดหน้าต่างที่ดินส่วนตัว"
+ 
+ lesson_china_estate_summary: "$lesson_china_estate_heading$"
+ lesson_china_estate_summary_desc: "ดังที่ได้กล่าวไปแล้ว [estate|E] (ที่ดินส่วนตัว) ของท่านคือทรัพย์สินส่วนตัวของท่านเอง\n\nมันจะติดตามท่านไปเมื่อท่านเริ่มเล่นเป็น [player_heir|E] (ทายาท) ของท่านในที่สุด\n\nแม้ว่าท่านอาจจะได้เป็น [governor|E] (ผู้ว่าการ) ของ [province|E] (มณฑล) ที่มั่งคั่งในที่สุด การลงทุนใดๆ ที่ทำที่นั่นถือเป็นของรัฐ\n\nดังนั้น การใช้ [gold|E] (ทอง) ที่ท่านได้รับมาเพื่อปรับปรุง [estate|E] (ที่ดินส่วนตัว) ของท่านจึงเป็นความคิดที่ดี!"
+
+ lesson_china_admin_intro: "อาชีพข้าราชการ"
+ lesson_china_admin_intro_desc: "แม้จะเป็นเรื่องดี แต่ท่านไม่ควรใช้เวลาทั้งชีวิตอยู่ใน [estate|E] (ที่ดินส่วนตัว) ของท่าน\n\nในฐานะขุนนาง ท่านถูกคาดหวังให้พิสูจน์ [merit|E] (ความดีความชอบ) ของท่านและไต่เต้าตำแหน่งขึ้นไป เพื่อเป็น [governor|E] (ผู้ว่าการ) และอาจถึงขั้นเป็น [minister|E] (เสนาบดี)"
+
+ lesson_china_admin_merit: "$lesson_china_admin_intro$"
+ lesson_china_admin_merit_desc: "นี่คือ [merit_level|E] (ระดับความดีความชอบ) ปัจจุบันของท่าน\n\n$game_concept_merit_level$ (ระดับความดีความชอบ) ของท่านใช้วัดความคู่ควรและจุดยืนของท่านในระบบข้าราชการของจักรวรรดิ อันดับต่ำที่สุดคือ #V อันดับ 9#! และอันดับสูงสุดคือ #V อันดับ 1#!\n\nณ จุดนี้ ท่านยังไม่ได้พิสูจน์ตนเองเลย ดังนั้นท่านจึงไม่มี $game_concept_merit_level$ (ระดับความดีความชอบ) และไม่มีสิทธิ์ที่จะเป็น [governor|E] (ผู้ว่าการ)"
+
+ lesson_china_admin_open: "$lesson_china_admin_intro$"
+ lesson_china_admin_open_desc: "มาเพิ่ม [merit_level|E] (ระดับความดีความชอบ) ของเรากันเถอะ!"
+ lesson_china_admin_open_prompt: "เปิดแผง '$ADMINISTRATIVE_GOVERNMENT_HEADER$' (เน้นสี)"
+
+ lesson_china_exam: "$lesson_china_admin_intro$"
+ lesson_china_exam_desc: "จักรวรรดิเป็นระบบคุณธรรม และ [imperial_examinations|E] (การสอบคัดเลือกขุนนางหลวง) จะช่วยให้มั่นใจได้ว่าเฉพาะผู้ที่มีทักษะและคุณธรรมที่สุดเท่านั้นที่จะได้จัดการ [provinces|E] (มณฑล) ในฐานะ [governors|E] (ผู้ว่าการ)\n\nท่านสามารถเพิ่ม [merit_level|E] (ระดับความดีความชอบ) ของท่านได้โดยการเข้าร่วม [activities|E] (กิจกรรม) $activity_local_examination|V$ และ $activity_imperial_examination|V$\n\n$game_concept_examinations$ (การสอบคัดเลือก) นี้จัดขึ้นโดยทั้ง [governors|E] (ผู้ว่าการ) และ [son_of_heaven|E] (โอรสสวรรค์) เอง\n\nท่านจะได้รับคำเชิญเมื่อมีการจัดสอบขึ้น"
+
+ lesson_china_STUDY_SCHEME_SEGMENT: "การศึกษาเล่าเรียน"
+
+ TUTORIAL_OPEN_DECISION_PANEL_PROMPT: "เปิดแผง '$DECISIONS_VIEW_TITLE$'"
+
+ lesson_china_decisions_open: "$lesson_china_STUDY_SCHEME_SEGMENT$"
+ lesson_china_decisions_open_desc: "เมื่อท่านตัดสินใจเข้าร่วม [imperial_examination|E] การเตรียมตัวให้ดีจะช่วยได้\n\nท่านสามารถเตรียมตัวสำหรับ $game_concept_examinations$ ได้โดยการศึกษาคัมภีร์ขงจื๊อ"
+ lesson_china_decisions_open_prompt: "$TUTORIAL_OPEN_DECISION_PANEL_PROMPT$"
+
+ lesson_china_decisions: "$lesson_china_STUDY_SCHEME_SEGMENT$"
+ lesson_china_decisions_desc: "นี่คือการตัดสินใจ ซึ่งเป็นการกระทำส่วนตัวต่างๆ ที่ท่านสามารถทำได้\n\nสำหรับตอนนี้ ให้เลือก $tgp_china_study_confucian_classics_decision|V$"
+ lesson_china_decisions_prompt: "เริ่มการตัดสินใจ '$tgp_china_study_confucian_classics_decision$'"
+
+ lesson_china_stress: "$lesson_china_STUDY_SCHEME_SEGMENT$"
+ lesson_china_stress_desc: "ดีมาก ท่านได้เริ่มการศึกษาแล้ว!\n\nการศึกษาเล่าเรียนจะเพิ่ม [stress_i][stress|E] (ความเครียด) ของท่าน นอกจากนี้ $game_concept_stress$ (ความเครียด) มักจะได้รับหรือสูญเสียไปขึ้นอยู่กับว่าท่านปฏิบัติตนตาม [personality_traits|E] (ลักษณะนิสัย) ของท่านอย่างไร\n\nหากท่านได้รับ $game_concept_stress$ (ความเครียด) [GetDefine('NCharacter', 'STRESS_PER_LEVEL')|0V] [stress_level|E] (ระดับความเครียด) ของท่านจะเพิ่มขึ้นและสุขภาพจิตของท่านจะย่ำแย่\n\n#I จับตาดูตัวบ่งชี้ $game_concept_stress$ (ความเครียด) ที่เน้นสีไว้ เพื่อหลีกเลี่ยงสภาวะจิตใจแตกสลาย#!"
+
+ lesson_china_schemes_open: "$lesson_china_STUDY_SCHEME_SEGMENT$"
+ lesson_china_schemes_open_desc: "การศึกษาเล่าเรียนคือ [scheme|E] (แผนการ) อย่างหนึ่ง: โครงการส่วนตัวระยะยาว ลองมาดูสถานะของ $game_concept_scheme$ (แผนการ) ของท่านสักครู่"
+ lesson_china_schemes_open_prompt: "เปิดแผง 'อุบาย'"
+
+ lesson_china_schemes_list: "$lesson_china_STUDY_SCHEME_SEGMENT$"
+ lesson_china_schemes_list_desc: "นี่คือ [scheme|E] (แผนการ) $study_confucian_classics$ ของท่าน\n\nนี่คือ $game_concept_scheme$ (แผนการ) ที่ทำซ้ำ เมื่อเสร็จสิ้น มันจะคลี่คลายตาม [scheme_success_chance|E] (โอกาสสำเร็จของแผนการ) แล้วจึงเริ่มใหม่\n\nเนื่องจาก $game_concept_scheme$ (แผนการ) นี้เพิ่ม [stress|E] (ความเครียด) ของท่าน ในที่สุดท่านจะต้องละทิ้งมัน\n\n#I หากต้องการละทิ้ง $game_concept_scheme$ (แผนการ) ให้ใช้ปุ่มที่มุมบนขวาของ $game_concept_scheme$ (แผนการ)#"
+ 
+ lesson_china_unpause: "$lesson_basics_quick_resources_time$"
+ lesson_china_unpause_desc: "ในตอนนี้ เกมกำลังหยุดชั่วคราว ท่านสามารถควบคุมความเร็วของเวลาที่ดำเนินไปในโลกได้ที่มุมล่างขวา\n\n#TUT Crusader Kings III เป็นเกมที่ดำเนินไปตลอดช่วงเวลาหลายร้อยปี ดังนั้นเชิญใช้เวลาของท่านได้ตามสบาย#!\n\nในขณะที่เกมหยุดชั่วคราว จะไม่มีใครเป็นเจ้าภาพจัด [imperial_examination|E] (การสอบคัดเลือก) ให้ท่านเข้าร่วม และ [scheme|E] (แผนการ) $study_confucian_classics$ ของท่านก็จะไม่คืบหน้า เช่นกัน ดังนั้น เรามาเปิดเกมให้เดินต่อและรอคำเชิญกันเถอะ!"
+ lesson_china_unpause_tt: "$lesson_basics_quick_unpause_tt$"
+ 
+ lesson_china_done: "$lesson_basics_quick_done$"
+ lesson_china_done_desc: "ตอนนี้เกมกลับมาเดินต่อแล้ว และเวลากำลังดำเนินไป จากจุดนี้ไป ท่านมีอิสระที่จะกำหนดอนาคตของชื่อตระกูล [GetPlayer.GetHouse.GetName] แล้ว\n\n#TUT คอยมองหา @reactive_advice_icon! คำแนะนำเชิงโต้ตอบ ที่ปรากฏขึ้นที่ด้านบนของหน้าจอของท่านเพื่อรับคำแนะนำเพิ่มเติม!#!\n\nสำหรับตอนนี้ เป้าหมายที่สำคัญที่สุดของท่านคือการรอคอย [imperial_examination|E] (การสอบคัดเลือก) ครั้งต่อไปและเข้าร่วม"
+
+ # special reactive advice for china
+
+ action_reactive_advice_china_council: "คำแนะนำ: $ra_china_council_1$"
+ action_reactive_advice_china_council_desc: "ในฐานะ $game_concept_governor$ (ผู้ว่าการ) ท่านสามารถพึ่งพา $game_concept_council$ (สภา) ของท่านเพื่อช่วยในการบริหาร $game_concept_province$ (มณฑล) ของท่านได้ เปิดหน้านี้เพื่อรับคำแนะนำเกี่ยวกับวิธีการทำงานของสภา"
+ action_reactive_advice_china_council_click: "$click_to_open_lesson$"
+
+ ra_china_council_1: "สภาของผู้ว่าการ"
+ ra_china_council_1_desc: "ในฐานะ [governor|E] (ผู้ว่าการ) ท่านไม่จำเป็นต้องจัดการ [province|E] (มณฑล) ของท่านเพียงลำพัง ลองมาดู [council|e] (สภา) ของท่าน ซึ่งได้ขยายใหญ่ขึ้นตั้งแต่ก่อนที่ท่านจะเป็น $game_concept_governor$ (ผู้ว่าการ)"
+ ra_china_council_1_prompt: "$lesson_basics_council_view_tt$"
+ ra_china_council_2: "$ra_china_council_1$"
+ ra_china_council_2_desc: "นี่คือ [council|e] (สภา) ของท่าน ซึ่งประกอบด้วย [councillors|e] (สมาชิกสภา) หกคน รวม [spouse|e] (คู่ครอง) ของท่านด้วย\n\nพวกเขาสามารถ เช่น $task_collect_taxes|V$ หรือ $task_find_secrets|V$ ผ่านทาง [councillor_tasks|e] (ภารกิจของสมาชิกสภา)\n\nเมื่อท่านเป็น [governor|E] (ผู้ว่าการ) แล้ว พวกเขายังสามารถ $task_develop_county|V$ หรือ $task_conversion|V$ และอื่นๆ อีกด้วย"

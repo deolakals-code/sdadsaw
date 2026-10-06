@@ -1,0 +1,21 @@
+﻿l_english: 
+
+ ALL_SCHEMES:0 "แผนการทั้งหมด:"
+ ANY_SCHEME:0 "แผนการใด ๆ:"
+ ALL_OF_MY_SCHEMES:1 "แผนการทั้งหมดของท่าน:"
+ ANY_OF_MY_SCHEMES:1 "แผนการใด ๆ ของท่าน:"
+ ALL_OF_THEIR_SCHEMES:0 "แผนการทั้งหมดของ [CHARACTER.GetShortUINamePossessive]:"
+ ANY_OF_THEIR_SCHEMES:0 "แผนการใด ๆ ของ [CHARACTER.GetShortUINamePossessive]:"
+
+ ALL_SCHEME_AGENTS:0 "ผู้สมรู้ร่วมคิดทั้งหมดของแผนการ [SCHEME.GetFullActionName]:"
+ ANY_SCHEME_AGENT:0 "ผู้สมรู้ร่วมคิดใด ๆ ของแผนการ [SCHEME.GetFullActionName]:"
+ scheme_progress_trigger:0 "ความคืบหน้าของแผนการ"
+ scheme_success_chance_trigger:0 "โอกาสสำเร็จของแผนการ"
+ has_scheme_modifier_trigger:0 "มีผลกระทบต่อแผนการ"
+ can_start_scheme_trigger:0 "สามารถเริ่ม [scheme|E] ได้"
+ is_scheme_exposed_trigger:0 "[scheme|E] ถูกเปิดโปง"
+
+ NOT_WANTS_TO_BE_SOULMATES:1 "[TARGET_CHARACTER.GetShortUIName] ไม่ต้องการเป็นคู่แท้"
+ 
+ IS_SCHEMING_AGAINST_TRIGGER: "กำลัง [scheming|E] ต่อต้านตัวละครนี้"
+ AGENT_SLOT_CONTRIBUTION_TRIGGER: "การสนับสนุนของผู้สมรู้ร่วมคิด"

@@ -1,0 +1,8 @@
+﻿l_english: 
+ 
+ bested_rival_modifier:0 "เหนือกว่าคู่แข่ง"
+ bested_rival_modifier_desc:0 "ตัวละครนี้ไม่ยอมให้คู่แข่งของตนหยามเกียรติได้"
+ bested_nemesis_modifier:0 "เหนือกว่าศัตรูคู่อาฆาต"
+ bested_nemesis_modifier_desc:0 "ตัวละครนี้ไม่ยอมให้ศัตรูคู่อาฆาตของตนหยามเกียรติได้"
+ unpredictable_modifier:0 "คาดเดาไม่ได้"
+ unpredictable_modifier_desc:0 "ไม่มีผู้ใดล่วงรู้ได้ว่าตัวละครนี้จะมีปฏิกิริยา เช่นไร"

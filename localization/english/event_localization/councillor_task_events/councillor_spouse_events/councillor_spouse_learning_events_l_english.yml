@@ -1,0 +1,86 @@
+﻿l_english: 
+ #Different religion/culture notifications
+ councillor_spouse_learning.1001.religion.t:1 "คู่สมรสไกล่เกลี่ยกับข้าหลวง[councillor.GetFaith.GetAdjectiveNoTooltip]"
+ councillor_spouse_learning.1001.culture.t:1 "คู่สมรสไกล่เกลี่ยกับข้าหลวงชาว[councillor.GetCulture.GetNameNoTooltip]"
+
+ councillor_spouse_learning.1002.religion.t:1 "คู่สมรสไกล่เกลี่ยกับ[councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]ผู้[councillor.GetFaith.GetAdjectiveNoTooltip]"
+ councillor_spouse_learning.1002.culture.t:1 "คู่สมรสไกล่เกลี่ยกับ[councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]ชาว[councillor.GetCulture.GetNameNoTooltip]"
+
+ #Same religion/culture notifications
+ councillor_spouse_learning.1003.religion.desc:1 "คู่สมรสไกล่เกลี่ยกับราษฎร[councillor.GetFaith.GetAdjectiveNoTooltip]"
+ councillor_spouse_learning.1003.culture.desc:1 "คู่สมรสไกล่เกลี่ยกับราษฎรชาว[councillor.GetCulture.GetNameNoTooltip]"
+ councillor_spouse_learning.1301.t:1 "[councillor.GetCouncilTitle]:  โน้มน้าวการเปลี่ยนศาสนา"
+ councillor_spouse_learning.1302.t:1 "[councillor.GetCouncilTitle]:  โน้มน้าวการเปลี่ยนวัฒนธรรม"
+ councillor_spouse_learning.1303.desc:0 "คู่สมรสเป็นผู้อุปถัมภ์นักเทววิทยา"
+
+ #General learning notifications
+ councillor_spouse_learning.1601.desc:1 "คู่สมรสช่วยเหลือท่านในการศึกษา[ROOT.Char.Custom('LifestyleFocus')|U]"
+ councillor_spouse_learning.1602.t:1 "[tutored_child.Custom('GetDaughterSon')]เจริญก้าวหน้าภายใต้การสอนของคู่สมรส"
+ councillor_spouse_learning.1603.root_guardian.t:0 "เด็กในอุปถัมภ์ชื่นชมการสอนของคู่สมรส"
+ councillor_spouse_learning.1603.spouse_guardian.t:0 "เด็กในอุปถัมภ์ของคู่สมรสชื่นชมการสอนของ[councillor.GetHerHis|U]"
+ councillor_spouse_learning.1603.other_guardian.t:0 "เด็กในอุปถัมภ์ที่ราชสำนักชื่นชมการสอนของคู่สมรส"
+
+ add_patronage_spouse_education_points_effect.t:0 "เด็กได้รับประโยชน์จากการสอนของคู่สมรส"
+ add_patronage_spouse_education_points_effect.desc:1 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('patronage_student'))]ของข้า [patronage_student.GetTitledFirstName] มีแนวโน้มที่จะได้รับการ[education|E]ที่ดี เนื่องจากการสอนของ[councillor.GetTitledFirstNamePossessive]"
+ add_patronage_spouse_education_points_child_effect.desc:0 "[patronage_student.Custom('GetDaughterSon')]ของข้า [patronage_student.GetTitledFirstName] มีแนวโน้มที่จะได้รับการ[education|E]ที่ดี เนื่องจากการสอนของ[councillor.GetTitledFirstNamePossessive]"
+ 
+ #Events
+ councillor_spouse_learning.2601.t:1 "[councillor.GetCouncilTitle]:  การศึกษาขั้นสูง"
+ councillor_spouse_learning.2601.not_scholarly.desc:0 ""การอ่านหนังสือบ้างเป็นครั้งคราวก็ไม่เสียหายอะไร" [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]ของข้า [councillor.GetTitledFirstName]ผู้ใฝ่รู้ มักบอกข้า เช่นนั้น [councillor.GetSheHe|U]ได้เสนอตัวเป็นครูสอนพิเศษให้ข้า หากข้าต้องการความช่วยเหลือในการเริ่มต้น"
+ councillor_spouse_learning.2601.scholarly.desc:0 "ทุกครั้งที่[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]ของข้า [councillor.GetTitledFirstName]พบข้ากำลังก้มหน้าอ่านตำรา [councillor.GetSheHe]จะแสดงความตื่นเต้นอย่างเห็นได้ชัด\n\n"ท่านต้องการความช่วยเหลือในการศึกษาหรือไม่? ใครสักคนที่จะแลกเปลี่ยนความคิดเห็นด้วย หรืออาจจะเป็นตำราเล่มใหม่ๆ? ข้าเพิ่งได้ตำราเล่มหนึ่งมา ซึ่งมีการวิเคราะห์[ROOT.Char.Custom('education_conversation_subject')]อย่างยอดเยี่ยม!""
+ councillor_spouse_learning.2601.a:0 "ใช่ ข้าจะขอบคุณสำหรับการชี้แนะของท่าน"
+ councillor_spouse_learning.2601.b:0 "[tutoring_student_1.GetTitledFirstNameNoTooltip]ต้องการความช่วยเหลือจากท่านมากกว่าข้า"
+ councillor_spouse_learning.2601.c:0 "ท่านควรสอน[tutoring_student_2.GetTitledFirstNameNoTooltip]แทน"
+ councillor_spouse_learning.2601.d:0 "ท่านควรมุ่งเน้นไปที่การศึกษาของท่านเอง"
+ councillor_spouse_learning_2601_tutoring_effect.critical_success:0 "ความเข้าใจใน[THIS.Char.Custom('education_focus')]ของ[THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U]เพิ่มขึ้นอย่างมาก"
+ councillor_spouse_learning_2601_tutoring_effect.success:0 "ความเข้าใจใน[THIS.Char.Custom('education_focus')]ของ[THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U]เพิ่มขึ้น"
+ 
+
+ councillor_spouse_learning.2001.faith.t:1 "[councillor.GetCouncilTitle]:  ผู้เห็นต่างใน[councillor.GetFaith.GetAdjectiveNoTooltip]"
+ councillor_spouse_learning.2001.culture.t:1 "[councillor.GetCouncilTitle]:  ผู้เห็นต่างใน[councillor.GetCulture.GetNameNoTooltip]"
+ councillor_spouse_learning.2001.start.desc:0 "[faction_leader.GetTitledFirstName] และพรรคพวกของ [faction_leader.GetHerHis]"
+ councillor_spouse_learning.2001.faith.desc:0 "[councillor.GetFaith.GetAdjectiveNoTooltip]"
+ councillor_spouse_learning.2001.culture.desc:0 "ชาว[councillor.GetCulture.GetNameNoTooltip]"
+ councillor_spouse_learning.2001.middle.desc:0 "ผู้สมรู้ร่วมคิดใน[different_culture_or_faith_faction.GetName]ไม่เคยให้ข้าได้พักผ่อนเลย!"
+ councillor_spouse_learning.2001.independence_faction.desc:0 "พวกเขาควรจะเป็นราษฎรผู้ภักดี แต่ข้ารู้ว่าพวกเขาวางแผนที่จะหันมาต่อต้านข้า"
+ councillor_spouse_learning.2001.liberty_faction.desc:0 "พวกเขาพยายามบ่อนทำลายอำนาจของข้าทุกครั้งที่มีโอกาส"
+ councillor_spouse_learning.2001.claimant_faction.desc:0 "พวกโจรไร้เกียรติเหล่านั้นพยายามที่จะยึดครองดินแดน ซึ่งเป็นของข้าโดยชอบธรรม"
+ councillor_spouse_learning.2001.end.desc:0 "\n\nโชคดีที่ในฐานะ "คนของพวกเขาเอง" [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]ของข้า [councillor.GetTitledFirstName]มีอิทธิพลต่อพวกเขาอยู่บ้าง [councillor.GetSheHe|U]ได้เสนอตัวเป็นผู้ไกล่เกลี่ยและต้องการทราบว่าจะดำเนินการอย่างไรต่อไป"
+ councillor_spouse_learning.2001.a.faith:0 "เอาใจสมาชิกกลุ่ม[councillor.GetFaith.GetAdjectiveNoTooltip]"
+ councillor_spouse_learning.2001.a.culture:0 "เอาใจสมาชิกกลุ่มชาว[councillor.GetCulture.GetNameNoTooltip]"
+ councillor_spouse_learning.2001.a.faction_members_faith:0 "สมาชิก[councillor.GetFaith.GetAdjective]ทุกคนของ[different_culture_or_faith_faction.GetName]"
+ councillor_spouse_learning.2001.a.faction_members_culture:0 "สมาชิกชาว[councillor.GetCulture.GetName]ทุกคนของ[different_culture_or_faith_faction.GetName]"
+ councillor_spouse_learning.2001.b:0 "ทำให้[faction_member_1.GetTitledFirstNameNoTooltip]ออกจากกลุ่ม"
+ councillor_spouse_learning.2001.c:0 "โน้มน้าวให้[faction_member_2.GetTitledFirstNameNoTooltip]ยังคงภักดีต่อข้า"
+
+ councillor_spouse_learning.2301.t:1 "[councillor.GetCouncilTitle]:  พลังอำนาจที่สูงส่งกว่า"
+ councillor_spouse_learning.2301.desc:0 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]ของข้า [councillor.GetTitledFirstName]ได้กลายเป็นบุคคลที่มีชื่อเสียงในโลกศาสนา การอุปถัมภ์ของ[councillor.GetHerHis|U]ต่อนักวิชาการ[councillor.GetFaith.GetAdjectiveNoTooltip] [councillor.GetFaith.HouseOfWorshipPlural] และคณะนักบวชต่างๆ ได้ดึงดูดความสนใจของ[religious_head.GetTitledFirstName] [religious_head.GetHerselfHimself]ด้วยซ้ำ\n\nความกตัญญูของ[religious_head.GetTitleAsNamePossessiveNoTooltip]มาพร้อมกับผลประโยชน์อันทรงพลัง [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]ของข้าได้เสนอที่จะติดต่อ[religious_head.GetHerHim]ในนามของข้า"
+ councillor_spouse_learning.2301.a:0 "ท่านช่วยแนะนำให้รู้จักได้หรือไม่?"
+ councillor_spouse_learning.2301.a.success:0 "ข้าได้ผูกมิตรกับ[religious_head.GetTitledFirstName]"
+ councillor_spouse_learning.2301.b:0 "[religious_head.GetSheHe]สามารถทำอะไรตอบแทนเราได้บ้าง?"
+ councillor_spouse_learning.2301.c:0 "นี่เป็นโอกาสของข้าที่จะได้รับการต้อนรับกลับเข้าสู่ชุมชนศักดิ์สิทธิ์!"
+ councillor_spouse_learning.2301.d:0 "จงแจ้งให้[religious_head.GetHerHim]ทราบ – ทุกสิ่งที่เราทำ เราทำเพื่อ[councillor.GetFaith.HighGodName]"
+
+ councillor_spouse_learning.2602.t:1 "[councillor.GetCouncilTitle]:  ขยายวิสัยทัศน์"
+ councillor_spouse_learning.2602.not_root.desc:0 "แม้ว่า[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('student'))]ของข้า [student.GetTitledFirstName]จะรู้เรื่อง[student.Custom('highest_skill_noun')]อยู่บ้าง แต่[councillor.GetTitledFirstName]คิดว่าถึงเวลาแล้วที่[student.GetHerHim]จะเปิดโลกทัศน์ของ[student.GetHerHis]ให้กว้างขึ้น\n\n"ข้าสามารถหาตำราใหม่ๆ เตรียมงานมอบหมายสองสามอย่าง สอนพิเศษ[student.GetHerHim]เล็กน้อย ท่านคิดว่าวิชาใดจะเป็นประโยชน์ต่อ[student.GetFirstNameNoTooltip]มากที่สุด?""
+ councillor_spouse_learning.2602.root.desc:0 ""แม้ว่าท่านจะรู้เรื่อง[student.Custom('highest_skill_noun')]อยู่บ้าง แต่[student.GetTitleTierName]แห่ง[student.GetPrimaryTitle.GetNameNoTierNoTooltip]ควรมีทักษะที่หลากหลาย" [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]ของข้ากล่าว [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('councillor'))]\n\n"ข้าสามารถหาตำราใหม่ๆ เตรียมงานมอบหมายสองสามอย่าง สอนพิเศษท่านเล็กน้อย ท่านสนใจวิชาใดมากที่สุด?""
+ councillor_spouse_learning.2602.a:0 "การทูต"
+ councillor_spouse_learning.2602.b:0 "ทฤษฎีการทหาร"
+ councillor_spouse_learning.2602.c:0 "เศรษฐกิจอาณาจักร"
+ councillor_spouse_learning.2602.d:0 "การจัดการเครือข่ายสายลับ"
+ councillor_spouse_learning.2602.e:0 "เทววิทยา"
+
+ councillor_spouse_learning.1304.desc:0 "คู่สมรสเป็นผู้อุปถัมภ์[religious_vassal.GetFaith.AltPriestTermPlural]"
+ councillor_spouse_learning.1305.desc:0 "ความศรัทธาของคู่สมรสสร้างความประทับใจให้แก่[religious_head.GetTitleAsNameNoTooltip]"
+
+
+
+ councillor_spouse_learning.2603.t:1 "[councillor.GetCouncilTitle]:  คู่ควรกับภาระหน้าที่"
+ councillor_spouse_learning.2603.desc:0 "ที่ปรึกษาบางคนของข้าเชื่อว่าตำแหน่งเป็นของพวกเขาโดยสิทธิ์ทางสายเลือดหรืออิทธิพลเพียงอย่างเดียว – พวกเขาคิดผิดเสียแล้ว! ข้าคาดหวังผลลัพธ์ แต่ข้ามักจะผิดหวัง\n\nหลังจากวันที่ยาวนาน ข้ากำลังบ่นกับ[councillor.GetFirstName]เมื่อ[councillor.GetSheHe]ขัดจังหวะข้า "ให้ข้าทำอะไรบางอย่างเกี่ยวกับเรื่องนี้เถิด [ROOT.Char.GetWifeHusband] บทเรียนสองสามบทอาจ ทำให้ปัญญาของพวกเขาเฉียบแหลมขึ้น""
+ councillor_spouse_learning.2603.a:0 "[chancellor.GetCouncilTitle|U] [chancellor.GetFirstNameNoTooltip]น่าจะต้องการครูสอนพิเศษ"
+ councillor_spouse_learning.2603.b:0 "[marshal.GetCouncilTitle|U] [marshal.GetFirstNameNoTooltip]จะได้รับประโยชน์จากความช่วยเหลือของท่าน"
+ councillor_spouse_learning.2603.c:0 "สอนบทเรียนสองสามบทแก่[steward.GetCouncilTitle]ของข้า [steward.GetFirstNameNoTooltip]"
+ councillor_spouse_learning.2603.d:0 "บางทีท่านอาจมีคำแนะนำสำหรับ[spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip]"
+ councillor_spouse_learning.2603.e:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip]ต้องการคำชี้แนะบางอย่าง"
+ councillor_spouse_learning.2603.f:0 "อยู่กับข้าที่นี่แทนเถอะ..."
+ 

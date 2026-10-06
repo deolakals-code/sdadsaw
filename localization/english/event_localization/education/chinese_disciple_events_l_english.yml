@@ -1,0 +1,358 @@
+﻿l_english: 
+
+  # Event 0002 - Rivalry During Teaching
+  chinese_students.0002.t:0 "ขาดวินัย"
+  chinese_students.0002.desc:0 ""[ROOT.Char.Custom('TeachingsAccordingToMovement')]."\n\nข้าหยุด เพื่อให้ถ้อยคำซึมซับ แต่ [second_student.GetName] ก็ฉวยโอกาสนี้ ด้วยการเหลือบมองอย่างมีจริตไปยัง [first_student.GetName] [second_student.GetSheHe] ก็กระแอมในลำคอของ[second_student.GetHerHis] "[ROOT.Char.Custom('TeachingResponsesAccordingToMovement')]" [second_student.GetSheHe] ตอบกลับ\n\nสองคนนี้ไม่ลงรอยกันมาตลอดสัปดาห์แล้ว"
+
+  # Options for Event 0002
+  chinese_students.0002.a:0 "การแข่งขันที่เป็นประโยชน์ก็ไม่ผิดอะไร!"
+  chinese_students.0002.a.tooltip:0 "ศิษย์ทั้งสองจะได้รับบารมี กลายเป็นการแข่งขันกันมากขึ้น และชื่นชมการชี้แนะของท่าน ท่านอาจได้รับความเครียดขึ้นอยู่กับอุปนิสัยของท่าน"
+
+  chinese_students.0002.b:0 "การได้รับความโปรดปรานจากตระกูล [most_renowned_student.GetHouse.GetNameNoTooltip] อาจเป็นประโยชน์"
+  chinese_students.0002.b.tooltip:0 "ศิษย์จากราชวงศ์ที่มีชื่อเสียงที่สุดจะได้รับบารมีและความชื่นชม ( เช่นเดียวกับประมุขราชวงศ์ของพวกเขา) ส่วนอีกคนจะขุ่นเคืองในความลำเอียงของท่าน"
+
+  chinese_students.0002.c:0 "[underdog.GetShortUINameNoTooltip] ต้องเรียนรู้สถานะของ[underdog.GetHerHis]"
+  chinese_students.0002.c.tooltip:0 "ผู้ที่เป็นรองจะสูญเสียบารมีและได้รับความเครียด ในขณะที่ผู้ที่เหนือกว่าจะได้รับบารมี ผู้ที่เป็นรองจะขุ่นเคืองในความเข้มงวดของท่าน"
+
+  chinese_students.0002.d:0 "[overdog.GetShortUINameNoTooltip] ควรรู้ดีกว่านี้!"
+  chinese_students.0002.d.tooltip:0 "ผู้ที่เหนือกว่าจะสูญเสียบารมีและได้รับความเครียด ในขณะที่ผู้ที่เป็นรองจะได้รับบารมี ผู้ที่เหนือกว่าจะขุ่นเคืองในความเข้มงวดของท่าน"
+
+  chinese_students.0002.e:0 "ทั้งคู่สมควรได้รับบทเรียนเรื่องความถ่อมตน"
+  chinese_students.0002.e.tooltip:0 "ศิษย์ทั้งสองจะถูกตำหนิ ทำให้เกิดความเครียดและความขุ่นเคือง ท่านจะได้รับความเครียดบ้างจากการหยุดชะงัก แต่ก็จะได้รับบารมีบ้างจากการบังคับใช้วินัย"
+
+  # Event 0003 - After the Rivalry Lesson
+  chinese_students.0003.t: "$chinese_students.0002.t$"
+
+  # Dynamic descriptions
+  chinese_students.0003.desc.intro: ""[mentor.Custom('TeachingsAccordingToMovement')]."\n\nขณะที่ [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))] ของข้า [mentor.GetTitledFirstName] ถ่ายทอดปัญญา [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('second_student'))] ของข้า [second_student.GetTitledFirstName] ก็กระแอมในลำคอของ[second_student.GetHerHis] และตอบกลับว่า "[ROOT.Char.Custom('TeachingResponsesAccordingToMovement')]" พลางเหลือบมองมาที่ข้า\n\n"
+
+  chinese_students.0003.desc.encourage_both: "[ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))] ของเรากระตุ้นการแข่งขัน บัดนี้การแข่งขันจะเข้มข้นขึ้นในทุกบทเรียน"
+  chinese_students.0003.desc.punish_both: "[ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))] ของเราตำหนิเราทั้งคู่อย่างเผ็ดร้อน"
+  chinese_students.0003.desc.favor: "[ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))] ของเราพูดตัดบท [second_student.GetHerHim] และสอนต่อเพียงแค่จ้องเขม็งไปในทิศทางของ[second_student.GetHerHis]"
+  chinese_students.0003.desc.disfavor: "[ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))] ของเรารับฟัง [second_student.GetHerHim] อย่างเมตตาและขมวดคิ้วมาทางข้าชั่วขณะ ข้ารู้สึกอับอายจนหูร้อนผ่าว"
+
+  # Options for Event 0003
+  chinese_students.0003.a: "ข้าจะพิสูจน์ให้ [second_student.GetTitledFirstNameNoTooltip] เห็นว่าคิดผิด!"
+  chinese_students.0003.b: "ไม่สำคัญนัก ความสงบคือจุดแข็งของข้า"
+  chinese_students.0003.c: "ให้ทุกคนรู้ว่าข้าเป็นฝ่ายชนะ!"
+  chinese_students.0003.d: "ชัยชนะเรียกร้องความถ่อมตน"
+  chinese_students.0003.e: "ข้าจะแก้แค้นให้จงได้!"
+  chinese_students.0003.f: "ข้าจะเรียนรู้จากความล้มเหลวครั้งนี้"
+
+  # Opinion Modifiers
+  opinion_mentor_appreciation:0 "ชื่นชมการชี้แนะของอาจารย์"
+  opinion_mentor_favoritism_positive:0 "ชื่นชมที่ได้รับความโปรดปราน"
+  opinion_mentor_favoritism_negative:0 "ขุ่นเคืองความลำเอียง"
+  opinion_mentor_strict_negative:0 "ขุ่นเคืองความเข้มงวดของอาจารย์"
+
+  TeachingsAccordingToMovementProHegemon_Teaching: "แกนหมุนแห่งสวรรค์ แม้มองไม่เห็น แต่ก็ขับเคลื่อนทุกสิ่งใต้หล้า เมื่อคุณธรรมตั้งมั่นณศูนย์กลางแห่งอาณาจักร ความสามัคคีก็บังเกิด"
+  TeachingsAccordingToMovementExpansion_Teaching: "เมื่อตลิ่งพังทลาย อาจมีเพียงไม่กี่คนที่ล้มตาย แต่กลับหล่อเลี้ยงผืนนาใหม่เพื่อผู้คนมากมาย ฉันใดก็ฉันนั้น ความยิ่งใหญ่เผยตัวในความกล้าที่จะโอบรับดินแดนไกลโพ้น"
+  TeachingsAccordingToMovementAdvancement_Teaching: "การดูแลสวนภายในกำแพงเติมเต็มอากาศด้วยกลิ่นหอมที่ดึงดูดผู้อื่นเข้ามาใกล้ ความแข็งแกร่งและเกียรติยศที่แท้จริงเติบโตจากรากที่หยั่งลึกในดินที่ได้รับการพรวนอย่างดีเท่านั้น"
+  TeachingsAccordingToMovementConservative_Teaching: "แม้จะเงียบสงัดในโถงแห่งบรรพชน แต่จงฟังให้ดี แล้วท่านจะได้ยินเสียงสะท้อนอันยั่งยืนที่จะนำทางทุกย่างก้าว จงให้เกียรติเส้นทางที่เหยียบย่ำมา ซึ่งนำเรามาสู่ช่วงเวลานี้"
+  TeachingsAccordingToMovementUndecided_Teaching: "เมื่อลมเปลี่ยนทิศ ผู้มีปัญญาย่อมนำใบเรือเพื่อรับพลังของมัน การร่ายรำของการยับยั้งชั่งใจและความทะเยอทะยาน ประเพณีและการเปลี่ยนแปลง การแสวงหาความสมดุลชั่วนิรันดร์ ควรสถิตนำทางท่านทั้งในการปกครองและชีวิต"
+  TeachingsAccordingToMovementFallback_Teaching: "แม้ตะเกียงโดดเดี่ยวก็ขจัดความมืดมิดได้ ปัญญามิจำเป็นต้องมีธงนำทาง"
+
+  TeachingsAccordingToMovementProHegemon_Response: "มีผู้ที่สรรเสริญแกนกลางเสียงดัง จนลืมหน้าที่ของตนในฐานะซี่ล้อที่จะยึดวงล้อไว้ด้วยกัน"
+  TeachingsAccordingToMovementExpansion_Response: "ข้าเคยเห็นบางคนมุ่งมั่นกับผืนนาใหม่ จนละเลยการรักษาสันติสุขในสวนของตนเอง"
+  TeachingsAccordingToMovementAdvancement_Response: "บ้างก็ไล่ตามบุปผาไกลโพ้นและเรียกมันว่าเกียรติยศ ทว่าลืมเลือนผลไม้ที่ค้ำจุนบ้านของตนเอง"
+  TeachingsAccordingToMovementConservative_Response: "ข้าเกรงว่าผู้ที่ยึดติดกับอดีตมากเกินไปจะไม่สามารถไถพรวนดินแดนใหม่ได้ แม้ว่าผืนนาเก่าจะรกร้างก็ตาม"
+  TeachingsAccordingToMovementUndecided_Response: "น่าเศร้า ข้าเฝ้ามองหลายคนสรรเสริญความสมดุลเพื่อเป็นข้ออ้างในการนิ่งเฉย ขณะที่โลกหมุนผ่านพวกเขาไป"
+  TeachingsAccordingToMovementFallback_Response: "มีบางคนที่บินว่อนจากตะเกียงหนึ่งไปยังอีกตะเกียงหนึ่ง ดุจแมลงเม่าที่ถูกดึงดูดเข้าหาเปลวไฟทุกดวง"
+
+  # A Test of Wisdom: The Blank Scroll
+  chinese_students.0010.t: "ม้วนคัมภีร์เปล่า"
+  chinese_students.0010.desc: "[ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))] ของข้า [mentor.GetTitledFirstName] เข้ามาหาข้า ถือม้วนคัมภีร์อันวิจิตรไว้ในมือของ [mentor.GetHerHis] มันบริสุทธิ์และยังมิแตะต้องหมึก เผยให้เห็นผืนผ้าใบว่างเปล่าแห่งความเป็นไปได้\n\n"ม้วนคัมภีร์เปล่านี้คือบททดสอบปัญญาและอุปนิสัยของเจ้า" [mentor.GetSheHe] กล่าวอย่างเคร่งขรึม "สิ่งที่เจ้าเขียนลงไปสะท้อนถึงจิตวิญญาณของเจ้า จงเลือกถ้อยคำอย่างระมัดระวัง ศิษย์ผู้อ่อนเยาว์"\n\n[mentor.GetSheHe|U] ทิ้งข้าไว้กับพู่กัน หมึก และความคิดของข้าเท่านั้น"
+
+  # Strong areas - Safe choices
+  chinese_students.0010.a.strength: "โอกาสในการปฏิรูปกฎหมายที่ล้าสมัยของอาณาจักร!"
+  chinese_students.0010.b.strength: "บทกวีถึง [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('beloved'))] ของข้า เปี่ยมไปด้วยการพาดพิงและการเล่นคำ!"
+  chinese_students.0010.c.strength.china: "เพียงโอรสแห่งสวรรค์ [ROOT.Char.GetTopLiege.GetHerHim]self เท่านั้นที่คู่ควรแก่ฝีพู่กันของข้า!"
+  chinese_students.0010.c.strength.other: "เพียง [ROOT.Char.GetTopLiege.GetShortUINameNoTooltip] เท่านั้นที่คู่ควรแก่ฝีพู่กันของข้า!"
+  chinese_students.0010.d.strength: "ปรัชญาหลั่งไหลจากจิตใจของข้าสู่ม้วนคัมภีร์นี้อย่างเป็นธรรมชาติ!"
+  chinese_students.0010.e.strength: "กลยุทธ์ทางการทหารคือสิ่งที่พรสวรรค์ของข้าฉายแสงเจิดจ้าที่สุด!"
+  
+  # Weak areas - Growth opportunities
+  chinese_students.0010.a.weakness: "แม้ว่าการออกกฎหมายจะท้าทายข้า แต่ข้าต้องลองพยายามดู..."
+  chinese_students.0010.b.weakness: "แม้ถ้อยคำจะเงอะงะ แต่ข้าจะแสดงความรู้สึกที่มีต่อ [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('beloved'))] ของข้า..."
+  chinese_students.0010.c.weakness.china: "ข้าจะพยายามเขียนบทกวีสดุดีแด่องค์โอรสแห่งสวรรค์..."
+  chinese_students.0010.c.weakness.other: "ข้าจะพยายามเขียนบทกวีสดุดีแด่ [ROOT.Char.GetTopLiege.GetShortUINameNoTooltip]..."
+  chinese_students.0010.d.weakness: "ปรัชญาทดสอบขีดจำกัดของข้า แต่บทความนี้อาจขยายจิตใจของข้า..."
+  chinese_students.0010.e.weakness: "การสงคราม ทำให้ข้าสับสน แต่กองทัพ [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip] ต้องการแนวคิดใหม่ๆ..."
+
+  chinese_students.0010.f: "สัจธรรมอันลึกซึ้งที่สุดอยู่ในถ้อยคำที่มิได้เอื้อนเอ่ย"
+  chinese_students.0010.tt: "#weak ความพยายามจะถูกตัดสิน...#!"
+
+  chinese_students.0010.law.success.tt: "ข้าอาจได้รับ [GetModifier('wrote_law_modifier').GetNameWithTooltip]"
+  chinese_students.0010.poem.success.tt: "ข้าอาจได้รับ [GetModifier('wrote_poem_loved_one_modifier').GetNameWithTooltip]"
+  chinese_students.0010.ode.success.tt: "ข้าอาจได้รับ [GetModifier('wrote_ode_to_liege_modifier').GetNameWithTooltip]"
+  chinese_students.0010.treatise.success.tt: "ข้าอาจได้รับ [GetModifier('wrote_philosophical_treatise_modifier').GetNameWithTooltip]"
+  chinese_students.0010.stratagem.success.tt: "ข้าอาจได้รับ [GetModifier('wrote_strategy_scroll_modifier').GetNameWithTooltip]"
+  chinese_students.0010.blank.success.tt: "ข้าอาจได้รับ [GetModifier('left_scroll_blank_modifier').GetNameWithTooltip]"
+
+  chinese_students.0010.failure.tt: "ข้าอาจได้รับประสบการณ์อันล้ำค่า"
+
+  chinese_students.0010.success: "งานเขียนคุณภาพสูง"
+  chinese_students.0010.failure: "งานเขียนต่ำกว่ามาตรฐาน"
+  chinese_students.0010.success_blank: "อาจารย์เข้าใจวิสัยทัศน์ของท่าน"
+  chinese_students.0010.failure_blank: "วิสัยทัศน์ของท่านคลุมเครือเกินไป"
+
+  # Mentor evaluates the student's scroll
+  chinese_students.0011.t: "ช่วงเวลาแห่งการเรียนรู้"
+  chinese_students.0011.desc.intro: "ศิษย์ของข้า [scroll_student.GetShortUIName] ปรากฏตัวที่หน้าประตู ถือม้วนคัมภีร์ที่เขียนด้วยลายมืออันงดงามอย่างนอบน้อม [scroll_student.GetSheHe|U] ยื่นมันให้ด้วยมือสั่นเทา กังวลต่อคำตัดสินของข้า\n\nข้าคลี่มันออกอย่างระมัดระวังเพื่อตรวจสอบสิ่งที่ [scroll_student.GetSheHe] เลือกที่จะเขียน ปรากฏว่าเป็น "
+
+  chinese_students.0011.desc.law: "ข้อเสนอกฎหมายใหม่ เกี่ยวกับรายละเอียดปลีกย่อยของการปกครองที่ดี"
+  chinese_students.0011.desc.love_letter: "จดหมายรักถึง [beloved.GetShortUIName] เปี่ยมไปด้วยความรู้สึกอันอ่อนโยน"
+  chinese_students.0011.desc.emperor_ode: "บทกวีสดุดีถึงความรุ่งโรจน์ของ [ROOT.Char.GetTopLiege.GetShortUIName] สรรเสริญคุณธรรมมากมายของ [ROOT.Char.GetTopLiege.GetHerHis]"
+  chinese_students.0011.desc.treatise: "บทความเกี่ยวกับปรัชญา สำรวจความสัมพันธ์ระหว่างห้าธาตุและสี่เสาหลัก"
+  chinese_students.0011.desc.strategy: "บทความเกี่ยวกับกลยุทธ์ทางการทหาร เสนอกลยุทธ์นอกกรอบจำนวนหนึ่งที่สามารถใช้ในการทัพของกองทัพ [scroll_student.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip]"
+  chinese_students.0011.desc.blank: "ว่างเปล่าโดยสิ้นเชิง!"
+  chinese_students.0011.desc.conclusion: "\n\nมันพิสูจน์ให้เห็นหน้าต่างที่เปิดเผยจิตใจและอุปนิสัยของ [scroll_student.GetHerHis]"
+
+  chinese_students.0011.desc.quality_success: "คุณภาพของผลงานนี้คู่ควรแก่การจัดแสดงในห้องสมุด [scroll_student.GetTopLiege.GetCapitalLocation.GetNameNoTooltip]!"
+  chinese_students.0011.desc.quality_failure: "น่าเสียดาย แม้ว่า [scroll_student.GetHerHis] จะพยายามอย่างมาก แต่มัน... ก็ไม่ดีนัก"
+  chinese_students.0011.desc.quality_success.blank: "ช่างเป็นทางเลือกที่น่าสนใจและลึกซึ้งยิ่งนัก!"
+  chinese_students.0011.desc.quality_failure.blank: "[scroll_student.GetSheHe] คิดอะไรอยู่กันแน่?!"
+  chinese_students.0011.self_improvement: "พอรับได้ แต่ข้าเชื่อว่า [scroll_student.GetSheHe] ทำได้ดีกว่านี้"
+  
+  # Dynamic positive evaluation descriptions by scroll type
+  chinese_students.0011.positive_law: "กฎหมายนี้แสดงถึงความเข้าใจและปัญญาอันน่าทึ่ง"
+  chinese_students.0011.positive_love: "ถ้อยคำช่างอ่อนโยน! อารมณ์นั้นจริงแท้และน่าประทับใจ"
+  chinese_students.0011.positive_emperor: "เครื่องบรรณาการอันคมคาย คู่ควรแด่องค์โอรสแห่งสวรรค์"
+  chinese_students.0011.positive_philosophy: "ข้อมูลเชิงลึกทางปรัชญาเหล่านี้เผยให้เห็นสติปัญญาอันลึกซึ้ง"
+  chinese_students.0011.positive_strategy: "กลยุทธ์เหล่านี้แสดงถึงจิตใจเชิงยุทธวิธีที่มีแวว"
+  chinese_students.0011.positive_blank: "ยอดเยี่ยม! ปัญญาที่แท้จริงที่สุดมิอาจพบได้ในถ้อยคำที่เขียนไว้"
+  
+  chinese_students.0011.positive_law.worst: "ความเข้าใจในเรื่องกฎหมายของ [scroll_student.GetHerHis|U] พัฒนาขึ้นทุกวัน!"
+  chinese_students.0011.positive_love.worst: "[scroll_student.GetSheHe|U] กำลังเรียนรู้ศิลปะอันวิจิตรของการเล่นคำที่ยั่วยวน ข้าเห็นนะ!"
+  chinese_students.0011.positive_emperor.worst: "[scroll_student.GetSheHe|U] แสดงพรสวรรค์ที่ไม่คาดคิดในศิลปะแห่งการแสดงความเคารพ!"
+  chinese_students.0011.positive_philosophy.worst: "ความเข้าใจแนวคิดทางปรัชญาของ [scroll_student.GetHerHis|U] ก้าวหน้าอย่างรวดเร็ว!"
+  chinese_students.0011.positive_strategy.worst: "[scroll_student.GetSheHe|U] แสดงความกระจ่างแจ้งที่เพิ่งค้นพบในเรื่องการทหาร!"
+
+  # Dynamic negative evaluation descriptions by scroll type
+  chinese_students.0011.negative_law: "ความพยายามในการปกครองที่หยาบเขิน [scroll_student.GetSheHe|U] ยังต้องเรียนรู้อีกมาก"
+  chinese_students.0011.negative_love: "ความรู้สึกซ้ำซากที่ห่อหุ้มด้วยภาษาสวยหรู น่าผิดหวังจริง"
+  chinese_students.0011.negative_emperor: "คำสอพลอที่กลวงเปล่าเผยให้เห็นจิตใจที่ตื้นเขิน"
+  chinese_students.0011.negative_philosophy: "[scroll_student.GetSheHe|U] เพียงแค่พูดตามความคิดของผู้อื่นโดยปราศจากความเข้าใจ"
+  chinese_students.0011.negative_strategy: "[scroll_student.GetSheHe|U] ทำให้ [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip] ตกอยู่ในความเสี่ยง เพียงเพื่อก้าวไปข้างหน้า"
+  chinese_students.0011.negative_blank: "มีสาระมากพอๆ กับในจิตใจของ [scroll_student.GetHerHis]"
+
+  wrote_law_modifier: "สถาปนิกแห่งระเบียบ"
+  wrote_poem_loved_one_modifier: "กวีแห่งดวงใจ"
+  wrote_ode_to_liege_modifier: "บทสดุดีแด่ราชบัลลังก์อันสูงส่ง"
+  wrote_philosophical_treatise_modifier: "ปราชญ์แห่งมรรคา"
+  wrote_strategy_scroll_modifier: "นักยุทธศาสตร์ผู้เป็นที่เคารพ"
+  left_scroll_blank_modifier: "ปรมาจารย์แห่งอู๋เหวย"
+  mentor_encouragement_modifier: "ได้รับการสนับสนุนให้ปรับปรุง"
+
+  opinion_mentor_respect: "เคารพในการศึกษาอย่างหนัก"
+  opinion_mentor_disrespect: "ผิดหวังในการศึกษา"
+  opinion_student_gratitude: "ซาบซึ้งในคำชี้แนะ"
+  opinion_student_scolded: "ถูกผู้สอนสั่งสอน"
+  opinion_student_highroad: "ประทับใจในความอ่อนน้อมถ่อมตน"
+  opinion_student_humility: "ซาบซึ้งใจสำหรับการตอบสนองอย่างถ่อมตน"
+
+  chinese_students.0011.positive.toast: "อาจารย์ชื่นชมม้วนคัมภีร์ของข้า"
+  chinese_students.0011.negative.toast: "อาจารย์ตัดสินม้วนคัมภีร์ของข้าอย่างรุนแรง"
+  chinese_students.0011.self_improvement.toast: "อาจารย์สนับสนุนให้ปรับปรุง"
+
+  # I Ching Divination Events (0020/0021)
+  chinese_students.0020.t: "ปรึกษามรรคา"
+  chinese_students.0020.desc: "[ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))] ของข้า [mentor.GetTitledFirstName] แผ่ก้านอี้เจาโบราณต่อหน้าเรา พื้นผิวที่ผุกร่อนของมันจับแสงเทียนที่ริบหรี่ "คำพยากรณ์มีความรู้อนันต์ ศิษย์ผู้อ่อนเยาว์" [mentor.GetSheHe] กล่าวอย่างเคารพ "แต่มันจะพูดกับผู้ที่เข้าหาด้วยทักษะและความจริงใจเท่านั้น เจ้าอ่านอะไรได้จากพวกมันบ้าง?"\n\nสัญลักษณ์อี้จิงของ "
+
+  chinese_students.0020.desc.heaven: "[Glossary('สวรรค์','I_CHING_HEAVEN_GLOSS')]"
+  chinese_students.0020.desc.thunder: "[Glossary('สายฟ้า','I_CHING_THUNDER_GLOSS')]"
+  chinese_students.0020.desc.water: "[Glossary('น้ำ','I_CHING_WATER_GLOSS')]"
+  chinese_students.0020.desc.mountain: "[Glossary('ภูเขา','I_CHING_MOUNTAIN_GLOSS')]"
+  chinese_students.0020.desc.wind: "[Glossary('สายลม','I_CHING_WIND_GLOSS')]"
+
+  comma_space: "-"
+  comma_space_and: "-"
+
+  chinese_students.0020.desc.conclusion: "ปรากฏขึ้นอย่างชัดเจนต่อหน้าข้าขณะที่ [mentor.GetSheHe] พูด ข้ารู้สึกว่าพวกมันกำลังรอคอยอย่างอดทนให้ข้าเปิดเผยรูปแบบแห่งจักรวาลที่นำทางโลก"
+
+  chinese_students.0020.a.strength: "สวรรค์แสดงทางให้ข้าเสมอ!"
+  chinese_students.0020.a.weakness: "บางทีความลี้ลับของสวรรค์อาจไม่รอดพ้นข้าในวันนี้..."
+  chinese_students.0020.b.strength: "อัสนีคืออาณาเขตของข้า!"
+  chinese_students.0020.b.weakness: "นี่อาจเป็นชั่วขณะที่ข้าจะเข้าถึงพลังแห่งอัสนี..."
+  chinese_students.0020.c.strength: "วารีสะท้อนความเข้าใจของข้าอย่างสมบูรณ์แบบ!"
+  chinese_students.0020.c.weakness: "ปัญญาแห่งวารีนั้นเข้าใจยาก เช่นเดียวกับธรรมชาติของมัน..."
+  chinese_students.0020.d.strength: "ข้าปีนป่ายภูผามาหลายครั้งแล้ว!"
+  chinese_students.0020.d.weakness: "ภูผาตั้งตระหง่านหนักอึ้งในใจข้า..."
+  chinese_students.0020.e.strength: "สายลมเป็นที่รู้จักของข้า!"
+  chinese_students.0020.e.weakness: "ความละเอียดอ่อนของสายลม ทำให้ข้าสับสน..."
+
+  I_CHING_HEAVEN_GLOSS: "สัญลักษณ์แห่งสวรรค์ หมายถึงระเบียบแห่งสวรรค์ การปกครอง และความเป็นผู้นำ มันรวบรวมหลักการของอำนาจและโครงสร้าง นำทางผู้ที่พยายามปกครองด้วยปัญญาและคุณธรรม"
+  I_CHING_THUNDER_GLOSS: "สัญลักษณ์แห่งอัสนี เป็นสัญลักษณ์ของพลัง อำนาจ และความสามารถในการบังคับใช้เจตจำนงของตน มันสอนถึงความสำคัญของความแข็งแกร่งและความเด็ดขาดเมื่อเผชิญกับความทุกข์ยาก"
+  I_CHING_WATER_GLOSS: "สัญลักษณ์แห่งวารี เป็นสัญลักษณ์ของการปรับตัว การไหลลื่น และความสามารถในการฝ่าฟันความท้าทายของชีวิต มันสอนถึงความสำคัญของความยืดหยุ่นและความอดทนเมื่อเผชิญกับความทุกข์ยาก"
+  I_CHING_MOUNTAIN_GLOSS: "สัญลักษณ์แห่งภูผา เป็นสัญลักษณ์ของความมั่นคง ความแข็งแกร่ง และความสามารถในการอดทนต่อความยากลำบาก มันสอนถึงความสำคัญของความพากเพียรและความทรหดอดทนเมื่อเผชิญกับความทุกข์ยาก"
+  I_CHING_WIND_GLOSS: "สัญลักษณ์แห่งสายลม เป็นสัญลักษณ์ของการเปลี่ยนแปลง ความยืดหยุ่น และความสามารถในการปรับตัวให้เข้ากับสถานการณ์ใหม่ๆ มันสอนถึงความสำคัญของการปรับตัวและความอดทนเมื่อเผชิญกับความทุกข์ยาก"
+
+  chinese_students.0020.tt: "#weak การทำนายจะถูกประเมิน...#!"
+  
+  chinese_students.0020.heaven.success.tt: "ข้าอาจได้รับ [GetModifier('heaven_divination_insight_modifier').GetNameWithTooltip]"
+  chinese_students.0020.thunder.success.tt: "ข้าอาจได้รับ [GetModifier('thunder_divination_insight_modifier').GetNameWithTooltip]"
+  chinese_students.0020.water.success.tt: "ข้าอาจได้รับ [GetModifier('water_divination_insight_modifier').GetNameWithTooltip]"
+  chinese_students.0020.mountain.success.tt: "ข้าอาจได้รับ [GetModifier('mountain_divination_insight_modifier').GetNameWithTooltip]"
+  chinese_students.0020.wind.success.tt: "ข้าอาจได้รับ [GetModifier('wind_divination_insight_modifier').GetNameWithTooltip]"
+
+  chinese_students.0020.failure.tt: "ข้าอาจได้รับประสบการณ์อันล้ำค่า"
+
+  chinese_students.0020.success: "ข้อมูลเชิงลึกการทำนายอันลึกซึ้ง"
+  chinese_students.0020.failure: "การตีความที่ผิดพลาด"
+
+  # Event 0021 - Mentor's Evaluation
+  chinese_students.0021.t: "การตัดสินของเทพพยากรณ์"
+  chinese_students.0021.desc: "[ROOT.Char.Custom2('RelationToMe',SCOPE.sC('divination_student'))] ของข้า [divination_student.GetShortUIName] ออกมาจากห้องทำนาย จิตใจสับสนอลหม่านจากผลกระทบของคำไขแห่งอี้จิง\n\n\"[divination_student.Custom2('RelationToMe',ROOT.Char)|U] มันได้ถูกแสดงแก่ข้าว่า"
+
+  chinese_students.0021.desc.heaven.success: "เส้นทึบทั้งหกเผยพลังสร้างสรรค์อันบริสุทธิ์ของเฉียน เฉก เช่นสวรรค์โอบอุ้มทุกสิ่งเบื้องล่าง ดังนั้นผู้ปกครองจึงต้องรวบรวมความแข็งแกร่งที่ขัดเกลาด้วยปัญญา\""
+  chinese_students.0021.desc.heaven.failure: "เส้นทึบทั้งหกหมายถึงพลังอันไร้ขีดจำกัด! จักรพรรดิควรปกครองด้วยกำปั้นเหล็ก บดขยี้ผู้ต่อต้านทั้งหมดดัง เช่นสวรรค์บดขยี้ผู้ท้าทาย!\""
+  chinese_students.0021.desc.thunder.success: "การกระทำที่เด็ดขาดในเวลาที่เหมาะสมนำมา ซึ่งความสำเร็จ สอดคล้องกับสัญลักษณ์เจิ้น ดุจดั่งอัสนีปลุกชีวิตที่หลับใหลในฤดูใบไม้ผลิ ภาวะผู้นำที่แท้จริงย่อมเป็นแรงบันดาลใจให้ผู้อื่นลงมือทำ\""
+  chinese_students.0021.desc.thunder.failure: "ดังอัสนีฟาดฟันรวดเร็วและดังสนั่น เราต้อง ทำให้ทุกคนตัวสั่น! ความลังเลคือความอ่อนแอ และเทพพยากรณ์ต้องการกำลังในทันที!\""
+  chinese_students.0021.desc.water.success: "ดั่งสายน้ำไหลผ่านสิ่งกีดขวาง ข่าน สอนเราว่าปัญญาที่แท้จริงอยู่ในการตระหนักถึงอันตรายและค้นหาเส้นทางที่มีแรงต้านทานน้อยที่สุด\""
+  chinese_students.0021.desc.water.failure: "ดั่งสายน้ำทำลายทุกสิ่งที่ขวางหน้า เราควรเอาชนะศัตรูของเราดั่งอุทกภัย จมดิ่งทุกการต่อต้าน!\""
+  chinese_students.0021.desc.mountain.success: "ความนิ่งสงบนำมา ซึ่งความกระจ่างแจ้ง ด้วยการรักษาจิตใจให้สงบและร่างกายหยุดพัก เกิ้น เผยให้เห็นเส้นทางที่แท้จริงเบื้องหน้าโดยปราศจากสิ่งรบกวน\""
+  chinese_students.0021.desc.mountain.failure: "ภูผาบดขยี้ผู้อยู่เบื้องล่าง! ดังนั้นเราควรไม่เคลื่อนไหวและดื้อรั้น ปฏิเสธที่จะยอมแพ้ไม่ว่าจะเกิดอะไรขึ้น!\""
+  chinese_students.0021.desc.wind.success: "ความอุตสาหะอันอ่อนโยนเอาชนะความแข็งแกร่งที่ตายตัว ดั่งสายลมที่ปั้น แต่งภูมิทัศน์เมื่อเวลาผ่านไป อิทธิพลอันละเอียดอ่อนของซวิ่น บรรลุสิ่งที่กำลังดุร้ายทำไม่ได้\""
+  chinese_students.0021.desc.wind.failure: "ดั่งพายุ เราสามารถกลบเสียงผู้ต่อต้านด้วยการพูดให้มากขึ้นและดังขึ้น! เพื่อชนะการโต้วาทีเพื่ออนาคต [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip] เราต้องเป็นผู้ที่พูดอย่างทรงพลังที่สุด!\""
+
+  chinese_students.0021.positive_heaven.best: "ความเข้าใจในระเบียบแห่งสวรรค์ของ [divination_student.GetHerHis|U] แสดงถึงปัญญาในการปกครองที่แท้จริง!"
+  chinese_students.0021.positive_heaven.worst: "แม้จะลำบาก แต่ความทุ่มเทต่อความเป็นผู้นำของ [divination_student.GetHerHis] ก็น่าประทับใจ"
+  chinese_students.0021.positive_thunder.best: "[divination_student.GetSheHe|U] เข้าใจธรรมชาติของการกระทำที่เด็ดขาดอย่างถ่องแท้!"
+  chinese_students.0021.positive_thunder.worst: "ความกล้าหาญของ [divination_student.GetHerHis|U] ในการเผชิญหน้ากับความท้าทายของอัสนีนั้นน่าชื่นชม"
+  chinese_students.0021.positive_water.best: "การอ่านของ [divination_student.GetHerHis|U] ไหลลื่นไปกับการปรับตัวอย่างเป็นธรรมชาติ!"
+  chinese_students.0021.positive_water.worst: "ความเพียรพยายามของ [divination_student.GetHerHis|U] ต่อความลี้ลับของวารีนั้นน่าชมเชย"
+  chinese_students.0021.positive_mountain.best: "ความนิ่งสงบของ [divination_student.GetHerHis|U] เผยให้เห็นข้อมูลเชิงลึกอันลึกซึ้ง!"
+  chinese_students.0021.positive_mountain.worst: "การศึกษาภูผาอย่างจริงจังของ [divination_student.GetHerHis|U] สมควรได้รับการยอมรับ"
+  chinese_students.0021.positive_wind.best: "[divination_student.GetSheHe|U] จับอิทธิพลอันละเอียดอ่อนของสายลมได้อย่างสมบูรณ์แบบ!"
+  chinese_students.0021.positive_wind.worst: "ปัญญาของ [divination_student.GetHerHis|U] แสดงให้เห็นในความเข้าใจเรื่องอิทธิพล"
+
+  chinese_students.0021.negative_heaven: "[divination_student.GetSheHe|U] ขาดความลึกซึ้งในหลักการปกครองของสวรรค์"
+  chinese_students.0021.negative_thunder: "พลังแห่งการตัดสินใจของอัสนีเล็ดลอด [divination_student.GetHerHim] ไป จงกระทำด้วยความมุ่งมั่น"
+  chinese_students.0021.negative_water: "ความยืดหยุ่นเล็ดลอด [divination_student.GetHerHim] ไป จำเป็นอย่างยิ่งต่อปัญญา"
+  chinese_students.0021.negative_mountain: "จิตวิญญาณของ [divination_student.GetHerHis|U] ขาดความนิ่งสงบ จงแสวงหาการไตร่ตรอง"
+  chinese_students.0021.negative_wind: "[divination_student.SheHe|U] พลาดพลังอันละเอียดอ่อนของสายลม จงเรียนรู้ความอ่อนโยน"
+
+  chinese_students.0021.balanced_evaluation: "แสดงให้เห็นแวว แต่ต้องการการขัดเกลา"
+  chinese_students.0021.positive.toast: "ความเห็นชอบของอาจารย์"
+  chinese_students.0021.negative.toast: "การตักเตือนของอาจารย์"
+  chinese_students.0021.balanced.toast: "การชี้แนะของอาจารย์"
+
+  heaven_divination_insight_modifier: "ระเบียบแห่งสวรรค์"
+  thunder_divination_insight_modifier: "พลังแห่งอัสนี"
+  water_divination_insight_modifier: "กระแสแห่งวารี"
+  mountain_divination_insight_modifier: "ความเงียบแห่งภูผา"
+  wind_divination_insight_modifier: "อิทธิพลแห่งสายลม"
+
+  # Event 0030 - Showcase or Train Skill
+  chinese_students.0030.t: "จุดแข็งหรือความถ่อมตน"
+  chinese_students.0030.desc: "ท่ามกลางการฝึกฝนประจำวัน ข้ารู้สึกถึงสายตาของ [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))] [mentor.GetShortUINamePossessive] จับจ้องมาที่ข้า ข้าฝึกฝนในความเงียบขณะที่ [mentor.GetSheHe] ประเมินข้าอย่างเงียบงัน หลังจากผ่านไปราวชั่วนิรันดร์ [mentor.GetSheHe] ก็เอ่ยขึ้น\n\n\"มันไม่เพียงพอที่จะรู้จุดแข็งที่สุดของเรา สิ่งสำคัญยิ่งกว่าคือการรู้ข้อจำกัดที่ลึกที่สุดของเรา จงแสดงให้ข้าเห็นสิ่งที่เจ้าได้เรียนรู้เกี่ยวกับตนเองเถิด ศิษย์ข้า\""
+  chinese_students.0030.a.diplomacy: "ข้าจะกล่าวคำร้องขออันคมคายเพื่อความสามัคคีในอาณาจักร"
+  chinese_students.0030.a.martial: "ข้าจะแสดงกระบวนท่าหอกอันไร้ที่ติของข้าให้ [mentor.GetHerHim] เห็น"
+  chinese_students.0030.a.stewardship: "ข้าสามารถบอก [mentor.GetHerHim] ได้อย่างแม่นยำว่าเงินทุนของอาณาจักรถูกจัดสรรผิดที่ใด"
+  chinese_students.0030.a.intrigue: "[mentor.GetSheHe|U] อาจสนใจในรหัสลับอันชาญฉลาดของข้า"
+  chinese_students.0030.a.learning: "ข้าสามารถท่องจำคัมภีร์หลุนอวี่ได้"
+  chinese_students.0030.b.diplomacy: "ข้าจะโต้แย้งกับ [mentor.GetHerHim] #emp โดยตรง#! อย่างเผ็ดร้อน!"
+  chinese_students.0030.b.martial: "[mentor.GetSheHe|U] ไม่สามารถ #emp เทียบ#! กระบวนท่าหอกอันไร้ที่ติของข้าได้ด้วยซ้ำ!"
+  chinese_students.0030.b.stewardship: "ข้าจะแสดงให้ [mentor.GetHerHim] เห็นว่าข้าคิดอย่างไรกับการเงิน #emp ของ[mentor.GetHerHis]#! เอง!"
+  chinese_students.0030.b.intrigue: "ข้ารู้ความลับ #emp ของ[mentor.GetHerHis]#! สักหนึ่งหรือสองอย่างที่ข้าสามารถแบ่งปันได้!"
+  chinese_students.0030.b.learning: "#emp ไม่มีผู้ใด#! เทียบความเข้าใจในคัมภีร์โบราณของข้าได้!"
+  chinese_students.0030.c.diplomacy: "ข้ามีคำร้องนี้ที่ข้ากำลังทำอยู่..."
+  chinese_students.0030.c.martial: "แม้จะมีข้อบกพร่อง ข้าก็สามารถสาธิตกระบวนท่าหอกของข้าได้..."
+  chinese_students.0030.c.stewardship: "มีบัญชีแยกประเภทบางส่วนที่ข้าประสบปัญหา..."
+  chinese_students.0030.c.intrigue: "ข้ามีความเข้าใจอย่างจำกัดเกี่ยวกับอุบายในวัง..."
+  chinese_students.0030.c.learning: "ข้าสามารถเล่าสิ่งที่ข้ารู้เกี่ยวกับคำสอนของขงจื๊อได้..."
+  chinese_students.0030.talent.success: "ข้าทำได้อย่างน่าชื่นชม"
+  chinese_students.0030.talent.success.tt: "ข้าอาจได้รับความเคารพจาก [mentor.GetHerHis]"
+  chinese_students.0030.talent.failure: "ข้าทำได้ไม่ดี"
+  chinese_students.0030.talent.failure.tt: "ข้าอาจถูกสั่งสอน"
+  chinese_students.0030.show_off.success: "ข้าเหนือกว่าคำสอนของ [mentor.GetHerHis]"
+  chinese_students.0030.show_off.success.tt: "ข้าอาจได้รับความเคารพจาก [mentor.GetHerHis] และ [merit|E]"
+  chinese_students.0030.show_off.failure: "ข้า ทำให้ตัวเองอับอาย"
+  chinese_students.0030.show_off.failure.tt: "ข้าอาจถูกลงโทษสำหรับความเย่อหยิ่งของข้า"
+  chinese_students.0030.improve.success: "ข้าทำได้อย่างน่าชื่นชม"
+  chinese_students.0030.improve.success.tt: "ข้าอาจได้รับความเคารพจาก [mentor.GetHerHis] และประสบการณ์อันล้ำค่า"
+  chinese_students.0030.improve.failure: "อาจารย์ของข้าสอนข้า"
+  chinese_students.0030.improve.failure.tt: "ข้าอาจถูกสั่งสอน แต่จะได้รับประสบการณ์อันล้ำค่า"
+
+  # Event 0031 - Mentor's Response
+
+  chinese_students.0031.a.success.talent: "[mentee.GetSheHe|U] ทำได้อย่างน่าชื่นชม"
+  chinese_students.0031.a.success.show_off: "ไม่มีอะไรเหลือให้ข้าสอน [mentee.GetHerHim] อีกแล้ว!"
+  chinese_students.0031.a.success.improve: "ข้ายินดีที่ได้เห็นความก้าวหน้าของ [mentee.GetHerHis]!"
+  chinese_students.0031.a.failure.talent: "[mentee.GetSheHe|U] คิดว่า [mentee.GetHerHim]self เก่งเกินไป แต่เราทุกคนก็มีจุดเริ่มต้น"
+  chinese_students.0031.a.failure.show_off: "ข้าทำผิดพลาดตรงไหนกับคนนี้?!"
+  chinese_students.0031.a.failure.improve: "[mentee.GetSheHe|U] ยังคงติดอยู่กับความยากลำบากของ [mentee.GetHerHis]"
+  chinese_students.0031.b.success.talent: "ไม่มีการพัฒนาใดที่จะได้มาจากคำชม!"
+  chinese_students.0031.b.success.show_off: "เย่อหยิ่งและกล้าหาญ แต่มีน้อยสิ่งที่ข้าจะวิจารณ์ได้"
+  chinese_students.0031.b.success.improve: "$chinese_students.0031.b.success.talent$"
+  chinese_students.0031.b.failure.talent: "[mentee.GetSheHe|U] ต้องเรียนรู้ความถ่อมตนมากที่สุด"
+  chinese_students.0031.b.failure.show_off: "ไร้พรสวรรค์และขาดความถ่อมตน ถึงเวลาปลดภาระ"
+  chinese_students.0031.b.failure.improve: "[mentee.GetSheHe|U] ยังมีหนทางอีกยาวไกลรอ [mentee.GetHerHim] อยู่"
+
+  # Action description (what the student attempts)
+  chinese_students.0031.desc.action.talent.diplomacy: "[mentee.GetSheHe|U] ก้าวไปข้างหน้าเพื่อกล่าวคำร้องขออันคมคายเพื่อความสามัคคีในอาณาจักร"
+  chinese_students.0031.desc.action.talent.martial: "ด้วยลมหายใจที่ควบคุมแล้ว [mentee.GetSheHe] นำเสนอกระบวนท่าหอกอันไร้ที่ติ"
+  chinese_students.0031.desc.action.talent.stewardship: "สมุดบัญชีในมือ [mentee.GetSheHe] ชี้ให้เห็นว่าเงินทุนของอาณาจักรรั่วไหลไปที่ใด"
+  chinese_students.0031.desc.action.talent.intrigue: "[mentee.GetSheHe|U] คลี่รหัสลับอันชาญฉลาด เชิญชวนให้ข้าตรวจสอบ"
+  chinese_students.0031.desc.action.talent.learning: "อย่างใจเย็น [mentee.GetSheHe] เริ่มท่องจำคัมภีร์หลุนอวี่"
+
+  chinese_students.0031.desc.action.show_off.diplomacy: "ด้วยท่าทีอันกล้าหาญ [mentee.GetSheHe] เริ่มการโต้แย้งอย่างเผ็ดร้อน ท้าทายแม้กระทั่งปัญญาของข้า"
+  chinese_students.0031.desc.action.show_off.martial: "[mentee.GetSheHe|U] ควงหอก ท้าทายให้ข้าเทียบกระบวนท่าอันไร้ที่ติของ [mentee.GetHerHis]"
+  chinese_students.0031.desc.action.show_off.stewardship: "ด้วยรอยยิ้มเยาะ [mentee.GetSheHe] วิจารณ์บัญชีของข้าเองด้วยความดูถูกอย่างมีจริต"
+  chinese_students.0031.desc.action.show_off.intrigue: "[mentee.GetSheHe|U] เริ่มเล่าความลับอันคลุมเครือของอาณาจักร บอกใบ้ถึงกลอุบายที่เป็นของข้า แต่เพียงผู้เดียวอย่างแนบเนียน"
+  chinese_students.0031.desc.action.show_off.learning: "ประกาศความเป็นเลิศที่ไม่มีใครเทียบ [mentee.GetSheHe] ท่องข้อความที่คลุมเครือของคัมภีร์โบราณอย่างรวดเร็ว"
+
+  chinese_students.0031.desc.action.improve.diplomacy: "อย่างลังเล [mentee.GetSheHe] ยื่นคำร้องอันถ่อมตน แสวงหาการขัดเกลาวาทศิลป์ของ [mentee.GetHerHis]"
+  chinese_students.0031.desc.action.improve.martial: "ยอมรับข้อบกพร่อง [mentee.GetSheHe] สาธิตกระบวนท่าหอกที่ไม่มั่นคงเพื่อการแก้ไข"
+  chinese_students.0031.desc.action.improve.stewardship: "[mentee.GetSheHe|U] วางบัญชีที่สับสน ขอคำชี้แนะในการจัดลำดับ"
+  chinese_students.0031.desc.action.improve.intrigue: "[mentee.GetSheHe|U] แบ่งปันความคิดที่ไม่แน่ใจเกี่ยวกับอุบายในวัง กระตือรือร้นที่จะขัดเกลา"
+  chinese_students.0031.desc.action.improve.learning: "ด้วยความลังเลเล็กน้อย [mentee.GetSheHe] เล่าส่วนเสี้ยวของคำสอนขงจื๊อ หวังว่าจะเกิดความกระจ่าง"
+
+  chinese_students.0031.t: "หยกหรือศิลา"
+  chinese_students.0031.desc.intro: "ระหว่างการฝึกฝนประจำวันกับ [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentee'))] ของข้า [mentee.GetShortUIName] ข้าสังเกตความพยายามของ [mentee.GetHerHis] ในการสาธิตความสามารถของ [mentee.GetHerHis]\n\n"
+
+  # Talent showcase (best skill)
+  chinese_students.0031.desc.talent.diplomacy.success: "ถ้อยคำที่ไตร่ตรองและน้ำเสียงที่เคารพของ [mentee.GetHerHis|U] เผยให้เห็นหัวใจของนักการทูต ถักทอความสามัคคีจากเสียงที่ไม่ลงรอยกันอย่างชำนาญ"
+  chinese_students.0031.desc.talent.diplomacy.failure: "ลิ้นพันกันและน้ำเสียงไม่แน่นอน [mentee.GetSheHe] หว่านความสับสนในที่ที่แสวงหาความสามัคคี"
+  chinese_students.0031.desc.talent.martial.success: "ท่าทางของ [mentee.GetHerHis|U] ยังคงมั่นคงและการโจมตีแม่นยำ วินัยที่หล่อหลอมมาหลายชั่วโมงในสนามฝึก"
+  chinese_students.0031.desc.talent.martial.failure: "ฟุตเวิร์กสะดุดและการโจมตีฟังกลวงเปล่า เผยให้เห็นช่องว่างในเทคนิคของ [mentee.GetHerHis]"
+  chinese_students.0031.desc.talent.stewardship.success: "สมุดบัญชีที่ [mentee.GetSheHe] นำเสนอนั้นสมดุลดั่งตาชั่งสวรรค์ ทุกเหรียญถูกวางอย่างมีวิจารณญาณ"
+  chinese_students.0031.desc.talent.stewardship.failure: "คอลัมน์ถูกบวกผิดและรอยหมึกเปรอะเปื้อนหน้ากระดาษ เผยให้เห็นความประมาทท่ามกลางความเชี่ยวชาญที่อ้าง"
+  chinese_students.0031.desc.talent.intrigue.success: "ละเอียดอ่อนดั่งเงาจันทร์ ปริศนาอันชาญฉลาดของ [mentee.GetHerHis] คลี่คลายแรงจูงใจที่ซ่อนอยู่ของผู้ฟัง"
+  chinese_students.0031.desc.talent.intrigue.failure: "เส้นด้ายแห่งการหลอกลวงผูกปมเป็นเรื่องไร้สาระ ทุกความลับถูกเปิดเผยโดยความผิดพลาดของ [mentee.GetHerHis] เอง"
+  chinese_students.0031.desc.talent.learning.success: "โดยไม่หยุดชะงัก [mentee.GetSheHe] ท่องคัมภีร์โบราณ ทุกบทกลอนคือฝีพู่กันแห่งความทุ่มเททางวิชาการ"
+  chinese_students.0031.desc.talent.learning.failure: "ลืมบรรทัดและความหมายสับสน [mentee.GetSheHe] เผยให้เห็นการศึกษาที่ตื้นเขินภายใต้คำกล่าวอ้างที่กล้าหาญ"
+
+  # Show-off attempt (best skill)
+  chinese_students.0031.desc.show_off.diplomacy.success: "ไหวพริบมาพร้อมสาระ: วาทศิลป์แพรวพราว แต่ยังคงนำพาจิตใจไปสู่ความเห็นพ้อง"
+  chinese_students.0031.desc.show_off.diplomacy.failure: "ทว่า [mentee.GetSheHe] แสวงหาเสียงปรบมือมากกว่าความสอดคล้อง เปลี่ยนวาทศิลป์ให้เป็นความทะนงตนอันแพรวพราว"
+  chinese_students.0031.desc.show_off.martial.success: "การเคลื่อนไหวที่น่าตื่นตาตื่นใจไม่ปิดบังข้อบกพร่อง ทุกการแทงผ่าอากาศด้วยความเป็นปรมาจารย์ที่แท้จริง"
+  chinese_students.0031.desc.show_off.martial.failure: "คมดาบแวบวับเพื่อการแสดงเท่านั้น ไล่ตามเสียงเชียร์แทนที่จะขัดเกลารูปแบบที่สมบูรณ์แบบ"
+  chinese_students.0031.desc.show_off.stewardship.success: "นอกเหนือจากความอวดดี [mentee.GetSheHe|U] ส่งมอบบัญชีที่แม่นยำจนแม้ แต่ความอวดดีก็ไม่สามารถลดคุณค่าของมันได้"
+  chinese_students.0031.desc.show_off.stewardship.failure: "[mentee.GetSheHe|U] อวดคอลัมน์เหรียญราวกับอุปกรณ์ประกอบฉาก ลืมไปว่าปัญญาที่แท้จริงอยู่ในความสมดุลที่เงียบสงบ"
+  chinese_students.0031.desc.show_off.intrigue.success: "ความองอาจห่อหุ้มกลยุทธ์ที่ไร้ที่ติ ทุกคำใบ้กระซิบสะกิดผู้ฟังโดยมองไม่เห็น"
+  chinese_students.0031.desc.show_off.intrigue.failure: "เขาวงกตแห่งความลับของ [mentee.GetHerHis|U] ดูเหมือนถูกปั่นขึ้นเพื่อผลกระทบ ไม่ใช่ความจำเป็น ความฉลาดถูกบดบังด้วยความภาคภูมิใจ"
+  chinese_students.0031.desc.show_off.learning.success: "การท่องจำอย่างรวดเร็ว ทำให้ตื่นตาตื่นใจและให้ความกระจ่างแจ้ง พิสูจน์ความเข้าใจภายใต้ท่าทีที่โอ้อวด"
+  chinese_students.0031.desc.show_off.learning.failure: "[mentee.GetSheHe|U] ท่องข้อความเร็วกว่าลมหายใจ โดยไม่ใส่ใจความหมายที่ลึกซึ้งกว่าภายในหมึก"
+
+  # Improvement request (worst skill)
+  chinese_students.0031.desc.improve.diplomacy.success: "เสียงมั่นคงและข้อโต้แย้งมีน้ำหนัก [mentee.GetSheHe] เกินความคาดหมายแม้จะยืนอยู่บนพื้นที่ที่ไม่คุ้นเคย"
+  chinese_students.0031.desc.improve.diplomacy.failure: "คำพูดที่ลังเลของ [mentee.GetHerHis|U] ทรยศต่อความไม่แน่นอน แต่ความถ่อมตนคือก้าวแรกบนเส้นทางของนักการทูต"
+  chinese_students.0031.desc.improve.martial.success: "รูปแบบที่เคยไม่มั่นคง บัดนี้ตั้งมั่นอย่างมั่นใจ เป็นหลักฐานของการฝึกฝนอย่างขยันขันแข็ง"
+  chinese_students.0031.desc.improve.martial.failure: "หอกที่สั่นเทาของ [mentee.GetHerHis|U] สั่นไหว แต่แม้ แต่นายพลผู้ยิ่งใหญ่ที่สุดก็เคยทำดาบไม้หลุดมือ"
+  chinese_students.0031.desc.improve.stewardship.success: "ผลรวมถูกต้องและหมึกสะอาด ความเพียรพยายามก่อให้เกิดระเบียบจากความสับสน"
+  chinese_students.0031.desc.improve.stewardship.failure: "ผลรวมของ [mentee.GetHerHis|U] สะดุดและหมึกเปื้อน แต่ความพยายามอย่างถ่อมตนที่จะเข้าถึงความเชี่ยวชาญสมควรได้รับการชี้แนะ"
+  chinese_students.0031.desc.improve.intrigue.success: "อุบายคลี่คลายด้วยชั้นเชิงที่น่าประหลาดใจ บ่งบอกถึงความเข้าใจที่น่าประหลาดใจในกระแสที่ซ่อนเร้น"
+  chinese_students.0031.desc.improve.intrigue.failure: "การหลอกลวงที่เงอะงะของ [mentee.GetHerHis|U] นั้นโปร่งใส แต่ความซื่อสัตย์เกี่ยวกับข้อบกพร่องของตนเองคือเหรียญที่หายากที่สุด"
+  chinese_students.0031.desc.improve.learning.success: "บทกลอนไหลลื่นอย่างตะกุกตะกัก แต่ถูกต้อง เมล็ดพันธุ์แห่งความรู้กำลังหยั่งรากอย่างมั่นคง"
+  chinese_students.0031.desc.improve.learning.failure: "[mentee.GetSheHe|U] สะดุดกับคัมภีร์หลุนอวี่ แต่ความกระหายในความรู้ยังคงจุดประกายสว่างไสวในดวงตาของ [mentee.GetHerHis]"
+
+  chinese_students.0031.desc.conclusion: "\n\nข้ากระแอม และลานบ้านก็เงียบสงัด คำตัดสินของข้าพร้อมที่จะให้ได้ยินแล้ว"
+
+  chinese_students.0031.kind_evaluation.toast: "การประเมินอย่างเมตตา"
+  chinese_students.0031.harsh_evaluation.toast: "การประเมินอย่างรุนแรง"
+
+  # Event 0032 - Mentorship Ends
+  chinese_students.0032.t: "แยกทาง"
+  chinese_students.0032.desc: "[mentor.GetShortUIName] เข้ามา มือไพล่ไว้ด้านหลังของ[mentor.GetHerHis] "เส้นทางของเราแยกกันที่นี่ ศิษย์ข้า" [mentor.GetSheHe] กล่าวด้วยน้ำเสียงที่ไตร่ตรอง "จงแสวงหาปัญญาด้วยตนเองเถิด บทเรียนของข้าจบสิ้นแล้ว\""
+  chinese_students.0032.a: "ข้าจะต้องพากเพียรโดยปราศจากการชี้แนะ"

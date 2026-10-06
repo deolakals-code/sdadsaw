@@ -1,0 +1,69 @@
+﻿l_english: 
+ SUGGESTION_TITLE:0 "#T $NAME$#!"
+ 
+ suggestion_recruit_maa_label:0 "เกณฑ์ทหารอาชีพ"
+ suggestion_recruit_maa:0 "ข้อเสนอแนะ: เกณฑ์กองทหารอาชีพ"
+ suggestion_recruit_maa_desc:0 "ท่านมี [men_at_arms|E] น้อยกว่าที่คาดไว้สำหรับ [ruler|E] ใน [rank|E] ของท่าน\n\nการเกณฑ์ทหารเพิ่มจะช่วยเสริม [armies|E] ของท่าน ทั้งเพื่อยับยั้งศัตรูที่อาจเกิดขึ้นและต่อสู้กับผู้ที่ยืนกรานจะสู้รบอยู่ดี"
+ suggestion_recruit_maa_click:0 "#I คลิกเพื่อดูกองทัพของท่าน#!"
+
+ suggestion_declare_war_label:0 "ประกาศสงคราม"
+ suggestion_declare_war:0 "ข้อเสนอแนะ: ประกาศสงครามกับ [recipient.GetShortUINameNoTooltip]"
+ suggestion_declare_war_desc:1 "การชนะสงครามกับ [recipient.GetShortUIName] จะ ทำให้ท่านสามารถพิชิตดินแดนเพิ่มและขยาย [realm|E] ของท่าน ช่วยให้ [house|E] ของท่านประสบความสำเร็จในระยะยาว"
+ suggestion_declare_war_click:1 "#I คลิกเพื่อประกาศสงคราม#!"
+
+ suggestion_construct_building_label:0 "ก่อสร้างอาคาร"
+ suggestion_construct_building:0 "ข้อเสนอแนะ: ก่อสร้างอาคารใน [landed_title.GetNameNoTierNoTooltip]"
+ suggestion_construct_building_desc:1 "การก่อสร้างอาคารใน [landed_title.GetNameNoTooltip] จะมอบผลประโยชน์และโบนัสต่างๆ ให้แก่ท่าน ซึ่งเป็นประโยชน์อย่างยิ่งในระยะยาว"
+ suggestion_construct_building_click:1 "#I คลิกเพื่อดูที่ดินถือครอง#!"
+
+ suggestion_fabricate_claim_label:0 "สร้างสิทธิ์เรียกร้อง"
+ suggestion_fabricate_claim:0 "ข้อเสนอแนะ: สร้างสิทธิ์เรียกร้องเหนือ [landed_title.GetNameNoTierNoTooltip]"
+ suggestion_fabricate_claim_desc:1 "[landed_title.GetName] ที่อยู่ใกล้เคียงนั้นทั้งร่ำรวยและเจริญรุ่งเรือง แต่ท่านไม่สามารถพิชิตได้หากไม่มี [casus_belli|E]\n\nการส่ง [court_chaplain|E] หรือ [realm_priest|E] ของท่านไปสร้าง [claim|E] เหนือดินแดนนั้นจะให้เหตุผลที่ท่านต้องการในการทำ [war|E] และยึดบรรดาศักดิ์มาเป็นของท่านเอง!"
+ suggestion_fabricate_claim_click:1 "#I คลิกเพื่อดูบรรดาศักดิ์#!"
+
+ suggestion_create_title_label:0 "สร้างบรรดาศักดิ์"
+ suggestion_create_title:0 "ข้อเสนอแนะ: สร้าง [landed_title.GetNameNoTooltip]"
+ suggestion_create_title_desc:1 "ท่านครอบครองดินแดน [de_jure|E] เพียงพอที่จะ [create|E] [landed_title.GetName] การทำ เช่นนี้จะเพิ่ม [prestige|E] ของท่านอย่างมาก และ ทำให้ท่านกลายเป็น [rightful_liege|E] ของบรรดาศักดิ์ทั้งหมดภายใต้นั้น"
+ suggestion_create_title_click:1 "#I คลิกเพื่อดูบรรดาศักดิ์#!"
+
+ SUGGESTIONS_DEBUG:0 "#D SUGGESTIONS DEBUG:#!"
+
+ suggestion_convert_county_label:0 "เปลี่ยนศรัทธาเคาน์ตี"
+ suggestion_convert_county:0 "ข้อเสนอแนะ: เปลี่ยนศรัทธาใน [landed_title.GetNameNoTierNoTooltip]"
+ suggestion_convert_county_desc:0 "การส่ง [Concept( 'realm_priest', GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName )|E] ของท่านไปโน้มน้าวให้ผู้อยู่อาศัยใน [landed_title.GetName] ยอมรับศรัทธาที่แท้จริงจะ ทำให้พื้นที่นั้นมีเสถียรภาพ"
+ suggestion_convert_county_click:1 "#I คลิกเพื่อดูสภาของท่าน#!"
+
+ suggestion_increase_control_label:0 "เพิ่มการควบคุม"
+ suggestion_increase_control:0 "ข้อเสนอแนะ: เพิ่มการควบคุมใน [landed_title.GetNameNoTierNoTooltip]"
+ suggestion_increase_control_desc:2 "การส่ง [Concept( 'marshal', GetPlayer.GetCouncillorPosition( 'councillor_marshal' ).GetPositionName )|E] ของท่านไปเพิ่มการควบคุมใน [landed_title.GetName] จะนำไปสู่การลด [county_corruption|E] ในเคาน์ตี และอาจมีผลดีอื่นๆ ตามมาด้วย"
+ suggestion_increase_control_click:1 "#I คลิกเพื่อดูสภาของท่าน#!"
+
+ suggestion_increase_opinion_label:0 "เพิ่มความเห็น"
+ suggestion_increase_opinion:0 "ข้อเสนอแนะ: เพิ่มความเห็นของ [recipient.GetShortUINamePossessiveNoTooltip] ที่มีต่อท่าน"
+ suggestion_increase_opinion_desc:0 "[actor.Custom2('RelationToMeShort', SCOPE.sC('recipient'))] [recipient.GetShortUIName] ของท่านมีความเห็น [opinion|E] ต่อท่านต่ำ การเพิ่มความเห็นด้วย [personal_scheme|E] จะ ทำให้ชีวิตของท่านง่ายขึ้น"
+ suggestion_increase_opinion_click:1 "#I คลิกเพื่อเริ่มแผนการโน้มน้าว#!"
+
+ suggestion_raid_label:0 "ปล้นสะดม"
+ suggestion_raid:0 "ข้อเสนอแนะ: ปล้นสะดม [landed_title.GetNameNoTierNoTooltip]"
+ suggestion_raid_desc:0 "การส่งกองทัพของท่านไป [raid|E] [landed_title.GetNameNoTierNoTooltip] จะนำ [loot|E] มาให้ท่าน"
+ suggestion_raid_click:1 "#I คลิกเพื่อดูกองทัพของท่าน#!"
+
+ suggestion_grant_title_label:0 "มอบบรรดาศักดิ์"
+ suggestion_grant_title:0 "ข้อเสนอแนะ: มอบ [landed_title.GetNameNoTierNoTooltip] ให้แก่ [recipient.GetShortUINameNoTooltip]"
+ suggestion_grant_title_desc:0 "[recipient.GetShortUIName] คือผู้ถือครอง [de_jure|E] ของ [landed_title.GetName] การ ทำให้แน่ใจว่าอาณาจักรของท่านเป็นไปตามโครงสร้าง De Jure มากที่สุดเท่าที่จะเป็นไปได้จะนำไปสู่เสถียรภาพและลดบทลงโทษด้านความเห็น"
+ suggestion_grant_title_click:1 "#I คลิกเพื่อมอบบรรดาศักดิ์#!"
+
+ suggestion_can_hire_court_positions:0 "จ้างตำแหน่งในราชสำนัก"
+ suggestion_can_hire_court_positions_label:0 "ข้อเสนอแนะ: จ้างตำแหน่งในราชสำนักเพิ่ม"
+ suggestion_can_hire_court_positions_desc:0 "ท่านควรลงทุนทองคำเพื่อเติม [court_positions|E] ให้มากขึ้นเพื่อรับโบนัส"
+ suggestion_can_hire_court_positions_click:0 "#I คลิกเพื่อดูตำแหน่งในราชสำนักที่ว่างอยู่#!"
+
+ suggestion_request_war_aid_petition:0 "ร้องขอความช่วยเหลือทางทหาร"
+ suggestion_request_war_aid_petition_label:0 "ข้อเสนอแนะ: ร้องขอความช่วยเหลือทางทหาร"
+ suggestion_request_war_aid_petition_desc:0 "ท่านสามารถขอความช่วยเหลือจาก [liege|E] ของท่านใน [war|E] ของท่านได้ พวกเขาอาจเข้าร่วม หรือจ่ายค่าทหารให้"
+ suggestion_request_war_aid_petition_click:0 "#I คลิกเพื่อดู [royal_court|E] ของ [lieges|E] ของท่าน#!"
+
+ suggestion_create_nation_fracturing_faction:0 "สร้าง $nation_fracturing_faction$"
+ suggestion_create_nation_fracturing_faction_label:0 "ข้อเสนอแนะ: $suggestion_create_nation_fracturing_faction$"
+ suggestion_create_nation_fracturing_faction_desc:1 "ท่านสามารถท้าทาย [liege|E] ของท่านและพยายามยุบอาณาจักรเพื่อรับเอกราชให้แก่ท่านและ [vassals|E] ทั้งหมดของท่าน"
+ suggestion_create_nation_fracturing_faction_click:1 "#I คลิกเพื่อดูก๊กต่างๆ ที่ต่อต้าน [liege] ของท่าน#!"

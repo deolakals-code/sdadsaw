@@ -1,0 +1,14 @@
+﻿l_english: 
+ ##################################################
+ # #Hold Court Opinions
+
+ ep1_took_advantage_of_kindness_opinion:0 "ฉวยโอกาสจากความใจดีของข้า"
+ ep1_rejected_sponsoring_a_feast_opinion:0 "ปฏิเสธข้อเสนอของข้าในการเป็นเจ้าภาพจัดงานเลี้ยง"
+ ep1_accepted_sponsoring_a_feast_opinion:0 "ตอบรับข้อเสนอของข้าในการเป็นเจ้าภาพจัดงานเลี้ยง"
+ ep1_disagreed_with_decision_opinion:0 "ไม่เห็นด้วยกับการตัดสินใจระหว่างการร้องทุกข์"
+ ep1_agreed_with_decision_opinion:0 "เห็นด้วยกับการตัดสินใจระหว่างการร้องทุกข์"
+ ep1_disagreed_with_lowborn_adoption_opinion:0 "ไม่เห็นด้วยกับการตัดสินใจรับบุตรบุญธรรมชนชั้นต่ำ"
+ sumptuary_debate_victor_opinion:0 "ละเมิดกฎหมายควบคุมการบริโภค"
+ sumptuary_debate_loser_opinion:0 "ลงโทษข้าฐานละเมิดกฎหมายควบคุมการบริโภค"
+
+ ##################################################

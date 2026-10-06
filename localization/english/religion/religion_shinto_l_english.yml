@@ -1,0 +1,87 @@
+﻿l_english: 
+ shintoism_religion: "ลัทธิชินโต" # 神道
+ shintoism_religion_adj: "ชินโต"
+ shintoism_religion_adherent: "ผู้นับถือชินโต"
+ shintoism_religion_adherent_plural: "เหล่าผู้นับถือชินโต"
+ shintoism_religion_desc: "ลัทธิชินโตครอบคลุมถึงความเชื่อพื้นบ้านก่อนยุคพุทธศาสนาแห่งหมู่เกาะญี่ปุ่น หัวใจสำคัญคือการตระหนักถึงจิตวิญญาณอันมีชีวิต หรือคามิ แห่งโลกธรรมชาติ และความจำเป็นที่จะต้องกราบไหว้บูชาและเอาอกเอาใจพวกเขาอย่างถ่อมตน เพื่อหลีกเลี่ยงความพิโรธและรับพรจากพวกเขา"
+
+ shintoism_high_god_name: "อามาเทราสึ" # 天照
+ shintoism_high_god_name_2: "$shintoism_high_god_name$"
+ shintoism_high_god_name_possessive: "แห่งอามาเทราสึ"
+ shintoism_high_god_name_alternate: "โอมิคามิ" # 大御神
+ shintoism_high_god_name_alternate_possessive: "แห่งโอมิคามิ"
+ shintoism_good_god_atamerasu: "$shintoism_high_god_name$"
+
+ shintoism_creator_god_name: "อิซานามิ" # 伊弉冉
+ shintoism_creator_god_name_possessive: "แห่งอิซานามิ"
+ shintoism_health_god_name: "ซุคุนิบิโคนะ" # 少彦名
+ shintoism_health_god_name_possessive: "แห่งซุคุนิบิโคนะ"
+ shintoism_fertility_god_name: "อินาริ" # 稲荷
+ shintoism_fertility_god_name_possessive: "แห่งอินาริ"
+ shintoism_wealth_god_name: "โอคุนินุชิ" # 大国主
+ shintoism_wealth_god_name_possessive: "แห่งโอคุนินุชิ"
+ shintoism_household_god_name: "อารากามิ" # 荒神
+ shintoism_household_god_name_possessive: "แห่งอารากามิ"
+ shintoism_fate_god_name: "เอบิสึ" # 恵比須
+ shintoism_fate_god_name_possessive: "แห่งเอบิสึ"
+ shintoism_knowledge_god_name: "โอโมอิคาเนะ" # 思兼
+ shintoism_knowledge_god_name_possessive: "แห่งโอโมอิคาเนะ"
+ shintoism_war_god_name: "ฮาจิมัง" # 八幡
+ shintoism_war_god_name_possessive: "แห่งฮาจิมัง"
+ shintoism_trickster_god_name: "ซูซาโนะโอะ" # 素戔嗚
+ shintoism_trickster_god_name_possessive: "แห่งซูซาโนะโอะ"
+ shintoism_night_god_name: "สึกูโยมิ" # 月読
+ shintoism_night_god_name_possessive: "แห่งสึกูโยมิ"
+ shintoism_water_god_name: "วาทัตสึมิ" # 海神
+ shintoism_water_god_name_possessive: "แห่งวาทัตสึมิ"
+ shintoism_devil_name: "มากัตสึคามิ" # 禍津神
+ shintoism_devil_name_possessive: "แห่งมากัตสึคามิ"
+ shintoism_death_deity_name: "$shintoism_creator_god_name$"
+ shintoism_death_deity_name_possessive: "$shintoism_creator_god_name_possessive$"
+ shintoism_witch_god_name: "โทโคโยะโนะคามิ" # 常世神
+ shintoism_witch_god_name_possessive: "แห่งโทโคโยะโนะคามิ"
+ shintoism_evil_god_amatsu_mikaboshi: "อามัตสึ-มิกาโบชิ" # 天津甕星
+
+ shintoism_house_of_worship: "ศาลเจ้า" # 神社
+ shintoism_house_of_worship_2: "$shintoism_house_of_worship$"
+ shintoism_house_of_worship_3: "$shintoism_house_of_worship$"
+ shintoism_house_of_worship_plural: "ศาลเจ้า"
+ shintoism_religious_symbol: "ประตูโทริอิ" # 鳥居
+ shintoism_religious_symbol_2: "$shintoism_religious_symbol$"
+ shintoism_religious_symbol_3: "$shintoism_religious_symbol$"
+ shintoism_religious_text: "คิกิ" # 記紀
+ shintoism_religious_text_2: "$shintoism_religious_text$"
+ shintoism_religious_text_3: "$shintoism_religious_text$"
+ shintoism_religious_head_title: "ไซชู" # 祭主
+ shintoism_religious_head_title_name: "ไดจิงงู" # 大神宮
+ shintoism_devotee: "คันนางิ" # 巫
+ shintoism_devoteeplural: "เหล่าคันนางิ"
+ shintoism_priest: "กูจิ" # 宮司
+ shintoism_priest_plural: "เหล่ากูจิ"
+ shinto_priest_male: "$shintoism_priest$"
+ shinto_priest_male_plural: "$shintoism_priest_plural$"
+ shinto_priest_female: "มิโกะ"
+ shinto_priest_female_plural: "มิโกะ"
+ shinto_priest_neuter: "นักบวช"
+ shinto_priest_neuter_plural: "$shintoism_priest_alternate_plural$"
+ shintoism_priest_alternate_plural: "นักบวช" # 神職
+ shintoism_divine_realm: "ทากามางาฮาระ" # 高天原
+ shintoism_divine_realm_2: "$shintoism_divine_realm$"
+ shintoism_divine_realm_3: "$shintoism_divine_realm$"
+ shintoism_afterlife: "โยมิ" # 黄泉
+ shintoism_afterlife_2: "$shintoism_afterlife$"
+ shintoism_afterlife_3: "$shintoism_afterlife$"
+ # Shinto
+ shinto: "ชินโต" # 神道
+ shinto_adj: "ชินโต"
+ shinto_adherent: "ชาวชินโต"
+ shinto_adherent_plural: "ชาวชินโต"
+ shinto_desc: "โลกวิญญาณอยู่รอบตัวเรา และเหล่าดวงวิญญาณสถิตอยู่ทั่วทุกหนแห่งในโลก ทุกสิ่งสามารถถูกสิงสถิตได้โดยพลังเหนือธรรมชาติ — เตียงนอน ภูเขา หรือแม้กระทั่งพายุฝน การรักษาสมดุลกับโลกวิญญาณนี้จึงเป็นสิ่งสำคัญ รวมถึงการให้ความเคารพและการยอมรับตามสมควร"
+ # Shugendo
+ shugendo: "ชูเก็นโด" # 修験道
+ shugendo_adj: "ชูเก็นโด"
+ shugendo_adherent: "ชาวชูเก็นโด"
+ shugendo_adherent_plural: "ชาวชูเก็นโด"
+ shugendo_desc: "หนทางสู่พลังทางจิตวิญญาณนั้นต้องผ่านการฝึกฝนตน เพื่อที่จะเข้าใจโลกวิญญาณ เหล่าผู้ติดตามชูเก็นโดจะประกอบพิธีกรรมมากมาย และเสาะแสวงหาสถานที่อันศักดิ์สิทธิ์ที่สุด ที่ ซึ่งกำแพงกั้นระหว่างโลกมนุษย์และโลกวิญญาณนั้นบางเบาที่สุด"
+ shugendo_devotee: "ยามาบูชิ" # 山伏
+ shugendo_devoteeplural: "เหล่ายามาบูชิ"

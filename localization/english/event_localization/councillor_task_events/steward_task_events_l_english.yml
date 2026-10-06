@@ -1,0 +1,148 @@
+﻿l_english: 
+
+ steward_task.0001.t:0 "เคาน์ตีตามสิทธิ์ถูกโน้มน้าว"
+ steward_task.0001.desc:0 "ข่าวร้ายมาถึงข้าพเจ้าในวันนี้: ผู้คนแห่ง [county.GetNameNoTier] ทวงคืนความเป็นส่วนหนึ่งของ [councillor_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] อันยิ่งใหญ่และทรงเกียรติกว่า!\n\nพวกเขาถูกโน้มน้าวด้วยคำสัญญาอันไพเราะของ [councillor.GetTitledFirstName] และหลงใหลในความโอ่อ่าของราชสำนักของ [councillor_liege.GetTitledFirstNamePossessive] บัดนี้พวกเขาคาดหวังให้ข้าพเจ้าเพียงแค่ยอมมอบเคาน์ตีให้แก่เพื่อนบ้านผู้สอดรู้สอดเห็นของข้าพเจ้า!\n\nข้าพเจ้าควรพิจารณาการเคลื่อนไหวครั้งต่อไปอย่างรอบคอบ การสูญเสียดินแดนไม่ใช่เรื่องดี แต่ชาวบ้านจะรู้สึกไม่พอใจข้าพเจ้าอย่างยิ่งหากข้าพเจ้าไม่ปล่อยพวกเขาไป"
+ steward_task.0001.a:0 "ข้าพเจ้าไม่มีทางเลือก ข้าพเจ้าจะยอมมอบมันไป"
+ steward_task.0001.b:0 "น่าโมโห! ข้าพเจ้าจะไม่ยอม!"
+ steward_task.0001.liege_changed:0 "ปล่อยให้แก่เจ้าผู้ครองตามสิทธิ์"
+ steward_task.0001.liege_changed.tt:0 "เจ้าผู้ครองของท่าน [ROOT.Char.GetTitledFirstName] ได้ยอมตามการประท้วงของไพร่ฟ้าข้าแผ่นดินของท่าน และปล่อย [county.GetNameNoTooltip] ให้แก่ผู้ปกครองตามสิทธิ์ ซึ่งเป็นเจ้าผู้ครองคนใหม่ของท่าน [councillor_liege.GetTitledFirstName]"
+ steward_task.0001.county_loss.tt:0 "เจ้าผู้ครองของท่าน [ROOT.Char.GetTitledFirstName] ได้ยอมตามการประท้วงของไพร่ฟ้าข้าแผ่นดินของท่าน และปล่อย [county.GetNameNoTooltip] ให้แก่ผู้ปกครองตามสิทธิ์ [councillor_liege.GetTitledFirstName] ท่านไม่ได้ควบคุมเคาน์ตีอีกต่อไป!"
+
+ steward_task.0002.t:0 "เคาน์ตีตามสิทธิ์ถูกปล่อยแล้ว!"
+ steward_task.0002.desc:0 "ดูเหมือนว่าความพยายามของ [councillor.GetCouncilTitle] ของข้าพเจ้าใน [county.GetName] ได้ผลในที่สุด!\n\nชาวบ้านในท้องถิ่นถูกโน้มน้าวด้วยวาจาอันคมคายของ [councillor.GetTitledFirstNamePossessive] และหวั่นไหวต่อเกียรติภูมิของราชสำนักของข้าพเจ้า เมื่อเผชิญกับความไม่พอใจของทั้งเคาน์ตี [previous_owner.GetTitledFirstName] ได้เลือกเส้นทางที่มีการต่อต้านน้อยกว่าและปล่อย [county.GetNameNoTierNoTooltip]\n\nบัดนี้เคาน์ตีเป็นของเจ้าผู้ครองตามสิทธิ์ ซึ่งก็คือตัวข้าพเจ้าเอง!"
+ steward_task.0002.a:0 "ทำได้ดีมาก [councillor.GetFirstNameNoTooltip]!"
+
+ steward_task.0003.t:0 "การโน้มน้าวดินแดนตามสิทธิ์ล้มเหลว!"
+ steward_task.0003.desc:0 "ดูเหมือนว่าความพยายามของ [councillor.GetCouncilTitle] ของข้าพเจ้าใน [county.GetName] นั้นไร้ผล\n\nชาวบ้านในท้องถิ่น ซึ่งถูกโน้มน้าวด้วยวาจาอันคมคายของ [councillor.GetTitledFirstNamePossessive] และหวั่นไหวต่อเกียรติภูมิของราชสำนักของข้าพเจ้า ได้ประท้วงอย่างรุนแรงต่อผู้ปกครองที่ไม่ชอบธรรมของพวกเขา [previous_owner.GetTitledFirstName] แต่ก็ไร้ผล\n\nแม้ว่าความไม่พอใจในท้องถิ่นอาจยัง ทำให้เป็นเหยื่อที่ง่ายขึ้นสำหรับเรา แต่แผนการทูตของข้าพเจ้าก็ถูกขัดขวางไปแล้ว สำหรับตอนนี้"
+ steward_task.0003.a:0 "สาปแช่งเจ้า [previous_owner.GetFirstNameNoTooltip]!"
+
+ steward_task.1101.t:0 "การเก็บภาษีที่ดีขึ้น"
+ steward_task.1101.desc:0 "ขณะที่ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] ของข้าไล่รายการเขตศักดินาทีละแห่ง, มูลค่าของพวกมัน และภาระผูกพันที่จ่ายแล้ว, ข้าหยุด [councillor.GetHerHim] เมื่อข้าได้ยินยอดรวมที่ #EMP ต้อง#! เป็นการเข้าใจผิดอย่างแน่นอน\n"เจ้าเก็บเงินเข้ามาได้เท่าใดกันจาก [county.GetName]?!"\n\n[councillor.GetFirstName] ยิ้ม "ข้าคิดว่าท่านคงจะยินดีที่ได้ยิน, [ROOT.Char.Custom('FormOfAddressForLiege')]""
+ steward_task.1101.a:2 "ขอสาบานต่อ [ROOT.Char.GetFaith.WealthGodName] แน่นอนว่าข้าพเจ้ายินดี!"
+ steward_task.1101.b:0 "ฮ่าฮ่า! วันรับเงิน!"
+ steward_task.1101.notification:0 "ภาษีเพิ่มเติม"
+
+ steward_task.1001.t:0 "แบ่งเบาภาระของตนเอง"
+ steward_task.1001.opening:0 "ดูเหมือนว่าความพยายามของ [councillor.GetCouncilTitle] ของข้าพเจ้าในการปรับปรุงการเก็บภาษีจะมีผลข้างเคียงที่ไม่พึงประสงค์บางประการ"
+ steward_task.1001.end:0 "\n\nโจรได้ปรากฏตัวขึ้นใน [county.GetName] โดยอ้างว่าด้วยภาษีใหม่ การปล้นเป็นหนทางเดียวที่จะเลี้ยงดูครอบครัวของพวกเขา"
+ steward_task.1001.a:0 "ไม่ช้าก็เร็ว พวกมันจะได้ลิ้มรสคมดาบ!"
+ steward_task.1001.notification:0 "การเก็บภาษีเกินควร ทำให้เกิดโจร"
+
+ steward_task.1002.end:0 "\n\nผู้คนใน [county.GetName] ได้เริ่มซ่อนสมาชิกในครอบครัวและสัตว์เลี้ยงในฟาร์มจาก [councillor.GetTitledFirstName] และผู้ประเมินคนอื่นๆ ของข้าพเจ้า!"
+ steward_task.1002.a:0 "เราต้องรู้ข้อมูลของพวกเขาเพื่อเก็บภาษีพวกเขา [councillor.GetFirstNameNoTooltip]!"
+ steward_task.1002.notification:0 "สำมะโนประชากรไร้ประโยชน์"
+
+ steward_task.1003.end:0 "\n\nด้วยค่าธรรมเนียมใหม่ที่นำมาใช้ ผู้คนจำนวนมากใน [county.GetName] ปฏิเสธที่จะพึ่งพาอนุญาโตตุลาการของข้าพเจ้าในการระงับข้อพิพาท!"
+ steward_task.1003.a:0 "เจ้ากำลังสูญเสียการควบคุมอยู่หรือ [councillor.GetFirstNameNoTooltip]?"
+ steward_task.1003.notification:0 "ไม่มีนายอำเภอได้รับการ แต่งตั้ง"
+
+ steward_task.1004.end:0 "\n\nด้วยค่าผ่านทางใหม่ที่นำมาใช้ใน [county.GetName] ผู้คนจำนวนมากขึ้นเรื่อยๆ หันไปลักลอบขนส่งสินค้าแทนการค้าที่ถูกกฎหมาย!"
+ steward_task.1004.a:0 "พวกเขากำลังขโมยจากกระเป๋าของ [ROOT.Char.GetTitleTierName] อย่างแท้จริง!"
+ steward_task.1004.notification:0 "ภาษีศุลกากรที่มากเกินไป"
+
+ steward_task.1005.t: "เก็บภาษีซ้ำซ้อน"
+ steward_task.1005.desc: ""นี่มันน่าโมโห" [steward.GetCouncilTitle] ของข้าพเจ้า [steward.GetTitledFirstName] บุกเข้ามาในห้องสภาโดยมี [tax_collector.GetTitledFirstName] ตามมาติดๆ "ตอนแรกข้าพเจ้าได้รับคำสั่งให้เก็บภาษีของตัวเอง แล้ว [tax_collector.GetTitledFirstNameNoTooltip] ก็มาเก็บซ้ำอีก? ท่านต้องบอกให้ [tax_collector.GetHerHim] อยู่ห่างจากดินแดนของข้าพเจ้า"\n\n"[steward.GetTitledFirstNameNoTooltip] ทำ... ข้อผิดพลาดทางบัญชี" [tax_collector.GetTitledFirstNameNoTooltip] แทรกขึ้น "ข้าพเจ้าเพียงแค่แก้ไขโดยการเก็บส่วนต่าง ไม่ได้มีอะไรมากกว่านั้น"\n\n[steward.GetTitledFirstNameNoTooltip] จ้องมอง [tax_collector.GetHerHim] อย่างโกรธเคือง"
+ steward_task.1005.a: "ให้ข้าพเจ้าดูบัญชีเหล่านั้นอย่างละเอียดหน่อย..."
+ steward_task.1005.a_success: "ท่านปรับปรุงกระบวนการเก็บภาษีของอาณาจักรให้มีประสิทธิภาพ"
+ steward_task.1005.a_failure: "ท่านไม่พบข้อบกพร่องใดๆ ในการทำบัญชีของ [tax_collector.GetTitledFirstNamePossessiveNoTooltip]"
+ steward_task.1005.b: "[tax_collector.GetTitledFirstNameNoTooltip] มีอำนาจควบคุมภาษีของอาณาจักร"
+ steward_task.1005.c: "[steward.GetTitledFirstNameNoTooltip] มีอำนาจปกครองเหนือดินแดนของ [steward.GetHerHis] เอง"
+
+ steward_task.2001.t:0 "ขาดแคลนคนงาน"
+ steward_task.2001.desc:0 "ชาวนากำลังบ่นเกี่ยวกับการแทรกแซงของ [councillor.GetCouncilTitle] ของข้าพเจ้าใน [county.GetName]! การที่ [councillor.GetTitledFirstNamePossessive] โยกย้ายคนงานจากทั่วทั้ง [county.GetTitleTierName] หมายความว่าโครงการก่อสร้างอื่นๆ ที่กำลังดำเนินการอยู่แทบจะไม่เสร็จสิ้น"
+ steward_task.2001.a:0 "เจ้าไม่สามารถเสียสละทุกอย่างเพื่องานนี้ได้ [councillor.GetFirstNameNoTooltip]!"
+ steward_task.2001.notification:0 "การพัฒนาที่จัดการผิดพลาด"
+
+ steward_task.2002.desc:0 "ท่าน [councillor.Custom2('RelationToMe', ROOT.Char)] ที่รักของข้าพเจ้า,\nความพยายามของข้าพเจ้าในการช่วยเหลือ [county.GetName] และชี้นำการพัฒนาที่ดินอย่างต่อเนื่องที่นั่น ได้รับการตอบรับที่ไม่ดีนัก อันที่จริง อาจกล่าวได้ว่าชาวนากำลังเรียกร้อง เอ่อ "หัวของข้าพเจ้าเสียบประจาน" ว่าอย่างนั้นเถอะ ความโกรธบางส่วนดูเหมือนจะมุ่งไปที่ท่านด้วย เช่นกัน แม้ว่าทั้งหมดนั้นจะไม่ยุติธรรมเลยก็ตาม"
+ steward_task.2002.a:0 "[councillor.GetFirstNameNoTooltip]! เจ้าทำอะไรลงไป?!"
+ steward_task.2002.notification:0 "การจัดการประชากรผิดพลาด"
+
+ steward_task.2003.t:0 "การสูญเสียการควบคุม"
+ steward_task.2003.desc:0 "แม้ว่า [councillor.GetCouncilTitle] ของข้าพเจ้าจะพยายามอย่างดีในการตั้งรกรากที่ดินศักดินาใหม่ใน [county.GetName] แต่ดูเหมือนว่าสถานการณ์จะควบคุมไม่ได้ ด้วยการเคลื่อนย้ายผู้คนจำนวนมาก [councillor.GetTitledFirstName] ดูเหมือนจะไม่รู้ว่าส่วนใดของ [county.GetTitleTierName] ได้รับการตั้งรกรากแล้ว และส่วนใดที่วางแผนไว้สำหรับการถางที่ดิน อันที่จริง ดูเหมือนว่าไม่มีใครรู้เลย!"
+ steward_task.2003.a:0 "ควบคุมสถานการณ์ให้อยู่หมัด [councillor.GetFirstNameNoTooltip]!"
+ steward_task.2003.notification:0 "การสูญเสียการควบคุม"
+
+ steward_task.2005.t: "ผลกำไรที่กำลังผลิบาน"
+ steward_task.2005.desc: "ขณะที่มุ่งเน้นไปที่คำสั่งของเจ้าผู้ครองของข้าพเจ้า [liege.GetTitledFirstNamePossessive] ในการพัฒนา [county.GetName] $clan_tax_collector_court_position$ ของ [liege.GetHerHis] [tax_collector.GetTitledFirstName] เข้ามาหาข้าพเจ้าพร้อมกับบัญชีเล่มหนาและคนรับใช้อีกคนเพื่อถือบัญชีนั้น\n\n"เนื่องจากเคาน์ตีกำลังขยายขนาด" [tax_collector.GetSheHe] อธิบาย "จึงเป็นเรื่องยุติธรรมที่ภาษีของพวกเขาจะเพิ่มขึ้นด้วย ข้าพเจ้าใช้เวลาหลายคืนในการคำนวณยอดเงินที่ยุติธรรม ซึ่งท่านสามารถตรวจสอบได้ด้วยตนเองในบัญชีนี้..."\n\nคนรับใช้เดินเข้ามาอย่างเชื่องช้า เข่าอ่อนแรง"
+ steward_task.2005.a: "ถ้า เช่นนั้น ให้เราเก็บภาษีที่ถึงกำหนดโดยชอบธรรม"
+ steward_task.2005.a.tt: "ข้าพเจ้าเชื่อว่า [liege.GetTitledFirstNameNoTooltip] ชื่นชอบเงินและผลประโยชน์ระยะสั้นในทันที"
+ steward_task.2005.b: "ไม่ การพัฒนา [county.GetNameNoTierNoTooltip] มาก่อน"
+ steward_task.2005.b.tt: "ข้าพเจ้าเชื่อว่า [liege.GetTitledFirstNameNoTooltip] ชื่นชอบผลประโยชน์ระยะยาวและไม่มีความโลภในทองคำ"
+ steward_task.2005.c: "[liege.GetTitledFirstNameNoTooltip] ควรตัดสินใจด้วย [liege.GetHerselfHimself] เอง"
+ steward_task.2005.c.tt: "[liege.GetTitledFirstNameNoTooltip] จะตัดสินใจว่าจะให้ความสำคัญกับการเก็บภาษีหรือการพัฒนาสำหรับ [county.GetNameNoTierNoTooltip]"
+ steward_task.2005.success: "[liege.GetTitledFirstNameNoTooltip|U] เห็นชอบกับแนวทางของท่าน"
+ steward_task.2005.failure: "[liege.GetTitledFirstNameNoTooltip|U] ไม่เห็นด้วยกับแนวทางของท่าน"
+
+ steward_task.2006.opening: "[steward.Custom2('AppropriateGreeting', ROOT.Char)]"
+ steward_task.2006.desc_intro: "ขณะสำรวจ [county.GetName] [tax_collector.GetTitledFirstName] แนะนำให้ข้าพเจ้าเพิ่มภาษีของเคาน์ตีควบคู่ไปกับการพัฒนา\n\n"
+ steward_task.2006.desc_development: "อย่างไรก็ตาม ข้าพเจ้าเชื่อว่าการทำ เช่นนั้นจะขัดขวางการเติบโตของเคาน์ตี ดังนั้นจึงไม่ได้ทำตามคำแนะนำของ [tax_collector.GetHerHis]"
+ steward_task.2006.desc_taxation: "ข้าพเจ้าทำตามคำแนะนำของ [tax_collector.GetHerHis] และเชื่อว่าท่านจะพอใจกับผลลัพธ์"
+ steward_task.2006.a: "ทำได้ดี [steward.GetTitledFirstNameNoTooltip]"
+ steward_task.2006.b: "อะไรนะ? นั่นไม่ใช่สิ่งที่ข้าพเจ้าต้องการเลย!"
+ steward_task.2006.b_notification: "การตัดสินใจถูกกลับ"
+
+ steward_task.2007.desc: "[tax_collector.GetTitledFirstName] และข้าพเจ้าไม่สามารถตัดสินใจได้ว่าจะให้ความสำคัญกับการเก็บภาษีของ [county.GetName] หรือการพัฒนา ดังนั้นจึงนำเรื่องนี้มาเรียนท่าน"
+ steward_task.2007.a: "ภาษีมากขึ้นคือภาษีที่ดี นั่นคือคติประจำใจของข้าพเจ้า"
+
+ steward_task.2008.desc_intro_friendly: "แม้ว่าปกติแล้ว [steward.Custom2('MyCharacterIntroduction', ROOT.Char)] และ [tax_collector.Custom2('MyCharacterIntroduction', ROOT.Char)] จะเข้ากันได้ดี แต่ดูเหมือนว่าพวกเขากำลังขัดแย้งกันในเรื่อง [county.GetNameNoTier] เสียอย่างนั้น"
+ steward_task.2008.desc_intro_unfriendly: "ไม่มีวันใดผ่านไปโดยที่ [steward.Custom2('MyCharacterIntroduction', ROOT.Char)] และ [tax_collector.Custom2('MyCharacterIntroduction', ROOT.Char)] ไม่ขัดแย้งกัน ครั้งนี้ การทะเลาะวิวาทของพวกเขาดูเหมือนจะเป็นเรื่อง [county.GetNameNoTier] เสียอย่างนั้น"
+ steward_task.2008.desc_outro: "\n\n"เมื่อ [county.GetNameNoTooltip] เจริญรุ่งเรืองมากขึ้น ภาษีก็ควรเพิ่มขึ้นตามไปด้วย" [tax_collector.GetTitledFirstNameNoTooltip] ยืนยัน "ให้เราขึ้นภาษีตอนนี้เลย แทนที่จะรอหลังจากงานของ [steward.GetTitledFirstNamePossessiveNoTooltip] สิ้นสุดลงอย่างเป็นทางการ"\n\n"แต่การทำ เช่นนี้จะชะลอการเติบโตของ [county.GetNameNoTierNoTooltip]" [steward.GetTitledFirstNameNoTooltip] โต้แย้ง "และท้ายที่สุด คำสั่งของข้าพเจ้าคือการพัฒนา ไม่ใช่การเก็บภาษีเคาน์ตี""
+ steward_task.2008.a: "[tax_collector.GetTitledFirstNameNoTooltip] ถูกต้องในเรื่องนี้"
+ steward_task.2008.b: "[steward.GetTitledFirstNameNoTooltip] หยิบยกประเด็นที่ดี"
+ steward_task.2008.c: "พวกเจ้าสองคนจัดการกันเองไม่ได้หรือ?!"
+
+ steward_task.2101.t:0 "การเก็บภาษีที่มีประสิทธิภาพ"
+ steward_task.2101.desc:0 "ด้วย [councillor.GetTitledFirstName] [councillor.GetCouncilTitle] ของข้าพเจ้า ชี้นำการตั้งถิ่นฐานและการถางที่ดินใน [county.GetName] [councillor.GetSheHe] มีภาพรวมที่ชัดเจนไม่เพียง แต่ของที่ดินศักดินาใหม่ แต่ยัง รวมถึงที่ดินที่มีอยู่ก่อนหน้านี้ด้วย\n\nตามคำกล่าวของ [councillor.GetHerHim] บันทึกภาษีของเราไม่เคยมีรายละเอียดเท่านี้มาก่อน!"
+ steward_task.2101.a:0 "เจ้ารู้ว่าต้องทำอะไร [councillor.GetFirstNameNoTooltip]!"
+ steward_task.2101.notification:0 "ภาษีเคาน์ตีที่มีประสิทธิภาพ"
+
+ steward_task.2102.t:0 "เพิ่มการควบคุม"
+ steward_task.2102.desc:0 "การชี้นำการตั้งถิ่นฐานของที่ดินศักดินาใหม่ใน [county.GetName] ทำให้ [councillor.GetCouncilTitle] ของข้าพเจ้าต้องใช้อำนาจควบคุมในระดับที่สูงกว่าที่เป็นธรรมเนียมปฏิบัติสำหรับผู้คนที่นั่น\n\nโชคดีที่ [councillor.GetTitledFirstName] ได้รับความเคารพอย่างสูง และการบริหารที่เข้มแข็งขึ้นใน [county.GetTitleTierName] ก็เป็นประโยชน์ต่อข้าพเจ้าในหลายๆ ด้าน"
+ steward_task.2102.a:0 "เตือนพวกเขาทั้งหมดถึง [ROOT.Char.GetTitleTierName] ผู้ปกครองพวกเขา"
+ steward_task.2102.notification:0 "เพิ่มการควบคุม"
+
+ steward_task.3001.t:0 "การต่อต้านผู้ตั้งถิ่นฐาน"
+ steward_task.3001.desc:0 "ผู้ตั้งถิ่นฐานชาว [ROOT.Char.GetCulture.GetName] ใหม่จำนวนมากใน [county.GetName] กำลังประสบความยากลำบาก ใน [county.GetNameNoTier] ผู้ตั้งถิ่นฐานไม่เพียง แต่ถูกเพิกเฉยจากชุมชนของพวกเขา แต่ยังมีการโจมตีอย่างเปิดเผยต่อไร่นาหลายแห่ง!"
+ steward_task.3001.a:0 "ผู้ตั้งถิ่นฐานชาว [ROOT.Char.GetCulture.GetNameNoTooltip] จะต้องได้รับความเคารพ!"
+ steward_task.3001.notification:0 "การต่อต้านผู้ตั้งถิ่นฐาน"
+
+ steward_task.3002.t:0 "การต่อต้านการบริหาร"
+ steward_task.3002.desc:0 "[councillor.GetTitledFirstName] กำลังเผชิญกับปัญหาที่ไม่คาดคิดใน [county.GetName] ชาวบ้านปฏิเสธที่จะร่วมมือกับการบริหารแบบ [ROOT.Char.GetCulture.GetName] ใหม่ มีการร้องเรียนเข้ามาว่าความพยายามของ [councillor.GetCouncilTitle] ของข้าพเจ้านั้นก่อกวนมากกว่าที่จะเป็นประโยชน์"
+ steward_task.3002.a:0 "ทั้งหมดนี้จำเป็น ข้าพเจ้าเกรงว่า"
+ steward_task.3002.notification:0 "การบริหารแบบ [ROOT.Char.GetCulture] ล้มเหลว"
+ 
+ steward_task.3101.t:0 "การบริหารที่ได้รับการต้อนรับ"
+ steward_task.3101.desc:0 "[councillor.GetCouncilTitle] ของข้าพเจ้า [councillor.GetTitledFirstName] ได้ทำงานเพื่อสร้างการบริหารที่ตั้งอยู่บนหลักการของ [ROOT.Char.GetCulture.GetName] ใน [county.GetName]\n\nความพยายามของ [councillor.GetHerHis|U] ดูเหมือนจะได้รับการตอบรับอย่างดีจากชาวบ้าน เนื่องจากชีวิตของพวกเขากำลังง่ายขึ้นและปลอดภัยขึ้น"
+ steward_task.3101.a:0 "ข้าคิดถูกแล้วที่ไว้วางใจในตัว [councillor.GetTitledFirstNameNoTooltip]!"
+ steward_task.3101.notification:0 "การบริหารแบบ [ROOT.Char.GetCulture] ได้รับการต้อนรับ"
+
+ steward_task.3102.t:0 "การจัดการที่ได้รับการชื่นชม"
+ steward_task.3102.desc:1 "[councillor.GetCouncilTitle] ของข้าพเจ้า [councillor.GetTitledFirstName] ได้ทำงานเพื่อปรับปรุงการบริหารของ [county.GetName] โดยนำเสนอแนวคิดตามประเพณี [ROOT.Char.GetCulture.GetName]\n\nด้วยการจัดการ [county.GetTitleTierName] อย่างเชี่ยวชาญ เจ้าของที่ดินในท้องถิ่นดูเหมือนจะไม่ขัดข้องกับการเพิ่มภาษีเล็กน้อย"
+ steward_task.3102.a:0 "ทองคำในคลังมากขึ้นย่อมดีเสมอ!"
+ steward_task.3102.notification:0 "การบริหารแบบ [ROOT.Char.GetCulture]"
+
+ steward_task.3103.t:0 "กองทหารที่แข็งแกร่งขึ้น"
+ steward_task.3103.desc:0 "มีบางอย่างแปลกประหลาดเกิดขึ้น ต้องขอบคุณความพยายามของ [councillor.GetTitledFirstNamePossessive] ในการนำผู้ตั้งถิ่นฐานชาว [ROOT.Char.GetCulture.GetName] เข้ามาใน [county.GetNameNoTier]\n\nชาวบ้านดูเหมือนจะมีความเข้าใจในส่วนของอาณาจักรของตนมากขึ้น และเมื่อถึงเวลาต้องต่อสู้เพื่อมัน แต่ละหมู่บ้านก็ทำทุกวิถีทางเพื่อส่ง [ROOT.Char.Custom('LevyMenWomen')] ที่แข็งแรงที่สุดไปรับใช้ อันที่จริง ชาวนาบางคนสมัครใจเกณฑ์ตนเอง!"
+ steward_task.3103.a:0 "บัดนี้ข้าพเจ้าได้เห็นทุกสิ่งแล้ว"
+ steward_task.3103.notification:0 "อาสาสมัครเกณฑ์ทหารชาว [ROOT.Char.GetCulture]"
+
+ steward_task.3201.notification:0 "เพิ่มความเป็นอิสระ"
+ steward_task.3202.notification:0 "ได้รับการยกเว้นภาษีทางวัฒนธรรม"
+ steward_task.3203.notification:0 "ประเพณีโบราณได้รับการคุ้มครอง"
+ steward_task.3301.notification:0 "บรรลุความเข้าใจทางวัฒนธรรม"
+ steward_task.3302.notification:0 "การทาบทามทางการทูตได้รับการชื่นชม"
+ steward_task.3303.notification:0 "จุดประกายความอยากรู้อยากเห็นทางวัฒนธรรม"
+
+ steward_task.4001.opening:0 "[county_liege.Custom2('AppropriateGreeting', ROOT.Char)]"
+ steward_task.4001.desc:0 "เป็นที่ชัดเจนแล้วว่า [councillor.GetCouncilTitle] ของท่านกำลังพยายามเอาใจ [county.GetName] และยุยงให้ต่อต้านข้าพเจ้า อย่าคิดว่าการกระทำอันไร้เกียรติ เช่นนี้จะไม่มีการตอบโต้"
+ steward_task.4001.a:0 "แต่ข้าพเจ้ามีข้ออ้างสิทธิ์ #EMP อันชอบธรรม#! ในนั้น!"
+
+ steward_task.4002.t:0 "การสูญเสียเกียรติภูมิ"
+ steward_task.4002.desc:0 "[councillor.GetTitledFirstName] กำลังเผชิญกับปัญหาที่ไม่คาดคิดใน [county.GetName] ชาวบ้านไม่รู้สึกประทับใจอย่างสิ้นเชิงกับความพยายามของเราที่จะเอาชนะใจพวกเขา"
+ steward_task.4002.a:0 "พวกเขาจะเข้าใจ ไม่ช้าก็เร็ว"
+ steward_task.4002.notification:0 "การสูญเสียเกียรติภูมิ"
+
+ steward_task.4101.t:0 "ได้รับเกียรติภูมิ"
+ steward_task.4101.desc:0 "ภารกิจของ [councillor.GetTitledFirstNamePossessive] ใน [county.GetName] เริ่มแสดงผลลัพธ์ ชาวบ้านประทับใจในความพยายามของเราและมองเราในแง่ดี"
+ steward_task.4101.a:0 "ผลลัพธ์ยอดเยี่ยม!"
+ steward_task.4101.notification:0 "ได้รับเกียรติภูมิ"

@@ -1,0 +1,22 @@
+﻿l_english: 
+### Descriptors
+## Character Names and Nicknames
+ digenis:0 "ดิเกนิส"
+ nick_akritis:0 "อากริติส"
+ nick_the_conquistador:0 "ผู้พิชิต"
+ nick_sem_pavor:0 "ผู้ไร้ความกลัว"
+ nick_al_mansur:0 "ผู้มีชัยด้วยพระเจ้า"
+ nick_the_irreproachable:0 "ผู้ไร้ที่ติ"
+ nick_the_chevalier:0 "อัศวิน"
+## Custom Loc
+ augousta:0 "ออกัสตา"
+ augoustus:0 "ออกัสตัส"
+ consort_empress:0 "จักรพรรดินี"
+ consort_emperor:0 "จักรพรรดิ"
+ consort_queen:0 "ราชินี"
+ consort_king:0 "ราชา"
+ consort_duchess:0 "ดัชเชส"
+ consort_duke:0 "ดยุก"
+ consort_countess:0 "เคาน์เตส"
+ consort_count:0 "เคานต์"
+ hold_court.7000.b.failure.toast:0 "การชักใยล้มเหลว"

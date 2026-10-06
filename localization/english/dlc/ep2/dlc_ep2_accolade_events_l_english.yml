@@ -1,0 +1,33 @@
+﻿l_english: 
+ 
+ ep2_accolade_events.0100.t:0 "ศิลปะแห่งการล่า"
+ ep2_accolade_events.0100.desc:0 "การไล่ตามสัตว์ป่าอย่างบ้าคลั่ง ยิงธนูแล้วยิงธนูเล่า หรือกระตุ้นม้าให้เร็วขึ้นเรื่อยๆ?\n\n"ไร้ประโยชน์!" [huntsmaster.GetName] [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] ผู้มีชื่อเสียงของข้าหัวเราะ\n\nสัตว์ร้ายนั้นเจ้าเล่ห์ พวกมันได้กลิ่นนักล่าที่เข้าใกล้ แตกกระเจิงหนีฝูงนักล่า และดุร้ายเมื่อจนมุม การล้มเหยื่อหมายถึงการรู้จักพวกมันและถิ่นทุรกันดารของพวกมันเป็นอย่างดี และเมื่อเสียงแตรดังขึ้น — ก็อย่าได้หยุดยั้ง\n\nนักล่าที่เก่งกาจที่สุดคือ [huntsmaster.GetFirstNameNoTooltip] ในหมู่คณะของ[huntsmaster.GetHerHis]"
+ ep2_accolade_events.0100.desc.both:0 "[ROOT.Char.Custom2('RelationToMeShort', new_hunter_2)] ของข้า [new_hunter_2.GetFirstName] และตัวข้ากำลังเรียนรู้วิถีของสรรพสัตว์แห่ง [ROOT.Char.GetFaith.HighGodName]... และวิถีแห่งการชิงไหวชิงพริบกับพวกมัน"
+ ep2_accolade_events.0100.desc.heir:0 "[ROOT.Char.Custom2('RelationToMeShort', new_hunter)] ของข้า [new_hunter.GetFirstName] กำลังเรียนรู้วิถีของสรรพสัตว์แห่ง [ROOT.Char.GetFaith.HighGodName]... และวิถีแห่งการชิงไหวชิงพริบกับพวกมัน"
+ ep2_accolade_events.0100.desc.liege:0 "ข้ากำลังเรียนรู้วิถีของสรรพสัตว์แห่ง [ROOT.Char.GetFaith.HighGodName]... และวิถีแห่งการชิงไหวชิงพริบกับพวกมัน"
+ ep2_accolade_events.0100.a:0 "สู่การไล่ล่า!"
+ 
+ ep2_accolade_events.0200.t:0 "คมกริบดุจคมดาบ"
+ ep2_accolade_events.0200.desc:0 ""ดี!" [acclaimed_blademaster.GetName] ยิ้มกว้าง #EMP "อีกครั้ง!"#!\n\nดาบกระทบดาบ เจตจำนงปะทะเจตจำนง ความปรารถนาในชัยชนะคือทั้งหมดที่นักดาบมือใหม่รู้สึก — แต่อัศวินผู้เชี่ยวชาญ [acclaimed_blademaster.GetFirstNameNoTooltip] ยิ้มขณะที่เขาปัดป้องคมดาบ\n\n"
+
+ ep2_accolade_events.0200.desc.both_not_martial:0 "ข้าหยุดจู่โจมลงอย่างอ่อนล้า\n\n"หัตถ์ของท่านชำนาญดาบดียิ่งนัก [ROOT.Char.Custom('FormOfAddressForLiege')]" [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] เอ่ย "รวมถึง[ROOT.Char.Custom2('RelationToMeShort', new_blademaster_2)]ของท่านด้วย ข้า... ฝึกพวกท่านทั้งคู่ได้ หากท่านประสงค์?"\n\nข้าพินิจด้ามดาบในนิ้วมือที่พุพอง ข้าควรจะท้าทายชาติกำเนิดของข้าหรือ?"
+ ep2_accolade_events.0200.desc.liege_not_martial:0 "ข้าหยุดจู่โจมลงอย่างอ่อนล้า\n\n"หัตถ์ของท่านชำนาญดาบดียิ่งนัก [ROOT.Char.Custom('FormOfAddressForLiege')]" [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] เอ่ย "และของ[ROOT.Char.Custom2('RelationToMeShort', new_blademaster_2)]ของท่านก็ เช่นกัน ข้า... ฝึกท่านได้ ดังที่ข้ากำลังฝึก [new_blademaster_2.GetHerHim] หากท่านประสงค์?"\n\nข้าพินิจด้ามดาบในนิ้วมือที่พุพอง ข้าควรจะท้าทายชาติกำเนิดของข้าหรือ?"
+ ep2_accolade_events.0200.desc.heir_not_martial:0 "ข้าหยุดจู่โจมลงอย่างอ่อนล้า\n\n"หัตถ์ของท่านชำนาญดาบดียิ่งนัก [ROOT.Char.Custom('FormOfAddressForLiege')]" [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] เอ่ย "เช่นเดียวกับ... [ROOT.Char.Custom2('RelationToMeShort', new_blademaster_2)]ของท่าน [new_blademaster_2.GetFirstName] ได้ขอให้ข้าฝึกท่านทั้งคู่"\n\n[new_blademaster_2.GetFirstName] ทายาทของข้า ประสงค์จะท้าทายชาติกำเนิดของ[new_blademaster_2.GetHerHis]หรือ?"
+ ep2_accolade_events.0200.desc.both:0 "ข้าหยุดจู่โจมลงอย่างอ่อนล้า\n\n"หัตถ์ของท่านชำนาญดาบดียิ่งนัก [ROOT.Char.Custom('FormOfAddressForLiege')]" [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] เอ่ย "เช่นเดียวกับ[ROOT.Char.Custom2('RelationToMeShort', new_blademaster_2)]ของท่าน! ความกราดเกรี้ยวของพวกท่านมีศิลปะในตัว: เป็นสิ่งที่ควรบ่มเพาะ""
+ ep2_accolade_events.0200.desc.heir:0 "[ROOT.Char.Custom2('RelationToMeShort', new_blademaster)] [new_blademaster.GetFirstName] ของข้า หยุดจู่โจมลงอย่างอ่อนล้า\n\n"มือของ[new_blademaster.GetHerHis|U] ชำนาญดาบดียิ่งนัก [ROOT.Char.Custom('FormOfAddressForLiege')]" [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] เอ่ย "ความกราดเกรี้ยวของ[new_blademaster.GetHerHis]มีศิลปะในตัว: เป็นสิ่งที่ควรบ่มเพาะ""
+ ep2_accolade_events.0200.desc.liege:0 "ข้าหยุดจู่โจมลงอย่างอ่อนล้า\n\n"หัตถ์ของท่านชำนาญดาบดียิ่งนัก [ROOT.Char.Custom('FormOfAddressForLiege')]" [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] เอ่ย "ความกราดเกรี้ยวของท่านมีศิลปะในตัว: เป็นสิ่งที่ควรบ่มเพาะ""
+
+ ep2_accolade_events.0200.a:0 "ขอให้ศัตรูของเราตัวสั่น!"
+ ep2_accolade_events.0200.b:0 "เฉพาะผู้ที่อาจต้องต่อสู้เท่านั้นที่จำเป็นต้องรู้วิธี"
+ ep2_accolade_events.0200.b.tt:0 "ท้ายที่สุดแล้ว [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] ก็มองข้าเป็นแบบอย่าง"
+ 
+ defied_martial_custom_modifier:0 "ท้าทายธรรมเนียมการศึก"
+ defied_martial_custom_desc:0 "ตัวละครนี้เพิกเฉยต่อจารีตสังคมโดยให้นักดาบที่ไม่เหมาะสมจับดาบ"
+
+ ep2_accolade_events.0300.t:0 "คติของผู้เอาใจฝูงชน"
+ ep2_accolade_events.0300.desc:0 "ขณะนั่งข้างข้าในมื้อเช้า [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] ของข้า [master_of_revels.GetFirstName] เล่าเรื่องราวเชิงลึกที่หาได้ยากเกี่ยวกับข้าราชสำนักให้ข้าฟัง เล่าเรื่องราวที่น่าตื่นตาตื่นใจและไร้สาระ และ ทำให้อาหารและเครื่องดื่มจำนวนมากหายไปอย่างน่าประหลาดใจ\n\n"ผลไม้แห่งชีวิตรออยู่รอบด้าน [ROOT.Char.GetTitleTierName] ของข้า" [master_of_revels.GetSheHe] กล่าว "สุกงอมอยู่บนกิ่งก้าน จะลิ้มรสได้ก็ต่อเมื่อปีนป่ายตามมันไปอย่างไม่ยั้งคิด"\n\nความเพลิดเพลินในผลไม้แห่งชีวิตของ [master_of_revels.GetFirstNameNoTooltip] เป็นที่กล่าวขานของทุกคน [master_of_revels.GetSheHe] มักจะรวบรวมมิตรภาพและความหลงใหลได้อย่างไม่ยั้งคิดเสมอ\n\n"
+
+ ep2_accolade_events.0300.desc.both:0 "แรงบันดาลใจอันอึกทึกสำหรับทายาทของข้า [new_reveler_2.GetFirstName] และตัวข้าเอง"
+ ep2_accolade_events.0300.desc.heir:0 "แรงบันดาลใจอันอึกทึกสำหรับทายาทของข้า [new_reveler_2.GetFirstName]"
+ ep2_accolade_events.0300.desc.liege:0 "ข้าพบว่าตัวเองได้รับแรงบันดาลใจ"
+ ep2_accolade_events.0300.a:0 "แด่ยามเย็นอันมีชีวิตชีวาและผลไม้อันหอมหวาน!"

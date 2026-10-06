@@ -1,0 +1,24 @@
+﻿l_english: 
+ ##################################################
+ # MANDALA PLUNDER WAR
+ ##################################################
+ mandala_plunder_cb: "$MANDALA_PLUNDER_CB_NAME$"
+ MANDALA_PLUNDER_CB_NAME: "ปล้นชิงเพื่อการอุทิศ"
+ MANDALA_PLUNDER_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]สงครามปล้นชิงของ[ATTACKER.GetPrimaryTitle.GetAdjective]"
+ MANDALA_PLUNDER_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ mandala_plunder_cb_victory_desc: "[defender.GetShortUIName|U] ถูกบังคับให้ [great_project_contribute|E] แก่ [great_project|E] ของท่าน"
+ mandala_plunder_cb_white_peace_desc: "[defender.GetShortUIName|U] มิต้อง [great_project_contribute|E] แก่ [great_project|E] ของท่าน"
+ mandala_plunder_cb_defeat_desc: "ชื่อเสียงอันศักดิ์สิทธิ์ของ [attacker.GetShortUINamePossessive|U] ต้องมัวหมอง"
+ mandala_plunder_cb_ended_invalid.desc: "[war.GetName] ได้สิ้นสุดลง: เนื่องจาก [attacker.GetShortUIName] [CharAreIs( attacker )] มิได้เป็น [ruler|E] [mandala|E] [aspect_of_destruction|E] ผู้ ซึ่งมี [great_project|E] ที่วางแผนไว้อีกต่อไป หรือ [defender.GetShortUIName] [CharAreIs( defender )] มิได้เป็นผู้ปกครองมณฑลอีกต่อไป"
+ not_planning_mandala_capital_tt: "ท่านมิได้กำลังวางแผน [great_project|E] [GetBuilding('mandala_capital_01').GetTypeName]"
+ ##################################################
+ # MANDALA RAZE CAPITAL WAR
+ ##################################################
+ mandala_raze_capital_structure_cb: "$MANDALA_RAZE_CAPITAL_STRUCTURE_CB_NAME$"
+ MANDALA_RAZE_CAPITAL_STRUCTURE_CB_NAME: "ทำลายราบ [GetBuilding('mandala_capital_01').GetTypeName]"
+ MANDALA_RAZE_CAPITAL_STRUCTURE_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]สงครามทำลายล้างของ[ATTACKER.GetPrimaryTitle.GetAdjective]"
+ MANDALA_RAZE_CAPITAL_STRUCTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ mandala_raze_capital_structure_cb_victory_desc: "[GetBuilding('mandala_capital_01').GetTypeName] ของ [defender.GetShortUINamePossessive|U] ตกอยู่ในสภาพ [ruined|E]"
+ mandala_raze_capital_structure_cb_white_peace_desc: "[GetBuilding('mandala_capital_01').GetTypeName] ของ [defender.GetShortUINamePossessive|U] ยังคงสมบูรณ์"
+ mandala_raze_capital_structure_cb_defeat_desc: "[GetBuilding('mandala_capital_01').GetTypeName] ของ [attacker.GetShortUINamePossessive|U] ตกอยู่ในสภาพ [ruined|E]"
+ mandala_raze_capital_structure_cb_ended_invalid.desc: "[war.GetName] ได้สิ้นสุดลง: เนื่องจาก [attacker.GetShortUIName] [CharAreIs( attacker )] มิได้เป็น [ruler|E] [mandala|E] ผู้ ซึ่งมีเมืองหลวงที่มิได้ [ruined|E] อีกต่อไป หรือ [defender.GetShortUIName] [CharAreIs( defender )] มิได้เป็นผู้ปกครองมณฑลผู้ ซึ่งมีเมืองหลวงที่มิได้ย่อยยับอีกต่อไป"

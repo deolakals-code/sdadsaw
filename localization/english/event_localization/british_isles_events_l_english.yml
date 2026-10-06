@@ -1,0 +1,131 @@
+﻿l_english: 
+
+# Reclaiming Britannia, by Linnéa Thimrén
+ british_isles.0001.t:0 "[reclaimer.GetCulture.GetNameNoTooltip|U] บริทาเนีย"
+ british_isles.0001.desc:0 "นานเกินไปแล้วที่เกาะอันยิ่งใหญ่ของเราแห่งนี้ตกอยู่ภายใต้การปกครองของต่างชาติ — ในที่สุดก็กลับคืนสู่มือชาวเคลต์! ข้ามองออกไปเหนือทุ่งนา และราวกับว่าดวงอาทิตย์สาดส่องเป็นครั้งแรกในรอบหลายปี ราวกับว่าดินแดนแห่งความอุดมสมบูรณ์และสุขภาพดี เทียร์ นาน อ็อก ได้กลับมาทักทายต้อนรับเรา เนินเขาและหุบเขาของบรรพบุรุษของเราได้รับการโอบกอดโดยวัฒนธรรม[ROOT.Char.GetCulture]อีกครั้ง"
+ british_isles.0001.custom:0 "[counties|E]ทั้งหมดในบริทาเนีย"
+ british_isles.0001.a:0 "สรรเสริญแด่บรรพบุรุษ!"
+
+ british_isles.0002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('reclaimer'))] [reclaimer.GetName] ได้ประกาศอย่างเป็นทางการถึงการฟื้นคืนชีพของบริทาเนียแห่งเคลต์ \n\nหลังจากหลายศตวรรษแห่งการปกครองของต่างชาติ หมู่เกาะได้กลับคืนสู่การควบคุมของเจ้าของดั้งเดิม"
+ british_isles.0002.a:0 "หายนะแห่ง[reclaimer.GetCulture.GetNameNoTooltip]บนผืนแผ่นดิน..."
+ british_isles.0002.b:0 "บริทาเนียเป็นของเราอีกครั้ง!"
+
+# Restoring the Danelaw, by Linnéa Thimrén
+ british_isles.1001.t:0 "กฎหมายได้รับการฟื้นฟู"
+ british_isles.1001.desc:0 "เดนลอว์ได้ถือกำเนิดขึ้นใหม่ด้วยความพยายามของข้า อาณาจักรนี้จะได้รู้จักการปกครองของ[restorer.GetCulture.GetName]อีกครั้ง!\n\nข้ากำลังเดินตามรอยเท้าของตำนาน เช่น กุธรัม และ อีริค บลัดแอ็กซ์ วีรบุรุษแห่งอดีตกาล และโดย[restorer.GetFaith.WarGodName] ข้าจะไม่ยอมให้อาณาจักรตกอยู่ใต้อำนาจของพวกแองโกล-แซกซันอีกต่อไป!"
+ british_isles.1001.a:0 "ยุคใหม่เริ่มต้นขึ้นแล้ว!"
+
+ british_isles.1002.t:0 "เดนลอว์"
+ british_isles.1002.desc_same_culture:0 "เดนลอว์ได้ถือกำเนิดขึ้นใหม่ด้วยความพยายามของ[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))] [restorer.GetName]! อีกครั้งหนึ่งที่เกาะอันยิ่งใหญ่ตกอยู่ภายใต้การปกครองของ[restorer.GetCulture.GetName]"
+ british_isles.1002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))] [restorer.GetName] และเหล่าผู้บุกรุกอันชั่วร้ายของ[restorer.GetHerHis]ได้ก่อตั้งอาณาจักรใหม่ขึ้นในหมู่เกาะและประกาศให้เป็นราชอาณาจักรเดนลอว์ที่ถือกำเนิดใหม่\n\nยังคงต้องรอดูว่าความพยายามในการฟื้นฟูการปกครองของ[restorer.GetCulture.GetName]เหนืออังกฤษครั้งนี้จะประสบความสำเร็จมากกว่าครั้งก่อนหรือไม่..."
+ british_isles.1002.a:0 "หายนะแห่ง[restorer.GetCulture.GetNameNoTooltip]บนผืนแผ่นดิน"
+ british_isles.1002.b:0 "ชัยชนะสำหรับชาว[restorer.GetCulture.GetNameNoTooltip]!"
+ british_isles.1002.c:0 "หืม [restorer.GetCulture.GetNameNoTooltip] ท่านว่ารึ? ลงชื่อข้าด้วย!"
+
+# Embrace English Culture, by Linnéa Thimrén
+ british_isles.2001.t:0 "ไม่ใช่[embracer_former_culture.GetNameNoTooltip|U]อีกต่อไป"
+ british_isles.2001.desc:0 "เวลาที่พวกเรา[embracer.GetCulture.GetCollectiveNounNoTooltip]ถือว่าฝรั่งเศสเป็นบ้านเกิดของเรานั้นผ่านไปนานแล้ว บุตรหลานของเราเกิดที่นี่ ล้อมรอบด้วยชาวแซกซัน และสำหรับพวกเขา นอร์มังดีจะเป็นเพียงเส้นเลือนรางที่อยู่นอกชายฝั่งอันหมอกหนาของบริทาเนีย\n\nและ ในขณะที่เรานำขนบธรรมเนียมท้องถิ่นบางอย่างมาเป็นของเราเอง มรดกทางวัฒนธรรมของเราก็แผ่ขยายไปทั่วดินแดนแซกซัน ก่อให้เกิดอัตลักษณ์อังกฤษใหม่"
+ british_isles.2001.a:0 "อังกฤษจงเจริญ!"
+
+ british_isles.2002.desc:0 "[ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('embracer'))] [embracer.GetName], เหล่าข้าหลวงของ[embracer.GetHerHis], และครอบครัวทั้งหมดของ[embracer.GetHerHis]ได้ตอบรับเสียงเรียกแห่งอัลเบียนและยอมรับวัฒนธรรมอังกฤษ"
+ british_isles.2002.a:0 "มันเป็นเพียงเรื่องของเวลา"
+ british_isles.2002.b:0 "คนทรยศ!"
+
+# Request Laudabiliter, by Flavio Verna
+ british_isles.3001.t:0 "เราประกาศอย่างน่ายกย่องว่า,"
+ british_isles.3001.desc:0 "ความปรารถนาของท่านที่จะขยายอาณาจักรอันศักดิ์สิทธิ์ของคริสตจักรสากลไปยังชนเผ่าป่าเถื่อนแห่งไอร์แลนด์นั้นเป็นเหตุผลอันเคร่งศาสนาและชอบธรรม ด้วยเหตุนี้ คริสตจักรโรมันอันศักดิ์สิทธิ์จึงบัญชาให้ท่านเข้าครอบครองเกาะนี้และดำเนินการตามพระประสงค์ของพระเจ้า ณ ที่นั่น \n\nหากท่านต้องจากไปโดยโชคร้ายก่อนสิ้นสุดการรณรงค์อันศักดิ์สิทธิ์นี้ เราขอขยายอาณัติอันศักดิ์สิทธิ์นี้ไปยังผู้สืบทอดที่ชอบธรรมของท่าน ขอให้ตระกูล[scoped_ruler.GetHouse.GetBaseNameNoTooltip]ดำเนินความพยายามอันศักดิ์สิทธิ์นี้ต่อไปชั่วนิรันดร์ จนกว่าพระประสงค์อันศักดิ์สิทธิ์จะบรรลุผลและไอร์แลนด์จะรวมเป็นหนึ่งภายใต้การปกครองของ[scoped_ruler.GetCulture.GetNameNoTooltip]"
+ british_isles.3001.a:0 "เตรียมกองเรือของเรา!"
+ british_isles.3002.t:0 "การอ้างสิทธิ์เหนือไอร์แลนด์"
+ british_isles.3002.desc.irish:0 "โดยพระคุณของ[scoped_pope.GetHerHis|U]สมเด็จ[scoped_pope.GetFirstName], ผู้แทนพระคริสต์และทายาทแห่งบัลลังก์นักบุญเปโตร, [scoped_ruler.GetFullName]ได้รับสิทธิ์ในการปกครองอันศักดิ์สิทธิ์เหนือเอเรและชนเผ่าทั้งหมดในนั้น\n\nขุนนางชาวไอริชคนใดที่จะไม่เชื่อฟังพระราชกฤษฎีกาของพระสันตะปาปาและปฏิเสธที่จะยอมจำนนจะต้องเผชิญกับพระพิโรธของ[scoped_ruler.GetTitledFirstName], กองทัพ[scoped_ruler.GetCulture.GetName]ของ[scoped_ruler.GetHerHis], และพระเจ้าผู้ทรงฤทธานุภาพ"
+ british_isles.3002.a:0 "เราจะได้เห็นกัน!"
+ british_isles.3002.b:0 "ข้าเข้าใจแล้ว..."
+
+# Refound Dumnonia, by Ewan Cowhig Croft
+ british_isles.4001.t:0 "ราชอาณาจักร[founder.GetPrimaryTitle.GetAdjectiveNoTooltip]ได้รับการฟื้นฟู"
+ british_isles.4001.desc:0 "[founder.GetPrimaryTitle.GetNameNoTierNoTooltip]ไม่ต้อนรับผู้บุกรุก ไม่ว่าประเภทใดก็ตาม เป็นเวลาหลายศตวรรษที่เราต่อสู้กับพวกเขา ต่อสู้เพื่อทวงคืนบ้านของเรา ด้วยความเฉลียวฉลาดและทักษะอันยอดเยี่ยม ในที่สุดข้าก็ประสบความสำเร็จในการยึดคืนดินแดนแห่งดัมนอเนียโบราณ ก่อตั้งราชอาณาจักร[founder.GetPrimaryTitle.GetNameNoTierNoTooltip]ขึ้นใหม่\n\nภัยคุกคามจากต่างชาติได้ถูกต้านทาน การล่มสลายของบริทาเนียเก่าได้ผ่านพ้นไป และบัดนี้ข้าพร้อมที่จะเผชิญกับความท้าทายใหม่ใดๆ ที่[founder.GetFaith.DevilName]อาจโยนใส่เรา ไม่ว่าจะเกิดอะไรขึ้น [founder.GetPrimaryTitle.GetNameNoTierNoTooltip]จะคงอยู่ต่อไป"
+ british_isles.4001.a:0 "ข้าคือคอรีเนียสกลับชาติมาเกิด!"
+ british_isles.4001.b:0 "ราชอาณาจักรของข้าคือตำแหน่งเดียวที่สำคัญ"
+ british_isles.4002.desc:0 "หลังจากการต่อสู้มาหลายศตวรรษ [founder.GetFullName]ได้ฟื้นฟูราชอาณาจักรโบราณแห่งดัมนอเนีย ซึ่งผู้อยู่อาศัยเรียกว่า[founder.GetPrimaryTitle.GetNameNoTier] และขับไล่ผู้บุกรุกต่างชาติออกจากเกาะของพวกเขา\n\nแม้ว่าขุนนางคนอื่นๆ ของหมู่เกาะบริติชไม่น่าจะยอมรับอำนาจที่เพิ่งเกิดขึ้นใหม่นี้ ซึ่งรุกล้ำสิ่งที่พวกเขามองว่าเป็นดินแดนบรรพบุรุษของตน แต่ชาว[founder.GetPrimaryTitle.GetAdjective]ได้ผ่านพ้นการรุกรานที่เลวร้ายยิ่งกว่าสิ่งใดๆ ที่ยุคสมัยใหม่นี้จะสามารถรวบรวมได้แล้ว พวกเขาเตรียมพร้อมที่จะต่อต้านการตอบโต้อันน่าสะพรึงกลัวที่หลีกเลี่ยงไม่ได้..."
+ british_isles.4002.a:0 "หนึ่งเดียวและทั้งหมด!"
+ british_isles.4002.b:1 "เราจะผลักดันพวกเขากลับไปที่แลนด์สเอ็นด์"
+ british_isles.4002.c:0 "อาณาจักรเล็กๆ เกิดขึ้นและดับไป"
+
+
+ british_isles.1011.t:0 "การต่อรองที่คิดไม่ถึง"
+ british_isles.1011.nord:0 "$k_england$ เป็นดินแดนที่ยากลำบาก แต่ก็อุดมสมบูรณ์: ฤดูหนาวไม่รุนแรงและฤดูร้อนชื้น เป็นสถานที่ที่สมบูรณ์แบบสำหรับผู้ตั้งถิ่นฐานและนักรบที่จะเจริญรุ่งเรือง\n\nทว่าการแข่งขันจากชาวนอร์สคนอื่นๆ และการต่อต้านจากรัฐพื้นเมืองที่เหลืออยู่ก็รุนแรงขึ้นทุกปี พวกเราทุกคนต่างแย่งชิงที่มั่น ขุดคุ้ยสร้างเขตศักดินาเล็กๆ และอาณาจักร[ntd_actor.Custom('QueenKing')]หยุมหยิมของเราเอง ไม่สามารถได้มา ซึ่งอำนาจที่แท้จริง"
+ british_isles.1011.brit:0 "ใน แต่ละปี การปล้นสะดมของชาวนอร์สก็เลวร้ายลง พวกเขาส่งผู้ตั้งถิ่นฐานมามากขึ้น ปล้นสะดมไปตามชายฝั่งของเราไกลขึ้น และสังหารนักบวชของเรามากขึ้น\n\nถึงกระนั้น การรวมตัวกันต่อต้านภัยคุกคามจากต่างชาติก็เป็นเรื่องยาก ระหว่างผู้พิชิตชาวนอร์สและความหยิ่งทะนงอันขมขื่นของเหล่าขุนนาง$anglo_saxon$ ดูเหมือนว่าเราจะไม่มีวันมี[ntd_actor.Custom('QueenKing')]แห่ง$k_england$"
+ british_isles.1011.outro:0 "\n\nศัตรูของข้า [ntd_recipient.GetTitledFirstName] เป็นผู้ท้าชิงอันดับต้นๆ ในการปกครองดินแดน หาก[ntd_recipient.GetSheHe]ตกลงที่จะ#EMP แบ่งแยก#!ประเทศ แทนที่จะแข่งขันกันเพื่อมัน ก็มีเพียงไม่กี่คนที่จะสามารถคัดค้านอำนาจที่รวมกันของเราได้..."
+ british_isles.1011.a:0 "หืม ส่งจดหมายไป"
+ british_isles.1011.a.tt:0 ""
+ british_isles.1011.b:0 "จดหมาย และมือที่เปิดกว้างแห่งมิตรภาพ"
+ british_isles.1011.b.above_applies.tt:0 "#BOL ผลกระทบทั้งหมดของข้อตกลงข้างต้นมีผลบังคับใช้#! "
+ british_isles.1011.b.offer_faith.tt:0 "ท่านยังเสนอที่จะแบ่งปัน[faith|E]ของท่านและกลายเป็น[friends|E]"
+ british_isles.1011.c:0 "การทูตเป็นทางออกของคนขี้ขลาด!"
+ british_isles.1011.c.tt:0 ""
+
+ british_isles.1021.t:0 "$british_isles.1011.t$"
+ british_isles.1021.intro:0 "[ntd_actor.GetTitledFirstName] อาจเป็นคู่แข่งที่ยิ่งใหญ่ที่สุดของข้าในการปกครอง$k_england$\n\nดังนั้น จดหมายที่เขียนด้วยลายมือของ[ntd_actor.GetHerHis]และมีตราประทับของ[ntd_actor.GetHerHis]เสนอที่จะแบ่งอาณาจักรกับข้าจึงเป็นสิ่งสุดท้ายที่ข้าคาดหวังในวันนี้\n\n"
+ british_isles.1021.nord:0 "ศัตรูของข้าเสนอการยอมรับและการสนับสนุนสำหรับการปกครองตนเองของชาวนอร์ส และอาณาจักร[ntd_recipient.Custom('QueenKing')]ของข้าเอง ซึ่งมีอันดับเท่าเทียมกับของ[ntd_actor.GetHerHis] ดินแดนที่ข้าหรือคนประเภทเดียวกับข้าปกครองจะอยู่ภายใต้เขตอำนาจ#EMP ของข้า#!"
+ british_isles.1021.brit:0 "ศัตรูของข้าเสนอการยอมรับข้าในฐานะ[ntd_recipient.Custom('QueenKing')]แห่ง$k_england$ หากเพียง แต่ข้าจะตกลงที่จะสนับสนุนการปกครองตนเองของชาวนอร์สและอันดับที่เท่าเทียมกันของ[ntd_actor.GetHerHis]ในดินแดนที่[ntd_actor.GetSheHe]ครอบครองอยู่แล้ว"
+ british_isles.1021.outro:0 "\n\nข้าต้องยอมรับว่า ความคิดเรื่องมงกุฎราชวงศ์บนหน้าผากของข้านั้น... น่าสนใจ"
+ british_isles.1021.a:0 "มงกุฎที่ไม่มีใครปฏิเสธได้ ท่านว่ารึ?"
+ british_isles.1021.a.accepted:0 "การต่อรองได้รับการยอมรับ"
+ british_isles.1021.a.accepted.tt:0 "ท่านและ[ntd_recipient.GetTitledFirstNameNoTooltip]แบ่งอาณาจักรระหว่างกัน"
+ british_isles.1021.b:0 "บางที... บางทีมัน#EMP ถึง#!เวลาสำหรับการเปลี่ยนแปลง..."
+ british_isles.1021.b.above_applies.tt:0 "$british_isles.1011.b.above_applies.tt$"
+ british_isles.1021.b.accepted.critical:0 "การต่อรอง#EMP และ#!มิตรภาพได้รับการยอมรับ"
+ british_isles.1021.b.accepted.critical.tt:0 "$british_isles.1021.a.accepted.tt$"
+ british_isles.1021.c:0 "เรื่องไร้สาระ! ให้โลกทั้งใบเห็นความขี้ขลาดของ[ntd_actor.GetHerHis]!"
+ british_isles.1021.c.rejected:0 "การต่อรองถูกปฏิเสธ"
+ british_isles.1021.c.rejected.tt:0 "โลกทั้งใบรู้ถึงความไม่ซื่อสัตย์ของท่าน"
+ british_isles.1021.invalidation.t:0 "การต่อรองของท่านเป็นโมฆะ"
+ british_isles.1021.invalidation.tt:0 "สามารถเสนอได้อีกครั้งผ่านทางหน้าต่าง '$DECISIONS_VIEW_TITLE$'"
+
+ negotiate_the_danelaw_each_way_effect.accepted:0 "หากการต่อรองได้รับการยอมรับ"
+ negotiate_the_danelaw_each-way_effect.rejected:0 "หากการต่อรองถูกปฏิเสธ"
+ negotiate_the_danelaw_accept_effect.partition_active.tt:0 "$k_england$ และ $k_danelaw_article$$k_danelaw$ จะถูก[de_jure_partitioned|E]"
+ negotiate_the_danelaw_accept_effect.de_jure_holdings_recognised.tt:0 "[duchies|E]$k_england_adj$ทั้งหมดที่[ntd_nord.GetTitledFirstName]ถือครอง[county|E]อย่างน้อยหนึ่งแห่งจะกลายเป็นส่วนหนึ่ง[de_jure|E]ของ$k_danelaw_article$$k_danelaw$"
+ negotiate_the_danelaw_accept_effect.independent_holdings_recognised.tt:0 "[duchies|E]$k_england_adj$อิสระทั้งหมดที่มี[ruler|E]ที่มี[culture|E]$north_germanic_group$หรือ[faith|E]$germanic_religion$จะกลายเป็นส่วนหนึ่ง[de_jure|E]ของ$k_danelaw_article$$k_danelaw$"
+ negotiate_the_danelaw_accept_effect.riled_independents_list:0 "ผู้ปกครองอิสระทั้งหมดภายใน$k_england$"
+ TRUCE_SIGNED_PARTITION:1 "\nลงนามสงบศึกเป็นส่วนหนึ่งของการแบ่งแยกราชอาณาจักร"
+
+ resolve_danelaw_partition_effect.adjust_de_jures.tt:0 "ส่วน[de_jure|E]ทั้งหมดของ$k_danelaw_article$$k_danelaw$จะ[de_jure_drift_drifted|E]เข้าสู่$k_england$"
+ resolve_danelaw_partition_effect.coa_changed.tt:0 "$k_england$ จะใช้ตราอาร์มของ$k_danelaw_article$$k_danelaw$"
+ resolve_danelaw_partition_effect.all_claimants:0 "ผู้อ้างสิทธิ์ทั้งหมด"
+
+ formalise_the_daneland_effect.partition_status.tt:0 "$k_england$ และ $k_danelaw_article$$k_danelaw$ ไม่ถือว่าถูก[de_jure_partitioned|E]อีกต่อไป"
+ formalise_the_daneland_effect.adjust_de_jures.tt:0 "ส่วน[de_jure|E]ทั้งหมดของ$k_danelaw_article$$k_danelaw$จะ[de_jure_drift_drifted|E]เข้าสู่$k_daneland$"
+ formalise_the_daneland_effect.all_claimants:0 "ผู้อ้างสิทธิ์ทั้งหมด"
+
+ british_isles.1022.t:0 "$british_isles.1011.t$"
+ british_isles.1022.desc:0 "ดูเหมือนว่าในการพยายามเสริมสร้างอำนาจส่วนตัวของตนเอง [ntd_actor.GetTitledFirstName] และ [ntd_recipient.GetTitledFirstName] ได้ลงนามในสนธิสัญญาอันชั่วร้าย แบ่งอาณาจักร$k_england$ระหว่างกัน!\n\nนับจากนี้ไป พื้นที่ที่อยู่ภายใต้การควบคุมของชาวนอร์สในปัจจุบันจะอยู่ภายใต้$k_danelaw_article$$k_danelaw$ ในขณะที่รัฐพื้นเมืองที่เหลืออยู่ได้รับการยอมรับว่าเป็นดินแดน$k_england_adj$"
+ british_isles.1022.a:0 "นี่คือการทรยศต่อ[dummy_gender.GetWomenMen]ประเทศของพวกเขาอย่างหน้าด้านอะไร เช่นนี้?"
+ british_isles.1022.a.tt:0 "$k_england$ และ $k_danelaw_article$$k_danelaw$ จะถูก[de_jure_partitioned|E]"
+
+ british_isles.1051.t:0 "[partition_winner.GetTierAsNameNoTooltip]ที่รวมเป็นหนึ่ง"
+ british_isles.1051.desc:0 "ในที่สุด ก็ไม่มีใครสามารถโต้แย้งการปกครองของข้าในฐานะ[victor.GetTitleAsNameNoTooltip]#EMP ที่แท้จริง#!แห่ง[england.GetNameNoTierNoTooltip]ได้ เมื่อจัดการกับรัฐผู้แอบอ้างแล้ว อำนาจสูงสุดของข้าเหนือบริทาเนียทั้งหมดก็เกือบจะแน่นอนแล้ว"
+ british_isles.1051.a:0 "หนึ่งอาณาจักร หนึ่ง[victor.GetTitleAsNameNoTooltip]!"
+ british_isles.1051.a.tt:0 "[de_jure_partition|E]ระหว่าง$k_england$และ$k_danelaw_article$$k_danelaw$สิ้นสุดลง"
+
+ british_isles.1052.t:0 "$british_isles.1051.t$"
+ british_isles.1052.desc:0 "[loser.GetFaith.FateGodName|U]เล่นตลกอันโหดร้ายกับข้าในวันนี้ มอบชัยชนะอย่างเด็ดขาดให้กับ[victor.GetTitledFirstName]ในการต่อสู้เพื่อ$k_england$\n\nแม้ว่าข้าจะไม่สามารถอ้างสิทธิ์ในการปกครองดินแดนที่ข้าเคยทำได้อีกต่อไป แต่เรื่องนี้ยังไม่ยุติ ตราบใดที่สายเลือดของข้ายังคงหายใจอยู่"
+ british_isles.1052.a:0 "จะต้อง#EMP มี#!การชำระแค้นสำหรับการดูหมิ่นครั้งนี้"
+ british_isles.1052.a.tt:0 "$british_isles.1051.a.tt$"
+
+ british_isles.1053.t:0 "$british_isles.1051.t$"
+ british_isles.1053.desc:0 "เหตุการณ์ล่าสุด ทำให้[victor.GetTitledFirstName]เป็นผู้ท้าชิงที่จริงจังเพียงคนเดียวสำหรับบัลลังก์$k_england_adj$ แม้ว่าไม่ใช่ทุกคนที่จะยอมก้มหัวให้กับกษัตริย์ผู้ยินดีปรีดา แต่ก็สามารถกล่าวได้อย่างน้อยว่า$k_england$นั้น โดยจิตวิญญาณแล้ว กลับมาเป็นปึกแผ่นอีกครั้ง"
+ british_isles.1053.a:0 "เสถียรภาพสำหรับ$k_england$ในที่สุด?"
+ british_isles.1053.a.tt:0 "$british_isles.1051.a.tt$"
+
+ british_isles.1061.t:0 "กฎหมายแห่งแผ่นดิน"
+ british_isles.1061.desc:0 "เป็นเวลาหลายปีแล้วที่ชาวสแกนดิเนเวียมาถึงชายฝั่งอันอุดมสมบูรณ์เหล่านี้เป็นครั้งแรก หลายปีแห่งการนองเลือด ความรุนแรง และอารมณ์ที่ปะทะกัน แต่ก็ รวมถึงการแลกเปลี่ยน การพัฒนา และการหลอมรวม\n\nลูกหลานของผู้ตั้งถิ่นฐานกลุ่มแรกเหล่านั้นไม่ใช่ชาวนอร์สอย่างแท้จริงอีกต่อไป และคนท้องถิ่นก็ไม่ใช่$anglo_saxon_collective_noun$คนเดิมเหมือนตอนที่ชาวสแกนดิเนเวียมาถึงครั้งแรก\n\nตอนนี้เราเป็นใครนั้น บางทีอาจยากที่จะกล่าว\n\nเว้น แต่ว่าเราคือทุกคนที่มาก่อนเรา ทั้งดีและร้าย และประวัติศาสตร์ของเราจะเป็น$k_daneland_adj$นับจากนี้ไป"
+ british_isles.1061.a:0 "เราจะเขียนมันไปด้วยกัน"
+
+ british_isles.1062.t:0 "$british_isles.1061.t$"
+ british_isles.1062.desc:0 "เจ้าสารเลว! เจ้าคนชั่ว! เจ้า [founder.Custom2('InsultAdjective', ROOT.Char)], [founder.Custom2('InsultAdjective', ROOT.Char)] #EMP [founder.Custom2('InsultNoun', ROOT.Char)]!#!\n\nแม้ว่าอาณาจักร $k_england$ และ $k_danelaw_article$$k_danelaw$ จะถูกแบ่งแยกมานานเกินไป #EMP ทุกคน#! ต่างรู้ดีว่า สักวันหนึ่ง ดินแดนทั้งสองจะต้องกลับมารวมกัน\n\nจนกระทั่งวันนี้\n\nในการประกาศอันยิ่งใหญ่และโอ้อวด [founder.GetTitledFirstName] ได้สละสิทธิ์อย่างเป็นทางการในการอ้างสิทธิ์ควบคุม $k_england$ และด้วยเหตุนี้ จึงได้ทำลายความหวังในการรวมอาณาจักรของข้าเข้ากับดินแดน $k_danelaw_article$$k_danelaw$ อย่างง่ายดาย!"
+ british_isles.1062.a:0 "ดินแดนของ[founder.GetHerHis|U]เคยเป็น$k_england_adj$มาก่อน และ#EMP จะ#!เป็น$k_england_adj$อีกครั้ง"
+
+ british_isles.1063.t:0 "$british_isles.1061.t$"
+ british_isles.1063.desc:0 "เป็นเวลาหลายปีแล้วที่$k_england$ถูกแบ่งแยกระหว่างดินแดนของ[england.GetTitledFirstName] และ[founder.GetTitledFirstName] แม้ว่าทั้งสองจะมีอันดับเท่าเทียมกันในนาม แต่ความเข้าใจโดยปริยายก็คือ แต่ละอาณาจักรต้องการกำจัดอีกฝ่ายและยกระดับกษัตริย์ของตนให้เป็นผู้ปกครองเพียงผู้เดียวของ$k_england$ที่รวมเป็นหนึ่ง\n\nไม่ใช่อีกต่อไป\n\nในรูปแบบที่น่าทึ่ง [founder.GetTitledFirstNameNoTooltip]ได้ประกาศว่า[founder.GetSheHe]กำลังสละสิทธิ์ในการปกครองเหนือส่วนที่เหลือของอาณาจักร และ[founder.GetSheHe]จะปกครองอาณาจักรที่เป็นอิสระและมีอำนาจอธิปไตยต่อไป"
+ british_isles.1063.a:0 "บางทีสิ่งนี้อาจจะ ทำให้อารมณ์บางอย่างสงบลง..."
+ british_isles.1063.a.tt:0 "$british_isles.1051.a.tt$"

@@ -1,0 +1,170 @@
+﻿l_english: 
+ 
+#LOCALE EVENTS
+
+#VISITOR'S CAMP
+ jason_locale_events.100.t:0 "[unreliable_knight.GetSheHe|U] ผู้ปฏิเสธการต่อสู้"
+ jason_locale_events.100.desc:0 "การขาดหายไปเมื่อเร็วๆ นี้ของ$knight_culture_player_no_tooltip_lowercase$ [unreliable_knight.GetTitledFirstNamePossessive] มิได้รอดพ้นสายตาไปได้ เช่นเดียวกับเหล่าคนรับใช้จำนวนมากที่ถูกไล่กลับมาจากหน้าประตูของ[unreliable_knight.GetHerHis] ตามคำขอของผู้จัดงานประลอง ข้าจึงเข้าไปในที่พักของ[unreliable_knight.GetHerHis]\n\n"
+ jason_locale_events.100.desc.mess:0 "คราบสุราที่หกเรี่ยราดเปรอะเปื้อนพื้น ซึ่งเกลื่อนกลาดไปด้วยเศษอาหารอันโอชะที่ถูกแทะเล็ม ของใช้ชั่วคราวแปลกๆ และเครื่องเรือนที่ล้มระเนระนาด\n\n"
+ jason_locale_events.100.desc.self_harm:0 "แสงสลัวอึมครึมทอดเงาเหนือพื้น ซึ่งเกลื่อนกลาดไปด้วยเสื้อผ้าที่ฉีกขาด วัตถุที่แตกหัก,"
+ jason_locale_events.100.desc.smug:0 "[unreliable_knight.GetTitledFirstNameNoTooltip] รับรู้การมาถึงของข้าด้วยการคำนับเพียงเล็กน้อย พลางพลิกดาบอันวาววับของ[unreliable_knight.GetHerHis]ไปมาในมือของ[unreliable_knight.GetHerHis]\n\n"
+ jason_locale_events.100.desc.insanity:0 "ขนนก อุจจาระ และเลือด\n\nมือที่ถูกตัดขาดวางอยู่แทบเท้าของ[unreliable_knight.GetTitledFirstNamePossessiveNoTooltip] เป็นของผู้ใด? ข้ามิอาจทราบได้ [unreliable_knight.GetSheHe|U] แสดงท่าทางด้วยมือทั้งสองข้างของ[unreliable_knight.GetHerHis] พลางพูดรัวเร็วว่า:\n\n"จะมีมือปรากฏขึ้นอีก ท่าน[ROOT.Char.GetTitleTierName|U]ของข้า จะมีมืออีกมาก ท่านเห็นหรือไม่? หากข้าอยู่ในการแข่งขัน มือเปื้อนเลือดก็จะปรากฏขึ้นอีก""
+ jason_locale_events.100.desc.drunk:0 "$knight_culture_player_no_tooltip_lowercase$ ของท่านเมามายอย่างน่าตกใจ ยังคงร่ำสุราไม่หยุด และแสดงสีหน้าเจ็บปวดกับความรังเกียจตนเองอันเด่นชัดของ[unreliable_knight.GetHerHis] ไอ้ขี้เมาผู้นี้คงจะพังพินาศย่อยยับในยามเช้า\n\n"ข้าต้อง, ข้าต้อง — #EMP *ฮิก*#! — ขี่ม้าหรือสู้รบหรืออะไรก็ตาม แต่ที่ว่านั่นด้วยรึ?""
+ jason_locale_events.100.desc.hash:0 "$knight_culture_player_no_tooltip_lowercase$ของท่านมึนเมาอย่างหนัก ลมหายใจ[unreliable_knight.GetHerHis]เหม็นกลิ่นกัญชา ผิวหนังเหนียวเหนอะหนะด้วยเหงื่อ [unreliable_knight.Custom('EyeEyes')]หรี่ลงอย่างแคบ [unreliable_knight.GetSheHe]หัวเราะคิกคักและพูดคำถามออกมาพร้อมน้ำลายยืด:\n\n"ข้า เอ่อ ต้องทำอะไรบางอย่าง... ในอีกไม่ช้านี้รึเปล่า?""
+ jason_locale_events.100.desc.depressed:0 "เลือดของ$knight_culture_player_no_tooltip_lowercase$คนหนึ่ง\n\nน้ำตากลายเป็นสีแดงบนแก้มของ[unreliable_knight.GetTitledFirstNamePossessiveNoTooltip]\n\n"ข้าออกไปที่นั่นไม่ได้" $knight_culture_player_no_tooltip_lowercase$ของท่านสะอื้น "ข้าเผชิญหน้าพวกเขาไม่ได้ ไม่เอาอีกแล้ว — ไม่ใช่ตอนนี้ ได้โปรด ท่าน[ROOT.Char.GetTitleTierName|U]ของข้า #EMP ได้โปรดเถิด#!... ละเว้นข้าจากการประลองอันวุ่นวายนี้ได้หรือไม่?""
+ jason_locale_events.100.desc.demand:0 ""ทั่วทั้งโลกต่างรู้ว่าข้าคือ$knight_culture_player_no_tooltip_lowercase$ผู้ยิ่งใหญ่และคู่ควร" [unreliable_knight.GetSheHe]คำราม "และ ดังนั้น หากปราศจากผู้ติดตามสูงศักดิ์และของกำนัลอันยิ่งใหญ่จากเจ้าเหนือหัวของข้า ข้าจำต้อง#EMPปฏิเสธ#!ที่จะเข้าแข่งขัน"\n\n"การที่ข้าเข้าร่วมการแข่งขันในสภาพยากไร้จะเป็นการลบหลู่เกียรติของเราทั้งสอง""
+
+ jason_locale_events.100.a:0 "เจ้าติดค้างการรับใช้ข้าอยู่ จำได้หรือไม่?"
+ jason_locale_events.100.a.tt:0 "บางที [unreliable_knight.GetSheHe] อาจไม่พร้อมที่จะทำอย่างสุดความสามารถของ[unreliable_knight.GetHerHis] แต่ $knight_culture_player_no_tooltip_lowercase$ ผู้นี้ #EMP จะต้อง#! ยอมจำนนต่ออำนาจของท่าน"
+
+ jason_locale_events.100.b:1 "เข้าแข่งขันสิ! ข้าจะให้ทุกอย่างที่เจ้าต้องการ!"
+ jason_locale_events.100.b.tt:1 "และข้าจะดูแลเหล่า$knight_culture_player_plural_no_tooltip_lowercase$ที่ดีที่สุดของข้า ข้าสาบาน!"
+
+ jason_locale_events.100.c.mad:0 "คำสัตย์ของเจ้าสิ้นสุดแล้ว ไอ้คนบ้า! ไปให้พ้น!"
+ jason_locale_events.100.c.drunk:0 "คำสัตย์ของเจ้าสิ้นสุดแล้ว ไอ้ขี้เมา! ไปให้พ้น!"
+ jason_locale_events.100.c.hash:0 "คำสัตย์ของเจ้าสิ้นสุดแล้ว ไอ้คนโง่เขลา! ไปให้พ้น!"
+ jason_locale_events.100.c.depressed:0 "เจ้าไม่ใช่$knight_culture_player_no_tooltip_lowercase$ของข้าอีกต่อไป"
+ jason_locale_events.100.c.demanding:0 "คำสัตย์ของเจ้าสิ้นสุดแล้ว ไอ้คนขี้โม้! ไปให้พ้น!"
+ jason_locale_events.100.c.tt:0 "ขับไล่$knight_culture_player_no_tooltip_lowercase$ที่ไม่เหมาะสมผู้นี้ออกจากการรับใช้เสีย!"
+
+ jason_locale_events.100.c.forbid_knight:0 "[unreliable_knight.GetShortUIName] ถูกห้ามมิให้เป็น$knight_culture_player_no_tooltip_lowercase$ของท่าน"
+
+ jason_locale_events.100.d:0 "บางทีเจ้าควรจะ... พักผ่อนเสียหน่อย"
+ jason_locale_events.100.d.not_competing:0 "[unreliable_knight.GetShortUIName] จะไม่เข้าแข่งขันหรือช่วยเหลือในการแข่งขันประเภททีม"
+
+ knight_not_participating_log_title:0 "ข้ารับใช้ถอนตัว"
+ knight_not_participating_log:1 "นักรบของ[CHARACTER.GetTitledFirstNamePossessive] [TARGET_CHARACTER.GetTitledFirstName] ได้ถอนตัวออกจากการประลอง มีข่าวลือแพร่สะพัดไปทั่ว"
+ knight_dismissed_log_title:0 "ข้ารับใช้ถูกปลด"
+ knight_dismissed_log:1 "[CHARACTER.GetTitledFirstName] ได้ปลดนักแข่งผู้มีชื่อเสียง [TARGET_CHARACTER.GetTitledFirstName] ออกจากการรับใช้ของ[CHARACTER.GetHerHis] หลังจากเกิดเหตุการณ์ลึกลับขึ้น"
+
+ jason_locale_events.210.t.camel_cavalry:0 "จ้าวแห่งทะเลทราย"
+ jason_locale_events.210.t.elephant_cavalry:0 "ควาญช้างฝึกหัด"
+ jason_locale_events.210.t.horse_archer:0 "ศรเพลี่ยงพล้ำ"
+ jason_locale_events.210.t.heavy_cavalry:0 "ดุจสายฟ้าฟาด"
+ jason_locale_events.210.t.crossbowmen:0 "คันศรไขว้"
+ jason_locale_events.210.t.heavy_infantry:0 "ยืนหยัด มั่นคง"
+ 
+ jason_locale_events.210.desc:0 "เหล่า$knight_culture_player_plural_no_tooltip$จำลองการศึกและคู่แข่งที่เป็นมิตรต่างวางท่าโอ้อวด ขณะที่ล่ามหัวเราะร่าระหว่างทำงาน\n\n"พวกเจ้า ชาว[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] ก็มีฝีมือของพวกเจ้า" [foreign_lord.GetName]ยอมรับ,"
+ jason_locale_events.210.desc.teen:0 "เหล่า$knight_culture_player_plural_no_tooltip$จำลองการศึกและคู่แข่งที่เป็นมิตรต่างวางท่าโอ้อวด ขณะที่ล่ามหัวเราะร่าระหว่างทำงาน\n\n"พวกเจ้า ชาว[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] ก็ เอ่อ ก็ใช้ได้อยู่" [foreign_lord.GetName]พูดเสียงขึ้นจมูก,"
+ jason_locale_events.210.desc.camel_cavalry:0 ""แต่พวกเจ้าทุกคนขาดความมุ่งมั่นที่จะควบคุมอูฐให้อยู่หมัด! และแม้ แต่ลาอ้วนๆ ของพวกเจ้าก็ไม่อาจ ทำให้พวกเจ้ารู้สึกสบายบนอานอูฐของเราได้!"\n\nคนเลี้ยงม้าใกล้ๆ กำบังเหียนอูฐไว้แน่น: คำท้าทายของ[foreign_lord.GetTitleTierName]นั้นจริงจัง แม้ว่าชาว[foreign_lord.GetCulture.GetCollectiveNounNoTooltip]จะ ทำให้ม้าหวาดกลัวและปกครองทะเลทรายและดินแดนแห้งแล้งบนหลังสัตว์ของพวกเขา... กลิ่นของอูฐนั้นเหม็นร้ายกาจอย่างแท้จริง"
+ jason_locale_events.210.desc.elephant_cavalry:0 ""แต่มีนักรบชาว[ROOT.Char.GetCulture.GetNameNoTooltip]คนใดกล้าพอที่จะยืนบนหลังช้างในสมรภูมิ — เพื่อใช้ทวนและธนูขณะที่งวงใหญ่นั้นส่งเสียงกึกก้องด้วยความโกรธาหรือไม่?"\n\nงาช้างเคลือบทองคำวาววับอยู่ใกล้ๆ; สัปคับบนหลังของมันส่งเสียงเอี๊ยดอ๊าดอยู่เบื้องบน [foreign_lord.GetTitleTierName]เสนอคำท้าทายที่ยิ่งใหญ่และคาดเดาไม่ได้"
+ jason_locale_events.210.desc.horse_archer:0 ""แต่มีใครในหมู่พวกเจ้าสามารถหันกลับบนอานม้า ขณะควบม้าเต็มฝีเท้า และยิงธนูข้ามหางม้าของตนได้หรือไม่? พวกเจ้าสามารถจับจังหวะนี้ระหว่างจังหวะกีบเท้าได้หรือไม่? เด็กชาว[foreign_lord.GetCulture.GetNameNoTooltip]ที่อายุน้อยที่สุดก็ทำได้"\n\nข้าเห็น[ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l]ของข้ากำลังดึงคันธนูเขาควาย ตบม้าสเตปป์เบาๆ พวกเราเป็นนักขี่ม้าฝีมือดี... แต่เราจะเทียบกับผู้คนที่เกิดมาบนอานม้าได้อย่างไร..?"
+ jason_locale_events.210.desc.heavy_cavalry:0 ""แต่ใครในหมู่พวกเจ้าเคยควบม้าเข้าใส่แนวข้าศึก โดยไม่สนใจอาวุธใดๆ ให้ม้าศึกของเจ้าเหยียบย่ำ ให้ทวนของเจ้าพุ่งเข้าเป้าหมาย? ลองม้าศึกของข้าสิ: มาดูกันว่าเจ้าจะสามารถโค่นแม้ แต่นักขี่ม้าชาว[foreign_lord.GetCulture.GetNameNoTooltip]ที่แย่ที่สุดได้หรือไม่"\n\nผู้คนของข้าไม่ได้ใช้อุปกรณ์ที่จำเป็นในการขี่ม้าพร้อมทวนหนักเข้าสู่สมรภูมิ: นี่ไม่ใช่วิถีของเรา ถึงกระนั้น ข้าจะทนฟังคำโอ้อวด เช่นนี้อยู่เฉยๆ ได้หรือ...?"
+ jason_locale_events.210.desc.crossbowmen:0 ""แต่พวกเจ้าเคย#EMPเห็น#!เจ้าสิ่งนี้หรือไม่? พวกเจ้าจะบรรจุมันและเล็งเป้าได้หรือไม่?"\n\n[foreign_lord.GetTitleTierName]ส่งอาวุธชิ้นหนึ่งให้ข้า ซึ่งอันที่จริง ข้าเคยเห็นมาก่อน... จากระยะไกล มันคือคันธนูแข็งแรงที่วางในแนวนอนบนปลายรางลูกศร: ชาว[foreign_lord.GetCulture.GetCollectiveNounNoTooltip]ใช้มันเพื่อเจาะเกราะ เกราะชนิดใดก็ได้"
+ jason_locale_events.210.desc.heavy_infantry:0 ""พวกเจ้าเคลื่อนไหวไปมาได้อย่างรวดเร็ว! แต่การยืนหยัดมั่นคงต่อสู้นักรบคนหนึ่งของข้า ผู้แบกรับน้ำหนักชุดเกราะหนักของเรา จนกระทั่งศัตรูแตกพ่ายต่อหน้าพวกเจ้าเล่า?"\n\n[ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l]ของข้าพยายามสวมชุดเกราะชาว[foreign_lord.GetCulture.GetNameNoTooltip]อันน่าประทับใจ ยกอาวุธของชาว[foreign_lord.GetCulture.GetNameNoTooltip]ขึ้น พลางประหลาดใจกับน้ำหนักของมัน การต้องทนเหงื่อตกในการดวลอันแปลกประหลาด เช่นนี้... คงต้องใช้ความทรหดอดทนอย่างน่าประทับใจ"
+
+ jason_locale_events.210.a:0 "ข้าจะลองดู!"
+ jason_locale_events.210.b:0 "[root_culture_knight.GetTitledFirstNameNoTooltip] คือตัวแทนแห่งทักษะของชาว[ROOT.Char.GetCulture.GetNameNoTooltip]"
+ jason_locale_events.210.b.same_heritage:0 "[root_culture_knight.GetTitledFirstName] คือตัวแทนแห่งทักษะของชาว[ROOT.Char.GetCulture.GetHeritage.GetNameNoTooltip]"
+ jason_locale_events.210.a.win:0 "ท่านเป็นตัวแทนอันสูงส่งของชาว[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]"
+ jason_locale_events.210.a.lose:0 "ความเงอะงะและความบอบบางของท่านเชิญชวนคำเหน็บแนมอย่างสนุกสนาน"
+
+ jason_locale_events.210.b.tt:0 "[root_culture_knight.GetSheHe|U] เทียบเท่ากับการกระทำใดๆ ไม่ว่าจะไม่คุ้นเคยเพียงใด!"
+ jason_locale_events.210.b.win:0 "[root_culture_knight.GetFirstNameNoTooltip] ทัดเทียมความเชี่ยวชาญของชาว[foreign_lord.GetCulture.GetNameNoTooltip]"
+ jason_locale_events.210.b.lose:0 "ความพยายามของ[root_culture_knight.GetFirstNamePossessiveNoTooltip]นั้น... ค่อนข้างน่าเศร้า"
+ jason_locale_events.210.c:0 "ท่านพอจะแบ่ง[foreign_lord.Custom('KnightCultureNoTooltip')|l]มาสอนพวกเราได้หรือไม่?"
+ jason_locale_events.210.c.tt:0 "ความสามารถจากต่างแดนบางส่วนอาจเป็นประโยชน์ต่อทั้ง[ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l]และทหารประจำการของข้า"
+ jason_locale_events.210.d.camel_cavalry:0 "พวกเราชาว[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]ไม่ต้องการสัตว์อุ้ยอ้าย!"
+ jason_locale_events.210.d.tt.camel_cavalry:0 "ข้าสาบานได้ว่าพวกเจ้าชาว[foreign_lord.GetCulture.GetCollectiveNounNoTooltip]คงอยากลิ้มรสน้ำลายอูฐมากกว่าสู้รบกับกองทหารผู้กล้าหาญของเรา!"
+ jason_locale_events.210.d.elephant_cavalry:0 "พวกเราชาว[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]ยืนหยัดได้สูงส่งพอแล้ว!"
+ jason_locale_events.210.d.tt.elephant_cavalry:0 "พวกโง่เขลาชาว[foreign_lord.GetCulture.GetNameNoTooltip]มีแนวโน้มที่จะถูกสัตว์ร้ายมหึมาของตนเหยียบย่ำได้ทุกเมื่อ! #EMPพวกเราสิมีแนวโน้มที่จะได้รับชัยชนะอันรุ่งโรจน์!#!"
+ jason_locale_events.210.d.horse_archer:0 "พวกเราชาว[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]เผชิญหน้าศัตรู!"
+ jason_locale_events.210.d.tt.horse_archer:0 "ปล่อยให้ชาว[foreign_lord.GetCulture.GetCollectiveNounNoTooltip]ไร้เกียรติขี่ม้าวนไปเถิด! ภรรยาและสามีของพวกเขาคงอิจฉาม้าของพวกเขาเพียงใด..."
+ jason_locale_events.210.d.heavy_cavalry:0 "พวกเราชาว[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]โจมตีหนักหน่วงพอแล้ว!"
+ jason_locale_events.210.d.tt.heavy_cavalry:1 "เราไม่จำเป็นต้องพุ่งเข้าชนกันอย่างไร้สติ!"
+ jason_locale_events.210.d.crossbowmen:0 "พวกเราชาว[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]ไม่ต้องการเครื่องกลไก!"
+ jason_locale_events.210.d.tt.crossbowmen:0 "เช่นเดียวกับคนขี้ขลาด ชาว[foreign_lord.GetCulture.GetCollectiveNounNoTooltip]ดับชีวิตนักรบผู้สูงศักดิ์ที่สุดจากระยะไกล แต่พวกเรา เราจะไม่มีวันทำ เช่นนั้น"
+ jason_locale_events.210.d.heavy_infantry:0 "พวกเราชาว[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]ป้องกันตนเองได้!"
+ jason_locale_events.210.d.tt.heavy_infantry:0 "เกราะรึ? เราจะต้องการมันไปทำไม ในเมื่อเรามีฝีมือ? ชาว[foreign_lord.GetCulture.GetCollectiveNounNoTooltip]หนักเหมือนก้อนหิน: เราจะฝังพวกมันไว้ใต้ผืนดิน"
+
+ cultural_acceptance_knightly_camaraderie:0 "การแลกเปลี่ยนวิถีการศึก"
+ cultural_acceptance_knightly_rivalry:0 "ความเป็นอริระหว่างนักรบผู้เข้าร่วมประลอง"
+ tournament_open_minded_warrior_modifier:0 "นักรบใจกว้าง"
+ tournament_open_minded_warrior_modifier_desc:0 "ตัวละครนี้แสดงความสนใจอย่างยิ่งในวิถีการศึกของชนชาติอื่น"
+ tournament_knight_humiliated_modifier:0 "อัศวินเอกถูกหยามเกียรติ"
+ tournament_knight_humiliated_modifier_desc:0 "ผู้ท้าชิงชาวต่างชาติสร้างความอับอายให้อัศวินผู้โดดเด่นของตัวละครนี้: นักรบของเขาถูกมองว่าเป็นตัวตลกอยู่บ้าง"
+ tournament_loyalty_martial_traditions_modifier:0 "ภักดีต่อธรรมเนียมการศึก"
+ tournament_loyalty_martial_traditions_modifier_desc:0 "ตัวละครนี้ปกป้องความเหนือกว่าของวิถีการศึกพื้นเมืองของตนอย่างแข็งขัน"
+
+#TAVERN
+ jason_locale_events.200.t:0 "ความภักดี ที่เรอออกมา"
+ jason_locale_events.200.desc:0 ""เกียรติยศทุกหยาดหยดของข้า" [drunk_knight.GetFullName]พูดเสียงอ้อแอ้ พลางทำหกใส่[drunk_knight.GetHerselfHimself] "เป็นของท่าน!"\n\nเหล่าคนรับใช้พยายามยับยั้ง[drunk_knight.GetHerHim] เพื่อนๆ ของ[drunk_knight.GetHerHis]ต่างแก้ตัวให้ $knight_culture_player_no_tooltip_lowercase$ขี้เมาผู้นั้นปัดพวกเขาออกไป\n\n"ปล่อยข้า! ไอ้พวกบัดซบ! ท่าน[ROOT.Char.GetTitleTierName] — ปลดปล่อยข้าจากนายผู้ซอมซ่อของข้า! คำสัตย์ของข้าเป็นของท่าน ท่านจะรับข้าหรือไม่?"\n\nเสียงหัวเราะติดอยู่ในลำคอของข้า เพราะ[drunk_knight.GetFirstNameNoTooltip]เป็น$knight_culture_player_no_tooltip_lowercase$ผู้มีชื่อเสียงอย่างแท้จริง ได้รับเกียรติยศสูงส่งจากเจ้าเหนือหัวของ[drunk_knight.GetHerHis] [drunk_knight_liege.GetTitledFirstName]"
+ jason_locale_events.200.desc.caution:0 "ความโง่เขลาที่เกิดจากไวน์นี้... อาจ ทำให้ข้าได้ทั้งนักรบผู้ยิ่งใหญ่และศัตรูผู้เคียดแค้น"
+ jason_locale_events.200.desc.party:0 "และแน่นอน การสูญเสีย[drunk_knight.GetHerHis]ไปจะ ทำให้[drunk_knight_liege.GetTitleTierName]ไม่พอใจ... แต่ข้าคิดว่าข้าสัมผัสได้ถึงการเฉลิมฉลองครั้ง#EMPประวัติศาสตร์#!ที่กำลังจะมาถึง..."
+
+ jason_locale_events.200.a:0 "พิสูจน์ตัวเองสิ $knight_culture_player_no_tooltip_lowercase$! #EMPดื่ม!#!"
+ jason_locale_events.200.a.tt:0 "[drunk_knight.GetFirstNameNoTooltip]ผู้เมามายไร้สติจะพยายามพิสูจน์คุณค่าของ[drunk_knight_liege.GetHerHis]... อย่างไรน่ะหรือ? มีเพียงสุราเท่านั้นที่รู้"
+ jason_locale_events.200.a.tt.join:0 "[drunk_knight.GetFirstNameNoTooltip] กลายเป็น$knight_culture_player_no_tooltip_lowercase$ของท่าน กระตุ้นความโกรธาของ[drunk_knight_liege.GetShortUINamePossessive]"
+ jason_locale_events.200.a.tt.recruit:0 ""ท่าน[ROOT.Char.GetTitleTierName]เรียกหา เหล่า$knight_culture_player_plural_no_tooltip_lowercase$! พวกเจ้าจะตอบรับหรือไม่?""
+ jason_locale_events.200.a.tt.recruit_desc:0 "$knight_culture_player_plural_no_tooltip_lowercase$ขี้เมาเพิ่มเติมได้สาบานตนต่อท่าน"
+ jason_locale_events.200.a.tt.join_three:0 "[drunk_knight.GetShortUIName] กลายเป็น$knight_culture_player_no_tooltip_lowercase$ของท่าน"
+ jason_locale_events.200.a.tt.recruit_lieges:0 "เจ้าเหนือหัวของข้าราชบริพารใหม่ของท่านต่างโกรธแค้น โดยเฉพาะอย่างยิ่ง [drunk_knight_liege.GetShortUIName]"
+ jason_locale_events.200.a.tt.recruit_specific:0 "[extra_knight.GetFirstNameNoTooltip] และ [extra_knight_2.GetFirstNameNoTooltip] ได้สาบานตนต่อท่าน"
+ jason_locale_events.200.a.tt.song:0 ""รวมตัวกันทั้งหมด! ข้าจะขับขานเรื่องราวของ[ROOT.Char.GetTitledFirstNameNoTooltip]ผู้ยิ่งใหญ่!""
+ jason_locale_events.200.a.tt.song_specific:0 "เสียงขับขานอันเร่าร้อนของ[drunk_knight.GetFirstNamePossessiveNoTooltip]ประกาศคำสัตย์ของ[drunk_knight.GetHerHis]ที่มีต่อท่าน"
+ jason_locale_events.200.a.tt.beatings:0 ""อยากเห็นข้าสู้รึ?""
+ jason_locale_events.200.a.tt.beatings_specific:0 "[drunk_knight.GetFirstNameNoTooltip] พิสูจน์[drunk_knight.GetHerselfHimself]ด้วยการทุบตีอย่างโหดเหี้ยม"
+ jason_locale_events.200.a.tt.marry:0 ""มีเพียงการ แต่งงานเท่านั้นที่จะผนึกสายสัมพันธ์ของเรา!""
+ jason_locale_events.200.a.tt.marry_desc:0 "สมาชิกคนหนึ่งใน[house|E]หรือ[close_family|E]ของท่านจะ แต่งงานกับ[drunk_knight.GetUIName]"
+ jason_locale_events.200.a.tt.marry_specific:0 "[ROOT.Char.Custom2('RelationToMeShort', surprise_spouse)]ของท่าน [surprise_spouse.GetFirstNameNoTooltip] แต่งงานกับ [drunk_knight.GetFirstNameNoTooltip]"
+ jason_locale_events.200.a.tt.death:0 ""ข้าจะดื่มสู้กับท่านแก้วต่อแก้ว ท่าน[ROOT.Char.GetTitleTierName]ของข้า!""
+ jason_locale_events.200.a.tt.death_specific:0 "พรสวรรค์ในการดื่มของ[drunk_knight.GetFirstNamePossessiveNoTooltip]... ทำให้[drunk_knight.GetHerHim]ผิดหวัง"
+
+ jason_locale_events.200.b:0 "ขอให้ความภักดีของเจ้าไม่สั่นคลอน... แม้ว่าเจ้าจะโซเซก็ตาม!"
+ jason_locale_events.200.b.tt:0 "ประกอบพิธีสาบานตน ซึ่งไม่อาจเพิกถอนได้เมื่อถึงยามเช้า"
+
+ jason_locale_events.200.c:1 "หลีกไป ไอ้โง่ เจ้าเหนือหัวของเจ้าจะได้ยินเรื่องนี้"
+ jason_locale_events.200.c.tt:1 "ไอ้คนทรยศขี้เมานี่จะทำอะไรได้? อาเจียนใส่ข้างั้นรึ? [drunk_knight.GetSheHe|U]ไม่ได้อยู่ในสภาพพร้อมสู้สักเท่าไหร่"
+
+ jason_locale_events.200.c.unchallenged:0 "$knight_culture_player_no_tooltip_lowercase$ผู้นั้นยอมถอย"
+
+ jason_locale_events.200.c.attacked:0 "[drunk_knight.GetSheHe|U] #bold ตบ#! ท่าน"
+
+ jason_locale_events.200.c.duel.tt:0 "ท่านทั้งสองชักอาวุธออกมา!"
+ jason_locale_events.200.c.slap.tt:0 "องครักษ์ของท่านเข้าแทรกแซง แต่ก็สายเกินไป!"
+
+ jason_locale_events.200.c.won_brawl.tt:0 "สติที่แจ่มใสกว่าของท่านเป็นฝ่ายชนะ!"
+ jason_locale_events.200.c.lost_brawl.tt:0 "ถูกคนเมาหยามเกียรติ"
+
+
+ jason_locale_events.200.d:0 "ชู่ว์ รักษาเกียรติของเจ้าไว้ [drunk_knight.GetFirstNameNoTooltip]"
+ jason_locale_events.200.d.tt:1 "ไม่ควรเลือกคำพูดโง่เขลาตอนเมามายเหนือคำสัตย์ปฏิญาณแห่งความภักดี"
+
+ tournament_wound_non_root_combatants_effect:0 "นักรบของขุนนางอื่นบางคนได้รับบาดเจ็บ"
+
+ poached_drunk_knight_log_title:0 "การเปลี่ยนแปลงความภักดี"
+ poached_drunk_knight_log:1 "[CHARACTER.GetTitledFirstName] ฉวยโอกาสจากคำสาบานตอนเมาของ[TARGET_CHARACTER.GetTitledFirstNamePossessive]เพื่อแย่งชิงนักรบมาจากเจ้าเหนือหัวของ[TARGET_CHARACTER.GetHerHis]"
+ drunk_knight_dies_log_title:0 "เหยื่อแห่งการเฉลิมฉลอง"
+ drunk_knight_dies_log:1 "[TARGET_CHARACTER.GetTitledFirstName] ดื่มเหล้าจนตาย [TARGET_CHARACTER.GetHerselfHimself] ขณะกำลังเมาหัวราน้ำกับ [CHARACTER.GetTitledFirstName]"
+ drunk_knight_marries_log_title:0 "คำสัญญาในค่ำคืน"
+ drunk_knight_marries_log:1 "[TARGET_CHARACTER.GetTitledFirstName] โผล่ออกมาจากการดื่มกินอย่างหนักพร้อมกับทั้งนายใหม่และการ แต่งงานเข้าสู่ครอบครัวของ[CHARACTER.GetTitledFirstNamePossessive]"
+ drunk_knight_beats_log_title:0 "ความน่าสะพรึงกลัวแห่งโรงเตี๊ยม"
+ drunk_knight_beats_log:1 "ขณะเมามาย [TARGET_CHARACTER.GetTitledFirstName] ได้ทุบตีนักรบผู้มีชื่อเสียงจำนวนหนึ่งอย่างรุนแรงเพื่อชิงตำแหน่งในหมู่$knight_culture_player_plural_no_tooltip_lowercase$ของ[CHARACTER.GetTitledFirstNamePossessive]"
+ drunk_oaths_log_title:0 "ผู้สรรหาคนหน้าแดง"
+ drunk_oaths_log:1 "[CHARACTER.GetTitledFirstName] บังคับกลุ่ม$knight_culture_player_plural_no_tooltip_lowercase$ขี้เมา ซึ่ง[TARGET_CHARACTER.GetTitledFirstName]เป็นผู้ยิ่งใหญ่ที่สุดในหมู่พวกเขา ให้ออกจากเจ้าเหนือหัวของตนมาอยู่กับ[CHARACTER.GetHerHim]"
+
+# TOURNAMENT GROUNDS
+
+ jason_locale_events.0220.t:0 "ที่ ซึ่งชัยชนะถูกฟูมฟัก"
+ jason_locale_events.0220.desc:0 "$knight_culture_player_plural_no_tooltip_lowercase$ของข้ายืนรวมพลกันเพื่อการฝึกฝนประจำวัน ผู้ติดตามของพวกเขาแบกสัมภาระเต็มหลัง [senior_knight.GetTitledFirstName] และตัวข้ายืนอยู่เบื้องหน้าทุกคน\n\n"เหล่า$knight_culture_player_plural_no_tooltip$! สิ่งใดที่พวกเจ้าไม่รู้ จงถามอย่างนอบน้อมเพื่อเรียนรู้" [senior_knight.GetFirstNameNoTooltip]กระตุ้น "ร่วมกัน เราเป็นตัวแทนของ[ROOT.Char.GetTitleAsNameNoTooltip]! ให้เราร่วมกันเตรียมพร้อมสำหรับความรุ่งโรจน์ของเรา"\n\n[senior_knight.GetSheHe|U] หันมาหาข้า [senior_knight.Custom('EyeEyes')]เปล่งประกาย\n\n"โปรดบัญชาพวกเรา""
+
+ jason_locale_events.0220.a:0 "จับตาดูคู่ต่อสู้ของเรา: เรียนรู้จุดอ่อนของพวกเขา"
+ jason_locale_events.0220.a.tt:0 "เหล่า$knight_culture_player_plural_no_tooltip_lowercase$เหล่านี้อยู่ที่นี่เพื่อชนะการแข่งขัน ไม่มีสิ่งใดสำคัญไปกว่านี้"
+
+ jason_locale_events.0220.b:0 "ทักษะรึ? ช่างมันเถอะ! เรามาที่นี่ เพื่อให้คนเห็น"
+
+
+ jason_locale_events.0220.c:0 "ขึ้นอานม้า — ชักดาบออกมา!"
+ jason_locale_events.0220.c.tt:0 "เราจะฝึกฝนพละกำลังและปฏิกิริยาตอบสนอง ทั้งบนหลังม้าและบนพื้นดิน"
+
+ jason_locale_events.0220.d:0 "เหล่า$knight_culture_player_plural_no_tooltip$! พิสูจน์ความเฉียบแหลมของพวกเจ้า ทั้งสายตาและสติปัญญา"
+ jason_locale_events.0220.d.tt:0 "การฝึกฝนความสามารถทางปัญญาก็มีค่าเท่ากับการเสียเหงื่อไปทั้งวัน"
+
+ jason_locale_events.0220.e:0 "เอาชนะพวกเขาทั้งหมด [senior_knight.GetFirstNameNoTooltip] #EMPเดี๋ยวนี้!#!"
+ jason_locale_events.0220.e.tt:0 "ทำให้ทุกคนต้องอ้าปากค้าง! #EMPป้องกันตัวเอง!#!"
+
+ every_knight_change_contestant_score_effect_low_tt:0 "คะแนนของ[knights|e]ของ[THIS.Char.GetShortUINamePossessive|U] #positive_value เพิ่มขึ้นเล็กน้อย#!"
+
+ every_knight_change_contestant_score_effect_tt:0 "คะแนนของ[knights|e]ของ[THIS.Char.GetShortUINamePossessive|U] #positive_value เพิ่มขึ้นปานกลาง#!"
+
+ senior_knight_gains_nickname_tt:0 "[senior_knight.GetShortUIName] อาจได้รับ[nickname|e]อันน่าประทับใจ"

@@ -1,0 +1,27 @@
+﻿l_english: 
+
+story_event_legends.0001.t: "ว่าด้วยอวสานแห่งตำนาน"
+story_event_legends.0001.desc.intro: "ณ ที่นี้คืออวสานแห่งบันทึกของ [legend_protagonist.GetTitledFirstName] และวีรกรรมอันสูงส่งของ [legend_protagonist.GetHerHis] ซึ่งหาผู้ใดในแผ่นดินเทียบเทียมมิได้ และ ณ ที่นี้คืออวสานแห่ง [promoted_legend.GetName]\n\n"
+story_event_legends.0001.desc.famous_deed: "#EMP [promoted_legend.GetChapterDescriptionByName('famous_deed')]#!"
+story_event_legends.0001.desc.battle: "#EMP [promoted_legend.GetChapterDescriptionByName('battle')]#!"
+story_event_legends.0001.desc.hunt: "#EMP [promoted_legend.GetChapterDescriptionByName('hunt')]#!"
+story_event_legends.0001.desc.fallback: "#EMP ตำนานของ [legend_protagonist.GetTitledFirstNamePossessiveNoTooltip|U] จบลงด้วยการผจญภัยอันน่าอัศจรรย์: วีรกรรมอันยิ่งใหญ่ของ [legend_protagonist.GetHerHis] นั้นเป็นที่เลื่องลือจนเหล่ากษัตริย์ทั้งปวงต่างพิศวง และขุนนางรวมถึงสามัญชนมากมายต่างเดินทางมาพบ [legend_protagonist.GetHerHis] ด้วยปรารถนาที่จะได้เห็นตำนานตัวเป็นๆ#! "
+story_event_legends.0001.desc.outro: "\n\nและบันทึกนี้ได้ถูกเขียนขึ้น ณ [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], [GetCurrentDate.GetStringLong]"
+story_event_legends.0001.a: "จงบอกเล่าต่อไป"
+
+story_event_legends.0002.t: "บันทึกแห่งตระกูล [legend_protagonist.GetHouse.GetBaseNameNoTooltip]"
+story_event_legends.0002.desc.intro: "ณ ที่นี้คืออวสานแห่งบันทึกของ [legend_protagonist.GetTitledFirstName] และตระกูลอันสูงศักดิ์ของ [legend_protagonist.GetHerHis], [legend_protagonist.GetHouse.GetBaseName] ซึ่งชื่อเสียงและความชอบธรรมเป็นที่รู้จักไปทั่วทั้งแผ่นดิน และ ณ ที่นี้คืออวสานแห่ง [promoted_legend.GetName]\n\n"
+story_event_legends.0002.desc.famous_deed: "#EMP [promoted_legend.GetChapterDescriptionByName('famous_deed')]#!"
+story_event_legends.0002.desc.battle: "#EMP [promoted_legend.GetChapterDescriptionByName('battle')]#!"
+story_event_legends.0002.desc.fallback: "$story_event_legends.0001.desc.fallback$"
+story_event_legends.0002.desc.outro: "\n\nและบันทึกนี้ได้ถูกเขียนขึ้น ณ [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], [GetCurrentDate.GetStringLong]"
+story_event_legends.0002.a: "#EMP [legend_protagonist.GetHouse.GetMotto].#!"
+
+story_event_legends.0003.t: "ปาฏิหาริย์ของ [legend_protagonist.GetTitledFirstNameNoTooltip]"
+story_event_legends.0003.desc.intro: "ณ ที่นี้คืออวสานแห่งบันทึกของ [legend_protagonist.GetTitledFirstName] และปาฏิหาริย์ของ [legend_protagonist.GetHerHis] ซึ่งมีชื่อเสียงในหมู่ [legend_protagonist.GetFaith.GetAdherentNamePluralNoTooltip] ทั้งปวง โอ้ ข้า แต่ [legend_protagonist.GetFaith.HighGodName] ผู้ทรงฤทธานุภาพ ข้าขอสวดภาวนาให้พรของท่านจงมีแด่บันทึกนี้ [promoted_legend.GetName]\n\n"
+story_event_legends.0003.desc.famous_deed: "#EMP [promoted_legend.GetChapterDescriptionByName('famous_deed')]#!"
+story_event_legends.0003.desc.fallback: "#EMP ตำนานของ [legend_protagonist.GetTitledFirstNamePossessiveNoTooltip|U] เป็นหนึ่งในสิ่งมหัศจรรย์มากมาย [legend_protagonist.GetSheHe|U] ได้กระทำปาฏิหาริย์มากมายนับไม่ถ้วน และเบ่งบานด้วยคุณธรรมนานัปการ ผู้ป่วยได้รับการรักษาให้หายในที่ประทับของ [legend_protagonist.GetHerHis] และพืชพันธุ์ก็เติบโตขึ้นจากดินแดนที่แห้งแล้ง#! "
+story_event_legends.0003.desc.outro: "\n\nและบันทึกนี้ได้ถูกเขียนขึ้น ณ [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], [GetCurrentDate.GetStringLong]"
+story_event_legends.0003.a: "ขอให้เป็น เช่นนั้นเถิด"
+can_select_legendary_culture_pillars_tt: "ท่านอาจเลือก [heritage|E] และ [language|E] จากวัฒนธรรมในตำนานของท่านเมื่อท่าน [diverge|E] [culture|E] ของท่าน"
+legend_title_does_not_exist_sub_realm_claims_given_tt: "ท่านจะได้รับ [claim|E] เหนือทุก [title|E] ที่มีอยู่ตามนิตินัยภายใน [title_claim.GetName]"

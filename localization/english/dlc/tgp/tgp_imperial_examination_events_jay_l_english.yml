@@ -1,0 +1,65 @@
+﻿l_english: 
+ imperial_examination_jay.0010.t: "ผู้มีใจตรงกัน"
+ imperial_examination_jay.0010.desc: ""ท่านน่าจะได้เห็น [friends_child.GetTitledFirstName]!" [friend.GetTitledFirstName] หัวเราะ — สหายผู้ปกครองอีกคนที่ในช่วงหลายวันที่ผ่านมาได้มอบความเป็นเพื่อนอันน่ารื่นรมย์ที่สุด — "[friends_child.Custom('GetDaughterSon')] ของข้าใช้เวลาหลายวันอ้อนวอนขอสัตว์เลี้ยง [ROOT.Char.Custom('SmallAnimal')] สักตัว แล้วแน่นอนว่าข้าไปเจออะไรร้องจิ๊บๆ อยู่ใต้หมอนของ [friends_child.GetHerHis] ล่ะ?"\n\nเราทั้งสองต่างระเบิดเสียงหัวเราะออกมา ช่างน่าเสียดายที่เราต้องจากกันในไม่ช้า!"
+ imperial_examination_jay.0010.a: "แต่มิตรภาพของเราจะคงอยู่ต่อไป!"
+ imperial_examination_jay.0010.b: "เราต้องแนะนำลูกๆ ให้รู้จักกัน!"
+ imperial_examination_jay.0010.c: "น่าเศร้า ที่เราไม่ได้มาที่นี่เพื่อความเพลิดเพลิน"
+
+ imperial_examination_jay.0040.t: "สุนัขจิ้งจอกในสวน"
+ imperial_examination_jay.0040.desc: "นกกระจอกส่งเสียงร้องกลางแดด ปลาคาร์ปแหวกว่ายในสระ จนกระทั่งร่างสองร่างเดินย่ำอย่างไม่ระมัดระวังไปตามทางในสวน ไล่นกและปลาหนีไปจนหมด [parent.GetWomanMan] คนแรกข้าจำได้ว่าเป็นหนึ่งในผู้คุมสอบ ส่วนอีกคนคือ [parent.GetTitledFirstName] [cheater_child.Custom2('RelationToMe', parent )] ของ [cheater_child.GetTitledFirstName]\n\n[parent.GetFirstNameNoTooltip] สอดถุงที่ส่งเสียงกรุ๊งกริ๊งเข้าไปในเสื้อคลุมของผู้คุมสอบ [examiner.GetFirstNamePossessive] ซึ่งในทางกลับกันก็เผยแผ่นคำตอบออกมาและพูดว่า [cheater_child.GetTitledFirstNameNoTooltip] ช่าง #EMP 'ศึกษามาดี'#! เพียงใด"
+ imperial_examination_jay.0040.a: "ข้าจะเผยตัวต่อแผนการนี้"
+ imperial_examination_jay.0040.b: "ข้อมูลนี้อาจมีประโยชน์"
+ imperial_examination_jay.0040.c: "ข้าเพียงต้องการความสงบสุขบ้าง"
+
+ imperial_examination_jay.0080.t: "การล้ม"
+ imperial_examination_jay.0080.desc: "ผู้คุมสอบ [examiner.GetTitledFirstName] น่าจะรู้ดีกว่าที่จะวิ่งไปพร้อมกับของมากมายขนาดนั้น! ชั่วขณะหนึ่ง [examiner.GetSheHe] กำลังวิ่งไปตามห้องโถงพร้อมกับกองกระดาษและพู่กันที่หมิ่นเหม่จะหล่น แล้วด้วยเสียงร้องแหลม [examiner.GetSheHe] ก็ล้มลงกับพื้นท่ามกลางเศษซากแห่งวิชาการที่กระจัดกระจาย\n\nกระดาษที่ตกลงมาแผ่นหนึ่งสะดุดตาข้า: ข้อสอบที่มีชื่อของ [child.Custom2('MyCharacterIntroduction', ROOT.Char)] ข้อผิดพลาดนั้นชัดเจนแม้เพียงชำเลืองมอง..."
+ imperial_examination_jay.0080.a: ""โอ้ ไม่นะ! ท่านทำหมึกหกใส่กระดาษพวกนี้!""
+ imperial_examination_jay.0080.a.success: "[examiner.GetSheHe|U] ยอมรับโทษ"
+ imperial_examination_jay.0080.a.failure: "[examiner.GetSheHe|U] เห็นสิ่งที่ท่านทำ"
+ imperial_examination_jay.0080.b: ""[examiner.GetFirstNameNoTooltip]! ท่านเป็นอะไรหรือไม่!?""
+ imperial_examination_jay.0080.c: ""ฮ่าฮ่าฮ่า เจ้าคนซุ่มซ่าม!""
+
+ imperial_examination_jay.0110.t: "ผู้คุมสอบประดับอัญมณี"
+ imperial_examination_jay.0110.desc: "ผู้คุมสอบ [examiner.GetFirstName] พูดคุยกับข้าขณะดื่ม [ROOT.Char.Custom('RegionalDrink')] กลิ่นน้ำหอมที่ตกค้างของ [examiner.GetHerHis] นั้นรุนแรงกว่ากลิ่นของเครื่องดื่ม เครื่องประดับชิ้นหนึ่งรอบคอของ [examiner.GetHerHis] ส่งเสียงกรุ๊งกริ๊งทุกครั้งที่ [examiner.GetSheHe] จิบ\n\n"ชิ้นนี้" [examiner.GetSheHe] ยิ้ม "เป็น #EMP 'ของขวัญ'#! จากอดีตนักเรียนคนหนึ่ง""
+ imperial_examination_jay.0110.a: "อืม #EMP ข้า#! ก็มีของขวัญจาก [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetTitledFirstNameNoTooltip] ของข้า เช่นกัน"
+ imperial_examination_jay.0110.b: "สิ่งประดิษฐ์นี้ไร้ประโยชน์ ให้ข้า #EMP กำจัด#! มันเถอะ"
+ imperial_examination_jay.0110.b.tt: "ท่านกลายเป็นเจ้าของสร้อยคอ [prestige|E] [artifact|E]"
+ imperial_examination_jay.0110.b.equipped_tt: "ได้รับ [bribed_necklace.GetName] จาก [examiner.GetTitledFirstName]"
+ imperial_examination_jay.0110.c: "ข้าไม่คบค้าสมาคมกับ [examiner.GetWomenMen] เช่นนี้"
+ bribed_necklace_name: "สร้อยคอชั้นดี"
+ bribed_necklace_desc: "สร้อยคอนี้เป็นเครื่องประดับที่เรียบง่าย ทว่าสง่างาม"
+
+ imperial_examination_jay.0120.t: "อัจฉริยะ"
+ imperial_examination_jay.0120.desc: "ผู้คุมสอบ [examiner.GetTitledFirstName] [ROOT.Char.Custom2('RelationToMe', examiner )] ของข้า ค้อมคำนับอย่างลึกซึ้งขณะที่ [examiner.GetSheHe] เข้ามาใกล้ "[child.GetTitledFirstName] คือ [child.Custom('GetDaughterSon')] ของท่าน ใช่หรือไม่?"\n\nการค้อมคำนับของ [examiner.GetHerHis|U] ลึกยิ่งขึ้นเมื่อข้าตอบ "ผลงานของ [child.GetFirstNamePossessiveNoTooltip] จนถึงขณะนี้ ทำให้ข้าประทับใจอย่างยิ่ง [child.GetSheHe|U] ถือเป็นเกียรติแก่ตระกูล [ROOT.Char.GetHouse.GetName] ท่านฝึกฝน [child.GetHerHim] มาอย่างดีเห็นได้ชัด!""
+ imperial_examination_jay.0120.a: "ความคงแก่เรียนของตระกูล [ROOT.Char.GetHouse.GetNameNoTooltip] เป็นที่รู้กันโดยทั่ว!"
+ imperial_examination_jay.0120.b: "เหตุใดไม่ช่วยขัดเกลาพรสวรรค์ของ [child.GetHerHis] เล่า?"
+ imperial_examination_jay.0120.c: ""บอก [child.GetHerHim] ด้วยเถิดว่าข้าภูมิใจเพียงใด ท่านผู้คุมสอบ""
+ imperial_examination_jay.0120.d: "ความเก่งกาจของ [child.GetTitledFirstNamePossessiveNoTooltip] จะเป็นที่ประจักษ์แก่ทุกคน!"
+
+ imperial_examination_jay.0170.t: "คำยกยอเคลือบน้ำผึ้ง"
+ imperial_examination_jay.0170.desc: ""ตระกูล [ROOT.Char.GetHouse.GetName] เป็นแหล่งรวมแห่งความเชื่ออันดีงามอย่างแท้จริง" ผู้คุมสอบ [examiner.GetFirstName] กล่าว พลางขยับเข้ามาใกล้ข้าด้วยมือที่อยู่ไม่สุขและสายตาที่เหลือบมองไปรอบๆ ตัวเรา "ข้ามั่นใจว่า [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child'))] ของท่านจะผ่านการสอบของ [child.GetHerHis] หากได้รับการชี้แนะ ข้าสามารถเป็นผู้ชี้แนะนั้นได้ หากท่านจะทำบางสิ่งเพื่อข้าเป็นการตอบแทน?"\n\nแม้ว่า [examiner.GetFirstNamePossessiveNoTooltip] จะระมัดระวัง แต่เหล่าผู้ปกครองและผู้อาวุโสคนอื่นๆ ก็เริ่มชำเลืองมองมาทางเราอย่างสงสัยแล้ว"
+ imperial_examination_jay.0170.a: "สมควรที่จะต้องตำหนิในที่สาธารณะ"
+ imperial_examination_jay.0170.b: "[child.GetFirstNameNoTooltip] ไม่ต้องการความช่วยเหลือใดๆ ก็ผ่านได้!"
+ imperial_examination_jay.0170.b.tt: "ขึ้นอยู่กับผลการสอบของ [child.GetHerHis] [child.GetShortUIName] จะได้รับหรือสูญเสีย [prestige|E] และ [merit|E] มากขึ้น"
+ imperial_examination_jay.0170.c: "[child.GetFirstNameNoTooltip] จะได้รับประโยชน์ ปล่อยให้พวกเขานินทาไป"
+
+ imperial_examination.advantage.child.tt: "[child.GetShortUIName] ได้รับ [exam_advantage|E]"
+ imperial_examination.advantage.no_character.tt: "ได้รับ [exam_advantage|E]"
+ imperial_examination.cheat.child.tt: "[child.GetTitledFirstName] ได้รับ [exam_cheat|E]"
+ imperial_examination.cheat.cheater_child.tt: "[cheater_child.GetTitledFirstName] ได้รับ [exam_cheat|E]"
+ imperial_examination.lose_advantage.child.tt: "[child.GetShortUIName] สูญเสีย [exam_advantage|E]"
+ imperial_examination.lose_advantage.no_character.tt: "สูญเสีย [exam_advantage|E]"
+ all_non_arbitrary_participants: "ผู้เข้าร่วมทุกคนที่ไม่ [GetTrait('arbitrary').GetName( GetNullCharacter )]"
+ every_attending_chaperone: "ผู้ดูแลของผู้เข้าสอบทุกคนที่เข้าร่วม"
+ every_examiner: "ผู้คุมสอบทุกคน"
+
+### OPINIONS ###
+ nosy_opinion: "สอดรู้สอดเห็น"
+
+ tgp_slapback_modifier: "เกียรติยศที่ได้รับการปกป้อง"
+ tgp_slapback_modifier_desc: "ตัวละครนี้เต็มใจอย่างยิ่งที่จะวิวาทเพื่อเกียรติยศของตระกูล"
+
+ tgp_studious_house_modifier: "ตระกูลใฝ่รู้"
+ tgp_studious_house_modifier_desc: "สมาชิกของตระกูลนี้เป็นที่เคารพนับถืออย่างสูงในชื่อเสียงด้านความคงแก่เรียน\n[characters|E] จะได้รับ [exam_advantage|E] ฟรีเมื่อเริ่ม [imperial_examination|E]"
+
+ tgp_known_prodigy_modifier: "อัจฉริยะผู้เป็นที่รู้จัก"

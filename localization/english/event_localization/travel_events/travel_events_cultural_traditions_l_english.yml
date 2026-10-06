@@ -1,0 +1,152 @@
+﻿l_english: 
+ 
+ travel_events.1200.t:0 "ชาวบ้านผู้เป็นมิตร"
+ travel_events.1200.desc:1 "ขณะที่เราหยุดตั้งค่ายนอกหมู่บ้านเล็กๆ ใน [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] ชาวบ้านก็ออกมาสำรวจกองคาราวานของเรา\n\nทีแรกข้าคิดว่าพวกเขาพยายามจะค้าขายกับเรา แต่ไม่นานก็ชัดเจนว่าพวกเขามาเพื่อมอบของขวัญและเรียนรู้ทุกอย่างที่ทำได้เกี่ยวกับวัฒนธรรมของเรา!\n\nชาวบ้านคนหนึ่งโดยเฉพาะ [local_peasant.GetNameNoTooltip] มีคำถามนับล้านเกี่ยวกับว่าเรามาจากไหน"
+ travel_events.1200.a:0 "ข้าควรพูดคุยกับพวกเขาและเรียนรู้เพิ่มเติม"
+ travel_events.1200.b:0 "เราจะรับผลประโยชน์ทุกอย่างที่เราทำได้"
+
+ tradition_travel_discount_desc:0 "ท่านได้ประสบกับธรรมเนียมวัฒนธรรมนี้ขณะเดินทาง"
+
+ travel_events.1200.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_xenophilic').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1201.t:0 "วีรคติยังคงอยู่"
+ travel_events.1201.desc:0 "ขณะเดินทางผ่าน [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] เราได้พบกับ [GetPlayer.Custom('KnightCulturePlural')] ชาว [ROOT.Char.GetCurrentLocation.GetCulture.GetName] บางคน พวกเขาแสดงความเคารพอย่างสุดซึ้งและเห็นได้ชัดว่าเป็นผู้รักในบทกวีอย่างยิ่งยวด เนื่องจากพวกเขายืนกรานที่จะท่องบทกวีทุกครั้งที่มีโอกาส\n\nหลักปฏิบัติที่พวกเขาปฏิบัติตามนั้นมีข้อดีหลายประการ และข้าอดไม่ได้ที่จะชื่นชมมัน หนึ่งใน [GetPlayer.Custom('KnightCulturePlural')] นามว่า [local_knight.GetNameNoTooltip] นั้นน่าประทับใจเป็นพิเศษ "
+ travel_events.1201.a:0 "ข้าอยากจะนำธรรมเนียมนี้กลับบ้าน"
+ travel_events.1201.b:0 "ข้าควรพยายามเป็นผู้มีวีรคติมากขึ้นเป็นการส่วนตัว"
+
+ travel_events.1201.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_chivalry').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1202.t:0 "ผู้ทำงานหนัก"
+ travel_events.1202.desc:2 "ขณะเดินทางผ่าน [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] ข้าอดไม่ได้ที่จะสังเกตว่าทุกคนที่ข้าเห็นทำงานด้วยความมุ่งมั่นเงียบๆ ซึ่งข้าไม่ค่อยสังเกตเห็นในดินแดนของข้าเอง\n\nข้าหยุดคนงานคนหนึ่งเพื่อถามพวกเขาเกี่ยวกับเรื่องนี้ และ [random_peasant.GetSheHe] ก็แบ่งปันปัญญาอันคมคายบางอย่าง:\n\n "เอ่อ เคล็ดลับก็คือแค่ทุ่มเทแรงกายลงไป แล้วอย่าหยุดจนกว่างานจะเสร็จดี""
+ travel_events.1202.a:0 "ข้าควรพูดคุยกับพวกเขาและเรียนรู้เพิ่มเติม"
+ travel_events.1202.b:0 "บางทีข้าอาจนำหลักการเหล่านี้ไปปรับใช้ที่บ้านได้"
+
+ travel_events.1202.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_hard_working').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1203.t:0 "สายสัมพันธ์อันแน่นแฟ้น"
+ travel_events.1203.desc:0 "ขณะเดินทางผ่านหมู่บ้านต่างๆ ของ [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] ข้าใช้เวลาพูดคุยกับชาวบ้าน สิ่งหนึ่งที่โดดเด่นคือความภักดีอย่างแรงกล้าต่อเจ้าผู้ครองนครของพวกเขา\n\nชาวบ้านคนหนึ่งพูดด้วยความหลงใหลจนข้าคิดว่าพวกเขากำลังบรรยายถึงคนรักมากกว่าผู้ปกครองของตน"
+ travel_events.1203.a:0 "ข้าควรพูดคุยกับพวกเขาและเรียนรู้เพิ่มเติม"
+ travel_events.1203.b:0 "ข้าจะ ทำให้ไพร่ฟ้าข้าแผ่นดินของข้าภักดีทัดเทียมกัน"
+
+ travel_events.1203.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_loyal_soldiers').GetName] ทหารผู้ภักดี ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1204.t:0 "การสนทนาอย่างมีอารยะ"
+ travel_events.1204.desc:0 "ขณะเดินทางผ่าน [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] ข้ามีโอกาสสังเกตชาวบ้านบางคนกำลังโต้เถียงกันว่าใครเป็นเจ้าของวัวตัวหนึ่ง แม้ว่าหัวข้อข้อพิพาทจะดูค่อนข้างจริงจัง แต่ทั้งสองฝ่ายยังคงสงบและเยือกเย็น และไม่มีใครใช้กำลัง\n\nลองนึกภาพว่าเราจะทำอะไรได้สำเร็จบ้างหากเรามีความสงบและเหตุผลระดับนี้ที่บ้าน"
+ travel_events.1204.a:0 "ข้าควรพูดคุยกับพวกเขาและเรียนรู้เพิ่มเติม"
+ travel_events.1204.b:0 "ข้าจะลองแนวทางสันตินิยมนี้ดู"
+
+ travel_events.1204.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_pacifism').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1205.t:0 "ชีวิตเรียบง่าย"
+ travel_events.1205.desc:0 "ขณะที่ข้าเดินทางผ่าน [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l] ของ [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] ข้าอดไม่ได้ที่จะสังเกตว่าเสื้อผ้า ที่อยู่อาศัย และแม้กระทั่งสีหน้าของชาว [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] ในท้องถิ่นนั้นเรียบง่ายเพียงใด\n\nอย่างไรก็ตาม เมื่อข้าสอบถามเกี่ยวกับความยากจนของพื้นที่นี้ ข้าได้รับแจ้งว่าทั้งหมดนี้เป็นไปโดยสมัครใจ และพวกเขามุ่งเน้นไปที่การใช้งานจริงมากกว่ารูปลักษณ์ภายนอก"
+ travel_events.1205.a:0 "เราสามารถเรียนรู้บางอย่างจากสิ่งนี้ที่บ้านได้"
+ travel_events.1205.b:0 "ข้าควรลองใช้ชีวิตอย่างเรียบง่าย"
+ travel_events.1205.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_spartan').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1206.t:0 "ความสุขแห่งการล่า"
+ travel_events.1206.desc:0 "ขณะที่ข้าเดินทางผ่าน [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l] ของ [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] ข้าได้พบกับกลุ่มนักล่า พวกเขาอนุญาตให้ข้าติดตามการล่าไปครู่หนึ่ง ชี้ให้เห็นรายละเอียดเฉพาะในเทคนิคของพวกเขาและร่องรอยการติดตามบางอย่างที่เป็นเอกลักษณ์ของพื้นที่นี้"
+ travel_events.1206.a:0 "เหตุใดผู้คนของข้าจึงไม่เป็น เช่นนี้บ้าง?"
+ travel_events.1206.b:0 "บางทีพวกเขาอาจฝึกฝนข้าได้?"
+ travel_events.1206.c:0 "ข้าคือนักล่า!"
+ travel_events.1206.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_hunters').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1207.t:0 "อาหารจากผืนดิน"
+ travel_events.1207.desc:0 "ขณะเดินทางผ่าน [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] ผู้ใหญ่บ้านคนหนึ่งหยุดเราและยืนกรานให้เราร่วมรับประทานอาหารด้วย ขณะรับประทาน ข้าตระหนักว่าไม่มีส่วนใดทำจากเนื้อสัตว์เลย ผู้ใหญ่บ้านยินดีที่จะลงรายละเอียดเกี่ยวกับวิธีการทำ ส่วนผสมที่ใช้ และวิธีที่พวกเขาไม่กินเนื้อสัตว์เลยจริงๆ"
+ travel_events.1207.a:0 "ข้าต้องการสูตรอาหารบ้าง!"
+ travel_events.1207.b:0 "ขออีกจานได้หรือไม่?"
+ travel_events.1207.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_vegetarianism').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1208.t:0 "การเดินเรือ"
+ travel_events.1208.desc:0 "ขณะล่องเรือผ่าน [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] เราทอดสมอเพื่อพูดคุยกับเรือของชาวบ้านลำหนึ่ง สิ่งที่ตั้งใจว่าจะเป็นการหยุดพักสั้นๆ กลับกลายเป็นการสนทนาอันยาวนานเกี่ยวกับเงื่อนปม กระแสน้ำในท้องถิ่น และการเดินเรือทั่วไป\n\n"เอ่อ ท่านเห็นไหมว่านกอัลบาทรอสคือราชาแห่งนกทั้งปวง และการฆ่ามันนั้น... ถือเป็นอาชญากรรมที่ร้ายแรงที่สุด""
+ travel_events.1208.a:0 "เราควรพูดคุยกับพวกเขาและเรียนรู้เพิ่มเติม"
+ travel_events.1208.b:0 "ฟังพอแล้ว ถึงเวลาประยุกต์ใช้ความรู้นี้"
+ travel_events.1208.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_seafaring').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1209.t:0 "เรื่องราวอยู่ที่การเล่าขาน"
+ travel_events.1209.desc:0 "นักเล่าเรื่องชาว [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] แห่ง [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] มีชื่อเสียงโด่งดังอย่างยิ่ง และเมื่อข้าได้พบพวกเขาในที่สุด พวกเขาก็ไม่ ทำให้ผิดหวัง!\n\nเราใช้เวลาหลายชั่วโมงนั่งรอบกองไฟฟังเรื่องราวของพวกเขา และเป็นความสุขอย่างแท้จริงที่ได้ยินพวกเขาพูด"
+ travel_events.1209.a:0 "ข้าควรส่งเสริมการเล่าเรื่องให้มากขึ้นที่บ้าน"
+ travel_events.1209.b:0 "หากท่านชอบเรื่องราว ท่านจะรักเรื่องนี้"
+ travel_events.1209.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_storytellers').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1210.t:0 "ดนตรี [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip|U]"
+ travel_events.1210.desc:0 "ขณะที่ข้าเดินทางผ่าน [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l] ของ [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] ข้าได้ยินท่วงทำนองลอยแผ่วเบาข้ามทิวทัศน์\n\nการออกนอกเส้นทางอย่างรวดเร็วนำข้าไปยังกลุ่มนักดนตรีที่กำลังบรรเลงสุดหัวใจ ซึ่งต้องเป็นดนตรี [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] ท้องถิ่นบางอย่าง การหยุดฟังดนตรีอันไพเราะ ทำให้ข้าพบว่าหัวใจของข้าเปี่ยมไปด้วยความสุข"
+ travel_events.1210.a:0 "เราควรนำธรรมเนียมนี้กลับบ้าน"
+ travel_events.1210.b:0 "ข้าต้องการเรียนรู้ที่จะเล่น!"
+ travel_events.1210.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_music_theory').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1211.t:0 "ผู้คนแห่งบทกวี"
+ travel_events.1211.desc:0 "ข้า แต่ [ROOT.Char.Custom('FormOfAddressForLiege')|U], [ROOT.Char.Custom('FormOfAddressForLiege')|U], ได้โปรดเถิด ขอเวลาสักครู่เพื่อสดับฟังบทกวีล่าสุดของข้า!"\n\nนี่ไม่ใช่ชาว [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] คนแรกที่พยายามแนะนำบทกวีของพวกเขาให้ข้ารู้จัก และเมื่อพิจารณาหนทางเบื้องหน้าแล้ว ย่อมไม่ใช่คนสุดท้ายเป็นแน่ ณ ที่แห่งนี้คงมีความหลงใหลในบทกวีอย่างแท้จริง เหล่านักฝันทุกผู้จึงมีบทกวีอยู่ในดวงใจ"
+ travel_events.1211.a:0 "เราควรพูดคุยกับพวกเขาและเรียนรู้เพิ่มเติม"
+ travel_events.1211.b:0 "ข้าอยากจะลองดูสักครั้ง"
+ travel_events.1211.c:0 "ท่านเรียกนั่นว่าบทกวีหรือ?"
+ travel_events.1211.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_poetry').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1212.t:0 "สหายชาวประมง"
+ travel_events.1212.desc:0 "ไม่มีวันใดผ่านไปใน [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] โดยที่ข้าไม่พบชาวประมงที่มีข้อมูลใหม่ๆ มาให้ข้า ไม่ว่าจะเป็นเรื่องประเภทของเหยื่อที่ใช้ สถานที่ตกปลา หรือแม้ แต่วิธีเตรียมปลาเมื่อจับได้\n\nข้ายังมีโอกาสได้ตกปลาด้วยตัวเอง โดยชาวประมงแสดงเคล็ดลับและเทคนิคให้ข้าดู พวกเขาทุกคนปรบมือเมื่อข้าจับปลาได้ในที่สุด"
+ travel_events.1212.a:0 "เราควรพูดคุยกับพวกเขาและเรียนรู้เพิ่มเติม"
+ travel_events.1212.b:1 "จะเป็นอย่างไรหากเรานำกลยุทธ์การตกปลานี้ไปใช้กับการเดินเรือ!"
+ travel_events.1212.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_fishermen').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1213.t:0 "นักเดินทางผู้ลึกลับ"
+ travel_events.1213.desc:0 "นักพรตมีอยู่ทุกหนทุกแห่งที่นี่ใน [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]: พวกเขาเดินทางไปเทศนาและแบ่งปันความรู้\n\nวันหนึ่งข้าได้สนทนาอย่างลึกซึ้งเกี่ยวกับความหมายของชีวิตกับหนึ่งในนั้นขณะรอให้ก้อนหินถูกเคลื่อนย้ายออกจากเส้นทาง"
+ travel_events.1213.a:0 "ข้าสนใจที่จะรู้เกี่ยวกับผู้คนของท่านมากกว่า"
+ travel_events.1213.b:0 "ท่านสามารถแบ่งปันปัญญาใดให้ข้าได้บ้าง?"
+ travel_events.1213.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_mendicant_mystics').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1214.t:0 "นักรบผู้เป็นที่เคารพ"
+ travel_events.1214.desc:0 "ระหว่างการเดินทาง ข้าตระหนักว่าชาว [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] ในท้องถิ่นที่นี่ใน [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] ให้ความสำคัญกับนักรบเหนือสิ่งอื่นใด\n\nการทะเลาะวิวาทตัดสินด้วยความรุนแรง และผู้ที่เสี่ยงชีวิตเพื่ออาณาจักรของตนถือว่ากล้าหาญที่สุด ข้าใช้เวลาช่วงบ่ายส่วนใหญ่พูดคุยกับพวกเขาเกี่ยวกับประเด็นปลีกย่อยบางประการของวัฒนธรรมที่เหมือนสงครามของพวกเขา"
+ travel_events.1214.a:0 "เราควรพูดคุยกับพวกเขาและเรียนรู้เพิ่มเติม"
+ travel_events.1214.b:0 "ท่านช่วยแสดงท่าบางท่าให้ข้าดูได้หรือไม่?"
+ travel_events.1214.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_warrior_culture').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1215.t:0 "[GetPlayer.Custom('KnightCultureNoTooltip')] ผู้น่าชื่นชม"
+ travel_events.1215.desc:0 "คืนหนึ่งเราหยุดพักที่โรงเตี๊ยม และขณะที่ข้านั่งอยู่ในมุมอย่างสงบเพลิดเพลินกับดนตรี [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] ประตูก็เปิดออกอย่างแรงและเงาร่างใหญ่ก็ปรากฏขึ้น\n\nA [GetPlayer.Custom('KnightCultureNoTooltipLowercase')] เดินเข้ามาอย่างองอาจ และบรรยากาศก็เปลี่ยนไปทันที ผู้คนก้มศีรษะด้วยความเคารพ บางคนเป็นลม และเจ้าของโรงเตี๊ยมก็รินเครื่องดื่มฟรีให้ [GetPlayer.Custom('KnightCultureNoTooltipLowercase')] ที่ดูเหมือนจะมีชื่อเสียงทันที\n\nการเป็น [GetPlayer.Custom('KnightCultureNoTooltipLowercase')] นั้นพิเศษมากที่นี่จริงหรือ? "
+ travel_events.1215.a:0 "ข้าควรหาคำตอบว่าเหตุใดพวกเขาจึงยกย่องพวกเขาสูงส่งนัก"
+ travel_events.1215.b:0 "ข้าสามารถเป็น เช่นนั้นได้หากข้าฝึกฝน!"
+ travel_events.1215.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_martial_admiration').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ travel_events.1216.t:0 "นักคิดสัญจร"
+ travel_events.1216.desc:0 "สิ่งหนึ่งที่ข้าสังเกตเห็นขณะที่เราเดินทางผ่าน [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] คือนักเดินทางชาว [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] ทุกคนที่สองอ้างว่าเป็นนักปราชญ์\n\nตอนแรกข้ายังสงสัยในเรื่องนี้ แต่หลังจากถูกเอาชนะอย่างราบคาบในการสนทนาครั้งที่สามติดต่อกัน ข้าเริ่มคิดว่าบางทีอาจมีบางอย่างในการอ้างสิทธิ์ของพวกเขา\n\nนักปราชญ์คนล่าสุด [local_philosopher.GetNameNoTooltip] แทบจะหัวเราะเยาะความพยายามล่าสุดของข้าในการโต้แย้งเชิงตรรกะ"
+ travel_events.1216.a:0 "ข้าควรเรียนรู้เพิ่มเติมว่าวัฒนธรรมของพวกเขาทำงานอย่างไร"
+ travel_events.1216.b:0 "ข้าสามารถเรียนรู้อะไรเป็นการส่วนตัวได้บ้าง?"
+ travel_events.1216.a.tt:1 "ลดค่าใช้จ่ายในการสถาปนาธรรมเนียม [GetCultureTradition('tradition_philosopher_culture').GetName] ลง [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|E]"
+
+ healthy_vegetarian_meal_modifier:0 "อาหารมังสวิรัติเพื่อสุขภาพ"
+ healthy_vegetarian_meal_modifier_desc:0 "ตัวละครนี้รับประทานอาหารมังสวิรัติเพื่อสุขภาพขณะเดินทาง"
+
+ living_simply_modifier:0 "การใช้ชีวิตอย่างเรียบง่าย"
+ living_simply_modifier_desc:0 "ตัวละครนี้กำลังใช้ชีวิตอย่างเรียบง่าย"
+
+ villager_gifts_modifier:0 "ของขวัญจากชาวบ้าน"
+ villager_gifts_modifier_desc:0 "ตัวละครนี้ได้รับของขวัญหลายชิ้นจากชาวบ้าน"
+
+ loyal_attitudes_modifier:0 "ทัศนคติที่ภักดี"
+ loyal_attitudes_modifier_desc:0 "ตัวละครนี้กำลังสร้างแรงบันดาลใจให้เกิดความภักดีในตนเองและผู้อื่น"
+
+ pacifist_mindset_modifier:0 "กรอบความคิดสันตินิยม"
+ pacifist_mindset_modifier_desc:0 "ตัวละครนี้กำลังพยายามปรับใช้กรอบความคิดที่สันตินิยมมากขึ้น"
+
+ told_good_story_modifier:0 "เล่าเรื่องได้ดี"
+ told_good_story_modifier_desc:0 "ตัวละครนี้เพิ่งเล่าเรื่องได้ดี"
+
+ musically_inspired_modifier:0 "ได้รับแรงบันดาลใจทางดนตรี"
+ musically_inspired_modifier_desc:0 "ตัวละครนี้ได้รับแรงบันดาลใจจากดนตรีและมักจะฝึกซ้อมให้นักโทษฟัง"
+
+ fishing_logistics_modifier:1 "การส่งกำลังบำรุงแบบการประมง"
+ fishing_logistics_modifier_desc:1 "ตัวละครนี้นำความรู้ด้านการประมงมาประยุกต์ใช้กับการส่งกำลังบำรุงทางเรือ"
+
+ mystic_wisdom_modifier:0 "ปัญญาจากนักพรต"
+ mystic_wisdom_modifier_desc:0 "ตัวละครนี้เพิ่งได้รับปัญญาที่แบ่งปันโดยนักพรต"
+
+ trained_in_warrior_culture_modifier:0 "ฝึกฝนในวัฒนธรรมนักรบ"
+ trained_in_warrior_culture_modifier_desc:0 "ตัวละครนี้เพิ่งได้รับการฝึกฝนบางอย่างในวัฒนธรรมนักรบ"
+
+ training_hard_modifier:0 "ฝึกฝนอย่างหนัก"
+ training_hard_modifier_desc:0 "ตัวละครนี้กำลังฝึกฝนอย่างหนัก"
+
+ philosophical_musings_modifier:0 "การครุ่นคิดเชิงปรัชญา"
+ philosophical_musings_modifier_desc:0 "ตัวละครนี้เพิ่งมีการครุ่นคิดเชิงปรัชญามากมาย"
+
+ personal_chivalry_modifier:0 "มีวีรคติส่วนตัว"
+ personal_chivalry_modifier_desc:0 "ตัวละครนี้เพิ่งมุ่งเน้นไปที่วีรคติส่วนตัวของตนเอง"
+

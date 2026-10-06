@@ -1,0 +1,22 @@
+﻿l_english: 
+ grit_type_grit:0 "กรวด"
+ grit_type_dirt:0 "ดิน"
+ grit_type_sand:0 "ทราย"
+ grit_type_bog_water:0 "น้ำหนอง"
+ grit_type_twigs:0 "เศษกิ่งไม้"
+ grit_type_wet_leaves:0 "ใบไม้เปียก"
+ grit_type_dry_grass:0 "หญ้าแห้ง"
+
+ ground_type_dust:0 "ธุลี"
+ ground_type_dirt:0 "ดิน"
+ ground_type_rocks:0 "ก้อนหิน"
+ ground_type_sandy_rocks:0 "หินปนทราย"
+ ground_type_sand:0 "ทราย"
+ ground_type_wet_grass:0 "หญ้าเปียก"
+ ground_type_mulch:0 "เศษไม้ใบหญ้า"
+ ground_type_grass:0 "หญ้า"
+
+ rainy_soil_type_thick_mud: "โคลนข้น"
+ rainy_soil_type_soft_earth: "ดินนุ่ม"
+ rainy_soil_type_rocky_earth: "ดินปนหิน"
+ rainy_soil_type_sandy_mire: "เลนทราย"

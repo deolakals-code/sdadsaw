@@ -1,0 +1,113 @@
+﻿l_english: 
+ #Goguryeo Tomb
+ building_type_goguryeo_tomb_01: "$building_goguryeo_tomb_01$"
+ building_type_goguryeo_tomb_01_desc: "$building_goguryeo_tomb_01_desc$"
+ building_goguryeo_tomb_01: "สุสานกษัตริย์โคกูรยอ"
+ building_goguryeo_tomb_01_desc: "สุสานศิลาทรงสี่เหลี่ยมอันยิ่งใหญ่นี้เล่าขานกันว่าเป็นของอดีตกษัตริย์แห่งโคกูรยอ ทว่านามของพระองค์ได้เลือนหายไปตามกาลเวลา โถงทางเดินที่ทอดสู่สุสานถูกประดับประดาด้วยภาพจิตรกรรมฝาผนังอันวิจิตร และเบื้องบนยอดพีระมิดนั้นมีพลับพลาไม้ขนาดเล็กตั้งตระหง่านเพื่อเทิดทูนผู้ที่ล่วงลับไปแล้ว"
+ #Great Buddha of Kamakura
+ building_type_buddha_kamakura_01: "$building_buddha_kamakura_01$"
+ building_type_buddha_kamakura_01_desc: "$building_buddha_kamakura_01_desc$"
+ building_buddha_kamakura_01: "พระพุทธรูปองค์ใหญ่แห่งคามาคุระ"
+ building_buddha_kamakura_01_desc: "#italic ไดบุตสึ#! แห่งคามาคุระ คือพระพุทธรูปสัมฤทธิ์อันเป็นที่เคารพสักการะของพระอมิตาภพุทธะ มีน้ำหนักหลายตันและประดับด้วยลวดลายปิดทอง พระพุทธรูปถูกประดิษฐานอยู่ภายในโถงขนาดใหญ่ที่ได้รับแรงบันดาลใจจากวัดทางตะวันตกเฉียงใต้ และโอบล้อมด้วยกลีบบัวสามสิบสองกลีบ"
+ #Lingapura Pyramid
+ building_type_pyramid_lingapura_01: "$building_pyramid_lingapura_01$"
+ building_type_pyramid_lingapura_01_desc: "$building_pyramid_lingapura_01_desc$"
+ building_pyramid_lingapura_01: "พีระมิดแห่งลึงคปุระ"
+ building_pyramid_lingapura_01_desc: "พีระมิดขั้นบันไดอันยิ่งใหญ่นี้ตั้งตระหง่านขึ้นจากผืนป่าดุจดั่งภูเขาศักดิ์สิทธิ์ แต่ละชั้นจากทั้งเจ็ดชั้นล้วนประดิษฐานศาลเพียงตาและแท่นบูชาที่วิจิตรบรรจงยิ่งขึ้นตามลำดับ โถงศักดิ์สิทธิ์เบื้องบนสุดเป็นดั่งมงกุฎของสิ่งปลูกสร้าง คอยปกปักษ์รักษา #italic ศิวลึงค์#! ศักดิ์สิทธิ์อันเป็นศูนย์กลางของแผนผังแนวแกนทางศาสนาที่สลับซับซ้อน"
+ #Maijishan Grottoes
+ building_type_maijishan_grottoes_01: "$building_maijishan_grottoes_01$"
+ building_type_maijishan_grottoes_01_desc: "$building_maijishan_grottoes_01_desc$"
+ building_maijishan_grottoes_01: "หมู่ถ้ำม่ายจีซาน"
+ building_maijishan_grottoes_01_desc: "ภูเขาม่ายจีซานเป็นสถานที่แห่งความเคารพศรัทธามาอย่างยาวนาน และตามแนวหน้าผาทางทิศใต้ซึ่งถือว่าเป็นมงคลตามหลักฮวงจุ้ย ศาลเจ้าหลายร้อยแห่งได้ถูกสลักลึกลงไปในหินผาสีแดง ภายในประดิษฐานรูปปั้นและภาพจิตรกรรมฝาผนังสีสันสดใสของพระพุทธเจ้าและพระโพธิสัตว์ผู้เปี่ยมด้วยความสงบ หลายแห่งถูกสร้างขึ้นตามความประสงค์ของตระกูลคหบดีในเมืองใกล้เคียง เพื่อให้สถานที่แห่งนี้เป็นจุดหมายปลายทางของการจาริกแสวงบุญในบางโอกาส และเป็นที่สำหรับการบำเพ็ญภาวนา"
+ #Three Pagodas of Dali
+ building_type_three_pagodas_dali_01: "$building_three_pagodas_dali_01$"
+ building_type_three_pagodas_dali_01_desc: "$building_three_pagodas_dali_01_desc$"
+ building_three_pagodas_dali_01: "เจดีย์สามองค์แห่งต้าหลี่"
+ building_three_pagodas_dali_01_desc: "จากบริเวณหมู่วัดอันกว้างใหญ่ของตระกูลผู้ปกครองเมือง เจดีย์สูงสามองค์ที่ก่อด้วยอิฐและมีฐานหินตั้งตระหง่านอยู่ พวกมันเปรียบเสมือนจุดปลายของรูปสามเหลี่ยมหน้าจั่ว อันเป็นเครื่องหมายแสดงถึงรูปทรงเรขาคณิตศักดิ์สิทธิ์ของสถานที่ และเป็นกรอบล้อมรอบภูเขาและทะเลสาบที่อยู่รายรอบ"
+ #Iron Lion of Cangzhou
+ building_type_iron_lion_cangzhou_01: "$building_iron_lion_cangzhou_01$"
+ building_type_iron_lion_cangzhou_01_desc: "$building_iron_lion_cangzhou_01_desc$"
+ building_iron_lion_cangzhou_01: "สิงโตเหล็กแห่งชางโจว"
+ building_iron_lion_cangzhou_01_desc: "ประติมากรรมสิงโตขนาดมหึมานี้เป็นประติมากรรมเหล็กหล่อที่ใหญ่ที่สุดในแผ่นดินจีน บนหลังอันแข็งแกร่งของมันรองรับพระโพธิสัตว์ที่ประทับอย่างอ่อนโยนบนแท่นดอกบัวและประดับประดาด้วยรายละเอียดปิดทองอย่างวิจิตรบรรจง ตั้งอยู่ใกล้ที่ราบซึ่งมักเกิดอุทกภัย มันจึงเป็นที่รู้จักในหมู่ชาวเมืองท้องถิ่นในฐานะผู้พิทักษ์ต้านทานกระแสน้ำที่เอ่อล้น"
+ #Gaocheng Observatory
+ building_type_dengfeng_observatory_01: "$building_dengfeng_observatory_01$"
+ building_type_dengfeng_observatory_01_desc: "$building_dengfeng_observatory_01_desc$"
+ building_dengfeng_observatory_01: "หอดูดาวเกาเฉิง"
+ building_dengfeng_observatory_01_desc: "สถานที่แห่งนี้เป็นที่นิยมสำหรับการสังเกตการณ์ทางดาราศาสตร์มานานหลายศตวรรษ เนื่องจากมีคุณสมบัติทางภูมิศาสตร์และเป็นสัญลักษณ์ของศูนย์กลางทางภูมิศาสตร์ภายในแผ่นดินจีน โครงสร้างในปัจจุบันมีรูปทรงสี่เหลี่ยมคางหมูที่ซับซ้อน ทำหน้าที่เป็นนาฬิกาแดดขนาดมหึมา โดยมีเสากลางสูงทอดเงาลงไปในร่องที่แบ่งแท่น และเป็นเครื่องหมายบ่งบอกการเคลื่อนที่ของดวงอาทิตย์"
+ #Candi of Muara Takus
+ building_type_muara_takus_01: "$building_muara_takus_01$"
+ building_type_muara_takus_01_desc: "$building_muara_takus_01_desc$"
+ building_muara_takus_01: "จันทิแห่งมัวราตากุซ"
+ building_muara_takus_01_desc: "สิ่งปลูกสร้างมากมายประกอบขึ้นเป็นหมู่วัด ล้วนสร้างจากอิฐและประดับประดาด้วยรายละเอียดของหินทราย ตรงกลางเป็นที่ตั้งของสถูปอันยิ่งใหญ่แห่ง #italic มะห์ลิไก#! และ #italic ตูโอ#! องค์แรกสูงชะลูด องค์หลังกว้างใหญ่ดุจภูเขา ตั้งตระหง่านเหนือศาลเจ้าและลานระเบียงขนาดเล็กที่อยู่รายรอบ"
+ #Stone Pagoda of Mireuksa
+ building_type_stone_pagoda_01: "$building_stone_pagoda_01$"
+ building_type_stone_pagoda_01_desc: "$building_stone_pagoda_01_desc$"
+ building_stone_pagoda_01: "เจดีย์หินแห่งมิรึกซา"
+ building_stone_pagoda_01_desc: "เจดีย์เก้าชั้นที่ตั้งตระหง่านอยู่บนฐานหินกว้าง งานก่ออิฐสีอ่อนทอประกายภายใต้ท้องฟ้าที่อาบแสงแดด นี่คือเจดีย์หินแห่งแรกของเกาหลี รูปทรงและสัดส่วนอันสมดุลของมันได้กลายเป็นต้นแบบสำหรับผู้สร้างวัดทั่วทั้งคาบสมุทร"
+ #Thuriang Kilns
+ building_type_thuriang_kilns_01: "$building_thuriang_kilns_01$"
+ building_type_thuriang_kilns_01_desc: "$building_thuriang_kilns_01_desc$"
+ building_thuriang_kilns_01: "เตาทุเรียง"
+ building_thuriang_kilns_01_desc: "เตาเผาขนาดใหญ่กว่าสองร้อยเตาครอบคลุมพื้นที่แห่งนี้ ซึ่งเป็นศูนย์กลางการผลิตเครื่องเคลือบศิลาดลที่ใหญ่ที่สุดในภูมิภาค เครื่องปั้นดินเผาที่เผาที่นี่ขึ้นชื่อในเรื่องเนื้อหยาบ แข็ง และการเคลือบสีเขียวอมเหลืองอันเป็นเอกลักษณ์ และมีการซื้อขายกันทั่วตลาดในเอเชียตะวันออกเฉียงใต้"
+ #Yuelu Academy
+ building_type_yuelu_academy_01: "$building_yuelu_academy_01$"
+ building_type_yuelu_academy_01_desc: "$building_yuelu_academy_01_desc$"
+ building_yuelu_academy_01: "สำนักศึกษาเยว่ลู่"
+ building_yuelu_academy_01_desc: "เยว่ลู่เป็นหนึ่งในสำนักศึกษาที่มีชื่อเสียงที่สุดในแผ่นดินจีน ทำหน้าที่เป็นศูนย์กลางสำหรับการศึกษาและการสอบมาอย่างยาวนาน แผนผังของสำนักมีศูนย์กลางอยู่ที่ลานหลัก ซึ่งมีโถงและพลับพลาอันเป็นที่ซึ่งบัณฑิตหลายรุ่นได้เตรียมตัวสำหรับการรับราชการ ทอดยาวออกไปในความสมดุลที่ประสานกันอย่างลงตัว"
+ #Chocolate Hills #NOTE: today are called "Chocolate" Hills, but of course chocolate didn't exist in the Philippines back then. This is a random name I thought out, but it is not based on native names (none of which seem to have survived from then)
+ building_type_chocolate_hills_01: "$building_chocolate_hills_01$"
+ building_type_chocolate_hills_01_desc: "$building_chocolate_hills_01_desc$"
+ building_chocolate_hills_01: "เนินเขาสีน้ำตาลอมแดง"
+ building_chocolate_hills_01_desc: "ลักษณะทางธรณีวิทยานี้โดดเด่นด้วยเนินเขาทรงกรวยมนจำนวนมากที่ทอดยาวอย่างเป็นระเบียบไปทั่วภูมิทัศน์ พวกมันถูกปกคลุมด้วยชั้นหญ้าซึ่ง - ในช่วงฤดูแล้ง - จะเปลี่ยนเป็นสีน้ำตาลและสีส้มสดใส ทำให้พื้นที่นี้มีสีสันของฤดูใบไม้ร่วงที่แปลกตา"
+ #Fanfang of Guangzhou
+ building_type_fanfang_guangzhou_01: "$building_fanfang_guangzhou_01$"
+ building_type_fanfang_guangzhou_01_desc: "$building_fanfang_guangzhou_01_desc$"
+ building_fanfang_guangzhou_01: "ฟานฟางแห่งกว่างโจว"
+ building_fanfang_guangzhou_01_desc: "#italic ฟานฟาง#! เป็นชุมชนสำคัญของพ่อค้าชาวต่างชาติ - ส่วนใหญ่เป็นชาวอาหรับและชาวเปอร์เซียมุสลิมที่เดินทางมาที่นี่ผ่านเส้นทางการค้าทางทะเล - ซึ่งได้รับอนุญาตให้มีเขตของตนเองทางตะวันตกของเมือง พร้อมด้วยขุนนางและธรรมเนียมปฏิบัติของตนเอง ตรงกลางเป็นที่ตั้งของมัสยิดกำแพงแดงซึ่งมียอดหอคอยสูงและประภาคาร คอยนำทางเรือและวิญญาณไปสู่ความปลอดภัยของท่าเรือ"
+ #Wilwatikta Palace
+ building_type_wilwatikta_palace_01: "$building_wilwatikta_palace_01$"
+ building_type_wilwatikta_palace_01_desc: "$building_wilwatikta_palace_01_desc$"
+ building_wilwatikta_palace_01: "พระราชวังวิลวาติกตา"
+ building_wilwatikta_palace_01_desc: "เขตพระราชวังอันกว้างใหญ่ที่ประกอบไปด้วยพลับพลา โถง วัด และลานกว้าง วิลวาติกตานั้นกว้างใหญ่พอที่จะดูคล้ายเมืองของตนเอง กำแพงอิฐสี่เหลี่ยมล้อมรอบบริเวณ และทางเข้าสู่ถนนสำหรับขบวนแห่ถูกทำเครื่องหมายด้วยประตูปาดุรักษะ (#italic Paduraksa#!) ที่ตั้งตระหง่าน"
+ #Ha Long Bay
+ building_type_ha_long_bay_01: "$building_ha_long_bay_01$"
+ building_type_ha_long_bay_01_desc: "$building_ha_long_bay_01_desc$"
+ building_ha_long_bay_01: "อ่าวฮาลอง"
+ building_ha_long_bay_01_desc: "ภูมิทัศน์อันน่าทึ่งของเกาะหินปูนและหินคาสต์ที่ผุดขึ้นจากผืนน้ำสีมรกตอันเงียบสงบของอ่าว ที่ซึ่งชาวประมงท้องถิ่นลอยเรือหาปลาภายใต้ร่มเงาของเสาหิน"
+ #My Son Sanctuary
+ building_type_my_son_sanctuary_01: "$building_my_son_sanctuary_01$"
+ building_type_my_son_sanctuary_01_desc: "$building_my_son_sanctuary_01_desc$"
+ building_my_son_sanctuary_01: "สถานที่ศักดิ์สิทธิ์หมีเซิน"
+ building_my_son_sanctuary_01_desc: "หมู่วัดจามที่ใหญ่และประณีตที่สุด สถานที่ศักดิ์สิทธิ์นี้ประกอบด้วยกลุ่มสิ่งปลูกสร้างที่ตั้งอยู่ใกล้กันในพื้นที่ป่า แต่ละแห่งมีประตู ศาลเจ้า และสถูปของตนเอง โครงสร้างทั้งหมดสร้างด้วยอิฐแดง จัดวางในรูปแบบเรขาคณิต และประดับประดาด้วยทับหลังหินทราย"
+ #Gunung Api
+ building_type_gunung_api_01: "$building_gunung_api_01$"
+ building_type_gunung_api_01_desc: "$building_gunung_api_01_desc$"
+ building_gunung_api_01: "กุนุงอาปี"
+ building_gunung_api_01_desc: "ภูเขาที่ผุดขึ้นจากป่าลึกแห่งนี้เป็นที่ศักดิ์สิทธิ์สำหรับคนในท้องถิ่น ท่ามกลางความชื้นและหมอกควัน ทางลาดชันของมันถูกปกคลุมไปด้วยยอดแหลมหินปูนอันโดดเด่นและถ้ำลึกที่ถูกน้ำกัดเซาะผ่านกาลเวลาอันยาวนาน"
+ #Sulawesi Megaliths
+ building_type_suwalesi_megaliths_01: "$building_suwalesi_megaliths_01$"
+ building_type_suwalesi_megaliths_01_desc: "$building_suwalesi_megaliths_01_desc$"
+ building_suwalesi_megaliths_01: "หินตั้งแห่งซูลาเวซี"
+ building_suwalesi_megaliths_01_desc: "กระจัดกระจายไปทั่วหุบเขาของซูลาเวซีตอนกลาง มีรูปสลักหินและสัญลักษณ์ต่างๆ ที่คนในท้องถิ่นสร้างขึ้นเพื่อประกอบพิธีกรรมและเพื่อเป็นเกียรติแก่ดวงวิญญาณ รูปจำลองเหล่านี้ซึ่งรู้จักกันในชื่อ #italic arcas#! ถูกสลักอย่างเรียบง่าย ทว่ามีรูปทรงที่ถูกวาดด้วยเส้นสายที่ละเอียดอ่อนและสง่างาม"
+ #Izumo Taisha
+ building_type_izumo_taisha_01: "$building_izumo_taisha_01$"
+ building_type_izumo_taisha_01_desc: "$building_izumo_taisha_01_desc$"
+ building_izumo_taisha_01: "คิซึกิไทฉะ"
+ building_izumo_taisha_01_desc: "ศาลเจ้าชินโตอันยิ่งใหญ่นี้ - #italic ไทฉะ#! - ถูกสร้างขึ้นใกล้ชายฝั่ง หันหน้าออกสู่ทะเล มันตั้งตระหง่านอยู่บนเสาไม้ขนาดมหึมาและลำต้นหนา ยกโถงขึ้นสูงเหนือพื้นดินที่มนุษย์เดิน และขึ้นไปบนท้องฟ้าอันเป็นที่สถิตของทวยเทพและดวงวิญญาณแห่งแผ่นดิน"
+ #Temple of Confucius
+ building_type_confucius_temple_01: "$building_confucius_temple_01$"
+ building_type_confucius_temple_01_desc: "$building_confucius_temple_01_desc$"
+ building_confucius_temple_01: "วัดขงจื๊อ"
+ building_confucius_temple_01_desc: "วัดขงจื๊อที่เก่าแก่และมีอิทธิพลมากที่สุดแห่งนี้ ประกอบด้วยโถงและลานกว้างอันกว้างใหญ่ เป็นต้นแบบสำหรับการอ้างอิงและเป็นแรงบันดาลใจให้กับผู้สร้างวัดทั่วทั้งแผ่นดินจีนและที่อื่นๆ ด้วยผังเรขาคณิตที่กลมกลืนและรายละเอียดที่ประณีต ใกล้ๆ กันนั้นมีป่าอันเงียบสงบซึ่งเป็นที่ตั้งของสุสานของขงจื๊อและผู้สืบเชื้อสายของท่าน กลายเป็นสถานที่สำคัญสำหรับการจาริกแสวงบุญของผู้ที่มีความศรัทธา"
+ #Imperial Citadel of Lin'an
+ building_type_citadel_linan_01: "$building_citadel_linan_01$"
+ building_type_citadel_linan_01_desc: "$building_citadel_linan_01_desc$"
+ building_citadel_linan_01: "ป้อมปราการหลวงแห่งหลินอัน"
+ building_citadel_linan_01_desc: "ป้อมปราการหลวงที่สร้างขึ้นตามเนินเขาทางตอนเหนือของภูเขาเฟิ่งหวง ทำหน้าที่เป็นที่พำนักของราชสำนักและฝ่ายบริหาร โดยเป็นที่พักของบัณฑิตและขุนนางจำนวนนับไม่ถ้วนในโถงและระเบียงทางเดินอันกว้างใหญ่ แม้จะไม่กว้างใหญ่เท่าพระราชวังในเมืองหลวงทางตอนเหนือ แต่ความประณีตและความสง่างามของสวนระเบียงและพลับพลาของมันก็เทียบเคียงกันได้อย่างสมบูรณ์แบบ"
+ #The Temples of Angkor
+ building_type_temples_angkor_01: "$building_temples_angkor_01$"
+ building_type_temples_angkor_01_desc: "$building_temples_angkor_01_desc$"
+ building_temples_angkor_01: "เทวสถานแห่งเมืองพระนคร"
+ building_temples_angkor_01_desc: "ในเมืองอินทระอันเจริญรุ่งเรือง หลังคาปิดทองและยอดแหลมของวัดวาอารามมีอยู่มากมายนับไม่ถ้วน แต่ละแห่งล้วนประดับประดาอย่างวิจิตรบรรจงด้วยภาพสลักนูนต่ำและรูปปั้นของทวยเทพและเทวราชา"
+ building_temples_angkor_02: "นครวัด"
+ building_temples_angkor_02_desc: "นครวัดคือหมู่วัดขนาดใหญ่ที่สร้างอุทิศแด่พระวิษณุ ถูกออกแบบมาเพื่อเป็นตัวแทนของเขาพระสุเมรุอันเป็นที่สถิตของทวยเทพตามคติฮินดู หมู่วัดล้อมรอบด้วยคูน้ำอันน่าเกรงขามและมีวัดแบบระเบียงคดหลายแห่ง ซึ่งเต็มไปด้วยศิลปะทางศาสนา ประติมากรรม และภาพสลักนูนต่ำ"

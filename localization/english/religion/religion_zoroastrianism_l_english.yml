@@ -1,0 +1,195 @@
+﻿l_english: 
+
+ #Common Zoroastrian Localization
+ zoroastrianism_religion:0 "ศาสนาโซโรอัสเตอร์"
+ zoroastrianism_religion_adj:0 "โซโรอัสเตอร์"
+ zoroastrianism_religion_adherent:0 "ชาวโซโรอัสเตอร์"
+ zoroastrianism_religion_adherent_plural:0 "ชาวโซโรอัสเตอร์"
+ zoroastrianism_religion_desc:1 "ตามคำสอนของโซโรอัสเตอร์ ชาวโซโรอัสเตอร์เชื่อในเจ้าแห่งปัญญา โอห์รมาซด์ ผู้เป็นแหล่งกำเนิดแห่งความดีทั้งปวง และผู้ต่อต้านความเท็จ ซึ่งแทนด้วยอาห์ริมัน ชาวโซโรอัสเตอร์แสวงหาวิถีแห่งสัจจะผ่านความคิดดี วาจาดี และการกระทำดี"
+ zoroastrianism_high_god_name:1 "โอห์รมาซด์"
+ zoroastrianism_high_god_name_2:0 "$zoroastrianism_high_god_name$" # Optional translation alt
+ zoroastrianism_high_god_name_3:0 "$zoroastrianism_high_god_name$" # Optional translation alt
+ zoroastrianism_high_god_name_possessive:1 "แห่งโอห์รมาซด์"
+ zoroastrianism_high_god_name_alternate:0 "เจ้าแห่งปัญญา"
+ zoroastrianism_high_god_name_alternate_possessive:0 "แห่งเจ้าแห่งปัญญา"
+ zoroastrianism_good_god_zoroaster:0 "โซโรอัสเตอร์"
+ zoroastrianism_good_god_asha:0 "อาชา"
+ zoroastrianism_good_god_truth:0 "สัจจะ"
+ zoroastrianism_good_god_amesha_spenta:0 "อาเมชา สเปนตา"
+ zoroastrianism_good_god_divine_spark: "ประกายศักดิ์สิทธิ์"
+ zoroastrianism_good_god_saoshyant:0 "เซาชยันต์"
+ zoroastrianism_devil_name:1 "อาห์ริมัน"
+ zoroastrianism_devil_name_possessive:1 "แห่งอาห์ริมัน"
+ zoroastrianism_evil_god_angra_mainyu:0 "อังรา ไมนยู"
+ zoroastrianism_evil_god_daevas:0 "เดวา"
+ zoroastrianism_house_of_worship:0 "วิหารไฟ"
+ zoroastrianism_house_of_worship_2:0 "$zoroastrianism_house_of_worship$" # Optional translation alt
+ zoroastrianism_house_of_worship_3:0 "$zoroastrianism_house_of_worship$" # Optional translation alt
+ zoroastrianism_house_of_worship_plural:0 "วิหารไฟ"
+ zoroastrianism_religious_symbol:0 "ฟาราฟาฮาร์"
+ zoroastrianism_religious_symbol_2:0 "$zoroastrianism_religious_symbol$" # Optional translation alt
+ zoroastrianism_religious_symbol_3:0 "$zoroastrianism_religious_symbol$" # Optional translation alt
+ zoroastrianism_religious_text:0 "อเวสตา"
+ zoroastrianism_religious_text_2:0 "ยัสนา"
+ zoroastrianism_religious_text_3:1 "เดนการ์ด"
+ zoroastrianism_religious_head_title:0 "โมบาดัน-โมบาด"
+ zoroastrianism_devotee_male:0 "ผู้ดูแลไฟ"
+ zoroastrianism_devotee_male_plural:0 "ผู้ดูแลไฟ"
+ zoroastrianism_devotee_female:0 "ผู้ดูแลไฟ"
+ zoroastrianism_devotee_female_plural:0 "ผู้ดูแลไฟ"
+ zoroastrianism_devotee_neuter:0 "ผู้ดูแลไฟ"
+ zoroastrianism_devotee_neuter_plural:0 "ผู้ดูแลไฟ"
+ zoroastrianism_priest_male:0 "โมเบด"
+ zoroastrianism_priest_male_plural:0 "โมเบด"
+ zoroastrianism_priest_female:0 "โมเบดยาร์"
+ zoroastrianism_priest_female_plural:0 "โมเบดยาร์"
+ zoroastrianism_alternate_priest_term: "เมไจ"
+ zoroastrianism_alternate_priest_term_plural: "เมไจ"
+ zoroastrianism_bishop_male:0 "ดัสตูร์"
+ zoroastrianism_bishop_male_plural:0 "ดัสตูร์"
+ zoroastrianism_bishop_female:0 "ดัสตูยาร์"
+ zoroastrianism_bishop_female_plural:0 "ดัสตูยาร์"
+ zoroastrianism_divine_realm:0 "สวรรค์"
+ zoroastrianism_divine_realm_2:0 "$zoroastrianism_divine_realm$" # Optional translation alt
+ zoroastrianism_divine_realm_3:0 "$zoroastrianism_divine_realm$" # Optional translation alt
+ zoroastrianism_positive_afterlife:0 "แดนสุขาวดี"
+ zoroastrianism_positive_afterlife_2:0 "$zoroastrianism_positive_afterlife$" # Optional translation alt
+ zoroastrianism_positive_afterlife_3:0 "$zoroastrianism_positive_afterlife$" # Optional translation alt
+ zoroastrianism_negative_afterlife:0 "นรก"
+ zoroastrianism_negative_afterlife_2:0 "$zoroastrianism_negative_afterlife$" # Optional translation alt
+ zoroastrianism_negative_afterlife_3:0 "$zoroastrianism_negative_afterlife$" # Optional translation alt
+ 
+ zoroastrianism_creator_god_name:0 "$zoroastrianism_high_god_name$"
+ zoroastrianism_creator_god_name_possessive:0 "$zoroastrianism_high_god_name_possessive$"
+ zoroastrianism_health_god_name:1 "ไอรียามาน"
+ zoroastrianism_health_god_name_possessive:1 "แห่งไอรียามาน"
+ zoroastrianism_fertility_god_name:1 "อาร์ดวิซูร์ อนาฮิด"
+ zoroastrianism_fertility_god_name_possessive:1 "แห่งอาร์ดวิซูร์ อนาฮิด"
+ zoroastrianism_wealth_god_name:1 "เฮาร์วาตัต"
+ zoroastrianism_wealth_god_name_possessive:1 "แห่งเฮาร์วาตัต"
+ zoroastrianism_household_god_name:0 "$zoroastrianism_high_god_name$"
+ zoroastrianism_household_god_name_possessive:0 "$zoroastrianism_high_god_name_possessive$"
+ zoroastrianism_fate_god_name:1 "รัชนู"
+ zoroastrianism_fate_god_name_possessive:1 "แห่งรัชนู"
+ zoroastrianism_knowledge_god_name:1 "มิถรา"
+ zoroastrianism_knowledge_god_name_possessive:1 "แห่งมิถรา"
+ zoroastrianism_war_god_name:1 "วาราห์ราม"
+ zoroastrianism_war_god_name_possessive:1 "แห่งวาราห์ราม"
+ zoroastrianism_trickster_god_name:1 "อาโคมาน"
+ zoroastrianism_trickster_god_name_possessive:1 "แห่งอาโคมาน"
+ zoroastrianism_night_god_name:1 "มาห์"
+ zoroastrianism_night_god_name_possessive:1 "แห่งมาห์"
+ zoroastrianism_water_god_name:1 "เฮาร์วาตัต"
+ zoroastrianism_water_god_name_possessive:1 "แห่งเฮาร์วาตัต"
+ zoroastrianism_death_deity_name: "นาซู"
+ zoroastrianism_death_deity_name_possessive: "แห่งนาซู"
+
+ #Mazdayasna
+ mazdayasna:0 "มาซดายัสนา"
+ mazdayasna_adj:0 "มาซดายัน"
+ mazdayasna_adherent:0 "ชาวมาซดายัน"
+ mazdayasna_adherent_plural:0 "ชาวมาซดายัน"
+ mazdayasna_desc:1 "มนุษย์ช่วยเหลือในการต่อสู้กับ #italic อากา มานาห์#! ผ่านความคิดและการดำเนินชีวิตที่ดี สิ่งนี้กระทำผ่านความบริสุทธิ์ทางพิธีกรรม การอนุรักษ์ธรรมชาติ และการทำลายล้างสิ่งมีชีวิตชั่วร้าย"
+
+ #Behafaridism
+ zurvanism:1 "ลัทธิเบฮาฟาริด"
+ zurvanism_adj:1 "เบฮาฟาริดี"
+ zurvanism_adherent:1 "ชาวเบฮาฟาริด"
+ zurvanism_adherent_plural:1 "ชาวเบฮาฟาริด"
+ zurvanism_desc:1 "ผู้ติดตามคำสอนของเบฮาฟาริด $zurvanism_adherent_plural$ แสวงหาความร่วมมือกับโลกอิสลาม โดยทำการปฏิรูปความเชื่อของตนหลายประการเพื่อตอบสนองต่อคำวิจารณ์ของชาวมุสลิมต่อศาสนาโซโรอัสเตอร์สายหลัก ในบรรดาการปฏิรูปเหล่านี้ ได้แก่ การห้ามบริโภคเครื่องดื่มแอลกอฮอล์ การต่อต้านการ แต่งงานในครอบครัวอย่างเข้มงวด และการส่งเสริมการกุศลเพื่อเป็นมาตรวัดการใช้ทรัพย์สินเพื่อประโยชน์สาธารณะ"
+ 
+
+ #Zurvanism doctrine - FP3 update: removed from doctrine_asceticism and saved for possible future Fatalism tenet. 
+ tenet_zurvanism_name:0 "ลัทธิซูร์วาน"
+ tenet_zurvanism_desc:1 "ผู้นับถือลัทธิซูร์วานเชื่อว่าโอห์รมาซด์และอาห์ริมันเป็นฝาแฝดที่เท่าเทียมกัน แต่ตรงกันข้าม กำเนิดจากซูร์วาน ผู้สร้างทุกสรรพสิ่ง ลัทธิซูร์วานเน้นย้ำอย่างยิ่งในการช่วยเหลืออหุระ มาซดา โดยการขจัดความชั่วร้ายและความเท็จ"
+ zurvanism_creator_god_name:0 "ซูร์วาน"
+ zurvanism_creator_god_name_possessive:0 "แห่งซูร์วาน"
+
+
+
+ #Gayomarthianism
+ gayomarthianism:0 "ลัทธิกาโยมาร์เทียน"
+ gayomarthianism_adj:0 "กาโยมาร์เทียน"
+ gayomarthianism_adherent:0 "ชาวกาโยมาร์เทียน"
+ gayomarthianism_adherent_plural:0 "ชาวกาโยมาร์เทียน"
+ gayomarthianism_desc:1 "บนพื้นฐานแนวคิดที่ว่าอหุระ มาซดา ผ่านความคิดของพระองค์ ได้สร้างวิญญาณชั่วร้ายขึ้นโดยบังเอิญ ชาวกาโยมาร์เทียนปฏิเสธความไม่ผิดพลาดของเจ้าแห่งปัญญา และเน้นย้ำการปฏิบัติพิธีกรรมเพื่อเรียนรู้สัจจะในการสื่อสารกับอหุระ มาซดาแทน"
+
+ #Khurmazta
+ khurmazta:0 "ลัทธิคูร์มาซด์"
+ khurmazta_adj:0 "คูร์มาซตา"
+ khurmazta_adherent:0 "ชาวคูร์มาซตา"
+ khurmazta_adherent_plural:0 "ชาวคูร์มาซตา"
+ khurmazta_desc:1 "ด้วยรากฐานอันลึกซึ้งในการผสมผสานทางศาสนาของซอกเดียนา ชาวคูร์มาซตาบูชาเทพเจ้าและวิญญาณหลากหลาย ทั้งบรรพชนและสากล พวกเขายังเคารพรูปเคารพ ซึ่งเป็นสิ่งที่น่ารังเกียจสำหรับชาวโซโรอัสเตอร์อื่น ๆ อีกมาก กระนั้น แม้บางแง่มุมของความเชื่อของพวกเขาอาจมีเอกลักษณ์เพียงใด ในทางอื่น ๆ พวกเขายังคงอยู่ในวงโคจรของหลักคำสอนโซโรอัสเตอร์กระแสหลัก ปฏิบัติพิธีกรรมความบริสุทธิ์และดูแลไฟนิรันดร์ด้วยความทุ่มเทอย่างไม่หยุดยั้ง"
+ khurmazta_good_god_zravan:1 "ซราวาน"
+ khurmazta_good_god_weshparkar:1 "เวชปาร์การ์"
+ khurmazta_good_god_adbad:0 "อัดบัด"
+ khurmazta_fertility_god_name:0 "นานา"
+ khurmazta_fertility_god_name_possessive:0 "แห่งนานา"
+ khurmazta_high_god_name: "คูร์มาซตา บักห์"
+ khurmazta_high_god_name_possessive: "แห่งคูร์มาซตา บักห์"
+ khurmazta_war_god_name: "วาเซกห์น"
+ khurmazta_war_god_name_possessive: "แห่งวาเซกห์น"
+ khurmazta_fate_god_name: "พาร์น"
+ khurmazta_fate_god_name_possessive: "แห่งพาร์น"
+ khurmazta_devil_name: "ชิมนู"
+ khurmazta_devil_name_possessive: "แห่งชิมนู"
+
+ 
+ #Mazdakism
+ mazdakism:0 "ลัทธิมาซดัก"
+ mazdakism_adj:0 "มาซดาไคต์"
+ mazdakism_adherent:0 "ชาวมาซดาไคต์"
+ mazdakism_adherent_plural:0 "ชาวมาซดาไคต์"
+ mazdakism_desc:1 "ศาสดาหัวรุนแรง ซาร์ดุชต์ คูรากัน และ มาซดัก ได้รับอิทธิพลจากความเชื่อลึกลับในยุคโบราณตอนปลาย และปลุกระดมให้มีการเป็นเจ้าของทรัพยากรร่วมกันและความร่วมมือสากลระหว่างมนุษย์เพื่อเอาชนะปีศาจทั้งห้า ได้แก่ ความโลภ ความโกรธ ความอิจฉา ความเป็นเจ้าของ และความอาฆาตแค้น"
+
+ #Khurramism
+ khurramism:0 "ลัทธิคูร์รัม"
+ khurramism_adj:0 "คูร์ราไมต์"
+ khurramism_adherent:0 "ชาวคูร์ราไมต์"
+ khurramism_adherent_plural:0 "ชาวคูร์ราไมต์"
+ khurramism_desc:1 "ในโลกแห่งแสงสว่างและความมืด ผู้ปกครองที่ไม่ยุติธรรมจะต้องถูกโค่นล้มเพื่อสนับสนุนสิ่งที่ดีงาม ผ่านศาสดา เช่น มาซดัก, อาบู มุสลิม และ อัล-มุกันนา ชาวคูร์ราไมต์เชื่อว่าพระเจ้าถือกำเนิดในมนุษยชาติ และวันหนึ่งจะกลับมานำพวกเขาในฐานะพระเมสสิยาห์"
+
+ #Urartuism
+ urartuism:1 "อาเรวอร์ดิค"
+ urartuism_adj:1 "อาเรวอร์ดิ"
+ urartuism_adherent:1 "ชาวอาเรวอร์ดิ"
+ urartuism_adherent_plural:1 "ชาวอาเรวอร์ดิ"
+ urartuism_high_god_name:1 "อารามัซด์"
+ urartuism_high_god_name_2:0 "$urartuism_high_god_name$"
+ urartuism_high_god_name_possessive:1 "แห่งอารามัซด์"
+ urartuism_fertility_god_name: "อนาฮิต"
+ urartuism_fertility_god_name_possessive: "แห่งอนาฮิต"
+ urartuism_death_deity_name: "สปันดาราเมต"
+ urartuism_death_deity_name_possessive: "แห่งสปันดาราเมต"
+ urartu_good_god_the_sun: "อาเรว"
+ urartu_good_god_mithra: "มิห์ร"
+ urartu_good_god_zoroaster: "ซราดัชต์"
+ urartuism_desc:1 "ความเชื่อโบราณหลายอย่างยังคงสะท้อนอยู่ในความเชื่ออาเรวอร์ดิค นิกายโซโรอัสเตอร์ลึกลับที่โอห์รมาซด์ (ในนาม อารามัซด์) ปกครองเหนือหมู่เทพเจ้า รวมถึงดวงอาทิตย์เอง ซึ่งร่วมกันชี้นำโลก"
+ urartu_good_god_vanatur:1 "วานาตูร์"
+ urartuism_priest_male:1 "ฮาซาร์เปต"
+ urartuism_priest_male_plural:1 "ฮาซาร์เปต"
+
+ #Afridunism, Daylamite "paganism"
+ afridunism: "ลัทธิอาฟริดุน"
+ afridunism_adj: "อาฟริดุนิสต์"
+ afridunism_adherent: "ชาวอาฟริดุนิสต์"
+ afridunism_adherent_plural: "ชาวอาฟริดุนิสต์"
+ afridunism_desc: "หยั่งรากลึกในประเพณีเดย์ลาไมต์และศาสนานอกรีตเปอร์เซีย หลายแง่มุมของลัทธิอาฟริดุนมีมาก่อนแม้กระทั่งความเชื่อโซโรอัสเตอร์โบราณ ผู้ยึดถือมุ่งมั่นที่จะดำเนินชีวิตตามกฎที่วางไว้โดยวีรบุรุษในตำนาน ฟาริดุน ซึ่งเน้นย้ำถึงอำนาจเด็ดขาดของผู้นำครอบครัวและจิตวิญญาณแห่งความเป็นอิสระอันแข็งแกร่ง"
+ afridunism_good_god_mithra: "มิถรา"
+ afridunism_good_god_hvar_khshaita: "ฮวาร์-คไชตา"
+ afridunism_war_god_name: "เวเรธรัจนา"
+ afridunism_war_god_name_possessive: "แห่งเวเรธรัจนา"
+ afridunism_priest_male:1 "เซาตาร์"
+ afridunism_priest_male_plural:1 "เซาตาร์"
+
+
+ #Doctrines for FP3 
+
+ doctrine_zoroastrian_branches_name: "ความดีและความชั่ว"
+ doctrine_zoroastrian_branches_desc: "เราจะสนับสนุนนักบวชที่จัดตั้งขึ้นและหลักคำสอนของพวกเขา เพื่อปกป้องความเชื่อของเราจากพวกนอกรีต - หรือแท้จริงแล้วพวกเขาคือผู้ที่หลงผิดและทุจริต?"
+ doctrine_major_branch_behdin_name: "เบห์ดิน"
+ doctrine_major_branch_behdin_desc: "แม้ว่าเราอาจแตกต่างกันในเรื่องความแปลกประหลาดบางประการของการปฏิบัติ แต่พวกเราชาวโซโรอัสเตอร์สายหลักไม่เห็นพ้องต้องกันในเรื่องพื้นฐานของความภักดีต่ออหุระ มาซดาหรือ?"
+ doctrine_heretic_branch_zandik_name: "คอร์รัมดิน"
+ doctrine_heretic_branch_zandik_desc: "$doctrine_major_branch_behdin_name$ เรียกเราว่าพวกนอกรีต พวกนอกคอก และพวกบ่อนทำลาย แม้จะไม่มีสิ่งใดผูกมัดเราเข้าด้วยกันนอกจากความดูถูกเหยียดหยามของพวกเขา แต่ความชอบธรรมกำหนดการต่อต้านของเรา และความดูหมิ่นของพวกเขา ทำให้ใจเราแข็งกระด้าง"
+ doctrine_parameter_hostility_override_doctrine_major_branch_behdin: "พิจารณา [faiths|E] เบห์ดินอื่น ๆ ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_doctrine_heretic_branch_zandik: "พิจารณา [faiths|E] คอร์รัมดินอื่น ๆ ว่าเป็น [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"

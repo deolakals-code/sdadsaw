@@ -1,0 +1,679 @@
+﻿l_english: 
+ seduce_ongoing.success.rejection:0 "เป็นช่วงเวลาที่ดี แต่คงต้องพอเพียงเท่านี้"
+ seduce_ongoing.failure.rejection:0 "ไม่ ไม่ และไม่มีวันเป็น เช่นนั้น [owner.GetFirstNameNoTooltip]"
+ seduce_ongoing_decline_event.tt:0 "ข้าขอสละโอกาสนี้ในการสร้างความประทับใจให้ [target.GetTitledFirstName]"
+ seduce_ongoing_possible_outcomes_tooltip_effect.success.desc:0 "ทุกอย่างเป็นไปตามแผน"
+ seduce_ongoing_possible_outcomes_tooltip_effect.failure.desc:0 "[target.GetFirstNameNoTooltip] ไม่ได้รู้สึกประทับใจ"
+
+ seduce_ongoing.1001.t:0 "การเต้นรำ"
+ seduce_ongoing.1001.distant_opening:0 "ข้าได้เดินทางมายังราชสำนักใน [court_of_residence.GetNameNoTier] ทันเวลางานเต้นรำ ณ [court_owner.Custom('ResidenceBuilding')] ข้าได้รับคำเชิญมา ด้วยต้องพบ [target.GetTitledFirstName] ให้จงได้"
+ seduce_ongoing.1001.close_opening:0 "ข้าเข้าร่วมงานเต้นรำมิใช่เพียง เพราะข้าคือ [ROOT.Char.GetLadyLord|U] แห่ง [court_owner.Custom('ResidenceBuilding')] แต่ เพราะข้าปรารถนาจะพบ [target.GetTitledFirstName] ที่นั่น"
+ seduce_ongoing.1001.desc:0 "\n\n[target.GetSheHe|U] ดูงดงามเปล่งปลั่ง และเมื่อเรามีโอกาสอยู่ตามลำพังในที่สุด ข้าจึงเสนอคำแนะนำของข้า"
+ seduce_ongoing.1001.a:0 "มาร่วมวงเต้นรำกับข้าในเพลงถัดไปเถิด [target.GetLadyLord] ของข้า?"
+ seduce_ongoing.1001.a.tt:0 "#F ดึงดูดด้านขี้เล่นของ [target.GetFirstNamePossessiveNoTooltip]#!"
+ seduce_ongoing.1001.b:0 "เดินเล่นในสวน ห่างจากทั้งหมดนี้ดีหรือไม่?"
+ seduce_ongoing.1001.b.tt:0 "#F ดึงดูดด้านช่างคิดของ [target.GetFirstNamePossessiveNoTooltip]#!"
+ seduce_ongoing.1001.c:0 "ให้ข้าหาอาหารมาให้ท่านเพิ่มอีกหน่อยดีหรือไม่?"
+ seduce_ongoing.1001.c.tt:0 "#F ดึงดูดด้านตะกละของ [target.GetFirstNamePossessiveNoTooltip]#!"
+ seduce_ongoing.1001.d:0 "ท่านเห็นหรือไม่ว่าคนเหล่านี้ "เต้นรำ" กันอย่างไร?"
+ seduce_ongoing.1001.d.tt:0 "#F ดึงดูดด้านมุ่งร้ายของ [target.GetFirstNamePossessiveNoTooltip]#!"
+
+ seduce_ongoing.1003.opening:0 "ณ งานเต้นรำที่[court_owner.Custom('ResidenceBuilding')] [owner.GetTitledFirstName] ได้เข้ามาหาข้า เสนอตัวร่วมทาง[owner.GetHerHis]"
+ seduce_ongoing.1003.dance:0 "\n\nขณะที่เราหมุนตัวอยู่บนฟลอร์ เราดึงดูดสายตาผู้คนได้อย่างแน่นอน และข้าก็หัวเราะราวกับ [ROOT.Char.Custom('GirlBoy')] น้อย!"
+ seduce_ongoing.1003.walk:0 "\n\nเราเดินเล่นในสวน พูดคุยกันสารพัดเรื่อง จนกระทั่งเรารู้ตัวว่าต่างฝ่ายต่างลืมเวลาไปแล้ว!"
+ seduce_ongoing.1003.food:0 "\n\n[owner.GetSheHe|U] ให้คนรับใช้บางคนนำอาหารออกมาเพิ่มอีกสองสามจาน และเราก็นั่งรับประทานอาหารด้วยกันเกือบตลอดทั้งคืน มันอร่อยมาก!"
+ seduce_ongoing.1003.mockery:0 "\n\nเรานั่งล้อเลียนแขกคนอื่นๆ แบ่งปันเรื่องตลกและเสียงหัวเราะ ข้าประทับใจอย่างยิ่งกับไหวพริบอันเฉียบแหลมของ [owner.GetFirstNamePossessiveNoTooltip]!"
+ seduce_ongoing.1003.fallback:0 "\n\nสุดท้ายเราก็สนุกกันมาก เราเต้นรำกันเกือบตลอดเวลาของการเฉลิมฉลอง!"
+ seduce_ongoing.1003.a:0 "ข้ามีค่ำคืนที่ดีเหลือเกิน!"
+
+ seduce_ongoing.1004.dance:0 "[owner.GetSheHe|U] ไม่เข้าใจคำใบ้ที่ว่าข้าไม่สนใจที่จะเต้นรำ และหลังจากหมุนตัวอย่างไม่เต็มใจสองสามรอบ ข้าก็ต้องขอให้ [owner.GetHerHim] ปล่อยข้าไป"
+ seduce_ongoing.1004.walk:0 "แม้ว่าการเดินเล่นในสวนจะ ทำให้สดชื่น แต่การพูดคุยของ [owner.GetFirstNamePossessive] ทำให้ข้าเบื่ออย่างยิ่ง\n\nในไม่ช้าข้าก็ขอตัว และหาทางกลับไปที่งานเต้นรำ"
+ seduce_ongoing.1004.food:0 "แม้ว่าข้าจะไม่คัดค้านการปรากฏตัวของ [owner.GetHerHis] แต่ตลอดทั้งเย็น [owner.GetSheHe] ก็ส่งคนรับใช้ไปหาอาหารจานแล้วจานเล่า ข้าอิ่มอย่างรวดเร็ว และขอตัวไปเต้นรำแทน"
+ seduce_ongoing.1004.mockery:0 "[target.GetSheHe|U] นั่งข้างข้า แสดงความคิดเห็นเกี่ยวกับแขกคนอื่นๆ\n\nไม่เพียง แต่โหดร้ายโดยไม่จำเป็นเท่านั้น แต่ยังหยาบคายและไร้ศิลปะโดยสิ้นเชิงอีกด้วย"
+ seduce_ongoing.1004.fallback:0 "[owner.GetSheHe|U] คอยเสนอวิธีใช้เวลาในงานเฉลิมฉลอง แต่ [owner.GetSheHe] ทำได้เพียงเท่านี้เมื่อ [owner.GetSheHe] เป็นเพื่อนร่วมทางที่น่าสะพรึงกลัวด้วยตัว [owner.GetHerselfHimself]"
+ seduce_ongoing.1004.a:0 "[owner.GetSheHe] กำลังคิดอะไรอยู่?"
+
+ seduce_ongoing.1005.dance:0 "[target.GetTitledFirstName] และข้าหมุนตัวไปทั่วฟลอร์เต้นรำด้วยกัน เป็นที่จับตามองขณะที่[target.GetSheHe] หัวเราะอย่างสุดหัวใจ[target.GetHerHis]"
+ seduce_ongoing.1005.walk:0 "[target.GetTitledFirstName] และข้าเดินเล่นในสวน พูดคุยกันสารพัดเรื่อง ในที่สุดเราก็รู้ตัวว่าต่างฝ่ายต่างลืมเวลาไปแล้ว และเมื่อเรากลับมา งานเต้นรำก็เริ่มเลิกราแล้ว"
+ seduce_ongoing.1005.food:0 "ข้าให้คนรับใช้นำอาหารมาเพิ่มให้ [target.GetTitledFirstName] และตัวข้า และเมื่อค่ำคืนผ่านไป เราก็เพลิดเพลินกับอาหารอร่อยทุกจานที่พ่อครัวแห่ง [court_of_residence.GetNameNoTier] มีให้ [target.GetWomanMan] ผู้นั้นมีรสนิยมในสิ่งดีๆ ในชีวิตอย่างแน่นอน"
+ seduce_ongoing.1005.mockery:0 "เรานั่งด้วยกัน เล่าเรื่องตลกเกี่ยวกับแขกคนอื่นๆ เรื่องแล้วเรื่องเล่า ข้าไม่คาดคิดว่า [target.GetTitledFirstName] จะมีทักษะในการล้อเลียน เช่นนี้!"
+ seduce_ongoing.1005.fallback:0 "[target.GetTitledFirstName] และข้าลงเอยด้วยความสนุกสนาน เราเต้นรำกันเกือบตลอดเวลาของการเฉลิมฉลอง!"
+ seduce_ongoing.1005.a:0 "ช่างเป็นค่ำคืนที่เรามี!"
+
+ seduce_ongoing.1006.dance:0 "ข้าคิดว่าข้าพร้อมแล้วเมื่อ [target.GetSheHe] ตกลงที่จะเต้นรำ แต่ถึงแม้ข้าจะจัดการตัวเองอย่างคล่องแคล่ว [target.GetTitledFirstName] ก็รีบขอตัวและทิ้งข้าให้ยืนอยู่ตามลำพังท่ามกลางนักเต้นคนอื่นๆ"
+ seduce_ongoing.1006.walk:0 "ข้าคิดว่าเป็นการเดินเล่นที่น่ารื่นรมย์ แต่บางทีอากาศอาจจะหนาวเกินไป หรือบางทีข้าอาจพูดมากเกินไป เพราะไม่นาน[target.GetSheHe] ก็กล่าวขอตัว[target.GetHerHis] และกลับไปยังงานเต้นรำ โดยไม่แม้ แต่จะรอว่าข้าจะตามไปด้วยหรือไม่\n\nเมื่อข้ากลับไปถึง [target.GetSheHe] ก็กำลังสนุกสนานอยู่กับนักเต้นคนอื่นๆ"
+ seduce_ongoing.1006.food:0 "บางทีอาจมีบางอย่างผิดปกติกับอาหารที่ข้าให้คนรับใช้นำออกมาให้[target.GetTitledFirstName]? แม้หลังจากที่[target.GetSheHe] กล่าวขอตัว[target.GetHerHis] ไปแล้ว อาหารก็ยังคงหลั่งไหลมาจากห้องครัว กองพะเนินขณะที่ข้านั่งเขี่ยมันอยู่เพียงลำพัง"
+ seduce_ongoing.1006.mockery:0 "ไม่ว่าข้าจะพยายามหนักแค่ไหน [target.GetTitledFirstName] ก็ไม่หัวเราะกับเรื่องตลกของข้า ในที่สุด [target.GetSheHe] ก็กล่าวหาว่าข้าโหดร้ายโดยไร้เหตุผล และทิ้งข้าให้นั่งอยู่ตามลำพัง"
+ seduce_ongoing.1006.fallback:0 "ข้าคอยเสนอวิธีที่เราจะใช้เวลาในงานเฉลิมฉลอง แต่ [target.GetTitledFirstName] ดูเหมือนจะไม่สนใจเลย ข้าทำอะไรผิดไปหรือ?"
+ seduce_ongoing.1006.a:0 "เรื่องนี้ไม่ค่อยดีนัก"
+
+ seduce_ongoing.successful.target:0 "\n\nแม้ว่าของขวัญจะไม่ระบุชื่อผู้ให้ แต่ [owner.GetTitledFirstName] ก็พยายามอย่างยิ่ง เพื่อให้แน่ใจว่าข้าจะรู้ว่า [owner.GetSheHe] เป็นผู้อยู่เบื้องหลัง"
+ seduce_ongoing.unsuccessful.target:0 "\n\nแม้ว่าของขวัญจะถูกส่งมาโดยไม่ระบุชื่อ แต่ก็ไม่ยากที่จะเข้าใจว่า [owner.GetTitledFirstName] เป็นผู้อยู่เบื้องหลัง..."
+ seduce_ongoing.target_successful.option:0 "[owner.GetSheHe|U] สมควรได้รับคำขอบคุณอย่างจริงใจจากข้า!"
+ seduce_ongoing.target_unsuccessful.option:0 "บางทีอาจมี #EMP ใครบางคน#! ที่จะชอบสิ่งนี้..."
+ 
+ seduce_ongoing.target.opening:0 "[target.Custom2('AppropriateGreeting', ROOT.Char)]"
+ seduce_ongoing.successful.owner:0 "ขอบคุณมากสำหรับ [SCOPE.Custom('SeductionGiftType')] ที่ท่านมอบให้ข้า ข้าแทบจำไม่ได้เลยว่าครั้งสุดท้ายที่ข้าได้รับของขวัญที่ยอดเยี่ยม เช่นนี้คือเมื่อใด!"
+ seduce_ongoing.unsuccessful.owner:0 "ข้าได้รับ [SCOPE.Custom('SeductionGiftType')] ที่ท่านส่งมา ข้า... ไม่แน่ใจถึงเหตุผลที่ท่านส่งของขวัญ เช่นนี้มาให้ข้า แต่ข้าได้รับทราบแล้ว"
+ seduce_ongoing.owner_successful.option:0 "ทุกสิ่งเพื่อท่าน [target.GetFirstNameNoTooltip]"
+ seduce_ongoing.owner_unsuccessful.option:0 "ข้าทำอะไรผิดไป?"
+
+ seduce_ongoing.1101.t:0 "ของราคาแพงบางอย่าง"
+ seduce_ongoing.1101.desc:0 "ของขวัญย่อมดึงดูดความสนใจของ [target.GetTitledFirstNamePossessive] ได้อย่างแน่นอน และแน่นอนว่าใครๆ ก็ย่อมชื่นชมของขวัญชั้นดีที่เห็นได้ชัดว่ามีราคาแพง"
+ seduce_ongoing.gift_selection.tapestry:0 "พรมแขวนผนัง แสดงภาพราชวงศ์ของ [target.GetHerHis]"
+ seduce_ongoing.gift_selection.tapestry_tt:0 "ข้าคิดว่า [target.GetTitledFirstName] คือ [target.GetWomanMan] ที่ความภักดีมีต่อครอบครัวและราชวงศ์ของ [target.GetHerHis]"
+ seduce_ongoing.gift_selection.horse:0 "ม้าพันธุ์แท้ย่อมเป็นที่ชื่นชม"
+ seduce_ongoing.gift_selection.horse_tt:0 "ข้าคิดว่า [target.GetTitledFirstName] คือผู้ที่ชื่นชมกิจกรรมและท้องฟ้าที่เปิดโล่ง"
+ seduce_ongoing.gift_selection.tailor:0 "ช่างตัดเสื้อเพื่อ แต่งกายให้ [target.GetHerHim] อย่างสมบูรณ์แบบ!"
+ seduce_ongoing.gift_selection.tailor_tt:0 "ข้าคิดว่า [target.GetTitledFirstName] ชื่นชมสไตล์และการสร้างความประทับใจ"
+ seduce_ongoing.gift_selection.decline:0 "บางทีอาจจะไม่"
+
+ seduce_ongoing.1102.t:0 "ของขวัญแห่งแรงงาน"
+ seduce_ongoing.1102.desc:0 "ทุกคนชื่นชมของขวัญ แต่บางทีข้าอาจจะคิดอะไรบางอย่างที่ไม่เหมือนใครอย่างแท้จริง ซึ่งจะสร้างความประทับใจอย่างแท้จริงให้กับ [target.GetTitledFirstName]!"
+ seduce_ongoing.gift_selection.embroidery:0 "งานปักลายตราประจำตระกูลของ [target.GetHerHis]"
+ seduce_ongoing.gift_selection.embroidery_tt:0 "ข้าคิดว่า [target.GetTitledFirstName] ใส่ใจในสถานะของครอบครัว [target.GetHerHis]"
+ seduce_ongoing.gift_selection.poem:0 "บทกวีที่ได้รับมอบหมายเกี่ยวกับความสุขของชีวิต อุทิศให้กับ [target.GetHerHim]"
+ seduce_ongoing.gift_selection.poem_tt:0 "ข้าคิดว่า [target.GetTitledFirstName] ชื่นชมความสุขทางกายภาพของชีวิต หรืออย่างน้อยก็บทกวี"
+ seduce_ongoing.gift_selection.woodcarving:0 "งานแกะสลักไม้รูปปราสาท!"
+ seduce_ongoing.gift_selection.woodcarving_tt:0 "ข้าคิดว่า [target.GetTitledFirstName] ชื่นชมสถาปัตยกรรม"
+ 
+ seduce_ongoing.1103.t:0 "เล็กน้อย แต่มีความหมาย"
+ seduce_ongoing.1103.desc:0 "ไม่ใช่ทุกของขวัญที่จะต้องเป็นการแสดงออกถึงความมั่งคั่งอย่างยิ่งใหญ่ สิ่งเล็กๆ น้อยๆ สามารถสร้างความประทับใจได้มากกว่า ตราบใดที่เลือกมาอย่างดี ข้าสงสัยว่า [target.GetTitledFirstName] จะชื่นชมอะไร"
+ seduce_ongoing.gift_selection.jewelry:0 "ล็อกเกตเงิน อยู่ใกล้หัวใจของ [target.GetHerHis] เสมอ"
+ seduce_ongoing.gift_selection.jewelry_tt:0 "ข้าคิดว่า [target.GetTitledFirstName] ชอบดึงดูดความสนใจของผู้คน — หรือเพียงแค่สิ่งที่ส่องประกาย"
+ seduce_ongoing.gift_selection.stuffed_animal:0 "สุนัขจิ้งจอกสตัฟฟ์คงจะแปลกตา..."
+ seduce_ongoing.gift_selection.stuffed_animal_tt:0 "ข้าคิดว่า [target.GetTitledFirstName] ชื่นชมสัญลักษณ์แห่งอำนาจ — เหนือชีวิต"
+ seduce_ongoing.gift_selection.flower_display:0 "การจัดแสดงดอกไม้ สำหรับสวนที่ [court_location.GetNameNoTierNoTooltip]"
+ seduce_ongoing.gift_selection.flower_display_tt:0 "ข้าคิดว่า [target.GetTitledFirstName] ชอบดูแลสิ่งต่างๆ หรืออย่างน้อยก็ชื่นชมความงาม"
+
+ seduce_ongoing.1104.t:0 "บางสิ่งที่แปลกตา"
+ seduce_ongoing.1104.desc:0 "ใครๆ ก็สามารถซื้อของขวัญแสดงความรักได้ ไม่ว่าจะเล็กหรือใหญ่ หากข้าต้องการสร้างความประทับใจให้ [target.GetTitledFirstName] ข้าควรส่งของที่พิเศษอย่างแท้จริงให้ [target.GetHerHim]"
+ seduce_ongoing.gift_selection.rare_book:0 "ข้าควรหาหนังสือหายากเป็นพิเศษให้ [target.GetHerHim]"
+ seduce_ongoing.gift_selection.rare_book_tt:0 "ข้าคิดว่า [target.GetTitledFirstName] ชอบความรู้ หรืออย่างน้อยก็วัตถุที่บรรจุความรู้นั้นไว้"
+ seduce_ongoing.gift_selection.handkerchief:0 "ผ้าเช็ดหน้าที่มีตราประจำตระกูลของข้า"
+ seduce_ongoing.gift_selection.handkerchief_tt:0 "ข้าคิดว่า [target.GetTitledFirstName] จะใช้สัญลักษณ์จากผู้มีสถานะ เช่นข้าได้เป็นอย่างดี"
+ seduce_ongoing.gift_selection.object:0 "[SCOPE.Custom('SeductionObjectIndefinite')|U] สิ่งเตือนใจถึงการพบกันครั้งแรกของเรา"
+ seduce_ongoing.gift_selection.object_tt:0 "ข้าคิดว่า [target.GetTitledFirstName] ใส่ใจข้าอยู่แล้ว ในทางใดทางหนึ่ง"
+
+ seduce_ongoing.1201.t:0 "ของขวัญที่เลือกสรรมาอย่างดี"
+ seduce_ongoing.1201.desc:0 "ข้าได้รับของขวัญ เป็นพรมแขวนผนังที่สวยงาม แสดงภาพฉากจากประวัติศาสตร์ราชวงศ์ของข้า และล้อมกรอบด้วยตราประจำตระกูลที่ทออย่างชำนาญ!"
+ seduce_ongoing.1201.a:0 "[owner.GetSheHe|U] สมควรได้รับคำขอบคุณอย่างจริงใจจากข้า!"
+
+ seduce_ongoing.1301.t:0 "ของขวัญประหลาด"
+ seduce_ongoing.1301.desc:0 "ข้าได้รับพรมแขวนผนัง ซึ่งตั้งใจจะแสดงภาพฉากจากประวัติศาสตร์ราชวงศ์ของข้า แต่รูปร่างหน้าตาดูแปลกประหลาด และไม่มีใครสามารถตีความได้อย่างแน่ชัดว่าเกิดอะไรขึ้นในฉากใดๆ"
+ seduce_ongoing.1301.a:0 "ขายมันเสีย อย่างน้อยก็ใช้เป็นผ้าห่มได้"
+
+ seduce_ongoing.1202.opening:0 "ข้าได้รับม้าตัวหนึ่ง พันธุ์ดีและได้รับการบำรุงเลี้ยง! สัตว์ร้ายอันงดงามนี้ดูสมบูรณ์แบบสำหรับการขี่ และ"
+ seduce_ongoing.1202.courtier:0 "ข้าจับได้ว่า [courtier.GetTitledFirstName] กำลังมองมันด้วยความอิจฉาแล้ว"
+ seduce_ongoing.1202.no_courtier:0 "มันมีผู้ชื่นชมหลายคนในราชสำนักแล้ว"
+
+ seduce_ongoing.1302.desc:0 "ข้าได้รับม้าตัวหนึ่ง ซึ่ง ทำให้ข้าสงสัยว่าคนอื่นคิดอย่างไรกับข้า พวกเขาคาดหวังว่าข้าจะขี่เจ้าแก่ผอมโซนั่นหรือ?"
+ seduce_ongoing.1302.a:0 "ข้าจะทำอะไรกับเจ้าล่อนี่ได้? ขายมันเสีย"
+
+ seduce_ongoing.1203.desc:0 "ช่างตัดเสื้อมาถึงราชสำนัก โดยเฉพาะเพื่อจัดหาเสื้อผ้าใหม่ๆ ที่ข้าอาจต้องการให้แก่ข้า บัดนี้เมื่องานของ [ROOT.Char.GetHerHis] เสร็จสิ้น ข้าต้องบอกว่า [ROOT.Char.GetSheHe] มีฝีมือมาก เช่นกัน!"
+ seduce_ongoing.1203.a:0 "ข้ารู้สึกยอดเยี่ยม!"
+
+ seduce_ongoing.1303.desc:0 "ช่างตัดเสื้อมาถึงราชสำนักเพื่อจัดหาเสื้อผ้าใหม่ๆ ที่ข้าอาจต้องการให้แก่ข้า [ROOT.Char.GetSheHe|U] ตกใจกลัวในไม่ช้ากับการกระทำผิดที่เกิดขึ้นเมื่อข้าสงสัยว่ามีอะไรผิดปกติกับเสื้อผ้าเก่าของข้า"
+ seduce_ongoing.1303.a:0 "อย่างน้อยข้าก็สามารถขายผ้าขี้ริ้วน่าเกลียดเหล่านี้ที่ [ROOT.Char.GetSheHe] พยายาม แต่งให้ข้าได้"
+
+ seduce_ongoing.1204.desc:0 "ข้าแทบไม่อยากเชื่อขณะที่ข้าแกะห่อหนังออก หนังสือเล่มหนาข้างในต้องมีอายุเป็นศตวรรษ หากไม่มากกว่านั้น เขียนอย่างระมัดระวัง ตก แต่งและปิดทองด้วยมือโบราณ"
+ seduce_ongoing.1204.a:0 "หนังสือเล่มนี้มีความมหัศจรรย์อะไรบ้าง?"
+
+ seduce_ongoing.1304.desc:0 "ข้าสับสนเล็กน้อยเมื่อเปิดห่อหนังเพื่อพบหนังสือเล่มหนาเก่าๆ ที่เต็มไปด้วยฝุ่น พลิกดูหน้าต่างๆ ข้าพบภาพประกอบสวยๆ สองสามภาพ แต่ข้าอ่านข้อความไม่ได้ด้วยซ้ำ"
+ seduce_ongoing.1304.a:0 "ข้าจะมีประโยชน์อะไรกับหนังสือเล่มนี้? ขายมันเสีย"
+
+ seduce_ongoing.1205.desc:0 "ข้าได้รับงานปักขนาดใหญ่ที่สวยงาม จำลองตราประจำตระกูลของข้าด้วยสีสันสดใส! มันจะเป็นของประดับที่สมบูรณ์แบบในห้องของข้า"
+ seduce_ongoing.1205.a:0 "ฝีมือของมันจะสร้างความประทับใจอย่างไม่ต้องสงสัย"
+
+ seduce_ongoing.1305.desc:0 "ข้าได้รับงานปักขนาดใหญ่ ซึ่งคาดว่าจะจำลองตราประจำตระกูลของข้า ข้าไม่แน่ใจว่าศิลปินใช้อะไรเป็นข้อมูลอ้างอิง อย่างไรก็ตาม เพราะข้าจำมันไม่ได้เลย บางทีคนอื่นอาจจะชอบมันมากกว่า..."
+ seduce_ongoing.1305.a:0 "มันอาจจะดีถ้าเป็นตราที่ถูกต้อง..."
+
+ seduce_ongoing.1206.desc:0 "กวีคนหนึ่งได้มาอยู่ต่อหน้าข้าเพื่อท่องบทประพันธ์เกี่ยวกับความสุขของชีวิต อุทิศให้กับ "[ROOT.Char.GetTitledFirstName] ผู้ [ROOT.Char.Custom('ComplimentAdjective')]!""
+ seduce_ongoing.1206.a:0 "ลมหายใจแห่งบทกวีอันสดชื่น!"
+
+ seduce_ongoing.1306.desc:0 "กวีคนหนึ่งได้มาอยู่ต่อหน้าข้าเพื่อท่องบทประพันธ์ยาวเหยียดเกี่ยวกับความสุขของชีวิต อุทิศให้กับ "[ROOT.Char.GetTitledFirstName] ผู้ [ROOT.Char.Custom('ComplimentAdjective')]" ความสุขของชีวิตไม่ได้ รวมถึงบทกวีนี้"
+
+ seduce_ongoing.1207.desc:0 "ข้าได้รับงานแกะสลักไม้รูปปราสาทขนาดเล็ก! แขกทุกคนที่แวะมาต่างชื่นชมในรายละเอียดและฝีมือที่จัดแสดง"
+ seduce_ongoing.1207.a:0 "ช่างเป็นสิ่งที่แปลกตา!"
+
+ seduce_ongoing.1307.desc:0 "ข้าได้รับงานแกะสลักไม้รูป... อาคารบางประเภท? โอ้— มันควรจะเป็นปราสาท! ควรจะเป็น"
+ seduce_ongoing.1307.a:0 "ข้าสงสัยว่ามันจะ ทำให้ไฟลุกได้นานแค่ไหน"
+
+ seduce_ongoing.1208.desc:0 "[owner.GetTitledFirstName] ได้ส่ง [SCOPE.Custom('SeductionObjectIndefinite')] มาให้ข้า ของที่ระลึกจากการพบกันครั้งแรกของเรา"
+ seduce_ongoing.1208.a:0 "[owner.GetSheHe] คิดว่าข้าจะลืมได้ลงคอหรือ?"
+
+ seduce_ongoing.1308.desc:0 "[owner.GetTitledFirstName] ได้ส่ง [SCOPE.Custom('SeductionObjectIndefinite')] มาให้ข้า ของที่ระลึกจากการพบกันครั้งแรกของเรา [owner.GetSheHe|U] ต้องมีความทรงจำที่ดีกว่าข้ามาก"
+
+ seduce_ongoing.1209.desc:0 "ข้าได้รับล็อกเกตเล็กๆ ชิ้นงานเงินที่สวยงาม แม้ว่าข้าจะสงสัยว่าข้างในมีอะไร แต่สิ่งที่สำคัญกว่าคือคนอื่นจะซุบซิบเกี่ยวกับสิ่งที่อาจบรรจุอยู่ข้างใน"
+ seduce_ongoing.1209.a:0 "บางทีใครสักคนอาจช่วยข้าเปิดมันได้ สักวันหนึ่ง?"
+
+ seduce_ongoing.1309.desc:0 "ข้าได้รับล็อกเกตเล็กๆ และในตอนแรกข้าไม่รู้ว่าก้อนที่ไม่ขัดเงาเล็กๆ นั้นเป็นเงินจริงๆ มันเปิดไม่ได้ด้วย ดังนั้นข้าจึงเห็นประโยชน์น้อยนิดสำหรับมัน"
+ seduce_ongoing.1309.a:0 "ทำไมใครบางคนถึงคิดว่าข้าจะต้องการสิ่งนี้?"
+
+ seduce_ongoing.1210.desc:0 "มันแปลกตา นั่นเป็นเรื่องจริง แต่มีบางอย่างที่น่าดึงดูดใจเกี่ยวกับสุนัขจิ้งจอกสตัฟฟ์ที่วางอยู่ตรงหน้าข้า บางทีอาจเป็นเสียงคำรามที่แข็งทื่อและดุร้ายบนริมฝีปากของมัน?"
+ seduce_ongoing.1210.a:0 "ไม่ธรรมดา แต่ก็ไม่น่ารังเกียจ"
+
+ seduce_ongoing.1310.desc:0 ""เอาของนั่นไปให้พ้นจากข้า!" สุนัขจิ้งจอกสตัฟฟ์มีเสียงคำรามที่น่าขยะแขยงบนริมฝีปาก แยกเขี้ยวที่ดุร้ายใส่ข้า"
+ seduce_ongoing.1310.a:0 "ใครจะชอบของขวัญแบบนี้กัน?!"
+
+ seduce_ongoing.1211.desc:0 "การจัดแสดงดอกไม้นั้นน่าทึ่ง และตั้งแต่ชาวนาปลูกเสร็จในสวน การเดินเล่นที่นั่นก็ได้รับความนิยมมากขึ้น"
+ seduce_ongoing.1211.a:0 "ข้าไม่รู้ว่าความงามแบบนี้จะสัมผัสใจข้าได้ถึงเพียงนี้"
+
+ seduce_ongoing.1311.desc:0 ""เช่นนั้นแล้ว [ROOT.Char.Custom('FormOfAddressForLiege')] ก็ไม่ประสงค์ให้พวกข้าปลูกมันดอกหรือขอรับ?" เหล่าไพร่ยืนอยู่เบื้องหน้าข้า ดินร่วงหกจากลังบนคานหาบ ดอกไม้ที่พวกเขานำมานั้นดูเหี่ยวเฉาและชอกช้ำ"
+ seduce_ongoing.1311.a:0 "ข้าไม่ต้องการสิ่งเหล่านั้นใกล้สวนเลย"
+
+ seduce_ongoing.1212.desc:0 "[owner.GetTitledFirstName] ได้ส่งของขวัญมาให้ข้า ผ้าเช็ดหน้าที่มีตราประจำตระกูล [owner.GetDynasty.GetBaseName] อยู่บนนั้น\n\nมันน่าสนใจอย่างแน่นอนที่จะได้เห็นปฏิกิริยาของผู้อื่นเมื่อข้าแสดงตราสัญลักษณ์ของ [owner.GetTitlePossessive] อย่างโจ่งแจ้ง เช่นนี้"
+ seduce_ongoing.1212.a:0 "มันแน่ใจว่าจะทิ้งความประทับใจไม่ทางใดก็ทางหนึ่ง"
+
+ seduce_ongoing.1312.desc:0 "[owner.GetTitledFirstName] ได้ส่งของขวัญมาให้ข้า ผ้าเช็ดหน้าที่มีตราประจำตระกูล [owner.GetDynasty.GetBaseName] อยู่บนนั้น\n\nหาก [owner.GetSheHe] คิดว่าข้าจะแสดงตราสัญลักษณ์ของ [owner.GetHerHis] ในที่สาธารณะ [owner.GetSheHe] คิดผิดอย่างมหันต์!"
+
+ seduce_ongoing.1801.t:0 "[ROOT.Char.Custom('MistressMaster')|U] แห่งถ้อยคำ"
+ seduce_ongoing.1801.start.desc:0 "ในฐานะผู้ศึกษาศิลปะการทูต ข้าตระหนักดีถึงพลังของคำชมอันคมคาย การแสดงความชื่นชมในคุณสมบัติที่ดีที่สุดของ [target.GetWomanMan] คือหนทางที่แน่นอนสู่หัวใจของ [target.GetHerHis]\n\n"
+ seduce_ongoing.1801.close.desc:0 "ครั้งต่อไปที่เราพบกัน ข้าจะชมเชย [target.GetFirstNamePossessive]..."
+ seduce_ongoing.1801.distant.desc:0 "ข้าจะเขียนจดหมายถึง [target.GetFirstName] ชมเชย [target.GetHerHis]..."
+
+ seduce_ongoing.1801.compassionate:0 "หัวใจอันอบอุ่นและอ่อนโยน"
+ seduce_ongoing.1801.bold:0 "จิตวิญญาณอันกล้าหาญและไร้พันธนาการ"
+ seduce_ongoing.1801.honorable:0 "ธรรมชาติอันสูงส่งและภักดี"
+ seduce_ongoing.1801.greed:0 "ความทะเยอทะยานและความกระหายในชีวิต"
+ seduce_ongoing.1801.rational:0 "จิตใจอันมีเหตุผลและหลักแหลม"
+ seduce_ongoing.1801.zealous:0 "ความศรัทธาและความเชื่อมั่นอันไม่สั่นคลอน"
+ seduce_ongoing.1801.energetic:0 "ความเป็นธรรมชาติและความกระฉับกระเฉง"
+ seduce_ongoing.1801.forgiving:0 "ธรรมชาติแห่งการให้อภัย"
+ seduce_ongoing.1801.beautiful_male:0 "รูปลักษณ์หล่อเหลาโดดเด่น"
+ seduce_ongoing.1801.beautiful_female:0 "ความงามอันหาที่เปรียบมิได้และน่าทึ่ง"
+ seduce_ongoing.1801.strong:0 "รูปร่างทางกายภาพที่น่าประทับใจ"
+ seduce_ongoing.1801.extroverted:0 "เสน่ห์อันต้านทานไม่ได้"
+ seduce_ongoing.1801.dominant:0 "การแสดงตนที่แน่วแน่และทรงพลัง"
+ seduce_ongoing.1801.compliment.tt:0 "#F คำชมจะได้รับการตอบรับจาก [target.GetTitledFirstName] ดีเพียงใด ขึ้นอยู่กับว่ามันเหมาะสมกับ [target.GetHerHim] เพียงใด#!"
+ 
+ seduce_ongoing.1802.t:0 "ถ้อยคำอันไพเราะ"
+ seduce_ongoing.1802.close.desc:0 "ขณะที่ข้าเดินเตร่ในสวนด้วยความครุ่นคิดอย่างเงียบๆ จิตใจล่องลอยไปไกล ข้าเกือบจะเดินชน [owner.GetTitledFirstName] เข้าอย่างจัง ก่อนที่ข้าจะตั้งสติได้ [owner.GetSheHe] ก็ขออภัย โดยกล่าวว่า [owner.GetSheHe] ไม่เคยตั้งใจจะรบกวน [target.Custom('LadyLordWomanMan')] ผู้มี"
+ seduce_ongoing.1802.distant.desc:0 "ข้าได้รับจดหมายที่น่าสนใจจาก [owner.GetTitledFirstName] แทรกอยู่ในคำถามและเกร็ดเล็กเกร็ดน้อยตามปกติคือคำชมเชยที่ละเอียดอ่อน แต่ชัดเจนเกี่ยวกับ"
+ seduce_ongoing.1802.compassionate.desc:0 ""ความเมตตาอันอ่อนโยน""
+ seduce_ongoing.1802.bold.desc:0 ""ความกล้าหาญอันมีชีวิตชีวา""
+ seduce_ongoing.1802.honorable.desc:0 ""ศีลธรรมอันสูงส่ง""
+ seduce_ongoing.1802.greed.desc:0 ""ความทะเยอทะยานอันสูงส่ง""
+ seduce_ongoing.1802.rational.desc:0 ""ความสุขุมเยือกเย็นอันเป็นเอกลักษณ์""
+ seduce_ongoing.1802.zealous.desc:0 ""ศรัทธาอันน่าชื่นชม""
+ seduce_ongoing.1802.energetic.desc:0 ""พลังงานอันมีชีวิตชีวา""
+ seduce_ongoing.1802.forgiving.desc:0 ""ความเมตตาอันยิ่งใหญ่""
+ seduce_ongoing.1802.beautiful_male.desc:0 ""รูปลักษณ์อันโดดเด่น""
+ seduce_ongoing.1802.beautiful_female.desc:0 ""ความงามอันเป็นแรงบันดาลใจ""
+ seduce_ongoing.1802.strong.desc:0 ""ความแข็งแกร่งทางกายภาพ""
+ seduce_ongoing.1802.extroverted.desc:0 ""เสน่ห์อันต้านทานไม่ได้""
+ seduce_ongoing.1802.dominant.desc:0 ""พลังงานอันแน่วแน่""
+ seduce_ongoing.1802.good.desc:0 "\n\nถ้อยคำของ [owner.GetHerHis|U] เผยให้เห็นถึงระดับความเอาใจใส่อันเปี่ยมด้วยความรัก ซึ่ง ทำให้ข้าประหลาดใจ"
+ seduce_ongoing.1802.neutral.desc:0 "\n\nถ้อยคำของ [owner.GetHerHis|U] ไม่ค่อยสมเหตุสมผลนัก แต่ท่าทางนั้นแสดงถึงความเมตตา ข้าคิดว่า"
+ seduce_ongoing.1802.bad.desc:0 "\n\nข้าสงสัยว่า [owner.GetSheHe] มีเจตนาดี แต่ฟังดูเหมือนเป็นการประชดประชันที่ปิดบังไว้อย่างบางเบาสำหรับข้า"
+ seduce_ongoing.1802.a.good:0 "[owner.GetTitledFirstNameNoTooltip]... ท่านช่างยกยอข้า!"
+ seduce_ongoing.1802.a.bad:0 "ค่อนข้างไม่รู้เรื่อง แต่ส่วนใหญ่ก็น่ารัก"
+ seduce_ongoing.1802.b.good:0 "ท่านควรพยายามให้หนักขึ้นในครั้งต่อไป"
+ seduce_ongoing.1802.b.bad:0 "ช่างน่าอาย..."
+ seduce_ongoing.1802.c:0 "ข้าไม่สนใจความเอาใจใส่เหล่านี้!"
+
+ seduce_ongoing.1601.t:1 "การอ่านใน [location.GetNameNoTooltip]"
+ seduce_ongoing.1601.t_no_location:0 "การอ่าน"
+ seduce_ongoing.1601.desc:0 "งานเฉลิมฉลองสิ้นสุดลงและความบันเทิงยามเย็นดูเหมือนจะจบลงแล้ว เมื่อ [target.GetTitledFirstName] เสนอให้อ่านหนังสือ\n\nเสมียนคนหนึ่งมาถึงในไม่ช้า สงสัยว่าแขกต้องการฟังอะไร และข้าเห็นโอกาสที่จะสร้างความประทับใจให้ [target.GetFirstName]"
+ seduce_ongoing.1601.a:0 "บางสิ่งที่เคร่งศาสนา เช่น [SCOPE.Custom('RandomReligiousTextName')]"
+ seduce_ongoing.1601.a.tt:0 "ข้าคิดว่า [target.GetSheHe] ต้องการฟังเกี่ยวกับศาสนา"
+ seduce_ongoing.1601.b:0 "มาสนุกกันเถอะ [SCOPE.Custom('RandomEntertainmentTextName')|U]!"
+ seduce_ongoing.1601.b.tt:0 "ข้าคิดว่า [target.GetSheHe] ต้องการฟังบางสิ่งที่ให้ความบันเทิง"
+ seduce_ongoing.1601.c:0 "[SCOPE.Custom('RandomInformativeTextName')|U] จะให้โอกาสเราได้เรียนรู้"
+ seduce_ongoing.1601.c.tt:0 "ข้าคิดว่า [target.GetSheHe] ต้องการฟังบางสิ่งที่ให้ข้อมูล"
+
+ seduce_ongoing.1603.desc:0 "ดูเหมือนจะเป็นค่ำคืนที่น่าเบื่อเมื่อความบันเทิงของงานเลี้ยงสิ้นสุดลง แต่ [owner.GetTitledFirstName] ช่วยสถานการณ์ไว้ได้โดยเสนอให้อ่านจาก [SCOPE.Custom('BookInQuestion')]!"
+ seduce_ongoing.1603.a:0 "ข้าก็รักเรื่องนั้น เช่นกัน!"
+
+ seduce_ongoing.1604.desc:0 "ขณะที่เสมียนอ่านให้เราฟัง [target.GetFirstName] ดูเหมือนจะจดจ่ออย่างสมบูรณ์\n\n[target.GetSheHe|U] เข้ามาหาข้าในภายหลัง "เป็นทางเลือกที่ดี [ROOT.Char.GetFirstName]" [target.GetSheHe] กล่าวและ [target.Custom('quirk_pos_present')]"
+ seduce_ongoing.1604.a:0 "มันยอดเยี่ยมมาก ใช่ไหม?"
+
+ seduce_ongoing.1605.desc_1:0 "งานเลี้ยงที่น่าเบื่อยิ่งแย่ลงไปอีกเมื่อ [owner.GetTitledFirstName] เสนอให้อ่านจาก [SCOPE.Custom('BookInQuestion')]"
+ seduce_ongoing.1605.desc_2:0 "โชคดีที่ [other_guest.GetTitledFirstName] เสนอให้อ่าน [SCOPE.Custom('GoodBookSuggestion')] แทนในไม่ช้า!"
+ seduce_ongoing.1605.desc_no_other_guest:0 "โชคดีที่ผู้ดูแลคนหนึ่งเสนอให้อ่าน [SCOPE.Custom('GoodBookSuggestion')] แทนในไม่ช้า!"
+ seduce_ongoing.1605.a:0 "เป็นทางเลือกที่ดีกว่ามาก!"
+
+ seduce_ongoing.1606.desc_1:0 "ขณะที่เสมียนอ่านไปเรื่อยๆ ข้าบอกได้ว่าความสนใจของ [target.GetFirstNamePossessive] กำลังลดลง"
+ seduce_ongoing.1606.desc_2:0 "\n\nขณะที่ข้ากำลังคิดหาวิธีแก้ไขสถานการณ์ [other_guest.Custom2('MyCharacterIntroduction', ROOT.Char)] ก็พูดแทรกขึ้นมาทันทีและถามว่า "ข้าขอเสนออย่างนอบน้อมให้เราอ่าน [SCOPE.Custom('GoodBookSuggestion')] แทนได้หรือไม่?" และ "
+ seduce_ongoing.1606.desc_3:0 "[target.GetFirstName] ก็ตื่นตัวขึ้นทันทีด้วยความสนใจครั้งใหม่"
+ seduce_ongoing.1606.desc_no_other_guest:0 "ผู้ดูแลคนหนึ่งพูดแทรกขึ้นมาทันที "ข้าขอเสนออย่างนอบน้อมให้เราอ่าน [SCOPE.Custom('GoodBookSuggestion')] แทนได้หรือไม่?""
+ seduce_ongoing.1606.a:0 "ทำไมข้าถึงคิดเรื่องนั้นไม่ออก?"
+
+ seduce_ongoing.1701.t:0 "การพบปะ"
+ seduce_ongoing.1701.desc:0 "ข้าแน่ใจว่าจะผ่าน [court_of_residence.GetNameNoTier] ในวันที่มีการฝึกซ้อมประลองทวน ข้าราชการของ [target.GetTitledFirstNamePossessive] กำลังเดินไปมา สั่งสอน [target.Custom('MountedWarriorTermPlural')] หนุ่ม และข้าพบ [target.GetFirstName] เดินอยู่ท่ามกลางพวกเขา\n\nไม่ว่าเจตนาของข้าจะเป็นอย่างไร ความสนใจของ [target.GetHerHis] ก็อยู่ที่หน้าที่ของ [target.GetHerHis] ในฐานะ [target.GetLadyLord|U] ของทหารเหล่านี้อย่างชัดเจน"
+ seduce_ongoing.1701.a:0 "เรามาแสดงการประลองทวนจำลองให้มือใหม่เหล่านี้ดูเป็นอย่างไร?"
+ seduce_ongoing.1701.a.tt:0 "#F ดึงดูดด้านกระตือรือร้นหรือขี้เล่นของ [target.GetFirstNamePossessiveNoTooltip]#!"
+ seduce_ongoing.1701.b:0 "ไปเดินเล่นบนเชิงเทิน เพื่อหารือเกี่ยวกับกลยุทธ์กันเถอะ"
+ seduce_ongoing.1701.b.tt:0 "#F ดึงดูดด้านช่างคิดของ [target.GetFirstNamePossessiveNoTooltip]#!"
+ seduce_ongoing.1701.c:0 "ข้าต้องการฟังทั้งหมดเกี่ยวกับแผนการของท่านสำหรับฤดูเก็บภาษี"
+ seduce_ongoing.1701.c.tt:0 "#F ดึงดูดด้านประหยัดของ [target.GetFirstNamePossessiveNoTooltip]#!"
+ seduce_ongoing.1701.d:0 "หนึ่งใน "[target.Custom('MountedWarriorTermPlural')]" เหล่านี้อาจถูก ทำให้ดูเป็นคนโง่จริงๆ..."
+ seduce_ongoing.1701.d.tt:0 "#F ดึงดูดด้านมุ่งร้ายของ [target.GetFirstNamePossessiveNoTooltip]#!"
+
+ seduce_ongoing.1703.opening:0 "ข้าประหลาดใจที่ [owner.GetTitledFirstName] มาที่การฝึกซ้อมประลองทวนสำหรับ [target.Custom('MountedWarriorTermPlural')] หนุ่มใน [court_of_residence.GetNameNoTier]"
+ seduce_ongoing.1703.duel:0 "\n\n[owner.GetSheHe|U] ท้าข้าประลองทวนจำลอง และเราก็แสดงได้อย่างยอดเยี่ยมสำหรับนักรบมือใหม่ การประลองกลายเป็นการพยายามอย่างเข้มข้นอย่างรวดเร็ว แต่ในตอนท้ายของวัน เราก็สวมกอดกัน และรู้สึกดีขึ้นสำหรับความพยายามของเรา"
+ seduce_ongoing.1703.strategy:0 "\n\nเราเดินบนเชิงเทิน หารือเกี่ยวกับกลยุทธ์อย่างละเอียดขณะเฝ้าดูนักรบมือใหม่ในลานด้านล่าง [owner.GetFirstName] มีประเด็นที่ลึกซึ้ง และข้าขอบคุณ [owner.GetHerHim] ที่ ทำให้ข้าคิดทบทวนข้อสันนิษฐานบางอย่างเกี่ยวกับทหารใหม่ของข้า การสนทนาของเราที่มีการออกนอกเรื่องหลายครั้งก็น่าสนใจมาก เช่นกัน..."
+ seduce_ongoing.1703.tax_season:0 "\n\nแม้ว่าการพบปะจะจำเป็น แต่ข้าก็มีช่วงเวลาที่ดีกว่ามากในการนั่งข้างใน หารือเกี่ยวกับแผนการของข้าสำหรับฤดูเก็บภาษีที่กำลังจะมาถึงกับ [owner.GetFirstName] กองทัพจะมีประโยชน์อะไร หากไม่มีหนทางที่จะเลี้ยงดูมัน ดังที่ [owner.GetSheHe] ชี้ให้เห็น"
+ seduce_ongoing.1703.trap:0 "\n\nการเฝ้าดูนักรบมือใหม่เป็นสิ่งจำเป็น แต่น่าเบื่อ ดังนั้นข้าจึงรู้สึกขอบคุณเมื่อ [owner.GetFirstName] เสนอสิ่งเบี่ยงเบนความสนใจเล็กๆ น้อยๆ ที่สนุกสนาน การให้เด็กรับใช้เทเลือดหมูลงบนพื้นหลังถาด ทำให้าที่ฝึกมาไม่ดีบางตัวเกิดความกลัวอย่างบ้าคลั่ง และผู้ขี่หลายคนถูกโยนลงพื้น ในขณะที่คนอื่นๆ พยายามเกาะไว้!"
+ seduce_ongoing.1703.fallback:0 "\n\nแม้ว่าการเฝ้าดูนักรบมือใหม่มักจะน่าเบื่อ แต่ [owner.GetFirstName] ทำให้ทั้งวันผ่านไปในชั่วพริบตา"
+ seduce_ongoing.1703.a:1 "ข้าต้องขอบคุณ [owner.GetFirstNameNoTooltip] สำหรับการมาเยือนของ[owner.GetHerHis]"
+
+ seduce_ongoing.1704.duel:0 "\n\n[owner.GetSheHe|U] ยืนกรานที่จะประลองทวนจำลองต่อหน้านักรบมือใหม่ แต่ข้าจะไม่ ทำให้ตัวเองอับอาย เช่นนั้น [owner.GetFirstName] ดูหดหู่ แต่ข้ามีเรื่องที่ดีกว่าที่จะใช้เวลาไปกับการปลอบโยน [owner.GetHerHim]"
+ seduce_ongoing.1704.strategy:0 "\n\n[owner.GetSheHe|U] ชวนข้าเดินบนเชิงเทิน เพื่อหารือเกี่ยวกับแนวคิดสำหรับกลยุทธ์ แต่ข้าพบว่าตัวเองต้องปฏิเสธข้อเสนอแนะที่ไม่ดีข้อแล้วข้อเล่า บางที [owner.GetFirstName] ควรอยู่กับเรื่องที่ [owner.GetSheHe] รู้อะไรบ้าง..."
+ seduce_ongoing.1704.tax_season:0 "\n\nแม้ว่าข้าจะยุ่งอยู่กับนักรบมือใหม่อย่างเห็นได้ชัด [owner.GetSheHe] ก็ยืนกรานที่จะหารือเกี่ยวกับแผนการของข้าสำหรับฤดูเก็บภาษีครั้งต่อไป ในที่สุดข้าก็ต้องทิ้ง [owner.GetHerHim] ไว้ตามลำพัง [owner.GetHerselfHimself] เพื่อที่ข้าจะได้ดูแลเรื่องที่สำคัญจริงๆ"
+ seduce_ongoing.1704.trap:0 "\n\nข้าประหลาดใจมากที่ [owner.GetSheHe] เสนอให้เราวางแผนการอันซับซ้อนเพื่อสร้างความโกลาหลในหมู่ [target.Custom('MountedWarriorTermPlural')] มือใหม่ [owner.GetSheHe] ไม่รู้หรือว่านั่นเป็นสิ่งสุดท้ายที่ข้าต้องการ?"
+ seduce_ongoing.1704.fallback:0 "\n\n[owner.GetFirstName] ต้องการใช้เวลาในการมาเยือน[owner.GetHerHis] เพื่อสนทนา ราวกับว่า[owner.GetSheHe] ไม่ตระหนักว่าวันนี้เป็นวันที่ข้ายุ่งมาก"
+ seduce_ongoing.1704.a:0 "เกิดอะไรขึ้นกับ [owner.GetTitledFirstNameNoTooltip]?"
+
+ seduce_ongoing.1705.duel:0 "การประลองทวนจำลองกลายเป็นความสำเร็จอย่างยิ่งใหญ่กับ [target.Custom('MountedWarriorTermPlural')] มือใหม่!\n\n[target.GetTitledFirstName] ดูเหมือนจะสนุกกับ [target.GetHerselfHimself] เช่นกัน และหลังจากการ "ต่อสู้" อันเข้มข้นของเรา เราก็สวมกอดกันอย่างให้กำลังใจ รู้สึกดีขึ้นสำหรับความพยายามของเรา"
+ seduce_ongoing.1705.strategy:0 "ขณะเดินบนเชิงเทิน [target.GetTitledFirstName] และข้าได้แบ่งปันความคิดมากมายเกี่ยวกับวิธีที่ดีที่สุดในการใช้นักรบมือใหม่ เช่นเดียวกับพวกที่อยู่ในลานด้านล่าง\n\nเมื่อสิ้นสุดวัน ข้าบอกได้ว่า [target.GetSheHe] รู้สึกพอใจกับการสนทนาของเรา เช่นเดียวกับข้า แม้ว่าการสนทนาของเราจะมีการออกนอกเรื่องหลายครั้ง — หรืออาจเป็น เพราะเหตุนั้น"
+ seduce_ongoing.1705.tax_season:0 "[target.GetFirstName] และข้าใช้เวลาส่วนใหญ่ของวันหารือเกี่ยวกับแผนการของเราสำหรับฤดูเก็บภาษีครั้งต่อไป ท้ายที่สุด กองทัพจะมีประโยชน์อะไรหากท่านไม่สามารถเลี้ยงดูมันได้? [target.GetSheHe|U] หัวเราะอย่างดังกับเรื่องนั้น\n\nมีเสียงหัวเราะมากขึ้นเมื่อเราทั้งคู่พบว่าตัวเองจมอยู่กับการสนทนามากมายของเรา"
+ seduce_ongoing.1705.trap:0 "หลังจากนั้นไม่นาน ข้าก็เสนอสิ่งเบี่ยงเบนความสนใจเล็กๆ น้อยๆ ที่สนุกสนานจากการเฝ้าดูนักรบมือใหม่ เด็กรับใช้เทเลือดหมูลงข้างรางน้ำ และกลิ่นนั้น ทำให้ม้าที่ฝึกมาไม่ดีบางตัวเกิดความกลัวอย่างมาก [target.Custom('MountedWarriorTermPlural')] หนุ่มหลายคนถูกโยนลงมา และคนอื่นๆ แทบจะเกาะไว้ไม่อยู่\n\n[target.GetFirstName] หัวเราะเสียงดังกับฉากที่ข้าปรุง แต่งขึ้น"
+ seduce_ongoing.1705.fallback:0 "เมื่อสิ้นสุดการมาเยือนของข้า [target.GetTitledFirstName] ดูพอใจ "การเฝ้าดูมือใหม่ปกติจะน่าเบื่อ แต่วันนี้ผ่านไปในพริบตา!""
+ seduce_ongoing.1705.a:0 "[target.GetSheHe|U] จะต้องจดจำวันนี้ได้อย่างแน่นอน"
+
+ seduce_ongoing.1706.duel:0 "[target.GetTitledFirstName] เพียงแค่หัวเราะเยาะข้อเสนอของข้าในการประลองทวนจำลอง "ไม่จำเป็นต้องให้ใครมา ทำให้ตัวเองอับอาย เช่นนั้นต่อหน้า [target.Custom('MountedWarriorTermPlural')] หนุ่มเหล่านี้!"\n\nข้าใช้เวลาที่เหลือของวันพยายามคิดว่า [target.GetSheHe] หมายถึง [target.GetHerHim] หรือข้า"
+ seduce_ongoing.1706.strategy:0 "[target.GetTitledFirstName] และข้าเดินบนเชิงเทิน ขณะที่ข้าพยายามเสนอคำแนะนำเชิงกลยุทธ์ [target.GetSheHe|U] ดูเหมือนจะไม่อยู่ในอารมณ์ที่จะฟัง อย่างไรก็ตาม สิ่งใดก็ตามที่ข้าคิดขึ้นมาล้วนเต็มไปด้วยจุดอ่อน ตามคำกล่าวของ [target.GetFirstName] และเห็นได้ชัดว่าความสนใจของ [target.GetHerHis] อยู่ที่ลานด้านล่างมากกว่าข้า"
+ seduce_ongoing.1706.tax_season:0 "ข้าพยายามหารือเกี่ยวกับฤดูเก็บภาษีที่กำลังจะมาถึง และวิธีที่จะ ทำให้แน่ใจว่า [target.GetFirstName] จะมีหนทางที่จะเลี้ยงดูกองทัพของ [target.GetHerHis] น่าเสียดายที่ความคิดของ [target.GetFirstNamePossessive] อยู่ที่อื่น และ [target.GetSheHe] ก็รีบทิ้งข้าไว้ข้างหลังเพื่อมุ่งความสนใจไปที่นักรบมือใหม่"
+ seduce_ongoing.1706.trap:0 "เมื่อข้าเสนอให้เราเล่นตลกกับ [target.Custom('MountedWarriorTermPlural')] ที่กำลังฝึกซ้อม [target.GetFirstName] เพียงแค่มองข้าด้วยความตกใจ\n\n"เลือดหมูและม้าอาละวาด? ท่าน #EMP บ้า#! ไปแล้วหรือ [ROOT.Char.GetWomanMan]?""
+ seduce_ongoing.1706.fallback:0 "ข้าพยายามพูดคุยกับ [target.GetTitledFirstName] ตลอดทั้งวัน แต่ก็มีบางอย่างเกี่ยวกับการพบปะที่เรียกร้องความสนใจของ [target.GetHerHis] เสมอ ในที่สุดข้าก็ไม่สามารถดึงดูดความสนใจของ [target.GetHerHis] ได้นานกว่าชั่วขณะ และข้ารู้สึกเหมือนเป็นส่วนเกินมากกว่าสิ่งอื่นใด"
+ seduce_ongoing.1706.a:0 "ข้าหวังว่า [target.GetFirstNameNoTooltip] จะลืมวันนี้ไปโดยเร็ว"
+
+ seduce_ongoing.2001.t:0 "ยาเสน่ห์"
+ seduce_ongoing.2001.desc:0 "คนรับใช้คนหนึ่งของข้าได้ยาเสน่ห์มาจาก [dummy_gender.GetWomanMan] แก่คนหนึ่งที่งานเทศกาล แต่กล่าวว่ามันไม่ได้นำโชคมาให้ [dummy_gender.GetHerHim] เลย\n\nขณะที่ข้าถือขวดเล็กๆ ในมือ ข้าอดไม่ได้ที่จะนึกถึง [target.GetTitledFirstName] และสงสัยว่าบางทีโชคของข้าอาจจะแตกต่างออกไป"
+ seduce_ongoing.2001.a:0 "[target.GetSheHe|U] จะต้องพบว่ามันสนุกอย่างไม่ต้องสงสัย!"
+ seduce_ongoing.2001.b:0 "[target.GetFirstNameNoTooltip] คงชอบที่จะล้อเลียนความเชื่องมงาย เช่นนี้"
+ seduce_ongoing.2001.c:0 "ข้าไม่มีเวลาสำหรับยาเสน่ห์ไร้สาระ"
+ seduce_ongoing.2001.c.tt:0 "#F ข้าต้องการโอกาสที่ดีกว่านี้ในการแสดงความรักของข้า!#!"
+
+
+ seduce_ongoing.2002.desc:0 "[owner.GetTitledFirstName] มอบ "ยาเสน่ห์" ให้ข้า ซึ่ง [owner.GetSheHe] ได้มาจากงานเทศกาล เราเทบางส่วนลงในไวน์ของเราและมีค่ำคืนที่สนุกสนานแสร้งทำเป็นว่ามันส่งผลกระทบต่อเรา และในตอนท้าย เส้นแบ่งระหว่างสิ่งที่เราแสร้งทำกับสิ่งที่เป็นจริงก็เริ่มเลือนลางไปเล็กน้อย"
+ seduce_ongoing.2002.a:0 "ช่างเป็นการเบี่ยงเบนความสนใจที่สนุกสนาน!"
+
+ seduce_ongoing.2003.desc:0 "[target.GetFirstName] และข้าดื่ม "ยาเสน่ห์" ด้วยกันพร้อมกับไวน์เล็กน้อยและใช้เวลาช่วงเย็นแสร้งทำเป็นว่ามันส่งผลกระทบต่อเรา\n\nมันเป็นความสนุกสนานที่ไร้เดียงสาเล็กน้อย แต่ร่องรอยของความรักก็ชัดเจนในรอยยิ้มของ [target.GetHerHis] ขณะที่ [target.GetSheHe] กล่าวลาข้า"
+ seduce_ongoing.2003.a:0 "เป็นเวลาที่ใช้ร่วมกันอย่างคุ้มค่า"
+
+ seduce_ongoing.2004.desc:0 "เพื่อความสนุกสนานเล็กน้อย [owner.GetTitledFirstName] ท้าให้ข้าดื่ม "ยาเสน่ห์" ที่ [owner.GetSheHe] ได้มาจากงานเทศกาล เมื่อข้าปฏิเสธที่จะดื่มสิ่งที่ข้าไม่รู้ส่วนผสม [owner.GetSheHe] ดูเหมือนจะอารมณ์เสียเล็กน้อย! ในไม่ช้าข้าก็ขอให้ [owner.GetHerHim] ขอตัว [owner.GetHerselfHimself] เพื่อที่ข้าจะได้เข้านอน แต่หัวค่ำ"
+ seduce_ongoing.2004.a:0 "เกิดอะไรขึ้นกับ [owner.GetHerHim]?"
+
+ seduce_ongoing.2005.desc:0 "[target.GetFirstName] ปฏิเสธ "ยาเสน่ห์" แล้วสงสัยว่าข้ากำลังพยายามทำอะไรกันแน่ ข้าหลุดไปเล็กน้อย พยายามอธิบายว่าทั้งหมดนี้เพื่อความสนุกสนาน แล้ว [target.GetSheHe] ก็ขอให้ข้าจากไป"
+ seduce_ongoing.2005.a:0 "นี่เป็นเรื่องโชคร้าย"
+
+ seduce_ongoing.2006.t:0 ""ยาเสน่ห์""
+ seduce_ongoing.2006.desc:0 "[owner.GetTitledFirstName] นำยาเสน่ห์ที่ [owner.GetSheHe] ได้มาจากงานเทศกาลมาให้ข้า ข้าคิดว่ามันสนุก และตามใจ [owner.GetHerHis] ที่ยืนกรานให้เราลองบ้าง\n\nอย่างไรก็ตาม [owner.GetFirstName] ปฏิเสธที่จะจิบ เมื่อข้าป่วยหนัก!"
+ seduce_ongoing.2006.a:0 "ข้ารู้สึกไม่ค่อยสบาย..."
+ seduce_ongoing.2006.a.tt:0 "#F ไอ้ความโง่เง่าของเจ้า #EMP *อ้วกกก#! [owner.GetFirstNameNoTooltip]!#!"
+
+ seduce_ongoing.2007.desc:0 "โอ้ ไม่นะ! [target.GetTitledFirstName] ตกลงที่จะลองยาเสน่ห์ แต่สิ่งที่ควรจะเป็นความสนุกสนานเล็กน้อยกลับจบลงด้วยการที่ [target.GetHerHim] อาเจียนและล้มป่วย!"
+ seduce_ongoing.2007.a:0 "คนรับใช้ที่ให้มันแก่ข้าอยู่ที่ไหน?"
+ 
+ seduce_ongoing.2008.desc:0 "[owner.GetTitledFirstName] มาหาข้าพร้อมกับ "ยาเสน่ห์" ที่คนรับใช้ของ [owner.GetHerHis] ได้มาจากงานเทศกาล เราไม่ได้ดื่มของเหลวที่ไม่รู้จัก แต่เรากลับมีค่ำคืนที่น่ารักพร้อมกับไวน์ ล้อเลียนความเชื่องมงายง่ายๆ ที่เฟื่องฟูอยู่ข้างนอกนั่น\n\nหากท่านบอกข้าไม่ได้ว่ามันส่งผลต่ออารมณ์ขันใด ท่านก็อ้างไม่ได้ว่ามันได้ผล! อา ชาวบ้านจะเชื่ออะไรก็ได้..."
+ seduce_ongoing.2008.a:0 "ข้ามีช่วงเวลาที่สนุกสนานกับ [owner.GetFirstNameNoTooltip]!"
+
+ seduce_ongoing.2009.desc:0 "ข้านำ "ยาเสน่ห์" ไปให้ [target.GetTitledFirstName] และ [target.GetSheHe] ก็ประหลาดใจกับความเชื่อง่ายของคนรับใช้ของข้า เช่นเดียวกับข้า!\n\nเราใช้เวลาช่วงเย็นหารือเกี่ยวกับความเชื่องมงายและความเชื่อที่ไร้สาระ ชาวบ้านจะเชื่ออะไรก็ได้"
+ seduce_ongoing.2009.a:0 "ช่างเป็นค่ำคืนที่น่าพอใจ"
+
+ seduce_ongoing.2010.desc:0 "[owner.GetTitledFirstName] มาหาข้าพร้อมกับ "ยาเสน่ห์" ที่คนรับใช้ของ [owner.GetHersHis] ได้มา ข้าไม่พบว่ามันน่าสนใจ แต่ [owner.GetFirstName] ก็พูดถึงมันไม่หยุด และเกี่ยวกับความเชื่องมงายและความเชื่อง่ายของชาวบ้าน"
+ seduce_ongoing.2010.a:0 "หากท่านไม่เชื่อในมัน ก็อย่ามารบกวนข้าด้วยมัน!"
+
+ seduce_ongoing.2011.desc:0 "[target.GetFirstName] ดูเหมือนจะไม่ประทับใจกับ "ยาเสน่ห์" และข้าก็ไม่มีโชคดีไปกว่านี้ในการพยายามหารือเกี่ยวกับความเชื่องมงายของชาวนาที่ไร้สาระ อันที่จริง [target.GetSheHe] ดูเหมือนจะรำคาญกับทั้งหมดนี้!"
+ seduce_ongoing.2011.a:0 "[target.GetSheHe|U] ต้องมีอารมณ์เฉื่อยชาผิดปกติในวันนี้"
+
+ seduce_ongoing.3001.t:0 "หัวใจและความคิด"
+ seduce_ongoing.3001.desc:0 "ข้าได้รับทราบว่า [target.GetTitledFirstName] สนิทสนมกับ [target.Custom2('RelationToMe', SCOPE.sC('close_character'))] ของ [target.GetHerHis] มาก [close_character.GetTitledFirstName] การได้รับความโปรดปรานจาก [close_character.GetHerHis] อาจช่วยให้ข้าดึงดูดความสนใจของ [target.GetFirstNamePossessive] ได้"
+ seduce_ongoing.3001.a:0 "ข้าจะให้ [close_character.GetFirstNameNoTooltip] ทุกสิ่งที่ [close_character.GetSheHe] ขอ"
+ seduce_ongoing.3001.b:0 "การแสดงเจตนาดีน่าจะเพียงพอ"
+ seduce_ongoing.3001.c:0 "ข้าสามารถช่วยชำระหนี้ของ [close_character.GetHerHis] ได้"
+ seduce_ongoing.3001.d:0 "แน่นอนว่าใครๆ ก็รู้สึกเป็นสุขกับของขวัญที่เป็นทองคำ"
+ seduce_ongoing.3001.e:0 "นี่ดูเหมือนจะไม่ถูกต้อง"
+ seduce_ongoing.3001.e.tt:0 "#F ข้าจะหาวิธีอื่นในการเอาชนะใจ [target.GetFirstNamePossessiveNoTooltip]#!"
+
+ seduce_ongoing.3002.desc:1 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('close_character'))] ของข้า [close_character.GetTitledFirstName] ได้บอกข้าเมื่อเร็วๆ นี้ว่า [close_character.GetSheHe] ประทับใจในความเอื้อเฟื้อของ [owner.GetTitledFirstName] เพียงใด\n\nเห็นได้ชัดว่า [owner.GetSheHe] ช่วยเหลือ [close_character.GetHerHim] เมื่อ [close_character.GetSheHe] ต้องการมากที่สุด"
+ seduce_ongoing.3002.a:0 "บางทีข้าอาจประเมิน [owner.GetHerHim] ต่ำไป?"
+ seduce_ongoing.3002.b:1 "[owner.GetFirstNameNoTooltip] ช่วยเหลือ [close_character.GetFirstNameNoTooltip] หรือ? น่าทึ่งในแง่หนึ่ง"
+
+ seduce_ongoing.3003.desc:0 "ครั้งต่อไปที่เราพบกัน [target.GetFirstName] ยิ้มให้ข้ากว้างกว่าปกติ\n\n"[target.Custom2('RelationToMe', SCOPE.sC('close_character'))] ของข้า [close_character.GetFirstName] บอกข้าว่าท่านช่วยเหลือ [close_character.GetHerHim] อย่างไร และข้าต้องการแสดงความขอบคุณ""
+ seduce_ongoing.3003.a:0 "ทุกสิ่งเพื่อ [target.Custom2('RelationToMe', SCOPE.sC('close_character'))] ของ [target.GetFirstNamePossessiveNoTooltip]"
+
+ seduce_ongoing.3004.desc:0 "ดูเหมือนว่า [target.GetFirstName] ไม่ได้สังเกตเห็นความเอื้อเฟื้อของข้าที่มีต่อ [target.Custom2('RelationToMe', SCOPE.sC('close_character'))] ของ [target.GetHerHis] อย่างน้อย [close_character.GetFirstName] ก็รู้สึกขอบคุณ!"
+ seduce_ongoing.3004.a:0 "ต้องใช้อะไรอีก?"
+
+ seduce_ongoing.4001.t:0 "การอุทิศของ [target.Custom('MusicalPerformerPossessive')|U]"
+ seduce_ongoing.4001.desc:0 "[target.Custom('MusicalPerformer')] จะแสดงให้ราชสำนักชมในไม่ช้าที่ [court_location.GetNameNoTier] มันจะเป็นคำของ่ายๆ ที่จะให้ [dummy_musician_gender.GetHerHim] เปลี่ยนการแสดงเป็นการอุทิศให้กับ [target.GetTitledFirstName] เป้าหมายแห่งความรักของข้า"
+ seduce_ongoing.4001.desc.court_musician:0 "[target.Custom('MusicalPerformer')] จะแสดงให้ราชสำนักชมในไม่ช้าที่ [court_location.GetNameNoTier] ข้าสามารถขอร้องง่ายๆ ให้ [dummy_musician_gender.GetHerHim] เปลี่ยนการแสดงเป็นการอุทิศให้กับ [target.GetTitledFirstName] เป้าหมายแห่งความรักของข้า\n\nอีกทางเลือกหนึ่ง หากข้าขอให้ [GetCourtPositionType('court_physician_court_position').GetName()] ของข้า [court_musician.GetName] เข้าร่วม ข้าสามารถให้พวกเขาเล่นเพลงที่ ทำให้ข้าดูดีต่อหน้าผู้ชมที่นั่นได้"
+ seduce_ongoing.4001.a:0 "มันจะเป็นการประกาศอย่างกล้าหาญต่อ [target.GetLadyLord]!"
+ seduce_ongoing.4001.b:0 "ข้าชอบการพาดพิงถึงความปรารถนาของข้าที่มีต่อ [target.GetHerHim] อย่างซ่อนเร้นมากกว่า"
+ seduce_ongoing.4001.b.failure:0 "การอุทิศไม่เป็นที่สังเกต"
+ seduce_ongoing.4001.c:1 "ผู้คนที่ [court_location.GetNameNoTierNoTooltip] จะอาบแสงแห่งความรุ่งโรจน์ของข้า!"
+ seduce_ongoing.4001.d:0 "ข้าไม่ควรยุ่งเกี่ยวกับเรื่อง เช่นนี้"
+
+ seduce_ongoing.4002.desc.opening:0 "มักจะมีนักแสดงในราชสำนัก แต่ครั้งนี้เราได้รับคำสัญญาว่าจะได้ชมบางสิ่งที่พิเศษ และข้าก็ได้รับมันอย่างแน่นอน"
+ seduce_ongoing.4002.desc:1 "\n\nขณะที่ [ROOT.Char.Custom('MusicalPerformer')] เริ่มต้นบทเพลงอีกบท ข้าพยายามไม่แสดงออกว่าข้ารู้สึกปลาบปลื้มเพียงใดกับการอุทิศนี้ ซึ่งมุ่งตรงมาที่ข้าต่อหน้าทั้งราชสำนัก"
+ seduce_ongoing.4002.desc.court_musician:0 "\n\nขณะที่ [ROOT.Char.Custom('MusicalPerformer')] ร่วมกับ [GetCourtPositionType('court_physician_court_position').GetName()] ของ [owner.GetTitledFirstNamePossessive] [court_musician.GetName] เริ่มต้นบทเพลงอีกบท ข้าพยายามไม่ให้ความชื่นชมของข้าแสดงออกมามากเกินไปขณะที่ข้าฟังเรื่องราววีรกรรมของ [owner.GetFirstNameNoTooltip]"
+ seduce_ongoing.4002.a:0 "[owner.GetTitledFirstNameNoTooltip] ได้ทำเกินกว่าที่ [owner.GetHerselfHimself] คาดไว้อย่างแท้จริง"
+
+ seduce_ongoing.4003.desc:1 "\n\nขณะที่ [ROOT.Char.Custom('MusicalPerformer')] เริ่มต้นบทเพลงอีกบท ข้าเดินออกจากห้องโถงใหญ่ด้วยความอับอาย ทุกบทเพลงเป็นการอุทิศให้กับข้าจาก [owner.GetTitledFirstName]!"
+ seduce_ongoing.4003.desc.court_musician:0 "\n\nขณะที่ [ROOT.Char.Custom('MusicalPerformer')] ร่วมกับ [GetCourtPositionType('court_physician_court_position').GetName()] ของ [owner.GetTitledFirstNamePossessive] [court_musician.GetName] เริ่มต้นบทเพลงอีกบท ข้าเดินออกจากห้องโถงใหญ่ด้วยความอับอาย [owner.GetFirstNameNoTooltip] ส่ง [GetCourtPositionType('court_physician_court_position').GetName()] ของ [owner.GetHerHis] มาเพียงเพื่อโอ้อวดเกี่ยวกับ [owner.GetHerselfHimself] หรือ!?"
+ seduce_ongoing.4003.a:0 "ช่างกล้า!"
+
+ seduce_ongoing.4004.desc:1 "ขอบคุณสำหรับของขวัญแห่งดนตรีของท่าน การแสดงของ [target.Custom('MusicalPerformerPossessive')] ได้รับการชื่นชมอย่างมาก! ข้ารู้เสมอว่าท่านเป็น [ROOT.Char.GetWomanMan] ที่มีรสนิยมไร้ที่ติ"
+ seduce_ongoing.4004.a:0 "สมบูรณ์แบบ!"
+
+ seduce_ongoing.4005.opening:0 "[target.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ seduce_ongoing.4005.desc.court_musician:0 "ข้าเขียนมาเพื่อบอกท่านว่าท่าน ทำให้ตัวเองดูโง่เขลาเพียงใดที่ต้องบังคับให้ผู้ชมฟังเรื่องราววีรกรรมที่เรียกกันว่าของท่าน ท่านเชื่อจริงๆ หรือว่าการพูดถึงตัวเองเป็นวิธีที่ดีในการให้ความบันเทิงแก่ราชสำนัก?"
+ seduce_ongoing.4005.desc:0 "ท่านกล้า ทำให้ข้าอับอายในที่สาธารณะ เช่นนั้นได้อย่างไร?! ท่าน #EMP ต้องการ#! ให้ข้าต้องอธิบายความหมายของคำพูดของ [target.Custom('MusicalPerformerPossessive')] ให้"
+ seduce_ongoing.4005.spouse:0 "[target.Custom2('RelationToMe', SCOPE.sC('spouse'))] ของข้าหรือ?"
+ seduce_ongoing.4005.court:0 "ทั้งราชสำนักหรือ?"
+ seduce_ongoing.4005.a:0 "นั่นไม่ใช่สิ่งที่ข้าต้องการ!"
+
+ seduce_ongoing.4006.desc:0 "ขณะที่ [ROOT.Char.Custom('MusicalPerformer')] ยังคงเอ่ยถ้อยคำแห่งความรักและความปรารถนา ข้าพยายามไม่แสดงให้คนอื่นๆ ในราชสำนักเห็นว่าข้ารู้สึกปลาบปลื้มเพียงใด\n\nแม้ว่า [owner.GetSheHe] จะซ่อนอยู่หลังคำอุปมาอุปไมย ข้ารู้ว่านี่คือการอุทิศจาก [owner.GetTitledFirstName] ถึงข้า"
+ seduce_ongoing.4006.a:0 "เจ้ารู้วิธีดึงดูดความสนใจข้าดีนี่ [owner.GetFirstNameNoTooltip]"
+
+ seduce_ongoing.4007.desc:0 "บางทีการอุทิศของข้าให้กับ [target.GetLadyLord] [target.GetFirstName] อาจจะละเอียดอ่อนเกินไปเล็กน้อย... [target.GetSheHe|U] ดูเหมือนจะไม่สังเกตเห็นเลย"
+ seduce_ongoing.4007.a:0 "ช่างเป็นการเสียแรงเปล่า"
+
+ seduce_ongoing.4011.t:0 "การเดินเล่นใน [court_location.GetNameNoTierNoTooltip]"
+ seduce_ongoing.4011.desc:0 "อาจดูเหมือนเป็นการก้าวไปข้างหน้า แต่ข้ากำลังคิดที่จะเชิญ [target.GetTitledFirstName] ขี่ม้าไปกับข้าผ่าน [court_location.Custom('BaronyTownType')] แห่ง [court_location.GetNameNoTier]"
+ seduce_ongoing.4011.a:0 "ขี่ม้าไปตามถนนตลาด เพื่อให้ทุกคนได้เห็น!"
+ seduce_ongoing.4011.b:0 "ให้เราอยู่ตามตรอกซอกซอย ใครต้องการเพื่อนร่วมทางของผู้อื่น?"
+ seduce_ongoing.4011.b.failure:0 "ข้าไม่สามารถสร้างความประทับใจให้ [target.GetFirstNameNoTooltip] ได้"
+ seduce_ongoing.4011.c:0 "บางทีเราไม่ควรทำสิ่งนี้"
+ seduce_ongoing.4011.c.tt:0 "#F ข้ารอโอกาสอื่นได้#!"
+
+ seduce_ongoing.4012.opening:0 "ข้าประหลาดใจเล็กน้อยเมื่อ [owner.GetTitledFirstName] เชิญข้าขี่ม้าผ่าน [court_location.Custom('BaronyTownType')] แห่ง [court_location.GetNameNoTier]"
+ seduce_ongoing.4012.end:0 "\n\nอย่างไรก็ตาม มันกลายเป็นวันที่น่าพอใจ ขณะที่เราขี่ม้าไปตามถนนตลาด พูดคุยกันสารพัดเรื่องขณะที่พ่อค้าเร่ขายสินค้าให้กับชาวนาที่จ้องมองคณะผู้ติดตามที่สวมเกราะแวววาวของเราด้วยปากอ้าค้าง"
+ seduce_ongoing.4012.a:0 "เราสร้างความประทับใจได้อย่างแน่นอน"
+
+ seduce_ongoing.4013.end:0 "\n\nข้าไม่แน่ใจมากขึ้นเรื่อยๆ เมื่อ [owner.GetSheHe] ยืนกรานให้เราขี่ม้าไปตามถนนตลาด และระหว่างคณะผู้ติดตามที่หรูหราของเรากับการขาดการสนทนา เห็นได้ชัดว่า [owner.GetSheHe] เพียงแค่พยายามอวด ข้าคงจะขี่ม้าหนีไปหากมันไม่ ทำให้เกิดเรื่อง"
+ seduce_ongoing.4013.a:0 "อย่าทำ เช่นนั้นอีกเลย"
+
+ seduce_ongoing.4014.desc:0 "ถึง [owner.GetTitledFirstName] ที่รัก\n\nเป็นเรื่องน่ายินดีอย่างยิ่งที่ได้มีท่านเป็นเพื่อนร่วมทางใน [court_location.Custom('BaronyTownType')] แห่ง [court_location.GetNameNoTier] และข้าหวังว่าจะได้พบท่านอีกในไม่ช้า"
+ seduce_ongoing.4014.a:0 "ความยินดีเป็นของข้าทั้งหมด"
+
+ seduce_ongoing.4015.desc:0 "ถึง [target.GetTitledFirstName]\n\nท่านหวังที่จะ ทำให้ข้าอับอายในที่สาธารณะหรือ? พาข้าเดินขบวนไปมาราวกับถ้วยรางวัลที่น่าหัวเราะ... ท่านรู้หรือไม่ว่าพวกเขาพูดอะไรกันในราชสำนัก?"
+ seduce_ongoing.4015.a:0 "ข้าไม่ได้หมายความ เช่นนั้น!"
+
+ seduce_ongoing.4016.end:0 "\n\nเราผ่านตรอกซอกซอยมากมาย หัวเราะกับความประหลาดใจของชาวบ้านเมื่อคณะผู้ติดตามของเราผ่านไป ในตอนท้ายของวัน ข้ารู้จัก [court_location.Custom('BaronyTownType')] ดีกว่าที่ข้าเคยคิดไว้"
+ seduce_ongoing.4016.a:0 "[target.GetFirstNameNoTooltip] ทำให้ข้าเห็นมุมมองใหม่ๆ มากมาย"
+
+ seduce_ongoing.4017.desc:0 "ถึง [ROOT.Char.GetTitledFirstName] ที่รัก\n\nขอบคุณสำหรับความเป็นเพื่อนร่วมทางของท่านในการมาเยือน [court_location.Custom('BaronyTownType')] แห่ง [court_location.GetNameNoTier] ของข้า แม้ว่าการยืนกรานของท่านที่จะอยู่ตามตรอกซอกซอยและหลีกเลี่ยงสายตาผู้คนจะ ทำให้ข้าสับสนอย่างยิ่ง บางทีท่านอาจจะอธิบายในครั้งอื่นได้"
+ seduce_ongoing.4017.a:0 "มันคือ... เราสองคน เรา—"
+
+ seduce_ongoing.4018.desc:0 "ถึง [owner.GetTitledFirstName] ที่รัก\n\nข้าสนุกมากระหว่างการมาเยือน [court_location.GetNameNoTier] ของท่าน บัดนี้ข้ารู้จักส่วนต่างๆ ของ [court_location.Custom('BaronyTownType')] ที่ข้าไม่เคยคิดว่าจะได้เห็น!"
+ seduce_ongoing.4018.a:0 "ความยินดีเป็นของข้าทั้งหมด"
+
+ seduce_ongoing.4101.t:0 "ระเบียงของสุดที่รักของข้า"
+ seduce_ongoing.4101.desc_opening:0 "หน้าต่างของ [target.GetTitledFirstNamePossessive] สว่างไสวด้วยแสงอันอบอุ่น และแม้ แต่จากพื้นดินข้าก็มองเห็นการเคลื่อนไหวข้างใน\n\n"
+ seduce_ongoing.4101.desc_same_court:0 "ชีพจรของข้าเต้นดังอยู่ในหู ข้าอาจจะอยู่ใน [ROOT.Char.Custom('ResidenceBuilding')] ของข้าเอง แต่เมื่อแย่งชิงความปรารถนาของ [target.GetHerHis] ข้าก็กำลังก้าวเข้าสู่ดินแดนใหม่ เช่นกัน"
+ seduce_ongoing.4101.desc_other_court:0 "ชีพจรของข้าเต้นดังอยู่ในหู ทั้งการเกี้ยวพาราสีโอกาสที่จะได้ร่วมเตียงกับ [target.GetHerHim] และการมาเยือน [court_location.GetNameNoTier] ทำให้ข้าตกอยู่ในสถานการณ์ที่ลึกซึ้ง"
+ seduce_ongoing.4101.a:0 "[target.GetFirstNameNoTooltip]! มองออกมาข้างนอกและส่องสว่างค่ำคืนของข้า!"
+ seduce_ongoing.4101.a.tt:0 "#F ข้าพยายามดึงดูดความสนใจของ [target.GetHerHis] อย่างไม่เป็นการรบกวน#!"
+ seduce_ongoing.4101.b:0 "ข้าขึ้นไปแล้ว"
+ seduce_ongoing.4101.b.tt:0 "#F แน่นอนว่า [target.GetSheHe] จะดีใจที่ได้เห็นข้า!#!"
+ seduce_ongoing.4101.c:0 "ข้าจะทิ้ง [SCOPE.Custom('SeductionObjectIndefinite')] ไว้ให้ [target.GetHerHim] พบ พร้อมกับบันทึก"
+ seduce_ongoing.4101.c.tt:0 "#F [target.GetSheHe|U] จะต้องชื่นชมท่าทางที่ละเอียดอ่อน และสิ่งที่ [target.GetSheHe] มีความหมายต่อข้าอย่างแน่นอน#!"
+ seduce_ongoing.4101.d:0 "ข้าควรจากไปก่อนที่ใครจะเห็นข้า"
+ seduce_ongoing.4101.d.tt:0 "#F ข้าจะไม่เข้าหา [target.GetHerHim] เหมือนขโมยในยามค่ำคืน!#!"
+
+ seduce_ongoing.4102.t:0 "ใต้ระเบียงของข้า"
+ seduce_ongoing.4102.desc:0 "หลังจากกลับเข้าห้องพักในตอนเย็น ข้าประหลาดใจที่ได้ยินเสียงอู้อี้ดังมาจากข้างนอก ฟังดูคล้ายกับ [owner.GetTitledFirstName] อย่างน่าสงสัย\n\n"[ROOT.Char.GetTitledFirstNameNoTooltip] ข้าขอร้องท่าน ให้ข้าได้เห็นใบหน้าที่งดงามของท่าน!""
+ seduce_ongoing.4102.a:0 "มันเหมือนกับบางอย่างในนิทาน ช่างโรแมนติก!"
+ seduce_ongoing.4102.b:0 "เพื่อให้ข้าต้องทนเห็นใบหน้าที่น่าเกลียดของท่านหรือ? ไม่"
+
+ seduce_ongoing.4103.desc:0 "ขณะที่แสงจากประตูที่เปิดออกของ [target.GetTitledFirstNamePossessive] สาดส่องไปทั่วระเบียง มันก็สาดส่องไปทั่วหัวใจของข้า เช่นกัน\n\nความมืดมิดรอบตัวเรา ทำให้การสนทนาของเรามีความรู้สึกอิสระอย่างประหลาด และ — แม้ว่าข้าจะอยู่บนพื้นดิน — เราก็ไม่เคยใกล้ชิดกันเท่านี้มาก่อน"
+ seduce_ongoing.4103.a:0 "โอ้ [target.GetFirstNameNoTooltip] ท่านคือดวงอาทิตย์ในค่ำคืนของข้า!"
+
+ seduce_ongoing.4104.desc:0 "ขณะที่แสงจากประตูที่เปิดออกของ [target.GetTitledFirstNamePossessive] สาดส่องไปทั่วระเบียง มันก็สาดส่องไปทั่วหัวใจของข้า เช่นกัน\n\nมันหรี่ลงอย่างรวดเร็วเมื่อข้าเห็นใบหน้าบูดบึ้ง [target.Custom('quirk_neg_adjective')] บนใบหน้าของ [target.GetHerHis] และดับสนิทเมื่อ [target.GetSheHe] พูด "ท่านมาทำอะไรที่นี่ [ROOT.Char.GetTitledFirstNameNoTooltip]?! ได้โปรด ปล่อยข้าไว้ตามลำพัง""
+ seduce_ongoing.4104.a:0 "แต่... ท่านคือดวงอาทิตย์ในค่ำคืนอันมืดมิดของข้า...!"
+
+ seduce_ongoing.4105.desc:1 "#EMP อ๊ะ!#!\n\nหลังจากกลับเข้าห้องพักในตอนเย็น ข้าก็ต้องเผชิญหน้ากับ [owner.GetWomanMan] ที่อยู่นอกหน้าต่างของข้า... [owner.GetWomanMan] ที่ดูคล้ายกับ [owner.GetTitledFirstName] อย่างน่าสงสัย"
+ seduce_ongoing.4105.a:0 "โอ้ เจ้า [owner.GetWomanMan] โง่เขลา เข้ามาข้างในสิ!"
+ seduce_ongoing.4105.b:0 "ข้าโชคดีที่ผ้าม่านของข้าหนามาก"
+ seduce_ongoing.4105.c:0 "ทหาร! ช่วยข้าด้วย ทหาร!"
+
+ seduce_ongoing.4106.desc:0 "ทันทีที่ข้าไปถึงระเบียงของ [target.GetTitledFirstNamePossessive] [target.GetSheHe] ก็ก้าวออกมาพร้อมกับเสียงหัวเราะ "ทำไมท่านถึงทำเรื่องบ้าๆ เช่นนี้ [ROOT.Char.GetFirstNameNoTooltip]? แค่ใช้ประตูเหมือน [ROOT.Char.GetWomanMan] ปกติ ท่านทำราวกับว่าท่านมีเจตนาที่ต้องการเก็บเป็นความลับ"\n\nความสุขขี้เล่นในดวงตาของ [target.GetHerHis] ทำให้ทั้งหมดคุ้มค่า"
+ seduce_ongoing.4106.a:0 "ไม่มีสิ่งกีดขวางใดสามารถกั้นข้าจากท่านได้!"
+
+ seduce_ongoing.4107.desc_paranoid:0 "ทันทีที่ข้าไปถึงระเบียงของ [target.GetTitledFirstNamePossessive] [target.GetSheHe] ก็เริ่มกรีดร้องเรียกทหารองครักษ์ของ [target.GetHerHis] "ช่วยด้วย ผู้บุกรุก!"\n\nเสียงของ [target.GetHerHis|U] ตามข้าลงมาขณะที่ข้าพยายามหนี ตกลงมาส่วนสุดท้ายกลับสู่พื้นดินก่อนที่ข้าจะหายไปในความมืด"
+ seduce_ongoing.4107.desc:0 "ทันทีที่ข้าไปถึงระเบียงของ [target.GetTitledFirstNamePossessive] [target.GetSheHe] ก็ก้าวออกมาพร้อมกับใบหน้าบูดบึ้ง [target.Custom('quirk_neg_adjective')] บนใบหน้าของ [target.GetHerHis]\n\n"นี่มันเรื่องบ้าอะไรกัน [ROOT.Char.GetFirstNameNoTooltip]? ท่านทำไม่ได้ — ท่านเป็น [ROOT.Char.GetTitleTierName]! นี่ไม่เหมาะสม""
+ seduce_ongoing.4107.a:0 "น่าจะดีกว่านี้..."
+ seduce_ongoing.4107.a.tt:0 "#F ข้าควรจะรู้ดีกว่านี้ที่จะไม่ย่องเข้าหา [target.GetWomanMan] ที่หวาดระแวงเช่นนี้!#!"
+
+ seduce_ongoing.4108.desc:0 "หลังจากกลับเข้าห้องพักในตอนเย็น ข้าตกใจกับเสียงที่เหมือนก้อนกรวดกระทบหน้าต่างของข้า เมื่อมองออกไปในสวนมืด ข้าเห็น [SCOPE.Custom('SeductionObjectIndefinite')] วางอยู่บนพื้นห่อด้วยบันทึก และ [owner.GetWomanMan] ที่ดูเหมือน [owner.GetTitledFirstName] หายไปในความมืด\n\n#EMP ถึง [ROOT.Char.GetTitledFirstNameNoTooltip] ผู้ [ROOT.Char.Custom2('ComplimentAdjective', ROOT.Char)] เพื่อเป็นเครื่องหมายแห่งความรู้สึกของข้า.#!"
+ seduce_ongoing.4108.a:0 "ข้าจะทิ้ง [SCOPE.Custom('SeductionObjectIndefinite')] ไว้ให้ [owner.GetHerHim] พบเป็นการตอบแทน!"
+ seduce_ongoing.4108.b:0 "ข้าควรจะทำอะไรกับสิ่งนี้? ขายมันทิ้ง!"
+
+ seduce_ongoing.4109.desc:1 "[SCOPE.Custom('SeductionObjectMultiple')] สองชิ้น รอข้าอยู่ในห้องพัก ไม่มีบันทึกหรือคำทักทาย แต่ข้าสาบานได้ว่าข้ายังคงได้กลิ่นหอมหวานของ [target.GetTitledFirstName] ผู้ [ROOT.Char.Custom2('ComplimentAdjective', SCOPE.sC('target'))] อยู่ในอากาศ!"
+ seduce_ongoing.4109.a:0 "โอ้ [target.GetFirstNameNoTooltip]!"
+
+ seduce_ongoing.4110.desc:0 "เมื่อวันเวลาผ่านไปโดยไม่มีการตอบสนองจาก [target.GetTitledFirstName] ข้าตัดสินใจลองเสี่ยงโชคอีกครั้ง — บางที [target.GetSheHe] อาจไม่เคยเห็นของขวัญตั้งแต่แรก?\n\nโอ้ ความหวังของข้าดับลงอย่างรวดเร็วเพียงใดเมื่อข้าพบ [SCOPE.Custom('SeductionObject')] ใต้หน้าต่างของ [target.GetHerHis] รอยส้นเท้ายังคงปรากฏให้เห็นในโคลนที่ [target.GetSheHe] เหยียบย่ำมันลงไป"
+ seduce_ongoing.4110.a:0 "หัวใจของข้าแตกสลายเหมือนกับ [SCOPE.Custom('SeductionObject')]!"
+
+ seduce_ongoing.5001.t_rival:0 "คู่ปรับ [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('target'))|U] ของข้า"
+ seduce_ongoing.5001.t:0 "[target.GetWomanMan|U] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('target'))|U]"
+ seduce_ongoing.5001.desc_tier_up:0 ""ข้าเป็นหนี้บุญคุณอันใดสำหรับความยินดีนี้ #EMP [ROOT.Char.GetTitleTierName]#! ของข้า?" [target.GetTitledFirstName] ถามด้วยรอยยิ้มที่ไม่ไปถึงดวงตาของ [target.GetHerHis] เลยแม้ แต่น้อย"
+ seduce_ongoing.5001.desc_tier_down: "\"[ROOT.Char.GetWomanMan] [target.Custom2('RelationDescriptor', ROOT.Char)] ผู้นี้จะไม่ปล่อยข้าไว้ตามลำพังเลยหรือไร...\" [target.GetTitledFirstName] พึมพำภายใต้ลมหายใจของ[target.GetHerHis]ขณะที่ข้าเข้าใกล้ \"มีอะไรให้ข้ารับใช้หรือ [ROOT.Char.GetTitledFirstNameNoTooltip]?\""
+ seduce_ongoing.5001.desc_ending:0 "\n\nความเป็นปฏิปักษ์ระหว่างเรายังคงคุกรุ่นตามปกติ แต่ข้ามีแผนว่าจะ ทำให้ความรู้สึกอันปั่นป่วนที่เรามีต่อกันสงบลงได้อย่างไร..."
+ seduce_ongoing.5001.a:0 "ท่านมีความคิดเห็นอย่างไรเกี่ยวกับเรื่อง [ROOT.GetCharacter.Custom('education_conversation_subject')]?"
+ seduce_ongoing.5001.a.tt:0 "#F ดึงดูดด้านสติปัญญาของ [target.GetFirstNamePossessiveNoTooltip]#!"
+ seduce_ongoing.5001.b:0 "เกี่ยวกับเจ้า [mocked_courtier.Custom2('InsultNoun', ROOT.Char)] [mocked_courtier.GetFirstNameNoTooltip] นั่นน่ะ..."
+ seduce_ongoing.5001.b.tt:0 "#F ดึงดูดด้านมุ่งร้ายของ [target.GetFirstNamePossessiveNoTooltip] โดยการล้อเลียน [mocked_courtier.GetTitledFirstNameNoTooltip] ด้วยกัน#!"
+ seduce_ongoing.5001.c_tier_down:0 "คำถามคือ #EMP ข้า#! จะทำอะไรให้ #EMP ท่าน#! ได้บ้าง [target.GetLadyLord] ของข้า"
+ seduce_ongoing.5001.c_tier_up:0 "ความยินดีเป็นของข้าทั้งหมด [target.GetLadyLord] ของข้า เราควรแก้ไขเรื่องนั้น"
+ seduce_ongoing.5001.c.tt:0 "#F ดึงดูดด้านตัณหาของ [target.GetFirstNamePossessiveNoTooltip]#!"
+ seduce_ongoing.5001.d:0 "ขออภัยที่รบกวน ข้ากำลังจะไป"
+ 
+
+ seduce_ongoing.5003.t:0 "คู่ปรับ [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('owner'))|U] ของข้า"
+ seduce_ongoing.5003.opening:0 "ทุกย่างก้าวที่ [owner.GetTitledFirstName] เดินเข้ามาหา ข้ารู้สึกได้ว่าอารมณ์ข้าดิ่งลง เจ้า [owner.Custom2('InsultNoun', ROOT.Char)] นี่ต้องการอะไรอีก?\n\n"
+ seduce_ongoing.5003.conversation:0 "ข้าประหลาดใจที่ [owner.GetSheHe] ชวนข้าสนทนาในหัวข้อ [ROOT.GetCharacter.Custom('education_conversation_subject')] และ แม้ว่าในตอนแรกข้าจะลังเลเกี่ยวกับความเป็นเพื่อนร่วมทางของ [owner.GetHerHis] ข้าก็พบว่ามันน่าสนใจมาก!"
+ seduce_ongoing.5003.mockery:0 ""[ROOT.Char.GetTitledFirstNameNoTooltip]! ท่านไม่อยากจะเชื่อแน่ว่าวันนี้เจ้า [mocked_courtier.Custom2('InsultNoun', SCOPE.sC('owner'))] [mocked_courtier.GetFirstName] มันทำอะไรลงไป!"\nน่าประหลาดใจที่เรากลับสนทนากันอย่างออกรสในหัวข้อข้อบกพร่องมากมายของ [mocked_courtier.GetFirstNamePossessive]"
+ seduce_ongoing.5003.bodily:0 "ไม่มีสิ่งใดสามารถเตรียมข้าให้พร้อมสำหรับสิ่งล่อใจจากเนื้อหนังเปลือยเปล่าของ [owner.GetHerHis] ขณะที่ [owner.GetSheHe] ถอด [owner.Custom('GetUpperClothingArticle')] ของ [owner.GetHerHis] ออก"
+ seduce_ongoing.5003.fallback:0 "ข้าประหลาดใจที่เราใช้เวลาช่วงเย็นที่ค่อนข้างน่าพอใจด้วยกัน หัวเราะกับหัวข้อที่ธรรมดาที่สุดและเดินเล่นในสวนด้วยกัน"
+ seduce_ongoing.5003.a:0 "ไม่เคยมีครั้งใดที่ข้ารู้จัก [owner.GetHerHim] ว่า #EMP น่าพอใจ#! เช่นนี้มาก่อน!!"
+
+ seduce_ongoing.5004.opening:0 "ทุกย่างก้าวที่ [owner.GetTitledFirstName] เดินเข้ามาหา ข้ารู้สึกได้ว่าอารมณ์ข้าดิ่งลง เจ้า [owner.Custom2('InsultNoun', ROOT.Char)] นี่ต้องการอะไรอีก?\n\n"
+ seduce_ongoing.5004.conversation:0 ""ในหัวข้อ [owner.Custom('education_conversation_subject')]..."\n\nข้าไม่รู้ว่าทำไม [owner.GetSheHe] ถึงจินตนาการว่าข้าจะสนใจในหัวข้อนี้ แต่ในไม่ช้าข้าก็ ทำให้ชัดเจนโดยปราศจากข้อสงสัยว่าข้าไม่สนใจเลยแม้ แต่น้อย"
+ seduce_ongoing.5004.mockery:0 ""[ROOT.Char.GetTitledFirstNameNoTooltip]! ท่านไม่อยากจะเชื่อแน่ว่าวันนี้เจ้า [mocked_courtier.Custom2('InsultNoun', SCOPE.sC('owner'))] [mocked_courtier.GetFirstName] มันทำอะไรลงไป!"\n\nข้านึกไม่ออกว่าอะไรดลใจให้ [owner.GetHerHim] มาใส่ร้าย [mocked_courtier.GetTitledFirstName] ต่อหน้าข้า แต่ [owner.GetSheHe] ก็ไม่ยอมหยุดพูดเสียที"
+ seduce_ongoing.5004.bodily:0 "ขณะที่ [owner.GetSheHe] เข้ามาใกล้ข้าอย่างน่าอึดอัดและเริ่มดึง [owner.Custom('GetUpperClothingArticle')] ของ [owner.GetHerHis] อย่างมีความหมาย ข้าก็ถอยกลับอย่างรวดเร็ว"
+ seduce_ongoing.5004.fallback:0 "เห็นได้ชัดว่า [owner.GetSheHe] คิดจะใช้เวลาทั้งวันกับข้า เพราะ [owner.GetSheHe] ปฏิเสธที่จะจากไปจนกว่าข้าจะแสดงความไม่พอใจต่อการปรากฏตัวของ [owner.GetHerHis] อย่างชัดเจน"
+ seduce_ongoing.5004.a:0 "เป็นการปฏิสัมพันธ์ที่ไม่น่าพอใจ เช่นเคย!"
+
+ seduce_ongoing.5005.conversation:0 "รอยยิ้มของ [target.GetTitledFirstNamePossessive] สว่างไสวไปทั่วใบหน้าของ [target.GetHerHis] เมื่อสิ้นสุดการสนทนาอันยาวนานเกี่ยวกับ [target.Custom('herhis_subject_of_interest')] ขณะที่ความเงียบอันเป็นมิตรเข้ามาแทนที่ระหว่างเรา ข้าตระหนักว่าเรายืนใกล้กันกว่าเดิมมาก มือของข้าเกือบจะสัมผัส [target.Custom('GetClothingArticle')] ของ [target.GetHerHis]"
+ seduce_ongoing.5005.mockery:0 ""... และวิธีที่ [mocked_courtier.GetSheHe] [mocked_courtier.Custom('quirk_neg_present')] – ข้าไม่เคยเห็นอะไรแบบนี้มาก่อน!"\n\nเสียงหัวเราะที่เราแบ่งปันกันจากค่าใช้จ่ายของ [mocked_courtier.GetTitledFirstNamePossessive] นั้นจริงใจกว่าที่ข้าหวังไว้ และขณะที่ความเงียบอันเป็นมิตรเข้ามาแทนที่ระหว่างเรา ข้าตระหนักว่าเรายืนใกล้กันกว่าเดิมมาก มือของข้าเกือบจะสัมผัส [target.Custom('GetClothingArticle')] ของ [target.GetHerHis]"
+ seduce_ongoing.5005.bodily:0 "ข้าได้รับอนุญาตให้ลิ้มรสเพียงเล็กน้อยจากสิ่งที่ [target.GetTitledFirstName] มีให้ แต่มัน ทำให้ข้ากระหายมากขึ้น ความเงียบอันเป็นมิตรเข้ามาแทนที่ระหว่างเราขณะที่เราแยกจากกัน และข้าตระหนักว่า [target.GetSheHe] ผ่อนคลายกว่าที่เคยในความเป็นเพื่อนร่วมทางของข้า – [target.Custom('GetUpperClothingArticle')] เบี้ยวและทั้งหมด"
+ seduce_ongoing.5005.fallback:0 "เราใช้เวลาช่วงเย็นในความเป็นเพื่อนร่วมทางของกันและกัน พูดคุยและหัวเราะ ขณะที่ความเงียบอันเป็นมิตรเข้ามาแทนที่ระหว่างเรา ข้าตระหนักว่าเรายืนใกล้กันกว่าเดิมมาก มือของข้าเกือบจะสัมผัส [target.Custom('GetClothingArticle')] ของ [target.GetHerHis]"
+ seduce_ongoing.5005.ending:0 "\n\n"ข้าไม่เคยรู้เลยว่าท่านเป็นเพื่อนร่วมทางที่ดี เช่นนี้ [ROOT.Char.GetFirstNameNoTooltip]!""
+ seduce_ongoing.5005.a:0 "ข้าจะแสดงให้ [target.GetHerHim] เห็นว่าข้าเป็นเพื่อนร่วมทางที่ดีเพียงใด!"
+
+ seduce_ongoing.5006.conversation:0 "หลังจากเกือบหนึ่งชั่วโมงของการสนทนาที่น่าอึดอัด [target.GetFirstName] ดูเบื่อหน่ายเท่าที่ข้าเคยเห็น [target.GetHerHim] มา เมื่อข้าเปลี่ยนหัวข้อจาก [target.Custom('herhis_subject_of_interest')] เป็น [ROOT.GetCharacter.Custom('education_conversation_subject')] [target.GetSheHe] [target.Custom('quirk_neg_present')] และขอตัว [target.GetHerselfHimself]"
+ seduce_ongoing.5006.mockery:0 ""[ROOT.Char.GetTitledFirstNameNoTooltip]! ท่านเชื่อหรือไม่ว่าเจ้า [mocked_courtier.Custom2('InsultNoun', ROOT.Char)] [mocked_courtier.GetFirstName] นั่น มันกล้า..."\n\nข้าพลันชะงักคำพูด เมื่อเห็นความรังเกียจบนใบหน้าของ [target.GetFirstNamePossessive] ที่ปรากฏชัดเจนขึ้นเรื่อยๆ"
+ seduce_ongoing.5006.bodily:0 "ขณะที่ข้าเข้าใกล้ [target.GetFirstName] ยิ้ม [ROOT.Char.Custom('quirk_pos_adverb')] และยก [ROOT.Char.Custom('GetUpperClothingArticle')] ของข้าขึ้นอย่างมีความหมาย [target.GetSheHe] ก็รีบถอยกลับไปด้วยสีหน้าขยะแขยงอย่างแท้จริง"
+ seduce_ongoing.5006.fallback:0 "ขณะที่ข้าพยายามหาจุดร่วมกับ [target.GetFirstName] ความดูถูกของ [target.GetHerHis] ก็ชัดเจนขึ้นทุกนาที\n\nในไม่ช้า [target.GetSheHe] ก็ขอตัว [target.GetHerselfHimself] และหนีจากความเป็นเพื่อนร่วมทางของข้า"
+ seduce_ongoing.5006.a:0 "เหตุใดข้าถึงพยายามนอนกับคน [target.Custom2('InsultNounSexual', ROOT.Char)] เช่นนี้?!"
+
+ seduce_ongoing.5011.t:0 "แรงดึงดูดที่น่ารำคาญ"
+ seduce_ongoing.5011.desc:0 "มีเพียงไม่กี่คนที่สามารถยั่วยุข้าได้เหมือน [target.GetTitledFirstName] และเมื่อเราพบว่าตัวเองอยู่ตามลำพัง [target.GetSheHe] ก็รีบทั้งดูถูกและลงมือกับข้า แน่นอนว่าข้าตอบโต้ในลักษณะเดียวกัน\n\nข้าต้องยอมรับว่าความตื่นเต้นของมัน — ทั้งการต่อสู้และความใกล้ชิดกับร่างกายที่เหงื่อออก หอบ ของ [target.GetHerHis] — ก็เพียงพอที่จะ ทำให้เลือดของข้าลุกเป็นไฟ ในไม่ช้าข้าก็บอกไม่ได้ว่าข้ากำลังพยายามเอาชนะ [target.GetHerHim] จริงๆ หรือเพียงแค่ยืดเยื้อการทะเลาะวิวาทออกไป..."
+ seduce_ongoing.5011.a:0 "ข้าจะ ทำให้แน่ใจว่ารอยยิ้ม [target.Custom('quirk_neg_adjective')] นั้นหายไปจากใบหน้าของ [target.GetHerHis]!"
+ seduce_ongoing.5011.b:0 "ข้าช่วยท่านลุกขึ้นได้ไหม?"
+ seduce_ongoing.5011.c:0 "หมัดต่อไปของ [target.GetHerHis|U] จะ ทำให้เลือดออก"
+ seduce_ongoing.5011.c.tt:0 "#F ความเจ็บปวดที่ข้าอดทนเพื่อความรัก!#!\nตัวเลือกนี้มีให้ เนื่องจากลักษณะซาดิสม์ของ [target.GetFirstNamePossessiveNoTooltip]\n\n"
+ seduce_ongoing.5011.d:0 "การปล้ำเหมือนเด็กๆ ไม่น่าจะเป็นหนทางสู่หัวใจของ [target.GetHerHis]!"
+
+ seduce_ongoing.5012.desc:0 "มีเพียงไม่กี่คนที่สามารถยั่วยุข้าได้เหมือน [owner.GetTitledFirstName] และเมื่อเราพบว่าตัวเองอยู่ตามลำพัง เราก็รีบทั้งดูถูกและลงมือใส่กัน\n\nข้าต้องยอมรับว่าความตื่นเต้นของมัน — ทั้งการต่อสู้และความใกล้ชิดกับร่างกายที่เหงื่อออก หอบ ของอีกฝ่าย — ก็เพียงพอที่จะ ทำให้เลือดของข้าลุกเป็นไฟ และ [owner.GetSheHe] ก็ไม่มีทีท่าว่าจะยอมแพ้"
+ seduce_ongoing.5012.a:0 "[owner.GetSheHe|U] อย่าออมมือให้ข้าเชียว!"
+ seduce_ongoing.5012.b:0 "พอแล้ว! ปล่อยข้าไป"
+
+ seduce_ongoing.5013.desc:0 "[target.GetTitledFirstName] และข้าลงเอยด้วยการนอนอยู่บนพื้น ทะเลาะกันเหมือน [target.Custom('GirlsBoysChildren')] ตัวเล็กๆ ใบหน้าที่บูดบึ้งของเราในไม่ช้าก็เปลี่ยนเป็นรอยยิ้ม หมัดของเรากลายเป็นการลูบไล้ คำสบถของเรากลายเป็นเสียงคราง...\n\nหาก [target.GetSheHe] สังเกตเห็นข้าอ้อยอิ่งอยู่ในอ้อมกอดที่จำกัดของ [target.GetHerHis] นานเกินความจำเป็น [target.GetSheHe] ก็ดูเหมือนจะไม่ว่าอะไร"
+ seduce_ongoing.5013.a:0 "เป็นการดีที่จะระบายอารมณ์!"
+
+ seduce_ongoing.5014.desc:0 "[target.GetTitledFirstName] และข้าลงเอยด้วยการนอนอยู่บนพื้น ทะเลาะกันเหมือน [target.Custom('GirlsBoysChildren')] ตัวเล็กๆ และใบหน้าที่บูดบึ้งของ [target.GetHerHis] ในไม่ช้าก็เปลี่ยนเป็นใบหน้าบูดบึ้ง\n\n"ปล่อยนะ เจ้าคนเถื่อน!""
+ seduce_ongoing.5014.a:0 "นี่เป็นเรื่องโชคร้าย"
+
+ seduce_ongoing.5015.desc:0 "มีเพียงไม่กี่คนที่สามารถยั่วยุข้าได้เหมือน [owner.GetTitledFirstName] และเมื่อเราพบว่าตัวเองอยู่ตามลำพัง เราก็รีบทั้งดูถูกและลงมือใส่กัน\n\nข้าต้องยอมรับว่าข้าประหลาดใจเมื่อ [owner.GetSheHe] ยื่นมือมาหาข้า เสนอที่จะช่วยข้าลุกขึ้น"
+ seduce_ongoing.5015.a:0 "ขอบคุณ [owner.GetFirstNameNoTooltip]"
+ seduce_ongoing.5015.b:0 "[owner.GetSheHe] คิดว่า [owner.GetSheHe] เป็นใครกัน?!"
+
+ seduce_ongoing.5016.desc:0 "[target.GetTitledFirstName] และข้าลงเอยด้วยการนอนเกลือกกลิ้งอยู่บนพื้น ทะเลาะวิวาทกันเหมือน[target.Custom('GirlsBoysChildren')]ตัวน้อย และไม่นานใบหน้าที่บูดบึ้งของเราก็เปลี่ยนเป็นรอยยิ้ม\n\nขณะที่ข้ายื่นมือให้[target.GetHerHim] ลุกขึ้น [target.GetSheHe] ก็จับมือข้าและพยักหน้าขอบคุณ[target.GetHerHis]"
+
+ seduce_ongoing.5017.desc:0 "[target.GetTitledFirstName] และข้าลงเอยด้วยการนอนกลิ้งอยู่บนพื้น ทะเลาะวิวาทกันประหนึ่ง [target.Custom('GirlsBoysChildren')] ตัวน้อย และใบหน้าบูดบึ้งของ [target.GetHerHis] พลันเปลี่ยนเป็นบิดเบี้ยว ซึ่งยิ่งชัดขึ้นเมื่อข้ายืนขึ้นต่อหน้า [target.GetHerHim]\n\n"ไม่คิดแม้ แต่จะช่วยข้าลุก... ข้าไม่ควรคาดหวังสิ่งใดจากคน [owner.Custom2('InsultNoun', ROOT.Char)] เช่นนี้เลย""
+
+ seduce_ongoing.5018.desc:0 "มีเพียงไม่กี่คนที่สามารถยั่วยุข้าได้เหมือน [owner.GetTitledFirstName] และเมื่อเราพบว่าตัวเองอยู่ตามลำพัง เราก็รีบทั้งดูถูกและลงมือใส่กัน\n\nหลังจากลังเลอยู่ครู่หนึ่งในส่วนของ [owner.GetHerHis] ข้าก็ได้เปรียบในการทะเลาะวิวาท และข้าอดไม่ได้ที่จะเพลิดเพลินกับการมี [owner.GetHerHim] อยู่ในความเมตตาของข้า เช่นนี้ หอบและยอมจำนน"
+ seduce_ongoing.5018.a:0 "การหมอบอยู่ต่อหน้าข้าเหมาะกับเจ้า!"
+ seduce_ongoing.5018.b:0 "นี่มันน่าสมเพช ปล่อยข้าไว้ตามลำพัง"
+
+ seduce_ongoing.5019.desc:0 "ขณะที่ [target.GetTitledFirstName] ยืนอยู่เหนือข้า ข้าไม่สามารถหยุดความสั่นสะท้านของความกลัวที่แล่นขึ้นมาตามกระดูกสันหลังได้เมื่อข้าเห็นความสุขในดวงตาของ [target.GetHerHis] อย่างน้อย [target.GetSheHe] ก็ดูเหมือนจะชื่นชมท่าทางนั้น..."
+ seduce_ongoing.5019.a:0 "ความสั่นสะท้านนั้นเกิดจากความคาดหวัง! จ–จริงๆ!"
+
+ seduce_ongoing.5020.desc:0 "ขณะที่ [target.GetTitledFirstName] ยืนอยู่เหนือข้า ข้าไม่สามารถหยุดความสั่นสะท้านของความกลัวที่แล่นขึ้นมาตามกระดูกสันหลังได้เมื่อข้าเห็นความสุขในดวงตาของ [target.GetHerHis] ขณะที่ [target.GetSheHe] หันหน้าหนีจากข้าด้วยการเยาะเย้ยอย่างขยะแขยง ข้ารู้สึกทั้งโล่งใจและผิดหวัง\n\n"เจ้าไม่สามารถ ทำให้ข้าพอใจได้ ปล่อยข้าไว้ตามลำพัง [ROOT.Char.GetFirstNameNoTooltip]""
+ seduce_ongoing.5020.a:0 "น่าจะดีกว่านี้... แต่ก็แย่กว่านี้ได้!"
+
+ seduce_ongoing.5101.t:0 "พันธะและปรารถนา"
+ seduce_ongoing.5101.desc:1 "[target.GetTitledFirstName] มักพูดกับข้าในลักษณะที่ ทำให้ชัดเจนว่าการรับใช้ข้าของ [target.GetHerHis] สร้างระยะห่างระหว่างเรา\n\nข้าต้อง ทำให้ [target.GetHerHim] เข้าใจว่าข้าต้องการ [target.GetHerHim] มากกว่าในฐานะข้าหลวงของข้า ข้าปรารถนาความอบอุ่น สัมผัส และริมฝีปากอันเย้ายวนนั้นของ [target.GetHerHis]"
+ seduce_ongoing.5101.a:0 "เราเท่าเทียมกันต่อหน้า [ROOT.Char.GetFaith.HighGodNameAlternate] [target.GetFirstNameNoTooltip]!"
+ seduce_ongoing.5101.a.tt:0 "#F ข้าเน้นย้ำความคล้ายคลึงกันของเรา#!"
+ seduce_ongoing.5101.success_tt:0 "หาก [target.GetFirstNameNoTooltip] ตอบสนองในเชิงบวก:"
+ seduce_ongoing.5101.b:0 "มีวิธีอื่นอีกมากที่ท่านจะรับใช้ข้าได้ [target.GetFirstNameNoTooltip]..."
+ seduce_ongoing.5101.b.tt:0 "#F ข้าเน้นย้ำอำนาจของข้า#!"
+ seduce_ongoing.5101.c:0 "ข้าควรเก็บความรู้สึกไว้กับตัวเองก่อนในตอนนี้"
+ seduce_ongoing.5101.c.tt:0 "#F ต้องมีวิธีที่ดีกว่านี้ในการบอกให้ [target.GetHerHim] รู้#!"
+
+ seduce_ongoing.5102.desc:0 ""ข้าอาจเป็น [owner.GetTitleTierName] ของท่าน แต่ข้าคิดเสมอว่าเราเท่าเทียมกัน" เจ้าเหนือหัวของข้า [owner.GetFirstName] มาหาข้า และ ในขณะที่ข้าไม่แน่ใจในตอนแรกว่าทำไม ในไม่ช้ามันก็ชัดเจน "เรา... สิ่งนี้... เราไม่จำเป็นต้องผูกมัดด้วยตำแหน่ง เราเป็นมากกว่าแค่ชื่อ มากกว่านั้นมาก""
+ seduce_ongoing.5102.a:0 "ความสนใจของ [ROOT.Char.Custom2(''RelationToMe'Possessive', SCOPE.sC('owner'))] ของข้านั้นน่าปลาบปลื้ม"
+ seduce_ongoing.5102.b:0 "ข้าไม่ต้องการมากกว่าสิ่งที่เรามีอยู่แล้ว"
+
+ seduce_ongoing.5103.desc:0 "[target.Custom2('RelationToMe', ROOT.Char)] ที่รักของข้า [ROOT.Char.GetTitledFirstName]\nข้าปลาบปลื้มที่ได้ยินท่านบรรยายถึงเราไม่เพียง แต่ในฐานะเจ้าเหนือหัวและข้าหลวง แต่ในหลายๆ ด้านในฐานะผู้เท่าเทียมกัน ขอให้เรามีอนาคตที่สดใสเท่าเทียมกันสำหรับเราทั้งคู่"
+ seduce_ongoing.5103.a:0 "[target.GetFirstNameNoTooltip] ข้าจะได้ท่านมาครอบครอง!"
+
+ seduce_ongoing.5104.desc:0 "[owner.GetFirstName] [target.Custom2('RelationToMe', SCOPE.sC('owner'))] ของข้า!\nสิ่งที่ท่านบอกเป็นนัย สิ่งที่ท่านขอ ไม่เหมาะสมอย่างยิ่ง! ข้ามีพันธะในการรับใช้อาณาจักร แต่อย่าเข้าใจผิดว่าความภักดีของข้าคือความปรารถนา"
+ seduce_ongoing.5104.a:0 "อา แต่ [target.GetFirstNameNoTooltip]..."
+
+ seduce_ongoing.5105.desc:0 ""ท่านรับใช้ข้าได้ดีเสมอมา ภักดีเหลือเกิน" เจ้าเหนือหัวของข้า [owner.GetFirstName] มาหาข้า และ ในขณะที่ข้าไม่แน่ใจในตอนแรกว่าทำไม ในไม่ช้ามันก็ชัดเจน "ข้าปรารถนาท่านไม่เพียง แต่ในฐานะข้าหลวง แต่ในฐานะ [target.GetWomanMan] จงรับใช้ [owner.GetLadyLord] ของท่านในทางนี้ด้วย!""
+ seduce_ongoing.5105.a:0 "ข้าสามารถดูแลท่านในแบบที่ไม่มีใครทำได้"
+ seduce_ongoing.5105.b:0 "ท่านมีพันธะของข้า แต่จะไม่มีวันได้มากกว่านี้"
+
+ seduce_ongoing.5106.desc:0 "[target.Custom2('RelationToMe', ROOT.Char)] ที่รักของข้า [ROOT.Char.GetTitledFirstName]\nข้าปลาบปลื้มที่แม้ แต่ข้า ข้ารับใช้ผู้ต่ำต้อยของท่าน อาจเป็นแรงบันดาลใจให้ท่านในทางนี้ ให้เราดูกันว่าเวลาจะพาเราไปที่ใด"
+
+ seduce_ongoing.5201.t:0 "มากกว่าสหาย"
+ seduce_ongoing.5201.desc:0 "[target.GetFirstName] และข้าเดินทางผ่าน [court_location.Custom('BaronyTownType')] แห่ง [court_location.GetNameNoTier]\n\nขณะที่เรามาถึงจัตุรัสที่มีน้ำพุสวยงาม เราหยุดเพื่อชมกิจกรรมที่คึกคักรอบตัวเรา คณะผู้ติดตามของเราจางหายไปในพื้นหลังชั่วขณะ "
+ seduce_ongoing.5201.a:0 "โยนเหรียญและอธิษฐานขอความรักกันเถอะ!"
+ seduce_ongoing.5201.a.tt:0 "ข้าคิดว่า [target.GetTitledFirstName] กำลังเพ้อฝันถึงเราอยู่แล้ว หรืออย่างน้อยก็เรื่องรักๆ ใคร่ๆ โดยทั่วไป"
+ seduce_ongoing.5201.b:0 "จำครั้งนั้นที่เรา..."
+ seduce_ongoing.5201.b.tt:0 "ข้าคิดว่า [target.GetTitledFirstName] ให้คุณค่ากับมิตรภาพของเราอย่างแท้จริง"
+ seduce_ongoing.5201.c:0 "ข้าจะไม่ ทำให้ช่วงเวลานี้ตกอยู่ในอันตราย"
+
+
+ seduce_ongoing.5202.desc:0 "ขณะที่ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] ของข้า [owner.GetFirstName] และข้า เดินทางผ่าน [court_location.Custom('BaronyTownType')] แห่ง [court_location.GetNameNoTier] เราก็บังเอิญพบจัตุรัสที่มีน้ำพุอันงดงาม\n\n"เราจะโยนเหรียญลงไปพร้อมกันดีหรือไม่ [ROOT.Char.Custom('FormOfAddressForLiege')]? ว่ากันว่ามันจะนำพารักแท้มาให้ท่านนะ...""
+ seduce_ongoing.5202.a:0 "เอาสามเหรียญเลย เพื่อเพิ่มโชค!"
+ seduce_ongoing.5202.b:0 "ฟังดูเหมือนสิ่งที่คู่รักทำ ไม่ใช่เพื่อน"
+
+ seduce_ongoing.5203.desc:0 "[target.GetFirstName] ยินดีที่จะยืนเคียงข้างข้า โยนเหรียญลงไปในน้ำพุและสบตาข้าด้วยรอยยิ้ม\n\nการเดินที่เหลือเต็มไปด้วยบรรยากาศที่เป็นมิตร ซึ่งเกิดจากความปรารถนาร่วมกันของเรา"
+ seduce_ongoing.5203.a:0 "[target.GetSheHe|U] เป็น [target.GetWomanMan] [target.Custom2('ComplimentAdjectiveArticle', ROOT.Char)] อย่างแท้จริง!"
+
+ seduce_ongoing.5204.desc:0 ""ท่านกำลังเล่นเกมโง่ๆ อะไรอยู่ [ROOT.Char.GetFirstNameNoTooltip]?"\n\n[target.GetFirstName] ปฏิเสธคำขอของข้าที่จะอธิษฐานขอความรัก การเดินที่เหลือเต็มไปด้วยความเงียบที่ตึงเครียด และในไม่ช้าเราก็กล่าวอำลากัน"
+ seduce_ongoing.5204.a:0 "อารมณ์ของข้ามืดมนเหมือนความลึกของน้ำพุ..."
+
+ seduce_ongoing.5205.desc:0 "ขณะที่ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] ของข้า [owner.GetFirstName] และข้าเดินทางผ่าน [court_location.Custom('BaronyTownType')] แห่ง [court_location.GetNameNoTier] เราพูดคุยถึงเรื่องเก่าๆ\n\n"จำครั้งนั้นที่เราอ้อยอิ่งอยู่ในความเป็นเพื่อนร่วมทางของกันและกันจนดึกดื่น วางแผนสำหรับอนาคต จินตนาการถึงอนาคตร่วมกัน...?""
+ seduce_ongoing.5205.a:0 "ข้าจะลืมได้อย่างไร?"
+ seduce_ongoing.5205.b:0 "ทำไม [owner.GetSheHe] ถึงพูดถึงคืนที่น่าอายนั้น?!"
+
+ seduce_ongoing.5206.desc:0 "[target.GetFirstName] และข้าใช้เวลาหลายชั่วโมงในการรำลึกถึงอดีต และเล่นตามสมมติฐานเกี่ยวกับอนาคตร่วมกัน\n\nการเดินที่เหลือเต็มไปด้วยบรรยากาศที่เป็นมิตร และข้าอดไม่ได้ที่จะหวังว่าทฤษฎีขี้เล่นบางอย่างของเราจะกลายเป็นความจริง"
+
+ seduce_ongoing.5207.desc:0 ""ท่านเป็นเพื่อนที่ดีมาก [ROOT.Char.GetFirstNameNoTooltip] นั่นเป็นสิ่งที่ข้าไม่อยากเปลี่ยนแปลงเลย""\n\n[target.GetFirstName] ทำให้ชัดเจนว่า [target.GetSheHe] ไม่สนใจการคาดเดาเกี่ยวกับสิ่งที่อาจเกิดขึ้น หรือยังคงเกิดขึ้นได้ ระหว่างเรา การเดินที่เหลือเต็มไปด้วยความเงียบที่ตึงเครียด และในไม่ช้าเราก็กล่าวอำลากัน"
+ seduce_ongoing.5207.a:0 "เอาล่ะ น่าจะดีกว่านี้!"
+
+ seduce_ongoing.5301.t:0 "ชั่วขณะตามลำพัง"
+ seduce_ongoing.5301.desc:0 "ไม่มีใครพบว่ามันแปลกที่ข้านั่งกับ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] ของข้าข้างเตาผิงจนดึกดื่น อย่างไรก็ตาม มีความตึงเครียดอยู่ในอากาศ\n\nข้าไม่ต้องการอะไรมากไปกว่าการดึง [target.GetHerHis] เข้ามาใกล้และฉีกเสื้อผ้าออกจากร่างของ [target.GetHerHis] แต่ถ้า [target.GetSheHe] รู้เรื่องนั้น [target.GetSheHe] คงจะตกใจกลัว หรือ...?"
+ seduce_ongoing.5301.a:0 "มือบนมือของ [target.GetHerHis] จะบอกทุกอย่าง"
+ seduce_ongoing.5301.a.tt:0 "#F ข้าหวังว่าสัญญาณที่ละเอียดอ่อนของข้าจะได้รับการตอบรับเป็นอย่างดี#!"
+ seduce_ongoing.5301.b:0 "เราอยู่ตามลำพัง และข้าจะไม่ปฏิเสธริมฝีปากของ [target.GetHerHis] ต่อตัวเอง"
+ seduce_ongoing.5301.b.tt:0 "#F ข้าหวังว่าความสนใจที่เปิดเผยของข้าจะได้รับการตอบรับเป็นอย่างดี#!"
+ seduce_ongoing.5301.c:0 "มันคงเป็นเรื่องน่าเสียดายอย่างยิ่งที่จะทำลายค่ำคืนที่ยอดเยี่ยม"
+ seduce_ongoing.5301.c.tt:0 "#F จะมีเวลาอื่นอีก [THIS.Char.Custom2('RelationToMe', SCOPE.sC('target'))] ของข้าไม่ได้ไปไหน#!"
+ seduce_ongoing.5301.success_tt:0 "หาก [target.GetFirstName] ตอบรับการเกี้ยวพาราสีของข้า:"
+
+ seduce_ongoing.5302.desc:0 "มันช่างรู้สึกดีเหลือเกิน จนในคราแรกข้าไม่ได้สังเกต แต่ขณะที่เรานั่งอยู่หน้าเตาผิง [owner.GetFirstName] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))]ของข้า ก็กุมมือข้าไว้แน่นด้วยความเร่าร้อนที่เกินกว่าคำยืนยันของ[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))]\n\nข้าสัมผัสได้ถึงชีพจรของ[owner.GetHerHis]ที่เต้นรัวด้วยความปรารถนา"
+ seduce_ongoing.5302.a:0 "ข้าปฏิเสธที่จะเชื่อว่าสิ่งที่ข้ารู้สึกนั้นผิด"
+ seduce_ongoing.5302.b:0 "ข้าปลาบปลื้มกับความสนใจ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] แต่ไม่"
+
+ seduce_ongoing.5303.desc:0 "[target.GetFirstName] ไม่แม้ แต่จะสะดุ้งเมื่อมือของข้ากุมมือ [target.GetHersHis] แม้ว่าเราทั้งคู่จะรู้ว่ามันหมายถึงอะไร ข้ารู้สึกได้ว่าชีพจรของ [target.GetHerHis] สูงขึ้นขณะที่การสนทนาของเราดำเนินต่อไป ฝ่ามือของข้าเหงื่อออกและลมหายใจของข้าตื้นขึ้นก่อน-\n#EMP นั่นอะไร?#! อา แค่คนรับใช้\n\n[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] ของข้าและข้าต่างขอตัว ก่อนที่จะจากไป แยกกัน"
+ seduce_ongoing.5303.a:0 "ข้ารู้ว่าท่านก็รู้สึก เช่นกัน [target.GetFirstNameNoTooltip]"
+
+ seduce_ongoing.5304.desc:0 "ข้าพยายามเล่นตลก แต่ [target.GetFirstName] ได้ตีความเจตนาของข้าอย่างถูกต้อง\n\n"[target.Custom2('RelationToMe', SCOPE.sC('owner'))] ไม่ควร... สิ่งนี้ไม่ควรเกิดขึ้น!" [target.GetSheHe|U] ทิ้งข้าให้นั่งอยู่ตามลำพังข้างกองไฟ"
+ seduce_ongoing.5304.a:0 "ข้ารู้ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] แต่ถึงกระนั้น..."
+
+ seduce_ongoing.5305.desc:0 "มันเกิดขึ้นอย่างกะทันหัน แต่ข้าก็ไม่แปลกใจ ชั่วขณะหนึ่งเรานั่งอยู่ข้างกองไฟ ชั่วขณะต่อมา [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] ของข้าก็เอนตัวเข้ามาใกล้ จากนั้นริมฝีปากของ [owner.GetHerHis] ก็กดลงบนริมฝีปากของข้า มือลูบไล้คอ ไหล่ ต้นขา บั้นเอวของข้า-\n\nเสียงของคนรับใช้ที่เข้ามาใกล้ ทำให้เราแยกจากกันอย่างเร่งรีบ และความคิดของข้าก็ไล่ตามความปรารถนาของข้าทัน"
+ seduce_ongoing.5305.a:0 "รู้สึกราวกับว่าในที่สุดสิ่งต่างๆ ก็ถูกต้อง"
+
+ seduce_ongoing.5306.desc:0 "[target.GetFirstName] ตอบรับจูบของข้า และในช่วงเวลาไม่กี่วินาทีที่หัวใจเต้นแรง ทุกอย่างก็ถูกต้องกับโลก แน่นอนว่ามันไม่สามารถคงอยู่ได้นาน ขณะที่เราแยกจากกันอย่างเร่งรีบก่อนที่จะถูกคนรับใช้ที่เดินผ่านไปมาเห็น\n\nเมื่อเราจากไปเพื่อไปตามทางของเรา [target.GetSheHe] ก็จ้องมองข้า "ข้าไม่เข้าใจอย่างถ่องแท้ จนกระทั่งบัดนี้ [target.Custom2('RelationToMe', SCOPE.sC('owner'))]"
+ seduce_ongoing.5306.a:0 "ท่านและข้า [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] ที่รักที่สุดของข้า"
+
+ seduce_ongoing.5307.desc:0 "[target.GetFirstName] ดูเหมือนจะหลงอยู่ในจูบชั่วขณะ ขณะที่มือของข้าลูบไล้ไปทั่วร่างของ [target.GetHerHis] แสวงหาอย่างหิวโหย จากนั้น [target.GetSheHe] ก็ผลักข้าออกไป "ท่านคิดว่าท่านกำลังทำอะไรอยู่?! ท่านคือ [target.Custom2('RelationToMe', SCOPE.sC('owner'))] ของข้า!"\n\nข้าไม่มีอะไรจะพูด ไม่มีทางอธิบายตัวเอง ก่อนที่ [target.GetSheHe] จะรีบวิ่งออกจากห้องไป"
+ seduce_ongoing.5307.a:0 "[target.GetFirstNameNoTooltip] ข้าคิดจริงๆ ว่า..."
+
+ seduce_ongoing.6001.t:0 "เพียงแค่อยากรู้"
+ seduce_ongoing.6001.desc:0 "ขณะเยี่ยมชมราชสำนักอื่น ข้าพบว่าเป็นประโยชน์ที่จะใช้เวลากับข้าราชสำนักเพื่อทำความรู้จักกับเจ้าเหนือหัวของพวกเขา หากบังเอิญเป็น [target.GetTitledFirstName] ก็ยิ่งดี\n\n[target.GetSheHe|U] ตอบคำถามของข้าอย่างขยันขันแข็ง และข้ารู้สึกราวกับว่าข้าสามารถใช้เวลาทั้งวันในการฟัง และ [target.GetSheHe] ก็ดูพอใจที่จะพูดคุย"
+ seduce_ongoing.6001.a:0 "[target.Custom2('RelationToMe', SCOPE.sC('court_owner'))] ของท่านน่าสนใจ แต่ #EMP ท่าน#! ชอบอะไร?"
+ seduce_ongoing.6001.b:0 "แน่นอนว่าท่านจะกล่าวถึงข้ากับ [court_owner.GetFirstNameNoTooltip] ใช่ไหม?"
+
+ seduce_ongoing.6011.t:0 "การแสดงพลัง"
+ seduce_ongoing.6011.desc:0 "ข้ากำลังเฝ้าดูกองทหารในลานฝึกซ้อมตามที่ข้าสั่ง ซ้ำแล้วซ้ำเล่า ข้าให้ความสนใจอย่างใกล้ชิดจนไม่สังเกตเห็น [target.GetTitledFirstName] เข้ามาข้างๆ ข้า\n\n"พวกเขาเคลื่อนไหวได้ดี แต่ [dummy_gender.GetWomanMan] คนนั้นตามหลังอยู่ครึ่งก้าวตลอดเวลา""
+ seduce_ongoing.6011.a:0 "น่าประทับใจที่สุด! เรามีอะไรเหมือนกันมากกว่าที่ข้าคิด"
+ seduce_ongoing.6011.b:0 "ท่านมีสายตาที่เฉียบแหลม!"
+ seduce_ongoing.6011.c:0 "กลยุทธ์เบี่ยงเบนความสนใจ ดูว่าจะเกิดอะไรขึ้นตอนนี้..."
+
+ seduce_ongoing.6021.t:0 "การพบปะของจิตใจ"
+ seduce_ongoing.6021.desc:0 "ข้าประหลาดใจที่ [target.GetTitledFirstName] และข้าจะติดอยู่กับการสนทนาเรื่องการทหาร แต่ [target.GetSheHe] ดูเหมือนจะหลงใหลในเรื่องนี้เกือบเท่าข้า [target.GetSheHe|U] มีข้อมูลดีอย่างไม่น่าเชื่อ เช่นกัน!"
+ seduce_ongoing.6021.a:0 "ทำไมล่ะ [target.GetFirstNameNoTooltip] ตลอดหลายปีที่ผ่านมาข้าไม่เคยได้ยินอะไรแบบนี้มาก่อน!"
+ seduce_ongoing.6021.b:0 "[target.GetFirstNameNoTooltip] ข้าไม่เคยรู้เลยว่าเรามีอะไรเหมือนกันมากขนาดนี้"
+ seduce_ongoing.6021.c:0 "บอกข้าเพิ่มเติมเกี่ยวกับความคิดของท่านเกี่ยวกับการจัดขบวนทหารม้า..."
+
+ seduce_ongoing.6031.t:0 "ใยแมงมุม"
+ seduce_ongoing.6031.desc:0 "เช่นเดียวกับข้า [target.GetTitledFirstName] ก็มีเครือข่ายสายลับของ [target.GetHerHis] เข้าถึงความรู้ที่ซ่อนอยู่ทุกประเภทเท่าที่จะทำได้ ข้าสามารถปล่อยให้พวกเขา "ค้นพบ" เจตนาของข้าที่มีต่อ [target.GetFirstName] และปล่อยให้ [target.GetHerHim] รู้สึกว่า [target.GetSheHe] เป็นฝ่ายได้เปรียบ"
+ seduce_ongoing.6031.a:0 "ข้าจะปล่อยให้พวกเขารู้ด้วยว่าข้ารู้ว่าพวกเขารู้..."
+ seduce_ongoing.6031.b:0 "ข้าจะ ทำให้แน่ใจว่าสายลับจะพบ #EMP บางสิ่งที่น่าสนใจ.#!"
+ seduce_ongoing.6031.c:0 "โอ้ ช่างเป็นโอกาสที่ดีเยี่ยมในการฝึกฝน!"
+
+ seduce_ongoing.6041.t:0 "ความเข้าใจในเรื่องรักใคร่"
+ seduce_ongoing.6041.desc:0 "ในการแสวงหาความรักจาก [target.GetTitledFirstNamePossessive] มันจะเป็นประโยชน์อย่างยิ่งที่จะรู้ว่ารสนิยมและความชอบของ [target.GetHerHis] คืออะไร..."
+ seduce_ongoing.6041.a:0 "#EMP ปัดโธ่#! นี่ไม่ใช่ความท้าทายเลยด้วยซ้ำ!"
+ seduce_ongoing.6041.b:0 "ข้ามั่นใจว่าข้าสามารถโน้มน้าวให้ [target.GetHerHim] บอกข้าได้"
+ seduce_ongoing.6041.b.success:0 "ข้าเรียนรู้เพิ่มเติมเกี่ยวกับความสนใจของ [target.GetFirstNamePossessive]"
+ seduce_ongoing.6041.b.failure:0 "[target.GetFirstName] หลีกเลี่ยงคำถามของข้า"
+ seduce_ongoing.6041.c:0 "สายลับของข้าจะเปิดโปงเรื่องนี้ในไม่ช้า"
+ seduce_ongoing.6041.c.success:0 "สายลับของข้าประสบความสำเร็จ"
+ seduce_ongoing.6041.c.failure:0 "[target.GetFirstName] หลบเลี่ยงสายลับของข้า"
+ seduce_ongoing.6041.d:0 "รู้อะไรไหม? ข้าจะถามเลย"
+
+ seduce_ongoing.6042.desc:0 "นี่น่าสนใจมาก... [target.GetFirstName] เป็น [target.GetWomanMan] ที่มีรสนิยมดี"
+ seduce_ongoing.6042.a:0 "สิ่งนี้จะช่วยให้ข้าเอาชนะใจ [target.GetHerHis] ได้"
+
+ seduce_ongoing.6043.desc:0 "ดูเหมือนว่าข้าอาจจะเข้าหา [target.GetFirstName] อย่างไม่ละเอียดอ่อนไปหน่อย บัดนี้ [target.GetSheHe] สงสัยว่าทำไมข้าถึงสนใจของมีค่าของ [target.GetHerHis] อย่างไม่มีเหตุผล!"
+ seduce_ongoing.6043.a:0 "นี่ไม่ใช่ลางดีสำหรับข้า"
+
+ seduce_ongoing.6051.t:0 "ม่านแห่งมารยาท"
+ seduce_ongoing.6051.close:0 "ข้าจัดฉากทั้งหมดให้เป็นโอกาสในการฝึกฝนมารยาททางการทูต ข้ามั่นใจว่า [target.GetTitledFirstName] สามารถมองทะลุข้ออ้างของข้าได้ แต่ [target.GetSheHe] ก็ตกลงอยู่ดี"
+ seduce_ongoing.6051.far:0 "การเยี่ยมชมราชสำนักอื่นเป็นข้ออ้างในการแลกเปลี่ยนมารยาททางการทูตเสมอ โชคดีที่ [target.GetTitledFirstName] เต็มใจที่จะช่วยเหลือข้ามากกว่า"
+ seduce_ongoing.6051.end:0 "\n\nสำหรับคนภายนอก การแลกเปลี่ยนของเราอาจฟังดูเหมือนคำพูดที่ว่างเปล่า ซึ่งเป็นไปตามประเพณี อย่างไรก็ตาม สำหรับเรา ความหลงใหลที่ลุกโชนอยู่ภายใต้พื้นผิวของคำพูดของเราคือไฟ"
+ seduce_ongoing.6051.a:0 "อา สดชื่น!"
+ seduce_ongoing.6051.b:0 "คำใบ้บางอย่างที่ท่านให้ข้า [target.GetFirstNameNoTooltip]..."
+ seduce_ongoing.6051.c:0 "ข้าต้องการการฝึกฝน เช่นนี้มากขึ้น"
+
+ seduce_ongoing.7001.t:0 "ภายใต้เปลือกนอกเหล่านั้น"
+ seduce_ongoing.7001.desc:0 "ข้าควรเข้าหา [target.GetTitledFirstName] อย่างไร? [target.GetSheHe|U] ดูเหมือนเป็นคนสงวนท่าทีที่ชอบความเงียบเป็นเพื่อน อย่างน้อยนั่นคือสิ่งที่ [target.GetSheHe] แสดงออกภายนอก ใครจะรู้ว่าตัวตนที่แท้จริงของ [target.GetSheHe] เป็นอย่างไร? [target.GetSheHe] อ่อนน้อมและยอมจำนน หรือบางทีอาจเร่าร้อนและดุเดือด?\n\nข้าจะค้นพบเมื่อข้าได้ทลายเปลือกนอกอันแข็งกระด้างของ [target.GetHerHis] ลงได้ สำหรับตอนนี้ ข้าต้องตัดสินใจว่าจะทำอย่างไรให้ตัวเองยังคงอยู่ในความคิดของ [target.GetHerHis] หลังจากใช้เวลาอยู่ตามลำพัง"
+ seduce_ongoing.7001.a:0 "จงเป็นคนกล้าหาญและมีเสน่ห์ให้มากที่สุด"
+ seduce_ongoing.7001.a.tt:0 "#F ท่านคิดว่า [target.GetFirstNameNoTooltip] มีด้านโรแมนติกที่เป็นความลับและชอบคนรักที่ร้อนแรง#!"
+ seduce_ongoing.7001.b:0 "เข้าหา [target.GetFirstNameNoTooltip] อย่างอ่อนโยน – ในฐานะเพื่อน"
+ seduce_ongoing.7001.b.tt:0 "#F ท่านคิดว่า [target.GetFirstNameNoTooltip] เป็นคนประเภทที่ชอบคนรักที่อ่อนโยน#!"
+ seduce_ongoing.7001.c:0 "ข้าจะรอโอกาสที่เหมาะสม..."
+
+ seduce_ongoing.7101.desc_opening:0 "ข้าจัดการหาเวลาอยู่ตามลำพังกับ [target.GetTitledFirstName] ได้ ข้ารอเวลา สร้างสมดุลระหว่างคำยกยอและการสนทนา จากนั้นเมื่ออารมณ์ที่เหมาะสมเข้ามา "
+ seduce_ongoing.7101.desc_can_touch_arms:0 "ข้าเอื้อมมือออกไปและกุมมือของ [target.GetFirstNamePossessive] ไว้ในมือข้า"
+ seduce_ongoing.7101.desc_cannot_touch_arms:0 "ข้าจับตัวเองได้ว่ากำลังเอื้อมมือไปกุมมือของ [target.GetFirstNamePossessive] แต่ดึงกลับก่อนที่ [target.GetSheHe] จะสังเกตเห็น"
+ seduce_ongoing.7101.desc_closing:0 "ข้าเปิดเผยความรู้สึกที่มีต่อ[target.GetFirstNameNoTooltip] และประกาศความรักอันเป็นนิรันดร์ของข้าที่มีต่อ[target.GetHerHim]\n\n"แม้ แต่ในฝันอันสุดเหวี่ยงของข้า ข้าก็มิอาจจินตนาการได้ว่าท่านจะเร่าร้อนถึงเพียงนี้ [owner.GetFirstNameNoTooltip]!" [target.GetSheHe|U] อุทานขณะพัด[target.GetHerselfHimself]อย่างสิ้นหวัง\n\nแม้ว่า[target.GetSheHe] จะไม่ตอบรับคำประกาศของข้าในทำนองเดียวกัน แต่ข้ามั่นใจว่าสีแดงระเรื่อบนใบหู[target.GetHerHis] นั้นเกิดจากการที่[target.GetHerHim] เขินอายอย่างรุนแรงต่อคำพูดอันอาจหาญของข้า"
+ seduce_ongoing.7101.a:0 "อีกไม่นาน [target.GetSheHe] ก็จะตอบสนองความรู้สึกของข้า"
+ seduce_ongoing.7102.desc:0 "ข้าพยายามสร้างโอกาสสำหรับช่วงเวลาส่วนตัวกับ [target.GetTitledFirstName] แต่อารมณ์โรแมนติกไม่ได้เกิดขึ้นตามธรรมชาติกับ [target.GetHerHim] แม้ว่าข้าจะไม่ประสบความสำเร็จ ข้าก็ตัดสินใจที่จะลงมือทำ แม้ว่าบรรยากาศจะไม่สมบูรณ์แบบ ข้าเอนตัวเข้าไปใกล้ เพื่อที่ข้าจะได้กระซิบถ้อยคำหวานๆ ที่หูของ [target.GetHerHis] แต่ก่อนที่ข้าจะพูดอะไร [target.GetFirstNameNoTooltip] ก็ถอยกลับราวกับถูกไฟลวกและเดินจากไป\n\nข้าไม่แน่ใจว่าปฏิกิริยานั้นเกิดจากความไม่มีประสบการณ์ ความขยะแขยง หรือความเขินอาย อย่างไรก็ตาม ข้ารู้ว่าสิ่งต่างๆ น่าจะดีกว่านี้ได้"
+ seduce_ongoing.7102.a:0 "ข้าควรคิดทบทวนแนวทางของข้าใหม่..."
+ seduce_ongoing.7201.desc:0 ""ข้าอยากรู้จักท่านให้มากขึ้น"\n[target.GetTitledFirstName] ดูตึงเครียดในตอนแรก แต่ผ่อนคลายลงเมื่อเวลาผ่านไปเมื่อ [target.GetSheHe] เริ่มเชื่อว่าไม่มีเจตนาแอบแฝงอยู่เบื้องหลังคำขอของข้า\n\nก่อนที่เราจะจากกัน ข้าขอบคุณ [target.GetFirstNameNoTooltip] สำหรับช่วงเวลาที่น่ารัก และ [target.GetSheHe] พยายามตอบรับรอยยิ้มของข้าด้วยรอยยิ้มที่สั่นเทาของ [target.GetHerHis] เอง แม้ว่าเวลาที่ใช้ไปแทบจะไม่มีอะไรน่าจดจำ แต่ก็ปฏิเสธไม่ได้ว่าข้าไม่เคยเห็น [target.GetFirstNameNoTooltip] ยิ้มมากเท่านี้ในวันเดียว ข้ามั่นใจว่า [target.GetFirstNameNoTooltip] จะคิดถึงข้าไปอีกนาน"
+ seduce_ongoing.7202.desc:1 "การหาเวลาอยู่ตามลำพังกับ [target.GetTitledFirstName] ไม่ใช่เรื่องยาก อย่างไรก็ตาม ปรากฏว่าส่วนที่ท้าทายคือการสนทนาตามปกติกับ [target.GetHerHim] ข้าถามคำถาม [target.GetHerHim] และ [target.GetSheHe] ตอบด้วยคำตอบที่สั้นที่สุดที่ [target.GetSheHe] คิดได้เพียงเพื่อปิดการสนทนาของเรา มันเหมือนกับการถอนฟันที่ไม่สิ้นสุด!"
+ seduce_ongoing.7202.desc_animal:0 "\n\nข้าหยุดคิดไม่ได้ว่าข้าจะได้รับการตอบสนองจาก [ROOT.Char.Custom('GetAnimalType')] ที่ตายแล้วมากกว่าจาก [target.GetFirstNameNoTooltip]"

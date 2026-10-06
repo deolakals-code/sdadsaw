@@ -1,0 +1,142 @@
+﻿l_english: 
+
+ RECENT_HISTORY_TRIGGER:1 "เคยเป็น $HISTORY|V$ เมื่อไม่นานมานี้ (ภายใน $DURATION$)"
+ NOT_RECENT_HISTORY_TRIGGER:1 "#bold ไม่ได้#! เป็น $HISTORY|V$ เมื่อไม่นานมานี้ (ภายใน $DURATION$)"
+ RECENT_HISTORY_TRIGGER_THIRD:1 "#V [TITLE.GetName]#! เคยเป็น $HISTORY|V$ เมื่อไม่นานมานี้ (ภายใน $DURATION$)"
+ NOT_RECENT_HISTORY_TRIGGER_THIRD:1 "#V [TITLE.GetName]#! #bold ไม่ได้#! เป็น $HISTORY|V$ เมื่อไม่นานมานี้ (ภายใน $DURATION$)"
+
+ IS_CONTESTED_TRIGGER:0 "กำลังถูกโต้แย้งใน [war|E]"
+ NOT_IS_CONTESTED_TRIGGER:0 "#bold ไม่ได้#! ถูกโต้แย้งใน [war|E]"
+ IS_CONTESTED_TRIGGER_THIRD:0 "#V [TITLE.GetName]#! กำลังถูกโต้แย้งใน [war|E]"
+ NOT_IS_CONTESTED_TRIGGER_THIRD:0 "#V [TITLE.GetName]#! #bold ไม่ได้#! ถูกโต้แย้งใน [war|E]"
+
+ PLACE_IN_LINE_OF_SUCCESSION_TRIGGER:0 "ลำดับในสายการสืบทอดตำแหน่ง [TARGET_TITLE.GetName] คือ $COMPARATOR$ $NUM|V0$"
+ NOT_PLACE_IN_LINE_OF_SUCCESSION_TRIGGER:0 "ลำดับในสายการสืบทอดตำแหน่ง [TARGET_TITLE.GetName] #bold ไม่ใช่#! $COMPARATOR$ $NUM|V0$"
+ PLACE_IN_LINE_OF_SUCCESSION_TRIGGER_THIRD:0 "ลำดับในสายการสืบทอดตำแหน่ง [TARGET_TITLE.GetName] ของ [CHARACTER.GetShortUINamePossessive|V] คือ $COMPARATOR$ $NUM|V0$"
+ NOT_PLACE_IN_LINE_OF_SUCCESSION_TRIGGER_THIRD:0 "ลำดับในสายการสืบทอดตำแหน่ง [TARGET_TITLE.GetName] ของ [CHARACTER.GetShortUINamePossessive|V] #bold ไม่ใช่#! $COMPARATOR$ $NUM|V0$"
+
+ HAS_SUCCESSION_APPOINTMENT_INVESTORS_TRIGGER: "มีผู้ลงทุนเพื่อ แต่งตั้งให้ดำรงตำแหน่ง [TARGET_TITLE.GetName]"
+ NOT_HAS_SUCCESSION_APPOINTMENT_INVESTORS_TRIGGER: "#bold ไม่มี#! ผู้ลงทุนเพื่อ แต่งตั้งให้ดำรงตำแหน่ง [TARGET_TITLE.GetName]"
+ THIRD_HAS_SUCCESSION_APPOINTMENT_INVESTORS_TRIGGER: "[CHARACTER.GetShortUIName|V] มีผู้ลงทุนเพื่อ แต่งตั้งให้ดำรงตำแหน่ง [TARGET_TITLE.GetName]"
+ NOT_THIRD_HAS_SUCCESSION_APPOINTMENT_INVESTORS_TRIGGER: "[CHARACTER.GetShortUIName|V] #bold ไม่มี#! ผู้ลงทุนเพื่อ แต่งตั้งให้ดำรงตำแหน่ง [TARGET_TITLE.GetName]"
+
+ SUCCESSION_APPOINTMENT_SCORE_INVESTED_TRIGGER: "การลงทุน เพื่อให้ [TARGET_CHARACTER.GetShortUIName] ได้รับการ แต่งตั้งให้ดำรงตำแหน่ง [TARGET_TITLE.GetName] คือ $COMPARATOR$ $NUM|V0$"
+ NOT_SUCCESSION_APPOINTMENT_SCORE_INVESTED_TRIGGER: "การลงทุน เพื่อให้ [TARGET_CHARACTER.GetShortUIName] ได้รับการ แต่งตั้งให้ดำรงตำแหน่ง [TARGET_TITLE.GetName] #bold ไม่ใช่#! $COMPARATOR$ $NUM|V0$"
+ SUCCESSION_APPOINTMENT_SCORE_INVESTED_TRIGGER_THIRD: "การลงทุนของ [CHARACTER.GetShortUINamePossessive|U] เพื่อให้ [TARGET_CHARACTER.GetShortUIName] ได้รับการ แต่งตั้งให้ดำรงตำแหน่ง [TARGET_TITLE.GetName] คือ $COMPARATOR$ $NUM|V0$"
+ NOT_SUCCESSION_APPOINTMENT_SCORE_INVESTED_TRIGGER_THIRD: "การลงทุนของ [CHARACTER.GetShortUINamePossessive|U] เพื่อให้ [TARGET_CHARACTER.GetShortUIName] ได้รับการ แต่งตั้งให้ดำรงตำแหน่ง [TARGET_TITLE.GetName] #bold ไม่ใช่#! $COMPARATOR$ $NUM|V0$"
+
+ PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER:0 "ลำดับในสายการสืบทอดตำแหน่งอยู่ระหว่าง $MINVALUE|V0$ และ $MAXVALUE|V0$"
+ NOT_PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER:0 "ลำดับในสายการสืบทอดตำแหน่ง #bold ไม่ได้#! อยู่ระหว่าง $MINVALUE|V0$ และ $MAXVALUE|V0$"
+ PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER_THIRD:0 "ลำดับในสายการสืบทอดตำแหน่งของ [CHARACTER.GetShortUINamePossessive|V] อยู่ระหว่าง $MINVALUE|V0$ และ $MAXVALUE|V0$"
+ NOT_PLACE_IN_LINE_OF_SUCCESSION_RANGE_TRIGGER_THIRD:0 "ลำดับในสายการสืบทอดตำแหน่งของ [CHARACTER.GetShortUINamePossessive|V] #bold ไม่ได้#! อยู่ระหว่าง $MINVALUE|V0$ และ $MAXVALUE|V0$"
+
+ tier_equal_global: "[title|E] [title_tier|E] คือ $TIER|E$"
+ tier_equal_global_not: "[title|E] [title_tier|E] #bold ไม่ใช่#! $TIER|E$"
+ tier_equal_third: "[title_tier|E] ของ [TITLE.GetNamePossessive] คือ $TIER|E$"
+ tier_equal_third_not: "[title_tier|E] ของ [TITLE.GetNamePossessive] #bold ไม่ใช่#! $TIER|E$"
+ tier_less_than_global: "[title|E] [title_tier|E] ต่ำกว่า $TIER|E$"
+ tier_less_than_third: "[title|E] [title_tier|E] ของ [TITLE.GetNamePossessive] ต่ำกว่า $TIER|E$"
+ tier_less_or_equal_global: "[title|E] [title_tier|E] คือ $TIER|E$ หรือต่ำกว่า"
+ tier_less_or_equal_third: "[title|E] [title_tier|E] ของ [TITLE.GetNamePossessive] คือ $TIER|E$ หรือต่ำกว่า"
+ tier_greater_than_global: "[title|E] [title_tier|E] สูงกว่า $TIER|E$"
+ tier_greater_than_third: "[title|E] [title_tier|E] ของ [TITLE.GetNamePossessive] สูงกว่า $TIER|E$"
+ tier_greater_or_equal_global: "[title|E] [title_tier|E] คือ $TIER|E$ หรือสูงกว่า"
+ tier_greater_or_equal_third: "[title|E] [title_tier|E] ของ [TITLE.GetNamePossessive] คือ $TIER|E$ หรือสูงกว่า"
+
+ main_administrative_tier_first: "ระดับการปกครองหลักของข้าคือ $TIER|E$"
+
+ ROME_HOLDER_IS_CORRECT_FAITH:0 "โรมอยู่ภายใต้การปกครองของ [CHARACTER.GetFaith.GetAdjective]"
+ ROME_HOLDER_IS_NOT_CORRECT_FAITH:0 "โรมไม่ได้อยู่ภายใต้การปกครองของ [CHARACTER.GetFaith.GetAdjective]"
+
+ ALEXANDRIA_HOLDER_IS_CORRECT_FAITH:0 "อเล็กซานเดรียอยู่ภายใต้การปกครองของ [CHARACTER.GetFaith.GetAdjective]"
+ ALEXANDRIA_HOLDER_IS_NOT_CORRECT_FAITH:0 "อเล็กซานเดรียไม่ได้อยู่ภายใต้การปกครองของ [CHARACTER.GetFaith.GetAdjective]"
+
+ JERUSALEM_HOLDER_IS_CORRECT_FAITH:0 "เยรูซาเลมอยู่ภายใต้การปกครองของ [CHARACTER.GetFaith.GetAdjective]"
+ JERUSALEM_HOLDER_IS_NOT_CORRECT_FAITH:0 "เยรูซาเลมไม่ได้อยู่ภายใต้การปกครองของ [CHARACTER.GetFaith.GetAdjective]"
+
+ ANTIOCHEIA_HOLDER_IS_CORRECT_FAITH:0 "อันติโอเคียอยู่ภายใต้การปกครองของ [CHARACTER.GetFaith.GetAdjective]"
+ ANTIOCHEIA_HOLDER_IS_NOT_CORRECT_FAITH:0 "อันติโอเคียไม่ได้อยู่ภายใต้การปกครองของ [CHARACTER.GetFaith.GetAdjective]"
+
+ BYZANTION_HOLDER_IS_CORRECT_FAITH:0 "คอนสแตนติโนเปิลอยู่ภายใต้การปกครองของ [CHARACTER.GetFaith.GetAdjective]"
+ BYZANTION_HOLDER_IS_NOT_CORRECT_FAITH:0 "คอนสแตนติโนเปิลไม่ได้อยู่ภายใต้การปกครองของ [CHARACTER.GetFaith.GetAdjective]"
+
+ FAITH_NOT_HAVE_RITE: "[CHARACTER.GetFaith.GetName|U] มีหลักความเชื่อหลัก [GetFaithDoctrine('tenet_rite').GetBaseName]"
+ FAITH_HAS_RITE: "[CHARACTER.GetFaith.GetName|U] ไม่มีหลักความเชื่อหลัก [GetFaithDoctrine('tenet_rite').GetBaseName]"
+
+
+ HRE_HOLDER_IS_OF_MY_DYNASTY:0 "ผู้ปกครองจักรวรรดิโรมันอันศักดิ์สิทธิ์เป็นสมาชิกของราชวงศ์ [CHARACTER.GetDynastyName]"
+ HRE_HOLDER_IS_NOT_OF_MY_DYNASTY:0 "ผู้ปกครองจักรวรรดิโรมันอันศักดิ์สิทธิ์ไม่ได้เป็นสมาชิกของราชวงศ์ [CHARACTER.GetDynastyName]"
+
+ I_HAVE_THE_TITLE:1 "ท่านถือครอง [title|E] [TARGET_TITLE.GetDefinitiveName]"
+ I_DO_NOT_HAVE_THE_TITLE:1 "ท่าน #bold ไม่ได้#! ถือครอง [title|E] [TARGET_TITLE.GetDefinitiveName]"
+ HAS_THE_TITLE:0 "ถือครอง [title|E] [TARGET_TITLE.GetDefinitiveName] "
+ DOES_NOT_HAVE_THE_TITLE:0 "#bold ไม่ได้#! ถือครอง [title|E] [TARGET_TITLE.GetDefinitiveName]"
+ CHARACTER_HAS_THE_TITLE:0 "[CHARACTER.GetShortUIName|U] ถือครอง [title|E] [TARGET_TITLE.GetDefinitiveName]"
+ CHARACTER_DOES_NOT_HAVE_THE_TITLE:0 "[CHARACTER.GetShortUIName|U] #bold ไม่ได้#! ถือครอง [title|E] [TARGET_TITLE.GetDefinitiveName]"
+
+ MY_PRIMARY_TITLE_IS:1 "[primary_title|E] ของท่านคือ [TARGET_TITLE.GetDefinitiveName]"
+ MY_PRIMARY_TITLE_IS_NOT:1 "[primary_title|E] ของท่าน #bold ไม่ใช่#! [TARGET_TITLE.GetDefinitiveName]"
+ HAS_PRIMARY_TITLE:0 "[primary_title|E] คือ [TARGET_TITLE.GetDefinitiveName]"
+ DOES_NOT_HAVE_PRIMARY_TITLE:0 "[primary_title|E] #bold ไม่ใช่#! [TARGET_TITLE.GetDefinitiveName]"
+ THEIR_PRIMARY_TITLE_IS:0 "[primary_title|E] ของ [CHARACTER.GetShortUINamePossessive] คือ [TARGET_TITLE.GetDefinitiveName]"
+ THEIR_PRIMARY_TITLE_IS_NOT:0 "[primary_title|E] ของ [CHARACTER.GetShortUINamePossessive] #bold ไม่ใช่#! [TARGET_TITLE.GetDefinitiveName]"
+
+ TITLE_IS_IN_REGION:1 "[PROVINCE.GetName] อยู่ในภูมิภาค [GEOGRAPHICAL_REGION.GetName]"
+ TITLE_IS_NOT_IN_REGION:1 "[PROVINCE.GetName] #bold ไม่ได้#! อยู่ในภูมิภาค [GEOGRAPHICAL_REGION.GetName]"
+
+ JERUSALEM_IS_SAME_FAITH:0 "เยรูซาเลมเป็น [CHARACTER.GetFaith.GetAdjective]"
+ JERUSALEM_IS_NOT_SAME_FAITH:0 "เยรูซาเลม #bold ไม่ใช่#! [CHARACTER.GetFaith.GetAdjective]"
+
+ HIGH_PRIESTHOOD_ENOUGH_HOLY_SITES:1 "ท่านควบคุม [holy_sites|E] ของ [CHARACTER.GetFaith.GetAdjective] 3 แห่งหรือมากกว่า"
+ HIGH_PRIESTHOOD_NOT_ENOUGH_HOLY_SITES:1 "ท่านควบคุม [holy_sites|E] ของ [CHARACTER.GetFaith.GetAdjective] น้อยกว่า 3 แห่ง"
+
+ CONSECRATE_BLOODLINE_HIGH_RELIGIOUS_HEAD_OPINION:1 "[opinion|E] ของ [CHARACTER.GetFaith.GetReligiousHead.GetShortUINamePossessive] ที่มีต่อท่านคือ 75 หรือสูงกว่า"
+ NOT_CONSECRATE_BLOODLINE_HIGH_RELIGIOUS_HEAD_OPINION:0 ""
+ CONSECRATE_BLOODLINE_TEMPORAL_RELIGIOUS_HEAD_OPINION:0 ""
+ NOT_CONSECRATE_BLOODLINE_TEMPORAL_RELIGIOUS_HEAD_OPINION:0 ""
+
+ CONSECRATE_BLOODLINE_ENOUGH_HOLY_SITES:1 "ท่านควบคุม [holy_sites|E] ของ [CHARACTER.GetFaith.GetAdjective] อย่างน้อยหนึ่งแห่ง"
+ CONSECRATE_BLOODLINE_NOT_ENOUGH_HOLY_SITES:1 "ท่าน #bold ไม่ได้#! ควบคุม [holy_sites|E] ใด ๆ ของ [CHARACTER.GetFaith.GetAdjective]"
+
+ HAS_REVOCABLE_LEASE_TRIGGER:0 "มีการเช่าที่เพิกถอนได้"
+ HAS_ORDER_OF_SUCCESSION_TRIGGER:0 "มีลำดับการสืบทอดตำแหน่ง"
+ HAS_TITLE_LAW_FLAG_TRIGGER:0 "มีกฎหมายตำแหน่ง: $LAW$"
+ IS_TITULAR_TRIGGER:0 "เป็น [titular_title|E]"
+ FORM_GERMANIA_CHRISTIAN_TRIGGER:0 "ในฐานะผู้ปกครอง [CHARACTER.GetFaith.GetAdjective] ท่านสามารถปฏิรูป $e_hre$ แทนได้"
+ FORM_HISPANIA_MUST_END_STRUGGLE_TRIGGER:0 "$e_spain$ ไม่สามารถก่อตั้งได้จนกว่า [iberian_struggle|E] จะได้รับการแก้ไข"
+ TITLE_HELD_YEARS:0 "ถือครอง $TITLE$ เป็นเวลา $VALUE|V0$ ปี"
+ TITLE_NOT_HELD_YEARS:0 "#bold ไม่ได้#! ถือครอง $TITLE$ เป็นเวลา $VALUE|V0$ ปี"
+ LANDED_TITLE_THIS_EQUAL:0 "คือ $TITLE$"
+
+ appointment_candidate_score_greater_or_equal: "การ แต่งตั้งของ [CHARACTER.GetShortUINamePossessive|U] สำหรับ [TARGET_TITLE.GetName] คืออย่างน้อย $NUM|V0$"
+ appointment_candidate_score_less_than: "การ แต่งตั้งของ [CHARACTER.GetShortUINamePossessive|U] สำหรับ [TARGET_TITLE.GetName] น้อยกว่า $NUM|V0$"
+ appointment_candidate_accumulated_score_greater_or_equal: "การลงทุนสะสมของ [CHARACTER.GetShortUINamePossessive|U] ในการ แต่งตั้งสำหรับ [TARGET_TITLE.GetName] คืออย่างน้อย $NUM|V0$"
+ appointment_candidate_accumulated_score_less_than: "การลงทุนสะสมของ [CHARACTER.GetShortUINamePossessive|U] ในการ แต่งตั้งสำหรับ [TARGET_TITLE.GetName] น้อยกว่า $NUM|V0$"
+
+ is_title_created_first: "[title|E] ถูกสร้างขึ้นแล้ว"
+ is_title_created_third: "[title|E] ถูกสร้างขึ้นแล้ว"
+ is_title_created_global: "[title|E] ถูกสร้างขึ้นแล้ว"
+
+ uses_county_fertility_global: "ใช้[county_fertility|E]"
+ not_uses_county_fertility_global: "ไม่ใช้[county_fertility|E]"
+ uses_county_fertility_third: "[TITLE.GetName]ใช้[county_fertility|E]"
+ not_uses_county_fertility_third: "[TITLE.GetName]#boldมิได้#!ใช้[county_fertility|E]"
+
+ county_fertility_global: "[county_fertility|E]$COMPARATOR$$NUM|V1$"
+ not_county_fertility_global: "[county_fertility|E]#boldไม่#!$COMPARATOR$$NUM|V1$"
+ county_fertility_third: "[county_fertility|E]ใน[TITLE.GetName]$COMPARATOR$$NUM|V1$"
+ not_county_fertility_third: "[county_fertility|E]ใน[TITLE.GetName]#boldไม่#!$COMPARATOR$$NUM|V1$"
+
+ capital_county_equal_first: "[TARGET_TITLE.GetNameNoTier] คือ [capital|E] ของท่าน"
+ capital_county_equal_third: "[TARGET_TITLE.GetNameNoTier] คือ [capital|E] ของ [CHARACTER.GetShortUINamePossessive|U]"
+ capital_county_equal_global: "[TARGET_TITLE.GetNameNoTier] คือ [capital|E]"
+ 
+ is_de_jure_liege_or_above_target_first: "$is_de_jure_liege_or_above_target_global$"
+ is_de_jure_liege_or_above_target_third: "$is_de_jure_liege_or_above_target_global$"
+ is_de_jure_liege_or_above_target_global: "[TITLE.GetName] คือ [liege|E] [de_jure|E] ของ [TARGET_TITLE.GetName]"
+ not_is_de_jure_liege_or_above_target_first: "$not_is_de_jure_liege_or_above_target_global$"
+ not_is_de_jure_liege_or_above_target_third: "$not_is_de_jure_liege_or_above_target_global$"
+ not_is_de_jure_liege_or_above_target_global: "[TITLE.GetNameNoTier] #bold ไม่ใช่#! [liege|E] [de_jure|E] ของ [TARGET_TITLE.GetNameNoTier]"
+
+ title_law_group_at_minimum_level: "[LawGroup.GetName] อยู่ในระดับต่ำสุด"
+ title_law_group_at_maximum_level: "[LawGroup.GetName] อยู่ในระดับสูงสุด"

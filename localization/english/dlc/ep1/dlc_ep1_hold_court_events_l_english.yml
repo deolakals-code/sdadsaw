@@ -1,0 +1,40 @@
+﻿l_english: 
+ ## Custom Loc
+ nc_fbeauty:0 "งดงาม"
+ nc_mbeauty:0 "หล่อเหลา"
+ nc_charming:0 "มีเสน่ห์"
+ nc_intelligent:0 "เฉลียวฉลาด"
+ nc_wellborn:0 "เกิดในตระกูลสูงศักดิ์"
+ rwh_empress:0 "จักรพรรดินีมเหสี"
+ rwh_emperor:0 "จักรพรรดิราชสวามี"
+ rwh_queen:0 "ราชินีมเหสี"
+ rwh_king:0 "เจ้าชายพระสวามี"
+ rwh_duchess:0 "ดัชเชส"
+ rwh_duke:0 "ดยุก"
+ rwh_countess:0 "เคาน์เตส"
+ rwh_count:0 "เคานต์"
+ rwh_wife:0 "ภรรยา"
+ rwh_husband:0 "สามี"
+ gbm_angel:0 "นางฟ้า"
+ gbm_valkyrie:0 "วัลคีรี"
+ gbm_aphrodite:0 "อโฟรไดท์"
+ gbm_adonis:0 "อะโดนิส"
+ gbm_rati:0 "รตี"
+ gbm_kamadeva:0 "กามเทพ"
+ gbm_lilith:0 "ลิลิธ"
+ gbm_default:0 "เทพี"
+ gbm_male_default:0 "เทพบุตร"
+ 
+ ## Modifiers
+ # Event Interaction Modifiers
+ event_bonus_to_county_control:0 "เชี่ยวชาญการควบคุมฝูงชน"
+ event_bonus_to_county_control_desc:0 "ตัวละครนี้มีประสิทธิภาพมากขึ้นในภารกิจสภา $task_increase_control$"
+ event_bonus_to_agent_invite:0 "จ้าวแห่งอุบาย"
+ event_bonus_to_agent_invite_desc:0 "ตัวละครนี้จะเชิญผู้ร่วมแผนการเข้าสู่แผนการของตนได้ง่ายขึ้น"
+ event_bonus_to_vassal_accept:0 "นักเจรจาผู้เชี่ยวชาญ"
+ event_bonus_to_vassal_accept_desc:0 "ตัวละครนี้จะได้รับโบนัสการยอมรับ +20 ในครั้งต่อไปที่พวกเขาร้องขอให้ตัวละครอื่นมาเป็นข้าในบังคับของตน"
+ # Interaction Bonuses
+ BONUS_TO_AGENT_RECRUITMENT:0 "จ้าวแห่งอุบาย: $VALUE|=+0$"
+ event_bonus_to_vassal_accept_tt:0 "ท่านมีชื่อเสียงในฐานะผู้ปกครองที่ยุติธรรม: $VALUE|=+0$"
+ # Council Task Bonuses
+ INCREASE_COUNTY_CONTROL_EXPERIENCE_BONUS_VALUE:0 "[councillor.GetCouncilTitle] [councillor.GetFirstName] มีประสบการณ์ในการรับมือกับฝูงชน"

@@ -1,0 +1,68 @@
+﻿l_english: 
+ # Tell the player that Hybridising is a thing they SHOULD do, whether or not they can currently
+ reactive_advice_should_form_hybrid_culture:0 "วัฒนธรรมผสม"
+ action_reactive_advice_should_form_hybrid_culture:0 "$open_tutorial_lesson$$reactive_advice_should_form_hybrid_culture$"
+ action_reactive_advice_should_form_hybrid_culture_desc:0 "ดำเนินการเพื่อสร้าง[hybrid_culture|E]กับชาว[culture.GetCollectiveNoun]"
+ action_reactive_advice_should_form_hybrid_culture_click:0 "$click_to_open_lesson$"
+ lessons_ep1_form_hybrid_culture: "$reactive_advice_should_form_hybrid_culture$"
+ lessons_ep1_should_form_hybrid_culture_desc: "ท่านสามารถสร้าง[hybrid_culture|E]กับ[culture|E]นี้ได้ หาก[cultural_acceptance|E]สูงเพียงพอและวัฒนธรรมของท่านมีอายุมากกว่า 50 ปี!\n\nนี่หมายความว่าท่านจะสร้างวัฒนธรรมใหม่ โดยมีส่วนประกอบจากทั้งวัฒนธรรมของท่านและวัฒนธรรมอื่น\n\nท่านสามารถเพิ่มการยอมรับทางวัฒนธรรมได้โดย:\n$EFFECT_LIST_BULLET$มอบ[counties|E]ของวัฒนธรรมนี้ให้แก่[characters|E]ของวัฒนธรรมนี้\n$EFFECT_LIST_BULLET$ใช้[councillor_task|E] [accept_culture|E]\n$EFFECT_LIST_BULLET$เพิ่ม[culture_intermingling|E]\n$EFFECT_LIST_BULLET$มี[vassals|E]ของวัฒนธรรมนี้\n\nหากท่านมีการยอมรับทางวัฒนธรรมสูงและมีเคาน์ตีของวัฒนธรรมนั้นอย่างน้อยหนึ่งแห่งอยู่ใน[realm|E]ของท่าน ท่านก็สามารถสร้างวัฒนธรรมผสมได้!"
+ lessons_ep1_hybrid_culture_benefits: "ประโยชน์ของวัฒนธรรมผสม"
+ lessons_ep1_hybrid_culture_benefits_desc: "การสร้างวัฒนธรรมผสมมีประโยชน์หลายประการ:\n\n$EFFECT_LIST_BULLET$ท่านจะสามารถเลือก[culture_pillars|E]และ[culture_traditions|E]จากวัฒนธรรมต้นกำเนิดใดก็ได้\n$EFFECT_LIST_BULLET$วัฒนธรรมใหม่ของท่านจะสืบทอด[innovations|E]ทั้งหมดจากวัฒนธรรมต้นกำเนิดทั้งสอง\n$EFFECT_LIST_BULLET$วัฒนธรรมใหม่ของท่านจะมีการยอมรับทางวัฒนธรรมสูงกับวัฒนธรรมต้นกำเนิดทั้งสอง\n$EFFECT_LIST_BULLET$วัฒนธรรมผสมสามารถเปลี่ยนดินแดนของวัฒนธรรมต้นกำเนิดได้เร็วกว่ามากเป็นเวลาหลายปีหลังจากก่อตั้ง"
+
+#Royal Court Feature
+ 
+ action_reactive_advice_royal_court:0 "$open_tutorial_lesson$$ra_rc_intro$"
+ action_reactive_advice_royal_court_desc:0 "เปิดสิ่งนี้เพื่อดูบทนำเกี่ยวกับราชสำนักของท่าน"
+ action_reactive_advice_royal_court_click:0 "$click_to_open_lesson$"
+ reactive_advice_royal_court: "$ra_rc_intro$"
+
+ ra_rc_intro:0 "ราชสำนัก"
+ ra_rc_intro_desc:2 "บัดนี้ท่านสามารถเข้าถึง[royal_court|E]ของท่านเองได้แล้ว!\n\nราชสำนักเป็นราชสำนักประเภทพิเศษ ซึ่งแสดงถึงการปรากฏตัวอันยิ่งใหญ่ของท่านบนเวทีโลก เปิดโอกาสให้เข้าถึงทางเลือกและผลประโยชน์ใหม่ๆ มากมาย\n\nมีให้สำหรับ[kings|E]และ[emperors|E]ของ[government|E]แบบ[GetGovernment( 'feudal_government' ).GetName], [GetGovernment( 'clan_government' ).GetName], [GetGovernment( 'tribal_government' ).GetName] และ [GetGovernment( 'administrative_government' ).GetName]"
+
+ ra_rc_open:0 "$ra_rc_intro$"
+ ra_rc_open_desc:0 "ท่านสามารถทำสิ่งต่างๆ มากมายใน[royal_court|E]ของท่าน โปรดสำรวจทางเลือกเหล่านี้ได้ตามอัธยาศัย!\n\nสำหรับตอนนี้ ให้เราสำรวจการกระทำใหม่ๆ ทั้งหมดที่มีให้ท่านอย่างรวดเร็ว"
+ ra_rc_open_prompt:0 "เปิดราชสำนัก (เน้นสี)"
+
+ ra_rc_throne_room_open:0 "$ra_rc_intro$"
+ ra_rc_throne_room_open_desc:0 "เพื่อดำเนินการต่อ ให้เรากลับไปยังห้องพระโรง"
+ ra_rc_throne_room_open_prompt:0 "เปิดแท็บห้องพระโรง (เน้นสี)"
+
+ ra_rc_throne_room:0 "$ra_rc_intro$"
+ ra_rc_throne_room_desc:1 "นี่คือห้องพระโรงของท่าน สถานการณ์และ[court_events|E]ต่างๆ อาจเกิดขึ้นที่นี่เป็นครั้งคราว และท่านสามารถเลือกที่จะแทรกแซงสิ่งที่กำลังดำเนินอยู่ได้"
+
+ ra_rc_hold_court:0 "ว่าราชการ"
+ ra_rc_hold_court_desc:1 "หากท่านรู้สึกว่าห้องพระโรงของท่านไม่คึกคักเพียงพอ ท่านสามารถ[hold_court|E]ได้ การทำ เช่นนี้จะเป็นการเชิญผู้ร้องทุกข์จากทั่วทั้ง[realm|E]ของท่าน เพื่อนำปัญหาของพวกเขามาสู่การตัดสินอันชาญฉลาดของท่าน"
+
+ ra_rc_grandeur_open:0 "$ra_rc_grandeur$"
+ ra_rc_grandeur_open_desc:0 "อย่างไรก็ตาม อาจไม่มีผู้ใดอยากมายัง[royal_court|E]ของท่านหากไม่เป็นที่รู้จักดีนัก! ต่อไป ให้เรามาดูความโอ่อ่าของราชสำนักกัน!"
+ ra_rc_grandeur_open_prompt:0 "เปิดแท็บความโอ่อ่าของราชสำนัก (เน้นสี)"
+
+ ra_rc_grandeur:0 "ความโอ่อ่าของราชสำนัก"
+ ra_rc_grandeur_desc:0 "[grandeur_level|E]ของท่านเป็นเครื่องวัดว่า[royal_court|E]ของท่านมีชื่อเสียงเพียงใด\n\nปัจจัยต่างๆ ส่งผลต่อ[grandeur|E]ของท่าน แต่แหล่งที่มาหลักคือ[amenities|E]และ[court_artifacts|E]\n\nเมื่อ[realm|E]ของท่านใหญ่ขึ้น ท่านจะถูกคาดหวังให้มีระดับความโอ่อ่าที่สูงขึ้น: สิ่งนี้เรียกว่า[grandeur_expectations|E]"
+
+ ra_rc_amenities:0 "สิ่งอำนวยความสะดวกในราชสำนัก"
+ ra_rc_amenities_desc:0 "[amenities|E]คือบริการและความสะดวกสบายต่างๆ ที่ท่านมอบให้กับทุกคนที่เข้าร่วม[royal_court|E]ของท่าน แต่ละอย่างให้ประโยชน์ในตัวเอง และทั้งหมดส่งผลต่อ[grandeur|E]\n\nทั้งหมดมีค่าใช้จ่ายเป็น[gold|E]ทุกเดือน ดังนั้นโปรดระมัดระวังอย่าใช้จ่ายเกินตัว!"
+
+ ra_rc_court_types_and_language:0 "ประเภทราชสำนักและภาษาในราชสำนัก"
+ ra_rc_court_types_and_language_desc:0 "หากท่านต้องการเจาะลึกเกี่ยวกับ[grandeur|E] ท่านสามารถสำรวจ[court_types|E]และ[court_language|E]ได้\n\nประเภทราชสำนักส่งผลต่อสิ่งที่[grandeur_levels|E]บางระดับมอบให้ท่าน ในขณะที่การเปลี่ยนภาษาในราชสำนักอาจเพิ่ม[grandeur|E]ทั้งหมดของท่านได้"
+
+ ra_rc_artifacts_open:0 "$ra_rc_artifacts$"
+ ra_rc_artifacts_open_desc:0 "สุดท้ายนี้ ให้เรามาดูสิ่งประดิษฐ์ในราชสำนัก ซึ่งเป็นอีกแหล่งหนึ่งของ[grandeur|E] รวมถึงประโยชน์อื่นๆ"
+ ra_rc_artifacts_open_prompt:0 "เปิดแท็บสิ่งประดิษฐ์ในราชสำนัก (เน้นสี)"
+
+ ra_rc_artifacts:0 "สิ่งประดิษฐ์ในราชสำนัก"
+ ra_rc_artifacts_desc:0 "ที่นี่ ท่านสามารถเลือกได้ว่าจะแสดง[court_artifacts|E]ใดใน[royal_court|E]ของท่าน\n\nสิ่งประดิษฐ์ในราชสำนักคือ[artifacts|E]พิเศษ เช่น รูปปั้นและพรมแขวนผนัง ที่ท่านสามารถนำมาจัดแสดงได้ สิ่งเหล่านี้ให้โบนัสต่างๆ และหลายชิ้นยังให้[grandeur|E]แก่ท่านด้วย\n\nบัดนี้ ให้เรากลับไปยังห้องพระโรง"
+
+ ra_rc_conclusion:0 "$ra_rc_intro$"
+ ra_rc_conclusion_desc:0 "นี่คือจุดสิ้นสุดของการนำชม[royal_court|E]ของท่าน\n\nสำหรับตอนนี้ เชิญทดลองทำสิ่งใดก็ได้ที่ท่านต้องการ เราขอแนะนำให้ท่าน[hold_court|E]เพื่อเฉลิมฉลองสถานะใหม่ของท่าน!"
+
+ #Fund Inspiration
+ lessons_ep1_fund_inspiration:0 "สนับสนุนแรงบันดาลใจ"
+ ra_inspiration_open_desc:0 "ตอนนี้ท่านสามารถสนับสนุน[inspiration|E]แรกของท่านได้แล้ว แรงบันดาลใจคือความปรารถนาของตัวละครที่จะสร้าง[artifact|E]ให้เป็นจริง\n\n[characters|E]ที่[inspired|E]จะเดินทางเข้าออกจาก[royal_courts|E]อันทรงเกียรติที่สุดของโลก เมื่อมีคนแวะมาที่ราชสำนักของท่าน ท่านจะได้รับการแจ้งเตือนและเชิญให้[sponsor|E][project|E]ของตัวละครนี้\n\nโดยการจ่าย[gold|E]จำนวนต่างๆ กัน ท่านสามารถรับรองบริการของตัวละครนี้ และหลังจากนั้นไม่นาน ก็จะได้รับสิ่งประดิษฐ์ใหม่!"
+ ra_inspiration_open:0 "แรงบันดาลใจ"
+ ra_inspiration_court_view:0 "การค้นหาแรงบันดาลใจ"
+ ra_inspiration_court_view_desc:0 "ภายใน[royal_court|E]ของท่าน ท่านสามารถเห็น[inspirations|E]ทั้งหมดที่มีอยู่ในราชสำนักของท่านทางด้านซ้าย\n\nท่านสามารถตรวจสอบสถานะได้โดยคลิกที่ไอคอน (เน้นสี)"
+ ra_inspiration_court_view_prompt:0 "คลิกที่ไอคอนแรงบันดาลใจ (เน้นสี)"
+ ra_inspiration_funding:0 "การสนับสนุนแรงบันดาลใจ"
+ ra_inspiration_funding_desc:0 "ที่นี่ ท่านสามารถเห็นตัวละครที่ได้รับแรงบันดาลใจ สิ่งที่พวกเขาตั้งใจจะสร้าง ทักษะของพวกเขาดีเพียงใด ท่านสามารถสนับสนุนแรงบันดาลใจได้หรือไม่ และจะต้องเสียค่าใช้จ่ายเท่าใด\n\nหากแรงบันดาลใจกำลังดำเนินอยู่ ท่านสามารถดูได้ว่าจะใช้เวลานานเท่าใดจึงจะเสร็จสมบูรณ์ หากยังไม่ได้เริ่ม ท่านก็สามารถเริ่มได้"
+ reactive_advice_fund_inspiration: "$lessons_ep1_fund_inspiration$"

@@ -1,0 +1,26 @@
+﻿l_english: 
+ title_event_francia_name_change.title:0 "อวสานแห่งยุคสมัย"
+ title_event_francia_name_change.desc:0 "รัชสมัยแห่งราชวงศ์การ์ลิงได้สิ้นสุดลงแล้ว!\n\nในที่สุด [francia_title.GetName] ก็หลุดลอยไปจากเงื้อมมือของพวกเขา เมื่อราชวงศ์การ์ลิงถูกขจัดออกไป ดินแดนเหล่านี้ก็มิได้เป็นส่วนหนึ่งของจักรวรรดิเก่าแก่ของพวกเขาอีกต่อไปอย่างแท้จริง\n\nด้วยข้าพเจ้าในฐานะ [ROOT.Char.GetTitleAsNameNoTooltip] ในอนาคต เรามีชะตากรรมใหม่ที่สดใสรออยู่เบื้องหน้า ดังนั้น จึงเป็นการเหมาะสมอย่างยิ่งที่จะขจัด #EMP สิ่งเตือนใจใดๆ และทั้งหมด #! ถึงอิทธิพลของพวกเขาออกไป รวมถึง #EMP ชื่อ #! ของมันเองด้วย!"
+ title_event_francia_name_change.a:0 "ศักราชใหม่เริ่มต้นขึ้นแล้ว!"
+ title_event_francia_name_change.a_tt_1:0 "[francia_title.GetName] เปลี่ยนชื่อเป็น #high $k_france$#!"
+ title_event_francia_name_change.a_tt_2:0 "[francia_title.GetName] เปลี่ยนชื่อเป็น #high $k_germany$#!"
+
+ title_event.0012.t:0 "การแบ่งมงกุฎ"
+ title_event.0012.desc:0 "ด้วยการก่อตั้ง [castille.GetName] และราชบัลลังก์แห่ง [asturias.GetBaseNameNoTier] เก่าแก่ว่างลง ในที่สุดราชอาณาจักรแห่งเปลากิอุสก็เติบใหญ่เกินกว่าเดิม ส่วนที่เหลือของมันจะถูกรู้จักในนาม [leon.GetBaseNameNoTier] ตลอดไป อย่างน้อยก็จนกว่าส่วนนั้นจะถูกบดบังรัศมีด้วยการผงาดขึ้นของ [castille.GetBaseNameNoTierNoTooltip]"
+ title_event.0012.a:0 "ตามที่ควรจะเป็น"
+
+ title_event.0013.t:0 "$title_event.0012.t$"
+ title_event.0013.desc:0 "บัดนี้เมื่อข้าพเจ้าครองราชบัลลังก์ทั้งของ [asturias.GetBaseNameNoTier] และ [castille.GetBaseNameNoTier] ที่แยกจากกัน แนวคิดเรื่อง [asturias.GetNameNoTooltip] ที่เป็นปึกแผ่นจึงถูกพิจารณาว่าค่อนข้างสับสนและซ้ำซ้อนอยู่บ้างโดยหลายคน\n\nแทนที่จะเป็น เช่นนั้น เหล่าขุนนางและสามัญชนต่างเริ่มอ้างถึงดินแดนครึ่งตะวันตกของข้าพเจ้าโดยพาดพิงถึงส่วนในแผ่นดินที่โดดเด่นกว่า คือ [leon.GetBaseNameNoTier]"
+ title_event.0013.a:0 "สองมงกุฎย่อมดีกว่าหนึ่ง!"
+
+ title_event.0014.t:0 "$title_event.0012.t$"
+ title_event.0014.desc:0 "การก่อตัวขึ้นเมื่อเร็วๆ นี้ของ [castille.GetBaseName] อิสระ ซึ่งปกครองโดย [castille_char.Custom2('MyCharacterIntroduction' leon_char)] ได้ทำลายการอ้างสิทธิ์ของอาณาจักรข้าพเจ้าในการเป็น [asturias.GetBaseName]\n\nเมื่อดินแดนทางตะวันออกของเราสูญเสียไปอย่างมั่นคง เราจึงถูกครอบงำโดยพื้นที่ส่วนในแผ่นดินของ [leon.GetBaseNameNoTier] และผู้คนทุกชนชั้นและนิกายต่างกำลังละทิ้งบรรดาศักดิ์เก่าแก่ไป"
+ title_event.0014.a:0 "พวกแบ่งแยกดินแดน!"
+ title_event.0014.b:0 "สักวันเราจะทวงคืนดินแดนเหล่านั้นกลับมา..."
+ title_event.0014.c:0 "ไชโย! #EMP ราชอาณาจักร #! ทั้งหมดของสหาย!"
+
+ title_event.0015.t:0 "$title_event.0012.t$"
+ title_event.0015.desc:0 "ด้วยการก่อตั้ง [castille.GetBaseName] ขึ้นเมื่อเร็วๆ นี้ [leon_char.Custom2('MyCharacterIntroduction', castille_char)] ไม่อาจกล่าวได้อีกต่อไปว่าปกครอง [asturias.GetBaseNameNoTier] ที่เป็นปึกแผ่นอย่างแท้จริง\n\nหากปราศจากพลังถ่วงดุลจากดินแดนของข้าพเจ้าทางตะวันออก อดีต-[asturias.GetBaseNameNoTierNoTooltip] ก็เป็นเพียง [leon.GetBaseName] เท่านั้น ไพร่ นักบวช และแม้ แต่ขุนนางต่างก็เริ่มเรียกขาน เช่นนั้น สร้างความขุ่นเคืองใจให้ข้าพเจ้ายิ่งนัก"
+ title_event.0015.a:0 "อำนาจกลับคืนสู่ที่ที่ควรจะเป็นเสมอมา"
+ title_event.0015.b:0 "วันนี้ กัสติยา พรุ่งนี้ #EMP เลออน #!"
+ title_event.0015.c:0 "เราอาจถูกแบ่งแยกในการปกครอง แต่เราผูกพันกันด้วยสายเลือด!"

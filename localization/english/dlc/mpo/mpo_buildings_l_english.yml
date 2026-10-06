@@ -1,0 +1,11 @@
+﻿l_english: 
+ 
+ building_type_nomadic_camp_01: "นิคมชนเร่ร่อน"
+ building_type_nomadic_camp_01_desc: "หมู่กระโจมเยิร์ตช่วยขับไล่ความอ้างว้างแห่งทุ่งหญ้าสเตปป์ ทุกสิ่ง ณ ที่แห่งนี้สามารถเก็บข้าวของและเคลื่อนย้ายไปยังที่ตั้งแห่งใหม่ ซึ่งอุดมสมบูรณ์ยิ่งกว่า"
+ building_nomadic_camp_01: "$building_type_nomadic_camp_01$"
+ building_nomadic_camp_01_desc: "$building_type_nomadic_camp_01_desc$"
+
+ building_type_herder_camp_01: "คอกผู้เลี้ยงสัตว์"
+ building_type_herder_camp_01_desc: "กระโจมเยิร์ตเล็กๆ สองสามหลังตั้งอยู่อย่างอึดอัดคับแคบ ล้อมรอบด้วยกำแพงชั่วคราวที่ทำจากดินและมูลสัตว์ ซึ่งกำบังฝูงปศุสัตว์จากลมกระโชกแรง และยังใช้เป็นเชื้อเพลิงสำหรับก่อกองไฟได้อีกด้วย"
+ building_herder_camp_01: "$building_type_herder_camp_01$"
+ building_herder_camp_01_desc: "$building_type_herder_camp_01_desc$"

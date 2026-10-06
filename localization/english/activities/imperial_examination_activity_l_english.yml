@@ -1,0 +1,152 @@
+﻿l_english: 
+ ### SETUP
+ activity_imperial_examination: "การสอบหลวง"
+ activity_imperial_examination_plural: "การสอบหลวง"
+ activity_imperial_examination_destination_selection: "ท่านสามารถจัด $activity_imperial_examination$ ได้ใน[capital|E]ของท่านเท่านั้น"
+ activity_imperial_examination_not_hegemon: "ท่าน #bold ไม่#! ได้ถือครอง[title|E]ระดับ[hegemony|E]"
+ activity_imperial_examination_selection_tooltip: "จงจัด [GetActivityType('activity_imperial_examination').GetName] เพื่อประเมินทักษะและ[merit|E]ของเหล่าข้าแผ่นดินของท่าน $activity_imperial_examination_host_rewards$"
+ activity_imperial_examination_desc: "นับเป็นเกียรติและหน้าที่ของพวกเราในการค้ำจุนโครงสร้างและจัดแจงการสอบเหล่านี้ การสอบนี้ช่วยให้เราสามารถประเมิน, ตัดสิน และมอบ[merit|E]แก่ปัจเจกชนผู้เหมาะสมที่สุด — เพื่อรับประกันความเจริญรุ่งเรืองแห่งอาณาจักรในอนาคต"
+ activity_imperial_examination_host_desc: "$activity_imperial_examination_host_rewards$$activity_imperial_examination_guest_rewards$"
+ activity_imperial_examination_host_rewards: "\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i|E] [prestige|E]"
+ activity_imperial_examination_guest_desc: "\n$BULLET_WITH_TAB$โอกาสในการสำเร็จ @metropolitan_exam_icon! #V การสอบระดับมหานคร#!\n$BULLET_WITH_TAB$โอกาสในการสำเร็จ @palace_exam_icon! #V การสอบระดับราชสำนัก#!\n$BULLET_WITH_TAB$อาจเพิ่ม [trait_level_track_xp|E] ของ [GetTrait('confucian_education').GetName( GetNullCharacter )] ของท่าน\n$BULLET_WITH_TAB$อาจเพิ่ม [merit|E] ของท่าน\n$BULLET_WITH_TAB$ @alert_icon! #alert_trial หากท่านไม่รู้ [language|E] [host.GetCulture.GetLanguage.GetName] โอกาสสำเร็จของท่านจะลดลงอย่างมาก!#![SelectLocalization( Scope.HasFlag('passed_provincial_exam'), 'blank_line', 'activity_imperial_examination_warning' )]"
+ activity_imperial_examination_warning: "\n#indent_newline:8 $BULLET_WITH_TAB$ @warning_icon! #color_red เนื่องจากท่านยังไม่ผ่าน @provincial_exam_icon! [provincial_examination|E] ท่านจึงมีแนวโน้มสูงที่จะสอบตก!#!"
+ activity_imperial_examination_guest_rewards: "\n$BULLET_WITH_TAB$อาจรับสมัครตัวละครผู้มีทักษะสูง\n$BULLET_WITH_TAB$ผู้เข้าร่วมอาจได้รับ [trait_level_track_xp|E] ของ [GetTrait('confucian_education').GetName( GetNullCharacter )]\n$BULLET_WITH_TAB$ผู้เข้าร่วมอาจได้รับ [merit|E]"
+ imperial_examination_base_cost: "ค่าใช้จ่ายพื้นฐาน"
+
+ activity_imperial_examination_with_icon: "$activity_imperial_examination$ @metropolitan_exam_icon! @palace_exam_icon!"
+ activity_imperial_examination_can_complete_tt: "$activity_imperial_examination_not_available_tt$"
+ activity_imperial_examination_expected_frequency: "คาดว่าจะจัดขึ้นทุก #V 5#! ปี"
+ activity_imperial_examination_not_available_tt: "#T [GetActivityType( 'activity_imperial_examination' ).GetNameNoTooltip]#!\nณ [activity|E] นี้ ผู้เข้าสอบสามารถสำเร็จ:\n@metropolitan_exam_icon! การสอบมหานคร\n@palace_exam_icon! การสอบหน้าพระที่นั่ง\n\n$activity_imperial_examination_expected_frequency$"
+
+ # Province Selection
+ activity_imperial_examination_province_kaifeng_palace_desc: "#P ++ $building_type_kaifeng_palace_01$#!"
+ activity_imperial_examination_province_examination_hall_desc: "#P ++ $building_type_examination_hall_01$#!"
+
+ #Activity Window Characters
+ activity_window_character_player_entrant_traveling: "$activity_window_character_player_entrant$"
+ activity_window_character_player_entrant: "$activity_window_character_entrant$"
+ activity_window_character_entrant: "[entrant|E]\n[Character.GetShortUINameNoTooltip|U]"
+ activity_window_character_examiner: "ผู้คุมสอบ\n[Character.GetShortUINameNoTooltip|U]"
+ activity_window_character_minister_of_rites: "[minister_of_rites|E]\n[Character.GetShortUINameNoTooltip|U]"
+
+ activity_imperial_examination_guest_help_text: "[activity_guests|E] ใดก็ตามที่มีสิทธิ์ในการสอบสามารถพยายามทำข้อสอบได้ การสอบผ่านหมายถึง[merit|E]ที่มากขึ้นแก่ผู้เข้าสอบ รวมถึง[prestige|E]ที่มากขึ้นสำหรับ[activity_host|E]ด้วย แม้ว่าแขกจะไม่ได้รับอนุญาตให้เข้าไปในห้องสอบ พวกเขาก็อาจใช้อิทธิพลของตนเพื่อสนับสนุนผู้เข้าสอบในหนทางต่าง ๆ\n\nการสอบถือเป็นโอกาสอันสมบูรณ์แบบในการสร้างสายสัมพันธ์และสร้างความประทับใจให้เหล่าผู้คุมสอบ, ซึ่งอาจนำไปสู่การได้ผู้อาวุโสมาอุปถัมภ์"
+
+ ### GUEST INVITE RULES
+ activity_invite_rule_imperial_exam_entrants: "ผู้ได้รับการเสนอชื่อระดับภูมิภาค"
+ # Children, Grandchildren, Parents, Grandparents
+ activity_invite_rule_imperial_exam_close_family: "ผู้สมัครจากตระกูล"
+ activity_invite_rule_local_exam_entrants: "ผู้สมัครในท้องถิ่น"
+ activity_invite_rule_landless_family_heads_entrants: "ประมุขตระกูลขุนนาง"
+ activity_invite_rule_local_exam_close_family: "$activity_invite_rule_imperial_exam_close_family$"
+ activity_invite_rule_imperial_exam_guests: "แขก"
+ activity_invite_rule_local_exam_guests: "$activity_invite_rule_imperial_exam_guests$"
+ activity_invite_rule_bloc_house_heads: "ประมุขกลุ่มอำนาจ"
+ activity_invite_rule_bloc_members: "สมาชิกกลุ่มอำนาจอื่น"
+
+ ### GUEST JOIN CHANCE REASONS
+ ACTIVITY_GUEST_FAILED_EXAMINATION_REASON: "[ROOT.Char.GetSheHe|U] ได้พยายามในการสอบครั้งก่อน: $VALUE|=+0$"
+ ACTIVITY_GUEST_IS_HEGEMON_REASON: "[ROOT.Char.GetSheHe|U] ไม่ได้ถูกคาดหวังให้เกี่ยวข้องโดยตรงกับการสอบระดับท้องถิ่น: $VALUE|=+0$"
+ ACTIVITY_GUEST_FORCED_BACK_REASON: "[ROOT.Char.GetSheHe|U] ถูกกดดันให้เข้าสอบใหม่: $VALUE|=+0$"
+ ACTIVITY_GUEST_IS_MINISTER_OF_RITES_REASON: "$game_concept_minister_of_rites$: $VALUE|=+0$"
+
+ ### PHASES
+ imperial_examination_phase_assembly: "การรวมตัว"
+ imperial_examination_phase_assembly_desc: "หลังจากการค้นหาไปทั่วหล้า ผู้เข้าสอบผู้มีสิทธิ์ทั้งปวงกำลังเดินทางมายังสนามสอบ"
+ imperial_examination_phase_preparation: "การเตรียมการ"
+ imperial_examination_phase_preparation_desc: "เหล่าผู้เข้าสอบ, เช่นเดียวกับเจ้าภาพ, กำลังรอคอยเวลา, ต่างเร่งรีบเตรียมการเท่าที่มีอยู่สำหรับการสอบ"
+ imperial_examination_phase_examination: "การสอบมหานคร"
+ imperial_examination_phase_examination_desc: "การสอบมหานครเริ่มขึ้นแล้ว ผลจะเป็น เช่นไรก็สุดแท้ แต่ความสามารถ"
+ imperial_examination_phase_palace_examination: "การสอบหน้าพระที่นั่ง"
+ imperial_examination_phase_palace_examination_desc: "การสอบหน้าพระที่นั่งเริ่มขึ้นแล้ว นี่คือเวลาที่เหล่าบัณฑิตผู้มีผลสัมฤทธิ์สูงสุดจะได้พิสูจน์ตนเองต่อหน้าองค์จักรพรรดิ"
+
+ ### OPTIONS
+ #Examination Focus [Special Type] Option
+ imperial_examination_focus: "จุดเน้นการสอบ"
+ imperial_examination_focus_martial: "นักยุทธศาสตร์การทหาร"
+ imperial_examination_focus_martial_desc: "การสอบจะมอบผลประโยชน์มากขึ้นแก่ผู้เข้าสอบที่เก่งกาจด้าน[martial|E]\n\n#weak "ยุทธศาสตร์การทหารก็นับเป็นคุณธรรมเฉกเช่นเดียวกับการเรียนรู้อื่นใด"#!"
+ imperial_examination_focus_stewardship: "การปกครองอันทรงประสิทธิภาพ"
+ imperial_examination_focus_stewardship_desc: "การสอบจะมอบผลประโยชน์มากขึ้นแก่ผู้เข้าสอบที่เก่งกาจด้าน[stewardship|E]\n\n#weak "มันมีความแตกต่างอย่างชัดเจนระหว่างพวกที่หาเลี้ยงชีพด้วยการพูด กับคนที่มีประโยชน์จริง ๆ"#!"
+ imperial_examination_focus_learning: "บัณฑิตผู้ลึกซึ้ง"
+ imperial_examination_focus_learning_desc: "การสอบจะมอบผลประโยชน์มากขึ้นแก่ผู้เข้าสอบที่เก่งกาจด้าน[learning|E]\n\n#weak "นับเป็นความยินดีของพวกเราที่ได้เรียนรู้ และนำความรู้นั้นไปใช้ประโยชน์"#!"
+
+ #Examination Breadth Option
+ imperial_examination_breadth: "ขอบเขตการสอบ"
+ imperial_examination_breadth_exclusive: "การเรียกตัวแบบจำกัด"
+ imperial_examination_breadth_exclusive_desc: "$EFFECT_LIST_BULLET$ กิจกรรมนี้เปิดรับเพียงไม่กี่คน โดยไม่ รวมถึงสมาชิกของสาธารณชนทั่วไป\n$EFFECT_LIST_BULLET$ท่านจะได้รับ[merit|E] #EMP น้อยลง#! เมื่อเสร็จสิ้น\n\n#weak ข้าจะให้เพียงเหล่าบุตรธิดาที่โดดเด่นที่สุดของข้าแผ่นดิน มารับใช้ในอาณาจักร #EMP ของข้า#! เท่านั้น"#!"
+ imperial_examination_breadth_restricted: "การเรียกตัวแบบจำกัดขอบเขต"
+ imperial_examination_breadth_restricted_desc: "$EFFECT_LIST_BULLET$ผู้เข้าสอบถูกจำกัดไว้ที่จำนวนพอประมาณ โดยอนุญาตให้สมาชิกบางส่วนของสาธารณชนทั่วไปเข้าร่วม \n\n#weak เหล่าผู้ปกครองในอนาคตอาจถือกำเนิดมาจากรากเหง้าอันต่ำต้อยที่สุดก็เป็นได้"#!"
+ imperial_examination_breadth_open: "การเรียกตัวแบบเปิดกว้าง"
+ imperial_examination_breadth_open_desc: "$EFFECT_LIST_BULLET$ กิจกรรมนี้จัดขึ้นอย่างยิ่งใหญ่ โดยนำเสนอผู้เข้าสอบที่กระตือรือร้นจำนวนมาก\n$EFFECT_LIST_BULLET$ ท่านจะได้รับ[legitimacy|E] #EMP มากขึ้น#! เมื่อเสร็จสิ้น\n\n#weak ปัญญาสามารถมาจากทุกหนแห่ง จงหว่านแหให้กว้าง และดูว่าผู้ใดจะผงาดขึ้นมารับโอกาสนี้"#!"
+
+ #Passing Grade Option
+ imperial_examination_passing_grade: "เกณฑ์การสอบผ่าน"
+ imperial_examination_passing_grade_extreme: "เกณฑ์สูงสุด"
+ imperial_examination_passing_grade_extreme_desc: "$EFFECT_LIST_BULLET$ เกณฑ์การสอบผ่านนั้นสูงมาก คัดผู้เข้าสอบออก #EMP จำนวนมหาศาล#!\n$EFFECT_LIST_BULLET$ ท่านจะได้รับ[legitimacy|E] #EMP มากขึ้นมหาศาล#! เมื่อเสร็จสิ้น\n\n#weak เฉพาะหัวกะทิที่แท้จริงเท่านั้นที่จะผ่านเกณฑ์และกลายมาเป็นข้าราชการชุดต่อไป #EMP ของข้า#! "#!"
+ imperial_examination_passing_grade_high: "เกณฑ์สูง"
+ imperial_examination_passing_grade_high_desc: "$EFFECT_LIST_BULLET$ เกณฑ์การสอบผ่านอยู่ในระดับปกติ คัดผู้เข้าสอบออกตามจำนวนที่คาดไว้\n$EFFECT_LIST_BULLET$ รางวัล[legitimacy|E]เมื่อเสร็จสิ้นจะไม่ได้รับผลกระทบ\n\n#weak มาตรฐานของข้าสูง; แต่ก็ไม่ไร้เหตุผล หากเราต้องการข้าราชการที่มาจากความสามารถ พวกเขาก็จำเป็นต้องไปให้ถึงระดับความเป็นเลิศที่กำหนดไว้"#!"
+ imperial_examination_passing_grade_mediocre: "เกณฑ์ปานกลาง"
+ imperial_examination_passing_grade_mediocre_desc: "$EFFECT_LIST_BULLET$ เกณฑ์การสอบผ่านค่อนข้างผ่อนปรน คัดผู้เข้าสอบออก #EMP จำนวนน้อยลง#!\n$EFFECT_LIST_BULLET$ ท่านจะได้รับ[legitimacy|E] #EMP น้อยลง#! เมื่อเสร็จสิ้น\n\n#weak ใครจะรู้ว่าผู้เข้าสอบที่มีจุดเริ่มต้นต่ำต้อยเหล่านี้จะไม่เรียนรู้ระหว่างทำงาน ตราบใดที่พวกเขามีพื้นฐานที่มั่นคง ข้าก็ว่าจงปล่อยให้พวกเขาผ่านเถิด"#!"
+ imperial_examination_passing_grade_low: "เกณฑ์ต่ำ"
+ imperial_examination_passing_grade_low_desc: "$EFFECT_LIST_BULLET$ เกณฑ์การสอบผ่านนั้นหละหลวมมาก คัดผู้เข้าสอบออก #EMP จำนวนน้อยนิด#!\n$EFFECT_LIST_BULLET$ ท่านจะได้รับ[legitimacy|E] #EMP น้อยลงมหาศาล#! เมื่อเสร็จสิ้น\n\n#weak เราต้องการข้าราชการผู้มีความสามารถเหล่านี้ #EMP เดี๋ยวนี้#! ข้าเป็นผู้สร้างกฎและกำหนดมาตรฐาน; พวกเขาต้องปฏิบัติตาม นี่คืออาณัติของข้า"#!"
+
+ #Conclusion
+ activity_imperial_examination_conclusion_desc: "[GetActivityType( 'activity_imperial_examination' ).GetName] ได้สิ้นสุดลงแล้ว"
+ imperial_examination_conclusion.intro: "ในที่สุดการสอบก็ดำเนินมาถึงบทสรุป"
+ imperial_examination_conclusion.intro.passing_grade.extreme: "\n\nข้อจำกัดแบบ #BOL $imperial_examination_passing_grade_extreme$#! ได้มอบ[merit|E]จำนวน #BOL มหาศาล#! แก่[entrants|E]จำนวน #BOL น้อย#!"
+ imperial_examination_conclusion.intro.passing_grade.high: "\n\nข้อจำกัดแบบ #BOL $imperial_examination_passing_grade_high$#! ได้มอบ[merit|E]จำนวน #BOL สูง#! แก่[entrants|E]จำนวน #BOL ปานกลาง#!"
+ imperial_examination_conclusion.intro.passing_grade.mediocre: "\n\nข้อจำกัดแบบ #BOL $imperial_examination_passing_grade_mediocre$#! ได้มอบ[merit|E]จำนวน #BOL ปานกลาง#! แก่[entrants|E]จำนวน #BOL มาก#!"
+ imperial_examination_conclusion.intro.passing_grade.low: "\n\nข้อจำกัดแบบ #BOL $imperial_examination_passing_grade_low$#! ได้มอบ[merit|E]จำนวน #BOL น้อย#! แก่[entrants|E]จำนวน #BOL สูงมาก#!"
+ imperial_examination_conclusion.intro.breadth.imperial: "\n\n#BOL $imperial_examination_breadth_open$#! ของการเชิญ หมายความว่าเรามี[entrants|E]ทั้งหมดเป็นจำนวน #BOL มาก#!"
+ imperial_examination_conclusion.intro.breadth.grand: "\n\n#BOL $imperial_examination_breadth_restricted$#! ของการเชิญ หมายความว่าเรามี[entrants|E]ทั้งหมดเป็นจำนวน #BOL พอสมควร#!"
+ imperial_examination_conclusion.intro.breadth.palace: "\n\n#BOL $imperial_examination_breadth_exclusive$#! ของการเชิญ หมายความว่าเรามี[entrants|E]ทั้งหมดเป็นจำนวน #BOL น้อย#!"
+ imperial_examination_conclusion.general: "\n\nจาก[entrants|E]ตั้งต้นจำนวน #BOL [activity.MakeScope.Var('num_initial_entrants').GetValue]#! คน, #BOL [activity.MakeScope.Var('num_final_failees').GetValue]#! คน #EMP สอบตก#! การสอบ\n\n[activity.MakeScope.Var('first_place_entrant').Char.GetShortUIName] เป็นผู้ประสบความสำเร็จที่สุดในบรรดา[entrants|E], ด้วยคะแนน [activity.Custom('ActivityGetExamScoreAdjective')] ที่ #BOL [activity.MakeScope.Var('first_place_entrant_score').GetValue|0]#!, ตามมาด้วย [activity.MakeScope.Var('second_place_entrant').Char.GetShortUIName] และ [activity.MakeScope.Var('third_place_entrant').Char.GetShortUIName]"
+ imperial_examination_conclusion.entrant_failee: "\n\nการสอบสิ้นสุดลงด้วยความผิดหวังอย่างใหญ่หลวง ข้าต้องพยายามให้หนักขึ้นในคราต่อไป"
+ imperial_examination_conclusion.entrant_passed: "\n\nข้าสอบผ่านการสอบมหานครแล้ว และตระกูลของข้าสามารถภูมิใจในความสำเร็จของข้าได้"
+ imperial_examination_conclusion.entrant_passed_palace: "\n\nบัดนี้จักรวรรดิรู้จักข้าในฐานะหนึ่งในบัณฑิตผู้เก่งกาจที่สุด และโอกาสเบื้องหน้าข้าช่างกว้างใหญ่นัก"
+ local_examination_conclusion.entrant_passed: "\n\nวันนี้ข้าสอบผ่านการสอบระดับมณฑลแล้ว และตระกูลของข้าสามารถภูมิใจในความสำเร็จของข้าได้"
+ #Activity Log
+ #Aced an exam
+ imperial_examination_ace_essay_log_title: "บทความอันน่าทึ่ง"
+ imperial_examination_ace_essay_log: "[CHARACTER.GetShortUIName|U] โดดเด่นเหนือผู้ใดในการเขียนบทความที่ [PROVINCE.GetBaronyNameExplicitly]"
+ imperial_examination_ace_classics_log_title: "ความรู้คลาสสิกอันยอดเยี่ยม"
+ imperial_examination_ace_classics_log: "[CHARACTER.GetShortUIName|U] โดดเด่นเหนือผู้ใดในการสอบความรู้คลาสสิกที่ [PROVINCE.GetBaronyNameExplicitly]"
+ imperial_examination_ace_poetry_log_title: "บทกวีอันน่าพิศวง"
+ imperial_examination_ace_poetry_log: "[CHARACTER.GetShortUIName|U] โดดเด่นเหนือผู้ใดในการประพันธ์บทกวีที่ [PROVINCE.GetBaronyNameExplicitly]"
+ imperial_examination_ace_archery_log_title: "การยิงอันน่าประทับใจ"
+ imperial_examination_ace_archery_log: "[CHARACTER.GetShortUIName|U] พิสูจน์ตนว่าเป็นนักธนูที่แม่นยำที่สุดในการประลองยิงธนูที่ [PROVINCE.GetBaronyNameExplicitly]"
+ imperial_examination_ace_polearm_log_title: "ปรมาจารย์อาวุธด้ามยาว"
+ imperial_examination_ace_polearm_log: "[CHARACTER.GetShortUIName|U] แสดงทักษะอันน่าทึ่งในการสาธิตอาวุธด้ามยาวที่ [PROVINCE.GetBaronyNameExplicitly]"
+ imperial_examination_ace_riding_log_title: "อัจฉริยะการยิงธนูบนหลังม้า"
+ imperial_examination_ace_riding_log: "[CHARACTER.GetShortUIName|U] สาธิตทักษะอันยอดเยี่ยมในการยิงธนูบนหลังม้า ณ การสอบ"
+
+ #Rewards
+ imperial_examination_host_rewards_title: "$activity_imperial_examination$ ถูกจัดขึ้น"
+ imperial_examination_host_rewards: "รางวัลเจ้าภาพ"
+ imperial_examination_entrant_rewards_title: "การสอบที่ได้เข้าร่วม"
+ imperial_examination_entrant_rewards: "รางวัลผู้เข้าสอบ"
+
+ #APAs
+ apa_boasting_calligraphy_title: "ลายมือพู่กันของ [first.GetShortUINamePossessive|U] ได้รับการยกย่องจากเหล่าผู้คุมสอบ"
+ apa_overcome_with_stress_title: "[first.GetShortUINamePossessive|U] เป็นลมหมดสติจากอาการหายใจไม่ออก, ความประหม่าของ [first.GetHerHis] เอาชนะ [first.GetHerHim]"
+ apa_brought_huangdi_gift_title: "[first.GetShortUIName|U] ส่งของขวัญอันล้ำเลิศไปให้ [second.GetShortUIName|U]"
+ apa_impressive_shot_title: "[first.GetShortUIName|U] แสดงเทคนิคการใช้ธนูอันเชี่ยวชาญ"
+ apa_friendly_discussions_title: "[first.GetShortUIName|U] และ [second.GetShortUIName|U] โต้เถียงกันอย่างฉันมิตร"
+ apa_high_tempers_title: "[first.GetShortUIName|U] ลงไม้ลงมือกับสหายของ [first.GetHerHis] ที่ลานประลอง"
+ apa_impressed_examiner_title: "[first.GetShortUIName|U] สร้างความประทับใจอันยอดเยี่ยมให้แก่ผู้คุมสอบ [second.GetShortUIName|U]"
+ apa_entrant_disagreement_title: "[first.GetShortUIName|U] และ [second.GetShortUIName|U] ถกเถียงกันเรื่องการตีความถ้อยคำ"
+ apa_burning_midnight_oil_title: "[first.GetShortUIName|U] อยู่โต้รุ่งเพื่อเตรียมตัวสอบ"
+ apa_found_disciple_title: "[second.GetShortUIName|U] ได้มาเป็นผู้อุปถัมภ์อาวุโสของ [first.GetShortUINamePossessive|U]"
+ apa_fruitful_debate_title: "[first.GetShortUIName|U] และ [second.GetShortUIName|U] แลกเปลี่ยนบันทึกกันก่อนการสอบ"
+ apa_confucian_fervor_title: "[first.GetShortUIName|U] ร่ำไห้ด้วยความยินดีต่อคำชื่นชมของผู้คุมสอบ"
+ apa_floating_poetry_title: "[first.GetShortUIName|U] ได้เวียนส่งบทกวีของ [first.GetHerHis] ไปในหมู่ผู้คุมสอบ"
+
+ #GUI Setup
+ ENTRANTS_WINDOW_LABEL: "กระดานคะแนน"
+ ENTRANTS_SORT_METHOD_PREDICTION: "ความเป็นเลิศที่คาดการณ์"
+ ENTRANTS_SORT_METHOD_SCORE: "จัดเรียงตาม [exam_score|E]"
+
+ #Intent Custom Tooltip
+ no_available_family_candidates: "ไม่มีผู้สมัครจากตระกูลหรือศิษย์ที่ว่างอยู่"
+ already_taken_exam_tooltip: "สอบผ่านแล้ว"
+ take_exam_tooltip: "#alert_trial เพื่อหยุดการเป็นผู้ปกครอง, จงเลือก[decision|E] [GetDecision('renounce_governorship_decision').GetName]#!"
+ already_landed_tooltip: "ท่านเป็น [governor|E]"

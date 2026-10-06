@@ -1,0 +1,8 @@
+﻿l_english: 
+  MODS_DEPENDENCY_NONE: "ไม่มีส่วนเสริมที่ต้องพึ่งพา"
+  MODS_DEPENDENCY_UNKNOWN: "ไม่ทราบข้อมูลส่วนเสริมที่ต้องพึ่งพา"
+  MODS_DEPENDENCY_ENTRY_ACTIVE: "$MOD_NAME$ เวอร์ชัน $MOD_VERSION$"
+  MODS_DEPENDENCY_ENTRY_INACTIVE: "$MOD_NAME$ เวอร์ชัน $MOD_VERSION$ (ปิดใช้งานอยู่)"
+  MODS_DEPENDENCY_ENTRY_INSTALLED: "$MOD_NAME$ เวอร์ชัน $MOD_VERSION$ (บนดิสก์)"
+  MODS_DEPENDENCY_ENTRY_MISSING: "$MOD_NAME$ เวอร์ชัน $MOD_VERSION$ (ไม่พบ)"
+  MODS_DEPENDENCY_ENTRY_VERSION_MISMATCH: "$MOD_NAME$ เวอร์ชัน $MOD_VERSION$ (ติดตั้งเวอร์ชันผิด)"

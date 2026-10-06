@@ -1,0 +1,45 @@
+﻿l_english: 
+ fabricate_hook_header:0 "สร้างข้อผูกมัด:"
+ fabricate_hook_hook_gained_on_you:0 "@warning_icon [owner.GetShortUIName] ได้สร้าง [hook|E] กับท่านแล้ว!"
+
+ fabricate_hook_outcome.0001.t:1 "$fabricate_hook_header$ ความลับ"
+ fabricate_hook_outcome.0001.desc:0 "ดูเหมือนว่า [target.GetTitledFirstName] มีบางสิ่งต้องปิดบัง โชคดีสำหรับข้า ข้าไม่จำเป็นต้องใช้ความคิดสร้างสรรค์มากนักในการกุมอำนาจเหนือ [target.GetHerHim]"
+ fabricate_hook_outcome.0001.a:0 "สิ่งที่ข้าต้องทำคือบอกให้ [target.GetHerHim] รู้ในสิ่งที่ข้ารู้..."
+ fabricate_hook_outcome.0001.b:0 "ข้าจะเก็บงำเรื่องนี้ไว้กับตัวก่อนในตอนนี้"
+ fabricate_hook_outcome.0001.c:0 "โอ้ นี่เป็นเรื่องที่ทุกคนควรรู้!"
+
+ fabricate_hook_outcome.1001.t:1 "$fabricate_hook_header$ สถานการณ์ที่น่าอับอาย"
+ fabricate_hook_outcome.1001.desc:0 "ทุกคนย่อมเปลือยกาย #EMP ในบางครั้ง#! ส่วนที่ยากคือการ ทำให้แน่ใจว่าคณะนักเล่นกลจะเข้าไปในห้องบรรทมของ [target.GetTitledFirstNamePossessive] ในเวลาที่เหมาะสมพอดี และมีคนรับใช้มากพอที่จะคาดเดาเกี่ยวกับความโกลาหลที่จะตามมา\n\nข้าสงสัยว่า [target.GetFirstNameNoTooltip] จะยอมทำทุกอย่างเพื่อป้องกันไม่ให้ข้าโหมกระพือข่าวลือที่จะตามมา..."
+ fabricate_hook_outcome.1001.a:0 "ส่งนักแสดงเข้าไป!"
+ fabricate_hook_outcome.1001.a.flavor:0 "เฮ้อ ต้องสนทนากับเหล่านักเล่นกลอีกแล้ว"
+ fabricate_hook_outcome.1001.b:0 "ข้าควรไตร่ตรองเรื่องนี้ให้รอบคอบกว่านี้"
+ fabricate_hook_outcome.1001.c:0 "ทั้งหมดนี้เป็นความผิดพลาดครั้งใหญ่"
+
+ fabricate_hook_outcome.1002.t:1 "$fabricate_hook_header$ จดหมายกล่าวหา"
+ fabricate_hook_outcome.1002.desc:1 "โดยการหยุดผู้ส่งสารจากราชสำนักของ [target.GetTitledFirstName] โอกาสได้ปรากฏขึ้น\n\n"
+ fabricate_hook_outcome.1002.desc.vassals:0 "โดยการคัดลอกตราประทับของ [target.GetTitleAsNamePossessive] ข้าสามารถปลอมจดหมายขู่ว่าจะเพิ่มภาษีและเผยแพร่ในหมู่ข้าหลวงของ [target.GetHerHis] หรืออย่างน้อยก็ขู่ว่าจะทำ..."
+ fabricate_hook_outcome.1002.desc.no_vassals:0 "โดยการคัดลอกตราประทับของ [target.GetTitleAsNamePossessive] ข้าสามารถปลอมจดหมายขู่ว่าจะเพิ่มภาษีและเผยแพร่ในหมู่ข้าราชสำนักของ [target.GetHerHis] หรืออย่างน้อยก็ขู่ว่าจะทำ..."
+ fabricate_hook_outcome.1002.a:0 ""#EMP นั่นคือ#! ลายมือชื่อของท่าน ใช่หรือไม่?""
+
+ fabricate_hook_outcome.1003.t:1 "$fabricate_hook_header$ การช่วยเหลืออย่างกล้าหาญ"
+ fabricate_hook_outcome.1003.desc:0 "จะไม่วิเศษหรือหาก [target.GetTitledFirstName] เป็นหนี้บุญคุณข้า ไม่ใช่ เพราะความกลัว แต่ เพราะความกตัญญู? หากข้า ยกตัวอย่าง เช่น ช่วย [target.GetHerHim] จากโจรป่าชั่วร้ายขณะที่ [target.GetSheHe] กำลังเดินทาง? แท้จริงแล้ว โจรป่าชั่วร้าย เช่นเดียวกับชายฉกรรจ์ที่กำลังรออยู่หน้าประตูปราสาทในขณะนี้?\n\nข้าจะบุกเข้าไปพร้อมกับทหารองครักษ์ในวินาทีสุดท้าย ขับไล่พวกมันไป และ ทำให้ [target.GetFirstNameNoTooltip] เป็นหนี้ชีวิตข้า"
+ fabricate_hook_outcome.1003.a:0 "เรียบง่าย แต่ช่างน่าเชื่อถือ"
+
+ fabricate_hook_outcome.1004.t:1 "$fabricate_hook_header$ คำใส่ร้าย"
+ fabricate_hook_outcome.1004.desc:0 "ข้าได้เริ่มปล่อยข่าวลือชั่วร้ายหลายเรื่องเกี่ยวกับ [target.GetTitledFirstName] ไม่มีเรื่องใดเป็นความจริง และควรมีใครสักคนประณามว่าเป็นเรื่องโกหกที่เห็นได้ชัด\n\nจะมีวิธีใดที่ดีไปกว่านี้สำหรับ #EMP ใครคนนั้น#! ที่จะ ทำให้ [target.GetFirstNameNoTooltip] เป็นหนี้บุญคุณพวกเขา?"
+ fabricate_hook_outcome.1004.a:0 "ข้าต้องยืนหยัดต่อสู้กับความอยุติธรรมนี้!"
+ fabricate_hook_outcome.1004.a.flavor:0 "[ROOT.Char.GetFaith.PriestNeuter] ของข้าคงไม่ชอบสิ่งนี้"
+ fabricate_hook_outcome.1004.a.flavor_sacred_shadows:0 "[ROOT.Char.GetFaith.PriestNeuter] ของข้าต้องชอบสิ่งนี้แน่!"
+
+ fabricate_hook_outcome.1005.t:1 "$fabricate_hook_header$ ป่าเถื่อน แต่ได้ผล"
+ fabricate_hook_outcome.1005.desc:0 "ทางออกที่ง่ายที่สุดมักจะดีที่สุด เหตุใดต้องกังวลกับกลอุบายและการชักใยทั้งหมดนี้ ในเมื่อข้าสามารถบีบบังคับ [target.GetTitledFirstName] ให้ทำตามคำสั่งของข้าได้ง่ายๆ?\n\nชายฉกรรจ์สองสามคนและจดหมายที่เขียนด้วยถ้อยคำข่มขู่น่าจะเพียงพอแล้วจริงๆ"
+ fabricate_hook_outcome.1005.a:0 "อาลักษณ์! เรามีจดหมายต้องร่าง!"
+ fabricate_hook_outcome.1005.a.flavor:0 ""เหยื่อที่รักยิ่งของข้า...""
+
+ fabricate_hook_outcome.2001.t:1 "$fabricate_hook_header$ กลอุบายอันแยบยล"
+ fabricate_hook_outcome.2001.desc:0 "ด้วยวิธีการอันสกปรก [owner.GetTitledFirstName] ได้สร้างสถานการณ์ขึ้นเพื่อใช้เป็นข้อต่อรองกับข้า!\n\nข้าประณามทั้งหมดว่าเป็นเรื่องโกหกและหลอกลวง แต่ข้ามีทางเลือกน้อยนิดนอกจากต้องยอมตาม"
+ fabricate_hook_outcome.2001.a:0 "ข้าคิดว่าเรื่อง เช่นนี้ต่ำกว่ามาตรฐานของท่านเสียอีก [owner.GetFirstNameNoTooltip]"
+
+ fabricate_hook_outcome.3001.t:1 "$fabricate_hook_header$ สูญเสียความได้เปรียบ"
+ fabricate_hook_outcome.3001.desc:0 "[target.GetTitledFirstName] ได้ค้นพบว่าข้ากำลังพยายามใช้ข้อต่อรองกับ [target.GetHerHim] ด้วยวิธีการที่ไม่ซื่อสัตย์!\n\nข้าต้องทำทุกวิถีทางเพื่อกอบกู้ชื่อเสียงของข้า!"
+ fabricate_hook_outcome.3001.a:0 "นี่หมายถึงจุดสิ้นสุดของความพยายามของข้า..."

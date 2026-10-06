@@ -1,0 +1,92 @@
+﻿l_english: 
+ chancellor_task.0991_end_desc:0 "ความเห็นของ [target_character.GetTitledFirstNamePossessiveNoTooltip] ที่มีต่อท่านจะไม่เพิ่มขึ้นอีก"
+ chancellor_task.0991_increase_desc:0 "[target_character.GetTitledFirstNameNoTooltip] รู้สึกประทับใจและเป็นเกียรติอย่างยิ่งจากพระมหากรุณาธิคุณที่ท่านมอบให้แก่ [target_character.GetHerHim]"
+
+ chancellor_task.1001.t:0 "ผู้เรียกร้องสิทธิ์คนใหม่"
+ chancellor_task.1001.desc:0 "ในบรรดาเรื่องตลกโปกฮาทั้งหมดที่ข้าพเจ้าเคยเห็น...\n\nในความพยายามอันไร้สาระของ [councillor.GetTitledFirstNamePossessive] ที่จะปรับปรุงความสัมพันธ์ของข้าพเจ้ากับเพื่อนบ้าน [councillor.GetCouncilTitle] ผู้ไร้ค่าของข้าพเจ้าได้ยอมรับอย่างเป็นทางการถึงข้ออ้างสิทธิ์ของ [neighboring_ruler.GetTitledFirstNamePossessive] ใน [target_county.GetName]!"
+ chancellor_task.1001.a:0 "เจ้าควรจะสร้างมิตรให้ข้า ไม่ใช่ศัตรู!"
+ chancellor_task.1001.title_message:0 "ความผิดพลาด ส่งผลให้เกิดข้ออ้างสิทธิ์"
+ chancellor_task.1001.message:0 "[councillor.GetTitledFirstName] ยอมรับข้ออ้างสิทธิ์ของท่านใน [target_county.GetName] อย่างเป็นทางการ"
+
+ chancellor_task.1002.t:0 "จุดจบแห่งสันติภาพ"
+ chancellor_task.1002.desc:0 "ในความพยายามของ [councillor.GetTitledFirstNamePossessive] ที่จะปรับปรุงชื่อเสียงของข้าพเจ้า [councillor.GetCouncilTitle] ผู้ไร้ความสามารถของข้าพเจ้าได้ตกลงในสนธิสัญญาที่ #EMP ยกเลิก#! ส่วนต่างๆ ของสนธิสัญญาเก่าของข้าพเจ้ากับ [target.GetName]!\n\nในมุมมองของ [target.GetTitleTierName] นั้น [target.GetSheHe] มีอิสระที่จะประกาศสงครามกับข้าพเจ้าตามที่ [target.GetSheHe] ปรารถนา"
+ chancellor_task.1002.a:0 "เหตุใดเจ้าจึงตกลง เช่นนี้ [councillor.GetFirstNameNoTooltip]?!"
+
+ chancellor_task.1003.opening:1 "[neighbor.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ chancellor_task.1003.desc:0 "ข้าพเจ้าได้ติดต่อกับ [councillor.GetCouncilTitle] ของท่าน [councillor.GetTitledFirstName] และมันเป็นการแสดงทางการทูตที่น่าละอาย ท่านไม่ใช่ [ROOT.Char.GetWomanMan] อย่างที่ข้าพเจ้าคิด!"
+ chancellor_task.1003.a:0 "นี่ต้องเป็นความเข้าใจผิดอันเลวร้ายอย่างแน่นอน..."
+
+ chancellor_task.1003.message:0 "[councillor.GetCouncilTitle] ทำให้ [neighbor.GetTitledFirstName] ไม่พอใจ"
+
+ chancellor_task.1102.t:0 "การทูตอันเชี่ยวชาญ"
+ chancellor_task.1102.desc:0 "[councillor.GetCouncilTitle] ของข้าพเจ้า [councillor.GetTitledFirstName] ได้ทำงานอย่างหนักเพื่อโน้มน้าวอาณาจักรเพื่อนบ้านและข้าหลวงของเราว่าสนธิสัญญาสันติภาพที่ข้าพเจ้าทำกับ [target.GetName] นั้นมีข้อบกพร่อง ไม่ชอบธรรม และไม่ยุติธรรมต่อข้าพเจ้า!\n\nข้าพเจ้ามีอิสระอีกครั้งที่จะประกาศสงครามกับ [target.GetHerHim] ตามที่ข้าพเจ้าพอใจ"
+ chancellor_task.1102.a:0 "ผลงานยอดเยี่ยม [councillor.GetFirstNameNoTooltip]!"
+
+ chancellor_task.1103.opening:0 "[neighbor.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
+ chancellor_task.1103.desc:0 "ข้าพเจ้าได้ติดต่อกับ [councillor.GetCouncilTitle] ของท่าน [councillor.GetTitledFirstName] และข้าพเจ้าต้องกล่าวว่าข้าพเจ้าได้มองท่านในมุมมองใหม่ บางทีท่านอาจเป็นคนที่ข้าพเจ้าภูมิใจที่จะเรียกว่าสหายได้ในวันหนึ่ง"
+ chancellor_task.1103.a:0 "วาจาคมคายของท่านช่างเฉิดฉายในวันนี้ [councillor.GetFirstNameNoTooltip]!"
+
+ chancellor_task.1103.message:0 "[councillor.GetCouncilTitle] สร้างความประทับใจให้เพื่อนบ้าน"
+
+ chancellor_task.2001.t:0 "การต่อต้านในท้องถิ่น"
+ chancellor_task.2001.desc:0 "ท่าน [councillor.Custom2('RelationToMe', ROOT.Char)] ผู้เป็นที่นับถือของข้าพเจ้า,\n แม้ว่าความพยายามของข้าพเจ้าในการจัดระเบียบ [county.GetName] ใหม่จะดำเนินไปอย่างรวดเร็ว แต่ไม่ใช่ทุกคนที่เชื่อมั่นในประโยชน์ของมัน\nดูเหมือนว่าข้าพเจ้าจะได้ล่วงเกินผู้นำท้องถิ่นและผู้ใหญ่บ้านหลายคน ใช่แล้ว ผู้นำท้องถิ่นและผู้ใหญ่บ้านทุกคนเลยทีเดียว"
+ chancellor_task.2001.a:0 "เจ้าทำอะไรลงไป [councillor.GetFirstNameNoTooltip]..."
+ chancellor_task.2001.notification:0 "ความไร้ความสามารถของ [councillor.GetCouncilTitle] ของข้าพเจ้า ทำให้ผู้คนใน [county.GetName] สูญเสียความเคารพต่อข้าพเจ้า"
+
+ chancellor_task.2002.desc:0 "ท่าน [councillor.Custom2('RelationToMe', ROOT.Char)] ผู้เป็นที่นับถือของข้าพเจ้า...\n\nดูเหมือนว่าข้าพเจ้าได้ตัดสินใจผิดพลาดไปบ้าง การปฏิรูปที่ข้าพเจ้าได้นำมาใช้ใน [county.GetName] มีจุดมุ่งหมายเพื่อเสริมสร้างอำนาจของท่านในภูมิภาค แต่กลับกลายเป็นว่าผู้คนแทบจะไม่รู้ว่าใครคือ [ROOT.Char.GetTitleTierName] ของพวกเขา..."
+ chancellor_task.2002.a:0 "เจ้า ทำให้สถานการณ์ #EMP แย่ลงไปอีกรึ?!#!"
+ chancellor_task.2002.notification:0 "[councillor.GetCouncilTitle] ของข้าพเจ้ากำลังสูญเสียการควบคุมใน [county.GetName]!"
+
+ chancellor_task.2003.t:0 "ความผิดหวัง"
+ chancellor_task.2003.desc:0 "ขอคารวะ ท่าน [baron.Custom2('RelationToMe', ROOT.Char)] ของข้าพเจ้า,\n ข้าพเจ้าต้องร้องเรียนเกี่ยวกับพฤติกรรมของ [councillor.GetCouncilTitle] ของท่าน [councillor.GetTitledFirstName]!\n [councillor.GetSheHe|U] ได้ปรากฏตัวใน [county.GetName] และเริ่มเปลี่ยนแปลงสิ่งต่างๆ ตามอำเภอใจ โดยไม่คำนึงถึงประเพณีหรือธรรมเนียมปฏิบัติอันเก่าแก่ของเรา!"
+ chancellor_task.2003.a:0 "เจ้าช่วยทำตัวนุ่มนวลกว่านี้หน่อยไม่ได้หรือ [councillor.GetFirstNameNoTooltip]?"
+ chancellor_task.2003.notification:0 "[councillor.GetCouncilTitle] ผู้ไร้ความสามารถของข้าพเจ้า ทำให้ข้าหลวงคนหนึ่งของข้าพเจ้าไม่พอใจ!"
+
+ chancellor_task_2001.message:0 "เหล่า $baron_plural_upper_case$ ต่อต้านการผนวกรวม"
+
+ chancellor_task_2002.message:1 "การต่อต้านการผนวกรวมของชาว [resisting_culture.GetNameNoTooltip]"
+
+ chancellor_task_2101.message:0 "เหล่า $baron_plural_upper_case$ สนับสนุนการผนวกรวม"
+
+ chancellor_task_2102.message:1 "การสนับสนุนการผนวกรวมของชาว [supporting_culture.GetNameNoTooltip]"
+ chancellor_task_every_county_of_culture_in_title:0 "ทุกเคาน์ตีของชาว [supporting_culture.GetAdjective] ใน [title.GetNameNoTier]"
+
+ chancellor_task.2103.opening:0 "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
+ chancellor_task.2103.desc:0 "ความพยายามในการผนวกรวมของเราใน [title.GetName] กำลังดำเนินไปด้วยดี อันที่จริง เราอาจสามารถลองกำหนดแนวทางการเก็บภาษีของ [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] ในวงจำกัดได้"
+ chancellor_task.2103.a:0 "เยี่ยมยอด ทำให้เป็น เช่นนั้น!"
+ chancellor_task.2103.b:0 "บางทีอาจมีสิ่งที่เราสามารถเรียนรู้จากแนวทางปฏิบัติของพวกเขาแทนได้หรือไม่?"
+ chancellor_task.2103.c:0 "ไม่ สิ่งเหล่านี้ต้องใช้เวลา และเราควรให้เวลากับมันมากเท่าที่ต้องการ"
+
+ chancellor_task.3001.opening:0 "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]"
+ chancellor_task.3001.desc:0 "ข้าได้ให้ที่พักพิงแก่ [councillor.GetCouncilTitle] ของท่าน [councillor.GetTitledFirstName] มาระยะหนึ่งแล้ว การที่ [councillor.GetSheHe] เข้ามาวุ่นวาย [councillor.GetHerselfHimself] ในบ้านของข้า ทั้งยังส่งเสริมการรับใช้อันประจบสอพลอต่อท่าน ทำให้ข้ารังเกียจยิ่งนัก!\n\n[ROOT.Char.GetLadyLord] เช่นใดกันจึงส่งตัวแทนที่เลวร้าย เช่นนี้มา?"
+ chancellor_task.3001.a:0 "[councillor.GetFirstNameNoTooltip]! เจ้าทำอะไรลงไป?!"
+
+ chancellor_task.3002.opening:0 "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
+ chancellor_task.3002.desc:0 "ดูเหมือนว่าในการติดต่อกับ [vassal.GetTitledFirstName] ข้าพเจ้าอาจจะ... เผลอให้คำสัญญาบางอย่างเกี่ยวกับการยกเว้นพันธะของ [vassal.GetHerHis]...\n\nข้าพเจ้าได้พยายามแล้ว แต่ข้าพเจ้าสงสัยว่าอาจจะไม่มีทางอื่นใดที่จะแก้ไขสถานการณ์นี้ได้แล้วในตอนนี้..."
+ chancellor_task.3002.a:0 "เจ้าคนโง่!"
+ chancellor_task.3002.c:0 "ไม่ ข้าพเจ้ายังสามารถกอบกู้สถานการณ์นี้ได้"
+ chancellor_task.3002.d:0 "โอ้ ข้าพเจ้าไม่คิด เช่นนั้น"
+
+ chancellor_task.3101.opening:0 "[active_councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
+ chancellor_task.3101.desc:0 "ด้วยความขัดแย้งที่ดำเนินอยู่ระหว่าง [attacker_vassal.GetTitledFirstName] และ [defender_vassal.GetTitledFirstName] ข้าพเจ้าได้ทำงานอย่างไม่รู้จักเหน็ดเหนื่อยเพื่อเข้าถึงแก่นแท้ของความขัดแย้งของพวกเขา ข้าพเจ้าเชื่อว่าด้วยการสนับสนุนที่เหมาะสม อาจสามารถบรรลุข้อตกลงได้"
+ chancellor_task.3101.a:0 "ไม่ว่าจะต้องแลกด้วยอะไรก็ตาม ทำให้พวกเขาหยุดต่อสู้กัน"
+ chancellor_task.3101.b:0 "พวกเขาจะทำตามที่ข้าพเจ้าสั่ง ในฐานะ [ROOT.Char.GetTitleTierName] ของพวกเขา!"
+ chancellor_task.3101.c:0 "ปล่อยให้พวกเขาจัดการความแตกต่างของตนเอง"
+ chancellor_task.3101.c.tt:0 "สงครามระหว่าง [attacker_vassal.GetFirstNameNoTooltip] และ [defender_vassal.GetFirstNameNoTooltip] ยังคงดำเนินต่อไป"
+
+ chancellor_task.3102.desc:0 "ข้าพเจ้าได้ค้นพบว่าสัญญาที่สืบทอดมาของ [vassal.GetTitledFirstNamePossessive] กำหนดให้ [vassal.GetHerHim] มีพันธะมากกว่าที่ท่านได้เก็บรวบรวม"
+ chancellor_task.3102.a:0 "ถึงเวลาแก้ไขความผิดพลาดนี้!"
+ chancellor_task.3102.c:1 "ข้าพเจ้าจะปล่อยผ่านไป ครั้งนี้..."
+
+ chancellor_task.3003.t:0 "การสูญเสียอำนาจ"
+ chancellor_task.3003.desc:0 "ดูเหมือนว่าไม่ว่างานใดที่ [councillor.GetCouncilTitle] ของข้าพเจ้ากำลังทำอยู่ — หากมี! – มันยังไม่เพียงพอ\n\nภายใต้การดูแลของ [councillor.GetTitledFirstNamePossessive] ข้าหลวงของข้าพเจ้ากำลังดำเนินการอย่างอิสระตามที่เห็นสมควร แทบจะไม่เคยขอความเห็นชอบจากข้าพเจ้าในเรื่องใดเลย"
+ chancellor_task.3003.a:0 "รู้สึกราวกับว่าอำนาจกำลังหลุดลอยไปจากเงื้อมมือของข้าพเจ้า"
+ chancellor_task.3003.notification:0 "[councillor.GetCouncilTitle] ล้มเหลวในการจัดการข้าหลวง"
+
+ chancellor_task.3103.desc:0 "ข้าพเจ้าได้ให้ที่พักพิงแก่ [councillor.GetCouncilTitle] ของท่าน [councillor.GetTitledFirstName] เป็นเวลาหลายสัปดาห์ และ [councillor.GetSheHe] ได้ช่วยให้ข้าพเจ้าเห็นความงดงามของอาณาจักรภายใต้การปกครองของท่านอย่างแท้จริง\n\nข้าพเจ้ารู้สึกเป็นเกียรติอย่างยิ่งที่ได้รับใช้ในฐานะข้าหลวงของท่าน!"
+ chancellor_task.3103.a:0 "ข้าพเจ้าได้รับพรที่มีผู้รับใช้ที่กตัญญู เช่นนี้"
+
+ chancellor_task.3104.desc:0 "ข้าพเจ้าได้ค้นพบสัญญาเก่าบางฉบับที่เกี่ยวข้องกับ [primary_title.GetName] อาจมีการโต้แย้งได้ว่า [vassal.GetTitledFirstName] มีพันธะที่จะต้องมีความยุติธรรมมากขึ้นกับมรดกในท้ายที่สุดของ [vassal.GetHerHis] มากกว่าที่คิดไว้ก่อนหน้านี้"
+ chancellor_task.3104.a:0 "เราต้องปกป้องสิทธิ์ของทายาทของ [vassal.GetFirstNamePossessiveNoTooltip]!"
+ chancellor_task.3104.b:0 "สิ่งต่างๆ สามารถคงอยู่ตามเดิมได้ เพื่อแลกกับราคา..."
+ chancellor_task.3104.c:0 "ไม่จำเป็นต้องแบ่งแยกอาณาจักร"

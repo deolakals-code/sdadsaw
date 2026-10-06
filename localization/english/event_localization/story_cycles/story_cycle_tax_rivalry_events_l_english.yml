@@ -1,0 +1,87 @@
+﻿l_english: 
+ tax_rivalry.t: "เลือดและทองคำ"
+
+ tax_rivalry.0011.t: "$tax_rivalry.t$: การสมานฉันท์"
+ tax_rivalry.0011.desc_intro: "[forgiven_rival.GetTitledFirstName|U] เป็นดั่งหนามตำใจข้ามานาน แต่บางทีมันอาจไม่จำเป็นต้องเป็น เช่นนี้เสมอไป"
+ tax_rivalry.0011.desc_opinion: "เราแทบจะไม่ได้บาดหมางกันเลย และด้วยความพยายามเพียงเล็กน้อย เราอาจกลายเป็นพันธมิตรที่มีค่าต่อกันได้ หากเพียง แต่เรายุติความบาดหมางนี้"
+ tax_rivalry.0011.desc_compassion: "ข้ามิใช่คนที่จะทะเลาะเบาะแว้งเป็นเวลานานแน่ แต่ข้าจะไว้ใจให้ [forgiven_rival.GetHerHim] เปิดใจกว้าง เช่นข้าได้หรือไม่?"
+ tax_rivalry.0011.desc_unity: "เพื่อประโยชน์ของตระกูล ข้าอาจสมานฉันท์กับ [forgiven_rival.GetHerHim] หากเพียง แต่ในชีวิตสาธารณะของเรา แต่ [forgiven_rival.GetTitledFirstNameNoTooltip] จะรู้สึก เช่นเดียวกันหรือไม่?"
+ tax_rivalry.0011.desc_fallback: "ข้าสามารถยื่นมือไปสมานฉันท์กับ [forgiven_rival.GetHerHim] ได้ แต่ใครเล่าจะรู้ว่า [forgiven_rival.GetSheHe] จะยอมรับกิ่งมะกอกของข้าหรือไม่?"
+ tax_rivalry.0011.a: "มาดูกันว่า [forgiven_rival.GetSheHe] คิดอย่างไรกับความคิดของข้า"
+ tax_rivalry.0011.a.tt_ai: "ข้าจะขอให้ [forgiven_rival.GetTitledFirstNameNoTooltip] วางความบาดหมางของเราลง"
+ tax_rivalry.0011.a.tt_player: "[forgiven_rival.GetTitledFirstNameNoTooltip|U] จะเป็นผู้ตัดสินใจว่าจะตอบสนองอย่างไรในท้ายที่สุด"
+ tax_rivalry.0011.a.failure: "[forgiven_rival.GetTitledFirstNameNoTooltip] เย้ยหยันข้อเสนอของข้า"
+ tax_rivalry.0011.b: "[forgiven_rival.GetTitledFirstNameNoTooltip|U] จะได้ลิ้มรสการแก้แค้นของข้า!"
+ tax_rivalry.0011.b.tt: "ความเป็นอริอันขมขื่นของเราจะดำเนินต่อไป"
+
+ tax_rivalry.0012.desc_intro_unfriendly: "แม้ปกติข้าจะปฏิเสธการเอ่ยถึง [forgiving_rival.GetTitledFirstName] แต่อารมณ์บางอย่างก็ดลใจให้ข้ายอมรับการมาเยือนลานบ้านของข้าอย่างกะทันหันของ[forgiving_rival.GetHerHis]"
+ tax_rivalry.0012.desc_intro_friendly: "แม้ [forgiving_rival.GetTitledFirstName] และข้าจะไม่ได้ใกล้ชิดกันนับตั้งแต่ข้อพิพาทของเราเริ่มต้นขึ้น ข้าก็ยังคงรู้สึกขอบคุณสำหรับการมาเยือนลานบ้านของข้าอย่างกะทันหันของ[forgiving_rival.GetHerHis]"
+ tax_rivalry.0012.desc_outro: "ณ ที่นั่น เราได้ร่วมรับประทานอาหารท่ามกลางอากาศอันน่าอภิรมย์ผิดฤดูกาล จนกระทั่ง [forgiving_rival.GetSheHe] กระแอมกระไอ[forgiving_rival.GetHerHis]:\n\n"หากเรามิได้ขัดแย้งกัน เช่นนี้แล้วไซร้ เราคงได้เพลิดเพลินกับยามบ่าย เช่นนี้อีกหลายครา เช่นนั้นแล้ว ท่านจะไม่ให้อภัยความเขลาในอดีตของข้าหรือ [ROOT.Char.GetTitledFirstNameNoTooltip]?""
+ tax_rivalry.0012.a: "หากท่านให้อภัยของข้าด้วย เช่นกัน"
+ tax_rivalry.0012.b: "คนรับใช้ เชิญ [forgiving_rival.GetTitledFirstNameNoTooltip] ไปที่ประตู"
+
+ tax_rivalry.0013.desc_intro: "[forgiven_rival.GetTitledFirstName|U] ได้ตกลงตามข้อเสนอของข้า และนับ แต่วันนี้ ข้อพิพาททางการเงินของเราถือเป็นอดีตไปแล้ว"
+ tax_rivalry.0013.desc_outro_neutral: "หวังว่าความขมขื่นในอดีตของเราจะไม่ส่งผลต่อความสัมพันธ์ของเราในอนาคต..."
+ tax_rivalry.0013.desc_outro_vengeful: "อย่างไรเสีย ก็ยังมีโอกาสอื่นอีกมากมายที่จะปิดปาก [forgiven_rival.GetHerHim] โดยที่[forgiven_rival.GetHerHis]ไม่รู้ตัว..."
+ tax_rivalry.0013.a: "ได้ แต่หวังเท่านั้น"
+
+ tax_rivalry.0014.desc: "ดูเหมือนว่า เพื่อประโยชน์ของอาณาจักร [forgiven_rival.Custom2('MyCharacterIntroduction', ROOT.Char)] และ [forgiving_rival.Custom2('MyCharacterIntroduction', ROOT.Char)] ได้ละทิ้งข้อพิพาทเล็กน้อยของพวกเขาไว้ข้างหลัง อย่างไรก็ตาม มีเพียงเวลาเท่านั้นที่จะบอกได้ว่า ถ่านไฟเก่าอาจจุดไฟนี้ขึ้นมาอีกครั้งหรือไม่"
+ tax_rivalry.0014.a: "เราจะได้เห็นกัน"
+
+ tax_rivalry.1000.t: "$tax_rivalry.t$: จุดบอด"
+ tax_rivalry.1000.desc: "การทะเลาะวิวาทของ [steward.GetTitledFirstNamePossessive|U] และ [tax_collector.GetTitledFirstNamePossessive] ได้พิสูจน์แล้วว่าเป็นอันตรายต่อการคลังของอาณาจักร ไม่มีฝ่ายใดต้องการติดต่อกับอีกฝ่าย และผลก็คือการชำระเงินมักถูกยกเลิก วางผิดที่ หรือแม้กระทั่งสูญหาย\n\nขณะที่ข้าบ่นพึมพำเรื่องนี้ ข้าก็เหลือบไปเห็นเงินสมทบของทั้งคู่ที่มีต่ออาณาจักร มันช่างง่ายดายเหลือเกินที่จะ \"ทำหาย\" เงินก้อนนี้และปล่อยให้ แต่ละฝ่ายโทษอีกฝ่ายสำหรับการหายไปของมัน..."
+ tax_rivalry.1000.b: "ข้าควรตำหนิพวกเขาสำหรับการมองข้ามนี้"
+ tax_rivalry.1000.b.tt: "ข้าสั่งให้ [steward.GetTitledFirstNameNoTooltip] และ [tax_collector.GetTitledFirstNameNoTooltip] ยุติความเป็นอริต่อกัน"
+
+ tax_rivalry.1001.desc: "ภาษีที่ต้องชำระแก่ [liege.Custom2('MyCharacterIntroduction', ROOT.Char)] ได้หายไปในชั่วขณะเดียวกับที่ [other_rival.Custom2('MyCharacterIntroduction', ROOT.Char)] ชำระของ[other_rival.GetHersHis]พอดี!\n\nเมื่อไม่มีหลักฐานอื่นใดบ่งชี้ ข้าทำได้เพียงสันนิษฐานว่านี่เป็นแผนการของ [other_rival.GetTitledFirstNamePossessiveNoTooltip] เพื่อใส่ร้ายชื่อเสียงและคลังสมบัติของข้า"
+ tax_rivalry.1001.a: "เจ้า [other_rival.Custom2('InsultNoun', ROOT.Char)] นั่น!"
+
+ tax_rivalry.1002.desc: "\"พวกเจ้าสองคนเริ่มสะเพร่าแล้ว\" [liege.Custom2('MyCharacterIntroduction', ROOT.Char)] ผลักถุงทองคำมาทางฝั่งโต๊ะของเรา \"มันง่ายเกินไปสำหรับข้าที่จะยึดเงินสมทบของพวกเจ้าและโทษอีกฝ่ายสำหรับการหายไปของมัน เพราะพวกเจ้าแทบไม่สื่อสารกันเลย จง ทำให้แน่ใจว่าพวกเจ้าจะยุติข้อพิพาทเล็กน้อยเหล่านี้เสีย\"\n\n[liege.GetSheHe|U] คว้าถุงแล้วเก็บเข้ากระเป๋า พลางจ้องมองมาที่เรา"
+ tax_rivalry.1002.a: "มันจะไม่เกิดขึ้นอีก"
+
+ tax_rivalry.3001.t: "$tax_rivalry.t$: ฝูงชนวุ่นวาย"
+ tax_rivalry.3001.desc_intro: "ขณะที่ข้าครุ่นคิดถึงความคับข้องใจที่มีต่อ[sabotaged_rival.GetTitledFirstNameNoTooltip] แผนการอันชั่วร้ายก็ผุดขึ้นในใจข้า ด้วยสินบนเพียงเล็กน้อย ข้าสามารถโน้มน้าวชาวนาแห่ง[sabotaged_county.GetNameNoTierNoTooltip] ว่า[sabotaged_rival.GetTitledFirstNameNoTooltip] ตั้งใจจะเพิ่มภาษีของพวกเขาเป็นห้าเท่า และปลุกระดมให้เกิดการกบฏต่อต้านนายเหนือหัวของเรา [liege.GetTitledFirstName]"
+ tax_rivalry.3001.desc_outro_assigned: "โดยธรรมชาติแล้ว ความผิดย่อมตกอยู่กับ [sabotaged_rival.Custom2('InsultNoun', ROOT.Char)] นั่น โทษฐานบริหารจัดการเคาน์ตีผิดพลาด"
+ tax_rivalry.3001.desc_outro_fallback: "ไม่สำคัญว่า [sabotaged_rival.GetTitledFirstNameNoTooltip] จะไม่ได้ปกครองเคาน์ตีนั้นจริงๆ ความเสียหายก็จะเกิดขึ้นอยู่ดี"
+ tax_rivalry.3001.a: "ส่งคนไปตามผู้ประกาศ"
+ tax_rivalry.3001.a.tt: "[peasant_faction|E] จะลุกฮือต่อต้านเจ้าเหนือหัวของท่านใน [sabotaged_county.GetNameNoTierNoTooltip]"
+ tax_rivalry.3001.b: "การปกป้องตำแหน่งของข้าสำคัญกว่า"
+
+ tax_rivalry.3002.desc: "[saboteur.Custom2('InsultNoun', ROOT.Char)] ชั่วช้า! [saboteur.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ได้แพร่ข้อมูลเท็จว่าข้ากำลังเพิ่มภาษีใน [sabotaged_county.GetName] บัดนี้ฝูงชนได้รวมตัวกันต่อต้านเจ้าเหนือหัวของข้า และไม่มีคำพูดใดสามารถบรรเทาความพิโรธของ [liege.GetHerHis] ได้"
+ tax_rivalry.3002.a: "มันเป็นการกระทำของ [saboteur.GetTitledFirstNamePossessiveNoTooltip] ทั้งหมด!"
+
+ tax_rivalry.3003.desc: "โอ้ ความโง่เขลา... บัดนี้[sabotaged_county.GetName] ได้รวมตัวกันเป็นฝูงชนต่อต้านชื่อเสียงของข้า เพียง เพราะพวกเขาเชื่อว่า[sabotaged_rival.GetTitledFirstName] จะเพิ่มภาษีของพวกเขา!\n\n[sabotaged_rival.GetTitledFirstNameNoTooltip|U] กำลังอ้างว่านี่เป็นฝีมือของ[saboteur.GetTitledFirstName] แต่สิ่งหนึ่งที่ชัดเจนคือ: การแข่งขันของทั้งคู่กำลังบานปลายอย่างรวดเร็วจนควบคุมไม่ได้"
+ tax_rivalry.3003.a: "จับอาวุธ!"
+ tax_rivalry.3003.a.tt: "[peasant_faction|E] จะลุกฮือต่อต้านท่านใน [sabotaged_county.GetNameNoTierNoTooltip]"
+
+ tax_rivalry.4000.t: "$tax_rivalry.t$: ตระกูลแตกแยก"
+ tax_rivalry_liege_notification_desc: "สิ่งนี้เกิดขึ้น เนื่องจากความเป็นอริระหว่าง [steward.GetShortUIName] และ [tax_collector.GetShortUIName]"
+ tax_rivalry_steward_notification_desc: "สิ่งนี้เกิดขึ้น เนื่องจากความเป็นอริของท่านกับ [tax_collector.GetShortUIName]"
+ tax_rivalry_tax_collector_notification_desc: "สิ่งนี้เกิดขึ้น เนื่องจากความเป็นอริของท่านกับ [steward.GetShortUIName]"
+ 
+ tax_rivalry.4010.t: "$tax_rivalry.t$: ความบาดหมางอันขมขื่น"
+ tax_rivalry.4010.desc_liege_friendly: "สิ่งนี้เกิดขึ้น แม้ว่าทั้งสองจะมีความสัมพันธ์ที่ดีต่อกัน"
+ tax_rivalry.4010.desc_liege_unfriendly: "สิ่งนี้เกิดขึ้น เนื่องจากความสัมพันธ์ที่ไม่ดีระหว่างทั้งสอง"
+ tax_rivalry.4010.desc_steward_friendly: "สิ่งนี้เกิดขึ้น แม้ว่าข้าจะมีความสัมพันธ์ที่ดีกับ [tax_collector.GetHerHim]"
+ tax_rivalry.4010.desc_steward_unfriendly: "สิ่งนี้เกิดขึ้น เนื่องจากความสัมพันธ์ที่ไม่ดีของข้ากับ [tax_collector.GetHerHim]"
+ tax_rivalry.4010.desc_tax_collector_friendly: "สิ่งนี้เกิดขึ้น แม้ว่าข้าจะมีความสัมพันธ์ที่ดีกับ [steward.GetHerHim]"
+ tax_rivalry.4010.desc_tax_collector_unfriendly: "สิ่งนี้เกิดขึ้น เนื่องจากความสัมพันธ์ที่ไม่ดีของข้ากับ [steward.GetHerHim]"
+
+ tax_rivalry.4011.t: "$tax_rivalry.t$: ความสัมพันธ์ที่เริ่มคลี่คลาย"
+ tax_rivalry.4011.desc_liege_friendly: "สิ่งนี้เกิดขึ้น เนื่องจากความสัมพันธ์ที่ดีระหว่างทั้งสอง"
+ tax_rivalry.4011.desc_liege_unfriendly: "สิ่งนี้เกิดขึ้น แม้ว่าทั้งสองจะมีความสัมพันธ์ที่ไม่ดีต่อกัน"
+ tax_rivalry.4011.desc_steward_friendly: "สิ่งนี้เกิดขึ้น เนื่องจากความสัมพันธ์ที่ดีของข้ากับ [tax_collector.GetHerHim]"
+ tax_rivalry.4011.desc_steward_unfriendly: "สิ่งนี้เกิดขึ้น แม้ว่าข้าจะมีความสัมพันธ์ที่ไม่ดีกับ [tax_collector.GetHerHim]"
+ tax_rivalry.4011.desc_tax_collector_friendly: "สิ่งนี้เกิดขึ้น เนื่องจากความสัมพันธ์ที่ดีของข้ากับ [steward.GetHerHim]"
+ tax_rivalry.4011.desc_tax_collector_unfriendly: "สิ่งนี้เกิดขึ้น แม้ว่าข้าจะมีความสัมพันธ์ที่ไม่ดีกับ [steward.GetHerHim]"
+
+ tax_rivalry.9000.t: "$tax_rivalry.t$: ชัยชนะ"
+ tax_rivalry.9000.desc: "ข้าไม่ต้องทนกับ [less_fortunate_rival.Custom('quirk_neg_noun')] ของ [less_fortunate_rival.GetTitledFirstName] อีกต่อไป เพราะบัดนี้ข้าคือ [ROOT.Char.Custom('MistressMaster')] แห่งอาณาเขตของข้าเอง และ [less_fortunate_rival.GetTitledFirstNameNoTooltip] จะต้องเผชิญหน้ากับไม้แข็งที่ทรงพลังกว่ามาก หาก [less_fortunate_rival.GetSheHe] กล้ารบกวนการปกครองของข้าอีกครั้ง"
+ tax_rivalry.9000.a: "เป็นการดีที่ได้เป็น [ROOT.Char.GetTitleAsNameNoTooltip]"
+ tax_rivalry.9000.a.tt: "ความบาดหมางของท่านกับ [less_fortunate_rival.GetTitledFirstNameNoTooltip] สิ้นสุดลง สำหรับตอนนี้"
+
+ tax_rivalry.9001.t: "$tax_rivalry.t$: ความพ่ายแพ้"
+ tax_rivalry.9001.desc: "ข้าจะคาดการณ์ได้อย่างไรว่า [fortunate_rival.GetFullName] จะกลายเป็น [fortunate_rival.GetTitleAsNameNoTooltip] แห่ง [fortunate_rival.GetPrimaryTitle.GetNameNoTierNoTooltip]? หากเพียง แต่ข้าลงมือก่อนหน้านี้ ชะตากรรมของข้าก็คงไม่ถูกผนึก เช่นนี้!"
+ tax_rivalry.9001.a_spurned: "เรื่องนี้ยังไม่จบ!"
+ tax_rivalry.9001.a_neutral: "บทใหม่ได้เริ่มต้นขึ้นแล้ว..."
+ tax_rivalry.9001.a.tt: "ความบาดหมางของท่านกับ [fortunate_rival.GetTitledFirstNameNoTooltip] สิ้นสุดลง สำหรับตอนนี้"

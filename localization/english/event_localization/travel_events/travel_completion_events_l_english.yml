@@ -1,0 +1,26 @@
+﻿l_english: 
+#Travel Completion Events
+#Generic completion
+ travel_completion_event.1000.t:1 "$travel_event_prefix$ การมาถึง"
+ travel_completion_event.1000.desc.home:0 "ในที่สุด ข้าก็กลับถึงบ้านเสียที! ไม่มีสิ่งใดดีไปกว่าการกลับมาถึง [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] หลังจากการเดินทางอันยาวนาน ข้าตั้งตารอที่จะได้พักผ่อนสักระยะ, "
+ travel_completion_event.1000.desc.abroad:0 "หลังจากการเดินทางอันยาวนาน ในที่สุดข้าก็มาถึง [final_destination_province.GetName]! ข้าจะเป็นอิสระจากเส้นทางที่เต็มไปด้วยฝุ่นและอาการเจ็บก้นจากอานม้าไปสักพัก, "
+ travel_completion_event.1000.desc.activity:0 "เนื่องจากบัดนี้ถึงเวลาเข้าร่วมใน [ROOT.Char.GetInvolvedActivity.GetName] แล้ว\n\n"
+ travel_completion_event.1000.desc.mandala_contract: "เมื่อได้ปฏิบัติหน้าที่อันศักดิ์สิทธิ์ของข้าสำเร็จแล้วในตอนนี้\n\n"
+ travel_completion_event.1000.desc.no_activity:0 "แต่เสียงเรียกแห่งท้องถนนยังคงกวักเรียกให้เดินทางต่อไป\n\n"
+ travel_completion_event.1000.stats:2 "คณะผู้ติดตามของข้ารายงานว่าเราได้เดินทางเป็นเวลา [travel_plan_scope.MakeScope.Var('travel_plan_elapsed_days').GetValue] วัน และผ่าน [travel_plan_scope.MakeScope.Var('travel_plan_provinces_traversed').GetValue] บารอนี\n\n"
+ travel_completion_event.1000.stats.travel_leader:0 "[GetCourtPositionType('travel_leader_court_position').GetNameNoTooltip()] ของข้า, [travel_leader_scope.GetName], รายงานว่าเราได้เดินทางเป็นเวลา [travel_plan_scope.MakeScope.Var('travel_plan_elapsed_days').GetValue] วัน และผ่าน [travel_plan_scope.MakeScope.Var('travel_plan_provinces_traversed').GetValue] บารอนี\n\n"
+ travel_completion_event.1000.desc.memory:0 "ข้าจะไม่มีวันลืมเมื่อ [travel_conc_memory.GetDescription]."
+ travel_completion_event.1000.desc.cultural_ambassador:0 "ทูตวัฒนธรรมของข้ามีโอกาสเผยแพร่การยอมรับสำหรับ [ROOT.Char.GetCulture.GetName]!\n\n"
+ travel_completion_event.1000.a:1 "ขอบคุณ [ROOT.Char.GetFaith.HighGodName] ข้าสามารถเข้าไปข้างในได้อีกครั้ง..."
+ travel_completion_event.1000.a.adventurer: "ขอบคุณ [ROOT.Char.GetFaith.HighGodName] เตียงนอนสบายๆ อีกครั้ง..."
+ travel_completion_event.1000.b:1 "การเดินทางนั้นน่าอัศจรรย์ แต่การกลับบ้านนั้นหอมหวานยิ่งกว่าเสมอ"
+ travel_completion_event.1000.b.adventurer: "การเดินทางนั้นน่าอัศจรรย์ แต่จะยิ่งกว่านั้นหากสะดวกสบาย"
+ cultural_ambassador_cultural_acceptance_gain_desc:0 "การเดินทางพร้อมกับทูตวัฒนธรรม"
+ cultural_ambassador_toast.t:0 "[cultural_ambassador.GetFirstNameNoTooltip] เพิ่มการยอมรับทางวัฒนธรรม"
+ cultural_ambassador_option.tt:0 "ผลกระทบจากทูตวัฒนธรรมของท่าน:\n$EFFECT_LIST_BULLET$[cultural_acceptance|E] ระหว่างทุก [culture|E] ที่ท่านเยี่ยมเยือนและ [SCOPE.GetRootScope.GetCharacter.GetCulture.GetName] เพิ่มขึ้น #positive_value +1%#!"
+
+ finally_there_perk_title_message: "[GetPerk('finally_there_perk').GetName( GetNullCharacter )]"
+ souvenirs_aplenty_perk_title_message: "[GetPerk('souvenirs_aplenty_perk').GetName( GetNullCharacter )]"
+ no_stone_unturned_perk_title_message: "[GetPerk('no_stone_unturned_perk').GetName( GetNullCharacter )]"
+ no_stone_unturned_perk_cooldown_title_message: "[GetPerk('no_stone_unturned_perk').GetName( GetNullCharacter )]: ไม่มีผล"
+ no_stone_unturned_perk_cooldown_message: "เคาน์ตียังคงได้รับผลกระทบจากการเยี่ยมเยือนครั้งล่าสุดของท่าน"

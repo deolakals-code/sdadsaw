@@ -1,0 +1,58 @@
+﻿l_english: 
+
+ abduct_event_title:0 "ลักพาตัว:"
+ do_not_execute_abduct_tooltip:0 "ข้าไม่พยายามทำการลักพาตัว"
+
+ abduct_outcome.1001.t:0 "$abduct_event_title$ โจมตีบนทางหลวง"
+ abduct_outcome.1001.opening:1 "คนของข้าแจ้งว่า [target.GetTitledFirstName] กำลังเดินทาง"
+ abduct_outcome.1001.arrival:1 "จาก [departure.GetNameNoTooltip] ไปยัง [arrival.GetNameNoTooltip]"
+ abduct_outcome.1001.no_arrival:1 "ภายใน [departure.GetNameNoTooltip]"
+ abduct_outcome.1001.ending:0 "\n\nข้าได้จัดเตรียมให้พวกโจรไปขัดขวางการเดินทางของ [target.GetHerHis] และ ทำให้แน่ใจว่า [target.GetSheHe] จะมาถึงที่นี่แทน"
+ abduct_outcome.1001.a:0 "อีกไม่ช้า [target.GetSheHe] จะอยู่ในกำมือข้า!"
+ abduct_outcome.1001.b:0 "ไม่ ความเสี่ยงมันสูงเกินไป"
+
+ abduct_outcome.1002.t:0 "$abduct_event_title$ กำลังเดินทาง"
+ abduct_outcome.1002.desc:2 "โอกาสอันเหมาะเจาะมาถึงแล้ว! [target.GetTitledFirstName] กำลังเดินทางจาก [departure.GetNameNoTooltip] ไปยัง [arrival.GetNameNoTooltip] โดยแทบไม่มีทหารองครักษ์เลย\n\n[target.GetSheHe|U] คงคิดว่า [target.GetHerselfHimself] ปลอดภัย..."
+ abduct_outcome.1002.a:0 "ถึงเวลาอันเหมาะที่จะลงมือ!"
+
+ abduct_outcome.1003.t:0 "$abduct_event_title$ แขกที่ไม่ได้รับเชิญ"
+ abduct_outcome.1003.desc:0 "เมื่อคนของข้าเข้าออกราชสำนักใน [court_location.GetNameNoTierNoTooltip] ได้อย่างอิสระ [target.GetTitledFirstName] ก็อยู่ไม่ไกลเกินเอื้อม!\n\nคนของข้าอยู่ในตำแหน่งที่จะปล่อยคนกลุ่มเล็กๆ เข้าไปกลางดึก และช่วยปกปิดขณะที่พวกเขาจากไปโดยไม่มีใครตรวจพบ โดยเฉพาะอย่างยิ่งขณะที่กำลังปิดเสียงกรีดร้องจากกระสอบป่านที่ดิ้นอยู่"
+ abduct_outcome.1003.a:0 "ข้าชอบแผนการนี้!"
+
+ abduct_outcome.2001.desc:0 "สำเร็จ! พวกโจรทำงานได้อย่างน่าชื่นชม และ [target.GetTitledFirstName] ก็อยู่ในมือข้าอย่างปลอดภัย"
+ abduct_outcome.2001.a:0 "หวังว่า [target.GetSheHe] จะชอบที่พักใหม่ของ [target.GetHerHis] นะ..."
+
+ abduct_outcome.2002.desc:0 "ก่อนที่ [target.GetTitledFirstName] จะรู้ตัวว่าเกิดอะไรขึ้น คนของข้าก็ได้ตัว [target.GetHerHim] มาแล้ว! ในที่สุด [target.GetSheHe|U] ก็อยู่ในมือข้า"
+
+ abduct_outcome.2003.desc:1 "ข้าไม่อยากจะเชื่อว่ามันได้ผล! มันง่ายดายเพียงแค่ปล่อยให้พวกพ้องของข้าบางคนเข้าไปใน [target.Custom('ResidenceBuilding')] กลางดึก \n\n[target.GetTitledFirstName] คงกำลังโทษ [target.GetHerselfHimself] เรื่องการรักษาความปลอดภัยที่หละหลวม โชคดีที่ที่ [target.GetSheHe] อยู่ตอนนี้มันดีกว่ามาก"
+
+ abduct_outcome.4001.opening:0 "บัดซบ! [target.GetTitledFirstName] หนีรอดจากโจรที่ข้าจ้างไป และเดินทางกลับ[target.GetHerHis]ไปยัง [departure.GetBaronyNameExplicitly] ได้อย่างปลอดภัย"
+ abduct_outcome.4001.owner_discovered:0 "\n\nที่เลวร้ายคือ โจรคนหนึ่งถูกจับได้ในภายหลังและสารภาพทุกอย่าง รวมถึงการมีส่วนร่วมของข้าด้วย!"
+ abduct_outcome.4001.owner_secret:0 "\n\nอย่างน้อยก็ไม่มีใครรู้ว่าพวกโจรทำงานให้ข้า"
+ abduct_outcome.4001.a:1 "ข้าจะหาวิธีอื่นจัดการกับ [target.GetHerHim]"
+ abduct_outcome.4001.b:0 "โชคของ [target.GetHerHis|U] จะอยู่ไม่นาน ถึงเวลาลองอีกครั้ง!"
+
+ abduct_outcome.4002.opening:0 "เรื่องแบบนี้เกิดขึ้นได้อย่างไร?! คนของข้ารอแล้วรอเล่าในเวลาและสถานที่ที่ถูกต้อง แต่ [target.GetTitledFirstName] ไม่เคยปรากฏตัว!"
+ abduct_outcome.4002.owner_discovered:0 "\n\nดูเหมือนว่า [target.GetSheHe|U] จะรู้ระแคะระคายว่าข้ากำลังวางแผนอะไรบางอย่าง!"
+ abduct_outcome.4002.owner_secret:0 "\n\n[target.GetSheHe|U] คงจะรู้ระแคะระคายว่ามีบางอย่างกำลังเกิดขึ้น แต่อย่างน้อย [target.GetSheHe] ก็จะไม่มีทางรู้ว่าข้ามีส่วนเกี่ยวข้อง"
+
+ abduct_outcome.4003.opening:0 "ไม่นะ! พวกพ้องของข้าถูกจับได้ขณะพยายามบุกเข้าไปในห้องพักของ [target.GetTitledFirstNamePossessive] ข้าน่าจะรู้ว่ามันไม่ง่ายขนาดนี้"
+ abduct_outcome.4003.owner_discovered:0 "\n\nที่แย่ไปกว่านั้น พวกเขาสารภาพและซัดทอดว่าข้ามีส่วนร่วมในแผนการ!"
+ abduct_outcome.4003.owner_secret:0 "\n\nด้วยปาฏิหาริย์บางอย่าง พวกพ้องของข้าหนีรอดออกมาได้ และการมีส่วนร่วมของข้ายังคงเป็นความลับ"
+
+ abduct_outcome.5001.t:0 "ถูกลักพาตัว!"
+ abduct_outcome.5001.opening:0 "ข้าถูกลักพาตัวโดย [owner.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
+ abduct_outcome.5001.seized_roadside:0 "\n\nข้ากำลังเดินทางกับผู้ติดตามเมื่อเราถูกซุ่มโจมตีโดยกลุ่มโจร ข้ามิรู้ว่าเกิดสิ่งใดขึ้นกับผู้อื่น เพราะมีถุงคลุมศีรษะข้าไว้ เมื่อมันถูกถอดออกในที่สุด ข้าก็พบว่าตนเองกลายเป็นนักโทษใน [prison_location.GetBaronyNameExplicitly]"
+ abduct_outcome.5001.on_the_way:0 "\n\nข้ากำลังเดินทางเข้าเมืองพร้อมทหารองครักษ์เพียงหยิบมือ และ [owner.GetSheHe] รู้ว่าจะต้องลงมือเมื่อข้าอ่อนแอที่สุด!"
+ abduct_outcome.5001.unwelcome_guests:1 "\n\nคนแปลกหน้ากลุ่มหนึ่งบุกเข้ามาในห้องพักของข้ากลางดึก พวกทรยศคงปล่อยให้พวกเขาเข้ามาใน [ROOT.Char.Custom('ResidenceBuilding')] และข้าคิดว่าชีวิตข้าจบสิ้นแล้ว อย่างไรก็ตาม พวกเขาเอาถุงคลุมหัวข้าและลากข้าออกไป เมื่อถูกมัด ข้าก็ถูกนำมายังคุกใต้ดินอันอับชื้นแห่งนี้"
+ abduct_outcome.5001.a:0 "รอให้ข้าออกไปจากที่นี่ได้ก่อนเถอะ!"
+
+ abduct_outcome.5002.t:0 "การลักพาตัวถูกขัดขวาง!"
+ abduct_outcome.5002.seized_roadside:0 "ข้ากำลังเดินทางใน [departure.GetBaronyNameExplicitly] เมื่อกลุ่มโจรบุกเข้าโจมตีเรา\n\nข้าควบม้าหนีไปยังที่ปลอดภัยได้สำเร็จ เพราะเป็นที่ประจักษ์ชัดว่าเหล่าโจรมิได้ประสงค์จะทำร้ายข้า แต่กลับพยายามจับเป็นข้า!"
+ abduct_outcome.5002.on_the_way:1 "ข้ากำลังเดินทางเข้าเมืองพร้อมทหารองครักษ์เพียงหยิบมือเมื่อพวกเขาลงมือ\n\nโชคดีที่คนที่ข้ามีอยู่ด้วยนั้นปฏิบัติการอย่างรวดเร็วและกล้าหาญ และข้าก็กลับมายัง [target.Custom('ResidenceBuilding')] อย่างปลอดภัยในไม่ช้า"
+ abduct_outcome.5002.unwelcome_guests:1 "เสียงเอะอะปลุกข้าให้ตื่นกลางดึก อันธพาลกลุ่มหนึ่งถูกปล่อยเข้ามาใน [ROOT.Char.Custom('ResidenceBuilding')] และเพิ่งถูกพบเมื่อมาถึงประตูห้องพักของข้า!"
+ abduct_outcome.5002.fallback:0 "ข้ารอดพ้นจากความพยายามลักพาตัว!"
+ abduct_outcome.5002.owner_known:0 "\n\nนี่เป็นฝีมือของใครอื่นไม่ได้นอกจาก [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] ของข้า [owner.GetTitledFirstName] อย่างไม่ต้องสงสัย!"
+ abduct_outcome.5002.owner_not_known:0 "\n\nข้าไม่รู้ว่าใครอยู่เบื้องหลังความพยายามลักพาตัวครั้งนี้ แต่พวกมันยังคงลอยนวลอยู่..."
+ abduct_outcome.5002.a:0 "โอ้ [owner.GetSheHe] จะต้องชดใช้!"
+ abduct_outcome.5002.b:0 "ข้าต้องระวังตัว"

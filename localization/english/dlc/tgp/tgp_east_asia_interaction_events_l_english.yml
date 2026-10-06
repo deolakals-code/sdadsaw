@@ -1,0 +1,41 @@
+﻿l_english: 
+ tgp_east_asia_interaction_events.0010.opening: "[leaving_tributary.Custom2('AppropriateGreeting', ROOT.Char)]"
+ tgp_east_asia_interaction_events.0010.desc: "บัดนี้ข้าได้รับใช้เทวราชาองค์ใหม่แล้ว องค์ผู้ที่จะแสดงให้เราเห็นถึงหนทางอันแท้จริง\n\nทรงพระเจริญ [leaving_tributary.GetSuzerain.GetName]!"
+ tgp_east_asia_interaction_events.0010.a: "เป็น เช่นนี้ไปได้อย่างไร!"
+ tgp_east_asia_interaction_events.0010.tt: "[leaving_tributary.GetShortUIName|U] มิใช่ [tributary|E] ของท่านอีกต่อไป"
+
+
+ tgp_east_asia_interaction_events.0020.opening: "[recipient.Custom2('AppropriateGreeting', actor )]"
+ tgp_east_asia_interaction_events.0020.desc: "เทวราชาของข้าทรงให้เหตุผลที่น่าโน้มน้าวนัก\n\nโปรดอนุญาตให้เรารับใช้ต่อไป, แม้จะเป็นเพียงอีกชั่วขณะหนึ่งก็ตาม"
+ tgp_east_asia_interaction_events.0020.a: "ข้าก็คิด เช่นนั้น"
+
+ tgp_east_asia_interaction_events.0025.opening: "[recipient.Custom2('AppropriateGreeting', actor )]"
+ tgp_east_asia_interaction_events.0025.desc: "ข้ามองทะลุคำโป้ปดอันต่ำช้าของท่าน และจะไม่ถูกบีบบังคับโดยง่ายดายปานนั้น!\n\nข้าคาดหวังมากกว่านี้จากเทวราชาที่แท้จริง!"
+ tgp_east_asia_interaction_events.0025.a: "เช่นนั้นรึ..."
+
+ tgp_east_asia_interaction_events.0030.t: "การชักจูง: ผู้ท้าทายปรากฏตัว"
+ tgp_east_asia_interaction_events.0030.desc: "ดูเหมือนว่า [actor.Custom2('InsultNoun', ROOT.Char)] ผู้นั้น [actor.GetTitledFirstName] กำลังพยายามชักนำรัฐบรรณาการของข้า, [recipient.GetTitledFirstName], ให้หลงผิด\n\nมีความพยายามที่จะโน้มน้าว [recipient.GetFirstNameNoTooltip] ให้เชื่อในความเป็นเทพอันเหลวไหลของ [actor.GetFirstNamePossessiveNoTooltip], เพื่อบดบังรัศมีของข้า"
+ tgp_east_asia_interaction_events.0030.a: "ข้าจะชำระล้างจิตใจของ [recipient.GetHerHis] จากเรื่องไร้สาระนี้"
+ tgp_east_asia_interaction_events.0030.b: "ข้าจะจัดการเรื่องนี้ด้วยกำลัง!"
+ tgp_east_asia_interaction_events.0030.c: "ข้ามีเรื่องสำคัญกว่าที่ต้องจัดการ"
+
+ tgp_east_asia_interaction_events.0035.opening: "[sending_character.Custom2('AppropriateGreeting', ROOT.Char)]"
+ tgp_east_asia_interaction_events.0035.desc.warring: "ข้าเสียใจที่ต้องแจ้งให้ท่านทราบ, [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('sending_character'))] ผู้ทรยศ, ว่าข้าได้เลือกที่จะยืนยันสิทธิ์เหนือรัฐบรรณาการของ [recipient.GetTitledFirstNamePossessive] ด้วยกำลัง\n\nจงถือซะว่าเป็นคำเตือน"
+ tgp_east_asia_interaction_events.0035.desc: "ข้าเสียใจที่ต้องแจ้งให้ท่านทราบว่า ความศรัทธาของข้ายังคงอยู่กับเทวราชาที่แท้จริงของข้า, [recipient.GetSuzerain.GetTitledFirstName]\n\nอย่าได้มารบกวนเราอีกเลย"
+ tgp_east_asia_interaction_events.0035.a: "ข้าเข้าใจแล้ว"
+
+ embraced_my_tributary_opinion: "ชักจูงรัฐบรรณาการของข้า"
+ attempted_to_embrace_my_tributary_opinion: "พยายามชักจูงรัฐบรรณาการของข้า"
+
+ tgp_east_asia_interaction_events.2000.t: "ราก ลำต้น และกิ่งก้าน"
+ tgp_east_asia_interaction_events.2000.desc: "เป็นหน้าที่สวรรค์ของข้าที่จะส่งเสริมความดีและกำจัดความชั่ว และในบรรดาสิ่งชั่วร้ายที่มีอยู่ [recipient.GetTitledFirstName] คือแหล่งกำเนิดความชั่วร้ายที่เลวร้ายที่สุดที่ข้าเอื้อมถึง! อาชญากรรมของ [recipient.GetHerHis] #EMP แปดเปื้อน#! วงศ์ตระกูล และสำหรับผู้กระทำผิดย่อมไม่มีการอภัยโทษ การถอนรากถอนโคนความชั่วร้ายนี้จะต้องลึกไปถึงรากเหง้า\n\nผู้ที่ต่อต้านเจตจำนงของเราจงสั่นสะท้านกับการล่มสลายของ [recipient.GetHerHis] ให้ศีรษะของ [recipient.GetHerHis] ถูกแยกออกจากร่างและทิ้งให้เน่าเปื่อยในตลาด ให้กระดูกของ [recipient.GetHerHis] ไม่ถูกฝังและวิญญาณไม่สงบ และใครก็ตามที่มีสายเลือดเป็นพิษร่วมกับ [recipient.GetHerHis] จะต้องถูกประหารชีวิตหรือถูกเนรเทศไปยังสี่มุมโลก"
+ tgp_east_asia_interaction_events.2000.a: "ด้วยเจตจำนงและสิทธิ์ของข้า #EMP ข้าจะ #bold ยุติ#! นามของ [recipient.GetHerHis]#!"
+ tgp_east_asia_interaction_events.2000.a.title: "การลงทัณฑ์ร่วม"
+ tgp_east_asia_interaction_events.2000.a.tt: "[recipient.GetShortUIName] และครอบครัวของ [recipient.GetHerHis] ถูกกวาดล้างโดย [purger.GetShortUIName]"
+ auto_accept_interaction_huangdi: "อำนาจรัฐเป็นสิทธิ์ขาด"
+ celestial_extinguish_noble_family_interaction_death_explanation: "บิดามารดาและบุตรที่เป็นผู้ใหญ่ทุกคน – ที่อายุน้อยกว่า [retirement_age|E] และมีเพศเดียวกับเพศหลักใน [faithpossessive|E] ของท่าน – จะถูกประหารชีวิต"
+ celestial_extinguish_noble_family_interaction_banish_explanation: "[spouses|E] หรือ [concubines|E] และ [close_family|E] และ [extended_family|E] ของ [house|E] เดียวกันจะถูก [banished|E] จาก [realm|E]"
+ celestial_extinguish_noble_family_interaction_exemption_explanation: "[spouse|E] หรือ [concubines|E], [close_family|E] หรือ [extended_family|E] ที่ [married|E] กับ หรือเป็นบุตรของสมาชิก [house|E] ที่ปกครองของ [actor.GetHouse.GetName] จะได้รับการละเว้นโทษ"
+ is_currently_being_purged_tt: "[recipient.GetShortUIName] กำลังถูกกวาดล้าง"
+ purged_banishment_opinion: "อาชญากรที่ถูกเนรเทศ"
+ purged_execution_opinion: "ถูกตัดสินประหารชีวิต"

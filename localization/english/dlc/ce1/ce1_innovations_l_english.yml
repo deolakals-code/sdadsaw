@@ -1,0 +1,5 @@
+﻿l_english: 
+
+ innovation_sanitation: "สุขาภิบาล"
+ innovation_sanitation_desc: "ความสะอาดถือเป็นสิ่งสำคัญสูงสุด การลงทุนในงานวิศวกรรมโยธาที่จำเป็นเพื่อจัดหาความสามารถในการรักษาสุขอนามัยที่เหมาะสมแก่ปวงชนจึงมีความสำคัญอย่างยิ่งต่อไพร่ฟ้าข้าแผ่นดินของเรา"
+ unlocks_innovation_sanitation: "ปลดล็อก [innovation|E] สุขาภิบาล ใน [era|E] $culture_era_early_medieval$"

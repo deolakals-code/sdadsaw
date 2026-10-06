@@ -1,0 +1,307 @@
+﻿l_english: 
+ learning_zealous_path_tt:0 "#F ทางเลือกนี้อาจนำไปสู่เส้นทางแห่งความคลั่งศาสนา#!"
+ learning_cynical_path_tt:0 "#F ทางเลือกนี้อาจนำไปสู่เส้นทางแห่งการมองโลกในแง่ร้าย#!"
+ learning_scholarship_focus_point_clear_gain:1 "ความเข้าใจของข้าใน[learning_lifestyle|E]เพิ่มขึ้น"
+
+ learning_lifestyle_rank_up_indication:0 "ข้าอาจได้รับ[perk|E]ของ[learning_lifestyle|E]"
+ learning_lifestyle_experience_gain_indication:0 "ข้าอาจได้รับ[lifestyle_experience|E]ของ[learning_lifestyle|E]"
+
+# Learn to read, by Linnéa Thimrén
+ learning_scholarship.1101.t:0 "ขาดการรู้หนังสือ"
+ learning_scholarship.1101.desc:1 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U] ข้าสังเกตเห็นว่าท่านอาจต้องการการชี้แนะในศิลปะแห่ง... การถอดความสาส์นที่เขียนขึ้น" [bishop.Custom2('MyCharacterIntroduction', ROOT.Char)] กล่าว พลางยื่นม้วนสาส์นให้ข้า\n\n"หากเป็นที่พอพระทัย/พอใจ [ROOT.Char.GetLadyLord] ของข้า ข้ายินดีที่จะสอนท่าน ข้ามีตำราที่สมบูรณ์แบบอยู่ที่นี่แล้ว""
+ learning_scholarship.1101.a:0 "พ... พระราชา ทรง— ทรงมีมงกุฎใหญ่..."
+ learning_scholarship.1101.b:0 "ข้าเป็นผู้อ่านที่เชี่ยวชาญ!"
+
+# Automaton, by Linnéa Thimrén & Mathilda Bjarnehed
+ learning_scholarship.1201.t:0 "นกขับขาน"
+ learning_scholarship.1201.desc:0 "ขนนกโลหะแวววาว ดวงตาอัญมณีล้ำค่า เสียงร้องเพลงดังกังวานดุจเสียงระฆัง... นกกลที่[bird_sender.Custom2('MyCharacterIntroduction', ROOT.Char)]มอบให้ข้าเป็นผลงานชิ้นเอกอย่างแท้จริง!\n\n"นกตัวนี้สร้างขึ้นโดยช่างฝีมือที่เก่งกาจที่สุดใน[bird_sender.GetPrimaryTitle.GetNameNoTierNoTooltip]ทั้งหมด" จดหมายของ[bird_sender.GetTitledFirstNamePossessiveNoTooltip]อ่าน "ข้าคิดว่าท่านจะพบว่ามันน่าสนใจทีเดียว""
+ learning_scholarship.1201.a:0 "ขายมันเสีย"
+ learning_scholarship.1201.b:0 "นำไปจัดแสดง"
+ learning_scholarship.1201.c:0 "แยกชิ้นส่วนและศึกษากลไกของมัน"
+ learning_scholarship.1201.c.success:0 "[bird_sender.GetTitledFirstNameNoTooltip] เป็น[bird_sender.GetWomanMan]ผู้คงแก่เรียน"
+ learning_scholarship.1201.c.failure:0 "[bird_sender.GetTitledFirstNameNoTooltip] รู้สึกถูกดูหมิ่น"
+
+# Acquire a reading stone, by Linnéa Thimrén
+ learning_scholarship.1401.t:0 "ศิลาแก้ว"
+ learning_scholarship.1401.desc:0 "ขณะที่ข้าพยายามอ่านตัวอักษรเล็กๆ บนม้วนสารตรงหน้า ข้ารู้สึกปวดหัวขึ้นมาอีกครั้ง เหตุใดพวกอาลักษณ์จึงยืนกรานที่จะเขียนสัญลักษณ์เล็กๆ เช่นนี้?!\n\nข้าหรี่ตาและพยายามอีกครั้ง\n\n"...ไม่มีสิ่งใดนอกจากปาฏิหาริย์ ด้วยความช่วยเหลือของศิลาแก้ว แม้ แต่[ROOT.Char.GetWomenMen]ชราที่ประสบปัญหาสายตาไม่ดีก็สามารถอ่านได้อย่างง่ายดาย""
+ learning_scholarship.1401.a:1 "ข้าต้องการศิลาเหล่านี้สักอัน!"
+ learning_scholarship.1401.b:0 "ขายทุกสิ่งที่อ่านไม่ได้"
+ learning_scholarship.1401.c:0 "[bishop.GetTitledFirstNameNoTooltip] ข้าต้องการความช่วยเหลือจากท่าน!"
+ 
+ # Scientific Experiments, by Petter Vilberg
+ learning_scholarship.3001.t:0 "นิมิตแห่งสวรรค์"
+ learning_scholarship.3001.desc:0 "ข้ากวักมือเรียก[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('chaplain'))]ของข้า [chaplain.GetTitledFirstName] ให้มาร่วมกับข้าในวงกลมของลูกโลกทองเหลืองและเทียนที่จัดเรียงบนไม้เท้าทั่วห้องมืด กลิ่นธูปที่คละคลุ้งในอากาศเพื่อปัดเป่าไอระเหยที่ไม่ดี ทำให้ตาของเราน้ำตาไหลในเวลาไม่นาน "นี่คือวิธีที่เราจะมองเห็นรูปลักษณ์อันยากจะหยั่งถึงของทูตสวรรค์ผ่านหางตาของเรา"\n\nอย่างไรก็ตาม [chaplain.GetFirstNameNoTooltip] หยุดชะงักในไม่ช้า "นี่รู้สึกผิด นี่คือสิ่งมีชีวิตจากสวรรค์ ไม่ได้มีไว้ให้สายตาปุถุชนมองเห็น""
+ learning_scholarship.3001.a:0 "ท่านไปได้ แต่ไม่ว่าจะด้วยวิธีใด ข้าจะต้องรู้ให้ได้"
+ learning_scholarship.3001.b:0 "ใช่ นี่เป็นเรื่องโง่เขลา หากไม่ใช่บาปในตัวเอง"
+ learning_scholarship.3001.c:0 "เจตนาของข้าบริสุทธิ์ ข้ารับรองท่าน!"
+ learning_scholarship.3001.c.tt1:0 "ข้าโน้มน้าวให้ [chaplain.GetFirstName] ช่วยเหลือข้า"
+ learning_scholarship.3001.c.toast.tt1:0 "[chaplain.GetFirstName] ถูกโน้มน้าวโดยคำวิงวอนของข้า"
+ learning_scholarship.3001.c.tt2:0 "ข้าไม่สามารถโน้มน้าว [chaplain.GetFirstName] ได้"
+ learning_scholarship.3001.c.toast.tt2:0 "[chaplain.GetFirstName] ปฏิเสธเหตุผลของข้า"
+
+# Translate a Great Work, by Petter Vilberg
+#story cycle loc
+ book_translation_story: "แปลผลงานชิ้นเอก"
+ book_translation_story_desc: "การแปลผลงานชิ้นเอกจะช่วยให้ผู้อื่นได้รับประโยชน์จากภูมิปัญญาของมัน การบรรลุความสำเร็จทางปัญญาอันทะเยอทะยานนี้จะเป็นสิ่งสะท้อนถึงความปราดเปรื่องอันเจิดจรัสของท่าน ทว่าหากล้มเหลว ท่านก็จะถูกตราหน้าว่าเป็นคนโง่เขลา"
+ TRANSLATION_STORY: "ท่านกำลังแปล [Story.GetOwner.Custom('TranslationBookLong')]"
+ TRANSLATION_QUALITY: "คุณภาพงานแปล"
+ POOR_TRANSLATION: "แย่"
+ EXCELLENT_TRANSLATION: "ยอดเยี่ยม"
+ DURATION_LEFT: "ระยะเวลาที่เหลืออยู่"
+ PROGRESS_TOWARDS_CYNICISM: "ความคืบหน้าสู่ความเย้ยหยันศาสนา"
+ CYNICISM: "เย้ยหยันศาสนา"
+ ZEALOTRY: "คลั่งศาสนา"
+#event loc
+ learning_scholarship_special.2001.t:0 "การแปลครั้งใหม่"
+ learning_scholarship_special.2001.desc:0 "เหนือสิ่งอื่นใด การแสวงหาของข้าเพื่อเป็น[ROOT.Char.GetWomanMan]ผู้คงแก่เรียนกำลังสอนข้าว่าข้ายังไม่รู้อะไรอีกมากเพียงใด ยิ่งไปกว่านั้น ต้องมีความรู้มากมายที่สูญหายไปตามกาลเวลา เนื่องจากหนังสือผุพังหรือภาษาถูกลืมเลือน...\n\nบางทีข้าอาจจะมีส่วนร่วมโดยการแปลผลงานคลาสสิกชิ้นหนึ่งขึ้นมาใหม่?\n\nถึงกระนั้น ข้าจะแปลอะไรดี...?"
+ learning_scholarship_special.2001.regula_pastoralis:0 "เรอกูลา ปาสโตราลิส ว่าด้วยการดำเนินชีวิตที่ดี"
+ learning_scholarship_special.2001.physica_elementa:0 "วิทยาศาสตร์คลาสสิก — ฟิสิกาของอริสโตเติล!"
+ learning_scholarship_special.2001.almagest:0 "การศึกษาท้องฟ้าผ่านอัลมาเกสต์ของปโตเลมี"
+ learning_scholarship_special.2001.elements:0 "เอเลเมนต์ส ตำราคณิตศาสตร์ของยุคลิด!"
+ learning_scholarship_special.2001.corpus_hermeticus:0 "ความรู้ลึกลับของคอร์ปุส เฮอร์เมติคุส!"
+ learning_scholarship_special.2001.treatises_of_hippocrates:0 "ข้อมูลเชิงลึกทางการแพทย์จากตำราของฮิปโปเครตีส"
+ learning_scholarship_special.2001.peri_psyches:0 "เพริ ไซคีส อันโด่งดังของอริสโตเติล!"
+ learning_scholarship_special.2001.kategoriai:0 "คาเทโกริไอ การจำแนกประเภทของประธานและภาคแสดงทั้งหมด"
+ learning_scholarship_special.2001.avesta:0 "คัมภีร์ศักดิ์สิทธิ์เปอร์เซียโบราณ อเวสตา"
+ learning_scholarship_special.2001.de_oratore:0 "บทเรียนวาทศิลป์ของซิเซโรจาก เด โอราโตเร!"
+ learning_scholarship_special.2001.book_of_arda_viraf:0 "การเดินทางในฝันจากคัมภีร์อาร์ดา วิราฟ"
+ learning_scholarship_special.2001.upanishads:0 "คัมภีร์พระเวทที่โด่งดังที่สุด อุปนิษัท!"
+ learning_scholarship_special.2001.rigveda:0 "บทสวดทางศาสนาของฤคเวท"
+ learning_scholarship_special.2001.book_of_balances:0 "คัมภีร์ย่อว่าด้วยการคำนวณ"
+ learning_scholarship_special.2001.secret_of_secrets:0 "ความลับแห่งความลับที่มอบให้อเล็กซานเดอร์"
+ learning_scholarship_special.2001.court_of_agriculture:0 "ตำราเกษตรศาสตร์"
+ learning_scholarship_special.2001.lanterns_of_wisdom:0 "คำแนะนำเกี่ยวกับการเล่นแร่แปรธาตุในโคมไฟแห่งปัญญา"
+ learning_scholarship_special.2001.shahnameh:0 "บทกวีประวัติศาสตร์เปอร์เซีย ชาห์นาเมห์"
+ learning_scholarship_special.2001.arithmetica:0 "อาริธเมติกาและอรรถกถาของไดโอแฟนตัส"
+ learning_scholarship_special.2001.pali_canon:0 "ข้อความจากพระไตรปิฎกบาลี"
+ learning_scholarship_special.2001.the_norse_sagas:0 "หนึ่งในตำนานนอร์ส!"
+ learning_scholarship_special.2001.family_history:0 "เรื่องส่วนตัว — ประวัติครอบครัวของข้า"
+ learning_scholarship_special.2001.ancient_myths:0 "เรื่องยิ่งใหญ่ — หนึ่งในตำนานโบราณ!"
+ learning_scholarship_special.2001.decline:0 "นี่ฟังดูยากเกินไป"
+
+ book_translation_tooltip.unchanged:0 "#V คุณภาพการแปล#! จะยังคงไม่เปลี่ยนแปลง"
+ book_translation_tooltip.more_good:0 "#V คุณภาพการแปล#! จะดีขึ้นอย่างมีนัยสำคัญ"
+ book_translation_tooltip.less_good:0 "#V คุณภาพการแปล#! จะดีขึ้นเล็กน้อย"
+ book_translation_tooltip.finish_faster:0 "การแปลจะเสร็จเร็วขึ้น"
+
+ book_translation_toast.unchanged:0 "#V คุณภาพการแปล#! ยังคงไม่เปลี่ยนแปลง"
+ book_translation_toast.more_good:0 "#V คุณภาพการแปล#! ดีขึ้นอย่างมีนัยสำคัญ"
+ book_translation_toast.less_good:0 "#V คุณภาพการแปล#! ดีขึ้นเล็กน้อย"
+ book_translation_toast.finish_faster:0 "การแปลเสร็จเร็วขึ้น"
+
+ learning_scholarship_special.2011.desc:0 "การแปล [ROOT.Char.Custom('TranslationBook')] ของข้ากำลังดำเนินไป แต่มีส่วนหนึ่งในฉบับที่ข้ากำลังคัดลอก ทำให้ข้าหยุดชะงัก\n\nอาลักษณ์ของข้ายืนยันว่าคำในหน้านั้นหมายถึง "ขณะที่เราถือสองเท้าและขอบที่สูงขึ้นของจิตวิญญาณของนายพราน"\n\nนั่นไม่น่าจะถูกต้อง ใช่หรือไม่?"
+ learning_scholarship_special.2011.a:0 "ข้าสามารถคิดสิ่งที่เหมาะสมกว่านี้ได้"
+ learning_scholarship_special.2011.a.success:0 "ข้าปรับปรุงข้อความ"
+ learning_scholarship_special.2011.a.failure:0 "ข้าสูญเสียความหมาย"
+ learning_scholarship_special.2011.b:0 "เราแปลข้อความตามที่เขียนไว้ทุกประการ!"
+ learning_scholarship_special.2011.c:0 "โอ้ ความหมายชัดเจน ให้ข้าจัดการเรื่องนี้เอง"
+
+ learning_scholarship_special.2012.desc:0 "วลีเฉพาะจาก [ROOT.Char.Custom('TranslationBook')] ทำให้ความพยายามในการแปลของข้าติดขัดมาหลายวันแล้ว ข้าถึงกับเริ่มพึมพำกับตัวเองในบางครั้ง\n\n"ยังคงติดอยู่กับอันนั้นอยู่หรือ?" [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('realm_priest'))]ของข้ายกตำราเล่มหนาเก่าๆ ขึ้นมา "เพียงแค่ต้องรู้ว่าจะมองหาที่ไหน""
+ learning_scholarship_special.2012.a:0 "ช่วยข้าค้นพบสิ่งนี้เถิด [realm_priest.GetFirstNameNoTooltip]!"
+ learning_scholarship_special.2012.a.success:0 "[realm_priest.GetShortUINameNoTooltip] พบคำตอบ"
+ learning_scholarship_special.2012.a.failure:0 "[realm_priest.GetShortUINameNoTooltip] พบคำตอบบางอย่าง"
+ learning_scholarship_special.2012.b:0 "ไม่มีลูกไม้ แค่บอกข้าว่าข้ากำลังมองหาอะไร"
+ learning_scholarship_special.2012.c:0 "ช่วยแสดงให้ข้าดูหน่อยได้ไหม สหายเก่า?"
+ learning_scholarship_special.2012.c.friendship_tooltip:0 "ตัวเลือกนี้มีให้ เนื่องจากมิตรภาพของข้ากับ [realm_priest.GetFirstNameNoTooltip]"
+
+ learning_scholarship_special.2013.desc:0 "ข้ากำลังให้คนอ่านบันทึกสำหรับการแปล [ROOT.Char.Custom('TranslationBook')] ของข้ากลับให้ฟัง เมื่อข้าเข้าใจขึ้นมาทันที "อาลักษณ์! เพิ่มคำอธิบายประกอบต่อไปนี้...""
+ learning_scholarship_special.2013.a:0 ""แตกต่างจาก[ROOT.Char.GetFaith.ReligiousText] งานชิ้นนี้ตั้งสมมติฐานว่า...""
+ learning_scholarship_special.2013.b:0 ""ดังที่เห็นได้ชัดจากพระประสงค์ของ[ROOT.Char.GetFaith.HighGodName]...""
+
+ learning_scholarship_special.2014.desc:0 "ข้ากำลังให้คนอ่านบันทึกสำหรับการแปล [ROOT.Char.Custom('TranslationBook')] ของข้าให้ฟัง เมื่อ...\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U]? โปรดอภัยให้ข้าด้วย แต่... ท่านเผลอหลับไปหรือ?!"\n\nสวรรค์ทรงโปรด "ตำราคลาสสิก" ชิ้นนี้มันช่างไร้สาระโดยสิ้นเชิง!"
+ learning_scholarship_special.2014.a:0 "ถึงกระนั้น ข้าจะบังคับตัวเองให้ผ่านมันไปให้ได้!"
+ learning_scholarship_special.2014.b:0 "อาลักษณ์ของข้าสามารถรับผิดชอบมากขึ้นได้"
+ learning_scholarship_special.2014.c:0 "ข้าต้องการพักจากทั้งหมดนี้"
+
+ learning_scholarship_special.2015.desc:0 "ข้าพบว่าตนเองกำลังง่วนอยู่กับการแปล [ROOT.Char.Custom('TranslationBook')] เป็นเวลาหลายชั่วยามใต้แสงเทียนริบหรี่ บ่อยครั้งที่ข้าแทบไม่สังเกตว่าเวลาล่วงเลยไป ทว่าเหล่าอาลักษณ์ของข้าคอยเตือน\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U] บัดนี้คงเลยเที่ยงคืนไปแล้ว ยังไม่ถึงเวลาพักผ่อนอีกหรือ?""
+ learning_scholarship_special.2015.a:0 ""ไม่ เราต้องทำต่อไปจนกว่าข้าจะรู้สึกว่าเสร็จ!""
+ learning_scholarship_special.2015.b:0 ""ใช่ การนอนหลับบ้างจะดีต่อพวกเราทุกคน""
+ learning_scholarship_special.2015.c:0 ""พวกเจ้าทุกคนทำงานต่อไปได้ ในขณะที่ข้าพักผ่อน""
+
+ learning_scholarship_special.2016.desc:0 "หนึ่งในอาลักษณ์ของข้าได้แก้ไขการแปล [ROOT.Char.Custom('TranslationBook')] ของข้าโดยที่ข้าไม่รู้!\n\n"ข้าเพียงต้องการ ทำให้มันดีที่สุดเท่าที่จะเป็นไปได้! ท่านชอบมันเมื่อใดก็ตามที่ท่านคิดว่าเป็นงานของท่านเอง!""
+ learning_scholarship_special.2016.a:0 "เจ้าจะไม่มีวันคัดลอกข้อความให้ใครอีก!"
+ learning_scholarship_special.2016.b:0 "ข้าจะ ทำให้เจ้าชดใช้!"
+ learning_scholarship_special.2016.b.flavor:0 ""พวกเจ้าอาลักษณ์ที่เหลือควรจะเรียนรู้จากสิ่งนี้!""
+ learning_scholarship_special.2016.c:0 "นี่... ค่อนข้างดีทีเดียว จริงๆ แล้ว"
+
+ learning_scholarship_special.2017.desc:0 "ความพยายามอย่างต่อเนื่องในการแปล [ROOT.Char.Custom('TranslationBook')] นั้นเหนื่อยล้า การมุ่งเน้น ความเข้าใจ และความคิดสร้างสรรค์อย่างไม่หยุดยั้งที่จำเป็น ทำให้ข้าหมดแรง ขณะที่ข้าเข้าใกล้ความสำเร็จมากขึ้นเรื่อยๆ"
+ learning_scholarship_special.2017.a:0 "อีกเพียงไม่กี่หน้าคืนนี้ แล้วก็อีกไม่กี่หน้าในตอนเช้า..."
+ learning_scholarship_special.2017.b:0 "ข้าต้องปลีกตัวออกจากสิ่งรบกวนอื่นๆ ทั้งหมดจนกว่าสิ่งนี้จะเสร็จสิ้น"
+ learning_scholarship_special.2017.c:0 "หนังสือรอได้สักพัก"
+
+ learning_scholarship_special.2097.t:0 "การแปลอันยอดเยี่ยม"
+ learning_scholarship_special.2097.opening:0 "ในที่สุดการแปล [ROOT.Char.Custom('TranslationBook')] ของข้าก็เสร็จสมบูรณ์ คำพูดของข้าอยู่บนหน้ากระดาษประดับลวดลายอย่างสวยงาม ทั้งหมดได้รับการปกป้องด้วยปกหรูหรา สมกับความสำคัญของงาน"
+ learning_scholarship_special.2097.conclusion:0 "\n\nตำราเล่มนี้ได้กลายเป็นส่วนสำคัญในหอสมุดส่วนตัวของข้า และ[ROOT.Char.GetFaith.PriestNeuter]ทุกคนที่อ่านต่างประทับใจในความพยายามของข้าอย่างยิ่ง บางคนกำลังพูดถึงการทำสำเนาของตนเองแล้ว"
+ learning_scholarship_special.2097.a:0 "ความพยายามนี้สอนข้ามากมาย"
+
+ learning_scholarship_special.2098.t:0 "การแปลของข้าเสร็จสมบูรณ์"
+ learning_scholarship_special.2098.opening:0 "ในที่สุด การแปล [ROOT.Char.Custom('TranslationBook')] ของข้าก็เสร็จสิ้น คำพูดถูกล้อมรอบด้วยภาพประดับที่สวยงาม โดยภาพที่หรูหราที่สุดดึงดูดความสนใจไปจากส่วนที่ข้ารู้สึกไม่แน่ใจ"
+ learning_scholarship_special.2098.conclusion:0 "\n\nแม้ว่าอาจจะเข้าใจยากในบางแห่ง แต่ก็ไม่ต้องสงสัยเลยว่าการแปลนี้เป็นสิ่งจำเป็นอย่างยิ่ง ขณะที่มันอยู่ในหอสมุดส่วนตัวของข้า ที่ ซึ่ง[ROOT.Char.GetFaith.DevoteeNeuterPlural]มักจะอ่าน ข้าเฝ้ารอความพยายามครั้งแรกในการคัดลอกมันอย่างใจจดใจจ่อ"
+ learning_scholarship_special.2098.a:0 "ข้าได้เรียนรู้มากมายจากสิ่งนี้!"
+
+# Lead to Gold, by Sean Hughes
+ learning_scholarship_special.3001.t:0 "ตะกั่วสู่ทองคำ"
+ learning_scholarship_special.3001.desc_opening:0 "การแปรธาตุตะกั่วเป็นทองคำเป็นความฝันของนักเล่นแร่แปรธาตุทั่วโลกมานานแล้ว แม้ว่าหลายคนจะพยายามทำ เช่นนั้น แต่ก็ไม่มีใครเป็นที่รู้จักว่าประสบความสำเร็จ\n\n"
+ learning_scholarship_special.3001.desc_alchemist:0 "อย่างไรก็ตาม [alchemist.Custom2('MyCharacterIntroduction', ROOT.Char)] ได้พบบันทึกบางอย่างที่เขียนไว้ในขอบหนังสือเกี่ยวกับพืช พวกเขาอ้างว่าสามารถสร้าง "ฝนทองคำ" ได้โดยการต้มน้้ำตาลตะกั่วในสารละลายที่กรองแล้วของเถ้าสาหร่ายทะเล"
+ learning_scholarship_special.3001.desc:1 "ถึงกระนั้น ข้าได้พบบันทึกบางอย่างที่เขียนไว้ในขอบหนังสือเกี่ยวกับพืช พวกเขาอ้างว่าสามารถสร้าง "ฝนทองคำ" ได้โดยการต้มน้้ำตาลตะกั่วในสารละลายที่กรองแล้วของเถ้าสาหร่ายทะเล"
+ learning_scholarship_special.3001.desc_ending:0 "\n\nสิ่ง เช่นนี้เป็นไปได้หรือไม่?"
+ learning_scholarship_special.3001.a:0 "หากไม่มีอะไรอื่น มันก็คุ้มค่าที่จะตรวจสอบ..."
+ learning_scholarship_special.3001.b:0 "ข้อความขีดเขียนเหล่านี้เป็นการเล่นตลกไร้สาระอย่างชัดเจน"
+ learning_scholarship_special.3001.c:0 "การแสวงหาความมั่งคั่ง เช่นนี้เป็นสิ่งที่ไม่ศรัทธาโดยเนื้อแท้!"
+ learning_scholarship_special.3001.d:0 "ข้าจะไม่ถูกล่อลวงด้วยคำสัญญาของเวทมนตร์คาถา!"
+
+ learning_scholarship_special.3002.desc_alchemist:0 "สารตั้งต้นแรกที่เราต้องหาคือ น้ำตาลตะกั่ว ส่วนผสมที่ใช้เพิ่มความหวานให้กับไวน์\n\nเราสามารถหาผู้จัดจำหน่ายเพื่อนำเข้าสิ่งที่เราต้องการได้ แม้ว่าจะมีราคาแพง หรืออีกทางหนึ่ง เราสามารถผลิตเองได้ในราคาถูกโดยการเผาตะกั่วโลหะและละลายเถ้าในน้ำส้มสายชู..."
+ learning_scholarship_special.3002.desc:0 "สารตั้งต้นแรกที่ข้าต้องหาคือ น้ำตาลตะกั่ว ส่วนผสมที่ใช้เพิ่มความหวานให้กับไวน์\n\nข้าสามารถหาผู้จัดจำหน่ายเพื่อนำเข้าสิ่งที่ข้าต้องการได้ แม้ว่าจะมีราคาแพง หรืออีกทางหนึ่ง ข้าสามารถผลิตเองได้ในราคาถูกโดยการเผาตะกั่วโลหะและละลายเถ้าในน้ำส้มสายชู..."
+ learning_scholarship_special.3002.a:0 "ต้องใช้เงินเพื่อสร้างเงิน!"
+ learning_scholarship_special.3002.b:0 "ข้าจะเรียนรู้ได้อย่างไรหากคนอื่นทำงานทั้งหมด!?"
+ learning_scholarship_special.3002.b_alchemist:0 "เราจะเรียนรู้ได้อย่างไรหากคนอื่นทำงานทั้งหมด!?"
+ learning_scholarship_special.3002.a.success:1 "ท่านสร้างน้ำตาลตะกั่วได้โดยไม่มีเหตุการณ์ใดเกิดขึ้น"
+ learning_scholarship_special.3002.a.failure:1 "ควันตะกั่ว ทำให้ท่านปวดหัว"
+ learning_scholarship_special.3002.tt:1 "ท่านได้รับน้ำตาลตะกั่ว"
+ learning_scholarship_special.3002.c:0 "เมื่อคิดดูอีกที นี่เป็นความคิดที่ไม่ดี..."
+
+ learning_scholarship_special.3003.desc_alchemist:0 "สารตั้งต้นที่สองที่เราต้องหาคือ สาหร่ายทะเล... สาหร่ายทะเลจำนวนมาก หนึ่งร้อยแดรม ฉีกเป็นชิ้นเล็กๆ แล้วตากแห้ง เราจะหาปริมาณมากขนาดนี้ได้จากที่ไหน?"
+ learning_scholarship_special.3003.desc:0 "สารตั้งต้นที่สองที่ข้าต้องหาคือ สาหร่ายทะเล... สาหร่ายทะเลจำนวนมาก หนึ่งร้อยแดรม ฉีกเป็นชิ้นเล็กๆ แล้วตากแห้ง ข้าจะหาปริมาณมากขนาดนี้ได้จากที่ไหน?"
+ learning_scholarship_special.3003.a:0 "ข้าจะนำเข้าจากเมืองชายฝั่งต่างๆ"
+ learning_scholarship_special.3003.b:0 "เรียกร้องภาษีสาหร่ายทะเลจากไพร่ฟ้าของข้า!"
+ learning_scholarship_special.3003.c:0 "ข้าสามารถใช้ตะกั่วของข้าเพื่อเพิ่มความหวานให้กับไวน์แทนได้..."
+ learning_scholarship_special.3003.tt:1 "ท่านได้รับสาหร่ายทะเล"
+
+ learning_scholarship_special.3004.desc_alchemist:0 "ในที่สุด เราก็มีสารตั้งต้นที่จำเป็นทั้งหมดเพื่อผลิตฝนทองคำ!\n\nน้ำตาลตะกั่วถูกเก็บไว้อย่างปลอดภัยในถังกันน้ำ เชือกสาหร่ายทะเลแห้งถูกกองไว้ในเตาเผา พร้อมที่จะเผา\n\nนี่จะเป็นผลงานชิ้นเอกของเราหรือไม่?"
+ learning_scholarship_special.3004.desc:0 "ในที่สุด ข้าก็มีสารตั้งต้นที่จำเป็นทั้งหมดเพื่อผลิตฝนทองคำ!\n\nน้ำตาลตะกั่วถูกเก็บไว้อย่างปลอดภัยในถังกันน้ำ เชือกสาหร่ายทะเลแห้งถูกกองไว้ในเตาเผา พร้อมที่จะเผา\n\nนี่จะเป็นผลงานชิ้นเอกของข้าหรือไม่?"
+ learning_scholarship_special.3004.a:0 "เริ่มการทดลอง!"
+ learning_scholarship_special.3004.a.success:1 "ท่านสามารถสร้างฝนทองคำได้สำเร็จ"
+ learning_scholarship_special.3004.a.success.tt:1 "ความมั่งคั่งและเกียรติยศเป็นของท่าน!"
+ learning_scholarship_special.3004.a.failure:0 "สูตรไม่ได้ผลตามที่คาดไว้"
+ learning_scholarship_special.3004.a.failure.tt:1 "แต่ท่านสร้างอะไรขึ้นมาแทน?"
+ learning_scholarship_special.3004.b:0 "...ข้ากำลังทำอะไรอยู่? นี่มันโง่เง่า"
+
+ learning_scholarship_special.3005.desc_alchemist:0 "หลังจากผสมน้ำตาลตะกั่วลงในสารละลาย มันก็เปลี่ยนเป็นสีเหลืองสดใสทันที! เรากังวลอยู่ครู่หนึ่งเมื่อส่วนผสมกลายเป็นใสหลังจากต้ม แต่เมื่อมันเย็นลง เราเห็นผลึกสีทองเล็กๆ ก่อตัวขึ้นในขวด\n\nจากการตรวจสอบ เราบอกได้ว่าผลึกเหล่านี้ไม่ใช่ทองคำแท้ เนื่องจากมันโปร่งแสง อย่างไรก็ตาม เป็นไปได้ว่าปฏิกิริยานี้เป็นหนึ่งใน '12 กระบวนการสำคัญ' ในตำนานที่จำเป็นในการสร้างทองคำ!"
+ learning_scholarship_special.3005.desc:0 "หลังจากผสมน้ำตาลตะกั่วลงในสารละลาย มันก็เปลี่ยนเป็นสีเหลืองสดใสทันที! ข้ากังวลอยู่ครู่หนึ่งเมื่อส่วนผสมกลายเป็นใสหลังจากต้ม แต่เมื่อมันเย็นลง ข้าเห็นผลึกสีทองเล็กๆ ก่อตัวขึ้นในขวดของข้า\n\nจากการตรวจสอบ ข้าบอกได้ว่าผลึกเหล่านี้ไม่ใช่ทองคำแท้ เนื่องจากมันโปร่งแสง อย่างไรก็ตาม เป็นไปได้ว่าปฏิกิริยานี้เป็นหนึ่งใน '12 กระบวนการสำคัญ' ในตำนานที่จำเป็นในการสร้างทองคำ!"
+ learning_scholarship_special.3005.a:0 "ข้าเข้าใกล้การแปรธาตุที่แท้จริงไปอีกก้าวหนึ่งหรือไม่?"
+ learning_scholarship_special.3005.a_alchemist:0 "เราเข้าใกล้การแปรธาตุที่แท้จริงไปอีกก้าวหนึ่งหรือไม่?"
+
+ learning_scholarship_special.3006.desc_alchemist:0 "เมื่อผสมน้ำตาลตะกั่วลงในเถ้าสาหร่ายทะเลที่ต้มแล้ว ส่วนผสมก็เปลี่ยนเป็นสีเหลืองสดใสทันที\n\nแม้ว่าเราจะไม่สามารถผลิตทองคำจริงได้ แต่เราพบว่าสารละลายของเราสามารถใช้เป็นสีย้อมที่มีความสว่างเทียบเท่าหญ้าฝรั่นได้ การขายสีย้อมนี้จะช่วยให้ข้าชดเชยค่าใช้จ่ายบางส่วนได้"
+ learning_scholarship_special.3006.desc:0 "เมื่อผสมน้ำตาลตะกั่วลงในเถ้าสาหร่ายทะเลที่ต้มแล้ว ส่วนผสมก็เปลี่ยนเป็นสีเหลืองสดใสทันที\n\nแม้ว่าข้าจะไม่สามารถผลิตทองคำจริงได้ แต่ข้าพบว่าสารละลายของข้าสามารถใช้เป็นสีย้อมที่มีความสว่างเทียบเท่าหญ้าฝรั่นได้ การขายสีย้อมนี้จะช่วยให้ข้าชดเชยค่าใช้จ่ายบางส่วนได้"
+ learning_scholarship_special.3006.a:0 "สวยงาม หาก แต่ไม่คุ้มค่าทางเศรษฐกิจในการผลิต"
+
+ learning_scholarship_special.3007.desc_alchemist:0 "หลังจากเผาสาหร่ายทะเลและผสมกับน้ำ เราเหลือตะกอนสีน้ำตาลน่าขยะแขยงจำนวนมาก ไม่แน่ใจว่าจะทำอย่างไรต่อไป เราผสมน้ำตาลตะกั่วลงในสารละลาย แต่ไม่มีการเปลี่ยนแปลงที่สังเกตได้เกิดขึ้น\n\nน่าเสียดายที่ประโยชน์เดียวที่ข้าคิดได้สำหรับการทดลองคือใช้เป็นปุ๋ย"
+ learning_scholarship_special.3007.desc:0 "หลังจากเผาสาหร่ายทะเลและผสมกับน้ำ ข้าเหลือตะกอนสีน้ำตาลน่าขยะแขยงจำนวนมาก ไม่แน่ใจว่าจะทำอย่างไรต่อไป ข้าผสมน้ำตาลตะกั่วลงในสารละลาย แต่ไม่มีการเปลี่ยนแปลงที่สังเกตได้เกิดขึ้น\n\nน่าเสียดายที่ประโยชน์เดียวที่ข้าคิดได้สำหรับการทดลองของข้าคือใช้เป็นปุ๋ย"
+ learning_scholarship_special.3007.a:0 "ข้าเดาว่าพืชผลจะเติบโตได้ดีในปีนี้?"
+
+ learning_scholarship_special.3099.termination.toast:0 "การแปรธาตุถูกขัดขวาง"
+ learning_scholarship_special.3099.termination.desc.prison:0 "ข้าไม่สามารถทำการทดลองการแปรธาตุต่อไปจากในคุกได้"
+ learning_scholarship_special.3099.termination.desc.incapable:0 "ข้าไม่สามารถทำการทดลองการแปรธาตุต่อไปได้ ในขณะที่ไร้ความสามารถ"
+ 
+ #Dear god, go outside by Isabella Welch
+ learning_scholarship.4000.t:1 "ออกไปข้างนอก!"
+ learning_scholarship.4000.desc:0 "ดึกแล้ว และข้ากำลังหมกมุ่นอยู่กับตำราไวยากรณ์คลาสสิกที่น่าสนใจ ขณะที่ข้าเริ่มหัวเราะคิกคักกับข้อความเขียนขอบกระดาษที่น่าขบขันอย่างน่ายินดี ซึ่งผู้อ่านคนก่อนทิ้งไว้ [spouse_uninterested_in_study.GetWifeHusband]ของข้าก็เข้ามาใน[ROOT.Char.Custom('GetRoom')]\n\n"[ROOT.Char.GetWomanMan]ขี้ขลาด! เจ้าละเลยทุกสิ่งยกเว้นการศึกษาของเจ้า อ่านหนังสืออยู่ แต่ในบ้านตามลำพังตั้งแต่ค่ำจรดเช้า เอาหัวของเจ้าออกจากม้วนสารฝุ่นเขรอะเหล่านั้นเสีย หรือไม่ก็อย่ามาที่เตียงของข้าคืนนี้""
+ learning_scholarship.4000.a:0 "ตามที่ท่านปรารถนา"
+ learning_scholarship.4000.b:0 "บางทีเราอาจจะอ่านข้อความที่ตัดตอนมาด้วยกันนับจากนี้ไป"
+ learning_scholarship.4000.c:0 "ข้าต้องทำงานดึกเพื่อเตรียมบทเรียนให้ [child_educated.GetFirstNameNoTooltip] ที่รัก"
+ learning_scholarship.4000.c.tt:0 "[spouse_uninterested_in_study.GetFirstName] ไม่ใช่[spouse_uninterested_in_study.GetMotherFather]ของ [child_educated.GetFirstNameNoTooltip]"
+ learning_scholarship.4000.d:0 "ข้าไม่จำเป็นต้องนอนกับเจ้า — ข้ามีอ้อมกอดอันอบอุ่นของความรู้!"
+
+# Bibliomancy by Chad Uhl
+ bibliomancy_chain_header:0 "คัมภีร์ศักดิ์สิทธิ์:"
+
+ learning_scholarship.5000.t:0 "คัมภีร์ศักดิ์สิทธิ์"
+ learning_scholarship.5000.desc:0 "ขณะที่ข้าออกไปเดินเล่นรอบตลาด พ่อค้าคนหนึ่งเรียกข้าไปหาโดยยืนยันว่า[merchant_mystic.GetSheHe]มีบางสิ่งที่จะกระตุ้นความสนใจของข้า\n\nกลิ่นสมุนไพรแห้งและสารสกัดต่างแดนอบอวลไปทั่วประสาทสัมผัสของข้าขณะที่ข้าเข้าใกล้แผงลอย [merchant_mystic.GetSheHe|U] กำลังค้นหาในกองตำราฝุ่นเขรอะและสมบัติอื่นๆ ของ[merchant_mystic.GetHerHis]\n\nหลังจากค้นหาอยู่ครู่หนึ่ง พ่อค้าก็นำหนังสือเก่าเล่มหนึ่งออกมาและยืนยันว่าข้าต้องการมันสำหรับ "สิ่งที่จะเกิดขึ้น""
+ learning_scholarship.5000.a:0 "ก็ได้ ข้าจะลองดู"
+ learning_scholarship.5000.b:0 "บางทีเราอาจจะตกลงกันได้"
+ learning_scholarship.5000.c:0 "ข้าเอาสิ่งที่ข้าต้องการ"
+ learning_scholarship.5000.d:0 "ข้าต้องการหนังสือของเจ้าไปทำไม?"
+
+ learning_scholarship.5000.b.success:0 "ท่านต่อรองราคาที่ดีกว่าได้"
+ learning_scholarship.5000.b.failure:0 "ท่านต่อรองราคาที่ดีกว่าไม่สำเร็จ"
+
+ bibliomancy_book_purchased:0 "ท่านจะได้รับหนังสือ[artifact|E]"
+ learning_scholarship_sacred_artifact_obtained:0 "ท่านได้รับคัมภีร์ศักดิ์สิทธิ์"
+
+ learning_scholarship.5001.t:0 "$bibliomancy_chain_header$ การทำนายจากหนังสือ"
+ learning_scholarship.5001.desc:0 "ขณะที่ข้ากำลังเก็บ [sacred_text.GetName] ที่เพิ่งได้มา แผ่นหนังแผ่นหนึ่งก็หลุดออกมา บนนั้นมีคำแนะนำสำหรับวิธีปฏิบัติที่เรียกว่า การทำนายจากหนังสือ ซึ่งอาจทำนายโชคชะตาของตนเองจากข้อความในหนังสือได้\n\nสิ่งที่ข้าต้องทำคือเปิดคัมภีร์นี้ไปยังจุดสุ่มและอ่านโศลกแห่งโชคชะตาแรกที่สายตาของข้าอาจจะไปตกอยู่"
+ learning_scholarship.5001.a:0 "ความเย้ายวนใจนั้นท่วมท้น"
+ learning_scholarship.5001.b:0 "ข้าจะไม่มีส่วนเกี่ยวข้องกับวิธีปฏิบัติที่ไม่ศักดิ์สิทธิ์นี้"
+
+ learning_scholarship.5002.t:0 "$bibliomancy_chain_header$ การอ่านแห่งโชคชะตา"
+ learning_scholarship.5002.desc:0 "ข้าทำตามคำแนะนำทุกประการและเลือกข้อความแบบสุ่มจากคัมภีร์ตรงหน้าข้า ตัวสั่นด้วยความคาดหวัง ข้าลืมตาขึ้นและอ่าน:\n\n#EMP ความกลัวคือนักฆ่าความคิด คนขี้ขลาดตายพันครั้งเล็กๆ แต่คนกล้าหาญตายเพียงครั้งเดียว#!\n\nข้าควรจะเข้าใจสิ่งนี้อย่างไร?"
+ learning_scholarship.5002.a:0 "ความกลัวคือความตายเล็กๆ ที่นำมา ซึ่งการทำลายล้างสิ้นเชิง"
+ learning_scholarship.5002.b:0 "น่าสนใจ สิ่งนี้ต้องการการวิจัยเพิ่มเติม"
+ learning_scholarship.5002.b.success:0 "ข้าค้นพบความหมายที่แท้จริงของข้อความนี้"
+ learning_scholarship.5002.b.failure:0 "ข้อความยังคงหลบเลี่ยงข้า"
+ learning_scholarship.5002.c:0 "ช่างไร้สาระสิ้นดี!"
+ learning_scholarship.5002.c.tt:0 "ท่านเพิกเฉยต่อข้อความ"
+ learning_scholarship.5002.d:0 "$antiquarian_court_position$ของข้า [antiquarian.GetTitledFirstNameNoTooltip] ควรจะดูสิ่งนี้"
+
+ learning_scholarship.5003.t:0 "$bibliomancy_chain_header$ การทำนายจากหนังสือ"
+ learning_scholarship.5003.desc:0 "ข้าหลวงของข้า [bibliomancy_antagonist.GetName] กังขาในความสามารถของข้าอย่างเงียบๆ มาหลายปีแล้ว อย่างไรก็ตาม เมื่อเร็วๆ นี้ เสนาบดีของข้ารายงานว่า [bibliomancy_antagonist.GetSheHe] ได้เริ่มวิพากษ์วิจารณ์สิทธิ์ในการปกครองของข้าอย่างเปิดเผยมากขึ้น [bibliomancy_antagonist.GetSheHe|U] มีอิทธิพลในหมู่ข้าหลวงคนอื่นๆ และสามารถ ทำให้ชีวิตของข้ายากลำบากได้อย่างง่ายดาย\n\nข้อความจาก [sacred_text.GetName] สามารถทำนายสิ่งนี้ได้หรือไม่? ความกลัวคือนักฆ่าความคิด..."
+ learning_scholarship.5003.a:0 "ข้าเผชิญหน้ากับความกลัวของข้า"
+ learning_scholarship.5003.a.tt:0 "ข้าโต้วาทีกับ [bibliomancy_antagonist.GetName] ในที่สาธารณะ"
+ learning_scholarship.5003.b:0 "แนวทางที่สุขุมดีที่สุด"
+ learning_scholarship.5003.b.tt:0 "ข้าทำการทาบทามอย่างเป็นทางการกับ [bibliomancy_antagonist.GetName]"
+ learning_scholarship.5003.c:0 "ไว้ค่อยคุยเรื่องนี้กันทีหลัง"
+ learning_scholarship.5003.vassal.tt:0 "ข้าหลวงทุกคน"
+
+ learning_scholarship.5003.a.success:0 "ท่านชนะการโต้วาทีกับข้าหลวงของท่าน"
+ learning_scholarship.5003.a.failure:0 "ท่านแพ้การโต้วาทีกับข้าหลวงของท่าน"
+ learning_scholarship.5003.b.success:0 "ท่านประสบความสำเร็จในการปลอบโยนข้าหลวงของท่าน"
+ learning_scholarship.5003.b.failure:0 "ท่านล้มเหลวในการปลอบโยนข้าหลวงของท่าน"
+
+ learning_scholarship.5004.t:0 "$bibliomancy_chain_header$ ข้อความที่น่าหนักใจ"
+ learning_scholarship.5004.desc:0 "สุดปัญญาของข้า ข้าไม่สามารถเข้าใจข้อความนี้จาก [sacred_text.GetName] ได้ และมันกำลังกัดกินข้า!\n\nความกลัวคือนักฆ่าความคิด... นั่นหมายความว่าอะไรกันแน่? ข้าควรกลัวอะไร? #EMP ข้าพลาดอะไรไป#!?\n\nบางทีคนอื่นอาจจะสามารถให้ความกระจ่างในเรื่องนี้ได้"
+ learning_scholarship.5004.a:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstNameNoTooltip] จะรู้คำตอบ"
+ learning_scholarship.5004.b:0 "[ROOT.Char.Custom('GetCourtier')]ของข้า [target_courtier.GetTitledFirstNameNoTooltip] จะช่วยข้า"
+ learning_scholarship.5004.c:0 "ข้ายอมแพ้"
+ learning_scholarship.5004.a.success:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] ชี้แจงข้อความ"
+ learning_scholarship.5004.a.failure:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] ไม่สามารถเข้าใจข้อความได้"
+ learning_scholarship.5004.b.success:0 "[target_courtier.GetFirstNameNoTooltip] ชี้แจงข้อความ"
+ learning_scholarship.5004.b.failure:0 "[target_courtier.GetFirstNameNoTooltip] ไม่สามารถเข้าใจข้อความได้"
+
+ learning_scholarship.5005.t:0 "$bibliomancy_chain_header$ ไม่มีอะไรต้องกลัว"
+ learning_scholarship.5005.desc:0 "ในที่สุดข้าก็ได้ไขปริศนาข้อความลึกลับจาก [sacred_text.GetName] และรู้สึกฉลาดขึ้นมาก ขอบคุณพ่อค้าคนนั้น เส้นด้ายแห่งโชคชะตาพลันปรากฏชัดเจนต่อข้ามากขึ้น\n\nความกลัวอาจเป็นนักฆ่าความคิด แต่ข้าได้เผชิญหน้ากับความกลัวของข้าแล้ว"
+ learning_scholarship.5005.a:0 "ปราศจากความกลัว ข้าตายเพียงครั้งเดียว"
+
+ learning_scholarship.5006.t:0 "$bibliomancy_chain_header$ ความหวาดระแวงที่เพิ่มขึ้น"
+ learning_scholarship.5006.desc:0 "หลังจากใช้เวลาหลายวันครุ่นคิดกับข้อความที่เข้าใจยากและคลุมเครือนี้ ในที่สุดข้าก็ยอมแพ้ ข้าไม่รู้เลยว่ามันอาจหมายถึงอะไร และเรื่องทั้งหมดนี้ ทำให้ข้าหนาวไปถึงกระดูก\n\nจะเกิดอะไรขึ้น? บัดนี้ข้าต้องอยู่ด้วยความกลัว #EMP ตลอดไป#! หรือ?"
+ learning_scholarship.5006.a:0 "ความกลัวคือความตายเล็กๆ ที่นำมา ซึ่งการทำลายล้างสิ้นเชิง"
+
+ learning_scholarship_paranoid_trait.tt:0 "ท่านได้รับลักษณะนี้ เพราะท่านไม่สามารถเข้าใจความหมายของข้อความใน [sacred_text.GetName] ได้"
+ learning_scholarship_paranoid_trait_possible:0 "ท่านอาจได้รับ[trait|E] [GetTrait('paranoid').GetName( GetNullCharacter )]"
+
+# The Man of Few Letters by Jason Cantalini
+ learning_scholarship.6000.t:0 "[illiterate.GetWomanMan|U]ผู้ไม่รู้หนังสือ"
+
+ learning_scholarship.6000.desc:0 "ดูเหมือนว่า แม้จะมีความพยายามอย่างดีที่สุดของ[teacher.Custom2('HerHisCharacterIntroduction',illiterate)] [illiterate.GetName] ก็ยังคงรู้หนังสือพอๆ กับคนโง่ประจำหมู่บ้านโดยเฉลี่ย\n\n"ท่าน[ROOT.Char.GetTitleTierName]ผู้ทรงปัญญาและรู้แจ้งที่สุด" [teacher.GetFirstNameNoTooltip] ประจบประแจง "ข้าจะสร้างแรงบันดาลใจให้เจ้านายของข้าเรียนรู้ที่จะอ่านได้อย่างไร?""
+ learning_scholarship.6000.willing_pupil:0 "\n\n[teacher.GetSheHe|U] ถอนหายใจอย่างเหนื่อยหน่าย\n\n"[illiterate.GetTitleAsNameNoTooltip] จะไม่อุทิศ[illiterate.GetHerselfHimself]ให้กับการเรียนหลายชั่วโมงเพียงเพื่อประโยชน์ของการอ่าน...""
+ learning_scholarship.6000.holy_book_insult:0 "\n\n[teacher.GetSheHe|U] ลังเล แล้วพึมพำ:\n\n"สิ่งที่[illiterate.GetTitleAsNameNoTooltip]พูดหลังจากพยายามอ่านผ่านบรรทัดศักดิ์สิทธิ์แรกของ[illiterate.GetFaith.ReligiousText]... มันไม่ศักดิ์สิทธิ์ #EMP หรือ#! รู้แจ้งเลย...""
+ learning_scholarship.6000.poetry_insult:0 "\n\nครูทำหน้าบึ้ง\n\n"สิ่งที่[illiterate.GetTitledFirstNameNoTooltip]พูดหลังจากทนทุกข์ทรมานผ่านบทกวี[illiterate.GetCulture.GetNameNoTooltip]ที่สง่างามที่สุด... มันไม่สง่างาม #EMP หรือ#! รู้แจ้งเลย...""
+ learning_scholarship.6000.very_willing_pupil:0 "\n\n[teacher.GetSheHe|U] ชี้ไปที่ความรู้ที่ข้าสะสมไว้\n\n"[illiterate.GetTitleTierName] กลัวว่าจะต้องพยายามอ่านผ่านพันบรรทัดและไม่เคยบรรลุปัญญา เช่นของท่านเลย""
+
+ learning_scholarship.6000.a:0 "[illiterate.GetCouncilTitle]ของข้าต้องการเรื่องราวเกี่ยวกับผู้คนแดนไกล"
+ learning_scholarship.6000.b:0 "[illiterate.GetCouncilTitle]ของข้าต้องการพงศาวดารที่เต็มไปด้วยข่าวซุบซิบในราชสำนัก"
+ learning_scholarship.6000.c:0 "[illiterate.GetCouncilTitle]ของข้าต้องการเรื่องราวการกระทำเยี่ยงนักรบ"
+ learning_scholarship.6000.d:0 "[illiterate.GetCouncilTitle]ของข้าต้องการตำราว่าด้วยความยุติธรรม"
+ learning_scholarship.6000.e:0 "[illiterate.GetCouncilTitle]ของข้าต้องการบทกวีสรรเสริญจิตวิญญาณที่ไม่อาจต้านทานได้"
+
+ learning_scholarship.6000.f:0 "[illiterate.GetSheHe|U]จะอ่านคำพูดของ[ROOT.Char.GetTitleTierName]ของ[illiterate.GetHerHis]"
+ learning_scholarship.6000.f.tt:0 "ข้ออ้างที่จะเขียน แทนที่จะปกครอง!"
+ learning_scholarship.6000.f.success:0 "ตำราของท่านให้ความรู้เป็นอย่างยิ่ง"
+ learning_scholarship.6000.f.failure:0 "ข้าหลวงของท่านเยาะเย้ยข้อความที่น่าเบื่อและไร้จุดหมายของท่าน"
+
+
+ learning_scholarship.6000.g:0 "เวลาของ[illiterate.GetTitleAsNamePossessiveNoTooltip]มีค่าเกินไปสำหรับสิ่งนี้"
+ learning_scholarship.6000.g.tt:0 "[illiterate.GetSheHe|U]เป็น[illiterate.GetWomanMan]แห่งการกระทำ — คนอื่นสามารถอ่านให้[illiterate.GetHerHim]ได้!"
+
+ learning_scholarship.6000.h:0 "การดูหมิ่นศาสนารึ? บอกข้าอีกหน่อยสิ..."
+ learning_scholarship.6000.h.tt:0 "ท่านสามารถ ทำให้คำพูดของ[illiterate.GetTitleAsNamePossessiveNoTooltip]ฟังดู #EMP ไม่ศรัทธา#! อย่างแท้จริง"
+ learning_scholarship.6000.non_believer:0 "ท่านได้รับหลักฐานว่า [illiterate.GetTitledFirstName] เป็นผู้ไม่เชื่อ"
+
+ learning_scholarship.6000.i:0 "ข้าจะให้เกียรติบทกวี[illiterate.GetCulture.GetNameNoTooltip] เพื่อเป็นแรงบันดาลใจให้[illiterate.GetHerHim]"
+ learning_scholarship.6000.i.tt:0 "ในราชสำนักของท่าน บทกวี[illiterate.GetCulture.GetNameNoTooltip]จะถูกท่องบ่อยครั้ง"
+
+ learning_scholarship.6000.j:1 "ปัญญาคือการเห็นความมหัศจรรย์ใน แต่ละคำ..."
+ learning_scholarship.6000.j.tt:1 "...แทนที่จะหิวโหยที่จะได้อ่านมันทั้งหมด"
+
+ learning_scholarship.6000.k:0 "การรู้หนังสือเกินความสามารถของเจ้าคนทึ่มนั่น!"
+ learning_scholarship.6000.k.tt:0 "ท่านอาจจะสอนดาราศาสตร์ให้แพะก็ได้!"
+ high_learning_custom:1 "ข้าหลวงทุกคนที่ไม่ใช่[GetTrait('compassionate').GetName( GetNullCharacter )]และมี[learning|E]สูง"

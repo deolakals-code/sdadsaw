@@ -1,0 +1,194 @@
+﻿l_english: 
+ pilgrimage_sympathetic_towards_faiths_modifier:0 "ความเมตตาต่อคนต่างศาสนา"
+ pilgrimage_disdainful_towards_faiths_modifier:0 "ความเหยียดหยามต่อคนต่างศาสนา"
+
+ pilgrimage_divine_protection_modifier:0 "เทวานุภาพคุ้มครอง"
+ pilgrimage_divine_protection_modifier_desc:1 "ตัวละครนี้เดินทางอย่างปลอดภัยผ่านดินแดนต่างถิ่นโดยแทบไม่มีการป้องกัน"
+
+ new_pilgrimage_companions_modifier:0 "สหายร่วมจาริกแสวงบุญอันหลากหลาย"
+ new_pilgrimage_companions_modifier_desc:1 "ตัวละครนี้ได้เดินทางร่วมกับผู้คนหลากหลายประเภท"
+
+ showy_about_pilgrimage_modifier:0 "การจาริกแสวงบุญอันโอ้อวด"
+ showy_about_pilgrimage_modifier_desc:1 "ตัวละครนี้ ทำให้แน่ใจว่าทุกคนรับรู้ว่าการจาริกแสวงบุญของตนนั้นเปี่ยมศรัทธาเพียงใด"
+
+ pilgrimage_worldly_modifier:1 "การจาริกแสวงบุญทางโลก"
+ pilgrimage_worldly_modifier_desc:1 "การจาริกแสวงบุญได้สอนให้ตัวละครนี้เรียนรู้เกี่ยวกับโลกมากมาย"
+
+ dedicated_to_pilgrimage_modifier:1 "ผู้จาริกแสวงบุญผู้ทุ่มเท"
+
+ hajj_halq_modifier:0 "ฮัลก์"
+ hajj_halq_modifier_desc:0 "ศีรษะของตัวละครนี้ถูกโกนจนเกลี้ยง เป็นสัญญาณของการเสร็จสิ้นพิธีฮัจญ์เมื่อไม่นานมานี้"
+
+ pilgrimage_armed_pilgrimages_modifier:0 "ผู้จาริกแสวงบุญผู้มุ่งมั่น"
+ pilgrimage_armed_pilgrimages_modifier_desc:0 "ตัวละครนี้ได้จาริกแสวงบุญขณะปฏิบัติตาม [core_tenet|E] [GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName]"
+ pilgrimage_mendicant_preachers_modifier:0 "การเดินทางแห่งความสมถะ"
+ pilgrimage_mendicant_preachers_modifier_desc:0 "ตัวละครนี้ได้จาริกแสวงบุญขณะปฏิบัติตาม [core_tenet|E] [GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName]"
+ pilgrimage_pentarchy_modifier:0 "บัลลังก์แห่งบิชอป"
+ pilgrimage_pentarchy_modifier_desc:0 "ตัวละครนี้ได้จาริกแสวงบุญขณะปฏิบัติตาม [core_tenet|E] [GetFaithDoctrine('tenet_pentarchy').GetBaseName]"
+ pilgrimage_struggle_submission_modifier:0 "การแสดงความนอบน้อม"
+ pilgrimage_struggle_submission_modifier_desc:0 "ตัวละครนี้ได้จาริกแสวงบุญขณะปฏิบัติตาม [core_tenet|E] [GetFaithDoctrine('tenet_struggle_submission').GetBaseName]"
+ pilgrimage_ancestor_worship_modifier:0 "ตามรอยบรรพชน"
+ pilgrimage_ancestor_worship_modifier_desc:0 "ตัวละครนี้ได้จาริกแสวงบุญขณะปฏิบัติตาม [core_tenet|E] [GetFaithDoctrine('tenet_ancestor_worship').GetBaseName]"
+
+ pilgrimage_religious_reflections_modifier:0 "พบผู้วิเศษระหว่างจาริกแสวงบุญ"
+
+ pilgrimage_rest_and_good_health_modifier:0 "นักเดินทางผู้พักผ่อน"
+ pilgrimage_rest_and_good_health_modifier_desc:0 "ตัวละครนี้เดินทางอย่างสบายๆ เมื่อออกเดินทาง"
+ 
+ pilgrimage_botched_miracle_modifier:0 "ได้รับผลจากปาฏิหาริย์ที่ผิดพลาด"
+ pilgrimage_botched_miracle_modifier_desc:0 "ความเจ็บป่วยของตัวละครนี้แย่ลงจากปาฏิหาริย์ที่ผิดพลาด"
+
+ pilgrimage_miracle_witness_modifier:0 "ประจักษ์พยานแห่งปาฏิหาริย์"
+ pilgrimage_miracle_witness_modifier_desc:0 "ตัวละครนี้ได้เห็นปาฏิหาริย์"
+
+ pilgrimage_religion_spread_modifier:0 "เผยแผ่ศาสนา"
+ pilgrimage_religion_spread_modifier_desc:0 "ตัวละครนี้ประสบความสำเร็จในการเผยแผ่ศาสนาแก่ผู้อื่น"
+ pilgrimage_flogging_spread_modifier:0 "การเผยแผ่การโบยตีตนเอง"
+ pilgrimage_flogging_spread_modifier_desc:0 "ตัวละครนี้ประสบความสำเร็จในการเผยแพร่ศิลปะแห่งการโบยตีตนเอง"
+ pilgrimage_work_work_modifier:1 "การทำงานหนัก"
+ pilgrimage_work_work_modifier_desc:0 "ตัวละครนี้โน้มน้าวให้บางคนทำงานใช้แรงงานเพื่อล้างบาป"
+
+ pilgrimage_perfect_worldly_reward_modifier:0 "ผู้จาริกแสวงบุญผู้มีวัฒนธรรม"
+ pilgrimage_perfect_worldly_reward_modifier_desc:0 "ตัวละครนี้ยอมรับวัฒนธรรมและการแสดงออกอื่นๆ อย่างยิ่ง"
+ pilgrimage_high_worldly_reward_modifier:0 "ผู้จาริกแสวงบุญผู้เห็นแก่ผู้อื่น"
+ pilgrimage_high_worldly_reward_modifier_desc:0 "ตัวละครนี้ยอมรับวัฒนธรรมและการแสดงออกอื่นๆ เป็นอย่างมาก"
+ pilgrimage_mid_worldly_reward_modifier:0 "ผู้จาริกแสวงบุญผู้สนใจใคร่รู้"
+ pilgrimage_mid_worldly_reward_modifier_desc:0 "ตัวละครนี้ยอมรับวัฒนธรรมและการแสดงออกอื่นๆ"
+ pilgrimage_low_worldly_reward_modifier:0 "ผู้จาริกแสวงบุญผู้เก็บตัว"
+ pilgrimage_low_worldly_reward_modifier_desc:0 "ตัวละครนี้ยอมรับวัฒนธรรมและการแสดงออกอื่นๆ เล็กน้อย"
+
+ pilgrimage_accepting_modifier:0 "การยอมรับ"
+ pilgrimage_accepting_modifier_desc:0 "ตัวละครนี้ยอมรับเส้นทางชมทิวทัศน์ระหว่างการจาริกแสวงบุญ"
+
+ keen_eye_modifier:0 "สายตาเฉียบแหลม"
+ keen_eye_modifier_desc:0 "ตัวละครนี้สามารถระบุวัตถุโบราณปลอมได้"
+
+ pilgrimage_combat_omen_modifier:0 "ลางบอกเหตุการต่อสู้"
+ pilgrimage_combat_omen_modifier_desc:0 "ตัวละครนี้ประสบความสำเร็จในการรบมากขึ้นเมื่อเร็วๆ นี้หลังจากได้เห็นลางบอกเหตุ"
+
+ pilgrimage_watchful_omen_modifier:0 "ลางบอกเหตุเตือนภัย"
+ pilgrimage_watchful_omen_modifier_desc:0 "ตัวละครนี้มีความระมัดระวังเพิ่มขึ้นหลังจากได้เห็นลางบอกเหตุ"
+
+ pilgrimage_hostile_omen_modifier:0 "ลางบอกเหตุแห่งการแก้แค้น"
+ pilgrimage_hostile_omen_modifier_desc:0 "ตัวละครนี้ประสบกับบางสิ่งที่พวกเขาเชื่อว่าเป็นสัญญาณว่าศัตรูของพวกเขาจะล่มสลาย"
+
+ pilgrimage_failure_omen_modifier:0 "ลางร้าย"
+ pilgrimage_failure_omen_modifier_desc:0 "ตัวละครนี้เชื่อว่าความทุกข์ทรมานของพวกเขาถูกกำหนดไว้ล่วงหน้าแล้ว"
+
+ pilgrimage_horny_omen_modifier:0 "ลางบอกเหตุแห่งความอุดมสมบูรณ์"
+ pilgrimage_horny_omen_modifier_desc:0 "ตัวละครนี้เชื่อว่าพวกเขาจะมีบุตรในไม่ช้า"
+
+ pilgrimage_family_omen_modifier:0 "ลางบอกเหตุเกี่ยวกับครอบครัว"
+ pilgrimage_family_omen_modifier_desc:0 "ตัวละครนี้ใช้เวลากับครอบครัวมากขึ้นเมื่อเร็วๆ นี้หลังจากประสบกับลางบอกเหตุ"
+
+ determination_modifier:0 "ความมุ่งมั่น"
+ determination_modifier_desc:0 "ตัวละครนี้ครุ่นคิดถึงความตายและเปี่ยมไปด้วยความมุ่งมั่น!"
+
+ determined_to_live_modifier:0 "มุ่งมั่นที่จะมีชีวิตอยู่"
+ determined_to_live_modifier_desc:0 "ตัวละครนี้ครุ่นคิดถึงความตายและเปี่ยมไปด้วยเจตจำนงอันท่วมท้นที่จะมีชีวิตอยู่ต่อไป!"
+
+ imperial_contemplation_modifier:0 "การใคร่ครวญถึงจักรวรรดิ"
+ imperial_contemplation_modifier_desc:0 "ตัวละครนี้เพิ่งใคร่ครวญถึงธรรมชาติอันไม่จีรังของจักรวรรดิอันยิ่งใหญ่ในประวัติศาสตร์"
+
+ contemplated_ancient_gods_modifier:0 "การใคร่ครวญถึงทวยเทพ"
+ contemplated_ancient_gods_modifier_desc:0 "ตัวละครนี้เพิ่งใคร่ครวญถึงศรัทธาของอารยธรรมโบราณและธรรมชาติของการบูชาเทพเจ้าของมนุษย์"
+
+ pilgrimage_touched_divine_modifier:0 "สัมผัสอัคคีศักดิ์สิทธิ์"
+ pilgrimage_touched_divine_modifier_desc:0 "ตัวละครนี้ปีนเสากระโดงเรือท่ามกลางพายุหนัก และสัมผัสเปลวไฟศักดิ์สิทธิ์"
+
+ pilgrim_group_joined_modifier:0 "คณะผู้จาริกแสวงบุญ"
+ pilgrim_group_joined_modifier_desc:0 "ตัวละครนี้ได้สนับสนุนกลุ่มผู้จาริกแสวงบุญชาวนาในการเดินทางไปยังสถานที่ศักดิ์สิทธิ์"
+
+ pilgrimage_temple_architect_modifier:0 "แรงบันดาลใจจากวิหาร"
+ pilgrimage_temple_architect_modifier_desc:0 "ตัวละครนี้ชื่นชมวิหารนอกอาณาจักรของตนขณะจาริกแสวงบุญ"
+
+ pilgrimage_forgiving_modifier:0 "การให้อภัย"
+ pilgrimage_forgiving_modifier_desc:0 "มีข่าวลือว่าตัวละครนี้มีนิสัยชอบให้อภัย"
+
+ pilgrimage_exotic_wares_modifier:0 "สินค้าแปลกถิ่น"
+ pilgrimage_exotic_wares_modifier_desc:0 "ตัวละครนี้กำลังถือสินค้าแปลกถิ่นที่สามารถนำกลับไปขายที่บ้านได้"
+
+ pilgrimage_super_exotic_wares_modifier:0 "สินค้าแปลกถิ่นอันน่าทึ่ง"
+ pilgrimage_super_exotic_wares_modifier_desc:0 "ตัวละครนี้กำลังถือสินค้าแปลกถิ่นอันน่าทึ่งที่สามารถนำกลับไปขายที่บ้านได้"
+
+ local_expert_modifier:0 "ผู้เชี่ยวชาญท้องถิ่น"
+ local_expert_modifier_desc:0 "ตัวละครนี้ได้ทบทวนความรู้ทางภูมิศาสตร์หลังจากพลิกดูคู่มือ"
+ pilgrim_guide_modifier:0 "$local_expert_modifier$"
+
+ architectural_interest_modifier:0 "ความสนใจทางสถาปัตยกรรม"
+ architectural_interest_modifier_desc:0 "ตัวละครนี้แสดงความสนใจในสถาปัตยกรรมทางโลก"
+
+ pilgrimage_burial_at_destination_modifier:0 "การพักผ่อนอันศักดิ์สิทธิ์"
+ pilgrimage_burial_at_destination_modifier_desc:0 "ตัวละครนี้กำลังนำร่างของบรรพบุรุษไปฝัง ณ สถานที่ศักดิ์สิทธิ์ปลายทาง"
+
+ pilgrimage_burial_at_capital_modifier:0 "การพักผ่อน ณ เมืองหลวง"
+ pilgrimage_burial_at_capital_modifier_desc:0 "ตัวละครนี้กำลังนำร่างของบรรพบุรุษกลับไปฝังที่บ้านเกิด"
+
+ pilgrimage_turned_back_buried_modifier:0 "สถานที่พักผ่อนอันรวดเร็ว"
+ pilgrimage_turned_back_buried_modifier_desc:0 "ตัวละครนี้ให้ความสำคัญกับการนำร่างของบรรพบุรุษกลับไปฝังที่บ้านเกิดก่อน"
+
+ pilgrimage_buried_at_destination_modifier:0 "สถานที่พักผ่อนอันศักดิ์สิทธิ์"
+ pilgrimage_buried_at_destination_modifier_desc:0 "ตัวละครนี้นำร่างของบรรพบุรุษไปฝัง ณ สถานที่ศักดิ์สิทธิ์"
+
+ pilgrimage_buried_at_capital_modifier:0 "การพักผ่อนของผู้จาริก"
+ pilgrimage_buried_at_capital_modifier_desc:0 "ตัวละครนี้ให้เกียรติการจาริกแสวงบุญที่เคยเริ่มต้นไว้ก่อนที่จะนำร่างของบรรพบุรุษไปฝัง"
+
+ hajj_hygienic_modifier:0 "รักษาความสะอาด"
+ hajj_hygienic_modifier_desc:0 "ตัวละครนี้งดเว้นจากการแบ่งปันของเหลวกับฝูงชนระหว่างพิธีฮัจญ์"
+
+ hajj_prophet_like_modifier:0 "ดุจศาสดา"
+ hajj_prophet_like_modifier_desc:0 "ตัวละครนี้ทำการเสียสละทางศาสนาอย่างมากมายตามจิตวิญญาณของศาสดาในระหว่างพิธีฮัจญ์"
+
+ hajj_camel_knowledge_modifier:0 "การเสียสละอูฐ"
+ hajj_camel_knowledge_modifier_desc:0 "ตัวละครนี้เสียสละอูฐในระหว่างพิธีฮัจญ์"
+ 
+ hajj_pushed_the_marwah_modifier:0 "มัรวะห์อันเข้มข้น"
+ hajj_pushed_the_marwah_modifier_desc:0 "ตัวละครนี้ทุ่มสุดตัวเมื่อเดินวนระหว่างซอฟาและมัรวะห์ในระหว่างพิธีฮัจญ์"
+
+ hajj_skimp_on_safa_modifier:0 "ซอฟาอันสบาย"
+ hajj_skimp_on_safa_modifier_desc:0 "ตัวละครนี้ทำตัวสบายๆ เมื่อเดินวนระหว่างซอฟาและมัรวะห์ในระหว่างพิธีฮัจญ์"
+
+ hajj_caught_on_safa_modifier:0 "ซอฟาอันเกียจคร้าน"
+ hajj_caught_on_safa_modifier_desc:0 "ตัวละครนี้ถูกจับได้ว่าทำตัวสบายๆ เมื่อเดินวนระหว่างซอฟาและมัรวะห์ในระหว่างพิธีฮัจญ์"
+
+ hajj_prayer_wealth_modifier:0 "มุ่งเน้นความมั่งคั่ง"
+ hajj_prayer_wealth_modifier_desc:0 "ตัวละครนี้ได้รับแรงบันดาลใจจากสวรรค์และมุ่งเน้นไปที่ความมั่งคั่ง"
+
+ hajj_prayer_prestige_modifier:0 "มุ่งเน้นเกียรติภูมิ"
+ hajj_prayer_prestige_modifier_desc:0 "ตัวละครนี้ได้รับแรงบันดาลใจจากสวรรค์และมุ่งเน้นไปที่เกียรติภูมิ"
+
+ hajj_prayer_opinion_modifier:0 "มุ่งเน้นความเห็น"
+ hajj_prayer_opinion_modifier_desc:0 "ตัวละครนี้ได้รับแรงบันดาลใจจากสวรรค์และมุ่งเน้นไปที่การเป็นที่ชื่นชอบ"
+
+ ghost_pilgrimage_promised_modifier:0 "ได้รับอิทธิพลจากวิญญาณ"
+ ghost_pilgrimage_promised_modifier_desc:0 "$pilgrimage_promised_modifier_desc$"
+
+ hajj_promised_modifier:0 "สัญญาว่าจะทำฮัจญ์"
+ hajj_promised_modifier_desc:0 "การจาริกแสวงบุญฮัจญ์ครั้งต่อไปของตัวละครนี้จะถูกลง"
+
+ pilgrimage_promised_modifier:0 "สัญญาว่าจะจาริกแสวงบุญ"
+ pilgrimage_promised_modifier_desc:0 "การจาริกแสวงบุญครั้งต่อไปของตัวละครนี้จะถูกลง"
+
+ pilgrimage_herbalist_modifier:0 "หมอยาสมุนไพรแห่งการจาริก"
+ pilgrimage_herbalist_modifier_desc:0 "ตัวละครนี้ช่วยเหลือผู้จาริกแสวงบุญคนอื่นด้วยสมุนไพร"
+
+ pilgrimage_chill_ship_modifier:0 "ช่วงเวลาผ่อนคลาย"
+ pilgrimage_chill_ship_modifier_desc:0 "ตัวละครนี้มีช่วงเวลาที่ผ่อนคลายในทะเล"
+
+ pilgrim_protection_modifier:0 "การคุ้มครองผู้จาริก"
+ pilgrim_protection_modifier_desc:0 "คณะผู้จาริกแสวงบุญนี้ได้ว่าจ้างการคุ้มครองเพิ่มเติมจากผู้มีอิทธิพลในท้องถิ่น"
+
+ pilgrimage_seduction_modifier: "สายนทีที่ยั่วยวน"
+ pilgrimage_seduction_modifier_desc: "ตัวละครนี้ได้ปฏิเสธ [Glossary('พรหมจรรย์', 'BRAHMACHARAYA_GLOSS')] ขณะเดินทางจาริกแสวงบุญ ด้วยการยอมจำนนต่อความปรารถนาทางกามารมณ์ ตัณหาของพวกเขาก็ทวีคูณขึ้นด้วยน้ำที่ส่องประกายระยิบระยับ ซึ่งพวกเขาหยุดอาบ"
+
+ pilgrimage_conversion_modifier: "กาลามสูตร"
+ pilgrimage_conversion_modifier_desc: "ตัวละครนี้ ขณะเดินทางจาริกแสวงบุญ ได้สนับสนุนการใช้เหตุผลของผู้ที่สับสน โดยมั่นใจว่าในไม่ช้าพวกเขาจะยอมรับ [GetReligionByKey('buddhism_religion').GetName]"
+
+ buddhist_teachings_conversion_modifier: "คำชี้แนะทางพุทธศาสนา"
+ buddhist_teachings_conversion_modifier_desc: "ผู้อยู่อาศัยในเคาน์ตีนี้จะเปลี่ยนมานับถือศรัทธาในพุทธศาสนาได้ง่ายขึ้น \n\n$EFFECT_LIST_BULLET$[convert_county|E] to [GetReligionByKey('buddhism_religion').GetName]: #P +100%#!"
+
+ light_in_shadow_modifier: "แสงสว่างในเงามืด"
+ light_in_shadow_modifier_desc: "ตัวละครนี้ ขณะเดินทางจาริกแสวงบุญ ได้เรียนรู้ถึงความคล้ายคลึงกันระหว่างโจรและนักบวชผู้ชั่วร้าย พวกเขาสาบานว่าจะส่องสว่างเงามืดเพื่อไม่ให้เหล่าคนร้ายมีที่ซ่อน"
+ 
+ spymaster_eyes_modifier: "ดวงตาของข้าเบิกกว้าง"
+ spymaster_eyes_modifier_desc: "ตัวละครนี้ ขณะเดินทางจาริกแสวงบุญ ได้เรียนรู้ถึงความคล้ายคลึงกันระหว่างโจรและนักบวชผู้ชั่วร้าย พวกเขาได้สั่งการหัวหน้าสายลับของตนให้คอยสอดส่องคนร้าย เช่นว่านั้น\n\n$EFFECT_LIST_BULLET$[GetCouncilTaskType('task_find_secrets').GetName|V] [councillor_task|E]:\n$TAB$#P +10%#! additional chance of learning a [secret|E]"

@@ -1,0 +1,47 @@
+﻿l_english: 
+ ### TENETS
+ tenet_pure_land_name: "การเกิดใหม่โดยชอบธรรม"
+ tenet_pure_land_desc: "ณ ที่นี้ใน #EMP paścima-kāla#! — ยุคเสื่อมแห่งธรรม — ความมั่งคั่ง, การศึกษา, หรือชาติกำเนิดสูงส่ง ล้วนมิอาจมอบการปลอบประโลมได้ เพียงผู้อุทิศตนอย่างแท้จริงต่อศีลของพระพุทธองค์เท่านั้นที่จะได้ไปเกิดใหม่ในดินแดนสุขาวดี"
+ tenet_sohei_name: "พระนักรบ"
+ tenet_no_mind_name: "จิตไร้จิต"
+ tenet_no_mind_desc: "จิตที่ไร้จิตคือจิตที่บรรลุถึงสติอันแท้จริง สภาวะที่บ่มเพาะโดยศิลปิน, ช่างฝีมือ และนักศิลปะการต่อสู้, ที่ ซึ่งร่างกายตอบสนองต่อทุกความท้าทายโดยปราศจากความคิด"
+ doctrine_parameter_better_artifacts: "[inspirations|E] ที่ได้รับการอุปถัมภ์จะผลิต [artifacts|E] ที่มีคุณภาพสูงขึ้น"
+ doctrine_parameter_less_likely_to_become_infirm: "ตัวละครมีโอกาสน้อยลงที่จะได้รับ [trait|E] [GetTrait('infirm').GetName( GetNullCharacter )]"
+ tenet_mountain_worship_name: "ภูเขาศักดิ์สิทธิ์"
+ tenet_mountain_worship_desc: "สูงตระหง่านห่างไกลจากหมู่บ้านและไร่นา, ภูผาสัมผัสกับหมู่เมฆเบื้องบน ณ ที่แห่งนั้น, ท่ามกลางยอดเขาและชะง่อนผา, คือที่ ซึ่งความศักดิ์สิทธิ์ที่แท้จริงสถิตอยู่"
+ doctrine_parameter_piety_from_hills_and_mountains_pilgrimages: "ตัวละครจะได้รับ [piety|E] เพิ่มเติมจาก [pilgrimages|E] ไปยัง [GetTerrain( 'hills' ).GetName], [GetTerrain( 'mountains' ).GetName] และ [GetTerrain( 'desert_mountains' ).GetName]"
+ piety_from_hills_and_mountains_pilgrimages_tt: "จาก [core_tenet|E] [GetFaithDoctrine('tenet_mountain_worship').GetBaseName]: [piety_i]#P [THIS.ScriptValue('medium_piety_gain')]#!"
+ ### DOCTRINE PARAMETERS
+ doctrine_parameter_peasant_and_populist_factions_more_common: "[factions|E] ชาวนาและประชานิยมจะพบบ่อยขึ้นและทรงพลังมากขึ้น"
+ doctrine_parameter_children_less_likely_to_be_burdened: "[children|E] มีโอกาสน้อยลงที่จะได้รับ [trait|E] [GetTrait('burdened').GetName( GetNullCharacter )]"
+ ### HOLYSITES
+ holy_site_tiantai_name: "ภูเขาเทียนไถ"
+ holy_site_tiantai_effect_name: "จาก [holy_site|E] #weak ($holy_site_tiantai_name$)#!"
+ holy_site_hiei_name: "ภูเขาฮิเอ" # 比叡山
+ holy_site_hiei_effect_name: "จาก [holy_site|E] #weak ($holy_site_hiei_name$)#!"
+ holy_site_koya_name: "ภูเขาโคยะ" # 高野山
+ holy_site_koya_effect_name: "จาก [holy_site|E] #weak ($holy_site_koya_name$)#!"
+ holy_site_nara_name: "นารา" # 奈良
+ holy_site_nara_effect_name: "จาก [holy_site|E] #weak ($holy_site_nara_name$)#!"
+ holy_site_ise_jingu_name: "อิเสะจิงกู" # 伊勢神宮
+ holy_site_jingu_effect_name: "จาก [holy_site|E] #weak ($holy_site_ise_jingu_name$)#!"
+ holy_site_haguro_name: "ภูเขาฮางุโระ" # 羽黒山
+ holy_site_haguro_effect_name: "จาก [holy_site|E] #weak ($holy_site_haguro_name$)#!"
+ holy_site_haku_name: "ภูเขาฮาคุ" # 白山
+ holy_site_haku_effect_name: "จาก [holy_site|E] #weak ($holy_site_haku_name$)#!"
+ holy_site_fuji_name: "ภูเขาฟูจิ" # 富士山
+ holy_site_fuji_effect_name: "จาก [holy_site|E] #weak ($holy_site_fuji_name$)#!"
+ holy_site_omine_name: "ภูเขาโอมิเนะ"
+ holy_site_omine_effect_name: "จาก [holy_site|E] #weak ($holy_site_omine_name$)#!"
+ holy_site_ishizuchi_name: "ภูเขาอิชิซึจิ" # 石鎚山
+ holy_site_ishizuchi_effect_name: "จาก [holy_site|E] #weak ($holy_site_ishizuchi_name$)#!"
+ holy_site_itsukushima_name: "อิตสึคุชิมะ-จินจะ" # 厳島神社
+ holy_site_itsukushima_effect_name: "จาก [holy_site|E] #weak ($holy_site_itsukushima_name$)#!"
+ holy_site_hachimangu_name: "ฮาจิมังกู" # 八幡宮
+ holy_site_hachimangu_effect_name: "จาก [holy_site|E] #weak ($holy_site_hachimangu_name$)#!"
+ holy_site_heiankyo_name: "เฮอันเคียว" # 平安京
+ holy_site_heiankyo_effect_name: "จาก [holy_site|E] #weak ($holy_site_heiankyo_name$)#!"
+ holy_site_kizuki_name: "คิซึกิ-ไทฉะ" # 杵築大社
+ holy_site_kizuki_effect_name: "จาก [holy_site|E] #weak ($holy_site_kizuki_name$)#!"
+ holy_site_kashima_name: "คาชิมะจิงกู" # 鹿島神宮
+ holy_site_kashima_effect_name: "จาก [holy_site|E] #weak ($holy_site_kashima_name$)#!"

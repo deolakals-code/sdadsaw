@@ -1,0 +1,5 @@
+﻿l_english: 
+ ep3_councillor_event.0001.t: "คู่ครองผู้ทรงอิทธิพล"
+ ep3_councillor_event.0002.t: "ชักใยอยู่เบื้องหลัง"
+ ep3_councillor_event.0002.desc: "[councillor.GetFirstName] ได้ใช้เส้นสายช่วยเพิ่ม [candidate_score|E] ของท่านสำหรับตำแหน่ง [target_title.GetNameNoTier] ขึ้น [improved_candidate_score|0+]"
+

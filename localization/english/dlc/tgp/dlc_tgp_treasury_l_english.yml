@@ -1,0 +1,105 @@
+﻿l_english: 
+ treasury_concept: "[treasury|E]"
+ treasury_icon_concept: "[treasury_i|E]"
+ transfer_small_gold_amount_to_treasury_interaction: "สมทบคลังหลวง"
+ transfer_gold_amount_to_treasury_interaction_desc: ""
+ TRANSFER_GOLD_TO_TREASURY_INTERACTION_TOOLTIP: "#T สมทบคลังหลวง#!\n[Character.GetPlayerInteractionAcceptEffectDescription('transfer_small_gold_amount_to_treasury_interaction')]#!\n\n#i คลิกขวาเพื่อโอน [gold_i]#V 50#!"
+ transfer_treasury_because_you_are_greedy: "เนื่องด้วยท่านเป็น [GetTrait('greedy').GetName( GetNullCharacter )]:"
+ transfer_treasury_because_you_are_generous: "เนื่องด้วยท่านเป็น [GetTrait('generous').GetName( GetNullCharacter)]:"
+
+ TRANSFER_TREASURY_TO_GOLD_DECISION_TOOLTIP: "#T ถอนทองคำ#!\nถอนเงิน [gold_i][Character.CalcScriptedValue('medium_treasury_value')|0] จากคลังของท่าน โดยมีผลที่ตามมาบางประการ\n[AddLine( Decision.GetCommandDescForPlayer)]\n#i คลิกเพื่อเปิด [Decision.GetName]#!"
+ extract_gold_from_treasury: "ถอนเงินทุนจากคลัง"
+ extract_gold_from_treasury_desc: "เรามีโอกาสและสิทธิ์ที่จะจัดสรรทรัพยากรของรัฐที่เคยถูกกำหนดไว้จาก [treasury|E] ของ [GetPlayer.GetPrimaryTitle.GetDefinitiveName] ใหม่ เพื่อนำมาใช้เป็นการส่วนตัวของข้า\nการกระทำสาธารณะนี้อาจ ทำให้เกิดความกังขาบ้าง"
+ extract_gold_from_treasury_tooltip: "เรามีโอกาสและสิทธิ์ที่จะจัดสรรทรัพยากรของรัฐที่เคยถูกกำหนดไว้จาก [treasury|E] ของ [GetPlayer.GetPrimaryTitle.GetDefinitiveName]"
+ extract_gold_from_treasury_confirm: "ข้าไม่จำเป็นต้องอธิบายตัวเอง..."
+
+ tgp_dipped_into_treasury_modifier: "ล้วงเงินในคลัง"
+ tgp_dipped_into_treasury_modifier_desc: "ตัวละครนี้ล้วงเงินในคลังหลวงเพื่อใช้จ่ายส่วนตัวมากเกินไป ซึ่งเป็นการกระทำที่น่าตำหนิ\n"
+
+ tgp_minister_dipped_into_treasury_modifier: "$tgp_dipped_into_treasury_modifier$"
+ tgp_minister_dipped_into_treasury_modifier_desc: "$tgp_dipped_into_treasury_modifier_desc$"
+
+ TREASURY_MONTHLY_INCOME: "รายรับรายเดือน"
+ TREASURY_MONTHLY_EXPENSES: "รายจ่ายรายเดือน"
+ CLICK_TO_OPEN_TREASURY_BUDGETING: "คลิกเพื่อเปิดงบประมาณคลังหลวง"
+
+ WINDOW_TREASURY_BUDGET_CHANGE_TITLE: "เปลี่ยนงบประมาณคลังหลวง"
+ WINDOW_TREASURY_BUDGET_CHANGE_ALLOCATED: "การคำนวณ [treasury_budget|E] ใหม่"
+ WINDOW_TREASURY_BUDGET_CHANGE_EFFECTS: "ผลกระทบจากการประกาศใช้งบประมาณ"
+ WINDOW_TREASURY_BUDGET_CATEGORY_MINISTRY: "[treasury_ministry_budget|E]"
+ WINDOW_TREASURY_BUDGET_CATEGORY_SALARY: "[treasury_salary_budget|E]"
+ WINDOW_TREASURY_BUDGET_CATEGORY_MILITARY: "[treasury_military_budget|E]"
+
+ WINDOW_TREASURY_BUDGET_CHANGE_TREASURY_LABEL: "คลังหลวง: [treasury_i] [Character.GetTreasury|0]"
+ WINDOW_TREASURY_BUDGET_CHANGE_MONTHLY_INCOME_LABEL: "รายรับรายเดือน:  [treasury_i] [GetPlayerMonthlyTreasury|1+=]"
+ WINDOW_TREASURY_BUDGET_CHANGE_PREVIOUS_BUDGET: "[treasury_budget_capacity|E] ก่อนหน้า: [treasury_i] [TreasuryBudgetChangeWindow.GetCurrentBudgetCapacity|1=] (ประกาศใช้: [TreasuryBudgetChangeWindow.GetCurrentBudgetEnactDate.GetStringShort])"
+ WINDOW_TREASURY_BUDGET_CHANGE_BUDGET_CAPACITY: "[treasury_budget_capacity|E] ปัจจุบัน: [treasury_i] [TreasuryBudgetChangeWindow.GetNewBudgetCapacity|1=] (เปลี่ยนแปลง: [TreasuryBudgetChangeWindow.GetBudgetCapacityDiff|1=+])"
+
+ WINDOW_TREASURY_BUDGET_CHANGE_GROUP_HEADER: "กลุ่ม"
+ WINDOW_TREASURY_BUDGET_CHANGE_CHARACTERS_HEADER: "ผู้รับ"
+ WINDOW_TREASURY_BUDGET_CHANGE_ALLOCATION_HEADER: "การจัดสรร"
+ WINDOW_TREASURY_BUDGET_CHANGE_BASE_RATE_HEADER: "[treasury_budget_base_rate_short|E]"
+ WINDOW_TREASURY_BUDGET_CHANGE_TOTAL_HEADER: "รวม"
+ WINDOW_TREASURY_BUDGET_CHANGE_TREND_HEADER: "[treasury_budget_category_trend_short|E]"
+ WINDOW_TREASURY_BUDGET_CHANGE_CATEGORY_TREND: "[TreasuryBudgetChangeWindow.GetBudgetTotalDiff( GuiLawGroup.Self )|2+=]"
+
+ WINDOW_TREASURY_BUDGET_CHANGE_RECEIVER_TOOLTIP: "การประกาศใช้งบประมาณครั้งก่อนเริ่มต้นที่: [TreasuryBudgetChangeWindow.GetCurrentBudgetReceiverCount( GuiLawGroup.Self )] (เปลี่ยนแปลง: [TreasuryBudgetChangeWindow.GetBudgetRecipientCountDiff( GuiLawGroup.Self )|+=])"
+
+ WINDOW_TREASURY_BUDGET_CHANGE_CATEGORY_BASE_RATE_TREASURY: "[treasury_i] [TreasuryBudgetChangeWindow.GetNewBudgetBaseRate( GuiLawGroup.Self )|2]"
+ WINDOW_TREASURY_BUDGET_CHANGE_CATEGORY_BASE_RATE_GOLD: "[gold_i] [TreasuryBudgetChangeWindow.GetNewBudgetBaseRate( GuiLawGroup.Self )|2]"
+
+ WINDOW_TREASURY_BUDGET_CHANGE_SUMMARY_TOTAL: "รวมทั้งสิ้น"
+ WINDOW_TREASURY_BUDGET_CHANGE_SUMMARY_UNALLOCATED: "[treasury_budget_unallocated_short|E]"
+ WINDOW_TREASURY_BUDGET_CHANGE_SUMMARY_DEFICIT: "[treasury_budget_deficit_short|E]"
+
+ WINDOW_TREASURY_BUDGET_CHANGE_EXPLANATION: "#weak หากท่านวางแผนที่จะได้ข้าหลวงเพิ่มก่อนการประกาศใช้งบประมาณครั้งถัดไป ท่านอาจต้องตั้งงบประมาณให้น้อยกว่า 100% ของ [treasury_budget_capacity|E] ของท่าน เนื่องจากสำหรับแต่ละ [treasury_budget_category|E] นั้น [treasury_budget_base_rate|E] ที่ท่านจะกำหนดเมื่อประกาศใช้งบประมาณจะถูกตรึงไว้ต่อผู้รับหนึ่งคน#!"
+ WINDOW_TREASURY_BUDGET_CHANGE_DEFICIT_WARNING: "#warning @warning_icon! ยอดรวมของงบประมาณเกิน [treasury_budget_capacity|E] ของท่าน และจะถูกดึงจาก [treasury|E] ที่เก็บรวบรวมไว้ของท่าน#!"
+
+ WINDOW_TREASURY_BUDGET_CHANGE_ENACT_COST: "ค่าใช้จ่าย: [TreasuryBudgetChangeWindow.GetTotalChangeCostShort]"
+ WINDOW_TREASURY_BUDGET_CHANGE_ENACT_COST_TOOLTIP: "#T ค่าใช้จ่ายรวม#!\n[TreasuryBudgetChangeWindow.GetTotalChangeCostDescription]"
+ WINDOW_TREASURY_BUDGET_CHANGE_ALLOCATION_LAWS: "เปลี่ยนกฎหมายการจัดสรร"
+ WINDOW_TREASURY_BUDGET_CHANGE_ENACT_BUDGET: "ประกาศใช้งบประมาณ"
+
+
+ WINDOW_TREASURY_BUDGET_CHANGE_EFFECT: "งบประมาณครั้งล่าสุดประกาศใช้: [TreasuryBudgetChangeWindow.GetCurrentBudgetEnactDate.GetStringShort]\n"
+
+ WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_BASE_RATE_TITLE: "\nการเปลี่ยนแปลงรายรับของผู้รับ:\n"
+ WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_BASE_RATE: "$BULLET$ #indent_newline:2 $CATEGORY_NAME$: $BASE_RATE_CHANGE_PERCENTAGE|%0+=$#!\n"
+ WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_OPINION_TITLE: "\nผลกระทบด้านความเห็น:\n"
+ WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_OPINION: "ผู้รับ $CATEGORY_NAME$ ได้รับ:\n$BULLET$#indent_newline:2 $OPINION_MODIFIER_NAME$: $OPINION_CHANGE|+0$ [opinion|E]\n#!"
+ WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_OPINION_DURATION: "ผู้รับ $CATEGORY_NAME$ ได้รับ:\n$BULLET$#indent_newline:2 $OPINION_MODIFIER_NAME$: $OPINION_CHANGE|+=0$ [opinion|E] เป็นเวลา $DURATION$#!\n"
+ WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_EFFECTS_TITLE: "\nผลกระทบจากการจัดสรรที่เปลี่ยนแปลง:\n"
+ WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_EFFECTS: "$LAW_DESC$[AddLine('$ENACT_DESC|q$')]\n\n"
+
+ WINDOW_TREASURY_BUDGET_COST_LAW_CHANGE: "[LawGroup.GetName]: $BREAKDOWN$\n"
+ WINDOW_TREASURY_BUDGET_COST_ENACTMENT: "การประกาศใช้: $BREAKDOWN$\n"
+
+ WINDOW_TREASURY_BUDGET_CHANGE_TOP_LIEGE: "@warning_icon! #X มีเพียง [CHARACTER.GetUIName] เท่านั้นที่สามารถประกาศใช้งบประมาณใหม่ได้#!"
+
+ treasury_budget_ministry_reduction_large: "การลด[treasury_ministry_budget|E]ลงอย่างมาก"
+ treasury_budget_ministry_reduction_medium: "การลด[treasury_ministry_budget|E]ลงปานกลาง"
+ treasury_budget_ministry_reduction_small: "การลด[treasury_ministry_budget|E]ลงเล็กน้อย"
+ treasury_budget_ministry_increase_large: "การเพิ่ม[treasury_ministry_budget|E]ขึ้นอย่างมาก"
+ treasury_budget_ministry_increase_medium: "การเพิ่ม[treasury_ministry_budget|E]ขึ้นปานกลาง"
+ treasury_budget_ministry_increase_small: "การเพิ่ม[treasury_ministry_budget|E]ขึ้นเล็กน้อย"
+
+ treasury_budget_military_reduction_large: "การลด[treasury_military_budget|E]ลงอย่างมาก"
+ treasury_budget_military_reduction_medium: "การลด[treasury_military_budget|E]ลงปานกลาง"
+ treasury_budget_military_reduction_small: "การลด[treasury_military_budget|E]ลงเล็กน้อย"
+ treasury_budget_military_increase_large: "การเพิ่ม[treasury_military_budget|E]ขึ้นอย่างมาก"
+ treasury_budget_military_increase_medium: "การเพิ่ม[treasury_military_budget|E]ขึ้นปานกลาง"
+ treasury_budget_military_increase_small: "การเพิ่ม[treasury_military_budget|E]ขึ้นเล็กน้อย"
+
+ treasury_budget_salary_reduction_large: "การลด[governor_salary|E]ลงอย่างมาก"
+ treasury_budget_salary_reduction_medium: "การลด[governor_salary|E]ลงปานกลาง"
+ treasury_budget_salary_reduction_small: "การลด[governor_salary|E]ลงเล็กน้อย"
+ treasury_budget_salary_increase_large: "การเพิ่ม[governor_salary|E]ขึ้นอย่างมาก"
+ treasury_budget_salary_increase_medium: "การเพิ่ม[governor_salary|E]ขึ้นปานกลาง"
+ treasury_budget_salary_increase_small: "การเพิ่ม[governor_salary|E]ขึ้นเล็กน้อย"
+
+ five_years_since_budget: "ห้าปีนับตั้งแต่การประกาศใช้งบประมาณครั้งล่าสุด"
+ four_years_since_budget: "สี่ปีนับตั้งแต่การประกาศใช้งบประมาณครั้งล่าสุด"
+ three_years_since_budget: "สามปีนับตั้งแต่การประกาศใช้งบประมาณครั้งล่าสุด"
+ two_years_since_budget: "สองปีนับตั้งแต่การประกาศใช้งบประมาณครั้งล่าสุด"
+ one_year_since_budget: "หนึ่งปีนับตั้งแต่การประกาศใช้งบประมาณครั้งล่าสุด"
+ treasury_in_debt: "คลังหลวงติดหนี้"

@@ -1,0 +1,20 @@
+﻿l_english: 
+ trait_desc_wasteful:0 "ฟุ่มเฟือย"
+ trait_desc_magnanimous:0 "ใจกว้าง"
+ trait_desc_munificent:0 "เอื้อเฟื้อเผื่อแผ่"
+ trait_desc_lecherous:0 "ตัณหาจัด"
+ trait_desc_playful:0 "ขี้เล่น"
+ trait_desc_lascivious:0 "ราคะจัด"
+ trait_desc_unreliable:0 "ไม่น่าเชื่อถือ"
+ trait_desc_dynamic:0 "ไม่หยุดนิ่ง"
+ trait_desc_restless:0 "อยู่ไม่สุข"
+ trait_desc_rapacious:0 "ละโมบ"
+ trait_desc_acquisitive:0 "อยากได้ใคร่มี"
+ trait_desc_avaricious:0 "โลภมาก"
+
+ childhood_trait_activity_bossy:0 "ฝึกฝนผู้ติดตามคนใหม่"
+ childhood_trait_activity_charming:0 "ผูกมิตรใหม่"
+ childhood_trait_activity_curious:0 "เรียนรู้สิ่งใหม่"
+ childhood_trait_activity_pensive:0 "หาเวลาอยู่ตามลำพัง"
+ childhood_trait_activity_rowdy:0 "เป็นดาวเด่นของงานเลี้ยง"
+ 

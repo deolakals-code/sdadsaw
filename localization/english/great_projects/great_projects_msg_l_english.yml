@@ -1,0 +1,6 @@
+﻿l_english: 
+ great_project_contribution_msg_t: "ได้รับรางวัลสำหรับการอุทิศตนแก่โครงการอันยิ่งใหญ่"
+ great_project_completed_msg_t: "โครงการอันยิ่งใหญ่เสร็จสมบูรณ์"
+ great_project_completed_msg_desc: "[great_project.GetName] [great_project|E] ได้เสร็จสมบูรณ์แล้ว"
+ great_project_contributed_msg_t: "ทุนสนับสนุนโครงการใหญ่"
+ great_project_contributed_msg_desc: "[ROOT.Char.GetName] ได้มอบการสนับสนุนอันมีนัยสำคัญ แก่ [great_project.GetName] [great_project|E]"

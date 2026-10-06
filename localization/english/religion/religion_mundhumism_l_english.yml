@@ -1,0 +1,98 @@
+﻿l_english: 
+ #Mundhumism
+ mundhum_religion:0 "ศาสนามุนดุม"
+ mundhum_religion_adj:0 "มุนดุม"
+ mundhum_religion_adherent:0 "ชาวมุนดุม"
+ mundhum_religion_adherent_plural:0 "ชาวมุนดุม"
+ mundhum_religion_desc:0 "ศาสนามุนดุมเป็นประเพณีทางศาสนาของชาวกีราตีแห่งเทือกเขาหิมาลัยที่เน้นเรื่องราวและบทเพลงโบราณที่เรียกว่ามุนดุม ซึ่งพวกเขาถือว่าเป็นคัมภีร์ของตน ศาสนามุนดุมเป็นศาสนาผสมผสาน ซึ่งรวมเอาเทพเจ้าและหลักปฏิบัติมากมายจากศาสนาฮินดูเข้ากับการบูชาบรรพบุรุษ"
+ mundhumism_high_god_name:0 "ตาเกรา นิงวาภูมา"
+ mundhumism_high_god_name_2:0 "$mundhumism_high_god_name$" # Optional translation alt
+ mundhumism_high_god_name_possessive:0 "แห่งตาเกรา นิงวาภูมา"
+ mundhumism_high_god_shehe:0 "พระองค์"
+ mundhumism_high_god_herselfhimself:0 "พระองค์เอง"
+ mundhumism_high_god_herhis:0 "ของพระองค์"
+ mundhumism_high_god_name_alternate:0 "พระผู้สูงสุด"
+ mundhumism_high_god_name_alternate_possessive:0 "แห่งพระผู้สูงสุด"
+ mundhumism_good_god_tegera_ningwaphuma:0 "ตาเกรา นิงวาภูมา"
+ mundhumism_good_god_yuma_sammang:0 "ยูมา ซัมมัง"
+ mundhumism_good_god_theba_sammang:0 "เทบา ซัมมัง"
+ mundhumism_good_god_birupakshya:0 "พิรูปักษ์"
+ mundhumism_good_god_chandi:0 "จัณฑี"
+ mundhumism_house_of_worship:0 "เทวสถาน"
+ mundhumism_house_of_worship_2:0 "$mundhumism_house_of_worship$" # Optional translation alt
+ mundhumism_house_of_worship_3:0 "$mundhumism_house_of_worship$" # Optional translation alt
+ mundhumism_house_of_worship_plural:0 "เทวสถาน"
+ mundhumism_religious_symbol:0 "ลาซารี" #Holy water pot or vessel with water and flowers installed on the lift side at the time of worship
+ mundhumism_religious_symbol_2:0 "$mundhumism_religious_symbol$" # Optional translation alt
+ mundhumism_religious_symbol_3:0 "$mundhumism_religious_symbol$" # Optional translation alt
+ mundhumism_religious_text:0 "มุนดุม"
+ mundhumism_religious_text_2:0 "$mundhumism_religious_text$" # Optional translation alt
+ mundhumism_religious_text_3:0 "$mundhumism_religious_text$" # Optional translation alt
+ mundhumism_religious_head_title:0 "เพจิรี"
+ mundhumism_religious_head_title_name:0 "ตำแหน่งเพจิรี"
+ mundhumism_priest:0 "เฟดังมา"
+ mundhumism_priest_plural:0 "เฟดังมา"
+ mundhumism_priest_term_plural:0 "เฟดังมา"
+ mundhumism_bishop:0 "นักชอง"
+ mundhumism_bishop_plural:0 "นักชอง"
+
+ mundhumism_creator_god_name:0 "โปโรกมี ยัมบามิบา"
+ mundhumism_creator_god_name_possessive:0 "แห่งโปโรกมี ยัมบามิบา"
+ mundhumism_health_god_name:0 "ยูมา ซัมมัง"
+ mundhumism_health_god_name_possessive:0 "แห่งยูมา ซัมมัง"
+ mundhumism_fertility_god_name:0 "มูฮิกมัง"
+ mundhumism_fertility_god_name_possessive:0 "แห่งมูฮิกมัง"
+ mundhumism_wealth_god_name:0 "เทบา ซัมมัง"
+ mundhumism_wealth_god_name_possessive:0 "แห่งเทบา ซัมมัง"
+ mundhumism_household_god_name:0 "พิรูปักษ์"
+ mundhumism_household_god_name_possessive:0 "แห่งพิรูปักษ์"
+ mundhumism_fate_god_name:0 "กรรม"
+ mundhumism_fate_god_name_possessive:0 "แห่งกรรม"
+ mundhumism_knowledge_god_name:0 "นิซัมมัง"
+ mundhumism_knowledge_god_name_possessive:0 "แห่งนิซัมมัง"
+ mundhumism_war_god_name:0 "มุกกุม"
+ mundhumism_war_god_name_possessive:0 "แห่งมุกกุม"
+ mundhumism_trickster_god_name:0 "$mundhumism_war_god_name$"
+ mundhumism_trickster_god_name_possessive:0 "$mundhumism_war_god_name_possessive$"
+ mundhumism_night_god_name:0 "$mundhumism_health_god_name$"
+ mundhumism_night_god_name_possessive:0 "$mundhumism_health_god_name_possessive$"
+ mundhumism_water_god_name:0 "$mundhumism_health_god_name$"
+ mundhumism_water_god_name_possessive:0 "$mundhumism_health_god_name_possessive$"
+
+ #Kiratism
+ kiratism:0 "ลัทธิกีราต"
+ kiratism_adj:0 "กีราต"
+ kiratism_adherent:0 "ชาวกีราต"
+ kiratism_adherent_plural:0 "ชาวกีราต"
+ kiratism_desc:0 "ลัทธิกีราตคือการปฏิบัติศาสนามุนดุม ซึ่งเป็นที่แพร่หลายในหมู่ชาวกีราตส่วนใหญ่ เน้นการบูชาตาเกรา นิงวาภูมา ในฐานะพระผู้สูงสุดและการให้เกียรติบรรพบุรุษ"
+ 
+ kiratism_old:0 "ลัทธิกีราตเก่า"
+ kiratism_old_adj:0 "กีราตเก่า"
+ kiratism_old_adherent:0 "ชาวกีราตเก่า"
+ kiratism_old_adherent_plural:0 "ชาวกีราตเก่า"
+
+ #Yumaism
+ yumaism:0 "ลัทธิยูมา"
+ yumaism_adj:0 "ยูมา"
+ yumaism_adherent:0 "ชาวยูมา"
+ yumaism_adherent_plural:0 "ชาวยูมา"
+ yumaism_desc:0 "ชาวยูมาเน้นการบูชา ยูมา ซัมมัง บุคลาธิษฐานเพศหญิงของ ตาเกรา นิงวาภูมา ในฐานะพระเทวีสูงสุด ผู้ ซึ่งพวกเขายกย่องว่าเป็นพระมารดาแห่งธรรมชาติ"
+ 
+ yumaism_old:0 "ลัทธิยูมาเก่า"
+ yumaism_old_adj:0 "ยูมาเก่า"
+ yumaism_old_adherent:0 "ชาวยูมาเก่า"
+ yumaism_old_adherent_plural:0 "ชาวยูมาเก่า"
+ 
+ yumaism_high_god_name:0 "$mundhumism_health_god_name$"
+ yumaism_high_god_name_2:0 "$mundhumism_health_god_name$" # Optional translation alt
+ yumaism_high_god_name_possessive:0 "$mundhumism_health_god_name_possessive$"
+ yumaism_creator_god_name:0 "$mundhumism_health_god_name$"
+ yumaism_creator_god_name_possessive:0 "$mundhumism_health_god_name_possessive$"
+ yumaism_wealth_god_name:0 "$mundhumism_health_god_name$"
+ yumaism_wealth_god_name_possessive:0 "$mundhumism_health_god_name_possessive$"
+ yumaism_household_god_name:0 "$mundhumism_health_god_name$"
+ yumaism_household_god_name_possessive:0 "$mundhumism_health_god_name_possessive$"
+ yumaism_war_god_name:0 "จัณฑี"
+ yumaism_war_god_name_possessive:0 "แห่งจัณฑี"
+ yumaism_water_god_name:0 "เกาศิกี"
+ yumaism_water_god_name_possessive:0 "แห่งเกาศิกี"

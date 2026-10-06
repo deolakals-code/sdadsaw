@@ -1,0 +1,8 @@
+﻿l_english: 
+ trait_former_emperor: "อดีตจักรพรรดิ"
+ trait_former_emperor_male: "อดีตจักรพรรดิ"
+ trait_former_emperor_female: "อดีตจักรพรรดินี"
+ trait_former_tenno: "$emperor_joko_male_japanese$"
+ trait_former_tenno_male: "$emperor_joko_male_japanese$"
+ trait_former_tenno_female: "$emperor_joko_female_japanese$"
+ trait_former_emperor_desc: "ตัวละครนี้เคยเป็น [ceremonial_liege|E] และยังคงรักษาอิทธิพลไว้อย่างมาก แม้ว่าจะสละราชบัลลังก์ไปแล้ว"

@@ -1,0 +1,66 @@
+﻿l_english: 
+ bp1_1000_time_with_bf_modifier:0 "ช่วงเวลาอันมีค่ากับสหายสนิท"
+ bp1_1000_time_with_bf_modifier_desc:0 "ตัวละครนี้กำลังใช้ช่วงเวลาอันมีค่ากับสหายสนิทของตน"
+ bp1_1000_focus_on_work_modifier:0 "มุ่งมั่นในหน้าที่"
+ bp1_1000_focus_on_work_modifier_desc:0 "ตัวละครนี้ละเลยสหายของตนเพื่อมุ่งมั่นในหน้าที่"
+
+ bp1_1020_friend_with_modifier:0 "สหายผู้ห่วงใย"
+ bp1_1020_friend_with_modifier_desc:0 "สหายผู้ห่วงใยเฝ้าอยู่ข้างเตียงของตัวละครนี้"
+ bp1_superstition_modifier:0 "เชื่อโชคลาง"
+ bp1_superstition_modifier_desc:0 "ชีวิตของตัวละครนี้ถูกควบคุมโดยความเชื่อในอิทธิพลเหนือธรรมชาติที่นำไปสู่โชคดีหรือโชคร้าย"
+ bp1_1070_unlucky_charm_modifier:0 "เครื่องรางอัปมงคล"
+ bp1_1070_unlucky_charm_modifier_desc:0 "โชคร้ายถูกส่งมายังตัวละครนี้โดยศัตรูผู้ชั่วร้าย"
+ bp1_well_fed_pigs_modifier:0 "สุกรที่ถูกเลี้ยงดูอย่างดี"
+ bp1_well_fed_pigs_modifier_desc:0 "ตัวละครนี้มีปศุสัตว์ที่อ้วนท้วนน่าสงสัย..."
+
+ humiliated_by_rival_modifier:0 "ถูกหยามเกียรติ"
+ humiliated_by_rival_modifier_desc:0 "ตัวละครนี้ถูกศัตรู ทำให้อับอายต่อหน้าสาธารณชน และยังไม่สามารถสลัดความอัปยศออกไปได้"
+ triumphant_over_rival_modifier:0 "มีชัย"
+ triumphant_over_rival_modifier_desc:0 "ตัวละครนี้เอาชนะศัตรูต่อหน้าสาธารณชน และเดินด้วยท่าทางกระปรี้กระเปร่าเป็นพิเศษอันเป็นผลจากชัยชนะนั้น"
+
+ dead_best_friend_modifier:0 "ความปวดใจไม่สร่างซา"
+ dead_best_friend_modifier_desc:0 "สหายสนิทของตัวละครนี้เสียชีวิต และพวกเขายังไม่สามารถฟื้นตัวได้อย่างเต็มที่"
+
+ linguistically_challenged_modifier:0 "มีปัญหาด้านภาษา"
+ linguistically_challenged_modifier_desc:0 "ตัวละครนี้ออกเสียงคำบางคำแตกต่างจากบรรทัดฐานที่กำหนดไว้ และถูกเยาะเย้ยอันเป็นผลจากสิ่งนั้น"
+
+ descriptivist_modifier:0 "ผู้ใช้ภาษาตามใจ"
+ descriptivist_modifier_desc:0 "ตัวละครนี้ยืนกรานที่จะใช้วิธีการทางภาษาของตนเอง ซึ่งบ่งบอกถึงการขาดการศึกษาด้านภาษาศาสตร์อย่างชัดเจน"
+
+ sneaking_suspicion_modifier:0 "ความสงสัยที่ค้างคาใจ"
+ sneaking_suspicion_modifier_desc:0 "ตัวละครนี้ดูเหมือนจะมีอารมณ์ร่าเริง โดยได้ปัดเป่าเหตุการณ์ที่น่ากังวลบางอย่างออกจากใจไปแล้ว หรืออย่างน้อย พวกเขาก็ #EMP พยายาม#! ที่จะทำ เช่นนั้น..."
+
+ busy_guards_modifier:0 "องครักษ์งานยุ่ง"
+ busy_guards_modifier_desc:0 "ตัวละครนี้ได้เบี่ยงเบนความพยายามขององครักษ์ไปยังเรื่องไร้สาระแทนที่จะปกป้องตนเอง"
+
+ lacking_supplies_modifier:0 "ขาดแคลนเสบียง"
+ lacking_supplies_modifier_desc:0 "ตัวละครนี้ปล่อยให้การกระทำอันชั่วร้ายของผู้อื่นไม่ถูกตรวจสอบ และ ส่งผลให้ขาดแคลนคลังอาหาร"
+
+ optimist_modifier:0 "ผู้มองโลกในแง่ดี"
+ optimist_modifier_desc:0 "สำหรับตัวละครนี้ ถ้วยนั้นเต็มอยู่ครึ่งหนึ่งเสมอ"
+
+ lacking_poultry_modifier:0 "ขาดแคลนผลิตภัณฑ์สัตว์ปีก"
+ lacking_poultry_modifier_desc:0 "เคาน์ตีนี้ขาดแคลนอาหารและผลิตภัณฑ์ที่ได้จากไก่"
+
+ obsessively_neurotic_modifier:0 "วิตกกังวลอย่างหมกมุ่น"
+ obsessively_neurotic_modifier_desc:0 "ตัวละครนี้มองเห็นอันตรายอยู่รอบทุกมุม และใช้ชีวิตอยู่ด้วยความหวาดกลัว"
+
+ unhappy_spouse_modifier:0 "ชีวิตสมรสไม่มีความสุข"
+ unhappy_spouse_modifier_desc:0 "ความวิตกกังวลของตัวละครนี้ได้ ทำให้ชีวิตสมรสของพวกเขาร้าวฉาน ซึ่งอาจเกินกว่าจะแก้ไขได้"
+
+ disdained_modifier:0 "ถูกดูหมิ่น"
+ disdained_modifier_desc:0 "ตัวละครนี้เป็นที่รู้กันว่าอยู่ภายใต้อำนาจของข้าหลวงของตนเอง ซึ่งเยาะเย้ยความพยายามของพวกเขาที่จะควบคุมข้าหลวงเหล่านั้นอย่างเปิดเผย"
+
+ cat_revenge_modifier:0 "แก้แค้นให้แมว"
+ cat_revenge_modifier_desc:0 "แมวของตัวละครนี้ถูกศัตรูคู่อาฆาตสังหาร และพวกเขาก็เต็มไปด้วยความคิดที่จะแก้แค้นอันเป็นผลจากสิ่งนั้น"
+
+ cat_survived_modifier:0 "แมวรอดชีวิตอย่างน่าประหลาดใจ"
+ cat_survived_modifier_desc:0 "แมวของตัวละครนี้รอดชีวิตจากการพยายามฆ่าโดยศัตรูคู่อาฆาตได้อย่างน่าประหลาดใจ"
+
+ sated_modifier:0 "อิ่มเอม"
+ sated_modifier_desc:0 "ตัวละครนี้ได้มี #EMP ช่วงเวลาอันมีค่า#! กับคนรักของตน"
+ family_troubles_modifier:0 "ปัญหาครอบครัว"
+ family_troubles_modifier_desc:0 "ตัวละครนี้มีญาติห่างๆ บางคนที่กำลังตกอับ"
+ 
+ skinned_pet_modifier:0 "สัตว์เลี้ยงถูกถลกหนัง"
+ skinned_pet_modifier_desc:0 "สัตว์เลี้ยงอันเป็นที่รักของตัวละครนี้ถูกถลกหนังและนำไปทำเป็นเสื้อผ้าโดยแผนการของศัตรู"

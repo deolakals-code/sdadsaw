@@ -1,0 +1,10 @@
+﻿l_english: 
+ MEMORIES_WINDOW_HEADING:0 "[Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINamePossessiveNoTooltip, 'ไม่มี')|U] ความทรงจำ"
+ MEMORIES_WINDOW_ENTRY:0 "[CharacterMemory.GetDescription|U]"
+ MEMORIES_WINDOW_COPY_ENTRY:0 "[CharacterMemory.GetCreationDate.GetString]\n[CharacterMemory.GetDescription|U]\n\n"
+ MEMORIES_WINDOW_COPY_TO_CLIPBOARD:0 "$COA_DESIGNER_COPY_TO_CLIPBOARD_BUTTON$"
+ CHARACTER_HAS_NO_MEMORIES:0 "[Select_CString( Character.IsAlive, 'ยังไม่มีเหตุการณ์สำคัญใดเกิดขึ้น...', 'ความทรงจำเหล่านี้ได้เลือนหายไปตามกาลเวลา...')]"
+ MEMORY_INFO:0 "เหล่านี้คือความทรงจำสำคัญ[Select_CString( MemoriesWindow.GetCharacter.IsValid, MemoriesWindow.GetCharacter.GetShortUINamePossessiveNoTooltip, 'ที่เลือนหาย')] ความทรงจำเป็นสิ่งที่เลือนราง เปลี่ยนแปลงง่าย – แต่ก็ยังคงล้ำค่าและมิอาจหาใดแทนได้ เมื่อเวลาผ่านไปนานพอ ความทรงจำทั้งมวลก็จะเลือนลับไปจนหมดสิ้น"
+ OPEN_MEMORIES_TOOLTIP:0 "#I ดูความทรงจำของตัวละครนี้#!"
+ MEMORIES_WINDOW_PIN_IT:0 "ปักหมุดหน้าต่างนี้เพื่อป้องกันการสลับไปยังตัวละครอื่น"
+ MEMORY_SORT_ORDER_TOOLTIP:0 "#T เปลี่ยนลำดับการจัดเรียงความทรงจำ#!"

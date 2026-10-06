@@ -1,0 +1,28 @@
+﻿l_english: 
+
+ HAS_DYNASTY_PRESTIGE_TRIGGER:1 "[dynasty|E] [DYNASTY.GetBaseName] มี [dynasty_prestige|E] [dynasty_prestige_i]$NUM|V0$"
+ NOT_HAS_DYNASTY_PRESTIGE_TRIGGER:1 "[dynasty|E] [DYNASTY.GetBaseName] ไม่มี [dynasty_prestige|E] [dynasty_prestige_i]$NUM|V0$"
+
+ HAS_DYNASTY_PRESTIGE_LEVEL_TRIGGER:1 "[dynasty|E] [DYNASTY.GetBaseName] มี [dynasty_prestige_level|E] $COMPARATOR$ [GetDynastyPrestigeLevelName( '(int32)$NUM|q$' )] ($NUM|V0$)"
+ NOT_HAS_DYNASTY_PRESTIGE_LEVEL_TRIGGER:1 "[dynasty|E] [DYNASTY.GetBaseName] #bold ไม่มี#! [dynasty_prestige_level|E] $COMPARATOR$ [GetDynastyPrestigeLevelName( '(int32)$NUM|q$' )] ($NUM|V0$)"
+
+ HAS_DYNASTY_MODIFIER:1 "[dynasty|E] [DYNASTY.GetBaseName] มีผลกระทบ $MODIFIER|V$"
+
+ HAS_HOUSE_MODIFIER:0 "[house|E] [DYNASTY_HOUSE.GetName] มีผลกระทบ $MODIFIER|V$"
+ NOT_HAS_HOUSE_MODIFIER: "[house|E] [DYNASTY_HOUSE.GetName] #bold ไม่มี#! ผลกระทบ $MODIFIER|V$"
+ ADULT_HOUSE_MEMBERS_AT_LEAST:0 "อย่างน้อย $PERCENT|%$ ของสมาชิก [house|E] ที่เป็นผู้ใหญ่:"
+ ADULT_HOUSE_MEMBERS_COUNT_AT_LEAST:0 "สมาชิก [house|E] ที่เป็นผู้ใหญ่อย่างน้อย $COUNT$ คน:"
+
+ DYNASTY_PRESTIGE_LEVEL_TRIGGER:0 "[dynasty_prestige_level|E]: $NUM|V0$"
+ HAS_DYNASTY_TRIGGER:0 "เป็นสมาชิกของ [dynasty|E]"
+ DYNASTY_NUM_UNLOCKED_PERKS:0 "จำนวนคุณสมบัติพิเศษที่ปลดล็อก: $NUM|V0$"
+ HAS_DYNASTY_PERK_NONE:0 "[dynasty|E] มีมรดก [DYNASTY_PERK.GetName]"
+ NOT_HAS_DYNASTY_PERK: "[dynasty|E] [DYNASTY.GetBaseName] ไม่มีมรดก [DYNASTY_PERK.GetName]"
+ HAS_DYNASTY_PERK: "[dynasty|E] [DYNASTY.GetBaseName] มีมรดก [DYNASTY_PERK.GetName]"
+
+ is_powerful_family: "[DYNASTY_HOUSE.GetName] เป็นตระกูลทรงอำนาจ"
+ NOT_is_powerful_family: "[DYNASTY_HOUSE.GetName] #bold ไม่ใช่#! ตระกูลทรงอำนาจ"
+ is_dominant_family: "[DYNASTY_HOUSE.GetName] เป็นตระกูลผู้มีอิทธิพล"
+ NOT_is_dominant_family: "[DYNASTY_HOUSE.GetName] #bold ไม่ใช่#! ตระกูลผู้มีอิทธิพล"
+ house_power: "อำนาจของ [DYNASTY_HOUSE.GetName] คือ $COMPARATOR$ $NUM|0V$"
+ house_land_share_in_realm_greater_than: "[DYNASTY_HOUSE.GetName] ควบคุมเคาน์ตีอย่างน้อย $NUM|%0V$ ใน [TARGET_CHARACTER.GetPrimaryTitle.GetName]"

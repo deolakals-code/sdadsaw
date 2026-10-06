@@ -1,0 +1,38 @@
+﻿l_english: 
+ FP2_BORDER_RAID_CB_NAME:0 "[border_raid|E] ต่อต้าน [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+ FP2_BORDER_RAID_CB_SPECIFIC_NAME:0 "[border_raid|E] แห่ง [TITLE.GetBaseNameNoTier]"
+ FP2_BORDER_RAID_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [border_raid|E] แห่ง [TITLE.GetBaseNameNoTier]"
+ FP2_BORDER_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ fp2_border_raid:0 "[border_raid|E]"
+
+ border_raid_cb_desc_victory_attacker:0 "ท่านได้รับ [gold|E] ตามสัดส่วนของ [development|E] ของ [county|E] เป้าหมาย ซึ่งจะลดลง\n$border_raid_building_tt$\n$border_raid_warning_tt$"
+ border_raid_cb_desc_victory_defender:0 "[attacker.GetName] ได้รับ [gold|E] ตามสัดส่วนของ [development|E] ของ [county|E] เป้าหมาย ซึ่งจะลดลง\n$border_raid_building_tt$\n$border_raid_warning_tt$"
+ border_raid_cb_desc_white_peace_attacker:0 "ท่านล้มเหลวในการปล้นสะดมให้สำเร็จ"
+ border_raid_cb_desc_white_peace_defender:0 "[attacker.GetName] ล้มเหลวในการปล้นสะดมของ [attacker.GetHerHis] ให้สำเร็จ"
+ border_raid_cb_desc_defeat_attacker:0 "ท่านต้องจ่ายค่าปฏิกรรมสงครามเป็น [gold|E] สำหรับความพยายามในการปล้นสะดม"
+ border_raid_cb_desc_defeat_defender:1 "[attacker.GetName] ต้องจ่ายค่าปฏิกรรมสงครามเป็น [gold|E] สำหรับความพยายามในการปล้นสะดม"
+ destroy_random_building_tt:0 "[building|E] แบบสุ่มใน [raid_county.GetName] ถูกทำลาย ได้รับ [gold_i] เพิ่มเติม"
+ border_raid_building_tt:0 "[building|E] อาจถูกทำลายด้วย"
+ border_raid_warning_tt:0 "@warning_icon! #X จะไม่มีการเปลี่ยนมือ [titles|E]#!"
+ border_raid_message_title:0 "เคาน์ตีชายแดนถูกปล้นสะดม"
+
+ FP2_EXPEL_INTERLOPER_CB_NAME:0 "[iberian_reclamation|E] ต่อต้าน [DEFENDER.GetPrimaryTitle.GetNameNoTier] "
+ FP2_EXPEL_INTERLOPER_CB_SPECIFIC_NAME:0 "[iberian_reclamation|E] แห่ง [TITLE.GetBaseNameNoTier]"
+ FP2_EXPEL_INTERLOPER_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] [iberian_reclamation|E] แห่ง [TITLE.GetBaseNameNoTier]"
+ FP2_EXPEL_INTERLOPER_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+
+ iberian_reclamation_cb_victory_desc_attacker_vassalize:0 "ท่าน ทำให้ [defender.GetShortUIName|U] เป็นข้าในบังคับ"
+ iberian_reclamation_cb_victory_desc_defender_vassalize:0 "[attacker.GetShortUIName|U] ทำให้ท่านเป็นข้าในบังคับ"
+ iberian_reclamation_cb_victory_desc_attacker_conquer_1:0 "$EFFECT_LIST_BULLET$ท่านกลายเป็น [liege|E] ของ [vassals|E] [rank|E] ต่ำกว่าที่ [struggle_involved|E] ของ [defender.GetShortUINamePossessive|U] ใน [duchy|E] เป้าหมาย"
+ iberian_reclamation_cb_victory_desc_attacker_conquer_2:0 "$EFFECT_LIST_BULLET$ท่านได้รับ [counties|E] ที่ถือครองโดยผู้ที่ [struggle_uninvolved|E] ซึ่งเป็นข้อพิพาท และเคาน์ตีของผู้ถือครอง [holders|E] ที่มีดินแดนนอก [duchy|E]\n"
+ iberian_reclamation_cb_victory_desc_defender_conquer_1:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] กลายเป็น [liege|E] ของ [vassals|E] [rank|E] ต่ำกว่าที่ [struggle_involved|E] ของ [defender.GetShortUINamePossessive|U] ใน [duchy|E] เป้าหมาย"
+ iberian_reclamation_cb_victory_desc_defender_conquer_2:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] ได้รับ [counties|E] ที่ถือครองโดยผู้ที่ไม่ได้ [struggle_involved|E] ซึ่งเป็นข้อพิพาท และเคาน์ตีของผู้ถือครอง [holders|E] ที่มีดินแดนนอก [duchy|E]\n"
+ fp2_expel_interloper:0 "[iberian_reclamation|E]"
+
+
+ iberian_reclamation_cb_white_peace_desc_vassalize:0 "[defender.GetShortUIName|U] จะยังคง [independent|E]"
+ iberian_reclamation_cb_white_peace_desc_conquer:0 "[defender.GetShortUIName|U] จะรักษา [titles|E] ที่เป็นข้อพิพาทไว้"
+ iberian_reclamation_cb_defeat_desc_vassalize:0 "$iberian_reclamation_cb_white_peace_desc_vassalize$"
+ iberian_reclamation_cb_defeat_desc_conquer:0 "$iberian_reclamation_cb_white_peace_desc_conquer$"
+ 
+ CB_COST_IBERIAN_RECLAMATION:0 "ใช้ [prestige|E] [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] ต่อ [county|E]"

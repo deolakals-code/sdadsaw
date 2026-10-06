@@ -1,0 +1,27 @@
+﻿l_english: 
+ 
+ ep3_yearly.1010.t: "คลั่งม้า"
+ ep3_yearly.1010.intro: "#EMP กุบกับ กุบกับ#!\n\n[horse_owner.GetTitledFirstName] สหายผู้ครองนครของข้า ขี่ม้า [horse_owner.Custom('WarhorseStoryName')] พาหนะของ [horse_owner.GetHerHis] อย่างสง่างาม ทอดน่องอย่างภาคภูมิผ่านลานบ้านของข้า [horse_owner.Custom('HorseStoryMareStallion')] ย่างกรายอย่างภาคภูมิ ตระหนักถึงสายเลือดอันสูงส่งของมันอยู่เสมอ\n\n[horse_owner.GetFirstNameNoTooltip] เป็นที่อิจฉาของผู้ครองนครทุกคนใน [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetBaseNameNoTooltip] — และข้าก็ไม่มีข้อยกเว้น "
+ ep3_yearly.1010.greek_flavor: "[Glossary( 'ฮิปเปรอส', 'HIPPEROS_GLOSS' )] ฝังรากลึกในธรรมเนียมกรีก"
+ ep3_yearly.1010.outro: "\n\n[horse_owner.Custom('WarhorseStoryName')] ต้องเป็นของข้า! แต่จะทำอย่างไร?"
+
+ ep3_yearly.1010.a: "บางทีราคาที่เหมาะสมอาจโน้มน้าว [horse_owner.GetFirstNameNoTooltip] ได้..."
+ ep3_yearly.1010.a.tt.success: "[horse_owner.GetTitledFirstNameNoTooltip] ยอมรับข้อเสนอของท่าน"
+ ep3_yearly.1010.a.tt.failure: "[horse_owner.GetTitledFirstNameNoTooltip] ปฏิเสธข้อเสนอของท่าน"
+
+ ep3_yearly.1010.b: "[horse_owner.Custom('WarhorseStoryName')] เหมาะสมกับผู้ที่มีสถานะสูงกว่า"
+ ep3_yearly.1010.b.tt.success: "[horse_owner.GetTitledFirstNameNoTooltip] ยอมจำนนต่ออิทธิพลของท่าน"
+ ep3_yearly.1010.b.tt.failure: "[horse_owner.GetTitledFirstNameNoTooltip] ปฏิเสธข้อเสนอของท่าน"
+
+ ep3_yearly.1010.c: ""[spymaster.GetFirstNameNoTooltip] ม้าตัวนี้จะต้องเป็นของข้า — ไม่ว่าจะด้วยวิธีใดก็ตาม""
+ ep3_yearly.1010.c.flavor: "ท่านมอบหมายให้หัวหน้าสายลับของท่าน, [spymaster.GetTitledFirstNameNoTooltip], ลักลอบนำ [horse_owner.Custom('HorseStoryMareStallion')] ออกไป"
+ ep3_yearly.1010.c.tt.success: "[spymaster.GetFirstNameNoTooltip] ลักลอบนำม้าออกไปได้สำเร็จ"
+ ep3_yearly.1010.tt: "[horse_owner.Custom('WarhorseStoryName')] กลายเป็นของท่าน"
+ ep3_yearly.1010.c.tt.failure: "[spymaster.GetFirstNameNoTooltip] ล้มเหลวในการขโมยม้า"
+ ep3_yearly.1010.d: "อย่าไปพิรี้พิไรกับม้าของขวัญเลย [horse_owner.GetFirstNameNoTooltip]"
+ ep3_yearly.1010.d.tt: "ท่านวางยาม้าของ [horse_owner.GetTitledFirstNamePossessiveNoTooltip]"
+ ep3_yearly.1010.d.success: "[horse_owner.GetFirstNameNoTooltip] ไม่รู้เรื่องเลย"
+ ep3_yearly.1010.d.failure: "[horse_owner.GetFirstNameNoTooltip] จับได้ว่าท่านทำ"
+ ep3_yearly.1010.d.dead_horse: "[horse_owner.Custom('WarhorseStoryName')] ตาย"
+
+ HIPPEROS_GLOSS: "#bold ฮิปเปรอส#! เป็นคำภาษากรีกโบราณที่อธิบายถึงความหลงใหลในม้า"

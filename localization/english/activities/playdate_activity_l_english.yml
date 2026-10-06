@@ -1,0 +1,27 @@
+﻿l_english: 
+ 
+ ## PLAYDATE GUEST INVITE RULES
+ activity_invite_rule_siblings:0 "พี่น้อง"
+ activity_invite_rule_crushes:0 "ผู้ที่พึงใจ"
+ activity_invite_rule_personal_scheme_targets:0 "เป้าหมายในแผนการส่วนตัว"
+ activity_invite_rule_powerful_vassals_children:0 "บุตรหลานของข้าหลวงผู้ทรงอำนาจ"
+ activity_invite_rule_vassals_children:0 "บุตรหลานของข้าหลวง"
+ activity_invite_rule_fellow_vassals_children:0 "บุตรหลานของสหายข้าหลวง"
+ playdate_conc_reward_title:0 "การพบปะสหายรุ่นเยาว์สิ้นสุดลง"
+ playdate_conc_reward:0 "[ROOT.Char.GetShortUINameNoTooltip] เป็นเจ้าภาพจัดงานพบปะสหายรุ่นเยาว์ได้สำเร็จลุล่วง"
+
+
+ #Play date
+ activity_playdate:0 "พบปะสหายรุ่นเยาว์"
+ activity_playdate_name:0 "งานพบปะสหายรุ่นเยาว์ของ [ACTIVITY.GetOwner.GetNamePossessiveOrMy|U]"
+ activity_playdate_selection_tooltip:1 "บุตรหลานผู้มีฐานะทุกคนในอาณาจักรได้รับเชิญให้มาเพลิดเพลิน พบปะผู้อื่นในวัยเดียวกัน และสังสรรค์!\n\nผลตอบแทนที่คาดหวัง:\n$BULLET_WITH_TAB$[opinion_i] [opinion|E]"
+ activity_playdate_desc:1 "การเชิญคุณชายและคุณหญิงน้อยทุกคนในอาณาจักร ผู้มีอายุไม่ถึง [EmptyScope.ScriptValue('less_than_two_years_to_adulthood_value')|0V] ปี ให้มาเพลิดเพลินท่ามกลางสหายรุ่นเยาว์ นับเป็นประสบการณ์อันผ่อนคลายและสนุกสนาน!"
+ activity_playdate_host_desc:0 "$BULLET_WITH_TAB$ผู้เข้าร่วมอาจได้รับ [opinion|E] จากตัวละครที่เข้าร่วม"
+ activity_playdate_owner:0 "เจ้าภาพ"
+
+ playdate_phase_desc:0 "สังสรรค์กับสหายรุ่นเยาว์ของท่าน"
+ activity_playdate_conclusion_desc:1 "บุตรหลานจำนวนมากจากในอาณาจักรของข้าพเจ้าได้มาร่วมสังสรรค์และรื่นเริง!"
+ activity_playdate_guest_desc:0 "อาจเพิ่ม [opinion|E] ที่เจ้าศักดินาของท่านมีต่อท่าน"
+ activity_playdate_guest_help_text:0 "$activity_playdate_desc$"
+ activity_playdate_province_desc:0 "นี่คือ [capital|E] ของท่าน"
+ activity_playdate_destination_selection:0 "ท่านสามารถจัดงานพบปะสหายรุ่นเยาว์ได้เฉพาะใน [capital|E] ของท่านเท่านั้น"

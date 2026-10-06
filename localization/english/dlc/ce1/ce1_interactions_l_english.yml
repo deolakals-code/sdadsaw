@@ -1,0 +1,21 @@
+﻿l_english: 
+ PROMOTE_LEGEND_NOTIFICATION: "ท่านคงเคยได้ยินเรื่องราวดีๆ เกี่ยวกับตำนานของข้าแล้วกระมัง? คงจะเป็นการดีหากท่านจะบอกเล่าเรื่องนี้แก่ผู้อื่น"
+ TRADE_GOLD_FOR_BETTER_AI_ACCEPTANCE: "ส่ง [gold_i][gold|E] เพื่อเพิ่มการยอมรับ"
+ TRADE_GOLD_FOR_BETTER_AI_ACCEPTANCE_TT: "[gold_i][gold|E] ที่ส่งไป: $VALUE|+0=$"
+ LEGEND_HOOK_USED: "[hook|E] ที่ใช้: $VALUE|+0=$"
+ ce1_ask_to_promote_legend_interaction: "ขอให้ส่งเสริมตำนาน"
+ ce1_ask_to_promote_legend_interaction_desc: "ร้องขอให้ [recipient.GetFirstName] เป็นผู้ส่งเสริม [legend|E] ของท่าน"
+ ce1_ask_to_promote_legend_acceptance_tt: "[recipient.GetFirstNameNoTooltip] เริ่มส่งเสริมตำนานของท่าน"
+ ce1_ask_to_promote_legend_decline_tt: "[recipient.GetFirstNameNoTooltip] ปฏิเสธที่จะส่งเสริมตำนานของท่าน"
+ recipient_already_promoting_legend_tt: "[recipient.GetFirstNameNoTooltip] กำลังเผยแพร่ตำนานอยู่แล้ว"
+ recipient_close_or_neighbor_tt: "#color_white [recipient.GetTitledFirstName]#! จำเป็นต้องเป็นสมาชิกราชวงศ์ [actor.GetDynasty.GetName] เป็น [friend|E] หรือ [lover|E] ของ #color_white [actor.GetName]#! เป็นเจ้าของ [county|E] ที่อยู่ติดกับตำนาน หรือรู้ภาษา [actor.GetCulture.GetLanguage.GetName] จึงจะสามารถเผยแพร่ตำนานได้"
+ TOO_HIGH_PROMOTER_MAINTENANCE_REASON: "ค่าใช้จ่ายสูงกว่า [income|E]: $VALUE|+0=$"
+ TIER_REASON_COUNT: "[title_tier|E] ([count|E]): $VALUE|+0=$"
+ TIER_REASON_DUKE: "[title_tier|E] ([duke|E]): $VALUE|+0=$"
+ TIER_REASON_KING: "[title_tier|E] ([king|E]): $VALUE|+0=$"
+ TIER_REASON_EMPEROR: "[title_tier|E] ([emperor|E]): $VALUE|+0=$"
+ REASON_ILLUSTRIOUS_LEGEND: "$game_concept_legend_illustrious$ $game_concept_legend$: $VALUE|+0=$"
+ REASON_MYTHICAL_LEGEND: "$game_concept_legend_mythical$ $game_concept_legend$: $VALUE|+0=$"
+ IS_CONTACT_REASON: "เป็น [contact_list_contact|E] ของท่าน: $VALUE|+0=$"
+
+

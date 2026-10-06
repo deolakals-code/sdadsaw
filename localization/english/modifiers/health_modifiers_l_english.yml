@@ -1,0 +1,64 @@
+﻿l_english: 
+ infected_wound_modifier:0 "บาดแผลติดเชื้อ"
+ gangrene_modifier:0 "เนื้อตายเน่า"
+ rejected_from_marriage_bed_modifier:0 "ถูกปฏิเสธจากเตียงสมรส"
+ rejected_from_marriage_bed_modifier_desc:0 "การสมรสของตัวละครนี้จะไม่มีทายาท"
+
+ safe_disease_treatment_success_high_modifier:0 "อาการป่วยลดลง"
+ safe_disease_treatment_success_high_modifier_desc:0 "การรักษาที่ประสบความสำเร็จได้ลดอาการป่วยของตัวละครนี้"
+ safe_disease_treatment_success_low_modifier:0 "อาการป่วยลดลง"
+ safe_disease_treatment_success_low_modifier_desc:0 "การรักษาที่ประสบความสำเร็จได้ลดอาการป่วยของตัวละครนี้"
+ safe_disease_treatment_failure_modifier:0 "อาการป่วยแย่ลง"
+ safe_disease_treatment_failure_modifier_desc:0 "การรักษาที่ล้มเหลว ทำให้อาการป่วยของตัวละครนี้แย่ลง"
+ risky_disease_treatment_success_high_modifier:0 "อาการป่วยลดลงอย่างมาก"
+ risky_disease_treatment_success_high_modifier_desc:0 "การรักษาที่ประสบความสำเร็จอย่างสูงได้ลดอาการป่วยของตัวละครนี้"
+ risky_disease_treatment_success_low_modifier:0 "อาการป่วยลดลงอย่างมาก"
+ risky_disease_treatment_success_low_modifier_desc:0 "การรักษาที่ประสบความสำเร็จอย่างสูงได้ลดอาการป่วยของตัวละครนี้"
+ risky_disease_treatment_failure_modifier:0 "การรักษาโรคผิดพลาด"
+ risky_disease_treatment_failure_modifier_desc:0 "การรักษาที่หายนะ ทำให้อาการป่วยของตัวละครนี้แย่ลง"
+
+ safe_wound_treatment_success_high_modifier:0 "การรักษาบาดแผลสำเร็จ"
+ safe_wound_treatment_success_high_modifier_desc:0 "การรักษาที่ประสบความสำเร็จได้ลดความรุนแรงของบาดแผลของตัวละครนี้"
+ safe_wound_treatment_success_low_modifier:0 "การรักษาบาดแผลสำเร็จ"
+ safe_wound_treatment_success_low_modifier_desc:0 "การรักษาที่ประสบความสำเร็จได้ลดความรุนแรงของบาดแผลของตัวละครนี้"
+ safe_wound_treatment_failure_modifier:0 "บาดแผลกำเริบ"
+ safe_wound_treatment_failure_modifier_desc:0 "การรักษาที่ล้มเหลว ทำให้บาดแผลของตัวละครนี้กำเริบ"
+ risky_wound_treatment_success_modifier:0 "การรักษาบาดแผลสำเร็จอย่างสูง"
+ risky_wound_treatment_success_modifier_desc:0 "การรักษาที่ประสบความสำเร็จอย่างสูงได้ลดความรุนแรงของบาดแผลของตัวละครนี้"
+ risky_wound_treatment_failure_modifier:0 "การรักษาบาดแผลผิดพลาด"
+ risky_wound_treatment_failure_modifier_desc:0 "การรักษาที่หายนะ ทำให้บาดแผลของตัวละครนี้กำเริบอย่างรุนแรง"
+ recently_maimed_modifier:0 "เพิ่งพิการ"
+ recently_maimed_modifier_desc:0 "ตัวละครนี้เพิ่งได้รับบาดเจ็บสาหัส"
+
+ chastised_physician_modifier:0 "แพทย์ถูกตำหนิ"
+ chastised_physician_modifier_desc:0 "แพทย์ผู้นี้จะคิดให้รอบคอบในครั้งต่อไป"
+
+ exhausted_modifier:0 "เหนื่อยล้า"
+ exhausted_modifier_desc:0 "ความเหนื่อยล้าส่งผลกระทบอย่างหนักต่อตัวละครนี้"
+
+ low_social_energy_modifier:0 "พลังงานทางสังคมต่ำ"
+ low_social_energy_modifier_desc:0 "ตัวละครนี้ได้ใช้พลังงานทางสังคมไปกับเรื่องอื่นแล้ว"
+
+ lunatic_made_of_glass_modifier:0 "ทำจากแก้ว"
+ lunatic_made_of_glass_modifier_desc:0 "ตัวละครนี้เชื่อมั่นว่าตนเองทำจากแก้วที่เปราะบาง"
+
+ lunatic_bat_ravings_modifier:0 "เพ้อเจ้อ"
+ lunatic_bat_ravings_modifier_desc:0 "ตัวละครนี้เตือนผู้คนเกี่ยวกับค้างคาวเป็นประจำ และอ้างว่าพร้อมรับมือกับภัยคุกคามของพวกมันเสมอ"
+
+ wounds_quickly_tended_to_modifier:0 "บาดแผลได้รับการดูแล"
+ wounds_quickly_tended_to_modifier_desc:0 "บาดแผลของตัวละครนี้ได้รับการดูแลอย่างรวดเร็ว"
+
+ drank_water_modifier:0 "ดื่มน้ำ"
+ drank_water_modifier_desc:0 "ตัวละครนี้ดื่มน้ำเย็นชื่นใจในวันที่อากาศอบอุ่น"
+
+ almost_drowned_modifier:0 "เกือบจมน้ำ"
+ almost_drowned_modifier_desc:0 "ตัวละครนี้เกือบจมน้ำและยังคงตกใจกับประสบการณ์นั้น"
+
+ malnourished_modifier:0 "ขาดสารอาหาร"
+ malnourished_modifier_desc:0 "ตัวละครนี้ประสบกับความอ่อนแอ ขาดพลังงาน และอารมณ์ตกต่ำ"
+ obese_modifier:0 "อ้วน"
+ obese_modifier_desc:0 "ตัวละครนี้ประสบกับการขาดพลังงาน ปวดข้อ และหายใจถี่"
+ gaining_weight_modifier:0 "กำลังเพิ่มน้ำหนัก"
+ gaining_weight_modifier_desc:0 "ตัวละครนี้กำลังพยายามเพิ่มน้ำหนัก"
+ losing_weight_modifier:0 "กำลังลดน้ำหนัก"
+ losing_weight_modifier_desc:0 "ตัวละครนี้กำลังพยายามลดน้ำหนัก"

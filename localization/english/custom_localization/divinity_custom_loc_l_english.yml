@@ -1,0 +1,118 @@
+﻿l_english: 
+ catholic_god:0 "พระเจ้า"
+ catholic_god_possessive:0 "ของพระเจ้า"
+ alternativeterm_the_lord:0 "องค์พระผู้เป็นเจ้า"
+ alternativeterm_the_lord_possessive:0 "ขององค์พระผู้เป็นเจ้า"
+ catholic_devil:0 "มาร" # หรือ ปีศาจ
+ houseofworship_church:0 "โบสถ์"
+ houseofworship_mosque:0 "มัสยิด"
+ houseofworship_temple:0 "วัด"
+ houseofworshipplural_church:0 "โบสถ์"
+ houseofworship_synagogue:0 "สุเหร่า"
+ religioussymbol_cross:0 "ไม้กางเขน"
+ divinerealm_heaven:0 "สวรรค์"
+ religiousheadname_pope:0 "พระสันตะปาปา"
+ religiousheadnamelowercase_pope:0 "พระสันตะปาปา"
+ monkterm_monk:0 "นักบวชชาย" # Or พระสงฆ์ depending on context
+ monkterm_monk_multiple:0 "เหล่านักบวชชาย" # Or คณะสงฆ์
+ nunterm_nun:0 "นักบวชหญิง" # Or แม่ชี
+ nunterm_nun_multiple:0 "เหล่านักบวชหญิง"
+ priestterm_priest:0 "นักบวช" # Or บาทหลวง for Catholic context
+ priesttermplural_priests:0 "เหล่านักบวช" # Or เหล่าบาทหลวง
+ altpriesttermplural_clergy:0 "คณะสงฆ์" # Or กลุ่มนักบวช
+ bishopterm_bishop:0 "สังฆราช" # Or บิชอป
+ devoteeterm_christian:0 "ชาวคริสต์"
+ devoteeterm_muslim:0 "ชาวมุสลิม"
+ devoteetermplural_christians:0 "ชาวคริสต์"
+ devoteetermplural_muslims:0 "ชาวมุสลิม"
+ negativeafterlife_hell:0 "นรก"
+ positiveafterlife_heaven:0 "สวรรค์"
+ deity_death:0 "มัจจุราช"
+ deity_he:0 "เขา" # Or พระองค์ depending on context
+ deity_his:0 "ของเขา" # Or ของพระองค์
+ religioustext_Bible:0 "คัมภีร์ไบเบิล"
+ tolerance_righteous:0 "ชอบธรรม"
+ tolerance_astray:0 "หลงผิด"
+ tolerance_sinister:1 "เป็นปฏิปักษ์" # Hostile fits better than sinister in this context
+ tolerance_evil:0 "ชั่วร้าย"
+ ghw_crusade:0 "สงครามครูเสด"
+ ghw_crusades:0 "สงครามครูเสด"
+ ghw_jihad:0 "ญิฮาด"
+ ghw_jihads:0 "ญิฮาด"
+ ghw_great_holy_war:0 "มหาสงครามศักดิ์สิทธิ์"
+ ghw_great_holy_wars:0 "มหาสงครามศักดิ์สิทธิ์"
+ ghw_purification:0 "การชำระล้างอันยิ่งใหญ่"
+ ghw_purifications:0 "การชำระล้างอันยิ่งใหญ่"
+ ghw_migration:0 "การอพยพอันศักดิ์สิทธิ์"
+ ghw_migrations:0 "การอพยพอันศักดิ์สิทธิ์"
+ male_priest_title:0 "[ROOT.Char.GetFaith.PriestMale]"
+ male_priest_title_plural:0 "[ROOT.Char.GetFaith.PriestMalePlural]"
+ female_priest_title:0 "[ROOT.Char.GetFaith.PriestFemale]"
+ female_priest_title_plural:0 "[ROOT.Char.GetFaith.PriestFemalePlural]"
+ neuter_priest_title:0 "[ROOT.Char.GetFaith.PriestNeuter]"
+ neuter_priest_title_plural:0 "[ROOT.Char.GetFaith.PriestNeuterPlural]"
+ male_bishop_title:0 "[ROOT.Char.GetFaith.BishopMale]"
+ male_bishop_title_plural:0 "[ROOT.Char.GetFaith.BishopMalePlural]"
+ female_bishop_title:0 "[ROOT.Char.GetFaith.BishopFemale]"
+ female_bishop_title_plural:0 "[ROOT.Char.GetFaith.BishopFemalePlural]"
+ neuter_bishop_title:0 "[ROOT.Char.GetFaith.BishopNeuter]"
+ neuter_bishop_title_plural:0 "[ROOT.Char.GetFaith.BishopNeuterPlural]"
+ unbeliever_heathen:0 "คนนอกศาสนา"
+ unbeliever_infidel:0 "ผู้ไร้ศรัทธา"
+ unbeliever_heretic:0 "พวกนอกรีต"
+ unbeliever_unbeliever:0 "ผู้ไม่เชื่อ"
+ unbeliever_heathen_adj:0 "นอกศาสนา"
+ unbeliever_infidel_adj:0 "ไร้ศรัทธา"
+ unbeliever_heretic_adj:0 "นอกรีต"
+ unbeliever_unbeliever_adj:0 "ไม่เชื่อ"
+ unbeliever_believer:0 "ผู้ศรัทธาที่แท้จริง"
+ unbeliever_foreign_infidel:0 "ผู้ไร้ศรัทธาต่างแดน"
+ unbeliever_foreign_heathen:0 "คนนอกศาสนาต่างแดน"
+ unbeliever_foreign_heretic:0 "พวกนอกรีตต่างแดน"
+ unbeliever_foreign_believer:0 "ชาวต่างชาติ"
+ unbeliever_heathen_plural:0 "คนนอกศาสนา"
+ unbeliever_infidel_plural:0 "ผู้ไร้ศรัทธา"
+ unbeliever_heretic_plural:0 "พวกนอกรีต"
+ unbeliever_unbeliever_plural:0 "ผู้ไม่เชื่อ"
+ character_afterlife_positive:0 "จะได้พักผ่อนอย่างสงบใน [ROOT.Char.GetFaith.PositiveAfterLife]"
+ character_afterlife_negative:0 "จะต้องทนทุกข์ทรมานใน [ROOT.Char.GetFaith.NegativeAfterLife] เพราะบาปของ[ROOT.Char.GetHerHis]อย่างแน่นอน"
+ character_afterlife_reincarnation:0 "จะได้กลับชาติมาเกิดในรูปใหม่ในไม่ช้า"
+ actual_bishop_title:0 "[ROOT.Char.Custom('GetActualBishopTitle')]"
+ actual_bishop_title_possessive:0 "[ROOT.Char.Custom('GetActualBishopTitlePossessive')]"
+ religious_head_name:0 "[ROOT.Char.GetFaith.ReligiousHeadName]"
+ ruler_title_name:0 "[ROOT.Char.GetTitleAsName]"
+ birth_omen_caul:0 "ถุงน้ำคร่ำ"
+ birth_omen_finger:0 "นิ้วเกิน"
+ birth_omen_birthmark:0 "ปานประหลาด"
+ chosen_one_taltos:0 "ทาลทอส" # Loanword
+ chosen_one_fallback:0 "ผู้หยั่งรู้"
+
+ rite_mass:0 "พิธีมิสซา"
+ rite_prayer:0 "การสวดภาวนา"
+ rite_worship:0 "การสักการะ"
+
+ #Pilgrimage name
+ pilgrimage_default:0 "การจาริกแสวงบุญ"
+ pilgrimage_hajj:1 "ฮัจญ์"
+ 
+ #PilgrimageHeader
+ pilgrimage_default_header:1 "การจาริกแสวงบุญ:"
+ pilgrimage_hajj_header:1 "ฮัจญ์:"
+
+ #PilgrimageLength
+ pilgrimage_short_distance:0 "สั้น แต่เข้มข้น"
+ pilgrimage_medium_distance:0 "พอเหมาะและดำเนินไปอย่างดี"
+ pilgrimage_long_distance:0 "ยาวนานและโดดเด่น"
+ pilgrimage_very_long_distance:0 "ยาวนานและเต็มไปด้วยภยันตรายอย่างยิ่ง"
+
+ #GetPilgrimSingularPlural
+ pilgrim_singular:0 "ผู้แสวงบุญ"
+ pilgrim_plural:0 "ผู้แสวงบุญ"
+
+ # GHWs given by which tenet?
+ ghw_from_which_tenet_armed_pilgrimages:0 "$tenet_armed_pilgrimages_name$"
+ ghw_from_which_tenet_struggle_submission:0 "$tenet_struggle_submission_name$"
+ ghw_from_which_tenet_warmonger:0 "$tenet_warmonger_name$"
+
+ faithtaxexemption_the_church:0 "ศาสนจักร"
+ faithtaxexemption_charities:0 "องค์กรการกุศล"

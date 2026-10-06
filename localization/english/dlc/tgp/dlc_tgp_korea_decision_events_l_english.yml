@@ -1,0 +1,30 @@
+﻿l_english: 
+ ##################################################
+ # KOREA DECISION EVENTS 
+ ##################################################
+ # unify_goryeo_decision
+ tgp_korea_decision.9101.t: "เอกภาพแห่งอาณาจักร"
+ tgp_korea_decision.9101.intro: "หลากหลายอาณาจักรและผู้คนแห่งคาบสมุทรนี้ได้ดิ้นรนต่อสู้โดยไม่จำเป็นมานานหลายศตวรรษ ถูกผู้รุกรานข่มเหง และมืดบอดต่อความยิ่งใหญ่แลความแข็งแกร่งที่เราพึงมี หากเพียงเรารวมเป็นหนึ่งเดียว"
+ tgp_korea_decision.9101.desc: "\n\nในวันนี้ ความฝันนั้นได้กลายเป็นจริงแล้ว และมรดกของข้าก็เป็นที่ประจักษ์ในฐานะ [ROOT.Char.GetMotherFather] แห่ง [GetTitleByKey('e_goryeo').GetDefinitiveName] และแห่งราชวงศ์ [ROOT.Char.GetHouse.GetBaseName]!"
+ tgp_korea_decision.9101.a: "ขอ [GetTitleByKey('e_goryeo').GetTierAsNameNoTooltip] จงสถิตสถาพรนับพันปี"
+ tgp_korea_decision.9101.b: "และจักขนานนามว่า "โครยอ" เพื่อเป็นการระลึกถึงมรดกอันน่าภาคภูมิของเรา"
+ tgp_korea_decision.9101.b.reason: "ตัวเลือกนี้มีให้เลือก เนื่องจากท่านมี [culture|E] [ROOT.Char.GetCulture.GetName]"
+ tgp_korea_decision.9101.b.tt: "[GetTitleByKey('e_goryeo').GetDefinitiveName] จะถูกเปลี่ยนชื่อเป็น #V โครยอ#!"
+ tgp_korea_decision.9102.t: "$tgp_korea_decision.9101.t$"
+ tgp_korea_decision.9102.desc: "\n\nในวันนี้ ความฝันนั้นได้กลายเป็นจริงแล้ว และมรดกของ [king_of_goryeo.GetTitledFirstNamePossessive] ก็เป็นที่ประจักษ์ในฐานะ [ROOT.Char.GetMotherFather] แห่ง [GetTitleByKey('e_goryeo').GetDefinitiveName] และแห่งราชวงศ์ [ROOT.Char.GetHouse.GetBaseName]!"
+ cultural_acceptance_gain_unify_goryeo: "การรวมฮูซัมกุก"
+ unify_goryeo_decision_requirement_tt: "[realms|E] [heritage|E] $heritage_korean_name$ [administrative|E] จะต้องก่อตั้ง [GetTitleByKey('e_goryeo').GetNameNoTier|V] ผ่าน [decision|E] [GetDecision('tgp_korea_unify_goryeo_decision').GetName]"
+ unify_goryeo_decision_blocker_tt: "[realms|E] [heritage|E] $heritage_korean_name$ [administrative|E] จะไม่สามารถสร้าง [GetTitleByKey('k_goguryeo').GetNameNoTier|V], [GetTitleByKey('k_silla').GetNameNoTier|V], หรือ [GetTitleByKey('k_baekje').GetNameNoTier|V] ได้ เมื่อได้ทำการ [decision|E] [GetDecision('tgp_korea_unify_goryeo_decision').GetName] ไปแล้ว"
+
+ tgp_korea_decision.9201.t: "หางเสือหลายมือ"
+ tgp_korea_decision.9201.desc: "เมื่อบารมีแห่งการปกครองของข้าส่องสว่างยิ่งขึ้น ผู้คนมากมายต่างแสวงหาที่พึ่งในร่มเงาของข้า ไม่มี [ROOT.Char.GetTitleAsNameNoTooltip] ใดที่สามารถปกครองเพียงลำพังได้ และเส้นแบ่งแห่งอำนาจที่แท้จริงนั้นแปรเปลี่ยนอยู่เสมอ\n\nข้าจำต้องระวัง หากปรารถนาให้ทายาทของข้าได้ปกครอง [ROOT.Char.GetPrimaryTitle.GetDefinitiveNameNoTooltip] ต่อไป โดยมีอำนาจมากกว่าที่เป็นเพียงในนาม..."
+ tgp_korea_decision.9201.a: "ข้าต้องก้าวนำหนึ่งก้าว"
+ MERITOCRATIC_CEREMONIAL_LIEGE_TITLE: "บัลลังก์ [founder.GetPrimaryTitle.GetAdjectiveNoTooltip]"
+
+ tgp_korea_decision.9202.desc: "เมื่อบารมีแห่งการปกครองของ [founder.GetTitledFirstNamePossessive] ส่องสว่างยิ่งขึ้น ผู้คนมากมายต่างแสวงหาที่พึ่งในร่มเงาของ [founder.GetHerHis] ไม่มี [founder.GetTitleAsNameNoTooltip] ใดที่สามารถปกครองเพียงลำพังได้ และเส้นแบ่งแห่งอำนาจที่แท้จริงนั้นแปรเปลี่ยนอยู่เสมอ\n\n[founder.GetSheHe|U] จำต้องระวัง หากปรารถนาให้ทายาทของ [founder.GetHerHis] ได้ปกครอง [founder.GetPrimaryTitle.GetDefinitiveNameNoTooltip] ต่อไป โดยมีอำนาจมากกว่าที่เป็นเพียงในนาม..."
+ tgp_korea_decision.9202.a: "อำนาจนั้นมีหลายรูปแบบ"
+ 
+ tgp_create_meritocratic_ruling_regent_title_effect: "เนื่องจากเป็น [ruler|E] ของ [empire|E] ที่มี [GetGovernment('meritocratic_government').GetName]:"
+ tgp_create_meritocratic_ruling_regent_title_effect_title_tt: "ท่านได้รับ [title|E] [kingdom|E] กิตติมศักดิ์ที่มี [law|E] [GetLaw('single_heir_succession_law').GetName]"
+ tgp_create_meritocratic_ruling_regent_title_effect_faction_tt: "[vassals|E] สามารถสร้าง [factions|E] #V $replace_ceremonial_regent_faction$#! ได้"
+ tgp_create_meritocratic_ruling_regent_title_message_title: "ราชวงศ์ [founder.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] ถูกท้าทาย"

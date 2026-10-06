@@ -1,0 +1,5 @@
+﻿l_english: 
+ SETTING_VALUE_WARNING: "$VALUE|0X$"
+ SETTING_VALUE_PERCENTAGE_WARNING: "$VALUE|%0X$"
+ RECOMMENDED_GUI_SCALE_TOO_HIGH: "#X การปรับสเกลเกิน $VALUE|%0$ จะทำให้อินเทอร์เฟซปรากฏนอกจอ#!"
+ RECOMMENDED_GUI_SCALE: "การปรับสเกลเกิน $VALUE|%0$ จะทำให้อินเทอร์เฟซปรากฏนอกจอ"

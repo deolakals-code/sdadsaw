@@ -1,0 +1,22 @@
+﻿l_english: 
+ SUCCESSION_LAW_CHANGE_WINDOW_TITLE:1 "เปลี่ยน [SuccessionLawChangeWindow.AccessLawGroup.GetLawGroup.GetName]"
+ SUCCESSION_LAW_CHANGE_WINDOW_TITLES_INHERITANCE:0 "บรรดาศักดิ์ของข้า"
+ SUCCESSION_LAW_CHANGE_WINDOW_POWERFUL_VASSALS:0 "การอนุมัติของ[powerful_vassal|E]"
+ SUCCESSION_LAW_CHANGE_WINDOW_POWERFUL_VASSALS_DESC:0 "ข้าในบังคับผู้ทรงอำนาจทั้งหมดต้องอนุมัติเพื่อเปลี่ยนกฎหมายสืบทอดตำแหน่ง#bold ใดๆ#! ทั้งสิ้น"
+ SUCCESSION_LAW_CHANGE_WINDOW_CHANGE:0 "เปลี่ยนกฎหมาย"
+ SUCCESSION_LAW_CHANGE_WINDOW_CHOOSE_NEW:0 "[SuccessionLawChangeWindow.AccessLawGroup.GetLawGroup.GetName] ที่มีให้เลือก"
+ SUCCESSION_LAW_CHANGE_WINDOW_PARTITION_LAWS: "[realm_heirs|E] หลายคน"
+ SUCCESSION_LAW_CHANGE_WINDOW_APPOINTMENT_LAWS: "การสืบทอดโดยการ แต่งตั้ง"
+ SUCCESSION_LAW_CHANGE_WINDOW_SINGLE_HEIR_LAWS: "[realm_heir|E] คนเดียว"
+ SUCCESSION_LAW_CHANGE_WINDOW_ENACT_COST: "ค่าใช้จ่าย: [SuccessionLawChangeWindow.GetSelectedLaw.GetShortCostString]"
+ SUCCESSION_LAW_CHANGE_WINDOW_ENACT_COST_TOOLTIP:0 "#T ค่าใช้จ่าย#!\n [SuccessionLawChangeWindow.GetSelectedLaw.GetCostDescription]"
+ SUCCESSION_LAW_CHANGE_WINDOW_POWERFUL_APPROVE:0 "#weak อนุมัติ#!"
+ SUCCESSION_LAW_CHANGE_WINDOW_POWERFUL_OPPOSE:0 "#X คัดค้าน#!"
+ SUCCESSION_LAW_CHANGE_WINDOW_POWERFUL_APPROVE_TT:1 "#T อนุมัติการเปลี่ยนกฎหมายสืบทอดตำแหน่ง#!\n[Character.GetShortUIName] สนับสนุน หรืออย่างน้อยก็ไม่สามารถคัดค้าน การเปลี่ยนแปลง[succession_law|E]ใดๆ ได้\n\n[Character.GetSheHe|U] อนุมัติ เนื่องจาก:\n$BULLET_WITH_TAB$มี[opinion|E]เชิงบวกต่อท่าน\n$BULLET_WITH_TAB$ถูกท่าน[cowed|E]\n$BULLET_WITH_TAB$ถูก[imprisoned|E] (โดยผู้ใดก็ตาม)"
+ SUCCESSION_LAW_CHANGE_WINDOW_POWERFUL_OPPOSE_TT:2 "#T คัดค้านการเปลี่ยนกฎหมายสืบทอดตำแหน่ง#!\n[Character.GetShortUIName] จะขัดขวางการเปลี่ยนแปลง[succession_law|E]ใดๆ\n\nเพื่อให้การอนุมัติ [Character.GetShortUIName] ต้อง:\n$BULLET_WITH_TAB$มี[opinion|E]เชิงบวกต่อท่าน\n$BULLET_WITH_TAB$ถูกท่าน[cowed|E]\n$BULLET_WITH_TAB$ถูก[imprisoned|E] (โดยผู้ใดก็ตาม)"
+ 
+ SUCCESSION_LAW_CHANGE_WINDOW_CLAN_TITLE: "การเปลี่ยน[succession_laws|E]ของตระกูล"
+ SUCCESSION_LAW_CHANGE_WINDOW_CLAN_DESC: "ใน[government|E]แบบ[GetGovernment('clan_government').GetName] [succession_laws|E]จะถูกกำหนดโดยคะแนน[house_unity|E]ปัจจุบัน แต่ละ[house_unity_level|E]จะเปิดใช้งาน[succession_law|E]ที่สอดคล้องกัน เว้น แต่ผู้ปกครองจะใช้กฎหมายแบบ$SUCCESSION_LAW_CHANGE_WINDOW_SINGLE_HEIR_LAWS$ เช่น $single_heir_succession_law$"
+ SUCCESSION_LAW_CHANGE_WINDOW_CLAN_CHANGE_LAW_BUTTON_TOOLTIP: "ท่านเป็น[clan|E]และไม่สามารถเปลี่ยน[succession_laws|E]ด้วยวิธีนี้ได้ [succession_laws|E]ของ[clan|E]ถูกกำหนดโดย[house_unity_level|E]ของพวกเขา"
+
+ LAW_CHOICE_TOOLTIP: "#T [Law.GetNameNoTooltip]\n#![Law.GetEffectDescription]"

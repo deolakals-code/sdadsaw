@@ -1,0 +1,7 @@
+﻿l_english: 
+ charming_crush_on_me_opinion:0 "หลงใหลในตัวข้า"
+ bothersome_crush_on_me_opinion:0 "หลงใหลในตัวข้า"
+ guardian_of_heir_opinion:0 "ผู้พิทักษ์ทายาทของท่าน"
+ guardian_of_relative_opinion:0 "ผู้พิทักษ์เครือญาติของท่าน"
+ guardian_of_heir_parochial_opinion:0 "[GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName] ผู้พิทักษ์ทายาทของท่าน"
+ guardian_of_relative_parochial_opinion:0 "[GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName] ผู้พิทักษ์เครือญาติของท่าน"

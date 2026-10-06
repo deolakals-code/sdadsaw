@@ -1,0 +1,3 @@
+﻿l_english: 
+ tgp_admin_contract_success_tt_rewards: "ท่านสามารถเลือกท่ามกลางของรางวัลนานาชนิด อันได้แก่:#indent_newline:3 \n$EFFECT_LIST_BULLET$$admin_contract_success_tt_xp$\n$EFFECT_LIST_BULLET$[gold_i|E][gold|E]\n$EFFECT_LIST_BULLET$[influence_i|E][influence|E]\n$EFFECT_LIST_BULLET$[prestige_i|E][prestige|E]\n$EFFECT_LIST_BULLET$[piety_i|E][piety|E]\n$EFFECT_LIST_BULLET$[merit_i|E][merit|E]\n$EFFECT_LIST_BULLET$การปรับปรุง [counties|E] หรือ [holdings|E] ของท่าน#!"
+ tgp_admin_contract_failure_tt: "ท่านอาจได้รับบทลงโทษเล็กน้อย เช่น การสูญเสีย [prestige_i|E][prestige|E], [influence_i|E][influence|E], หรือ [merit_i|E][merit|E]"

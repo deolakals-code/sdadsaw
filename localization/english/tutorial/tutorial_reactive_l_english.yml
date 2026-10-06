@@ -1,0 +1,940 @@
+﻿l_english: 
+ open_tutorial_lesson:1 "คำแนะนำ: "
+ click_to_open_lesson:1 "#I คลิกเพื่อเรียนรู้เพิ่มเติม#!"
+ reactive_advice_mercenaries:0 "$reactive_advice_mercenaries_step_1$"
+ action_reactive_advice_mercenaries:0 "$open_tutorial_lesson$$reactive_advice_mercenaries_step_1$"
+ action_reactive_advice_mercenaries_desc:0 "ทหารรับจ้างคือทหารที่จ้างมาเพื่อพลิกสถานการณ์ในสงครามได้\nเปิดข้อความนี้เพื่อรับคำแนะนำและเคล็ดลับเกี่ยวกับวิธีใช้งานพวกเขาให้ดีที่สุด!"
+ action_reactive_advice_mercenaries_click:0 "$click_to_open_lesson$"
+ reactive_advice_mercenaries_step_1:0 "ทหารรับจ้าง"
+ reactive_advice_mercenaries_desc:0 "หากท่านกำลังพ่ายแพ้ในสงคราม ท่านอาจพลิกสถานการณ์ให้เป็นใจได้โดยการจ้าง [mercenaries|E]\n\nทหารรับจ้างต้องใช้ [gold|E] แต่จะมอบ [army|E] ที่สำคัญให้แก่ท่าน เมื่อจ้างแล้ว ท่านจะสามารถควบคุมพวกเขาได้เหมือนกองทัพอื่น ๆ\n\n#TUT ท่านอาจต้องการจ้างหน่วยทหารรับจ้างสำหรับสงครามปัจจุบันของท่าน แม้ว่าท่านอาจต้อง [debt|E] ในการจ้างพวกเขา เราขอแนะนำให้ท่านหาหน่วยที่ราคาไม่แพง เว้นแต่ท่านกำลังพ่ายแพ้อย่างหนัก#!"
+ reactive_advice_mercenaries_task:0 "ไปที่มุมมอง $HIRE_TROOPS$ และเลือกกองทหารรับจ้างใดก็ได้"
+ reactive_advice_succession:0 "$reactive_advice_succession_step_1$"
+ action_reactive_advice_succession:0 "$open_tutorial_lesson$$reactive_advice_succession_step_1$"
+ action_reactive_advice_succession_desc:0 "เกิดอะไรขึ้น? ท่านสิ้นชีพ และมีการสืบทอดเกิดขึ้น!\nเปิดข้อความนี้เพื่อสรุปสิ่งที่เกิดขึ้น รวมถึงคำแนะนำในการวางแผนครั้งต่อไป"
+ action_reactive_advice_succession_click:0 "$click_to_open_lesson$"
+ reactive_advice_succession_step_1:0 "การสืบทอด"
+ reactive_advice_succession_desc:3 "พระราชาสวรรคตแล้ว ขอพระราชาองค์ใหม่ทรงพระเจริญ!\n\nอย่ากังวลไป แม้ว่าตัวละครเก่าของท่านจะสิ้นชีพแล้ว Crusader Kings III เป็นเกมเกี่ยวกับราชวงศ์ เนื่องจาก [ruler|E] ของท่านมี [player_heir|E] ท่านจะได้ควบคุมพวกเขาแทน!\n\n#TUT ความตายเป็นส่วนหนึ่งตามธรรมชาติของเกม และท่านมักจะได้เล่นต่อในฐานะ [eligible_child|E] ที่อาวุโสที่สุด (ขึ้นอยู่กับ [succession_laws|E] ของอาณาจักรท่าน) เพื่อวางแผนการสืบทอดที่ปลอดภัย เราขอแนะนำให้ท่านมีบุตรอย่างน้อยสองคน คนที่สองทำหน้าที่เป็นตัวสำรองเผื่อคนแรกเสียชีวิต\n\nในการสืบทอด ท่านอาจสูญเสีย [titles|E] บางส่วนที่ตัวละครก่อนหน้าของท่านถือครองอยู่ อย่ากังวล ท่านยังคงมี [claims|E] เหนือบรรดาศักดิ์ทั้งหมดที่ท่านสูญเสียไป#!\n\n#weak เราขอแนะนำให้ท่านใช้เวลาทำความคุ้นเคยกับตัวละครใหม่ของท่านก่อนดำเนินการต่อ#!"
+ reactive_advice_domain_limit:0 "$reactive_advice_domain_limit_step_1$"
+ reactive_advice_domain_limit_step_1:0 "ขีดจำกัดโดเมน"
+ reactive_advice_domain_limit_desc:0 "ขณะนี้ท่านถือครองที่ดินใน [domain|E] ของท่านมากกว่าที่ตัวละครของท่านจะสามารถจัดการได้ด้วยตนเอง ถึงเวลาสร้าง [vassals|E] ใหม่แล้ว!\n\nเนื่องจากท่านต้องการเก็บรักษาบรรดาศักดิ์อันมีค่าไว้ในโดเมนของท่าน เราขอแนะนำให้ท่านไปที่แท็บโดเมนในมุมมองอาณาจักรของท่าน ซึ่งท่านสามารถดูได้ว่า แต่ละบรรดาศักดิ์มีค่าต่อท่านเท่าใด พิจารณาด้วยว่าบรรดาศักดิ์ใดอยู่ใน [de_jure|E] ของท่าน\n\n#TUT ควรหลีกเลี่ยงการอยู่เกิน [domain_limit|E] นานเกินไป เนื่องจากการทำเช่นนั้นจะส่งผลตามมา\n\nเพื่อให้อยู่ต่ำกว่าขีดจำกัด ท่านต้องมอบ [titles|E] ส่วนเกินให้กับข้าหลวงใหม่ แม้ว่าท่านจะสามารถมอบบรรดาศักดิ์ให้กับข้าหลวงที่มีอยู่แล้วได้ แต่บ่อยครั้งการหาคนไม่มีที่ดินมามอบให้เป็นความคิดที่ดีกว่า\n\nสมาชิก [dynasty|E] ที่ห่างไกล หรือ [courtiers|E] ที่มีลักษณะนิสัย [GetTrait('content').GetName( GetPlayer )] [trait|E] เป็นข้าหลวงที่ยอดเยี่ยม ส่วน [claimants|E] ต่อบรรดาศักดิ์ของท่าน หรือข้าราชสำนักที่มีลักษณะนิสัย [GetTrait('ambitious').GetName( GetPlayer )] นั้นไม่ค่อยดีนัก#!"
+ reactive_advice_vassal_limit:0 "$reactive_advice_vassal_limit_step_1$"
+ reactive_advice_vassal_limit_step_1:0 "ขีดจำกัดข้าหลวง"
+ reactive_advice_vassal_limit_desc:0 "ไม่มีใครสามารถจัดการเคานต์จำนวนมากได้ ผู้พิชิตที่มุ่งมั่นต้องพึ่งพา [vassals|E] ระดับสูง เช่น ดยุก เพื่อจัดการดินแดนแทนตน!\n\nท่านสามารถดูขีดจำกัดข้าหลวงปัจจุบันของท่านได้ในมุมมองโดเมน\n\n#TUT เช่นเดียวกับขีดจำกัดโดเมนของท่าน ท่านไม่ควรเกิน [vassal_limit|E] เพื่อหลีกเลี่ยงบทลงโทษนี้ ท่านควรควบรวมข้าหลวงของท่าน\n\nวิธีที่ดีที่สุดคือการมอบ [duchies|E] ให้กับข้าหลวงของท่าน ซึ่งจะทำให้พวกเขาปกครองพื้นที่ที่ใหญ่ขึ้น เพื่อที่ท่านจะได้ไม่ต้องทำเอง! แต่เพื่อให้ได้ผล ท่านต้องถือครอง [kingdom|E] หรือ [empire|E] ด้วยตนเอง อย่าทำผิดพลาดโดยการมอบ [primary_titles|E] ของท่านไป!\n\nหากท่านพบว่าตนเองเกินขีดจำกัดข้าหลวงในฐานะดยุก เราขอแนะนำให้ท่านก่อตั้งอาณาจักรโดยเร็วที่สุดเท่าที่จะทำได้#!"
+ reactive_advice_megaduke_penalty:0 "$reactive_advice_megaduke_penalty_step_1$"
+ reactive_advice_megaduke_penalty_step_1:0 "ดัชชีใหญ่เกินไป!"
+ reactive_advice_megaduke_penalty_desc:2 "[duchy|E] ของท่านกำลังพังทลายลงภายใต้แรงกดดันจากการมีที่ดินมากเกินไป ท่านควร [create|E] หรือ [usurp|E] [kingdom|E]!\n\n#TUT บางทีท่านอาจสามารถก่อตั้งอาณาจักรได้แล้ว? หากเป็นเช่นนั้น ให้เปิดมุมมองเคล็ดลับ และดูว่ามีอาณาจักรใดที่ท่านสามารถก่อตั้งได้หรือไม่ หากไม่มี ท่านมี [decision|E] ให้ก่อตั้งอาณาจักรของท่านเอง — แม้ว่าพึงระวังว่าตำแหน่งที่ท่านก่อตั้งขึ้นเองนั้นมักจะอ่อนแอกว่าตำแหน่งที่สืบสิทธิ์ตาม [de_jure|E] ที่มีอยู่เดิม\n\nหากท่านเป็น [vassal|E] และ [liege|E] ของท่านเป็นกษัตริย์ ท่านต้องเรียกร้องเอกราชก่อนที่ท่านจะก้าวขึ้นเป็นกษัตริย์เสียเอง ขั้นตอนแรกคือการเข้าร่วมหรือเริ่มก่อตั้ง [independence_faction|E]#!"
+ reactive_advice_bastards:0 "$reactive_advice_bastards_step_1$"
+ action_reactive_advice_bastards:0 "$open_tutorial_lesson$$reactive_advice_bastards_step_1$"
+ action_reactive_advice_bastards_desc:0 "บุตรนอกสมรสอาจเป็นพรหรือคำสาปก็ได้ แต่มันหมายความว่าอย่างไรกันแน่?\nเปิดข้อความนี้เพื่อสรุปเรื่องบุตรนอกสมรส และวิธีที่มันจะเป็นประโยชน์ต่อท่าน!"
+ action_reactive_advice_bastards_click:0 "$click_to_open_lesson$"
+ reactive_advice_bastards_step_1:0 "บุตรนอกสมรส"
+ reactive_advice_bastards_desc:1 "อุ๊ย! ดูเหมือนว่าท่านจะมีบุตร [bastard|E]! นี่อาจเป็นภัยคุกคาม หรือโอกาสก็ได้...\n\n#TUT การมีบุตรนอกสมรสไม่ใช่เรื่องเลวร้ายไปเสียทั้งหมด พวกเขาสามารถแต่งงานเพื่อสร้าง [alliances|E] ได้โดยไม่เป็นภัยคุกคามโดยตรงต่อ [succession|E] ของท่าน เนื่องจากพวกเขาไม่ถือว่าเป็น [legitimate|E]\n\nอาจเป็นความคิดที่ดีที่จะมีบุตรนอกสมรสไว้บ้าง เพื่อให้สามารถ [legitimized|E] ได้หากท่านขาดบุตรในสมรส อย่างไรก็ตาม อย่าลืมจับตาดู [opinion|E] ที่ [spouse|E] ของท่านมีต่อท่าน...\n\nหากท่านต้องการมีบุตรนอกสมรส เราขอแนะนำให้ท่านใช้ [GetScheme('seduce').GetTypeName] [scheme|E] กับตัวละครที่ยังไม่ได้แต่งงาน หากท่านยั่วยวนหญิงที่แต่งงานแล้ว สามีของเธออาจคิดว่าเด็กเป็นลูกของเขา หากเกิดเหตุการณ์นี้ขึ้น ท่านจะไม่สามารถรับรองบุตรได้#!"
+ reactive_advice_protecting_against_hostile_schemes:0 "$reactive_advice_protecting_against_hostile_schemes_step_1$"
+ action_reactive_advice_protecting_against_hostile_schemes:0 "$open_tutorial_lesson$$reactive_advice_protecting_against_hostile_schemes_step_1$"
+ action_reactive_advice_protecting_against_hostile_schemes_desc:0 "อันตรายมากมายซุ่มซ่อนอยู่ในเงามืด และภัยคุกคามจากแผนการก็อยู่ไม่ไกล\nเปิดข้อความนี้เพื่อสรุปเรื่องแผนการ และวิธีป้องกันตนเอง!"
+ action_reactive_advice_protecting_against_hostile_schemes_click:0 "$click_to_open_lesson$"
+ reactive_advice_protecting_against_hostile_schemes_step_1:0 "การป้องกันแผนการร้าย"
+ reactive_advice_protecting_against_hostile_schemes_step_2:0 "$reactive_advice_protecting_against_hostile_schemes_step_1$"
+ reactive_advice_protecting_against_hostile_schemes_desc:0 "ระวังตัวด้วย! ในฐานะผู้ปกครอง มีหลายคนที่อาจวาง [scheme|E] เพื่อให้ท่านตาย...\n\nพยายาม ทำให้แน่ใจว่าข้าราชบริพารของท่านมี [opinion|E] ที่ดีต่อท่าน แต่ที่สำคัญที่สุด #emphasis จง#! รักษาความภักดีของ [spymaster|E] ของท่านเสมอ\n\n#TUT ท่านอาจไม่รู้ว่ามีอยู่ แต่ [hostile_schemes|E] อาจมุ่งเป้ามาที่ท่านได้ตลอดเวลา เพื่อป้องกันแผนการ เราขอแนะนำให้ท่านทำให้ [vassals|E] และ [courtiers|E] ของท่านมีความสุข#!"
+ reactive_advice_protecting_against_hostile_schemes_2_desc:0 "การมีหัวหน้าสายลับที่มีความเห็นต่อท่านต่ำมากอาจเป็นเหมือนโทษประหาร เนื่องจากจะไม่มีทางให้ท่านค้นพบ [secret_schemes|E] ได้เลย!\n\n#TUT พิจารณาทั้งหมดนี้หากท่านวางแผนที่จะเล่นเป็น [tyrant|E] เพราะแม้ว่าท่านอาจปราบปรามข้าราชบริพารของท่านผ่าน [dread|E] พวกเขาก็ยังสามารถวางแผนต่อต้านท่านได้\n\nสุดท้าย ระวัง [claimants|E] ที่มีลักษณะนิสัย [GetTrait('sadistic').GetName( GetPlayer )] หรือ [GetTrait('ambitious').GetName( GetPlayer )] ต่อบัลลังก์ของท่าน...#!"
+ reactive_advice_protect_against_factions:0 "$reactive_advice_protect_against_factions_step_1$"
+ action_reactive_advice_protect_against_factions:0 "$open_tutorial_lesson$$reactive_advice_protect_against_factions_step_1$"
+ action_reactive_advice_protect_against_factions_desc:0 "กลุ่มอิทธิพลเป็นสิ่งที่อันตรายหากปล่อยไว้โดยไม่ตรวจสอบ\nเปิดข้อความนี้เพื่อสรุปเรื่องกลุ่มอิทธิพล และวิธีจัดการที่ดีที่สุด!"
+ action_reactive_advice_protect_against_factions_click:0 "$click_to_open_lesson$"
+ reactive_advice_protect_against_factions_step_1:0 "การป้องกันกลุ่มอิทธิพล"
+ reactive_advice_protect_against_factions_desc:1 "มี [faction|E] ก่อตัวขึ้นต่อต้านท่าน แต่อย่าตื่นตระหนก ท่านยังมีเวลาแก้ไขสถานการณ์!\n\n[vassals|E] และ [counties|E] เข้าร่วมกลุ่มอิทธิพลเมื่อพวกเขาไม่พอใจการปกครองของท่าน เพื่อต่อต้านสิ่งนี้ ท่านสามารถเพิ่ม [opinion|E] ของพวกเขาที่มีต่อท่าน หรือพยายาม ทำให้เป็นที่ [dreaded|E]\n\n#TUT เพื่อหลีกเลี่ยงกลุ่มอิทธิพล เราขอแนะนำให้ท่านเพิ่ม [opinion|E] ของข้าหลวงที่มีต่อท่าน ควบคุมจังหวะการพิชิตของท่าน และพยายาม [GetScheme('murder').GetTypeName] [claimants|E] ใด ๆ ที่ได้รับความนิยมมากกว่าท่าน\n\nท่านมักจะมีเวลาเอาใจข้าหลวงของท่านก่อนที่กลุ่มอิทธิพลจะยื่นข้อเรียกร้อง ใช้เวลานี้อย่างชาญฉลาด#!"
+ reactive_advice_protect_against_factions_2_desc:0 "เคาน์ตีที่มี [county_opinion|E] ต่ำมักจะเข้าร่วม [peasant_faction|E] ซึ่งแตกต่างจากกลุ่มอิทธิพลอื่น ๆ กลุ่มอิทธิพลนี้จะลุกฮือขึ้นไม่ว่าพวกเขาจะมีโอกาสชนะหรือไม่ก็ตาม!\n\nบางครั้ง ท่านก็แค่ต้องสั่งสอนชาวนาให้อยู่ในที่ในทาง...\n\n#TUT ท่านควรจับตาดู Peasant Factions อยู่เสมอ หากพวกเขาโจมตีในขณะที่ท่านกำลังทำสงคราม พวกเขาสามารถสร้างความเสียหายอย่างมีนัยสำคัญต่อ [control|E] ของท่านได้#!"
+ reactive_advice_protect_against_factions_step_2:0 "$reactive_advice_protect_against_factions_step_1$"
+ reactive_advice_imprisoned:0 "$reactive_advice_imprisoned_step_1$"
+ action_reactive_advice_imprisoned:0 "$open_tutorial_lesson$$reactive_advice_imprisoned_step_1$"
+ action_reactive_advice_imprisoned_desc:0 "มีคนจองจำท่าน! นี่ไม่ใช่เรื่องดี...\nเปิดข้อความนี้เพื่อรับคำแนะนำเกี่ยวกับสิ่งที่จะเกิดขึ้น และสิ่งที่ท่านสามารถทำได้ หากถูกจองจำ"
+ action_reactive_advice_imprisoned_click:0 "$click_to_open_lesson$"
+ reactive_advice_imprisoned_step_1:0 "ท่านถูกจองจำ!"
+ reactive_advice_imprisoned_desc:2 "ตัวละครของท่านถูกจับกุม และตอนนี้อยู่ในความเมตตาของผู้อื่น ท่านทำอะไรกับเรื่องนี้ได้ไม่มากนัก\n\nไปที่ตัวละครที่จับท่านเป็น [prisoner|E] และใช้ #TUT_KW 'Ransom Yourself'#! [interaction|E] หากท่านโชคดี ท่านจะสามารถจ่ายเงินเพื่ออิสรภาพได้! หากท่านโชคร้าย พวกเขาอาจเลือกที่จะ [execute|E] ท่าน\n\n#TUT หากท่านกำลังทำ [war|E] กับผู้ที่จองจำท่าน พวกเขาสามารถบังคับให้เกิด [victory|E] ได้ ไม่มีอะไรที่ท่านสามารถทำได้เกี่ยวกับเรื่องนี้ ยกเว้นแต่ต้องระมัดระวังมากขึ้นในอนาคต!\n\nหากท่านถูกจับขณะ [commanding|E] [army|E] อาจเป็นเพราะท่านมี [prowess_i][prowess|E] ต่ำ บางครั้งการลดความเสี่ยงนี้โดยไม่นำทัพด้วยตนเองก็เป็นความคิดที่ดี\n\nหากท่านถูกจับในการ [siege|E] นั่นเป็นเพราะศัตรู [occupied|E] [realm_capital|E] ของท่าน ท่านควรพยายามทำให้ศัตรูอยู่ห่างจากเมืองหลวงของท่านเสมอ!#!"
+ reactive_advice_county_control:0 "$reactive_advice_county_control_step_1$"
+ action_reactive_advice_county_control:0 "$open_tutorial_lesson$$reactive_advice_county_control_step_1$"
+ action_reactive_advice_county_control_desc:1 "หาก [control|E] ต่ำใน [county|E] ท่านจะได้รับประโยชน์จากมันน้อยลง\nเปิดข้อความนี้เพื่อสรุปวิธีจัดการการควบคุมเคาน์ตีของท่าน!"
+ action_reactive_advice_county_control_click:0 "$click_to_open_lesson$"
+ reactive_advice_county_control_step_1:0 "การควบคุมเคาน์ตี"
+ reactive_advice_county_control_desc:2 "หนึ่งใน [counties|E] ของท่านมี [control|E] ต่ำ ซึ่งหมายความว่าท่านจะได้รับ [taxes|E] และ [levies|E] จากดินแดนนั้นลดลง อย่างไรก็ตาม มีวิธีที่จะเพิ่มการควบคุมอีกครั้ง!\n\n#TUT มีหลายแห่งที่ท่านสามารถดูการควบคุมได้: ในแท็บดินแดนในมุมมองอาณาจักร ในมุมมองเคล็ดลับ และในมุมมองเคาน์ตี\n\nในการเพิ่มการควบคุม ท่านต้องไปที่มุมมองสภาของท่านและมอบหมายให้ [marshal|E] ของท่านทำภารกิจ [increase_control|E] การควบคุมยังเพิ่มขึ้นตามกาลเวลา แต่กระบวนการนี้เชื่องช้ามาก — เราขอแนะนำให้ท่านใช้จอมพลที่มีทักษะสูงแทน\n\nหากท่านปล่อยเคาน์ตีที่มีการควบคุมต่ำทิ้งไว้เป็นเวลานาน มันอาจเกิด [county_corruption|E] ได้ เพื่อหลีกเลี่ยงปัญหานี้ เราขอแนะนำไม่ให้ท่านพิชิตดินแดนมากเกินไปในคราวเดียว#!"
+ reactive_advice_looming_game_over:0 "$reactive_advice_looming_game_over_step_1$"
+ reactive_advice_looming_game_over_step_1:0 "การหลีกเลี่ยงเกมโอเวอร์"
+ reactive_advice_looming_game_over_desc:5 "แย่แล้ว! ดูเหมือนว่าท่านจะไม่มี [player_heir|E] หากท่านสิ้นชีพตอนนี้ มันจะเป็น [game_over|E] มาพยายามหลีกเลี่ยงสิ่งนั้นกันเถอะ!\n\n#TUT หากท่านอยู่ในสถานการณ์นี้ น่าจะหมายความว่าท่านเป็นคนสุดท้ายของราชวงศ์ จากตรงนี้มีเพียงแนวทางเดียวที่ถูกต้อง คือการมีทายาทที่ [legitimate|E]!\n\nหากท่านอยู่ในสังคมที่อนุญาตให้เพียงเพศเดียวสืบทอดได้ ท่านสามารถลองเปลี่ยน [gender_law|E] ของท่านให้มีความเข้มงวดน้อยลง หากท่านมี [bastards|E] ใด ๆ ตอนนี้เป็นเวลาที่จะรับรองพวกเขา!\n\nนอกเหนือจากนั้น ตรวจสอบให้แน่ใจว่าท่าน [married|E] กับตัวละครที่มี [fertility|E] สูง (ตามกฎทั่วไป ผู้หญิงอายุเกิน 45 ปีมักไม่ค่อยมีบุตร) หากยังไม่ได้ผล ให้ [divorce|E] หรือพยายาม [GetScheme('murder').GetTypeName] [spouse|E] ของท่านและแต่งงานใหม่กับคนอื่น หรือลองใช้ [GetScheme('seduce').GetTypeName] [scheme|E] เพื่อให้มีบุตรนอกสมรส\n\nเวลาเป็นสิ่งสำคัญ อย่าเสี่ยงโดยไม่จำเป็น!#!"
+ reactive_advice_bankruptcy:0 "$reactive_advice_bankruptcy_step_1$"
+ action_reactive_advice_bankruptcy:0 "$open_tutorial_lesson$$reactive_advice_bankruptcy_step_1$"
+ action_reactive_advice_bankruptcy_desc:0 "ท่านไม่มี [gold_i]ทองคำ ท่านเป็นหนี้!\nเปิดข้อความนี้เพื่อสรุปเรื่องหนี้สิน และวิธีหลุดพ้นจากมัน"
+ action_reactive_advice_bankruptcy_click:0 "$click_to_open_lesson$"
+ reactive_advice_bankruptcy_step_1:0 "หนี้สิน"
+ reactive_advice_bankruptcy_desc:2 "ท่านหมด [gold_i][gold|E] แล้ว นี่เป็นเรื่องเลวร้ายมาก ท่านต้องลดค่าใช้จ่ายและพยายามเติมคลังสมบัติของท่านให้เร็วที่สุดเท่าที่จะทำได้!\n\n#TUT การเป็น [debt|E] ขัดขวางท่านจากการทำหลายสิ่งหลายอย่าง เช่น การประกาศ [wars|E] หรือการเสริมกำลัง [men_at_arms|E] และจะทำให้ท่านเกิด [county_corruption|E] อย่าปล่อยให้หนี้สินของท่านพอกพูนจนควบคุมไม่ได้!\n\nสิ่งที่ชัดเจนที่สุดที่ต้องทำคือยุติ [wars|E] ใด ๆ ที่ท่านอาจกำลังต่อสู้อยู่ เนื่องจากเมื่อท่านอยู่ในยามสงบ ท่านไม่ต้องจ่ายค่าบำรุงรักษา [armies|E] ของท่าน หากท่านกำลังสูญเสียทองคำจำนวนมาก ท่านอาจต้องการพิจารณายุบหน่วยทหารประจำการบางส่วน\n\nหาก [faith|E] ของท่านอนุญาต ท่านสามารถใช้ #TUT_KW $hof_ask_for_gold_interaction$#! [interaction|E] กับ [head_of_faith|E] ของท่าน หรือ #TUT_KW $borrow_from_holy_order_decision$#! Decision\n\nอาจเป็นความคิดที่ดีที่จะเปลี่ยนไปใช้ $stewardship_wealth_focus_short$ [focus|E] หากท่านยังไม่ได้ใช้#!"
+ reactive_advice_rightful_liege:0 "$reactive_advice_rightful_liege_step_1$"
+ action_reactive_advice_rightful_liege:0 "$open_tutorial_lesson$$reactive_advice_rightful_liege_step_1$"
+ action_reactive_advice_rightful_liege_desc:0 "โครงสร้าง De Jure มีความสำคัญอย่างยิ่งต่อข้าหลวงของท่าน การไม่ได้เป็นเจ้านาย #emphasis โดยชอบธรรม#! ของพวกเขาสามารถส่งผลเสียต่อความสัมพันธ์ของท่านได้\nเปิดข้อความนี้เพื่อสรุปความหมายของการเป็นเจ้านายโดยชอบธรรม!"
+ action_reactive_advice_rightful_liege_click:0 "$click_to_open_lesson$"
+ reactive_advice_rightful_liege_step_1:0 "เจ้านายโดยชอบธรรม"
+ reactive_advice_rightful_liege_step_2:0 "$reactive_advice_rightful_liege_step_1$"
+ reactive_advice_rightful_liege_desc:1 "ท่านไม่ใช่ [rightful_liege|E] ของ [vassal|E] สิ่งนี้จะลด [opinion|E] ของพวกเขาที่มีต่อท่าน และ ทำให้พวกเขามอบ [taxes|E] และ [levies|E] ให้ท่านน้อยลง\n\nท่านควรพยายามเป็นเจ้านายโดยชอบธรรมของข้าหลวงทั้งหมดของท่าน!\n\n#TUT ในการทำเช่นนี้ ท่านต้องถือ [title|E] ที่อยู่เหนือพวกเขาก้าวหนึ่งใน [de_jure|E] ข้าหลวงระดับ [county|E] ต้องการอยู่ภายใต้ [duchy|E] โดยชอบธรรมของตน ตัวอย่างเช่น เคานต์แห่ง $c_madrid$ ต้องการอยู่ภายใต้ดยุกแห่ง $d_toledo$\n\nเป็นเรื่องปกติมากที่จะมีข้าหลวงบางคนที่ท่าน #emphasis ไม่ใช่#! เจ้านายโดยชอบธรรมของพวกเขา ท่านทำอะไรกับเรื่องนี้ได้ไม่มากนัก และมันเป็นเรื่องปกติอย่างสมบูรณ์! อย่างไรก็ตาม อย่าลืมใช้ #TUT_KW $grant_vassal_interaction$#! [interaction|E] เพื่อจัดระเบียบข้าหลวงของท่าน ท่านไม่สามารถถือทุกบรรดาศักดิ์ได้ด้วยตนเอง#!"
+ reactive_advice_rightful_liege_2_desc:0 "เมื่อพิชิตดินแดนใหม่ ท่านมักจะได้รับข้าหลวงใหม่ ซึ่งท่านไม่ใช่เจ้านายโดยชอบธรรม การวางแผนการพิชิตของท่านอย่างเหมาะสมสามารถบรรเทาปัญหานี้ได้\n\n#TUT เพื่อหลีกเลี่ยงการมีข้าหลวงที่ไม่ชอบท่านมากเกินไป เราขอแนะนำให้ท่านพยายามมุ่งเน้นการพิชิตของท่านภายในพื้นที่ De Jure เดียวในแต่ละครั้ง ด้วยวิธีนี้ ท่านจะสามารถ #emphasis ในที่สุด#! กลายเป็นเจ้านายโดยชอบธรรมของพวกเขาได้ จดบันทึกเพื่อตรวจสอบว่าท่านสามารถ [create|E] บรรดาศักดิ์ใหม่ได้บ่อยครั้งหรือไม่!\n\nอย่าลืมใช้โหมดแผนที่ De Jure ทุกครั้งที่ท่านวางแผนการพิชิตของท่าน!#!"
+ 
+ reactive_advice_bishop_endorsement:0 "$reactive_advice_bishop_endorsement_step_1$"
+ action_reactive_advice_bishop_endorsement:0 "$open_tutorial_lesson$$reactive_advice_bishop_endorsement_step_1$"
+ action_reactive_advice_bishop_endorsement_desc:0 "บิชอปของท่านไม่ได้รับรองท่าน!\nเปิดข้อความนี้เพื่อสรุปความหมายสำหรับท่าน และวิธีแก้ไข"
+ action_reactive_advice_bishop_endorsement_click:0 "$click_to_open_lesson$"
+ reactive_advice_bishop_endorsement_step_1:0 "การรับรองจากบิชอป"
+ reactive_advice_bishop_endorsement_desc:3 "[faith|E] ของตัวละครของท่าน ทำให้ท่านมี [realm_priest|E] ใน [council|E] ของท่าน\n\nบิชอปเหล่านี้มีอำนาจมหาศาล และยินดีที่จะแบ่งปันอำนาจนั้นกับท่าน หากท่านยังคงเป็นที่โปรดปรานของพวกเขา...\n\n#TUT บิชอปของท่านมอบ [taxes|E] และ [levies|E] จาก [temple_holdings|E] ทั้งหมดใน [realm|E] ของท่าน และจำนวนที่พวกเขามอบให้ท่านขึ้นอยู่กับ [opinion|E] ของพวกเขาที่มีต่อท่าน\n\nการไม่เป็นที่ชื่นชอบหมายความว่าท่านจะไม่ได้รับอะไรเลย และบิชอปอาจทำให้ชีวิตท่านลำบากได้! ตัวอย่างเช่น พวกเขาสามารถบังคับให้ท่านหย่ากับ [spouse|E] ของท่าน...\n\nท่านควรพยายามอย่างเต็มที่เพื่อปรับปรุงความเห็นของพวกเขาที่มีต่อท่าน การใช้ #TUT_KW $gift_interaction$#! [interaction|E] หรือเริ่ม [GetScheme('sway').GetTypeName] [scheme|E] เป็นสองทางเลือกที่ดีที่ควรพิจารณา\n\nหากทุกอย่างล้มเหลว [GetScheme('murder').GetTypeName] ก็เป็นทางเลือกเสมอ... บางทีผู้สืบทอดตำแหน่งของพวกเขาอาจเป็นมิตรมากกว่า?#!"
+ 
+ reactive_advice_encyclopedia:0 "$reactive_advice_encyclopedia_step_1$"
+ action_reactive_advice_encyclopedia:0 "$open_tutorial_lesson$$reactive_advice_encyclopedia_step_1$"
+ action_reactive_advice_encyclopedia_desc:0 "ต้องการเรียนรู้เพิ่มเติมเกี่ยวกับคำศัพท์บางคำในเกมหรือไม่? เปิดข้อความนี้เพื่อแนะนำสารานุกรม"
+ action_reactive_advice_encyclopedia_click:0 "$click_to_open_lesson$"
+ reactive_advice_encyclopedia_step_1:0 "สารานุกรม"
+ reactive_advice_encyclopedia_desc:0 "Crusader Kings III มีแนวคิดและคำศัพท์มากมายที่ท่านสามารถเรียนรู้ได้ หากท่านสงสัยเกี่ยวกับแนวคิดในเกม ท่านสามารถเปิดสารานุกรมได้\n\nทำตาม UI ที่ไฮไลต์เพื่อดูวิธีการทำสิ่งนี้\n\n#TUT หมวดหมู่ 'บทเรียนสอนเล่น' ของสารานุกรมแสดงรายการส่วนต่าง ๆ ของบทช่วยสอน เผื่อท่านต้องการทบทวนความจำ #!"
+
+ reactive_advice_religion:0 "$lesson_basics_religion_1$"
+ action_reactive_advice_religion:0 "$open_tutorial_lesson$$lesson_basics_religion_1$"
+ action_reactive_advice_religion_desc:0 "ต้องการเรียนรู้เพิ่มเติมเกี่ยวกับศรัทธาและศาสนาหรือไม่? เปิดข้อความนี้เพื่อแนะนำศาสนาของท่าน"
+ action_reactive_advice_religion_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_dynamic_culture:0 "วัฒนธรรม"
+ action_reactive_advice_dynamic_culture:0 "$open_tutorial_lesson$$reactive_advice_dynamic_culture$"
+ action_reactive_advice_dynamic_culture_desc:0 "ต้องการเรียนรู้เพิ่มเติมเกี่ยวกับวัฒนธรรมหรือไม่? เปิดข้อความนี้เพื่อแนะนำวัฒนธรรม"
+ action_reactive_advice_dynamic_culture_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_fabricate_claim:0 "$reactive_advice_fabricate_claim_step_1$"
+ action_reactive_advice_fabricate_claim:0 "$open_tutorial_lesson$$reactive_advice_fabricate_claim_step_1$"
+ action_reactive_advice_fabricate_claim_desc:0 "ท่านพบว่าตนเองไม่สามารถประกาศสงครามได้หรือไม่? ท่านสามารถสร้างสิทธิ์เรียกร้องได้!\nเปิดข้อความนี้เพื่อสรุปวิธีใช้สภาของท่านในการสร้างสิทธิ์เรียกร้อง"
+ action_reactive_advice_fabricate_claim_click:0 "$click_to_open_lesson$"
+ reactive_advice_fabricate_claim_step_1:0 "การสร้างสิทธิ์เรียกร้อง"
+ reactive_advice_fabricate_claim_desc:1 "ท่านไม่สามารถประกาศสงครามได้หากไม่มี [casus_belli|E] แหล่งที่มาที่พบบ่อยที่สุดของ Casus Bellis คือ [claims|E] แต่บางครั้งก็ยากที่จะได้รับสิทธิ์เรียกร้องที่ท่านต้องการ\n\nนี่คือที่มาของ [fabricated_claims_short|E]!\n\n#TUT ท่านสามารถมอบหมายให้ [court_chaplain|E] ของท่านสร้างสิทธิ์เรียกร้องใน [county|E] ใด ๆ ที่อยู่ใกล้เคียง ซึ่งสามารถทำได้จากมุมมอง [council|E] ท่านสามารถสร้างสิทธิ์เรียกร้องได้ครั้งละหนึ่งสิทธิ์เท่านั้น และแต่ละสิทธิ์จะใช้เวลาในการดำเนินการ\n\nเครื่องมือนี้มีประโยชน์อย่างยิ่งเมื่อท่านเล่นเป็น [ruler|E] ขนาดเล็ก เนื่องจาก Casus Bellis จะหาได้ง่ายขึ้นเมื่อ [realm|E] ของท่านใหญ่ขึ้น\n\nเราขอแนะนำให้ท่านสร้างสิทธิ์เรียกร้องกับเพื่อนบ้านที่อยู่ติดกัน โดยเฉพาะอย่างยิ่งผู้ที่อ่อนแอกว่าท่าน! หากท่านเล่นเป็นเคานต์ ให้มุ่งเน้นไปที่การอ้างสิทธิ์ในบรรดาศักดิ์ภายใน [de_jure|E] [duchy|E] เดียวกันกับ [realm_capital|E] ของท่าน#!"
+ 
+ reactive_advice_education:0 "$reactive_advice_education_step_1$"
+ action_reactive_advice_education:0 "$open_tutorial_lesson$$reactive_advice_education_step_1$"
+ action_reactive_advice_education_desc:1 "ทายาทของท่านจะไม่กลายเป็นผู้ปกครองที่ยิ่งใหญ่หากไม่ได้รับการศึกษา!\nเปิดข้อความนี้เพื่อสรุปเรื่องการอุปถัมภ์ และวิธีเตรียมทายาทของท่านให้พร้อมสำหรับอำนาจอย่างเหมาะสม"
+ action_reactive_advice_education_click:0 "$click_to_open_lesson$"
+ reactive_advice_education_step_1:0 "การศึกษา"
+ reactive_advice_education_desc:4 "ดูเหมือนว่า [player_heir|E] ของท่านจะไม่มี [guardian|E]! หากไม่ได้รับการ [education|E] ที่เหมาะสม พวกเขาจะได้รับ [skills|E] ที่ไม่ดีและ [traits|E] แบบสุ่ม\n\n#TUT ใช้ #TUT_KW $educate_child_interaction$#! [interaction|E] กับทายาทของท่านและหาตัวละครที่เหมาะสมเพื่อเป็น [guardian|E] ของพวกเขา\n\nท่านต้องการหาตัวละครที่มีความรู้ในสาขาที่ท่านต้องการให้ [ward|E] ของพวกเขาเก่ง เราขอแนะนำให้ท่านมองหาผู้ปกครองที่มี [education_trait|E] ระดับสูง ( เช่น [GetTrait('education_martial_4').GetName( GetPlayer )]) หรือลักษณะนิสัย เช่น [GetTrait('intellect_good_1').GetName( GetPlayer )] หรือ [GetTrait('intellect_good_3').GetName( GetPlayer )] หากท่านไม่เต็มใจที่จะเสี่ยงให้คนอื่นหล่อหลอมบุคลิกภาพของบุตรหลาน ท่านสามารถให้การศึกษาแก่ทายาทของท่านด้วยตนเองได้!\n\nโดยทั่วไปแล้ว ท่านต้องการให้บุตรหลานทุกคนได้รับการศึกษาที่ดี แต่หากท่านมีบุตรหลานที่ไม่สนใจเป็นพิเศษ ( เช่น บุตรคนที่สี่หรือห้า) ท่านสามารถมอบหมายให้พวกเขาไปอยู่กับ [vassals|E] ของท่านเพื่อเพิ่ม [opinion|E] ได้เสมอ วิธีที่ง่ายที่สุดในการหาผู้สอนที่เป็นไปได้คือการใช้ #TUT_KW $offer_ward_interaction$#! Interaction โดยตรงกับข้าหลวง#!"
+ reactive_advice_tooltip_modes:0 "$reactive_advice_tooltip_modes_step_1$"
+ action_reactive_advice_tooltip_modes:0 "$open_tutorial_lesson$$reactive_advice_tooltip_modes_step_1$"
+ action_reactive_advice_tooltip_modes_desc:1 "Crusader Kings III มีโหมดคำแนะนำเครื่องมือที่แตกต่างกัน!\nเปิดข้อความนี้เพื่อสรุปโหมดต่าง ๆ และค้นหาโหมดที่เหมาะกับสไตล์การเล่นของท่านมากที่สุด"
+ action_reactive_advice_tooltip_modes_click:0 "$click_to_open_lesson$"
+ reactive_advice_tooltip_modes_step_1:0 "โหมดคำแนะนำเครื่องมือ"
+ reactive_advice_tooltip_modes_step_2:0 "โหมดคำแนะนำเครื่องมือขั้นสูง"
+ reactive_advice_tooltip_modes_desc:1 "โหมดคำแนะนำเครื่องมือควบคุม #EMP วิธี#! ที่ท่านเข้าถึง [highlighted_text|E] และข้อมูลในคำแนะนำเครื่องมือ #weak (กล่าวอีกนัยหนึ่งคือ วิธีล็อกคำแนะนำเครื่องมือเพื่อให้ท่านสามารถเลื่อนเมาส์เข้าไปได้)#!.\n\nโหมดคำแนะนำเครื่องมือเริ่มต้นเรียกว่า #V ล็อกตามเวลา#! ด้วยโหมดนี้ คำแนะนำเครื่องมือจะล็อกอยู่กับที่หลังจากเวลาที่กำหนด ซึ่งระบุด้วยแถบความคืบหน้าขนาดเล็ก"
+ reactive_advice_tooltip_modes_2_desc:0 "หากท่านเป็นผู้เล่นที่มีประสบการณ์ หรือเพียงแค่ไม่ต้องการให้คำแนะนำเครื่องมือของท่านล็อกโดยอัตโนมัติ เราขอแนะนำให้ลองใช้ #V ล็อกด้วยการกระทำ#! ด้วยโหมดนี้ ท่านกด #V ปุ่มเมาส์กลาง#! เพื่อล็อกคำแนะนำเครื่องมือ\n\n#I ท่านเปลี่ยนโหมดคำแนะนำเครื่องมือโดยไปที่ #V เมนูในเกม#! จากนั้นไปที่ #V การตั้งค่า#! จากนั้นส่วน #V เกม#! การตั้งค่า #V โหมดคำแนะนำเครื่องมือ#! อยู่ที่นั่น#!"
+
+ action_perk_bonus_cap_modes:0 "ถึงโบนัสสูงสุดของความสามารถแล้ว"
+ action_perk_bonus_cap_modes_desc:0 "ท่านได้รับโบนัสสูงสุดที่ความสามารถสามารถให้ได้แล้ว ความสามารถบางอย่าง เช่น [GetPerk('sound_foundations_perk').GetName(GetPlayer)] มีจำนวนคะแนนทักษะสูงสุดที่สามารถให้ได้"
+ action_perk_bonus_cap_modes_click:0 "$click_to_open_lesson$"
+ reactive_advice_perk_bonus_cap:0 "$action_perk_bonus_cap_modes$"
+ reactive_advice_perk_bonus_cap_desc:0 "$action_perk_bonus_cap_modes_desc$ ในขณะที่เกินขีดจำกัด โบนัสจะไม่เพิ่มขึ้นอีก และจะไม่ลดลงจนกว่าท่านจะอยู่ต่ำกว่าขีดจำกัด"
+ reactive_advice_perk_bonus_cap_step_1:0 "$action_perk_bonus_cap_modes$"
+
+ action_reactive_advice_varangian_adventure:0 "$open_tutorial_lesson$$reactive_advice_varangian_adventure_step_1$"
+ action_reactive_advice_varangian_adventure_desc:0 "ท่านสามารถเริ่มการผจญภัยวารังเจียนได้\nเปิดข้อความนี้เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับสงครามประเภทพิเศษนี้"
+ action_reactive_advice_varangian_adventure_click:0 "$click_to_open_lesson$"
+ reactive_advice_varangian_adventure:0 "$game_concept_varangian_adventures$"
+ reactive_advice_varangian_adventure_step_1:0 "$game_concept_varangian_adventures$"
+ reactive_advice_varangian_adventure_desc:0 "ท่านสามารถประกาศ [varangian_adventure|E] ได้\n\nในช่วงระยะเวลาของ $culture_era_tribal$ [era|E] สงครามประเภทนี้มีให้ท่านใช้เพื่อเริ่มต้นชีวิตใหม่ในดินแดนอันห่างไกล ห่างจากชายฝั่งอันหนาวเหน็บของบ้านเกิดเมืองนอนของท่าน\n\n$game_concept_varangian_adventures$ ที่ประสบความสำเร็จไม่เพียง แต่จะย้ายอาณาจักรของท่านไปยังสถานที่ต่างแดนเท่านั้น แต่ยังจะทิ้งดินแดนที่มีอยู่ทั้งหมดของท่านให้เป็นอิสระ รวมถึงข้าหลวงของท่านด้วย\n\n[varangian_adventure|E] ครั้งแรกของท่านที่ดำเนินการในฐานะผู้ปกครอง $north_germanic_group$ จะเรียกกองกำลังเพิ่มเติมจากเคาน์ตีที่มี [faith|E] และ [culture|E] เดียวกันใน [GetGeographicalRegion('dlc_fp1_region_core_mainland_scandinavia').GetName] เพื่อช่วยท่านพิชิตบ้านใหม่ของท่าน"
+
+# Court positions
+ action_reactive_advice_court_positions:0 "$open_tutorial_lesson$$ra_court_pos_open_view$"
+ action_reactive_advice_court_positions_desc:0 "เปิดข้อความนี้เพื่อแนะนำตำแหน่งในราชสำนัก"
+ action_reactive_advice_court_positions_click:0 "$click_to_open_lesson$"
+ reactive_advice_court_positions: "$ra_court_pos_open_view$"
+ 
+
+ ra_court_pos_open_view:0 "ตำแหน่งในราชสำนัก"
+ ra_court_pos_open_view_desc:0 "นี่เป็นเวลาที่ดีที่จะทบทวน [court_positions|E] เป็นตำแหน่งและเกียรติยศที่ท่านสามารถมอบให้กับ [courtiers|E] และ [vassals|E] ของท่านได้\n\nแต่ละตำแหน่งให้ประโยชน์แก่ท่าน โดยต้องเสียเงินเดือน ตัวอย่าง เช่น [GetCourtPositionType('court_physician_court_position').GetName()] จะช่วยให้ท่านและ [court|E] ของท่านมีสุขภาพดี"
+ ra_court_pos_open_view_trigger:0 "เปิดแท็บตำแหน่งในราชสำนัก (ไฮไลต์)"
+ ra_court_pos_appointing:0 "$ra_court_pos_open_view$"
+ ra_court_pos_appointing_desc:1 "ท่านสามารถ แต่งตั้ง [court_positions|E] ใหม่ได้โดยคลิกที่รูปภาพว่างสำหรับตำแหน่งในราชสำนักที่ว่างอยู่ ตัวละครที่มี [aptitude|E] สูงสำหรับตำแหน่งนั้นจะให้โบนัสแก่ท่านมากขึ้น\n\n#TUT เมื่อท่านแต่งตั้งใครสักคนเข้าสู่ตำแหน่ง มันยังส่งผลต่อ [opinion|E] ของพวกเขาที่มีต่อท่านด้วย ด้วยเหตุนี้ อาจเป็นประโยชน์ที่จะแต่งตั้งคนที่ขาด $game_concept_aptitude$ เพียงเพื่อให้พวกเขาชอบท่านมากขึ้น#!"
+ ra_court_pos_salary:0 "$ra_court_pos_open_view$"
+
+
+# Inventory
+ action_reactive_advice_artifact_inventory:0 "$open_tutorial_lesson$$ra_artifact_inventory_general$"
+ action_reactive_advice_artifact_inventory_desc:0 "เปิดข้อความนี้เพื่อแนะนำสิ่งประดิษฐ์ในคลัง"
+ action_reactive_advice_artifact_inventory_click:0 "$click_to_open_lesson$"
+ reactive_advice_artifact_inventory: "$ra_artifact_inventory_general$"
+
+ ra_artifact_inventory_general:0 "คลัง"
+ ra_artifact_inventory_general_desc:0 "ท่านได้รับ [inventory_artifact|E] ชิ้นแรกของท่านแล้ว [artifacts|E] เหล่านี้พกติดตัวและให้ประโยชน์ต่าง ๆ"
+ ra_artifact_inventory_open_step:0 "$ra_artifact_inventory_general$"
+ ra_artifact_inventory_open_step_desc:0 "[inventory_artifacts|E] ถูกเก็บไว้ในคลังของท่าน มาเปิดดูกันเลย"
+ ra_artifact_inventory_open_step_open:0 "เปิดคลัง (ไฮไลต์)"
+ ra_artifact_inventory_welcome:0 "$ra_artifact_inventory_general$"
+ ra_artifact_inventory_welcome_desc:0 "ในคลังของท่าน ท่านสามารถสวมใส่ [inventory_artifacts|E] เพื่อรับประโยชน์ต่าง ๆ เช่น การเพิ่ม [skill|E] บางอย่าง หรือเพิ่ม [prestige|E] ของท่าน\n\nท่านยังสามารถ [repair|E] หรือ [reforge|E] [inventory_artifacts|E] ซึ่งจะฟื้นฟู [durability|E] และป้องกันไม่ให้ถูกทำลายเมื่อเวลาผ่านไป\n\nท่านยังสามารถดูได้ว่าท่านมี [artifact_claims|E] ใดบ้าง และพยายามยึด [artifacts|E] เหล่านั้นมาเป็นของท่านเอง!"
+ 
+ # Station Men-at-Arms
+ ra_maa_stationing_open_card_step:0 "การประจำการทหารประจำการ"
+ ra_maa_stationing_open_card_step_desc:0 "ท่านมี [men_at_arms|E] ที่ท่านยังไม่ได้ [stationed|E]\n\nการประจำการ [regiments|E] ของท่านจะ ทำให้พวกเขามีพลังมากขึ้นและเก่งในการต่อสู้ ซึ่งอาจมีความสำคัญอย่างยิ่งต่อการชนะ [battles|E]\n\nมาประจำการกองทหารกันเถอะ!"
+ ra_maa_stationing_open_card_step_tt:0 "คลิกที่ทหารประจำการของท่านคนใดคนหนึ่งที่มีข้อความ '#X $MAA_UNSTATIONED$#!' (ไฮไลต์)"
+ ra_maa_stationing_click_station_button:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_click_station_button_desc:0 "ท่านสามารถประจำการ [regiment|E] หนึ่งกองของ [men_at_arms|E] ต่อ [holding|E] ใน [domain|E] ของท่าน\n\nที่ดินทั้งหมดใช้ได้กับกองทหารทุกประเภท แต่บางแห่งให้โบนัสมากกว่าที่อื่น\n\nมาเลือกที่ดินเพื่อประจำการกองทหารนี้กัน"
+ ra_maa_stationing_click_station_button_tt:0 "คลิกปุ่ม 'เปลี่ยนที่ดินประจำการ' (ไฮไลต์)"
+ ra_maa_stationing_select_station:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_select_station_desc:0 "[holdings|E] ที่แตกต่างกันให้โบนัสในปริมาณที่แตกต่างกัน ขึ้นอยู่กับ [buildings|E] ที่ท่านเลือกสร้าง\n\nในมุมมองนี้ ท่านสามารถเห็นได้อย่างชัดเจนว่า [men_at_arms|E] [regiment|E] ของท่านจะดีขึ้นเท่าใดหากประจำการในที่ดิน\n\nคลิกที่ที่ดิน #P สีเขียว#! บนแผนที่ ซึ่งท่านคิดว่าให้โบนัสที่ดีที่สุดแก่กองทหารของท่าน"
+ ra_maa_stationing_select_station_tt:0 "คลิกที่ที่ดิน #P สีเขียว#! ใด ๆ บนแผนที่"
+ ra_maa_stationing_finished:0 "$ra_maa_stationing_open_card_step$"
+ ra_maa_stationing_finished_desc:0 "กองทหาร [men_at_arms|E] [regiment|E] บัดนี้ได้ [stationed|E] แล้ว ท่านสามารถเห็นได้ว่ามันดีขึ้นเพียงใดใต้ภาพเหมือนของมัน (ส่วนที่เน้นสี)\n\nโปรดอย่าลืมตรวจสอบเป็นครั้งคราว เพื่อให้กองทหารของท่านประจำการอยู่ใน [holdings|E] ที่เหมาะสมที่สุด\n\nสิ่งนี้สำคัญอย่างยิ่งหากท่านพิชิตหรือสืบทอดดินแดนใหม่ หรือหากท่านตัดสินใจที่จะ ทำให้ที่ดินมีความเชี่ยวชาญเฉพาะด้านด้วย [buildings|E] เช่น [GetBuilding('smiths_01').GetName] หรือ [GetBuilding('stables_01').GetName]"
+ reactive_advice_station_maa: "$ra_maa_stationing_open_card_step$"
+
+
+# Tours
+ REACTIVE_ADVICE_TOURS:0 "การเดินทางเยือน"
+
+ action_reactive_advice_tours_picking_vassals:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_TOURS$"
+ action_reactive_advice_tours_picking_vassals_desc:0 "ตอนนี้ท่านกำลังวางแผนว่าจะไปเยี่ยมข้าหลวงคนใดในการเดินทางเยือนครั้งใหญ่ของท่าน เปิดข้อความนี้เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับการวางแผนการเดินทางเยือน"
+ action_reactive_advice_tours_picking_vassals_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_tours_picking_vassals:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_intro:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_intro_desc:0 "ท่านกำลังจะเริ่ม [GetActivityType( 'activity_tour' ).GetName()] ใน [realm|E] ของท่าน\n\nในระหว่างการเดินทางเยือน ท่านจะ [travel|E] ไปเยี่ยม [vassals|E] ของท่าน ลงทุน [gold|E] เพื่อรับรางวัล เช่น [county_control|E], [opinion|E], [cultural_acceptance|E] และอื่น ๆ อีกมากมาย!"
+
+ ra_tours_picking_vassals_add:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_add_desc:0 "ขั้นแรก ท่านต้องเลือก [vassals|E] ที่จะไปเยี่ยม\n\nการเลือกคนที่จะไปเยี่ยมขึ้นอยู่กับประเภทของ [GetActivityType( 'activity_tour' ).GetName()] ตัวอย่าง เช่น ใน [majesty_tour|E] แต่ละ [stop|E] จะเพิ่ม [opinion|E] ของข้าหลวงคนนั้น ดังนั้นท่านอาจเลือกข้าหลวงที่มีความเห็นต่อท่านต่ำ\n\nการเดินทางไกลระหว่างจุดแวะพักจะเพิ่มค่าใช้จ่าย [gold|E] สำหรับ แต่ละจุดแวะพัก"
+ ra_tours_picking_vassals_add_prompt:0 "เพิ่มข้าหลวงอย่างน้อยหนึ่งคนที่จะไปเยี่ยมโดยคลิกบนแผนที่"
+
+ ra_tours_picking_vassals_stops:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_stops_desc:0 "ใน แต่ละ [stop|E] ของการเดินทางเยือน ท่านสามารถ:\n$BULLET_WITH_TAB$[tour_the_grounds|E] เพิ่ม [county_control|E]\n$BULLET_WITH_TAB$ขอ [hosted_dinner|E] สร้าง [hooks|E] และ [relations|E]\n$BULLET_WITH_TAB$ขอให้ [vassal|E] ของท่านจัด [cultural_festival|E] เพิ่ม [county_opinion|E] และ [cultural_acceptance|E]"
+
+ ra_tours_picking_vassals_conclusion:0 "$REACTIVE_ADVICE_TOURS$"
+ ra_tours_picking_vassals_conclusion_desc:0 "เมื่อท่านพอใจกับ [stops|E] และลำดับแล้ว ท่านสามารถไปยังขั้นตอนต่อไปของการวางแผนได้"
+
+# Active Regency Liege Side
+ REACTIVE_ADVICE_REGENCY_TERM:0 "การสำเร็จราชการ"
+ REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT:0 "เปิดมุมมองการสำเร็จราชการ (ไฮไลต์)"
+ REACTIVE_ADVICE_YOU_REGENCY_REASONS:0 "[regency|E] สามารถเกิดขึ้นได้จากหลายสาเหตุ รวมถึง:\n$BULLET_WITH_TAB$เมื่อท่าน [travel|E] ออกนอก [realm|E] ของท่าน\n$BULLET_WITH_TAB$เมื่อท่านเป็น [child|E]\n$BULLET_WITH_TAB$ท่านกลายเป็น [GetTrait('incapable').GetName( GetPlayer )]"
+
+ reactive_advice_regency_for_liege:0 "$action_reactive_advice_regency_for_liege$"
+ action_reactive_advice_regency_for_liege:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_REGENCY_TERM$"
+ action_reactive_advice_regency_for_liege_desc:0 "ตอนนี้ท่านมีผู้สำเร็จราชการแล้ว เปิดข้อความนี้เพื่อแนะนำการสำเร็จราชการ"
+ action_reactive_advice_regency_for_liege_click:0 "$click_to_open_lesson$"
+
+ ra_regency_liege_intro:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_intro_desc:0 "ตอนนี้ท่านมี [regent|E] แล้ว\n\n$REACTIVE_ADVICE_YOU_REGENCY_REASONS$"
+
+ ra_regency_liege_effects:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_effects_desc:0 "ใน [regency|E] ท่านยังคงสามารถดำเนินการใด ๆ ที่ท่านสามารถทำได้ตามปกติ\n\nอย่างไรก็ตาม [regent|E] จะได้รับ [diarch_powers|E] พิเศษที่พวกเขาสามารถใช้กับท่านหรือ [vassals|E] ของท่านได้ ท่านมีสิทธิ์ [veto|E] เหนือ $game_concept_diarch_powers$ เหล่านี้เสมอ"
+
+ ra_regency_liege_open_UI:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_open_UI_desc:0 "ตอนนี้มาดู [regency|E] ของท่านกัน!"
+ ra_regency_liege_open_UI_prompt:0 "$REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT$"
+
+ ra_regency_liege_open_tab:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_open_tab_desc:0 "[regent|E] ของท่านแสดงอยู่ในแท็บ '$DIARCHY_WINDOW_YOUR_TAB$'"
+ ra_regency_liege_open_tab_prompt:0 "เปิดแท็บ '$DIARCHY_WINDOW_YOUR_TAB$' (ไฮไลต์)"
+
+ ra_regency_liege_scales_of_power:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_scales_of_power_desc:0 "นี่คือ [scales_of_power|E]\n\nยิ่งตาชั่งเอนเอียงไปทาง [regent|E] ของท่านมากเท่าใด พวกเขาจะสามารถเข้าถึง [diarch_powers|E] ได้มากขึ้น และการสิ้นสุด [regency|E] จะยากขึ้น\n\nท่านสามารถแกว่งตาชั่งให้เป็นใจได้โดยตรงด้วยปุ่ม '$DIARCHY_WINDOW_SWING_SCALES$'"
+
+ ra_regency_liege_mandate:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_mandate_desc:0 "ท่านสามารถมอบ [mandate|E] ให้กับ [regent|E] ของท่าน ซึ่งจะมุ่งเน้นความพยายามของพวกเขาในด้านนั้น\n\nท่านสามารถเปลี่ยนอาณัติ (Mandate) นี้ได้ตลอดเวลาขึ้นอยู่กับลำดับความสำคัญของท่าน"
+
+ ra_regency_liege_ending:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_ending_desc:0 "หากเงื่อนไขที่เริ่มต้น [regency|E] ไม่เป็นจริงอีกต่อไป ท่านสามารถพยายามยุติมันได้\n\n[regent|E] ต้องยอมรับสิ่งนี้ แต่ท่านสามารถเสนอสิ่งต่าง ๆ เช่น [gold|E] หรือ [favor|E] เพื่อให้พวกเขามีแนวโน้มที่จะยอมรับมากขึ้น \n\nหากพวกเขาปฏิเสธ พวกเขาสามารถประกาศ [war|E] กับท่านได้!"
+
+ ra_regency_liege_conclusion:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_liege_conclusion_desc:0 "การสำเร็จราชการส่วนใหญ่เป็นเรื่องของการตอบสนอง สำหรับตอนนี้ ให้จับตาดู [scales_of_power|E]\n\nเมื่อ [regent|E] ของท่านใช้ [diarch_powers|E] อย่างใดอย่างหนึ่ง ท่านจะทราบและสามารถตัดสินใจว่าจะทำอย่างไรกับมัน"
+
+
+# Active Regency Regent Side
+ reactive_advice_regency_for_regent:0 "$action_reactive_advice_regency_for_regent$"
+ action_reactive_advice_regency_for_regent:0 "$open_tutorial_lesson$ผู้สำเร็จราชการ"
+ action_reactive_advice_regency_for_regent_desc:0 "ตอนนี้ท่านเป็นผู้สำเร็จราชการแทนเจ้านายของท่าน เปิดข้อความนี้เพื่อแนะนำการสำเร็จราชการ"
+ action_reactive_advice_regency_for_regent_click:0 "$click_to_open_lesson$"
+
+ ra_regency_regent_intro:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_intro_desc:0 "ท่านกำลังทำหน้าที่เป็น [regent|E] ให้กับ [liege|E] ของท่าน\n\n[regency|E] สามารถเกิดขึ้นได้จากหลายสาเหตุ รวมถึง:\n$BULLET_WITH_TAB$เมื่อเจ้านายของท่าน [travels|E] ออกนอก [realm|E]\n$BULLET_WITH_TAB$เมื่อเจ้านายของท่านเป็น [child|E]\n$BULLET_WITH_TAB$เจ้านายของท่านกลายเป็น [GetTrait('incapable').GetName( GetPlayer )]"
+
+ ra_regency_regent_powers:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_powers_desc:0 "ในฐานะ [regent|E] ท่านจะได้รับ [diarch_powers|E] พิเศษที่ท่านสามารถใช้กับ [liege|E] ของท่านหรือ [vassals|E] เพื่อนร่วมงานของท่านได้ เจ้านายของท่านมีสิทธิ์ [veto|E] เหนือ $game_concept_diarch_powers$ เหล่านี้เสมอ\n\nการใช้อำนาจเหล่านี้กับข้าหลวงเพื่อนร่วมงานของท่านอาจถูกมองว่าเป็นการใช้อำนาจเกินขอบเขต ทำให้ท่านได้รับบทลงโทษ [opinion|E] จาก [strife|E]"
+
+ ra_regency_regent_open_UI:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_open_UI_desc:0 "ตอนนี้มาดู [regency|E] ของท่านกัน!"
+ ra_regency_regent_open_UI_prompt:0 "$REACTIVE_ADVICE_REGENCY_OPEN_VIEW_PROMPT$"
+
+ ra_regency_regent_open_tab:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_open_tab_desc:0 "สถานะของท่านในฐานะ [regent|E] แสดงอยู่ในแท็บ '$DIARCHY_WINDOW_LIEGE_TAB$'"
+ ra_regency_regent_open_tab_prompt:0 "เปิดแท็บ '$DIARCHY_WINDOW_LIEGE_TAB$' (ไฮไลต์)"
+
+ ra_regency_regent_scales_of_power:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_scales_of_power_desc:0 "นี่คือ [scales_of_power|E]\n\nยิ่งตาชั่งเอนเอียงไปทางท่านมากเท่าใด ท่านจะสามารถเข้าถึง [diarch_powers|E] ได้มากขึ้น และการสิ้นสุด [regency|E] จะยากขึ้น\n\nท่านสามารถแกว่งตาชั่งให้เป็นใจได้โดยตรงด้วยปุ่ม '$DIARCHY_WINDOW_SWING_SCALES$'"
+
+ ra_regency_regent_mandate:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_mandate_desc:0 "[liege|E] ของท่านสามารถมอบ [mandate|E] ให้ท่าน ซึ่งจะให้โอกาสท่านในการปรับปรุง [realm|E]\n\nหากท่านจัดการโอกาสเหล่านี้ได้ดี ท่านจะ ทำให้ [scales_of_power|E] เอนเอียงมาทางท่าน"
+
+ ra_regency_regent_ending:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_ending_desc:0 "หากเงื่อนไขที่เริ่มต้น [regency|E] ไม่เป็นจริงอีกต่อไป [liege|E] ของท่านสามารถพยายามยุติมันได้\n\nหาก [scales_of_power|E] เอนเอียงมาทางท่านอย่างมาก ท่านอาจสามารถต่อต้านการยุติการสำเร็จราชการของพวกเขาได้ บางทีอาจถึงขั้นเริ่ม [war|E] เพื่อชิง [primary_title|E] ของพวกเขา!"
+
+ ra_regency_regent_conclusion:0 "$REACTIVE_ADVICE_REGENCY_TERM$"
+ ra_regency_regent_conclusion_desc:0 "ในฐานะ [regent|E] ท่านสามารถลองใช้ [diarch_powers|E] ของท่านกับ [liege|E] ของท่านหรือ [vassals|E] เพื่อนร่วมงานของท่านได้\n\nหากท่านไม่ต้องการเป็นปฏิปักษ์กับเจ้านายของท่าน ท่านสามารถตอบสนองต่อโอกาสที่ปรากฏขึ้น และเจ้านายของท่านอาจให้รางวัลแก่ท่านสำหรับความภักดีของท่าน!"
+
+
+# Prepare by setting a Regent
+ REACTIVE_ADVICE_FUTURE_REGENT:0 "ผู้สำเร็จราชการในอนาคต"
+ action_reactive_advice_set_future_regent:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_FUTURE_REGENT$"
+ action_reactive_advice_set_future_regent_desc:1 "หากท่านไม่สามารถปกครองได้ ผู้สำเร็จราชการจะปกครองแทนท่าน เปิดข้อความนี้เพื่อเรียนรู้วิธีควบคุมว่าใครจะเป็นผู้สำเร็จราชการของท่าน"
+ action_reactive_advice_set_future_regent_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_set_future_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+
+ ra_regency_future_regent_intro:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_intro_desc:0 "ในอนาคต ท่านอาจไม่สามารถปกครอง [realm|E] ของท่านได้ด้วยตนเอง ซึ่งในกรณีนี้ [regency|E] จะเริ่มต้นขึ้น\n\nก่อนที่สิ่งนี้จะเกิดขึ้น ท่านสามารถดู [regent|E] ในอนาคตของท่านและแม้กระทั่ง แต่งตั้งด้วยตนเองได้!\n\n$REACTIVE_ADVICE_YOU_REGENCY_REASONS$"
+
+ ra_regency_future_regent_open_realm_panel:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_realm_panel_desc:0 "มาดูตัวอย่าง [regency|E] ในอนาคตของท่านกัน! ท่านสามารถดูได้ในมุมมองอาณาจักร"
+ ra_regency_future_regent_open_realm_panel_prompt:0 "เปิดมุมมองอาณาจักร (ไฮไลต์)"
+
+ ra_regency_future_regent_open_UI:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_UI_desc:1 "สถานะ [regency|E] ของท่านแสดงอยู่ที่นี่ ที่ด้านบนของมุมมองอาณาจักร"
+ ra_regency_future_regent_open_UI_prompt:1 "เปิดมุมมองการสำเร็จราชการ (ไฮไลต์)"
+
+ ra_regency_future_regent_open_tab:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_open_tab_desc:0 "[regent|E] ในอนาคตของท่านแสดงอยู่ในแท็บ '$DIARCHY_WINDOW_YOUR_TAB$'"
+ ra_regency_future_regent_open_tab_prompt:0 "$ra_regency_liege_open_tab_prompt$"
+
+ ra_regency_future_regent_current_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_current_regent_desc:0 "[regent|E] ในอนาคตของท่านแสดงอยู่ที่นี่\n\nเว้น แต่ท่านจะ แต่งตั้ง ผู้สมัครที่มี [regent_succession_score|E] สูงสุดจะถูกเลือก"
+
+ ra_regency_future_regent_swap_regent:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_swap_regent_desc:0 "ท่านสามารถ แต่งตั้ง [regent|E] โดยใช้ปุ่มนี้\n\nท่านควรพยายามหาผู้สำเร็จราชการที่มี [diarch_loyalty|E] สูงและ [Concept( 'diarch_aptitude', 'Aptitude' )|E] สูง"
+
+ ra_regency_future_regent_succession:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_succession_desc:0 "หาก [regent|E] ปัจจุบันของท่านเสียชีวิตหรือไม่สามารถทำหน้าที่เป็น [regent|E] ได้ ตัวละครถัดไปในลำดับการสืบทอดจะเข้ามาแทนที่"
+
+ ra_regency_future_regent_conclusion:0 "$REACTIVE_ADVICE_FUTURE_REGENT$"
+ ra_regency_future_regent_conclusion_desc:0 "สำหรับตอนนี้ พิจารณา แต่งตั้ง [regent|E] หากท่านต้องการควบคุมว่าใครจะปกครองแทนท่านมากขึ้น"
+
+
+# Travel Planning
+ REACTIVE_ADVICE_TRAVEL_PLANNING:0 "การวางแผนการเดินทาง"
+ action_reactive_advice_travel_planning:0 "$open_tutorial_lesson$$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ action_reactive_advice_travel_planning_desc:0 "ท่านกำลังจะเดินทาง เปิดข้อความนี้เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับการวางแผนการเดินทางของท่าน"
+ action_reactive_advice_travel_planning_click:0 "$click_to_open_lesson$"
+
+ reactive_advice_travel_planning:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+
+ ra_travel_planning_intro:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_intro_desc:0 "ท่านกำลังจะ [travel|E] ออกจากตำแหน่งปัจจุบันของท่าน ก่อนออกเดินทาง ท่านควรวางแผนการเดินทางของท่าน"
+
+ ra_travel_planning_entourage:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_entourage_desc:0 "ท่านไม่ค่อย [travel|E] คนเดียว [characters|E] ที่เดินทางไปกับท่านคือ [entourage|E] ของท่าน\n\nตัวละครเหล่านี้มักจะเข้าร่วมกับท่านที่ปลายทางด้วย"
+
+ ra_travel_planning_speed_safety:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_speed_safety_desc:0 "มีปัจจัยหลักสองประการที่ต้องพิจารณาเมื่อวางแผน [travel|E] ของท่าน: [travel_speed|E] และ [travel_safety|E]\n\nความเร็วพื้นฐานคือ 100% และความเร็วสูงหมายความว่าท่านจะไปถึงจุดหมายปลายทางได้เร็วขึ้น\n\nความปลอดภัยจะต่อต้าน [travel_danger|E] ใด ๆ ที่ท่านอาจพบเจอระหว่างเส้นทาง การมีความปลอดภัยสูงหมายความว่าท่านและ [entourage|E] ของท่านสามารถเดินทางผ่านพื้นที่อันตรายโดยมีความเสี่ยงน้อยลง"
+
+ ra_travel_planning_caravan_master:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_caravan_master_desc:0 "ท่านสามารถ แต่งตั้ง [GetCourtPositionType('travel_leader_court_position').GetName()] ซึ่งเป็น [court_position|E] พิเศษที่จะเข้าร่วมกับท่านในการ [travels|E] ทั้งหมดของท่าน\n\nพวกเขามีผลกระทบอย่างมากต่อ [travel_speed|E] และ [travel_safety|E] ของท่าน ดังนั้นท่านมักจะต้องการใครสักคนในตำแหน่งนี้ในการเดินทางที่ยาวนานขึ้น"
+
+ ra_travel_planning_travel_options:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_travel_options_desc:0 "ท่านยังสามารถเลือก [travel_options|E] ได้สูงสุดสองอย่างสำหรับการเดินทางครั้งนี้โดยเฉพาะ\n\nตัวเลือกการเดินทางมักจะต้องใช้ [gold|E] และให้ประโยชน์ต่าง ๆ ส่วนใหญ่เกี่ยวกับ [travel_speed|E] และ [travel_safety|E]\n\nตัวเลือกมากมายช่วยลด [travel_danger|E] สำหรับ [terrain|E] ประเภทเฉพาะบนเส้นทางของท่าน อันตราย แต่ละประเภทในสถานที่หนึ่ง ๆ จะแสดงบนแผนที่ด้วยสีเฉพาะ อันตรายใด ๆ เหล่านี้ที่ท่านอาจพบเจอจะแสดงเป็นไอคอนบนเส้นทางของท่านด้วย"
+
+ ra_travel_planning_custom_route:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_custom_route_desc:0 "สุดท้าย ท่านสามารถปรับ แต่งเส้นทางของท่านเพื่อหลีกเลี่ยง [travel_danger|E] ระหว่างทาง แทนที่จะมุ่งตรงไปยังจุดหมายปลายทางของท่าน"
+
+ ra_travel_planning_conclusion:0 "$REACTIVE_ADVICE_TRAVEL_PLANNING$"
+ ra_travel_planning_conclusion_desc:0 "ก่อนออกเดินทาง ตรวจสอบเวลาเดินทางทั้งหมด และตรวจสอบว่ามีโอกาสเกิด [travel_danger|E] น้อยบนเส้นทางของท่าน\n\nเดินทางโดยสวัสดิภาพ!"
+
+# Create Accolade
+ REACTIVE_ADVICE_CREATE_ACCOLADE:0 "เครื่องราชอิสริยาภรณ์"
+
+ reactive_advice_create_accolade:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+
+ ra_create_accolade_knights_panel:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_knights_panel_desc:0 "ตอนนี้ท่านสามารถมอบ [accolade|E] ให้กับ [knights|E] ของท่านคนใดคนหนึ่งได้แล้ว!\n\nอัศวิน แต่ละคนที่ถือเครื่องราชอิสริยาภรณ์จะกลายเป็น [acclaimed_knight|E] และมอบโบนัสให้กับท่านและ [armies|E] ของท่าน\n\nเครื่องราชอิสริยาภรณ์จะยังคงอยู่จนกว่าท่านจะทำลายมัน และจะส่งต่อไปยังอัศวินในอนาคตผ่านทาง [accolade_succession|E]"
+ ra_create_accolade_knights_panel_prompt:0 "เลือกเครื่องราชอิสริยาภรณ์ที่ยังไม่ได้มอบหมาย (ไฮไลต์)"
+
+ ra_create_accolade_candidates:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_candidates_desc:0 "เมื่อท่านสร้าง [accolade|E] ท่านเลือก [knights|E] ที่มีคุณสมบัติเหมาะสมคนใดคนหนึ่งในรายการ"
+ ra_create_accolade_candidates_prompt:0 "เลือกผู้สมัครในรายการ (ไฮไลต์)"
+
+ ra_create_accolade_attributes:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_attributes_desc:0 "[acclaimed_knight|E] ทุกคนมี [accolade_types|E] สองประเภท (ไฮไลต์) หนึ่งประเภทหลักและหนึ่งประเภทรอง ก่อนที่ท่านจะสร้าง [accolade|E] คุณลักษณะเหล่านี้จะแสดงสำหรับผู้สมัคร แต่ละคน\n\nคุณลักษณะ แต่ละอย่างจะมอบโบนัสต่าง ๆ ให้กับท่านและ [armies|E] ของท่าน เมื่อเครื่องราชอิสริยาภรณ์ได้รับ [glory|E] ความรุ่งโรจน์จะได้รับจากการเข้าร่วม [GetActivityType( 'activity_tournament' ).GetName()] [contests|E] และ [battles|E]\n\nคุณลักษณะหลักเป็นส่วนหนึ่งของ [accolade|E] เสมอ และไม่สามารถเปลี่ยนแปลงได้เมื่อมีการ [accolade_succession|E]"
+  
+ ra_create_accolade_conclusion:0 "$REACTIVE_ADVICE_CREATE_ACCOLADE$"
+ ra_create_accolade_conclusion_desc:0 "ตอนนี้ท่านสามารถสร้าง [accolade|E] นี้ได้หากต้องการ\n\nเครื่องราชอิสริยาภรณ์เพิ่มเติมจะพร้อมใช้งานเมื่อ [culture|E] ของท่านค้นพบ [innovations|E]"
+
+# House Unity
+ reactive_advice_house_unity: "ความสามัคคีในตระกูล"
+
+ action_reactive_advice_house_unity: "คำแนะนำ: $reactive_advice_house_unity$"
+ action_reactive_advice_house_unity_desc: "เรียนรู้เกี่ยวกับ [house_unity|E] สำหรับ [clans|E] และวิธีที่ท่านสามารถส่งผลกระทบต่อมันเพื่อรับผลประโยชน์และเข้าถึง [succession_laws|E] ที่แตกต่างกัน"
+ action_reactive_advice_house_unity_click: "$click_to_open_lesson$"
+
+ ra_house_unity_1: "$reactive_advice_house_unity$"
+ ra_house_unity_1_desc: "ในฐานะ [clan|E] ท่านสามารถเข้าถึง [house_unity|E] ได้!\n\nความสามัคคีของตระกูลแสดงถึงสถานะของความสัมพันธ์ภายใน [house|E] ของท่าน ซึ่งมีตั้งแต่เป็นปฏิปักษ์ไปจนถึงปรองดอง แต่ละ [house_unity_level|E] จะนำมา ซึ่งผลกระทบมากมายสำหรับสมาชิกตระกูลทุกคน และจะกำหนด [succession_law|E] ที่ใช้งานอยู่\n\nการรู้วิธีส่งผลกระทบต่อความสามัคคีของตระกูลจะเป็นประโยชน์ในการบรรลุเป้าหมายของท่าน"
+
+ ra_house_unity_2: "$reactive_advice_house_unity$"
+ ra_house_unity_2_desc: "ขั้นแรก ท่านต้องรู้วิธีแสดงภาพ [house_unity|E] ในการทำ เช่นนั้น ให้เปิดมุมมอง [house|E] ของท่าน"
+
+ ra_house_unity_panel_prompt: "เปิดมุมมอง [house|E]"
+
+ ra_house_unity_3: "$reactive_advice_house_unity$"
+ ra_house_unity_3_desc: "แท็บความสามัคคีของตระกูลมีข้อมูลและปฏิสัมพันธ์ทั้งหมดที่ท่านต้องการเพื่อใช้ประโยชน์สูงสุดจากความสามัคคีของตระกูล ท่านสามารถดูคะแนนความสามัคคีของตระกูลปัจจุบัน ระดับปัจจุบัน และภาพรวมของระดับความสามัคคีของตระกูลที่สูงขึ้นและต่ำลงได้\n\nนอกจากนี้ ที่นี่ท่านสามารถดูการเปลี่ยนแปลงความสามัคคีล่าสุดได้ นี่เป็นสิ่งสำคัญ เพราะสมาชิกตระกูลทุกคนสามารถดำเนินการ [house_unity_unifying_actions|E] หรือ [house_unity_devisive_actions|E] เพื่อส่งผลกระทบต่อความสามัคคีของตระกูลได้"
+
+ ra_house_unity_4: "$reactive_advice_house_unity$"
+ ra_house_unity_4_desc: "ดังที่ได้กล่าวไว้ก่อนหน้านี้ แต่ละ [house_unity_level|E] มีผลกระทบของตัวเอง ในส่วนนี้ ท่านสามารถดูรายการผลกระทบที่ใช้งานอยู่ได้\n\nโปรดจำไว้ว่า ผลกระทบเหล่านี้มีผลต่อสมาชิก [house|E] ทุกคน ในบรรดาผลกระทบ ท่านจะพบ [succession_law|E] ที่ใช้งานอยู่ของตระกูลท่าน"
+
+ ra_house_unity_5: "$reactive_advice_house_unity$"
+ ra_house_unity_5_desc: "สุดท้าย แต่ละตระกูลแคลนสามารถเข้าถึงการตัดสินใจเกี่ยวกับความสามัคคีของตระกูลได้ [decisions|E] เหล่านี้จะมอบผลประโยชน์ที่แตกต่างกันให้กับสมาชิกตระกูลทุกคน อย่างไรก็ตาม ส่วนใหญ่แล้ว มีเพียง [house_head|E] เท่านั้นที่สามารถประกาศใช้ได้\n\n#weak ท่านสามารถพยายามเป็นหัวหน้าตระกูลได้โดยใช้ปฏิสัมพันธ์ \"ท้าทายหัวหน้าตระกูล\" กับหัวหน้าตระกูลปัจจุบันของท่าน#!"
+
+ ra_house_unity_6: "$reactive_advice_house_unity$"
+ ra_house_unity_6_desc: "ตอนนี้ท่านรู้ทุกสิ่งที่ต้องรู้เกี่ยวกับความสามัคคีของตระกูลแล้ว!\n\nใช้ความรู้นี้ เพื่อให้แน่ใจว่าตระกูลของท่านจะทิ้งร่องรอยที่ยั่งยืนไว้ในประวัติศาสตร์"
+
+# Tax Collection
+ action_reactive_advice_tax_collector: "คำแนะนำ: การเก็บภาษี"
+ action_reactive_advice_tax_collector_desc: "เปิดเพื่อแนะนำ [tax_jurisdictions|E] และ [tax_collectors|E]"
+ action_reactive_advice_tax_collector_click: "$click_to_open_lesson$"
+
+ reactive_advice_tax_collector: "การเก็บภาษี"
+
+ ra_tax_collector_1: "$reactive_advice_tax_collector$"
+ ra_tax_collector_1_desc: "ท่านมี [tax_collectors|E]!\n\nพวกเขาจะช่วยท่านรวบรวม [gold|E] และ [levies|E] จากข้าหลวงแคลนของท่าน ผู้เก็บภาษีจะช่วยท่านจัดการ [tax_jurisdictions|E] และพวกเขาจะบังคับใช้พระราชกฤษฎีกาภาษี\n\n#weak ความถนัดของผู้เก็บภาษีของท่านจะส่งผลต่อการสนับสนุนที่ท่านจะได้รับจากผู้เสียภาษีของท่าน#!"
+
+ ra_tax_collector_2: "$reactive_advice_tax_collector$"
+ ra_tax_collector_2_desc: "ขั้นแรก ท่านต้องรู้ว่าจะหา [tax_jurisdictions|E] ของท่านได้ที่ไหน วิธี แต่งตั้ง [tax_collectors|E] และมอบหมายผู้เสียภาษี"
+
+ ra_tax_collector_panel_prompt: "เปิดแผง [tax_jurisdictions|E]"
+
+ ra_tax_collector_3: "$reactive_advice_tax_collector$"
+ ra_tax_collector_3_desc: "ยินดีต้อนรับสู่มุมมอง [tax_jurisdiction|E] ของท่าน!\n\nที่นี่ท่านสามารถแสดงภาพและจัดการทุกอย่างเกี่ยวกับเขตอำนาจศาลของท่านได้\n\nที่ด้านบน ท่านสามารถดูจำนวน [tax_collectors|E] ที่ท่านได้ แต่งตั้ง และ [gold|E] และ [levies|E] ทั้งหมดที่ท่านได้รับจากผู้เสียภาษีของท่าน"
+
+ ra_tax_collector_4: "$reactive_advice_tax_collector$"
+ ra_tax_collector_4_desc: "นี่คือ [tax_jurisdictions|E] ของท่าน ซึ่งท่านสามารถมอบหมายข้าหลวงแคลนของท่านเป็นผู้เสียภาษี และเลือกพระราชกฤษฎีกาภาษีสำหรับ แต่ละเขตอำนาจศาลได้ ท่านจะต้อง แต่งตั้ง [tax_collector|E] เพื่อจัดการเขตอำนาจศาลภาษี แต่ละแห่งของท่านและบังคับใช้พระราชกฤษฎีกาภาษีด้วย\n\n#weak เขตอำนาจศาลที่มีผู้เสียภาษีแต่ไม่มีผู้เก็บภาษีจะไม่ถูกเก็บภาษี หมายความว่าท่านจะไม่ได้รับ [gold|E] หรือ [levies|E] จากเขตอำนาจศาลนั้น#!"
+
+ ra_tax_collector_5: "$reactive_advice_tax_collector$"
+ ra_tax_collector_5_desc: "ขอแสดงความยินดี!\n\nท่านรู้พื้นฐานทั้งหมดของการเก็บภาษีแล้ว อย่าลืมตั้งค่าพระราชกฤษฎีกาภาษีของ [tax_jurisdictions|E] เพื่อปรับ แต่ง [vassal_obligations|E] ให้เข้ากับความต้องการปัจจุบันของท่าน\n\nขอให้ [clan|E] ของท่านทิ้งร่องรอยที่ยั่งยืนไว้ในประวัติศาสตร์"
+
+ action_reactive_advice_legitimacy: "คำแนะนำ: ความชอบธรรม"
+ action_reactive_advice_legitimacy_desc: "เปิดเพื่อแนะนำ [legitimacy|E]"
+ action_reactive_advice_legitimacy_click: "$click_to_open_lesson$"
+
+ reactive_advice_legitimacy: "ความชอบธรรม"
+
+ ra_legitimacy_1: "$reactive_advice_legitimacy$"
+ ra_legitimacy_1_desc: "[legitimacy|E] คือการแสดงถึง 'สิทธิ์ในการปกครอง' ของท่าน [vassals|E] ของท่านสร้าง [legitimacy_expectations|E] และท่านถูกคาดหวังให้ตอบสนองความคาดหวังเหล่านั้น\n\n$game_concept_legitimacy$ ที่สูงขึ้นจะให้ประโยชน์มากมายแก่ท่าน และ $game_concept_legitimacy$ ที่ต่ำจะส่งผลเสียต่อความง่ายในการปกครองของท่าน\n\n#weak $game_concept_legitimacy$ มี 5 [legitimacy_levels|E] และระดับล่างสุด 'ไม่ชอบธรรม' หนึ่งระดับ โดยส่วนหนึ่งของ [legitimacy|E] ของผู้ปกครองคนก่อนจะถูกสืบทอดโดย [heir|E] ของพวกเขา ท่านได้รับ $game_concept_legitimacy$ ผ่านหลายวิธี รวมถึงการชนะสงคราม การสร้าง [legends|E] หรือการเข้าร่วม [activities|E] ในทำนองเดียวกัน มันสามารถสูญเสียได้จากการแพ้สงครามและบรรดาศักดิ์ หรือ [epidemics|E] ที่ไม่ถูกตรวจสอบซึ่งทำลายล้างแผ่นดิน#!"
+
+ ra_legitimacy_2: "$reactive_advice_legitimacy$"
+ ra_legitimacy_2_desc: "มุมมอง [legitimacy|E] สามารถพบได้ที่ด้านล่างซ้าย ประกอบด้วยข้อมูลเกี่ยวกับ [legitimacy_level|E] ของท่าน [legitimacy_expectations|E] ของท่าน จำนวน [legitimacy|E] ที่ท่านมีในปัจจุบัน และผลกระทบปัจจุบันของทั้งหมดข้างต้น\n\n#weak ข้อเสียและประโยชน์ของการมีคะแนน [legitimacy|E] ที่แน่นอนรวมถึงบทลงโทษและผลประโยชน์ด้านความเห็น โทษและโบนัส [dynasty_prestige|E] ต้นทุน [casus_belli|E] ที่เพิ่มขึ้นและลดลง และเกณฑ์ที่แตกต่างกันสำหรับ [alliances|E] และการเข้าร่วม [faction|E]#!"
+
+ action_reactive_advice_epidemics: "คำแนะนำ: โรคระบาด"
+ action_reactive_advice_epidemics_desc: "เปิดเพื่อแนะนำ [epidemics|E]"
+ action_reactive_advice_epidemics_click: "$click_to_open_lesson$"
+
+ reactive_advice_epidemics: "โรคระบาด"
+ ra_epidemics_panel_prompt: "เปิดแผง [epidemics|E]"
+ ra_specific_epidemics_panel_prompt: "เปิดแผง 'ดูโรคระบาด'"
+
+ ra_epidemics_1: "$reactive_advice_epidemics$"
+ ra_epidemics_1_desc: "[epidemics|E] คือการระบาดของโรคที่แพร่กระจายไปทั่วแผนที่ ส่งผลกระทบต่อทั้ง [characters|E] และ [holdings|E] เมื่อมีโรคระบาดอยู่ในพื้นที่ [baronies|E] ที่ได้รับผลกระทบจะมี [infection_rate|E] ที่ควบคุมความรุนแรงของผลกระทบ\n\nมุมมอง [epidemics|E] สามารถพบได้ที่ด้านล่างขวา"
+
+ ra_epidemics_2: "$reactive_advice_epidemics$"
+ ra_epidemics_2_desc: "[epidemic|E] แต่ละรายการบนแผนที่ถูกแบ่งออกเป็นส่วน ๆ ในแผง $reactive_advice_epidemics$\n\n$reactive_advice_epidemics$ ในอาณาจักรจะถ่ายทอดข้อมูลเกี่ยวกับ $reactive_advice_epidemics$ ภายในอาณาจักรของท่าน $reactive_advice_epidemics$ โลกจะแจ้งให้ท่านทราบเกี่ยวกับ $reactive_advice_epidemics$ ในส่วนที่เหลือของโลก และ $reactive_advice_epidemics$ ใกล้เคียงจะติดตามความคืบหน้าของ $reactive_advice_epidemics$ ที่ยังไม่ได้อยู่ในอาณาจักรของท่าน แต่อยู่ใกล้พอที่จะเป็นภัยคุกคามในอนาคตได้"
+
+ ra_epidemics_3: "$reactive_advice_epidemics$"
+ ra_epidemics_3_desc: "ภายในแผงนี้ ข้อมูลที่เกี่ยวข้องจะถูกเก็บไว้สำหรับโรคระบาด แต่ละชนิด มันติดตามว่าโรคระบาดมีความรุนแรงระดับใด ไม่รุนแรง รุนแรง หรือหายนะ เริ่มต้นเมื่อใดและที่ไหน มี [characters|E] เสียชีวิตไปกี่คน และทั้ง [modifiers|E] ของตัวละครและสถานที่ สำหรับ [baronies|E] และ [counties|E]\n\nปุ่ม 'ดูโรคระบาด' จะนำท่านไปสู่รายละเอียดเพิ่มเติม"
+
+ ra_epidemics_4: "$reactive_advice_epidemics$"
+ ra_epidemics_4_desc: "แผงนี้ รวมถึงข้อมูลเกี่ยวกับ [infection_rate|E] ของ แต่ละ [barony|E] ที่ได้รับผลกระทบจากโรคระบาด [infection_rate|E] จะคืบหน้าไปสู่ค่าสูงสุดในอัตราที่แตกต่างกันขึ้นอยู่กับความรุนแรงของโรคระบาด และสามารถบรรเทาได้ด้วย $game_concept_epidemic_resistance$\n\n#weak วิธีที่ท่านจัดการและรับมือกับ $reactive_advice_epidemics$ จะไม่เพียงแต่ควบคุมว่า [realm|E] ของท่านจะฟื้นตัวและเจริญรุ่งเรืองในภายหลังได้อย่างไร แต่ยังรวมถึงจำนวน [legitimacy|E] ที่ท่านจะสูญเสียในฐานะผู้ปกครองด้วย#!"
+
+ action_reactive_advice_legends: "คำแนะนำ: ตำนาน"
+ action_reactive_advice_legends_desc: "เปิดเพื่อแนะนำ [legends|E]"
+ action_reactive_advice_legends_click: "$click_to_open_lesson$"
+
+ reactive_advice_legends: "ตำนาน"
+ ra_legends_panel_prompt: "เปิดแผง [legends|E]"
+ ra_legends_view_panel_prompt: "เปิดแผงสร้างตำนาน"
+
+ ra_legends_1: "$action_reactive_advice_legends$"
+ ra_legends_1_desc: "[legends|E] คือเรื่องราวของการกระทำอันมีชื่อเสียงที่ [character|E] ได้ทำในช่วงชีวิตของพวกเขา แต่ละตำนานมี [legend_type|E] ของตัวเอง: การสร้างความชอบธรรม วีรกรรม หรือศักดิ์สิทธิ์\n\nมุมมอง [legends|E] สามารถพบได้ที่ด้านล่างซ้าย"
+
+ ra_legends_2: "$action_reactive_advice_legends$"
+ ra_legends_2_desc: "[legend|E] แต่ละรายการที่ท่านสามารถใช้ได้จะปรากฏที่นี่ พร้อมทั้งข้อมูลทั้งหมด\n\nด้านบนคือ [legend_seeds|E] ซึ่งเป็นพื้นฐานของตำนาน พวกมันสามารถได้รับหรือในบางกรณีอาจมีอยู่แล้ว เนื่องจากตัวละครของท่านมีคุณสมบัติตรงตามเกณฑ์บางอย่าง ด้านล่างคือ $action_reactive_advice_legends$ โลก ซึ่งติดตาม $action_reactive_advice_legends$ อื่น ๆ ในโลกที่ท่านไม่ได้ส่งเสริมอย่างแข็งขัน\n\n#weak 'ผู้ส่งเสริม' คือตัวละครที่สนับสนุนตำนานที่กำหนดอย่างแข็งขัน#!"
+
+ ra_legends_3: "$action_reactive_advice_legends$"
+ ra_legends_3_desc: "ข้อมูลที่รวมอยู่ในแผง $action_reactive_advice_legends$ รวมถึงต้นทุนพื้นฐาน การบำรุงรักษา ผลกระทบที่ใช้งานอยู่ และคุณภาพตำนาน\n\nไฮไลต์คือปุ่มที่ใช้เลือกตำนานจากรายการของท่าน"
+
+ ra_legends_4: "$action_reactive_advice_legends$"
+ ra_legends_4_desc: "แผงนี้ รวมถึงข้อมูลเกี่ยวกับตำนานที่ท่านกำลังจะสร้าง รวมถึงให้ท่านเลือก [characters|E] ตัวละครเหล่านี้คือตัวเลือกที่เป็นไปได้สำหรับ [legend_protagonists|E]\n\n#weak การเริ่มตำนานจะกระตุ้นพงศาวดารตำนาน ซึ่งท่านสามารถเพิ่ม [legend_quality|E] หรือทำให้ตำนานสมบูรณ์ได้#!"
+
+ # Plague Resistance
+ action_reactive_advice_plague_resistance: "คำแนะนำ: การต้านทานโรคระบาด"
+ action_reactive_advice_plague_resistance_desc: "เปิดเพื่อแนะนำ [epidemic_resistance|E]"
+ action_reactive_advice_plague_resistance_click: "$click_to_open_lesson$"
+
+ reactive_advice_plague_resistance: "การต้านทานโรคระบาด"
+
+ ra_plague_resistance_1: "$reactive_advice_plague_resistance$"
+ ra_plague_resistance_1_desc: "เมื่อต้องรับมือกับโรคระบาด ท่านมีทางเลือกไม่กี่อย่างในการจำกัดการแพร่กระจายของโรคระบาดในดินแดนของท่าน\n\nปัจจัยควบคุมหลักสำหรับสิ่งนี้คือ [epidemic_resistance|E] ยิ่งการต้านทานโรคระบาดของ [baronies|E] และ [counties|E] ของท่านสูงเท่าใด ท่านก็จะสามารถยับยั้งโรคระบาดได้ดีขึ้นเท่านั้น\n\n#weak แม้ว่าท่านจะสามารถต่อสู้กับโรคระบาดได้ สิ่งสำคัญคือต้องจำไว้ว่าท่านไม่น่าจะหยุดยั้งพวกมันได้อย่างสมบูรณ์ เตรียมพร้อมสำหรับโรคระบาดขนาดใหญ่ที่จะแพร่กระจายแม้ว่าท่านจะพยายามอย่างเต็มที่แล้วก็ตาม#!"
+
+ ra_plague_resistance_2: "$reactive_advice_plague_resistance$"
+ ra_plague_resistance_2_desc: "$reactive_advice_plague_resistance$ สามารถเพิ่มได้หลายวิธี อาคาร เช่น $building_type_hospices_01$ และ $building_type_charnel_grounds_01$ ให้โบนัสโดยธรรมชาติแก่ $reactive_advice_plague_resistance$ สำหรับ [county|E] หรือ [barony|E] ที่สร้างขึ้น\n\n ตัวเลือกอื่น ๆ ที่ไม่ถาวร ได้แก่ [court_position_tasks|E] ที่ดำเนินการโดย $court_physician_court_position$, [decisions|E] หรือเหตุการณ์ต่าง ๆ"
+
+ ra_plague_resistance_3: "$reactive_advice_plague_resistance$"
+ ra_plague_resistance_3_desc: "เมื่อ $reactive_advice_plague_resistance$ เพิ่มขึ้น [infection_rate|E] ของ [baronies|E] ที่เกี่ยวข้องจะลดลง\n\nแม้ว่าท่านไม่น่าจะสามารถกำจัดโรคระบาดขนาดใหญ่ได้อย่างสมบูรณ์เพียงแค่ใช้มาตรการ เช่นนี้ การลด [infection_rate|E] จะช่วยลดความเสียหายทั่วไปต่อ [realm|E] ของท่าน"
+
+ action_reactive_advice_tutorial_schemes: "คำแนะนำ: $game_concept_schemes$"
+ action_reactive_advice_tutorial_schemes_desc: "เปิดเพื่อแนะนำ [schemes|e]"
+ action_reactive_advice_tutorial_schemes_click: "$click_to_open_lesson$"
+ reactive_advice_tutorial_schemes: "$ra_tutorial_schemes_1$"
+
+ ra_tutorial_schemes_1: "$game_concept_schemes$"
+ ra_tutorial_schemes_1_desc: "ท่านเพิ่งเริ่ม [scheme|E]! $game_concept_schemes$ คือเป้าหมายระยะยาวที่มุ่งเป้าไปที่ตัวละครอื่น พวกมันสามารถมีเป้าหมายที่เป็นศัตรูได้ เช่น พยายาม [GetScheme('murder').GetTypeName] หรือ [GetScheme('abduct').GetTypeName] เป้าหมายของท่าน หรืออาจเป็นเรื่องที่ดีต่อสุขภาพมากกว่า เช่น [GetScheme('befriend').GetTypeName] $game_concept_scheme$"
+
+ ra_tutorial_schemes_2: "$game_concept_schemes$"
+ ra_tutorial_schemes_2_desc: "ท่านเพิ่งเริ่ม [scheme|E]! $game_concept_schemes$ คือเป้าหมายระยะยาวที่มุ่งเป้าไปที่ตัวละครอื่น พวกมันสามารถมีเป้าหมายที่เป็นศัตรูได้ เช่น พยายาม [GetScheme('murder').GetTypeName] หรือ [GetScheme('abduct').GetTypeName] เป้าหมายของท่าน หรืออาจเป็นเรื่องที่ดีต่อสุขภาพมากกว่า เช่น [GetScheme('befriend').GetTypeName] $game_concept_scheme$"
+
+ ra_tutorial_schemes_3: "$game_concept_schemes$"
+ ra_tutorial_schemes_3_desc: "นี่คือที่ที่ท่านจะเห็นแผนการที่ใช้งานอยู่ทั้งหมดของท่าน ท่านสามารถมี [personal_scheme|e] หนึ่งแผนและ [hostile_scheme|e] หนึ่งแผนที่ใช้งานพร้อมกันได้\n\n#TUT ใช้แผนการเมื่อใดก็ตามที่ท่านต้องการ แต่โปรดจำไว้ว่าตัวละครของท่านจะเก่งหรือด้อยกว่าในแผนการบางอย่างขึ้นอยู่กับ [traits|e] และ [skills|e] ของพวกเขา [perks|e] บางอย่างของ [lifestyle|e] สามารถปลดล็อก $game_concept_schemes$ เพิ่มเติมสำหรับตัวละครของท่านได้#!"
+
+ # Favorite Child
+ action_reactive_advice_favorite_child: "คำแนะนำ: บุตรคนโปรด"
+ action_reactive_advice_favorite_child_desc: "ตอนนี้ท่านสามารถเลือก [favorite_child|E] ได้แล้ว เปิดข้อความนี้เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับเรื่องนี้และวิธีเลือกพวกเขา"
+ action_reactive_advice_favorite_child_click: "$click_to_open_lesson$"
+
+ reactive_advice_favorite_child: "บุตรคนโปรด"
+
+ ra_favorite_child_1: "$reactive_advice_favorite_child$"
+ ra_favorite_child_1_desc: "ตอนนี้ท่านสามารถเลือกได้ว่าใครคือ [favorite_child|E] ของท่าน ซึ่งหมายความว่าพวกเขาจะมีความ [opinion|E] ต่อท่านสูงขึ้น และเมื่อท่านสิ้นชีพ ท่านสามารถเลือกที่จะสืบทอดมรดกของท่านในฐานะพวกเขาแทนทายาทของท่านได้\n\nบุตรคนโปรดของท่านสามารถเป็น:\n$BULLET_WITH_TAB$บุตร\n$BULLET_WITH_TAB$หลาน\n$BULLET_WITH_TAB$เหลน\nตราบใดที่พวกเขาอยู่ใน [dynasty|E] ของท่าน"
+ ra_favorite_child_1_prompt: "เปิดมุมมองตัวละครของท่าน (ไฮไลต์)"
+
+ ra_favorite_child_2: "$reactive_advice_favorite_child$"
+ ra_favorite_child_2_desc: "ในมุมมองตัวละคร ค้นหาบุตรที่ท่านต้องการกำหนดให้เป็นบุตรคนโปรด\n\nคลิกขวาที่บุตรเพื่อโต้ตอบ และมองหาตัวเลือก เลือกบุตรคนโปรด หรือคลิกที่บุตรจากบุตรของท่าน\n\nโปรดจำไว้ว่าการเลือก $game_concept_favorite_child$ ยังหมายความว่าบุตรคนอื่น ๆ อาจมีความเห็นต่อท่านต่ำลง"
+ ra_favorite_child_2_prompt: "คลิกขวาที่บุตรคนใดคนหนึ่งของท่านเพื่อดูปฏิสัมพันธ์ที่มีอยู่ (ไฮไลต์)"
+
+ ra_favorite_child_3: "$reactive_advice_favorite_child$"
+ ra_favorite_child_3_desc: "หลังจากเลือกบุตรคนโปรดแล้ว จะมีไอคอนบนรูปภาพของพวกเขา และ แม้ว่าพวกเขาจะไม่ใช่ทายาทของท่าน ก็เป็นไปได้ที่จะเล่นต่อในฐานะพวกเขาหลังจากท่านสิ้นชีพ\n\nหากท่านต้องการเปลี่ยนบุตรคนโปรดเมื่อใดก็ตาม ให้กลับไปที่มุมมองตัวละครและเลือกคนอื่น"
+
+
+ # Army Automation
+ action_reactive_advice_army_automation: "คำแนะนำ: $ARMY_AUTOMATION_FEATURE_NAME$"
+ action_reactive_advice_army_automation_desc: "หากท่านไม่ต้องการควบคุมทุก [war|E] ด้วยตนเอง ท่านสามารถเปิด $ARMY_AUTOMATION_FEATURE_NAME$ ได้ เปิดข้อความนี้เพื่อเรียนรู้วิธีการทำ"
+ action_reactive_advice_army_automation_click: "$click_to_open_lesson$"
+
+ reactive_advice_army_automation: "$ARMY_AUTOMATION_FEATURE_NAME$"
+
+ ra_army_auto_intro: "$reactive_advice_army_automation$"
+ ra_army_auto_intro_desc: "หากท่านต้องการมุ่งเน้นไปที่สิ่งอื่นนอกเหนือจากการควบคุม [armies|E] ของท่าน ท่านสามารถให้เกมควบคุมพวกมันได้"
+ ra_army_auto_open: "$reactive_advice_army_automation$"
+ ra_army_auto_open_desc: "ท่านสามารถสลับ $ARMY_AUTOMATION_FEATURE_NAME$ ได้ในมุมมองการทหาร"
+ ra_army_auto_open_prompt: "เปิดมุมมองการทหาร"
+ ra_army_auto_explain: "$reactive_advice_army_automation$"
+ ra_army_auto_explain_desc: "ที่นี่ท่านสามารถตัดสินใจได้ว่า [armies|E] ของท่านควรทำงานอัตโนมัติหรือไม่ ท่านสามารถทำได้ตลอดเวลา แม้กระทั่งกลาง [war|E]\n\nท่านยังคงซื้อ [men_at_arms|E] จ้าง [mercenaries|E] และออก [raids|E] ด้วยตนเอง ท่านสามารถปรับ แต่งพฤติกรรมนี้ได้ที่นี่ โดยคลิกปุ่มการตั้งค่า $ARMY_AUTOMATION_FEATURE_NAME$"
+
+ # EP3
+ action_reactive_advice_admin_gov: "คำแนะนำ: รัฐบาลบริหาร"
+ action_reactive_advice_admin_gov_desc: "ท่านกำลังเล่นภายใต้ [administrative_government|e] เปิดข้อความนี้เพื่อเรียนรู้เพิ่มเติม"
+ action_reactive_advice_admin_gov_click: "$click_to_open_lesson$"
+
+ action_reactive_advice_landless_adventurer: "คำแนะนำ: นักผจญภัยไร้ที่ดิน"
+ action_reactive_advice_landless_adventurer_desc: "ท่านกำลังเล่นเป็น [adventurer|e] เปิดข้อความนี้เพื่อเรียนรู้เพิ่มเติม"
+ action_reactive_advice_landless_adventurer_click: "$click_to_open_lesson$"
+ reactive_advice_landless_adventurer: "นักผจญภัยไร้ที่ดิน"
+
+ action_reactive_advice_agent_scheme_rework: "คำแนะนำ: แผนการพร้อมตัวแทน"
+ action_reactive_advice_agent_scheme_rework_desc: "เปิดเพื่อแนะนำ [schemes|e] พร้อม [agents|e]"
+ action_reactive_advice_agent_scheme_rework_click: "$click_to_open_lesson$"
+
+ action_reactive_advice_admin_gov_troops: "คำแนะนำ: การทหารฝ่ายบริหาร"
+ action_reactive_advice_admin_gov_troops_desc: "เปิดเพื่อแนะนำการจัดการทหารใน [administrative_government|e]"
+ action_reactive_advice_admin_gov_troops_click: "$click_to_open_lesson$"
+ reactive_advice_admin_gov_troops: "การทหารฝ่ายบริหาร"
+ ra_contracts_1_desc: "$game_concept_task_contract_desc$"
+
+ ra_landless_adventurer_1: "นักผจญภัยไร้ที่ดิน"
+ ra_landless_adventurer_2: "ค่ายของท่าน"
+ ra_landless_adventurer_3: "ผู้ติดตามของท่าน"
+ ra_landless_adventurer_4: "สัญญา"
+ ra_landless_adventurer_5: "วัตถุประสงค์ของค่าย"
+ ra_landless_adventurer_6: "บนเส้นทางสู่อำนาจ"
+ ra_landless_adventurer_1_desc: "@ra_landless_adventurer_2! \nท่านเป็น [adventurer|e]! เดินทางไปทั่วโลก เยี่ยมชม [courts|e] ของ [rulers|e] เพื่อหางาน และทำ [task_contracts|e] ให้สำเร็จเพื่อรับรางวัลที่เป็นประโยชน์ ท่านสามารถปรับปรุง [camp|e] ของท่าน รับสมัคร [followers|e] และสร้าง [contact_list|e] ขนาดใหญ่ได้"
+ ra_landless_adventurer_2_desc: "ในฐานะ [adventurer|e] ท่านไม่ได้ผูกติดอยู่กับที่ดินผืนใดผืนหนึ่ง แต่มีอิสระที่จะเดินทางไปทั่วโลก ฐานปฏิบัติการของท่านในฐานะ $game_concept_adventurer$ คือ [camp|e] ของท่าน ซึ่งท่านสามารถอัปเกรดและขยายด้วย [camp_buildings|e] ในระหว่างอาชีพนักผจญภัยของท่าน "
+ ra_landless_adventurer_3_desc: "ระหว่างการเดินทาง ท่านสามารถรวบรวม [followers|e] ซึ่งทำหน้าที่คล้ายกับ [courtiers|e] ของ [rulers|e] ที่มีที่ดิน เมื่อ [traveling|e] ในฐานะ [adventurer|e] ท่านจะมีโอกาสใช้ [travel_option|e] [GetTravelOption('adventurers_scout_for_talent_option').GetName]\n\nนอกจากนี้ ท่านอาจได้รับ $game_concept_followers$ ใหม่โดยการใช้ [decision|e] เยี่ยมชมที่ดิน ใน $game_concept_camp$ ของท่าน ท่านสามารถดู $game_concept_followers$ ของท่านผ่านปุ่มที่มุมบนซ้ายของแผงควบคุม"
+ ra_landless_adventurer_4_desc: "ในฐานะ [adventurer|e] แหล่งรายได้หลักของท่านคือ [task_contracts|e] ท่านสามารถเห็นพวกมันแสดงเป็นม้วนกระดาษบนแผนที่ $game_concept_task_contracts$ สามารถพบได้ทั่วโลก และต้องการให้ท่านทำงานเฉพาะอย่างให้สำเร็จสำหรับนายจ้าง\n\n[prestige_level|E] ของท่านกำหนด [task_contract_tier|e] ของ $game_concept_task_contracts$ ที่ท่านได้รับ การได้รับระดับชื่อเสียง [GetPrestigeLevelName('(int32)2')] หรือสูงกว่าจะปลดล็อกการซื้อหรือพิชิต [land|E] หากท่านต้องการเปลี่ยนไปเป็น [landed|E] [ruler|E] ระดับที่สูงขึ้นจะปลดล็อกตัวเลือกที่ทรงพลังยิ่งขึ้น\n\nท่านสามารถเข้าถึง $game_concept_task_contracts$ ใหม่ได้โดยการย้าย [camp|e] ของท่าน ซึ่งเป็นการกระทำที่จะต้องเสีย [provisions_i][provisions|e] จำนวนหนึ่งตามระยะทางที่ย้าย"
+ ra_landless_adventurer_5_desc: "ท่านสามารถดูรายละเอียดเกี่ยวกับ [camp|e] ของท่านได้ในแท็บ $game_concept_realm$ (ไฮไลต์) จากที่นั่น ท่านสามารถเปลี่ยน [camp_purpose|e] ของท่านและเปิดภาพรวม $game_concept_camp$ ได้\n\nวัตถุประสงค์ของ $game_concept_camp$ ของท่านจะกำหนดประเภทของ [task_contracts|e] ที่ท่านจะสามารถหาได้ อาจปลดล็อก [decisions|e] และ [camp_buildings|e] บางอย่าง รวมถึงประโยชน์อื่น ๆ อีกมากมาย"
+ ra_landless_adventurer_6_desc: "@ra_landless_adventurer!\nยอมรับ [task_contracts|e] ย้าย [camp|e] ของท่านเพื่อสำรวจส่วนต่าง ๆ ของโลก และเพิ่ม [following|e] ของท่าน\n\nในฐานะ [adventurer|e] ท่านมีอิสระที่จะเลือกเส้นทางในอนาคตของ [dynasty|e] ของท่าน ท่านจะอยู่บนท้องถนน พยายามได้รับ [title|e] ในดินแดนอันห่างไกล หรือยุ่งเกี่ยวกับกิจการของ [rulers|e] ทั่วโลก?"
+
+ reactive_advice_admin_gov: "รัฐบาลบริหาร"
+
+ ra_admin_gov_1: "$reactive_advice_admin_gov$"
+ ra_admin_gov_1b: "$reactive_advice_admin_gov$"
+ ra_admin_gov_2: "$reactive_advice_admin_gov$"
+ ra_admin_gov_2b: "$reactive_advice_admin_gov$"
+ ra_admin_gov_3: "ภาพรวมจังหวัด"
+ ra_admin_gov_4: "การสืบทอดและอิทธิพล"
+ ra_admin_gov_5: "การปกครองจังหวัด"
+ ra_admin_gov_5b: "การปกครองจังหวัด"
+ ra_admin_gov_6: "ตระกูลผู้ทรงอำนาจ"
+ ra_admin_gov_7: "ที่ดินส่วนตัว"
+ ra_admin_gov_8: "บนเส้นทางสู่อำนาจ"
+
+
+ ra_admin_gov_1_desc: "@ra_admin_gov_1!ท่านอยู่ในการปกครองแบบ [administrative_government|e] ซึ่งประกอบด้วย $TUTORIAL_GOVERNORS$ ผู้ ซึ่งจัดการและดูแลดินแดนแทน [top_liege|e] ของตน แม้ว่าพวกเขาจะไม่ได้เป็นเจ้าของดินแดนนั้นจริง ๆ ก็ตาม"
+ ra_open_admin_gov_panel_prompt: "เปิดแท็บ '$TUTORIAL_PROVINCES_NO_TOOLTIP$' ในแผงการปกครองแบบบริหาร (เน้นสี)"
+
+ ra_admin_gov_2_desc: "นี่คือ $TUTORIAL_PROVINCES$ ทั้งหมดที่มีอยู่ภายใน [top_realm|e]\n\n$TUTORIAL_GOVERNOR$ สามารถถือครอง $TUTORIAL_PROVINCE_NO_TOOLTIP$ ได้เพียงแห่งเดียว การเติบโตอย่างแข็งแกร่งหมายถึงการกระจายการปกครองเหนือ $TUTORIAL_PROVINCES_NO_TOOLTIP$ ในหมู่สมาชิก [house|e] ของตน\n\nเนื่องจาก $TUTORIAL_GOVERNORS_NO_TOOLTIP$ ไม่ได้เป็นเจ้าของ $TUTORIAL_PROVINCE_NO_TOOLTIP$ ของตน พวกเขาจึงจำเป็นต้องรักษาตำแหน่งของตนไว้ผ่าน [schemes|e] และการดำเนินการทางการเมือง\n\n#I ท่านสามารถตรวจสอบ $TUTORIAL_PROVINCES_NO_TOOLTIP$ ได้โดยการคลิกบนแผนที่ หรือในรายการ#!"
+ ra_open_admin_gov_theme_detail_prompt: "ตรวจสอบ $TUTORIAL_PROVINCE_NO_TOOLTIP$"
+
+ ra_admin_gov_3_desc: "[skills|e] ของ $TUTORIAL_GOVERNOR_NO_TOOLTIP$ และอันดับของพวกเขาใน [trait|e] [GetTrait('governor').GetName( GetNullCharacter )] จะเป็นตัวกำหนด [governor_efficiency|e] ของพวกเขา ซึ่งวัดว่าพวกเขาสามารถรวบรวม [levies|e] และ [taxes|e] ได้มากเพียงใดสำหรับ $game_concept_top_liege$ ของตน\n\n$game_concept_governor_efficiency$ ที่สูงยังช่วยเสริมความแข็งแกร่งให้กับ $TUTORIAL_PROVINCIAL_ARMIES$ ของ [province|E] อีกด้วย\n\nหากท่านคือ [top_liege|e] ท่านควรตั้งเป้าหมาย เพื่อให้แน่ใจว่า $game_concept_provinces$ ถูกถือครองโดย $TUTORIAL_GOVERNORS_NO_TOOLTIP$ ที่มี $game_concept_governor_efficiency$ สูง"
+ ra_admin_gov_3_prompt: "เปิดแท็บ 'การ แต่งตั้ง $TUTORIAL_GOVERNOR_NO_TOOLTIP$'"
+
+ ra_admin_gov_4_desc: "[succession|e] ของ $TUTORIAL_PROVINCE$ ใน [administrative_government|e] จะถูกกำหนดโดยการเลือกตั้ง ซึ่งท่านจะใช้ @influence_icon![influence|e] เพื่อเพิ่ม [candidate_score|E] ของผู้สมัคร \n\nหากท่านกำลังมองหาหนทางขยายอำนาจภายใน [realm|e] ท่านย่อมต้องการให้แน่ใจว่าสมาชิก [house|e] ของท่านได้เป็น $TUTORIAL_GOVERNORS$ หรือแม้กระทั่งถือครอง [title|e] $game_concept_top_realm$ เสียเอง"
+
+ ra_admin_gov_5_desc: "แต่ละ $TUTORIAL_PROVINCE$ ถูก [governed|e] โดย [family|e] ท่านสามารถเห็นตราอาร์มของ [house|e] แสดงอยู่ถัดจาก แต่ละ $TUTORIAL_PROVINCE_NO_TOOLTIP$\n\nเมื่อ $game_concept_house$ ของท่านได้รับ [titles|e] มากขึ้น ท่านจะมีความโดดเด่นมากขึ้น และอาจกลายเป็น [powerful_family|e] ได้"
+
+ ra_open_admin_gov_powerful_families_intro: "เปิดแท็บตระกูลขุนนาง (ไฮไลต์)"
+
+ ra_admin_gov_6_desc: "[powerful_family|e] คือ [house|e] ที่ทรงอิทธิพลใน [administrative_government|e] ตระกูลของ [top_liege|e] จะถือว่าทรงพลังเสมอ ไม่ว่า [powerful_family_rating_mid|e] ของพวกเขาจะเป็น เช่นไร นอกจากนี้ ยังสามารถมี $game_concept_powerful_families$ อื่น ๆ ได้อีกห้าตระกูล\n\nแม้ว่า $game_concept_house$ ใด ๆ จะสามารถกำหนด [powerful_family_attribute|E] ได้ แต่มันจะมีผลก็ต่อเมื่อตระกูลที่เกี่ยวข้องนั้นถือว่าทรงพลัง"
+ ra_open_admin_gov_open_estate_prompt: "ดูที่ดินส่วนตัวของท่าน"
+ ra_admin_gov_7_desc: "[estate|e] คือประเภทของ [domicile|e] ซึ่งแสดงถึงการถือครองที่ดินส่วนตัวที่ไม่ผูกติดกับ [landed|e] [titles|e] ใด ๆ โดยเฉพาะ ใน [administrative_government|e] มันทำหน้าที่เป็นฐานปฏิบัติการสำหรับ [family|e] ของท่าน และจะถูกสืบทอดภายใน [house|e] ของท่าน\n\nท่านสามารถอัปเกรดและสร้าง [estate_buildings|e] ใหม่ภายใน $game_concept_estate$ ของท่านเพื่อเพิ่ม [influence|e] และอิทธิพลทางการเมืองของท่านภายใน [realm|e]\n\n#TUT ที่น่าสังเกตคือ [feudal|e] [rulers|e] ภายใน $game_concept_administrative_government$ จะไม่สามารถเข้าถึง $game_concept_estate$ ได้#!"
+ ra_admin_gov_8_desc: "@ra_admin_gov_8! [administrative_government|e] เป็นเรื่องเกี่ยวกับครอบครัว อิทธิพลทางการเมือง การวางอุบาย และการ แต่งตั้งคนที่เหมาะสมกับงานที่เหมาะสม\n\nท่านจะใช้ [influence|e] เพื่อปรับปรุงสถานะของท่านภายใน [realm|e] ในขณะที่ชี้นำสมาชิกของ [dynasty|e] ของท่านไปสู่ตำแหน่งที่มีอำนาจ\n\n[scheme|e] ต่อต้านคู่แข่งของท่านและบ่อนทำลายอำนาจของพวกเขาผ่านการวางแผนทางการเมือง เส้นทางสู่อำนาจนั้นยาวนานและคดเคี้ยว แต่หากท่านเล่นไพ่ของท่านอย่างถูกต้อง ท่านอาจจะสามารถนำทางไปได้"
+
+ ra_agent_scheme_rework_1: "แผนการที่ซับซ้อน"
+ ra_agent_scheme_rework_1_desc: "มาใช้เวลาสักครู่เพื่อทบทวน [schemes|e] ที่ซับซ้อน $game_concept_schemes$ เหล่านี้ประกอบด้วยพารามิเตอร์หลักสามประการคือ [success_chance|e], [scheme_speed_single|e] และ [secrecy|e]\n\nเพื่อช่วยท่านในการทำ $game_concept_scheme$ ให้สำเร็จ มี [agents|e] ประเภทต่าง ๆ ซึ่งมักจะมาในกลุ่มที่เลือกไว้ล่วงหน้าห้าคนเมื่อเริ่ม $game_concept_scheme$ ที่ซับซ้อน"
+ reactive_advice_agent_scheme_rework: "$ra_agent_scheme_rework_1$"
+
+ ra_agent_scheme_rework_2: "รายละเอียดแผนการที่ซับซ้อน"
+ ra_agent_scheme_rework_2_desc: "[scheme|e] ที่ซับซ้อนจะดำเนินไปในช่วง [scheme_phases|e] หลายช่วง แต่ละ $game_concept_scheme_phase$ ประกอบด้วยจำนวนวันที่แน่นอน หลังจากนั้น [success_chance|e] ของท่านจะเพิ่มขึ้น\n\nมีโอกาสที่ท่านจะได้รับ [scheme_opportunity_opportunity|e] หลังจาก แต่ละ $game_concept_scheme_phase$ ซึ่งท่านสามารถใช้เพื่อโน้มน้าวให้ [agents|e] เข้าร่วม หรือเพื่อดำเนินการ $game_concept_scheme$ ด้วย $game_concept_success_chance$ ที่สูงขึ้น"
+
+ ra_agent_scheme_rework_3: "ศักยภาพของแผนการที่ซับซ้อน"
+ ra_agent_scheme_rework_3_desc: "แต่ละ [scheme|e] มี [scheme_potential|e] ที่เกี่ยวข้อง ศักยภาพนี้สามารถเพิ่มขึ้นได้โดยการใช้ [agents|e] และทำหน้าที่เป็นขีดจำกัดที่เข้มงวดสำหรับ [success_chance|e] สูงสุดที่ท่านสามารถสะสมได้\n\n$game_concept_scheme_potential$ ไม่สามารถเกิน 95% ได้ หมายความว่า $game_concept_schemes$ ทั้งหมด โดยไม่คำนึงถึงจำนวน [scheme_opportunity_opportunities|e] ที่ใช้เพื่อเพิ่ม $game_concept_success_chance$ จะมีโอกาสล้มเหลวเสมอ"
+
+ ra_agent_scheme_rework_4: "ความลับของแผนการที่ซับซ้อน"
+ ra_agent_scheme_rework_4_desc: "[scheme|e] ที่ซับซ้อนมีระดับ [secrecy|e] ที่แนบมาด้วย นี่คือค่าที่แสดงถึงความน่าจะเป็นที่ $game_concept_scheme$ จะถูกค้นพบ\n\nเมื่อเริ่ม $game_concept_scheme$ มันจะมีระยะเวลาผ่อนผันสองสามเดือน ซึ่งในระหว่างนั้นจะไม่สามารถถูกค้นพบได้ไม่ว่าในกรณีใด ๆ หลังจากช่วงเวลานี้ $game_concept_scheme$ มีความเสี่ยงที่จะถูกค้นพบผ่าน [scheme_breaches|e]\n\nท่านสามารถดำเนินการแผนการได้ แม้ว่าจะมี $game_concept_scheme_breaches$ แต่มันจะอยู่ที่ [success_chance|e] ที่ลดลง หาก $game_concept_scheme$ ของท่านสะสม $game_concept_scheme_breaches$ เจ็ดครั้ง มันจะถูกยกเลิก\n\n#TUT นอกจากนี้ แผนการพื้นฐานบางอย่าง เช่น [GetScheme('seduce').GetTypeName] อาจถือเป็นความลับและมีระยะเวลาผ่อนผันที่เกี่ยวข้อง#!"
+ 
+ ra_agent_scheme_rework_5: "ตัวแทนในแผนการที่ซับซ้อน"
+ ra_agent_scheme_rework_5_desc: "[schemes|e] ที่ซับซ้อนมีช่อง [agent|e] ห้าช่องที่สามารถเติมด้วยผู้สมรู้ร่วมคิดที่เป็นไปได้ โดยทั่วไปแล้ว เป็นความคิดที่ดีที่จะเติมช่อง $game_concept_agent$ ให้มากที่สุดเท่าที่จะเป็นไปได้ เนื่องจากพวกเขาสามารถให้โบนัสที่เป็นประโยชน์ต่อ [scheme_speed|e], [secrecy|e] หรือ [scheme_potential|e]\n\nประเภท $game_concept_agent$ ที่แตกต่างกันชอบ [skills|e] ที่แตกต่างกัน ตัวอย่าง เช่น [GetAgentSlotType( 'agent_infiltrator' ).GetName] ได้รับประโยชน์จาก [intrigue_i|e] [intrigue|e] และ [diplomacy_i|e] [diplomacy|e] นอกเหนือจาก [traits|e] บางอย่าง"
+
+ ra_agent_scheme_rework_6: "การดำเนินการแผนการ"
+ ra_agent_scheme_rework_6_desc: "เมื่อท่านรู้สึกมั่นใจว่าท่านได้วางแผนเพียงพอแล้ว อาจถึงเวลาพิจารณาดำเนินการ [scheme|e] ของท่าน ในการทำ เช่นนี้ ท่านสามารถใช้ประโยชน์จาก [EmptyScope.ScriptValue('multi_ending_scheme_charge_to_advance_threshold_t1_value')], [EmptyScope.ScriptValue('multi_ending_scheme_charge_to_advance_threshold_t2_value')], [EmptyScope.ScriptValue('multi_ending_scheme_charge_to_advance_threshold_t3_value')] หรือ [EmptyScope.ScriptValue('multi_ending_scheme_charge_to_advance_threshold_t4_value')] ของ [scheme_opportunity_opportunities|e] ที่ท่านสะสมไว้\n\nนอกจากนี้ หากท่านสงสัยว่ามีคนกำลังวางแผนต่อต้านท่าน อาจคุ้มค่าที่จะเปลี่ยน [scheme_countermeasure|e] ที่ใช้งานอยู่ของท่านเพื่อหลีกเลี่ยงเหตุการณ์ไม่คาดฝันที่อาจเกิดขึ้น\n\nขอให้โชคดี และมีความสุขกับการวางแผน!"
+
+# fallback to generic name if there is no GetPlayer i.e. we are in frontend
+ TUTORIAL_PROVINCIAL_ARMIES: "[SelectLocalization( GetPlayer.IsValid, 'TUTORIAL_PROVINCIAL_ARMIES_INGAME', 'PROVINCIAL_ARMIES_CONCEPT' )]"
+ TUTORIAL_PROVINCIAL_ARMIES_INGAME: "[GetPlayer.Custom('GetProvincialArmiesConcept')]"
+ TUTORIAL_PROVINCIAL_ARMIES_NO_TOOLTIP: "[SelectLocalization( GetPlayer.IsValid, 'TUTORIAL_PROVINCIAL_ARMIES_INGAME_NO_TOOLTIP', 'PROVINCIAL_ARMIES_CONCEPT_NO_TOOLTIP' )]"
+ TUTORIAL_PROVINCIAL_ARMIES_INGAME_NO_TOOLTIP: "[GetPlayer.Custom('GetProvincialArmiesConceptNoTooltip')]"
+
+ TUTORIAL_PROVINCE: "[SelectLocalization( GetPlayer.IsValid, 'TUTORIAL_PROVINCE_INGAME', 'PROVINCE_CONCEPT' )]"
+ TUTORIAL_PROVINCE_INGAME: "[GetPlayer.Custom('GetProvinceConcept')]"
+ TUTORIAL_PROVINCE_NO_TOOLTIP: "[SelectLocalization( GetPlayer.IsValid, 'TUTORIAL_PROVINCE_INGAME_NO_TOOLTIP', 'PROVINCE_CONCEPT_NO_TOOLTIP' )]"
+ TUTORIAL_PROVINCE_INGAME_NO_TOOLTIP: "[GetPlayer.Custom('GetProvinceConceptNoTooltip')]"
+
+ TUTORIAL_PROVINCES: "[SelectLocalization( GetPlayer.IsValid, 'TUTORIAL_PROVINCES_INGAME', 'PROVINCE_CONCEPT_PLURAL' )]"
+ TUTORIAL_PROVINCES_INGAME: "[GetPlayer.Custom('GetProvincePluralConcept')]"
+ TUTORIAL_PROVINCES_NO_TOOLTIP: "[SelectLocalization( GetPlayer.IsValid, 'TUTORIAL_PROVINCES_INGAME_NO_TOOLTIP', 'PROVINCE_CONCEPT_PLURAL_NO_TOOLTIP' )]"
+ TUTORIAL_PROVINCES_INGAME_NO_TOOLTIP: "[GetPlayer.Custom('GetProvincePluralConceptNoTooltip')]"
+
+ TUTORIAL_GOVERNOR: "[SelectLocalization( GetPlayer.IsValid, 'TUTORIAL_GOVERNOR_INGAME', 'GOVERNOR_CONCEPT' )]"
+ TUTORIAL_GOVERNOR_INGAME: "[GetPlayer.Custom('GetGovernorConcept')]"
+ TUTORIAL_GOVERNOR_NO_TOOLTIP: "[SelectLocalization( GetPlayer.IsValid, 'TUTORIAL_GOVERNOR_INGAME_NO_TOOLTIP', 'GOVERNOR_CONCEPT_NO_TOOLTIP' )]"
+ TUTORIAL_GOVERNOR_INGAME_NO_TOOLTIP: "[GetPlayer.Custom('GetGovernorConceptNoTooltip')]"
+
+ TUTORIAL_GOVERNORS: "[SelectLocalization( GetPlayer.IsValid, 'TUTORIAL_GOVERNORS_INGAME', 'GOVERNORS_CONCEPT' )]"
+ TUTORIAL_GOVERNORS_INGAME: "[GetPlayer.Custom('GetGovernorPluralConcept')]"
+ TUTORIAL_GOVERNORS_NO_TOOLTIP: "[SelectLocalization( GetPlayer.IsValid, 'TUTORIAL_GOVERNORS_INGAME_NO_TOOLTIP', 'GOVERNORS_CONCEPT_NO_TOOLTIP' )]"
+ TUTORIAL_GOVERNORS_INGAME_NO_TOOLTIP: "[GetPlayer.Custom('GetGovernorPluralConceptNoTooltip')]"
+# end of fallbacks
+
+ ra_admin_gov_troops_1: "การทหารในรัฐบาลบริหาร"
+ ra_admin_gov_troops_1b: "การทหารในรัฐบาลบริหาร"
+ ra_admin_gov_troops_1_desc: "@ra_admin_troops_1! ใน [administrative_government|e] การจัดการทหารและกองกำลังทำงานแตกต่างจากประเภท $game_concept_government$ อื่น ๆ\n\nในขณะที่ท่านยังคงสามารถเข้าถึงและควบคุมกองกำลังของท่านเองได้อย่างเต็มที่ ท่านยังสามารถเข้าถึง $TUTORIAL_PROVINCIAL_ARMIES$ ได้อีกด้วย ใน $game_concept_administrative_government$ แต่ละ [province|e] สามารถมี [army|e] ของตนเอง ซึ่งเป็นทรัพย์สินของ [title|e] นั้น ๆ โดยเฉพาะ\n\n[governors|e] รับบทบาทเป็นทั้งเจ้าหน้าที่พลเรือนและทหาร ในขณะที่ [top_liege|e] มีความสามารถในการจัดการกองกำลังของ $game_concept_governors$ โดยเข้าควบคุมพวกมันหรือมอบหมายให้ $game_concept_governors$ อื่น ๆ ทั่ว [realm|e]"
+ ra_admin_gov_troops_1_prompt: "เปิดแท็บ $TUTORIAL_PROVINCIAL_ARMIES_NO_TOOLTIP$ (ไฮไลต์)"
+
+ ra_admin_gov_troops_2: "การทหารในรัฐบาลบริหาร"
+ ra_admin_gov_troops_2b: "การทหารในรัฐบาลบริหาร"
+ ra_admin_gov_troops_2_desc: "[governors|e] สามารถสร้าง [men_at_arms|e] เป็นส่วนหนึ่งของ $game_concept_governorship$ ที่พวกเขารับผิดชอบ กองกำลังเหล่านี้เป็นของ [title|e] และสามารถยืมโดย $game_concept_governors$ อื่น ๆ ใน [realm|e] ได้\n\n[top_liege|e] มี $TUTORIAL_PROVINCIAL_ARMIES$ อยู่ในมือ และมีความสามารถในการจัดการกองกำลังของ $game_concept_governors$ พวกเขาสามารถเข้าควบคุมพวกมันใน [wars|e] ของตนเอง หรือมอบหมายใหม่ให้กับ $game_concept_governors$ ที่อาจต้องการ\n\nสิ่งนี้ ทำให้พวกเขามีความสามารถในการระดมพลและใช้พวกมัน ปรับปรุงการป้องกันตามแนวชายแดนของ $game_concept_realm$"
+ ra_admin_gov_troops_2_prompt: "ตรวจสอบ [GetPlayer.Custom('GetProvincialArmyConceptNoTooltip')]"
+
+ ra_admin_gov_troops_3: "การได้รับกองทัพเพิ่มเติม"
+ ra_admin_gov_troops_3_desc: "ในฐานะ [governor|E] ท่านสามารถใช้อิทธิพล [influence|e] ของท่านเพื่อเรียกความช่วยเหลือจาก $game_concept_army$ จาก [province|e] อื่นได้\n\n[top_liege|e] สามารถบังคับ $game_concept_governor$ ใด ๆ ให้มอบหมาย $game_concept_army$ ของตนใหม่ หรือเข้าควบคุมเสียเองก็ได้"
+
+ ra_admin_gov_troops_4: "ข้อมูลเฉพาะของกองทัพ"
+ ra_admin_gov_troops_4_desc: "หากกองกำลังถูกระดมโดย [governor|e] ใน [war|e] [top_liege|e] จะไม่สามารถมอบหมายกองกำลังใหม่ได้จนกว่าพวกเขาจะถูกปลดประจำการ\n\nในกรณีที่มีการกบฏจาก $game_concept_governors$ ต่อ [liege|e] $game_concept_governor$ จะยึดกองกำลังใด ๆ ที่มาจาก [governorship|e] ของตนกลับคืนไป\n\nจงจับตาสถานการณ์ในอาณาจักรทั้งหมดเพื่อเพิ่มประสิทธิภาพการใช้งาน"
+
+ ra_admin_gov_troops_5: "บนเส้นทางสู่อำนาจ"
+ ra_admin_gov_troops_5_desc: "@ra_admin_troops_5! ในขณะที่ [administrative|e] [realm|e] ขับเคลื่อนด้วยการดำเนินการทางการเมืองและการวางอุบาย การมีกองทัพที่แข็งแกร่งและมีการจัดการที่ดีจะไม่เพียง แต่ปรับปรุงการป้องกันของท่านเท่านั้น แต่ยังช่วยในการแสวงหาทางการทูตของท่านอีกด้วย\n\nท้ายที่สุดแล้ว อำนาจทางทหารเป็นเพียงหนึ่งในหลายเส้นทางสู่อำนาจ..."
+ 
+ action_reactive_advice_laamp_contract_move: "$open_tutorial_lesson$ การหาสัญญา"
+ action_reactive_advice_laamp_contract_move_desc: "โอกาส [task_contract|E] ในท้องถิ่นของท่านขาดแคลนหรือไม่? เปิดข้อความนี้เพื่อแนะนำการหาสัญญาใหม่"
+ action_reactive_advice_laamp_contract_move_click: "$click_to_open_lesson$"
+ reactive_advice_laamp_contract_move: "$ra_laamp_contract_move_1$"
+
+ ra_laamp_contract_move_1: "การหาสัญญา"
+ ra_laamp_contract_move_1_desc: "หากงานในพื้นที่ท้องถิ่นของท่านหมดลง หรือท่านแสวงหางานที่น่าตื่นเต้นยิ่งขึ้น การย้าย [camp|E] ของท่านเป็นวิธีที่ง่ายที่สุดในการหา [task_contracts|E] ใหม่ ๆ มากมาย\n\nท่านต้อง [travel|E] เป็นระยะทางพอสมควรจากที่ตั้งแคมป์เก่าของท่าน เพื่อให้แน่ใจว่าท่านจะพบโอกาสใหม่ ๆ เมื่อท่านมาถึง"
+ ra_domicile_camp_task: "ไปที่หน้าต่างค่าย"
+
+ ra_laamp_contract_move_2: "การย้ายค่ายของท่าน"
+ ra_laamp_contract_move_2_desc: "นี่คือตัวอย่างของจุดหมายปลายทางที่อยู่ห่างจากตำแหน่ง [camp|E] ปัจจุบันของท่านพอสมควร\n\nท่านอาจวางแผน [travel|E] โดยตรงจากมุมมอง [county|E] ไปยัง [barony|E] ที่เลือกในเคาน์ตี\n\n#weak หมายเหตุ: ท่านอาจเริ่มการเดินทางของค่ายจากหน้าต่างค่าย โดยใช้ปุ่มย้ายที่อยู่ด้านล่าง#!"
+ ra_domicile_travel_task: "ไปที่มุมมอง $relocate_camp_to_interaction$"
+
+ ra_laamp_contract_move_3: "การเดินทางพร้อมค่ายของท่าน"
+ ra_laamp_contract_move_3_desc: "[traveling|E] พร้อม [camp|E] ของท่านทำงานเหมือนกับการเดินทางปกติ แต่ท่านนำ [camp_buildings|E] และ [followers|E] ทั้งหมดไปด้วย และต้องใช้ [provisions|E]"
+ ra_domicile_depart_task: "เริ่มการเดินทางของค่ายของท่าน"
+
+ ra_laamp_contract_move_4: "$ra_laamp_contract_move_3$"
+ ra_laamp_contract_move_4_desc: "$ra_laamp_contract_move_3_desc$"
+ ra_domicile_arrive_task: "เสร็จสิ้นการเดินทางของค่ายของท่าน"
+
+ ra_laamp_contract_move_5: "สัญญาใหม่"
+ ra_laamp_contract_move_5_desc: "ตอนนี้ท่านมาถึงแล้ว [task_contracts|E] ใหม่ ๆ หลายรายการจะพร้อมให้ท่านใช้งานในภูมิภาค!\n\nโปรดจำไว้ว่า ท่านอาจย้าย [camp|E] ของท่านได้ตลอดเวลาเพื่อหา [task_contracts|E] ใหม่ ๆ และโอกาสใหม่ ๆ จะเกิดขึ้นตราบใดที่ท่าน [travel|E] ไกลพอ อย่างน้อยสอง [de_jure|E] [duchies|E] ห่างจากที่ตั้งแคมป์เก่าของท่านเป็นกฎเกณฑ์ขั้นต่ำที่ดี"
+ 
+ reactive_advice_tutorial_war: "สงคราม"
+ reactive_advice_lesson_army_movement: "$lesson_army_movement$"
+ reactive_advice_lesson_army_purpose: "การรบและการปิดล้อม"
+ reactive_advice_lesson_battle_mechanics: "$lesson_battle_mechanics$"
+ reactive_advice_lesson_siege_mechanics: "$lesson_siege_mechanics$"
+ reactive_advice_lesson_warscore: "$lesson_warscore$"
+ reactive_advice_lesson_winning_wars: "$lesson_winning_wars$"
+ reactive_advice_lesson_losing_wars: "$lesson_losing_wars$"
+
+ #CE2
+
+ reactive_advice_migration: "การอพยพ"
+
+action_reactive_advice_migration: "คำแนะนำ: $reactive_advice_migration$"
+action_reactive_advice_migration_desc: "ในฐานะชนเผ่าเร่ร่อนภายในทุ่งหญ้าสเตปป์อันยิ่งใหญ่ ท่านสามารถอพยพไปยังดินแดนใหม่ได้ เปิดเพื่อเรียนรู้เพิ่มเติมเกี่ยวกับการอพยพ"
+action_reactive_advice_migration_click: "$click_to_open_lesson$"
+
+ ra_migration_1: "$reactive_advice_migration$"
+ ra_migration_1_desc: "เมื่อเล่นเป็น[nomad|E]ใน[the_great_steppe|E] ท่านมีความเป็นไปได้ที่จะ[migrate|E]\nการอพยพมีความสำคัญต่อชนเผ่าเร่ร่อน เนื่องจากเป็นหนทางอันยอดเยี่ยมในการค้นหาดินแดนใหม่ เพื่อให้[herd|E]ของท่านได้เล็มหญ้าและเติบโตขยายใหญ่\n\n[herd|E]เป็นตัวแทนของผู้คนและฝูงปศุสัตว์ของท่าน และ[herd|E]ของท่านต้องการดินแดนที่มี[county_fertility|E]ดี เพื่อให้มีอาหารเพียงพอ\nให้เรามาดูกันว่าจะค้นหาจุดที่ดีที่สุดในทุ่งสเตปป์ ซึ่งความอุดมสมบูรณ์จะเป็นประโยชน์ต่อท่านและ[realm|E]ของท่านได้อย่างไร"
+ ra_migration_1_prompt: "คลิกที่ปุ่มการอพยพ (ที่เน้นสี)"
+
+ ra_migration_1b: "$ra_migration_1$"
+
+ ra_migration_2: "$reactive_advice_migration$"
+ ra_migration_2_desc: "การเลือกที่ตั้งใหม่สำหรับท่านและ[herd|E]ของท่านควรจะขึ้นอยู่กับ[county_fertility|E]เป็นหลัก ความอุดมสมบูรณ์ของดินแดนวัดจากระดับ 0-100 และจะลดลงอย่างต่อเนื่องเมื่อท่านอาศัยอยู่ในดินแดนนั้น เมื่อมันหมดลง ท่านจำเป็นต้อง[migrate|E]ไปยังที่ตั้งใหม่เพื่อการเติบโตต่อไป"
+ ra_migration_2_prompt: "คลิกที่ปุ่มโหมดแผนที่เพื่อดูโหมดแผนที่ความอุดมสมบูรณ์ (ที่เน้นสี)"
+
+ ra_migration_3: "$reactive_advice_migration$"
+ ra_migration_3_desc: "ระยะทางที่ท่านสามารถ[migrate|E]ได้นั้นขึ้นอยู่กับ[title_tiers|E]ของท่านและกฎหมาย[dominance|E]ที่ท่านบังคับใช้อยู่ในปัจจุบัน อาณาจักรที่มีเขตปกครองขนาดใหญ่และมี[dominance|E]สูงจะมีความต้องการจากการอพยพที่แตกต่างออกไป และในบางจุดอาจไม่จำเป็นต้องอพยพเลยเพื่อการขยาย[herd|E]ของท่าน หากต้องการเลือกสถานที่ที่ท่านอาจต้องการอพยพไป ให้คลิกที่ตำแหน่ง[de_jure|E]บนแผนที่"
+ ra_migration_3_prompt: "คลิกที่สถานที่ใดก็ได้ภายในระยะบนแผนที่"
+
+ ra_migration_4: "$reactive_advice_migration$"
+ ra_migration_4_desc: "ขึ้นอยู่กับสถานที่ที่ท่านเลือก ท่านจะเห็นหมุดบนแผนที่บอกถึง[county_fertility|E]ที่เฉพาะเจาะจง หรือผลรวมของ[domain_fertility|E]ทั้งหมดของตำแหน่ง[de_jure|E]ที่เลือก"
+
+ ra_migration_5: "$reactive_advice_migration$"
+ ra_migration_5_desc: "สถานที่ที่ท่านเลือกสำหรับการ[migration|E]นั้นมักจะมี[nomad|E]หรือ[herder|E]อย่างน้อยหนึ่งรายที่คุณจะต้องเจรจาด้วยเพื่อขออนุญาตเข้าพื้นที่ ท่านสามารถเสนอ[herd|E], [gold|E]หรือใช้[hook|E]เพื่อช่วยโน้มน้าวให้พวกเขายอมรับข้อเสนอของท่านในการอพยพเข้าสู่พื้นที่ของพวกเขา"
+
+ ra_migration_6: "$reactive_advice_migration$ (ยอมรับการเจรจา)"
+ ra_migration_6_desc: "อาจมี[nomads|E]หลายกลุ่มในสถานที่เป้าหมายของท่าน หากท่าน[migrate|E]อย่างเป็นปรปักษ์ พวกเขาทั้งหมดจะตอบโต้ แต่หากท่านสามารถชักชวนตัวละครที่แข็งแกร่งที่สุดในพื้นที่ให้ยอมรับการย้ายถิ่นของท่านได้ พวกเขาทั้งหมดก็จะต้อนรับท่าน \n\n หากการเจรจาการอพยพเป็นผลสำเร็จ ท่านจะต้องละทิ้งตำแหน่งปัจจุบันของท่าน และอาจ รวมถึง[subjects|E]ของท่านด้วย"
+
+ ra_migration_7: "$reactive_advice_migration$ (ปฏิเสธการเจรจา)"
+ ra_migration_7_desc: "หาก[nomad|E]ที่มี[herd|E]ใหญ่ที่สุดในพื้นที่ไม่ยอมรับข้อเสนอของท่าน ท่านจะต้องประกาศ[war|E]ต่อพวกเขาและชนเผ่าเร่ร่อนอื่นๆ ทั้งหมดที่อาศัยอยู่ในสถานที่ที่เลือก ท่านสามารถดูความแข็งแกร่งของฝูงสัตว์ทั้งหมดที่แสดงในหน้าต่างสำหรับกรณีเหล่านี้ได้\n\nเช่นเดียวกับการเจรจาที่สำเร็จ การปฏิเสธข้อเสนอจะนำไปสู่การที่ท่านต้องละทิ้ง[title|E]ปัจจุบันของท่าน และอาจ รวมถึง[subjects|E]ของท่านด้วย ท่านจะถูกพิจารณาว่าเป็น[unlanded|E]ด้วย ซึ่งหมายความว่าท่านไม่มี[county_fertility|E]และ ดังนั้นฝูงสัตว์ของท่านจะไม่เติบโต\n\nจึงเป็นเรื่องสำคัญอย่างยิ่งที่จะต้องชนะสงคราม หรือหลังจากนั้นก็ค้นหาสถานที่อื่น เพื่อให้ท่านและฝูงปศุสัตว์ของท่านอพยพไป"
+
+ ra_migration_8: "$reactive_advice_migration$"
+ ra_migration_8_desc: "หากทุกอย่างเป็นไปด้วยดีกับการ[migration|E] ท่านจะมีดินแดนใหม่มากมายให้เล็มหญ้า มีความเป็นไปได้ใหม่ๆ ในการจัดการกับ[settlement_issue|E] ซึ่งเปิดโอกาสให้ท่านจัดการความขัดแย้งและเพิ่ม[county_control|E]ใน[domain|E]ใหม่\n\nดินแดนเปลี่ยนมือบ่อยครั้งใน[the_great_steppe|E] ดังนั้นจงรักษาสมดุลระหว่าง[dread|E]กับ[opinion|E]ของท่านให้ดีเพื่อเปิดทุกประตูไว้เสมอ การสูญเสียตำแหน่งหนึ่งสำหรับ[nomad|E]หมายถึงโอกาสสามเท่าที่จะคว้ามาได้ตราบใดที่ท่านยังคงขยาย[herd|E]และ[dominance|E]ของท่านต่อไป"
+
+ # one small steppe for man...
+
+ reactive_advice_great_steppe: "ทุ่งหญ้าสเตปป์อันยิ่งใหญ่"
+
+ action_reactive_advice_great_steppe: "คำแนะนำ: $reactive_advice_great_steppe$"
+ action_reactive_advice_great_steppe_desc: "ทุ่งหญ้าสเตปป์อันยิ่งใหญ่เป็นสถานการณ์ที่ท่านจะต้องคำนึงถึงความอุดมสมบูรณ์ของดินแดน เปิดเพื่อเรียนรู้เพิ่มเติมว่าสิ่งนี้ส่งผลกระทบต่ออะไรบ้าง"
+ action_reactive_advice_great_steppe_click: "$click_to_open_lesson$"
+
+ ra_great_steppe_1: "$reactive_advice_great_steppe$"
+ ra_great_steppe_1_desc: "ยินดีต้อนรับสู่[the_great_steppe|E]!\n\nเมื่อเล่นเป็น[ruler|E]แบบ[GetGovernment( 'nomad_government' ).GetName] การ ทำให้แน่ใจว่า[herd|E]ของพวกเขาสามารถเติบโตได้คือข้อกังวลหลัก ฝูงสัตว์จะเติบโตได้ด้วยการมีดินแดนที่อุดมสมบูรณ์ให้เล็มหญ้า ดังนั้นท่านจึงจำเป็นต้องเดินทางไปรอบๆ เพื่อค้นหาทุ่งหญ้าที่อุดมสมบูรณ์ เพื่อให้ท่านและฝูงปศุสัตว์ของท่านเจริญรุ่งเรือง\n\nชนเผ่าเร่ร่อนปกครองในภูมิภาคทุ่งสเตปป์ ที่ ซึ่งท่านจะมีส่วนร่วมใน[situation|E] ทุ่งสเตปป์แบ่งออกเป็นสามภูมิภาค โดยเน้นไปที่[county_fertility|E]ของดินแดน"
+ ra_great_steppe_1_prompt: "คลิกปุ่มสถานการณ์เพื่อดำเนินการต่อ (ที่เน้นสี)"
+
+ ra_great_steppe_1b: "$reactive_advice_great_steppe$"
+
+ ra_great_steppe_2: "$reactive_advice_great_steppe$"
+ ra_great_steppe_2_desc: "แต่ละภูมิภาคทั้งสามจะได้รับผลกระทบจาก[steppe_season|E] ฤดูกาลเหล่านี้ไม่ใช่ฤดูหนาวหรือฤดูร้อนตามปกติ แต่เป็นผลกระทบระยะยาวต่อ[county_fertility|E]ของดินแดน\n\nผลกระทบเหล่านี้จะส่งผลต่อท่านอย่างไรและที่ไหนสามารถดูได้จากผลกระทบของฤดูกาล ตัวอย่าง เช่น การอาศัยอยู่ในภูมิภาคที่มีทุ่งหญ้าอุดมสมบูรณ์จะมีผลกระทบต่อความอุดมสมบูรณ์ เพื่อให้[herd|E]ของท่านได้เล็มหญ้า แต่มันก็จะส่งผลกระทบต่อความเห็นของผู้คนที่ติดตามท่านด้วย"
+
+ ra_great_steppe_3: "$reactive_advice_great_steppe$"
+ ra_great_steppe_3_desc: "เพื่อให้สามารถวางแผนล่วงหน้าได้ ท่านสามารถขอความช่วยเหลือจาก[GetCourtPositionType('court_astrologer_court_position').GetName()]ของท่านได้ นักดูดาวจะทำนายโอกาสของสองฤดูกาลที่จะเป็นฤดูถัดไปในภูมิภาค\n\nด้วยข้อมูลนี้ ท่านสามารถตัดสินใจได้ว่าการอยู่ในสถานที่เดิมนั้นดีที่สุดหรือควรพยายาม[migrate|E]ไปยังภูมิภาคข้างเคียง\n\nยิ่งท่านสามารถอยู่ในดินแดนที่อุดมสมบูรณ์ได้นานเท่าใด [herd|E]ของท่านก็จะยิ่งใหญ่ขึ้นและผู้คนของท่านก็จะมีความสุขมากขึ้นเท่านั้น"
+
+ ra_great_steppe_4: "$reactive_advice_great_steppe$"
+ ra_great_steppe_4_desc: "เพื่อให้เห็นภาพรวมว่า[nomads|E]อื่นๆ ใน[the_great_steppe|E]เป็นอย่างไรบ้าง ท่านสามารถดูได้ที่ด้านล่างของแผงควบคุม ชนเผ่าเร่ร่อนที่มี[herd|E]ใหญ่ที่สุดจะดำรงตำแหน่ง[gurkhan|E] โดยความแข็งแกร่งของฝูงสัตว์ของพวกเขาจะเป็นทั้งภัยคุกคามที่ใหญ่ที่สุดหรือพันธมิตรที่ยิ่งใหญ่ที่สุดที่ท่านสามารถพบได้ในทุ่งสเตปป์ หากท่านดำรงตำแหน่งนี้ ท่านยังมีโอกาสที่จะยกระดับ[dominance|E]ของท่าน (ในแผงอาณาจักร) สู่ระดับที่ห้าและเป็นระดับสุดท้ายคือ อำนาจครอบงำอันไร้ขีดจำกัด\n\nความแข็งแกร่งของฝูงสัตว์จะถูกใช้ระหว่างสงครามและการปล้นสะดม แต่อยู่ในรูปแบบของ[horde|E] [horde|E]คือส่วนหนึ่งของฝูงสัตว์ของท่านที่เหมาะสมกับการรบ ดังนั้นให้คิดเสียว่าเป็นม้า อูฐ และผู้คนของท่านที่สามารถถือคันธนูและลูกธนูได้ ในขณะที่ฝูงสัตว์ที่เหลือคือแกะ วัว และเด็ก เป็นต้น"
+
+ ra_great_steppe_5: "$reactive_advice_great_steppe$"
+ ra_great_steppe_5_desc: "หากต้องการดูภูมิภาคอื่น ท่านสามารถคลิกที่ภูมิภาคนั้นๆ ในมุมมองนี้ได้ แต่ภูมิภาคที่ส่งผลกระทบต่อท่านคือภูมิภาคที่ท่านอยู่ในปัจจุบัน \n\n บัดนี้ ท่านพร้อมที่จะนำฝูงปศุสัตว์ของท่านทั้งในยามอุดมสมบูรณ์และยามยากลำบากแล้วหรือยัง? การค้นหาดินแดนใหม่ผ่านทาง[war|E]หรือการ[migrating|E]เป็นทางเลือกเสมอสำหรับ[ruler|E]ผู้แข็งแกร่งแบบ[GetGovernment( 'nomad_government' ).GetName]เพื่อแสดงให้ผู้คนของท่านเห็นหนทางสู่ดินแดนอันอุดมสมบูรณ์ ดุจแอปเปิลทองคำแห่งทุ่งสเตปป์"
+
+
+reactive_advice_kurultai: "สภาคุรุลไท"
+
+action_reactive_advice_kurultai: "คำแนะนำ: $reactive_advice_kurultai$"
+action_reactive_advice_kurultai_desc: "เปิดที่นี่เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับสภาของชนเผ่าเร่ร่อน คุรุลไต"
+action_reactive_advice_kurultai_click: "$click_to_open_lesson$"
+
+ ra_kurultai_1: "$reactive_advice_kurultai$"
+ ra_kurultai_1_desc: "ท่านมี[council|E]แบบ[kurultai|E]ในฐานะผู้ปกครองใน[the_great_steppe|E] \n\nท่านอาจคุ้นเคยกับการมีสภาอยู่แล้ว แต่เมื่อเล่นเป็น[nomad|E] ท่านจะมีผู้บริหารประเภทใหม่ที่จะมุ่งเน้นไปที่การสนับสนุนการเติบโตของ[county_fertility|E]หรือ[herd|E]ของท่านมากขึ้น"
+ ra_kurultai_1_prompt: "คลิกที่แผงสภาเพื่อดำเนินการต่อ (ที่เน้นสี)"
+
+ ra_kurultai_1b: "$ra_kurultai_1$"
+
+ ra_kurultai_2: "$reactive_advice_kurultai$"
+ ra_kurultai_2_desc: "ท่านสามารถมีสมาชิก[kurultai|E]ได้ 4 คนใน[council|E]ของท่าน ร่วมกับ[spouse|E]ของท่านและ[spymaster|E]หนึ่งคน คุรุลไตสามารถมีภารกิจต่างๆ ที่ผูกกับ[skills|E]หลากหลาย เช่น การจัดการความอุดมสมบูรณ์จะเป็นภารกิจหนึ่งที่อิงตาม[stewardship|E]ของคุรุลไตของท่าน หากท่านได้มอบหมายคุรุลไตแล้ว ท่านสามารถคลิกปุ่มที่มุมล่างซ้ายเพื่อสลับภารกิจออกได้"
+
+ ra_kurultai_3: "$reactive_advice_kurultai$"
+ ra_kurultai_3_desc: "[kurultai|E]จะทำงานตามภารกิจที่ได้รับมอบหมาย แต่ผลกระทบที่ใหญ่ที่สุดของพวกเขาจะอยู่ที่[succession|E]ของ[realm|E]ของท่าน\n\nตัวละคร แต่ละคนใน[the_great_steppe|E]สามารถ[obedient|E]ต่อ[ruler|E]คนหนึ่งได้ และการเชื่อฟังมีความสำคัญอย่างยิ่งโดยเฉพาะสำหรับสมาชิกคุรุลไตของท่านและคำพูดของพวกเขาว่าใครจะเป็น[heir|E]ของท่าน"
+ ra_kurultai_3_prompt: "คลิกที่แท็บอาณาจักรเพื่อดำเนินการต่อ (ที่เน้นสี)"
+
+ ra_kurultai_4: "$reactive_advice_kurultai$"
+ ra_kurultai_4_desc: "ที่ด้านบนของแผงนี้ ท่านสามารถดูได้ว่า[succession|E]ของท่านถือว่ามั่นคงหรือวุ่นวาย นี่จะเป็นตัวบ่งชี้ว่า[heir|E]ของท่านจะสืบทอด[realm|E]ทั้งหมดของท่านหรือว่าจะถูกแบ่งแยกให้กับตัวละครอื่นที่ทรงพลังกว่า"
+ ra_kurultai_4_prompt: "คลิกที่แท็บการสืบทอดเพื่อดำเนินการต่อ (ที่เน้นสี)"
+
+ ra_kurultai_5: "$reactive_advice_kurultai$"
+ ra_kurultai_5_desc: "ในแถบที่เน้นสี ท่านจะได้รับข้อบ่งชี้ว่า[kurultai|E]และบุตรคนโตสุดของท่านจะเห็นชอบกับ[succession|E]หรือคัดค้าน\n\nเพื่อให้การสืบทอดมั่นคง ท่านจำเป็นต้อง ทำให้คุรุลไต[obedient|E]ต่อท่าน แต่ท่านก็จำเป็นต้องให้[steppe_seasons|E]เป็นใจให้ท่านด้วย หากฤดูกาลปัจจุบันส่งผลกระทบต่อดินแดนของท่านในทางที่ไม่ดี เช่น ภัยซุด ผู้คนของท่านจะคิดว่าท่านกำลังถูกลงโทษและจะตั้งคำถามต่อการปกครองของท่านและการตัดสินใจว่าใครจะเป็นผู้สืบทอดตำแหน่งต่อจากท่าน \n\nเพื่อที่จะควบคุมการสืบทอดต่อไป จง ทำให้ผู้คนของท่านเชื่อฟังและ[migrate|E]ไปยังดินแดนที่เป็นประโยชน์ต่อท่าน"
+
+
+# tributaries
+ reactive_advice_tributaries: "บรรณาการ"
+
+ action_reactive_advice_tributaries: "คำแนะนำ: $reactive_advice_tributaries$"
+ action_reactive_advice_tributaries_desc: "เมืองขึ้นเป็นประเภทหนึ่งของผู้อยู่ใต้ปกครองที่ผู้ปกครองสามารถมีได้ เปิดที่นี่เพื่อทำความเข้าใจเบื้องต้นว่าเมืองขึ้นคืออะไร"
+ action_reactive_advice_tributaries_click: "$click_to_open_lesson$"
+
+ ra_tributaries_1: "$reactive_advice_tributaries$"
+ ra_tributaries_1_desc: "[tributaries|E]เป็นประเภทหนึ่งของ[subject|E] ซึ่งเป็นความสัมพันธ์ระหว่าง[rulers|e]สองฝ่ายที่มีการตกลงทำ[truce|E]เพื่อแลกกับการจ่ายเงินเป็นระยะ เมื่อข้อตกลงมีผลบังคับใช้ เมืองขึ้นจะมอบ[herd|E], [taxes|E]หรือ[prestige|E]ให้กับอีกฝ่าย ซึ่งก็คือ[suzerain|E]ของตน"
+ ra_tributaries_1_prompt: "คลิกที่แผงอาณาจักรเพื่อดำเนินการต่อ (ที่เน้นสี)"
+
+ ra_tributaries_2: "$reactive_advice_tributaries$"
+ ra_tributaries_2_desc: "เมื่อเปรียบเทียบกับ[subject|E]ประเภทปกติคือ[vassals|E]แล้ว [tributaries|E]มีอิสระจาก[suzerain|E]ของตนมากกว่าเล็กน้อย พวกเขาสามารถปลดแอกตนเองได้หากข้อกำหนดของผู้นำของตนไม่เป็นไปตามที่คาดหวัง และไปแสวงหาโชคที่อื่นได้"
+ ra_tributaries_2_prompt: "คลิกที่แท็บผู้อยู่ใต้ปกครองเพื่อดำเนินการต่อ (ที่เน้นสี)"
+
+ ra_tributaries_3: "$reactive_advice_tributaries$"
+ ra_tributaries_3_desc: "[subjects|E]ทุกประเภทจะแสดงอยู่ในแผงอาณาจักร ในรายการผู้อยู่ใต้ปกครอง ท่านจะเห็นโอกาสที่[tributaries|E]ของท่านต้องการที่จะปลดแอก และ[tributary_contract|E]พิเศษที่ท่านในฐานะ[suzerain|E]สามารถเพิ่มหรือลดการจ่ายเงินของพวกเขา หรือการสนับสนุนทางทหารที่ฝ่ายใดฝ่ายหนึ่งจะมีในการทะเลาะวิวาทที่จะเกิดขึ้น"
+
+ ra_tributaries_4: "$reactive_advice_tributaries$"
+ ra_tributaries_4_desc: "เนื่องจากการ[migration|E]เป็นการกระทำทั่วไปสำหรับ[nomads|E] การย้ายออกจากดินแดนของ[tributaries|E]ของท่านจึงส่งผลกระทบอย่างใหญ่หลวงต่อความเต็มใจของพวกเขาที่จะยังคงเป็นผู้ส่งส่วยให้ท่าน หากพวกเขาไม่สามารถประจักษ์ในความยิ่งใหญ่ของท่านได้ ในไม่ช้าพวกเขาก็จะมองหาการคุ้มครองและสัญญาสงบศึกกับ[rulers|e]อื่นที่อยู่ใกล้กว่า"
+
+ ra_tributaries_5: "$reactive_advice_tributaries$"
+ ra_tributaries_5_desc: "หากท่านเองมีบทบาทเป็น[tributary|E] ก็อาจช่วยให้ท่านสามารถขยาย[herd|E]ของท่านได้อย่างสงบสุขภายใต้การคุ้มครองของ[suzerain|E]ที่ใหญ่กว่า แต่ใน[the_great_steppe|E]อำนาจสามารถเปลี่ยนมือได้อย่างรวดเร็ว จงแน่ใจว่าท่านและผู้คนที่ท่านถือว่าเป็นสหายช่วยเหลือ ซึ่งกันและกันในยามต้องการเพื่อเติบโต แต่อย่ากลัวที่จะปลดแอกและเข้าร่วมกับฝ่ายของข่านผู้ยิ่งใหญ่กว่าเมื่อสถานการณ์บังคับ"
+
+ reactive_advice_meritocratic_governor: "ผู้ว่าการ"
+
+ action_reactive_advice_meritocratic_governor: "คำแนะนำ: $reactive_advice_meritocratic_governor$"
+ action_reactive_advice_meritocratic_governor_desc: "ในฐานะ $game_concept_governor$ ท่านมีอำนาจพิเศษ แต่ก็มีความรับผิดชอบ เช่นกัน เปิดหน้านี้เพื่อรับคำแนะนำเกี่ยวกับการเป็น $game_concept_governor$"
+ action_reactive_advice_meritocratic_governor_click: "$click_to_open_lesson$"
+
+ ra_merit_governor_intro: "$reactive_advice_meritocratic_governor$"
+ ra_merit_governor_intro_desc: "ท่านคือ [governor|E]!\n\nในฐานะข้าราชการพลเรือนผู้ทรงคุณค่า ท่านสามารถเข้าถึงทรัพยากรของรัฐบาลได้ แต่ท่านต้องใช้มันอย่างชาญฉลาด"
+ ra_merit_governor_advancing: "$reactive_advice_meritocratic_governor$"
+ ra_merit_governor_advancing_desc: "[governor|E] แต่ละคนจะปกครอง [province|E] ใน [title_tier|E] ที่แน่นอน\n\nจากต่ำสุดไปสูงสุด ได้แก่:\n$EFFECT_LIST_BULLET$$county_celestial_chinese_vassal$ #weak (บรรดาศักดิ์ [county|E])#!\n$EFFECT_LIST_BULLET$$duchy_celestial_chinese_vassal$ #weak (บรรดาศักดิ์ [duchy|E])#!\n$EFFECT_LIST_BULLET$$kingdom_celestial_chinese_vassal$ #weak (บรรดาศักดิ์ [kingdom|E])#!\n\nเพื่อที่จะก้าวหน้าในลำดับชั้นและไปถึง $game_concept_title_tier$ ที่สูงขึ้น ท่านต้องเพิ่ม [merit_level|E] ของท่านโดยการได้รับ [merit|E] และในที่สุดก็เกษียณอายุเพื่อสำเร็จ [imperial_examinations|E]"
+ ra_merit_governor_treasury_1: "$reactive_advice_meritocratic_governor$"
+ ra_merit_governor_treasury_1_desc: "$ra_treasury_1_desc$"
+ ra_merit_governor_treasury_2: "$reactive_advice_meritocratic_governor$"
+ ra_merit_governor_treasury_2_desc: "$ra_treasury_2_desc$"
+ ra_merit_governor_treasury_3: "$reactive_advice_meritocratic_governor$"
+ ra_merit_governor_treasury_3_desc: "$ra_treasury_3_desc$"
+ ra_merit_governor_realm_open: "$reactive_advice_meritocratic_governor$"
+ ra_merit_governor_realm_open_desc: "ดังนั้น เมื่อสามารถเข้าถึง [treasury|E] ได้ ก็ควรนำไปใช้ประโยชน์\n\nในฐานะ [governor|E] ท่านกำลังปกครองดินแดนและผู้คนใน [province|E] ของท่าน การใช้ $game_concept_treasury$ เพื่อลงทุนในนั้นจึงเป็นความคิดที่ดี"
+ ra_merit_governor_realm_open_prompt: "เปิดแผง 'อาณาจักร'"
+ ra_merit_governor_domain_tab_open: "$reactive_advice_meritocratic_governor$"
+ ra_merit_governor_domain_tab_open_desc: "[holdings|E] ที่ท่านปกครองจะแสดงอยู่ในแท็บ 'ดินแดนส่วนตัว'"
+ ra_merit_governor_domain_tab_open_prompt: "เปิดแท็บ 'ดินแดนส่วนตัว'"
+ ra_merit_governor_holdings_list: "$reactive_advice_meritocratic_governor$"
+ ra_merit_governor_holdings_list_desc: "ที่นี่ท่านสามารถเห็นทุก [holding|E] ที่ท่านปกครอง หรือที่เรียกว่า [domain|E] ของท่าน\n\nแต่ละ [holding|E] คือชุมชนศูนย์กลางที่มีการเก็บ [taxes|E] และระดมกองกำลัง [levy|E]"
+ ra_merit_governor_holdings_list_prompt: "เลือกหนึ่งใน $game_concept_holdings$ ของท่าน"
+ ra_merit_governor_holding_view: "$reactive_advice_meritocratic_governor$"
+ ra_merit_governor_holding_view_desc: "นี่คือช่องที่สามารถสร้าง [buildings|E] ได้ใน [holding|E] ที่เลือก\n\nเนื่องจาก $game_concept_buildings$ เหล่านี้เป็นของ [province|E] ท่านจึงต้องจ่ายค่าก่อสร้างโดยใช้ [treasury|E] ไม่ใช่ [gold|E] ส่วนตัวของท่าน\n\nการสร้าง $game_concept_buildings$ ในฐานะ [governor|E] จะมอบ [merit|E] ให้แก่ท่าน ซึ่งในที่สุดจะช่วยให้ท่านสามารถปกครอง [provinces|E] ที่มี [title_tier|E] สูงขึ้นได้\n\n#I เชิญเริ่มการก่อสร้างก่อนที่เราจะไปต่อได้เลย#!"
+ ra_merit_governor_activities_open: "$reactive_advice_meritocratic_governor$"
+ ra_merit_governor_activities_open_desc: "ในฐานะ [governor|E] อีกวิธีหนึ่งในการใช้ [treasury|E] ของท่านคือการดำเนิน [activity|E] $activity_survey|V$"
+ ra_merit_governor_activities_open_prompt: "เปิดแผง 'กิจกรรม'"
+ ra_merit_governor_inspection: "$reactive_advice_meritocratic_governor$"
+ ra_merit_governor_inspection_desc: "[activity|E] $activity_survey|V$ จะหักเงินจาก [treasury|E] ของ [province|E] ท่าน แต่ก็จะช่วยปรับปรุง $game_concept_province$ และให้โอกาสท่านในการได้รับ [merit|E] ด้วย"
+ ra_merit_governor_advancing_retire: "$reactive_advice_meritocratic_governor$"
+ ra_merit_governor_advancing_retire_desc: "ไม่ว่าท่านจะได้รับ [merit|E] มากเพียงใด หากต้องการปลดล็อก [merit_levels|E] ที่สูงขึ้น ท่านต้องสำเร็จ [imperial_examinations|E] ด้วย\n\nทว่า [governors|E] ไม่ได้รับอนุญาตให้ลงทะเบียนใน [imperial_examinations|E]\n\nดังนั้น เมื่อท่านไปถึง [merit_level|E] สูงสุดในปัจจุบันแล้ว การเกษียณอายุและเข้าร่วม $game_concept_examinations$ จึงเป็นหนทางเดียวที่จะก้าวหน้าไปสู่ [province|E] ที่มี [title_tier|E] สูงขึ้นได้\n\n#I ท่านสามารถเกษียณจากการเป็น $game_concept_governor$ ได้โดยใช้ [decision|E] $renounce_governorship_decision|V$ ในแผง '$DECISIONS_VIEW_TITLE$'"
+ ra_merit_governor_finish: "$reactive_advice_meritocratic_governor$"
+ ra_merit_governor_finish_desc: "นั่นคือทั้งหมดที่จะกล่าวเกี่ยวกับการเป็น [governor|E] สำหรับตอนนี้ คำแนะนำเพิ่มเติมอาจปรากฏขึ้นเมื่อเวลาผ่านไปเมื่อท่านเผชิญกับสถานการณ์เฉพาะเจาะจงมากขึ้น\n\nการสร้าง [buildings|E] ใน [holdings|E] ของ [province|E] และการดำเนิน [activity|E] $activity_survey|V$ ถือเป็นการเริ่มต้นที่ดี เนื่องจากจะ ทำให้ท่านได้รับ [merit|E]"
+
+ reactive_advice_treasury: "$game_concept_treasury$"
+
+ action_reactive_advice_treasury: "คำแนะนำ: $ra_treasury_1$"
+ action_reactive_advice_treasury_desc: "คลังหลวง หมายถึงเงินที่ท่านสามารถเข้าถึงได้ในฐานะ $game_concept_governor$ หรือ $game_concept_hegemon$ เปิดหน้านี้เพื่อรับคำแนะนำเกี่ยวกับวิธีการทำงานของคลังหลวง"
+ action_reactive_advice_treasury_click: "$click_to_open_lesson$"
+ 
+ ra_treasury_1: "$reactive_advice_treasury$"
+ ra_treasury_1_desc: "ใน [realm|E] นี้ [top_liege|E] และ [governor|E] ทุกคนมี [treasury_i] [treasury|E]\n\nในขณะที่ [gold|E] คือความมั่งคั่งส่วนตัวของท่าน $game_concept_treasury$ มีไว้เพื่อใช้ในกิจการของรัฐบาลเท่านั้น ( เช่น การปรับปรุง [province|E] ของท่านหากท่านเป็น $game_concept_governor$)\n\n$game_concept_treasury$ จะผูกติดอยู่กับ [title|E] ปัจจุบันของท่าน ดังนั้นหากตำแหน่งของท่านภายใน [realm|E] เปลี่ยนไป ท่านจะไม่สามารถเข้าถึง $game_concept_treasury$ เดิมของท่านได้อีกต่อไป"
+ ra_treasury_2: "$ra_treasury_1$"
+ ra_treasury_2_desc: "ท่านมีอิสระที่จะบริจาค [gold|E] ส่วนตัวของท่านเพื่อเสริม [treasury|E] ในกรณีที่เงินเหลือน้อย\n\nพึงระวังว่าไม่มีหนทางถูกกฎหมายใดที่จะได้ $game_concept_gold$ ที่ท่านบริจาคไปแล้วกลับคืนมา!\n\n#I หากท่านประสงค์จะทำเช่นนี้ ท่านสามารถใช้ปุ่มที่เน้นสีได้#!"
+ ra_treasury_3: "$ra_treasury_1$"
+ ra_treasury_3_desc: "หาก [gold|E] ของท่านกำลังเหลือน้อย ท่านสามารถใช้ [scheme|E] $celestial_siphon_treasury_interaction_without_scheme_suffix|V$ กับตนเองหรือ [governor|E] ใด ๆ ใน [realm|E] ได้ สิ่งนี้จะแปลง [treasury|E] ของ [character_possessive|E] เป้าหมายให้เป็น $game_concept_gold$ ของท่านเอง\n\nอย่างไรก็ตาม ท่านคงไม่อยากถูกจับได้ว่ายักยอกจากรัฐ..."
+
+ #dynastic cycle
+ reactive_advice_dynastic_cycle: "$game_concept_dynastic_cycle$"
+
+ action_reactive_advice_dynastic_cycle: "คำแนะนำ: $game_concept_dynastic_cycle$"
+ action_reactive_advice_dynastic_cycle_desc: "$game_concept_dynastic_cycle$ คือวัฏจักรแห่งการรุ่งเรืองและล่มสลายของราชวงศ์ต่าง ๆ ของจีน และวิสัยทัศน์ของพวกเขาที่มีต่อจักรวรรดิ"
+ action_reactive_advice_dynastic_cycle_click: "$click_to_open_lesson$"
+
+ ra_dynastic_cycle_intro: "$game_concept_dynastic_cycle$"
+ ra_dynastic_cycle_era_effects: "$game_concept_dynastic_cycle$"
+ ra_dynastic_cycle_era_open_groups: "$game_concept_dynastic_cycle$"
+ ra_dynastic_cycle_era_open_eras: "$game_concept_dynastic_cycle$"
+ ra_dynastic_cycle_era_groups: "$game_concept_dynastic_cycle$"
+ ra_dynastic_cycle_era_group_leader: "$game_concept_dynastic_cycle$"
+ ra_dynastic_cycle_era_actions: "$game_concept_dynastic_cycle$"
+ ra_dynastic_cycle_intro_desc: "#F อัน thiên-hạ นี้ แบ่งแยกมาช้านาน ย่อมต้องรวมเป็นหนึ่ง;\nรวมเป็นหนึ่งช้านาน ย่อมต้องแบ่งแยก\nย่อมเป็นเช่นนี้เสมอมา\n\n — #italic หลัว กว้านจง\nสามก๊ก#!#!\n\nในอดีต จีนถูกปกครองโดย [dynasties|E] ที่แตกต่างกันมากมาย โดยคั่นกลางด้วยยุคแห่งสงครามและการแบ่งแยก\n\n[dynastic_cycle|E] แสดงถึงกระบวนการนี้ ตลอดจนการต่อสู้เพื่ออิทธิพลและการปฏิรูปภายในจักรวรรดิ"
+ ra_dynastic_cycle_open: "$game_concept_dynastic_cycle$"
+ ra_dynastic_cycle_open_desc: "[dynastic_cycle|E] คือ [situation|E] ที่เกี่ยวข้องกับ [rulers|e] ทั้งหมดในและรอบ ๆ ประเทศจีน\n\nเรามาดูกันเลย"
+ ra_dynastic_cycle_open_trigger: "เปิดหน้าต่าง $game_concept_dynastic_cycle$"
+ ra_dynastic_cycle_era_open_eras_desc: "ก่อนอื่น เรามาดู [dynastic_cycle_era_short|e] ที่วัฏจักรราชวงศ์กำลังดำเนินอยู่"
+ ra_dynastic_cycle_era_open_eras_trigger: "เปิดแท็บ '$dynastic_cycle_tab_dynastic_cycle$'"
+ ra_dynastic_cycle_era_effects_desc: "จีนกำลังอยู่ใน [dynastic_cycle_era_short|e] แห่งความก้าวหน้า\n\nหากท่านเป็นขุนนางระดับต่ำ สิ่งสำคัญที่สุดที่ต้องเข้าใจคือมันส่งผลกระทบต่อท่านอย่างไร ซึ่งแสดงไว้ที่นี่\n\nมี $game_concept_dynastic_cycle_eras_short$ ที่แตกต่างกันมากมาย ซึ่งทั้งหมดจะนำพาจีนไปในทิศทางที่แตกต่างกัน"
+ ra_dynastic_cycle_era_open_groups_desc: "สถานะของจักรวรรดิไม่สามารถเปลี่ยนแปลงได้ด้วยตัวเอง แต่ได้รับอิทธิพลจากกลุ่ม [characters|E] ที่ทรงพลังภายในพรมแดนของจีน เรามาดู $game_concept_characters$ เหล่านี้กัน"
+ ra_dynastic_cycle_era_open_groups_trigger: "เปิดแท็บ '$dynastic_cycle_tab_movements$'"
+ ra_dynastic_cycle_era_groups_desc: "[characters|E] จำนวนมากในและรอบ ๆ ประเทศจีนมีผลกระทบต่ออนาคตของจีน $game_concept_characters$ เหล่านี้อยู่ใน [movements|e] ซึ่ง แต่ละกลุ่มต้องการนำพาจีนไปในทิศทางที่แตกต่างกัน\n\nตัวอย่าง เช่น $dynastic_cycle_participant_group_advancement_movement|V$ ต้องการปรับปรุงจักรวรรดิโดยมองเข้าภายในผ่าน [dynastic_cycle_era_short|e] แห่งความก้าวหน้า ในขณะที่ $dynastic_cycle_participant_group_expansion_movement|V$ ปรารถนาให้จีนเติบโตและขยายตัวผ่านกำลังทหารผ่านยุคแห่งการขยายตัว"
+
+ ra_dynastic_cycle_era_group_leader_desc: "แต่ละ [movement|E] มี [movement_leader|E] ผู้ ซึ่งสามารถยื่นคำร้องเพื่อส่งเสริมอุดมการณ์ของ $game_concept_movement$\n\nเพื่อที่จะเป็น $game_concept_movement_leader$ ท่านต้องมี [movement_power|E] สูงสุดภายใน $game_concept_movement$ ของท่าน"
+
+ ra_dynastic_cycle_era_actions_desc: "ท่านยังสามารถดำเนินการเพื่อส่งอิทธิพลต่อ [dynastic_cycle|e] ได้ ไม่ว่าจะด้วยตัวท่านเอง หรือผ่าน [movement|e] ของท่าน\n\nท่านสามารถค้นหาการดำเนินการเหล่านี้ได้ที่ด้านล่างของหน้าต่าง\n\nหากท่านยังคง $dynastic_cycle_participant_group_undecided_movement|V$ ท่านควรเข้าร่วม $game_concept_movement$ แต่ละขบวนการจะให้ประโยชน์หรือบทลงโทษที่แตกต่างกันแก่ท่าน"
+
+ # merit candidacy
+
+ reactive_advice_merit_candidacy: "ผู้สมัครเป็นผู้ว่าการ"
+
+
+
+ action_reactive_advice_merit_candidacy: "คำแนะนำ: $reactive_advice_merit_candidacy$"
+ action_reactive_advice_merit_candidacy_desc: "เรามาดูกันว่าต้องทำอย่างไรจึงจะเป็น $game_concept_governor$ ได้"
+ action_reactive_advice_merit_candidacy_click: "$click_to_open_lesson$"
+
+ ra_merit_candidacy_intro: "$reactive_advice_merit_candidacy$"
+ ra_merit_candidacy_intro_desc: "เฉพาะผู้ที่มี [merit_level|E] สูงสุดเท่านั้นที่จะได้เป็น [governors|E]\n\nทุกครั้งที่ $game_concept_governor$ ออกจากตำแหน่ง จะมีคนอื่นได้รับการ แต่งตั้งให้มาแทนที่โดยอัตโนมัติ\n\nดังนั้น เพียงแค่มี $game_concept_merit_level$ ที่ดี ในที่สุดท่านก็จะได้รับการ แต่งตั้งเป็น [governor|E] หาก [law|e] ของ [realm|e] ของท่านอนุญาต"
+ ra_merit_candidacy_open: "$reactive_advice_merit_candidacy$"
+ ra_merit_candidacy_open_desc: "เรามาดูกันว่าท่านและ [house|E] ของท่านมีความก้าวหน้าในระบบราชการอย่างไรบ้าง!"
+ ra_merit_candidacy_open_prompt: "เปิดแผง '$ADMINISTRATIVE_GOVERNMENT_HEADER$' (เน้นสี)"
+ ra_merit_candidacy_house_members: "$reactive_advice_merit_candidacy$"
+ ra_merit_candidacy_house_members_desc: "รายการนี้แสดงให้เห็นว่าสมาชิก แต่ละคนใน [house|E] ของท่านทำผลงานได้ดีเพียงใดในระบบราชการ\n\nเนื่องจากโดยส่วนตัวแล้วท่านสามารถเป็น [governor|E] ได้เพียง [province|E] เดียว การช่วยเหลือครอบครัวขยายของท่านในอาชีพการงานจึงเป็นสิ่งสำคัญ เช่นกัน"
+ ra_merit_candidacy_merit: "$reactive_advice_merit_candidacy$"
+ ra_merit_candidacy_merit_desc: "[character|E] แต่ละคนมี [merit_level|E] ยิ่ง $game_concept_merit_level$ ดีเท่าไร พวกเขาก็ยิ่งสามารถปกครอง [provinces|E] ที่มี [title_tier|E] สูงขึ้นในฐานะ [governor|E] ได้\n\nเมื่อ $game_concept_merit_level$ ของท่านเพิ่มขึ้น การ แต่งตั้งที่ทรงอิทธิพลมากขึ้นจะพร้อมใช้งาน:\n$BULLET_WITH_TAB$#V อันดับ 9 ถึง 8#!: $game_concept_governor$ ของ $county_celestial_chinese_vassal$ #weak (บรรดาศักดิ์ [county|E])#!\n$BULLET_WITH_TAB$#V อันดับ 7 ถึง 6#!: $game_concept_governor$ ของ $duchy_celestial_chinese_vassal$ #weak (บรรดาศักดิ์ [duchy|E])#!\n$BULLET_WITH_TAB$#V อันดับ 5 ถึง 4#!: $game_concept_governor$ ของ $kingdom_celestial_chinese_vassal$ #weak (บรรดาศักดิ์ [kingdom|E])#!\n$BULLET_WITH_TAB$#V อันดับ 3 ถึง 1#!: [minister|E] สำหรับ [son_of_heaven|E] #weak (บรรดาศักดิ์ [empire|E])#!\n\n$game_concept_characters$ ที่ไม่มี $game_concept_merit_level$ ไม่สามารถเป็น $game_concept_governor$ ได้"
+ ra_merit_candidacy_score: "$reactive_advice_merit_candidacy$"
+ ra_merit_candidacy_score_desc: "แม้ว่า [merit_level|E] จะมีความสำคัญ แต่หากผู้สมัครสองคนมี [merit_level|E] เท่ากัน คนที่มี @appointment_score![candidate_score|E] สูงสุดจะได้รับ [province|E] ก่อน\n\nดังนั้น การเพิ่ม $game_concept_candidate_score$ ของท่านหมายความว่าท่านจะไม่ต้องรอนานนักในการเป็น [governor|E]\n\nหากต้องการเพิ่ม $game_concept_candidate_score$ ของสมาชิก [house|E] ท่านต้องใช้ [influence_i][influence|E] โดยใช้ $influence_meritorious_career_interaction|V$ หรือเริ่ม [scheme|E] $promote|V$ #weak (เน้นสีทั้งคู่)#!."
+ ra_merit_candidacy_exams: "$reactive_advice_merit_candidacy$"
+ ra_merit_candidacy_exams_desc: "[imperial_examination|E] แต่ละครั้งที่สำเร็จจะเพิ่ม [merit|E] และปลดล็อก [merit_levels|E] ที่สูงขึ้น\n\nสมาชิก $game_concept_house$ คนอื่น ๆ จะเข้าร่วมกับท่านหากท่านไป $game_concept_examinations$ และพยายาม ทำให้สำเร็จ\n\nดังนั้น การกลับไป $game_concept_examination$ ที่ท่านสำเร็จแล้วจึงมีประโยชน์มากกว่าแค่ตัวท่านเอง"
+ ra_merit_candidacy_child_exams: "$reactive_advice_merit_candidacy$"
+ ra_merit_candidacy_child_exams_desc: "หากมีสมาชิก [house|E] ที่ยังเป็น [children|E] ท่านยังสามารถช่วยในอาชีพการงานของพวกเขาได้โดยการส่งพวกเขาไปที่ @child_exam_icon!#V การสอบสำหรับเด็ก#!.\n\nหากพวกเขาทำสำเร็จ มันจะช่วยเร่งความก้าวหน้าของพวกเขาไปสู่ $game_concept_examinations$ ต่อไป"
+ ra_merit_candidacy_summary: "$reactive_advice_merit_candidacy$"
+ ra_merit_candidacy_summary_desc: "ด้วยการ ทำให้แน่ใจว่าท่านมี [merit_level|E] ที่ดีขึ้นเรื่อย ๆ โดยการเข้าร่วม [imperial_examinations|E] และปกครอง [province|E] ของท่านเป็นอย่างดี ท่านจะก้าวหน้าไปสู่จุดสูงสุดของระบบราชการ\n\nณ จุดสูงสุดของลำดับชั้น ท่านยังสามารถได้รับการ แต่งตั้งเป็น [minister|E] เพื่อรับใช้ [son_of_heaven|E] โดยตรงได้อีกด้วย!"
+ 
+ action_reactive_advice_great_projects: "คำแนะนำ: โครงการยิ่งใหญ่"
+ reactive_advice_great_projects: "$action_reactive_advice_great_projects$"
+ action_reactive_advice_great_projects_desc: "ท่านสามารถวางแผนหรือมีส่วนร่วมใน $game_concept_great_project$ ได้"
+ action_reactive_advice_great_projects_click: "$click_to_open_lesson$"
+ ra_gp_1: "โครงการยิ่งใหญ่"
+ ra_gp_1_desc: "ท่านสามารถเริ่มหรือมีส่วนร่วมใน [great_project|e] ได้! เรามาใช้เวลาพูดคุยเกี่ยวกับมันสักครู่"
+ ra_gp_1_prompt: "เปิดแท็บโครงการในแผงการตัดสินใจ (เน้นสี)"
+ ra_gp_2: "$ra_gp_1$"
+ ra_gp_2_desc: "[great_projects|e] คือภารกิจขนาดใหญ่ที่สามารถ ทำให้สำเร็จได้ด้วยความช่วยเหลือจาก [characters|e] หลายคน\n\nใช้เพื่อสร้าง [great_buildings|e] และเพื่อฟื้นฟูจาก [natural_disasters|e] ท่ามกลางสิ่งอื่น ๆ\n\nเรามาดู $game_concept_great_project$ กัน"
+ ra_gp_2_prompt: "เปิดโครงการยิ่งใหญ่ (เน้นสี)"
+ ra_gp_3: "$ra_gp_1$"
+ ra_gp_3_desc: "[great_projects|e] มีที่ตั้ง และค่าใช้จ่ายที่ต้องชำระก่อนจึงจะเริ่มได้\n\nเมื่อเริ่มแล้ว ผู้ก่อตั้งและ [subjects|e] ของพวกเขาจะสามารถมอบ [great_project_contributions|e] เพื่อช่วยให้สำเร็จได้ ซึ่งหมายความว่าโดยปกติผู้ก่อตั้งจะไม่ต้องจ่ายค่า $game_concept_great_project_contributions$ ทั้งหมดด้วยตนเอง\n\nโดยทั่วไป $game_concept_great_projects$ ต้องใช้เวลาและความพยายามอย่างมากในการ ทำให้สำเร็จ"
+
+ reactive_advice_natural_disasters: "ภัยพิบัติทางธรรมชาติ"
+ action_reactive_advice_natural_disasters: "คำแนะนำ: $reactive_advice_natural_disasters$"
+ action_reactive_advice_natural_disasters_desc: "มี $game_concept_natural_disaster$ เกิดขึ้นภายใน $game_concept_realm$ ของท่าน ท่านสามารถดำเนินการเพื่อบรรเทาผลกระทบของมันได้"
+ action_reactive_advice_natural_disasters_click: "$click_to_open_lesson$"
+ ra_natural_disasters_1: "$reactive_advice_natural_disasters$"
+ ra_natural_disasters_1_desc: "แย่แล้ว! [natural_disaster|e] ได้โจมตี [realm|e] ของท่าน\n\nเรามาดูกันว่าท่านจะทำอะไรกับมันได้บ้าง"
+ ra_natural_disasters_1_prompt: "เปิดสถานการณ์ภัยพิบัติทางธรรมชาติ"
+ ra_natural_disasters_2: "$reactive_advice_natural_disasters$"
+ ra_natural_disasters_2_desc: "[natural_disaster|e] มีสาม [situation_phases|e]\n\n#high คำเตือน#!: $game_concept_natural_disaster$ กำลังจะเกิดขึ้น\n#high ผลกระทบ#!: ภัยพิบัติกำลังส่งผลกระทบ\n#high การฟื้นฟู#!: ท่านสามารถเริ่มการสร้างใหม่ได้\n\nในฐานะ [ruler|e] [subjects|e] ของท่านคาดหวังให้ท่านจัดการกับผลที่ตามมาจาก $game_concept_natural_disaster$"
+
+ reactive_advice_women_in_china: "สตรีในจีน"
+ action_reactive_advice_women_in_china: "คำแนะนำ: สตรีในจีน"
+ action_reactive_advice_women_in_china_desc: "$game_concept_law$ เรื่องเพศของ $game_concept_realm$ ของท่านไม่อนุญาตให้ท่านเป็น $game_concept_governor$"
+ action_reactive_advice_women_in_china_click: "$click_to_open_lesson$"
+ ra_women_in_china: "สตรีในจีน"
+ ra_women_in_china_desc: "เพื่อให้สามารถเป็น [governor|e] ในฐานะสตรีในจีนได้ ท่านจำเป็นต้องเปลี่ยนกฎหมายเพศของ [hegemony|e] ในการทำ เช่นนี้ ท่านต้องเป็น [hegemon|e] เสียก่อน\n\nหากนี่เป็นประสบการณ์ที่ท่านสนใจ เราขอแนะนำให้เปลี่ยนกฎเกมเรื่องกฎหมายเพศระหว่างการตั้งค่า หรือสร้างตัวละครที่กำหนดเองของท่านเองเพื่อเป็น $game_concept_hegemon$ ในหน้าจอบุ๊กมาร์ก"

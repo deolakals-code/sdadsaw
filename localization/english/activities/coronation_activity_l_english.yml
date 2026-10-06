@@ -1,0 +1,963 @@
+﻿l_english: 
+ # Base details
+ activity_coronation: "พิธีบรมราชาภิเษก"
+ activity_coronation_host_desc: "$BULLET_WITH_TAB$@law_icon![GetLaw('crowned_king').GetName] หรือ [GetLaw('crowned_emperor').GetName] [law|E]\n$BULLET_WITH_TAB$ขณะที่พิธีบรมราชาภิเษกดำเนินอยู่ @faction_icon![factions|E] ไม่สามารถยื่นข้อเรียกร้องได้\n$BULLET_WITH_TAB$[opinion_i][opinion|E]\n$BULLET_WITH_TAB$[prestige_i][prestige|E]\n$BULLET_WITH_TAB$[legitimacy_i][legitimacy|E]\n$BULLET_WITH_TAB$การตัดสินใจ[decision|E] [oath|E] อันทรงพลัง\n\n@warning_icon! #X @faction_icon![factions|E] และศัตรูอื่น ๆ จะทำอันตรายต่อ [coronation_magnificence|E] ของพิธีบรมราชาภิเษก#!`"
+ activity_coronation_guest_desc: "$BULLET_WITH_TAB$ ผู้เข้าร่วมอาจได้รับ [opinion_i][opinion|E] ต่อผู้เข้าร่วมคนอื่น ๆ\n$BULLET_WITH_TAB$ผู้เข้าร่วมอาจได้รับโอกาสพิเศษตาม [intent|E] ของตน"
+ activity_coronation_desc: "เชิญผู้ยิ่งใหญ่และทรงอำนาจแห่งอาณาจักรเพื่อเป็นสักขีพยานในการขึ้นครองราชย์ของท่าน การนี้จะสถาปนารากฐานเพื่อการปกครองอันยืนยาวและสัมฤทธิผล"
+ activity_coronation_conclusion_desc: "[GetActivityType( 'activity_coronation' ).GetName] ได้สิ้นสุดลงแล้ว"
+ activity_coronation_selection_tooltip: "เชิญผู้ยิ่งใหญ่และทรงอำนาจแห่งอาณาจักรเพื่อเป็นสักขีพยานในการขึ้นครองราชย์ของท่าน การนี้จะสถาปนารากฐานเพื่อการปกครองอันยืนยาวและสัมฤทธิผล\n\nรางวัลที่คาดหมาย:\n$activity_coronation_host_desc$"
+ activity_coronation_destination_selection: "\nโดยปกติ [coronation|E] จะต้องจัดขึ้นใน [realm|E] ของ [host|E], โดยมีข้อยกเว้นสำหรับ [anointments|E] ซึ่งอาจต้องจัดในดินแดนของ [head_of_faith|E] หากพวกเขาถือครอง [holy_sites|E] ที่เหมาะสม"
+ activity_coronation_guest_help_text: "พิธีบรมราชาภิเษกเป็นโอกาสอันดีในการสร้างสายสัมพันธ์ และสร้างความประทับใจให้แก่เหล่า [vassals|E] และ [rulers|E] อื่น ๆ\n\nแขกใดก็ตามที่เข้าร่วมพิธีบรมราชาภิเษกจะมีโอกาสเพิ่มพูน [opinion|E] ต่อแขกท่านอื่น และอาจได้รับโอกาสพิเศษในการมีปฏิสัมพันธ์กับ [host|E] ของ [activity|E]"
+ invite_to_activity_flavor_coronation: "ข้าขอเชิญท่านด้วยความยินดียิ่ง เพื่อเข้าร่วมกับข้าและส่วนอื่น ๆ ของอาณาจักร ณ [ROOT.Char.GetCurrentLocation.Custom('GetCoronationSitePrefix')][ROOT.Char.GetCurrentLocation.Custom('GetCoronationSite')] สำหรับพิธีบรมราชาภิเษกของข้าที่กำลังจะมาถึงนี้"
+ activity_coronation_underage_tt: "ท่านมีอายุ #bold ไม่#! ถึง #V 12#! ปี\n#flavor มงกุฎลื่นหลุดจากศีรษะเล็ก ๆ ของท่าน#!"
+ activity_coronation_not_approved_anointment: "[GetPlayer.GetFaith.GetReligiousHead.GetTitledFirstName] ยังมิได้อนุมัติ [anointment|E] นี้, จงขอการอนุมัติจาก [GetPlayer.GetFaith.GetReligiousHead.GetHerHis] ด้วย [interaction|E] [request_anointment|E]"
+
+ # Province Desc
+ activity_coronation_province_desc: "พิธีบรมราชาภิเษกจะจัดขึ้นใน [ROOT.Province.GetName]"
+ activity_coronation_capital_province: "\n#p + เมืองหลวง#!"
+ activity_coronation_holy_site_province: "\n#p + สถานที่ศักดิ์สิทธิ์#!"
+ activity_coronation_tradition_province: "\n#p + สถานที่ประกอบพิธีบรมราชาภิเษกตามธรรมเนียม#!"
+ activity_coronation_long_tradition_province: "\n#p ++ สถานที่ประกอบพิธีบรมราชาภิเษกตามธรรมเนียม#!"
+ activity_coronation_ancient_tradition_province: "\n#p +++ สถานที่ประกอบพิธีบรมราชาภิเษกตามธรรมเนียม#!"
+
+ # Location Triggers
+ coronation_location_owned: "ไม่อยู่ใน [realm|E]"
+ coronation_location_hof_owned: "[THIS.Province.GetName] #bol ไม่#!ใช่ [holy_site|E] ใน [realm|E] ของ [head_of_faith|E] ของท่าน"
+  coronation_location_holy_site_host: "[THIS.Province.GetName] #bol ไม่#!ใช่ [holy_site|E] ใน [realm|E] ของท่าน ([head_of_faith|E] ของท่านไม่ได้ครอบครอง [holy_site|E] ใด ๆ)"
+ coronation_location_neither_capital_nor_holy_site: "[THIS.Province.GetName] #bol ไม่#!ใช่ [county_capital|E] หรือ [holy_site|E]"
+
+ # Phases
+ coronation_phase_preparations: "โหมโรง"
+ coronation_phase_preparations_desc: ""
+ coronation_phase_coronation: "พิธีการ"
+ coronation_phase_coronation_desc: ""
+ coronation_phase_feast: "งานเลี้ยง"
+ coronation_phase_feast_desc: ""
+
+ # Types
+ coronation_type_normal: "พิธีบรมราชาภิเษก"
+ coronation_type_normal_desc: "$BULLET_WITH_TAB$พิสูจน์ [legitimacy_i][legitimacy|E] ของท่าน\n$BULLET_WITH_TAB$กล่าว [oath|E] และปฏิญาณตนถึงแนวทางการปกครองของท่าน\n$BULLET_WITH_TAB$อาจได้รับ [opinion_i][opinion|E] จาก [vassals|E] [AddLocalizationIf( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'coronation_type_tributaries' )]\n$BULLET_WITH_TAB$[vassals|E] อาจละทิ้ง @faction_icon![factions|E]\n$BULLET_WITH_TAB$อาจสวมมงกุฎให้ตนเองเพื่อรับ [prestige_i][prestige|E] เพิ่มเติม\n\n#weak $coronation_type_normal_flavor$#!"
+ coronation_type_normal_flavor: "พิธีอันสง่างามจักพิสูจน์ความชอบธรรมในการปกครองของท่าน และขอบขัณฑสีมาแห่งอาณาจักรจักเป็นดั่งอาภรณ์แห่งองค์อธิปัตย์"
+ coronation_type_tributaries: "และ [tributaries|E]"
+ coronation_type_anointment: "พิธีเจิม"
+ coronation_type_anointment_desc: "$BULLET_WITH_TAB$พิสูจน์ [legitimacy_i][legitimacy|E] ของท่านให้ปราศจากข้อกังขา\n$BULLET_WITH_TAB$ได้รับ [piety_i][piety|E], @fervor_icon![fervor|E] และความโปรดปรานจาก [vassals|E] [GetVassalStance( 'zealot' ).GetTextIcon][GetVassalStance( 'zealot' ).GetName|U]\n$BULLET_WITH_TAB$กล่าว [oath|E] และปฏิญาณตนถึงแนวทางการปกครองของท่าน\n$BULLET_WITH_TAB$ได้รับ [opinion_i][opinion|E] จาก [vassals|E]\n$BULLET_WITH_TAB$ได้รับ [opinion_i][opinion|E] จาก [rulers|E] อื่น ๆ\n$BULLET_WITH_TAB$[vassals|E] อาจละทิ้ง @faction_icon![factions|E]\n$BULLET_WITH_TAB$@alert_icon! #alert_trial ต้องจัดใน [holy_site|E] ของ [faith|E] ของท่าน#!\n\n#weak $coronation_type_anointment_flavor$#!"
+ coronation_type_anointment_flavor: "องค์อธิปัตย์ที่แท้จริงต้องอบอวลด้วยจุดประสงค์อันศักดิ์สิทธิ์ และได้รับการสถาปนาโดยความโปรดปรานแห่งทวยเทพ กำลังทางโลกมิอาจเทียบแทนได้"
+
+ # Options
+ anointment_minimum: "[activity_option|E] ไม่พร้อมใช้งานสำหรับ [anointment|E]"
+ ceremony_size: "พิธีการ"
+ coronation_small_ceremony: "พิธีการอย่างเรียบง่าย"
+ coronation_small_ceremony_desc: "$EFFECT_LIST_BULLET$ลด [coronation_magnificence|E]\n$EFFECT_LIST_BULLET$[rulers|E] ต่างแดนจะไม่เข้าร่วม [activity|E]\n$EFFECT_LIST_BULLET$หาก [coronation_magnificence|E] ต่ำกว่า #high 50#! เมื่อสิ้นสุด ท่านจะได้รับ [GetModifier('ach_coronation_low_ceremony_modifier').GetNameWithTooltip] เป็นเวลา #high 10 ปี#!\n\n#weak ข้าเป็นองค์อธิปัตย์อยู่แล้วมิใช่หรือ? เหตุใดต้องเชิญผู้คนทั้งอาณาจักรมาในพิธีการที่เป็นเพียงพิธีรีตองนี้ด้วย...?#!"
+ coronation_medium_ceremony: "ความวิจิตรตามแบบแผน"
+ coronation_medium_ceremony_desc: "$EFFECT_LIST_BULLET$เพิ่ม [coronation_magnificence|E]\n$EFFECT_LIST_BULLET$[activity_guests|E] จะมีแนวโน้มเข้าร่วมมากขึ้นเล็กน้อย\n\n#weak คำสาบานอันศักดิ์สิทธิ์แห่งการปกครองจำต้องคู่ควรกับสภาพแวดล้อมอันสูงส่งและการชุมนุมอันยิ่งใหญ่ที่เปี่ยมด้วยความเคารพ#!"
+ coronation_large_ceremony: "ความรุ่งโรจน์และสง่างาม"
+ coronation_large_ceremony_desc: "$EFFECT_LIST_BULLET$เพิ่ม [coronation_magnificence|E] อย่างมาก\n$EFFECT_LIST_BULLET$[activity_guests|E] จะมีแนวโน้มเข้าร่วมมากขึ้นอย่างมาก\n\n#weak ท่ามกลางโบราณวัตถุศักดิ์สิทธิ์และอัญมณีอันเปล่งประกาย เปี่ยมด้วยดนตรีอันไพเราะ จะมีญาติพี่น้อง ข้าหลวง และแขกผู้ทรงเกียรติจากแดนไกล#!"
+ ceremony_feast_type: "การเฉลิมฉลอง"
+ ceremony_feast_type_austere: "การเฉลิมฉลองอย่างสมถะ"
+ ceremony_feast_type_austere_desc: "$EFFECT_LIST_BULLET$ลด [coronation_magnificence|E]\n$EFFECT_LIST_BULLET$หาก [coronation_magnificence|E] ต่ำกว่า #high 50#! เมื่อสิ้นสุด ท่านจะได้รับ [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'mandala_coronation_low_feast', 'generic_coronation_low_feast' )] เป็นเวลา #high 10 ปี#!\n\n#weak เพียงแค่ได้รับเชิญมาในโอกาสสำคัญทางประวัติศาสตร์นี้ยังไม่นับเป็นความยินดีเพียงพออีกหรือ...?#!"
+ generic_coronation_low_feast: "[GetModifier('ach_coronation_low_feast_modifier').GetNameWithTooltip]"
+ mandala_coronation_low_feast: "[GetModifier('mandala_coronation_low_feast_modifier').GetNameWithTooltip]"
+ ceremony_feast_type_regular: "งานรื่นเริงที่เหมาะสม"
+ ceremony_feast_type_regular_desc: "$EFFECT_LIST_BULLET$เพิ่ม [coronation_magnificence|E]\n\n#weak จะมีการประหยัดเล็กน้อยในการชุมนุมอันยิ่งใหญ่ของเหล่าขุนนาง และอาหารรสเลิศในงานเลี้ยงหลังพิธี#!"
+ ceremony_feast_type_lavish: "งานเลี้ยงอันหรูหรา"
+ ceremony_feast_type_lavish_desc: "$EFFECT_LIST_BULLET$เพิ่ม [coronation_magnificence|E] อย่างมาก\n$EFFECT_LIST_BULLET$ลดความเสี่ยงของเหตุการณ์เชิงลบ\n\n#weak อาหารเลิศรสที่ส่งกลิ่นหอมหวนนานาชนิดรอคอยอยู่; ความสุโขสโมสรที่งดงามเพื่อสนับสนุนโต๊ะเสวยอันสูงส่งของกษัตริย์#!"
+
+ach_coronation_low_ceremony_modifier: "สวมมงกุฎในความมืดมน"
+ach_coronation_low_ceremony_modifier_desc: "เหล่าสามัญชนแทบไม่รู้ด้วยซ้ำว่าผู้ปกครองนี้คือเจ้าเหนือหัวที่แท้จริงของพวกเขา และเหล่าขุนนางก็ยินดีที่จะลืมเลือนพิธีเข้ารับตำแหน่งอันแสนขัดสนของพวกเขา"
+ach_coronation_low_feast_modifier: "ขุนนางผู้ถูกเมิน"
+ach_coronation_low_feast_modifier_desc: "การเฉลิมฉลองอันน่าอดสูและแสนขัดสนรอบพิธีบรมราชาภิเษกของผู้ปกครองนี้ ทำให้ผู้เข้าร่วมเต็มไปด้วยความดูแคลน และท้องว่างเปล่าจากอาหารเลิศรส"
+mandala_coronation_low_feast_modifier: "อาณาประชาราษฎร์ผู้ถูกเมิน"
+mandala_coronation_low_feast_modifier_desc: "$ach_coronation_low_feast_modifier_desc$"
+
+ # Special Guests
+ coronation_hof_guest: "ประมุขแห่งศรัทธา"
+ coronation_hof_guest_desc: "$coronation_hof_guest_desc_for_host$"
+ coronation_hof_guest_for_host: "ประมุขแห่งศรัทธา"
+ coronation_hof_guest_desc_for_host: "ใน [anointment|E] [head_of_faith|E] จะต้องเป็น [activity_guest|E] เพื่อให้ถือว่า [legitimate|E]\n\nได้รับการสนับสนุนจากประมุขแห่งศรัทธาด้วย [interaction|E] [anointment_request|E]"
+
+ # Doctrines related to Coronations
+ doctrine_coronation_name: "ธรรมเนียมพิธีบรมราชาภิเษก"
+ doctrine_no_anointment_name: "ไม่มีพิธีเจิม"
+ doctrine_no_anointment_desc: "ในศรัทธานี้ ไม่มีน้ำมันศักดิ์สิทธิ์ใดสัมผัสหน้าผากของผู้ปกครอง — เส้นทางสู่อำนาจของพวกเขาปราศจากพิธีเจิมหรือพิธีกรรมอันศักดิ์สิทธิ์"
+ doctrine_anointment_permitted_name: "อนุญาตให้มีพิธีเจิม"
+ doctrine_anointment_permitted_desc: "แม้ แต่จักรพรรดิก็ไม่ก้มหัวให้กับพิธีกรรมใดเพียงหนึ่งเดียว — แม้ว่าประมุขแห่งศรัทธาอาจเป็นประธานในพิธี แต่ทางเลือกในการสวมมงกุฎนั้นขึ้นอยู่กับบัลลังก์เอง"
+ doctrine_imperial_anointment_name: "พิธีเจิมของจักรวรรดิ"
+ doctrine_imperial_anointment_desc: "เพื่อปกครองในฐานะจักรพรรดิเหนือข้อสงสัยใด ๆ ผู้นั้นต้องคุกเข่า — เพราะมีเพียงประมุขแห่งศรัทธาเท่านั้นที่สามารถมอบอำนาจสิทธิ์ขาดสุดท้ายนั้นได้"
+ doctrine_parameter_no_anointment: "[characters|E] ไม่สามารถเข้าถึง [activity_option|E] [coronation_anointment|E] ได้"
+ doctrine_parameter_theocratic_coronation: "[characters|E] สามารถเข้าถึง [activity_option|E] [coronation_anointment|E] ได้"
+ doctrine_parameter_imperial_anointment: "[characters|E] ที่มี [title_tier|E] [empire|E] หรือสูงกว่าต้องใช้ [activity_option|E] [coronation_anointment|E] เพื่อรับ [law|E] [GetLaw('crowned_emperor').GetName]"
+ doctrine_parameter_coronation_artifact: "[characters|E] ของ [faith|E] นี้ต้องมี [artifact|E] ประเภท [FAITH.Custom('CoronationRequiresArtifact')] เพื่อเข้าถึง [activity_options|E] เพิ่มเติม"
+ coronation_custom_crown_artifact: "มงกุฎ"
+ coronation_custom_regalia_artifact: "เครื่องราชกกุธภัณฑ์"
+ coronation_custom_crown_or_regalia_artifact: "มงกุฎหรือเครื่องราชกกุธภัณฑ์"
+
+ # Costs
+ CORONATION_BASE_COST: "ค่าใช้จ่ายพื้นฐาน [GetActivityType( 'activity_coronation' ).GetName]"
+
+ # Guest Join Chance Values
+ coronation_small_ceremony_value: "$coronation_small_ceremony$: $VALUE|=+0$"
+ coronation_medium_ceremony_value: "$coronation_medium_ceremony$: $VALUE|=+0$"
+ coronation_large_ceremony_value: "$coronation_large_ceremony$: $VALUE|=+0$"
+
+ coronation_special_vassal_value: "[coronation_i][coronation|E] ของ [liege|E]: $VALUE|=+0$"
+ coronation_pope_not_anointment: "[head_of_faith|E] จะเข้าร่วมเฉพาะ [coronation|E] [coronation_anointment|E] เท่านั้น: $VALUE|=+0$"
+ coronation_liege_value: "พิธีบรมราชาภิเษกของ [vassal|E]: $VALUE|=+0$"
+ coronation_suzerain_value: "พิธีบรมราชาภิเษกของ [tributary|E]: $VALUE|=+0$"
+ coronation_tributary_value: "พิธีบรมราชาภิเษกของ [suzerain|E]: $VALUE|=+0$"
+ coronation_hof_supported_anointment: "[head_of_faith|E] สนับสนุน [anointment|E]: $VALUE|=+0$"
+
+ # Laws for Coronation
+ crowned_laws: "กฎหมายพิธีบรมราชาภิเษก"
+ uncrowned: "ยังไม่สวมมงกุฎ"
+ crowned_king: "องค์อธิปัตย์ผู้สวมมงกุฎ"
+ crowned_emperor: "องค์อธิปัตย์ผู้รับการเจิม"
+ can_only_be_passed_through_coronation: "สามารถได้รับโดยการจัด [GetActivityType( 'activity_coronation' ).GetName] เท่านั้น"
+ can_only_be_lost_through_losing_titles: "สวมมงกุฎแล้ว"
+ already_better_coronation: "รับการเจิมแล้ว"
+ already_coronated_trigger: "สวมมงกุฎแล้ว"
+ coronation_no_crown_trigger: "ศาสนาของท่านต้องการ [artifact|E] ประเภทมงกุฎ ซึ่งสามารถสร้างได้ผ่าน [decision|E] [GetDecisionWithKey('commission_artifact_decision').GetName]"
+ coronation_no_regalia_trigger: "ศาสนาของท่านต้องการ [artifact|E] ประเภทเครื่องราชกกุธภัณฑ์ ซึ่งสามารถสร้างได้ผ่าน [decision|E] [GetDecisionWithKey('commission_artifact_decision').GetName]"
+ coronation_no_crown_or_regalia_trigger: "ศาสนาของท่านต้องการ [artifact|E] ประเภทมงกุฎหรือเครื่องราชกกุธภัณฑ์ ซึ่งสามารถสร้างได้ผ่าน [decision|E] [GetDecisionWithKey('commission_artifact_decision').GetName]"
+
+ ## Intents
+ # Host Intents
+ coronation_impress_attendees: "สร้างความประทับใจแก่ผู้เข้าร่วม"
+ coronation_impress_attendees_desc: "ท่านจะเป็นภาพลักษณ์ขององค์อธิปัตย์โดยแท้ ได้รับ [legitimacy|E], [cultural_acceptance|E] และ [coronation_i][coronation_magnificence|E]\n#EMP #low [intent|E] นี้เป็นที่พอใจของ [vassals|E] [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] และ [GetVassalStance( 'minority' ).GetTextIcon][GetVassalStance( 'minority' ).GetName]#!#!"
+ coronation_embrace_supporters: "โอบรับผู้สนับสนุน"
+ coronation_embrace_supporters_desc: "ระบอบการปกครองของท่านจะถูกสร้างขึ้นโดยผู้ภักดี ร่วมมือกันเพื่อรับ [prestige|E], สร้าง [relations|E] และเสริมสร้าง [realms|E] ของท่านให้มั่งคั่ง\n#EMP #low [intent|E] นี้เป็นที่พอใจของ [coronation_supporters|E] โดยเฉพาะ [vassals|E] [GetVassalStance( 'glory_hound' ).GetTextIcon][GetVassalStance( 'glory_hound' ).GetName] และ [GetVassalStance( 'zealot' ).GetTextIcon][GetVassalStance( 'zealot' ).GetName]#!#!"
+ coronation_weaken_detractors: "ทำให้ผู้คัดค้านอ่อนแอลง"
+ coronation_weaken_detractors_desc: "การสวมมงกุฎของท่านจะเริ่มต้นการล่มสลายของ [claimants|E] และการแตกหักของ [factions|E] และ [confederations|E]\n#EMP #low [intent|E] นี้เป็นอันตรายต่อ [coronation_detractors|E] และเป็นที่พอใจของ [vassals|E] [GetVassalStance( 'belligerent' ).GetTextIcon][GetVassalStance( 'belligerent' ).GetName] ที่ไม่ใช่ [coronation_detractor|E]#!#!"
+ coronation_exalt_crown: "เทิดทูนมงกุฎ"
+ coronation_exalt_crown_desc: "ความเคารพต่ออาณัติของท่านจะมอบผลประโยชน์ที่ยั่งยืน เช่น [dynasty_prestige|E] ให้แก่สถานที่ [coronation|E], [artifacts|E] และ [oaths|E]\n#EMP #low [intent|E] นี้เป็นที่พอใจของ [vassals|E] [GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName]#!#!"
+ # Guest Intents
+ coronation_bear_witness: "เป็นสักขีพยาน"
+ coronation_bear_witness_desc: "โดยการปรากฏตัวในโอกาสสำคัญทางประวัติศาสตร์นี้ ท่านคาดหวังว่าจะได้รับ [piety|E], [legitimacy|E] และ [cultural_acceptance|E]"
+ coronation_seize_advantages: "ฉกฉวยผลประโยชน์"
+ coronation_seize_advantages_desc: "[SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_administrative' ), 'seize_advantages_admin', 'seize_advantages_non_admin' )]"
+ seize_advantages_admin: "ท่านคอยจับตาดูโอกาสที่จะได้รับ [gold|E], [influence|E] หรือ [claims|E] ให้กับตนเอง"
+ seize_advantages_non_admin: "ท่านคอยจับตาดูโอกาสที่จะได้รับ [gold|E], [prestige|E] หรือ [claims|E] ให้กับตนเอง"
+ coronation_offer_support: "เสนอการสนับสนุน"
+ coronation_offer_support_desc: "โดยการให้การสนับสนุนอย่างแข็งขันต่อราชบัลลังก์ ท่านหวังว่าจะได้รับ [opinion|E], [relation|E] หรือ [alliance|E] กับผู้สวมมงกุฎ"
+ coronation_advocate_domain: "สนับสนุนเขตปกครอง"
+ coronation_advocate_domain_desc: "ท่านกดดันองค์อธิปัตย์ของท่านสำหรับนโยบายที่ส่งเสริม [development|E], [control|E] และ [county_opinion|E] ใน [realm|E] ย่อยของท่าน"
+ coronation_profess_rights: "ประกาศสิทธิ์"
+ coronation_profess_rights_desc: "ท่านยืนหยัดอย่างภาคภูมิและแน่วแน่ เรียกร้อง [hook|E] บุญคุณ หรือการปรับปรุง [vassal_contract|E] จากเจ้าเหนือหัวของท่าน"
+ coronation_disrupt_loyalists: "ก่อกวนผู้ภักดี"
+ coronation_disrupt_loyalists_desc: "ท่านพยายามลด [coronation_i][coronation_magnificence|E] ของพิธีบรมราชาภิเษก, เพิ่มจำนวน [factions|E] และ [discontent|E] ของพวกเขา และสร้างปัญหาให้กับ [activity_host|E] และ [coronation_supporters|E] ของพวกเขา"
+
+ ## Widget
+ # Right-hand Side
+ SUPPORTER_WINDOW_OTHER_LABEL: "ผู้สนับสนุนอื่น ๆ: [Subtract_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'supporter' ) ), '(int32)3' )]"
+ SUPPORTER_WINDOW_OTHER_LABEL_NONE: "ผู้สนับสนุนอื่นๆ: 0"
+ SUPPORTER_WINDOW_OTHER_LABEL_HOVER: "#T ผู้สนับสนุน#!\n$game_concept_coronation_supporter_desc$\n\n"
+ SUPPORTER_WINDOW_LABEL: "ผู้สนับสนุนหลัก"
+ SUPPORTER_WINDOW_LABEL_HOVER: "#T $SUPPORTER_WINDOW_LABEL$#!\nนี่คือ [coronation_supporters|E] ของ #V พิธีบรมราชาภิเษก#! ที่มีผลกระทบมากที่สุดต่อ [coronation_magnificence|E]\n\n$game_concept_coronation_supporter_desc$"
+ DETRACTOR_WINDOW_OTHER_LABEL: "ผู้คัดค้านอื่น ๆ: [Subtract_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'detractor' ) ), '(int32)3' )]"
+ DETRACTOR_WINDOW_OTHER_LABEL_NONE: "ผู้ต่อต้านอื่นๆ: 0"
+ DETRACTOR_WINDOW_OTHER_LABEL_HOVER: "#T ผู้คัดค้าน#!\n$game_concept_coronation_detractor_desc$"
+ DETRACTOR_WINDOW_LABEL: "ผู้คัดค้านหลัก"
+ DETRACTOR_WINDOW_LABEL_HOVER: "#T $DETRACTOR_WINDOW_LABEL$#!\nนี่คือ [coronation_detractors|E] ของ #V พิธีบรมราชาภิเษก#! ที่มีผลกระทบมากที่สุดต่อ [coronation_magnificence|E]\n\n$game_concept_coronation_detractor_desc$"
+ OPINION_OF_HOST: "ความเห็นต่อ [host|E]: [Character.GetOpinionOf( GetPlayer )|+=0]"
+ PERSONAL_INTERACTIONS_CORONATION_BUTTON_TOOLTIP: "#T แสดงปฏิสัมพันธ์ [coronation|E]#!"
+ coronation_interaction_filter_tag_desc: "#S ปฏิสัมพันธ์ในพิธีบรมราชาภิเษก#!"
+ CORONATION_ACTIVITY_INTENT_TOOLTIP: "#T [ActivityIntent.GetName]#!\n[ActivityIntent.GetDescription]"
+ CORONATION_ACTIVITY_INTENT_NAME: "#UND [ActivityIntent.GetName]#!"
+ 
+ # Special Type Progression
+ activity_coronation_special_type_title: "#UND ความโอ่อ่า#!"
+ activity_coronation_special_type_desc: "#T ความโอ่อ่า#!\n$game_concept_coronation_magnificence_desc$"
+ CORONATION_WINDOW_SPECIAL_PROGRESS_TOOLTIP: "[coronation_magnificence|E]: [ActivityWindow.GetSpecialProgressValue|0^V]"
+ activity_coronation_special_type_bar_segment_tt_0: "#T พิธีบรมราชาภิเษกที่ขัดสน#!\n$activity_coronation_special_type_bar_segment_tt_0_effects$\n$activity_coronation_special_type_bar_segment_tt_0_flavor$"
+ activity_coronation_special_type_bar_segment_tt_0_effects: ""
+ activity_coronation_special_type_bar_segment_tt_0_flavor: "#weak พิธีบรมราชาภิเษกที่ขัดสน ความพยายามอันน่าสมเพชที่จะสร้างความประทับใจ... มีเพียงไม่กี่คนที่รู้สึกว่ามันช่วยค้ำจุนกษัตริย์องค์ใหม่ได้อย่างน่าเชื่อถือ#!"
+ activity_coronation_special_type_bar_segment_tt_1: "#T พิธีบรมราชาภิเษกที่พอประมาณ#!\n$activity_coronation_special_type_bar_segment_tt_1_effects$\n$activity_coronation_special_type_bar_segment_tt_1_flavor$"
+ activity_coronation_special_type_bar_segment_tt_1_effects: "[CoronationRewardProgress('(CFixedPoint)25', 'activity_coronation_special_type_bar_segment_tt_1_progress')]$BULLET$รางวัล [oath|E] [legitimacy_i][legitimacy|E] และ [prestige_i][prestige|E]: #P +25%#!\n$BULLET$การได้รับ [opinion|E] ของ [guest|E] [vassal|E] จากเจตจำนง: #P +5#!\n"
+ activity_coronation_special_type_bar_segment_tt_1_progress: "[coronation_magnificence|E]: #V [ActivityWindow.GetSpecialProgressValue|0]/25#!\n"
+ activity_coronation_special_type_bar_segment_tt_1_flavor: "#weak น้อยคนนักที่จะกล่าวถึงพิธีอันพอประมาณนี้หลังจากวันที่ล่วงเลยไป มันไม่สร้างความขุ่นเคือง แต่ก็ไม่สร้างความตื่นตาตื่นใจ#!"
+ activity_coronation_special_type_bar_segment_tt_2: "#T พิธีบรมราชาภิเษกที่น่าเคารพ#!\n$activity_coronation_special_type_bar_segment_tt_2_effects$\n$activity_coronation_special_type_bar_segment_tt_2_flavor$"
+ activity_coronation_special_type_bar_segment_tt_2_effects: "[CoronationRewardProgress('(CFixedPoint)50', 'activity_coronation_special_type_bar_segment_tt_2_progress')]$BULLET$รางวัลกิจกรรม [legitimacy_i][legitimacy|E] และ [prestige_i][prestige|E]: #P +50%#!\n$BULLET$รางวัล [oath|E] [legitimacy_i][legitimacy|E] และ [prestige_i][prestige|E]: #P +50%#!\n$BULLET$การได้รับ [opinion|E] ของ [guest|E] [vassal|E] จากเจตจำนง: #P +10#!\n"
+ activity_coronation_special_type_bar_segment_tt_2_progress: "[coronation_magnificence|E]: #V [ActivityWindow.GetSpecialProgressValue|0]/50#!\n"
+ activity_coronation_special_type_bar_segment_tt_2_flavor: "#weak พิธีบรมราชาภิเษกถูกจดจำด้วยคำชื่นชมตามสมควร เป็นพิธีที่คู่ควรกับผู้ปกครอง หากแต่ไม่ถึงกับสร้างแรงบันดาลใจให้เป็นบทเพลง#!"
+ activity_coronation_special_type_bar_segment_tt_3: "#T พิธีบรมราชาภิเษกที่ยิ่งใหญ่#!\n$activity_coronation_special_type_bar_segment_tt_3_effects$\n$activity_coronation_special_type_bar_segment_tt_3_flavor$"
+ activity_coronation_special_type_bar_segment_tt_3_effects: "[CoronationRewardProgress('(CFixedPoint)75', 'activity_coronation_special_type_bar_segment_tt_3_progress')]$BULLET$รางวัลกิจกรรม [legitimacy_i][legitimacy|E] และ [prestige_i][prestige|E]: #P +75%#!\n$BULLET$รางวัล [oath|E] [legitimacy_i][legitimacy|E] และ [prestige_i][prestige|E]: #P +75%#!\n$BULLET$การได้รับ [opinion|E] ของ [guest|E] [vassal|E] จากเจตจำนง: #P +15#!\n"
+ activity_coronation_special_type_bar_segment_tt_3_progress: "[coronation_magnificence|E]: #V [ActivityWindow.GetSpecialProgressValue|0]/75#!\n"
+ activity_coronation_special_type_bar_segment_tt_3_flavor: "#weak พิธีบรมราชาภิเษกยังคงตราตรึงในความทรงจำ ความโอ่อ่าและพิธีกรรมอันศักดิ์สิทธิ์มักถูกกล่าวถึงในโถงของขุนนางและการชุมนุมในราชสำนัก#!"
+ activity_coronation_special_type_bar_segment_tt_4: "#T พิธีบรมราชาภิเษกที่วิจิตรงดงาม#!\n$activity_coronation_special_type_bar_segment_tt_4_effects$\n$activity_coronation_special_type_bar_segment_tt_4_flavor$"
+ activity_coronation_special_type_bar_segment_tt_4_effects: "[CoronationRewardProgress('(CFixedPoint)100', 'activity_coronation_special_type_bar_segment_tt_4_progress')]$BULLET$รางวัลกิจกรรม [legitimacy_i][legitimacy|E] และ [prestige_i][prestige|E]: #P +150%#!\n$BULLET$รางวัล [oath|E] [legitimacy_i][legitimacy|E] และ [prestige_i][prestige|E]: #P +100%#!\n$BULLET$การได้รับ [opinion|E] ของ [guest|E] [vassal|E] จากเจตจำนง: #P +20#!\n"
+ activity_coronation_special_type_bar_segment_tt_4_progress: "[coronation_magnificence|E]: #V [ActivityWindow.GetSpecialProgressValue|0]/100#!\n"
+ activity_coronation_special_type_bar_segment_tt_4_flavor: "#weak เรื่องราวของพิธีการแพร่กระจายไปไกล ความงดงามของมันถูกจารึกไว้ในบทเพลง คัมภีร์ และในหัวใจของทุกคนที่ได้เห็น#!"
+
+ # Debug Interaction
+ debug_coronation_add_to_guest_subset_interaction: "เพิ่มแขกไปยังเซตย่อย (พิธีบรมราชาภิเษก)"
+ debug_interaction_add_to_supporter: "ผู้สนับสนุน"
+ debug_interaction_add_to_detractor: "ผู้คัดค้าน"
+
+ # Custom Loc
+ GetReconquerOathText: "รวบรวม [GetPlayer.MakeScope.Var('oath_reconquest_title').Title.GetTierAsNameNoTooltip] ให้เป็นปึกแผ่น"
+ GetConquestOathText: "ขยายอาณาจักร"
+ GetUniversityOathText: "อุปถัมภ์การตื่นรู้"
+ GetPeaceOathText: "รับประกันสันติภาพ"
+ GetAllianceOathText: "สร้างพันธมิตรที่มั่นคง"
+ GetBuildingOathText: "สรรค์สร้างอาณาจักร"
+ GetChildrenOathText: "เสริมสร้างตระกูล"
+ GetPurgePretendersOathText: "กวาดล้างผู้อ้างสิทธิ์จอมปลอม"
+ GetEndTheStruggleOathText: "ยุติการต่อสู้"
+ GetGreatestHunterOathText: "สุดยอดนักล่า"
+ GetHeirPreparationOathText: "เตรียมทายาท"
+ GetInstallClaimantsOathText: "สนับสนุนผู้อ้างสิทธิ์"
+ GetMendTheFractureOathText: "สมานรอยร้าว"
+ GetProvideForTheWarriorsOathText: "สนับสนุน [ROOT.Char.Custom('KnightCulturePluralNoTooltip')] ของข้า"
+ GetProvideForTheFaithfulOathText: "อุปถัมภ์ผู้ศรัทธา"
+ GetProvideForThePoorOathText: "อุปถัมภ์ผู้ยากไร้"
+ GetRepentOathText: "สำนึกบาป"
+ GetNoOathText: "ไม่สาบาน"
+
+ # Modifiers
+ coronation_tradition_modifier: "สถานที่ขึ้นครองราชย์ตามธรรมเนียม"
+ coronation_tradition_modifier_desc: "เพิ่ม [coronation_magnificence|E] ใน [coronation|E]: #p +5#!"
+ coronation_long_tradition_modifier: "สถานที่ขึ้นครองราชย์ตามธรรมเนียม"
+ coronation_long_tradition_modifier_desc: "เพิ่ม [coronation_magnificence|E] ใน [coronation|E]: #p +10#!"
+ coronation_ancient_tradition_modifier: "สถานที่ขึ้นครองราชย์ตามธรรมเนียม"
+ coronation_ancient_tradition_modifier_desc: "เพิ่ม [coronation_magnificence|E] ใน [coronation|E]: #p +15#!"
+ oath_of_reconquest: "รวบรวมอาณาจักรเป็นปึกแผ่น"
+ oath_of_reconquest_county: "รักษาคำสัตย์สาบาน"
+ oath_of_conquest: "ขยายอาณาจักร"
+ oath_of_conquest_county: "$oath_of_reconquest_county$"
+ oath_university_county: "วงวิชาการ"
+ oath_of_peace: "รับประกันสันติภาพ"
+ oath_of_alliances: "สร้างพันธมิตรที่มั่นคง"
+ oath_of_alliances_desc: "การยอมรับ [marriage|E] [allied|E]: #P +10#!"
+ oath_of_alliances_marriage_acceptance_value: "[GetModifier('oath_of_alliances').GetNameWithTooltip]: $VALUE|=+0$"
+ oath_of_buildings: "สรรค์สร้างอาณาจักร"
+ oath_of_buildings_desc: "[holdings|E] ใหม่ใน [domain|E] ของท่านจะได้รับ [buildings|E] ฟรีเมื่อสร้างเสร็จ"
+ oath_of_children: "เสริมสร้างตระกูล"
+ oath_of_purge_pretenders: "กวาดล้างผู้อ้างสิทธิ์จอมปลอม"
+ oath_of_purge_pretenders_house: "กวาดล้างผู้อ้างสิทธิ์จอมปลอม: คำสัตย์สาบานในพิธีบรมราชาภิเษก"
+ oath_of_purge_pretenders_house_desc: "สมาชิกของ [house|E] นี้มี [candidate_score|E] #P +50#! [modifier|E] นี้จะถูกลบเมื่อ [house_head|E] เสียชีวิต"
+ oath_of_end_the_struggle: "ยุติการต่อสู้"
+ oath_greatest_hunter: "สุดยอดนักล่า"
+ oath_greatest_hunter_desc: "รางวัล [prestige|E] จาก #V การล่า#!: #P +10%#!"
+ oath_heir_preparation: "เตรียมทายาท"
+ oath_heir_preparation_heir: "ทายาทผู้ถูกเตรียมพร้อม"
+ oath_heir_preparation_desc: "มูลค่าการสืบทอด [legitimacy|E]: #P +20%#!"
+ oath_install_claimants: "สนับสนุนผู้อ้างสิทธิ์"
+ oath_mend_the_fracture: "สมานรอยร้าว"
+ oath_mend_the_fracture_county: "รอยร้าวที่สมานโดยองค์อธิปัตย์ผู้สาบาน"
+ oath_provide_for_the_warriors: "อุปถัมภ์นักรบ"
+ oath_provide_for_the_warriors_province: "คำสัตย์สาบานต่อนักรบที่ลุล่วง"
+ oath_provide_for_the_warriors_province_desc: "ปลดล็อกการก่อสร้าง [building|E] [GetBuilding('oath_warriors_building_04').GetName] ใน [barony|E] นี้"
+ oath_provide_for_the_faithful: "อุปถัมภ์ผู้ศรัทธา"
+ oath_provide_for_the_faithful_province: "คำสัตย์สาบานต่อผู้ศรัทธาที่ลุล่วง"
+ oath_provide_for_the_faithful_province_desc: "ปลดล็อกการก่อสร้าง [building|E] [GetBuilding('oath_faithful_building_04').GetName] ใน [barony|E] นี้"
+ oath_provide_for_the_poor: "อุปถัมภ์ผู้ยากไร้"
+ oath_provide_for_the_poor_province: "คำสัตย์สาบานต่อผู้ยากไร้ที่ลุล่วง"
+ oath_provide_for_the_poor_province_desc: "ปลดล็อกการก่อสร้าง [building|E] [GetBuilding('oath_poor_building_04').GetName] ใน [barony|E] นี้"
+ oath_repent: "การสำนึกบาป"
+ oath_peaceful_ai_modifier: "$motto_peaceful$"
+ oath_warlike_ai_modifier: "$game_concept_ai_warlike_personality$"
+
+ ### Events
+ # Oaths
+ coronation_events.0100.t: "คำสัตย์สาบานแห่งยุคสมัย"
+ # Intro
+ coronation_events.0100.desc.opening: "ที่ประชุมกำลังจับจ้องข้า บ้างก็ด้วยความหวัง บ้างก็ด้วยความกังขา ทั้งหมดรอคอยให้ข้ากล่าวถึงการปกครองของข้า และสาบานต่ออนาคต ข้าได้ยินคำถามที่พวกเขาไม่ได้เอ่ยออกมา ข้าจะเที่ยงธรรมหรือไม่? ข้าจะยุติธรรมหรือเปล่า?"
+ # Mid section
+ coronation_events.0100.desc.previous_ruler_close_family: "ข้าจะทำได้เทียบเท่า [ROOT.Char.Custom2( 'RelationToMeShort', previous_ruler )] ของข้าหรือไม่?"
+ coronation_events.0100.desc.previous_ruler_not_family_no_house: "ข้าจะก้าวข้ามผู้ดำรงตำแหน่งก่อนหน้า, [previous_ruler.GetFirstNameNicknamed] ได้หรือไม่?"
+ coronation_events.0100.desc.previous_ruler_not_family: "ข้าจะก้าวข้ามผู้ดำรงตำแหน่งก่อนหน้า, [previous_ruler.GetFullNameNoTooltip], ได้หรือไม่?"
+ coronation_events.0100.desc.first_ruler: "ข้าจะปกครองในฐานะ [ROOT.Char.GetTitleAsNameNoTooltip|l] คนแรกของดินแดนนี้อย่างไร?"
+ # Outro
+ coronation_events.0100.desc.outro: "\n\nข้าไม่ได้ยืนอยู่ที่นี่, ในฐานะ [ROOT.Char.GetTitleAsNameNoTooltip|l], เพื่อตอบสนองความคาดหวังของพวกเขา ข้ามาเพื่อเลือกเส้นทางของข้าเอง และหนทางข้างหน้าสำหรับ [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip|l]\n\nไม่ว่า [ROOT.Char.GetPrimaryTitle.GetNameNoTier] จะเป็น เช่นใด — ไม่ว่าข้าจะเป็น เช่นใด — ทุกสิ่งเริ่มต้น ณ ชั่วขณะนี้"
+ # Options
+ diplomacy_oath_reason: "นี่คือ [oath|E] ด้าน [diplomacy|E]"
+ martial_oath_reason: "นี่คือ [oath|E] ด้าน [martial|E]"
+ stewardship_oath_reason: "นี่คือ [oath|E] ด้าน [stewardship|E]"
+ intrigue_oath_reason: "นี่คือ [oath|E] ด้าน [intrigue|E]"
+ learning_oath_reason: "นี่คือ [oath|E] ด้าน [learning|E]"
+ prowess_oath_reason: "นี่คือ [oath|E] ด้าน [prowess|E]"
+
+ ## Diplomacy
+ coronation_events.0100.alliances: "$GetAllianceOathText$"
+ coronation_events.0100.alliances_flavor: "ข้าสาบานว่าจะสร้างพันธมิตรไปทั่วทั้งใกล้และไกล"
+ coronation_events.0100.children: "$GetChildrenOathText$"
+ coronation_events.0100.children_flavor: "ข้าสาบานว่าจะเสริมสร้างตระกูลของข้าด้วยสมาชิกครอบครัวใหม่"
+
+ ## Martial
+ coronation_events.0100.reconquest: "รวบรวม [host.GetPrimaryTitle.GetTierAsNameNoTooltip] ให้เป็นปึกแผ่น"
+ coronation_events.0100.reconquest_flavor: "ข้าสาบานว่าจะทุ่มเทความพยายามในการฟื้นฟูดินแดนของ [ROOT.Char.GetPrimaryTitle.GetNameNoTier]"
+ coronation_events.0100.reconquest_opinion: "$BULLET$[ruler|E] ต่างแดนทุกคนที่ [activity_attending|E] ที่ถือครอง [county|E] ใน [root_scope.GetPrimaryTitle.GetNameNoTier]"
+
+ coronation_events.0100.conquest: "$GetConquestOathText$"
+ coronation_events.0100.conquest_flavor: "ข้าสาบานว่าจะพิชิตดินแดนใหม่เพื่อผู้คนของ [ROOT.Char.GetPrimaryTitle.GetNameNoTier]"
+ coronation_events.0100.conquest_opinion: "$BULLET$[ruler|E] เพื่อนบ้านทุกคนที่ [activity_attending|E]"
+ warlike_character_opinion: "$BULLET$[vassal|E] [GetVassalStance( 'glory_hound' ).GetTextIcon][GetVassalStance( 'glory_hound' ).GetName] หรือ [GetVassalStance( 'belligerent' ).GetTextIcon][GetVassalStance( 'belligerent' ).GetName] ทุกคนที่ [activity_attending|E]"
+
+ ## Stewardship
+ coronation_events.0100.peace: "$GetPeaceOathText$"
+ coronation_events.0100.peace_flavor: "ข้าสาบานว่าจะรับประกันสันติภาพให้กับ [ROOT.Char.GetPrimaryTitle.GetTierAsName]"
+ coronation_events.0100.buildings: "$GetBuildingOathText$"
+ coronation_events.0100.buildings_flavor: "ข้าสาบานว่าจะฟื้นฟูอาณาจักรขึ้นใหม่"
+
+ ## Intrigue
+
+ ## Learning
+ coronation_events.0100.university: "$GetUniversityOathText$"
+ coronation_events.0100.university_flavor: "ข้าสาบานว่าจะสนับสนุนวงวิชาการในอาณาจักร"
+
+ # De Jure Right
+ coronation_events.0100.purge_pretenders: "$GetPurgePretendersOathText$"
+ coronation_events.0100.purge_pretenders_flavor: "ข้าสาบานว่าจะกวาดล้างผู้อ้างสิทธิ์จอมปลอมต่อบัลลังก์"
+
+ # End the Struggle
+ coronation_events.0100.end_the_struggle: "$GetEndTheStruggleOathText$"
+ coronation_events.0100.end_the_struggle_flavor: "ข้าสาบานว่าจะยุติการต่อสู้"
+
+ # Greatest Hunter
+ coronation_events.0100.greatest_hunter: "$GetGreatestHunterOathText$"
+ coronation_events.0100.greatest_hunter_flavor: "ข้าสาบานว่าจะเป็นสุดยอดนักล่า"
+
+ # Heir Preparation
+ coronation_events.0100.heir_preparation: "$GetHeirPreparationOathText$"
+ coronation_events.0100.heir_preparation_flavor: "ข้าสาบานว่าจะเตรียมทายาทของข้าให้พร้อมสำหรับอนาคต"
+
+ # Install Claimants
+ coronation_events.0100.install_claimants: "สนับสนุนผู้อ้างสิทธิ์"
+ coronation_events.0100.install_claimants_flavor: "ข้าสาบานว่าจะนำผู้อ้างสิทธิ์โดยชอบธรรมไปสู่บัลลังก์ของพวกเขาและขับไล่ผู้แย่งชิง"
+ # Mend the Fracture
+ coronation_events.0100.mend_the_fracture: "สมานรอยร้าว"
+ coronation_events.0100.mend_the_fracture_flavor: "ข้าสาบานว่าจะสมานรอยร้าวทางวัฒนธรรมในอาณาจักร และนำสันติสุขมาสู่ดินแดน"
+ # Provide for the Warriors
+ coronation_events.0100.provide_for_the_warriors: "สนับสนุน [ROOT.Char.Custom('KnightCulturePluralNoTooltip')] ของข้า"
+ coronation_events.0100.provide_for_the_warriors_flavor: "ข้าสาบานว่าจะแสดงความเอื้อเฟื้อต่อนักรบแห่ง [ROOT.Char.GetPrimaryTitle.GetNameNoTier]"
+ # Provide for the Faithful
+ coronation_events.0100.provide_for_the_faithful: "อุปถัมภ์ผู้ศรัทธา"
+ coronation_events.0100.provide_for_the_faithful_flavor: "ข้าสาบานตนเป็นองค์อุปถัมภ์ต่อผู้ศรัทธาชาว [ROOT.Char.GetPrimaryTitle.GetAdjective]"
+ # Provide for the Poor
+ coronation_events.0100.provide_for_the_poor: "อุปถัมภ์ผู้ยากไร้"
+ coronation_events.0100.provide_for_the_poor_flavor: "ข้าสาบานว่าจะแสดงความเมตตาการกุศลต่อผู้ยากไร้แห่ง [ROOT.Char.GetPrimaryTitle.GetNameNoTier]"
+ # Repent
+ coronation_events.0100.repent: "$GetRepentOathText$"
+ coronation_events.0100.repent_flavor: "ข้าสาบานว่าจะสำนึกในบาปของข้า"
+
+ coronation_events.0100.opt_out: "ข้าไม่ขอสาบาน"
+
+ coronation_events.0110.t: "คำสัตย์สาบาน"
+ coronation_events.0110.desc.intro: "[activity.GetHost.GetFirstName] ยืนอยู่เบื้องหน้าฝูงชนด้วย [activity.GetHost.GetHerselfHimself] ขณะที่ทุกคนรอคอยคำสัตย์สาบานของ [activity.GetHost.GetHerHis]\n\n"
+ ## Diplomacy
+ coronation_events.0110.desc.diplomacy_oath_1: "#emp \"ไม่มีอาณาจักรใดรุ่งเรืองได้โดยลำพัง อำนาจมิได้อยู่ที่กองทัพเท่านั้น แต่ยังอยู่ในสายสัมพันธ์แห่งความไว้เนื้อเชื่อใจ ในพันธสัญญาที่หล่อหลอมด้วยคำพูดและเจตจำนง\n\nจาก [activity.GetHost.GetCapitalLocation.GetName] ข้าจะยื่นมือแห่งมิตรภาพ ถักทอพันธมิตรที่จะปกป้อง [activity.GetHost.GetPrimaryTitle.GetNameNoTier] ไปอีกหลายชั่วอายุคน\"#!"
+ coronation_events.0110.desc.diplomacy_oath_2: "#emp \"ความแข็งแกร่งของอาณาจักรมิได้อยู่ที่พันธมิตรที่ได้มาเท่านั้น แต่อยู่ในคำมั่นสัญญาอันเงียบงันแห่งความต่อเนื่อง โดยการทำให้แน่ใจว่า [activity.GetHost.GetHouse.GetName] จะยังคงอยู่ ข้าจะมอบรากฐานที่มั่นคงดั่งศิลาให้กับอาณาจักร\n\nผ่านทางลูกหลานของเรา สายเลือดของ [activity.GetHost.GetHouse.GetName] จะยังคงไม่ขาดสาย รักษาเสถียรภาพและนำทางอาณาจักรของเราผ่านพ้นทุกสิ่งที่อาจมาถึง\"#!"
+ ## Martial
+ coronation_events.0110.desc.martial_oath_1: "#emp \"ข้าลุกขึ้นในวันนี้ไม่เพียงเพื่อปกครอง แต่เพื่อสร้างสรรค์ ไม่เพียงเพื่อรักษาสิ่งที่เป็นอยู่ แต่เพื่อสร้างสิ่งที่อาจเป็นไปได้ [activity.GetHost.GetPrimaryTitle.GetNameNoTier] ไม่สามารถถูกจำกัดอยู่แค่ในความทรงจำหรือแผนที่ มันต้องเติบโต\n\nเพื่ออนาคตของเรา และอนาคตของปวงชนของเรา\"#!"
+ coronation_events.0110.desc.martial_oath_2: "#emp \"เนิ่นนานเกินไปแล้ว ที่ดินแดนอันเป็นของ [activity.GetHost.GetPrimaryTitle.GetNameNoTier] ต้องทนทุกข์ภายใต้การปกครองของผู้อ่อนด้อยกว่า ของผู้ที่เข้าใจผิดว่าการครอบครองคือความชอบธรรม\n\nมันจะจบลงเดี๋ยวนี้ จาก [activity.GetHost.GetCapitalLocation.GetName] พวกเขาจะได้รู้จักการปกครองที่แท้จริง โดยข้า\"#!"
+ ## Stewardship
+ coronation_events.0110.desc.stewardship_oath_1: "#emp \"ผู้ปกครองต้องทำมากกว่าการปกป้องพรมแดน พวกเขาต้องทำให้ชีวิตภายในพรมแดนนั้นควรค่าแก่การมีอยู่ ข้าจะพิทักษ์สันติภาพ ดูแลอาณาจักร และวางแผนไม่ใช่เพื่อสงคราม แต่เพื่อการเติบโต\n\nจาก [activity.GetHost.GetCapitalLocation.GetName] ข้าจะนำพา [activity.GetHost.GetPrimaryTitle.GetNameNoTier] ผ่านยุคทองใหม่\"#!"
+ coronation_events.0110.desc.stewardship_oath_2: "#emp "มรดกทั้งหมดไม่ได้เกิดจากสงคราม บางส่วนถูกสร้างขึ้นด้วยหิน ด้วยหยาดเหงื่อและจุดมุ่งหมาย ข้าจะปรับโฉม [activity.GetHost.GetPrimaryTitle.GetNameNoTier] ด้วยอนุสรณ์สถานที่คู่ควรกับอนาคต\n\nจาก [activity.GetHost.GetCapitalLocation.GetName] ข้าจะยกอาณาจักรไม่เพียงเพื่อให้อยู่รอด แต่เป็นอาณาจักรที่เข้าสู่ยุคทองที่หล่อหลอมด้วยความใส่ใจและวิสัยทัศน์"#! "
+ ## Intrigue
+
+ ## Learning
+ coronation_events.0110.desc.learning_oath_1: "#emp "อย่าให้ผู้ปกครองใดเข้าใจผิดว่าความเขลาคือความแข็งแกร่ง อาณาจักรที่นำทางด้วยความรู้แจ้งย่อมอยู่รอดได้นานกว่าอาณาจักรใด ๆ ที่สร้างขึ้นจากความกลัวเพียงอย่างเดียว\n\nจาก [activity.GetHost.GetCapitalLocation.GetName] ข้าจะรวบรวมผู้มีปัญญาที่สุด และผ่านคำแนะนำของพวกเขา ข้าจะกำหนดอนาคตของ [activity.GetHost.GetPrimaryTitle.GetNameNoTier]\"#!"
+ ## Purge Pretenders
+ coronation_events.0110.desc.purge_pretenders_oath: "#emp \"ผู้อ้างสิทธิ์จอมปลอมต่อ [activity.GetHost.GetPrimaryTitle.GetName] ได้เพิ่มจำนวนขึ้นราวกับหนูในท่อระบายน้ำ และเช่นเดียวกับสัตว์รำคาญ พวกมันทั้งหมดต้องถูกกำจัด\"#!"
+ ## End the Struggle
+ coronation_events.0110.desc.end_the_struggle_oath: "#emp \"[activity.GetHost.MakeScope.Var('end_the_struggle_oath_type_var').Struggle.GetName] ได้สูบเลือดเนื้อชาว [activity.GetHost.GetCulture.GetCollectiveNoun] ผู้ดีงามมาหลายชั่วอายุคน พอ กัน ที ข้าจะยุติการสิ้นเปลืองทรัพยากรอันไร้ค่านี้ให้จงได้ และนำพายุคใหม่แห่งความรุ่งเรืองร่วมกันมาสู่ดินแดนนี้ ขอ [activity.GetHost.GetFaith.HighGodName] ทรงเป็นพยาน\"#!"
+ ## Greatest Hunter
+ coronation_events.0110.desc.greatest_hunter_oath: "#emp \"การล่ามิใช่เพียงการทดสอบทักษะ แต่เป็นการเฉลิมฉลองชีวิตและธรรมชาติ ข้าจะเป็นสุดยอดนักล่า ผู้เชี่ยวชาญแห่งพงไพร องค์อธิปัตย์ที่แท้จริงแห่งใจกลางดินแดนเถื่อนของ [activity.GetHost.GetPrimaryTitle.GetNameNoTier]\"#!"
+ ## Heir Preparation
+ coronation_events.0110.desc.heir_preparation_oath: "#emp \"หากปราศจากทายาทที่เหมาะสม [activity.GetHost.GetDynasty.GetName] ก็มีแต่จะถูกลืมเลือน ข้าจะนำทางการศึกษาของทายาทของข้า ปลูกฝังคุณค่าและปัญญาที่จำเป็นเพื่อยกระดับ [activity.GetHost.GetDynasty.GetName] สู่จุดสูงสุดใหม่\"#!"
+ ## Install Claimants
+ coronation_events.0110.desc.install_claimants_oath: "#emp \"การอ้างสิทธิ์ในบัลลังก์โดยชอบธรรมมิใช่เพียงเรื่องของสายเลือด แต่เป็นเรื่องของความยุติธรรม ข้าจะสนับสนุนผู้อ้างสิทธิ์โดยชอบธรรมสู่บัลลังก์ของพวกเขา ขับไล่ผู้แย่งชิงและฟื้นฟูระเบียบ\"#!"
+ ## Mend the Fracture
+ coronation_events.0110.desc.mend_the_fracture_oath: "#emp \"รอยร้าวทางวัฒนธรรมในอาณาจักรได้ก่อให้เกิดความขัดแย้งมานานเกินไปแล้ว ข้าจะรวมผู้คนเข้าด้วยกันภายใต้ธง [activity.GetHost.GetHouse.GetName] เดียวกัน ขณะที่ยังคงรักษาอัตลักษณ์ของพวกเขาไว้\"#!"
+ ## Provide for the Warriors
+ coronation_events.0110.desc.provide_for_the_warriors_oath: "#emp \"นักรบแห่ง [activity.GetHost.GetPrimaryTitle.GetNameNoTier] คือดาบและโล่ของข้า ข้าจะทำให้แน่ใจว่าพวกเขามีอาวุธยุทโธปกรณ์ครบครันและพร้อมที่จะปกป้องดินแดนของเรา\"#!"
+ ## Provide for the Faithful
+ coronation_events.0110.desc.provide_for_the_faithful_oath: "#emp \"ผู้ศรัทธาแห่ง [activity.GetHost.GetPrimaryTitle.GetNameNoTier] คือกระดูกสันหลังแห่งอาณาจักรของข้า ข้าจะทำให้แน่ใจว่าความต้องการทางโลกของพวกเขาได้รับการตอบสนอง และอนุญาตให้พวกเขามุ่งเน้นไปที่การเป็นผู้รับใช้ที่อุทิศตนของ [ROOT.Char.GetFaith.HighGodName] มุ่งเน้นไปที่ความรอดของ [activity.GetHost.GetPrimaryTitle.GetTierAsNamePossessive] ของข้า\"#!"
+ ## Provide for the Poor
+ coronation_events.0110.desc.provide_for_the_poor_oath: "#emp \"ผู้ยากไร้แห่ง [activity.GetHost.GetPrimaryTitle.GetNameNoTier] คือเกลือแห่งแผ่นดิน คือแสงสว่างของโลก พวกเขาตรากตรำทำงานอย่างเงียบ ๆ เพื่อประโยชน์ของทุกคน ข้าจะทำให้แน่ใจว่าแม้แต่ผู้ที่ยากจนที่สุดในอาณาจักรของข้าก็สามารถมีชีวิตอยู่ได้อย่างมีศักดิ์ศรีและความหวัง\"#!"
+ ## Repent
+ coronation_events.0110.desc.repent_oath: "#emp \"สิ่งใดเล่าจะเปลี่ยนวิถีแห่ง [activity.GetHost.GetWomanMan] ได้? เจตจำนงของข้าเพียงพอหรือเปล่า? ข้าจะโน้มน้าว [activity.GetHost.GetFaith.GetAdherentNamePlural] ผู้อื่นได้หรือไม่ ข้าจะทำให้ [activity.GetHost.GetFaith.HighGodName] ประจักษ์ได้หรือไม่ว่าข้าสำนึกในบาปของตนอย่างแท้จริง? อาจเป็นความโง่เขลาที่พยายาม ทว่าคงเป็นบาปมหันต์หากมิได้พยายามเลย\"#!"
+
+ ## Other
+ coronation_events.0110.desc.fallback_compassionate: "#emp \"ข้าขอปฏิญาณว่าจะธำรงไว้ซึ่งกฎหมายและธรรมเนียมอันเป็นธรรมทั้งปวงแห่งชนชาว [activity.GetHost.GetPrimaryTitle.GetAdjective] จะปกครองด้วยปัญญาอันอ่อนโยน และพิพากษาด้วยความเมตตาปรานี\"#!"
+ coronation_events.0110.desc.fallback_honorable: "#emp \"ข้าขอปฏิญาณว่าจะรักษาความสงบเรียบร้อยและความปรองดองแห่ง [activity.GetHost.GetFaith.AltPriestTermPlural] ของ [activity.GetHost.GetFaith.HighGodNamePossessive] ใน [activity.GetHost.GetPrimaryTitle.GetNameNoTier] และจะธำรงไว้ด้วยเกียรติของข้าซึ่งเสรีภาพและสิทธิแห่งราษฎรของข้า\"#!"
+ coronation_events.0110.desc.fallback_feckless: "#emp \"ข้า... เอ้อ... ขอปฏิญาณคำสัตย์อันสมควรแห่ง [activity.GetHost.GetTierAsName] ของ [activity.GetHost.GetPrimaryTitle.GetNameNoTierPossessive]... นับแต่นี้ไปจะกระทำตามที่ [activity.GetHost.GetFaith.AltPriestTermPlural] ประสงค์ และจะขานรับเมื่ออาณาจักรร้องเรียกหา [activity.GetHost.GetTierAsNameNoTooltip] ของมัน และอะไรต่อมิอะไร...\"#!"
+ coronation_events.0110.desc.fallback: "#emp \"ข้าขอปฏิญาณ ด้วยการปกครองของข้า จะนำมาซึ่งความรุ่งโรจน์แก่ [activity.GetHost.GetPrimaryTitle.GetNameNoTier] ความเคารพต่อธรรมเนียมของปวงชน และเกียรติยศแห่ง [activity.GetHost.GetPrimaryTitle.GetTierAsNameNoTooltip]\"#!"
+ coronation_events.0110.regular: "เราจะคอยดูว่า [activity.GetHost.GetSheHe] จะสามารถรักษาคำพูดเหล่านี้ได้หรือไม่..."
+ coronation_events.0110.no_oath: "คำกล่าวแห่งพิธีการ มิใช่แห่งประวัติศาสตร์"
+ coronation_events.0110.desc.outro: ""
+
+
+ coronation_events.0150.t: "คำสัตย์สาบานที่ผิดสัญญา: [SCOPE.Custom('GetOathSpecific')|V]"
+ coronation_events.0150.desc: "ข้าได้ยินเสียงกระซิบของพวกเขาหลังประตูที่ปิดอยู่ ข้าเห็นความผิดหวังตราตรึงในดวงตาของพวกเขา และข้ารู้สึกถึงน้ำหนักของความอัปยศที่กดทับข้าอยู่\n\nพวกเขาทุกคนรู้ - ข้าล้มเหลว ข้าผิดคำสัตย์สาบานที่ข้าลั่นวาจาไว้ว่าจะรักษา สัญญาที่ข้าให้ไว้กับอาณาประชาราษฎร์ทั้งมวล\n\nบัดนี้ข้าจะเผชิญหน้าพวกเขาได้อย่างไร? ข้าจะแบกรับความอัปยศนี้ได้อย่างไร?"
+ coronation_events.0150.desc_honest: "อำนาจมาพร้อมกับพันธสัญญา ข้ายืนอยู่เบื้องหน้าอาณาจักรและสาบานคำสัตย์ที่พวกเขาเชื่อมั่น - คำสัตย์ที่ #emp ข้า#! เชื่อมั่น\n\nบัดนี้บัลลังก์ให้ความรู้สึกเหมือนสุสานมากกว่าที่นั่ง กรงทองอันหนาวเหน็บที่เยาะเย้ยข้าทุกครั้งที่หายใจ และส่วนที่เลวร้ายที่สุดคือการที่รู้ว่าทั้งหมดนี้เป็นความผิดของข้าเอง"
+ coronation_events.0150.desc_deceitful: "ปล่อยให้พวกเขากระซิบไป ปล่อยให้พวกเขาจ้องมองด้วยความภาคภูมิใจที่บาดเจ็บและความผิดหวังอันกลวงเปล่า ข้าเห็นมัน ข้ารู้สึกถึงการตัดสินของพวกเขาราวกับคมดาบที่จ่อหลังข้า\n\nแต่ความอัปยศหรือ? ไม่ ความอัปยศมีไว้สำหรับผู้ที่ตั้งใจจะรักษาสัญญาตั้งแต่แรก\n\nคำสัตย์สาบานนั้นศักดิ์สิทธิ์สำหรับคนโง่เท่านั้น"
+ coronation_events.0150.a: "ช่างน่าอับอาย..."
+ coronation_events.0150.a_honest: "ข้าจะมีชีวิตอยู่กับความอัปยศนี้ได้อย่างไร?"
+ coronation_events.0150.a_deceitful: "มันก็เป็น เช่นนี้แหละ"
+ coronation_events.150.custom_list_tooltip: "[vassal|E], [courtier|E], หรือ [guest|E] ทุกคน"
+
+ coronation_events.0175.t: "คำสัตย์สาบานที่ลุล่วง: [SCOPE.Custom('GetOathSpecific')|V]"
+ coronation_events.0175.desc: "ภารกิจของข้าเสร็จสิ้นแล้ว ตรงตามที่ข้าได้ลั่นวาจาไว้ ข้าได้ยินเสียงเยาะหยันจากผู้คัดค้าน ความมั่นใจของพวกเขาว่าข้าจะล้มเหลวเมื่อข้ากล่าวคำสัตย์สาบาน\n\nแต่ข้าได้พิสูจน์แล้วว่าพวกเขาคิดผิด เสียงของผู้กังขาในตัวข้าได้เปลี่ยนไป และบัดนี้พวกเขามอบเกียรติยศที่พวกเขาเคยคิดว่าเกินเอื้อมแก่ข้า\n\nวันใหม่ได้มาถึงเราแล้ว..."
+ coronation_events.0175.a: "และ [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] ที่แข็งแกร่งกว่าเดิมก็พร้อมที่จะเผชิญหน้ากับมัน!"
+
+ ## Diplomacy
+ diplomacy_oath_1_tooltip: "ข้าสาบาน [oath|E] ที่จะ #V สร้างพันธมิตรที่มั่นคง#!:\n\t$EFFECT_LIST_BULLET$ต้องมีอย่างน้อย #V 3#! [alliances|E] กับ [rulers|E] ซึ่ง:\n\t\t$EFFECT_LIST_BULLET$มี [opinion|E] ต่อ #V ท่าน#! อย่างน้อย #V 50#!\n\t\t$EFFECT_LIST_BULLET$หนึ่งในข้อดังต่อไปนี้:\n\t\t\t$EFFECT_LIST_BULLET$มี [title_tier|E] ต่ำกว่าหนึ่งขั้น\n\t\t\t$EFFECT_LIST_BULLET$มี [title_tier|E] เดียวกัน\n\t\t\t$EFFECT_LIST_BULLET$มี [title_tier|E] สูงกว่า\n\t$EFFECT_LIST_BULLET$ต้อง ทำให้สำเร็จภายใน #V 20 ปี#!\n\t$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], [opinion_i][opinion|E], [cultural_acceptance_i][cultural_acceptance|E], และ [GetModifier('oath_of_alliances').GetNameWithTooltip]"
+ diplomacy_oath_2_tooltip: "ข้าสาบาน [oath|E] ที่จะ #V เสริมสร้างตระกูล#!:\n\t$EFFECT_LIST_BULLET$ต้องมี [children|E] [legitimate|E] อย่างน้อย #V 7#! คน #weak (ปัจจุบัน [host.MakeScope.ScriptValue('children_oath_value')|V0]/#V 7#!)#!\n\t$EFFECT_LIST_BULLET$ต้อง ทำให้สำเร็จภายใน #V 30 ปี#!\n\t$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], [dynasty_prestige_i][dynasty_prestige|E] และ [GetModifier('oath_of_children').GetNameWithTooltip]"
+ ## Martial
+ martial_oath_1_tooltip: "ข้าสาบาน [oath|E] ที่จะ #V รวบรวม [host.GetPrimaryTitle.GetNameNoTierNoTooltip] ให้เป็นปึกแผ่น#!:\n\t$EFFECT_LIST_BULLET$[host.GetPrimaryTitle.GetName] ต้อง [completely_control|E] พรมแดน [de_jure|E] ของตน #low (ปัจจุบัน [host.MakeScope.ScriptValue('oath_reconquest_value_1')|V0]/[host.MakeScope.ScriptValue('oath_reconquest_value_2')|V0])#!\n$EFFECT_LIST_BULLET$ต้อง ทำให้สำเร็จภายใน #V 20 ปี#!\n$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], และ [GetModifier('oath_of_reconquest').GetNameWithTooltip]"
+ oath_reconquest_tooltip: "[completely_control|E] [de_jure|E] [THIS.Var('oath_reconquest_title').Title.GetName] #low ([root_scope.MakeScope.ScriptValue('oath_reconquest_value_1')]/[root_scope.MakeScope.ScriptValue('oath_reconquest_value_2')])#!"
+ martial_oath_2_tooltip: "ข้าขอสาบานด้วย [oath|E] เพื่อ #V ขยายอาณาจักร#!:\n\t$EFFECT_LIST_BULLET$[realm|E] จำต้องมีขนาดอย่างน้อย [host.MakeScope.ScriptValue('oath_conquest_value_1')|V0] #low (ปัจจุบัน [host.MakeScope.ScriptValue('oath_conquest_value_2')|V0])#!\n$EFFECT_LIST_BULLET$จำต้องสำเร็จภายใน #V 20 ปี#!\n$EFFECT_LIST_BULLET$เลือกระหว่างคุณประโยชน์แก่ [capital|E] และการเปลี่ยนแปลง [de_jure|E] ของ [titles|E]\n$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], และ [GetModifier('oath_of_conquest').GetNameWithTooltip]"
+ ## Stewardship
+ stewardship_oath_1_tooltip: "ข้าสาบาน [oath|E] ที่จะ #V รับประกันสันติภาพ#!:\n\t$EFFECT_LIST_BULLET$ต้องมีสันติภาพต่อเนื่องอย่างน้อย #V 5 ปี#!\n\t$EFFECT_LIST_BULLET$ต้อง ทำให้สำเร็จภายใน #V 50 ปี#!\n\t$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], [development_i][development|E], และ [GetModifier('oath_of_peace').GetNameWithTooltip]"
+ stewardship_oath_2_tooltip: "ข้าสาบาน [oath|E] ที่จะ #V สรรค์สร้างอาณาจักร#!:\n\t$EFFECT_LIST_BULLET$ต้องสร้างหรืออัปเกรด [buildings|E] อย่างน้อย #V 8#! แห่ง\n\t$EFFECT_LIST_BULLET$ต้อง ทำให้สำเร็จภายใน #V 20 ปี#!\n\t$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], [development_i][development|E], และ [GetModifier('oath_of_buildings').GetNameWithTooltip]"
+ ## Intrigue
+
+ ## Learning
+ learning_oath_1_tooltip: "ข้าขอสาบาน [oath|E] เพื่อ #V บ่มเพาะปัญญา#!:[SelectLocalization( GreaterThan_CFixedPoint( GetPlayer.MakeScope.Var('learning_oath_1_university_exists').GetValue, '(CFixedPoint)0' ), 'learning_oath_1_tooltip_need_university', 'learning_oath_1_tooltip_need_development' )]\n\t$EFFECT_LIST_BULLET$จำเป็นต้องมี [gold_i][gold|E] อย่างน้อย #V [learning_oath_temp_cost]#! \n\t$EFFECT_LIST_BULLET$จำเป็นต้องผ่านเงื่อนไข #V 1#! ข้อต่อไปนี้:\n\t\t\t$EFFECT_LIST_BULLET$มี [education_trait|E] ระดับที่ห้า\n\t\t\t$EFFECT_LIST_BULLET$[councillor|E] แต่ละคนมีทักษะระดับ #V 20#! หรือสูงกว่าในบทบาทของตน\n\t$EFFECT_LIST_BULLET$ต้องทำให้สำเร็จภายใน #V 50 ปี#!\n\t$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], และ [SelectLocalization( GreaterThan_CFixedPoint( GetPlayer.MakeScope.Var('learning_oath_1_university_exists').GetValue, '(CFixedPoint)0' ), 'learning_oath_1_tooltip_university', 'learning_oath_1_tooltip_no_university' )]"
+ learning_oath_1_tooltip_university: "[GetModifier('oath_university_county').GetNameWithTooltip]"
+ learning_oath_1_tooltip_no_university: "[GetBuilding('generic_university').GetName]"
+ learning_oath_1_tooltip_need_university: "\n\t$EFFECT_LIST_BULLET$ต้องการ [county|E] ที่มี [GetBuilding('generic_university').GetName] และ [development_i][development|E] #V 30#! หรือสูงกว่า"
+ learning_oath_1_tooltip_need_development: "\n\t$EFFECT_LIST_BULLET$ต้องการ [county|E] ที่มี [development_i][development|E] #V 30#! หรือสูงกว่า"
+
+ #Purge Pretenders
+ purge_pretenders_oath_tooltip: "ข้าสาบาน [oath|E] ที่จะ #V กวาดล้างผู้อ้างสิทธิ์จอมปลอม#!:\n\t$EFFECT_LIST_BULLET$ต้องไม่มี [claimant|E] ต่อ [primary_title|E] ของท่าน ยกเว้น [children|E] ของท่าน\n\t$EFFECT_LIST_BULLET$ต้อง ทำให้สำเร็จภายใน #V 50 ปี#!\n\t$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], และ [GetModifier('oath_of_purge_pretenders').GetNameWithTooltip]\n\t$EFFECT_LIST_BULLET$[SelectLocalization(GetPlayer.GetGovernment.IsType('nomad_government'), 'purge_pretenders_oath_nomad', '')][SelectLocalization(GetPlayer.GetGovernment.IsType('administrative_government'), 'purge_pretenders_oath_admin', '')][SelectLocalization(Not(Or(GetPlayer.GetGovernment.IsType('nomad_government'), GetPlayer.GetGovernment.IsType('administrative_government'))), 'purge_pretenders_oath_default', '')]"
+ purge_pretenders_oath_admin: "[house|E] ของท่านได้รับ [modifier|E] [GetModifier('oath_of_purge_pretenders_house').GetNameWithTooltip]"
+ purge_pretenders_oath_nomad: "คะแนน [obedience|E] ของ [kurultai|E] และ [children|E] ของท่าน: #P +100#!"
+ purge_pretenders_oath_default: "ท่านได้รับ [GetLaw('single_heir_succession_law').GetName] [law|E] นี้จะเปลี่ยนกลับเป็นกฎหมายเดิมของท่านเมื่อเสียชีวิต"
+
+ # End the Struggle
+ end_the_struggle_oath_tooltip: "ข้าขอสาบานด้วย [oath|E] เพื่อ #V ยุติการต่อสู้#!:\n\t$EFFECT_LIST_BULLET$ต้องใช้ [decisions|E] ใด ๆ เพื่อยุติ [struggle|E]\n\t$EFFECT_LIST_BULLET$จำต้องสำเร็จภายใน #V 20 ปี#!\n\t$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], และ [GetModifier('oath_of_end_the_struggle').GetNameWithTooltip]."
+
+ # Greatest Hunter
+ greatest_hunter_oath_tooltip: "ข้าสาบาน [oath|E] ที่จะ #V เป็นสุดยอดนักล่า#!:\n\t$EFFECT_LIST_BULLET$ต้องเป็นเจ้าภาพและเสร็จสิ้น [Concept( 'activity', 'Hunt' )|E] #V ระดับตำนาน#! อย่างน้อย #V 1#! ครั้ง หรือ [Concept( 'activity', 'Hunts' )|E] ปกติ #V 10#! ครั้ง เพิ่มโอกาสของ #V การพบเห็นระดับตำนาน#! ขณะที่ [oath|E] นี้มีผล\n\t$EFFECT_LIST_BULLET$ต้อง ทำให้สำเร็จภายใน #V 40 ปี#!\n\t$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], [modifiers|E] พิเศษสำหรับ [artifact|E] #V ธนู#! และ [GetModifier('oath_greatest_hunter').GetNameWithTooltip]"
+ # Heir Preparation
+ heir_preparation_oath_tooltip: "ข้าสาบาน [oath|E] ที่จะ #V เตรียมทายาท#!:\n\t$EFFECT_LIST_BULLET$ต้องมี [primary_heir|E] ที่มี [skills|E] ทั้งหมด #V 10+#! และอย่างน้อยสอง [skills|E] #V 14+#! \n\t$EFFECT_LIST_BULLET$ต้อง ทำให้สำเร็จภายใน #V 40 ปี#!\n\t$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], และ [GetModifier('oath_heir_preparation').GetNameWithTooltip] [primary_heir|E] จะได้รับ [GetModifier('oath_heir_preparation_heir').GetNameWithTooltip]"
+
+ # Install Claimants
+ install_claimants_oath_tooltip: "ข้าสาบาน [oath|E] ที่จะ #V สนับสนุนผู้อ้างสิทธิ์#!:\n\t$EFFECT_LIST_BULLET$ต้องชนะ [wars|E] ของ [claimant|E] อย่างน้อย #V 3#! ครั้ง\n\t$EFFECT_LIST_BULLET$ต้อง ทำให้สำเร็จภายใน #V 20 ปี#!\n\t$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], [GetModifier('oath_install_claimants').GetNameWithTooltip], และ [perpetual_hook|E] ต่อ [claimant|E] ทุกคนที่ได้รับการสนับสนุน และ [weak_hook|E] ต่อ [primary_heirs|E] ของพวกเขา"
+ # Mend the Fracture
+ mend_the_fracture_oath_tooltip: "ข้าสาบาน [oath|E] ที่จะ #V สมานรอยร้าว#!:\n\t$EFFECT_LIST_BULLET$ต้องมี [cultural_acceptance|E] อย่างน้อย #V 70#! กับ [culture|E] ที่มีสัดส่วนมากกว่า #V 40%#! ใน [realm|E] ของข้า\n\t$EFFECT_LIST_BULLET$ต้อง ทำให้สำเร็จภายใน #V 20 ปี#!\n\t$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], [GetModifier('oath_mend_the_fracture').GetNameWithTooltip], และทั้งสองวัฒนธรรมจะได้รับ [culture_tradition|E] [GetCultureTradition('oath_mend_the_fracture_tradition').GetName]"
+ # Provide for the Warriors
+ provide_for_the_warriors_oath_tooltip: "ข้าสาบาน [oath|E] ที่จะ #V อุปถัมภ์นักรบ#!:\n\t$EFFECT_LIST_BULLET$ต้องสร้าง [GetBuilding('oath_warriors_building_02').GetName] อย่างน้อย #V 3#! แห่ง ปลดล็อกการเข้าถึงสาย [buildings|E] นี้ขณะที่ [oath|E] นี้มีผล\n\t$EFFECT_LIST_BULLET$ต้อง ทำให้สำเร็จภายใน #V 20 ปี#!\n\t$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], [GetModifier('oath_provide_for_the_warriors').GetNameWithTooltip], และปลดล็อกการอัปเกรดขั้นสุดท้าย: [GetBuilding('oath_warriors_building_04').GetName]"
+ # Provide for the Faithful
+ provide_for_the_faithful_oath_tooltip: "ข้าสาบาน [oath|E] ที่จะ #V อุปถัมภ์ผู้ศรัทธา#!:\n\t$EFFECT_LIST_BULLET$ต้องสร้าง [GetBuilding('oath_faithful_building_02').GetName] อย่างน้อย #V 3#! แห่ง ปลดล็อกการเข้าถึงสาย [buildings|E] นี้ขณะที่ [oath|E] นี้มีผล\n\t$EFFECT_LIST_BULLET$ต้อง ทำให้สำเร็จภายใน #V 20 ปี#!\n\t$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], [GetModifier('oath_provide_for_the_faithful').GetNameWithTooltip], และปลดล็อกการอัปเกรดขั้นสุดท้าย: [GetBuilding('oath_faithful_building_04').GetName]"
+ # Provide for the Poor
+ provide_for_the_poor_oath_tooltip: "ข้าสาบาน [oath|E] ที่จะ #V อุปถัมภ์ผู้ยากไร้#!:\n\t$EFFECT_LIST_BULLET$ต้องสร้าง [GetBuilding('oath_poor_building_02').GetName] อย่างน้อย #V 3#! แห่ง ปลดล็อกการเข้าถึงสาย [buildings|E] นี้ขณะที่ [oath|E] นี้มีผล\n\t$EFFECT_LIST_BULLET$ต้อง ทำให้สำเร็จภายใน #V 20 ปี#!\n\t$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], [GetModifier('oath_provide_for_the_poor').GetNameWithTooltip], และปลดล็อกการอัปเกรดขั้นสุดท้าย: [GetBuilding('oath_poor_building_04').GetName]"
+ # Repent
+ repent_oath_tooltip: "ข้าสาบาน [oath|E] ที่จะ #V สำนึกบาป#!:\n\t$EFFECT_LIST_BULLET$ต้องทำ [pilgrimages|E] ให้สำเร็จอย่างน้อย #V 4#! ครั้ง และมี [GetModifier( 'piety_level_3' ).GetNameWithTooltip|L]\n\t$EFFECT_LIST_BULLET$ต้อง ทำให้สำเร็จภายใน #V 20 ปี#!\n\t$EFFECT_LIST_BULLET$รางวัล: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], [GetModifier('oath_of_repent').GetNameWithTooltip], และลบ [traits|E] ที่เป็น [sinful|E] ใด ๆ และแทนที่ด้วย [traits|E] ที่เป็น [virtuous|E]"
+
+ coronation_events.0200.t: "โหมโรง"
+ coronation_events.0200.desc.host: "เหล่าแขกเหรื่อได้มาเยือนแล้ว ทั้งจากแดนใกล้และแดนไกล บ้างก็ด้วยความภักดี บ้างก็ด้วยความใคร่รู้ ฝูงชนเนืองแน่นขึ้นด้วยใบหน้าที่เปี่ยมด้วยความคาดหวัง, การใคร่ครวญ, และในบางกรณี, ก็มีความอบอุ่นจาง ๆ\n\nข้าเปล่งเสียงเพียงพอให้ผู้เข้าร่วมสงบลง และต้อนรับพวกเขาเข้าสู่พิธีบรมราชาภิเษกของข้า"
+ coronation_events.0200.desc.guest: "การชุมนุมนี้ช่างยิ่งใหญ่ดังคาด ใบหน้าที่คุ้นเคยและแปลกหน้าปะปนกัน และข้าได้ยินเสียงทักทายที่อบอุ่นเพียงพอแค่ให้เป็นมารยาท เมื่อเจ้าภาพเอ่ยวาจา, ทั้งห้องก็เงียบลงโดยสัญชาตญาณ\n\n\"สหายของข้า, ข้าหลวงของข้า, ญาติมิตรของข้า, การมาของพวกท่านนับเป็นเกียรติแก่ข้ายิ่งกว่ามงกุฎใด ๆ จนกว่าพิธีจะเริ่ม, จงกิน, ดื่ม, และสนทนาอย่างอิสระเถิด... และจงรู้ไว้ว่าข้าเห็นพวกท่านทุกคน, และจะไม่ลืมเลือนว่าผู้ใดที่ยืนหยัดเคียงข้างข้าในวันนี้\"\n\nคำมั่นสัญญาอันอ่อนโยน, หรือคำเตือนอันเงียบงัน, สุดแล้ว แต่ว่าผู้ใดจะเลือกได้ยิน เช่นไร"
+ coronation_events.0200.a: "ยินดีต้อนรับ, ทุก ๆ ท่าน!"
+ coronation_events.0200.b: "เอาล่ะ, มีใครอื่นอีกบ้างที่นี่?"
+
+ coronation_events.0205.t: "พิธีการ"
+ coronation_events.0205.meager: "การเตรียมการทั้งหมดเสร็จสิ้นแล้ว การชุมนุมในพิธีอันขัดสนกำลังรอคอยอยู่ที่"
+ coronation_events.0205.great: "การเตรียมการทั้งหมดเสร็จสิ้นแล้ว การชุมนุมในพิธีอันยิ่งใหญ่บัดนี้กำลังรอคอยอยู่ที่"
+ coronation_events.0205.hagia_sophia: "วิหารฮาเกียโซเฟีย, สถานแห่งพระปัญญาอันศักดิ์สิทธิ์ของพระเจ้า"
+ coronation_events.0205.st_peters: "มหาวิหารนักบุญเปโตร, ที่พำนักแห่งตัวแทนองค์สำคัญของพระคริสต์"
+ coronation_events.0205.saint_denis: "มหาวิหารแซ็ง-เดอนี, สุสานแห่งนักบุญองค์อุปถัมภ์ของชาวฝรั่งเศส"
+ coronation_events.0205.westminster: "มหาวิหารเวสต์มินสเตอร์อันงามสง่า"
+ coronation_events.0205.reims: "อาสนวิหารแม่พระแห่งแร็งส์, มหาวิหารแห่งเหล่ากษัตริย์"
+ coronation_events.0205.aachen: "พระราชวังอาเคินอันเลื่องชื่อของชาร์เลอมาญ"
+ coronation_events.0205.wawel: "อาสนวิหารวาเวล, งดงามและคงอยู่ชั่วนิรันดร์"
+ coronation_events.0205.east_admin_location: "ความเงียบสงบอันสงัดของหมู่พระราชวัง [location.GetTitle.GetNameNoTierPossessive]"
+ coronation_events.0205.temple: "[host.GetFaith.HouseOfWorship] อันสูงส่งแห่ง [location.GetTitle.GetNameNoTierPossessive]"
+ coronation_events.0205.east_admin_description: "\n\nพร้อมด้วยเสียงกลองศึกอันกึกก้อง,"
+ coronation_events.0205.silence: "\n\nท่ามกลางความเงียบงันอันเย็นชา,"
+ coronation_events.0205.cheers: "\n\nท่ามกลางเสียงโห่ร้องและการสรรเสริญ,"
+ coronation_events.0205.desc.host_east_asian: "ขบวน [ROOT.Char.Custom('GetTitleTierAdjective')] ของข้าเคลื่อนผ่านเหล่า [host.Custom('GetFighterTermPlural')] และขุนนางที่ยืนเรียงรายเป็นแถวแล้วแถวเล่า เบื้องหลัง พวกเราได้ทิ้งศาลบรรพชนของตระกูลไว้ ซึ่งเป็นสถานที่ประกอบปฐมพิธีแห่งวัน"
+ coronation_events.0205.desc.guest_east_asian: "ขบวน [ROOT.Char.Custom('GetTitleTierAdjective')] ของ [host.GetTitledFirstNamePossessive] เคลื่อนผ่านเหล่า [host.Custom('GetFighterTermPlural')] และขุนนางของ [host.GetHerHis] ที่ยืนเรียงรายเป็นแถวแล้วแถวเล่า เบื้องหลัง พวกเราได้ทิ้งศาลบรรพชนของ [host.GetTitleAsNameNoTooltip] ไว้ ซึ่งเป็นสถานที่ประกอบปฐมพิธีแห่งวัน"
+ coronation_events.0205.desc.host: "ขบวนแห่ของข้าแหวกฝูงชนที่เนืองแน่นของ [ROOT.Char.Custom('SettlementCity')|l]: [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')] ที่เก่งกาจที่สุดของข้าขี่ม้านำหน้า, โดยมีข้าราชบริพาร [ROOT.Char.Custom('GetTitleTierAdjective')] ของข้าตามหลัง"
+ coronation_events.0205.desc.guest: "ขบวนแห่ของ [host.GetTitledFirstNamePossessive] แหวกฝูงชน, และผู้ติดตามของข้าก็ติดตามไปในตำแหน่งอันทรงเกียรติของเรา"
+ coronation_events.0205.desc.low_magnificence_east_asian: "\n\nเงามืดเข้าครอบงำพิธีกรรม บรรพชนแห่ง [host.GetDynastyHouseName] จะไม่อับอายต่อการขึ้นครองบัลลังก์อันไม่แน่นอนนี้ได้อย่างไร...?"
+ coronation_events.0205.desc.medium_magnificence_east_asian: "\n\nความรู้สึกเปี่ยมหวังอบอวลอยู่ในอากาศ พิธีเคารพบูชาอันยาวนานเมื่อช่วงเช้าได้ก่อเกิดมงคล และได้เชื่อมโยงพิธีนี้เข้ากับอดีตอันไกลโพ้น"
+ coronation_events.0205.desc.high_magnificence_east_asian: "\n\nความเคารพยำเกรงอันน่าพิศวงได้ยกระดับพิธีกรรมยามเช้า ลอยอวลไปกับกำยานอันหอมกรุ่น และก่อเกิดจากความภาคภูมิใจอันมั่นแท้ของบรรพชนแห่ง [host.GetDynastyHouseName]"
+ coronation_events.0205.desc.low_magnificence: "[host.Custom('GetLocalCommonerTermPlural')] บางคนจ้องมองเราอย่างว่างเปล่า; บ้างก็พึมพำเย้ยหยัน คนหนึ่งตะโกนก้อง #EMP "[host.GetTitleAsName] จอมปลอม!"#! และฝูงชนก็กรูกันเข้ามา, ถูกยั้งไว้แทบไม่อยู่โดย [host.Custom('GetFighterTermPlural')] เพียงไม่กี่คนที่ยืนเรียงรายตามทาง"
+ coronation_events.0205.desc.medium_magnificence: "[host.Custom('GetLocalCommonerTermPlural')|U] หลั่งไหลออกมาเพื่อยลโฉมว่าที่ [host.GetTitleAsNameNoTooltip|l] บนบ่าของผู้ปกครอง, ท่ามกลางมหาชน, เด็ก ๆ ชาว [location.GetCulture.GetName] ยิ้มแย้ม"
+ coronation_events.0205.desc.high_magnificence: "เสียงแตรดังก้อง! ธงทิวโบกสะบัด, ในสีสัน [host.GetPrimaryTitle.GetAdjective] อันเจิดจ้า! [host.Custom('GetLocalCommonerTermPlural')|U] สรรเสริญ [host.GetTitleAsNameNoTooltip|l], และเหล่าสตรีหลั่งน้ำตาด้วยความปลาบปลื้มในขบวนแห่อันรุ่งโรจน์นี้"
+
+ coronation_events.0205.a_low_magnificence_east_admin: "ไม่เป็นที่โปรดปรานทั้งจากคนเป็น... หรือคนตาย..."
+ coronation_events.0205.a_low_magnificence: "[ROOT.Char.GetFaith.HighGodName] โปรดนำทางข้าผ่านฝูงชนอันไร้ระเบียบนี้..."
+ coronation_events.0205.a_high_magnificence: "และพิธีบรมราชาภิเษกของข้า #EMP เพิ่งจะเริ่มต้นเท่านั้น!#!"
+ coronation_events.0205.a: "ช่วงเวลาอันยิ่งใหญ่ที่สุดใกล้เข้ามาแล้ว"
+ coronation_events.0205.b: "[ROOT.Char.GetTitleAsNameNoTooltip|l] ผู้นี้คงดูน่าสะพรึงกลัวเป็นแน่..."
+ coronation_events.0205.b_flavor_infirm: "...แทบไม่มีเรี่ยวแรงเหลือให้ [ROOT.Char.GetHerHim] ขี่ม้าไปยังพิธีบรมราชาภิเษกของ [ROOT.Char.GetHerHis] เลย"
+ coronation_events.0205.b_improved: "แต่โชคดีที่, น้อยคนนักที่จะสังเกตเห็นท่ามกลางความโอ่อ่า เช่นนี้!"
+ coronation_events.0205.c_low_magnificence_east_admin: "ผู้ที่ยังมีตาเนื้อย่อมรู้ดียิ่งกว่า!"
+ coronation_events.0205.c_low_magnificence: "มองให้ใกล้กว่านี้, พวกไพร่! ข้าคือ [activity.GetHost.GetTitleAsNameNoTooltip|l] ทุกกระเบียดนิ้ว"
+ coronation_events.0205.c: "ข้าคือภาพลักษณ์ของ [activity.GetHost.GetTitleAsNameNoTooltip|l] ผู้ยิ่งใหญ่โดยแท้!"
+ coronation_events.0205.d: "บัดนี้, เราจะได้เห็นมาตรฐานของ [activity.GetHost.GetTitleAsNameNoTooltip] ผู้นี้"
+ coronation_events.0205.e_east_admin: "ประกายแห่งเหรียญตราจะฟื้นฟูความเป็นมงคลของวันนี้!"
+ coronation_events.0205.e: "ประกายเหรียญตราของข้าจะฟื้นฟูความโอ่อ่าในวันนี้"
+ coronation_events.0205.e.tt: "[ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')] ถูกนำเข้ามา, แต่งกายด้วยผ้าทอง, [ROOT.Char.CustomFixedRandom('GetExpensiveDrink_Singular')] ถูก ทำให้ไหลรินจากน้ำพุทุกแห่ง; เหล่านักดนตรี, นั่งอยู่หน้าพลับพลา, ขับขานถึงเกียรติยศของท่าน"
+ coronation_events.0205.e.toast: "[host.GetShortUIName] ไม่ได้ประหยัดค่าใช้จ่ายใด ๆ ในพิธีการ"
+ coronation_events.0205.f_east_admin: "ข้า #EMP ต้อง#! กล่าวกับที่ประชุมนี้"
+ coronation_events.0205.f: "ผู้คนรู้ว่าใครคือ [ROOT.Char.GetTitleAsNameNoTooltip] ของพวกเขา"
+ coronation_events.0205.f.tt: "ท่านกล่าวสุนทรพจน์ที่ปลุกเร้าใจแก่ผู้คนอย่างแท้จริง"
+ coronation_events.0205.f.success: "ผู้ฟังต่างทึ่ง"
+ coronation_events.0205.f.failure: "ความพยายามของท่านสูญเปล่า"
+ coronation_events.0205.f.toast: "[host.GetShortUIName] กล่าวสุนทรพจน์ที่ปลุกเร้าใจ"
+ 
+ coronation_events.0210.t: "งานเลี้ยง"
+ coronation_events.0210.desc.host: "พิธีการเสร็จสิ้นแล้ว: เกียรติยศ [ROOT.Char.Custom('GetTitleTierAdjective')] ทุกประการได้ถูกมอบแก่ข้าแล้ว ข้าลุกขึ้นอีกครั้ง มิใช่ เพื่อให้สัญญาหรือบัญชา แต่เพื่อมอบความสำราญอันฟุ่มเฟือย\n\n\"จงเติมเต็มโต๊ะเหล่านี้ จงยกถ้วมขึ้น และขอให้โถงนี้จดจำความสุขเกษม เช่นเดียวกับหน้าที่\"\n\nที่ประชุม ซึ่งหิวโหยจากการเฝ้ารอพิธีรีตองอันซับซ้อนมาอย่างยาวนาน ส่งเสียงฮือฮาด้วยความเห็นชอบ อย่างน้อยก็ในตอนนี้ ทุกคนมีบางสิ่งอยู่ตรงหน้า... นอกเหนือจากข้า"
+ coronation_events.0210.desc.guest: "พิธีรีตองได้สิ้นสุดลง พร้อมกับความเงียบงันที่ปกคลุมที่ประชุม เสียงพึมพำเบา ๆ ดังขึ้นเมื่อเจ้าภาพลุกขึ้นอีกครั้ง คราวนี้เพื่อประกาศการสิ้นสุดพิธีการและเริ่มต้นช่วงเวลาที่ผ่อนคลายกว่า\n\n[host.GetTitleAsName] เปล่งเสียงของ[host.GetHerHis]ดังพอได้ยิน: \"สหายทั้งหลาย พิธีกรรมเสร็จสิ้นแล้ว จงเติมเต็มโต๊ะเหล่านี้ จงยกถ้วมขึ้น และขอให้โถงนี้จดจำความสุขเกษม เช่นเดียวกับหน้าที่\"\n\nถ้อยคำเหล่านั้นได้รับการตอบรับอย่างดี และใน แต่ละขณะที่ผ่านไป การชุมนุม [ROOT.Char.Custom('GetTitleTierAdjective')] ก็กลายเป็นการเฉลิมฉลองที่มีชีวิตชีวามากขึ้น"
+ coronation_events.0210.a: "เมื่อเรื่องนั้นผ่านไป, ก็ถึงเวลาเฉลิมฉลอง!"
+ coronation_events.0210.b: "ในที่สุด, พิธีการก็เสร็จสิ้นเสียที"
+
+ coronation_events.0300.t: "ตำแหน่งอันทรงเกียรติ"
+ coronation_events.0300.desc: "ก่อนที่พิธีบรมราชาภิเษกจะดำเนินต่อไปได้, ข้าต้องตัดสินใจว่าผู้ใดจะทำหน้าที่เป็นประธานในพิธีศักดิ์สิทธิ์ หากข้าจะได้รับการสนับสนุนจากเหล่า [ROOT.Char.GetFaith.AltPriestTermPlural|U], ก็เป็นการฉลาดที่จะให้คนของพวกเขาเองมาดูแลพิธีการ, มอบความศักดิ์สิทธิ์และพรที่พวกเขาเท่านั้นที่สามารถให้ได้\n\nถึงกระนั้น, ส่วนหนึ่งในใจข้าก็สงสัย: มันจะไม่เป็นเรื่องเล่าที่ยิ่งใหญ่กว่าหรือหากข้าจะหยิบมงกุฎขึ้นมาด้วยมือของข้าเอง, ประกาศสิทธิ์ในการปกครองของข้าต่อหน้าทุกคนโดยปราศจากการแทรกแซง?"
+ coronation_events.0300.a: "[chaplain.GetFirstNameNoTooltip] เป็นผู้เดียวที่สามารถทำได้"
+ coronation_events_0300_a_tooltip: "[chaplain.GetFirstName] จะเป็นผู้ประกอบพิธี"
+ coronation_events.0300.b: "บางทีอาจเป็น [alternative_1.GetFirstNameNoTooltip]?"
+ coronation_events_0300_b_tooltip: "[alternative_1.GetFirstName] จะเป็นผู้ประกอบพิธี"
+ coronation_events.0300.c: "ข้าเชื่อมั่นใน [alternative_2.GetFirstNameNoTooltip]"
+ coronation_events_0300_c_tooltip: "[alternative_2.GetFirstName] จะเป็นผู้ประกอบพิธี"
+ coronation_events.0300.d: "มันเป็นเกียรติที่สามารถตกเป็นของข้าได้เท่านั้น"
+ coronation_events_0300_d_tooltip: "#high ท่าน#! จะเป็นผู้ประกอบพิธี"
+ coronation_events_0300_d_tooltip_effect: "#high ท่าน#! จะได้รับ @prestige_icon![prestige|E], แต่สูญเสีย @opinion_icon![opinion|E] กับ [court_chaplain|E] ของท่าน และ [vassals|E] [GetVassalStance( 'zealot' ).GetTextIcon][GetVassalStance( 'zealot' ).GetName|U] โดยขึ้นอยู่กับ [coronation_magnificence|E] ของ [coronation|E] ของท่าน"
+ coronation_events_0300_d_tooltip_effect_hof: "#high ท่าน#! จะได้รับ @prestige_icon![prestige|E], แต่สูญเสีย @opinion_icon![opinion|E] กับ [head_of_faith|E] ของท่าน และ [vassals|E] [GetVassalStance( 'zealot' ).GetTextIcon][GetVassalStance( 'zealot' ).GetName|U] โดยขึ้นอยู่กับ [coronation_magnificence|E] ของ [coronation|E] ของท่าน"
+
+ coronation_events.0301.t: "การตายของผู้ประกอบพิธี"
+ coronation_events.0301.desc: "ผู้ประกอบพิธีบรมราชาภิเษกของข้า, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('dead_officiator'))] [dead_officiator.GetFirstName] ของข้า, [dead_officiator.GetDeathReason] ที่นั่งของ [dead_officiator.GetHerHis|U] ว่างเปล่า, และพิธีกรรมอันศักดิ์สิทธิ์ก็ยังไม่ลุล่วง\n\n[first_candidate.GetFirstName], [first_candidate.GetFaith.PriestNeuter] [first_candidate.GetFaith.GetAdherentName] ผู้เป็นที่เคารพ, ก้าวออกมา "[first_candidate.GetFaith.HighGodName] ไม่หวั่นไหวกับการจากไปของวิญญาณดวงหนึ่ง," [first_candidate.GetSheHe] กล่าวอย่างเคร่งขรึม "หากท่านประสงค์, ข้าจะทำพิธีให้ลุล่วง""
+ coronation_events.0301.a: "นักบุญ [ROOT.Char.Custom('GetCatholicSaint')], โปรดนำพาดวงวิญญาณของ [dead_officiator.GetHerHis] สู่ [ROOT.Char.GetFaith.PositiveAfterLife]"
+ coronation_events.0301.a.tooltip: "[first_candidate.GetFirstNameNoTooltip] จะเป็นผู้ประกอบพิธีคนใหม่"
+ coronation_events.0301.a.c: "ข้าจะไม่ยอมให้การตายของ [dead_officiator.GetHerHis] มาหยุดยั้งพิธีการ"
+ coronation_events.0301.b: "[second_candidate.GetTitledFirstNameNoTooltip] ใกล้ชิดกับ [first_candidate.GetFaith.HighGodName] มากกว่า"
+ coronation_events.0301.b.tooltip: "[second_candidate.GetFirstNameNoTooltip] จะเป็นผู้ประกอบพิธีคนใหม่"
+ coronation_events.0301.c: "[dead_officiator.GetSheHe|U] สมควรได้รับความเคารพอย่างสูงสุดจากข้า ยกเลิกพิธีการ"
+ coronation_events.0301.c.tooltip: "#N @warning_icon! [activity|E] [coronation|E] ของท่านจะถูกยกเลิก#!"
+ coronation_events.0301.c.tooltip_second: "ท่านจะสามารถจัด [funeral|E] ให้กับ [dead_officiator.GetFirstName] ได้"
+ coronation_events.0301.c.tooltip_third: "ท่านจะสามารถจัด [coronation|E] ได้อีกครั้งทันทีหลังจาก [funeral|E] ของ [dead_officiator.GetHerHis]"
+ coronation_events.0301.d: "ข้าจะไม่ยอมให้การตายเพียงครั้งเดียวมาหยุดยั้งพิธีบรมราชาภิเษก #EMP ของข้า#! "
+ coronation_events.0301.d.tooltip: "[first_candidate.GetFirstNameNoTooltip] จะเป็นผู้ประกอบพิธีคนใหม่ การตายของ [dead_officiator.GetTitledFirstNamePossessive] ระหว่างพิธีบรมราชาภิเษกของท่านถูกมองอย่างกว้างขวางว่าเป็นลางร้ายอย่างยิ่งต่อการปกครองของท่าน"
+ coronation_events.0301.e: "[first_candidate.GetFaith.HighGodName] เป็นผู้ประทาน และ [first_candidate.GetFaith.HighGodName] ก็เป็นผู้รับไป"
+ coronation_events.0301.e.tooltip: "#N @warning_icon! [activity|E] [coronation|E] ของท่านจะถูกยกเลิก#!"
+ coronation_events.0301.e.tooltip_second: "ท่านจะไม่สามารถจัดพิธีบรมราชาภิเษกอื่นได้อีกใน 12 เดือนข้างหน้า"
+
+ coronation_cancelled_dead_officiator_desc: "ผู้ประกอบพิธี [coronation|E] ครั้งก่อนได้เสียชีวิตภายในหนึ่งปี"
+ coronation_cancelled_wrong_primary_title_desc: "[primary_title|E] ที่แตกต่างกัน"
+
+ ### Decisions
+ # General Decision stuff
+ busy_in_coronation_tooltip: "ยังคงเป็น [activity_host_short|E] ของ [coronation|E]"
+ coronation_value_still_undecided: "\n\n@alert_icon!#alert_trial พิธีบรมราชาภิเษกสำหรับ [oath|E] ยังไม่เสร็จสิ้น, ดังนั้นมูลค่าของมันจึงยังไม่ถูกกำหนด#!"
+ CORONATION_ACTIVITY_UNLOCK: "ปลดล็อกโดย [activity|E] [coronation|E]"
+ oath_decision_confirm: "ข้าได้รักษาคำสัตย์สาบานของข้าแล้ว"
+
+ ## Diplomacy
+ # Alliances
+ diplomacy_oath_1_decision: "$GetAllianceOathText$ [CoronationTimer('diplomacy_oath_1_decision','diplomacy_oath_1_decision_timer')]"
+ diplomacy_oath_1_decision_timer: "\t#weak ([RemainingTime('diplomacy_oath_1_timer')])#!"
+ diplomacy_oath_1_decision_desc: "อาณาจักรเรียกร้องหามิตรสหายและพันธมิตร ข้าจะสร้างความสัมพันธ์อันดีกับดินแดนต่างแดน และสหายร่วมรบเพื่อยืนหยัดเคียงข้างเราในยามสงคราม $diplomacy_oath_1_decision_desc_extra$"
+ diplomacy_oath_1_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('diplomacy_oath_1_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('diplomacy_oath_1')]"
+ diplomacy_oath_1_decision_tooltip: "[ROOT.Char.GetPrimaryTitle.GetNameNoTier] จะเป็นที่รู้จักในด้านนักการทูตไปทั่วทั้งใกล้และไกล, ขณะที่เราสร้างสายสัมพันธ์ที่ไกลเกินขอบเขตของเรา"
+ diplomacy_oath_1_decision_confirm: "ข้าไม่ได้ยืนอยู่เพียงลำพัง"
+ custom_every_allied_ruler: "[ruler|E] [allied|E] ทุกคน"
+ culture_acceptance_gain_oath: "จาก [oaths|E]"
+ custom_alliance_oath_decision_trigger: "มี [allies|E] อย่างน้อย #V 3#! คน:\n\t$EFFECT_LIST_BULLET$ปัจจุบัน, [SCOPE.ScriptValue('alliance_oath_value')|V0] คน บรรลุข้อกำหนดเหล่านี้\n\t$EFFECT_LIST_BULLET$ความเห็นต่อ [root_temp_scope.GetShortUIName] คือ #V 50#! หรือสูงกว่า\n\t$EFFECT_LIST_BULLET$หนึ่งในข้อดังต่อไปนี้:\n\t\t\t$EFFECT_LIST_BULLET$มี [title_tier|E] ต่ำกว่าหนึ่งขั้น\n\t\t\t$EFFECT_LIST_BULLET$มี [title_tier|E] เดียวกัน\n\t\t\t$EFFECT_LIST_BULLET$มี [title_tier|E] สูงกว่า"
+ # Children
+ diplomacy_oath_2_decision: "$GetChildrenOathText$ [CoronationTimer('diplomacy_oath_2_decision','diplomacy_oath_2_decision_timer')]"
+ diplomacy_oath_2_decision_timer: "\t#weak ([RemainingTime('diplomacy_oath_2_timer')])#!"
+ diplomacy_oath_2_decision_desc: "ทายาทมากมายของ [house|E] [ROOT.Char.GetHouse.GetName] จะนำพาอาณาจักรของเราไปสู่อนาคตที่รุ่งเรืองและสืบทอดมรดกของราชวงศ์ของเรา $diplomacy_oath_2_decision_desc_extra$"
+ diplomacy_oath_2_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('diplomacy_oath_2_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('diplomacy_oath_2')]"
+ diplomacy_oath_2_decision_tooltip: "[ROOT.Char.GetHouse.GetName] จะเป็นที่รู้จักในด้านทายาทมากมาย"
+ diplomacy_oath_2_decision_confirm: "[ROOT.Char.GetHouse.GetBaseNameNoTooltip|U] เติบโตอย่างแข็งแกร่ง"
+ custom_children_oath_decision_trigger: "มี [children|E] อย่างน้อย #V 7#! คน:\n\t$EFFECT_LIST_BULLET$ปัจจุบัน, [SCOPE.ScriptValue('children_oath_value')|V0] คน บรรลุข้อกำหนดเหล่านี้\n\t$EFFECT_LIST_BULLET$ต้อง #BOL ไม่ #! มี [trait|E] [GetTrait('bastard').GetName( GetNullCharacter )]"
+ custom_children_renown_effect: "สำหรับ [child|E] [legitimate|E] ทุกคน"
+ MODIFIER_DEFINITION_VALUE_CHILDREN_OATH_SCALE: "\t#weak เพิ่มขึ้นต่อ [child|E] [legitimate|E]#!"
+
+ ## Martial
+ martial_oath_1_decision: "$GetReconquerOathText$ [CoronationTimer('martial_oath_1_decision','martial_oath_1_decision_timer')]"
+ martial_oath_1_decision_timer: "\t#weak ([RemainingTime('martial_oath_1_timer')])#!"
+ martial_oath_1_decision_desc: "พรมแดนของ [GetPlayer.MakeScope.Var('oath_reconquest_title').Title.GetNameNoTierNoTooltip] นั้นไม่อาจเปลี่ยนแปลงได้, และข้าจะลงโทษทุกคนที่กล้าล่วงล้ำเข้ามาในดินแดนอันชอบธรรมของข้า $martial_oath_1_decision_desc_extra$"
+ martial_oath_1_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('martial_oath_1_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('martial_oath_1')]"
+ martial_oath_1_decision_tooltip: "พิชิตดินแดนที่สูญหายของ [GetPlayer.MakeScope.Var('oath_reconquest_title').Title.GetNameNoTierNoTooltip], และ ทำให้ [GetPlayer.MakeScope.Var('oath_reconquest_title').Title.GetTierAsNameNoTooltip] กลับมาสมบูรณ์อีกครั้ง"
+ oath_reconquest_custom_de_jure_county: "ทุก [county|E] ที่เป็น [de_jure|E] ของ [GetPlayer.MakeScope.Var('oath_reconquest_title').Title.GetNameNoTier]"
+ martial_oath_1_decision_confirm: "$oath_decision_confirm$"
+ # Conquest
+ martial_oath_2_decision: "$GetConquestOathText$ [CoronationTimer('martial_oath_2_decision','martial_oath_2_decision_timer')]"
+ martial_oath_2_decision_timer: "\t#weak ([RemainingTime('martial_oath_2_timer')])#!"
+ martial_oath_2_decision_desc: "ดินแดนของ [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] ถูกกำหนดให้เติบโต ไม่ใช่ด้วยลมปาก, แต่ด้วยสงคราม ข้าได้สาบานต่อประชาชนของข้าว่าจะพิชิต, และข้าต้องพิชิต $martial_oath_2_decision_desc_extra$"
+ martial_oath_2_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('martial_oath_2_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('martial_oath_2')]"
+ martial_oath_2_decision_tooltip: "รักษาคำสัตย์สาบานของท่านต่ออาณาประชาราษฎร์, และขยายดินแดนของ [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ martial_oath_2_decision_confirm: "$oath_decision_confirm$"
+
+ ## Stewardship
+ # Peace
+ stewardship_oath_1_decision: "$GetPeaceOathText$ [CoronationTimer('stewardship_oath_1_decision','stewardship_oath_1_decision_timer')]"
+ stewardship_oath_1_decision_timer: "\t#weak ([RemainingTime('stewardship_oath_1_timer')])#!"
+ stewardship_oath_1_decision_desc: "ถึงเวลาแล้วที่จะวางอาวุธและชื่นชมกับยุคแห่งสันติภาพ ผู้คนชาว [ROOT.Char.GetPrimaryTitle.GetAdjective] ได้เห็นปีอันมืดมนของสงครามมามากเกินไปแล้ว $stewardship_oath_1_decision_desc_extra$"
+ stewardship_oath_1_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('stewardship_oath_1_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('stewardship_oath_1')]"
+ stewardship_oath_1_decision_tooltip: "ข้าได้สาบานว่าจะมอบช่วงเวลาแห่งสันติภาพแก่ประชาชนของข้า"
+ stewardship_oath_1_decision_confirm: "ยุคทองสำหรับ [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ custom_every_realm_county: "ทุก [county|E] ใน [realm|E]"
+ days_at_peace_text: "สันติภาพนานกว่า #V 5 ปี#!"
+ days_at_peace_text_alt: "$days_at_peace_text$ #weak (เหลืออีก #V [SCOPE.ScriptValue('peace_oath_value')]#! วัน)#!"
+ # Building Oath
+ stewardship_oath_2_decision: "$GetBuildingOathText$ [CoronationTimer('stewardship_oath_2_decision','stewardship_oath_2_decision_timer')]"
+ stewardship_oath_2_decision_timer: "\t#weak ([RemainingTime('stewardship_oath_2_timer')])#!"
+ stewardship_oath_2_decision_desc: "ข้าจะปรับโฉม [ROOT.Char.GetPrimaryTitle.GetNameNoTier] ทั้งหมดในภาพลักษณ์ของข้า, ทิ้งมรดกอันยั่งยืนไว้ในศิลาและปูนสำหรับคนรุ่นต่อไป $stewardship_oath_2_decision_desc_extra$"
+ stewardship_oath_2_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('stewardship_oath_2_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('stewardship_oath_2')]"
+ building_oath_trigger: "สร้างหรืออัปเกรด [buildings|E] อย่างน้อย #V 8#! แห่ง #weak (ปัจจุบัน [SCOPE.ScriptValue('building_oath_value')|V0])#!"
+ stewardship_oath_2_decision_tooltip: "ข้าได้สาบานว่าจะปรับโฉมอาณาจักรในภาพลักษณ์ของข้า, ทิ้งผลกระทบที่ยั่งยืนไว้บนถิ่นฐานของ [realm|E]"
+ stewardship_oath_2_decision_confirm: "มรดกของข้าตั้งตระหง่านอย่างภาคภูมิ"
+ every_build_oath_place: "ทุก [county|E] ที่ [building|E] ถูกสร้างขึ้น"
+
+ ## Intrigue
+
+ ## Learning
+ # Reconquest
+ # University
+ learning_oath_1_decision: "$GetUniversityOathText$ [CoronationTimer('learning_oath_1_decision','learning_oath_1_decision_timer')]"
+ learning_oath_1_decision_timer: "\t#weak ([RemainingTime('learning_oath_1_timer')])#!"
+ learning_oath_1_decision_desc: "ข้าได้สาบานต่อประชาชนชาว [ROOT.Char.GetPrimaryTitle.GetAdjective] ถึงศูนย์กลางการเรียนรู้แห่งใหม่ที่ยิ่งใหญ่, และข้าจะมอบมันให้$learning_oath_1_decision_desc_extra$"
+ learning_oath_1_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('learning_oath_1_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('learning_oath_1')]"
+ learning_oath_1_decision_tooltip: "สร้างศูนย์กลางการเรียนรู้สำหรับทุกคนใน [ROOT.Char.GetPrimaryTitle.GetNameNoTier]"
+ learning_oath_1_decision_confirm: "ถึงเวลาสำหรับการตื่นรู้แล้ว"
+ learning_oath_1_diplomacy_councillor: "[councillors|E] ที่เน้น [diplomacy|E] มี [diplomacy_i][diplomacy|E] #V 20#! หรือสูงกว่า"
+ learning_oath_1_martial_councillor: "[councillors|E] ที่เน้น [martial|E] มี [martial_i][martial|E] #V 20#! หรือสูงกว่า"
+ learning_oath_1_stewardship_councillor: "[councillors|E] ที่เน้น [stewardship|E] มี [stewardship_i][stewardship|E] #V 20#! หรือสูงกว่า"
+ learning_oath_1_intrigue_councillor: "[councillors|E] ที่เน้น [intrigue|E] มี [intrigue_i][intrigue|E] #V 20#! หรือสูงกว่า"
+ learning_oath_1_learning_councillor: "[councillors|E] ที่เน้น [learning|E] มี [learning_i][learning|E] #V 20#! หรือสูงกว่า"
+
+
+ # Purge Pretenders
+ purge_pretenders_oath_decision: "$GetPurgePretendersOathText$ [CoronationTimer('purge_pretenders_oath_decision','purge_pretenders_oath_decision_timer')]"
+ purge_pretenders_oath_decision_timer: "\t#weak ([RemainingTime('purge_pretenders_oath_timer')])#!"
+ purge_pretenders_oath_decision_desc: "ข้าได้สาบานว่าจะกำจัดผู้อ้างสิทธิ์จอมปลอมทั้งหมดต่อ [GetPlayer.MakeScope.Var('purge_pretenders_target_title').Title.GetName] พวกเขาต้องละทิ้งการอ้างสิทธิ์อันผิด ๆ ของตน มิฉะนั้นก็ต้องตาย $purge_pretenders_oath_decision_desc_extra$"
+ purge_pretenders_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('purge_pretenders_oath_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('purge_pretenders_oath')]"
+ purge_pretenders_oath_decision_tooltip: "กำจัด [claimants|E] จอมปลอม"
+ purge_pretenders_oath_decision_confirm: "การกวาดล้างเสร็จสมบูรณ์"
+ purge_pretenders_oath_decision_default: "[law|E] การสืบครองจะถูกเปลี่ยนกลับเป็นกฎหมายปัจจุบันของท่านเมื่อ [character|E] ของท่านเสียชีวิต"
+ purge_pretenders_oath_decision_murderer_tyranny: "ท่านต้องมี [tyranny|E] อย่างน้อย #V 80#! #weak (ปัจจุบัน: [GetPlayer.MakeScope.ScriptValue('oath_purge_pretenders_tyranny')])#!"
+ purge_pretenders_oath_decision_claimants: "ไม่มี [claimant|E] ต่อ [GetPlayer.MakeScope.Var('purge_pretenders_target_title').Title.GetName] หลงเหลืออยู่ ยกเว้น [children|E] ของท่าน #weak (ปัจจุบัน: [GetPlayer.MakeScope.ScriptValue('oath_purge_pretenders_claimants')])#!"
+ purge_pretenders_oath_decision_children: "[children|E] ของท่านน้อยกว่า #V 3#! คน มี [claim|E] ต่อ [GetPlayer.MakeScope.Var('purge_pretenders_target_title').Title.GetName] #weak (ปัจจุบัน: [GetPlayer.MakeScope.ScriptValue('oath_purge_pretenders_children')])#!"
+
+ # End the Struggle
+ end_the_struggle_oath_decision: "$GetEndTheStruggleOathText$ [CoronationTimer('end_the_struggle_oath_decision','end_the_struggle_oath_decision_timer')]"
+ 
+ end_the_struggle_oath_decision_desc_persian: "ข้าได้สาบานว่าจะยุติ [GetStruggle('persian_struggle').GetName] $end_the_struggle_oath_decision_desc_extra$"
+ end_the_struggle_oath_decision_desc_persian_ended: "ข้าได้สาบานว่าจะยุติ #V ช่วงว่างกษัตริย์อิหร่าน#! $end_the_struggle_oath_decision_desc_extra$"
+ end_the_struggle_oath_decision_desc_iberian: "ข้าได้สาบานว่าจะยุติ [GetStruggle('iberian_struggle').GetName] $end_the_struggle_oath_decision_desc_extra$"
+ end_the_struggle_oath_decision_desc_iberian_ended: "ข้าได้สาบานว่าจะยุติ #V การต่อสู้ในไอบีเรีย#! $end_the_struggle_oath_decision_desc_extra$"
+ end_the_struggle_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('end_the_struggle_oath_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('end_the_struggle_oath')]"
+ end_the_struggle_oath_decision_tooltip: "ยุติการต่อสู้"
+ end_the_struggle_oath_decision_confirm: "ช่วงเวลาแห่งความไม่แน่นอนได้สิ้นสุดลงแล้ว"
+ end_the_struggle_oath_decision_flag: "ท่านได้ยุติ [struggle|E] ผ่าน [decision|E] การยุติใด ๆ แล้ว"
+ end_the_struggle_oath_decision_trigger_persian: "ท่านได้ยุติ [GetStruggle('persian_struggle').GetName] ผ่าน [decision|E] การยุติใด ๆ แล้ว"
+ end_the_struggle_oath_decision_trigger_persian_ended: "ท่านได้ยุติ #V ช่วงว่างกษัตริย์อิหร่าน#! ผ่าน [decision|E] การยุติใด ๆ แล้ว"
+ end_the_struggle_oath_decision_trigger_iberian: "ท่านได้ยุติ [GetStruggle('iberian_struggle').GetName] ผ่าน [decision|E] การยุติใด ๆ แล้ว"
+ end_the_struggle_oath_decision_trigger_iberian_ended: "ท่านได้ยุติ #V การต่อสู้ในไอบีเรีย#! ผ่าน [decision|E] การยุติใด ๆ แล้ว"
+
+ end_the_struggle_oath_decision_title_persian: "ยุติ [GetStruggle('persian_struggle').GetNameNoTooltip] [CoronationTimer('end_the_struggle_oath_decision_persian','end_the_struggle_oath_decision_timer')]"
+ end_the_struggle_oath_decision_title_persian_ended: "ยุติ #V ช่วงว่างกษัตริย์อิหร่าน#!  [CoronationTimer('end_the_struggle_oath_decision_persian','end_the_struggle_oath_decision_timer')]"
+ end_the_struggle_oath_decision_title_iberian: "ยุติ [GetStruggle('iberian_struggle').GetNameNoTooltip] [CoronationTimer('end_the_struggle_oath_decision_iberian','end_the_struggle_oath_decision_timer')]"
+  end_the_struggle_oath_decision_title_iberian_ended: "ยุติ #V การต่อสู้ในไอบีเรีย#!  [CoronationTimer('end_the_struggle_oath_decision_iberian','end_the_struggle_oath_decision_timer')]"
+ end_the_struggle_oath_decision_timer: "\t#weak ([RemainingTime('end_the_struggle_oath_timer')])#!"
+
+ # Greatest Hunter
+ greatest_hunter_oath_decision: "$GetGreatestHunterOathText$ [CoronationTimer('greatest_hunter_oath_decision','greatest_hunter_oath_decision_timer')]"
+ greatest_hunter_oath_decision_timer: "\t#weak ([RemainingTime('greatest_hunter_oath_timer')])#!"
+ greatest_hunter_oath_decision_desc: "ข้าได้สาบานว่าจะเป็นสุดยอดนักล่าที่แผ่นดินเคยรู้จัก, เรื่องราวการไล่ล่าของข้าจะถูกเล่าขานไปจนตราบสิ้นกาลเวลา $greatest_hunter_oath_decision_desc_extra$"
+ greatest_hunter_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('greatest_hunter_oath_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('greatest_hunter_oath')]"
+ greatest_hunter_oath_decision_tooltip: "เป็นเจ้าภาพการล่าระดับตำนานที่ประสบความสำเร็จ"
+ greatest_hunter_oath_decision_confirm: "ข้าคือนักล่าผู้ไร้เทียมทาน"
+ greatest_hunter_decision_l3_trigger: "เป็นเจ้าภาพ [GetActivityType('activity_hunt').GetTextIcon][GetActivityType('activity_hunt').GetName] #V ระดับตำนาน#! ที่ประสบความสำเร็จ #V 3#! ครั้ง ([THIS.Char.MakeScope.Var('greatest_hunter_oath_l_counter').GetValue|0]/3)"
+ greatest_hunter_decision_l1_trigger: "เป็นเจ้าภาพ [GetActivityType('activity_hunt').GetTextIcon][GetActivityType('activity_hunt').GetName] #V ระดับตำนาน#! ที่ประสบความสำเร็จ #V หนึ่งครั้ง#!([THIS.Char.MakeScope.Var('greatest_hunter_oath_l_counter').GetValue|0]/1)"
+ greatest_hunter_decision_r10_trigger: "เป็นเจ้าภาพ [GetActivityType('activity_hunt').GetTextIcon][GetActivityType('activity_hunt').GetName] ที่ประสบความสำเร็จ #V 10#! ครั้ง ([THIS.Char.MakeScope.Var('greatest_hunter_oath_r_counter').GetValue|0]/10)"
+ greatest_hunter_decision_trigger_2: "ท่านมี [artifact|E] ประเภท #V ธนู#!"
+ greatest_hunter_decision_no_artifact_xp_effect: "[artifact|E] ประเภท #V ธนู#! ของท่านได้รับ $trait_track_hunter_xp_gain_mult$ #V #P +20%#!#!"
+ greatest_hunter_decision_no_artifact_stress_effect: "[artifact|E] ประเภท #V ธนู#! ของท่านได้รับ การได้รับ [stress|E] #V #P -15%#!#!"
+ greatest_hunter_decision_no_artifact_tribal_effect: "[artifact|E] ประเภท #V ธนู#! ของท่านได้รับ [opinion|E] [tribal|E] #V #P +6#!#!"
+
+ # Heir Preparation
+ heir_preparation_oath_decision: "$GetHeirPreparationOathText$ [CoronationTimer('heir_preparation_oath_decision','heir_preparation_oath_decision_timer')]"
+ heir_preparation_oath_decision_timer: "\t#weak ([RemainingTime('heir_preparation_oath_timer')])#!"
+ heir_preparation_oath_decision_desc: "ข้าได้สาบานว่าจะเตรียมทายาทของข้าให้พร้อมสำหรับการทดสอบที่จะมาถึง การครองราชย์ของข้าไม่มีจุดประสงค์ใดยิ่งใหญ่ไปกว่าผู้ที่จะสืบทอดต่อ $heir_preparation_oath_decision_desc_extra$"
+ heir_preparation_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('heir_preparation_oath_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('heir_preparation_oath')]"
+ heir_preparation_oath_decision_tooltip: "เตรียม [primary_heir|E] ของท่านสำหรับอนาคต"
+ heir_preparation_oath_decision_confirm: "การสืบทอดปลอดภัยแล้ว"
+ heir_preparation_oath_decision_no_heir: "[primary_heir|E] ของท่านคือ [child|E] #V ของท่าน#!"
+ heir_preparation_oath_decision_heir_under_12: "[primary_heir|E] ของท่านมีอายุอย่างน้อย #V 12#! ปี"
+ heir_preparation_oath_decision_heir_stats_10: "[primary_heir|E] ของท่านมี [skills|E] ทั้งหมดอย่างน้อย #V 10#!"
+ heir_preparation_oath_decision_heir_stats_14: "[primary_heir|E] ของท่านมี [skill|E] ใด ๆ อย่างน้อย #V 14#!"
+ heir_preparation_oath_decision_heir_stats_intellect: "[primary_heir|E] ของท่านมี [trait|E] จากกลุ่มจิตใจที่สว่างไสว"
+ heir_preparation_oath_decision_heir_stats_beauty: "[primary_heir|E] ของท่านมี [trait|E] จากกลุ่มตัวละครที่งดงาม"
+ heir_preparation_oath_decision_heir_stats_physique: "[primary_heir|E] ของท่านมี [trait|E] จากกลุ่มร่างกายที่สมบูรณ์แบบ"
+
+ # Install Claimants
+ install_claimants_oath_decision: "$GetInstallClaimantsOathText$ [CoronationTimer('install_claimants_oath_decision','install_claimants_oath_decision_timer')]"
+ install_claimants_oath_decision_timer: "\t#weak ([RemainingTime('install_claimants_oath_timer')])#!"
+ install_claimants_oath_decision_desc: "ข้าได้สาบานว่าจะสนับสนุน [claimants|E] สู่บัลลังก์อันชอบธรรมของพวกเขา, นำพาความสงบเรียบร้อยมาสู่อาณาจักรในโลกนี้... และผู้ปกครองคนใหม่ที่เปี่ยมไปด้วยความขอบคุณต่อข้า $install_claimants_oath_decision_desc_extra$"
+ install_claimants_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('install_claimants_oath_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('install_claimants_oath')]"
+ install_claimants_oath_decision_tooltip: "สนับสนุน [claimants|E]"
+ install_claimants_oath_decision_confirm: "ลาก่อน, เหล่าผู้ปกครองจอมปลอม!"
+ install_claimants_oath_decision_trigger: "[claimants|E] #V [GetPlayer.MakeScope.Var('install_claimants_oath_counter').GetValue|0]/3#! คน ได้รับการสนับสนุนผ่าน [wars|E]"
+
+ # Mend The Fracture
+ mend_the_fracture_oath_decision: "$GetMendTheFractureOathText$ [CoronationTimer('mend_the_fracture_oath_decision','mend_the_fracture_oath_decision_timer')]"
+ mend_the_fracture_oath_decision_timer: "\t#weak ([RemainingTime('mend_the_fracture_oath_timer')])#!"
+ mend_the_fracture_oath_decision_desc: "ข้าได้สาบานว่าจะส่งเสริมไมตรีจิตระหว่าง [ROOT.Char.GetCulture.GetName] และ [GetPlayer.MakeScope.Var('mend_the_fracture_oath_target_culture').Culture.GetName], นำความปรองดองมาสู่ดินแดนที่พวกเขาแบ่งปัน $mend_the_fracture_oath_decision_desc_extra$"
+ mend_the_fracture_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('mend_the_fracture_oath_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('mend_the_fracture_oath')]"
+ mend_the_fracture_oath_decision_tooltip: "เพิ่ม [cultural_acceptance|E] ของ [culture|E] [GetPlayer.MakeScope.Var('mend_the_fracture_oath_target_culture').Culture.GetName]"
+ mend_the_fracture_oath_decision_confirm: "จากหลากหลาย, สู่หนึ่งเดียว"
+
+ # Provide for the Warriors
+ provide_for_the_warriors_oath_decision: "$GetProvideForTheWarriorsOathText$ [CoronationTimer('provide_for_the_warriors_oath_decision','provide_for_the_warriors_oath_decision_timer')]"
+ provide_for_the_warriors_oath_decision_timer: "\t#weak ([RemainingTime('provide_for_the_warriors_oath_timer')])#!"
+ provide_for_the_warriors_oath_decision_desc: "ข้าได้สาบานว่าจะอุปถัมภ์ [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')] และ [ROOT.Char.Custom('GetFighterTermPlural')] แห่ง [ROOT.Char.GetPrimaryTitle.GetNameNoTier], มอบรางวัลมากมายให้พวกเขา เพื่อที่พวกเขาจะได้มีอาวุธพร้อมสำหรับการต่อสู้ที่จะมาถึง $provide_for_the_warriors_oath_decision_desc_extra$"
+ provide_for_the_warriors_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('provide_for_the_warriors_oath_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('provide_for_the_warriors_oath')]"
+ provide_for_the_warriors_oath_decision_tooltip: "สร้าง [buildings|E] [GetBuilding('oath_warriors_building_02').GetName] #V 3#! แห่ง"
+ provide_for_the_warriors_oath_decision_confirm: "ความเกรียงไกรของพวกเขาคือสิทธิ์ในการปกครองของข้า"
+
+ # Provide for the Faithful
+ provide_for_the_faithful_oath_decision: "$GetProvideForTheFaithfulOathText$ [CoronationTimer('provide_for_the_faithful_oath_decision','provide_for_the_faithful_oath_decision_timer')]"
+ provide_for_the_faithful_oath_decision_timer: "\t#weak ([RemainingTime('provide_for_the_faithful_oath_timer')])#!"
+ provide_for_the_faithful_oath_decision_desc: "ข้าได้สาบานตนเป็นองค์อุปถัมภ์ต่อผู้ศรัทธาชาว [ROOT.Char.GetPrimaryTitle.GetAdjective], และจะสร้างสถาบันทางศาสนาแห่งใหม่ในดินแดน $provide_for_the_faithful_oath_decision_desc_extra$"
+ provide_for_the_faithful_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('provide_for_the_faithful_oath_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('provide_for_the_faithful_oath')]"
+ provide_for_the_faithful_oath_decision_tooltip: "สร้าง [buildings|E] [GetBuilding('oath_faithful_building_02').GetName] #V 3#! แห่ง"
+ provide_for_the_faithful_oath_decision_confirm: "ศรัทธาคือความแข็งแกร่งของเรา"
+
+ # Provide for the Poor
+ provide_for_the_poor_oath_decision: "$GetProvideForThePoorOathText$ [CoronationTimer('provide_for_the_poor_oath_decision','provide_for_the_poor_oath_decision_timer')]"
+ provide_for_the_poor_oath_decision_timer: "\t#weak ([RemainingTime('provide_for_the_poor_oath_timer')])#!"
+ provide_for_the_poor_oath_decision_desc: "ข้าได้สาบานว่าจะอุปถัมภ์ผู้ยากไร้แห่ง [ROOT.Char.GetPrimaryTitle.GetNameNoTier], ในฐานะองค์อธิปัตย์ผู้เปี่ยมเมตตาและการกุศลของพวกเขา $provide_for_the_poor_oath_decision_desc_extra$"
+ provide_for_the_poor_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('provide_for_the_poor_oath_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('provide_for_the_poor_oath')]"
+ provide_for_the_poor_oath_decision_tooltip: "สร้าง [buildings|E] [GetBuilding('oath_poor_building_02').GetName] #V 3#! แห่ง"
+ provide_for_the_poor_oath_decision_confirm: "ผู้ขัดสนไม่ต้องทนทุกข์อีกต่อไป"
+
+  # Repent
+ repent_oath_decision: "$GetRepentOathText$ [CoronationTimer('repent_oath_decision','repent_oath_decision_timer')]"
+ repent_oath_decision_timer: "\t#weak ([RemainingTime('repent_oath_timer')])#!"
+ repent_oath_decision_desc: "ข้าได้สาบานว่าจะสำนึกในบาปของข้า, และปลดเปลื้องน้ำหนักแห่งการกระทำผิดของข้า: ภาระต่อหัวใจของข้า, และต่ออาณาจักร $repent_oath_decision_desc_extra$"
+ repent_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial [RemainingTime('repent_oath_timer')] ที่เหลือเพื่อทำ [oath|E] ให้สำเร็จ#![IsOngoingCoronationOath('repent_oath')]"
+ repent_oath_decision_tooltip: "ทำ [pilgrimages|E] ให้สำเร็จ #V 4#! ครั้ง"
+ repent_oath_decision_confirm: "จิตวิญญาณของข้าเปลือยเปล่าต่อหน้า [ROOT.Char.GetFaith.HighGodName]"
+ repent_oath_remove_traits_tooltip: "[lifestyle_trait|E] และ [fame_trait|E] ที่ [sinful|E] ทุกอันจะถูกลบออก และ [personality_traits|E] ที่ [sinful|E] จะถูกแทนที่ด้วย [personality_traits|E] ที่ [virtuous|E] แบบสุ่ม โดยจะถูกแทนที่สูงสุดตามจำนวนที่ [faith|E] ของท่านมี"
+ repent_oath_pilgrimage: "ทำ [pilgrimages|E] สำเร็จ #V [GetPlayer.MakeScope.Var('repent_oath_pilgrimage_counter').GetValue|0]/4#! ครั้ง"
+
+ # Activity Log
+ coronation_vassal_support_log_title: "การสนับสนุนจากข้าหลวง"
+ coronation_vassal_support_log: "[CHARACTER.GetTitledFirstName|U] ใช้อิทธิพลส่วนตัวเพื่อสนับสนุน [legitimacy|E] ของ [TARGET_CHARACTER.GetTitledFirstNamePossessive]"
+
+# Coronation Splendor Progression
+ coronation_tt_positive_massive: "[coronation_magnificence|E] ของ [GetActivityType('activity_coronation').GetName] #P เพิ่มขึ้นอย่างมหาศาล#!"
+ coronation_tt_positive_major: "[coronation_magnificence|E] ของ [GetActivityType('activity_coronation').GetName] #P เพิ่มขึ้นอย่างสูง#!"
+ coronation_tt_positive_medium: "[coronation_magnificence|E] ของ [GetActivityType('activity_coronation').GetName] #P เพิ่มขึ้นอย่างเห็นได้ชัด#!"
+ coronation_tt_positive_tiny: "[coronation_magnificence|E] ของ [GetActivityType('activity_coronation').GetName] #P เพิ่มขึ้นเล็กน้อย#!"
+ coronation_tt_positive_miniscule: "[coronation_magnificence|E] ของ [GetActivityType('activity_coronation').GetName] #P เพิ่มขึ้นเพียงเล็กน้อย#!"
+ coronation_tt_negative_tiny: "[coronation_magnificence|E] ของ [GetActivityType('activity_coronation').GetName] #N ลดลงเล็กน้อย#!"
+ coronation_tt_negative: "[coronation_magnificence|E] ของ [GetActivityType('activity_coronation').GetName] #N ลดลง#!"
+ coronation_tt_negative_major: "[coronation_magnificence|E] ของ [GetActivityType('activity_coronation').GetName] #N ลดลงอย่างเห็นได้ชัด#!"
+ coronation_tt_negative_huge: "[coronation_magnificence|E] ของ [GetActivityType('activity_coronation').GetName] #N ลดลงอย่างมาก#!"
+
+ coronation_tt_positive_massive_log_title: "การกระทำของ [char.GetTitledFirstNamePossessiveNoTooltip] เพิ่มความโอ่อ่า"
+ coronation_tt_positive_major_log_title: "$coronation_tt_positive_massive_log_title$"
+ coronation_tt_positive_medium_log_title: "$coronation_tt_positive_massive_log_title$"
+ coronation_tt_positive_tiny_log_title: "$coronation_tt_positive_massive_log_title$"
+ coronation_tt_positive_miniscule_log_title: "$coronation_tt_positive_massive_log_title$"
+ coronation_tt_negative_tiny_log_title: "การกระทำของ [char.GetTitledFirstNamePossessiveNoTooltip] ลดความโอ่อ่า"
+ coronation_tt_negative_log_title: "$coronation_tt_negative_tiny_log_title$"
+ coronation_tt_negative_major_log_title: "$coronation_tt_negative_tiny_log_title$"
+
+ magnificence_badly_reduced_by_factions_tt: "@warning_icon! #X [coronation_magnificence|E] ได้รับความเสียหายอย่างหนักจาก [factions|E] ที่ต่อต้าน [host.GetShortUIName]#!"
+ magnificence_badly_reduced_by_faction_tt: "@warning_icon! #X [coronation_magnificence|E] ได้รับความเสียหายอย่างหนักจาก [faction|E] ที่ต่อต้าน [host.GetShortUIName]#!"
+ magnificence_reduced_by_factions_tt: "[coronation_magnificence|E] ได้รับ #N ความเสียหาย#! จาก [factions|E] ที่ต่อต้าน [host.GetShortUIName]"
+ magnificence_reduced_by_faction_tt: "[coronation_magnificence|E] ได้รับ #N ความเสียหาย#! จาก [faction|E] ที่ต่อต้าน [host.GetShortUIName]"
+
+
+ # Rewards
+ coronation_oath_upgrade_100: "การได้รับ [prestige_i][prestige|E] และ [legitimacy_i][legitimacy|E] จากการทำ [oath|E] สำเร็จ: #P +160%#!"
+ coronation_oath_upgrade_75: "การได้รับ [prestige_i][prestige|E] และ [legitimacy_i][legitimacy|E] จากการทำ [oath|E] สำเร็จ: #P +120%#!"
+ coronation_oath_upgrade_50: "การได้รับ [prestige_i][prestige|E] และ [legitimacy_i][legitimacy|E] จากการทำ [oath|E] สำเร็จ: #P +80%#!"
+ coronation_oath_upgrade_25: "การได้รับ [prestige_i][prestige|E] และ [legitimacy_i][legitimacy|E] จากการทำ [oath|E] สำเร็จ: #P +40%#!"
+ coronation_reward_100: "การได้รับ [prestige_i][prestige|E] และ [legitimacy_i][legitimacy|E] จาก [vassals|E] #V ผู้สนับสนุน#!([THIS.ScriptValue('number_of_vassal_supporters')|V0]) ที่เข้าร่วม [coronation|E]: #P 150%#!"
+ coronation_reward_75: "การได้รับ [prestige_i][prestige|E] และ [legitimacy_i][legitimacy|E] จาก [vassals|E] #V ผู้สนับสนุน#!([THIS.ScriptValue('number_of_vassal_supporters')|V0]) ที่เข้าร่วม [coronation|E]: #P 75%#!"
+ coronation_reward_50: "การได้รับ [prestige_i][prestige|E] และ [legitimacy_i][legitimacy|E] จาก [vassals|E] #V ผู้สนับสนุน#!([THIS.ScriptValue('number_of_vassal_supporters')|V0]) ที่เข้าร่วม [coronation|E]: #P 50%#!"
+ coronation_reward_25: "การได้รับ [prestige_i][prestige|E] และ [legitimacy_i][legitimacy|E] จาก [vassals|E] #V ผู้สนับสนุน#!([THIS.ScriptValue('number_of_vassal_supporters')|V0]) ที่เข้าร่วม [coronation|E]: #P 25%#!"
+ intent_coronation_opinion_gain: "เนื่องมาจากเจตจำนง #V [THIS.Char.GetInvolvedActivityIntent.GetName]#! ของท่าน:"
+ coronation_completed_log_entry_effect_title: "[GetActivityType('activity_coronation').GetName] เสร็จสมบูรณ์"
+ coronation_completed_log_entry_effect: "[GetActivityType('activity_coronation').GetName] สิ้นสุดลง"
+ coronation_completed_log_oath_tt: "คำสัตย์สาบาน: [THIS.Char.Custom('GetOath')|V]"
+
+
+# Artifacts
+
+ach_spawned_crown_name: "มงกุฎแห่ง [crown_title.GetDefinitiveNameNoTooltip]"
+ach_spawned_crown_desc: "มงกุฎ[SCOPE.Custom('ArtifactArticleWealth')] ที่มีฝีมือการสร้าง [SCOPE.Custom('ArtifactQuality')] มงกุฎนี้หลอมขึ้นจาก [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )] [title_founder.GetTitledFirstName] ทรงเป็นผู้แรกที่สวมใส่เพื่อเป็นสัญลักษณ์แห่งการปกครองอัน [title_founder.Custom('trait_greedy_adjective')] ของ [title_founder.GetHerHis] [title_founder.GetTitleAsNameNoTooltip] ทุกพระองค์แห่ง [crown_title.GetNameNoTier] ได้สวมใส่มงกุฎนี้สืบต่อกันมา"
+ach_spawned_regalia_name: "เครื่องราชกกุธภัณฑ์แห่ง [crown_title.GetDefinitiveNameNoTooltip]"
+ach_spawned_regalia_desc: "ชุดเครื่องราชกกุธภัณฑ์[SCOPE.Custom('ArtifactArticleWealth')] ที่มีฝีมือการสร้าง [SCOPE.Custom('ArtifactQuality')] [title_founder.GetTitledFirstName] ทรงเป็นผู้แรกที่ถือครองเพื่อเป็นสัญลักษณ์แห่งการปกครองอัน [title_founder.Custom('trait_greedy_adjective')] ของ [title_founder.GetHerHis] [title_founder.GetTitleAsNameNoTooltip] ทุกพระองค์แห่ง [crown_title.GetNameNoTier] ได้ถือครองสืบต่อกันมา"
+
+
+# Host activity rewards
+
+coronation_events.0310.t: "เจตจำนงของ [ROOT.Char.GetTitleAsNamePossessiveNoTooltip]"
+coronation_events.0310.desc.high_magnificence: "ข้าได้พากเพียรอย่างไม่เหน็ดเหนื่อยเพื่อส่งเสริมเกียรติยศ, เพื่อบ่มเพาะความยิ่งใหญ่แห่งพิธีบรมราชาภิเษกของข้า เหล่าแขกเหรื่อเปี่ยมล้นไปด้วยแรงบันดาลใจจากสิ่งที่พวกเขาได้ประจักษ์ ณ ที่นี้, แผ่ซ่านความชื่นชมยินดี มันเป็นการเริ่มต้นที่เหมาะสมสำหรับการครองราชย์ของข้าในฐานะ [ROOT.Char.GetTitleAsNameNoTooltip|l]\n\n"
+coronation_events.0310.desc.mid_magnificence: "บัดนี้ข้าคือ [ROOT.Char.GetTitleAsNameNoTooltip|l] โดยสมบูรณ์ พิธีบรมราชาภิเษกของข้าได้พิสูจน์แล้วว่าคู่ควรแก่ยศฐาของข้า, เป็นภาพอันงดงามสำหรับเหล่าแขกเหรื่อ, ซึ่งหลายคนยังคงอ้อยอิ่งอยู่ด้วยความหวังว่าจะได้ฟังถ้อยคำ [ROOT.Char.Custom('GetTitleTierAdjective')] สุดท้ายอีกสักสองสามคำ\n\n"
+coronation_events.0310.desc.low_magnificence: "การเฉลิมฉลองใกล้จะสิ้นสุดลงแล้ว มีเสียงกระซิบกระซาบมากมายเกี่ยวกับความโกลาหล, ความตึงเครียด, และสิ่งอำนวยความสะดวกอันลวก ๆ บัดนี้ข้าอาจยืนอยู่โดยมีคำครหานินทาดังอยู่ในหู และอาหารเก่าบูดเน่าอยู่ในท้อง... แต่สิ่งเดียวที่สำคัญคือในที่สุดข้าก็ได้เป็น [ROOT.Char.GetTitleAsNameNoTooltip|l] อย่างสมบูรณ์\n\n"
+coronation_events.0310.desc.impress_attendees: "ตั้งแต่ต้นจนจบ, ข้าไม่ละเว้นความพยายามใด ๆ เพื่อสร้างความประทับใจให้แก่ผู้เข้าร่วมทุกคน — ทั้งมิตรและศัตรู! แต่การปรากฏตัวอย่างเป็นธรรมของข้า, การมุ่งเน้นอย่างเต็มที่ต่อความสำเร็จของการชุมนุมอันยิ่งใหญ่นี้...\n\nทั้งหมดนี้เพื่อสิ่งใดกัน?"
+coronation_events.0310.desc.weaken_detractors: "เหล่าผู้คัดค้านที่อวดดีและ [first_char.Custom('InsultAdjective')], [first_char.GetName] และ [second_char.GetName] ก็อยู่ในหมู่พวกเขา, ช่างกล้าหาญนักที่มาร่วมพิธีบรมราชาภิเษกของข้า... และข้าก็ได้ตอบสนองพวกเขาด้วยความเกรี้ยวกราด [ROOT.Char.Custom('GetTitleTierAdjective')] ที่พวกเขาสมควรได้รับ! พวกเขามาเพื่อขุดคุ้ยจุดอ่อนของข้า, แต่กลับพบเพียงความดูแคลนอันเย็นชาและความมุ่งมั่นอันแข็งแกร่งดุจเหล็กกล้า\n\nบางที, ข้าควรจะมอบหมัดเด็ดสุดท้ายอันเจ็บแสบ..."
+coronation_events.0310.desc.embrace_supporters: "ทุกโอกาสที่มี, ข้าให้ความสำคัญกับผู้ที่ภักดีต่อข้าและมงกุฎของข้ามากที่สุด เรา, ผู้สนับสนุนของข้าและตัวข้า, ได้ร่วมกันวางแผนและไตร่ตรอง, และต่างยกย่องคุณสมบัติของกันและกัน [first_char.GetName], [second_char.GetName], และคนอื่น ๆ ได้กลายเป็นวงในของข้า\n\nความไว้วางใจของพวกเขาอาจกลายเป็นสิ่งที่จับต้องได้มากกว่านี้"
+coronation_events.0310.desc.exalt_crown: "ข้ายังคงยึดมั่นในความเชื่อที่ว่าเกียรติยศแห่งมงกุฎคือทุกสิ่ง การทดสอบที่ข้าเผชิญในสถานที่นี้, การต่อสู้เล็ก ๆ น้อย ๆ ภายใน — ล้วนเป็นปัญหาที่ผ่านพ้นไป, แต่ [ROOT.Char.GetPrimaryTitle.GetNameNoTier] จะยังคงอยู่! ข้าได้ถ่ายทอดความเชื่ออันยิ่งใหญ่นี้แก่แขกของข้า, และศรัทธาของพวกเขาต่ออาณาจักรก็เพิ่มพูนขึ้น\n\nแต่การเทิดทูนทั้งหมดนี้จะนำไปสู่จุดจบใด?"
+coronation_events.0310.low_magnificence: "#EMP #low เพราะ [coronation_magnificence|E] ที่ #N ต่ำ#! ของท่าน:#!#!"
+coronation_events.0310.mid_magnificence: "#EMP #low เพราะ [coronation_magnificence|E] ที่ #V พอใช้ได้#! ของท่าน:#!#!"
+coronation_events.0310.high_magnificence: "#EMP #low เพราะ [coronation_magnificence|E] ที่ #P สูง#! ของท่าน:#!#!"
+coronation_events.0310.a: "ความไว้วางใจจากวัฒนธรรมอื่น"
+coronation_events.0310.a.reward.tooltip: "[culture|E] ของท่านจะได้รับ [cultural_acceptance|E] กับ [cultures|E] ของแขก"
+coronation_events.0310.a.crit_success: "[cultures|E] ที่แตกต่างกัน #P [host.MakeScope.Var('reward_tier_plus_two').GetValue]#! จะได้รับผลกระทบ"
+coronation_events.0310.a.success: "[cultures|E] ที่แตกต่างกัน #P [host.MakeScope.Var('reward_tier_plus_one').GetValue]#! จะได้รับผลกระทบ"
+coronation_events.0310.a.no_improvement: "[cultures|E] ที่แตกต่างกัน #P [host.MakeScope.Var('reward_tier').GetValue]#! จะได้รับผลกระทบ"
+coronation_events.0310.b: "ศรัทธาของผู้สนับสนุนข้า"
+coronation_events.0310.b.reward.tooltip: "ท่านจะได้รับ [opinion|E] #P เชิงบวก#! เพิ่มเติมกับแขกของท่าน"
+coronation_events.0310.b.crit_success: "แขก #P [host.MakeScope.Var('reward_tier_plus_two').GetValue]#! คน จะได้รับผลกระทบ"
+coronation_events.0310.b.success: "แขก #P [host.MakeScope.Var('reward_tier_plus_one').GetValue]#! คน จะได้รับผลกระทบ"
+coronation_events.0310.b.no_improvement: "แขก #P [host.MakeScope.Var('reward_tier').GetValue]#! คน จะได้รับผลกระทบ"
+coronation_events.0310.c: "ความชอบธรรมและเกียรติภูมิของข้า"
+coronation_events.0310.c.reward.tooltip: "ท่านจะได้รับ [GetModifier('ach_intent_prestige_modifier').GetNameWithTooltip] ในขณะที่แขกของท่านจะได้รับ [modifier|E] [GetModifier('ach_intent_prestige_guest_modifier').GetNameWithTooltip] เป็นเวลา 20 ปี"
+coronation_events.0310.c.crit_success: "แขก #P [host.MakeScope.Var('reward_tier_plus_two').GetValue]#! คน จะได้รับผลกระทบ และ [modifier|E] ของท่านจะคงอยู่เป็นเวลา #P [host.MakeScope.Var('reward_tier_plus_two').GetValue] ทศวรรษ#!"
+coronation_events.0310.c.success: "แขก #P [host.MakeScope.Var('reward_tier_plus_one').GetValue]#! คน จะได้รับผลกระทบ และ [modifier|E] ของท่านจะคงอยู่เป็นเวลา #P [host.MakeScope.Var('reward_tier_plus_one').GetValue] ทศวรรษ#!"
+coronation_events.0310.c.no_improvement: "แขก #P [host.MakeScope.Var('reward_tier').GetValue]#! คน จะได้รับผลกระทบ และ [modifier|E] ของท่านจะคงอยู่เป็นเวลา #P [host.MakeScope.Var('reward_tier').GetValue] ทศวรรษ#!"
+coronation_events.0310.d: "ประณามทุกฝ่าย"
+coronation_events.0310.d.reward.tooltip: "#V ผู้คัดค้านในพิธีบรมราชาภิเษก#! จะได้รับ [modifier|E] [GetModifier('ach_intent_faction_joining_prevention_modifier').GetNameWithTooltip] เป็นเวลา 20 ปี"
+coronation_events.0310.d.crit_success: "#V ผู้คัดค้านในพิธีบรมราชาภิเษก#! #P [host.MakeScope.Var('reward_tier_plus_two').GetValue]#! คน จะได้รับผลกระทบ"
+coronation_events.0310.d.success: "#V ผู้คัดค้านในพิธีบรมราชาภิเษก#! #P [host.MakeScope.Var('reward_tier_plus_one').GetValue]#! คน จะได้รับผลกระทบ"
+coronation_events.0310.d.no_improvement: "#V ผู้คัดค้านในพิธีบรมราชาภิเษก#! #P [host.MakeScope.Var('reward_tier').GetValue]#! คน จะได้รับผลกระทบ"
+coronation_events.0310.e: "เตือนพวกเขา... คุกใต้ดินของข้ารออยู่"
+coronation_events.0310.e.reward.tooltip: "#V ผู้คัดค้านในพิธีบรมราชาภิเษก#! จะได้รับ [modifier|E] [GetModifier('ach_intent_imprisonment_modifier').GetNameWithTooltip] เป็นเวลา 20 ปี"
+coronation_events.0310.e.crit_success: "$coronation_events.0310.d.crit_success$"
+coronation_events.0310.e.success: "$coronation_events.0310.d.success$"
+coronation_events.0310.e.no_improvement: "$coronation_events.0310.d.no_improvement$"
+coronation_events.0310.f: "คำพูดโจมตีที่รุนแรงถึงแก่นก็น่าจะพอ"
+coronation_events.0310.f.reward.tooltip: "#V ผู้คัดค้านในพิธีบรมราชาภิเษก#! จะได้รับ [stress|E] จำนวน #P มหาศาล#! "
+coronation_events.0310.f.crit_success: "$coronation_events.0310.d.crit_success$"
+coronation_events.0310.f.success: "$coronation_events.0310.d.success$"
+coronation_events.0310.f.no_improvement: "$coronation_events.0310.d.no_improvement$"
+coronation_events.0310.g: "ข้าต้องการที่ปรึกษาผู้ภักดีของข้ามากที่สุด"
+coronation_events.0310.g.reward.tooltip: "#V ผู้สนับสนุนในพิธีบรมราชาภิเษก#! จะได้รับ [modifier|E] [GetModifier('ach_intent_better_councillors_modifier').GetNameWithTooltip] เป็นเวลา 20 ปี"
+coronation_events.0310.g.crit_success: "#V ผู้สนับสนุนในพิธีบรมราชาภิเษก#! #P [host.MakeScope.Var('reward_tier_plus_two').GetValue]#! คน จะได้รับผลกระทบ"
+coronation_events.0310.g.success: "#V ผู้สนับสนุนในพิธีบรมราชาภิเษก#! #P [host.MakeScope.Var('reward_tier_plus_one').GetValue]#! คน จะได้รับผลกระทบ"
+coronation_events.0310.g.no_improvement: "#V ผู้สนับสนุนในพิธีบรมราชาภิเษก#! #P [host.MakeScope.Var('reward_tier').GetValue]#! คน จะได้รับผลกระทบ"
+coronation_events.0310.h: "ดินแดนที่ภักดีต่อมงกุฎจะเจริญรุ่งเรือง!"
+coronation_events.0310.h.reward.tooltip: "#V ผู้สนับสนุนในพิธีบรมราชาภิเษก#! จะได้รับ [modifier|E] [GetModifier('ach_intent_vassal_development_boost_modifier').GetNameWithTooltip] เป็นเวลา 20 ปี"
+coronation_events.0310.h.crit_success: "$coronation_events.0310.g.crit_success$"
+coronation_events.0310.h.success: "$coronation_events.0310.g.success$"
+coronation_events.0310.h.no_improvement: "$coronation_events.0310.g.no_improvement$"
+coronation_events.0310.i: "[host.GetTitleAsNameNoTooltip] ของพวกเขาจะปกป้อง"
+coronation_events.0310.i.reward.tooltip: "#V ผู้สนับสนุนในพิธีบรมราชาภิเษก#! จะได้รับ [modifier|E] [GetModifier('ach_intent_vassal_defensive_boost_modifier').GetNameWithTooltip] เป็นเวลา 20 ปี"
+coronation_events.0310.i.crit_success: "$coronation_events.0310.g.crit_success$"
+coronation_events.0310.i.success: "$coronation_events.0310.g.success$"
+coronation_events.0310.i.no_improvement: "$coronation_events.0310.g.no_improvement$"
+coronation_events.0310.j: "ความเคารพอย่างที่สุดต่ออาภรณ์ [ROOT.Char.Custom('GetTitleTierAdjective')] ของข้า"
+coronation_events.0310.j.reward.tooltip: "#V [artifacts|E] ของท่านจะได้รับ [modifier|E] #P เชิงบวก#! "
+coronation_events.0310.j.crit_success: "#V [artifacts|E] ของท่าน #P [host.MakeScope.Var('reward_tier_plus_two').GetValue]#! ชิ้น จะได้รับการปรับปรุง#!"
+coronation_events.0310.j.success: "#V [artifacts|E] ของท่าน #P [host.MakeScope.Var('reward_tier_plus_one').GetValue]#! ชิ้น จะได้รับการปรับปรุง#!"
+coronation_events.0310.j.no_improvement: "#V [artifacts|E] ของท่าน #P [host.MakeScope.Var('reward_tier').GetValue]#! ชิ้น จะได้รับการปรับปรุง#!"
+coronation_events.0310.k.reward.tooltip: "[counties|E] ใน [domain|E] ของท่านจะได้รับ [modifier|E] [GetModifier('ach_intent_development_boost_modifier').GetNameWithTooltip] เป็นเวลา 20 ปี"
+coronation_events.0310.k.crit_success: "#V [counties|E] ของท่าน #P [host.MakeScope.Var('reward_tier_plus_two').GetValue]#! แห่ง จะได้รับผลกระทบ#!"
+coronation_events.0310.k.success: "#V [counties|E] ของท่าน #P [host.MakeScope.Var('reward_tier_plus_one').GetValue]#! แห่ง จะได้รับผลกระทบ#!"
+coronation_events.0310.k.no_improvement: "#V [counties|E] ของท่าน #P [host.MakeScope.Var('reward_tier').GetValue]#! แห่ง จะได้รับผลกระทบ#!"
+coronation_events.0310.k: "เหล่าสามัญชนก็ต้องได้รับแรงบันดาลใจ เช่นกัน"
+coronation_events.0310.l: "การป้องกัน [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] ของเรา!"
+coronation_events.0310.l.reward.tooltip: "[counties|E] ใน [domain|E] ของท่านจะได้รับ [modifier|E] [GetModifier('ach_intent_defense_boost_modifier').GetNameWithTooltip] เป็นเวลา 20 ปี"
+coronation_events.0310.l.crit_success: "$coronation_events.0310.k.crit_success$"
+coronation_events.0310.l.success: "$coronation_events.0310.k.success$"
+coronation_events.0310.l.no_improvement: "$coronation_events.0310.k.no_improvement$"
+coronation_events.0310.intent_toast: "เจตจำนงของท่านถูกกำหนดแล้ว"
+
+coronation_events.0311.t: "สิ้นสุดการเฉลิมฉลอง"
+coronation_events.0311.desc.high_magnificence: "พิธีบรมราชาภิเษกอันโอ่อ่าของข้าเสร็จสิ้นแล้ว เหล่าแขกเหรื่อจากไป, ทั้งหมดล้วนประทับใจอย่างสุดซึ้งในพิธีการ"
+coronation_events.0311.desc.mid_magnificence: "พิธีบรมราชาภิเษกของข้าเสร็จสิ้นแล้ว เหล่าแขกเหรื่อจากไป, ประทับใจเล็กน้อยในพิธีการ"
+coronation_events.0311.desc.low_magnificence: "พิธีบรมราชาภิเษกอันขัดสนของข้าเสร็จสิ้นแล้ว ข้าอาจเป็นเจ้าภาพที่แย่, แต่ถึงกระนั้นก็เป็น [ROOT.Char.GetTitleAsNameNoTooltip]"
+coronation_events.0311.a: "การครองราชย์ของข้าเริ่มต้นขึ้น"
+
+coronation_nomadic_herd_reward: "ท่านได้รับ [herd_i] [TopScope.GetValue('coronation_herd_value')|+0] จาก [coronation_supporters|E]"
+
+coronation_events.0312.t: "สิ้นสุดการเฉลิมฉลอง"
+coronation_events.0312.desc.high_magnificence: "พิธีบรมราชาภิเษกอันโอ่อ่าเสร็จสิ้นแล้ว เหล่าแขกเหรื่อจากไป, ทั้งหมดล้วนประทับใจอย่างลึกซึ้งในพิธีการอันวิจิตรงดงาม"
+coronation_events.0312.desc.mid_magnificence: "พิธีบรมราชาภิเษกเสร็จสิ้นแล้ว เหล่าแขกเหรื่อจากไป, ประทับใจเล็กน้อยในพิธีการ"
+coronation_events.0312.desc.low_magnificence: "พิธีบรมราชาภิเษกอันขัดสนเสร็จสิ้นแล้ว [host.GetName] อาจเป็นเจ้าภาพที่แย่, แต่ถึงกระนั้นก็เป็น [ROOT.Char.GetTitleAsNameNoTooltip]"
+coronation_events.0312.a: "การครองราชย์ของ [host.GetTitledFirstNameNoTooltip] ได้เริ่มต้นขึ้นแล้ว"
+coronation_events.0312.cultural_acceptance: "ด้วย [intent|E] #V สร้างความประทับใจแก่ผู้เข้าร่วม#! ของ [host.GetTitledFirstNamePossessiveNoTooltip] [cultural_acceptance|E] ระหว่าง [ROOT.Char.GetCulture.GetName] และ [host.GetCulture.GetName] จึงเพิ่มขึ้น"
+coronation_events.0312.better_councillors: "ด้วย [intent|E] #V โอบรับผู้สนับสนุน#! ของ [host.GetTitledFirstNamePossessiveNoTooltip] ท่านจึงได้รับ [modifier|E] [GetModifier('ach_intent_better_councillors_modifier').GetNameWithTooltip] เป็นเวลา 20 ปี"
+coronation_events.0312.vassal_development_boost: "ด้วย [intent|E] #V โอบรับผู้สนับสนุน#! ของ [host.GetTitledFirstNamePossessiveNoTooltip] ท่านจึงได้รับ [modifier|E] [GetModifier('ach_intent_vassal_development_boost_modifier').GetNameWithTooltip] เป็นเวลา 20 ปี"
+coronation_events.0312.vassal_defensive_boost: "ด้วย [intent|E] #V โอบรับผู้สนับสนุน#! ของ [host.GetTitledFirstNamePossessiveNoTooltip] ท่านจึงได้รับ [modifier|E] [GetModifier('ach_intent_vassal_defensive_boost_modifier').GetNameWithTooltip] เป็นเวลา 20 ปี"
+
+coronation_events.0400.desc: "ข้าได้พิจารณาคำร้องขอของท่านแล้ว, และตัดสินใจว่าท่านคู่ควรแก่พรของข้า, ซึ่งเป็นเครื่องหมายอันศักดิ์สิทธิ์ที่สุดแห่งความโปรดปรานของ [ROOT.Char.GetFaith.HighGodNamePossessive] ต่อผู้มีศรัทธา"
+coronation_events.0400.a: "ข้ารอคอยการขึ้นครองราชย์อันชอบธรรมของข้าอย่างใจจดใจจ่อ"
+
+coronation_cultural_acceptance_reward_tt: "[culture|E] ของ [host.GetName] ได้รับ [cultural_acceptance|E] กับวัฒนธรรมดังต่อไปนี้:"
+coronation_opinion_gain_reward_tt: "[host.GetName] ได้รับ [opinion|E] กับตัวละครดังต่อไปนี้:"
+coronation_legitimacy_and_prestige_gain_reward_tt: "ตัวละครดังต่อไปนี้ได้รับ [modifier|E] [GetModifier('ach_intent_prestige_guest_modifier').GetNameWithTooltip]:"
+coronation_prevent_faction_joining_reward_tt: "#V ผู้คัดค้าน#! ดังต่อไปนี้ได้รับ [modifier|E] [GetModifier('ach_intent_faction_joining_prevention_modifier').GetNameWithTooltip]:"
+coronation_easier_imprisonment_reward_tt: "#V ผู้คัดค้าน#! ดังต่อไปนี้ได้รับ [modifier|E] [GetModifier('ach_intent_imprisonment_modifier').GetNameWithTooltip]:"
+coronation_stress_reward_tt: "#V ผู้คัดค้าน#! ดังต่อไปนี้ได้รับ [stress|E] จำนวน #V มหาศาล#!:"
+coronation_better_councillors_reward_tt: "#V ผู้สนับสนุน#! ดังต่อไปนี้ได้รับ [modifier|E] [GetModifier('ach_intent_better_councillors_modifier').GetNameWithTooltip]:"
+coronation_vassal_development_boost_reward_tt: "#V ผู้สนับสนุน#! ดังต่อไปนี้ได้รับ [modifier|E] [GetModifier('ach_intent_vassal_development_boost_modifier').GetNameWithTooltip]:"
+coronation_vassal_defensive_boost_reward_tt: "#V ผู้สนับสนุน#! ดังต่อไปนี้ได้รับ [modifier|E] [GetModifier('ach_intent_vassal_defensive_boost_modifier').GetNameWithTooltip]:"
+coronation_artifact_boost_reward_tt: "[artifacts|E] ดังต่อไปนี้ได้รับ [modifier|E] #P เชิงบวก#!:"
+coronation_host_development_boost_reward_tt: "[counties|E] ดังต่อไปนี้ได้รับ [modifier|E] [GetModifier('ach_intent_development_boost_modifier').GetNameWithTooltip]:"
+coronation_host_defense_boost_reward_tt: "[counties|E] ดังต่อไปนี้ได้รับ [modifier|E] [GetModifier('ach_intent_defense_boost_modifier').GetNameWithTooltip]:"
+coronation_host_reward_tier_one_tt: "ได้รับผลกระทบ: [first_reward_target.GetName]"
+coronation_host_reward_tier_two_tt: "ได้รับผลกระทบ: [first_reward_target.GetName] และ [second_reward_target.GetName]"
+coronation_host_reward_tier_three_tt: "ได้รับผลกระทบ: [first_reward_target.GetName], [second_reward_target.GetName], และ [third_reward_target.GetName]"
+coronation_host_reward_tier_four_tt: "ได้รับผลกระทบ: [first_reward_target.GetName], [second_reward_target.GetName], [third_reward_target.GetName], และ [fourth_reward_target.GetName]"
+coronation_host_reward_tier_five_tt: "ได้รับผลกระทบ: [first_reward_target.GetName], [second_reward_target.GetName], [third_reward_target.GetName], [fourth_reward_target.GetName], และ [fifth_reward_target.GetName]"
+
+cultural_acceptance_gain_coronation_host_reward: "เจตจำนงพิธีบรมราชาภิเษก: สร้างความประทับใจแก่ผู้เข้าร่วม"
+ach_intent_opinion: "ผู้เข้าร่วมที่ประทับใจอย่างยิ่ง"
+ach_intent_prestige_guest_modifier: "ผู้เข้าร่วมที่ประทับใจ"
+ach_intent_prestige_guest_modifier_desc: "ตัวละครนี้เป็นผู้สนับสนุนและแขกผู้มีเกียรติระหว่างพิธีบรมราชาภิเษกขององค์อธิปัตย์ผู้เพิ่งสวมมงกุฎ"
+ach_intent_prestige_modifier: "เจ้าภาพที่น่าประทับใจ"
+ach_intent_prestige_modifier_desc: "ตัวละครนี้เป็นเจ้าภาพจัดพิธีบรมราชาภิเษกอันโอ่อ่า"
+ach_intent_faction_joining_prevention_modifier: "ผู้คัดค้านที่อ่อนแอลง: ฝ่ายต่าง ๆ"
+ach_intent_faction_joining_prevention_modifier_desc: "#weak ตัวละครนี้ไม่สามารถเริ่มหรือเข้าร่วมฝ่ายต่าง ๆ ได้#!\nผู้คัดค้านที่เสียงดังระหว่างพิธีบรมราชาภิเษกขององค์อธิปัตย์ผู้เพิ่งสวมมงกุฎ, ถูก ทำให้เงียบงันด้วยความโอ่อ่าของพิธีการ"
+ach_intent_imprisonment_modifier: "ผู้คัดค้านที่หวาดกลัว: การคุมขัง"
+ach_intent_imprisonment_modifier_desc: "#weak ตัวละครนี้ถูกคุมขังได้ง่ายขึ้น#!\nผู้คัดค้านที่เสียงดังต่อองค์อธิปัตย์ผู้เพิ่งสวมมงกุฎ, ความโอ่อ่าของพิธีบรมราชาภิเษกได้ข่มขู่พวกเขาให้ยอมจำนน"
+ach_intent_better_councillors_modifier: "โอบรับผู้สนับสนุน: ที่ปรึกษา"
+ach_intent_better_councillors_modifier_desc: "ตัวละครนี้เป็นผู้สนับสนุนอย่างแข็งขันขององค์อธิปัตย์ผู้เพิ่งสวมมงกุฎ และกระตือรือร้นเป็นพิเศษที่จะพิสูจน์ตนเองในฐานะที่ปรึกษา"
+ach_intent_vassal_development_boost_modifier: "โอบรับผู้สนับสนุน: การพัฒนา"
+ach_intent_vassal_development_boost_modifier_desc: "พืชผลที่งอกงาม, ไม้และหินที่เพิ่งตัดมาเพื่อการก่อสร้าง: ดินแดนของตัวละครนี้ได้รับความเจริญทางเศรษฐกิจ, ต้องขอบคุณองค์อธิปัตย์ผู้เพิ่งสวมมงกุฎ"
+ach_intent_vassal_defensive_boost_modifier: "โอบรับผู้สนับสนุน: การป้องกัน"
+ach_intent_vassal_defensive_boost_modifier_desc: "$ach_intent_defense_boost_modifier_desc$"
+ach_intent_development_boost_modifier: "เทิดทูนมงกุฎ: การพัฒนา"
+ach_intent_development_boost_modifier_desc: "พืชผลที่งอกงาม, ไม้และหินที่เพิ่งตัดมาเพื่อการก่อสร้าง: ดินแดนของตัวละครนี้กำลังประสบกับความเจริญทางเศรษฐกิจ, ต้องขอบคุณองค์อธิปัตย์ผู้เพิ่งสวมมงกุฎ"
+ach_intent_defense_boost_modifier: "เทิดทูนมงกุฎ: การป้องกัน"
+ach_intent_defense_boost_modifier_desc: "จากประตูที่เสริมความแข็งแกร่งสู่ทหารยามที่ลาดตระเวน เคาน์ตีนี้ได้รับการเสริมกำลังตามพระประสงค์ขององค์อธิปัตย์ผู้เพิ่งสวมมงกุฎ"
+
+ach_maintenance_events.0002.title: "$oath_mend_the_fracture_tradition_name$"
+ach_maintenance_events.0002.army_reward: "ได้รับ [soldiers|E] $ach_culture_synergy_troops$"
+ach_maintenance_events.0002.opinion_reward: "ได้รับ [opinion|E] กับ [culture_head|E]"
+### Character Interaction
+coronation_anointment_request: "$game_concept_anointment_request$"
+coronation_anointment_request_desc: "ได้รับการสนับสนุนจาก [recipient.GetTitledFirstName] เพื่อจัด [anointment|E]"
+coronation_anointment_request_extra_icon: "$hook_extra_icon$"
+anoinment_request_accepted_tt: "[recipient.GetShortUIName] จะยอมรับคำเชิญเข้าร่วม [coronation_i][anointment|E] ของท่าน, หากมี"
+already_using_hook: "กำลังใช้ [hook_i][hook|E] อยู่แล้ว"
+coronation_request_return_land_trigger: "ท่านไม่ได้ถือครอง [land|E] ที่เป็น [de_jure|E] ของ [recipient.GetTitledFirstNamePossessive]"
+TRADE_LAND_FOR_BETTER_AI_ACCEPTANCE: "คืน [land|E] [de_jure|E] [title_i]"
+TRADE_LAND_ACCEPTANCE_SEND_OPTION: "การคืน [land|E] [de_jure]: $VALUE|=+0$"
+CORONATION_ANOINTMENT_REQUEST_INTERACTION_NOTIFICATION: "ด้วยความเคารพอย่างสูงสุด, ข้าแสวงหาพรและการสนับสนุนจากท่านเพื่อการขึ้นครองบัลลังก์อันชอบธรรมและเป็นมงคลของข้า"
+anointment_request_already_supported: "[recipient.GetTitledFirstName] ได้ตกลงที่จะสนับสนุน [anointment|E] ของท่านแล้ว"
+coronation_realm_size_desc: "$CB_REALM_SIZE_COST$"
+coronation_empire_req: "[title_tier|E] ระดับ [empire|E] หรือสูงกว่า"
+activity_coronation_predicted_cost: "ค่าใช้จ่ายของ [GetActivityType( 'activity_coronation' ).GetNameNoTooltip] จะได้รับผลกระทบหลักๆ จาก [activity_options|E] ของ [activity_type|E] ที่ท่านเลือก"
+coronation_tribal_reg: "[GetGovernment('tribal_government').GetNameNoTooltip] หรือ [GetGovernment('wanua_government').GetNameNoTooltip]"
+coronation_nomadic_reg: "[GetGovernment('nomad_government').GetNameNoTooltip]"
+coronation_tribal_nomadic_reg: "[GetGovernment('tribal_government').GetNameNoTooltip], [GetGovernment('wanua_government').GetNameNoTooltip] หรือ [GetGovernment('nomad_government').GetNameNoTooltip]"
+coronation_discount_reg: "จากเหตุการณ์"
+HOF_is_ai_tt: "[head_of_faith|E] $IS_LOCAL_PLAYER_TRIGGER|l$"
+coronation_conclusion_summary_desc_crown: "บัดนี้ [host.GetTitledFirstNameNicknamedRegnal] ได้สวมมงกุฎเป็น [host.GetTitleAsNameNoTooltip] อันชอบธรรมของ [host.GetPrimaryTitle.GetNameNoTierPossessive] และได้รับมอบหมายให้ปกปักรักษาอาณาจักร"
+coronation_conclusion_summary_desc: "บัดนี้ [host.GetTitledFirstNameNicknamedRegnal] ได้ขึ้นเถลิงถวัลยราชสมบัติเป็น [host.GetTitleAsNameNoTooltip] อันชอบธรรมของ [host.GetPrimaryTitle.GetNameNoTierPossessive] และได้รับมอบหมายให้ดูแลความผาสุกของอาณาจักร"
+coronation_supporters_pledge_total: "\n\n[vassals|E] จำนวน [activity.MakeScope.Var('supporters_pledge_var').GetValue|0V] คน ([coronation_supporters|E]) ได้ถวายสัตย์ปฏิญาณด้วยความศรัทธาอย่างแท้จริง"
+coronation_supporters_pledge_total_1: "\n\n[vassal|E] จำนวน [activity.MakeScope.Var('supporters_pledge_var').GetValue|0V] คน ([coronation_supporter|E]) ได้ถวายสัตย์ปฏิญาณด้วยความศรัทธาอย่างแท้จริง"
+coronation_detractors_scorned_pledge_total: "\n\n[vassals|E] จำนวน [activity.MakeScope.Var('detractors_scorned_pledge_var').GetValue|0V] คน ([coronation_detractors|E]) ได้ดูหมิ่นการถวายสัตย์ปฏิญาณต่อ [liege|E] องค์ใหม่ของพวกเขา"
+coronation_detractors_scorned_pledge_total_1: "\n\n[vassal|E] จำนวน [activity.MakeScope.Var('detractors_scorned_pledge_var').GetValue|0V] คน ([coronation_detractor|E]) ได้ดูหมิ่นการถวายสัตย์ปฏิญาณต่อ [liege|E] องค์ใหม่ของพวกเขา"
+coronated_confed_modifier: "ผู้ถูกเลือกโดยสมาพันธรัฐ"
+coronated_confed_modifier_desc: "ตัวละครนี้ได้รับการยอมรับอย่างเป็นทางการให้เป็นเอกสตรีหรือเอกบุรุษในหมู่ผู้ทัดเทียม เป็นนายเหนือหัวแห่งสมาพันธรัฐ"
+
+coronation_events.0401.opening: "แขกผู้มีเกียรติ,"
+coronation_events.0401.desc: "ข้ามิอาจรับการราชาภิเษกของข้าได้อีกต่อไป ด้วยตำแหน่งสูงสุดของข้าได้เปลี่ยนแปลงไปแล้ว\n\nข้ามิได้มีเจตนาลบหลู่ท่าน แขกผู้สูงศักดิ์ของข้า ขอให้การเดินทางกลับของท่านราบรื่นเถิด"
+coronation_events.0401.desc_title_loss: "พระราชพิธีราชาภิเษกของข้าจบสิ้นลงแล้ว ตำแหน่งของข้าได้สูญสลายไป\n\nข้าขอภาวนาให้แขกผู้มีเกียรติของข้าไม่ต้องประสบเคราะห์กรรมเช่นนี้เลย"
+coronation_events.0401.a: "ข้าคงต้องขอตัวลาก่อน"

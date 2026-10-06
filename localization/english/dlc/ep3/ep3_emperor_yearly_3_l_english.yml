@@ -1,0 +1,67 @@
+﻿l_english: 
+
+
+ ep3_emperor_yearly.3000.t: "สิทธิ์ในการปล้นสะดมพระราชวัง"
+ ep3_emperor_yearly.3000.desc: "เหล่าทหารวารังเจียนร่างกำยำขนดกเดินโซเซไปมาในท้องพระโรงหลวงแห่งใหม่ แขนของพวกเขาเต็มไปด้วยทองคำและอัญมณี\n\nด้วยการสิ้นพระชนม์ของ [dead_emperor.GetTitledFirstNamePossessive] เหล่าผู้ที่เคยจักปกป้องพระองค์จนตัวตายได้บุกเข้าไปยังห้องพระคลังมหาสมบัติ มันเป็นสิทธิ์ตามธรรมเนียมของพวกเขา และหามีผู้ใดกล้าหยุดยั้งชนต่างชาติชั้นสูงเหล่านี้จากการอ้างสิทธิ์ในโบนัสอันแวววาวไม่\n\nนี่คือราคาที่ต้องจ่าย เพื่อให้ [GetMaA('varangian_guards').GetName] สุนัขรับใช้ผู้สัตย์ซื่อของข้า พอใจอยู่ภายใต้บังคับบัญชา\n\n"
+
+ep3_emperor_yearly.3000.desc_leader: "และ ดังนั้น ภายใต้การนำของ [varangian_leader.GetFullName] พวกเขาจึงล้วงเข้าไปในพระคลังของกษัตริย์ผู้ถูกเลือกโดย [ROOT.Char.GetFaith.HighGodNamePossessive]"
+ep3_emperor_yearly.3000.desc_no_leader: "และ ดังนั้น เหล่าบุรุษแดนเหนือจึงล้วงเข้าไปในพระคลังของกษัตริย์ผู้ถูกเลือกโดย [ROOT.Char.GetFaith.HighGodNamePossessive]"
+
+ ep3_emperor_yearly.3000.a: ""หยุดพวกมัน อะโคลูธอส! เอาทองของข้าคืนมา!""
+ ep3_emperor_yearly.3000.a.flavor: ""[varangian_leader.GetFirstNameNoTooltip]! เจ้าได้รับการ แต่งตั้งเป็นผู้นำกองทหารรักษาพระองค์ เพื่อที่เจ้าจะได้ควบคุมกองทหาร #EMP จงทำเช่นนั้น!#!""
+ ep3_emperor_yearly.3000.b: "จะธรรมเนียมหรือไม่ก็ตาม ข้าจะลงทัณฑ์พวกป่าเถื่อนเหล่านี้!"
+ ep3_emperor_yearly.3000.b.flavor: "ปล่อยให้พวกมันรับค่าจ้างไป — แต่พระราชวังหลวงต้องคงไว้ ซึ่งเกียรติภูมิ ต้องมีการเชือดไก่ให้ลิงดู!"
+ ep3_emperor_yearly.3000.c: "ความภักดีมีราคาของมัน"
+ ep3_emperor_yearly.3000.c.flavor: "เหล่าวารังเจียนสละเงินเดือนประจำอันมั่งคั่งและเดินทางไกลเพื่อแสวงหาลาภลอยก้อนใหญ่นี้"
+
+ akolouthos_aptitude_option_unlock: "ตัวเลือกนี้มีให้ เนื่องจาก [GetCourtPositionType('akolouthos_court_position').GetName()] ของท่านมี [aptitude|E] สูง"
+
+ disrespected_varangians_modifier: "ดูหมิ่นเหล่าวารังเจียน"
+ disrespected_varangians_modifier_desc: "การท้าทายสิทธิ์ในการรับโบนัสของกองทหารวารังเจียนได้ทำลายความภักดีของพวกเขาอย่างรุนแรง รวมถึงทหารรับจ้างอื่น ๆ ที่คล้ายคลึงกันด้วย"
+major_gold_to_varangians_tooltip: "ท่านจ่าย [gold_i]#negative_value 75#! เนื่องจากมีผู้ดำรงตำแหน่ง [court_position|E] ชาววารังเจียน #high 3#! คน"
+medium_gold_to_varangians_tooltip: "ท่านจ่าย [gold_i]#negative_value 50#! เนื่องจากมีผู้ดำรงตำแหน่ง [court_position|E] ชาววารังเจียน #high 2#! คน"
+minor_gold_to_varangians_tooltip: "ท่านจ่าย [gold_i]#negative_value 25#! ให้แก่ผู้ดำรงตำแหน่ง [court_position|E] ชาววารังเจียน"
+
+loyal_varangians_modifier: "เหล่าวารังเจียนผู้กล้าหาญ"
+loyal_varangians_modifier_desc: "ด้วยการสนับสนุนจากเหล่าวารังเจียนผู้ไม่สั่นคลอน หน่วยทหารราบหนักของตัวละครนี้จึงยืนหยัดอย่างมั่นคงและโจมตีอย่างหนักหน่วง"
+
+attentive_varangians_modifier: "เหล่าวารังเจียนผู้ปฏิบัติหน้าที่"
+attentive_varangians_modifier_desc: "เมื่อได้รับรางวัลอย่างงามสำหรับการรับใช้ กองทหารวารังเจียนจึงละเว้นการวิวาทและการเมามายสำมะเลเทเมา เพื่อหันมาให้การคุ้มกันอย่างขยันขันแข็ง"
+eager_varangian_army: "หมู่คณะวารังเจียน"
+
+ep3_emperor_yearly.3011.t: "เพลิงลับของพวกเรา"
+ep3_emperor_yearly.3011.intro: "[invader.GetTitleAsName] แห่ง [invader.GetPrimaryTitle.GetNameNoTier] ควรจะรู้ดีกว่าที่จะ"
+ep3_emperor_yearly.3011.liege_attacking: "ล่องเรือ"
+ep3_emperor_yearly.3011.commander_attacking: "ส่งกองเรือเล็กของ [invading_commander.GetTitledFirstNamePossessive]"
+ep3_emperor_yearly.3011.desc: "เข้ามายัง [army.GetLocation.GetNameNoTooltip] อันเงียบสงบ ดีกว่าที่จะท้าทายนครของ [ROOT.Char.GetFaith.HighGodNamePossessive]\n\n[Glossary( 'โดรมอน', 'DROMONS_GLOSS' )] แห่งกองเรือของข้า ซึ่งมีท่อฉีดทองสัมฤทธิ์ปากมังกรอยู่บนเรือ ผลักดันออกจากท่าเทียบเรือ หากผืนน้ำนิ่งสงบ หากเหล่ากัปตันประสานงานการโจมตีได้เป็นอย่างดี... ศัตรูของข้าจะมอดไหม้\n\nหาก [ROOT.Char.GetFaith.HighGodName] เรียกร้องราคาสำหรับบาปของพวกเรา เหล่าผู้ป้องกันชาว [ROOT.Char.GetCapitalLocation.GetCounty.GetCulture.GetName] จำนวนมากก็จะถูกเผา เช่นกัน — เพลิงเหลวคือความโกลาหลที่จุติมา!"
+ep3_emperor_yearly.3011.kyrie_eleison: "[Glossary( 'Kýrie, eléison', 'KYRIE_ELEISON_GLOSS' )]!"
+
+KYRIE_ELEISON_GLOSS: "#bold คีรีเย เอเลอีซอน#! — \"ข้า แต่พระเจ้า โปรดทรงเมตตาข้าพระองค์!\" — เป็นบทสวดของชาวคริสต์ที่กองกำลังไบแซนไทน์ใช้เปล่งเสียงเป็นเสียงโห่ร้องในสมรภูมิ"
+ep3_emperor_yearly.3011.a: "จงจุด #EMP ผืนน้ำ#! ให้ลุกเป็นไฟ!"
+ep3_emperor_yearly.3011.a.success: "การโจมตีเผาผลาญศัตรูจนวอดวาย"
+ep3_emperor_yearly.3011.a.fail: "สร้างความเสียหายได้พอสมควร"
+ep3_emperor_yearly.3011.a.critical_fail: "เรือของท่านทำลายตนเอง"
+ep3_emperor_yearly.3011.b: "ข้าไม่อาจเสี่ยงกองเรือได้"
+unable_to_use_fire_ships_tooltip: "@alert_icon! #alert_trial เรือเพลิงกรีกของท่านจะไม่สามารถใช้งานได้เป็นเวลา #high 30 วัน#!"
+
+ravaged_by_greek_fire_modifier: "พินาศด้วยเพลิงกรีก"
+ravaged_by_greek_fire_modifier_desc: "ทหารที่รอดชีวิตของกองทัพนี้ถูกเผาอย่างน่าสยดสยองและเสียขวัญกำลังใจอย่างสิ้นเชิง"
+
+defenders_immolated_modifier: "เหล่าผู้ป้องกันถูกเผา"
+defenders_immolated_modifier_desc: "ท่าเรือ ณ ที่นี้ปราศจากกองเรือ และกำแพงมีเพียงผู้รอดชีวิตที่พันผ้าพันแผลและถูกเผาอย่างน่าสยดสยองเฝ้าอยู่"
+
+assaulted_by_greek_fire_modifier: "ถูกโจมตีด้วยเพลิงกรีก"
+assaulted_by_greek_fire_modifier_desc: "กองกำลังของตัวละครนี้เสียขวัญกำลังใจ กระจัดกระจาย และหลายคนถูกเผาทั้งเป็นในการโจมตีทางเรือด้วยเพลิงกรีก"
+
+ep3_emperor_yearly.3012.t: "มังกรเหนือช่องแคบบอสพอรัส"
+ep3_emperor_yearly.3012.intro: "[Glossary( 'โดรมอน', 'DROMONS_GLOSS' )] ของข้ากดดันอย่างหนัก พายเข้าใกล้ เพื่อให้อาวุธอันน่าสะพรึงกลัวของพวกมันสามารถเลียโลมกองเรือ [invader.GetPrimaryTitle.GetAdjective] ได้\n\nเสียงดังสนั่นกึกก้องไปทั่ว [army.GetLocation.GetNameNoTooltip]! หางเพลิงขนาดใหญ่ส่องสว่างสนามรบที่เต็มไปด้วยควัน ปกคลุมด้วยเสียงกรีดร้องราวกับนรก\n\n"
+ep3_emperor_yearly.3012.attack_success: "ดุจกองฟอนสูงตระหง่าน เรือของ [invader.GetTitledFirstNamePossessive] ลุกท่วมด้วยเปลวเพลิง ร่างไหม้เกรียมกรีดร้องกระโจนออกจากเรือ ร้องขอการปลดปล่อยจาก [invader.GetFaith.HighGodNamePossessive] — แต่แม้ในผืนน้ำ ศัตรูของข้าก็พบเพียงเพลิงอันชอบธรรม!\n\nขณะที่ทะเลเรืองแสง เหล่าโดรมอนของข้าก็กลับมาอย่างผู้มีชัย"
+ep3_emperor_yearly.3012.attack_fail: "เรือ [invader.GetPrimaryTitle.GetAdjectiveNoTooltip] บางลำถูกจุดไฟ ลูกเรือที่สิ้นหวังกรีดร้องด้วยความเจ็บปวด แต่เรือลำอื่น ๆ กระจัดกระจายและหลบหนีการโจมตีไปได้ ในไม่ช้า โดรมอนของข้าก็กลับสู่ท่าจอด ส่งกลิ่นเหม็นของยางสนและแนฟทา\n\nแม้จะไหม้เกรียมและอ่อนแอลง กองกำลังศัตรูก็ยังคงมีกำลังเหลืออยู่บ้าง"
+ep3_emperor_yearly.3012.attack_crit_fail: "แต่ ทว่า — #EMP กองเรือของข้ากลับมอดไหม้!#! เพราะขณะที่คลื่นลมอันปั่นป่วนซัดเปลวเพลิงจากท่อฉีดของข้าข้ามดาดฟ้าโดรมอนของ #EMP พวกเราเอง#! เรือ [invader.GetPrimaryTitle.GetAdjectiveNoTooltip] ก็ยังคงอยู่นอกระยะของเรา\n\nมีเพียงเรือฝ่ายเราไม่กี่ลำที่รอดชีวิตกลับไปยังท่าเรืออันยิ่งใหญ่แห่งคอนสแตนติโนเปิลอย่างทุลักทุเล"
+ep3_emperor_yearly.3012.a_success: "ครั้งหนึ่งเคยเป็นผู้บุกรุก — บัดนี้, #EMP เป็นเถ้าถ่าน!#!"
+ep3_emperor_yearly.3012.a_fail: "แม้ แต่เพลิงแห่ง [ROOT.Char.GetFaith.PositiveAfterLife] ก็ยังมีขีดจำกัด"
+ep3_emperor_yearly.3012.a_crit_fail: "หายนะชัดๆ!"
+
+two_knights_killed_tooltip: "@death_icon!#high 2#! [knights|E] ถูกสังหาร"
+three_knights_killed_tooltip: "#high 3#! [knights|E] ถูกสังหาร"
+two_knights_wounded_tooltip: "#high 2#! [knights|E] ได้รับบาดเจ็บ"

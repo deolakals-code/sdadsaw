@@ -1,0 +1,82 @@
+﻿l_english: 
+ #Yazidi
+ yazidi_religion:0 "มิเลเต ตาอูเซ เมเล็ก"
+ yazidi_religion_adj:0 "มิเลเต"
+ yazidi_religion_adherent:0 "ชาวมิเลเต"
+ yazidi_religion_adherent_plural:0 "ชาวมิเลเต"
+ yazidi_religion_desc:0 "พระเจ้าผู้ทรงนิรันดร์ได้สร้างจักรวาลและทูตสวรรค์ทั้งเจ็ดของพระองค์ ผู้เป็นเอกในหมู่พวกเขาคือเมเล็ก ตาอูส ผู้ ซึ่งพระเจ้าทรงมอบหมายให้ดูแลโลก"
+
+ yazidi:0 "ศาสนายาซิดี"
+ yazidi_adj:0 "ยาซิดี"
+ yazidi_adherent:0 "ชาวยาซิดี"
+ yazidi_adherent_plural:0 "ชาวยาซิดี"
+ yazidi_desc:0 "ชาวยาซิดีเชื่อว่าพระเจ้าทรงสร้างโลกและทรงมอบให้อยู่ภายใต้การคุ้มครองของทูตสวรรค์เจ็ดองค์ ผู้เป็นเอกในหมู่พวกเขาคือ ตาอูเซ เมเล็ก ทูตสวรรค์นกยูง ในตอนแรก ทูตสวรรค์นกยูงได้ตกจากพระคุณของพระเจ้า แต่น้ำตาแห่งความสำนึกผิดของพระองค์ได้ดับไฟในคุกของพระองค์ และพระองค์ก็ได้กลับคืนสู่พระเจ้าอีกครั้ง ในทำนองเดียวกัน เราทุกคนต่างแสวงหาการกลับคืนสู่พระเจ้าเมื่อสิ้นสุดชีวิตอันยาวนานหลายชาติภพ"
+ yazidi_high_god_name:0 "เมเล็ก ตาอูส"
+ yazidi_high_god_name_2:0 "$yazidi_high_god_name$" # Optional translation alt
+ yazidi_high_god_name_possessive:0 "แห่งเมเล็ก ตาอูส"
+ yazidi_high_god_name_alternate:0 "แสงแห่งพระเจ้า"
+ yazidi_high_god_name_alternate_possessive:0 "แห่งแสงแห่งพระเจ้า"
+ yazidi_good_god_peacock_angel:0 "ทูตสวรรค์นกยูง"
+ yazidi_good_god_tawuse_melek:0 "ตาอูเซ เมเล็ก"
+ yazidi_good_god_seven_mysteries:0 "เจ็ดสิ่งลี้ลับ"
+ yazidi_good_god_azazil:0 "อาซาซิล"
+ yazidi_good_god_azazil_possessive:0 "แห่งอาซาซิล"
+ yazidi_good_god_jabrail:0 "ญิบรออีล"
+ yazidi_good_god_mikhail:0 "มีคาอิล"
+ yazidi_good_god_mikhail_possessive:0 "แห่งมีคาอิล"
+ yazidi_good_god_rafail:0 "รอฟาอิล"
+ yazidi_good_god_dadrail:0 "ดัดรออิล"
+ yazidi_good_god_dadrail_possessive:0 "แห่งดัดรออิล"
+ yazidi_good_god_azrafil:0 "อัซรอฟิล"
+ yazidi_good_god_azrafil_possessive:0 "แห่งอัซรอฟิล"
+ yazidi_good_god_shemnail:0 "เชมนาอิล"
+ yazidi_good_god_shemnail_possessive:0 "แห่งเชมนาอิล"
+ yazidi_creator_god_name:0 "ซเวเด"
+ yazidi_creator_god_name_possessive:0 "แห่งซเวเด"
+ yazidi_house_of_worship:0 "เทวสถาน"
+ yazidi_house_of_worship_2:0 "$yazidi_house_of_worship$" # Optional translation alt
+ yazidi_house_of_worship_3:0 "$yazidi_house_of_worship$" # Optional translation alt
+ yazidi_house_of_worship_plural:0 "เทวสถาน"
+ yazidi_religious_symbol:0 "ซินจัค"
+ yazidi_religious_symbol_2:0 "$yazidi_religious_symbol$" # Optional translation alt
+ yazidi_religious_symbol_3:0 "$yazidi_religious_symbol$" # Optional translation alt
+ yazidi_religious_text:0 "เกาลส์"
+ yazidi_religious_text_2:0 "$yazidi_religious_text$" # Optional translation alt
+ yazidi_religious_text_3:0 "$yazidi_religious_text$" # Optional translation alt
+ yazidi_religious_head_title:0 "มีร์"
+ yazidi_religious_head_title_name:0 "ตำแหน่งมีร์"
+ yazidi_devotee:0 "โคเชค"
+ yazidi_devotee_plural:0 "โคเชค"
+ yazidi_priest:0 "ชีค"
+ yazidi_priest_plural:0 "ชีค"
+ yazidi_priest_alternate_plural:0 "นักบวช"
+ yazidi_bishop:0 "บาบา ชีค"
+ yazidi_bishop_plural:0 "บาบา ชีค"
+ yazidi_positive_afterlife:0 "ชาติภพหน้า"
+ yazidi_positive_afterlife_2:0 "$yazidi_positive_afterlife$" # Optional translation alt
+ yazidi_positive_afterlife_3:0 "$yazidi_positive_afterlife$" # Optional translation alt
+ yazidi_negative_afterlife:0 "ภายนอก"
+ yazidi_negative_afterlife_2:0 "$yazidi_negative_afterlife$" # Optional translation alt
+ yazidi_negative_afterlife_3:0 "$yazidi_negative_afterlife$" # Optional translation alt
+
+ meshefaresism:0 "ลัทธิเมเชฟาเรส"
+ meshefares_adj:0 "เมเชฟาเรส"
+ meshefaresism_adj:0 "$meshefares_adj$"
+ meshefares_adherent:0 "ผู้นับถือเมเชฟาเรส"
+ meshefaresism_adherent:0 "$meshefares_adherent$"
+ meshefares_adherent_plural:0 "ผู้นับถือเมเชฟาเรส"
+ meshefaresism_adherent_plural:0 "$meshefares_adherent_plural$"
+ meshefares_desc:0 "ผู้ติดตามคัมภีร์ดำ ซึ่งบรรยายถึงการที่องค์พระผู้เป็นเจ้าเสด็จลงมาจากภูเขาสีดำและสร้างโลก"
+ meshefaresism_desc:0 "$meshefares_desc$"
+ meshefaresism_holy_text:0 "เมเชฟา เรส"
+ meshefaresism_holy_text_2:0 "$meshefaresism_holy_text$" # Optional translation alt
+ meshefaresism_holy_text_3:0 "$meshefaresism_holy_text$" # Optional translation alt
+
+ kitebacilweism:0 "ลัทธิคิเตบาซิลเว"
+ kitebacilweism_adj:0 "คิเตบาซิลเว"
+ kitebacilweism_adherent:0 "ผู้นับถือคิเตบาซิลเว"
+ kitebacilweism_adherent_plural:0 "ผู้นับถือคิเตบาซิลเว"
+ kitebacilweism_desc:0 "ผู้ติดตามคัมภีร์วิวรณ์ ซึ่งบอกเล่าถึงความยิ่งใหญ่ของซเวเด"
+ kitebacilweism_holy_text:0 "คิเตบา ซิลเว"
+ kitebacilweism_holy_text_2:0 "$kitebacilweism_holy_text$" # Optional translation alt
+ kitebacilweism_holy_text_3:0 "$kitebacilweism_holy_text$" # Optional translation alt

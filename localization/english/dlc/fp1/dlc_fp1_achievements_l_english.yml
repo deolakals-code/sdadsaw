@@ -1,0 +1,76 @@
+﻿l_english: 
+ #Achievement Titles
+ ACHIEVEMENT_far_from_home_achievement:0 "ไกลบ้าน"
+ ACHIEVEMENT_miklagardariki_achievement:0 "Miklagarðaríki"
+ ACHIEVEMENT_canute_the_greater_achievement:0 "คนุตผู้ยิ่งใหญ่กว่า"
+ ACHIEVEMENT_king_of_all_the_isles_achievement:0 "ราชันย์แห่งหมู่เกาะทั้งปวง"
+ ACHIEVEMENT_faster_than_the_fox_achievement:0 "เร็วกว่าสุนัขจิ้งจอก"
+ ACHIEVEMENT_volva_achievement:0 "Völva"
+ ACHIEVEMENT_saga_in_stone_achievement:0 "ตำนานในศิลา"
+ ACHIEVEMENT_first_of_the_crusader_kings_achievement:0 "ปฐมกษัตริย์ครูเสด"
+ ACHIEVEMENT_vladimirs_second_choice_achievement:0 "ทางเลือกที่สองของวลาดิมีร์"
+ ACHIEVEMENT_a_dangerous_business_achievement:0 "ธุรกิจอันตราย"
+
+ #Unlocked Achievement Desc
+ ACHIEVEMENT_DESC_far_from_home_achievement:1 "เริ่มต้นและคงอยู่เป็น$north_germanic_group$ $norse_pagan_adherent$ ประเภทใดก็ได้ ให้[realm_capital|E]ของท่านอยู่ใน[region|E]ใดก็ได้ของ[GetGeographicalRegion('dlc_fp1_achievement_far_from_home').GetName] $rd_character_blocked_from_achievement$"
+ ACHIEVEMENT_DESC_miklagardariki_achievement:1 "เริ่มต้นและคงอยู่เป็น$north_germanic_group$ $norse_pagan_adherent$ ประเภทใดก็ได้ [completely_control|E][kingdom|E] $k_thessalonika$ และถือครอง[empire|E]ใดก็ได้โดยไม่ถือครอง $e_byzantium$ $rd_character_blocked_from_achievement$"
+ ACHIEVEMENT_DESC_canute_the_greater_achievement:0 "ในฐานะ[tribal|E]ที่ยังไม่ปฏิรูป ทำ[decision|E] $secure_high_kingdom_north_sea_decision$"
+ ACHIEVEMENT_DESC_king_of_all_the_isles_achievement:0 "เริ่มต้นและคงอยู่เป็น$north_germanic_group$ $norse_pagan_adherent$ ประเภทใดก็ได้ [completely_control|E]ทุกสิ่งใน[region|E] [GetGeographicalRegion('dlc_fp1_achievement_king_of_all_the_isles').GetName] โดย#EMP ไม่เคย#! มี[realm_size|E]เกิน 80"
+ ACHIEVEMENT_DESC_faster_than_the_fox_achievement:1 "เริ่มต้นและคงอยู่เป็น$north_germanic_group$ $norse_pagan_adherent$ ประเภทใดก็ได้ [completely_control|E][kingdom|E] $k_sicily$ ก่อนปี 1047 $rd_character_blocked_from_achievement$"
+ ACHIEVEMENT_DESC_volva_achievement:0 "เริ่มต้นและคงอยู่เป็น$north_germanic_group$ $norse_pagan_adherent$ ประเภทใดก็ได้ ทำ[decision|E] $found_witch_coven_decision$"
+ ACHIEVEMENT_DESC_saga_in_stone_achievement:0 "ให้[dynasty|E]ของท่านสร้างศิลาจารึกอักษรรูนหนึ่งร้อยหลัก"
+ ACHIEVEMENT_DESC_first_of_the_crusader_kings_achievement:0 "เริ่มต้นเป็น$north_germanic_group$ ประเภทใดก็ได้ เข้าร่วมทันทีในฐานะผู้โจมตีในสงครามครูเสดคาทอลิกครั้งแรก"
+ ACHIEVEMENT_DESC_vladimirs_second_choice_achievement:1 "เริ่มต้นเป็น$north_germanic_group$ $norse_pagan_adherent$ ประเภทใดก็ได้ เปลี่ยนไปนับถือ[faith|E]อิสลามใดก็ได้ และเปลี่ยน[region|E]ทั้งหมดของ[GetGeographicalRegion('dlc_fp1_achievement_vladimirs_second_choice').GetName]ให้เป็น$game_concept_faith$อิสลามใดก็ได้"
+ ACHIEVEMENT_DESC_a_dangerous_business_achievement:1 "ในฐานะคนแคระ ชนะ[war|E]แบบ[varangian_adventure|E]ที่ใดก็ได้นอกยุโรป"
+
+ #Locked Achievement Desc
+ NOT_ACHIEVEMENT_DESC_far_from_home_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
+ NOT_ACHIEVEMENT_DESC_miklagardariki_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
+ NOT_ACHIEVEMENT_DESC_canute_the_greater_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
+ NOT_ACHIEVEMENT_DESC_king_of_all_the_isles_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
+ NOT_ACHIEVEMENT_DESC_faster_than_the_fox_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
+ NOT_ACHIEVEMENT_DESC_volva_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
+ NOT_ACHIEVEMENT_DESC_saga_in_stone_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
+ NOT_ACHIEVEMENT_DESC_first_of_the_crusader_kings_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
+ NOT_ACHIEVEMENT_DESC_vladimirs_second_choice_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
+ NOT_ACHIEVEMENT_DESC_a_dangerous_business_achievement:0 "$ACHIEVEMENT_LOCKED_GENERIC$"
+
+
+
+
+
+ #Achievement Titles
+ ACHIEVEMENT_fp1_01_achievement:0 "$ACHIEVEMENT_far_from_home_achievement$"
+ ACHIEVEMENT_fp1_02_achievement:0 "$ACHIEVEMENT_miklagardariki_achievement$"
+ ACHIEVEMENT_fp1_03_achievement:0 "$ACHIEVEMENT_canute_the_greater_achievement$"
+ ACHIEVEMENT_fp1_04_achievement:0 "$ACHIEVEMENT_king_of_all_the_isles_achievement$"
+ ACHIEVEMENT_fp1_05_achievement:0 "$ACHIEVEMENT_faster_than_the_fox_achievement$"
+ ACHIEVEMENT_fp1_06_achievement:0 "$ACHIEVEMENT_volva_achievement$"
+ ACHIEVEMENT_fp1_07_achievement:0 "$ACHIEVEMENT_saga_in_stone_achievement$"
+ ACHIEVEMENT_fp1_08_achievement:0 "$ACHIEVEMENT_first_of_the_crusader_kings_achievement$"
+ ACHIEVEMENT_fp1_09_achievement:0 "$ACHIEVEMENT_vladimirs_second_choice_achievement$"
+ ACHIEVEMENT_fp1_10_achievement:0 "$ACHIEVEMENT_a_dangerous_business_achievement$"
+
+ #Unlocked Achievement Desc
+ ACHIEVEMENT_DESC_fp1_01_achievement:0 "$ACHIEVEMENT_DESC_far_from_home_achievement$"
+ ACHIEVEMENT_DESC_fp1_02_achievement:0 "$ACHIEVEMENT_DESC_miklagardariki_achievement$"
+ ACHIEVEMENT_DESC_fp1_03_achievement:0 "$ACHIEVEMENT_DESC_canute_the_greater_achievement$"
+ ACHIEVEMENT_DESC_fp1_04_achievement:0 "$ACHIEVEMENT_DESC_king_of_all_the_isles_achievement$"
+ ACHIEVEMENT_DESC_fp1_05_achievement:0 "$ACHIEVEMENT_DESC_faster_than_the_fox_achievement$"
+ ACHIEVEMENT_DESC_fp1_06_achievement:0 "$ACHIEVEMENT_DESC_volva_achievement$"
+ ACHIEVEMENT_DESC_fp1_07_achievement:0 "$ACHIEVEMENT_DESC_saga_in_stone_achievement$"
+ ACHIEVEMENT_DESC_fp1_08_achievement:0 "$ACHIEVEMENT_DESC_first_of_the_crusader_kings_achievement$"
+ ACHIEVEMENT_DESC_fp1_09_achievement:0 "$ACHIEVEMENT_DESC_vladimirs_second_choice_achievement$"
+ ACHIEVEMENT_DESC_fp1_10_achievement:0 "$ACHIEVEMENT_DESC_a_dangerous_business_achievement$"
+
+ #Locked Achievement Desc
+ NOT_ACHIEVEMENT_DESC_fp1_01_achievement:0 "$NOT_ACHIEVEMENT_DESC_far_from_home_achievement$"
+ NOT_ACHIEVEMENT_DESC_fp1_02_achievement:0 "$NOT_ACHIEVEMENT_DESC_miklagardariki_achievement$"
+ NOT_ACHIEVEMENT_DESC_fp1_03_achievement:0 "$NOT_ACHIEVEMENT_DESC_canute_the_greater_achievement$"
+ NOT_ACHIEVEMENT_DESC_fp1_04_achievement:0 "$NOT_ACHIEVEMENT_DESC_king_of_all_the_isles_achievement$"
+ NOT_ACHIEVEMENT_DESC_fp1_05_achievement:0 "$NOT_ACHIEVEMENT_DESC_faster_than_the_fox_achievement$"
+ NOT_ACHIEVEMENT_DESC_fp1_06_achievement:0 "$NOT_ACHIEVEMENT_DESC_volva_achievement$"
+ NOT_ACHIEVEMENT_DESC_fp1_07_achievement:0 "$NOT_ACHIEVEMENT_DESC_saga_in_stone_achievement$"
+ NOT_ACHIEVEMENT_DESC_fp1_08_achievement:0 "$NOT_ACHIEVEMENT_DESC_first_of_the_crusader_kings_achievement$"
+ NOT_ACHIEVEMENT_DESC_fp1_09_achievement:0 "$NOT_ACHIEVEMENT_DESC_vladimirs_second_choice_achievement$"
+ NOT_ACHIEVEMENT_DESC_fp1_10_achievement:0 "$NOT_ACHIEVEMENT_DESC_a_dangerous_business_achievement$"

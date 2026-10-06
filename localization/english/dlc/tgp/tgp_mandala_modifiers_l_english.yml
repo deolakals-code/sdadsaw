@@ -1,0 +1,86 @@
+﻿l_english: 
+
+ #Character/County Modifiers
+ mandala_capital_sacked_modifier: "เมืองหลวงมณฑลถูกปล้นสะดม"
+ mandala_capital_sacked_modifier_desc: "เมืองหลวง[mandala|E] แห่งนี้เพิ่งถูกทำลายโดยผู้ปกครองมณฑลอื่น"
+ mandala_capital_restored_modifier: "เมืองหลวงมณฑลที่ได้รับการฟื้นฟู"
+ mandala_capital_restored_modifier_desc: "เมืองหลวง[mandala|E] แห่งนี้เพิ่งได้รับการบูรณะสู่ความยิ่งใหญ่ดั้งเดิมอย่างน่าทึ่ง"
+
+ budding_divinity_modifier: "เทวสภาพแรกเริ่ม"
+ budding_divinity_modifier_desc: "ตัวละครนี้เป็นส่วนหนึ่งของ [house|E] ที่กำลังบ่มเพาะ [GetModifier( 'piety_level_6' ).GetNameWithTooltip|L]"
+ budding_deity_modifier: "ผู้มุ่งหวังเป็นเทพ"
+ budding_deity_modifier_desc: "ตัวละครนี้กำลังสั่งสมตำนานเล่าขานพอสมควรที่ยืนยันว่าพวกเขาเป็น [GetModifier( 'piety_level_7' ).GetNameWithTooltip|L]"
+ budding_godhood_modifier: "การอุทิศตนอันสูงส่ง"
+ budding_godhood_modifier_desc: "ตัวละครนี้มีข่าวลือว่าเป็น [GetModifier( 'piety_level_8' ).GetNameWithTooltip|L] อย่างแท้จริง"
+
+ disbelieved_mandala_modifier: "มณฑลที่ไม่เป็นที่เชื่อถือ"
+ disbelieved_mandala_modifier_desc: "ตัวละครนี้ตกเป็นที่คลางแคลงใจ ทำให้เหล่าข้าแผ่นดินและผู้ติดตามสงสัยในความเป็นเทพของพวกเขา"
+
+ betrayed_tributary_modifier: "รัฐบรรณาการผู้ถูกทรยศ"
+ betrayed_tributary_modifier_desc: "ตัวละครนี้เพิกเฉย ในขณะที่รัฐบรรณาการในอนาคตของตนถูกโจมตีโดยอดีตเจ้าผู้ครองนครของรัฐบรรณาการนั้น"
+
+ recently_tarnished_mandala_modifier: "มณฑลที่มัวหมอง"
+ recently_tarnished_mandala_modifier_desc: "ตัวละครนี้เพิ่งพ่ายแพ้ในสงครามทรราชย์ ทำให้รัศมีของพวกเขามัวหมอง"
+
+ mandala_broke_truce_modifier: "มณฑลผู้ตลบตะแลง"
+ mandala_broke_truce_modifier_desc: "ตัวละครนี้เพิ่งละเมิดสัญญาพักรบกับรัฐบรรณาการที่ถูกปล่อยเป็นอิสระ"
+
+ tgp_sea_legacy_heir_modifier: "ทายาทผู้ได้รับพร"
+ tgp_sea_legacy_heir_modifier_desc: "ตัวละครนี้สืบเชื้อสายมาจากสายเลือดอันยาวนานของผู้ปกครองที่เป็นเทพ และได้รับความเคารพยำเกรงมากกว่าผู้ปกครองทั่วไป"
+ mandala_rise_from_the_ashes_modifier: "ฟื้นคืนจากเถ้าถ่าน"
+ mandala_rise_from_the_ashes_modifier_desc: "ผู้ปกครองผู้นี้เพิ่งเพิ่มพูนรัศมีของตนโดยการบูรณะวิหารเมืองหลวงที่ถูกทำลายราบคาบ"
+
+ #Interaction Modifiers
+ devaraja_recipient_piety_level: "[piety_level|E] ของ [recipient.GetShortUINamePossessive|U] คือ [GetPietyLevelName(recipient.GetPietyLevel)|L]: $VALUE|0+=$"
+ tributary_actor_realm_size: "ขนาด[realm|E] ของ [actor.GetShortUINamePossessive|U]: $VALUE|0+=$"
+ devaraja_actor_piety_level: "[piety_level|E] ของ [actor.GetShortUINamePossessive|U] คือ [GetPietyLevelName(actor.GetPietyLevel)|L]: $VALUE|0+=$"
+ tributary_recipient_realm_size: "ขนาด[realm|E] ของ [recipient.GetShortUINamePossessive|U]: $VALUE|0+=$"
+
+ devaraja_capital_01: "สิ่งปลูกสร้าง [GetBuilding('mandala_capital_01').GetName]: $VALUE|0+=$"
+ devaraja_capital_02: "สิ่งปลูกสร้าง [GetBuilding('mandala_capital_02').GetName]: $VALUE|0+=$"
+ devaraja_capital_03: "สิ่งปลูกสร้าง [GetBuilding('mandala_capital_03').GetName]: $VALUE|0+=$"
+ devaraja_capital_04: "สิ่งปลูกสร้าง [GetBuilding('mandala_capital_04').GetName]: $VALUE|0+=$"
+ devaraja_capital_05: "สิ่งปลูกสร้าง [GetBuilding('mandala_capital_05').GetName]: $VALUE|0+=$"
+ 
+ devaraja_recipient_amount_of_subjects: "จำนวน [subjects|E] ของ [recipient.GetShortUINamePossessive|U]: $VALUE|0+=$"
+ devaraja_actor_amount_of_subjects: "จำนวน [subjects|E] ของ [actor.GetShortUINamePossessive|U]: $VALUE|0+=$"
+
+ devaraja_actor_amount_of_vassals: "จำนวน [vassals|E] ของ [actor.GetShortUINamePossessive|U]: $VALUE|0+=$"
+ 
+ proposed_obligation_level_low: "เสนอ[obligations|E] ต่ำ: $VALUE|0+=$"
+ proposed_obligation_level_normal: "เสนอ[obligations|E] ปกติ: $VALUE|0+=$"
+ proposed_obligation_level_high: "เสนอ[obligations|E] สูง: $VALUE|0+=$"
+
+ already_tributary_threshold_duchy_suzerain: "[recipient.GetShortUIName|U] เป็น [tributary|E] อยู่แล้ว: $VALUE|0+=$"
+ already_tributary_threshold_king_suzerain: "[recipient.GetShortUIName|U] เป็น [tributary|E] อยู่แล้ว: $VALUE|0+=$"
+ already_tributary_threshold_empire_suzerain: "[recipient.GetShortUIName|U] เป็น [tributary|E] อยู่แล้ว: $VALUE|0+=$"
+ 
+ actor_is_a_tribal_government: "[actor.GetShortUIName|U] เป็น [tribal|E]: $VALUE|0+=$"
+ recipient_is_a_tribal_government: "[recipient.GetShortUIName|U] เป็น [tribal|E]: $VALUE|0+=$"
+ recipient_is_in_a_confederation: "[recipient.GetShortUIName|U] อยู่ใน [confederation|E]: $VALUE|0+=$"
+ actor_positive_mandala_radiance: "[radiance|E] [mandala|E] ของ [actor.GetShortUINamePossessive|U]: $VALUE|0+=$ #weak (สูงสุด +200)#!"
+ recipient_positive_mandala_radiance: "[radiance|E] [mandala|E] ของ [actor.GetShortUINamePossessive|U]: $VALUE|0+=$ #weak (สูงสุด +200)#!"
+ recipient_negative_mandala_radiance: "[radiance|E] [mandala|E] ของ [recipient.GetShortUINamePossessive|U]: $VALUE|0+=$ #weak (สูงสุด -200)#!"
+ devaraja_overlord_radiance: "[radiance|E] [overlord|E] [mandala|E]: $VALUE|0+=$"
+ other_devaraja_radiance: "[radiance|E] [ruler|E] [mandala|E] เพื่อนบ้าน: $VALUE|0+=$"
+ recipient_overlord_has_greater_radiance: "[overlord|E] [recipient.GetOverlord.GetShortUIName] มี [radiance|E] มากกว่า: $VALUE|0+=$"
+ actor_has_radiance: "[actor.GetShortUIName|U] [radiant|E]: $VALUE|0+=$"
+ 
+ ASK_FOR_CONVERSION_ACTOR_IS_MANDALA: "เราติดตามเทวราชา: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_ACTOR_HAS_REVERENCE_DECREE: "[GetLaw('mandala_decree_reverence').GetName] มีผลบังคับใช้: $VALUE|=+0$"
+
+ is_mandala_tributary: "เป็น [tributary|E] [mandala|E]: $VALUE|=+0$"
+ is_prosperity_mandala_tributary: "เจ้าผู้ครองนคร [mandala|E] มี $mandala_decree_prosperity$: $VALUE|=+0$"
+ 
+ SPIRITUAL_ETHOS_REASON: "[recipient.GetCulture.GetName] คือ [culture|E] $ethos_spiritual_name$: $VALUE|+0=$"
+
+ is_tributary_of_me_mandala: "เป็น [tributary|E] อยู่แล้ว: $VALUE|=+0$"
+
+ is_mandala_government: "[mandalas|E] พึงใจที่จะเป็น [tributaries|E]: $VALUE|=+0$"
+
+ is_disbelieved_mandala: "ท่านคือ [GetModifier( 'disbelieved_mandala_modifier' ).GetNameWithTooltip|L]: $VALUE|=+0$"
+
+ base_with_value: "พื้นฐาน: $VALUE|=+0$"
+ has_aspect_of_serenity: "$aspect_of_serenity_house_aspiration$: $VALUE|=+0$"
+
+ mandala_ai_godking_modifier: "เป็นผู้มุ่งหวังเป็นเทวราชา: $VALUE|=+0$"

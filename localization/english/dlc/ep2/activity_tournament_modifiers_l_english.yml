@@ -1,0 +1,97 @@
+﻿l_english: 
+
+ speeches_and_games_modifier:0 "การปราศรัยและการละเล่น"
+ speeches_and_games_modifier_desc:0 "เจ้าเหนือหัวของเคาน์ตีนี้ได้ควบคุมฝูงชนที่ไม่เป็นระเบียบด้วยความสง่างามและบารมี"
+
+ feeble_presence_modifier:0 "บารมีอันอ่อนด้อย"
+ feeble_presence_modifier_desc:0 "เจ้าเหนือหัวของเคาน์ตีนี้แสดงให้เห็นว่าไม่มีความสามารถในการควบคุมฝูงชน"
+
+ deft_cavalrymen_modifier:0 "ทหารม้าผู้ห้าวหาญ"
+ deft_cavalrymen_modifier_desc:0 "พลขี่ม้าของตัวละครนี้ควบม้าไปรอบสนามรบด้วยความเร็วสูงสุด พร้อมความคล่องแคล่วที่ฝึกฝนมา"
+
+ daring_scout_modifier:0 "หน่วยสอดแนมผู้ห้าวหาญ"
+ daring_scout_modifier_desc:0 "ตัวละครนี้เดินทางพร้อมกับนักแข่งผู้กล้าหาญที่สำรวจเส้นทางข้างหน้า"
+
+ unwilling_tourneyer_modifier:0 "ผู้เข้าแข่งขันที่ไม่เต็มใจ"
+ unwilling_tourneyer_modifier_desc:1 "[contest_aptitude|E]: -10"
+
+ generous_to_knights_modifier:0 "ใจกว้างต่ออัศวิน"
+ generous_to_knights_modifier_desc:1 "[contest_aptitude|E]: +5"
+
+ safeguards_knightly_honor_modifier:0 "ผู้พิทักษ์เกียรติอัศวิน"
+ safeguards_knightly_honor_modifier_desc:0 "ความเคารพของตัวละครนี้ต่อประมวลกฎเกณฑ์ที่ผูกมัดนักรบผู้สูงศักดิ์ดูเหมือนจะไม่สั่นคลอน"
+
+ tournament_bracer_modifier:0 "สนับแขนชั้นดี"
+ tournament_bracer_modifier_desc:0 "ตัวละครนี้ซื้อสนับแขนของนักธนูในการประลองเพื่อช่วยพัฒนาทักษะของตน"
+
+ tournament_two_bracers_modifier:0 "สนับแขนคู่"
+ tournament_two_bracers_modifier_desc:0 "ตัวละครนี้ซื้อสนับแขนของนักธนูสำหรับแขน แต่ละข้างอย่างน่าประหลาด ซึ่งเป็นสิ่งที่พวกเขาปกป้องอย่างแข็งขัน แต่ก็ ทำให้ผู้เห็นเหตุการณ์ไม่กี่คนหัวเราะคิกคักอย่างเงียบๆ"
+
+ tournament_poorly_announced_modifier:0 "ประกาศอย่างย่ำแย่"
+ tournament_poorly_announced_modifier_desc:0 "ตัวละครนี้ได้ลงทุนกับผู้ประกาศที่ค่อนข้างต่ำกว่ามาตรฐาน"
+
+ tournament_well_proclaimed_modifier:0 "ประกาศอย่างดีเยี่ยม"
+ tournament_well_proclaimed_modifier_desc:0 "ตัวละครนี้ได้รับประโยชน์จากผู้ประกาศที่ได้รับการฝึกฝนมาอย่างดีและมีประสบการณ์"
+
+ tournament_star_struck_modifier:0 "ตื่นตาตื่นใจกับคนดัง"
+ tournament_star_struck_modifier_desc:0 "ตัวละครนี้ค่อนข้างประทับใจกับความหรูหราและความเย้ายวนใจของการได้เห็นบุคคลที่มีชื่อเสียง"
+
+ tournament_grounded_modifier:0 "ไม่สนใจชื่อเสียง"
+ tournament_grounded_modifier_desc:0 "ตัวละครนี้ไม่สนใจชื่อเสียง และไม่สนใจใครก็ตามที่แสวงหาสิ่งประดับของมัน"
+
+ tournament_foreign_knight_modifier:0 "สนับสนุนอัศวินต่างแดน"
+ tournament_foreign_knight_modifier_desc:0 "ตัวละครนี้สนับสนุนอัศวินต่างแดนที่น่าประทับใจ ทำให้พวกเขาได้รับความเคารพในสายตาของชาวต่างชาติ แต่ก็สร้างความตกตะลึงให้กับผู้อื่น"
+
+ tournament_farrier_mistake_modifier:0 "ม้าศึกบาดเจ็บจากช่างตีเหล็ก"
+ tournament_farrier_mistake_modifier_desc:0 "ความซุ่มซ่ามของเด็กฝึกงาน ทำให้ม้าตัวโปรดของตัวละครนี้ขาเป๋ชั่วคราว\n\n#weak ความถนัดในการประลองม้าส่วนตัวลดลงเล็กน้อย#! "
+
+ tournament_performative_sensuousness_modifier:0 "การแสดงท่าทางยั่วยวน"
+ tournament_performative_sensuousness_modifier_desc:0 "เมื่ออยู่ต่อหน้าผู้ชม ตัวละครนี้มักจะเคลื่อนไหวร่างกายในลักษณะที่... เย้ายวนใจ"
+
+ tournament_ambidextrous_modifier:0 "ถนัดสองมือ"
+ tournament_ambidextrous_modifier_desc:0 "ทักษะของตัวละครนี้ในการใช้ดาบด้วยมือทั้งสองข้าง ทำให้พวกเขาได้เปรียบอย่างน่าประหลาดใจเมื่อประดาบ"
+
+ tournament_ambisinister_modifier:0 "งุ่มง่ามสองมือ"
+ tournament_ambisinister_modifier_desc:0 "ความงุ่มง่ามของตัวละครนี้ได้พิสูจน์ตัวเองว่าน่าสังเกต"
+
+ tournament_fashionable_duelist_modifier:0 "นักดวลผู้ทันสมัย"
+ tournament_fashionable_duelist_modifier_desc:0 "การเลือกเสื้อผ้าของตัวละครนี้ในการดวลอาจไม่เอื้อต่อชัยชนะเป็นพิเศษ แต่พวกเขาก็ดูดีอย่างแน่นอน"
+
+ tournament_charm_resistant_modifier:0 "ต้านทานเสน่ห์"
+ tournament_charm_resistant_modifier_desc:0 "ตัวละครนี้ดูเหมือนจะค่อนข้างต้านทานเล่ห์เหลี่ยมความรักใคร่"
+
+ tournament_child_friendly_modifier:0 "เป็นมิตรกับเด็ก"
+ tournament_child_friendly_modifier_desc:0 "ตัวละครนี้มีความสามารถพิเศษในการเชื่อมต่อกับเด็กๆ"
+
+ tournament_soaked_modifier:0 "เปียกโชก"
+ tournament_soaked_modifier_desc:0 "ตัวละครนี้เปียกโชกหลังจากผู้ร่วมงานทำเครื่องดื่มหกใส่ ทำให้พวกเขามีกลิ่นแปลกๆ"
+
+ tournament_public_proselytiser_modifier:0 "ผู้เผยแผ่ศาสนาในที่สาธารณะ"
+ tournament_public_proselytiser_modifier_desc:0 "ตัวละครนี้พิสูจน์ความศรัทธาของตนโดยการเทศนาสั่งสอนฝูงชนในการประลอง"
+
+ tournament_sports_enthusiast_modifier:0 "ผู้คลั่งไคล้กีฬา"
+ tournament_sports_enthusiast_modifier_desc:0 "ความกระตือรือร้นของตัวละครนี้สำหรับกิจกรรมกีฬาส่องประกายตลอดเวลา"
+
+ tournament_low_blower_modifier:0 "ผู้เล่นตุกติก"
+ tournament_low_blower_modifier_desc:0 "ตัวละครนี้ได้สร้างชื่อเสียงในด้านการเล่นที่ไม่ยุติธรรมในสังเวียนการดวล"
+
+ tournament_roguish_duelist_modifier:0 "นักดวลเจ้าเล่ห์"
+ tournament_roguish_duelist_modifier_desc:0 "เสน่ห์และความทะเล้นของตัวละครนี้เมื่อถือดาบ ทำให้คู่แข่งโกรธเคืองและ ทำให้ผู้ชมหลงใหล"
+
+ tournament_ended_rightly_modifier:0 "ถูก ทำให้ขายหน้าด้วยหัวดาบ"
+ tournament_ended_rightly_modifier_desc:0 "ตัวละครนี้ต้องอับอายในการดวล เนื่องจากคู่ต่อสู้ ทำให้พวกเขาขายหน้าด้วยการขว้างหัวดาบที่คลายเกลียวออกใส่!"
+
+ tournament_melee_protector_modifier:0 "ผู้พิทักษ์ในการประจัญบาน"
+ tournament_melee_protector_modifier_desc:0 "หลังของตัวละครนี้ได้รับการปกป้องจากบุคคลที่ไม่คาดคิด\n\n#weak ตัวปรับแต่งนี้จะคงอยู่จนกว่าจะสิ้นสุดการประลองประจัญบาน#! "
+
+ tournament_house_unity_modifier:0 "ความสามัคคีของตระกูล"
+ tournament_house_unity_modifier_desc:0 "ตระกูลนี้ได้พิสูจน์ความกล้าหาญในการประจัญบาน ทำให้ได้รับการสังเกตจากผู้อื่นว่าเป็นตัวอย่างสำคัญของแนวร่วมที่เป็นหนึ่งเดียว"
+
+ tournament_reckoning_modifier:0 "การชดใช้กรรม"
+ tournament_reckoning_modifier_desc:0 "ตัวละครนี้จะต้องชดใช้ความโลภของตนในอนาคต พวกเขาไม่รู้ว่าเมื่อใด เพียง แต่รู้ว่าจะต้องชดใช้"
+
+ tournament_loving_parent_modifier:0 "บิดามารดาผู้เปี่ยมรัก"
+ tournament_loving_parent_modifier_desc:0 "ตัวละครนี้ได้พิสูจน์ตัวเองว่าเป็นบิดามารดาที่เปี่ยมรัก อย่างน้อยก็ต่อทายาทของตน"
+
+ tournament_annoyed_locals_modifier:0 "คนท้องถิ่นรำคาญ"
+ tournament_annoyed_locals_modifier_desc:0 "ฝูงชนของเคาน์ตีนี้ต้องใช้เวลาฟังเทศน์ ในขณะที่พยายามชมการประลอง"

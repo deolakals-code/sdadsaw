@@ -1,0 +1,81 @@
+﻿l_english: 
+
+ #Disbelieve Mandala Scheme
+ disbelieve_mandala: "ไม่เชื่อมั่นในมณฑล"
+ disbelieve_mandala_desc: "ถึงเวลาแล้วที่ [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] จะต้องถูกลดความสำคัญลงหนึ่งขั้นในการดำเนิน [mandala|E]... หรืออาจจะสองขั้น"
+ disbelieve_mandala_desc_general: "แผนการ $disbelieve_mandala$ [scheme|E] เป็น [hostile_scheme|E] ที่มุ่งทำลายชื่อเสียงของ [scheme_target|E] ในฐานะมณฑลอันศักดิ์สิทธิ์\n\nสามารถรับสมัคร [agents|E] ได้ เป็น [secret_scheme|E] ที่ใช้ค่า [intrigue|E] และหากถูกค้นพบจะยิ่งนำไปสู่ความเป็นอริกันระหว่างผู้ก่อการและเป้าหมาย"
+ DISBELIEVE_MANDALA_SUCCESS_DESC: "[TARGET_CHARACTER.GetShortUIName|U] อาจจะกลายเป็น [GetModifier( 'disbelieved_mandala_modifier' ).GetNameWithTooltip|L]"
+ disbelieve_mandala_invalidated_title: "@scheme_icon! แผนการไม่เชื่อมั่นในมณฑลสิ้นสุดลง"
+
+ scheme_target_not_mandala: "[SCHEME.GetTargetCharacter.GetShortUIName|U] ไม่ได้มี [government|E] แบบ [mandala|E]"
+ scheme_owner_not_mandala: "ท่านไม่ได้มี [government|E] แบบ [mandala|E]"
+ scheme_owner_not_house_head: "ท่านไม่ได้เป็น [house_head|E] อีกต่อไป"
+ scheme_target_not_independent: "[SCHEME.GetTargetCharacter.GetShortUIName|U] ไม่ได้ [independent|E]"
+ scheme_target_tributary_of_owner: "[SCHEME.GetTargetCharacter.GetShortUIName|U] เป็น [subject|E] ของท่าน"
+
+ #Disbelieve Mandala Interaction
+ start_disbelieve_mandala_interaction: "$disbelieve_mandala$ #weak (แผนการ)#!"
+ disbelieve_mandala_action: "ไม่เชื่อมั่น"
+ scheme_interaction_tt_disbelieve_mandala: "พยายามที่จะไม่เชื่อมั่นในตัว [recipient.GetShortUINameNoTooltip] ซึ่งอาจสร้างความเสียหายต่อ [legitimacy|E] [piety|E] ของ [recipient.GetHerHis] และสร้างความโกลาหลในหมู่ [subjects|E] ของ [recipient.GetHerHis]"
+ disbelieve_mandala_interaction_notification: "ไม่เชื่อมั่นในมณฑล"
+ unlock_disbelieve_mandala_scheme_tt: "ต้องการ [aspect_of_trickery|E] ระดับ #V 3#! "
+
+ #Coerce Tributary Scheme
+ coerce_tributary: "บีบบังคับให้เป็นบรรณาการ"
+ coerce_tributary_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] ควรรู้ได้ในไม่ช้าว่าผู้ใดคือผู้นำ #EMP ที่แท้จริง#! ของ [SCHEME.GetTargetCharacter.GetHerHis]..."
+ coerce_tributary_desc_general: "แผนการ $coerce_tributary$ [scheme|E] เป็น [political_scheme|E] ที่มุ่งโน้มน้าวให้ [scheme_target|E] ยอมเป็น [tributary|E] ของ [scheme_owner|E]\n\nหากเป้าหมายมี [suzerain|E] อยู่แล้ว เจ้าเหนือหัวนั้นจะมีตัวเลือกในการตอบสนองต่อเรื่องนี้ และจะหว่านเพาะ [rivalry|E] ระหว่างเจ้าของแผนการและเจ้าเหนือหัว"
+ COERCE_TRIBUTARY_SUCCESS_DESC: "[TARGET_CHARACTER.GetShortUIName|U] อาจจะกลายเป็น [tributary|E] ของท่าน"
+ coerce_tributary_invalidated_title: "@scheme_icon! แผนการบีบบังคับให้เป็นบรรณาการสิ้นสุดลง"
+
+ #Coerce Tributary Interaction
+ start_coerce_tributary_interaction: "$coerce_tributary$ #weak (แผนการ)#!"
+ coerce_tributary_action: "บีบบังคับ"
+ scheme_interaction_tt_coerce_tributary: "พยายามบีบบังคับ [recipient.GetShortUINameNoTooltip] ให้มาเป็น [tributary|E] ของท่าน"
+ coerce_tributary_interaction_notification: "บีบบังคับให้เป็นบรรณาการ"
+
+ target_is_your_subject.tt: "[target.GetShortUIName] เป็น [subject|E] ของ [owner.GetShortUINamePossessive]"
+ recipient_is_your_suzerain.tt: "[recipient.GetShortUIName] เป็น [suzerain|E] ของ [actor.GetShortUINamePossessive]"
+ you_share_suzerain.tt: "ท่านมี [suzerain|E] ร่วมกัน"
+ was_betrayed_after_being_coerced.tt: "ท่านเคยทรยศ [recipient.GetShortUIName] มาก่อนหลังจากบีบบังคับพวกเขา"
+
+
+ #Coerce Contribution Scheme
+ coerce_contribution: "บีบบังคับให้สมทบทุน"
+ coerce_contribution_desc: "เหล่าผู้อาศัยใน [SCHEME.GetTargetTitle.GetBaseNameNoTier] ย่อมสามารถถูกโน้มน้าวให้สมทบทุนแก่โครงการอันยิ่งใหญ่ เช่นนี้ได้..."
+ coerce_contribution_desc_general: "แผนการ $coerce_contribution$ [scheme|E] เป็น [political_scheme|E] ที่มุ่งโน้มน้าวเหล่าผู้อาศัยในบารอนี [scheme_target|E] ให้ยอมเปิดใจและเปิดกระเป๋าเพื่อ [great_project_contribute|E] ให้แก่ [great_project|E] ของ [scheme_owner|E]"
+ COERCE_CONTRIBUTION_SUCCESS_DESC: "เหล่าผู้อาศัยใน [TARGET_TITLE.GetBaseName|U] จะสมทบทุนให้หนึ่งใน [great_project_contributions|E] ของท่าน"
+ coerce_contribution_invalidated_title: "@scheme_icon! แผนการบีบบังคับให้สมทบทุนสิ้นสุดลง"
+
+ #Coerce Contribution Interaction
+ start_coerce_contribution_interaction: "$coerce_contribution$ #weak (แผนการ)#!"
+ coerce_contribution_action: "บีบบังคับให้สมทบทุนในดินแดนของ"
+ scheme_interaction_tt_coerce_contribution: "พยายามบีบบังคับเหล่าผู้อาศัยในอาณาจักรของท่านให้ [great_project_contribute|E] แก่ [great_project|E] ของท่าน"
+ coerce_contribution_interaction_notification: "บีบบังคับให้สมทบทุน"
+ coerce_contribution_scheme_success_outcome_tt: "หากสำเร็จ หนึ่งใน [great_project_contributions|E] #high [GetBuilding('mandala_capital_01').GetTypeName]#! ของท่านจะได้รับทุนสนับสนุนจากเหล่าผู้อาศัยใน [target.GetBaseName]"
+ start_coerce_contribution_interaction.tt.agent_focus_success: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]"
+ start_coerce_contribution_interaction.tt.agent_focus_speed: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]"
+
+ no_available_target_titles.tt: "ไม่มีเคาน์ตีที่ยังไม่ได้ดำเนินการใน [realm|E] ของท่าน"
+ no_contributions_to_fund.tt: "ท่านไม่มี [great_project_contributions|E] ของ [great_project|E] ใด ๆ ให้สมทบทุน"
+
+ scheme_title_changed_holder: "[target.GetBaseName] ได้เปลี่ยนผู้ถือครอง"
+ scheme_great_project_is_funded: "[great_project|E] ของท่านไม่มี [great_project_contributions|E] ที่ยังไม่ได้รับทุนเหลืออยู่"
+ attempted_to_coerce_contribution_from_my_realm_opinion: "พยายามบีบบังคับเงินสมทบจากอาณาจักรของข้า"
+ 
+ #Leverage Contribution Scheme
+ leverage_contribution: "เรียกร้องการสมทบทุน"
+ leverage_contribution_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] ย่อมสามารถถูกโน้มน้าวให้สมทบทุนแก่โครงการอันยิ่งใหญ่ เช่นนี้ได้..."
+ leverage_contribution_desc_general: "แผนการ $leverage_contribution$ [scheme|E] เป็น [political_scheme|E] ที่มุ่งโน้มน้าว [scheme_target|E] ให้ยอมเปิดใจและเปิดกระเป๋าเพื่อ [great_project_contribute|E] ให้แก่ [great_project|E] ของ [scheme_owner|E]"
+ LEVERAGE_CONTRIBUTION_SUCCESS_DESC: "[TARGET_CHARACTER.GetShortUIName|U] จะสมทบทุนให้หนึ่งใน [great_project_contributions|E] ของท่าน"
+ leverage_contribution_invalidated_title: "@scheme_icon! แผนการเรียกร้องการสมทบทุนสิ้นสุดลง"
+
+ recipient_is_unable_to_afford_contributions.tt: "[recipient.GetShortUIName|U] ไม่สามารถจ่ายค่า [great_project_contributions|E] ใด ๆ ของท่านได้"
+
+ #Leverage Contribution Interaction
+ start_leverage_contribution_interaction: "$leverage_contribution$ #weak (แผนการ)#!"
+ leverage_contribution_action: "เรียกร้องการสมทบทุนจาก"
+ scheme_interaction_tt_leverage_contribution: "พยายามเรียกร้อง [great_project_contribution|E] จาก [recipient.GetShortUINameNoTooltip]"
+ leverage_contribution_interaction_notification: "เรียกร้องการสมทบทุน"
+ leverage_contribution_scheme_success_outcome_tt: "หากสำเร็จ หนึ่งใน [great_project_contributions|E] #high [GetBuilding('mandala_capital_01').GetTypeName]#! ของท่านจะได้รับทุนสนับสนุนจาก [recipient.GetShortUIName]"
+ start_leverage_contribution_interaction.tt.agent_focus_success: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]"
+ start_leverage_contribution_interaction.tt.agent_focus_speed: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]"

@@ -1,0 +1,41 @@
+﻿l_english: 
+ culture_notification.0010.t:0 "จารีตที่ถูกละทิ้ง"
+ culture_notification.0010.desc:2 "วัฒนธรรม [this_player.GetCulture.GetName] [culture|E] ได้ละทิ้ง [tradition.GetName] [tradition|E]"
+ culture_notification.0011.t:1 "จารีตที่ยอมรับ"
+ culture_notification.0011.desc:2 "วัฒนธรรม [this_player.GetCulture.GetName] [culture|E] ได้โอบรับ [tradition.GetName] [tradition|E]"
+
+
+ culture_notification.1001.t:0 "วัฒนธรรมผสมผสาน: [new_culture.GetNameNoTooltip|V]"
+ culture_notification.1001.desc:0 "[founder.GetTitledFirstName] ได้ก่อตั้ง [new_culture.GetName|V] ซึ่งเป็น [hybrid_culture|E] จากวัฒนธรรม [parent_1.GetName] และ [parent_2.GetName]"
+
+ culture_notification.1011.t:0 "การผสมผสานวัฒนธรรม [new_culture.GetNameNoTooltip]"
+ culture_notification.1011.intro:1 "ด้วยแรงกระตุ้นจากความสัมพันธ์อันดีและการแลกเปลี่ยนทางวัฒนธรรมที่เพิ่มขึ้น ผู้คนชาว [parent_1.GetName] และ [parent_2.GetName] ได้ใกล้ชิดกันมากขึ้นในช่วงหลายปีที่ผ่านมา บัดนี้ ผู้คนจากสังคมเหล่านี้เริ่มมองตนเองว่าไม่ใช่ฝ่ายใดฝ่ายหนึ่ง แต่เป็นทั้งสองฝ่ายพร้อมกัน — ก่อเกิดเป็นวัฒนธรรม [new_culture.GetName] ใหม่\n\n"
+ culture_notification.1011.hybrid_primary_1:1 "จารีตและค่านิยมของ [parent_1.GetNameNoTooltip] เป็นแกนหลักของวัฒนธรรมใหม่นี้ ในขณะที่ลักษณะต่างๆ ของ [parent_2.GetNameNoTooltip] ได้รับการปรับใช้และผสมผสานเพื่อตอบสนองความต้องการของสังคมใหม่ของพวกเขา"
+ culture_notification.1011.hybrid_primary_2:1 "จารีตและค่านิยมของ [parent_2.GetNameNoTooltip] เป็นแกนหลักของวัฒนธรรมใหม่นี้ ในขณะที่ลักษณะต่างๆ ของ [parent_1.GetNameNoTooltip] ได้รับการปรับใช้และผสมผสานเพื่อตอบสนองความต้องการของสังคมใหม่ของพวกเขา"
+ culture_notification.1011.hybrid_no_primary:1 "ผู้คนชาว [new_culture.GetNameNoTooltip] ได้นำองค์ประกอบต่างๆ จากทั้งสองวัฒนธรรมมาผสมผสานกันอย่างเท่าเทียม ก่อเกิดเป็นวัฒนธรรมผสมผสานที่แท้จริง ซึ่งหลอมรวมองค์ประกอบจากทั้งสองโลกเข้าด้วยกันอย่างกลมกลืน"
+ culture_notification.1011.outro.other:0 "$culture_notification.1111.outro.other$"
+ culture_notification.1011.outro.founder:0 "$culture_notification.1111.outro.founder$"
+ culture_notification.1011.a.other:0 "$culture_notification.1111.a.other$"
+ culture_notification.1011.a.founder:0 "$culture_notification.1111.a.founder$"
+ culture_notification_hybrid_tooltip:0 "[hybrid_culture|E] [new_culture.GetName] ได้ก่อตัวขึ้นจาก [cultures|E] [parent_1.GetName] และ [parent_2.GetName]"
+
+
+
+ culture_notification.1101.t:0 "วัฒนธรรมแตกแขนง: [new_culture.GetNameNoTooltip|V]"
+ culture_notification.1101.desc:0 "[founder.GetTitledFirstName] ได้สร้าง [new_culture.GetName|V] ซึ่งเป็น [divergent_culture|E] ของ [parent_1.GetName]"
+
+ culture_notification.1111.t:0 "การแตกแขนงของวัฒนธรรม [new_culture.GetNameNoTooltip]"
+ culture_notification.1111.intro:0 "การเปลี่ยนแปลงเล็กน้อยในภาษาถิ่น ขนบธรรมเนียมที่แตกต่างกันเล็กน้อย... มันง่ายที่จะมองข้ามในตอนแรก อย่างไรก็ตาม เมื่อเวลาผ่านไป การเปลี่ยนแปลงเล็กน้อยนำไปสู่การเปลี่ยนแปลงครั้งใหญ่ และตอนนี้ชาว [parent_1.GetCollectiveNoun] ที่อาศัยอยู่ใน [founder.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] ได้เริ่มระบุตัวเองว่าเป็นชาว [new_culture.GetName] แทน\n\n"
+ culture_notification.1111.ethos.bellicose:0 "เมื่อต้องเผชิญกับแรงกดดันที่เพิ่มขึ้นจากทั้งถิ่นทุรกันดารและคู่แข่ง ชาว [new_culture.GetCollectiveNounNoTooltip] กำลังกลายเป็นพวกชอบสงครามมากขึ้นเรื่อยๆ ขณะที่พวกเขาพยายามสร้างและปกป้องการดำรงชีวิตของตนด้วยกำลังอาวุธ"
+ culture_notification.1111.ethos.bureaucratic:1 "ชาว [new_culture.GetCollectiveNounNoTooltip] ดูเหมือนจะพัฒนาความต้องการที่เพิ่มขึ้นสำหรับกฎหมายที่เยิ่นเย้อ พงศาวดารยาว และกฎบัตรที่ซับซ้อน โดยได้รับความสะดวกสบายในสังคมที่ดำเนินการโดยแนวปฏิบัติที่เป็นทางการที่ขยายตัวอยู่เสมอ"
+ culture_notification.1111.ethos.courtly:1 "ด้วยความทุ่มเทที่เพิ่มขึ้นต่อมารยาทและธรรมเนียมปฏิบัติ ชาว [new_culture.GetCollectiveNounNoTooltip] กำลังยอมรับวิถีชีวิตที่มีโครงสร้างและพิธีรีตองเพื่อนำมา ซึ่งยุคใหม่แห่งเสถียรภาพและความเจริญรุ่งเรือง"
+ culture_notification.1111.ethos.communal:0 "โดยการช่วยเหลือเพื่อนบ้านผ่านโศกนาฏกรรมและแบ่งปันชัยชนะของพวกเขา ชาว [new_culture.GetCollectiveNounNoTooltip] กำลังสร้างความผูกพันอันแน่นแฟ้นของชุมชน ซึ่งส่งเสริมความรู้สึกเป็นส่วนหนึ่งและมีเป้าหมาย"
+ culture_notification.1111.ethos.stoic:0 "เมื่อเผชิญกับโลกที่อันตรายและคาดเดาไม่ได้ ชาว [new_culture.GetCollectiveNounNoTooltip] กำลังให้คุณค่ากับความทรหดและความมุ่งมั่นมากกว่าที่เคยเป็นมา"
+ culture_notification.1111.ethos.spiritual:0 "มองหาคำตอบทั้งภายในตนเองและโลกภายนอก ชาว [new_culture.GetCollectiveNounNoTooltip] กำลังกลายเป็นผู้มีจิตวิญญาณและเคร่งศาสนามากขึ้นกว่าเดิม"
+ culture_notification.1111.ethos.egalitatian:0 "ยอมรับว่าสถานการณ์การเกิดของบุคคลไม่ได้ทำนายความสามารถและความสามารถเสมอไป ชาว [new_culture.GetCollectiveNounNoTooltip] กำลังกลายเป็นสังคมที่เสมอภาคและเปิดกว้างมากขึ้น"
+ culture_notification.1111.ethos.unchanged:0 "ด้วยทัศนคติต่อชีวิตที่ไม่เปลี่ยนแปลงโดยพื้นฐาน ความแตกต่างระหว่างชาว [new_culture.GetCollectiveNounNoTooltip] และ [parent_1.GetCollectiveNounNoTooltip] ดูเหมือนจะเป็นเรื่องทางการเมืองมากกว่าสิ่งอื่นใด — แต่ความจริงก็คือการแบ่งแยกทางประเพณี นโยบาย และพรมแดนได้เปลี่ยนกลุ่มคนกลุ่มหนึ่งให้กลายเป็นสองกลุ่ม"
+ culture_notification.1111.outro.other:0 "\n\nไม่ว่าจะด้วยการชักใยอย่างมีทักษะหรือความปรารถนาอย่างแท้จริงที่จะนำผู้คนของ [founder.GetHerHis] ไปสู่ยุคใหม่ [founder.GetTitledFirstName] ได้วางตำแหน่ง [founder.GetHerselfHimself] ในฐานะผู้นำของการตื่นรู้ทางวัฒนธรรมนี้"
+ culture_notification.1111.outro.founder:0 "\n\nบัดนี้เมื่อชาว [new_culture.GetNameNoTooltip] มองมาที่ข้าพเจ้าเพื่อขอการชี้นำ ก็ถึงเวลาวางรากฐานสำหรับอนาคตร่วมกันของเราแล้ว"
+ culture_notification.1111.a.other:0 "เราจะรอดูว่าสถานการณ์จะคลี่คลายอย่างไร"
+ culture_notification.1111.a.founder:0 "สู่ยุคใหม่ สมัยใหม่ ชนชาติใหม่!"
+ culture_notification_tooltip:0 "[divergent_culture|E] [new_culture.GetName] ได้แตกแขนงออกมาจาก [culture|E] [parent_1.GetName]"

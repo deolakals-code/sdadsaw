@@ -1,0 +1,22 @@
+﻿l_english: 
+ SELECT_CHARACTER_ON_MAP:0 "เลือกตัวละครบนแผนที่"
+ PICK_ANY_CHARACTER:5 "เล่นเป็นผู้ปกครองคนใดก็ได้ในปี #bold [GameSetup.GetSelectedBookmark.GetDate.GetYear]#! หรือ #bold สร้างตัวละครของท่านเอง!#!"
+ BOOKMARK_DISABLED:0 "บุ๊กมาร์กนี้ถูกปิดใช้งาน"
+ BOOKMARK_NOT_PICKED_CHARACTER:0 "เลือกตัวละครในบุ๊กมาร์กก่อนเริ่มเกม หรือเลือกอย่างอิสระโดยคลิก 'เลือกตัวละครใดก็ได้'"
+ SINGLEPLAYER:0 "ผู้เล่นคนเดียว"
+
+ GAMESETUP_TUTORIAL_PROMPT_HEADER:1 "ยินดีต้อนรับสู่ Crusader Kings III"
+ GAMESETUP_TUTORIAL_PROMPT_INTRO:0 "Crusader Kings III เป็นเกมกลยุทธ์เชิงลึกเกี่ยวกับราชวงศ์และการวางอุบาย!"
+ GAMESETUP_TUTORIAL_PROMPT_RECOMMEND:0 "หากท่านเป็นผู้เล่นใหม่ในโลกของ Crusader Kings เราขอแนะนำอย่างยิ่งให้ท่านเล่นบทช่วยสอน"
+ GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER: "$GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER_EXTRA$"
+ GAMESETUP_TUTORIAL_PROMPT_ABOUT_IRISH_CHARACTER: "ไอร์แลนด์ถูกแบ่งแยกท่ามกลางเหล่ากษัตริย์ย่อยและเจ้าผู้ครองนครศักดินามากมาย\n\nในฐานะ [BookmarkCharacter.GetName|V] แห่ง [BookmarkCharacter.GetTitleName] จงนำพาราชวงศ์ของท่าน รวบรวมดินแดน และขึ้นเป็นพระราชาแห่งไอร์แลนด์!"
+ GAMESETUP_TUTORIAL_PROMPT_ABOUT_CHINESE_RULER: "ในระบบราชการจักรวรรดิจีน มีเพียงผู้มีความดีความชอบสูงสุดเท่านั้นที่จะถูกเลือกเป็นเจ้าเมือง\n\n[BookmarkCharacter.GetName|V] มีศักยภาพที่จะเป็นทั้งกวีและขุนนางผู้ปราดเปรื่อง บางทีวันหนึ่งลูกหลานของเขาอาจได้ปกครองทั่วทั้งแผ่นดินจีน?"
+ GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER_EXTRA: "[SelectLocalization( BookmarkCharacter.GetGovernmentType.IsType( 'celestial_government' ), 'GAMESETUP_TUTORIAL_PROMPT_ABOUT_CHINESE_RULER', 'GAMESETUP_TUTORIAL_PROMPT_ABOUT_IRISH_CHARACTER' )]"
+ GAMESETUP_TUTORIAL_PROMPT_ASK:0 "เรียนรู้เกมในฐานะ [BookmarkCharacter.GetName]"
+
+ GAMESETUP_TUTORIAL_PROMPT_DISABLE:0 "ไว้ทีหลัง"
+ GAMESETUP_TUTORIAL_PROMPT_PLAY_TUTORIAL:0 "$GAMESETUP_PLAY_TUTORIAL$"
+ GAMESETUP_PLAY_TUTORIAL:0 "เล่นบทช่วยสอน"
+ GAMESETUP_GAME_INFO:0 "ข้อมูลเกม"
+ 
+ 

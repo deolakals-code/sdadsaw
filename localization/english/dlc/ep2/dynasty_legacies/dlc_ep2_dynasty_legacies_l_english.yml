@@ -1,0 +1,35 @@
+﻿l_english: 
+
+ ep2_activities_legacy_track_name:0 "กิจกรรม"
+ ep2_activities_legacy_track_desc:0 "หากจักสัมผัสโลกอย่างแท้จริง เราต้องสัมผัสผู้คน"
+ ep2_activities_legacy_track:0 "กิจกรรม [dynasty_perk|E]"
+
+ ep2_activities_legacy_1_name:0 "ดำเนินบนเส้นทางศักดิ์สิทธิ์"
+ ep2_activities_legacy_1_pilgrimages_cheaper_effect:0 "[GetActivityType('activity_pilgrimage').GetName] ถูกลง [EmptyScope.ScriptValue('ep2_activities_legacy_1_pilgrimages_discount_value')|0+%] "
+ ep2_activities_legacy_1_pilgrimages_add_learning_per_holy_site_effect:0 "ได้รับ [EmptyScope.ScriptValue('ep2_activities_legacy_1_pilgrimages_learning_add_value')|0+=] [learning|E] ต่อหนึ่งสถานศักดิ์สิทธิ์เฉพาะของ [faith|E] ท่านที่ไปเยือน#WEAK สูงสุดไม่เกิน [EmptyScope.ScriptValue('ep2_activities_legacy_1_pilgrimages_learning_cap_value')|0+=]#!"
+
+ ep2_activities_legacy_2_name:0 "พิธีวิวาห์ตามธรรมเนียม [GetPlayer.GetDynasty.GetBaseNameNoTooltip]"
+ ep2_activities_legacy_2_grand_weddings_cheaper_effect:0 "[GetActivityType('activity_wedding').GetName] ถูกลง [EmptyScope.ScriptValue('ep2_activities_legacy_2_grand_weddings_discount_value')|0+%] "
+ ep2_activities_legacy_2_grand_weddings_acceptance_boost_effect:0 "[GetActivityType('activity_wedding').GetName] ได้รับโบนัสการยอมรับ [EmptyScope.ScriptValue('ep2_activities_legacy_2_grand_weddings_acceptance_boost_value')|0+=] "
+ ep2_activities_legacy_2_grand_weddings_increased_strong_hook_on_liege_event_effect:0 "เพิ่มโอกาสในการสร้าง [strong_hook|E] ชั่วคราวต่อ [lieges|E] ที่ชื่นชอบท่านใน [GetActivityType('activity_wedding').GetName]"
+
+ ep2_activities_legacy_3_name:0 "เสด็จเยือนอย่างทรงพระกรุณา"
+ ep2_activities_legacy_3_tours_majesty_modifier_effect:0 "ได้รับผล [GetModifier('ep2_activities_legacy_3_tours_majesty_modifier').GetNameWithTooltip] เป็นเวลา [EmptyScope.ScriptValue('ep2_activities_legacy_3_tours_modifier_duration_value')] ปี เมื่อเสร็จสิ้น $tour_type_majesty$"
+ ep2_activities_legacy_3_tours_intimidation_modifier_effect:0 "ได้รับผล [GetModifier('ep2_activities_legacy_3_tours_intimidation_modifier').GetNameWithTooltip] เป็นเวลา [EmptyScope.ScriptValue('ep2_activities_legacy_3_tours_modifier_duration_value')] ปี เมื่อเสร็จสิ้น $tour_type_intimidation$"
+ ep2_activities_legacy_3_tours_taxation_modifier_effect:0 "ได้รับผล [GetModifier('ep2_activities_legacy_3_tours_taxation_modifier').GetNameWithTooltip] เป็นเวลา [EmptyScope.ScriptValue('ep2_activities_legacy_3_tours_modifier_duration_value')] ปี เมื่อเสร็จสิ้น $tour_type_taxation$"
+ ep2_activities_legacy_3_tours_reset_modifier_timers_effect:0 "เมื่อเสร็จสิ้น [GetActivityType('activity_tour').GetName] ใดๆ จะรีเซ็ตคูลดาวน์ของผลใดๆ ข้างต้น"
+
+ ep2_activities_legacy_4_name:0 "สูตรอาหารประจำตระกูล"
+ ep2_activities_legacy_4_hunts_up_legendary_hunt_sightings_effect:0 "มีโอกาสสูงขึ้นอย่างมากที่จะพบเห็นสัตว์ในตำนาน"
+
+ # Yes, I know it's out of period, but it rocked.
+ ep2_activities_legacy_5_name:0 "ทุ่งภูษาทอง"
+ ep2_activities_legacy_5_tournaments_invite_knights_boosts_effect:0 "$invite_knights_decision$ [decision|E] จะไม่มีค่าใช้จ่ายระหว่าง [GetActivityType('activity_tournament').GetName] และนำพา [characters|E] ที่มี [prowess|E] สูงกว่ามา"
+ ep2_activities_legacy_5_house_heads_get_one_freebie_grand_activity_effect:0 "[grand_activity|E] แรกของ [house_heads|E] จะไม่มีค่าใช้จ่าย"
+
+ ep2_activities_legacy_3_tours_majesty_modifier:0 "ประทานพระกรุณา"
+ ep2_activities_legacy_3_tours_majesty_modifier_desc:0 "ตัวละครนี้เป็นที่รู้จักในการเสด็จเยือนข้าในบังคับอย่างไม่เร่งรีบ ทว่าหนักแน่น"
+ ep2_activities_legacy_3_tours_intimidation_modifier:0 "ปลูกฝังความหวาดกลัว"
+ ep2_activities_legacy_3_tours_intimidation_modifier_desc:0 "ตัวละครนี้เชื่อว่าการสัมผัสส่วนตัวเป็นสิ่งจำเป็นในการรักษาการปกครองด้วยความหวาดกลัว"
+ ep2_activities_legacy_3_tours_taxation_modifier:0 "สิทธิอันชอบธรรมของเจ้าเหนือหัว"
+ ep2_activities_legacy_3_tours_taxation_modifier_desc:0 "ตัวละครนี้ถือว่าการทำบัญชีอย่างแม่นยำเป็นหน้าที่สูงสุดของเจ้าเหนือหัวทุกคน"

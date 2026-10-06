@@ -1,0 +1,104 @@
+﻿l_english: 
+ greeting_lover_object:0 "[second.GetTitledFirstName|U], [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('second'))] ของข้า,"
+ greeting_lover_fallback:0 "[second.GetTitledFirstName|U], [second.Custom('LoverPetName')] ที่รักของข้า,"
+
+ greeting_liege_positive:1 "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]" # หมายเหตุ: ข้อความนี้จะดึงมาจากคีย์อื่น ควรแปลคีย์ GreetingToLiegePositive ด้วย
+ greeting_liege_negative:1 "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]" # หมายเหตุ: ข้อความนี้จะดึงมาจากคีย์อื่น ควรแปลคีย์ GreetingToLiegeNegative ด้วย
+ greeting_liege_liked:0 "คำนับ, เจ้าเหนือหัวผู้ [second.Custom('ComplimentAdjective')] ของข้า,"
+ greeting_liege_liked_regent: "ข้า แต่ [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] [second.Custom('ComplimentAdjective')],"
+ greeting_liege_dislike:0 "ถึง เจ้าเหนือหัวของข้า,"
+ greeting_liege_dislike_regent: "ข้า แต่ [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] [second.Custom('ComplimentAdjective')],"
+ greeting_liege_fallback:0 "[ROOT.Char.Custom2('GreetingToLiegeNeutral', second)],"
+ greeting_liege_neutral: "ข้า แต่ฝ่าบาท,"
+ greeting_liege_neutral_regent: "คำนับ [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip],"
+
+ greeting_ceremonial_regent_liked: "คำนับ, [second.GetTitledFirstNameNoTooltip] [second.Custom('ComplimentAdjective')] อย่างสูง,"
+ greeting_ceremonial_regent_dislike: "ถึง [second.GetTitleAsNameNoTooltip],"
+ greeting_ceremonial_liege_fallback: "คำนับ [second.GetTitledFirstNameNoTooltip],"
+
+ greeting_vassal_positive:1 "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]" # หมายเหตุ: ข้อความนี้จะดึงมาจากคีย์อื่น ควรแปลคีย์ GreetingToVassalPositive ด้วย
+ greeting_vassal_negative:1 "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]" # หมายเหตุ: ข้อความนี้จะดึงมาจากคีย์อื่น ควรแปลคีย์ GreetingToVassalNegative ด้วย
+ greeting_vassal_relative_liked:1 "[ROOT.Char.Custom2('GreetingToFamily', second)]" # หมายเหตุ: ข้อความนี้จะดึงมาจากคีย์อื่น ควรแปลคีย์ GreetingToFamily ด้วย (สำหรับญาติที่เป็นข้าในบังคับ)
+ greeting_vassal_liked:0 "คำนับ, ข้าในบังคับผู้ [second.Custom('ComplimentAdjective')] ของข้า,"
+ greeting_vassal_liked_regent: "คำนับ, ข้าแผ่นดิน [second.Custom('ComplimentAdjective')] แห่ง [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')],"
+ greeting_vassal_liked_ceremonial_liege: "[ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')] [second.Custom2('ComplimentAdjective', ROOT.Char)|U] ของข้า,"
+ greeting_vassal_dislike:1 "ถึง ข้าหลวง [second.Custom2('InsultAdjective', ROOT.Char)] ของข้า,"
+ greeting_vassal_dislike_regent: "ข้าแผ่นดิน [second.Custom2('InsultAdjective', ROOT.Char)|U] แห่ง [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')],"
+ greeting_vassal_dislike_ceremonial_liege: "[ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')] [second.Custom2('InsultAdjective', ROOT.Char)|U] ของข้า,"
+ greeting_vassal_fallback: "[ROOT.Char.Custom2('GreetingToVassalNeutral', second)]"
+ greeting_vassal_neutral: "ถึง ข้าหลวงของข้า,"
+ greeting_vassal_neutral_regent: "ถึง ข้าแผ่นดินของ [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitlePossessive')],"
+ greeting_vassal_neutral_ceremonial_liege: "[ROOT.Char.GetTitleAsNameNoTooltip] ของข้า,"
+
+ greeting_family_positive:1 "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]" # หมายเหตุ: ข้อความนี้จะดึงมาจากคีย์อื่น ควรแปลคีย์ GreetingToFamilyPositive ด้วย
+ greeting_family_negative:1 "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]" # หมายเหตุ: ข้อความนี้จะดึงมาจากคีย์อื่น ควรแปลคีย์ GreetingToFamilyNegative ด้วย
+ greeting_family_liked:1 "[ROOT.Char.Custom2('RelationToMeShort', second)] ที่รักของข้า,"
+ greeting_family_fallback:1 "คำนับ [ROOT.Char.Custom2('RelationToMeShort', second)],"
+ 
+ greeting_foreign_ruler:1 "คำนับ [second.GetNameNoTooltip],"
+ greeting_foreign_ruler_negative:1 "ถึง [second.GetTitledFirstNameNoTooltip] [second.Custom2('InsultAdjective', ROOT.Char)],"
+ greeting_foreign_ruler_positive:1 "ถึง [second.GetNameNoTooltip] ผู้ [second.Custom('ComplimentAdjective')],"
+
+ greeting_generic:1 "คำนับ [second.GetNameNoTooltip],"
+ greeting_generic_negative:0 "ถึง [second.GetFirstNameNoTooltip] [second.Custom2('InsultAdjective', ROOT.Char)],"
+ greeting_generic_positive:0 "ถึง [second.GetFirstNameNoTooltip] ผู้ [second.Custom('ComplimentAdjective')],"
+
+ greeting_appropriate_positive_liege:1 "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]"
+ greeting_appropriate_positive_vassal:1 "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]"
+ greeting_appropriate_positive_family:1 "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]"
+ greeting_appropriate_positive_foreign_ruler:1 "[ROOT.Char.Custom2('GreetingToForeignRulerPositive', second)]"
+
+ greeting_appropriate_lover:1 "[ROOT.Char.Custom2('GreetingToLover', second)]"
+ greeting_appropriate_liege:1 "[ROOT.Char.Custom2('GreetingToLiege', second)]"
+ greeting_appropriate_vassal:1 "[ROOT.Char.Custom2('GreetingToVassal', second)]"
+ greeting_appropriate_family:1 "[ROOT.Char.Custom2('GreetingToFamily', second)]"
+ greeting_appropriate_foreign_ruler:1 "[ROOT.Char.Custom2('GreetingToForeignRuler', second)]"
+ greeting_appropriate_fallback:1 "[ROOT.Char.Custom2('GreetingToGeneric', second)]"
+ greeting_appropriate_positive_fallback:0 "[ROOT.Char.Custom2('GreetingToGenericPositive', second)]"
+ greeting_appropriate_negative_fallback:0 "[ROOT.Char.Custom2('GreetingToGenericNegative', second)]"
+
+ greeting_appropriate_negative_liege:1 "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]"
+ greeting_appropriate_negative_liege_regent: "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]"
+ greeting_appropriate_negative_vassal:1 "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]"
+ greeting_appropriate_negative_vassal_regent: "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]"
+ greeting_appropriate_negative_family:1 "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]"
+ greeting_appropriate_negative_foreign_ruler:1 "[ROOT.Char.Custom2('GreetingToForeignRulerNegative', second)]"
+
+ greeting_supplimentary.negative:0 "[ROOT.Char.Custom2('NegativeSupplimentaryGreeting', second)]" # หมายเหตุ: ข้อความนี้จะดึงมาจากคีย์อื่นด้านล่าง
+ greeting_supplimentary.negative.tales:0 "เรื่องราวความชั่วช้าของท่านเล่าขานกันไปไกลจากไอร์แลนด์จรดคาเธ่ย์"
+ greeting_supplimentary.negative.greek:0 "อุปนิสัยอันต่ำทรามของท่านถูกนำไป แต่งเป็นละครกรีก"
+ greeting_supplimentary.negative.insult.1:0 "ขอให้ธาตุขันธ์ของท่านเน่าเปื่อยในกายที่ยังมีชีวิตอยู่"
+ greeting_supplimentary.negative.insult.2:0 "ขอให้ชีวิตท่านสั้นและทุกข์ทรมาน"
+ greeting_supplimentary.negative.insult.3:0 "ขอให้ปัญญามิอาจเข้าถึงท่านได้ตลอดกาล"
+ greeting_supplimentary.negative.insult_muslim.1:0 "ขอสาปแช่งบรรพบุรุษรุ่นที่เจ็ดของท่าน"
+ greeting_supplimentary.negative.insult_muslim.2:0 "ขอให้ท่านถูกเย็บทั้งเป็นในท้องอูฐที่ตายแล้ว"
+ greeting_supplimentary.negative.insult_muslim.3:0 "ขอให้อัลลอฮ์ทรงทำลายบ้านของท่าน"
+ greeting_supplimentary.negative.insult_muslim.4:0 "เจ้าลูกสุนัขขี้เรื้อน"
+
+ greeting_supplimentary.positive:0 "[ROOT.Char.Custom2('PositiveSupplimentaryGreeting', second)]" # หมายเหตุ: ข้อความนี้จะดึงมาจากคีย์อื่นด้านล่าง
+ greeting_supplimentary.positive.flattery.1:0 "ขอพรจงมีแด่ท่านและวงศ์ตระกูลของท่าน"
+ greeting_supplimentary.positive.flattery.2:0 "ปัญญาและความเมตตาของท่านเป็นที่เลื่องลือ"
+ greeting_supplimentary.positive.flattery.3:0 "สันติสุขจงมีแด่ท่าน"
+ greeting_supplimentary.positive.flattery.4:0 "ขอให้ท่านมีชีวิตอยู่อย่างปรองดองและพึงพอใจ"
+ greeting_supplimentary.positive.flattery.5:0 "ความไร้ปรานีของท่านช่างน่าอิจฉา" # หรือ "ความเด็ดขาดของท่านช่างน่าเกรงขาม"
+ greeting_supplimentary.positive.flattery.6:0 "ความปรารถนาอันยิ่งใหญ่ของท่านเลื่องลือไปทั่วโลก"
+
+ form_of_address_your_excellency: "ท่านเจ้าคุณ"
+ form_of_address_excellency: "ท่านเจ้าคุณ"
+ form_of_address_my_ladylord: "[ROOT.Char.GetLadyLord]ของข้า"
+ form_of_address_ladylord_regent: "[ROOT.Char.GetLadyLord|U] ผู้สำเร็จราชการ"
+ form_of_address_your_holiness: "องค์สมเด็จ"
+ form_of_address_your_highness: "ฝ่าบาท"
+ form_of_address_highness: "ฝ่าบาท"
+ form_of_address_your_majesty: "ฝ่าบาท"
+ form_of_address_my_liege_title: "[ROOT.Char.GetTitleAsNameNoTooltip|l] ของข้า"
+ form_of_address_liege_title: "[ROOT.Char.GetTitleAsNameNoTooltip|l]"
+ form_of_address_great_liege_title: "[ROOT.Char.GetTitleAsNameNoTooltip] ผู้ยิ่งใหญ่"
+ form_of_address_my_sovereign_ladylord: "[ROOT.Char.GetLadyLord] องค์อธิปัตย์ของข้า"
+ form_of_address_son_of_heaven: "โอรสแห่งสวรรค์"
+ form_of_address_your_radiance: "องค์ผู้เจิดจรัส"
+
+ ceremonial_liege_title_from_any_vassal: "[ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNameNoTooltip]"
+ ceremonial_liege_title_from_any_vassal_possessive: "[ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNamePossessiveNoTooltip]"
+ top_liege_title_from_any_vassal: "[ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNameNoTooltip]"
+ top_liege_title_from_any_vassal_possessive: "[ROOT.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetTitleAsNamePossessiveNoTooltip]"

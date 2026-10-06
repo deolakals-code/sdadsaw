@@ -1,0 +1,18 @@
+﻿l_english: 
+ 
+ travel_danger_events.2000.t:1 "$travel_danger_prefix$ ดวงตาแห่งพงไพร"
+ travel_danger_events.2000.desc:0 "มีบางสิ่งเฝ้ามองข้าอยู่ตลอดนับตั้งแต่เราย่างเท้าเข้าสู่ป่าดงดิบแห่ง [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] ข้าเห็นแววตาอันวาววับ เสียงใบไม้ไหว\n\nมันกำลังตามติดข้า ย่องตามข้า #EMP ล่าข้า#!.\n\nคนที่ข้าส่งออกไปตามหามันไม่ได้กลับมา สัตว์ประหลาดอันใดที่ซุ่มซ่อนอยู่ในห้วงลึกสีมรกตแห่งพงไพรนี้?"
+ travel_danger_events.2000.a:0 "ถางและเผา #EMP หามันให้พบ#!."
+ travel_danger_events.2000.b:0 "ข้าเกลียดสิ่งนี้ พาข้าออกไปจากที่นี่"
+ travel_danger_events.2000.c:0 "สิ่งเดียวที่ต้องหวาดหวั่นในป่านี้คือข้า!"
+
+ travel_danger_events.2001.t:1 "$travel_danger_prefix$ อุทกภัย"
+ travel_danger_events.2001.desc:0 "ฝนยังคงตกไม่หยุดขณะที่เราเดินทางผ่าน [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] ข้าเฝ้ามองแม่น้ำอย่างกระวนกระวายใจเมื่อสายน้ำขุ่นข้นของมันได้เอ่อล้นใหญ่ขึ้นเรื่อยๆ ดุจดังตุ่มหนองที่เต็มเปี่ยม \n\n[flood_victim.GetFirstNameNoTooltip] [ROOT.Char.Custom2('RelationToMe', flood_victim)] ของข้ากำลังบ่นอีกครั้ง: "เราเดินทางฝ่าหล่มโคลนอันเปียกแฉะ จมปลัก และโสโครกนี้มาหลายวันแล้ว เมื่อใดกัน..."\n\nก่อนที่ [flood_victim.GetSheHe] จะพูด [flood_victim.GetHerHis] ประโยคจบ ตลิ่งก็พังทลายลงในที่สุด กระแสน้ำข้นคลั่กสีดำทะลักเข้าใส่เสบียงของเรา และ [flood_victim.GetFirstNameNoTooltip]!"
+ travel_danger_events.2001.a:0 "รักษาเสบียงไว้!"
+ travel_danger_events.2001.b:0 "ช่วย [flood_victim.GetFirstNameNoTooltip]!!"
+
+ burned_my_jungle_opinion:0 "เผาป่าของข้า"
+
+ travel_lost_supplies:0 "เสบียงสูญหาย"
+ travel_lost_supplies_desc:0 "ตัวละครนี้กำลังรู้สึกถึงผลกระทบจากการสูญเสียเสบียงระหว่างการเดินทาง"
+

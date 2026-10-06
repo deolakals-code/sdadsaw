@@ -1,0 +1,47 @@
+﻿l_english: 
+ councillor_spouse_intrigue.0001.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] และ [spymaster.GetCouncilTitle] ร่วมมือกัน"
+
+ councillor_spouse_intrigue.0002.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] เปิดโปงแผนการ"
+
+ councillor_spouse_intrigue.0003.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] ค้นพบความลับ"
+
+ councillor_spouse_intrigue.0004.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] ช่วยเหลือแผนการ"
+
+ councillor_spouse_intrigue.0005.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] ชักจูงเป้าหมาย"
+
+ councillor_spouse_intrigue.0006.message:0 "สิ้นไร้เดียงสา"
+
+ councillor_spouse_intrigue.0007.message:0 "การฝึกฝนเล่ห์เหลี่ยม"
+
+ councillor_spouse_intrigue.1001.t:1 "[councillor.GetCouncilTitle]:  อย่าไว้ใจผู้ใด"
+ councillor_spouse_intrigue.1001.desc:0 ""ท่านต้องระมัดระวังผู้คนที่อยู่รอบกายท่าน" แววตาของ [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('councillor'))] ข้าดูจริงจังยิ่งนัก "ข้าค้นพบว่าแม้ ในขณะที่เรากำลังสนทนากันนี้ [spymaster.GetTitledFirstName] กำลังวางแผนร้ายต่อท่าน!"\n\nจะเป็นไปได้อย่างไร? [spymaster.GetCouncilTitle] ของข้าเองหรือ?!""
+ councillor_spouse_intrigue.1001.a:0 "ข้าถูกหลอกให้เป็นคนโง่เสียแล้ว!"
+
+ councillor_spouse_intrigue.1002.t:1 "[councillor.GetCouncilTitle]:  ข่าวลือและการคาดเดา"
+ councillor_spouse_intrigue.1002.desc:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] ของข้า [councillor.Custom('quirk_pos_present')] ในท่าทีที่ [councillor.GetSheHe] มักทำเสมอเมื่อ [councillor.GetSheHe] มีบางอย่างจะบอกเล่า "ท่านทราบข่าวลือเกี่ยวกับ [target.GetTitledFirstName] หรือไม่ ที่ว่า [target.GetSheHe] กำลังซ่อนบางสิ่งที่เลวร้ายอยู่?" ข้าโน้มตัวเข้าไปใกล้ขณะที่ [councillor.GetSheHe] ลดเสียงของ [councillor.GetHerHis] ลง "ข่าวลือเหล่านั้นเป็นความจริงทั้งหมด สิ่งที่เราต้องการคือหลักฐาน""
+ councillor_spouse_intrigue.1002.a:0 "ถึงเวลาสำหรับงานจารกรรมแล้ว ที่รัก [councillor.Custom('LoverPetName')] ของข้า!"
+ councillor_spouse_intrigue.1002.b:0 "ข้าต้องค้นให้พบว่ามันคืออะไร!"
+ councillor_spouse_intrigue.1002.c:0 "ข้าปกป้องความลับของข้าได้ดีกว่าที่ [target.GetFirstNameNoTooltip] ทำ"
+
+ councillor_spouse_intrigue.1003.t:1 "[councillor.GetCouncilTitle]:  ถูกเปิดโปง"
+ councillor_spouse_intrigue.1003.desc:0 "ข้าบอกได้จากท่าทีที่ [councillor.GetSheHe] เข้ามาหาข้า ว่า [councillor.GetTitledFirstName] ได้พบความลับอีกอย่างในราชสำนัก\n\n"[agent.GetTitledFirstName] กำลังมีส่วนร่วมในแผนการสมคบคิด" [councillor.GetSheHe] กล่าว "[agent.GetSheHe|U] ยังไม่รู้ว่าข้ารู้ แต่ข้าขอเสนอให้ท่านนิรโทษกรรมแก่ [agent.GetHerHim] เพื่อแลกกับความภักดีอย่างสมบูรณ์...""
+ councillor_spouse_intrigue.1003.a:0 "ทำให้ [agent.GetHerHim] ตระหนักถึงผลได้ผลเสีย"
+ councillor_spouse_intrigue.1003.b:0 "ใช้ [agent.GetHerHim] เพื่อค้นหาผู้บงการตัวจริง!"
+ councillor_spouse_intrigue.1003.c:0 "ติดตามทุกฝีก้าวของ [agent.GetHerHis] และคุ้มครองข้าให้พ้นจากอันตราย!"
+
+ councillor_spouse_intrigue.1004.t:1 "[councillor.GetCouncilTitle]:  ล้วงความลับฝ่ายตรงข้าม"
+ councillor_spouse_intrigue.1004.desc:1 "[secret_holder.GetTitledFirstName] เป็นตัวปัญหามาตลอด โดยสนับสนุน [faction.GetName] อย่างเปิดเผย โชคดีที่ดูเหมือนว่าข้ากำลังจะได้เปรียบ\n\n[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] ของข้าได้ค้นพบความลับที่ถูกปกปิดไว้อย่างแน่นหนาของ [secret_holder.GetHerHis] [councillor.GetSheHe] บอกข้าพร้อมรอยยิ้มเจ้าเล่ห์\n\n"ข้าคิดว่าท่านอาจจะสนใจนะ ที่รัก...""
+ councillor_spouse_intrigue.1004.a:0 "การแบล็กเมล์เล็กน้อยจะ ทำให้ [secret_holder.GetHerHim] อยู่ในร่องในรอย"
+ councillor_spouse_intrigue.1004.b:0 "นี่เป็นเรื่องอื้อฉาว! อาณาจักรต้องรับรู้!"
+ councillor_spouse_intrigue.1004.c:0 "บางครั้งการรอคอยพร้อมไพ่เหนือกว่าก็เป็นสิ่งที่ดีที่สุด"
+ councillor_spouse_intrigue.1004.c.tt:1 "ท่านยังไม่เปิดเผยความลับของ [secret_holder.GetFirstNamePossessiveNoTooltip]"
+
+ councillor_spouse_intrigue.1005.t:1 "[councillor.GetCouncilTitle]:  แบ่งแยกแล้วปกครอง"
+ councillor_spouse_intrigue.1005.desc:0 "[faction_member.GetTitledFirstName] สนับสนุน [leader.GetTitledFirstName] และ [faction.GetName] ของ [leader.GetHerHis] อย่างแข็งขันมาโดยตลอด อย่างไรก็ตาม [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] ของข้ามีแผนที่จะเปลี่ยนแปลงสิ่งนั้น\n\n"เชื่อข้าเถอะ เรื่องที่ข้าสามารถบอก [faction_member.GetTitledFirstName] ได้ จะ ทำให้ [faction_member.GetHerHim] เลิกสนับสนุน [leader.GetFirstNameNoTooltip] ในทันที""
+ councillor_spouse_intrigue.1005.a:0 "ทำให้แน่ใจว่า [faction_member.GetFirstNameNoTooltip] จะไม่สนับสนุน [leader.GetFirstNameNoTooltip] อีกต่อไป!"
+ councillor_spouse_intrigue.1005.b:0 "ท่านช่วย ทำให้ #EMP ข้า#! ดูเป็นตัวเลือกที่ดีกว่าได้หรือไม่?"
+
+ councillor_spouse_intrigue.1006.t:1 "[councillor.GetCouncilTitle]:  ตัวแทนที่เหมาะสม"
+ councillor_spouse_intrigue.1006.desc:0 "เนื่องจากทราบดีถึงแผนการของข้าเกี่ยวกับ [target.GetTitledFirstName] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] ของข้า [councillor.GetFirstName] จึงมาหาข้าพร้อมข้อเสนอ\n\n"ข้ามีสหายอยู่ที่ราชสำนักของ [court_owner.GetTitledFirstNamePossessive] ข้าสามารถขอให้พวกเขาให้ที่พักพิงแก่แขกผู้หนึ่งได้ชั่วคราว ด้วยของกำนัลเล็กน้อยแสดงความภักดีและการสนับสนุนทั้งหมดที่ข้าสามารถให้ได้ [plant.GetTitledFirstName] สามารถสร้างผลงานอันน่าทึ่งในนามของท่านได้...""
+ councillor_spouse_intrigue.1006.a:0 "เป็นความคิดที่ยอดเยี่ยม [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] ของข้า!"
+ councillor_spouse_intrigue.1006.b:0 "ข้าคิดว่าเราอาจต้องการ [plant.GetFirstNameNoTooltip] ที่นี่"

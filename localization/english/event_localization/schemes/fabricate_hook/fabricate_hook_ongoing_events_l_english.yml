@@ -1,0 +1,29 @@
+﻿l_english: 
+ fabricate_hook_ongoing.0001.t:0 "$fabricate_hook_header$ การติดต่อกับญาติ"
+ fabricate_hook_ongoing.0001.desc:1 "[family_member.GetTitledFirstName] [target.Custom2('RelationToMe', SCOPE.sC('family_member'))] ของ [target.GetTitledFirstNamePossessive] ได้ให้ข้อมูลอย่างผิดปกติ แม้จะรู้ว่าข้าพเจ้าอาจมิได้มีเจตนาบริสุทธิ์ต่อ [target.GetFirstName] แต่ [family_member.GetSheHe] ก็เต็มใจตอบคำถามของข้าพเจ้าอย่างยิ่ง"
+ fabricate_hook_ongoing.0001.a:0 ""[target.GetSheHe] มีจุดอ่อนใดเป็นพิเศษที่ข้าพเจ้าควรรู้หรือไม่?""
+ fabricate_hook_ongoing.0001.b:0 ""จะเข้าใกล้ [target.GetHerHim] ได้อย่างไร?""
+
+ fabricate_hook_ongoing.0002.t:0 "$fabricate_hook_header$ อิทธิพลเกินควร"
+ fabricate_hook_ongoing.0002.desc:0 "[target.GetTitledFirstName] ดูระมัดระวังเป็นพิเศษเมื่ออยู่ใกล้ [target.Custom2('RelationToMeShort', hooking_character )] ของ [target.GetHerHis] [hooking_character.GetTitledFirstName] ท่าทีนอบน้อม เช่นนี้ย่อมหมายความว่า [hooking_character.GetFirstNameNoTooltip] มีอำนาจต่อรองบางอย่างเหนือ [target.GetHerHim]\n\nบางทีอาจมีบางสิ่งที่ข้าพเจ้าเรียนรู้ได้จากเรื่องนี้?"
+ fabricate_hook_ongoing.0002.a:0 "สายลับของข้าพเจ้าควรสืบหาคำอธิบายสำหรับปริศนานี้"
+ fabricate_hook_ongoing.0002.b:0 "ข้าพเจ้าต้องรู้ให้ได้ว่า [hooking_character.GetSheHe] ใช้ [target.GetHerHim] ทำสิ่งใด!"
+
+ fabricate_hook_ongoing.0003.t:0 "$fabricate_hook_header$ ข่าวซุบซิบ"
+ fabricate_hook_ongoing.0003.desc_servant:0 "สายลับของข้าพเจ้าได้ติดต่อกับ [servant.GetTitledFirstName] คนรับใช้ใน [target.Custom('ResidenceBuilding')] ของ [target.GetTitledFirstNamePossessive] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] ของข้าพเจ้า"
+ fabricate_hook_ongoing.0003.desc:0 "สายลับของข้าพเจ้าได้ติดต่อกับคนรับใช้ใน [target.Custom('ResidenceBuilding')] ของ [target.GetTitledFirstNamePossessive] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] ของข้าพเจ้า"
+ fabricate_hook_ongoing.0003.desc_ending:0 "\n\nด้วยสิ่งจูงใจที่เหมาะสม [dummy_servant_gender.GetSheHe] ก็เต็มใจที่จะเริ่ม #EMP กระจายข่าวลือ#! เกี่ยวกับ [target.GetTitledFirstNameNoTooltip] ว่าไม่ได้ [target.Custom('FormalComplimentAdjective')] อย่างที่ [target.GetSheHe] ดูเหมือนจะเป็น!"
+ fabricate_hook_ongoing.0003.a:0 "เราจะทำลายชื่อเสียงของ [target.GetHerHis]!"
+ fabricate_hook_ongoing.0003.a_gregarious:0 "เจ้า #EMP รู้ดี#! ว่านี่คือสิ่งที่ถูกต้องที่ควรทำ"
+ fabricate_hook_ongoing.0003.b:0 "แค่มีหูที่เห็นอกเห็นใจอยู่ใกล้ [target.GetHerHim] ก็เพียงพอแล้ว"
+ fabricate_hook_ongoing.0003.b_lustful:0 "หรือ #EMP เรา#! อาจจะเริ่มบางอย่างที่นี่แทน..."
+
+ fabricate_hook_ongoing.0004.t:0 "$fabricate_hook_header$ เรื่องของรสนิยม"
+ fabricate_hook_ongoing.0004.desc:0 "[target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] เป็น [target.GetWomanMan] ที่ซับซ้อน\n\nข้าพเจ้าจำเป็นต้องเข้าใจ [target.GetHerHim] ให้ดีที่สุดเท่าที่จะเป็นไปได้ หากข้าพเจ้าจะโน้มน้าวผู้คนให้เข้าข้างข้าพเจ้าในการ... #EMP โต้เถียง#! ที่กำลังจะเกิดขึ้น"
+ fabricate_hook_ongoing.0004.a:0 "ข้าพเจ้าจะเปิดเผยความจริงเกี่ยวกับ [target.GetHerHim] ในไม่ช้า"
+ fabricate_hook_ongoing.0004.b.success:0 "ท่านเรียนรู้เกี่ยวกับ [target.GetHerHim]"
+ fabricate_hook_ongoing.0004.b.failure:0 "[target.GetSheHe|U] จับได้ว่าท่านกำลังทำอะไร"
+ fabricate_hook_ongoing.0004.b:0 "ข้าพเจ้าจะใช้เวลากับเรื่องนี้"
+
+ fabricate_hook_ongoing.0005.desc:0 "ผู้คนต่างขนานนาม [target.GetTitledFirstName] ว่าเป็นทั้ง[target.Custom('ComplimentAdjective')] และ[target.Custom2('InsultAdjective', ROOT.Char)] ซึ่งบอกข้าเกี่ยวกับความสัมพันธ์ของพวกเขากับ[target.GetHerHim] มากกว่าสิ่งอื่นใด\n\nนอกจากนี้ ยังมีผู้คนจำนวนไม่น้อยที่กล่าวถึงว่า [target.GetSheHe] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('target'))] และพูดถึง [target.Custom('herhis_subject_of_interest')] บ่อยเพียงใด"
+ fabricate_hook_ongoing.0005.a:0 "ข้าพเจ้ามั่นใจว่าข้อมูลนี้จะเป็นประโยชน์"

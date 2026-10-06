@@ -1,0 +1,11 @@
+﻿l_english: 
+ #GetActivitySpecialType
+ pilgrimage_piousness:0 "บรรลุความศรัทธา"
+ pilgrimage_worldliness:0 "บรรลุทางโลก"
+
+ #GetActivitySpecialTypeDesc
+ pilgrimage_piousness_desc:0 "\n\nระดับความศรัทธาที่ [pilgrimage|E] ของท่านได้บรรลุผลจนถึงขณะนี้\n\nยิ่งท่านมีความศรัทธามากเท่าใด ผลตอบแทน [activity|E] ที่ท่านอาจได้รับก็จะยิ่งดีขึ้นเท่านั้น"
+ pilgrimage_worldliness_desc:0 "\n\nระดับการมุ่งทางโลกที่ [pilgrimage|E] ของท่านได้บรรลุผลจนถึงขณะนี้\n\nยิ่งท่านมุ่งทางโลกมากเท่าใด ผลตอบแทน [activity|E] ที่ท่านอาจได้รับก็จะยิ่งดีขึ้นเท่านั้น"
+
+ fallback_liturgical_province_language: "ภาษาโบราณ-[ROOT.Province.GetCulture.GetLanguage.GetName]"
+ fallback_liturgical_character_language: "ภาษาโบราณ-[ROOT.Char.GetCulture.GetLanguage.GetName]"

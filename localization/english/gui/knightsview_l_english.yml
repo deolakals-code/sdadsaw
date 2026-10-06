@@ -1,0 +1,51 @@
+﻿l_english: 
+
+ KNIGHTS_VIEW_FORCE:0 "บังคับ"
+ KNIGHTS_VIEW_ALLOW:0 "อนุญาต"
+ KNIGHTS_VIEW_FORBID:0 "ห้าม"
+ KNIGHTS_VIEW_TITLE:1 "$knight_culture_player_plural_no_tooltip$"
+ MAX_KNIGHT_COUNT:2 "$knight_culture_player_plural_no_tooltip$: #high [GetKnightCount( GetPlayer.Self )]/[GetKnightLimit( GetPlayer.Self )]#!"
+ MAX_KNIGHT_TOOLTIP:1 "#T จำนวนสูงสุดของ $knight_culture_player_plural_no_tooltip$: [knight_i][GetKnightLimit( GetPlayer.Self )|V]#!\n[GetKnightLimitBreakdown( GetPlayer.Self )]"
+ KNIGHT_EFFECTIVENESS:1 "ประสิทธิภาพ $knight_culture_player_no_tooltip$: #high [GetPlayer.GetKnightEffectiveness|%0]#!"
+ KNIGHT_EFFECTIVENESS_TOOLTIP:2 "#T [knight_effectiveness|E]: [GetPlayer.GetKnightEffectiveness|V%0]#!\nพื้นฐาน: #V 100%#!\n[GetPlayer.GetKnightEffectivenessBreakdown]"
+ KNIGHTS_VIEW_TITLE_FORBID_TT:2 "#T ห้าม [Character.GetShortUIName] จากการเป็น $knight_culture_player$#!\n\n[Character.GetShortUIName] #emphasis ห้าม#! เข้าร่วม [armies|E] ของท่านในฐานะ $knight_culture_player_no_tooltip$ โดยเด็ดขาด สิ่งนี้ช่วยให้ [Character.GetHerHim] ปลอดภัยจากการเสียชีวิตใน [battle|E]"
+ CREATE_ACCOLADE_FORBID_TT: "#T ห้ามมิให้ [CreateAccoladeView.GetSelectedKnight.GetShortUIName] เป็น $knight_culture_player$#!\n\n[CreateAccoladeView.GetSelectedKnight.GetShortUIName] จะไม่สามารถเข้าร่วม [armies|E] ของท่านในฐานะ $knight_culture_player_no_tooltip$ ได้ #emphasis เป็นอันขาด#! วิธีนี้จะช่วยปกป้อง[CreateAccoladeView.GetSelectedKnight.GetHerHim]ให้รอดพ้นจากความตายใน [battle|E]"
+ KNIGHTS_VIEW_TITLE_BY_PROWESS_TT:2 "#T อนุญาตให้ [Character.GetShortUIName] เป็น $knight_culture_player$#!\n\n[Character.GetShortUIName] อาจเข้าร่วม [armies|E] ของท่านในฐานะ $knight_culture_player_no_tooltip$ หาก [prowess|E] ของ [Character.GetHerHis] เป็นหนึ่งในผู้ที่สูงที่สุดใน [realm|E]"
+ CREATE_ACCOLADE_BY_PROWESS_TT:2 "#T อนุญาตให้ [CreateAccoladeView.GetSelectedKnight.GetShortUIName] เป็น $knight_culture_player$#!\n\n[CreateAccoladeView.GetSelectedKnight.GetShortUIName] อาจเข้าร่วม [armies|E] ของท่านในฐานะ $knight_culture_player_no_tooltip$ หาก [prowess|E] ของ[CreateAccoladeView.GetSelectedKnight.GetHerHis] เป็นหนึ่งในผู้ที่สูงที่สุดใน [realm|E]"
+ KNIGHTS_VIEW_TITLE_FORCE_TT:2 "#T บังคับให้ [Character.GetShortUIName] เป็น $knight_culture_player$#!\n\n[Character.GetShortUIName] #emphasis ต้อง#! เข้าร่วม [armies|E] ของท่านในฐานะ $knight_culture_player_no_tooltip$ โดยไม่คำนึงถึง [prowess|E] ของ [Character.GetHerHis] [Character.GetSheHe|U] อาจเข้ามาแทนที่ $knight_culture_player_no_tooltip$ ที่มีความสามารถในการรบสูงกว่า"
+ CREATE_ACCOLADE_FORCE_TT: "#T บังคับให้ [CreateAccoladeView.GetSelectedKnight.GetShortUIName] เป็น $knight_culture_player$#!\n\n[CreateAccoladeView.GetSelectedKnight.GetShortUIName] #emphasis จะต้อง#! เข้าร่วม [armies|E] ของท่านในฐานะ $knight_culture_player_no_tooltip$ ไม่ว่า[CreateAccoladeView.GetSelectedKnight.GetHerHis]จะมี [prowess|E] เท่าใดก็ตาม [CreateAccoladeView.GetSelectedKnight.GetSheHe|U] อาจเข้าแทนที่ตำแหน่งของ $knight_culture_player_no_tooltip$ ที่มีทักษะความสามารถในการต่อสู้สูงกว่า"
+ KNIGHTS_CURRENT_MAX:0 "[GetKnightCount( GetPlayer.Self )|V]/[GetKnightLimit( GetPlayer.Self )|V]"
+ KNIGHTS_SUBHEADER:0 "ข้าราชสำนัก [courtiers|E] และ ข้าหลวง [vassals|E] ที่มีสิทธิ์"
+ KNIGHTS_SUBHEADER_LANDLESS_ADVENTURER: "ผู้ติดตาม [followers|E] ที่มีสิทธิ์"
+
+ ### Knight permissions
+ 
+ knight_singular: "[GetPlayer.Custom('KnightCultureNoTooltip')]"
+ knight_plural: "[GetPlayer.Custom('KnightCulturePluralNoTooltip')]"
+ knight_singular_tt: "[GetPlayer.Custom('KnightCulture')]"
+ knight_plural_tt: "[GetPlayer.Custom('KnightCulturePlural')]"
+ KNIGHT_PERMISSIONS_TITLE: "สิทธิ์สำหรับ $knight_singular$"
+ KNIGHT_PERMISSIONS_SHORT: "สิทธิ์"
+ KNIGHT_PERMISSIONS_TT: "จัดการผู้ที่มีสิทธิ์รับใช้ในฐานะ $knight_singular_tt$[AddLocalizationIf(Not( KnightsView.GetKnightPermissions.IsDefault), 'KNIGHT_PERMISSIONS_SET')]"
+ KNIGHT_PERMISSIONS_SET: "\n#warning ตัวกรองบางตัวทำงานอยู่!#!"
+ YOUR_KNIGHT_PERMISSIONS: "กำหนดกฎเกณฑ์ของท่านว่าใครสามารถเป็น $knight_singular_tt$ ได้บ้าง\nไม่ส่งผลต่อ $knight_plural$ แบบ [acclaimed|e] หรือแบบบังคับ"
+ 
+ MINIMUM_PROWESS: "ทักษะความสามารถในการต่อสู้ขั้นต่ำ"
+ DECREASE_MIN_PROWESS_KP: "ลด [prowess|e] ขั้นต่ำที่ต้องการสำหรับ [knights|e]\n#i คลิกขวาเพื่อลดทีละ 10"
+ INCREASE_MIN_PROWESS_KP: "เพิ่ม [prowess|e] ขั้นต่ำที่ต้องการสำหรับ [knights|e]\n#i คลิกขวาเพื่อเพิ่มทีละ 10"
+ FAMILY_RELATIONS_KP: "ครอบครัวและความสัมพันธ์"
+ OTHER_CHILDERN_KP: "บุตรธิดาคนอื่นๆ"
+ WITH_TRAITS_KP: "ลักษณะนิสัย"
+ SPOUSES_OF_CHILDERN_KP: "คู่สมรสของบุตรธิดา"
+ COURT_POSITIONS_KP: "ตำแหน่งในราชสำนัก"
+ COURT_POSITIONS_TT: "ไม่อนุญาตสำหรับตำแหน่งที่ไม่ใช่สายต่อสู้\nยกเว้น [GetCourtPositionType('bodyguard_court_position').GetName] และ [GetCourtPositionType('garuda_court_position').GetName] ซึ่งจะได้รับอนุญาตให้เป็น [knights|e] เสมอ เนื่องจากพวกเขามีหน้าที่ช่วยเหลือในการรบ"
+ 
+ HBOX_DOCTRINE_FAITH_TT: "#T [FaithDoctrine.GetNameNoTooltip( Faith.Self )]#!\n[FaithDoctrine.GetEffectsDescription( Faith.Self )]\n\n[FaithDoctrine.GetDescription( Faith.Self )|F]"
+ KNIGHT_RESTRICTIONS: "มีข้อจำกัดอื่นๆ เพิ่มเติม"
+ 
+ # this is can_be_knight_trigger in 00_war_and_peace_triggers.txt
+ KNIGHT_RESTRICTIONS_TT: "#T ข้อจำกัดของอัศวิน#!\nเฉพาะ [vassals|e], [courtiers|e] หรือ [followers|e] ทางตรงของท่านเท่านั้นที่สามารถรับใช้ในฐานะ [knights|e] ได้\n[culture|e] หรือ [faith|e] ของท่านจะเป็นตัวกำหนดเพศที่สามารถปฏิบัติหน้าที่เป็น [knights|e] ได้\n\nอัศวินไม่สามารถเป็น:\n - ผู้เล่น, [child|e], [prisoner|e] หรือ [GetTrait('incapable').GetName(GetPlayer.Self)]\n - สมาชิก [clergy|e] (เว้นแต่ [faith|e] หรือ [culture|e] จะอนุญาต)\n - [master_assassin|e] หรือ [GetTrait('blind').GetName(GetPlayer.Self)] (เว้นแต่ [culture|e] จะอนุญาต หรือพวกเขาเป็น [GetTrait('order_member').GetName(GetPlayer.Self)])\n - [diarch|e] หรือ [ceremonial_liege|e]\n - [governor|e] แห่ง [duchy|e] (หรือ [title|e] ที่สูงกว่า) หรือ [house_head|e] แห่ง [noble_family|e]\n\n[traditions|e] ทางวัฒนธรรมและเหตุการณ์บางอย่างอาจช่วยยกเลิกข้อจำกัดบางประการได้"
+ 
+ KP_CULTURE_MINIMUM_PROWESS: "@alert_icon! [culture|e] ของท่านต้องการ [prowess|e] อย่างน้อย 12"
+ KP_CULTURE_ADMIN_FAMILY_KNIGHTS: "@check_icon! [culture|e] ของท่านยกเลิกข้อจำกัดทางเพศบางประการสำหรับ [wars|e] เชิงรับ"
+ KP_CULTURE_HIGH_PROWESS: "@check_icon! [culture|e] ของท่านยกเลิกข้อจำกัดส่วนใหญ่สำหรับ [knights|e] ที่มี [prowess|e] อย่างน้อย 10"

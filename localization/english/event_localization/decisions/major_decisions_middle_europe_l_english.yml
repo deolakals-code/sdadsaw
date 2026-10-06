@@ -1,0 +1,88 @@
+﻿l_english: 
+
+# Forming the Swiss Confederation, by Flavio Verna
+ middle_europe_decisions.0001.t:0 "สมาพันธรัฐสวิส"
+ middle_europe_decisions.0001.desc:0 "เป็นเวลานานแล้วที่นครต่างๆ รอบเทือกเขาแอลป์ตอนกลางถูกคุกคามโดยผู้มีอำนาจอื่นภายในจักรวรรดิ บัดนี้ พวกเขาได้รวมตัวกันภายใต้ธงผืนเดียว สร้างพันธมิตรที่เป็นประโยชน์ร่วมกัน และได้รับเกียรติเป็นเขตปกครองอิสระของจักรวรรดิ \n\nเพื่อเป็นเกียรติแก่การอุทิศตนของราชวงศ์ข้าที่มีต่อรัฐนครสวิส ข้าได้รับเลือกให้เป็นประมุขของสหภาพนี้ ผู้ ซึ่งจะเป็นผู้นำเชิงสัญลักษณ์ของทุกแคนทอนในสมาพันธรัฐสวิสใหม่ของเรา เราจะไม่ถูกคุกคามจากภายนอกอีกต่อไป แต่จะผงาดขึ้นเป็นผู้มีอำนาจอิสระที่แข็งแกร่งในจักรวรรดิแทน"
+ middle_europe_decisions.0001.a:0 "เราร่วมยืนหยัด!"
+ middle_europe_decisions.0002.desc.emperor:0 "หลังจากหลายปีแห่งความขัดแย้งและข้อตกลงทางการทูตที่ไม่มั่นคง ข้าถูกบังคับให้มอบสถานะเขตปกครองอิสระของจักรวรรดิแก่แคนทอนสวิส\n\nกลุ่มเมืองบนเทือกเขาแอลป์เหล่านี้ได้รวมตัวกันเป็นสมาพันธรัฐขนาดใหญ่เพื่อป้องกันตนเองจากการรุกรานของชาวเบอร์กันดีและขุนนางเยอรมัน ข้าต้องระมัดระวังในการควบคุมพวกเขา มิฉะนั้นความสำเร็จของพวกเขาอาจหว่านความขัดแย้งในหมู่ชาวเมืองเพื่อนบ้านได้"
+ middle_europe_decisions.0002.desc.vassals:0 "หน่วยการปกครองใหม่ที่เรียกว่าสมาพันธรัฐสวิสได้ถือกำเนิดขึ้นในจักรวรรดิ พวกเขาคือการรวมตัวของนครต่างๆ ที่มีสถานะเขตปกครองอิสระของจักรวรรดิ ตั้งอยู่รอบเทือกเขาแอลป์ตอนกลาง และได้เข้าร่วมพันธมิตรป้องกันตนเองเพื่อปกป้องตนเองจากผู้คัดเลือกอื่นๆ รอบข้าง\n\nในฐานะกองกำลังอิสระที่น่าเกรงขาม พวกเขาได้หลุดพ้นจากการอ้างสิทธิ์ใดๆ ก่อนหน้านี้เหนือดินแดนของตน ไม่ว่าจะเป็นจากชาวเบอร์กันดีเก่าแก่ทางตะวันตก หรือขุนนางเยอรมันทางเหนือ\n\nข้าควรจับตาดูภัยคุกคามที่อาจเกิดขึ้นใหม่นี้ในจักรวรรดิ"
+ middle_europe_decisions.0002.a:0 "ช่างแปลกประหลาด..."
+
+# Forming the Archduchy of Austria, by Flavio Verna
+ middle_europe_decisions.0003.t:0 "อาร์ชดัชชีแห่งออสเตรีย"
+ middle_europe_decisions.0003.desc:1 "ด้วยความสำเร็จอันรุ่งโรจน์ของข้าในการรวบรวมดินแดนใจกลางออสเตรีย และอิทธิพลอันมหาศาลที่ราชวงศ์ของข้าได้รับเหนือจักรวรรดิโรมันอันศักดิ์สิทธิ์ ในที่สุด [scoped_emperor.GetTitledFirstName] ก็ได้ยอมรับความเป็นใหญ่ของออสเตรียเหนือเหล่าดยุกเล็กน้อยจำนวนมากของเยอรมนี\n\nนับจากนี้ไป ผู้สืบทอดตำแหน่งทั้งหมดของข้าจะดำรงบรรดาศักดิ์อันทรงเกียรติ #EMP อาร์ชดยุก#! ซึ่งเทียบเท่ากับกษัตริย์ใดๆ เพื่อแยกตนเองออกจากเจ้าชายและเจ้าหญิงที่ด้อยกว่าในจักรวรรดิ"
+ middle_europe_decisions.0003.a:0 "Austria erit in orbe ultima!"
+ middle_europe_decisions.0004.desc.emperor_archduke:0 "ด้วยการใช้ประโยชน์จากการควบคุมบัลลังก์จักรวรรดิของ [scoped_ruler.GetHerHis] [scoped_ruler.GetTitledFirstName] ได้มอบบรรดาศักดิ์อาร์ชดยุกแห่งออสเตรียให้แก่ [scoped_ruler.GetHerselfHimself] อย่างถูกต้องตามกฎหมาย ทำให้ดัชชีเทียบเท่ากับอาณาจักรใดๆ"
+ middle_europe_decisions.0004.desc.emperor:0 "เป็นเรื่องถูกต้องแล้วที่ผู้ปกครองดินแดนใจกลางออสเตรีย ซึ่งเป็นบ้านของราชวงศ์ของข้าเอง ควรได้รับการแยกออกจากเจ้าชายและเจ้าหญิงอื่นๆ ของจักรวรรดิ \n\nดังนั้น ข้าจึงเพิ่งยอมทำตามคำร้องขอของ [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('scoped_ruler'))] และประกาศให้ [scoped_ruler.GetFirstName] เป็น [scoped_ruler.GetTitleTierName] แห่งออสเตรีย"
+ middle_europe_decisions.0004.desc.emperor_blackmailed:0 "ออสเตรียถือว่าตนเองเหนือกว่าส่วนที่เหลือของจักรวรรดิมาโดยตลอด และในวันนี้ [scoped_ruler.GetFirstName] ได้ยืนยันสิ่งนั้นแล้ว ด้วยการใช้ความสัมพันธ์ของ [scoped_ruler.GetHerHis] ที่มีต่อข้า ข้าไม่มีทางเลือกอื่นนอกจากต้องยืนยันสถานะของ [scoped_ruler.GetHerHis] ในฐานะอาร์ชดยุก ซึ่งเทียบเท่ากับกษัตริย์ใดๆ"
+ middle_europe_decisions.0004.desc.vassals:0 "ด้วยการใช้ประโยชน์จากอิทธิพลที่ราชวงศ์ [scoped_ruler.GetDynastyName] มีเหนือบัลลังก์จักรวรรดิ [scoped_ruler.GetFirstName] ได้โน้มน้าวให้ [scoped_emperor.GetTitledFirstName] มอบเกียรติยศพิเศษแก่ [scoped_ruler.GetHerHim]\n\nนับจากนี้ไป ออสเตรียจะถือเป็นอาร์ชดัชชี อันดับแรกในบรรดาราชรัฐของจักรวรรดิโรมันอันศักดิ์สิทธิ์"
+ middle_europe_decisions.0004.a:0 "สมควรได้รับอย่างยิ่ง"
+ middle_europe_decisions.0004.b:0 "ช่างสะดวกเสียจริง..."
+
+# Reforming the Carolingian Empire, by Flavio Verna
+ middle_europe_decisions.0005.t:0 "ความฝันของชาร์เลอมาญ"
+ middle_europe_decisions.0005.desc:0 "ยุโรปกลับเป็นปึกแผ่นอีกครั้ง ลูกหลานชาวแฟรงก์ทั้งหมดได้ถูกนำมารวมอยู่ภายใต้ธงผืนเดียวและยืนหยัดเป็นหนึ่งเดียวต่อต้านพวกนอกรีตทางตะวันตกและพวกนอกศาสนาทางตะวันออก\n\nด้วยพระคุณของ [scoped_ruler.GetFaith.HighGodName] ตระกูลของข้าได้รับสิทธิพิเศษในการครองมงกุฎแห่งจักรวรรดิการอแล็งเฌียงที่ฟื้นฟูขึ้นใหม่นี้ และแตกต่างจากผู้ที่มาก่อนเรา เราจะไม่ยอมให้ความขัดแย้งในราชวงศ์มาฉีกทำลายอาณาจักรอันยิ่งใหญ่นี้"
+ middle_europe_decisions.0005.a:0 "สรรเสริญแด่ [scoped_ruler.GetFaith.HighGodName]!"
+ middle_europe_decisions.0006.desc:0 "[scoped_ruler.GetTitledFirstName] และกองทัพชาวแฟรงก์ของ [scoped_ruler.GetHerHis] ได้รุกล้ำเข้ามาในดินแดนของจักรวรรดิไกลเสียจน [scoped_ruler.GetSheHe] เริ่มอ้างว่า [scoped_ruler.GetSheHe] คือทายาทที่แท้จริงของชาร์เลอมาญ และจักรวรรดิโรมันอันศักดิ์สิทธิ์เป็นเพียงภาพเลียนแบบอันซีดจางของความรุ่งโรจน์แห่งการอแล็งเฌียง\n\nด้วยจังหวัดดั้งเดิมทั้งหมดและส่วนใหญ่ของยุโรปตะวันตกอยู่ภายใต้การควบคุมของ [scoped_ruler.GetHerHis] จึงเป็นเรื่องยากที่ใครจะปฏิเสธคำกล่าวอ้างดังกล่าวได้"
+ middle_europe_decisions.0006.a:0 "บังอาจนัก [scoped_ruler.GetSheHe]!"
+ middle_europe_decisions.0006.b:0 "ข้าสงสัยว่าจักรวรรดินี้จะคงอยู่นานกว่าหรือไม่?"
+
+# Unifying the Burgundies, by Flavio Verna
+ middle_europe_decisions.0007.t:0 "เบอร์กันดีหนึ่งเดียว"
+ middle_europe_decisions.0007.desc:0 "ดินแดนเบอร์กันดีทั้งหมดได้รวมเป็นหนึ่งภายใต้มงกุฎเดียว ไม่ถูกแบ่งแยกเป็นอาณาจักรเล็กๆ ที่ทำสงครามกันอีกต่อไป ดินแดนโบราณของเราได้ทวงคืนศักดิ์ศรีของอาณาจักรกลับคืนมา\n\nเป็นเวลาพอสมควรแล้วที่อำนาจของ [former_liege.GetTitledFirstNamePossessive] เหนือข้าเริ่มลดน้อยลงจนข้าไม่รู้สึกถึงความจงรักภักดีใดๆ ต่อสิ่งที่ข้าถือว่าเป็นผู้เท่าเทียมกันมากกว่านายเหนือหัว"
+ middle_europe_decisions.0007.a:0 "เราไม่ต้องการการคุ้มครองจากผู้ใด!"
+ middle_europe_decisions.0008.desc.liege:0 "ข้ากังวลมาระยะหนึ่งแล้วกับความพยายามของ [scoped_ruler.GetTitledFirstNamePossessive] ที่จะรวมแผ่นดินเบอร์กันดีให้อยู่ภายใต้ธงผืนเดียว และบัดนี้ความกลัวอันเลวร้ายที่สุดของข้าก็ได้กลายเป็นจริง\n\nเจ้าคนอกตัญญูผู้นั้นได้ตัดสินใจประกาศ [scoped_ruler.GetHerselfHimself] เป็น [scoped_ruler.GetTitleTierName] แห่งเบอร์กันดี และละเมิดคำสัตย์ปฏิญาณในฐานะข้าหลวงของ [scoped_ruler.GetHerHis]!"
+ middle_europe_decisions.0008.desc.others:0 "หลังจากใช้เวลาหลายปีในการรวมดินแดนเบอร์กันดี [scoped_ruler.GetFirstName] ได้ตัดสินใจสวมมงกุฎให้ [scoped_ruler.GetHerselfHimself] เป็น [scoped_ruler.GetTitleTierName] แห่งเบอร์กันดี และประกาศอิสรภาพจาก [former_liege.GetTitledFirstName]\n\nการกระทำอันทรยศอย่างอุกอาจนี้ไม่น่าจะถูกลืมเลือนในเร็ววัน..."
+ middle_europe_decisions.0008.a:0 "[scoped_ruler.GetSheHe|U] ไม่ใช่อะไรอื่นนอกจากคนทรยศ!"
+ middle_europe_decisions.0008.b:0 "อย่างน้อยนักเขียนแผนที่คงจะมีความสุข"
+
+# Empowering Sicilian Parliament, by Flavio Verna
+ middle_europe_decisions.0010.t:0 "สมัชชาฐานันดร"
+ middle_europe_decisions.0010.desc:0 "โครงสร้างพื้นฐานที่ชาวกรีกทิ้งไว้ในจังหวัดซิซิลีและอาปูเลียจะทำหน้าที่เป็นรากฐานในการเร่งการเปลี่ยนผ่านของ [scoped_ruler.GetPrimaryTitle.GetName] ไปสู่รูปแบบการปกครองที่รู้แจ้งมากขึ้น \n\nโดยการรวบรวมผู้แทนจากสามฐานันดรเข้าเป็นองค์กรที่ปรึกษาเดียว ซึ่งชี้นำโดยกฎหมายใหม่ที่อิงตามประเพณีโรมันเก่าแก่ ข้าจะรับประกันเสถียรภาพและความเจริญรุ่งเรืองในทะเลเมดิเตอร์เรเนียนสำหรับคนรุ่นต่อๆ ไป บัดนี้ข้าเพียงต้องตัดสินใจว่ารัฐสภานี้ควรจัดขึ้นที่ใด"
+ middle_europe_decisions.0010.tt_napoli_warning: "@warning_icon! #warning การสร้างรัฐสภาใน [GetTitleByKey('c_napoli').GetNameNoTier] จะทำให้ท่านไม่สามารถสร้างมหาวิทยาลัยได้!#!"
+ middle_europe_decisions.0010.a:0 "ในปาแลร์โม ที่ตั้งอันเก่าแก่!"
+ middle_europe_decisions.0010.b:0 "จะจัดขึ้นในเนเปิลส์"
+ middle_europe_decisions.0010.c:0 "ข้าควรพิจารณาการตัดสินใจนี้อย่างจริงจัง"
+ middle_europe_decisions.0011.desc:0 "[scoped_ruler.GetTitledFirstName] ได้ แต่งตั้งผู้แทนจากขุนนาง คณะสงฆ์ และชาวเมืองเพื่อจัดตั้งรัฐสภาใหม่ในอาณาจักรซิซิลี\n\nองค์กรที่ปรึกษานี้จะช่วยให้ [scoped_ruler.GetTitleTierName] และผู้สืบทอดของ [scoped_ruler.GetHerHis] ปกครองอย่างชาญฉลาดและมีประสิทธิภาพ เพื่อประโยชน์ของไพร่ฟ้าข้าแผ่นดินทั้งหมดของพวกเขา"
+ middle_europe_decisions.0011.a:0 "ข้าเข้าใจแล้ว..."
+
+# Gothic Innovations, by Flavio Verna
+ middle_europe_decisions.0012.t:0 "งานศิลป์แบบฝรั่งเศส"
+ middle_europe_decisions.0012.desc:0 "ยุคใหม่แห่งความเจริญรุ่งเรืองมาถึงแล้ว [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] ได้ผงาดขึ้นจากยุคมืดในฐานะสัญญาณส่องสว่างแห่งศิลปะและปรัชญา\n\nนครของเรากำลังเติบโตเป็นศูนย์กลางการค้าที่คึกคัก สร้างมหาวิหารใหม่อันน่าอัศจรรย์เพื่อแข่งขันกับอนุสรณ์สถานโบราณของจักรวรรดิโรมัน ดึงดูดจิตรกร กวี และนักปรัชญาทุกประเภท ภายใต้การอุปถัมภ์อันรู้แจ้งของราชวงศ์ข้า ประชาชน [scoped_ruler.GetCulture.GetName] จะกลายเป็นที่อิจฉาของทั่วยุโรป"
+ middle_europe_decisions.0012.a:0 "ให้งานอันยิ่งใหญ่ของเราดำเนินต่อไป!"
+ middle_europe_decisions.0013.t:0 "ยุคกอทิก"
+ middle_europe_decisions.0013.desc.french:0 "[scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] กำลังประสบกับช่วงเวลาแห่งความเจริญรุ่งเรืองและการเติบโตอย่างยิ่งใหญ่ เพื่อประโยชน์ของประชาชนของเราทุกคน \n\nนครของเรากำลังเติบโตเป็นศูนย์กลางการค้าที่คึกคัก สร้างมหาวิหารใหม่อันน่าอัศจรรย์เพื่อแข่งขันกับอนุสรณ์สถานโบราณของจักรวรรดิโรมัน ดึงดูดจิตรกร กวี และนักปรัชญาทุกประเภท ภายใต้การอุปถัมภ์อันรู้แจ้งของ [scoped_ruler.GetTitledFirstName] และราชวงศ์ [scoped_ruler.GetDynasty.GetBaseName] เราจะกลายเป็นที่อิจฉาของทั่วยุโรป"
+ middle_europe_decisions.0013.desc.italian:0 "ดูเหมือนว่า [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] กำลังประสบกับช่วงเวลาแห่งความเจริญรุ่งเรืองและการเติบโตอย่างยิ่งใหญ่ \n\nกวี นักปรัชญา สถาปนิก... ผู้มีความรู้จำนวนมากกำลังรวมตัวกันที่ราชสำนักของ [scoped_ruler.GetTitledFirstNamePossessive] ทว่าทั้งหมดที่พวกเขาทำได้สำเร็จจนถึงจุดนี้คือขบวนพาเหรดของอนุสรณ์สถานที่ดูเหมือนจะไม่มีที่สิ้นสุด ป่าเถื่อน และไร้อารยธรรม"
+ middle_europe_decisions.0013.desc.fallback:0 "[scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] กำลังประสบกับช่วงเวลาแห่งความเจริญรุ่งเรืองและการเติบโตอย่างยิ่งใหญ่ เพื่อประโยชน์ของประชาชน [ROOT.Char.GetCulture.GetNameNoTooltip] ทั้งหมด \n\nนครใหม่กำลังเติบโตเป็นศูนย์กลางการค้าที่คึกคัก สร้างมหาวิหารใหม่อันน่าอัศจรรย์เพื่อแข่งขันกับอนุสรณ์สถานโบราณของจักรวรรดิโรมัน ดึงดูดจิตรกร กวี และนักปรัชญาทุกประเภท ภายใต้การอุปถัมภ์อันรู้แจ้งของ [scoped_ruler.GetTitledFirstName] และราชวงศ์ [scoped_ruler.GetDynasty.GetBaseName] ดินแดนนี้จะกลายเป็นที่อิจฉาของทั่วยุโรป"
+ middle_europe_decisions.0013.a:0 "ช่างเป็นช่วงเวลาที่ยอดเยี่ยมที่เราอาศัยอยู่!"
+ middle_europe_decisions.0013.b:0 "บา! สิ่งนี้จะไม่มีวันคงอยู่ตลอดไป"
+ middle_europe_decisions.0013.c:0 "ดีสำหรับพวกเขาแล้วกระมัง..."
+
+# Restore Holy Roman Empire, by Ewan Cowhig Croft
+ middle_europe_decisions.0015.t:0 "จักรวรรดิแห่งตะวันตก"
+ middle_europe_decisions.0015.desc:0 "เป็นเวลานานเกินไปแล้วที่ตำแหน่งจักรพรรดิโรมันในตะวันตกไม่มีผู้ใดอ้างสิทธิ์ วันนี้ ขณะที่ข้าเผชิญหน้ากับ [founder_hof.GetTitledFirstName] ใน [founder.GetFaith.HouseOfWorship] ที่ยิ่งใหญ่ที่สุดใน [ceremony_locale.GetNameNoTooltip] ทั้งหมด ล้อมรอบด้วยข้าหลวงและคณะสงฆ์ของข้า สิ่งนั้นได้เปลี่ยนไป\n\nเราแลกเปลี่ยนคำอธิษฐานและของบริจาคตามธรรมเนียม ขอให้ [founder.GetFaith.HighGodName] ประทานพรให้ข้าด้วยความแข็งแกร่งและความเมตตาเพื่อปกครองจักรวรรดิของข้าตามพระประสงค์ของ [founder.GetFaith.HighGodHerHis|U] อย่างเคร่งขรึม [founder_hof.GetTitledFirstNameNoTooltip] มอบมงกุฎและดาบให้ข้า และมอบหมายให้ข้าดูแลคริสต์ศาสนิกชนทั้งหมด\n\nความเงียบ ตามมาด้วยเสียงเพลงสวดอันกึกก้อง ถูกกลบด้วยเสียงเชียร์อันดุเดือดของขุนนางของข้าเท่านั้น\n\nในที่สุด ข้าคือจักรพรรดิโรมันอันศักดิ์สิทธิ์"
+ middle_europe_decisions.0015.a:0 "จากออกัสตัส สู่ชาร์เลอมาญ สู่ [founder.GetFirstNameNoTooltip]!"
+ middle_europe_decisions.0016.desc:0 "จักรวรรดิโรมันในตะวันตกได้หยุดนิ่งมาระยะหนึ่งแล้ว ทำให้คำตอบของชาว [founder.GetFaith.GetAdjectiveNoTooltip] ต่อคำถามเรื่องศักดิ์ศรีของจักรวรรดิไม่แน่นอนอย่างดีที่สุด\n\nไม่แน่นอน จนกระทั่งบัดนี้ เมื่อ [founder.GetTitledFirstName] ได้รับความยินยอมจาก [founder_hof.GetTitledFirstName] ได้สถาปนาจักรวรรดิของชาร์เลอมาญขึ้นใหม่ในพิธีอันหรูหรา ซึ่งจัดขึ้นโดย [founder.GetFaith.HouseOfWorshipPlural] ที่ยิ่งใหญ่ที่สุดใน [ceremony_locale.GetNameNoTooltip]\n\nทั่วโลก [founder.GetFaith.PriestNeuterPlural] ชาว [founder.GetFaith.GetAdjectiveNoTooltip] ต่างชื่นชมยินดี มั่นใจว่าในที่สุดโรมก็มีทายาทที่แท้จริงและชอบธรรมอีกครั้ง!"
+ middle_europe_decisions.0016.a:0 "บา ความโอ้อวดอันเสแสร้งของจักรวรรดิ"
+ middle_europe_decisions.0016.b:0 "พวกเยอรมันป่าเถื่อน #emphasis ข้า#! คือจักรพรรดิโรมัน!"
+ middle_europe_decisions.0016.c:0 "หวังว่าจักรวรรดิจะสงบสุข"
+ middle_europe_decisions.0016.d:0 "ช่างเป็นภาพที่รุ่งโรจน์!"
+ # Electorate of Saxony by James Beaumont
+ establish_the_electorate_of_saxony_decision:0 "สถาปนารัฐผู้คัดเลือกแห่งซัคเซิน"
+ establish_the_electorate_of_saxony_decision_desc:0 "ดินแดนห่างไกลทางตะวันออกอยู่นอกเหนือการเข้าถึงของจักรวรรดิมานานเกินไปแล้ว เราต้องรวบรวมบรรดาศักดิ์เหล่านี้เข้าเป็นซัคเซินใหม่ เพื่อรักษาการปกครองของเราเหนือภูมิภาคนี้"
+ establish_the_electorate_of_saxony_decision_tooltip:0 "$establish_the_electorate_of_saxony_decision_desc$"
+ establish_the_electorate_of_saxony_decision_confirm:0 "สร้างซัคเซินใหม่!"
+ polabia_must_be_hre_culture_tt:0 "อย่างน้อย 12 [counties|E] ใน [GetGeographicalRegion('custom_polabia').GetName] ต้องเป็นวัฒนธรรมของท่านหรือวัฒนธรรมของ [liege|E] ของท่าน"
+ polabia_held_or_nonexistent.tt:0 "$k_sorbia$ ไม่มีอยู่หรือถูกถือครองโดยท่าน"
+ middle_europe_decision.0017.tt:0 "ในฐานะจักรพรรดิ ซัคเซินจะถูกมอบให้กับ [vassal|E] หรือ [courtier|E] เมื่อสร้างขึ้น"
+ middle_europe_decisions.0017.t:0 "รัฐผู้คัดเลือกแห่งซัคเซิน"
+ middle_europe_decisions.0017.desc:0 "เป็นเวลานานแล้วที่โพลลาเบียหลุดพ้นจากเงื้อมมือของศัตรูของ [hre_emperor_scope.GetPrimaryTitle.GetTierAsNameNoTooltip] แต่บัดนี้ประชากรของที่นั่นได้ถือว่า $e_hre$ เป็นบ้านที่แท้จริงของพวกเขาแล้ว\n\nด้วยการสถาปนารัฐผู้คัดเลือกแห่งซัคเซิน ภูมิภาคโอเบอร์ซัคเซินจะยังคงอยู่ในมือของ [hre_emperor_scope.GetTitleAsNameNoTooltip] และอยู่ภายใต้การนำทางของ [hre_emperor_scope.GetFaith.HighGodName] ตลอดไป"
+ middle_europe_decisions.0017.a:0 "ความรุ่งโรจน์แด่ซัคเซิน!"
+ middle_europe_decisions.0017.b:0 "[heir_scope.Custom2('MyCharacterIntroduction', ROOT.Char)|U] สมควรได้รับบรรดาศักดิ์นี้"
+ middle_europe_decisions.0017.c:0 "แท้จริงแล้ว [most_powerful_saxon.GetNameNoTooltip] นั้นคู่ควร"
+ middle_europe_decisions.0017.d:0 "นี่คือของขวัญของข้าแก่ศาสนจักร"
+ middle_europe_decisions.0017.e:0 "ยินดีด้วย [rando_courtier_scope.GetNameNoTooltip]!"
+ middle_europe_decisions.0018.desc:0 "$middle_europe_decisions.0017.desc$\n\n[hre_emperor_scope.GetNameNoTooltip] ได้ตัดสินใจมอบบรรดาศักดิ์ใหม่นี้ให้กับ [new_saxon_king.GetName] เพื่อเป็นการยอมรับในการรับใช้บัลลังก์ของ [new_saxon_king.GetHerHis]"
+ middle_europe_decisions.0018.a.new_king:0 "ความรุ่งโรจน์แด่ข้า!"
+ middle_europe_decisions.0018.a.slav:0 "สาปแช่งพวกมัน!"
+ middle_europe_decisions.0018.a:0 "ดีสำหรับพวกเขา"

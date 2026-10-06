@@ -1,0 +1,22 @@
+﻿l_english: 
+
+ HAS_FOCUS_TRIGGER:0 "มี[focus|E] [FOCUS.GetName]"
+ NOT_HAS_FOCUS_TRIGGER:0 "#bold ไม่มี#! [focus|E] [FOCUS.GetName]"
+ I_HAVE_FOCUS_TRIGGER:1 "ท่านมี[focus|E] [FOCUS.GetName]"
+ NOT_I_HAVE_FOCUS_TRIGGER:1 "ท่าน #bold ไม่มี#! [focus|E] [FOCUS.GetName]"
+ THEY_HAVE_FOCUS_TRIGGER:0 "[CHARACTER.GetShortUIName|V] มี[focus|E] [FOCUS.GetName]"
+ NOT_THEY_HAVE_FOCUS_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold ไม่มี#! [focus|E] [FOCUS.GetName]"
+
+ HAS_LIFESTYLE_TRIGGER:0 "มี[lifestyle|E] [LIFESTYLE.GetName]"
+ NOT_HAS_LIFESTYLE_TRIGGER:0 "#bold ไม่มี#! [lifestyle|E] [LIFESTYLE.GetName]"
+ I_HAVE_LIFESTYLE_TRIGGER:1 "ท่านมี[lifestyle|E] [LIFESTYLE.GetName]"
+ NOT_I_HAVE_LIFESTYLE_TRIGGER:1 "ท่าน #bold ไม่มี#! [lifestyle|E] [LIFESTYLE.GetName]"
+ THEY_HAVE_LIFESTYLE_TRIGGER:0 "[CHARACTER.GetShortUIName|V] มี[lifestyle|E] [LIFESTYLE.GetName]"
+ NOT_THEY_HAVE_LIFESTYLE_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold ไม่มี#! [lifestyle|E] [LIFESTYLE.GetName]"
+
+ HAS_PERK_TRIGGER:0 "มี[perk|E] [PERK.GetName(CHARACTER.Self)]"
+ NOT_HAS_PERK_TRIGGER:0 "#bold ไม่มี#! [perk|E] [PERK.GetName(CHARACTER.Self)]"
+ I_HAVE_PERK_TRIGGER:1 "ท่านมี[perk|E] [PERK.GetName(CHARACTER.Self)]"
+ NOT_I_HAVE_PERK_TRIGGER:1 "ท่าน #bold ไม่มี#! [perk|E] [PERK.GetName(CHARACTER.Self)]"
+ THEY_HAVE_PERK_TRIGGER:0 "[CHARACTER.GetShortUIName|VU] มี[perk|E] [PERK.GetName(CHARACTER.Self)]"
+ NOT_THEY_HAVE_PERK_TRIGGER:0 "[CHARACTER.GetShortUIName|VU] #bold ไม่มี#! [perk|E] [PERK.GetName(CHARACTER.Self)]"

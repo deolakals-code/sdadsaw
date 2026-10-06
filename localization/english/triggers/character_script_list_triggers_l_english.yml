@@ -1,0 +1,30 @@
+﻿l_english: 
+
+ ALL_LIVING_CHARACTERS:0 "ตัวละครที่มีชีวิตอยู่ทั้งหมด:"
+ ANY_LIVING_CHARACTER:0 "ตัวละครใดๆ ที่มีชีวิตอยู่:"
+
+ ALL_POOL_CHARACTERS:0 "ตัวละครในพูลทั้งหมด:"
+ ANY_POOL_CHARACTER:0 "ตัวละครใดๆ ในพูล:"
+
+ ANY_OF_CHARACTERS_VASSALS:1 "[vassals|E] คนใดคนหนึ่งของ [CHARACTER.GetShortUINamePossessive]:"
+ ANY_OF_CHARACTERS_VASSALS_OR_BELOW: "[vassals|E] คนใดคนหนึ่งของ [CHARACTER.GetShortUINamePossessive] หรือตัวละครที่ถือครอง [landed|E] ภายใต้พวกเขา:"
+ ALL_OF_CHARACTERS_VASSALS:1 "[vassals|E] ทั้งหมดของ [CHARACTER.GetShortUINamePossessive]:"
+ ANY_OF_CHARACTERS_VASSALS_PERCENT:0 "$PARAMETERS$ ของ [vassals|E] ของ [CHARACTER.GetShortUINamePossessive]:"
+ ANY_OF_CHARACTERS_VASSALS_COUNT:0 "$PARAMETERS$ คนของ [vassals|E] ของ [CHARACTER.GetShortUINamePossessive]:"
+ 
+ ANY_DYNASTY_MEMBER_COUNT:0 "สมาชิก $PARAMETERS$ คนของ [dynasty|E] [DYNASTY.GetBaseName]:"
+
+ ANY_IN_DE_JURE_ALL_GLOBAL:0 "[titles|E] ใดๆ ตามนิตินัย"
+ NOT_ANY_IN_DE_JURE_ALL_GLOBAL:0 "[titles|E] ที่ไม่ใช่นิตินัย"
+ ANY_IN_DE_JURE_ALL_THIRD:0 "[titles|E] ใดๆ ตามนิตินัยของ [TITLE.GetName]"
+ NOT_ANY_IN_DE_JURE_ALL_THIRD:0 "[titles|E] ที่ไม่ใช่นิตินัยของ [TITLE.GetName]"
+
+ ANY_REALM_COUNTY:0 "[county|E] ใดๆ ใน [realm|E]:"
+ ANY_REALM_COUNTY_COUNT:0 "$PARAMETERS$ [counties|E] ใน [realm|E]:"
+
+ ANY_OF_CHARACTERS_RELATIONS: "ความสัมพันธ์[relations|E]ใดๆ ของ[CHARACTER.GetShortUINamePossessive]:"
+
+ ANY_SITUATION_SUB_REGION_GLOBAL: "[situation_sub_region|E]ใดๆ ใน[situation|E][SITUATION.GetName]:"
+ NOT_ANY_SITUATION_SUB_REGION_GLOBAL: "ไม่มี[situation_sub_regions|E]ใดๆ ใน[situation|E][SITUATION.GetName]:"
+ ANY_SITUATION_SUB_REGION_THIRD: "$ANY_SITUATION_SUB_REGION_GLOBAL$"
+ NOT_ANY_SITUATION_SUB_REGION_THIRD: "$NOT_ANY_SITUATION_SUB_REGION_GLOBAL$"

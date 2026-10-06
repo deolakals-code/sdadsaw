@@ -1,0 +1,25 @@
+﻿l_english: 
+ 
+#RACE EVENTS
+ jason_first_race_event.1.t:0 "ความชุลมุน"
+ jason_first_race_event.1.desc:1 "ขณะควบเต็มฝีเท้า นักขี่ของ [opponent.GetTitledFirstNamePossessive] ก็เบียดม้า #EMP [opponent.Custom('GetContestHorseRaceName')]#! เข้าใส่ม้าของข้าและนักขี่ [jockey.GetFirstName] — หรือบางทีอาจเป็นม้า #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#! ที่หักเข้าใส่พวกเขากันแน่? ไม่ว่า อย่างไรก็ตาม ทั้งหมดก็เสียหลักเซถลาไปด้านข้างชนเข้ากับรั้วกั้น\n\nจากที่เคยมีฝูงม้าแข่งวิ่งควบอยู่เต็มสนาม เหงื่อท่วมตัวเป็นมันวาว บัดนี้มีสองตัวกระเด็นแยกออกจากกลุ่ม นักขี่พยายามอย่างยิ่งที่จะควบคุมพวกมัน\n\nฝูงนักแข่งยังคงควบต่อไปข้างหน้า ทิ้งม้าสองตัวที่โคลงเคลงไว้เบื้องหลังหนึ่งช่วงตัว"
+ jason_first_race_event.1.desc.suspicious:0 "ท่ามกลางเหล่าบริวารของ[opponent.GetHerHis] [opponent.GetTitledFirstNameNoTooltip] ร้องอุทานด้วยความ "ตกใจ"... อย่างไม่น่าเชื่อถือนัก"
+ jason_first_race_event.1.desc.sympathetic:0 "ท่ามกลางเหล่าบริวารของ[opponent.GetHerHis] [opponent.GetTitledFirstNameNoTooltip] ร้องอุทานด้วยความสยดสยอง"
+ jason_first_race_event.1.a:0 "กลอุบาย! ข้าถูกโกง!"
+ jason_first_race_event.1.a.tt:1 "การกระทำอันก้าวร้าวนี้เป็นเหตุให้ตัดสิทธิ์พวกเขาได้!"
+ jason_first_race_event.1.a.tt.win:1 "การ "เล่นไม่ซื่อ" ของ [opponent.GetFirstNamePossessiveNoTooltip] ทำให้ม้าของพวกเขาถูกตัดออกจากการแข่งขัน"
+ jason_first_race_event.1.a.tt.lose:0 "ท่านฟังดูเป็นคนใจแคบ... ไม่มีผู้ใดใส่ใจคำพูดของท่าน"
+
+ jason_first_race_event.1.b:0 "[opponent.GetFirstNameNoTooltip] เพียงผู้เดียวที่ร่วมเผชิญชะตากรรมอันเลวร้ายนี้"
+ jason_first_race_event.1.b.tt:1 "ท่านแสดงความเห็นใจอย่างจริงใจต่อเพื่อนร่วมแข่งขันผู้โชคร้าย"
+
+ jason_first_race_event.1.c:2 ""ผ่อนสายบังเหียน [jockey.GetFirstNameNoTooltip]!""
+ jason_first_race_event.1.c.tt:1 "ตะโกนบอกนักขี่ของท่านเพื่อเป็นกำลังใจให้เขาสู้ต่อไป!"
+ jason_first_race_event.1.c.tt.win:1 "[jockey.GetFirstNameNoTooltip] ควบคุมม้า[jockey.GetHerHis]ให้นิ่งได้"
+ jason_first_race_event.1.c.tt.lose:1 "[jockey.GetFirstNameNoTooltip] ไม่ได้ยินเสียงท่าน"
+
+ jason_first_race_event.1.d:1 "ลาก่อน ชัยชนะ?"
+ jason_first_race_event.1.d.tt:1 "ข้าเพียงหวังว่า [jockey.GetFirstNameNoTooltip] จะปลอดภัยดี..."
+
+ contest_horse_race_collision_log_title:0 "นักแข่งปะทะกัน"
+ contest_horse_race_collision_log:1 "ม้าแข่งของ [CHARACTER.GetShortUINamePossessive|U] และ [TARGET_CHARACTER.GetShortUINamePossessive] เบนเข้าหากัน"

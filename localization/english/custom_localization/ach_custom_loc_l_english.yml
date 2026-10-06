@@ -1,0 +1,144 @@
+﻿l_english: 
+# GetRandomConflictDescriptor
+ RandomConflictDescriptorIrelandToCathay: "เลื่องชื่อกระฉ่อนจากไอร์แลนด์ถึงคาเธ่ย์"
+ RandomConflictDescriptorAcrossChristendom: "เลื่องชื่อกระฉ่อนทั่วดินแดนคริสต์"
+ RandomConflictDescriptorSchism: "ยิ่งใหญ่กว่าความขัดแย้งแห่งตะวันออกและตะวันตก"
+ RandomConflictDescriptorStuffOfLegends: "เป็นที่เล่าขานดั่งตำนาน"
+ RandomConflictDescriptorFromEastToWest: "เป็นที่กล่าวขานจากตะวันออกจรดตะวันตก"
+ RandomConflictDescriptorMarTheMood: "บั่นทอนบรรยากาศอันน่ารื่นรมย์"
+ RandomConflictDescriptorHangDarkly: "ทอดเงาอันมืดมนเหนือขบวนแห่"
+# GetHoFGreeterExchangeFirstPerson
+ HoFGreeterExchangeFPHopefullySubtleEmbrace: "เราสวมกอดกันอย่าง — หวังว่า — แนบเนียน"
+ HoFGreeterExchangeFPAllTooShortEmbrace: "เราสวมกอดกันชั่วครู่ที่แสนสั้น"
+ HoFGreeterExchangeFPJoyousEmbrace: "เราสวมกอดกันด้วยความปิติยินดี"
+ HoFGreeterExchangeFPBriefAndCourteous: "เราสนทนากันสั้นๆ อย่างสุภาพ"
+ HoFGreeterExchangeFPCurtAndBrief: "เราสนทนากันอย่างค่อนข้างห้วนและโชคดีที่สั้น"
+ HoFGreeterExchangeFPVitriolAndAnger: "เราปะทุโทสะและวาจาเผ็ดร้อนใส่กันหลายนาที"
+ HoFGreeterExchangeFPVeiledInsults: "การสาดวาจาดูแคลนที่แฝงนัย"
+# GetHoFGreeterExchange
+ HoFGreeterExchangeTenderAndBrotherly: "พวกเขาสวมกอดกันอย่างอ่อนโยนดั่งพี่น้อง"
+ HoFGreeterExchangeTenderAndSisterly: "พวกเขาสวมกอดกันอย่างอ่อนโยนดั่งพี่น้อง"
+ HoFGreeterExchangeOverlong: "พวกเขาสวมกอดกันนานเกินควร"
+ HoFGreeterExchangeJoyous: "พวกเขาพูดคุยกันอย่างปิติยินดีและเต็มไปด้วยเสียงหัวเราะ"
+ HoFGreeterExchangeCourteous: "พวกเขาแลกเปลี่ยนวาจาสุภาพต่อกัน"
+ HoFGreeterExchangeBrief: "การพูดคุยสั้นๆ"
+ HoFGreeterExchangeTense: "การพูดคุยอันตึงเครียด"
+ HoFGreeterExchangeOpenlyHostile: "วาจาที่เป็นปรปักษ์อย่างเปิดเผยสองสามคำ"
+ HoFGreeterExchangeLoudAndCurseLaden: "การโต้เถียงเสียงดังที่เต็มไปด้วยคำสบถ"
+# GetRandomCoronationObject
+ RandomCoronationObjectWhiteRod: "คทาขาวแห่งการสถาปนา"
+ RandomCoronationObjectCoronationCloak: "เสื้อคลุมราชาภิเษก"
+ RandomCoronationObjectApostolicCross: "กางเขนอัครสาวก"
+ RandomCoronationObjectRoyalReligioustext: "[ROOT.Char.GetFaith.ReligiousText2] ฉบับหลวง"
+ RandomCoronationObjectRegaliaArtifact: "[equipped_regalia.GetName]"
+ RandomCoronationObjectSceptreAndOrb: "คทาและลูกโลก"
+ RandomCoronationObjectCoronationSpoon: "ช้อนราชาภิเษก"
+ RandomCoronationObjectCoronationSword: "ดาบราชาภิเษก"
+ RandomCoronationObjectCoronationRings: "แหวนราชาภิเษก"
+# GetBusynessOpinion
+ BusynessOpinionLazy: "ที่แย่ไปกว่านั้น, "
+ BusynessOpinionDiligent: "โชคดีที่"
+ BusynessOpinionNeutral: "แต่อย่างน้อย"
+# GetCoronationSite
+ CoronationSitePalatineChapel: "โบสถ์น้อยพาลาทีน"
+ CoronationSiteChurchOfTheHolySepulchre: "โบสถ์พระคูหาศักดิ์สิทธิ์"
+ CoronationSiteWawelCathedral: "มหาวิหารวาเวล"
+ CoronationSiteWestminsterAbbey: "เวสต์มินสเตอร์แอบบีย์"
+ CoronationSiteLocalHolding: "[ROOT.Province.GetName]"
+# GetCoronationSiteShort
+ CoronationSitePalatineChapel_short: "โบสถ์น้อย"
+ CoronationSiteChurchOfTheHolySepulchre_short: "โบสถ์"
+ building_hagia_sophia_01_short: "โบสถ์"
+ building_hagia_sophia_02_short: "มัสยิด"
+ CoronationSiteWawelCathedral_short: "มหาวิหาร"
+ CoronationSiteWestminsterAbbey_short: "แอบบีย์"
+ CoronationSiteLocalHolding_short: "โถงราชาภิเษก"
+# GetRandomHoldingStreet
+ RandomHoldingLocationOutskirts: "เขตรอบนอก"
+ RandomHoldingLocationRoads: "ถนนหนทาง"
+ RandomHoldingLocationStreets: "ท้องถนน"
+ RandomHoldingLocationAlleys: "ตรอกซอกซอย"
+ RandomHoldingLocationCanals: "คูคลอง"
+
+ # GetTitleTierAdjective
+ adjective_khaganal: "แห่งคาคาน"
+ adjective_imperial: "แห่งจักรวรรดิ"
+ adjective_khanal: "แห่งข่าน"
+ adjective_royal: "แห่งราชวงศ์"
+ adjective_chiefly: "แห่งหัวหน้าเผ่า"
+ adjective_ducal: "แห่งดยุก"
+ adjective_comital: "แห่งเคานต์"
+ adjective_baronial: "แห่งบารอน"
+ adjective_noble: "แห่งขุนนาง"
+ adjective_common: "สามัญ"
+
+ # GetLocalCommonerTerm
+ tribesman: "ชนเผ่าชาย"
+ tribeswoman: "ชนเผ่าหญิง"
+ villager: "ชาวบ้าน"
+ townsman: "ชาวเมืองชาย"
+ townswoman: "ชาวเมืองหญิง"
+ peasant: "ไพร่"
+
+# GetLocalCommonerTermPlural
+ tribespeople: "ชนเผ่า"
+ villagers: "ชาวบ้าน"
+ cityfolk: "ชาวนคร"
+ townsfolk: "ชาวเมือง"
+ commoners: "สามัญชน"
+
+# GetFighterTerm
+ man_at_arms: "ทหารอาวุธ"
+ soldier: "ทหาร"
+ warrior: "นักรบ"
+
+ # GetFighterTermPlural
+ soldiers_custom_loc: "ทหาร"
+ men_at_arms: "ทหารอาวุธ"
+
+# GetFighterTermPossessive
+ man_at_arms_possessive: "ของทหารอาวุธ"
+ soldier_possessive: "ของทหาร"
+ warrior_possessive: "ของนักรบ"
+
+# GetMotherlyFatherly
+motherly: "ดั่งมารดา"
+fatherly: "ดั่งบิดา"
+parental: "ดั่งบุพการี"
+
+# GetLowOfficial
+tribal_elder: "ผู้อาวุโสประจำเผ่า"
+seigneur: "เซเญอร์"
+signore: "ซินญอเร"
+hidalgo: "อีดัลโก"
+junker: "ยุงเคอร์"
+# GetLowOfficialPlural
+magistrates: "เจ้าหน้าที่ปกครอง"
+archons: "อาร์คอน"
+tribal_elders: "ผู้อาวุโสประจำเผ่า"
+seigneurs: "เซเญอร์"
+signori: "ซินญอรี"
+hidalgos: "อีดัลโก"
+walis: "วาลี"
+junkers: "ยุงเคอร์"
+
+# GetRegionalSword
+katana: "คาตานะ"
+shamshir: "ชัมเชียร์"
+shotel: "โชเทล"
+akrafena: "อคราเฟนา"
+ida: "อิดา"
+takoba: "ทาโคบา"
+dha: "ดา"
+talwar: "ทัลวาร์"
+khanda: "คันดา"
+kilij: "คิลิจ"
+saber: "เซเบอร์"
+longsword: "ดาบยาว"
+estoc: "เอสต็อก"
+saif: "ซาอิฟ"
+spathion: "สปาธิออน"
+
+# GetChronicleSaga
+chronicle: "พงศาวดาร"
+saga: "ซากา"

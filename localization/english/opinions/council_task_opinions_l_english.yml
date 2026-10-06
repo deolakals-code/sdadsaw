@@ -1,0 +1,28 @@
+﻿l_english: 
+ chancellor_task_foreign_affairs_opinion:0 "กิจการต่างแดน"
+ chancellor_task_domestic_affairs_opinion:0 "กิจการภายใน"
+ chancellor_task_neighbor_decreased_opinion:0 "อุบัติการณ์ทางการทูต"
+ chancellor_task_neighbor_increased_opinion:0 "การทูตอันแยบยล"
+ chancellor_task_powerful_vassal_decreased_opinion:0 "อัครเสนาบดีไร้สามารถ"
+ chancellor_task_powerful_vassal_increased_opinion:0 "การทูตอันแยบยล"
+ chancellor_bestow_royal_favor_opinion:0 "ความโปรดปรานจากราชสำนัก"
+ marshal_task_increase_control_baron_decrease_opinion:0 "จอมพลแสดงความไม่เคารพ"
+ marshal_task_increase_control_baron_increase_opinion:0 "การปฏิบัติอันควรแก่ความเคารพ"
+ marshal_task_train_commanders_supported_my_child_opinion: "สนับสนุนบุตรของข้า"
+ marshal_task_train_commanders_rebuffed_my_child_opinion: "ปฏิเสธบุตรของข้า"
+ court_chaplain_fabricated_claim_opinion:0 "การอ้างสิทธิ์อันเป็นเท็จ"
+ court_chaplain_fabricated_claim_on_vassal_opinion:0 "การอ้างสิทธิ์อันเป็นเท็จเหนือข้าหลวง"
+ task_religious_relations_opinion:0 "ความสัมพันธ์ทางศาสนา"
+ bad_religious_relations_opinion:0 "ข้อพิพาททางเทววิทยา"
+ bonus_religious_relations_opinion:0 "ชื่นชมมนตรีของข้า"
+ court_chaplain_upsetting_claim_fabrication_opinion:0 "บ่อนทำลายสมดุลของข้าหลวง"
+ court_chaplain_vassal_claim_target_upset_modifier:0 "การอ้างสิทธิ์อันเป็นเท็จถูกเปิดโปง"
+
+ spouse_held_local_tourney_opinion:0 "คู่สมรสจัดประลองท้องถิ่น"
+ spouse_martial_display_of_force_opinion:0 "การแสดงแสนยานุภาพ"
+
+ spouse_coerced_gift_opinion:0 "ของกำนัลที่ได้มาโดยการขู่เข็ญ"
+
+ steward_convince_dejure_upset_modifier:0 "ความผิดพลาดทางการทูต"
+ steward_taxed_me_opinion: "เก็บภาษีข้า"
+ steward_doubted_my_accounting_opinion: "สงสัยในการบัญชีของข้า"

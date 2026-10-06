@@ -1,0 +1,6 @@
+﻿l_english: 
+ culture_conversion.0001.t:1 "สู่การเป็น [new_culture.GetNameNoTooltip]"
+ culture_conversion.0001.desc:1 "ด้วยเครื่อง แต่งกายแบบ [new_culture.GetName] อุปนิสัยแบบ [new_culture.GetName] และเมืองหลวงที่เต็มไปด้วย [new_culture.GetCollectiveNoun] จึงไม่น่าแปลกใจที่ [converting_character.Custom2('MyCharacterIntroduction', ROOT.Char)] จะไม่ถือว่า [converting_character.GetHerselfHimself] เป็นชาว [old_culture.GetName] อีกต่อไป แต่เป็นชาว [new_culture.GetName] แทน!"
+ culture_conversion.0001.a:0 "สรรพสิ่งย่อมผันแปร ผู้คนก็ย่อมเปลี่ยนไป"
+ culture_conversion.0001.b:0 "เป็นการมิควรที่จะละทิ้งประเพณีเก่าแก่ของเรา"
+ culture_conversion.0001.c:0 "เราทุกคนควรปรับตัวให้เข้ากับยุคสมัย!"

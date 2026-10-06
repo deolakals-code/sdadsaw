@@ -1,0 +1,17 @@
+﻿l_english: 
+ sibling_aids_in_diplomacy:0 "พี่น้องนักการทูต"
+ sibling_aids_in_diplomacy_desc:0 "พี่น้องของตัวละครนี้กำลังช่วยเหลือพวกเขาในเรื่องการทูต"
+ sibling_aids_in_martial:0 "พี่น้องผู้บัญชาการ"
+ sibling_aids_in_martial_desc:0 "พี่น้องของตัวละครนี้กำลังช่วยเหลือพวกเขาในเรื่องการสงคราม"
+ sibling_aids_in_intrigue:0 "พี่น้องนักวางแผน"
+ sibling_aids_in_intrigue_desc:0 "พี่น้องของตัวละครนี้กำลังช่วยเหลือพวกเขาในเรื่องเล่ห์กลและความลับ"
+ sibling_aids_in_stewardship:0 "พี่น้องผู้ดูแล"
+ sibling_aids_in_stewardship_desc:0 "พี่น้องของตัวละครนี้กำลังช่วยเหลือพวกเขาในเรื่องการคลัง"
+ sibling_aids_in_learning:0 "พี่น้องผู้คงแก่เรียน"
+ sibling_aids_in_learning_desc:0 "พี่น้องของตัวละครนี้กำลังช่วยเหลือพวกเขาในเรื่องการเรียนรู้"
+
+ popular_sibling_modifier:0 "ครอบครัวใจกว้าง"
+ popular_sibling_modifier_desc:0 "สมาชิกบางคนในตระกูลผู้ปกครองเคาน์ตีนี้เป็นที่รักยิ่งของประชาชน"
+
+ hated_sibling_county_modifier:0 "ครอบครัวที่ถูกเกลียดชัง"
+ hated_sibling_county_modifier_desc:0 "สมาชิกบางคนในตระกูลผู้ปกครองเคาน์ตีนี้เป็นที่รังเกียจของประชาชนในท้องถิ่น"

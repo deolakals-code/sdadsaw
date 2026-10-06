@@ -1,0 +1,118 @@
+﻿l_english: 
+
+ HAS_INNOVATION_THIRD:0 "[culture|E] [CULTURE.GetName] มี [innovation|E] [INNOVATION.GetName]"
+ NOT_HAS_INNOVATION_THIRD:0 "[culture|E] [CULTURE.GetName] #bold ไม่มี#! [innovation|E] [INNOVATION.GetName]"
+ HAS_INNOVATION_NONE:0 "[culture|E] มี [innovation|E] [INNOVATION_TYPE.GetName]"
+ NOT_HAS_INNOVATION_NONE:0 "[culture|E] #bold ไม่มี#! [innovation|E] [INNOVATION_TYPE.GetName]"
+
+ MUST_BE_UNLOCKED_BY_DECISION:0 "ต้องปลดล็อกด้วยการตัดสินใจ"
+
+ HAS_CULTURAL_ERA_OR_LATER:0 "วัฒนธรรม [CULTURE.GetName|U] ได้เข้าสู่ยุค $ERA$"
+ NOT_HAS_CULTURAL_ERA_OR_LATER:0 "วัฒนธรรม [CULTURE.GetName|U] #bold ยังไม่#! ได้เข้าสู่ยุค $ERA$"
+
+ DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "[TITLE.GetName] กำลัง [de_jure_drifting|E] ไปยัง [TARGET_TITLE.GetName]"
+ NOT_DE_JURE_DRIFTING_TOWARDS_TRIGGER:0 "[TITLE.GetName] #bold ไม่ได้#! กำลัง [de_jure_drifting|E] ไปยัง [TARGET_TITLE.GetName]"
+ DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "กำลัง [de_jure_drifting|E] ไปยัง [TARGET_TITLE.GetName]"
+ NOT_DE_JURE_DRIFTING_TOWARDS_THIRD_TRIGGER:0 "#bold ไม่ได้#! กำลัง [de_jure_drifting|E] ไปยัง [TARGET_TITLE.GetName]"
+
+
+ DE_JURE_DRIFT_PROGRESS_TRIGGER:0 "ความคืบหน้าของ [de_jure_drift|E] ของ [TITLE.GetName] ไปยัง [TARGET_TITLE.GetName] คือ $OPERATOR$ $VALUE|V0$"
+
+ YOU_CAN_ONLY_CHANGE_CULTURE_ONCE:0 "ท่านไม่สามารถเปลี่ยนวัฒนธรรมโดยสมัครใจได้มากกว่าหนึ่งครั้งในชั่วชีวิต"
+ KNOWS_LANGUAGE_FIRST:1 "ข้ารู้ [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_FIRST_NOT:1 "ข้า #bold ไม่#! รู้ [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_THIRD:1 "[CHARACTER.GetShortUIName|U] รู้ [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_THIRD_NOT:1 "[CHARACTER.GetShortUIName|U] #bold ไม่#! รู้ [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_GLOBAL:1 "รู้ [CULTURE_PILLAR.GetName]"
+ KNOWS_LANGUAGE_GLOBAL_NOT:1 "#bold ไม่#! รู้ [CULTURE_PILLAR.GetName]"
+
+ KNOWS_LANGUAGE_OF_CULTURE_FIRST:1 "ข้ารู้ [TARGET_CULTURE.GetLanguage.GetName]"
+ KNOWS_LANGUAGE_OF_CULTURE_FIRST_NOT:1 "ข้า #bold ไม่#! รู้ [TARGET_CULTURE.GetLanguage.GetName]"
+ KNOWS_LANGUAGE_OF_CULTURE_THIRD:1 "[CHARACTER.GetShortUIName|U] รู้ [TARGET_CULTURE.GetLanguage.GetName]"
+ KNOWS_LANGUAGE_OF_CULTURE_THIRD_NOT:1 "[CHARACTER.GetShortUIName|U] #bold ไม่#! รู้ [TARGET_CULTURE.GetLanguage.GetName]"
+ KNOWS_LANGUAGE_OF_CULTURE_GLOBAL:1 "รู้ [TARGET_CULTURE.GetLanguage.GetName]"
+ KNOWS_LANGUAGE_OF_CULTURE_GLOBAL_NOT:1 "#bold ไม่#! รู้ [TARGET_CULTURE.GetLanguage.GetName]"
+
+ HAS_CULTURAL_TRADITION_FIRST:2 "[culture|E] [CULTURE.GetName|U] มี [tradition|E] [CULTURE_TRADITION.GetName]"
+ HAS_CULTURAL_TRADITION_FIRST_NOT:2 "[culture|E] [CULTURE.GetName|U] ไม่มี [tradition|E] [CULTURE_TRADITION.GetName]"
+ HAS_CULTURAL_TRADITION_THIRD:0 "$HAS_CULTURAL_TRADITION_FIRST$"
+ HAS_CULTURAL_TRADITION_THIRD_NOT:0 "$HAS_CULTURAL_TRADITION_FIRST_NOT$"
+ HAS_CULTURAL_TRADITION_GLOBAL:0 "[culture|E] [CULTURE.GetName|U] มี [tradition|E] [CULTURE_TRADITION.GetName]"
+ HAS_CULTURAL_TRADITION_GLOBAL_NOT:0 "[culture|E] [CULTURE.GetName|U] ไม่มี [tradition|E] [CULTURE_TRADITION.GetName]"
+ HAS_CULTURAL_TRADITION_NONE:0 "[culture|E] มี [tradition|E] [CULTURE_TRADITION.GetName]"
+ NOT_HAS_CULTURAL_TRADITION_NONE:0 "[culture|E] ไม่มี [tradition|E] [CULTURE_TRADITION.GetName]"
+
+
+
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_COASTAL_WARRIORS_NOT:0 "เข้ากันไม่ได้กับ [tradition|E] $tradition_fp1_coastal_warriors_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_NORTHERN_STORIES_NOT:0 "เข้ากันไม่ได้กับ [tradition|E] $tradition_fp1_northern_stories_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_TRIALS_BY_COMBAT_NOT:0 "เข้ากันไม่ได้กับ [tradition|E] $tradition_fp1_trials_by_combat_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_THE_RIGHT_TO_PROVE_NOT:0 "เข้ากันไม่ได้กับ [tradition|E] $tradition_fp1_the_right_to_prove_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_RUNESTONES_NOT:0 "เข้ากันไม่ได้กับ [tradition|E] $tradition_runestones_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_FP1_PERFORMATIVE_HONOUR_NOT:0 "เข้ากันไม่ได้กับ [tradition|E] $tradition_fp1_performative_honour_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_WARRIOR_CULTURE_NOT:0 "เข้ากันไม่ได้กับ [tradition|E] $tradition_warrior_culture_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_SEAFARING_NOT:0 "เข้ากันไม่ได้กับ [tradition|E] $tradition_seafaring_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_POETRY_NOT:0 "เข้ากันไม่ได้กับ [tradition|E] $tradition_poetry_name$"
+ LACKS_OVERLAPPING_CULTRAD_TRADITION_STORYTELLERS_NOT:0 "เข้ากันไม่ได้กับ [tradition|E] $tradition_storytellers_name$"
+ any_ancestor_culture_was_mystical:1 "วัฒนธรรมบรรพบุรุษอย่างน้อยหนึ่งวัฒนธรรมต้องมี [tradition|E] $tradition_mystical_ancestors_name$"
+ mystical_ancestors_disinherit:0 "วัฒนธรรมไม่มี [tradition|E] $tradition_mystical_ancestors_name$"
+
+ HAS_CULTURAL_PILLAR_FIRST:1 "[culture|E] [CULTURE.GetName|U] มี [culture_pillar|E] [CULTURE_PILLAR.GetName]"
+ HAS_CULTURAL_PILLAR_FIRST_NOT:1 "[culture|E] [CULTURE.GetName|U] ไม่มี [culture_pillar|E] [CULTURE_PILLAR.GetName]"
+ HAS_CULTURAL_PILLAR_THIRD:0 "$HAS_CULTURAL_PILLAR_FIRST$"
+ HAS_CULTURAL_PILLAR_THIRD_NOT:0 "$HAS_CULTURAL_PILLAR_FIRST_NOT$"
+
+ HAS_CULTURAL_PARAMETER_FIRST:1 "[culture|E] [CULTURE.GetName|U] มี [tradition|E] $PARAMETER_NAME$"
+ HAS_CULTURAL_PARAMETER_FIRST_NOT:1 "ไม่ได้ปลดล็อกโดย [tradition|E] ใด ๆ ของ [CULTURE.GetName|U]"
+ HAS_CULTURAL_PARAMETER_THIRD:0 "$HAS_CULTURAL_PARAMETER_FIRST$"
+ HAS_CULTURAL_PARAMETER_THIRD_NOT:0 "$HAS_CULTURAL_PARAMETER_FIRST_NOT$"
+
+ NUM_DISCOVERED_INNOVATIONS_TRIGGER: "จำนวน [innovations|E] ที่ค้นพบของ [culture_possessive|E] [CULTURE.GetName|U] #weak ($CURRENT_VALUE|0$)#! คือ $COMPARATOR$ $NUM|V0$"
+ NOT_NUM_DISCOVERED_INNOVATIONS_TRIGGER: "จำนวน [innovations|E] ที่ค้นพบของ [culture_possessive|E] [CULTURE.GetName|U] #weak ($CURRENT_VALUE|0$)#! ไม่ใช่ $COMPARATOR$ $NUM|V0$"
+
+ NUM_DISCOVERED_INNOVATIONS_IN_ERA_TRIGGER: "จำนวน [innovations|E] ที่ค้นพบของ [culture_possessive|E] [CULTURE.GetName|U] #weak ($CURRENT_VALUE|0$)#! ใน [era|E] $ERA$ คือ $COMPARATOR$ $NUM|V0$"
+
+ HAS_SAME_CULTURAL_HERITAGE: "ท่านมี [heritage|E] [Concept('culture','cultural')|E] เดียวกัน"
+ HAS_SAME_CULTURAL_HERITAGE_NOT: "ท่านไม่มี [heritage|E] [Concept('culture','cultural')|E] เดียวกัน"
+
+ # Innovations
+ is_known_by_culture_first: "$CULTURE$ [culture|E] ได้ค้นพบ $INNOVATION_NAME|V$"
+ not_is_known_by_culture_first: "$CULTURE.GetName$ [culture|E] ยังไม่ได้ค้นพบ [CultureInnovationType.GetName]"
+ is_known_by_culture_third: "$is_known_by_culture_first$"
+ not_is_known_by_culture_third: "$not_is_known_by_culture_first$"
+
+ innovation_era_first: "[CultureInnovationType.GetName] โดยทั่วไปจะถูกค้นพบในช่วง $ERA$"
+ not_innovation_era_first: "[CultureInnovationType.GetName] โดยทั่วไปจะไม่ถูกค้นพบในช่วง $ERA$"
+ innovation_era_third: "$innovation_era_first$"
+ not_innovation_era_third: "$not_innovation_era_first$"
+
+ innovation_is_regional_first: "[CultureInnovationType.GetName] ผูกพันอยู่กับภูมิภาคที่เฉพาะเจาะจง"
+ not_innovation_is_regional_first: "[CultureInnovationType.GetName] สามารถพัฒนาได้ทุกหนแห่งในโลก"
+ innovation_is_regional_third: "$innovation_is_regional_first$"
+ not_innovation_is_regional_third: "$not_innovation_is_regional_first$"
+
+ innovation_key_first: "[CultureInnovationType.GetName] คือ [TARGET_INNOVATION.GetName]"
+ not_innovation_key_first: "[CultureInnovationType.GetName] ไม่ใช่ [TARGET_INNOVATION.GetName]"
+ innovation_key_third: "$innovation_key_first$"
+ not_innovation_key_third: "$not_innovation_key_first$"
+
+ is_ahead_of_time_for_culture_first: "$INNOVATION_NAME$ ล้ำหน้าเกินไปสำหรับ $CULTURE$ [culture|E]"
+ not_is_ahead_of_time_for_culture_first: "$INNOVATION_NAME$ อยู่ในวิสัยที่ $CULTURE$ [culture|E] จะเข้าถึงได้"
+ is_ahead_of_time_for_culture_third: "$is_ahead_of_time_for_culture_first$"
+ not_is_ahead_of_time_for_culture_third: "$not_is_ahead_of_time_for_culture_first$"
+
+ has_innovation_parameter_first: "[CultureInnovationType.GetName] เปิดใช้งาน $PARAMETER_NAME$"
+ not_has_innovation_parameter_first: "[CultureInnovationType.GetName] ไม่ได้เปิดใช้งาน $PARAMETER_NAME$"
+ has_innovation_parameter_third: "$has_innovation_parameter_first$"
+ not_has_innovation_parameter_third: "$not_has_innovation_parameter_first$"
+
+ culture_can_know_innovation_third: "ชาว [Culture.GetCollectiveNoun] สามารถวิจัย [CultureInnovationType.GetName] ได้"
+ not_culture_can_know_innovation_third: "ชาว [Culture.GetCollectiveNoun] #bold ไม่สามารถ#! วิจัย [CultureInnovationType.GetName] ได้"
+ culture_can_know_innovation_global: "$culture_can_know_innovation_third$"
+ not_culture_can_know_innovation_global: "$not_culture_can_know_innovation_third$"
+ 
+ culture_has_fascination_third: "ชาว [Culture.GetCollectiveNoun] กำลัง [Concept('fascination','fascinated')|E] โดย [innovation|E] อยู่ในขณะนี้"
+ not_culture_has_fascination_third: "ชาว [Culture.GetCollectiveNoun] #bold ไม่ได้#! [Concept('fascination','Fascinated')|E] โดย [innovation|E]"
+ culture_has_fascination_global: "$culture_has_fascination_third$"
+ not_culture_has_fascination_global: "$not_culture_has_fascination_third$"
+  

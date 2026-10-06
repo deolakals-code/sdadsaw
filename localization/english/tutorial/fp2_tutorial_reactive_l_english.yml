@@ -1,0 +1,46 @@
+﻿l_english: 
+ reactive_advice_struggle:0 "การต่อสู้"
+ action_reactive_advice_struggle:0 "คำแนะนำ: การต่อสู้"
+ action_reactive_advice_struggle_desc:1 "ท่านสามารถเข้าร่วมใน Struggle ได้ เปิดสิ่งนี้เพื่อเรียนรู้เพิ่มเติมว่าสิ่งนั้นมีความหมายต่อท่านอย่างไร"
+ action_reactive_advice_struggle_click:0 "$click_to_open_lesson$"
+ 
+ lessons_struggle_introduction:0 "การต่อสู้"
+ lessons_struggle_introduction_desc:0 "บัดนี้ท่านเป็นส่วนหนึ่งของ [struggle|E] แล้ว!\n\n[struggle_struggles|E] คือความขัดแย้งที่ยืดเยื้อภายใน [region|E] ซึ่งการกระทำของผู้เข้าร่วมทั้งหมดจะเปลี่ยนแปลงสถานะของพื้นที่ ก่อให้เกิด [struggle_phase_phases|E] ที่แตกต่างกัน การเปลี่ยนแปลงสถานะของภูมิภาคจะส่งผลต่อ [war|E], [faith|E] และ [culture|E]\n\nท้ายที่สุด ผู้เข้าร่วมทั้งหมดจะแข่งขันกันเพื่อเป็นผู้ตัดสินว่า [struggle|E] จะสิ้นสุดลงอย่างไร ซึ่งส่งผลกระทบต่อผู้เข้าร่วมทั้งหมดในภูมิภาค"
+ reactive_advice_struggle_introduction: "$lessons_struggle_introduction$"
+
+ lessons_struggle_region_open:0 "ภูมิภาคการต่อสู้"
+ lessons_struggle_region_open_desc:1 "[struggle_region|E] ถูกทำเครื่องหมายไว้ภายในขอบเขตใหม่ ซึ่งจะเน้นเมื่อท่านวางเมาส์เหนือปุ่ม Struggle เฉพาะตัวละครที่เป็นเจ้าของที่ดินในภูมิภาคเท่านั้นที่เข้าร่วมใน [struggle|E]\n\n#TUT [characters|E] นอกภูมิภาคสามารถเข้าร่วม [struggle|E] ได้โดยการได้มาซึ่งดินแดนภายใน [struggle_region|E] และย้าย [capital|E] ของตนเข้ามาในพื้นที่#!"
+
+ lessons_struggle_view_open:0 "การเข้าถึงมุมมองการต่อสู้"
+ lessons_struggle_view_open_desc:0 "ที่นี่ท่านสามารถเปิดมุมมอง [struggle|E] ซึ่งเป็นที่ที่ท่านสามารถตรวจสอบข้อมูลทั้งหมดที่เกี่ยวข้องกับ [struggle|E] ได้"
+ lessons_struggle_view_open_prompt:0 "เปิดมุมมอง [struggle|E]"
+
+ lessons_struggle_view:0 "มุมมองการต่อสู้"
+ lessons_struggle_view_desc:1 "ในมุมมองการต่อสู้ ท่านสามารถเรียนรู้เพิ่มเติมเกี่ยวกับ [struggle_phase|E] ปัจจุบันและผลกระทบของมัน ท่านยังสามารถดูระยะถัดไปที่เป็นไปได้และ [struggle_catalyst_catalysts|E] ที่ท่านต้อง ทำให้สำเร็จเพื่อขับเคลื่อน [struggle|E] ไปสู่ระยะเหล่านั้น"
+
+
+ lessons_struggle_current_phases_and_effects:0 "ระยะปัจจุบันและผลกระทบ"
+ lessons_struggle_current_phases_and_effects_desc:0 "[struggle_phase|E] ปัจจุบันส่งผลกระทบต่อทั้ง [struggle_region|E] โดยใช้ผลพิเศษสำหรับผู้เข้าร่วมที่เป็น [struggle_involved|E], [struggle_interloper|E] และ [struggle_uninvolved|E]\n\nในส่วนนี้ ท่านสามารถตรวจสอบผลกระทบของระยะต่อ [war|E], [faith|E], [culture|E] และผลกระทบอื่นๆ"
+
+ lessons_next_struggle_phases:0 "ระยะการต่อสู้ถัดไป"
+ # TODO_CD: The key should not use POINT_BASED_PHASE_DEFAULT_DURATION because it's valid only for point-based phases
+ lessons_next_struggle_phases_desc:3 "[struggle_phase|E] ปัจจุบันจะสิ้นสุดลงเมื่อระยะถัดไปที่เป็นไปได้ระยะใดระยะหนึ่งมีความคืบหน้าถึง [GetDefine('NStruggle', 'POINT_BASED_PHASE_DEFAULT_DURATION')] เพื่อเพิ่มความคืบหน้าของระยะถัดไปที่เป็นไปได้ ท่านต้อง ทำให้ [struggle_catalyst_catalysts|E] ใดๆ ที่ระบุไว้ภายใต้ระยะนั้นสำเร็จ\n\n#TUT ตรวจสอบระยะถัดไปที่เป็นไปได้เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับระยะเหล่านั้น ผลกระทบ และความคืบหน้าล่าสุดของ [struggle_catalyst|E] การเลือกจะเปิดรายการ [struggle_catalyst|E] ซึ่งท่านหรือผู้เข้าร่วม [struggle_involved|E] คนอื่นๆ ใน [struggle|E] สามารถทำให้สำเร็จได้ไม่จำกัดจำนวนครั้ง#!"
+
+ lessons_ending_struggle_open:0 "การยุติการต่อสู้"
+ lessons_ending_struggle_open_desc:1 "[struggle|E] จะเปลี่ยนระยะไปเรื่อยๆ จนกว่าผู้เข้าร่วมคนใดคนหนึ่งจะกระตุ้นการตัดสินใจยุติอย่างใดอย่างหนึ่งและยุติ [struggle|E] ท่านสามารถตรวจสอบการตัดสินใจยุติได้เสมอเพื่อตรวจสอบข้อกำหนดและผลกระทบ"
+ lessons_ending_struggle_open_prompt:0 "เปิดการตัดสินใจยุติ"
+
+ lessons_ending_struggle:0 "การยุติการต่อสู้"
+ lessons_ending_struggle_desc:1 "ที่นี่ท่านสามารถดูการตัดสินใจยุติทั้งหมดสำหรับ [struggle|E] ได้\n\nโปรดทราบว่าการตัดสินใจยุติ แต่ละครั้งกำหนดให้ท่านต้องอยู่ในระยะเฉพาะเพื่อกระตุ้นการตัดสินใจนั้น ท่านจะได้รับการแจ้งเตือนหากมีรายการใดพร้อมใช้งาน"
+
+
+ lessons_explore_struggle_open:0 "สำรวจการต่อสู้"
+ lessons_explore_struggle_open_desc:0 "ตอนนี้ท่านทราบพื้นฐานทั้งหมดแล้วและพร้อมสำหรับ [struggle|E] ครั้งแรกของท่าน\n\nการตรวจสอบผลกระทบของระยะปัจจุบัน และระยะถัดไปที่เป็นไปได้ที่ท่านอาจต้องการดำเนินการไปสู่นั้นเป็นจุดเริ่มต้นที่ดี"
+ 
+ lessons_struggle_involvement_view_open:0 "การมีส่วนร่วมในการต่อสู้"
+ lessons_struggle_involvement_view_open_desc:0 "ใน [struggle|E] [characters|E] ทั้งหมดในภูมิภาคสามารถกระตุ้น [struggle_catalyst_catalysts|E] ได้ ดังนั้นจึงเป็นเรื่องสำคัญที่จะต้องทราบว่าใครคือผู้เข้าร่วมที่เป็น [struggle_involved] และ [struggle_interloper] มุมมองการมีส่วนร่วมใน [struggle|E] ให้ข้อมูลเกี่ยวกับเรื่องนี้"
+ lessons_struggle_involvement_view_open_prompt:1 "เปิดมุมมองการมีส่วนร่วมในการต่อสู้"
+ 
+ lessons_struggle_involvement_view:0 "การมีส่วนร่วมในการต่อสู้"
+ lessons_struggle_involvement_view_desc:0 "ที่นี่ท่านสามารถดูข้อมูลการมีส่วนร่วมของท่าน พร้อมกับการแจกแจงสิ่งที่ ทำให้ท่านเป็น [struggle_involved|E], [struggle_interloper|E] หรือ [struggle_uninvolved|E]\n\nนอกเหนือจากการมีส่วนร่วมส่วนตัวของท่านแล้ว ท่านยังสามารถดูรายชื่อผู้เข้าร่วม [struggle|E] และการมีส่วนร่วมของพวกเขาได้ นอกจากนี้ยังสามารถพบ [struggle_involved_cultures|E] และ [struggle_involved_faiths|E] ได้ที่นี่\n\n#TUT การทราบการมีส่วนร่วมของผู้เล่นคนอื่นเป็นสิ่งสำคัญเมื่อวางแผนว่าท่านอาจต้องการดำเนินการตาม Catalysts ใด เนื่องจาก Catalysts อาจกระตุ้นให้ท่านกำหนดเป้าหมายไปที่ผู้เข้าร่วม [struggle|E], [faith|E] หรือ [culture|E] อื่น#!"
+

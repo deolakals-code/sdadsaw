@@ -1,0 +1,9 @@
+﻿l_english: 
+ LV_HEADER:0 "ไพร่พล"
+ LV_COUNTS:0 "[LevyView.GetLivingCount|0]/[LevyView.GetMaxCount|0]"
+ LV_FLAVOR:1 "ไพร่พลประกอบด้วยกองกำลังชาวบ้าน อันธพาล ทหารรับจ้างท้องถิ่น และขุนนางตกยากที่ติดอาวุธด้วยเครื่องมือหลากหลายและอาวุธที่ประดิษฐ์ขึ้นเอง — จำนวนมหาศาลของพวกเขาเป็นกำลังหลักของกองทัพส่วนใหญ่"
+ LV_RAISED:0 "[LevyView.GetRaisedCount|0] ระดมพลแล้ว"
+ LV_UNRAISED:0 "ยังไม่ได้ระดมพล"
+ LV_MAINTENANCE:0 "ค่าบำรุงรักษา: [gold_i][LevyView.GetMaintenanceCost|2]/เดือน"
+ LV_NO_COUNTERS:0 "ไพร่พลไม่เคย [counter|E] ประเภทอื่น"
+ 

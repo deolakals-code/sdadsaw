@@ -1,0 +1,11 @@
+﻿l_english: 
+ set_epidemic_outbreak_intensity_global: "ความรุนแรงของการระบาดกลายเป็น $NEW_VALUE|V$"
+ set_epidemic_outbreak_intensity_global_past: "ความรุนแรงของการระบาดได้กลายเป็น $NEW_VALUE|V$"
+ set_epidemic_outbreak_intensity_third: "ความรุนแรงของการระบาดของ [EPIDEMIC.GetName] กลายเป็น $NEW_VALUE|V$"
+ set_epidemic_outbreak_intensity_third_past: "ความรุนแรงของการระบาดของ [EPIDEMIC.GetName] ได้กลายเป็น $NEW_VALUE|V$"
+ 
+ create_epidemic_outbreak_global: "การระบาดของ [EPIDEMIC_TYPE.GetName] ระดับ $INTENSITY|V$ ปรากฏขึ้น"
+ create_epidemic_outbreak_global_past: "การระบาดของ [EPIDEMIC_TYPE.GetName] ระดับ $INTENSITY|V$ ได้ปรากฏขึ้น"
+ create_epidemic_outbreak_third: "การระบาดของ [EPIDEMIC_TYPE.GetName] ระดับ $INTENSITY|V$ ปรากฏขึ้นใน [PROVINCE.GetName]"
+ create_epidemic_outbreak_third_past: "การระบาดของ [EPIDEMIC_TYPE.GetName] ระดับ $INTENSITY|V$ ได้ปรากฏขึ้นใน [PROVINCE.GetName]"
+ 
