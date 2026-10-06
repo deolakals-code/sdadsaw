@@ -120,31 +120,38 @@ eternal_machinations_every_county_of = {
 }
 
 eternal_holy_maiden_call = {
-	scope:attacker = {
-		faith.religious_head ?= { faith = { save_scope_as = pope_faith } }
-		every_independent_ruler = {
-			limit = {
-				NOT = { this = scope:attacker }
-				NOT = { this = scope:defender }
-				NOT = { top_liege = scope:defender.top_liege }
-				NOT = { is_attacker_in_war = scope:war }
-				NOT = { is_defender_in_war = scope:war }
-				OR = {
-					faith = scope:attacker.faith
-					religion = scope:attacker.religion
-					AND = {
-						exists = scope:pope_faith
-						faith = scope:pope_faith
+	if = {
+		limit = { scope:attacker = { has_character_flag = eternal_descent_pending } }
+		scope:attacker = { remove_character_flag = eternal_descent_pending }
+		eternal_holy_descent_call = yes
+	}
+	else = {
+		scope:attacker = {
+			faith.religious_head ?= { faith = { save_scope_as = pope_faith } }
+			every_independent_ruler = {
+				limit = {
+					NOT = { this = scope:attacker }
+					NOT = { this = scope:defender }
+					NOT = { top_liege = scope:defender.top_liege }
+					NOT = { is_attacker_in_war = scope:war }
+					NOT = { is_defender_in_war = scope:war }
+					OR = {
+						faith = scope:attacker.faith
+						religion = scope:attacker.religion
+						AND = {
+							exists = scope:pope_faith
+							faith = scope:pope_faith
+						}
 					}
 				}
-			}
-			save_scope_as = holy_ally
-			scope:war = { add_attacker = scope:holy_ally }
-			add_opinion = { target = scope:attacker modifier = eternal_charmed_opinion }
-			add_character_modifier = { modifier = eternal_holy_fervor_modifier years = 3 }
-			eternal_holy_maiden_host = yes
+				save_scope_as = holy_ally
+				scope:war = { add_attacker = scope:holy_ally }
+				add_opinion = { target = scope:attacker modifier = eternal_charmed_opinion }
+				add_character_modifier = { modifier = eternal_holy_fervor_modifier years = 3 }
+				eternal_holy_maiden_host = yes
 
-			scope:attacker = { add_hook = { type = favor_hook target = scope:holy_ally } }
+				scope:attacker = { add_hook = { type = favor_hook target = scope:holy_ally } }
+			}
 		}
 	}
 }
@@ -468,6 +475,34 @@ eternal_holy_maiden_elite_host = {
 			uses_supply = no
 			war = scope:war
 			inheritable = no
+		}
+	}
+}
+
+# Descent of the Holy Maiden: the five realms nearest the target (kingdom tier or above, any faith) are forced into the war.
+# Needs scope:attacker, scope:defender, scope:war.
+eternal_holy_descent_call = {
+	scope:attacker = {
+		ordered_independent_ruler = {
+			limit = {
+				highest_held_title_tier >= tier_kingdom
+				NOT = { this = scope:attacker }
+				NOT = { this = scope:defender }
+				NOT = { top_liege = scope:defender.top_liege }
+				NOT = { is_attacker_in_war = scope:war }
+				NOT = { is_defender_in_war = scope:war }
+			}
+			order_by = {
+				value = 0
+				subtract = "capital_county.squared_distance(scope:defender.capital_county)"
+			}
+			max = 5
+			save_scope_as = holy_ally
+			scope:war = { add_attacker = scope:holy_ally }
+			add_opinion = { target = scope:attacker modifier = eternal_charmed_opinion }
+			add_character_modifier = { modifier = eternal_holy_fervor_modifier years = 3 }
+			eternal_holy_maiden_host = yes
+			scope:attacker = { add_hook = { type = favor_hook target = scope:holy_ally } }
 		}
 	}
 }

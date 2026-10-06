@@ -74,3 +74,38 @@ eternal_pontiff_thrall_interaction = {
 	ai_will_do = { base = 0 }
 }
 
+eternal_holy_descent_interaction = {
+	category = interaction_category_eternal_realm
+	icon = icon_scheme_befriend
+	interface_priority = 73
+	desc = eternal_holy_descent_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 90 }
+	is_shown = {
+		scope:actor = { has_trait = holy_maiden }
+		scope:recipient != scope:actor
+		scope:recipient = {
+			is_ruler = yes
+			is_landed = yes
+		}
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = { is_at_war = no }
+		scope:recipient = { NOT = { top_liege = scope:actor.top_liege } }
+	}
+	on_accept = {
+		scope:actor = {
+			add_character_flag = eternal_descent_pending
+			start_war = {
+				cb = eternal_holy_maiden_war
+				target = scope:recipient
+				target_title = scope:recipient.capital_county
+			}
+			remove_character_flag = eternal_descent_pending
+		}
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+

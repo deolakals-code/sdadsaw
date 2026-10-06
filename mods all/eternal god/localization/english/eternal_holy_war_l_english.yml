@@ -34,3 +34,5 @@
  eternal_holywar.0007.desc: "The banners are burned in the courtyard that night, one at a time, as is the custom. The smoke is thin and grey and smells of cedar and wool, and your allies stand around it with the faces of people who have left a great deal on a field they will not see again.\n\nNo one blames you aloud. That is the worst part."
  eternal_holywar.0007.a: "Take the blame and the grief on yourself."
  eternal_holywar.0007.b: "Promise that the war is not over, only paused."
+ eternal_holy_descent_interaction: "Descent of the Holy Maiden"
+ eternal_holy_descent_interaction_desc: "Call the five nearest realms to war against this ruler at once."
