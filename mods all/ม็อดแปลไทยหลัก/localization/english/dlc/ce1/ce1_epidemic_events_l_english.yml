@@ -546,3 +546,12 @@
  msg_epidemic_infection_desc: "[epidemic|E] ที่เรียกว่า [epidemic.GetName] ได้แพร่กระจายไปยัง [LEFT_TITLE.GetProvince.GetBaronyNameExplicitly], [RIGHT_TITLE.GetProvince.GetBaronyNameExplicitly ], และ $message_consolidation_others$"
  
  EVENT_WINDOW_OPTION_AVAILABLE_PHYSICIAN: "ใช้ได้ เพราะท่านมี [GetCourtPositionType('court_physician_court_position').GetName]"
+ christian_curse_teeth: "by [ROOT.Char.GetFaith.HighGodNamePossessive] teeth"
+ christian_curse_eyes: "by [ROOT.Char.GetFaith.HighGodNamePossessive] eyes"
+ christian_curse_passion: "by [ROOT.Char.GetFaith.HighGodNamePossessive] passion"
+ christian_curse_rood: "by the Holy [Glossary( 'Rood', 'ROOD_GLOSS' )]"
+ ROOD_GLOSS: "The Cross of Christ."
+ christian_curse_mass: "by the Mass"
+ christian_curse_bread: "by [ROOT.Char.GetFaith.HighGodNamePossessive] bread"
+ christian_curse_heart: "by [ROOT.Char.GetFaith.HighGodNamePossessive] heart"
+ christian_curse_face: "by [ROOT.Char.GetFaith.HighGodNamePossessive] face"

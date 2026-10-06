@@ -118,3 +118,4 @@
  DYNASTIC_CYCLE_CURRENT_PHASE_TT: "#T กำลังดูยุค: [SituationPhaseType.GetName]#!"
  DYNASTIC_CYCLE_POTENTIAL_PHASE_TT: "#T ดูตัวอย่างยุค: [SituationPhaseType.GetName]#!"
  DYNASTIC_CYCLE_CLICK_TO_GO_BACK_TT: "#I คลิกเพื่อกลับไปดูยุคปัจจุบัน"
+ DYNASTIC_CYCLE_FUTURE_ERA_TT: "$DYNASTIC_CYCLE_WINDOW_FUTURE_ERA_LABEL$: [Situation.GetTopSubRegion.GetCurrentPhase.GetLeadingPhaseType.GetName|V]"

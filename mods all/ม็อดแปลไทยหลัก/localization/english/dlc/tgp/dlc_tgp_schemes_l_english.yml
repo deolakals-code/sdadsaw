@@ -195,3 +195,4 @@
  scheme_critical_moments.2925.c: "บัดซบเอ๊ย ไอ้ [owner.Custom2('InsultNoun', ROOT.Char)]!"
  
  OWNER_IS_MY_MOVEMENT_MEMBER: "อยู่ใน [movement|E] เดียวกับ [owner.GetShortUIName]: $VALUE|+0=$"
+ scheme_critical_moments.1202.c: "Now to erase any records..."

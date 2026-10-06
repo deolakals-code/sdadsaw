@@ -85,3 +85,5 @@
 
  ### COST
  WEDDING_BASE_COST:0 "ค่าใช้จ่ายพื้นฐานของพิธีสมรสอันยิ่งใหญ่"
+ ep2_wedding_promise_invalid_toast: "[spouse_1.GetShortUINameNoTooltip|U] and [spouse_2.GetShortUINameNoTooltip] can no longer marry, their [grand_wedding_promised|E] [betrothal|E] is void"
+ ep2_wedding_promise_lapsed_toast: "[spouse_1.GetShortUINameNoTooltip|U] and [spouse_2.GetShortUINameNoTooltip] cannot attend a [GetActivityType( 'activity_wedding' ).GetName], their [grand_wedding_promised|E] [betrothal|E] lapses"

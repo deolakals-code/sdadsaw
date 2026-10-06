@@ -139,3 +139,4 @@
  travel_progress_towards_trait_2_tt:0 "เพิ่มค่าประสบการณ์ [trait|E] [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] ของ [THIS.Char.GetShortUINamePossessive]"
  travel_progress_towards_trait_3_tt:0 "เพิ่มค่าประสบการณ์ [trait|E] [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] ของ [THIS.Char.GetShortUINamePossessive] อย่างมาก"
  travel_xp_gain_message:0 "ค่าประสบการณ์ [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )]"
+ TRAVEL_NAME_FOR_activity_ecumenical_council: "$TRAVEL_NAME_FOR_activity_tournament$"

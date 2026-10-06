@@ -140,3 +140,9 @@
 
  share_known_secrets_interaction_extra_icon:0 "$hook_extra_icon$"
  no_activity_available:0 "ไม่มี [activity|E] ให้เลือก"
+ purchase_truce_interaction.accept.actor.tt_puppeteer:0 "[recipient.GetTitledFirstName] has accepted [puppet_or_actor.GetShortUIName]'s tribute"
+ purchase_truce_interaction.decline.actor.tt_puppeteer:0 "[recipient.GetTitledFirstName] has refused [puppet_or_actor.GetShortUIName]'s tribute"
+ purchase_truce_interaction.at_war.tt: "You are at [war|E] with [recipient.GetShortUIName]"
+ purchase_truce_interaction.allied.tt: "You are [allied|E] to [recipient.GetShortUIName]"
+ purchase_truce_interaction.existing_truce.tt: "You already have a [truce|E] with [recipient.GetShortUIName]"
+ PT_PAM_PEACE_OF_GOD_RITE:0 "[recipient.GetTitledFirstName] upholds the [GetTenetType('tenet_peace_of_god').GetBaseName]: $VALUE|=+0$"

@@ -82,3 +82,4 @@
  DECOMMISSION_MANDALA_TEMPLE_INTERACTION_NOTIFICATION: "ข้าสังเกตเห็นว่าเจ้ามีวิหารในเมืองหลวงที่ [recipient.GetCapitalLocation.GetCounty.GetName] ซึ่งบูชาเทพเจ้าจอมปลอม ข้าขอให้เจ้าจัดการ... 'ความเผอเรอ' ...นี้โดยพลันและอย่างมีประสิทธิภาพ"
 
 ruined_my_temple_opinion: "ทำลายวิหารมณฑลของข้า"
+ tgp_mandala_send_missionary_interaction_notification: "With my blessing, a missionary travels to your court — a learned voice, not a conquering one. Receive the envoy kindly, and allow your people to heed which words they wish."

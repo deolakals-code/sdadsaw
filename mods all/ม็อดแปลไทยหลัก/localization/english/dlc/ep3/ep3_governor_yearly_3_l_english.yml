@@ -362,3 +362,4 @@ msg_governor_upset_about_insolvency.t: "[root_scope.GetTitleAsNameNoTooltip] ว
 msg_governor_upset_about_insolvency.desc: "[vassal|E] ของท่านได้รับผลกระทบจากหนี้ [gold|E] ของท่าน"
 msg_governor_upset_about_bad_govs.t: "[root_scope.GetTitleAsNameNoTooltip] ดูถูกเสนาบดีที่ไร้ความสามารถ"
 msg_governor_upset_about_bad_govs.desc: "[vassal|E] ของท่านบ่นเกี่ยวกับ [governor_efficiency|E] ที่ต่ำในหมู่เพื่อนร่วมงานของ [root_scope.GetHerHis]"
+ ep3_governor_yearly.3050.desc_strange_intro: "Strange tidings abound concerning [emperor.FullNameNoTooltip], our [emperor.GetTitleAsNameNoTooltip] of unnatural mind and unusual deeds."

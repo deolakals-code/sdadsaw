@@ -809,3 +809,10 @@
 
  domicile_building_parameter_can_use_incite_revolts: "ได้รับสิทธิ์เข้าถึง $incite_revolts_interaction$ [interaction|E]"
  domicile_building_parameter_can_join_peasant_factions: "สามารถเข้าร่วม [escalated_peasant_faction|E]"
+ domicile_building_parameter_domicile_increased_wet_nurse_aptitude_1: "[GetCourtPositionType('wet_nurse_court_position').GetName()] [aptitude|E]: #P +[EmptyScope.ScriptValue('domicile_increased_wet_nurse_aptitude_1_value')|0]#!"
+ domicile_building_parameter_domicile_increased_wet_nurse_aptitude_2: "[GetCourtPositionType('wet_nurse_court_position').GetName()] [aptitude|E]: #P +[EmptyScope.ScriptValue('domicile_increased_wet_nurse_aptitude_2_value')|0]#!"
+ domicile_building_parameter_domicile_increased_wet_nurse_aptitude_3: "[GetCourtPositionType('wet_nurse_court_position').GetName()] [aptitude|E]: #P +[EmptyScope.ScriptValue('domicile_increased_wet_nurse_aptitude_3_value')|0]#!"
+ domicile_building_parameter_domicile_increased_wet_nurse_aptitude_4: "[GetCourtPositionType('wet_nurse_court_position').GetName()] [aptitude|E]: #P +[EmptyScope.ScriptValue('domicile_increased_wet_nurse_aptitude_4_value')|0]#!"
+ domicile_building_parameter_domicile_increased_wet_nurse_aptitude_5: "[GetCourtPositionType('wet_nurse_court_position').GetName()] [aptitude|E]: #P +[EmptyScope.ScriptValue('domicile_increased_wet_nurse_aptitude_5_value')|0]#!"
+ domicile_building_parameter_domicile_increased_wet_nurse_aptitude_6: "[GetCourtPositionType('wet_nurse_court_position').GetName()] [aptitude|E]: #P +[EmptyScope.ScriptValue('domicile_increased_wet_nurse_aptitude_6_value')|0]#!"
+ domicile_building_parameter_house_head_can_ask_for_building_support: "[house_head|E] can ask for [domicile|E] building support through the $house_head_request_interaction$ [interaction|E]"

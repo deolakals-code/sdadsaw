@@ -101,3 +101,5 @@
  ep3_hasan_assassin_war: "การล่มสลายโดยนักฆ่า"
  hasan_fanatics: "ผู้คลั่งไคล้ของ [ROOT.Char.GetTitledFirstNamePossessiveNoTooltip|U]"
  is_mountainous_desc: "[terrain|E] ท้องถิ่นคือ [GetTerrain( 'mountains' ).GetName] หรือ [GetTerrain( 'desert_mountains' ).GetName]"
+ construct_assassin_castle_modifier: "Found the Assassins"
+ construct_assassin_castle_modifier_desc: "This character constructed a well-protected castle for the newfound Assassins, to fight against blasphemers and heretics."

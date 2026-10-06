@@ -68,3 +68,4 @@ frankokratia_byz_independent_memory_desc_third_perspective: "[owner.GetFirstName
  frankokratia_latin_admin_memory_desc: "ข้าออกพระราชกฤษฎีกาให้ดินแดน[GetTitleByKey('e_latin_empire').GetAdjective]ของข้าดำเนินตามแบบอย่างการปกครองแบบรวมศูนย์อำนาจของกรีก"
  frankokratia_latin_admin_memory_desc_second_perspective: "ท่านออกพระราชกฤษฎีกาให้ดินแดน[GetTitleByKey('e_latin_empire').GetAdjective]ของท่านดำเนินตามแบบอย่างการปกครองแบบรวมศูนย์อำนาจของกรีก"
  frankokratia_latin_admin_memory_desc_third_perspective: "[owner.GetFirstName] ออกพระราชกฤษฎีกาให้ดินแดน[GetTitleByKey('e_latin_empire').GetAdjective]ของ[owner.GetHerHis]ดำเนินตามแบบอย่างการปกครองแบบรวมศูนย์อำนาจของกรีก"
+ became_landless_adventurer_memory_desc_acclaimed_mercenary: "$became_landless_adventurer_memory_desc$ after my glory rallied many [owner.Custom('KnightCulturePluralNoTooltip')|l] to my banner"

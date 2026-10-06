@@ -425,3 +425,7 @@
  
  
  
+ RULER_DESIGNER_RITE_LABEL: "[rite|E]"
+ RULER_DESIGNER_CHOOSE_RITE: "Choose Rite"
+ RULER_DESIGNER_LIST_RELIGION_ENTRY_SELECT_TOOLTIP: "#I Click to expand [Religion.GetAdjectiveNoTooltip] faiths#!"
+ RULER_DESIGNER_LIST_RITE_ENTRY_SELECT_TOOLTIP: "#I Click to select [Rite.GetNameNoTooltip]#!"

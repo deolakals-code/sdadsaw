@@ -224,3 +224,11 @@
  roman_restoration.1204.a:0 "ข้าเพียงแค่ดูแลมันไว้ให้ท่านเท่านั้น!"
  roman_restoration.1204.b:0 "ข้าหวังว่าก้นที่น่ารำคาญของเจ้าจะโดนเสี้ยนตำบนบัลลังก์นะ"
  
+ roman_restoration.0130.desc.pope.exile: "\n\nThe former Pope [scoped_pope.GetFullName] escaped our grasp, fleeing into exile with a handful of loyal servants. The office [scoped_pope.GetSheHe] once held, however, is no more."
+ roman_restoration.0132.t: "The Antichrist Shatters My Throne"
+ roman_restoration.0132.desc: "[catholic.GetAdherentNamePluralNoTooltip] everywhere wake without a shepherd. The Papacy is dissolved, my clergy scattered, the holiest of relics carried off as spoil. Rome is now the dominion of the Antichrist [scoped_destroyer.GetTitledFirstName]."
+ roman_restoration.0132.a: "This ministry must take to the road."
+ roman_restoration.0132.b: "Then let it end with me."
+ roman_restoration.0132.c: "The flock can still be shepherded from [translation_see.GetNameNoTierNoTooltip]."
+ roman_restoration.0132.c.tt: "You take [translation_see.GetNameNoTierNoTooltip]. Your old [clerical_region|E] in Rome is destroyed."
+ roman_restoration.0132.d: "Everything falls to [alt_1.GetFirstNameNoTooltipRegnal]."

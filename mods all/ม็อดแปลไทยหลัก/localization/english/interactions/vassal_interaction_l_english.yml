@@ -178,3 +178,4 @@
 
  celestial_extinguish_noble_family_interaction: "กวาดล้างตระกูลขุนนาง"
  celestial_extinguish_noble_family_interaction_desc: "[execute|E] [recipient.GetShortUIName] และทายาทที่เป็นผู้ใหญ่ของ [recipient.GetHerHis] และ [banish|E] ญาติที่เหลือของ [recipient.GetHerHis] ออกจาก [realm|E]"
+ request_court_position_notification: "My talents rust unused, and that serves neither of us. Grant me a position at your court, and I will repay the honor with faithful service."

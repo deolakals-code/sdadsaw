@@ -595,3 +595,7 @@
  ep3_admin_renounce_throne_personal_desc: "ตัวละครนี้ไม่มีความสนใจในการแข่งขันเพื่อชิงบัลลังก์\n[candidate_score|E] และความปรารถนาสำหรับ [GetLaw('acclamation_succession_law').GetName] ลดลงอย่างมีนัยสำคัญ"
  ep3_admin_renounce_throne_house: "$ep3_admin_renounce_throne_personal$"
  ep3_admin_renounce_throne_house_desc: "ประมุขของตระกูลนี้ไม่ต้องการให้ใครในตระกูลแข่งขันเพื่อชิงบัลลังก์\n[candidate_score|E] และความปรารถนาสำหรับ [GetLaw('acclamation_succession_law').GetName] ลดลงอย่างมีนัยสำคัญ"
+ raid_insight_courtyard: "Courtyard Insights"
+ raid_insight_courtyard_desc: "$raid_insight_shared$\nCourtyard [estate_building|E] Cost: #P -25%#!"
+ raid_insight_market: "Market Insights"
+ raid_insight_market_desc: "$raid_insight_shared$\nMarket [estate_building|E] Cost: #P -25%#!"

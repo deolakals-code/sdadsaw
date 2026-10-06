@@ -31,7 +31,7 @@
  AOV_OPT_HIRING_FULL_TT: "#T การจ้างอัตโนมัติ\n#!จะมีการจ่ายเงินสำหรับ [mercenaries|E], [holy_orders|E] และ [provincial_armies|E] โดยอัตโนมัติ และ [mercenary_contracts|E] จะถูกขยายเวลาหากจำเป็นสำหรับความพยายามในสงคราม"
  AOV_OPT_HIRING_EXTEND: "ขยายเวลาเท่านั้น"
  AOV_OPT_HIRING_EXTEND_TT: "#T การขยายเวลาสัญญาทหารรับจ้างอัตโนมัติ\n#![mercenary_contracts|E] จะถูกขยายเวลาหากจำเป็นสำหรับความพยายามในสงคราม"
- AOV_OPT_HIRING_MANUAL_TT:  "#T การจ้างด้วยตนเอง\n#!ท่านต้องจ่ายเงินสำหรับ [mercenaries|E], [holy_orders|E] และ [provincial_armies|E] ด้วยตนเอง"
+ AOV_OPT_HIRING_MANUAL_TT: "#T การจ้างด้วยตนเอง\n#!ท่านต้องจ่ายเงินสำหรับ [mercenaries|E], [holy_orders|E] และ [provincial_armies|E] ด้วยตนเอง"
 
  MV_AUTOMATION_TOGGLE_TT: "[SelectLocalization( GetPlayer.HasCompanionAI, 'MV_AUTOMATION_TOGGLE_TT_ON', 'MV_AUTOMATION_TOGGLE_TT_OFF' )]"
  MV_AUTOMATION_TOGGLE_TT_ON: "#T $ARMY_AUTOMATION_FEATURE_NAME$: #V เปิดใช้งาน#!\n#!$MV_AUTOMATION_TOGGLE_TT_DESC$\n\n#I คลิกเพื่อปิดใช้งานระบบอัตโนมัติ#!"

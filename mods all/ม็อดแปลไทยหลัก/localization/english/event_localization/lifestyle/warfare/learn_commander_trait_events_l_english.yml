@@ -140,3 +140,7 @@
 
  learn_commander_trait.1491.desc:0 "บางทีอาจเป็นการดีที่สุดที่[teacher.GetTitledFirstName]ไม่ได้อยู่ที่นี่เพื่อเห็นสิ่งนี้...\n\nทุกอย่างผิดพลาดในการยุทธ์จำลองของข้า และไม่มีกลยุทธ์ใดของข้าได้ผลเลย!"
  learn_commander_trait.1491.a:0 "ดูเหมือนว่าข้ายังมีบางสิ่งที่ต้องเรียนรู้..."
+ learn_commander_trait.15.t: "Running Up that Hill"
+ learn_commander_trait.16.t: "Familar with the Forest"
+ learn_commander_trait.17.t: "Being Vigilant"
+ learn_commander_trait.18.t: "A Lesson in Logistics"

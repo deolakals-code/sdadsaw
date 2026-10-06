@@ -740,3 +740,4 @@
 
  domicile_building_parameter_paiza_metal_iron_cavalry_unlock: "ปลดล็อก [tradition|E] [GetCultureTradition('tradition_mpo_iron_cavalry').GetName]"
 
+ has_court_tutor_domicile_building: "Has [GetDomicileBuilding('family_yurt_03').GetName]"

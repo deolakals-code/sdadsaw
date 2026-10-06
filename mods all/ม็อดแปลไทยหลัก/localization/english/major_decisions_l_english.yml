@@ -84,3 +84,4 @@
  major_decisions.3100.tt_opinion_thing:1 "ข้าหลวงของ [cultures|E] ที่มี [heritage|E] $heritage_north_germanic_name$"
  major_decisions.3100.tt_opinion_tanistry:1 "ข้าหลวง ซึ่ง [cultures|E] มี [heritage|E] $heritage_goidelic_name$"
  major_decisions.3100.tt_opinion_jirga: "ข้าหลวงของ [cultures|E] ที่มี [culture_tradition|E] $tradition_fp3_jirga_name$"
+ major_decisions.1105.desc_authority: "\n\nWithout the meddling intercession of [religious_interceder.GetTitledFirstNameRegnal], this pathetic new [founder.GetPrimaryTitle.GetTierAsNameNoTooltip] could never have been formed!"

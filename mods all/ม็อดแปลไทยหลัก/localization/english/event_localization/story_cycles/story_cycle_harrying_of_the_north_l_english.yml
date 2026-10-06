@@ -275,3 +275,4 @@
  ep3_story_cycle_harrying.3057.a.success: "[sympathetic_courtier.GetFirstNameNoTooltip] ตกลงอย่างมีความสุข"
  ep3_story_cycle_harrying.3057.a.failure: "[sympathetic_courtier.GetSheHe|U] ปฏิเสธท่านอย่างไม่เต็มใจ"
  ep3_story_cycle_harrying.3057.b: "ข้าจะไม่มีวันลืมท่าน ไปเถิด, เร็วเข้า, ก่อนที่ท่านจะถูกพบตัว"
+ harrying_of_the_north_started: "[william.GetFirstName] started harrying [GetCultureByKey('anglo_saxon').GetCollectiveNoun]"

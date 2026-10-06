@@ -1175,3 +1175,5 @@
  ep2_wedding.1350.desc.intro:0 "ศีรษะของข้าปวดตุบๆ ด้วยเสียงเฟอร์นิเจอร์กระทบกันและเสียงแขกคุยกันจอแจ ความเครียดคงแสดงออกมา เพราะ [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('caring_relative'))] ของข้า [caring_relative.GetTitledFirstName] จับแขนข้าและพาไปยังห้องถัดไป\n\nเสียงของการเตรียมงานเงียบหายไป เราพูดคุยเรื่องเล็กๆ น้อยๆ: เวลาที่ผ่านไป ผู้คนที่เรารู้จัก ไม่มีการเอ่ยถึงงาน แต่งงานแม้ แต่คำเดียว จากนั้นเราก็หมดคำพูด และตกอยู่ในความเงียบ"
  ep2_wedding.1350.a:0 "เพลิดเพลินกับช่วงเวลาที่เงียบสงบด้วยกัน"
  ep2_wedding.1350.b:1 "บอก [caring_relative.GetShortUINameNoTooltip] ว่าการมีพวกเขาอยู่ที่นี่มีความหมายเพียงใด"
+ ep2_wedding.0153.desc:0 "A great gasp erupts from the crowd, for [spouse_1.GetFirstName] refuses to be wed! [spouse_2.GetFirstName] seems as shocked as the rest of us. A frenzy of gossiping rises up, and infighting breaks out as [spouse_1.GetFirstNameNoTooltip] hastens from this accursed place."
+ ep2_wedding.0153.a:0 "What a mess..."

@@ -83,3 +83,6 @@
  masterful_inspiration_skill:0 "[ROOT.Char.GetSheHe|U] ได้รับการยกย่องว่าเป็นปรมาจารย์โดยเพื่อนร่วมงานของ [ROOT.Char.GetHerHis]"
  competent_inspiration_skill:0 "[ROOT.Char.GetSheHe|U] มีความสามารถอย่างยิ่งในงานฝีมือของ [ROOT.Char.GetHerHis]"
  decent_inspiration_skill:0 "ทักษะของ [ROOT.Char.GetHerHis] อยู่ในระดับพอใช้เท่านั้น"
+ religious_artifact_inspiration_cost_tt: "Religious Artifact Inspirations are based on [learning|E]"
+ religious_artifact_inspiration: "Religious Artifact Inspiration"
+ religious_artifact_inspiration_desc: "A character who has a Religious Artifact Inspiration is [inspired|E] to craft a devotional [artifact|E] to the glory of their [faith|E]. This can include anything from crosses and croziers to illuminated books and censers."

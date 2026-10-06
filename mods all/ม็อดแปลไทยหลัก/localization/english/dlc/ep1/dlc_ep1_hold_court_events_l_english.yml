@@ -38,3 +38,8 @@
  event_bonus_to_vassal_accept_tt:0 "ท่านมีชื่อเสียงในฐานะผู้ปกครองที่ยุติธรรม: $VALUE|=+0$"
  # Council Task Bonuses
  INCREASE_COUNTY_CONTROL_EXPERIENCE_BONUS_VALUE:0 "[councillor.GetCouncilTitle] [councillor.GetFirstName] มีประสบการณ์ในการรับมือกับฝูงชน"
+ nc_brave: "brave"
+ nc_pious: "pious"
+ nc_strong: "strong"
+ nc_learned: "learned"
+ nc_fierce: "fierce"

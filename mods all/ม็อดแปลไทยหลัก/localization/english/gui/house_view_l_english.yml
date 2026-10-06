@@ -93,8 +93,8 @@
 
  HOUSE_RELATION_ITEM_NAME: "[HouseRelation.GetLevel.GetName|V] กับ [DynastyHouse.GetName|V]"
  HOUSE_RELATION_ITEM_HISTORY: "ประวัติของ [HouseRelation.GetName]"
- HOUSE_RELATION_ITEM_LATEST_CHANGE:  "[HouseRelation.GetLatestChangeDescription] – [HouseRelation.GetLatestChangeDate.GetString]"
- HOUSE_RELATION_ITEM_HISTORY_SIZE:  "([GetDataModelSize( HouseRelation.GetHistory )])"
+ HOUSE_RELATION_ITEM_LATEST_CHANGE: "[HouseRelation.GetLatestChangeDescription] – [HouseRelation.GetLatestChangeDate.GetString]"
+ HOUSE_RELATION_ITEM_HISTORY_SIZE: "([GetDataModelSize( HouseRelation.GetHistory )])"
  HOUSE_RELATION_ITEM_SHOW_HISTORY_BUTTON_TOOLTIP: "#T แสดงประวัติความสัมพันธ์#!"
 
  HOUSE_UNITY_LABEL: "ความสามัคคีของตระกูล"

@@ -168,3 +168,10 @@
  tgp_japan_error_prevention_desc: "#D TEMPORARY MEASURE TO PREVENT ERRORS FROM VASSALS OF UNLANDED LIEGE#!"
  every_admin_entrant: "ทุก [administrative|E] [entrant|E] ที่มี [noble_family|E] [title|E]"
  
+ zealot_disapproves_war_victory: "All of [attacker.GetShortUINamePossessive] $zealot_vassals$ ([attacker.MakeScope.ScriptValue('number_of_zealot_vassals')|V0]) Lose #N 10#! [opinion|E] of [attacker.GetShortUIName] for #V 10 years#! #weak (Disapproves of Offensive Victory)#!"
+ zealot_approves_war_victory_defender:0 "All of [defender.GetShortUINamePossessive] $zealot_vassals$ ([defender.MakeScope.ScriptValue('number_of_zealot_vassals')|V0]) gain #P 10#! [opinion|E] of [defender.GetShortUIName] for #V 10 years#! #weak (Approves of Defensive War)#!"
+ zealot_approves_war_white_peace:0 "All of [attacker.GetShortUINamePossessive] $zealot_vassals$ ([attacker.MakeScope.ScriptValue('number_of_zealot_vassals')|V0]) gain #P 5#! [opinion|E] of [attacker.GetShortUIName] for #V 10 years#! #weak (Approves of White Peace)#!"
+ zealot_disapproves_war_white_peace_defender:0 "All of [defender.GetShortUINamePossessive] $zealot_vassals$ ([defender.MakeScope.ScriptValue('number_of_zealot_vassals')|V0]) lose #N 5#! [opinion|E] of [defender.GetShortUIName] for #V 10 years#! #weak (Disapproves of White Peace)#!"
+ zealot_approves_war_defeat_defender:0 "All of [defender.GetShortUINamePossessive] $zealot_vassals$ ([defender.MakeScope.ScriptValue('number_of_zealot_vassals')|V0]) gain #P 10#! [opinion|E] of [defender.GetShortUIName] for #V 10 years#! #weak (Approves of Defensive Victory)#!"
+ zealot_vassal_disapproves_studying_faith: "Every $zealot_vassal$ ([owner.MakeScope.ScriptValue('number_of_zealot_vassals')|V0]) loses #N 30#! [opinion|E] of [owner.GetShortUIName] for #V 10 years#! #weak (Disapproves of Studying Faith)#!"
+ every_zealot_fellow_vassal: "Every [GetVassalStance( 'zealot' ).GetTextIcon][GetVassalStance( 'zealot' ).GetName] fellow [vassal|E]"

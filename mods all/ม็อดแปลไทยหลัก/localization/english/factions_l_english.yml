@@ -468,3 +468,5 @@
  FACTION_REASON_SAME_HOUSE_TARGET: "[house|E] เดียวกันกับเป้าหมาย [faction|E]: $VALUE|+0=$"
  FACTION_REASON_SAME_DYNASTY_TARGET: "[dynasty|E] เดียวกันกับเป้าหมาย [faction|E]: $VALUE|+0=$"
  FACTION_REASON_BLOC_HEAD_IS_LEADER: "[faction] ของหัวหน้า [house_bloc|E] คือหัวหน้า [faction|E]: $VALUE|+0=$"
+ FACTION_REASON_TENET_PURGATORY_SINS: "[GetTenetType('tenet_purgatory').GetBaseName]: Is [sinful|E]: $VALUE|0+=$"
+ FACTION_REASON_TENET_DIVINE_MARRIAGE_INCESTUOUS_LIEGE: "[GetTenetType('tenet_divine_marriage').GetBaseName]: [liege|E] is married to [close_family|E] or [extended_family|E]: $VALUE|0+=$"

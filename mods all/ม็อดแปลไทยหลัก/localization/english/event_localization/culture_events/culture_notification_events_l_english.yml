@@ -39,3 +39,7 @@
  culture_notification.1111.a.other:0 "เราจะรอดูว่าสถานการณ์จะคลี่คลายอย่างไร"
  culture_notification.1111.a.founder:0 "สู่ยุคใหม่ สมัยใหม่ ชนชาติใหม่!"
  culture_notification_tooltip:0 "[divergent_culture|E] [new_culture.GetName] ได้แตกแขนงออกมาจาก [culture|E] [parent_1.GetName]"
+ culture_notification.1011.blend: "The blend is plain to see. They keep the [parent_1.GetNameNoTooltip] tradition of [tradition_1.GetName] alongside the [parent_2.GetNameNoTooltip] custom of [tradition_2.GetName]. Together, they define this new people."
+ culture_notification.1011.blend_fallback: "Neither parent claims the greater share — the [new_culture.GetNameNoTooltip] way blends both worlds seamlessly."
+ culture_notification.1111.tradition.new: "The traditions of their forebears are giving way to [new_tradition.GetName]."
+ culture_notification.1111.tradition.lost: "The [lost_tradition.GetName] ways of the [parent_1.GetCollectiveNounNoTooltip] they have cast aside."

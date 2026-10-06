@@ -89,3 +89,10 @@
  major_legitimacy_gain_no_tier_tt: "[legitimacy_gainer.GetShortUIName|U] ได้รับ[_s(legitimacy_gainer)] [legitimacy_i|E]#P [EmptyScope.ScriptValue('major_legitimacy_gain')]#!"
  massive_legitimacy_gain_no_tier_tt: "[legitimacy_gainer.GetShortUIName|U] ได้รับ[_s(legitimacy_gainer)] [legitimacy_i|E]#P [EmptyScope.ScriptValue('massive_legitimacy_gain')]#!"
  
+ legitimacy_gain_toast_puppeteer: "[puppet_or_actor.GetShortUIName] gained [legitimacy|E]"
+ massively_reduced_scheme_agent_join_chance_in_realm: "Greatly #positive_value Reduced#! targeting [agent|E] Acceptance from same [realm|E]"
+ very_reduced_scheme_agent_join_chance_in_realm: "#positive_value Reduced#! targeting [agent|E] Acceptance from same [realm|E]"
+ reduced_scheme_agent_join_chance_in_realm: "Slightly #positive_value Reduced#! targeting [agent|E] Acceptance from same [realm|E]"
+ increased_scheme_agent_join_chance_in_realm: "Slightly #negative_value Increased#! targeting [agent|E] Acceptance from same [realm|E]"
+ very_increased_scheme_agent_join_chance_in_realm: "#negative_value Increased#! targeting [agent|E] Acceptance from same [realm|E]"
+ extra_increased_scheme_agent_join_chance_in_realm: "Greatly #negative_value Increased#! targeting [agent|E] Acceptance from same [realm|E]"

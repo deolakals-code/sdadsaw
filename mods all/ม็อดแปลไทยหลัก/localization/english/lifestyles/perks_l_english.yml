@@ -224,3 +224,5 @@
  mortal_adoration_perk_radiance: "[GetPerk('mortal_adoration_perk').GetName(GetPlayer)]"
  of_the_people_perk_radiance: "[GetPerk('of_the_people_perk').GetName(GetPlayer)]"
  mandala_dread_perk_radiance: "ความน่าสะพรึงกลัวแห่งมณฑล"
+ prophet_perk_unlock_tenets_effect_first: "Unlocks all [core_tenets|E] and [doctrines|E] when creating or editing a [rite|E], even those you have no [tenet_knowledge|E] of"
+ erudite_perk_name:0 "Erudite"

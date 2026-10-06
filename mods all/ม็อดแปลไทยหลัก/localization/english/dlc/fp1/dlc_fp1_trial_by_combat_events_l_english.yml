@@ -76,3 +76,8 @@
  fp1_tbc.0121.desc.reward.humiliation:0 "\n\nการอ่าน "คำขอขมา" ที่ยืดยาวของ [actor.GetFirstNamePossessiveNoTooltip] ใช้เวลานาน ฟันของข้าขบกันตลอดเวลาขณะที่ข้าเค้นคำพูดออกมา กวีรับจ้างของ [actor.GetHerHis] เพียงแค่หัวเราะคิกคักอยู่เบื้องหลัง จดจำทุกสีหน้าของข้าไว้ในความทรงจำ"
  fp1_tbc.0121.desc.outro:0 "\n\nชัยชนะตกเป็นของคนโง่และขอทาน"
  fp1_tbc.0121.a:0 "$fp1_tbc.0051.a$"
+ fp1_tbc.0021.trigger_failure.actor_puppeteer:0 "$fp1_tbc.0001.trigger_failure.actor_puppeteer$"
+ fp1_tbc.0001.trigger_failure.actor_puppeteer:0 "[puppet_or_actor.GetShortUIName]'s [trial_by_combat_trial|E] against [recipient.GetFirstNameNoTooltip] has invalidated"
+ fp1_tbc.0031.toast_puppeteer:0 "[recipient.GetShortUIName] declined [puppet_or_actor.GetShortUINamePossessive] trial-by-combat challenge"
+ fp1_tbc.0041.toast_puppeteer:0 "[puppet_or_actor.GetShortUIName] won the trial by combat against [recipient.GetShortUIName]"
+ fp1_tbc.0051.toast_puppeteer:0 "[puppet_or_actor.GetShortUIName] lost the trial by combat against [recipient.GetShortUIName]"

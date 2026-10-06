@@ -306,3 +306,11 @@
 
  CHARACTER_FINDER_NAME: "[Character.GetUINameNoTooltip|U]"
  CHARACTER_FINDER_NAME_RELATION: "[Character.GetShortUINameNoTooltip|U] • [Character.GetRelationToString( GetPlayer )]"
+ same_rite_filter_option: "[GetPlayer.GetRite.GetNameNoTooltip]"
+ monastic_holy_order_government_filter_option: "$game_concept_monastic_holy_order$"
+ ecclesiastical_government_filter_option: "$game_concept_ecclesiastical$"
+ same_rite_filter_option_desc: "Only show Characters of the same [rite|E] as you"
+ not_same_rite_filter_option: "Not $same_rite_filter_option$"
+ not_same_rite_filter_option_desc: "Only show Characters of a different [rite|E] than you"
+ monastic_holy_order_government_filter_option_desc: "Only show characters with [monastic_holy_order|E] [government|E]"
+ ecclesiastical_government_filter_option_desc: "Only show characters with [ecclesiastical|E] [government|E]"
