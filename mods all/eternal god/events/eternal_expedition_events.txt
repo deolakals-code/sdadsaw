@@ -1,4 +1,4 @@
-namespace = eternal_expedition
+﻿namespace = eternal_expedition
 
 eternal_expedition.0001 = {
 	type = character_event

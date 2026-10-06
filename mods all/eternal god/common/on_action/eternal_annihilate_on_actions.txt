@@ -1,4 +1,4 @@
-eternal_annihilate_arrive = {
+﻿eternal_annihilate_arrive = {
 	effect = {
 		trigger_event = eternal_annihilate.0002
 	}

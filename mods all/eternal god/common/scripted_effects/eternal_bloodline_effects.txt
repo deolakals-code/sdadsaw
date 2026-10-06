@@ -1,4 +1,4 @@
-eternal_bloodline_purge_injuries = {
+﻿eternal_bloodline_purge_injuries = {
 	if = {
 		limit = { has_trait = eternal_bloodline }
 		remove_trait = wounded_1

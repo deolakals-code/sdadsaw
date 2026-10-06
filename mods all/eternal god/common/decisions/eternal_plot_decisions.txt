@@ -1,4 +1,4 @@
-eternal_mercy_decision = {
+﻿eternal_mercy_decision = {
 	picture = { reference = "gfx/interface/illustrations/decisions/ep3_decision_laamp_neutral_mountain.dds" }
 	desc = eternal_mercy_decision_desc
 	selection_tooltip = eternal_mercy_decision_tooltip

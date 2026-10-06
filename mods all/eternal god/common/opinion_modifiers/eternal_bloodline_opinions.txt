@@ -1,4 +1,4 @@
-eternal_incited_opinion = {
+﻿eternal_incited_opinion = {
 	opinion = -60
 	monthly_change = 0.1
 	decaying = yes

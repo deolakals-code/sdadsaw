@@ -1,4 +1,4 @@
-eternal_hidden_hook = {
+﻿eternal_hidden_hook = {
 	display = hidden
 	group = diplomacy
 }

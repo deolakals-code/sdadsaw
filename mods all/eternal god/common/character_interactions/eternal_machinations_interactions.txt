@@ -1,4 +1,4 @@
-eternal_rumor_interaction = {
+﻿eternal_rumor_interaction = {
 	category = interaction_category_eternal_realm
 	icon = icon_scheme_murder
 	interface_priority = 80

@@ -1,4 +1,4 @@
-eternal_bloodline = {
+﻿eternal_bloodline = {
 	category = fame
 	icon = "eternal_bloodline.dds"
 

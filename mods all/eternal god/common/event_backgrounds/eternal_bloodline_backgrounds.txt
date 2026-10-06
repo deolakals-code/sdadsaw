@@ -1,4 +1,4 @@
-eternal_bloodline_awakening = {
+﻿eternal_bloodline_awakening = {
 	background = {
 		reference = "gfx/interface/illustrations/event_scenes/eternal_bloodline_awakening.dds"
 	}

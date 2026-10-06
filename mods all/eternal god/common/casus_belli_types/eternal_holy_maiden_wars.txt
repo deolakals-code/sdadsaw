@@ -1,4 +1,4 @@
-eternal_holy_maiden_war = {
+﻿eternal_holy_maiden_war = {
 	icon = minor_religious_war
 	group = religious
 

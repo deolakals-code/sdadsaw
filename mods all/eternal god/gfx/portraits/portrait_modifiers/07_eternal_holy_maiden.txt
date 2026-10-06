@@ -1,4 +1,4 @@
-clothes_holy_maiden = {
+﻿clothes_holy_maiden = {
 	usage = game
 	selection_behavior = weighted_random
 	priority = 7

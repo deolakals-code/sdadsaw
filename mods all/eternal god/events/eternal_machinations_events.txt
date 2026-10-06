@@ -1,4 +1,4 @@
-namespace = eternal_machinations
+﻿namespace = eternal_machinations
 
 # Rumor: 0100 -> 0101 (+10d) -> 0102 (+20d)
 eternal_machinations.0100 = {

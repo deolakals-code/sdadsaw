@@ -1,4 +1,4 @@
-namespace = eternal_bloodline
+﻿namespace = eternal_bloodline
 
 # Fired once from on_ruler_designer_finished
 eternal_bloodline.0001 = {
