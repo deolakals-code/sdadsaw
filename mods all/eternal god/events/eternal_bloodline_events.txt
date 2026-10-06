@@ -1,0 +1,83 @@
+namespace = eternal_bloodline
+
+# Fired once from on_ruler_designer_finished
+eternal_bloodline.0001 = {
+	type = character_event
+	title = eternal_bloodline.0001.t
+	desc = eternal_bloodline.0001.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_awakening }
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	trigger = { has_trait = eternal_bloodline }
+
+	option = {
+		name = eternal_bloodline.0001.a
+		add_prestige = 500
+		add_dread = 20
+		custom_tooltip = eternal_bloodline_awakened_tt
+	}
+}
+
+# Fired from eternal_bloodline_yearly (~every 20 years on average)
+eternal_bloodline.0002 = {
+	type = character_event
+	title = eternal_bloodline.0002.t
+	desc = eternal_bloodline.0002.desc
+	theme = stewardship_domain
+	override_background = { reference = eternal_bloodline_worship }
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	trigger = {
+		has_trait = eternal_bloodline
+		is_ruler = yes
+	}
+
+	option = {
+		name = eternal_bloodline.0002.a
+		add_prestige = 300
+		add_piety = 200
+		add_character_modifier = {
+			modifier = eternal_bloodline_worshipped_modifier
+			years = 5
+		}
+	}
+
+	option = {
+		name = eternal_bloodline.0002.b
+		add_prestige = 100
+		add_stress = -20
+	}
+}
+
+eternal_bloodline.0003 = {
+	type = character_event
+	title = eternal_bloodline.0003.t
+	desc = eternal_bloodline.0003.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	trigger = {
+		has_trait = eternal_bloodline
+		any_targeting_scheme = { scheme_type = murder }
+	}
+
+	option = {
+		name = eternal_bloodline.0003.a
+		add_dread = 30
+		add_prestige = 200
+	}
+}

@@ -1,0 +1,139 @@
+clothes_holy_maiden = {
+	usage = game
+	selection_behavior = weighted_random
+	priority = 7
+
+	holy_maiden_orthodox_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = clothes
+				template = religious_orthodox_head_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				has_trait = holy_maiden
+				portrait_religious_orthodox_trigger = yes
+			}
+		}
+	}
+
+	holy_maiden_muslim_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = clothes
+				template = religious_muslim_head_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				has_trait = holy_maiden
+				religion = religion:islam_religion
+			}
+		}
+	}
+
+	holy_maiden_jewish_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = clothes
+				template = religious_jewish_head_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				has_trait = holy_maiden
+				religion = religion:judaism_religion
+			}
+		}
+	}
+
+	holy_maiden_default_clothes = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = clothes
+				template = religious_catholic_head_clothes
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				has_trait = holy_maiden
+				portrait_religious_orthodox_trigger = no
+				NOT = { religion = religion:islam_religion }
+				NOT = { religion = religion:judaism_religion }
+			}
+		}
+	}
+}
+
+headgear_holy_maiden = {
+	usage = game
+	selection_behavior = weighted_random
+	priority = 7
+
+	holy_maiden_orthodox_head = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = headgear
+				template = religious_orthodox_head
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				has_trait = holy_maiden
+				portrait_religious_orthodox_trigger = yes
+			}
+		}
+	}
+
+	holy_maiden_default_head = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = headgear
+				template = catholic_head
+				range = { 0 1 }
+			}
+			accessory = {
+				mode = replace
+				gene = additive_headgear
+				template = no_additive
+				range = { 0 1 }
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				exists = this
+				has_trait = holy_maiden
+				portrait_religious_orthodox_trigger = no
+			}
+		}
+	}
+}

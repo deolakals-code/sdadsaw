@@ -1,0 +1,114 @@
+eternal_rumor_interaction = {
+	category = interaction_category_eternal_realm
+	icon = icon_scheme_murder
+	interface_priority = 80
+	desc = eternal_rumor_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 60 }
+	is_shown = {
+		scope:actor = { has_trait = eternal_bloodline }
+		scope:recipient = { is_ruler = yes is_independent_ruler = yes }
+		scope:recipient != scope:actor
+	}
+	on_accept = {
+		scope:actor = {
+			set_variable = { name = eternal_m_rumor_target value = scope:recipient }
+			trigger_event = eternal_machinations.0100
+		}
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_incite_vassals_interaction = {
+	category = interaction_category_eternal_realm
+	icon = icon_scheme_murder
+	interface_priority = 79
+	desc = eternal_incite_vassals_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 60 }
+	is_shown = {
+		scope:actor = { has_trait = eternal_bloodline }
+		scope:recipient = { is_ruler = yes is_independent_ruler = yes }
+		scope:recipient != scope:actor
+	}
+	on_accept = {
+		scope:actor = {
+			set_variable = { name = eternal_m_incite_target value = scope:recipient }
+			trigger_event = eternal_machinations.0200
+		}
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_feud_interaction = {
+	category = interaction_category_eternal_realm
+	icon = icon_scheme_murder
+	interface_priority = 78
+	desc = eternal_feud_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 90 }
+	is_shown = {
+		scope:actor = { has_trait = eternal_bloodline }
+		scope:recipient = { is_ruler = yes is_independent_ruler = yes }
+		scope:recipient != scope:actor
+	}
+	on_accept = {
+		scope:actor = {
+			set_variable = { name = eternal_m_feud_target value = scope:recipient }
+			trigger_event = eternal_machinations.0300
+		}
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_false_calamity_interaction = {
+	category = interaction_category_eternal_realm
+	icon = icon_scheme_murder
+	interface_priority = 77
+	desc = eternal_false_calamity_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 60 }
+	is_shown = {
+		scope:actor = { has_trait = eternal_bloodline }
+		scope:recipient = { is_ruler = yes is_independent_ruler = yes }
+		scope:recipient != scope:actor
+	}
+	on_accept = {
+		scope:actor = {
+			set_variable = { name = eternal_m_calamity_target value = scope:recipient }
+			trigger_event = eternal_machinations.0400
+		}
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_sow_commoners_interaction = {
+	category = interaction_category_eternal_realm
+	icon = icon_scheme_murder
+	interface_priority = 76
+	desc = eternal_sow_commoners_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 60 }
+	is_shown = {
+		scope:actor = { has_trait = eternal_bloodline }
+		scope:recipient = { is_ruler = yes is_independent_ruler = yes }
+		scope:recipient != scope:actor
+	}
+	on_accept = {
+		scope:actor = {
+			set_variable = { name = eternal_m_commoner_target value = scope:recipient }
+			trigger_event = eternal_machinations.0500
+		}
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}

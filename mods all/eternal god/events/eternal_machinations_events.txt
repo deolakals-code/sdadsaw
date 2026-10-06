@@ -1,0 +1,208 @@
+namespace = eternal_machinations
+
+# Rumor: 0100 -> 0101 (+10d) -> 0102 (+20d)
+eternal_machinations.0100 = {
+	type = character_event
+	title = eternal_machinations.0100.t
+	desc = eternal_machinations.0100.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_rational }
+	option = {
+		name = eternal_machinations.0100.a
+		trigger_event = { id = eternal_machinations.0101 days = 10 }
+	}
+}
+
+eternal_machinations.0101 = {
+	type = character_event
+	title = eternal_machinations.0101.t
+	desc = eternal_machinations.0101.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+	option = {
+		name = eternal_machinations.0101.a
+		var:eternal_m_rumor_target ?= {
+			eternal_machinations_every_county = { MODIFIER = eternal_rumor_county_modifier YEARS = 5 }
+		}
+		trigger_event = { id = eternal_machinations.0102 days = 20 }
+	}
+}
+
+eternal_machinations.0102 = {
+	type = character_event
+	title = eternal_machinations.0102.t
+	desc = eternal_machinations.0102.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+	option = {
+		name = eternal_machinations.0102.a
+		var:eternal_m_rumor_target ?= {
+			add_prestige = -300
+		}
+		add_character_modifier = { modifier = eternal_shadow_sovereign_modifier years = 10 }
+		remove_variable = eternal_m_rumor_target
+	}
+}
+
+# Incite vassals: 0200 -> 0201 (+15d)
+eternal_machinations.0200 = {
+	type = character_event
+	title = eternal_machinations.0200.t
+	desc = eternal_machinations.0200.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_rational }
+	option = {
+		name = eternal_machinations.0200.a
+		trigger_event = { id = eternal_machinations.0201 days = 15 }
+	}
+}
+
+eternal_machinations.0201 = {
+	type = character_event
+	title = eternal_machinations.0201.t
+	desc = eternal_machinations.0201.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_bold }
+	option = {
+		name = eternal_machinations.0201.a
+		var:eternal_m_incite_target ?= {
+			save_scope_as = incite_target
+			every_vassal = {
+				add_opinion = { target = scope:incite_target modifier = eternal_incited_opinion }
+			}
+		}
+		remove_variable = eternal_m_incite_target
+	}
+}
+
+# Frame a war: 0300 -> 0301 (+20d)
+eternal_machinations.0300 = {
+	type = character_event
+	title = eternal_machinations.0300.t
+	desc = eternal_machinations.0300.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_rational }
+	option = {
+		name = eternal_machinations.0300.a
+		trigger_event = { id = eternal_machinations.0301 days = 20 }
+	}
+}
+
+eternal_machinations.0301 = {
+	type = character_event
+	title = eternal_machinations.0301.t
+	desc = eternal_machinations.0301.desc
+	theme = war
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_vengeful }
+
+	immediate = {
+		var:eternal_m_feud_target ?= {
+			save_scope_as = feud_a
+			random_neighboring_and_across_water_top_liege_realm_owner = {
+				limit = {
+					NOT = { this = root }
+					NOT = { is_allied_to = scope:feud_a }
+					NOT = { has_truce = scope:feud_a }
+				}
+				save_scope_as = feud_b
+			}
+		}
+	}
+
+	option = {
+		name = eternal_machinations.0301.a
+		scope:feud_a ?= {
+			add_opinion = { target = scope:feud_b modifier = eternal_slandered_opinion }
+		}
+		scope:feud_b ?= {
+			add_opinion = { target = scope:feud_a modifier = eternal_slandered_opinion }
+			scope:feud_a.capital_county ?= { save_scope_as = feud_claim }
+			if = {
+				limit = { exists = scope:feud_claim }
+				add_pressed_claim = scope:feud_claim
+				start_war = {
+					cb = claim_cb
+					target = scope:feud_a
+					target_title = scope:feud_claim
+					claimant = scope:feud_b
+				}
+			}
+		}
+		add_character_modifier = { modifier = eternal_shadow_sovereign_modifier years = 10 }
+		remove_variable = eternal_m_feud_target
+	}
+}
+
+# False calamity: 0400 -> 0401 (+12d)
+eternal_machinations.0400 = {
+	type = character_event
+	title = eternal_machinations.0400.t
+	desc = eternal_machinations.0400.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_rational }
+	option = {
+		name = eternal_machinations.0400.a
+		trigger_event = { id = eternal_machinations.0401 days = 12 }
+	}
+}
+
+eternal_machinations.0401 = {
+	type = character_event
+	title = eternal_machinations.0401.t
+	desc = eternal_machinations.0401.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+	option = {
+		name = eternal_machinations.0401.a
+		var:eternal_m_calamity_target ?= {
+			save_scope_as = calamity_target
+			capital_county ?= {
+				add_county_modifier = { modifier = eternal_false_calamity_county_modifier years = 10 }
+				every_neighboring_county = {
+					limit = { holder.top_liege = scope:calamity_target }
+					add_county_modifier = { modifier = eternal_false_calamity_county_modifier years = 5 }
+				}
+			}
+		}
+		remove_variable = eternal_m_calamity_target
+	}
+}
+
+# Sow commoners: 0500 -> 0501 (+15d)
+eternal_machinations.0500 = {
+	type = character_event
+	title = eternal_machinations.0500.t
+	desc = eternal_machinations.0500.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_rational }
+	option = {
+		name = eternal_machinations.0500.a
+		trigger_event = { id = eternal_machinations.0501 days = 15 }
+	}
+}
+
+eternal_machinations.0501 = {
+	type = character_event
+	title = eternal_machinations.0501.t
+	desc = eternal_machinations.0501.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+	option = {
+		name = eternal_machinations.0501.a
+		var:eternal_m_commoner_target ?= {
+			eternal_machinations_every_county = { MODIFIER = eternal_commoner_unrest_county_modifier YEARS = 8 }
+		}
+		remove_variable = eternal_m_commoner_target
+	}
+}

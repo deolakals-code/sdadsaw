@@ -1,0 +1,51 @@
+namespace = eternal_expedition
+
+eternal_expedition.0001 = {
+	type = character_event
+	title = eternal_expedition.0001.t
+	desc = eternal_expedition.0001.desc
+	theme = hunting
+	override_background = { reference = terrain }
+
+	left_portrait = {
+		character = root
+		animation = survey
+	}
+
+	immediate = {
+		location.county = {
+			random_neighboring_county = {
+				limit = {
+					holder != root
+					holder.top_liege != root.top_liege
+					NOT = { holder = { is_allied_to = root } }
+				}
+				save_scope_as = raid_target
+			}
+		}
+	}
+
+	option = {
+		name = eternal_expedition.0001.a
+		if = {
+			limit = { exists = domicile }
+			domicile = { change_provisions = major_provisions_gain }
+		}
+		else = {
+			add_gold = medium_gold_value
+		}
+		add_prestige = minor_prestige_gain
+	}
+
+	option = {
+		name = eternal_expedition.0001.b
+		trigger = { exists = scope:raid_target }
+		if = {
+			limit = { exists = domicile }
+			domicile = { change_provisions = medium_provisions_gain }
+		}
+		add_gold = major_gold_value
+		add_dread = 10
+		stress_impact = { compassionate = minor_stress_impact_gain }
+	}
+}

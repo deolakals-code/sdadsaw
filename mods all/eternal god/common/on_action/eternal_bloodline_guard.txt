@@ -1,0 +1,63 @@
+# AI characters must not keep the trait; paired with random_creation_weight = 0.
+on_birth_child = {
+	effect = {
+		scope:child = {
+			if = {
+				limit = {
+					has_trait = eternal_bloodline
+					is_ai = yes
+					NOT = { has_character_flag = eternal_bloodline_chosen }
+				}
+				remove_trait = eternal_bloodline
+			}
+		}
+	}
+}
+
+# Traits have no on_add, so the awakening runs from the ruler designer.
+on_ruler_designer_finished = {
+	effect = {
+		if = {
+			limit = { has_trait = eternal_bloodline }
+			add_character_flag = eternal_bloodline_chosen
+			add_character_flag = immune_to_disease
+			eternal_bloodline_purge_injuries = yes
+			eternal_bloodline_grant_regiment = yes
+			trigger_event = { id = eternal_bloodline.0001 days = 1 }
+		}
+	}
+}
+
+# Root = combat side
+on_combat_end_winner = {
+	effect = {
+		side_primary_participant ?= { eternal_bloodline_purge_injuries = yes }
+		side_commander ?= { eternal_bloodline_purge_injuries = yes }
+	}
+}
+
+on_combat_end_loser = {
+	effect = {
+		side_primary_participant ?= { eternal_bloodline_purge_injuries = yes }
+		side_commander ?= { eternal_bloodline_purge_injuries = yes }
+	}
+}
+
+yearly_playable_pulse = {
+	on_actions = { eternal_bloodline_yearly }
+}
+
+# Fallback for characters who got the trait by console/inheritance.
+eternal_bloodline_yearly = {
+	trigger = { has_trait = eternal_bloodline }
+	effect = {
+		add_character_flag = immune_to_disease
+		eternal_bloodline_purge_injuries = yes
+		eternal_bloodline_grant_regiment = yes
+	}
+	random_events = {
+		chance_of_no_event = 90
+		1 = eternal_bloodline.0002
+		4 = eternal_bloodline.0003
+	}
+}

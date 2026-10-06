@@ -1,0 +1,32 @@
+on_birth_child = {
+	effect = {
+		scope:child = {
+			if = {
+				limit = { has_trait = holy_maiden NOT = { has_character_flag = holy_maiden_chosen } }
+				remove_trait = holy_maiden
+			}
+		}
+	}
+}
+
+on_ruler_designer_finished = {
+	effect = {
+		if = {
+			limit = { has_trait = holy_maiden }
+			add_character_flag = holy_maiden_chosen
+		}
+	}
+}
+
+yearly_playable_pulse = {
+	effect = {
+		if = {
+			limit = {
+				has_trait = holy_maiden
+				is_ai = yes
+				NOT = { has_character_flag = holy_maiden_chosen }
+			}
+			remove_trait = holy_maiden
+		}
+	}
+}

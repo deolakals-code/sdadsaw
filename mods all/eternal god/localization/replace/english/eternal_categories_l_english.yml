@@ -1,0 +1,9 @@
+﻿l_english:
+ ETERNAL_FAMILY_ACTIONS: "Shadow: Bloodlines"
+ ETERNAL_REALM_ACTIONS: "Shadow: Realms"
+ ETERNAL_CHARM_ACTIONS: "Shadow: Graces"
+ interaction_category_eternal_family: "Shadow: Bloodlines"
+ interaction_category_eternal_realm: "Shadow: Realms"
+ interaction_category_eternal_charm: "Shadow: Graces"
+ decision_group_type_eternal_shadow: "Shadow Schemes"
+ decision_group_type_eternal_court: "The Eternal Court"

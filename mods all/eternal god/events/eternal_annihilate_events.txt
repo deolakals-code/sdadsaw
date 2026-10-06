@@ -1,0 +1,86 @@
+namespace = eternal_annihilate
+
+# Departure
+eternal_annihilate.0001 = {
+	type = character_event
+	title = eternal_annihilate.0001.t
+	desc = eternal_annihilate.0001.desc
+	theme = war
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_vengeful }
+	right_portrait = { character = var:eternal_annihilate_target animation = fear }
+
+	option = {
+		name = eternal_annihilate.0001.a
+		hidden_effect = {
+			start_travel_plan = {
+				destination = var:eternal_annihilate_target.location
+				on_arrival_on_action = eternal_annihilate_arrive
+				on_travel_planner_cancel_on_action = eternal_annihilate_cancel
+				on_arrival_destinations = last
+				return_trip = no
+			}
+		}
+	}
+}
+
+# Outcome (99% success)
+eternal_annihilate.0002 = {
+	type = character_event
+	title = eternal_annihilate.0002.t
+	desc = eternal_annihilate.0002.desc
+	theme = war
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_bold }
+
+	immediate = {
+		var:eternal_annihilate_target ?= { save_scope_as = victim }
+		random_list = {
+			99 = { save_scope_value_as = { name = annihilate_ok value = yes } }
+			1 = { save_scope_value_as = { name = annihilate_ok value = no } }
+		}
+	}
+
+	option = {
+		name = eternal_annihilate.0002.a
+		trigger = { scope:annihilate_ok = yes }
+		scope:victim ?= {
+			save_scope_value_as = { name = loot_gold value = gold }
+			add_gold = { value = scope:loot_gold multiply = -1 }
+			every_character_artifact = { set_owner = root }
+		}
+		add_gold = scope:loot_gold
+		if = {
+			limit = { exists = domicile }
+			domicile = { change_provisions = 1000 }
+		}
+		add_character_modifier = { modifier = eternal_shadow_sovereign_modifier years = 10 }
+		trigger_event = { id = eternal_annihilate.0003 days = 7 }
+		scope:victim ?= { eternal_annihilate_realm = yes }
+		add_dread = 100
+		add_prestige = 500
+		remove_variable = eternal_annihilate_target
+	}
+
+	option = {
+		name = eternal_annihilate.0002.b
+		trigger = { scope:annihilate_ok = no }
+		remove_variable = eternal_annihilate_target
+	}
+}
+
+# Aftermath: nobody knows
+eternal_annihilate.0003 = {
+	type = character_event
+	title = eternal_annihilate.0003.t
+	desc = eternal_annihilate.0003.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_rational }
+
+	option = {
+		name = eternal_annihilate.0003.a
+		add_prestige = 250
+		add_dread = 25
+	}
+}
