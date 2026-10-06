@@ -4,7 +4,6 @@
 	interface_priority = 75
 	desc = eternal_decree_excommunicate_interaction_desc
 	auto_accept = yes
-	cooldown = { days = 90 }
 	is_shown = {
 		scope:actor = { has_trait = holy_maiden }
 		scope:recipient != scope:actor
@@ -31,7 +30,6 @@ eternal_holy_blessing_interaction = {
 	interface_priority = 60
 	desc = eternal_holy_blessing_interaction_desc
 	auto_accept = yes
-	cooldown = { days = 60 }
 	is_shown = {
 		scope:actor = { has_trait = holy_maiden }
 		scope:recipient != scope:actor
@@ -47,7 +45,7 @@ eternal_holy_blessing_interaction = {
 		}
 		scope:recipient = {
 			add_opinion = { target = scope:actor modifier = eternal_charmed_opinion }
-			add_character_modifier = { modifier = eternal_blessed_modifier years = 5 }
+			add_character_modifier = { modifier = eternal_blessed_modifier }
 		}
 	}
 	ai_accept = { base = 100 }
@@ -61,7 +59,6 @@ eternal_pontiff_thrall_interaction = {
 	interface_priority = 74
 	desc = eternal_pontiff_thrall_interaction_desc
 	auto_accept = yes
-	cooldown = { days = 120 }
 	is_shown = {
 		scope:actor = { has_trait = holy_maiden }
 		scope:recipient != scope:actor
