@@ -142,15 +142,332 @@ eternal_holy_maiden_call = {
 			scope:war = { add_attacker = scope:holy_ally }
 			add_opinion = { target = scope:attacker modifier = eternal_charmed_opinion }
 			add_character_modifier = { modifier = eternal_holy_fervor_modifier years = 3 }
+			eternal_holy_maiden_host = yes
+
+			scope:attacker = { add_hook = { type = favor_hook target = scope:holy_ally } }
+		}
+	}
+}
+
+# Summons a randomly composed host of the holy_ally's own men-at-arms (scope: the allied ruler; scope:war must exist).
+eternal_holy_maiden_host = {
+	spawn_army = {
+		name = event_troop_default_name
+		levies = 600
+		location = scope:holy_ally.capital_province
+		uses_supply = no
+		war = scope:war
+		inheritable = no
+	}
+	random_list = {
+		30 = {
+			set_variable = { name = eternal_host_kind value = flag:shield_wall }
 			spawn_army = {
 				name = event_troop_default_name
-				levies = 2000
+				men_at_arms = { type = armored_footmen stacks = 8 }
+				men_at_arms = { type = pikemen_unit stacks = 6 }
+				men_at_arms = { type = light_footmen stacks = 4 }
 				location = scope:holy_ally.capital_province
 				uses_supply = no
 				war = scope:war
 				inheritable = no
 			}
-			scope:attacker = { add_hook = { type = favor_hook target = scope:holy_ally } }
+		}
+		25 = {
+			set_variable = { name = eternal_host_kind value = flag:riders }
+			spawn_army = {
+				name = event_troop_default_name
+				men_at_arms = { type = armored_horsemen stacks = 6 }
+				men_at_arms = { type = light_horsemen stacks = 8 }
+				location = scope:holy_ally.capital_province
+				uses_supply = no
+				war = scope:war
+				inheritable = no
+			}
+		}
+		20 = {
+			set_variable = { name = eternal_host_kind value = flag:archers }
+			spawn_army = {
+				name = event_troop_default_name
+				men_at_arms = { type = bowmen stacks = 8 }
+				men_at_arms = { type = crossbowmen stacks = 6 }
+				men_at_arms = { type = light_footmen stacks = 4 }
+				location = scope:holy_ally.capital_province
+				uses_supply = no
+				war = scope:war
+				inheritable = no
+			}
+		}
+		25 = {
+			set_variable = { name = eternal_host_kind value = flag:zealots }
+			eternal_holy_maiden_elite_host = yes
+		}
+	}
+}
+
+# Culture-specific elite regiments, falling back to heavy horsemen and footmen.
+eternal_holy_maiden_elite_host = {
+	if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_huscarls } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = huscarl stacks = 10 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_longbowmen } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = longbowmen stacks = 12 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_monaspa } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = monaspa stacks = 6 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_cataphract } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = cataphract stacks = 6 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_ayyar } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = ayyar stacks = 10 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_druzhina } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = druzhina stacks = 8 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_hussar } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = hussar stacks = 8 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_mubarizun } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = mubarizun stacks = 8 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_mulaththamun } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = mulaththamun stacks = 8 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_garudas } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = garudas stacks = 8 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_khandayat } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = khandayat stacks = 8 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_zbrojnosh } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = zbrojnosh stacks = 8 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_palace_guards } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = palace_guards stacks = 8 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_mountaineer } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = mountaineer stacks = 10 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_horn_warrior } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = horn_warrior stacks = 10 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_bush_hunter } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = bush_hunter stacks = 10 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_shomer } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = shomer stacks = 10 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_metsanvartija } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = metsanvartija stacks = 12 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_abudrar } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = abudrar stacks = 10 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_guinea_warrior } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = guinea_warrior stacks = 10 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else_if = {
+		limit = { culture = { has_cultural_parameter = unlock_maa_archers_of_the_nile } }
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = archers_of_the_nile stacks = 12 }
+			men_at_arms = { type = armored_footmen stacks = 4 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
+		}
+	}
+	else = {
+		spawn_army = {
+			name = event_troop_default_name
+			men_at_arms = { type = armored_horsemen stacks = 6 }
+			men_at_arms = { type = armored_footmen stacks = 8 }
+			location = scope:holy_ally.capital_province
+			uses_supply = no
+			war = scope:war
+			inheritable = no
 		}
 	}
 }
