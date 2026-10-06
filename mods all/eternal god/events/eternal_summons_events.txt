@@ -153,11 +153,13 @@ eternal_summons.0100 = {
 
 	option = {
 		name = eternal_summons.0100.b
+		trigger = { scope:summon_guest = { is_adult = yes } }
 		trigger_event = eternal_summons.2100
 	}
 
 	option = {
 		name = eternal_summons.0100.c
+		trigger = { scope:summon_guest = { is_adult = yes } }
 		trigger_event = eternal_summons.3100
 	}
 

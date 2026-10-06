@@ -119,10 +119,7 @@ eternal_royal_summons_interaction = {
 	is_shown = {
 		scope:actor = { has_trait = holy_maiden }
 		scope:recipient != scope:actor
-		scope:recipient = {
-			is_adult = yes
-			is_alive = yes
-		}
+		scope:recipient = { is_alive = yes }
 	}
 	is_valid_showing_failures_only = {
 		scope:actor = {
