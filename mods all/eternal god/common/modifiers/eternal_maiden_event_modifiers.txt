@@ -1,0 +1,20 @@
+﻿# Modifiers for the Holy Maiden event series (events/eternal_maiden_*_events.txt)
+eternal_maiden_miracle_modifier = {
+	monthly_piety = 1
+	general_opinion = 5
+}
+
+eternal_maiden_beloved_modifier = {
+	general_opinion = 10
+	vassal_opinion = 5
+}
+
+eternal_maiden_feared_modifier = {
+	dread_baseline_add = 15
+	clergy_opinion = -5
+}
+
+eternal_maiden_martyr_cult_modifier = {
+	monthly_piety = 2
+	monthly_prestige = 1
+}

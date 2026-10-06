@@ -1,0 +1,11 @@
+﻿eternal_maiden_devoted_opinion = {
+	opinion = 30
+	monthly_change = 0.1
+	decaying = yes
+}
+
+eternal_maiden_shamed_opinion = {
+	opinion = -30
+	monthly_change = 0.1
+	decaying = yes
+}
