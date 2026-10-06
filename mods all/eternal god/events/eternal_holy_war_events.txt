@@ -220,3 +220,23 @@ eternal_holywar.0007 = {
 	}
 }
 
+# Hidden upkeep: every ten days of a Holy Maiden war, clears mercenary payment claims of the hired adventurers.
+eternal_holywar.0100 = {
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				exists = var:eternal_war_ref
+				is_at_war = yes
+			}
+			var:eternal_war_ref = { save_scope_as = war }
+			eternal_clear_merc_pay_effect = yes
+			trigger_event = { id = eternal_holywar.0100 days = 10 }
+		}
+		else_if = {
+			limit = { exists = var:eternal_war_ref }
+			remove_variable = eternal_war_ref
+		}
+	}
+}

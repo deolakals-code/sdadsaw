@@ -171,6 +171,10 @@
 	on_declaration = {
 		on_declared_war_play_music = yes
 		eternal_holy_maiden_call = yes
+		scope:attacker = {
+			set_variable = { name = eternal_war_ref value = scope:war years = 5 }
+			trigger_event = { id = eternal_holywar.0100 days = 10 }
+		}
 		scope:attacker = { trigger_event = { id = eternal_holywar.0001 days = 2 } }
 	}
 
@@ -189,6 +193,7 @@
 	}
 
 	on_victory = {
+		eternal_clear_merc_pay_effect = yes
 		scope:attacker = {
 			add_gold = eternal_war_spoils_gold
 			add_prestige = 250
@@ -309,6 +314,7 @@
 	}
 
 	on_white_peace = {
+		eternal_clear_merc_pay_effect = yes
 		scope:attacker = {
 			add_gold = eternal_war_spoils_gold_small
 			add_prestige = 75
@@ -351,6 +357,7 @@
 	}
 
 	on_defeat = {
+		eternal_clear_merc_pay_effect = yes
 		scope:attacker = { trigger_event = { id = eternal_holywar.0007 days = 3 } }
 		pam_notify_holy_war_instigator_effect_loss = yes
 		scope:attacker = { show_pow_release_message_effect = yes }

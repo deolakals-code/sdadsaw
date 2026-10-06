@@ -1,73 +1,15 @@
-﻿# Override of the Roads to Power effect of the same name (07_dlc_ep3_scripted_effects.txt).
-# Holy Maiden wars: hired adventurers are never paid and no payment letter is sent; the spoils go to the Maiden instead
-# (see eternal_holy_maiden_war on_victory). Every other war runs the unchanged vanilla code below.
-laamp_as_mercenary_payout_effect = {
-	if = {
-		limit = { scope:war = { using_cb = eternal_holy_maiden_war } }
-		scope:war = {
-			every_war_participant = {
-				limit = { exists = var:joined_as_mercenary }
-				remove_variable = joined_as_mercenary
+﻿# Holy Maiden wars never charge the Maiden for hired adventurers (Roads to Power mercenary payouts).
+# The payout letter needs var:joined_as_mercenary on the adventurer, so this clears it (and the employer's
+# hired_mercenaries entry, as the base game does after paying). Needs scope:war.
+eternal_clear_merc_pay_effect = {
+	scope:war = {
+		every_war_participant = {
+			limit = { exists = var:joined_as_mercenary }
+			save_scope_as = eternal_merc
+			var:joined_as_mercenary = {
+				remove_list_variable = { name = hired_mercenaries target = scope:eternal_merc }
 			}
-		}
-	}
-	else = {
-		scope:war = {
-			every_war_participant = {
-				limit = {
-					laamp_as_mercenary_payout_trigger = { WAR = scope:war }
-				}
-				if = {
-					limit = {
-						laamp_as_mercenary_payout_last_war_trigger = { WAR = scope:war }
-					}
-					save_scope_as = laamp_temp
-					add_to_list = laamp_mercenaries
-					var:joined_as_mercenary = {
-						save_scope_as = employer
-						trigger_event = {
-							id = ep3_interactions_events.0121
-							days = { 3 7 }
-						}
-					}
-					every_in_list = {
-						list = laamp_mercenaries
-						scope:employer = {
-							remove_list_variable = {
-							 	name = hired_mercenaries
-							 	target = scope:laamp_temp
-							}
-						}
-					}
-					remove_variable = joined_as_mercenary
-				}
-				else = {
-					save_scope_as = laamp_temp
-					save_scope_value_as = {
-						name = war_contribution_value
-						value = "scope:war.war_contribution(scope:laamp_temp)"
-					}
-					var:joined_as_mercenary = { save_scope_as = employer }
-					if = {
-						limit = { exists = var:aggregate_war_contribution_value }
-						change_variable = {
-							name = aggregate_war_contribution_value
-							add = scope:laamp_temp.ep3_hire_laamp_mercs_payment_value
-						}
-						# Average
-						change_variable = {
-							name = aggregate_war_contribution_value
-							divide = 2
-						}
-					}
-					else = {
-						set_variable = {
-							name = aggregate_war_contribution_value
-							value = scope:laamp_temp.ep3_hire_laamp_mercs_payment_value
-						}
-					}
-				}
-			}
+			remove_variable = joined_as_mercenary
 		}
 	}
 }
