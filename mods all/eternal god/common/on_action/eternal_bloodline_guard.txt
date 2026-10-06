@@ -22,6 +22,7 @@ yearly_playable_pulse = {
 
 # AI characters must not keep the trait; paired with random_creation_weight = 0.
 eternal_bloodline_on_birth_child = {
+	trigger = { scope:child = { has_trait = eternal_bloodline } }
 	effect = {
 		scope:child = {
 			if = {
@@ -38,6 +39,7 @@ eternal_bloodline_on_birth_child = {
 
 # Traits have no on_add, so the awakening runs from the ruler designer.
 eternal_bloodline_on_ruler_designer_finished = {
+	trigger = { has_trait = eternal_bloodline }
 	effect = {
 		if = {
 			limit = { has_trait = eternal_bloodline }
@@ -52,6 +54,12 @@ eternal_bloodline_on_ruler_designer_finished = {
 
 # Root = combat side
 eternal_bloodline_on_combat_end = {
+	trigger = {
+		OR = {
+			side_primary_participant ?= { has_trait = eternal_bloodline }
+			side_commander ?= { has_trait = eternal_bloodline }
+		}
+	}
 	effect = {
 		side_primary_participant ?= { eternal_bloodline_purge_injuries = yes }
 		side_commander ?= { eternal_bloodline_purge_injuries = yes }

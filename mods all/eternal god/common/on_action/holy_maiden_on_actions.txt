@@ -11,6 +11,7 @@ yearly_playable_pulse = {
 }
 
 holy_maiden_on_birth_child = {
+	trigger = { scope:child = { has_trait = holy_maiden } }
 	effect = {
 		scope:child = {
 			if = {
@@ -22,6 +23,7 @@ holy_maiden_on_birth_child = {
 }
 
 holy_maiden_on_ruler_designer_finished = {
+	trigger = { has_trait = holy_maiden }
 	effect = {
 		if = {
 			limit = { has_trait = holy_maiden }
@@ -31,14 +33,12 @@ holy_maiden_on_ruler_designer_finished = {
 }
 
 holy_maiden_yearly = {
+	trigger = {
+		has_trait = holy_maiden
+		is_ai = yes
+		NOT = { has_character_flag = holy_maiden_chosen }
+	}
 	effect = {
-		if = {
-			limit = {
-				has_trait = holy_maiden
-				is_ai = yes
-				NOT = { has_character_flag = holy_maiden_chosen }
-			}
-			remove_trait = holy_maiden
-		}
+		remove_trait = holy_maiden
 	}
 }

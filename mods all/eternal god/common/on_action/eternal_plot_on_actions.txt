@@ -3,10 +3,11 @@
 }
 
 eternal_plot_yearly = {
+	trigger = {
+		has_trait = eternal_bloodline
+		has_variable = eternal_suspicion
+	}
 	effect = {
-		if = {
-			limit = { has_trait = eternal_bloodline has_variable = eternal_suspicion }
-			eternal_add_suspicion = { A = -10 B = -10 }
-		}
+		eternal_add_suspicion = { A = -10 B = -10 }
 	}
 }
