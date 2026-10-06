@@ -1,0 +1,13 @@
+﻿yearly_playable_pulse = {
+	on_actions = { eternal_plot_yearly }
+}
+
+eternal_plot_yearly = {
+	trigger = {
+		has_trait = eternal_bloodline
+		has_variable = eternal_suspicion
+	}
+	effect = {
+		eternal_add_suspicion = { A = -10 B = -10 }
+	}
+}

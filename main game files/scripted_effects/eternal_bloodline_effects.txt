@@ -1,0 +1,156 @@
+﻿eternal_bloodline_purge_injuries = {
+	if = {
+		limit = { has_trait = eternal_bloodline }
+		remove_trait = wounded_1
+		remove_trait = wounded_2
+		remove_trait = wounded_3
+		remove_trait = maimed
+		remove_trait = one_eyed
+		remove_trait = one_legged
+		remove_trait = disfigured
+		remove_trait = scarred
+	}
+}
+
+eternal_bloodline_grant_regiment = {
+	if = {
+		limit = {
+			has_trait = eternal_bloodline
+			is_ruler = yes
+			NOT = { any_maa_regiment = { is_maa_type = eternal_divine_knight } }
+		}
+		create_maa_regiment = {
+			type = eternal_divine_knight
+			check_can_recruit = no
+			size = 1
+		}
+	}
+}
+
+eternal_annihilate_realm = {
+	if = {
+		limit = { is_ruler = yes }
+		top_liege = { save_scope_as = annihilate_head }
+	}
+	else = {
+		court_owner ?= { top_liege = { save_scope_as = annihilate_head } }
+	}
+	if = {
+		limit = { NOT = { exists = scope:annihilate_head } }
+		save_scope_as = annihilate_head
+	}
+	dynasty ?= {
+		every_dynasty_member = {
+			limit = { is_alive = yes NOT = { this = root } }
+			death = { death_reason = death_mysterious }
+		}
+	}
+	scope:annihilate_head = {
+		every_vassal_or_below = {
+			every_maa_regiment = { destroy_maa_regiment = yes }
+			add_character_modifier = { modifier = eternal_annihilated_army_modifier years = 10 }
+		}
+		every_maa_regiment = { destroy_maa_regiment = yes }
+		add_character_modifier = { modifier = eternal_annihilated_army_modifier years = 10 }
+	}
+}
+
+eternal_machinations_every_county = {
+	every_realm_county = {
+		add_county_modifier = { modifier = $MODIFIER$ years = $YEARS$ }
+	}
+}
+
+eternal_plot_begin = {
+	if = {
+		limit = { NOT = { has_variable = eternal_suspicion } }
+		set_variable = { name = eternal_suspicion value = 0 }
+	}
+	eternal_add_suspicion = { A = 5 B = 2 }
+}
+
+eternal_plan_finish = {
+	remove_variable = eternal_m_$K$_target
+	remove_variable = eternal_m_$K$_style
+	remove_variable = eternal_m_$K$_a
+	remove_variable = eternal_m_$K$_v
+	remove_variable = eternal_m_$K$_k
+	remove_variable = eternal_m_$K$_nk
+	remove_variable = eternal_m_$K$_wolf
+	if = {
+		limit = { NOT = { has_variable = eternal_plans_done } }
+		set_variable = { name = eternal_plans_done value = 0 }
+	}
+	change_variable = { name = eternal_plans_done add = 1 }
+	random = {
+		chance = 25
+		trigger_event = { on_action = eternal_tyrant_after_plot days = { 20 60 } }
+	}
+}
+
+eternal_add_suspicion = {
+	if = {
+		limit = { NOT = { has_variable = eternal_suspicion } }
+		set_variable = { name = eternal_suspicion value = 0 }
+	}
+	if = {
+		limit = { has_variable = eternal_shadow_agent var:eternal_shadow_agent ?= { is_alive = yes } }
+		change_variable = { name = eternal_suspicion add = $B$ }
+	}
+	else = {
+		change_variable = { name = eternal_suspicion add = $A$ }
+	}
+	if = {
+		limit = { var:eternal_suspicion < 0 }
+		set_variable = { name = eternal_suspicion value = 0 }
+	}
+	if = {
+		limit = { var:eternal_suspicion >= 100 }
+		set_variable = { name = eternal_suspicion value = 99 }
+		trigger_event = eternal_plot.9000
+	}
+}
+
+eternal_machinations_every_county_of = {
+	$TARGET$ = {
+		every_realm_county = {
+			add_county_modifier = { modifier = $MODIFIER$ years = $YEARS$ }
+		}
+	}
+}
+
+eternal_holy_maiden_call = {
+	scope:attacker = {
+		faith.religious_head ?= { faith = { save_scope_as = pope_faith } }
+		every_independent_ruler = {
+			limit = {
+				NOT = { this = scope:attacker }
+				NOT = { this = scope:defender }
+				NOT = { top_liege = scope:defender.top_liege }
+				NOT = { is_attacker_in_war = scope:war }
+				NOT = { is_defender_in_war = scope:war }
+				OR = {
+					faith = scope:attacker.faith
+					religion = scope:attacker.religion
+					AND = {
+						exists = scope:pope_faith
+						faith = scope:pope_faith
+					}
+				}
+			}
+			save_scope_as = holy_ally
+			scope:war = { add_attacker = scope:holy_ally }
+			add_opinion = { target = scope:attacker modifier = eternal_charmed_opinion }
+			add_character_modifier = { modifier = eternal_holy_fervor_modifier years = 3 }
+			spawn_army = {
+				name = event_troop_default_name
+				levies = 2000
+				location = scope:holy_ally.capital_province
+				uses_supply = no
+				war = scope:war
+				inheritable = no
+			}
+			scope:attacker = { add_hook = { type = favor_hook target = scope:holy_ally } }
+		}
+	}
+}

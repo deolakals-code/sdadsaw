@@ -1,0 +1,85 @@
+﻿eternal_decree_excommunicate_interaction = {
+	category = interaction_category_eternal_realm
+	icon = icon_scheme_befriend
+	interface_priority = 75
+	desc = eternal_decree_excommunicate_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 90 }
+	is_shown = {
+		scope:actor = { has_trait = holy_maiden }
+		scope:recipient != scope:actor
+		scope:recipient = { is_alive = yes }
+	}
+	is_valid_showing_failures_only = {
+		scope:recipient = { NOT = { has_trait = excommunicated } }
+	}
+	on_accept = {
+		scope:recipient = {
+			add_trait_force_tooltip = excommunicated
+			add_opinion = { target = scope:actor modifier = eternal_exposed_opinion }
+		}
+		scope:actor = { add_piety = -100 }
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_holy_blessing_interaction = {
+	category = interaction_category_eternal_charm
+	icon = icon_scheme_befriend
+	interface_priority = 60
+	desc = eternal_holy_blessing_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 60 }
+	is_shown = {
+		scope:actor = { has_trait = holy_maiden }
+		scope:recipient != scope:actor
+		scope:recipient = { is_adult = yes }
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = { piety >= 100 }
+	}
+	on_accept = {
+		scope:actor = {
+			add_piety = -100
+			add_hook = { type = favor_hook target = scope:recipient }
+		}
+		scope:recipient = {
+			add_opinion = { target = scope:actor modifier = eternal_charmed_opinion }
+			add_character_modifier = { modifier = eternal_blessed_modifier years = 5 }
+		}
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_pontiff_thrall_interaction = {
+	category = interaction_category_eternal_realm
+	icon = icon_scheme_befriend
+	interface_priority = 74
+	desc = eternal_pontiff_thrall_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 120 }
+	is_shown = {
+		scope:actor = { has_trait = holy_maiden }
+		scope:recipient != scope:actor
+		scope:recipient = { this = scope:recipient.faith.religious_head }
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = { piety >= 150 }
+	}
+	on_accept = {
+		scope:actor = {
+			add_piety = -150
+			add_hook = { type = favor_hook target = scope:recipient }
+			add_prestige = 300
+		}
+		scope:recipient = { add_opinion = { target = scope:actor modifier = eternal_charmed_opinion } }
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+

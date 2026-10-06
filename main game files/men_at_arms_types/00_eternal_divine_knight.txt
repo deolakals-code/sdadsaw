@@ -1,0 +1,45 @@
+﻿eternal_divine_knight = {
+	type = heavy_cavalry
+
+	damage = 150
+	toughness = 120
+	pursuit = 60
+	screen = 20
+
+	siege_value = 0.5
+
+	terrain_bonus = {
+		plains = { damage = 20 pursuit = 20 }
+		farmlands = { damage = 20 pursuit = 20 }
+		steppe = { damage = 30 pursuit = 30 }
+		hills = { damage = 10 }
+		desert = { damage = 10 }
+	}
+
+	counters = {
+		skirmishers = 1
+		archers = 1
+		light_cavalry = 1
+		pikemen = 0.5
+	}
+
+	buy_cost = { gold = 0 }
+	low_maintenance_cost = { gold = 0 }
+	high_maintenance_cost = { gold = 0 }
+
+	stack = 80
+
+	can_recruit = {
+		has_trait = eternal_bloodline
+	}
+
+	max_regiments = 5
+
+	allowed_in_hired_troops = no
+
+	ai_quality = {
+		value = 0
+	}
+
+	icon = eternal_divine_knight
+}

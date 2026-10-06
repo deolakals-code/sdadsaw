@@ -1,0 +1,11 @@
+﻿eternal_tyrant_sworn_opinion = {
+	opinion = 30
+	monthly_change = 0.1
+	decaying = yes
+}
+
+eternal_tyrant_terrified_opinion = {
+	opinion = -20
+	monthly_change = 0.1
+	decaying = yes
+}

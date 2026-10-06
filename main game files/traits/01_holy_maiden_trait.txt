@@ -1,0 +1,37 @@
+﻿holy_maiden = {
+	category = fame
+	icon = "holy_maiden.dds"
+
+	random_creation_weight = 0
+	shown_in_ruler_designer = yes
+	ruler_designer_cost = 10
+	inherit_chance = 0
+
+	diplomacy = 6
+	intrigue = 10
+	learning = 6
+	stewardship = 4
+
+	stress_gain_mult = -0.5
+	monthly_piety_gain_mult = 1.0
+	monthly_prestige_gain_mult = 0.3
+	dread_baseline_add = 10
+
+	clergy_opinion = 40
+	same_faith_opinion = 20
+	different_faith_opinion = 5
+	general_opinion = 10
+
+	owned_hostile_scheme_success_chance_add = 25
+	enemy_hostile_scheme_success_chance_add = -25
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_holy_maiden_desc
+			}
+			desc = trait_holy_maiden_character_desc
+		}
+	}
+}

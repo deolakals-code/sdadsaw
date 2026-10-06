@@ -1,0 +1,16 @@
+﻿eternal_tyrant_blood_tribute_modifier = {
+	monthly_income = 2
+	dread_gain_mult = 0.1
+}
+
+eternal_tyrant_iron_court_modifier = {
+	dread_baseline_add = 10
+	intrigue = 2
+}
+
+eternal_tyrant_dread_lord_modifier = {
+	dread_baseline_add = 25
+	dread_gain_mult = 0.5
+	monthly_prestige = 1
+	vassal_opinion = -5
+}

@@ -1,0 +1,58 @@
+﻿yearly_playable_pulse = {
+	on_actions = { holy_maiden_events_yearly }
+}
+
+# Holy Maiden event series; each event has its own cooldown flag
+holy_maiden_events_yearly = {
+	trigger = {
+		has_trait = holy_maiden
+		is_adult = yes
+	}
+	random_events = {
+		chance_of_no_event = 60
+		# 1/4 pilgrims and miracles
+		100 = eternal_maiden.0100
+		100 = eternal_maiden.0101
+		100 = eternal_maiden.0102
+		100 = eternal_maiden.0103
+		100 = eternal_maiden.0104
+		100 = eternal_maiden.0105
+		100 = eternal_maiden.0106
+		100 = eternal_maiden.0107
+		100 = eternal_maiden.0108
+		100 = eternal_maiden.0109
+		# 2/4 clergy, heresy and the head of faith
+		100 = eternal_maiden.0200
+		100 = eternal_maiden.0201
+		100 = eternal_maiden.0202
+		100 = eternal_maiden.0203
+		100 = eternal_maiden.0204
+		100 = eternal_maiden.0205
+		100 = eternal_maiden.0206
+		100 = eternal_maiden.0207
+		100 = eternal_maiden.0208
+		100 = eternal_maiden.0209
+		# 3/4 the court and its rivals
+		100 = eternal_maiden.0300
+		100 = eternal_maiden.0301
+		100 = eternal_maiden.0302
+		100 = eternal_maiden.0303
+		100 = eternal_maiden.0304
+		100 = eternal_maiden.0305
+		100 = eternal_maiden.0306
+		100 = eternal_maiden.0307
+		100 = eternal_maiden.0308
+		100 = eternal_maiden.0309
+		# 4/4 the darkness behind the veil
+		100 = eternal_maiden.0400
+		100 = eternal_maiden.0401
+		100 = eternal_maiden.0402
+		100 = eternal_maiden.0403
+		100 = eternal_maiden.0404
+		100 = eternal_maiden.0405
+		100 = eternal_maiden.0406
+		100 = eternal_maiden.0407
+		100 = eternal_maiden.0408
+		100 = eternal_maiden.0409
+	}
+}

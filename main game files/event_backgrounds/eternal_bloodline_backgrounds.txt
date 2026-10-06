@@ -1,0 +1,17 @@
+﻿eternal_bloodline_awakening = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/eternal_bloodline_awakening.dds"
+	}
+}
+
+eternal_bloodline_worship = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/eternal_bloodline_worship.dds"
+	}
+}
+
+eternal_bloodline_assassin = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/eternal_bloodline_assassin.dds"
+	}
+}
