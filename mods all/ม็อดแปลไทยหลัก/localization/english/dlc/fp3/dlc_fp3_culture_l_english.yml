@@ -102,4 +102,3 @@
 
 TRADITION_HARDER_TO_CULTURE_CONVERT: "บทลงโทษ[tradition|E]ทาง[cultural|E]ท้องถิ่น"
 culture_parameter_harder_to_convert_county_culture: "ยากต่อการ[promote_culture|E]ใน[counties|E]ของ[culture|E]นี้"
- PAM_ORIGINAL_SIN_HARDER_TO_CONVERT_CULTURE_MODIFIER: "Local [faith|E] [core_tenet|E] penalty"

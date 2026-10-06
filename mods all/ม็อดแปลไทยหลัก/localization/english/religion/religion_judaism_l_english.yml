@@ -147,9 +147,3 @@
 
  tenet_communal_identity_chosen_people_name:0 "ชนชาติที่ถูกเลือกสรร"
  tenet_communal_identity_chosen_people_desc:0 "เราได้รับเลือกจาก [ROOT.Faith.HighGodName] สำหรับพันธสัญญาอันศักดิ์สิทธิ์ แม้สิ่งนี้จะรวมผู้คนของเราให้เป็นหนึ่งเดียวด้วยจุดประสงค์เดียว แต่ก็อาจเป็นอุปสรรคต่อผู้ที่ต้องการเปลี่ยนศาสนาได้"
- rabbinic_faith:0 "Rabbinic"
- rabbinic_faith_adj:0 "Rabbinic"
- rabbinic_faith_adherent:0 "Jew"
- rabbinic_faith_adherent_plural:0 "Jews"
- rabbinic_faith_desc:0 "The mainstream tradition of the Jewish people, grounded in the dual authority of the Written Torah and the Oral Torah as compiled in the Talmud. Guided by rabbinic scholarship and halakhic law, its adherents seek to live righteously through the observance of divine commandments."
- d_regional_jewish_rite:0 "Jewish Rite"

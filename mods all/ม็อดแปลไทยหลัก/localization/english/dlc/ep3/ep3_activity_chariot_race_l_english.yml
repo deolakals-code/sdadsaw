@@ -669,4 +669,3 @@ normal_sow_discord_modifier_desc: "ฝูงชนคนจนในเมือ
 strong_sow_discord_modifier: "การจลาจลต่อเนื่อง"
 strong_sow_discord_modifier_desc: "ก้อนหินและขยะถูกขว้างปา ไฟที่หิวโหยถูกจุดขึ้น ขณะที่ฝูงชนในเมืองปะทะกับฝ่ายตรงข้ามทางการเมือง"
 modifier_stacking_chariot_tooltip: "#weak ซ้อนทับกับ [modifiers|E] $sow_discord_intent$ ของผู้เข้าร่วมคนอื่นๆ#!"
- activity_chariot_race_pay_entrance_fee: "Admittance Fee Paid"

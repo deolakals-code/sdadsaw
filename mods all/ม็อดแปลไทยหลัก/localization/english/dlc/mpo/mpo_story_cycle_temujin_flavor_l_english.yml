@@ -51,4 +51,3 @@
  pregnancy.1002.a.borte: "มันจบลงแล้ว"
  birth.1003.desc.borte: "\n\nอย่างไรก็ตาม ความซื่อสัตย์ของ [mother.GetFirstNamePossessiveNoTooltip] นั้นน่ายกย่อง และเรื่องนี้จะต้องไม่ ทำให้ข้าไขว้เขวไปจากสิ่งที่อยู่ตรงหน้า"
  birth.1003.desc.empty: ""
- birth.1003.c.borte: "No, [child.GetFirstName] is not my [child.Custom('GetDaughterSon')]!"

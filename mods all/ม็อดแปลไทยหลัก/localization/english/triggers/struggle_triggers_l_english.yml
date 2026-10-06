@@ -13,9 +13,3 @@
  NOT_IS_STRUGGLE_PHASE_TRIGGER:1 "ระยะปัจจุบันของ [STRUGGLE.GetName] #bold ไม่ใช่#! [PHASE.GetName]"
 
  involved_in_iberian_struggle_trigger_first: "ท่านเกี่ยวข้องใน [GetStruggle('iberian_struggle').GetName]"
- any_character_struggle: "Any involved [struggle|E]"
- NOT_any_character_struggle: "None of involved [struggle|E]"
- struggle_this_equal: "Target is [STRUGGLE.GetShortUIName]"
- struggle_scope_equal: "Target is [STRUGGLE.GetShortUIName]"
- NOT_struggle_this_equal: "Target is not [STRUGGLE.GetShortUIName]"
- NOT_struggle_scope_equal: "Target is not [STRUGGLE.GetShortUIName]"

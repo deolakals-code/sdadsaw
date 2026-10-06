@@ -600,5 +600,3 @@ councillor_unity_modifier_martial: "สภาที่เป็นหนึ่�
 councillor_unity_modifier_martial_desc: "ตัวละครนี้ได้รับแรงบันดาลใจจากแผนการปกครองที่เป็นหนึ่งเดียวของเจ้านาย"
 
 
- CORONATION_RELIGIOUS_AUTHORITY_DOESNT_EXIST: "Your [rite|E] has neither a [head_of_faith|E] nor a clergy [head_of_rite|E]"
- CORONATION_ANOINTMENT_GUEST_AUTHORITY_DOESNT_EXIST: "You have no [head_of_faith|E] or clergy [head_of_rite|E] to invite"

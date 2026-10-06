@@ -42,6 +42,3 @@
  oath_claimant: "ผู้อ้างสิทธิ์ที่เป็นหนี้บุญคุณ"
  oath_claimant_heir: "ทายาทของผู้อ้างสิทธิ์ที่เป็นหนี้บุญคุณ"
  
- strong_test_hook: "Test Strong Hook"
- perpetual_test_hook: "Test Perpetual Hook"
- deposed_antipope_hook: "Deposed [challenger_hof|E]"

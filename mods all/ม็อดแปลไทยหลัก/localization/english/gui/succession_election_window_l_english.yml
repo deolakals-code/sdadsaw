@@ -36,7 +36,7 @@
  SUCCESSION_ELECTION_ELECTOR_MY_CHOICE:0 "ตัวเลือกที่สอง"
  SUCCESSION_ELECTION_WINDOW_NOT_ELECTOR:2 "คุณไม่ใช่หนึ่งในผู้มีสิทธิ์เลือกตั้ง[electors|E]และไม่สามารถลงคะแนนได้"
  SUCCESSION_ELECTION_WINDOW_CANDIDATE:0 "ผู้ท้าชิง"
- SUCCESSION_ELECTION_WINDOW_RANK: "อันดับ: [SuccessionElectionWindow.GetCandidateFromCharacter( SuccessionElectionElector.GetElectorCandidate.GetCandidate ).GetElectionRank]"
+ SUCCESSION_ELECTION_WINDOW_RANK:0 "อันดับ: [SuccessionElectionWindow.GetCandidateFromCharacter( SuccessionElectionWindowElector.GetElectorCandidate.GetCandidate ).GetElectionRank]"
  SUCCESSION_ELECTION_WINDOW_NO_PLAYER_NOMINEE:0 "#T ไม่มีผู้ท้าชิงของผู้เล่น#!\nคุณต้องเสนอชื่อใครสักคนเพื่อดูความแตกต่างในความพึงพอใจของผู้มีสิทธิ์เลือกตั้ง"
  SUCCESSION_ELECTION_WINDOW_STANCE_WIN:0 "ลำดับถัดไปในการสืบทอด"
  SUCCESSION_ELECTION_WINDOW_STANCE_LOSS:0 "ไม่ใช่ลำดับถัดไปในการสืบทอด"

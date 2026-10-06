@@ -332,5 +332,3 @@
  ep3_camp_party_shadows_in_the_dark_desc: "ตัวละครนี้นั่งอยู่ใน [GetActivityType('activity_camp_party').GetName] ของตนเพียงลำพัง และนิ่งเงียบอย่างยิ่ง"
  camp_party_fortress_of_solitude: "ป้อมปราการแห่งความสันโดษ"
  camp_party_fortress_of_solitude_desc: "ตัวละครนี้ได้จัด [GetActivityType('activity_camp_party').GetName] เพียงลำพัง และรู้สึกอบอุ่นด้วยความทรงจำของความเงียบสงบแห่งความโดดเดี่ยว"
- camp_party_honorary_guest: "$honorary_guest_desc$"
- camp_party_honorary_guest_desc: "$honorary_guest_desc$"

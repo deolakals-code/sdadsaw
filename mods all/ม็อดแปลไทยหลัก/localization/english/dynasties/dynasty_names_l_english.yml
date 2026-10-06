@@ -11962,7 +11962,7 @@
  dynn_Gyeong_6176: "คย็อง" # 慶 (경)
  dynn_Gyeong_Cheongju: "ชองจู $dynn_Gyeong_6176$"
  dynn_Ha_590F: "ฮา" # 夏 (하)
- dynn_Ha_8CC0: "ฮา" # 賀 (하)
+ dynn_Ha_8CC0: "ฮา"  # 賀 (하)
  dynn_Han_97D3_KO: "ฮัน" # 韓 (한)
  dynn_Han_Daeheung: "แดฮึง $dynn_Han_97D3_KO$" # 大興韓 (대흥한)
  dynn_Han_Gaeseong: "แคซอง $dynn_Han_97D3_KO$" #
@@ -12227,27 +12227,27 @@
  dynn_Siliwangi: "ซิลิวังกี"
  dynn_Gilingwesi: "กิลิงเวซี"
  #Khmer
- dynn_Bhamakangara: "ภามากังครา" #fictional dynasty for Jayavarman VII's wives
- dynn_Vyadhava: "วยาธวะ" #fictional Khmer ruler
+ dynn_Bhamakangara: "ภามากังครา"  #fictional dynasty for Jayavarman VII's wives
+ dynn_Vyadhava: "วยาธวะ"  #fictional Khmer ruler
  dynn_Bhimaraja: "ภีมราชา" #fictional Khmer ruler
  dynn_Bhavasura: "ภวสูร" #fictional Khmer ruler
- dynn_Jalayita: "ชลยิต" #fictional Khmer ruler
+ dynn_Jalayita: "ชลยิต"  #fictional Khmer ruler
  dynn_Sapamasti: "สปมัสติ" #fictional Khmer ruler
- dynn_Gajveta: "คชเวต" #fictional Khmer ruler
+ dynn_Gajveta: "คชเวต"   #fictional Khmer ruler
  dynn_Amoghanirmata: "อโมฆนิรมาต" #fictional Khmer ruler
  dynn_Dramuksava: "ทรรามุกสาวะ" #fictional Khmer ruler
  dynn_Asantnadi: "อสันตนที" #fictional Khmer ruler
- dynn_Nilmegha: "นีลเมฆ" #fictional Khmer ruler
- dynn_Shulaman: "ศุลมัน" #fictional Khmer ruler
- dynn_Gayanam: "คยนัม" #fictional Khmer ruler
+ dynn_Nilmegha: "นีลเมฆ"  #fictional Khmer ruler
+ dynn_Shulaman: "ศุลมัน"  #fictional Khmer ruler
+ dynn_Gayanam: "คยนัม"   #fictional Khmer ruler
  dynn_Dyanam: "ทยานัม" #fictional Khmer ruler
- dynn_Nirmatam: "นิรมาตัม" #fictional Khmer ruler
+ dynn_Nirmatam: "นิรมาตัม"  #fictional Khmer ruler
  dynn_Ibisi: "อิบิสิ" #fictional Khmer ruler
  dynn_Pitamparna: "ปิตัมปรรณ" #fictional Khmer ruler
- dynn_Mudgara: "มุทคร" #fictional Khmer ruler
+ dynn_Mudgara: "มุทคร"   #fictional Khmer ruler
  dynn_Lagupaksi: "ลฆุปักษิ" #fictional Khmer ruler
- dynn_Hastasarman: "หัสตศรมัน" #fictional Khmer ruler
- dynn_Sapnadi: "ทรัพย์นที" #fictional Khmer ruler  #fictional Khmer ruler
+ dynn_Hastasarman: "หัสตศรมัน"   #fictional Khmer ruler
+ dynn_Sapnadi: "ทรัพย์นที"   #fictional Khmer ruler  #fictional Khmer ruler
  dynn_Romduolevi: "รอมฎวลเลวี" #fictional Khmer ruler
  #Mon
  dynn_Athinlung: "อตินลุง"
@@ -12321,59 +12321,3 @@
  dynn_Semelai: "เซอเมอไล"
  dynn_Temoq: "เตม็อก"
  dynn_Mah_Meri: "มาห์ เมรี"
- dynn_castilian_siones: "$dynn_Siones$"
- dynn_Minamoto_Go_Sanjo: "$Go_SanjO_$"
- dynn_Ariens:0 "Ariëns"
- dynn_Aemilianos: "Aemilianos"
- dynn_Asp:0 "Asp"
- dynn_Dobrowa: "Dobrowa"
- dynn_Kara: "Kara"
- dynn_Damiani: "Damiani"
- dynn_Duchi_Sergi: "Duchi Sergi"
- dynn_Gualberto: "Gualberto"
- dynn_Ghanawi: "Ghanawi"
- dynn_Janiak: "Janiak"
- dynn_Nowakowski: "Nowakowski"
- dynn_Szmil: "Szmil"
- dynn_Alessawey: "Alessawey"
- dynn_O_Buyeo: "Buyeo $dynn_O_70CF$"
- dynn_Wi_Jangjeong: "Jangjeong $dynn_Wi_885B$"
- dynn_Achalm: "Achalm"
- dynn_Colbo: "Colbo"
- dynn_Collalto: "Collalto"
- dynn_Dillingen: "Dillingen"
- dynn_Dohna: "Dohna"
- dynn_DU_rn: "Dürn"
- dynn_Ebersberg: "Ebersberg"
- dynn_Ekkeharding: "Ekkeharding"
- dynn_Gisonen: "Gisonen"
- dynn_Hartwiger: "Hartwiger"
- dynn_Henneburg: "Henneburg"
- dynn_Hohenburg: "Hohenburg"
- dynn_Kastl: "Kastl"
- dynn_KU_hbach: "Kühbach"
- dynn_Lauffen: "Lauffen"
- dynn_LechsgemU_nd: "Lechsgemünd"
- dynn_Leuchtenburg: "Leuchtenburg"
- dynn_Lobdeburg: "Lobdeburg"
- dynn_Merseburg: "Merseburg"
- dynn_Pilgrimid: "Pilgrimid"
- dynn_PlO_tzkau: "Plötzkau"
- dynn_Pottenstein: "Pottenstein"
- dynn_Reginbodonen: "Reginbodonen"
- dynn_Rikberting: "Rikberting"
- dynn_Rott: "Rott"
- dynn_Scheyern: "Scheyern"
- dynn_Schwalenberg: "Schwalenberg"
- dynn_Serimunt: "Serimunt"
- dynn_Sonnenburg: "Sonnenburg"
- dynn_Stumpenhausen: "Stumpenhausen"
- dynn_SU_pplingenburg: "Süpplingenburg"
- dynn_Tengling: "Tengling"
- dynn_Treffen: "Treffen"
- dynn_Tonna: "Tonna"
- dynn_Werl: "Werl"
- dynn_Zeisolfer: "Zeisolfer"
- dynn_Tuscolo: "Tuscolo"
- dynn_Philagathos: "Philagathos"
- dynn_Horal: "Horal"

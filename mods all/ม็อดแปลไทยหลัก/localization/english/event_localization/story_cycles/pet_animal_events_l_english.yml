@@ -357,7 +357,7 @@
  pet_animal.3012.a: "ลาก่อน [ROOT.Char.Custom('EagleStoryName')]"
 
  pet_animal.3013.t: "การค้นหา[ROOT.Char.Custom('EagleStoryName')]"
- pet_animal.3013.desc: "เมื่อรู้จัก[ROOT.Char.Custom('EagleStoryName')]ดีแล้ว มีโอกาสน้อยมากที่[ROOT.Char.Custom('EagleStorySheHe')]จะจากไปเอง ข้าตรวจสอบสถานที่สุดท้ายที่[ROOT.Char.Custom('EagleStoryHerHis')]อยู่อย่างละเอียด และสอบถามรอบๆ ถึงการพบเห็น[ROOT.Char.Custom('EagleStoryHerHim')]\n\nบางคนที่ข้าสอบปากคำดูมีพิรุธ และข้าสงสัยว่าพวกเขารู้มากกว่าที่พูด เมื่อคิดดูอีกที "
+ pet_animal.3013.desc: "เมื่อรู้จัก[ROOT.Char.Custom('EagleStoryName')]ดีแล้ว มีโอกาสน้อยมากที่[ROOT.Char.Custom('EagleStorySheHe')]จะจากไปเอง ข้าตรวจสอบสถานที่สุดท้ายที่[ROOT.Char.Custom('EagleStoryHerHis')]อยู่่อย่างละเอียด และสอบถามรอบๆ ถึงการพบเห็น[ROOT.Char.Custom('EagleStoryHerHim')]\n\nบางคนที่ข้าสอบปากคำดูมีพิรุธ และข้าสงสัยว่าพวกเขารู้มากกว่าที่พูด เมื่อคิดดูอีกที "
  pet_animal.3013.desc_thief_1: "ข้าขอระบุชื่อ [accused_thief_1.GetName] ว่าเป็นผู้ต้องสงสัย เนื่องจากสันดาน [accused_thief_1.Custom2('InsultAdjective', ROOT.Char)] ของ [accused_thief_1.GetHerHis]"
  pet_animal.3013.desc_thief_2: "$pet_animal.3013.desc_thief_1$ แต่ [accused_thief_2.GetName] ก็เป็นผู้ต้องสงสัยที่น่าจะเป็นไปได้ เช่นกัน ด้วยความที่ [accused_thief_2.Custom2('InsultAdjective', ROOT.Char)] พอตัว..."
  pet_animal.3013.desc_thief_single: "ข้านึกออกเพียงคนเดียวที่อาจทำเรื่องนี้ได้..."

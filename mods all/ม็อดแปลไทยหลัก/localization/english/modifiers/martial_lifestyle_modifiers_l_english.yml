@@ -115,7 +115,3 @@
  repurposed_billhook_billhook_desc:0 "ตัวละครนี้มีความสนใจในอุปกรณ์การเกษตร และลงทุนในสิ่งเหล่านั้นตามความเหมาะสม"
 
  martial_chivalry_stolen_livestock_modifier:0 "ปศุสัตว์ที่ถูกขโมย"
- blessed_leader:0 "Blessed Leader"
- blessed_leader_desc:1 "#flavor This character was blessed by the clergy.\n\n#!"
- blessed_knights:0 "Blessed Knights"
- blessed_knights_desc:1 "#flavor This character has knights blessed by the clergy.\n\n#!"

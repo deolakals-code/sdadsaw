@@ -61,7 +61,3 @@
  mandala: "มณฑล"
  mandala_desc: "#T มณฑล#!\nแสดงแผนที่มณฑล"
  confederations_desc: "#T กลุ่มและสมาพันธรัฐ#!\nแสดง [blocs|E] และ [confederations|E] ทั้งหมดบนแผนที่"
- holy_orders:0 "Holy Orders"
- holy_orders_desc:0 "#T Holy Orders#!\nShows [holy_orders|E] on the map, colored by [faith|E]."
- clerical_regions: "Clerical Regions"
- clerical_regions_desc: "#T Clerical Regions#!\nShows all [clerical_regions|E] that currently exist, each falling under the jurisdiction of a [clerical_title|E]."

@@ -565,4 +565,3 @@
  
  legend_spread_notification_title: "ตำนานแพร่กระจายเข้ามาในอาณาจักรของท่าน!"
  legend_spread_notification_desc: "[spread_legend.GetName] แพร่กระจายเข้ามาใน [spread_county.GetName]"
- legend_chapter_motivation_saintly_life: "[ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip] mission from [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm] was clear: [ROOT.Legend.GetProtagonist.GetSheHe] was to do wonders! All [ROOT.Legend.GetProperty('religion').Religion.GetAdherentNamePluralNoTooltip] keep such hopes in their hearts, but none knew the miracles [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] was yet to perform!"

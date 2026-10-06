@@ -30,7 +30,7 @@ ep3_wedding.0002.a: ""ข้า... ข้าคิดว่าข้ารัก
 ep3_wedding.0002.a.flavor: "ข้าได้ก่ออาชญากรรมร้ายแรงต่อ[other_family_spouse.Custom('WifeHusband')]คนใหม่ของข้า แต่เพื่อเหตุผลอันยิ่งใหญ่ที่สุด: หัวใจ!"
 ep3_wedding.0002.a.flavor_non_spouse: "เรื่อง เช่นนี้ถูกลิขิตไว้แล้วอย่างแท้จริง ในช่วงเวลาแห่งรักอันศักดิ์สิทธิ์นี้!"
 ep3_wedding.0002.a.success.desc.tt: "[flirting_in_law.GetSheHe|U]กำลังตกหลุมรักท่าน เช่นกัน"
-ep3_wedding.0002.a.fail.desc.tt: "[flirting_in_law.GetSheHe|U]รู้สึกปลื้ม แต่ก็เท่านั้น"
+ep3_wedding.0002.a.fail.desc.tt:  "[flirting_in_law.GetSheHe|U]รู้สึกปลื้ม แต่ก็เท่านั้น"
 ep3_wedding.0002.b: ""เจ้าจะเต้นรำให้ข้าอีก ใช่หรือไม่...?""
 ep3_wedding.0002.c: ""กลับไปที่งานเลี้ยงกันเถอะ!""
 lust_demon_success_chance: "#weak เพิ่ม [GetScheme('seduce').GetTypeName] [scheme|E] [success_chance|E] อย่างมากต่อตัวละครที่เคร่งศาสนา"

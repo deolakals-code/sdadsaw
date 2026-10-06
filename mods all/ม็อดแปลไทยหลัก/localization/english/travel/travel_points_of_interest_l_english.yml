@@ -7,4 +7,3 @@
  poi_natural_feature.visit: "ได้เยือน [province.GetHolding.GetSpecialBuildingType.GetName]"
  poi_legend_capitals.visit: "ได้เยือนถิ่นกำเนิดแห่ง [province.GetTitle.GetHolder.GetPromotedLegend.GetName]"
  poi_gp_buildings.visit: "เยี่ยมชม [GetBuilding('mandala_capital_01').GetName] แห่ง [province.GetName]"
- poi_standalone_holy_site.visit: "Visited [province.MakeScope.Var('poi_standalone_holy_site_faith').Faith.GetAdjective] Holy Site: [province.MakeScope.Var('poi_standalone_holy_site').HolySite.GetName]"

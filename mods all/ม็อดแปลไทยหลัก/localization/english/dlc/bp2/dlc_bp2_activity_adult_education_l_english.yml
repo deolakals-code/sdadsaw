@@ -313,6 +313,3 @@
  available_friend_lover: "ตัวเลือกนี้มีให้ เนื่องจากท่านเป็น [friends|E] หรือ [lovers|E]"
  available_liege: "ตัวเลือกนี้มีให้ เนื่องจากท่านเป็น [liege|E] ของ [local_ruler.GetFirstNamePossessive]"
  available_higher_tier: "ตัวเลือกนี้มีให้ เนื่องจาก [rank|E] ของท่านสูงกว่าของ [local_ruler.GetFirstName]"
- adult_education_has_domicile_building_is_university_desc: "\n#P +++ Cathedral School#!"
- activity_education_no_cathedral_school: "There is no Cathedral School here!"
- adult_education_apa_tt_positive_tiny: "Your $activity_adult_education_success$ #P increases slightly#!"

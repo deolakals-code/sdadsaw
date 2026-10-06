@@ -150,4 +150,3 @@
  already_taken_exam_tooltip: "สอบผ่านแล้ว"
  take_exam_tooltip: "#alert_trial เพื่อหยุดการเป็นผู้ปกครอง, จงเลือก[decision|E] [GetDecision('renounce_governorship_decision').GetName]#!"
  already_landed_tooltip: "ท่านเป็น [governor|E]"
- activity_imperial_examination_predicted_cost: "ต้นทุนของ[GetActivityType( 'activity_imperial_examination' ).GetNameNoTooltip]ขึ้นอยู่กับ[activity_options|E]ที่ท่านเลือกเป็นหลัก"

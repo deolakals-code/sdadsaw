@@ -37,5 +37,3 @@
 
  buy_artifact_claim_interaction:0 "ซื้อสิทธิ์อ้างในสิ่งประดิษฐ์"
  buy_artifact_claim_interaction_desc:0 "ใช้[piety|E]หรือ[prestige|E]เพื่อรับ[personal_artifact_claim|E]ใน[artifact|E]ของตัวละครอื่น #weak ([buy_artifact_claim|E])#!"
- demand_payment_interaction_message_puppeteer:0 "[puppet_or_actor.GetShortUIName] collected payment from [recipient.GetShortUIName]"
- buy_claim_interaction.message_puppeteer:0 "[puppet_or_actor.GetShortUIName] bought a [claim|E] on [target.GetName]"

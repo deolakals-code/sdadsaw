@@ -86,4 +86,3 @@
  stewardship_general.5041.a:0 "แสดงให้ [servant_character.GetHerHim] เห็นว่าความหิวโหยที่แท้จริงเป็นอย่างไร"
  stewardship_general.5041.b:0 "จองจำ [servant_character.GetHerHim]"
  stewardship_general.5041.c:0 "แสดงความเมตตาและได้รับความภักดีของ [servant_character.GetHerHis]"
- stewardship_general.2001.trinket_artifact: "You gain a #high Trinket#!-type [inventory_artifact|E]"

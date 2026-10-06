@@ -40,4 +40,3 @@
  mystic_lifestyle.1009.opening:0 "[SCOPE.sC('mystic').Custom2('RelationToMeShort', ROOT.Char )] ที่รักของข้า"
  mystic_lifestyle.1009.desc:0 "ข้าต้องขอชื่นชมการสำรวจศรัทธาของเราในเชิงลี้ลับของท่าน!\n\nจากข่าวลือที่ข้าได้ยิน ดูเหมือนว่าข้าเองก็ยังมีเรื่องที่ต้องเรียนรู้อีกสักหนึ่งหรือสองอย่าง!"
  mystic_lifestyle.1009.a:0 "ข้ายินดีที่จะแบ่งปัน!"
- mystic_lifestyle.1003.desc.clergy: "You who are sworn to uphold the faith should know better than any, yet still you wander down this strange path. If you will not heed your own calling, then [ROOT.Char.GetFaith.HighGodName] surely will.\n\nTurn back, I beg you, before this mysticism curdles into heresy or demon worship!"

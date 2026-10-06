@@ -12,6 +12,3 @@
  lower_domicile_building_global_past: "[DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )] [DomicileBuilding.GetName] ถูกลดระดับลงแล้ว"
  lower_domicile_building_third: "$lower_domicile_building_global$"
  lower_domicile_building_third_past: "$lower_domicile_building_global_past$"
- construct_domicile_building_global: "Begin construction of [DomicileBuilding.GetName] in [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )]"
- construct_domicile_building_global_past: "Began construction of [DomicileBuilding.GetName] in [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )]"
- construct_domicile_building_third: "Begins construction of [DomicileBuilding.GetName] in [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )]"

@@ -106,6 +106,3 @@
  leg_conv_valid_county: "ต้องมีอย่างน้อยหนึ่ง[county|E]ใน[realm|E]ของท่านที่ไม่ได้นับถือ[faith|E]ของท่าน"
  every_same_faith_vassal: "[vassal|E]ทุกคนที่นับถือ[faith|E]เดียวกับท่าน"
  every_same_faith_county_in_realm: "[county|E]ทุกแห่งใน[realm|E]ของท่านที่นับถือ[faith|E]เดียวกับท่าน"
- mythical_ancestor_war: "$ANCESTOR_WAR_NAME$"
- leg_demand_fealty_cb: "$DEMAND_FEALTY_CB_NAME$"
- legendary_adventure: "Legendary Adventure"

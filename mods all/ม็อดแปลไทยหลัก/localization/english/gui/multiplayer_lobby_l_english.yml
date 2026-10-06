@@ -20,4 +20,3 @@
  lobby_landless_government_filter: "ตัวกรองการปกครองไร้ที่ดิน"
  lobby_more_domiciles_count: "+[Subtract_int32( LobbyHelperWindow.CountFilteredDomicilesInProvince( Province.Self ), '(int32)1')]"
 
- RITE_LOBBY_WINDOW: "[Character.GetRite.GetAdjectiveNoTooltip]"

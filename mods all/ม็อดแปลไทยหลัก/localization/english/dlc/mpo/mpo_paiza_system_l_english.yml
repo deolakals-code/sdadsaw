@@ -204,4 +204,3 @@
  nomad_yurt_paiza_maa_gain_lvl_3_tooltip: "[GetDomicileBuilding('knight_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_maa_gain_lvl_3$"
 
  already_received_a_paiza: "ได้รับ [paiza|E] แล้ว"
- is_paiza_merchant: "[CHARACTER.GetShortUIName|U] is a merchant traveling on a nomad ruler's order"

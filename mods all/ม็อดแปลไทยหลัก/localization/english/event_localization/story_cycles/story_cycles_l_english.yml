@@ -84,8 +84,3 @@
  story_greatest_of_khans_desc: "บนสรวงสวรรค์มีแสงสว่างอันเจิดจ้ามากมาย บนสรวงสวรรค์มีทั้งดวงอาทิตย์ ดวงจันทร์ และดวงดาว ทว่าบนโลกหล้า จะมีข่านได้เพียงผู้เดียวเท่านั้น"
  GREATEST_OF_KHANS_INFORMATION_STRING: "$become_greatest_of_khans_decision_enable_gok_invasion_cb$\n$gok_enable_offer_submission_or_ruin_tt$\n\n@alert_icon! #alert_trial หาก [dynasty|E] ของท่านสูญเสียการควบคุม [Story.GetOwner.GetPrimaryTitle.GetName|l], เลิกใช้ [GetGovernment( 'nomad_government' ).GetName], หรือล้มเหลวในการทำ [decision|E] #high $mpo_gok_world_conquest_decision$#! ภายในปี #high [Story.MakeScope.Var('gok_final_date').GetValue|0]#! โบนัสเหล่านี้จะสูญสิ้นไปและ [Story.GetOwner.GetPrimaryTitle.GetName|l] จะเสี่ยงต่อการแตกสลาย!#!"
  
- story_slavic_rite: "The Moravian Mission"
- story_slavic_rite_desc: "By your request, the devoted Thessalonian brothers Cyril and Methodius have begun a sacred mission to aid you in evangelizing the realm and adapting Christianity with a new script native to your people."
- SLAVIC_RITE_PROGRESS_LABEL: "Conversion Progress"
- SLAVIC_RITE_PROGRESS_MIN_LABEL: "Converted Counties"
- SLAVIC_RITE_PROGRESS_MAX_LABEL: "Target Counties"

@@ -58,9 +58,3 @@
 
  NOT_activity_invite_max_num_guests:0 "ไม่สามารถเพิ่ม [CHARACTER.GetShortUIName] เข้าร่วมกิจกรรมได้ เต็มแล้ว!"
  REASON_NOT_A_WITCH: "ท่านมิใช่แม่มด"
- invite_to_activity_accepted_puppeteer: "[puppet_or_actor.GetShortUIName]'s Invitation Accepted"
- invite_to_activity_accepted_desc_puppeteer: "[recipient.GetShortUIName] accepted [puppet_or_actor.GetShortUIName]'s invitation and will depart promptly."
- invite_to_activity_refused_puppeteer: "[puppet_or_actor.GetShortUIName]'s Invitation Refused"
- invite_to_activity_refused_desc_puppeteer: "[recipient.GetShortUIName] has declined [puppet_or_actor.GetShortUIName]'s invitation."
- invite_to_activity_flavor_funeral: "I hereby invite you to [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName] for [ROOT.Char.GetInvolvedActivity.GetShortName] of [ROOT.Char.GetInvolvedActivity.MakeScope().Var('body_to_bury').Char.GetTitledFirstName]"
- invite_to_activity_flavor_ecumenical_council: "I hereby invite you to the [ROOT.Char.GetInvolvedActivity.GetShortName] of [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName] to discuss [ROOT.Char.GetInvolvedActivity.GetSelectedTenet1.GetName( ROOT.Char.GetRite )], [ROOT.Char.GetInvolvedActivity.GetSelectedTenet2.GetName( ROOT.Char.GetRite )], and [ROOT.Char.GetInvolvedActivity.GetSelectedDoctrine1.GetDescriptiveName( ROOT.Char.GetFaith )]."

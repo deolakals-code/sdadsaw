@@ -752,5 +752,3 @@
  unlock_diarch_set_own_mandate_interaction: "[grand_secretariat_director|E] สามารถกำหนด [mandate|E] ของตนเองได้โดยใช้ [interaction|E] #high [GetPlayer.GetPlayerInteractionName('diarch_set_own_mandate_interaction')]#! ต่อ [son_of_heaven|E]"
  placate_movements_bonus: "$placate_movements_mandate$ [mandate|E]"
  promote_merit_bonus: "$promote_merit_mandate$ [mandate|E]"
- diarch_succession_score.familial_ties.your_close_family:0 "[ROOT.Char.GetLiege.Custom('GetLiegeYour')|U] [close_family|E]"
- diarch_succession_score.familial_ties.your_extended_family:0 "[ROOT.Char.GetLiege.Custom('GetLiegeYour')|U] [extended_family|E]"

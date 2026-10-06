@@ -13,4 +13,3 @@
  blackmail.1002.desc:0 "ภัยจากการถูกเปิดโปงวนเวียนอยู่ในความคิดข้ามิได้หยุด [blackmailer.GetTitledFirstName] รู้เรื่องของข้ามากเกินไป และผลของการปฏิเสธข้อเรียกร้องใดๆ ของ[blackmailer.GetHerHis]นั้นร้ายแรงเกินกว่าจะคาดคิด\n\nข้าจะปลอดภัยหรือไม่ แม้หากข้ายอมทำตาม?"
  blackmail.1002.a:0 "ยามราตรีข้านอนมิหลับด้วยความวิตก"
  blackmail.1002.b:0 "ทุกอย่างจักเรียบร้อยดี [blackmailer.GetFirstNameNoTooltip] บอกข้าไว้ เช่นนั้น!"
- blackmail.0001.toast_puppeteer:0 "[recipient.GetShortUIName] refused [puppet_or_actor.GetShortUINamePossessive] blackmail"

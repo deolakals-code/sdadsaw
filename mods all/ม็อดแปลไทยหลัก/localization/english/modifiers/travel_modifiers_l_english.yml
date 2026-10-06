@@ -204,5 +204,3 @@
  reluctant_recruits_desc: "การเกณฑ์ทหารใหม่มีค่าใช้จ่ายสูงขึ้น เนื่องจากระเบียบวินัยที่เข้มงวดและบางครั้งถึงแก่ชีวิตของตัวละครนี้"
  intrepid_traveler_travel_modifier: "นักเดินทางผู้ไม่หวั่นเกรง"
  intrepid_traveler_travel_modifier_desc: "ด้วยแรงบันดาลใจจากความกล้าหาญของผู้นำ คณะเดินทางจึงรุดหน้าต่อไปด้วยจิตใจที่ฮึกเหิม"
- offended_sinitic_modifier:0 "$offended_eastern_modifier$"
- offended_sinitic_modifier_desc:0 "$offended_eastern_modifier_desc$"

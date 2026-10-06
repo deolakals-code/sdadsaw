@@ -835,5 +835,3 @@ legend_spread_events.5335.c.success: "ท่านได้รับข้อม
 
  legend_shy_drinker: "นักดื่มขี้อาย"
  legend_shy_drinker_desc: "ตัวละครนี้ได้สร้างชื่อเสียงในเรื่องการคออ่อน"
- maximum_legend_quality_discount_reach_tt: "The discount towards upgrading your [legend|E] #difficulty_easy increases#! to the maximum"
- minimum_legend_quality_discount_reach_tt: "The discount towards upgrading your [legend|E] #difficulty_hard decreases#! to the minimum"

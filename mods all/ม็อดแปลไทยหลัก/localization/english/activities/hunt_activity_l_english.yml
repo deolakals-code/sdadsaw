@@ -714,4 +714,3 @@
  poacher_opinion: "ลักลอบล่าสัตว์ในดินแดน #EMP ของข้า#!"
 
  hunt_invalidated_warning_tt: "@warning_icon! #X ท่านจะไม่สามารถเป็นเจ้าภาพ [activity|E] [GetActivityType( 'activity_hunt' ).GetName] อื่นได้อีกเป็นเวลา [SCOPE.ScriptValue('standard_hunting_cooldown_time')|V0] ปี#!"
- activity_hunt_province_desc_legendary_sighting: "#P +++ พบ[ROOT.Province.GetTitle.GetDeJureLiege.Custom('GetAnimalType')|UV]ระดับตำนานสี[ROOT.Province.GetTitle.GetDeJureLiege.Custom('GetLegendaryColor')|UV]#!\n"

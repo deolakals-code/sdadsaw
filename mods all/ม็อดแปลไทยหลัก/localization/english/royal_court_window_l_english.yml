@@ -171,4 +171,3 @@
  NO_ROCO_WRONG_TIER:0 "@warning_icon! #X ท่านไม่ใช่ [king|E] หรือ [emperor|E]#!"
  NO_ROCO_WRONG_GOVERNMENT:1 "@warning_icon! #X ท่านไม่มี [government|E] แบบ [feudal|E], [clan|E] หรือ [tribal|E]#!"
  NO_ROCO_LIEGE_BLOCKS_SUBJECT_GOVERNMENT: "@warning_icon! #X การปกครองของนายเหนือท่านไม่อนุญาตให้ [government|E] ของท่านมีราชสำนัก#!"
- NO_ROCO_LANDLESS: "@warning_icon! #X Your [government|E] does not allow landless [rulers|E] to have royal courts.#!"

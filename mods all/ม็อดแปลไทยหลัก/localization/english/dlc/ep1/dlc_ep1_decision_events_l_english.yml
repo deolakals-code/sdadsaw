@@ -35,8 +35,3 @@
  ep1_decision.0201.d:0 "ข้ารู้ว่า [cheap_linguist.GetNameNoTooltip] แทบจะทำงานให้ฟรี!"
  ep1_decision.0201.e:0 "คิดดูอีกที..."
  learn_court_language_toast_title:1 "จ้างครูสอน [target_court_language.GetCourtLanguage.GetName] แล้ว"
- ep1_decision.0111.desc.1: "The only likely redecorating candidate present, the nearest and most noteworthy to me: the realm of [option_1.GetTitledFirstName]."
- ep1_decision.0111.desc.2: "Two likely redecorating candidates present themselves, those nearest and most noteworthy to me: the realms of [option_1.GetTitledFirstName] and [option_2.GetTitledFirstName]."
- ep1_decision.0111.desc.3: "Several likely redecorating candidates present themselves, those nearest and most noteworthy to me: the realms of [option_1.GetTitledFirstName], [option_2.GetTitledFirstName], and [option_3.GetTitledFirstName]."
- ep1_decision.0111.desc.outro: "\n\nSelecting a style that's considered more renowned than my own court would be personally humbling but lend me some of the foreign realm's air of grandeur.\n\nConversely, emulating a lesser realm would show magnanimity and build my legend abroad at the cost of some reputation at home."
- ep1_decision.0111.d.single: "It seems quite #EMP alarmingly#! foreign..."

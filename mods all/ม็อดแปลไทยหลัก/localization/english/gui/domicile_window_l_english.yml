@@ -86,4 +86,3 @@
  DOMICILE_WINDOW_CONSTRUCT_BUILDING_LOCKED_TT: "$DOMICILE_WINDOW_CONSTRUCT_BUILDING_TT$\n@warning_icon!#X ระดับ [domicile_building|E] ของ [Domicile.GetMainBuilding.GetName] ต่ำเกินไป#!"
  CHARACTER_MODIFIERS_LABEL: "#BOLD;EMP ตัวปรับค่าตัวละคร#!"
  PROVINCE_MODIFIERS_LABEL: "#BOLD;EMP ตัวปรับค่าบารอนี#!"
- DOMICILE_ARTICACT_SLOT_TT:0 "#T [InventorySlot.GetName] Slot\n#![SelectLocalization( DomicileWindow.IsSelectedArtifactSlot( InventorySlot.Self ), 'SELECT_ARTIFACT_FOR_SLOT', 'SELECT_INVENTORY_SLOT' )]"

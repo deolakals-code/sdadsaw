@@ -59,5 +59,3 @@
  HYBRID_NAMES:0 "จะใช้ชื่อจากทั้งสองวัฒนธรรม"
  CULTURE_CREATION_TRADITIONS_COUNT:0 "เลือก [traditions|E] ได้สูงสุด [GetPlayer.GetCulture.GetMaxNumberOfTraditions] อย่างจาก [culture|E] ใดก็ได้ (เลือกแล้ว [HybridizationWindow.GetTraditionPicksTotal] อย่าง)"
  USE_CULTURE_FRAME_STYLE: "[Culture.GetNameNoTooltip]"
- CULTURE_CREATION_REALM_COUNTY_ADOPTION_TEXT: "The higher [cultural_acceptance|E] between parent cultures, the more [counties|E] with those cultures will adopt the new culture"
- CULTURE_CREATION_VASSALS_BUTTON: "Show Vassals"

@@ -292,8 +292,8 @@
 
 
  ### Tooltips
- contest_planner_contest_tooltip:0 "#T [ActivityPhase.GetName]#![AddLine( ActivityPhase.CanPickDescriptionBlockers( GetPlayer, ActivityPlanner.GetSingleLocationPhase.GetLocation, ActivityPlanner.GetSelectedSpecialOption ) )][AddTextIf( Not( ActivityPlanner.CanPlanMorePhasesOfType( ActivityPhase.Self ) ), AddLine( '$ACTIVITY_PLANNER_CANNOT_PICK_MORE_OF_PHASE|q$' ) )][AddLine( ActivityPhase.GetDescription( Activity.Self ) )]"
- contest_planner_contest_selected_tooltip:0 "#T [ActivityPhase.GetName]#![AddLine( ActivityPhase.CanPickDescriptionBlockers( GetPlayer, ActivityPlanner.GetSingleLocationPhase.GetLocation, ActivityPlanner.GetSelectedSpecialOption ) )][AddLine( ActivityPhase.GetDescription( Activity.Self ) )]"
+ contest_planner_contest_tooltip:0 "#T [ActivityPhase.GetName]#![AddLine( ActivityPhase.CanPickDescriptionBlockers( GetPlayer, ActivityPlanner.GetSingleLocationPhase.GetLocation, ActivityPlanner.GetSelectedSpecialOption ) )][AddTextIf( Not( ActivityPlanner.CanPlanMorePhasesOfType( ActivityPhase.Self ) ), AddLine( '$ACTIVITY_PLANNER_CANNOT_PICK_MORE_OF_PHASE|q$' ) )][AddLine( ActivityPhase.GetDescription )]"
+ contest_planner_contest_selected_tooltip:0 "#T [ActivityPhase.GetName]#![AddLine( ActivityPhase.CanPickDescriptionBlockers( GetPlayer, ActivityPlanner.GetSingleLocationPhase.GetLocation, ActivityPlanner.GetSelectedSpecialOption ) )][AddLine( ActivityPhase.GetDescription )]"
  contest_planner_remove_contest_tooltip:0 "#T ลบ [ActivityPhase.GetName]#!"
  contest_planner_add_contest_tooltip:0 "#T $contest_planner_empty_slot$#!"
  tournament_contest_favoured_skill_tooltip:1 "[contest|E] นี้เพิ่ม"
@@ -908,5 +908,3 @@
  ACTIVITY_GUEST_CHANSON_REASON:0 "[culture|e] ของ [ROOT.Char.GetHerHis|U] มีธรรมเนียมชองซง เดอ เฌสต์: $VALUE|=+0$"
  ACTIVITY_GUEST_HASTILUDER_REASON:0 "[ROOT.Char.GetSheHe|U] มี [trait|E] [GetTrait('tourney_participant').GetName( ROOT.Char.Self )]: $VALUE|=+0$"
  tournament_aptitude.events:0 "$hunt_success_chance.events$"
- locale_window_status_resign:0 "resigned from the"
- locale_window_status_discalified:0 "got disqualified from the"

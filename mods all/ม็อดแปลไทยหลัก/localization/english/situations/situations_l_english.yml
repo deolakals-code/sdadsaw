@@ -27,4 +27,3 @@
 
  SITUATION_INFO_WIDGET_DEBUG: ""
  SITUATION_PHASE_START_DATE: "#weak วันที่เริ่มต้นยุค:\n #![SituationPhase.GetStartDate.GetStringLong]"
- SITUATION_PHASE_PARTICIPANT_GROUP_NO_EFFECTS: "#weak No effects in this [situation_phase|E]#!"

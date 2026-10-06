@@ -116,4 +116,3 @@
  culture_has_fascination_global: "$culture_has_fascination_third$"
  not_culture_has_fascination_global: "$not_culture_has_fascination_third$"
   
- LACKS_OVERLAPPING_CULTRAD_TRADITION_CITY_KEEPERS_NOT: "Incompatible with $tradition_city_keepers_name$ [tradition|E]"

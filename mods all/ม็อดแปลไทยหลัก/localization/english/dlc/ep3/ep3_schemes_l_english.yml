@@ -602,4 +602,3 @@
  scheme_critical_moments.8067.t: "[scheme.GetNameNoTooltip]: ล้มเหลว"
  scheme_critical_moments.8067.desc: ""ข้ารอรายงานจากเจ้า แต่ก็ไม่มีอะไรมา ข้ากังวล... หรือว่าเจ้าลืมหน้าที่ของตนไปแล้ว?" [hegemon.GetName] กล่าวเย้ยหยันข้า\n\n"ข้าส่งคนของข้าไปทุกหัวมุมใน [target.GetCapitalLocation.GetName] แล้ว แต่ไร้ผล" ข้าอธิบาย "ไม่ข้าราชสำนักของ [target.GetTitledFirstNamePossessive] ภักดี ก็คงไม่มีอะไรที่ควรค่าแก่การลือกันเลย"\n\n"ข้ออ้างที่น่ารำคาญ... ข้านึกว่าเจ้าจะทำได้ดีกว่านี้ อย่างน้อยก็โกหกให้มันน่าฟังกว่านี้หน่อย เมื่อพิจารณาว่าตำแหน่งของเจ้ากำลังสั่นคลอน!" [hegemon.GetHerHis] ส่ายหน้า เป็นสัญญาณให้ข้าออกไป"
  scheme_critical_moments.8067.a: "คราวนี้ข้ารอดตัวไปได้อย่างง่ายดาย"
- EXPAND_POWER_BASE_SUCCESS_DESC: "Your [investment_cap|E] and @appointment_score![candidate_score|E] will be increased"

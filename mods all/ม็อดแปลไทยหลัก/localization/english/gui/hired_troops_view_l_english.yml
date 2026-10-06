@@ -116,4 +116,3 @@
  RETURN_TITLE_MAA_CONTROL_TITLE: "โอนการควบคุม [men_at_arms|E] กลับคืน"
  RETURN_TITLE_MAA_CONTROL_TEXT: "โอน [men_at_arms|E] ที่ถูกโอนย้ายกลับไปยังบรรดาศักดิ์เดิม"
  RETURN_TITLE_MAA_CONTROL_ACCEPT: "โอน"
- HOLY_ORDER_MUST_NOT_BE_EXCOMMUNICATED: "@warning_icon! #X [excommunicated|E] [rulers|E] cannot hire [holy_orders|E]#!"

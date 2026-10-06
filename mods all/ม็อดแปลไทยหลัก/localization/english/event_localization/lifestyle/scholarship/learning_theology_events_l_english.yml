@@ -229,5 +229,3 @@
  learning_theology_special.1102.b.success:0 "ข้าชิงไหวชิงพริบ [scholar.GetShortUINameNoTooltip]"
  learning_theology_special.1102.b.failure:0 "[scholar.GetShortUINameNoTooltip] เปิดเผยการตีสองหน้าของข้า"
  learning_theology_special.1102.d:0 "แต่ข้าก็ได้เรียนรู้มากมาย!"
- learning_theology.3002.desc.intro: "I have been studying the ancient religious texts and the writings of scholars, and they all seem to agree that [ROOT.Char.Custom('WorldDeadline')]. By my calculations we are less than a century away.\n\nHowever, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chaplain'))], [chaplain.GetTitledFirstName], urges me to keep it to myself."
- learning_theology.3002.desc.clergy: "$learning_theology.3002.desc.intro$ "Such knowledge is for us of the cloth to weigh, not for the flock to fear. What if your calculations are wrong?""

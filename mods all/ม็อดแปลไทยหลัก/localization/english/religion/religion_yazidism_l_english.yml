@@ -80,9 +80,3 @@
  kitebacilweism_holy_text:0 "คิเตบา ซิลเว"
  kitebacilweism_holy_text_2:0 "$kitebacilweism_holy_text$" # Optional translation alt
  kitebacilweism_holy_text_3:0 "$kitebacilweism_holy_text$" # Optional translation alt
- yazidi_faith:0 "Yazidism"
- yazidi_faith_adj:0 "Yazidi"
- yazidi_faith_adherent:0 "Yazidi"
- yazidi_faith_adherent_plural:0 "Yazidi"
- yazidi_faith_desc:0 "Yazidism is an ancient monotheistic religion centered on the worship of God through his chief angel, Tawûsê Melek, the Peacock Angel. Its adherents believe in reincarnation and seek reunion with the divine through righteous living."
- d_regional_yazidi_rite:0 "Yazidi Rite"

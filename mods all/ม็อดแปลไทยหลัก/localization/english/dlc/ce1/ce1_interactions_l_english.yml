@@ -19,5 +19,3 @@
  IS_CONTACT_REASON: "เป็น [contact_list_contact|E] ของท่าน: $VALUE|+0=$"
 
 
- ce1_ask_to_promote_legend_acceptance_tt_puppeteer: "[recipient.GetFirstNameNoTooltip] begins Promoting [puppet_or_actor.GetShortUIName]'s Legend"
- ce1_ask_to_promote_legend_decline_tt_puppeteer: "[recipient.GetFirstNameNoTooltip] refuses to Promote [puppet_or_actor.GetShortUIName]'s Legend"

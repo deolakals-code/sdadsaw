@@ -90,4 +90,3 @@
 # ENTRANTS_WINDOW_LABEL: "Scoreboard"
 # ENTRANTS_SORT_METHOD_PREDICTION: "Predicted Excellence"
 # ENTRANTS_SORT_METHOD_SCORE: "Sorted by Exam Score"
- activity_local_examination_predicted_cost: "ต้นทุนของ[GetActivityType( 'activity_local_examination' ).GetNameNoTooltip]ขึ้นอยู่กับ[activity_options|E]ที่ท่านเลือกเป็นหลัก"

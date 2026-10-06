@@ -152,4 +152,3 @@
  INTERACTION_FRIENDLY:0 "[actor.GetShortUIName|U] และ [recipient.GetShortUIName] มีความสัมพันธ์เชิงบวก: $VALUE|+=0$"
 
  fp3_clan_head_preference_tt:0 "[THIS.Char.GetShortUIName]: [SCOPE.ScriptValue('fp3_clan_head_preference_incumbent_value')|0] เทียบกับ [SCOPE.ScriptValue('fp3_clan_head_preference_challenger_value')|0]"
- fp3_change_allegiance_notification: "This struggle will be decided by those who choose their moment — and their friends — wisely. Cast off your present course and stand with me, and together we shall shape what becomes of Persia."

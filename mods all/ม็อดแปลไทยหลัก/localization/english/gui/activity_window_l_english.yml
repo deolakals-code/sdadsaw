@@ -59,7 +59,7 @@
  ESTIMATED_ARRIVAL:0 "เวลาถึงโดยประมาณ"
  JOIN_CHANCE:0 "โอกาสในการยอมรับ"
 
- ACTIVITY_PHASE_TOOLTIP: "#T [ActivityPhase.GetName]#!\n[ActivityPhase.GetDescription( Activity.Self )]"
+ ACTIVITY_PHASE_TOOLTIP:0 "#T [ActivityPhase.GetName]#!\n[ActivityPhase.GetDescription]"
 
  activity_waiting_for_guests:0 "กำลังรอ [activity_guests|E], เหลือ [Activity.GetNumWaitingForCharacters] คน"
  activity_waiting_for_phase:0 "กำลังรอให้ [Activity.GetCurrentPhase.GetPhase.GetName] เริ่มต้น"
@@ -122,13 +122,9 @@
 
  ACTIVITY_WINDOW_SPECIAL_PROGRESS_TOOLTIP:0 "#ts คะแนน: [ActivityWindow.GetSpecialProgressValue|^V]#!"
 
- ACTIVITY_WINDOW_PHASE_IN_PROGRESS_TOOLTIP:1 "#T [ActivityPhase.GetName]#!\nการกระทำล่าสุด: [ActivityWindow.GetLastWeeklyPulseEffectData.GetTitle|V][AddLine( ActivityWindow.GetLastWeeklyPulseEffectData.GetEffectText )]\n\nอีก [Subtract_int32( DaysPerWeek, GetTicksSinceLastProgress( Activity.GetID, DaysPerWeek ) )|V] วันจะถึงโอกาส[activity_phase_action|E]ครั้งถัดไป\n\n[ActivityPhase.GetDescription( Activity.Self )]"
+ ACTIVITY_WINDOW_PHASE_IN_PROGRESS_TOOLTIP:1 "#T [ActivityPhase.GetName]#!\nการกระทำล่าสุด: [ActivityWindow.GetLastWeeklyPulseEffectData.GetTitle|V][AddLine( ActivityWindow.GetLastWeeklyPulseEffectData.GetEffectText )]\n\n[Subtract_int32( DaysPerWeek, GetTicksSinceLastProgress( Activity.GetID, DaysPerWeek ) )|V] วันจนกว่าจะมีโอกาส [activity_phase_action|E] ครั้งถัดไป\n\n[ActivityPhase.GetDescription]"
  ACTIVITY_PULSE_ACTION_NONE:0 "ไม่มี"
  ACTIVITY_TIME_UNTIL_PROGRESS:1 "([Activity.GetEstimatedProgressPhaseDate.GetTimeToDate] จนกว่าจะ [Select_CString(Activity.IsCurrentPhaseActive, 'สิ้นสุด', 'เริ่มต้น')])"
 
  OPEN_ACTIVITY_NEVER_SEEN: "ไม่เคยจัด"
  OPEN_ACTIVITY_LAST_SEEN: "จัดครั้งล่าสุดเมื่อ [GetTimeBetweenDates(DATE.Self, GetCurrentDate)] ที่แล้ว"
- ACTIVITY_GUEST_INVITE_RULE_LOCKED_TT: "#T Mandatory Invitation#!\n\n[ActivityGuestInviteRule.GetName|V] [activity_guests|E] cannot be excluded from [ActivityType.GetNameNoTooltip] [activity|E]."
- ACTIVITY_GUEST_INVITE_RULE_UNLOCKED_TT: "#T Optional Invitation#!\n\n[ActivityGuestInviteRule.GetName|V] category of [activity_guests|E] can be excluded from [ActivityType.GetNameNoTooltip] [activity|E]. Excluded groups will not be invited and will not show up at the Activity, unless they are also a part of other Guest Category or come as an [entourage|E] of someone invited.[SelectLocalization( ActivityGuestListWindow.IsInviteRuleActive( OrderedActivityInviteRule.Self ), 'ACTIVITY_GUEST_INVITE_RULE_INCLUDED_TT', 'ACTIVITY_GUEST_INVITE_RULE_EXCLUDED_TT' )]"
- ACTIVITY_GUEST_INVITE_RULE_INCLUDED_TT: "\n\n#I Click to include [ActivityGuestInviteRule.GetName]"
- ACTIVITY_GUEST_INVITE_RULE_EXCLUDED_TT: "\n\n#I Click to exclude [ActivityGuestInviteRule.GetName]"

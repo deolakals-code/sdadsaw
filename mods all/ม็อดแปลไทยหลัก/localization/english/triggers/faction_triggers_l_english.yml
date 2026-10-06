@@ -35,4 +35,3 @@
  FACTION_CAN_PRESS_DEMANDS_TRIGGER:0 "ฝ่ายสามารถยื่นข้อเรียกร้องได้"
 
  nation_fracturing_faction.can_character_create_ui.blocked_by_struggle: "[liege|E] ของท่านถือครอง [titles|E] อย่างน้อยหนึ่งตำแหน่งที่ไม่สามารถ [dissolution_faction_dissolved|E] ได้ เนื่องจาก [struggle|E] ที่กำลังดำเนินอยู่"
- CHARACTER_CANNOT_LOWER_GOVERNMENT_AUTHORITY: "[CHARACTER.GetShortUIName|U] already has the lowest possible [CHARACTER.Custom('GetGovernmentAuthority')]"

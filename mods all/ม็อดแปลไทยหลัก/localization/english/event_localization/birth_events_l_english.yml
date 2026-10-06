@@ -243,5 +243,3 @@
  birth.9004.b.other:0 "อันที่จริง [child.GetFirstNameNoTooltip] ก็ค่อนข้างดีทีเดียว..."
  birth.9004.b.tt:0 "ท่านใช้นามเดิมของท่าน"
  birth.9004.b.tt.other:0 "[child.GetFirstNameNoTooltip] ใช้นามเดิมของ [child.GetHerHis]"
- birth.3032.start.bastard.desc: "All babies cry, but with little [child.GetFirstName] there is no end to the tears. The midwife furrowed her brow.\n\n"
- birth.3032.bastard.desc:0 ""The little [child.GetFirstName]"

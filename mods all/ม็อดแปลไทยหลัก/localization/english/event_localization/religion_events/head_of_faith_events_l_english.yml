@@ -44,8 +44,3 @@
  head_of_faith.0032.b:0 "@piety_level_0_icon_islam! ไปให้พ้น พวกขอทานชั้นต่ำ!"
  head_of_faith.0032.notif.a:0 "[pledge_target.GetTitledFirstNameNoTooltip] ยอมรับคำสัตย์ปฏิญาณของท่านแล้ว!"
  head_of_faith.0032.notif.b:0 "[pledge_target.GetTitledFirstNameNoTooltip] ปฏิเสธคำสัตย์ปฏิญาณของท่าน!"
- head_of_faith.0100.t: "The [ROOT.Char.GetFaith.ReligiousHeadTitleName]'s Authority"
- head_of_faith.0100.desc: "This day, [ROOT.Char.GetRite.GetName] has broken from [ROOT.Char.GetFaith.GetName]; the divide formally acknowledged. Where once we prayed as one with [hof.GetRite.GetName], we now stand apart in the very shape of our devotion.\n\nYet [hof.GetTitledFirstName] remains at the head of all who dwell beneath [ROOT.Char.GetFaith.HighGodName]. Should we bow our heads and heed [hof.GetTitledFirstNamePossessive] guidance still, or have the differences in our beliefs grown too great?"
- head_of_faith.0100.a: "Our faith unites us: we submit to [hof.GetTitledFirstNamePossessiveNoTooltip] authority!"
- head_of_faith.0100.b: "We shall heed [hof.GetHerHis] will... #EMP for now#!."
- head_of_faith.0001.e: "I #EMP am#! the [ROOT.Char.GetFaith.ReligiousHeadTitleName]"

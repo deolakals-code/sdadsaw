@@ -190,10 +190,3 @@
  
  alt_key_plus: "Alt+"
  shift_key_plus: "Shift+"
- EVENT_WINDOW_OPTION_AVAILABLE_RITUAL_CANNIBALISM: "This option is available because your [GetPlayer.GetRite.GetNameNoTooltip] [rite|E] has the [GetTenetType('tenet_ritual_cannibalism').GetBaseName] [core_tenet|E]"
- EVENT_WINDOW_OPTION_AVAILABLE_LOCATION_REALM: "This option is available because the activity is located in your [realm|E]"
- EVENT_WINDOW_OPTION_AVAILABLE_POSITIVE_OPINION: "This option is available because of another [character|E]'s positive opinion of you"
- EVENT_WINDOW_OPTION_AVAILABLE_ERUDITE: "This option is available because you have the [GetTrait('erudite').GetName( GetNullCharacter )] [trait|E]"
- EVENT_WINDOW_OPTION_AVAILABLE_TENET: "This option is available because of your [core_tenets|E]"
- EVENT_WINDOW_OPTION_AVAILABLE_THEOCRACY: "This option is available because of your [theocratic|E] [government|E]"
- EVENT_WINDOW_OPTION_AVAILABLE_DYNASTY_LEVEL: "This option is available because of your [dynasty|E] [dynasty_prestige_level|E]"

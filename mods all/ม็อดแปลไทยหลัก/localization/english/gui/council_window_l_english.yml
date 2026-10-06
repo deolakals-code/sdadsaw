@@ -83,4 +83,3 @@
  COURT_WINDOW_NO_FOLLOWERS: "ไม่มี [CourtWindow.GetCourtOwner.Custom('GetCourtierConceptPlural')] ในขณะนี้"
  COURT_WINDOW_NO_GUARDIAN: "ไม่มี [guardian|E]"
  COURT_WINDOW_NO_GUARDIAN_TOOLTIP: "ยังไม่มีการมอบหมาย [guardian|E] ให้การศึกษาแก่ [child|E]"
- COUNCIL_WINDOW_TITLE_CURIA: "curia"

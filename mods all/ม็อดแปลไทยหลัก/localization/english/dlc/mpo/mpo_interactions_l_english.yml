@@ -577,8 +577,3 @@ join_confederation_dishonorable_tt: "บุคลิกภาพของท่�
 mpo_interactions_events.0030.opening: "แด่ [actor.GetFirstName] ผู้มีหัวใจสูงส่ง"
 mpo_interactions_events.0030.desc: "จงสาบานว่าจะให้เกียรติวิถีแห่ง [confederation.GetName] จงสาบานว่าจะต่อสู้เพื่อพวกเราจนกว่าร่างกายของท่านจะแตกสลาย จนกว่านักรบของท่านจะเหลือเพียงกระดูกและเถ้าถ่าน\n\nจงให้คำสัตย์ปฏิญาณของท่าน แล้วเราจะปกป้องกันและกันจากความชั่วร้ายของโลกนี้"
 mpo_interactions_events.0030.a: "เมื่อท่านเรียกหา ข้าจะเป็นผู้พิทักษ์ของท่าน"
- mpo_interaction_grant_paiza_notification: "You have ridden well beneath my banner, and the steppe should know it. Carry this paiza as a token of my favor, and let any who bar your path fear the hand that struck it."
- mpo_interaction_ask_for_paiza_notification: "I ask to ride beneath your protection. Grant me a paiza struck by your hand, and I shall owe you obedience — my herds, my riders, and my word."
- obedience_value_loyal_soldiers: "From [traditions|E]"
- mpo_vassal_to_tributary_interaction_notification: "I do not ask to leave your shadow, only to stand a little freer in it. Let me ride as your tributary: my tribute will reach you all the same, but my people will answer to me."
- IS_NOMADIC_RERRECIPIENT_IS_NOMADIC_RERASONASON: "[recipient.GetShortUIName|U] is a [GetGovernment( 'nomad_government' ).GetName] [ruler|E]: $VALUE|=+0$"

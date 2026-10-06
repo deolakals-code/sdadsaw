@@ -242,4 +242,3 @@
  SITUATION_NATURAL_DISASTER_IMPACT_EFFECTS: "$BULLET$#weak เหตุการณ์ที่อาจส่งผลให้เกิด #N $game_concept_fatalities$#! จะเกิดขึ้น#!\n$BULLET$#weak เหตุการณ์ที่อาจส่งผลให้เกิด #N $game_concept_development$ Loss#! จะเกิดขึ้น#!"
  SITUATION_NATURAL_DISASTER_PARTICIPANT_WINDOW_HEADER_SINGLE_SUBREGION: "ตัวละครที่ได้รับผลกระทบจาก [Situation.GetNameNoTooltip]"
  SITUATION_NATURAL_DISASTER_PARTICIPANT_GROUPS_TITLE: "ตัวละครที่ได้รับผลกระทบ"
- natural_disaster_drainage_not_enough_soldiers_tt: "You need at least [EmptyScope.ScriptValue('natural_disaster_drainage_min_military_strength_value')|0] [soldiers|E]"

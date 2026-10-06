@@ -331,8 +331,3 @@
  # Voyager Cost Tooltips
  journey_planner_perk_desc: "[GetPerk('journey_planner_perk').GetName( GetNullCharacter )] "
 
- feast_cost_discount_transubstantiation: "[personal_tenet|E]: $tenet_transubstantiation_default_name$"
- court_musician_increased_opinion_tt_title: "$court_musician_increased_opinion_tt$"
- court_musician_increased_opinion_tt: "[first.GetShortUINameNoTooltip] plays instruments to entertain attendees."
- activity_invite_rule_clergy: "Clergy"
- pilgrimage_holy_site_cooldown_until_tt:0 "#warning You can visit this [holy_site|E] again on [GetCurrentDateWithDiff( GetVarTimeRemaining( pilgrimage_holy_site_cooldown_memory.MakeScope, 'pilgrimage_holy_site_cooldown') )].#!"

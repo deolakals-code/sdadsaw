@@ -130,8 +130,3 @@
  prison.9505.tunnels:0 "\n\nอย่างไรก็ตาม ในไม่ช้าข้าก็ค้นพบว่าอุโมงค์ใต้กำแพงนั้นมืดและสับสน หลังจากมีรอยถลอกมากมายและหินกระแทกศีรษะข้าหลายครั้ง ข้าจึงหาทางออกกลับไปยังลานภายในได้สำเร็จ"
  prison.9505.camp: "\n\nอย่างไรก็ตาม ในไม่ช้าข้าก็พบว่าตัวเองอยู่ท่ามกลางเต็นท์ที่ซับซ้อนราวกับรังกระต่าย ซึ่งเกลื่อนไปด้วยกระถางไฟ ทหารที่เบื่อหน่าย และสิ่งกีดขวางให้สะดุดล้ม เมื่อถูกเชือกเต็นท์เจ้าเล่ห์ ทำให้หน้าคะมำ ข้ายอมรับว่าไม่มีทางออก ขณะที่ผู้คุมขังข้าไว้"
  prison.9505.a:0 "ข้า... ข้ายังไม่ตาย...!"
- prison.1010.toast_puppeteer:0 "[puppet_or_actor.GetShortUIName] tortured [recipient.GetShortUIName] but found no secrets"
- prison.1020.toast_puppeteer:0 "[puppet_or_actor.GetShortUIName] blinded [recipient.GetShortUIName]"
- prison.1025.toast_puppeteer:0 "[puppet_or_actor.GetShortUIName] castrated [recipient.GetShortUIName]"
- prison.1030.toast_puppeteer: "[puppet_or_actor.GetShortUIName] disfigured [recipient.GetShortUIName]"
- prison.1041.toast_puppeteer: "[puppet_or_actor.GetShortUIName] maimed [recipient.GetShortUIName]"
