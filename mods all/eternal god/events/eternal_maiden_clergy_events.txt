@@ -1,0 +1,403 @@
+﻿namespace = eternal_maiden
+
+# Holy Maiden 2/4: clergy, heresy and the head of faith (0200-0209). Fired from holy_maiden_events_yearly.
+
+# A Letter from the Head of Faith
+eternal_maiden.0200 = {
+	type = character_event
+	title = eternal_maiden.0200.t
+	desc = eternal_maiden.0200.desc
+	theme = faith
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_rational }
+	right_portrait = { character = scope:maiden_pontiff animation = idle }
+
+	trigger = {
+		has_trait = holy_maiden
+		exists = faith.religious_head
+		NOT = { faith.religious_head = root }
+		NOT = { has_character_flag = eternal_maiden_0200_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0200_cd years = 15 }
+		faith.religious_head = { save_scope_as = maiden_pontiff }
+	}
+
+	option = {
+		name = eternal_maiden.0200.a
+		add_piety = 150
+		scope:maiden_pontiff = { add_opinion = { target = root modifier = eternal_maiden_devoted_opinion } }
+	}
+
+	option = {
+		name = eternal_maiden.0200.b
+		add_prestige = 200
+		scope:maiden_pontiff = { add_opinion = { target = root modifier = eternal_maiden_shamed_opinion } }
+	}
+
+	option = {
+		name = eternal_maiden.0200.c
+		add_hook = { type = favor_hook target = scope:maiden_pontiff }
+		eternal_add_suspicion = { A = 8 B = 4 }
+	}
+}
+
+# The Heretic Preacher
+eternal_maiden.0201 = {
+	type = character_event
+	title = eternal_maiden.0201.t
+	desc = eternal_maiden.0201.desc
+	theme = faith
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_zealous }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0201_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0201_cd years = 15 }
+	}
+
+	option = {
+		name = eternal_maiden.0201.a
+		add_dread = 30
+		add_piety = 50
+		stress_impact = { compassionate = minor_stress_impact_gain }
+	}
+
+	option = {
+		name = eternal_maiden.0201.b
+		add_piety = 150
+	}
+
+	option = {
+		name = eternal_maiden.0201.c
+		add_prestige = 100
+		eternal_add_suspicion = { A = 5 B = 2 }
+	}
+}
+
+# The Council of Bishops
+eternal_maiden.0202 = {
+	type = character_event
+	title = eternal_maiden.0202.t
+	desc = eternal_maiden.0202.desc
+	theme = faith
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0202_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0202_cd years = 15 }
+	}
+
+	option = {
+		name = eternal_maiden.0202.a
+		add_prestige = 150
+		add_piety = 100
+	}
+
+	option = {
+		name = eternal_maiden.0202.b
+		add_stress = -20
+	}
+
+	option = {
+		name = eternal_maiden.0202.c
+		trigger = { gold >= 150 }
+		remove_short_term_gold = 150
+		add_piety = 250
+	}
+}
+
+# The Stolen Relic
+eternal_maiden.0203 = {
+	type = character_event
+	title = eternal_maiden.0203.t
+	desc = eternal_maiden.0203.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_rational }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0203_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0203_cd years = 15 }
+	}
+
+	option = {
+		name = eternal_maiden.0203.a
+		add_piety = 200
+		eternal_add_suspicion = { A = 10 B = 5 }
+	}
+
+	option = {
+		name = eternal_maiden.0203.b
+		trigger = { gold >= 200 }
+		remove_short_term_gold = 200
+		add_piety = 150
+	}
+
+	option = {
+		name = eternal_maiden.0203.c
+		add_dread = 10
+		add_prestige = 50
+	}
+}
+
+# The Inquisitor at the Gates
+eternal_maiden.0204 = {
+	type = character_event
+	title = eternal_maiden.0204.t
+	desc = eternal_maiden.0204.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_rational }
+
+	trigger = {
+		has_trait = holy_maiden
+		has_variable = eternal_suspicion
+		var:eternal_suspicion >= 20
+		NOT = { has_character_flag = eternal_maiden_0204_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0204_cd years = 10 }
+	}
+
+	option = {
+		name = eternal_maiden.0204.a
+		eternal_add_suspicion = { A = -15 B = -8 }
+	}
+
+	option = {
+		name = eternal_maiden.0204.b
+		add_dread = 20
+		eternal_add_suspicion = { A = -25 B = -12 }
+		stress_impact = { compassionate = medium_stress_impact_gain }
+	}
+
+	option = {
+		name = eternal_maiden.0204.c
+		add_piety = -100
+		eternal_add_suspicion = { A = -30 B = -15 }
+	}
+}
+
+# Whispers of Schism
+eternal_maiden.0205 = {
+	type = character_event
+	title = eternal_maiden.0205.t
+	desc = eternal_maiden.0205.desc
+	theme = faith
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_zealous }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0205_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0205_cd years = 15 }
+	}
+
+	option = {
+		name = eternal_maiden.0205.a
+		add_piety = 200
+	}
+
+	option = {
+		name = eternal_maiden.0205.b
+		add_prestige = 150
+		add_character_modifier = { modifier = eternal_holy_fervor_modifier years = 2 }
+	}
+
+	option = {
+		name = eternal_maiden.0205.c
+		add_gold = 100
+		eternal_add_suspicion = { A = 5 B = 2 }
+	}
+}
+
+# The Sisters' Petition
+eternal_maiden.0206 = {
+	type = character_event
+	title = eternal_maiden.0206.t
+	desc = eternal_maiden.0206.desc
+	theme = faith
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_zealous }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0206_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0206_cd years = 15 }
+	}
+
+	option = {
+		name = eternal_maiden.0206.a
+		trigger = { gold >= 100 }
+		remove_short_term_gold = 100
+		add_piety = 150
+		add_character_modifier = { modifier = eternal_maiden_beloved_modifier years = 3 }
+	}
+
+	option = {
+		name = eternal_maiden.0206.b
+		add_character_modifier = { modifier = eternal_shadow_sovereign_modifier years = 2 }
+		eternal_add_suspicion = { A = 3 B = 1 }
+	}
+
+	option = {
+		name = eternal_maiden.0206.c
+		add_prestige = 50
+	}
+}
+
+# The Withheld Tithe
+eternal_maiden.0207 = {
+	type = character_event
+	title = eternal_maiden.0207.t
+	desc = eternal_maiden.0207.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+	right_portrait = { character = scope:maiden_vassal animation = fear }
+
+	trigger = {
+		has_trait = holy_maiden
+		any_vassal = { is_adult = yes is_imprisoned = no }
+		NOT = { has_character_flag = eternal_maiden_0207_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0207_cd years = 15 }
+		random_vassal = {
+			limit = { is_adult = yes is_imprisoned = no }
+			save_scope_as = maiden_vassal
+		}
+	}
+
+	option = {
+		name = eternal_maiden.0207.a
+		add_dread = 20
+		add_gold = 100
+		scope:maiden_vassal = { add_opinion = { target = root modifier = eternal_maiden_shamed_opinion } }
+	}
+
+	option = {
+		name = eternal_maiden.0207.b
+		add_piety = 100
+		scope:maiden_vassal = { add_opinion = { target = root modifier = eternal_maiden_devoted_opinion } }
+	}
+
+	option = {
+		name = eternal_maiden.0207.c
+		add_gold = 200
+		add_dread = 30
+		scope:maiden_vassal = { add_opinion = { target = root modifier = eternal_maiden_shamed_opinion } }
+	}
+}
+
+# Talk of Sainthood
+eternal_maiden.0208 = {
+	type = character_event
+	title = eternal_maiden.0208.t
+	desc = eternal_maiden.0208.desc
+	theme = faith
+	override_background = { reference = eternal_bloodline_awakening }
+	left_portrait = { character = root animation = personality_zealous }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0208_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0208_cd years = 25 }
+	}
+
+	option = {
+		name = eternal_maiden.0208.a
+		add_piety = 300
+		add_prestige = 100
+	}
+
+	option = {
+		name = eternal_maiden.0208.b
+		add_piety = 150
+		add_stress = -15
+	}
+
+	option = {
+		name = eternal_maiden.0208.c
+		add_prestige = 300
+		add_piety = -100
+	}
+}
+
+# A Priest's Confession
+eternal_maiden.0209 = {
+	type = character_event
+	title = eternal_maiden.0209.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:maiden_speaker = { is_female = yes } }
+				desc = eternal_maiden.0209.desc_f
+			}
+			desc = eternal_maiden.0209.desc_m
+		}
+	}
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_rational }
+	right_portrait = { character = scope:maiden_speaker animation = fear }
+
+	trigger = {
+		has_trait = holy_maiden
+		any_courtier = { is_adult = yes is_imprisoned = no }
+		NOT = { has_character_flag = eternal_maiden_0209_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0209_cd years = 15 }
+		random_courtier = {
+			limit = { is_adult = yes is_imprisoned = no }
+			save_scope_as = maiden_speaker
+		}
+	}
+
+	option = {
+		name = eternal_maiden.0209.a
+		add_hook = { type = favor_hook target = scope:maiden_speaker }
+	}
+
+	option = {
+		name = eternal_maiden.0209.b
+		add_dread = 25
+		eternal_add_suspicion = { A = -15 B = -8 }
+		scope:maiden_speaker = { add_opinion = { target = root modifier = eternal_maiden_shamed_opinion } }
+	}
+
+	option = {
+		name = eternal_maiden.0209.c
+		trigger = { gold >= 100 }
+		remove_short_term_gold = 100
+		scope:maiden_speaker = { add_opinion = { target = root modifier = eternal_maiden_devoted_opinion } }
+	}
+}

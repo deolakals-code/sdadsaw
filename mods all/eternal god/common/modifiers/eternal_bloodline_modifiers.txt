@@ -1,4 +1,4 @@
-eternal_bloodline_worshipped_modifier = {
+﻿eternal_bloodline_worshipped_modifier = {
 	dread_gain_mult = 0.2
 }
 

@@ -1,4 +1,4 @@
-holy_maiden = {
+﻿holy_maiden = {
 	category = fame
 	icon = "holy_maiden.dds"
 

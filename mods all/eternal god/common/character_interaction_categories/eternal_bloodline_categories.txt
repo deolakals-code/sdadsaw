@@ -1,4 +1,4 @@
-interaction_category_eternal_family = {
+﻿interaction_category_eternal_family = {
 	index = 16
 	desc = "ETERNAL_FAMILY_ACTIONS"
 	color = { 0.7 0.1 0.2 1 }

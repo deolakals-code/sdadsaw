@@ -1,9 +1,0 @@
-﻿eternal_shadow = {
-	sort_order = 60
-	gui_tags = { big_button }
-}
-
-eternal_court = {
-	sort_order = 55
-	gui_tags = { big_button }
-}

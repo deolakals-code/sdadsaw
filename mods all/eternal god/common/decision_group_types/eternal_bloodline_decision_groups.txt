@@ -1,4 +1,4 @@
-eternal_shadow = {
+﻿eternal_shadow = {
 	sort_order = 60
 	gui_tags = { big_button }
 }

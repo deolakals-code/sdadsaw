@@ -1,4 +1,4 @@
-### Descriptions
+﻿### Descriptions
 # desc = event_message_effect
 # desc = event_message_text
 # desc = event_message_text_and_effect

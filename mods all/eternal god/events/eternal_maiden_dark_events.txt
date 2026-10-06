@@ -1,0 +1,389 @@
+﻿namespace = eternal_maiden
+
+# Holy Maiden 4/4: the darkness behind the veil (0400-0409). Fired from holy_maiden_events_yearly.
+
+# The Face Behind the Veil
+eternal_maiden.0400 = {
+	type = character_event
+	title = eternal_maiden.0400.t
+	desc = eternal_maiden.0400.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_awakening }
+	left_portrait = { character = root animation = personality_vengeful }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0400_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0400_cd years = 20 }
+	}
+
+	option = {
+		name = eternal_maiden.0400.a
+		add_dread = 30
+		add_character_modifier = { modifier = eternal_maiden_feared_modifier years = 10 }
+	}
+
+	option = {
+		name = eternal_maiden.0400.b
+		add_piety = 150
+		add_stress = -20
+	}
+
+	option = {
+		name = eternal_maiden.0400.c
+		add_stress = -30
+		add_dread = 10
+	}
+}
+
+# Poison in the Chalice
+eternal_maiden.0401 = {
+	type = character_event
+	title = eternal_maiden.0401.t
+	desc = eternal_maiden.0401.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_rational }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0401_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0401_cd years = 15 }
+	}
+
+	option = {
+		name = eternal_maiden.0401.a
+		add_dread = 30
+		eternal_add_suspicion = { A = 10 B = 5 }
+		stress_impact = { compassionate = major_stress_impact_gain }
+	}
+
+	option = {
+		name = eternal_maiden.0401.b
+		add_piety = 200
+		eternal_add_suspicion = { A = 5 B = 2 }
+	}
+
+	option = {
+		name = eternal_maiden.0401.c
+		add_piety = 50
+	}
+}
+
+# The False Prophecy
+eternal_maiden.0402 = {
+	type = character_event
+	title = eternal_maiden.0402.t
+	desc = eternal_maiden.0402.desc
+	theme = faith
+	override_background = { reference = eternal_bloodline_awakening }
+	left_portrait = { character = root animation = personality_zealous }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0402_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0402_cd years = 15 }
+	}
+
+	option = {
+		name = eternal_maiden.0402.a
+		add_dread = 25
+		add_prestige = 100
+	}
+
+	option = {
+		name = eternal_maiden.0402.b
+		trigger = { gold >= 150 }
+		remove_short_term_gold = 150
+		add_dread = 50
+		eternal_add_suspicion = { A = 8 B = 4 }
+	}
+
+	option = {
+		name = eternal_maiden.0402.c
+		add_piety = 50
+	}
+}
+
+# The Witch of the Marshes
+eternal_maiden.0403 = {
+	type = character_event
+	title = eternal_maiden.0403.t
+	desc = eternal_maiden.0403.desc
+	theme = faith
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+
+	trigger = {
+		has_trait = holy_maiden
+		has_variable = eternal_suspicion
+		var:eternal_suspicion >= 10
+		NOT = { has_character_flag = eternal_maiden_0403_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0403_cd years = 15 }
+	}
+
+	option = {
+		name = eternal_maiden.0403.a
+		eternal_add_suspicion = { A = -20 B = -10 }
+		add_dread = 20
+		stress_impact = { compassionate = major_stress_impact_gain }
+	}
+
+	option = {
+		name = eternal_maiden.0403.b
+		add_piety = 100
+		eternal_add_suspicion = { A = -5 B = -3 }
+	}
+
+	option = {
+		name = eternal_maiden.0403.c
+		add_stress = -15
+	}
+}
+
+# The Miracle Trade
+eternal_maiden.0404 = {
+	type = character_event
+	title = eternal_maiden.0404.t
+	desc = eternal_maiden.0404.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_rational }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0404_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0404_cd years = 15 }
+	}
+
+	option = {
+		name = eternal_maiden.0404.a
+		add_gold = 200
+		eternal_add_suspicion = { A = 8 B = 4 }
+	}
+
+	option = {
+		name = eternal_maiden.0404.b
+		add_piety = -100
+		eternal_add_suspicion = { A = -10 B = -5 }
+	}
+
+	option = {
+		name = eternal_maiden.0404.c
+		add_dread = 25
+		eternal_add_suspicion = { A = -15 B = -8 }
+		stress_impact = { compassionate = medium_stress_impact_gain }
+	}
+}
+
+# The Bleeding Hands
+eternal_maiden.0405 = {
+	type = character_event
+	title = eternal_maiden.0405.t
+	desc = eternal_maiden.0405.desc
+	theme = faith
+	override_background = { reference = eternal_bloodline_awakening }
+	left_portrait = { character = root animation = personality_zealous }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0405_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0405_cd years = 25 }
+	}
+
+	option = {
+		name = eternal_maiden.0405.a
+		add_piety = 300
+		add_character_modifier = { modifier = eternal_maiden_martyr_cult_modifier years = 5 }
+		eternal_add_suspicion = { A = 5 B = 2 }
+	}
+
+	option = {
+		name = eternal_maiden.0405.b
+		add_piety = 100
+	}
+
+	option = {
+		name = eternal_maiden.0405.c
+		add_stress = -10
+	}
+}
+
+# The Martyr You Made
+eternal_maiden.0406 = {
+	type = character_event
+	title = eternal_maiden.0406.t
+	desc = eternal_maiden.0406.desc
+	theme = faith
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_rational }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0406_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0406_cd years = 20 }
+	}
+
+	option = {
+		name = eternal_maiden.0406.a
+		add_piety = 250
+		add_character_modifier = { modifier = eternal_maiden_martyr_cult_modifier years = 5 }
+		stress_impact = { compassionate = major_stress_impact_gain }
+	}
+
+	option = {
+		name = eternal_maiden.0406.b
+		add_piety = 50
+		add_stress = -10
+	}
+
+	option = {
+		name = eternal_maiden.0406.c
+		add_dread = 30
+	}
+}
+
+# The Servant Who Knew Too Much
+eternal_maiden.0407 = {
+	type = character_event
+	title = eternal_maiden.0407.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:maiden_speaker = { is_female = yes } }
+				desc = eternal_maiden.0407.desc_f
+			}
+			desc = eternal_maiden.0407.desc_m
+		}
+	}
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_vengeful }
+	right_portrait = { character = scope:maiden_speaker animation = fear }
+
+	trigger = {
+		has_trait = holy_maiden
+		any_courtier = { is_adult = yes is_imprisoned = no }
+		NOT = { has_character_flag = eternal_maiden_0407_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0407_cd years = 15 }
+		random_courtier = {
+			limit = { is_adult = yes is_imprisoned = no }
+			save_scope_as = maiden_speaker
+		}
+	}
+
+	option = {
+		name = eternal_maiden.0407.a
+		add_dread = 25
+		eternal_add_suspicion = { A = -20 B = -10 }
+		scope:maiden_speaker = { add_opinion = { target = root modifier = eternal_maiden_shamed_opinion } }
+	}
+
+	option = {
+		name = eternal_maiden.0407.b
+		add_hook = { type = favor_hook target = scope:maiden_speaker }
+	}
+
+	option = {
+		name = eternal_maiden.0407.c
+		scope:maiden_speaker = { add_opinion = { target = root modifier = eternal_maiden_devoted_opinion } }
+		eternal_add_suspicion = { A = 5 B = 2 }
+	}
+}
+
+# The Call to Holy War
+eternal_maiden.0408 = {
+	type = character_event
+	title = eternal_maiden.0408.t
+	desc = eternal_maiden.0408.desc
+	theme = war
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_zealous }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0408_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0408_cd years = 15 }
+	}
+
+	option = {
+		name = eternal_maiden.0408.a
+		add_piety = 150
+		add_character_modifier = { modifier = eternal_holy_fervor_modifier years = 3 }
+	}
+
+	option = {
+		name = eternal_maiden.0408.b
+		add_gold = 200
+		add_piety = -100
+	}
+
+	option = {
+		name = eternal_maiden.0408.c
+		add_prestige = 50
+	}
+}
+
+# The Communion of Fear
+eternal_maiden.0409 = {
+	type = character_event
+	title = eternal_maiden.0409.t
+	desc = eternal_maiden.0409.desc
+	theme = faith
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+
+	trigger = {
+		has_trait = holy_maiden
+		NOT = { has_character_flag = eternal_maiden_0409_cd }
+	}
+
+	immediate = {
+		add_character_flag = { flag = eternal_maiden_0409_cd years = 20 }
+	}
+
+	option = {
+		name = eternal_maiden.0409.a
+		add_dread = 40
+		add_character_modifier = { modifier = eternal_maiden_feared_modifier years = 10 }
+	}
+
+	option = {
+		name = eternal_maiden.0409.b
+		add_piety = 150
+		add_character_modifier = { modifier = eternal_maiden_beloved_modifier years = 5 }
+	}
+
+	option = {
+		name = eternal_maiden.0409.c
+		add_dread = 20
+		add_piety = 100
+	}
+}

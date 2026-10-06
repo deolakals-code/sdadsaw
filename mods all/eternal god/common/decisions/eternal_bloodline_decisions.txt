@@ -1,4 +1,4 @@
-eternal_forage_expedition_decision = {
+﻿eternal_forage_expedition_decision = {
 	picture = { reference = "gfx/interface/illustrations/decisions/ep3_decision_laamp_neutral_mountain.dds" }
 	desc = eternal_forage_expedition_decision_desc
 	selection_tooltip = eternal_forage_expedition_decision_tooltip

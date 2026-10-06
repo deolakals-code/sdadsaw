@@ -1,4 +1,4 @@
-eternal_divine_knight = {
+﻿eternal_divine_knight = {
 	type = heavy_cavalry
 
 	damage = 150

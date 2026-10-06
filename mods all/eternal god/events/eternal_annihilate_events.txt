@@ -1,4 +1,4 @@
-namespace = eternal_annihilate
+﻿namespace = eternal_annihilate
 
 # Departure
 eternal_annihilate.0001 = {
@@ -82,5 +82,9 @@ eternal_annihilate.0003 = {
 		name = eternal_annihilate.0003.a
 		add_prestige = 250
 		add_dread = 25
+		random = {
+			chance = 50
+			trigger_event = { id = eternal_tyrant.0106 days = { 90 180 } }
+		}
 	}
 }

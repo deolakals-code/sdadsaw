@@ -1,4 +1,4 @@
-namespace = eternal_maiden
+﻿namespace = eternal_maiden
 
 eternal_maiden.0001 = {
 	type = character_event

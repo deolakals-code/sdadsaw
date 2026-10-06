@@ -1,4 +1,4 @@
-eternal_annihilate_interaction = {
+﻿eternal_annihilate_interaction = {
 	category = interaction_category_eternal_realm
 	icon = icon_scheme_murder
 	interface_priority = 90

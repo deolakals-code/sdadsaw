@@ -1,4 +1,4 @@
-eternal_decree_excommunicate_interaction = {
+﻿eternal_decree_excommunicate_interaction = {
 	category = interaction_category_eternal_realm
 	icon = icon_scheme_befriend
 	interface_priority = 75

@@ -1,4 +1,0 @@
-﻿eternal_hidden_hook = {
-	display = hidden
-	group = diplomacy
-}

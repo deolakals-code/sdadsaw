@@ -1,5 +1,28 @@
-# AI characters must not keep the trait; paired with random_creation_weight = 0.
+﻿# Hooks into game on_actions only through on_actions lists, so the game's own
+# effects for these on_actions are kept.
 on_birth_child = {
+	on_actions = { eternal_bloodline_on_birth_child }
+}
+
+on_ruler_designer_finished = {
+	on_actions = { eternal_bloodline_on_ruler_designer_finished }
+}
+
+on_combat_end_winner = {
+	on_actions = { eternal_bloodline_on_combat_end }
+}
+
+on_combat_end_loser = {
+	on_actions = { eternal_bloodline_on_combat_end }
+}
+
+yearly_playable_pulse = {
+	on_actions = { eternal_bloodline_yearly }
+}
+
+# AI characters must not keep the trait; paired with random_creation_weight = 0.
+eternal_bloodline_on_birth_child = {
+	trigger = { scope:child = { has_trait = eternal_bloodline } }
 	effect = {
 		scope:child = {
 			if = {
@@ -15,7 +38,8 @@ on_birth_child = {
 }
 
 # Traits have no on_add, so the awakening runs from the ruler designer.
-on_ruler_designer_finished = {
+eternal_bloodline_on_ruler_designer_finished = {
+	trigger = { has_trait = eternal_bloodline }
 	effect = {
 		if = {
 			limit = { has_trait = eternal_bloodline }
@@ -29,22 +53,17 @@ on_ruler_designer_finished = {
 }
 
 # Root = combat side
-on_combat_end_winner = {
+eternal_bloodline_on_combat_end = {
+	trigger = {
+		OR = {
+			side_primary_participant ?= { has_trait = eternal_bloodline }
+			side_commander ?= { has_trait = eternal_bloodline }
+		}
+	}
 	effect = {
 		side_primary_participant ?= { eternal_bloodline_purge_injuries = yes }
 		side_commander ?= { eternal_bloodline_purge_injuries = yes }
 	}
-}
-
-on_combat_end_loser = {
-	effect = {
-		side_primary_participant ?= { eternal_bloodline_purge_injuries = yes }
-		side_commander ?= { eternal_bloodline_purge_injuries = yes }
-	}
-}
-
-yearly_playable_pulse = {
-	on_actions = { eternal_bloodline_yearly }
 }
 
 # Fallback for characters who got the trait by console/inheritance.

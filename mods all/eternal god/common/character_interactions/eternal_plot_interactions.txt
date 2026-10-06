@@ -1,4 +1,4 @@
-eternal_heirs_plot_interaction = {
+﻿eternal_heirs_plot_interaction = {
 	category = interaction_category_eternal_family
 	icon = icon_scheme_murder
 	interface_priority = 69
