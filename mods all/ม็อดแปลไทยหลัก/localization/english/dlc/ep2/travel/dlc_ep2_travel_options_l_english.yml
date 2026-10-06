@@ -184,3 +184,4 @@
  heir_can_join_tt: "[heir_for_tooltip.GetName] สามารถเข้าร่วมคณะเดินทางได้"
  no_heir_tt: "[heir|E] สามารถเข้าร่วมคณะเดินทางได้"
  travel_logs_title: "$travel_logs_perk_name$"
+ adventurers_proselytize_zealously_option.tt.perk_or_tenet: "You have the [GetPerk('zealous_proselytizer_perk').GetName(GetPlayer)] [perk|E], or $tenet_mendicant_preachers_name$ is your [personal_tenet|E]"

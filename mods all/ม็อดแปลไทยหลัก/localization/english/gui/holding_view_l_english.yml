@@ -289,3 +289,4 @@ province_razed_toast_title: "[province.GetNameNoTooltip]ถูกทำลาย
  REBUILD_GREAT_BUILDING_CANNOT_AFFORD: "@warning_icon! #X ไม่สามารถจ่ายได้: #! $COST$"
 
  YOUR_NEXT_HOLDING: "#T ไปยัง [holding|e] แห่งถัดไปของท่าน#!"
+ HOLDING_VIEW_RITE_LABEL: "[rite|E]:"

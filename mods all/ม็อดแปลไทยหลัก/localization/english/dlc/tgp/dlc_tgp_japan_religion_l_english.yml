@@ -45,3 +45,7 @@
  holy_site_kizuki_effect_name: "จาก [holy_site|E] #weak ($holy_site_kizuki_name$)#!"
  holy_site_kashima_name: "คาชิมะจิงกู" # 鹿島神宮
  holy_site_kashima_effect_name: "จาก [holy_site|E] #weak ($holy_site_kashima_name$)#!"
+ doctrine_parameter_tenet_pure_land_repentance_decision: "Can use the $pure_land_shed_sin_decision$ [decision|E] to replace a [sinful|E] [trait|E] with a [virtuous|E] [trait|E]"
+ doctrine_parameter_tenet_pure_land_aggressive_attacker_trait: "Gain the [GetTrait('aggressive_attacker').GetName( GetNullCharacter )] [commander_trait|E]"
+ doctrine_parameter_tenet_pure_land_prestige_level_loss: "Lose one [prestige_level|E]"
+ doctrine_parameter_less_likely_to_become_infirm_personal: "Less likely to gain [elder_traits|E]"

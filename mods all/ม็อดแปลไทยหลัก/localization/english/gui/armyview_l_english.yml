@@ -236,3 +236,4 @@
  INVALID_RAID_INTENT: "@warning_icon! #X [raid_intent|E]ไม่ถูกต้อง#!"
  YOUR_PREV_ARMY: "#T ไปยัง [army|e] ก่อนหน้า#!"
  YOUR_NEXT_ARMY: "#T ไปยัง [army|e] ถัดไป#!"
+ CANNOT_SPLIT_BARTER_ARMY:0 "@warning_icon! #X Cannot split [barter|E] armies outside own territory#!"

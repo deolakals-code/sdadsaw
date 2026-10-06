@@ -45,3 +45,10 @@
 
  ANY_CONFEDERATION_MEMBER_HOUSE_COUNT:0 "$PARAMETERS$ [member_houses|E] ของ [bloc|E]:"
  ANY_CONFEDERATION_MEMBER_HOUSE_PERCENT:0 "$PARAMETERS$ ของ [member_houses|E] ใน [bloc|E]:"
+ ANY_SPOUSE:0 "Any [spouse|E]:"
+ ANY_OF_MY_SPOUSES:0 "Any of my [spouses|E]:"
+ ANY_OF_THEIR_SPOUSES:0 "Any of [CHARACTER.GetShortUINamePossessive] [spouses|E]:"
+ ALL_SPOUSES:0 "All [spouses|E]:"
+ ALL_OF_MY_SPOUSES:0 "All my [spouses|E]:"
+ ALL_OF_THEIR_SPOUSES:0 "All of [CHARACTER.GetShortUINamePossessive] [spouses|E]:"
+ ANY_OF_THEIR_HELD_TITLES: "Any of [CHARACTER.GetShortUINamePossessive] held [titles|E]:"

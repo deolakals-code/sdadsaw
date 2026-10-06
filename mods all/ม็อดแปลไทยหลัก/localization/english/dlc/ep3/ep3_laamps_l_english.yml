@@ -78,3 +78,4 @@
  destroy_laamp_effect.tt.domicile_liquidated_title: "ค่ายถูกชำระบัญชี"
  can_move_domicile_camp_exile.tt: "[holder|E] ของ [county|E] นี้ หรือ [liege|E] ได้เนรเทศท่าน"
  LAAMP_AGE_LIMIT: "ท่านไม่สามารถสร้างนักผจญภัยที่อายุน้อยกว่า 16 ปีได้"
+ nearby_landless_adventurer_created_message_acclaimed_mercenary_tt: "[new_landless_adventurer.GetShortUINamePossessive|U] [liege|E], [adventurer_flavor_char.GetUIName], used the glory of [new_landless_adventurer.GetHerHis] [accolade|E] to gather a company of [new_landless_adventurer.Custom('KnightCulturePluralNoTooltip')|l] and sellswords to [new_landless_adventurer.GetHerHis] banner, unleashing [new_landless_adventurer.GetFirstName] as an [adventurer|E]"

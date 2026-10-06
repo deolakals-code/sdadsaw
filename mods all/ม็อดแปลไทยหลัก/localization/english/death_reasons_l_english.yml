@@ -427,3 +427,10 @@
 
  # TGP
  death_ritual_suicide: "กระทำอัตวินิบาตกรรมตามพิธีกรรม"
+ death_strangle: "was strangled"
+ death_strangle_killer: "had [TARGET_CHARACTER.GetShortUIName] strangled"
+ death_feast_ritually_eaten: "was eaten as a meal at a feast"
+ death_feast_ritually_eaten_killer: "was eaten as a meal at [TARGET_CHARACTER.GetUINamePossessive] feast"
+ death_trampled_by_horse: "was trampled to death by horses"
+ death_immurement: "was walled up alive in an anchorite's cell, dead to the world"
+ death_abandonment: "was abandoned and left to die of exposure"

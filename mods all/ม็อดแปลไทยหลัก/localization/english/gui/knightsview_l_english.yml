@@ -40,7 +40,7 @@
  COURT_POSITIONS_KP: "ตำแหน่งในราชสำนัก"
  COURT_POSITIONS_TT: "ไม่อนุญาตสำหรับตำแหน่งที่ไม่ใช่สายต่อสู้\nยกเว้น [GetCourtPositionType('bodyguard_court_position').GetName] และ [GetCourtPositionType('garuda_court_position').GetName] ซึ่งจะได้รับอนุญาตให้เป็น [knights|e] เสมอ เนื่องจากพวกเขามีหน้าที่ช่วยเหลือในการรบ"
  
- HBOX_DOCTRINE_FAITH_TT: "#T [FaithDoctrine.GetNameNoTooltip( Faith.Self )]#!\n[FaithDoctrine.GetEffectsDescription( Faith.Self )]\n\n[FaithDoctrine.GetDescription( Faith.Self )|F]"
+ HBOX_DOCTRINE_FAITH_TT: "#T [DoctrineType.GetNameNoTooltip( Faith.Self )]#!\n[DoctrineType.GetEffectsDescription( Rite.Self )]\n\n[DoctrineType.GetDescription( Faith.Self )|F]"
  KNIGHT_RESTRICTIONS: "มีข้อจำกัดอื่นๆ เพิ่มเติม"
  
  # this is can_be_knight_trigger in 00_war_and_peace_triggers.txt

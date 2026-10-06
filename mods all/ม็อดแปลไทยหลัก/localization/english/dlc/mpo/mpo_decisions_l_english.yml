@@ -721,3 +721,5 @@ friend_heir_success_factors_tt: "#weak ปัจจัยที่มีผล�
  confederation_county_modifier_tt: "[counties|E] ทั้งหมดได้รับ [GetModifier('confederate_lands_modifier').GetNameWithTooltip] เป็นเวลา #V 30#! ปี"
  chaotic_succession_protection_title_law_tt: "[law|E] [GetLaw('confederation_elective_succession_law').GetName] ปกป้องพวกเขาจาก #high $chaotic_succession_disobedient_kurultai_none$#! ในระหว่างการ [succession|E]"
 ACH_DOMINATE_TITLE_GAIN_WARNING: "ท่านได้รับ [law|E] [law_i][GetLaw('uncrowned').GetName] จนกว่าท่านจะจัด [coronation|E]"
+ dlc_mpo_steppe_north_east_asia_expansion_tooltip: "$dlc_mpo_steppe_north_east_asia_expansion$"
+ custom_north_east_asia_expand_steppe_tt: "No [realm|E] lands in the [GetGeographicalRegion('dlc_mpo_steppe_north_east_asia_expansion').GetName]"

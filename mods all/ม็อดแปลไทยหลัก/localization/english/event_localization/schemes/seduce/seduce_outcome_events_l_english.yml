@@ -234,3 +234,7 @@
  seduce_outcome.4100.desc_married:0 "ข้ากลับมารับผิดชอบในฐานะ[target_spouse.Custom2('RelationToMeShort', target)]ของ[target_spouse.GetTitledFirstNamePossessive]""
  seduce_outcome.4100.desc_fallback:0 "ข้าจะมุ่งเน้นไปที่เป้าหมายที่ข้าตั้งไว้สำหรับตนเอง""
  seduce_outcome.4100.a:0 ""เดี๋ยวก่อน มันไม่ควรจะเป็นแบบนี้!""
+ seduce_outcome.0001.no_discoverer.consequence.desc: "$seduce_outcome.0001.negative.desc$"
+ seduce_outcome.0001.positive.consequence.desc: "[discoverer.Custom2('NamePossessiveCharacterIntroduction', target)] is always watching..."
+ seduce_outcome.0001.negative.consequence.desc: "[discoverer.Custom2('NamePossessiveCharacterIntroduction', target)|U] and [discoverer.GetHerHis] agents could be hiding in any shadow, listening through any wall..."
+ seduce_outcome.3902.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], I have bad news! [owner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] was just seen leaving the chambers of [target.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]!""

@@ -77,3 +77,5 @@ LEDGER_DEV_MONTHLY_CHANGE: "การเปลี่ยนแปลงราย�
 LEDGER_NO_KILLS: "#weak ไม่มีการสังหาร#!"
 
 LEDGER_NAME_AGE: "[Character.GetName], #low อายุ [Character.GetAge] ปี #!"
+ rites_tab_ledger: "$game_concept_rites$"
+ RITES_LEDGER_TAB: "Rites"

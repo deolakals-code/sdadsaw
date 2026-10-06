@@ -9,3 +9,5 @@
  parent_dealing_with_courtiers_modifier_desc:0 "ตัวละครนี้มีบิดามารดาที่คอยจับตาดูข้าราชสำนักของตนอย่างใกล้ชิด"
  parent_events_wrangling_courtiers_modifier:0 "ควบคุมข้าราชสำนัก"
  parent_events_wrangling_courtiers_modifier_desc:0 "ตัวละครนี้จับตาดูราชสำนักของตนอย่างใกล้ชิด เพื่อควบคุมข้าราชสำนักให้อยู่ในระเบียบ"
+ parent_managing_county_modifier: "Parent Handling County"
+ parent_managing_county_modifier_desc: "This character has a parent who keeps a close eye on this county."

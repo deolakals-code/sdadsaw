@@ -117,3 +117,6 @@
  bow_composite_inspiration_description: "คันธนูประกอบ"
  bow_crossbow_inspiration_description: "หน้าไม้"
  bow_bow_inspiration_description: "คันธนู"
+ inspiration_artisan_type_phallus: "a wooden phallus"
+ religious_artifact_inspiration_description: "[ROOT.Char.Custom('InspirationForgePresentFuture')] a religious artifact"
+ religious_artifact_inspiration_description_past: "forged a religious artifact for [ROOT.Var('created_artifact_for').Char.GetUIName]"

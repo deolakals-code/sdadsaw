@@ -1,6 +1,6 @@
 ﻿l_english: 
  house_relation: "[DYNASTY_HOUSE.GetBaseNameNoTooltip]-[DYNASTY_HOUSE_2.GetBaseNameNoTooltip]"
- house_relation_tooltip:  "[HOUSE_RELATION.GetLevel.GetDesc]\n"
+ house_relation_tooltip: "[HOUSE_RELATION.GetLevel.GetDesc]\n"
  house_relation_change_from_decay: "การเสื่อมถอย"
  HOUSE_RELATION_COMPLEX_BAR_ITEM_TOOLTIP: "#T [HouseRelationLevel.GetName]#!\n[HouseRelationLevel.GetParameterDesc]"
  HOUSE_RELATION_LEVEL_NAME: "#T $HOUSE_RELATION_LEVEL$#!"
@@ -157,3 +157,5 @@
  house_relation_damaged_medium_desc: "[houses|E] [CHARACTER.GetHouse.GetName] และ [TARGET_CHARACTER.GetHouse.GetName] กลายเป็น #N เกลียดชังมากขึ้น#!"
  house_relation_damaged_major_desc: "[houses|E] [CHARACTER.GetHouse.GetName] และ [TARGET_CHARACTER.GetHouse.GetName] กลายเป็น #N เกลียดชังมากขึ้นอย่างมาก#!"
  house_relation_your_relation_with: "ความสัมพันธ์ของ [house|E] ของท่าน กับตระกูล [DynastyHouse.GetName]"
+ house_relation_reason_feud_head_skull_sent: "[house_feud_victim.GetFirstName] was killed by [house_feud_attacker.GetFirstName], and [house_feud_victim.GetHerHis] skull was sent back to humiliate our House"
+ house_relation_reason_feud_divorce: "[house_feud_attacker.GetTitledFirstName] ruined [house_feud_victim.GetTitledFirstNamePossessive] reputation during their acrimonious divorce"

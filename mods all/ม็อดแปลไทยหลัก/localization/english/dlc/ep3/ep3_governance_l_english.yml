@@ -561,3 +561,4 @@
  hungry_times_request: "$admin_request_choose_opportunity$"
  wartime_measures_request: "แก้ไขสถานการณ์โดยอาจใช้[martial|E]หรือ[stewardship|E]ของท่าน"
  task_contract_location_not_in_realm: "ท่านไม่ใช่[GetPlayer.Custom('GetGovernorConcept')]ของตำแหน่ง[task_contract_possessive|E]"
+ schemer_trait_desc: "[GetTrait('schemer').GetName( GetNullCharacter )] [trait|E]: $VALUE|=+0$"

@@ -1148,3 +1148,10 @@ ep3_laamp_decision_event.1055.alert_partial.tt: "#alert_trial \n$BULLET_WITH_TAB
  #Missing Camp Officer Building
  NOT_HAVE_MASTER_OF_ARMS_BUILDING: "ท่านต้องการ [GetDomicileBuilding('proving_grounds_01').GetName] เพื่อจ้าง [officer|E] [GetCourtPositionType('master_of_arms_camp_officer').GetName()]"
  NOT_HAVE_ARMORER_BUILDING: "ท่านต้องการ [GetDomicileBuilding('supply_tent_smithy').GetName] เพื่อจ้าง [officer|E] [GetCourtPositionType('armorer_camp_officer').GetName()]"
+ positive_shallow_adjective_with_article_comely: "a $positive_shallow_adjective_comely$"
+ positive_shallow_adjective_with_article_winsome: "a $positive_shallow_adjective_winsome$"
+ positive_shallow_adjective_with_article_beauteous: "a $positive_shallow_adjective_beauteous$"
+ modifier_growth_with_lower_skill: "The lower your [skill|E], the greater it benefits"
+ positive_shallow_adjective_comely: "comely"
+ positive_shallow_adjective_winsome: "winsome"
+ positive_shallow_adjective_beauteous: "beauteous"

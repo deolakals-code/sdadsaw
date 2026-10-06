@@ -103,3 +103,5 @@
  two_years_since_budget: "สองปีนับตั้งแต่การประกาศใช้งบประมาณครั้งล่าสุด"
  one_year_since_budget: "หนึ่งปีนับตั้งแต่การประกาศใช้งบประมาณครั้งล่าสุด"
  treasury_in_debt: "คลังหลวงติดหนี้"
+ WINDOW_TREASURY_BUDGET_CATEGORY_CARDINAL: "[treasury_cardinal_budget|E]"
+ WINDOW_TREASURY_BUDGET_ECCLESIASTICAL_EXPLANATION: "#weak The Treasury Budget for [GetPlayer.GetGovernment.GetName] [realms] can only be adjusted through separate laws available in the Laws section in the Realm window.\nFor this government type the budget gets enacted automatically once per year, but can be manually enacted to recalculate budgets immediately.#!"

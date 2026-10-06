@@ -384,3 +384,4 @@
  # Tweaks
  house_feud_cooldown_tt:1 "[house|E] ของท่านจะไม่สามารถเริ่ม [house_feud|E] อื่นได้เป็นเวลา 25 ปี"
  house_reward_modifier_tt:1 "#italic ตัวปรับแต่งนี้ขึ้นอยู่กับคะแนน [house_feud|E] ปัจจุบันของท่าน#!"
+ house_feud_divorce_flavor: "[ROOT.Var('house_feud_attacker').Char.GetFirstName] scandalously divorced and slandered [ROOT.Var('house_feud_victim').Char.GetFirstName]"

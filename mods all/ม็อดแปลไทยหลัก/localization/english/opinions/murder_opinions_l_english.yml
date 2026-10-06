@@ -41,3 +41,7 @@
  attempted_abduct_me_crime:0 "$attempted_abduct_me$"
 
  abducted_close_relation_opinion: "$abducted_close_family$"
+ executed_head_of_faith_opinion: "Executed our Head of Faith"
+ executed_head_of_faith_crime_opinion: "Unlawfully Executed our Head of Faith"
+ executed_senior_cleric_opinion: "Executed a Senior Cleric"
+ executed_senior_cleric_crime_opinion: "Unlawfully Executed a Senior Cleric"

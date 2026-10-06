@@ -91,3 +91,10 @@
  cancel_great_project_dialog_confirm: "ละทิ้ง"
 
  great_project_cooltip_desc: "เจ้าของ: [GreatProject.GetOwner.GetShortUIName]\nสถานที่: [GreatProject.GetLocation.GetName]\n\n[GreatProject.GetType.GetDescription]"
+ GREAT_PROJECT_PLAN_EXPECTED_TIME: "Expected to be finished in [PlanGreatProjectWindow.GetExpectedEndDate.GetTimeDiffFromNow]"
+ GREAT_PROJECT_START_EFFECT_HEADER: "#S On Project Funded and Started:#!\n"
+ GREAT_PROJECT_CONTRIBUTOR_RESTRICTION_HEAD_OF_FAITH: "$EFFECT_LIST_BULLET$ They are the [head_of_faith|E] of the Project owner"
+ GREAT_PROJECT_CONTRIBUTOR_RESTRICTION_FOUNDER: "$EFFECT_LIST_BULLET$ They are the Founder of the Project"
+ GREAT_PROJECT_CONTRIBUTOR_RESTRICTION_CLERICAL_REGION: "$EFFECT_LIST_BULLET$ They are in the same [clerical_region|E] as the Project"
+ GREAT_PROJECT_CONTRIBUTOR_RESTRICTION_DUCHY: "$EFFECT_LIST_BULLET$ They are in the same [duchy|E] as the Project"
+ great_project_puppet_cannot_plan: "Your [puppet|E] [Character.GetShortUIName] cannot plan this Project:\n"

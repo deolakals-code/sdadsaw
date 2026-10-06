@@ -225,3 +225,5 @@
 
  different_government_desc: "มีการปกครองที่แตกต่าง"
  opposite_struggle_faction_desc: "เป็นฝ่ายตรงข้ามในการต่อสู้ดิ้นรน"
+ archbishop_interesting_desc: "Is an Archbishop"
+ theocratic_ruler_interesting_desc: "Is a Theocratic Ruler"

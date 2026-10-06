@@ -57,3 +57,4 @@
  designate_shieldmaiden_interaction:0 "แต่งตั้งเป็นนักรบหญิงโล่" # Shieldmaiden -> นักรบหญิงโล่
  designate_shieldmaiden_interaction_desc:1 "เสนอโอกาสให้[recipient.GetFirstNameNoTooltip]ต่อสู้ในกองทัพของท่านในฐานะ[recipient.Custom('ShieldPersonFemaleMale')|U]\n\n#weak [recipient.Custom('ShieldPersonFemaleMale')|U]สามารถรับใช้ในฐานะ[actor.Custom('KnightCulture')]หรือ[commander|E] และอาจช่วยท่านให้รอดพ้นจาก[scheme|E][GetScheme('murder').GetTypeName]ได้ สามารถเสนอให้เป็น[recipient.Custom('ShieldPersonFemaleMale')|U]ได้เฉพาะสมาชิก[close_family|E]เท่านั้น#! "
  designate_shieldmaiden_interaction_notification:0 "[recipient.GetShortUIName]ได้กลายเป็น[recipient.Custom('ShieldPersonFemaleMale')|U]!"
+ TBC_OPINION_HUMILIATION_TRAIT_FICKLE: "[GetTrait('fickle').GetName(recipient.Self)] approves of $TBC_OPINION_HUMILIATION$: $VALUE|=+0$"

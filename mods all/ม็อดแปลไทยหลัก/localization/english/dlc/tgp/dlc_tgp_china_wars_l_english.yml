@@ -44,3 +44,4 @@
 gok_ending_warning_offer_sub_or_ruin: "#X @warning_icon! เจ้าจะสูญเสียสิทธิ์ในการเข้าถึง #high $mpo_offer_submission_or_ruin$#! [interaction|E]#!"
 gok_ending_warning_onslaught: "#X @warning_icon! เจ้าจะสูญเสียสิทธิ์ในการเข้าถึง #high $mpo_gok_onslaught_cb$#! [casus_belli|E]#!"
 gok_ending_warning_end_decision: "#X @warning_icon! เจ้าจะสูญเสียสิทธิ์ในการเข้าถึง #high $mpo_gok_world_conquest_decision$#! [decision|E]#!"
+ chinese_reunification_cb: "$CHINESE_CONSOLIDATION_WAR_NAME$"

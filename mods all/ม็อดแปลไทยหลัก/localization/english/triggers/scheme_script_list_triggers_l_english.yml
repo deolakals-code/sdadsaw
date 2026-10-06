@@ -19,3 +19,4 @@
  
  IS_SCHEMING_AGAINST_TRIGGER: "กำลัง [scheming|E] ต่อต้านตัวละครนี้"
  AGENT_SLOT_CONTRIBUTION_TRIGGER: "การสนับสนุนของผู้สมรู้ร่วมคิด"
+ NOT_ANY_OF_MY_SCHEMES:0 "#bold Not#! any of your Schemes:"

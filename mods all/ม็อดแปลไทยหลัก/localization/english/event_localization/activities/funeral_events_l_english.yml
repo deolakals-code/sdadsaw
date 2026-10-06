@@ -267,3 +267,7 @@
  mummy_jar_artifact_desc: "หัวใจของ [deceased.GetTitledFirstNamePossessive] ได้รับการเก็บรักษาไว้อย่างสมบูรณ์แบบในโถเล็กๆ"
  dead_hair: "เส้นผมของ [deceased.GetFirstNamePossessiveNoTooltip]"
  dead_hair_desc: "เส้นผมที่ดึงมาจากศพของ [deceased.GetName] ซึ่งแม่มดให้คุณค่า เนื่องจากคุณสมบัติทางเวทมนตร์ที่กล่าวอ้าง"
+ funeral.1150.t: "A Parting Gift"
+ funeral.1150.desc: "As I contemplate [deceased.GetFirstNamePossessive] mortal husk, I become aware of my hand clutching the [offered_badge.GetName], my index finger gently tracing the metal back and forth.\n\nIt has kept me safe, so far. Maybe it will be do the same for [deceased.GetHerHim]?\n\nIt would be the least I could do."
+ funeral.1150.a: ""Safe travels, dear [ROOT.Char.Custom2('RelationToMeShort', deceased)].""
+ funeral.1150.b: "... I'm sure [deceased.GetSheHe] will be fine regardless."

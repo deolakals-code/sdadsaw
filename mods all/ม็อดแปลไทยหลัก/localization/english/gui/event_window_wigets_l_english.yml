@@ -21,3 +21,4 @@
  event_window_widget_peasant_leader: "$event_window_widget_peasant_leader_support$: [Character.MakeScope.Var('support_gui').GetValue|0]/[Character.MakeScope.Var('num_of_corrupt_counties_gui').GetValue|0]\n$event_window_widget_peasant_leader_control$: [Character.MakeScope.Var('control_gui').GetValue|0]/[Character.MakeScope.Var('num_of_corrupt_counties_gui').GetValue|0]"
  event_window_widget_peasant_leader_tooltip: "ชาวบ้านท้องถิ่นกำลังต่อสู้อย่างต่อเนื่องกับเจ้าเหนือหัวของพวกเขา ในฐานะ [adventurer|E] ท่านเป็นเพียงผู้สังเกตการณ์ อย่างไรก็ตาม หากท่านต้องการ ท่านสามารถลงมือด้วยตนเอง ตัดสินว่าใครถูกใครผิด เลือกข้างและสนับสนุนฝ่ายนั้น"
  event_window_widget_peasant_leader_tooltip_widget: "เครื่องเตือนความจำว่าท่านตัดสินใจสนับสนุนหรือควบคุม [counties|E] กี่แห่ง หากเกิดสงครามขึ้น ชาวบ้านจากเคาน์ตีที่ได้รับการสนับสนุนทั้งหมดจะเข้าร่วมกองทัพของท่าน!"
+ event_window_widget_name_ruler_random_regnal_name: "A name that fits the [Character.GetPrimaryTitle.GetNameNoTooltip]"

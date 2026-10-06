@@ -1,6 +1,6 @@
 ﻿l_english: 
  guest_intent_coronation_events.0001.t: "ในฐานะสักขีพยาน"
- guest_intent_coronation_events.0001.desc.collective: ""[host.GetSheHe] อยู่ั่นั่น" [guest.GetTitledFirstName] ชี้ไปยังเจ้าภาพของเรา [host.GetTitledFirstName] ผู้ยืนอยู่อย่างเดียวดาย ในที่สุด\n\n"นี่คือโอกาสของเรา" [guest.GetFirstNameNoTooltip] ยืนกราน "พวกเรามาที่นี่เพื่อเป็นสักขีพยานและสนับสนุนพิธีสวมมงกุฎของ [host.GetHerHis] มันก็ยุติธรรมดีแล้วที่เราควรจะได้รับสิ่งใดตอบแทนบ้าง""
+ guest_intent_coronation_events.0001.desc.collective: ""[host.GetSheHe] อยู่นั่นไง" [guest.GetTitledFirstName] ชี้ไปยังเจ้าภาพของเรา [host.GetTitledFirstName] ผู้ยืนอยู่อย่างเดียวดาย ในที่สุด\n\n"นี่คือโอกาสของเรา" [guest.GetFirstNameNoTooltip] ยืนกราน "พวกเรามาที่นี่เพื่อเป็นสักขีพยานและสนับสนุนพิธีสวมมงกุฎของ [host.GetHerHis] มันก็ยุติธรรมดีแล้วที่เราควรจะได้รับสิ่งใดตอบแทนบ้าง""
  guest_intent_coronation_events.0001.desc.alone: "ข้าพบเจ้าภาพของเรา [host.GetTitledFirstName] ยืนอยู่เพียงลำพังที่ลานปราสาท ในที่สุด ข้าก็มีโอกาสที่จะแจ้งเจตจำนงของข้าให้ทราบ\n\nในฐานะสักขีพยานในพิธีสวมมงกุฎของ [host.GetHerHis] มันก็ยุติธรรมดีแล้วที่ข้าควรจะได้รับสิ่งใดตอบแทนบ้าง"
  guest_intent_coronation_events.0001.a: "ขอให้เราเป็นแบบอย่างแห่งสันติภาพแก่ปวงชนของเราเถิด"
  guest_intent_coronation_events.0001.b: "และเรากระทำการนี้ต่อหน้าองค์ [ROOT.Char.GetFaith.HighGodName]"

@@ -349,7 +349,7 @@
  ach_maintenance_events.0101.t: "[host.GetTitleAsNameNoTooltip] กลายเป็นนักโทษ" #Coronation host has been imprisoned, notify guests
  ach_maintenance_events.0101.desc: "ในคืนก่อนวันขึ้นครองบัลลังก์ของ[host.GetHerHis] [host.GetName] ถูกจองจำโดย [gaoler.GetName] รายละเอียดของการกระทำอันอุกอาจนี้ยังไม่เป็นที่ทราบแน่ชัด เจตนาของ[gaoler.GetHerHis]ที่มีต่อนักโทษคนใหม่ของ[gaoler.GetHerHis]ก็ยังคงปกคลุมไปด้วยปริศนา เช่นกัน ไม่มีสิ่งใดให้ข้าทำอีกแล้วนอกเสียจากรวบรวมคณะผู้ติดตามและจากไป"
  ach_maintenance_events.0101.a: "$ach_maintenance_events.0100.a$"
- ach_maintenance_events.0102.t: "$ach_maintenance_events.0101.t$"  #Coronation host has been imprisoned, notify host and cancellation
+ ach_maintenance_events.0102.t: "$ach_maintenance_events.0101.t$" #Coronation host has been imprisoned, notify host and cancellation
  ach_maintenance_events.0102.desc: "ไอ้[ROOT.Char.Custom('InsultNoun')][ROOT.Char.Custom('InsultAdjective')]นั่น [gaoler.Custom('GetDaughterSon')] ของพวก[ROOT.Char.Custom('InsultNounPlural')][ROOT.Char.Custom('InsultAdjective')] ได้จองจำข้าในระหว่าง #EMP พิธีราชาภิเษกของข้าเอง#! พิธีถูกยกเลิกและชะตากรรมของข้าก็ไม่แน่นอน"
  ach_maintenance_events.0102.a: "$ach_maintenance_events.0100.a$"
  ach_maintenance_events.0103.t: "ความโดดเดี่ยวของ [host.GetTitleAsNamePossessiveNoTooltip]" #No one shows up, notify host
@@ -433,3 +433,5 @@
  coronation_events.1040.a: ""จะไม่มีการตระหนี่ค่าใช้จ่ายใดๆ สำหรับสัญลักษณ์ศักดิ์สิทธิ์ของข้า!""
  coronation_events.1040.b: ""ทำให้มันมีความหมายแต่เรียบง่าย""
  coronation_events.1040.c: ""[ROOT.Char.GetFaith.HouseOfWorshipPlural] อาจยอมสละทรัพยากรได้ แต่ข้าไม่""
+ every_attending_poet_erudite: "ตัวละครที่เข้าร่วมทุกคนที่มีลักษณะ [GetTrait('lifestyle_poet').GetName( GetNullCharacter )] และ [GetTrait('erudite').GetName( GetNullCharacter )]"
+ every_poet_erudite: "ตัวละครที่เข้าร่วมทุกคนที่มีลักษณะ [GetTrait('lifestyle_poet').GetName( GetNullCharacter )] และ [GetTrait('erudite').GetName( GetNullCharacter )]"

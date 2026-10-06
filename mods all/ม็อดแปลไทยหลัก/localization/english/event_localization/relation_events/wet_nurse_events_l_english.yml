@@ -356,3 +356,4 @@
  scarification_rite_memory: "การ ทำให้เกิดแผลเป็น"
  dueling_rite_memory: "การประลอง"
 
+ rites_of_passage_trigger_astrologer: "Your [GetCourtPositionType('court_astrologer_court_position').GetName()] is available"

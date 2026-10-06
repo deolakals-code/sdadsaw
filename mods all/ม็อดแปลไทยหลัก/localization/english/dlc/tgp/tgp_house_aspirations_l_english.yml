@@ -166,3 +166,4 @@
  house_aspiration_parameter_poet_trait_provides_candidate_score_4: "สมาชิก[house|E]ได้รับ [candidate_score|E] เท่ากับ [EmptyScope.ScriptValue('poet_trait_provides_candidate_score_4_value')|+0%] ของ [trait_level_track_xp|E] [GetTrait('lifestyle_poet').GetName( GetNullCharacter )] ของพวกเขา"
  
  house_aspiration_parameter_feasts_costs_treasury: "การเป็นเจ้าภาพจัดการ [activity|E] [GetActivityType('activity_feast').GetTextIcon][GetActivityType('activity_feast').GetName] มีค่าใช้จ่ายเป็น @treasury_icon![treasury|E]"
+ tgp_humility_take_the_vows_bonus_modifier: "Vows of Humility"

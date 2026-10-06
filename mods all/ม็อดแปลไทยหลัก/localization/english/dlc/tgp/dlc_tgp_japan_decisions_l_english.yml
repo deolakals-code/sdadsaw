@@ -158,3 +158,4 @@
  tgp_japan_emperor_war_decision_desc: "จักรวรรดิคือสิทธิ์โดยกำเนิดของข้า และในไม่ช้ามันจะเป็นของข้ายิ่งกว่าเพียงในนาม ด้วยกำลัง หากจำเป็น ข้าจะไม่ทนดู [ROOT.Char.GetTopLiege.GetShortUIName] ทำลายดินแดนของข้าอย่างเงียบงันอีกต่อไป"
  tgp_japan_emperor_war_decision_tooltip: "[faction|E] ของท่านจะเริ่ม [war|E] เพื่อยกท่านขึ้นสู่บัลลังก์ของ [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName] ทั้งปวง"
 
+ disable_soryo_decision: "#X Disable [GetDecisionWithKey('tgp_japan_establish_soryo_administration_decision').GetName] [decision|E] permanently#!"
