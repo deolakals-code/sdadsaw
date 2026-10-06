@@ -1,4 +1,8 @@
-yearly_playable_pulse = {
+﻿yearly_playable_pulse = {
+	on_actions = { eternal_plot_yearly }
+}
+
+eternal_plot_yearly = {
 	effect = {
 		if = {
 			limit = { has_trait = eternal_bloodline has_variable = eternal_suspicion }
