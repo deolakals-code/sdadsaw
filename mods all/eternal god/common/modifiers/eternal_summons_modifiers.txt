@@ -1,0 +1,71 @@
+﻿# Fortune of the summoned: the common folk believe anyone called by the Holy Maiden carries her luck back to their realm.
+eternal_fortune_0_modifier = {
+	monthly_income_mult = 0.03
+	monthly_prestige_gain_mult = 0.03
+	development_growth_factor = 0.05
+	county_opinion_add = 3
+}
+
+eternal_revival_0_modifier = {
+	development_growth_factor = 0.1
+	county_fertility_growth_add = 0.03
+	levy_reinforcement_rate = 0.03
+	county_opinion_add = 6
+}
+
+eternal_fortune_1_modifier = {
+	monthly_income_mult = 0.05
+	monthly_prestige_gain_mult = 0.05
+	development_growth_factor = 0.1
+	county_opinion_add = 5
+}
+
+eternal_revival_1_modifier = {
+	development_growth_factor = 0.2
+	county_fertility_growth_add = 0.05
+	levy_reinforcement_rate = 0.05
+	county_opinion_add = 10
+}
+
+eternal_fortune_2_modifier = {
+	monthly_income_mult = 0.1
+	monthly_prestige_gain_mult = 0.1
+	development_growth_factor = 0.2
+	county_opinion_add = 8
+}
+
+eternal_revival_2_modifier = {
+	development_growth_factor = 0.4
+	county_fertility_growth_add = 0.1
+	levy_reinforcement_rate = 0.1
+	county_opinion_add = 16
+}
+
+eternal_fortune_3_modifier = {
+	monthly_income_mult = 0.15
+	monthly_prestige_gain_mult = 0.15
+	development_growth_factor = 0.3
+	county_opinion_add = 12
+}
+
+eternal_revival_3_modifier = {
+	development_growth_factor = 0.6
+	county_fertility_growth_add = 0.15
+	levy_reinforcement_rate = 0.15
+	county_opinion_add = 24
+}
+
+eternal_fortune_4_modifier = {
+	monthly_income_mult = 0.25
+	monthly_prestige_gain_mult = 0.25
+	development_growth_factor = 0.5
+	county_opinion_add = 20
+}
+
+eternal_revival_4_modifier = {
+	development_growth_factor = 1.0
+	county_fertility_growth_add = 0.25
+	levy_reinforcement_rate = 0.25
+	county_opinion_add = 40
+}
+

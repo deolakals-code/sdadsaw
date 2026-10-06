@@ -1,0 +1,15 @@
+﻿eternal_summons_arrive = {
+	effect = {
+		var:summoned_by ?= { trigger_event = eternal_summons.0010 }
+	}
+}
+
+eternal_summons_cancel = {
+	effect = {
+		var:summoned_by ?= {
+			remove_variable = summon_target
+			remove_variable = eternal_stay_days
+		}
+		remove_variable = summoned_by
+	}
+}
