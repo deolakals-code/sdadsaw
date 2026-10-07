@@ -1,23 +1,36 @@
-﻿# Fires when the carriage is back home (return_trip = yes, destination = last)
+﻿# Outbound leg finished: we are at the target's location.
+# Own realm -> eternal_carriage.0001 (touring our lands), other realm -> eternal_carriage.0002 (state visit)
 eternal_carriage_arrive = {
 	effect = {
-		remove_character_modifier = eternal_carriage_speed_modifier
 		if = {
 			limit = {
-				is_ruler = yes
 				has_variable = eternal_carriage_target
 				var:eternal_carriage_target ?= { is_alive = yes }
 			}
-			var:eternal_carriage_target = { save_scope_as = carriage_guest }
-			add_courtier = scope:carriage_guest
+			if = {
+				limit = { var:eternal_carriage_target.top_liege = root.top_liege }
+				trigger_event = eternal_carriage.0001
+			}
+			else = {
+				trigger_event = eternal_carriage.0002
+			}
 		}
-		remove_variable = eternal_carriage_target
+		else = {
+			eternal_carriage_cleanup_effect = yes
+		}
+	}
+}
+
+# Return leg finished: we are home. Make sure the guest actually arrived.
+eternal_carriage_home = {
+	effect = {
+		eternal_carriage_bring_guest_effect = yes
+		eternal_carriage_cleanup_effect = yes
 	}
 }
 
 eternal_carriage_cancel = {
 	effect = {
-		remove_character_modifier = eternal_carriage_speed_modifier
-		remove_variable = eternal_carriage_target
+		eternal_carriage_cleanup_effect = yes
 	}
 }

@@ -1,0 +1,36 @@
+﻿# Moves the fetched target into our court (landed rulers cannot be taken along).
+eternal_carriage_bring_guest_effect = {
+	if = {
+		limit = {
+			has_variable = eternal_carriage_target
+			has_character_flag = eternal_carriage_take_guest
+			is_ruler = yes
+			var:eternal_carriage_target ?= {
+				is_alive = yes
+				is_ruler = no
+				is_imprisoned = no
+			}
+		}
+		var:eternal_carriage_target = { save_scope_as = carriage_guest }
+		add_courtier = scope:carriage_guest
+	}
+}
+
+# Sends us back to our capital at courier speed.
+eternal_carriage_return_effect = {
+	hidden_effect = {
+		start_travel_plan = {
+			destination = root.capital_province
+			on_arrival_on_action = eternal_carriage_home
+			on_travel_planner_cancel_on_action = eternal_carriage_cancel
+			on_arrival_destinations = last
+			return_trip = no
+		}
+	}
+}
+
+eternal_carriage_cleanup_effect = {
+	remove_character_modifier = eternal_carriage_speed_modifier
+	remove_character_flag = eternal_carriage_take_guest
+	remove_variable = eternal_carriage_target
+}

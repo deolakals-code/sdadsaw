@@ -1,0 +1,113 @@
+﻿namespace = eternal_carriage
+
+# 0001: the carriage arrives in our OWN realm (touring our lands, calling on the target)
+eternal_carriage.0001 = {
+	type = character_event
+	title = eternal_carriage.0001.t
+	desc = eternal_carriage.0001.desc
+	theme = diplomacy
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_honorable }
+	right_portrait = { character = scope:carriage_guest animation = personality_content }
+
+	immediate = {
+		var:eternal_carriage_target = { save_scope_as = carriage_guest }
+	}
+
+	option = {
+		name = eternal_carriage.0001.a
+		add_prestige = 100
+		scope:carriage_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		eternal_carriage_return_effect = yes
+	}
+	option = {
+		name = eternal_carriage.0001.b
+		trigger = { gold >= 100 }
+		add_gold = -100
+		add_prestige = 150
+		scope:carriage_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		add_hook = { type = favor_hook target = scope:carriage_guest }
+		eternal_carriage_return_effect = yes
+	}
+	option = {
+		name = eternal_carriage.0001.c
+		add_gold = 150
+		eternal_carriage_return_effect = yes
+	}
+	option = {
+		name = eternal_carriage.0001.d
+		add_piety = 100
+		eternal_carriage_return_effect = yes
+	}
+	option = {
+		name = eternal_carriage.0001.e
+		trigger = {
+			scope:carriage_guest = { is_ruler = no is_imprisoned = no }
+		}
+		add_character_flag = eternal_carriage_take_guest
+		eternal_carriage_bring_guest_effect = yes
+		eternal_carriage_return_effect = yes
+	}
+	option = {
+		name = eternal_carriage.0001.f
+		eternal_carriage_return_effect = yes
+	}
+}
+
+# 0002: the carriage arrives in ANOTHER realm (a visit abroad)
+eternal_carriage.0002 = {
+	type = character_event
+	title = eternal_carriage.0002.t
+	desc = eternal_carriage.0002.desc
+	theme = diplomacy
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+	right_portrait = { character = scope:carriage_guest animation = worry }
+
+	immediate = {
+		var:eternal_carriage_target = { save_scope_as = carriage_guest }
+	}
+
+	option = {
+		name = eternal_carriage.0002.a
+		trigger = { gold >= 150 }
+		add_gold = -150
+		add_prestige = 250
+		scope:carriage_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		add_hook = { type = favor_hook target = scope:carriage_guest }
+		eternal_carriage_return_effect = yes
+	}
+	option = {
+		name = eternal_carriage.0002.b
+		add_prestige = 100
+		add_hook = { type = favor_hook target = scope:carriage_guest }
+		eternal_carriage_return_effect = yes
+	}
+	option = {
+		name = eternal_carriage.0002.c
+		add_dread = 40
+		scope:carriage_guest = { add_opinion = { target = root modifier = eternal_exposed_opinion } }
+		eternal_carriage_return_effect = yes
+	}
+	option = {
+		name = eternal_carriage.0002.d
+		trigger = { gold >= 100 }
+		add_gold = -100
+		add_piety = 50
+		scope:carriage_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		eternal_carriage_return_effect = yes
+	}
+	option = {
+		name = eternal_carriage.0002.e
+		trigger = {
+			scope:carriage_guest = { is_ruler = no is_imprisoned = no }
+		}
+		add_character_flag = eternal_carriage_take_guest
+		eternal_carriage_bring_guest_effect = yes
+		eternal_carriage_return_effect = yes
+	}
+	option = {
+		name = eternal_carriage.0002.f
+		eternal_carriage_return_effect = yes
+	}
+}

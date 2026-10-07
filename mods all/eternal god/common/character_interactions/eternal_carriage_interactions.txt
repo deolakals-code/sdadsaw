@@ -29,7 +29,7 @@
 				on_arrival_on_action = eternal_carriage_arrive
 				on_travel_planner_cancel_on_action = eternal_carriage_cancel
 				on_arrival_destinations = last
-				return_trip = yes
+				return_trip = no
 			}
 		}
 	}
