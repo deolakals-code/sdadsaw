@@ -1,0 +1,40 @@
+﻿eternal_send_carriage_interaction = {
+	category = interaction_category_eternal_realm
+	icon = icon_scheme_befriend
+	interface_priority = 70
+	desc = eternal_send_carriage_interaction_desc
+	auto_accept = yes
+
+	is_shown = {
+		scope:actor = { has_trait = eternal_bloodline }
+		scope:recipient != scope:actor
+		scope:recipient = { is_alive = yes }
+	}
+
+	is_valid_showing_failures_only = {
+		scope:actor = {
+			is_imprisoned = no
+			is_available_allow_travelling = yes
+			NOT = { has_variable = eternal_carriage_target }
+		}
+		scope:recipient = { is_imprisoned = no }
+	}
+
+	on_accept = {
+		scope:actor = {
+			set_variable = { name = eternal_carriage_target value = scope:recipient }
+			add_character_modifier = { modifier = eternal_carriage_speed_modifier }
+			start_travel_plan = {
+				destination = scope:recipient.location
+				on_arrival_on_action = eternal_carriage_arrive
+				on_travel_planner_cancel_on_action = eternal_carriage_cancel
+				on_arrival_destinations = last
+				return_trip = yes
+			}
+		}
+	}
+
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}

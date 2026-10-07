@@ -436,3 +436,7 @@
  eternal_ledger_decision_confirm: "Open the book."
  eternal_mercy_decision_confirm: "Mend what was broken."
  eternal_praise_self_decision_confirm: "Send the agents."
+ eternal_send_carriage_interaction: "Send the Carriage"
+ eternal_send_carriage_interaction_desc: "Dispatch a carriage drawn by Mongol-courier horses to fetch this person. It rides there and back at great speed, and the target joins your court on return."
+ eternal_carriage_speed_modifier: "Courier Horses"
+ eternal_carriage_speed_modifier_desc: "Fresh horses at every post, riding day and night."

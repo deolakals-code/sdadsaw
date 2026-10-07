@@ -1,0 +1,23 @@
+﻿# Fires when the carriage is back home (return_trip = yes, destination = last)
+eternal_carriage_arrive = {
+	effect = {
+		remove_character_modifier = eternal_carriage_speed_modifier
+		if = {
+			limit = {
+				is_ruler = yes
+				has_variable = eternal_carriage_target
+				var:eternal_carriage_target ?= { is_alive = yes }
+			}
+			var:eternal_carriage_target = { save_scope_as = carriage_guest }
+			add_courtier = scope:carriage_guest
+		}
+		remove_variable = eternal_carriage_target
+	}
+}
+
+eternal_carriage_cancel = {
+	effect = {
+		remove_character_modifier = eternal_carriage_speed_modifier
+		remove_variable = eternal_carriage_target
+	}
+}

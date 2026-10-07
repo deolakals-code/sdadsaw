@@ -122,3 +122,8 @@ eternal_holy_fervor_modifier = {
 	army_toughness_mult = 0.3
 	monthly_prestige = 1
 }
+
+# Carriage speed (Mongol-courier pace). Value is a multiplier: 2.0 = +200% travel speed
+eternal_carriage_speed_modifier = {
+	character_travel_speed_mult = 2.0
+}
