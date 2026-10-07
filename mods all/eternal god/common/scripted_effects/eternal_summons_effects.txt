@@ -15,6 +15,7 @@ eternal_carriage_speed_effect = {
 eternal_summons_depart_effect = {
 	var:summoned_by = { save_scope_as = summoner }
 	add_character_modifier = { modifier = eternal_carriage_rider_modifier years = 1 }
+	add_character_modifier = { modifier = eternal_under_edict_modifier years = 6 }
 	hidden_effect = {
 		start_travel_plan = {
 			destination = scope:summoner.capital_province
@@ -51,6 +52,7 @@ eternal_summons_depart_effect = {
 
 # root = the summoned character, sent home by carriage at the same speed.
 eternal_summons_return_effect = {
+	remove_character_modifier = eternal_under_edict_modifier
 	add_character_modifier = { modifier = eternal_carriage_rider_modifier years = 1 }
 	hidden_effect = {
 		if = {
@@ -99,5 +101,21 @@ eternal_progress_depart_effect = {
 	}
 	else = {
 		trigger_event = { id = eternal_summons.0070 days = 45 }
+	}
+}
+
+# root = the Holy Maiden, scope:summon_guest = the guest. Mirrors the private-chambers event (adults only, checked by the events).
+eternal_edict_conceive_effect = {
+	if = {
+		limit = {
+			is_female = yes
+			is_pregnant = no
+			can_have_children = yes
+			scope:summon_guest = { is_male = yes can_have_children = yes }
+		}
+		random = {
+			chance = 40
+			make_pregnant = { father = scope:summon_guest number_of_children = 1 }
+		}
 	}
 }

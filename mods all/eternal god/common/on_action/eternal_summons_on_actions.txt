@@ -19,6 +19,7 @@ eternal_summons_cancel = {
 		}
 		remove_variable = summoned_by
 		remove_character_modifier = eternal_carriage_rider_modifier
+		remove_character_modifier = eternal_under_edict_modifier
 	}
 }
 

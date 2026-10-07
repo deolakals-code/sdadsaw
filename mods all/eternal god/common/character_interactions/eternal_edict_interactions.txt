@@ -1,0 +1,295 @@
+﻿eternal_edict_lesson_interaction = {
+	category = interaction_category_eternal_edict
+	icon = icon_scheme_befriend
+	interface_priority = 79
+	desc = eternal_edict_lesson_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 15 }
+	is_shown = {
+		scope:actor = {
+			has_trait = holy_maiden
+			exists = var:summon_target
+			var:summon_target = scope:recipient
+		}
+		scope:recipient = { has_character_modifier = eternal_under_edict_modifier }
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = { is_imprisoned = no }
+	}
+	on_accept = {
+		scope:actor = { trigger_event = eternal_edict.0001 }
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_edict_hunt_interaction = {
+	category = interaction_category_eternal_edict
+	icon = icon_scheme_befriend
+	interface_priority = 78
+	desc = eternal_edict_hunt_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 15 }
+	is_shown = {
+		scope:actor = {
+			has_trait = holy_maiden
+			exists = var:summon_target
+			var:summon_target = scope:recipient
+		}
+		scope:recipient = { has_character_modifier = eternal_under_edict_modifier }
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = { is_imprisoned = no }
+	}
+	on_accept = {
+		scope:actor = { trigger_event = eternal_edict.0002 }
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_edict_judge_interaction = {
+	category = interaction_category_eternal_edict
+	icon = icon_scheme_befriend
+	interface_priority = 77
+	desc = eternal_edict_judge_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 15 }
+	is_shown = {
+		scope:actor = {
+			has_trait = holy_maiden
+			exists = var:summon_target
+			var:summon_target = scope:recipient
+		}
+		scope:recipient = { has_character_modifier = eternal_under_edict_modifier }
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = { is_imprisoned = no }
+	}
+	on_accept = {
+		scope:actor = { trigger_event = eternal_edict.0003 }
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_edict_chess_interaction = {
+	category = interaction_category_eternal_edict
+	icon = icon_scheme_befriend
+	interface_priority = 76
+	desc = eternal_edict_chess_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 15 }
+	is_shown = {
+		scope:actor = {
+			has_trait = holy_maiden
+			exists = var:summon_target
+			var:summon_target = scope:recipient
+		}
+		scope:recipient = { has_character_modifier = eternal_under_edict_modifier }
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = { is_imprisoned = no }
+	}
+	on_accept = {
+		scope:actor = { trigger_event = eternal_edict.0004 }
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_edict_jester_interaction = {
+	category = interaction_category_eternal_edict
+	icon = icon_scheme_befriend
+	interface_priority = 75
+	desc = eternal_edict_jester_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 15 }
+	is_shown = {
+		scope:actor = {
+			has_trait = holy_maiden
+			exists = var:summon_target
+			var:summon_target = scope:recipient
+		}
+		scope:recipient = { has_character_modifier = eternal_under_edict_modifier }
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = { is_imprisoned = no }
+	}
+	on_accept = {
+		scope:actor = { trigger_event = eternal_edict.0005 }
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_edict_riddle_interaction = {
+	category = interaction_category_eternal_edict
+	icon = icon_scheme_befriend
+	interface_priority = 74
+	desc = eternal_edict_riddle_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 15 }
+	is_shown = {
+		scope:actor = {
+			has_trait = holy_maiden
+			exists = var:summon_target
+			var:summon_target = scope:recipient
+		}
+		scope:recipient = { has_character_modifier = eternal_under_edict_modifier }
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = { is_imprisoned = no }
+	}
+	on_accept = {
+		scope:actor = { trigger_event = eternal_edict.0006 }
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_edict_taste_interaction = {
+	category = interaction_category_eternal_edict
+	icon = icon_scheme_befriend
+	interface_priority = 73
+	desc = eternal_edict_taste_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 15 }
+	is_shown = {
+		scope:actor = {
+			has_trait = holy_maiden
+			exists = var:summon_target
+			var:summon_target = scope:recipient
+		}
+		scope:recipient = { has_character_modifier = eternal_under_edict_modifier }
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = { is_imprisoned = no }
+	}
+	on_accept = {
+		scope:actor = { trigger_event = eternal_edict.0007 }
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_edict_throne_interaction = {
+	category = interaction_category_eternal_edict
+	icon = icon_scheme_befriend
+	interface_priority = 72
+	desc = eternal_edict_throne_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 15 }
+	is_shown = {
+		scope:actor = {
+			has_trait = holy_maiden
+			exists = var:summon_target
+			var:summon_target = scope:recipient
+		}
+		scope:recipient = { has_character_modifier = eternal_under_edict_modifier }
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = { is_imprisoned = no }
+	}
+	on_accept = {
+		scope:actor = { trigger_event = eternal_edict.0008 }
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_edict_masked_interaction = {
+	category = interaction_category_eternal_edict
+	icon = icon_scheme_befriend
+	interface_priority = 71
+	desc = eternal_edict_masked_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 15 }
+	is_shown = {
+		scope:actor = {
+			has_trait = holy_maiden
+			exists = var:summon_target
+			var:summon_target = scope:recipient
+		}
+		scope:recipient = { has_character_modifier = eternal_under_edict_modifier }
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = { is_imprisoned = no }
+	}
+	on_accept = {
+		scope:actor = { trigger_event = eternal_edict.0009 }
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_edict_bedchamber_interaction = {
+	category = interaction_category_eternal_edict
+	icon = icon_scheme_befriend
+	interface_priority = 70
+	desc = eternal_edict_bedchamber_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 15 }
+	is_shown = {
+		scope:actor = {
+			has_trait = holy_maiden
+			exists = var:summon_target
+			var:summon_target = scope:recipient
+		}
+		scope:recipient = { has_character_modifier = eternal_under_edict_modifier }
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = { is_imprisoned = no }
+		scope:actor = { is_adult = yes }
+		scope:recipient = {
+			is_adult = yes
+			has_opinion_modifier = { target = scope:actor modifier = eternal_charmed_opinion }
+		}
+	}
+	on_accept = {
+		scope:actor = { trigger_event = eternal_edict.0010 }
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_edict_night_interaction = {
+	category = interaction_category_eternal_edict
+	icon = icon_scheme_befriend
+	interface_priority = 69
+	desc = eternal_edict_night_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 15 }
+	is_shown = {
+		scope:actor = {
+			has_trait = holy_maiden
+			exists = var:summon_target
+			var:summon_target = scope:recipient
+		}
+		scope:recipient = { has_character_modifier = eternal_under_edict_modifier }
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = { is_imprisoned = no }
+		scope:actor = { is_adult = yes }
+		scope:recipient = {
+			is_adult = yes
+			has_opinion_modifier = { target = scope:actor modifier = eternal_charmed_opinion }
+		}
+	}
+	on_accept = {
+		scope:actor = { trigger_event = eternal_edict.0011 }
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}

@@ -18,3 +18,10 @@ interaction_category_eternal_charm = {
 	color = { 0.85 0.8 0.9 1 }
 	icon = "icon_scheme_befriend"
 }
+
+interaction_category_eternal_edict = {
+	index = 19
+	desc = "ETERNAL_EDICT_ACTIONS"
+	color = { 0.55 0.1 0.35 1 }
+	icon = "icon_scheme_befriend"
+}

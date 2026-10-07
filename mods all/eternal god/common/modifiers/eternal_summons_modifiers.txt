@@ -81,3 +81,7 @@ eternal_carriage_rider_modifier = {
 	character_travel_safety_mult = 1.0
 }
 
+# Shown on a ruler summoned by the Holy Maiden for as long as they remain in her power.
+eternal_under_edict_modifier = {
+	stress_gain_mult = 0.25
+}

@@ -1,0 +1,467 @@
+﻿namespace = eternal_edict
+
+# Edict commands: activities the Holy Maiden can order of a ruler who is Under the Edict.
+# Fired from common/character_interactions/eternal_edict_interactions.txt. 0010 and 0011 are adult-only.
+
+# Edict 0001
+eternal_edict.0001 = {
+	type = character_event
+	title = eternal_edict.0001.t
+	desc = eternal_edict.0001.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_rational }
+	right_portrait = { character = scope:summon_guest animation = idle }
+
+	trigger = {
+		exists = var:summon_target
+		var:summon_target = { is_alive = yes }
+	}
+
+	immediate = {
+		var:summon_target ?= { save_scope_as = summon_guest }
+	}
+
+	option = {
+		name = eternal_edict.0001.a
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		add_prestige = 50
+	}
+
+	option = {
+		name = eternal_edict.0001.b
+		add_dread = 30
+		scope:summon_guest = { add_stress = 15 }
+	}
+
+	option = {
+		name = eternal_edict.0001.c
+		random_list = {
+			70 = {
+				add_hook = { type = favor_hook target = scope:summon_guest }
+			}
+			30 = {
+				scope:summon_guest = { add_opinion = { target = root modifier = eternal_maiden_shamed_opinion } }
+			}
+		}
+	}
+}
+
+# Edict 0002
+eternal_edict.0002 = {
+	type = character_event
+	title = eternal_edict.0002.t
+	desc = eternal_edict.0002.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+	right_portrait = { character = scope:summon_guest animation = idle }
+
+	trigger = {
+		exists = var:summon_target
+		var:summon_target = { is_alive = yes }
+	}
+
+	immediate = {
+		var:summon_target ?= { save_scope_as = summon_guest }
+	}
+
+	option = {
+		name = eternal_edict.0002.a
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		add_prestige = 80
+		add_stress = -10
+	}
+
+	option = {
+		name = eternal_edict.0002.b
+		add_dread = 40
+		scope:summon_guest = { add_stress = 25 }
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_maiden_shamed_opinion } }
+	}
+
+	option = {
+		name = eternal_edict.0002.c
+		add_piety = 40
+		add_hook = { type = favor_hook target = scope:summon_guest }
+	}
+}
+
+# Edict 0003
+eternal_edict.0003 = {
+	type = character_event
+	title = eternal_edict.0003.t
+	desc = eternal_edict.0003.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_rational }
+	right_portrait = { character = scope:summon_guest animation = idle }
+
+	trigger = {
+		exists = var:summon_target
+		var:summon_target = { is_alive = yes }
+	}
+
+	immediate = {
+		var:summon_target ?= { save_scope_as = summon_guest }
+	}
+
+	option = {
+		name = eternal_edict.0003.a
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		add_piety = 60
+	}
+
+	option = {
+		name = eternal_edict.0003.b
+		add_dread = 40
+		scope:summon_guest = { add_stress = 30 }
+		add_hook = { type = favor_hook target = scope:summon_guest }
+	}
+
+	option = {
+		name = eternal_edict.0003.c
+		add_prestige = 60
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+	}
+}
+
+# Edict 0004
+eternal_edict.0004 = {
+	type = character_event
+	title = eternal_edict.0004.t
+	desc = eternal_edict.0004.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_awakening }
+	left_portrait = { character = root animation = personality_rational }
+	right_portrait = { character = scope:summon_guest animation = idle }
+
+	trigger = {
+		exists = var:summon_target
+		var:summon_target = { is_alive = yes }
+	}
+
+	immediate = {
+		var:summon_target ?= { save_scope_as = summon_guest }
+	}
+
+	option = {
+		name = eternal_edict.0004.a
+		random_list = {
+			50 = {
+				add_prestige = 60
+				add_dread = 15
+				scope:summon_guest = { add_stress = 10 }
+			}
+			50 = {
+				scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+				add_stress = -10
+				add_prestige = 30
+			}
+		}
+	}
+
+	option = {
+		name = eternal_edict.0004.b
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		add_stress = -10
+	}
+
+	option = {
+		name = eternal_edict.0004.c
+		add_prestige = 100
+		add_hook = { type = favor_hook target = scope:summon_guest }
+	}
+}
+
+# Edict 0005
+eternal_edict.0005 = {
+	type = character_event
+	title = eternal_edict.0005.t
+	desc = eternal_edict.0005.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_awakening }
+	left_portrait = { character = root animation = happiness }
+	right_portrait = { character = scope:summon_guest animation = happiness }
+
+	trigger = {
+		exists = var:summon_target
+		var:summon_target = { is_alive = yes }
+	}
+
+	immediate = {
+		var:summon_target ?= { save_scope_as = summon_guest }
+	}
+
+	option = {
+		name = eternal_edict.0005.a
+		add_prestige = 80
+		scope:summon_guest = { add_stress = 20 }
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_maiden_shamed_opinion } }
+	}
+
+	option = {
+		name = eternal_edict.0005.b
+		add_stress = -20
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		add_prestige = 40
+	}
+
+	option = {
+		name = eternal_edict.0005.c
+		add_piety = 30
+		add_hook = { type = favor_hook target = scope:summon_guest }
+	}
+}
+
+# Edict 0006
+eternal_edict.0006 = {
+	type = character_event
+	title = eternal_edict.0006.t
+	desc = eternal_edict.0006.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_awakening }
+	left_portrait = { character = root animation = personality_rational }
+	right_portrait = { character = scope:summon_guest animation = idle }
+
+	trigger = {
+		exists = var:summon_target
+		var:summon_target = { is_alive = yes }
+	}
+
+	immediate = {
+		var:summon_target ?= { save_scope_as = summon_guest }
+	}
+
+	option = {
+		name = eternal_edict.0006.a
+		random_list = {
+			80 = {
+				add_hook = { type = favor_hook target = scope:summon_guest }
+				add_prestige = 40
+			}
+			20 = {
+				scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+				add_stress = -10
+			}
+		}
+	}
+
+	option = {
+		name = eternal_edict.0006.b
+		add_prestige = 60
+		scope:summon_guest = { add_stress = 10 }
+	}
+
+	option = {
+		name = eternal_edict.0006.c
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+	}
+}
+
+# Edict 0007
+eternal_edict.0007 = {
+	type = character_event
+	title = eternal_edict.0007.t
+	desc = eternal_edict.0007.desc
+	theme = intrigue
+	override_background = { reference = eternal_bloodline_assassin }
+	left_portrait = { character = root animation = personality_vengeful }
+	right_portrait = { character = scope:summon_guest animation = idle }
+
+	trigger = {
+		exists = var:summon_target
+		var:summon_target = { is_alive = yes }
+	}
+
+	immediate = {
+		var:summon_target ?= { save_scope_as = summon_guest }
+	}
+
+	option = {
+		name = eternal_edict.0007.a
+		add_dread = 30
+		scope:summon_guest = { add_stress = 30 }
+	}
+
+	option = {
+		name = eternal_edict.0007.b
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		add_stress = -10
+	}
+
+	option = {
+		name = eternal_edict.0007.c
+		random_list = {
+			60 = {
+				add_hook = { type = favor_hook target = scope:summon_guest }
+			}
+			40 = {
+				scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+			}
+		}
+	}
+}
+
+# Edict 0008
+eternal_edict.0008 = {
+	type = character_event
+	title = eternal_edict.0008.t
+	desc = eternal_edict.0008.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+	right_portrait = { character = scope:summon_guest animation = idle }
+
+	trigger = {
+		exists = var:summon_target
+		var:summon_target = { is_alive = yes }
+	}
+
+	immediate = {
+		var:summon_target ?= { save_scope_as = summon_guest }
+	}
+
+	option = {
+		name = eternal_edict.0008.a
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		add_hook = { type = favor_hook target = scope:summon_guest }
+		add_prestige = 50
+	}
+
+	option = {
+		name = eternal_edict.0008.b
+		add_stress = -30
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+	}
+
+	option = {
+		name = eternal_edict.0008.c
+		add_prestige = 60
+		add_piety = 30
+	}
+}
+
+# Edict 0009
+eternal_edict.0009 = {
+	type = character_event
+	title = eternal_edict.0009.t
+	desc = eternal_edict.0009.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_awakening }
+	left_portrait = { character = root animation = happiness }
+	right_portrait = { character = scope:summon_guest animation = happiness }
+
+	trigger = {
+		exists = var:summon_target
+		var:summon_target = { is_alive = yes }
+	}
+
+	immediate = {
+		var:summon_target ?= { save_scope_as = summon_guest }
+	}
+
+	option = {
+		name = eternal_edict.0009.a
+		add_prestige = 120
+		add_stress = -15
+	}
+
+	option = {
+		name = eternal_edict.0009.b
+		add_hook = { type = favor_hook target = scope:summon_guest }
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+	}
+
+	option = {
+		name = eternal_edict.0009.c
+		add_dread = 30
+		add_prestige = 60
+	}
+}
+
+# Edict 0010
+eternal_edict.0010 = {
+	type = character_event
+	title = eternal_edict.0010.t
+	desc = eternal_edict.0010.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_awakening }
+	left_portrait = { character = root animation = happiness }
+	right_portrait = { character = scope:summon_guest animation = happiness }
+
+	trigger = {
+		exists = var:summon_target
+		var:summon_target = { is_alive = yes }
+		is_adult = yes
+		var:summon_target = { is_adult = yes }
+	}
+
+	immediate = {
+		var:summon_target ?= { save_scope_as = summon_guest }
+	}
+
+	option = {
+		name = eternal_edict.0010.a
+		set_relation_lover = scope:summon_guest
+		add_stress = -30
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		eternal_edict_conceive_effect = yes
+	}
+
+	option = {
+		name = eternal_edict.0010.b
+		set_relation_lover = scope:summon_guest
+		add_hook = { type = favor_hook target = scope:summon_guest }
+		add_stress = -20
+	}
+
+	option = {
+		name = eternal_edict.0010.c
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		add_prestige = 40
+	}
+}
+
+# Edict 0011
+eternal_edict.0011 = {
+	type = character_event
+	title = eternal_edict.0011.t
+	desc = eternal_edict.0011.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_awakening }
+	left_portrait = { character = root animation = happiness }
+	right_portrait = { character = scope:summon_guest animation = happiness }
+
+	trigger = {
+		exists = var:summon_target
+		var:summon_target = { is_alive = yes }
+		is_adult = yes
+		var:summon_target = { is_adult = yes }
+	}
+
+	immediate = {
+		var:summon_target ?= { save_scope_as = summon_guest }
+	}
+
+	option = {
+		name = eternal_edict.0011.a
+		set_relation_lover = scope:summon_guest
+		add_stress = -30
+		eternal_edict_conceive_effect = yes
+	}
+
+	option = {
+		name = eternal_edict.0011.b
+		set_relation_lover = scope:summon_guest
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		add_stress = -20
+	}
+
+	option = {
+		name = eternal_edict.0011.c
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		add_piety = 30
+	}
+}
+
