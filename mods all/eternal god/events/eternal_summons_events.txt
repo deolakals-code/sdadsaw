@@ -20,16 +20,7 @@ eternal_summons.0001 = {
 	option = {
 		name = eternal_summons.0001.a
 		ai_chance = { base = 90 }
-		hidden_effect = {
-			start_travel_plan = {
-				destination = var:summoned_by.capital_province
-				on_arrival_on_action = eternal_summons_arrive
-				on_travel_planner_cancel_on_action = eternal_summons_cancel
-				on_arrival_destinations = last
-				return_trip = no
-				players_use_planner = no
-			}
-		}
+		eternal_summons_depart_effect = yes
 	}
 
 	option = {
@@ -61,6 +52,7 @@ eternal_summons.0002 = {
 		add_prestige = 100
 		remove_variable = summon_target
 		remove_variable = eternal_stay_days
+		remove_variable = eternal_summon_arrived
 	}
 
 	option = {
@@ -69,6 +61,7 @@ eternal_summons.0002 = {
 		add_stress = -15
 		remove_variable = summon_target
 		remove_variable = eternal_stay_days
+		remove_variable = eternal_summon_arrived
 	}
 }
 
@@ -85,44 +78,47 @@ eternal_summons.0010 = {
 	trigger = {
 		exists = var:summon_target
 		var:summon_target = { is_alive = yes }
+		NOT = { has_variable = eternal_summon_arrived }
 	}
 
 	immediate = {
 		var:summon_target ?= { save_scope_as = summon_guest }
+		set_variable = eternal_summon_arrived
+		scope:summon_guest = { remove_character_modifier = eternal_carriage_rider_modifier }
 	}
 
 	option = {
 		name = eternal_summons.0010.a
 		set_variable = { name = eternal_stay_days value = 15 }
-		trigger_event = { id = eternal_summons.0100 days = 3 }
+		trigger_event = { id = eternal_summons.0020 days = 1 }
 		trigger_event = { id = eternal_summons.0200 days = 15 }
 	}
 
 	option = {
 		name = eternal_summons.0010.b
 		set_variable = { name = eternal_stay_days value = 180 }
-		trigger_event = { id = eternal_summons.0100 days = 3 }
+		trigger_event = { id = eternal_summons.0020 days = 1 }
 		trigger_event = { id = eternal_summons.0200 days = 180 }
 	}
 
 	option = {
 		name = eternal_summons.0010.c
 		set_variable = { name = eternal_stay_days value = 365 }
-		trigger_event = { id = eternal_summons.0100 days = 3 }
+		trigger_event = { id = eternal_summons.0020 days = 1 }
 		trigger_event = { id = eternal_summons.0200 days = 365 }
 	}
 
 	option = {
 		name = eternal_summons.0010.d
 		set_variable = { name = eternal_stay_days value = 1825 }
-		trigger_event = { id = eternal_summons.0100 days = 3 }
+		trigger_event = { id = eternal_summons.0020 days = 1 }
 		trigger_event = { id = eternal_summons.0200 days = 1825 }
 	}
 
 	option = {
 		name = eternal_summons.0010.e
 		set_variable = { name = eternal_stay_days value = 60 }
-		trigger_event = { id = eternal_summons.0100 days = 3 }
+		trigger_event = { id = eternal_summons.0020 days = 1 }
 		trigger_event = { id = eternal_summons.0200 days = { 30 720 } }
 	}
 }
@@ -131,7 +127,28 @@ eternal_summons.0010 = {
 eternal_summons.0100 = {
 	type = character_event
 	title = eternal_summons.0100.t
-	desc = eternal_summons.0100.desc
+	desc = {
+		desc = eternal_summons.0100.desc
+		first_valid = {
+			triggered_desc = {
+				trigger = { has_character_flag = eternal_reception_pomp }
+				desc = eternal_summons.0100.desc_pomp
+			}
+			triggered_desc = {
+				trigger = { has_character_flag = eternal_reception_feast }
+				desc = eternal_summons.0100.desc_feast
+			}
+			triggered_desc = {
+				trigger = { has_character_flag = eternal_reception_quiet }
+				desc = eternal_summons.0100.desc_quiet
+			}
+			triggered_desc = {
+				trigger = { has_character_flag = eternal_reception_dread }
+				desc = eternal_summons.0100.desc_dread
+			}
+			desc = eternal_summons.0100.desc_none
+		}
+	}
 	theme = intrigue
 	override_background = { reference = eternal_bloodline_awakening }
 	left_portrait = { character = root animation = personality_vengeful }
@@ -153,13 +170,11 @@ eternal_summons.0100 = {
 
 	option = {
 		name = eternal_summons.0100.b
-		trigger = { scope:summon_guest = { is_adult = yes } }
 		trigger_event = eternal_summons.2100
 	}
 
 	option = {
 		name = eternal_summons.0100.c
-		trigger = { scope:summon_guest = { is_adult = yes } }
 		trigger_event = eternal_summons.3100
 	}
 
@@ -232,7 +247,8 @@ eternal_summons.2100 = {
 				add_opinion = { target = root modifier = eternal_maiden_shamed_opinion } } }
 			10 = { scope:summon_guest = { death = { death_reason = death_execution killer = root } }
 				remove_variable = summon_target
-		remove_variable = eternal_stay_days }
+		remove_variable = eternal_stay_days
+		remove_variable = eternal_summon_arrived }
 		}
 	}
 }
@@ -338,6 +354,7 @@ eternal_summons.5100 = {
 		add_prestige = 100
 		remove_variable = summon_target
 		remove_variable = eternal_stay_days
+		remove_variable = eternal_summon_arrived
 	}
 }
 
@@ -422,13 +439,14 @@ eternal_summons.1200 = {
 			else = {
 				add_character_modifier = { modifier = eternal_revival_1_modifier years = 5 }
 			}
-			return_home = yes
+			eternal_summons_return_effect = yes
 		}
 		remove_short_term_gold = 5
 		add_prestige = 70
 		add_piety = 35
 		remove_variable = summon_target
 		remove_variable = eternal_stay_days
+		remove_variable = eternal_summon_arrived
 	}
 }
 
@@ -464,13 +482,14 @@ eternal_summons.2200 = {
 			else = {
 				add_character_modifier = { modifier = eternal_revival_2_modifier years = 8 }
 			}
-			return_home = yes
+			eternal_summons_return_effect = yes
 		}
 		remove_short_term_gold = 10
 		add_prestige = 90
 		add_piety = 45
 		remove_variable = summon_target
 		remove_variable = eternal_stay_days
+		remove_variable = eternal_summon_arrived
 	}
 }
 
@@ -506,13 +525,14 @@ eternal_summons.3200 = {
 			else = {
 				add_character_modifier = { modifier = eternal_revival_3_modifier years = 12 }
 			}
-			return_home = yes
+			eternal_summons_return_effect = yes
 		}
 		remove_short_term_gold = 20
 		add_prestige = 130
 		add_piety = 65
 		remove_variable = summon_target
 		remove_variable = eternal_stay_days
+		remove_variable = eternal_summon_arrived
 	}
 }
 
@@ -548,13 +568,14 @@ eternal_summons.4200 = {
 			else = {
 				add_character_modifier = { modifier = eternal_revival_4_modifier years = 20 }
 			}
-			return_home = yes
+			eternal_summons_return_effect = yes
 		}
 		remove_short_term_gold = 50
 		add_prestige = 250
 		add_piety = 125
 		remove_variable = summon_target
 		remove_variable = eternal_stay_days
+		remove_variable = eternal_summon_arrived
 	}
 }
 
@@ -589,12 +610,402 @@ eternal_summons.5200 = {
 			else = {
 				add_character_modifier = { modifier = eternal_revival_0_modifier years = 3 }
 			}
-			return_home = yes
+			eternal_summons_return_effect = yes
 		}
 		add_prestige = 50
 		add_piety = 25
 		remove_variable = summon_target
 		remove_variable = eternal_stay_days
+		remove_variable = eternal_summon_arrived
+	}
+}
+
+# Reception at court
+eternal_summons.0020 = {
+	type = character_event
+	title = eternal_summons.0020.t
+	desc = eternal_summons.0020.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+	right_portrait = { character = scope:summon_guest animation = fear }
+
+	trigger = {
+		exists = var:summon_target
+		var:summon_target = { is_alive = yes }
+	}
+
+	immediate = {
+		var:summon_target ?= { save_scope_as = summon_guest }
+	}
+
+	option = {
+		name = eternal_summons.0020.a
+		add_prestige = 150
+		scope:summon_guest = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		add_character_flag = { flag = eternal_reception_pomp years = 1 }
+		trigger_event = { id = eternal_summons.0100 days = 2 }
+	}
+
+	option = {
+		name = eternal_summons.0020.b
+		add_stress = -20
+		add_hook = { type = favor_hook target = scope:summon_guest }
+		add_character_flag = { flag = eternal_reception_feast years = 1 }
+		trigger_event = { id = eternal_summons.0100 days = 2 }
+	}
+
+	option = {
+		name = eternal_summons.0020.c
+		add_dread = 20
+		scope:summon_guest = { add_stress = 10 }
+		add_character_flag = { flag = eternal_reception_quiet years = 1 }
+		trigger_event = { id = eternal_summons.0100 days = 2 }
+	}
+
+	option = {
+		name = eternal_summons.0020.d
+		add_dread = 40
+		add_prestige = 60
+		scope:summon_guest = { add_stress = 30 }
+		add_character_flag = { flag = eternal_reception_dread years = 1 }
+		trigger_event = { id = eternal_summons.0100 days = 2 }
+	}
+}
+
+# The carriage on the road
+eternal_summons.0030 = {
+	type = character_event
+	title = eternal_summons.0030.t
+	desc = eternal_summons.0030.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_zealous }
+	right_portrait = { character = scope:summon_guest animation = idle }
+
+	trigger = {
+		exists = var:summon_target
+		NOT = { has_variable = eternal_summon_arrived }
+	}
+
+	immediate = {
+		var:summon_target ?= { save_scope_as = summon_guest }
+	}
+
+	option = {
+		name = eternal_summons.0030.a
+		add_piety = 80
+		var:summon_target ?= { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+	}
+
+	option = {
+		name = eternal_summons.0030.b
+		add_prestige = 80
+		add_dread = 10
+	}
+
+	option = {
+		name = eternal_summons.0030.c
+		add_prestige = 60
+		add_stress = -10
+	}
+}
+
+# Fallback: the carriage never arrived
+eternal_summons.0050 = {
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				exists = var:summon_target
+				NOT = { has_variable = eternal_summon_arrived }
+			}
+			var:summon_target = {
+				if = {
+					limit = { is_alive = yes }
+					current_travel_plan ?= { abort_travel_plan = yes }
+					set_location = root.location
+				}
+			}
+			if = {
+				limit = { var:summon_target = { is_alive = yes } }
+				trigger_event = eternal_summons.0010
+			}
+			else = {
+				remove_variable = summon_target
+			}
+		}
+	}
+}
+
+# Fallback: the summoned ruler never reached home
+eternal_summons.0060 = {
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = { exists = var:summoned_by }
+			current_travel_plan ?= { abort_travel_plan = yes }
+			set_location_to_default = yes
+			remove_character_modifier = eternal_carriage_rider_modifier
+			trigger_event = eternal_summons.1300
+		}
+	}
+}
+
+# Fallback: the Maiden's own journey never ended
+eternal_summons.0070 = {
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				exists = var:progress_target
+				NOT = { has_variable = eternal_progress_arrived }
+			}
+			current_travel_plan ?= { abort_travel_plan = yes }
+			var:progress_target ?= { save_scope_as = host_realm }
+			set_location = scope:host_realm.location
+			trigger_event = eternal_summons.0400
+		}
+	}
+}
+
+# Home at last
+eternal_summons.1300 = {
+	type = character_event
+	title = eternal_summons.1300.t
+	desc = eternal_summons.1300.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = happiness }
+
+	immediate = {
+		var:summoned_by ?= { save_scope_as = summoner }
+	}
+
+	option = {
+		name = eternal_summons.1300.a
+		ai_chance = { base = 34 }
+		trigger_event = eternal_summons.1310
+	}
+
+	option = {
+		name = eternal_summons.1300.b
+		ai_chance = { base = 33 }
+		trigger_event = eternal_summons.1320
+	}
+
+	option = {
+		name = eternal_summons.1300.c
+		ai_chance = { base = 33 }
+		trigger_event = eternal_summons.1330
+	}
+}
+
+# Result 1310
+eternal_summons.1310 = {
+	type = character_event
+	title = eternal_summons.1310.t
+	desc = eternal_summons.1310.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = happiness }
+
+	immediate = {
+		var:summoned_by ?= { save_scope_as = summoner }
+	}
+
+	option = {
+		name = eternal_summons_result_ok
+		add_stress = -20
+		add_prestige = 100
+		add_character_modifier = { modifier = eternal_fortune_0_modifier years = 2 }
+		remove_variable = summoned_by
+	}
+}
+
+# Result 1320
+eternal_summons.1320 = {
+	type = character_event
+	title = eternal_summons.1320.t
+	desc = eternal_summons.1320.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_bold }
+
+	immediate = {
+		var:summoned_by ?= { save_scope_as = summoner }
+	}
+
+	option = {
+		name = eternal_summons_result_ok
+		add_prestige = 60
+		add_piety = 60
+		add_character_modifier = { modifier = eternal_fortune_0_modifier years = 2 }
+		remove_variable = summoned_by
+	}
+}
+
+# Result 1330
+eternal_summons.1330 = {
+	type = character_event
+	title = eternal_summons.1330.t
+	desc = eternal_summons.1330.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_worship }
+	left_portrait = { character = root animation = personality_zealous }
+
+	immediate = {
+		var:summoned_by ?= { save_scope_as = summoner }
+	}
+
+	option = {
+		name = eternal_summons_result_ok
+		add_piety = 150
+		scope:summoner ?= { add_prestige = 80 }
+		remove_variable = summoned_by
+	}
+}
+
+# The Maiden arrives in a foreign realm
+eternal_summons.0400 = {
+	type = character_event
+	title = eternal_summons.0400.t
+	desc = eternal_summons.0400.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_awakening }
+	left_portrait = { character = root animation = personality_bold }
+	right_portrait = { character = scope:host_realm animation = idle }
+
+	trigger = {
+		exists = var:progress_target
+		NOT = { has_variable = eternal_progress_arrived }
+	}
+
+	immediate = {
+		var:progress_target ?= { save_scope_as = host_realm }
+		set_variable = eternal_progress_arrived
+	}
+
+	option = {
+		name = eternal_summons.0400.a
+		trigger_event = eternal_summons.1400
+	}
+
+	option = {
+		name = eternal_summons.0400.b
+		trigger_event = eternal_summons.2400
+	}
+
+	option = {
+		name = eternal_summons.0400.c
+		trigger_event = eternal_summons.3400
+	}
+
+	option = {
+		name = eternal_summons.0400.d
+		trigger_event = eternal_summons.4400
+	}
+}
+
+# Result 1400
+eternal_summons.1400 = {
+	type = character_event
+	title = eternal_summons.1400.t
+	desc = eternal_summons.1400.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_awakening }
+	left_portrait = { character = root animation = happiness }
+	right_portrait = { character = scope:host_realm animation = idle }
+
+	immediate = {
+		var:progress_target ?= { save_scope_as = host_realm }
+	}
+
+	option = {
+		name = eternal_summons_result_ok
+		add_prestige = 150
+		scope:host_realm = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		remove_variable = progress_target
+		remove_variable = eternal_progress_arrived
+		remove_character_modifier = eternal_carriage_rider_modifier
+	}
+}
+
+# Result 2400
+eternal_summons.2400 = {
+	type = character_event
+	title = eternal_summons.2400.t
+	desc = eternal_summons.2400.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_awakening }
+	left_portrait = { character = root animation = personality_vengeful }
+	right_portrait = { character = scope:host_realm animation = idle }
+
+	immediate = {
+		var:progress_target ?= { save_scope_as = host_realm }
+	}
+
+	option = {
+		name = eternal_summons_result_ok
+		add_dread = 30
+		add_prestige = 60
+		add_hook = { type = favor_hook target = scope:host_realm }
+		remove_variable = progress_target
+		remove_variable = eternal_progress_arrived
+		remove_character_modifier = eternal_carriage_rider_modifier
+	}
+}
+
+# Result 3400
+eternal_summons.3400 = {
+	type = character_event
+	title = eternal_summons.3400.t
+	desc = eternal_summons.3400.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_awakening }
+	left_portrait = { character = root animation = happiness }
+	right_portrait = { character = scope:host_realm animation = idle }
+
+	immediate = {
+		var:progress_target ?= { save_scope_as = host_realm }
+	}
+
+	option = {
+		name = eternal_summons_result_ok
+		add_stress = -30
+		add_piety = 50
+		scope:host_realm = { add_opinion = { target = root modifier = eternal_charmed_opinion } }
+		remove_variable = progress_target
+		remove_variable = eternal_progress_arrived
+		remove_character_modifier = eternal_carriage_rider_modifier
+	}
+}
+
+# Result 4400
+eternal_summons.4400 = {
+	type = character_event
+	title = eternal_summons.4400.t
+	desc = eternal_summons.4400.desc
+	theme = realm
+	override_background = { reference = eternal_bloodline_awakening }
+	left_portrait = { character = root animation = personality_vengeful }
+	right_portrait = { character = scope:host_realm animation = idle }
+
+	immediate = {
+		var:progress_target ?= { save_scope_as = host_realm }
+	}
+
+	option = {
+		name = eternal_summons_result_ok
+		add_gold = 200
+		add_dread = 40
+		scope:host_realm = { add_opinion = { target = root modifier = eternal_maiden_shamed_opinion } }
+		remove_variable = progress_target
+		remove_variable = eternal_progress_arrived
+		remove_character_modifier = eternal_carriage_rider_modifier
 	}
 }
 

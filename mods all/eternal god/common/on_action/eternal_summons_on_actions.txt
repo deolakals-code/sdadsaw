@@ -1,4 +1,10 @@
-﻿eternal_summons_arrive = {
+﻿eternal_summons_started = {
+	effect = {
+		eternal_carriage_speed_effect = yes
+	}
+}
+
+eternal_summons_arrive = {
 	effect = {
 		var:summoned_by ?= { trigger_event = eternal_summons.0010 }
 	}
@@ -9,7 +15,30 @@ eternal_summons_cancel = {
 		var:summoned_by ?= {
 			remove_variable = summon_target
 			remove_variable = eternal_stay_days
+			remove_variable = eternal_summon_arrived
 		}
 		remove_variable = summoned_by
+		remove_character_modifier = eternal_carriage_rider_modifier
+	}
+}
+
+eternal_summons_home = {
+	effect = {
+		remove_character_modifier = eternal_carriage_rider_modifier
+		trigger_event = eternal_summons.1300
+	}
+}
+
+eternal_summons_progress_arrive = {
+	effect = {
+		trigger_event = eternal_summons.0400
+	}
+}
+
+eternal_summons_progress_cancel = {
+	effect = {
+		remove_variable = progress_target
+		remove_variable = eternal_progress_arrived
+		remove_character_modifier = eternal_carriage_rider_modifier
 	}
 }

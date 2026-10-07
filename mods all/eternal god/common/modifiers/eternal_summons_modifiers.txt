@@ -69,3 +69,15 @@ eternal_revival_4_modifier = {
 	county_opinion_add = 40
 }
 
+# The Holy Maiden's relay carriages: Mongol-yam speed. The first applies to the travel plan, the second to the traveller.
+eternal_carriage_travel_modifier = {
+	travel_speed = 150
+	travel_safety = 100
+}
+
+eternal_carriage_rider_modifier = {
+	character_travel_speed = 30
+	character_travel_speed_mult = 1.0
+	character_travel_safety_mult = 1.0
+}
+

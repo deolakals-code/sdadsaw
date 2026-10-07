@@ -1,0 +1,103 @@
+﻿# Royal Summons helpers.
+
+# Adds the Mongol-speed modifier to the scoped character's travel plan (once).
+eternal_carriage_speed_effect = {
+	current_travel_plan ?= {
+		if = {
+			limit = { NOT = { has_travel_plan_modifier = eternal_carriage_travel_modifier } }
+			add_travel_plan_modifier = { modifier = eternal_carriage_travel_modifier years = 1 }
+		}
+	}
+}
+
+# root = the summoned character, var:summoned_by = the Holy Maiden.
+# Sends the carriage; timers on the Maiden guarantee the arrival even if the travel plan fails.
+eternal_summons_depart_effect = {
+	var:summoned_by = { save_scope_as = summoner }
+	add_character_modifier = { modifier = eternal_carriage_rider_modifier years = 1 }
+	hidden_effect = {
+		start_travel_plan = {
+			destination = scope:summoner.capital_province
+			on_start_on_action = eternal_summons_started
+			on_arrival_on_action = eternal_summons_arrive
+			on_travel_planner_cancel_on_action = eternal_summons_cancel
+			on_arrival_destinations = last
+			return_trip = no
+			players_use_planner = no
+		}
+		eternal_carriage_speed_effect = yes
+	}
+	if = {
+		limit = { "capital_province.squared_distance(scope:summoner.capital_province)" <= squared_distance_medium }
+		scope:summoner = {
+			trigger_event = { id = eternal_summons.0030 days = 4 }
+			trigger_event = { id = eternal_summons.0050 days = 12 }
+		}
+	}
+	else_if = {
+		limit = { "capital_province.squared_distance(scope:summoner.capital_province)" <= squared_distance_large }
+		scope:summoner = {
+			trigger_event = { id = eternal_summons.0030 days = 10 }
+			trigger_event = { id = eternal_summons.0050 days = 25 }
+		}
+	}
+	else = {
+		scope:summoner = {
+			trigger_event = { id = eternal_summons.0030 days = 20 }
+			trigger_event = { id = eternal_summons.0050 days = 45 }
+		}
+	}
+}
+
+# root = the summoned character, sent home by carriage at the same speed.
+eternal_summons_return_effect = {
+	add_character_modifier = { modifier = eternal_carriage_rider_modifier years = 1 }
+	hidden_effect = {
+		if = {
+			limit = { exists = capital_province }
+			start_travel_plan = {
+				destination = capital_province
+				on_start_on_action = eternal_summons_started
+				on_arrival_on_action = eternal_summons_home
+				on_arrival_destinations = last
+				return_trip = no
+				players_use_planner = no
+			}
+			eternal_carriage_speed_effect = yes
+		}
+		else = {
+			set_location_to_default = yes
+			trigger_event = eternal_summons.1300
+		}
+	}
+	trigger_event = { id = eternal_summons.0060 days = 45 }
+}
+
+# root = the Holy Maiden, var:progress_target = the ruler she visits.
+eternal_progress_depart_effect = {
+	var:progress_target = { save_scope_as = host_realm }
+	add_character_modifier = { modifier = eternal_carriage_rider_modifier years = 1 }
+	hidden_effect = {
+		start_travel_plan = {
+			destination = scope:host_realm.capital_province
+			on_start_on_action = eternal_summons_started
+			on_arrival_on_action = eternal_summons_progress_arrive
+			on_travel_planner_cancel_on_action = eternal_summons_progress_cancel
+			on_arrival_destinations = last
+			return_trip = no
+			players_use_planner = no
+		}
+		eternal_carriage_speed_effect = yes
+	}
+	if = {
+		limit = { "capital_province.squared_distance(scope:host_realm.capital_province)" <= squared_distance_medium }
+		trigger_event = { id = eternal_summons.0070 days = 12 }
+	}
+	else_if = {
+		limit = { "capital_province.squared_distance(scope:host_realm.capital_province)" <= squared_distance_large }
+		trigger_event = { id = eternal_summons.0070 days = 25 }
+	}
+	else = {
+		trigger_event = { id = eternal_summons.0070 days = 45 }
+	}
+}

@@ -115,7 +115,7 @@ eternal_royal_summons_interaction = {
 	interface_priority = 72
 	desc = eternal_royal_summons_interaction_desc
 	auto_accept = yes
-	cooldown = { days = 90 }
+	cooldown = { days = 15 }
 	is_shown = {
 		scope:actor = { has_trait = holy_maiden }
 		scope:recipient != scope:actor
@@ -132,10 +132,43 @@ eternal_royal_summons_interaction = {
 		}
 	}
 	on_accept = {
-		scope:actor = { set_variable = { name = summon_target value = scope:recipient } }
+		scope:actor = { set_variable = { name = summon_target value = scope:recipient years = 6 } }
 		scope:recipient = {
-			set_variable = { name = summoned_by value = scope:actor }
+			set_variable = { name = summoned_by value = scope:actor years = 6 }
 			trigger_event = eternal_summons.0001
+		}
+	}
+	ai_accept = { base = 100 }
+	ai_potential = { always = no }
+	ai_will_do = { base = 0 }
+}
+
+eternal_royal_progress_interaction = {
+	category = interaction_category_eternal_realm
+	icon = icon_scheme_befriend
+	interface_priority = 71
+	desc = eternal_royal_progress_interaction_desc
+	auto_accept = yes
+	cooldown = { days = 15 }
+	is_shown = {
+		scope:actor = { has_trait = holy_maiden }
+		scope:recipient != scope:actor
+		scope:recipient = {
+			is_ruler = yes
+			is_alive = yes
+		}
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = {
+			is_imprisoned = no
+			NOT = { has_variable = summon_target }
+			NOT = { has_variable = progress_target }
+		}
+	}
+	on_accept = {
+		scope:actor = {
+			set_variable = { name = progress_target value = scope:recipient years = 2 }
+			eternal_progress_depart_effect = yes
 		}
 	}
 	ai_accept = { base = 100 }
