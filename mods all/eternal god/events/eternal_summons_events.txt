@@ -170,11 +170,13 @@ eternal_summons.0100 = {
 
 	option = {
 		name = eternal_summons.0100.b
+		trigger = { scope:summon_guest = { is_adult = yes } }
 		trigger_event = eternal_summons.2100
 	}
 
 	option = {
 		name = eternal_summons.0100.c
+		trigger = { scope:summon_guest = { is_adult = yes } }
 		trigger_event = eternal_summons.3100
 	}
 
@@ -230,6 +232,7 @@ eternal_summons.2100 = {
 	trigger = {
 		exists = var:summon_target
 		var:summon_target = { is_alive = yes }
+		var:summon_target = { is_adult = yes }
 	}
 
 	immediate = {
@@ -274,6 +277,7 @@ eternal_summons.3100 = {
 	trigger = {
 		exists = var:summon_target
 		var:summon_target = { is_alive = yes }
+		var:summon_target = { is_adult = yes }
 	}
 
 	immediate = {
